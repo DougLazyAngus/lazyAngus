@@ -19,6 +19,6 @@ struct ObjectU5BU5D_t696;
 // System.Void UnityEngine.Events.CachedInvokableCall`1<System.String>::.ctor(UnityEngine.Object,System.Reflection.MethodInfo,T)
 // UnityEngine.Events.CachedInvokableCall`1<System.Object>
 #include "UnityEngine_UnityEngine_Events_CachedInvokableCall_1_gen_3MethodDeclarations.h"
-#define CachedInvokableCall_1__ctor_m10341(__this, ___target, ___theFunction, ___argument, method) (( void (*) (CachedInvokableCall_1_t2975 *, Object_t717 *, MethodInfo_t *, String_t*, const MethodInfo*))CachedInvokableCall_1__ctor_m63075_gshared)(__this, ___target, ___theFunction, ___argument, method)
+#define CachedInvokableCall_1__ctor_m10344(__this, ___target, ___theFunction, ___argument, method) (( void (*) (CachedInvokableCall_1_t2975 *, Object_t717 *, MethodInfo_t *, String_t*, const MethodInfo*))CachedInvokableCall_1__ctor_m67351_gshared)(__this, ___target, ___theFunction, ___argument, method)
 // System.Void UnityEngine.Events.CachedInvokableCall`1<System.String>::Invoke(System.Object[])
-#define CachedInvokableCall_1_Invoke_m63087(__this, ___args, method) (( void (*) (CachedInvokableCall_1_t2975 *, ObjectU5BU5D_t696*, const MethodInfo*))CachedInvokableCall_1_Invoke_m63076_gshared)(__this, ___args, method)
+#define CachedInvokableCall_1_Invoke_m67363(__this, ___args, method) (( void (*) (CachedInvokableCall_1_t2975 *, ObjectU5BU5D_t696*, const MethodInfo*))CachedInvokableCall_1_Invoke_m67352_gshared)(__this, ___args, method)

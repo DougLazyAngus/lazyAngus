@@ -16,11 +16,11 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnityEngine.GUISkin/SkinChangedDelegate::.ctor(System.Object,System.IntPtr)
-extern "C" void SkinChangedDelegate__ctor_m9115 (SkinChangedDelegate_t2743 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SkinChangedDelegate__ctor_m9118 (SkinChangedDelegate_t2743 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUISkin/SkinChangedDelegate::Invoke()
-extern "C" void SkinChangedDelegate_Invoke_m9116 (SkinChangedDelegate_t2743 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SkinChangedDelegate_Invoke_m9119 (SkinChangedDelegate_t2743 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void pinvoke_delegate_wrapper_SkinChangedDelegate_t2743(Il2CppObject* delegate);
 // System.IAsyncResult UnityEngine.GUISkin/SkinChangedDelegate::BeginInvoke(System.AsyncCallback,System.Object)
-extern "C" Object_t * SkinChangedDelegate_BeginInvoke_m9117 (SkinChangedDelegate_t2743 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SkinChangedDelegate_BeginInvoke_m9120 (SkinChangedDelegate_t2743 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUISkin/SkinChangedDelegate::EndInvoke(System.IAsyncResult)
-extern "C" void SkinChangedDelegate_EndInvoke_m9118 (SkinChangedDelegate_t2743 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SkinChangedDelegate_EndInvoke_m9121 (SkinChangedDelegate_t2743 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

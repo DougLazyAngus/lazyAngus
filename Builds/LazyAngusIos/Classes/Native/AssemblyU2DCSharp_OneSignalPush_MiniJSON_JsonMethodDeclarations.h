@@ -12,6 +12,6 @@ struct Object_t;
 struct String_t;
 
 // System.Object OneSignalPush.MiniJSON.Json::Deserialize(System.String)
-extern "C" Object_t * Json_Deserialize_m2104 (Object_t * __this /* static, unused */, String_t* ___json, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Json_Deserialize_m2106 (Object_t * __this /* static, unused */, String_t* ___json, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String OneSignalPush.MiniJSON.Json::Serialize(System.Object)
-extern "C" String_t* Json_Serialize_m2105 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Json_Serialize_m2107 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;

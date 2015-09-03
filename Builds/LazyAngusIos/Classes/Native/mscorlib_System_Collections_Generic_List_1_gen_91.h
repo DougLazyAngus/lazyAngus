@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// Parse.ParseRole[]
-struct ParseRoleU5BU5D_t7019;
+// Parse.ParseUser[]
+struct ParseUserU5BU5D_t7545;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<Parse.ParseRole>
-struct  List_1_t7020  : public Object_t
+// System.Collections.Generic.List`1<Parse.ParseUser>
+struct  List_1_t7546  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<Parse.ParseRole>::_items
-	ParseRoleU5BU5D_t7019* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<Parse.ParseRole>::_size
+	// T[] System.Collections.Generic.List`1<Parse.ParseUser>::_items
+	ParseUserU5BU5D_t7545* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<Parse.ParseUser>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<Parse.ParseRole>::_version
+	// System.Int32 System.Collections.Generic.List`1<Parse.ParseUser>::_version
 	int32_t ____version_3;
 };
-struct List_1_t7020_StaticFields{
-	// T[] System.Collections.Generic.List`1<Parse.ParseRole>::EmptyArray
-	ParseRoleU5BU5D_t7019* ___EmptyArray_4;
+struct List_1_t7546_StaticFields{
+	// T[] System.Collections.Generic.List`1<Parse.ParseUser>::EmptyArray
+	ParseUserU5BU5D_t7545* ___EmptyArray_4;
 };

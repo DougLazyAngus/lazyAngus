@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<System.Boolean>
-struct IList_1_t6342;
+struct IList_1_t6875;
 // System.Func`2<System.Boolean,System.Byte>
-struct Func_2_t6457;
+struct Func_2_t6990;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.FlexibleListWrapper`2<System.Byte,System.Boolean>
@@ -14,5 +14,5 @@ struct  FlexibleListWrapper_2_t1605  : public Object_t
 };
 struct FlexibleListWrapper_2_t1605_StaticFields{
 	// System.Func`2<TIn,TOut> Parse.Internal.FlexibleListWrapper`2<System.Byte,System.Boolean>::CS$<>9__CachedAnonymousMethodDelegate1
-	Func_2_t6457 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_1;
+	Func_2_t6990 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_1;
 };

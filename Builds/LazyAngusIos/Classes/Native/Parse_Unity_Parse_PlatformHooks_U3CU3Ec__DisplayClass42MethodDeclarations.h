@@ -10,8 +10,8 @@ struct U3CU3Ec__DisplayClass42_t1348;
 struct Object_t;
 
 // System.Void Parse.PlatformHooks/<>c__DisplayClass42::.ctor()
-extern "C" void U3CU3Ec__DisplayClass42__ctor_m7308 (U3CU3Ec__DisplayClass42_t1348 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass42__ctor_m7312 (U3CU3Ec__DisplayClass42_t1348 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.PlatformHooks/<>c__DisplayClass42::<RequestAsync>b__35(System.Object)
-extern "C" void U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__35_m7309 (U3CU3Ec__DisplayClass42_t1348 * __this, Object_t * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__35_m7313 (U3CU3Ec__DisplayClass42_t1348 * __this, Object_t * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.PlatformHooks/<>c__DisplayClass42::<RequestAsync>b__36(System.Object)
-extern "C" void U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__36_m7310 (U3CU3Ec__DisplayClass42_t1348 * __this, Object_t * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass42_U3CRequestAsyncU3Eb__36_m7314 (U3CU3Ec__DisplayClass42_t1348 * __this, Object_t * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;

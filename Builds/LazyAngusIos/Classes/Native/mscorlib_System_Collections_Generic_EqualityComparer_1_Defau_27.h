@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>
-#include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_27.h"
+#include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_28.h"
 // System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UICharInfo>
-struct  DefaultComparer_t8466  : public EqualityComparer_1_t8465
+struct  DefaultComparer_t9001  : public EqualityComparer_1_t9000
 {
 };

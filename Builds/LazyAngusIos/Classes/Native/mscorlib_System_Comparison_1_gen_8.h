@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<UnionAssets.FLE.DataEventHandlerFunction>
-struct  Comparison_1_t5512  : public MulticastDelegate_t388
+struct  Comparison_1_t6045  : public MulticastDelegate_t388
 {
 };

@@ -5,7 +5,7 @@ struct Func_2_t1513;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.InternalExtensions/<>c__DisplayClass1`2<System.Object,System.Byte>
-struct  U3CU3Ec__DisplayClass1_2_t6277  : public Object_t
+struct  U3CU3Ec__DisplayClass1_2_t6810  : public Object_t
 {
 	// System.Func`2<System.Threading.Tasks.Task`1<TIn>,TResult> Parse.Internal.InternalExtensions/<>c__DisplayClass1`2<System.Object,System.Byte>::continuation
 	Func_2_t1513 * ___continuation_0;

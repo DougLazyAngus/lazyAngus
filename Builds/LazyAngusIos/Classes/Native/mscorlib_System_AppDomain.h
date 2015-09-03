@@ -5,27 +5,27 @@ struct String_t;
 // System.Collections.Hashtable
 struct Hashtable_t710;
 // System.Security.Policy.Evidence
-struct Evidence_t4544;
+struct Evidence_t4832;
 // System.Security.PermissionSet
-struct PermissionSet_t4545;
+struct PermissionSet_t4833;
 // System.Security.Principal.IPrincipal
-struct IPrincipal_t4786;
+struct IPrincipal_t4834;
 // System.AppDomain
 struct AppDomain_t2163;
 // System.AppDomainManager
-struct AppDomainManager_t4796;
+struct AppDomainManager_t4835;
 // System.ActivationContext
-struct ActivationContext_t4794;
+struct ActivationContext_t4830;
 // System.ApplicationIdentity
-struct ApplicationIdentity_t4797;
+struct ApplicationIdentity_t4836;
 // System.AssemblyLoadEventHandler
-struct AssemblyLoadEventHandler_t4798;
+struct AssemblyLoadEventHandler_t4837;
 // System.ResolveEventHandler
-struct ResolveEventHandler_t4799;
+struct ResolveEventHandler_t4838;
 // System.EventHandler
-struct EventHandler_t4074;
+struct EventHandler_t4260;
 // System.UnhandledExceptionEventHandler
-struct UnhandledExceptionEventHandler_t4800;
+struct UnhandledExceptionEventHandler_t4839;
 // System.MarshalByRefObject
 #include "mscorlib_System_MarshalByRefObject.h"
 // System.IntPtr
@@ -33,38 +33,38 @@ struct UnhandledExceptionEventHandler_t4800;
 // System.Security.Principal.PrincipalPolicy
 #include "mscorlib_System_Security_Principal_PrincipalPolicy.h"
 // System.AppDomain
-struct  AppDomain_t2163  : public MarshalByRefObject_t4093
+struct  AppDomain_t2163  : public MarshalByRefObject_t4288
 {
 	// System.IntPtr System.AppDomain::_mono_app_domain
 	IntPtr_t ____mono_app_domain_1;
 	// System.Security.Policy.Evidence System.AppDomain::_evidence
-	Evidence_t4544 * ____evidence_6;
+	Evidence_t4832 * ____evidence_6;
 	// System.Security.PermissionSet System.AppDomain::_granted
-	PermissionSet_t4545 * ____granted_7;
+	PermissionSet_t4833 * ____granted_7;
 	// System.Security.Principal.PrincipalPolicy System.AppDomain::_principalPolicy
 	int32_t ____principalPolicy_8;
 	// System.AppDomainManager System.AppDomain::_domain_manager
-	AppDomainManager_t4796 * ____domain_manager_11;
+	AppDomainManager_t4835 * ____domain_manager_11;
 	// System.ActivationContext System.AppDomain::_activation
-	ActivationContext_t4794 * ____activation_12;
+	ActivationContext_t4830 * ____activation_12;
 	// System.ApplicationIdentity System.AppDomain::_applicationIdentity
-	ApplicationIdentity_t4797 * ____applicationIdentity_13;
+	ApplicationIdentity_t4836 * ____applicationIdentity_13;
 	// System.AssemblyLoadEventHandler System.AppDomain::AssemblyLoad
-	AssemblyLoadEventHandler_t4798 * ___AssemblyLoad_14;
+	AssemblyLoadEventHandler_t4837 * ___AssemblyLoad_14;
 	// System.ResolveEventHandler System.AppDomain::AssemblyResolve
-	ResolveEventHandler_t4799 * ___AssemblyResolve_15;
+	ResolveEventHandler_t4838 * ___AssemblyResolve_15;
 	// System.EventHandler System.AppDomain::DomainUnload
-	EventHandler_t4074 * ___DomainUnload_16;
+	EventHandler_t4260 * ___DomainUnload_16;
 	// System.EventHandler System.AppDomain::ProcessExit
-	EventHandler_t4074 * ___ProcessExit_17;
+	EventHandler_t4260 * ___ProcessExit_17;
 	// System.ResolveEventHandler System.AppDomain::ResourceResolve
-	ResolveEventHandler_t4799 * ___ResourceResolve_18;
+	ResolveEventHandler_t4838 * ___ResourceResolve_18;
 	// System.ResolveEventHandler System.AppDomain::TypeResolve
-	ResolveEventHandler_t4799 * ___TypeResolve_19;
+	ResolveEventHandler_t4838 * ___TypeResolve_19;
 	// System.UnhandledExceptionEventHandler System.AppDomain::UnhandledException
-	UnhandledExceptionEventHandler_t4800 * ___UnhandledException_20;
+	UnhandledExceptionEventHandler_t4839 * ___UnhandledException_20;
 	// System.ResolveEventHandler System.AppDomain::ReflectionOnlyAssemblyResolve
-	ResolveEventHandler_t4799 * ___ReflectionOnlyAssemblyResolve_21;
+	ResolveEventHandler_t4838 * ___ReflectionOnlyAssemblyResolve_21;
 };
 struct AppDomain_t2163_StaticFields{
 	// System.String System.AppDomain::_process_guid

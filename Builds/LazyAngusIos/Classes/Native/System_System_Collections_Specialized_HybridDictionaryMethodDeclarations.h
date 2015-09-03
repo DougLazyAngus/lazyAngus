@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Specialized.HybridDictionary
-struct HybridDictionary_t3973;
+struct HybridDictionary_t3676;
 // System.Collections.IDictionary
 struct IDictionary_t699;
 // System.Object
@@ -20,34 +20,38 @@ struct Array_t;
 struct IDictionaryEnumerator_t798;
 
 // System.Void System.Collections.Specialized.HybridDictionary::.ctor()
-extern "C" void HybridDictionary__ctor_m13470 (HybridDictionary_t3973 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HybridDictionary__ctor_m14821 (HybridDictionary_t3676 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Specialized.HybridDictionary::.ctor(System.Int32,System.Boolean)
-extern "C" void HybridDictionary__ctor_m13471 (HybridDictionary_t3973 * __this, int32_t ___initialSize, bool ___caseInsensitive, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HybridDictionary__ctor_m15613 (HybridDictionary_t3676 * __this, int32_t ___initialSize, bool ___caseInsensitive, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator System.Collections.Specialized.HybridDictionary::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * HybridDictionary_System_Collections_IEnumerable_GetEnumerator_m13472 (HybridDictionary_t3973 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * HybridDictionary_System_Collections_IEnumerable_GetEnumerator_m15614 (HybridDictionary_t3676 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IDictionary System.Collections.Specialized.HybridDictionary::get_inner()
-extern "C" Object_t * HybridDictionary_get_inner_m13473 (HybridDictionary_t3973 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * HybridDictionary_get_inner_m15615 (HybridDictionary_t3676 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.Specialized.HybridDictionary::get_Count()
-extern "C" int32_t HybridDictionary_get_Count_m13474 (HybridDictionary_t3973 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t HybridDictionary_get_Count_m15616 (HybridDictionary_t3676 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.Specialized.HybridDictionary::get_IsSynchronized()
-extern "C" bool HybridDictionary_get_IsSynchronized_m13475 (HybridDictionary_t3973 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool HybridDictionary_get_IsSynchronized_m15617 (HybridDictionary_t3676 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.Specialized.HybridDictionary::get_Item(System.Object)
-extern "C" Object_t * HybridDictionary_get_Item_m13476 (HybridDictionary_t3973 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * HybridDictionary_get_Item_m15618 (HybridDictionary_t3676 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Specialized.HybridDictionary::set_Item(System.Object,System.Object)
-extern "C" void HybridDictionary_set_Item_m13477 (HybridDictionary_t3973 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HybridDictionary_set_Item_m15619 (HybridDictionary_t3676 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ICollection System.Collections.Specialized.HybridDictionary::get_Keys()
-extern "C" Object_t * HybridDictionary_get_Keys_m13478 (HybridDictionary_t3973 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * HybridDictionary_get_Keys_m15620 (HybridDictionary_t3676 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.Specialized.HybridDictionary::get_SyncRoot()
-extern "C" Object_t * HybridDictionary_get_SyncRoot_m13479 (HybridDictionary_t3973 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * HybridDictionary_get_SyncRoot_m15621 (HybridDictionary_t3676 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.ICollection System.Collections.Specialized.HybridDictionary::get_Values()
+extern "C" Object_t * HybridDictionary_get_Values_m15622 (HybridDictionary_t3676 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Specialized.HybridDictionary::Add(System.Object,System.Object)
-extern "C" void HybridDictionary_Add_m13480 (HybridDictionary_t3973 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HybridDictionary_Add_m15623 (HybridDictionary_t3676 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Specialized.HybridDictionary::Clear()
+extern "C" void HybridDictionary_Clear_m15624 (HybridDictionary_t3676 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.Specialized.HybridDictionary::Contains(System.Object)
-extern "C" bool HybridDictionary_Contains_m13481 (HybridDictionary_t3973 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool HybridDictionary_Contains_m15625 (HybridDictionary_t3676 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Specialized.HybridDictionary::CopyTo(System.Array,System.Int32)
-extern "C" void HybridDictionary_CopyTo_m13482 (HybridDictionary_t3973 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HybridDictionary_CopyTo_m15626 (HybridDictionary_t3676 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IDictionaryEnumerator System.Collections.Specialized.HybridDictionary::GetEnumerator()
-extern "C" Object_t * HybridDictionary_GetEnumerator_m13483 (HybridDictionary_t3973 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * HybridDictionary_GetEnumerator_m15627 (HybridDictionary_t3676 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Specialized.HybridDictionary::Remove(System.Object)
-extern "C" void HybridDictionary_Remove_m13484 (HybridDictionary_t3973 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HybridDictionary_Remove_m15628 (HybridDictionary_t3676 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Specialized.HybridDictionary::Switch()
-extern "C" void HybridDictionary_Switch_m13485 (HybridDictionary_t3973 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HybridDictionary_Switch_m15629 (HybridDictionary_t3676 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

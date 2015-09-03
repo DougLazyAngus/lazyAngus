@@ -18,11 +18,11 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnityEngine.Camera/CameraCallback::.ctor(System.Object,System.IntPtr)
-extern "C" void CameraCallback__ctor_m9476 (CameraCallback_t2765 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CameraCallback__ctor_m9479 (CameraCallback_t2765 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Camera/CameraCallback::Invoke(UnityEngine.Camera)
-extern "C" void CameraCallback_Invoke_m9477 (CameraCallback_t2765 * __this, Camera_t548 * ___cam, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CameraCallback_Invoke_m9480 (CameraCallback_t2765 * __this, Camera_t548 * ___cam, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void pinvoke_delegate_wrapper_CameraCallback_t2765(Il2CppObject* delegate, Camera_t548 * ___cam);
 // System.IAsyncResult UnityEngine.Camera/CameraCallback::BeginInvoke(UnityEngine.Camera,System.AsyncCallback,System.Object)
-extern "C" Object_t * CameraCallback_BeginInvoke_m9478 (CameraCallback_t2765 * __this, Camera_t548 * ___cam, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CameraCallback_BeginInvoke_m9481 (CameraCallback_t2765 * __this, Camera_t548 * ___cam, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Camera/CameraCallback::EndInvoke(System.IAsyncResult)
-extern "C" void CameraCallback_EndInvoke_m9479 (CameraCallback_t2765 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CameraCallback_EndInvoke_m9482 (CameraCallback_t2765 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

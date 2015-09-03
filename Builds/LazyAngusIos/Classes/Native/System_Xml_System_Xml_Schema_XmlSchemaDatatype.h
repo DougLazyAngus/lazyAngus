@@ -5,103 +5,103 @@ struct CharU5BU5D_t711;
 // System.Text.StringBuilder
 struct StringBuilder_t261;
 // Mono.Xml.Schema.XsdAnySimpleType
-struct XsdAnySimpleType_t3115;
+struct XsdAnySimpleType_t3409;
 // Mono.Xml.Schema.XsdString
-struct XsdString_t3119;
+struct XsdString_t3569;
 // Mono.Xml.Schema.XsdNormalizedString
-struct XsdNormalizedString_t3120;
+struct XsdNormalizedString_t3570;
 // Mono.Xml.Schema.XsdToken
-struct XsdToken_t3121;
+struct XsdToken_t3571;
 // Mono.Xml.Schema.XsdLanguage
-struct XsdLanguage_t3122;
+struct XsdLanguage_t3572;
 // Mono.Xml.Schema.XsdNMToken
-struct XsdNMToken_t3123;
+struct XsdNMToken_t3573;
 // Mono.Xml.Schema.XsdNMTokens
-struct XsdNMTokens_t3124;
+struct XsdNMTokens_t3574;
 // Mono.Xml.Schema.XsdName
-struct XsdName_t3125;
+struct XsdName_t3575;
 // Mono.Xml.Schema.XsdNCName
-struct XsdNCName_t3126;
+struct XsdNCName_t3576;
 // Mono.Xml.Schema.XsdID
-struct XsdID_t3127;
+struct XsdID_t3577;
 // Mono.Xml.Schema.XsdIDRef
-struct XsdIDRef_t3128;
+struct XsdIDRef_t3578;
 // Mono.Xml.Schema.XsdIDRefs
-struct XsdIDRefs_t3129;
+struct XsdIDRefs_t3579;
 // Mono.Xml.Schema.XsdEntity
-struct XsdEntity_t3130;
+struct XsdEntity_t3580;
 // Mono.Xml.Schema.XsdEntities
-struct XsdEntities_t3131;
+struct XsdEntities_t3581;
 // Mono.Xml.Schema.XsdNotation
-struct XsdNotation_t3132;
+struct XsdNotation_t3582;
 // Mono.Xml.Schema.XsdDecimal
-struct XsdDecimal_t3133;
+struct XsdDecimal_t3583;
 // Mono.Xml.Schema.XsdInteger
-struct XsdInteger_t3134;
+struct XsdInteger_t3584;
 // Mono.Xml.Schema.XsdLong
-struct XsdLong_t3135;
+struct XsdLong_t3585;
 // Mono.Xml.Schema.XsdInt
-struct XsdInt_t3136;
+struct XsdInt_t3586;
 // Mono.Xml.Schema.XsdShort
-struct XsdShort_t3137;
+struct XsdShort_t3587;
 // Mono.Xml.Schema.XsdByte
-struct XsdByte_t3138;
+struct XsdByte_t3588;
 // Mono.Xml.Schema.XsdNonNegativeInteger
-struct XsdNonNegativeInteger_t3139;
+struct XsdNonNegativeInteger_t3589;
 // Mono.Xml.Schema.XsdPositiveInteger
-struct XsdPositiveInteger_t3144;
+struct XsdPositiveInteger_t3594;
 // Mono.Xml.Schema.XsdUnsignedLong
-struct XsdUnsignedLong_t3140;
+struct XsdUnsignedLong_t3590;
 // Mono.Xml.Schema.XsdUnsignedInt
-struct XsdUnsignedInt_t3141;
+struct XsdUnsignedInt_t3591;
 // Mono.Xml.Schema.XsdUnsignedShort
-struct XsdUnsignedShort_t3142;
+struct XsdUnsignedShort_t3592;
 // Mono.Xml.Schema.XsdUnsignedByte
-struct XsdUnsignedByte_t3143;
+struct XsdUnsignedByte_t3593;
 // Mono.Xml.Schema.XsdNonPositiveInteger
-struct XsdNonPositiveInteger_t3145;
+struct XsdNonPositiveInteger_t3595;
 // Mono.Xml.Schema.XsdNegativeInteger
-struct XsdNegativeInteger_t3146;
+struct XsdNegativeInteger_t3596;
 // Mono.Xml.Schema.XsdFloat
-struct XsdFloat_t3147;
+struct XsdFloat_t3597;
 // Mono.Xml.Schema.XsdDouble
-struct XsdDouble_t3148;
+struct XsdDouble_t3598;
 // Mono.Xml.Schema.XsdBase64Binary
-struct XsdBase64Binary_t3149;
+struct XsdBase64Binary_t3599;
 // Mono.Xml.Schema.XsdBoolean
-struct XsdBoolean_t3152;
+struct XsdBoolean_t3602;
 // Mono.Xml.Schema.XsdAnyURI
-struct XsdAnyURI_t3153;
+struct XsdAnyURI_t3603;
 // Mono.Xml.Schema.XsdDuration
-struct XsdDuration_t3154;
+struct XsdDuration_t3605;
 // Mono.Xml.Schema.XsdDateTime
-struct XsdDateTime_t3157;
+struct XsdDateTime_t3608;
 // Mono.Xml.Schema.XsdDate
-struct XsdDate_t3158;
+struct XsdDate_t3609;
 // Mono.Xml.Schema.XsdTime
-struct XsdTime_t3159;
+struct XsdTime_t3610;
 // Mono.Xml.Schema.XsdHexBinary
-struct XsdHexBinary_t3150;
+struct XsdHexBinary_t3600;
 // Mono.Xml.Schema.XsdQName
-struct XsdQName_t3151;
+struct XsdQName_t3601;
 // Mono.Xml.Schema.XsdGYearMonth
-struct XsdGYearMonth_t3160;
+struct XsdGYearMonth_t3611;
 // Mono.Xml.Schema.XsdGMonthDay
-struct XsdGMonthDay_t3161;
+struct XsdGMonthDay_t3612;
 // Mono.Xml.Schema.XsdGYear
-struct XsdGYear_t3162;
+struct XsdGYear_t3613;
 // Mono.Xml.Schema.XsdGMonth
-struct XsdGMonth_t3163;
+struct XsdGMonth_t3614;
 // Mono.Xml.Schema.XsdGDay
-struct XsdGDay_t3164;
+struct XsdGDay_t3615;
 // Mono.Xml.Schema.XdtAnyAtomicType
-struct XdtAnyAtomicType_t3117;
+struct XdtAnyAtomicType_t3567;
 // Mono.Xml.Schema.XdtUntypedAtomic
-struct XdtUntypedAtomic_t3118;
+struct XdtUntypedAtomic_t3568;
 // Mono.Xml.Schema.XdtDayTimeDuration
-struct XdtDayTimeDuration_t3155;
+struct XdtDayTimeDuration_t3606;
 // Mono.Xml.Schema.XdtYearMonthDuration
-struct XdtYearMonthDuration_t3156;
+struct XdtYearMonthDuration_t3607;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Object
@@ -109,118 +109,118 @@ struct Dictionary_2_t223;
 // Mono.Xml.Schema.XsdWhitespaceFacet
 #include "System_Xml_Mono_Xml_Schema_XsdWhitespaceFacet.h"
 // System.Xml.Schema.XmlSchemaDatatype
-struct  XmlSchemaDatatype_t3116  : public Object_t
+struct  XmlSchemaDatatype_t3469  : public Object_t
 {
 	// Mono.Xml.Schema.XsdWhitespaceFacet System.Xml.Schema.XmlSchemaDatatype::WhitespaceValue
 	int32_t ___WhitespaceValue_0;
 	// System.Text.StringBuilder System.Xml.Schema.XmlSchemaDatatype::sb
 	StringBuilder_t261 * ___sb_2;
 };
-struct XmlSchemaDatatype_t3116_StaticFields{
+struct XmlSchemaDatatype_t3469_StaticFields{
 	// System.Char[] System.Xml.Schema.XmlSchemaDatatype::wsChars
 	CharU5BU5D_t711* ___wsChars_1;
 	// Mono.Xml.Schema.XsdAnySimpleType System.Xml.Schema.XmlSchemaDatatype::datatypeAnySimpleType
-	XsdAnySimpleType_t3115 * ___datatypeAnySimpleType_3;
+	XsdAnySimpleType_t3409 * ___datatypeAnySimpleType_3;
 	// Mono.Xml.Schema.XsdString System.Xml.Schema.XmlSchemaDatatype::datatypeString
-	XsdString_t3119 * ___datatypeString_4;
+	XsdString_t3569 * ___datatypeString_4;
 	// Mono.Xml.Schema.XsdNormalizedString System.Xml.Schema.XmlSchemaDatatype::datatypeNormalizedString
-	XsdNormalizedString_t3120 * ___datatypeNormalizedString_5;
+	XsdNormalizedString_t3570 * ___datatypeNormalizedString_5;
 	// Mono.Xml.Schema.XsdToken System.Xml.Schema.XmlSchemaDatatype::datatypeToken
-	XsdToken_t3121 * ___datatypeToken_6;
+	XsdToken_t3571 * ___datatypeToken_6;
 	// Mono.Xml.Schema.XsdLanguage System.Xml.Schema.XmlSchemaDatatype::datatypeLanguage
-	XsdLanguage_t3122 * ___datatypeLanguage_7;
+	XsdLanguage_t3572 * ___datatypeLanguage_7;
 	// Mono.Xml.Schema.XsdNMToken System.Xml.Schema.XmlSchemaDatatype::datatypeNMToken
-	XsdNMToken_t3123 * ___datatypeNMToken_8;
+	XsdNMToken_t3573 * ___datatypeNMToken_8;
 	// Mono.Xml.Schema.XsdNMTokens System.Xml.Schema.XmlSchemaDatatype::datatypeNMTokens
-	XsdNMTokens_t3124 * ___datatypeNMTokens_9;
+	XsdNMTokens_t3574 * ___datatypeNMTokens_9;
 	// Mono.Xml.Schema.XsdName System.Xml.Schema.XmlSchemaDatatype::datatypeName
-	XsdName_t3125 * ___datatypeName_10;
+	XsdName_t3575 * ___datatypeName_10;
 	// Mono.Xml.Schema.XsdNCName System.Xml.Schema.XmlSchemaDatatype::datatypeNCName
-	XsdNCName_t3126 * ___datatypeNCName_11;
+	XsdNCName_t3576 * ___datatypeNCName_11;
 	// Mono.Xml.Schema.XsdID System.Xml.Schema.XmlSchemaDatatype::datatypeID
-	XsdID_t3127 * ___datatypeID_12;
+	XsdID_t3577 * ___datatypeID_12;
 	// Mono.Xml.Schema.XsdIDRef System.Xml.Schema.XmlSchemaDatatype::datatypeIDRef
-	XsdIDRef_t3128 * ___datatypeIDRef_13;
+	XsdIDRef_t3578 * ___datatypeIDRef_13;
 	// Mono.Xml.Schema.XsdIDRefs System.Xml.Schema.XmlSchemaDatatype::datatypeIDRefs
-	XsdIDRefs_t3129 * ___datatypeIDRefs_14;
+	XsdIDRefs_t3579 * ___datatypeIDRefs_14;
 	// Mono.Xml.Schema.XsdEntity System.Xml.Schema.XmlSchemaDatatype::datatypeEntity
-	XsdEntity_t3130 * ___datatypeEntity_15;
+	XsdEntity_t3580 * ___datatypeEntity_15;
 	// Mono.Xml.Schema.XsdEntities System.Xml.Schema.XmlSchemaDatatype::datatypeEntities
-	XsdEntities_t3131 * ___datatypeEntities_16;
+	XsdEntities_t3581 * ___datatypeEntities_16;
 	// Mono.Xml.Schema.XsdNotation System.Xml.Schema.XmlSchemaDatatype::datatypeNotation
-	XsdNotation_t3132 * ___datatypeNotation_17;
+	XsdNotation_t3582 * ___datatypeNotation_17;
 	// Mono.Xml.Schema.XsdDecimal System.Xml.Schema.XmlSchemaDatatype::datatypeDecimal
-	XsdDecimal_t3133 * ___datatypeDecimal_18;
+	XsdDecimal_t3583 * ___datatypeDecimal_18;
 	// Mono.Xml.Schema.XsdInteger System.Xml.Schema.XmlSchemaDatatype::datatypeInteger
-	XsdInteger_t3134 * ___datatypeInteger_19;
+	XsdInteger_t3584 * ___datatypeInteger_19;
 	// Mono.Xml.Schema.XsdLong System.Xml.Schema.XmlSchemaDatatype::datatypeLong
-	XsdLong_t3135 * ___datatypeLong_20;
+	XsdLong_t3585 * ___datatypeLong_20;
 	// Mono.Xml.Schema.XsdInt System.Xml.Schema.XmlSchemaDatatype::datatypeInt
-	XsdInt_t3136 * ___datatypeInt_21;
+	XsdInt_t3586 * ___datatypeInt_21;
 	// Mono.Xml.Schema.XsdShort System.Xml.Schema.XmlSchemaDatatype::datatypeShort
-	XsdShort_t3137 * ___datatypeShort_22;
+	XsdShort_t3587 * ___datatypeShort_22;
 	// Mono.Xml.Schema.XsdByte System.Xml.Schema.XmlSchemaDatatype::datatypeByte
-	XsdByte_t3138 * ___datatypeByte_23;
+	XsdByte_t3588 * ___datatypeByte_23;
 	// Mono.Xml.Schema.XsdNonNegativeInteger System.Xml.Schema.XmlSchemaDatatype::datatypeNonNegativeInteger
-	XsdNonNegativeInteger_t3139 * ___datatypeNonNegativeInteger_24;
+	XsdNonNegativeInteger_t3589 * ___datatypeNonNegativeInteger_24;
 	// Mono.Xml.Schema.XsdPositiveInteger System.Xml.Schema.XmlSchemaDatatype::datatypePositiveInteger
-	XsdPositiveInteger_t3144 * ___datatypePositiveInteger_25;
+	XsdPositiveInteger_t3594 * ___datatypePositiveInteger_25;
 	// Mono.Xml.Schema.XsdUnsignedLong System.Xml.Schema.XmlSchemaDatatype::datatypeUnsignedLong
-	XsdUnsignedLong_t3140 * ___datatypeUnsignedLong_26;
+	XsdUnsignedLong_t3590 * ___datatypeUnsignedLong_26;
 	// Mono.Xml.Schema.XsdUnsignedInt System.Xml.Schema.XmlSchemaDatatype::datatypeUnsignedInt
-	XsdUnsignedInt_t3141 * ___datatypeUnsignedInt_27;
+	XsdUnsignedInt_t3591 * ___datatypeUnsignedInt_27;
 	// Mono.Xml.Schema.XsdUnsignedShort System.Xml.Schema.XmlSchemaDatatype::datatypeUnsignedShort
-	XsdUnsignedShort_t3142 * ___datatypeUnsignedShort_28;
+	XsdUnsignedShort_t3592 * ___datatypeUnsignedShort_28;
 	// Mono.Xml.Schema.XsdUnsignedByte System.Xml.Schema.XmlSchemaDatatype::datatypeUnsignedByte
-	XsdUnsignedByte_t3143 * ___datatypeUnsignedByte_29;
+	XsdUnsignedByte_t3593 * ___datatypeUnsignedByte_29;
 	// Mono.Xml.Schema.XsdNonPositiveInteger System.Xml.Schema.XmlSchemaDatatype::datatypeNonPositiveInteger
-	XsdNonPositiveInteger_t3145 * ___datatypeNonPositiveInteger_30;
+	XsdNonPositiveInteger_t3595 * ___datatypeNonPositiveInteger_30;
 	// Mono.Xml.Schema.XsdNegativeInteger System.Xml.Schema.XmlSchemaDatatype::datatypeNegativeInteger
-	XsdNegativeInteger_t3146 * ___datatypeNegativeInteger_31;
+	XsdNegativeInteger_t3596 * ___datatypeNegativeInteger_31;
 	// Mono.Xml.Schema.XsdFloat System.Xml.Schema.XmlSchemaDatatype::datatypeFloat
-	XsdFloat_t3147 * ___datatypeFloat_32;
+	XsdFloat_t3597 * ___datatypeFloat_32;
 	// Mono.Xml.Schema.XsdDouble System.Xml.Schema.XmlSchemaDatatype::datatypeDouble
-	XsdDouble_t3148 * ___datatypeDouble_33;
+	XsdDouble_t3598 * ___datatypeDouble_33;
 	// Mono.Xml.Schema.XsdBase64Binary System.Xml.Schema.XmlSchemaDatatype::datatypeBase64Binary
-	XsdBase64Binary_t3149 * ___datatypeBase64Binary_34;
+	XsdBase64Binary_t3599 * ___datatypeBase64Binary_34;
 	// Mono.Xml.Schema.XsdBoolean System.Xml.Schema.XmlSchemaDatatype::datatypeBoolean
-	XsdBoolean_t3152 * ___datatypeBoolean_35;
+	XsdBoolean_t3602 * ___datatypeBoolean_35;
 	// Mono.Xml.Schema.XsdAnyURI System.Xml.Schema.XmlSchemaDatatype::datatypeAnyURI
-	XsdAnyURI_t3153 * ___datatypeAnyURI_36;
+	XsdAnyURI_t3603 * ___datatypeAnyURI_36;
 	// Mono.Xml.Schema.XsdDuration System.Xml.Schema.XmlSchemaDatatype::datatypeDuration
-	XsdDuration_t3154 * ___datatypeDuration_37;
+	XsdDuration_t3605 * ___datatypeDuration_37;
 	// Mono.Xml.Schema.XsdDateTime System.Xml.Schema.XmlSchemaDatatype::datatypeDateTime
-	XsdDateTime_t3157 * ___datatypeDateTime_38;
+	XsdDateTime_t3608 * ___datatypeDateTime_38;
 	// Mono.Xml.Schema.XsdDate System.Xml.Schema.XmlSchemaDatatype::datatypeDate
-	XsdDate_t3158 * ___datatypeDate_39;
+	XsdDate_t3609 * ___datatypeDate_39;
 	// Mono.Xml.Schema.XsdTime System.Xml.Schema.XmlSchemaDatatype::datatypeTime
-	XsdTime_t3159 * ___datatypeTime_40;
+	XsdTime_t3610 * ___datatypeTime_40;
 	// Mono.Xml.Schema.XsdHexBinary System.Xml.Schema.XmlSchemaDatatype::datatypeHexBinary
-	XsdHexBinary_t3150 * ___datatypeHexBinary_41;
+	XsdHexBinary_t3600 * ___datatypeHexBinary_41;
 	// Mono.Xml.Schema.XsdQName System.Xml.Schema.XmlSchemaDatatype::datatypeQName
-	XsdQName_t3151 * ___datatypeQName_42;
+	XsdQName_t3601 * ___datatypeQName_42;
 	// Mono.Xml.Schema.XsdGYearMonth System.Xml.Schema.XmlSchemaDatatype::datatypeGYearMonth
-	XsdGYearMonth_t3160 * ___datatypeGYearMonth_43;
+	XsdGYearMonth_t3611 * ___datatypeGYearMonth_43;
 	// Mono.Xml.Schema.XsdGMonthDay System.Xml.Schema.XmlSchemaDatatype::datatypeGMonthDay
-	XsdGMonthDay_t3161 * ___datatypeGMonthDay_44;
+	XsdGMonthDay_t3612 * ___datatypeGMonthDay_44;
 	// Mono.Xml.Schema.XsdGYear System.Xml.Schema.XmlSchemaDatatype::datatypeGYear
-	XsdGYear_t3162 * ___datatypeGYear_45;
+	XsdGYear_t3613 * ___datatypeGYear_45;
 	// Mono.Xml.Schema.XsdGMonth System.Xml.Schema.XmlSchemaDatatype::datatypeGMonth
-	XsdGMonth_t3163 * ___datatypeGMonth_46;
+	XsdGMonth_t3614 * ___datatypeGMonth_46;
 	// Mono.Xml.Schema.XsdGDay System.Xml.Schema.XmlSchemaDatatype::datatypeGDay
-	XsdGDay_t3164 * ___datatypeGDay_47;
+	XsdGDay_t3615 * ___datatypeGDay_47;
 	// Mono.Xml.Schema.XdtAnyAtomicType System.Xml.Schema.XmlSchemaDatatype::datatypeAnyAtomicType
-	XdtAnyAtomicType_t3117 * ___datatypeAnyAtomicType_48;
+	XdtAnyAtomicType_t3567 * ___datatypeAnyAtomicType_48;
 	// Mono.Xml.Schema.XdtUntypedAtomic System.Xml.Schema.XmlSchemaDatatype::datatypeUntypedAtomic
-	XdtUntypedAtomic_t3118 * ___datatypeUntypedAtomic_49;
+	XdtUntypedAtomic_t3568 * ___datatypeUntypedAtomic_49;
 	// Mono.Xml.Schema.XdtDayTimeDuration System.Xml.Schema.XmlSchemaDatatype::datatypeDayTimeDuration
-	XdtDayTimeDuration_t3155 * ___datatypeDayTimeDuration_50;
+	XdtDayTimeDuration_t3606 * ___datatypeDayTimeDuration_50;
 	// Mono.Xml.Schema.XdtYearMonthDuration System.Xml.Schema.XmlSchemaDatatype::datatypeYearMonthDuration
-	XdtYearMonthDuration_t3156 * ___datatypeYearMonthDuration_51;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.Schema.XmlSchemaDatatype::<>f__switch$map2A
-	Dictionary_2_t223 * ___U3CU3Ef__switchU24map2A_52;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.Schema.XmlSchemaDatatype::<>f__switch$map2B
-	Dictionary_2_t223 * ___U3CU3Ef__switchU24map2B_53;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.Schema.XmlSchemaDatatype::<>f__switch$map2C
-	Dictionary_2_t223 * ___U3CU3Ef__switchU24map2C_54;
+	XdtYearMonthDuration_t3607 * ___datatypeYearMonthDuration_51;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.Schema.XmlSchemaDatatype::<>f__switch$map3E
+	Dictionary_2_t223 * ___U3CU3Ef__switchU24map3E_52;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.Schema.XmlSchemaDatatype::<>f__switch$map3F
+	Dictionary_2_t223 * ___U3CU3Ef__switchU24map3F_53;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.Schema.XmlSchemaDatatype::<>f__switch$map40
+	Dictionary_2_t223 * ___U3CU3Ef__switchU24map40_54;
 };

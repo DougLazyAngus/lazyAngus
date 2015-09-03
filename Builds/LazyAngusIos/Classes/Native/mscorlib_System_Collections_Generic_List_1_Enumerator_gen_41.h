@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.GameObject>
-struct List_1_t898;
-// UnityEngine.GameObject
-struct GameObject_t352;
+// System.Collections.Generic.List`1<UnityEngine.Transform>
+struct List_1_t887;
+// UnityEngine.Transform
+struct Transform_t406;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>
-struct  Enumerator_t5847 
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>
+struct  Enumerator_t6375 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::l
-	List_1_t898 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::l
+	List_1_t887 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>::current
-	GameObject_t352 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Transform>::current
+	Transform_t406 * ___current_3;
 };

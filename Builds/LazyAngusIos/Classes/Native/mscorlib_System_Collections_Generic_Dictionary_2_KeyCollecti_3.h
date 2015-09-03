@@ -8,5 +8,5 @@
 struct  Enumerator_t732 
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.String,System.Collections.Generic.List`1<AN_PropertyTemplate>>::host_enumerator
-	Enumerator_t5489  ___host_enumerator_0;
+	Enumerator_t6022  ___host_enumerator_0;
 };

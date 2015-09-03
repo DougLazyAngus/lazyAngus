@@ -10,12 +10,12 @@ struct SocialPlatfromSettings_t179;
 struct String_t;
 
 // System.Void SocialPlatfromSettings::.ctor()
-extern "C" void SocialPlatfromSettings__ctor_m1237 (SocialPlatfromSettings_t179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocialPlatfromSettings__ctor_m1239 (SocialPlatfromSettings_t179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SocialPlatfromSettings::.cctor()
-extern "C" void SocialPlatfromSettings__cctor_m1238 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocialPlatfromSettings__cctor_m1240 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // SocialPlatfromSettings SocialPlatfromSettings::get_Instance()
-extern "C" SocialPlatfromSettings_t179 * SocialPlatfromSettings_get_Instance_m1239 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SocialPlatfromSettings_t179 * SocialPlatfromSettings_get_Instance_m1241 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String SocialPlatfromSettings::get_fb_scopes()
-extern "C" String_t* SocialPlatfromSettings_get_fb_scopes_m1240 (SocialPlatfromSettings_t179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SocialPlatfromSettings_get_fb_scopes_m1242 (SocialPlatfromSettings_t179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SocialPlatfromSettings::AddDefaultScopes()
-extern "C" void SocialPlatfromSettings_AddDefaultScopes_m1241 (SocialPlatfromSettings_t179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocialPlatfromSettings_AddDefaultScopes_m1243 (SocialPlatfromSettings_t179 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

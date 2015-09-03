@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.RandomNumberGenerator
-struct RandomNumberGenerator_t3796;
+struct RandomNumberGenerator_t3117;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Cryptography.KeyBuilder
-struct  KeyBuilder_t3810  : public Object_t
+struct  KeyBuilder_t3131  : public Object_t
 {
 };
-struct KeyBuilder_t3810_StaticFields{
+struct KeyBuilder_t3131_StaticFields{
 	// System.Security.Cryptography.RandomNumberGenerator Mono.Security.Cryptography.KeyBuilder::rng
-	RandomNumberGenerator_t3796 * ___rng_0;
+	RandomNumberGenerator_t3117 * ___rng_0;
 };

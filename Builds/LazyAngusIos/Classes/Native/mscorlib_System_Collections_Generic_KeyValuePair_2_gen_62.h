@@ -7,7 +7,7 @@ struct ParseFile_t1259;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseFile>
-struct  KeyValuePair_2_t7184 
+struct  KeyValuePair_2_t7719 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseFile>::key
 	String_t* ___key_0;

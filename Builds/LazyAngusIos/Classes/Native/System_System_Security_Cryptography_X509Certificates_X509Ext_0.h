@@ -5,7 +5,7 @@ struct ArrayList_t712;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Cryptography.X509Certificates.X509ExtensionCollection
-struct  X509ExtensionCollection_t4107  : public Object_t
+struct  X509ExtensionCollection_t4442  : public Object_t
 {
 	// System.Collections.ArrayList System.Security.Cryptography.X509Certificates.X509ExtensionCollection::_list
 	ArrayList_t712 * ____list_0;

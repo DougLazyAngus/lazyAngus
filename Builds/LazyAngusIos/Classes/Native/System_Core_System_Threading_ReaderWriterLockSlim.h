@@ -3,9 +3,9 @@
 // System.Threading.Thread
 struct Thread_t1478;
 // System.Threading.EventWaitHandle
-struct EventWaitHandle_t3368;
+struct EventWaitHandle_t3783;
 // System.Threading.ReaderWriterLockSlim/LockDetails[]
-struct LockDetailsU5BU5D_t3369;
+struct LockDetailsU5BU5D_t3784;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.ReaderWriterLockSlim
@@ -26,13 +26,13 @@ struct  ReaderWriterLockSlim_t1294  : public Object_t
 	// System.UInt32 System.Threading.ReaderWriterLockSlim::numUpgradeWaiters
 	uint32_t ___numUpgradeWaiters_7;
 	// System.Threading.EventWaitHandle System.Threading.ReaderWriterLockSlim::writeEvent
-	EventWaitHandle_t3368 * ___writeEvent_8;
+	EventWaitHandle_t3783 * ___writeEvent_8;
 	// System.Threading.EventWaitHandle System.Threading.ReaderWriterLockSlim::readEvent
-	EventWaitHandle_t3368 * ___readEvent_9;
+	EventWaitHandle_t3783 * ___readEvent_9;
 	// System.Threading.EventWaitHandle System.Threading.ReaderWriterLockSlim::upgradeEvent
-	EventWaitHandle_t3368 * ___upgradeEvent_10;
+	EventWaitHandle_t3783 * ___upgradeEvent_10;
 	// System.Threading.ReaderWriterLockSlim/LockDetails[] System.Threading.ReaderWriterLockSlim::read_locks
-	LockDetailsU5BU5D_t3369* ___read_locks_11;
+	LockDetailsU5BU5D_t3784* ___read_locks_11;
 };
 struct ReaderWriterLockSlim_t1294_StaticFields{
 	// System.Boolean System.Threading.ReaderWriterLockSlim::smp

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml2.XmlTextReader/DtdInputState
-struct DtdInputState_t3283;
+struct DtdInputState_t3544;
 

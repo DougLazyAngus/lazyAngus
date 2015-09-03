@@ -5,13 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.ThreadPool
-struct ThreadPool_t4788;
+struct ThreadPool_t5380;
 // System.Threading.WaitCallback
 struct WaitCallback_t2162;
 // System.Object
 struct Object_t;
+// System.Threading.RegisteredWaitHandle
+struct RegisteredWaitHandle_t5378;
+// System.Threading.WaitHandle
+struct WaitHandle_t3252;
+// System.Threading.WaitOrTimerCallback
+struct WaitOrTimerCallback_t5377;
+// System.TimeSpan
+#include "mscorlib_System_TimeSpan.h"
 
 // System.Boolean System.Threading.ThreadPool::QueueUserWorkItem(System.Threading.WaitCallback)
-extern "C" bool ThreadPool_QueueUserWorkItem_m7939 (Object_t * __this /* static, unused */, WaitCallback_t2162 * ___callBack, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ThreadPool_QueueUserWorkItem_m7943 (Object_t * __this /* static, unused */, WaitCallback_t2162 * ___callBack, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Threading.ThreadPool::QueueUserWorkItem(System.Threading.WaitCallback,System.Object)
-extern "C" bool ThreadPool_QueueUserWorkItem_m15243 (Object_t * __this /* static, unused */, WaitCallback_t2162 * ___callBack, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ThreadPool_QueueUserWorkItem_m18117 (Object_t * __this /* static, unused */, WaitCallback_t2162 * ___callBack, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Threading.RegisteredWaitHandle System.Threading.ThreadPool::RegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.Int64,System.Boolean)
+extern "C" RegisteredWaitHandle_t5378 * ThreadPool_RegisterWaitForSingleObject_m24371 (Object_t * __this /* static, unused */, WaitHandle_t3252 * ___waitObject, WaitOrTimerCallback_t5377 * ___callBack, Object_t * ___state, int64_t ___millisecondsTimeOutInterval, bool ___executeOnlyOnce, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Threading.RegisteredWaitHandle System.Threading.ThreadPool::RegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.TimeSpan,System.Boolean)
+extern "C" RegisteredWaitHandle_t5378 * ThreadPool_RegisterWaitForSingleObject_m24372 (Object_t * __this /* static, unused */, WaitHandle_t3252 * ___waitObject, WaitOrTimerCallback_t5377 * ___callBack, Object_t * ___state, TimeSpan_t334  ___timeout, bool ___executeOnlyOnce, const MethodInfo* method) IL2CPP_METHOD_ATTR;

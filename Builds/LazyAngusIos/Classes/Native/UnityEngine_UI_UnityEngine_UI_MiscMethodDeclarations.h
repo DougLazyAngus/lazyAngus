@@ -11,6 +11,6 @@ struct Object_t717;
 struct Object_t717_marshaled;
 
 // System.Void UnityEngine.UI.Misc::Destroy(UnityEngine.Object)
-extern "C" void Misc_Destroy_m5380 (Object_t * __this /* static, unused */, Object_t717 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Misc_Destroy_m5384 (Object_t * __this /* static, unused */, Object_t717 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Misc::DestroyImmediate(UnityEngine.Object)
-extern "C" void Misc_DestroyImmediate_m5381 (Object_t * __this /* static, unused */, Object_t717 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Misc_DestroyImmediate_m5385 (Object_t * __this /* static, unused */, Object_t717 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;

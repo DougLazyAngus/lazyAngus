@@ -3,9 +3,9 @@
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
 struct IDictionary_2_t836;
 // System.Func`2<System.Object,System.Int32>
-struct Func_2_t5996;
+struct Func_2_t6529;
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>>
-struct Func_2_t7589;
+struct Func_2_t8124;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.FlexibleDictionaryWrapper`2<System.Int32,System.Object>
@@ -16,7 +16,7 @@ struct  FlexibleDictionaryWrapper_2_t1945  : public Object_t
 };
 struct FlexibleDictionaryWrapper_2_t1945_StaticFields{
 	// System.Func`2<TIn,TOut> Parse.Internal.FlexibleDictionaryWrapper`2<System.Int32,System.Object>::CS$<>9__CachedAnonymousMethodDelegate1
-	Func_2_t5996 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_1;
+	Func_2_t6529 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_1;
 	// System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,TIn>,System.Collections.Generic.KeyValuePair`2<System.String,TOut>> Parse.Internal.FlexibleDictionaryWrapper`2<System.Int32,System.Object>::CS$<>9__CachedAnonymousMethodDelegate3
-	Func_2_t7589 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate3_2;
+	Func_2_t8124 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate3_2;
 };

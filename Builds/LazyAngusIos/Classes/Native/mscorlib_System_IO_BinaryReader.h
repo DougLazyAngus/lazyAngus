@@ -7,7 +7,7 @@ struct Encoding_t753;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Text.Decoder
-struct Decoder_t3251;
+struct Decoder_t3563;
 // System.Char[]
 struct CharU5BU5D_t711;
 // System.Object
@@ -22,7 +22,7 @@ struct  BinaryReader_t52  : public Object_t
 	// System.Byte[] System.IO.BinaryReader::m_buffer
 	ByteU5BU5D_t66* ___m_buffer_2;
 	// System.Text.Decoder System.IO.BinaryReader::decoder
-	Decoder_t3251 * ___decoder_3;
+	Decoder_t3563 * ___decoder_3;
 	// System.Char[] System.IO.BinaryReader::charBuffer
 	CharU5BU5D_t711* ___charBuffer_4;
 	// System.Boolean System.IO.BinaryReader::m_disposed

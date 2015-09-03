@@ -24,40 +24,40 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_SendMessageOptions.h"
 
 // System.Void UnityEngine.GameObject::.ctor(System.String)
-extern "C" void GameObject__ctor_m4003 (GameObject_t352 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameObject__ctor_m4006 (GameObject_t352 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GameObject::.ctor()
-extern "C" void GameObject__ctor_m9555 (GameObject_t352 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameObject__ctor_m9558 (GameObject_t352 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Component UnityEngine.GameObject::GetComponent(System.Type)
-extern "C" Component_t775 * GameObject_GetComponent_m9556 (GameObject_t352 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Component_t775 * GameObject_GetComponent_m9559 (GameObject_t352 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GameObject::GetComponentFastPath(System.Type,System.IntPtr)
-extern "C" void GameObject_GetComponentFastPath_m9557 (GameObject_t352 * __this, Type_t * ___type, IntPtr_t ___oneFurtherThanResultValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameObject_GetComponentFastPath_m9560 (GameObject_t352 * __this, Type_t * ___type, IntPtr_t ___oneFurtherThanResultValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Component UnityEngine.GameObject::GetComponentInChildren(System.Type)
-extern "C" Component_t775 * GameObject_GetComponentInChildren_m9558 (GameObject_t352 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Component_t775 * GameObject_GetComponentInChildren_m9561 (GameObject_t352 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Array UnityEngine.GameObject::GetComponentsInternal(System.Type,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Object)
-extern "C" Array_t * GameObject_GetComponentsInternal_m9559 (GameObject_t352 * __this, Type_t * ___type, bool ___useSearchTypeAsArrayReturnType, bool ___recursive, bool ___includeInactive, bool ___reverse, Object_t * ___resultList, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Array_t * GameObject_GetComponentsInternal_m9562 (GameObject_t352 * __this, Type_t * ___type, bool ___useSearchTypeAsArrayReturnType, bool ___recursive, bool ___includeInactive, bool ___reverse, Object_t * ___resultList, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Transform UnityEngine.GameObject::get_transform()
-extern "C" Transform_t406 * GameObject_get_transform_m4184 (GameObject_t352 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Transform_t406 * GameObject_get_transform_m4187 (GameObject_t352 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.GameObject::get_layer()
-extern "C" int32_t GameObject_get_layer_m6203 (GameObject_t352 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t GameObject_get_layer_m6207 (GameObject_t352 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GameObject::set_layer(System.Int32)
-extern "C" void GameObject_set_layer_m6204 (GameObject_t352 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameObject_set_layer_m6208 (GameObject_t352 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GameObject::SetActive(System.Boolean)
-extern "C" void GameObject_SetActive_m4101 (GameObject_t352 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameObject_SetActive_m4104 (GameObject_t352 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.GameObject::get_activeInHierarchy()
-extern "C" bool GameObject_get_activeInHierarchy_m5962 (GameObject_t352 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool GameObject_get_activeInHierarchy_m5966 (GameObject_t352 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.GameObject::get_tag()
-extern "C" String_t* GameObject_get_tag_m4484 (GameObject_t352 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* GameObject_get_tag_m4487 (GameObject_t352 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject UnityEngine.GameObject::FindGameObjectWithTag(System.String)
-extern "C" GameObject_t352 * GameObject_FindGameObjectWithTag_m4365 (Object_t * __this /* static, unused */, String_t* ___tag, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t352 * GameObject_FindGameObjectWithTag_m4368 (Object_t * __this /* static, unused */, String_t* ___tag, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject UnityEngine.GameObject::FindWithTag(System.String)
-extern "C" GameObject_t352 * GameObject_FindWithTag_m4350 (Object_t * __this /* static, unused */, String_t* ___tag, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t352 * GameObject_FindWithTag_m4353 (Object_t * __this /* static, unused */, String_t* ___tag, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GameObject::SendMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
-extern "C" void GameObject_SendMessage_m9560 (GameObject_t352 * __this, String_t* ___methodName, Object_t * ___value, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameObject_SendMessage_m9563 (GameObject_t352 * __this, String_t* ___methodName, Object_t * ___value, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GameObject::SendMessage(System.String,UnityEngine.SendMessageOptions)
-extern "C" void GameObject_SendMessage_m4165 (GameObject_t352 * __this, String_t* ___methodName, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameObject_SendMessage_m4168 (GameObject_t352 * __this, String_t* ___methodName, int32_t ___options, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Component UnityEngine.GameObject::Internal_AddComponentWithType(System.Type)
-extern "C" Component_t775 * GameObject_Internal_AddComponentWithType_m9561 (GameObject_t352 * __this, Type_t * ___componentType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Component_t775 * GameObject_Internal_AddComponentWithType_m9564 (GameObject_t352 * __this, Type_t * ___componentType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Component UnityEngine.GameObject::AddComponent(System.Type)
-extern "C" Component_t775 * GameObject_AddComponent_m9562 (GameObject_t352 * __this, Type_t * ___componentType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Component_t775 * GameObject_AddComponent_m9565 (GameObject_t352 * __this, Type_t * ___componentType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GameObject::Internal_CreateGameObject(UnityEngine.GameObject,System.String)
-extern "C" void GameObject_Internal_CreateGameObject_m9563 (Object_t * __this /* static, unused */, GameObject_t352 * ___mono, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameObject_Internal_CreateGameObject_m9566 (Object_t * __this /* static, unused */, GameObject_t352 * ___mono, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;

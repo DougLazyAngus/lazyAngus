@@ -16,16 +16,16 @@ struct Task_1_t1424;
 #include "Parse_Unity_System_Threading_CancellationToken.h"
 
 // System.Boolean Parse.ParseSession::IsKeyMutable(System.String)
-extern "C" bool ParseSession_IsKeyMutable_m7167 (ParseSession_t1320 * __this, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ParseSession_IsKeyMutable_m7171 (ParseSession_t1320 * __this, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Parse.ParseSession::get_SessionToken()
-extern "C" String_t* ParseSession_get_SessionToken_m7168 (ParseSession_t1320 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ParseSession_get_SessionToken_m7172 (ParseSession_t1320 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Parse.ParseQuery`1<Parse.ParseSession> Parse.ParseSession::get_Query()
-extern "C" ParseQuery_1_t1425 * ParseSession_get_Query_m7169 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ParseQuery_1_t1425 * ParseSession_get_Query_m7173 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<Parse.ParseSession> Parse.ParseSession::GetCurrentSessionAsync()
-extern "C" Task_1_t1424 * ParseSession_GetCurrentSessionAsync_m7170 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1424 * ParseSession_GetCurrentSessionAsync_m7174 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<Parse.ParseSession> Parse.ParseSession::GetCurrentSessionAsync(System.Threading.CancellationToken)
-extern "C" Task_1_t1424 * ParseSession_GetCurrentSessionAsync_m7171 (Object_t * __this /* static, unused */, CancellationToken_t1181  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1424 * ParseSession_GetCurrentSessionAsync_m7175 (Object_t * __this /* static, unused */, CancellationToken_t1181  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseSession::.ctor()
-extern "C" void ParseSession__ctor_m7172 (ParseSession_t1320 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseSession__ctor_m7176 (ParseSession_t1320 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseSession::.cctor()
-extern "C" void ParseSession__cctor_m7173 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseSession__cctor_m7177 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

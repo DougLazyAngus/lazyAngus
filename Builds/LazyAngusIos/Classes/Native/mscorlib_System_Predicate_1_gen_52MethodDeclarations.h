@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Predicate`1<System.Tuple`2<System.Type,System.Type>>
-struct Predicate_1_t6116;
+struct Predicate_1_t6649;
 // System.Object
 struct Object_t;
 // System.Tuple`2<System.Type,System.Type>
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Predicate`1<System.Tuple`2<System.Type,System.Type>>::.ctor(System.Object,System.IntPtr)
 // System.Predicate`1<System.Object>
 #include "mscorlib_System_Predicate_1_gen_3MethodDeclarations.h"
-#define Predicate_1__ctor_m32464(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6116 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m21871_gshared)(__this, ___object, ___method, method)
+#define Predicate_1__ctor_m36695(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6649 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m26060_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<System.Tuple`2<System.Type,System.Type>>::Invoke(T)
-#define Predicate_1_Invoke_m32465(__this, ___obj, method) (( bool (*) (Predicate_1_t6116 *, Tuple_2_t1458 *, const MethodInfo*))Predicate_1_Invoke_m21872_gshared)(__this, ___obj, method)
+#define Predicate_1_Invoke_m36696(__this, ___obj, method) (( bool (*) (Predicate_1_t6649 *, Tuple_2_t1458 *, const MethodInfo*))Predicate_1_Invoke_m26061_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<System.Tuple`2<System.Type,System.Type>>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m32466(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6116 *, Tuple_2_t1458 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m21873_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Predicate_1_BeginInvoke_m36697(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6649 *, Tuple_2_t1458 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m26062_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<System.Tuple`2<System.Type,System.Type>>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m32467(__this, ___result, method) (( bool (*) (Predicate_1_t6116 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m21874_gshared)(__this, ___result, method)
+#define Predicate_1_EndInvoke_m36698(__this, ___result, method) (( bool (*) (Predicate_1_t6649 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m26063_gshared)(__this, ___result, method)

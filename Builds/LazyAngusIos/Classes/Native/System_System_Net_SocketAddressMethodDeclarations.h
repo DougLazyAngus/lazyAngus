@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.SocketAddress
-struct SocketAddress_t4085;
+struct SocketAddress_t4397;
 // System.String
 struct String_t;
 // System.Object
@@ -14,18 +14,18 @@ struct Object_t;
 #include "System_System_Net_Sockets_AddressFamily.h"
 
 // System.Void System.Net.SocketAddress::.ctor(System.Net.Sockets.AddressFamily,System.Int32)
-extern "C" void SocketAddress__ctor_m14285 (SocketAddress_t4085 * __this, int32_t ___family, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocketAddress__ctor_m16836 (SocketAddress_t4397 * __this, int32_t ___family, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Sockets.AddressFamily System.Net.SocketAddress::get_Family()
-extern "C" int32_t SocketAddress_get_Family_m14286 (SocketAddress_t4085 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SocketAddress_get_Family_m16837 (SocketAddress_t4397 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.SocketAddress::get_Size()
-extern "C" int32_t SocketAddress_get_Size_m14287 (SocketAddress_t4085 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SocketAddress_get_Size_m16838 (SocketAddress_t4397 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte System.Net.SocketAddress::get_Item(System.Int32)
-extern "C" uint8_t SocketAddress_get_Item_m14288 (SocketAddress_t4085 * __this, int32_t ___offset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint8_t SocketAddress_get_Item_m16839 (SocketAddress_t4397 * __this, int32_t ___offset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.SocketAddress::set_Item(System.Int32,System.Byte)
-extern "C" void SocketAddress_set_Item_m14289 (SocketAddress_t4085 * __this, int32_t ___offset, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SocketAddress_set_Item_m16840 (SocketAddress_t4397 * __this, int32_t ___offset, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Net.SocketAddress::ToString()
-extern "C" String_t* SocketAddress_ToString_m14290 (SocketAddress_t4085 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SocketAddress_ToString_m16841 (SocketAddress_t4397 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.SocketAddress::Equals(System.Object)
-extern "C" bool SocketAddress_Equals_m14291 (SocketAddress_t4085 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SocketAddress_Equals_m16842 (SocketAddress_t4397 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.SocketAddress::GetHashCode()
-extern "C" int32_t SocketAddress_GetHashCode_m14292 (SocketAddress_t4085 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SocketAddress_GetHashCode_m16843 (SocketAddress_t4397 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

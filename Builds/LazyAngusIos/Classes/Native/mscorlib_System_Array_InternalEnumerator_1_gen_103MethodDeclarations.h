@@ -4,30 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<System.Xml.XmlNamespaceManager/NsScope>
-struct InternalEnumerator_1_t8620;
+// System.Array/InternalEnumerator`1<Mono.Security.Protocol.Tls.Handshake.ClientCertificateType>
+struct InternalEnumerator_1_t9151;
 // System.Object
 struct Object_t;
 // System.Array
 struct Array_t;
-// System.Xml.XmlNamespaceManager/NsScope
-#include "System_Xml_System_Xml_XmlNamespaceManager_NsScope.h"
+// Mono.Security.Protocol.Tls.Handshake.ClientCertificateType
+#include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_ClientCer.h"
 
-// System.Void System.Array/InternalEnumerator`1<System.Xml.XmlNamespaceManager/NsScope>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m63400_gshared (InternalEnumerator_1_t8620 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m63400(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8620 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m63400_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<System.Xml.XmlNamespaceManager/NsScope>::System.Collections.IEnumerator.Reset()
-extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m63401_gshared (InternalEnumerator_1_t8620 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m63401(__this, method) (( void (*) (InternalEnumerator_1_t8620 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m63401_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<System.Xml.XmlNamespaceManager/NsScope>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m63402_gshared (InternalEnumerator_1_t8620 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m63402(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8620 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m63402_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Xml.XmlNamespaceManager/NsScope>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m63403_gshared (InternalEnumerator_1_t8620 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m63403(__this, method) (( void (*) (InternalEnumerator_1_t8620 *, const MethodInfo*))InternalEnumerator_1_Dispose_m63403_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Xml.XmlNamespaceManager/NsScope>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m63404_gshared (InternalEnumerator_1_t8620 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m63404(__this, method) (( bool (*) (InternalEnumerator_1_t8620 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m63404_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Xml.XmlNamespaceManager/NsScope>::get_Current()
-extern "C" NsScope_t3254  InternalEnumerator_1_get_Current_m63405_gshared (InternalEnumerator_1_t8620 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m63405(__this, method) (( NsScope_t3254  (*) (InternalEnumerator_1_t8620 *, const MethodInfo*))InternalEnumerator_1_get_Current_m63405_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<Mono.Security.Protocol.Tls.Handshake.ClientCertificateType>::.ctor(System.Array)
+// System.Array/InternalEnumerator`1<System.Int32>
+#include "mscorlib_System_Array_InternalEnumerator_1_gen_2MethodDeclarations.h"
+#define InternalEnumerator_1__ctor_m67600(__this, ___array, method) (( void (*) (InternalEnumerator_1_t9151 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m25555_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<Mono.Security.Protocol.Tls.Handshake.ClientCertificateType>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m67601(__this, method) (( void (*) (InternalEnumerator_1_t9151 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m25556_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<Mono.Security.Protocol.Tls.Handshake.ClientCertificateType>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m67602(__this, method) (( Object_t * (*) (InternalEnumerator_1_t9151 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m25557_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<Mono.Security.Protocol.Tls.Handshake.ClientCertificateType>::Dispose()
+#define InternalEnumerator_1_Dispose_m67603(__this, method) (( void (*) (InternalEnumerator_1_t9151 *, const MethodInfo*))InternalEnumerator_1_Dispose_m25558_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<Mono.Security.Protocol.Tls.Handshake.ClientCertificateType>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m67604(__this, method) (( bool (*) (InternalEnumerator_1_t9151 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m25559_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<Mono.Security.Protocol.Tls.Handshake.ClientCertificateType>::get_Current()
+#define InternalEnumerator_1_get_Current_m67605(__this, method) (( int32_t (*) (InternalEnumerator_1_t9151 *, const MethodInfo*))InternalEnumerator_1_get_Current_m25560_gshared)(__this, method)

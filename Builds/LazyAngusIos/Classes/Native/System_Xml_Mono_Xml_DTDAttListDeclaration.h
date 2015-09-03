@@ -9,7 +9,7 @@ struct ArrayList_t712;
 // Mono.Xml.DTDNode
 #include "System_Xml_Mono_Xml_DTDNode.h"
 // Mono.Xml.DTDAttListDeclaration
-struct  DTDAttListDeclaration_t3210  : public DTDNode_t3199
+struct  DTDAttListDeclaration_t3471  : public DTDNode_t3459
 {
 	// System.String Mono.Xml.DTDAttListDeclaration::name
 	String_t* ___name_5;

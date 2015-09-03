@@ -12,4 +12,4 @@ struct String_t;
 // System.Void System.Reflection.DefaultMemberAttribute::.ctor(System.String)
 extern "C" void DefaultMemberAttribute__ctor_m486 (DefaultMemberAttribute_t81 * __this, String_t* ___memberName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.DefaultMemberAttribute::get_MemberName()
-extern "C" String_t* DefaultMemberAttribute_get_MemberName_m16434 (DefaultMemberAttribute_t81 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DefaultMemberAttribute_get_MemberName_m19272 (DefaultMemberAttribute_t81 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

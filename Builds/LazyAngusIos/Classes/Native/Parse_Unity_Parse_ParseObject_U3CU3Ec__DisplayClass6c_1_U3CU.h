@@ -1,34 +1,34 @@
 ﻿#pragma once
 #include <stdint.h>
 // Parse.ParseObject/<>c__DisplayClass6c`1<System.Object>
-struct U3CU3Ec__DisplayClass6c_1_t6149;
+struct U3CU3Ec__DisplayClass6c_1_t6682;
 // System.Collections.Generic.List`1<System.Object>
 struct List_1_t698;
 // System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>
-struct Dictionary_2_t6152;
+struct Dictionary_2_t6685;
 // System.Func`3<System.Object,Parse.ParseObject,<>f__AnonymousType6`2<System.Object,Parse.ParseObject>>
-struct Func_3_t6153;
+struct Func_3_t6686;
 // System.Func`2<<>f__AnonymousType6`2<System.Object,Parse.ParseObject>,System.Boolean>
-struct Func_2_t6154;
+struct Func_2_t6687;
 // System.Func`2<<>f__AnonymousType6`2<System.Object,Parse.ParseObject>,<>f__AnonymousType6`2<System.Object,Parse.ParseObject>>
-struct Func_2_t6155;
+struct Func_2_t6688;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.ParseObject/<>c__DisplayClass6c`1/<>c__DisplayClass74<System.Object>
-struct  U3CU3Ec__DisplayClass74_t6156  : public Object_t
+struct  U3CU3Ec__DisplayClass74_t6689  : public Object_t
 {
 	// Parse.ParseObject/<>c__DisplayClass6c`1<T> Parse.ParseObject/<>c__DisplayClass6c`1/<>c__DisplayClass74<System.Object>::CS$<>8__locals6d
-	U3CU3Ec__DisplayClass6c_1_t6149 * ___CSU24U3CU3E8__locals6d_0;
+	U3CU3Ec__DisplayClass6c_1_t6682 * ___CSU24U3CU3E8__locals6d_0;
 	// System.Collections.Generic.List`1<T> Parse.ParseObject/<>c__DisplayClass6c`1/<>c__DisplayClass74<System.Object>::objectsToFetch
 	List_1_t698 * ___objectsToFetch_1;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>> Parse.ParseObject/<>c__DisplayClass6c`1/<>c__DisplayClass74<System.Object>::findsByClass
-	Dictionary_2_t6152 * ___findsByClass_2;
+	Dictionary_2_t6685 * ___findsByClass_2;
 };
-struct U3CU3Ec__DisplayClass74_t6156_StaticFields{
+struct U3CU3Ec__DisplayClass74_t6689_StaticFields{
 	// System.Func`3<T,Parse.ParseObject,<>f__AnonymousType6`2<T,Parse.ParseObject>> Parse.ParseObject/<>c__DisplayClass6c`1/<>c__DisplayClass74<System.Object>::CS$<>9__CachedAnonymousMethodDelegate76
-	Func_3_t6153 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate76_3;
+	Func_3_t6686 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate76_3;
 	// System.Func`2<<>f__AnonymousType6`2<T,Parse.ParseObject>,System.Boolean> Parse.ParseObject/<>c__DisplayClass6c`1/<>c__DisplayClass74<System.Object>::CS$<>9__CachedAnonymousMethodDelegate77
-	Func_2_t6154 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate77_4;
+	Func_2_t6687 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate77_4;
 	// System.Func`2<<>f__AnonymousType6`2<T,Parse.ParseObject>,<>f__AnonymousType6`2<T,Parse.ParseObject>> Parse.ParseObject/<>c__DisplayClass6c`1/<>c__DisplayClass74<System.Object>::CS$<>9__CachedAnonymousMethodDelegate78
-	Func_2_t6155 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate78_5;
+	Func_2_t6688 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate78_5;
 };

@@ -9,7 +9,7 @@ struct IEnumerator_1_t1416;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Object>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_10.h"
 // Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Object,System.Object>
-struct  U3CGetEnumeratorU3Ed__4_t6091  : public Object_t
+struct  U3CGetEnumeratorU3Ed__4_t6624  : public Object_t
 {
 	// System.Collections.Generic.KeyValuePair`2<System.String,TOut> Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Object,System.Object>::<>2__current
 	KeyValuePair_2_t791  ___U3CU3E2__current_0;

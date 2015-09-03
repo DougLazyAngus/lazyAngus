@@ -3,13 +3,13 @@
 // System.Object
 struct Object_t;
 // System.Threading.ExecutionContext
-struct ExecutionContext_t4619;
+struct ExecutionContext_t5152;
 // System.Object[]
 struct ObjectU5BU5D_t696;
 // System.MulticastDelegate
 struct MulticastDelegate_t388;
 // System.Security.Principal.IPrincipal
-struct IPrincipal_t4786;
+struct IPrincipal_t4834;
 // System.Collections.Hashtable
 struct Hashtable_t710;
 // System.Runtime.ConstrainedExecution.CriticalFinalizerObject
@@ -23,7 +23,7 @@ struct Hashtable_t710;
 // System.Int32
 #include "mscorlib_System_Int32.h"
 // System.Threading.Thread
-struct  Thread_t1478  : public CriticalFinalizerObject_t4583
+struct  Thread_t1478  : public CriticalFinalizerObject_t5090
 {
 	// System.Int32 System.Threading.Thread::lock_thread_id
 	int32_t ___lock_thread_id_0;
@@ -100,7 +100,7 @@ struct  Thread_t1478  : public CriticalFinalizerObject_t4583
 	// System.Object System.Threading.Thread::pending_exception
 	Object_t * ___pending_exception_36;
 	// System.Threading.ExecutionContext System.Threading.Thread::ec_to_set
-	ExecutionContext_t4619 * ___ec_to_set_37;
+	ExecutionContext_t5152 * ___ec_to_set_37;
 	// System.IntPtr System.Threading.Thread::interrupt_on_stop
 	IntPtr_t ___interrupt_on_stop_38;
 	// System.IntPtr System.Threading.Thread::unused3
@@ -132,5 +132,5 @@ struct Thread_t1478_ThreadStaticFields{
 	// System.Object[] System.Threading.Thread::local_slots
 	ObjectU5BU5D_t696* ___local_slots_43;
 	// System.Threading.ExecutionContext System.Threading.Thread::_ec
-	ExecutionContext_t4619 * ____ec_44;
+	ExecutionContext_t5152 * ____ec_44;
 };

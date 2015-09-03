@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IEnumerable`1<System.Int64>
-struct IEnumerable_1_t6380;
+struct IEnumerable_1_t6913;
 // System.Collections.Generic.IEnumerator`1<System.Int64>
-struct IEnumerator_1_t6381;
+struct IEnumerator_1_t6914;
 // System.Func`2<System.Int64,System.Byte>
-struct Func_2_t6441;
+struct Func_2_t6974;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Int64,System.Byte>
-struct  U3CCreateSelectIteratorU3Ec__Iterator10_2_t6442  : public Object_t
+struct  U3CCreateSelectIteratorU3Ec__Iterator10_2_t6975  : public Object_t
 {
 	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Int64,System.Byte>::source
 	Object_t* ___source_0;
-	// System.Collections.Generic.IEnumerator`1<TSource> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Int64,System.Byte>::<$s_70>__0
-	Object_t* ___U3CU24s_70U3E__0_1;
+	// System.Collections.Generic.IEnumerator`1<TSource> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Int64,System.Byte>::<$s_60>__0
+	Object_t* ___U3CU24s_60U3E__0_1;
 	// TSource System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Int64,System.Byte>::<element>__1
 	int64_t ___U3CelementU3E__1_2;
 	// System.Func`2<TSource,TResult> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Int64,System.Byte>::selector
-	Func_2_t6441 * ___selector_3;
+	Func_2_t6974 * ___selector_3;
 	// System.Int32 System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Int64,System.Byte>::$PC
 	int32_t ___U24PC_4;
 	// TResult System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Int64,System.Byte>::$current
@@ -26,5 +26,5 @@ struct  U3CCreateSelectIteratorU3Ec__Iterator10_2_t6442  : public Object_t
 	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Int64,System.Byte>::<$>source
 	Object_t* ___U3CU24U3Esource_6;
 	// System.Func`2<TSource,TResult> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Int64,System.Byte>::<$>selector
-	Func_2_t6441 * ___U3CU24U3Eselector_7;
+	Func_2_t6974 * ___U3CU24U3Eselector_7;
 };

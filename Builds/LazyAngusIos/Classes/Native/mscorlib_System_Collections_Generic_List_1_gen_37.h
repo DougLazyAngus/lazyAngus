@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Canvas[]
-struct CanvasU5BU5D_t5892;
+struct CanvasU5BU5D_t6425;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.Canvas>
 struct  List_1_t1066  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.Canvas>::_items
-	CanvasU5BU5D_t5892* ____items_1;
+	CanvasU5BU5D_t6425* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Canvas>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Canvas>::_version
@@ -16,5 +16,5 @@ struct  List_1_t1066  : public Object_t
 };
 struct List_1_t1066_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.Canvas>::EmptyArray
-	CanvasU5BU5D_t5892* ___EmptyArray_4;
+	CanvasU5BU5D_t6425* ___EmptyArray_4;
 };

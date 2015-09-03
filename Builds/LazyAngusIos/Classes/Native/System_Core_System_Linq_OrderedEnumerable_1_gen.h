@@ -5,7 +5,7 @@ struct IEnumerable_1_t724;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.OrderedEnumerable`1<System.Object>
-struct  OrderedEnumerable_1_t6098  : public Object_t
+struct  OrderedEnumerable_1_t6631  : public Object_t
 {
 	// System.Collections.Generic.IEnumerable`1<TElement> System.Linq.OrderedEnumerable`1<System.Object>::source
 	Object_t* ___source_0;

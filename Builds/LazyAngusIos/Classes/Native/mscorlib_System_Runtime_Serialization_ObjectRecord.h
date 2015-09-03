@@ -5,23 +5,23 @@ struct Object_t;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t2936;
 // System.Runtime.Serialization.ISerializationSurrogate
-struct ISerializationSurrogate_t4687;
+struct ISerializationSurrogate_t5192;
 // System.Runtime.Serialization.ISurrogateSelector
-struct ISurrogateSelector_t4637;
+struct ISurrogateSelector_t5172;
 // System.Reflection.MemberInfo
 struct MemberInfo_t;
 // System.Int32[]
 struct Int32U5BU5D_t484;
 // System.Runtime.Serialization.BaseFixupRecord
-struct BaseFixupRecord_t4681;
+struct BaseFixupRecord_t5186;
 // System.Runtime.Serialization.ObjectRecord
-struct ObjectRecord_t4680;
+struct ObjectRecord_t5184;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Serialization.ObjectRecordStatus
 #include "mscorlib_System_Runtime_Serialization_ObjectRecordStatus.h"
 // System.Runtime.Serialization.ObjectRecord
-struct  ObjectRecord_t4680  : public Object_t
+struct  ObjectRecord_t5184  : public Object_t
 {
 	// System.Runtime.Serialization.ObjectRecordStatus System.Runtime.Serialization.ObjectRecord::Status
 	uint8_t ___Status_0;
@@ -44,9 +44,9 @@ struct  ObjectRecord_t4680  : public Object_t
 	// System.Int32[] System.Runtime.Serialization.ObjectRecord::ArrayIndex
 	Int32U5BU5D_t484* ___ArrayIndex_9;
 	// System.Runtime.Serialization.BaseFixupRecord System.Runtime.Serialization.ObjectRecord::FixupChainAsContainer
-	BaseFixupRecord_t4681 * ___FixupChainAsContainer_10;
+	BaseFixupRecord_t5186 * ___FixupChainAsContainer_10;
 	// System.Runtime.Serialization.BaseFixupRecord System.Runtime.Serialization.ObjectRecord::FixupChainAsRequired
-	BaseFixupRecord_t4681 * ___FixupChainAsRequired_11;
+	BaseFixupRecord_t5186 * ___FixupChainAsRequired_11;
 	// System.Runtime.Serialization.ObjectRecord System.Runtime.Serialization.ObjectRecord::Next
-	ObjectRecord_t4680 * ___Next_12;
+	ObjectRecord_t5184 * ___Next_12;
 };

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>
-struct List_1_t3204;
+// System.Collections.Generic.List`1<System.Configuration.ConfigurationProperty>
+struct List_1_t3331;
+// System.Configuration.ConfigurationProperty
+struct ConfigurationProperty_t3329;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_16.h"
-// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>
-struct  Enumerator_t3202 
+// System.Collections.Generic.List`1/Enumerator<System.Configuration.ConfigurationProperty>
+struct  Enumerator_t3379 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::l
-	List_1_t3204 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Configuration.ConfigurationProperty>::l
+	List_1_t3331 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Configuration.ConfigurationProperty>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Configuration.ConfigurationProperty>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::current
-	KeyValuePair_2_t3203  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.Configuration.ConfigurationProperty>::current
+	ConfigurationProperty_t3329 * ___current_3;
 };

@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.HashAlgorithm
-struct HashAlgorithm_t3812;
+struct HashAlgorithm_t3133;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Security.Cryptography.HashAlgorithm
 #include "mscorlib_System_Security_Cryptography_HashAlgorithm.h"
 // Mono.Security.Protocol.Tls.SslHandshakeHash
-struct  SslHandshakeHash_t3895  : public HashAlgorithm_t3812
+struct  SslHandshakeHash_t3217  : public HashAlgorithm_t3133
 {
 	// System.Security.Cryptography.HashAlgorithm Mono.Security.Protocol.Tls.SslHandshakeHash::md5
-	HashAlgorithm_t3812 * ___md5_4;
+	HashAlgorithm_t3133 * ___md5_4;
 	// System.Security.Cryptography.HashAlgorithm Mono.Security.Protocol.Tls.SslHandshakeHash::sha
-	HashAlgorithm_t3812 * ___sha_5;
+	HashAlgorithm_t3133 * ___sha_5;
 	// System.Boolean Mono.Security.Protocol.Tls.SslHandshakeHash::hashing
 	bool ___hashing_6;
 	// System.Byte[] Mono.Security.Protocol.Tls.SslHandshakeHash::secret

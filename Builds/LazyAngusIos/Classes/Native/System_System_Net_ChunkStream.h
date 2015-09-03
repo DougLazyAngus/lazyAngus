@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Net.WebHeaderCollection
-struct WebHeaderCollection_t4033;
+struct WebHeaderCollection_t4307;
 // System.Text.StringBuilder
 struct StringBuilder_t261;
 // System.Collections.ArrayList
@@ -11,10 +11,10 @@ struct ArrayList_t712;
 // System.Net.ChunkStream/State
 #include "System_System_Net_ChunkStream_State.h"
 // System.Net.ChunkStream
-struct  ChunkStream_t4034  : public Object_t
+struct  ChunkStream_t4308  : public Object_t
 {
 	// System.Net.WebHeaderCollection System.Net.ChunkStream::headers
-	WebHeaderCollection_t4033 * ___headers_0;
+	WebHeaderCollection_t4307 * ___headers_0;
 	// System.Int32 System.Net.ChunkStream::chunkSize
 	int32_t ___chunkSize_1;
 	// System.Int32 System.Net.ChunkStream::chunkRead

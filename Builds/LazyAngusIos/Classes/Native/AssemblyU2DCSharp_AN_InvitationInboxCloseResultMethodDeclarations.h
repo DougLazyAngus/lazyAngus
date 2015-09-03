@@ -12,6 +12,6 @@ struct String_t;
 #include "AssemblyU2DCSharp_AdroidActivityResultCodes.h"
 
 // System.Void AN_InvitationInboxCloseResult::.ctor(System.String)
-extern "C" void AN_InvitationInboxCloseResult__ctor_m1394 (AN_InvitationInboxCloseResult_t245 * __this, String_t* ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_InvitationInboxCloseResult__ctor_m1396 (AN_InvitationInboxCloseResult_t245 * __this, String_t* ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // AdroidActivityResultCodes AN_InvitationInboxCloseResult::get_ResultCode()
-extern "C" int32_t AN_InvitationInboxCloseResult_get_ResultCode_m1395 (AN_InvitationInboxCloseResult_t245 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t AN_InvitationInboxCloseResult_get_ResultCode_m1397 (AN_InvitationInboxCloseResult_t245 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

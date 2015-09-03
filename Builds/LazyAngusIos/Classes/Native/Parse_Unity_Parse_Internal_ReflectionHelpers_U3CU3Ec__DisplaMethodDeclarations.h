@@ -10,6 +10,6 @@ struct U3CU3Ec__DisplayClassa_t1221;
 struct U3CU3Ef__AnonymousType1_2_t1394;
 
 // System.Void Parse.Internal.ReflectionHelpers/<>c__DisplayClassa::.ctor()
-extern "C" void U3CU3Ec__DisplayClassa__ctor_m6733 (U3CU3Ec__DisplayClassa_t1221 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClassa__ctor_m6737 (U3CU3Ec__DisplayClassa_t1221 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Parse.Internal.ReflectionHelpers/<>c__DisplayClassa::<FindConstructor>b__5(<>f__AnonymousType1`2<<>f__AnonymousType0`2<System.Reflection.ConstructorInfo,System.Reflection.ParameterInfo[]>,System.Collections.Generic.IEnumerable`1<System.Type>>)
-extern "C" bool U3CU3Ec__DisplayClassa_U3CFindConstructorU3Eb__5_m6734 (U3CU3Ec__DisplayClassa_t1221 * __this, U3CU3Ef__AnonymousType1_2_t1394 * ___U3CU3Eh__TransparentIdentifier1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool U3CU3Ec__DisplayClassa_U3CFindConstructorU3Eb__5_m6738 (U3CU3Ec__DisplayClassa_t1221 * __this, U3CU3Ef__AnonymousType1_2_t1394 * ___U3CU3Eh__TransparentIdentifier1, const MethodInfo* method) IL2CPP_METHOD_ATTR;

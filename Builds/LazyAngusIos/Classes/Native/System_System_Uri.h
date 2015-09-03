@@ -5,9 +5,9 @@ struct String_t;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Uri/UriScheme[]
-struct UriSchemeU5BU5D_t4194;
+struct UriSchemeU5BU5D_t4538;
 // System.UriParser
-struct UriParser_t4191;
+struct UriParser_t4277;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Object
@@ -52,7 +52,7 @@ struct  Uri_t771  : public Object_t
 	// System.Int32 System.Uri::cachedHashCode
 	int32_t ___cachedHashCode_18;
 	// System.UriParser System.Uri::parser
-	UriParser_t4191 * ___parser_32;
+	UriParser_t4277 * ___parser_32;
 };
 struct Uri_t771_StaticFields{
 	// System.String System.Uri::hexUpperChars
@@ -80,15 +80,15 @@ struct Uri_t771_StaticFields{
 	// System.String System.Uri::UriSchemeNetTcp
 	String_t* ___UriSchemeNetTcp_30;
 	// System.Uri/UriScheme[] System.Uri::schemes
-	UriSchemeU5BU5D_t4194* ___schemes_31;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map12
-	Dictionary_2_t223 * ___U3CU3Ef__switchU24map12_33;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map13
-	Dictionary_2_t223 * ___U3CU3Ef__switchU24map13_34;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map14
-	Dictionary_2_t223 * ___U3CU3Ef__switchU24map14_35;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map15
-	Dictionary_2_t223 * ___U3CU3Ef__switchU24map15_36;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map16
-	Dictionary_2_t223 * ___U3CU3Ef__switchU24map16_37;
+	UriSchemeU5BU5D_t4538* ___schemes_31;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map1C
+	Dictionary_2_t223 * ___U3CU3Ef__switchU24map1C_33;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map1D
+	Dictionary_2_t223 * ___U3CU3Ef__switchU24map1D_34;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map1E
+	Dictionary_2_t223 * ___U3CU3Ef__switchU24map1E_35;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map1F
+	Dictionary_2_t223 * ___U3CU3Ef__switchU24map1F_36;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map20
+	Dictionary_2_t223 * ___U3CU3Ef__switchU24map20_37;
 };

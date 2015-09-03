@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.HMACSHA384
-struct HMACSHA384_t4708;
+struct HMACSHA384_t5259;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 
 // System.Void System.Security.Cryptography.HMACSHA384::.ctor()
-extern "C" void HMACSHA384__ctor_m18811 (HMACSHA384_t4708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMACSHA384__ctor_m23363 (HMACSHA384_t5259 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.HMACSHA384::.ctor(System.Byte[])
-extern "C" void HMACSHA384__ctor_m18812 (HMACSHA384_t4708 * __this, ByteU5BU5D_t66* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMACSHA384__ctor_m23364 (HMACSHA384_t5259 * __this, ByteU5BU5D_t66* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.HMACSHA384::.cctor()
-extern "C" void HMACSHA384__cctor_m18813 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMACSHA384__cctor_m23365 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.HMACSHA384::set_ProduceLegacyHmacValues(System.Boolean)
-extern "C" void HMACSHA384_set_ProduceLegacyHmacValues_m18814 (HMACSHA384_t4708 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMACSHA384_set_ProduceLegacyHmacValues_m23366 (HMACSHA384_t5259 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

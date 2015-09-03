@@ -7,7 +7,7 @@ struct ParseObject_t1238;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.HashSet`1/Enumerator<Parse.ParseObject>
-struct  Enumerator_t6276 
+struct  Enumerator_t6809 
 {
 	// System.Collections.Generic.HashSet`1<T> System.Collections.Generic.HashSet`1/Enumerator<Parse.ParseObject>::hashset
 	HashSet_1_t1286 * ___hashset_0;

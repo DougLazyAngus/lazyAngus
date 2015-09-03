@@ -8,8 +8,8 @@
 struct IOSSharing_t574;
 
 // System.Void IOSSharing::.ctor()
-extern "C" void IOSSharing__ctor_m3096 (IOSSharing_t574 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IOSSharing__ctor_m3098 (IOSSharing_t574 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void IOSSharing::Start()
-extern "C" void IOSSharing_Start_m3097 (IOSSharing_t574 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IOSSharing_Start_m3099 (IOSSharing_t574 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void IOSSharing::Update()
-extern "C" void IOSSharing_Update_m3098 (IOSSharing_t574 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IOSSharing_Update_m3100 (IOSSharing_t574 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -3,7 +3,7 @@
 // Parse.ParseInstallation
 struct ParseInstallation_t1305;
 // System.Threading.Tasks.Task`1<Parse.ParseInstallation>
-struct Task_1_t6309;
+struct Task_1_t6842;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`2<System.Threading.Tasks.Task`1<Parse.ParseInstallation>,Parse.ParseInstallation>
-struct  Func_2_t6307  : public MulticastDelegate_t388
+struct  Func_2_t6840  : public MulticastDelegate_t388
 {
 };

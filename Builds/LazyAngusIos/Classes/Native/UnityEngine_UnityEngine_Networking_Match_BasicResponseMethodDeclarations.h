@@ -8,4 +8,4 @@
 struct BasicResponse_t2812;
 
 // System.Void UnityEngine.Networking.Match.BasicResponse::.ctor()
-extern "C" void BasicResponse__ctor_m9800 (BasicResponse_t2812 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BasicResponse__ctor_m9803 (BasicResponse_t2812 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

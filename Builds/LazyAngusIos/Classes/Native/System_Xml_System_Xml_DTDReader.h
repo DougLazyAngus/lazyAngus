@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.XmlParserInput
-struct XmlParserInput_t3217;
+struct XmlParserInput_t3479;
 // System.Collections.Stack
 struct Stack_t2914;
 // System.Char[]
@@ -11,14 +11,14 @@ struct StringBuilder_t261;
 // System.String
 struct String_t;
 // Mono.Xml.DTDObjectModel
-struct DTDObjectModel_t3190;
+struct DTDObjectModel_t3443;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.DTDReader
-struct  DTDReader_t3218  : public Object_t
+struct  DTDReader_t3480  : public Object_t
 {
 	// System.Xml.XmlParserInput System.Xml.DTDReader::currentInput
-	XmlParserInput_t3217 * ___currentInput_0;
+	XmlParserInput_t3479 * ___currentInput_0;
 	// System.Collections.Stack System.Xml.DTDReader::parserInputStack
 	Stack_t2914 * ___parserInputStack_1;
 	// System.Char[] System.Xml.DTDReader::nameBuffer
@@ -44,5 +44,5 @@ struct  DTDReader_t3218  : public Object_t
 	// System.String System.Xml.DTDReader::cachedSystemId
 	String_t* ___cachedSystemId_12;
 	// Mono.Xml.DTDObjectModel System.Xml.DTDReader::DTD
-	DTDObjectModel_t3190 * ___DTD_13;
+	DTDObjectModel_t3443 * ___DTD_13;
 };

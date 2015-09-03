@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
-struct IList_1_t8650;
+struct IList_1_t9199;
 // System.Object
 struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
-struct  Collection_1_t8652  : public Object_t
+struct  Collection_1_t9201  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::list
 	Object_t* ___list_0;

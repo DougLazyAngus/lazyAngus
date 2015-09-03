@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.XmlNamedNodeMap
-struct XmlNamedNodeMap_t3231;
+struct XmlNamedNodeMap_t3503;
 // Mono.Xml.DTDObjectModel
-struct DTDObjectModel_t3190;
+struct DTDObjectModel_t3443;
 // System.Xml.XmlLinkedNode
 #include "System_Xml_System_Xml_XmlLinkedNode.h"
 // System.Xml.XmlDocumentType
-struct  XmlDocumentType_t3243  : public XmlLinkedNode_t3229
+struct  XmlDocumentType_t3514  : public XmlLinkedNode_t3499
 {
 	// System.Xml.XmlNamedNodeMap System.Xml.XmlDocumentType::entities
-	XmlNamedNodeMap_t3231 * ___entities_6;
+	XmlNamedNodeMap_t3503 * ___entities_6;
 	// System.Xml.XmlNamedNodeMap System.Xml.XmlDocumentType::notations
-	XmlNamedNodeMap_t3231 * ___notations_7;
+	XmlNamedNodeMap_t3503 * ___notations_7;
 	// Mono.Xml.DTDObjectModel System.Xml.XmlDocumentType::dtd
-	DTDObjectModel_t3190 * ___dtd_8;
+	DTDObjectModel_t3443 * ___dtd_8;
 };

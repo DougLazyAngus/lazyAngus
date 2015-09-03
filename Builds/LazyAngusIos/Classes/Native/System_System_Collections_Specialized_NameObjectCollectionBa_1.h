@@ -1,12 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Specialized.NameObjectCollectionBase
-struct NameObjectCollectionBase_t3980;
+// System.String
+struct String_t;
+// System.Object
+struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Specialized.NameObjectCollectionBase/KeysCollection
-struct  KeysCollection_t3982  : public Object_t
+// System.Collections.Specialized.NameObjectCollectionBase/_Item
+struct  _Item_t4213  : public Object_t
 {
-	// System.Collections.Specialized.NameObjectCollectionBase System.Collections.Specialized.NameObjectCollectionBase/KeysCollection::m_collection
-	NameObjectCollectionBase_t3980 * ___m_collection_0;
+	// System.String System.Collections.Specialized.NameObjectCollectionBase/_Item::key
+	String_t* ___key_0;
+	// System.Object System.Collections.Specialized.NameObjectCollectionBase/_Item::value
+	Object_t * ___value_1;
 };

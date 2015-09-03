@@ -2,15 +2,17 @@
 #include <stdint.h>
 // System.String[]
 struct StringU5BU5D_t75;
+// System.Collections.Generic.Dictionary`2<System.String,System.Int32>
+struct Dictionary_2_t223;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Globalization.DateTimeStyles
 #include "mscorlib_System_Globalization_DateTimeStyles.h"
 // System.Xml.XmlConvert
-struct  XmlConvert_t3237  : public Object_t
+struct  XmlConvert_t3517  : public Object_t
 {
 };
-struct XmlConvert_t3237_StaticFields{
+struct XmlConvert_t3517_StaticFields{
 	// System.String[] System.Xml.XmlConvert::datetimeFormats
 	StringU5BU5D_t75* ___datetimeFormats_0;
 	// System.String[] System.Xml.XmlConvert::defaultDateTimeFormats
@@ -25,4 +27,6 @@ struct XmlConvert_t3237_StaticFields{
 	StringU5BU5D_t75* ___unspecifiedDateTimeFormats_5;
 	// System.Globalization.DateTimeStyles System.Xml.XmlConvert::_defaultStyle
 	int32_t ____defaultStyle_6;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.XmlConvert::<>f__switch$map33
+	Dictionary_2_t223 * ___U3CU3Ef__switchU24map33_7;
 };

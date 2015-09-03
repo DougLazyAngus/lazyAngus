@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.XmlNode/EmptyNodeList
-struct EmptyNodeList_t3258;
+struct EmptyNodeList_t3522;
 // System.Xml.XmlDocument
 struct XmlDocument_t691;
 // System.Xml.XmlNode
 struct XmlNode_t731;
 // System.Xml.XmlNodeListChildren
-struct XmlNodeListChildren_t3260;
+struct XmlNodeListChildren_t3524;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Object
@@ -20,11 +20,11 @@ struct  XmlNode_t731  : public Object_t
 	// System.Xml.XmlNode System.Xml.XmlNode::parentNode
 	XmlNode_t731 * ___parentNode_2;
 	// System.Xml.XmlNodeListChildren System.Xml.XmlNode::childNodes
-	XmlNodeListChildren_t3260 * ___childNodes_3;
+	XmlNodeListChildren_t3524 * ___childNodes_3;
 };
 struct XmlNode_t731_StaticFields{
 	// System.Xml.XmlNode/EmptyNodeList System.Xml.XmlNode::emptyList
-	EmptyNodeList_t3258 * ___emptyList_0;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.XmlNode::<>f__switch$map44
-	Dictionary_2_t223 * ___U3CU3Ef__switchU24map44_4;
+	EmptyNodeList_t3522 * ___emptyList_0;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.XmlNode::<>f__switch$map2B
+	Dictionary_2_t223 * ___U3CU3Ef__switchU24map2B_4;
 };

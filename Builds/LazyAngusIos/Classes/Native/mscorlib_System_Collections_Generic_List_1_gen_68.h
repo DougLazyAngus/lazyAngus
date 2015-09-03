@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Security.Policy.StrongName[]
-struct StrongNameU5BU5D_t8724;
+// System.Net.Cookie[]
+struct CookieU5BU5D_t9237;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Security.Policy.StrongName>
-struct  List_1_t4918  : public Object_t
+// System.Collections.Generic.List`1<System.Net.Cookie>
+struct  List_1_t4343  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Security.Policy.StrongName>::_items
-	StrongNameU5BU5D_t8724* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Security.Policy.StrongName>::_size
+	// T[] System.Collections.Generic.List`1<System.Net.Cookie>::_items
+	CookieU5BU5D_t9237* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Net.Cookie>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Security.Policy.StrongName>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Net.Cookie>::_version
 	int32_t ____version_3;
 };
-struct List_1_t4918_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Security.Policy.StrongName>::EmptyArray
-	StrongNameU5BU5D_t8724* ___EmptyArray_4;
+struct List_1_t4343_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Net.Cookie>::EmptyArray
+	CookieU5BU5D_t9237* ___EmptyArray_4;
 };

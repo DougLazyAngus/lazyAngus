@@ -11,14 +11,14 @@ struct Regex_t801;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.UriParser
-struct  UriParser_t4191  : public Object_t
+struct  UriParser_t4277  : public Object_t
 {
 	// System.String System.UriParser::scheme_name
 	String_t* ___scheme_name_2;
 	// System.Int32 System.UriParser::default_port
 	int32_t ___default_port_3;
 };
-struct UriParser_t4191_StaticFields{
+struct UriParser_t4277_StaticFields{
 	// System.Object System.UriParser::lock_object
 	Object_t * ___lock_object_0;
 	// System.Collections.Hashtable System.UriParser::table

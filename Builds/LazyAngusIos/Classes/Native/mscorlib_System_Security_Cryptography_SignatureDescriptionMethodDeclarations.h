@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.SignatureDescription
-struct SignatureDescription_t4732;
+struct SignatureDescription_t5283;
 // System.String
 struct String_t;
 
 // System.Void System.Security.Cryptography.SignatureDescription::.ctor()
-extern "C" void SignatureDescription__ctor_m19006 (SignatureDescription_t4732 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SignatureDescription__ctor_m23560 (SignatureDescription_t5283 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SignatureDescription::set_DeformatterAlgorithm(System.String)
-extern "C" void SignatureDescription_set_DeformatterAlgorithm_m19007 (SignatureDescription_t4732 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SignatureDescription_set_DeformatterAlgorithm_m23561 (SignatureDescription_t5283 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SignatureDescription::set_DigestAlgorithm(System.String)
-extern "C" void SignatureDescription_set_DigestAlgorithm_m19008 (SignatureDescription_t4732 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SignatureDescription_set_DigestAlgorithm_m23562 (SignatureDescription_t5283 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SignatureDescription::set_FormatterAlgorithm(System.String)
-extern "C" void SignatureDescription_set_FormatterAlgorithm_m19009 (SignatureDescription_t4732 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SignatureDescription_set_FormatterAlgorithm_m23563 (SignatureDescription_t5283 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.SignatureDescription::set_KeyAlgorithm(System.String)
-extern "C" void SignatureDescription_set_KeyAlgorithm_m19010 (SignatureDescription_t4732 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SignatureDescription_set_KeyAlgorithm_m23564 (SignatureDescription_t5283 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

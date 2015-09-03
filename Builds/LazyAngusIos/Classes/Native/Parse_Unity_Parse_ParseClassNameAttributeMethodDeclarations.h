@@ -10,8 +10,8 @@ struct ParseClassNameAttribute_t1235;
 struct String_t;
 
 // System.Void Parse.ParseClassNameAttribute::.ctor(System.String)
-extern "C" void ParseClassNameAttribute__ctor_m6786 (ParseClassNameAttribute_t1235 * __this, String_t* ___className, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseClassNameAttribute__ctor_m6790 (ParseClassNameAttribute_t1235 * __this, String_t* ___className, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Parse.ParseClassNameAttribute::get_ClassName()
-extern "C" String_t* ParseClassNameAttribute_get_ClassName_m6787 (ParseClassNameAttribute_t1235 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ParseClassNameAttribute_get_ClassName_m6791 (ParseClassNameAttribute_t1235 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseClassNameAttribute::set_ClassName(System.String)
-extern "C" void ParseClassNameAttribute_set_ClassName_m6788 (ParseClassNameAttribute_t1235 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseClassNameAttribute_set_ClassName_m6792 (ParseClassNameAttribute_t1235 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

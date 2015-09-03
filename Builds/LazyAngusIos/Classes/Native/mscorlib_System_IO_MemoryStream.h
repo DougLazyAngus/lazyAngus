@@ -8,23 +8,23 @@ struct ByteU5BU5D_t66;
 struct  MemoryStream_t65  : public Stream_t51
 {
 	// System.Boolean System.IO.MemoryStream::canWrite
-	bool ___canWrite_1;
+	bool ___canWrite_2;
 	// System.Boolean System.IO.MemoryStream::allowGetBuffer
-	bool ___allowGetBuffer_2;
+	bool ___allowGetBuffer_3;
 	// System.Int32 System.IO.MemoryStream::capacity
-	int32_t ___capacity_3;
+	int32_t ___capacity_4;
 	// System.Int32 System.IO.MemoryStream::length
-	int32_t ___length_4;
+	int32_t ___length_5;
 	// System.Byte[] System.IO.MemoryStream::internalBuffer
-	ByteU5BU5D_t66* ___internalBuffer_5;
+	ByteU5BU5D_t66* ___internalBuffer_6;
 	// System.Int32 System.IO.MemoryStream::initialIndex
-	int32_t ___initialIndex_6;
+	int32_t ___initialIndex_7;
 	// System.Boolean System.IO.MemoryStream::expandable
-	bool ___expandable_7;
+	bool ___expandable_8;
 	// System.Boolean System.IO.MemoryStream::streamClosed
-	bool ___streamClosed_8;
+	bool ___streamClosed_9;
 	// System.Int32 System.IO.MemoryStream::position
-	int32_t ___position_9;
+	int32_t ___position_10;
 	// System.Int32 System.IO.MemoryStream::dirty_bytes
-	int32_t ___dirty_bytes_10;
+	int32_t ___dirty_bytes_11;
 };

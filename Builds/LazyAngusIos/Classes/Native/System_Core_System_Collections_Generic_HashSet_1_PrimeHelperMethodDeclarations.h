@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.HashSet`1/PrimeHelper<System.Object>
-struct PrimeHelper_t5981;
+struct PrimeHelper_t6514;
 
 // System.Void System.Collections.Generic.HashSet`1/PrimeHelper<System.Object>::.cctor()
-extern "C" void PrimeHelper__cctor_m30956_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define PrimeHelper__cctor_m30956(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))PrimeHelper__cctor_m30956_gshared)(__this /* static, unused */, method)
+extern "C" void PrimeHelper__cctor_m35179_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define PrimeHelper__cctor_m35179(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))PrimeHelper__cctor_m35179_gshared)(__this /* static, unused */, method)
 // System.Boolean System.Collections.Generic.HashSet`1/PrimeHelper<System.Object>::TestPrime(System.Int32)
-extern "C" bool PrimeHelper_TestPrime_m30957_gshared (Object_t * __this /* static, unused */, int32_t ___x, const MethodInfo* method);
-#define PrimeHelper_TestPrime_m30957(__this /* static, unused */, ___x, method) (( bool (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))PrimeHelper_TestPrime_m30957_gshared)(__this /* static, unused */, ___x, method)
+extern "C" bool PrimeHelper_TestPrime_m35180_gshared (Object_t * __this /* static, unused */, int32_t ___x, const MethodInfo* method);
+#define PrimeHelper_TestPrime_m35180(__this /* static, unused */, ___x, method) (( bool (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))PrimeHelper_TestPrime_m35180_gshared)(__this /* static, unused */, ___x, method)
 // System.Int32 System.Collections.Generic.HashSet`1/PrimeHelper<System.Object>::CalcPrime(System.Int32)
-extern "C" int32_t PrimeHelper_CalcPrime_m30958_gshared (Object_t * __this /* static, unused */, int32_t ___x, const MethodInfo* method);
-#define PrimeHelper_CalcPrime_m30958(__this /* static, unused */, ___x, method) (( int32_t (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))PrimeHelper_CalcPrime_m30958_gshared)(__this /* static, unused */, ___x, method)
+extern "C" int32_t PrimeHelper_CalcPrime_m35181_gshared (Object_t * __this /* static, unused */, int32_t ___x, const MethodInfo* method);
+#define PrimeHelper_CalcPrime_m35181(__this /* static, unused */, ___x, method) (( int32_t (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))PrimeHelper_CalcPrime_m35181_gshared)(__this /* static, unused */, ___x, method)
 // System.Int32 System.Collections.Generic.HashSet`1/PrimeHelper<System.Object>::ToPrime(System.Int32)
-extern "C" int32_t PrimeHelper_ToPrime_m30959_gshared (Object_t * __this /* static, unused */, int32_t ___x, const MethodInfo* method);
-#define PrimeHelper_ToPrime_m30959(__this /* static, unused */, ___x, method) (( int32_t (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))PrimeHelper_ToPrime_m30959_gshared)(__this /* static, unused */, ___x, method)
+extern "C" int32_t PrimeHelper_ToPrime_m35182_gshared (Object_t * __this /* static, unused */, int32_t ___x, const MethodInfo* method);
+#define PrimeHelper_ToPrime_m35182(__this /* static, unused */, ___x, method) (( int32_t (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))PrimeHelper_ToPrime_m35182_gshared)(__this /* static, unused */, ___x, method)

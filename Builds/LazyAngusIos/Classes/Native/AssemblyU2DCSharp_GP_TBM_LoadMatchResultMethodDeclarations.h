@@ -10,4 +10,4 @@ struct GP_TBM_LoadMatchResult_t250;
 struct String_t;
 
 // System.Void GP_TBM_LoadMatchResult::.ctor(System.String)
-extern "C" void GP_TBM_LoadMatchResult__ctor_m1401 (GP_TBM_LoadMatchResult_t250 * __this, String_t* ___code, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GP_TBM_LoadMatchResult__ctor_m1403 (GP_TBM_LoadMatchResult_t250 * __this, String_t* ___code, const MethodInfo* method) IL2CPP_METHOD_ATTR;

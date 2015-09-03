@@ -5,12 +5,12 @@ struct String_t;
 // System.IO.TextReader
 #include "mscorlib_System_IO_TextReader.h"
 // System.IO.StringReader
-struct  StringReader_t259  : public TextReader_t3252
+struct  StringReader_t259  : public TextReader_t3372
 {
 	// System.String System.IO.StringReader::source
-	String_t* ___source_1;
+	String_t* ___source_2;
 	// System.Int32 System.IO.StringReader::nextChar
-	int32_t ___nextChar_2;
+	int32_t ___nextChar_3;
 	// System.Int32 System.IO.StringReader::sourceLength
-	int32_t ___sourceLength_3;
+	int32_t ___sourceLength_4;
 };

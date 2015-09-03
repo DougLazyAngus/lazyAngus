@@ -7,7 +7,7 @@ struct ArrayList_t712;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.ASN1
-struct  ASN1_t3801  : public Object_t
+struct  ASN1_t3122  : public Object_t
 {
 	// System.Byte Mono.Security.ASN1::m_nTag
 	uint8_t ___m_nTag_0;

@@ -7,7 +7,7 @@ struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.ArrayList/SimpleEnumerator
-struct  SimpleEnumerator_t4449  : public Object_t
+struct  SimpleEnumerator_t4935  : public Object_t
 {
 	// System.Collections.ArrayList System.Collections.ArrayList/SimpleEnumerator::list
 	ArrayList_t712 * ___list_0;
@@ -18,7 +18,7 @@ struct  SimpleEnumerator_t4449  : public Object_t
 	// System.Object System.Collections.ArrayList/SimpleEnumerator::currentElement
 	Object_t * ___currentElement_3;
 };
-struct SimpleEnumerator_t4449_StaticFields{
+struct SimpleEnumerator_t4935_StaticFields{
 	// System.Object System.Collections.ArrayList/SimpleEnumerator::endFlag
 	Object_t * ___endFlag_4;
 };

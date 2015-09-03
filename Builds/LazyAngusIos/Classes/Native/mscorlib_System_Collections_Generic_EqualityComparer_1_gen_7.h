@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.EqualityComparer`1<System.SByte>
-struct EqualityComparer_1_t6465;
+// System.Collections.Generic.EqualityComparer`1<System.Byte>
+struct EqualityComparer_1_t6769;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.EqualityComparer`1<System.SByte>
-struct  EqualityComparer_1_t6465  : public Object_t
+// System.Collections.Generic.EqualityComparer`1<System.Byte>
+struct  EqualityComparer_1_t6769  : public Object_t
 {
 };
-struct EqualityComparer_1_t6465_StaticFields{
-	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<System.SByte>::_default
-	EqualityComparer_1_t6465 * ____default_0;
+struct EqualityComparer_1_t6769_StaticFields{
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<System.Byte>::_default
+	EqualityComparer_1_t6769 * ____default_0;
 };

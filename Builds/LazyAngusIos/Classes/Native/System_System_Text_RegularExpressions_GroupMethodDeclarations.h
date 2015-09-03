@@ -12,14 +12,14 @@ struct CaptureCollection_t1455;
 struct String_t;
 
 // System.Void System.Text.RegularExpressions.Group::.ctor(System.String,System.Int32,System.Int32,System.Int32)
-extern "C" void Group__ctor_m14751 (Group_t1452 * __this, String_t* ___text, int32_t ___index, int32_t ___length, int32_t ___n_caps, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Group__ctor_m17535 (Group_t1452 * __this, String_t* ___text, int32_t ___index, int32_t ___length, int32_t ___n_caps, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Group::.ctor(System.String,System.Int32,System.Int32)
-extern "C" void Group__ctor_m14752 (Group_t1452 * __this, String_t* ___text, int32_t ___index, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Group__ctor_m17536 (Group_t1452 * __this, String_t* ___text, int32_t ___index, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Group::.ctor()
-extern "C" void Group__ctor_m14753 (Group_t1452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Group__ctor_m17537 (Group_t1452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Group::.cctor()
-extern "C" void Group__cctor_m14754 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Group__cctor_m17538 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.CaptureCollection System.Text.RegularExpressions.Group::get_Captures()
-extern "C" CaptureCollection_t1455 * Group_get_Captures_m7497 (Group_t1452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CaptureCollection_t1455 * Group_get_Captures_m7501 (Group_t1452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Group::get_Success()
-extern "C" bool Group_get_Success_m7504 (Group_t1452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Group_get_Success_m7508 (Group_t1452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

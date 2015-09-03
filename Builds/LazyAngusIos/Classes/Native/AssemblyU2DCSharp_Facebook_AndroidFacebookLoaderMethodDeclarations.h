@@ -10,6 +10,6 @@ struct AndroidFacebookLoader_t435;
 struct AbstractFacebook_t414;
 
 // System.Void Facebook.AndroidFacebookLoader::.ctor()
-extern "C" void AndroidFacebookLoader__ctor_m2359 (AndroidFacebookLoader_t435 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AndroidFacebookLoader__ctor_m2361 (AndroidFacebookLoader_t435 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Facebook.AbstractFacebook Facebook.AndroidFacebookLoader::get_fb()
-extern "C" AbstractFacebook_t414 * AndroidFacebookLoader_get_fb_m2360 (AndroidFacebookLoader_t435 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AbstractFacebook_t414 * AndroidFacebookLoader_get_fb_m2362 (AndroidFacebookLoader_t435 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

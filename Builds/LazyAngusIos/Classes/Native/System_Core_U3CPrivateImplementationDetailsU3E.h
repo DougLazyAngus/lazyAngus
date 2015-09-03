@@ -5,10 +5,10 @@
 // <PrivateImplementationDetails>/$ArrayType$136
 #include "System_Core_U3CPrivateImplementationDetailsU3E_U24ArrayTypeU.h"
 // <PrivateImplementationDetails>
-struct  U3CPrivateImplementationDetailsU3E_t3376  : public Object_t
+struct  U3CPrivateImplementationDetailsU3E_t3786  : public Object_t
 {
 };
-struct U3CPrivateImplementationDetailsU3E_t3376_StaticFields{
+struct U3CPrivateImplementationDetailsU3E_t3786_StaticFields{
 	// <PrivateImplementationDetails>/$ArrayType$136 <PrivateImplementationDetails>::$$field-0
-	U24ArrayTypeU24136_t3375  ___U24U24fieldU2D0_0;
+	U24ArrayTypeU24136_t3785  ___U24U24fieldU2D0_0;
 };

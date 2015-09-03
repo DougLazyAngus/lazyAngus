@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // FBScore[]
-struct FBScoreU5BU5D_t5592;
+struct FBScoreU5BU5D_t6125;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<FBScore>
 struct  List_1_t702  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<FBScore>::_items
-	FBScoreU5BU5D_t5592* ____items_1;
+	FBScoreU5BU5D_t6125* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<FBScore>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<FBScore>::_version
@@ -16,5 +16,5 @@ struct  List_1_t702  : public Object_t
 };
 struct List_1_t702_StaticFields{
 	// T[] System.Collections.Generic.List`1<FBScore>::EmptyArray
-	FBScoreU5BU5D_t5592* ___EmptyArray_4;
+	FBScoreU5BU5D_t6125* ___EmptyArray_4;
 };

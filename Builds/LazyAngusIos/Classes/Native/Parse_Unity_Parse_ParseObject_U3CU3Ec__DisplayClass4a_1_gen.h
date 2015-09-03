@@ -7,7 +7,7 @@ struct IEnumerable_1_t724;
 // System.Threading.CancellationToken
 #include "Parse_Unity_System_Threading_CancellationToken.h"
 // Parse.ParseObject/<>c__DisplayClass4a`1<System.Object>
-struct  U3CU3Ec__DisplayClass4a_1_t6144  : public Object_t
+struct  U3CU3Ec__DisplayClass4a_1_t6677  : public Object_t
 {
 	// System.Collections.Generic.IEnumerable`1<T> Parse.ParseObject/<>c__DisplayClass4a`1<System.Object>::objects
 	Object_t* ___objects_0;

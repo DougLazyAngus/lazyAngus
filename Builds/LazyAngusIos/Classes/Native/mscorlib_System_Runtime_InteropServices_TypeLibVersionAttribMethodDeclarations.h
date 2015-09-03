@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.TypeLibVersionAttribute
-struct TypeLibVersionAttribute_t4598;
+struct TypeLibVersionAttribute_t5107;
 
 // System.Void System.Runtime.InteropServices.TypeLibVersionAttribute::.ctor(System.Int32,System.Int32)
-extern "C" void TypeLibVersionAttribute__ctor_m18320 (TypeLibVersionAttribute_t4598 * __this, int32_t ___major, int32_t ___minor, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TypeLibVersionAttribute__ctor_m22567 (TypeLibVersionAttribute_t5107 * __this, int32_t ___major, int32_t ___minor, const MethodInfo* method) IL2CPP_METHOD_ATTR;

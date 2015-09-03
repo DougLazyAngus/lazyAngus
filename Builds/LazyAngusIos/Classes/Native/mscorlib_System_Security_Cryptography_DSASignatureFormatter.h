@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.DSA
-struct DSA_t3828;
+struct DSA_t3149;
 // System.Security.Cryptography.AsymmetricSignatureFormatter
 #include "mscorlib_System_Security_Cryptography_AsymmetricSignatureFor.h"
 // System.Security.Cryptography.DSASignatureFormatter
-struct  DSASignatureFormatter_t4704  : public AsymmetricSignatureFormatter_t3886
+struct  DSASignatureFormatter_t5254  : public AsymmetricSignatureFormatter_t3208
 {
 	// System.Security.Cryptography.DSA System.Security.Cryptography.DSASignatureFormatter::dsa
-	DSA_t3828 * ___dsa_0;
+	DSA_t3149 * ___dsa_0;
 };

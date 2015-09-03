@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Syntax.PositionAssertion
-struct PositionAssertion_t4184;
+struct PositionAssertion_t4530;
 // System.Text.RegularExpressions.ICompiler
-struct ICompiler_t4206;
+struct ICompiler_t4554;
 // System.Text.RegularExpressions.Syntax.AnchorInfo
-struct AnchorInfo_t4189;
+struct AnchorInfo_t4535;
 // System.Text.RegularExpressions.Position
 #include "System_System_Text_RegularExpressions_Position.h"
 
 // System.Void System.Text.RegularExpressions.Syntax.PositionAssertion::.ctor(System.Text.RegularExpressions.Position)
-extern "C" void PositionAssertion__ctor_m15076 (PositionAssertion_t4184 * __this, uint16_t ___pos, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PositionAssertion__ctor_m17861 (PositionAssertion_t4530 * __this, uint16_t ___pos, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.PositionAssertion::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern "C" void PositionAssertion_Compile_m15077 (PositionAssertion_t4184 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PositionAssertion_Compile_m17862 (PositionAssertion_t4530 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.PositionAssertion::GetWidth(System.Int32&,System.Int32&)
-extern "C" void PositionAssertion_GetWidth_m15078 (PositionAssertion_t4184 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PositionAssertion_GetWidth_m17863 (PositionAssertion_t4530 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.PositionAssertion::IsComplex()
-extern "C" bool PositionAssertion_IsComplex_m15079 (PositionAssertion_t4184 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool PositionAssertion_IsComplex_m17864 (PositionAssertion_t4530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Syntax.AnchorInfo System.Text.RegularExpressions.Syntax.PositionAssertion::GetAnchorInfo(System.Boolean)
-extern "C" AnchorInfo_t4189 * PositionAssertion_GetAnchorInfo_m15080 (PositionAssertion_t4184 * __this, bool ___revers, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AnchorInfo_t4535 * PositionAssertion_GetAnchorInfo_m17865 (PositionAssertion_t4530 * __this, bool ___revers, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -14,16 +14,16 @@ struct String_t;
 #include "mscorlib_System_Nullable_1_gen.h"
 
 // System.Void GameAnalyticsSDK.GA_Progression::NewEvent(GameAnalyticsSDK.GA_Progression/GAProgressionStatus,System.String)
-extern "C" void GA_Progression_NewEvent_m2604 (Object_t * __this /* static, unused */, int32_t ___progressionStatus, String_t* ___progression01, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GA_Progression_NewEvent_m2606 (Object_t * __this /* static, unused */, int32_t ___progressionStatus, String_t* ___progression01, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameAnalyticsSDK.GA_Progression::NewEvent(GameAnalyticsSDK.GA_Progression/GAProgressionStatus,System.String,System.String)
-extern "C" void GA_Progression_NewEvent_m2605 (Object_t * __this /* static, unused */, int32_t ___progressionStatus, String_t* ___progression01, String_t* ___progression02, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GA_Progression_NewEvent_m2607 (Object_t * __this /* static, unused */, int32_t ___progressionStatus, String_t* ___progression01, String_t* ___progression02, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameAnalyticsSDK.GA_Progression::NewEvent(GameAnalyticsSDK.GA_Progression/GAProgressionStatus,System.String,System.String,System.String)
-extern "C" void GA_Progression_NewEvent_m2606 (Object_t * __this /* static, unused */, int32_t ___progressionStatus, String_t* ___progression01, String_t* ___progression02, String_t* ___progression03, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GA_Progression_NewEvent_m2608 (Object_t * __this /* static, unused */, int32_t ___progressionStatus, String_t* ___progression01, String_t* ___progression02, String_t* ___progression03, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameAnalyticsSDK.GA_Progression::NewEvent(GameAnalyticsSDK.GA_Progression/GAProgressionStatus,System.String,System.Int32)
-extern "C" void GA_Progression_NewEvent_m2607 (Object_t * __this /* static, unused */, int32_t ___progressionStatus, String_t* ___progression01, int32_t ___score, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GA_Progression_NewEvent_m2609 (Object_t * __this /* static, unused */, int32_t ___progressionStatus, String_t* ___progression01, int32_t ___score, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameAnalyticsSDK.GA_Progression::NewEvent(GameAnalyticsSDK.GA_Progression/GAProgressionStatus,System.String,System.String,System.Int32)
-extern "C" void GA_Progression_NewEvent_m2608 (Object_t * __this /* static, unused */, int32_t ___progressionStatus, String_t* ___progression01, String_t* ___progression02, int32_t ___score, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GA_Progression_NewEvent_m2610 (Object_t * __this /* static, unused */, int32_t ___progressionStatus, String_t* ___progression01, String_t* ___progression02, int32_t ___score, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameAnalyticsSDK.GA_Progression::NewEvent(GameAnalyticsSDK.GA_Progression/GAProgressionStatus,System.String,System.String,System.String,System.Int32)
-extern "C" void GA_Progression_NewEvent_m2609 (Object_t * __this /* static, unused */, int32_t ___progressionStatus, String_t* ___progression01, String_t* ___progression02, String_t* ___progression03, int32_t ___score, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GA_Progression_NewEvent_m2611 (Object_t * __this /* static, unused */, int32_t ___progressionStatus, String_t* ___progression01, String_t* ___progression02, String_t* ___progression03, int32_t ___score, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameAnalyticsSDK.GA_Progression::CreateEvent(GameAnalyticsSDK.GA_Progression/GAProgressionStatus,System.String,System.String,System.String,System.Nullable`1<System.Int32>)
-extern "C" void GA_Progression_CreateEvent_m2610 (Object_t * __this /* static, unused */, int32_t ___progressionStatus, String_t* ___progression01, String_t* ___progression02, String_t* ___progression03, Nullable_1_t704  ___score, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GA_Progression_CreateEvent_m2612 (Object_t * __this /* static, unused */, int32_t ___progressionStatus, String_t* ___progression01, String_t* ___progression02, String_t* ___progression03, Nullable_1_t704  ___score, const MethodInfo* method) IL2CPP_METHOD_ATTR;

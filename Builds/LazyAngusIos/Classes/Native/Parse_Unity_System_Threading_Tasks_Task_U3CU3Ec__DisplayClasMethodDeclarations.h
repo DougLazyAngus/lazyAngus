@@ -10,6 +10,6 @@ struct U3CU3Ec__DisplayClass8_t1358;
 struct Task_t1227;
 
 // System.Void System.Threading.Tasks.Task/<>c__DisplayClass8::.ctor()
-extern "C" void U3CU3Ec__DisplayClass8__ctor_m7380 (U3CU3Ec__DisplayClass8_t1358 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass8__ctor_m7384 (U3CU3Ec__DisplayClass8_t1358 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Threading.Tasks.Task/<>c__DisplayClass8::<ContinueWith>b__7(System.Threading.Tasks.Task)
-extern "C" int32_t U3CU3Ec__DisplayClass8_U3CContinueWithU3Eb__7_m7381 (U3CU3Ec__DisplayClass8_t1358 * __this, Task_t1227 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t U3CU3Ec__DisplayClass8_U3CContinueWithU3Eb__7_m7385 (U3CU3Ec__DisplayClass8_t1358 * __this, Task_t1227 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;

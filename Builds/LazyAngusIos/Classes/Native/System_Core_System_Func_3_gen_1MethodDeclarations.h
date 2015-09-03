@@ -24,10 +24,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`3<Parse.ParseObject,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>,System.Collections.Generic.Dictionary`2<System.String,System.Object>>::.ctor(System.Object,System.IntPtr)
 // System.Func`3<System.Object,System.Object,System.Object>
 #include "System_Core_System_Func_3_genMethodDeclarations.h"
-#define Func_3__ctor_m7676(__this, ___object, ___method, method) (( void (*) (Func_3_t1280 *, Object_t *, IntPtr_t, const MethodInfo*))Func_3__ctor_m7534_gshared)(__this, ___object, ___method, method)
+#define Func_3__ctor_m7680(__this, ___object, ___method, method) (( void (*) (Func_3_t1280 *, Object_t *, IntPtr_t, const MethodInfo*))Func_3__ctor_m7538_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`3<Parse.ParseObject,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>,System.Collections.Generic.Dictionary`2<System.String,System.Object>>::Invoke(T1,T2)
-#define Func_3_Invoke_m34947(__this, ___arg1, ___arg2, method) (( Dictionary_2_t312 * (*) (Func_3_t1280 *, ParseObject_t1238 *, Object_t*, const MethodInfo*))Func_3_Invoke_m31109_gshared)(__this, ___arg1, ___arg2, method)
+#define Func_3_Invoke_m39193(__this, ___arg1, ___arg2, method) (( Dictionary_2_t312 * (*) (Func_3_t1280 *, ParseObject_t1238 *, Object_t*, const MethodInfo*))Func_3_Invoke_m35332_gshared)(__this, ___arg1, ___arg2, method)
 // System.IAsyncResult System.Func`3<Parse.ParseObject,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>,System.Collections.Generic.Dictionary`2<System.String,System.Object>>::BeginInvoke(T1,T2,System.AsyncCallback,System.Object)
-#define Func_3_BeginInvoke_m34948(__this, ___arg1, ___arg2, ___callback, ___object, method) (( Object_t * (*) (Func_3_t1280 *, ParseObject_t1238 *, Object_t*, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_3_BeginInvoke_m31111_gshared)(__this, ___arg1, ___arg2, ___callback, ___object, method)
+#define Func_3_BeginInvoke_m39194(__this, ___arg1, ___arg2, ___callback, ___object, method) (( Object_t * (*) (Func_3_t1280 *, ParseObject_t1238 *, Object_t*, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_3_BeginInvoke_m35334_gshared)(__this, ___arg1, ___arg2, ___callback, ___object, method)
 // TResult System.Func`3<Parse.ParseObject,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>,System.Collections.Generic.Dictionary`2<System.String,System.Object>>::EndInvoke(System.IAsyncResult)
-#define Func_3_EndInvoke_m34949(__this, ___result, method) (( Dictionary_2_t312 * (*) (Func_3_t1280 *, Object_t *, const MethodInfo*))Func_3_EndInvoke_m31113_gshared)(__this, ___result, method)
+#define Func_3_EndInvoke_m39195(__this, ___result, method) (( Dictionary_2_t312 * (*) (Func_3_t1280 *, Object_t *, const MethodInfo*))Func_3_EndInvoke_m35336_gshared)(__this, ___result, method)

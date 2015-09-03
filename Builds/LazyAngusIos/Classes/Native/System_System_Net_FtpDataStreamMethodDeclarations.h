@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.FtpDataStream
-struct FtpDataStream_t4058;
+struct FtpDataStream_t4363;
 // System.Net.FtpWebRequest
-struct FtpWebRequest_t4057;
+struct FtpWebRequest_t4362;
 // System.IO.Stream
 struct Stream_t51;
 // System.Byte[]
@@ -22,48 +22,48 @@ struct Object_t;
 #include "mscorlib_System_IO_SeekOrigin.h"
 
 // System.Void System.Net.FtpDataStream::.ctor(System.Net.FtpWebRequest,System.IO.Stream,System.Boolean)
-extern "C" void FtpDataStream__ctor_m14009 (FtpDataStream_t4058 * __this, FtpWebRequest_t4057 * ___request, Stream_t51 * ___stream, bool ___isRead, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpDataStream__ctor_m16526 (FtpDataStream_t4363 * __this, FtpWebRequest_t4362 * ___request, Stream_t51 * ___stream, bool ___isRead, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FtpDataStream::System.IDisposable.Dispose()
-extern "C" void FtpDataStream_System_IDisposable_Dispose_m14010 (FtpDataStream_t4058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpDataStream_System_IDisposable_Dispose_m16527 (FtpDataStream_t4363 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.FtpDataStream::get_CanRead()
-extern "C" bool FtpDataStream_get_CanRead_m14011 (FtpDataStream_t4058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool FtpDataStream_get_CanRead_m16528 (FtpDataStream_t4363 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.FtpDataStream::get_CanWrite()
-extern "C" bool FtpDataStream_get_CanWrite_m14012 (FtpDataStream_t4058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool FtpDataStream_get_CanWrite_m16529 (FtpDataStream_t4363 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.FtpDataStream::get_CanSeek()
-extern "C" bool FtpDataStream_get_CanSeek_m14013 (FtpDataStream_t4058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool FtpDataStream_get_CanSeek_m16530 (FtpDataStream_t4363 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Net.FtpDataStream::get_Length()
-extern "C" int64_t FtpDataStream_get_Length_m14014 (FtpDataStream_t4058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t FtpDataStream_get_Length_m16531 (FtpDataStream_t4363 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Net.FtpDataStream::get_Position()
-extern "C" int64_t FtpDataStream_get_Position_m14015 (FtpDataStream_t4058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t FtpDataStream_get_Position_m16532 (FtpDataStream_t4363 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FtpDataStream::set_Position(System.Int64)
-extern "C" void FtpDataStream_set_Position_m14016 (FtpDataStream_t4058 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpDataStream_set_Position_m16533 (FtpDataStream_t4363 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FtpDataStream::Close()
-extern "C" void FtpDataStream_Close_m14017 (FtpDataStream_t4058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpDataStream_Close_m16534 (FtpDataStream_t4363 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FtpDataStream::Flush()
-extern "C" void FtpDataStream_Flush_m14018 (FtpDataStream_t4058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpDataStream_Flush_m16535 (FtpDataStream_t4363 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Net.FtpDataStream::Seek(System.Int64,System.IO.SeekOrigin)
-extern "C" int64_t FtpDataStream_Seek_m14019 (FtpDataStream_t4058 * __this, int64_t ___offset, int32_t ___origin, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t FtpDataStream_Seek_m16536 (FtpDataStream_t4363 * __this, int64_t ___offset, int32_t ___origin, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FtpDataStream::SetLength(System.Int64)
-extern "C" void FtpDataStream_SetLength_m14020 (FtpDataStream_t4058 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpDataStream_SetLength_m16537 (FtpDataStream_t4363 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.FtpDataStream::ReadInternal(System.Byte[],System.Int32,System.Int32)
-extern "C" int32_t FtpDataStream_ReadInternal_m14021 (FtpDataStream_t4058 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t FtpDataStream_ReadInternal_m16538 (FtpDataStream_t4363 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IAsyncResult System.Net.FtpDataStream::BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-extern "C" Object_t * FtpDataStream_BeginRead_m14022 (FtpDataStream_t4058 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___size, AsyncCallback_t386 * ___cb, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * FtpDataStream_BeginRead_m16539 (FtpDataStream_t4363 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___size, AsyncCallback_t386 * ___cb, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.FtpDataStream::EndRead(System.IAsyncResult)
-extern "C" int32_t FtpDataStream_EndRead_m14023 (FtpDataStream_t4058 * __this, Object_t * ___asyncResult, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t FtpDataStream_EndRead_m16540 (FtpDataStream_t4363 * __this, Object_t * ___asyncResult, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.FtpDataStream::Read(System.Byte[],System.Int32,System.Int32)
-extern "C" int32_t FtpDataStream_Read_m14024 (FtpDataStream_t4058 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t FtpDataStream_Read_m16541 (FtpDataStream_t4363 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FtpDataStream::WriteInternal(System.Byte[],System.Int32,System.Int32)
-extern "C" void FtpDataStream_WriteInternal_m14025 (FtpDataStream_t4058 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpDataStream_WriteInternal_m16542 (FtpDataStream_t4363 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IAsyncResult System.Net.FtpDataStream::BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-extern "C" Object_t * FtpDataStream_BeginWrite_m14026 (FtpDataStream_t4058 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___size, AsyncCallback_t386 * ___cb, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * FtpDataStream_BeginWrite_m16543 (FtpDataStream_t4363 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___size, AsyncCallback_t386 * ___cb, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FtpDataStream::EndWrite(System.IAsyncResult)
-extern "C" void FtpDataStream_EndWrite_m14027 (FtpDataStream_t4058 * __this, Object_t * ___asyncResult, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpDataStream_EndWrite_m16544 (FtpDataStream_t4363 * __this, Object_t * ___asyncResult, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FtpDataStream::Write(System.Byte[],System.Int32,System.Int32)
-extern "C" void FtpDataStream_Write_m14028 (FtpDataStream_t4058 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpDataStream_Write_m16545 (FtpDataStream_t4363 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FtpDataStream::Finalize()
-extern "C" void FtpDataStream_Finalize_m14029 (FtpDataStream_t4058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpDataStream_Finalize_m16546 (FtpDataStream_t4363 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FtpDataStream::Dispose(System.Boolean)
-extern "C" void FtpDataStream_Dispose_m14030 (FtpDataStream_t4058 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpDataStream_Dispose_m16547 (FtpDataStream_t4363 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FtpDataStream::CheckDisposed()
-extern "C" void FtpDataStream_CheckDisposed_m14031 (FtpDataStream_t4058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FtpDataStream_CheckDisposed_m16548 (FtpDataStream_t4363 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.MonoGenericCMethod
-struct MonoGenericCMethod_t4561;
+struct MonoGenericCMethod_t5024;
 // System.Type
 struct Type_t;
 
 // System.Void System.Reflection.MonoGenericCMethod::.ctor()
-extern "C" void MonoGenericCMethod__ctor_m18160 (MonoGenericCMethod_t4561 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoGenericCMethod__ctor_m21924 (MonoGenericCMethod_t5024 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.MonoGenericCMethod::get_ReflectedType()
-extern "C" Type_t * MonoGenericCMethod_get_ReflectedType_m18161 (MonoGenericCMethod_t4561 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * MonoGenericCMethod_get_ReflectedType_m21925 (MonoGenericCMethod_t5024 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

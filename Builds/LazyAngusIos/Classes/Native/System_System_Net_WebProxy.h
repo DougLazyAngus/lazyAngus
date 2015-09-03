@@ -5,11 +5,11 @@ struct Uri_t771;
 // System.Collections.ArrayList
 struct ArrayList_t712;
 // System.Net.ICredentials
-struct ICredentials_t3300;
+struct ICredentials_t3551;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.WebProxy
-struct  WebProxy_t4092  : public Object_t
+struct  WebProxy_t4424  : public Object_t
 {
 	// System.Uri System.Net.WebProxy::address
 	Uri_t771 * ___address_0;

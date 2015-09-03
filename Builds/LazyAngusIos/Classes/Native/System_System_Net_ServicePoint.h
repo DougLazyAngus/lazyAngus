@@ -5,21 +5,21 @@ struct Uri_t771;
 // System.Version
 struct Version_t1401;
 // System.Security.Cryptography.X509Certificates.X509Certificate
-struct X509Certificate_t3899;
+struct X509Certificate_t3221;
 // System.Net.IPHostEntry
-struct IPHostEntry_t4064;
+struct IPHostEntry_t4368;
 // System.Collections.Hashtable
 struct Hashtable_t710;
 // System.Object
 struct Object_t;
 // System.Net.BindIPEndPoint
-struct BindIPEndPoint_t4082;
+struct BindIPEndPoint_t4394;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Net.ServicePoint
-struct  ServicePoint_t3951  : public Object_t
+struct  ServicePoint_t3276  : public Object_t
 {
 	// System.Uri System.Net.ServicePoint::uri
 	Uri_t771 * ___uri_0;
@@ -34,11 +34,11 @@ struct  ServicePoint_t3951  : public Object_t
 	// System.Version System.Net.ServicePoint::protocolVersion
 	Version_t1401 * ___protocolVersion_5;
 	// System.Security.Cryptography.X509Certificates.X509Certificate System.Net.ServicePoint::certificate
-	X509Certificate_t3899 * ___certificate_6;
+	X509Certificate_t3221 * ___certificate_6;
 	// System.Security.Cryptography.X509Certificates.X509Certificate System.Net.ServicePoint::clientCertificate
-	X509Certificate_t3899 * ___clientCertificate_7;
+	X509Certificate_t3221 * ___clientCertificate_7;
 	// System.Net.IPHostEntry System.Net.ServicePoint::host
-	IPHostEntry_t4064 * ___host_8;
+	IPHostEntry_t4368 * ___host_8;
 	// System.Boolean System.Net.ServicePoint::usesProxy
 	bool ___usesProxy_9;
 	// System.Collections.Hashtable System.Net.ServicePoint::groups
@@ -54,5 +54,5 @@ struct  ServicePoint_t3951  : public Object_t
 	// System.Boolean System.Net.ServicePoint::useNagle
 	bool ___useNagle_15;
 	// System.Net.BindIPEndPoint System.Net.ServicePoint::endPointCallback
-	BindIPEndPoint_t4082 * ___endPointCallback_16;
+	BindIPEndPoint_t4394 * ___endPointCallback_16;
 };

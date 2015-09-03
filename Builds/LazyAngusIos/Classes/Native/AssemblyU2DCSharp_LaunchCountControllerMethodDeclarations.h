@@ -8,6 +8,6 @@
 struct LaunchCountController_t577;
 
 // System.Void LaunchCountController::.ctor()
-extern "C" void LaunchCountController__ctor_m3116 (LaunchCountController_t577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LaunchCountController__ctor_m3118 (LaunchCountController_t577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void LaunchCountController::Start()
-extern "C" void LaunchCountController_Start_m3117 (LaunchCountController_t577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LaunchCountController_Start_m3119 (LaunchCountController_t577 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

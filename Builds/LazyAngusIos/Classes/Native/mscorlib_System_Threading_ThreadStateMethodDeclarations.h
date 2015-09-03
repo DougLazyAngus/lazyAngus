@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.ThreadState
-struct ThreadState_t4789;
+struct ThreadState_t5381;
 

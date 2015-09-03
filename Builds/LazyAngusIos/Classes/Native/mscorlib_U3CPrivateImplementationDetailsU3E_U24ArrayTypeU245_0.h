@@ -2,9 +2,9 @@
 #include <stdint.h>
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// <PrivateImplementationDetails>/$ArrayType$52
+// <PrivateImplementationDetails>/$ArrayType$56
 #pragma pack(push, tp, 1)
-struct  U24ArrayTypeU2452_t4887 
+struct  U24ArrayTypeU2456_t5409 
 {
 	union
 	{
@@ -14,13 +14,13 @@ struct  U24ArrayTypeU2452_t4887
 			{
 			};
 		};
-		uint8_t U24ArrayTypeU2452_t4887__padding[52];
+		uint8_t U24ArrayTypeU2456_t5409__padding[56];
 	};
 };
 #pragma pack(pop, tp)
-// Native definition for marshalling of: <PrivateImplementationDetails>/$ArrayType$52
+// Native definition for marshalling of: <PrivateImplementationDetails>/$ArrayType$56
 #pragma pack(push, tp, 1)
-struct U24ArrayTypeU2452_t4887_marshaled
+struct U24ArrayTypeU2456_t5409_marshaled
 {
 	union
 	{
@@ -30,7 +30,7 @@ struct U24ArrayTypeU2452_t4887_marshaled
 			{
 			};
 		};
-		uint8_t U24ArrayTypeU2452_t4887__padding[52];
+		uint8_t U24ArrayTypeU2456_t5409__padding[56];
 	};
 };
 #pragma pack(pop, tp)

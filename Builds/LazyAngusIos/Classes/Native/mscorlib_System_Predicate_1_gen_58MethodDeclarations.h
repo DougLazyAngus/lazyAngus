@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Predicate`1<System.SByte>
-struct Predicate_1_t6468;
+struct Predicate_1_t7001;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,14 +16,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Predicate`1<System.SByte>::.ctor(System.Object,System.IntPtr)
-extern "C" void Predicate_1__ctor_m37033_gshared (Predicate_1_t6468 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Predicate_1__ctor_m37033(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6468 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m37033_gshared)(__this, ___object, ___method, method)
+extern "C" void Predicate_1__ctor_m41281_gshared (Predicate_1_t7001 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Predicate_1__ctor_m41281(__this, ___object, ___method, method) (( void (*) (Predicate_1_t7001 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m41281_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<System.SByte>::Invoke(T)
-extern "C" bool Predicate_1_Invoke_m37034_gshared (Predicate_1_t6468 * __this, int8_t ___obj, const MethodInfo* method);
-#define Predicate_1_Invoke_m37034(__this, ___obj, method) (( bool (*) (Predicate_1_t6468 *, int8_t, const MethodInfo*))Predicate_1_Invoke_m37034_gshared)(__this, ___obj, method)
+extern "C" bool Predicate_1_Invoke_m41282_gshared (Predicate_1_t7001 * __this, int8_t ___obj, const MethodInfo* method);
+#define Predicate_1_Invoke_m41282(__this, ___obj, method) (( bool (*) (Predicate_1_t7001 *, int8_t, const MethodInfo*))Predicate_1_Invoke_m41282_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<System.SByte>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Predicate_1_BeginInvoke_m37035_gshared (Predicate_1_t6468 * __this, int8_t ___obj, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Predicate_1_BeginInvoke_m37035(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6468 *, int8_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m37035_gshared)(__this, ___obj, ___callback, ___object, method)
+extern "C" Object_t * Predicate_1_BeginInvoke_m41283_gshared (Predicate_1_t7001 * __this, int8_t ___obj, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Predicate_1_BeginInvoke_m41283(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t7001 *, int8_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m41283_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<System.SByte>::EndInvoke(System.IAsyncResult)
-extern "C" bool Predicate_1_EndInvoke_m37036_gshared (Predicate_1_t6468 * __this, Object_t * ___result, const MethodInfo* method);
-#define Predicate_1_EndInvoke_m37036(__this, ___result, method) (( bool (*) (Predicate_1_t6468 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m37036_gshared)(__this, ___result, method)
+extern "C" bool Predicate_1_EndInvoke_m41284_gshared (Predicate_1_t7001 * __this, Object_t * ___result, const MethodInfo* method);
+#define Predicate_1_EndInvoke_m41284(__this, ___result, method) (( bool (*) (Predicate_1_t7001 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m41284_gshared)(__this, ___result, method)

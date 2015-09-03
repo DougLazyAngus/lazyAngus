@@ -5,7 +5,7 @@ struct ArrayList_t712;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.X509.Extensions.GeneralNames
-struct  GeneralNames_t3844  : public Object_t
+struct  GeneralNames_t3165  : public Object_t
 {
 	// System.Collections.ArrayList Mono.Security.X509.Extensions.GeneralNames::rfc822Name
 	ArrayList_t712 * ___rfc822Name_0;

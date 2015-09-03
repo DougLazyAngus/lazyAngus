@@ -5,14 +5,14 @@ struct ArrayList_t712;
 // System.Object
 struct Object_t;
 // System.Net.ICredentialPolicy
-struct ICredentialPolicy_t4026;
+struct ICredentialPolicy_t4299;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.AuthenticationManager
-struct  AuthenticationManager_t4027  : public Object_t
+struct  AuthenticationManager_t4300  : public Object_t
 {
 };
-struct AuthenticationManager_t4027_StaticFields{
+struct AuthenticationManager_t4300_StaticFields{
 	// System.Collections.ArrayList System.Net.AuthenticationManager::modules
 	ArrayList_t712 * ___modules_0;
 	// System.Object System.Net.AuthenticationManager::locker

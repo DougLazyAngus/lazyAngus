@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.LinkStack
-struct LinkStack_t4155;
+struct LinkStack_t4487;
 // System.Object
 struct Object_t;
 
 // System.Void System.Text.RegularExpressions.LinkStack::.ctor()
-extern "C" void LinkStack__ctor_m14885 (LinkStack_t4155 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LinkStack__ctor_m17522 (LinkStack_t4487 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.LinkStack::Push()
-extern "C" void LinkStack_Push_m14886 (LinkStack_t4155 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LinkStack_Push_m17523 (LinkStack_t4487 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.LinkStack::Pop()
-extern "C" bool LinkStack_Pop_m14887 (LinkStack_t4155 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool LinkStack_Pop_m17524 (LinkStack_t4487 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Text.RegularExpressions.LinkStack::GetCurrent()
 // System.Void System.Text.RegularExpressions.LinkStack::SetCurrent(System.Object)

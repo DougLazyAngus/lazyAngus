@@ -5,15 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ApplicationIdentity
-struct ApplicationIdentity_t4797;
-// System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2936;
+struct ApplicationIdentity_t4836;
 // System.String
 struct String_t;
+// System.Runtime.Serialization.SerializationInfo
+struct SerializationInfo_t2936;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
+// System.Void System.ApplicationIdentity::.ctor(System.String)
+extern "C" void ApplicationIdentity__ctor_m19967 (ApplicationIdentity_t4836 * __this, String_t* ___applicationIdentityFullName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ApplicationIdentity::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m19499 (ApplicationIdentity_t4797 * __this, SerializationInfo_t2936 * ___info, StreamingContext_t2937  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m19968 (ApplicationIdentity_t4836 * __this, SerializationInfo_t2936 * ___info, StreamingContext_t2937  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.ApplicationIdentity::get_FullName()
+extern "C" String_t* ApplicationIdentity_get_FullName_m19969 (ApplicationIdentity_t4836 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.ApplicationIdentity::ToString()
-extern "C" String_t* ApplicationIdentity_ToString_m19500 (ApplicationIdentity_t4797 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ApplicationIdentity_ToString_m19970 (ApplicationIdentity_t4836 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

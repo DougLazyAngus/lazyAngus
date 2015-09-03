@@ -4,18 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Specialized.NameObjectCollectionBase/_KeysEnumerator
-struct _KeysEnumerator_t3981;
+// System.Collections.Specialized.NameObjectCollectionBase/KeysCollection
+struct KeysCollection_t3371;
 // System.Object
 struct Object_t;
 // System.Collections.Specialized.NameObjectCollectionBase
-struct NameObjectCollectionBase_t3980;
+struct NameObjectCollectionBase_t3339;
+// System.Array
+struct Array_t;
+// System.Collections.IEnumerator
+struct IEnumerator_t48;
 
-// System.Void System.Collections.Specialized.NameObjectCollectionBase/_KeysEnumerator::.ctor(System.Collections.Specialized.NameObjectCollectionBase)
-extern "C" void _KeysEnumerator__ctor_m13524 (_KeysEnumerator_t3981 * __this, NameObjectCollectionBase_t3980 * ___collection, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Object System.Collections.Specialized.NameObjectCollectionBase/_KeysEnumerator::get_Current()
-extern "C" Object_t * _KeysEnumerator_get_Current_m13525 (_KeysEnumerator_t3981 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Boolean System.Collections.Specialized.NameObjectCollectionBase/_KeysEnumerator::MoveNext()
-extern "C" bool _KeysEnumerator_MoveNext_m13526 (_KeysEnumerator_t3981 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void System.Collections.Specialized.NameObjectCollectionBase/_KeysEnumerator::Reset()
-extern "C" void _KeysEnumerator_Reset_m13527 (_KeysEnumerator_t3981 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Specialized.NameObjectCollectionBase/KeysCollection::.ctor(System.Collections.Specialized.NameObjectCollectionBase)
+extern "C" void KeysCollection__ctor_m15673 (KeysCollection_t3371 * __this, NameObjectCollectionBase_t3339 * ___collection, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Specialized.NameObjectCollectionBase/KeysCollection::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+extern "C" void KeysCollection_System_Collections_ICollection_CopyTo_m15674 (KeysCollection_t3371 * __this, Array_t * ___array, int32_t ___arrayIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.Specialized.NameObjectCollectionBase/KeysCollection::System.Collections.ICollection.get_IsSynchronized()
+extern "C" bool KeysCollection_System_Collections_ICollection_get_IsSynchronized_m15675 (KeysCollection_t3371 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object System.Collections.Specialized.NameObjectCollectionBase/KeysCollection::System.Collections.ICollection.get_SyncRoot()
+extern "C" Object_t * KeysCollection_System_Collections_ICollection_get_SyncRoot_m15676 (KeysCollection_t3371 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Collections.Specialized.NameObjectCollectionBase/KeysCollection::get_Count()
+extern "C" int32_t KeysCollection_get_Count_m15677 (KeysCollection_t3371 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.IEnumerator System.Collections.Specialized.NameObjectCollectionBase/KeysCollection::GetEnumerator()
+extern "C" Object_t * KeysCollection_GetEnumerator_m15678 (KeysCollection_t3371 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

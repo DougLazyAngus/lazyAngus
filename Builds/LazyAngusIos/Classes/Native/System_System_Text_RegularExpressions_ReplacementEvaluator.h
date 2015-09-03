@@ -9,7 +9,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.ReplacementEvaluator
-struct  ReplacementEvaluator_t4169  : public Object_t
+struct  ReplacementEvaluator_t4515  : public Object_t
 {
 	// System.Text.RegularExpressions.Regex System.Text.RegularExpressions.ReplacementEvaluator::regex
 	Regex_t801 * ___regex_0;

@@ -3,22 +3,22 @@
 // System.Collections.Generic.IEnumerable`1<System.Object>
 struct IEnumerable_1_t724;
 // System.Linq.SortContext`1<System.Object>
-struct SortContext_1_t6100;
+struct SortContext_1_t6633;
 // System.Linq.QuickSort`1<System.Object>
-struct QuickSort_1_t6102;
+struct QuickSort_1_t6635;
 // System.Object
 struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.QuickSort`1/<Sort>c__Iterator21<System.Object>
-struct  U3CSortU3Ec__Iterator21_t6103  : public Object_t
+struct  U3CSortU3Ec__Iterator21_t6636  : public Object_t
 {
 	// System.Collections.Generic.IEnumerable`1<TElement> System.Linq.QuickSort`1/<Sort>c__Iterator21<System.Object>::source
 	Object_t* ___source_0;
 	// System.Linq.SortContext`1<TElement> System.Linq.QuickSort`1/<Sort>c__Iterator21<System.Object>::context
-	SortContext_1_t6100 * ___context_1;
+	SortContext_1_t6633 * ___context_1;
 	// System.Linq.QuickSort`1<TElement> System.Linq.QuickSort`1/<Sort>c__Iterator21<System.Object>::<sorter>__0
-	QuickSort_1_t6102 * ___U3CsorterU3E__0_2;
+	QuickSort_1_t6635 * ___U3CsorterU3E__0_2;
 	// System.Int32 System.Linq.QuickSort`1/<Sort>c__Iterator21<System.Object>::<i>__1
 	int32_t ___U3CiU3E__1_3;
 	// System.Int32 System.Linq.QuickSort`1/<Sort>c__Iterator21<System.Object>::$PC
@@ -28,5 +28,5 @@ struct  U3CSortU3Ec__Iterator21_t6103  : public Object_t
 	// System.Collections.Generic.IEnumerable`1<TElement> System.Linq.QuickSort`1/<Sort>c__Iterator21<System.Object>::<$>source
 	Object_t* ___U3CU24U3Esource_6;
 	// System.Linq.SortContext`1<TElement> System.Linq.QuickSort`1/<Sort>c__Iterator21<System.Object>::<$>context
-	SortContext_1_t6100 * ___U3CU24U3Econtext_7;
+	SortContext_1_t6633 * ___U3CU24U3Econtext_7;
 };

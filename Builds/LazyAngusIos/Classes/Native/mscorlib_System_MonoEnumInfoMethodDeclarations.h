@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.MonoEnumInfo
-struct MonoEnumInfo_t4824;
+struct MonoEnumInfo_t4878;
 // System.Collections.Hashtable
 struct Hashtable_t710;
 // System.Type
@@ -14,12 +14,12 @@ struct Type_t;
 #include "mscorlib_System_MonoEnumInfo.h"
 
 // System.Void System.MonoEnumInfo::.ctor(System.MonoEnumInfo)
-extern "C" void MonoEnumInfo__ctor_m19882 (MonoEnumInfo_t4824 * __this, MonoEnumInfo_t4824  ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoEnumInfo__ctor_m20395 (MonoEnumInfo_t4878 * __this, MonoEnumInfo_t4878  ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MonoEnumInfo::.cctor()
-extern "C" void MonoEnumInfo__cctor_m19883 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoEnumInfo__cctor_m20396 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MonoEnumInfo::get_enum_info(System.Type,System.MonoEnumInfo&)
-extern "C" void MonoEnumInfo_get_enum_info_m19884 (Object_t * __this /* static, unused */, Type_t * ___enumType, MonoEnumInfo_t4824 * ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoEnumInfo_get_enum_info_m20397 (Object_t * __this /* static, unused */, Type_t * ___enumType, MonoEnumInfo_t4878 * ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Hashtable System.MonoEnumInfo::get_Cache()
-extern "C" Hashtable_t710 * MonoEnumInfo_get_Cache_m19885 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Hashtable_t710 * MonoEnumInfo_get_Cache_m20398 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MonoEnumInfo::GetInfo(System.Type,System.MonoEnumInfo&)
-extern "C" void MonoEnumInfo_GetInfo_m19886 (Object_t * __this /* static, unused */, Type_t * ___enumType, MonoEnumInfo_t4824 * ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoEnumInfo_GetInfo_m20399 (Object_t * __this /* static, unused */, Type_t * ___enumType, MonoEnumInfo_t4878 * ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;

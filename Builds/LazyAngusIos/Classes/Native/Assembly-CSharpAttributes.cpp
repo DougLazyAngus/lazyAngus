@@ -25,7 +25,7 @@ void g_AssemblyU2DCSharp_Assembly_CustomAttributesCacheGenerator(CustomAttribute
 	{
 		ExtensionAttribute_t817 * tmp;
 		tmp = (ExtensionAttribute_t817 *)il2cpp_codegen_object_new (ExtensionAttribute_t817_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4502(tmp, NULL);
+		ExtensionAttribute__ctor_m4505(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 	{
@@ -41,7 +41,7 @@ void g_AssemblyU2DCSharp_Assembly_CustomAttributesCacheGenerator(CustomAttribute
 // System.Diagnostics.DebuggerHiddenAttribute
 #include "mscorlib_System_Diagnostics_DebuggerHiddenAttributeMethodDeclarations.h"
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void InteractiveConsole_t113_CustomAttributesCacheGenerator_InteractiveConsole_TakeScreenshot_m571(CustomAttributesCache* cache)
+void InteractiveConsole_t113_CustomAttributesCacheGenerator_InteractiveConsole_TakeScreenshot_m573(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -81,7 +81,7 @@ void U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator(Custom
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator_U3CTakeScreenshotU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m554(CustomAttributesCache* cache)
+void U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator_U3CTakeScreenshotU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m556(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -99,7 +99,7 @@ void U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator_U3CTak
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator_U3CTakeScreenshotU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m555(CustomAttributesCache* cache)
+void U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator_U3CTakeScreenshotU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m557(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -117,7 +117,7 @@ void U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator_U3CTak
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator_U3CTakeScreenshotU3Ec__Iterator0_Dispose_m557(CustomAttributesCache* cache)
+void U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator_U3CTakeScreenshotU3Ec__Iterator0_Dispose_m559(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -135,7 +135,7 @@ void U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator_U3CTak
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator_U3CTakeScreenshotU3Ec__Iterator0_Reset_m558(CustomAttributesCache* cache)
+void U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator_U3CTakeScreenshotU3Ec__Iterator0_Reset_m560(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -265,7 +265,7 @@ void GoogleMobileAd_t145_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheD(Cus
 // System.ParamArrayAttribute
 #include "mscorlib_System_ParamArrayAttributeMethodDeclarations.h"
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_t145_GoogleMobileAd_AddTestDevices_m742_Arg0_ParameterInfo(CustomAttributesCache* cache)
+void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_t145_GoogleMobileAd_AddTestDevices_m744_Arg0_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -278,12 +278,12 @@ void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_t145_Goog
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInterstitialLoadedU3Em__0_m761(CustomAttributesCache* cache)
+void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInterstitialLoadedU3Em__0_m763(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -301,7 +301,7 @@ void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInte
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInterstitialFailedLoadingU3Em__1_m762(CustomAttributesCache* cache)
+void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInterstitialFailedLoadingU3Em__1_m764(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -319,7 +319,7 @@ void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInte
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInterstitialOpenedU3Em__2_m763(CustomAttributesCache* cache)
+void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInterstitialOpenedU3Em__2_m765(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -337,7 +337,7 @@ void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInte
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInterstitialClosedU3Em__3_m764(CustomAttributesCache* cache)
+void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInterstitialClosedU3Em__3_m766(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -355,7 +355,7 @@ void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInte
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInterstitialLeftApplicationU3Em__4_m765(CustomAttributesCache* cache)
+void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInterstitialLeftApplicationU3Em__4_m767(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -373,7 +373,7 @@ void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInte
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnAdInAppRequestU3Em__5_m766(CustomAttributesCache* cache)
+void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnAdInAppRequestU3Em__5_m768(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -408,7 +408,7 @@ void GoogleMobileAdSettings_t147_CustomAttributesCacheGenerator_testDevices(Cust
 	{
 		SerializeField_t819 * tmp;
 		tmp = (SerializeField_t819 *)il2cpp_codegen_object_new (SerializeField_t819_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4522(tmp, NULL);
+		SerializeField__ctor_m4525(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -503,7 +503,7 @@ void IOSADBanner_t150_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache13(Custo
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnLoadedActionU3Em__6_m813(CustomAttributesCache* cache)
+void IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnLoadedActionU3Em__6_m815(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -521,7 +521,7 @@ void IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnLoadedAct
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnFailedLoadingActionU3Em__7_m814(CustomAttributesCache* cache)
+void IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnFailedLoadingActionU3Em__7_m816(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -539,7 +539,7 @@ void IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnFailedLoa
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnOpenedActionU3Em__8_m815(CustomAttributesCache* cache)
+void IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnOpenedActionU3Em__8_m817(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -557,7 +557,7 @@ void IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnOpenedAct
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnClosedActionU3Em__9_m816(CustomAttributesCache* cache)
+void IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnClosedActionU3Em__9_m818(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -575,7 +575,7 @@ void IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnClosedAct
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnLeftApplicationActionU3Em__A_m817(CustomAttributesCache* cache)
+void IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnLeftApplicationActionU3Em__A_m819(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -701,7 +701,7 @@ void IOSAdMobController_t152_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheF
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_t152_IOSAdMobController_AddTestDevices_m845_Arg0_ParameterInfo(CustomAttributesCache* cache)
+void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_t152_IOSAdMobController_AddTestDevices_m847_Arg0_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -714,12 +714,12 @@ void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_t
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnInterstitialLoadedU3Em__B_m880(CustomAttributesCache* cache)
+void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnInterstitialLoadedU3Em__B_m882(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -737,7 +737,7 @@ void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnInterstitialFailedLoadingU3Em__C_m881(CustomAttributesCache* cache)
+void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnInterstitialFailedLoadingU3Em__C_m883(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -755,7 +755,7 @@ void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnInterstitialOpenedU3Em__D_m882(CustomAttributesCache* cache)
+void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnInterstitialOpenedU3Em__D_m884(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -773,7 +773,7 @@ void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnInterstitialClosedU3Em__E_m883(CustomAttributesCache* cache)
+void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnInterstitialClosedU3Em__E_m885(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -791,7 +791,7 @@ void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnInterstitialLeftApplicationU3Em__F_m884(CustomAttributesCache* cache)
+void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnInterstitialLeftApplicationU3Em__F_m886(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -809,7 +809,7 @@ void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnAdInAppRequestU3Em__10_m885(CustomAttributesCache* cache)
+void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnAdInAppRequestU3Em__10_m887(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -917,7 +917,7 @@ void WP8ADBanner_t155_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache13(Custo
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnLoadedActionU3Em__11_m921(CustomAttributesCache* cache)
+void WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnLoadedActionU3Em__11_m923(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -935,7 +935,7 @@ void WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnLoadedAct
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnFailedLoadingActionU3Em__12_m922(CustomAttributesCache* cache)
+void WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnFailedLoadingActionU3Em__12_m924(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -953,7 +953,7 @@ void WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnFailedLoa
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnOpenedActionU3Em__13_m923(CustomAttributesCache* cache)
+void WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnOpenedActionU3Em__13_m925(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -971,7 +971,7 @@ void WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnOpenedAct
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnClosedActionU3Em__14_m924(CustomAttributesCache* cache)
+void WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnClosedActionU3Em__14_m926(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -989,7 +989,7 @@ void WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnClosedAct
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnLeftApplicationActionU3Em__15_m925(CustomAttributesCache* cache)
+void WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnLeftApplicationActionU3Em__15_m927(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1115,7 +1115,7 @@ void WP8AdMobController_t157_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheF
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_t157_WP8AdMobController_AddTestDevices_m939_Arg0_ParameterInfo(CustomAttributesCache* cache)
+void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_t157_WP8AdMobController_AddTestDevices_m941_Arg0_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1128,12 +1128,12 @@ void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_t
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnInterstitialLoadedU3Em__16_m974(CustomAttributesCache* cache)
+void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnInterstitialLoadedU3Em__16_m976(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1151,7 +1151,7 @@ void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnInterstitialFailedLoadingU3Em__17_m975(CustomAttributesCache* cache)
+void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnInterstitialFailedLoadingU3Em__17_m977(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1169,7 +1169,7 @@ void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnInterstitialOpenedU3Em__18_m976(CustomAttributesCache* cache)
+void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnInterstitialOpenedU3Em__18_m978(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1187,7 +1187,7 @@ void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnInterstitialClosedU3Em__19_m977(CustomAttributesCache* cache)
+void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnInterstitialClosedU3Em__19_m979(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1205,7 +1205,7 @@ void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnInterstitialLeftApplicationU3Em__1A_m978(CustomAttributesCache* cache)
+void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnInterstitialLeftApplicationU3Em__1A_m980(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1223,7 +1223,7 @@ void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnAdInAppRequestU3Em__1B_m979(CustomAttributesCache* cache)
+void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnAdInAppRequestU3Em__1B_m981(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1349,7 +1349,7 @@ void AndroidAdMobController_t160_CustomAttributesCacheGenerator_U3CU3Ef__amU24ca
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_t160_AndroidAdMobController_AddTestDevices_m990_Arg0_ParameterInfo(CustomAttributesCache* cache)
+void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_t160_AndroidAdMobController_AddTestDevices_m992_Arg0_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1362,12 +1362,12 @@ void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobCont
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnInterstitialLoadedU3Em__1C_m1027(CustomAttributesCache* cache)
+void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnInterstitialLoadedU3Em__1C_m1029(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1385,7 +1385,7 @@ void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobCont
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnInterstitialFailedLoadingU3Em__1D_m1028(CustomAttributesCache* cache)
+void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnInterstitialFailedLoadingU3Em__1D_m1030(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1403,7 +1403,7 @@ void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobCont
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnInterstitialOpenedU3Em__1E_m1029(CustomAttributesCache* cache)
+void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnInterstitialOpenedU3Em__1E_m1031(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1421,7 +1421,7 @@ void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobCont
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnInterstitialClosedU3Em__1F_m1030(CustomAttributesCache* cache)
+void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnInterstitialClosedU3Em__1F_m1032(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1439,7 +1439,7 @@ void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobCont
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnInterstitialLeftApplicationU3Em__20_m1031(CustomAttributesCache* cache)
+void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnInterstitialLeftApplicationU3Em__20_m1033(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1457,7 +1457,7 @@ void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobCont
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnAdInAppRequestU3Em__21_m1032(CustomAttributesCache* cache)
+void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnAdInAppRequestU3Em__21_m1034(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1475,7 +1475,7 @@ void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobCont
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void AN_GoogleAdProxy_t162_CustomAttributesCacheGenerator_AN_GoogleAdProxy_t162_AN_GoogleAdProxy_CallActivityFunction_m1034_Arg1_ParameterInfo(CustomAttributesCache* cache)
+void AN_GoogleAdProxy_t162_CustomAttributesCacheGenerator_AN_GoogleAdProxy_t162_AN_GoogleAdProxy_CallActivityFunction_m1036_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1488,12 +1488,12 @@ void AN_GoogleAdProxy_t162_CustomAttributesCacheGenerator_AN_GoogleAdProxy_t162_
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void AN_ProxyPool_t163_CustomAttributesCacheGenerator_AN_ProxyPool_t163_AN_ProxyPool_CallStatic_m1057_Arg2_ParameterInfo(CustomAttributesCache* cache)
+void AN_ProxyPool_t163_CustomAttributesCacheGenerator_AN_ProxyPool_t163_AN_ProxyPool_CallStatic_m1059_Arg2_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1506,12 +1506,12 @@ void AN_ProxyPool_t163_CustomAttributesCacheGenerator_AN_ProxyPool_t163_AN_Proxy
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void AN_BillingProxy_t164_CustomAttributesCacheGenerator_AN_BillingProxy_t164_AN_BillingProxy_CallActivityFunction_m1059_Arg1_ParameterInfo(CustomAttributesCache* cache)
+void AN_BillingProxy_t164_CustomAttributesCacheGenerator_AN_BillingProxy_t164_AN_BillingProxy_CallActivityFunction_m1061_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1524,12 +1524,12 @@ void AN_BillingProxy_t164_CustomAttributesCacheGenerator_AN_BillingProxy_t164_AN
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void AN_FBProxy_t165_CustomAttributesCacheGenerator_AN_FBProxy_t165_AN_FBProxy_CallActivityFunction_m1066_Arg1_ParameterInfo(CustomAttributesCache* cache)
+void AN_FBProxy_t165_CustomAttributesCacheGenerator_AN_FBProxy_t165_AN_FBProxy_CallActivityFunction_m1068_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1542,12 +1542,12 @@ void AN_FBProxy_t165_CustomAttributesCacheGenerator_AN_FBProxy_t165_AN_FBProxy_C
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void AN_GMSGeneralProxy_t166_CustomAttributesCacheGenerator_AN_GMSGeneralProxy_t166_AN_GMSGeneralProxy_CallActivityFunction_m1069_Arg1_ParameterInfo(CustomAttributesCache* cache)
+void AN_GMSGeneralProxy_t166_CustomAttributesCacheGenerator_AN_GMSGeneralProxy_t166_AN_GMSGeneralProxy_CallActivityFunction_m1071_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1560,12 +1560,12 @@ void AN_GMSGeneralProxy_t166_CustomAttributesCacheGenerator_AN_GMSGeneralProxy_t
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void AN_GMSGiftsProxy_t167_CustomAttributesCacheGenerator_AN_GMSGiftsProxy_t167_AN_GMSGiftsProxy_CallActivityFunction_m1115_Arg1_ParameterInfo(CustomAttributesCache* cache)
+void AN_GMSGiftsProxy_t167_CustomAttributesCacheGenerator_AN_GMSGiftsProxy_t167_AN_GMSGiftsProxy_CallActivityFunction_m1117_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1578,12 +1578,12 @@ void AN_GMSGiftsProxy_t167_CustomAttributesCacheGenerator_AN_GMSGiftsProxy_t167_
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void AN_GMSInvitationProxy_t168_CustomAttributesCacheGenerator_AN_GMSInvitationProxy_t168_AN_GMSInvitationProxy_CallActivityFunction_m1123_Arg1_ParameterInfo(CustomAttributesCache* cache)
+void AN_GMSInvitationProxy_t168_CustomAttributesCacheGenerator_AN_GMSInvitationProxy_t168_AN_GMSInvitationProxy_CallActivityFunction_m1125_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1596,12 +1596,12 @@ void AN_GMSInvitationProxy_t168_CustomAttributesCacheGenerator_AN_GMSInvitationP
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void AN_GMSQuestsEventsProxy_t169_CustomAttributesCacheGenerator_AN_GMSQuestsEventsProxy_t169_AN_GMSQuestsEventsProxy_CallActivityFunction_m1127_Arg1_ParameterInfo(CustomAttributesCache* cache)
+void AN_GMSQuestsEventsProxy_t169_CustomAttributesCacheGenerator_AN_GMSQuestsEventsProxy_t169_AN_GMSQuestsEventsProxy_CallActivityFunction_m1129_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1614,12 +1614,12 @@ void AN_GMSQuestsEventsProxy_t169_CustomAttributesCacheGenerator_AN_GMSQuestsEve
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void AN_GMSRTMProxy_t170_CustomAttributesCacheGenerator_AN_GMSRTMProxy_t170_AN_GMSRTMProxy_CallActivityFunction_m1134_Arg1_ParameterInfo(CustomAttributesCache* cache)
+void AN_GMSRTMProxy_t170_CustomAttributesCacheGenerator_AN_GMSRTMProxy_t170_AN_GMSRTMProxy_CallActivityFunction_m1136_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1632,12 +1632,12 @@ void AN_GMSRTMProxy_t170_CustomAttributesCacheGenerator_AN_GMSRTMProxy_t170_AN_G
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void AN_GoogleAnalyticsProxy_t171_CustomAttributesCacheGenerator_AN_GoogleAnalyticsProxy_t171_AN_GoogleAnalyticsProxy_CallActivityFunction_m1167_Arg1_ParameterInfo(CustomAttributesCache* cache)
+void AN_GoogleAnalyticsProxy_t171_CustomAttributesCacheGenerator_AN_GoogleAnalyticsProxy_t171_AN_GoogleAnalyticsProxy_CallActivityFunction_m1169_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1650,12 +1650,12 @@ void AN_GoogleAnalyticsProxy_t171_CustomAttributesCacheGenerator_AN_GoogleAnalyt
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void AN_GooglePlayUtilsProxy_t172_CustomAttributesCacheGenerator_AN_GooglePlayUtilsProxy_t172_AN_GooglePlayUtilsProxy_CallActivityFunction_m1183_Arg1_ParameterInfo(CustomAttributesCache* cache)
+void AN_GooglePlayUtilsProxy_t172_CustomAttributesCacheGenerator_AN_GooglePlayUtilsProxy_t172_AN_GooglePlayUtilsProxy_CallActivityFunction_m1185_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1668,12 +1668,12 @@ void AN_GooglePlayUtilsProxy_t172_CustomAttributesCacheGenerator_AN_GooglePlayUt
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void AN_ImmersiveModeProxy_t173_CustomAttributesCacheGenerator_AN_ImmersiveModeProxy_t173_AN_ImmersiveModeProxy_CallActivityFunction_m1186_Arg1_ParameterInfo(CustomAttributesCache* cache)
+void AN_ImmersiveModeProxy_t173_CustomAttributesCacheGenerator_AN_ImmersiveModeProxy_t173_AN_ImmersiveModeProxy_CallActivityFunction_m1188_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1686,12 +1686,12 @@ void AN_ImmersiveModeProxy_t173_CustomAttributesCacheGenerator_AN_ImmersiveModeP
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void AN_LicenseManagerProxy_t174_CustomAttributesCacheGenerator_AN_LicenseManagerProxy_t174_AN_LicenseManagerProxy_CallActivityFunction_m1189_Arg1_ParameterInfo(CustomAttributesCache* cache)
+void AN_LicenseManagerProxy_t174_CustomAttributesCacheGenerator_AN_LicenseManagerProxy_t174_AN_LicenseManagerProxy_CallActivityFunction_m1191_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1704,12 +1704,12 @@ void AN_LicenseManagerProxy_t174_CustomAttributesCacheGenerator_AN_LicenseManage
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void AN_PlusButtonProxy_t175_CustomAttributesCacheGenerator_AN_PlusButtonProxy_t175_AN_PlusButtonProxy_CallActivityFunction_m1192_Arg1_ParameterInfo(CustomAttributesCache* cache)
+void AN_PlusButtonProxy_t175_CustomAttributesCacheGenerator_AN_PlusButtonProxy_t175_AN_PlusButtonProxy_CallActivityFunction_m1194_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1722,12 +1722,12 @@ void AN_PlusButtonProxy_t175_CustomAttributesCacheGenerator_AN_PlusButtonProxy_t
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void AN_SocialSharingProxy_t176_CustomAttributesCacheGenerator_AN_SocialSharingProxy_t176_AN_SocialSharingProxy_CallActivityFunction_m1200_Arg1_ParameterInfo(CustomAttributesCache* cache)
+void AN_SocialSharingProxy_t176_CustomAttributesCacheGenerator_AN_SocialSharingProxy_t176_AN_SocialSharingProxy_CallActivityFunction_m1202_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1740,12 +1740,12 @@ void AN_SocialSharingProxy_t176_CustomAttributesCacheGenerator_AN_SocialSharingP
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void AN_TVControllerProxy_t177_CustomAttributesCacheGenerator_AN_TVControllerProxy_t177_AN_TVControllerProxy_CallActivityFunction_m1208_Arg1_ParameterInfo(CustomAttributesCache* cache)
+void AN_TVControllerProxy_t177_CustomAttributesCacheGenerator_AN_TVControllerProxy_t177_AN_TVControllerProxy_CallActivityFunction_m1210_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1758,12 +1758,12 @@ void AN_TVControllerProxy_t177_CustomAttributesCacheGenerator_AN_TVControllerPro
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void AndroidNative_t178_CustomAttributesCacheGenerator_AndroidNative_t178_AndroidNative_CallUtility_m1235_Arg1_ParameterInfo(CustomAttributesCache* cache)
+void AndroidNative_t178_CustomAttributesCacheGenerator_AndroidNative_t178_AndroidNative_CallUtility_m1237_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1776,12 +1776,12 @@ void AndroidNative_t178_CustomAttributesCacheGenerator_AndroidNative_t178_Androi
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void AndroidNative_t178_CustomAttributesCacheGenerator_AndroidNative_t178_AndroidNative_CallAndroidNativeBridge_m1236_Arg1_ParameterInfo(CustomAttributesCache* cache)
+void AndroidNative_t178_CustomAttributesCacheGenerator_AndroidNative_t178_AndroidNative_CallAndroidNativeBridge_m1238_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1794,12 +1794,12 @@ void AndroidNative_t178_CustomAttributesCacheGenerator_AndroidNative_t178_Androi
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ParamArrayAttribute_t818_il2cpp_TypeInfo_var;
-void GoogleMobileAdInterface_t142_CustomAttributesCacheGenerator_GoogleMobileAdInterface_t142_GoogleMobileAdInterface_AddTestDevices_m4557_Arg0_ParameterInfo(CustomAttributesCache* cache)
+void GoogleMobileAdInterface_t142_CustomAttributesCacheGenerator_GoogleMobileAdInterface_t142_GoogleMobileAdInterface_AddTestDevices_m4560_Arg0_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1812,7 +1812,7 @@ void GoogleMobileAdInterface_t142_CustomAttributesCacheGenerator_GoogleMobileAdI
 	{
 		ParamArrayAttribute_t818 * tmp;
 		tmp = (ParamArrayAttribute_t818 *)il2cpp_codegen_object_new (ParamArrayAttribute_t818_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4521(tmp, NULL);
+		ParamArrayAttribute__ctor_m4524(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1907,7 +1907,7 @@ void AndroidADBanner_t215_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache13(C
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnLoadedActionU3Em__22_m1285(CustomAttributesCache* cache)
+void AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnLoadedActionU3Em__22_m1287(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1925,7 +1925,7 @@ void AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnL
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnFailedLoadingActionU3Em__23_m1286(CustomAttributesCache* cache)
+void AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnFailedLoadingActionU3Em__23_m1288(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1943,7 +1943,7 @@ void AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnF
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnOpenedActionU3Em__24_m1287(CustomAttributesCache* cache)
+void AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnOpenedActionU3Em__24_m1289(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1961,7 +1961,7 @@ void AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnO
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnClosedActionU3Em__25_m1288(CustomAttributesCache* cache)
+void AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnClosedActionU3Em__25_m1290(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1979,7 +1979,7 @@ void AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnC
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnLeftApplicationActionU3Em__26_m1289(CustomAttributesCache* cache)
+void AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnLeftApplicationActionU3Em__26_m1291(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2033,7 +2033,7 @@ void WWWTextureLoader_t266_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache2(C
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void WWWTextureLoader_t266_CustomAttributesCacheGenerator_WWWTextureLoader_LoadCoroutin_m1450(CustomAttributesCache* cache)
+void WWWTextureLoader_t266_CustomAttributesCacheGenerator_WWWTextureLoader_LoadCoroutin_m1452(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2051,7 +2051,7 @@ void WWWTextureLoader_t266_CustomAttributesCacheGenerator_WWWTextureLoader_LoadC
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void WWWTextureLoader_t266_CustomAttributesCacheGenerator_WWWTextureLoader_U3COnLoadU3Em__27_m1451(CustomAttributesCache* cache)
+void WWWTextureLoader_t266_CustomAttributesCacheGenerator_WWWTextureLoader_U3COnLoadU3Em__27_m1453(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2087,7 +2087,7 @@ void U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator(CustomAt
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator_U3CLoadCoroutinU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1440(CustomAttributesCache* cache)
+void U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator_U3CLoadCoroutinU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1442(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2105,7 +2105,7 @@ void U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator_U3CLoadC
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator_U3CLoadCoroutinU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1441(CustomAttributesCache* cache)
+void U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator_U3CLoadCoroutinU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1443(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2123,7 +2123,7 @@ void U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator_U3CLoadC
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator_U3CLoadCoroutinU3Ec__Iterator1_Dispose_m1443(CustomAttributesCache* cache)
+void U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator_U3CLoadCoroutinU3Ec__Iterator1_Dispose_m1445(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2141,7 +2141,7 @@ void U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator_U3CLoadC
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator_U3CLoadCoroutinU3Ec__Iterator1_Reset_m1444(CustomAttributesCache* cache)
+void U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator_U3CLoadCoroutinU3Ec__Iterator1_Reset_m1446(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2429,7 +2429,7 @@ void SPFacebook_t282_CustomAttributesCacheGenerator_U3CU3Ef__switchU24map1(Custo
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnInitCompleteActionU3Em__28_m1522(CustomAttributesCache* cache)
+void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnInitCompleteActionU3Em__28_m1524(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2447,7 +2447,7 @@ void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnInitComplete
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnPostingCompleteActionU3Em__29_m1523(CustomAttributesCache* cache)
+void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnPostingCompleteActionU3Em__29_m1525(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2465,7 +2465,7 @@ void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnPostingCompl
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnFocusChangedActionU3Em__2A_m1524(CustomAttributesCache* cache)
+void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnFocusChangedActionU3Em__2A_m1526(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2483,7 +2483,7 @@ void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnFocusChanged
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnAuthCompleteActionU3Em__2B_m1525(CustomAttributesCache* cache)
+void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnAuthCompleteActionU3Em__2B_m1527(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2501,7 +2501,7 @@ void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnAuthComplete
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnPaymentCompleteActionU3Em__2C_m1526(CustomAttributesCache* cache)
+void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnPaymentCompleteActionU3Em__2C_m1528(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2519,7 +2519,7 @@ void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnPaymentCompl
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnUserDataRequestCompleteActionU3Em__2D_m1527(CustomAttributesCache* cache)
+void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnUserDataRequestCompleteActionU3Em__2D_m1529(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2537,7 +2537,7 @@ void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnUserDataRequ
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnFriendsDataRequestCompleteActionU3Em__2E_m1528(CustomAttributesCache* cache)
+void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnFriendsDataRequestCompleteActionU3Em__2E_m1530(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2555,7 +2555,7 @@ void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnFriendsDataR
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnAppRequestCompleteActionU3Em__2F_m1529(CustomAttributesCache* cache)
+void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnAppRequestCompleteActionU3Em__2F_m1531(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2573,7 +2573,7 @@ void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnAppRequestCo
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnAppRequestsLoadedU3Em__30_m1530(CustomAttributesCache* cache)
+void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnAppRequestsLoadedU3Em__30_m1532(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2591,7 +2591,7 @@ void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnAppRequestsL
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnAppScoresRequestCompleteActionU3Em__31_m1531(CustomAttributesCache* cache)
+void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnAppScoresRequestCompleteActionU3Em__31_m1533(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2609,7 +2609,7 @@ void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnAppScoresReq
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnPlayerScoresRequestCompleteActionU3Em__32_m1532(CustomAttributesCache* cache)
+void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnPlayerScoresRequestCompleteActionU3Em__32_m1534(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2627,7 +2627,7 @@ void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnPlayerScores
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnSubmitScoreRequestCompleteActionU3Em__33_m1533(CustomAttributesCache* cache)
+void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnSubmitScoreRequestCompleteActionU3Em__33_m1535(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2645,7 +2645,7 @@ void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnSubmitScoreR
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnDeleteScoresRequestCompleteActionU3Em__34_m1534(CustomAttributesCache* cache)
+void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnDeleteScoresRequestCompleteActionU3Em__34_m1536(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2663,7 +2663,7 @@ void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnDeleteScores
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnLikesListLoadedActionU3Em__35_m1535(CustomAttributesCache* cache)
+void SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnLikesListLoadedActionU3Em__35_m1537(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2699,7 +2699,7 @@ void FBAppRequest_t286_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheC(Custo
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void FBAppRequest_t286_CustomAttributesCacheGenerator_FBAppRequest_U3COnDeleteRequestFinishedU3Em__36_m1555(CustomAttributesCache* cache)
+void FBAppRequest_t286_CustomAttributesCacheGenerator_FBAppRequest_U3COnDeleteRequestFinishedU3Em__36_m1557(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2735,7 +2735,7 @@ void FBScore_t293_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache7(CustomAttr
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void FBScore_t293_CustomAttributesCacheGenerator_FBScore_U3COnProfileImageLoadedU3Em__37_m1575(CustomAttributesCache* cache)
+void FBScore_t293_CustomAttributesCacheGenerator_FBScore_U3COnProfileImageLoadedU3Em__37_m1577(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2771,7 +2771,7 @@ void FacebookUserInfo_t271_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheD(C
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void FacebookUserInfo_t271_CustomAttributesCacheGenerator_FacebookUserInfo_U3COnProfileImageLoadedU3Em__38_m1599(CustomAttributesCache* cache)
+void FacebookUserInfo_t271_CustomAttributesCacheGenerator_FacebookUserInfo_U3COnProfileImageLoadedU3Em__38_m1601(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2789,7 +2789,7 @@ void FacebookUserInfo_t271_CustomAttributesCacheGenerator_FacebookUserInfo_U3COn
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void FB_GraphAPIRequest_t299_CustomAttributesCacheGenerator_FB_GraphAPIRequest_Request_m1629(CustomAttributesCache* cache)
+void FB_GraphAPIRequest_t299_CustomAttributesCacheGenerator_FB_GraphAPIRequest_Request_m1631(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2825,7 +2825,7 @@ void U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator(CustomAttribu
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1618(CustomAttributesCache* cache)
+void U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1620(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2843,7 +2843,7 @@ void U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator_U3CRequestU3E
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m1619(CustomAttributesCache* cache)
+void U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m1621(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2861,7 +2861,7 @@ void U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator_U3CRequestU3E
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator2_Dispose_m1621(CustomAttributesCache* cache)
+void U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator2_Dispose_m1623(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2879,7 +2879,7 @@ void U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator_U3CRequestU3E
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator2_Reset_m1622(CustomAttributesCache* cache)
+void U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator2_Reset_m1624(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -2915,7 +2915,7 @@ void AndroidInstagramManager_t306_CustomAttributesCacheGenerator_U3CU3Ef__amU24c
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void AndroidInstagramManager_t306_CustomAttributesCacheGenerator_AndroidInstagramManager_U3COnPostingCompleteActionU3Em__39_m1636(CustomAttributesCache* cache)
+void AndroidInstagramManager_t306_CustomAttributesCacheGenerator_AndroidInstagramManager_U3COnPostingCompleteActionU3Em__39_m1638(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3005,7 +3005,7 @@ void AndroidTwitterManager_t310_CustomAttributesCacheGenerator_U3CU3Ef__amU24cac
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void AndroidTwitterManager_t310_CustomAttributesCacheGenerator_AndroidTwitterManager_U3COnTwitterInitedActionU3Em__3A_m1661(CustomAttributesCache* cache)
+void AndroidTwitterManager_t310_CustomAttributesCacheGenerator_AndroidTwitterManager_U3COnTwitterInitedActionU3Em__3A_m1663(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3023,7 +3023,7 @@ void AndroidTwitterManager_t310_CustomAttributesCacheGenerator_AndroidTwitterMan
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void AndroidTwitterManager_t310_CustomAttributesCacheGenerator_AndroidTwitterManager_U3COnAuthCompleteActionU3Em__3B_m1662(CustomAttributesCache* cache)
+void AndroidTwitterManager_t310_CustomAttributesCacheGenerator_AndroidTwitterManager_U3COnAuthCompleteActionU3Em__3B_m1664(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3041,7 +3041,7 @@ void AndroidTwitterManager_t310_CustomAttributesCacheGenerator_AndroidTwitterMan
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void AndroidTwitterManager_t310_CustomAttributesCacheGenerator_AndroidTwitterManager_U3COnPostingCompleteActionU3Em__3C_m1663(CustomAttributesCache* cache)
+void AndroidTwitterManager_t310_CustomAttributesCacheGenerator_AndroidTwitterManager_U3COnPostingCompleteActionU3Em__3C_m1665(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3059,7 +3059,7 @@ void AndroidTwitterManager_t310_CustomAttributesCacheGenerator_AndroidTwitterMan
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void AndroidTwitterManager_t310_CustomAttributesCacheGenerator_AndroidTwitterManager_U3COnUserDataRequestCompleteActionU3Em__3D_m1664(CustomAttributesCache* cache)
+void AndroidTwitterManager_t310_CustomAttributesCacheGenerator_AndroidTwitterManager_U3COnUserDataRequestCompleteActionU3Em__3D_m1666(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3077,7 +3077,7 @@ void AndroidTwitterManager_t310_CustomAttributesCacheGenerator_AndroidTwitterMan
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void TwitterApplicationOnlyToken_t313_CustomAttributesCacheGenerator_TwitterApplicationOnlyToken_Load_m1675(CustomAttributesCache* cache)
+void TwitterApplicationOnlyToken_t313_CustomAttributesCacheGenerator_TwitterApplicationOnlyToken_Load_m1677(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3113,7 +3113,7 @@ void U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator(CustomAttributes
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator_U3CLoadU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1666(CustomAttributesCache* cache)
+void U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator_U3CLoadU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1668(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3131,7 +3131,7 @@ void U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator_U3CLoadU3Ec__Ite
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator_U3CLoadU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m1667(CustomAttributesCache* cache)
+void U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator_U3CLoadU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m1669(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3149,7 +3149,7 @@ void U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator_U3CLoadU3Ec__Ite
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator_U3CLoadU3Ec__Iterator3_Dispose_m1669(CustomAttributesCache* cache)
+void U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator_U3CLoadU3Ec__Iterator3_Dispose_m1671(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3167,7 +3167,7 @@ void U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator_U3CLoadU3Ec__Ite
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator_U3CLoadU3Ec__Iterator3_Reset_m1670(CustomAttributesCache* cache)
+void U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator_U3CLoadU3Ec__Iterator3_Reset_m1672(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3185,7 +3185,7 @@ void U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator_U3CLoadU3Ec__Ite
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void TW_APIRequest_t327_CustomAttributesCacheGenerator_TW_APIRequest_Request_m1731(CustomAttributesCache* cache)
+void TW_APIRequest_t327_CustomAttributesCacheGenerator_TW_APIRequest_Request_m1733(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3221,7 +3221,7 @@ void U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator(CustomAttribu
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator4_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1721(CustomAttributesCache* cache)
+void U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator4_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1723(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3239,7 +3239,7 @@ void U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator_U3CRequestU3E
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator4_System_Collections_IEnumerator_get_Current_m1722(CustomAttributesCache* cache)
+void U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator4_System_Collections_IEnumerator_get_Current_m1724(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3257,7 +3257,7 @@ void U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator_U3CRequestU3E
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator4_Dispose_m1724(CustomAttributesCache* cache)
+void U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator4_Dispose_m1726(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3275,7 +3275,7 @@ void U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator_U3CRequestU3E
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator4_Reset_m1725(CustomAttributesCache* cache)
+void U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator4_Reset_m1727(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3311,7 +3311,7 @@ void TW_OAuthAPIRequest_t332_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache6
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void TW_OAuthAPIRequest_t332_CustomAttributesCacheGenerator_TW_OAuthAPIRequest_Request_m1753(CustomAttributesCache* cache)
+void TW_OAuthAPIRequest_t332_CustomAttributesCacheGenerator_TW_OAuthAPIRequest_Request_m1755(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3329,7 +3329,7 @@ void TW_OAuthAPIRequest_t332_CustomAttributesCacheGenerator_TW_OAuthAPIRequest_R
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void TW_OAuthAPIRequest_t332_CustomAttributesCacheGenerator_TW_OAuthAPIRequest_U3COnResultU3Em__3E_m1754(CustomAttributesCache* cache)
+void TW_OAuthAPIRequest_t332_CustomAttributesCacheGenerator_TW_OAuthAPIRequest_U3COnResultU3Em__3E_m1756(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3365,7 +3365,7 @@ void U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator(CustomAttribu
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator5_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1742(CustomAttributesCache* cache)
+void U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator5_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1744(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3383,7 +3383,7 @@ void U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator_U3CRequestU3E
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator5_System_Collections_IEnumerator_get_Current_m1743(CustomAttributesCache* cache)
+void U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator5_System_Collections_IEnumerator_get_Current_m1745(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3401,7 +3401,7 @@ void U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator_U3CRequestU3E
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator5_Dispose_m1745(CustomAttributesCache* cache)
+void U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator5_Dispose_m1747(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3419,7 +3419,7 @@ void U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator_U3CRequestU3E
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator5_Reset_m1746(CustomAttributesCache* cache)
+void U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator5_Reset_m1748(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3437,7 +3437,7 @@ void U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator_U3CRequestU3E
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void MSPFacebookUseExample_t353_CustomAttributesCacheGenerator_MSPFacebookUseExample_PostFBScreenshot_m1810(CustomAttributesCache* cache)
+void MSPFacebookUseExample_t353_CustomAttributesCacheGenerator_MSPFacebookUseExample_PostFBScreenshot_m1812(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3455,7 +3455,7 @@ void MSPFacebookUseExample_t353_CustomAttributesCacheGenerator_MSPFacebookUseExa
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void MSPFacebookUseExample_t353_CustomAttributesCacheGenerator_MSPFacebookUseExample_PostScreenshot_m1837(CustomAttributesCache* cache)
+void MSPFacebookUseExample_t353_CustomAttributesCacheGenerator_MSPFacebookUseExample_PostScreenshot_m1839(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3491,7 +3491,7 @@ void U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator(Cust
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator_U3CPostFBScreenshotU3Ec__Iterator6_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1790(CustomAttributesCache* cache)
+void U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator_U3CPostFBScreenshotU3Ec__Iterator6_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1792(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3509,7 +3509,7 @@ void U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator_U3CP
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator_U3CPostFBScreenshotU3Ec__Iterator6_System_Collections_IEnumerator_get_Current_m1791(CustomAttributesCache* cache)
+void U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator_U3CPostFBScreenshotU3Ec__Iterator6_System_Collections_IEnumerator_get_Current_m1793(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3527,7 +3527,7 @@ void U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator_U3CP
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator_U3CPostFBScreenshotU3Ec__Iterator6_Dispose_m1793(CustomAttributesCache* cache)
+void U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator_U3CPostFBScreenshotU3Ec__Iterator6_Dispose_m1795(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3545,7 +3545,7 @@ void U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator_U3CP
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator_U3CPostFBScreenshotU3Ec__Iterator6_Reset_m1794(CustomAttributesCache* cache)
+void U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator_U3CPostFBScreenshotU3Ec__Iterator6_Reset_m1796(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3581,7 +3581,7 @@ void U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator(Custom
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator7_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1796(CustomAttributesCache* cache)
+void U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator7_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1798(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3599,7 +3599,7 @@ void U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator_U3CPos
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator7_System_Collections_IEnumerator_get_Current_m1797(CustomAttributesCache* cache)
+void U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator7_System_Collections_IEnumerator_get_Current_m1799(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3617,7 +3617,7 @@ void U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator_U3CPos
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator7_Dispose_m1799(CustomAttributesCache* cache)
+void U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator7_Dispose_m1801(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3635,7 +3635,7 @@ void U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator_U3CPos
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator7_Reset_m1800(CustomAttributesCache* cache)
+void U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator7_Reset_m1802(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3653,7 +3653,7 @@ void U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator_U3CPos
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void MSPTwitterUseExample_t357_CustomAttributesCacheGenerator_MSPTwitterUseExample_PostTWScreenshot_m1868(CustomAttributesCache* cache)
+void MSPTwitterUseExample_t357_CustomAttributesCacheGenerator_MSPTwitterUseExample_PostTWScreenshot_m1870(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3671,7 +3671,7 @@ void MSPTwitterUseExample_t357_CustomAttributesCacheGenerator_MSPTwitterUseExamp
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void MSPTwitterUseExample_t357_CustomAttributesCacheGenerator_MSPTwitterUseExample_PostScreenshot_m1887(CustomAttributesCache* cache)
+void MSPTwitterUseExample_t357_CustomAttributesCacheGenerator_MSPTwitterUseExample_PostScreenshot_m1889(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3707,7 +3707,7 @@ void U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator(Cust
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator_U3CPostTWScreenshotU3Ec__Iterator8_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1848(CustomAttributesCache* cache)
+void U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator_U3CPostTWScreenshotU3Ec__Iterator8_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1850(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3725,7 +3725,7 @@ void U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator_U3CP
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator_U3CPostTWScreenshotU3Ec__Iterator8_System_Collections_IEnumerator_get_Current_m1849(CustomAttributesCache* cache)
+void U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator_U3CPostTWScreenshotU3Ec__Iterator8_System_Collections_IEnumerator_get_Current_m1851(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3743,7 +3743,7 @@ void U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator_U3CP
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator_U3CPostTWScreenshotU3Ec__Iterator8_Dispose_m1851(CustomAttributesCache* cache)
+void U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator_U3CPostTWScreenshotU3Ec__Iterator8_Dispose_m1853(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3761,7 +3761,7 @@ void U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator_U3CP
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator_U3CPostTWScreenshotU3Ec__Iterator8_Reset_m1852(CustomAttributesCache* cache)
+void U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator_U3CPostTWScreenshotU3Ec__Iterator8_Reset_m1854(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3797,7 +3797,7 @@ void U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator(Custom
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator9_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1854(CustomAttributesCache* cache)
+void U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator9_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1856(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3815,7 +3815,7 @@ void U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator_U3CPos
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator9_System_Collections_IEnumerator_get_Current_m1855(CustomAttributesCache* cache)
+void U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator9_System_Collections_IEnumerator_get_Current_m1857(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3833,7 +3833,7 @@ void U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator_U3CPos
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator9_Dispose_m1857(CustomAttributesCache* cache)
+void U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator9_Dispose_m1859(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3851,7 +3851,7 @@ void U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator_U3CPos
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator9_Reset_m1858(CustomAttributesCache* cache)
+void U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator9_Reset_m1860(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3887,7 +3887,7 @@ void SPInstagram_t361_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache1(Custom
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SPInstagram_t361_CustomAttributesCacheGenerator_SPInstagram_U3COnPostingCompleteActionU3Em__3F_m1934(CustomAttributesCache* cache)
+void SPInstagram_t361_CustomAttributesCacheGenerator_SPInstagram_U3COnPostingCompleteActionU3Em__3F_m1936(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3977,7 +3977,7 @@ void SPTwitter_t364_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache9(CustomAt
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SPTwitter_t364_CustomAttributesCacheGenerator_SPTwitter_U3COnTwitterInitedActionU3Em__40_m1981(CustomAttributesCache* cache)
+void SPTwitter_t364_CustomAttributesCacheGenerator_SPTwitter_U3COnTwitterInitedActionU3Em__40_m1983(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3995,7 +3995,7 @@ void SPTwitter_t364_CustomAttributesCacheGenerator_SPTwitter_U3COnTwitterInitedA
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SPTwitter_t364_CustomAttributesCacheGenerator_SPTwitter_U3COnAuthCompleteActionU3Em__41_m1982(CustomAttributesCache* cache)
+void SPTwitter_t364_CustomAttributesCacheGenerator_SPTwitter_U3COnAuthCompleteActionU3Em__41_m1984(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4013,7 +4013,7 @@ void SPTwitter_t364_CustomAttributesCacheGenerator_SPTwitter_U3COnAuthCompleteAc
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SPTwitter_t364_CustomAttributesCacheGenerator_SPTwitter_U3COnPostingCompleteActionU3Em__42_m1983(CustomAttributesCache* cache)
+void SPTwitter_t364_CustomAttributesCacheGenerator_SPTwitter_U3COnPostingCompleteActionU3Em__42_m1985(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4031,7 +4031,7 @@ void SPTwitter_t364_CustomAttributesCacheGenerator_SPTwitter_U3COnPostingComplet
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SPTwitter_t364_CustomAttributesCacheGenerator_SPTwitter_U3COnUserDataRequestCompleteActionU3Em__43_m1984(CustomAttributesCache* cache)
+void SPTwitter_t364_CustomAttributesCacheGenerator_SPTwitter_U3COnUserDataRequestCompleteActionU3Em__43_m1986(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4121,7 +4121,7 @@ void IOSTwitterManager_t368_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheA(
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void IOSTwitterManager_t368_CustomAttributesCacheGenerator_IOSTwitterManager_U3COnTwitterInitedActionU3Em__44_m2040(CustomAttributesCache* cache)
+void IOSTwitterManager_t368_CustomAttributesCacheGenerator_IOSTwitterManager_U3COnTwitterInitedActionU3Em__44_m2042(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4139,7 +4139,7 @@ void IOSTwitterManager_t368_CustomAttributesCacheGenerator_IOSTwitterManager_U3C
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void IOSTwitterManager_t368_CustomAttributesCacheGenerator_IOSTwitterManager_U3COnAuthCompleteActionU3Em__45_m2041(CustomAttributesCache* cache)
+void IOSTwitterManager_t368_CustomAttributesCacheGenerator_IOSTwitterManager_U3COnAuthCompleteActionU3Em__45_m2043(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4157,7 +4157,7 @@ void IOSTwitterManager_t368_CustomAttributesCacheGenerator_IOSTwitterManager_U3C
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void IOSTwitterManager_t368_CustomAttributesCacheGenerator_IOSTwitterManager_U3COnPostingCompleteActionU3Em__46_m2042(CustomAttributesCache* cache)
+void IOSTwitterManager_t368_CustomAttributesCacheGenerator_IOSTwitterManager_U3COnPostingCompleteActionU3Em__46_m2044(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4175,7 +4175,7 @@ void IOSTwitterManager_t368_CustomAttributesCacheGenerator_IOSTwitterManager_U3C
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void IOSTwitterManager_t368_CustomAttributesCacheGenerator_IOSTwitterManager_U3COnUserDataRequestCompleteActionU3Em__47_m2043(CustomAttributesCache* cache)
+void IOSTwitterManager_t368_CustomAttributesCacheGenerator_IOSTwitterManager_U3COnUserDataRequestCompleteActionU3Em__47_m2045(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4193,7 +4193,7 @@ void IOSTwitterManager_t368_CustomAttributesCacheGenerator_IOSTwitterManager_U3C
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void FacebookPostScreenshotTask_t370_CustomAttributesCacheGenerator_FacebookPostScreenshotTask_PostScreenshot_m2053(CustomAttributesCache* cache)
+void FacebookPostScreenshotTask_t370_CustomAttributesCacheGenerator_FacebookPostScreenshotTask_PostScreenshot_m2055(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4229,7 +4229,7 @@ void U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator(Custom
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorA_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2045(CustomAttributesCache* cache)
+void U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorA_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2047(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4247,7 +4247,7 @@ void U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator_U3CPos
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorA_System_Collections_IEnumerator_get_Current_m2046(CustomAttributesCache* cache)
+void U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorA_System_Collections_IEnumerator_get_Current_m2048(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4265,7 +4265,7 @@ void U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator_U3CPos
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorA_Dispose_m2048(CustomAttributesCache* cache)
+void U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorA_Dispose_m2050(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4283,7 +4283,7 @@ void U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator_U3CPos
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorA_Reset_m2049(CustomAttributesCache* cache)
+void U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorA_Reset_m2051(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4319,7 +4319,7 @@ void InstagramPostScreenshotTask_t372_CustomAttributesCacheGenerator_U3CU3Ef__am
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void InstagramPostScreenshotTask_t372_CustomAttributesCacheGenerator_InstagramPostScreenshotTask_PostScreenshot_m2063(CustomAttributesCache* cache)
+void InstagramPostScreenshotTask_t372_CustomAttributesCacheGenerator_InstagramPostScreenshotTask_PostScreenshot_m2065(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4337,7 +4337,7 @@ void InstagramPostScreenshotTask_t372_CustomAttributesCacheGenerator_InstagramPo
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void InstagramPostScreenshotTask_t372_CustomAttributesCacheGenerator_InstagramPostScreenshotTask_U3COnPostScreenshotCompleteActionU3Em__48_m2065(CustomAttributesCache* cache)
+void InstagramPostScreenshotTask_t372_CustomAttributesCacheGenerator_InstagramPostScreenshotTask_U3COnPostScreenshotCompleteActionU3Em__48_m2067(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4373,7 +4373,7 @@ void U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator(Custom
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorB_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2055(CustomAttributesCache* cache)
+void U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorB_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2057(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4391,7 +4391,7 @@ void U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator_U3CPos
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorB_System_Collections_IEnumerator_get_Current_m2056(CustomAttributesCache* cache)
+void U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorB_System_Collections_IEnumerator_get_Current_m2058(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4409,7 +4409,7 @@ void U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator_U3CPos
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorB_Dispose_m2058(CustomAttributesCache* cache)
+void U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorB_Dispose_m2060(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4427,7 +4427,7 @@ void U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator_U3CPos
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorB_Reset_m2059(CustomAttributesCache* cache)
+void U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorB_Reset_m2061(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4445,7 +4445,7 @@ void U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator_U3CPos
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void TwitterPostScreenshotTask_t374_CustomAttributesCacheGenerator_TwitterPostScreenshotTask_PostScreenshot_m2075(CustomAttributesCache* cache)
+void TwitterPostScreenshotTask_t374_CustomAttributesCacheGenerator_TwitterPostScreenshotTask_PostScreenshot_m2077(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4481,7 +4481,7 @@ void U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator(Custom
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorC_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2067(CustomAttributesCache* cache)
+void U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorC_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2069(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4499,7 +4499,7 @@ void U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator_U3CPos
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorC_System_Collections_IEnumerator_get_Current_m2068(CustomAttributesCache* cache)
+void U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorC_System_Collections_IEnumerator_get_Current_m2070(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4517,7 +4517,7 @@ void U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator_U3CPos
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorC_Dispose_m2070(CustomAttributesCache* cache)
+void U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorC_Dispose_m2072(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4535,7 +4535,7 @@ void U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator_U3CPos
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorC_Reset_m2071(CustomAttributesCache* cache)
+void U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorC_Reset_m2073(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4571,7 +4571,7 @@ void GameControllerExample_t377_CustomAttributesCacheGenerator_U3CU3Ef__amU24cac
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameControllerExample_t377_CustomAttributesCacheGenerator_GameControllerExample_U3COnGUIU3Em__49_m2080(CustomAttributesCache* cache)
+void GameControllerExample_t377_CustomAttributesCacheGenerator_GameControllerExample_U3COnGUIU3Em__49_m2082(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4606,7 +4606,7 @@ void GameThrive_t378_CustomAttributesCacheGenerator(CustomAttributesCache* cache
 	{
 		ObsoleteAttribute_t821 * tmp;
 		tmp = (ObsoleteAttribute_t821 *)il2cpp_codegen_object_new (ObsoleteAttribute_t821_il2cpp_TypeInfo_var);
-		ObsoleteAttribute__ctor_m4609(tmp, il2cpp_codegen_string_new_wrapper("GameThrive is decorated and will be removed in future releases. Please rename GameThrive to OneSignal in your code and your AndroidManifest.xml if your app is for Android."), NULL);
+		ObsoleteAttribute__ctor_m4612(tmp, il2cpp_codegen_string_new_wrapper("GameThrive is decorated and will be removed in future releases. Please rename GameThrive to OneSignal in your code and your AndroidManifest.xml if your app is for Android."), NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4629,7 +4629,7 @@ void Parser_t381_CustomAttributesCacheGenerator_U3CU3Ef__switchU24map2(CustomAtt
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void SA_ScreenShotMaker_t391_CustomAttributesCacheGenerator_SA_ScreenShotMaker_SaveScreenshot_m2149(CustomAttributesCache* cache)
+void SA_ScreenShotMaker_t391_CustomAttributesCacheGenerator_SA_ScreenShotMaker_SaveScreenshot_m2151(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4665,7 +4665,7 @@ void U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator(Custom
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator_U3CSaveScreenshotU3Ec__IteratorD_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2142(CustomAttributesCache* cache)
+void U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator_U3CSaveScreenshotU3Ec__IteratorD_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2144(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4683,7 +4683,7 @@ void U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator_U3CSav
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator_U3CSaveScreenshotU3Ec__IteratorD_System_Collections_IEnumerator_get_Current_m2143(CustomAttributesCache* cache)
+void U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator_U3CSaveScreenshotU3Ec__IteratorD_System_Collections_IEnumerator_get_Current_m2145(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4701,7 +4701,7 @@ void U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator_U3CSav
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator_U3CSaveScreenshotU3Ec__IteratorD_Dispose_m2145(CustomAttributesCache* cache)
+void U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator_U3CSaveScreenshotU3Ec__IteratorD_Dispose_m2147(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4719,7 +4719,7 @@ void U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator_U3CSav
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator_U3CSaveScreenshotU3Ec__IteratorD_Reset_m2146(CustomAttributesCache* cache)
+void U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator_U3CSaveScreenshotU3Ec__IteratorD_Reset_m2148(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4750,43 +4750,7 @@ void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator(CustomAttribut
 	{
 		ExtensionAttribute_t817 * tmp;
 		tmp = (ExtensionAttribute_t817 *)il2cpp_codegen_object_new (ExtensionAttribute_t817_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4502(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* ExtensionAttribute_t817_il2cpp_TypeInfo_var;
-void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2202(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		ExtensionAttribute_t817_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(597);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		ExtensionAttribute_t817 * tmp;
-		tmp = (ExtensionAttribute_t817 *)il2cpp_codegen_object_new (ExtensionAttribute_t817_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4502(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* ExtensionAttribute_t817_il2cpp_TypeInfo_var;
-void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2203(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		ExtensionAttribute_t817_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(597);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		ExtensionAttribute_t817 * tmp;
-		tmp = (ExtensionAttribute_t817 *)il2cpp_codegen_object_new (ExtensionAttribute_t817_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4502(tmp, NULL);
+		ExtensionAttribute__ctor_m4505(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4804,7 +4768,7 @@ void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacemen
 	{
 		ExtensionAttribute_t817 * tmp;
 		tmp = (ExtensionAttribute_t817 *)il2cpp_codegen_object_new (ExtensionAttribute_t817_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4502(tmp, NULL);
+		ExtensionAttribute__ctor_m4505(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4822,7 +4786,7 @@ void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacemen
 	{
 		ExtensionAttribute_t817 * tmp;
 		tmp = (ExtensionAttribute_t817 *)il2cpp_codegen_object_new (ExtensionAttribute_t817_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4502(tmp, NULL);
+		ExtensionAttribute__ctor_m4505(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4840,7 +4804,7 @@ void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacemen
 	{
 		ExtensionAttribute_t817 * tmp;
 		tmp = (ExtensionAttribute_t817 *)il2cpp_codegen_object_new (ExtensionAttribute_t817_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4502(tmp, NULL);
+		ExtensionAttribute__ctor_m4505(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4858,7 +4822,7 @@ void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacemen
 	{
 		ExtensionAttribute_t817 * tmp;
 		tmp = (ExtensionAttribute_t817 *)il2cpp_codegen_object_new (ExtensionAttribute_t817_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4502(tmp, NULL);
+		ExtensionAttribute__ctor_m4505(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4876,7 +4840,7 @@ void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacemen
 	{
 		ExtensionAttribute_t817 * tmp;
 		tmp = (ExtensionAttribute_t817 *)il2cpp_codegen_object_new (ExtensionAttribute_t817_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4502(tmp, NULL);
+		ExtensionAttribute__ctor_m4505(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4894,12 +4858,12 @@ void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacemen
 	{
 		ExtensionAttribute_t817 * tmp;
 		tmp = (ExtensionAttribute_t817 *)il2cpp_codegen_object_new (ExtensionAttribute_t817_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4502(tmp, NULL);
+		ExtensionAttribute__ctor_m4505(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ExtensionAttribute_t817_il2cpp_TypeInfo_var;
-void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_DoScreenPlacement_m2210(CustomAttributesCache* cache)
+void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2210(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4912,12 +4876,48 @@ void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacemen
 	{
 		ExtensionAttribute_t817 * tmp;
 		tmp = (ExtensionAttribute_t817 *)il2cpp_codegen_object_new (ExtensionAttribute_t817_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4502(tmp, NULL);
+		ExtensionAttribute__ctor_m4505(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* ExtensionAttribute_t817_il2cpp_TypeInfo_var;
+void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2211(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ExtensionAttribute_t817_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(597);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		ExtensionAttribute_t817 * tmp;
+		tmp = (ExtensionAttribute_t817 *)il2cpp_codegen_object_new (ExtensionAttribute_t817_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m4505(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* ExtensionAttribute_t817_il2cpp_TypeInfo_var;
+void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_DoScreenPlacement_m2212(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		ExtensionAttribute_t817_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(597);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		ExtensionAttribute_t817 * tmp;
+		tmp = (ExtensionAttribute_t817 *)il2cpp_codegen_object_new (ExtensionAttribute_t817_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m4505(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ObsoleteAttribute_t821_il2cpp_TypeInfo_var;
-void AbstractFacebook_t414_CustomAttributesCacheGenerator_AbstractFacebook_AppRequest_m2229(CustomAttributesCache* cache)
+void AbstractFacebook_t414_CustomAttributesCacheGenerator_AbstractFacebook_AppRequest_m2231(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4930,12 +4930,12 @@ void AbstractFacebook_t414_CustomAttributesCacheGenerator_AbstractFacebook_AppRe
 	{
 		ObsoleteAttribute_t821 * tmp;
 		tmp = (ObsoleteAttribute_t821 *)il2cpp_codegen_object_new (ObsoleteAttribute_t821_il2cpp_TypeInfo_var);
-		ObsoleteAttribute__ctor_m4627(tmp, NULL);
+		ObsoleteAttribute__ctor_m4630(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* ObsoleteAttribute_t821_il2cpp_TypeInfo_var;
-void FB_t421_CustomAttributesCacheGenerator_FB_PublishInstall_m2269(CustomAttributesCache* cache)
+void FB_t421_CustomAttributesCacheGenerator_FB_PublishInstall_m2271(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -4948,7 +4948,7 @@ void FB_t421_CustomAttributesCacheGenerator_FB_PublishInstall_m2269(CustomAttrib
 	{
 		ObsoleteAttribute_t821 * tmp;
 		tmp = (ObsoleteAttribute_t821 *)il2cpp_codegen_object_new (ObsoleteAttribute_t821_il2cpp_TypeInfo_var);
-		ObsoleteAttribute__ctor_m4609(tmp, il2cpp_codegen_string_new_wrapper("use FB.ActivateApp()"), NULL);
+		ObsoleteAttribute__ctor_m4612(tmp, il2cpp_codegen_string_new_wrapper("use FB.ActivateApp()"), NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4970,7 +4970,7 @@ void FBBuildVersionAttribute_t425_CustomAttributesCacheGenerator(CustomAttribute
 	{
 		AttributeUsageAttribute_t822 * tmp;
 		tmp = (AttributeUsageAttribute_t822 *)il2cpp_codegen_object_new (AttributeUsageAttribute_t822_il2cpp_TypeInfo_var);
-		AttributeUsageAttribute__ctor_m4639(tmp, 1, NULL);
+		AttributeUsageAttribute__ctor_m4642(tmp, 1, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4988,7 +4988,7 @@ void FBSettings_t430_CustomAttributesCacheGenerator_selectedAppIndex(CustomAttri
 	{
 		SerializeField_t819 * tmp;
 		tmp = (SerializeField_t819 *)il2cpp_codegen_object_new (SerializeField_t819_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4522(tmp, NULL);
+		SerializeField__ctor_m4525(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5006,7 +5006,7 @@ void FBSettings_t430_CustomAttributesCacheGenerator_appIds(CustomAttributesCache
 	{
 		SerializeField_t819 * tmp;
 		tmp = (SerializeField_t819 *)il2cpp_codegen_object_new (SerializeField_t819_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4522(tmp, NULL);
+		SerializeField__ctor_m4525(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5024,7 +5024,7 @@ void FBSettings_t430_CustomAttributesCacheGenerator_appLabels(CustomAttributesCa
 	{
 		SerializeField_t819 * tmp;
 		tmp = (SerializeField_t819 *)il2cpp_codegen_object_new (SerializeField_t819_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4522(tmp, NULL);
+		SerializeField__ctor_m4525(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5042,7 +5042,7 @@ void FBSettings_t430_CustomAttributesCacheGenerator_cookie(CustomAttributesCache
 	{
 		SerializeField_t819 * tmp;
 		tmp = (SerializeField_t819 *)il2cpp_codegen_object_new (SerializeField_t819_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4522(tmp, NULL);
+		SerializeField__ctor_m4525(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5060,7 +5060,7 @@ void FBSettings_t430_CustomAttributesCacheGenerator_logging(CustomAttributesCach
 	{
 		SerializeField_t819 * tmp;
 		tmp = (SerializeField_t819 *)il2cpp_codegen_object_new (SerializeField_t819_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4522(tmp, NULL);
+		SerializeField__ctor_m4525(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5078,7 +5078,7 @@ void FBSettings_t430_CustomAttributesCacheGenerator_status(CustomAttributesCache
 	{
 		SerializeField_t819 * tmp;
 		tmp = (SerializeField_t819 *)il2cpp_codegen_object_new (SerializeField_t819_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4522(tmp, NULL);
+		SerializeField__ctor_m4525(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5096,7 +5096,7 @@ void FBSettings_t430_CustomAttributesCacheGenerator_xfbml(CustomAttributesCache*
 	{
 		SerializeField_t819 * tmp;
 		tmp = (SerializeField_t819 *)il2cpp_codegen_object_new (SerializeField_t819_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4522(tmp, NULL);
+		SerializeField__ctor_m4525(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5114,7 +5114,7 @@ void FBSettings_t430_CustomAttributesCacheGenerator_frictionlessRequests(CustomA
 	{
 		SerializeField_t819 * tmp;
 		tmp = (SerializeField_t819 *)il2cpp_codegen_object_new (SerializeField_t819_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4522(tmp, NULL);
+		SerializeField__ctor_m4525(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5132,12 +5132,12 @@ void FBSettings_t430_CustomAttributesCacheGenerator_iosURLSuffix(CustomAttribute
 	{
 		SerializeField_t819 * tmp;
 		tmp = (SerializeField_t819 *)il2cpp_codegen_object_new (SerializeField_t819_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4522(tmp, NULL);
+		SerializeField__ctor_m4525(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void AsyncRequestString_t446_CustomAttributesCacheGenerator_AsyncRequestString_Start_m2477(CustomAttributesCache* cache)
+void AsyncRequestString_t446_CustomAttributesCacheGenerator_AsyncRequestString_Start_m2479(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5173,7 +5173,7 @@ void U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator(CustomAttribute
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator_U3CStartU3Ec__IteratorE_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2467(CustomAttributesCache* cache)
+void U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator_U3CStartU3Ec__IteratorE_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2469(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5191,7 +5191,7 @@ void U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator_U3CStartU3Ec__I
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator_U3CStartU3Ec__IteratorE_System_Collections_IEnumerator_get_Current_m2468(CustomAttributesCache* cache)
+void U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator_U3CStartU3Ec__IteratorE_System_Collections_IEnumerator_get_Current_m2470(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5209,7 +5209,7 @@ void U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator_U3CStartU3Ec__I
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator_U3CStartU3Ec__IteratorE_Dispose_m2470(CustomAttributesCache* cache)
+void U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator_U3CStartU3Ec__IteratorE_Dispose_m2472(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5227,7 +5227,7 @@ void U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator_U3CStartU3Ec__I
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator_U3CStartU3Ec__IteratorE_Reset_m2471(CustomAttributesCache* cache)
+void U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator_U3CStartU3Ec__IteratorE_Reset_m2473(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5317,7 +5317,7 @@ void EditorCoroutine_t459_CustomAttributesCacheGenerator_U3CContinueWithU3Ek__Ba
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_get_Routine_m2567(CustomAttributesCache* cache)
+void EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_get_Routine_m2569(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5335,7 +5335,7 @@ void EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_get_Rou
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_set_Routine_m2568(CustomAttributesCache* cache)
+void EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_set_Routine_m2570(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5353,7 +5353,7 @@ void EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_set_Rou
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_get_Done_m2569(CustomAttributesCache* cache)
+void EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_get_Done_m2571(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5371,7 +5371,7 @@ void EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_get_Don
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_set_Done_m2570(CustomAttributesCache* cache)
+void EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_set_Done_m2572(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5389,7 +5389,7 @@ void EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_set_Don
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_get_ContinueWith_m2571(CustomAttributesCache* cache)
+void EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_get_ContinueWith_m2573(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5407,7 +5407,7 @@ void EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_get_Con
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_set_ContinueWith_m2572(CustomAttributesCache* cache)
+void EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_set_ContinueWith_m2574(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5425,7 +5425,7 @@ void EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_set_Con
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void GA_SpecialEvents_t476_CustomAttributesCacheGenerator_GA_SpecialEvents_SubmitFPSRoutine_m2641(CustomAttributesCache* cache)
+void GA_SpecialEvents_t476_CustomAttributesCacheGenerator_GA_SpecialEvents_SubmitFPSRoutine_m2643(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5443,7 +5443,7 @@ void GA_SpecialEvents_t476_CustomAttributesCacheGenerator_GA_SpecialEvents_Submi
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void GA_SpecialEvents_t476_CustomAttributesCacheGenerator_GA_SpecialEvents_CheckCriticalFPSRoutine_m2642(CustomAttributesCache* cache)
+void GA_SpecialEvents_t476_CustomAttributesCacheGenerator_GA_SpecialEvents_CheckCriticalFPSRoutine_m2644(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5479,7 +5479,7 @@ void U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator(Cust
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator_U3CSubmitFPSRoutineU3Ec__IteratorF_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2627(CustomAttributesCache* cache)
+void U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator_U3CSubmitFPSRoutineU3Ec__IteratorF_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2629(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5497,7 +5497,7 @@ void U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator_U3CS
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator_U3CSubmitFPSRoutineU3Ec__IteratorF_System_Collections_IEnumerator_get_Current_m2628(CustomAttributesCache* cache)
+void U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator_U3CSubmitFPSRoutineU3Ec__IteratorF_System_Collections_IEnumerator_get_Current_m2630(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5515,7 +5515,7 @@ void U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator_U3CS
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator_U3CSubmitFPSRoutineU3Ec__IteratorF_Dispose_m2630(CustomAttributesCache* cache)
+void U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator_U3CSubmitFPSRoutineU3Ec__IteratorF_Dispose_m2632(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5533,7 +5533,7 @@ void U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator_U3CS
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator_U3CSubmitFPSRoutineU3Ec__IteratorF_Reset_m2631(CustomAttributesCache* cache)
+void U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator_U3CSubmitFPSRoutineU3Ec__IteratorF_Reset_m2633(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5569,7 +5569,7 @@ void U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenera
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenerator_U3CCheckCriticalFPSRoutineU3Ec__Iterator10_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2633(CustomAttributesCache* cache)
+void U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenerator_U3CCheckCriticalFPSRoutineU3Ec__Iterator10_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2635(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5587,7 +5587,7 @@ void U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenera
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenerator_U3CCheckCriticalFPSRoutineU3Ec__Iterator10_System_Collections_IEnumerator_get_Current_m2634(CustomAttributesCache* cache)
+void U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenerator_U3CCheckCriticalFPSRoutineU3Ec__Iterator10_System_Collections_IEnumerator_get_Current_m2636(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5605,7 +5605,7 @@ void U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenera
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenerator_U3CCheckCriticalFPSRoutineU3Ec__Iterator10_Dispose_m2636(CustomAttributesCache* cache)
+void U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenerator_U3CCheckCriticalFPSRoutineU3Ec__Iterator10_Dispose_m2638(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5623,7 +5623,7 @@ void U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenera
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenerator_U3CCheckCriticalFPSRoutineU3Ec__Iterator10_Reset_m2637(CustomAttributesCache* cache)
+void U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenerator_U3CCheckCriticalFPSRoutineU3Ec__Iterator10_Reset_m2639(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5668,13 +5668,13 @@ void GameAnalytics_t479_CustomAttributesCacheGenerator(CustomAttributesCache* ca
 	{
 		RequireComponent_t823 * tmp;
 		tmp = (RequireComponent_t823 *)il2cpp_codegen_object_new (RequireComponent_t823_il2cpp_TypeInfo_var);
-		RequireComponent__ctor_m4642(tmp, il2cpp_codegen_type_get_object(GA_SpecialEvents_t476_0_0_0_var), NULL);
+		RequireComponent__ctor_m4645(tmp, il2cpp_codegen_type_get_object(GA_SpecialEvents_t476_0_0_0_var), NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 	{
 		ExecuteInEditMode_t824 * tmp;
 		tmp = (ExecuteInEditMode_t824 *)il2cpp_codegen_object_new (ExecuteInEditMode_t824_il2cpp_TypeInfo_var);
-		ExecuteInEditMode__ctor_m4643(tmp, NULL);
+		ExecuteInEditMode__ctor_m4646(tmp, NULL);
 		cache->attributes[1] = (Il2CppObject*)tmp;
 	}
 }
@@ -5714,7 +5714,7 @@ void Settings_t478_CustomAttributesCacheGenerator_gameKey(CustomAttributesCache*
 	{
 		SerializeField_t819 * tmp;
 		tmp = (SerializeField_t819 *)il2cpp_codegen_object_new (SerializeField_t819_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4522(tmp, NULL);
+		SerializeField__ctor_m4525(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5732,7 +5732,7 @@ void Settings_t478_CustomAttributesCacheGenerator_secretKey(CustomAttributesCach
 	{
 		SerializeField_t819 * tmp;
 		tmp = (SerializeField_t819 *)il2cpp_codegen_object_new (SerializeField_t819_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4522(tmp, NULL);
+		SerializeField__ctor_m4525(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5750,7 +5750,7 @@ void Settings_t478_CustomAttributesCacheGenerator_Build(CustomAttributesCache* c
 	{
 		SerializeField_t819 * tmp;
 		tmp = (SerializeField_t819 *)il2cpp_codegen_object_new (SerializeField_t819_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4522(tmp, NULL);
+		SerializeField__ctor_m4525(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5768,7 +5768,7 @@ void Settings_t478_CustomAttributesCacheGenerator_SelectedPlatformStudio(CustomA
 	{
 		SerializeField_t819 * tmp;
 		tmp = (SerializeField_t819 *)il2cpp_codegen_object_new (SerializeField_t819_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4522(tmp, NULL);
+		SerializeField__ctor_m4525(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5786,7 +5786,7 @@ void Settings_t478_CustomAttributesCacheGenerator_SelectedPlatformGame(CustomAtt
 	{
 		SerializeField_t819 * tmp;
 		tmp = (SerializeField_t819 *)il2cpp_codegen_object_new (SerializeField_t819_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4522(tmp, NULL);
+		SerializeField__ctor_m4525(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5804,7 +5804,7 @@ void Settings_t478_CustomAttributesCacheGenerator_SelectedPlatformGameID(CustomA
 	{
 		SerializeField_t819 * tmp;
 		tmp = (SerializeField_t819 *)il2cpp_codegen_object_new (SerializeField_t819_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4522(tmp, NULL);
+		SerializeField__ctor_m4525(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5822,7 +5822,7 @@ void Settings_t478_CustomAttributesCacheGenerator_SelectedStudio(CustomAttribute
 	{
 		SerializeField_t819 * tmp;
 		tmp = (SerializeField_t819 *)il2cpp_codegen_object_new (SerializeField_t819_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4522(tmp, NULL);
+		SerializeField__ctor_m4525(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5840,7 +5840,7 @@ void Settings_t478_CustomAttributesCacheGenerator_SelectedGame(CustomAttributesC
 	{
 		SerializeField_t819 * tmp;
 		tmp = (SerializeField_t819 *)il2cpp_codegen_object_new (SerializeField_t819_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4522(tmp, NULL);
+		SerializeField__ctor_m4525(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5899,7 +5899,7 @@ void Studio_t489_CustomAttributesCacheGenerator_U3CGamesU3Ek__BackingField(Custo
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Studio_t489_CustomAttributesCacheGenerator_Studio_get_Name_m2691(CustomAttributesCache* cache)
+void Studio_t489_CustomAttributesCacheGenerator_Studio_get_Name_m2693(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5917,7 +5917,7 @@ void Studio_t489_CustomAttributesCacheGenerator_Studio_get_Name_m2691(CustomAttr
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Studio_t489_CustomAttributesCacheGenerator_Studio_set_Name_m2692(CustomAttributesCache* cache)
+void Studio_t489_CustomAttributesCacheGenerator_Studio_set_Name_m2694(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5935,7 +5935,7 @@ void Studio_t489_CustomAttributesCacheGenerator_Studio_set_Name_m2692(CustomAttr
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Studio_t489_CustomAttributesCacheGenerator_Studio_get_ID_m2693(CustomAttributesCache* cache)
+void Studio_t489_CustomAttributesCacheGenerator_Studio_get_ID_m2695(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5953,7 +5953,7 @@ void Studio_t489_CustomAttributesCacheGenerator_Studio_get_ID_m2693(CustomAttrib
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Studio_t489_CustomAttributesCacheGenerator_Studio_set_ID_m2694(CustomAttributesCache* cache)
+void Studio_t489_CustomAttributesCacheGenerator_Studio_set_ID_m2696(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5971,7 +5971,7 @@ void Studio_t489_CustomAttributesCacheGenerator_Studio_set_ID_m2694(CustomAttrib
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Studio_t489_CustomAttributesCacheGenerator_Studio_get_Games_m2695(CustomAttributesCache* cache)
+void Studio_t489_CustomAttributesCacheGenerator_Studio_get_Games_m2697(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5989,7 +5989,7 @@ void Studio_t489_CustomAttributesCacheGenerator_Studio_get_Games_m2695(CustomAtt
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Studio_t489_CustomAttributesCacheGenerator_Studio_set_Games_m2696(CustomAttributesCache* cache)
+void Studio_t489_CustomAttributesCacheGenerator_Studio_set_Games_m2698(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6079,7 +6079,7 @@ void Game_t490_CustomAttributesCacheGenerator_U3CSecretKeyU3Ek__BackingField(Cus
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Game_t490_CustomAttributesCacheGenerator_Game_get_Name_m2700(CustomAttributesCache* cache)
+void Game_t490_CustomAttributesCacheGenerator_Game_get_Name_m2702(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6097,7 +6097,7 @@ void Game_t490_CustomAttributesCacheGenerator_Game_get_Name_m2700(CustomAttribut
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Game_t490_CustomAttributesCacheGenerator_Game_set_Name_m2701(CustomAttributesCache* cache)
+void Game_t490_CustomAttributesCacheGenerator_Game_set_Name_m2703(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6115,7 +6115,7 @@ void Game_t490_CustomAttributesCacheGenerator_Game_set_Name_m2701(CustomAttribut
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Game_t490_CustomAttributesCacheGenerator_Game_get_ID_m2702(CustomAttributesCache* cache)
+void Game_t490_CustomAttributesCacheGenerator_Game_get_ID_m2704(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6133,7 +6133,7 @@ void Game_t490_CustomAttributesCacheGenerator_Game_get_ID_m2702(CustomAttributes
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Game_t490_CustomAttributesCacheGenerator_Game_set_ID_m2703(CustomAttributesCache* cache)
+void Game_t490_CustomAttributesCacheGenerator_Game_set_ID_m2705(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6151,7 +6151,7 @@ void Game_t490_CustomAttributesCacheGenerator_Game_set_ID_m2703(CustomAttributes
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Game_t490_CustomAttributesCacheGenerator_Game_get_GameKey_m2704(CustomAttributesCache* cache)
+void Game_t490_CustomAttributesCacheGenerator_Game_get_GameKey_m2706(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6169,7 +6169,7 @@ void Game_t490_CustomAttributesCacheGenerator_Game_get_GameKey_m2704(CustomAttri
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Game_t490_CustomAttributesCacheGenerator_Game_set_GameKey_m2705(CustomAttributesCache* cache)
+void Game_t490_CustomAttributesCacheGenerator_Game_set_GameKey_m2707(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6187,7 +6187,7 @@ void Game_t490_CustomAttributesCacheGenerator_Game_set_GameKey_m2705(CustomAttri
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Game_t490_CustomAttributesCacheGenerator_Game_get_SecretKey_m2706(CustomAttributesCache* cache)
+void Game_t490_CustomAttributesCacheGenerator_Game_get_SecretKey_m2708(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6205,7 +6205,7 @@ void Game_t490_CustomAttributesCacheGenerator_Game_get_SecretKey_m2706(CustomAtt
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Game_t490_CustomAttributesCacheGenerator_Game_set_SecretKey_m2707(CustomAttributesCache* cache)
+void Game_t490_CustomAttributesCacheGenerator_Game_set_SecretKey_m2709(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6259,7 +6259,7 @@ void Accumulator_t492_CustomAttributesCacheGenerator_U3CderivedCountU3Ek__Backin
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_get_newCount_m2713(CustomAttributesCache* cache)
+void Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_get_newCount_m2715(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6277,7 +6277,7 @@ void Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_get_newCount_m2
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_set_newCount_m2714(CustomAttributesCache* cache)
+void Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_set_newCount_m2716(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6295,7 +6295,7 @@ void Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_set_newCount_m2
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_get_derivedCount_m2715(CustomAttributesCache* cache)
+void Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_get_derivedCount_m2717(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6313,7 +6313,7 @@ void Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_get_derivedCoun
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_set_derivedCount_m2716(CustomAttributesCache* cache)
+void Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_set_derivedCount_m2718(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6331,7 +6331,7 @@ void Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_set_derivedCoun
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void BoostButton_t499_CustomAttributesCacheGenerator_BoostButton_TriggerDistortionEffect_m2770(CustomAttributesCache* cache)
+void BoostButton_t499_CustomAttributesCacheGenerator_BoostButton_TriggerDistortionEffect_m2772(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6367,7 +6367,7 @@ void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenera
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2750(CustomAttributesCache* cache)
+void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2752(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6385,7 +6385,7 @@ void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenera
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_System_Collections_IEnumerator_get_Current_m2751(CustomAttributesCache* cache)
+void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_System_Collections_IEnumerator_get_Current_m2753(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6403,7 +6403,7 @@ void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenera
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_Dispose_m2753(CustomAttributesCache* cache)
+void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_Dispose_m2755(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6421,7 +6421,7 @@ void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenera
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_Reset_m2754(CustomAttributesCache* cache)
+void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_Reset_m2756(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6439,7 +6439,7 @@ void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenera
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void BoostButtonLayout_t504_CustomAttributesCacheGenerator_BoostButtonLayout_DelayThenLayout_m2780(CustomAttributesCache* cache)
+void BoostButtonLayout_t504_CustomAttributesCacheGenerator_BoostButtonLayout_DelayThenLayout_m2782(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6475,7 +6475,7 @@ void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator(Cust
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2772(CustomAttributesCache* cache)
+void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2774(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6493,7 +6493,7 @@ void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CD
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_System_Collections_IEnumerator_get_Current_m2773(CustomAttributesCache* cache)
+void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_System_Collections_IEnumerator_get_Current_m2775(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6511,7 +6511,7 @@ void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CD
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_Dispose_m2775(CustomAttributesCache* cache)
+void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_Dispose_m2777(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6529,7 +6529,7 @@ void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CD
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_Reset_m2776(CustomAttributesCache* cache)
+void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_Reset_m2778(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6583,7 +6583,7 @@ void BoostConfig_t496_CustomAttributesCacheGenerator_U3CactiveBoostU3Ek__Backing
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_get_instance_m2800(CustomAttributesCache* cache)
+void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_get_instance_m2802(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6601,7 +6601,7 @@ void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_get_instance_m2
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_set_instance_m2801(CustomAttributesCache* cache)
+void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_set_instance_m2803(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6619,7 +6619,7 @@ void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_set_instance_m2
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_get_activeBoost_m2802(CustomAttributesCache* cache)
+void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_get_activeBoost_m2804(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6637,7 +6637,7 @@ void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_get_activeBoost
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_set_activeBoost_m2803(CustomAttributesCache* cache)
+void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_set_activeBoost_m2805(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6655,7 +6655,7 @@ void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_set_activeBoost
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_WaitThenCleanup_m2818(CustomAttributesCache* cache)
+void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_WaitThenCleanup_m2820(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6691,7 +6691,7 @@ void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator(Cust
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2792(CustomAttributesCache* cache)
+void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2794(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6709,7 +6709,7 @@ void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CW
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_System_Collections_IEnumerator_get_Current_m2793(CustomAttributesCache* cache)
+void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_System_Collections_IEnumerator_get_Current_m2795(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6727,7 +6727,7 @@ void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CW
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_Dispose_m2795(CustomAttributesCache* cache)
+void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_Dispose_m2797(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6745,7 +6745,7 @@ void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CW
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_Reset_m2796(CustomAttributesCache* cache)
+void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_Reset_m2798(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6781,7 +6781,7 @@ void ConeOfViewController_t524_CustomAttributesCacheGenerator_U3CactualAngleRang
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ConeOfViewController_t524_CustomAttributesCacheGenerator_ConeOfViewController_get_actualAngleRange_m2836(CustomAttributesCache* cache)
+void ConeOfViewController_t524_CustomAttributesCacheGenerator_ConeOfViewController_get_actualAngleRange_m2838(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6799,7 +6799,7 @@ void ConeOfViewController_t524_CustomAttributesCacheGenerator_ConeOfViewControll
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ConeOfViewController_t524_CustomAttributesCacheGenerator_ConeOfViewController_set_actualAngleRange_m2837(CustomAttributesCache* cache)
+void ConeOfViewController_t524_CustomAttributesCacheGenerator_ConeOfViewController_set_actualAngleRange_m2839(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6835,7 +6835,7 @@ void CrossSceneState_t527_CustomAttributesCacheGenerator_U3CinstanceU3Ek__Backin
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void CrossSceneState_t527_CustomAttributesCacheGenerator_CrossSceneState_get_instance_m2851(CustomAttributesCache* cache)
+void CrossSceneState_t527_CustomAttributesCacheGenerator_CrossSceneState_get_instance_m2853(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6853,7 +6853,7 @@ void CrossSceneState_t527_CustomAttributesCacheGenerator_CrossSceneState_get_ins
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void CrossSceneState_t527_CustomAttributesCacheGenerator_CrossSceneState_set_instance_m2852(CustomAttributesCache* cache)
+void CrossSceneState_t527_CustomAttributesCacheGenerator_CrossSceneState_set_instance_m2854(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6889,7 +6889,7 @@ void DeadMouse_t528_CustomAttributesCacheGenerator_U3CmouseTypeU3Ek__BackingFiel
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void DeadMouse_t528_CustomAttributesCacheGenerator_DeadMouse_get_mouseType_m2855(CustomAttributesCache* cache)
+void DeadMouse_t528_CustomAttributesCacheGenerator_DeadMouse_get_mouseType_m2857(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6907,7 +6907,7 @@ void DeadMouse_t528_CustomAttributesCacheGenerator_DeadMouse_get_mouseType_m2855
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void DeadMouse_t528_CustomAttributesCacheGenerator_DeadMouse_set_mouseType_m2856(CustomAttributesCache* cache)
+void DeadMouse_t528_CustomAttributesCacheGenerator_DeadMouse_set_mouseType_m2858(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6943,7 +6943,7 @@ void DebugConfig_t533_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingFie
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void DebugConfig_t533_CustomAttributesCacheGenerator_DebugConfig_get_instance_m2878(CustomAttributesCache* cache)
+void DebugConfig_t533_CustomAttributesCacheGenerator_DebugConfig_get_instance_m2880(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6961,7 +6961,7 @@ void DebugConfig_t533_CustomAttributesCacheGenerator_DebugConfig_get_instance_m2
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void DebugConfig_t533_CustomAttributesCacheGenerator_DebugConfig_set_instance_m2879(CustomAttributesCache* cache)
+void DebugConfig_t533_CustomAttributesCacheGenerator_DebugConfig_set_instance_m2881(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6997,7 +6997,7 @@ void DistortForEffect_t537_CustomAttributesCacheGenerator_U3CdistortingU3Ek__Bac
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void DistortForEffect_t537_CustomAttributesCacheGenerator_DistortForEffect_get_distorting_m2899(CustomAttributesCache* cache)
+void DistortForEffect_t537_CustomAttributesCacheGenerator_DistortForEffect_get_distorting_m2901(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7015,7 +7015,7 @@ void DistortForEffect_t537_CustomAttributesCacheGenerator_DistortForEffect_get_d
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void DistortForEffect_t537_CustomAttributesCacheGenerator_DistortForEffect_set_distorting_m2900(CustomAttributesCache* cache)
+void DistortForEffect_t537_CustomAttributesCacheGenerator_DistortForEffect_set_distorting_m2902(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7105,7 +7105,7 @@ void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_U3CwiggleClockwiseU3E
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleType_m2909(CustomAttributesCache* cache)
+void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleType_m2911(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7123,7 +7123,7 @@ void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleType_m2910(CustomAttributesCache* cache)
+void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleType_m2912(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7141,7 +7141,7 @@ void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleMagnitude_m2911(CustomAttributesCache* cache)
+void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleMagnitude_m2913(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7159,7 +7159,7 @@ void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleMagnitude_m2912(CustomAttributesCache* cache)
+void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleMagnitude_m2914(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7177,7 +7177,7 @@ void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleCycles_m2913(CustomAttributesCache* cache)
+void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleCycles_m2915(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7195,7 +7195,7 @@ void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleCycles_m2914(CustomAttributesCache* cache)
+void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleCycles_m2916(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7213,7 +7213,7 @@ void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleClockwise_m2915(CustomAttributesCache* cache)
+void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleClockwise_m2917(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7231,7 +7231,7 @@ void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleClockwise_m2916(CustomAttributesCache* cache)
+void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleClockwise_m2918(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7285,7 +7285,7 @@ void GameController_t557_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache9(Cus
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameController_t557_CustomAttributesCacheGenerator_GameController_get_instance_m2972(CustomAttributesCache* cache)
+void GameController_t557_CustomAttributesCacheGenerator_GameController_get_instance_m2974(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7303,7 +7303,7 @@ void GameController_t557_CustomAttributesCacheGenerator_GameController_get_insta
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameController_t557_CustomAttributesCacheGenerator_GameController_set_instance_m2973(CustomAttributesCache* cache)
+void GameController_t557_CustomAttributesCacheGenerator_GameController_set_instance_m2975(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7321,7 +7321,7 @@ void GameController_t557_CustomAttributesCacheGenerator_GameController_set_insta
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameController_t557_CustomAttributesCacheGenerator_GameController_U3CStartU3Em__4A_m2991(CustomAttributesCache* cache)
+void GameController_t557_CustomAttributesCacheGenerator_GameController_U3CStartU3Em__4A_m2993(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7375,7 +7375,7 @@ void GameLevelState_t560_CustomAttributesCacheGenerator_U3CinstanceU3Ek__Backing
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_get_gameLevel_m3003(CustomAttributesCache* cache)
+void GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_get_gameLevel_m3005(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7393,7 +7393,7 @@ void GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_get_gameL
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_set_gameLevel_m3004(CustomAttributesCache* cache)
+void GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_set_gameLevel_m3006(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7411,7 +7411,7 @@ void GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_set_gameL
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_get_instance_m3005(CustomAttributesCache* cache)
+void GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_get_instance_m3007(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7429,7 +7429,7 @@ void GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_get_insta
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_set_instance_m3006(CustomAttributesCache* cache)
+void GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_set_instance_m3008(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7537,7 +7537,7 @@ void GamePhaseState_t564_CustomAttributesCacheGenerator_U3CinstanceU3Ek__Backing
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_gamePhase_m3029(CustomAttributesCache* cache)
+void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_gamePhase_m3031(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7555,7 +7555,7 @@ void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_gameP
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_gamePhase_m3030(CustomAttributesCache* cache)
+void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_gamePhase_m3032(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7573,7 +7573,7 @@ void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_gameP
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_previousGamePhase_m3031(CustomAttributesCache* cache)
+void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_previousGamePhase_m3033(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7591,7 +7591,7 @@ void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_previ
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_previousGamePhase_m3032(CustomAttributesCache* cache)
+void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_previousGamePhase_m3034(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7609,7 +7609,7 @@ void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_previ
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_instancesFinishedThisSession_m3033(CustomAttributesCache* cache)
+void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_instancesFinishedThisSession_m3035(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7627,7 +7627,7 @@ void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_insta
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_instancesFinishedThisSession_m3034(CustomAttributesCache* cache)
+void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_instancesFinishedThisSession_m3036(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7645,7 +7645,7 @@ void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_insta
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_instancesFinishedEver_m3035(CustomAttributesCache* cache)
+void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_instancesFinishedEver_m3037(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7663,7 +7663,7 @@ void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_insta
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_instancesFinishedEver_m3036(CustomAttributesCache* cache)
+void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_instancesFinishedEver_m3038(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7681,7 +7681,7 @@ void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_insta
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_instance_m3037(CustomAttributesCache* cache)
+void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_instance_m3039(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7699,7 +7699,7 @@ void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_insta
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_instance_m3038(CustomAttributesCache* cache)
+void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_instance_m3040(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7717,7 +7717,7 @@ void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_insta
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_SetupPendingPhase_m3044(CustomAttributesCache* cache)
+void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_SetupPendingPhase_m3046(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7753,7 +7753,7 @@ void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator(Cu
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3019(CustomAttributesCache* cache)
+void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3021(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7771,7 +7771,7 @@ void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_System_Collections_IEnumerator_get_Current_m3020(CustomAttributesCache* cache)
+void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_System_Collections_IEnumerator_get_Current_m3022(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7789,7 +7789,7 @@ void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_Dispose_m3022(CustomAttributesCache* cache)
+void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_Dispose_m3024(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7807,7 +7807,7 @@ void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_Reset_m3023(CustomAttributesCache* cache)
+void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_Reset_m3025(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7843,7 +7843,7 @@ void GameUIController_t568_CustomAttributesCacheGenerator_U3CinstanceU3Ek__Backi
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_get_instance_m3059(CustomAttributesCache* cache)
+void GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_get_instance_m3061(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7861,7 +7861,7 @@ void GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_get_i
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_set_instance_m3060(CustomAttributesCache* cache)
+void GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_set_instance_m3062(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7879,7 +7879,7 @@ void GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_set_i
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_ConfirmComplete_m3063(CustomAttributesCache* cache)
+void GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_ConfirmComplete_m3065(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7915,7 +7915,7 @@ void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator(Cust
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3053(CustomAttributesCache* cache)
+void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3055(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7933,7 +7933,7 @@ void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CC
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_System_Collections_IEnumerator_get_Current_m3054(CustomAttributesCache* cache)
+void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_System_Collections_IEnumerator_get_Current_m3056(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7951,7 +7951,7 @@ void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CC
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_Dispose_m3056(CustomAttributesCache* cache)
+void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_Dispose_m3058(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7969,7 +7969,7 @@ void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CC
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_Reset_m3057(CustomAttributesCache* cache)
+void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_Reset_m3059(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7987,7 +7987,7 @@ void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CC
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void GoogleAdController_t570_CustomAttributesCacheGenerator_GoogleAdController_CreatePendingInterstitialAd_m3086(CustomAttributesCache* cache)
+void GoogleAdController_t570_CustomAttributesCacheGenerator_GoogleAdController_CreatePendingInterstitialAd_m3088(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8023,7 +8023,7 @@ void U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGe
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGenerator_U3CCreatePendingInterstitialAdU3Ec__Iterator16_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3070(CustomAttributesCache* cache)
+void U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGenerator_U3CCreatePendingInterstitialAdU3Ec__Iterator16_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3072(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8041,7 +8041,7 @@ void U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGe
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGenerator_U3CCreatePendingInterstitialAdU3Ec__Iterator16_System_Collections_IEnumerator_get_Current_m3071(CustomAttributesCache* cache)
+void U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGenerator_U3CCreatePendingInterstitialAdU3Ec__Iterator16_System_Collections_IEnumerator_get_Current_m3073(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8059,7 +8059,7 @@ void U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGe
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGenerator_U3CCreatePendingInterstitialAdU3Ec__Iterator16_Dispose_m3073(CustomAttributesCache* cache)
+void U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGenerator_U3CCreatePendingInterstitialAdU3Ec__Iterator16_Dispose_m3075(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8077,7 +8077,7 @@ void U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGe
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGenerator_U3CCreatePendingInterstitialAdU3Ec__Iterator16_Reset_m3074(CustomAttributesCache* cache)
+void U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGenerator_U3CCreatePendingInterstitialAdU3Ec__Iterator16_Reset_m3076(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8131,7 +8131,7 @@ void InputHandler_t575_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingFi
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void InputHandler_t575_CustomAttributesCacheGenerator_InputHandler_get_isTouchDevice_m3100(CustomAttributesCache* cache)
+void InputHandler_t575_CustomAttributesCacheGenerator_InputHandler_get_isTouchDevice_m3102(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8149,7 +8149,7 @@ void InputHandler_t575_CustomAttributesCacheGenerator_InputHandler_get_isTouchDe
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void InputHandler_t575_CustomAttributesCacheGenerator_InputHandler_set_isTouchDevice_m3101(CustomAttributesCache* cache)
+void InputHandler_t575_CustomAttributesCacheGenerator_InputHandler_set_isTouchDevice_m3103(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8167,7 +8167,7 @@ void InputHandler_t575_CustomAttributesCacheGenerator_InputHandler_set_isTouchDe
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void InputHandler_t575_CustomAttributesCacheGenerator_InputHandler_get_instance_m3102(CustomAttributesCache* cache)
+void InputHandler_t575_CustomAttributesCacheGenerator_InputHandler_get_instance_m3104(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8185,7 +8185,7 @@ void InputHandler_t575_CustomAttributesCacheGenerator_InputHandler_get_instance_
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void InputHandler_t575_CustomAttributesCacheGenerator_InputHandler_set_instance_m3103(CustomAttributesCache* cache)
+void InputHandler_t575_CustomAttributesCacheGenerator_InputHandler_set_instance_m3105(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8221,7 +8221,7 @@ void LevelConfig_t592_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingFie
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void LevelConfig_t592_CustomAttributesCacheGenerator_LevelConfig_get_instance_m3124(CustomAttributesCache* cache)
+void LevelConfig_t592_CustomAttributesCacheGenerator_LevelConfig_get_instance_m3126(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8239,7 +8239,7 @@ void LevelConfig_t592_CustomAttributesCacheGenerator_LevelConfig_get_instance_m3
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void LevelConfig_t592_CustomAttributesCacheGenerator_LevelConfig_set_instance_m3125(CustomAttributesCache* cache)
+void LevelConfig_t592_CustomAttributesCacheGenerator_LevelConfig_set_instance_m3127(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8329,7 +8329,7 @@ void MouseMove_t530_CustomAttributesCacheGenerator_U3CisFartedUponU3Ek__BackingF
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_mouseType_m3183(CustomAttributesCache* cache)
+void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_mouseType_m3185(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8347,7 +8347,7 @@ void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_mouseType_m3183
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_mouseType_m3184(CustomAttributesCache* cache)
+void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_mouseType_m3186(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8365,7 +8365,7 @@ void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_mouseType_m3184
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_dead_m3185(CustomAttributesCache* cache)
+void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_dead_m3187(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8383,7 +8383,7 @@ void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_dead_m3185(Cust
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_dead_m3186(CustomAttributesCache* cache)
+void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_dead_m3188(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8401,7 +8401,7 @@ void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_dead_m3186(Cust
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_isPoisoned_m3187(CustomAttributesCache* cache)
+void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_isPoisoned_m3189(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8419,7 +8419,7 @@ void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_isPoisoned_m318
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_isPoisoned_m3188(CustomAttributesCache* cache)
+void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_isPoisoned_m3190(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8437,7 +8437,7 @@ void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_isPoisoned_m318
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_isFartedUpon_m3189(CustomAttributesCache* cache)
+void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_isFartedUpon_m3191(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8455,7 +8455,7 @@ void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_isFartedUpon_m3
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_isFartedUpon_m3190(CustomAttributesCache* cache)
+void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_isFartedUpon_m3192(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8491,7 +8491,7 @@ void MouseSinkController_t606_CustomAttributesCacheGenerator_U3CsavedMouseCountU
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseSinkController_t606_CustomAttributesCacheGenerator_MouseSinkController_get_savedMouseCount_m3216(CustomAttributesCache* cache)
+void MouseSinkController_t606_CustomAttributesCacheGenerator_MouseSinkController_get_savedMouseCount_m3218(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8509,7 +8509,7 @@ void MouseSinkController_t606_CustomAttributesCacheGenerator_MouseSinkController
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseSinkController_t606_CustomAttributesCacheGenerator_MouseSinkController_set_savedMouseCount_m3217(CustomAttributesCache* cache)
+void MouseSinkController_t606_CustomAttributesCacheGenerator_MouseSinkController_set_savedMouseCount_m3219(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8545,7 +8545,7 @@ void MouseSpawnFromData_t556_CustomAttributesCacheGenerator_U3CmiceSpawnedU3Ek__
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseSpawnFromData_t556_CustomAttributesCacheGenerator_MouseSpawnFromData_get_miceSpawned_m3241(CustomAttributesCache* cache)
+void MouseSpawnFromData_t556_CustomAttributesCacheGenerator_MouseSpawnFromData_get_miceSpawned_m3243(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8563,7 +8563,7 @@ void MouseSpawnFromData_t556_CustomAttributesCacheGenerator_MouseSpawnFromData_g
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseSpawnFromData_t556_CustomAttributesCacheGenerator_MouseSpawnFromData_set_miceSpawned_m3242(CustomAttributesCache* cache)
+void MouseSpawnFromData_t556_CustomAttributesCacheGenerator_MouseSpawnFromData_set_miceSpawned_m3244(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8581,7 +8581,7 @@ void MouseSpawnFromData_t556_CustomAttributesCacheGenerator_MouseSpawnFromData_s
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void MusicPlayer_t614_CustomAttributesCacheGenerator_MusicPlayer_PlayMusic_m3296(CustomAttributesCache* cache)
+void MusicPlayer_t614_CustomAttributesCacheGenerator_MusicPlayer_PlayMusic_m3298(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8617,7 +8617,7 @@ void U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator(CustomAttr
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator17_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3282(CustomAttributesCache* cache)
+void U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator17_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3284(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8635,7 +8635,7 @@ void U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator_U3CPlayMus
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator17_System_Collections_IEnumerator_get_Current_m3283(CustomAttributesCache* cache)
+void U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator17_System_Collections_IEnumerator_get_Current_m3285(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8653,7 +8653,7 @@ void U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator_U3CPlayMus
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator17_Dispose_m3285(CustomAttributesCache* cache)
+void U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator17_Dispose_m3287(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8671,7 +8671,7 @@ void U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator_U3CPlayMus
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator17_Reset_m3286(CustomAttributesCache* cache)
+void U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator17_Reset_m3288(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8725,7 +8725,7 @@ void PlayerController_t628_CustomAttributesCacheGenerator_U3CinstanceU3Ek__Backi
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerController_t628_CustomAttributesCacheGenerator_PlayerController_get_bodyMovement_m3355(CustomAttributesCache* cache)
+void PlayerController_t628_CustomAttributesCacheGenerator_PlayerController_get_bodyMovement_m3357(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8743,7 +8743,7 @@ void PlayerController_t628_CustomAttributesCacheGenerator_PlayerController_get_b
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerController_t628_CustomAttributesCacheGenerator_PlayerController_set_bodyMovement_m3356(CustomAttributesCache* cache)
+void PlayerController_t628_CustomAttributesCacheGenerator_PlayerController_set_bodyMovement_m3358(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8761,7 +8761,7 @@ void PlayerController_t628_CustomAttributesCacheGenerator_PlayerController_set_b
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerController_t628_CustomAttributesCacheGenerator_PlayerController_get_instance_m3357(CustomAttributesCache* cache)
+void PlayerController_t628_CustomAttributesCacheGenerator_PlayerController_get_instance_m3359(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8779,7 +8779,7 @@ void PlayerController_t628_CustomAttributesCacheGenerator_PlayerController_get_i
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerController_t628_CustomAttributesCacheGenerator_PlayerController_set_instance_m3358(CustomAttributesCache* cache)
+void PlayerController_t628_CustomAttributesCacheGenerator_PlayerController_set_instance_m3360(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8851,7 +8851,7 @@ void PlayerStats_t516_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingFie
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_gameScore_m3395(CustomAttributesCache* cache)
+void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_gameScore_m3397(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8869,7 +8869,7 @@ void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_gameScore_m
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_gameScore_m3396(CustomAttributesCache* cache)
+void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_gameScore_m3398(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8887,7 +8887,7 @@ void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_gameScore_m
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_money_m3397(CustomAttributesCache* cache)
+void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_money_m3399(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8905,7 +8905,7 @@ void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_money_m3397
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_money_m3398(CustomAttributesCache* cache)
+void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_money_m3400(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8923,7 +8923,7 @@ void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_money_m3398
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_instance_m3399(CustomAttributesCache* cache)
+void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_instance_m3401(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8941,7 +8941,7 @@ void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_instance_m3
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_instance_m3400(CustomAttributesCache* cache)
+void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_instance_m3402(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8959,7 +8959,7 @@ void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_instance_m3
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void RateMeController_t632_CustomAttributesCacheGenerator_RateMeController_WaitAndShowDialog_m3430(CustomAttributesCache* cache)
+void RateMeController_t632_CustomAttributesCacheGenerator_RateMeController_WaitAndShowDialog_m3432(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8995,7 +8995,7 @@ void U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator(Cu
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator_U3CWaitAndShowDialogU3Ec__Iterator18_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3419(CustomAttributesCache* cache)
+void U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator_U3CWaitAndShowDialogU3Ec__Iterator18_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3421(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9013,7 +9013,7 @@ void U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator_U3
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator_U3CWaitAndShowDialogU3Ec__Iterator18_System_Collections_IEnumerator_get_Current_m3420(CustomAttributesCache* cache)
+void U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator_U3CWaitAndShowDialogU3Ec__Iterator18_System_Collections_IEnumerator_get_Current_m3422(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9031,7 +9031,7 @@ void U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator_U3
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator_U3CWaitAndShowDialogU3Ec__Iterator18_Dispose_m3422(CustomAttributesCache* cache)
+void U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator_U3CWaitAndShowDialogU3Ec__Iterator18_Dispose_m3424(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9049,7 +9049,7 @@ void U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator_U3
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator_U3CWaitAndShowDialogU3Ec__Iterator18_Reset_m3423(CustomAttributesCache* cache)
+void U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator_U3CWaitAndShowDialogU3Ec__Iterator18_Reset_m3425(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9103,7 +9103,7 @@ void RealAngusElementButton_t639_CustomAttributesCacheGenerator_U3CselectedU3Ek_
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusElementButton_t639_CustomAttributesCacheGenerator_RealAngusElementButton_get_raid_m3486(CustomAttributesCache* cache)
+void RealAngusElementButton_t639_CustomAttributesCacheGenerator_RealAngusElementButton_get_raid_m3488(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9121,7 +9121,7 @@ void RealAngusElementButton_t639_CustomAttributesCacheGenerator_RealAngusElement
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusElementButton_t639_CustomAttributesCacheGenerator_RealAngusElementButton_set_raid_m3487(CustomAttributesCache* cache)
+void RealAngusElementButton_t639_CustomAttributesCacheGenerator_RealAngusElementButton_set_raid_m3489(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9139,7 +9139,7 @@ void RealAngusElementButton_t639_CustomAttributesCacheGenerator_RealAngusElement
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusElementButton_t639_CustomAttributesCacheGenerator_RealAngusElementButton_get_selected_m3488(CustomAttributesCache* cache)
+void RealAngusElementButton_t639_CustomAttributesCacheGenerator_RealAngusElementButton_get_selected_m3490(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9157,7 +9157,7 @@ void RealAngusElementButton_t639_CustomAttributesCacheGenerator_RealAngusElement
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusElementButton_t639_CustomAttributesCacheGenerator_RealAngusElementButton_set_selected_m3489(CustomAttributesCache* cache)
+void RealAngusElementButton_t639_CustomAttributesCacheGenerator_RealAngusElementButton_set_selected_m3491(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9265,7 +9265,7 @@ void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_U3CviewedU3Ek__Backin
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get_pictureSprite_m3504(CustomAttributesCache* cache)
+void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get_pictureSprite_m3506(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9283,7 +9283,7 @@ void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set_pictureSprite_m3505(CustomAttributesCache* cache)
+void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set_pictureSprite_m3507(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9301,7 +9301,7 @@ void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get_text_m3506(CustomAttributesCache* cache)
+void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get_text_m3508(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9319,7 +9319,7 @@ void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set_text_m3507(CustomAttributesCache* cache)
+void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set_text_m3509(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9337,7 +9337,7 @@ void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get_tag_m3508(CustomAttributesCache* cache)
+void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get_tag_m3510(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9355,7 +9355,7 @@ void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set_tag_m3509(CustomAttributesCache* cache)
+void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set_tag_m3511(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9373,7 +9373,7 @@ void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get_unlocked_m3510(CustomAttributesCache* cache)
+void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get_unlocked_m3512(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9391,7 +9391,7 @@ void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set_unlocked_m3511(CustomAttributesCache* cache)
+void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set_unlocked_m3513(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9409,7 +9409,7 @@ void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get_viewed_m3512(CustomAttributesCache* cache)
+void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get_viewed_m3514(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9427,7 +9427,7 @@ void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set_viewed_m3513(CustomAttributesCache* cache)
+void RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set_viewed_m3515(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9463,7 +9463,7 @@ void SFXPlayer_t652_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SFXPlayer_t652_CustomAttributesCacheGenerator_SFXPlayer_get_instance_m3542(CustomAttributesCache* cache)
+void SFXPlayer_t652_CustomAttributesCacheGenerator_SFXPlayer_get_instance_m3544(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9481,7 +9481,7 @@ void SFXPlayer_t652_CustomAttributesCacheGenerator_SFXPlayer_get_instance_m3542(
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SFXPlayer_t652_CustomAttributesCacheGenerator_SFXPlayer_set_instance_m3543(CustomAttributesCache* cache)
+void SFXPlayer_t652_CustomAttributesCacheGenerator_SFXPlayer_set_instance_m3545(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9499,7 +9499,7 @@ void SFXPlayer_t652_CustomAttributesCacheGenerator_SFXPlayer_set_instance_m3543(
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void ScoreController_t655_CustomAttributesCacheGenerator_ScoreController_DestroyMouse_m3575(CustomAttributesCache* cache)
+void ScoreController_t655_CustomAttributesCacheGenerator_ScoreController_DestroyMouse_m3577(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9535,7 +9535,7 @@ void U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator(CustomA
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator19_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3563(CustomAttributesCache* cache)
+void U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator19_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3565(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9553,7 +9553,7 @@ void U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator_U3CDest
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator19_System_Collections_IEnumerator_get_Current_m3564(CustomAttributesCache* cache)
+void U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator19_System_Collections_IEnumerator_get_Current_m3566(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9571,7 +9571,7 @@ void U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator_U3CDest
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator19_Dispose_m3566(CustomAttributesCache* cache)
+void U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator19_Dispose_m3568(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9589,7 +9589,7 @@ void U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator_U3CDest
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator19_Reset_m3567(CustomAttributesCache* cache)
+void U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator19_Reset_m3569(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9607,7 +9607,7 @@ void U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator_U3CDest
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SecretUI_t657_CustomAttributesCacheGenerator_SecretUI_U3CStartU3Em__4B_m3593(CustomAttributesCache* cache)
+void SecretUI_t657_CustomAttributesCacheGenerator_SecretUI_U3CStartU3Em__4B_m3596(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9625,7 +9625,7 @@ void SecretUI_t657_CustomAttributesCacheGenerator_SecretUI_U3CStartU3Em__4B_m359
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SecretUI_t657_CustomAttributesCacheGenerator_SecretUI_U3CStartU3Em__4C_m3594(CustomAttributesCache* cache)
+void SecretUI_t657_CustomAttributesCacheGenerator_SecretUI_U3CStartU3Em__4C_m3597(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9661,7 +9661,7 @@ void SizeCamera_t519_CustomAttributesCacheGenerator_U3CfinalActualWorldHalfHeigh
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SizeCamera_t519_CustomAttributesCacheGenerator_SizeCamera_get_finalActualWorldHalfHeight_m3602(CustomAttributesCache* cache)
+void SizeCamera_t519_CustomAttributesCacheGenerator_SizeCamera_get_finalActualWorldHalfHeight_m3605(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9679,7 +9679,7 @@ void SizeCamera_t519_CustomAttributesCacheGenerator_SizeCamera_get_finalActualWo
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SizeCamera_t519_CustomAttributesCacheGenerator_SizeCamera_set_finalActualWorldHalfHeight_m3603(CustomAttributesCache* cache)
+void SizeCamera_t519_CustomAttributesCacheGenerator_SizeCamera_set_finalActualWorldHalfHeight_m3606(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9733,7 +9733,7 @@ void SocialHelper_t665_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache4(Custo
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void SocialHelper_t665_CustomAttributesCacheGenerator_SocialHelper_DebugScoreAndAchievement_m3627(CustomAttributesCache* cache)
+void SocialHelper_t665_CustomAttributesCacheGenerator_SocialHelper_DebugScoreAndAchievement_m3630(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9751,7 +9751,7 @@ void SocialHelper_t665_CustomAttributesCacheGenerator_SocialHelper_DebugScoreAnd
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SocialHelper_t665_CustomAttributesCacheGenerator_SocialHelper_U3CReportScoreU3Em__4E_m3634(CustomAttributesCache* cache)
+void SocialHelper_t665_CustomAttributesCacheGenerator_SocialHelper_U3CReportScoreU3Em__4E_m3637(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9769,7 +9769,7 @@ void SocialHelper_t665_CustomAttributesCacheGenerator_SocialHelper_U3CReportScor
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SocialHelper_t665_CustomAttributesCacheGenerator_SocialHelper_U3CShowLeaderBoardU3Em__50_m3635(CustomAttributesCache* cache)
+void SocialHelper_t665_CustomAttributesCacheGenerator_SocialHelper_U3CShowLeaderBoardU3Em__50_m3638(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9787,7 +9787,7 @@ void SocialHelper_t665_CustomAttributesCacheGenerator_SocialHelper_U3CShowLeader
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SocialHelper_t665_CustomAttributesCacheGenerator_SocialHelper_U3CShowAchievementsU3Em__51_m3636(CustomAttributesCache* cache)
+void SocialHelper_t665_CustomAttributesCacheGenerator_SocialHelper_U3CShowAchievementsU3Em__51_m3639(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9823,7 +9823,7 @@ void U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGener
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator1A_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3613(CustomAttributesCache* cache)
+void U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator1A_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3616(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9841,7 +9841,7 @@ void U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGener
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator1A_System_Collections_IEnumerator_get_Current_m3614(CustomAttributesCache* cache)
+void U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator1A_System_Collections_IEnumerator_get_Current_m3617(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9859,7 +9859,7 @@ void U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGener
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator1A_Dispose_m3616(CustomAttributesCache* cache)
+void U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator1A_Dispose_m3619(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9877,7 +9877,7 @@ void U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGener
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator1A_Reset_m3617(CustomAttributesCache* cache)
+void U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator1A_Reset_m3620(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9967,7 +9967,7 @@ void SoundController_t669_CustomAttributesCacheGenerator_U3CmusicMutedU3Ek__Back
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SoundController_t669_CustomAttributesCacheGenerator_SoundController_get_sfxMuted_m3657(CustomAttributesCache* cache)
+void SoundController_t669_CustomAttributesCacheGenerator_SoundController_get_sfxMuted_m3660(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9985,7 +9985,7 @@ void SoundController_t669_CustomAttributesCacheGenerator_SoundController_get_sfx
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SoundController_t669_CustomAttributesCacheGenerator_SoundController_set_sfxMuted_m3658(CustomAttributesCache* cache)
+void SoundController_t669_CustomAttributesCacheGenerator_SoundController_set_sfxMuted_m3661(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10003,7 +10003,7 @@ void SoundController_t669_CustomAttributesCacheGenerator_SoundController_set_sfx
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SoundController_t669_CustomAttributesCacheGenerator_SoundController_get_musicMuted_m3659(CustomAttributesCache* cache)
+void SoundController_t669_CustomAttributesCacheGenerator_SoundController_get_musicMuted_m3662(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10021,7 +10021,7 @@ void SoundController_t669_CustomAttributesCacheGenerator_SoundController_get_mus
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SoundController_t669_CustomAttributesCacheGenerator_SoundController_set_musicMuted_m3660(CustomAttributesCache* cache)
+void SoundController_t669_CustomAttributesCacheGenerator_SoundController_set_musicMuted_m3663(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10057,7 +10057,7 @@ void TimeController_t675_CustomAttributesCacheGenerator_U3CtimeStateU3Ek__Backin
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void TimeController_t675_CustomAttributesCacheGenerator_TimeController_get_timeState_m3681(CustomAttributesCache* cache)
+void TimeController_t675_CustomAttributesCacheGenerator_TimeController_get_timeState_m3684(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10075,7 +10075,7 @@ void TimeController_t675_CustomAttributesCacheGenerator_TimeController_get_timeS
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void TimeController_t675_CustomAttributesCacheGenerator_TimeController_set_timeState_m3682(CustomAttributesCache* cache)
+void TimeController_t675_CustomAttributesCacheGenerator_TimeController_set_timeState_m3685(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10093,7 +10093,7 @@ void TimeController_t675_CustomAttributesCacheGenerator_TimeController_set_timeS
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void TipController_t680_CustomAttributesCacheGenerator_TipController_PlayTipWithPause_m3716(CustomAttributesCache* cache)
+void TipController_t680_CustomAttributesCacheGenerator_TipController_PlayTipWithPause_m3719(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10129,7 +10129,7 @@ void U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator(Cus
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1B_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3702(CustomAttributesCache* cache)
+void U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1B_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3705(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10147,7 +10147,7 @@ void U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator_U3C
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1B_System_Collections_IEnumerator_get_Current_m3703(CustomAttributesCache* cache)
+void U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1B_System_Collections_IEnumerator_get_Current_m3706(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10165,7 +10165,7 @@ void U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator_U3C
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1B_Dispose_m3705(CustomAttributesCache* cache)
+void U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1B_Dispose_m3708(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10183,7 +10183,7 @@ void U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator_U3C
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1B_Reset_m3706(CustomAttributesCache* cache)
+void U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1B_Reset_m3709(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10201,7 +10201,7 @@ void U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator_U3C
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void Utilities_t687_CustomAttributesCacheGenerator_Utilities_LaunchAppOrWeb_m3752(CustomAttributesCache* cache)
+void Utilities_t687_CustomAttributesCacheGenerator_Utilities_LaunchAppOrWeb_m3755(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10237,7 +10237,7 @@ void U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator(Custo
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1C_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3737(CustomAttributesCache* cache)
+void U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1C_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3740(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10255,7 +10255,7 @@ void U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator_U3CLa
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1C_System_Collections_IEnumerator_get_Current_m3738(CustomAttributesCache* cache)
+void U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1C_System_Collections_IEnumerator_get_Current_m3741(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10273,7 +10273,7 @@ void U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator_U3CLa
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1C_Dispose_m3740(CustomAttributesCache* cache)
+void U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1C_Dispose_m3743(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10291,7 +10291,7 @@ void U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator_U3CLa
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1C_Reset_m3741(CustomAttributesCache* cache)
+void U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1C_Reset_m3744(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10312,123 +10312,123 @@ extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_Assembly_Attribu
 {
 	NULL,
 	g_AssemblyU2DCSharp_Assembly_CustomAttributesCacheGenerator,
-	InteractiveConsole_t113_CustomAttributesCacheGenerator_InteractiveConsole_TakeScreenshot_m571,
+	InteractiveConsole_t113_CustomAttributesCacheGenerator_InteractiveConsole_TakeScreenshot_m573,
 	U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator,
-	U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator_U3CTakeScreenshotU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m554,
-	U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator_U3CTakeScreenshotU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m555,
-	U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator_U3CTakeScreenshotU3Ec__Iterator0_Dispose_m557,
-	U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator_U3CTakeScreenshotU3Ec__Iterator0_Reset_m558,
+	U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator_U3CTakeScreenshotU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m556,
+	U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator_U3CTakeScreenshotU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m557,
+	U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator_U3CTakeScreenshotU3Ec__Iterator0_Dispose_m559,
+	U3CTakeScreenshotU3Ec__Iterator0_t114_CustomAttributesCacheGenerator_U3CTakeScreenshotU3Ec__Iterator0_Reset_m560,
 	GoogleMobileAd_t145_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache8,
 	GoogleMobileAd_t145_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache9,
 	GoogleMobileAd_t145_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheA,
 	GoogleMobileAd_t145_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheB,
 	GoogleMobileAd_t145_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheC,
 	GoogleMobileAd_t145_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheD,
-	GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_t145_GoogleMobileAd_AddTestDevices_m742_Arg0_ParameterInfo,
-	GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInterstitialLoadedU3Em__0_m761,
-	GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInterstitialFailedLoadingU3Em__1_m762,
-	GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInterstitialOpenedU3Em__2_m763,
-	GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInterstitialClosedU3Em__3_m764,
-	GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInterstitialLeftApplicationU3Em__4_m765,
-	GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnAdInAppRequestU3Em__5_m766,
+	GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_t145_GoogleMobileAd_AddTestDevices_m744_Arg0_ParameterInfo,
+	GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInterstitialLoadedU3Em__0_m763,
+	GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInterstitialFailedLoadingU3Em__1_m764,
+	GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInterstitialOpenedU3Em__2_m765,
+	GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInterstitialClosedU3Em__3_m766,
+	GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnInterstitialLeftApplicationU3Em__4_m767,
+	GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnAdInAppRequestU3Em__5_m768,
 	GoogleMobileAdSettings_t147_CustomAttributesCacheGenerator_testDevices,
 	IOSADBanner_t150_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheF,
 	IOSADBanner_t150_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache10,
 	IOSADBanner_t150_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache11,
 	IOSADBanner_t150_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache12,
 	IOSADBanner_t150_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache13,
-	IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnLoadedActionU3Em__6_m813,
-	IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnFailedLoadingActionU3Em__7_m814,
-	IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnOpenedActionU3Em__8_m815,
-	IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnClosedActionU3Em__9_m816,
-	IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnLeftApplicationActionU3Em__A_m817,
+	IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnLoadedActionU3Em__6_m815,
+	IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnFailedLoadingActionU3Em__7_m816,
+	IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnOpenedActionU3Em__8_m817,
+	IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnClosedActionU3Em__9_m818,
+	IOSADBanner_t150_CustomAttributesCacheGenerator_IOSADBanner_U3C_OnLeftApplicationActionU3Em__A_m819,
 	IOSAdMobController_t152_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheA,
 	IOSAdMobController_t152_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheB,
 	IOSAdMobController_t152_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheC,
 	IOSAdMobController_t152_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheD,
 	IOSAdMobController_t152_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheE,
 	IOSAdMobController_t152_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheF,
-	IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_t152_IOSAdMobController_AddTestDevices_m845_Arg0_ParameterInfo,
-	IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnInterstitialLoadedU3Em__B_m880,
-	IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnInterstitialFailedLoadingU3Em__C_m881,
-	IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnInterstitialOpenedU3Em__D_m882,
-	IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnInterstitialClosedU3Em__E_m883,
-	IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnInterstitialLeftApplicationU3Em__F_m884,
-	IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnAdInAppRequestU3Em__10_m885,
+	IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_t152_IOSAdMobController_AddTestDevices_m847_Arg0_ParameterInfo,
+	IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnInterstitialLoadedU3Em__B_m882,
+	IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnInterstitialFailedLoadingU3Em__C_m883,
+	IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnInterstitialOpenedU3Em__D_m884,
+	IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnInterstitialClosedU3Em__E_m885,
+	IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnInterstitialLeftApplicationU3Em__F_m886,
+	IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_U3C_OnAdInAppRequestU3Em__10_m887,
 	WP8ADBanner_t155_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheF,
 	WP8ADBanner_t155_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache10,
 	WP8ADBanner_t155_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache11,
 	WP8ADBanner_t155_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache12,
 	WP8ADBanner_t155_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache13,
-	WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnLoadedActionU3Em__11_m921,
-	WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnFailedLoadingActionU3Em__12_m922,
-	WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnOpenedActionU3Em__13_m923,
-	WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnClosedActionU3Em__14_m924,
-	WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnLeftApplicationActionU3Em__15_m925,
+	WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnLoadedActionU3Em__11_m923,
+	WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnFailedLoadingActionU3Em__12_m924,
+	WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnOpenedActionU3Em__13_m925,
+	WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnClosedActionU3Em__14_m926,
+	WP8ADBanner_t155_CustomAttributesCacheGenerator_WP8ADBanner_U3C_OnLeftApplicationActionU3Em__15_m927,
 	WP8AdMobController_t157_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheA,
 	WP8AdMobController_t157_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheB,
 	WP8AdMobController_t157_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheC,
 	WP8AdMobController_t157_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheD,
 	WP8AdMobController_t157_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheE,
 	WP8AdMobController_t157_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheF,
-	WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_t157_WP8AdMobController_AddTestDevices_m939_Arg0_ParameterInfo,
-	WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnInterstitialLoadedU3Em__16_m974,
-	WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnInterstitialFailedLoadingU3Em__17_m975,
-	WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnInterstitialOpenedU3Em__18_m976,
-	WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnInterstitialClosedU3Em__19_m977,
-	WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnInterstitialLeftApplicationU3Em__1A_m978,
-	WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnAdInAppRequestU3Em__1B_m979,
+	WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_t157_WP8AdMobController_AddTestDevices_m941_Arg0_ParameterInfo,
+	WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnInterstitialLoadedU3Em__16_m976,
+	WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnInterstitialFailedLoadingU3Em__17_m977,
+	WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnInterstitialOpenedU3Em__18_m978,
+	WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnInterstitialClosedU3Em__19_m979,
+	WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnInterstitialLeftApplicationU3Em__1A_m980,
+	WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_U3C_OnAdInAppRequestU3Em__1B_m981,
 	AndroidAdMobController_t160_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheA,
 	AndroidAdMobController_t160_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheB,
 	AndroidAdMobController_t160_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheC,
 	AndroidAdMobController_t160_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheD,
 	AndroidAdMobController_t160_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheE,
 	AndroidAdMobController_t160_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheF,
-	AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_t160_AndroidAdMobController_AddTestDevices_m990_Arg0_ParameterInfo,
-	AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnInterstitialLoadedU3Em__1C_m1027,
-	AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnInterstitialFailedLoadingU3Em__1D_m1028,
-	AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnInterstitialOpenedU3Em__1E_m1029,
-	AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnInterstitialClosedU3Em__1F_m1030,
-	AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnInterstitialLeftApplicationU3Em__20_m1031,
-	AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnAdInAppRequestU3Em__21_m1032,
-	AN_GoogleAdProxy_t162_CustomAttributesCacheGenerator_AN_GoogleAdProxy_t162_AN_GoogleAdProxy_CallActivityFunction_m1034_Arg1_ParameterInfo,
-	AN_ProxyPool_t163_CustomAttributesCacheGenerator_AN_ProxyPool_t163_AN_ProxyPool_CallStatic_m1057_Arg2_ParameterInfo,
-	AN_BillingProxy_t164_CustomAttributesCacheGenerator_AN_BillingProxy_t164_AN_BillingProxy_CallActivityFunction_m1059_Arg1_ParameterInfo,
-	AN_FBProxy_t165_CustomAttributesCacheGenerator_AN_FBProxy_t165_AN_FBProxy_CallActivityFunction_m1066_Arg1_ParameterInfo,
-	AN_GMSGeneralProxy_t166_CustomAttributesCacheGenerator_AN_GMSGeneralProxy_t166_AN_GMSGeneralProxy_CallActivityFunction_m1069_Arg1_ParameterInfo,
-	AN_GMSGiftsProxy_t167_CustomAttributesCacheGenerator_AN_GMSGiftsProxy_t167_AN_GMSGiftsProxy_CallActivityFunction_m1115_Arg1_ParameterInfo,
-	AN_GMSInvitationProxy_t168_CustomAttributesCacheGenerator_AN_GMSInvitationProxy_t168_AN_GMSInvitationProxy_CallActivityFunction_m1123_Arg1_ParameterInfo,
-	AN_GMSQuestsEventsProxy_t169_CustomAttributesCacheGenerator_AN_GMSQuestsEventsProxy_t169_AN_GMSQuestsEventsProxy_CallActivityFunction_m1127_Arg1_ParameterInfo,
-	AN_GMSRTMProxy_t170_CustomAttributesCacheGenerator_AN_GMSRTMProxy_t170_AN_GMSRTMProxy_CallActivityFunction_m1134_Arg1_ParameterInfo,
-	AN_GoogleAnalyticsProxy_t171_CustomAttributesCacheGenerator_AN_GoogleAnalyticsProxy_t171_AN_GoogleAnalyticsProxy_CallActivityFunction_m1167_Arg1_ParameterInfo,
-	AN_GooglePlayUtilsProxy_t172_CustomAttributesCacheGenerator_AN_GooglePlayUtilsProxy_t172_AN_GooglePlayUtilsProxy_CallActivityFunction_m1183_Arg1_ParameterInfo,
-	AN_ImmersiveModeProxy_t173_CustomAttributesCacheGenerator_AN_ImmersiveModeProxy_t173_AN_ImmersiveModeProxy_CallActivityFunction_m1186_Arg1_ParameterInfo,
-	AN_LicenseManagerProxy_t174_CustomAttributesCacheGenerator_AN_LicenseManagerProxy_t174_AN_LicenseManagerProxy_CallActivityFunction_m1189_Arg1_ParameterInfo,
-	AN_PlusButtonProxy_t175_CustomAttributesCacheGenerator_AN_PlusButtonProxy_t175_AN_PlusButtonProxy_CallActivityFunction_m1192_Arg1_ParameterInfo,
-	AN_SocialSharingProxy_t176_CustomAttributesCacheGenerator_AN_SocialSharingProxy_t176_AN_SocialSharingProxy_CallActivityFunction_m1200_Arg1_ParameterInfo,
-	AN_TVControllerProxy_t177_CustomAttributesCacheGenerator_AN_TVControllerProxy_t177_AN_TVControllerProxy_CallActivityFunction_m1208_Arg1_ParameterInfo,
-	AndroidNative_t178_CustomAttributesCacheGenerator_AndroidNative_t178_AndroidNative_CallUtility_m1235_Arg1_ParameterInfo,
-	AndroidNative_t178_CustomAttributesCacheGenerator_AndroidNative_t178_AndroidNative_CallAndroidNativeBridge_m1236_Arg1_ParameterInfo,
-	GoogleMobileAdInterface_t142_CustomAttributesCacheGenerator_GoogleMobileAdInterface_t142_GoogleMobileAdInterface_AddTestDevices_m4557_Arg0_ParameterInfo,
+	AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_t160_AndroidAdMobController_AddTestDevices_m992_Arg0_ParameterInfo,
+	AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnInterstitialLoadedU3Em__1C_m1029,
+	AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnInterstitialFailedLoadingU3Em__1D_m1030,
+	AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnInterstitialOpenedU3Em__1E_m1031,
+	AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnInterstitialClosedU3Em__1F_m1032,
+	AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnInterstitialLeftApplicationU3Em__20_m1033,
+	AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_U3C_OnAdInAppRequestU3Em__21_m1034,
+	AN_GoogleAdProxy_t162_CustomAttributesCacheGenerator_AN_GoogleAdProxy_t162_AN_GoogleAdProxy_CallActivityFunction_m1036_Arg1_ParameterInfo,
+	AN_ProxyPool_t163_CustomAttributesCacheGenerator_AN_ProxyPool_t163_AN_ProxyPool_CallStatic_m1059_Arg2_ParameterInfo,
+	AN_BillingProxy_t164_CustomAttributesCacheGenerator_AN_BillingProxy_t164_AN_BillingProxy_CallActivityFunction_m1061_Arg1_ParameterInfo,
+	AN_FBProxy_t165_CustomAttributesCacheGenerator_AN_FBProxy_t165_AN_FBProxy_CallActivityFunction_m1068_Arg1_ParameterInfo,
+	AN_GMSGeneralProxy_t166_CustomAttributesCacheGenerator_AN_GMSGeneralProxy_t166_AN_GMSGeneralProxy_CallActivityFunction_m1071_Arg1_ParameterInfo,
+	AN_GMSGiftsProxy_t167_CustomAttributesCacheGenerator_AN_GMSGiftsProxy_t167_AN_GMSGiftsProxy_CallActivityFunction_m1117_Arg1_ParameterInfo,
+	AN_GMSInvitationProxy_t168_CustomAttributesCacheGenerator_AN_GMSInvitationProxy_t168_AN_GMSInvitationProxy_CallActivityFunction_m1125_Arg1_ParameterInfo,
+	AN_GMSQuestsEventsProxy_t169_CustomAttributesCacheGenerator_AN_GMSQuestsEventsProxy_t169_AN_GMSQuestsEventsProxy_CallActivityFunction_m1129_Arg1_ParameterInfo,
+	AN_GMSRTMProxy_t170_CustomAttributesCacheGenerator_AN_GMSRTMProxy_t170_AN_GMSRTMProxy_CallActivityFunction_m1136_Arg1_ParameterInfo,
+	AN_GoogleAnalyticsProxy_t171_CustomAttributesCacheGenerator_AN_GoogleAnalyticsProxy_t171_AN_GoogleAnalyticsProxy_CallActivityFunction_m1169_Arg1_ParameterInfo,
+	AN_GooglePlayUtilsProxy_t172_CustomAttributesCacheGenerator_AN_GooglePlayUtilsProxy_t172_AN_GooglePlayUtilsProxy_CallActivityFunction_m1185_Arg1_ParameterInfo,
+	AN_ImmersiveModeProxy_t173_CustomAttributesCacheGenerator_AN_ImmersiveModeProxy_t173_AN_ImmersiveModeProxy_CallActivityFunction_m1188_Arg1_ParameterInfo,
+	AN_LicenseManagerProxy_t174_CustomAttributesCacheGenerator_AN_LicenseManagerProxy_t174_AN_LicenseManagerProxy_CallActivityFunction_m1191_Arg1_ParameterInfo,
+	AN_PlusButtonProxy_t175_CustomAttributesCacheGenerator_AN_PlusButtonProxy_t175_AN_PlusButtonProxy_CallActivityFunction_m1194_Arg1_ParameterInfo,
+	AN_SocialSharingProxy_t176_CustomAttributesCacheGenerator_AN_SocialSharingProxy_t176_AN_SocialSharingProxy_CallActivityFunction_m1202_Arg1_ParameterInfo,
+	AN_TVControllerProxy_t177_CustomAttributesCacheGenerator_AN_TVControllerProxy_t177_AN_TVControllerProxy_CallActivityFunction_m1210_Arg1_ParameterInfo,
+	AndroidNative_t178_CustomAttributesCacheGenerator_AndroidNative_t178_AndroidNative_CallUtility_m1237_Arg1_ParameterInfo,
+	AndroidNative_t178_CustomAttributesCacheGenerator_AndroidNative_t178_AndroidNative_CallAndroidNativeBridge_m1238_Arg1_ParameterInfo,
+	GoogleMobileAdInterface_t142_CustomAttributesCacheGenerator_GoogleMobileAdInterface_t142_GoogleMobileAdInterface_AddTestDevices_m4560_Arg0_ParameterInfo,
 	AndroidADBanner_t215_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheF,
 	AndroidADBanner_t215_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache10,
 	AndroidADBanner_t215_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache11,
 	AndroidADBanner_t215_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache12,
 	AndroidADBanner_t215_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache13,
-	AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnLoadedActionU3Em__22_m1285,
-	AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnFailedLoadingActionU3Em__23_m1286,
-	AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnOpenedActionU3Em__24_m1287,
-	AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnClosedActionU3Em__25_m1288,
-	AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnLeftApplicationActionU3Em__26_m1289,
+	AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnLoadedActionU3Em__22_m1287,
+	AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnFailedLoadingActionU3Em__23_m1288,
+	AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnOpenedActionU3Em__24_m1289,
+	AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnClosedActionU3Em__25_m1290,
+	AndroidADBanner_t215_CustomAttributesCacheGenerator_AndroidADBanner_U3C_OnLeftApplicationActionU3Em__26_m1291,
 	Parser_t260_CustomAttributesCacheGenerator_U3CU3Ef__switchU24map0,
 	WWWTextureLoader_t266_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache2,
-	WWWTextureLoader_t266_CustomAttributesCacheGenerator_WWWTextureLoader_LoadCoroutin_m1450,
-	WWWTextureLoader_t266_CustomAttributesCacheGenerator_WWWTextureLoader_U3COnLoadU3Em__27_m1451,
+	WWWTextureLoader_t266_CustomAttributesCacheGenerator_WWWTextureLoader_LoadCoroutin_m1452,
+	WWWTextureLoader_t266_CustomAttributesCacheGenerator_WWWTextureLoader_U3COnLoadU3Em__27_m1453,
 	U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator,
-	U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator_U3CLoadCoroutinU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1440,
-	U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator_U3CLoadCoroutinU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1441,
-	U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator_U3CLoadCoroutinU3Ec__Iterator1_Dispose_m1443,
-	U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator_U3CLoadCoroutinU3Ec__Iterator1_Reset_m1444,
+	U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator_U3CLoadCoroutinU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1442,
+	U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator_U3CLoadCoroutinU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1443,
+	U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator_U3CLoadCoroutinU3Ec__Iterator1_Dispose_m1445,
+	U3CLoadCoroutinU3Ec__Iterator1_t267_CustomAttributesCacheGenerator_U3CLoadCoroutinU3Ec__Iterator1_Reset_m1446,
 	SPFacebook_t282_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache18,
 	SPFacebook_t282_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache19,
 	SPFacebook_t282_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache1A,
@@ -10444,146 +10444,146 @@ extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_Assembly_Attribu
 	SPFacebook_t282_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache24,
 	SPFacebook_t282_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache25,
 	SPFacebook_t282_CustomAttributesCacheGenerator_U3CU3Ef__switchU24map1,
-	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnInitCompleteActionU3Em__28_m1522,
-	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnPostingCompleteActionU3Em__29_m1523,
-	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnFocusChangedActionU3Em__2A_m1524,
-	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnAuthCompleteActionU3Em__2B_m1525,
-	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnPaymentCompleteActionU3Em__2C_m1526,
-	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnUserDataRequestCompleteActionU3Em__2D_m1527,
-	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnFriendsDataRequestCompleteActionU3Em__2E_m1528,
-	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnAppRequestCompleteActionU3Em__2F_m1529,
-	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnAppRequestsLoadedU3Em__30_m1530,
-	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnAppScoresRequestCompleteActionU3Em__31_m1531,
-	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnPlayerScoresRequestCompleteActionU3Em__32_m1532,
-	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnSubmitScoreRequestCompleteActionU3Em__33_m1533,
-	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnDeleteScoresRequestCompleteActionU3Em__34_m1534,
-	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnLikesListLoadedActionU3Em__35_m1535,
+	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnInitCompleteActionU3Em__28_m1524,
+	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnPostingCompleteActionU3Em__29_m1525,
+	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnFocusChangedActionU3Em__2A_m1526,
+	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnAuthCompleteActionU3Em__2B_m1527,
+	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnPaymentCompleteActionU3Em__2C_m1528,
+	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnUserDataRequestCompleteActionU3Em__2D_m1529,
+	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnFriendsDataRequestCompleteActionU3Em__2E_m1530,
+	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnAppRequestCompleteActionU3Em__2F_m1531,
+	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnAppRequestsLoadedU3Em__30_m1532,
+	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnAppScoresRequestCompleteActionU3Em__31_m1533,
+	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnPlayerScoresRequestCompleteActionU3Em__32_m1534,
+	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnSubmitScoreRequestCompleteActionU3Em__33_m1535,
+	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnDeleteScoresRequestCompleteActionU3Em__34_m1536,
+	SPFacebook_t282_CustomAttributesCacheGenerator_SPFacebook_U3COnLikesListLoadedActionU3Em__35_m1537,
 	FBAppRequest_t286_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheC,
-	FBAppRequest_t286_CustomAttributesCacheGenerator_FBAppRequest_U3COnDeleteRequestFinishedU3Em__36_m1555,
+	FBAppRequest_t286_CustomAttributesCacheGenerator_FBAppRequest_U3COnDeleteRequestFinishedU3Em__36_m1557,
 	FBScore_t293_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache7,
-	FBScore_t293_CustomAttributesCacheGenerator_FBScore_U3COnProfileImageLoadedU3Em__37_m1575,
+	FBScore_t293_CustomAttributesCacheGenerator_FBScore_U3COnProfileImageLoadedU3Em__37_m1577,
 	FacebookUserInfo_t271_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheD,
-	FacebookUserInfo_t271_CustomAttributesCacheGenerator_FacebookUserInfo_U3COnProfileImageLoadedU3Em__38_m1599,
-	FB_GraphAPIRequest_t299_CustomAttributesCacheGenerator_FB_GraphAPIRequest_Request_m1629,
+	FacebookUserInfo_t271_CustomAttributesCacheGenerator_FacebookUserInfo_U3COnProfileImageLoadedU3Em__38_m1601,
+	FB_GraphAPIRequest_t299_CustomAttributesCacheGenerator_FB_GraphAPIRequest_Request_m1631,
 	U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator,
-	U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1618,
-	U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m1619,
-	U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator2_Dispose_m1621,
-	U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator2_Reset_m1622,
+	U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1620,
+	U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m1621,
+	U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator2_Dispose_m1623,
+	U3CRequestU3Ec__Iterator2_t300_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator2_Reset_m1624,
 	AndroidInstagramManager_t306_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache1,
-	AndroidInstagramManager_t306_CustomAttributesCacheGenerator_AndroidInstagramManager_U3COnPostingCompleteActionU3Em__39_m1636,
+	AndroidInstagramManager_t306_CustomAttributesCacheGenerator_AndroidInstagramManager_U3COnPostingCompleteActionU3Em__39_m1638,
 	AndroidTwitterManager_t310_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache9,
 	AndroidTwitterManager_t310_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheA,
 	AndroidTwitterManager_t310_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheB,
 	AndroidTwitterManager_t310_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheC,
-	AndroidTwitterManager_t310_CustomAttributesCacheGenerator_AndroidTwitterManager_U3COnTwitterInitedActionU3Em__3A_m1661,
-	AndroidTwitterManager_t310_CustomAttributesCacheGenerator_AndroidTwitterManager_U3COnAuthCompleteActionU3Em__3B_m1662,
-	AndroidTwitterManager_t310_CustomAttributesCacheGenerator_AndroidTwitterManager_U3COnPostingCompleteActionU3Em__3C_m1663,
-	AndroidTwitterManager_t310_CustomAttributesCacheGenerator_AndroidTwitterManager_U3COnUserDataRequestCompleteActionU3Em__3D_m1664,
-	TwitterApplicationOnlyToken_t313_CustomAttributesCacheGenerator_TwitterApplicationOnlyToken_Load_m1675,
+	AndroidTwitterManager_t310_CustomAttributesCacheGenerator_AndroidTwitterManager_U3COnTwitterInitedActionU3Em__3A_m1663,
+	AndroidTwitterManager_t310_CustomAttributesCacheGenerator_AndroidTwitterManager_U3COnAuthCompleteActionU3Em__3B_m1664,
+	AndroidTwitterManager_t310_CustomAttributesCacheGenerator_AndroidTwitterManager_U3COnPostingCompleteActionU3Em__3C_m1665,
+	AndroidTwitterManager_t310_CustomAttributesCacheGenerator_AndroidTwitterManager_U3COnUserDataRequestCompleteActionU3Em__3D_m1666,
+	TwitterApplicationOnlyToken_t313_CustomAttributesCacheGenerator_TwitterApplicationOnlyToken_Load_m1677,
 	U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator,
-	U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator_U3CLoadU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1666,
-	U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator_U3CLoadU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m1667,
-	U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator_U3CLoadU3Ec__Iterator3_Dispose_m1669,
-	U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator_U3CLoadU3Ec__Iterator3_Reset_m1670,
-	TW_APIRequest_t327_CustomAttributesCacheGenerator_TW_APIRequest_Request_m1731,
+	U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator_U3CLoadU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1668,
+	U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator_U3CLoadU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m1669,
+	U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator_U3CLoadU3Ec__Iterator3_Dispose_m1671,
+	U3CLoadU3Ec__Iterator3_t314_CustomAttributesCacheGenerator_U3CLoadU3Ec__Iterator3_Reset_m1672,
+	TW_APIRequest_t327_CustomAttributesCacheGenerator_TW_APIRequest_Request_m1733,
 	U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator,
-	U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator4_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1721,
-	U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator4_System_Collections_IEnumerator_get_Current_m1722,
-	U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator4_Dispose_m1724,
-	U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator4_Reset_m1725,
+	U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator4_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1723,
+	U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator4_System_Collections_IEnumerator_get_Current_m1724,
+	U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator4_Dispose_m1726,
+	U3CRequestU3Ec__Iterator4_t328_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator4_Reset_m1727,
 	TW_OAuthAPIRequest_t332_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache6,
-	TW_OAuthAPIRequest_t332_CustomAttributesCacheGenerator_TW_OAuthAPIRequest_Request_m1753,
-	TW_OAuthAPIRequest_t332_CustomAttributesCacheGenerator_TW_OAuthAPIRequest_U3COnResultU3Em__3E_m1754,
+	TW_OAuthAPIRequest_t332_CustomAttributesCacheGenerator_TW_OAuthAPIRequest_Request_m1755,
+	TW_OAuthAPIRequest_t332_CustomAttributesCacheGenerator_TW_OAuthAPIRequest_U3COnResultU3Em__3E_m1756,
 	U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator,
-	U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator5_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1742,
-	U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator5_System_Collections_IEnumerator_get_Current_m1743,
-	U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator5_Dispose_m1745,
-	U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator5_Reset_m1746,
-	MSPFacebookUseExample_t353_CustomAttributesCacheGenerator_MSPFacebookUseExample_PostFBScreenshot_m1810,
-	MSPFacebookUseExample_t353_CustomAttributesCacheGenerator_MSPFacebookUseExample_PostScreenshot_m1837,
+	U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator5_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1744,
+	U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator5_System_Collections_IEnumerator_get_Current_m1745,
+	U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator5_Dispose_m1747,
+	U3CRequestU3Ec__Iterator5_t333_CustomAttributesCacheGenerator_U3CRequestU3Ec__Iterator5_Reset_m1748,
+	MSPFacebookUseExample_t353_CustomAttributesCacheGenerator_MSPFacebookUseExample_PostFBScreenshot_m1812,
+	MSPFacebookUseExample_t353_CustomAttributesCacheGenerator_MSPFacebookUseExample_PostScreenshot_m1839,
 	U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator,
-	U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator_U3CPostFBScreenshotU3Ec__Iterator6_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1790,
-	U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator_U3CPostFBScreenshotU3Ec__Iterator6_System_Collections_IEnumerator_get_Current_m1791,
-	U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator_U3CPostFBScreenshotU3Ec__Iterator6_Dispose_m1793,
-	U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator_U3CPostFBScreenshotU3Ec__Iterator6_Reset_m1794,
+	U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator_U3CPostFBScreenshotU3Ec__Iterator6_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1792,
+	U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator_U3CPostFBScreenshotU3Ec__Iterator6_System_Collections_IEnumerator_get_Current_m1793,
+	U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator_U3CPostFBScreenshotU3Ec__Iterator6_Dispose_m1795,
+	U3CPostFBScreenshotU3Ec__Iterator6_t346_CustomAttributesCacheGenerator_U3CPostFBScreenshotU3Ec__Iterator6_Reset_m1796,
 	U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator,
-	U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator7_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1796,
-	U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator7_System_Collections_IEnumerator_get_Current_m1797,
-	U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator7_Dispose_m1799,
-	U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator7_Reset_m1800,
-	MSPTwitterUseExample_t357_CustomAttributesCacheGenerator_MSPTwitterUseExample_PostTWScreenshot_m1868,
-	MSPTwitterUseExample_t357_CustomAttributesCacheGenerator_MSPTwitterUseExample_PostScreenshot_m1887,
+	U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator7_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1798,
+	U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator7_System_Collections_IEnumerator_get_Current_m1799,
+	U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator7_Dispose_m1801,
+	U3CPostScreenshotU3Ec__Iterator7_t347_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator7_Reset_m1802,
+	MSPTwitterUseExample_t357_CustomAttributesCacheGenerator_MSPTwitterUseExample_PostTWScreenshot_m1870,
+	MSPTwitterUseExample_t357_CustomAttributesCacheGenerator_MSPTwitterUseExample_PostScreenshot_m1889,
 	U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator,
-	U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator_U3CPostTWScreenshotU3Ec__Iterator8_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1848,
-	U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator_U3CPostTWScreenshotU3Ec__Iterator8_System_Collections_IEnumerator_get_Current_m1849,
-	U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator_U3CPostTWScreenshotU3Ec__Iterator8_Dispose_m1851,
-	U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator_U3CPostTWScreenshotU3Ec__Iterator8_Reset_m1852,
+	U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator_U3CPostTWScreenshotU3Ec__Iterator8_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1850,
+	U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator_U3CPostTWScreenshotU3Ec__Iterator8_System_Collections_IEnumerator_get_Current_m1851,
+	U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator_U3CPostTWScreenshotU3Ec__Iterator8_Dispose_m1853,
+	U3CPostTWScreenshotU3Ec__Iterator8_t355_CustomAttributesCacheGenerator_U3CPostTWScreenshotU3Ec__Iterator8_Reset_m1854,
 	U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator,
-	U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator9_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1854,
-	U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator9_System_Collections_IEnumerator_get_Current_m1855,
-	U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator9_Dispose_m1857,
-	U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator9_Reset_m1858,
+	U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator9_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1856,
+	U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator9_System_Collections_IEnumerator_get_Current_m1857,
+	U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator9_Dispose_m1859,
+	U3CPostScreenshotU3Ec__Iterator9_t356_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__Iterator9_Reset_m1860,
 	SPInstagram_t361_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache1,
-	SPInstagram_t361_CustomAttributesCacheGenerator_SPInstagram_U3COnPostingCompleteActionU3Em__3F_m1934,
+	SPInstagram_t361_CustomAttributesCacheGenerator_SPInstagram_U3COnPostingCompleteActionU3Em__3F_m1936,
 	SPTwitter_t364_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache6,
 	SPTwitter_t364_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache7,
 	SPTwitter_t364_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache8,
 	SPTwitter_t364_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache9,
-	SPTwitter_t364_CustomAttributesCacheGenerator_SPTwitter_U3COnTwitterInitedActionU3Em__40_m1981,
-	SPTwitter_t364_CustomAttributesCacheGenerator_SPTwitter_U3COnAuthCompleteActionU3Em__41_m1982,
-	SPTwitter_t364_CustomAttributesCacheGenerator_SPTwitter_U3COnPostingCompleteActionU3Em__42_m1983,
-	SPTwitter_t364_CustomAttributesCacheGenerator_SPTwitter_U3COnUserDataRequestCompleteActionU3Em__43_m1984,
+	SPTwitter_t364_CustomAttributesCacheGenerator_SPTwitter_U3COnTwitterInitedActionU3Em__40_m1983,
+	SPTwitter_t364_CustomAttributesCacheGenerator_SPTwitter_U3COnAuthCompleteActionU3Em__41_m1984,
+	SPTwitter_t364_CustomAttributesCacheGenerator_SPTwitter_U3COnPostingCompleteActionU3Em__42_m1985,
+	SPTwitter_t364_CustomAttributesCacheGenerator_SPTwitter_U3COnUserDataRequestCompleteActionU3Em__43_m1986,
 	IOSTwitterManager_t368_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache7,
 	IOSTwitterManager_t368_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache8,
 	IOSTwitterManager_t368_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache9,
 	IOSTwitterManager_t368_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheA,
-	IOSTwitterManager_t368_CustomAttributesCacheGenerator_IOSTwitterManager_U3COnTwitterInitedActionU3Em__44_m2040,
-	IOSTwitterManager_t368_CustomAttributesCacheGenerator_IOSTwitterManager_U3COnAuthCompleteActionU3Em__45_m2041,
-	IOSTwitterManager_t368_CustomAttributesCacheGenerator_IOSTwitterManager_U3COnPostingCompleteActionU3Em__46_m2042,
-	IOSTwitterManager_t368_CustomAttributesCacheGenerator_IOSTwitterManager_U3COnUserDataRequestCompleteActionU3Em__47_m2043,
-	FacebookPostScreenshotTask_t370_CustomAttributesCacheGenerator_FacebookPostScreenshotTask_PostScreenshot_m2053,
+	IOSTwitterManager_t368_CustomAttributesCacheGenerator_IOSTwitterManager_U3COnTwitterInitedActionU3Em__44_m2042,
+	IOSTwitterManager_t368_CustomAttributesCacheGenerator_IOSTwitterManager_U3COnAuthCompleteActionU3Em__45_m2043,
+	IOSTwitterManager_t368_CustomAttributesCacheGenerator_IOSTwitterManager_U3COnPostingCompleteActionU3Em__46_m2044,
+	IOSTwitterManager_t368_CustomAttributesCacheGenerator_IOSTwitterManager_U3COnUserDataRequestCompleteActionU3Em__47_m2045,
+	FacebookPostScreenshotTask_t370_CustomAttributesCacheGenerator_FacebookPostScreenshotTask_PostScreenshot_m2055,
 	U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator,
-	U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorA_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2045,
-	U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorA_System_Collections_IEnumerator_get_Current_m2046,
-	U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorA_Dispose_m2048,
-	U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorA_Reset_m2049,
+	U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorA_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2047,
+	U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorA_System_Collections_IEnumerator_get_Current_m2048,
+	U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorA_Dispose_m2050,
+	U3CPostScreenshotU3Ec__IteratorA_t371_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorA_Reset_m2051,
 	InstagramPostScreenshotTask_t372_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache2,
-	InstagramPostScreenshotTask_t372_CustomAttributesCacheGenerator_InstagramPostScreenshotTask_PostScreenshot_m2063,
-	InstagramPostScreenshotTask_t372_CustomAttributesCacheGenerator_InstagramPostScreenshotTask_U3COnPostScreenshotCompleteActionU3Em__48_m2065,
+	InstagramPostScreenshotTask_t372_CustomAttributesCacheGenerator_InstagramPostScreenshotTask_PostScreenshot_m2065,
+	InstagramPostScreenshotTask_t372_CustomAttributesCacheGenerator_InstagramPostScreenshotTask_U3COnPostScreenshotCompleteActionU3Em__48_m2067,
 	U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator,
-	U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorB_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2055,
-	U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorB_System_Collections_IEnumerator_get_Current_m2056,
-	U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorB_Dispose_m2058,
-	U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorB_Reset_m2059,
-	TwitterPostScreenshotTask_t374_CustomAttributesCacheGenerator_TwitterPostScreenshotTask_PostScreenshot_m2075,
+	U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorB_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2057,
+	U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorB_System_Collections_IEnumerator_get_Current_m2058,
+	U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorB_Dispose_m2060,
+	U3CPostScreenshotU3Ec__IteratorB_t373_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorB_Reset_m2061,
+	TwitterPostScreenshotTask_t374_CustomAttributesCacheGenerator_TwitterPostScreenshotTask_PostScreenshot_m2077,
 	U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator,
-	U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorC_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2067,
-	U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorC_System_Collections_IEnumerator_get_Current_m2068,
-	U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorC_Dispose_m2070,
-	U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorC_Reset_m2071,
+	U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorC_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2069,
+	U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorC_System_Collections_IEnumerator_get_Current_m2070,
+	U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorC_Dispose_m2072,
+	U3CPostScreenshotU3Ec__IteratorC_t375_CustomAttributesCacheGenerator_U3CPostScreenshotU3Ec__IteratorC_Reset_m2073,
 	GameControllerExample_t377_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache1,
-	GameControllerExample_t377_CustomAttributesCacheGenerator_GameControllerExample_U3COnGUIU3Em__49_m2080,
+	GameControllerExample_t377_CustomAttributesCacheGenerator_GameControllerExample_U3COnGUIU3Em__49_m2082,
 	GameThrive_t378_CustomAttributesCacheGenerator,
 	Parser_t381_CustomAttributesCacheGenerator_U3CU3Ef__switchU24map2,
-	SA_ScreenShotMaker_t391_CustomAttributesCacheGenerator_SA_ScreenShotMaker_SaveScreenshot_m2149,
+	SA_ScreenShotMaker_t391_CustomAttributesCacheGenerator_SA_ScreenShotMaker_SaveScreenshot_m2151,
 	U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator,
-	U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator_U3CSaveScreenshotU3Ec__IteratorD_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2142,
-	U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator_U3CSaveScreenshotU3Ec__IteratorD_System_Collections_IEnumerator_get_Current_m2143,
-	U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator_U3CSaveScreenshotU3Ec__IteratorD_Dispose_m2145,
-	U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator_U3CSaveScreenshotU3Ec__IteratorD_Reset_m2146,
+	U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator_U3CSaveScreenshotU3Ec__IteratorD_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2144,
+	U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator_U3CSaveScreenshotU3Ec__IteratorD_System_Collections_IEnumerator_get_Current_m2145,
+	U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator_U3CSaveScreenshotU3Ec__IteratorD_Dispose_m2147,
+	U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator_U3CSaveScreenshotU3Ec__IteratorD_Reset_m2148,
 	ScreenPlacementExtension_t409_CustomAttributesCacheGenerator,
-	ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2202,
-	ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2203,
 	ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2204,
 	ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2205,
 	ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2206,
 	ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2207,
 	ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2208,
 	ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2209,
-	ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_DoScreenPlacement_m2210,
-	AbstractFacebook_t414_CustomAttributesCacheGenerator_AbstractFacebook_AppRequest_m2229,
-	FB_t421_CustomAttributesCacheGenerator_FB_PublishInstall_m2269,
+	ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2210,
+	ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2211,
+	ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_DoScreenPlacement_m2212,
+	AbstractFacebook_t414_CustomAttributesCacheGenerator_AbstractFacebook_AppRequest_m2231,
+	FB_t421_CustomAttributesCacheGenerator_FB_PublishInstall_m2271,
 	FBBuildVersionAttribute_t425_CustomAttributesCacheGenerator,
 	FBSettings_t430_CustomAttributesCacheGenerator_selectedAppIndex,
 	FBSettings_t430_CustomAttributesCacheGenerator_appIds,
@@ -10594,34 +10594,34 @@ extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_Assembly_Attribu
 	FBSettings_t430_CustomAttributesCacheGenerator_xfbml,
 	FBSettings_t430_CustomAttributesCacheGenerator_frictionlessRequests,
 	FBSettings_t430_CustomAttributesCacheGenerator_iosURLSuffix,
-	AsyncRequestString_t446_CustomAttributesCacheGenerator_AsyncRequestString_Start_m2477,
+	AsyncRequestString_t446_CustomAttributesCacheGenerator_AsyncRequestString_Start_m2479,
 	U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator,
-	U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator_U3CStartU3Ec__IteratorE_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2467,
-	U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator_U3CStartU3Ec__IteratorE_System_Collections_IEnumerator_get_Current_m2468,
-	U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator_U3CStartU3Ec__IteratorE_Dispose_m2470,
-	U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator_U3CStartU3Ec__IteratorE_Reset_m2471,
+	U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator_U3CStartU3Ec__IteratorE_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2469,
+	U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator_U3CStartU3Ec__IteratorE_System_Collections_IEnumerator_get_Current_m2470,
+	U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator_U3CStartU3Ec__IteratorE_Dispose_m2472,
+	U3CStartU3Ec__IteratorE_t447_CustomAttributesCacheGenerator_U3CStartU3Ec__IteratorE_Reset_m2473,
 	Parser_t450_CustomAttributesCacheGenerator_U3CU3Ef__switchU24map3,
 	EditorCoroutine_t459_CustomAttributesCacheGenerator_U3CRoutineU3Ek__BackingField,
 	EditorCoroutine_t459_CustomAttributesCacheGenerator_U3CDoneU3Ek__BackingField,
 	EditorCoroutine_t459_CustomAttributesCacheGenerator_U3CContinueWithU3Ek__BackingField,
-	EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_get_Routine_m2567,
-	EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_set_Routine_m2568,
-	EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_get_Done_m2569,
-	EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_set_Done_m2570,
-	EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_get_ContinueWith_m2571,
-	EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_set_ContinueWith_m2572,
-	GA_SpecialEvents_t476_CustomAttributesCacheGenerator_GA_SpecialEvents_SubmitFPSRoutine_m2641,
-	GA_SpecialEvents_t476_CustomAttributesCacheGenerator_GA_SpecialEvents_CheckCriticalFPSRoutine_m2642,
+	EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_get_Routine_m2569,
+	EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_set_Routine_m2570,
+	EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_get_Done_m2571,
+	EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_set_Done_m2572,
+	EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_get_ContinueWith_m2573,
+	EditorCoroutine_t459_CustomAttributesCacheGenerator_EditorCoroutine_set_ContinueWith_m2574,
+	GA_SpecialEvents_t476_CustomAttributesCacheGenerator_GA_SpecialEvents_SubmitFPSRoutine_m2643,
+	GA_SpecialEvents_t476_CustomAttributesCacheGenerator_GA_SpecialEvents_CheckCriticalFPSRoutine_m2644,
 	U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator,
-	U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator_U3CSubmitFPSRoutineU3Ec__IteratorF_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2627,
-	U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator_U3CSubmitFPSRoutineU3Ec__IteratorF_System_Collections_IEnumerator_get_Current_m2628,
-	U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator_U3CSubmitFPSRoutineU3Ec__IteratorF_Dispose_m2630,
-	U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator_U3CSubmitFPSRoutineU3Ec__IteratorF_Reset_m2631,
+	U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator_U3CSubmitFPSRoutineU3Ec__IteratorF_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2629,
+	U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator_U3CSubmitFPSRoutineU3Ec__IteratorF_System_Collections_IEnumerator_get_Current_m2630,
+	U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator_U3CSubmitFPSRoutineU3Ec__IteratorF_Dispose_m2632,
+	U3CSubmitFPSRoutineU3Ec__IteratorF_t475_CustomAttributesCacheGenerator_U3CSubmitFPSRoutineU3Ec__IteratorF_Reset_m2633,
 	U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenerator,
-	U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenerator_U3CCheckCriticalFPSRoutineU3Ec__Iterator10_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2633,
-	U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenerator_U3CCheckCriticalFPSRoutineU3Ec__Iterator10_System_Collections_IEnumerator_get_Current_m2634,
-	U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenerator_U3CCheckCriticalFPSRoutineU3Ec__Iterator10_Dispose_m2636,
-	U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenerator_U3CCheckCriticalFPSRoutineU3Ec__Iterator10_Reset_m2637,
+	U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenerator_U3CCheckCriticalFPSRoutineU3Ec__Iterator10_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2635,
+	U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenerator_U3CCheckCriticalFPSRoutineU3Ec__Iterator10_System_Collections_IEnumerator_get_Current_m2636,
+	U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenerator_U3CCheckCriticalFPSRoutineU3Ec__Iterator10_Dispose_m2638,
+	U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenerator_U3CCheckCriticalFPSRoutineU3Ec__Iterator10_Reset_m2639,
 	GameAnalytics_t479_CustomAttributesCacheGenerator,
 	Settings_t478_CustomAttributesCacheGenerator_VERSION,
 	Settings_t478_CustomAttributesCacheGenerator_gameKey,
@@ -10635,249 +10635,249 @@ extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_Assembly_Attribu
 	Studio_t489_CustomAttributesCacheGenerator_U3CNameU3Ek__BackingField,
 	Studio_t489_CustomAttributesCacheGenerator_U3CIDU3Ek__BackingField,
 	Studio_t489_CustomAttributesCacheGenerator_U3CGamesU3Ek__BackingField,
-	Studio_t489_CustomAttributesCacheGenerator_Studio_get_Name_m2691,
-	Studio_t489_CustomAttributesCacheGenerator_Studio_set_Name_m2692,
-	Studio_t489_CustomAttributesCacheGenerator_Studio_get_ID_m2693,
-	Studio_t489_CustomAttributesCacheGenerator_Studio_set_ID_m2694,
-	Studio_t489_CustomAttributesCacheGenerator_Studio_get_Games_m2695,
-	Studio_t489_CustomAttributesCacheGenerator_Studio_set_Games_m2696,
+	Studio_t489_CustomAttributesCacheGenerator_Studio_get_Name_m2693,
+	Studio_t489_CustomAttributesCacheGenerator_Studio_set_Name_m2694,
+	Studio_t489_CustomAttributesCacheGenerator_Studio_get_ID_m2695,
+	Studio_t489_CustomAttributesCacheGenerator_Studio_set_ID_m2696,
+	Studio_t489_CustomAttributesCacheGenerator_Studio_get_Games_m2697,
+	Studio_t489_CustomAttributesCacheGenerator_Studio_set_Games_m2698,
 	Game_t490_CustomAttributesCacheGenerator_U3CNameU3Ek__BackingField,
 	Game_t490_CustomAttributesCacheGenerator_U3CIDU3Ek__BackingField,
 	Game_t490_CustomAttributesCacheGenerator_U3CGameKeyU3Ek__BackingField,
 	Game_t490_CustomAttributesCacheGenerator_U3CSecretKeyU3Ek__BackingField,
-	Game_t490_CustomAttributesCacheGenerator_Game_get_Name_m2700,
-	Game_t490_CustomAttributesCacheGenerator_Game_set_Name_m2701,
-	Game_t490_CustomAttributesCacheGenerator_Game_get_ID_m2702,
-	Game_t490_CustomAttributesCacheGenerator_Game_set_ID_m2703,
-	Game_t490_CustomAttributesCacheGenerator_Game_get_GameKey_m2704,
-	Game_t490_CustomAttributesCacheGenerator_Game_set_GameKey_m2705,
-	Game_t490_CustomAttributesCacheGenerator_Game_get_SecretKey_m2706,
-	Game_t490_CustomAttributesCacheGenerator_Game_set_SecretKey_m2707,
+	Game_t490_CustomAttributesCacheGenerator_Game_get_Name_m2702,
+	Game_t490_CustomAttributesCacheGenerator_Game_set_Name_m2703,
+	Game_t490_CustomAttributesCacheGenerator_Game_get_ID_m2704,
+	Game_t490_CustomAttributesCacheGenerator_Game_set_ID_m2705,
+	Game_t490_CustomAttributesCacheGenerator_Game_get_GameKey_m2706,
+	Game_t490_CustomAttributesCacheGenerator_Game_set_GameKey_m2707,
+	Game_t490_CustomAttributesCacheGenerator_Game_get_SecretKey_m2708,
+	Game_t490_CustomAttributesCacheGenerator_Game_set_SecretKey_m2709,
 	Accumulator_t492_CustomAttributesCacheGenerator_U3CnewCountU3Ek__BackingField,
 	Accumulator_t492_CustomAttributesCacheGenerator_U3CderivedCountU3Ek__BackingField,
-	Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_get_newCount_m2713,
-	Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_set_newCount_m2714,
-	Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_get_derivedCount_m2715,
-	Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_set_derivedCount_m2716,
-	BoostButton_t499_CustomAttributesCacheGenerator_BoostButton_TriggerDistortionEffect_m2770,
+	Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_get_newCount_m2715,
+	Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_set_newCount_m2716,
+	Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_get_derivedCount_m2717,
+	Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_set_derivedCount_m2718,
+	BoostButton_t499_CustomAttributesCacheGenerator_BoostButton_TriggerDistortionEffect_m2772,
 	U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator,
-	U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2750,
-	U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_System_Collections_IEnumerator_get_Current_m2751,
-	U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_Dispose_m2753,
-	U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_Reset_m2754,
-	BoostButtonLayout_t504_CustomAttributesCacheGenerator_BoostButtonLayout_DelayThenLayout_m2780,
+	U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2752,
+	U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_System_Collections_IEnumerator_get_Current_m2753,
+	U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_Dispose_m2755,
+	U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_Reset_m2756,
+	BoostButtonLayout_t504_CustomAttributesCacheGenerator_BoostButtonLayout_DelayThenLayout_m2782,
 	U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator,
-	U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2772,
-	U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_System_Collections_IEnumerator_get_Current_m2773,
-	U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_Dispose_m2775,
-	U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_Reset_m2776,
+	U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2774,
+	U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_System_Collections_IEnumerator_get_Current_m2775,
+	U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_Dispose_m2777,
+	U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_Reset_m2778,
 	BoostConfig_t496_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
 	BoostConfig_t496_CustomAttributesCacheGenerator_U3CactiveBoostU3Ek__BackingField,
-	BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_get_instance_m2800,
-	BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_set_instance_m2801,
-	BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_get_activeBoost_m2802,
-	BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_set_activeBoost_m2803,
-	BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_WaitThenCleanup_m2818,
+	BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_get_instance_m2802,
+	BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_set_instance_m2803,
+	BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_get_activeBoost_m2804,
+	BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_set_activeBoost_m2805,
+	BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_WaitThenCleanup_m2820,
 	U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator,
-	U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2792,
-	U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_System_Collections_IEnumerator_get_Current_m2793,
-	U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_Dispose_m2795,
-	U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_Reset_m2796,
+	U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2794,
+	U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_System_Collections_IEnumerator_get_Current_m2795,
+	U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_Dispose_m2797,
+	U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_Reset_m2798,
 	ConeOfViewController_t524_CustomAttributesCacheGenerator_U3CactualAngleRangeU3Ek__BackingField,
-	ConeOfViewController_t524_CustomAttributesCacheGenerator_ConeOfViewController_get_actualAngleRange_m2836,
-	ConeOfViewController_t524_CustomAttributesCacheGenerator_ConeOfViewController_set_actualAngleRange_m2837,
+	ConeOfViewController_t524_CustomAttributesCacheGenerator_ConeOfViewController_get_actualAngleRange_m2838,
+	ConeOfViewController_t524_CustomAttributesCacheGenerator_ConeOfViewController_set_actualAngleRange_m2839,
 	CrossSceneState_t527_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	CrossSceneState_t527_CustomAttributesCacheGenerator_CrossSceneState_get_instance_m2851,
-	CrossSceneState_t527_CustomAttributesCacheGenerator_CrossSceneState_set_instance_m2852,
+	CrossSceneState_t527_CustomAttributesCacheGenerator_CrossSceneState_get_instance_m2853,
+	CrossSceneState_t527_CustomAttributesCacheGenerator_CrossSceneState_set_instance_m2854,
 	DeadMouse_t528_CustomAttributesCacheGenerator_U3CmouseTypeU3Ek__BackingField,
-	DeadMouse_t528_CustomAttributesCacheGenerator_DeadMouse_get_mouseType_m2855,
-	DeadMouse_t528_CustomAttributesCacheGenerator_DeadMouse_set_mouseType_m2856,
+	DeadMouse_t528_CustomAttributesCacheGenerator_DeadMouse_get_mouseType_m2857,
+	DeadMouse_t528_CustomAttributesCacheGenerator_DeadMouse_set_mouseType_m2858,
 	DebugConfig_t533_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	DebugConfig_t533_CustomAttributesCacheGenerator_DebugConfig_get_instance_m2878,
-	DebugConfig_t533_CustomAttributesCacheGenerator_DebugConfig_set_instance_m2879,
+	DebugConfig_t533_CustomAttributesCacheGenerator_DebugConfig_get_instance_m2880,
+	DebugConfig_t533_CustomAttributesCacheGenerator_DebugConfig_set_instance_m2881,
 	DistortForEffect_t537_CustomAttributesCacheGenerator_U3CdistortingU3Ek__BackingField,
-	DistortForEffect_t537_CustomAttributesCacheGenerator_DistortForEffect_get_distorting_m2899,
-	DistortForEffect_t537_CustomAttributesCacheGenerator_DistortForEffect_set_distorting_m2900,
+	DistortForEffect_t537_CustomAttributesCacheGenerator_DistortForEffect_get_distorting_m2901,
+	DistortForEffect_t537_CustomAttributesCacheGenerator_DistortForEffect_set_distorting_m2902,
 	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_U3CwiggleTypeU3Ek__BackingField,
 	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_U3CwiggleMagnitudeU3Ek__BackingField,
 	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_U3CwiggleCyclesU3Ek__BackingField,
 	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_U3CwiggleClockwiseU3Ek__BackingField,
-	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleType_m2909,
-	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleType_m2910,
-	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleMagnitude_m2911,
-	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleMagnitude_m2912,
-	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleCycles_m2913,
-	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleCycles_m2914,
-	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleClockwise_m2915,
-	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleClockwise_m2916,
+	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleType_m2911,
+	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleType_m2912,
+	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleMagnitude_m2913,
+	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleMagnitude_m2914,
+	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleCycles_m2915,
+	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleCycles_m2916,
+	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleClockwise_m2917,
+	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleClockwise_m2918,
 	GameController_t557_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
 	GameController_t557_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache9,
-	GameController_t557_CustomAttributesCacheGenerator_GameController_get_instance_m2972,
-	GameController_t557_CustomAttributesCacheGenerator_GameController_set_instance_m2973,
-	GameController_t557_CustomAttributesCacheGenerator_GameController_U3CStartU3Em__4A_m2991,
+	GameController_t557_CustomAttributesCacheGenerator_GameController_get_instance_m2974,
+	GameController_t557_CustomAttributesCacheGenerator_GameController_set_instance_m2975,
+	GameController_t557_CustomAttributesCacheGenerator_GameController_U3CStartU3Em__4A_m2993,
 	GameLevelState_t560_CustomAttributesCacheGenerator_U3CgameLevelU3Ek__BackingField,
 	GameLevelState_t560_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_get_gameLevel_m3003,
-	GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_set_gameLevel_m3004,
-	GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_get_instance_m3005,
-	GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_set_instance_m3006,
+	GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_get_gameLevel_m3005,
+	GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_set_gameLevel_m3006,
+	GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_get_instance_m3007,
+	GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_set_instance_m3008,
 	GamePhaseState_t564_CustomAttributesCacheGenerator_U3CgamePhaseU3Ek__BackingField,
 	GamePhaseState_t564_CustomAttributesCacheGenerator_U3CpreviousGamePhaseU3Ek__BackingField,
 	GamePhaseState_t564_CustomAttributesCacheGenerator_U3CinstancesFinishedThisSessionU3Ek__BackingField,
 	GamePhaseState_t564_CustomAttributesCacheGenerator_U3CinstancesFinishedEverU3Ek__BackingField,
 	GamePhaseState_t564_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_gamePhase_m3029,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_gamePhase_m3030,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_previousGamePhase_m3031,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_previousGamePhase_m3032,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_instancesFinishedThisSession_m3033,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_instancesFinishedThisSession_m3034,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_instancesFinishedEver_m3035,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_instancesFinishedEver_m3036,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_instance_m3037,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_instance_m3038,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_SetupPendingPhase_m3044,
+	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_gamePhase_m3031,
+	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_gamePhase_m3032,
+	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_previousGamePhase_m3033,
+	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_previousGamePhase_m3034,
+	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_instancesFinishedThisSession_m3035,
+	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_instancesFinishedThisSession_m3036,
+	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_instancesFinishedEver_m3037,
+	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_instancesFinishedEver_m3038,
+	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_instance_m3039,
+	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_instance_m3040,
+	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_SetupPendingPhase_m3046,
 	U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator,
-	U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3019,
-	U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_System_Collections_IEnumerator_get_Current_m3020,
-	U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_Dispose_m3022,
-	U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_Reset_m3023,
+	U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3021,
+	U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_System_Collections_IEnumerator_get_Current_m3022,
+	U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_Dispose_m3024,
+	U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_Reset_m3025,
 	GameUIController_t568_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_get_instance_m3059,
-	GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_set_instance_m3060,
-	GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_ConfirmComplete_m3063,
+	GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_get_instance_m3061,
+	GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_set_instance_m3062,
+	GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_ConfirmComplete_m3065,
 	U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator,
-	U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3053,
-	U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_System_Collections_IEnumerator_get_Current_m3054,
-	U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_Dispose_m3056,
-	U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_Reset_m3057,
-	GoogleAdController_t570_CustomAttributesCacheGenerator_GoogleAdController_CreatePendingInterstitialAd_m3086,
+	U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3055,
+	U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_System_Collections_IEnumerator_get_Current_m3056,
+	U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_Dispose_m3058,
+	U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_Reset_m3059,
+	GoogleAdController_t570_CustomAttributesCacheGenerator_GoogleAdController_CreatePendingInterstitialAd_m3088,
 	U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGenerator,
-	U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGenerator_U3CCreatePendingInterstitialAdU3Ec__Iterator16_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3070,
-	U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGenerator_U3CCreatePendingInterstitialAdU3Ec__Iterator16_System_Collections_IEnumerator_get_Current_m3071,
-	U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGenerator_U3CCreatePendingInterstitialAdU3Ec__Iterator16_Dispose_m3073,
-	U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGenerator_U3CCreatePendingInterstitialAdU3Ec__Iterator16_Reset_m3074,
+	U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGenerator_U3CCreatePendingInterstitialAdU3Ec__Iterator16_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3072,
+	U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGenerator_U3CCreatePendingInterstitialAdU3Ec__Iterator16_System_Collections_IEnumerator_get_Current_m3073,
+	U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGenerator_U3CCreatePendingInterstitialAdU3Ec__Iterator16_Dispose_m3075,
+	U3CCreatePendingInterstitialAdU3Ec__Iterator16_t571_CustomAttributesCacheGenerator_U3CCreatePendingInterstitialAdU3Ec__Iterator16_Reset_m3076,
 	InputHandler_t575_CustomAttributesCacheGenerator_U3CisTouchDeviceU3Ek__BackingField,
 	InputHandler_t575_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	InputHandler_t575_CustomAttributesCacheGenerator_InputHandler_get_isTouchDevice_m3100,
-	InputHandler_t575_CustomAttributesCacheGenerator_InputHandler_set_isTouchDevice_m3101,
-	InputHandler_t575_CustomAttributesCacheGenerator_InputHandler_get_instance_m3102,
-	InputHandler_t575_CustomAttributesCacheGenerator_InputHandler_set_instance_m3103,
+	InputHandler_t575_CustomAttributesCacheGenerator_InputHandler_get_isTouchDevice_m3102,
+	InputHandler_t575_CustomAttributesCacheGenerator_InputHandler_set_isTouchDevice_m3103,
+	InputHandler_t575_CustomAttributesCacheGenerator_InputHandler_get_instance_m3104,
+	InputHandler_t575_CustomAttributesCacheGenerator_InputHandler_set_instance_m3105,
 	LevelConfig_t592_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	LevelConfig_t592_CustomAttributesCacheGenerator_LevelConfig_get_instance_m3124,
-	LevelConfig_t592_CustomAttributesCacheGenerator_LevelConfig_set_instance_m3125,
+	LevelConfig_t592_CustomAttributesCacheGenerator_LevelConfig_get_instance_m3126,
+	LevelConfig_t592_CustomAttributesCacheGenerator_LevelConfig_set_instance_m3127,
 	MouseMove_t530_CustomAttributesCacheGenerator_U3CmouseTypeU3Ek__BackingField,
 	MouseMove_t530_CustomAttributesCacheGenerator_U3CdeadU3Ek__BackingField,
 	MouseMove_t530_CustomAttributesCacheGenerator_U3CisPoisonedU3Ek__BackingField,
 	MouseMove_t530_CustomAttributesCacheGenerator_U3CisFartedUponU3Ek__BackingField,
-	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_mouseType_m3183,
-	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_mouseType_m3184,
-	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_dead_m3185,
-	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_dead_m3186,
-	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_isPoisoned_m3187,
-	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_isPoisoned_m3188,
-	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_isFartedUpon_m3189,
-	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_isFartedUpon_m3190,
+	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_mouseType_m3185,
+	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_mouseType_m3186,
+	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_dead_m3187,
+	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_dead_m3188,
+	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_isPoisoned_m3189,
+	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_isPoisoned_m3190,
+	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_isFartedUpon_m3191,
+	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_isFartedUpon_m3192,
 	MouseSinkController_t606_CustomAttributesCacheGenerator_U3CsavedMouseCountU3Ek__BackingField,
-	MouseSinkController_t606_CustomAttributesCacheGenerator_MouseSinkController_get_savedMouseCount_m3216,
-	MouseSinkController_t606_CustomAttributesCacheGenerator_MouseSinkController_set_savedMouseCount_m3217,
+	MouseSinkController_t606_CustomAttributesCacheGenerator_MouseSinkController_get_savedMouseCount_m3218,
+	MouseSinkController_t606_CustomAttributesCacheGenerator_MouseSinkController_set_savedMouseCount_m3219,
 	MouseSpawnFromData_t556_CustomAttributesCacheGenerator_U3CmiceSpawnedU3Ek__BackingField,
-	MouseSpawnFromData_t556_CustomAttributesCacheGenerator_MouseSpawnFromData_get_miceSpawned_m3241,
-	MouseSpawnFromData_t556_CustomAttributesCacheGenerator_MouseSpawnFromData_set_miceSpawned_m3242,
-	MusicPlayer_t614_CustomAttributesCacheGenerator_MusicPlayer_PlayMusic_m3296,
+	MouseSpawnFromData_t556_CustomAttributesCacheGenerator_MouseSpawnFromData_get_miceSpawned_m3243,
+	MouseSpawnFromData_t556_CustomAttributesCacheGenerator_MouseSpawnFromData_set_miceSpawned_m3244,
+	MusicPlayer_t614_CustomAttributesCacheGenerator_MusicPlayer_PlayMusic_m3298,
 	U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator,
-	U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator17_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3282,
-	U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator17_System_Collections_IEnumerator_get_Current_m3283,
-	U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator17_Dispose_m3285,
-	U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator17_Reset_m3286,
+	U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator17_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3284,
+	U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator17_System_Collections_IEnumerator_get_Current_m3285,
+	U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator17_Dispose_m3287,
+	U3CPlayMusicU3Ec__Iterator17_t615_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator17_Reset_m3288,
 	PlayerController_t628_CustomAttributesCacheGenerator_U3CbodyMovementU3Ek__BackingField,
 	PlayerController_t628_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	PlayerController_t628_CustomAttributesCacheGenerator_PlayerController_get_bodyMovement_m3355,
-	PlayerController_t628_CustomAttributesCacheGenerator_PlayerController_set_bodyMovement_m3356,
-	PlayerController_t628_CustomAttributesCacheGenerator_PlayerController_get_instance_m3357,
-	PlayerController_t628_CustomAttributesCacheGenerator_PlayerController_set_instance_m3358,
+	PlayerController_t628_CustomAttributesCacheGenerator_PlayerController_get_bodyMovement_m3357,
+	PlayerController_t628_CustomAttributesCacheGenerator_PlayerController_set_bodyMovement_m3358,
+	PlayerController_t628_CustomAttributesCacheGenerator_PlayerController_get_instance_m3359,
+	PlayerController_t628_CustomAttributesCacheGenerator_PlayerController_set_instance_m3360,
 	PlayerStats_t516_CustomAttributesCacheGenerator_U3CgameScoreU3Ek__BackingField,
 	PlayerStats_t516_CustomAttributesCacheGenerator_U3CmoneyU3Ek__BackingField,
 	PlayerStats_t516_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_gameScore_m3395,
-	PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_gameScore_m3396,
-	PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_money_m3397,
-	PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_money_m3398,
-	PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_instance_m3399,
-	PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_instance_m3400,
-	RateMeController_t632_CustomAttributesCacheGenerator_RateMeController_WaitAndShowDialog_m3430,
+	PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_gameScore_m3397,
+	PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_gameScore_m3398,
+	PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_money_m3399,
+	PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_money_m3400,
+	PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_instance_m3401,
+	PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_instance_m3402,
+	RateMeController_t632_CustomAttributesCacheGenerator_RateMeController_WaitAndShowDialog_m3432,
 	U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator,
-	U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator_U3CWaitAndShowDialogU3Ec__Iterator18_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3419,
-	U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator_U3CWaitAndShowDialogU3Ec__Iterator18_System_Collections_IEnumerator_get_Current_m3420,
-	U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator_U3CWaitAndShowDialogU3Ec__Iterator18_Dispose_m3422,
-	U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator_U3CWaitAndShowDialogU3Ec__Iterator18_Reset_m3423,
+	U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator_U3CWaitAndShowDialogU3Ec__Iterator18_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3421,
+	U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator_U3CWaitAndShowDialogU3Ec__Iterator18_System_Collections_IEnumerator_get_Current_m3422,
+	U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator_U3CWaitAndShowDialogU3Ec__Iterator18_Dispose_m3424,
+	U3CWaitAndShowDialogU3Ec__Iterator18_t633_CustomAttributesCacheGenerator_U3CWaitAndShowDialogU3Ec__Iterator18_Reset_m3425,
 	RealAngusElementButton_t639_CustomAttributesCacheGenerator_U3CraidU3Ek__BackingField,
 	RealAngusElementButton_t639_CustomAttributesCacheGenerator_U3CselectedU3Ek__BackingField,
-	RealAngusElementButton_t639_CustomAttributesCacheGenerator_RealAngusElementButton_get_raid_m3486,
-	RealAngusElementButton_t639_CustomAttributesCacheGenerator_RealAngusElementButton_set_raid_m3487,
-	RealAngusElementButton_t639_CustomAttributesCacheGenerator_RealAngusElementButton_get_selected_m3488,
-	RealAngusElementButton_t639_CustomAttributesCacheGenerator_RealAngusElementButton_set_selected_m3489,
+	RealAngusElementButton_t639_CustomAttributesCacheGenerator_RealAngusElementButton_get_raid_m3488,
+	RealAngusElementButton_t639_CustomAttributesCacheGenerator_RealAngusElementButton_set_raid_m3489,
+	RealAngusElementButton_t639_CustomAttributesCacheGenerator_RealAngusElementButton_get_selected_m3490,
+	RealAngusElementButton_t639_CustomAttributesCacheGenerator_RealAngusElementButton_set_selected_m3491,
 	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_U3CpictureSpriteU3Ek__BackingField,
 	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_U3CtextU3Ek__BackingField,
 	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_U3CtagU3Ek__BackingField,
 	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_U3CunlockedU3Ek__BackingField,
 	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_U3CviewedU3Ek__BackingField,
-	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get_pictureSprite_m3504,
-	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set_pictureSprite_m3505,
-	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get_text_m3506,
-	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set_text_m3507,
-	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get_tag_m3508,
-	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set_tag_m3509,
-	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get_unlocked_m3510,
-	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set_unlocked_m3511,
-	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get_viewed_m3512,
-	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set_viewed_m3513,
+	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get_pictureSprite_m3506,
+	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set_pictureSprite_m3507,
+	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get_text_m3508,
+	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set_text_m3509,
+	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get_tag_m3510,
+	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set_tag_m3511,
+	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get_unlocked_m3512,
+	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set_unlocked_m3513,
+	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_get_viewed_m3514,
+	RealAngusItemDesc_t646_CustomAttributesCacheGenerator_RealAngusItemDesc_set_viewed_m3515,
 	SFXPlayer_t652_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	SFXPlayer_t652_CustomAttributesCacheGenerator_SFXPlayer_get_instance_m3542,
-	SFXPlayer_t652_CustomAttributesCacheGenerator_SFXPlayer_set_instance_m3543,
-	ScoreController_t655_CustomAttributesCacheGenerator_ScoreController_DestroyMouse_m3575,
+	SFXPlayer_t652_CustomAttributesCacheGenerator_SFXPlayer_get_instance_m3544,
+	SFXPlayer_t652_CustomAttributesCacheGenerator_SFXPlayer_set_instance_m3545,
+	ScoreController_t655_CustomAttributesCacheGenerator_ScoreController_DestroyMouse_m3577,
 	U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator,
-	U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator19_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3563,
-	U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator19_System_Collections_IEnumerator_get_Current_m3564,
-	U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator19_Dispose_m3566,
-	U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator19_Reset_m3567,
-	SecretUI_t657_CustomAttributesCacheGenerator_SecretUI_U3CStartU3Em__4B_m3593,
-	SecretUI_t657_CustomAttributesCacheGenerator_SecretUI_U3CStartU3Em__4C_m3594,
+	U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator19_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3565,
+	U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator19_System_Collections_IEnumerator_get_Current_m3566,
+	U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator19_Dispose_m3568,
+	U3CDestroyMouseU3Ec__Iterator19_t654_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator19_Reset_m3569,
+	SecretUI_t657_CustomAttributesCacheGenerator_SecretUI_U3CStartU3Em__4B_m3596,
+	SecretUI_t657_CustomAttributesCacheGenerator_SecretUI_U3CStartU3Em__4C_m3597,
 	SizeCamera_t519_CustomAttributesCacheGenerator_U3CfinalActualWorldHalfHeightU3Ek__BackingField,
-	SizeCamera_t519_CustomAttributesCacheGenerator_SizeCamera_get_finalActualWorldHalfHeight_m3602,
-	SizeCamera_t519_CustomAttributesCacheGenerator_SizeCamera_set_finalActualWorldHalfHeight_m3603,
+	SizeCamera_t519_CustomAttributesCacheGenerator_SizeCamera_get_finalActualWorldHalfHeight_m3605,
+	SizeCamera_t519_CustomAttributesCacheGenerator_SizeCamera_set_finalActualWorldHalfHeight_m3606,
 	SocialHelper_t665_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache3,
 	SocialHelper_t665_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache4,
-	SocialHelper_t665_CustomAttributesCacheGenerator_SocialHelper_DebugScoreAndAchievement_m3627,
-	SocialHelper_t665_CustomAttributesCacheGenerator_SocialHelper_U3CReportScoreU3Em__4E_m3634,
-	SocialHelper_t665_CustomAttributesCacheGenerator_SocialHelper_U3CShowLeaderBoardU3Em__50_m3635,
-	SocialHelper_t665_CustomAttributesCacheGenerator_SocialHelper_U3CShowAchievementsU3Em__51_m3636,
+	SocialHelper_t665_CustomAttributesCacheGenerator_SocialHelper_DebugScoreAndAchievement_m3630,
+	SocialHelper_t665_CustomAttributesCacheGenerator_SocialHelper_U3CReportScoreU3Em__4E_m3637,
+	SocialHelper_t665_CustomAttributesCacheGenerator_SocialHelper_U3CShowLeaderBoardU3Em__50_m3638,
+	SocialHelper_t665_CustomAttributesCacheGenerator_SocialHelper_U3CShowAchievementsU3Em__51_m3639,
 	U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGenerator,
-	U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator1A_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3613,
-	U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator1A_System_Collections_IEnumerator_get_Current_m3614,
-	U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator1A_Dispose_m3616,
-	U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator1A_Reset_m3617,
+	U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator1A_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3616,
+	U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator1A_System_Collections_IEnumerator_get_Current_m3617,
+	U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator1A_Dispose_m3619,
+	U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator1A_Reset_m3620,
 	U3CAuthenticateU3Ec__AnonStorey1D_t663_CustomAttributesCacheGenerator,
 	U3CRecordAchievementU3Ec__AnonStorey1E_t664_CustomAttributesCacheGenerator,
 	SoundController_t669_CustomAttributesCacheGenerator_U3CsfxMutedU3Ek__BackingField,
 	SoundController_t669_CustomAttributesCacheGenerator_U3CmusicMutedU3Ek__BackingField,
-	SoundController_t669_CustomAttributesCacheGenerator_SoundController_get_sfxMuted_m3657,
-	SoundController_t669_CustomAttributesCacheGenerator_SoundController_set_sfxMuted_m3658,
-	SoundController_t669_CustomAttributesCacheGenerator_SoundController_get_musicMuted_m3659,
-	SoundController_t669_CustomAttributesCacheGenerator_SoundController_set_musicMuted_m3660,
+	SoundController_t669_CustomAttributesCacheGenerator_SoundController_get_sfxMuted_m3660,
+	SoundController_t669_CustomAttributesCacheGenerator_SoundController_set_sfxMuted_m3661,
+	SoundController_t669_CustomAttributesCacheGenerator_SoundController_get_musicMuted_m3662,
+	SoundController_t669_CustomAttributesCacheGenerator_SoundController_set_musicMuted_m3663,
 	TimeController_t675_CustomAttributesCacheGenerator_U3CtimeStateU3Ek__BackingField,
-	TimeController_t675_CustomAttributesCacheGenerator_TimeController_get_timeState_m3681,
-	TimeController_t675_CustomAttributesCacheGenerator_TimeController_set_timeState_m3682,
-	TipController_t680_CustomAttributesCacheGenerator_TipController_PlayTipWithPause_m3716,
+	TimeController_t675_CustomAttributesCacheGenerator_TimeController_get_timeState_m3684,
+	TimeController_t675_CustomAttributesCacheGenerator_TimeController_set_timeState_m3685,
+	TipController_t680_CustomAttributesCacheGenerator_TipController_PlayTipWithPause_m3719,
 	U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator,
-	U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1B_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3702,
-	U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1B_System_Collections_IEnumerator_get_Current_m3703,
-	U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1B_Dispose_m3705,
-	U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1B_Reset_m3706,
-	Utilities_t687_CustomAttributesCacheGenerator_Utilities_LaunchAppOrWeb_m3752,
+	U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1B_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3705,
+	U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1B_System_Collections_IEnumerator_get_Current_m3706,
+	U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1B_Dispose_m3708,
+	U3CPlayTipWithPauseU3Ec__Iterator1B_t681_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1B_Reset_m3709,
+	Utilities_t687_CustomAttributesCacheGenerator_Utilities_LaunchAppOrWeb_m3755,
 	U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator,
-	U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1C_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3737,
-	U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1C_System_Collections_IEnumerator_get_Current_m3738,
-	U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1C_Dispose_m3740,
-	U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1C_Reset_m3741,
+	U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1C_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3740,
+	U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1C_System_Collections_IEnumerator_get_Current_m3741,
+	U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1C_Dispose_m3743,
+	U3CLaunchAppOrWebU3Ec__Iterator1C_t686_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1C_Reset_m3744,
 };

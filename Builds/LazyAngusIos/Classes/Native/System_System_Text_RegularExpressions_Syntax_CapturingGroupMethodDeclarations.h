@@ -5,29 +5,29 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Syntax.CapturingGroup
-struct CapturingGroup_t4175;
+struct CapturingGroup_t4521;
 // System.String
 struct String_t;
 // System.Text.RegularExpressions.ICompiler
-struct ICompiler_t4206;
+struct ICompiler_t4554;
 // System.Object
 struct Object_t;
 
 // System.Void System.Text.RegularExpressions.Syntax.CapturingGroup::.ctor()
-extern "C" void CapturingGroup__ctor_m15025 (CapturingGroup_t4175 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CapturingGroup__ctor_m17810 (CapturingGroup_t4521 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Syntax.CapturingGroup::get_Index()
-extern "C" int32_t CapturingGroup_get_Index_m15026 (CapturingGroup_t4175 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CapturingGroup_get_Index_m17811 (CapturingGroup_t4521 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.CapturingGroup::set_Index(System.Int32)
-extern "C" void CapturingGroup_set_Index_m15027 (CapturingGroup_t4175 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CapturingGroup_set_Index_m17812 (CapturingGroup_t4521 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Text.RegularExpressions.Syntax.CapturingGroup::get_Name()
-extern "C" String_t* CapturingGroup_get_Name_m15028 (CapturingGroup_t4175 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* CapturingGroup_get_Name_m17813 (CapturingGroup_t4521 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.CapturingGroup::set_Name(System.String)
-extern "C" void CapturingGroup_set_Name_m15029 (CapturingGroup_t4175 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CapturingGroup_set_Name_m17814 (CapturingGroup_t4521 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.CapturingGroup::get_IsNamed()
-extern "C" bool CapturingGroup_get_IsNamed_m15030 (CapturingGroup_t4175 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CapturingGroup_get_IsNamed_m17815 (CapturingGroup_t4521 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.CapturingGroup::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern "C" void CapturingGroup_Compile_m15031 (CapturingGroup_t4175 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CapturingGroup_Compile_m17816 (CapturingGroup_t4521 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Syntax.CapturingGroup::IsComplex()
-extern "C" bool CapturingGroup_IsComplex_m15032 (CapturingGroup_t4175 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CapturingGroup_IsComplex_m17817 (CapturingGroup_t4521 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Syntax.CapturingGroup::CompareTo(System.Object)
-extern "C" int32_t CapturingGroup_CompareTo_m15033 (CapturingGroup_t4175 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CapturingGroup_CompareTo_m17818 (CapturingGroup_t4521 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;

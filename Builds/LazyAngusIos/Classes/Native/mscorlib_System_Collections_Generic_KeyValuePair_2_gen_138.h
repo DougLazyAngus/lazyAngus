@@ -7,7 +7,7 @@ struct IDictionary_2_t2932;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>
-struct  KeyValuePair_2_t8541 
+struct  KeyValuePair_2_t9076 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>::key
 	Type_t * ___key_0;

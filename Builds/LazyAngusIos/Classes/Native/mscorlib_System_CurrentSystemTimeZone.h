@@ -5,13 +5,13 @@ struct String_t;
 // System.Collections.Hashtable
 struct Hashtable_t710;
 // System.Globalization.DaylightTime
-struct DaylightTime_t4489;
+struct DaylightTime_t4918;
 // System.TimeZone
 #include "mscorlib_System_TimeZone.h"
 // System.TimeSpan
 #include "mscorlib_System_TimeSpan.h"
 // System.CurrentSystemTimeZone
-struct  CurrentSystemTimeZone_t4858  : public TimeZone_t4218
+struct  CurrentSystemTimeZone_t4919  : public TimeZone_t4576
 {
 	// System.String System.CurrentSystemTimeZone::m_standardName
 	String_t* ___m_standardName_1;
@@ -26,9 +26,9 @@ struct  CurrentSystemTimeZone_t4858  : public TimeZone_t4218
 	// System.TimeSpan System.CurrentSystemTimeZone::utcOffsetWithDLS
 	TimeSpan_t334  ___utcOffsetWithDLS_6;
 };
-struct CurrentSystemTimeZone_t4858_StaticFields{
+struct CurrentSystemTimeZone_t4919_StaticFields{
 	// System.Int32 System.CurrentSystemTimeZone::this_year
 	int32_t ___this_year_7;
 	// System.Globalization.DaylightTime System.CurrentSystemTimeZone::this_year_dlt
-	DaylightTime_t4489 * ___this_year_dlt_8;
+	DaylightTime_t4918 * ___this_year_dlt_8;
 };

@@ -5,5 +5,27 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.UriTypeConverter
-struct UriTypeConverter_t4198;
+struct UriTypeConverter_t4542;
+// System.Type
+struct Type_t;
+// System.ComponentModel.ITypeDescriptorContext
+struct ITypeDescriptorContext_t4548;
+// System.Object
+struct Object_t;
+// System.Globalization.CultureInfo
+struct CultureInfo_t782;
 
+// System.Void System.UriTypeConverter::.ctor()
+extern "C" void UriTypeConverter__ctor_m17972 (UriTypeConverter_t4542 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.UriTypeConverter::CanConvert(System.Type)
+extern "C" bool UriTypeConverter_CanConvert_m17973 (UriTypeConverter_t4542 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.UriTypeConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)
+extern "C" bool UriTypeConverter_CanConvertFrom_m17974 (UriTypeConverter_t4542 * __this, Object_t * ___context, Type_t * ___sourceType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.UriTypeConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)
+extern "C" bool UriTypeConverter_CanConvertTo_m17975 (UriTypeConverter_t4542 * __this, Object_t * ___context, Type_t * ___destinationType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object System.UriTypeConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)
+extern "C" Object_t * UriTypeConverter_ConvertFrom_m17976 (UriTypeConverter_t4542 * __this, Object_t * ___context, CultureInfo_t782 * ___culture, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object System.UriTypeConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)
+extern "C" Object_t * UriTypeConverter_ConvertTo_m17977 (UriTypeConverter_t4542 * __this, Object_t * ___context, CultureInfo_t782 * ___culture, Object_t * ___value, Type_t * ___destinationType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.UriTypeConverter::IsValid(System.ComponentModel.ITypeDescriptorContext,System.Object)
+extern "C" bool UriTypeConverter_IsValid_m17978 (UriTypeConverter_t4542 * __this, Object_t * ___context, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

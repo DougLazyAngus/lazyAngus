@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Runtime.CompilerServices.ConditionalWeakTable`2/CreateValueCallback<System.Object,System.IComparable>::.ctor(System.Object,System.IntPtr)
 // System.Runtime.CompilerServices.ConditionalWeakTable`2/CreateValueCallback<System.Object,System.Object>
 #include "Parse_Unity_System_Runtime_CompilerServices_ConditionalWeakT_3MethodDeclarations.h"
-#define CreateValueCallback__ctor_m7518(__this, ___object, ___method, method) (( void (*) (CreateValueCallback_t1200 *, Object_t *, IntPtr_t, const MethodInfo*))CreateValueCallback__ctor_m30986_gshared)(__this, ___object, ___method, method)
+#define CreateValueCallback__ctor_m7522(__this, ___object, ___method, method) (( void (*) (CreateValueCallback_t1200 *, Object_t *, IntPtr_t, const MethodInfo*))CreateValueCallback__ctor_m35209_gshared)(__this, ___object, ___method, method)
 // TValue System.Runtime.CompilerServices.ConditionalWeakTable`2/CreateValueCallback<System.Object,System.IComparable>::Invoke(TKey)
-#define CreateValueCallback_Invoke_m32217(__this, ___key, method) (( Object_t * (*) (CreateValueCallback_t1200 *, Object_t *, const MethodInfo*))CreateValueCallback_Invoke_m30987_gshared)(__this, ___key, method)
+#define CreateValueCallback_Invoke_m36447(__this, ___key, method) (( Object_t * (*) (CreateValueCallback_t1200 *, Object_t *, const MethodInfo*))CreateValueCallback_Invoke_m35210_gshared)(__this, ___key, method)
 // System.IAsyncResult System.Runtime.CompilerServices.ConditionalWeakTable`2/CreateValueCallback<System.Object,System.IComparable>::BeginInvoke(TKey,System.AsyncCallback,System.Object)
-#define CreateValueCallback_BeginInvoke_m32218(__this, ___key, ___callback, ___object, method) (( Object_t * (*) (CreateValueCallback_t1200 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))CreateValueCallback_BeginInvoke_m30988_gshared)(__this, ___key, ___callback, ___object, method)
+#define CreateValueCallback_BeginInvoke_m36448(__this, ___key, ___callback, ___object, method) (( Object_t * (*) (CreateValueCallback_t1200 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))CreateValueCallback_BeginInvoke_m35211_gshared)(__this, ___key, ___callback, ___object, method)
 // TValue System.Runtime.CompilerServices.ConditionalWeakTable`2/CreateValueCallback<System.Object,System.IComparable>::EndInvoke(System.IAsyncResult)
-#define CreateValueCallback_EndInvoke_m32219(__this, ___result, method) (( Object_t * (*) (CreateValueCallback_t1200 *, Object_t *, const MethodInfo*))CreateValueCallback_EndInvoke_m30989_gshared)(__this, ___result, method)
+#define CreateValueCallback_EndInvoke_m36449(__this, ___result, method) (( Object_t * (*) (CreateValueCallback_t1200 *, Object_t *, const MethodInfo*))CreateValueCallback_EndInvoke_m35212_gshared)(__this, ___result, method)

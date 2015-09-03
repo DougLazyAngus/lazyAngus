@@ -5,13 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.Emit.MethodBuilder
-struct MethodBuilder_t4531;
+struct MethodBuilder_t5061;
 // System.Type
 struct Type_t;
 // System.String
 struct String_t;
 // System.Reflection.Module
-struct Module_t4535;
+struct Module_t5023;
+// System.Reflection.Emit.TypeBuilder
+struct TypeBuilder_t5051;
+// System.Type[]
+struct TypeU5BU5D_t1220;
+// System.Type[][]
+struct TypeU5BU5DU5BU5D_t5053;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Reflection.ParameterInfo[]
@@ -24,64 +30,84 @@ struct Binder_t2970;
 struct ObjectU5BU5D_t696;
 // System.Globalization.CultureInfo
 struct CultureInfo_t782;
+// System.Reflection.Emit.ILGenerator
+struct ILGenerator_t4552;
 // System.Exception
 struct Exception_t57;
-// System.Type[]
-struct TypeU5BU5D_t1220;
 // System.RuntimeMethodHandle
 #include "mscorlib_System_RuntimeMethodHandle.h"
 // System.Reflection.MethodAttributes
 #include "mscorlib_System_Reflection_MethodAttributes.h"
 // System.Reflection.CallingConventions
 #include "mscorlib_System_Reflection_CallingConventions.h"
+// System.Reflection.Emit.MethodToken
+#include "mscorlib_System_Reflection_Emit_MethodToken.h"
+// System.Reflection.MethodImplAttributes
+#include "mscorlib_System_Reflection_MethodImplAttributes.h"
 // System.Reflection.BindingFlags
 #include "mscorlib_System_Reflection_BindingFlags.h"
 
+// System.Void System.Reflection.Emit.MethodBuilder::.ctor(System.Reflection.Emit.TypeBuilder,System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][])
+extern "C" void MethodBuilder__ctor_m22361 (MethodBuilder_t5061 * __this, TypeBuilder_t5051 * ___tb, String_t* ___name, int32_t ___attributes, int32_t ___callingConvention, Type_t * ___returnType, TypeU5BU5D_t1220* ___returnModReq, TypeU5BU5D_t1220* ___returnModOpt, TypeU5BU5D_t1220* ___parameterTypes, TypeU5BU5DU5BU5D_t5053* ___paramModReq, TypeU5BU5DU5BU5D_t5053* ___paramModOpt, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Emit.MethodBuilder::get_ContainsGenericParameters()
-extern "C" bool MethodBuilder_get_ContainsGenericParameters_m17903 (MethodBuilder_t4531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MethodBuilder_get_ContainsGenericParameters_m22362 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.RuntimeMethodHandle System.Reflection.Emit.MethodBuilder::get_MethodHandle()
-extern "C" RuntimeMethodHandle_t4853  MethodBuilder_get_MethodHandle_m17904 (MethodBuilder_t4531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RuntimeMethodHandle_t4907  MethodBuilder_get_MethodHandle_m22363 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.Emit.MethodBuilder::get_ReturnType()
-extern "C" Type_t * MethodBuilder_get_ReturnType_m17905 (MethodBuilder_t4531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * MethodBuilder_get_ReturnType_m22364 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.Emit.MethodBuilder::get_ReflectedType()
-extern "C" Type_t * MethodBuilder_get_ReflectedType_m17906 (MethodBuilder_t4531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * MethodBuilder_get_ReflectedType_m22365 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.Emit.MethodBuilder::get_DeclaringType()
-extern "C" Type_t * MethodBuilder_get_DeclaringType_m17907 (MethodBuilder_t4531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * MethodBuilder_get_DeclaringType_m22366 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.Emit.MethodBuilder::get_Name()
-extern "C" String_t* MethodBuilder_get_Name_m17908 (MethodBuilder_t4531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* MethodBuilder_get_Name_m22367 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodAttributes System.Reflection.Emit.MethodBuilder::get_Attributes()
-extern "C" int32_t MethodBuilder_get_Attributes_m17909 (MethodBuilder_t4531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MethodBuilder_get_Attributes_m22368 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.CallingConventions System.Reflection.Emit.MethodBuilder::get_CallingConvention()
-extern "C" int32_t MethodBuilder_get_CallingConvention_m17910 (MethodBuilder_t4531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MethodBuilder_get_CallingConvention_m22369 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Reflection.Emit.MethodToken System.Reflection.Emit.MethodBuilder::GetToken()
+extern "C" MethodToken_t5072  MethodBuilder_GetToken_m22370 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo System.Reflection.Emit.MethodBuilder::GetBaseDefinition()
-extern "C" MethodInfo_t * MethodBuilder_GetBaseDefinition_m17911 (MethodBuilder_t4531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodInfo_t * MethodBuilder_GetBaseDefinition_m22371 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Reflection.MethodImplAttributes System.Reflection.Emit.MethodBuilder::GetMethodImplementationFlags()
+extern "C" int32_t MethodBuilder_GetMethodImplementationFlags_m22372 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.ParameterInfo[] System.Reflection.Emit.MethodBuilder::GetParameters()
-extern "C" ParameterInfoU5BU5D_t1475* MethodBuilder_GetParameters_m17912 (MethodBuilder_t4531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ParameterInfoU5BU5D_t1475* MethodBuilder_GetParameters_m22373 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Reflection.Emit.MethodBuilder::GetParameterCount()
+extern "C" int32_t MethodBuilder_GetParameterCount_m22374 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Reflection.Emit.MethodBuilder::Invoke(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
-extern "C" Object_t * MethodBuilder_Invoke_m17913 (MethodBuilder_t4531 * __this, Object_t * ___obj, int32_t ___invokeAttr, Binder_t2970 * ___binder, ObjectU5BU5D_t696* ___parameters, CultureInfo_t782 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MethodBuilder_Invoke_m22375 (MethodBuilder_t5061 * __this, Object_t * ___obj, int32_t ___invokeAttr, Binder_t2970 * ___binder, ObjectU5BU5D_t696* ___parameters, CultureInfo_t782 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Emit.MethodBuilder::IsDefined(System.Type,System.Boolean)
-extern "C" bool MethodBuilder_IsDefined_m17914 (MethodBuilder_t4531 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MethodBuilder_IsDefined_m22376 (MethodBuilder_t5061 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.Emit.MethodBuilder::GetCustomAttributes(System.Boolean)
-extern "C" ObjectU5BU5D_t696* MethodBuilder_GetCustomAttributes_m17915 (MethodBuilder_t4531 * __this, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t696* MethodBuilder_GetCustomAttributes_m22377 (MethodBuilder_t5061 * __this, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.Emit.MethodBuilder::GetCustomAttributes(System.Type,System.Boolean)
-extern "C" ObjectU5BU5D_t696* MethodBuilder_GetCustomAttributes_m17916 (MethodBuilder_t4531 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t696* MethodBuilder_GetCustomAttributes_m22378 (MethodBuilder_t5061 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Reflection.Emit.ILGenerator System.Reflection.Emit.MethodBuilder::GetILGenerator()
+extern "C" ILGenerator_t4552 * MethodBuilder_GetILGenerator_m22379 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Reflection.Emit.ILGenerator System.Reflection.Emit.MethodBuilder::GetILGenerator(System.Int32)
+extern "C" ILGenerator_t4552 * MethodBuilder_GetILGenerator_m22380 (MethodBuilder_t5061 * __this, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.Emit.MethodBuilder::ToString()
-extern "C" String_t* MethodBuilder_ToString_m17917 (MethodBuilder_t4531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* MethodBuilder_ToString_m22381 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Emit.MethodBuilder::Equals(System.Object)
-extern "C" bool MethodBuilder_Equals_m17918 (MethodBuilder_t4531 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MethodBuilder_Equals_m22382 (MethodBuilder_t5061 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Reflection.Emit.MethodBuilder::GetHashCode()
-extern "C" int32_t MethodBuilder_GetHashCode_m17919 (MethodBuilder_t4531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MethodBuilder_GetHashCode_m22383 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Reflection.Emit.MethodBuilder::get_next_table_index(System.Object,System.Int32,System.Boolean)
+extern "C" int32_t MethodBuilder_get_next_table_index_m22384 (MethodBuilder_t5061 * __this, Object_t * ___obj, int32_t ___table, bool ___inc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Reflection.Emit.MethodBuilder::set_override(System.Reflection.MethodInfo)
+extern "C" void MethodBuilder_set_override_m22385 (MethodBuilder_t5061 * __this, MethodInfo_t * ___mdecl, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Exception System.Reflection.Emit.MethodBuilder::NotSupported()
-extern "C" Exception_t57 * MethodBuilder_NotSupported_m17920 (MethodBuilder_t4531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Exception_t57 * MethodBuilder_NotSupported_m22386 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo System.Reflection.Emit.MethodBuilder::MakeGenericMethod(System.Type[])
-extern "C" MethodInfo_t * MethodBuilder_MakeGenericMethod_m17921 (MethodBuilder_t4531 * __this, TypeU5BU5D_t1220* ___typeArguments, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodInfo_t * MethodBuilder_MakeGenericMethod_m22387 (MethodBuilder_t5061 * __this, TypeU5BU5D_t1220* ___typeArguments, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Emit.MethodBuilder::get_IsGenericMethodDefinition()
-extern "C" bool MethodBuilder_get_IsGenericMethodDefinition_m17922 (MethodBuilder_t4531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MethodBuilder_get_IsGenericMethodDefinition_m22388 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Emit.MethodBuilder::get_IsGenericMethod()
-extern "C" bool MethodBuilder_get_IsGenericMethod_m17923 (MethodBuilder_t4531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MethodBuilder_get_IsGenericMethod_m22389 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo System.Reflection.Emit.MethodBuilder::GetGenericMethodDefinition()
-extern "C" MethodInfo_t * MethodBuilder_GetGenericMethodDefinition_m17924 (MethodBuilder_t4531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodInfo_t * MethodBuilder_GetGenericMethodDefinition_m22390 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type[] System.Reflection.Emit.MethodBuilder::GetGenericArguments()
-extern "C" TypeU5BU5D_t1220* MethodBuilder_GetGenericArguments_m17925 (MethodBuilder_t4531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TypeU5BU5D_t1220* MethodBuilder_GetGenericArguments_m22391 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Module System.Reflection.Emit.MethodBuilder::get_Module()
-extern "C" Module_t4535 * MethodBuilder_get_Module_m17926 (MethodBuilder_t4531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Module_t5023 * MethodBuilder_get_Module_m22392 (MethodBuilder_t5061 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

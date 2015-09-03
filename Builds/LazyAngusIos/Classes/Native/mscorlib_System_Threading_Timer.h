@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Threading.Timer/Scheduler
-struct Scheduler_t4792;
+struct Scheduler_t5384;
 // System.Threading.TimerCallback
 struct TimerCallback_t2175;
 // System.Object
@@ -9,7 +9,7 @@ struct Object_t;
 // System.MarshalByRefObject
 #include "mscorlib_System_MarshalByRefObject.h"
 // System.Threading.Timer
-struct  Timer_t2174  : public MarshalByRefObject_t4093
+struct  Timer_t2174  : public MarshalByRefObject_t4288
 {
 	// System.Threading.TimerCallback System.Threading.Timer::callback
 	TimerCallback_t2175 * ___callback_2;
@@ -26,5 +26,5 @@ struct  Timer_t2174  : public MarshalByRefObject_t4093
 };
 struct Timer_t2174_StaticFields{
 	// System.Threading.Timer/Scheduler System.Threading.Timer::scheduler
-	Scheduler_t4792 * ___scheduler_1;
+	Scheduler_t5384 * ___scheduler_1;
 };

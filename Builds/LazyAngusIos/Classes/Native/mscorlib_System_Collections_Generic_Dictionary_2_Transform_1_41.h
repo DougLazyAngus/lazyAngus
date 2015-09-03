@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>
-struct Reference_t5966;
+struct Reference_t6499;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -13,6 +13,6 @@ struct AsyncCallback_t386;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object,System.Collections.DictionaryEntry>
-struct  Transform_1_t5969  : public MulticastDelegate_t388
+struct  Transform_1_t6502  : public MulticastDelegate_t388
 {
 };

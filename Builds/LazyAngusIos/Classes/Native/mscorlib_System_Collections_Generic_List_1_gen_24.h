@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // RealAngusItemDesc[]
-struct RealAngusItemDescU5BU5D_t5778;
+struct RealAngusItemDescU5BU5D_t6311;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<RealAngusItemDesc>
 struct  List_1_t643  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<RealAngusItemDesc>::_items
-	RealAngusItemDescU5BU5D_t5778* ____items_1;
+	RealAngusItemDescU5BU5D_t6311* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<RealAngusItemDesc>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<RealAngusItemDesc>::_version
@@ -16,5 +16,5 @@ struct  List_1_t643  : public Object_t
 };
 struct List_1_t643_StaticFields{
 	// T[] System.Collections.Generic.List`1<RealAngusItemDesc>::EmptyArray
-	RealAngusItemDescU5BU5D_t5778* ___EmptyArray_4;
+	RealAngusItemDescU5BU5D_t6311* ___EmptyArray_4;
 };

@@ -10,8 +10,8 @@ struct TWAPITest_t326;
 struct TW_APIRequstResult_t322;
 
 // System.Void TWAPITest::.ctor()
-extern "C" void TWAPITest__ctor_m1717 (TWAPITest_t326 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TWAPITest__ctor_m1719 (TWAPITest_t326 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TWAPITest::Start()
-extern "C" void TWAPITest_Start_m1718 (TWAPITest_t326 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TWAPITest_Start_m1720 (TWAPITest_t326 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TWAPITest::OnResult(TW_APIRequstResult)
-extern "C" void TWAPITest_OnResult_m1719 (TWAPITest_t326 * __this, TW_APIRequstResult_t322 * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TWAPITest_OnResult_m1721 (TWAPITest_t326 * __this, TW_APIRequstResult_t322 * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

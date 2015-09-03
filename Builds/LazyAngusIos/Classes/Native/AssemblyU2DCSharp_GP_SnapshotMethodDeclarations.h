@@ -8,4 +8,4 @@
 struct GP_Snapshot_t242;
 
 // System.Void GP_Snapshot::.ctor()
-extern "C" void GP_Snapshot__ctor_m1409 (GP_Snapshot_t242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GP_Snapshot__ctor_m1411 (GP_Snapshot_t242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

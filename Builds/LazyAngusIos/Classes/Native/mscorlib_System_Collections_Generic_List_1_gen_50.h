@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Action`1<System.Threading.Tasks.Task>[]
-struct Action_1U5BU5D_t8386;
+struct Action_1U5BU5D_t8921;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<System.Action`1<System.Threading.Tasks.Task>>
 struct  List_1_t2172  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<System.Action`1<System.Threading.Tasks.Task>>::_items
-	Action_1U5BU5D_t8386* ____items_1;
+	Action_1U5BU5D_t8921* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<System.Action`1<System.Threading.Tasks.Task>>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<System.Action`1<System.Threading.Tasks.Task>>::_version
@@ -16,5 +16,5 @@ struct  List_1_t2172  : public Object_t
 };
 struct List_1_t2172_StaticFields{
 	// T[] System.Collections.Generic.List`1<System.Action`1<System.Threading.Tasks.Task>>::EmptyArray
-	Action_1U5BU5D_t8386* ___EmptyArray_4;
+	Action_1U5BU5D_t8921* ___EmptyArray_4;
 };

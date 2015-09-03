@@ -12,6 +12,6 @@ struct Task_1_t1404;
 struct Task_t1227;
 
 // System.Void Parse.ParseObject/<>c__DisplayClass1c::.ctor()
-extern "C" void U3CU3Ec__DisplayClass1c__ctor_m6928 (U3CU3Ec__DisplayClass1c_t1272 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass1c__ctor_m6932 (U3CU3Ec__DisplayClass1c_t1272 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>> Parse.ParseObject/<>c__DisplayClass1c::<FetchAsyncInternal>b__1a(System.Threading.Tasks.Task)
-extern "C" Task_1_t1404 * U3CU3Ec__DisplayClass1c_U3CFetchAsyncInternalU3Eb__1a_m6929 (U3CU3Ec__DisplayClass1c_t1272 * __this, Task_t1227 * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1404 * U3CU3Ec__DisplayClass1c_U3CFetchAsyncInternalU3Eb__1a_m6933 (U3CU3Ec__DisplayClass1c_t1272 * __this, Task_t1227 * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;

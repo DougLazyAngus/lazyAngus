@@ -1,12 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Enum
-#include "mscorlib_System_Enum.h"
+// System.Security.Cryptography.X509Certificates.X509Certificate2
+struct X509Certificate2_t3278;
+// System.Security.Cryptography.X509Certificates.X509ChainStatus[]
+struct X509ChainStatusU5BU5D_t4446;
+// System.String
+struct String_t;
+// System.Object
+#include "mscorlib_System_Object.h"
 // System.Security.Cryptography.X509Certificates.X509ChainStatusFlags
-#include "System_System_Security_Cryptography_X509Certificates_X509Cha_1.h"
-// System.Security.Cryptography.X509Certificates.X509ChainStatusFlags
-struct  X509ChainStatusFlags_t4118 
+#include "System_System_Security_Cryptography_X509Certificates_X509Cha_2.h"
+// System.Security.Cryptography.X509Certificates.X509ChainElement
+struct  X509ChainElement_t4448  : public Object_t
 {
-	// System.Int32 System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::value__
-	int32_t ___value___1;
+	// System.Security.Cryptography.X509Certificates.X509Certificate2 System.Security.Cryptography.X509Certificates.X509ChainElement::certificate
+	X509Certificate2_t3278 * ___certificate_0;
+	// System.Security.Cryptography.X509Certificates.X509ChainStatus[] System.Security.Cryptography.X509Certificates.X509ChainElement::status
+	X509ChainStatusU5BU5D_t4446* ___status_1;
+	// System.String System.Security.Cryptography.X509Certificates.X509ChainElement::info
+	String_t* ___info_2;
+	// System.Security.Cryptography.X509Certificates.X509ChainStatusFlags System.Security.Cryptography.X509Certificates.X509ChainElement::compressed_status_flags
+	int32_t ___compressed_status_flags_3;
 };

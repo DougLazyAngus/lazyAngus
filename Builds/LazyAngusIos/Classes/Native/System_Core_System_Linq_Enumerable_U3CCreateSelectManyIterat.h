@@ -7,24 +7,24 @@ struct IEnumerator_1_t105;
 // System.Object
 struct Object_t;
 // System.Func`2<System.Object,System.Collections.Generic.IEnumerable`1<System.Object>>
-struct Func_2_t6187;
+struct Func_2_t6720;
 // System.Func`3<System.Object,System.Object,System.Object>
 struct Func_3_t1211;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.Enumerable/<CreateSelectManyIterator>c__Iterator14`3<System.Object,System.Object,System.Object>
-struct  U3CCreateSelectManyIteratorU3Ec__Iterator14_3_t6188  : public Object_t
+struct  U3CCreateSelectManyIteratorU3Ec__Iterator14_3_t6721  : public Object_t
 {
 	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateSelectManyIterator>c__Iterator14`3<System.Object,System.Object,System.Object>::source
 	Object_t* ___source_0;
-	// System.Collections.Generic.IEnumerator`1<TSource> System.Linq.Enumerable/<CreateSelectManyIterator>c__Iterator14`3<System.Object,System.Object,System.Object>::<$s_76>__0
-	Object_t* ___U3CU24s_76U3E__0_1;
+	// System.Collections.Generic.IEnumerator`1<TSource> System.Linq.Enumerable/<CreateSelectManyIterator>c__Iterator14`3<System.Object,System.Object,System.Object>::<$s_66>__0
+	Object_t* ___U3CU24s_66U3E__0_1;
 	// TSource System.Linq.Enumerable/<CreateSelectManyIterator>c__Iterator14`3<System.Object,System.Object,System.Object>::<element>__1
 	Object_t * ___U3CelementU3E__1_2;
 	// System.Func`2<TSource,System.Collections.Generic.IEnumerable`1<TCollection>> System.Linq.Enumerable/<CreateSelectManyIterator>c__Iterator14`3<System.Object,System.Object,System.Object>::collectionSelector
-	Func_2_t6187 * ___collectionSelector_3;
-	// System.Collections.Generic.IEnumerator`1<TCollection> System.Linq.Enumerable/<CreateSelectManyIterator>c__Iterator14`3<System.Object,System.Object,System.Object>::<$s_77>__2
-	Object_t* ___U3CU24s_77U3E__2_4;
+	Func_2_t6720 * ___collectionSelector_3;
+	// System.Collections.Generic.IEnumerator`1<TCollection> System.Linq.Enumerable/<CreateSelectManyIterator>c__Iterator14`3<System.Object,System.Object,System.Object>::<$s_67>__2
+	Object_t* ___U3CU24s_67U3E__2_4;
 	// TCollection System.Linq.Enumerable/<CreateSelectManyIterator>c__Iterator14`3<System.Object,System.Object,System.Object>::<collection>__3
 	Object_t * ___U3CcollectionU3E__3_5;
 	// System.Func`3<TSource,TCollection,TResult> System.Linq.Enumerable/<CreateSelectManyIterator>c__Iterator14`3<System.Object,System.Object,System.Object>::selector
@@ -36,7 +36,7 @@ struct  U3CCreateSelectManyIteratorU3Ec__Iterator14_3_t6188  : public Object_t
 	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateSelectManyIterator>c__Iterator14`3<System.Object,System.Object,System.Object>::<$>source
 	Object_t* ___U3CU24U3Esource_9;
 	// System.Func`2<TSource,System.Collections.Generic.IEnumerable`1<TCollection>> System.Linq.Enumerable/<CreateSelectManyIterator>c__Iterator14`3<System.Object,System.Object,System.Object>::<$>collectionSelector
-	Func_2_t6187 * ___U3CU24U3EcollectionSelector_10;
+	Func_2_t6720 * ___U3CU24U3EcollectionSelector_10;
 	// System.Func`3<TSource,TCollection,TResult> System.Linq.Enumerable/<CreateSelectManyIterator>c__Iterator14`3<System.Object,System.Object,System.Object>::<$>selector
 	Func_3_t1211 * ___U3CU24U3Eselector_11;
 };

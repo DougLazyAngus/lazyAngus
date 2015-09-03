@@ -5,11 +5,11 @@ struct String_t;
 // System.Uri
 struct Uri_t771;
 // System.Xml.XmlResolver
-struct XmlResolver_t3197;
+struct XmlResolver_t3433;
 // Mono.Xml.DTDNode
 #include "System_Xml_Mono_Xml_DTDNode.h"
 // Mono.Xml.DTDEntityBase
-struct  DTDEntityBase_t3211  : public DTDNode_t3199
+struct  DTDEntityBase_t3472  : public DTDNode_t3459
 {
 	// System.String Mono.Xml.DTDEntityBase::name
 	String_t* ___name_5;
@@ -30,5 +30,5 @@ struct  DTDEntityBase_t3211  : public DTDNode_t3199
 	// System.Boolean Mono.Xml.DTDEntityBase::loadFailed
 	bool ___loadFailed_13;
 	// System.Xml.XmlResolver Mono.Xml.DTDEntityBase::resolver
-	XmlResolver_t3197 * ___resolver_14;
+	XmlResolver_t3433 * ___resolver_14;
 };

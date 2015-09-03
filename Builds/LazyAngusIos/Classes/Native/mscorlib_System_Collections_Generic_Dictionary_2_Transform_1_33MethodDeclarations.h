@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<System.String,Facebook.FacebookDelegate,System.Collections.DictionaryEntry>
-struct Transform_1_t5678;
+struct Transform_1_t6211;
 // System.Object
 struct Object_t;
 // System.String
@@ -24,10 +24,10 @@ struct AsyncCallback_t386;
 // System.Void System.Collections.Generic.Dictionary`2/Transform`1<System.String,Facebook.FacebookDelegate,System.Collections.DictionaryEntry>::.ctor(System.Object,System.IntPtr)
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Object,System.Collections.DictionaryEntry>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Transform_1_5MethodDeclarations.h"
-#define Transform_1__ctor_m26325(__this, ___object, ___method, method) (( void (*) (Transform_1_t5678 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m22115_gshared)(__this, ___object, ___method, method)
+#define Transform_1__ctor_m30540(__this, ___object, ___method, method) (( void (*) (Transform_1_t6211 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m26306_gshared)(__this, ___object, ___method, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<System.String,Facebook.FacebookDelegate,System.Collections.DictionaryEntry>::Invoke(TKey,TValue)
-#define Transform_1_Invoke_m26326(__this, ___key, ___value, method) (( DictionaryEntry_t2156  (*) (Transform_1_t5678 *, String_t*, FacebookDelegate_t433 *, const MethodInfo*))Transform_1_Invoke_m22116_gshared)(__this, ___key, ___value, method)
+#define Transform_1_Invoke_m30541(__this, ___key, ___value, method) (( DictionaryEntry_t2156  (*) (Transform_1_t6211 *, String_t*, FacebookDelegate_t433 *, const MethodInfo*))Transform_1_Invoke_m26307_gshared)(__this, ___key, ___value, method)
 // System.IAsyncResult System.Collections.Generic.Dictionary`2/Transform`1<System.String,Facebook.FacebookDelegate,System.Collections.DictionaryEntry>::BeginInvoke(TKey,TValue,System.AsyncCallback,System.Object)
-#define Transform_1_BeginInvoke_m26327(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t5678 *, String_t*, FacebookDelegate_t433 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m22117_gshared)(__this, ___key, ___value, ___callback, ___object, method)
+#define Transform_1_BeginInvoke_m30542(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t6211 *, String_t*, FacebookDelegate_t433 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m26308_gshared)(__this, ___key, ___value, ___callback, ___object, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<System.String,Facebook.FacebookDelegate,System.Collections.DictionaryEntry>::EndInvoke(System.IAsyncResult)
-#define Transform_1_EndInvoke_m26328(__this, ___result, method) (( DictionaryEntry_t2156  (*) (Transform_1_t5678 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m22118_gshared)(__this, ___result, method)
+#define Transform_1_EndInvoke_m30543(__this, ___result, method) (( DictionaryEntry_t2156  (*) (Transform_1_t6211 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m26309_gshared)(__this, ___result, method)

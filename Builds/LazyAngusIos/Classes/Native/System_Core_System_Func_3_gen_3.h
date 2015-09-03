@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // <>f__AnonymousType6`2<System.Object,Parse.ParseObject>
-struct U3CU3Ef__AnonymousType6_2_t6163;
+struct U3CU3Ef__AnonymousType6_2_t6696;
 // System.Object
 struct Object_t;
 // Parse.ParseObject
@@ -13,6 +13,6 @@ struct AsyncCallback_t386;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`3<System.Object,Parse.ParseObject,<>f__AnonymousType6`2<System.Object,Parse.ParseObject>>
-struct  Func_3_t6153  : public MulticastDelegate_t388
+struct  Func_3_t6686  : public MulticastDelegate_t388
 {
 };

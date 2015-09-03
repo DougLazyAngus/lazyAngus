@@ -5,39 +5,39 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.HMAC
-struct HMAC_t3937;
+struct HMAC_t3261;
 // System.String
 struct String_t;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // Mono.Security.Cryptography.BlockProcessor
-struct BlockProcessor_t4412;
+struct BlockProcessor_t4799;
 
 // System.Void System.Security.Cryptography.HMAC::.ctor()
-extern "C" void HMAC__ctor_m18791 (HMAC_t3937 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMAC__ctor_m23343 (HMAC_t3261 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.HMAC::get_BlockSizeValue()
-extern "C" int32_t HMAC_get_BlockSizeValue_m18792 (HMAC_t3937 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t HMAC_get_BlockSizeValue_m23344 (HMAC_t3261 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.HMAC::set_BlockSizeValue(System.Int32)
-extern "C" void HMAC_set_BlockSizeValue_m18793 (HMAC_t3937 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMAC_set_BlockSizeValue_m23345 (HMAC_t3261 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.HMAC::set_HashName(System.String)
-extern "C" void HMAC_set_HashName_m18794 (HMAC_t3937 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMAC_set_HashName_m23346 (HMAC_t3261 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.HMAC::get_Key()
-extern "C" ByteU5BU5D_t66* HMAC_get_Key_m18795 (HMAC_t3937 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* HMAC_get_Key_m23347 (HMAC_t3261 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.HMAC::set_Key(System.Byte[])
-extern "C" void HMAC_set_Key_m18796 (HMAC_t3937 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMAC_set_Key_m23348 (HMAC_t3261 * __this, ByteU5BU5D_t66* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.Cryptography.BlockProcessor System.Security.Cryptography.HMAC::get_Block()
-extern "C" BlockProcessor_t4412 * HMAC_get_Block_m18797 (HMAC_t3937 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" BlockProcessor_t4799 * HMAC_get_Block_m23349 (HMAC_t3261 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.HMAC::KeySetup(System.Byte[],System.Byte)
-extern "C" ByteU5BU5D_t66* HMAC_KeySetup_m18798 (HMAC_t3937 * __this, ByteU5BU5D_t66* ___key, uint8_t ___padding, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* HMAC_KeySetup_m23350 (HMAC_t3261 * __this, ByteU5BU5D_t66* ___key, uint8_t ___padding, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.HMAC::Dispose(System.Boolean)
-extern "C" void HMAC_Dispose_m18799 (HMAC_t3937 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMAC_Dispose_m23351 (HMAC_t3261 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.HMAC::HashCore(System.Byte[],System.Int32,System.Int32)
-extern "C" void HMAC_HashCore_m18800 (HMAC_t3937 * __this, ByteU5BU5D_t66* ___rgb, int32_t ___ib, int32_t ___cb, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMAC_HashCore_m23352 (HMAC_t3261 * __this, ByteU5BU5D_t66* ___rgb, int32_t ___ib, int32_t ___cb, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.HMAC::HashFinal()
-extern "C" ByteU5BU5D_t66* HMAC_HashFinal_m18801 (HMAC_t3937 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* HMAC_HashFinal_m23353 (HMAC_t3261 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.HMAC::Initialize()
-extern "C" void HMAC_Initialize_m18802 (HMAC_t3937 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMAC_Initialize_m23354 (HMAC_t3261 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.HMAC System.Security.Cryptography.HMAC::Create()
-extern "C" HMAC_t3937 * HMAC_Create_m13310 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" HMAC_t3261 * HMAC_Create_m11500 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.HMAC System.Security.Cryptography.HMAC::Create(System.String)
-extern "C" HMAC_t3937 * HMAC_Create_m18803 (Object_t * __this /* static, unused */, String_t* ___algorithmName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" HMAC_t3261 * HMAC_Create_m23355 (Object_t * __this /* static, unused */, String_t* ___algorithmName, const MethodInfo* method) IL2CPP_METHOD_ATTR;

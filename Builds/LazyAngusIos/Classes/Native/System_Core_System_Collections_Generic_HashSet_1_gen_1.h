@@ -3,11 +3,11 @@
 // System.Int32[]
 struct Int32U5BU5D_t484;
 // System.Collections.Generic.HashSet`1/Link<Parse.ParseObject>[]
-struct LinkU5BU5D_t6273;
+struct LinkU5BU5D_t6806;
 // Parse.ParseObject[]
 struct ParseObjectU5BU5D_t1466;
 // System.Collections.Generic.IEqualityComparer`1<Parse.ParseObject>
-struct IEqualityComparer_1_t6275;
+struct IEqualityComparer_1_t6808;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t2936;
 // System.Object
@@ -18,7 +18,7 @@ struct  HashSet_1_t1286  : public Object_t
 	// System.Int32[] System.Collections.Generic.HashSet`1<Parse.ParseObject>::table
 	Int32U5BU5D_t484* ___table_0;
 	// System.Collections.Generic.HashSet`1/Link<T>[] System.Collections.Generic.HashSet`1<Parse.ParseObject>::links
-	LinkU5BU5D_t6273* ___links_1;
+	LinkU5BU5D_t6806* ___links_1;
 	// T[] System.Collections.Generic.HashSet`1<Parse.ParseObject>::slots
 	ParseObjectU5BU5D_t1466* ___slots_2;
 	// System.Int32 System.Collections.Generic.HashSet`1<Parse.ParseObject>::touched

@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<System.Collections.Generic.Dictionary`2<System.String,Parse.ParseUser>>
-struct IList_1_t7198;
+struct IList_1_t7733;
 // System.Func`2<System.Collections.Generic.Dictionary`2<System.String,Parse.ParseUser>,System.Object>
-struct Func_2_t7199;
+struct Func_2_t7734;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.FlexibleListWrapper`2<System.Object,System.Collections.Generic.Dictionary`2<System.String,Parse.ParseUser>>
@@ -14,5 +14,5 @@ struct  FlexibleListWrapper_2_t1863  : public Object_t
 };
 struct FlexibleListWrapper_2_t1863_StaticFields{
 	// System.Func`2<TIn,TOut> Parse.Internal.FlexibleListWrapper`2<System.Object,System.Collections.Generic.Dictionary`2<System.String,Parse.ParseUser>>::CS$<>9__CachedAnonymousMethodDelegate1
-	Func_2_t7199 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_1;
+	Func_2_t7734 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_1;
 };

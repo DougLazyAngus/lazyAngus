@@ -8,6 +8,6 @@
 struct RemoteNotification_t2779;
 
 // System.Void UnityEngine.iOS.RemoteNotification::Destroy()
-extern "C" void RemoteNotification_Destroy_m9595 (RemoteNotification_t2779 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemoteNotification_Destroy_m9598 (RemoteNotification_t2779 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.iOS.RemoteNotification::Finalize()
-extern "C" void RemoteNotification_Finalize_m9596 (RemoteNotification_t2779 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemoteNotification_Finalize_m9599 (RemoteNotification_t2779 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

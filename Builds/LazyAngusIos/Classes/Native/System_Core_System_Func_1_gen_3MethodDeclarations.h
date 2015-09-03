@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`1<Parse.ParseObject>::.ctor(System.Object,System.IntPtr)
 // System.Func`1<System.Object>
 #include "System_Core_System_Func_1_gen_7MethodDeclarations.h"
-#define Func_1__ctor_m7737(__this, ___object, ___method, method) (( void (*) (Func_1_t1412 *, Object_t *, IntPtr_t, const MethodInfo*))Func_1__ctor_m31021_gshared)(__this, ___object, ___method, method)
+#define Func_1__ctor_m7741(__this, ___object, ___method, method) (( void (*) (Func_1_t1412 *, Object_t *, IntPtr_t, const MethodInfo*))Func_1__ctor_m35244_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`1<Parse.ParseObject>::Invoke()
-#define Func_1_Invoke_m32841(__this, method) (( ParseObject_t1238 * (*) (Func_1_t1412 *, const MethodInfo*))Func_1_Invoke_m31023_gshared)(__this, method)
+#define Func_1_Invoke_m37073(__this, method) (( ParseObject_t1238 * (*) (Func_1_t1412 *, const MethodInfo*))Func_1_Invoke_m35246_gshared)(__this, method)
 // System.IAsyncResult System.Func`1<Parse.ParseObject>::BeginInvoke(System.AsyncCallback,System.Object)
-#define Func_1_BeginInvoke_m32842(__this, ___callback, ___object, method) (( Object_t * (*) (Func_1_t1412 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_1_BeginInvoke_m31025_gshared)(__this, ___callback, ___object, method)
+#define Func_1_BeginInvoke_m37074(__this, ___callback, ___object, method) (( Object_t * (*) (Func_1_t1412 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_1_BeginInvoke_m35248_gshared)(__this, ___callback, ___object, method)
 // TResult System.Func`1<Parse.ParseObject>::EndInvoke(System.IAsyncResult)
-#define Func_1_EndInvoke_m32843(__this, ___result, method) (( ParseObject_t1238 * (*) (Func_1_t1412 *, Object_t *, const MethodInfo*))Func_1_EndInvoke_m31027_gshared)(__this, ___result, method)
+#define Func_1_EndInvoke_m37075(__this, ___result, method) (( ParseObject_t1238 * (*) (Func_1_t1412 *, Object_t *, const MethodInfo*))Func_1_EndInvoke_m35250_gshared)(__this, ___result, method)

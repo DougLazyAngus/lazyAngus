@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<System.Int32>
-struct IList_1_t5701;
+struct IList_1_t6234;
 // System.Func`2<System.Int32,System.Object>
 struct Func_2_t1496;
 // System.Object

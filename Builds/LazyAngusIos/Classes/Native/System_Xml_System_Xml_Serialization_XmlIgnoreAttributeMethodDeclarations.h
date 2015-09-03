@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Serialization.XmlIgnoreAttribute
-struct XmlIgnoreAttribute_t3187;
+struct XmlIgnoreAttribute_t3711;
 
 // System.Void System.Xml.Serialization.XmlIgnoreAttribute::.ctor()
-extern "C" void XmlIgnoreAttribute__ctor_m10683 (XmlIgnoreAttribute_t3187 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlIgnoreAttribute__ctor_m14709 (XmlIgnoreAttribute_t3711 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

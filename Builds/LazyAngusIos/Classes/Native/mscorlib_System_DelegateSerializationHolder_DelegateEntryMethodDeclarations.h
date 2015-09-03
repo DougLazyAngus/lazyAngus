@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.DelegateSerializationHolder/DelegateEntry
-struct DelegateEntry_t4814;
+struct DelegateEntry_t4868;
 // System.Delegate
 struct Delegate_t738;
 // System.String
@@ -14,6 +14,6 @@ struct String_t;
 struct SerializationInfo_t2936;
 
 // System.Void System.DelegateSerializationHolder/DelegateEntry::.ctor(System.Delegate,System.String)
-extern "C" void DelegateEntry__ctor_m19858 (DelegateEntry_t4814 * __this, Delegate_t738 * ___del, String_t* ___targetLabel, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DelegateEntry__ctor_m20371 (DelegateEntry_t4868 * __this, Delegate_t738 * ___del, String_t* ___targetLabel, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Delegate System.DelegateSerializationHolder/DelegateEntry::DeserializeDelegate(System.Runtime.Serialization.SerializationInfo)
-extern "C" Delegate_t738 * DelegateEntry_DeserializeDelegate_m19859 (DelegateEntry_t4814 * __this, SerializationInfo_t2936 * ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Delegate_t738 * DelegateEntry_DeserializeDelegate_m20372 (DelegateEntry_t4868 * __this, SerializationInfo_t2936 * ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;

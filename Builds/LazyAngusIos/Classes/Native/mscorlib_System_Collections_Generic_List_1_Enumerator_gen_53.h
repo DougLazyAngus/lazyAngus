@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.WeakReference>
-struct List_1_t6058;
-// System.WeakReference
-struct WeakReference_t2241;
+// System.Collections.Generic.List`1<System.Threading.Tasks.Task>
+struct List_1_t1510;
+// System.Threading.Tasks.Task
+struct Task_t1227;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<System.WeakReference>
-struct  Enumerator_t6061 
+// System.Collections.Generic.List`1/Enumerator<System.Threading.Tasks.Task>
+struct  Enumerator_t6557 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.WeakReference>::l
-	List_1_t6058 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.WeakReference>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Threading.Tasks.Task>::l
+	List_1_t1510 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Threading.Tasks.Task>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.WeakReference>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Threading.Tasks.Task>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.WeakReference>::current
-	WeakReference_t2241 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.Threading.Tasks.Task>::current
+	Task_t1227 * ___current_3;
 };

@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Serialization.XmlElementAttribute
-struct XmlElementAttribute_t3185;
+struct XmlElementAttribute_t3709;
 // System.Type
 struct Type_t;
 // System.String
 struct String_t;
 
 // System.Void System.Xml.Serialization.XmlElementAttribute::.ctor(System.String)
-extern "C" void XmlElementAttribute__ctor_m10679 (XmlElementAttribute_t3185 * __this, String_t* ___elementName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlElementAttribute__ctor_m14705 (XmlElementAttribute_t3709 * __this, String_t* ___elementName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.Serialization.XmlElementAttribute::.ctor(System.String,System.Type)
-extern "C" void XmlElementAttribute__ctor_m10680 (XmlElementAttribute_t3185 * __this, String_t* ___elementName, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlElementAttribute__ctor_m14706 (XmlElementAttribute_t3709 * __this, String_t* ___elementName, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.Serialization.XmlElementAttribute::set_Type(System.Type)
-extern "C" void XmlElementAttribute_set_Type_m10681 (XmlElementAttribute_t3185 * __this, Type_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlElementAttribute_set_Type_m14707 (XmlElementAttribute_t3709 * __this, Type_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

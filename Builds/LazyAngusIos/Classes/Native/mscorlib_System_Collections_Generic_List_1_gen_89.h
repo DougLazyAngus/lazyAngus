@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// Parse.ParseACL[]
-struct ParseACLU5BU5D_t7001;
+// Parse.ParseFile[]
+struct ParseFileU5BU5D_t7527;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<Parse.ParseACL>
-struct  List_1_t7002  : public Object_t
+// System.Collections.Generic.List`1<Parse.ParseFile>
+struct  List_1_t7528  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<Parse.ParseACL>::_items
-	ParseACLU5BU5D_t7001* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<Parse.ParseACL>::_size
+	// T[] System.Collections.Generic.List`1<Parse.ParseFile>::_items
+	ParseFileU5BU5D_t7527* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<Parse.ParseFile>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<Parse.ParseACL>::_version
+	// System.Int32 System.Collections.Generic.List`1<Parse.ParseFile>::_version
 	int32_t ____version_3;
 };
-struct List_1_t7002_StaticFields{
-	// T[] System.Collections.Generic.List`1<Parse.ParseACL>::EmptyArray
-	ParseACLU5BU5D_t7001* ___EmptyArray_4;
+struct List_1_t7528_StaticFields{
+	// T[] System.Collections.Generic.List`1<Parse.ParseFile>::EmptyArray
+	ParseFileU5BU5D_t7527* ___EmptyArray_4;
 };

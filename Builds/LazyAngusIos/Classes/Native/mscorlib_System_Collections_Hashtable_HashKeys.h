@@ -5,7 +5,7 @@ struct Hashtable_t710;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Hashtable/HashKeys
-struct  HashKeys_t4461  : public Object_t
+struct  HashKeys_t4946  : public Object_t
 {
 	// System.Collections.Hashtable System.Collections.Hashtable/HashKeys::host
 	Hashtable_t710 * ___host_0;

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<System.String,Parse.ParseGeoPoint,System.Collections.DictionaryEntry>
-struct Transform_1_t7162;
+struct Transform_1_t7697;
 // System.Object
 struct Object_t;
 // System.String
@@ -24,10 +24,10 @@ struct AsyncCallback_t386;
 // System.Void System.Collections.Generic.Dictionary`2/Transform`1<System.String,Parse.ParseGeoPoint,System.Collections.DictionaryEntry>::.ctor(System.Object,System.IntPtr)
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Object,Parse.ParseGeoPoint,System.Collections.DictionaryEntry>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Transform_1_85MethodDeclarations.h"
-#define Transform_1__ctor_m45922(__this, ___object, ___method, method) (( void (*) (Transform_1_t7162 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m45923_gshared)(__this, ___object, ___method, method)
+#define Transform_1__ctor_m50178(__this, ___object, ___method, method) (( void (*) (Transform_1_t7697 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m50179_gshared)(__this, ___object, ___method, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<System.String,Parse.ParseGeoPoint,System.Collections.DictionaryEntry>::Invoke(TKey,TValue)
-#define Transform_1_Invoke_m45924(__this, ___key, ___value, method) (( DictionaryEntry_t2156  (*) (Transform_1_t7162 *, String_t*, ParseGeoPoint_t1264 , const MethodInfo*))Transform_1_Invoke_m45925_gshared)(__this, ___key, ___value, method)
+#define Transform_1_Invoke_m50180(__this, ___key, ___value, method) (( DictionaryEntry_t2156  (*) (Transform_1_t7697 *, String_t*, ParseGeoPoint_t1264 , const MethodInfo*))Transform_1_Invoke_m50181_gshared)(__this, ___key, ___value, method)
 // System.IAsyncResult System.Collections.Generic.Dictionary`2/Transform`1<System.String,Parse.ParseGeoPoint,System.Collections.DictionaryEntry>::BeginInvoke(TKey,TValue,System.AsyncCallback,System.Object)
-#define Transform_1_BeginInvoke_m45926(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t7162 *, String_t*, ParseGeoPoint_t1264 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m45927_gshared)(__this, ___key, ___value, ___callback, ___object, method)
+#define Transform_1_BeginInvoke_m50182(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t7697 *, String_t*, ParseGeoPoint_t1264 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m50183_gshared)(__this, ___key, ___value, ___callback, ___object, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<System.String,Parse.ParseGeoPoint,System.Collections.DictionaryEntry>::EndInvoke(System.IAsyncResult)
-#define Transform_1_EndInvoke_m45928(__this, ___result, method) (( DictionaryEntry_t2156  (*) (Transform_1_t7162 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m45929_gshared)(__this, ___result, method)
+#define Transform_1_EndInvoke_m50184(__this, ___result, method) (( DictionaryEntry_t2156  (*) (Transform_1_t7697 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m50185_gshared)(__this, ___result, method)

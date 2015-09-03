@@ -13,6 +13,6 @@ struct AsyncCallback_t386;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler
-struct  KeyGeneratedEventHandler_t4421  : public MulticastDelegate_t388
+struct  KeyGeneratedEventHandler_t4809  : public MulticastDelegate_t388
 {
 };

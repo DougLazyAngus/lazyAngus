@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlInputStream
-struct XmlInputStream_t3248;
+struct XmlInputStream_t3560;
 // System.Text.Encoding
 struct Encoding_t753;
 // System.IO.Stream
@@ -18,42 +18,42 @@ struct ByteU5BU5D_t66;
 #include "mscorlib_System_IO_SeekOrigin.h"
 
 // System.Void System.Xml.XmlInputStream::.ctor(System.IO.Stream)
-extern "C" void XmlInputStream__ctor_m11117 (XmlInputStream_t3248 * __this, Stream_t51 * ___stream, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlInputStream__ctor_m13602 (XmlInputStream_t3560 * __this, Stream_t51 * ___stream, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlInputStream::.cctor()
-extern "C" void XmlInputStream__cctor_m11118 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlInputStream__cctor_m13603 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlInputStream::GetStringFromBytes(System.Byte[],System.Int32,System.Int32)
-extern "C" String_t* XmlInputStream_GetStringFromBytes_m11119 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlInputStream_GetStringFromBytes_m13604 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlInputStream::Initialize(System.IO.Stream)
-extern "C" void XmlInputStream_Initialize_m11120 (XmlInputStream_t3248 * __this, Stream_t51 * ___stream, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlInputStream_Initialize_m13605 (XmlInputStream_t3560 * __this, Stream_t51 * ___stream, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Xml.XmlInputStream::ReadByteSpecial()
-extern "C" int32_t XmlInputStream_ReadByteSpecial_m11121 (XmlInputStream_t3248 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlInputStream_ReadByteSpecial_m13606 (XmlInputStream_t3560 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Xml.XmlInputStream::SkipWhitespace()
-extern "C" int32_t XmlInputStream_SkipWhitespace_m11122 (XmlInputStream_t3248 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlInputStream_SkipWhitespace_m13607 (XmlInputStream_t3560 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.Encoding System.Xml.XmlInputStream::get_ActualEncoding()
-extern "C" Encoding_t753 * XmlInputStream_get_ActualEncoding_m11123 (XmlInputStream_t3248 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Encoding_t753 * XmlInputStream_get_ActualEncoding_m13608 (XmlInputStream_t3560 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Xml.XmlInputStream::get_CanRead()
-extern "C" bool XmlInputStream_get_CanRead_m11124 (XmlInputStream_t3248 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool XmlInputStream_get_CanRead_m13609 (XmlInputStream_t3560 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Xml.XmlInputStream::get_CanSeek()
-extern "C" bool XmlInputStream_get_CanSeek_m11125 (XmlInputStream_t3248 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool XmlInputStream_get_CanSeek_m13610 (XmlInputStream_t3560 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Xml.XmlInputStream::get_CanWrite()
-extern "C" bool XmlInputStream_get_CanWrite_m11126 (XmlInputStream_t3248 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool XmlInputStream_get_CanWrite_m13611 (XmlInputStream_t3560 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Xml.XmlInputStream::get_Length()
-extern "C" int64_t XmlInputStream_get_Length_m11127 (XmlInputStream_t3248 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t XmlInputStream_get_Length_m13612 (XmlInputStream_t3560 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Xml.XmlInputStream::get_Position()
-extern "C" int64_t XmlInputStream_get_Position_m11128 (XmlInputStream_t3248 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t XmlInputStream_get_Position_m13613 (XmlInputStream_t3560 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlInputStream::set_Position(System.Int64)
-extern "C" void XmlInputStream_set_Position_m11129 (XmlInputStream_t3248 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlInputStream_set_Position_m13614 (XmlInputStream_t3560 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlInputStream::Close()
-extern "C" void XmlInputStream_Close_m11130 (XmlInputStream_t3248 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlInputStream_Close_m13615 (XmlInputStream_t3560 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlInputStream::Flush()
-extern "C" void XmlInputStream_Flush_m11131 (XmlInputStream_t3248 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlInputStream_Flush_m13616 (XmlInputStream_t3560 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Xml.XmlInputStream::Read(System.Byte[],System.Int32,System.Int32)
-extern "C" int32_t XmlInputStream_Read_m11132 (XmlInputStream_t3248 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlInputStream_Read_m13617 (XmlInputStream_t3560 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Xml.XmlInputStream::ReadByte()
-extern "C" int32_t XmlInputStream_ReadByte_m11133 (XmlInputStream_t3248 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlInputStream_ReadByte_m13618 (XmlInputStream_t3560 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Xml.XmlInputStream::Seek(System.Int64,System.IO.SeekOrigin)
-extern "C" int64_t XmlInputStream_Seek_m11134 (XmlInputStream_t3248 * __this, int64_t ___offset, int32_t ___origin, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t XmlInputStream_Seek_m13619 (XmlInputStream_t3560 * __this, int64_t ___offset, int32_t ___origin, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlInputStream::SetLength(System.Int64)
-extern "C" void XmlInputStream_SetLength_m11135 (XmlInputStream_t3248 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlInputStream_SetLength_m13620 (XmlInputStream_t3560 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlInputStream::Write(System.Byte[],System.Int32,System.Int32)
-extern "C" void XmlInputStream_Write_m11136 (XmlInputStream_t3248 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlInputStream_Write_m13621 (XmlInputStream_t3560 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;

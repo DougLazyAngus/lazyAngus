@@ -10,4 +10,4 @@ struct TooltipAttribute_t1134;
 struct String_t;
 
 // System.Void UnityEngine.TooltipAttribute::.ctor(System.String)
-extern "C" void TooltipAttribute__ctor_m6423 (TooltipAttribute_t1134 * __this, String_t* ___tooltip, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TooltipAttribute__ctor_m6427 (TooltipAttribute_t1134 * __this, String_t* ___tooltip, const MethodInfo* method) IL2CPP_METHOD_ATTR;

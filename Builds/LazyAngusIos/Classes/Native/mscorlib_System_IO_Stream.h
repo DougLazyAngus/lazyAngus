@@ -2,13 +2,13 @@
 #include <stdint.h>
 // System.IO.Stream
 struct Stream_t51;
-// System.Object
-#include "mscorlib_System_Object.h"
+// System.MarshalByRefObject
+#include "mscorlib_System_MarshalByRefObject.h"
 // System.IO.Stream
-struct  Stream_t51  : public Object_t
+struct  Stream_t51  : public MarshalByRefObject_t4288
 {
 };
 struct Stream_t51_StaticFields{
 	// System.IO.Stream System.IO.Stream::Null
-	Stream_t51 * ___Null_0;
+	Stream_t51 * ___Null_1;
 };

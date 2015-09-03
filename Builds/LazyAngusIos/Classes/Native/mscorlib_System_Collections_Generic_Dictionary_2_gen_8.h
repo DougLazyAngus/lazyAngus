@@ -3,15 +3,15 @@
 // System.Int32[]
 struct Int32U5BU5D_t484;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t5408;
+struct LinkU5BU5D_t5941;
 // IOSADBanner[]
-struct IOSADBannerU5BU5D_t5534;
+struct IOSADBannerU5BU5D_t6067;
 // System.Collections.Generic.IEqualityComparer`1<System.Int32>
-struct IEqualityComparer_1_t5409;
+struct IEqualityComparer_1_t5942;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t2936;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,IOSADBanner,System.Collections.DictionaryEntry>
-struct Transform_1_t5535;
+struct Transform_1_t6068;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<System.Int32,IOSADBanner>
@@ -20,11 +20,11 @@ struct  Dictionary_2_t151  : public Object_t
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Int32,IOSADBanner>::table
 	Int32U5BU5D_t484* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Int32,IOSADBanner>::linkSlots
-	LinkU5BU5D_t5408* ___linkSlots_5;
+	LinkU5BU5D_t5941* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.Int32,IOSADBanner>::keySlots
 	Int32U5BU5D_t484* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.Int32,IOSADBanner>::valueSlots
-	IOSADBannerU5BU5D_t5534* ___valueSlots_7;
+	IOSADBannerU5BU5D_t6067* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,IOSADBanner>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,IOSADBanner>::emptySlot
@@ -42,5 +42,5 @@ struct  Dictionary_2_t151  : public Object_t
 };
 struct Dictionary_2_t151_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.Int32,IOSADBanner>::<>f__am$cacheB
-	Transform_1_t5535 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t6068 * ___U3CU3Ef__amU24cacheB_15;
 };

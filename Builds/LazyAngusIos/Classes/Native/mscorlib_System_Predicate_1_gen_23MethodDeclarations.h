@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Predicate`1<GameAnalyticsSDK.Settings/HelpTypes>
-struct Predicate_1_t5711;
+struct Predicate_1_t6244;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Predicate`1<GameAnalyticsSDK.Settings/HelpTypes>::.ctor(System.Object,System.IntPtr)
 // System.Predicate`1<System.Int32>
 #include "mscorlib_System_Predicate_1_gen_22MethodDeclarations.h"
-#define Predicate_1__ctor_m26838(__this, ___object, ___method, method) (( void (*) (Predicate_1_t5711 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m26792_gshared)(__this, ___object, ___method, method)
+#define Predicate_1__ctor_m31054(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6244 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m31008_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<GameAnalyticsSDK.Settings/HelpTypes>::Invoke(T)
-#define Predicate_1_Invoke_m26839(__this, ___obj, method) (( bool (*) (Predicate_1_t5711 *, int32_t, const MethodInfo*))Predicate_1_Invoke_m26793_gshared)(__this, ___obj, method)
+#define Predicate_1_Invoke_m31055(__this, ___obj, method) (( bool (*) (Predicate_1_t6244 *, int32_t, const MethodInfo*))Predicate_1_Invoke_m31009_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<GameAnalyticsSDK.Settings/HelpTypes>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m26840(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t5711 *, int32_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m26794_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Predicate_1_BeginInvoke_m31056(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6244 *, int32_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m31010_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<GameAnalyticsSDK.Settings/HelpTypes>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m26841(__this, ___result, method) (( bool (*) (Predicate_1_t5711 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m26795_gshared)(__this, ___result, method)
+#define Predicate_1_EndInvoke_m31057(__this, ___result, method) (( bool (*) (Predicate_1_t6244 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m31011_gshared)(__this, ___result, method)

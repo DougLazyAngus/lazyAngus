@@ -5,11 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.Schema.XsdEntity
-struct XsdEntity_t3130;
+struct XsdEntity_t3580;
 // System.Xml.XmlTokenizedType
 #include "System_Xml_System_Xml_XmlTokenizedType.h"
+// System.Xml.Schema.XmlTypeCode
+#include "System_Xml_System_Xml_Schema_XmlTypeCode.h"
 
 // System.Void Mono.Xml.Schema.XsdEntity::.ctor()
-extern "C" void XsdEntity__ctor_m10600 (XsdEntity_t3130 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdEntity__ctor_m13704 (XsdEntity_t3580 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdEntity::get_TokenizedType()
-extern "C" int32_t XsdEntity_get_TokenizedType_m10601 (XsdEntity_t3130 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XsdEntity_get_TokenizedType_m13705 (XsdEntity_t3580 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Xml.Schema.XmlTypeCode Mono.Xml.Schema.XsdEntity::get_TypeCode()
+extern "C" int32_t XsdEntity_get_TypeCode_m13706 (XsdEntity_t3580 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

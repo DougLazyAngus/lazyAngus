@@ -5,7 +5,7 @@ struct String_t;
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.ArgumentException
-struct  ArgumentException_t725  : public SystemException_t3247
+struct  ArgumentException_t725  : public SystemException_t3383
 {
 	// System.String System.ArgumentException::param_name
 	String_t* ___param_name_12;

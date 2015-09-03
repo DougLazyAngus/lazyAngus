@@ -7,7 +7,7 @@
 // System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>
 struct Dictionary_2_t471;
 // System.Collections.Generic.ICollection`1<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType>
-struct ICollection_1_t8937;
+struct ICollection_1_t9524;
 // System.Collections.Generic.ICollection`1<System.String>
 struct ICollection_1_t1230;
 // System.Collections.ICollection
@@ -17,23 +17,23 @@ struct Object_t;
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>
-struct KeyCollection_t5690;
+struct KeyCollection_t6223;
 // System.Collections.Generic.Dictionary`2/ValueCollection<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>
-struct ValueCollection_t5691;
+struct ValueCollection_t6224;
 // System.Collections.Generic.IEqualityComparer`1<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType>
-struct IEqualityComparer_1_t5687;
+struct IEqualityComparer_1_t6220;
 // System.Collections.Generic.IDictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>
-struct IDictionary_2_t8938;
+struct IDictionary_2_t9525;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t2936;
 // System.Collections.Generic.KeyValuePair`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>[]
-struct KeyValuePair_2U5BU5D_t8939;
+struct KeyValuePair_2U5BU5D_t9526;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>>
-struct IEnumerator_1_t8940;
+struct IEnumerator_1_t9527;
 // System.Collections.IDictionaryEnumerator
 struct IDictionaryEnumerator_t798;
 // GameAnalyticsSDK.GA_ServerFieldTypes/FieldType
@@ -50,104 +50,106 @@ struct IDictionaryEnumerator_t798;
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::.ctor()
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_gen_45MethodDeclarations.h"
-#define Dictionary_2__ctor_m4283(__this, method) (( void (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2__ctor_m10325_gshared)(__this, method)
+#define Dictionary_2__ctor_m4286(__this, method) (( void (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2__ctor_m10328_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::.ctor(System.Collections.Generic.IEqualityComparer`1<TKey>)
-#define Dictionary_2__ctor_m26400(__this, ___comparer, method) (( void (*) (Dictionary_2_t471 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m21243_gshared)(__this, ___comparer, method)
+#define Dictionary_2__ctor_m30615(__this, ___comparer, method) (( void (*) (Dictionary_2_t471 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m25430_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
-#define Dictionary_2__ctor_m26401(__this, ___dictionary, method) (( void (*) (Dictionary_2_t471 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m21245_gshared)(__this, ___dictionary, method)
+#define Dictionary_2__ctor_m30616(__this, ___dictionary, method) (( void (*) (Dictionary_2_t471 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m25432_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::.ctor(System.Int32)
-#define Dictionary_2__ctor_m26402(__this, ___capacity, method) (( void (*) (Dictionary_2_t471 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m21247_gshared)(__this, ___capacity, method)
+#define Dictionary_2__ctor_m30617(__this, ___capacity, method) (( void (*) (Dictionary_2_t471 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m25434_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>,System.Collections.Generic.IEqualityComparer`1<TKey>)
-#define Dictionary_2__ctor_m26403(__this, ___dictionary, ___comparer, method) (( void (*) (Dictionary_2_t471 *, Object_t*, Object_t*, const MethodInfo*))Dictionary_2__ctor_m21249_gshared)(__this, ___dictionary, ___comparer, method)
+#define Dictionary_2__ctor_m30618(__this, ___dictionary, ___comparer, method) (( void (*) (Dictionary_2_t471 *, Object_t*, Object_t*, const MethodInfo*))Dictionary_2__ctor_m25436_gshared)(__this, ___dictionary, ___comparer, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-#define Dictionary_2__ctor_m26404(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t471 *, SerializationInfo_t2936 *, StreamingContext_t2937 , const MethodInfo*))Dictionary_2__ctor_m21251_gshared)(__this, ___info, ___context, method)
+#define Dictionary_2__ctor_m30619(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t471 *, SerializationInfo_t2936 *, StreamingContext_t2937 , const MethodInfo*))Dictionary_2__ctor_m25438_gshared)(__this, ___info, ___context, method)
 // System.Collections.Generic.ICollection`1<TKey> System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys()
-#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m26405(__this, method) (( Object_t* (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m21253_gshared)(__this, method)
+#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m30620(__this, method) (( Object_t* (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m25440_gshared)(__this, method)
 // System.Collections.Generic.ICollection`1<TValue> System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Values()
-#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m26406(__this, method) (( Object_t* (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m21255_gshared)(__this, method)
+#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m30621(__this, method) (( Object_t* (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m25442_gshared)(__this, method)
 // System.Collections.ICollection System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::System.Collections.IDictionary.get_Keys()
-#define Dictionary_2_System_Collections_IDictionary_get_Keys_m26407(__this, method) (( Object_t * (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Keys_m21257_gshared)(__this, method)
+#define Dictionary_2_System_Collections_IDictionary_get_Keys_m30622(__this, method) (( Object_t * (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Keys_m25444_gshared)(__this, method)
+// System.Collections.ICollection System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::System.Collections.IDictionary.get_Values()
+#define Dictionary_2_System_Collections_IDictionary_get_Values_m30623(__this, method) (( Object_t * (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Values_m25446_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::System.Collections.IDictionary.get_Item(System.Object)
-#define Dictionary_2_System_Collections_IDictionary_get_Item_m26408(__this, ___key, method) (( Object_t * (*) (Dictionary_2_t471 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Item_m21259_gshared)(__this, ___key, method)
+#define Dictionary_2_System_Collections_IDictionary_get_Item_m30624(__this, ___key, method) (( Object_t * (*) (Dictionary_2_t471 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Item_m25448_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::System.Collections.IDictionary.set_Item(System.Object,System.Object)
-#define Dictionary_2_System_Collections_IDictionary_set_Item_m26409(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t471 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_set_Item_m21261_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_System_Collections_IDictionary_set_Item_m30625(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t471 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_set_Item_m25450_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::System.Collections.IDictionary.Add(System.Object,System.Object)
-#define Dictionary_2_System_Collections_IDictionary_Add_m26410(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t471 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Add_m21263_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_System_Collections_IDictionary_Add_m30626(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t471 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Add_m25452_gshared)(__this, ___key, ___value, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::System.Collections.IDictionary.Contains(System.Object)
-#define Dictionary_2_System_Collections_IDictionary_Contains_m26411(__this, ___key, method) (( bool (*) (Dictionary_2_t471 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Contains_m21265_gshared)(__this, ___key, method)
+#define Dictionary_2_System_Collections_IDictionary_Contains_m30627(__this, ___key, method) (( bool (*) (Dictionary_2_t471 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Contains_m25454_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::System.Collections.IDictionary.Remove(System.Object)
-#define Dictionary_2_System_Collections_IDictionary_Remove_m26412(__this, ___key, method) (( void (*) (Dictionary_2_t471 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Remove_m21267_gshared)(__this, ___key, method)
+#define Dictionary_2_System_Collections_IDictionary_Remove_m30628(__this, ___key, method) (( void (*) (Dictionary_2_t471 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Remove_m25456_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::System.Collections.ICollection.get_IsSynchronized()
-#define Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m26413(__this, method) (( bool (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m21269_gshared)(__this, method)
+#define Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m30629(__this, method) (( bool (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m25458_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::System.Collections.ICollection.get_SyncRoot()
-#define Dictionary_2_System_Collections_ICollection_get_SyncRoot_m26414(__this, method) (( Object_t * (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_SyncRoot_m21271_gshared)(__this, method)
+#define Dictionary_2_System_Collections_ICollection_get_SyncRoot_m30630(__this, method) (( Object_t * (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_SyncRoot_m25460_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly()
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m26415(__this, method) (( bool (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m21273_gshared)(__this, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m30631(__this, method) (( bool (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m25462_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m26416(__this, ___keyValuePair, method) (( void (*) (Dictionary_2_t471 *, KeyValuePair_2_t5689 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m21275_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m30632(__this, ___keyValuePair, method) (( void (*) (Dictionary_2_t471 *, KeyValuePair_2_t6222 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m25464_gshared)(__this, ___keyValuePair, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m26417(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t471 *, KeyValuePair_2_t5689 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m21277_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m30633(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t471 *, KeyValuePair_2_t6222 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m25466_gshared)(__this, ___keyValuePair, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m26418(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t471 *, KeyValuePair_2U5BU5D_t8939*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m21279_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m30634(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t471 *, KeyValuePair_2U5BU5D_t9526*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m25468_gshared)(__this, ___array, ___index, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m26419(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t471 *, KeyValuePair_2_t5689 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m21281_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m30635(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t471 *, KeyValuePair_2_t6222 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m25470_gshared)(__this, ___keyValuePair, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define Dictionary_2_System_Collections_ICollection_CopyTo_m26420(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t471 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_System_Collections_ICollection_CopyTo_m21283_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_System_Collections_ICollection_CopyTo_m30636(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t471 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_System_Collections_ICollection_CopyTo_m25472_gshared)(__this, ___array, ___index, method)
 // System.Collections.IEnumerator System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::System.Collections.IEnumerable.GetEnumerator()
-#define Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m26421(__this, method) (( Object_t * (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m21285_gshared)(__this, method)
+#define Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m30637(__this, method) (( Object_t * (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m25474_gshared)(__this, method)
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator()
-#define Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m26422(__this, method) (( Object_t* (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m21287_gshared)(__this, method)
+#define Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m30638(__this, method) (( Object_t* (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m25476_gshared)(__this, method)
 // System.Collections.IDictionaryEnumerator System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::System.Collections.IDictionary.GetEnumerator()
-#define Dictionary_2_System_Collections_IDictionary_GetEnumerator_m26423(__this, method) (( Object_t * (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_GetEnumerator_m21289_gshared)(__this, method)
+#define Dictionary_2_System_Collections_IDictionary_GetEnumerator_m30639(__this, method) (( Object_t * (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_GetEnumerator_m25478_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::get_Count()
-#define Dictionary_2_get_Count_m26424(__this, method) (( int32_t (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_get_Count_m21291_gshared)(__this, method)
+#define Dictionary_2_get_Count_m30640(__this, method) (( int32_t (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_get_Count_m25480_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::get_Item(TKey)
-#define Dictionary_2_get_Item_m26425(__this, ___key, method) (( String_t* (*) (Dictionary_2_t471 *, int32_t, const MethodInfo*))Dictionary_2_get_Item_m21293_gshared)(__this, ___key, method)
+#define Dictionary_2_get_Item_m30641(__this, ___key, method) (( String_t* (*) (Dictionary_2_t471 *, int32_t, const MethodInfo*))Dictionary_2_get_Item_m25482_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::set_Item(TKey,TValue)
-#define Dictionary_2_set_Item_m26426(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t471 *, int32_t, String_t*, const MethodInfo*))Dictionary_2_set_Item_m21295_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_set_Item_m30642(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t471 *, int32_t, String_t*, const MethodInfo*))Dictionary_2_set_Item_m25484_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::Init(System.Int32,System.Collections.Generic.IEqualityComparer`1<TKey>)
-#define Dictionary_2_Init_m26427(__this, ___capacity, ___hcp, method) (( void (*) (Dictionary_2_t471 *, int32_t, Object_t*, const MethodInfo*))Dictionary_2_Init_m21297_gshared)(__this, ___capacity, ___hcp, method)
+#define Dictionary_2_Init_m30643(__this, ___capacity, ___hcp, method) (( void (*) (Dictionary_2_t471 *, int32_t, Object_t*, const MethodInfo*))Dictionary_2_Init_m25486_gshared)(__this, ___capacity, ___hcp, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::InitArrays(System.Int32)
-#define Dictionary_2_InitArrays_m26428(__this, ___size, method) (( void (*) (Dictionary_2_t471 *, int32_t, const MethodInfo*))Dictionary_2_InitArrays_m21299_gshared)(__this, ___size, method)
+#define Dictionary_2_InitArrays_m30644(__this, ___size, method) (( void (*) (Dictionary_2_t471 *, int32_t, const MethodInfo*))Dictionary_2_InitArrays_m25488_gshared)(__this, ___size, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::CopyToCheck(System.Array,System.Int32)
-#define Dictionary_2_CopyToCheck_m26429(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t471 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m21301_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_CopyToCheck_m30645(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t471 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m25490_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::make_pair(TKey,TValue)
-#define Dictionary_2_make_pair_m26430(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t5689  (*) (Object_t * /* static, unused */, int32_t, String_t*, const MethodInfo*))Dictionary_2_make_pair_m21303_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_make_pair_m30646(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t6222  (*) (Object_t * /* static, unused */, int32_t, String_t*, const MethodInfo*))Dictionary_2_make_pair_m25492_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TKey System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::pick_key(TKey,TValue)
-#define Dictionary_2_pick_key_m26431(__this /* static, unused */, ___key, ___value, method) (( int32_t (*) (Object_t * /* static, unused */, int32_t, String_t*, const MethodInfo*))Dictionary_2_pick_key_m21305_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_pick_key_m30647(__this /* static, unused */, ___key, ___value, method) (( int32_t (*) (Object_t * /* static, unused */, int32_t, String_t*, const MethodInfo*))Dictionary_2_pick_key_m25494_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TValue System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::pick_value(TKey,TValue)
-#define Dictionary_2_pick_value_m26432(__this /* static, unused */, ___key, ___value, method) (( String_t* (*) (Object_t * /* static, unused */, int32_t, String_t*, const MethodInfo*))Dictionary_2_pick_value_m21307_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_pick_value_m30648(__this /* static, unused */, ___key, ___value, method) (( String_t* (*) (Object_t * /* static, unused */, int32_t, String_t*, const MethodInfo*))Dictionary_2_pick_value_m25496_gshared)(__this /* static, unused */, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-#define Dictionary_2_CopyTo_m26433(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t471 *, KeyValuePair_2U5BU5D_t8939*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m21309_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_CopyTo_m30649(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t471 *, KeyValuePair_2U5BU5D_t9526*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m25498_gshared)(__this, ___array, ___index, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::Resize()
-#define Dictionary_2_Resize_m26434(__this, method) (( void (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_Resize_m21311_gshared)(__this, method)
+#define Dictionary_2_Resize_m30650(__this, method) (( void (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_Resize_m25500_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::Add(TKey,TValue)
-#define Dictionary_2_Add_m26435(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t471 *, int32_t, String_t*, const MethodInfo*))Dictionary_2_Add_m21313_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_Add_m30651(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t471 *, int32_t, String_t*, const MethodInfo*))Dictionary_2_Add_m25502_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::Clear()
-#define Dictionary_2_Clear_m26436(__this, method) (( void (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_Clear_m21315_gshared)(__this, method)
+#define Dictionary_2_Clear_m30652(__this, method) (( void (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_Clear_m25504_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::ContainsKey(TKey)
-#define Dictionary_2_ContainsKey_m26437(__this, ___key, method) (( bool (*) (Dictionary_2_t471 *, int32_t, const MethodInfo*))Dictionary_2_ContainsKey_m21317_gshared)(__this, ___key, method)
+#define Dictionary_2_ContainsKey_m30653(__this, ___key, method) (( bool (*) (Dictionary_2_t471 *, int32_t, const MethodInfo*))Dictionary_2_ContainsKey_m25506_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::ContainsValue(TValue)
-#define Dictionary_2_ContainsValue_m26438(__this, ___value, method) (( bool (*) (Dictionary_2_t471 *, String_t*, const MethodInfo*))Dictionary_2_ContainsValue_m21319_gshared)(__this, ___value, method)
+#define Dictionary_2_ContainsValue_m30654(__this, ___value, method) (( bool (*) (Dictionary_2_t471 *, String_t*, const MethodInfo*))Dictionary_2_ContainsValue_m25508_gshared)(__this, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-#define Dictionary_2_GetObjectData_m26439(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t471 *, SerializationInfo_t2936 *, StreamingContext_t2937 , const MethodInfo*))Dictionary_2_GetObjectData_m21321_gshared)(__this, ___info, ___context, method)
+#define Dictionary_2_GetObjectData_m30655(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t471 *, SerializationInfo_t2936 *, StreamingContext_t2937 , const MethodInfo*))Dictionary_2_GetObjectData_m25510_gshared)(__this, ___info, ___context, method)
 // System.Void System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::OnDeserialization(System.Object)
-#define Dictionary_2_OnDeserialization_m26440(__this, ___sender, method) (( void (*) (Dictionary_2_t471 *, Object_t *, const MethodInfo*))Dictionary_2_OnDeserialization_m21323_gshared)(__this, ___sender, method)
+#define Dictionary_2_OnDeserialization_m30656(__this, ___sender, method) (( void (*) (Dictionary_2_t471 *, Object_t *, const MethodInfo*))Dictionary_2_OnDeserialization_m25512_gshared)(__this, ___sender, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::Remove(TKey)
-#define Dictionary_2_Remove_m26441(__this, ___key, method) (( bool (*) (Dictionary_2_t471 *, int32_t, const MethodInfo*))Dictionary_2_Remove_m21325_gshared)(__this, ___key, method)
+#define Dictionary_2_Remove_m30657(__this, ___key, method) (( bool (*) (Dictionary_2_t471 *, int32_t, const MethodInfo*))Dictionary_2_Remove_m25514_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::TryGetValue(TKey,TValue&)
-#define Dictionary_2_TryGetValue_m26442(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t471 *, int32_t, String_t**, const MethodInfo*))Dictionary_2_TryGetValue_m21327_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_TryGetValue_m30658(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t471 *, int32_t, String_t**, const MethodInfo*))Dictionary_2_TryGetValue_m25516_gshared)(__this, ___key, ___value, method)
 // System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::get_Keys()
-#define Dictionary_2_get_Keys_m26443(__this, method) (( KeyCollection_t5690 * (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_get_Keys_m21329_gshared)(__this, method)
+#define Dictionary_2_get_Keys_m30659(__this, method) (( KeyCollection_t6223 * (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_get_Keys_m25518_gshared)(__this, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::get_Values()
-#define Dictionary_2_get_Values_m26444(__this, method) (( ValueCollection_t5691 * (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_get_Values_m21331_gshared)(__this, method)
+#define Dictionary_2_get_Values_m30660(__this, method) (( ValueCollection_t6224 * (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_get_Values_m25520_gshared)(__this, method)
 // TKey System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::ToTKey(System.Object)
-#define Dictionary_2_ToTKey_m26445(__this, ___key, method) (( int32_t (*) (Dictionary_2_t471 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m21333_gshared)(__this, ___key, method)
+#define Dictionary_2_ToTKey_m30661(__this, ___key, method) (( int32_t (*) (Dictionary_2_t471 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m25522_gshared)(__this, ___key, method)
 // TValue System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::ToTValue(System.Object)
-#define Dictionary_2_ToTValue_m26446(__this, ___value, method) (( String_t* (*) (Dictionary_2_t471 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m21335_gshared)(__this, ___value, method)
+#define Dictionary_2_ToTValue_m30662(__this, ___value, method) (( String_t* (*) (Dictionary_2_t471 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m25524_gshared)(__this, ___value, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::ContainsKeyValuePair(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_ContainsKeyValuePair_m26447(__this, ___pair, method) (( bool (*) (Dictionary_2_t471 *, KeyValuePair_2_t5689 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m21337_gshared)(__this, ___pair, method)
+#define Dictionary_2_ContainsKeyValuePair_m30663(__this, ___pair, method) (( bool (*) (Dictionary_2_t471 *, KeyValuePair_2_t6222 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m25526_gshared)(__this, ___pair, method)
 // System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::GetEnumerator()
-#define Dictionary_2_GetEnumerator_m26448(__this, method) (( Enumerator_t5692  (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_GetEnumerator_m21339_gshared)(__this, method)
-// System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::<CopyTo>m__0(TKey,TValue)
-#define Dictionary_2_U3CCopyToU3Em__0_m26449(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2156  (*) (Object_t * /* static, unused */, int32_t, String_t*, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__0_m21341_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_GetEnumerator_m30664(__this, method) (( Enumerator_t6225  (*) (Dictionary_2_t471 *, const MethodInfo*))Dictionary_2_GetEnumerator_m25528_gshared)(__this, method)
+// System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::<CopyTo>m__2(TKey,TValue)
+#define Dictionary_2_U3CCopyToU3Em__2_m30665(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2156  (*) (Object_t * /* static, unused */, int32_t, String_t*, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__2_m25530_gshared)(__this /* static, unused */, ___key, ___value, method)

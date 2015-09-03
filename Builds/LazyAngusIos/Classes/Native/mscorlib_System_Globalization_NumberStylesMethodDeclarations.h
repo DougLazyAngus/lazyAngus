@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Globalization.NumberStyles
-struct NumberStyles_t4492;
+struct NumberStyles_t4975;
 

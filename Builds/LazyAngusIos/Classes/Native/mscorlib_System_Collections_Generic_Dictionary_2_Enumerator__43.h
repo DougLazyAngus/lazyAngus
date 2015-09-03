@@ -7,7 +7,7 @@ struct Dictionary_2_t1515;
 // System.Collections.Generic.KeyValuePair`2<System.Object,Parse.Internal.ParseJSONCacheItem>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_48.h"
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>
-struct  Enumerator_t6260 
+struct  Enumerator_t6793 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>::dictionary
 	Dictionary_2_t1515 * ___dictionary_0;
@@ -16,5 +16,5 @@ struct  Enumerator_t6260
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>::stamp
 	int32_t ___stamp_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.Internal.ParseJSONCacheItem>::current
-	KeyValuePair_2_t6257  ___current_3;
+	KeyValuePair_2_t6790  ___current_3;
 };

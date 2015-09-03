@@ -7,7 +7,7 @@ struct Type_t;
 // System.Linq.Expressions.Expression
 #include "System_Core_System_Linq_Expressions_Expression.h"
 // System.Linq.Expressions.TypeBinaryExpression
-struct  TypeBinaryExpression_t3360  : public Expression_t1537
+struct  TypeBinaryExpression_t3779  : public Expression_t1537
 {
 	// System.Linq.Expressions.Expression System.Linq.Expressions.TypeBinaryExpression::expression
 	Expression_t1537 * ___expression_2;

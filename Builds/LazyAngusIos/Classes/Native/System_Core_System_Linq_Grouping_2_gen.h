@@ -7,7 +7,7 @@ struct IEnumerable_1_t724;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.Grouping`2<System.Object,System.Object>
-struct  Grouping_2_t6198  : public Object_t
+struct  Grouping_2_t6731  : public Object_t
 {
 	// K System.Linq.Grouping`2<System.Object,System.Object>::key
 	Object_t * ___key_0;

@@ -10,6 +10,6 @@ struct GP_TBM_MatchRemovedResult_t255;
 struct String_t;
 
 // System.Void GP_TBM_MatchRemovedResult::.ctor(System.String)
-extern "C" void GP_TBM_MatchRemovedResult__ctor_m1406 (GP_TBM_MatchRemovedResult_t255 * __this, String_t* ___mId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GP_TBM_MatchRemovedResult__ctor_m1408 (GP_TBM_MatchRemovedResult_t255 * __this, String_t* ___mId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String GP_TBM_MatchRemovedResult::get_MatchId()
-extern "C" String_t* GP_TBM_MatchRemovedResult_get_MatchId_m1407 (GP_TBM_MatchRemovedResult_t255 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* GP_TBM_MatchRemovedResult_get_MatchId_m1409 (GP_TBM_MatchRemovedResult_t255 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

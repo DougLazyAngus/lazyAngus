@@ -10,4 +10,4 @@ struct MeshFilter_t806;
 struct Mesh_t525;
 
 // System.Void UnityEngine.MeshFilter::set_mesh(UnityEngine.Mesh)
-extern "C" void MeshFilter_set_mesh_m4333 (MeshFilter_t806 * __this, Mesh_t525 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MeshFilter_set_mesh_m4336 (MeshFilter_t806 * __this, Mesh_t525 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

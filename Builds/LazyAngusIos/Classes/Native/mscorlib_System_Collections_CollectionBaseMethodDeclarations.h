@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.CollectionBase
-struct CollectionBase_t3832;
+struct CollectionBase_t3153;
 // System.Object
 struct Object_t;
 // System.Collections.ArrayList
@@ -18,58 +18,58 @@ struct Array_t;
 struct IEnumerator_t48;
 
 // System.Void System.Collections.CollectionBase::.ctor()
-extern "C" void CollectionBase__ctor_m13323 (CollectionBase_t3832 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CollectionBase__ctor_m11515 (CollectionBase_t3153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.CollectionBase::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-extern "C" void CollectionBase_System_Collections_ICollection_CopyTo_m13411 (CollectionBase_t3832 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CollectionBase_System_Collections_ICollection_CopyTo_m11613 (CollectionBase_t3153 * __this, Array_t * ___array, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.CollectionBase::System.Collections.ICollection.get_SyncRoot()
-extern "C" Object_t * CollectionBase_System_Collections_ICollection_get_SyncRoot_m13410 (CollectionBase_t3832 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CollectionBase_System_Collections_ICollection_get_SyncRoot_m11612 (CollectionBase_t3153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.CollectionBase::System.Collections.ICollection.get_IsSynchronized()
-extern "C" bool CollectionBase_System_Collections_ICollection_get_IsSynchronized_m13409 (CollectionBase_t3832 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CollectionBase_System_Collections_ICollection_get_IsSynchronized_m11611 (CollectionBase_t3153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.CollectionBase::System.Collections.IList.Add(System.Object)
-extern "C" int32_t CollectionBase_System_Collections_IList_Add_m13416 (CollectionBase_t3832 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CollectionBase_System_Collections_IList_Add_m11618 (CollectionBase_t3153 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.CollectionBase::System.Collections.IList.Contains(System.Object)
-extern "C" bool CollectionBase_System_Collections_IList_Contains_m13418 (CollectionBase_t3832 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CollectionBase_System_Collections_IList_Contains_m11620 (CollectionBase_t3153 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.CollectionBase::System.Collections.IList.IndexOf(System.Object)
-extern "C" int32_t CollectionBase_System_Collections_IList_IndexOf_m13419 (CollectionBase_t3832 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CollectionBase_System_Collections_IList_IndexOf_m11621 (CollectionBase_t3153 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.CollectionBase::System.Collections.IList.Insert(System.Int32,System.Object)
-extern "C" void CollectionBase_System_Collections_IList_Insert_m13420 (CollectionBase_t3832 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CollectionBase_System_Collections_IList_Insert_m11622 (CollectionBase_t3153 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.CollectionBase::System.Collections.IList.Remove(System.Object)
-extern "C" void CollectionBase_System_Collections_IList_Remove_m13421 (CollectionBase_t3832 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CollectionBase_System_Collections_IList_Remove_m11623 (CollectionBase_t3153 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.CollectionBase::System.Collections.IList.get_IsFixedSize()
-extern "C" bool CollectionBase_System_Collections_IList_get_IsFixedSize_m13412 (CollectionBase_t3832 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CollectionBase_System_Collections_IList_get_IsFixedSize_m11614 (CollectionBase_t3153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.CollectionBase::System.Collections.IList.get_IsReadOnly()
-extern "C" bool CollectionBase_System_Collections_IList_get_IsReadOnly_m13413 (CollectionBase_t3832 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CollectionBase_System_Collections_IList_get_IsReadOnly_m11615 (CollectionBase_t3153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.CollectionBase::System.Collections.IList.get_Item(System.Int32)
-extern "C" Object_t * CollectionBase_System_Collections_IList_get_Item_m13414 (CollectionBase_t3832 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CollectionBase_System_Collections_IList_get_Item_m11616 (CollectionBase_t3153 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.CollectionBase::System.Collections.IList.set_Item(System.Int32,System.Object)
-extern "C" void CollectionBase_System_Collections_IList_set_Item_m13415 (CollectionBase_t3832 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CollectionBase_System_Collections_IList_set_Item_m11617 (CollectionBase_t3153 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.CollectionBase::get_Count()
-extern "C" int32_t CollectionBase_get_Count_m13408 (CollectionBase_t3832 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CollectionBase_get_Count_m11610 (CollectionBase_t3153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator System.Collections.CollectionBase::GetEnumerator()
-extern "C" Object_t * CollectionBase_GetEnumerator_m15671 (CollectionBase_t3832 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CollectionBase_GetEnumerator_m14905 (CollectionBase_t3153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.CollectionBase::Clear()
-extern "C" void CollectionBase_Clear_m13417 (CollectionBase_t3832 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CollectionBase_Clear_m11619 (CollectionBase_t3153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.CollectionBase::RemoveAt(System.Int32)
-extern "C" void CollectionBase_RemoveAt_m13422 (CollectionBase_t3832 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CollectionBase_RemoveAt_m11624 (CollectionBase_t3153 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ArrayList System.Collections.CollectionBase::get_InnerList()
-extern "C" ArrayList_t712 * CollectionBase_get_InnerList_m13324 (CollectionBase_t3832 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ArrayList_t712 * CollectionBase_get_InnerList_m11516 (CollectionBase_t3153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IList System.Collections.CollectionBase::get_List()
-extern "C" Object_t * CollectionBase_get_List_m15329 (CollectionBase_t3832 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CollectionBase_get_List_m14725 (CollectionBase_t3153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.CollectionBase::OnClear()
-extern "C" void CollectionBase_OnClear_m13423 (CollectionBase_t3832 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CollectionBase_OnClear_m11625 (CollectionBase_t3153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.CollectionBase::OnClearComplete()
-extern "C" void CollectionBase_OnClearComplete_m13424 (CollectionBase_t3832 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CollectionBase_OnClearComplete_m11626 (CollectionBase_t3153 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.CollectionBase::OnInsert(System.Int32,System.Object)
-extern "C" void CollectionBase_OnInsert_m13425 (CollectionBase_t3832 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CollectionBase_OnInsert_m11627 (CollectionBase_t3153 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.CollectionBase::OnInsertComplete(System.Int32,System.Object)
-extern "C" void CollectionBase_OnInsertComplete_m13426 (CollectionBase_t3832 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CollectionBase_OnInsertComplete_m11628 (CollectionBase_t3153 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.CollectionBase::OnRemove(System.Int32,System.Object)
-extern "C" void CollectionBase_OnRemove_m13427 (CollectionBase_t3832 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CollectionBase_OnRemove_m11629 (CollectionBase_t3153 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.CollectionBase::OnRemoveComplete(System.Int32,System.Object)
-extern "C" void CollectionBase_OnRemoveComplete_m13428 (CollectionBase_t3832 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CollectionBase_OnRemoveComplete_m11630 (CollectionBase_t3153 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.CollectionBase::OnSet(System.Int32,System.Object,System.Object)
-extern "C" void CollectionBase_OnSet_m13429 (CollectionBase_t3832 * __this, int32_t ___index, Object_t * ___oldValue, Object_t * ___newValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CollectionBase_OnSet_m11631 (CollectionBase_t3153 * __this, int32_t ___index, Object_t * ___oldValue, Object_t * ___newValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.CollectionBase::OnSetComplete(System.Int32,System.Object,System.Object)
-extern "C" void CollectionBase_OnSetComplete_m13430 (CollectionBase_t3832 * __this, int32_t ___index, Object_t * ___oldValue, Object_t * ___newValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CollectionBase_OnSetComplete_m11632 (CollectionBase_t3153 * __this, int32_t ___index, Object_t * ___oldValue, Object_t * ___newValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.CollectionBase::OnValidate(System.Object)
-extern "C" void CollectionBase_OnValidate_m13431 (CollectionBase_t3832 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CollectionBase_OnValidate_m11633 (CollectionBase_t3153 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

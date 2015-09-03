@@ -10,6 +10,6 @@ struct JsonArray_t2835;
 struct String_t;
 
 // System.Void SimpleJson.JsonArray::.ctor()
-extern "C" void JsonArray__ctor_m9921 (JsonArray_t2835 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void JsonArray__ctor_m9924 (JsonArray_t2835 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String SimpleJson.JsonArray::ToString()
-extern "C" String_t* JsonArray_ToString_m9922 (JsonArray_t2835 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* JsonArray_ToString_m9925 (JsonArray_t2835 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -11,10 +11,10 @@ extern TypeInfo ScrollRectEvent_t981_il2cpp_TypeInfo;
 extern const Il2CppType Void_t85_0_0_0;
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect/ScrollRectEvent::.ctor()
-extern const MethodInfo ScrollRectEvent__ctor_m5448_MethodInfo = 
+extern const MethodInfo ScrollRectEvent__ctor_m5452_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ScrollRectEvent__ctor_m5448/* method */
+	, (methodPointerType)&ScrollRectEvent__ctor_m5452/* method */
 	, &ScrollRectEvent_t981_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -34,27 +34,27 @@ extern const MethodInfo ScrollRectEvent__ctor_m5448_MethodInfo =
 };
 static const MethodInfo* ScrollRectEvent_t981_MethodInfos[] =
 {
-	&ScrollRectEvent__ctor_m5448_MethodInfo,
+	&ScrollRectEvent__ctor_m5452_MethodInfo,
 	NULL
 };
-extern const MethodInfo Object_Equals_m493_MethodInfo;
+extern const MethodInfo Object_Equals_m495_MethodInfo;
 extern const MethodInfo Object_Finalize_m490_MethodInfo;
 extern const MethodInfo Object_GetHashCode_m406_MethodInfo;
-extern const MethodInfo UnityEventBase_ToString_m6470_MethodInfo;
-extern const MethodInfo UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6471_MethodInfo;
-extern const MethodInfo UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6472_MethodInfo;
-extern const Il2CppGenericMethod UnityEvent_1_FindMethod_Impl_m6491_GenericMethod;
-extern const Il2CppGenericMethod UnityEvent_1_GetDelegate_m6492_GenericMethod;
+extern const MethodInfo UnityEventBase_ToString_m6474_MethodInfo;
+extern const MethodInfo UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6475_MethodInfo;
+extern const MethodInfo UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6476_MethodInfo;
+extern const Il2CppGenericMethod UnityEvent_1_FindMethod_Impl_m6495_GenericMethod;
+extern const Il2CppGenericMethod UnityEvent_1_GetDelegate_m6496_GenericMethod;
 static const Il2CppMethodReference ScrollRectEvent_t981_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&UnityEventBase_ToString_m6470_MethodInfo,
-	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6471_MethodInfo,
-	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6472_MethodInfo,
-	&UnityEvent_1_FindMethod_Impl_m6491_GenericMethod,
-	&UnityEvent_1_GetDelegate_m6492_GenericMethod,
+	&UnityEventBase_ToString_m6474_MethodInfo,
+	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6475_MethodInfo,
+	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6476_MethodInfo,
+	&UnityEvent_1_FindMethod_Impl_m6495_GenericMethod,
+	&UnityEvent_1_GetDelegate_m6496_GenericMethod,
 };
 static bool ScrollRectEvent_t981_VTableIsGenericMethod[] =
 {
@@ -153,10 +153,10 @@ TypeInfo ScrollRectEvent_t981_il2cpp_TypeInfo =
 #include "UnityEngine_UI_UnityEngine_UI_ScrollRectMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::.ctor()
-extern const MethodInfo ScrollRect__ctor_m5449_MethodInfo = 
+extern const MethodInfo ScrollRect__ctor_m5453_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ScrollRect__ctor_m5449/* method */
+	, (methodPointerType)&ScrollRect__ctor_m5453/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -177,10 +177,10 @@ extern const MethodInfo ScrollRect__ctor_m5449_MethodInfo =
 extern const Il2CppType RectTransform_t545_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.RectTransform UnityEngine.UI.ScrollRect::get_content()
-extern const MethodInfo ScrollRect_get_content_m5450_MethodInfo = 
+extern const MethodInfo ScrollRect_get_content_m5454_MethodInfo = 
 {
 	"get_content"/* name */
-	, (methodPointerType)&ScrollRect_get_content_m5450/* method */
+	, (methodPointerType)&ScrollRect_get_content_m5454/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &RectTransform_t545_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -199,20 +199,20 @@ extern const MethodInfo ScrollRect_get_content_m5450_MethodInfo =
 
 };
 extern const Il2CppType RectTransform_t545_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_set_content_m5451_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_set_content_m5455_ParameterInfos[] = 
 {
 	{"value", 0, 134218190, 0, &RectTransform_t545_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::set_content(UnityEngine.RectTransform)
-extern const MethodInfo ScrollRect_set_content_m5451_MethodInfo = 
+extern const MethodInfo ScrollRect_set_content_m5455_MethodInfo = 
 {
 	"set_content"/* name */
-	, (methodPointerType)&ScrollRect_set_content_m5451/* method */
+	, (methodPointerType)&ScrollRect_set_content_m5455/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ScrollRect_t983_ScrollRect_set_content_m5451_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_set_content_m5455_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -229,10 +229,10 @@ extern const MethodInfo ScrollRect_set_content_m5451_MethodInfo =
 extern const Il2CppType Boolean_t59_0_0_0;
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.ScrollRect::get_horizontal()
-extern const MethodInfo ScrollRect_get_horizontal_m5452_MethodInfo = 
+extern const MethodInfo ScrollRect_get_horizontal_m5456_MethodInfo = 
 {
 	"get_horizontal"/* name */
-	, (methodPointerType)&ScrollRect_get_horizontal_m5452/* method */
+	, (methodPointerType)&ScrollRect_get_horizontal_m5456/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -251,20 +251,20 @@ extern const MethodInfo ScrollRect_get_horizontal_m5452_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_set_horizontal_m5453_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_set_horizontal_m5457_ParameterInfos[] = 
 {
 	{"value", 0, 134218191, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::set_horizontal(System.Boolean)
-extern const MethodInfo ScrollRect_set_horizontal_m5453_MethodInfo = 
+extern const MethodInfo ScrollRect_set_horizontal_m5457_MethodInfo = 
 {
 	"set_horizontal"/* name */
-	, (methodPointerType)&ScrollRect_set_horizontal_m5453/* method */
+	, (methodPointerType)&ScrollRect_set_horizontal_m5457/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, ScrollRect_t983_ScrollRect_set_horizontal_m5453_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_set_horizontal_m5457_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -280,10 +280,10 @@ extern const MethodInfo ScrollRect_set_horizontal_m5453_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.ScrollRect::get_vertical()
-extern const MethodInfo ScrollRect_get_vertical_m5454_MethodInfo = 
+extern const MethodInfo ScrollRect_get_vertical_m5458_MethodInfo = 
 {
 	"get_vertical"/* name */
-	, (methodPointerType)&ScrollRect_get_vertical_m5454/* method */
+	, (methodPointerType)&ScrollRect_get_vertical_m5458/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -302,20 +302,20 @@ extern const MethodInfo ScrollRect_get_vertical_m5454_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_set_vertical_m5455_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_set_vertical_m5459_ParameterInfos[] = 
 {
 	{"value", 0, 134218192, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::set_vertical(System.Boolean)
-extern const MethodInfo ScrollRect_set_vertical_m5455_MethodInfo = 
+extern const MethodInfo ScrollRect_set_vertical_m5459_MethodInfo = 
 {
 	"set_vertical"/* name */
-	, (methodPointerType)&ScrollRect_set_vertical_m5455/* method */
+	, (methodPointerType)&ScrollRect_set_vertical_m5459/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, ScrollRect_t983_ScrollRect_set_vertical_m5455_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_set_vertical_m5459_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -332,10 +332,10 @@ extern const MethodInfo ScrollRect_set_vertical_m5455_MethodInfo =
 extern const Il2CppType MovementType_t980_0_0_0;
 extern void* RuntimeInvoker_MovementType_t980 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.ScrollRect/MovementType UnityEngine.UI.ScrollRect::get_movementType()
-extern const MethodInfo ScrollRect_get_movementType_m5456_MethodInfo = 
+extern const MethodInfo ScrollRect_get_movementType_m5460_MethodInfo = 
 {
 	"get_movementType"/* name */
-	, (methodPointerType)&ScrollRect_get_movementType_m5456/* method */
+	, (methodPointerType)&ScrollRect_get_movementType_m5460/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &MovementType_t980_0_0_0/* return_type */
 	, RuntimeInvoker_MovementType_t980/* invoker_method */
@@ -354,20 +354,20 @@ extern const MethodInfo ScrollRect_get_movementType_m5456_MethodInfo =
 
 };
 extern const Il2CppType MovementType_t980_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_set_movementType_m5457_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_set_movementType_m5461_ParameterInfos[] = 
 {
 	{"value", 0, 134218193, 0, &MovementType_t980_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::set_movementType(UnityEngine.UI.ScrollRect/MovementType)
-extern const MethodInfo ScrollRect_set_movementType_m5457_MethodInfo = 
+extern const MethodInfo ScrollRect_set_movementType_m5461_MethodInfo = 
 {
 	"set_movementType"/* name */
-	, (methodPointerType)&ScrollRect_set_movementType_m5457/* method */
+	, (methodPointerType)&ScrollRect_set_movementType_m5461/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, ScrollRect_t983_ScrollRect_set_movementType_m5457_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_set_movementType_m5461_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -384,10 +384,10 @@ extern const MethodInfo ScrollRect_set_movementType_m5457_MethodInfo =
 extern const Il2CppType Single_t87_0_0_0;
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.ScrollRect::get_elasticity()
-extern const MethodInfo ScrollRect_get_elasticity_m5458_MethodInfo = 
+extern const MethodInfo ScrollRect_get_elasticity_m5462_MethodInfo = 
 {
 	"get_elasticity"/* name */
-	, (methodPointerType)&ScrollRect_get_elasticity_m5458/* method */
+	, (methodPointerType)&ScrollRect_get_elasticity_m5462/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -406,20 +406,20 @@ extern const MethodInfo ScrollRect_get_elasticity_m5458_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_set_elasticity_m5459_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_set_elasticity_m5463_ParameterInfos[] = 
 {
 	{"value", 0, 134218194, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::set_elasticity(System.Single)
-extern const MethodInfo ScrollRect_set_elasticity_m5459_MethodInfo = 
+extern const MethodInfo ScrollRect_set_elasticity_m5463_MethodInfo = 
 {
 	"set_elasticity"/* name */
-	, (methodPointerType)&ScrollRect_set_elasticity_m5459/* method */
+	, (methodPointerType)&ScrollRect_set_elasticity_m5463/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, ScrollRect_t983_ScrollRect_set_elasticity_m5459_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_set_elasticity_m5463_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -435,10 +435,10 @@ extern const MethodInfo ScrollRect_set_elasticity_m5459_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.ScrollRect::get_inertia()
-extern const MethodInfo ScrollRect_get_inertia_m5460_MethodInfo = 
+extern const MethodInfo ScrollRect_get_inertia_m5464_MethodInfo = 
 {
 	"get_inertia"/* name */
-	, (methodPointerType)&ScrollRect_get_inertia_m5460/* method */
+	, (methodPointerType)&ScrollRect_get_inertia_m5464/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -457,20 +457,20 @@ extern const MethodInfo ScrollRect_get_inertia_m5460_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_set_inertia_m5461_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_set_inertia_m5465_ParameterInfos[] = 
 {
 	{"value", 0, 134218195, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::set_inertia(System.Boolean)
-extern const MethodInfo ScrollRect_set_inertia_m5461_MethodInfo = 
+extern const MethodInfo ScrollRect_set_inertia_m5465_MethodInfo = 
 {
 	"set_inertia"/* name */
-	, (methodPointerType)&ScrollRect_set_inertia_m5461/* method */
+	, (methodPointerType)&ScrollRect_set_inertia_m5465/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, ScrollRect_t983_ScrollRect_set_inertia_m5461_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_set_inertia_m5465_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -486,10 +486,10 @@ extern const MethodInfo ScrollRect_set_inertia_m5461_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.ScrollRect::get_decelerationRate()
-extern const MethodInfo ScrollRect_get_decelerationRate_m5462_MethodInfo = 
+extern const MethodInfo ScrollRect_get_decelerationRate_m5466_MethodInfo = 
 {
 	"get_decelerationRate"/* name */
-	, (methodPointerType)&ScrollRect_get_decelerationRate_m5462/* method */
+	, (methodPointerType)&ScrollRect_get_decelerationRate_m5466/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -508,20 +508,20 @@ extern const MethodInfo ScrollRect_get_decelerationRate_m5462_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_set_decelerationRate_m5463_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_set_decelerationRate_m5467_ParameterInfos[] = 
 {
 	{"value", 0, 134218196, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::set_decelerationRate(System.Single)
-extern const MethodInfo ScrollRect_set_decelerationRate_m5463_MethodInfo = 
+extern const MethodInfo ScrollRect_set_decelerationRate_m5467_MethodInfo = 
 {
 	"set_decelerationRate"/* name */
-	, (methodPointerType)&ScrollRect_set_decelerationRate_m5463/* method */
+	, (methodPointerType)&ScrollRect_set_decelerationRate_m5467/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, ScrollRect_t983_ScrollRect_set_decelerationRate_m5463_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_set_decelerationRate_m5467_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -537,10 +537,10 @@ extern const MethodInfo ScrollRect_set_decelerationRate_m5463_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.ScrollRect::get_scrollSensitivity()
-extern const MethodInfo ScrollRect_get_scrollSensitivity_m5464_MethodInfo = 
+extern const MethodInfo ScrollRect_get_scrollSensitivity_m5468_MethodInfo = 
 {
 	"get_scrollSensitivity"/* name */
-	, (methodPointerType)&ScrollRect_get_scrollSensitivity_m5464/* method */
+	, (methodPointerType)&ScrollRect_get_scrollSensitivity_m5468/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -559,20 +559,20 @@ extern const MethodInfo ScrollRect_get_scrollSensitivity_m5464_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_set_scrollSensitivity_m5465_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_set_scrollSensitivity_m5469_ParameterInfos[] = 
 {
 	{"value", 0, 134218197, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::set_scrollSensitivity(System.Single)
-extern const MethodInfo ScrollRect_set_scrollSensitivity_m5465_MethodInfo = 
+extern const MethodInfo ScrollRect_set_scrollSensitivity_m5469_MethodInfo = 
 {
 	"set_scrollSensitivity"/* name */
-	, (methodPointerType)&ScrollRect_set_scrollSensitivity_m5465/* method */
+	, (methodPointerType)&ScrollRect_set_scrollSensitivity_m5469/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, ScrollRect_t983_ScrollRect_set_scrollSensitivity_m5465_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_set_scrollSensitivity_m5469_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -589,10 +589,10 @@ extern const MethodInfo ScrollRect_set_scrollSensitivity_m5465_MethodInfo =
 extern const Il2CppType Scrollbar_t977_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Scrollbar UnityEngine.UI.ScrollRect::get_horizontalScrollbar()
-extern const MethodInfo ScrollRect_get_horizontalScrollbar_m5466_MethodInfo = 
+extern const MethodInfo ScrollRect_get_horizontalScrollbar_m5470_MethodInfo = 
 {
 	"get_horizontalScrollbar"/* name */
-	, (methodPointerType)&ScrollRect_get_horizontalScrollbar_m5466/* method */
+	, (methodPointerType)&ScrollRect_get_horizontalScrollbar_m5470/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Scrollbar_t977_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -611,20 +611,20 @@ extern const MethodInfo ScrollRect_get_horizontalScrollbar_m5466_MethodInfo =
 
 };
 extern const Il2CppType Scrollbar_t977_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_set_horizontalScrollbar_m5467_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_set_horizontalScrollbar_m5471_ParameterInfos[] = 
 {
 	{"value", 0, 134218198, 0, &Scrollbar_t977_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::set_horizontalScrollbar(UnityEngine.UI.Scrollbar)
-extern const MethodInfo ScrollRect_set_horizontalScrollbar_m5467_MethodInfo = 
+extern const MethodInfo ScrollRect_set_horizontalScrollbar_m5471_MethodInfo = 
 {
 	"set_horizontalScrollbar"/* name */
-	, (methodPointerType)&ScrollRect_set_horizontalScrollbar_m5467/* method */
+	, (methodPointerType)&ScrollRect_set_horizontalScrollbar_m5471/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ScrollRect_t983_ScrollRect_set_horizontalScrollbar_m5467_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_set_horizontalScrollbar_m5471_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -640,10 +640,10 @@ extern const MethodInfo ScrollRect_set_horizontalScrollbar_m5467_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Scrollbar UnityEngine.UI.ScrollRect::get_verticalScrollbar()
-extern const MethodInfo ScrollRect_get_verticalScrollbar_m5468_MethodInfo = 
+extern const MethodInfo ScrollRect_get_verticalScrollbar_m5472_MethodInfo = 
 {
 	"get_verticalScrollbar"/* name */
-	, (methodPointerType)&ScrollRect_get_verticalScrollbar_m5468/* method */
+	, (methodPointerType)&ScrollRect_get_verticalScrollbar_m5472/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Scrollbar_t977_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -662,20 +662,20 @@ extern const MethodInfo ScrollRect_get_verticalScrollbar_m5468_MethodInfo =
 
 };
 extern const Il2CppType Scrollbar_t977_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_set_verticalScrollbar_m5469_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_set_verticalScrollbar_m5473_ParameterInfos[] = 
 {
 	{"value", 0, 134218199, 0, &Scrollbar_t977_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::set_verticalScrollbar(UnityEngine.UI.Scrollbar)
-extern const MethodInfo ScrollRect_set_verticalScrollbar_m5469_MethodInfo = 
+extern const MethodInfo ScrollRect_set_verticalScrollbar_m5473_MethodInfo = 
 {
 	"set_verticalScrollbar"/* name */
-	, (methodPointerType)&ScrollRect_set_verticalScrollbar_m5469/* method */
+	, (methodPointerType)&ScrollRect_set_verticalScrollbar_m5473/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ScrollRect_t983_ScrollRect_set_verticalScrollbar_m5469_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_set_verticalScrollbar_m5473_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -691,10 +691,10 @@ extern const MethodInfo ScrollRect_set_verticalScrollbar_m5469_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.ScrollRect/ScrollRectEvent UnityEngine.UI.ScrollRect::get_onValueChanged()
-extern const MethodInfo ScrollRect_get_onValueChanged_m5470_MethodInfo = 
+extern const MethodInfo ScrollRect_get_onValueChanged_m5474_MethodInfo = 
 {
 	"get_onValueChanged"/* name */
-	, (methodPointerType)&ScrollRect_get_onValueChanged_m5470/* method */
+	, (methodPointerType)&ScrollRect_get_onValueChanged_m5474/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &ScrollRectEvent_t981_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -713,20 +713,20 @@ extern const MethodInfo ScrollRect_get_onValueChanged_m5470_MethodInfo =
 
 };
 extern const Il2CppType ScrollRectEvent_t981_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_set_onValueChanged_m5471_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_set_onValueChanged_m5475_ParameterInfos[] = 
 {
 	{"value", 0, 134218200, 0, &ScrollRectEvent_t981_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::set_onValueChanged(UnityEngine.UI.ScrollRect/ScrollRectEvent)
-extern const MethodInfo ScrollRect_set_onValueChanged_m5471_MethodInfo = 
+extern const MethodInfo ScrollRect_set_onValueChanged_m5475_MethodInfo = 
 {
 	"set_onValueChanged"/* name */
-	, (methodPointerType)&ScrollRect_set_onValueChanged_m5471/* method */
+	, (methodPointerType)&ScrollRect_set_onValueChanged_m5475/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ScrollRect_t983_ScrollRect_set_onValueChanged_m5471_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_set_onValueChanged_m5475_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -742,10 +742,10 @@ extern const MethodInfo ScrollRect_set_onValueChanged_m5471_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.RectTransform UnityEngine.UI.ScrollRect::get_viewRect()
-extern const MethodInfo ScrollRect_get_viewRect_m5472_MethodInfo = 
+extern const MethodInfo ScrollRect_get_viewRect_m5476_MethodInfo = 
 {
 	"get_viewRect"/* name */
-	, (methodPointerType)&ScrollRect_get_viewRect_m5472/* method */
+	, (methodPointerType)&ScrollRect_get_viewRect_m5476/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &RectTransform_t545_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -766,10 +766,10 @@ extern const MethodInfo ScrollRect_get_viewRect_m5472_MethodInfo =
 extern const Il2CppType Vector2_t110_0_0_0;
 extern void* RuntimeInvoker_Vector2_t110 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector2 UnityEngine.UI.ScrollRect::get_velocity()
-extern const MethodInfo ScrollRect_get_velocity_m5473_MethodInfo = 
+extern const MethodInfo ScrollRect_get_velocity_m5477_MethodInfo = 
 {
 	"get_velocity"/* name */
-	, (methodPointerType)&ScrollRect_get_velocity_m5473/* method */
+	, (methodPointerType)&ScrollRect_get_velocity_m5477/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Vector2_t110_0_0_0/* return_type */
 	, RuntimeInvoker_Vector2_t110/* invoker_method */
@@ -788,20 +788,20 @@ extern const MethodInfo ScrollRect_get_velocity_m5473_MethodInfo =
 
 };
 extern const Il2CppType Vector2_t110_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_set_velocity_m5474_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_set_velocity_m5478_ParameterInfos[] = 
 {
 	{"value", 0, 134218201, 0, &Vector2_t110_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Vector2_t110 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::set_velocity(UnityEngine.Vector2)
-extern const MethodInfo ScrollRect_set_velocity_m5474_MethodInfo = 
+extern const MethodInfo ScrollRect_set_velocity_m5478_MethodInfo = 
 {
 	"set_velocity"/* name */
-	, (methodPointerType)&ScrollRect_set_velocity_m5474/* method */
+	, (methodPointerType)&ScrollRect_set_velocity_m5478/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Vector2_t110/* invoker_method */
-	, ScrollRect_t983_ScrollRect_set_velocity_m5474_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_set_velocity_m5478_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -817,20 +817,20 @@ extern const MethodInfo ScrollRect_set_velocity_m5474_MethodInfo =
 };
 extern const Il2CppType CanvasUpdate_t923_0_0_0;
 extern const Il2CppType CanvasUpdate_t923_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_Rebuild_m5475_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_Rebuild_m5479_ParameterInfos[] = 
 {
 	{"executing", 0, 134218202, 0, &CanvasUpdate_t923_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::Rebuild(UnityEngine.UI.CanvasUpdate)
-extern const MethodInfo ScrollRect_Rebuild_m5475_MethodInfo = 
+extern const MethodInfo ScrollRect_Rebuild_m5479_MethodInfo = 
 {
 	"Rebuild"/* name */
-	, (methodPointerType)&ScrollRect_Rebuild_m5475/* method */
+	, (methodPointerType)&ScrollRect_Rebuild_m5479/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, ScrollRect_t983_ScrollRect_Rebuild_m5475_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_Rebuild_m5479_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -846,10 +846,10 @@ extern const MethodInfo ScrollRect_Rebuild_m5475_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::OnEnable()
-extern const MethodInfo ScrollRect_OnEnable_m5476_MethodInfo = 
+extern const MethodInfo ScrollRect_OnEnable_m5480_MethodInfo = 
 {
 	"OnEnable"/* name */
-	, (methodPointerType)&ScrollRect_OnEnable_m5476/* method */
+	, (methodPointerType)&ScrollRect_OnEnable_m5480/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -869,10 +869,10 @@ extern const MethodInfo ScrollRect_OnEnable_m5476_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::OnDisable()
-extern const MethodInfo ScrollRect_OnDisable_m5477_MethodInfo = 
+extern const MethodInfo ScrollRect_OnDisable_m5481_MethodInfo = 
 {
 	"OnDisable"/* name */
-	, (methodPointerType)&ScrollRect_OnDisable_m5477/* method */
+	, (methodPointerType)&ScrollRect_OnDisable_m5481/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -892,10 +892,10 @@ extern const MethodInfo ScrollRect_OnDisable_m5477_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.ScrollRect::IsActive()
-extern const MethodInfo ScrollRect_IsActive_m5478_MethodInfo = 
+extern const MethodInfo ScrollRect_IsActive_m5482_MethodInfo = 
 {
 	"IsActive"/* name */
-	, (methodPointerType)&ScrollRect_IsActive_m5478/* method */
+	, (methodPointerType)&ScrollRect_IsActive_m5482/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -915,10 +915,10 @@ extern const MethodInfo ScrollRect_IsActive_m5478_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::EnsureLayoutHasRebuilt()
-extern const MethodInfo ScrollRect_EnsureLayoutHasRebuilt_m5479_MethodInfo = 
+extern const MethodInfo ScrollRect_EnsureLayoutHasRebuilt_m5483_MethodInfo = 
 {
 	"EnsureLayoutHasRebuilt"/* name */
-	, (methodPointerType)&ScrollRect_EnsureLayoutHasRebuilt_m5479/* method */
+	, (methodPointerType)&ScrollRect_EnsureLayoutHasRebuilt_m5483/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -938,10 +938,10 @@ extern const MethodInfo ScrollRect_EnsureLayoutHasRebuilt_m5479_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::StopMovement()
-extern const MethodInfo ScrollRect_StopMovement_m5480_MethodInfo = 
+extern const MethodInfo ScrollRect_StopMovement_m5484_MethodInfo = 
 {
 	"StopMovement"/* name */
-	, (methodPointerType)&ScrollRect_StopMovement_m5480/* method */
+	, (methodPointerType)&ScrollRect_StopMovement_m5484/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -961,20 +961,20 @@ extern const MethodInfo ScrollRect_StopMovement_m5480_MethodInfo =
 };
 extern const Il2CppType PointerEventData_t899_0_0_0;
 extern const Il2CppType PointerEventData_t899_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_OnScroll_m5481_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_OnScroll_m5485_ParameterInfos[] = 
 {
 	{"data", 0, 134218203, 0, &PointerEventData_t899_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::OnScroll(UnityEngine.EventSystems.PointerEventData)
-extern const MethodInfo ScrollRect_OnScroll_m5481_MethodInfo = 
+extern const MethodInfo ScrollRect_OnScroll_m5485_MethodInfo = 
 {
 	"OnScroll"/* name */
-	, (methodPointerType)&ScrollRect_OnScroll_m5481/* method */
+	, (methodPointerType)&ScrollRect_OnScroll_m5485/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ScrollRect_t983_ScrollRect_OnScroll_m5481_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_OnScroll_m5485_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -989,20 +989,20 @@ extern const MethodInfo ScrollRect_OnScroll_m5481_MethodInfo =
 
 };
 extern const Il2CppType PointerEventData_t899_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_OnInitializePotentialDrag_m5482_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_OnInitializePotentialDrag_m5486_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218204, 0, &PointerEventData_t899_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::OnInitializePotentialDrag(UnityEngine.EventSystems.PointerEventData)
-extern const MethodInfo ScrollRect_OnInitializePotentialDrag_m5482_MethodInfo = 
+extern const MethodInfo ScrollRect_OnInitializePotentialDrag_m5486_MethodInfo = 
 {
 	"OnInitializePotentialDrag"/* name */
-	, (methodPointerType)&ScrollRect_OnInitializePotentialDrag_m5482/* method */
+	, (methodPointerType)&ScrollRect_OnInitializePotentialDrag_m5486/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ScrollRect_t983_ScrollRect_OnInitializePotentialDrag_m5482_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_OnInitializePotentialDrag_m5486_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -1017,20 +1017,20 @@ extern const MethodInfo ScrollRect_OnInitializePotentialDrag_m5482_MethodInfo =
 
 };
 extern const Il2CppType PointerEventData_t899_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_OnBeginDrag_m5483_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_OnBeginDrag_m5487_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218205, 0, &PointerEventData_t899_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::OnBeginDrag(UnityEngine.EventSystems.PointerEventData)
-extern const MethodInfo ScrollRect_OnBeginDrag_m5483_MethodInfo = 
+extern const MethodInfo ScrollRect_OnBeginDrag_m5487_MethodInfo = 
 {
 	"OnBeginDrag"/* name */
-	, (methodPointerType)&ScrollRect_OnBeginDrag_m5483/* method */
+	, (methodPointerType)&ScrollRect_OnBeginDrag_m5487/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ScrollRect_t983_ScrollRect_OnBeginDrag_m5483_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_OnBeginDrag_m5487_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -1045,20 +1045,20 @@ extern const MethodInfo ScrollRect_OnBeginDrag_m5483_MethodInfo =
 
 };
 extern const Il2CppType PointerEventData_t899_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_OnEndDrag_m5484_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_OnEndDrag_m5488_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218206, 0, &PointerEventData_t899_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::OnEndDrag(UnityEngine.EventSystems.PointerEventData)
-extern const MethodInfo ScrollRect_OnEndDrag_m5484_MethodInfo = 
+extern const MethodInfo ScrollRect_OnEndDrag_m5488_MethodInfo = 
 {
 	"OnEndDrag"/* name */
-	, (methodPointerType)&ScrollRect_OnEndDrag_m5484/* method */
+	, (methodPointerType)&ScrollRect_OnEndDrag_m5488/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ScrollRect_t983_ScrollRect_OnEndDrag_m5484_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_OnEndDrag_m5488_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -1073,20 +1073,20 @@ extern const MethodInfo ScrollRect_OnEndDrag_m5484_MethodInfo =
 
 };
 extern const Il2CppType PointerEventData_t899_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_OnDrag_m5485_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_OnDrag_m5489_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218207, 0, &PointerEventData_t899_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::OnDrag(UnityEngine.EventSystems.PointerEventData)
-extern const MethodInfo ScrollRect_OnDrag_m5485_MethodInfo = 
+extern const MethodInfo ScrollRect_OnDrag_m5489_MethodInfo = 
 {
 	"OnDrag"/* name */
-	, (methodPointerType)&ScrollRect_OnDrag_m5485/* method */
+	, (methodPointerType)&ScrollRect_OnDrag_m5489/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ScrollRect_t983_ScrollRect_OnDrag_m5485_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_OnDrag_m5489_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -1101,20 +1101,20 @@ extern const MethodInfo ScrollRect_OnDrag_m5485_MethodInfo =
 
 };
 extern const Il2CppType Vector2_t110_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_SetContentAnchoredPosition_m5486_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_SetContentAnchoredPosition_m5490_ParameterInfos[] = 
 {
 	{"position", 0, 134218208, 0, &Vector2_t110_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Vector2_t110 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::SetContentAnchoredPosition(UnityEngine.Vector2)
-extern const MethodInfo ScrollRect_SetContentAnchoredPosition_m5486_MethodInfo = 
+extern const MethodInfo ScrollRect_SetContentAnchoredPosition_m5490_MethodInfo = 
 {
 	"SetContentAnchoredPosition"/* name */
-	, (methodPointerType)&ScrollRect_SetContentAnchoredPosition_m5486/* method */
+	, (methodPointerType)&ScrollRect_SetContentAnchoredPosition_m5490/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Vector2_t110/* invoker_method */
-	, ScrollRect_t983_ScrollRect_SetContentAnchoredPosition_m5486_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_SetContentAnchoredPosition_m5490_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
@@ -1130,10 +1130,10 @@ extern const MethodInfo ScrollRect_SetContentAnchoredPosition_m5486_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::LateUpdate()
-extern const MethodInfo ScrollRect_LateUpdate_m5487_MethodInfo = 
+extern const MethodInfo ScrollRect_LateUpdate_m5491_MethodInfo = 
 {
 	"LateUpdate"/* name */
-	, (methodPointerType)&ScrollRect_LateUpdate_m5487/* method */
+	, (methodPointerType)&ScrollRect_LateUpdate_m5491/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -1153,10 +1153,10 @@ extern const MethodInfo ScrollRect_LateUpdate_m5487_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::UpdatePrevData()
-extern const MethodInfo ScrollRect_UpdatePrevData_m5488_MethodInfo = 
+extern const MethodInfo ScrollRect_UpdatePrevData_m5492_MethodInfo = 
 {
 	"UpdatePrevData"/* name */
-	, (methodPointerType)&ScrollRect_UpdatePrevData_m5488/* method */
+	, (methodPointerType)&ScrollRect_UpdatePrevData_m5492/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -1175,20 +1175,20 @@ extern const MethodInfo ScrollRect_UpdatePrevData_m5488_MethodInfo =
 
 };
 extern const Il2CppType Vector2_t110_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_UpdateScrollbars_m5489_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_UpdateScrollbars_m5493_ParameterInfos[] = 
 {
 	{"offset", 0, 134218209, 0, &Vector2_t110_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Vector2_t110 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::UpdateScrollbars(UnityEngine.Vector2)
-extern const MethodInfo ScrollRect_UpdateScrollbars_m5489_MethodInfo = 
+extern const MethodInfo ScrollRect_UpdateScrollbars_m5493_MethodInfo = 
 {
 	"UpdateScrollbars"/* name */
-	, (methodPointerType)&ScrollRect_UpdateScrollbars_m5489/* method */
+	, (methodPointerType)&ScrollRect_UpdateScrollbars_m5493/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Vector2_t110/* invoker_method */
-	, ScrollRect_t983_ScrollRect_UpdateScrollbars_m5489_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_UpdateScrollbars_m5493_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -1204,10 +1204,10 @@ extern const MethodInfo ScrollRect_UpdateScrollbars_m5489_MethodInfo =
 };
 extern void* RuntimeInvoker_Vector2_t110 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector2 UnityEngine.UI.ScrollRect::get_normalizedPosition()
-extern const MethodInfo ScrollRect_get_normalizedPosition_m5490_MethodInfo = 
+extern const MethodInfo ScrollRect_get_normalizedPosition_m5494_MethodInfo = 
 {
 	"get_normalizedPosition"/* name */
-	, (methodPointerType)&ScrollRect_get_normalizedPosition_m5490/* method */
+	, (methodPointerType)&ScrollRect_get_normalizedPosition_m5494/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Vector2_t110_0_0_0/* return_type */
 	, RuntimeInvoker_Vector2_t110/* invoker_method */
@@ -1226,20 +1226,20 @@ extern const MethodInfo ScrollRect_get_normalizedPosition_m5490_MethodInfo =
 
 };
 extern const Il2CppType Vector2_t110_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_set_normalizedPosition_m5491_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_set_normalizedPosition_m5495_ParameterInfos[] = 
 {
 	{"value", 0, 134218210, 0, &Vector2_t110_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Vector2_t110 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::set_normalizedPosition(UnityEngine.Vector2)
-extern const MethodInfo ScrollRect_set_normalizedPosition_m5491_MethodInfo = 
+extern const MethodInfo ScrollRect_set_normalizedPosition_m5495_MethodInfo = 
 {
 	"set_normalizedPosition"/* name */
-	, (methodPointerType)&ScrollRect_set_normalizedPosition_m5491/* method */
+	, (methodPointerType)&ScrollRect_set_normalizedPosition_m5495/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Vector2_t110/* invoker_method */
-	, ScrollRect_t983_ScrollRect_set_normalizedPosition_m5491_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_set_normalizedPosition_m5495_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -1255,10 +1255,10 @@ extern const MethodInfo ScrollRect_set_normalizedPosition_m5491_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.ScrollRect::get_horizontalNormalizedPosition()
-extern const MethodInfo ScrollRect_get_horizontalNormalizedPosition_m5492_MethodInfo = 
+extern const MethodInfo ScrollRect_get_horizontalNormalizedPosition_m5496_MethodInfo = 
 {
 	"get_horizontalNormalizedPosition"/* name */
-	, (methodPointerType)&ScrollRect_get_horizontalNormalizedPosition_m5492/* method */
+	, (methodPointerType)&ScrollRect_get_horizontalNormalizedPosition_m5496/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -1277,20 +1277,20 @@ extern const MethodInfo ScrollRect_get_horizontalNormalizedPosition_m5492_Method
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_set_horizontalNormalizedPosition_m5493_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_set_horizontalNormalizedPosition_m5497_ParameterInfos[] = 
 {
 	{"value", 0, 134218211, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::set_horizontalNormalizedPosition(System.Single)
-extern const MethodInfo ScrollRect_set_horizontalNormalizedPosition_m5493_MethodInfo = 
+extern const MethodInfo ScrollRect_set_horizontalNormalizedPosition_m5497_MethodInfo = 
 {
 	"set_horizontalNormalizedPosition"/* name */
-	, (methodPointerType)&ScrollRect_set_horizontalNormalizedPosition_m5493/* method */
+	, (methodPointerType)&ScrollRect_set_horizontalNormalizedPosition_m5497/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, ScrollRect_t983_ScrollRect_set_horizontalNormalizedPosition_m5493_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_set_horizontalNormalizedPosition_m5497_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -1306,10 +1306,10 @@ extern const MethodInfo ScrollRect_set_horizontalNormalizedPosition_m5493_Method
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.ScrollRect::get_verticalNormalizedPosition()
-extern const MethodInfo ScrollRect_get_verticalNormalizedPosition_m5494_MethodInfo = 
+extern const MethodInfo ScrollRect_get_verticalNormalizedPosition_m5498_MethodInfo = 
 {
 	"get_verticalNormalizedPosition"/* name */
-	, (methodPointerType)&ScrollRect_get_verticalNormalizedPosition_m5494/* method */
+	, (methodPointerType)&ScrollRect_get_verticalNormalizedPosition_m5498/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -1328,20 +1328,20 @@ extern const MethodInfo ScrollRect_get_verticalNormalizedPosition_m5494_MethodIn
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_set_verticalNormalizedPosition_m5495_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_set_verticalNormalizedPosition_m5499_ParameterInfos[] = 
 {
 	{"value", 0, 134218212, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::set_verticalNormalizedPosition(System.Single)
-extern const MethodInfo ScrollRect_set_verticalNormalizedPosition_m5495_MethodInfo = 
+extern const MethodInfo ScrollRect_set_verticalNormalizedPosition_m5499_MethodInfo = 
 {
 	"set_verticalNormalizedPosition"/* name */
-	, (methodPointerType)&ScrollRect_set_verticalNormalizedPosition_m5495/* method */
+	, (methodPointerType)&ScrollRect_set_verticalNormalizedPosition_m5499/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, ScrollRect_t983_ScrollRect_set_verticalNormalizedPosition_m5495_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_set_verticalNormalizedPosition_m5499_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -1356,20 +1356,20 @@ extern const MethodInfo ScrollRect_set_verticalNormalizedPosition_m5495_MethodIn
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_SetHorizontalNormalizedPosition_m5496_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_SetHorizontalNormalizedPosition_m5500_ParameterInfos[] = 
 {
 	{"value", 0, 134218213, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::SetHorizontalNormalizedPosition(System.Single)
-extern const MethodInfo ScrollRect_SetHorizontalNormalizedPosition_m5496_MethodInfo = 
+extern const MethodInfo ScrollRect_SetHorizontalNormalizedPosition_m5500_MethodInfo = 
 {
 	"SetHorizontalNormalizedPosition"/* name */
-	, (methodPointerType)&ScrollRect_SetHorizontalNormalizedPosition_m5496/* method */
+	, (methodPointerType)&ScrollRect_SetHorizontalNormalizedPosition_m5500/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, ScrollRect_t983_ScrollRect_SetHorizontalNormalizedPosition_m5496_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_SetHorizontalNormalizedPosition_m5500_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -1384,20 +1384,20 @@ extern const MethodInfo ScrollRect_SetHorizontalNormalizedPosition_m5496_MethodI
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_SetVerticalNormalizedPosition_m5497_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_SetVerticalNormalizedPosition_m5501_ParameterInfos[] = 
 {
 	{"value", 0, 134218214, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::SetVerticalNormalizedPosition(System.Single)
-extern const MethodInfo ScrollRect_SetVerticalNormalizedPosition_m5497_MethodInfo = 
+extern const MethodInfo ScrollRect_SetVerticalNormalizedPosition_m5501_MethodInfo = 
 {
 	"SetVerticalNormalizedPosition"/* name */
-	, (methodPointerType)&ScrollRect_SetVerticalNormalizedPosition_m5497/* method */
+	, (methodPointerType)&ScrollRect_SetVerticalNormalizedPosition_m5501/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, ScrollRect_t983_ScrollRect_SetVerticalNormalizedPosition_m5497_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_SetVerticalNormalizedPosition_m5501_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -1414,21 +1414,21 @@ extern const MethodInfo ScrollRect_SetVerticalNormalizedPosition_m5497_MethodInf
 extern const Il2CppType Single_t87_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_SetNormalizedPosition_m5498_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_SetNormalizedPosition_m5502_ParameterInfos[] = 
 {
 	{"value", 0, 134218215, 0, &Single_t87_0_0_0},
 	{"axis", 1, 134218216, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::SetNormalizedPosition(System.Single,System.Int32)
-extern const MethodInfo ScrollRect_SetNormalizedPosition_m5498_MethodInfo = 
+extern const MethodInfo ScrollRect_SetNormalizedPosition_m5502_MethodInfo = 
 {
 	"SetNormalizedPosition"/* name */
-	, (methodPointerType)&ScrollRect_SetNormalizedPosition_m5498/* method */
+	, (methodPointerType)&ScrollRect_SetNormalizedPosition_m5502/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87_Int32_t82/* invoker_method */
-	, ScrollRect_t983_ScrollRect_SetNormalizedPosition_m5498_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_SetNormalizedPosition_m5502_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -1444,21 +1444,21 @@ extern const MethodInfo ScrollRect_SetNormalizedPosition_m5498_MethodInfo =
 };
 extern const Il2CppType Single_t87_0_0_0;
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_RubberDelta_m5499_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_RubberDelta_m5503_ParameterInfos[] = 
 {
 	{"overStretching", 0, 134218217, 0, &Single_t87_0_0_0},
 	{"viewSize", 1, 134218218, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Single_t87_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.ScrollRect::RubberDelta(System.Single,System.Single)
-extern const MethodInfo ScrollRect_RubberDelta_m5499_MethodInfo = 
+extern const MethodInfo ScrollRect_RubberDelta_m5503_MethodInfo = 
 {
 	"RubberDelta"/* name */
-	, (methodPointerType)&ScrollRect_RubberDelta_m5499/* method */
+	, (methodPointerType)&ScrollRect_RubberDelta_m5503/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Single_t87_Single_t87/* invoker_method */
-	, ScrollRect_t983_ScrollRect_RubberDelta_m5499_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_RubberDelta_m5503_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -1474,10 +1474,10 @@ extern const MethodInfo ScrollRect_RubberDelta_m5499_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ScrollRect::UpdateBounds()
-extern const MethodInfo ScrollRect_UpdateBounds_m5500_MethodInfo = 
+extern const MethodInfo ScrollRect_UpdateBounds_m5504_MethodInfo = 
 {
 	"UpdateBounds"/* name */
-	, (methodPointerType)&ScrollRect_UpdateBounds_m5500/* method */
+	, (methodPointerType)&ScrollRect_UpdateBounds_m5504/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -1498,10 +1498,10 @@ extern const MethodInfo ScrollRect_UpdateBounds_m5500_MethodInfo =
 extern const Il2CppType Bounds_t779_0_0_0;
 extern void* RuntimeInvoker_Bounds_t779 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Bounds UnityEngine.UI.ScrollRect::GetBounds()
-extern const MethodInfo ScrollRect_GetBounds_m5501_MethodInfo = 
+extern const MethodInfo ScrollRect_GetBounds_m5505_MethodInfo = 
 {
 	"GetBounds"/* name */
-	, (methodPointerType)&ScrollRect_GetBounds_m5501/* method */
+	, (methodPointerType)&ScrollRect_GetBounds_m5505/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Bounds_t779_0_0_0/* return_type */
 	, RuntimeInvoker_Bounds_t779/* invoker_method */
@@ -1520,20 +1520,20 @@ extern const MethodInfo ScrollRect_GetBounds_m5501_MethodInfo =
 
 };
 extern const Il2CppType Vector2_t110_0_0_0;
-static const ParameterInfo ScrollRect_t983_ScrollRect_CalculateOffset_m5502_ParameterInfos[] = 
+static const ParameterInfo ScrollRect_t983_ScrollRect_CalculateOffset_m5506_ParameterInfos[] = 
 {
 	{"delta", 0, 134218219, 0, &Vector2_t110_0_0_0},
 };
 extern void* RuntimeInvoker_Vector2_t110_Vector2_t110 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector2 UnityEngine.UI.ScrollRect::CalculateOffset(UnityEngine.Vector2)
-extern const MethodInfo ScrollRect_CalculateOffset_m5502_MethodInfo = 
+extern const MethodInfo ScrollRect_CalculateOffset_m5506_MethodInfo = 
 {
 	"CalculateOffset"/* name */
-	, (methodPointerType)&ScrollRect_CalculateOffset_m5502/* method */
+	, (methodPointerType)&ScrollRect_CalculateOffset_m5506/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Vector2_t110_0_0_0/* return_type */
 	, RuntimeInvoker_Vector2_t110_Vector2_t110/* invoker_method */
-	, ScrollRect_t983_ScrollRect_CalculateOffset_m5502_ParameterInfos/* parameters */
+	, ScrollRect_t983_ScrollRect_CalculateOffset_m5506_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -1549,10 +1549,10 @@ extern const MethodInfo ScrollRect_CalculateOffset_m5502_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.ScrollRect::UnityEngine.UI.ICanvasElement.IsDestroyed()
-extern const MethodInfo ScrollRect_UnityEngine_UI_ICanvasElement_IsDestroyed_m5503_MethodInfo = 
+extern const MethodInfo ScrollRect_UnityEngine_UI_ICanvasElement_IsDestroyed_m5507_MethodInfo = 
 {
 	"UnityEngine.UI.ICanvasElement.IsDestroyed"/* name */
-	, (methodPointerType)&ScrollRect_UnityEngine_UI_ICanvasElement_IsDestroyed_m5503/* method */
+	, (methodPointerType)&ScrollRect_UnityEngine_UI_ICanvasElement_IsDestroyed_m5507/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -1573,10 +1573,10 @@ extern const MethodInfo ScrollRect_UnityEngine_UI_ICanvasElement_IsDestroyed_m55
 extern const Il2CppType Transform_t406_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Transform UnityEngine.UI.ScrollRect::UnityEngine.UI.ICanvasElement.get_transform()
-extern const MethodInfo ScrollRect_UnityEngine_UI_ICanvasElement_get_transform_m5504_MethodInfo = 
+extern const MethodInfo ScrollRect_UnityEngine_UI_ICanvasElement_get_transform_m5508_MethodInfo = 
 {
 	"UnityEngine.UI.ICanvasElement.get_transform"/* name */
-	, (methodPointerType)&ScrollRect_UnityEngine_UI_ICanvasElement_get_transform_m5504/* method */
+	, (methodPointerType)&ScrollRect_UnityEngine_UI_ICanvasElement_get_transform_m5508/* method */
 	, &ScrollRect_t983_il2cpp_TypeInfo/* declaring_type */
 	, &Transform_t406_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -1596,251 +1596,251 @@ extern const MethodInfo ScrollRect_UnityEngine_UI_ICanvasElement_get_transform_m
 };
 static const MethodInfo* ScrollRect_t983_MethodInfos[] =
 {
-	&ScrollRect__ctor_m5449_MethodInfo,
-	&ScrollRect_get_content_m5450_MethodInfo,
-	&ScrollRect_set_content_m5451_MethodInfo,
-	&ScrollRect_get_horizontal_m5452_MethodInfo,
-	&ScrollRect_set_horizontal_m5453_MethodInfo,
-	&ScrollRect_get_vertical_m5454_MethodInfo,
-	&ScrollRect_set_vertical_m5455_MethodInfo,
-	&ScrollRect_get_movementType_m5456_MethodInfo,
-	&ScrollRect_set_movementType_m5457_MethodInfo,
-	&ScrollRect_get_elasticity_m5458_MethodInfo,
-	&ScrollRect_set_elasticity_m5459_MethodInfo,
-	&ScrollRect_get_inertia_m5460_MethodInfo,
-	&ScrollRect_set_inertia_m5461_MethodInfo,
-	&ScrollRect_get_decelerationRate_m5462_MethodInfo,
-	&ScrollRect_set_decelerationRate_m5463_MethodInfo,
-	&ScrollRect_get_scrollSensitivity_m5464_MethodInfo,
-	&ScrollRect_set_scrollSensitivity_m5465_MethodInfo,
-	&ScrollRect_get_horizontalScrollbar_m5466_MethodInfo,
-	&ScrollRect_set_horizontalScrollbar_m5467_MethodInfo,
-	&ScrollRect_get_verticalScrollbar_m5468_MethodInfo,
-	&ScrollRect_set_verticalScrollbar_m5469_MethodInfo,
-	&ScrollRect_get_onValueChanged_m5470_MethodInfo,
-	&ScrollRect_set_onValueChanged_m5471_MethodInfo,
-	&ScrollRect_get_viewRect_m5472_MethodInfo,
-	&ScrollRect_get_velocity_m5473_MethodInfo,
-	&ScrollRect_set_velocity_m5474_MethodInfo,
-	&ScrollRect_Rebuild_m5475_MethodInfo,
-	&ScrollRect_OnEnable_m5476_MethodInfo,
-	&ScrollRect_OnDisable_m5477_MethodInfo,
-	&ScrollRect_IsActive_m5478_MethodInfo,
-	&ScrollRect_EnsureLayoutHasRebuilt_m5479_MethodInfo,
-	&ScrollRect_StopMovement_m5480_MethodInfo,
-	&ScrollRect_OnScroll_m5481_MethodInfo,
-	&ScrollRect_OnInitializePotentialDrag_m5482_MethodInfo,
-	&ScrollRect_OnBeginDrag_m5483_MethodInfo,
-	&ScrollRect_OnEndDrag_m5484_MethodInfo,
-	&ScrollRect_OnDrag_m5485_MethodInfo,
-	&ScrollRect_SetContentAnchoredPosition_m5486_MethodInfo,
-	&ScrollRect_LateUpdate_m5487_MethodInfo,
-	&ScrollRect_UpdatePrevData_m5488_MethodInfo,
-	&ScrollRect_UpdateScrollbars_m5489_MethodInfo,
-	&ScrollRect_get_normalizedPosition_m5490_MethodInfo,
-	&ScrollRect_set_normalizedPosition_m5491_MethodInfo,
-	&ScrollRect_get_horizontalNormalizedPosition_m5492_MethodInfo,
-	&ScrollRect_set_horizontalNormalizedPosition_m5493_MethodInfo,
-	&ScrollRect_get_verticalNormalizedPosition_m5494_MethodInfo,
-	&ScrollRect_set_verticalNormalizedPosition_m5495_MethodInfo,
-	&ScrollRect_SetHorizontalNormalizedPosition_m5496_MethodInfo,
-	&ScrollRect_SetVerticalNormalizedPosition_m5497_MethodInfo,
-	&ScrollRect_SetNormalizedPosition_m5498_MethodInfo,
-	&ScrollRect_RubberDelta_m5499_MethodInfo,
-	&ScrollRect_UpdateBounds_m5500_MethodInfo,
-	&ScrollRect_GetBounds_m5501_MethodInfo,
-	&ScrollRect_CalculateOffset_m5502_MethodInfo,
-	&ScrollRect_UnityEngine_UI_ICanvasElement_IsDestroyed_m5503_MethodInfo,
-	&ScrollRect_UnityEngine_UI_ICanvasElement_get_transform_m5504_MethodInfo,
+	&ScrollRect__ctor_m5453_MethodInfo,
+	&ScrollRect_get_content_m5454_MethodInfo,
+	&ScrollRect_set_content_m5455_MethodInfo,
+	&ScrollRect_get_horizontal_m5456_MethodInfo,
+	&ScrollRect_set_horizontal_m5457_MethodInfo,
+	&ScrollRect_get_vertical_m5458_MethodInfo,
+	&ScrollRect_set_vertical_m5459_MethodInfo,
+	&ScrollRect_get_movementType_m5460_MethodInfo,
+	&ScrollRect_set_movementType_m5461_MethodInfo,
+	&ScrollRect_get_elasticity_m5462_MethodInfo,
+	&ScrollRect_set_elasticity_m5463_MethodInfo,
+	&ScrollRect_get_inertia_m5464_MethodInfo,
+	&ScrollRect_set_inertia_m5465_MethodInfo,
+	&ScrollRect_get_decelerationRate_m5466_MethodInfo,
+	&ScrollRect_set_decelerationRate_m5467_MethodInfo,
+	&ScrollRect_get_scrollSensitivity_m5468_MethodInfo,
+	&ScrollRect_set_scrollSensitivity_m5469_MethodInfo,
+	&ScrollRect_get_horizontalScrollbar_m5470_MethodInfo,
+	&ScrollRect_set_horizontalScrollbar_m5471_MethodInfo,
+	&ScrollRect_get_verticalScrollbar_m5472_MethodInfo,
+	&ScrollRect_set_verticalScrollbar_m5473_MethodInfo,
+	&ScrollRect_get_onValueChanged_m5474_MethodInfo,
+	&ScrollRect_set_onValueChanged_m5475_MethodInfo,
+	&ScrollRect_get_viewRect_m5476_MethodInfo,
+	&ScrollRect_get_velocity_m5477_MethodInfo,
+	&ScrollRect_set_velocity_m5478_MethodInfo,
+	&ScrollRect_Rebuild_m5479_MethodInfo,
+	&ScrollRect_OnEnable_m5480_MethodInfo,
+	&ScrollRect_OnDisable_m5481_MethodInfo,
+	&ScrollRect_IsActive_m5482_MethodInfo,
+	&ScrollRect_EnsureLayoutHasRebuilt_m5483_MethodInfo,
+	&ScrollRect_StopMovement_m5484_MethodInfo,
+	&ScrollRect_OnScroll_m5485_MethodInfo,
+	&ScrollRect_OnInitializePotentialDrag_m5486_MethodInfo,
+	&ScrollRect_OnBeginDrag_m5487_MethodInfo,
+	&ScrollRect_OnEndDrag_m5488_MethodInfo,
+	&ScrollRect_OnDrag_m5489_MethodInfo,
+	&ScrollRect_SetContentAnchoredPosition_m5490_MethodInfo,
+	&ScrollRect_LateUpdate_m5491_MethodInfo,
+	&ScrollRect_UpdatePrevData_m5492_MethodInfo,
+	&ScrollRect_UpdateScrollbars_m5493_MethodInfo,
+	&ScrollRect_get_normalizedPosition_m5494_MethodInfo,
+	&ScrollRect_set_normalizedPosition_m5495_MethodInfo,
+	&ScrollRect_get_horizontalNormalizedPosition_m5496_MethodInfo,
+	&ScrollRect_set_horizontalNormalizedPosition_m5497_MethodInfo,
+	&ScrollRect_get_verticalNormalizedPosition_m5498_MethodInfo,
+	&ScrollRect_set_verticalNormalizedPosition_m5499_MethodInfo,
+	&ScrollRect_SetHorizontalNormalizedPosition_m5500_MethodInfo,
+	&ScrollRect_SetVerticalNormalizedPosition_m5501_MethodInfo,
+	&ScrollRect_SetNormalizedPosition_m5502_MethodInfo,
+	&ScrollRect_RubberDelta_m5503_MethodInfo,
+	&ScrollRect_UpdateBounds_m5504_MethodInfo,
+	&ScrollRect_GetBounds_m5505_MethodInfo,
+	&ScrollRect_CalculateOffset_m5506_MethodInfo,
+	&ScrollRect_UnityEngine_UI_ICanvasElement_IsDestroyed_m5507_MethodInfo,
+	&ScrollRect_UnityEngine_UI_ICanvasElement_get_transform_m5508_MethodInfo,
 	NULL
 };
-extern const MethodInfo ScrollRect_get_content_m5450_MethodInfo;
-extern const MethodInfo ScrollRect_set_content_m5451_MethodInfo;
+extern const MethodInfo ScrollRect_get_content_m5454_MethodInfo;
+extern const MethodInfo ScrollRect_set_content_m5455_MethodInfo;
 static const PropertyInfo ScrollRect_t983____content_PropertyInfo = 
 {
 	&ScrollRect_t983_il2cpp_TypeInfo/* parent */
 	, "content"/* name */
-	, &ScrollRect_get_content_m5450_MethodInfo/* get */
-	, &ScrollRect_set_content_m5451_MethodInfo/* set */
+	, &ScrollRect_get_content_m5454_MethodInfo/* get */
+	, &ScrollRect_set_content_m5455_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ScrollRect_get_horizontal_m5452_MethodInfo;
-extern const MethodInfo ScrollRect_set_horizontal_m5453_MethodInfo;
+extern const MethodInfo ScrollRect_get_horizontal_m5456_MethodInfo;
+extern const MethodInfo ScrollRect_set_horizontal_m5457_MethodInfo;
 static const PropertyInfo ScrollRect_t983____horizontal_PropertyInfo = 
 {
 	&ScrollRect_t983_il2cpp_TypeInfo/* parent */
 	, "horizontal"/* name */
-	, &ScrollRect_get_horizontal_m5452_MethodInfo/* get */
-	, &ScrollRect_set_horizontal_m5453_MethodInfo/* set */
+	, &ScrollRect_get_horizontal_m5456_MethodInfo/* get */
+	, &ScrollRect_set_horizontal_m5457_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ScrollRect_get_vertical_m5454_MethodInfo;
-extern const MethodInfo ScrollRect_set_vertical_m5455_MethodInfo;
+extern const MethodInfo ScrollRect_get_vertical_m5458_MethodInfo;
+extern const MethodInfo ScrollRect_set_vertical_m5459_MethodInfo;
 static const PropertyInfo ScrollRect_t983____vertical_PropertyInfo = 
 {
 	&ScrollRect_t983_il2cpp_TypeInfo/* parent */
 	, "vertical"/* name */
-	, &ScrollRect_get_vertical_m5454_MethodInfo/* get */
-	, &ScrollRect_set_vertical_m5455_MethodInfo/* set */
+	, &ScrollRect_get_vertical_m5458_MethodInfo/* get */
+	, &ScrollRect_set_vertical_m5459_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ScrollRect_get_movementType_m5456_MethodInfo;
-extern const MethodInfo ScrollRect_set_movementType_m5457_MethodInfo;
+extern const MethodInfo ScrollRect_get_movementType_m5460_MethodInfo;
+extern const MethodInfo ScrollRect_set_movementType_m5461_MethodInfo;
 static const PropertyInfo ScrollRect_t983____movementType_PropertyInfo = 
 {
 	&ScrollRect_t983_il2cpp_TypeInfo/* parent */
 	, "movementType"/* name */
-	, &ScrollRect_get_movementType_m5456_MethodInfo/* get */
-	, &ScrollRect_set_movementType_m5457_MethodInfo/* set */
+	, &ScrollRect_get_movementType_m5460_MethodInfo/* get */
+	, &ScrollRect_set_movementType_m5461_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ScrollRect_get_elasticity_m5458_MethodInfo;
-extern const MethodInfo ScrollRect_set_elasticity_m5459_MethodInfo;
+extern const MethodInfo ScrollRect_get_elasticity_m5462_MethodInfo;
+extern const MethodInfo ScrollRect_set_elasticity_m5463_MethodInfo;
 static const PropertyInfo ScrollRect_t983____elasticity_PropertyInfo = 
 {
 	&ScrollRect_t983_il2cpp_TypeInfo/* parent */
 	, "elasticity"/* name */
-	, &ScrollRect_get_elasticity_m5458_MethodInfo/* get */
-	, &ScrollRect_set_elasticity_m5459_MethodInfo/* set */
+	, &ScrollRect_get_elasticity_m5462_MethodInfo/* get */
+	, &ScrollRect_set_elasticity_m5463_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ScrollRect_get_inertia_m5460_MethodInfo;
-extern const MethodInfo ScrollRect_set_inertia_m5461_MethodInfo;
+extern const MethodInfo ScrollRect_get_inertia_m5464_MethodInfo;
+extern const MethodInfo ScrollRect_set_inertia_m5465_MethodInfo;
 static const PropertyInfo ScrollRect_t983____inertia_PropertyInfo = 
 {
 	&ScrollRect_t983_il2cpp_TypeInfo/* parent */
 	, "inertia"/* name */
-	, &ScrollRect_get_inertia_m5460_MethodInfo/* get */
-	, &ScrollRect_set_inertia_m5461_MethodInfo/* set */
+	, &ScrollRect_get_inertia_m5464_MethodInfo/* get */
+	, &ScrollRect_set_inertia_m5465_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ScrollRect_get_decelerationRate_m5462_MethodInfo;
-extern const MethodInfo ScrollRect_set_decelerationRate_m5463_MethodInfo;
+extern const MethodInfo ScrollRect_get_decelerationRate_m5466_MethodInfo;
+extern const MethodInfo ScrollRect_set_decelerationRate_m5467_MethodInfo;
 static const PropertyInfo ScrollRect_t983____decelerationRate_PropertyInfo = 
 {
 	&ScrollRect_t983_il2cpp_TypeInfo/* parent */
 	, "decelerationRate"/* name */
-	, &ScrollRect_get_decelerationRate_m5462_MethodInfo/* get */
-	, &ScrollRect_set_decelerationRate_m5463_MethodInfo/* set */
+	, &ScrollRect_get_decelerationRate_m5466_MethodInfo/* get */
+	, &ScrollRect_set_decelerationRate_m5467_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ScrollRect_get_scrollSensitivity_m5464_MethodInfo;
-extern const MethodInfo ScrollRect_set_scrollSensitivity_m5465_MethodInfo;
+extern const MethodInfo ScrollRect_get_scrollSensitivity_m5468_MethodInfo;
+extern const MethodInfo ScrollRect_set_scrollSensitivity_m5469_MethodInfo;
 static const PropertyInfo ScrollRect_t983____scrollSensitivity_PropertyInfo = 
 {
 	&ScrollRect_t983_il2cpp_TypeInfo/* parent */
 	, "scrollSensitivity"/* name */
-	, &ScrollRect_get_scrollSensitivity_m5464_MethodInfo/* get */
-	, &ScrollRect_set_scrollSensitivity_m5465_MethodInfo/* set */
+	, &ScrollRect_get_scrollSensitivity_m5468_MethodInfo/* get */
+	, &ScrollRect_set_scrollSensitivity_m5469_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ScrollRect_get_horizontalScrollbar_m5466_MethodInfo;
-extern const MethodInfo ScrollRect_set_horizontalScrollbar_m5467_MethodInfo;
+extern const MethodInfo ScrollRect_get_horizontalScrollbar_m5470_MethodInfo;
+extern const MethodInfo ScrollRect_set_horizontalScrollbar_m5471_MethodInfo;
 static const PropertyInfo ScrollRect_t983____horizontalScrollbar_PropertyInfo = 
 {
 	&ScrollRect_t983_il2cpp_TypeInfo/* parent */
 	, "horizontalScrollbar"/* name */
-	, &ScrollRect_get_horizontalScrollbar_m5466_MethodInfo/* get */
-	, &ScrollRect_set_horizontalScrollbar_m5467_MethodInfo/* set */
+	, &ScrollRect_get_horizontalScrollbar_m5470_MethodInfo/* get */
+	, &ScrollRect_set_horizontalScrollbar_m5471_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ScrollRect_get_verticalScrollbar_m5468_MethodInfo;
-extern const MethodInfo ScrollRect_set_verticalScrollbar_m5469_MethodInfo;
+extern const MethodInfo ScrollRect_get_verticalScrollbar_m5472_MethodInfo;
+extern const MethodInfo ScrollRect_set_verticalScrollbar_m5473_MethodInfo;
 static const PropertyInfo ScrollRect_t983____verticalScrollbar_PropertyInfo = 
 {
 	&ScrollRect_t983_il2cpp_TypeInfo/* parent */
 	, "verticalScrollbar"/* name */
-	, &ScrollRect_get_verticalScrollbar_m5468_MethodInfo/* get */
-	, &ScrollRect_set_verticalScrollbar_m5469_MethodInfo/* set */
+	, &ScrollRect_get_verticalScrollbar_m5472_MethodInfo/* get */
+	, &ScrollRect_set_verticalScrollbar_m5473_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ScrollRect_get_onValueChanged_m5470_MethodInfo;
-extern const MethodInfo ScrollRect_set_onValueChanged_m5471_MethodInfo;
+extern const MethodInfo ScrollRect_get_onValueChanged_m5474_MethodInfo;
+extern const MethodInfo ScrollRect_set_onValueChanged_m5475_MethodInfo;
 static const PropertyInfo ScrollRect_t983____onValueChanged_PropertyInfo = 
 {
 	&ScrollRect_t983_il2cpp_TypeInfo/* parent */
 	, "onValueChanged"/* name */
-	, &ScrollRect_get_onValueChanged_m5470_MethodInfo/* get */
-	, &ScrollRect_set_onValueChanged_m5471_MethodInfo/* set */
+	, &ScrollRect_get_onValueChanged_m5474_MethodInfo/* get */
+	, &ScrollRect_set_onValueChanged_m5475_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ScrollRect_get_viewRect_m5472_MethodInfo;
+extern const MethodInfo ScrollRect_get_viewRect_m5476_MethodInfo;
 static const PropertyInfo ScrollRect_t983____viewRect_PropertyInfo = 
 {
 	&ScrollRect_t983_il2cpp_TypeInfo/* parent */
 	, "viewRect"/* name */
-	, &ScrollRect_get_viewRect_m5472_MethodInfo/* get */
+	, &ScrollRect_get_viewRect_m5476_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ScrollRect_get_velocity_m5473_MethodInfo;
-extern const MethodInfo ScrollRect_set_velocity_m5474_MethodInfo;
+extern const MethodInfo ScrollRect_get_velocity_m5477_MethodInfo;
+extern const MethodInfo ScrollRect_set_velocity_m5478_MethodInfo;
 static const PropertyInfo ScrollRect_t983____velocity_PropertyInfo = 
 {
 	&ScrollRect_t983_il2cpp_TypeInfo/* parent */
 	, "velocity"/* name */
-	, &ScrollRect_get_velocity_m5473_MethodInfo/* get */
-	, &ScrollRect_set_velocity_m5474_MethodInfo/* set */
+	, &ScrollRect_get_velocity_m5477_MethodInfo/* get */
+	, &ScrollRect_set_velocity_m5478_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ScrollRect_get_normalizedPosition_m5490_MethodInfo;
-extern const MethodInfo ScrollRect_set_normalizedPosition_m5491_MethodInfo;
+extern const MethodInfo ScrollRect_get_normalizedPosition_m5494_MethodInfo;
+extern const MethodInfo ScrollRect_set_normalizedPosition_m5495_MethodInfo;
 static const PropertyInfo ScrollRect_t983____normalizedPosition_PropertyInfo = 
 {
 	&ScrollRect_t983_il2cpp_TypeInfo/* parent */
 	, "normalizedPosition"/* name */
-	, &ScrollRect_get_normalizedPosition_m5490_MethodInfo/* get */
-	, &ScrollRect_set_normalizedPosition_m5491_MethodInfo/* set */
+	, &ScrollRect_get_normalizedPosition_m5494_MethodInfo/* get */
+	, &ScrollRect_set_normalizedPosition_m5495_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ScrollRect_get_horizontalNormalizedPosition_m5492_MethodInfo;
-extern const MethodInfo ScrollRect_set_horizontalNormalizedPosition_m5493_MethodInfo;
+extern const MethodInfo ScrollRect_get_horizontalNormalizedPosition_m5496_MethodInfo;
+extern const MethodInfo ScrollRect_set_horizontalNormalizedPosition_m5497_MethodInfo;
 static const PropertyInfo ScrollRect_t983____horizontalNormalizedPosition_PropertyInfo = 
 {
 	&ScrollRect_t983_il2cpp_TypeInfo/* parent */
 	, "horizontalNormalizedPosition"/* name */
-	, &ScrollRect_get_horizontalNormalizedPosition_m5492_MethodInfo/* get */
-	, &ScrollRect_set_horizontalNormalizedPosition_m5493_MethodInfo/* set */
+	, &ScrollRect_get_horizontalNormalizedPosition_m5496_MethodInfo/* get */
+	, &ScrollRect_set_horizontalNormalizedPosition_m5497_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ScrollRect_get_verticalNormalizedPosition_m5494_MethodInfo;
-extern const MethodInfo ScrollRect_set_verticalNormalizedPosition_m5495_MethodInfo;
+extern const MethodInfo ScrollRect_get_verticalNormalizedPosition_m5498_MethodInfo;
+extern const MethodInfo ScrollRect_set_verticalNormalizedPosition_m5499_MethodInfo;
 static const PropertyInfo ScrollRect_t983____verticalNormalizedPosition_PropertyInfo = 
 {
 	&ScrollRect_t983_il2cpp_TypeInfo/* parent */
 	, "verticalNormalizedPosition"/* name */
-	, &ScrollRect_get_verticalNormalizedPosition_m5494_MethodInfo/* get */
-	, &ScrollRect_set_verticalNormalizedPosition_m5495_MethodInfo/* set */
+	, &ScrollRect_get_verticalNormalizedPosition_m5498_MethodInfo/* get */
+	, &ScrollRect_set_verticalNormalizedPosition_m5499_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -1870,69 +1870,69 @@ static const Il2CppType* ScrollRect_t983_il2cpp_TypeInfo__nestedTypes[2] =
 	&MovementType_t980_0_0_0,
 	&ScrollRectEvent_t981_0_0_0,
 };
-extern const MethodInfo Object_Equals_m523_MethodInfo;
-extern const MethodInfo Object_GetHashCode_m524_MethodInfo;
-extern const MethodInfo Object_ToString_m525_MethodInfo;
-extern const MethodInfo UIBehaviour_Awake_m4839_MethodInfo;
-extern const MethodInfo ScrollRect_OnEnable_m5476_MethodInfo;
-extern const MethodInfo UIBehaviour_Start_m4841_MethodInfo;
-extern const MethodInfo ScrollRect_OnDisable_m5477_MethodInfo;
-extern const MethodInfo UIBehaviour_OnDestroy_m4843_MethodInfo;
-extern const MethodInfo ScrollRect_IsActive_m5478_MethodInfo;
-extern const MethodInfo UIBehaviour_OnRectTransformDimensionsChange_m4845_MethodInfo;
-extern const MethodInfo UIBehaviour_OnBeforeTransformParentChanged_m4846_MethodInfo;
-extern const MethodInfo UIBehaviour_OnTransformParentChanged_m4847_MethodInfo;
-extern const MethodInfo UIBehaviour_OnDidApplyAnimationProperties_m4848_MethodInfo;
-extern const MethodInfo UIBehaviour_OnCanvasGroupChanged_m4849_MethodInfo;
-extern const MethodInfo UIBehaviour_OnCanvasHierarchyChanged_m4850_MethodInfo;
-extern const MethodInfo ScrollRect_OnBeginDrag_m5483_MethodInfo;
-extern const MethodInfo ScrollRect_OnInitializePotentialDrag_m5482_MethodInfo;
-extern const MethodInfo ScrollRect_OnDrag_m5485_MethodInfo;
-extern const MethodInfo ScrollRect_OnEndDrag_m5484_MethodInfo;
-extern const MethodInfo ScrollRect_OnScroll_m5481_MethodInfo;
-extern const MethodInfo ScrollRect_Rebuild_m5475_MethodInfo;
-extern const MethodInfo ScrollRect_UnityEngine_UI_ICanvasElement_get_transform_m5504_MethodInfo;
-extern const MethodInfo ScrollRect_UnityEngine_UI_ICanvasElement_IsDestroyed_m5503_MethodInfo;
-extern const MethodInfo ScrollRect_StopMovement_m5480_MethodInfo;
-extern const MethodInfo ScrollRect_SetContentAnchoredPosition_m5486_MethodInfo;
-extern const MethodInfo ScrollRect_LateUpdate_m5487_MethodInfo;
+extern const MethodInfo Object_Equals_m525_MethodInfo;
+extern const MethodInfo Object_GetHashCode_m526_MethodInfo;
+extern const MethodInfo Object_ToString_m527_MethodInfo;
+extern const MethodInfo UIBehaviour_Awake_m4843_MethodInfo;
+extern const MethodInfo ScrollRect_OnEnable_m5480_MethodInfo;
+extern const MethodInfo UIBehaviour_Start_m4845_MethodInfo;
+extern const MethodInfo ScrollRect_OnDisable_m5481_MethodInfo;
+extern const MethodInfo UIBehaviour_OnDestroy_m4847_MethodInfo;
+extern const MethodInfo ScrollRect_IsActive_m5482_MethodInfo;
+extern const MethodInfo UIBehaviour_OnRectTransformDimensionsChange_m4849_MethodInfo;
+extern const MethodInfo UIBehaviour_OnBeforeTransformParentChanged_m4850_MethodInfo;
+extern const MethodInfo UIBehaviour_OnTransformParentChanged_m4851_MethodInfo;
+extern const MethodInfo UIBehaviour_OnDidApplyAnimationProperties_m4852_MethodInfo;
+extern const MethodInfo UIBehaviour_OnCanvasGroupChanged_m4853_MethodInfo;
+extern const MethodInfo UIBehaviour_OnCanvasHierarchyChanged_m4854_MethodInfo;
+extern const MethodInfo ScrollRect_OnBeginDrag_m5487_MethodInfo;
+extern const MethodInfo ScrollRect_OnInitializePotentialDrag_m5486_MethodInfo;
+extern const MethodInfo ScrollRect_OnDrag_m5489_MethodInfo;
+extern const MethodInfo ScrollRect_OnEndDrag_m5488_MethodInfo;
+extern const MethodInfo ScrollRect_OnScroll_m5485_MethodInfo;
+extern const MethodInfo ScrollRect_Rebuild_m5479_MethodInfo;
+extern const MethodInfo ScrollRect_UnityEngine_UI_ICanvasElement_get_transform_m5508_MethodInfo;
+extern const MethodInfo ScrollRect_UnityEngine_UI_ICanvasElement_IsDestroyed_m5507_MethodInfo;
+extern const MethodInfo ScrollRect_StopMovement_m5484_MethodInfo;
+extern const MethodInfo ScrollRect_SetContentAnchoredPosition_m5490_MethodInfo;
+extern const MethodInfo ScrollRect_LateUpdate_m5491_MethodInfo;
 static const Il2CppMethodReference ScrollRect_t983_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
-	&UIBehaviour_Awake_m4839_MethodInfo,
-	&ScrollRect_OnEnable_m5476_MethodInfo,
-	&UIBehaviour_Start_m4841_MethodInfo,
-	&ScrollRect_OnDisable_m5477_MethodInfo,
-	&UIBehaviour_OnDestroy_m4843_MethodInfo,
-	&ScrollRect_IsActive_m5478_MethodInfo,
-	&UIBehaviour_OnRectTransformDimensionsChange_m4845_MethodInfo,
-	&UIBehaviour_OnBeforeTransformParentChanged_m4846_MethodInfo,
-	&UIBehaviour_OnTransformParentChanged_m4847_MethodInfo,
-	&UIBehaviour_OnDidApplyAnimationProperties_m4848_MethodInfo,
-	&UIBehaviour_OnCanvasGroupChanged_m4849_MethodInfo,
-	&UIBehaviour_OnCanvasHierarchyChanged_m4850_MethodInfo,
-	&ScrollRect_OnBeginDrag_m5483_MethodInfo,
-	&ScrollRect_OnInitializePotentialDrag_m5482_MethodInfo,
-	&ScrollRect_OnDrag_m5485_MethodInfo,
-	&ScrollRect_OnEndDrag_m5484_MethodInfo,
-	&ScrollRect_OnScroll_m5481_MethodInfo,
-	&ScrollRect_Rebuild_m5475_MethodInfo,
-	&ScrollRect_UnityEngine_UI_ICanvasElement_get_transform_m5504_MethodInfo,
-	&ScrollRect_UnityEngine_UI_ICanvasElement_IsDestroyed_m5503_MethodInfo,
-	&ScrollRect_Rebuild_m5475_MethodInfo,
-	&ScrollRect_StopMovement_m5480_MethodInfo,
-	&ScrollRect_OnScroll_m5481_MethodInfo,
-	&ScrollRect_OnInitializePotentialDrag_m5482_MethodInfo,
-	&ScrollRect_OnBeginDrag_m5483_MethodInfo,
-	&ScrollRect_OnEndDrag_m5484_MethodInfo,
-	&ScrollRect_OnDrag_m5485_MethodInfo,
-	&ScrollRect_SetContentAnchoredPosition_m5486_MethodInfo,
-	&ScrollRect_LateUpdate_m5487_MethodInfo,
-	&ScrollRect_UnityEngine_UI_ICanvasElement_IsDestroyed_m5503_MethodInfo,
-	&ScrollRect_UnityEngine_UI_ICanvasElement_get_transform_m5504_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
+	&UIBehaviour_Awake_m4843_MethodInfo,
+	&ScrollRect_OnEnable_m5480_MethodInfo,
+	&UIBehaviour_Start_m4845_MethodInfo,
+	&ScrollRect_OnDisable_m5481_MethodInfo,
+	&UIBehaviour_OnDestroy_m4847_MethodInfo,
+	&ScrollRect_IsActive_m5482_MethodInfo,
+	&UIBehaviour_OnRectTransformDimensionsChange_m4849_MethodInfo,
+	&UIBehaviour_OnBeforeTransformParentChanged_m4850_MethodInfo,
+	&UIBehaviour_OnTransformParentChanged_m4851_MethodInfo,
+	&UIBehaviour_OnDidApplyAnimationProperties_m4852_MethodInfo,
+	&UIBehaviour_OnCanvasGroupChanged_m4853_MethodInfo,
+	&UIBehaviour_OnCanvasHierarchyChanged_m4854_MethodInfo,
+	&ScrollRect_OnBeginDrag_m5487_MethodInfo,
+	&ScrollRect_OnInitializePotentialDrag_m5486_MethodInfo,
+	&ScrollRect_OnDrag_m5489_MethodInfo,
+	&ScrollRect_OnEndDrag_m5488_MethodInfo,
+	&ScrollRect_OnScroll_m5485_MethodInfo,
+	&ScrollRect_Rebuild_m5479_MethodInfo,
+	&ScrollRect_UnityEngine_UI_ICanvasElement_get_transform_m5508_MethodInfo,
+	&ScrollRect_UnityEngine_UI_ICanvasElement_IsDestroyed_m5507_MethodInfo,
+	&ScrollRect_Rebuild_m5479_MethodInfo,
+	&ScrollRect_StopMovement_m5484_MethodInfo,
+	&ScrollRect_OnScroll_m5485_MethodInfo,
+	&ScrollRect_OnInitializePotentialDrag_m5486_MethodInfo,
+	&ScrollRect_OnBeginDrag_m5487_MethodInfo,
+	&ScrollRect_OnEndDrag_m5488_MethodInfo,
+	&ScrollRect_OnDrag_m5489_MethodInfo,
+	&ScrollRect_SetContentAnchoredPosition_m5490_MethodInfo,
+	&ScrollRect_LateUpdate_m5491_MethodInfo,
+	&ScrollRect_UnityEngine_UI_ICanvasElement_IsDestroyed_m5507_MethodInfo,
+	&ScrollRect_UnityEngine_UI_ICanvasElement_get_transform_m5508_MethodInfo,
 };
 static bool ScrollRect_t983_VTableIsGenericMethod[] =
 {
@@ -2080,53 +2080,53 @@ static const MethodInfo* Transition_t984_MethodInfos[] =
 {
 	NULL
 };
-extern const MethodInfo Enum_Equals_m501_MethodInfo;
-extern const MethodInfo Enum_GetHashCode_m502_MethodInfo;
-extern const MethodInfo Enum_ToString_m503_MethodInfo;
-extern const MethodInfo Enum_ToString_m504_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToBoolean_m505_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToByte_m506_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToChar_m507_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToDateTime_m508_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToDecimal_m509_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToDouble_m510_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToInt16_m511_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToInt32_m512_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToInt64_m513_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToSByte_m514_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToSingle_m515_MethodInfo;
-extern const MethodInfo Enum_ToString_m516_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToType_m517_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToUInt16_m518_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToUInt32_m519_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToUInt64_m520_MethodInfo;
-extern const MethodInfo Enum_CompareTo_m521_MethodInfo;
-extern const MethodInfo Enum_GetTypeCode_m522_MethodInfo;
+extern const MethodInfo Enum_Equals_m503_MethodInfo;
+extern const MethodInfo Enum_GetHashCode_m504_MethodInfo;
+extern const MethodInfo Enum_ToString_m505_MethodInfo;
+extern const MethodInfo Enum_ToString_m506_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToBoolean_m507_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToByte_m508_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToChar_m509_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToDateTime_m510_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToDecimal_m511_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToDouble_m512_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToInt16_m513_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToInt32_m514_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToInt64_m515_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToSByte_m516_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToSingle_m517_MethodInfo;
+extern const MethodInfo Enum_ToString_m518_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToType_m519_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToUInt16_m520_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToUInt32_m521_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToUInt64_m522_MethodInfo;
+extern const MethodInfo Enum_CompareTo_m523_MethodInfo;
+extern const MethodInfo Enum_GetTypeCode_m524_MethodInfo;
 static const Il2CppMethodReference Transition_t984_VTable[] =
 {
-	&Enum_Equals_m501_MethodInfo,
+	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Enum_GetHashCode_m502_MethodInfo,
-	&Enum_ToString_m503_MethodInfo,
-	&Enum_ToString_m504_MethodInfo,
-	&Enum_System_IConvertible_ToBoolean_m505_MethodInfo,
-	&Enum_System_IConvertible_ToByte_m506_MethodInfo,
-	&Enum_System_IConvertible_ToChar_m507_MethodInfo,
-	&Enum_System_IConvertible_ToDateTime_m508_MethodInfo,
-	&Enum_System_IConvertible_ToDecimal_m509_MethodInfo,
-	&Enum_System_IConvertible_ToDouble_m510_MethodInfo,
-	&Enum_System_IConvertible_ToInt16_m511_MethodInfo,
-	&Enum_System_IConvertible_ToInt32_m512_MethodInfo,
-	&Enum_System_IConvertible_ToInt64_m513_MethodInfo,
-	&Enum_System_IConvertible_ToSByte_m514_MethodInfo,
-	&Enum_System_IConvertible_ToSingle_m515_MethodInfo,
-	&Enum_ToString_m516_MethodInfo,
-	&Enum_System_IConvertible_ToType_m517_MethodInfo,
-	&Enum_System_IConvertible_ToUInt16_m518_MethodInfo,
-	&Enum_System_IConvertible_ToUInt32_m519_MethodInfo,
-	&Enum_System_IConvertible_ToUInt64_m520_MethodInfo,
-	&Enum_CompareTo_m521_MethodInfo,
-	&Enum_GetTypeCode_m522_MethodInfo,
+	&Enum_GetHashCode_m504_MethodInfo,
+	&Enum_ToString_m505_MethodInfo,
+	&Enum_ToString_m506_MethodInfo,
+	&Enum_System_IConvertible_ToBoolean_m507_MethodInfo,
+	&Enum_System_IConvertible_ToByte_m508_MethodInfo,
+	&Enum_System_IConvertible_ToChar_m509_MethodInfo,
+	&Enum_System_IConvertible_ToDateTime_m510_MethodInfo,
+	&Enum_System_IConvertible_ToDecimal_m511_MethodInfo,
+	&Enum_System_IConvertible_ToDouble_m512_MethodInfo,
+	&Enum_System_IConvertible_ToInt16_m513_MethodInfo,
+	&Enum_System_IConvertible_ToInt32_m514_MethodInfo,
+	&Enum_System_IConvertible_ToInt64_m515_MethodInfo,
+	&Enum_System_IConvertible_ToSByte_m516_MethodInfo,
+	&Enum_System_IConvertible_ToSingle_m517_MethodInfo,
+	&Enum_ToString_m518_MethodInfo,
+	&Enum_System_IConvertible_ToType_m519_MethodInfo,
+	&Enum_System_IConvertible_ToUInt16_m520_MethodInfo,
+	&Enum_System_IConvertible_ToUInt32_m521_MethodInfo,
+	&Enum_System_IConvertible_ToUInt64_m522_MethodInfo,
+	&Enum_CompareTo_m523_MethodInfo,
+	&Enum_GetTypeCode_m524_MethodInfo,
 };
 static bool Transition_t984_VTableIsGenericMethod[] =
 {
@@ -2251,29 +2251,29 @@ static const MethodInfo* SelectionState_t985_MethodInfos[] =
 };
 static const Il2CppMethodReference SelectionState_t985_VTable[] =
 {
-	&Enum_Equals_m501_MethodInfo,
+	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Enum_GetHashCode_m502_MethodInfo,
-	&Enum_ToString_m503_MethodInfo,
-	&Enum_ToString_m504_MethodInfo,
-	&Enum_System_IConvertible_ToBoolean_m505_MethodInfo,
-	&Enum_System_IConvertible_ToByte_m506_MethodInfo,
-	&Enum_System_IConvertible_ToChar_m507_MethodInfo,
-	&Enum_System_IConvertible_ToDateTime_m508_MethodInfo,
-	&Enum_System_IConvertible_ToDecimal_m509_MethodInfo,
-	&Enum_System_IConvertible_ToDouble_m510_MethodInfo,
-	&Enum_System_IConvertible_ToInt16_m511_MethodInfo,
-	&Enum_System_IConvertible_ToInt32_m512_MethodInfo,
-	&Enum_System_IConvertible_ToInt64_m513_MethodInfo,
-	&Enum_System_IConvertible_ToSByte_m514_MethodInfo,
-	&Enum_System_IConvertible_ToSingle_m515_MethodInfo,
-	&Enum_ToString_m516_MethodInfo,
-	&Enum_System_IConvertible_ToType_m517_MethodInfo,
-	&Enum_System_IConvertible_ToUInt16_m518_MethodInfo,
-	&Enum_System_IConvertible_ToUInt32_m519_MethodInfo,
-	&Enum_System_IConvertible_ToUInt64_m520_MethodInfo,
-	&Enum_CompareTo_m521_MethodInfo,
-	&Enum_GetTypeCode_m522_MethodInfo,
+	&Enum_GetHashCode_m504_MethodInfo,
+	&Enum_ToString_m505_MethodInfo,
+	&Enum_ToString_m506_MethodInfo,
+	&Enum_System_IConvertible_ToBoolean_m507_MethodInfo,
+	&Enum_System_IConvertible_ToByte_m508_MethodInfo,
+	&Enum_System_IConvertible_ToChar_m509_MethodInfo,
+	&Enum_System_IConvertible_ToDateTime_m510_MethodInfo,
+	&Enum_System_IConvertible_ToDecimal_m511_MethodInfo,
+	&Enum_System_IConvertible_ToDouble_m512_MethodInfo,
+	&Enum_System_IConvertible_ToInt16_m513_MethodInfo,
+	&Enum_System_IConvertible_ToInt32_m514_MethodInfo,
+	&Enum_System_IConvertible_ToInt64_m515_MethodInfo,
+	&Enum_System_IConvertible_ToSByte_m516_MethodInfo,
+	&Enum_System_IConvertible_ToSingle_m517_MethodInfo,
+	&Enum_ToString_m518_MethodInfo,
+	&Enum_System_IConvertible_ToType_m519_MethodInfo,
+	&Enum_System_IConvertible_ToUInt16_m520_MethodInfo,
+	&Enum_System_IConvertible_ToUInt32_m521_MethodInfo,
+	&Enum_System_IConvertible_ToUInt64_m522_MethodInfo,
+	&Enum_CompareTo_m523_MethodInfo,
+	&Enum_GetTypeCode_m524_MethodInfo,
 };
 static bool SelectionState_t985_VTableIsGenericMethod[] =
 {
@@ -2384,10 +2384,10 @@ TypeInfo SelectionState_t985_il2cpp_TypeInfo =
 #include "UnityEngine_UI_UnityEngine_UI_SelectableMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::.ctor()
-extern const MethodInfo Selectable__ctor_m5505_MethodInfo = 
+extern const MethodInfo Selectable__ctor_m5509_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Selectable__ctor_m5505/* method */
+	, (methodPointerType)&Selectable__ctor_m5509/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -2407,10 +2407,10 @@ extern const MethodInfo Selectable__ctor_m5505_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::.cctor()
-extern const MethodInfo Selectable__cctor_m5506_MethodInfo = 
+extern const MethodInfo Selectable__cctor_m5510_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&Selectable__cctor_m5506/* method */
+	, (methodPointerType)&Selectable__cctor_m5510/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -2431,10 +2431,10 @@ extern const MethodInfo Selectable__cctor_m5506_MethodInfo =
 extern const Il2CppType List_1_t986_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.List`1<UnityEngine.UI.Selectable> UnityEngine.UI.Selectable::get_allSelectables()
-extern const MethodInfo Selectable_get_allSelectables_m5507_MethodInfo = 
+extern const MethodInfo Selectable_get_allSelectables_m5511_MethodInfo = 
 {
 	"get_allSelectables"/* name */
-	, (methodPointerType)&Selectable_get_allSelectables_m5507/* method */
+	, (methodPointerType)&Selectable_get_allSelectables_m5511/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &List_1_t986_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -2455,10 +2455,10 @@ extern const MethodInfo Selectable_get_allSelectables_m5507_MethodInfo =
 extern const Il2CppType Navigation_t971_0_0_0;
 extern void* RuntimeInvoker_Navigation_t971 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Navigation UnityEngine.UI.Selectable::get_navigation()
-extern const MethodInfo Selectable_get_navigation_m5508_MethodInfo = 
+extern const MethodInfo Selectable_get_navigation_m5512_MethodInfo = 
 {
 	"get_navigation"/* name */
-	, (methodPointerType)&Selectable_get_navigation_m5508/* method */
+	, (methodPointerType)&Selectable_get_navigation_m5512/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Navigation_t971_0_0_0/* return_type */
 	, RuntimeInvoker_Navigation_t971/* invoker_method */
@@ -2477,20 +2477,20 @@ extern const MethodInfo Selectable_get_navigation_m5508_MethodInfo =
 
 };
 extern const Il2CppType Navigation_t971_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_set_navigation_m5509_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_set_navigation_m5513_ParameterInfos[] = 
 {
 	{"value", 0, 134218220, 0, &Navigation_t971_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Navigation_t971 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::set_navigation(UnityEngine.UI.Navigation)
-extern const MethodInfo Selectable_set_navigation_m5509_MethodInfo = 
+extern const MethodInfo Selectable_set_navigation_m5513_MethodInfo = 
 {
 	"set_navigation"/* name */
-	, (methodPointerType)&Selectable_set_navigation_m5509/* method */
+	, (methodPointerType)&Selectable_set_navigation_m5513/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Navigation_t971/* invoker_method */
-	, Selectable_t922_Selectable_set_navigation_m5509_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_set_navigation_m5513_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -2506,10 +2506,10 @@ extern const MethodInfo Selectable_set_navigation_m5509_MethodInfo =
 };
 extern void* RuntimeInvoker_Transition_t984 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Selectable/Transition UnityEngine.UI.Selectable::get_transition()
-extern const MethodInfo Selectable_get_transition_m5510_MethodInfo = 
+extern const MethodInfo Selectable_get_transition_m5514_MethodInfo = 
 {
 	"get_transition"/* name */
-	, (methodPointerType)&Selectable_get_transition_m5510/* method */
+	, (methodPointerType)&Selectable_get_transition_m5514/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Transition_t984_0_0_0/* return_type */
 	, RuntimeInvoker_Transition_t984/* invoker_method */
@@ -2528,20 +2528,20 @@ extern const MethodInfo Selectable_get_transition_m5510_MethodInfo =
 
 };
 extern const Il2CppType Transition_t984_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_set_transition_m5511_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_set_transition_m5515_ParameterInfos[] = 
 {
 	{"value", 0, 134218221, 0, &Transition_t984_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::set_transition(UnityEngine.UI.Selectable/Transition)
-extern const MethodInfo Selectable_set_transition_m5511_MethodInfo = 
+extern const MethodInfo Selectable_set_transition_m5515_MethodInfo = 
 {
 	"set_transition"/* name */
-	, (methodPointerType)&Selectable_set_transition_m5511/* method */
+	, (methodPointerType)&Selectable_set_transition_m5515/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Selectable_t922_Selectable_set_transition_m5511_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_set_transition_m5515_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -2558,10 +2558,10 @@ extern const MethodInfo Selectable_set_transition_m5511_MethodInfo =
 extern const Il2CppType ColorBlock_t928_0_0_0;
 extern void* RuntimeInvoker_ColorBlock_t928 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.ColorBlock UnityEngine.UI.Selectable::get_colors()
-extern const MethodInfo Selectable_get_colors_m5512_MethodInfo = 
+extern const MethodInfo Selectable_get_colors_m5516_MethodInfo = 
 {
 	"get_colors"/* name */
-	, (methodPointerType)&Selectable_get_colors_m5512/* method */
+	, (methodPointerType)&Selectable_get_colors_m5516/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &ColorBlock_t928_0_0_0/* return_type */
 	, RuntimeInvoker_ColorBlock_t928/* invoker_method */
@@ -2580,20 +2580,20 @@ extern const MethodInfo Selectable_get_colors_m5512_MethodInfo =
 
 };
 extern const Il2CppType ColorBlock_t928_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_set_colors_m5513_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_set_colors_m5517_ParameterInfos[] = 
 {
 	{"value", 0, 134218222, 0, &ColorBlock_t928_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_ColorBlock_t928 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::set_colors(UnityEngine.UI.ColorBlock)
-extern const MethodInfo Selectable_set_colors_m5513_MethodInfo = 
+extern const MethodInfo Selectable_set_colors_m5517_MethodInfo = 
 {
 	"set_colors"/* name */
-	, (methodPointerType)&Selectable_set_colors_m5513/* method */
+	, (methodPointerType)&Selectable_set_colors_m5517/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_ColorBlock_t928/* invoker_method */
-	, Selectable_t922_Selectable_set_colors_m5513_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_set_colors_m5517_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -2610,10 +2610,10 @@ extern const MethodInfo Selectable_set_colors_m5513_MethodInfo =
 extern const Il2CppType SpriteState_t988_0_0_0;
 extern void* RuntimeInvoker_SpriteState_t988 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.SpriteState UnityEngine.UI.Selectable::get_spriteState()
-extern const MethodInfo Selectable_get_spriteState_m5514_MethodInfo = 
+extern const MethodInfo Selectable_get_spriteState_m5518_MethodInfo = 
 {
 	"get_spriteState"/* name */
-	, (methodPointerType)&Selectable_get_spriteState_m5514/* method */
+	, (methodPointerType)&Selectable_get_spriteState_m5518/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &SpriteState_t988_0_0_0/* return_type */
 	, RuntimeInvoker_SpriteState_t988/* invoker_method */
@@ -2632,20 +2632,20 @@ extern const MethodInfo Selectable_get_spriteState_m5514_MethodInfo =
 
 };
 extern const Il2CppType SpriteState_t988_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_set_spriteState_m5515_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_set_spriteState_m5519_ParameterInfos[] = 
 {
 	{"value", 0, 134218223, 0, &SpriteState_t988_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SpriteState_t988 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::set_spriteState(UnityEngine.UI.SpriteState)
-extern const MethodInfo Selectable_set_spriteState_m5515_MethodInfo = 
+extern const MethodInfo Selectable_set_spriteState_m5519_MethodInfo = 
 {
 	"set_spriteState"/* name */
-	, (methodPointerType)&Selectable_set_spriteState_m5515/* method */
+	, (methodPointerType)&Selectable_set_spriteState_m5519/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SpriteState_t988/* invoker_method */
-	, Selectable_t922_Selectable_set_spriteState_m5515_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_set_spriteState_m5519_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -2662,10 +2662,10 @@ extern const MethodInfo Selectable_set_spriteState_m5515_MethodInfo =
 extern const Il2CppType AnimationTriggers_t918_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.AnimationTriggers UnityEngine.UI.Selectable::get_animationTriggers()
-extern const MethodInfo Selectable_get_animationTriggers_m5516_MethodInfo = 
+extern const MethodInfo Selectable_get_animationTriggers_m5520_MethodInfo = 
 {
 	"get_animationTriggers"/* name */
-	, (methodPointerType)&Selectable_get_animationTriggers_m5516/* method */
+	, (methodPointerType)&Selectable_get_animationTriggers_m5520/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &AnimationTriggers_t918_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -2684,20 +2684,20 @@ extern const MethodInfo Selectable_get_animationTriggers_m5516_MethodInfo =
 
 };
 extern const Il2CppType AnimationTriggers_t918_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_set_animationTriggers_m5517_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_set_animationTriggers_m5521_ParameterInfos[] = 
 {
 	{"value", 0, 134218224, 0, &AnimationTriggers_t918_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::set_animationTriggers(UnityEngine.UI.AnimationTriggers)
-extern const MethodInfo Selectable_set_animationTriggers_m5517_MethodInfo = 
+extern const MethodInfo Selectable_set_animationTriggers_m5521_MethodInfo = 
 {
 	"set_animationTriggers"/* name */
-	, (methodPointerType)&Selectable_set_animationTriggers_m5517/* method */
+	, (methodPointerType)&Selectable_set_animationTriggers_m5521/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Selectable_t922_Selectable_set_animationTriggers_m5517_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_set_animationTriggers_m5521_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -2714,10 +2714,10 @@ extern const MethodInfo Selectable_set_animationTriggers_m5517_MethodInfo =
 extern const Il2CppType Graphic_t938_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Graphic UnityEngine.UI.Selectable::get_targetGraphic()
-extern const MethodInfo Selectable_get_targetGraphic_m5518_MethodInfo = 
+extern const MethodInfo Selectable_get_targetGraphic_m5522_MethodInfo = 
 {
 	"get_targetGraphic"/* name */
-	, (methodPointerType)&Selectable_get_targetGraphic_m5518/* method */
+	, (methodPointerType)&Selectable_get_targetGraphic_m5522/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Graphic_t938_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -2736,20 +2736,20 @@ extern const MethodInfo Selectable_get_targetGraphic_m5518_MethodInfo =
 
 };
 extern const Il2CppType Graphic_t938_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_set_targetGraphic_m5519_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_set_targetGraphic_m5523_ParameterInfos[] = 
 {
 	{"value", 0, 134218225, 0, &Graphic_t938_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::set_targetGraphic(UnityEngine.UI.Graphic)
-extern const MethodInfo Selectable_set_targetGraphic_m5519_MethodInfo = 
+extern const MethodInfo Selectable_set_targetGraphic_m5523_MethodInfo = 
 {
 	"set_targetGraphic"/* name */
-	, (methodPointerType)&Selectable_set_targetGraphic_m5519/* method */
+	, (methodPointerType)&Selectable_set_targetGraphic_m5523/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Selectable_t922_Selectable_set_targetGraphic_m5519_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_set_targetGraphic_m5523_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -2765,10 +2765,10 @@ extern const MethodInfo Selectable_set_targetGraphic_m5519_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.Selectable::get_interactable()
-extern const MethodInfo Selectable_get_interactable_m4317_MethodInfo = 
+extern const MethodInfo Selectable_get_interactable_m4320_MethodInfo = 
 {
 	"get_interactable"/* name */
-	, (methodPointerType)&Selectable_get_interactable_m4317/* method */
+	, (methodPointerType)&Selectable_get_interactable_m4320/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -2787,20 +2787,20 @@ extern const MethodInfo Selectable_get_interactable_m4317_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_set_interactable_m4316_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_set_interactable_m4319_ParameterInfos[] = 
 {
 	{"value", 0, 134218226, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::set_interactable(System.Boolean)
-extern const MethodInfo Selectable_set_interactable_m4316_MethodInfo = 
+extern const MethodInfo Selectable_set_interactable_m4319_MethodInfo = 
 {
 	"set_interactable"/* name */
-	, (methodPointerType)&Selectable_set_interactable_m4316/* method */
+	, (methodPointerType)&Selectable_set_interactable_m4319/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, Selectable_t922_Selectable_set_interactable_m4316_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_set_interactable_m4319_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -2816,10 +2816,10 @@ extern const MethodInfo Selectable_set_interactable_m4316_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.Selectable::get_isPointerInside()
-extern const MethodInfo Selectable_get_isPointerInside_m5520_MethodInfo = 
+extern const MethodInfo Selectable_get_isPointerInside_m5524_MethodInfo = 
 {
 	"get_isPointerInside"/* name */
-	, (methodPointerType)&Selectable_get_isPointerInside_m5520/* method */
+	, (methodPointerType)&Selectable_get_isPointerInside_m5524/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -2838,20 +2838,20 @@ extern const MethodInfo Selectable_get_isPointerInside_m5520_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_set_isPointerInside_m5521_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_set_isPointerInside_m5525_ParameterInfos[] = 
 {
 	{"value", 0, 134218227, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::set_isPointerInside(System.Boolean)
-extern const MethodInfo Selectable_set_isPointerInside_m5521_MethodInfo = 
+extern const MethodInfo Selectable_set_isPointerInside_m5525_MethodInfo = 
 {
 	"set_isPointerInside"/* name */
-	, (methodPointerType)&Selectable_set_isPointerInside_m5521/* method */
+	, (methodPointerType)&Selectable_set_isPointerInside_m5525/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, Selectable_t922_Selectable_set_isPointerInside_m5521_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_set_isPointerInside_m5525_ParameterInfos/* parameters */
 	, 237/* custom_attributes_cache */
 	, 2177/* flags */
 	, 0/* iflags */
@@ -2867,10 +2867,10 @@ extern const MethodInfo Selectable_set_isPointerInside_m5521_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.Selectable::get_isPointerDown()
-extern const MethodInfo Selectable_get_isPointerDown_m5522_MethodInfo = 
+extern const MethodInfo Selectable_get_isPointerDown_m5526_MethodInfo = 
 {
 	"get_isPointerDown"/* name */
-	, (methodPointerType)&Selectable_get_isPointerDown_m5522/* method */
+	, (methodPointerType)&Selectable_get_isPointerDown_m5526/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -2889,20 +2889,20 @@ extern const MethodInfo Selectable_get_isPointerDown_m5522_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_set_isPointerDown_m5523_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_set_isPointerDown_m5527_ParameterInfos[] = 
 {
 	{"value", 0, 134218228, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::set_isPointerDown(System.Boolean)
-extern const MethodInfo Selectable_set_isPointerDown_m5523_MethodInfo = 
+extern const MethodInfo Selectable_set_isPointerDown_m5527_MethodInfo = 
 {
 	"set_isPointerDown"/* name */
-	, (methodPointerType)&Selectable_set_isPointerDown_m5523/* method */
+	, (methodPointerType)&Selectable_set_isPointerDown_m5527/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, Selectable_t922_Selectable_set_isPointerDown_m5523_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_set_isPointerDown_m5527_ParameterInfos/* parameters */
 	, 239/* custom_attributes_cache */
 	, 2177/* flags */
 	, 0/* iflags */
@@ -2918,10 +2918,10 @@ extern const MethodInfo Selectable_set_isPointerDown_m5523_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.Selectable::get_hasSelection()
-extern const MethodInfo Selectable_get_hasSelection_m5524_MethodInfo = 
+extern const MethodInfo Selectable_get_hasSelection_m5528_MethodInfo = 
 {
 	"get_hasSelection"/* name */
-	, (methodPointerType)&Selectable_get_hasSelection_m5524/* method */
+	, (methodPointerType)&Selectable_get_hasSelection_m5528/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -2940,20 +2940,20 @@ extern const MethodInfo Selectable_get_hasSelection_m5524_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_set_hasSelection_m5525_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_set_hasSelection_m5529_ParameterInfos[] = 
 {
 	{"value", 0, 134218229, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::set_hasSelection(System.Boolean)
-extern const MethodInfo Selectable_set_hasSelection_m5525_MethodInfo = 
+extern const MethodInfo Selectable_set_hasSelection_m5529_MethodInfo = 
 {
 	"set_hasSelection"/* name */
-	, (methodPointerType)&Selectable_set_hasSelection_m5525/* method */
+	, (methodPointerType)&Selectable_set_hasSelection_m5529/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, Selectable_t922_Selectable_set_hasSelection_m5525_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_set_hasSelection_m5529_ParameterInfos/* parameters */
 	, 241/* custom_attributes_cache */
 	, 2177/* flags */
 	, 0/* iflags */
@@ -2970,10 +2970,10 @@ extern const MethodInfo Selectable_set_hasSelection_m5525_MethodInfo =
 extern const Il2CppType Image_t503_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Image UnityEngine.UI.Selectable::get_image()
-extern const MethodInfo Selectable_get_image_m5526_MethodInfo = 
+extern const MethodInfo Selectable_get_image_m5530_MethodInfo = 
 {
 	"get_image"/* name */
-	, (methodPointerType)&Selectable_get_image_m5526/* method */
+	, (methodPointerType)&Selectable_get_image_m5530/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Image_t503_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -2992,20 +2992,20 @@ extern const MethodInfo Selectable_get_image_m5526_MethodInfo =
 
 };
 extern const Il2CppType Image_t503_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_set_image_m5527_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_set_image_m5531_ParameterInfos[] = 
 {
 	{"value", 0, 134218230, 0, &Image_t503_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::set_image(UnityEngine.UI.Image)
-extern const MethodInfo Selectable_set_image_m5527_MethodInfo = 
+extern const MethodInfo Selectable_set_image_m5531_MethodInfo = 
 {
 	"set_image"/* name */
-	, (methodPointerType)&Selectable_set_image_m5527/* method */
+	, (methodPointerType)&Selectable_set_image_m5531/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Selectable_t922_Selectable_set_image_m5527_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_set_image_m5531_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -3022,10 +3022,10 @@ extern const MethodInfo Selectable_set_image_m5527_MethodInfo =
 extern const Il2CppType Animator_t1061_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Animator UnityEngine.UI.Selectable::get_animator()
-extern const MethodInfo Selectable_get_animator_m5528_MethodInfo = 
+extern const MethodInfo Selectable_get_animator_m5532_MethodInfo = 
 {
 	"get_animator"/* name */
-	, (methodPointerType)&Selectable_get_animator_m5528/* method */
+	, (methodPointerType)&Selectable_get_animator_m5532/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Animator_t1061_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -3045,10 +3045,10 @@ extern const MethodInfo Selectable_get_animator_m5528_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::Awake()
-extern const MethodInfo Selectable_Awake_m5529_MethodInfo = 
+extern const MethodInfo Selectable_Awake_m5533_MethodInfo = 
 {
 	"Awake"/* name */
-	, (methodPointerType)&Selectable_Awake_m5529/* method */
+	, (methodPointerType)&Selectable_Awake_m5533/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -3068,10 +3068,10 @@ extern const MethodInfo Selectable_Awake_m5529_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::OnCanvasGroupChanged()
-extern const MethodInfo Selectable_OnCanvasGroupChanged_m5530_MethodInfo = 
+extern const MethodInfo Selectable_OnCanvasGroupChanged_m5534_MethodInfo = 
 {
 	"OnCanvasGroupChanged"/* name */
-	, (methodPointerType)&Selectable_OnCanvasGroupChanged_m5530/* method */
+	, (methodPointerType)&Selectable_OnCanvasGroupChanged_m5534/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -3091,10 +3091,10 @@ extern const MethodInfo Selectable_OnCanvasGroupChanged_m5530_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.Selectable::IsInteractable()
-extern const MethodInfo Selectable_IsInteractable_m5531_MethodInfo = 
+extern const MethodInfo Selectable_IsInteractable_m5535_MethodInfo = 
 {
 	"IsInteractable"/* name */
-	, (methodPointerType)&Selectable_IsInteractable_m5531/* method */
+	, (methodPointerType)&Selectable_IsInteractable_m5535/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -3114,10 +3114,10 @@ extern const MethodInfo Selectable_IsInteractable_m5531_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::OnDidApplyAnimationProperties()
-extern const MethodInfo Selectable_OnDidApplyAnimationProperties_m5532_MethodInfo = 
+extern const MethodInfo Selectable_OnDidApplyAnimationProperties_m5536_MethodInfo = 
 {
 	"OnDidApplyAnimationProperties"/* name */
-	, (methodPointerType)&Selectable_OnDidApplyAnimationProperties_m5532/* method */
+	, (methodPointerType)&Selectable_OnDidApplyAnimationProperties_m5536/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -3137,10 +3137,10 @@ extern const MethodInfo Selectable_OnDidApplyAnimationProperties_m5532_MethodInf
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::OnEnable()
-extern const MethodInfo Selectable_OnEnable_m5533_MethodInfo = 
+extern const MethodInfo Selectable_OnEnable_m5537_MethodInfo = 
 {
 	"OnEnable"/* name */
-	, (methodPointerType)&Selectable_OnEnable_m5533/* method */
+	, (methodPointerType)&Selectable_OnEnable_m5537/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -3160,10 +3160,10 @@ extern const MethodInfo Selectable_OnEnable_m5533_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::OnSetProperty()
-extern const MethodInfo Selectable_OnSetProperty_m5534_MethodInfo = 
+extern const MethodInfo Selectable_OnSetProperty_m5538_MethodInfo = 
 {
 	"OnSetProperty"/* name */
-	, (methodPointerType)&Selectable_OnSetProperty_m5534/* method */
+	, (methodPointerType)&Selectable_OnSetProperty_m5538/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -3183,10 +3183,10 @@ extern const MethodInfo Selectable_OnSetProperty_m5534_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::OnDisable()
-extern const MethodInfo Selectable_OnDisable_m5535_MethodInfo = 
+extern const MethodInfo Selectable_OnDisable_m5539_MethodInfo = 
 {
 	"OnDisable"/* name */
-	, (methodPointerType)&Selectable_OnDisable_m5535/* method */
+	, (methodPointerType)&Selectable_OnDisable_m5539/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -3206,10 +3206,10 @@ extern const MethodInfo Selectable_OnDisable_m5535_MethodInfo =
 };
 extern void* RuntimeInvoker_SelectionState_t985 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Selectable/SelectionState UnityEngine.UI.Selectable::get_currentSelectionState()
-extern const MethodInfo Selectable_get_currentSelectionState_m5536_MethodInfo = 
+extern const MethodInfo Selectable_get_currentSelectionState_m5540_MethodInfo = 
 {
 	"get_currentSelectionState"/* name */
-	, (methodPointerType)&Selectable_get_currentSelectionState_m5536/* method */
+	, (methodPointerType)&Selectable_get_currentSelectionState_m5540/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &SelectionState_t985_0_0_0/* return_type */
 	, RuntimeInvoker_SelectionState_t985/* invoker_method */
@@ -3229,10 +3229,10 @@ extern const MethodInfo Selectable_get_currentSelectionState_m5536_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::InstantClearState()
-extern const MethodInfo Selectable_InstantClearState_m5537_MethodInfo = 
+extern const MethodInfo Selectable_InstantClearState_m5541_MethodInfo = 
 {
 	"InstantClearState"/* name */
-	, (methodPointerType)&Selectable_InstantClearState_m5537/* method */
+	, (methodPointerType)&Selectable_InstantClearState_m5541/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -3252,21 +3252,21 @@ extern const MethodInfo Selectable_InstantClearState_m5537_MethodInfo =
 };
 extern const Il2CppType SelectionState_t985_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_DoStateTransition_m5538_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_DoStateTransition_m5542_ParameterInfos[] = 
 {
 	{"state", 0, 134218231, 0, &SelectionState_t985_0_0_0},
 	{"instant", 1, 134218232, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::DoStateTransition(UnityEngine.UI.Selectable/SelectionState,System.Boolean)
-extern const MethodInfo Selectable_DoStateTransition_m5538_MethodInfo = 
+extern const MethodInfo Selectable_DoStateTransition_m5542_MethodInfo = 
 {
 	"DoStateTransition"/* name */
-	, (methodPointerType)&Selectable_DoStateTransition_m5538/* method */
+	, (methodPointerType)&Selectable_DoStateTransition_m5542/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_SByte_t88/* invoker_method */
-	, Selectable_t922_Selectable_DoStateTransition_m5538_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_DoStateTransition_m5542_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
@@ -3282,20 +3282,20 @@ extern const MethodInfo Selectable_DoStateTransition_m5538_MethodInfo =
 };
 extern const Il2CppType Vector3_t538_0_0_0;
 extern const Il2CppType Vector3_t538_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_FindSelectable_m5539_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_FindSelectable_m5543_ParameterInfos[] = 
 {
 	{"dir", 0, 134218233, 0, &Vector3_t538_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Vector3_t538 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Selectable UnityEngine.UI.Selectable::FindSelectable(UnityEngine.Vector3)
-extern const MethodInfo Selectable_FindSelectable_m5539_MethodInfo = 
+extern const MethodInfo Selectable_FindSelectable_m5543_MethodInfo = 
 {
 	"FindSelectable"/* name */
-	, (methodPointerType)&Selectable_FindSelectable_m5539/* method */
+	, (methodPointerType)&Selectable_FindSelectable_m5543/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Selectable_t922_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Vector3_t538/* invoker_method */
-	, Selectable_t922_Selectable_FindSelectable_m5539_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_FindSelectable_m5543_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -3311,21 +3311,21 @@ extern const MethodInfo Selectable_FindSelectable_m5539_MethodInfo =
 };
 extern const Il2CppType RectTransform_t545_0_0_0;
 extern const Il2CppType Vector2_t110_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_GetPointOnRectEdge_m5540_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_GetPointOnRectEdge_m5544_ParameterInfos[] = 
 {
 	{"rect", 0, 134218234, 0, &RectTransform_t545_0_0_0},
 	{"dir", 1, 134218235, 0, &Vector2_t110_0_0_0},
 };
 extern void* RuntimeInvoker_Vector3_t538_Object_t_Vector2_t110 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector3 UnityEngine.UI.Selectable::GetPointOnRectEdge(UnityEngine.RectTransform,UnityEngine.Vector2)
-extern const MethodInfo Selectable_GetPointOnRectEdge_m5540_MethodInfo = 
+extern const MethodInfo Selectable_GetPointOnRectEdge_m5544_MethodInfo = 
 {
 	"GetPointOnRectEdge"/* name */
-	, (methodPointerType)&Selectable_GetPointOnRectEdge_m5540/* method */
+	, (methodPointerType)&Selectable_GetPointOnRectEdge_m5544/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Vector3_t538_0_0_0/* return_type */
 	, RuntimeInvoker_Vector3_t538_Object_t_Vector2_t110/* invoker_method */
-	, Selectable_t922_Selectable_GetPointOnRectEdge_m5540_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_GetPointOnRectEdge_m5544_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -3342,21 +3342,21 @@ extern const MethodInfo Selectable_GetPointOnRectEdge_m5540_MethodInfo =
 extern const Il2CppType AxisEventData_t895_0_0_0;
 extern const Il2CppType AxisEventData_t895_0_0_0;
 extern const Il2CppType Selectable_t922_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_Navigate_m5541_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_Navigate_m5545_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218236, 0, &AxisEventData_t895_0_0_0},
 	{"sel", 1, 134218237, 0, &Selectable_t922_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::Navigate(UnityEngine.EventSystems.AxisEventData,UnityEngine.UI.Selectable)
-extern const MethodInfo Selectable_Navigate_m5541_MethodInfo = 
+extern const MethodInfo Selectable_Navigate_m5545_MethodInfo = 
 {
 	"Navigate"/* name */
-	, (methodPointerType)&Selectable_Navigate_m5541/* method */
+	, (methodPointerType)&Selectable_Navigate_m5545/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, Selectable_t922_Selectable_Navigate_m5541_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_Navigate_m5545_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -3372,10 +3372,10 @@ extern const MethodInfo Selectable_Navigate_m5541_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Selectable UnityEngine.UI.Selectable::FindSelectableOnLeft()
-extern const MethodInfo Selectable_FindSelectableOnLeft_m5542_MethodInfo = 
+extern const MethodInfo Selectable_FindSelectableOnLeft_m5546_MethodInfo = 
 {
 	"FindSelectableOnLeft"/* name */
-	, (methodPointerType)&Selectable_FindSelectableOnLeft_m5542/* method */
+	, (methodPointerType)&Selectable_FindSelectableOnLeft_m5546/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Selectable_t922_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -3395,10 +3395,10 @@ extern const MethodInfo Selectable_FindSelectableOnLeft_m5542_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Selectable UnityEngine.UI.Selectable::FindSelectableOnRight()
-extern const MethodInfo Selectable_FindSelectableOnRight_m5543_MethodInfo = 
+extern const MethodInfo Selectable_FindSelectableOnRight_m5547_MethodInfo = 
 {
 	"FindSelectableOnRight"/* name */
-	, (methodPointerType)&Selectable_FindSelectableOnRight_m5543/* method */
+	, (methodPointerType)&Selectable_FindSelectableOnRight_m5547/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Selectable_t922_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -3418,10 +3418,10 @@ extern const MethodInfo Selectable_FindSelectableOnRight_m5543_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Selectable UnityEngine.UI.Selectable::FindSelectableOnUp()
-extern const MethodInfo Selectable_FindSelectableOnUp_m5544_MethodInfo = 
+extern const MethodInfo Selectable_FindSelectableOnUp_m5548_MethodInfo = 
 {
 	"FindSelectableOnUp"/* name */
-	, (methodPointerType)&Selectable_FindSelectableOnUp_m5544/* method */
+	, (methodPointerType)&Selectable_FindSelectableOnUp_m5548/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Selectable_t922_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -3441,10 +3441,10 @@ extern const MethodInfo Selectable_FindSelectableOnUp_m5544_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Selectable UnityEngine.UI.Selectable::FindSelectableOnDown()
-extern const MethodInfo Selectable_FindSelectableOnDown_m5545_MethodInfo = 
+extern const MethodInfo Selectable_FindSelectableOnDown_m5549_MethodInfo = 
 {
 	"FindSelectableOnDown"/* name */
-	, (methodPointerType)&Selectable_FindSelectableOnDown_m5545/* method */
+	, (methodPointerType)&Selectable_FindSelectableOnDown_m5549/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Selectable_t922_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -3463,20 +3463,20 @@ extern const MethodInfo Selectable_FindSelectableOnDown_m5545_MethodInfo =
 
 };
 extern const Il2CppType AxisEventData_t895_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_OnMove_m5546_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_OnMove_m5550_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218238, 0, &AxisEventData_t895_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::OnMove(UnityEngine.EventSystems.AxisEventData)
-extern const MethodInfo Selectable_OnMove_m5546_MethodInfo = 
+extern const MethodInfo Selectable_OnMove_m5550_MethodInfo = 
 {
 	"OnMove"/* name */
-	, (methodPointerType)&Selectable_OnMove_m5546/* method */
+	, (methodPointerType)&Selectable_OnMove_m5550/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Selectable_t922_Selectable_OnMove_m5546_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_OnMove_m5550_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -3493,21 +3493,21 @@ extern const MethodInfo Selectable_OnMove_m5546_MethodInfo =
 extern const Il2CppType Color_t325_0_0_0;
 extern const Il2CppType Color_t325_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_StartColorTween_m5547_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_StartColorTween_m5551_ParameterInfos[] = 
 {
 	{"targetColor", 0, 134218239, 0, &Color_t325_0_0_0},
 	{"instant", 1, 134218240, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Color_t325_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::StartColorTween(UnityEngine.Color,System.Boolean)
-extern const MethodInfo Selectable_StartColorTween_m5547_MethodInfo = 
+extern const MethodInfo Selectable_StartColorTween_m5551_MethodInfo = 
 {
 	"StartColorTween"/* name */
-	, (methodPointerType)&Selectable_StartColorTween_m5547/* method */
+	, (methodPointerType)&Selectable_StartColorTween_m5551/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Color_t325_SByte_t88/* invoker_method */
-	, Selectable_t922_Selectable_StartColorTween_m5547_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_StartColorTween_m5551_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -3523,20 +3523,20 @@ extern const MethodInfo Selectable_StartColorTween_m5547_MethodInfo =
 };
 extern const Il2CppType Sprite_t512_0_0_0;
 extern const Il2CppType Sprite_t512_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_DoSpriteSwap_m5548_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_DoSpriteSwap_m5552_ParameterInfos[] = 
 {
 	{"newSprite", 0, 134218241, 0, &Sprite_t512_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::DoSpriteSwap(UnityEngine.Sprite)
-extern const MethodInfo Selectable_DoSpriteSwap_m5548_MethodInfo = 
+extern const MethodInfo Selectable_DoSpriteSwap_m5552_MethodInfo = 
 {
 	"DoSpriteSwap"/* name */
-	, (methodPointerType)&Selectable_DoSpriteSwap_m5548/* method */
+	, (methodPointerType)&Selectable_DoSpriteSwap_m5552/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Selectable_t922_Selectable_DoSpriteSwap_m5548_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_DoSpriteSwap_m5552_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -3552,20 +3552,20 @@ extern const MethodInfo Selectable_DoSpriteSwap_m5548_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_TriggerAnimation_m5549_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_TriggerAnimation_m5553_ParameterInfos[] = 
 {
 	{"triggername", 0, 134218242, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::TriggerAnimation(System.String)
-extern const MethodInfo Selectable_TriggerAnimation_m5549_MethodInfo = 
+extern const MethodInfo Selectable_TriggerAnimation_m5553_MethodInfo = 
 {
 	"TriggerAnimation"/* name */
-	, (methodPointerType)&Selectable_TriggerAnimation_m5549/* method */
+	, (methodPointerType)&Selectable_TriggerAnimation_m5553/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Selectable_t922_Selectable_TriggerAnimation_m5549_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_TriggerAnimation_m5553_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -3581,20 +3581,20 @@ extern const MethodInfo Selectable_TriggerAnimation_m5549_MethodInfo =
 };
 extern const Il2CppType BaseEventData_t859_0_0_0;
 extern const Il2CppType BaseEventData_t859_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_IsHighlighted_m5550_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_IsHighlighted_m5554_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218243, 0, &BaseEventData_t859_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.Selectable::IsHighlighted(UnityEngine.EventSystems.BaseEventData)
-extern const MethodInfo Selectable_IsHighlighted_m5550_MethodInfo = 
+extern const MethodInfo Selectable_IsHighlighted_m5554_MethodInfo = 
 {
 	"IsHighlighted"/* name */
-	, (methodPointerType)&Selectable_IsHighlighted_m5550/* method */
+	, (methodPointerType)&Selectable_IsHighlighted_m5554/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, Selectable_t922_Selectable_IsHighlighted_m5550_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_IsHighlighted_m5554_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -3609,20 +3609,20 @@ extern const MethodInfo Selectable_IsHighlighted_m5550_MethodInfo =
 
 };
 extern const Il2CppType BaseEventData_t859_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_IsPressed_m5551_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_IsPressed_m5555_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218244, 0, &BaseEventData_t859_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.Selectable::IsPressed(UnityEngine.EventSystems.BaseEventData)
-extern const MethodInfo Selectable_IsPressed_m5551_MethodInfo = 
+extern const MethodInfo Selectable_IsPressed_m5555_MethodInfo = 
 {
 	"IsPressed"/* name */
-	, (methodPointerType)&Selectable_IsPressed_m5551/* method */
+	, (methodPointerType)&Selectable_IsPressed_m5555/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, Selectable_t922_Selectable_IsPressed_m5551_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_IsPressed_m5555_ParameterInfos/* parameters */
 	, 242/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -3638,10 +3638,10 @@ extern const MethodInfo Selectable_IsPressed_m5551_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.Selectable::IsPressed()
-extern const MethodInfo Selectable_IsPressed_m5552_MethodInfo = 
+extern const MethodInfo Selectable_IsPressed_m5556_MethodInfo = 
 {
 	"IsPressed"/* name */
-	, (methodPointerType)&Selectable_IsPressed_m5552/* method */
+	, (methodPointerType)&Selectable_IsPressed_m5556/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -3660,20 +3660,20 @@ extern const MethodInfo Selectable_IsPressed_m5552_MethodInfo =
 
 };
 extern const Il2CppType BaseEventData_t859_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_UpdateSelectionState_m5553_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_UpdateSelectionState_m5557_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218245, 0, &BaseEventData_t859_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::UpdateSelectionState(UnityEngine.EventSystems.BaseEventData)
-extern const MethodInfo Selectable_UpdateSelectionState_m5553_MethodInfo = 
+extern const MethodInfo Selectable_UpdateSelectionState_m5557_MethodInfo = 
 {
 	"UpdateSelectionState"/* name */
-	, (methodPointerType)&Selectable_UpdateSelectionState_m5553/* method */
+	, (methodPointerType)&Selectable_UpdateSelectionState_m5557/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Selectable_t922_Selectable_UpdateSelectionState_m5553_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_UpdateSelectionState_m5557_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -3688,20 +3688,20 @@ extern const MethodInfo Selectable_UpdateSelectionState_m5553_MethodInfo =
 
 };
 extern const Il2CppType BaseEventData_t859_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_EvaluateAndTransitionToSelectionState_m5554_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_EvaluateAndTransitionToSelectionState_m5558_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218246, 0, &BaseEventData_t859_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::EvaluateAndTransitionToSelectionState(UnityEngine.EventSystems.BaseEventData)
-extern const MethodInfo Selectable_EvaluateAndTransitionToSelectionState_m5554_MethodInfo = 
+extern const MethodInfo Selectable_EvaluateAndTransitionToSelectionState_m5558_MethodInfo = 
 {
 	"EvaluateAndTransitionToSelectionState"/* name */
-	, (methodPointerType)&Selectable_EvaluateAndTransitionToSelectionState_m5554/* method */
+	, (methodPointerType)&Selectable_EvaluateAndTransitionToSelectionState_m5558/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Selectable_t922_Selectable_EvaluateAndTransitionToSelectionState_m5554_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_EvaluateAndTransitionToSelectionState_m5558_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -3716,20 +3716,20 @@ extern const MethodInfo Selectable_EvaluateAndTransitionToSelectionState_m5554_M
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_InternalEvaluateAndTransitionToSelectionState_m5555_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_InternalEvaluateAndTransitionToSelectionState_m5559_ParameterInfos[] = 
 {
 	{"instant", 0, 134218247, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::InternalEvaluateAndTransitionToSelectionState(System.Boolean)
-extern const MethodInfo Selectable_InternalEvaluateAndTransitionToSelectionState_m5555_MethodInfo = 
+extern const MethodInfo Selectable_InternalEvaluateAndTransitionToSelectionState_m5559_MethodInfo = 
 {
 	"InternalEvaluateAndTransitionToSelectionState"/* name */
-	, (methodPointerType)&Selectable_InternalEvaluateAndTransitionToSelectionState_m5555/* method */
+	, (methodPointerType)&Selectable_InternalEvaluateAndTransitionToSelectionState_m5559/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, Selectable_t922_Selectable_InternalEvaluateAndTransitionToSelectionState_m5555_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_InternalEvaluateAndTransitionToSelectionState_m5559_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -3744,20 +3744,20 @@ extern const MethodInfo Selectable_InternalEvaluateAndTransitionToSelectionState
 
 };
 extern const Il2CppType PointerEventData_t899_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_OnPointerDown_m5556_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_OnPointerDown_m5560_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218248, 0, &PointerEventData_t899_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
-extern const MethodInfo Selectable_OnPointerDown_m5556_MethodInfo = 
+extern const MethodInfo Selectable_OnPointerDown_m5560_MethodInfo = 
 {
 	"OnPointerDown"/* name */
-	, (methodPointerType)&Selectable_OnPointerDown_m5556/* method */
+	, (methodPointerType)&Selectable_OnPointerDown_m5560/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Selectable_t922_Selectable_OnPointerDown_m5556_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_OnPointerDown_m5560_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -3772,20 +3772,20 @@ extern const MethodInfo Selectable_OnPointerDown_m5556_MethodInfo =
 
 };
 extern const Il2CppType PointerEventData_t899_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_OnPointerUp_m5557_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_OnPointerUp_m5561_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218249, 0, &PointerEventData_t899_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
-extern const MethodInfo Selectable_OnPointerUp_m5557_MethodInfo = 
+extern const MethodInfo Selectable_OnPointerUp_m5561_MethodInfo = 
 {
 	"OnPointerUp"/* name */
-	, (methodPointerType)&Selectable_OnPointerUp_m5557/* method */
+	, (methodPointerType)&Selectable_OnPointerUp_m5561/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Selectable_t922_Selectable_OnPointerUp_m5557_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_OnPointerUp_m5561_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -3800,20 +3800,20 @@ extern const MethodInfo Selectable_OnPointerUp_m5557_MethodInfo =
 
 };
 extern const Il2CppType PointerEventData_t899_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_OnPointerEnter_m5558_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_OnPointerEnter_m5562_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218250, 0, &PointerEventData_t899_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
-extern const MethodInfo Selectable_OnPointerEnter_m5558_MethodInfo = 
+extern const MethodInfo Selectable_OnPointerEnter_m5562_MethodInfo = 
 {
 	"OnPointerEnter"/* name */
-	, (methodPointerType)&Selectable_OnPointerEnter_m5558/* method */
+	, (methodPointerType)&Selectable_OnPointerEnter_m5562/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Selectable_t922_Selectable_OnPointerEnter_m5558_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_OnPointerEnter_m5562_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -3828,20 +3828,20 @@ extern const MethodInfo Selectable_OnPointerEnter_m5558_MethodInfo =
 
 };
 extern const Il2CppType PointerEventData_t899_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_OnPointerExit_m5559_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_OnPointerExit_m5563_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218251, 0, &PointerEventData_t899_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::OnPointerExit(UnityEngine.EventSystems.PointerEventData)
-extern const MethodInfo Selectable_OnPointerExit_m5559_MethodInfo = 
+extern const MethodInfo Selectable_OnPointerExit_m5563_MethodInfo = 
 {
 	"OnPointerExit"/* name */
-	, (methodPointerType)&Selectable_OnPointerExit_m5559/* method */
+	, (methodPointerType)&Selectable_OnPointerExit_m5563/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Selectable_t922_Selectable_OnPointerExit_m5559_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_OnPointerExit_m5563_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -3856,20 +3856,20 @@ extern const MethodInfo Selectable_OnPointerExit_m5559_MethodInfo =
 
 };
 extern const Il2CppType BaseEventData_t859_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_OnSelect_m5560_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_OnSelect_m5564_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218252, 0, &BaseEventData_t859_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::OnSelect(UnityEngine.EventSystems.BaseEventData)
-extern const MethodInfo Selectable_OnSelect_m5560_MethodInfo = 
+extern const MethodInfo Selectable_OnSelect_m5564_MethodInfo = 
 {
 	"OnSelect"/* name */
-	, (methodPointerType)&Selectable_OnSelect_m5560/* method */
+	, (methodPointerType)&Selectable_OnSelect_m5564/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Selectable_t922_Selectable_OnSelect_m5560_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_OnSelect_m5564_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -3884,20 +3884,20 @@ extern const MethodInfo Selectable_OnSelect_m5560_MethodInfo =
 
 };
 extern const Il2CppType BaseEventData_t859_0_0_0;
-static const ParameterInfo Selectable_t922_Selectable_OnDeselect_m5561_ParameterInfos[] = 
+static const ParameterInfo Selectable_t922_Selectable_OnDeselect_m5565_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218253, 0, &BaseEventData_t859_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::OnDeselect(UnityEngine.EventSystems.BaseEventData)
-extern const MethodInfo Selectable_OnDeselect_m5561_MethodInfo = 
+extern const MethodInfo Selectable_OnDeselect_m5565_MethodInfo = 
 {
 	"OnDeselect"/* name */
-	, (methodPointerType)&Selectable_OnDeselect_m5561/* method */
+	, (methodPointerType)&Selectable_OnDeselect_m5565/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Selectable_t922_Selectable_OnDeselect_m5561_ParameterInfos/* parameters */
+	, Selectable_t922_Selectable_OnDeselect_m5565_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -3913,10 +3913,10 @@ extern const MethodInfo Selectable_OnDeselect_m5561_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Selectable::Select()
-extern const MethodInfo Selectable_Select_m5562_MethodInfo = 
+extern const MethodInfo Selectable_Select_m5566_MethodInfo = 
 {
 	"Select"/* name */
-	, (methodPointerType)&Selectable_Select_m5562/* method */
+	, (methodPointerType)&Selectable_Select_m5566/* method */
 	, &Selectable_t922_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -3936,228 +3936,228 @@ extern const MethodInfo Selectable_Select_m5562_MethodInfo =
 };
 static const MethodInfo* Selectable_t922_MethodInfos[] =
 {
-	&Selectable__ctor_m5505_MethodInfo,
-	&Selectable__cctor_m5506_MethodInfo,
-	&Selectable_get_allSelectables_m5507_MethodInfo,
-	&Selectable_get_navigation_m5508_MethodInfo,
-	&Selectable_set_navigation_m5509_MethodInfo,
-	&Selectable_get_transition_m5510_MethodInfo,
-	&Selectable_set_transition_m5511_MethodInfo,
-	&Selectable_get_colors_m5512_MethodInfo,
-	&Selectable_set_colors_m5513_MethodInfo,
-	&Selectable_get_spriteState_m5514_MethodInfo,
-	&Selectable_set_spriteState_m5515_MethodInfo,
-	&Selectable_get_animationTriggers_m5516_MethodInfo,
-	&Selectable_set_animationTriggers_m5517_MethodInfo,
-	&Selectable_get_targetGraphic_m5518_MethodInfo,
-	&Selectable_set_targetGraphic_m5519_MethodInfo,
-	&Selectable_get_interactable_m4317_MethodInfo,
-	&Selectable_set_interactable_m4316_MethodInfo,
-	&Selectable_get_isPointerInside_m5520_MethodInfo,
-	&Selectable_set_isPointerInside_m5521_MethodInfo,
-	&Selectable_get_isPointerDown_m5522_MethodInfo,
-	&Selectable_set_isPointerDown_m5523_MethodInfo,
-	&Selectable_get_hasSelection_m5524_MethodInfo,
-	&Selectable_set_hasSelection_m5525_MethodInfo,
-	&Selectable_get_image_m5526_MethodInfo,
-	&Selectable_set_image_m5527_MethodInfo,
-	&Selectable_get_animator_m5528_MethodInfo,
-	&Selectable_Awake_m5529_MethodInfo,
-	&Selectable_OnCanvasGroupChanged_m5530_MethodInfo,
-	&Selectable_IsInteractable_m5531_MethodInfo,
-	&Selectable_OnDidApplyAnimationProperties_m5532_MethodInfo,
-	&Selectable_OnEnable_m5533_MethodInfo,
-	&Selectable_OnSetProperty_m5534_MethodInfo,
-	&Selectable_OnDisable_m5535_MethodInfo,
-	&Selectable_get_currentSelectionState_m5536_MethodInfo,
-	&Selectable_InstantClearState_m5537_MethodInfo,
-	&Selectable_DoStateTransition_m5538_MethodInfo,
-	&Selectable_FindSelectable_m5539_MethodInfo,
-	&Selectable_GetPointOnRectEdge_m5540_MethodInfo,
-	&Selectable_Navigate_m5541_MethodInfo,
-	&Selectable_FindSelectableOnLeft_m5542_MethodInfo,
-	&Selectable_FindSelectableOnRight_m5543_MethodInfo,
-	&Selectable_FindSelectableOnUp_m5544_MethodInfo,
-	&Selectable_FindSelectableOnDown_m5545_MethodInfo,
-	&Selectable_OnMove_m5546_MethodInfo,
-	&Selectable_StartColorTween_m5547_MethodInfo,
-	&Selectable_DoSpriteSwap_m5548_MethodInfo,
-	&Selectable_TriggerAnimation_m5549_MethodInfo,
-	&Selectable_IsHighlighted_m5550_MethodInfo,
-	&Selectable_IsPressed_m5551_MethodInfo,
-	&Selectable_IsPressed_m5552_MethodInfo,
-	&Selectable_UpdateSelectionState_m5553_MethodInfo,
-	&Selectable_EvaluateAndTransitionToSelectionState_m5554_MethodInfo,
-	&Selectable_InternalEvaluateAndTransitionToSelectionState_m5555_MethodInfo,
-	&Selectable_OnPointerDown_m5556_MethodInfo,
-	&Selectable_OnPointerUp_m5557_MethodInfo,
-	&Selectable_OnPointerEnter_m5558_MethodInfo,
-	&Selectable_OnPointerExit_m5559_MethodInfo,
-	&Selectable_OnSelect_m5560_MethodInfo,
-	&Selectable_OnDeselect_m5561_MethodInfo,
-	&Selectable_Select_m5562_MethodInfo,
+	&Selectable__ctor_m5509_MethodInfo,
+	&Selectable__cctor_m5510_MethodInfo,
+	&Selectable_get_allSelectables_m5511_MethodInfo,
+	&Selectable_get_navigation_m5512_MethodInfo,
+	&Selectable_set_navigation_m5513_MethodInfo,
+	&Selectable_get_transition_m5514_MethodInfo,
+	&Selectable_set_transition_m5515_MethodInfo,
+	&Selectable_get_colors_m5516_MethodInfo,
+	&Selectable_set_colors_m5517_MethodInfo,
+	&Selectable_get_spriteState_m5518_MethodInfo,
+	&Selectable_set_spriteState_m5519_MethodInfo,
+	&Selectable_get_animationTriggers_m5520_MethodInfo,
+	&Selectable_set_animationTriggers_m5521_MethodInfo,
+	&Selectable_get_targetGraphic_m5522_MethodInfo,
+	&Selectable_set_targetGraphic_m5523_MethodInfo,
+	&Selectable_get_interactable_m4320_MethodInfo,
+	&Selectable_set_interactable_m4319_MethodInfo,
+	&Selectable_get_isPointerInside_m5524_MethodInfo,
+	&Selectable_set_isPointerInside_m5525_MethodInfo,
+	&Selectable_get_isPointerDown_m5526_MethodInfo,
+	&Selectable_set_isPointerDown_m5527_MethodInfo,
+	&Selectable_get_hasSelection_m5528_MethodInfo,
+	&Selectable_set_hasSelection_m5529_MethodInfo,
+	&Selectable_get_image_m5530_MethodInfo,
+	&Selectable_set_image_m5531_MethodInfo,
+	&Selectable_get_animator_m5532_MethodInfo,
+	&Selectable_Awake_m5533_MethodInfo,
+	&Selectable_OnCanvasGroupChanged_m5534_MethodInfo,
+	&Selectable_IsInteractable_m5535_MethodInfo,
+	&Selectable_OnDidApplyAnimationProperties_m5536_MethodInfo,
+	&Selectable_OnEnable_m5537_MethodInfo,
+	&Selectable_OnSetProperty_m5538_MethodInfo,
+	&Selectable_OnDisable_m5539_MethodInfo,
+	&Selectable_get_currentSelectionState_m5540_MethodInfo,
+	&Selectable_InstantClearState_m5541_MethodInfo,
+	&Selectable_DoStateTransition_m5542_MethodInfo,
+	&Selectable_FindSelectable_m5543_MethodInfo,
+	&Selectable_GetPointOnRectEdge_m5544_MethodInfo,
+	&Selectable_Navigate_m5545_MethodInfo,
+	&Selectable_FindSelectableOnLeft_m5546_MethodInfo,
+	&Selectable_FindSelectableOnRight_m5547_MethodInfo,
+	&Selectable_FindSelectableOnUp_m5548_MethodInfo,
+	&Selectable_FindSelectableOnDown_m5549_MethodInfo,
+	&Selectable_OnMove_m5550_MethodInfo,
+	&Selectable_StartColorTween_m5551_MethodInfo,
+	&Selectable_DoSpriteSwap_m5552_MethodInfo,
+	&Selectable_TriggerAnimation_m5553_MethodInfo,
+	&Selectable_IsHighlighted_m5554_MethodInfo,
+	&Selectable_IsPressed_m5555_MethodInfo,
+	&Selectable_IsPressed_m5556_MethodInfo,
+	&Selectable_UpdateSelectionState_m5557_MethodInfo,
+	&Selectable_EvaluateAndTransitionToSelectionState_m5558_MethodInfo,
+	&Selectable_InternalEvaluateAndTransitionToSelectionState_m5559_MethodInfo,
+	&Selectable_OnPointerDown_m5560_MethodInfo,
+	&Selectable_OnPointerUp_m5561_MethodInfo,
+	&Selectable_OnPointerEnter_m5562_MethodInfo,
+	&Selectable_OnPointerExit_m5563_MethodInfo,
+	&Selectable_OnSelect_m5564_MethodInfo,
+	&Selectable_OnDeselect_m5565_MethodInfo,
+	&Selectable_Select_m5566_MethodInfo,
 	NULL
 };
-extern const MethodInfo Selectable_get_allSelectables_m5507_MethodInfo;
+extern const MethodInfo Selectable_get_allSelectables_m5511_MethodInfo;
 static const PropertyInfo Selectable_t922____allSelectables_PropertyInfo = 
 {
 	&Selectable_t922_il2cpp_TypeInfo/* parent */
 	, "allSelectables"/* name */
-	, &Selectable_get_allSelectables_m5507_MethodInfo/* get */
+	, &Selectable_get_allSelectables_m5511_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Selectable_get_navigation_m5508_MethodInfo;
-extern const MethodInfo Selectable_set_navigation_m5509_MethodInfo;
+extern const MethodInfo Selectable_get_navigation_m5512_MethodInfo;
+extern const MethodInfo Selectable_set_navigation_m5513_MethodInfo;
 static const PropertyInfo Selectable_t922____navigation_PropertyInfo = 
 {
 	&Selectable_t922_il2cpp_TypeInfo/* parent */
 	, "navigation"/* name */
-	, &Selectable_get_navigation_m5508_MethodInfo/* get */
-	, &Selectable_set_navigation_m5509_MethodInfo/* set */
+	, &Selectable_get_navigation_m5512_MethodInfo/* get */
+	, &Selectable_set_navigation_m5513_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Selectable_get_transition_m5510_MethodInfo;
-extern const MethodInfo Selectable_set_transition_m5511_MethodInfo;
+extern const MethodInfo Selectable_get_transition_m5514_MethodInfo;
+extern const MethodInfo Selectable_set_transition_m5515_MethodInfo;
 static const PropertyInfo Selectable_t922____transition_PropertyInfo = 
 {
 	&Selectable_t922_il2cpp_TypeInfo/* parent */
 	, "transition"/* name */
-	, &Selectable_get_transition_m5510_MethodInfo/* get */
-	, &Selectable_set_transition_m5511_MethodInfo/* set */
+	, &Selectable_get_transition_m5514_MethodInfo/* get */
+	, &Selectable_set_transition_m5515_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Selectable_get_colors_m5512_MethodInfo;
-extern const MethodInfo Selectable_set_colors_m5513_MethodInfo;
+extern const MethodInfo Selectable_get_colors_m5516_MethodInfo;
+extern const MethodInfo Selectable_set_colors_m5517_MethodInfo;
 static const PropertyInfo Selectable_t922____colors_PropertyInfo = 
 {
 	&Selectable_t922_il2cpp_TypeInfo/* parent */
 	, "colors"/* name */
-	, &Selectable_get_colors_m5512_MethodInfo/* get */
-	, &Selectable_set_colors_m5513_MethodInfo/* set */
+	, &Selectable_get_colors_m5516_MethodInfo/* get */
+	, &Selectable_set_colors_m5517_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Selectable_get_spriteState_m5514_MethodInfo;
-extern const MethodInfo Selectable_set_spriteState_m5515_MethodInfo;
+extern const MethodInfo Selectable_get_spriteState_m5518_MethodInfo;
+extern const MethodInfo Selectable_set_spriteState_m5519_MethodInfo;
 static const PropertyInfo Selectable_t922____spriteState_PropertyInfo = 
 {
 	&Selectable_t922_il2cpp_TypeInfo/* parent */
 	, "spriteState"/* name */
-	, &Selectable_get_spriteState_m5514_MethodInfo/* get */
-	, &Selectable_set_spriteState_m5515_MethodInfo/* set */
+	, &Selectable_get_spriteState_m5518_MethodInfo/* get */
+	, &Selectable_set_spriteState_m5519_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Selectable_get_animationTriggers_m5516_MethodInfo;
-extern const MethodInfo Selectable_set_animationTriggers_m5517_MethodInfo;
+extern const MethodInfo Selectable_get_animationTriggers_m5520_MethodInfo;
+extern const MethodInfo Selectable_set_animationTriggers_m5521_MethodInfo;
 static const PropertyInfo Selectable_t922____animationTriggers_PropertyInfo = 
 {
 	&Selectable_t922_il2cpp_TypeInfo/* parent */
 	, "animationTriggers"/* name */
-	, &Selectable_get_animationTriggers_m5516_MethodInfo/* get */
-	, &Selectable_set_animationTriggers_m5517_MethodInfo/* set */
+	, &Selectable_get_animationTriggers_m5520_MethodInfo/* get */
+	, &Selectable_set_animationTriggers_m5521_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Selectable_get_targetGraphic_m5518_MethodInfo;
-extern const MethodInfo Selectable_set_targetGraphic_m5519_MethodInfo;
+extern const MethodInfo Selectable_get_targetGraphic_m5522_MethodInfo;
+extern const MethodInfo Selectable_set_targetGraphic_m5523_MethodInfo;
 static const PropertyInfo Selectable_t922____targetGraphic_PropertyInfo = 
 {
 	&Selectable_t922_il2cpp_TypeInfo/* parent */
 	, "targetGraphic"/* name */
-	, &Selectable_get_targetGraphic_m5518_MethodInfo/* get */
-	, &Selectable_set_targetGraphic_m5519_MethodInfo/* set */
+	, &Selectable_get_targetGraphic_m5522_MethodInfo/* get */
+	, &Selectable_set_targetGraphic_m5523_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Selectable_get_interactable_m4317_MethodInfo;
-extern const MethodInfo Selectable_set_interactable_m4316_MethodInfo;
+extern const MethodInfo Selectable_get_interactable_m4320_MethodInfo;
+extern const MethodInfo Selectable_set_interactable_m4319_MethodInfo;
 static const PropertyInfo Selectable_t922____interactable_PropertyInfo = 
 {
 	&Selectable_t922_il2cpp_TypeInfo/* parent */
 	, "interactable"/* name */
-	, &Selectable_get_interactable_m4317_MethodInfo/* get */
-	, &Selectable_set_interactable_m4316_MethodInfo/* set */
+	, &Selectable_get_interactable_m4320_MethodInfo/* get */
+	, &Selectable_set_interactable_m4319_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Selectable_get_isPointerInside_m5520_MethodInfo;
-extern const MethodInfo Selectable_set_isPointerInside_m5521_MethodInfo;
+extern const MethodInfo Selectable_get_isPointerInside_m5524_MethodInfo;
+extern const MethodInfo Selectable_set_isPointerInside_m5525_MethodInfo;
 static const PropertyInfo Selectable_t922____isPointerInside_PropertyInfo = 
 {
 	&Selectable_t922_il2cpp_TypeInfo/* parent */
 	, "isPointerInside"/* name */
-	, &Selectable_get_isPointerInside_m5520_MethodInfo/* get */
-	, &Selectable_set_isPointerInside_m5521_MethodInfo/* set */
+	, &Selectable_get_isPointerInside_m5524_MethodInfo/* get */
+	, &Selectable_set_isPointerInside_m5525_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Selectable_get_isPointerDown_m5522_MethodInfo;
-extern const MethodInfo Selectable_set_isPointerDown_m5523_MethodInfo;
+extern const MethodInfo Selectable_get_isPointerDown_m5526_MethodInfo;
+extern const MethodInfo Selectable_set_isPointerDown_m5527_MethodInfo;
 static const PropertyInfo Selectable_t922____isPointerDown_PropertyInfo = 
 {
 	&Selectable_t922_il2cpp_TypeInfo/* parent */
 	, "isPointerDown"/* name */
-	, &Selectable_get_isPointerDown_m5522_MethodInfo/* get */
-	, &Selectable_set_isPointerDown_m5523_MethodInfo/* set */
+	, &Selectable_get_isPointerDown_m5526_MethodInfo/* get */
+	, &Selectable_set_isPointerDown_m5527_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Selectable_get_hasSelection_m5524_MethodInfo;
-extern const MethodInfo Selectable_set_hasSelection_m5525_MethodInfo;
+extern const MethodInfo Selectable_get_hasSelection_m5528_MethodInfo;
+extern const MethodInfo Selectable_set_hasSelection_m5529_MethodInfo;
 static const PropertyInfo Selectable_t922____hasSelection_PropertyInfo = 
 {
 	&Selectable_t922_il2cpp_TypeInfo/* parent */
 	, "hasSelection"/* name */
-	, &Selectable_get_hasSelection_m5524_MethodInfo/* get */
-	, &Selectable_set_hasSelection_m5525_MethodInfo/* set */
+	, &Selectable_get_hasSelection_m5528_MethodInfo/* get */
+	, &Selectable_set_hasSelection_m5529_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Selectable_get_image_m5526_MethodInfo;
-extern const MethodInfo Selectable_set_image_m5527_MethodInfo;
+extern const MethodInfo Selectable_get_image_m5530_MethodInfo;
+extern const MethodInfo Selectable_set_image_m5531_MethodInfo;
 static const PropertyInfo Selectable_t922____image_PropertyInfo = 
 {
 	&Selectable_t922_il2cpp_TypeInfo/* parent */
 	, "image"/* name */
-	, &Selectable_get_image_m5526_MethodInfo/* get */
-	, &Selectable_set_image_m5527_MethodInfo/* set */
+	, &Selectable_get_image_m5530_MethodInfo/* get */
+	, &Selectable_set_image_m5531_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Selectable_get_animator_m5528_MethodInfo;
+extern const MethodInfo Selectable_get_animator_m5532_MethodInfo;
 static const PropertyInfo Selectable_t922____animator_PropertyInfo = 
 {
 	&Selectable_t922_il2cpp_TypeInfo/* parent */
 	, "animator"/* name */
-	, &Selectable_get_animator_m5528_MethodInfo/* get */
+	, &Selectable_get_animator_m5532_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Selectable_get_currentSelectionState_m5536_MethodInfo;
+extern const MethodInfo Selectable_get_currentSelectionState_m5540_MethodInfo;
 static const PropertyInfo Selectable_t922____currentSelectionState_PropertyInfo = 
 {
 	&Selectable_t922_il2cpp_TypeInfo/* parent */
 	, "currentSelectionState"/* name */
-	, &Selectable_get_currentSelectionState_m5536_MethodInfo/* get */
+	, &Selectable_get_currentSelectionState_m5540_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -4186,67 +4186,67 @@ static const Il2CppType* Selectable_t922_il2cpp_TypeInfo__nestedTypes[2] =
 	&Transition_t984_0_0_0,
 	&SelectionState_t985_0_0_0,
 };
-extern const MethodInfo Selectable_Awake_m5529_MethodInfo;
-extern const MethodInfo Selectable_OnEnable_m5533_MethodInfo;
-extern const MethodInfo Selectable_OnDisable_m5535_MethodInfo;
-extern const MethodInfo UIBehaviour_IsActive_m4844_MethodInfo;
-extern const MethodInfo Selectable_OnDidApplyAnimationProperties_m5532_MethodInfo;
-extern const MethodInfo Selectable_OnCanvasGroupChanged_m5530_MethodInfo;
-extern const MethodInfo Selectable_OnPointerEnter_m5558_MethodInfo;
-extern const MethodInfo Selectable_OnPointerExit_m5559_MethodInfo;
-extern const MethodInfo Selectable_OnPointerDown_m5556_MethodInfo;
-extern const MethodInfo Selectable_OnPointerUp_m5557_MethodInfo;
-extern const MethodInfo Selectable_OnSelect_m5560_MethodInfo;
-extern const MethodInfo Selectable_OnDeselect_m5561_MethodInfo;
-extern const MethodInfo Selectable_OnMove_m5546_MethodInfo;
-extern const MethodInfo Selectable_IsInteractable_m5531_MethodInfo;
-extern const MethodInfo Selectable_InstantClearState_m5537_MethodInfo;
-extern const MethodInfo Selectable_DoStateTransition_m5538_MethodInfo;
-extern const MethodInfo Selectable_FindSelectableOnLeft_m5542_MethodInfo;
-extern const MethodInfo Selectable_FindSelectableOnRight_m5543_MethodInfo;
-extern const MethodInfo Selectable_FindSelectableOnUp_m5544_MethodInfo;
-extern const MethodInfo Selectable_FindSelectableOnDown_m5545_MethodInfo;
-extern const MethodInfo Selectable_Select_m5562_MethodInfo;
+extern const MethodInfo Selectable_Awake_m5533_MethodInfo;
+extern const MethodInfo Selectable_OnEnable_m5537_MethodInfo;
+extern const MethodInfo Selectable_OnDisable_m5539_MethodInfo;
+extern const MethodInfo UIBehaviour_IsActive_m4848_MethodInfo;
+extern const MethodInfo Selectable_OnDidApplyAnimationProperties_m5536_MethodInfo;
+extern const MethodInfo Selectable_OnCanvasGroupChanged_m5534_MethodInfo;
+extern const MethodInfo Selectable_OnPointerEnter_m5562_MethodInfo;
+extern const MethodInfo Selectable_OnPointerExit_m5563_MethodInfo;
+extern const MethodInfo Selectable_OnPointerDown_m5560_MethodInfo;
+extern const MethodInfo Selectable_OnPointerUp_m5561_MethodInfo;
+extern const MethodInfo Selectable_OnSelect_m5564_MethodInfo;
+extern const MethodInfo Selectable_OnDeselect_m5565_MethodInfo;
+extern const MethodInfo Selectable_OnMove_m5550_MethodInfo;
+extern const MethodInfo Selectable_IsInteractable_m5535_MethodInfo;
+extern const MethodInfo Selectable_InstantClearState_m5541_MethodInfo;
+extern const MethodInfo Selectable_DoStateTransition_m5542_MethodInfo;
+extern const MethodInfo Selectable_FindSelectableOnLeft_m5546_MethodInfo;
+extern const MethodInfo Selectable_FindSelectableOnRight_m5547_MethodInfo;
+extern const MethodInfo Selectable_FindSelectableOnUp_m5548_MethodInfo;
+extern const MethodInfo Selectable_FindSelectableOnDown_m5549_MethodInfo;
+extern const MethodInfo Selectable_Select_m5566_MethodInfo;
 static const Il2CppMethodReference Selectable_t922_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
-	&Selectable_Awake_m5529_MethodInfo,
-	&Selectable_OnEnable_m5533_MethodInfo,
-	&UIBehaviour_Start_m4841_MethodInfo,
-	&Selectable_OnDisable_m5535_MethodInfo,
-	&UIBehaviour_OnDestroy_m4843_MethodInfo,
-	&UIBehaviour_IsActive_m4844_MethodInfo,
-	&UIBehaviour_OnRectTransformDimensionsChange_m4845_MethodInfo,
-	&UIBehaviour_OnBeforeTransformParentChanged_m4846_MethodInfo,
-	&UIBehaviour_OnTransformParentChanged_m4847_MethodInfo,
-	&Selectable_OnDidApplyAnimationProperties_m5532_MethodInfo,
-	&Selectable_OnCanvasGroupChanged_m5530_MethodInfo,
-	&UIBehaviour_OnCanvasHierarchyChanged_m4850_MethodInfo,
-	&Selectable_OnPointerEnter_m5558_MethodInfo,
-	&Selectable_OnPointerExit_m5559_MethodInfo,
-	&Selectable_OnPointerDown_m5556_MethodInfo,
-	&Selectable_OnPointerUp_m5557_MethodInfo,
-	&Selectable_OnSelect_m5560_MethodInfo,
-	&Selectable_OnDeselect_m5561_MethodInfo,
-	&Selectable_OnMove_m5546_MethodInfo,
-	&Selectable_IsInteractable_m5531_MethodInfo,
-	&Selectable_InstantClearState_m5537_MethodInfo,
-	&Selectable_DoStateTransition_m5538_MethodInfo,
-	&Selectable_FindSelectableOnLeft_m5542_MethodInfo,
-	&Selectable_FindSelectableOnRight_m5543_MethodInfo,
-	&Selectable_FindSelectableOnUp_m5544_MethodInfo,
-	&Selectable_FindSelectableOnDown_m5545_MethodInfo,
-	&Selectable_OnMove_m5546_MethodInfo,
-	&Selectable_OnPointerDown_m5556_MethodInfo,
-	&Selectable_OnPointerUp_m5557_MethodInfo,
-	&Selectable_OnPointerEnter_m5558_MethodInfo,
-	&Selectable_OnPointerExit_m5559_MethodInfo,
-	&Selectable_OnSelect_m5560_MethodInfo,
-	&Selectable_OnDeselect_m5561_MethodInfo,
-	&Selectable_Select_m5562_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
+	&Selectable_Awake_m5533_MethodInfo,
+	&Selectable_OnEnable_m5537_MethodInfo,
+	&UIBehaviour_Start_m4845_MethodInfo,
+	&Selectable_OnDisable_m5539_MethodInfo,
+	&UIBehaviour_OnDestroy_m4847_MethodInfo,
+	&UIBehaviour_IsActive_m4848_MethodInfo,
+	&UIBehaviour_OnRectTransformDimensionsChange_m4849_MethodInfo,
+	&UIBehaviour_OnBeforeTransformParentChanged_m4850_MethodInfo,
+	&UIBehaviour_OnTransformParentChanged_m4851_MethodInfo,
+	&Selectable_OnDidApplyAnimationProperties_m5536_MethodInfo,
+	&Selectable_OnCanvasGroupChanged_m5534_MethodInfo,
+	&UIBehaviour_OnCanvasHierarchyChanged_m4854_MethodInfo,
+	&Selectable_OnPointerEnter_m5562_MethodInfo,
+	&Selectable_OnPointerExit_m5563_MethodInfo,
+	&Selectable_OnPointerDown_m5560_MethodInfo,
+	&Selectable_OnPointerUp_m5561_MethodInfo,
+	&Selectable_OnSelect_m5564_MethodInfo,
+	&Selectable_OnDeselect_m5565_MethodInfo,
+	&Selectable_OnMove_m5550_MethodInfo,
+	&Selectable_IsInteractable_m5535_MethodInfo,
+	&Selectable_InstantClearState_m5541_MethodInfo,
+	&Selectable_DoStateTransition_m5542_MethodInfo,
+	&Selectable_FindSelectableOnLeft_m5546_MethodInfo,
+	&Selectable_FindSelectableOnRight_m5547_MethodInfo,
+	&Selectable_FindSelectableOnUp_m5548_MethodInfo,
+	&Selectable_FindSelectableOnDown_m5549_MethodInfo,
+	&Selectable_OnMove_m5550_MethodInfo,
+	&Selectable_OnPointerDown_m5560_MethodInfo,
+	&Selectable_OnPointerUp_m5561_MethodInfo,
+	&Selectable_OnPointerEnter_m5562_MethodInfo,
+	&Selectable_OnPointerExit_m5563_MethodInfo,
+	&Selectable_OnSelect_m5564_MethodInfo,
+	&Selectable_OnDeselect_m5565_MethodInfo,
+	&Selectable_Select_m5566_MethodInfo,
 };
 static bool Selectable_t922_VTableIsGenericMethod[] =
 {
@@ -4397,21 +4397,21 @@ extern TypeInfo SetPropertyUtility_t989_il2cpp_TypeInfo;
 extern const Il2CppType Color_t325_1_0_0;
 extern const Il2CppType Color_t325_1_0_0;
 extern const Il2CppType Color_t325_0_0_0;
-static const ParameterInfo SetPropertyUtility_t989_SetPropertyUtility_SetColor_m5563_ParameterInfos[] = 
+static const ParameterInfo SetPropertyUtility_t989_SetPropertyUtility_SetColor_m5567_ParameterInfos[] = 
 {
 	{"currentValue", 0, 134218254, 0, &Color_t325_1_0_0},
 	{"newValue", 1, 134218255, 0, &Color_t325_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_ColorU26_t1157_Color_t325 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.SetPropertyUtility::SetColor(UnityEngine.Color&,UnityEngine.Color)
-extern const MethodInfo SetPropertyUtility_SetColor_m5563_MethodInfo = 
+extern const MethodInfo SetPropertyUtility_SetColor_m5567_MethodInfo = 
 {
 	"SetColor"/* name */
-	, (methodPointerType)&SetPropertyUtility_SetColor_m5563/* method */
+	, (methodPointerType)&SetPropertyUtility_SetColor_m5567/* method */
 	, &SetPropertyUtility_t989_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_ColorU26_t1157_Color_t325/* invoker_method */
-	, SetPropertyUtility_t989_SetPropertyUtility_SetColor_m5563_ParameterInfos/* parameters */
+	, SetPropertyUtility_t989_SetPropertyUtility_SetColor_m5567_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -4425,42 +4425,42 @@ extern const MethodInfo SetPropertyUtility_SetColor_m5563_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SetPropertyUtility_SetStruct_m6424_gp_0_1_0_0;
-extern const Il2CppType SetPropertyUtility_SetStruct_m6424_gp_0_1_0_0;
-extern const Il2CppType SetPropertyUtility_SetStruct_m6424_gp_0_0_0_0;
-extern const Il2CppType SetPropertyUtility_SetStruct_m6424_gp_0_0_0_0;
-static const ParameterInfo SetPropertyUtility_t989_SetPropertyUtility_SetStruct_m6424_ParameterInfos[] = 
+extern const Il2CppType SetPropertyUtility_SetStruct_m6428_gp_0_1_0_0;
+extern const Il2CppType SetPropertyUtility_SetStruct_m6428_gp_0_1_0_0;
+extern const Il2CppType SetPropertyUtility_SetStruct_m6428_gp_0_0_0_0;
+extern const Il2CppType SetPropertyUtility_SetStruct_m6428_gp_0_0_0_0;
+static const ParameterInfo SetPropertyUtility_t989_SetPropertyUtility_SetStruct_m6428_ParameterInfos[] = 
 {
-	{"currentValue", 0, 134218256, 0, &SetPropertyUtility_SetStruct_m6424_gp_0_1_0_0},
-	{"newValue", 1, 134218257, 0, &SetPropertyUtility_SetStruct_m6424_gp_0_0_0_0},
+	{"currentValue", 0, 134218256, 0, &SetPropertyUtility_SetStruct_m6428_gp_0_1_0_0},
+	{"newValue", 1, 134218257, 0, &SetPropertyUtility_SetStruct_m6428_gp_0_0_0_0},
 };
-extern const Il2CppGenericContainer SetPropertyUtility_SetStruct_m6424_Il2CppGenericContainer;
-extern TypeInfo SetPropertyUtility_SetStruct_m6424_gp_T_0_il2cpp_TypeInfo;
+extern const Il2CppGenericContainer SetPropertyUtility_SetStruct_m6428_Il2CppGenericContainer;
+extern TypeInfo SetPropertyUtility_SetStruct_m6428_gp_T_0_il2cpp_TypeInfo;
 extern const Il2CppType ValueType_t842_0_0_0;
-static const Il2CppType* SetPropertyUtility_SetStruct_m6424_gp_T_0_il2cpp_TypeInfo_constraints[] = { 
+static const Il2CppType* SetPropertyUtility_SetStruct_m6428_gp_T_0_il2cpp_TypeInfo_constraints[] = { 
 &ValueType_t842_0_0_0 /* System.ValueType */, 
  NULL };
-extern const Il2CppGenericParameter SetPropertyUtility_SetStruct_m6424_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &SetPropertyUtility_SetStruct_m6424_Il2CppGenericContainer, SetPropertyUtility_SetStruct_m6424_gp_T_0_il2cpp_TypeInfo_constraints, "T", 0, 24 };
-static const Il2CppGenericParameter* SetPropertyUtility_SetStruct_m6424_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericParameter SetPropertyUtility_SetStruct_m6428_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &SetPropertyUtility_SetStruct_m6428_Il2CppGenericContainer, SetPropertyUtility_SetStruct_m6428_gp_T_0_il2cpp_TypeInfo_constraints, "T", 0, 24 };
+static const Il2CppGenericParameter* SetPropertyUtility_SetStruct_m6428_Il2CppGenericParametersArray[1] = 
 {
-	&SetPropertyUtility_SetStruct_m6424_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+	&SetPropertyUtility_SetStruct_m6428_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo SetPropertyUtility_SetStruct_m6424_MethodInfo;
-extern const Il2CppGenericContainer SetPropertyUtility_SetStruct_m6424_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&SetPropertyUtility_SetStruct_m6424_MethodInfo, 1, 1, SetPropertyUtility_SetStruct_m6424_Il2CppGenericParametersArray };
-static Il2CppRGCTXDefinition SetPropertyUtility_SetStruct_m6424_RGCTXData[2] = 
+extern const MethodInfo SetPropertyUtility_SetStruct_m6428_MethodInfo;
+extern const Il2CppGenericContainer SetPropertyUtility_SetStruct_m6428_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&SetPropertyUtility_SetStruct_m6428_MethodInfo, 1, 1, SetPropertyUtility_SetStruct_m6428_Il2CppGenericParametersArray };
+static Il2CppRGCTXDefinition SetPropertyUtility_SetStruct_m6428_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&SetPropertyUtility_SetStruct_m6424_gp_0_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&SetPropertyUtility_SetStruct_m6428_gp_0_0_0_0 }/* Class */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // System.Boolean UnityEngine.UI.SetPropertyUtility::SetStruct(T&,T)
-extern const MethodInfo SetPropertyUtility_SetStruct_m6424_MethodInfo = 
+extern const MethodInfo SetPropertyUtility_SetStruct_m6428_MethodInfo = 
 {
 	"SetStruct"/* name */
 	, NULL/* method */
 	, &SetPropertyUtility_t989_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, SetPropertyUtility_t989_SetPropertyUtility_SetStruct_m6424_ParameterInfos/* parameters */
+	, SetPropertyUtility_t989_SetPropertyUtility_SetStruct_m6428_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -4469,43 +4469,43 @@ extern const MethodInfo SetPropertyUtility_SetStruct_m6424_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 882/* token */
-	, SetPropertyUtility_SetStruct_m6424_RGCTXData/* rgctx_data */
+	, SetPropertyUtility_SetStruct_m6428_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &SetPropertyUtility_SetStruct_m6424_Il2CppGenericContainer/* genericContainer */
+	, &SetPropertyUtility_SetStruct_m6428_Il2CppGenericContainer/* genericContainer */
 
 };
-extern const Il2CppType SetPropertyUtility_SetClass_m6425_gp_0_1_0_0;
-extern const Il2CppType SetPropertyUtility_SetClass_m6425_gp_0_1_0_0;
-extern const Il2CppType SetPropertyUtility_SetClass_m6425_gp_0_0_0_0;
-extern const Il2CppType SetPropertyUtility_SetClass_m6425_gp_0_0_0_0;
-static const ParameterInfo SetPropertyUtility_t989_SetPropertyUtility_SetClass_m6425_ParameterInfos[] = 
+extern const Il2CppType SetPropertyUtility_SetClass_m6429_gp_0_1_0_0;
+extern const Il2CppType SetPropertyUtility_SetClass_m6429_gp_0_1_0_0;
+extern const Il2CppType SetPropertyUtility_SetClass_m6429_gp_0_0_0_0;
+extern const Il2CppType SetPropertyUtility_SetClass_m6429_gp_0_0_0_0;
+static const ParameterInfo SetPropertyUtility_t989_SetPropertyUtility_SetClass_m6429_ParameterInfos[] = 
 {
-	{"currentValue", 0, 134218258, 0, &SetPropertyUtility_SetClass_m6425_gp_0_1_0_0},
-	{"newValue", 1, 134218259, 0, &SetPropertyUtility_SetClass_m6425_gp_0_0_0_0},
+	{"currentValue", 0, 134218258, 0, &SetPropertyUtility_SetClass_m6429_gp_0_1_0_0},
+	{"newValue", 1, 134218259, 0, &SetPropertyUtility_SetClass_m6429_gp_0_0_0_0},
 };
-extern const Il2CppGenericContainer SetPropertyUtility_SetClass_m6425_Il2CppGenericContainer;
-extern TypeInfo SetPropertyUtility_SetClass_m6425_gp_T_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter SetPropertyUtility_SetClass_m6425_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &SetPropertyUtility_SetClass_m6425_Il2CppGenericContainer, NULL, "T", 0, 4 };
-static const Il2CppGenericParameter* SetPropertyUtility_SetClass_m6425_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericContainer SetPropertyUtility_SetClass_m6429_Il2CppGenericContainer;
+extern TypeInfo SetPropertyUtility_SetClass_m6429_gp_T_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter SetPropertyUtility_SetClass_m6429_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &SetPropertyUtility_SetClass_m6429_Il2CppGenericContainer, NULL, "T", 0, 4 };
+static const Il2CppGenericParameter* SetPropertyUtility_SetClass_m6429_Il2CppGenericParametersArray[1] = 
 {
-	&SetPropertyUtility_SetClass_m6425_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+	&SetPropertyUtility_SetClass_m6429_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo SetPropertyUtility_SetClass_m6425_MethodInfo;
-extern const Il2CppGenericContainer SetPropertyUtility_SetClass_m6425_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&SetPropertyUtility_SetClass_m6425_MethodInfo, 1, 1, SetPropertyUtility_SetClass_m6425_Il2CppGenericParametersArray };
-static Il2CppRGCTXDefinition SetPropertyUtility_SetClass_m6425_RGCTXData[2] = 
+extern const MethodInfo SetPropertyUtility_SetClass_m6429_MethodInfo;
+extern const Il2CppGenericContainer SetPropertyUtility_SetClass_m6429_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&SetPropertyUtility_SetClass_m6429_MethodInfo, 1, 1, SetPropertyUtility_SetClass_m6429_Il2CppGenericParametersArray };
+static Il2CppRGCTXDefinition SetPropertyUtility_SetClass_m6429_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&SetPropertyUtility_SetClass_m6425_gp_0_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&SetPropertyUtility_SetClass_m6429_gp_0_0_0_0 }/* Class */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // System.Boolean UnityEngine.UI.SetPropertyUtility::SetClass(T&,T)
-extern const MethodInfo SetPropertyUtility_SetClass_m6425_MethodInfo = 
+extern const MethodInfo SetPropertyUtility_SetClass_m6429_MethodInfo = 
 {
 	"SetClass"/* name */
 	, NULL/* method */
 	, &SetPropertyUtility_t989_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, SetPropertyUtility_t989_SetPropertyUtility_SetClass_m6425_ParameterInfos/* parameters */
+	, SetPropertyUtility_t989_SetPropertyUtility_SetClass_m6429_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -4514,22 +4514,22 @@ extern const MethodInfo SetPropertyUtility_SetClass_m6425_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 883/* token */
-	, SetPropertyUtility_SetClass_m6425_RGCTXData/* rgctx_data */
+	, SetPropertyUtility_SetClass_m6429_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &SetPropertyUtility_SetClass_m6425_Il2CppGenericContainer/* genericContainer */
+	, &SetPropertyUtility_SetClass_m6429_Il2CppGenericContainer/* genericContainer */
 
 };
 static const MethodInfo* SetPropertyUtility_t989_MethodInfos[] =
 {
-	&SetPropertyUtility_SetColor_m5563_MethodInfo,
-	&SetPropertyUtility_SetStruct_m6424_MethodInfo,
-	&SetPropertyUtility_SetClass_m6425_MethodInfo,
+	&SetPropertyUtility_SetColor_m5567_MethodInfo,
+	&SetPropertyUtility_SetStruct_m6428_MethodInfo,
+	&SetPropertyUtility_SetClass_m6429_MethodInfo,
 	NULL
 };
 extern const MethodInfo Object_ToString_m492_MethodInfo;
 static const Il2CppMethodReference SetPropertyUtility_t989_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -4625,29 +4625,29 @@ static const MethodInfo* Direction_t990_MethodInfos[] =
 };
 static const Il2CppMethodReference Direction_t990_VTable[] =
 {
-	&Enum_Equals_m501_MethodInfo,
+	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Enum_GetHashCode_m502_MethodInfo,
-	&Enum_ToString_m503_MethodInfo,
-	&Enum_ToString_m504_MethodInfo,
-	&Enum_System_IConvertible_ToBoolean_m505_MethodInfo,
-	&Enum_System_IConvertible_ToByte_m506_MethodInfo,
-	&Enum_System_IConvertible_ToChar_m507_MethodInfo,
-	&Enum_System_IConvertible_ToDateTime_m508_MethodInfo,
-	&Enum_System_IConvertible_ToDecimal_m509_MethodInfo,
-	&Enum_System_IConvertible_ToDouble_m510_MethodInfo,
-	&Enum_System_IConvertible_ToInt16_m511_MethodInfo,
-	&Enum_System_IConvertible_ToInt32_m512_MethodInfo,
-	&Enum_System_IConvertible_ToInt64_m513_MethodInfo,
-	&Enum_System_IConvertible_ToSByte_m514_MethodInfo,
-	&Enum_System_IConvertible_ToSingle_m515_MethodInfo,
-	&Enum_ToString_m516_MethodInfo,
-	&Enum_System_IConvertible_ToType_m517_MethodInfo,
-	&Enum_System_IConvertible_ToUInt16_m518_MethodInfo,
-	&Enum_System_IConvertible_ToUInt32_m519_MethodInfo,
-	&Enum_System_IConvertible_ToUInt64_m520_MethodInfo,
-	&Enum_CompareTo_m521_MethodInfo,
-	&Enum_GetTypeCode_m522_MethodInfo,
+	&Enum_GetHashCode_m504_MethodInfo,
+	&Enum_ToString_m505_MethodInfo,
+	&Enum_ToString_m506_MethodInfo,
+	&Enum_System_IConvertible_ToBoolean_m507_MethodInfo,
+	&Enum_System_IConvertible_ToByte_m508_MethodInfo,
+	&Enum_System_IConvertible_ToChar_m509_MethodInfo,
+	&Enum_System_IConvertible_ToDateTime_m510_MethodInfo,
+	&Enum_System_IConvertible_ToDecimal_m511_MethodInfo,
+	&Enum_System_IConvertible_ToDouble_m512_MethodInfo,
+	&Enum_System_IConvertible_ToInt16_m513_MethodInfo,
+	&Enum_System_IConvertible_ToInt32_m514_MethodInfo,
+	&Enum_System_IConvertible_ToInt64_m515_MethodInfo,
+	&Enum_System_IConvertible_ToSByte_m516_MethodInfo,
+	&Enum_System_IConvertible_ToSingle_m517_MethodInfo,
+	&Enum_ToString_m518_MethodInfo,
+	&Enum_System_IConvertible_ToType_m519_MethodInfo,
+	&Enum_System_IConvertible_ToUInt16_m520_MethodInfo,
+	&Enum_System_IConvertible_ToUInt32_m521_MethodInfo,
+	&Enum_System_IConvertible_ToUInt64_m522_MethodInfo,
+	&Enum_CompareTo_m523_MethodInfo,
+	&Enum_GetTypeCode_m524_MethodInfo,
 };
 static bool Direction_t990_VTableIsGenericMethod[] =
 {
@@ -4761,10 +4761,10 @@ extern TypeInfo SliderEvent_t991_il2cpp_TypeInfo;
 #include "UnityEngine_UI_UnityEngine_UI_Slider_SliderEventMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider/SliderEvent::.ctor()
-extern const MethodInfo SliderEvent__ctor_m5564_MethodInfo = 
+extern const MethodInfo SliderEvent__ctor_m5568_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&SliderEvent__ctor_m5564/* method */
+	, (methodPointerType)&SliderEvent__ctor_m5568/* method */
 	, &SliderEvent_t991_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -4784,21 +4784,21 @@ extern const MethodInfo SliderEvent__ctor_m5564_MethodInfo =
 };
 static const MethodInfo* SliderEvent_t991_MethodInfos[] =
 {
-	&SliderEvent__ctor_m5564_MethodInfo,
+	&SliderEvent__ctor_m5568_MethodInfo,
 	NULL
 };
-extern const Il2CppGenericMethod UnityEvent_1_FindMethod_Impl_m6489_GenericMethod;
-extern const Il2CppGenericMethod UnityEvent_1_GetDelegate_m6490_GenericMethod;
+extern const Il2CppGenericMethod UnityEvent_1_FindMethod_Impl_m6493_GenericMethod;
+extern const Il2CppGenericMethod UnityEvent_1_GetDelegate_m6494_GenericMethod;
 static const Il2CppMethodReference SliderEvent_t991_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&UnityEventBase_ToString_m6470_MethodInfo,
-	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6471_MethodInfo,
-	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6472_MethodInfo,
-	&UnityEvent_1_FindMethod_Impl_m6489_GenericMethod,
-	&UnityEvent_1_GetDelegate_m6490_GenericMethod,
+	&UnityEventBase_ToString_m6474_MethodInfo,
+	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6475_MethodInfo,
+	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6476_MethodInfo,
+	&UnityEvent_1_FindMethod_Impl_m6493_GenericMethod,
+	&UnityEvent_1_GetDelegate_m6494_GenericMethod,
 };
 static bool SliderEvent_t991_VTableIsGenericMethod[] =
 {
@@ -4899,29 +4899,29 @@ static const MethodInfo* Axis_t992_MethodInfos[] =
 };
 static const Il2CppMethodReference Axis_t992_VTable[] =
 {
-	&Enum_Equals_m501_MethodInfo,
+	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Enum_GetHashCode_m502_MethodInfo,
-	&Enum_ToString_m503_MethodInfo,
-	&Enum_ToString_m504_MethodInfo,
-	&Enum_System_IConvertible_ToBoolean_m505_MethodInfo,
-	&Enum_System_IConvertible_ToByte_m506_MethodInfo,
-	&Enum_System_IConvertible_ToChar_m507_MethodInfo,
-	&Enum_System_IConvertible_ToDateTime_m508_MethodInfo,
-	&Enum_System_IConvertible_ToDecimal_m509_MethodInfo,
-	&Enum_System_IConvertible_ToDouble_m510_MethodInfo,
-	&Enum_System_IConvertible_ToInt16_m511_MethodInfo,
-	&Enum_System_IConvertible_ToInt32_m512_MethodInfo,
-	&Enum_System_IConvertible_ToInt64_m513_MethodInfo,
-	&Enum_System_IConvertible_ToSByte_m514_MethodInfo,
-	&Enum_System_IConvertible_ToSingle_m515_MethodInfo,
-	&Enum_ToString_m516_MethodInfo,
-	&Enum_System_IConvertible_ToType_m517_MethodInfo,
-	&Enum_System_IConvertible_ToUInt16_m518_MethodInfo,
-	&Enum_System_IConvertible_ToUInt32_m519_MethodInfo,
-	&Enum_System_IConvertible_ToUInt64_m520_MethodInfo,
-	&Enum_CompareTo_m521_MethodInfo,
-	&Enum_GetTypeCode_m522_MethodInfo,
+	&Enum_GetHashCode_m504_MethodInfo,
+	&Enum_ToString_m505_MethodInfo,
+	&Enum_ToString_m506_MethodInfo,
+	&Enum_System_IConvertible_ToBoolean_m507_MethodInfo,
+	&Enum_System_IConvertible_ToByte_m508_MethodInfo,
+	&Enum_System_IConvertible_ToChar_m509_MethodInfo,
+	&Enum_System_IConvertible_ToDateTime_m510_MethodInfo,
+	&Enum_System_IConvertible_ToDecimal_m511_MethodInfo,
+	&Enum_System_IConvertible_ToDouble_m512_MethodInfo,
+	&Enum_System_IConvertible_ToInt16_m513_MethodInfo,
+	&Enum_System_IConvertible_ToInt32_m514_MethodInfo,
+	&Enum_System_IConvertible_ToInt64_m515_MethodInfo,
+	&Enum_System_IConvertible_ToSByte_m516_MethodInfo,
+	&Enum_System_IConvertible_ToSingle_m517_MethodInfo,
+	&Enum_ToString_m518_MethodInfo,
+	&Enum_System_IConvertible_ToType_m519_MethodInfo,
+	&Enum_System_IConvertible_ToUInt16_m520_MethodInfo,
+	&Enum_System_IConvertible_ToUInt32_m521_MethodInfo,
+	&Enum_System_IConvertible_ToUInt64_m522_MethodInfo,
+	&Enum_CompareTo_m523_MethodInfo,
+	&Enum_GetTypeCode_m524_MethodInfo,
 };
 static bool Axis_t992_VTableIsGenericMethod[] =
 {
@@ -5032,10 +5032,10 @@ TypeInfo Axis_t992_il2cpp_TypeInfo =
 #include "UnityEngine_UI_UnityEngine_UI_SliderMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::.ctor()
-extern const MethodInfo Slider__ctor_m5565_MethodInfo = 
+extern const MethodInfo Slider__ctor_m5569_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Slider__ctor_m5565/* method */
+	, (methodPointerType)&Slider__ctor_m5569/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -5055,10 +5055,10 @@ extern const MethodInfo Slider__ctor_m5565_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.RectTransform UnityEngine.UI.Slider::get_fillRect()
-extern const MethodInfo Slider_get_fillRect_m5566_MethodInfo = 
+extern const MethodInfo Slider_get_fillRect_m5570_MethodInfo = 
 {
 	"get_fillRect"/* name */
-	, (methodPointerType)&Slider_get_fillRect_m5566/* method */
+	, (methodPointerType)&Slider_get_fillRect_m5570/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &RectTransform_t545_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -5077,20 +5077,20 @@ extern const MethodInfo Slider_get_fillRect_m5566_MethodInfo =
 
 };
 extern const Il2CppType RectTransform_t545_0_0_0;
-static const ParameterInfo Slider_t497_Slider_set_fillRect_m5567_ParameterInfos[] = 
+static const ParameterInfo Slider_t497_Slider_set_fillRect_m5571_ParameterInfos[] = 
 {
 	{"value", 0, 134218260, 0, &RectTransform_t545_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::set_fillRect(UnityEngine.RectTransform)
-extern const MethodInfo Slider_set_fillRect_m5567_MethodInfo = 
+extern const MethodInfo Slider_set_fillRect_m5571_MethodInfo = 
 {
 	"set_fillRect"/* name */
-	, (methodPointerType)&Slider_set_fillRect_m5567/* method */
+	, (methodPointerType)&Slider_set_fillRect_m5571/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Slider_t497_Slider_set_fillRect_m5567_ParameterInfos/* parameters */
+	, Slider_t497_Slider_set_fillRect_m5571_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -5106,10 +5106,10 @@ extern const MethodInfo Slider_set_fillRect_m5567_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.RectTransform UnityEngine.UI.Slider::get_handleRect()
-extern const MethodInfo Slider_get_handleRect_m5568_MethodInfo = 
+extern const MethodInfo Slider_get_handleRect_m5572_MethodInfo = 
 {
 	"get_handleRect"/* name */
-	, (methodPointerType)&Slider_get_handleRect_m5568/* method */
+	, (methodPointerType)&Slider_get_handleRect_m5572/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &RectTransform_t545_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -5128,20 +5128,20 @@ extern const MethodInfo Slider_get_handleRect_m5568_MethodInfo =
 
 };
 extern const Il2CppType RectTransform_t545_0_0_0;
-static const ParameterInfo Slider_t497_Slider_set_handleRect_m5569_ParameterInfos[] = 
+static const ParameterInfo Slider_t497_Slider_set_handleRect_m5573_ParameterInfos[] = 
 {
 	{"value", 0, 134218261, 0, &RectTransform_t545_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::set_handleRect(UnityEngine.RectTransform)
-extern const MethodInfo Slider_set_handleRect_m5569_MethodInfo = 
+extern const MethodInfo Slider_set_handleRect_m5573_MethodInfo = 
 {
 	"set_handleRect"/* name */
-	, (methodPointerType)&Slider_set_handleRect_m5569/* method */
+	, (methodPointerType)&Slider_set_handleRect_m5573/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Slider_t497_Slider_set_handleRect_m5569_ParameterInfos/* parameters */
+	, Slider_t497_Slider_set_handleRect_m5573_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -5157,10 +5157,10 @@ extern const MethodInfo Slider_set_handleRect_m5569_MethodInfo =
 };
 extern void* RuntimeInvoker_Direction_t990 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Slider/Direction UnityEngine.UI.Slider::get_direction()
-extern const MethodInfo Slider_get_direction_m5570_MethodInfo = 
+extern const MethodInfo Slider_get_direction_m5574_MethodInfo = 
 {
 	"get_direction"/* name */
-	, (methodPointerType)&Slider_get_direction_m5570/* method */
+	, (methodPointerType)&Slider_get_direction_m5574/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Direction_t990_0_0_0/* return_type */
 	, RuntimeInvoker_Direction_t990/* invoker_method */
@@ -5179,20 +5179,20 @@ extern const MethodInfo Slider_get_direction_m5570_MethodInfo =
 
 };
 extern const Il2CppType Direction_t990_0_0_0;
-static const ParameterInfo Slider_t497_Slider_set_direction_m5571_ParameterInfos[] = 
+static const ParameterInfo Slider_t497_Slider_set_direction_m5575_ParameterInfos[] = 
 {
 	{"value", 0, 134218262, 0, &Direction_t990_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::set_direction(UnityEngine.UI.Slider/Direction)
-extern const MethodInfo Slider_set_direction_m5571_MethodInfo = 
+extern const MethodInfo Slider_set_direction_m5575_MethodInfo = 
 {
 	"set_direction"/* name */
-	, (methodPointerType)&Slider_set_direction_m5571/* method */
+	, (methodPointerType)&Slider_set_direction_m5575/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Slider_t497_Slider_set_direction_m5571_ParameterInfos/* parameters */
+	, Slider_t497_Slider_set_direction_m5575_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -5208,10 +5208,10 @@ extern const MethodInfo Slider_set_direction_m5571_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.Slider::get_minValue()
-extern const MethodInfo Slider_get_minValue_m5572_MethodInfo = 
+extern const MethodInfo Slider_get_minValue_m5576_MethodInfo = 
 {
 	"get_minValue"/* name */
-	, (methodPointerType)&Slider_get_minValue_m5572/* method */
+	, (methodPointerType)&Slider_get_minValue_m5576/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -5230,20 +5230,20 @@ extern const MethodInfo Slider_get_minValue_m5572_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo Slider_t497_Slider_set_minValue_m5573_ParameterInfos[] = 
+static const ParameterInfo Slider_t497_Slider_set_minValue_m5577_ParameterInfos[] = 
 {
 	{"value", 0, 134218263, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::set_minValue(System.Single)
-extern const MethodInfo Slider_set_minValue_m5573_MethodInfo = 
+extern const MethodInfo Slider_set_minValue_m5577_MethodInfo = 
 {
 	"set_minValue"/* name */
-	, (methodPointerType)&Slider_set_minValue_m5573/* method */
+	, (methodPointerType)&Slider_set_minValue_m5577/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, Slider_t497_Slider_set_minValue_m5573_ParameterInfos/* parameters */
+	, Slider_t497_Slider_set_minValue_m5577_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -5259,10 +5259,10 @@ extern const MethodInfo Slider_set_minValue_m5573_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.Slider::get_maxValue()
-extern const MethodInfo Slider_get_maxValue_m5574_MethodInfo = 
+extern const MethodInfo Slider_get_maxValue_m5578_MethodInfo = 
 {
 	"get_maxValue"/* name */
-	, (methodPointerType)&Slider_get_maxValue_m5574/* method */
+	, (methodPointerType)&Slider_get_maxValue_m5578/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -5281,20 +5281,20 @@ extern const MethodInfo Slider_get_maxValue_m5574_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo Slider_t497_Slider_set_maxValue_m5575_ParameterInfos[] = 
+static const ParameterInfo Slider_t497_Slider_set_maxValue_m5579_ParameterInfos[] = 
 {
 	{"value", 0, 134218264, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::set_maxValue(System.Single)
-extern const MethodInfo Slider_set_maxValue_m5575_MethodInfo = 
+extern const MethodInfo Slider_set_maxValue_m5579_MethodInfo = 
 {
 	"set_maxValue"/* name */
-	, (methodPointerType)&Slider_set_maxValue_m5575/* method */
+	, (methodPointerType)&Slider_set_maxValue_m5579/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, Slider_t497_Slider_set_maxValue_m5575_ParameterInfos/* parameters */
+	, Slider_t497_Slider_set_maxValue_m5579_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -5310,10 +5310,10 @@ extern const MethodInfo Slider_set_maxValue_m5575_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.Slider::get_wholeNumbers()
-extern const MethodInfo Slider_get_wholeNumbers_m5576_MethodInfo = 
+extern const MethodInfo Slider_get_wholeNumbers_m5580_MethodInfo = 
 {
 	"get_wholeNumbers"/* name */
-	, (methodPointerType)&Slider_get_wholeNumbers_m5576/* method */
+	, (methodPointerType)&Slider_get_wholeNumbers_m5580/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -5332,20 +5332,20 @@ extern const MethodInfo Slider_get_wholeNumbers_m5576_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Slider_t497_Slider_set_wholeNumbers_m5577_ParameterInfos[] = 
+static const ParameterInfo Slider_t497_Slider_set_wholeNumbers_m5581_ParameterInfos[] = 
 {
 	{"value", 0, 134218265, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::set_wholeNumbers(System.Boolean)
-extern const MethodInfo Slider_set_wholeNumbers_m5577_MethodInfo = 
+extern const MethodInfo Slider_set_wholeNumbers_m5581_MethodInfo = 
 {
 	"set_wholeNumbers"/* name */
-	, (methodPointerType)&Slider_set_wholeNumbers_m5577/* method */
+	, (methodPointerType)&Slider_set_wholeNumbers_m5581/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, Slider_t497_Slider_set_wholeNumbers_m5577_ParameterInfos/* parameters */
+	, Slider_t497_Slider_set_wholeNumbers_m5581_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -5361,10 +5361,10 @@ extern const MethodInfo Slider_set_wholeNumbers_m5577_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.Slider::get_value()
-extern const MethodInfo Slider_get_value_m5578_MethodInfo = 
+extern const MethodInfo Slider_get_value_m5582_MethodInfo = 
 {
 	"get_value"/* name */
-	, (methodPointerType)&Slider_get_value_m5578/* method */
+	, (methodPointerType)&Slider_get_value_m5582/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -5383,20 +5383,20 @@ extern const MethodInfo Slider_get_value_m5578_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo Slider_t497_Slider_set_value_m4311_ParameterInfos[] = 
+static const ParameterInfo Slider_t497_Slider_set_value_m4314_ParameterInfos[] = 
 {
 	{"value", 0, 134218266, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::set_value(System.Single)
-extern const MethodInfo Slider_set_value_m4311_MethodInfo = 
+extern const MethodInfo Slider_set_value_m4314_MethodInfo = 
 {
 	"set_value"/* name */
-	, (methodPointerType)&Slider_set_value_m4311/* method */
+	, (methodPointerType)&Slider_set_value_m4314/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, Slider_t497_Slider_set_value_m4311_ParameterInfos/* parameters */
+	, Slider_t497_Slider_set_value_m4314_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -5412,10 +5412,10 @@ extern const MethodInfo Slider_set_value_m4311_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.Slider::get_normalizedValue()
-extern const MethodInfo Slider_get_normalizedValue_m5579_MethodInfo = 
+extern const MethodInfo Slider_get_normalizedValue_m5583_MethodInfo = 
 {
 	"get_normalizedValue"/* name */
-	, (methodPointerType)&Slider_get_normalizedValue_m5579/* method */
+	, (methodPointerType)&Slider_get_normalizedValue_m5583/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -5434,20 +5434,20 @@ extern const MethodInfo Slider_get_normalizedValue_m5579_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo Slider_t497_Slider_set_normalizedValue_m5580_ParameterInfos[] = 
+static const ParameterInfo Slider_t497_Slider_set_normalizedValue_m5584_ParameterInfos[] = 
 {
 	{"value", 0, 134218267, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::set_normalizedValue(System.Single)
-extern const MethodInfo Slider_set_normalizedValue_m5580_MethodInfo = 
+extern const MethodInfo Slider_set_normalizedValue_m5584_MethodInfo = 
 {
 	"set_normalizedValue"/* name */
-	, (methodPointerType)&Slider_set_normalizedValue_m5580/* method */
+	, (methodPointerType)&Slider_set_normalizedValue_m5584/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, Slider_t497_Slider_set_normalizedValue_m5580_ParameterInfos/* parameters */
+	, Slider_t497_Slider_set_normalizedValue_m5584_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -5463,10 +5463,10 @@ extern const MethodInfo Slider_set_normalizedValue_m5580_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Slider/SliderEvent UnityEngine.UI.Slider::get_onValueChanged()
-extern const MethodInfo Slider_get_onValueChanged_m5581_MethodInfo = 
+extern const MethodInfo Slider_get_onValueChanged_m5585_MethodInfo = 
 {
 	"get_onValueChanged"/* name */
-	, (methodPointerType)&Slider_get_onValueChanged_m5581/* method */
+	, (methodPointerType)&Slider_get_onValueChanged_m5585/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &SliderEvent_t991_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -5485,20 +5485,20 @@ extern const MethodInfo Slider_get_onValueChanged_m5581_MethodInfo =
 
 };
 extern const Il2CppType SliderEvent_t991_0_0_0;
-static const ParameterInfo Slider_t497_Slider_set_onValueChanged_m5582_ParameterInfos[] = 
+static const ParameterInfo Slider_t497_Slider_set_onValueChanged_m5586_ParameterInfos[] = 
 {
 	{"value", 0, 134218268, 0, &SliderEvent_t991_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::set_onValueChanged(UnityEngine.UI.Slider/SliderEvent)
-extern const MethodInfo Slider_set_onValueChanged_m5582_MethodInfo = 
+extern const MethodInfo Slider_set_onValueChanged_m5586_MethodInfo = 
 {
 	"set_onValueChanged"/* name */
-	, (methodPointerType)&Slider_set_onValueChanged_m5582/* method */
+	, (methodPointerType)&Slider_set_onValueChanged_m5586/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Slider_t497_Slider_set_onValueChanged_m5582_ParameterInfos/* parameters */
+	, Slider_t497_Slider_set_onValueChanged_m5586_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -5514,10 +5514,10 @@ extern const MethodInfo Slider_set_onValueChanged_m5582_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.Slider::get_stepSize()
-extern const MethodInfo Slider_get_stepSize_m5583_MethodInfo = 
+extern const MethodInfo Slider_get_stepSize_m5587_MethodInfo = 
 {
 	"get_stepSize"/* name */
-	, (methodPointerType)&Slider_get_stepSize_m5583/* method */
+	, (methodPointerType)&Slider_get_stepSize_m5587/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -5536,20 +5536,20 @@ extern const MethodInfo Slider_get_stepSize_m5583_MethodInfo =
 
 };
 extern const Il2CppType CanvasUpdate_t923_0_0_0;
-static const ParameterInfo Slider_t497_Slider_Rebuild_m5584_ParameterInfos[] = 
+static const ParameterInfo Slider_t497_Slider_Rebuild_m5588_ParameterInfos[] = 
 {
 	{"executing", 0, 134218269, 0, &CanvasUpdate_t923_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::Rebuild(UnityEngine.UI.CanvasUpdate)
-extern const MethodInfo Slider_Rebuild_m5584_MethodInfo = 
+extern const MethodInfo Slider_Rebuild_m5588_MethodInfo = 
 {
 	"Rebuild"/* name */
-	, (methodPointerType)&Slider_Rebuild_m5584/* method */
+	, (methodPointerType)&Slider_Rebuild_m5588/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Slider_t497_Slider_Rebuild_m5584_ParameterInfos/* parameters */
+	, Slider_t497_Slider_Rebuild_m5588_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -5565,10 +5565,10 @@ extern const MethodInfo Slider_Rebuild_m5584_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::OnEnable()
-extern const MethodInfo Slider_OnEnable_m5585_MethodInfo = 
+extern const MethodInfo Slider_OnEnable_m5589_MethodInfo = 
 {
 	"OnEnable"/* name */
-	, (methodPointerType)&Slider_OnEnable_m5585/* method */
+	, (methodPointerType)&Slider_OnEnable_m5589/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -5588,10 +5588,10 @@ extern const MethodInfo Slider_OnEnable_m5585_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::OnDisable()
-extern const MethodInfo Slider_OnDisable_m5586_MethodInfo = 
+extern const MethodInfo Slider_OnDisable_m5590_MethodInfo = 
 {
 	"OnDisable"/* name */
-	, (methodPointerType)&Slider_OnDisable_m5586/* method */
+	, (methodPointerType)&Slider_OnDisable_m5590/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -5611,10 +5611,10 @@ extern const MethodInfo Slider_OnDisable_m5586_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::UpdateCachedReferences()
-extern const MethodInfo Slider_UpdateCachedReferences_m5587_MethodInfo = 
+extern const MethodInfo Slider_UpdateCachedReferences_m5591_MethodInfo = 
 {
 	"UpdateCachedReferences"/* name */
-	, (methodPointerType)&Slider_UpdateCachedReferences_m5587/* method */
+	, (methodPointerType)&Slider_UpdateCachedReferences_m5591/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -5633,20 +5633,20 @@ extern const MethodInfo Slider_UpdateCachedReferences_m5587_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo Slider_t497_Slider_Set_m5588_ParameterInfos[] = 
+static const ParameterInfo Slider_t497_Slider_Set_m5592_ParameterInfos[] = 
 {
 	{"input", 0, 134218270, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::Set(System.Single)
-extern const MethodInfo Slider_Set_m5588_MethodInfo = 
+extern const MethodInfo Slider_Set_m5592_MethodInfo = 
 {
 	"Set"/* name */
-	, (methodPointerType)&Slider_Set_m5588/* method */
+	, (methodPointerType)&Slider_Set_m5592/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, Slider_t497_Slider_Set_m5588_ParameterInfos/* parameters */
+	, Slider_t497_Slider_Set_m5592_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -5662,21 +5662,21 @@ extern const MethodInfo Slider_Set_m5588_MethodInfo =
 };
 extern const Il2CppType Single_t87_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Slider_t497_Slider_Set_m5589_ParameterInfos[] = 
+static const ParameterInfo Slider_t497_Slider_Set_m5593_ParameterInfos[] = 
 {
 	{"input", 0, 134218271, 0, &Single_t87_0_0_0},
 	{"sendCallback", 1, 134218272, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::Set(System.Single,System.Boolean)
-extern const MethodInfo Slider_Set_m5589_MethodInfo = 
+extern const MethodInfo Slider_Set_m5593_MethodInfo = 
 {
 	"Set"/* name */
-	, (methodPointerType)&Slider_Set_m5589/* method */
+	, (methodPointerType)&Slider_Set_m5593/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87_SByte_t88/* invoker_method */
-	, Slider_t497_Slider_Set_m5589_ParameterInfos/* parameters */
+	, Slider_t497_Slider_Set_m5593_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -5692,10 +5692,10 @@ extern const MethodInfo Slider_Set_m5589_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::OnRectTransformDimensionsChange()
-extern const MethodInfo Slider_OnRectTransformDimensionsChange_m5590_MethodInfo = 
+extern const MethodInfo Slider_OnRectTransformDimensionsChange_m5594_MethodInfo = 
 {
 	"OnRectTransformDimensionsChange"/* name */
-	, (methodPointerType)&Slider_OnRectTransformDimensionsChange_m5590/* method */
+	, (methodPointerType)&Slider_OnRectTransformDimensionsChange_m5594/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -5715,10 +5715,10 @@ extern const MethodInfo Slider_OnRectTransformDimensionsChange_m5590_MethodInfo 
 };
 extern void* RuntimeInvoker_Axis_t992 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Slider/Axis UnityEngine.UI.Slider::get_axis()
-extern const MethodInfo Slider_get_axis_m5591_MethodInfo = 
+extern const MethodInfo Slider_get_axis_m5595_MethodInfo = 
 {
 	"get_axis"/* name */
-	, (methodPointerType)&Slider_get_axis_m5591/* method */
+	, (methodPointerType)&Slider_get_axis_m5595/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Axis_t992_0_0_0/* return_type */
 	, RuntimeInvoker_Axis_t992/* invoker_method */
@@ -5738,10 +5738,10 @@ extern const MethodInfo Slider_get_axis_m5591_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.Slider::get_reverseValue()
-extern const MethodInfo Slider_get_reverseValue_m5592_MethodInfo = 
+extern const MethodInfo Slider_get_reverseValue_m5596_MethodInfo = 
 {
 	"get_reverseValue"/* name */
-	, (methodPointerType)&Slider_get_reverseValue_m5592/* method */
+	, (methodPointerType)&Slider_get_reverseValue_m5596/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -5761,10 +5761,10 @@ extern const MethodInfo Slider_get_reverseValue_m5592_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::UpdateVisuals()
-extern const MethodInfo Slider_UpdateVisuals_m5593_MethodInfo = 
+extern const MethodInfo Slider_UpdateVisuals_m5597_MethodInfo = 
 {
 	"UpdateVisuals"/* name */
-	, (methodPointerType)&Slider_UpdateVisuals_m5593/* method */
+	, (methodPointerType)&Slider_UpdateVisuals_m5597/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -5785,21 +5785,21 @@ extern const MethodInfo Slider_UpdateVisuals_m5593_MethodInfo =
 extern const Il2CppType PointerEventData_t899_0_0_0;
 extern const Il2CppType Camera_t548_0_0_0;
 extern const Il2CppType Camera_t548_0_0_0;
-static const ParameterInfo Slider_t497_Slider_UpdateDrag_m5594_ParameterInfos[] = 
+static const ParameterInfo Slider_t497_Slider_UpdateDrag_m5598_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218273, 0, &PointerEventData_t899_0_0_0},
 	{"cam", 1, 134218274, 0, &Camera_t548_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::UpdateDrag(UnityEngine.EventSystems.PointerEventData,UnityEngine.Camera)
-extern const MethodInfo Slider_UpdateDrag_m5594_MethodInfo = 
+extern const MethodInfo Slider_UpdateDrag_m5598_MethodInfo = 
 {
 	"UpdateDrag"/* name */
-	, (methodPointerType)&Slider_UpdateDrag_m5594/* method */
+	, (methodPointerType)&Slider_UpdateDrag_m5598/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, Slider_t497_Slider_UpdateDrag_m5594_ParameterInfos/* parameters */
+	, Slider_t497_Slider_UpdateDrag_m5598_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -5814,20 +5814,20 @@ extern const MethodInfo Slider_UpdateDrag_m5594_MethodInfo =
 
 };
 extern const Il2CppType PointerEventData_t899_0_0_0;
-static const ParameterInfo Slider_t497_Slider_MayDrag_m5595_ParameterInfos[] = 
+static const ParameterInfo Slider_t497_Slider_MayDrag_m5599_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218275, 0, &PointerEventData_t899_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.Slider::MayDrag(UnityEngine.EventSystems.PointerEventData)
-extern const MethodInfo Slider_MayDrag_m5595_MethodInfo = 
+extern const MethodInfo Slider_MayDrag_m5599_MethodInfo = 
 {
 	"MayDrag"/* name */
-	, (methodPointerType)&Slider_MayDrag_m5595/* method */
+	, (methodPointerType)&Slider_MayDrag_m5599/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, Slider_t497_Slider_MayDrag_m5595_ParameterInfos/* parameters */
+	, Slider_t497_Slider_MayDrag_m5599_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -5842,20 +5842,20 @@ extern const MethodInfo Slider_MayDrag_m5595_MethodInfo =
 
 };
 extern const Il2CppType PointerEventData_t899_0_0_0;
-static const ParameterInfo Slider_t497_Slider_OnPointerDown_m5596_ParameterInfos[] = 
+static const ParameterInfo Slider_t497_Slider_OnPointerDown_m5600_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218276, 0, &PointerEventData_t899_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
-extern const MethodInfo Slider_OnPointerDown_m5596_MethodInfo = 
+extern const MethodInfo Slider_OnPointerDown_m5600_MethodInfo = 
 {
 	"OnPointerDown"/* name */
-	, (methodPointerType)&Slider_OnPointerDown_m5596/* method */
+	, (methodPointerType)&Slider_OnPointerDown_m5600/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Slider_t497_Slider_OnPointerDown_m5596_ParameterInfos/* parameters */
+	, Slider_t497_Slider_OnPointerDown_m5600_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -5870,20 +5870,20 @@ extern const MethodInfo Slider_OnPointerDown_m5596_MethodInfo =
 
 };
 extern const Il2CppType PointerEventData_t899_0_0_0;
-static const ParameterInfo Slider_t497_Slider_OnDrag_m5597_ParameterInfos[] = 
+static const ParameterInfo Slider_t497_Slider_OnDrag_m5601_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218277, 0, &PointerEventData_t899_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::OnDrag(UnityEngine.EventSystems.PointerEventData)
-extern const MethodInfo Slider_OnDrag_m5597_MethodInfo = 
+extern const MethodInfo Slider_OnDrag_m5601_MethodInfo = 
 {
 	"OnDrag"/* name */
-	, (methodPointerType)&Slider_OnDrag_m5597/* method */
+	, (methodPointerType)&Slider_OnDrag_m5601/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Slider_t497_Slider_OnDrag_m5597_ParameterInfos/* parameters */
+	, Slider_t497_Slider_OnDrag_m5601_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -5898,20 +5898,20 @@ extern const MethodInfo Slider_OnDrag_m5597_MethodInfo =
 
 };
 extern const Il2CppType AxisEventData_t895_0_0_0;
-static const ParameterInfo Slider_t497_Slider_OnMove_m5598_ParameterInfos[] = 
+static const ParameterInfo Slider_t497_Slider_OnMove_m5602_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218278, 0, &AxisEventData_t895_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::OnMove(UnityEngine.EventSystems.AxisEventData)
-extern const MethodInfo Slider_OnMove_m5598_MethodInfo = 
+extern const MethodInfo Slider_OnMove_m5602_MethodInfo = 
 {
 	"OnMove"/* name */
-	, (methodPointerType)&Slider_OnMove_m5598/* method */
+	, (methodPointerType)&Slider_OnMove_m5602/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Slider_t497_Slider_OnMove_m5598_ParameterInfos/* parameters */
+	, Slider_t497_Slider_OnMove_m5602_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -5927,10 +5927,10 @@ extern const MethodInfo Slider_OnMove_m5598_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Selectable UnityEngine.UI.Slider::FindSelectableOnLeft()
-extern const MethodInfo Slider_FindSelectableOnLeft_m5599_MethodInfo = 
+extern const MethodInfo Slider_FindSelectableOnLeft_m5603_MethodInfo = 
 {
 	"FindSelectableOnLeft"/* name */
-	, (methodPointerType)&Slider_FindSelectableOnLeft_m5599/* method */
+	, (methodPointerType)&Slider_FindSelectableOnLeft_m5603/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Selectable_t922_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -5950,10 +5950,10 @@ extern const MethodInfo Slider_FindSelectableOnLeft_m5599_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Selectable UnityEngine.UI.Slider::FindSelectableOnRight()
-extern const MethodInfo Slider_FindSelectableOnRight_m5600_MethodInfo = 
+extern const MethodInfo Slider_FindSelectableOnRight_m5604_MethodInfo = 
 {
 	"FindSelectableOnRight"/* name */
-	, (methodPointerType)&Slider_FindSelectableOnRight_m5600/* method */
+	, (methodPointerType)&Slider_FindSelectableOnRight_m5604/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Selectable_t922_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -5973,10 +5973,10 @@ extern const MethodInfo Slider_FindSelectableOnRight_m5600_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Selectable UnityEngine.UI.Slider::FindSelectableOnUp()
-extern const MethodInfo Slider_FindSelectableOnUp_m5601_MethodInfo = 
+extern const MethodInfo Slider_FindSelectableOnUp_m5605_MethodInfo = 
 {
 	"FindSelectableOnUp"/* name */
-	, (methodPointerType)&Slider_FindSelectableOnUp_m5601/* method */
+	, (methodPointerType)&Slider_FindSelectableOnUp_m5605/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Selectable_t922_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -5996,10 +5996,10 @@ extern const MethodInfo Slider_FindSelectableOnUp_m5601_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Selectable UnityEngine.UI.Slider::FindSelectableOnDown()
-extern const MethodInfo Slider_FindSelectableOnDown_m5602_MethodInfo = 
+extern const MethodInfo Slider_FindSelectableOnDown_m5606_MethodInfo = 
 {
 	"FindSelectableOnDown"/* name */
-	, (methodPointerType)&Slider_FindSelectableOnDown_m5602/* method */
+	, (methodPointerType)&Slider_FindSelectableOnDown_m5606/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Selectable_t922_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -6018,20 +6018,20 @@ extern const MethodInfo Slider_FindSelectableOnDown_m5602_MethodInfo =
 
 };
 extern const Il2CppType PointerEventData_t899_0_0_0;
-static const ParameterInfo Slider_t497_Slider_OnInitializePotentialDrag_m5603_ParameterInfos[] = 
+static const ParameterInfo Slider_t497_Slider_OnInitializePotentialDrag_m5607_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218279, 0, &PointerEventData_t899_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::OnInitializePotentialDrag(UnityEngine.EventSystems.PointerEventData)
-extern const MethodInfo Slider_OnInitializePotentialDrag_m5603_MethodInfo = 
+extern const MethodInfo Slider_OnInitializePotentialDrag_m5607_MethodInfo = 
 {
 	"OnInitializePotentialDrag"/* name */
-	, (methodPointerType)&Slider_OnInitializePotentialDrag_m5603/* method */
+	, (methodPointerType)&Slider_OnInitializePotentialDrag_m5607/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Slider_t497_Slider_OnInitializePotentialDrag_m5603_ParameterInfos/* parameters */
+	, Slider_t497_Slider_OnInitializePotentialDrag_m5607_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -6047,21 +6047,21 @@ extern const MethodInfo Slider_OnInitializePotentialDrag_m5603_MethodInfo =
 };
 extern const Il2CppType Direction_t990_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Slider_t497_Slider_SetDirection_m5604_ParameterInfos[] = 
+static const ParameterInfo Slider_t497_Slider_SetDirection_m5608_ParameterInfos[] = 
 {
 	{"direction", 0, 134218280, 0, &Direction_t990_0_0_0},
 	{"includeRectLayouts", 1, 134218281, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Slider::SetDirection(UnityEngine.UI.Slider/Direction,System.Boolean)
-extern const MethodInfo Slider_SetDirection_m5604_MethodInfo = 
+extern const MethodInfo Slider_SetDirection_m5608_MethodInfo = 
 {
 	"SetDirection"/* name */
-	, (methodPointerType)&Slider_SetDirection_m5604/* method */
+	, (methodPointerType)&Slider_SetDirection_m5608/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_SByte_t88/* invoker_method */
-	, Slider_t497_Slider_SetDirection_m5604_ParameterInfos/* parameters */
+	, Slider_t497_Slider_SetDirection_m5608_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -6077,10 +6077,10 @@ extern const MethodInfo Slider_SetDirection_m5604_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.Slider::UnityEngine.UI.ICanvasElement.IsDestroyed()
-extern const MethodInfo Slider_UnityEngine_UI_ICanvasElement_IsDestroyed_m5605_MethodInfo = 
+extern const MethodInfo Slider_UnityEngine_UI_ICanvasElement_IsDestroyed_m5609_MethodInfo = 
 {
 	"UnityEngine.UI.ICanvasElement.IsDestroyed"/* name */
-	, (methodPointerType)&Slider_UnityEngine_UI_ICanvasElement_IsDestroyed_m5605/* method */
+	, (methodPointerType)&Slider_UnityEngine_UI_ICanvasElement_IsDestroyed_m5609/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -6100,10 +6100,10 @@ extern const MethodInfo Slider_UnityEngine_UI_ICanvasElement_IsDestroyed_m5605_M
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Transform UnityEngine.UI.Slider::UnityEngine.UI.ICanvasElement.get_transform()
-extern const MethodInfo Slider_UnityEngine_UI_ICanvasElement_get_transform_m5606_MethodInfo = 
+extern const MethodInfo Slider_UnityEngine_UI_ICanvasElement_get_transform_m5610_MethodInfo = 
 {
 	"UnityEngine.UI.ICanvasElement.get_transform"/* name */
-	, (methodPointerType)&Slider_UnityEngine_UI_ICanvasElement_get_transform_m5606/* method */
+	, (methodPointerType)&Slider_UnityEngine_UI_ICanvasElement_get_transform_m5610/* method */
 	, &Slider_t497_il2cpp_TypeInfo/* declaring_type */
 	, &Transform_t406_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -6123,187 +6123,187 @@ extern const MethodInfo Slider_UnityEngine_UI_ICanvasElement_get_transform_m5606
 };
 static const MethodInfo* Slider_t497_MethodInfos[] =
 {
-	&Slider__ctor_m5565_MethodInfo,
-	&Slider_get_fillRect_m5566_MethodInfo,
-	&Slider_set_fillRect_m5567_MethodInfo,
-	&Slider_get_handleRect_m5568_MethodInfo,
-	&Slider_set_handleRect_m5569_MethodInfo,
-	&Slider_get_direction_m5570_MethodInfo,
-	&Slider_set_direction_m5571_MethodInfo,
-	&Slider_get_minValue_m5572_MethodInfo,
-	&Slider_set_minValue_m5573_MethodInfo,
-	&Slider_get_maxValue_m5574_MethodInfo,
-	&Slider_set_maxValue_m5575_MethodInfo,
-	&Slider_get_wholeNumbers_m5576_MethodInfo,
-	&Slider_set_wholeNumbers_m5577_MethodInfo,
-	&Slider_get_value_m5578_MethodInfo,
-	&Slider_set_value_m4311_MethodInfo,
-	&Slider_get_normalizedValue_m5579_MethodInfo,
-	&Slider_set_normalizedValue_m5580_MethodInfo,
-	&Slider_get_onValueChanged_m5581_MethodInfo,
-	&Slider_set_onValueChanged_m5582_MethodInfo,
-	&Slider_get_stepSize_m5583_MethodInfo,
-	&Slider_Rebuild_m5584_MethodInfo,
-	&Slider_OnEnable_m5585_MethodInfo,
-	&Slider_OnDisable_m5586_MethodInfo,
-	&Slider_UpdateCachedReferences_m5587_MethodInfo,
-	&Slider_Set_m5588_MethodInfo,
-	&Slider_Set_m5589_MethodInfo,
-	&Slider_OnRectTransformDimensionsChange_m5590_MethodInfo,
-	&Slider_get_axis_m5591_MethodInfo,
-	&Slider_get_reverseValue_m5592_MethodInfo,
-	&Slider_UpdateVisuals_m5593_MethodInfo,
-	&Slider_UpdateDrag_m5594_MethodInfo,
-	&Slider_MayDrag_m5595_MethodInfo,
-	&Slider_OnPointerDown_m5596_MethodInfo,
-	&Slider_OnDrag_m5597_MethodInfo,
-	&Slider_OnMove_m5598_MethodInfo,
-	&Slider_FindSelectableOnLeft_m5599_MethodInfo,
-	&Slider_FindSelectableOnRight_m5600_MethodInfo,
-	&Slider_FindSelectableOnUp_m5601_MethodInfo,
-	&Slider_FindSelectableOnDown_m5602_MethodInfo,
-	&Slider_OnInitializePotentialDrag_m5603_MethodInfo,
-	&Slider_SetDirection_m5604_MethodInfo,
-	&Slider_UnityEngine_UI_ICanvasElement_IsDestroyed_m5605_MethodInfo,
-	&Slider_UnityEngine_UI_ICanvasElement_get_transform_m5606_MethodInfo,
+	&Slider__ctor_m5569_MethodInfo,
+	&Slider_get_fillRect_m5570_MethodInfo,
+	&Slider_set_fillRect_m5571_MethodInfo,
+	&Slider_get_handleRect_m5572_MethodInfo,
+	&Slider_set_handleRect_m5573_MethodInfo,
+	&Slider_get_direction_m5574_MethodInfo,
+	&Slider_set_direction_m5575_MethodInfo,
+	&Slider_get_minValue_m5576_MethodInfo,
+	&Slider_set_minValue_m5577_MethodInfo,
+	&Slider_get_maxValue_m5578_MethodInfo,
+	&Slider_set_maxValue_m5579_MethodInfo,
+	&Slider_get_wholeNumbers_m5580_MethodInfo,
+	&Slider_set_wholeNumbers_m5581_MethodInfo,
+	&Slider_get_value_m5582_MethodInfo,
+	&Slider_set_value_m4314_MethodInfo,
+	&Slider_get_normalizedValue_m5583_MethodInfo,
+	&Slider_set_normalizedValue_m5584_MethodInfo,
+	&Slider_get_onValueChanged_m5585_MethodInfo,
+	&Slider_set_onValueChanged_m5586_MethodInfo,
+	&Slider_get_stepSize_m5587_MethodInfo,
+	&Slider_Rebuild_m5588_MethodInfo,
+	&Slider_OnEnable_m5589_MethodInfo,
+	&Slider_OnDisable_m5590_MethodInfo,
+	&Slider_UpdateCachedReferences_m5591_MethodInfo,
+	&Slider_Set_m5592_MethodInfo,
+	&Slider_Set_m5593_MethodInfo,
+	&Slider_OnRectTransformDimensionsChange_m5594_MethodInfo,
+	&Slider_get_axis_m5595_MethodInfo,
+	&Slider_get_reverseValue_m5596_MethodInfo,
+	&Slider_UpdateVisuals_m5597_MethodInfo,
+	&Slider_UpdateDrag_m5598_MethodInfo,
+	&Slider_MayDrag_m5599_MethodInfo,
+	&Slider_OnPointerDown_m5600_MethodInfo,
+	&Slider_OnDrag_m5601_MethodInfo,
+	&Slider_OnMove_m5602_MethodInfo,
+	&Slider_FindSelectableOnLeft_m5603_MethodInfo,
+	&Slider_FindSelectableOnRight_m5604_MethodInfo,
+	&Slider_FindSelectableOnUp_m5605_MethodInfo,
+	&Slider_FindSelectableOnDown_m5606_MethodInfo,
+	&Slider_OnInitializePotentialDrag_m5607_MethodInfo,
+	&Slider_SetDirection_m5608_MethodInfo,
+	&Slider_UnityEngine_UI_ICanvasElement_IsDestroyed_m5609_MethodInfo,
+	&Slider_UnityEngine_UI_ICanvasElement_get_transform_m5610_MethodInfo,
 	NULL
 };
-extern const MethodInfo Slider_get_fillRect_m5566_MethodInfo;
-extern const MethodInfo Slider_set_fillRect_m5567_MethodInfo;
+extern const MethodInfo Slider_get_fillRect_m5570_MethodInfo;
+extern const MethodInfo Slider_set_fillRect_m5571_MethodInfo;
 static const PropertyInfo Slider_t497____fillRect_PropertyInfo = 
 {
 	&Slider_t497_il2cpp_TypeInfo/* parent */
 	, "fillRect"/* name */
-	, &Slider_get_fillRect_m5566_MethodInfo/* get */
-	, &Slider_set_fillRect_m5567_MethodInfo/* set */
+	, &Slider_get_fillRect_m5570_MethodInfo/* get */
+	, &Slider_set_fillRect_m5571_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Slider_get_handleRect_m5568_MethodInfo;
-extern const MethodInfo Slider_set_handleRect_m5569_MethodInfo;
+extern const MethodInfo Slider_get_handleRect_m5572_MethodInfo;
+extern const MethodInfo Slider_set_handleRect_m5573_MethodInfo;
 static const PropertyInfo Slider_t497____handleRect_PropertyInfo = 
 {
 	&Slider_t497_il2cpp_TypeInfo/* parent */
 	, "handleRect"/* name */
-	, &Slider_get_handleRect_m5568_MethodInfo/* get */
-	, &Slider_set_handleRect_m5569_MethodInfo/* set */
+	, &Slider_get_handleRect_m5572_MethodInfo/* get */
+	, &Slider_set_handleRect_m5573_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Slider_get_direction_m5570_MethodInfo;
-extern const MethodInfo Slider_set_direction_m5571_MethodInfo;
+extern const MethodInfo Slider_get_direction_m5574_MethodInfo;
+extern const MethodInfo Slider_set_direction_m5575_MethodInfo;
 static const PropertyInfo Slider_t497____direction_PropertyInfo = 
 {
 	&Slider_t497_il2cpp_TypeInfo/* parent */
 	, "direction"/* name */
-	, &Slider_get_direction_m5570_MethodInfo/* get */
-	, &Slider_set_direction_m5571_MethodInfo/* set */
+	, &Slider_get_direction_m5574_MethodInfo/* get */
+	, &Slider_set_direction_m5575_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Slider_get_minValue_m5572_MethodInfo;
-extern const MethodInfo Slider_set_minValue_m5573_MethodInfo;
+extern const MethodInfo Slider_get_minValue_m5576_MethodInfo;
+extern const MethodInfo Slider_set_minValue_m5577_MethodInfo;
 static const PropertyInfo Slider_t497____minValue_PropertyInfo = 
 {
 	&Slider_t497_il2cpp_TypeInfo/* parent */
 	, "minValue"/* name */
-	, &Slider_get_minValue_m5572_MethodInfo/* get */
-	, &Slider_set_minValue_m5573_MethodInfo/* set */
+	, &Slider_get_minValue_m5576_MethodInfo/* get */
+	, &Slider_set_minValue_m5577_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Slider_get_maxValue_m5574_MethodInfo;
-extern const MethodInfo Slider_set_maxValue_m5575_MethodInfo;
+extern const MethodInfo Slider_get_maxValue_m5578_MethodInfo;
+extern const MethodInfo Slider_set_maxValue_m5579_MethodInfo;
 static const PropertyInfo Slider_t497____maxValue_PropertyInfo = 
 {
 	&Slider_t497_il2cpp_TypeInfo/* parent */
 	, "maxValue"/* name */
-	, &Slider_get_maxValue_m5574_MethodInfo/* get */
-	, &Slider_set_maxValue_m5575_MethodInfo/* set */
+	, &Slider_get_maxValue_m5578_MethodInfo/* get */
+	, &Slider_set_maxValue_m5579_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Slider_get_wholeNumbers_m5576_MethodInfo;
-extern const MethodInfo Slider_set_wholeNumbers_m5577_MethodInfo;
+extern const MethodInfo Slider_get_wholeNumbers_m5580_MethodInfo;
+extern const MethodInfo Slider_set_wholeNumbers_m5581_MethodInfo;
 static const PropertyInfo Slider_t497____wholeNumbers_PropertyInfo = 
 {
 	&Slider_t497_il2cpp_TypeInfo/* parent */
 	, "wholeNumbers"/* name */
-	, &Slider_get_wholeNumbers_m5576_MethodInfo/* get */
-	, &Slider_set_wholeNumbers_m5577_MethodInfo/* set */
+	, &Slider_get_wholeNumbers_m5580_MethodInfo/* get */
+	, &Slider_set_wholeNumbers_m5581_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Slider_get_value_m5578_MethodInfo;
-extern const MethodInfo Slider_set_value_m4311_MethodInfo;
+extern const MethodInfo Slider_get_value_m5582_MethodInfo;
+extern const MethodInfo Slider_set_value_m4314_MethodInfo;
 static const PropertyInfo Slider_t497____value_PropertyInfo = 
 {
 	&Slider_t497_il2cpp_TypeInfo/* parent */
 	, "value"/* name */
-	, &Slider_get_value_m5578_MethodInfo/* get */
-	, &Slider_set_value_m4311_MethodInfo/* set */
+	, &Slider_get_value_m5582_MethodInfo/* get */
+	, &Slider_set_value_m4314_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Slider_get_normalizedValue_m5579_MethodInfo;
-extern const MethodInfo Slider_set_normalizedValue_m5580_MethodInfo;
+extern const MethodInfo Slider_get_normalizedValue_m5583_MethodInfo;
+extern const MethodInfo Slider_set_normalizedValue_m5584_MethodInfo;
 static const PropertyInfo Slider_t497____normalizedValue_PropertyInfo = 
 {
 	&Slider_t497_il2cpp_TypeInfo/* parent */
 	, "normalizedValue"/* name */
-	, &Slider_get_normalizedValue_m5579_MethodInfo/* get */
-	, &Slider_set_normalizedValue_m5580_MethodInfo/* set */
+	, &Slider_get_normalizedValue_m5583_MethodInfo/* get */
+	, &Slider_set_normalizedValue_m5584_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Slider_get_onValueChanged_m5581_MethodInfo;
-extern const MethodInfo Slider_set_onValueChanged_m5582_MethodInfo;
+extern const MethodInfo Slider_get_onValueChanged_m5585_MethodInfo;
+extern const MethodInfo Slider_set_onValueChanged_m5586_MethodInfo;
 static const PropertyInfo Slider_t497____onValueChanged_PropertyInfo = 
 {
 	&Slider_t497_il2cpp_TypeInfo/* parent */
 	, "onValueChanged"/* name */
-	, &Slider_get_onValueChanged_m5581_MethodInfo/* get */
-	, &Slider_set_onValueChanged_m5582_MethodInfo/* set */
+	, &Slider_get_onValueChanged_m5585_MethodInfo/* get */
+	, &Slider_set_onValueChanged_m5586_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Slider_get_stepSize_m5583_MethodInfo;
+extern const MethodInfo Slider_get_stepSize_m5587_MethodInfo;
 static const PropertyInfo Slider_t497____stepSize_PropertyInfo = 
 {
 	&Slider_t497_il2cpp_TypeInfo/* parent */
 	, "stepSize"/* name */
-	, &Slider_get_stepSize_m5583_MethodInfo/* get */
+	, &Slider_get_stepSize_m5587_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Slider_get_axis_m5591_MethodInfo;
+extern const MethodInfo Slider_get_axis_m5595_MethodInfo;
 static const PropertyInfo Slider_t497____axis_PropertyInfo = 
 {
 	&Slider_t497_il2cpp_TypeInfo/* parent */
 	, "axis"/* name */
-	, &Slider_get_axis_m5591_MethodInfo/* get */
+	, &Slider_get_axis_m5595_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Slider_get_reverseValue_m5592_MethodInfo;
+extern const MethodInfo Slider_get_reverseValue_m5596_MethodInfo;
 static const PropertyInfo Slider_t497____reverseValue_PropertyInfo = 
 {
 	&Slider_t497_il2cpp_TypeInfo/* parent */
 	, "reverseValue"/* name */
-	, &Slider_get_reverseValue_m5592_MethodInfo/* get */
+	, &Slider_get_reverseValue_m5596_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -6331,70 +6331,70 @@ static const Il2CppType* Slider_t497_il2cpp_TypeInfo__nestedTypes[3] =
 	&SliderEvent_t991_0_0_0,
 	&Axis_t992_0_0_0,
 };
-extern const MethodInfo Slider_OnEnable_m5585_MethodInfo;
-extern const MethodInfo Slider_OnDisable_m5586_MethodInfo;
-extern const MethodInfo Slider_OnRectTransformDimensionsChange_m5590_MethodInfo;
-extern const MethodInfo Slider_OnPointerDown_m5596_MethodInfo;
-extern const MethodInfo Slider_OnMove_m5598_MethodInfo;
-extern const MethodInfo Slider_FindSelectableOnLeft_m5599_MethodInfo;
-extern const MethodInfo Slider_FindSelectableOnRight_m5600_MethodInfo;
-extern const MethodInfo Slider_FindSelectableOnUp_m5601_MethodInfo;
-extern const MethodInfo Slider_FindSelectableOnDown_m5602_MethodInfo;
-extern const MethodInfo Slider_OnInitializePotentialDrag_m5603_MethodInfo;
-extern const MethodInfo Slider_OnDrag_m5597_MethodInfo;
-extern const MethodInfo Slider_Rebuild_m5584_MethodInfo;
-extern const MethodInfo Slider_UnityEngine_UI_ICanvasElement_get_transform_m5606_MethodInfo;
-extern const MethodInfo Slider_UnityEngine_UI_ICanvasElement_IsDestroyed_m5605_MethodInfo;
+extern const MethodInfo Slider_OnEnable_m5589_MethodInfo;
+extern const MethodInfo Slider_OnDisable_m5590_MethodInfo;
+extern const MethodInfo Slider_OnRectTransformDimensionsChange_m5594_MethodInfo;
+extern const MethodInfo Slider_OnPointerDown_m5600_MethodInfo;
+extern const MethodInfo Slider_OnMove_m5602_MethodInfo;
+extern const MethodInfo Slider_FindSelectableOnLeft_m5603_MethodInfo;
+extern const MethodInfo Slider_FindSelectableOnRight_m5604_MethodInfo;
+extern const MethodInfo Slider_FindSelectableOnUp_m5605_MethodInfo;
+extern const MethodInfo Slider_FindSelectableOnDown_m5606_MethodInfo;
+extern const MethodInfo Slider_OnInitializePotentialDrag_m5607_MethodInfo;
+extern const MethodInfo Slider_OnDrag_m5601_MethodInfo;
+extern const MethodInfo Slider_Rebuild_m5588_MethodInfo;
+extern const MethodInfo Slider_UnityEngine_UI_ICanvasElement_get_transform_m5610_MethodInfo;
+extern const MethodInfo Slider_UnityEngine_UI_ICanvasElement_IsDestroyed_m5609_MethodInfo;
 static const Il2CppMethodReference Slider_t497_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
-	&Selectable_Awake_m5529_MethodInfo,
-	&Slider_OnEnable_m5585_MethodInfo,
-	&UIBehaviour_Start_m4841_MethodInfo,
-	&Slider_OnDisable_m5586_MethodInfo,
-	&UIBehaviour_OnDestroy_m4843_MethodInfo,
-	&UIBehaviour_IsActive_m4844_MethodInfo,
-	&Slider_OnRectTransformDimensionsChange_m5590_MethodInfo,
-	&UIBehaviour_OnBeforeTransformParentChanged_m4846_MethodInfo,
-	&UIBehaviour_OnTransformParentChanged_m4847_MethodInfo,
-	&Selectable_OnDidApplyAnimationProperties_m5532_MethodInfo,
-	&Selectable_OnCanvasGroupChanged_m5530_MethodInfo,
-	&UIBehaviour_OnCanvasHierarchyChanged_m4850_MethodInfo,
-	&Selectable_OnPointerEnter_m5558_MethodInfo,
-	&Selectable_OnPointerExit_m5559_MethodInfo,
-	&Slider_OnPointerDown_m5596_MethodInfo,
-	&Selectable_OnPointerUp_m5557_MethodInfo,
-	&Selectable_OnSelect_m5560_MethodInfo,
-	&Selectable_OnDeselect_m5561_MethodInfo,
-	&Slider_OnMove_m5598_MethodInfo,
-	&Selectable_IsInteractable_m5531_MethodInfo,
-	&Selectable_InstantClearState_m5537_MethodInfo,
-	&Selectable_DoStateTransition_m5538_MethodInfo,
-	&Slider_FindSelectableOnLeft_m5599_MethodInfo,
-	&Slider_FindSelectableOnRight_m5600_MethodInfo,
-	&Slider_FindSelectableOnUp_m5601_MethodInfo,
-	&Slider_FindSelectableOnDown_m5602_MethodInfo,
-	&Slider_OnMove_m5598_MethodInfo,
-	&Slider_OnPointerDown_m5596_MethodInfo,
-	&Selectable_OnPointerUp_m5557_MethodInfo,
-	&Selectable_OnPointerEnter_m5558_MethodInfo,
-	&Selectable_OnPointerExit_m5559_MethodInfo,
-	&Selectable_OnSelect_m5560_MethodInfo,
-	&Selectable_OnDeselect_m5561_MethodInfo,
-	&Selectable_Select_m5562_MethodInfo,
-	&Slider_OnInitializePotentialDrag_m5603_MethodInfo,
-	&Slider_OnDrag_m5597_MethodInfo,
-	&Slider_Rebuild_m5584_MethodInfo,
-	&Slider_UnityEngine_UI_ICanvasElement_get_transform_m5606_MethodInfo,
-	&Slider_UnityEngine_UI_ICanvasElement_IsDestroyed_m5605_MethodInfo,
-	&Slider_Rebuild_m5584_MethodInfo,
-	&Slider_OnDrag_m5597_MethodInfo,
-	&Slider_OnInitializePotentialDrag_m5603_MethodInfo,
-	&Slider_UnityEngine_UI_ICanvasElement_IsDestroyed_m5605_MethodInfo,
-	&Slider_UnityEngine_UI_ICanvasElement_get_transform_m5606_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
+	&Selectable_Awake_m5533_MethodInfo,
+	&Slider_OnEnable_m5589_MethodInfo,
+	&UIBehaviour_Start_m4845_MethodInfo,
+	&Slider_OnDisable_m5590_MethodInfo,
+	&UIBehaviour_OnDestroy_m4847_MethodInfo,
+	&UIBehaviour_IsActive_m4848_MethodInfo,
+	&Slider_OnRectTransformDimensionsChange_m5594_MethodInfo,
+	&UIBehaviour_OnBeforeTransformParentChanged_m4850_MethodInfo,
+	&UIBehaviour_OnTransformParentChanged_m4851_MethodInfo,
+	&Selectable_OnDidApplyAnimationProperties_m5536_MethodInfo,
+	&Selectable_OnCanvasGroupChanged_m5534_MethodInfo,
+	&UIBehaviour_OnCanvasHierarchyChanged_m4854_MethodInfo,
+	&Selectable_OnPointerEnter_m5562_MethodInfo,
+	&Selectable_OnPointerExit_m5563_MethodInfo,
+	&Slider_OnPointerDown_m5600_MethodInfo,
+	&Selectable_OnPointerUp_m5561_MethodInfo,
+	&Selectable_OnSelect_m5564_MethodInfo,
+	&Selectable_OnDeselect_m5565_MethodInfo,
+	&Slider_OnMove_m5602_MethodInfo,
+	&Selectable_IsInteractable_m5535_MethodInfo,
+	&Selectable_InstantClearState_m5541_MethodInfo,
+	&Selectable_DoStateTransition_m5542_MethodInfo,
+	&Slider_FindSelectableOnLeft_m5603_MethodInfo,
+	&Slider_FindSelectableOnRight_m5604_MethodInfo,
+	&Slider_FindSelectableOnUp_m5605_MethodInfo,
+	&Slider_FindSelectableOnDown_m5606_MethodInfo,
+	&Slider_OnMove_m5602_MethodInfo,
+	&Slider_OnPointerDown_m5600_MethodInfo,
+	&Selectable_OnPointerUp_m5561_MethodInfo,
+	&Selectable_OnPointerEnter_m5562_MethodInfo,
+	&Selectable_OnPointerExit_m5563_MethodInfo,
+	&Selectable_OnSelect_m5564_MethodInfo,
+	&Selectable_OnDeselect_m5565_MethodInfo,
+	&Selectable_Select_m5566_MethodInfo,
+	&Slider_OnInitializePotentialDrag_m5607_MethodInfo,
+	&Slider_OnDrag_m5601_MethodInfo,
+	&Slider_Rebuild_m5588_MethodInfo,
+	&Slider_UnityEngine_UI_ICanvasElement_get_transform_m5610_MethodInfo,
+	&Slider_UnityEngine_UI_ICanvasElement_IsDestroyed_m5609_MethodInfo,
+	&Slider_Rebuild_m5588_MethodInfo,
+	&Slider_OnDrag_m5601_MethodInfo,
+	&Slider_OnInitializePotentialDrag_m5607_MethodInfo,
+	&Slider_UnityEngine_UI_ICanvasElement_IsDestroyed_m5609_MethodInfo,
+	&Slider_UnityEngine_UI_ICanvasElement_get_transform_m5610_MethodInfo,
 };
 static bool Slider_t497_VTableIsGenericMethod[] =
 {
@@ -6546,10 +6546,10 @@ extern TypeInfo SpriteState_t988_il2cpp_TypeInfo;
 #include "UnityEngine_UI_UnityEngine_UI_SpriteStateMethodDeclarations.h"
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Sprite UnityEngine.UI.SpriteState::get_highlightedSprite()
-extern const MethodInfo SpriteState_get_highlightedSprite_m5607_MethodInfo = 
+extern const MethodInfo SpriteState_get_highlightedSprite_m5611_MethodInfo = 
 {
 	"get_highlightedSprite"/* name */
-	, (methodPointerType)&SpriteState_get_highlightedSprite_m5607/* method */
+	, (methodPointerType)&SpriteState_get_highlightedSprite_m5611/* method */
 	, &SpriteState_t988_il2cpp_TypeInfo/* declaring_type */
 	, &Sprite_t512_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -6568,20 +6568,20 @@ extern const MethodInfo SpriteState_get_highlightedSprite_m5607_MethodInfo =
 
 };
 extern const Il2CppType Sprite_t512_0_0_0;
-static const ParameterInfo SpriteState_t988_SpriteState_set_highlightedSprite_m5608_ParameterInfos[] = 
+static const ParameterInfo SpriteState_t988_SpriteState_set_highlightedSprite_m5612_ParameterInfos[] = 
 {
 	{"value", 0, 134218282, 0, &Sprite_t512_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.SpriteState::set_highlightedSprite(UnityEngine.Sprite)
-extern const MethodInfo SpriteState_set_highlightedSprite_m5608_MethodInfo = 
+extern const MethodInfo SpriteState_set_highlightedSprite_m5612_MethodInfo = 
 {
 	"set_highlightedSprite"/* name */
-	, (methodPointerType)&SpriteState_set_highlightedSprite_m5608/* method */
+	, (methodPointerType)&SpriteState_set_highlightedSprite_m5612/* method */
 	, &SpriteState_t988_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, SpriteState_t988_SpriteState_set_highlightedSprite_m5608_ParameterInfos/* parameters */
+	, SpriteState_t988_SpriteState_set_highlightedSprite_m5612_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -6597,10 +6597,10 @@ extern const MethodInfo SpriteState_set_highlightedSprite_m5608_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Sprite UnityEngine.UI.SpriteState::get_pressedSprite()
-extern const MethodInfo SpriteState_get_pressedSprite_m5609_MethodInfo = 
+extern const MethodInfo SpriteState_get_pressedSprite_m5613_MethodInfo = 
 {
 	"get_pressedSprite"/* name */
-	, (methodPointerType)&SpriteState_get_pressedSprite_m5609/* method */
+	, (methodPointerType)&SpriteState_get_pressedSprite_m5613/* method */
 	, &SpriteState_t988_il2cpp_TypeInfo/* declaring_type */
 	, &Sprite_t512_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -6619,20 +6619,20 @@ extern const MethodInfo SpriteState_get_pressedSprite_m5609_MethodInfo =
 
 };
 extern const Il2CppType Sprite_t512_0_0_0;
-static const ParameterInfo SpriteState_t988_SpriteState_set_pressedSprite_m5610_ParameterInfos[] = 
+static const ParameterInfo SpriteState_t988_SpriteState_set_pressedSprite_m5614_ParameterInfos[] = 
 {
 	{"value", 0, 134218283, 0, &Sprite_t512_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.SpriteState::set_pressedSprite(UnityEngine.Sprite)
-extern const MethodInfo SpriteState_set_pressedSprite_m5610_MethodInfo = 
+extern const MethodInfo SpriteState_set_pressedSprite_m5614_MethodInfo = 
 {
 	"set_pressedSprite"/* name */
-	, (methodPointerType)&SpriteState_set_pressedSprite_m5610/* method */
+	, (methodPointerType)&SpriteState_set_pressedSprite_m5614/* method */
 	, &SpriteState_t988_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, SpriteState_t988_SpriteState_set_pressedSprite_m5610_ParameterInfos/* parameters */
+	, SpriteState_t988_SpriteState_set_pressedSprite_m5614_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -6648,10 +6648,10 @@ extern const MethodInfo SpriteState_set_pressedSprite_m5610_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Sprite UnityEngine.UI.SpriteState::get_disabledSprite()
-extern const MethodInfo SpriteState_get_disabledSprite_m5611_MethodInfo = 
+extern const MethodInfo SpriteState_get_disabledSprite_m5615_MethodInfo = 
 {
 	"get_disabledSprite"/* name */
-	, (methodPointerType)&SpriteState_get_disabledSprite_m5611/* method */
+	, (methodPointerType)&SpriteState_get_disabledSprite_m5615/* method */
 	, &SpriteState_t988_il2cpp_TypeInfo/* declaring_type */
 	, &Sprite_t512_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -6670,20 +6670,20 @@ extern const MethodInfo SpriteState_get_disabledSprite_m5611_MethodInfo =
 
 };
 extern const Il2CppType Sprite_t512_0_0_0;
-static const ParameterInfo SpriteState_t988_SpriteState_set_disabledSprite_m5612_ParameterInfos[] = 
+static const ParameterInfo SpriteState_t988_SpriteState_set_disabledSprite_m5616_ParameterInfos[] = 
 {
 	{"value", 0, 134218284, 0, &Sprite_t512_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.SpriteState::set_disabledSprite(UnityEngine.Sprite)
-extern const MethodInfo SpriteState_set_disabledSprite_m5612_MethodInfo = 
+extern const MethodInfo SpriteState_set_disabledSprite_m5616_MethodInfo = 
 {
 	"set_disabledSprite"/* name */
-	, (methodPointerType)&SpriteState_set_disabledSprite_m5612/* method */
+	, (methodPointerType)&SpriteState_set_disabledSprite_m5616/* method */
 	, &SpriteState_t988_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, SpriteState_t988_SpriteState_set_disabledSprite_m5612_ParameterInfos/* parameters */
+	, SpriteState_t988_SpriteState_set_disabledSprite_m5616_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -6699,46 +6699,46 @@ extern const MethodInfo SpriteState_set_disabledSprite_m5612_MethodInfo =
 };
 static const MethodInfo* SpriteState_t988_MethodInfos[] =
 {
-	&SpriteState_get_highlightedSprite_m5607_MethodInfo,
-	&SpriteState_set_highlightedSprite_m5608_MethodInfo,
-	&SpriteState_get_pressedSprite_m5609_MethodInfo,
-	&SpriteState_set_pressedSprite_m5610_MethodInfo,
-	&SpriteState_get_disabledSprite_m5611_MethodInfo,
-	&SpriteState_set_disabledSprite_m5612_MethodInfo,
+	&SpriteState_get_highlightedSprite_m5611_MethodInfo,
+	&SpriteState_set_highlightedSprite_m5612_MethodInfo,
+	&SpriteState_get_pressedSprite_m5613_MethodInfo,
+	&SpriteState_set_pressedSprite_m5614_MethodInfo,
+	&SpriteState_get_disabledSprite_m5615_MethodInfo,
+	&SpriteState_set_disabledSprite_m5616_MethodInfo,
 	NULL
 };
-extern const MethodInfo SpriteState_get_highlightedSprite_m5607_MethodInfo;
-extern const MethodInfo SpriteState_set_highlightedSprite_m5608_MethodInfo;
+extern const MethodInfo SpriteState_get_highlightedSprite_m5611_MethodInfo;
+extern const MethodInfo SpriteState_set_highlightedSprite_m5612_MethodInfo;
 static const PropertyInfo SpriteState_t988____highlightedSprite_PropertyInfo = 
 {
 	&SpriteState_t988_il2cpp_TypeInfo/* parent */
 	, "highlightedSprite"/* name */
-	, &SpriteState_get_highlightedSprite_m5607_MethodInfo/* get */
-	, &SpriteState_set_highlightedSprite_m5608_MethodInfo/* set */
+	, &SpriteState_get_highlightedSprite_m5611_MethodInfo/* get */
+	, &SpriteState_set_highlightedSprite_m5612_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SpriteState_get_pressedSprite_m5609_MethodInfo;
-extern const MethodInfo SpriteState_set_pressedSprite_m5610_MethodInfo;
+extern const MethodInfo SpriteState_get_pressedSprite_m5613_MethodInfo;
+extern const MethodInfo SpriteState_set_pressedSprite_m5614_MethodInfo;
 static const PropertyInfo SpriteState_t988____pressedSprite_PropertyInfo = 
 {
 	&SpriteState_t988_il2cpp_TypeInfo/* parent */
 	, "pressedSprite"/* name */
-	, &SpriteState_get_pressedSprite_m5609_MethodInfo/* get */
-	, &SpriteState_set_pressedSprite_m5610_MethodInfo/* set */
+	, &SpriteState_get_pressedSprite_m5613_MethodInfo/* get */
+	, &SpriteState_set_pressedSprite_m5614_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo SpriteState_get_disabledSprite_m5611_MethodInfo;
-extern const MethodInfo SpriteState_set_disabledSprite_m5612_MethodInfo;
+extern const MethodInfo SpriteState_get_disabledSprite_m5615_MethodInfo;
+extern const MethodInfo SpriteState_set_disabledSprite_m5616_MethodInfo;
 static const PropertyInfo SpriteState_t988____disabledSprite_PropertyInfo = 
 {
 	&SpriteState_t988_il2cpp_TypeInfo/* parent */
 	, "disabledSprite"/* name */
-	, &SpriteState_get_disabledSprite_m5611_MethodInfo/* get */
-	, &SpriteState_set_disabledSprite_m5612_MethodInfo/* set */
+	, &SpriteState_get_disabledSprite_m5615_MethodInfo/* get */
+	, &SpriteState_set_disabledSprite_m5616_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -6750,15 +6750,15 @@ static const PropertyInfo* SpriteState_t988_PropertyInfos[] =
 	&SpriteState_t988____disabledSprite_PropertyInfo,
 	NULL
 };
-extern const MethodInfo ValueType_Equals_m4724_MethodInfo;
-extern const MethodInfo ValueType_GetHashCode_m4725_MethodInfo;
-extern const MethodInfo ValueType_ToString_m4726_MethodInfo;
+extern const MethodInfo ValueType_Equals_m4728_MethodInfo;
+extern const MethodInfo ValueType_GetHashCode_m4729_MethodInfo;
+extern const MethodInfo ValueType_ToString_m4730_MethodInfo;
 static const Il2CppMethodReference SpriteState_t988_VTable[] =
 {
-	&ValueType_Equals_m4724_MethodInfo,
+	&ValueType_Equals_m4728_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&ValueType_GetHashCode_m4725_MethodInfo,
-	&ValueType_ToString_m4726_MethodInfo,
+	&ValueType_GetHashCode_m4729_MethodInfo,
+	&ValueType_ToString_m4730_MethodInfo,
 };
 static bool SpriteState_t988_VTableIsGenericMethod[] =
 {
@@ -6844,10 +6844,10 @@ extern TypeInfo MatEntry_t993_il2cpp_TypeInfo;
 #include "UnityEngine_UI_UnityEngine_UI_StencilMaterial_MatEntryMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.StencilMaterial/MatEntry::.ctor()
-extern const MethodInfo MatEntry__ctor_m5613_MethodInfo = 
+extern const MethodInfo MatEntry__ctor_m5617_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&MatEntry__ctor_m5613/* method */
+	, (methodPointerType)&MatEntry__ctor_m5617/* method */
 	, &MatEntry_t993_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -6867,12 +6867,12 @@ extern const MethodInfo MatEntry__ctor_m5613_MethodInfo =
 };
 static const MethodInfo* MatEntry_t993_MethodInfos[] =
 {
-	&MatEntry__ctor_m5613_MethodInfo,
+	&MatEntry__ctor_m5617_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference MatEntry_t993_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -6964,10 +6964,10 @@ TypeInfo MatEntry_t993_il2cpp_TypeInfo =
 #include "UnityEngine_UI_UnityEngine_UI_StencilMaterialMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.StencilMaterial::.cctor()
-extern const MethodInfo StencilMaterial__cctor_m5614_MethodInfo = 
+extern const MethodInfo StencilMaterial__cctor_m5618_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&StencilMaterial__cctor_m5614/* method */
+	, (methodPointerType)&StencilMaterial__cctor_m5618/* method */
 	, &StencilMaterial_t995_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -6988,21 +6988,21 @@ extern const MethodInfo StencilMaterial__cctor_m5614_MethodInfo =
 extern const Il2CppType Material_t526_0_0_0;
 extern const Il2CppType Material_t526_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo StencilMaterial_t995_StencilMaterial_Add_m5615_ParameterInfos[] = 
+static const ParameterInfo StencilMaterial_t995_StencilMaterial_Add_m5619_ParameterInfos[] = 
 {
 	{"baseMat", 0, 134218285, 0, &Material_t526_0_0_0},
 	{"stencilID", 1, 134218286, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Material UnityEngine.UI.StencilMaterial::Add(UnityEngine.Material,System.Int32)
-extern const MethodInfo StencilMaterial_Add_m5615_MethodInfo = 
+extern const MethodInfo StencilMaterial_Add_m5619_MethodInfo = 
 {
 	"Add"/* name */
-	, (methodPointerType)&StencilMaterial_Add_m5615/* method */
+	, (methodPointerType)&StencilMaterial_Add_m5619/* method */
 	, &StencilMaterial_t995_il2cpp_TypeInfo/* declaring_type */
 	, &Material_t526_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Int32_t82/* invoker_method */
-	, StencilMaterial_t995_StencilMaterial_Add_m5615_ParameterInfos/* parameters */
+	, StencilMaterial_t995_StencilMaterial_Add_m5619_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -7017,20 +7017,20 @@ extern const MethodInfo StencilMaterial_Add_m5615_MethodInfo =
 
 };
 extern const Il2CppType Material_t526_0_0_0;
-static const ParameterInfo StencilMaterial_t995_StencilMaterial_Remove_m5616_ParameterInfos[] = 
+static const ParameterInfo StencilMaterial_t995_StencilMaterial_Remove_m5620_ParameterInfos[] = 
 {
 	{"customMat", 0, 134218287, 0, &Material_t526_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.StencilMaterial::Remove(UnityEngine.Material)
-extern const MethodInfo StencilMaterial_Remove_m5616_MethodInfo = 
+extern const MethodInfo StencilMaterial_Remove_m5620_MethodInfo = 
 {
 	"Remove"/* name */
-	, (methodPointerType)&StencilMaterial_Remove_m5616/* method */
+	, (methodPointerType)&StencilMaterial_Remove_m5620/* method */
 	, &StencilMaterial_t995_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, StencilMaterial_t995_StencilMaterial_Remove_m5616_ParameterInfos/* parameters */
+	, StencilMaterial_t995_StencilMaterial_Remove_m5620_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -7046,9 +7046,9 @@ extern const MethodInfo StencilMaterial_Remove_m5616_MethodInfo =
 };
 static const MethodInfo* StencilMaterial_t995_MethodInfos[] =
 {
-	&StencilMaterial__cctor_m5614_MethodInfo,
-	&StencilMaterial_Add_m5615_MethodInfo,
-	&StencilMaterial_Remove_m5616_MethodInfo,
+	&StencilMaterial__cctor_m5618_MethodInfo,
+	&StencilMaterial_Add_m5619_MethodInfo,
+	&StencilMaterial_Remove_m5620_MethodInfo,
 	NULL
 };
 static const Il2CppType* StencilMaterial_t995_il2cpp_TypeInfo__nestedTypes[1] =
@@ -7057,7 +7057,7 @@ static const Il2CppType* StencilMaterial_t995_il2cpp_TypeInfo__nestedTypes[1] =
 };
 static const Il2CppMethodReference StencilMaterial_t995_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -7147,10 +7147,10 @@ extern TypeInfo Text_t502_il2cpp_TypeInfo;
 #include "UnityEngine_UI_UnityEngine_UI_TextMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::.ctor()
-extern const MethodInfo Text__ctor_m5617_MethodInfo = 
+extern const MethodInfo Text__ctor_m5621_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Text__ctor_m5617/* method */
+	, (methodPointerType)&Text__ctor_m5621/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -7170,10 +7170,10 @@ extern const MethodInfo Text__ctor_m5617_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::.cctor()
-extern const MethodInfo Text__cctor_m5618_MethodInfo = 
+extern const MethodInfo Text__cctor_m5622_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&Text__cctor_m5618/* method */
+	, (methodPointerType)&Text__cctor_m5622/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -7194,10 +7194,10 @@ extern const MethodInfo Text__cctor_m5618_MethodInfo =
 extern const Il2CppType TextGenerator_t966_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.TextGenerator UnityEngine.UI.Text::get_cachedTextGenerator()
-extern const MethodInfo Text_get_cachedTextGenerator_m5619_MethodInfo = 
+extern const MethodInfo Text_get_cachedTextGenerator_m5623_MethodInfo = 
 {
 	"get_cachedTextGenerator"/* name */
-	, (methodPointerType)&Text_get_cachedTextGenerator_m5619/* method */
+	, (methodPointerType)&Text_get_cachedTextGenerator_m5623/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &TextGenerator_t966_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -7217,10 +7217,10 @@ extern const MethodInfo Text_get_cachedTextGenerator_m5619_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.TextGenerator UnityEngine.UI.Text::get_cachedTextGeneratorForLayout()
-extern const MethodInfo Text_get_cachedTextGeneratorForLayout_m5620_MethodInfo = 
+extern const MethodInfo Text_get_cachedTextGeneratorForLayout_m5624_MethodInfo = 
 {
 	"get_cachedTextGeneratorForLayout"/* name */
-	, (methodPointerType)&Text_get_cachedTextGeneratorForLayout_m5620/* method */
+	, (methodPointerType)&Text_get_cachedTextGeneratorForLayout_m5624/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &TextGenerator_t966_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -7240,10 +7240,10 @@ extern const MethodInfo Text_get_cachedTextGeneratorForLayout_m5620_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Material UnityEngine.UI.Text::get_defaultMaterial()
-extern const MethodInfo Text_get_defaultMaterial_m5621_MethodInfo = 
+extern const MethodInfo Text_get_defaultMaterial_m5625_MethodInfo = 
 {
 	"get_defaultMaterial"/* name */
-	, (methodPointerType)&Text_get_defaultMaterial_m5621/* method */
+	, (methodPointerType)&Text_get_defaultMaterial_m5625/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Material_t526_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -7264,10 +7264,10 @@ extern const MethodInfo Text_get_defaultMaterial_m5621_MethodInfo =
 extern const Il2CppType Texture_t394_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Texture UnityEngine.UI.Text::get_mainTexture()
-extern const MethodInfo Text_get_mainTexture_m5622_MethodInfo = 
+extern const MethodInfo Text_get_mainTexture_m5626_MethodInfo = 
 {
 	"get_mainTexture"/* name */
-	, (methodPointerType)&Text_get_mainTexture_m5622/* method */
+	, (methodPointerType)&Text_get_mainTexture_m5626/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Texture_t394_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -7287,10 +7287,10 @@ extern const MethodInfo Text_get_mainTexture_m5622_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::FontTextureChanged()
-extern const MethodInfo Text_FontTextureChanged_m5623_MethodInfo = 
+extern const MethodInfo Text_FontTextureChanged_m5627_MethodInfo = 
 {
 	"FontTextureChanged"/* name */
-	, (methodPointerType)&Text_FontTextureChanged_m5623/* method */
+	, (methodPointerType)&Text_FontTextureChanged_m5627/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -7311,10 +7311,10 @@ extern const MethodInfo Text_FontTextureChanged_m5623_MethodInfo =
 extern const Il2CppType Font_t929_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Font UnityEngine.UI.Text::get_font()
-extern const MethodInfo Text_get_font_m5624_MethodInfo = 
+extern const MethodInfo Text_get_font_m5628_MethodInfo = 
 {
 	"get_font"/* name */
-	, (methodPointerType)&Text_get_font_m5624/* method */
+	, (methodPointerType)&Text_get_font_m5628/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Font_t929_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -7333,20 +7333,20 @@ extern const MethodInfo Text_get_font_m5624_MethodInfo =
 
 };
 extern const Il2CppType Font_t929_0_0_0;
-static const ParameterInfo Text_t502_Text_set_font_m5625_ParameterInfos[] = 
+static const ParameterInfo Text_t502_Text_set_font_m5629_ParameterInfos[] = 
 {
 	{"value", 0, 134218288, 0, &Font_t929_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::set_font(UnityEngine.Font)
-extern const MethodInfo Text_set_font_m5625_MethodInfo = 
+extern const MethodInfo Text_set_font_m5629_MethodInfo = 
 {
 	"set_font"/* name */
-	, (methodPointerType)&Text_set_font_m5625/* method */
+	, (methodPointerType)&Text_set_font_m5629/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Text_t502_Text_set_font_m5625_ParameterInfos/* parameters */
+	, Text_t502_Text_set_font_m5629_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -7362,10 +7362,10 @@ extern const MethodInfo Text_set_font_m5625_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.UI.Text::get_text()
-extern const MethodInfo Text_get_text_m5626_MethodInfo = 
+extern const MethodInfo Text_get_text_m5630_MethodInfo = 
 {
 	"get_text"/* name */
-	, (methodPointerType)&Text_get_text_m5626/* method */
+	, (methodPointerType)&Text_get_text_m5630/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -7384,20 +7384,20 @@ extern const MethodInfo Text_get_text_m5626_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Text_t502_Text_set_text_m5627_ParameterInfos[] = 
+static const ParameterInfo Text_t502_Text_set_text_m5631_ParameterInfos[] = 
 {
 	{"value", 0, 134218289, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::set_text(System.String)
-extern const MethodInfo Text_set_text_m5627_MethodInfo = 
+extern const MethodInfo Text_set_text_m5631_MethodInfo = 
 {
 	"set_text"/* name */
-	, (methodPointerType)&Text_set_text_m5627/* method */
+	, (methodPointerType)&Text_set_text_m5631/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Text_t502_Text_set_text_m5627_ParameterInfos/* parameters */
+	, Text_t502_Text_set_text_m5631_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -7413,10 +7413,10 @@ extern const MethodInfo Text_set_text_m5627_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.Text::get_supportRichText()
-extern const MethodInfo Text_get_supportRichText_m5628_MethodInfo = 
+extern const MethodInfo Text_get_supportRichText_m5632_MethodInfo = 
 {
 	"get_supportRichText"/* name */
-	, (methodPointerType)&Text_get_supportRichText_m5628/* method */
+	, (methodPointerType)&Text_get_supportRichText_m5632/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -7435,20 +7435,20 @@ extern const MethodInfo Text_get_supportRichText_m5628_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Text_t502_Text_set_supportRichText_m5629_ParameterInfos[] = 
+static const ParameterInfo Text_t502_Text_set_supportRichText_m5633_ParameterInfos[] = 
 {
 	{"value", 0, 134218290, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::set_supportRichText(System.Boolean)
-extern const MethodInfo Text_set_supportRichText_m5629_MethodInfo = 
+extern const MethodInfo Text_set_supportRichText_m5633_MethodInfo = 
 {
 	"set_supportRichText"/* name */
-	, (methodPointerType)&Text_set_supportRichText_m5629/* method */
+	, (methodPointerType)&Text_set_supportRichText_m5633/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, Text_t502_Text_set_supportRichText_m5629_ParameterInfos/* parameters */
+	, Text_t502_Text_set_supportRichText_m5633_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -7464,10 +7464,10 @@ extern const MethodInfo Text_set_supportRichText_m5629_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.Text::get_resizeTextForBestFit()
-extern const MethodInfo Text_get_resizeTextForBestFit_m5630_MethodInfo = 
+extern const MethodInfo Text_get_resizeTextForBestFit_m5634_MethodInfo = 
 {
 	"get_resizeTextForBestFit"/* name */
-	, (methodPointerType)&Text_get_resizeTextForBestFit_m5630/* method */
+	, (methodPointerType)&Text_get_resizeTextForBestFit_m5634/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -7486,20 +7486,20 @@ extern const MethodInfo Text_get_resizeTextForBestFit_m5630_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Text_t502_Text_set_resizeTextForBestFit_m5631_ParameterInfos[] = 
+static const ParameterInfo Text_t502_Text_set_resizeTextForBestFit_m5635_ParameterInfos[] = 
 {
 	{"value", 0, 134218291, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::set_resizeTextForBestFit(System.Boolean)
-extern const MethodInfo Text_set_resizeTextForBestFit_m5631_MethodInfo = 
+extern const MethodInfo Text_set_resizeTextForBestFit_m5635_MethodInfo = 
 {
 	"set_resizeTextForBestFit"/* name */
-	, (methodPointerType)&Text_set_resizeTextForBestFit_m5631/* method */
+	, (methodPointerType)&Text_set_resizeTextForBestFit_m5635/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, Text_t502_Text_set_resizeTextForBestFit_m5631_ParameterInfos/* parameters */
+	, Text_t502_Text_set_resizeTextForBestFit_m5635_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -7515,10 +7515,10 @@ extern const MethodInfo Text_set_resizeTextForBestFit_m5631_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 UnityEngine.UI.Text::get_resizeTextMinSize()
-extern const MethodInfo Text_get_resizeTextMinSize_m5632_MethodInfo = 
+extern const MethodInfo Text_get_resizeTextMinSize_m5636_MethodInfo = 
 {
 	"get_resizeTextMinSize"/* name */
-	, (methodPointerType)&Text_get_resizeTextMinSize_m5632/* method */
+	, (methodPointerType)&Text_get_resizeTextMinSize_m5636/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -7537,20 +7537,20 @@ extern const MethodInfo Text_get_resizeTextMinSize_m5632_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Text_t502_Text_set_resizeTextMinSize_m5633_ParameterInfos[] = 
+static const ParameterInfo Text_t502_Text_set_resizeTextMinSize_m5637_ParameterInfos[] = 
 {
 	{"value", 0, 134218292, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::set_resizeTextMinSize(System.Int32)
-extern const MethodInfo Text_set_resizeTextMinSize_m5633_MethodInfo = 
+extern const MethodInfo Text_set_resizeTextMinSize_m5637_MethodInfo = 
 {
 	"set_resizeTextMinSize"/* name */
-	, (methodPointerType)&Text_set_resizeTextMinSize_m5633/* method */
+	, (methodPointerType)&Text_set_resizeTextMinSize_m5637/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Text_t502_Text_set_resizeTextMinSize_m5633_ParameterInfos/* parameters */
+	, Text_t502_Text_set_resizeTextMinSize_m5637_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -7566,10 +7566,10 @@ extern const MethodInfo Text_set_resizeTextMinSize_m5633_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 UnityEngine.UI.Text::get_resizeTextMaxSize()
-extern const MethodInfo Text_get_resizeTextMaxSize_m5634_MethodInfo = 
+extern const MethodInfo Text_get_resizeTextMaxSize_m5638_MethodInfo = 
 {
 	"get_resizeTextMaxSize"/* name */
-	, (methodPointerType)&Text_get_resizeTextMaxSize_m5634/* method */
+	, (methodPointerType)&Text_get_resizeTextMaxSize_m5638/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -7588,20 +7588,20 @@ extern const MethodInfo Text_get_resizeTextMaxSize_m5634_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Text_t502_Text_set_resizeTextMaxSize_m5635_ParameterInfos[] = 
+static const ParameterInfo Text_t502_Text_set_resizeTextMaxSize_m5639_ParameterInfos[] = 
 {
 	{"value", 0, 134218293, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::set_resizeTextMaxSize(System.Int32)
-extern const MethodInfo Text_set_resizeTextMaxSize_m5635_MethodInfo = 
+extern const MethodInfo Text_set_resizeTextMaxSize_m5639_MethodInfo = 
 {
 	"set_resizeTextMaxSize"/* name */
-	, (methodPointerType)&Text_set_resizeTextMaxSize_m5635/* method */
+	, (methodPointerType)&Text_set_resizeTextMaxSize_m5639/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Text_t502_Text_set_resizeTextMaxSize_m5635_ParameterInfos/* parameters */
+	, Text_t502_Text_set_resizeTextMaxSize_m5639_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -7618,10 +7618,10 @@ extern const MethodInfo Text_set_resizeTextMaxSize_m5635_MethodInfo =
 extern const Il2CppType TextAnchor_t828_0_0_0;
 extern void* RuntimeInvoker_TextAnchor_t828 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.TextAnchor UnityEngine.UI.Text::get_alignment()
-extern const MethodInfo Text_get_alignment_m5636_MethodInfo = 
+extern const MethodInfo Text_get_alignment_m5640_MethodInfo = 
 {
 	"get_alignment"/* name */
-	, (methodPointerType)&Text_get_alignment_m5636/* method */
+	, (methodPointerType)&Text_get_alignment_m5640/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &TextAnchor_t828_0_0_0/* return_type */
 	, RuntimeInvoker_TextAnchor_t828/* invoker_method */
@@ -7640,20 +7640,20 @@ extern const MethodInfo Text_get_alignment_m5636_MethodInfo =
 
 };
 extern const Il2CppType TextAnchor_t828_0_0_0;
-static const ParameterInfo Text_t502_Text_set_alignment_m5637_ParameterInfos[] = 
+static const ParameterInfo Text_t502_Text_set_alignment_m5641_ParameterInfos[] = 
 {
 	{"value", 0, 134218294, 0, &TextAnchor_t828_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::set_alignment(UnityEngine.TextAnchor)
-extern const MethodInfo Text_set_alignment_m5637_MethodInfo = 
+extern const MethodInfo Text_set_alignment_m5641_MethodInfo = 
 {
 	"set_alignment"/* name */
-	, (methodPointerType)&Text_set_alignment_m5637/* method */
+	, (methodPointerType)&Text_set_alignment_m5641/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Text_t502_Text_set_alignment_m5637_ParameterInfos/* parameters */
+	, Text_t502_Text_set_alignment_m5641_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -7669,10 +7669,10 @@ extern const MethodInfo Text_set_alignment_m5637_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 UnityEngine.UI.Text::get_fontSize()
-extern const MethodInfo Text_get_fontSize_m5638_MethodInfo = 
+extern const MethodInfo Text_get_fontSize_m5642_MethodInfo = 
 {
 	"get_fontSize"/* name */
-	, (methodPointerType)&Text_get_fontSize_m5638/* method */
+	, (methodPointerType)&Text_get_fontSize_m5642/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -7691,20 +7691,20 @@ extern const MethodInfo Text_get_fontSize_m5638_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo Text_t502_Text_set_fontSize_m5639_ParameterInfos[] = 
+static const ParameterInfo Text_t502_Text_set_fontSize_m5643_ParameterInfos[] = 
 {
 	{"value", 0, 134218295, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::set_fontSize(System.Int32)
-extern const MethodInfo Text_set_fontSize_m5639_MethodInfo = 
+extern const MethodInfo Text_set_fontSize_m5643_MethodInfo = 
 {
 	"set_fontSize"/* name */
-	, (methodPointerType)&Text_set_fontSize_m5639/* method */
+	, (methodPointerType)&Text_set_fontSize_m5643/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Text_t502_Text_set_fontSize_m5639_ParameterInfos/* parameters */
+	, Text_t502_Text_set_fontSize_m5643_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -7721,10 +7721,10 @@ extern const MethodInfo Text_set_fontSize_m5639_MethodInfo =
 extern const Il2CppType HorizontalWrapMode_t1155_0_0_0;
 extern void* RuntimeInvoker_HorizontalWrapMode_t1155 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.HorizontalWrapMode UnityEngine.UI.Text::get_horizontalOverflow()
-extern const MethodInfo Text_get_horizontalOverflow_m5640_MethodInfo = 
+extern const MethodInfo Text_get_horizontalOverflow_m5644_MethodInfo = 
 {
 	"get_horizontalOverflow"/* name */
-	, (methodPointerType)&Text_get_horizontalOverflow_m5640/* method */
+	, (methodPointerType)&Text_get_horizontalOverflow_m5644/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &HorizontalWrapMode_t1155_0_0_0/* return_type */
 	, RuntimeInvoker_HorizontalWrapMode_t1155/* invoker_method */
@@ -7743,20 +7743,20 @@ extern const MethodInfo Text_get_horizontalOverflow_m5640_MethodInfo =
 
 };
 extern const Il2CppType HorizontalWrapMode_t1155_0_0_0;
-static const ParameterInfo Text_t502_Text_set_horizontalOverflow_m5641_ParameterInfos[] = 
+static const ParameterInfo Text_t502_Text_set_horizontalOverflow_m5645_ParameterInfos[] = 
 {
 	{"value", 0, 134218296, 0, &HorizontalWrapMode_t1155_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::set_horizontalOverflow(UnityEngine.HorizontalWrapMode)
-extern const MethodInfo Text_set_horizontalOverflow_m5641_MethodInfo = 
+extern const MethodInfo Text_set_horizontalOverflow_m5645_MethodInfo = 
 {
 	"set_horizontalOverflow"/* name */
-	, (methodPointerType)&Text_set_horizontalOverflow_m5641/* method */
+	, (methodPointerType)&Text_set_horizontalOverflow_m5645/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Text_t502_Text_set_horizontalOverflow_m5641_ParameterInfos/* parameters */
+	, Text_t502_Text_set_horizontalOverflow_m5645_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -7773,10 +7773,10 @@ extern const MethodInfo Text_set_horizontalOverflow_m5641_MethodInfo =
 extern const Il2CppType VerticalWrapMode_t1156_0_0_0;
 extern void* RuntimeInvoker_VerticalWrapMode_t1156 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.VerticalWrapMode UnityEngine.UI.Text::get_verticalOverflow()
-extern const MethodInfo Text_get_verticalOverflow_m5642_MethodInfo = 
+extern const MethodInfo Text_get_verticalOverflow_m5646_MethodInfo = 
 {
 	"get_verticalOverflow"/* name */
-	, (methodPointerType)&Text_get_verticalOverflow_m5642/* method */
+	, (methodPointerType)&Text_get_verticalOverflow_m5646/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &VerticalWrapMode_t1156_0_0_0/* return_type */
 	, RuntimeInvoker_VerticalWrapMode_t1156/* invoker_method */
@@ -7795,20 +7795,20 @@ extern const MethodInfo Text_get_verticalOverflow_m5642_MethodInfo =
 
 };
 extern const Il2CppType VerticalWrapMode_t1156_0_0_0;
-static const ParameterInfo Text_t502_Text_set_verticalOverflow_m5643_ParameterInfos[] = 
+static const ParameterInfo Text_t502_Text_set_verticalOverflow_m5647_ParameterInfos[] = 
 {
 	{"value", 0, 134218297, 0, &VerticalWrapMode_t1156_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::set_verticalOverflow(UnityEngine.VerticalWrapMode)
-extern const MethodInfo Text_set_verticalOverflow_m5643_MethodInfo = 
+extern const MethodInfo Text_set_verticalOverflow_m5647_MethodInfo = 
 {
 	"set_verticalOverflow"/* name */
-	, (methodPointerType)&Text_set_verticalOverflow_m5643/* method */
+	, (methodPointerType)&Text_set_verticalOverflow_m5647/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Text_t502_Text_set_verticalOverflow_m5643_ParameterInfos/* parameters */
+	, Text_t502_Text_set_verticalOverflow_m5647_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -7824,10 +7824,10 @@ extern const MethodInfo Text_set_verticalOverflow_m5643_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.Text::get_lineSpacing()
-extern const MethodInfo Text_get_lineSpacing_m5644_MethodInfo = 
+extern const MethodInfo Text_get_lineSpacing_m5648_MethodInfo = 
 {
 	"get_lineSpacing"/* name */
-	, (methodPointerType)&Text_get_lineSpacing_m5644/* method */
+	, (methodPointerType)&Text_get_lineSpacing_m5648/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -7846,20 +7846,20 @@ extern const MethodInfo Text_get_lineSpacing_m5644_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo Text_t502_Text_set_lineSpacing_m5645_ParameterInfos[] = 
+static const ParameterInfo Text_t502_Text_set_lineSpacing_m5649_ParameterInfos[] = 
 {
 	{"value", 0, 134218298, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::set_lineSpacing(System.Single)
-extern const MethodInfo Text_set_lineSpacing_m5645_MethodInfo = 
+extern const MethodInfo Text_set_lineSpacing_m5649_MethodInfo = 
 {
 	"set_lineSpacing"/* name */
-	, (methodPointerType)&Text_set_lineSpacing_m5645/* method */
+	, (methodPointerType)&Text_set_lineSpacing_m5649/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, Text_t502_Text_set_lineSpacing_m5645_ParameterInfos/* parameters */
+	, Text_t502_Text_set_lineSpacing_m5649_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -7876,10 +7876,10 @@ extern const MethodInfo Text_set_lineSpacing_m5645_MethodInfo =
 extern const Il2CppType FontStyle_t1154_0_0_0;
 extern void* RuntimeInvoker_FontStyle_t1154 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.FontStyle UnityEngine.UI.Text::get_fontStyle()
-extern const MethodInfo Text_get_fontStyle_m5646_MethodInfo = 
+extern const MethodInfo Text_get_fontStyle_m5650_MethodInfo = 
 {
 	"get_fontStyle"/* name */
-	, (methodPointerType)&Text_get_fontStyle_m5646/* method */
+	, (methodPointerType)&Text_get_fontStyle_m5650/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &FontStyle_t1154_0_0_0/* return_type */
 	, RuntimeInvoker_FontStyle_t1154/* invoker_method */
@@ -7898,20 +7898,20 @@ extern const MethodInfo Text_get_fontStyle_m5646_MethodInfo =
 
 };
 extern const Il2CppType FontStyle_t1154_0_0_0;
-static const ParameterInfo Text_t502_Text_set_fontStyle_m4318_ParameterInfos[] = 
+static const ParameterInfo Text_t502_Text_set_fontStyle_m4321_ParameterInfos[] = 
 {
 	{"value", 0, 134218299, 0, &FontStyle_t1154_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::set_fontStyle(UnityEngine.FontStyle)
-extern const MethodInfo Text_set_fontStyle_m4318_MethodInfo = 
+extern const MethodInfo Text_set_fontStyle_m4321_MethodInfo = 
 {
 	"set_fontStyle"/* name */
-	, (methodPointerType)&Text_set_fontStyle_m4318/* method */
+	, (methodPointerType)&Text_set_fontStyle_m4321/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Text_t502_Text_set_fontStyle_m4318_ParameterInfos/* parameters */
+	, Text_t502_Text_set_fontStyle_m4321_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -7927,10 +7927,10 @@ extern const MethodInfo Text_set_fontStyle_m4318_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.Text::get_pixelsPerUnit()
-extern const MethodInfo Text_get_pixelsPerUnit_m5647_MethodInfo = 
+extern const MethodInfo Text_get_pixelsPerUnit_m5651_MethodInfo = 
 {
 	"get_pixelsPerUnit"/* name */
-	, (methodPointerType)&Text_get_pixelsPerUnit_m5647/* method */
+	, (methodPointerType)&Text_get_pixelsPerUnit_m5651/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -7950,10 +7950,10 @@ extern const MethodInfo Text_get_pixelsPerUnit_m5647_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::OnEnable()
-extern const MethodInfo Text_OnEnable_m5648_MethodInfo = 
+extern const MethodInfo Text_OnEnable_m5652_MethodInfo = 
 {
 	"OnEnable"/* name */
-	, (methodPointerType)&Text_OnEnable_m5648/* method */
+	, (methodPointerType)&Text_OnEnable_m5652/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -7973,10 +7973,10 @@ extern const MethodInfo Text_OnEnable_m5648_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::OnDisable()
-extern const MethodInfo Text_OnDisable_m5649_MethodInfo = 
+extern const MethodInfo Text_OnDisable_m5653_MethodInfo = 
 {
 	"OnDisable"/* name */
-	, (methodPointerType)&Text_OnDisable_m5649/* method */
+	, (methodPointerType)&Text_OnDisable_m5653/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -7996,10 +7996,10 @@ extern const MethodInfo Text_OnDisable_m5649_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::UpdateGeometry()
-extern const MethodInfo Text_UpdateGeometry_m5650_MethodInfo = 
+extern const MethodInfo Text_UpdateGeometry_m5654_MethodInfo = 
 {
 	"UpdateGeometry"/* name */
-	, (methodPointerType)&Text_UpdateGeometry_m5650/* method */
+	, (methodPointerType)&Text_UpdateGeometry_m5654/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -8018,21 +8018,21 @@ extern const MethodInfo Text_UpdateGeometry_m5650_MethodInfo =
 
 };
 extern const Il2CppType Vector2_t110_0_0_0;
-static const ParameterInfo Text_t502_Text_GetGenerationSettings_m5651_ParameterInfos[] = 
+static const ParameterInfo Text_t502_Text_GetGenerationSettings_m5655_ParameterInfos[] = 
 {
 	{"extents", 0, 134218300, 0, &Vector2_t110_0_0_0},
 };
 extern const Il2CppType TextGenerationSettings_t1062_0_0_0;
 extern void* RuntimeInvoker_TextGenerationSettings_t1062_Vector2_t110 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.TextGenerationSettings UnityEngine.UI.Text::GetGenerationSettings(UnityEngine.Vector2)
-extern const MethodInfo Text_GetGenerationSettings_m5651_MethodInfo = 
+extern const MethodInfo Text_GetGenerationSettings_m5655_MethodInfo = 
 {
 	"GetGenerationSettings"/* name */
-	, (methodPointerType)&Text_GetGenerationSettings_m5651/* method */
+	, (methodPointerType)&Text_GetGenerationSettings_m5655/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &TextGenerationSettings_t1062_0_0_0/* return_type */
 	, RuntimeInvoker_TextGenerationSettings_t1062_Vector2_t110/* invoker_method */
-	, Text_t502_Text_GetGenerationSettings_m5651_ParameterInfos/* parameters */
+	, Text_t502_Text_GetGenerationSettings_m5655_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -8047,20 +8047,20 @@ extern const MethodInfo Text_GetGenerationSettings_m5651_MethodInfo =
 
 };
 extern const Il2CppType TextAnchor_t828_0_0_0;
-static const ParameterInfo Text_t502_Text_GetTextAnchorPivot_m5652_ParameterInfos[] = 
+static const ParameterInfo Text_t502_Text_GetTextAnchorPivot_m5656_ParameterInfos[] = 
 {
 	{"anchor", 0, 134218301, 0, &TextAnchor_t828_0_0_0},
 };
 extern void* RuntimeInvoker_Vector2_t110_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector2 UnityEngine.UI.Text::GetTextAnchorPivot(UnityEngine.TextAnchor)
-extern const MethodInfo Text_GetTextAnchorPivot_m5652_MethodInfo = 
+extern const MethodInfo Text_GetTextAnchorPivot_m5656_MethodInfo = 
 {
 	"GetTextAnchorPivot"/* name */
-	, (methodPointerType)&Text_GetTextAnchorPivot_m5652/* method */
+	, (methodPointerType)&Text_GetTextAnchorPivot_m5656/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Vector2_t110_0_0_0/* return_type */
 	, RuntimeInvoker_Vector2_t110_Int32_t82/* invoker_method */
-	, Text_t502_Text_GetTextAnchorPivot_m5652_ParameterInfos/* parameters */
+	, Text_t502_Text_GetTextAnchorPivot_m5656_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -8076,20 +8076,20 @@ extern const MethodInfo Text_GetTextAnchorPivot_m5652_MethodInfo =
 };
 extern const Il2CppType List_1_t967_0_0_0;
 extern const Il2CppType List_1_t967_0_0_0;
-static const ParameterInfo Text_t502_Text_OnFillVBO_m5653_ParameterInfos[] = 
+static const ParameterInfo Text_t502_Text_OnFillVBO_m5657_ParameterInfos[] = 
 {
 	{"vbo", 0, 134218302, 0, &List_1_t967_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::OnFillVBO(System.Collections.Generic.List`1<UnityEngine.UIVertex>)
-extern const MethodInfo Text_OnFillVBO_m5653_MethodInfo = 
+extern const MethodInfo Text_OnFillVBO_m5657_MethodInfo = 
 {
 	"OnFillVBO"/* name */
-	, (methodPointerType)&Text_OnFillVBO_m5653/* method */
+	, (methodPointerType)&Text_OnFillVBO_m5657/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Text_t502_Text_OnFillVBO_m5653_ParameterInfos/* parameters */
+	, Text_t502_Text_OnFillVBO_m5657_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 196/* flags */
 	, 0/* iflags */
@@ -8105,10 +8105,10 @@ extern const MethodInfo Text_OnFillVBO_m5653_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::CalculateLayoutInputHorizontal()
-extern const MethodInfo Text_CalculateLayoutInputHorizontal_m5654_MethodInfo = 
+extern const MethodInfo Text_CalculateLayoutInputHorizontal_m5658_MethodInfo = 
 {
 	"CalculateLayoutInputHorizontal"/* name */
-	, (methodPointerType)&Text_CalculateLayoutInputHorizontal_m5654/* method */
+	, (methodPointerType)&Text_CalculateLayoutInputHorizontal_m5658/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -8128,10 +8128,10 @@ extern const MethodInfo Text_CalculateLayoutInputHorizontal_m5654_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Text::CalculateLayoutInputVertical()
-extern const MethodInfo Text_CalculateLayoutInputVertical_m5655_MethodInfo = 
+extern const MethodInfo Text_CalculateLayoutInputVertical_m5659_MethodInfo = 
 {
 	"CalculateLayoutInputVertical"/* name */
-	, (methodPointerType)&Text_CalculateLayoutInputVertical_m5655/* method */
+	, (methodPointerType)&Text_CalculateLayoutInputVertical_m5659/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -8151,10 +8151,10 @@ extern const MethodInfo Text_CalculateLayoutInputVertical_m5655_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.Text::get_minWidth()
-extern const MethodInfo Text_get_minWidth_m5656_MethodInfo = 
+extern const MethodInfo Text_get_minWidth_m5660_MethodInfo = 
 {
 	"get_minWidth"/* name */
-	, (methodPointerType)&Text_get_minWidth_m5656/* method */
+	, (methodPointerType)&Text_get_minWidth_m5660/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -8174,10 +8174,10 @@ extern const MethodInfo Text_get_minWidth_m5656_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.Text::get_preferredWidth()
-extern const MethodInfo Text_get_preferredWidth_m5657_MethodInfo = 
+extern const MethodInfo Text_get_preferredWidth_m5661_MethodInfo = 
 {
 	"get_preferredWidth"/* name */
-	, (methodPointerType)&Text_get_preferredWidth_m5657/* method */
+	, (methodPointerType)&Text_get_preferredWidth_m5661/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -8197,10 +8197,10 @@ extern const MethodInfo Text_get_preferredWidth_m5657_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.Text::get_flexibleWidth()
-extern const MethodInfo Text_get_flexibleWidth_m5658_MethodInfo = 
+extern const MethodInfo Text_get_flexibleWidth_m5662_MethodInfo = 
 {
 	"get_flexibleWidth"/* name */
-	, (methodPointerType)&Text_get_flexibleWidth_m5658/* method */
+	, (methodPointerType)&Text_get_flexibleWidth_m5662/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -8220,10 +8220,10 @@ extern const MethodInfo Text_get_flexibleWidth_m5658_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.Text::get_minHeight()
-extern const MethodInfo Text_get_minHeight_m5659_MethodInfo = 
+extern const MethodInfo Text_get_minHeight_m5663_MethodInfo = 
 {
 	"get_minHeight"/* name */
-	, (methodPointerType)&Text_get_minHeight_m5659/* method */
+	, (methodPointerType)&Text_get_minHeight_m5663/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -8243,10 +8243,10 @@ extern const MethodInfo Text_get_minHeight_m5659_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.Text::get_preferredHeight()
-extern const MethodInfo Text_get_preferredHeight_m5660_MethodInfo = 
+extern const MethodInfo Text_get_preferredHeight_m5664_MethodInfo = 
 {
 	"get_preferredHeight"/* name */
-	, (methodPointerType)&Text_get_preferredHeight_m5660/* method */
+	, (methodPointerType)&Text_get_preferredHeight_m5664/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -8266,10 +8266,10 @@ extern const MethodInfo Text_get_preferredHeight_m5660_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.Text::get_flexibleHeight()
-extern const MethodInfo Text_get_flexibleHeight_m5661_MethodInfo = 
+extern const MethodInfo Text_get_flexibleHeight_m5665_MethodInfo = 
 {
 	"get_flexibleHeight"/* name */
-	, (methodPointerType)&Text_get_flexibleHeight_m5661/* method */
+	, (methodPointerType)&Text_get_flexibleHeight_m5665/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -8289,10 +8289,10 @@ extern const MethodInfo Text_get_flexibleHeight_m5661_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 UnityEngine.UI.Text::get_layoutPriority()
-extern const MethodInfo Text_get_layoutPriority_m5662_MethodInfo = 
+extern const MethodInfo Text_get_layoutPriority_m5666_MethodInfo = 
 {
 	"get_layoutPriority"/* name */
-	, (methodPointerType)&Text_get_layoutPriority_m5662/* method */
+	, (methodPointerType)&Text_get_layoutPriority_m5666/* method */
 	, &Text_t502_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -8312,326 +8312,326 @@ extern const MethodInfo Text_get_layoutPriority_m5662_MethodInfo =
 };
 static const MethodInfo* Text_t502_MethodInfos[] =
 {
-	&Text__ctor_m5617_MethodInfo,
-	&Text__cctor_m5618_MethodInfo,
-	&Text_get_cachedTextGenerator_m5619_MethodInfo,
-	&Text_get_cachedTextGeneratorForLayout_m5620_MethodInfo,
-	&Text_get_defaultMaterial_m5621_MethodInfo,
-	&Text_get_mainTexture_m5622_MethodInfo,
-	&Text_FontTextureChanged_m5623_MethodInfo,
-	&Text_get_font_m5624_MethodInfo,
-	&Text_set_font_m5625_MethodInfo,
-	&Text_get_text_m5626_MethodInfo,
-	&Text_set_text_m5627_MethodInfo,
-	&Text_get_supportRichText_m5628_MethodInfo,
-	&Text_set_supportRichText_m5629_MethodInfo,
-	&Text_get_resizeTextForBestFit_m5630_MethodInfo,
-	&Text_set_resizeTextForBestFit_m5631_MethodInfo,
-	&Text_get_resizeTextMinSize_m5632_MethodInfo,
-	&Text_set_resizeTextMinSize_m5633_MethodInfo,
-	&Text_get_resizeTextMaxSize_m5634_MethodInfo,
-	&Text_set_resizeTextMaxSize_m5635_MethodInfo,
-	&Text_get_alignment_m5636_MethodInfo,
-	&Text_set_alignment_m5637_MethodInfo,
-	&Text_get_fontSize_m5638_MethodInfo,
-	&Text_set_fontSize_m5639_MethodInfo,
-	&Text_get_horizontalOverflow_m5640_MethodInfo,
-	&Text_set_horizontalOverflow_m5641_MethodInfo,
-	&Text_get_verticalOverflow_m5642_MethodInfo,
-	&Text_set_verticalOverflow_m5643_MethodInfo,
-	&Text_get_lineSpacing_m5644_MethodInfo,
-	&Text_set_lineSpacing_m5645_MethodInfo,
-	&Text_get_fontStyle_m5646_MethodInfo,
-	&Text_set_fontStyle_m4318_MethodInfo,
-	&Text_get_pixelsPerUnit_m5647_MethodInfo,
-	&Text_OnEnable_m5648_MethodInfo,
-	&Text_OnDisable_m5649_MethodInfo,
-	&Text_UpdateGeometry_m5650_MethodInfo,
-	&Text_GetGenerationSettings_m5651_MethodInfo,
-	&Text_GetTextAnchorPivot_m5652_MethodInfo,
-	&Text_OnFillVBO_m5653_MethodInfo,
-	&Text_CalculateLayoutInputHorizontal_m5654_MethodInfo,
-	&Text_CalculateLayoutInputVertical_m5655_MethodInfo,
-	&Text_get_minWidth_m5656_MethodInfo,
-	&Text_get_preferredWidth_m5657_MethodInfo,
-	&Text_get_flexibleWidth_m5658_MethodInfo,
-	&Text_get_minHeight_m5659_MethodInfo,
-	&Text_get_preferredHeight_m5660_MethodInfo,
-	&Text_get_flexibleHeight_m5661_MethodInfo,
-	&Text_get_layoutPriority_m5662_MethodInfo,
+	&Text__ctor_m5621_MethodInfo,
+	&Text__cctor_m5622_MethodInfo,
+	&Text_get_cachedTextGenerator_m5623_MethodInfo,
+	&Text_get_cachedTextGeneratorForLayout_m5624_MethodInfo,
+	&Text_get_defaultMaterial_m5625_MethodInfo,
+	&Text_get_mainTexture_m5626_MethodInfo,
+	&Text_FontTextureChanged_m5627_MethodInfo,
+	&Text_get_font_m5628_MethodInfo,
+	&Text_set_font_m5629_MethodInfo,
+	&Text_get_text_m5630_MethodInfo,
+	&Text_set_text_m5631_MethodInfo,
+	&Text_get_supportRichText_m5632_MethodInfo,
+	&Text_set_supportRichText_m5633_MethodInfo,
+	&Text_get_resizeTextForBestFit_m5634_MethodInfo,
+	&Text_set_resizeTextForBestFit_m5635_MethodInfo,
+	&Text_get_resizeTextMinSize_m5636_MethodInfo,
+	&Text_set_resizeTextMinSize_m5637_MethodInfo,
+	&Text_get_resizeTextMaxSize_m5638_MethodInfo,
+	&Text_set_resizeTextMaxSize_m5639_MethodInfo,
+	&Text_get_alignment_m5640_MethodInfo,
+	&Text_set_alignment_m5641_MethodInfo,
+	&Text_get_fontSize_m5642_MethodInfo,
+	&Text_set_fontSize_m5643_MethodInfo,
+	&Text_get_horizontalOverflow_m5644_MethodInfo,
+	&Text_set_horizontalOverflow_m5645_MethodInfo,
+	&Text_get_verticalOverflow_m5646_MethodInfo,
+	&Text_set_verticalOverflow_m5647_MethodInfo,
+	&Text_get_lineSpacing_m5648_MethodInfo,
+	&Text_set_lineSpacing_m5649_MethodInfo,
+	&Text_get_fontStyle_m5650_MethodInfo,
+	&Text_set_fontStyle_m4321_MethodInfo,
+	&Text_get_pixelsPerUnit_m5651_MethodInfo,
+	&Text_OnEnable_m5652_MethodInfo,
+	&Text_OnDisable_m5653_MethodInfo,
+	&Text_UpdateGeometry_m5654_MethodInfo,
+	&Text_GetGenerationSettings_m5655_MethodInfo,
+	&Text_GetTextAnchorPivot_m5656_MethodInfo,
+	&Text_OnFillVBO_m5657_MethodInfo,
+	&Text_CalculateLayoutInputHorizontal_m5658_MethodInfo,
+	&Text_CalculateLayoutInputVertical_m5659_MethodInfo,
+	&Text_get_minWidth_m5660_MethodInfo,
+	&Text_get_preferredWidth_m5661_MethodInfo,
+	&Text_get_flexibleWidth_m5662_MethodInfo,
+	&Text_get_minHeight_m5663_MethodInfo,
+	&Text_get_preferredHeight_m5664_MethodInfo,
+	&Text_get_flexibleHeight_m5665_MethodInfo,
+	&Text_get_layoutPriority_m5666_MethodInfo,
 	NULL
 };
-extern const MethodInfo Text_get_cachedTextGenerator_m5619_MethodInfo;
+extern const MethodInfo Text_get_cachedTextGenerator_m5623_MethodInfo;
 static const PropertyInfo Text_t502____cachedTextGenerator_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "cachedTextGenerator"/* name */
-	, &Text_get_cachedTextGenerator_m5619_MethodInfo/* get */
+	, &Text_get_cachedTextGenerator_m5623_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_cachedTextGeneratorForLayout_m5620_MethodInfo;
+extern const MethodInfo Text_get_cachedTextGeneratorForLayout_m5624_MethodInfo;
 static const PropertyInfo Text_t502____cachedTextGeneratorForLayout_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "cachedTextGeneratorForLayout"/* name */
-	, &Text_get_cachedTextGeneratorForLayout_m5620_MethodInfo/* get */
+	, &Text_get_cachedTextGeneratorForLayout_m5624_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_defaultMaterial_m5621_MethodInfo;
+extern const MethodInfo Text_get_defaultMaterial_m5625_MethodInfo;
 static const PropertyInfo Text_t502____defaultMaterial_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "defaultMaterial"/* name */
-	, &Text_get_defaultMaterial_m5621_MethodInfo/* get */
+	, &Text_get_defaultMaterial_m5625_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_mainTexture_m5622_MethodInfo;
+extern const MethodInfo Text_get_mainTexture_m5626_MethodInfo;
 static const PropertyInfo Text_t502____mainTexture_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "mainTexture"/* name */
-	, &Text_get_mainTexture_m5622_MethodInfo/* get */
+	, &Text_get_mainTexture_m5626_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_font_m5624_MethodInfo;
-extern const MethodInfo Text_set_font_m5625_MethodInfo;
+extern const MethodInfo Text_get_font_m5628_MethodInfo;
+extern const MethodInfo Text_set_font_m5629_MethodInfo;
 static const PropertyInfo Text_t502____font_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "font"/* name */
-	, &Text_get_font_m5624_MethodInfo/* get */
-	, &Text_set_font_m5625_MethodInfo/* set */
+	, &Text_get_font_m5628_MethodInfo/* get */
+	, &Text_set_font_m5629_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_text_m5626_MethodInfo;
-extern const MethodInfo Text_set_text_m5627_MethodInfo;
+extern const MethodInfo Text_get_text_m5630_MethodInfo;
+extern const MethodInfo Text_set_text_m5631_MethodInfo;
 static const PropertyInfo Text_t502____text_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "text"/* name */
-	, &Text_get_text_m5626_MethodInfo/* get */
-	, &Text_set_text_m5627_MethodInfo/* set */
+	, &Text_get_text_m5630_MethodInfo/* get */
+	, &Text_set_text_m5631_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_supportRichText_m5628_MethodInfo;
-extern const MethodInfo Text_set_supportRichText_m5629_MethodInfo;
+extern const MethodInfo Text_get_supportRichText_m5632_MethodInfo;
+extern const MethodInfo Text_set_supportRichText_m5633_MethodInfo;
 static const PropertyInfo Text_t502____supportRichText_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "supportRichText"/* name */
-	, &Text_get_supportRichText_m5628_MethodInfo/* get */
-	, &Text_set_supportRichText_m5629_MethodInfo/* set */
+	, &Text_get_supportRichText_m5632_MethodInfo/* get */
+	, &Text_set_supportRichText_m5633_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_resizeTextForBestFit_m5630_MethodInfo;
-extern const MethodInfo Text_set_resizeTextForBestFit_m5631_MethodInfo;
+extern const MethodInfo Text_get_resizeTextForBestFit_m5634_MethodInfo;
+extern const MethodInfo Text_set_resizeTextForBestFit_m5635_MethodInfo;
 static const PropertyInfo Text_t502____resizeTextForBestFit_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "resizeTextForBestFit"/* name */
-	, &Text_get_resizeTextForBestFit_m5630_MethodInfo/* get */
-	, &Text_set_resizeTextForBestFit_m5631_MethodInfo/* set */
+	, &Text_get_resizeTextForBestFit_m5634_MethodInfo/* get */
+	, &Text_set_resizeTextForBestFit_m5635_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_resizeTextMinSize_m5632_MethodInfo;
-extern const MethodInfo Text_set_resizeTextMinSize_m5633_MethodInfo;
+extern const MethodInfo Text_get_resizeTextMinSize_m5636_MethodInfo;
+extern const MethodInfo Text_set_resizeTextMinSize_m5637_MethodInfo;
 static const PropertyInfo Text_t502____resizeTextMinSize_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "resizeTextMinSize"/* name */
-	, &Text_get_resizeTextMinSize_m5632_MethodInfo/* get */
-	, &Text_set_resizeTextMinSize_m5633_MethodInfo/* set */
+	, &Text_get_resizeTextMinSize_m5636_MethodInfo/* get */
+	, &Text_set_resizeTextMinSize_m5637_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_resizeTextMaxSize_m5634_MethodInfo;
-extern const MethodInfo Text_set_resizeTextMaxSize_m5635_MethodInfo;
+extern const MethodInfo Text_get_resizeTextMaxSize_m5638_MethodInfo;
+extern const MethodInfo Text_set_resizeTextMaxSize_m5639_MethodInfo;
 static const PropertyInfo Text_t502____resizeTextMaxSize_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "resizeTextMaxSize"/* name */
-	, &Text_get_resizeTextMaxSize_m5634_MethodInfo/* get */
-	, &Text_set_resizeTextMaxSize_m5635_MethodInfo/* set */
+	, &Text_get_resizeTextMaxSize_m5638_MethodInfo/* get */
+	, &Text_set_resizeTextMaxSize_m5639_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_alignment_m5636_MethodInfo;
-extern const MethodInfo Text_set_alignment_m5637_MethodInfo;
+extern const MethodInfo Text_get_alignment_m5640_MethodInfo;
+extern const MethodInfo Text_set_alignment_m5641_MethodInfo;
 static const PropertyInfo Text_t502____alignment_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "alignment"/* name */
-	, &Text_get_alignment_m5636_MethodInfo/* get */
-	, &Text_set_alignment_m5637_MethodInfo/* set */
+	, &Text_get_alignment_m5640_MethodInfo/* get */
+	, &Text_set_alignment_m5641_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_fontSize_m5638_MethodInfo;
-extern const MethodInfo Text_set_fontSize_m5639_MethodInfo;
+extern const MethodInfo Text_get_fontSize_m5642_MethodInfo;
+extern const MethodInfo Text_set_fontSize_m5643_MethodInfo;
 static const PropertyInfo Text_t502____fontSize_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "fontSize"/* name */
-	, &Text_get_fontSize_m5638_MethodInfo/* get */
-	, &Text_set_fontSize_m5639_MethodInfo/* set */
+	, &Text_get_fontSize_m5642_MethodInfo/* get */
+	, &Text_set_fontSize_m5643_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_horizontalOverflow_m5640_MethodInfo;
-extern const MethodInfo Text_set_horizontalOverflow_m5641_MethodInfo;
+extern const MethodInfo Text_get_horizontalOverflow_m5644_MethodInfo;
+extern const MethodInfo Text_set_horizontalOverflow_m5645_MethodInfo;
 static const PropertyInfo Text_t502____horizontalOverflow_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "horizontalOverflow"/* name */
-	, &Text_get_horizontalOverflow_m5640_MethodInfo/* get */
-	, &Text_set_horizontalOverflow_m5641_MethodInfo/* set */
+	, &Text_get_horizontalOverflow_m5644_MethodInfo/* get */
+	, &Text_set_horizontalOverflow_m5645_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_verticalOverflow_m5642_MethodInfo;
-extern const MethodInfo Text_set_verticalOverflow_m5643_MethodInfo;
+extern const MethodInfo Text_get_verticalOverflow_m5646_MethodInfo;
+extern const MethodInfo Text_set_verticalOverflow_m5647_MethodInfo;
 static const PropertyInfo Text_t502____verticalOverflow_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "verticalOverflow"/* name */
-	, &Text_get_verticalOverflow_m5642_MethodInfo/* get */
-	, &Text_set_verticalOverflow_m5643_MethodInfo/* set */
+	, &Text_get_verticalOverflow_m5646_MethodInfo/* get */
+	, &Text_set_verticalOverflow_m5647_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_lineSpacing_m5644_MethodInfo;
-extern const MethodInfo Text_set_lineSpacing_m5645_MethodInfo;
+extern const MethodInfo Text_get_lineSpacing_m5648_MethodInfo;
+extern const MethodInfo Text_set_lineSpacing_m5649_MethodInfo;
 static const PropertyInfo Text_t502____lineSpacing_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "lineSpacing"/* name */
-	, &Text_get_lineSpacing_m5644_MethodInfo/* get */
-	, &Text_set_lineSpacing_m5645_MethodInfo/* set */
+	, &Text_get_lineSpacing_m5648_MethodInfo/* get */
+	, &Text_set_lineSpacing_m5649_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_fontStyle_m5646_MethodInfo;
-extern const MethodInfo Text_set_fontStyle_m4318_MethodInfo;
+extern const MethodInfo Text_get_fontStyle_m5650_MethodInfo;
+extern const MethodInfo Text_set_fontStyle_m4321_MethodInfo;
 static const PropertyInfo Text_t502____fontStyle_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "fontStyle"/* name */
-	, &Text_get_fontStyle_m5646_MethodInfo/* get */
-	, &Text_set_fontStyle_m4318_MethodInfo/* set */
+	, &Text_get_fontStyle_m5650_MethodInfo/* get */
+	, &Text_set_fontStyle_m4321_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_pixelsPerUnit_m5647_MethodInfo;
+extern const MethodInfo Text_get_pixelsPerUnit_m5651_MethodInfo;
 static const PropertyInfo Text_t502____pixelsPerUnit_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "pixelsPerUnit"/* name */
-	, &Text_get_pixelsPerUnit_m5647_MethodInfo/* get */
+	, &Text_get_pixelsPerUnit_m5651_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_minWidth_m5656_MethodInfo;
+extern const MethodInfo Text_get_minWidth_m5660_MethodInfo;
 static const PropertyInfo Text_t502____minWidth_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "minWidth"/* name */
-	, &Text_get_minWidth_m5656_MethodInfo/* get */
+	, &Text_get_minWidth_m5660_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_preferredWidth_m5657_MethodInfo;
+extern const MethodInfo Text_get_preferredWidth_m5661_MethodInfo;
 static const PropertyInfo Text_t502____preferredWidth_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "preferredWidth"/* name */
-	, &Text_get_preferredWidth_m5657_MethodInfo/* get */
+	, &Text_get_preferredWidth_m5661_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_flexibleWidth_m5658_MethodInfo;
+extern const MethodInfo Text_get_flexibleWidth_m5662_MethodInfo;
 static const PropertyInfo Text_t502____flexibleWidth_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "flexibleWidth"/* name */
-	, &Text_get_flexibleWidth_m5658_MethodInfo/* get */
+	, &Text_get_flexibleWidth_m5662_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_minHeight_m5659_MethodInfo;
+extern const MethodInfo Text_get_minHeight_m5663_MethodInfo;
 static const PropertyInfo Text_t502____minHeight_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "minHeight"/* name */
-	, &Text_get_minHeight_m5659_MethodInfo/* get */
+	, &Text_get_minHeight_m5663_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_preferredHeight_m5660_MethodInfo;
+extern const MethodInfo Text_get_preferredHeight_m5664_MethodInfo;
 static const PropertyInfo Text_t502____preferredHeight_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "preferredHeight"/* name */
-	, &Text_get_preferredHeight_m5660_MethodInfo/* get */
+	, &Text_get_preferredHeight_m5664_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_flexibleHeight_m5661_MethodInfo;
+extern const MethodInfo Text_get_flexibleHeight_m5665_MethodInfo;
 static const PropertyInfo Text_t502____flexibleHeight_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "flexibleHeight"/* name */
-	, &Text_get_flexibleHeight_m5661_MethodInfo/* get */
+	, &Text_get_flexibleHeight_m5665_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Text_get_layoutPriority_m5662_MethodInfo;
+extern const MethodInfo Text_get_layoutPriority_m5666_MethodInfo;
 static const PropertyInfo Text_t502____layoutPriority_PropertyInfo = 
 {
 	&Text_t502_il2cpp_TypeInfo/* parent */
 	, "layoutPriority"/* name */
-	, &Text_get_layoutPriority_m5662_MethodInfo/* get */
+	, &Text_get_layoutPriority_m5666_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -8665,91 +8665,91 @@ static const PropertyInfo* Text_t502_PropertyInfos[] =
 	&Text_t502____layoutPriority_PropertyInfo,
 	NULL
 };
-extern const MethodInfo Text_OnEnable_m5648_MethodInfo;
-extern const MethodInfo Text_OnDisable_m5649_MethodInfo;
-extern const MethodInfo Graphic_OnRectTransformDimensionsChange_m5120_MethodInfo;
-extern const MethodInfo Graphic_OnBeforeTransformParentChanged_m5121_MethodInfo;
-extern const MethodInfo MaskableGraphic_OnTransformParentChanged_m5375_MethodInfo;
-extern const MethodInfo Graphic_OnDidApplyAnimationProperties_m5140_MethodInfo;
-extern const MethodInfo Graphic_OnCanvasHierarchyChanged_m5135_MethodInfo;
-extern const MethodInfo Graphic_Rebuild_m5136_MethodInfo;
-extern const MethodInfo Graphic_UnityEngine_UI_ICanvasElement_get_transform_m5158_MethodInfo;
-extern const MethodInfo Graphic_UnityEngine_UI_ICanvasElement_IsDestroyed_m5157_MethodInfo;
-extern const MethodInfo Graphic_SetAllDirty_m5116_MethodInfo;
-extern const MethodInfo Graphic_SetLayoutDirty_m5117_MethodInfo;
-extern const MethodInfo Graphic_SetVerticesDirty_m5118_MethodInfo;
-extern const MethodInfo MaskableGraphic_SetMaterialDirty_m5378_MethodInfo;
-extern const MethodInfo MaskableGraphic_get_material_m5370_MethodInfo;
-extern const MethodInfo MaskableGraphic_set_material_m5371_MethodInfo;
-extern const MethodInfo Graphic_get_materialForRendering_m5130_MethodInfo;
-extern const MethodInfo Text_UpdateGeometry_m5650_MethodInfo;
-extern const MethodInfo Graphic_UpdateMaterial_m5138_MethodInfo;
-extern const MethodInfo Text_OnFillVBO_m5653_MethodInfo;
-extern const MethodInfo Graphic_SetNativeSize_m5141_MethodInfo;
-extern const MethodInfo Graphic_Raycast_m5142_MethodInfo;
-extern const MethodInfo MaskableGraphic_ParentMaskStateChanged_m5376_MethodInfo;
-extern const MethodInfo Text_CalculateLayoutInputHorizontal_m5654_MethodInfo;
-extern const MethodInfo Text_CalculateLayoutInputVertical_m5655_MethodInfo;
+extern const MethodInfo Text_OnEnable_m5652_MethodInfo;
+extern const MethodInfo Text_OnDisable_m5653_MethodInfo;
+extern const MethodInfo Graphic_OnRectTransformDimensionsChange_m5124_MethodInfo;
+extern const MethodInfo Graphic_OnBeforeTransformParentChanged_m5125_MethodInfo;
+extern const MethodInfo MaskableGraphic_OnTransformParentChanged_m5379_MethodInfo;
+extern const MethodInfo Graphic_OnDidApplyAnimationProperties_m5144_MethodInfo;
+extern const MethodInfo Graphic_OnCanvasHierarchyChanged_m5139_MethodInfo;
+extern const MethodInfo Graphic_Rebuild_m5140_MethodInfo;
+extern const MethodInfo Graphic_UnityEngine_UI_ICanvasElement_get_transform_m5162_MethodInfo;
+extern const MethodInfo Graphic_UnityEngine_UI_ICanvasElement_IsDestroyed_m5161_MethodInfo;
+extern const MethodInfo Graphic_SetAllDirty_m5120_MethodInfo;
+extern const MethodInfo Graphic_SetLayoutDirty_m5121_MethodInfo;
+extern const MethodInfo Graphic_SetVerticesDirty_m5122_MethodInfo;
+extern const MethodInfo MaskableGraphic_SetMaterialDirty_m5382_MethodInfo;
+extern const MethodInfo MaskableGraphic_get_material_m5374_MethodInfo;
+extern const MethodInfo MaskableGraphic_set_material_m5375_MethodInfo;
+extern const MethodInfo Graphic_get_materialForRendering_m5134_MethodInfo;
+extern const MethodInfo Text_UpdateGeometry_m5654_MethodInfo;
+extern const MethodInfo Graphic_UpdateMaterial_m5142_MethodInfo;
+extern const MethodInfo Text_OnFillVBO_m5657_MethodInfo;
+extern const MethodInfo Graphic_SetNativeSize_m5145_MethodInfo;
+extern const MethodInfo Graphic_Raycast_m5146_MethodInfo;
+extern const MethodInfo MaskableGraphic_ParentMaskStateChanged_m5380_MethodInfo;
+extern const MethodInfo Text_CalculateLayoutInputHorizontal_m5658_MethodInfo;
+extern const MethodInfo Text_CalculateLayoutInputVertical_m5659_MethodInfo;
 static const Il2CppMethodReference Text_t502_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
-	&UIBehaviour_Awake_m4839_MethodInfo,
-	&Text_OnEnable_m5648_MethodInfo,
-	&UIBehaviour_Start_m4841_MethodInfo,
-	&Text_OnDisable_m5649_MethodInfo,
-	&UIBehaviour_OnDestroy_m4843_MethodInfo,
-	&UIBehaviour_IsActive_m4844_MethodInfo,
-	&Graphic_OnRectTransformDimensionsChange_m5120_MethodInfo,
-	&Graphic_OnBeforeTransformParentChanged_m5121_MethodInfo,
-	&MaskableGraphic_OnTransformParentChanged_m5375_MethodInfo,
-	&Graphic_OnDidApplyAnimationProperties_m5140_MethodInfo,
-	&UIBehaviour_OnCanvasGroupChanged_m4849_MethodInfo,
-	&Graphic_OnCanvasHierarchyChanged_m5135_MethodInfo,
-	&Graphic_Rebuild_m5136_MethodInfo,
-	&Graphic_UnityEngine_UI_ICanvasElement_get_transform_m5158_MethodInfo,
-	&Graphic_UnityEngine_UI_ICanvasElement_IsDestroyed_m5157_MethodInfo,
-	&Graphic_SetAllDirty_m5116_MethodInfo,
-	&Graphic_SetLayoutDirty_m5117_MethodInfo,
-	&Graphic_SetVerticesDirty_m5118_MethodInfo,
-	&MaskableGraphic_SetMaterialDirty_m5378_MethodInfo,
-	&Text_get_defaultMaterial_m5621_MethodInfo,
-	&MaskableGraphic_get_material_m5370_MethodInfo,
-	&MaskableGraphic_set_material_m5371_MethodInfo,
-	&Graphic_get_materialForRendering_m5130_MethodInfo,
-	&Text_get_mainTexture_m5622_MethodInfo,
-	&Graphic_Rebuild_m5136_MethodInfo,
-	&Text_UpdateGeometry_m5650_MethodInfo,
-	&Graphic_UpdateMaterial_m5138_MethodInfo,
-	&Text_OnFillVBO_m5653_MethodInfo,
-	&Graphic_SetNativeSize_m5141_MethodInfo,
-	&Graphic_Raycast_m5142_MethodInfo,
-	&Graphic_UnityEngine_UI_ICanvasElement_IsDestroyed_m5157_MethodInfo,
-	&Graphic_UnityEngine_UI_ICanvasElement_get_transform_m5158_MethodInfo,
-	&MaskableGraphic_ParentMaskStateChanged_m5376_MethodInfo,
-	&MaskableGraphic_ParentMaskStateChanged_m5376_MethodInfo,
-	&Text_CalculateLayoutInputHorizontal_m5654_MethodInfo,
-	&Text_CalculateLayoutInputVertical_m5655_MethodInfo,
-	&Text_get_minWidth_m5656_MethodInfo,
-	&Text_get_preferredWidth_m5657_MethodInfo,
-	&Text_get_flexibleWidth_m5658_MethodInfo,
-	&Text_get_minHeight_m5659_MethodInfo,
-	&Text_get_preferredHeight_m5660_MethodInfo,
-	&Text_get_flexibleHeight_m5661_MethodInfo,
-	&Text_get_layoutPriority_m5662_MethodInfo,
-	&Text_get_text_m5626_MethodInfo,
-	&Text_set_text_m5627_MethodInfo,
-	&Text_CalculateLayoutInputHorizontal_m5654_MethodInfo,
-	&Text_CalculateLayoutInputVertical_m5655_MethodInfo,
-	&Text_get_minWidth_m5656_MethodInfo,
-	&Text_get_preferredWidth_m5657_MethodInfo,
-	&Text_get_flexibleWidth_m5658_MethodInfo,
-	&Text_get_minHeight_m5659_MethodInfo,
-	&Text_get_preferredHeight_m5660_MethodInfo,
-	&Text_get_flexibleHeight_m5661_MethodInfo,
-	&Text_get_layoutPriority_m5662_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
+	&UIBehaviour_Awake_m4843_MethodInfo,
+	&Text_OnEnable_m5652_MethodInfo,
+	&UIBehaviour_Start_m4845_MethodInfo,
+	&Text_OnDisable_m5653_MethodInfo,
+	&UIBehaviour_OnDestroy_m4847_MethodInfo,
+	&UIBehaviour_IsActive_m4848_MethodInfo,
+	&Graphic_OnRectTransformDimensionsChange_m5124_MethodInfo,
+	&Graphic_OnBeforeTransformParentChanged_m5125_MethodInfo,
+	&MaskableGraphic_OnTransformParentChanged_m5379_MethodInfo,
+	&Graphic_OnDidApplyAnimationProperties_m5144_MethodInfo,
+	&UIBehaviour_OnCanvasGroupChanged_m4853_MethodInfo,
+	&Graphic_OnCanvasHierarchyChanged_m5139_MethodInfo,
+	&Graphic_Rebuild_m5140_MethodInfo,
+	&Graphic_UnityEngine_UI_ICanvasElement_get_transform_m5162_MethodInfo,
+	&Graphic_UnityEngine_UI_ICanvasElement_IsDestroyed_m5161_MethodInfo,
+	&Graphic_SetAllDirty_m5120_MethodInfo,
+	&Graphic_SetLayoutDirty_m5121_MethodInfo,
+	&Graphic_SetVerticesDirty_m5122_MethodInfo,
+	&MaskableGraphic_SetMaterialDirty_m5382_MethodInfo,
+	&Text_get_defaultMaterial_m5625_MethodInfo,
+	&MaskableGraphic_get_material_m5374_MethodInfo,
+	&MaskableGraphic_set_material_m5375_MethodInfo,
+	&Graphic_get_materialForRendering_m5134_MethodInfo,
+	&Text_get_mainTexture_m5626_MethodInfo,
+	&Graphic_Rebuild_m5140_MethodInfo,
+	&Text_UpdateGeometry_m5654_MethodInfo,
+	&Graphic_UpdateMaterial_m5142_MethodInfo,
+	&Text_OnFillVBO_m5657_MethodInfo,
+	&Graphic_SetNativeSize_m5145_MethodInfo,
+	&Graphic_Raycast_m5146_MethodInfo,
+	&Graphic_UnityEngine_UI_ICanvasElement_IsDestroyed_m5161_MethodInfo,
+	&Graphic_UnityEngine_UI_ICanvasElement_get_transform_m5162_MethodInfo,
+	&MaskableGraphic_ParentMaskStateChanged_m5380_MethodInfo,
+	&MaskableGraphic_ParentMaskStateChanged_m5380_MethodInfo,
+	&Text_CalculateLayoutInputHorizontal_m5658_MethodInfo,
+	&Text_CalculateLayoutInputVertical_m5659_MethodInfo,
+	&Text_get_minWidth_m5660_MethodInfo,
+	&Text_get_preferredWidth_m5661_MethodInfo,
+	&Text_get_flexibleWidth_m5662_MethodInfo,
+	&Text_get_minHeight_m5663_MethodInfo,
+	&Text_get_preferredHeight_m5664_MethodInfo,
+	&Text_get_flexibleHeight_m5665_MethodInfo,
+	&Text_get_layoutPriority_m5666_MethodInfo,
+	&Text_get_text_m5630_MethodInfo,
+	&Text_set_text_m5631_MethodInfo,
+	&Text_CalculateLayoutInputHorizontal_m5658_MethodInfo,
+	&Text_CalculateLayoutInputVertical_m5659_MethodInfo,
+	&Text_get_minWidth_m5660_MethodInfo,
+	&Text_get_preferredWidth_m5661_MethodInfo,
+	&Text_get_flexibleWidth_m5662_MethodInfo,
+	&Text_get_minHeight_m5663_MethodInfo,
+	&Text_get_preferredHeight_m5664_MethodInfo,
+	&Text_get_flexibleHeight_m5665_MethodInfo,
+	&Text_get_layoutPriority_m5666_MethodInfo,
 };
 static bool Text_t502_VTableIsGenericMethod[] =
 {
@@ -8908,29 +8908,29 @@ static const MethodInfo* ToggleTransition_t996_MethodInfos[] =
 };
 static const Il2CppMethodReference ToggleTransition_t996_VTable[] =
 {
-	&Enum_Equals_m501_MethodInfo,
+	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Enum_GetHashCode_m502_MethodInfo,
-	&Enum_ToString_m503_MethodInfo,
-	&Enum_ToString_m504_MethodInfo,
-	&Enum_System_IConvertible_ToBoolean_m505_MethodInfo,
-	&Enum_System_IConvertible_ToByte_m506_MethodInfo,
-	&Enum_System_IConvertible_ToChar_m507_MethodInfo,
-	&Enum_System_IConvertible_ToDateTime_m508_MethodInfo,
-	&Enum_System_IConvertible_ToDecimal_m509_MethodInfo,
-	&Enum_System_IConvertible_ToDouble_m510_MethodInfo,
-	&Enum_System_IConvertible_ToInt16_m511_MethodInfo,
-	&Enum_System_IConvertible_ToInt32_m512_MethodInfo,
-	&Enum_System_IConvertible_ToInt64_m513_MethodInfo,
-	&Enum_System_IConvertible_ToSByte_m514_MethodInfo,
-	&Enum_System_IConvertible_ToSingle_m515_MethodInfo,
-	&Enum_ToString_m516_MethodInfo,
-	&Enum_System_IConvertible_ToType_m517_MethodInfo,
-	&Enum_System_IConvertible_ToUInt16_m518_MethodInfo,
-	&Enum_System_IConvertible_ToUInt32_m519_MethodInfo,
-	&Enum_System_IConvertible_ToUInt64_m520_MethodInfo,
-	&Enum_CompareTo_m521_MethodInfo,
-	&Enum_GetTypeCode_m522_MethodInfo,
+	&Enum_GetHashCode_m504_MethodInfo,
+	&Enum_ToString_m505_MethodInfo,
+	&Enum_ToString_m506_MethodInfo,
+	&Enum_System_IConvertible_ToBoolean_m507_MethodInfo,
+	&Enum_System_IConvertible_ToByte_m508_MethodInfo,
+	&Enum_System_IConvertible_ToChar_m509_MethodInfo,
+	&Enum_System_IConvertible_ToDateTime_m510_MethodInfo,
+	&Enum_System_IConvertible_ToDecimal_m511_MethodInfo,
+	&Enum_System_IConvertible_ToDouble_m512_MethodInfo,
+	&Enum_System_IConvertible_ToInt16_m513_MethodInfo,
+	&Enum_System_IConvertible_ToInt32_m514_MethodInfo,
+	&Enum_System_IConvertible_ToInt64_m515_MethodInfo,
+	&Enum_System_IConvertible_ToSByte_m516_MethodInfo,
+	&Enum_System_IConvertible_ToSingle_m517_MethodInfo,
+	&Enum_ToString_m518_MethodInfo,
+	&Enum_System_IConvertible_ToType_m519_MethodInfo,
+	&Enum_System_IConvertible_ToUInt16_m520_MethodInfo,
+	&Enum_System_IConvertible_ToUInt32_m521_MethodInfo,
+	&Enum_System_IConvertible_ToUInt64_m522_MethodInfo,
+	&Enum_CompareTo_m523_MethodInfo,
+	&Enum_GetTypeCode_m524_MethodInfo,
 };
 static bool ToggleTransition_t996_VTableIsGenericMethod[] =
 {
@@ -9044,10 +9044,10 @@ extern TypeInfo ToggleEvent_t997_il2cpp_TypeInfo;
 #include "UnityEngine_UI_UnityEngine_UI_Toggle_ToggleEventMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Toggle/ToggleEvent::.ctor()
-extern const MethodInfo ToggleEvent__ctor_m5663_MethodInfo = 
+extern const MethodInfo ToggleEvent__ctor_m5667_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ToggleEvent__ctor_m5663/* method */
+	, (methodPointerType)&ToggleEvent__ctor_m5667/* method */
 	, &ToggleEvent_t997_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -9067,21 +9067,21 @@ extern const MethodInfo ToggleEvent__ctor_m5663_MethodInfo =
 };
 static const MethodInfo* ToggleEvent_t997_MethodInfos[] =
 {
-	&ToggleEvent__ctor_m5663_MethodInfo,
+	&ToggleEvent__ctor_m5667_MethodInfo,
 	NULL
 };
-extern const Il2CppGenericMethod UnityEvent_1_FindMethod_Impl_m6493_GenericMethod;
-extern const Il2CppGenericMethod UnityEvent_1_GetDelegate_m6494_GenericMethod;
+extern const Il2CppGenericMethod UnityEvent_1_FindMethod_Impl_m6497_GenericMethod;
+extern const Il2CppGenericMethod UnityEvent_1_GetDelegate_m6498_GenericMethod;
 static const Il2CppMethodReference ToggleEvent_t997_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
-	&UnityEventBase_ToString_m6470_MethodInfo,
-	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6471_MethodInfo,
-	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6472_MethodInfo,
-	&UnityEvent_1_FindMethod_Impl_m6493_GenericMethod,
-	&UnityEvent_1_GetDelegate_m6494_GenericMethod,
+	&UnityEventBase_ToString_m6474_MethodInfo,
+	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6475_MethodInfo,
+	&UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6476_MethodInfo,
+	&UnityEvent_1_FindMethod_Impl_m6497_GenericMethod,
+	&UnityEvent_1_GetDelegate_m6498_GenericMethod,
 };
 static bool ToggleEvent_t997_VTableIsGenericMethod[] =
 {
@@ -9177,10 +9177,10 @@ TypeInfo ToggleEvent_t997_il2cpp_TypeInfo =
 #include "UnityEngine_UI_UnityEngine_UI_ToggleMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Toggle::.ctor()
-extern const MethodInfo Toggle__ctor_m5664_MethodInfo = 
+extern const MethodInfo Toggle__ctor_m5668_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Toggle__ctor_m5664/* method */
+	, (methodPointerType)&Toggle__ctor_m5668/* method */
 	, &Toggle_t1000_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -9201,10 +9201,10 @@ extern const MethodInfo Toggle__ctor_m5664_MethodInfo =
 extern const Il2CppType ToggleGroup_t999_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.ToggleGroup UnityEngine.UI.Toggle::get_group()
-extern const MethodInfo Toggle_get_group_m5665_MethodInfo = 
+extern const MethodInfo Toggle_get_group_m5669_MethodInfo = 
 {
 	"get_group"/* name */
-	, (methodPointerType)&Toggle_get_group_m5665/* method */
+	, (methodPointerType)&Toggle_get_group_m5669/* method */
 	, &Toggle_t1000_il2cpp_TypeInfo/* declaring_type */
 	, &ToggleGroup_t999_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -9223,20 +9223,20 @@ extern const MethodInfo Toggle_get_group_m5665_MethodInfo =
 
 };
 extern const Il2CppType ToggleGroup_t999_0_0_0;
-static const ParameterInfo Toggle_t1000_Toggle_set_group_m5666_ParameterInfos[] = 
+static const ParameterInfo Toggle_t1000_Toggle_set_group_m5670_ParameterInfos[] = 
 {
 	{"value", 0, 134218303, 0, &ToggleGroup_t999_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Toggle::set_group(UnityEngine.UI.ToggleGroup)
-extern const MethodInfo Toggle_set_group_m5666_MethodInfo = 
+extern const MethodInfo Toggle_set_group_m5670_MethodInfo = 
 {
 	"set_group"/* name */
-	, (methodPointerType)&Toggle_set_group_m5666/* method */
+	, (methodPointerType)&Toggle_set_group_m5670/* method */
 	, &Toggle_t1000_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Toggle_t1000_Toggle_set_group_m5666_ParameterInfos/* parameters */
+	, Toggle_t1000_Toggle_set_group_m5670_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -9251,20 +9251,20 @@ extern const MethodInfo Toggle_set_group_m5666_MethodInfo =
 
 };
 extern const Il2CppType CanvasUpdate_t923_0_0_0;
-static const ParameterInfo Toggle_t1000_Toggle_Rebuild_m5667_ParameterInfos[] = 
+static const ParameterInfo Toggle_t1000_Toggle_Rebuild_m5671_ParameterInfos[] = 
 {
 	{"executing", 0, 134218304, 0, &CanvasUpdate_t923_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Toggle::Rebuild(UnityEngine.UI.CanvasUpdate)
-extern const MethodInfo Toggle_Rebuild_m5667_MethodInfo = 
+extern const MethodInfo Toggle_Rebuild_m5671_MethodInfo = 
 {
 	"Rebuild"/* name */
-	, (methodPointerType)&Toggle_Rebuild_m5667/* method */
+	, (methodPointerType)&Toggle_Rebuild_m5671/* method */
 	, &Toggle_t1000_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, Toggle_t1000_Toggle_Rebuild_m5667_ParameterInfos/* parameters */
+	, Toggle_t1000_Toggle_Rebuild_m5671_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -9280,10 +9280,10 @@ extern const MethodInfo Toggle_Rebuild_m5667_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Toggle::OnEnable()
-extern const MethodInfo Toggle_OnEnable_m5668_MethodInfo = 
+extern const MethodInfo Toggle_OnEnable_m5672_MethodInfo = 
 {
 	"OnEnable"/* name */
-	, (methodPointerType)&Toggle_OnEnable_m5668/* method */
+	, (methodPointerType)&Toggle_OnEnable_m5672/* method */
 	, &Toggle_t1000_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -9303,10 +9303,10 @@ extern const MethodInfo Toggle_OnEnable_m5668_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Toggle::OnDisable()
-extern const MethodInfo Toggle_OnDisable_m5669_MethodInfo = 
+extern const MethodInfo Toggle_OnDisable_m5673_MethodInfo = 
 {
 	"OnDisable"/* name */
-	, (methodPointerType)&Toggle_OnDisable_m5669/* method */
+	, (methodPointerType)&Toggle_OnDisable_m5673/* method */
 	, &Toggle_t1000_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -9326,21 +9326,21 @@ extern const MethodInfo Toggle_OnDisable_m5669_MethodInfo =
 };
 extern const Il2CppType ToggleGroup_t999_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Toggle_t1000_Toggle_SetToggleGroup_m5670_ParameterInfos[] = 
+static const ParameterInfo Toggle_t1000_Toggle_SetToggleGroup_m5674_ParameterInfos[] = 
 {
 	{"newGroup", 0, 134218305, 0, &ToggleGroup_t999_0_0_0},
 	{"setMemberValue", 1, 134218306, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Toggle::SetToggleGroup(UnityEngine.UI.ToggleGroup,System.Boolean)
-extern const MethodInfo Toggle_SetToggleGroup_m5670_MethodInfo = 
+extern const MethodInfo Toggle_SetToggleGroup_m5674_MethodInfo = 
 {
 	"SetToggleGroup"/* name */
-	, (methodPointerType)&Toggle_SetToggleGroup_m5670/* method */
+	, (methodPointerType)&Toggle_SetToggleGroup_m5674/* method */
 	, &Toggle_t1000_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, Toggle_t1000_Toggle_SetToggleGroup_m5670_ParameterInfos/* parameters */
+	, Toggle_t1000_Toggle_SetToggleGroup_m5674_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -9356,10 +9356,10 @@ extern const MethodInfo Toggle_SetToggleGroup_m5670_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.Toggle::get_isOn()
-extern const MethodInfo Toggle_get_isOn_m5671_MethodInfo = 
+extern const MethodInfo Toggle_get_isOn_m5675_MethodInfo = 
 {
 	"get_isOn"/* name */
-	, (methodPointerType)&Toggle_get_isOn_m5671/* method */
+	, (methodPointerType)&Toggle_get_isOn_m5675/* method */
 	, &Toggle_t1000_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -9378,20 +9378,20 @@ extern const MethodInfo Toggle_get_isOn_m5671_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Toggle_t1000_Toggle_set_isOn_m5672_ParameterInfos[] = 
+static const ParameterInfo Toggle_t1000_Toggle_set_isOn_m5676_ParameterInfos[] = 
 {
 	{"value", 0, 134218307, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Toggle::set_isOn(System.Boolean)
-extern const MethodInfo Toggle_set_isOn_m5672_MethodInfo = 
+extern const MethodInfo Toggle_set_isOn_m5676_MethodInfo = 
 {
 	"set_isOn"/* name */
-	, (methodPointerType)&Toggle_set_isOn_m5672/* method */
+	, (methodPointerType)&Toggle_set_isOn_m5676/* method */
 	, &Toggle_t1000_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, Toggle_t1000_Toggle_set_isOn_m5672_ParameterInfos/* parameters */
+	, Toggle_t1000_Toggle_set_isOn_m5676_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -9406,20 +9406,20 @@ extern const MethodInfo Toggle_set_isOn_m5672_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Toggle_t1000_Toggle_Set_m5673_ParameterInfos[] = 
+static const ParameterInfo Toggle_t1000_Toggle_Set_m5677_ParameterInfos[] = 
 {
 	{"value", 0, 134218308, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Toggle::Set(System.Boolean)
-extern const MethodInfo Toggle_Set_m5673_MethodInfo = 
+extern const MethodInfo Toggle_Set_m5677_MethodInfo = 
 {
 	"Set"/* name */
-	, (methodPointerType)&Toggle_Set_m5673/* method */
+	, (methodPointerType)&Toggle_Set_m5677/* method */
 	, &Toggle_t1000_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, Toggle_t1000_Toggle_Set_m5673_ParameterInfos/* parameters */
+	, Toggle_t1000_Toggle_Set_m5677_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -9435,21 +9435,21 @@ extern const MethodInfo Toggle_Set_m5673_MethodInfo =
 };
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Toggle_t1000_Toggle_Set_m5674_ParameterInfos[] = 
+static const ParameterInfo Toggle_t1000_Toggle_Set_m5678_ParameterInfos[] = 
 {
 	{"value", 0, 134218309, 0, &Boolean_t59_0_0_0},
 	{"sendCallback", 1, 134218310, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Toggle::Set(System.Boolean,System.Boolean)
-extern const MethodInfo Toggle_Set_m5674_MethodInfo = 
+extern const MethodInfo Toggle_Set_m5678_MethodInfo = 
 {
 	"Set"/* name */
-	, (methodPointerType)&Toggle_Set_m5674/* method */
+	, (methodPointerType)&Toggle_Set_m5678/* method */
 	, &Toggle_t1000_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88_SByte_t88/* invoker_method */
-	, Toggle_t1000_Toggle_Set_m5674_ParameterInfos/* parameters */
+	, Toggle_t1000_Toggle_Set_m5678_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -9464,20 +9464,20 @@ extern const MethodInfo Toggle_Set_m5674_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Toggle_t1000_Toggle_PlayEffect_m5675_ParameterInfos[] = 
+static const ParameterInfo Toggle_t1000_Toggle_PlayEffect_m5679_ParameterInfos[] = 
 {
 	{"instant", 0, 134218311, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Toggle::PlayEffect(System.Boolean)
-extern const MethodInfo Toggle_PlayEffect_m5675_MethodInfo = 
+extern const MethodInfo Toggle_PlayEffect_m5679_MethodInfo = 
 {
 	"PlayEffect"/* name */
-	, (methodPointerType)&Toggle_PlayEffect_m5675/* method */
+	, (methodPointerType)&Toggle_PlayEffect_m5679/* method */
 	, &Toggle_t1000_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, Toggle_t1000_Toggle_PlayEffect_m5675_ParameterInfos/* parameters */
+	, Toggle_t1000_Toggle_PlayEffect_m5679_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -9493,10 +9493,10 @@ extern const MethodInfo Toggle_PlayEffect_m5675_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Toggle::Start()
-extern const MethodInfo Toggle_Start_m5676_MethodInfo = 
+extern const MethodInfo Toggle_Start_m5680_MethodInfo = 
 {
 	"Start"/* name */
-	, (methodPointerType)&Toggle_Start_m5676/* method */
+	, (methodPointerType)&Toggle_Start_m5680/* method */
 	, &Toggle_t1000_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -9516,10 +9516,10 @@ extern const MethodInfo Toggle_Start_m5676_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Toggle::InternalToggle()
-extern const MethodInfo Toggle_InternalToggle_m5677_MethodInfo = 
+extern const MethodInfo Toggle_InternalToggle_m5681_MethodInfo = 
 {
 	"InternalToggle"/* name */
-	, (methodPointerType)&Toggle_InternalToggle_m5677/* method */
+	, (methodPointerType)&Toggle_InternalToggle_m5681/* method */
 	, &Toggle_t1000_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -9538,20 +9538,20 @@ extern const MethodInfo Toggle_InternalToggle_m5677_MethodInfo =
 
 };
 extern const Il2CppType PointerEventData_t899_0_0_0;
-static const ParameterInfo Toggle_t1000_Toggle_OnPointerClick_m5678_ParameterInfos[] = 
+static const ParameterInfo Toggle_t1000_Toggle_OnPointerClick_m5682_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218312, 0, &PointerEventData_t899_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Toggle::OnPointerClick(UnityEngine.EventSystems.PointerEventData)
-extern const MethodInfo Toggle_OnPointerClick_m5678_MethodInfo = 
+extern const MethodInfo Toggle_OnPointerClick_m5682_MethodInfo = 
 {
 	"OnPointerClick"/* name */
-	, (methodPointerType)&Toggle_OnPointerClick_m5678/* method */
+	, (methodPointerType)&Toggle_OnPointerClick_m5682/* method */
 	, &Toggle_t1000_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Toggle_t1000_Toggle_OnPointerClick_m5678_ParameterInfos/* parameters */
+	, Toggle_t1000_Toggle_OnPointerClick_m5682_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -9566,20 +9566,20 @@ extern const MethodInfo Toggle_OnPointerClick_m5678_MethodInfo =
 
 };
 extern const Il2CppType BaseEventData_t859_0_0_0;
-static const ParameterInfo Toggle_t1000_Toggle_OnSubmit_m5679_ParameterInfos[] = 
+static const ParameterInfo Toggle_t1000_Toggle_OnSubmit_m5683_ParameterInfos[] = 
 {
 	{"eventData", 0, 134218313, 0, &BaseEventData_t859_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Toggle::OnSubmit(UnityEngine.EventSystems.BaseEventData)
-extern const MethodInfo Toggle_OnSubmit_m5679_MethodInfo = 
+extern const MethodInfo Toggle_OnSubmit_m5683_MethodInfo = 
 {
 	"OnSubmit"/* name */
-	, (methodPointerType)&Toggle_OnSubmit_m5679/* method */
+	, (methodPointerType)&Toggle_OnSubmit_m5683/* method */
 	, &Toggle_t1000_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Toggle_t1000_Toggle_OnSubmit_m5679_ParameterInfos/* parameters */
+	, Toggle_t1000_Toggle_OnSubmit_m5683_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -9595,10 +9595,10 @@ extern const MethodInfo Toggle_OnSubmit_m5679_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.Toggle::UnityEngine.UI.ICanvasElement.IsDestroyed()
-extern const MethodInfo Toggle_UnityEngine_UI_ICanvasElement_IsDestroyed_m5680_MethodInfo = 
+extern const MethodInfo Toggle_UnityEngine_UI_ICanvasElement_IsDestroyed_m5684_MethodInfo = 
 {
 	"UnityEngine.UI.ICanvasElement.IsDestroyed"/* name */
-	, (methodPointerType)&Toggle_UnityEngine_UI_ICanvasElement_IsDestroyed_m5680/* method */
+	, (methodPointerType)&Toggle_UnityEngine_UI_ICanvasElement_IsDestroyed_m5684/* method */
 	, &Toggle_t1000_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -9618,10 +9618,10 @@ extern const MethodInfo Toggle_UnityEngine_UI_ICanvasElement_IsDestroyed_m5680_M
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Transform UnityEngine.UI.Toggle::UnityEngine.UI.ICanvasElement.get_transform()
-extern const MethodInfo Toggle_UnityEngine_UI_ICanvasElement_get_transform_m5681_MethodInfo = 
+extern const MethodInfo Toggle_UnityEngine_UI_ICanvasElement_get_transform_m5685_MethodInfo = 
 {
 	"UnityEngine.UI.ICanvasElement.get_transform"/* name */
-	, (methodPointerType)&Toggle_UnityEngine_UI_ICanvasElement_get_transform_m5681/* method */
+	, (methodPointerType)&Toggle_UnityEngine_UI_ICanvasElement_get_transform_m5685/* method */
 	, &Toggle_t1000_il2cpp_TypeInfo/* declaring_type */
 	, &Transform_t406_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -9641,46 +9641,46 @@ extern const MethodInfo Toggle_UnityEngine_UI_ICanvasElement_get_transform_m5681
 };
 static const MethodInfo* Toggle_t1000_MethodInfos[] =
 {
-	&Toggle__ctor_m5664_MethodInfo,
-	&Toggle_get_group_m5665_MethodInfo,
-	&Toggle_set_group_m5666_MethodInfo,
-	&Toggle_Rebuild_m5667_MethodInfo,
-	&Toggle_OnEnable_m5668_MethodInfo,
-	&Toggle_OnDisable_m5669_MethodInfo,
-	&Toggle_SetToggleGroup_m5670_MethodInfo,
-	&Toggle_get_isOn_m5671_MethodInfo,
-	&Toggle_set_isOn_m5672_MethodInfo,
-	&Toggle_Set_m5673_MethodInfo,
-	&Toggle_Set_m5674_MethodInfo,
-	&Toggle_PlayEffect_m5675_MethodInfo,
-	&Toggle_Start_m5676_MethodInfo,
-	&Toggle_InternalToggle_m5677_MethodInfo,
-	&Toggle_OnPointerClick_m5678_MethodInfo,
-	&Toggle_OnSubmit_m5679_MethodInfo,
-	&Toggle_UnityEngine_UI_ICanvasElement_IsDestroyed_m5680_MethodInfo,
-	&Toggle_UnityEngine_UI_ICanvasElement_get_transform_m5681_MethodInfo,
+	&Toggle__ctor_m5668_MethodInfo,
+	&Toggle_get_group_m5669_MethodInfo,
+	&Toggle_set_group_m5670_MethodInfo,
+	&Toggle_Rebuild_m5671_MethodInfo,
+	&Toggle_OnEnable_m5672_MethodInfo,
+	&Toggle_OnDisable_m5673_MethodInfo,
+	&Toggle_SetToggleGroup_m5674_MethodInfo,
+	&Toggle_get_isOn_m5675_MethodInfo,
+	&Toggle_set_isOn_m5676_MethodInfo,
+	&Toggle_Set_m5677_MethodInfo,
+	&Toggle_Set_m5678_MethodInfo,
+	&Toggle_PlayEffect_m5679_MethodInfo,
+	&Toggle_Start_m5680_MethodInfo,
+	&Toggle_InternalToggle_m5681_MethodInfo,
+	&Toggle_OnPointerClick_m5682_MethodInfo,
+	&Toggle_OnSubmit_m5683_MethodInfo,
+	&Toggle_UnityEngine_UI_ICanvasElement_IsDestroyed_m5684_MethodInfo,
+	&Toggle_UnityEngine_UI_ICanvasElement_get_transform_m5685_MethodInfo,
 	NULL
 };
-extern const MethodInfo Toggle_get_group_m5665_MethodInfo;
-extern const MethodInfo Toggle_set_group_m5666_MethodInfo;
+extern const MethodInfo Toggle_get_group_m5669_MethodInfo;
+extern const MethodInfo Toggle_set_group_m5670_MethodInfo;
 static const PropertyInfo Toggle_t1000____group_PropertyInfo = 
 {
 	&Toggle_t1000_il2cpp_TypeInfo/* parent */
 	, "group"/* name */
-	, &Toggle_get_group_m5665_MethodInfo/* get */
-	, &Toggle_set_group_m5666_MethodInfo/* set */
+	, &Toggle_get_group_m5669_MethodInfo/* get */
+	, &Toggle_set_group_m5670_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Toggle_get_isOn_m5671_MethodInfo;
-extern const MethodInfo Toggle_set_isOn_m5672_MethodInfo;
+extern const MethodInfo Toggle_get_isOn_m5675_MethodInfo;
+extern const MethodInfo Toggle_set_isOn_m5676_MethodInfo;
 static const PropertyInfo Toggle_t1000____isOn_PropertyInfo = 
 {
 	&Toggle_t1000_il2cpp_TypeInfo/* parent */
 	, "isOn"/* name */
-	, &Toggle_get_isOn_m5671_MethodInfo/* get */
-	, &Toggle_set_isOn_m5672_MethodInfo/* set */
+	, &Toggle_get_isOn_m5675_MethodInfo/* get */
+	, &Toggle_set_isOn_m5676_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -9696,64 +9696,64 @@ static const Il2CppType* Toggle_t1000_il2cpp_TypeInfo__nestedTypes[2] =
 	&ToggleTransition_t996_0_0_0,
 	&ToggleEvent_t997_0_0_0,
 };
-extern const MethodInfo Toggle_OnEnable_m5668_MethodInfo;
-extern const MethodInfo Toggle_Start_m5676_MethodInfo;
-extern const MethodInfo Toggle_OnDisable_m5669_MethodInfo;
-extern const MethodInfo Toggle_OnPointerClick_m5678_MethodInfo;
-extern const MethodInfo Toggle_OnSubmit_m5679_MethodInfo;
-extern const MethodInfo Toggle_Rebuild_m5667_MethodInfo;
-extern const MethodInfo Toggle_UnityEngine_UI_ICanvasElement_get_transform_m5681_MethodInfo;
-extern const MethodInfo Toggle_UnityEngine_UI_ICanvasElement_IsDestroyed_m5680_MethodInfo;
+extern const MethodInfo Toggle_OnEnable_m5672_MethodInfo;
+extern const MethodInfo Toggle_Start_m5680_MethodInfo;
+extern const MethodInfo Toggle_OnDisable_m5673_MethodInfo;
+extern const MethodInfo Toggle_OnPointerClick_m5682_MethodInfo;
+extern const MethodInfo Toggle_OnSubmit_m5683_MethodInfo;
+extern const MethodInfo Toggle_Rebuild_m5671_MethodInfo;
+extern const MethodInfo Toggle_UnityEngine_UI_ICanvasElement_get_transform_m5685_MethodInfo;
+extern const MethodInfo Toggle_UnityEngine_UI_ICanvasElement_IsDestroyed_m5684_MethodInfo;
 static const Il2CppMethodReference Toggle_t1000_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
-	&Selectable_Awake_m5529_MethodInfo,
-	&Toggle_OnEnable_m5668_MethodInfo,
-	&Toggle_Start_m5676_MethodInfo,
-	&Toggle_OnDisable_m5669_MethodInfo,
-	&UIBehaviour_OnDestroy_m4843_MethodInfo,
-	&UIBehaviour_IsActive_m4844_MethodInfo,
-	&UIBehaviour_OnRectTransformDimensionsChange_m4845_MethodInfo,
-	&UIBehaviour_OnBeforeTransformParentChanged_m4846_MethodInfo,
-	&UIBehaviour_OnTransformParentChanged_m4847_MethodInfo,
-	&Selectable_OnDidApplyAnimationProperties_m5532_MethodInfo,
-	&Selectable_OnCanvasGroupChanged_m5530_MethodInfo,
-	&UIBehaviour_OnCanvasHierarchyChanged_m4850_MethodInfo,
-	&Selectable_OnPointerEnter_m5558_MethodInfo,
-	&Selectable_OnPointerExit_m5559_MethodInfo,
-	&Selectable_OnPointerDown_m5556_MethodInfo,
-	&Selectable_OnPointerUp_m5557_MethodInfo,
-	&Selectable_OnSelect_m5560_MethodInfo,
-	&Selectable_OnDeselect_m5561_MethodInfo,
-	&Selectable_OnMove_m5546_MethodInfo,
-	&Selectable_IsInteractable_m5531_MethodInfo,
-	&Selectable_InstantClearState_m5537_MethodInfo,
-	&Selectable_DoStateTransition_m5538_MethodInfo,
-	&Selectable_FindSelectableOnLeft_m5542_MethodInfo,
-	&Selectable_FindSelectableOnRight_m5543_MethodInfo,
-	&Selectable_FindSelectableOnUp_m5544_MethodInfo,
-	&Selectable_FindSelectableOnDown_m5545_MethodInfo,
-	&Selectable_OnMove_m5546_MethodInfo,
-	&Selectable_OnPointerDown_m5556_MethodInfo,
-	&Selectable_OnPointerUp_m5557_MethodInfo,
-	&Selectable_OnPointerEnter_m5558_MethodInfo,
-	&Selectable_OnPointerExit_m5559_MethodInfo,
-	&Selectable_OnSelect_m5560_MethodInfo,
-	&Selectable_OnDeselect_m5561_MethodInfo,
-	&Selectable_Select_m5562_MethodInfo,
-	&Toggle_OnPointerClick_m5678_MethodInfo,
-	&Toggle_OnSubmit_m5679_MethodInfo,
-	&Toggle_Rebuild_m5667_MethodInfo,
-	&Toggle_UnityEngine_UI_ICanvasElement_get_transform_m5681_MethodInfo,
-	&Toggle_UnityEngine_UI_ICanvasElement_IsDestroyed_m5680_MethodInfo,
-	&Toggle_Rebuild_m5667_MethodInfo,
-	&Toggle_OnPointerClick_m5678_MethodInfo,
-	&Toggle_OnSubmit_m5679_MethodInfo,
-	&Toggle_UnityEngine_UI_ICanvasElement_IsDestroyed_m5680_MethodInfo,
-	&Toggle_UnityEngine_UI_ICanvasElement_get_transform_m5681_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
+	&Selectable_Awake_m5533_MethodInfo,
+	&Toggle_OnEnable_m5672_MethodInfo,
+	&Toggle_Start_m5680_MethodInfo,
+	&Toggle_OnDisable_m5673_MethodInfo,
+	&UIBehaviour_OnDestroy_m4847_MethodInfo,
+	&UIBehaviour_IsActive_m4848_MethodInfo,
+	&UIBehaviour_OnRectTransformDimensionsChange_m4849_MethodInfo,
+	&UIBehaviour_OnBeforeTransformParentChanged_m4850_MethodInfo,
+	&UIBehaviour_OnTransformParentChanged_m4851_MethodInfo,
+	&Selectable_OnDidApplyAnimationProperties_m5536_MethodInfo,
+	&Selectable_OnCanvasGroupChanged_m5534_MethodInfo,
+	&UIBehaviour_OnCanvasHierarchyChanged_m4854_MethodInfo,
+	&Selectable_OnPointerEnter_m5562_MethodInfo,
+	&Selectable_OnPointerExit_m5563_MethodInfo,
+	&Selectable_OnPointerDown_m5560_MethodInfo,
+	&Selectable_OnPointerUp_m5561_MethodInfo,
+	&Selectable_OnSelect_m5564_MethodInfo,
+	&Selectable_OnDeselect_m5565_MethodInfo,
+	&Selectable_OnMove_m5550_MethodInfo,
+	&Selectable_IsInteractable_m5535_MethodInfo,
+	&Selectable_InstantClearState_m5541_MethodInfo,
+	&Selectable_DoStateTransition_m5542_MethodInfo,
+	&Selectable_FindSelectableOnLeft_m5546_MethodInfo,
+	&Selectable_FindSelectableOnRight_m5547_MethodInfo,
+	&Selectable_FindSelectableOnUp_m5548_MethodInfo,
+	&Selectable_FindSelectableOnDown_m5549_MethodInfo,
+	&Selectable_OnMove_m5550_MethodInfo,
+	&Selectable_OnPointerDown_m5560_MethodInfo,
+	&Selectable_OnPointerUp_m5561_MethodInfo,
+	&Selectable_OnPointerEnter_m5562_MethodInfo,
+	&Selectable_OnPointerExit_m5563_MethodInfo,
+	&Selectable_OnSelect_m5564_MethodInfo,
+	&Selectable_OnDeselect_m5565_MethodInfo,
+	&Selectable_Select_m5566_MethodInfo,
+	&Toggle_OnPointerClick_m5682_MethodInfo,
+	&Toggle_OnSubmit_m5683_MethodInfo,
+	&Toggle_Rebuild_m5671_MethodInfo,
+	&Toggle_UnityEngine_UI_ICanvasElement_get_transform_m5685_MethodInfo,
+	&Toggle_UnityEngine_UI_ICanvasElement_IsDestroyed_m5684_MethodInfo,
+	&Toggle_Rebuild_m5671_MethodInfo,
+	&Toggle_OnPointerClick_m5682_MethodInfo,
+	&Toggle_OnSubmit_m5683_MethodInfo,
+	&Toggle_UnityEngine_UI_ICanvasElement_IsDestroyed_m5684_MethodInfo,
+	&Toggle_UnityEngine_UI_ICanvasElement_get_transform_m5685_MethodInfo,
 };
 static bool Toggle_t1000_VTableIsGenericMethod[] =
 {
@@ -9907,10 +9907,10 @@ extern TypeInfo ToggleGroup_t999_il2cpp_TypeInfo;
 #include "UnityEngine_UI_UnityEngine_UI_ToggleGroupMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ToggleGroup::.ctor()
-extern const MethodInfo ToggleGroup__ctor_m5682_MethodInfo = 
+extern const MethodInfo ToggleGroup__ctor_m5686_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ToggleGroup__ctor_m5682/* method */
+	, (methodPointerType)&ToggleGroup__ctor_m5686/* method */
 	, &ToggleGroup_t999_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -9930,10 +9930,10 @@ extern const MethodInfo ToggleGroup__ctor_m5682_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.ToggleGroup::get_allowSwitchOff()
-extern const MethodInfo ToggleGroup_get_allowSwitchOff_m5683_MethodInfo = 
+extern const MethodInfo ToggleGroup_get_allowSwitchOff_m5687_MethodInfo = 
 {
 	"get_allowSwitchOff"/* name */
-	, (methodPointerType)&ToggleGroup_get_allowSwitchOff_m5683/* method */
+	, (methodPointerType)&ToggleGroup_get_allowSwitchOff_m5687/* method */
 	, &ToggleGroup_t999_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -9952,20 +9952,20 @@ extern const MethodInfo ToggleGroup_get_allowSwitchOff_m5683_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ToggleGroup_t999_ToggleGroup_set_allowSwitchOff_m5684_ParameterInfos[] = 
+static const ParameterInfo ToggleGroup_t999_ToggleGroup_set_allowSwitchOff_m5688_ParameterInfos[] = 
 {
 	{"value", 0, 134218314, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ToggleGroup::set_allowSwitchOff(System.Boolean)
-extern const MethodInfo ToggleGroup_set_allowSwitchOff_m5684_MethodInfo = 
+extern const MethodInfo ToggleGroup_set_allowSwitchOff_m5688_MethodInfo = 
 {
 	"set_allowSwitchOff"/* name */
-	, (methodPointerType)&ToggleGroup_set_allowSwitchOff_m5684/* method */
+	, (methodPointerType)&ToggleGroup_set_allowSwitchOff_m5688/* method */
 	, &ToggleGroup_t999_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, ToggleGroup_t999_ToggleGroup_set_allowSwitchOff_m5684_ParameterInfos/* parameters */
+	, ToggleGroup_t999_ToggleGroup_set_allowSwitchOff_m5688_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -9980,20 +9980,20 @@ extern const MethodInfo ToggleGroup_set_allowSwitchOff_m5684_MethodInfo =
 
 };
 extern const Il2CppType Toggle_t1000_0_0_0;
-static const ParameterInfo ToggleGroup_t999_ToggleGroup_ValidateToggleIsInGroup_m5685_ParameterInfos[] = 
+static const ParameterInfo ToggleGroup_t999_ToggleGroup_ValidateToggleIsInGroup_m5689_ParameterInfos[] = 
 {
 	{"toggle", 0, 134218315, 0, &Toggle_t1000_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ToggleGroup::ValidateToggleIsInGroup(UnityEngine.UI.Toggle)
-extern const MethodInfo ToggleGroup_ValidateToggleIsInGroup_m5685_MethodInfo = 
+extern const MethodInfo ToggleGroup_ValidateToggleIsInGroup_m5689_MethodInfo = 
 {
 	"ValidateToggleIsInGroup"/* name */
-	, (methodPointerType)&ToggleGroup_ValidateToggleIsInGroup_m5685/* method */
+	, (methodPointerType)&ToggleGroup_ValidateToggleIsInGroup_m5689/* method */
 	, &ToggleGroup_t999_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ToggleGroup_t999_ToggleGroup_ValidateToggleIsInGroup_m5685_ParameterInfos/* parameters */
+	, ToggleGroup_t999_ToggleGroup_ValidateToggleIsInGroup_m5689_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -10008,20 +10008,20 @@ extern const MethodInfo ToggleGroup_ValidateToggleIsInGroup_m5685_MethodInfo =
 
 };
 extern const Il2CppType Toggle_t1000_0_0_0;
-static const ParameterInfo ToggleGroup_t999_ToggleGroup_NotifyToggleOn_m5686_ParameterInfos[] = 
+static const ParameterInfo ToggleGroup_t999_ToggleGroup_NotifyToggleOn_m5690_ParameterInfos[] = 
 {
 	{"toggle", 0, 134218316, 0, &Toggle_t1000_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ToggleGroup::NotifyToggleOn(UnityEngine.UI.Toggle)
-extern const MethodInfo ToggleGroup_NotifyToggleOn_m5686_MethodInfo = 
+extern const MethodInfo ToggleGroup_NotifyToggleOn_m5690_MethodInfo = 
 {
 	"NotifyToggleOn"/* name */
-	, (methodPointerType)&ToggleGroup_NotifyToggleOn_m5686/* method */
+	, (methodPointerType)&ToggleGroup_NotifyToggleOn_m5690/* method */
 	, &ToggleGroup_t999_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ToggleGroup_t999_ToggleGroup_NotifyToggleOn_m5686_ParameterInfos/* parameters */
+	, ToggleGroup_t999_ToggleGroup_NotifyToggleOn_m5690_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -10036,20 +10036,20 @@ extern const MethodInfo ToggleGroup_NotifyToggleOn_m5686_MethodInfo =
 
 };
 extern const Il2CppType Toggle_t1000_0_0_0;
-static const ParameterInfo ToggleGroup_t999_ToggleGroup_UnregisterToggle_m5687_ParameterInfos[] = 
+static const ParameterInfo ToggleGroup_t999_ToggleGroup_UnregisterToggle_m5691_ParameterInfos[] = 
 {
 	{"toggle", 0, 134218317, 0, &Toggle_t1000_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ToggleGroup::UnregisterToggle(UnityEngine.UI.Toggle)
-extern const MethodInfo ToggleGroup_UnregisterToggle_m5687_MethodInfo = 
+extern const MethodInfo ToggleGroup_UnregisterToggle_m5691_MethodInfo = 
 {
 	"UnregisterToggle"/* name */
-	, (methodPointerType)&ToggleGroup_UnregisterToggle_m5687/* method */
+	, (methodPointerType)&ToggleGroup_UnregisterToggle_m5691/* method */
 	, &ToggleGroup_t999_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ToggleGroup_t999_ToggleGroup_UnregisterToggle_m5687_ParameterInfos/* parameters */
+	, ToggleGroup_t999_ToggleGroup_UnregisterToggle_m5691_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -10064,20 +10064,20 @@ extern const MethodInfo ToggleGroup_UnregisterToggle_m5687_MethodInfo =
 
 };
 extern const Il2CppType Toggle_t1000_0_0_0;
-static const ParameterInfo ToggleGroup_t999_ToggleGroup_RegisterToggle_m5688_ParameterInfos[] = 
+static const ParameterInfo ToggleGroup_t999_ToggleGroup_RegisterToggle_m5692_ParameterInfos[] = 
 {
 	{"toggle", 0, 134218318, 0, &Toggle_t1000_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ToggleGroup::RegisterToggle(UnityEngine.UI.Toggle)
-extern const MethodInfo ToggleGroup_RegisterToggle_m5688_MethodInfo = 
+extern const MethodInfo ToggleGroup_RegisterToggle_m5692_MethodInfo = 
 {
 	"RegisterToggle"/* name */
-	, (methodPointerType)&ToggleGroup_RegisterToggle_m5688/* method */
+	, (methodPointerType)&ToggleGroup_RegisterToggle_m5692/* method */
 	, &ToggleGroup_t999_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ToggleGroup_t999_ToggleGroup_RegisterToggle_m5688_ParameterInfos/* parameters */
+	, ToggleGroup_t999_ToggleGroup_RegisterToggle_m5692_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -10093,10 +10093,10 @@ extern const MethodInfo ToggleGroup_RegisterToggle_m5688_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.ToggleGroup::AnyTogglesOn()
-extern const MethodInfo ToggleGroup_AnyTogglesOn_m5689_MethodInfo = 
+extern const MethodInfo ToggleGroup_AnyTogglesOn_m5693_MethodInfo = 
 {
 	"AnyTogglesOn"/* name */
-	, (methodPointerType)&ToggleGroup_AnyTogglesOn_m5689/* method */
+	, (methodPointerType)&ToggleGroup_AnyTogglesOn_m5693/* method */
 	, &ToggleGroup_t999_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -10117,10 +10117,10 @@ extern const MethodInfo ToggleGroup_AnyTogglesOn_m5689_MethodInfo =
 extern const Il2CppType IEnumerable_1_t1063_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.IEnumerable`1<UnityEngine.UI.Toggle> UnityEngine.UI.ToggleGroup::ActiveToggles()
-extern const MethodInfo ToggleGroup_ActiveToggles_m5690_MethodInfo = 
+extern const MethodInfo ToggleGroup_ActiveToggles_m5694_MethodInfo = 
 {
 	"ActiveToggles"/* name */
-	, (methodPointerType)&ToggleGroup_ActiveToggles_m5690/* method */
+	, (methodPointerType)&ToggleGroup_ActiveToggles_m5694/* method */
 	, &ToggleGroup_t999_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerable_1_t1063_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -10140,10 +10140,10 @@ extern const MethodInfo ToggleGroup_ActiveToggles_m5690_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ToggleGroup::SetAllTogglesOff()
-extern const MethodInfo ToggleGroup_SetAllTogglesOff_m5691_MethodInfo = 
+extern const MethodInfo ToggleGroup_SetAllTogglesOff_m5695_MethodInfo = 
 {
 	"SetAllTogglesOff"/* name */
-	, (methodPointerType)&ToggleGroup_SetAllTogglesOff_m5691/* method */
+	, (methodPointerType)&ToggleGroup_SetAllTogglesOff_m5695/* method */
 	, &ToggleGroup_t999_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10162,20 +10162,20 @@ extern const MethodInfo ToggleGroup_SetAllTogglesOff_m5691_MethodInfo =
 
 };
 extern const Il2CppType Toggle_t1000_0_0_0;
-static const ParameterInfo ToggleGroup_t999_ToggleGroup_U3CAnyTogglesOnU3Em__7_m5692_ParameterInfos[] = 
+static const ParameterInfo ToggleGroup_t999_ToggleGroup_U3CAnyTogglesOnU3Em__7_m5696_ParameterInfos[] = 
 {
 	{"x", 0, 134218319, 0, &Toggle_t1000_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.ToggleGroup::<AnyTogglesOn>m__7(UnityEngine.UI.Toggle)
-extern const MethodInfo ToggleGroup_U3CAnyTogglesOnU3Em__7_m5692_MethodInfo = 
+extern const MethodInfo ToggleGroup_U3CAnyTogglesOnU3Em__7_m5696_MethodInfo = 
 {
 	"<AnyTogglesOn>m__7"/* name */
-	, (methodPointerType)&ToggleGroup_U3CAnyTogglesOnU3Em__7_m5692/* method */
+	, (methodPointerType)&ToggleGroup_U3CAnyTogglesOnU3Em__7_m5696/* method */
 	, &ToggleGroup_t999_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, ToggleGroup_t999_ToggleGroup_U3CAnyTogglesOnU3Em__7_m5692_ParameterInfos/* parameters */
+	, ToggleGroup_t999_ToggleGroup_U3CAnyTogglesOnU3Em__7_m5696_ParameterInfos/* parameters */
 	, 265/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -10190,20 +10190,20 @@ extern const MethodInfo ToggleGroup_U3CAnyTogglesOnU3Em__7_m5692_MethodInfo =
 
 };
 extern const Il2CppType Toggle_t1000_0_0_0;
-static const ParameterInfo ToggleGroup_t999_ToggleGroup_U3CActiveTogglesU3Em__8_m5693_ParameterInfos[] = 
+static const ParameterInfo ToggleGroup_t999_ToggleGroup_U3CActiveTogglesU3Em__8_m5697_ParameterInfos[] = 
 {
 	{"x", 0, 134218320, 0, &Toggle_t1000_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.ToggleGroup::<ActiveToggles>m__8(UnityEngine.UI.Toggle)
-extern const MethodInfo ToggleGroup_U3CActiveTogglesU3Em__8_m5693_MethodInfo = 
+extern const MethodInfo ToggleGroup_U3CActiveTogglesU3Em__8_m5697_MethodInfo = 
 {
 	"<ActiveToggles>m__8"/* name */
-	, (methodPointerType)&ToggleGroup_U3CActiveTogglesU3Em__8_m5693/* method */
+	, (methodPointerType)&ToggleGroup_U3CActiveTogglesU3Em__8_m5697/* method */
 	, &ToggleGroup_t999_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, ToggleGroup_t999_ToggleGroup_U3CActiveTogglesU3Em__8_m5693_ParameterInfos/* parameters */
+	, ToggleGroup_t999_ToggleGroup_U3CActiveTogglesU3Em__8_m5697_ParameterInfos/* parameters */
 	, 266/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -10219,28 +10219,28 @@ extern const MethodInfo ToggleGroup_U3CActiveTogglesU3Em__8_m5693_MethodInfo =
 };
 static const MethodInfo* ToggleGroup_t999_MethodInfos[] =
 {
-	&ToggleGroup__ctor_m5682_MethodInfo,
-	&ToggleGroup_get_allowSwitchOff_m5683_MethodInfo,
-	&ToggleGroup_set_allowSwitchOff_m5684_MethodInfo,
-	&ToggleGroup_ValidateToggleIsInGroup_m5685_MethodInfo,
-	&ToggleGroup_NotifyToggleOn_m5686_MethodInfo,
-	&ToggleGroup_UnregisterToggle_m5687_MethodInfo,
-	&ToggleGroup_RegisterToggle_m5688_MethodInfo,
-	&ToggleGroup_AnyTogglesOn_m5689_MethodInfo,
-	&ToggleGroup_ActiveToggles_m5690_MethodInfo,
-	&ToggleGroup_SetAllTogglesOff_m5691_MethodInfo,
-	&ToggleGroup_U3CAnyTogglesOnU3Em__7_m5692_MethodInfo,
-	&ToggleGroup_U3CActiveTogglesU3Em__8_m5693_MethodInfo,
+	&ToggleGroup__ctor_m5686_MethodInfo,
+	&ToggleGroup_get_allowSwitchOff_m5687_MethodInfo,
+	&ToggleGroup_set_allowSwitchOff_m5688_MethodInfo,
+	&ToggleGroup_ValidateToggleIsInGroup_m5689_MethodInfo,
+	&ToggleGroup_NotifyToggleOn_m5690_MethodInfo,
+	&ToggleGroup_UnregisterToggle_m5691_MethodInfo,
+	&ToggleGroup_RegisterToggle_m5692_MethodInfo,
+	&ToggleGroup_AnyTogglesOn_m5693_MethodInfo,
+	&ToggleGroup_ActiveToggles_m5694_MethodInfo,
+	&ToggleGroup_SetAllTogglesOff_m5695_MethodInfo,
+	&ToggleGroup_U3CAnyTogglesOnU3Em__7_m5696_MethodInfo,
+	&ToggleGroup_U3CActiveTogglesU3Em__8_m5697_MethodInfo,
 	NULL
 };
-extern const MethodInfo ToggleGroup_get_allowSwitchOff_m5683_MethodInfo;
-extern const MethodInfo ToggleGroup_set_allowSwitchOff_m5684_MethodInfo;
+extern const MethodInfo ToggleGroup_get_allowSwitchOff_m5687_MethodInfo;
+extern const MethodInfo ToggleGroup_set_allowSwitchOff_m5688_MethodInfo;
 static const PropertyInfo ToggleGroup_t999____allowSwitchOff_PropertyInfo = 
 {
 	&ToggleGroup_t999_il2cpp_TypeInfo/* parent */
 	, "allowSwitchOff"/* name */
-	, &ToggleGroup_get_allowSwitchOff_m5683_MethodInfo/* get */
-	, &ToggleGroup_set_allowSwitchOff_m5684_MethodInfo/* set */
+	, &ToggleGroup_get_allowSwitchOff_m5687_MethodInfo/* get */
+	, &ToggleGroup_set_allowSwitchOff_m5688_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -10250,26 +10250,26 @@ static const PropertyInfo* ToggleGroup_t999_PropertyInfos[] =
 	&ToggleGroup_t999____allowSwitchOff_PropertyInfo,
 	NULL
 };
-extern const MethodInfo UIBehaviour_OnEnable_m4840_MethodInfo;
-extern const MethodInfo UIBehaviour_OnDisable_m4842_MethodInfo;
+extern const MethodInfo UIBehaviour_OnEnable_m4844_MethodInfo;
+extern const MethodInfo UIBehaviour_OnDisable_m4846_MethodInfo;
 static const Il2CppMethodReference ToggleGroup_t999_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
-	&UIBehaviour_Awake_m4839_MethodInfo,
-	&UIBehaviour_OnEnable_m4840_MethodInfo,
-	&UIBehaviour_Start_m4841_MethodInfo,
-	&UIBehaviour_OnDisable_m4842_MethodInfo,
-	&UIBehaviour_OnDestroy_m4843_MethodInfo,
-	&UIBehaviour_IsActive_m4844_MethodInfo,
-	&UIBehaviour_OnRectTransformDimensionsChange_m4845_MethodInfo,
-	&UIBehaviour_OnBeforeTransformParentChanged_m4846_MethodInfo,
-	&UIBehaviour_OnTransformParentChanged_m4847_MethodInfo,
-	&UIBehaviour_OnDidApplyAnimationProperties_m4848_MethodInfo,
-	&UIBehaviour_OnCanvasGroupChanged_m4849_MethodInfo,
-	&UIBehaviour_OnCanvasHierarchyChanged_m4850_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
+	&UIBehaviour_Awake_m4843_MethodInfo,
+	&UIBehaviour_OnEnable_m4844_MethodInfo,
+	&UIBehaviour_Start_m4845_MethodInfo,
+	&UIBehaviour_OnDisable_m4846_MethodInfo,
+	&UIBehaviour_OnDestroy_m4847_MethodInfo,
+	&UIBehaviour_IsActive_m4848_MethodInfo,
+	&UIBehaviour_OnRectTransformDimensionsChange_m4849_MethodInfo,
+	&UIBehaviour_OnBeforeTransformParentChanged_m4850_MethodInfo,
+	&UIBehaviour_OnTransformParentChanged_m4851_MethodInfo,
+	&UIBehaviour_OnDidApplyAnimationProperties_m4852_MethodInfo,
+	&UIBehaviour_OnCanvasGroupChanged_m4853_MethodInfo,
+	&UIBehaviour_OnCanvasHierarchyChanged_m4854_MethodInfo,
 };
 static bool ToggleGroup_t999_VTableIsGenericMethod[] =
 {
@@ -10372,29 +10372,29 @@ static const MethodInfo* AspectMode_t1004_MethodInfos[] =
 };
 static const Il2CppMethodReference AspectMode_t1004_VTable[] =
 {
-	&Enum_Equals_m501_MethodInfo,
+	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Enum_GetHashCode_m502_MethodInfo,
-	&Enum_ToString_m503_MethodInfo,
-	&Enum_ToString_m504_MethodInfo,
-	&Enum_System_IConvertible_ToBoolean_m505_MethodInfo,
-	&Enum_System_IConvertible_ToByte_m506_MethodInfo,
-	&Enum_System_IConvertible_ToChar_m507_MethodInfo,
-	&Enum_System_IConvertible_ToDateTime_m508_MethodInfo,
-	&Enum_System_IConvertible_ToDecimal_m509_MethodInfo,
-	&Enum_System_IConvertible_ToDouble_m510_MethodInfo,
-	&Enum_System_IConvertible_ToInt16_m511_MethodInfo,
-	&Enum_System_IConvertible_ToInt32_m512_MethodInfo,
-	&Enum_System_IConvertible_ToInt64_m513_MethodInfo,
-	&Enum_System_IConvertible_ToSByte_m514_MethodInfo,
-	&Enum_System_IConvertible_ToSingle_m515_MethodInfo,
-	&Enum_ToString_m516_MethodInfo,
-	&Enum_System_IConvertible_ToType_m517_MethodInfo,
-	&Enum_System_IConvertible_ToUInt16_m518_MethodInfo,
-	&Enum_System_IConvertible_ToUInt32_m519_MethodInfo,
-	&Enum_System_IConvertible_ToUInt64_m520_MethodInfo,
-	&Enum_CompareTo_m521_MethodInfo,
-	&Enum_GetTypeCode_m522_MethodInfo,
+	&Enum_GetHashCode_m504_MethodInfo,
+	&Enum_ToString_m505_MethodInfo,
+	&Enum_ToString_m506_MethodInfo,
+	&Enum_System_IConvertible_ToBoolean_m507_MethodInfo,
+	&Enum_System_IConvertible_ToByte_m508_MethodInfo,
+	&Enum_System_IConvertible_ToChar_m509_MethodInfo,
+	&Enum_System_IConvertible_ToDateTime_m510_MethodInfo,
+	&Enum_System_IConvertible_ToDecimal_m511_MethodInfo,
+	&Enum_System_IConvertible_ToDouble_m512_MethodInfo,
+	&Enum_System_IConvertible_ToInt16_m513_MethodInfo,
+	&Enum_System_IConvertible_ToInt32_m514_MethodInfo,
+	&Enum_System_IConvertible_ToInt64_m515_MethodInfo,
+	&Enum_System_IConvertible_ToSByte_m516_MethodInfo,
+	&Enum_System_IConvertible_ToSingle_m517_MethodInfo,
+	&Enum_ToString_m518_MethodInfo,
+	&Enum_System_IConvertible_ToType_m519_MethodInfo,
+	&Enum_System_IConvertible_ToUInt16_m520_MethodInfo,
+	&Enum_System_IConvertible_ToUInt32_m521_MethodInfo,
+	&Enum_System_IConvertible_ToUInt64_m522_MethodInfo,
+	&Enum_CompareTo_m523_MethodInfo,
+	&Enum_GetTypeCode_m524_MethodInfo,
 };
 static bool AspectMode_t1004_VTableIsGenericMethod[] =
 {
@@ -10507,10 +10507,10 @@ TypeInfo AspectMode_t1004_il2cpp_TypeInfo =
 #include "UnityEngine_UI_UnityEngine_UI_AspectRatioFitterMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.AspectRatioFitter::.ctor()
-extern const MethodInfo AspectRatioFitter__ctor_m5694_MethodInfo = 
+extern const MethodInfo AspectRatioFitter__ctor_m5698_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&AspectRatioFitter__ctor_m5694/* method */
+	, (methodPointerType)&AspectRatioFitter__ctor_m5698/* method */
 	, &AspectRatioFitter_t1005_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10530,10 +10530,10 @@ extern const MethodInfo AspectRatioFitter__ctor_m5694_MethodInfo =
 };
 extern void* RuntimeInvoker_AspectMode_t1004 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.AspectRatioFitter/AspectMode UnityEngine.UI.AspectRatioFitter::get_aspectMode()
-extern const MethodInfo AspectRatioFitter_get_aspectMode_m5695_MethodInfo = 
+extern const MethodInfo AspectRatioFitter_get_aspectMode_m5699_MethodInfo = 
 {
 	"get_aspectMode"/* name */
-	, (methodPointerType)&AspectRatioFitter_get_aspectMode_m5695/* method */
+	, (methodPointerType)&AspectRatioFitter_get_aspectMode_m5699/* method */
 	, &AspectRatioFitter_t1005_il2cpp_TypeInfo/* declaring_type */
 	, &AspectMode_t1004_0_0_0/* return_type */
 	, RuntimeInvoker_AspectMode_t1004/* invoker_method */
@@ -10552,20 +10552,20 @@ extern const MethodInfo AspectRatioFitter_get_aspectMode_m5695_MethodInfo =
 
 };
 extern const Il2CppType AspectMode_t1004_0_0_0;
-static const ParameterInfo AspectRatioFitter_t1005_AspectRatioFitter_set_aspectMode_m5696_ParameterInfos[] = 
+static const ParameterInfo AspectRatioFitter_t1005_AspectRatioFitter_set_aspectMode_m5700_ParameterInfos[] = 
 {
 	{"value", 0, 134218321, 0, &AspectMode_t1004_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.AspectRatioFitter::set_aspectMode(UnityEngine.UI.AspectRatioFitter/AspectMode)
-extern const MethodInfo AspectRatioFitter_set_aspectMode_m5696_MethodInfo = 
+extern const MethodInfo AspectRatioFitter_set_aspectMode_m5700_MethodInfo = 
 {
 	"set_aspectMode"/* name */
-	, (methodPointerType)&AspectRatioFitter_set_aspectMode_m5696/* method */
+	, (methodPointerType)&AspectRatioFitter_set_aspectMode_m5700/* method */
 	, &AspectRatioFitter_t1005_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, AspectRatioFitter_t1005_AspectRatioFitter_set_aspectMode_m5696_ParameterInfos/* parameters */
+	, AspectRatioFitter_t1005_AspectRatioFitter_set_aspectMode_m5700_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -10581,10 +10581,10 @@ extern const MethodInfo AspectRatioFitter_set_aspectMode_m5696_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.AspectRatioFitter::get_aspectRatio()
-extern const MethodInfo AspectRatioFitter_get_aspectRatio_m5697_MethodInfo = 
+extern const MethodInfo AspectRatioFitter_get_aspectRatio_m5701_MethodInfo = 
 {
 	"get_aspectRatio"/* name */
-	, (methodPointerType)&AspectRatioFitter_get_aspectRatio_m5697/* method */
+	, (methodPointerType)&AspectRatioFitter_get_aspectRatio_m5701/* method */
 	, &AspectRatioFitter_t1005_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -10603,20 +10603,20 @@ extern const MethodInfo AspectRatioFitter_get_aspectRatio_m5697_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo AspectRatioFitter_t1005_AspectRatioFitter_set_aspectRatio_m5698_ParameterInfos[] = 
+static const ParameterInfo AspectRatioFitter_t1005_AspectRatioFitter_set_aspectRatio_m5702_ParameterInfos[] = 
 {
 	{"value", 0, 134218322, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.AspectRatioFitter::set_aspectRatio(System.Single)
-extern const MethodInfo AspectRatioFitter_set_aspectRatio_m5698_MethodInfo = 
+extern const MethodInfo AspectRatioFitter_set_aspectRatio_m5702_MethodInfo = 
 {
 	"set_aspectRatio"/* name */
-	, (methodPointerType)&AspectRatioFitter_set_aspectRatio_m5698/* method */
+	, (methodPointerType)&AspectRatioFitter_set_aspectRatio_m5702/* method */
 	, &AspectRatioFitter_t1005_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, AspectRatioFitter_t1005_AspectRatioFitter_set_aspectRatio_m5698_ParameterInfos/* parameters */
+	, AspectRatioFitter_t1005_AspectRatioFitter_set_aspectRatio_m5702_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -10632,10 +10632,10 @@ extern const MethodInfo AspectRatioFitter_set_aspectRatio_m5698_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.RectTransform UnityEngine.UI.AspectRatioFitter::get_rectTransform()
-extern const MethodInfo AspectRatioFitter_get_rectTransform_m5699_MethodInfo = 
+extern const MethodInfo AspectRatioFitter_get_rectTransform_m5703_MethodInfo = 
 {
 	"get_rectTransform"/* name */
-	, (methodPointerType)&AspectRatioFitter_get_rectTransform_m5699/* method */
+	, (methodPointerType)&AspectRatioFitter_get_rectTransform_m5703/* method */
 	, &AspectRatioFitter_t1005_il2cpp_TypeInfo/* declaring_type */
 	, &RectTransform_t545_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -10655,10 +10655,10 @@ extern const MethodInfo AspectRatioFitter_get_rectTransform_m5699_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.AspectRatioFitter::OnEnable()
-extern const MethodInfo AspectRatioFitter_OnEnable_m5700_MethodInfo = 
+extern const MethodInfo AspectRatioFitter_OnEnable_m5704_MethodInfo = 
 {
 	"OnEnable"/* name */
-	, (methodPointerType)&AspectRatioFitter_OnEnable_m5700/* method */
+	, (methodPointerType)&AspectRatioFitter_OnEnable_m5704/* method */
 	, &AspectRatioFitter_t1005_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10678,10 +10678,10 @@ extern const MethodInfo AspectRatioFitter_OnEnable_m5700_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.AspectRatioFitter::OnDisable()
-extern const MethodInfo AspectRatioFitter_OnDisable_m5701_MethodInfo = 
+extern const MethodInfo AspectRatioFitter_OnDisable_m5705_MethodInfo = 
 {
 	"OnDisable"/* name */
-	, (methodPointerType)&AspectRatioFitter_OnDisable_m5701/* method */
+	, (methodPointerType)&AspectRatioFitter_OnDisable_m5705/* method */
 	, &AspectRatioFitter_t1005_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10701,10 +10701,10 @@ extern const MethodInfo AspectRatioFitter_OnDisable_m5701_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.AspectRatioFitter::OnRectTransformDimensionsChange()
-extern const MethodInfo AspectRatioFitter_OnRectTransformDimensionsChange_m5702_MethodInfo = 
+extern const MethodInfo AspectRatioFitter_OnRectTransformDimensionsChange_m5706_MethodInfo = 
 {
 	"OnRectTransformDimensionsChange"/* name */
-	, (methodPointerType)&AspectRatioFitter_OnRectTransformDimensionsChange_m5702/* method */
+	, (methodPointerType)&AspectRatioFitter_OnRectTransformDimensionsChange_m5706/* method */
 	, &AspectRatioFitter_t1005_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10724,10 +10724,10 @@ extern const MethodInfo AspectRatioFitter_OnRectTransformDimensionsChange_m5702_
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.AspectRatioFitter::UpdateRect()
-extern const MethodInfo AspectRatioFitter_UpdateRect_m5703_MethodInfo = 
+extern const MethodInfo AspectRatioFitter_UpdateRect_m5707_MethodInfo = 
 {
 	"UpdateRect"/* name */
-	, (methodPointerType)&AspectRatioFitter_UpdateRect_m5703/* method */
+	, (methodPointerType)&AspectRatioFitter_UpdateRect_m5707/* method */
 	, &AspectRatioFitter_t1005_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10747,21 +10747,21 @@ extern const MethodInfo AspectRatioFitter_UpdateRect_m5703_MethodInfo =
 };
 extern const Il2CppType Single_t87_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo AspectRatioFitter_t1005_AspectRatioFitter_GetSizeDeltaToProduceSize_m5704_ParameterInfos[] = 
+static const ParameterInfo AspectRatioFitter_t1005_AspectRatioFitter_GetSizeDeltaToProduceSize_m5708_ParameterInfos[] = 
 {
 	{"size", 0, 134218323, 0, &Single_t87_0_0_0},
 	{"axis", 1, 134218324, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Single_t87_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.AspectRatioFitter::GetSizeDeltaToProduceSize(System.Single,System.Int32)
-extern const MethodInfo AspectRatioFitter_GetSizeDeltaToProduceSize_m5704_MethodInfo = 
+extern const MethodInfo AspectRatioFitter_GetSizeDeltaToProduceSize_m5708_MethodInfo = 
 {
 	"GetSizeDeltaToProduceSize"/* name */
-	, (methodPointerType)&AspectRatioFitter_GetSizeDeltaToProduceSize_m5704/* method */
+	, (methodPointerType)&AspectRatioFitter_GetSizeDeltaToProduceSize_m5708/* method */
 	, &AspectRatioFitter_t1005_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Single_t87_Int32_t82/* invoker_method */
-	, AspectRatioFitter_t1005_AspectRatioFitter_GetSizeDeltaToProduceSize_m5704_ParameterInfos/* parameters */
+	, AspectRatioFitter_t1005_AspectRatioFitter_GetSizeDeltaToProduceSize_m5708_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -10777,10 +10777,10 @@ extern const MethodInfo AspectRatioFitter_GetSizeDeltaToProduceSize_m5704_Method
 };
 extern void* RuntimeInvoker_Vector2_t110 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector2 UnityEngine.UI.AspectRatioFitter::GetParentSize()
-extern const MethodInfo AspectRatioFitter_GetParentSize_m5705_MethodInfo = 
+extern const MethodInfo AspectRatioFitter_GetParentSize_m5709_MethodInfo = 
 {
 	"GetParentSize"/* name */
-	, (methodPointerType)&AspectRatioFitter_GetParentSize_m5705/* method */
+	, (methodPointerType)&AspectRatioFitter_GetParentSize_m5709/* method */
 	, &AspectRatioFitter_t1005_il2cpp_TypeInfo/* declaring_type */
 	, &Vector2_t110_0_0_0/* return_type */
 	, RuntimeInvoker_Vector2_t110/* invoker_method */
@@ -10800,10 +10800,10 @@ extern const MethodInfo AspectRatioFitter_GetParentSize_m5705_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.AspectRatioFitter::SetLayoutHorizontal()
-extern const MethodInfo AspectRatioFitter_SetLayoutHorizontal_m5706_MethodInfo = 
+extern const MethodInfo AspectRatioFitter_SetLayoutHorizontal_m5710_MethodInfo = 
 {
 	"SetLayoutHorizontal"/* name */
-	, (methodPointerType)&AspectRatioFitter_SetLayoutHorizontal_m5706/* method */
+	, (methodPointerType)&AspectRatioFitter_SetLayoutHorizontal_m5710/* method */
 	, &AspectRatioFitter_t1005_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10823,10 +10823,10 @@ extern const MethodInfo AspectRatioFitter_SetLayoutHorizontal_m5706_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.AspectRatioFitter::SetLayoutVertical()
-extern const MethodInfo AspectRatioFitter_SetLayoutVertical_m5707_MethodInfo = 
+extern const MethodInfo AspectRatioFitter_SetLayoutVertical_m5711_MethodInfo = 
 {
 	"SetLayoutVertical"/* name */
-	, (methodPointerType)&AspectRatioFitter_SetLayoutVertical_m5707/* method */
+	, (methodPointerType)&AspectRatioFitter_SetLayoutVertical_m5711/* method */
 	, &AspectRatioFitter_t1005_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10846,10 +10846,10 @@ extern const MethodInfo AspectRatioFitter_SetLayoutVertical_m5707_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.AspectRatioFitter::SetDirty()
-extern const MethodInfo AspectRatioFitter_SetDirty_m5708_MethodInfo = 
+extern const MethodInfo AspectRatioFitter_SetDirty_m5712_MethodInfo = 
 {
 	"SetDirty"/* name */
-	, (methodPointerType)&AspectRatioFitter_SetDirty_m5708/* method */
+	, (methodPointerType)&AspectRatioFitter_SetDirty_m5712/* method */
 	, &AspectRatioFitter_t1005_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -10869,53 +10869,53 @@ extern const MethodInfo AspectRatioFitter_SetDirty_m5708_MethodInfo =
 };
 static const MethodInfo* AspectRatioFitter_t1005_MethodInfos[] =
 {
-	&AspectRatioFitter__ctor_m5694_MethodInfo,
-	&AspectRatioFitter_get_aspectMode_m5695_MethodInfo,
-	&AspectRatioFitter_set_aspectMode_m5696_MethodInfo,
-	&AspectRatioFitter_get_aspectRatio_m5697_MethodInfo,
-	&AspectRatioFitter_set_aspectRatio_m5698_MethodInfo,
-	&AspectRatioFitter_get_rectTransform_m5699_MethodInfo,
-	&AspectRatioFitter_OnEnable_m5700_MethodInfo,
-	&AspectRatioFitter_OnDisable_m5701_MethodInfo,
-	&AspectRatioFitter_OnRectTransformDimensionsChange_m5702_MethodInfo,
-	&AspectRatioFitter_UpdateRect_m5703_MethodInfo,
-	&AspectRatioFitter_GetSizeDeltaToProduceSize_m5704_MethodInfo,
-	&AspectRatioFitter_GetParentSize_m5705_MethodInfo,
-	&AspectRatioFitter_SetLayoutHorizontal_m5706_MethodInfo,
-	&AspectRatioFitter_SetLayoutVertical_m5707_MethodInfo,
-	&AspectRatioFitter_SetDirty_m5708_MethodInfo,
+	&AspectRatioFitter__ctor_m5698_MethodInfo,
+	&AspectRatioFitter_get_aspectMode_m5699_MethodInfo,
+	&AspectRatioFitter_set_aspectMode_m5700_MethodInfo,
+	&AspectRatioFitter_get_aspectRatio_m5701_MethodInfo,
+	&AspectRatioFitter_set_aspectRatio_m5702_MethodInfo,
+	&AspectRatioFitter_get_rectTransform_m5703_MethodInfo,
+	&AspectRatioFitter_OnEnable_m5704_MethodInfo,
+	&AspectRatioFitter_OnDisable_m5705_MethodInfo,
+	&AspectRatioFitter_OnRectTransformDimensionsChange_m5706_MethodInfo,
+	&AspectRatioFitter_UpdateRect_m5707_MethodInfo,
+	&AspectRatioFitter_GetSizeDeltaToProduceSize_m5708_MethodInfo,
+	&AspectRatioFitter_GetParentSize_m5709_MethodInfo,
+	&AspectRatioFitter_SetLayoutHorizontal_m5710_MethodInfo,
+	&AspectRatioFitter_SetLayoutVertical_m5711_MethodInfo,
+	&AspectRatioFitter_SetDirty_m5712_MethodInfo,
 	NULL
 };
-extern const MethodInfo AspectRatioFitter_get_aspectMode_m5695_MethodInfo;
-extern const MethodInfo AspectRatioFitter_set_aspectMode_m5696_MethodInfo;
+extern const MethodInfo AspectRatioFitter_get_aspectMode_m5699_MethodInfo;
+extern const MethodInfo AspectRatioFitter_set_aspectMode_m5700_MethodInfo;
 static const PropertyInfo AspectRatioFitter_t1005____aspectMode_PropertyInfo = 
 {
 	&AspectRatioFitter_t1005_il2cpp_TypeInfo/* parent */
 	, "aspectMode"/* name */
-	, &AspectRatioFitter_get_aspectMode_m5695_MethodInfo/* get */
-	, &AspectRatioFitter_set_aspectMode_m5696_MethodInfo/* set */
+	, &AspectRatioFitter_get_aspectMode_m5699_MethodInfo/* get */
+	, &AspectRatioFitter_set_aspectMode_m5700_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AspectRatioFitter_get_aspectRatio_m5697_MethodInfo;
-extern const MethodInfo AspectRatioFitter_set_aspectRatio_m5698_MethodInfo;
+extern const MethodInfo AspectRatioFitter_get_aspectRatio_m5701_MethodInfo;
+extern const MethodInfo AspectRatioFitter_set_aspectRatio_m5702_MethodInfo;
 static const PropertyInfo AspectRatioFitter_t1005____aspectRatio_PropertyInfo = 
 {
 	&AspectRatioFitter_t1005_il2cpp_TypeInfo/* parent */
 	, "aspectRatio"/* name */
-	, &AspectRatioFitter_get_aspectRatio_m5697_MethodInfo/* get */
-	, &AspectRatioFitter_set_aspectRatio_m5698_MethodInfo/* set */
+	, &AspectRatioFitter_get_aspectRatio_m5701_MethodInfo/* get */
+	, &AspectRatioFitter_set_aspectRatio_m5702_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo AspectRatioFitter_get_rectTransform_m5699_MethodInfo;
+extern const MethodInfo AspectRatioFitter_get_rectTransform_m5703_MethodInfo;
 static const PropertyInfo AspectRatioFitter_t1005____rectTransform_PropertyInfo = 
 {
 	&AspectRatioFitter_t1005_il2cpp_TypeInfo/* parent */
 	, "rectTransform"/* name */
-	, &AspectRatioFitter_get_rectTransform_m5699_MethodInfo/* get */
+	, &AspectRatioFitter_get_rectTransform_m5703_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -10932,33 +10932,33 @@ static const Il2CppType* AspectRatioFitter_t1005_il2cpp_TypeInfo__nestedTypes[1]
 {
 	&AspectMode_t1004_0_0_0,
 };
-extern const MethodInfo AspectRatioFitter_OnEnable_m5700_MethodInfo;
-extern const MethodInfo AspectRatioFitter_OnDisable_m5701_MethodInfo;
-extern const MethodInfo AspectRatioFitter_OnRectTransformDimensionsChange_m5702_MethodInfo;
-extern const MethodInfo AspectRatioFitter_SetLayoutHorizontal_m5706_MethodInfo;
-extern const MethodInfo AspectRatioFitter_SetLayoutVertical_m5707_MethodInfo;
+extern const MethodInfo AspectRatioFitter_OnEnable_m5704_MethodInfo;
+extern const MethodInfo AspectRatioFitter_OnDisable_m5705_MethodInfo;
+extern const MethodInfo AspectRatioFitter_OnRectTransformDimensionsChange_m5706_MethodInfo;
+extern const MethodInfo AspectRatioFitter_SetLayoutHorizontal_m5710_MethodInfo;
+extern const MethodInfo AspectRatioFitter_SetLayoutVertical_m5711_MethodInfo;
 static const Il2CppMethodReference AspectRatioFitter_t1005_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
-	&UIBehaviour_Awake_m4839_MethodInfo,
-	&AspectRatioFitter_OnEnable_m5700_MethodInfo,
-	&UIBehaviour_Start_m4841_MethodInfo,
-	&AspectRatioFitter_OnDisable_m5701_MethodInfo,
-	&UIBehaviour_OnDestroy_m4843_MethodInfo,
-	&UIBehaviour_IsActive_m4844_MethodInfo,
-	&AspectRatioFitter_OnRectTransformDimensionsChange_m5702_MethodInfo,
-	&UIBehaviour_OnBeforeTransformParentChanged_m4846_MethodInfo,
-	&UIBehaviour_OnTransformParentChanged_m4847_MethodInfo,
-	&UIBehaviour_OnDidApplyAnimationProperties_m4848_MethodInfo,
-	&UIBehaviour_OnCanvasGroupChanged_m4849_MethodInfo,
-	&UIBehaviour_OnCanvasHierarchyChanged_m4850_MethodInfo,
-	&AspectRatioFitter_SetLayoutHorizontal_m5706_MethodInfo,
-	&AspectRatioFitter_SetLayoutVertical_m5707_MethodInfo,
-	&AspectRatioFitter_SetLayoutHorizontal_m5706_MethodInfo,
-	&AspectRatioFitter_SetLayoutVertical_m5707_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
+	&UIBehaviour_Awake_m4843_MethodInfo,
+	&AspectRatioFitter_OnEnable_m5704_MethodInfo,
+	&UIBehaviour_Start_m4845_MethodInfo,
+	&AspectRatioFitter_OnDisable_m5705_MethodInfo,
+	&UIBehaviour_OnDestroy_m4847_MethodInfo,
+	&UIBehaviour_IsActive_m4848_MethodInfo,
+	&AspectRatioFitter_OnRectTransformDimensionsChange_m5706_MethodInfo,
+	&UIBehaviour_OnBeforeTransformParentChanged_m4850_MethodInfo,
+	&UIBehaviour_OnTransformParentChanged_m4851_MethodInfo,
+	&UIBehaviour_OnDidApplyAnimationProperties_m4852_MethodInfo,
+	&UIBehaviour_OnCanvasGroupChanged_m4853_MethodInfo,
+	&UIBehaviour_OnCanvasHierarchyChanged_m4854_MethodInfo,
+	&AspectRatioFitter_SetLayoutHorizontal_m5710_MethodInfo,
+	&AspectRatioFitter_SetLayoutVertical_m5711_MethodInfo,
+	&AspectRatioFitter_SetLayoutHorizontal_m5710_MethodInfo,
+	&AspectRatioFitter_SetLayoutVertical_m5711_MethodInfo,
 };
 static bool AspectRatioFitter_t1005_VTableIsGenericMethod[] =
 {
@@ -11077,29 +11077,29 @@ static const MethodInfo* ScaleMode_t1006_MethodInfos[] =
 };
 static const Il2CppMethodReference ScaleMode_t1006_VTable[] =
 {
-	&Enum_Equals_m501_MethodInfo,
+	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Enum_GetHashCode_m502_MethodInfo,
-	&Enum_ToString_m503_MethodInfo,
-	&Enum_ToString_m504_MethodInfo,
-	&Enum_System_IConvertible_ToBoolean_m505_MethodInfo,
-	&Enum_System_IConvertible_ToByte_m506_MethodInfo,
-	&Enum_System_IConvertible_ToChar_m507_MethodInfo,
-	&Enum_System_IConvertible_ToDateTime_m508_MethodInfo,
-	&Enum_System_IConvertible_ToDecimal_m509_MethodInfo,
-	&Enum_System_IConvertible_ToDouble_m510_MethodInfo,
-	&Enum_System_IConvertible_ToInt16_m511_MethodInfo,
-	&Enum_System_IConvertible_ToInt32_m512_MethodInfo,
-	&Enum_System_IConvertible_ToInt64_m513_MethodInfo,
-	&Enum_System_IConvertible_ToSByte_m514_MethodInfo,
-	&Enum_System_IConvertible_ToSingle_m515_MethodInfo,
-	&Enum_ToString_m516_MethodInfo,
-	&Enum_System_IConvertible_ToType_m517_MethodInfo,
-	&Enum_System_IConvertible_ToUInt16_m518_MethodInfo,
-	&Enum_System_IConvertible_ToUInt32_m519_MethodInfo,
-	&Enum_System_IConvertible_ToUInt64_m520_MethodInfo,
-	&Enum_CompareTo_m521_MethodInfo,
-	&Enum_GetTypeCode_m522_MethodInfo,
+	&Enum_GetHashCode_m504_MethodInfo,
+	&Enum_ToString_m505_MethodInfo,
+	&Enum_ToString_m506_MethodInfo,
+	&Enum_System_IConvertible_ToBoolean_m507_MethodInfo,
+	&Enum_System_IConvertible_ToByte_m508_MethodInfo,
+	&Enum_System_IConvertible_ToChar_m509_MethodInfo,
+	&Enum_System_IConvertible_ToDateTime_m510_MethodInfo,
+	&Enum_System_IConvertible_ToDecimal_m511_MethodInfo,
+	&Enum_System_IConvertible_ToDouble_m512_MethodInfo,
+	&Enum_System_IConvertible_ToInt16_m513_MethodInfo,
+	&Enum_System_IConvertible_ToInt32_m514_MethodInfo,
+	&Enum_System_IConvertible_ToInt64_m515_MethodInfo,
+	&Enum_System_IConvertible_ToSByte_m516_MethodInfo,
+	&Enum_System_IConvertible_ToSingle_m517_MethodInfo,
+	&Enum_ToString_m518_MethodInfo,
+	&Enum_System_IConvertible_ToType_m519_MethodInfo,
+	&Enum_System_IConvertible_ToUInt16_m520_MethodInfo,
+	&Enum_System_IConvertible_ToUInt32_m521_MethodInfo,
+	&Enum_System_IConvertible_ToUInt64_m522_MethodInfo,
+	&Enum_CompareTo_m523_MethodInfo,
+	&Enum_GetTypeCode_m524_MethodInfo,
 };
 static bool ScaleMode_t1006_VTableIsGenericMethod[] =
 {
@@ -11217,29 +11217,29 @@ static const MethodInfo* ScreenMatchMode_t1007_MethodInfos[] =
 };
 static const Il2CppMethodReference ScreenMatchMode_t1007_VTable[] =
 {
-	&Enum_Equals_m501_MethodInfo,
+	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Enum_GetHashCode_m502_MethodInfo,
-	&Enum_ToString_m503_MethodInfo,
-	&Enum_ToString_m504_MethodInfo,
-	&Enum_System_IConvertible_ToBoolean_m505_MethodInfo,
-	&Enum_System_IConvertible_ToByte_m506_MethodInfo,
-	&Enum_System_IConvertible_ToChar_m507_MethodInfo,
-	&Enum_System_IConvertible_ToDateTime_m508_MethodInfo,
-	&Enum_System_IConvertible_ToDecimal_m509_MethodInfo,
-	&Enum_System_IConvertible_ToDouble_m510_MethodInfo,
-	&Enum_System_IConvertible_ToInt16_m511_MethodInfo,
-	&Enum_System_IConvertible_ToInt32_m512_MethodInfo,
-	&Enum_System_IConvertible_ToInt64_m513_MethodInfo,
-	&Enum_System_IConvertible_ToSByte_m514_MethodInfo,
-	&Enum_System_IConvertible_ToSingle_m515_MethodInfo,
-	&Enum_ToString_m516_MethodInfo,
-	&Enum_System_IConvertible_ToType_m517_MethodInfo,
-	&Enum_System_IConvertible_ToUInt16_m518_MethodInfo,
-	&Enum_System_IConvertible_ToUInt32_m519_MethodInfo,
-	&Enum_System_IConvertible_ToUInt64_m520_MethodInfo,
-	&Enum_CompareTo_m521_MethodInfo,
-	&Enum_GetTypeCode_m522_MethodInfo,
+	&Enum_GetHashCode_m504_MethodInfo,
+	&Enum_ToString_m505_MethodInfo,
+	&Enum_ToString_m506_MethodInfo,
+	&Enum_System_IConvertible_ToBoolean_m507_MethodInfo,
+	&Enum_System_IConvertible_ToByte_m508_MethodInfo,
+	&Enum_System_IConvertible_ToChar_m509_MethodInfo,
+	&Enum_System_IConvertible_ToDateTime_m510_MethodInfo,
+	&Enum_System_IConvertible_ToDecimal_m511_MethodInfo,
+	&Enum_System_IConvertible_ToDouble_m512_MethodInfo,
+	&Enum_System_IConvertible_ToInt16_m513_MethodInfo,
+	&Enum_System_IConvertible_ToInt32_m514_MethodInfo,
+	&Enum_System_IConvertible_ToInt64_m515_MethodInfo,
+	&Enum_System_IConvertible_ToSByte_m516_MethodInfo,
+	&Enum_System_IConvertible_ToSingle_m517_MethodInfo,
+	&Enum_ToString_m518_MethodInfo,
+	&Enum_System_IConvertible_ToType_m519_MethodInfo,
+	&Enum_System_IConvertible_ToUInt16_m520_MethodInfo,
+	&Enum_System_IConvertible_ToUInt32_m521_MethodInfo,
+	&Enum_System_IConvertible_ToUInt64_m522_MethodInfo,
+	&Enum_CompareTo_m523_MethodInfo,
+	&Enum_GetTypeCode_m524_MethodInfo,
 };
 static bool ScreenMatchMode_t1007_VTableIsGenericMethod[] =
 {
@@ -11355,29 +11355,29 @@ static const MethodInfo* Unit_t1008_MethodInfos[] =
 };
 static const Il2CppMethodReference Unit_t1008_VTable[] =
 {
-	&Enum_Equals_m501_MethodInfo,
+	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Enum_GetHashCode_m502_MethodInfo,
-	&Enum_ToString_m503_MethodInfo,
-	&Enum_ToString_m504_MethodInfo,
-	&Enum_System_IConvertible_ToBoolean_m505_MethodInfo,
-	&Enum_System_IConvertible_ToByte_m506_MethodInfo,
-	&Enum_System_IConvertible_ToChar_m507_MethodInfo,
-	&Enum_System_IConvertible_ToDateTime_m508_MethodInfo,
-	&Enum_System_IConvertible_ToDecimal_m509_MethodInfo,
-	&Enum_System_IConvertible_ToDouble_m510_MethodInfo,
-	&Enum_System_IConvertible_ToInt16_m511_MethodInfo,
-	&Enum_System_IConvertible_ToInt32_m512_MethodInfo,
-	&Enum_System_IConvertible_ToInt64_m513_MethodInfo,
-	&Enum_System_IConvertible_ToSByte_m514_MethodInfo,
-	&Enum_System_IConvertible_ToSingle_m515_MethodInfo,
-	&Enum_ToString_m516_MethodInfo,
-	&Enum_System_IConvertible_ToType_m517_MethodInfo,
-	&Enum_System_IConvertible_ToUInt16_m518_MethodInfo,
-	&Enum_System_IConvertible_ToUInt32_m519_MethodInfo,
-	&Enum_System_IConvertible_ToUInt64_m520_MethodInfo,
-	&Enum_CompareTo_m521_MethodInfo,
-	&Enum_GetTypeCode_m522_MethodInfo,
+	&Enum_GetHashCode_m504_MethodInfo,
+	&Enum_ToString_m505_MethodInfo,
+	&Enum_ToString_m506_MethodInfo,
+	&Enum_System_IConvertible_ToBoolean_m507_MethodInfo,
+	&Enum_System_IConvertible_ToByte_m508_MethodInfo,
+	&Enum_System_IConvertible_ToChar_m509_MethodInfo,
+	&Enum_System_IConvertible_ToDateTime_m510_MethodInfo,
+	&Enum_System_IConvertible_ToDecimal_m511_MethodInfo,
+	&Enum_System_IConvertible_ToDouble_m512_MethodInfo,
+	&Enum_System_IConvertible_ToInt16_m513_MethodInfo,
+	&Enum_System_IConvertible_ToInt32_m514_MethodInfo,
+	&Enum_System_IConvertible_ToInt64_m515_MethodInfo,
+	&Enum_System_IConvertible_ToSByte_m516_MethodInfo,
+	&Enum_System_IConvertible_ToSingle_m517_MethodInfo,
+	&Enum_ToString_m518_MethodInfo,
+	&Enum_System_IConvertible_ToType_m519_MethodInfo,
+	&Enum_System_IConvertible_ToUInt16_m520_MethodInfo,
+	&Enum_System_IConvertible_ToUInt32_m521_MethodInfo,
+	&Enum_System_IConvertible_ToUInt64_m522_MethodInfo,
+	&Enum_CompareTo_m523_MethodInfo,
+	&Enum_GetTypeCode_m524_MethodInfo,
 };
 static bool Unit_t1008_VTableIsGenericMethod[] =
 {
@@ -11488,10 +11488,10 @@ TypeInfo Unit_t1008_il2cpp_TypeInfo =
 #include "UnityEngine_UI_UnityEngine_UI_CanvasScalerMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::.ctor()
-extern const MethodInfo CanvasScaler__ctor_m5709_MethodInfo = 
+extern const MethodInfo CanvasScaler__ctor_m5713_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&CanvasScaler__ctor_m5709/* method */
+	, (methodPointerType)&CanvasScaler__ctor_m5713/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -11511,10 +11511,10 @@ extern const MethodInfo CanvasScaler__ctor_m5709_MethodInfo =
 };
 extern void* RuntimeInvoker_ScaleMode_t1006 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.CanvasScaler/ScaleMode UnityEngine.UI.CanvasScaler::get_uiScaleMode()
-extern const MethodInfo CanvasScaler_get_uiScaleMode_m5710_MethodInfo = 
+extern const MethodInfo CanvasScaler_get_uiScaleMode_m5714_MethodInfo = 
 {
 	"get_uiScaleMode"/* name */
-	, (methodPointerType)&CanvasScaler_get_uiScaleMode_m5710/* method */
+	, (methodPointerType)&CanvasScaler_get_uiScaleMode_m5714/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &ScaleMode_t1006_0_0_0/* return_type */
 	, RuntimeInvoker_ScaleMode_t1006/* invoker_method */
@@ -11533,20 +11533,20 @@ extern const MethodInfo CanvasScaler_get_uiScaleMode_m5710_MethodInfo =
 
 };
 extern const Il2CppType ScaleMode_t1006_0_0_0;
-static const ParameterInfo CanvasScaler_t520_CanvasScaler_set_uiScaleMode_m5711_ParameterInfos[] = 
+static const ParameterInfo CanvasScaler_t520_CanvasScaler_set_uiScaleMode_m5715_ParameterInfos[] = 
 {
 	{"value", 0, 134218325, 0, &ScaleMode_t1006_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::set_uiScaleMode(UnityEngine.UI.CanvasScaler/ScaleMode)
-extern const MethodInfo CanvasScaler_set_uiScaleMode_m5711_MethodInfo = 
+extern const MethodInfo CanvasScaler_set_uiScaleMode_m5715_MethodInfo = 
 {
 	"set_uiScaleMode"/* name */
-	, (methodPointerType)&CanvasScaler_set_uiScaleMode_m5711/* method */
+	, (methodPointerType)&CanvasScaler_set_uiScaleMode_m5715/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, CanvasScaler_t520_CanvasScaler_set_uiScaleMode_m5711_ParameterInfos/* parameters */
+	, CanvasScaler_t520_CanvasScaler_set_uiScaleMode_m5715_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -11562,10 +11562,10 @@ extern const MethodInfo CanvasScaler_set_uiScaleMode_m5711_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.CanvasScaler::get_referencePixelsPerUnit()
-extern const MethodInfo CanvasScaler_get_referencePixelsPerUnit_m5712_MethodInfo = 
+extern const MethodInfo CanvasScaler_get_referencePixelsPerUnit_m5716_MethodInfo = 
 {
 	"get_referencePixelsPerUnit"/* name */
-	, (methodPointerType)&CanvasScaler_get_referencePixelsPerUnit_m5712/* method */
+	, (methodPointerType)&CanvasScaler_get_referencePixelsPerUnit_m5716/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -11584,20 +11584,20 @@ extern const MethodInfo CanvasScaler_get_referencePixelsPerUnit_m5712_MethodInfo
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo CanvasScaler_t520_CanvasScaler_set_referencePixelsPerUnit_m5713_ParameterInfos[] = 
+static const ParameterInfo CanvasScaler_t520_CanvasScaler_set_referencePixelsPerUnit_m5717_ParameterInfos[] = 
 {
 	{"value", 0, 134218326, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::set_referencePixelsPerUnit(System.Single)
-extern const MethodInfo CanvasScaler_set_referencePixelsPerUnit_m5713_MethodInfo = 
+extern const MethodInfo CanvasScaler_set_referencePixelsPerUnit_m5717_MethodInfo = 
 {
 	"set_referencePixelsPerUnit"/* name */
-	, (methodPointerType)&CanvasScaler_set_referencePixelsPerUnit_m5713/* method */
+	, (methodPointerType)&CanvasScaler_set_referencePixelsPerUnit_m5717/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, CanvasScaler_t520_CanvasScaler_set_referencePixelsPerUnit_m5713_ParameterInfos/* parameters */
+	, CanvasScaler_t520_CanvasScaler_set_referencePixelsPerUnit_m5717_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -11613,10 +11613,10 @@ extern const MethodInfo CanvasScaler_set_referencePixelsPerUnit_m5713_MethodInfo
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.CanvasScaler::get_scaleFactor()
-extern const MethodInfo CanvasScaler_get_scaleFactor_m5714_MethodInfo = 
+extern const MethodInfo CanvasScaler_get_scaleFactor_m5718_MethodInfo = 
 {
 	"get_scaleFactor"/* name */
-	, (methodPointerType)&CanvasScaler_get_scaleFactor_m5714/* method */
+	, (methodPointerType)&CanvasScaler_get_scaleFactor_m5718/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -11635,20 +11635,20 @@ extern const MethodInfo CanvasScaler_get_scaleFactor_m5714_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo CanvasScaler_t520_CanvasScaler_set_scaleFactor_m4328_ParameterInfos[] = 
+static const ParameterInfo CanvasScaler_t520_CanvasScaler_set_scaleFactor_m4331_ParameterInfos[] = 
 {
 	{"value", 0, 134218327, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::set_scaleFactor(System.Single)
-extern const MethodInfo CanvasScaler_set_scaleFactor_m4328_MethodInfo = 
+extern const MethodInfo CanvasScaler_set_scaleFactor_m4331_MethodInfo = 
 {
 	"set_scaleFactor"/* name */
-	, (methodPointerType)&CanvasScaler_set_scaleFactor_m4328/* method */
+	, (methodPointerType)&CanvasScaler_set_scaleFactor_m4331/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, CanvasScaler_t520_CanvasScaler_set_scaleFactor_m4328_ParameterInfos/* parameters */
+	, CanvasScaler_t520_CanvasScaler_set_scaleFactor_m4331_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -11664,10 +11664,10 @@ extern const MethodInfo CanvasScaler_set_scaleFactor_m4328_MethodInfo =
 };
 extern void* RuntimeInvoker_Vector2_t110 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector2 UnityEngine.UI.CanvasScaler::get_referenceResolution()
-extern const MethodInfo CanvasScaler_get_referenceResolution_m5715_MethodInfo = 
+extern const MethodInfo CanvasScaler_get_referenceResolution_m5719_MethodInfo = 
 {
 	"get_referenceResolution"/* name */
-	, (methodPointerType)&CanvasScaler_get_referenceResolution_m5715/* method */
+	, (methodPointerType)&CanvasScaler_get_referenceResolution_m5719/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Vector2_t110_0_0_0/* return_type */
 	, RuntimeInvoker_Vector2_t110/* invoker_method */
@@ -11686,20 +11686,20 @@ extern const MethodInfo CanvasScaler_get_referenceResolution_m5715_MethodInfo =
 
 };
 extern const Il2CppType Vector2_t110_0_0_0;
-static const ParameterInfo CanvasScaler_t520_CanvasScaler_set_referenceResolution_m5716_ParameterInfos[] = 
+static const ParameterInfo CanvasScaler_t520_CanvasScaler_set_referenceResolution_m5720_ParameterInfos[] = 
 {
 	{"value", 0, 134218328, 0, &Vector2_t110_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Vector2_t110 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::set_referenceResolution(UnityEngine.Vector2)
-extern const MethodInfo CanvasScaler_set_referenceResolution_m5716_MethodInfo = 
+extern const MethodInfo CanvasScaler_set_referenceResolution_m5720_MethodInfo = 
 {
 	"set_referenceResolution"/* name */
-	, (methodPointerType)&CanvasScaler_set_referenceResolution_m5716/* method */
+	, (methodPointerType)&CanvasScaler_set_referenceResolution_m5720/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Vector2_t110/* invoker_method */
-	, CanvasScaler_t520_CanvasScaler_set_referenceResolution_m5716_ParameterInfos/* parameters */
+	, CanvasScaler_t520_CanvasScaler_set_referenceResolution_m5720_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -11715,10 +11715,10 @@ extern const MethodInfo CanvasScaler_set_referenceResolution_m5716_MethodInfo =
 };
 extern void* RuntimeInvoker_ScreenMatchMode_t1007 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.CanvasScaler/ScreenMatchMode UnityEngine.UI.CanvasScaler::get_screenMatchMode()
-extern const MethodInfo CanvasScaler_get_screenMatchMode_m5717_MethodInfo = 
+extern const MethodInfo CanvasScaler_get_screenMatchMode_m5721_MethodInfo = 
 {
 	"get_screenMatchMode"/* name */
-	, (methodPointerType)&CanvasScaler_get_screenMatchMode_m5717/* method */
+	, (methodPointerType)&CanvasScaler_get_screenMatchMode_m5721/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &ScreenMatchMode_t1007_0_0_0/* return_type */
 	, RuntimeInvoker_ScreenMatchMode_t1007/* invoker_method */
@@ -11737,20 +11737,20 @@ extern const MethodInfo CanvasScaler_get_screenMatchMode_m5717_MethodInfo =
 
 };
 extern const Il2CppType ScreenMatchMode_t1007_0_0_0;
-static const ParameterInfo CanvasScaler_t520_CanvasScaler_set_screenMatchMode_m5718_ParameterInfos[] = 
+static const ParameterInfo CanvasScaler_t520_CanvasScaler_set_screenMatchMode_m5722_ParameterInfos[] = 
 {
 	{"value", 0, 134218329, 0, &ScreenMatchMode_t1007_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::set_screenMatchMode(UnityEngine.UI.CanvasScaler/ScreenMatchMode)
-extern const MethodInfo CanvasScaler_set_screenMatchMode_m5718_MethodInfo = 
+extern const MethodInfo CanvasScaler_set_screenMatchMode_m5722_MethodInfo = 
 {
 	"set_screenMatchMode"/* name */
-	, (methodPointerType)&CanvasScaler_set_screenMatchMode_m5718/* method */
+	, (methodPointerType)&CanvasScaler_set_screenMatchMode_m5722/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, CanvasScaler_t520_CanvasScaler_set_screenMatchMode_m5718_ParameterInfos/* parameters */
+	, CanvasScaler_t520_CanvasScaler_set_screenMatchMode_m5722_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -11766,10 +11766,10 @@ extern const MethodInfo CanvasScaler_set_screenMatchMode_m5718_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.CanvasScaler::get_matchWidthOrHeight()
-extern const MethodInfo CanvasScaler_get_matchWidthOrHeight_m5719_MethodInfo = 
+extern const MethodInfo CanvasScaler_get_matchWidthOrHeight_m5723_MethodInfo = 
 {
 	"get_matchWidthOrHeight"/* name */
-	, (methodPointerType)&CanvasScaler_get_matchWidthOrHeight_m5719/* method */
+	, (methodPointerType)&CanvasScaler_get_matchWidthOrHeight_m5723/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -11788,20 +11788,20 @@ extern const MethodInfo CanvasScaler_get_matchWidthOrHeight_m5719_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo CanvasScaler_t520_CanvasScaler_set_matchWidthOrHeight_m5720_ParameterInfos[] = 
+static const ParameterInfo CanvasScaler_t520_CanvasScaler_set_matchWidthOrHeight_m5724_ParameterInfos[] = 
 {
 	{"value", 0, 134218330, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::set_matchWidthOrHeight(System.Single)
-extern const MethodInfo CanvasScaler_set_matchWidthOrHeight_m5720_MethodInfo = 
+extern const MethodInfo CanvasScaler_set_matchWidthOrHeight_m5724_MethodInfo = 
 {
 	"set_matchWidthOrHeight"/* name */
-	, (methodPointerType)&CanvasScaler_set_matchWidthOrHeight_m5720/* method */
+	, (methodPointerType)&CanvasScaler_set_matchWidthOrHeight_m5724/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, CanvasScaler_t520_CanvasScaler_set_matchWidthOrHeight_m5720_ParameterInfos/* parameters */
+	, CanvasScaler_t520_CanvasScaler_set_matchWidthOrHeight_m5724_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -11817,10 +11817,10 @@ extern const MethodInfo CanvasScaler_set_matchWidthOrHeight_m5720_MethodInfo =
 };
 extern void* RuntimeInvoker_Unit_t1008 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.CanvasScaler/Unit UnityEngine.UI.CanvasScaler::get_physicalUnit()
-extern const MethodInfo CanvasScaler_get_physicalUnit_m5721_MethodInfo = 
+extern const MethodInfo CanvasScaler_get_physicalUnit_m5725_MethodInfo = 
 {
 	"get_physicalUnit"/* name */
-	, (methodPointerType)&CanvasScaler_get_physicalUnit_m5721/* method */
+	, (methodPointerType)&CanvasScaler_get_physicalUnit_m5725/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Unit_t1008_0_0_0/* return_type */
 	, RuntimeInvoker_Unit_t1008/* invoker_method */
@@ -11839,20 +11839,20 @@ extern const MethodInfo CanvasScaler_get_physicalUnit_m5721_MethodInfo =
 
 };
 extern const Il2CppType Unit_t1008_0_0_0;
-static const ParameterInfo CanvasScaler_t520_CanvasScaler_set_physicalUnit_m5722_ParameterInfos[] = 
+static const ParameterInfo CanvasScaler_t520_CanvasScaler_set_physicalUnit_m5726_ParameterInfos[] = 
 {
 	{"value", 0, 134218331, 0, &Unit_t1008_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::set_physicalUnit(UnityEngine.UI.CanvasScaler/Unit)
-extern const MethodInfo CanvasScaler_set_physicalUnit_m5722_MethodInfo = 
+extern const MethodInfo CanvasScaler_set_physicalUnit_m5726_MethodInfo = 
 {
 	"set_physicalUnit"/* name */
-	, (methodPointerType)&CanvasScaler_set_physicalUnit_m5722/* method */
+	, (methodPointerType)&CanvasScaler_set_physicalUnit_m5726/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, CanvasScaler_t520_CanvasScaler_set_physicalUnit_m5722_ParameterInfos/* parameters */
+	, CanvasScaler_t520_CanvasScaler_set_physicalUnit_m5726_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -11868,10 +11868,10 @@ extern const MethodInfo CanvasScaler_set_physicalUnit_m5722_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.CanvasScaler::get_fallbackScreenDPI()
-extern const MethodInfo CanvasScaler_get_fallbackScreenDPI_m5723_MethodInfo = 
+extern const MethodInfo CanvasScaler_get_fallbackScreenDPI_m5727_MethodInfo = 
 {
 	"get_fallbackScreenDPI"/* name */
-	, (methodPointerType)&CanvasScaler_get_fallbackScreenDPI_m5723/* method */
+	, (methodPointerType)&CanvasScaler_get_fallbackScreenDPI_m5727/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -11890,20 +11890,20 @@ extern const MethodInfo CanvasScaler_get_fallbackScreenDPI_m5723_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo CanvasScaler_t520_CanvasScaler_set_fallbackScreenDPI_m5724_ParameterInfos[] = 
+static const ParameterInfo CanvasScaler_t520_CanvasScaler_set_fallbackScreenDPI_m5728_ParameterInfos[] = 
 {
 	{"value", 0, 134218332, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::set_fallbackScreenDPI(System.Single)
-extern const MethodInfo CanvasScaler_set_fallbackScreenDPI_m5724_MethodInfo = 
+extern const MethodInfo CanvasScaler_set_fallbackScreenDPI_m5728_MethodInfo = 
 {
 	"set_fallbackScreenDPI"/* name */
-	, (methodPointerType)&CanvasScaler_set_fallbackScreenDPI_m5724/* method */
+	, (methodPointerType)&CanvasScaler_set_fallbackScreenDPI_m5728/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, CanvasScaler_t520_CanvasScaler_set_fallbackScreenDPI_m5724_ParameterInfos/* parameters */
+	, CanvasScaler_t520_CanvasScaler_set_fallbackScreenDPI_m5728_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -11919,10 +11919,10 @@ extern const MethodInfo CanvasScaler_set_fallbackScreenDPI_m5724_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.CanvasScaler::get_defaultSpriteDPI()
-extern const MethodInfo CanvasScaler_get_defaultSpriteDPI_m5725_MethodInfo = 
+extern const MethodInfo CanvasScaler_get_defaultSpriteDPI_m5729_MethodInfo = 
 {
 	"get_defaultSpriteDPI"/* name */
-	, (methodPointerType)&CanvasScaler_get_defaultSpriteDPI_m5725/* method */
+	, (methodPointerType)&CanvasScaler_get_defaultSpriteDPI_m5729/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -11941,20 +11941,20 @@ extern const MethodInfo CanvasScaler_get_defaultSpriteDPI_m5725_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo CanvasScaler_t520_CanvasScaler_set_defaultSpriteDPI_m5726_ParameterInfos[] = 
+static const ParameterInfo CanvasScaler_t520_CanvasScaler_set_defaultSpriteDPI_m5730_ParameterInfos[] = 
 {
 	{"value", 0, 134218333, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::set_defaultSpriteDPI(System.Single)
-extern const MethodInfo CanvasScaler_set_defaultSpriteDPI_m5726_MethodInfo = 
+extern const MethodInfo CanvasScaler_set_defaultSpriteDPI_m5730_MethodInfo = 
 {
 	"set_defaultSpriteDPI"/* name */
-	, (methodPointerType)&CanvasScaler_set_defaultSpriteDPI_m5726/* method */
+	, (methodPointerType)&CanvasScaler_set_defaultSpriteDPI_m5730/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, CanvasScaler_t520_CanvasScaler_set_defaultSpriteDPI_m5726_ParameterInfos/* parameters */
+	, CanvasScaler_t520_CanvasScaler_set_defaultSpriteDPI_m5730_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -11970,10 +11970,10 @@ extern const MethodInfo CanvasScaler_set_defaultSpriteDPI_m5726_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.CanvasScaler::get_dynamicPixelsPerUnit()
-extern const MethodInfo CanvasScaler_get_dynamicPixelsPerUnit_m5727_MethodInfo = 
+extern const MethodInfo CanvasScaler_get_dynamicPixelsPerUnit_m5731_MethodInfo = 
 {
 	"get_dynamicPixelsPerUnit"/* name */
-	, (methodPointerType)&CanvasScaler_get_dynamicPixelsPerUnit_m5727/* method */
+	, (methodPointerType)&CanvasScaler_get_dynamicPixelsPerUnit_m5731/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -11992,20 +11992,20 @@ extern const MethodInfo CanvasScaler_get_dynamicPixelsPerUnit_m5727_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo CanvasScaler_t520_CanvasScaler_set_dynamicPixelsPerUnit_m5728_ParameterInfos[] = 
+static const ParameterInfo CanvasScaler_t520_CanvasScaler_set_dynamicPixelsPerUnit_m5732_ParameterInfos[] = 
 {
 	{"value", 0, 134218334, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::set_dynamicPixelsPerUnit(System.Single)
-extern const MethodInfo CanvasScaler_set_dynamicPixelsPerUnit_m5728_MethodInfo = 
+extern const MethodInfo CanvasScaler_set_dynamicPixelsPerUnit_m5732_MethodInfo = 
 {
 	"set_dynamicPixelsPerUnit"/* name */
-	, (methodPointerType)&CanvasScaler_set_dynamicPixelsPerUnit_m5728/* method */
+	, (methodPointerType)&CanvasScaler_set_dynamicPixelsPerUnit_m5732/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, CanvasScaler_t520_CanvasScaler_set_dynamicPixelsPerUnit_m5728_ParameterInfos/* parameters */
+	, CanvasScaler_t520_CanvasScaler_set_dynamicPixelsPerUnit_m5732_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -12021,10 +12021,10 @@ extern const MethodInfo CanvasScaler_set_dynamicPixelsPerUnit_m5728_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::OnEnable()
-extern const MethodInfo CanvasScaler_OnEnable_m5729_MethodInfo = 
+extern const MethodInfo CanvasScaler_OnEnable_m5733_MethodInfo = 
 {
 	"OnEnable"/* name */
-	, (methodPointerType)&CanvasScaler_OnEnable_m5729/* method */
+	, (methodPointerType)&CanvasScaler_OnEnable_m5733/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12044,10 +12044,10 @@ extern const MethodInfo CanvasScaler_OnEnable_m5729_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::OnDisable()
-extern const MethodInfo CanvasScaler_OnDisable_m5730_MethodInfo = 
+extern const MethodInfo CanvasScaler_OnDisable_m5734_MethodInfo = 
 {
 	"OnDisable"/* name */
-	, (methodPointerType)&CanvasScaler_OnDisable_m5730/* method */
+	, (methodPointerType)&CanvasScaler_OnDisable_m5734/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12067,10 +12067,10 @@ extern const MethodInfo CanvasScaler_OnDisable_m5730_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::Update()
-extern const MethodInfo CanvasScaler_Update_m5731_MethodInfo = 
+extern const MethodInfo CanvasScaler_Update_m5735_MethodInfo = 
 {
 	"Update"/* name */
-	, (methodPointerType)&CanvasScaler_Update_m5731/* method */
+	, (methodPointerType)&CanvasScaler_Update_m5735/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12090,10 +12090,10 @@ extern const MethodInfo CanvasScaler_Update_m5731_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::Handle()
-extern const MethodInfo CanvasScaler_Handle_m5732_MethodInfo = 
+extern const MethodInfo CanvasScaler_Handle_m5736_MethodInfo = 
 {
 	"Handle"/* name */
-	, (methodPointerType)&CanvasScaler_Handle_m5732/* method */
+	, (methodPointerType)&CanvasScaler_Handle_m5736/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12113,10 +12113,10 @@ extern const MethodInfo CanvasScaler_Handle_m5732_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::HandleWorldCanvas()
-extern const MethodInfo CanvasScaler_HandleWorldCanvas_m5733_MethodInfo = 
+extern const MethodInfo CanvasScaler_HandleWorldCanvas_m5737_MethodInfo = 
 {
 	"HandleWorldCanvas"/* name */
-	, (methodPointerType)&CanvasScaler_HandleWorldCanvas_m5733/* method */
+	, (methodPointerType)&CanvasScaler_HandleWorldCanvas_m5737/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12136,10 +12136,10 @@ extern const MethodInfo CanvasScaler_HandleWorldCanvas_m5733_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::HandleConstantPixelSize()
-extern const MethodInfo CanvasScaler_HandleConstantPixelSize_m5734_MethodInfo = 
+extern const MethodInfo CanvasScaler_HandleConstantPixelSize_m5738_MethodInfo = 
 {
 	"HandleConstantPixelSize"/* name */
-	, (methodPointerType)&CanvasScaler_HandleConstantPixelSize_m5734/* method */
+	, (methodPointerType)&CanvasScaler_HandleConstantPixelSize_m5738/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12159,10 +12159,10 @@ extern const MethodInfo CanvasScaler_HandleConstantPixelSize_m5734_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::HandleScaleWithScreenSize()
-extern const MethodInfo CanvasScaler_HandleScaleWithScreenSize_m5735_MethodInfo = 
+extern const MethodInfo CanvasScaler_HandleScaleWithScreenSize_m5739_MethodInfo = 
 {
 	"HandleScaleWithScreenSize"/* name */
-	, (methodPointerType)&CanvasScaler_HandleScaleWithScreenSize_m5735/* method */
+	, (methodPointerType)&CanvasScaler_HandleScaleWithScreenSize_m5739/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12182,10 +12182,10 @@ extern const MethodInfo CanvasScaler_HandleScaleWithScreenSize_m5735_MethodInfo 
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::HandleConstantPhysicalSize()
-extern const MethodInfo CanvasScaler_HandleConstantPhysicalSize_m5736_MethodInfo = 
+extern const MethodInfo CanvasScaler_HandleConstantPhysicalSize_m5740_MethodInfo = 
 {
 	"HandleConstantPhysicalSize"/* name */
-	, (methodPointerType)&CanvasScaler_HandleConstantPhysicalSize_m5736/* method */
+	, (methodPointerType)&CanvasScaler_HandleConstantPhysicalSize_m5740/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12204,20 +12204,20 @@ extern const MethodInfo CanvasScaler_HandleConstantPhysicalSize_m5736_MethodInfo
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo CanvasScaler_t520_CanvasScaler_SetScaleFactor_m5737_ParameterInfos[] = 
+static const ParameterInfo CanvasScaler_t520_CanvasScaler_SetScaleFactor_m5741_ParameterInfos[] = 
 {
 	{"scaleFactor", 0, 134218335, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::SetScaleFactor(System.Single)
-extern const MethodInfo CanvasScaler_SetScaleFactor_m5737_MethodInfo = 
+extern const MethodInfo CanvasScaler_SetScaleFactor_m5741_MethodInfo = 
 {
 	"SetScaleFactor"/* name */
-	, (methodPointerType)&CanvasScaler_SetScaleFactor_m5737/* method */
+	, (methodPointerType)&CanvasScaler_SetScaleFactor_m5741/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, CanvasScaler_t520_CanvasScaler_SetScaleFactor_m5737_ParameterInfos/* parameters */
+	, CanvasScaler_t520_CanvasScaler_SetScaleFactor_m5741_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -12232,20 +12232,20 @@ extern const MethodInfo CanvasScaler_SetScaleFactor_m5737_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo CanvasScaler_t520_CanvasScaler_SetReferencePixelsPerUnit_m5738_ParameterInfos[] = 
+static const ParameterInfo CanvasScaler_t520_CanvasScaler_SetReferencePixelsPerUnit_m5742_ParameterInfos[] = 
 {
 	{"referencePixelsPerUnit", 0, 134218336, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasScaler::SetReferencePixelsPerUnit(System.Single)
-extern const MethodInfo CanvasScaler_SetReferencePixelsPerUnit_m5738_MethodInfo = 
+extern const MethodInfo CanvasScaler_SetReferencePixelsPerUnit_m5742_MethodInfo = 
 {
 	"SetReferencePixelsPerUnit"/* name */
-	, (methodPointerType)&CanvasScaler_SetReferencePixelsPerUnit_m5738/* method */
+	, (methodPointerType)&CanvasScaler_SetReferencePixelsPerUnit_m5742/* method */
 	, &CanvasScaler_t520_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, CanvasScaler_t520_CanvasScaler_SetReferencePixelsPerUnit_m5738_ParameterInfos/* parameters */
+	, CanvasScaler_t520_CanvasScaler_SetReferencePixelsPerUnit_m5742_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -12261,155 +12261,155 @@ extern const MethodInfo CanvasScaler_SetReferencePixelsPerUnit_m5738_MethodInfo 
 };
 static const MethodInfo* CanvasScaler_t520_MethodInfos[] =
 {
-	&CanvasScaler__ctor_m5709_MethodInfo,
-	&CanvasScaler_get_uiScaleMode_m5710_MethodInfo,
-	&CanvasScaler_set_uiScaleMode_m5711_MethodInfo,
-	&CanvasScaler_get_referencePixelsPerUnit_m5712_MethodInfo,
-	&CanvasScaler_set_referencePixelsPerUnit_m5713_MethodInfo,
-	&CanvasScaler_get_scaleFactor_m5714_MethodInfo,
-	&CanvasScaler_set_scaleFactor_m4328_MethodInfo,
-	&CanvasScaler_get_referenceResolution_m5715_MethodInfo,
-	&CanvasScaler_set_referenceResolution_m5716_MethodInfo,
-	&CanvasScaler_get_screenMatchMode_m5717_MethodInfo,
-	&CanvasScaler_set_screenMatchMode_m5718_MethodInfo,
-	&CanvasScaler_get_matchWidthOrHeight_m5719_MethodInfo,
-	&CanvasScaler_set_matchWidthOrHeight_m5720_MethodInfo,
-	&CanvasScaler_get_physicalUnit_m5721_MethodInfo,
-	&CanvasScaler_set_physicalUnit_m5722_MethodInfo,
-	&CanvasScaler_get_fallbackScreenDPI_m5723_MethodInfo,
-	&CanvasScaler_set_fallbackScreenDPI_m5724_MethodInfo,
-	&CanvasScaler_get_defaultSpriteDPI_m5725_MethodInfo,
-	&CanvasScaler_set_defaultSpriteDPI_m5726_MethodInfo,
-	&CanvasScaler_get_dynamicPixelsPerUnit_m5727_MethodInfo,
-	&CanvasScaler_set_dynamicPixelsPerUnit_m5728_MethodInfo,
-	&CanvasScaler_OnEnable_m5729_MethodInfo,
-	&CanvasScaler_OnDisable_m5730_MethodInfo,
-	&CanvasScaler_Update_m5731_MethodInfo,
-	&CanvasScaler_Handle_m5732_MethodInfo,
-	&CanvasScaler_HandleWorldCanvas_m5733_MethodInfo,
-	&CanvasScaler_HandleConstantPixelSize_m5734_MethodInfo,
-	&CanvasScaler_HandleScaleWithScreenSize_m5735_MethodInfo,
-	&CanvasScaler_HandleConstantPhysicalSize_m5736_MethodInfo,
-	&CanvasScaler_SetScaleFactor_m5737_MethodInfo,
-	&CanvasScaler_SetReferencePixelsPerUnit_m5738_MethodInfo,
+	&CanvasScaler__ctor_m5713_MethodInfo,
+	&CanvasScaler_get_uiScaleMode_m5714_MethodInfo,
+	&CanvasScaler_set_uiScaleMode_m5715_MethodInfo,
+	&CanvasScaler_get_referencePixelsPerUnit_m5716_MethodInfo,
+	&CanvasScaler_set_referencePixelsPerUnit_m5717_MethodInfo,
+	&CanvasScaler_get_scaleFactor_m5718_MethodInfo,
+	&CanvasScaler_set_scaleFactor_m4331_MethodInfo,
+	&CanvasScaler_get_referenceResolution_m5719_MethodInfo,
+	&CanvasScaler_set_referenceResolution_m5720_MethodInfo,
+	&CanvasScaler_get_screenMatchMode_m5721_MethodInfo,
+	&CanvasScaler_set_screenMatchMode_m5722_MethodInfo,
+	&CanvasScaler_get_matchWidthOrHeight_m5723_MethodInfo,
+	&CanvasScaler_set_matchWidthOrHeight_m5724_MethodInfo,
+	&CanvasScaler_get_physicalUnit_m5725_MethodInfo,
+	&CanvasScaler_set_physicalUnit_m5726_MethodInfo,
+	&CanvasScaler_get_fallbackScreenDPI_m5727_MethodInfo,
+	&CanvasScaler_set_fallbackScreenDPI_m5728_MethodInfo,
+	&CanvasScaler_get_defaultSpriteDPI_m5729_MethodInfo,
+	&CanvasScaler_set_defaultSpriteDPI_m5730_MethodInfo,
+	&CanvasScaler_get_dynamicPixelsPerUnit_m5731_MethodInfo,
+	&CanvasScaler_set_dynamicPixelsPerUnit_m5732_MethodInfo,
+	&CanvasScaler_OnEnable_m5733_MethodInfo,
+	&CanvasScaler_OnDisable_m5734_MethodInfo,
+	&CanvasScaler_Update_m5735_MethodInfo,
+	&CanvasScaler_Handle_m5736_MethodInfo,
+	&CanvasScaler_HandleWorldCanvas_m5737_MethodInfo,
+	&CanvasScaler_HandleConstantPixelSize_m5738_MethodInfo,
+	&CanvasScaler_HandleScaleWithScreenSize_m5739_MethodInfo,
+	&CanvasScaler_HandleConstantPhysicalSize_m5740_MethodInfo,
+	&CanvasScaler_SetScaleFactor_m5741_MethodInfo,
+	&CanvasScaler_SetReferencePixelsPerUnit_m5742_MethodInfo,
 	NULL
 };
-extern const MethodInfo CanvasScaler_get_uiScaleMode_m5710_MethodInfo;
-extern const MethodInfo CanvasScaler_set_uiScaleMode_m5711_MethodInfo;
+extern const MethodInfo CanvasScaler_get_uiScaleMode_m5714_MethodInfo;
+extern const MethodInfo CanvasScaler_set_uiScaleMode_m5715_MethodInfo;
 static const PropertyInfo CanvasScaler_t520____uiScaleMode_PropertyInfo = 
 {
 	&CanvasScaler_t520_il2cpp_TypeInfo/* parent */
 	, "uiScaleMode"/* name */
-	, &CanvasScaler_get_uiScaleMode_m5710_MethodInfo/* get */
-	, &CanvasScaler_set_uiScaleMode_m5711_MethodInfo/* set */
+	, &CanvasScaler_get_uiScaleMode_m5714_MethodInfo/* get */
+	, &CanvasScaler_set_uiScaleMode_m5715_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo CanvasScaler_get_referencePixelsPerUnit_m5712_MethodInfo;
-extern const MethodInfo CanvasScaler_set_referencePixelsPerUnit_m5713_MethodInfo;
+extern const MethodInfo CanvasScaler_get_referencePixelsPerUnit_m5716_MethodInfo;
+extern const MethodInfo CanvasScaler_set_referencePixelsPerUnit_m5717_MethodInfo;
 static const PropertyInfo CanvasScaler_t520____referencePixelsPerUnit_PropertyInfo = 
 {
 	&CanvasScaler_t520_il2cpp_TypeInfo/* parent */
 	, "referencePixelsPerUnit"/* name */
-	, &CanvasScaler_get_referencePixelsPerUnit_m5712_MethodInfo/* get */
-	, &CanvasScaler_set_referencePixelsPerUnit_m5713_MethodInfo/* set */
+	, &CanvasScaler_get_referencePixelsPerUnit_m5716_MethodInfo/* get */
+	, &CanvasScaler_set_referencePixelsPerUnit_m5717_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo CanvasScaler_get_scaleFactor_m5714_MethodInfo;
-extern const MethodInfo CanvasScaler_set_scaleFactor_m4328_MethodInfo;
+extern const MethodInfo CanvasScaler_get_scaleFactor_m5718_MethodInfo;
+extern const MethodInfo CanvasScaler_set_scaleFactor_m4331_MethodInfo;
 static const PropertyInfo CanvasScaler_t520____scaleFactor_PropertyInfo = 
 {
 	&CanvasScaler_t520_il2cpp_TypeInfo/* parent */
 	, "scaleFactor"/* name */
-	, &CanvasScaler_get_scaleFactor_m5714_MethodInfo/* get */
-	, &CanvasScaler_set_scaleFactor_m4328_MethodInfo/* set */
+	, &CanvasScaler_get_scaleFactor_m5718_MethodInfo/* get */
+	, &CanvasScaler_set_scaleFactor_m4331_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo CanvasScaler_get_referenceResolution_m5715_MethodInfo;
-extern const MethodInfo CanvasScaler_set_referenceResolution_m5716_MethodInfo;
+extern const MethodInfo CanvasScaler_get_referenceResolution_m5719_MethodInfo;
+extern const MethodInfo CanvasScaler_set_referenceResolution_m5720_MethodInfo;
 static const PropertyInfo CanvasScaler_t520____referenceResolution_PropertyInfo = 
 {
 	&CanvasScaler_t520_il2cpp_TypeInfo/* parent */
 	, "referenceResolution"/* name */
-	, &CanvasScaler_get_referenceResolution_m5715_MethodInfo/* get */
-	, &CanvasScaler_set_referenceResolution_m5716_MethodInfo/* set */
+	, &CanvasScaler_get_referenceResolution_m5719_MethodInfo/* get */
+	, &CanvasScaler_set_referenceResolution_m5720_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo CanvasScaler_get_screenMatchMode_m5717_MethodInfo;
-extern const MethodInfo CanvasScaler_set_screenMatchMode_m5718_MethodInfo;
+extern const MethodInfo CanvasScaler_get_screenMatchMode_m5721_MethodInfo;
+extern const MethodInfo CanvasScaler_set_screenMatchMode_m5722_MethodInfo;
 static const PropertyInfo CanvasScaler_t520____screenMatchMode_PropertyInfo = 
 {
 	&CanvasScaler_t520_il2cpp_TypeInfo/* parent */
 	, "screenMatchMode"/* name */
-	, &CanvasScaler_get_screenMatchMode_m5717_MethodInfo/* get */
-	, &CanvasScaler_set_screenMatchMode_m5718_MethodInfo/* set */
+	, &CanvasScaler_get_screenMatchMode_m5721_MethodInfo/* get */
+	, &CanvasScaler_set_screenMatchMode_m5722_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo CanvasScaler_get_matchWidthOrHeight_m5719_MethodInfo;
-extern const MethodInfo CanvasScaler_set_matchWidthOrHeight_m5720_MethodInfo;
+extern const MethodInfo CanvasScaler_get_matchWidthOrHeight_m5723_MethodInfo;
+extern const MethodInfo CanvasScaler_set_matchWidthOrHeight_m5724_MethodInfo;
 static const PropertyInfo CanvasScaler_t520____matchWidthOrHeight_PropertyInfo = 
 {
 	&CanvasScaler_t520_il2cpp_TypeInfo/* parent */
 	, "matchWidthOrHeight"/* name */
-	, &CanvasScaler_get_matchWidthOrHeight_m5719_MethodInfo/* get */
-	, &CanvasScaler_set_matchWidthOrHeight_m5720_MethodInfo/* set */
+	, &CanvasScaler_get_matchWidthOrHeight_m5723_MethodInfo/* get */
+	, &CanvasScaler_set_matchWidthOrHeight_m5724_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo CanvasScaler_get_physicalUnit_m5721_MethodInfo;
-extern const MethodInfo CanvasScaler_set_physicalUnit_m5722_MethodInfo;
+extern const MethodInfo CanvasScaler_get_physicalUnit_m5725_MethodInfo;
+extern const MethodInfo CanvasScaler_set_physicalUnit_m5726_MethodInfo;
 static const PropertyInfo CanvasScaler_t520____physicalUnit_PropertyInfo = 
 {
 	&CanvasScaler_t520_il2cpp_TypeInfo/* parent */
 	, "physicalUnit"/* name */
-	, &CanvasScaler_get_physicalUnit_m5721_MethodInfo/* get */
-	, &CanvasScaler_set_physicalUnit_m5722_MethodInfo/* set */
+	, &CanvasScaler_get_physicalUnit_m5725_MethodInfo/* get */
+	, &CanvasScaler_set_physicalUnit_m5726_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo CanvasScaler_get_fallbackScreenDPI_m5723_MethodInfo;
-extern const MethodInfo CanvasScaler_set_fallbackScreenDPI_m5724_MethodInfo;
+extern const MethodInfo CanvasScaler_get_fallbackScreenDPI_m5727_MethodInfo;
+extern const MethodInfo CanvasScaler_set_fallbackScreenDPI_m5728_MethodInfo;
 static const PropertyInfo CanvasScaler_t520____fallbackScreenDPI_PropertyInfo = 
 {
 	&CanvasScaler_t520_il2cpp_TypeInfo/* parent */
 	, "fallbackScreenDPI"/* name */
-	, &CanvasScaler_get_fallbackScreenDPI_m5723_MethodInfo/* get */
-	, &CanvasScaler_set_fallbackScreenDPI_m5724_MethodInfo/* set */
+	, &CanvasScaler_get_fallbackScreenDPI_m5727_MethodInfo/* get */
+	, &CanvasScaler_set_fallbackScreenDPI_m5728_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo CanvasScaler_get_defaultSpriteDPI_m5725_MethodInfo;
-extern const MethodInfo CanvasScaler_set_defaultSpriteDPI_m5726_MethodInfo;
+extern const MethodInfo CanvasScaler_get_defaultSpriteDPI_m5729_MethodInfo;
+extern const MethodInfo CanvasScaler_set_defaultSpriteDPI_m5730_MethodInfo;
 static const PropertyInfo CanvasScaler_t520____defaultSpriteDPI_PropertyInfo = 
 {
 	&CanvasScaler_t520_il2cpp_TypeInfo/* parent */
 	, "defaultSpriteDPI"/* name */
-	, &CanvasScaler_get_defaultSpriteDPI_m5725_MethodInfo/* get */
-	, &CanvasScaler_set_defaultSpriteDPI_m5726_MethodInfo/* set */
+	, &CanvasScaler_get_defaultSpriteDPI_m5729_MethodInfo/* get */
+	, &CanvasScaler_set_defaultSpriteDPI_m5730_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo CanvasScaler_get_dynamicPixelsPerUnit_m5727_MethodInfo;
-extern const MethodInfo CanvasScaler_set_dynamicPixelsPerUnit_m5728_MethodInfo;
+extern const MethodInfo CanvasScaler_get_dynamicPixelsPerUnit_m5731_MethodInfo;
+extern const MethodInfo CanvasScaler_set_dynamicPixelsPerUnit_m5732_MethodInfo;
 static const PropertyInfo CanvasScaler_t520____dynamicPixelsPerUnit_PropertyInfo = 
 {
 	&CanvasScaler_t520_il2cpp_TypeInfo/* parent */
 	, "dynamicPixelsPerUnit"/* name */
-	, &CanvasScaler_get_dynamicPixelsPerUnit_m5727_MethodInfo/* get */
-	, &CanvasScaler_set_dynamicPixelsPerUnit_m5728_MethodInfo/* set */
+	, &CanvasScaler_get_dynamicPixelsPerUnit_m5731_MethodInfo/* get */
+	, &CanvasScaler_set_dynamicPixelsPerUnit_m5732_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -12434,38 +12434,38 @@ static const Il2CppType* CanvasScaler_t520_il2cpp_TypeInfo__nestedTypes[3] =
 	&ScreenMatchMode_t1007_0_0_0,
 	&Unit_t1008_0_0_0,
 };
-extern const MethodInfo CanvasScaler_OnEnable_m5729_MethodInfo;
-extern const MethodInfo CanvasScaler_OnDisable_m5730_MethodInfo;
-extern const MethodInfo CanvasScaler_Update_m5731_MethodInfo;
-extern const MethodInfo CanvasScaler_Handle_m5732_MethodInfo;
-extern const MethodInfo CanvasScaler_HandleWorldCanvas_m5733_MethodInfo;
-extern const MethodInfo CanvasScaler_HandleConstantPixelSize_m5734_MethodInfo;
-extern const MethodInfo CanvasScaler_HandleScaleWithScreenSize_m5735_MethodInfo;
-extern const MethodInfo CanvasScaler_HandleConstantPhysicalSize_m5736_MethodInfo;
+extern const MethodInfo CanvasScaler_OnEnable_m5733_MethodInfo;
+extern const MethodInfo CanvasScaler_OnDisable_m5734_MethodInfo;
+extern const MethodInfo CanvasScaler_Update_m5735_MethodInfo;
+extern const MethodInfo CanvasScaler_Handle_m5736_MethodInfo;
+extern const MethodInfo CanvasScaler_HandleWorldCanvas_m5737_MethodInfo;
+extern const MethodInfo CanvasScaler_HandleConstantPixelSize_m5738_MethodInfo;
+extern const MethodInfo CanvasScaler_HandleScaleWithScreenSize_m5739_MethodInfo;
+extern const MethodInfo CanvasScaler_HandleConstantPhysicalSize_m5740_MethodInfo;
 static const Il2CppMethodReference CanvasScaler_t520_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
-	&UIBehaviour_Awake_m4839_MethodInfo,
-	&CanvasScaler_OnEnable_m5729_MethodInfo,
-	&UIBehaviour_Start_m4841_MethodInfo,
-	&CanvasScaler_OnDisable_m5730_MethodInfo,
-	&UIBehaviour_OnDestroy_m4843_MethodInfo,
-	&UIBehaviour_IsActive_m4844_MethodInfo,
-	&UIBehaviour_OnRectTransformDimensionsChange_m4845_MethodInfo,
-	&UIBehaviour_OnBeforeTransformParentChanged_m4846_MethodInfo,
-	&UIBehaviour_OnTransformParentChanged_m4847_MethodInfo,
-	&UIBehaviour_OnDidApplyAnimationProperties_m4848_MethodInfo,
-	&UIBehaviour_OnCanvasGroupChanged_m4849_MethodInfo,
-	&UIBehaviour_OnCanvasHierarchyChanged_m4850_MethodInfo,
-	&CanvasScaler_Update_m5731_MethodInfo,
-	&CanvasScaler_Handle_m5732_MethodInfo,
-	&CanvasScaler_HandleWorldCanvas_m5733_MethodInfo,
-	&CanvasScaler_HandleConstantPixelSize_m5734_MethodInfo,
-	&CanvasScaler_HandleScaleWithScreenSize_m5735_MethodInfo,
-	&CanvasScaler_HandleConstantPhysicalSize_m5736_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
+	&UIBehaviour_Awake_m4843_MethodInfo,
+	&CanvasScaler_OnEnable_m5733_MethodInfo,
+	&UIBehaviour_Start_m4845_MethodInfo,
+	&CanvasScaler_OnDisable_m5734_MethodInfo,
+	&UIBehaviour_OnDestroy_m4847_MethodInfo,
+	&UIBehaviour_IsActive_m4848_MethodInfo,
+	&UIBehaviour_OnRectTransformDimensionsChange_m4849_MethodInfo,
+	&UIBehaviour_OnBeforeTransformParentChanged_m4850_MethodInfo,
+	&UIBehaviour_OnTransformParentChanged_m4851_MethodInfo,
+	&UIBehaviour_OnDidApplyAnimationProperties_m4852_MethodInfo,
+	&UIBehaviour_OnCanvasGroupChanged_m4853_MethodInfo,
+	&UIBehaviour_OnCanvasHierarchyChanged_m4854_MethodInfo,
+	&CanvasScaler_Update_m5735_MethodInfo,
+	&CanvasScaler_Handle_m5736_MethodInfo,
+	&CanvasScaler_HandleWorldCanvas_m5737_MethodInfo,
+	&CanvasScaler_HandleConstantPixelSize_m5738_MethodInfo,
+	&CanvasScaler_HandleScaleWithScreenSize_m5739_MethodInfo,
+	&CanvasScaler_HandleConstantPhysicalSize_m5740_MethodInfo,
 };
 static bool CanvasScaler_t520_VTableIsGenericMethod[] =
 {
@@ -12574,29 +12574,29 @@ static const MethodInfo* FitMode_t1009_MethodInfos[] =
 };
 static const Il2CppMethodReference FitMode_t1009_VTable[] =
 {
-	&Enum_Equals_m501_MethodInfo,
+	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Enum_GetHashCode_m502_MethodInfo,
-	&Enum_ToString_m503_MethodInfo,
-	&Enum_ToString_m504_MethodInfo,
-	&Enum_System_IConvertible_ToBoolean_m505_MethodInfo,
-	&Enum_System_IConvertible_ToByte_m506_MethodInfo,
-	&Enum_System_IConvertible_ToChar_m507_MethodInfo,
-	&Enum_System_IConvertible_ToDateTime_m508_MethodInfo,
-	&Enum_System_IConvertible_ToDecimal_m509_MethodInfo,
-	&Enum_System_IConvertible_ToDouble_m510_MethodInfo,
-	&Enum_System_IConvertible_ToInt16_m511_MethodInfo,
-	&Enum_System_IConvertible_ToInt32_m512_MethodInfo,
-	&Enum_System_IConvertible_ToInt64_m513_MethodInfo,
-	&Enum_System_IConvertible_ToSByte_m514_MethodInfo,
-	&Enum_System_IConvertible_ToSingle_m515_MethodInfo,
-	&Enum_ToString_m516_MethodInfo,
-	&Enum_System_IConvertible_ToType_m517_MethodInfo,
-	&Enum_System_IConvertible_ToUInt16_m518_MethodInfo,
-	&Enum_System_IConvertible_ToUInt32_m519_MethodInfo,
-	&Enum_System_IConvertible_ToUInt64_m520_MethodInfo,
-	&Enum_CompareTo_m521_MethodInfo,
-	&Enum_GetTypeCode_m522_MethodInfo,
+	&Enum_GetHashCode_m504_MethodInfo,
+	&Enum_ToString_m505_MethodInfo,
+	&Enum_ToString_m506_MethodInfo,
+	&Enum_System_IConvertible_ToBoolean_m507_MethodInfo,
+	&Enum_System_IConvertible_ToByte_m508_MethodInfo,
+	&Enum_System_IConvertible_ToChar_m509_MethodInfo,
+	&Enum_System_IConvertible_ToDateTime_m510_MethodInfo,
+	&Enum_System_IConvertible_ToDecimal_m511_MethodInfo,
+	&Enum_System_IConvertible_ToDouble_m512_MethodInfo,
+	&Enum_System_IConvertible_ToInt16_m513_MethodInfo,
+	&Enum_System_IConvertible_ToInt32_m514_MethodInfo,
+	&Enum_System_IConvertible_ToInt64_m515_MethodInfo,
+	&Enum_System_IConvertible_ToSByte_m516_MethodInfo,
+	&Enum_System_IConvertible_ToSingle_m517_MethodInfo,
+	&Enum_ToString_m518_MethodInfo,
+	&Enum_System_IConvertible_ToType_m519_MethodInfo,
+	&Enum_System_IConvertible_ToUInt16_m520_MethodInfo,
+	&Enum_System_IConvertible_ToUInt32_m521_MethodInfo,
+	&Enum_System_IConvertible_ToUInt64_m522_MethodInfo,
+	&Enum_CompareTo_m523_MethodInfo,
+	&Enum_GetTypeCode_m524_MethodInfo,
 };
 static bool FitMode_t1009_VTableIsGenericMethod[] =
 {
@@ -12709,10 +12709,10 @@ TypeInfo FitMode_t1009_il2cpp_TypeInfo =
 #include "UnityEngine_UI_UnityEngine_UI_ContentSizeFitterMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ContentSizeFitter::.ctor()
-extern const MethodInfo ContentSizeFitter__ctor_m5739_MethodInfo = 
+extern const MethodInfo ContentSizeFitter__ctor_m5743_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ContentSizeFitter__ctor_m5739/* method */
+	, (methodPointerType)&ContentSizeFitter__ctor_m5743/* method */
 	, &ContentSizeFitter_t1010_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12732,10 +12732,10 @@ extern const MethodInfo ContentSizeFitter__ctor_m5739_MethodInfo =
 };
 extern void* RuntimeInvoker_FitMode_t1009 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.ContentSizeFitter/FitMode UnityEngine.UI.ContentSizeFitter::get_horizontalFit()
-extern const MethodInfo ContentSizeFitter_get_horizontalFit_m5740_MethodInfo = 
+extern const MethodInfo ContentSizeFitter_get_horizontalFit_m5744_MethodInfo = 
 {
 	"get_horizontalFit"/* name */
-	, (methodPointerType)&ContentSizeFitter_get_horizontalFit_m5740/* method */
+	, (methodPointerType)&ContentSizeFitter_get_horizontalFit_m5744/* method */
 	, &ContentSizeFitter_t1010_il2cpp_TypeInfo/* declaring_type */
 	, &FitMode_t1009_0_0_0/* return_type */
 	, RuntimeInvoker_FitMode_t1009/* invoker_method */
@@ -12754,20 +12754,20 @@ extern const MethodInfo ContentSizeFitter_get_horizontalFit_m5740_MethodInfo =
 
 };
 extern const Il2CppType FitMode_t1009_0_0_0;
-static const ParameterInfo ContentSizeFitter_t1010_ContentSizeFitter_set_horizontalFit_m5741_ParameterInfos[] = 
+static const ParameterInfo ContentSizeFitter_t1010_ContentSizeFitter_set_horizontalFit_m5745_ParameterInfos[] = 
 {
 	{"value", 0, 134218337, 0, &FitMode_t1009_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ContentSizeFitter::set_horizontalFit(UnityEngine.UI.ContentSizeFitter/FitMode)
-extern const MethodInfo ContentSizeFitter_set_horizontalFit_m5741_MethodInfo = 
+extern const MethodInfo ContentSizeFitter_set_horizontalFit_m5745_MethodInfo = 
 {
 	"set_horizontalFit"/* name */
-	, (methodPointerType)&ContentSizeFitter_set_horizontalFit_m5741/* method */
+	, (methodPointerType)&ContentSizeFitter_set_horizontalFit_m5745/* method */
 	, &ContentSizeFitter_t1010_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, ContentSizeFitter_t1010_ContentSizeFitter_set_horizontalFit_m5741_ParameterInfos/* parameters */
+	, ContentSizeFitter_t1010_ContentSizeFitter_set_horizontalFit_m5745_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -12783,10 +12783,10 @@ extern const MethodInfo ContentSizeFitter_set_horizontalFit_m5741_MethodInfo =
 };
 extern void* RuntimeInvoker_FitMode_t1009 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.ContentSizeFitter/FitMode UnityEngine.UI.ContentSizeFitter::get_verticalFit()
-extern const MethodInfo ContentSizeFitter_get_verticalFit_m5742_MethodInfo = 
+extern const MethodInfo ContentSizeFitter_get_verticalFit_m5746_MethodInfo = 
 {
 	"get_verticalFit"/* name */
-	, (methodPointerType)&ContentSizeFitter_get_verticalFit_m5742/* method */
+	, (methodPointerType)&ContentSizeFitter_get_verticalFit_m5746/* method */
 	, &ContentSizeFitter_t1010_il2cpp_TypeInfo/* declaring_type */
 	, &FitMode_t1009_0_0_0/* return_type */
 	, RuntimeInvoker_FitMode_t1009/* invoker_method */
@@ -12805,20 +12805,20 @@ extern const MethodInfo ContentSizeFitter_get_verticalFit_m5742_MethodInfo =
 
 };
 extern const Il2CppType FitMode_t1009_0_0_0;
-static const ParameterInfo ContentSizeFitter_t1010_ContentSizeFitter_set_verticalFit_m5743_ParameterInfos[] = 
+static const ParameterInfo ContentSizeFitter_t1010_ContentSizeFitter_set_verticalFit_m5747_ParameterInfos[] = 
 {
 	{"value", 0, 134218338, 0, &FitMode_t1009_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ContentSizeFitter::set_verticalFit(UnityEngine.UI.ContentSizeFitter/FitMode)
-extern const MethodInfo ContentSizeFitter_set_verticalFit_m5743_MethodInfo = 
+extern const MethodInfo ContentSizeFitter_set_verticalFit_m5747_MethodInfo = 
 {
 	"set_verticalFit"/* name */
-	, (methodPointerType)&ContentSizeFitter_set_verticalFit_m5743/* method */
+	, (methodPointerType)&ContentSizeFitter_set_verticalFit_m5747/* method */
 	, &ContentSizeFitter_t1010_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, ContentSizeFitter_t1010_ContentSizeFitter_set_verticalFit_m5743_ParameterInfos/* parameters */
+	, ContentSizeFitter_t1010_ContentSizeFitter_set_verticalFit_m5747_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -12834,10 +12834,10 @@ extern const MethodInfo ContentSizeFitter_set_verticalFit_m5743_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.RectTransform UnityEngine.UI.ContentSizeFitter::get_rectTransform()
-extern const MethodInfo ContentSizeFitter_get_rectTransform_m5744_MethodInfo = 
+extern const MethodInfo ContentSizeFitter_get_rectTransform_m5748_MethodInfo = 
 {
 	"get_rectTransform"/* name */
-	, (methodPointerType)&ContentSizeFitter_get_rectTransform_m5744/* method */
+	, (methodPointerType)&ContentSizeFitter_get_rectTransform_m5748/* method */
 	, &ContentSizeFitter_t1010_il2cpp_TypeInfo/* declaring_type */
 	, &RectTransform_t545_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -12857,10 +12857,10 @@ extern const MethodInfo ContentSizeFitter_get_rectTransform_m5744_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ContentSizeFitter::OnEnable()
-extern const MethodInfo ContentSizeFitter_OnEnable_m5745_MethodInfo = 
+extern const MethodInfo ContentSizeFitter_OnEnable_m5749_MethodInfo = 
 {
 	"OnEnable"/* name */
-	, (methodPointerType)&ContentSizeFitter_OnEnable_m5745/* method */
+	, (methodPointerType)&ContentSizeFitter_OnEnable_m5749/* method */
 	, &ContentSizeFitter_t1010_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12880,10 +12880,10 @@ extern const MethodInfo ContentSizeFitter_OnEnable_m5745_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ContentSizeFitter::OnDisable()
-extern const MethodInfo ContentSizeFitter_OnDisable_m5746_MethodInfo = 
+extern const MethodInfo ContentSizeFitter_OnDisable_m5750_MethodInfo = 
 {
 	"OnDisable"/* name */
-	, (methodPointerType)&ContentSizeFitter_OnDisable_m5746/* method */
+	, (methodPointerType)&ContentSizeFitter_OnDisable_m5750/* method */
 	, &ContentSizeFitter_t1010_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12903,10 +12903,10 @@ extern const MethodInfo ContentSizeFitter_OnDisable_m5746_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ContentSizeFitter::OnRectTransformDimensionsChange()
-extern const MethodInfo ContentSizeFitter_OnRectTransformDimensionsChange_m5747_MethodInfo = 
+extern const MethodInfo ContentSizeFitter_OnRectTransformDimensionsChange_m5751_MethodInfo = 
 {
 	"OnRectTransformDimensionsChange"/* name */
-	, (methodPointerType)&ContentSizeFitter_OnRectTransformDimensionsChange_m5747/* method */
+	, (methodPointerType)&ContentSizeFitter_OnRectTransformDimensionsChange_m5751/* method */
 	, &ContentSizeFitter_t1010_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12925,20 +12925,20 @@ extern const MethodInfo ContentSizeFitter_OnRectTransformDimensionsChange_m5747_
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ContentSizeFitter_t1010_ContentSizeFitter_HandleSelfFittingAlongAxis_m5748_ParameterInfos[] = 
+static const ParameterInfo ContentSizeFitter_t1010_ContentSizeFitter_HandleSelfFittingAlongAxis_m5752_ParameterInfos[] = 
 {
 	{"axis", 0, 134218339, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ContentSizeFitter::HandleSelfFittingAlongAxis(System.Int32)
-extern const MethodInfo ContentSizeFitter_HandleSelfFittingAlongAxis_m5748_MethodInfo = 
+extern const MethodInfo ContentSizeFitter_HandleSelfFittingAlongAxis_m5752_MethodInfo = 
 {
 	"HandleSelfFittingAlongAxis"/* name */
-	, (methodPointerType)&ContentSizeFitter_HandleSelfFittingAlongAxis_m5748/* method */
+	, (methodPointerType)&ContentSizeFitter_HandleSelfFittingAlongAxis_m5752/* method */
 	, &ContentSizeFitter_t1010_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, ContentSizeFitter_t1010_ContentSizeFitter_HandleSelfFittingAlongAxis_m5748_ParameterInfos/* parameters */
+	, ContentSizeFitter_t1010_ContentSizeFitter_HandleSelfFittingAlongAxis_m5752_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -12954,10 +12954,10 @@ extern const MethodInfo ContentSizeFitter_HandleSelfFittingAlongAxis_m5748_Metho
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ContentSizeFitter::SetLayoutHorizontal()
-extern const MethodInfo ContentSizeFitter_SetLayoutHorizontal_m5749_MethodInfo = 
+extern const MethodInfo ContentSizeFitter_SetLayoutHorizontal_m5753_MethodInfo = 
 {
 	"SetLayoutHorizontal"/* name */
-	, (methodPointerType)&ContentSizeFitter_SetLayoutHorizontal_m5749/* method */
+	, (methodPointerType)&ContentSizeFitter_SetLayoutHorizontal_m5753/* method */
 	, &ContentSizeFitter_t1010_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -12977,10 +12977,10 @@ extern const MethodInfo ContentSizeFitter_SetLayoutHorizontal_m5749_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ContentSizeFitter::SetLayoutVertical()
-extern const MethodInfo ContentSizeFitter_SetLayoutVertical_m5750_MethodInfo = 
+extern const MethodInfo ContentSizeFitter_SetLayoutVertical_m5754_MethodInfo = 
 {
 	"SetLayoutVertical"/* name */
-	, (methodPointerType)&ContentSizeFitter_SetLayoutVertical_m5750/* method */
+	, (methodPointerType)&ContentSizeFitter_SetLayoutVertical_m5754/* method */
 	, &ContentSizeFitter_t1010_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -13000,10 +13000,10 @@ extern const MethodInfo ContentSizeFitter_SetLayoutVertical_m5750_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ContentSizeFitter::SetDirty()
-extern const MethodInfo ContentSizeFitter_SetDirty_m5751_MethodInfo = 
+extern const MethodInfo ContentSizeFitter_SetDirty_m5755_MethodInfo = 
 {
 	"SetDirty"/* name */
-	, (methodPointerType)&ContentSizeFitter_SetDirty_m5751/* method */
+	, (methodPointerType)&ContentSizeFitter_SetDirty_m5755/* method */
 	, &ContentSizeFitter_t1010_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -13023,51 +13023,51 @@ extern const MethodInfo ContentSizeFitter_SetDirty_m5751_MethodInfo =
 };
 static const MethodInfo* ContentSizeFitter_t1010_MethodInfos[] =
 {
-	&ContentSizeFitter__ctor_m5739_MethodInfo,
-	&ContentSizeFitter_get_horizontalFit_m5740_MethodInfo,
-	&ContentSizeFitter_set_horizontalFit_m5741_MethodInfo,
-	&ContentSizeFitter_get_verticalFit_m5742_MethodInfo,
-	&ContentSizeFitter_set_verticalFit_m5743_MethodInfo,
-	&ContentSizeFitter_get_rectTransform_m5744_MethodInfo,
-	&ContentSizeFitter_OnEnable_m5745_MethodInfo,
-	&ContentSizeFitter_OnDisable_m5746_MethodInfo,
-	&ContentSizeFitter_OnRectTransformDimensionsChange_m5747_MethodInfo,
-	&ContentSizeFitter_HandleSelfFittingAlongAxis_m5748_MethodInfo,
-	&ContentSizeFitter_SetLayoutHorizontal_m5749_MethodInfo,
-	&ContentSizeFitter_SetLayoutVertical_m5750_MethodInfo,
-	&ContentSizeFitter_SetDirty_m5751_MethodInfo,
+	&ContentSizeFitter__ctor_m5743_MethodInfo,
+	&ContentSizeFitter_get_horizontalFit_m5744_MethodInfo,
+	&ContentSizeFitter_set_horizontalFit_m5745_MethodInfo,
+	&ContentSizeFitter_get_verticalFit_m5746_MethodInfo,
+	&ContentSizeFitter_set_verticalFit_m5747_MethodInfo,
+	&ContentSizeFitter_get_rectTransform_m5748_MethodInfo,
+	&ContentSizeFitter_OnEnable_m5749_MethodInfo,
+	&ContentSizeFitter_OnDisable_m5750_MethodInfo,
+	&ContentSizeFitter_OnRectTransformDimensionsChange_m5751_MethodInfo,
+	&ContentSizeFitter_HandleSelfFittingAlongAxis_m5752_MethodInfo,
+	&ContentSizeFitter_SetLayoutHorizontal_m5753_MethodInfo,
+	&ContentSizeFitter_SetLayoutVertical_m5754_MethodInfo,
+	&ContentSizeFitter_SetDirty_m5755_MethodInfo,
 	NULL
 };
-extern const MethodInfo ContentSizeFitter_get_horizontalFit_m5740_MethodInfo;
-extern const MethodInfo ContentSizeFitter_set_horizontalFit_m5741_MethodInfo;
+extern const MethodInfo ContentSizeFitter_get_horizontalFit_m5744_MethodInfo;
+extern const MethodInfo ContentSizeFitter_set_horizontalFit_m5745_MethodInfo;
 static const PropertyInfo ContentSizeFitter_t1010____horizontalFit_PropertyInfo = 
 {
 	&ContentSizeFitter_t1010_il2cpp_TypeInfo/* parent */
 	, "horizontalFit"/* name */
-	, &ContentSizeFitter_get_horizontalFit_m5740_MethodInfo/* get */
-	, &ContentSizeFitter_set_horizontalFit_m5741_MethodInfo/* set */
+	, &ContentSizeFitter_get_horizontalFit_m5744_MethodInfo/* get */
+	, &ContentSizeFitter_set_horizontalFit_m5745_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ContentSizeFitter_get_verticalFit_m5742_MethodInfo;
-extern const MethodInfo ContentSizeFitter_set_verticalFit_m5743_MethodInfo;
+extern const MethodInfo ContentSizeFitter_get_verticalFit_m5746_MethodInfo;
+extern const MethodInfo ContentSizeFitter_set_verticalFit_m5747_MethodInfo;
 static const PropertyInfo ContentSizeFitter_t1010____verticalFit_PropertyInfo = 
 {
 	&ContentSizeFitter_t1010_il2cpp_TypeInfo/* parent */
 	, "verticalFit"/* name */
-	, &ContentSizeFitter_get_verticalFit_m5742_MethodInfo/* get */
-	, &ContentSizeFitter_set_verticalFit_m5743_MethodInfo/* set */
+	, &ContentSizeFitter_get_verticalFit_m5746_MethodInfo/* get */
+	, &ContentSizeFitter_set_verticalFit_m5747_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ContentSizeFitter_get_rectTransform_m5744_MethodInfo;
+extern const MethodInfo ContentSizeFitter_get_rectTransform_m5748_MethodInfo;
 static const PropertyInfo ContentSizeFitter_t1010____rectTransform_PropertyInfo = 
 {
 	&ContentSizeFitter_t1010_il2cpp_TypeInfo/* parent */
 	, "rectTransform"/* name */
-	, &ContentSizeFitter_get_rectTransform_m5744_MethodInfo/* get */
+	, &ContentSizeFitter_get_rectTransform_m5748_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -13084,33 +13084,33 @@ static const Il2CppType* ContentSizeFitter_t1010_il2cpp_TypeInfo__nestedTypes[1]
 {
 	&FitMode_t1009_0_0_0,
 };
-extern const MethodInfo ContentSizeFitter_OnEnable_m5745_MethodInfo;
-extern const MethodInfo ContentSizeFitter_OnDisable_m5746_MethodInfo;
-extern const MethodInfo ContentSizeFitter_OnRectTransformDimensionsChange_m5747_MethodInfo;
-extern const MethodInfo ContentSizeFitter_SetLayoutHorizontal_m5749_MethodInfo;
-extern const MethodInfo ContentSizeFitter_SetLayoutVertical_m5750_MethodInfo;
+extern const MethodInfo ContentSizeFitter_OnEnable_m5749_MethodInfo;
+extern const MethodInfo ContentSizeFitter_OnDisable_m5750_MethodInfo;
+extern const MethodInfo ContentSizeFitter_OnRectTransformDimensionsChange_m5751_MethodInfo;
+extern const MethodInfo ContentSizeFitter_SetLayoutHorizontal_m5753_MethodInfo;
+extern const MethodInfo ContentSizeFitter_SetLayoutVertical_m5754_MethodInfo;
 static const Il2CppMethodReference ContentSizeFitter_t1010_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
-	&UIBehaviour_Awake_m4839_MethodInfo,
-	&ContentSizeFitter_OnEnable_m5745_MethodInfo,
-	&UIBehaviour_Start_m4841_MethodInfo,
-	&ContentSizeFitter_OnDisable_m5746_MethodInfo,
-	&UIBehaviour_OnDestroy_m4843_MethodInfo,
-	&UIBehaviour_IsActive_m4844_MethodInfo,
-	&ContentSizeFitter_OnRectTransformDimensionsChange_m5747_MethodInfo,
-	&UIBehaviour_OnBeforeTransformParentChanged_m4846_MethodInfo,
-	&UIBehaviour_OnTransformParentChanged_m4847_MethodInfo,
-	&UIBehaviour_OnDidApplyAnimationProperties_m4848_MethodInfo,
-	&UIBehaviour_OnCanvasGroupChanged_m4849_MethodInfo,
-	&UIBehaviour_OnCanvasHierarchyChanged_m4850_MethodInfo,
-	&ContentSizeFitter_SetLayoutHorizontal_m5749_MethodInfo,
-	&ContentSizeFitter_SetLayoutVertical_m5750_MethodInfo,
-	&ContentSizeFitter_SetLayoutHorizontal_m5749_MethodInfo,
-	&ContentSizeFitter_SetLayoutVertical_m5750_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
+	&UIBehaviour_Awake_m4843_MethodInfo,
+	&ContentSizeFitter_OnEnable_m5749_MethodInfo,
+	&UIBehaviour_Start_m4845_MethodInfo,
+	&ContentSizeFitter_OnDisable_m5750_MethodInfo,
+	&UIBehaviour_OnDestroy_m4847_MethodInfo,
+	&UIBehaviour_IsActive_m4848_MethodInfo,
+	&ContentSizeFitter_OnRectTransformDimensionsChange_m5751_MethodInfo,
+	&UIBehaviour_OnBeforeTransformParentChanged_m4850_MethodInfo,
+	&UIBehaviour_OnTransformParentChanged_m4851_MethodInfo,
+	&UIBehaviour_OnDidApplyAnimationProperties_m4852_MethodInfo,
+	&UIBehaviour_OnCanvasGroupChanged_m4853_MethodInfo,
+	&UIBehaviour_OnCanvasHierarchyChanged_m4854_MethodInfo,
+	&ContentSizeFitter_SetLayoutHorizontal_m5753_MethodInfo,
+	&ContentSizeFitter_SetLayoutVertical_m5754_MethodInfo,
+	&ContentSizeFitter_SetLayoutHorizontal_m5753_MethodInfo,
+	&ContentSizeFitter_SetLayoutVertical_m5754_MethodInfo,
 };
 static bool ContentSizeFitter_t1010_VTableIsGenericMethod[] =
 {
@@ -13227,29 +13227,29 @@ static const MethodInfo* Corner_t1011_MethodInfos[] =
 };
 static const Il2CppMethodReference Corner_t1011_VTable[] =
 {
-	&Enum_Equals_m501_MethodInfo,
+	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Enum_GetHashCode_m502_MethodInfo,
-	&Enum_ToString_m503_MethodInfo,
-	&Enum_ToString_m504_MethodInfo,
-	&Enum_System_IConvertible_ToBoolean_m505_MethodInfo,
-	&Enum_System_IConvertible_ToByte_m506_MethodInfo,
-	&Enum_System_IConvertible_ToChar_m507_MethodInfo,
-	&Enum_System_IConvertible_ToDateTime_m508_MethodInfo,
-	&Enum_System_IConvertible_ToDecimal_m509_MethodInfo,
-	&Enum_System_IConvertible_ToDouble_m510_MethodInfo,
-	&Enum_System_IConvertible_ToInt16_m511_MethodInfo,
-	&Enum_System_IConvertible_ToInt32_m512_MethodInfo,
-	&Enum_System_IConvertible_ToInt64_m513_MethodInfo,
-	&Enum_System_IConvertible_ToSByte_m514_MethodInfo,
-	&Enum_System_IConvertible_ToSingle_m515_MethodInfo,
-	&Enum_ToString_m516_MethodInfo,
-	&Enum_System_IConvertible_ToType_m517_MethodInfo,
-	&Enum_System_IConvertible_ToUInt16_m518_MethodInfo,
-	&Enum_System_IConvertible_ToUInt32_m519_MethodInfo,
-	&Enum_System_IConvertible_ToUInt64_m520_MethodInfo,
-	&Enum_CompareTo_m521_MethodInfo,
-	&Enum_GetTypeCode_m522_MethodInfo,
+	&Enum_GetHashCode_m504_MethodInfo,
+	&Enum_ToString_m505_MethodInfo,
+	&Enum_ToString_m506_MethodInfo,
+	&Enum_System_IConvertible_ToBoolean_m507_MethodInfo,
+	&Enum_System_IConvertible_ToByte_m508_MethodInfo,
+	&Enum_System_IConvertible_ToChar_m509_MethodInfo,
+	&Enum_System_IConvertible_ToDateTime_m510_MethodInfo,
+	&Enum_System_IConvertible_ToDecimal_m511_MethodInfo,
+	&Enum_System_IConvertible_ToDouble_m512_MethodInfo,
+	&Enum_System_IConvertible_ToInt16_m513_MethodInfo,
+	&Enum_System_IConvertible_ToInt32_m514_MethodInfo,
+	&Enum_System_IConvertible_ToInt64_m515_MethodInfo,
+	&Enum_System_IConvertible_ToSByte_m516_MethodInfo,
+	&Enum_System_IConvertible_ToSingle_m517_MethodInfo,
+	&Enum_ToString_m518_MethodInfo,
+	&Enum_System_IConvertible_ToType_m519_MethodInfo,
+	&Enum_System_IConvertible_ToUInt16_m520_MethodInfo,
+	&Enum_System_IConvertible_ToUInt32_m521_MethodInfo,
+	&Enum_System_IConvertible_ToUInt64_m522_MethodInfo,
+	&Enum_CompareTo_m523_MethodInfo,
+	&Enum_GetTypeCode_m524_MethodInfo,
 };
 static bool Corner_t1011_VTableIsGenericMethod[] =
 {
@@ -13367,29 +13367,29 @@ static const MethodInfo* Axis_t1012_MethodInfos[] =
 };
 static const Il2CppMethodReference Axis_t1012_VTable[] =
 {
-	&Enum_Equals_m501_MethodInfo,
+	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Enum_GetHashCode_m502_MethodInfo,
-	&Enum_ToString_m503_MethodInfo,
-	&Enum_ToString_m504_MethodInfo,
-	&Enum_System_IConvertible_ToBoolean_m505_MethodInfo,
-	&Enum_System_IConvertible_ToByte_m506_MethodInfo,
-	&Enum_System_IConvertible_ToChar_m507_MethodInfo,
-	&Enum_System_IConvertible_ToDateTime_m508_MethodInfo,
-	&Enum_System_IConvertible_ToDecimal_m509_MethodInfo,
-	&Enum_System_IConvertible_ToDouble_m510_MethodInfo,
-	&Enum_System_IConvertible_ToInt16_m511_MethodInfo,
-	&Enum_System_IConvertible_ToInt32_m512_MethodInfo,
-	&Enum_System_IConvertible_ToInt64_m513_MethodInfo,
-	&Enum_System_IConvertible_ToSByte_m514_MethodInfo,
-	&Enum_System_IConvertible_ToSingle_m515_MethodInfo,
-	&Enum_ToString_m516_MethodInfo,
-	&Enum_System_IConvertible_ToType_m517_MethodInfo,
-	&Enum_System_IConvertible_ToUInt16_m518_MethodInfo,
-	&Enum_System_IConvertible_ToUInt32_m519_MethodInfo,
-	&Enum_System_IConvertible_ToUInt64_m520_MethodInfo,
-	&Enum_CompareTo_m521_MethodInfo,
-	&Enum_GetTypeCode_m522_MethodInfo,
+	&Enum_GetHashCode_m504_MethodInfo,
+	&Enum_ToString_m505_MethodInfo,
+	&Enum_ToString_m506_MethodInfo,
+	&Enum_System_IConvertible_ToBoolean_m507_MethodInfo,
+	&Enum_System_IConvertible_ToByte_m508_MethodInfo,
+	&Enum_System_IConvertible_ToChar_m509_MethodInfo,
+	&Enum_System_IConvertible_ToDateTime_m510_MethodInfo,
+	&Enum_System_IConvertible_ToDecimal_m511_MethodInfo,
+	&Enum_System_IConvertible_ToDouble_m512_MethodInfo,
+	&Enum_System_IConvertible_ToInt16_m513_MethodInfo,
+	&Enum_System_IConvertible_ToInt32_m514_MethodInfo,
+	&Enum_System_IConvertible_ToInt64_m515_MethodInfo,
+	&Enum_System_IConvertible_ToSByte_m516_MethodInfo,
+	&Enum_System_IConvertible_ToSingle_m517_MethodInfo,
+	&Enum_ToString_m518_MethodInfo,
+	&Enum_System_IConvertible_ToType_m519_MethodInfo,
+	&Enum_System_IConvertible_ToUInt16_m520_MethodInfo,
+	&Enum_System_IConvertible_ToUInt32_m521_MethodInfo,
+	&Enum_System_IConvertible_ToUInt64_m522_MethodInfo,
+	&Enum_CompareTo_m523_MethodInfo,
+	&Enum_GetTypeCode_m524_MethodInfo,
 };
 static bool Axis_t1012_VTableIsGenericMethod[] =
 {
@@ -13505,29 +13505,29 @@ static const MethodInfo* Constraint_t1013_MethodInfos[] =
 };
 static const Il2CppMethodReference Constraint_t1013_VTable[] =
 {
-	&Enum_Equals_m501_MethodInfo,
+	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Enum_GetHashCode_m502_MethodInfo,
-	&Enum_ToString_m503_MethodInfo,
-	&Enum_ToString_m504_MethodInfo,
-	&Enum_System_IConvertible_ToBoolean_m505_MethodInfo,
-	&Enum_System_IConvertible_ToByte_m506_MethodInfo,
-	&Enum_System_IConvertible_ToChar_m507_MethodInfo,
-	&Enum_System_IConvertible_ToDateTime_m508_MethodInfo,
-	&Enum_System_IConvertible_ToDecimal_m509_MethodInfo,
-	&Enum_System_IConvertible_ToDouble_m510_MethodInfo,
-	&Enum_System_IConvertible_ToInt16_m511_MethodInfo,
-	&Enum_System_IConvertible_ToInt32_m512_MethodInfo,
-	&Enum_System_IConvertible_ToInt64_m513_MethodInfo,
-	&Enum_System_IConvertible_ToSByte_m514_MethodInfo,
-	&Enum_System_IConvertible_ToSingle_m515_MethodInfo,
-	&Enum_ToString_m516_MethodInfo,
-	&Enum_System_IConvertible_ToType_m517_MethodInfo,
-	&Enum_System_IConvertible_ToUInt16_m518_MethodInfo,
-	&Enum_System_IConvertible_ToUInt32_m519_MethodInfo,
-	&Enum_System_IConvertible_ToUInt64_m520_MethodInfo,
-	&Enum_CompareTo_m521_MethodInfo,
-	&Enum_GetTypeCode_m522_MethodInfo,
+	&Enum_GetHashCode_m504_MethodInfo,
+	&Enum_ToString_m505_MethodInfo,
+	&Enum_ToString_m506_MethodInfo,
+	&Enum_System_IConvertible_ToBoolean_m507_MethodInfo,
+	&Enum_System_IConvertible_ToByte_m508_MethodInfo,
+	&Enum_System_IConvertible_ToChar_m509_MethodInfo,
+	&Enum_System_IConvertible_ToDateTime_m510_MethodInfo,
+	&Enum_System_IConvertible_ToDecimal_m511_MethodInfo,
+	&Enum_System_IConvertible_ToDouble_m512_MethodInfo,
+	&Enum_System_IConvertible_ToInt16_m513_MethodInfo,
+	&Enum_System_IConvertible_ToInt32_m514_MethodInfo,
+	&Enum_System_IConvertible_ToInt64_m515_MethodInfo,
+	&Enum_System_IConvertible_ToSByte_m516_MethodInfo,
+	&Enum_System_IConvertible_ToSingle_m517_MethodInfo,
+	&Enum_ToString_m518_MethodInfo,
+	&Enum_System_IConvertible_ToType_m519_MethodInfo,
+	&Enum_System_IConvertible_ToUInt16_m520_MethodInfo,
+	&Enum_System_IConvertible_ToUInt32_m521_MethodInfo,
+	&Enum_System_IConvertible_ToUInt64_m522_MethodInfo,
+	&Enum_CompareTo_m523_MethodInfo,
+	&Enum_GetTypeCode_m524_MethodInfo,
 };
 static bool Constraint_t1013_VTableIsGenericMethod[] =
 {
@@ -13638,10 +13638,10 @@ TypeInfo Constraint_t1013_il2cpp_TypeInfo =
 #include "UnityEngine_UI_UnityEngine_UI_GridLayoutGroupMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.GridLayoutGroup::.ctor()
-extern const MethodInfo GridLayoutGroup__ctor_m5752_MethodInfo = 
+extern const MethodInfo GridLayoutGroup__ctor_m5756_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&GridLayoutGroup__ctor_m5752/* method */
+	, (methodPointerType)&GridLayoutGroup__ctor_m5756/* method */
 	, &GridLayoutGroup_t1014_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -13661,10 +13661,10 @@ extern const MethodInfo GridLayoutGroup__ctor_m5752_MethodInfo =
 };
 extern void* RuntimeInvoker_Corner_t1011 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.GridLayoutGroup/Corner UnityEngine.UI.GridLayoutGroup::get_startCorner()
-extern const MethodInfo GridLayoutGroup_get_startCorner_m5753_MethodInfo = 
+extern const MethodInfo GridLayoutGroup_get_startCorner_m5757_MethodInfo = 
 {
 	"get_startCorner"/* name */
-	, (methodPointerType)&GridLayoutGroup_get_startCorner_m5753/* method */
+	, (methodPointerType)&GridLayoutGroup_get_startCorner_m5757/* method */
 	, &GridLayoutGroup_t1014_il2cpp_TypeInfo/* declaring_type */
 	, &Corner_t1011_0_0_0/* return_type */
 	, RuntimeInvoker_Corner_t1011/* invoker_method */
@@ -13683,20 +13683,20 @@ extern const MethodInfo GridLayoutGroup_get_startCorner_m5753_MethodInfo =
 
 };
 extern const Il2CppType Corner_t1011_0_0_0;
-static const ParameterInfo GridLayoutGroup_t1014_GridLayoutGroup_set_startCorner_m5754_ParameterInfos[] = 
+static const ParameterInfo GridLayoutGroup_t1014_GridLayoutGroup_set_startCorner_m5758_ParameterInfos[] = 
 {
 	{"value", 0, 134218340, 0, &Corner_t1011_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.GridLayoutGroup::set_startCorner(UnityEngine.UI.GridLayoutGroup/Corner)
-extern const MethodInfo GridLayoutGroup_set_startCorner_m5754_MethodInfo = 
+extern const MethodInfo GridLayoutGroup_set_startCorner_m5758_MethodInfo = 
 {
 	"set_startCorner"/* name */
-	, (methodPointerType)&GridLayoutGroup_set_startCorner_m5754/* method */
+	, (methodPointerType)&GridLayoutGroup_set_startCorner_m5758/* method */
 	, &GridLayoutGroup_t1014_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, GridLayoutGroup_t1014_GridLayoutGroup_set_startCorner_m5754_ParameterInfos/* parameters */
+	, GridLayoutGroup_t1014_GridLayoutGroup_set_startCorner_m5758_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -13712,10 +13712,10 @@ extern const MethodInfo GridLayoutGroup_set_startCorner_m5754_MethodInfo =
 };
 extern void* RuntimeInvoker_Axis_t1012 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.GridLayoutGroup/Axis UnityEngine.UI.GridLayoutGroup::get_startAxis()
-extern const MethodInfo GridLayoutGroup_get_startAxis_m5755_MethodInfo = 
+extern const MethodInfo GridLayoutGroup_get_startAxis_m5759_MethodInfo = 
 {
 	"get_startAxis"/* name */
-	, (methodPointerType)&GridLayoutGroup_get_startAxis_m5755/* method */
+	, (methodPointerType)&GridLayoutGroup_get_startAxis_m5759/* method */
 	, &GridLayoutGroup_t1014_il2cpp_TypeInfo/* declaring_type */
 	, &Axis_t1012_0_0_0/* return_type */
 	, RuntimeInvoker_Axis_t1012/* invoker_method */
@@ -13734,20 +13734,20 @@ extern const MethodInfo GridLayoutGroup_get_startAxis_m5755_MethodInfo =
 
 };
 extern const Il2CppType Axis_t1012_0_0_0;
-static const ParameterInfo GridLayoutGroup_t1014_GridLayoutGroup_set_startAxis_m5756_ParameterInfos[] = 
+static const ParameterInfo GridLayoutGroup_t1014_GridLayoutGroup_set_startAxis_m5760_ParameterInfos[] = 
 {
 	{"value", 0, 134218341, 0, &Axis_t1012_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.GridLayoutGroup::set_startAxis(UnityEngine.UI.GridLayoutGroup/Axis)
-extern const MethodInfo GridLayoutGroup_set_startAxis_m5756_MethodInfo = 
+extern const MethodInfo GridLayoutGroup_set_startAxis_m5760_MethodInfo = 
 {
 	"set_startAxis"/* name */
-	, (methodPointerType)&GridLayoutGroup_set_startAxis_m5756/* method */
+	, (methodPointerType)&GridLayoutGroup_set_startAxis_m5760/* method */
 	, &GridLayoutGroup_t1014_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, GridLayoutGroup_t1014_GridLayoutGroup_set_startAxis_m5756_ParameterInfos/* parameters */
+	, GridLayoutGroup_t1014_GridLayoutGroup_set_startAxis_m5760_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -13763,10 +13763,10 @@ extern const MethodInfo GridLayoutGroup_set_startAxis_m5756_MethodInfo =
 };
 extern void* RuntimeInvoker_Vector2_t110 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector2 UnityEngine.UI.GridLayoutGroup::get_cellSize()
-extern const MethodInfo GridLayoutGroup_get_cellSize_m5757_MethodInfo = 
+extern const MethodInfo GridLayoutGroup_get_cellSize_m5761_MethodInfo = 
 {
 	"get_cellSize"/* name */
-	, (methodPointerType)&GridLayoutGroup_get_cellSize_m5757/* method */
+	, (methodPointerType)&GridLayoutGroup_get_cellSize_m5761/* method */
 	, &GridLayoutGroup_t1014_il2cpp_TypeInfo/* declaring_type */
 	, &Vector2_t110_0_0_0/* return_type */
 	, RuntimeInvoker_Vector2_t110/* invoker_method */
@@ -13785,20 +13785,20 @@ extern const MethodInfo GridLayoutGroup_get_cellSize_m5757_MethodInfo =
 
 };
 extern const Il2CppType Vector2_t110_0_0_0;
-static const ParameterInfo GridLayoutGroup_t1014_GridLayoutGroup_set_cellSize_m5758_ParameterInfos[] = 
+static const ParameterInfo GridLayoutGroup_t1014_GridLayoutGroup_set_cellSize_m5762_ParameterInfos[] = 
 {
 	{"value", 0, 134218342, 0, &Vector2_t110_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Vector2_t110 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.GridLayoutGroup::set_cellSize(UnityEngine.Vector2)
-extern const MethodInfo GridLayoutGroup_set_cellSize_m5758_MethodInfo = 
+extern const MethodInfo GridLayoutGroup_set_cellSize_m5762_MethodInfo = 
 {
 	"set_cellSize"/* name */
-	, (methodPointerType)&GridLayoutGroup_set_cellSize_m5758/* method */
+	, (methodPointerType)&GridLayoutGroup_set_cellSize_m5762/* method */
 	, &GridLayoutGroup_t1014_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Vector2_t110/* invoker_method */
-	, GridLayoutGroup_t1014_GridLayoutGroup_set_cellSize_m5758_ParameterInfos/* parameters */
+	, GridLayoutGroup_t1014_GridLayoutGroup_set_cellSize_m5762_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -13814,10 +13814,10 @@ extern const MethodInfo GridLayoutGroup_set_cellSize_m5758_MethodInfo =
 };
 extern void* RuntimeInvoker_Vector2_t110 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector2 UnityEngine.UI.GridLayoutGroup::get_spacing()
-extern const MethodInfo GridLayoutGroup_get_spacing_m5759_MethodInfo = 
+extern const MethodInfo GridLayoutGroup_get_spacing_m5763_MethodInfo = 
 {
 	"get_spacing"/* name */
-	, (methodPointerType)&GridLayoutGroup_get_spacing_m5759/* method */
+	, (methodPointerType)&GridLayoutGroup_get_spacing_m5763/* method */
 	, &GridLayoutGroup_t1014_il2cpp_TypeInfo/* declaring_type */
 	, &Vector2_t110_0_0_0/* return_type */
 	, RuntimeInvoker_Vector2_t110/* invoker_method */
@@ -13836,20 +13836,20 @@ extern const MethodInfo GridLayoutGroup_get_spacing_m5759_MethodInfo =
 
 };
 extern const Il2CppType Vector2_t110_0_0_0;
-static const ParameterInfo GridLayoutGroup_t1014_GridLayoutGroup_set_spacing_m5760_ParameterInfos[] = 
+static const ParameterInfo GridLayoutGroup_t1014_GridLayoutGroup_set_spacing_m5764_ParameterInfos[] = 
 {
 	{"value", 0, 134218343, 0, &Vector2_t110_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Vector2_t110 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.GridLayoutGroup::set_spacing(UnityEngine.Vector2)
-extern const MethodInfo GridLayoutGroup_set_spacing_m5760_MethodInfo = 
+extern const MethodInfo GridLayoutGroup_set_spacing_m5764_MethodInfo = 
 {
 	"set_spacing"/* name */
-	, (methodPointerType)&GridLayoutGroup_set_spacing_m5760/* method */
+	, (methodPointerType)&GridLayoutGroup_set_spacing_m5764/* method */
 	, &GridLayoutGroup_t1014_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Vector2_t110/* invoker_method */
-	, GridLayoutGroup_t1014_GridLayoutGroup_set_spacing_m5760_ParameterInfos/* parameters */
+	, GridLayoutGroup_t1014_GridLayoutGroup_set_spacing_m5764_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -13865,10 +13865,10 @@ extern const MethodInfo GridLayoutGroup_set_spacing_m5760_MethodInfo =
 };
 extern void* RuntimeInvoker_Constraint_t1013 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.GridLayoutGroup/Constraint UnityEngine.UI.GridLayoutGroup::get_constraint()
-extern const MethodInfo GridLayoutGroup_get_constraint_m5761_MethodInfo = 
+extern const MethodInfo GridLayoutGroup_get_constraint_m5765_MethodInfo = 
 {
 	"get_constraint"/* name */
-	, (methodPointerType)&GridLayoutGroup_get_constraint_m5761/* method */
+	, (methodPointerType)&GridLayoutGroup_get_constraint_m5765/* method */
 	, &GridLayoutGroup_t1014_il2cpp_TypeInfo/* declaring_type */
 	, &Constraint_t1013_0_0_0/* return_type */
 	, RuntimeInvoker_Constraint_t1013/* invoker_method */
@@ -13887,20 +13887,20 @@ extern const MethodInfo GridLayoutGroup_get_constraint_m5761_MethodInfo =
 
 };
 extern const Il2CppType Constraint_t1013_0_0_0;
-static const ParameterInfo GridLayoutGroup_t1014_GridLayoutGroup_set_constraint_m5762_ParameterInfos[] = 
+static const ParameterInfo GridLayoutGroup_t1014_GridLayoutGroup_set_constraint_m5766_ParameterInfos[] = 
 {
 	{"value", 0, 134218344, 0, &Constraint_t1013_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.GridLayoutGroup::set_constraint(UnityEngine.UI.GridLayoutGroup/Constraint)
-extern const MethodInfo GridLayoutGroup_set_constraint_m5762_MethodInfo = 
+extern const MethodInfo GridLayoutGroup_set_constraint_m5766_MethodInfo = 
 {
 	"set_constraint"/* name */
-	, (methodPointerType)&GridLayoutGroup_set_constraint_m5762/* method */
+	, (methodPointerType)&GridLayoutGroup_set_constraint_m5766/* method */
 	, &GridLayoutGroup_t1014_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, GridLayoutGroup_t1014_GridLayoutGroup_set_constraint_m5762_ParameterInfos/* parameters */
+	, GridLayoutGroup_t1014_GridLayoutGroup_set_constraint_m5766_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -13916,10 +13916,10 @@ extern const MethodInfo GridLayoutGroup_set_constraint_m5762_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 UnityEngine.UI.GridLayoutGroup::get_constraintCount()
-extern const MethodInfo GridLayoutGroup_get_constraintCount_m5763_MethodInfo = 
+extern const MethodInfo GridLayoutGroup_get_constraintCount_m5767_MethodInfo = 
 {
 	"get_constraintCount"/* name */
-	, (methodPointerType)&GridLayoutGroup_get_constraintCount_m5763/* method */
+	, (methodPointerType)&GridLayoutGroup_get_constraintCount_m5767/* method */
 	, &GridLayoutGroup_t1014_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -13938,20 +13938,20 @@ extern const MethodInfo GridLayoutGroup_get_constraintCount_m5763_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo GridLayoutGroup_t1014_GridLayoutGroup_set_constraintCount_m5764_ParameterInfos[] = 
+static const ParameterInfo GridLayoutGroup_t1014_GridLayoutGroup_set_constraintCount_m5768_ParameterInfos[] = 
 {
 	{"value", 0, 134218345, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.GridLayoutGroup::set_constraintCount(System.Int32)
-extern const MethodInfo GridLayoutGroup_set_constraintCount_m5764_MethodInfo = 
+extern const MethodInfo GridLayoutGroup_set_constraintCount_m5768_MethodInfo = 
 {
 	"set_constraintCount"/* name */
-	, (methodPointerType)&GridLayoutGroup_set_constraintCount_m5764/* method */
+	, (methodPointerType)&GridLayoutGroup_set_constraintCount_m5768/* method */
 	, &GridLayoutGroup_t1014_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, GridLayoutGroup_t1014_GridLayoutGroup_set_constraintCount_m5764_ParameterInfos/* parameters */
+	, GridLayoutGroup_t1014_GridLayoutGroup_set_constraintCount_m5768_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -13967,10 +13967,10 @@ extern const MethodInfo GridLayoutGroup_set_constraintCount_m5764_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.GridLayoutGroup::CalculateLayoutInputHorizontal()
-extern const MethodInfo GridLayoutGroup_CalculateLayoutInputHorizontal_m5765_MethodInfo = 
+extern const MethodInfo GridLayoutGroup_CalculateLayoutInputHorizontal_m5769_MethodInfo = 
 {
 	"CalculateLayoutInputHorizontal"/* name */
-	, (methodPointerType)&GridLayoutGroup_CalculateLayoutInputHorizontal_m5765/* method */
+	, (methodPointerType)&GridLayoutGroup_CalculateLayoutInputHorizontal_m5769/* method */
 	, &GridLayoutGroup_t1014_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -13990,10 +13990,10 @@ extern const MethodInfo GridLayoutGroup_CalculateLayoutInputHorizontal_m5765_Met
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.GridLayoutGroup::CalculateLayoutInputVertical()
-extern const MethodInfo GridLayoutGroup_CalculateLayoutInputVertical_m5766_MethodInfo = 
+extern const MethodInfo GridLayoutGroup_CalculateLayoutInputVertical_m5770_MethodInfo = 
 {
 	"CalculateLayoutInputVertical"/* name */
-	, (methodPointerType)&GridLayoutGroup_CalculateLayoutInputVertical_m5766/* method */
+	, (methodPointerType)&GridLayoutGroup_CalculateLayoutInputVertical_m5770/* method */
 	, &GridLayoutGroup_t1014_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14013,10 +14013,10 @@ extern const MethodInfo GridLayoutGroup_CalculateLayoutInputVertical_m5766_Metho
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.GridLayoutGroup::SetLayoutHorizontal()
-extern const MethodInfo GridLayoutGroup_SetLayoutHorizontal_m5767_MethodInfo = 
+extern const MethodInfo GridLayoutGroup_SetLayoutHorizontal_m5771_MethodInfo = 
 {
 	"SetLayoutHorizontal"/* name */
-	, (methodPointerType)&GridLayoutGroup_SetLayoutHorizontal_m5767/* method */
+	, (methodPointerType)&GridLayoutGroup_SetLayoutHorizontal_m5771/* method */
 	, &GridLayoutGroup_t1014_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14036,10 +14036,10 @@ extern const MethodInfo GridLayoutGroup_SetLayoutHorizontal_m5767_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.GridLayoutGroup::SetLayoutVertical()
-extern const MethodInfo GridLayoutGroup_SetLayoutVertical_m5768_MethodInfo = 
+extern const MethodInfo GridLayoutGroup_SetLayoutVertical_m5772_MethodInfo = 
 {
 	"SetLayoutVertical"/* name */
-	, (methodPointerType)&GridLayoutGroup_SetLayoutVertical_m5768/* method */
+	, (methodPointerType)&GridLayoutGroup_SetLayoutVertical_m5772/* method */
 	, &GridLayoutGroup_t1014_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14058,20 +14058,20 @@ extern const MethodInfo GridLayoutGroup_SetLayoutVertical_m5768_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo GridLayoutGroup_t1014_GridLayoutGroup_SetCellsAlongAxis_m5769_ParameterInfos[] = 
+static const ParameterInfo GridLayoutGroup_t1014_GridLayoutGroup_SetCellsAlongAxis_m5773_ParameterInfos[] = 
 {
 	{"axis", 0, 134218346, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.GridLayoutGroup::SetCellsAlongAxis(System.Int32)
-extern const MethodInfo GridLayoutGroup_SetCellsAlongAxis_m5769_MethodInfo = 
+extern const MethodInfo GridLayoutGroup_SetCellsAlongAxis_m5773_MethodInfo = 
 {
 	"SetCellsAlongAxis"/* name */
-	, (methodPointerType)&GridLayoutGroup_SetCellsAlongAxis_m5769/* method */
+	, (methodPointerType)&GridLayoutGroup_SetCellsAlongAxis_m5773/* method */
 	, &GridLayoutGroup_t1014_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, GridLayoutGroup_t1014_GridLayoutGroup_SetCellsAlongAxis_m5769_ParameterInfos/* parameters */
+	, GridLayoutGroup_t1014_GridLayoutGroup_SetCellsAlongAxis_m5773_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -14087,94 +14087,94 @@ extern const MethodInfo GridLayoutGroup_SetCellsAlongAxis_m5769_MethodInfo =
 };
 static const MethodInfo* GridLayoutGroup_t1014_MethodInfos[] =
 {
-	&GridLayoutGroup__ctor_m5752_MethodInfo,
-	&GridLayoutGroup_get_startCorner_m5753_MethodInfo,
-	&GridLayoutGroup_set_startCorner_m5754_MethodInfo,
-	&GridLayoutGroup_get_startAxis_m5755_MethodInfo,
-	&GridLayoutGroup_set_startAxis_m5756_MethodInfo,
-	&GridLayoutGroup_get_cellSize_m5757_MethodInfo,
-	&GridLayoutGroup_set_cellSize_m5758_MethodInfo,
-	&GridLayoutGroup_get_spacing_m5759_MethodInfo,
-	&GridLayoutGroup_set_spacing_m5760_MethodInfo,
-	&GridLayoutGroup_get_constraint_m5761_MethodInfo,
-	&GridLayoutGroup_set_constraint_m5762_MethodInfo,
-	&GridLayoutGroup_get_constraintCount_m5763_MethodInfo,
-	&GridLayoutGroup_set_constraintCount_m5764_MethodInfo,
-	&GridLayoutGroup_CalculateLayoutInputHorizontal_m5765_MethodInfo,
-	&GridLayoutGroup_CalculateLayoutInputVertical_m5766_MethodInfo,
-	&GridLayoutGroup_SetLayoutHorizontal_m5767_MethodInfo,
-	&GridLayoutGroup_SetLayoutVertical_m5768_MethodInfo,
-	&GridLayoutGroup_SetCellsAlongAxis_m5769_MethodInfo,
+	&GridLayoutGroup__ctor_m5756_MethodInfo,
+	&GridLayoutGroup_get_startCorner_m5757_MethodInfo,
+	&GridLayoutGroup_set_startCorner_m5758_MethodInfo,
+	&GridLayoutGroup_get_startAxis_m5759_MethodInfo,
+	&GridLayoutGroup_set_startAxis_m5760_MethodInfo,
+	&GridLayoutGroup_get_cellSize_m5761_MethodInfo,
+	&GridLayoutGroup_set_cellSize_m5762_MethodInfo,
+	&GridLayoutGroup_get_spacing_m5763_MethodInfo,
+	&GridLayoutGroup_set_spacing_m5764_MethodInfo,
+	&GridLayoutGroup_get_constraint_m5765_MethodInfo,
+	&GridLayoutGroup_set_constraint_m5766_MethodInfo,
+	&GridLayoutGroup_get_constraintCount_m5767_MethodInfo,
+	&GridLayoutGroup_set_constraintCount_m5768_MethodInfo,
+	&GridLayoutGroup_CalculateLayoutInputHorizontal_m5769_MethodInfo,
+	&GridLayoutGroup_CalculateLayoutInputVertical_m5770_MethodInfo,
+	&GridLayoutGroup_SetLayoutHorizontal_m5771_MethodInfo,
+	&GridLayoutGroup_SetLayoutVertical_m5772_MethodInfo,
+	&GridLayoutGroup_SetCellsAlongAxis_m5773_MethodInfo,
 	NULL
 };
-extern const MethodInfo GridLayoutGroup_get_startCorner_m5753_MethodInfo;
-extern const MethodInfo GridLayoutGroup_set_startCorner_m5754_MethodInfo;
+extern const MethodInfo GridLayoutGroup_get_startCorner_m5757_MethodInfo;
+extern const MethodInfo GridLayoutGroup_set_startCorner_m5758_MethodInfo;
 static const PropertyInfo GridLayoutGroup_t1014____startCorner_PropertyInfo = 
 {
 	&GridLayoutGroup_t1014_il2cpp_TypeInfo/* parent */
 	, "startCorner"/* name */
-	, &GridLayoutGroup_get_startCorner_m5753_MethodInfo/* get */
-	, &GridLayoutGroup_set_startCorner_m5754_MethodInfo/* set */
+	, &GridLayoutGroup_get_startCorner_m5757_MethodInfo/* get */
+	, &GridLayoutGroup_set_startCorner_m5758_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo GridLayoutGroup_get_startAxis_m5755_MethodInfo;
-extern const MethodInfo GridLayoutGroup_set_startAxis_m5756_MethodInfo;
+extern const MethodInfo GridLayoutGroup_get_startAxis_m5759_MethodInfo;
+extern const MethodInfo GridLayoutGroup_set_startAxis_m5760_MethodInfo;
 static const PropertyInfo GridLayoutGroup_t1014____startAxis_PropertyInfo = 
 {
 	&GridLayoutGroup_t1014_il2cpp_TypeInfo/* parent */
 	, "startAxis"/* name */
-	, &GridLayoutGroup_get_startAxis_m5755_MethodInfo/* get */
-	, &GridLayoutGroup_set_startAxis_m5756_MethodInfo/* set */
+	, &GridLayoutGroup_get_startAxis_m5759_MethodInfo/* get */
+	, &GridLayoutGroup_set_startAxis_m5760_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo GridLayoutGroup_get_cellSize_m5757_MethodInfo;
-extern const MethodInfo GridLayoutGroup_set_cellSize_m5758_MethodInfo;
+extern const MethodInfo GridLayoutGroup_get_cellSize_m5761_MethodInfo;
+extern const MethodInfo GridLayoutGroup_set_cellSize_m5762_MethodInfo;
 static const PropertyInfo GridLayoutGroup_t1014____cellSize_PropertyInfo = 
 {
 	&GridLayoutGroup_t1014_il2cpp_TypeInfo/* parent */
 	, "cellSize"/* name */
-	, &GridLayoutGroup_get_cellSize_m5757_MethodInfo/* get */
-	, &GridLayoutGroup_set_cellSize_m5758_MethodInfo/* set */
+	, &GridLayoutGroup_get_cellSize_m5761_MethodInfo/* get */
+	, &GridLayoutGroup_set_cellSize_m5762_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo GridLayoutGroup_get_spacing_m5759_MethodInfo;
-extern const MethodInfo GridLayoutGroup_set_spacing_m5760_MethodInfo;
+extern const MethodInfo GridLayoutGroup_get_spacing_m5763_MethodInfo;
+extern const MethodInfo GridLayoutGroup_set_spacing_m5764_MethodInfo;
 static const PropertyInfo GridLayoutGroup_t1014____spacing_PropertyInfo = 
 {
 	&GridLayoutGroup_t1014_il2cpp_TypeInfo/* parent */
 	, "spacing"/* name */
-	, &GridLayoutGroup_get_spacing_m5759_MethodInfo/* get */
-	, &GridLayoutGroup_set_spacing_m5760_MethodInfo/* set */
+	, &GridLayoutGroup_get_spacing_m5763_MethodInfo/* get */
+	, &GridLayoutGroup_set_spacing_m5764_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo GridLayoutGroup_get_constraint_m5761_MethodInfo;
-extern const MethodInfo GridLayoutGroup_set_constraint_m5762_MethodInfo;
+extern const MethodInfo GridLayoutGroup_get_constraint_m5765_MethodInfo;
+extern const MethodInfo GridLayoutGroup_set_constraint_m5766_MethodInfo;
 static const PropertyInfo GridLayoutGroup_t1014____constraint_PropertyInfo = 
 {
 	&GridLayoutGroup_t1014_il2cpp_TypeInfo/* parent */
 	, "constraint"/* name */
-	, &GridLayoutGroup_get_constraint_m5761_MethodInfo/* get */
-	, &GridLayoutGroup_set_constraint_m5762_MethodInfo/* set */
+	, &GridLayoutGroup_get_constraint_m5765_MethodInfo/* get */
+	, &GridLayoutGroup_set_constraint_m5766_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo GridLayoutGroup_get_constraintCount_m5763_MethodInfo;
-extern const MethodInfo GridLayoutGroup_set_constraintCount_m5764_MethodInfo;
+extern const MethodInfo GridLayoutGroup_get_constraintCount_m5767_MethodInfo;
+extern const MethodInfo GridLayoutGroup_set_constraintCount_m5768_MethodInfo;
 static const PropertyInfo GridLayoutGroup_t1014____constraintCount_PropertyInfo = 
 {
 	&GridLayoutGroup_t1014_il2cpp_TypeInfo/* parent */
 	, "constraintCount"/* name */
-	, &GridLayoutGroup_get_constraintCount_m5763_MethodInfo/* get */
-	, &GridLayoutGroup_set_constraintCount_m5764_MethodInfo/* set */
+	, &GridLayoutGroup_get_constraintCount_m5767_MethodInfo/* get */
+	, &GridLayoutGroup_set_constraintCount_m5768_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -14195,63 +14195,63 @@ static const Il2CppType* GridLayoutGroup_t1014_il2cpp_TypeInfo__nestedTypes[3] =
 	&Axis_t1012_0_0_0,
 	&Constraint_t1013_0_0_0,
 };
-extern const MethodInfo LayoutGroup_OnEnable_m5823_MethodInfo;
-extern const MethodInfo LayoutGroup_OnDisable_m5824_MethodInfo;
-extern const MethodInfo LayoutGroup_OnRectTransformDimensionsChange_m5833_MethodInfo;
-extern const MethodInfo LayoutGroup_OnDidApplyAnimationProperties_m5825_MethodInfo;
-extern const MethodInfo GridLayoutGroup_CalculateLayoutInputHorizontal_m5765_MethodInfo;
-extern const MethodInfo GridLayoutGroup_CalculateLayoutInputVertical_m5766_MethodInfo;
-extern const MethodInfo LayoutGroup_get_minWidth_m5816_MethodInfo;
-extern const MethodInfo LayoutGroup_get_preferredWidth_m5817_MethodInfo;
-extern const MethodInfo LayoutGroup_get_flexibleWidth_m5818_MethodInfo;
-extern const MethodInfo LayoutGroup_get_minHeight_m5819_MethodInfo;
-extern const MethodInfo LayoutGroup_get_preferredHeight_m5820_MethodInfo;
-extern const MethodInfo LayoutGroup_get_flexibleHeight_m5821_MethodInfo;
-extern const MethodInfo LayoutGroup_get_layoutPriority_m5822_MethodInfo;
-extern const MethodInfo GridLayoutGroup_SetLayoutHorizontal_m5767_MethodInfo;
-extern const MethodInfo GridLayoutGroup_SetLayoutVertical_m5768_MethodInfo;
-extern const MethodInfo LayoutGroup_OnTransformChildrenChanged_m5834_MethodInfo;
+extern const MethodInfo LayoutGroup_OnEnable_m5827_MethodInfo;
+extern const MethodInfo LayoutGroup_OnDisable_m5828_MethodInfo;
+extern const MethodInfo LayoutGroup_OnRectTransformDimensionsChange_m5837_MethodInfo;
+extern const MethodInfo LayoutGroup_OnDidApplyAnimationProperties_m5829_MethodInfo;
+extern const MethodInfo GridLayoutGroup_CalculateLayoutInputHorizontal_m5769_MethodInfo;
+extern const MethodInfo GridLayoutGroup_CalculateLayoutInputVertical_m5770_MethodInfo;
+extern const MethodInfo LayoutGroup_get_minWidth_m5820_MethodInfo;
+extern const MethodInfo LayoutGroup_get_preferredWidth_m5821_MethodInfo;
+extern const MethodInfo LayoutGroup_get_flexibleWidth_m5822_MethodInfo;
+extern const MethodInfo LayoutGroup_get_minHeight_m5823_MethodInfo;
+extern const MethodInfo LayoutGroup_get_preferredHeight_m5824_MethodInfo;
+extern const MethodInfo LayoutGroup_get_flexibleHeight_m5825_MethodInfo;
+extern const MethodInfo LayoutGroup_get_layoutPriority_m5826_MethodInfo;
+extern const MethodInfo GridLayoutGroup_SetLayoutHorizontal_m5771_MethodInfo;
+extern const MethodInfo GridLayoutGroup_SetLayoutVertical_m5772_MethodInfo;
+extern const MethodInfo LayoutGroup_OnTransformChildrenChanged_m5838_MethodInfo;
 static const Il2CppMethodReference GridLayoutGroup_t1014_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
-	&UIBehaviour_Awake_m4839_MethodInfo,
-	&LayoutGroup_OnEnable_m5823_MethodInfo,
-	&UIBehaviour_Start_m4841_MethodInfo,
-	&LayoutGroup_OnDisable_m5824_MethodInfo,
-	&UIBehaviour_OnDestroy_m4843_MethodInfo,
-	&UIBehaviour_IsActive_m4844_MethodInfo,
-	&LayoutGroup_OnRectTransformDimensionsChange_m5833_MethodInfo,
-	&UIBehaviour_OnBeforeTransformParentChanged_m4846_MethodInfo,
-	&UIBehaviour_OnTransformParentChanged_m4847_MethodInfo,
-	&LayoutGroup_OnDidApplyAnimationProperties_m5825_MethodInfo,
-	&UIBehaviour_OnCanvasGroupChanged_m4849_MethodInfo,
-	&UIBehaviour_OnCanvasHierarchyChanged_m4850_MethodInfo,
-	&GridLayoutGroup_CalculateLayoutInputHorizontal_m5765_MethodInfo,
-	&GridLayoutGroup_CalculateLayoutInputVertical_m5766_MethodInfo,
-	&LayoutGroup_get_minWidth_m5816_MethodInfo,
-	&LayoutGroup_get_preferredWidth_m5817_MethodInfo,
-	&LayoutGroup_get_flexibleWidth_m5818_MethodInfo,
-	&LayoutGroup_get_minHeight_m5819_MethodInfo,
-	&LayoutGroup_get_preferredHeight_m5820_MethodInfo,
-	&LayoutGroup_get_flexibleHeight_m5821_MethodInfo,
-	&LayoutGroup_get_layoutPriority_m5822_MethodInfo,
-	&GridLayoutGroup_SetLayoutHorizontal_m5767_MethodInfo,
-	&GridLayoutGroup_SetLayoutVertical_m5768_MethodInfo,
-	&GridLayoutGroup_CalculateLayoutInputHorizontal_m5765_MethodInfo,
-	&GridLayoutGroup_CalculateLayoutInputVertical_m5766_MethodInfo,
-	&LayoutGroup_get_minWidth_m5816_MethodInfo,
-	&LayoutGroup_get_preferredWidth_m5817_MethodInfo,
-	&LayoutGroup_get_flexibleWidth_m5818_MethodInfo,
-	&LayoutGroup_get_minHeight_m5819_MethodInfo,
-	&LayoutGroup_get_preferredHeight_m5820_MethodInfo,
-	&LayoutGroup_get_flexibleHeight_m5821_MethodInfo,
-	&LayoutGroup_get_layoutPriority_m5822_MethodInfo,
-	&GridLayoutGroup_SetLayoutHorizontal_m5767_MethodInfo,
-	&GridLayoutGroup_SetLayoutVertical_m5768_MethodInfo,
-	&LayoutGroup_OnTransformChildrenChanged_m5834_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
+	&UIBehaviour_Awake_m4843_MethodInfo,
+	&LayoutGroup_OnEnable_m5827_MethodInfo,
+	&UIBehaviour_Start_m4845_MethodInfo,
+	&LayoutGroup_OnDisable_m5828_MethodInfo,
+	&UIBehaviour_OnDestroy_m4847_MethodInfo,
+	&UIBehaviour_IsActive_m4848_MethodInfo,
+	&LayoutGroup_OnRectTransformDimensionsChange_m5837_MethodInfo,
+	&UIBehaviour_OnBeforeTransformParentChanged_m4850_MethodInfo,
+	&UIBehaviour_OnTransformParentChanged_m4851_MethodInfo,
+	&LayoutGroup_OnDidApplyAnimationProperties_m5829_MethodInfo,
+	&UIBehaviour_OnCanvasGroupChanged_m4853_MethodInfo,
+	&UIBehaviour_OnCanvasHierarchyChanged_m4854_MethodInfo,
+	&GridLayoutGroup_CalculateLayoutInputHorizontal_m5769_MethodInfo,
+	&GridLayoutGroup_CalculateLayoutInputVertical_m5770_MethodInfo,
+	&LayoutGroup_get_minWidth_m5820_MethodInfo,
+	&LayoutGroup_get_preferredWidth_m5821_MethodInfo,
+	&LayoutGroup_get_flexibleWidth_m5822_MethodInfo,
+	&LayoutGroup_get_minHeight_m5823_MethodInfo,
+	&LayoutGroup_get_preferredHeight_m5824_MethodInfo,
+	&LayoutGroup_get_flexibleHeight_m5825_MethodInfo,
+	&LayoutGroup_get_layoutPriority_m5826_MethodInfo,
+	&GridLayoutGroup_SetLayoutHorizontal_m5771_MethodInfo,
+	&GridLayoutGroup_SetLayoutVertical_m5772_MethodInfo,
+	&GridLayoutGroup_CalculateLayoutInputHorizontal_m5769_MethodInfo,
+	&GridLayoutGroup_CalculateLayoutInputVertical_m5770_MethodInfo,
+	&LayoutGroup_get_minWidth_m5820_MethodInfo,
+	&LayoutGroup_get_preferredWidth_m5821_MethodInfo,
+	&LayoutGroup_get_flexibleWidth_m5822_MethodInfo,
+	&LayoutGroup_get_minHeight_m5823_MethodInfo,
+	&LayoutGroup_get_preferredHeight_m5824_MethodInfo,
+	&LayoutGroup_get_flexibleHeight_m5825_MethodInfo,
+	&LayoutGroup_get_layoutPriority_m5826_MethodInfo,
+	&GridLayoutGroup_SetLayoutHorizontal_m5771_MethodInfo,
+	&GridLayoutGroup_SetLayoutVertical_m5772_MethodInfo,
+	&LayoutGroup_OnTransformChildrenChanged_m5838_MethodInfo,
 };
 static bool GridLayoutGroup_t1014_VTableIsGenericMethod[] =
 {
@@ -14381,10 +14381,10 @@ extern TypeInfo HorizontalLayoutGroup_t1016_il2cpp_TypeInfo;
 #include "UnityEngine_UI_UnityEngine_UI_HorizontalLayoutGroupMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.HorizontalLayoutGroup::.ctor()
-extern const MethodInfo HorizontalLayoutGroup__ctor_m5770_MethodInfo = 
+extern const MethodInfo HorizontalLayoutGroup__ctor_m5774_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&HorizontalLayoutGroup__ctor_m5770/* method */
+	, (methodPointerType)&HorizontalLayoutGroup__ctor_m5774/* method */
 	, &HorizontalLayoutGroup_t1016_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14404,10 +14404,10 @@ extern const MethodInfo HorizontalLayoutGroup__ctor_m5770_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.HorizontalLayoutGroup::CalculateLayoutInputHorizontal()
-extern const MethodInfo HorizontalLayoutGroup_CalculateLayoutInputHorizontal_m5771_MethodInfo = 
+extern const MethodInfo HorizontalLayoutGroup_CalculateLayoutInputHorizontal_m5775_MethodInfo = 
 {
 	"CalculateLayoutInputHorizontal"/* name */
-	, (methodPointerType)&HorizontalLayoutGroup_CalculateLayoutInputHorizontal_m5771/* method */
+	, (methodPointerType)&HorizontalLayoutGroup_CalculateLayoutInputHorizontal_m5775/* method */
 	, &HorizontalLayoutGroup_t1016_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14427,10 +14427,10 @@ extern const MethodInfo HorizontalLayoutGroup_CalculateLayoutInputHorizontal_m57
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.HorizontalLayoutGroup::CalculateLayoutInputVertical()
-extern const MethodInfo HorizontalLayoutGroup_CalculateLayoutInputVertical_m5772_MethodInfo = 
+extern const MethodInfo HorizontalLayoutGroup_CalculateLayoutInputVertical_m5776_MethodInfo = 
 {
 	"CalculateLayoutInputVertical"/* name */
-	, (methodPointerType)&HorizontalLayoutGroup_CalculateLayoutInputVertical_m5772/* method */
+	, (methodPointerType)&HorizontalLayoutGroup_CalculateLayoutInputVertical_m5776/* method */
 	, &HorizontalLayoutGroup_t1016_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14450,10 +14450,10 @@ extern const MethodInfo HorizontalLayoutGroup_CalculateLayoutInputVertical_m5772
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.HorizontalLayoutGroup::SetLayoutHorizontal()
-extern const MethodInfo HorizontalLayoutGroup_SetLayoutHorizontal_m5773_MethodInfo = 
+extern const MethodInfo HorizontalLayoutGroup_SetLayoutHorizontal_m5777_MethodInfo = 
 {
 	"SetLayoutHorizontal"/* name */
-	, (methodPointerType)&HorizontalLayoutGroup_SetLayoutHorizontal_m5773/* method */
+	, (methodPointerType)&HorizontalLayoutGroup_SetLayoutHorizontal_m5777/* method */
 	, &HorizontalLayoutGroup_t1016_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14473,10 +14473,10 @@ extern const MethodInfo HorizontalLayoutGroup_SetLayoutHorizontal_m5773_MethodIn
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.HorizontalLayoutGroup::SetLayoutVertical()
-extern const MethodInfo HorizontalLayoutGroup_SetLayoutVertical_m5774_MethodInfo = 
+extern const MethodInfo HorizontalLayoutGroup_SetLayoutVertical_m5778_MethodInfo = 
 {
 	"SetLayoutVertical"/* name */
-	, (methodPointerType)&HorizontalLayoutGroup_SetLayoutVertical_m5774/* method */
+	, (methodPointerType)&HorizontalLayoutGroup_SetLayoutVertical_m5778/* method */
 	, &HorizontalLayoutGroup_t1016_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14496,58 +14496,58 @@ extern const MethodInfo HorizontalLayoutGroup_SetLayoutVertical_m5774_MethodInfo
 };
 static const MethodInfo* HorizontalLayoutGroup_t1016_MethodInfos[] =
 {
-	&HorizontalLayoutGroup__ctor_m5770_MethodInfo,
-	&HorizontalLayoutGroup_CalculateLayoutInputHorizontal_m5771_MethodInfo,
-	&HorizontalLayoutGroup_CalculateLayoutInputVertical_m5772_MethodInfo,
-	&HorizontalLayoutGroup_SetLayoutHorizontal_m5773_MethodInfo,
-	&HorizontalLayoutGroup_SetLayoutVertical_m5774_MethodInfo,
+	&HorizontalLayoutGroup__ctor_m5774_MethodInfo,
+	&HorizontalLayoutGroup_CalculateLayoutInputHorizontal_m5775_MethodInfo,
+	&HorizontalLayoutGroup_CalculateLayoutInputVertical_m5776_MethodInfo,
+	&HorizontalLayoutGroup_SetLayoutHorizontal_m5777_MethodInfo,
+	&HorizontalLayoutGroup_SetLayoutVertical_m5778_MethodInfo,
 	NULL
 };
-extern const MethodInfo HorizontalLayoutGroup_CalculateLayoutInputHorizontal_m5771_MethodInfo;
-extern const MethodInfo HorizontalLayoutGroup_CalculateLayoutInputVertical_m5772_MethodInfo;
-extern const MethodInfo HorizontalLayoutGroup_SetLayoutHorizontal_m5773_MethodInfo;
-extern const MethodInfo HorizontalLayoutGroup_SetLayoutVertical_m5774_MethodInfo;
+extern const MethodInfo HorizontalLayoutGroup_CalculateLayoutInputHorizontal_m5775_MethodInfo;
+extern const MethodInfo HorizontalLayoutGroup_CalculateLayoutInputVertical_m5776_MethodInfo;
+extern const MethodInfo HorizontalLayoutGroup_SetLayoutHorizontal_m5777_MethodInfo;
+extern const MethodInfo HorizontalLayoutGroup_SetLayoutVertical_m5778_MethodInfo;
 static const Il2CppMethodReference HorizontalLayoutGroup_t1016_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
-	&UIBehaviour_Awake_m4839_MethodInfo,
-	&LayoutGroup_OnEnable_m5823_MethodInfo,
-	&UIBehaviour_Start_m4841_MethodInfo,
-	&LayoutGroup_OnDisable_m5824_MethodInfo,
-	&UIBehaviour_OnDestroy_m4843_MethodInfo,
-	&UIBehaviour_IsActive_m4844_MethodInfo,
-	&LayoutGroup_OnRectTransformDimensionsChange_m5833_MethodInfo,
-	&UIBehaviour_OnBeforeTransformParentChanged_m4846_MethodInfo,
-	&UIBehaviour_OnTransformParentChanged_m4847_MethodInfo,
-	&LayoutGroup_OnDidApplyAnimationProperties_m5825_MethodInfo,
-	&UIBehaviour_OnCanvasGroupChanged_m4849_MethodInfo,
-	&UIBehaviour_OnCanvasHierarchyChanged_m4850_MethodInfo,
-	&HorizontalLayoutGroup_CalculateLayoutInputHorizontal_m5771_MethodInfo,
-	&HorizontalLayoutGroup_CalculateLayoutInputVertical_m5772_MethodInfo,
-	&LayoutGroup_get_minWidth_m5816_MethodInfo,
-	&LayoutGroup_get_preferredWidth_m5817_MethodInfo,
-	&LayoutGroup_get_flexibleWidth_m5818_MethodInfo,
-	&LayoutGroup_get_minHeight_m5819_MethodInfo,
-	&LayoutGroup_get_preferredHeight_m5820_MethodInfo,
-	&LayoutGroup_get_flexibleHeight_m5821_MethodInfo,
-	&LayoutGroup_get_layoutPriority_m5822_MethodInfo,
-	&HorizontalLayoutGroup_SetLayoutHorizontal_m5773_MethodInfo,
-	&HorizontalLayoutGroup_SetLayoutVertical_m5774_MethodInfo,
-	&HorizontalLayoutGroup_CalculateLayoutInputHorizontal_m5771_MethodInfo,
-	&HorizontalLayoutGroup_CalculateLayoutInputVertical_m5772_MethodInfo,
-	&LayoutGroup_get_minWidth_m5816_MethodInfo,
-	&LayoutGroup_get_preferredWidth_m5817_MethodInfo,
-	&LayoutGroup_get_flexibleWidth_m5818_MethodInfo,
-	&LayoutGroup_get_minHeight_m5819_MethodInfo,
-	&LayoutGroup_get_preferredHeight_m5820_MethodInfo,
-	&LayoutGroup_get_flexibleHeight_m5821_MethodInfo,
-	&LayoutGroup_get_layoutPriority_m5822_MethodInfo,
-	&HorizontalLayoutGroup_SetLayoutHorizontal_m5773_MethodInfo,
-	&HorizontalLayoutGroup_SetLayoutVertical_m5774_MethodInfo,
-	&LayoutGroup_OnTransformChildrenChanged_m5834_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
+	&UIBehaviour_Awake_m4843_MethodInfo,
+	&LayoutGroup_OnEnable_m5827_MethodInfo,
+	&UIBehaviour_Start_m4845_MethodInfo,
+	&LayoutGroup_OnDisable_m5828_MethodInfo,
+	&UIBehaviour_OnDestroy_m4847_MethodInfo,
+	&UIBehaviour_IsActive_m4848_MethodInfo,
+	&LayoutGroup_OnRectTransformDimensionsChange_m5837_MethodInfo,
+	&UIBehaviour_OnBeforeTransformParentChanged_m4850_MethodInfo,
+	&UIBehaviour_OnTransformParentChanged_m4851_MethodInfo,
+	&LayoutGroup_OnDidApplyAnimationProperties_m5829_MethodInfo,
+	&UIBehaviour_OnCanvasGroupChanged_m4853_MethodInfo,
+	&UIBehaviour_OnCanvasHierarchyChanged_m4854_MethodInfo,
+	&HorizontalLayoutGroup_CalculateLayoutInputHorizontal_m5775_MethodInfo,
+	&HorizontalLayoutGroup_CalculateLayoutInputVertical_m5776_MethodInfo,
+	&LayoutGroup_get_minWidth_m5820_MethodInfo,
+	&LayoutGroup_get_preferredWidth_m5821_MethodInfo,
+	&LayoutGroup_get_flexibleWidth_m5822_MethodInfo,
+	&LayoutGroup_get_minHeight_m5823_MethodInfo,
+	&LayoutGroup_get_preferredHeight_m5824_MethodInfo,
+	&LayoutGroup_get_flexibleHeight_m5825_MethodInfo,
+	&LayoutGroup_get_layoutPriority_m5826_MethodInfo,
+	&HorizontalLayoutGroup_SetLayoutHorizontal_m5777_MethodInfo,
+	&HorizontalLayoutGroup_SetLayoutVertical_m5778_MethodInfo,
+	&HorizontalLayoutGroup_CalculateLayoutInputHorizontal_m5775_MethodInfo,
+	&HorizontalLayoutGroup_CalculateLayoutInputVertical_m5776_MethodInfo,
+	&LayoutGroup_get_minWidth_m5820_MethodInfo,
+	&LayoutGroup_get_preferredWidth_m5821_MethodInfo,
+	&LayoutGroup_get_flexibleWidth_m5822_MethodInfo,
+	&LayoutGroup_get_minHeight_m5823_MethodInfo,
+	&LayoutGroup_get_preferredHeight_m5824_MethodInfo,
+	&LayoutGroup_get_flexibleHeight_m5825_MethodInfo,
+	&LayoutGroup_get_layoutPriority_m5826_MethodInfo,
+	&HorizontalLayoutGroup_SetLayoutHorizontal_m5777_MethodInfo,
+	&HorizontalLayoutGroup_SetLayoutVertical_m5778_MethodInfo,
+	&LayoutGroup_OnTransformChildrenChanged_m5838_MethodInfo,
 };
 static bool HorizontalLayoutGroup_t1016_VTableIsGenericMethod[] =
 {
@@ -14677,10 +14677,10 @@ extern TypeInfo HorizontalOrVerticalLayoutGroup_t1017_il2cpp_TypeInfo;
 #include "UnityEngine_UI_UnityEngine_UI_HorizontalOrVerticalLayoutGrouMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.HorizontalOrVerticalLayoutGroup::.ctor()
-extern const MethodInfo HorizontalOrVerticalLayoutGroup__ctor_m5775_MethodInfo = 
+extern const MethodInfo HorizontalOrVerticalLayoutGroup__ctor_m5779_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&HorizontalOrVerticalLayoutGroup__ctor_m5775/* method */
+	, (methodPointerType)&HorizontalOrVerticalLayoutGroup__ctor_m5779/* method */
 	, &HorizontalOrVerticalLayoutGroup_t1017_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -14700,10 +14700,10 @@ extern const MethodInfo HorizontalOrVerticalLayoutGroup__ctor_m5775_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.HorizontalOrVerticalLayoutGroup::get_spacing()
-extern const MethodInfo HorizontalOrVerticalLayoutGroup_get_spacing_m5776_MethodInfo = 
+extern const MethodInfo HorizontalOrVerticalLayoutGroup_get_spacing_m5780_MethodInfo = 
 {
 	"get_spacing"/* name */
-	, (methodPointerType)&HorizontalOrVerticalLayoutGroup_get_spacing_m5776/* method */
+	, (methodPointerType)&HorizontalOrVerticalLayoutGroup_get_spacing_m5780/* method */
 	, &HorizontalOrVerticalLayoutGroup_t1017_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -14722,20 +14722,20 @@ extern const MethodInfo HorizontalOrVerticalLayoutGroup_get_spacing_m5776_Method
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo HorizontalOrVerticalLayoutGroup_t1017_HorizontalOrVerticalLayoutGroup_set_spacing_m5777_ParameterInfos[] = 
+static const ParameterInfo HorizontalOrVerticalLayoutGroup_t1017_HorizontalOrVerticalLayoutGroup_set_spacing_m5781_ParameterInfos[] = 
 {
 	{"value", 0, 134218347, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.HorizontalOrVerticalLayoutGroup::set_spacing(System.Single)
-extern const MethodInfo HorizontalOrVerticalLayoutGroup_set_spacing_m5777_MethodInfo = 
+extern const MethodInfo HorizontalOrVerticalLayoutGroup_set_spacing_m5781_MethodInfo = 
 {
 	"set_spacing"/* name */
-	, (methodPointerType)&HorizontalOrVerticalLayoutGroup_set_spacing_m5777/* method */
+	, (methodPointerType)&HorizontalOrVerticalLayoutGroup_set_spacing_m5781/* method */
 	, &HorizontalOrVerticalLayoutGroup_t1017_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, HorizontalOrVerticalLayoutGroup_t1017_HorizontalOrVerticalLayoutGroup_set_spacing_m5777_ParameterInfos/* parameters */
+	, HorizontalOrVerticalLayoutGroup_t1017_HorizontalOrVerticalLayoutGroup_set_spacing_m5781_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -14751,10 +14751,10 @@ extern const MethodInfo HorizontalOrVerticalLayoutGroup_set_spacing_m5777_Method
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.HorizontalOrVerticalLayoutGroup::get_childForceExpandWidth()
-extern const MethodInfo HorizontalOrVerticalLayoutGroup_get_childForceExpandWidth_m5778_MethodInfo = 
+extern const MethodInfo HorizontalOrVerticalLayoutGroup_get_childForceExpandWidth_m5782_MethodInfo = 
 {
 	"get_childForceExpandWidth"/* name */
-	, (methodPointerType)&HorizontalOrVerticalLayoutGroup_get_childForceExpandWidth_m5778/* method */
+	, (methodPointerType)&HorizontalOrVerticalLayoutGroup_get_childForceExpandWidth_m5782/* method */
 	, &HorizontalOrVerticalLayoutGroup_t1017_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -14773,20 +14773,20 @@ extern const MethodInfo HorizontalOrVerticalLayoutGroup_get_childForceExpandWidt
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo HorizontalOrVerticalLayoutGroup_t1017_HorizontalOrVerticalLayoutGroup_set_childForceExpandWidth_m5779_ParameterInfos[] = 
+static const ParameterInfo HorizontalOrVerticalLayoutGroup_t1017_HorizontalOrVerticalLayoutGroup_set_childForceExpandWidth_m5783_ParameterInfos[] = 
 {
 	{"value", 0, 134218348, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.HorizontalOrVerticalLayoutGroup::set_childForceExpandWidth(System.Boolean)
-extern const MethodInfo HorizontalOrVerticalLayoutGroup_set_childForceExpandWidth_m5779_MethodInfo = 
+extern const MethodInfo HorizontalOrVerticalLayoutGroup_set_childForceExpandWidth_m5783_MethodInfo = 
 {
 	"set_childForceExpandWidth"/* name */
-	, (methodPointerType)&HorizontalOrVerticalLayoutGroup_set_childForceExpandWidth_m5779/* method */
+	, (methodPointerType)&HorizontalOrVerticalLayoutGroup_set_childForceExpandWidth_m5783/* method */
 	, &HorizontalOrVerticalLayoutGroup_t1017_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, HorizontalOrVerticalLayoutGroup_t1017_HorizontalOrVerticalLayoutGroup_set_childForceExpandWidth_m5779_ParameterInfos/* parameters */
+	, HorizontalOrVerticalLayoutGroup_t1017_HorizontalOrVerticalLayoutGroup_set_childForceExpandWidth_m5783_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -14802,10 +14802,10 @@ extern const MethodInfo HorizontalOrVerticalLayoutGroup_set_childForceExpandWidt
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.HorizontalOrVerticalLayoutGroup::get_childForceExpandHeight()
-extern const MethodInfo HorizontalOrVerticalLayoutGroup_get_childForceExpandHeight_m5780_MethodInfo = 
+extern const MethodInfo HorizontalOrVerticalLayoutGroup_get_childForceExpandHeight_m5784_MethodInfo = 
 {
 	"get_childForceExpandHeight"/* name */
-	, (methodPointerType)&HorizontalOrVerticalLayoutGroup_get_childForceExpandHeight_m5780/* method */
+	, (methodPointerType)&HorizontalOrVerticalLayoutGroup_get_childForceExpandHeight_m5784/* method */
 	, &HorizontalOrVerticalLayoutGroup_t1017_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -14824,20 +14824,20 @@ extern const MethodInfo HorizontalOrVerticalLayoutGroup_get_childForceExpandHeig
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo HorizontalOrVerticalLayoutGroup_t1017_HorizontalOrVerticalLayoutGroup_set_childForceExpandHeight_m5781_ParameterInfos[] = 
+static const ParameterInfo HorizontalOrVerticalLayoutGroup_t1017_HorizontalOrVerticalLayoutGroup_set_childForceExpandHeight_m5785_ParameterInfos[] = 
 {
 	{"value", 0, 134218349, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.HorizontalOrVerticalLayoutGroup::set_childForceExpandHeight(System.Boolean)
-extern const MethodInfo HorizontalOrVerticalLayoutGroup_set_childForceExpandHeight_m5781_MethodInfo = 
+extern const MethodInfo HorizontalOrVerticalLayoutGroup_set_childForceExpandHeight_m5785_MethodInfo = 
 {
 	"set_childForceExpandHeight"/* name */
-	, (methodPointerType)&HorizontalOrVerticalLayoutGroup_set_childForceExpandHeight_m5781/* method */
+	, (methodPointerType)&HorizontalOrVerticalLayoutGroup_set_childForceExpandHeight_m5785/* method */
 	, &HorizontalOrVerticalLayoutGroup_t1017_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, HorizontalOrVerticalLayoutGroup_t1017_HorizontalOrVerticalLayoutGroup_set_childForceExpandHeight_m5781_ParameterInfos/* parameters */
+	, HorizontalOrVerticalLayoutGroup_t1017_HorizontalOrVerticalLayoutGroup_set_childForceExpandHeight_m5785_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -14853,21 +14853,21 @@ extern const MethodInfo HorizontalOrVerticalLayoutGroup_set_childForceExpandHeig
 };
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo HorizontalOrVerticalLayoutGroup_t1017_HorizontalOrVerticalLayoutGroup_CalcAlongAxis_m5782_ParameterInfos[] = 
+static const ParameterInfo HorizontalOrVerticalLayoutGroup_t1017_HorizontalOrVerticalLayoutGroup_CalcAlongAxis_m5786_ParameterInfos[] = 
 {
 	{"axis", 0, 134218350, 0, &Int32_t82_0_0_0},
 	{"isVertical", 1, 134218351, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.HorizontalOrVerticalLayoutGroup::CalcAlongAxis(System.Int32,System.Boolean)
-extern const MethodInfo HorizontalOrVerticalLayoutGroup_CalcAlongAxis_m5782_MethodInfo = 
+extern const MethodInfo HorizontalOrVerticalLayoutGroup_CalcAlongAxis_m5786_MethodInfo = 
 {
 	"CalcAlongAxis"/* name */
-	, (methodPointerType)&HorizontalOrVerticalLayoutGroup_CalcAlongAxis_m5782/* method */
+	, (methodPointerType)&HorizontalOrVerticalLayoutGroup_CalcAlongAxis_m5786/* method */
 	, &HorizontalOrVerticalLayoutGroup_t1017_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_SByte_t88/* invoker_method */
-	, HorizontalOrVerticalLayoutGroup_t1017_HorizontalOrVerticalLayoutGroup_CalcAlongAxis_m5782_ParameterInfos/* parameters */
+	, HorizontalOrVerticalLayoutGroup_t1017_HorizontalOrVerticalLayoutGroup_CalcAlongAxis_m5786_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -14883,21 +14883,21 @@ extern const MethodInfo HorizontalOrVerticalLayoutGroup_CalcAlongAxis_m5782_Meth
 };
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo HorizontalOrVerticalLayoutGroup_t1017_HorizontalOrVerticalLayoutGroup_SetChildrenAlongAxis_m5783_ParameterInfos[] = 
+static const ParameterInfo HorizontalOrVerticalLayoutGroup_t1017_HorizontalOrVerticalLayoutGroup_SetChildrenAlongAxis_m5787_ParameterInfos[] = 
 {
 	{"axis", 0, 134218352, 0, &Int32_t82_0_0_0},
 	{"isVertical", 1, 134218353, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.HorizontalOrVerticalLayoutGroup::SetChildrenAlongAxis(System.Int32,System.Boolean)
-extern const MethodInfo HorizontalOrVerticalLayoutGroup_SetChildrenAlongAxis_m5783_MethodInfo = 
+extern const MethodInfo HorizontalOrVerticalLayoutGroup_SetChildrenAlongAxis_m5787_MethodInfo = 
 {
 	"SetChildrenAlongAxis"/* name */
-	, (methodPointerType)&HorizontalOrVerticalLayoutGroup_SetChildrenAlongAxis_m5783/* method */
+	, (methodPointerType)&HorizontalOrVerticalLayoutGroup_SetChildrenAlongAxis_m5787/* method */
 	, &HorizontalOrVerticalLayoutGroup_t1017_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82_SByte_t88/* invoker_method */
-	, HorizontalOrVerticalLayoutGroup_t1017_HorizontalOrVerticalLayoutGroup_SetChildrenAlongAxis_m5783_ParameterInfos/* parameters */
+	, HorizontalOrVerticalLayoutGroup_t1017_HorizontalOrVerticalLayoutGroup_SetChildrenAlongAxis_m5787_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -14913,49 +14913,49 @@ extern const MethodInfo HorizontalOrVerticalLayoutGroup_SetChildrenAlongAxis_m57
 };
 static const MethodInfo* HorizontalOrVerticalLayoutGroup_t1017_MethodInfos[] =
 {
-	&HorizontalOrVerticalLayoutGroup__ctor_m5775_MethodInfo,
-	&HorizontalOrVerticalLayoutGroup_get_spacing_m5776_MethodInfo,
-	&HorizontalOrVerticalLayoutGroup_set_spacing_m5777_MethodInfo,
-	&HorizontalOrVerticalLayoutGroup_get_childForceExpandWidth_m5778_MethodInfo,
-	&HorizontalOrVerticalLayoutGroup_set_childForceExpandWidth_m5779_MethodInfo,
-	&HorizontalOrVerticalLayoutGroup_get_childForceExpandHeight_m5780_MethodInfo,
-	&HorizontalOrVerticalLayoutGroup_set_childForceExpandHeight_m5781_MethodInfo,
-	&HorizontalOrVerticalLayoutGroup_CalcAlongAxis_m5782_MethodInfo,
-	&HorizontalOrVerticalLayoutGroup_SetChildrenAlongAxis_m5783_MethodInfo,
+	&HorizontalOrVerticalLayoutGroup__ctor_m5779_MethodInfo,
+	&HorizontalOrVerticalLayoutGroup_get_spacing_m5780_MethodInfo,
+	&HorizontalOrVerticalLayoutGroup_set_spacing_m5781_MethodInfo,
+	&HorizontalOrVerticalLayoutGroup_get_childForceExpandWidth_m5782_MethodInfo,
+	&HorizontalOrVerticalLayoutGroup_set_childForceExpandWidth_m5783_MethodInfo,
+	&HorizontalOrVerticalLayoutGroup_get_childForceExpandHeight_m5784_MethodInfo,
+	&HorizontalOrVerticalLayoutGroup_set_childForceExpandHeight_m5785_MethodInfo,
+	&HorizontalOrVerticalLayoutGroup_CalcAlongAxis_m5786_MethodInfo,
+	&HorizontalOrVerticalLayoutGroup_SetChildrenAlongAxis_m5787_MethodInfo,
 	NULL
 };
-extern const MethodInfo HorizontalOrVerticalLayoutGroup_get_spacing_m5776_MethodInfo;
-extern const MethodInfo HorizontalOrVerticalLayoutGroup_set_spacing_m5777_MethodInfo;
+extern const MethodInfo HorizontalOrVerticalLayoutGroup_get_spacing_m5780_MethodInfo;
+extern const MethodInfo HorizontalOrVerticalLayoutGroup_set_spacing_m5781_MethodInfo;
 static const PropertyInfo HorizontalOrVerticalLayoutGroup_t1017____spacing_PropertyInfo = 
 {
 	&HorizontalOrVerticalLayoutGroup_t1017_il2cpp_TypeInfo/* parent */
 	, "spacing"/* name */
-	, &HorizontalOrVerticalLayoutGroup_get_spacing_m5776_MethodInfo/* get */
-	, &HorizontalOrVerticalLayoutGroup_set_spacing_m5777_MethodInfo/* set */
+	, &HorizontalOrVerticalLayoutGroup_get_spacing_m5780_MethodInfo/* get */
+	, &HorizontalOrVerticalLayoutGroup_set_spacing_m5781_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo HorizontalOrVerticalLayoutGroup_get_childForceExpandWidth_m5778_MethodInfo;
-extern const MethodInfo HorizontalOrVerticalLayoutGroup_set_childForceExpandWidth_m5779_MethodInfo;
+extern const MethodInfo HorizontalOrVerticalLayoutGroup_get_childForceExpandWidth_m5782_MethodInfo;
+extern const MethodInfo HorizontalOrVerticalLayoutGroup_set_childForceExpandWidth_m5783_MethodInfo;
 static const PropertyInfo HorizontalOrVerticalLayoutGroup_t1017____childForceExpandWidth_PropertyInfo = 
 {
 	&HorizontalOrVerticalLayoutGroup_t1017_il2cpp_TypeInfo/* parent */
 	, "childForceExpandWidth"/* name */
-	, &HorizontalOrVerticalLayoutGroup_get_childForceExpandWidth_m5778_MethodInfo/* get */
-	, &HorizontalOrVerticalLayoutGroup_set_childForceExpandWidth_m5779_MethodInfo/* set */
+	, &HorizontalOrVerticalLayoutGroup_get_childForceExpandWidth_m5782_MethodInfo/* get */
+	, &HorizontalOrVerticalLayoutGroup_set_childForceExpandWidth_m5783_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo HorizontalOrVerticalLayoutGroup_get_childForceExpandHeight_m5780_MethodInfo;
-extern const MethodInfo HorizontalOrVerticalLayoutGroup_set_childForceExpandHeight_m5781_MethodInfo;
+extern const MethodInfo HorizontalOrVerticalLayoutGroup_get_childForceExpandHeight_m5784_MethodInfo;
+extern const MethodInfo HorizontalOrVerticalLayoutGroup_set_childForceExpandHeight_m5785_MethodInfo;
 static const PropertyInfo HorizontalOrVerticalLayoutGroup_t1017____childForceExpandHeight_PropertyInfo = 
 {
 	&HorizontalOrVerticalLayoutGroup_t1017_il2cpp_TypeInfo/* parent */
 	, "childForceExpandHeight"/* name */
-	, &HorizontalOrVerticalLayoutGroup_get_childForceExpandHeight_m5780_MethodInfo/* get */
-	, &HorizontalOrVerticalLayoutGroup_set_childForceExpandHeight_m5781_MethodInfo/* set */
+	, &HorizontalOrVerticalLayoutGroup_get_childForceExpandHeight_m5784_MethodInfo/* get */
+	, &HorizontalOrVerticalLayoutGroup_set_childForceExpandHeight_m5785_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -14967,51 +14967,51 @@ static const PropertyInfo* HorizontalOrVerticalLayoutGroup_t1017_PropertyInfos[]
 	&HorizontalOrVerticalLayoutGroup_t1017____childForceExpandHeight_PropertyInfo,
 	NULL
 };
-extern const MethodInfo LayoutGroup_CalculateLayoutInputHorizontal_m5815_MethodInfo;
-extern const MethodInfo LayoutGroup_CalculateLayoutInputVertical_m6439_MethodInfo;
-extern const MethodInfo LayoutGroup_SetLayoutHorizontal_m6440_MethodInfo;
-extern const MethodInfo LayoutGroup_SetLayoutVertical_m6441_MethodInfo;
+extern const MethodInfo LayoutGroup_CalculateLayoutInputHorizontal_m5819_MethodInfo;
+extern const MethodInfo LayoutGroup_CalculateLayoutInputVertical_m6443_MethodInfo;
+extern const MethodInfo LayoutGroup_SetLayoutHorizontal_m6444_MethodInfo;
+extern const MethodInfo LayoutGroup_SetLayoutVertical_m6445_MethodInfo;
 static const Il2CppMethodReference HorizontalOrVerticalLayoutGroup_t1017_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
-	&UIBehaviour_Awake_m4839_MethodInfo,
-	&LayoutGroup_OnEnable_m5823_MethodInfo,
-	&UIBehaviour_Start_m4841_MethodInfo,
-	&LayoutGroup_OnDisable_m5824_MethodInfo,
-	&UIBehaviour_OnDestroy_m4843_MethodInfo,
-	&UIBehaviour_IsActive_m4844_MethodInfo,
-	&LayoutGroup_OnRectTransformDimensionsChange_m5833_MethodInfo,
-	&UIBehaviour_OnBeforeTransformParentChanged_m4846_MethodInfo,
-	&UIBehaviour_OnTransformParentChanged_m4847_MethodInfo,
-	&LayoutGroup_OnDidApplyAnimationProperties_m5825_MethodInfo,
-	&UIBehaviour_OnCanvasGroupChanged_m4849_MethodInfo,
-	&UIBehaviour_OnCanvasHierarchyChanged_m4850_MethodInfo,
-	&LayoutGroup_CalculateLayoutInputHorizontal_m5815_MethodInfo,
-	&LayoutGroup_CalculateLayoutInputVertical_m6439_MethodInfo,
-	&LayoutGroup_get_minWidth_m5816_MethodInfo,
-	&LayoutGroup_get_preferredWidth_m5817_MethodInfo,
-	&LayoutGroup_get_flexibleWidth_m5818_MethodInfo,
-	&LayoutGroup_get_minHeight_m5819_MethodInfo,
-	&LayoutGroup_get_preferredHeight_m5820_MethodInfo,
-	&LayoutGroup_get_flexibleHeight_m5821_MethodInfo,
-	&LayoutGroup_get_layoutPriority_m5822_MethodInfo,
-	&LayoutGroup_SetLayoutHorizontal_m6440_MethodInfo,
-	&LayoutGroup_SetLayoutVertical_m6441_MethodInfo,
-	&LayoutGroup_CalculateLayoutInputHorizontal_m5815_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
+	&UIBehaviour_Awake_m4843_MethodInfo,
+	&LayoutGroup_OnEnable_m5827_MethodInfo,
+	&UIBehaviour_Start_m4845_MethodInfo,
+	&LayoutGroup_OnDisable_m5828_MethodInfo,
+	&UIBehaviour_OnDestroy_m4847_MethodInfo,
+	&UIBehaviour_IsActive_m4848_MethodInfo,
+	&LayoutGroup_OnRectTransformDimensionsChange_m5837_MethodInfo,
+	&UIBehaviour_OnBeforeTransformParentChanged_m4850_MethodInfo,
+	&UIBehaviour_OnTransformParentChanged_m4851_MethodInfo,
+	&LayoutGroup_OnDidApplyAnimationProperties_m5829_MethodInfo,
+	&UIBehaviour_OnCanvasGroupChanged_m4853_MethodInfo,
+	&UIBehaviour_OnCanvasHierarchyChanged_m4854_MethodInfo,
+	&LayoutGroup_CalculateLayoutInputHorizontal_m5819_MethodInfo,
+	&LayoutGroup_CalculateLayoutInputVertical_m6443_MethodInfo,
+	&LayoutGroup_get_minWidth_m5820_MethodInfo,
+	&LayoutGroup_get_preferredWidth_m5821_MethodInfo,
+	&LayoutGroup_get_flexibleWidth_m5822_MethodInfo,
+	&LayoutGroup_get_minHeight_m5823_MethodInfo,
+	&LayoutGroup_get_preferredHeight_m5824_MethodInfo,
+	&LayoutGroup_get_flexibleHeight_m5825_MethodInfo,
+	&LayoutGroup_get_layoutPriority_m5826_MethodInfo,
+	&LayoutGroup_SetLayoutHorizontal_m6444_MethodInfo,
+	&LayoutGroup_SetLayoutVertical_m6445_MethodInfo,
+	&LayoutGroup_CalculateLayoutInputHorizontal_m5819_MethodInfo,
 	NULL,
-	&LayoutGroup_get_minWidth_m5816_MethodInfo,
-	&LayoutGroup_get_preferredWidth_m5817_MethodInfo,
-	&LayoutGroup_get_flexibleWidth_m5818_MethodInfo,
-	&LayoutGroup_get_minHeight_m5819_MethodInfo,
-	&LayoutGroup_get_preferredHeight_m5820_MethodInfo,
-	&LayoutGroup_get_flexibleHeight_m5821_MethodInfo,
-	&LayoutGroup_get_layoutPriority_m5822_MethodInfo,
+	&LayoutGroup_get_minWidth_m5820_MethodInfo,
+	&LayoutGroup_get_preferredWidth_m5821_MethodInfo,
+	&LayoutGroup_get_flexibleWidth_m5822_MethodInfo,
+	&LayoutGroup_get_minHeight_m5823_MethodInfo,
+	&LayoutGroup_get_preferredHeight_m5824_MethodInfo,
+	&LayoutGroup_get_flexibleHeight_m5825_MethodInfo,
+	&LayoutGroup_get_layoutPriority_m5826_MethodInfo,
 	NULL,
 	NULL,
-	&LayoutGroup_OnTransformChildrenChanged_m5834_MethodInfo,
+	&LayoutGroup_OnTransformChildrenChanged_m5838_MethodInfo,
 };
 static bool HorizontalOrVerticalLayoutGroup_t1017_VTableIsGenericMethod[] =
 {
@@ -15135,7 +15135,7 @@ TypeInfo HorizontalOrVerticalLayoutGroup_t1017_il2cpp_TypeInfo =
 extern TypeInfo ILayoutElement_t1065_il2cpp_TypeInfo;
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ILayoutElement::CalculateLayoutInputHorizontal()
-extern const MethodInfo ILayoutElement_CalculateLayoutInputHorizontal_m6427_MethodInfo = 
+extern const MethodInfo ILayoutElement_CalculateLayoutInputHorizontal_m6431_MethodInfo = 
 {
 	"CalculateLayoutInputHorizontal"/* name */
 	, NULL/* method */
@@ -15158,7 +15158,7 @@ extern const MethodInfo ILayoutElement_CalculateLayoutInputHorizontal_m6427_Meth
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ILayoutElement::CalculateLayoutInputVertical()
-extern const MethodInfo ILayoutElement_CalculateLayoutInputVertical_m6428_MethodInfo = 
+extern const MethodInfo ILayoutElement_CalculateLayoutInputVertical_m6432_MethodInfo = 
 {
 	"CalculateLayoutInputVertical"/* name */
 	, NULL/* method */
@@ -15181,7 +15181,7 @@ extern const MethodInfo ILayoutElement_CalculateLayoutInputVertical_m6428_Method
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.ILayoutElement::get_minWidth()
-extern const MethodInfo ILayoutElement_get_minWidth_m6429_MethodInfo = 
+extern const MethodInfo ILayoutElement_get_minWidth_m6433_MethodInfo = 
 {
 	"get_minWidth"/* name */
 	, NULL/* method */
@@ -15204,7 +15204,7 @@ extern const MethodInfo ILayoutElement_get_minWidth_m6429_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.ILayoutElement::get_preferredWidth()
-extern const MethodInfo ILayoutElement_get_preferredWidth_m6430_MethodInfo = 
+extern const MethodInfo ILayoutElement_get_preferredWidth_m6434_MethodInfo = 
 {
 	"get_preferredWidth"/* name */
 	, NULL/* method */
@@ -15227,7 +15227,7 @@ extern const MethodInfo ILayoutElement_get_preferredWidth_m6430_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.ILayoutElement::get_flexibleWidth()
-extern const MethodInfo ILayoutElement_get_flexibleWidth_m6431_MethodInfo = 
+extern const MethodInfo ILayoutElement_get_flexibleWidth_m6435_MethodInfo = 
 {
 	"get_flexibleWidth"/* name */
 	, NULL/* method */
@@ -15250,7 +15250,7 @@ extern const MethodInfo ILayoutElement_get_flexibleWidth_m6431_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.ILayoutElement::get_minHeight()
-extern const MethodInfo ILayoutElement_get_minHeight_m6432_MethodInfo = 
+extern const MethodInfo ILayoutElement_get_minHeight_m6436_MethodInfo = 
 {
 	"get_minHeight"/* name */
 	, NULL/* method */
@@ -15273,7 +15273,7 @@ extern const MethodInfo ILayoutElement_get_minHeight_m6432_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.ILayoutElement::get_preferredHeight()
-extern const MethodInfo ILayoutElement_get_preferredHeight_m6433_MethodInfo = 
+extern const MethodInfo ILayoutElement_get_preferredHeight_m6437_MethodInfo = 
 {
 	"get_preferredHeight"/* name */
 	, NULL/* method */
@@ -15296,7 +15296,7 @@ extern const MethodInfo ILayoutElement_get_preferredHeight_m6433_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.ILayoutElement::get_flexibleHeight()
-extern const MethodInfo ILayoutElement_get_flexibleHeight_m6434_MethodInfo = 
+extern const MethodInfo ILayoutElement_get_flexibleHeight_m6438_MethodInfo = 
 {
 	"get_flexibleHeight"/* name */
 	, NULL/* method */
@@ -15319,7 +15319,7 @@ extern const MethodInfo ILayoutElement_get_flexibleHeight_m6434_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 UnityEngine.UI.ILayoutElement::get_layoutPriority()
-extern const MethodInfo ILayoutElement_get_layoutPriority_m6435_MethodInfo = 
+extern const MethodInfo ILayoutElement_get_layoutPriority_m6439_MethodInfo = 
 {
 	"get_layoutPriority"/* name */
 	, NULL/* method */
@@ -15342,89 +15342,89 @@ extern const MethodInfo ILayoutElement_get_layoutPriority_m6435_MethodInfo =
 };
 static const MethodInfo* ILayoutElement_t1065_MethodInfos[] =
 {
-	&ILayoutElement_CalculateLayoutInputHorizontal_m6427_MethodInfo,
-	&ILayoutElement_CalculateLayoutInputVertical_m6428_MethodInfo,
-	&ILayoutElement_get_minWidth_m6429_MethodInfo,
-	&ILayoutElement_get_preferredWidth_m6430_MethodInfo,
-	&ILayoutElement_get_flexibleWidth_m6431_MethodInfo,
-	&ILayoutElement_get_minHeight_m6432_MethodInfo,
-	&ILayoutElement_get_preferredHeight_m6433_MethodInfo,
-	&ILayoutElement_get_flexibleHeight_m6434_MethodInfo,
-	&ILayoutElement_get_layoutPriority_m6435_MethodInfo,
+	&ILayoutElement_CalculateLayoutInputHorizontal_m6431_MethodInfo,
+	&ILayoutElement_CalculateLayoutInputVertical_m6432_MethodInfo,
+	&ILayoutElement_get_minWidth_m6433_MethodInfo,
+	&ILayoutElement_get_preferredWidth_m6434_MethodInfo,
+	&ILayoutElement_get_flexibleWidth_m6435_MethodInfo,
+	&ILayoutElement_get_minHeight_m6436_MethodInfo,
+	&ILayoutElement_get_preferredHeight_m6437_MethodInfo,
+	&ILayoutElement_get_flexibleHeight_m6438_MethodInfo,
+	&ILayoutElement_get_layoutPriority_m6439_MethodInfo,
 	NULL
 };
-extern const MethodInfo ILayoutElement_get_minWidth_m6429_MethodInfo;
+extern const MethodInfo ILayoutElement_get_minWidth_m6433_MethodInfo;
 static const PropertyInfo ILayoutElement_t1065____minWidth_PropertyInfo = 
 {
 	&ILayoutElement_t1065_il2cpp_TypeInfo/* parent */
 	, "minWidth"/* name */
-	, &ILayoutElement_get_minWidth_m6429_MethodInfo/* get */
+	, &ILayoutElement_get_minWidth_m6433_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ILayoutElement_get_preferredWidth_m6430_MethodInfo;
+extern const MethodInfo ILayoutElement_get_preferredWidth_m6434_MethodInfo;
 static const PropertyInfo ILayoutElement_t1065____preferredWidth_PropertyInfo = 
 {
 	&ILayoutElement_t1065_il2cpp_TypeInfo/* parent */
 	, "preferredWidth"/* name */
-	, &ILayoutElement_get_preferredWidth_m6430_MethodInfo/* get */
+	, &ILayoutElement_get_preferredWidth_m6434_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ILayoutElement_get_flexibleWidth_m6431_MethodInfo;
+extern const MethodInfo ILayoutElement_get_flexibleWidth_m6435_MethodInfo;
 static const PropertyInfo ILayoutElement_t1065____flexibleWidth_PropertyInfo = 
 {
 	&ILayoutElement_t1065_il2cpp_TypeInfo/* parent */
 	, "flexibleWidth"/* name */
-	, &ILayoutElement_get_flexibleWidth_m6431_MethodInfo/* get */
+	, &ILayoutElement_get_flexibleWidth_m6435_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ILayoutElement_get_minHeight_m6432_MethodInfo;
+extern const MethodInfo ILayoutElement_get_minHeight_m6436_MethodInfo;
 static const PropertyInfo ILayoutElement_t1065____minHeight_PropertyInfo = 
 {
 	&ILayoutElement_t1065_il2cpp_TypeInfo/* parent */
 	, "minHeight"/* name */
-	, &ILayoutElement_get_minHeight_m6432_MethodInfo/* get */
+	, &ILayoutElement_get_minHeight_m6436_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ILayoutElement_get_preferredHeight_m6433_MethodInfo;
+extern const MethodInfo ILayoutElement_get_preferredHeight_m6437_MethodInfo;
 static const PropertyInfo ILayoutElement_t1065____preferredHeight_PropertyInfo = 
 {
 	&ILayoutElement_t1065_il2cpp_TypeInfo/* parent */
 	, "preferredHeight"/* name */
-	, &ILayoutElement_get_preferredHeight_m6433_MethodInfo/* get */
+	, &ILayoutElement_get_preferredHeight_m6437_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ILayoutElement_get_flexibleHeight_m6434_MethodInfo;
+extern const MethodInfo ILayoutElement_get_flexibleHeight_m6438_MethodInfo;
 static const PropertyInfo ILayoutElement_t1065____flexibleHeight_PropertyInfo = 
 {
 	&ILayoutElement_t1065_il2cpp_TypeInfo/* parent */
 	, "flexibleHeight"/* name */
-	, &ILayoutElement_get_flexibleHeight_m6434_MethodInfo/* get */
+	, &ILayoutElement_get_flexibleHeight_m6438_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ILayoutElement_get_layoutPriority_m6435_MethodInfo;
+extern const MethodInfo ILayoutElement_get_layoutPriority_m6439_MethodInfo;
 static const PropertyInfo ILayoutElement_t1065____layoutPriority_PropertyInfo = 
 {
 	&ILayoutElement_t1065_il2cpp_TypeInfo/* parent */
 	, "layoutPriority"/* name */
-	, &ILayoutElement_get_layoutPriority_m6435_MethodInfo/* get */
+	, &ILayoutElement_get_layoutPriority_m6439_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -15515,7 +15515,7 @@ TypeInfo ILayoutElement_t1065_il2cpp_TypeInfo =
 extern TypeInfo ILayoutController_t1108_il2cpp_TypeInfo;
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ILayoutController::SetLayoutHorizontal()
-extern const MethodInfo ILayoutController_SetLayoutHorizontal_m6436_MethodInfo = 
+extern const MethodInfo ILayoutController_SetLayoutHorizontal_m6440_MethodInfo = 
 {
 	"SetLayoutHorizontal"/* name */
 	, NULL/* method */
@@ -15538,7 +15538,7 @@ extern const MethodInfo ILayoutController_SetLayoutHorizontal_m6436_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ILayoutController::SetLayoutVertical()
-extern const MethodInfo ILayoutController_SetLayoutVertical_m6437_MethodInfo = 
+extern const MethodInfo ILayoutController_SetLayoutVertical_m6441_MethodInfo = 
 {
 	"SetLayoutVertical"/* name */
 	, NULL/* method */
@@ -15561,8 +15561,8 @@ extern const MethodInfo ILayoutController_SetLayoutVertical_m6437_MethodInfo =
 };
 static const MethodInfo* ILayoutController_t1108_MethodInfos[] =
 {
-	&ILayoutController_SetLayoutHorizontal_m6436_MethodInfo,
-	&ILayoutController_SetLayoutVertical_m6437_MethodInfo,
+	&ILayoutController_SetLayoutHorizontal_m6440_MethodInfo,
+	&ILayoutController_SetLayoutVertical_m6441_MethodInfo,
 	NULL
 };
 extern Il2CppImage g_UnityEngine_UI_dll_Image;
@@ -15799,7 +15799,7 @@ TypeInfo ILayoutSelfController_t1109_il2cpp_TypeInfo =
 extern TypeInfo ILayoutIgnorer_t1105_il2cpp_TypeInfo;
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.ILayoutIgnorer::get_ignoreLayout()
-extern const MethodInfo ILayoutIgnorer_get_ignoreLayout_m6438_MethodInfo = 
+extern const MethodInfo ILayoutIgnorer_get_ignoreLayout_m6442_MethodInfo = 
 {
 	"get_ignoreLayout"/* name */
 	, NULL/* method */
@@ -15822,15 +15822,15 @@ extern const MethodInfo ILayoutIgnorer_get_ignoreLayout_m6438_MethodInfo =
 };
 static const MethodInfo* ILayoutIgnorer_t1105_MethodInfos[] =
 {
-	&ILayoutIgnorer_get_ignoreLayout_m6438_MethodInfo,
+	&ILayoutIgnorer_get_ignoreLayout_m6442_MethodInfo,
 	NULL
 };
-extern const MethodInfo ILayoutIgnorer_get_ignoreLayout_m6438_MethodInfo;
+extern const MethodInfo ILayoutIgnorer_get_ignoreLayout_m6442_MethodInfo;
 static const PropertyInfo ILayoutIgnorer_t1105____ignoreLayout_PropertyInfo = 
 {
 	&ILayoutIgnorer_t1105_il2cpp_TypeInfo/* parent */
 	, "ignoreLayout"/* name */
-	, &ILayoutIgnorer_get_ignoreLayout_m6438_MethodInfo/* get */
+	, &ILayoutIgnorer_get_ignoreLayout_m6442_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -15920,10 +15920,10 @@ extern TypeInfo LayoutElement_t1018_il2cpp_TypeInfo;
 #include "UnityEngine_UI_UnityEngine_UI_LayoutElementMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutElement::.ctor()
-extern const MethodInfo LayoutElement__ctor_m5784_MethodInfo = 
+extern const MethodInfo LayoutElement__ctor_m5788_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&LayoutElement__ctor_m5784/* method */
+	, (methodPointerType)&LayoutElement__ctor_m5788/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -15943,10 +15943,10 @@ extern const MethodInfo LayoutElement__ctor_m5784_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.LayoutElement::get_ignoreLayout()
-extern const MethodInfo LayoutElement_get_ignoreLayout_m5785_MethodInfo = 
+extern const MethodInfo LayoutElement_get_ignoreLayout_m5789_MethodInfo = 
 {
 	"get_ignoreLayout"/* name */
-	, (methodPointerType)&LayoutElement_get_ignoreLayout_m5785/* method */
+	, (methodPointerType)&LayoutElement_get_ignoreLayout_m5789/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -15965,20 +15965,20 @@ extern const MethodInfo LayoutElement_get_ignoreLayout_m5785_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo LayoutElement_t1018_LayoutElement_set_ignoreLayout_m5786_ParameterInfos[] = 
+static const ParameterInfo LayoutElement_t1018_LayoutElement_set_ignoreLayout_m5790_ParameterInfos[] = 
 {
 	{"value", 0, 134218354, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutElement::set_ignoreLayout(System.Boolean)
-extern const MethodInfo LayoutElement_set_ignoreLayout_m5786_MethodInfo = 
+extern const MethodInfo LayoutElement_set_ignoreLayout_m5790_MethodInfo = 
 {
 	"set_ignoreLayout"/* name */
-	, (methodPointerType)&LayoutElement_set_ignoreLayout_m5786/* method */
+	, (methodPointerType)&LayoutElement_set_ignoreLayout_m5790/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, LayoutElement_t1018_LayoutElement_set_ignoreLayout_m5786_ParameterInfos/* parameters */
+	, LayoutElement_t1018_LayoutElement_set_ignoreLayout_m5790_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -15994,10 +15994,10 @@ extern const MethodInfo LayoutElement_set_ignoreLayout_m5786_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutElement::CalculateLayoutInputHorizontal()
-extern const MethodInfo LayoutElement_CalculateLayoutInputHorizontal_m5787_MethodInfo = 
+extern const MethodInfo LayoutElement_CalculateLayoutInputHorizontal_m5791_MethodInfo = 
 {
 	"CalculateLayoutInputHorizontal"/* name */
-	, (methodPointerType)&LayoutElement_CalculateLayoutInputHorizontal_m5787/* method */
+	, (methodPointerType)&LayoutElement_CalculateLayoutInputHorizontal_m5791/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -16017,10 +16017,10 @@ extern const MethodInfo LayoutElement_CalculateLayoutInputHorizontal_m5787_Metho
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutElement::CalculateLayoutInputVertical()
-extern const MethodInfo LayoutElement_CalculateLayoutInputVertical_m5788_MethodInfo = 
+extern const MethodInfo LayoutElement_CalculateLayoutInputVertical_m5792_MethodInfo = 
 {
 	"CalculateLayoutInputVertical"/* name */
-	, (methodPointerType)&LayoutElement_CalculateLayoutInputVertical_m5788/* method */
+	, (methodPointerType)&LayoutElement_CalculateLayoutInputVertical_m5792/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -16040,10 +16040,10 @@ extern const MethodInfo LayoutElement_CalculateLayoutInputVertical_m5788_MethodI
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutElement::get_minWidth()
-extern const MethodInfo LayoutElement_get_minWidth_m5789_MethodInfo = 
+extern const MethodInfo LayoutElement_get_minWidth_m5793_MethodInfo = 
 {
 	"get_minWidth"/* name */
-	, (methodPointerType)&LayoutElement_get_minWidth_m5789/* method */
+	, (methodPointerType)&LayoutElement_get_minWidth_m5793/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -16062,20 +16062,20 @@ extern const MethodInfo LayoutElement_get_minWidth_m5789_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo LayoutElement_t1018_LayoutElement_set_minWidth_m5790_ParameterInfos[] = 
+static const ParameterInfo LayoutElement_t1018_LayoutElement_set_minWidth_m5794_ParameterInfos[] = 
 {
 	{"value", 0, 134218355, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutElement::set_minWidth(System.Single)
-extern const MethodInfo LayoutElement_set_minWidth_m5790_MethodInfo = 
+extern const MethodInfo LayoutElement_set_minWidth_m5794_MethodInfo = 
 {
 	"set_minWidth"/* name */
-	, (methodPointerType)&LayoutElement_set_minWidth_m5790/* method */
+	, (methodPointerType)&LayoutElement_set_minWidth_m5794/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, LayoutElement_t1018_LayoutElement_set_minWidth_m5790_ParameterInfos/* parameters */
+	, LayoutElement_t1018_LayoutElement_set_minWidth_m5794_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -16091,10 +16091,10 @@ extern const MethodInfo LayoutElement_set_minWidth_m5790_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutElement::get_minHeight()
-extern const MethodInfo LayoutElement_get_minHeight_m5791_MethodInfo = 
+extern const MethodInfo LayoutElement_get_minHeight_m5795_MethodInfo = 
 {
 	"get_minHeight"/* name */
-	, (methodPointerType)&LayoutElement_get_minHeight_m5791/* method */
+	, (methodPointerType)&LayoutElement_get_minHeight_m5795/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -16113,20 +16113,20 @@ extern const MethodInfo LayoutElement_get_minHeight_m5791_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo LayoutElement_t1018_LayoutElement_set_minHeight_m5792_ParameterInfos[] = 
+static const ParameterInfo LayoutElement_t1018_LayoutElement_set_minHeight_m5796_ParameterInfos[] = 
 {
 	{"value", 0, 134218356, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutElement::set_minHeight(System.Single)
-extern const MethodInfo LayoutElement_set_minHeight_m5792_MethodInfo = 
+extern const MethodInfo LayoutElement_set_minHeight_m5796_MethodInfo = 
 {
 	"set_minHeight"/* name */
-	, (methodPointerType)&LayoutElement_set_minHeight_m5792/* method */
+	, (methodPointerType)&LayoutElement_set_minHeight_m5796/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, LayoutElement_t1018_LayoutElement_set_minHeight_m5792_ParameterInfos/* parameters */
+	, LayoutElement_t1018_LayoutElement_set_minHeight_m5796_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -16142,10 +16142,10 @@ extern const MethodInfo LayoutElement_set_minHeight_m5792_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutElement::get_preferredWidth()
-extern const MethodInfo LayoutElement_get_preferredWidth_m5793_MethodInfo = 
+extern const MethodInfo LayoutElement_get_preferredWidth_m5797_MethodInfo = 
 {
 	"get_preferredWidth"/* name */
-	, (methodPointerType)&LayoutElement_get_preferredWidth_m5793/* method */
+	, (methodPointerType)&LayoutElement_get_preferredWidth_m5797/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -16164,20 +16164,20 @@ extern const MethodInfo LayoutElement_get_preferredWidth_m5793_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo LayoutElement_t1018_LayoutElement_set_preferredWidth_m5794_ParameterInfos[] = 
+static const ParameterInfo LayoutElement_t1018_LayoutElement_set_preferredWidth_m5798_ParameterInfos[] = 
 {
 	{"value", 0, 134218357, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutElement::set_preferredWidth(System.Single)
-extern const MethodInfo LayoutElement_set_preferredWidth_m5794_MethodInfo = 
+extern const MethodInfo LayoutElement_set_preferredWidth_m5798_MethodInfo = 
 {
 	"set_preferredWidth"/* name */
-	, (methodPointerType)&LayoutElement_set_preferredWidth_m5794/* method */
+	, (methodPointerType)&LayoutElement_set_preferredWidth_m5798/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, LayoutElement_t1018_LayoutElement_set_preferredWidth_m5794_ParameterInfos/* parameters */
+	, LayoutElement_t1018_LayoutElement_set_preferredWidth_m5798_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -16193,10 +16193,10 @@ extern const MethodInfo LayoutElement_set_preferredWidth_m5794_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutElement::get_preferredHeight()
-extern const MethodInfo LayoutElement_get_preferredHeight_m5795_MethodInfo = 
+extern const MethodInfo LayoutElement_get_preferredHeight_m5799_MethodInfo = 
 {
 	"get_preferredHeight"/* name */
-	, (methodPointerType)&LayoutElement_get_preferredHeight_m5795/* method */
+	, (methodPointerType)&LayoutElement_get_preferredHeight_m5799/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -16215,20 +16215,20 @@ extern const MethodInfo LayoutElement_get_preferredHeight_m5795_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo LayoutElement_t1018_LayoutElement_set_preferredHeight_m5796_ParameterInfos[] = 
+static const ParameterInfo LayoutElement_t1018_LayoutElement_set_preferredHeight_m5800_ParameterInfos[] = 
 {
 	{"value", 0, 134218358, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutElement::set_preferredHeight(System.Single)
-extern const MethodInfo LayoutElement_set_preferredHeight_m5796_MethodInfo = 
+extern const MethodInfo LayoutElement_set_preferredHeight_m5800_MethodInfo = 
 {
 	"set_preferredHeight"/* name */
-	, (methodPointerType)&LayoutElement_set_preferredHeight_m5796/* method */
+	, (methodPointerType)&LayoutElement_set_preferredHeight_m5800/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, LayoutElement_t1018_LayoutElement_set_preferredHeight_m5796_ParameterInfos/* parameters */
+	, LayoutElement_t1018_LayoutElement_set_preferredHeight_m5800_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -16244,10 +16244,10 @@ extern const MethodInfo LayoutElement_set_preferredHeight_m5796_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutElement::get_flexibleWidth()
-extern const MethodInfo LayoutElement_get_flexibleWidth_m5797_MethodInfo = 
+extern const MethodInfo LayoutElement_get_flexibleWidth_m5801_MethodInfo = 
 {
 	"get_flexibleWidth"/* name */
-	, (methodPointerType)&LayoutElement_get_flexibleWidth_m5797/* method */
+	, (methodPointerType)&LayoutElement_get_flexibleWidth_m5801/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -16266,20 +16266,20 @@ extern const MethodInfo LayoutElement_get_flexibleWidth_m5797_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo LayoutElement_t1018_LayoutElement_set_flexibleWidth_m5798_ParameterInfos[] = 
+static const ParameterInfo LayoutElement_t1018_LayoutElement_set_flexibleWidth_m5802_ParameterInfos[] = 
 {
 	{"value", 0, 134218359, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutElement::set_flexibleWidth(System.Single)
-extern const MethodInfo LayoutElement_set_flexibleWidth_m5798_MethodInfo = 
+extern const MethodInfo LayoutElement_set_flexibleWidth_m5802_MethodInfo = 
 {
 	"set_flexibleWidth"/* name */
-	, (methodPointerType)&LayoutElement_set_flexibleWidth_m5798/* method */
+	, (methodPointerType)&LayoutElement_set_flexibleWidth_m5802/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, LayoutElement_t1018_LayoutElement_set_flexibleWidth_m5798_ParameterInfos/* parameters */
+	, LayoutElement_t1018_LayoutElement_set_flexibleWidth_m5802_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -16295,10 +16295,10 @@ extern const MethodInfo LayoutElement_set_flexibleWidth_m5798_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutElement::get_flexibleHeight()
-extern const MethodInfo LayoutElement_get_flexibleHeight_m5799_MethodInfo = 
+extern const MethodInfo LayoutElement_get_flexibleHeight_m5803_MethodInfo = 
 {
 	"get_flexibleHeight"/* name */
-	, (methodPointerType)&LayoutElement_get_flexibleHeight_m5799/* method */
+	, (methodPointerType)&LayoutElement_get_flexibleHeight_m5803/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -16317,20 +16317,20 @@ extern const MethodInfo LayoutElement_get_flexibleHeight_m5799_MethodInfo =
 
 };
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo LayoutElement_t1018_LayoutElement_set_flexibleHeight_m5800_ParameterInfos[] = 
+static const ParameterInfo LayoutElement_t1018_LayoutElement_set_flexibleHeight_m5804_ParameterInfos[] = 
 {
 	{"value", 0, 134218360, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutElement::set_flexibleHeight(System.Single)
-extern const MethodInfo LayoutElement_set_flexibleHeight_m5800_MethodInfo = 
+extern const MethodInfo LayoutElement_set_flexibleHeight_m5804_MethodInfo = 
 {
 	"set_flexibleHeight"/* name */
-	, (methodPointerType)&LayoutElement_set_flexibleHeight_m5800/* method */
+	, (methodPointerType)&LayoutElement_set_flexibleHeight_m5804/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87/* invoker_method */
-	, LayoutElement_t1018_LayoutElement_set_flexibleHeight_m5800_ParameterInfos/* parameters */
+	, LayoutElement_t1018_LayoutElement_set_flexibleHeight_m5804_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
 	, 0/* iflags */
@@ -16346,10 +16346,10 @@ extern const MethodInfo LayoutElement_set_flexibleHeight_m5800_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 UnityEngine.UI.LayoutElement::get_layoutPriority()
-extern const MethodInfo LayoutElement_get_layoutPriority_m5801_MethodInfo = 
+extern const MethodInfo LayoutElement_get_layoutPriority_m5805_MethodInfo = 
 {
 	"get_layoutPriority"/* name */
-	, (methodPointerType)&LayoutElement_get_layoutPriority_m5801/* method */
+	, (methodPointerType)&LayoutElement_get_layoutPriority_m5805/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -16369,10 +16369,10 @@ extern const MethodInfo LayoutElement_get_layoutPriority_m5801_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutElement::OnEnable()
-extern const MethodInfo LayoutElement_OnEnable_m5802_MethodInfo = 
+extern const MethodInfo LayoutElement_OnEnable_m5806_MethodInfo = 
 {
 	"OnEnable"/* name */
-	, (methodPointerType)&LayoutElement_OnEnable_m5802/* method */
+	, (methodPointerType)&LayoutElement_OnEnable_m5806/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -16392,10 +16392,10 @@ extern const MethodInfo LayoutElement_OnEnable_m5802_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutElement::OnTransformParentChanged()
-extern const MethodInfo LayoutElement_OnTransformParentChanged_m5803_MethodInfo = 
+extern const MethodInfo LayoutElement_OnTransformParentChanged_m5807_MethodInfo = 
 {
 	"OnTransformParentChanged"/* name */
-	, (methodPointerType)&LayoutElement_OnTransformParentChanged_m5803/* method */
+	, (methodPointerType)&LayoutElement_OnTransformParentChanged_m5807/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -16415,10 +16415,10 @@ extern const MethodInfo LayoutElement_OnTransformParentChanged_m5803_MethodInfo 
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutElement::OnDisable()
-extern const MethodInfo LayoutElement_OnDisable_m5804_MethodInfo = 
+extern const MethodInfo LayoutElement_OnDisable_m5808_MethodInfo = 
 {
 	"OnDisable"/* name */
-	, (methodPointerType)&LayoutElement_OnDisable_m5804/* method */
+	, (methodPointerType)&LayoutElement_OnDisable_m5808/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -16438,10 +16438,10 @@ extern const MethodInfo LayoutElement_OnDisable_m5804_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutElement::OnDidApplyAnimationProperties()
-extern const MethodInfo LayoutElement_OnDidApplyAnimationProperties_m5805_MethodInfo = 
+extern const MethodInfo LayoutElement_OnDidApplyAnimationProperties_m5809_MethodInfo = 
 {
 	"OnDidApplyAnimationProperties"/* name */
-	, (methodPointerType)&LayoutElement_OnDidApplyAnimationProperties_m5805/* method */
+	, (methodPointerType)&LayoutElement_OnDidApplyAnimationProperties_m5809/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -16461,10 +16461,10 @@ extern const MethodInfo LayoutElement_OnDidApplyAnimationProperties_m5805_Method
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutElement::OnBeforeTransformParentChanged()
-extern const MethodInfo LayoutElement_OnBeforeTransformParentChanged_m5806_MethodInfo = 
+extern const MethodInfo LayoutElement_OnBeforeTransformParentChanged_m5810_MethodInfo = 
 {
 	"OnBeforeTransformParentChanged"/* name */
-	, (methodPointerType)&LayoutElement_OnBeforeTransformParentChanged_m5806/* method */
+	, (methodPointerType)&LayoutElement_OnBeforeTransformParentChanged_m5810/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -16484,10 +16484,10 @@ extern const MethodInfo LayoutElement_OnBeforeTransformParentChanged_m5806_Metho
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutElement::SetDirty()
-extern const MethodInfo LayoutElement_SetDirty_m5807_MethodInfo = 
+extern const MethodInfo LayoutElement_SetDirty_m5811_MethodInfo = 
 {
 	"SetDirty"/* name */
-	, (methodPointerType)&LayoutElement_SetDirty_m5807/* method */
+	, (methodPointerType)&LayoutElement_SetDirty_m5811/* method */
 	, &LayoutElement_t1018_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -16507,122 +16507,122 @@ extern const MethodInfo LayoutElement_SetDirty_m5807_MethodInfo =
 };
 static const MethodInfo* LayoutElement_t1018_MethodInfos[] =
 {
-	&LayoutElement__ctor_m5784_MethodInfo,
-	&LayoutElement_get_ignoreLayout_m5785_MethodInfo,
-	&LayoutElement_set_ignoreLayout_m5786_MethodInfo,
-	&LayoutElement_CalculateLayoutInputHorizontal_m5787_MethodInfo,
-	&LayoutElement_CalculateLayoutInputVertical_m5788_MethodInfo,
-	&LayoutElement_get_minWidth_m5789_MethodInfo,
-	&LayoutElement_set_minWidth_m5790_MethodInfo,
-	&LayoutElement_get_minHeight_m5791_MethodInfo,
-	&LayoutElement_set_minHeight_m5792_MethodInfo,
-	&LayoutElement_get_preferredWidth_m5793_MethodInfo,
-	&LayoutElement_set_preferredWidth_m5794_MethodInfo,
-	&LayoutElement_get_preferredHeight_m5795_MethodInfo,
-	&LayoutElement_set_preferredHeight_m5796_MethodInfo,
-	&LayoutElement_get_flexibleWidth_m5797_MethodInfo,
-	&LayoutElement_set_flexibleWidth_m5798_MethodInfo,
-	&LayoutElement_get_flexibleHeight_m5799_MethodInfo,
-	&LayoutElement_set_flexibleHeight_m5800_MethodInfo,
-	&LayoutElement_get_layoutPriority_m5801_MethodInfo,
-	&LayoutElement_OnEnable_m5802_MethodInfo,
-	&LayoutElement_OnTransformParentChanged_m5803_MethodInfo,
-	&LayoutElement_OnDisable_m5804_MethodInfo,
-	&LayoutElement_OnDidApplyAnimationProperties_m5805_MethodInfo,
-	&LayoutElement_OnBeforeTransformParentChanged_m5806_MethodInfo,
-	&LayoutElement_SetDirty_m5807_MethodInfo,
+	&LayoutElement__ctor_m5788_MethodInfo,
+	&LayoutElement_get_ignoreLayout_m5789_MethodInfo,
+	&LayoutElement_set_ignoreLayout_m5790_MethodInfo,
+	&LayoutElement_CalculateLayoutInputHorizontal_m5791_MethodInfo,
+	&LayoutElement_CalculateLayoutInputVertical_m5792_MethodInfo,
+	&LayoutElement_get_minWidth_m5793_MethodInfo,
+	&LayoutElement_set_minWidth_m5794_MethodInfo,
+	&LayoutElement_get_minHeight_m5795_MethodInfo,
+	&LayoutElement_set_minHeight_m5796_MethodInfo,
+	&LayoutElement_get_preferredWidth_m5797_MethodInfo,
+	&LayoutElement_set_preferredWidth_m5798_MethodInfo,
+	&LayoutElement_get_preferredHeight_m5799_MethodInfo,
+	&LayoutElement_set_preferredHeight_m5800_MethodInfo,
+	&LayoutElement_get_flexibleWidth_m5801_MethodInfo,
+	&LayoutElement_set_flexibleWidth_m5802_MethodInfo,
+	&LayoutElement_get_flexibleHeight_m5803_MethodInfo,
+	&LayoutElement_set_flexibleHeight_m5804_MethodInfo,
+	&LayoutElement_get_layoutPriority_m5805_MethodInfo,
+	&LayoutElement_OnEnable_m5806_MethodInfo,
+	&LayoutElement_OnTransformParentChanged_m5807_MethodInfo,
+	&LayoutElement_OnDisable_m5808_MethodInfo,
+	&LayoutElement_OnDidApplyAnimationProperties_m5809_MethodInfo,
+	&LayoutElement_OnBeforeTransformParentChanged_m5810_MethodInfo,
+	&LayoutElement_SetDirty_m5811_MethodInfo,
 	NULL
 };
-extern const MethodInfo LayoutElement_get_ignoreLayout_m5785_MethodInfo;
-extern const MethodInfo LayoutElement_set_ignoreLayout_m5786_MethodInfo;
+extern const MethodInfo LayoutElement_get_ignoreLayout_m5789_MethodInfo;
+extern const MethodInfo LayoutElement_set_ignoreLayout_m5790_MethodInfo;
 static const PropertyInfo LayoutElement_t1018____ignoreLayout_PropertyInfo = 
 {
 	&LayoutElement_t1018_il2cpp_TypeInfo/* parent */
 	, "ignoreLayout"/* name */
-	, &LayoutElement_get_ignoreLayout_m5785_MethodInfo/* get */
-	, &LayoutElement_set_ignoreLayout_m5786_MethodInfo/* set */
+	, &LayoutElement_get_ignoreLayout_m5789_MethodInfo/* get */
+	, &LayoutElement_set_ignoreLayout_m5790_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo LayoutElement_get_minWidth_m5789_MethodInfo;
-extern const MethodInfo LayoutElement_set_minWidth_m5790_MethodInfo;
+extern const MethodInfo LayoutElement_get_minWidth_m5793_MethodInfo;
+extern const MethodInfo LayoutElement_set_minWidth_m5794_MethodInfo;
 static const PropertyInfo LayoutElement_t1018____minWidth_PropertyInfo = 
 {
 	&LayoutElement_t1018_il2cpp_TypeInfo/* parent */
 	, "minWidth"/* name */
-	, &LayoutElement_get_minWidth_m5789_MethodInfo/* get */
-	, &LayoutElement_set_minWidth_m5790_MethodInfo/* set */
+	, &LayoutElement_get_minWidth_m5793_MethodInfo/* get */
+	, &LayoutElement_set_minWidth_m5794_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo LayoutElement_get_minHeight_m5791_MethodInfo;
-extern const MethodInfo LayoutElement_set_minHeight_m5792_MethodInfo;
+extern const MethodInfo LayoutElement_get_minHeight_m5795_MethodInfo;
+extern const MethodInfo LayoutElement_set_minHeight_m5796_MethodInfo;
 static const PropertyInfo LayoutElement_t1018____minHeight_PropertyInfo = 
 {
 	&LayoutElement_t1018_il2cpp_TypeInfo/* parent */
 	, "minHeight"/* name */
-	, &LayoutElement_get_minHeight_m5791_MethodInfo/* get */
-	, &LayoutElement_set_minHeight_m5792_MethodInfo/* set */
+	, &LayoutElement_get_minHeight_m5795_MethodInfo/* get */
+	, &LayoutElement_set_minHeight_m5796_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo LayoutElement_get_preferredWidth_m5793_MethodInfo;
-extern const MethodInfo LayoutElement_set_preferredWidth_m5794_MethodInfo;
+extern const MethodInfo LayoutElement_get_preferredWidth_m5797_MethodInfo;
+extern const MethodInfo LayoutElement_set_preferredWidth_m5798_MethodInfo;
 static const PropertyInfo LayoutElement_t1018____preferredWidth_PropertyInfo = 
 {
 	&LayoutElement_t1018_il2cpp_TypeInfo/* parent */
 	, "preferredWidth"/* name */
-	, &LayoutElement_get_preferredWidth_m5793_MethodInfo/* get */
-	, &LayoutElement_set_preferredWidth_m5794_MethodInfo/* set */
+	, &LayoutElement_get_preferredWidth_m5797_MethodInfo/* get */
+	, &LayoutElement_set_preferredWidth_m5798_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo LayoutElement_get_preferredHeight_m5795_MethodInfo;
-extern const MethodInfo LayoutElement_set_preferredHeight_m5796_MethodInfo;
+extern const MethodInfo LayoutElement_get_preferredHeight_m5799_MethodInfo;
+extern const MethodInfo LayoutElement_set_preferredHeight_m5800_MethodInfo;
 static const PropertyInfo LayoutElement_t1018____preferredHeight_PropertyInfo = 
 {
 	&LayoutElement_t1018_il2cpp_TypeInfo/* parent */
 	, "preferredHeight"/* name */
-	, &LayoutElement_get_preferredHeight_m5795_MethodInfo/* get */
-	, &LayoutElement_set_preferredHeight_m5796_MethodInfo/* set */
+	, &LayoutElement_get_preferredHeight_m5799_MethodInfo/* get */
+	, &LayoutElement_set_preferredHeight_m5800_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo LayoutElement_get_flexibleWidth_m5797_MethodInfo;
-extern const MethodInfo LayoutElement_set_flexibleWidth_m5798_MethodInfo;
+extern const MethodInfo LayoutElement_get_flexibleWidth_m5801_MethodInfo;
+extern const MethodInfo LayoutElement_set_flexibleWidth_m5802_MethodInfo;
 static const PropertyInfo LayoutElement_t1018____flexibleWidth_PropertyInfo = 
 {
 	&LayoutElement_t1018_il2cpp_TypeInfo/* parent */
 	, "flexibleWidth"/* name */
-	, &LayoutElement_get_flexibleWidth_m5797_MethodInfo/* get */
-	, &LayoutElement_set_flexibleWidth_m5798_MethodInfo/* set */
+	, &LayoutElement_get_flexibleWidth_m5801_MethodInfo/* get */
+	, &LayoutElement_set_flexibleWidth_m5802_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo LayoutElement_get_flexibleHeight_m5799_MethodInfo;
-extern const MethodInfo LayoutElement_set_flexibleHeight_m5800_MethodInfo;
+extern const MethodInfo LayoutElement_get_flexibleHeight_m5803_MethodInfo;
+extern const MethodInfo LayoutElement_set_flexibleHeight_m5804_MethodInfo;
 static const PropertyInfo LayoutElement_t1018____flexibleHeight_PropertyInfo = 
 {
 	&LayoutElement_t1018_il2cpp_TypeInfo/* parent */
 	, "flexibleHeight"/* name */
-	, &LayoutElement_get_flexibleHeight_m5799_MethodInfo/* get */
-	, &LayoutElement_set_flexibleHeight_m5800_MethodInfo/* set */
+	, &LayoutElement_get_flexibleHeight_m5803_MethodInfo/* get */
+	, &LayoutElement_set_flexibleHeight_m5804_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo LayoutElement_get_layoutPriority_m5801_MethodInfo;
+extern const MethodInfo LayoutElement_get_layoutPriority_m5805_MethodInfo;
 static const PropertyInfo LayoutElement_t1018____layoutPriority_PropertyInfo = 
 {
 	&LayoutElement_t1018_il2cpp_TypeInfo/* parent */
 	, "layoutPriority"/* name */
-	, &LayoutElement_get_layoutPriority_m5801_MethodInfo/* get */
+	, &LayoutElement_get_layoutPriority_m5805_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -16640,58 +16640,58 @@ static const PropertyInfo* LayoutElement_t1018_PropertyInfos[] =
 	&LayoutElement_t1018____layoutPriority_PropertyInfo,
 	NULL
 };
-extern const MethodInfo LayoutElement_OnEnable_m5802_MethodInfo;
-extern const MethodInfo LayoutElement_OnDisable_m5804_MethodInfo;
-extern const MethodInfo LayoutElement_OnBeforeTransformParentChanged_m5806_MethodInfo;
-extern const MethodInfo LayoutElement_OnTransformParentChanged_m5803_MethodInfo;
-extern const MethodInfo LayoutElement_OnDidApplyAnimationProperties_m5805_MethodInfo;
-extern const MethodInfo LayoutElement_CalculateLayoutInputHorizontal_m5787_MethodInfo;
-extern const MethodInfo LayoutElement_CalculateLayoutInputVertical_m5788_MethodInfo;
+extern const MethodInfo LayoutElement_OnEnable_m5806_MethodInfo;
+extern const MethodInfo LayoutElement_OnDisable_m5808_MethodInfo;
+extern const MethodInfo LayoutElement_OnBeforeTransformParentChanged_m5810_MethodInfo;
+extern const MethodInfo LayoutElement_OnTransformParentChanged_m5807_MethodInfo;
+extern const MethodInfo LayoutElement_OnDidApplyAnimationProperties_m5809_MethodInfo;
+extern const MethodInfo LayoutElement_CalculateLayoutInputHorizontal_m5791_MethodInfo;
+extern const MethodInfo LayoutElement_CalculateLayoutInputVertical_m5792_MethodInfo;
 static const Il2CppMethodReference LayoutElement_t1018_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
-	&UIBehaviour_Awake_m4839_MethodInfo,
-	&LayoutElement_OnEnable_m5802_MethodInfo,
-	&UIBehaviour_Start_m4841_MethodInfo,
-	&LayoutElement_OnDisable_m5804_MethodInfo,
-	&UIBehaviour_OnDestroy_m4843_MethodInfo,
-	&UIBehaviour_IsActive_m4844_MethodInfo,
-	&UIBehaviour_OnRectTransformDimensionsChange_m4845_MethodInfo,
-	&LayoutElement_OnBeforeTransformParentChanged_m5806_MethodInfo,
-	&LayoutElement_OnTransformParentChanged_m5803_MethodInfo,
-	&LayoutElement_OnDidApplyAnimationProperties_m5805_MethodInfo,
-	&UIBehaviour_OnCanvasGroupChanged_m4849_MethodInfo,
-	&UIBehaviour_OnCanvasHierarchyChanged_m4850_MethodInfo,
-	&LayoutElement_CalculateLayoutInputHorizontal_m5787_MethodInfo,
-	&LayoutElement_CalculateLayoutInputVertical_m5788_MethodInfo,
-	&LayoutElement_get_minWidth_m5789_MethodInfo,
-	&LayoutElement_get_preferredWidth_m5793_MethodInfo,
-	&LayoutElement_get_flexibleWidth_m5797_MethodInfo,
-	&LayoutElement_get_minHeight_m5791_MethodInfo,
-	&LayoutElement_get_preferredHeight_m5795_MethodInfo,
-	&LayoutElement_get_flexibleHeight_m5799_MethodInfo,
-	&LayoutElement_get_layoutPriority_m5801_MethodInfo,
-	&LayoutElement_get_ignoreLayout_m5785_MethodInfo,
-	&LayoutElement_get_ignoreLayout_m5785_MethodInfo,
-	&LayoutElement_set_ignoreLayout_m5786_MethodInfo,
-	&LayoutElement_CalculateLayoutInputHorizontal_m5787_MethodInfo,
-	&LayoutElement_CalculateLayoutInputVertical_m5788_MethodInfo,
-	&LayoutElement_get_minWidth_m5789_MethodInfo,
-	&LayoutElement_set_minWidth_m5790_MethodInfo,
-	&LayoutElement_get_minHeight_m5791_MethodInfo,
-	&LayoutElement_set_minHeight_m5792_MethodInfo,
-	&LayoutElement_get_preferredWidth_m5793_MethodInfo,
-	&LayoutElement_set_preferredWidth_m5794_MethodInfo,
-	&LayoutElement_get_preferredHeight_m5795_MethodInfo,
-	&LayoutElement_set_preferredHeight_m5796_MethodInfo,
-	&LayoutElement_get_flexibleWidth_m5797_MethodInfo,
-	&LayoutElement_set_flexibleWidth_m5798_MethodInfo,
-	&LayoutElement_get_flexibleHeight_m5799_MethodInfo,
-	&LayoutElement_set_flexibleHeight_m5800_MethodInfo,
-	&LayoutElement_get_layoutPriority_m5801_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
+	&UIBehaviour_Awake_m4843_MethodInfo,
+	&LayoutElement_OnEnable_m5806_MethodInfo,
+	&UIBehaviour_Start_m4845_MethodInfo,
+	&LayoutElement_OnDisable_m5808_MethodInfo,
+	&UIBehaviour_OnDestroy_m4847_MethodInfo,
+	&UIBehaviour_IsActive_m4848_MethodInfo,
+	&UIBehaviour_OnRectTransformDimensionsChange_m4849_MethodInfo,
+	&LayoutElement_OnBeforeTransformParentChanged_m5810_MethodInfo,
+	&LayoutElement_OnTransformParentChanged_m5807_MethodInfo,
+	&LayoutElement_OnDidApplyAnimationProperties_m5809_MethodInfo,
+	&UIBehaviour_OnCanvasGroupChanged_m4853_MethodInfo,
+	&UIBehaviour_OnCanvasHierarchyChanged_m4854_MethodInfo,
+	&LayoutElement_CalculateLayoutInputHorizontal_m5791_MethodInfo,
+	&LayoutElement_CalculateLayoutInputVertical_m5792_MethodInfo,
+	&LayoutElement_get_minWidth_m5793_MethodInfo,
+	&LayoutElement_get_preferredWidth_m5797_MethodInfo,
+	&LayoutElement_get_flexibleWidth_m5801_MethodInfo,
+	&LayoutElement_get_minHeight_m5795_MethodInfo,
+	&LayoutElement_get_preferredHeight_m5799_MethodInfo,
+	&LayoutElement_get_flexibleHeight_m5803_MethodInfo,
+	&LayoutElement_get_layoutPriority_m5805_MethodInfo,
+	&LayoutElement_get_ignoreLayout_m5789_MethodInfo,
+	&LayoutElement_get_ignoreLayout_m5789_MethodInfo,
+	&LayoutElement_set_ignoreLayout_m5790_MethodInfo,
+	&LayoutElement_CalculateLayoutInputHorizontal_m5791_MethodInfo,
+	&LayoutElement_CalculateLayoutInputVertical_m5792_MethodInfo,
+	&LayoutElement_get_minWidth_m5793_MethodInfo,
+	&LayoutElement_set_minWidth_m5794_MethodInfo,
+	&LayoutElement_get_minHeight_m5795_MethodInfo,
+	&LayoutElement_set_minHeight_m5796_MethodInfo,
+	&LayoutElement_get_preferredWidth_m5797_MethodInfo,
+	&LayoutElement_set_preferredWidth_m5798_MethodInfo,
+	&LayoutElement_get_preferredHeight_m5799_MethodInfo,
+	&LayoutElement_set_preferredHeight_m5800_MethodInfo,
+	&LayoutElement_get_flexibleWidth_m5801_MethodInfo,
+	&LayoutElement_set_flexibleWidth_m5802_MethodInfo,
+	&LayoutElement_get_flexibleHeight_m5803_MethodInfo,
+	&LayoutElement_set_flexibleHeight_m5804_MethodInfo,
+	&LayoutElement_get_layoutPriority_m5805_MethodInfo,
 };
 static bool LayoutElement_t1018_VTableIsGenericMethod[] =
 {
@@ -16828,10 +16828,10 @@ extern TypeInfo LayoutGroup_t1015_il2cpp_TypeInfo;
 #include "UnityEngine_UI_UnityEngine_UI_LayoutGroupMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutGroup::.ctor()
-extern const MethodInfo LayoutGroup__ctor_m5808_MethodInfo = 
+extern const MethodInfo LayoutGroup__ctor_m5812_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&LayoutGroup__ctor_m5808/* method */
+	, (methodPointerType)&LayoutGroup__ctor_m5812/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -16852,10 +16852,10 @@ extern const MethodInfo LayoutGroup__ctor_m5808_MethodInfo =
 extern const Il2CppType RectOffset_t714_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.RectOffset UnityEngine.UI.LayoutGroup::get_padding()
-extern const MethodInfo LayoutGroup_get_padding_m5809_MethodInfo = 
+extern const MethodInfo LayoutGroup_get_padding_m5813_MethodInfo = 
 {
 	"get_padding"/* name */
-	, (methodPointerType)&LayoutGroup_get_padding_m5809/* method */
+	, (methodPointerType)&LayoutGroup_get_padding_m5813/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &RectOffset_t714_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -16874,20 +16874,20 @@ extern const MethodInfo LayoutGroup_get_padding_m5809_MethodInfo =
 
 };
 extern const Il2CppType RectOffset_t714_0_0_0;
-static const ParameterInfo LayoutGroup_t1015_LayoutGroup_set_padding_m5810_ParameterInfos[] = 
+static const ParameterInfo LayoutGroup_t1015_LayoutGroup_set_padding_m5814_ParameterInfos[] = 
 {
 	{"value", 0, 134218361, 0, &RectOffset_t714_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutGroup::set_padding(UnityEngine.RectOffset)
-extern const MethodInfo LayoutGroup_set_padding_m5810_MethodInfo = 
+extern const MethodInfo LayoutGroup_set_padding_m5814_MethodInfo = 
 {
 	"set_padding"/* name */
-	, (methodPointerType)&LayoutGroup_set_padding_m5810/* method */
+	, (methodPointerType)&LayoutGroup_set_padding_m5814/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, LayoutGroup_t1015_LayoutGroup_set_padding_m5810_ParameterInfos/* parameters */
+	, LayoutGroup_t1015_LayoutGroup_set_padding_m5814_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -16903,10 +16903,10 @@ extern const MethodInfo LayoutGroup_set_padding_m5810_MethodInfo =
 };
 extern void* RuntimeInvoker_TextAnchor_t828 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.TextAnchor UnityEngine.UI.LayoutGroup::get_childAlignment()
-extern const MethodInfo LayoutGroup_get_childAlignment_m5811_MethodInfo = 
+extern const MethodInfo LayoutGroup_get_childAlignment_m5815_MethodInfo = 
 {
 	"get_childAlignment"/* name */
-	, (methodPointerType)&LayoutGroup_get_childAlignment_m5811/* method */
+	, (methodPointerType)&LayoutGroup_get_childAlignment_m5815/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &TextAnchor_t828_0_0_0/* return_type */
 	, RuntimeInvoker_TextAnchor_t828/* invoker_method */
@@ -16925,20 +16925,20 @@ extern const MethodInfo LayoutGroup_get_childAlignment_m5811_MethodInfo =
 
 };
 extern const Il2CppType TextAnchor_t828_0_0_0;
-static const ParameterInfo LayoutGroup_t1015_LayoutGroup_set_childAlignment_m5812_ParameterInfos[] = 
+static const ParameterInfo LayoutGroup_t1015_LayoutGroup_set_childAlignment_m5816_ParameterInfos[] = 
 {
 	{"value", 0, 134218362, 0, &TextAnchor_t828_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutGroup::set_childAlignment(UnityEngine.TextAnchor)
-extern const MethodInfo LayoutGroup_set_childAlignment_m5812_MethodInfo = 
+extern const MethodInfo LayoutGroup_set_childAlignment_m5816_MethodInfo = 
 {
 	"set_childAlignment"/* name */
-	, (methodPointerType)&LayoutGroup_set_childAlignment_m5812/* method */
+	, (methodPointerType)&LayoutGroup_set_childAlignment_m5816/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, LayoutGroup_t1015_LayoutGroup_set_childAlignment_m5812_ParameterInfos/* parameters */
+	, LayoutGroup_t1015_LayoutGroup_set_childAlignment_m5816_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -16954,10 +16954,10 @@ extern const MethodInfo LayoutGroup_set_childAlignment_m5812_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.RectTransform UnityEngine.UI.LayoutGroup::get_rectTransform()
-extern const MethodInfo LayoutGroup_get_rectTransform_m5813_MethodInfo = 
+extern const MethodInfo LayoutGroup_get_rectTransform_m5817_MethodInfo = 
 {
 	"get_rectTransform"/* name */
-	, (methodPointerType)&LayoutGroup_get_rectTransform_m5813/* method */
+	, (methodPointerType)&LayoutGroup_get_rectTransform_m5817/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &RectTransform_t545_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -16978,10 +16978,10 @@ extern const MethodInfo LayoutGroup_get_rectTransform_m5813_MethodInfo =
 extern const Il2CppType List_1_t1019_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.List`1<UnityEngine.RectTransform> UnityEngine.UI.LayoutGroup::get_rectChildren()
-extern const MethodInfo LayoutGroup_get_rectChildren_m5814_MethodInfo = 
+extern const MethodInfo LayoutGroup_get_rectChildren_m5818_MethodInfo = 
 {
 	"get_rectChildren"/* name */
-	, (methodPointerType)&LayoutGroup_get_rectChildren_m5814/* method */
+	, (methodPointerType)&LayoutGroup_get_rectChildren_m5818/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &List_1_t1019_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -17001,10 +17001,10 @@ extern const MethodInfo LayoutGroup_get_rectChildren_m5814_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutGroup::CalculateLayoutInputHorizontal()
-extern const MethodInfo LayoutGroup_CalculateLayoutInputHorizontal_m5815_MethodInfo = 
+extern const MethodInfo LayoutGroup_CalculateLayoutInputHorizontal_m5819_MethodInfo = 
 {
 	"CalculateLayoutInputHorizontal"/* name */
-	, (methodPointerType)&LayoutGroup_CalculateLayoutInputHorizontal_m5815/* method */
+	, (methodPointerType)&LayoutGroup_CalculateLayoutInputHorizontal_m5819/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -17024,7 +17024,7 @@ extern const MethodInfo LayoutGroup_CalculateLayoutInputHorizontal_m5815_MethodI
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutGroup::CalculateLayoutInputVertical()
-extern const MethodInfo LayoutGroup_CalculateLayoutInputVertical_m6439_MethodInfo = 
+extern const MethodInfo LayoutGroup_CalculateLayoutInputVertical_m6443_MethodInfo = 
 {
 	"CalculateLayoutInputVertical"/* name */
 	, NULL/* method */
@@ -17047,10 +17047,10 @@ extern const MethodInfo LayoutGroup_CalculateLayoutInputVertical_m6439_MethodInf
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutGroup::get_minWidth()
-extern const MethodInfo LayoutGroup_get_minWidth_m5816_MethodInfo = 
+extern const MethodInfo LayoutGroup_get_minWidth_m5820_MethodInfo = 
 {
 	"get_minWidth"/* name */
-	, (methodPointerType)&LayoutGroup_get_minWidth_m5816/* method */
+	, (methodPointerType)&LayoutGroup_get_minWidth_m5820/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -17070,10 +17070,10 @@ extern const MethodInfo LayoutGroup_get_minWidth_m5816_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutGroup::get_preferredWidth()
-extern const MethodInfo LayoutGroup_get_preferredWidth_m5817_MethodInfo = 
+extern const MethodInfo LayoutGroup_get_preferredWidth_m5821_MethodInfo = 
 {
 	"get_preferredWidth"/* name */
-	, (methodPointerType)&LayoutGroup_get_preferredWidth_m5817/* method */
+	, (methodPointerType)&LayoutGroup_get_preferredWidth_m5821/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -17093,10 +17093,10 @@ extern const MethodInfo LayoutGroup_get_preferredWidth_m5817_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutGroup::get_flexibleWidth()
-extern const MethodInfo LayoutGroup_get_flexibleWidth_m5818_MethodInfo = 
+extern const MethodInfo LayoutGroup_get_flexibleWidth_m5822_MethodInfo = 
 {
 	"get_flexibleWidth"/* name */
-	, (methodPointerType)&LayoutGroup_get_flexibleWidth_m5818/* method */
+	, (methodPointerType)&LayoutGroup_get_flexibleWidth_m5822/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -17116,10 +17116,10 @@ extern const MethodInfo LayoutGroup_get_flexibleWidth_m5818_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutGroup::get_minHeight()
-extern const MethodInfo LayoutGroup_get_minHeight_m5819_MethodInfo = 
+extern const MethodInfo LayoutGroup_get_minHeight_m5823_MethodInfo = 
 {
 	"get_minHeight"/* name */
-	, (methodPointerType)&LayoutGroup_get_minHeight_m5819/* method */
+	, (methodPointerType)&LayoutGroup_get_minHeight_m5823/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -17139,10 +17139,10 @@ extern const MethodInfo LayoutGroup_get_minHeight_m5819_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutGroup::get_preferredHeight()
-extern const MethodInfo LayoutGroup_get_preferredHeight_m5820_MethodInfo = 
+extern const MethodInfo LayoutGroup_get_preferredHeight_m5824_MethodInfo = 
 {
 	"get_preferredHeight"/* name */
-	, (methodPointerType)&LayoutGroup_get_preferredHeight_m5820/* method */
+	, (methodPointerType)&LayoutGroup_get_preferredHeight_m5824/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -17162,10 +17162,10 @@ extern const MethodInfo LayoutGroup_get_preferredHeight_m5820_MethodInfo =
 };
 extern void* RuntimeInvoker_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutGroup::get_flexibleHeight()
-extern const MethodInfo LayoutGroup_get_flexibleHeight_m5821_MethodInfo = 
+extern const MethodInfo LayoutGroup_get_flexibleHeight_m5825_MethodInfo = 
 {
 	"get_flexibleHeight"/* name */
-	, (methodPointerType)&LayoutGroup_get_flexibleHeight_m5821/* method */
+	, (methodPointerType)&LayoutGroup_get_flexibleHeight_m5825/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87/* invoker_method */
@@ -17185,10 +17185,10 @@ extern const MethodInfo LayoutGroup_get_flexibleHeight_m5821_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 UnityEngine.UI.LayoutGroup::get_layoutPriority()
-extern const MethodInfo LayoutGroup_get_layoutPriority_m5822_MethodInfo = 
+extern const MethodInfo LayoutGroup_get_layoutPriority_m5826_MethodInfo = 
 {
 	"get_layoutPriority"/* name */
-	, (methodPointerType)&LayoutGroup_get_layoutPriority_m5822/* method */
+	, (methodPointerType)&LayoutGroup_get_layoutPriority_m5826/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -17208,7 +17208,7 @@ extern const MethodInfo LayoutGroup_get_layoutPriority_m5822_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutGroup::SetLayoutHorizontal()
-extern const MethodInfo LayoutGroup_SetLayoutHorizontal_m6440_MethodInfo = 
+extern const MethodInfo LayoutGroup_SetLayoutHorizontal_m6444_MethodInfo = 
 {
 	"SetLayoutHorizontal"/* name */
 	, NULL/* method */
@@ -17231,7 +17231,7 @@ extern const MethodInfo LayoutGroup_SetLayoutHorizontal_m6440_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutGroup::SetLayoutVertical()
-extern const MethodInfo LayoutGroup_SetLayoutVertical_m6441_MethodInfo = 
+extern const MethodInfo LayoutGroup_SetLayoutVertical_m6445_MethodInfo = 
 {
 	"SetLayoutVertical"/* name */
 	, NULL/* method */
@@ -17254,10 +17254,10 @@ extern const MethodInfo LayoutGroup_SetLayoutVertical_m6441_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutGroup::OnEnable()
-extern const MethodInfo LayoutGroup_OnEnable_m5823_MethodInfo = 
+extern const MethodInfo LayoutGroup_OnEnable_m5827_MethodInfo = 
 {
 	"OnEnable"/* name */
-	, (methodPointerType)&LayoutGroup_OnEnable_m5823/* method */
+	, (methodPointerType)&LayoutGroup_OnEnable_m5827/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -17277,10 +17277,10 @@ extern const MethodInfo LayoutGroup_OnEnable_m5823_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutGroup::OnDisable()
-extern const MethodInfo LayoutGroup_OnDisable_m5824_MethodInfo = 
+extern const MethodInfo LayoutGroup_OnDisable_m5828_MethodInfo = 
 {
 	"OnDisable"/* name */
-	, (methodPointerType)&LayoutGroup_OnDisable_m5824/* method */
+	, (methodPointerType)&LayoutGroup_OnDisable_m5828/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -17300,10 +17300,10 @@ extern const MethodInfo LayoutGroup_OnDisable_m5824_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutGroup::OnDidApplyAnimationProperties()
-extern const MethodInfo LayoutGroup_OnDidApplyAnimationProperties_m5825_MethodInfo = 
+extern const MethodInfo LayoutGroup_OnDidApplyAnimationProperties_m5829_MethodInfo = 
 {
 	"OnDidApplyAnimationProperties"/* name */
-	, (methodPointerType)&LayoutGroup_OnDidApplyAnimationProperties_m5825/* method */
+	, (methodPointerType)&LayoutGroup_OnDidApplyAnimationProperties_m5829/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -17322,20 +17322,20 @@ extern const MethodInfo LayoutGroup_OnDidApplyAnimationProperties_m5825_MethodIn
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo LayoutGroup_t1015_LayoutGroup_GetTotalMinSize_m5826_ParameterInfos[] = 
+static const ParameterInfo LayoutGroup_t1015_LayoutGroup_GetTotalMinSize_m5830_ParameterInfos[] = 
 {
 	{"axis", 0, 134218363, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutGroup::GetTotalMinSize(System.Int32)
-extern const MethodInfo LayoutGroup_GetTotalMinSize_m5826_MethodInfo = 
+extern const MethodInfo LayoutGroup_GetTotalMinSize_m5830_MethodInfo = 
 {
 	"GetTotalMinSize"/* name */
-	, (methodPointerType)&LayoutGroup_GetTotalMinSize_m5826/* method */
+	, (methodPointerType)&LayoutGroup_GetTotalMinSize_m5830/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Int32_t82/* invoker_method */
-	, LayoutGroup_t1015_LayoutGroup_GetTotalMinSize_m5826_ParameterInfos/* parameters */
+	, LayoutGroup_t1015_LayoutGroup_GetTotalMinSize_m5830_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -17350,20 +17350,20 @@ extern const MethodInfo LayoutGroup_GetTotalMinSize_m5826_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo LayoutGroup_t1015_LayoutGroup_GetTotalPreferredSize_m5827_ParameterInfos[] = 
+static const ParameterInfo LayoutGroup_t1015_LayoutGroup_GetTotalPreferredSize_m5831_ParameterInfos[] = 
 {
 	{"axis", 0, 134218364, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutGroup::GetTotalPreferredSize(System.Int32)
-extern const MethodInfo LayoutGroup_GetTotalPreferredSize_m5827_MethodInfo = 
+extern const MethodInfo LayoutGroup_GetTotalPreferredSize_m5831_MethodInfo = 
 {
 	"GetTotalPreferredSize"/* name */
-	, (methodPointerType)&LayoutGroup_GetTotalPreferredSize_m5827/* method */
+	, (methodPointerType)&LayoutGroup_GetTotalPreferredSize_m5831/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Int32_t82/* invoker_method */
-	, LayoutGroup_t1015_LayoutGroup_GetTotalPreferredSize_m5827_ParameterInfos/* parameters */
+	, LayoutGroup_t1015_LayoutGroup_GetTotalPreferredSize_m5831_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -17378,20 +17378,20 @@ extern const MethodInfo LayoutGroup_GetTotalPreferredSize_m5827_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo LayoutGroup_t1015_LayoutGroup_GetTotalFlexibleSize_m5828_ParameterInfos[] = 
+static const ParameterInfo LayoutGroup_t1015_LayoutGroup_GetTotalFlexibleSize_m5832_ParameterInfos[] = 
 {
 	{"axis", 0, 134218365, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutGroup::GetTotalFlexibleSize(System.Int32)
-extern const MethodInfo LayoutGroup_GetTotalFlexibleSize_m5828_MethodInfo = 
+extern const MethodInfo LayoutGroup_GetTotalFlexibleSize_m5832_MethodInfo = 
 {
 	"GetTotalFlexibleSize"/* name */
-	, (methodPointerType)&LayoutGroup_GetTotalFlexibleSize_m5828/* method */
+	, (methodPointerType)&LayoutGroup_GetTotalFlexibleSize_m5832/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Int32_t82/* invoker_method */
-	, LayoutGroup_t1015_LayoutGroup_GetTotalFlexibleSize_m5828_ParameterInfos/* parameters */
+	, LayoutGroup_t1015_LayoutGroup_GetTotalFlexibleSize_m5832_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -17407,21 +17407,21 @@ extern const MethodInfo LayoutGroup_GetTotalFlexibleSize_m5828_MethodInfo =
 };
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo LayoutGroup_t1015_LayoutGroup_GetStartOffset_m5829_ParameterInfos[] = 
+static const ParameterInfo LayoutGroup_t1015_LayoutGroup_GetStartOffset_m5833_ParameterInfos[] = 
 {
 	{"axis", 0, 134218366, 0, &Int32_t82_0_0_0},
 	{"requiredSpaceWithoutPadding", 1, 134218367, 0, &Single_t87_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Int32_t82_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutGroup::GetStartOffset(System.Int32,System.Single)
-extern const MethodInfo LayoutGroup_GetStartOffset_m5829_MethodInfo = 
+extern const MethodInfo LayoutGroup_GetStartOffset_m5833_MethodInfo = 
 {
 	"GetStartOffset"/* name */
-	, (methodPointerType)&LayoutGroup_GetStartOffset_m5829/* method */
+	, (methodPointerType)&LayoutGroup_GetStartOffset_m5833/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Int32_t82_Single_t87/* invoker_method */
-	, LayoutGroup_t1015_LayoutGroup_GetStartOffset_m5829_ParameterInfos/* parameters */
+	, LayoutGroup_t1015_LayoutGroup_GetStartOffset_m5833_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -17439,7 +17439,7 @@ extern const Il2CppType Single_t87_0_0_0;
 extern const Il2CppType Single_t87_0_0_0;
 extern const Il2CppType Single_t87_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo LayoutGroup_t1015_LayoutGroup_SetLayoutInputForAxis_m5830_ParameterInfos[] = 
+static const ParameterInfo LayoutGroup_t1015_LayoutGroup_SetLayoutInputForAxis_m5834_ParameterInfos[] = 
 {
 	{"totalMin", 0, 134218368, 0, &Single_t87_0_0_0},
 	{"totalPreferred", 1, 134218369, 0, &Single_t87_0_0_0},
@@ -17448,14 +17448,14 @@ static const ParameterInfo LayoutGroup_t1015_LayoutGroup_SetLayoutInputForAxis_m
 };
 extern void* RuntimeInvoker_Void_t85_Single_t87_Single_t87_Single_t87_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutGroup::SetLayoutInputForAxis(System.Single,System.Single,System.Single,System.Int32)
-extern const MethodInfo LayoutGroup_SetLayoutInputForAxis_m5830_MethodInfo = 
+extern const MethodInfo LayoutGroup_SetLayoutInputForAxis_m5834_MethodInfo = 
 {
 	"SetLayoutInputForAxis"/* name */
-	, (methodPointerType)&LayoutGroup_SetLayoutInputForAxis_m5830/* method */
+	, (methodPointerType)&LayoutGroup_SetLayoutInputForAxis_m5834/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Single_t87_Single_t87_Single_t87_Int32_t82/* invoker_method */
-	, LayoutGroup_t1015_LayoutGroup_SetLayoutInputForAxis_m5830_ParameterInfos/* parameters */
+	, LayoutGroup_t1015_LayoutGroup_SetLayoutInputForAxis_m5834_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -17473,7 +17473,7 @@ extern const Il2CppType RectTransform_t545_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Single_t87_0_0_0;
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo LayoutGroup_t1015_LayoutGroup_SetChildAlongAxis_m5831_ParameterInfos[] = 
+static const ParameterInfo LayoutGroup_t1015_LayoutGroup_SetChildAlongAxis_m5835_ParameterInfos[] = 
 {
 	{"rect", 0, 134218372, 0, &RectTransform_t545_0_0_0},
 	{"axis", 1, 134218373, 0, &Int32_t82_0_0_0},
@@ -17482,14 +17482,14 @@ static const ParameterInfo LayoutGroup_t1015_LayoutGroup_SetChildAlongAxis_m5831
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82_Single_t87_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutGroup::SetChildAlongAxis(UnityEngine.RectTransform,System.Int32,System.Single,System.Single)
-extern const MethodInfo LayoutGroup_SetChildAlongAxis_m5831_MethodInfo = 
+extern const MethodInfo LayoutGroup_SetChildAlongAxis_m5835_MethodInfo = 
 {
 	"SetChildAlongAxis"/* name */
-	, (methodPointerType)&LayoutGroup_SetChildAlongAxis_m5831/* method */
+	, (methodPointerType)&LayoutGroup_SetChildAlongAxis_m5835/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82_Single_t87_Single_t87/* invoker_method */
-	, LayoutGroup_t1015_LayoutGroup_SetChildAlongAxis_m5831_ParameterInfos/* parameters */
+	, LayoutGroup_t1015_LayoutGroup_SetChildAlongAxis_m5835_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -17505,10 +17505,10 @@ extern const MethodInfo LayoutGroup_SetChildAlongAxis_m5831_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.LayoutGroup::get_isRootLayoutGroup()
-extern const MethodInfo LayoutGroup_get_isRootLayoutGroup_m5832_MethodInfo = 
+extern const MethodInfo LayoutGroup_get_isRootLayoutGroup_m5836_MethodInfo = 
 {
 	"get_isRootLayoutGroup"/* name */
-	, (methodPointerType)&LayoutGroup_get_isRootLayoutGroup_m5832/* method */
+	, (methodPointerType)&LayoutGroup_get_isRootLayoutGroup_m5836/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -17528,10 +17528,10 @@ extern const MethodInfo LayoutGroup_get_isRootLayoutGroup_m5832_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutGroup::OnRectTransformDimensionsChange()
-extern const MethodInfo LayoutGroup_OnRectTransformDimensionsChange_m5833_MethodInfo = 
+extern const MethodInfo LayoutGroup_OnRectTransformDimensionsChange_m5837_MethodInfo = 
 {
 	"OnRectTransformDimensionsChange"/* name */
-	, (methodPointerType)&LayoutGroup_OnRectTransformDimensionsChange_m5833/* method */
+	, (methodPointerType)&LayoutGroup_OnRectTransformDimensionsChange_m5837/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -17551,10 +17551,10 @@ extern const MethodInfo LayoutGroup_OnRectTransformDimensionsChange_m5833_Method
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutGroup::OnTransformChildrenChanged()
-extern const MethodInfo LayoutGroup_OnTransformChildrenChanged_m5834_MethodInfo = 
+extern const MethodInfo LayoutGroup_OnTransformChildrenChanged_m5838_MethodInfo = 
 {
 	"OnTransformChildrenChanged"/* name */
-	, (methodPointerType)&LayoutGroup_OnTransformChildrenChanged_m5834/* method */
+	, (methodPointerType)&LayoutGroup_OnTransformChildrenChanged_m5838/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -17572,38 +17572,38 @@ extern const MethodInfo LayoutGroup_OnTransformChildrenChanged_m5834_MethodInfo 
 	, NULL/* dummy */
 
 };
-extern const Il2CppType LayoutGroup_SetProperty_m6442_gp_0_1_0_0;
-extern const Il2CppType LayoutGroup_SetProperty_m6442_gp_0_1_0_0;
-extern const Il2CppType LayoutGroup_SetProperty_m6442_gp_0_0_0_0;
-extern const Il2CppType LayoutGroup_SetProperty_m6442_gp_0_0_0_0;
-static const ParameterInfo LayoutGroup_t1015_LayoutGroup_SetProperty_m6442_ParameterInfos[] = 
+extern const Il2CppType LayoutGroup_SetProperty_m6446_gp_0_1_0_0;
+extern const Il2CppType LayoutGroup_SetProperty_m6446_gp_0_1_0_0;
+extern const Il2CppType LayoutGroup_SetProperty_m6446_gp_0_0_0_0;
+extern const Il2CppType LayoutGroup_SetProperty_m6446_gp_0_0_0_0;
+static const ParameterInfo LayoutGroup_t1015_LayoutGroup_SetProperty_m6446_ParameterInfos[] = 
 {
-	{"currentValue", 0, 134218376, 0, &LayoutGroup_SetProperty_m6442_gp_0_1_0_0},
-	{"newValue", 1, 134218377, 0, &LayoutGroup_SetProperty_m6442_gp_0_0_0_0},
+	{"currentValue", 0, 134218376, 0, &LayoutGroup_SetProperty_m6446_gp_0_1_0_0},
+	{"newValue", 1, 134218377, 0, &LayoutGroup_SetProperty_m6446_gp_0_0_0_0},
 };
-extern const Il2CppGenericContainer LayoutGroup_SetProperty_m6442_Il2CppGenericContainer;
-extern TypeInfo LayoutGroup_SetProperty_m6442_gp_T_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter LayoutGroup_SetProperty_m6442_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &LayoutGroup_SetProperty_m6442_Il2CppGenericContainer, NULL, "T", 0, 0 };
-static const Il2CppGenericParameter* LayoutGroup_SetProperty_m6442_Il2CppGenericParametersArray[1] = 
+extern const Il2CppGenericContainer LayoutGroup_SetProperty_m6446_Il2CppGenericContainer;
+extern TypeInfo LayoutGroup_SetProperty_m6446_gp_T_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter LayoutGroup_SetProperty_m6446_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { &LayoutGroup_SetProperty_m6446_Il2CppGenericContainer, NULL, "T", 0, 0 };
+static const Il2CppGenericParameter* LayoutGroup_SetProperty_m6446_Il2CppGenericParametersArray[1] = 
 {
-	&LayoutGroup_SetProperty_m6442_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+	&LayoutGroup_SetProperty_m6446_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const MethodInfo LayoutGroup_SetProperty_m6442_MethodInfo;
-extern const Il2CppGenericContainer LayoutGroup_SetProperty_m6442_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&LayoutGroup_SetProperty_m6442_MethodInfo, 1, 1, LayoutGroup_SetProperty_m6442_Il2CppGenericParametersArray };
-static Il2CppRGCTXDefinition LayoutGroup_SetProperty_m6442_RGCTXData[2] = 
+extern const MethodInfo LayoutGroup_SetProperty_m6446_MethodInfo;
+extern const Il2CppGenericContainer LayoutGroup_SetProperty_m6446_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&LayoutGroup_SetProperty_m6446_MethodInfo, 1, 1, LayoutGroup_SetProperty_m6446_Il2CppGenericParametersArray };
+static Il2CppRGCTXDefinition LayoutGroup_SetProperty_m6446_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&LayoutGroup_SetProperty_m6442_gp_0_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&LayoutGroup_SetProperty_m6446_gp_0_0_0_0 }/* Class */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // System.Void UnityEngine.UI.LayoutGroup::SetProperty(T&,T)
-extern const MethodInfo LayoutGroup_SetProperty_m6442_MethodInfo = 
+extern const MethodInfo LayoutGroup_SetProperty_m6446_MethodInfo = 
 {
 	"SetProperty"/* name */
 	, NULL/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, LayoutGroup_t1015_LayoutGroup_SetProperty_m6442_ParameterInfos/* parameters */
+	, LayoutGroup_t1015_LayoutGroup_SetProperty_m6446_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -17612,17 +17612,17 @@ extern const MethodInfo LayoutGroup_SetProperty_m6442_MethodInfo =
 	, true/* is_generic */
 	, false/* is_inflated */
 	, 1173/* token */
-	, LayoutGroup_SetProperty_m6442_RGCTXData/* rgctx_data */
+	, LayoutGroup_SetProperty_m6446_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &LayoutGroup_SetProperty_m6442_Il2CppGenericContainer/* genericContainer */
+	, &LayoutGroup_SetProperty_m6446_Il2CppGenericContainer/* genericContainer */
 
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutGroup::SetDirty()
-extern const MethodInfo LayoutGroup_SetDirty_m5835_MethodInfo = 
+extern const MethodInfo LayoutGroup_SetDirty_m5839_MethodInfo = 
 {
 	"SetDirty"/* name */
-	, (methodPointerType)&LayoutGroup_SetDirty_m5835/* method */
+	, (methodPointerType)&LayoutGroup_SetDirty_m5839/* method */
 	, &LayoutGroup_t1015_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -17642,81 +17642,81 @@ extern const MethodInfo LayoutGroup_SetDirty_m5835_MethodInfo =
 };
 static const MethodInfo* LayoutGroup_t1015_MethodInfos[] =
 {
-	&LayoutGroup__ctor_m5808_MethodInfo,
-	&LayoutGroup_get_padding_m5809_MethodInfo,
-	&LayoutGroup_set_padding_m5810_MethodInfo,
-	&LayoutGroup_get_childAlignment_m5811_MethodInfo,
-	&LayoutGroup_set_childAlignment_m5812_MethodInfo,
-	&LayoutGroup_get_rectTransform_m5813_MethodInfo,
-	&LayoutGroup_get_rectChildren_m5814_MethodInfo,
-	&LayoutGroup_CalculateLayoutInputHorizontal_m5815_MethodInfo,
-	&LayoutGroup_CalculateLayoutInputVertical_m6439_MethodInfo,
-	&LayoutGroup_get_minWidth_m5816_MethodInfo,
-	&LayoutGroup_get_preferredWidth_m5817_MethodInfo,
-	&LayoutGroup_get_flexibleWidth_m5818_MethodInfo,
-	&LayoutGroup_get_minHeight_m5819_MethodInfo,
-	&LayoutGroup_get_preferredHeight_m5820_MethodInfo,
-	&LayoutGroup_get_flexibleHeight_m5821_MethodInfo,
-	&LayoutGroup_get_layoutPriority_m5822_MethodInfo,
-	&LayoutGroup_SetLayoutHorizontal_m6440_MethodInfo,
-	&LayoutGroup_SetLayoutVertical_m6441_MethodInfo,
-	&LayoutGroup_OnEnable_m5823_MethodInfo,
-	&LayoutGroup_OnDisable_m5824_MethodInfo,
-	&LayoutGroup_OnDidApplyAnimationProperties_m5825_MethodInfo,
-	&LayoutGroup_GetTotalMinSize_m5826_MethodInfo,
-	&LayoutGroup_GetTotalPreferredSize_m5827_MethodInfo,
-	&LayoutGroup_GetTotalFlexibleSize_m5828_MethodInfo,
-	&LayoutGroup_GetStartOffset_m5829_MethodInfo,
-	&LayoutGroup_SetLayoutInputForAxis_m5830_MethodInfo,
-	&LayoutGroup_SetChildAlongAxis_m5831_MethodInfo,
-	&LayoutGroup_get_isRootLayoutGroup_m5832_MethodInfo,
-	&LayoutGroup_OnRectTransformDimensionsChange_m5833_MethodInfo,
-	&LayoutGroup_OnTransformChildrenChanged_m5834_MethodInfo,
-	&LayoutGroup_SetProperty_m6442_MethodInfo,
-	&LayoutGroup_SetDirty_m5835_MethodInfo,
+	&LayoutGroup__ctor_m5812_MethodInfo,
+	&LayoutGroup_get_padding_m5813_MethodInfo,
+	&LayoutGroup_set_padding_m5814_MethodInfo,
+	&LayoutGroup_get_childAlignment_m5815_MethodInfo,
+	&LayoutGroup_set_childAlignment_m5816_MethodInfo,
+	&LayoutGroup_get_rectTransform_m5817_MethodInfo,
+	&LayoutGroup_get_rectChildren_m5818_MethodInfo,
+	&LayoutGroup_CalculateLayoutInputHorizontal_m5819_MethodInfo,
+	&LayoutGroup_CalculateLayoutInputVertical_m6443_MethodInfo,
+	&LayoutGroup_get_minWidth_m5820_MethodInfo,
+	&LayoutGroup_get_preferredWidth_m5821_MethodInfo,
+	&LayoutGroup_get_flexibleWidth_m5822_MethodInfo,
+	&LayoutGroup_get_minHeight_m5823_MethodInfo,
+	&LayoutGroup_get_preferredHeight_m5824_MethodInfo,
+	&LayoutGroup_get_flexibleHeight_m5825_MethodInfo,
+	&LayoutGroup_get_layoutPriority_m5826_MethodInfo,
+	&LayoutGroup_SetLayoutHorizontal_m6444_MethodInfo,
+	&LayoutGroup_SetLayoutVertical_m6445_MethodInfo,
+	&LayoutGroup_OnEnable_m5827_MethodInfo,
+	&LayoutGroup_OnDisable_m5828_MethodInfo,
+	&LayoutGroup_OnDidApplyAnimationProperties_m5829_MethodInfo,
+	&LayoutGroup_GetTotalMinSize_m5830_MethodInfo,
+	&LayoutGroup_GetTotalPreferredSize_m5831_MethodInfo,
+	&LayoutGroup_GetTotalFlexibleSize_m5832_MethodInfo,
+	&LayoutGroup_GetStartOffset_m5833_MethodInfo,
+	&LayoutGroup_SetLayoutInputForAxis_m5834_MethodInfo,
+	&LayoutGroup_SetChildAlongAxis_m5835_MethodInfo,
+	&LayoutGroup_get_isRootLayoutGroup_m5836_MethodInfo,
+	&LayoutGroup_OnRectTransformDimensionsChange_m5837_MethodInfo,
+	&LayoutGroup_OnTransformChildrenChanged_m5838_MethodInfo,
+	&LayoutGroup_SetProperty_m6446_MethodInfo,
+	&LayoutGroup_SetDirty_m5839_MethodInfo,
 	NULL
 };
-extern const MethodInfo LayoutGroup_get_padding_m5809_MethodInfo;
-extern const MethodInfo LayoutGroup_set_padding_m5810_MethodInfo;
+extern const MethodInfo LayoutGroup_get_padding_m5813_MethodInfo;
+extern const MethodInfo LayoutGroup_set_padding_m5814_MethodInfo;
 static const PropertyInfo LayoutGroup_t1015____padding_PropertyInfo = 
 {
 	&LayoutGroup_t1015_il2cpp_TypeInfo/* parent */
 	, "padding"/* name */
-	, &LayoutGroup_get_padding_m5809_MethodInfo/* get */
-	, &LayoutGroup_set_padding_m5810_MethodInfo/* set */
+	, &LayoutGroup_get_padding_m5813_MethodInfo/* get */
+	, &LayoutGroup_set_padding_m5814_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo LayoutGroup_get_childAlignment_m5811_MethodInfo;
-extern const MethodInfo LayoutGroup_set_childAlignment_m5812_MethodInfo;
+extern const MethodInfo LayoutGroup_get_childAlignment_m5815_MethodInfo;
+extern const MethodInfo LayoutGroup_set_childAlignment_m5816_MethodInfo;
 static const PropertyInfo LayoutGroup_t1015____childAlignment_PropertyInfo = 
 {
 	&LayoutGroup_t1015_il2cpp_TypeInfo/* parent */
 	, "childAlignment"/* name */
-	, &LayoutGroup_get_childAlignment_m5811_MethodInfo/* get */
-	, &LayoutGroup_set_childAlignment_m5812_MethodInfo/* set */
+	, &LayoutGroup_get_childAlignment_m5815_MethodInfo/* get */
+	, &LayoutGroup_set_childAlignment_m5816_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo LayoutGroup_get_rectTransform_m5813_MethodInfo;
+extern const MethodInfo LayoutGroup_get_rectTransform_m5817_MethodInfo;
 static const PropertyInfo LayoutGroup_t1015____rectTransform_PropertyInfo = 
 {
 	&LayoutGroup_t1015_il2cpp_TypeInfo/* parent */
 	, "rectTransform"/* name */
-	, &LayoutGroup_get_rectTransform_m5813_MethodInfo/* get */
+	, &LayoutGroup_get_rectTransform_m5817_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo LayoutGroup_get_rectChildren_m5814_MethodInfo;
+extern const MethodInfo LayoutGroup_get_rectChildren_m5818_MethodInfo;
 static const PropertyInfo LayoutGroup_t1015____rectChildren_PropertyInfo = 
 {
 	&LayoutGroup_t1015_il2cpp_TypeInfo/* parent */
 	, "rectChildren"/* name */
-	, &LayoutGroup_get_rectChildren_m5814_MethodInfo/* get */
+	, &LayoutGroup_get_rectChildren_m5818_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -17726,7 +17726,7 @@ static const PropertyInfo LayoutGroup_t1015____minWidth_PropertyInfo =
 {
 	&LayoutGroup_t1015_il2cpp_TypeInfo/* parent */
 	, "minWidth"/* name */
-	, &LayoutGroup_get_minWidth_m5816_MethodInfo/* get */
+	, &LayoutGroup_get_minWidth_m5820_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -17736,7 +17736,7 @@ static const PropertyInfo LayoutGroup_t1015____preferredWidth_PropertyInfo =
 {
 	&LayoutGroup_t1015_il2cpp_TypeInfo/* parent */
 	, "preferredWidth"/* name */
-	, &LayoutGroup_get_preferredWidth_m5817_MethodInfo/* get */
+	, &LayoutGroup_get_preferredWidth_m5821_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -17746,7 +17746,7 @@ static const PropertyInfo LayoutGroup_t1015____flexibleWidth_PropertyInfo =
 {
 	&LayoutGroup_t1015_il2cpp_TypeInfo/* parent */
 	, "flexibleWidth"/* name */
-	, &LayoutGroup_get_flexibleWidth_m5818_MethodInfo/* get */
+	, &LayoutGroup_get_flexibleWidth_m5822_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -17756,7 +17756,7 @@ static const PropertyInfo LayoutGroup_t1015____minHeight_PropertyInfo =
 {
 	&LayoutGroup_t1015_il2cpp_TypeInfo/* parent */
 	, "minHeight"/* name */
-	, &LayoutGroup_get_minHeight_m5819_MethodInfo/* get */
+	, &LayoutGroup_get_minHeight_m5823_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -17766,7 +17766,7 @@ static const PropertyInfo LayoutGroup_t1015____preferredHeight_PropertyInfo =
 {
 	&LayoutGroup_t1015_il2cpp_TypeInfo/* parent */
 	, "preferredHeight"/* name */
-	, &LayoutGroup_get_preferredHeight_m5820_MethodInfo/* get */
+	, &LayoutGroup_get_preferredHeight_m5824_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -17776,7 +17776,7 @@ static const PropertyInfo LayoutGroup_t1015____flexibleHeight_PropertyInfo =
 {
 	&LayoutGroup_t1015_il2cpp_TypeInfo/* parent */
 	, "flexibleHeight"/* name */
-	, &LayoutGroup_get_flexibleHeight_m5821_MethodInfo/* get */
+	, &LayoutGroup_get_flexibleHeight_m5825_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -17786,18 +17786,18 @@ static const PropertyInfo LayoutGroup_t1015____layoutPriority_PropertyInfo =
 {
 	&LayoutGroup_t1015_il2cpp_TypeInfo/* parent */
 	, "layoutPriority"/* name */
-	, &LayoutGroup_get_layoutPriority_m5822_MethodInfo/* get */
+	, &LayoutGroup_get_layoutPriority_m5826_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo LayoutGroup_get_isRootLayoutGroup_m5832_MethodInfo;
+extern const MethodInfo LayoutGroup_get_isRootLayoutGroup_m5836_MethodInfo;
 static const PropertyInfo LayoutGroup_t1015____isRootLayoutGroup_PropertyInfo = 
 {
 	&LayoutGroup_t1015_il2cpp_TypeInfo/* parent */
 	, "isRootLayoutGroup"/* name */
-	, &LayoutGroup_get_isRootLayoutGroup_m5832_MethodInfo/* get */
+	, &LayoutGroup_get_isRootLayoutGroup_m5836_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -17821,45 +17821,45 @@ static const PropertyInfo* LayoutGroup_t1015_PropertyInfos[] =
 };
 static const Il2CppMethodReference LayoutGroup_t1015_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
-	&UIBehaviour_Awake_m4839_MethodInfo,
-	&LayoutGroup_OnEnable_m5823_MethodInfo,
-	&UIBehaviour_Start_m4841_MethodInfo,
-	&LayoutGroup_OnDisable_m5824_MethodInfo,
-	&UIBehaviour_OnDestroy_m4843_MethodInfo,
-	&UIBehaviour_IsActive_m4844_MethodInfo,
-	&LayoutGroup_OnRectTransformDimensionsChange_m5833_MethodInfo,
-	&UIBehaviour_OnBeforeTransformParentChanged_m4846_MethodInfo,
-	&UIBehaviour_OnTransformParentChanged_m4847_MethodInfo,
-	&LayoutGroup_OnDidApplyAnimationProperties_m5825_MethodInfo,
-	&UIBehaviour_OnCanvasGroupChanged_m4849_MethodInfo,
-	&UIBehaviour_OnCanvasHierarchyChanged_m4850_MethodInfo,
-	&LayoutGroup_CalculateLayoutInputHorizontal_m5815_MethodInfo,
-	&LayoutGroup_CalculateLayoutInputVertical_m6439_MethodInfo,
-	&LayoutGroup_get_minWidth_m5816_MethodInfo,
-	&LayoutGroup_get_preferredWidth_m5817_MethodInfo,
-	&LayoutGroup_get_flexibleWidth_m5818_MethodInfo,
-	&LayoutGroup_get_minHeight_m5819_MethodInfo,
-	&LayoutGroup_get_preferredHeight_m5820_MethodInfo,
-	&LayoutGroup_get_flexibleHeight_m5821_MethodInfo,
-	&LayoutGroup_get_layoutPriority_m5822_MethodInfo,
-	&LayoutGroup_SetLayoutHorizontal_m6440_MethodInfo,
-	&LayoutGroup_SetLayoutVertical_m6441_MethodInfo,
-	&LayoutGroup_CalculateLayoutInputHorizontal_m5815_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
+	&UIBehaviour_Awake_m4843_MethodInfo,
+	&LayoutGroup_OnEnable_m5827_MethodInfo,
+	&UIBehaviour_Start_m4845_MethodInfo,
+	&LayoutGroup_OnDisable_m5828_MethodInfo,
+	&UIBehaviour_OnDestroy_m4847_MethodInfo,
+	&UIBehaviour_IsActive_m4848_MethodInfo,
+	&LayoutGroup_OnRectTransformDimensionsChange_m5837_MethodInfo,
+	&UIBehaviour_OnBeforeTransformParentChanged_m4850_MethodInfo,
+	&UIBehaviour_OnTransformParentChanged_m4851_MethodInfo,
+	&LayoutGroup_OnDidApplyAnimationProperties_m5829_MethodInfo,
+	&UIBehaviour_OnCanvasGroupChanged_m4853_MethodInfo,
+	&UIBehaviour_OnCanvasHierarchyChanged_m4854_MethodInfo,
+	&LayoutGroup_CalculateLayoutInputHorizontal_m5819_MethodInfo,
+	&LayoutGroup_CalculateLayoutInputVertical_m6443_MethodInfo,
+	&LayoutGroup_get_minWidth_m5820_MethodInfo,
+	&LayoutGroup_get_preferredWidth_m5821_MethodInfo,
+	&LayoutGroup_get_flexibleWidth_m5822_MethodInfo,
+	&LayoutGroup_get_minHeight_m5823_MethodInfo,
+	&LayoutGroup_get_preferredHeight_m5824_MethodInfo,
+	&LayoutGroup_get_flexibleHeight_m5825_MethodInfo,
+	&LayoutGroup_get_layoutPriority_m5826_MethodInfo,
+	&LayoutGroup_SetLayoutHorizontal_m6444_MethodInfo,
+	&LayoutGroup_SetLayoutVertical_m6445_MethodInfo,
+	&LayoutGroup_CalculateLayoutInputHorizontal_m5819_MethodInfo,
 	NULL,
-	&LayoutGroup_get_minWidth_m5816_MethodInfo,
-	&LayoutGroup_get_preferredWidth_m5817_MethodInfo,
-	&LayoutGroup_get_flexibleWidth_m5818_MethodInfo,
-	&LayoutGroup_get_minHeight_m5819_MethodInfo,
-	&LayoutGroup_get_preferredHeight_m5820_MethodInfo,
-	&LayoutGroup_get_flexibleHeight_m5821_MethodInfo,
-	&LayoutGroup_get_layoutPriority_m5822_MethodInfo,
+	&LayoutGroup_get_minWidth_m5820_MethodInfo,
+	&LayoutGroup_get_preferredWidth_m5821_MethodInfo,
+	&LayoutGroup_get_flexibleWidth_m5822_MethodInfo,
+	&LayoutGroup_get_minHeight_m5823_MethodInfo,
+	&LayoutGroup_get_preferredHeight_m5824_MethodInfo,
+	&LayoutGroup_get_flexibleHeight_m5825_MethodInfo,
+	&LayoutGroup_get_layoutPriority_m5826_MethodInfo,
 	NULL,
 	NULL,
-	&LayoutGroup_OnTransformChildrenChanged_m5834_MethodInfo,
+	&LayoutGroup_OnTransformChildrenChanged_m5838_MethodInfo,
 };
 static bool LayoutGroup_t1015_VTableIsGenericMethod[] =
 {
@@ -17992,20 +17992,20 @@ extern TypeInfo LayoutRebuilder_t1022_il2cpp_TypeInfo;
 // UnityEngine.UI.LayoutRebuilder
 #include "UnityEngine_UI_UnityEngine_UI_LayoutRebuilderMethodDeclarations.h"
 extern const Il2CppType RectTransform_t545_0_0_0;
-static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder__ctor_m5836_ParameterInfos[] = 
+static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder__ctor_m5840_ParameterInfos[] = 
 {
 	{"controller", 0, 134218378, 0, &RectTransform_t545_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutRebuilder::.ctor(UnityEngine.RectTransform)
-extern const MethodInfo LayoutRebuilder__ctor_m5836_MethodInfo = 
+extern const MethodInfo LayoutRebuilder__ctor_m5840_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&LayoutRebuilder__ctor_m5836/* method */
+	, (methodPointerType)&LayoutRebuilder__ctor_m5840/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, LayoutRebuilder_t1022_LayoutRebuilder__ctor_m5836_ParameterInfos/* parameters */
+	, LayoutRebuilder_t1022_LayoutRebuilder__ctor_m5840_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6273/* flags */
 	, 0/* iflags */
@@ -18021,10 +18021,10 @@ extern const MethodInfo LayoutRebuilder__ctor_m5836_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutRebuilder::.cctor()
-extern const MethodInfo LayoutRebuilder__cctor_m5837_MethodInfo = 
+extern const MethodInfo LayoutRebuilder__cctor_m5841_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&LayoutRebuilder__cctor_m5837/* method */
+	, (methodPointerType)&LayoutRebuilder__cctor_m5841/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -18043,20 +18043,20 @@ extern const MethodInfo LayoutRebuilder__cctor_m5837_MethodInfo =
 
 };
 extern const Il2CppType CanvasUpdate_t923_0_0_0;
-static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_UnityEngine_UI_ICanvasElement_Rebuild_m5838_ParameterInfos[] = 
+static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_UnityEngine_UI_ICanvasElement_Rebuild_m5842_ParameterInfos[] = 
 {
 	{"executing", 0, 134218379, 0, &CanvasUpdate_t923_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutRebuilder::UnityEngine.UI.ICanvasElement.Rebuild(UnityEngine.UI.CanvasUpdate)
-extern const MethodInfo LayoutRebuilder_UnityEngine_UI_ICanvasElement_Rebuild_m5838_MethodInfo = 
+extern const MethodInfo LayoutRebuilder_UnityEngine_UI_ICanvasElement_Rebuild_m5842_MethodInfo = 
 {
 	"UnityEngine.UI.ICanvasElement.Rebuild"/* name */
-	, (methodPointerType)&LayoutRebuilder_UnityEngine_UI_ICanvasElement_Rebuild_m5838/* method */
+	, (methodPointerType)&LayoutRebuilder_UnityEngine_UI_ICanvasElement_Rebuild_m5842/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, LayoutRebuilder_t1022_LayoutRebuilder_UnityEngine_UI_ICanvasElement_Rebuild_m5838_ParameterInfos/* parameters */
+	, LayoutRebuilder_t1022_LayoutRebuilder_UnityEngine_UI_ICanvasElement_Rebuild_m5842_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -18071,20 +18071,20 @@ extern const MethodInfo LayoutRebuilder_UnityEngine_UI_ICanvasElement_Rebuild_m5
 
 };
 extern const Il2CppType RectTransform_t545_0_0_0;
-static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_ReapplyDrivenProperties_m5839_ParameterInfos[] = 
+static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_ReapplyDrivenProperties_m5843_ParameterInfos[] = 
 {
 	{"driven", 0, 134218380, 0, &RectTransform_t545_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutRebuilder::ReapplyDrivenProperties(UnityEngine.RectTransform)
-extern const MethodInfo LayoutRebuilder_ReapplyDrivenProperties_m5839_MethodInfo = 
+extern const MethodInfo LayoutRebuilder_ReapplyDrivenProperties_m5843_MethodInfo = 
 {
 	"ReapplyDrivenProperties"/* name */
-	, (methodPointerType)&LayoutRebuilder_ReapplyDrivenProperties_m5839/* method */
+	, (methodPointerType)&LayoutRebuilder_ReapplyDrivenProperties_m5843/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, LayoutRebuilder_t1022_LayoutRebuilder_ReapplyDrivenProperties_m5839_ParameterInfos/* parameters */
+	, LayoutRebuilder_t1022_LayoutRebuilder_ReapplyDrivenProperties_m5843_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -18100,10 +18100,10 @@ extern const MethodInfo LayoutRebuilder_ReapplyDrivenProperties_m5839_MethodInfo
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Transform UnityEngine.UI.LayoutRebuilder::get_transform()
-extern const MethodInfo LayoutRebuilder_get_transform_m5840_MethodInfo = 
+extern const MethodInfo LayoutRebuilder_get_transform_m5844_MethodInfo = 
 {
 	"get_transform"/* name */
-	, (methodPointerType)&LayoutRebuilder_get_transform_m5840/* method */
+	, (methodPointerType)&LayoutRebuilder_get_transform_m5844/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &Transform_t406_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -18123,10 +18123,10 @@ extern const MethodInfo LayoutRebuilder_get_transform_m5840_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.LayoutRebuilder::IsDestroyed()
-extern const MethodInfo LayoutRebuilder_IsDestroyed_m5841_MethodInfo = 
+extern const MethodInfo LayoutRebuilder_IsDestroyed_m5845_MethodInfo = 
 {
 	"IsDestroyed"/* name */
-	, (methodPointerType)&LayoutRebuilder_IsDestroyed_m5841/* method */
+	, (methodPointerType)&LayoutRebuilder_IsDestroyed_m5845/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -18146,20 +18146,20 @@ extern const MethodInfo LayoutRebuilder_IsDestroyed_m5841_MethodInfo =
 };
 extern const Il2CppType List_1_t1064_0_0_0;
 extern const Il2CppType List_1_t1064_0_0_0;
-static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_StripDisabledBehavioursFromList_m5842_ParameterInfos[] = 
+static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_StripDisabledBehavioursFromList_m5846_ParameterInfos[] = 
 {
 	{"components", 0, 134218381, 0, &List_1_t1064_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutRebuilder::StripDisabledBehavioursFromList(System.Collections.Generic.List`1<UnityEngine.Component>)
-extern const MethodInfo LayoutRebuilder_StripDisabledBehavioursFromList_m5842_MethodInfo = 
+extern const MethodInfo LayoutRebuilder_StripDisabledBehavioursFromList_m5846_MethodInfo = 
 {
 	"StripDisabledBehavioursFromList"/* name */
-	, (methodPointerType)&LayoutRebuilder_StripDisabledBehavioursFromList_m5842/* method */
+	, (methodPointerType)&LayoutRebuilder_StripDisabledBehavioursFromList_m5846/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, LayoutRebuilder_t1022_LayoutRebuilder_StripDisabledBehavioursFromList_m5842_ParameterInfos/* parameters */
+	, LayoutRebuilder_t1022_LayoutRebuilder_StripDisabledBehavioursFromList_m5846_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -18176,21 +18176,21 @@ extern const MethodInfo LayoutRebuilder_StripDisabledBehavioursFromList_m5842_Me
 extern const Il2CppType RectTransform_t545_0_0_0;
 extern const Il2CppType UnityAction_1_t1020_0_0_0;
 extern const Il2CppType UnityAction_1_t1020_0_0_0;
-static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_PerformLayoutControl_m5843_ParameterInfos[] = 
+static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_PerformLayoutControl_m5847_ParameterInfos[] = 
 {
 	{"rect", 0, 134218382, 0, &RectTransform_t545_0_0_0},
 	{"action", 1, 134218383, 0, &UnityAction_1_t1020_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutRebuilder::PerformLayoutControl(UnityEngine.RectTransform,UnityEngine.Events.UnityAction`1<UnityEngine.Component>)
-extern const MethodInfo LayoutRebuilder_PerformLayoutControl_m5843_MethodInfo = 
+extern const MethodInfo LayoutRebuilder_PerformLayoutControl_m5847_MethodInfo = 
 {
 	"PerformLayoutControl"/* name */
-	, (methodPointerType)&LayoutRebuilder_PerformLayoutControl_m5843/* method */
+	, (methodPointerType)&LayoutRebuilder_PerformLayoutControl_m5847/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, LayoutRebuilder_t1022_LayoutRebuilder_PerformLayoutControl_m5843_ParameterInfos/* parameters */
+	, LayoutRebuilder_t1022_LayoutRebuilder_PerformLayoutControl_m5847_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -18206,21 +18206,21 @@ extern const MethodInfo LayoutRebuilder_PerformLayoutControl_m5843_MethodInfo =
 };
 extern const Il2CppType RectTransform_t545_0_0_0;
 extern const Il2CppType UnityAction_1_t1020_0_0_0;
-static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_PerformLayoutCalculation_m5844_ParameterInfos[] = 
+static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_PerformLayoutCalculation_m5848_ParameterInfos[] = 
 {
 	{"rect", 0, 134218384, 0, &RectTransform_t545_0_0_0},
 	{"action", 1, 134218385, 0, &UnityAction_1_t1020_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutRebuilder::PerformLayoutCalculation(UnityEngine.RectTransform,UnityEngine.Events.UnityAction`1<UnityEngine.Component>)
-extern const MethodInfo LayoutRebuilder_PerformLayoutCalculation_m5844_MethodInfo = 
+extern const MethodInfo LayoutRebuilder_PerformLayoutCalculation_m5848_MethodInfo = 
 {
 	"PerformLayoutCalculation"/* name */
-	, (methodPointerType)&LayoutRebuilder_PerformLayoutCalculation_m5844/* method */
+	, (methodPointerType)&LayoutRebuilder_PerformLayoutCalculation_m5848/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, LayoutRebuilder_t1022_LayoutRebuilder_PerformLayoutCalculation_m5844_ParameterInfos/* parameters */
+	, LayoutRebuilder_t1022_LayoutRebuilder_PerformLayoutCalculation_m5848_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -18235,20 +18235,20 @@ extern const MethodInfo LayoutRebuilder_PerformLayoutCalculation_m5844_MethodInf
 
 };
 extern const Il2CppType RectTransform_t545_0_0_0;
-static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_MarkLayoutForRebuild_m5845_ParameterInfos[] = 
+static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_MarkLayoutForRebuild_m5849_ParameterInfos[] = 
 {
 	{"rect", 0, 134218386, 0, &RectTransform_t545_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutRebuilder::MarkLayoutForRebuild(UnityEngine.RectTransform)
-extern const MethodInfo LayoutRebuilder_MarkLayoutForRebuild_m5845_MethodInfo = 
+extern const MethodInfo LayoutRebuilder_MarkLayoutForRebuild_m5849_MethodInfo = 
 {
 	"MarkLayoutForRebuild"/* name */
-	, (methodPointerType)&LayoutRebuilder_MarkLayoutForRebuild_m5845/* method */
+	, (methodPointerType)&LayoutRebuilder_MarkLayoutForRebuild_m5849/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, LayoutRebuilder_t1022_LayoutRebuilder_MarkLayoutForRebuild_m5845_ParameterInfos/* parameters */
+	, LayoutRebuilder_t1022_LayoutRebuilder_MarkLayoutForRebuild_m5849_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -18263,20 +18263,20 @@ extern const MethodInfo LayoutRebuilder_MarkLayoutForRebuild_m5845_MethodInfo =
 
 };
 extern const Il2CppType RectTransform_t545_0_0_0;
-static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_ValidLayoutGroup_m5846_ParameterInfos[] = 
+static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_ValidLayoutGroup_m5850_ParameterInfos[] = 
 {
 	{"parent", 0, 134218387, 0, &RectTransform_t545_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.LayoutRebuilder::ValidLayoutGroup(UnityEngine.RectTransform)
-extern const MethodInfo LayoutRebuilder_ValidLayoutGroup_m5846_MethodInfo = 
+extern const MethodInfo LayoutRebuilder_ValidLayoutGroup_m5850_MethodInfo = 
 {
 	"ValidLayoutGroup"/* name */
-	, (methodPointerType)&LayoutRebuilder_ValidLayoutGroup_m5846/* method */
+	, (methodPointerType)&LayoutRebuilder_ValidLayoutGroup_m5850/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, LayoutRebuilder_t1022_LayoutRebuilder_ValidLayoutGroup_m5846_ParameterInfos/* parameters */
+	, LayoutRebuilder_t1022_LayoutRebuilder_ValidLayoutGroup_m5850_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -18291,20 +18291,20 @@ extern const MethodInfo LayoutRebuilder_ValidLayoutGroup_m5846_MethodInfo =
 
 };
 extern const Il2CppType RectTransform_t545_0_0_0;
-static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_ValidController_m5847_ParameterInfos[] = 
+static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_ValidController_m5851_ParameterInfos[] = 
 {
 	{"layoutRoot", 0, 134218388, 0, &RectTransform_t545_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.LayoutRebuilder::ValidController(UnityEngine.RectTransform)
-extern const MethodInfo LayoutRebuilder_ValidController_m5847_MethodInfo = 
+extern const MethodInfo LayoutRebuilder_ValidController_m5851_MethodInfo = 
 {
 	"ValidController"/* name */
-	, (methodPointerType)&LayoutRebuilder_ValidController_m5847/* method */
+	, (methodPointerType)&LayoutRebuilder_ValidController_m5851/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, LayoutRebuilder_t1022_LayoutRebuilder_ValidController_m5847_ParameterInfos/* parameters */
+	, LayoutRebuilder_t1022_LayoutRebuilder_ValidController_m5851_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -18319,20 +18319,20 @@ extern const MethodInfo LayoutRebuilder_ValidController_m5847_MethodInfo =
 
 };
 extern const Il2CppType RectTransform_t545_0_0_0;
-static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_MarkLayoutRootForRebuild_m5848_ParameterInfos[] = 
+static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_MarkLayoutRootForRebuild_m5852_ParameterInfos[] = 
 {
 	{"controller", 0, 134218389, 0, &RectTransform_t545_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutRebuilder::MarkLayoutRootForRebuild(UnityEngine.RectTransform)
-extern const MethodInfo LayoutRebuilder_MarkLayoutRootForRebuild_m5848_MethodInfo = 
+extern const MethodInfo LayoutRebuilder_MarkLayoutRootForRebuild_m5852_MethodInfo = 
 {
 	"MarkLayoutRootForRebuild"/* name */
-	, (methodPointerType)&LayoutRebuilder_MarkLayoutRootForRebuild_m5848/* method */
+	, (methodPointerType)&LayoutRebuilder_MarkLayoutRootForRebuild_m5852/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, LayoutRebuilder_t1022_LayoutRebuilder_MarkLayoutRootForRebuild_m5848_ParameterInfos/* parameters */
+	, LayoutRebuilder_t1022_LayoutRebuilder_MarkLayoutRootForRebuild_m5852_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -18348,20 +18348,20 @@ extern const MethodInfo LayoutRebuilder_MarkLayoutRootForRebuild_m5848_MethodInf
 };
 extern const Il2CppType LayoutRebuilder_t1022_0_0_0;
 extern const Il2CppType LayoutRebuilder_t1022_0_0_0;
-static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_Equals_m5849_ParameterInfos[] = 
+static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_Equals_m5853_ParameterInfos[] = 
 {
 	{"other", 0, 134218390, 0, &LayoutRebuilder_t1022_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_LayoutRebuilder_t1022 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.LayoutRebuilder::Equals(UnityEngine.UI.LayoutRebuilder)
-extern const MethodInfo LayoutRebuilder_Equals_m5849_MethodInfo = 
+extern const MethodInfo LayoutRebuilder_Equals_m5853_MethodInfo = 
 {
 	"Equals"/* name */
-	, (methodPointerType)&LayoutRebuilder_Equals_m5849/* method */
+	, (methodPointerType)&LayoutRebuilder_Equals_m5853/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_LayoutRebuilder_t1022/* invoker_method */
-	, LayoutRebuilder_t1022_LayoutRebuilder_Equals_m5849_ParameterInfos/* parameters */
+	, LayoutRebuilder_t1022_LayoutRebuilder_Equals_m5853_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -18377,10 +18377,10 @@ extern const MethodInfo LayoutRebuilder_Equals_m5849_MethodInfo =
 };
 extern void* RuntimeInvoker_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Int32 UnityEngine.UI.LayoutRebuilder::GetHashCode()
-extern const MethodInfo LayoutRebuilder_GetHashCode_m5850_MethodInfo = 
+extern const MethodInfo LayoutRebuilder_GetHashCode_m5854_MethodInfo = 
 {
 	"GetHashCode"/* name */
-	, (methodPointerType)&LayoutRebuilder_GetHashCode_m5850/* method */
+	, (methodPointerType)&LayoutRebuilder_GetHashCode_m5854/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
@@ -18400,10 +18400,10 @@ extern const MethodInfo LayoutRebuilder_GetHashCode_m5850_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String UnityEngine.UI.LayoutRebuilder::ToString()
-extern const MethodInfo LayoutRebuilder_ToString_m5851_MethodInfo = 
+extern const MethodInfo LayoutRebuilder_ToString_m5855_MethodInfo = 
 {
 	"ToString"/* name */
-	, (methodPointerType)&LayoutRebuilder_ToString_m5851/* method */
+	, (methodPointerType)&LayoutRebuilder_ToString_m5855/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -18423,20 +18423,20 @@ extern const MethodInfo LayoutRebuilder_ToString_m5851_MethodInfo =
 };
 extern const Il2CppType Component_t775_0_0_0;
 extern const Il2CppType Component_t775_0_0_0;
-static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_U3CRebuildU3Em__9_m5852_ParameterInfos[] = 
+static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_U3CRebuildU3Em__9_m5856_ParameterInfos[] = 
 {
 	{"e", 0, 134218391, 0, &Component_t775_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutRebuilder::<Rebuild>m__9(UnityEngine.Component)
-extern const MethodInfo LayoutRebuilder_U3CRebuildU3Em__9_m5852_MethodInfo = 
+extern const MethodInfo LayoutRebuilder_U3CRebuildU3Em__9_m5856_MethodInfo = 
 {
 	"<Rebuild>m__9"/* name */
-	, (methodPointerType)&LayoutRebuilder_U3CRebuildU3Em__9_m5852/* method */
+	, (methodPointerType)&LayoutRebuilder_U3CRebuildU3Em__9_m5856/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, LayoutRebuilder_t1022_LayoutRebuilder_U3CRebuildU3Em__9_m5852_ParameterInfos/* parameters */
+	, LayoutRebuilder_t1022_LayoutRebuilder_U3CRebuildU3Em__9_m5856_ParameterInfos/* parameters */
 	, 311/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -18451,20 +18451,20 @@ extern const MethodInfo LayoutRebuilder_U3CRebuildU3Em__9_m5852_MethodInfo =
 
 };
 extern const Il2CppType Component_t775_0_0_0;
-static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_U3CRebuildU3Em__A_m5853_ParameterInfos[] = 
+static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_U3CRebuildU3Em__A_m5857_ParameterInfos[] = 
 {
 	{"e", 0, 134218392, 0, &Component_t775_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutRebuilder::<Rebuild>m__A(UnityEngine.Component)
-extern const MethodInfo LayoutRebuilder_U3CRebuildU3Em__A_m5853_MethodInfo = 
+extern const MethodInfo LayoutRebuilder_U3CRebuildU3Em__A_m5857_MethodInfo = 
 {
 	"<Rebuild>m__A"/* name */
-	, (methodPointerType)&LayoutRebuilder_U3CRebuildU3Em__A_m5853/* method */
+	, (methodPointerType)&LayoutRebuilder_U3CRebuildU3Em__A_m5857/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, LayoutRebuilder_t1022_LayoutRebuilder_U3CRebuildU3Em__A_m5853_ParameterInfos/* parameters */
+	, LayoutRebuilder_t1022_LayoutRebuilder_U3CRebuildU3Em__A_m5857_ParameterInfos/* parameters */
 	, 312/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -18479,20 +18479,20 @@ extern const MethodInfo LayoutRebuilder_U3CRebuildU3Em__A_m5853_MethodInfo =
 
 };
 extern const Il2CppType Component_t775_0_0_0;
-static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_U3CRebuildU3Em__B_m5854_ParameterInfos[] = 
+static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_U3CRebuildU3Em__B_m5858_ParameterInfos[] = 
 {
 	{"e", 0, 134218393, 0, &Component_t775_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutRebuilder::<Rebuild>m__B(UnityEngine.Component)
-extern const MethodInfo LayoutRebuilder_U3CRebuildU3Em__B_m5854_MethodInfo = 
+extern const MethodInfo LayoutRebuilder_U3CRebuildU3Em__B_m5858_MethodInfo = 
 {
 	"<Rebuild>m__B"/* name */
-	, (methodPointerType)&LayoutRebuilder_U3CRebuildU3Em__B_m5854/* method */
+	, (methodPointerType)&LayoutRebuilder_U3CRebuildU3Em__B_m5858/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, LayoutRebuilder_t1022_LayoutRebuilder_U3CRebuildU3Em__B_m5854_ParameterInfos/* parameters */
+	, LayoutRebuilder_t1022_LayoutRebuilder_U3CRebuildU3Em__B_m5858_ParameterInfos/* parameters */
 	, 313/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -18507,20 +18507,20 @@ extern const MethodInfo LayoutRebuilder_U3CRebuildU3Em__B_m5854_MethodInfo =
 
 };
 extern const Il2CppType Component_t775_0_0_0;
-static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_U3CRebuildU3Em__C_m5855_ParameterInfos[] = 
+static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_U3CRebuildU3Em__C_m5859_ParameterInfos[] = 
 {
 	{"e", 0, 134218394, 0, &Component_t775_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.LayoutRebuilder::<Rebuild>m__C(UnityEngine.Component)
-extern const MethodInfo LayoutRebuilder_U3CRebuildU3Em__C_m5855_MethodInfo = 
+extern const MethodInfo LayoutRebuilder_U3CRebuildU3Em__C_m5859_MethodInfo = 
 {
 	"<Rebuild>m__C"/* name */
-	, (methodPointerType)&LayoutRebuilder_U3CRebuildU3Em__C_m5855/* method */
+	, (methodPointerType)&LayoutRebuilder_U3CRebuildU3Em__C_m5859/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, LayoutRebuilder_t1022_LayoutRebuilder_U3CRebuildU3Em__C_m5855_ParameterInfos/* parameters */
+	, LayoutRebuilder_t1022_LayoutRebuilder_U3CRebuildU3Em__C_m5859_ParameterInfos/* parameters */
 	, 314/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -18535,20 +18535,20 @@ extern const MethodInfo LayoutRebuilder_U3CRebuildU3Em__C_m5855_MethodInfo =
 
 };
 extern const Il2CppType Component_t775_0_0_0;
-static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_U3CStripDisabledBehavioursFromListU3Em__D_m5856_ParameterInfos[] = 
+static const ParameterInfo LayoutRebuilder_t1022_LayoutRebuilder_U3CStripDisabledBehavioursFromListU3Em__D_m5860_ParameterInfos[] = 
 {
 	{"e", 0, 134218395, 0, &Component_t775_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.LayoutRebuilder::<StripDisabledBehavioursFromList>m__D(UnityEngine.Component)
-extern const MethodInfo LayoutRebuilder_U3CStripDisabledBehavioursFromListU3Em__D_m5856_MethodInfo = 
+extern const MethodInfo LayoutRebuilder_U3CStripDisabledBehavioursFromListU3Em__D_m5860_MethodInfo = 
 {
 	"<StripDisabledBehavioursFromList>m__D"/* name */
-	, (methodPointerType)&LayoutRebuilder_U3CStripDisabledBehavioursFromListU3Em__D_m5856/* method */
+	, (methodPointerType)&LayoutRebuilder_U3CStripDisabledBehavioursFromListU3Em__D_m5860/* method */
 	, &LayoutRebuilder_t1022_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, LayoutRebuilder_t1022_LayoutRebuilder_U3CStripDisabledBehavioursFromListU3Em__D_m5856_ParameterInfos/* parameters */
+	, LayoutRebuilder_t1022_LayoutRebuilder_U3CStripDisabledBehavioursFromListU3Em__D_m5860_ParameterInfos/* parameters */
 	, 315/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -18564,35 +18564,35 @@ extern const MethodInfo LayoutRebuilder_U3CStripDisabledBehavioursFromListU3Em__
 };
 static const MethodInfo* LayoutRebuilder_t1022_MethodInfos[] =
 {
-	&LayoutRebuilder__ctor_m5836_MethodInfo,
-	&LayoutRebuilder__cctor_m5837_MethodInfo,
-	&LayoutRebuilder_UnityEngine_UI_ICanvasElement_Rebuild_m5838_MethodInfo,
-	&LayoutRebuilder_ReapplyDrivenProperties_m5839_MethodInfo,
-	&LayoutRebuilder_get_transform_m5840_MethodInfo,
-	&LayoutRebuilder_IsDestroyed_m5841_MethodInfo,
-	&LayoutRebuilder_StripDisabledBehavioursFromList_m5842_MethodInfo,
-	&LayoutRebuilder_PerformLayoutControl_m5843_MethodInfo,
-	&LayoutRebuilder_PerformLayoutCalculation_m5844_MethodInfo,
-	&LayoutRebuilder_MarkLayoutForRebuild_m5845_MethodInfo,
-	&LayoutRebuilder_ValidLayoutGroup_m5846_MethodInfo,
-	&LayoutRebuilder_ValidController_m5847_MethodInfo,
-	&LayoutRebuilder_MarkLayoutRootForRebuild_m5848_MethodInfo,
-	&LayoutRebuilder_Equals_m5849_MethodInfo,
-	&LayoutRebuilder_GetHashCode_m5850_MethodInfo,
-	&LayoutRebuilder_ToString_m5851_MethodInfo,
-	&LayoutRebuilder_U3CRebuildU3Em__9_m5852_MethodInfo,
-	&LayoutRebuilder_U3CRebuildU3Em__A_m5853_MethodInfo,
-	&LayoutRebuilder_U3CRebuildU3Em__B_m5854_MethodInfo,
-	&LayoutRebuilder_U3CRebuildU3Em__C_m5855_MethodInfo,
-	&LayoutRebuilder_U3CStripDisabledBehavioursFromListU3Em__D_m5856_MethodInfo,
+	&LayoutRebuilder__ctor_m5840_MethodInfo,
+	&LayoutRebuilder__cctor_m5841_MethodInfo,
+	&LayoutRebuilder_UnityEngine_UI_ICanvasElement_Rebuild_m5842_MethodInfo,
+	&LayoutRebuilder_ReapplyDrivenProperties_m5843_MethodInfo,
+	&LayoutRebuilder_get_transform_m5844_MethodInfo,
+	&LayoutRebuilder_IsDestroyed_m5845_MethodInfo,
+	&LayoutRebuilder_StripDisabledBehavioursFromList_m5846_MethodInfo,
+	&LayoutRebuilder_PerformLayoutControl_m5847_MethodInfo,
+	&LayoutRebuilder_PerformLayoutCalculation_m5848_MethodInfo,
+	&LayoutRebuilder_MarkLayoutForRebuild_m5849_MethodInfo,
+	&LayoutRebuilder_ValidLayoutGroup_m5850_MethodInfo,
+	&LayoutRebuilder_ValidController_m5851_MethodInfo,
+	&LayoutRebuilder_MarkLayoutRootForRebuild_m5852_MethodInfo,
+	&LayoutRebuilder_Equals_m5853_MethodInfo,
+	&LayoutRebuilder_GetHashCode_m5854_MethodInfo,
+	&LayoutRebuilder_ToString_m5855_MethodInfo,
+	&LayoutRebuilder_U3CRebuildU3Em__9_m5856_MethodInfo,
+	&LayoutRebuilder_U3CRebuildU3Em__A_m5857_MethodInfo,
+	&LayoutRebuilder_U3CRebuildU3Em__B_m5858_MethodInfo,
+	&LayoutRebuilder_U3CRebuildU3Em__C_m5859_MethodInfo,
+	&LayoutRebuilder_U3CStripDisabledBehavioursFromListU3Em__D_m5860_MethodInfo,
 	NULL
 };
-extern const MethodInfo LayoutRebuilder_get_transform_m5840_MethodInfo;
+extern const MethodInfo LayoutRebuilder_get_transform_m5844_MethodInfo;
 static const PropertyInfo LayoutRebuilder_t1022____transform_PropertyInfo = 
 {
 	&LayoutRebuilder_t1022_il2cpp_TypeInfo/* parent */
 	, "transform"/* name */
-	, &LayoutRebuilder_get_transform_m5840_MethodInfo/* get */
+	, &LayoutRebuilder_get_transform_m5844_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -18603,21 +18603,21 @@ static const PropertyInfo* LayoutRebuilder_t1022_PropertyInfos[] =
 	&LayoutRebuilder_t1022____transform_PropertyInfo,
 	NULL
 };
-extern const MethodInfo LayoutRebuilder_GetHashCode_m5850_MethodInfo;
-extern const MethodInfo LayoutRebuilder_ToString_m5851_MethodInfo;
-extern const MethodInfo LayoutRebuilder_UnityEngine_UI_ICanvasElement_Rebuild_m5838_MethodInfo;
-extern const MethodInfo LayoutRebuilder_IsDestroyed_m5841_MethodInfo;
-extern const MethodInfo LayoutRebuilder_Equals_m5849_MethodInfo;
+extern const MethodInfo LayoutRebuilder_GetHashCode_m5854_MethodInfo;
+extern const MethodInfo LayoutRebuilder_ToString_m5855_MethodInfo;
+extern const MethodInfo LayoutRebuilder_UnityEngine_UI_ICanvasElement_Rebuild_m5842_MethodInfo;
+extern const MethodInfo LayoutRebuilder_IsDestroyed_m5845_MethodInfo;
+extern const MethodInfo LayoutRebuilder_Equals_m5853_MethodInfo;
 static const Il2CppMethodReference LayoutRebuilder_t1022_VTable[] =
 {
-	&ValueType_Equals_m4724_MethodInfo,
+	&ValueType_Equals_m4728_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&LayoutRebuilder_GetHashCode_m5850_MethodInfo,
-	&LayoutRebuilder_ToString_m5851_MethodInfo,
-	&LayoutRebuilder_UnityEngine_UI_ICanvasElement_Rebuild_m5838_MethodInfo,
-	&LayoutRebuilder_get_transform_m5840_MethodInfo,
-	&LayoutRebuilder_IsDestroyed_m5841_MethodInfo,
-	&LayoutRebuilder_Equals_m5849_MethodInfo,
+	&LayoutRebuilder_GetHashCode_m5854_MethodInfo,
+	&LayoutRebuilder_ToString_m5855_MethodInfo,
+	&LayoutRebuilder_UnityEngine_UI_ICanvasElement_Rebuild_m5842_MethodInfo,
+	&LayoutRebuilder_get_transform_m5844_MethodInfo,
+	&LayoutRebuilder_IsDestroyed_m5845_MethodInfo,
+	&LayoutRebuilder_Equals_m5853_MethodInfo,
 };
 static bool LayoutRebuilder_t1022_VTableIsGenericMethod[] =
 {
@@ -18718,21 +18718,21 @@ extern TypeInfo LayoutUtility_t1024_il2cpp_TypeInfo;
 #include "UnityEngine_UI_UnityEngine_UI_LayoutUtilityMethodDeclarations.h"
 extern const Il2CppType RectTransform_t545_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetMinSize_m5857_ParameterInfos[] = 
+static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetMinSize_m5861_ParameterInfos[] = 
 {
 	{"rect", 0, 134218396, 0, &RectTransform_t545_0_0_0},
 	{"axis", 1, 134218397, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutUtility::GetMinSize(UnityEngine.RectTransform,System.Int32)
-extern const MethodInfo LayoutUtility_GetMinSize_m5857_MethodInfo = 
+extern const MethodInfo LayoutUtility_GetMinSize_m5861_MethodInfo = 
 {
 	"GetMinSize"/* name */
-	, (methodPointerType)&LayoutUtility_GetMinSize_m5857/* method */
+	, (methodPointerType)&LayoutUtility_GetMinSize_m5861/* method */
 	, &LayoutUtility_t1024_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t_Int32_t82/* invoker_method */
-	, LayoutUtility_t1024_LayoutUtility_GetMinSize_m5857_ParameterInfos/* parameters */
+	, LayoutUtility_t1024_LayoutUtility_GetMinSize_m5861_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -18748,21 +18748,21 @@ extern const MethodInfo LayoutUtility_GetMinSize_m5857_MethodInfo =
 };
 extern const Il2CppType RectTransform_t545_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetPreferredSize_m5858_ParameterInfos[] = 
+static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetPreferredSize_m5862_ParameterInfos[] = 
 {
 	{"rect", 0, 134218398, 0, &RectTransform_t545_0_0_0},
 	{"axis", 1, 134218399, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutUtility::GetPreferredSize(UnityEngine.RectTransform,System.Int32)
-extern const MethodInfo LayoutUtility_GetPreferredSize_m5858_MethodInfo = 
+extern const MethodInfo LayoutUtility_GetPreferredSize_m5862_MethodInfo = 
 {
 	"GetPreferredSize"/* name */
-	, (methodPointerType)&LayoutUtility_GetPreferredSize_m5858/* method */
+	, (methodPointerType)&LayoutUtility_GetPreferredSize_m5862/* method */
 	, &LayoutUtility_t1024_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t_Int32_t82/* invoker_method */
-	, LayoutUtility_t1024_LayoutUtility_GetPreferredSize_m5858_ParameterInfos/* parameters */
+	, LayoutUtility_t1024_LayoutUtility_GetPreferredSize_m5862_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -18778,21 +18778,21 @@ extern const MethodInfo LayoutUtility_GetPreferredSize_m5858_MethodInfo =
 };
 extern const Il2CppType RectTransform_t545_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetFlexibleSize_m5859_ParameterInfos[] = 
+static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetFlexibleSize_m5863_ParameterInfos[] = 
 {
 	{"rect", 0, 134218400, 0, &RectTransform_t545_0_0_0},
 	{"axis", 1, 134218401, 0, &Int32_t82_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutUtility::GetFlexibleSize(UnityEngine.RectTransform,System.Int32)
-extern const MethodInfo LayoutUtility_GetFlexibleSize_m5859_MethodInfo = 
+extern const MethodInfo LayoutUtility_GetFlexibleSize_m5863_MethodInfo = 
 {
 	"GetFlexibleSize"/* name */
-	, (methodPointerType)&LayoutUtility_GetFlexibleSize_m5859/* method */
+	, (methodPointerType)&LayoutUtility_GetFlexibleSize_m5863/* method */
 	, &LayoutUtility_t1024_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t_Int32_t82/* invoker_method */
-	, LayoutUtility_t1024_LayoutUtility_GetFlexibleSize_m5859_ParameterInfos/* parameters */
+	, LayoutUtility_t1024_LayoutUtility_GetFlexibleSize_m5863_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -18807,20 +18807,20 @@ extern const MethodInfo LayoutUtility_GetFlexibleSize_m5859_MethodInfo =
 
 };
 extern const Il2CppType RectTransform_t545_0_0_0;
-static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetMinWidth_m5860_ParameterInfos[] = 
+static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetMinWidth_m5864_ParameterInfos[] = 
 {
 	{"rect", 0, 134218402, 0, &RectTransform_t545_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutUtility::GetMinWidth(UnityEngine.RectTransform)
-extern const MethodInfo LayoutUtility_GetMinWidth_m5860_MethodInfo = 
+extern const MethodInfo LayoutUtility_GetMinWidth_m5864_MethodInfo = 
 {
 	"GetMinWidth"/* name */
-	, (methodPointerType)&LayoutUtility_GetMinWidth_m5860/* method */
+	, (methodPointerType)&LayoutUtility_GetMinWidth_m5864/* method */
 	, &LayoutUtility_t1024_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, LayoutUtility_t1024_LayoutUtility_GetMinWidth_m5860_ParameterInfos/* parameters */
+	, LayoutUtility_t1024_LayoutUtility_GetMinWidth_m5864_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -18835,20 +18835,20 @@ extern const MethodInfo LayoutUtility_GetMinWidth_m5860_MethodInfo =
 
 };
 extern const Il2CppType RectTransform_t545_0_0_0;
-static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetPreferredWidth_m5861_ParameterInfos[] = 
+static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetPreferredWidth_m5865_ParameterInfos[] = 
 {
 	{"rect", 0, 134218403, 0, &RectTransform_t545_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutUtility::GetPreferredWidth(UnityEngine.RectTransform)
-extern const MethodInfo LayoutUtility_GetPreferredWidth_m5861_MethodInfo = 
+extern const MethodInfo LayoutUtility_GetPreferredWidth_m5865_MethodInfo = 
 {
 	"GetPreferredWidth"/* name */
-	, (methodPointerType)&LayoutUtility_GetPreferredWidth_m5861/* method */
+	, (methodPointerType)&LayoutUtility_GetPreferredWidth_m5865/* method */
 	, &LayoutUtility_t1024_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, LayoutUtility_t1024_LayoutUtility_GetPreferredWidth_m5861_ParameterInfos/* parameters */
+	, LayoutUtility_t1024_LayoutUtility_GetPreferredWidth_m5865_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -18863,20 +18863,20 @@ extern const MethodInfo LayoutUtility_GetPreferredWidth_m5861_MethodInfo =
 
 };
 extern const Il2CppType RectTransform_t545_0_0_0;
-static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetFlexibleWidth_m5862_ParameterInfos[] = 
+static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetFlexibleWidth_m5866_ParameterInfos[] = 
 {
 	{"rect", 0, 134218404, 0, &RectTransform_t545_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutUtility::GetFlexibleWidth(UnityEngine.RectTransform)
-extern const MethodInfo LayoutUtility_GetFlexibleWidth_m5862_MethodInfo = 
+extern const MethodInfo LayoutUtility_GetFlexibleWidth_m5866_MethodInfo = 
 {
 	"GetFlexibleWidth"/* name */
-	, (methodPointerType)&LayoutUtility_GetFlexibleWidth_m5862/* method */
+	, (methodPointerType)&LayoutUtility_GetFlexibleWidth_m5866/* method */
 	, &LayoutUtility_t1024_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, LayoutUtility_t1024_LayoutUtility_GetFlexibleWidth_m5862_ParameterInfos/* parameters */
+	, LayoutUtility_t1024_LayoutUtility_GetFlexibleWidth_m5866_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -18891,20 +18891,20 @@ extern const MethodInfo LayoutUtility_GetFlexibleWidth_m5862_MethodInfo =
 
 };
 extern const Il2CppType RectTransform_t545_0_0_0;
-static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetMinHeight_m5863_ParameterInfos[] = 
+static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetMinHeight_m5867_ParameterInfos[] = 
 {
 	{"rect", 0, 134218405, 0, &RectTransform_t545_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutUtility::GetMinHeight(UnityEngine.RectTransform)
-extern const MethodInfo LayoutUtility_GetMinHeight_m5863_MethodInfo = 
+extern const MethodInfo LayoutUtility_GetMinHeight_m5867_MethodInfo = 
 {
 	"GetMinHeight"/* name */
-	, (methodPointerType)&LayoutUtility_GetMinHeight_m5863/* method */
+	, (methodPointerType)&LayoutUtility_GetMinHeight_m5867/* method */
 	, &LayoutUtility_t1024_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, LayoutUtility_t1024_LayoutUtility_GetMinHeight_m5863_ParameterInfos/* parameters */
+	, LayoutUtility_t1024_LayoutUtility_GetMinHeight_m5867_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -18919,20 +18919,20 @@ extern const MethodInfo LayoutUtility_GetMinHeight_m5863_MethodInfo =
 
 };
 extern const Il2CppType RectTransform_t545_0_0_0;
-static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetPreferredHeight_m5864_ParameterInfos[] = 
+static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetPreferredHeight_m5868_ParameterInfos[] = 
 {
 	{"rect", 0, 134218406, 0, &RectTransform_t545_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutUtility::GetPreferredHeight(UnityEngine.RectTransform)
-extern const MethodInfo LayoutUtility_GetPreferredHeight_m5864_MethodInfo = 
+extern const MethodInfo LayoutUtility_GetPreferredHeight_m5868_MethodInfo = 
 {
 	"GetPreferredHeight"/* name */
-	, (methodPointerType)&LayoutUtility_GetPreferredHeight_m5864/* method */
+	, (methodPointerType)&LayoutUtility_GetPreferredHeight_m5868/* method */
 	, &LayoutUtility_t1024_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, LayoutUtility_t1024_LayoutUtility_GetPreferredHeight_m5864_ParameterInfos/* parameters */
+	, LayoutUtility_t1024_LayoutUtility_GetPreferredHeight_m5868_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -18947,20 +18947,20 @@ extern const MethodInfo LayoutUtility_GetPreferredHeight_m5864_MethodInfo =
 
 };
 extern const Il2CppType RectTransform_t545_0_0_0;
-static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetFlexibleHeight_m5865_ParameterInfos[] = 
+static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetFlexibleHeight_m5869_ParameterInfos[] = 
 {
 	{"rect", 0, 134218407, 0, &RectTransform_t545_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutUtility::GetFlexibleHeight(UnityEngine.RectTransform)
-extern const MethodInfo LayoutUtility_GetFlexibleHeight_m5865_MethodInfo = 
+extern const MethodInfo LayoutUtility_GetFlexibleHeight_m5869_MethodInfo = 
 {
 	"GetFlexibleHeight"/* name */
-	, (methodPointerType)&LayoutUtility_GetFlexibleHeight_m5865/* method */
+	, (methodPointerType)&LayoutUtility_GetFlexibleHeight_m5869/* method */
 	, &LayoutUtility_t1024_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, LayoutUtility_t1024_LayoutUtility_GetFlexibleHeight_m5865_ParameterInfos/* parameters */
+	, LayoutUtility_t1024_LayoutUtility_GetFlexibleHeight_m5869_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -18978,7 +18978,7 @@ extern const Il2CppType RectTransform_t545_0_0_0;
 extern const Il2CppType Func_2_t1023_0_0_0;
 extern const Il2CppType Func_2_t1023_0_0_0;
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetLayoutProperty_m5866_ParameterInfos[] = 
+static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetLayoutProperty_m5870_ParameterInfos[] = 
 {
 	{"rect", 0, 134218408, 0, &RectTransform_t545_0_0_0},
 	{"property", 1, 134218409, 0, &Func_2_t1023_0_0_0},
@@ -18986,14 +18986,14 @@ static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetLayoutProperty_m
 };
 extern void* RuntimeInvoker_Single_t87_Object_t_Object_t_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutUtility::GetLayoutProperty(UnityEngine.RectTransform,System.Func`2<UnityEngine.UI.ILayoutElement,System.Single>,System.Single)
-extern const MethodInfo LayoutUtility_GetLayoutProperty_m5866_MethodInfo = 
+extern const MethodInfo LayoutUtility_GetLayoutProperty_m5870_MethodInfo = 
 {
 	"GetLayoutProperty"/* name */
-	, (methodPointerType)&LayoutUtility_GetLayoutProperty_m5866/* method */
+	, (methodPointerType)&LayoutUtility_GetLayoutProperty_m5870/* method */
 	, &LayoutUtility_t1024_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t_Object_t_Single_t87/* invoker_method */
-	, LayoutUtility_t1024_LayoutUtility_GetLayoutProperty_m5866_ParameterInfos/* parameters */
+	, LayoutUtility_t1024_LayoutUtility_GetLayoutProperty_m5870_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -19011,7 +19011,7 @@ extern const Il2CppType RectTransform_t545_0_0_0;
 extern const Il2CppType Func_2_t1023_0_0_0;
 extern const Il2CppType Single_t87_0_0_0;
 extern const Il2CppType ILayoutElement_t1065_1_0_2;
-static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetLayoutProperty_m5867_ParameterInfos[] = 
+static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetLayoutProperty_m5871_ParameterInfos[] = 
 {
 	{"rect", 0, 134218411, 0, &RectTransform_t545_0_0_0},
 	{"property", 1, 134218412, 0, &Func_2_t1023_0_0_0},
@@ -19020,14 +19020,14 @@ static const ParameterInfo LayoutUtility_t1024_LayoutUtility_GetLayoutProperty_m
 };
 extern void* RuntimeInvoker_Single_t87_Object_t_Object_t_Single_t87_ILayoutElementU26_t1162 (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutUtility::GetLayoutProperty(UnityEngine.RectTransform,System.Func`2<UnityEngine.UI.ILayoutElement,System.Single>,System.Single,UnityEngine.UI.ILayoutElement&)
-extern const MethodInfo LayoutUtility_GetLayoutProperty_m5867_MethodInfo = 
+extern const MethodInfo LayoutUtility_GetLayoutProperty_m5871_MethodInfo = 
 {
 	"GetLayoutProperty"/* name */
-	, (methodPointerType)&LayoutUtility_GetLayoutProperty_m5867/* method */
+	, (methodPointerType)&LayoutUtility_GetLayoutProperty_m5871/* method */
 	, &LayoutUtility_t1024_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t_Object_t_Single_t87_ILayoutElementU26_t1162/* invoker_method */
-	, LayoutUtility_t1024_LayoutUtility_GetLayoutProperty_m5867_ParameterInfos/* parameters */
+	, LayoutUtility_t1024_LayoutUtility_GetLayoutProperty_m5871_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -19042,20 +19042,20 @@ extern const MethodInfo LayoutUtility_GetLayoutProperty_m5867_MethodInfo =
 
 };
 extern const Il2CppType ILayoutElement_t1065_0_0_0;
-static const ParameterInfo LayoutUtility_t1024_LayoutUtility_U3CGetMinWidthU3Em__E_m5868_ParameterInfos[] = 
+static const ParameterInfo LayoutUtility_t1024_LayoutUtility_U3CGetMinWidthU3Em__E_m5872_ParameterInfos[] = 
 {
 	{"e", 0, 134218415, 0, &ILayoutElement_t1065_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutUtility::<GetMinWidth>m__E(UnityEngine.UI.ILayoutElement)
-extern const MethodInfo LayoutUtility_U3CGetMinWidthU3Em__E_m5868_MethodInfo = 
+extern const MethodInfo LayoutUtility_U3CGetMinWidthU3Em__E_m5872_MethodInfo = 
 {
 	"<GetMinWidth>m__E"/* name */
-	, (methodPointerType)&LayoutUtility_U3CGetMinWidthU3Em__E_m5868/* method */
+	, (methodPointerType)&LayoutUtility_U3CGetMinWidthU3Em__E_m5872/* method */
 	, &LayoutUtility_t1024_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, LayoutUtility_t1024_LayoutUtility_U3CGetMinWidthU3Em__E_m5868_ParameterInfos/* parameters */
+	, LayoutUtility_t1024_LayoutUtility_U3CGetMinWidthU3Em__E_m5872_ParameterInfos/* parameters */
 	, 324/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -19070,20 +19070,20 @@ extern const MethodInfo LayoutUtility_U3CGetMinWidthU3Em__E_m5868_MethodInfo =
 
 };
 extern const Il2CppType ILayoutElement_t1065_0_0_0;
-static const ParameterInfo LayoutUtility_t1024_LayoutUtility_U3CGetPreferredWidthU3Em__F_m5869_ParameterInfos[] = 
+static const ParameterInfo LayoutUtility_t1024_LayoutUtility_U3CGetPreferredWidthU3Em__F_m5873_ParameterInfos[] = 
 {
 	{"e", 0, 134218416, 0, &ILayoutElement_t1065_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutUtility::<GetPreferredWidth>m__F(UnityEngine.UI.ILayoutElement)
-extern const MethodInfo LayoutUtility_U3CGetPreferredWidthU3Em__F_m5869_MethodInfo = 
+extern const MethodInfo LayoutUtility_U3CGetPreferredWidthU3Em__F_m5873_MethodInfo = 
 {
 	"<GetPreferredWidth>m__F"/* name */
-	, (methodPointerType)&LayoutUtility_U3CGetPreferredWidthU3Em__F_m5869/* method */
+	, (methodPointerType)&LayoutUtility_U3CGetPreferredWidthU3Em__F_m5873/* method */
 	, &LayoutUtility_t1024_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, LayoutUtility_t1024_LayoutUtility_U3CGetPreferredWidthU3Em__F_m5869_ParameterInfos/* parameters */
+	, LayoutUtility_t1024_LayoutUtility_U3CGetPreferredWidthU3Em__F_m5873_ParameterInfos/* parameters */
 	, 325/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -19098,20 +19098,20 @@ extern const MethodInfo LayoutUtility_U3CGetPreferredWidthU3Em__F_m5869_MethodIn
 
 };
 extern const Il2CppType ILayoutElement_t1065_0_0_0;
-static const ParameterInfo LayoutUtility_t1024_LayoutUtility_U3CGetPreferredWidthU3Em__10_m5870_ParameterInfos[] = 
+static const ParameterInfo LayoutUtility_t1024_LayoutUtility_U3CGetPreferredWidthU3Em__10_m5874_ParameterInfos[] = 
 {
 	{"e", 0, 134218417, 0, &ILayoutElement_t1065_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutUtility::<GetPreferredWidth>m__10(UnityEngine.UI.ILayoutElement)
-extern const MethodInfo LayoutUtility_U3CGetPreferredWidthU3Em__10_m5870_MethodInfo = 
+extern const MethodInfo LayoutUtility_U3CGetPreferredWidthU3Em__10_m5874_MethodInfo = 
 {
 	"<GetPreferredWidth>m__10"/* name */
-	, (methodPointerType)&LayoutUtility_U3CGetPreferredWidthU3Em__10_m5870/* method */
+	, (methodPointerType)&LayoutUtility_U3CGetPreferredWidthU3Em__10_m5874/* method */
 	, &LayoutUtility_t1024_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, LayoutUtility_t1024_LayoutUtility_U3CGetPreferredWidthU3Em__10_m5870_ParameterInfos/* parameters */
+	, LayoutUtility_t1024_LayoutUtility_U3CGetPreferredWidthU3Em__10_m5874_ParameterInfos/* parameters */
 	, 326/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -19126,20 +19126,20 @@ extern const MethodInfo LayoutUtility_U3CGetPreferredWidthU3Em__10_m5870_MethodI
 
 };
 extern const Il2CppType ILayoutElement_t1065_0_0_0;
-static const ParameterInfo LayoutUtility_t1024_LayoutUtility_U3CGetFlexibleWidthU3Em__11_m5871_ParameterInfos[] = 
+static const ParameterInfo LayoutUtility_t1024_LayoutUtility_U3CGetFlexibleWidthU3Em__11_m5875_ParameterInfos[] = 
 {
 	{"e", 0, 134218418, 0, &ILayoutElement_t1065_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutUtility::<GetFlexibleWidth>m__11(UnityEngine.UI.ILayoutElement)
-extern const MethodInfo LayoutUtility_U3CGetFlexibleWidthU3Em__11_m5871_MethodInfo = 
+extern const MethodInfo LayoutUtility_U3CGetFlexibleWidthU3Em__11_m5875_MethodInfo = 
 {
 	"<GetFlexibleWidth>m__11"/* name */
-	, (methodPointerType)&LayoutUtility_U3CGetFlexibleWidthU3Em__11_m5871/* method */
+	, (methodPointerType)&LayoutUtility_U3CGetFlexibleWidthU3Em__11_m5875/* method */
 	, &LayoutUtility_t1024_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, LayoutUtility_t1024_LayoutUtility_U3CGetFlexibleWidthU3Em__11_m5871_ParameterInfos/* parameters */
+	, LayoutUtility_t1024_LayoutUtility_U3CGetFlexibleWidthU3Em__11_m5875_ParameterInfos/* parameters */
 	, 327/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -19154,20 +19154,20 @@ extern const MethodInfo LayoutUtility_U3CGetFlexibleWidthU3Em__11_m5871_MethodIn
 
 };
 extern const Il2CppType ILayoutElement_t1065_0_0_0;
-static const ParameterInfo LayoutUtility_t1024_LayoutUtility_U3CGetMinHeightU3Em__12_m5872_ParameterInfos[] = 
+static const ParameterInfo LayoutUtility_t1024_LayoutUtility_U3CGetMinHeightU3Em__12_m5876_ParameterInfos[] = 
 {
 	{"e", 0, 134218419, 0, &ILayoutElement_t1065_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutUtility::<GetMinHeight>m__12(UnityEngine.UI.ILayoutElement)
-extern const MethodInfo LayoutUtility_U3CGetMinHeightU3Em__12_m5872_MethodInfo = 
+extern const MethodInfo LayoutUtility_U3CGetMinHeightU3Em__12_m5876_MethodInfo = 
 {
 	"<GetMinHeight>m__12"/* name */
-	, (methodPointerType)&LayoutUtility_U3CGetMinHeightU3Em__12_m5872/* method */
+	, (methodPointerType)&LayoutUtility_U3CGetMinHeightU3Em__12_m5876/* method */
 	, &LayoutUtility_t1024_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, LayoutUtility_t1024_LayoutUtility_U3CGetMinHeightU3Em__12_m5872_ParameterInfos/* parameters */
+	, LayoutUtility_t1024_LayoutUtility_U3CGetMinHeightU3Em__12_m5876_ParameterInfos/* parameters */
 	, 328/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -19182,20 +19182,20 @@ extern const MethodInfo LayoutUtility_U3CGetMinHeightU3Em__12_m5872_MethodInfo =
 
 };
 extern const Il2CppType ILayoutElement_t1065_0_0_0;
-static const ParameterInfo LayoutUtility_t1024_LayoutUtility_U3CGetPreferredHeightU3Em__13_m5873_ParameterInfos[] = 
+static const ParameterInfo LayoutUtility_t1024_LayoutUtility_U3CGetPreferredHeightU3Em__13_m5877_ParameterInfos[] = 
 {
 	{"e", 0, 134218420, 0, &ILayoutElement_t1065_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutUtility::<GetPreferredHeight>m__13(UnityEngine.UI.ILayoutElement)
-extern const MethodInfo LayoutUtility_U3CGetPreferredHeightU3Em__13_m5873_MethodInfo = 
+extern const MethodInfo LayoutUtility_U3CGetPreferredHeightU3Em__13_m5877_MethodInfo = 
 {
 	"<GetPreferredHeight>m__13"/* name */
-	, (methodPointerType)&LayoutUtility_U3CGetPreferredHeightU3Em__13_m5873/* method */
+	, (methodPointerType)&LayoutUtility_U3CGetPreferredHeightU3Em__13_m5877/* method */
 	, &LayoutUtility_t1024_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, LayoutUtility_t1024_LayoutUtility_U3CGetPreferredHeightU3Em__13_m5873_ParameterInfos/* parameters */
+	, LayoutUtility_t1024_LayoutUtility_U3CGetPreferredHeightU3Em__13_m5877_ParameterInfos/* parameters */
 	, 329/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -19210,20 +19210,20 @@ extern const MethodInfo LayoutUtility_U3CGetPreferredHeightU3Em__13_m5873_Method
 
 };
 extern const Il2CppType ILayoutElement_t1065_0_0_0;
-static const ParameterInfo LayoutUtility_t1024_LayoutUtility_U3CGetPreferredHeightU3Em__14_m5874_ParameterInfos[] = 
+static const ParameterInfo LayoutUtility_t1024_LayoutUtility_U3CGetPreferredHeightU3Em__14_m5878_ParameterInfos[] = 
 {
 	{"e", 0, 134218421, 0, &ILayoutElement_t1065_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutUtility::<GetPreferredHeight>m__14(UnityEngine.UI.ILayoutElement)
-extern const MethodInfo LayoutUtility_U3CGetPreferredHeightU3Em__14_m5874_MethodInfo = 
+extern const MethodInfo LayoutUtility_U3CGetPreferredHeightU3Em__14_m5878_MethodInfo = 
 {
 	"<GetPreferredHeight>m__14"/* name */
-	, (methodPointerType)&LayoutUtility_U3CGetPreferredHeightU3Em__14_m5874/* method */
+	, (methodPointerType)&LayoutUtility_U3CGetPreferredHeightU3Em__14_m5878/* method */
 	, &LayoutUtility_t1024_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, LayoutUtility_t1024_LayoutUtility_U3CGetPreferredHeightU3Em__14_m5874_ParameterInfos/* parameters */
+	, LayoutUtility_t1024_LayoutUtility_U3CGetPreferredHeightU3Em__14_m5878_ParameterInfos/* parameters */
 	, 330/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -19238,20 +19238,20 @@ extern const MethodInfo LayoutUtility_U3CGetPreferredHeightU3Em__14_m5874_Method
 
 };
 extern const Il2CppType ILayoutElement_t1065_0_0_0;
-static const ParameterInfo LayoutUtility_t1024_LayoutUtility_U3CGetFlexibleHeightU3Em__15_m5875_ParameterInfos[] = 
+static const ParameterInfo LayoutUtility_t1024_LayoutUtility_U3CGetFlexibleHeightU3Em__15_m5879_ParameterInfos[] = 
 {
 	{"e", 0, 134218422, 0, &ILayoutElement_t1065_0_0_0},
 };
 extern void* RuntimeInvoker_Single_t87_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Single UnityEngine.UI.LayoutUtility::<GetFlexibleHeight>m__15(UnityEngine.UI.ILayoutElement)
-extern const MethodInfo LayoutUtility_U3CGetFlexibleHeightU3Em__15_m5875_MethodInfo = 
+extern const MethodInfo LayoutUtility_U3CGetFlexibleHeightU3Em__15_m5879_MethodInfo = 
 {
 	"<GetFlexibleHeight>m__15"/* name */
-	, (methodPointerType)&LayoutUtility_U3CGetFlexibleHeightU3Em__15_m5875/* method */
+	, (methodPointerType)&LayoutUtility_U3CGetFlexibleHeightU3Em__15_m5879/* method */
 	, &LayoutUtility_t1024_il2cpp_TypeInfo/* declaring_type */
 	, &Single_t87_0_0_0/* return_type */
 	, RuntimeInvoker_Single_t87_Object_t/* invoker_method */
-	, LayoutUtility_t1024_LayoutUtility_U3CGetFlexibleHeightU3Em__15_m5875_ParameterInfos/* parameters */
+	, LayoutUtility_t1024_LayoutUtility_U3CGetFlexibleHeightU3Em__15_m5879_ParameterInfos/* parameters */
 	, 331/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -19267,30 +19267,30 @@ extern const MethodInfo LayoutUtility_U3CGetFlexibleHeightU3Em__15_m5875_MethodI
 };
 static const MethodInfo* LayoutUtility_t1024_MethodInfos[] =
 {
-	&LayoutUtility_GetMinSize_m5857_MethodInfo,
-	&LayoutUtility_GetPreferredSize_m5858_MethodInfo,
-	&LayoutUtility_GetFlexibleSize_m5859_MethodInfo,
-	&LayoutUtility_GetMinWidth_m5860_MethodInfo,
-	&LayoutUtility_GetPreferredWidth_m5861_MethodInfo,
-	&LayoutUtility_GetFlexibleWidth_m5862_MethodInfo,
-	&LayoutUtility_GetMinHeight_m5863_MethodInfo,
-	&LayoutUtility_GetPreferredHeight_m5864_MethodInfo,
-	&LayoutUtility_GetFlexibleHeight_m5865_MethodInfo,
-	&LayoutUtility_GetLayoutProperty_m5866_MethodInfo,
-	&LayoutUtility_GetLayoutProperty_m5867_MethodInfo,
-	&LayoutUtility_U3CGetMinWidthU3Em__E_m5868_MethodInfo,
-	&LayoutUtility_U3CGetPreferredWidthU3Em__F_m5869_MethodInfo,
-	&LayoutUtility_U3CGetPreferredWidthU3Em__10_m5870_MethodInfo,
-	&LayoutUtility_U3CGetFlexibleWidthU3Em__11_m5871_MethodInfo,
-	&LayoutUtility_U3CGetMinHeightU3Em__12_m5872_MethodInfo,
-	&LayoutUtility_U3CGetPreferredHeightU3Em__13_m5873_MethodInfo,
-	&LayoutUtility_U3CGetPreferredHeightU3Em__14_m5874_MethodInfo,
-	&LayoutUtility_U3CGetFlexibleHeightU3Em__15_m5875_MethodInfo,
+	&LayoutUtility_GetMinSize_m5861_MethodInfo,
+	&LayoutUtility_GetPreferredSize_m5862_MethodInfo,
+	&LayoutUtility_GetFlexibleSize_m5863_MethodInfo,
+	&LayoutUtility_GetMinWidth_m5864_MethodInfo,
+	&LayoutUtility_GetPreferredWidth_m5865_MethodInfo,
+	&LayoutUtility_GetFlexibleWidth_m5866_MethodInfo,
+	&LayoutUtility_GetMinHeight_m5867_MethodInfo,
+	&LayoutUtility_GetPreferredHeight_m5868_MethodInfo,
+	&LayoutUtility_GetFlexibleHeight_m5869_MethodInfo,
+	&LayoutUtility_GetLayoutProperty_m5870_MethodInfo,
+	&LayoutUtility_GetLayoutProperty_m5871_MethodInfo,
+	&LayoutUtility_U3CGetMinWidthU3Em__E_m5872_MethodInfo,
+	&LayoutUtility_U3CGetPreferredWidthU3Em__F_m5873_MethodInfo,
+	&LayoutUtility_U3CGetPreferredWidthU3Em__10_m5874_MethodInfo,
+	&LayoutUtility_U3CGetFlexibleWidthU3Em__11_m5875_MethodInfo,
+	&LayoutUtility_U3CGetMinHeightU3Em__12_m5876_MethodInfo,
+	&LayoutUtility_U3CGetPreferredHeightU3Em__13_m5877_MethodInfo,
+	&LayoutUtility_U3CGetPreferredHeightU3Em__14_m5878_MethodInfo,
+	&LayoutUtility_U3CGetFlexibleHeightU3Em__15_m5879_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference LayoutUtility_t1024_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -19381,10 +19381,10 @@ extern TypeInfo VerticalLayoutGroup_t1025_il2cpp_TypeInfo;
 #include "UnityEngine_UI_UnityEngine_UI_VerticalLayoutGroupMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.VerticalLayoutGroup::.ctor()
-extern const MethodInfo VerticalLayoutGroup__ctor_m5876_MethodInfo = 
+extern const MethodInfo VerticalLayoutGroup__ctor_m5880_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&VerticalLayoutGroup__ctor_m5876/* method */
+	, (methodPointerType)&VerticalLayoutGroup__ctor_m5880/* method */
 	, &VerticalLayoutGroup_t1025_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -19404,10 +19404,10 @@ extern const MethodInfo VerticalLayoutGroup__ctor_m5876_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.VerticalLayoutGroup::CalculateLayoutInputHorizontal()
-extern const MethodInfo VerticalLayoutGroup_CalculateLayoutInputHorizontal_m5877_MethodInfo = 
+extern const MethodInfo VerticalLayoutGroup_CalculateLayoutInputHorizontal_m5881_MethodInfo = 
 {
 	"CalculateLayoutInputHorizontal"/* name */
-	, (methodPointerType)&VerticalLayoutGroup_CalculateLayoutInputHorizontal_m5877/* method */
+	, (methodPointerType)&VerticalLayoutGroup_CalculateLayoutInputHorizontal_m5881/* method */
 	, &VerticalLayoutGroup_t1025_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -19427,10 +19427,10 @@ extern const MethodInfo VerticalLayoutGroup_CalculateLayoutInputHorizontal_m5877
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.VerticalLayoutGroup::CalculateLayoutInputVertical()
-extern const MethodInfo VerticalLayoutGroup_CalculateLayoutInputVertical_m5878_MethodInfo = 
+extern const MethodInfo VerticalLayoutGroup_CalculateLayoutInputVertical_m5882_MethodInfo = 
 {
 	"CalculateLayoutInputVertical"/* name */
-	, (methodPointerType)&VerticalLayoutGroup_CalculateLayoutInputVertical_m5878/* method */
+	, (methodPointerType)&VerticalLayoutGroup_CalculateLayoutInputVertical_m5882/* method */
 	, &VerticalLayoutGroup_t1025_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -19450,10 +19450,10 @@ extern const MethodInfo VerticalLayoutGroup_CalculateLayoutInputVertical_m5878_M
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.VerticalLayoutGroup::SetLayoutHorizontal()
-extern const MethodInfo VerticalLayoutGroup_SetLayoutHorizontal_m5879_MethodInfo = 
+extern const MethodInfo VerticalLayoutGroup_SetLayoutHorizontal_m5883_MethodInfo = 
 {
 	"SetLayoutHorizontal"/* name */
-	, (methodPointerType)&VerticalLayoutGroup_SetLayoutHorizontal_m5879/* method */
+	, (methodPointerType)&VerticalLayoutGroup_SetLayoutHorizontal_m5883/* method */
 	, &VerticalLayoutGroup_t1025_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -19473,10 +19473,10 @@ extern const MethodInfo VerticalLayoutGroup_SetLayoutHorizontal_m5879_MethodInfo
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.VerticalLayoutGroup::SetLayoutVertical()
-extern const MethodInfo VerticalLayoutGroup_SetLayoutVertical_m5880_MethodInfo = 
+extern const MethodInfo VerticalLayoutGroup_SetLayoutVertical_m5884_MethodInfo = 
 {
 	"SetLayoutVertical"/* name */
-	, (methodPointerType)&VerticalLayoutGroup_SetLayoutVertical_m5880/* method */
+	, (methodPointerType)&VerticalLayoutGroup_SetLayoutVertical_m5884/* method */
 	, &VerticalLayoutGroup_t1025_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -19496,58 +19496,58 @@ extern const MethodInfo VerticalLayoutGroup_SetLayoutVertical_m5880_MethodInfo =
 };
 static const MethodInfo* VerticalLayoutGroup_t1025_MethodInfos[] =
 {
-	&VerticalLayoutGroup__ctor_m5876_MethodInfo,
-	&VerticalLayoutGroup_CalculateLayoutInputHorizontal_m5877_MethodInfo,
-	&VerticalLayoutGroup_CalculateLayoutInputVertical_m5878_MethodInfo,
-	&VerticalLayoutGroup_SetLayoutHorizontal_m5879_MethodInfo,
-	&VerticalLayoutGroup_SetLayoutVertical_m5880_MethodInfo,
+	&VerticalLayoutGroup__ctor_m5880_MethodInfo,
+	&VerticalLayoutGroup_CalculateLayoutInputHorizontal_m5881_MethodInfo,
+	&VerticalLayoutGroup_CalculateLayoutInputVertical_m5882_MethodInfo,
+	&VerticalLayoutGroup_SetLayoutHorizontal_m5883_MethodInfo,
+	&VerticalLayoutGroup_SetLayoutVertical_m5884_MethodInfo,
 	NULL
 };
-extern const MethodInfo VerticalLayoutGroup_CalculateLayoutInputHorizontal_m5877_MethodInfo;
-extern const MethodInfo VerticalLayoutGroup_CalculateLayoutInputVertical_m5878_MethodInfo;
-extern const MethodInfo VerticalLayoutGroup_SetLayoutHorizontal_m5879_MethodInfo;
-extern const MethodInfo VerticalLayoutGroup_SetLayoutVertical_m5880_MethodInfo;
+extern const MethodInfo VerticalLayoutGroup_CalculateLayoutInputHorizontal_m5881_MethodInfo;
+extern const MethodInfo VerticalLayoutGroup_CalculateLayoutInputVertical_m5882_MethodInfo;
+extern const MethodInfo VerticalLayoutGroup_SetLayoutHorizontal_m5883_MethodInfo;
+extern const MethodInfo VerticalLayoutGroup_SetLayoutVertical_m5884_MethodInfo;
 static const Il2CppMethodReference VerticalLayoutGroup_t1025_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
-	&UIBehaviour_Awake_m4839_MethodInfo,
-	&LayoutGroup_OnEnable_m5823_MethodInfo,
-	&UIBehaviour_Start_m4841_MethodInfo,
-	&LayoutGroup_OnDisable_m5824_MethodInfo,
-	&UIBehaviour_OnDestroy_m4843_MethodInfo,
-	&UIBehaviour_IsActive_m4844_MethodInfo,
-	&LayoutGroup_OnRectTransformDimensionsChange_m5833_MethodInfo,
-	&UIBehaviour_OnBeforeTransformParentChanged_m4846_MethodInfo,
-	&UIBehaviour_OnTransformParentChanged_m4847_MethodInfo,
-	&LayoutGroup_OnDidApplyAnimationProperties_m5825_MethodInfo,
-	&UIBehaviour_OnCanvasGroupChanged_m4849_MethodInfo,
-	&UIBehaviour_OnCanvasHierarchyChanged_m4850_MethodInfo,
-	&VerticalLayoutGroup_CalculateLayoutInputHorizontal_m5877_MethodInfo,
-	&VerticalLayoutGroup_CalculateLayoutInputVertical_m5878_MethodInfo,
-	&LayoutGroup_get_minWidth_m5816_MethodInfo,
-	&LayoutGroup_get_preferredWidth_m5817_MethodInfo,
-	&LayoutGroup_get_flexibleWidth_m5818_MethodInfo,
-	&LayoutGroup_get_minHeight_m5819_MethodInfo,
-	&LayoutGroup_get_preferredHeight_m5820_MethodInfo,
-	&LayoutGroup_get_flexibleHeight_m5821_MethodInfo,
-	&LayoutGroup_get_layoutPriority_m5822_MethodInfo,
-	&VerticalLayoutGroup_SetLayoutHorizontal_m5879_MethodInfo,
-	&VerticalLayoutGroup_SetLayoutVertical_m5880_MethodInfo,
-	&VerticalLayoutGroup_CalculateLayoutInputHorizontal_m5877_MethodInfo,
-	&VerticalLayoutGroup_CalculateLayoutInputVertical_m5878_MethodInfo,
-	&LayoutGroup_get_minWidth_m5816_MethodInfo,
-	&LayoutGroup_get_preferredWidth_m5817_MethodInfo,
-	&LayoutGroup_get_flexibleWidth_m5818_MethodInfo,
-	&LayoutGroup_get_minHeight_m5819_MethodInfo,
-	&LayoutGroup_get_preferredHeight_m5820_MethodInfo,
-	&LayoutGroup_get_flexibleHeight_m5821_MethodInfo,
-	&LayoutGroup_get_layoutPriority_m5822_MethodInfo,
-	&VerticalLayoutGroup_SetLayoutHorizontal_m5879_MethodInfo,
-	&VerticalLayoutGroup_SetLayoutVertical_m5880_MethodInfo,
-	&LayoutGroup_OnTransformChildrenChanged_m5834_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
+	&UIBehaviour_Awake_m4843_MethodInfo,
+	&LayoutGroup_OnEnable_m5827_MethodInfo,
+	&UIBehaviour_Start_m4845_MethodInfo,
+	&LayoutGroup_OnDisable_m5828_MethodInfo,
+	&UIBehaviour_OnDestroy_m4847_MethodInfo,
+	&UIBehaviour_IsActive_m4848_MethodInfo,
+	&LayoutGroup_OnRectTransformDimensionsChange_m5837_MethodInfo,
+	&UIBehaviour_OnBeforeTransformParentChanged_m4850_MethodInfo,
+	&UIBehaviour_OnTransformParentChanged_m4851_MethodInfo,
+	&LayoutGroup_OnDidApplyAnimationProperties_m5829_MethodInfo,
+	&UIBehaviour_OnCanvasGroupChanged_m4853_MethodInfo,
+	&UIBehaviour_OnCanvasHierarchyChanged_m4854_MethodInfo,
+	&VerticalLayoutGroup_CalculateLayoutInputHorizontal_m5881_MethodInfo,
+	&VerticalLayoutGroup_CalculateLayoutInputVertical_m5882_MethodInfo,
+	&LayoutGroup_get_minWidth_m5820_MethodInfo,
+	&LayoutGroup_get_preferredWidth_m5821_MethodInfo,
+	&LayoutGroup_get_flexibleWidth_m5822_MethodInfo,
+	&LayoutGroup_get_minHeight_m5823_MethodInfo,
+	&LayoutGroup_get_preferredHeight_m5824_MethodInfo,
+	&LayoutGroup_get_flexibleHeight_m5825_MethodInfo,
+	&LayoutGroup_get_layoutPriority_m5826_MethodInfo,
+	&VerticalLayoutGroup_SetLayoutHorizontal_m5883_MethodInfo,
+	&VerticalLayoutGroup_SetLayoutVertical_m5884_MethodInfo,
+	&VerticalLayoutGroup_CalculateLayoutInputHorizontal_m5881_MethodInfo,
+	&VerticalLayoutGroup_CalculateLayoutInputVertical_m5882_MethodInfo,
+	&LayoutGroup_get_minWidth_m5820_MethodInfo,
+	&LayoutGroup_get_preferredWidth_m5821_MethodInfo,
+	&LayoutGroup_get_flexibleWidth_m5822_MethodInfo,
+	&LayoutGroup_get_minHeight_m5823_MethodInfo,
+	&LayoutGroup_get_preferredHeight_m5824_MethodInfo,
+	&LayoutGroup_get_flexibleHeight_m5825_MethodInfo,
+	&LayoutGroup_get_layoutPriority_m5826_MethodInfo,
+	&VerticalLayoutGroup_SetLayoutHorizontal_m5883_MethodInfo,
+	&VerticalLayoutGroup_SetLayoutVertical_m5884_MethodInfo,
+	&LayoutGroup_OnTransformChildrenChanged_m5838_MethodInfo,
 };
 static bool VerticalLayoutGroup_t1025_VTableIsGenericMethod[] =
 {
@@ -19671,20 +19671,20 @@ TypeInfo VerticalLayoutGroup_t1025_il2cpp_TypeInfo =
 // Metadata Definition UnityEngine.UI.IMaterialModifier
 extern TypeInfo IMaterialModifier_t1079_il2cpp_TypeInfo;
 extern const Il2CppType Material_t526_0_0_0;
-static const ParameterInfo IMaterialModifier_t1079_IMaterialModifier_GetModifiedMaterial_m6443_ParameterInfos[] = 
+static const ParameterInfo IMaterialModifier_t1079_IMaterialModifier_GetModifiedMaterial_m6447_ParameterInfos[] = 
 {
 	{"baseMaterial", 0, 134218423, 0, &Material_t526_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Material UnityEngine.UI.IMaterialModifier::GetModifiedMaterial(UnityEngine.Material)
-extern const MethodInfo IMaterialModifier_GetModifiedMaterial_m6443_MethodInfo = 
+extern const MethodInfo IMaterialModifier_GetModifiedMaterial_m6447_MethodInfo = 
 {
 	"GetModifiedMaterial"/* name */
 	, NULL/* method */
 	, &IMaterialModifier_t1079_il2cpp_TypeInfo/* declaring_type */
 	, &Material_t526_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, IMaterialModifier_t1079_IMaterialModifier_GetModifiedMaterial_m6443_ParameterInfos/* parameters */
+	, IMaterialModifier_t1079_IMaterialModifier_GetModifiedMaterial_m6447_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -19700,7 +19700,7 @@ extern const MethodInfo IMaterialModifier_GetModifiedMaterial_m6443_MethodInfo =
 };
 static const MethodInfo* IMaterialModifier_t1079_MethodInfos[] =
 {
-	&IMaterialModifier_GetModifiedMaterial_m6443_MethodInfo,
+	&IMaterialModifier_GetModifiedMaterial_m6447_MethodInfo,
 	NULL
 };
 extern Il2CppImage g_UnityEngine_UI_dll_Image;
@@ -19782,10 +19782,10 @@ extern TypeInfo Mask_t1026_il2cpp_TypeInfo;
 #include "UnityEngine_UI_UnityEngine_UI_MaskMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Mask::.ctor()
-extern const MethodInfo Mask__ctor_m5881_MethodInfo = 
+extern const MethodInfo Mask__ctor_m5885_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Mask__ctor_m5881/* method */
+	, (methodPointerType)&Mask__ctor_m5885/* method */
 	, &Mask_t1026_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -19805,10 +19805,10 @@ extern const MethodInfo Mask__ctor_m5881_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Graphic UnityEngine.UI.Mask::get_graphic()
-extern const MethodInfo Mask_get_graphic_m5882_MethodInfo = 
+extern const MethodInfo Mask_get_graphic_m5886_MethodInfo = 
 {
 	"get_graphic"/* name */
-	, (methodPointerType)&Mask_get_graphic_m5882/* method */
+	, (methodPointerType)&Mask_get_graphic_m5886/* method */
 	, &Mask_t1026_il2cpp_TypeInfo/* declaring_type */
 	, &Graphic_t938_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -19828,10 +19828,10 @@ extern const MethodInfo Mask_get_graphic_m5882_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.Mask::get_showMaskGraphic()
-extern const MethodInfo Mask_get_showMaskGraphic_m5883_MethodInfo = 
+extern const MethodInfo Mask_get_showMaskGraphic_m5887_MethodInfo = 
 {
 	"get_showMaskGraphic"/* name */
-	, (methodPointerType)&Mask_get_showMaskGraphic_m5883/* method */
+	, (methodPointerType)&Mask_get_showMaskGraphic_m5887/* method */
 	, &Mask_t1026_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -19850,20 +19850,20 @@ extern const MethodInfo Mask_get_showMaskGraphic_m5883_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Mask_t1026_Mask_set_showMaskGraphic_m5884_ParameterInfos[] = 
+static const ParameterInfo Mask_t1026_Mask_set_showMaskGraphic_m5888_ParameterInfos[] = 
 {
 	{"value", 0, 134218424, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Mask::set_showMaskGraphic(System.Boolean)
-extern const MethodInfo Mask_set_showMaskGraphic_m5884_MethodInfo = 
+extern const MethodInfo Mask_set_showMaskGraphic_m5888_MethodInfo = 
 {
 	"set_showMaskGraphic"/* name */
-	, (methodPointerType)&Mask_set_showMaskGraphic_m5884/* method */
+	, (methodPointerType)&Mask_set_showMaskGraphic_m5888/* method */
 	, &Mask_t1026_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, Mask_t1026_Mask_set_showMaskGraphic_m5884_ParameterInfos/* parameters */
+	, Mask_t1026_Mask_set_showMaskGraphic_m5888_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -19879,10 +19879,10 @@ extern const MethodInfo Mask_set_showMaskGraphic_m5884_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.RectTransform UnityEngine.UI.Mask::get_rectTransform()
-extern const MethodInfo Mask_get_rectTransform_m5885_MethodInfo = 
+extern const MethodInfo Mask_get_rectTransform_m5889_MethodInfo = 
 {
 	"get_rectTransform"/* name */
-	, (methodPointerType)&Mask_get_rectTransform_m5885/* method */
+	, (methodPointerType)&Mask_get_rectTransform_m5889/* method */
 	, &Mask_t1026_il2cpp_TypeInfo/* declaring_type */
 	, &RectTransform_t545_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -19902,10 +19902,10 @@ extern const MethodInfo Mask_get_rectTransform_m5885_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.Mask::MaskEnabled()
-extern const MethodInfo Mask_MaskEnabled_m5886_MethodInfo = 
+extern const MethodInfo Mask_MaskEnabled_m5890_MethodInfo = 
 {
 	"MaskEnabled"/* name */
-	, (methodPointerType)&Mask_MaskEnabled_m5886/* method */
+	, (methodPointerType)&Mask_MaskEnabled_m5890/* method */
 	, &Mask_t1026_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -19925,10 +19925,10 @@ extern const MethodInfo Mask_MaskEnabled_m5886_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Mask::OnSiblingGraphicEnabledDisabled()
-extern const MethodInfo Mask_OnSiblingGraphicEnabledDisabled_m5887_MethodInfo = 
+extern const MethodInfo Mask_OnSiblingGraphicEnabledDisabled_m5891_MethodInfo = 
 {
 	"OnSiblingGraphicEnabledDisabled"/* name */
-	, (methodPointerType)&Mask_OnSiblingGraphicEnabledDisabled_m5887/* method */
+	, (methodPointerType)&Mask_OnSiblingGraphicEnabledDisabled_m5891/* method */
 	, &Mask_t1026_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -19948,10 +19948,10 @@ extern const MethodInfo Mask_OnSiblingGraphicEnabledDisabled_m5887_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Mask::NotifyMaskStateChanged()
-extern const MethodInfo Mask_NotifyMaskStateChanged_m5888_MethodInfo = 
+extern const MethodInfo Mask_NotifyMaskStateChanged_m5892_MethodInfo = 
 {
 	"NotifyMaskStateChanged"/* name */
-	, (methodPointerType)&Mask_NotifyMaskStateChanged_m5888/* method */
+	, (methodPointerType)&Mask_NotifyMaskStateChanged_m5892/* method */
 	, &Mask_t1026_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -19971,10 +19971,10 @@ extern const MethodInfo Mask_NotifyMaskStateChanged_m5888_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Mask::ClearCachedMaterial()
-extern const MethodInfo Mask_ClearCachedMaterial_m5889_MethodInfo = 
+extern const MethodInfo Mask_ClearCachedMaterial_m5893_MethodInfo = 
 {
 	"ClearCachedMaterial"/* name */
-	, (methodPointerType)&Mask_ClearCachedMaterial_m5889/* method */
+	, (methodPointerType)&Mask_ClearCachedMaterial_m5893/* method */
 	, &Mask_t1026_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -19994,10 +19994,10 @@ extern const MethodInfo Mask_ClearCachedMaterial_m5889_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Mask::OnEnable()
-extern const MethodInfo Mask_OnEnable_m5890_MethodInfo = 
+extern const MethodInfo Mask_OnEnable_m5894_MethodInfo = 
 {
 	"OnEnable"/* name */
-	, (methodPointerType)&Mask_OnEnable_m5890/* method */
+	, (methodPointerType)&Mask_OnEnable_m5894/* method */
 	, &Mask_t1026_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -20017,10 +20017,10 @@ extern const MethodInfo Mask_OnEnable_m5890_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Mask::OnDisable()
-extern const MethodInfo Mask_OnDisable_m5891_MethodInfo = 
+extern const MethodInfo Mask_OnDisable_m5895_MethodInfo = 
 {
 	"OnDisable"/* name */
-	, (methodPointerType)&Mask_OnDisable_m5891/* method */
+	, (methodPointerType)&Mask_OnDisable_m5895/* method */
 	, &Mask_t1026_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -20040,21 +20040,21 @@ extern const MethodInfo Mask_OnDisable_m5891_MethodInfo =
 };
 extern const Il2CppType Vector2_t110_0_0_0;
 extern const Il2CppType Camera_t548_0_0_0;
-static const ParameterInfo Mask_t1026_Mask_IsRaycastLocationValid_m5892_ParameterInfos[] = 
+static const ParameterInfo Mask_t1026_Mask_IsRaycastLocationValid_m5896_ParameterInfos[] = 
 {
 	{"sp", 0, 134218425, 0, &Vector2_t110_0_0_0},
 	{"eventCamera", 1, 134218426, 0, &Camera_t548_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Vector2_t110_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.Mask::IsRaycastLocationValid(UnityEngine.Vector2,UnityEngine.Camera)
-extern const MethodInfo Mask_IsRaycastLocationValid_m5892_MethodInfo = 
+extern const MethodInfo Mask_IsRaycastLocationValid_m5896_MethodInfo = 
 {
 	"IsRaycastLocationValid"/* name */
-	, (methodPointerType)&Mask_IsRaycastLocationValid_m5892/* method */
+	, (methodPointerType)&Mask_IsRaycastLocationValid_m5896/* method */
 	, &Mask_t1026_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Vector2_t110_Object_t/* invoker_method */
-	, Mask_t1026_Mask_IsRaycastLocationValid_m5892_ParameterInfos/* parameters */
+	, Mask_t1026_Mask_IsRaycastLocationValid_m5896_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -20069,20 +20069,20 @@ extern const MethodInfo Mask_IsRaycastLocationValid_m5892_MethodInfo =
 
 };
 extern const Il2CppType Material_t526_0_0_0;
-static const ParameterInfo Mask_t1026_Mask_GetModifiedMaterial_m5893_ParameterInfos[] = 
+static const ParameterInfo Mask_t1026_Mask_GetModifiedMaterial_m5897_ParameterInfos[] = 
 {
 	{"baseMaterial", 0, 134218427, 0, &Material_t526_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Material UnityEngine.UI.Mask::GetModifiedMaterial(UnityEngine.Material)
-extern const MethodInfo Mask_GetModifiedMaterial_m5893_MethodInfo = 
+extern const MethodInfo Mask_GetModifiedMaterial_m5897_MethodInfo = 
 {
 	"GetModifiedMaterial"/* name */
-	, (methodPointerType)&Mask_GetModifiedMaterial_m5893/* method */
+	, (methodPointerType)&Mask_GetModifiedMaterial_m5897/* method */
 	, &Mask_t1026_il2cpp_TypeInfo/* declaring_type */
 	, &Material_t526_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Mask_t1026_Mask_GetModifiedMaterial_m5893_ParameterInfos/* parameters */
+	, Mask_t1026_Mask_GetModifiedMaterial_m5897_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -20098,50 +20098,50 @@ extern const MethodInfo Mask_GetModifiedMaterial_m5893_MethodInfo =
 };
 static const MethodInfo* Mask_t1026_MethodInfos[] =
 {
-	&Mask__ctor_m5881_MethodInfo,
-	&Mask_get_graphic_m5882_MethodInfo,
-	&Mask_get_showMaskGraphic_m5883_MethodInfo,
-	&Mask_set_showMaskGraphic_m5884_MethodInfo,
-	&Mask_get_rectTransform_m5885_MethodInfo,
-	&Mask_MaskEnabled_m5886_MethodInfo,
-	&Mask_OnSiblingGraphicEnabledDisabled_m5887_MethodInfo,
-	&Mask_NotifyMaskStateChanged_m5888_MethodInfo,
-	&Mask_ClearCachedMaterial_m5889_MethodInfo,
-	&Mask_OnEnable_m5890_MethodInfo,
-	&Mask_OnDisable_m5891_MethodInfo,
-	&Mask_IsRaycastLocationValid_m5892_MethodInfo,
-	&Mask_GetModifiedMaterial_m5893_MethodInfo,
+	&Mask__ctor_m5885_MethodInfo,
+	&Mask_get_graphic_m5886_MethodInfo,
+	&Mask_get_showMaskGraphic_m5887_MethodInfo,
+	&Mask_set_showMaskGraphic_m5888_MethodInfo,
+	&Mask_get_rectTransform_m5889_MethodInfo,
+	&Mask_MaskEnabled_m5890_MethodInfo,
+	&Mask_OnSiblingGraphicEnabledDisabled_m5891_MethodInfo,
+	&Mask_NotifyMaskStateChanged_m5892_MethodInfo,
+	&Mask_ClearCachedMaterial_m5893_MethodInfo,
+	&Mask_OnEnable_m5894_MethodInfo,
+	&Mask_OnDisable_m5895_MethodInfo,
+	&Mask_IsRaycastLocationValid_m5896_MethodInfo,
+	&Mask_GetModifiedMaterial_m5897_MethodInfo,
 	NULL
 };
-extern const MethodInfo Mask_get_graphic_m5882_MethodInfo;
+extern const MethodInfo Mask_get_graphic_m5886_MethodInfo;
 static const PropertyInfo Mask_t1026____graphic_PropertyInfo = 
 {
 	&Mask_t1026_il2cpp_TypeInfo/* parent */
 	, "graphic"/* name */
-	, &Mask_get_graphic_m5882_MethodInfo/* get */
+	, &Mask_get_graphic_m5886_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Mask_get_showMaskGraphic_m5883_MethodInfo;
-extern const MethodInfo Mask_set_showMaskGraphic_m5884_MethodInfo;
+extern const MethodInfo Mask_get_showMaskGraphic_m5887_MethodInfo;
+extern const MethodInfo Mask_set_showMaskGraphic_m5888_MethodInfo;
 static const PropertyInfo Mask_t1026____showMaskGraphic_PropertyInfo = 
 {
 	&Mask_t1026_il2cpp_TypeInfo/* parent */
 	, "showMaskGraphic"/* name */
-	, &Mask_get_showMaskGraphic_m5883_MethodInfo/* get */
-	, &Mask_set_showMaskGraphic_m5884_MethodInfo/* set */
+	, &Mask_get_showMaskGraphic_m5887_MethodInfo/* get */
+	, &Mask_set_showMaskGraphic_m5888_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Mask_get_rectTransform_m5885_MethodInfo;
+extern const MethodInfo Mask_get_rectTransform_m5889_MethodInfo;
 static const PropertyInfo Mask_t1026____rectTransform_PropertyInfo = 
 {
 	&Mask_t1026_il2cpp_TypeInfo/* parent */
 	, "rectTransform"/* name */
-	, &Mask_get_rectTransform_m5885_MethodInfo/* get */
+	, &Mask_get_rectTransform_m5889_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -20154,38 +20154,38 @@ static const PropertyInfo* Mask_t1026_PropertyInfos[] =
 	&Mask_t1026____rectTransform_PropertyInfo,
 	NULL
 };
-extern const MethodInfo Mask_OnEnable_m5890_MethodInfo;
-extern const MethodInfo Mask_OnDisable_m5891_MethodInfo;
-extern const MethodInfo Mask_OnSiblingGraphicEnabledDisabled_m5887_MethodInfo;
-extern const MethodInfo Mask_MaskEnabled_m5886_MethodInfo;
-extern const MethodInfo Mask_IsRaycastLocationValid_m5892_MethodInfo;
-extern const MethodInfo Mask_GetModifiedMaterial_m5893_MethodInfo;
+extern const MethodInfo Mask_OnEnable_m5894_MethodInfo;
+extern const MethodInfo Mask_OnDisable_m5895_MethodInfo;
+extern const MethodInfo Mask_OnSiblingGraphicEnabledDisabled_m5891_MethodInfo;
+extern const MethodInfo Mask_MaskEnabled_m5890_MethodInfo;
+extern const MethodInfo Mask_IsRaycastLocationValid_m5896_MethodInfo;
+extern const MethodInfo Mask_GetModifiedMaterial_m5897_MethodInfo;
 static const Il2CppMethodReference Mask_t1026_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
-	&UIBehaviour_Awake_m4839_MethodInfo,
-	&Mask_OnEnable_m5890_MethodInfo,
-	&UIBehaviour_Start_m4841_MethodInfo,
-	&Mask_OnDisable_m5891_MethodInfo,
-	&UIBehaviour_OnDestroy_m4843_MethodInfo,
-	&UIBehaviour_IsActive_m4844_MethodInfo,
-	&UIBehaviour_OnRectTransformDimensionsChange_m4845_MethodInfo,
-	&UIBehaviour_OnBeforeTransformParentChanged_m4846_MethodInfo,
-	&UIBehaviour_OnTransformParentChanged_m4847_MethodInfo,
-	&UIBehaviour_OnDidApplyAnimationProperties_m4848_MethodInfo,
-	&UIBehaviour_OnCanvasGroupChanged_m4849_MethodInfo,
-	&UIBehaviour_OnCanvasHierarchyChanged_m4850_MethodInfo,
-	&Mask_OnSiblingGraphicEnabledDisabled_m5887_MethodInfo,
-	&Mask_MaskEnabled_m5886_MethodInfo,
-	&Mask_IsRaycastLocationValid_m5892_MethodInfo,
-	&Mask_GetModifiedMaterial_m5893_MethodInfo,
-	&Mask_MaskEnabled_m5886_MethodInfo,
-	&Mask_OnSiblingGraphicEnabledDisabled_m5887_MethodInfo,
-	&Mask_IsRaycastLocationValid_m5892_MethodInfo,
-	&Mask_GetModifiedMaterial_m5893_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
+	&UIBehaviour_Awake_m4843_MethodInfo,
+	&Mask_OnEnable_m5894_MethodInfo,
+	&UIBehaviour_Start_m4845_MethodInfo,
+	&Mask_OnDisable_m5895_MethodInfo,
+	&UIBehaviour_OnDestroy_m4847_MethodInfo,
+	&UIBehaviour_IsActive_m4848_MethodInfo,
+	&UIBehaviour_OnRectTransformDimensionsChange_m4849_MethodInfo,
+	&UIBehaviour_OnBeforeTransformParentChanged_m4850_MethodInfo,
+	&UIBehaviour_OnTransformParentChanged_m4851_MethodInfo,
+	&UIBehaviour_OnDidApplyAnimationProperties_m4852_MethodInfo,
+	&UIBehaviour_OnCanvasGroupChanged_m4853_MethodInfo,
+	&UIBehaviour_OnCanvasHierarchyChanged_m4854_MethodInfo,
+	&Mask_OnSiblingGraphicEnabledDisabled_m5891_MethodInfo,
+	&Mask_MaskEnabled_m5890_MethodInfo,
+	&Mask_IsRaycastLocationValid_m5896_MethodInfo,
+	&Mask_GetModifiedMaterial_m5897_MethodInfo,
+	&Mask_MaskEnabled_m5890_MethodInfo,
+	&Mask_OnSiblingGraphicEnabledDisabled_m5891_MethodInfo,
+	&Mask_IsRaycastLocationValid_m5896_MethodInfo,
+	&Mask_GetModifiedMaterial_m5897_MethodInfo,
 };
 static bool Mask_t1026_VTableIsGenericMethod[] =
 {
@@ -20313,7 +20313,7 @@ static const Il2CppGenericParameter* IndexedSet_1_t1136_Il2CppGenericParametersA
 };
 extern const Il2CppGenericContainer IndexedSet_1_t1136_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&IndexedSet_1_t1136_il2cpp_TypeInfo, 1, 0, IndexedSet_1_t1136_Il2CppGenericParametersArray };
 // System.Void UnityEngine.UI.Collections.IndexedSet`1::.ctor()
-extern const MethodInfo IndexedSet_1__ctor_m6444_MethodInfo = 
+extern const MethodInfo IndexedSet_1__ctor_m6448_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
@@ -20336,7 +20336,7 @@ extern const MethodInfo IndexedSet_1__ctor_m6444_MethodInfo =
 };
 extern const Il2CppType IEnumerator_t48_0_0_0;
 // System.Collections.IEnumerator UnityEngine.UI.Collections.IndexedSet`1::System.Collections.IEnumerable.GetEnumerator()
-extern const MethodInfo IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_m6445_MethodInfo = 
+extern const MethodInfo IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_m6449_MethodInfo = 
 {
 	"System.Collections.IEnumerable.GetEnumerator"/* name */
 	, NULL/* method */
@@ -20359,19 +20359,19 @@ extern const MethodInfo IndexedSet_1_System_Collections_IEnumerable_GetEnumerato
 };
 extern const Il2CppType IndexedSet_1_t1136_gp_0_0_0_0;
 extern const Il2CppType IndexedSet_1_t1136_gp_0_0_0_0;
-static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_Add_m6446_ParameterInfos[] = 
+static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_Add_m6450_ParameterInfos[] = 
 {
 	{"item", 0, 134218428, 0, &IndexedSet_1_t1136_gp_0_0_0_0},
 };
 // System.Void UnityEngine.UI.Collections.IndexedSet`1::Add(T)
-extern const MethodInfo IndexedSet_1_Add_m6446_MethodInfo = 
+extern const MethodInfo IndexedSet_1_Add_m6450_MethodInfo = 
 {
 	"Add"/* name */
 	, NULL/* method */
 	, &IndexedSet_1_t1136_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, IndexedSet_1_t1136_IndexedSet_1_Add_m6446_ParameterInfos/* parameters */
+	, IndexedSet_1_t1136_IndexedSet_1_Add_m6450_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -20386,19 +20386,19 @@ extern const MethodInfo IndexedSet_1_Add_m6446_MethodInfo =
 
 };
 extern const Il2CppType IndexedSet_1_t1136_gp_0_0_0_0;
-static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_Remove_m6447_ParameterInfos[] = 
+static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_Remove_m6451_ParameterInfos[] = 
 {
 	{"item", 0, 134218429, 0, &IndexedSet_1_t1136_gp_0_0_0_0},
 };
 // System.Boolean UnityEngine.UI.Collections.IndexedSet`1::Remove(T)
-extern const MethodInfo IndexedSet_1_Remove_m6447_MethodInfo = 
+extern const MethodInfo IndexedSet_1_Remove_m6451_MethodInfo = 
 {
 	"Remove"/* name */
 	, NULL/* method */
 	, &IndexedSet_1_t1136_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, IndexedSet_1_t1136_IndexedSet_1_Remove_m6447_ParameterInfos/* parameters */
+	, IndexedSet_1_t1136_IndexedSet_1_Remove_m6451_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -20414,7 +20414,7 @@ extern const MethodInfo IndexedSet_1_Remove_m6447_MethodInfo =
 };
 extern const Il2CppType IEnumerator_1_t1164_0_0_0;
 // System.Collections.Generic.IEnumerator`1<T> UnityEngine.UI.Collections.IndexedSet`1::GetEnumerator()
-extern const MethodInfo IndexedSet_1_GetEnumerator_m6448_MethodInfo = 
+extern const MethodInfo IndexedSet_1_GetEnumerator_m6452_MethodInfo = 
 {
 	"GetEnumerator"/* name */
 	, NULL/* method */
@@ -20436,7 +20436,7 @@ extern const MethodInfo IndexedSet_1_GetEnumerator_m6448_MethodInfo =
 
 };
 // System.Void UnityEngine.UI.Collections.IndexedSet`1::Clear()
-extern const MethodInfo IndexedSet_1_Clear_m6449_MethodInfo = 
+extern const MethodInfo IndexedSet_1_Clear_m6453_MethodInfo = 
 {
 	"Clear"/* name */
 	, NULL/* method */
@@ -20458,19 +20458,19 @@ extern const MethodInfo IndexedSet_1_Clear_m6449_MethodInfo =
 
 };
 extern const Il2CppType IndexedSet_1_t1136_gp_0_0_0_0;
-static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_Contains_m6450_ParameterInfos[] = 
+static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_Contains_m6454_ParameterInfos[] = 
 {
 	{"item", 0, 134218430, 0, &IndexedSet_1_t1136_gp_0_0_0_0},
 };
 // System.Boolean UnityEngine.UI.Collections.IndexedSet`1::Contains(T)
-extern const MethodInfo IndexedSet_1_Contains_m6450_MethodInfo = 
+extern const MethodInfo IndexedSet_1_Contains_m6454_MethodInfo = 
 {
 	"Contains"/* name */
 	, NULL/* method */
 	, &IndexedSet_1_t1136_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, IndexedSet_1_t1136_IndexedSet_1_Contains_m6450_ParameterInfos/* parameters */
+	, IndexedSet_1_t1136_IndexedSet_1_Contains_m6454_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -20487,20 +20487,20 @@ extern const MethodInfo IndexedSet_1_Contains_m6450_MethodInfo =
 extern const Il2CppType TU5BU5D_t1165_0_0_0;
 extern const Il2CppType TU5BU5D_t1165_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_CopyTo_m6451_ParameterInfos[] = 
+static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_CopyTo_m6455_ParameterInfos[] = 
 {
 	{"array", 0, 134218431, 0, &TU5BU5D_t1165_0_0_0},
 	{"arrayIndex", 1, 134218432, 0, &Int32_t82_0_0_0},
 };
 // System.Void UnityEngine.UI.Collections.IndexedSet`1::CopyTo(T[],System.Int32)
-extern const MethodInfo IndexedSet_1_CopyTo_m6451_MethodInfo = 
+extern const MethodInfo IndexedSet_1_CopyTo_m6455_MethodInfo = 
 {
 	"CopyTo"/* name */
 	, NULL/* method */
 	, &IndexedSet_1_t1136_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, IndexedSet_1_t1136_IndexedSet_1_CopyTo_m6451_ParameterInfos/* parameters */
+	, IndexedSet_1_t1136_IndexedSet_1_CopyTo_m6455_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -20515,7 +20515,7 @@ extern const MethodInfo IndexedSet_1_CopyTo_m6451_MethodInfo =
 
 };
 // System.Int32 UnityEngine.UI.Collections.IndexedSet`1::get_Count()
-extern const MethodInfo IndexedSet_1_get_Count_m6452_MethodInfo = 
+extern const MethodInfo IndexedSet_1_get_Count_m6456_MethodInfo = 
 {
 	"get_Count"/* name */
 	, NULL/* method */
@@ -20537,7 +20537,7 @@ extern const MethodInfo IndexedSet_1_get_Count_m6452_MethodInfo =
 
 };
 // System.Boolean UnityEngine.UI.Collections.IndexedSet`1::get_IsReadOnly()
-extern const MethodInfo IndexedSet_1_get_IsReadOnly_m6453_MethodInfo = 
+extern const MethodInfo IndexedSet_1_get_IsReadOnly_m6457_MethodInfo = 
 {
 	"get_IsReadOnly"/* name */
 	, NULL/* method */
@@ -20559,19 +20559,19 @@ extern const MethodInfo IndexedSet_1_get_IsReadOnly_m6453_MethodInfo =
 
 };
 extern const Il2CppType IndexedSet_1_t1136_gp_0_0_0_0;
-static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_IndexOf_m6454_ParameterInfos[] = 
+static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_IndexOf_m6458_ParameterInfos[] = 
 {
 	{"item", 0, 134218433, 0, &IndexedSet_1_t1136_gp_0_0_0_0},
 };
 // System.Int32 UnityEngine.UI.Collections.IndexedSet`1::IndexOf(T)
-extern const MethodInfo IndexedSet_1_IndexOf_m6454_MethodInfo = 
+extern const MethodInfo IndexedSet_1_IndexOf_m6458_MethodInfo = 
 {
 	"IndexOf"/* name */
 	, NULL/* method */
 	, &IndexedSet_1_t1136_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, IndexedSet_1_t1136_IndexedSet_1_IndexOf_m6454_ParameterInfos/* parameters */
+	, IndexedSet_1_t1136_IndexedSet_1_IndexOf_m6458_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -20587,20 +20587,20 @@ extern const MethodInfo IndexedSet_1_IndexOf_m6454_MethodInfo =
 };
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType IndexedSet_1_t1136_gp_0_0_0_0;
-static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_Insert_m6455_ParameterInfos[] = 
+static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_Insert_m6459_ParameterInfos[] = 
 {
 	{"index", 0, 134218434, 0, &Int32_t82_0_0_0},
 	{"item", 1, 134218435, 0, &IndexedSet_1_t1136_gp_0_0_0_0},
 };
 // System.Void UnityEngine.UI.Collections.IndexedSet`1::Insert(System.Int32,T)
-extern const MethodInfo IndexedSet_1_Insert_m6455_MethodInfo = 
+extern const MethodInfo IndexedSet_1_Insert_m6459_MethodInfo = 
 {
 	"Insert"/* name */
 	, NULL/* method */
 	, &IndexedSet_1_t1136_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, IndexedSet_1_t1136_IndexedSet_1_Insert_m6455_ParameterInfos/* parameters */
+	, IndexedSet_1_t1136_IndexedSet_1_Insert_m6459_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -20615,19 +20615,19 @@ extern const MethodInfo IndexedSet_1_Insert_m6455_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_RemoveAt_m6456_ParameterInfos[] = 
+static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_RemoveAt_m6460_ParameterInfos[] = 
 {
 	{"index", 0, 134218436, 0, &Int32_t82_0_0_0},
 };
 // System.Void UnityEngine.UI.Collections.IndexedSet`1::RemoveAt(System.Int32)
-extern const MethodInfo IndexedSet_1_RemoveAt_m6456_MethodInfo = 
+extern const MethodInfo IndexedSet_1_RemoveAt_m6460_MethodInfo = 
 {
 	"RemoveAt"/* name */
 	, NULL/* method */
 	, &IndexedSet_1_t1136_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, IndexedSet_1_t1136_IndexedSet_1_RemoveAt_m6456_ParameterInfos/* parameters */
+	, IndexedSet_1_t1136_IndexedSet_1_RemoveAt_m6460_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -20642,19 +20642,19 @@ extern const MethodInfo IndexedSet_1_RemoveAt_m6456_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_get_Item_m6457_ParameterInfos[] = 
+static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_get_Item_m6461_ParameterInfos[] = 
 {
 	{"index", 0, 134218437, 0, &Int32_t82_0_0_0},
 };
 // T UnityEngine.UI.Collections.IndexedSet`1::get_Item(System.Int32)
-extern const MethodInfo IndexedSet_1_get_Item_m6457_MethodInfo = 
+extern const MethodInfo IndexedSet_1_get_Item_m6461_MethodInfo = 
 {
 	"get_Item"/* name */
 	, NULL/* method */
 	, &IndexedSet_1_t1136_il2cpp_TypeInfo/* declaring_type */
 	, &IndexedSet_1_t1136_gp_0_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, IndexedSet_1_t1136_IndexedSet_1_get_Item_m6457_ParameterInfos/* parameters */
+	, IndexedSet_1_t1136_IndexedSet_1_get_Item_m6461_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
@@ -20670,20 +20670,20 @@ extern const MethodInfo IndexedSet_1_get_Item_m6457_MethodInfo =
 };
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType IndexedSet_1_t1136_gp_0_0_0_0;
-static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_set_Item_m6458_ParameterInfos[] = 
+static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_set_Item_m6462_ParameterInfos[] = 
 {
 	{"index", 0, 134218438, 0, &Int32_t82_0_0_0},
 	{"value", 1, 134218439, 0, &IndexedSet_1_t1136_gp_0_0_0_0},
 };
 // System.Void UnityEngine.UI.Collections.IndexedSet`1::set_Item(System.Int32,T)
-extern const MethodInfo IndexedSet_1_set_Item_m6458_MethodInfo = 
+extern const MethodInfo IndexedSet_1_set_Item_m6462_MethodInfo = 
 {
 	"set_Item"/* name */
 	, NULL/* method */
 	, &IndexedSet_1_t1136_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, IndexedSet_1_t1136_IndexedSet_1_set_Item_m6458_ParameterInfos/* parameters */
+	, IndexedSet_1_t1136_IndexedSet_1_set_Item_m6462_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
 	, 0/* iflags */
@@ -20699,19 +20699,19 @@ extern const MethodInfo IndexedSet_1_set_Item_m6458_MethodInfo =
 };
 extern const Il2CppType Predicate_1_t1166_0_0_0;
 extern const Il2CppType Predicate_1_t1166_0_0_0;
-static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_RemoveAll_m6459_ParameterInfos[] = 
+static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_RemoveAll_m6463_ParameterInfos[] = 
 {
 	{"match", 0, 134218440, 0, &Predicate_1_t1166_0_0_0},
 };
 // System.Void UnityEngine.UI.Collections.IndexedSet`1::RemoveAll(System.Predicate`1<T>)
-extern const MethodInfo IndexedSet_1_RemoveAll_m6459_MethodInfo = 
+extern const MethodInfo IndexedSet_1_RemoveAll_m6463_MethodInfo = 
 {
 	"RemoveAll"/* name */
 	, NULL/* method */
 	, &IndexedSet_1_t1136_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, IndexedSet_1_t1136_IndexedSet_1_RemoveAll_m6459_ParameterInfos/* parameters */
+	, IndexedSet_1_t1136_IndexedSet_1_RemoveAll_m6463_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -20727,19 +20727,19 @@ extern const MethodInfo IndexedSet_1_RemoveAll_m6459_MethodInfo =
 };
 extern const Il2CppType Comparison_1_t1167_0_0_0;
 extern const Il2CppType Comparison_1_t1167_0_0_0;
-static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_Sort_m6460_ParameterInfos[] = 
+static const ParameterInfo IndexedSet_1_t1136_IndexedSet_1_Sort_m6464_ParameterInfos[] = 
 {
 	{"sortLayoutFunction", 0, 134218441, 0, &Comparison_1_t1167_0_0_0},
 };
 // System.Void UnityEngine.UI.Collections.IndexedSet`1::Sort(System.Comparison`1<T>)
-extern const MethodInfo IndexedSet_1_Sort_m6460_MethodInfo = 
+extern const MethodInfo IndexedSet_1_Sort_m6464_MethodInfo = 
 {
 	"Sort"/* name */
 	, NULL/* method */
 	, &IndexedSet_1_t1136_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, IndexedSet_1_t1136_IndexedSet_1_Sort_m6460_ParameterInfos/* parameters */
+	, IndexedSet_1_t1136_IndexedSet_1_Sort_m6464_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -20755,55 +20755,55 @@ extern const MethodInfo IndexedSet_1_Sort_m6460_MethodInfo =
 };
 static const MethodInfo* IndexedSet_1_t1136_MethodInfos[] =
 {
-	&IndexedSet_1__ctor_m6444_MethodInfo,
-	&IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_m6445_MethodInfo,
-	&IndexedSet_1_Add_m6446_MethodInfo,
-	&IndexedSet_1_Remove_m6447_MethodInfo,
-	&IndexedSet_1_GetEnumerator_m6448_MethodInfo,
-	&IndexedSet_1_Clear_m6449_MethodInfo,
-	&IndexedSet_1_Contains_m6450_MethodInfo,
-	&IndexedSet_1_CopyTo_m6451_MethodInfo,
-	&IndexedSet_1_get_Count_m6452_MethodInfo,
-	&IndexedSet_1_get_IsReadOnly_m6453_MethodInfo,
-	&IndexedSet_1_IndexOf_m6454_MethodInfo,
-	&IndexedSet_1_Insert_m6455_MethodInfo,
-	&IndexedSet_1_RemoveAt_m6456_MethodInfo,
-	&IndexedSet_1_get_Item_m6457_MethodInfo,
-	&IndexedSet_1_set_Item_m6458_MethodInfo,
-	&IndexedSet_1_RemoveAll_m6459_MethodInfo,
-	&IndexedSet_1_Sort_m6460_MethodInfo,
+	&IndexedSet_1__ctor_m6448_MethodInfo,
+	&IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_m6449_MethodInfo,
+	&IndexedSet_1_Add_m6450_MethodInfo,
+	&IndexedSet_1_Remove_m6451_MethodInfo,
+	&IndexedSet_1_GetEnumerator_m6452_MethodInfo,
+	&IndexedSet_1_Clear_m6453_MethodInfo,
+	&IndexedSet_1_Contains_m6454_MethodInfo,
+	&IndexedSet_1_CopyTo_m6455_MethodInfo,
+	&IndexedSet_1_get_Count_m6456_MethodInfo,
+	&IndexedSet_1_get_IsReadOnly_m6457_MethodInfo,
+	&IndexedSet_1_IndexOf_m6458_MethodInfo,
+	&IndexedSet_1_Insert_m6459_MethodInfo,
+	&IndexedSet_1_RemoveAt_m6460_MethodInfo,
+	&IndexedSet_1_get_Item_m6461_MethodInfo,
+	&IndexedSet_1_set_Item_m6462_MethodInfo,
+	&IndexedSet_1_RemoveAll_m6463_MethodInfo,
+	&IndexedSet_1_Sort_m6464_MethodInfo,
 	NULL
 };
-extern const MethodInfo IndexedSet_1_get_Count_m6452_MethodInfo;
+extern const MethodInfo IndexedSet_1_get_Count_m6456_MethodInfo;
 static const PropertyInfo IndexedSet_1_t1136____Count_PropertyInfo = 
 {
 	&IndexedSet_1_t1136_il2cpp_TypeInfo/* parent */
 	, "Count"/* name */
-	, &IndexedSet_1_get_Count_m6452_MethodInfo/* get */
+	, &IndexedSet_1_get_Count_m6456_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IndexedSet_1_get_IsReadOnly_m6453_MethodInfo;
+extern const MethodInfo IndexedSet_1_get_IsReadOnly_m6457_MethodInfo;
 static const PropertyInfo IndexedSet_1_t1136____IsReadOnly_PropertyInfo = 
 {
 	&IndexedSet_1_t1136_il2cpp_TypeInfo/* parent */
 	, "IsReadOnly"/* name */
-	, &IndexedSet_1_get_IsReadOnly_m6453_MethodInfo/* get */
+	, &IndexedSet_1_get_IsReadOnly_m6457_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo IndexedSet_1_get_Item_m6457_MethodInfo;
-extern const MethodInfo IndexedSet_1_set_Item_m6458_MethodInfo;
+extern const MethodInfo IndexedSet_1_get_Item_m6461_MethodInfo;
+extern const MethodInfo IndexedSet_1_set_Item_m6462_MethodInfo;
 static const PropertyInfo IndexedSet_1_t1136____Item_PropertyInfo = 
 {
 	&IndexedSet_1_t1136_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
-	, &IndexedSet_1_get_Item_m6457_MethodInfo/* get */
-	, &IndexedSet_1_set_Item_m6458_MethodInfo/* set */
+	, &IndexedSet_1_get_Item_m6461_MethodInfo/* get */
+	, &IndexedSet_1_set_Item_m6462_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -20815,36 +20815,36 @@ static const PropertyInfo* IndexedSet_1_t1136_PropertyInfos[] =
 	&IndexedSet_1_t1136____Item_PropertyInfo,
 	NULL
 };
-extern const MethodInfo IndexedSet_1_IndexOf_m6454_MethodInfo;
-extern const MethodInfo IndexedSet_1_Insert_m6455_MethodInfo;
-extern const MethodInfo IndexedSet_1_RemoveAt_m6456_MethodInfo;
-extern const MethodInfo IndexedSet_1_Add_m6446_MethodInfo;
-extern const MethodInfo IndexedSet_1_Clear_m6449_MethodInfo;
-extern const MethodInfo IndexedSet_1_Contains_m6450_MethodInfo;
-extern const MethodInfo IndexedSet_1_CopyTo_m6451_MethodInfo;
-extern const MethodInfo IndexedSet_1_Remove_m6447_MethodInfo;
-extern const MethodInfo IndexedSet_1_GetEnumerator_m6448_MethodInfo;
-extern const MethodInfo IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_m6445_MethodInfo;
+extern const MethodInfo IndexedSet_1_IndexOf_m6458_MethodInfo;
+extern const MethodInfo IndexedSet_1_Insert_m6459_MethodInfo;
+extern const MethodInfo IndexedSet_1_RemoveAt_m6460_MethodInfo;
+extern const MethodInfo IndexedSet_1_Add_m6450_MethodInfo;
+extern const MethodInfo IndexedSet_1_Clear_m6453_MethodInfo;
+extern const MethodInfo IndexedSet_1_Contains_m6454_MethodInfo;
+extern const MethodInfo IndexedSet_1_CopyTo_m6455_MethodInfo;
+extern const MethodInfo IndexedSet_1_Remove_m6451_MethodInfo;
+extern const MethodInfo IndexedSet_1_GetEnumerator_m6452_MethodInfo;
+extern const MethodInfo IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_m6449_MethodInfo;
 static const Il2CppMethodReference IndexedSet_1_t1136_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
-	&IndexedSet_1_IndexOf_m6454_MethodInfo,
-	&IndexedSet_1_Insert_m6455_MethodInfo,
-	&IndexedSet_1_RemoveAt_m6456_MethodInfo,
-	&IndexedSet_1_get_Item_m6457_MethodInfo,
-	&IndexedSet_1_set_Item_m6458_MethodInfo,
-	&IndexedSet_1_get_Count_m6452_MethodInfo,
-	&IndexedSet_1_get_IsReadOnly_m6453_MethodInfo,
-	&IndexedSet_1_Add_m6446_MethodInfo,
-	&IndexedSet_1_Clear_m6449_MethodInfo,
-	&IndexedSet_1_Contains_m6450_MethodInfo,
-	&IndexedSet_1_CopyTo_m6451_MethodInfo,
-	&IndexedSet_1_Remove_m6447_MethodInfo,
-	&IndexedSet_1_GetEnumerator_m6448_MethodInfo,
-	&IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_m6445_MethodInfo,
+	&IndexedSet_1_IndexOf_m6458_MethodInfo,
+	&IndexedSet_1_Insert_m6459_MethodInfo,
+	&IndexedSet_1_RemoveAt_m6460_MethodInfo,
+	&IndexedSet_1_get_Item_m6461_MethodInfo,
+	&IndexedSet_1_set_Item_m6462_MethodInfo,
+	&IndexedSet_1_get_Count_m6456_MethodInfo,
+	&IndexedSet_1_get_IsReadOnly_m6457_MethodInfo,
+	&IndexedSet_1_Add_m6450_MethodInfo,
+	&IndexedSet_1_Clear_m6453_MethodInfo,
+	&IndexedSet_1_Contains_m6454_MethodInfo,
+	&IndexedSet_1_CopyTo_m6455_MethodInfo,
+	&IndexedSet_1_Remove_m6451_MethodInfo,
+	&IndexedSet_1_GetEnumerator_m6452_MethodInfo,
+	&IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_m6449_MethodInfo,
 };
 static bool IndexedSet_1_t1136_VTableIsGenericMethod[] =
 {
@@ -20886,51 +20886,51 @@ static Il2CppInterfaceOffsetPair IndexedSet_1_t1136_InterfacesOffsets[] =
 	{ &IEnumerable_t104_0_0_0, 17},
 };
 extern const Il2CppType List_1_t1171_0_0_0;
-extern const Il2CppGenericMethod List_1__ctor_m6495_GenericMethod;
+extern const Il2CppGenericMethod List_1__ctor_m6499_GenericMethod;
 extern const Il2CppType Dictionary_2_t1172_0_0_0;
-extern const Il2CppGenericMethod Dictionary_2__ctor_m6496_GenericMethod;
-extern const Il2CppGenericMethod IndexedSet_1_GetEnumerator_m6497_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_ContainsKey_m6498_GenericMethod;
-extern const Il2CppGenericMethod List_1_Add_m6499_GenericMethod;
-extern const Il2CppGenericMethod List_1_get_Count_m6500_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_Add_m6501_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_TryGetValue_m6502_GenericMethod;
-extern const Il2CppGenericMethod IndexedSet_1_RemoveAt_m6503_GenericMethod;
-extern const Il2CppGenericMethod List_1_Clear_m6504_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_Clear_m6505_GenericMethod;
-extern const Il2CppGenericMethod List_1_CopyTo_m6506_GenericMethod;
-extern const Il2CppGenericMethod List_1_get_Item_m6507_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_Remove_m6508_GenericMethod;
-extern const Il2CppGenericMethod List_1_RemoveAt_m6509_GenericMethod;
-extern const Il2CppGenericMethod List_1_set_Item_m6510_GenericMethod;
-extern const Il2CppGenericMethod Dictionary_2_set_Item_m6511_GenericMethod;
-extern const Il2CppGenericMethod Predicate_1_Invoke_m6512_GenericMethod;
-extern const Il2CppGenericMethod IndexedSet_1_Remove_m6513_GenericMethod;
-extern const Il2CppGenericMethod List_1_Sort_m6514_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2__ctor_m6500_GenericMethod;
+extern const Il2CppGenericMethod IndexedSet_1_GetEnumerator_m6501_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_ContainsKey_m6502_GenericMethod;
+extern const Il2CppGenericMethod List_1_Add_m6503_GenericMethod;
+extern const Il2CppGenericMethod List_1_get_Count_m6504_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_Add_m6505_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_TryGetValue_m6506_GenericMethod;
+extern const Il2CppGenericMethod IndexedSet_1_RemoveAt_m6507_GenericMethod;
+extern const Il2CppGenericMethod List_1_Clear_m6508_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_Clear_m6509_GenericMethod;
+extern const Il2CppGenericMethod List_1_CopyTo_m6510_GenericMethod;
+extern const Il2CppGenericMethod List_1_get_Item_m6511_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_Remove_m6512_GenericMethod;
+extern const Il2CppGenericMethod List_1_RemoveAt_m6513_GenericMethod;
+extern const Il2CppGenericMethod List_1_set_Item_m6514_GenericMethod;
+extern const Il2CppGenericMethod Dictionary_2_set_Item_m6515_GenericMethod;
+extern const Il2CppGenericMethod Predicate_1_Invoke_m6516_GenericMethod;
+extern const Il2CppGenericMethod IndexedSet_1_Remove_m6517_GenericMethod;
+extern const Il2CppGenericMethod List_1_Sort_m6518_GenericMethod;
 static Il2CppRGCTXDefinition IndexedSet_1_t1136_RGCTXData[23] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&List_1_t1171_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &List_1__ctor_m6495_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &List_1__ctor_m6499_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Dictionary_2_t1172_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2__ctor_m6496_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &IndexedSet_1_GetEnumerator_m6497_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_ContainsKey_m6498_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_Add_m6499_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_get_Count_m6500_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_Add_m6501_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_TryGetValue_m6502_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &IndexedSet_1_RemoveAt_m6503_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_Clear_m6504_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_Clear_m6505_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_CopyTo_m6506_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_get_Item_m6507_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_Remove_m6508_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_RemoveAt_m6509_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_set_Item_m6510_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_set_Item_m6511_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Predicate_1_Invoke_m6512_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &IndexedSet_1_Remove_m6513_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_Sort_m6514_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2__ctor_m6500_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &IndexedSet_1_GetEnumerator_m6501_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_ContainsKey_m6502_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_Add_m6503_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_get_Count_m6504_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_Add_m6505_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_TryGetValue_m6506_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &IndexedSet_1_RemoveAt_m6507_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_Clear_m6508_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_Clear_m6509_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_CopyTo_m6510_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_get_Item_m6511_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_Remove_m6512_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_RemoveAt_m6513_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_set_Item_m6514_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Dictionary_2_set_Item_m6515_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Predicate_1_Invoke_m6516_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &IndexedSet_1_Remove_m6517_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &List_1_Sort_m6518_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_UnityEngine_UI_dll_Image;
@@ -21012,10 +21012,10 @@ extern TypeInfo CanvasListPool_t1029_il2cpp_TypeInfo;
 #include "UnityEngine_UI_UnityEngine_UI_CanvasListPoolMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasListPool::.cctor()
-extern const MethodInfo CanvasListPool__cctor_m5894_MethodInfo = 
+extern const MethodInfo CanvasListPool__cctor_m5898_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&CanvasListPool__cctor_m5894/* method */
+	, (methodPointerType)&CanvasListPool__cctor_m5898/* method */
 	, &CanvasListPool_t1029_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -21036,10 +21036,10 @@ extern const MethodInfo CanvasListPool__cctor_m5894_MethodInfo =
 extern const Il2CppType List_1_t1066_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.List`1<UnityEngine.Canvas> UnityEngine.UI.CanvasListPool::Get()
-extern const MethodInfo CanvasListPool_Get_m5895_MethodInfo = 
+extern const MethodInfo CanvasListPool_Get_m5899_MethodInfo = 
 {
 	"Get"/* name */
-	, (methodPointerType)&CanvasListPool_Get_m5895/* method */
+	, (methodPointerType)&CanvasListPool_Get_m5899/* method */
 	, &CanvasListPool_t1029_il2cpp_TypeInfo/* declaring_type */
 	, &List_1_t1066_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -21058,20 +21058,20 @@ extern const MethodInfo CanvasListPool_Get_m5895_MethodInfo =
 
 };
 extern const Il2CppType List_1_t1066_0_0_0;
-static const ParameterInfo CanvasListPool_t1029_CanvasListPool_Release_m5896_ParameterInfos[] = 
+static const ParameterInfo CanvasListPool_t1029_CanvasListPool_Release_m5900_ParameterInfos[] = 
 {
 	{"toRelease", 0, 134218442, 0, &List_1_t1066_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasListPool::Release(System.Collections.Generic.List`1<UnityEngine.Canvas>)
-extern const MethodInfo CanvasListPool_Release_m5896_MethodInfo = 
+extern const MethodInfo CanvasListPool_Release_m5900_MethodInfo = 
 {
 	"Release"/* name */
-	, (methodPointerType)&CanvasListPool_Release_m5896/* method */
+	, (methodPointerType)&CanvasListPool_Release_m5900/* method */
 	, &CanvasListPool_t1029_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, CanvasListPool_t1029_CanvasListPool_Release_m5896_ParameterInfos/* parameters */
+	, CanvasListPool_t1029_CanvasListPool_Release_m5900_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -21086,20 +21086,20 @@ extern const MethodInfo CanvasListPool_Release_m5896_MethodInfo =
 
 };
 extern const Il2CppType List_1_t1066_0_0_0;
-static const ParameterInfo CanvasListPool_t1029_CanvasListPool_U3Cs_CanvasListPoolU3Em__16_m5897_ParameterInfos[] = 
+static const ParameterInfo CanvasListPool_t1029_CanvasListPool_U3Cs_CanvasListPoolU3Em__16_m5901_ParameterInfos[] = 
 {
 	{"l", 0, 134218443, 0, &List_1_t1066_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.CanvasListPool::<s_CanvasListPool>m__16(System.Collections.Generic.List`1<UnityEngine.Canvas>)
-extern const MethodInfo CanvasListPool_U3Cs_CanvasListPoolU3Em__16_m5897_MethodInfo = 
+extern const MethodInfo CanvasListPool_U3Cs_CanvasListPoolU3Em__16_m5901_MethodInfo = 
 {
 	"<s_CanvasListPool>m__16"/* name */
-	, (methodPointerType)&CanvasListPool_U3Cs_CanvasListPoolU3Em__16_m5897/* method */
+	, (methodPointerType)&CanvasListPool_U3Cs_CanvasListPoolU3Em__16_m5901/* method */
 	, &CanvasListPool_t1029_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, CanvasListPool_t1029_CanvasListPool_U3Cs_CanvasListPoolU3Em__16_m5897_ParameterInfos/* parameters */
+	, CanvasListPool_t1029_CanvasListPool_U3Cs_CanvasListPoolU3Em__16_m5901_ParameterInfos/* parameters */
 	, 337/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -21115,15 +21115,15 @@ extern const MethodInfo CanvasListPool_U3Cs_CanvasListPoolU3Em__16_m5897_MethodI
 };
 static const MethodInfo* CanvasListPool_t1029_MethodInfos[] =
 {
-	&CanvasListPool__cctor_m5894_MethodInfo,
-	&CanvasListPool_Get_m5895_MethodInfo,
-	&CanvasListPool_Release_m5896_MethodInfo,
-	&CanvasListPool_U3Cs_CanvasListPoolU3Em__16_m5897_MethodInfo,
+	&CanvasListPool__cctor_m5898_MethodInfo,
+	&CanvasListPool_Get_m5899_MethodInfo,
+	&CanvasListPool_Release_m5900_MethodInfo,
+	&CanvasListPool_U3Cs_CanvasListPoolU3Em__16_m5901_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference CanvasListPool_t1029_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -21214,10 +21214,10 @@ extern TypeInfo ComponentListPool_t1032_il2cpp_TypeInfo;
 #include "UnityEngine_UI_UnityEngine_UI_ComponentListPoolMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ComponentListPool::.cctor()
-extern const MethodInfo ComponentListPool__cctor_m5898_MethodInfo = 
+extern const MethodInfo ComponentListPool__cctor_m5902_MethodInfo = 
 {
 	".cctor"/* name */
-	, (methodPointerType)&ComponentListPool__cctor_m5898/* method */
+	, (methodPointerType)&ComponentListPool__cctor_m5902/* method */
 	, &ComponentListPool_t1032_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -21237,10 +21237,10 @@ extern const MethodInfo ComponentListPool__cctor_m5898_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.List`1<UnityEngine.Component> UnityEngine.UI.ComponentListPool::Get()
-extern const MethodInfo ComponentListPool_Get_m5899_MethodInfo = 
+extern const MethodInfo ComponentListPool_Get_m5903_MethodInfo = 
 {
 	"Get"/* name */
-	, (methodPointerType)&ComponentListPool_Get_m5899/* method */
+	, (methodPointerType)&ComponentListPool_Get_m5903/* method */
 	, &ComponentListPool_t1032_il2cpp_TypeInfo/* declaring_type */
 	, &List_1_t1064_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -21259,20 +21259,20 @@ extern const MethodInfo ComponentListPool_Get_m5899_MethodInfo =
 
 };
 extern const Il2CppType List_1_t1064_0_0_0;
-static const ParameterInfo ComponentListPool_t1032_ComponentListPool_Release_m5900_ParameterInfos[] = 
+static const ParameterInfo ComponentListPool_t1032_ComponentListPool_Release_m5904_ParameterInfos[] = 
 {
 	{"toRelease", 0, 134218444, 0, &List_1_t1064_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ComponentListPool::Release(System.Collections.Generic.List`1<UnityEngine.Component>)
-extern const MethodInfo ComponentListPool_Release_m5900_MethodInfo = 
+extern const MethodInfo ComponentListPool_Release_m5904_MethodInfo = 
 {
 	"Release"/* name */
-	, (methodPointerType)&ComponentListPool_Release_m5900/* method */
+	, (methodPointerType)&ComponentListPool_Release_m5904/* method */
 	, &ComponentListPool_t1032_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ComponentListPool_t1032_ComponentListPool_Release_m5900_ParameterInfos/* parameters */
+	, ComponentListPool_t1032_ComponentListPool_Release_m5904_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -21287,20 +21287,20 @@ extern const MethodInfo ComponentListPool_Release_m5900_MethodInfo =
 
 };
 extern const Il2CppType List_1_t1064_0_0_0;
-static const ParameterInfo ComponentListPool_t1032_ComponentListPool_U3Cs_ComponentListPoolU3Em__17_m5901_ParameterInfos[] = 
+static const ParameterInfo ComponentListPool_t1032_ComponentListPool_U3Cs_ComponentListPoolU3Em__17_m5905_ParameterInfos[] = 
 {
 	{"l", 0, 134218445, 0, &List_1_t1064_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.ComponentListPool::<s_ComponentListPool>m__17(System.Collections.Generic.List`1<UnityEngine.Component>)
-extern const MethodInfo ComponentListPool_U3Cs_ComponentListPoolU3Em__17_m5901_MethodInfo = 
+extern const MethodInfo ComponentListPool_U3Cs_ComponentListPoolU3Em__17_m5905_MethodInfo = 
 {
 	"<s_ComponentListPool>m__17"/* name */
-	, (methodPointerType)&ComponentListPool_U3Cs_ComponentListPoolU3Em__17_m5901/* method */
+	, (methodPointerType)&ComponentListPool_U3Cs_ComponentListPoolU3Em__17_m5905/* method */
 	, &ComponentListPool_t1032_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ComponentListPool_t1032_ComponentListPool_U3Cs_ComponentListPoolU3Em__17_m5901_ParameterInfos/* parameters */
+	, ComponentListPool_t1032_ComponentListPool_U3Cs_ComponentListPoolU3Em__17_m5905_ParameterInfos/* parameters */
 	, 339/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -21316,15 +21316,15 @@ extern const MethodInfo ComponentListPool_U3Cs_ComponentListPoolU3Em__17_m5901_M
 };
 static const MethodInfo* ComponentListPool_t1032_MethodInfos[] =
 {
-	&ComponentListPool__cctor_m5898_MethodInfo,
-	&ComponentListPool_Get_m5899_MethodInfo,
-	&ComponentListPool_Release_m5900_MethodInfo,
-	&ComponentListPool_U3Cs_ComponentListPoolU3Em__17_m5901_MethodInfo,
+	&ComponentListPool__cctor_m5902_MethodInfo,
+	&ComponentListPool_Get_m5903_MethodInfo,
+	&ComponentListPool_Release_m5904_MethodInfo,
+	&ComponentListPool_U3Cs_ComponentListPoolU3Em__17_m5905_MethodInfo,
 	NULL
 };
 static const Il2CppMethodReference ComponentListPool_t1032_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -21420,20 +21420,20 @@ extern const Il2CppGenericContainer ObjectPool_1_t1137_Il2CppGenericContainer = 
 extern const Il2CppType UnityAction_1_t1174_0_0_0;
 extern const Il2CppType UnityAction_1_t1174_0_0_0;
 extern const Il2CppType UnityAction_1_t1174_0_0_0;
-static const ParameterInfo ObjectPool_1_t1137_ObjectPool_1__ctor_m6461_ParameterInfos[] = 
+static const ParameterInfo ObjectPool_1_t1137_ObjectPool_1__ctor_m6465_ParameterInfos[] = 
 {
 	{"actionOnGet", 0, 134218446, 0, &UnityAction_1_t1174_0_0_0},
 	{"actionOnRelease", 1, 134218447, 0, &UnityAction_1_t1174_0_0_0},
 };
 // System.Void UnityEngine.UI.ObjectPool`1::.ctor(UnityEngine.Events.UnityAction`1<T>,UnityEngine.Events.UnityAction`1<T>)
-extern const MethodInfo ObjectPool_1__ctor_m6461_MethodInfo = 
+extern const MethodInfo ObjectPool_1__ctor_m6465_MethodInfo = 
 {
 	".ctor"/* name */
 	, NULL/* method */
 	, &ObjectPool_1_t1137_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ObjectPool_1_t1137_ObjectPool_1__ctor_m6461_ParameterInfos/* parameters */
+	, ObjectPool_1_t1137_ObjectPool_1__ctor_m6465_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -21448,7 +21448,7 @@ extern const MethodInfo ObjectPool_1__ctor_m6461_MethodInfo =
 
 };
 // System.Int32 UnityEngine.UI.ObjectPool`1::get_countAll()
-extern const MethodInfo ObjectPool_1_get_countAll_m6462_MethodInfo = 
+extern const MethodInfo ObjectPool_1_get_countAll_m6466_MethodInfo = 
 {
 	"get_countAll"/* name */
 	, NULL/* method */
@@ -21470,19 +21470,19 @@ extern const MethodInfo ObjectPool_1_get_countAll_m6462_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ObjectPool_1_t1137_ObjectPool_1_set_countAll_m6463_ParameterInfos[] = 
+static const ParameterInfo ObjectPool_1_t1137_ObjectPool_1_set_countAll_m6467_ParameterInfos[] = 
 {
 	{"value", 0, 134218448, 0, &Int32_t82_0_0_0},
 };
 // System.Void UnityEngine.UI.ObjectPool`1::set_countAll(System.Int32)
-extern const MethodInfo ObjectPool_1_set_countAll_m6463_MethodInfo = 
+extern const MethodInfo ObjectPool_1_set_countAll_m6467_MethodInfo = 
 {
 	"set_countAll"/* name */
 	, NULL/* method */
 	, &ObjectPool_1_t1137_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ObjectPool_1_t1137_ObjectPool_1_set_countAll_m6463_ParameterInfos/* parameters */
+	, ObjectPool_1_t1137_ObjectPool_1_set_countAll_m6467_ParameterInfos/* parameters */
 	, 342/* custom_attributes_cache */
 	, 2177/* flags */
 	, 0/* iflags */
@@ -21497,7 +21497,7 @@ extern const MethodInfo ObjectPool_1_set_countAll_m6463_MethodInfo =
 
 };
 // System.Int32 UnityEngine.UI.ObjectPool`1::get_countActive()
-extern const MethodInfo ObjectPool_1_get_countActive_m6464_MethodInfo = 
+extern const MethodInfo ObjectPool_1_get_countActive_m6468_MethodInfo = 
 {
 	"get_countActive"/* name */
 	, NULL/* method */
@@ -21519,7 +21519,7 @@ extern const MethodInfo ObjectPool_1_get_countActive_m6464_MethodInfo =
 
 };
 // System.Int32 UnityEngine.UI.ObjectPool`1::get_countInactive()
-extern const MethodInfo ObjectPool_1_get_countInactive_m6465_MethodInfo = 
+extern const MethodInfo ObjectPool_1_get_countInactive_m6469_MethodInfo = 
 {
 	"get_countInactive"/* name */
 	, NULL/* method */
@@ -21542,7 +21542,7 @@ extern const MethodInfo ObjectPool_1_get_countInactive_m6465_MethodInfo =
 };
 extern const Il2CppType ObjectPool_1_t1137_gp_0_0_0_0;
 // T UnityEngine.UI.ObjectPool`1::Get()
-extern const MethodInfo ObjectPool_1_Get_m6466_MethodInfo = 
+extern const MethodInfo ObjectPool_1_Get_m6470_MethodInfo = 
 {
 	"Get"/* name */
 	, NULL/* method */
@@ -21564,19 +21564,19 @@ extern const MethodInfo ObjectPool_1_Get_m6466_MethodInfo =
 
 };
 extern const Il2CppType ObjectPool_1_t1137_gp_0_0_0_0;
-static const ParameterInfo ObjectPool_1_t1137_ObjectPool_1_Release_m6467_ParameterInfos[] = 
+static const ParameterInfo ObjectPool_1_t1137_ObjectPool_1_Release_m6471_ParameterInfos[] = 
 {
 	{"element", 0, 134218449, 0, &ObjectPool_1_t1137_gp_0_0_0_0},
 };
 // System.Void UnityEngine.UI.ObjectPool`1::Release(T)
-extern const MethodInfo ObjectPool_1_Release_m6467_MethodInfo = 
+extern const MethodInfo ObjectPool_1_Release_m6471_MethodInfo = 
 {
 	"Release"/* name */
 	, NULL/* method */
 	, &ObjectPool_1_t1137_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, ObjectPool_1_t1137_ObjectPool_1_Release_m6467_ParameterInfos/* parameters */
+	, ObjectPool_1_t1137_ObjectPool_1_Release_m6471_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -21592,44 +21592,44 @@ extern const MethodInfo ObjectPool_1_Release_m6467_MethodInfo =
 };
 static const MethodInfo* ObjectPool_1_t1137_MethodInfos[] =
 {
-	&ObjectPool_1__ctor_m6461_MethodInfo,
-	&ObjectPool_1_get_countAll_m6462_MethodInfo,
-	&ObjectPool_1_set_countAll_m6463_MethodInfo,
-	&ObjectPool_1_get_countActive_m6464_MethodInfo,
-	&ObjectPool_1_get_countInactive_m6465_MethodInfo,
-	&ObjectPool_1_Get_m6466_MethodInfo,
-	&ObjectPool_1_Release_m6467_MethodInfo,
+	&ObjectPool_1__ctor_m6465_MethodInfo,
+	&ObjectPool_1_get_countAll_m6466_MethodInfo,
+	&ObjectPool_1_set_countAll_m6467_MethodInfo,
+	&ObjectPool_1_get_countActive_m6468_MethodInfo,
+	&ObjectPool_1_get_countInactive_m6469_MethodInfo,
+	&ObjectPool_1_Get_m6470_MethodInfo,
+	&ObjectPool_1_Release_m6471_MethodInfo,
 	NULL
 };
-extern const MethodInfo ObjectPool_1_get_countAll_m6462_MethodInfo;
-extern const MethodInfo ObjectPool_1_set_countAll_m6463_MethodInfo;
+extern const MethodInfo ObjectPool_1_get_countAll_m6466_MethodInfo;
+extern const MethodInfo ObjectPool_1_set_countAll_m6467_MethodInfo;
 static const PropertyInfo ObjectPool_1_t1137____countAll_PropertyInfo = 
 {
 	&ObjectPool_1_t1137_il2cpp_TypeInfo/* parent */
 	, "countAll"/* name */
-	, &ObjectPool_1_get_countAll_m6462_MethodInfo/* get */
-	, &ObjectPool_1_set_countAll_m6463_MethodInfo/* set */
+	, &ObjectPool_1_get_countAll_m6466_MethodInfo/* get */
+	, &ObjectPool_1_set_countAll_m6467_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ObjectPool_1_get_countActive_m6464_MethodInfo;
+extern const MethodInfo ObjectPool_1_get_countActive_m6468_MethodInfo;
 static const PropertyInfo ObjectPool_1_t1137____countActive_PropertyInfo = 
 {
 	&ObjectPool_1_t1137_il2cpp_TypeInfo/* parent */
 	, "countActive"/* name */
-	, &ObjectPool_1_get_countActive_m6464_MethodInfo/* get */
+	, &ObjectPool_1_get_countActive_m6468_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo ObjectPool_1_get_countInactive_m6465_MethodInfo;
+extern const MethodInfo ObjectPool_1_get_countInactive_m6469_MethodInfo;
 static const PropertyInfo ObjectPool_1_t1137____countInactive_PropertyInfo = 
 {
 	&ObjectPool_1_t1137_il2cpp_TypeInfo/* parent */
 	, "countInactive"/* name */
-	, &ObjectPool_1_get_countInactive_m6465_MethodInfo/* get */
+	, &ObjectPool_1_get_countInactive_m6469_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -21644,7 +21644,7 @@ static const PropertyInfo* ObjectPool_1_t1137_PropertyInfos[] =
 };
 static const Il2CppMethodReference ObjectPool_1_t1137_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -21657,30 +21657,30 @@ static bool ObjectPool_1_t1137_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType Stack_1_t1175_0_0_0;
-extern const Il2CppGenericMethod Stack_1__ctor_m6515_GenericMethod;
-extern const Il2CppGenericMethod ObjectPool_1_get_countAll_m6516_GenericMethod;
-extern const Il2CppGenericMethod ObjectPool_1_get_countInactive_m6517_GenericMethod;
-extern const Il2CppGenericMethod Stack_1_get_Count_m6518_GenericMethod;
-extern const Il2CppGenericMethod Activator_CreateInstance_TisT_t1173_m6519_GenericMethod;
-extern const Il2CppGenericMethod ObjectPool_1_set_countAll_m6520_GenericMethod;
-extern const Il2CppGenericMethod Stack_1_Pop_m6521_GenericMethod;
-extern const Il2CppGenericMethod UnityAction_1_Invoke_m6522_GenericMethod;
-extern const Il2CppGenericMethod Stack_1_Peek_m6523_GenericMethod;
-extern const Il2CppGenericMethod Stack_1_Push_m6524_GenericMethod;
+extern const Il2CppGenericMethod Stack_1__ctor_m6519_GenericMethod;
+extern const Il2CppGenericMethod ObjectPool_1_get_countAll_m6520_GenericMethod;
+extern const Il2CppGenericMethod ObjectPool_1_get_countInactive_m6521_GenericMethod;
+extern const Il2CppGenericMethod Stack_1_get_Count_m6522_GenericMethod;
+extern const Il2CppGenericMethod Activator_CreateInstance_TisT_t1173_m6523_GenericMethod;
+extern const Il2CppGenericMethod ObjectPool_1_set_countAll_m6524_GenericMethod;
+extern const Il2CppGenericMethod Stack_1_Pop_m6525_GenericMethod;
+extern const Il2CppGenericMethod UnityAction_1_Invoke_m6526_GenericMethod;
+extern const Il2CppGenericMethod Stack_1_Peek_m6527_GenericMethod;
+extern const Il2CppGenericMethod Stack_1_Push_m6528_GenericMethod;
 static Il2CppRGCTXDefinition ObjectPool_1_t1137_RGCTXData[13] = 
 {
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&Stack_1_t1175_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Stack_1__ctor_m6515_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ObjectPool_1_get_countAll_m6516_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ObjectPool_1_get_countInactive_m6517_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Stack_1_get_Count_m6518_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Stack_1__ctor_m6519_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ObjectPool_1_get_countAll_m6520_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ObjectPool_1_get_countInactive_m6521_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Stack_1_get_Count_m6522_GenericMethod }/* Method */,
 	{ IL2CPP_RGCTX_DATA_CLASS, (void*)&ObjectPool_1_t1137_gp_0_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Activator_CreateInstance_TisT_t1173_m6519_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &ObjectPool_1_set_countAll_m6520_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Stack_1_Pop_m6521_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &UnityAction_1_Invoke_m6522_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Stack_1_Peek_m6523_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &Stack_1_Push_m6524_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Activator_CreateInstance_TisT_t1173_m6523_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &ObjectPool_1_set_countAll_m6524_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Stack_1_Pop_m6525_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &UnityAction_1_Invoke_m6526_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Stack_1_Peek_m6527_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &Stack_1_Push_m6528_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_UnityEngine_UI_dll_Image;
@@ -21762,10 +21762,10 @@ extern TypeInfo BaseVertexEffect_t1033_il2cpp_TypeInfo;
 #include "UnityEngine_UI_UnityEngine_UI_BaseVertexEffectMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.BaseVertexEffect::.ctor()
-extern const MethodInfo BaseVertexEffect__ctor_m5902_MethodInfo = 
+extern const MethodInfo BaseVertexEffect__ctor_m5906_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&BaseVertexEffect__ctor_m5902/* method */
+	, (methodPointerType)&BaseVertexEffect__ctor_m5906/* method */
 	, &BaseVertexEffect_t1033_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -21785,10 +21785,10 @@ extern const MethodInfo BaseVertexEffect__ctor_m5902_MethodInfo =
 };
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.UI.Graphic UnityEngine.UI.BaseVertexEffect::get_graphic()
-extern const MethodInfo BaseVertexEffect_get_graphic_m5903_MethodInfo = 
+extern const MethodInfo BaseVertexEffect_get_graphic_m5907_MethodInfo = 
 {
 	"get_graphic"/* name */
-	, (methodPointerType)&BaseVertexEffect_get_graphic_m5903/* method */
+	, (methodPointerType)&BaseVertexEffect_get_graphic_m5907/* method */
 	, &BaseVertexEffect_t1033_il2cpp_TypeInfo/* declaring_type */
 	, &Graphic_t938_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
@@ -21808,10 +21808,10 @@ extern const MethodInfo BaseVertexEffect_get_graphic_m5903_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.BaseVertexEffect::OnEnable()
-extern const MethodInfo BaseVertexEffect_OnEnable_m5904_MethodInfo = 
+extern const MethodInfo BaseVertexEffect_OnEnable_m5908_MethodInfo = 
 {
 	"OnEnable"/* name */
-	, (methodPointerType)&BaseVertexEffect_OnEnable_m5904/* method */
+	, (methodPointerType)&BaseVertexEffect_OnEnable_m5908/* method */
 	, &BaseVertexEffect_t1033_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -21831,10 +21831,10 @@ extern const MethodInfo BaseVertexEffect_OnEnable_m5904_MethodInfo =
 };
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.BaseVertexEffect::OnDisable()
-extern const MethodInfo BaseVertexEffect_OnDisable_m5905_MethodInfo = 
+extern const MethodInfo BaseVertexEffect_OnDisable_m5909_MethodInfo = 
 {
 	"OnDisable"/* name */
-	, (methodPointerType)&BaseVertexEffect_OnDisable_m5905/* method */
+	, (methodPointerType)&BaseVertexEffect_OnDisable_m5909/* method */
 	, &BaseVertexEffect_t1033_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -21853,20 +21853,20 @@ extern const MethodInfo BaseVertexEffect_OnDisable_m5905_MethodInfo =
 
 };
 extern const Il2CppType List_1_t967_0_0_0;
-static const ParameterInfo BaseVertexEffect_t1033_BaseVertexEffect_ModifyVertices_m6468_ParameterInfos[] = 
+static const ParameterInfo BaseVertexEffect_t1033_BaseVertexEffect_ModifyVertices_m6472_ParameterInfos[] = 
 {
 	{"verts", 0, 134218450, 0, &List_1_t967_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.BaseVertexEffect::ModifyVertices(System.Collections.Generic.List`1<UnityEngine.UIVertex>)
-extern const MethodInfo BaseVertexEffect_ModifyVertices_m6468_MethodInfo = 
+extern const MethodInfo BaseVertexEffect_ModifyVertices_m6472_MethodInfo = 
 {
 	"ModifyVertices"/* name */
 	, NULL/* method */
 	, &BaseVertexEffect_t1033_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, BaseVertexEffect_t1033_BaseVertexEffect_ModifyVertices_m6468_ParameterInfos/* parameters */
+	, BaseVertexEffect_t1033_BaseVertexEffect_ModifyVertices_m6472_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -21882,19 +21882,19 @@ extern const MethodInfo BaseVertexEffect_ModifyVertices_m6468_MethodInfo =
 };
 static const MethodInfo* BaseVertexEffect_t1033_MethodInfos[] =
 {
-	&BaseVertexEffect__ctor_m5902_MethodInfo,
-	&BaseVertexEffect_get_graphic_m5903_MethodInfo,
-	&BaseVertexEffect_OnEnable_m5904_MethodInfo,
-	&BaseVertexEffect_OnDisable_m5905_MethodInfo,
-	&BaseVertexEffect_ModifyVertices_m6468_MethodInfo,
+	&BaseVertexEffect__ctor_m5906_MethodInfo,
+	&BaseVertexEffect_get_graphic_m5907_MethodInfo,
+	&BaseVertexEffect_OnEnable_m5908_MethodInfo,
+	&BaseVertexEffect_OnDisable_m5909_MethodInfo,
+	&BaseVertexEffect_ModifyVertices_m6472_MethodInfo,
 	NULL
 };
-extern const MethodInfo BaseVertexEffect_get_graphic_m5903_MethodInfo;
+extern const MethodInfo BaseVertexEffect_get_graphic_m5907_MethodInfo;
 static const PropertyInfo BaseVertexEffect_t1033____graphic_PropertyInfo = 
 {
 	&BaseVertexEffect_t1033_il2cpp_TypeInfo/* parent */
 	, "graphic"/* name */
-	, &BaseVertexEffect_get_graphic_m5903_MethodInfo/* get */
+	, &BaseVertexEffect_get_graphic_m5907_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
@@ -21905,28 +21905,28 @@ static const PropertyInfo* BaseVertexEffect_t1033_PropertyInfos[] =
 	&BaseVertexEffect_t1033____graphic_PropertyInfo,
 	NULL
 };
-extern const MethodInfo BaseVertexEffect_OnEnable_m5904_MethodInfo;
-extern const MethodInfo BaseVertexEffect_OnDisable_m5905_MethodInfo;
-extern const MethodInfo BaseVertexEffect_ModifyVertices_m6468_MethodInfo;
+extern const MethodInfo BaseVertexEffect_OnEnable_m5908_MethodInfo;
+extern const MethodInfo BaseVertexEffect_OnDisable_m5909_MethodInfo;
+extern const MethodInfo BaseVertexEffect_ModifyVertices_m6472_MethodInfo;
 static const Il2CppMethodReference BaseVertexEffect_t1033_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
-	&UIBehaviour_Awake_m4839_MethodInfo,
-	&BaseVertexEffect_OnEnable_m5904_MethodInfo,
-	&UIBehaviour_Start_m4841_MethodInfo,
-	&BaseVertexEffect_OnDisable_m5905_MethodInfo,
-	&UIBehaviour_OnDestroy_m4843_MethodInfo,
-	&UIBehaviour_IsActive_m4844_MethodInfo,
-	&UIBehaviour_OnRectTransformDimensionsChange_m4845_MethodInfo,
-	&UIBehaviour_OnBeforeTransformParentChanged_m4846_MethodInfo,
-	&UIBehaviour_OnTransformParentChanged_m4847_MethodInfo,
-	&UIBehaviour_OnDidApplyAnimationProperties_m4848_MethodInfo,
-	&UIBehaviour_OnCanvasGroupChanged_m4849_MethodInfo,
-	&UIBehaviour_OnCanvasHierarchyChanged_m4850_MethodInfo,
-	&BaseVertexEffect_ModifyVertices_m6468_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
+	&UIBehaviour_Awake_m4843_MethodInfo,
+	&BaseVertexEffect_OnEnable_m5908_MethodInfo,
+	&UIBehaviour_Start_m4845_MethodInfo,
+	&BaseVertexEffect_OnDisable_m5909_MethodInfo,
+	&UIBehaviour_OnDestroy_m4847_MethodInfo,
+	&UIBehaviour_IsActive_m4848_MethodInfo,
+	&UIBehaviour_OnRectTransformDimensionsChange_m4849_MethodInfo,
+	&UIBehaviour_OnBeforeTransformParentChanged_m4850_MethodInfo,
+	&UIBehaviour_OnTransformParentChanged_m4851_MethodInfo,
+	&UIBehaviour_OnDidApplyAnimationProperties_m4852_MethodInfo,
+	&UIBehaviour_OnCanvasGroupChanged_m4853_MethodInfo,
+	&UIBehaviour_OnCanvasHierarchyChanged_m4854_MethodInfo,
+	&BaseVertexEffect_ModifyVertices_m6472_MethodInfo,
 	NULL,
 };
 static bool BaseVertexEffect_t1033_VTableIsGenericMethod[] =
@@ -22033,20 +22033,20 @@ TypeInfo BaseVertexEffect_t1033_il2cpp_TypeInfo =
 // Metadata Definition UnityEngine.UI.IVertexModifier
 extern TypeInfo IVertexModifier_t1081_il2cpp_TypeInfo;
 extern const Il2CppType List_1_t967_0_0_0;
-static const ParameterInfo IVertexModifier_t1081_IVertexModifier_ModifyVertices_m6469_ParameterInfos[] = 
+static const ParameterInfo IVertexModifier_t1081_IVertexModifier_ModifyVertices_m6473_ParameterInfos[] = 
 {
 	{"verts", 0, 134218451, 0, &List_1_t967_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.IVertexModifier::ModifyVertices(System.Collections.Generic.List`1<UnityEngine.UIVertex>)
-extern const MethodInfo IVertexModifier_ModifyVertices_m6469_MethodInfo = 
+extern const MethodInfo IVertexModifier_ModifyVertices_m6473_MethodInfo = 
 {
 	"ModifyVertices"/* name */
 	, NULL/* method */
 	, &IVertexModifier_t1081_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, IVertexModifier_t1081_IVertexModifier_ModifyVertices_m6469_ParameterInfos/* parameters */
+	, IVertexModifier_t1081_IVertexModifier_ModifyVertices_m6473_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -22062,7 +22062,7 @@ extern const MethodInfo IVertexModifier_ModifyVertices_m6469_MethodInfo =
 };
 static const MethodInfo* IVertexModifier_t1081_MethodInfos[] =
 {
-	&IVertexModifier_ModifyVertices_m6469_MethodInfo,
+	&IVertexModifier_ModifyVertices_m6473_MethodInfo,
 	NULL
 };
 extern Il2CppImage g_UnityEngine_UI_dll_Image;
@@ -22143,10 +22143,10 @@ extern TypeInfo Outline_t1034_il2cpp_TypeInfo;
 #include "UnityEngine_UI_UnityEngine_UI_OutlineMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Outline::.ctor()
-extern const MethodInfo Outline__ctor_m5906_MethodInfo = 
+extern const MethodInfo Outline__ctor_m5910_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Outline__ctor_m5906/* method */
+	, (methodPointerType)&Outline__ctor_m5910/* method */
 	, &Outline_t1034_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -22165,20 +22165,20 @@ extern const MethodInfo Outline__ctor_m5906_MethodInfo =
 
 };
 extern const Il2CppType List_1_t967_0_0_0;
-static const ParameterInfo Outline_t1034_Outline_ModifyVertices_m5907_ParameterInfos[] = 
+static const ParameterInfo Outline_t1034_Outline_ModifyVertices_m5911_ParameterInfos[] = 
 {
 	{"verts", 0, 134218452, 0, &List_1_t967_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Outline::ModifyVertices(System.Collections.Generic.List`1<UnityEngine.UIVertex>)
-extern const MethodInfo Outline_ModifyVertices_m5907_MethodInfo = 
+extern const MethodInfo Outline_ModifyVertices_m5911_MethodInfo = 
 {
 	"ModifyVertices"/* name */
-	, (methodPointerType)&Outline_ModifyVertices_m5907/* method */
+	, (methodPointerType)&Outline_ModifyVertices_m5911/* method */
 	, &Outline_t1034_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Outline_t1034_Outline_ModifyVertices_m5907_ParameterInfos/* parameters */
+	, Outline_t1034_Outline_ModifyVertices_m5911_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -22194,31 +22194,31 @@ extern const MethodInfo Outline_ModifyVertices_m5907_MethodInfo =
 };
 static const MethodInfo* Outline_t1034_MethodInfos[] =
 {
-	&Outline__ctor_m5906_MethodInfo,
-	&Outline_ModifyVertices_m5907_MethodInfo,
+	&Outline__ctor_m5910_MethodInfo,
+	&Outline_ModifyVertices_m5911_MethodInfo,
 	NULL
 };
-extern const MethodInfo Outline_ModifyVertices_m5907_MethodInfo;
+extern const MethodInfo Outline_ModifyVertices_m5911_MethodInfo;
 static const Il2CppMethodReference Outline_t1034_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
-	&UIBehaviour_Awake_m4839_MethodInfo,
-	&BaseVertexEffect_OnEnable_m5904_MethodInfo,
-	&UIBehaviour_Start_m4841_MethodInfo,
-	&BaseVertexEffect_OnDisable_m5905_MethodInfo,
-	&UIBehaviour_OnDestroy_m4843_MethodInfo,
-	&UIBehaviour_IsActive_m4844_MethodInfo,
-	&UIBehaviour_OnRectTransformDimensionsChange_m4845_MethodInfo,
-	&UIBehaviour_OnBeforeTransformParentChanged_m4846_MethodInfo,
-	&UIBehaviour_OnTransformParentChanged_m4847_MethodInfo,
-	&UIBehaviour_OnDidApplyAnimationProperties_m4848_MethodInfo,
-	&UIBehaviour_OnCanvasGroupChanged_m4849_MethodInfo,
-	&UIBehaviour_OnCanvasHierarchyChanged_m4850_MethodInfo,
-	&Outline_ModifyVertices_m5907_MethodInfo,
-	&Outline_ModifyVertices_m5907_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
+	&UIBehaviour_Awake_m4843_MethodInfo,
+	&BaseVertexEffect_OnEnable_m5908_MethodInfo,
+	&UIBehaviour_Start_m4845_MethodInfo,
+	&BaseVertexEffect_OnDisable_m5909_MethodInfo,
+	&UIBehaviour_OnDestroy_m4847_MethodInfo,
+	&UIBehaviour_IsActive_m4848_MethodInfo,
+	&UIBehaviour_OnRectTransformDimensionsChange_m4849_MethodInfo,
+	&UIBehaviour_OnBeforeTransformParentChanged_m4850_MethodInfo,
+	&UIBehaviour_OnTransformParentChanged_m4851_MethodInfo,
+	&UIBehaviour_OnDidApplyAnimationProperties_m4852_MethodInfo,
+	&UIBehaviour_OnCanvasGroupChanged_m4853_MethodInfo,
+	&UIBehaviour_OnCanvasHierarchyChanged_m4854_MethodInfo,
+	&Outline_ModifyVertices_m5911_MethodInfo,
+	&Outline_ModifyVertices_m5911_MethodInfo,
 };
 static bool Outline_t1034_VTableIsGenericMethod[] =
 {
@@ -22325,10 +22325,10 @@ extern TypeInfo PositionAsUV1_t1036_il2cpp_TypeInfo;
 #include "UnityEngine_UI_UnityEngine_UI_PositionAsUV1MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.PositionAsUV1::.ctor()
-extern const MethodInfo PositionAsUV1__ctor_m5908_MethodInfo = 
+extern const MethodInfo PositionAsUV1__ctor_m5912_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&PositionAsUV1__ctor_m5908/* method */
+	, (methodPointerType)&PositionAsUV1__ctor_m5912/* method */
 	, &PositionAsUV1_t1036_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -22347,20 +22347,20 @@ extern const MethodInfo PositionAsUV1__ctor_m5908_MethodInfo =
 
 };
 extern const Il2CppType List_1_t967_0_0_0;
-static const ParameterInfo PositionAsUV1_t1036_PositionAsUV1_ModifyVertices_m5909_ParameterInfos[] = 
+static const ParameterInfo PositionAsUV1_t1036_PositionAsUV1_ModifyVertices_m5913_ParameterInfos[] = 
 {
 	{"verts", 0, 134218453, 0, &List_1_t967_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.PositionAsUV1::ModifyVertices(System.Collections.Generic.List`1<UnityEngine.UIVertex>)
-extern const MethodInfo PositionAsUV1_ModifyVertices_m5909_MethodInfo = 
+extern const MethodInfo PositionAsUV1_ModifyVertices_m5913_MethodInfo = 
 {
 	"ModifyVertices"/* name */
-	, (methodPointerType)&PositionAsUV1_ModifyVertices_m5909/* method */
+	, (methodPointerType)&PositionAsUV1_ModifyVertices_m5913/* method */
 	, &PositionAsUV1_t1036_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, PositionAsUV1_t1036_PositionAsUV1_ModifyVertices_m5909_ParameterInfos/* parameters */
+	, PositionAsUV1_t1036_PositionAsUV1_ModifyVertices_m5913_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -22376,31 +22376,31 @@ extern const MethodInfo PositionAsUV1_ModifyVertices_m5909_MethodInfo =
 };
 static const MethodInfo* PositionAsUV1_t1036_MethodInfos[] =
 {
-	&PositionAsUV1__ctor_m5908_MethodInfo,
-	&PositionAsUV1_ModifyVertices_m5909_MethodInfo,
+	&PositionAsUV1__ctor_m5912_MethodInfo,
+	&PositionAsUV1_ModifyVertices_m5913_MethodInfo,
 	NULL
 };
-extern const MethodInfo PositionAsUV1_ModifyVertices_m5909_MethodInfo;
+extern const MethodInfo PositionAsUV1_ModifyVertices_m5913_MethodInfo;
 static const Il2CppMethodReference PositionAsUV1_t1036_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
-	&UIBehaviour_Awake_m4839_MethodInfo,
-	&BaseVertexEffect_OnEnable_m5904_MethodInfo,
-	&UIBehaviour_Start_m4841_MethodInfo,
-	&BaseVertexEffect_OnDisable_m5905_MethodInfo,
-	&UIBehaviour_OnDestroy_m4843_MethodInfo,
-	&UIBehaviour_IsActive_m4844_MethodInfo,
-	&UIBehaviour_OnRectTransformDimensionsChange_m4845_MethodInfo,
-	&UIBehaviour_OnBeforeTransformParentChanged_m4846_MethodInfo,
-	&UIBehaviour_OnTransformParentChanged_m4847_MethodInfo,
-	&UIBehaviour_OnDidApplyAnimationProperties_m4848_MethodInfo,
-	&UIBehaviour_OnCanvasGroupChanged_m4849_MethodInfo,
-	&UIBehaviour_OnCanvasHierarchyChanged_m4850_MethodInfo,
-	&PositionAsUV1_ModifyVertices_m5909_MethodInfo,
-	&PositionAsUV1_ModifyVertices_m5909_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
+	&UIBehaviour_Awake_m4843_MethodInfo,
+	&BaseVertexEffect_OnEnable_m5908_MethodInfo,
+	&UIBehaviour_Start_m4845_MethodInfo,
+	&BaseVertexEffect_OnDisable_m5909_MethodInfo,
+	&UIBehaviour_OnDestroy_m4847_MethodInfo,
+	&UIBehaviour_IsActive_m4848_MethodInfo,
+	&UIBehaviour_OnRectTransformDimensionsChange_m4849_MethodInfo,
+	&UIBehaviour_OnBeforeTransformParentChanged_m4850_MethodInfo,
+	&UIBehaviour_OnTransformParentChanged_m4851_MethodInfo,
+	&UIBehaviour_OnDidApplyAnimationProperties_m4852_MethodInfo,
+	&UIBehaviour_OnCanvasGroupChanged_m4853_MethodInfo,
+	&UIBehaviour_OnCanvasHierarchyChanged_m4854_MethodInfo,
+	&PositionAsUV1_ModifyVertices_m5913_MethodInfo,
+	&PositionAsUV1_ModifyVertices_m5913_MethodInfo,
 };
 static bool PositionAsUV1_t1036_VTableIsGenericMethod[] =
 {
@@ -22506,10 +22506,10 @@ extern TypeInfo Shadow_t1035_il2cpp_TypeInfo;
 #include "UnityEngine_UI_UnityEngine_UI_ShadowMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Shadow::.ctor()
-extern const MethodInfo Shadow__ctor_m5910_MethodInfo = 
+extern const MethodInfo Shadow__ctor_m5914_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&Shadow__ctor_m5910/* method */
+	, (methodPointerType)&Shadow__ctor_m5914/* method */
 	, &Shadow_t1035_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
@@ -22529,10 +22529,10 @@ extern const MethodInfo Shadow__ctor_m5910_MethodInfo =
 };
 extern void* RuntimeInvoker_Color_t325 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Color UnityEngine.UI.Shadow::get_effectColor()
-extern const MethodInfo Shadow_get_effectColor_m5911_MethodInfo = 
+extern const MethodInfo Shadow_get_effectColor_m5915_MethodInfo = 
 {
 	"get_effectColor"/* name */
-	, (methodPointerType)&Shadow_get_effectColor_m5911/* method */
+	, (methodPointerType)&Shadow_get_effectColor_m5915/* method */
 	, &Shadow_t1035_il2cpp_TypeInfo/* declaring_type */
 	, &Color_t325_0_0_0/* return_type */
 	, RuntimeInvoker_Color_t325/* invoker_method */
@@ -22551,20 +22551,20 @@ extern const MethodInfo Shadow_get_effectColor_m5911_MethodInfo =
 
 };
 extern const Il2CppType Color_t325_0_0_0;
-static const ParameterInfo Shadow_t1035_Shadow_set_effectColor_m5912_ParameterInfos[] = 
+static const ParameterInfo Shadow_t1035_Shadow_set_effectColor_m5916_ParameterInfos[] = 
 {
 	{"value", 0, 134218454, 0, &Color_t325_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Color_t325 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Shadow::set_effectColor(UnityEngine.Color)
-extern const MethodInfo Shadow_set_effectColor_m5912_MethodInfo = 
+extern const MethodInfo Shadow_set_effectColor_m5916_MethodInfo = 
 {
 	"set_effectColor"/* name */
-	, (methodPointerType)&Shadow_set_effectColor_m5912/* method */
+	, (methodPointerType)&Shadow_set_effectColor_m5916/* method */
 	, &Shadow_t1035_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Color_t325/* invoker_method */
-	, Shadow_t1035_Shadow_set_effectColor_m5912_ParameterInfos/* parameters */
+	, Shadow_t1035_Shadow_set_effectColor_m5916_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -22580,10 +22580,10 @@ extern const MethodInfo Shadow_set_effectColor_m5912_MethodInfo =
 };
 extern void* RuntimeInvoker_Vector2_t110 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.Vector2 UnityEngine.UI.Shadow::get_effectDistance()
-extern const MethodInfo Shadow_get_effectDistance_m5913_MethodInfo = 
+extern const MethodInfo Shadow_get_effectDistance_m5917_MethodInfo = 
 {
 	"get_effectDistance"/* name */
-	, (methodPointerType)&Shadow_get_effectDistance_m5913/* method */
+	, (methodPointerType)&Shadow_get_effectDistance_m5917/* method */
 	, &Shadow_t1035_il2cpp_TypeInfo/* declaring_type */
 	, &Vector2_t110_0_0_0/* return_type */
 	, RuntimeInvoker_Vector2_t110/* invoker_method */
@@ -22602,20 +22602,20 @@ extern const MethodInfo Shadow_get_effectDistance_m5913_MethodInfo =
 
 };
 extern const Il2CppType Vector2_t110_0_0_0;
-static const ParameterInfo Shadow_t1035_Shadow_set_effectDistance_m5914_ParameterInfos[] = 
+static const ParameterInfo Shadow_t1035_Shadow_set_effectDistance_m5918_ParameterInfos[] = 
 {
 	{"value", 0, 134218455, 0, &Vector2_t110_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Vector2_t110 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Shadow::set_effectDistance(UnityEngine.Vector2)
-extern const MethodInfo Shadow_set_effectDistance_m5914_MethodInfo = 
+extern const MethodInfo Shadow_set_effectDistance_m5918_MethodInfo = 
 {
 	"set_effectDistance"/* name */
-	, (methodPointerType)&Shadow_set_effectDistance_m5914/* method */
+	, (methodPointerType)&Shadow_set_effectDistance_m5918/* method */
 	, &Shadow_t1035_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Vector2_t110/* invoker_method */
-	, Shadow_t1035_Shadow_set_effectDistance_m5914_ParameterInfos/* parameters */
+	, Shadow_t1035_Shadow_set_effectDistance_m5918_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -22631,10 +22631,10 @@ extern const MethodInfo Shadow_set_effectDistance_m5914_MethodInfo =
 };
 extern void* RuntimeInvoker_Boolean_t59 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean UnityEngine.UI.Shadow::get_useGraphicAlpha()
-extern const MethodInfo Shadow_get_useGraphicAlpha_m5915_MethodInfo = 
+extern const MethodInfo Shadow_get_useGraphicAlpha_m5919_MethodInfo = 
 {
 	"get_useGraphicAlpha"/* name */
-	, (methodPointerType)&Shadow_get_useGraphicAlpha_m5915/* method */
+	, (methodPointerType)&Shadow_get_useGraphicAlpha_m5919/* method */
 	, &Shadow_t1035_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
@@ -22653,20 +22653,20 @@ extern const MethodInfo Shadow_get_useGraphicAlpha_m5915_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Shadow_t1035_Shadow_set_useGraphicAlpha_m5916_ParameterInfos[] = 
+static const ParameterInfo Shadow_t1035_Shadow_set_useGraphicAlpha_m5920_ParameterInfos[] = 
 {
 	{"value", 0, 134218456, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Shadow::set_useGraphicAlpha(System.Boolean)
-extern const MethodInfo Shadow_set_useGraphicAlpha_m5916_MethodInfo = 
+extern const MethodInfo Shadow_set_useGraphicAlpha_m5920_MethodInfo = 
 {
 	"set_useGraphicAlpha"/* name */
-	, (methodPointerType)&Shadow_set_useGraphicAlpha_m5916/* method */
+	, (methodPointerType)&Shadow_set_useGraphicAlpha_m5920/* method */
 	, &Shadow_t1035_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, Shadow_t1035_Shadow_set_useGraphicAlpha_m5916_ParameterInfos/* parameters */
+	, Shadow_t1035_Shadow_set_useGraphicAlpha_m5920_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -22687,7 +22687,7 @@ extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Single_t87_0_0_0;
 extern const Il2CppType Single_t87_0_0_0;
-static const ParameterInfo Shadow_t1035_Shadow_ApplyShadow_m5917_ParameterInfos[] = 
+static const ParameterInfo Shadow_t1035_Shadow_ApplyShadow_m5921_ParameterInfos[] = 
 {
 	{"verts", 0, 134218457, 0, &List_1_t967_0_0_0},
 	{"color", 1, 134218458, 0, &Color32_t769_0_0_0},
@@ -22698,14 +22698,14 @@ static const ParameterInfo Shadow_t1035_Shadow_ApplyShadow_m5917_ParameterInfos[
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Color32_t769_Int32_t82_Int32_t82_Single_t87_Single_t87 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Shadow::ApplyShadow(System.Collections.Generic.List`1<UnityEngine.UIVertex>,UnityEngine.Color32,System.Int32,System.Int32,System.Single,System.Single)
-extern const MethodInfo Shadow_ApplyShadow_m5917_MethodInfo = 
+extern const MethodInfo Shadow_ApplyShadow_m5921_MethodInfo = 
 {
 	"ApplyShadow"/* name */
-	, (methodPointerType)&Shadow_ApplyShadow_m5917/* method */
+	, (methodPointerType)&Shadow_ApplyShadow_m5921/* method */
 	, &Shadow_t1035_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Color32_t769_Int32_t82_Int32_t82_Single_t87_Single_t87/* invoker_method */
-	, Shadow_t1035_Shadow_ApplyShadow_m5917_ParameterInfos/* parameters */
+	, Shadow_t1035_Shadow_ApplyShadow_m5921_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -22720,20 +22720,20 @@ extern const MethodInfo Shadow_ApplyShadow_m5917_MethodInfo =
 
 };
 extern const Il2CppType List_1_t967_0_0_0;
-static const ParameterInfo Shadow_t1035_Shadow_ModifyVertices_m5918_ParameterInfos[] = 
+static const ParameterInfo Shadow_t1035_Shadow_ModifyVertices_m5922_ParameterInfos[] = 
 {
 	{"verts", 0, 134218463, 0, &List_1_t967_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngine.UI.Shadow::ModifyVertices(System.Collections.Generic.List`1<UnityEngine.UIVertex>)
-extern const MethodInfo Shadow_ModifyVertices_m5918_MethodInfo = 
+extern const MethodInfo Shadow_ModifyVertices_m5922_MethodInfo = 
 {
 	"ModifyVertices"/* name */
-	, (methodPointerType)&Shadow_ModifyVertices_m5918/* method */
+	, (methodPointerType)&Shadow_ModifyVertices_m5922/* method */
 	, &Shadow_t1035_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Shadow_t1035_Shadow_ModifyVertices_m5918_ParameterInfos/* parameters */
+	, Shadow_t1035_Shadow_ModifyVertices_m5922_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -22749,49 +22749,49 @@ extern const MethodInfo Shadow_ModifyVertices_m5918_MethodInfo =
 };
 static const MethodInfo* Shadow_t1035_MethodInfos[] =
 {
-	&Shadow__ctor_m5910_MethodInfo,
-	&Shadow_get_effectColor_m5911_MethodInfo,
-	&Shadow_set_effectColor_m5912_MethodInfo,
-	&Shadow_get_effectDistance_m5913_MethodInfo,
-	&Shadow_set_effectDistance_m5914_MethodInfo,
-	&Shadow_get_useGraphicAlpha_m5915_MethodInfo,
-	&Shadow_set_useGraphicAlpha_m5916_MethodInfo,
-	&Shadow_ApplyShadow_m5917_MethodInfo,
-	&Shadow_ModifyVertices_m5918_MethodInfo,
+	&Shadow__ctor_m5914_MethodInfo,
+	&Shadow_get_effectColor_m5915_MethodInfo,
+	&Shadow_set_effectColor_m5916_MethodInfo,
+	&Shadow_get_effectDistance_m5917_MethodInfo,
+	&Shadow_set_effectDistance_m5918_MethodInfo,
+	&Shadow_get_useGraphicAlpha_m5919_MethodInfo,
+	&Shadow_set_useGraphicAlpha_m5920_MethodInfo,
+	&Shadow_ApplyShadow_m5921_MethodInfo,
+	&Shadow_ModifyVertices_m5922_MethodInfo,
 	NULL
 };
-extern const MethodInfo Shadow_get_effectColor_m5911_MethodInfo;
-extern const MethodInfo Shadow_set_effectColor_m5912_MethodInfo;
+extern const MethodInfo Shadow_get_effectColor_m5915_MethodInfo;
+extern const MethodInfo Shadow_set_effectColor_m5916_MethodInfo;
 static const PropertyInfo Shadow_t1035____effectColor_PropertyInfo = 
 {
 	&Shadow_t1035_il2cpp_TypeInfo/* parent */
 	, "effectColor"/* name */
-	, &Shadow_get_effectColor_m5911_MethodInfo/* get */
-	, &Shadow_set_effectColor_m5912_MethodInfo/* set */
+	, &Shadow_get_effectColor_m5915_MethodInfo/* get */
+	, &Shadow_set_effectColor_m5916_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Shadow_get_effectDistance_m5913_MethodInfo;
-extern const MethodInfo Shadow_set_effectDistance_m5914_MethodInfo;
+extern const MethodInfo Shadow_get_effectDistance_m5917_MethodInfo;
+extern const MethodInfo Shadow_set_effectDistance_m5918_MethodInfo;
 static const PropertyInfo Shadow_t1035____effectDistance_PropertyInfo = 
 {
 	&Shadow_t1035_il2cpp_TypeInfo/* parent */
 	, "effectDistance"/* name */
-	, &Shadow_get_effectDistance_m5913_MethodInfo/* get */
-	, &Shadow_set_effectDistance_m5914_MethodInfo/* set */
+	, &Shadow_get_effectDistance_m5917_MethodInfo/* get */
+	, &Shadow_set_effectDistance_m5918_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
 };
-extern const MethodInfo Shadow_get_useGraphicAlpha_m5915_MethodInfo;
-extern const MethodInfo Shadow_set_useGraphicAlpha_m5916_MethodInfo;
+extern const MethodInfo Shadow_get_useGraphicAlpha_m5919_MethodInfo;
+extern const MethodInfo Shadow_set_useGraphicAlpha_m5920_MethodInfo;
 static const PropertyInfo Shadow_t1035____useGraphicAlpha_PropertyInfo = 
 {
 	&Shadow_t1035_il2cpp_TypeInfo/* parent */
 	, "useGraphicAlpha"/* name */
-	, &Shadow_get_useGraphicAlpha_m5915_MethodInfo/* get */
-	, &Shadow_set_useGraphicAlpha_m5916_MethodInfo/* set */
+	, &Shadow_get_useGraphicAlpha_m5919_MethodInfo/* get */
+	, &Shadow_set_useGraphicAlpha_m5920_MethodInfo/* set */
 	, 0/* attrs */
 	, 0/* custom_attributes_cache */
 
@@ -22803,27 +22803,27 @@ static const PropertyInfo* Shadow_t1035_PropertyInfos[] =
 	&Shadow_t1035____useGraphicAlpha_PropertyInfo,
 	NULL
 };
-extern const MethodInfo Shadow_ModifyVertices_m5918_MethodInfo;
+extern const MethodInfo Shadow_ModifyVertices_m5922_MethodInfo;
 static const Il2CppMethodReference Shadow_t1035_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
-	&UIBehaviour_Awake_m4839_MethodInfo,
-	&BaseVertexEffect_OnEnable_m5904_MethodInfo,
-	&UIBehaviour_Start_m4841_MethodInfo,
-	&BaseVertexEffect_OnDisable_m5905_MethodInfo,
-	&UIBehaviour_OnDestroy_m4843_MethodInfo,
-	&UIBehaviour_IsActive_m4844_MethodInfo,
-	&UIBehaviour_OnRectTransformDimensionsChange_m4845_MethodInfo,
-	&UIBehaviour_OnBeforeTransformParentChanged_m4846_MethodInfo,
-	&UIBehaviour_OnTransformParentChanged_m4847_MethodInfo,
-	&UIBehaviour_OnDidApplyAnimationProperties_m4848_MethodInfo,
-	&UIBehaviour_OnCanvasGroupChanged_m4849_MethodInfo,
-	&UIBehaviour_OnCanvasHierarchyChanged_m4850_MethodInfo,
-	&Shadow_ModifyVertices_m5918_MethodInfo,
-	&Shadow_ModifyVertices_m5918_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
+	&UIBehaviour_Awake_m4843_MethodInfo,
+	&BaseVertexEffect_OnEnable_m5908_MethodInfo,
+	&UIBehaviour_Start_m4845_MethodInfo,
+	&BaseVertexEffect_OnDisable_m5909_MethodInfo,
+	&UIBehaviour_OnDestroy_m4847_MethodInfo,
+	&UIBehaviour_IsActive_m4848_MethodInfo,
+	&UIBehaviour_OnRectTransformDimensionsChange_m4849_MethodInfo,
+	&UIBehaviour_OnBeforeTransformParentChanged_m4850_MethodInfo,
+	&UIBehaviour_OnTransformParentChanged_m4851_MethodInfo,
+	&UIBehaviour_OnDidApplyAnimationProperties_m4852_MethodInfo,
+	&UIBehaviour_OnCanvasGroupChanged_m4853_MethodInfo,
+	&UIBehaviour_OnCanvasHierarchyChanged_m4854_MethodInfo,
+	&Shadow_ModifyVertices_m5922_MethodInfo,
+	&Shadow_ModifyVertices_m5922_MethodInfo,
 };
 static bool Shadow_t1035_VTableIsGenericMethod[] =
 {

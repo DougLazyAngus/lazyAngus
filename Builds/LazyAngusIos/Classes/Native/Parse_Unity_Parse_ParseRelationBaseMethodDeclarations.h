@@ -14,20 +14,20 @@ struct ParseObject_t1238;
 struct IDictionary_2_t836;
 
 // System.Void Parse.ParseRelationBase::.ctor(Parse.ParseObject,System.String)
-extern "C" void ParseRelationBase__ctor_m7146 (ParseRelationBase_t1316 * __this, ParseObject_t1238 * ___parent, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseRelationBase__ctor_m7150 (ParseRelationBase_t1316 * __this, ParseObject_t1238 * ___parent, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseRelationBase::.ctor(Parse.ParseObject,System.String,System.String)
-extern "C" void ParseRelationBase__ctor_m7147 (ParseRelationBase_t1316 * __this, ParseObject_t1238 * ___parent, String_t* ___key, String_t* ___targetClassName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseRelationBase__ctor_m7151 (ParseRelationBase_t1316 * __this, ParseObject_t1238 * ___parent, String_t* ___key, String_t* ___targetClassName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseRelationBase::EnsureParentAndKey(Parse.ParseObject,System.String)
-extern "C" void ParseRelationBase_EnsureParentAndKey_m7148 (ParseRelationBase_t1316 * __this, ParseObject_t1238 * ___parent, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseRelationBase_EnsureParentAndKey_m7152 (ParseRelationBase_t1316 * __this, ParseObject_t1238 * ___parent, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseRelationBase::Add(Parse.ParseObject)
-extern "C" void ParseRelationBase_Add_m7149 (ParseRelationBase_t1316 * __this, ParseObject_t1238 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseRelationBase_Add_m7153 (ParseRelationBase_t1316 * __this, ParseObject_t1238 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseRelationBase::Remove(Parse.ParseObject)
-extern "C" void ParseRelationBase_Remove_m7150 (ParseRelationBase_t1316 * __this, ParseObject_t1238 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseRelationBase_Remove_m7154 (ParseRelationBase_t1316 * __this, ParseObject_t1238 * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParseRelationBase::ToJSON()
-extern "C" Object_t* ParseRelationBase_ToJSON_m7151 (ParseRelationBase_t1316 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t* ParseRelationBase_ToJSON_m7155 (ParseRelationBase_t1316 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Parse.ParseRelationBase::get_TargetClassName()
-extern "C" String_t* ParseRelationBase_get_TargetClassName_m7152 (ParseRelationBase_t1316 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ParseRelationBase_get_TargetClassName_m7156 (ParseRelationBase_t1316 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseRelationBase::set_TargetClassName(System.String)
-extern "C" void ParseRelationBase_set_TargetClassName_m7153 (ParseRelationBase_t1316 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseRelationBase_set_TargetClassName_m7157 (ParseRelationBase_t1316 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Parse.ParseRelationBase Parse.ParseRelationBase::CreateRelation(Parse.ParseObject,System.String,System.String)
-extern "C" ParseRelationBase_t1316 * ParseRelationBase_CreateRelation_m7154 (Object_t * __this /* static, unused */, ParseObject_t1238 * ___parent, String_t* ___key, String_t* ___targetClassName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ParseRelationBase_t1316 * ParseRelationBase_CreateRelation_m7158 (Object_t * __this /* static, unused */, ParseObject_t1238 * ___parent, String_t* ___key, String_t* ___targetClassName, const MethodInfo* method) IL2CPP_METHOD_ATTR;

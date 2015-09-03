@@ -5,7 +5,7 @@ struct Stack_t2914;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Stack/Enumerator
-struct  Enumerator_t4471  : public Object_t
+struct  Enumerator_t4957  : public Object_t
 {
 	// System.Collections.Stack System.Collections.Stack/Enumerator::stack
 	Stack_t2914 * ___stack_0;

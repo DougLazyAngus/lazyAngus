@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Comparer`1/DefaultComparer<System.Object>
-struct DefaultComparer_t5446;
+struct DefaultComparer_t5979;
 // System.Object
 struct Object_t;
 
 // System.Void System.Collections.Generic.Comparer`1/DefaultComparer<System.Object>::.ctor()
-extern "C" void DefaultComparer__ctor_m21879_gshared (DefaultComparer_t5446 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m21879(__this, method) (( void (*) (DefaultComparer_t5446 *, const MethodInfo*))DefaultComparer__ctor_m21879_gshared)(__this, method)
+extern "C" void DefaultComparer__ctor_m26068_gshared (DefaultComparer_t5979 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m26068(__this, method) (( void (*) (DefaultComparer_t5979 *, const MethodInfo*))DefaultComparer__ctor_m26068_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<System.Object>::Compare(T,T)
-extern "C" int32_t DefaultComparer_Compare_m21880_gshared (DefaultComparer_t5446 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
-#define DefaultComparer_Compare_m21880(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t5446 *, Object_t *, Object_t *, const MethodInfo*))DefaultComparer_Compare_m21880_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t DefaultComparer_Compare_m26069_gshared (DefaultComparer_t5979 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
+#define DefaultComparer_Compare_m26069(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t5979 *, Object_t *, Object_t *, const MethodInfo*))DefaultComparer_Compare_m26069_gshared)(__this, ___x, ___y, method)

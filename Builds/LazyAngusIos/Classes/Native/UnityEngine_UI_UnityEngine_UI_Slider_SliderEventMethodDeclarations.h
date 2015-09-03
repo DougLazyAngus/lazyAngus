@@ -8,4 +8,4 @@
 struct SliderEvent_t991;
 
 // System.Void UnityEngine.UI.Slider/SliderEvent::.ctor()
-extern "C" void SliderEvent__ctor_m5564 (SliderEvent_t991 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SliderEvent__ctor_m5568 (SliderEvent_t991 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

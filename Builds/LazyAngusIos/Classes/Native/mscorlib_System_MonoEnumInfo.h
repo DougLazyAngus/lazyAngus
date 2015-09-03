@@ -11,17 +11,17 @@ struct Hashtable_t710;
 // System.Object
 struct Object_t;
 // System.MonoEnumInfo/SByteComparer
-struct SByteComparer_t4820;
+struct SByteComparer_t4874;
 // System.MonoEnumInfo/ShortComparer
-struct ShortComparer_t4821;
+struct ShortComparer_t4875;
 // System.MonoEnumInfo/IntComparer
-struct IntComparer_t4822;
+struct IntComparer_t4876;
 // System.MonoEnumInfo/LongComparer
-struct LongComparer_t4823;
+struct LongComparer_t4877;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.MonoEnumInfo
-struct  MonoEnumInfo_t4824 
+struct  MonoEnumInfo_t4878 
 {
 	// System.Type System.MonoEnumInfo::utype
 	Type_t * ___utype_0;
@@ -32,21 +32,21 @@ struct  MonoEnumInfo_t4824
 	// System.Collections.Hashtable System.MonoEnumInfo::name_hash
 	Hashtable_t710 * ___name_hash_3;
 };
-struct MonoEnumInfo_t4824_StaticFields{
+struct MonoEnumInfo_t4878_StaticFields{
 	// System.Collections.Hashtable System.MonoEnumInfo::global_cache
 	Hashtable_t710 * ___global_cache_5;
 	// System.Object System.MonoEnumInfo::global_cache_monitor
 	Object_t * ___global_cache_monitor_6;
 	// System.MonoEnumInfo/SByteComparer System.MonoEnumInfo::sbyte_comparer
-	SByteComparer_t4820 * ___sbyte_comparer_7;
+	SByteComparer_t4874 * ___sbyte_comparer_7;
 	// System.MonoEnumInfo/ShortComparer System.MonoEnumInfo::short_comparer
-	ShortComparer_t4821 * ___short_comparer_8;
+	ShortComparer_t4875 * ___short_comparer_8;
 	// System.MonoEnumInfo/IntComparer System.MonoEnumInfo::int_comparer
-	IntComparer_t4822 * ___int_comparer_9;
+	IntComparer_t4876 * ___int_comparer_9;
 	// System.MonoEnumInfo/LongComparer System.MonoEnumInfo::long_comparer
-	LongComparer_t4823 * ___long_comparer_10;
+	LongComparer_t4877 * ___long_comparer_10;
 };
-struct MonoEnumInfo_t4824_ThreadStaticFields{
+struct MonoEnumInfo_t4878_ThreadStaticFields{
 	// System.Collections.Hashtable System.MonoEnumInfo::cache
 	Hashtable_t710 * ___cache_4;
 };

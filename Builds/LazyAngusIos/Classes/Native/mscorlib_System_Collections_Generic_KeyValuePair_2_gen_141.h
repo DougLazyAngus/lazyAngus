@@ -8,7 +8,7 @@ struct Event_t797_marshaled;
 // UnityEngine.TextEditor/TextEditOp
 #include "UnityEngine_UnityEngine_TextEditor_TextEditOp.h"
 // System.Collections.Generic.KeyValuePair`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
-struct  KeyValuePair_2_t8584 
+struct  KeyValuePair_2_t9119 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::key
 	Event_t797 * ___key_0;

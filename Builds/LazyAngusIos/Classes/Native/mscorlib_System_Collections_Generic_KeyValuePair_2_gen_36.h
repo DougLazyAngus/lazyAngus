@@ -7,7 +7,7 @@ struct IndexedSet_1_t1088;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
-struct  KeyValuePair_2_t5907 
+struct  KeyValuePair_2_t6440 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::key
 	Canvas_t547 * ___key_0;

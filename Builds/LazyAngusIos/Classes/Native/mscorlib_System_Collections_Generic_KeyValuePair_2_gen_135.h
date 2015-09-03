@@ -7,7 +7,7 @@ struct NetworkAccessToken_t2830;
 // UnityEngine.Networking.Types.NetworkID
 #include "UnityEngine_UnityEngine_Networking_Types_NetworkID.h"
 // System.Collections.Generic.KeyValuePair`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>
-struct  KeyValuePair_2_t8525 
+struct  KeyValuePair_2_t9060 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::key
 	uint64_t ___key_0;

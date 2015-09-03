@@ -7,7 +7,7 @@ struct Func_3_t1211;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>>
-struct  KeyValuePair_2_t6110 
+struct  KeyValuePair_2_t6643 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>>::key
 	Tuple_2_t1458 * ___key_0;

@@ -8,4 +8,4 @@
 struct OnChangeEvent_t958;
 
 // System.Void UnityEngine.UI.InputField/OnChangeEvent::.ctor()
-extern "C" void OnChangeEvent__ctor_m5227 (OnChangeEvent_t958 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OnChangeEvent__ctor_m5231 (OnChangeEvent_t958 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

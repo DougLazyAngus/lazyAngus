@@ -3,7 +3,7 @@
 // System.Collections.Generic.IList`1<System.Object>
 struct IList_1_t1392;
 // System.Func`2<System.Object,System.Single>
-struct Func_2_t5959;
+struct Func_2_t6492;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.FlexibleListWrapper`2<System.Single,System.Object>
@@ -14,5 +14,5 @@ struct  FlexibleListWrapper_2_t1734  : public Object_t
 };
 struct FlexibleListWrapper_2_t1734_StaticFields{
 	// System.Func`2<TIn,TOut> Parse.Internal.FlexibleListWrapper`2<System.Single,System.Object>::CS$<>9__CachedAnonymousMethodDelegate1
-	Func_2_t5959 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_1;
+	Func_2_t6492 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_1;
 };

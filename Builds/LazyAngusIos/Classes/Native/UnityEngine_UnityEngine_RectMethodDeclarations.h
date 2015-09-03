@@ -18,48 +18,48 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_Vector3.h"
 
 // System.Void UnityEngine.Rect::.ctor(System.Single,System.Single,System.Single,System.Single)
-extern "C" void Rect__ctor_m3828 (Rect_t708 * __this, float ___left, float ___top, float ___width, float ___height, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Rect__ctor_m3831 (Rect_t708 * __this, float ___left, float ___top, float ___width, float ___height, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rect::.ctor(UnityEngine.Rect)
-extern "C" void Rect__ctor_m9290 (Rect_t708 * __this, Rect_t708  ___source, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Rect__ctor_m9293 (Rect_t708 * __this, Rect_t708  ___source, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Rect::get_x()
-extern "C" float Rect_get_x_m3827 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Rect_get_x_m3830 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rect::set_x(System.Single)
-extern "C" void Rect_set_x_m4299 (Rect_t708 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Rect_set_x_m4302 (Rect_t708 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Rect::get_y()
-extern "C" float Rect_get_y_m3826 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Rect_get_y_m3829 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rect::set_y(System.Single)
-extern "C" void Rect_set_y_m4300 (Rect_t708 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Rect_set_y_m4303 (Rect_t708 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Rect::get_position()
-extern "C" Vector2_t110  Rect_get_position_m6128 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector2_t110  Rect_get_position_m6132 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Rect::get_center()
-extern "C" Vector2_t110  Rect_get_center_m6237 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector2_t110  Rect_get_center_m6241 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Rect::get_width()
-extern "C" float Rect_get_width_m4182 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Rect_get_width_m4185 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rect::set_width(System.Single)
-extern "C" void Rect_set_width_m4297 (Rect_t708 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Rect_set_width_m4300 (Rect_t708 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Rect::get_height()
-extern "C" float Rect_get_height_m4183 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Rect_get_height_m4186 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rect::set_height(System.Single)
-extern "C" void Rect_set_height_m4298 (Rect_t708 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Rect_set_height_m4301 (Rect_t708 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Rect::get_size()
-extern "C" Vector2_t110  Rect_get_size_m6125 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector2_t110  Rect_get_size_m6129 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Rect::get_xMin()
-extern "C" float Rect_get_xMin_m6145 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Rect_get_xMin_m6149 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Rect::get_yMin()
-extern "C" float Rect_get_yMin_m6144 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Rect_get_yMin_m6148 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Rect::get_xMax()
-extern "C" float Rect_get_xMax_m6136 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Rect_get_xMax_m6140 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Rect::get_yMax()
-extern "C" float Rect_get_yMax_m6137 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Rect_get_yMax_m6141 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Rect::ToString()
-extern "C" String_t* Rect_ToString_m9291 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Rect_ToString_m9294 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Rect::Contains(UnityEngine.Vector2)
-extern "C" bool Rect_Contains_m4175 (Rect_t708 * __this, Vector2_t110  ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Rect_Contains_m4178 (Rect_t708 * __this, Vector2_t110  ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Rect::Contains(UnityEngine.Vector3)
-extern "C" bool Rect_Contains_m9292 (Rect_t708 * __this, Vector3_t538  ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Rect_Contains_m9295 (Rect_t708 * __this, Vector3_t538  ___point, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Rect::GetHashCode()
-extern "C" int32_t Rect_GetHashCode_m9293 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Rect_GetHashCode_m9296 (Rect_t708 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Rect::Equals(System.Object)
-extern "C" bool Rect_Equals_m9294 (Rect_t708 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Rect_Equals_m9297 (Rect_t708 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Rect::op_Equality(UnityEngine.Rect,UnityEngine.Rect)
-extern "C" bool Rect_op_Equality_m6229 (Object_t * __this /* static, unused */, Rect_t708  ___lhs, Rect_t708  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Rect_op_Equality_m6233 (Object_t * __this /* static, unused */, Rect_t708  ___lhs, Rect_t708  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;

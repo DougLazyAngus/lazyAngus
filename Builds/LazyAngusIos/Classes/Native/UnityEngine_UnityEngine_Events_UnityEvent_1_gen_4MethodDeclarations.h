@@ -7,7 +7,7 @@
 // UnityEngine.Events.UnityEvent`1<System.Boolean>
 struct UnityEvent_1_t998;
 // UnityEngine.Events.UnityAction`1<System.Boolean>
-struct UnityAction_1_t5946;
+struct UnityAction_1_t6479;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.String
@@ -20,16 +20,16 @@ struct BaseInvokableCall_t2900;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Boolean>::.ctor()
 // UnityEngine.Events.UnityEvent`1<System.Byte>
 #include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen_6MethodDeclarations.h"
-#define UnityEvent_1__ctor_m6298(__this, method) (( void (*) (UnityEvent_1_t998 *, const MethodInfo*))UnityEvent_1__ctor_m30509_gshared)(__this, method)
+#define UnityEvent_1__ctor_m6302(__this, method) (( void (*) (UnityEvent_1_t998 *, const MethodInfo*))UnityEvent_1__ctor_m34731_gshared)(__this, method)
 // System.Void UnityEngine.Events.UnityEvent`1<System.Boolean>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-#define UnityEvent_1_AddListener_m30510(__this, ___call, method) (( void (*) (UnityEvent_1_t998 *, UnityAction_1_t5946 *, const MethodInfo*))UnityEvent_1_AddListener_m30511_gshared)(__this, ___call, method)
+#define UnityEvent_1_AddListener_m34732(__this, ___call, method) (( void (*) (UnityEvent_1_t998 *, UnityAction_1_t6479 *, const MethodInfo*))UnityEvent_1_AddListener_m34733_gshared)(__this, ___call, method)
 // System.Void UnityEngine.Events.UnityEvent`1<System.Boolean>::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)
-#define UnityEvent_1_RemoveListener_m30512(__this, ___call, method) (( void (*) (UnityEvent_1_t998 *, UnityAction_1_t5946 *, const MethodInfo*))UnityEvent_1_RemoveListener_m30513_gshared)(__this, ___call, method)
+#define UnityEvent_1_RemoveListener_m34734(__this, ___call, method) (( void (*) (UnityEvent_1_t998 *, UnityAction_1_t6479 *, const MethodInfo*))UnityEvent_1_RemoveListener_m34735_gshared)(__this, ___call, method)
 // System.Reflection.MethodInfo UnityEngine.Events.UnityEvent`1<System.Boolean>::FindMethod_Impl(System.String,System.Object)
-#define UnityEvent_1_FindMethod_Impl_m6493(__this, ___name, ___targetObj, method) (( MethodInfo_t * (*) (UnityEvent_1_t998 *, String_t*, Object_t *, const MethodInfo*))UnityEvent_1_FindMethod_Impl_m30514_gshared)(__this, ___name, ___targetObj, method)
+#define UnityEvent_1_FindMethod_Impl_m6497(__this, ___name, ___targetObj, method) (( MethodInfo_t * (*) (UnityEvent_1_t998 *, String_t*, Object_t *, const MethodInfo*))UnityEvent_1_FindMethod_Impl_m34736_gshared)(__this, ___name, ___targetObj, method)
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`1<System.Boolean>::GetDelegate(System.Object,System.Reflection.MethodInfo)
-#define UnityEvent_1_GetDelegate_m6494(__this, ___target, ___theFunction, method) (( BaseInvokableCall_t2900 * (*) (UnityEvent_1_t998 *, Object_t *, MethodInfo_t *, const MethodInfo*))UnityEvent_1_GetDelegate_m30515_gshared)(__this, ___target, ___theFunction, method)
+#define UnityEvent_1_GetDelegate_m6498(__this, ___target, ___theFunction, method) (( BaseInvokableCall_t2900 * (*) (UnityEvent_1_t998 *, Object_t *, MethodInfo_t *, const MethodInfo*))UnityEvent_1_GetDelegate_m34737_gshared)(__this, ___target, ___theFunction, method)
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`1<System.Boolean>::GetDelegate(UnityEngine.Events.UnityAction`1<T0>)
-#define UnityEvent_1_GetDelegate_m30516(__this /* static, unused */, ___action, method) (( BaseInvokableCall_t2900 * (*) (Object_t * /* static, unused */, UnityAction_1_t5946 *, const MethodInfo*))UnityEvent_1_GetDelegate_m30517_gshared)(__this /* static, unused */, ___action, method)
+#define UnityEvent_1_GetDelegate_m34738(__this /* static, unused */, ___action, method) (( BaseInvokableCall_t2900 * (*) (Object_t * /* static, unused */, UnityAction_1_t6479 *, const MethodInfo*))UnityEvent_1_GetDelegate_m34739_gshared)(__this /* static, unused */, ___action, method)
 // System.Void UnityEngine.Events.UnityEvent`1<System.Boolean>::Invoke(T0)
-#define UnityEvent_1_Invoke_m6299(__this, ___arg0, method) (( void (*) (UnityEvent_1_t998 *, bool, const MethodInfo*))UnityEvent_1_Invoke_m30518_gshared)(__this, ___arg0, method)
+#define UnityEvent_1_Invoke_m6303(__this, ___arg0, method) (( void (*) (UnityEvent_1_t998 *, bool, const MethodInfo*))UnityEvent_1_Invoke_m34740_gshared)(__this, ___arg0, method)

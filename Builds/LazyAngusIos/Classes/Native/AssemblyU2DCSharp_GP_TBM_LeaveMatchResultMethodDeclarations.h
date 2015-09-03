@@ -10,4 +10,4 @@ struct GP_TBM_LeaveMatchResult_t249;
 struct String_t;
 
 // System.Void GP_TBM_LeaveMatchResult::.ctor(System.String)
-extern "C" void GP_TBM_LeaveMatchResult__ctor_m1400 (GP_TBM_LeaveMatchResult_t249 * __this, String_t* ___code, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GP_TBM_LeaveMatchResult__ctor_m1402 (GP_TBM_LeaveMatchResult_t249 * __this, String_t* ___code, const MethodInfo* method) IL2CPP_METHOD_ATTR;

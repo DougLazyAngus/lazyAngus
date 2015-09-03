@@ -5,7 +5,7 @@ struct String_t;
 // System.Globalization.CultureInfo
 struct CultureInfo_t782;
 // System.Reflection.StrongNameKeyPair
-struct StrongNameKeyPair_t4546;
+struct StrongNameKeyPair_t5008;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Version
@@ -42,7 +42,7 @@ struct  AssemblyName_t1482  : public Object_t
 	// System.Configuration.Assemblies.AssemblyHashAlgorithm System.Reflection.AssemblyName::hashalg
 	int32_t ___hashalg_8;
 	// System.Reflection.StrongNameKeyPair System.Reflection.AssemblyName::keypair
-	StrongNameKeyPair_t4546 * ___keypair_9;
+	StrongNameKeyPair_t5008 * ___keypair_9;
 	// System.Byte[] System.Reflection.AssemblyName::publicKey
 	ByteU5BU5D_t66* ___publicKey_10;
 	// System.Byte[] System.Reflection.AssemblyName::keyToken

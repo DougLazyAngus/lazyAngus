@@ -12,10 +12,10 @@ struct Text_t502;
 struct Font_t929;
 
 // System.Void UnityEngine.UI.FontUpdateTracker::.cctor()
-extern "C" void FontUpdateTracker__cctor_m5108 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontUpdateTracker__cctor_m5112 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontUpdateTracker::TrackText(UnityEngine.UI.Text)
-extern "C" void FontUpdateTracker_TrackText_m5109 (Object_t * __this /* static, unused */, Text_t502 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontUpdateTracker_TrackText_m5113 (Object_t * __this /* static, unused */, Text_t502 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontUpdateTracker::RebuildForFont(UnityEngine.Font)
-extern "C" void FontUpdateTracker_RebuildForFont_m5110 (Object_t * __this /* static, unused */, Font_t929 * ___f, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontUpdateTracker_RebuildForFont_m5114 (Object_t * __this /* static, unused */, Font_t929 * ___f, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontUpdateTracker::UntrackText(UnityEngine.UI.Text)
-extern "C" void FontUpdateTracker_UntrackText_m5111 (Object_t * __this /* static, unused */, Text_t502 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontUpdateTracker_UntrackText_m5115 (Object_t * __this /* static, unused */, Text_t502 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;

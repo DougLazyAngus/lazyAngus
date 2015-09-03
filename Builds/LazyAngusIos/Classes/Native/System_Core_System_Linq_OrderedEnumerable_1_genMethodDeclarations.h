@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Linq.OrderedEnumerable`1<System.Object>
-struct OrderedEnumerable_1_t6098;
+struct OrderedEnumerable_1_t6631;
 // System.Collections.Generic.IEnumerable`1<System.Object>
 struct IEnumerable_1_t724;
 // System.Collections.IEnumerator
@@ -13,16 +13,16 @@ struct IEnumerator_t48;
 // System.Collections.Generic.IEnumerator`1<System.Object>
 struct IEnumerator_1_t105;
 // System.Linq.SortContext`1<System.Object>
-struct SortContext_1_t6100;
+struct SortContext_1_t6633;
 
 // System.Void System.Linq.OrderedEnumerable`1<System.Object>::.ctor(System.Collections.Generic.IEnumerable`1<TElement>)
-extern "C" void OrderedEnumerable_1__ctor_m32226_gshared (OrderedEnumerable_1_t6098 * __this, Object_t* ___source, const MethodInfo* method);
-#define OrderedEnumerable_1__ctor_m32226(__this, ___source, method) (( void (*) (OrderedEnumerable_1_t6098 *, Object_t*, const MethodInfo*))OrderedEnumerable_1__ctor_m32226_gshared)(__this, ___source, method)
+extern "C" void OrderedEnumerable_1__ctor_m36456_gshared (OrderedEnumerable_1_t6631 * __this, Object_t* ___source, const MethodInfo* method);
+#define OrderedEnumerable_1__ctor_m36456(__this, ___source, method) (( void (*) (OrderedEnumerable_1_t6631 *, Object_t*, const MethodInfo*))OrderedEnumerable_1__ctor_m36456_gshared)(__this, ___source, method)
 // System.Collections.IEnumerator System.Linq.OrderedEnumerable`1<System.Object>::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * OrderedEnumerable_1_System_Collections_IEnumerable_GetEnumerator_m32227_gshared (OrderedEnumerable_1_t6098 * __this, const MethodInfo* method);
-#define OrderedEnumerable_1_System_Collections_IEnumerable_GetEnumerator_m32227(__this, method) (( Object_t * (*) (OrderedEnumerable_1_t6098 *, const MethodInfo*))OrderedEnumerable_1_System_Collections_IEnumerable_GetEnumerator_m32227_gshared)(__this, method)
+extern "C" Object_t * OrderedEnumerable_1_System_Collections_IEnumerable_GetEnumerator_m36457_gshared (OrderedEnumerable_1_t6631 * __this, const MethodInfo* method);
+#define OrderedEnumerable_1_System_Collections_IEnumerable_GetEnumerator_m36457(__this, method) (( Object_t * (*) (OrderedEnumerable_1_t6631 *, const MethodInfo*))OrderedEnumerable_1_System_Collections_IEnumerable_GetEnumerator_m36457_gshared)(__this, method)
 // System.Collections.Generic.IEnumerator`1<TElement> System.Linq.OrderedEnumerable`1<System.Object>::GetEnumerator()
-extern "C" Object_t* OrderedEnumerable_1_GetEnumerator_m32228_gshared (OrderedEnumerable_1_t6098 * __this, const MethodInfo* method);
-#define OrderedEnumerable_1_GetEnumerator_m32228(__this, method) (( Object_t* (*) (OrderedEnumerable_1_t6098 *, const MethodInfo*))OrderedEnumerable_1_GetEnumerator_m32228_gshared)(__this, method)
+extern "C" Object_t* OrderedEnumerable_1_GetEnumerator_m36458_gshared (OrderedEnumerable_1_t6631 * __this, const MethodInfo* method);
+#define OrderedEnumerable_1_GetEnumerator_m36458(__this, method) (( Object_t* (*) (OrderedEnumerable_1_t6631 *, const MethodInfo*))OrderedEnumerable_1_GetEnumerator_m36458_gshared)(__this, method)
 // System.Linq.SortContext`1<TElement> System.Linq.OrderedEnumerable`1<System.Object>::CreateContext(System.Linq.SortContext`1<TElement>)
 // System.Collections.Generic.IEnumerable`1<TElement> System.Linq.OrderedEnumerable`1<System.Object>::Sort(System.Collections.Generic.IEnumerable`1<TElement>)

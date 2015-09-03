@@ -7,7 +7,7 @@ struct ArrayList_t712;
 // Mono.Xml.DTDEntityBase
 #include "System_Xml_Mono_Xml_DTDEntityBase.h"
 // Mono.Xml.DTDEntityDeclaration
-struct  DTDEntityDeclaration_t3212  : public DTDEntityBase_t3211
+struct  DTDEntityDeclaration_t3473  : public DTDEntityBase_t3472
 {
 	// System.String Mono.Xml.DTDEntityDeclaration::entityValue
 	String_t* ___entityValue_15;

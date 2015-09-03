@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<GameAnalyticsSDK.Game>
-struct List_1_t488;
-// GameAnalyticsSDK.Game
-struct Game_t490;
+// System.Collections.Generic.List`1<GameAnalyticsSDK.Settings/HelpTypes>
+struct List_1_t486;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<GameAnalyticsSDK.Game>
-struct  Enumerator_t5719 
+// GameAnalyticsSDK.Settings/HelpTypes
+#include "AssemblyU2DCSharp_GameAnalyticsSDK_Settings_HelpTypes.h"
+// System.Collections.Generic.List`1/Enumerator<GameAnalyticsSDK.Settings/HelpTypes>
+struct  Enumerator_t6245 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<GameAnalyticsSDK.Game>::l
-	List_1_t488 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<GameAnalyticsSDK.Game>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<GameAnalyticsSDK.Settings/HelpTypes>::l
+	List_1_t486 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<GameAnalyticsSDK.Settings/HelpTypes>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<GameAnalyticsSDK.Game>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<GameAnalyticsSDK.Settings/HelpTypes>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<GameAnalyticsSDK.Game>::current
-	Game_t490 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<GameAnalyticsSDK.Settings/HelpTypes>::current
+	int32_t ___current_3;
 };

@@ -10,8 +10,8 @@ struct ObsoleteAttribute_t821;
 struct String_t;
 
 // System.Void System.ObsoleteAttribute::.ctor()
-extern "C" void ObsoleteAttribute__ctor_m4627 (ObsoleteAttribute_t821 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObsoleteAttribute__ctor_m4630 (ObsoleteAttribute_t821 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ObsoleteAttribute::.ctor(System.String)
-extern "C" void ObsoleteAttribute__ctor_m4609 (ObsoleteAttribute_t821 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObsoleteAttribute__ctor_m4612 (ObsoleteAttribute_t821 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ObsoleteAttribute::.ctor(System.String,System.Boolean)
-extern "C" void ObsoleteAttribute__ctor_m6383 (ObsoleteAttribute_t821 * __this, String_t* ___message, bool ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObsoleteAttribute__ctor_m6387 (ObsoleteAttribute_t821 * __this, String_t* ___message, bool ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;

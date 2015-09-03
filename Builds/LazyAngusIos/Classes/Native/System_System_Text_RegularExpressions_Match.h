@@ -3,7 +3,7 @@
 // System.Text.RegularExpressions.Regex
 struct Regex_t801;
 // System.Text.RegularExpressions.IMachine
-struct IMachine_t4136;
+struct IMachine_t4502;
 // System.Text.RegularExpressions.GroupCollection
 struct GroupCollection_t1454;
 // System.Text.RegularExpressions.Match

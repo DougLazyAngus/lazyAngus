@@ -15,6 +15,6 @@ struct String_t;
 struct Type_t;
 
 // UnityEngine.Object UnityEngine.Resources::Load(System.String)
-extern "C" Object_t717 * Resources_Load_m3927 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t717 * Resources_Load_m3930 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Object UnityEngine.Resources::Load(System.String,System.Type)
-extern "C" Object_t717 * Resources_Load_m4288 (Object_t * __this /* static, unused */, String_t* ___path, Type_t * ___systemTypeInstance, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t717 * Resources_Load_m4291 (Object_t * __this /* static, unused */, String_t* ___path, Type_t * ___systemTypeInstance, const MethodInfo* method) IL2CPP_METHOD_ATTR;

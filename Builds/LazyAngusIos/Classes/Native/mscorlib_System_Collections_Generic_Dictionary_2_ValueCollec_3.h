@@ -8,5 +8,5 @@
 struct  Enumerator_t2946 
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.String,UnityEngine.GUIStyle>::host_enumerator
-	Enumerator_t8444  ___host_enumerator_0;
+	Enumerator_t8979  ___host_enumerator_0;
 };

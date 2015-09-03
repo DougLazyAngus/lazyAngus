@@ -7,7 +7,7 @@ struct Task_1_t2454;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>
-struct  KeyValuePair_2_t6159 
+struct  KeyValuePair_2_t6692 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::key
 	String_t* ___key_0;

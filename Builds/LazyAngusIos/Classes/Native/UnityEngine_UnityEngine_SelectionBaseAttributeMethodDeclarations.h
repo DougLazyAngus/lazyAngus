@@ -8,4 +8,4 @@
 struct SelectionBaseAttribute_t1133;
 
 // System.Void UnityEngine.SelectionBaseAttribute::.ctor()
-extern "C" void SelectionBaseAttribute__ctor_m6422 (SelectionBaseAttribute_t1133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SelectionBaseAttribute__ctor_m6426 (SelectionBaseAttribute_t1133 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

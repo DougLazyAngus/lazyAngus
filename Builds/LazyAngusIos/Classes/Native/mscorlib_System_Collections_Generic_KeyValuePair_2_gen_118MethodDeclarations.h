@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.Dictionary`2<System.String,System.Boolean>>
-struct KeyValuePair_2_t8220;
+struct KeyValuePair_2_t8755;
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2<System.String,System.Boolean>
@@ -14,14 +14,14 @@ struct Dictionary_2_t1514;
 // System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.Dictionary`2<System.String,System.Boolean>>::.ctor(TKey,TValue)
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_0MethodDeclarations.h"
-#define KeyValuePair_2__ctor_m58837(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t8220 *, String_t*, Dictionary_2_t1514 *, const MethodInfo*))KeyValuePair_2__ctor_m22051_gshared)(__this, ___key, ___value, method)
+#define KeyValuePair_2__ctor_m63099(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t8755 *, String_t*, Dictionary_2_t1514 *, const MethodInfo*))KeyValuePair_2__ctor_m26242_gshared)(__this, ___key, ___value, method)
 // TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.Dictionary`2<System.String,System.Boolean>>::get_Key()
-#define KeyValuePair_2_get_Key_m58838(__this, method) (( String_t* (*) (KeyValuePair_2_t8220 *, const MethodInfo*))KeyValuePair_2_get_Key_m22052_gshared)(__this, method)
+#define KeyValuePair_2_get_Key_m63100(__this, method) (( String_t* (*) (KeyValuePair_2_t8755 *, const MethodInfo*))KeyValuePair_2_get_Key_m26243_gshared)(__this, method)
 // System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.Dictionary`2<System.String,System.Boolean>>::set_Key(TKey)
-#define KeyValuePair_2_set_Key_m58839(__this, ___value, method) (( void (*) (KeyValuePair_2_t8220 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Key_m22053_gshared)(__this, ___value, method)
+#define KeyValuePair_2_set_Key_m63101(__this, ___value, method) (( void (*) (KeyValuePair_2_t8755 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Key_m26244_gshared)(__this, ___value, method)
 // TValue System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.Dictionary`2<System.String,System.Boolean>>::get_Value()
-#define KeyValuePair_2_get_Value_m58840(__this, method) (( Dictionary_2_t1514 * (*) (KeyValuePair_2_t8220 *, const MethodInfo*))KeyValuePair_2_get_Value_m22054_gshared)(__this, method)
+#define KeyValuePair_2_get_Value_m63102(__this, method) (( Dictionary_2_t1514 * (*) (KeyValuePair_2_t8755 *, const MethodInfo*))KeyValuePair_2_get_Value_m26245_gshared)(__this, method)
 // System.Void System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.Dictionary`2<System.String,System.Boolean>>::set_Value(TValue)
-#define KeyValuePair_2_set_Value_m58841(__this, ___value, method) (( void (*) (KeyValuePair_2_t8220 *, Dictionary_2_t1514 *, const MethodInfo*))KeyValuePair_2_set_Value_m22055_gshared)(__this, ___value, method)
+#define KeyValuePair_2_set_Value_m63103(__this, ___value, method) (( void (*) (KeyValuePair_2_t8755 *, Dictionary_2_t1514 *, const MethodInfo*))KeyValuePair_2_set_Value_m26246_gshared)(__this, ___value, method)
 // System.String System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.Dictionary`2<System.String,System.Boolean>>::ToString()
-#define KeyValuePair_2_ToString_m58842(__this, method) (( String_t* (*) (KeyValuePair_2_t8220 *, const MethodInfo*))KeyValuePair_2_ToString_m22056_gshared)(__this, method)
+#define KeyValuePair_2_ToString_m63104(__this, method) (( String_t* (*) (KeyValuePair_2_t8755 *, const MethodInfo*))KeyValuePair_2_ToString_m26247_gshared)(__this, method)

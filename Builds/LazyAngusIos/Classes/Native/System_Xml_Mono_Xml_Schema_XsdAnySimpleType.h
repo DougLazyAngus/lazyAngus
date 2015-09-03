@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Xml.Schema.XsdAnySimpleType
-struct XsdAnySimpleType_t3115;
+struct XsdAnySimpleType_t3409;
 // System.Char[]
 struct CharU5BU5D_t711;
 // System.Xml.Schema.XmlSchemaDatatype
@@ -9,12 +9,12 @@ struct CharU5BU5D_t711;
 // System.Xml.Schema.XmlSchemaFacet/Facet
 #include "System_Xml_System_Xml_Schema_XmlSchemaFacet_Facet.h"
 // Mono.Xml.Schema.XsdAnySimpleType
-struct  XsdAnySimpleType_t3115  : public XmlSchemaDatatype_t3116
+struct  XsdAnySimpleType_t3409  : public XmlSchemaDatatype_t3469
 {
 };
-struct XsdAnySimpleType_t3115_StaticFields{
+struct XsdAnySimpleType_t3409_StaticFields{
 	// Mono.Xml.Schema.XsdAnySimpleType Mono.Xml.Schema.XsdAnySimpleType::instance
-	XsdAnySimpleType_t3115 * ___instance_55;
+	XsdAnySimpleType_t3409 * ___instance_55;
 	// System.Char[] Mono.Xml.Schema.XsdAnySimpleType::whitespaceArray
 	CharU5BU5D_t711* ___whitespaceArray_56;
 	// System.Xml.Schema.XmlSchemaFacet/Facet Mono.Xml.Schema.XsdAnySimpleType::booleanAllowedFacets

@@ -13,41 +13,41 @@ struct MemberInfo_t;
 // System.String
 struct String_t;
 // System.Reflection.Emit.ParameterBuilder
-struct ParameterBuilder_t4536;
+struct ParameterBuilder_t5079;
 // System.Object[]
 struct ObjectU5BU5D_t696;
 // System.Reflection.ParameterAttributes
 #include "mscorlib_System_Reflection_ParameterAttributes.h"
 
 // System.Void System.Reflection.ParameterInfo::.ctor()
-extern "C" void ParameterInfo__ctor_m18246 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParameterInfo__ctor_m22047 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.ParameterInfo::.ctor(System.Reflection.Emit.ParameterBuilder,System.Type,System.Reflection.MemberInfo,System.Int32)
-extern "C" void ParameterInfo__ctor_m18247 (ParameterInfo_t1400 * __this, ParameterBuilder_t4536 * ___pb, Type_t * ___type, MemberInfo_t * ___member, int32_t ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParameterInfo__ctor_m22048 (ParameterInfo_t1400 * __this, ParameterBuilder_t5079 * ___pb, Type_t * ___type, MemberInfo_t * ___member, int32_t ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.ParameterInfo::.ctor(System.Reflection.ParameterInfo,System.Reflection.MemberInfo)
-extern "C" void ParameterInfo__ctor_m18248 (ParameterInfo_t1400 * __this, ParameterInfo_t1400 * ___pinfo, MemberInfo_t * ___member, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParameterInfo__ctor_m22049 (ParameterInfo_t1400 * __this, ParameterInfo_t1400 * ___pinfo, MemberInfo_t * ___member, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.ParameterInfo::ToString()
-extern "C" String_t* ParameterInfo_ToString_m18249 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ParameterInfo_ToString_m22050 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.ParameterInfo::get_ParameterType()
-extern "C" Type_t * ParameterInfo_get_ParameterType_m18250 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * ParameterInfo_get_ParameterType_m22051 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.ParameterAttributes System.Reflection.ParameterInfo::get_Attributes()
-extern "C" int32_t ParameterInfo_get_Attributes_m18251 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ParameterInfo_get_Attributes_m22052 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.ParameterInfo::get_IsIn()
-extern "C" bool ParameterInfo_get_IsIn_m18252 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ParameterInfo_get_IsIn_m22053 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.ParameterInfo::get_IsOptional()
-extern "C" bool ParameterInfo_get_IsOptional_m18253 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ParameterInfo_get_IsOptional_m22054 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.ParameterInfo::get_IsOut()
-extern "C" bool ParameterInfo_get_IsOut_m18254 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ParameterInfo_get_IsOut_m22055 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.ParameterInfo::get_IsRetval()
-extern "C" bool ParameterInfo_get_IsRetval_m18255 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ParameterInfo_get_IsRetval_m22056 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MemberInfo System.Reflection.ParameterInfo::get_Member()
-extern "C" MemberInfo_t * ParameterInfo_get_Member_m18256 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MemberInfo_t * ParameterInfo_get_Member_m22057 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.ParameterInfo::get_Name()
-extern "C" String_t* ParameterInfo_get_Name_m18257 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ParameterInfo_get_Name_m22058 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Reflection.ParameterInfo::get_Position()
-extern "C" int32_t ParameterInfo_get_Position_m18258 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ParameterInfo_get_Position_m22059 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.ParameterInfo::GetCustomAttributes(System.Type,System.Boolean)
-extern "C" ObjectU5BU5D_t696* ParameterInfo_GetCustomAttributes_m18259 (ParameterInfo_t1400 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t696* ParameterInfo_GetCustomAttributes_m22060 (ParameterInfo_t1400 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.ParameterInfo::IsDefined(System.Type,System.Boolean)
-extern "C" bool ParameterInfo_IsDefined_m18260 (ParameterInfo_t1400 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ParameterInfo_IsDefined_m22061 (ParameterInfo_t1400 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.ParameterInfo::GetPseudoCustomAttributes()
-extern "C" ObjectU5BU5D_t696* ParameterInfo_GetPseudoCustomAttributes_m18261 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t696* ParameterInfo_GetPseudoCustomAttributes_m22062 (ParameterInfo_t1400 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -22,30 +22,30 @@ struct Task_1_t1404;
 #include "Parse_Unity_System_Threading_CancellationToken.h"
 
 // Parse.ParseConfig Parse.ParseConfig::get_CurrentConfig()
-extern "C" ParseConfig_t1252 * ParseConfig_get_CurrentConfig_m6847 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ParseConfig_t1252 * ParseConfig_get_CurrentConfig_m6851 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseConfig::set_CurrentConfig(Parse.ParseConfig)
-extern "C" void ParseConfig_set_CurrentConfig_m6848 (Object_t * __this /* static, unused */, ParseConfig_t1252 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseConfig_set_CurrentConfig_m6852 (Object_t * __this /* static, unused */, ParseConfig_t1252 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseConfig::ClearCurrentConfig()
-extern "C" void ParseConfig_ClearCurrentConfig_m6849 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseConfig_ClearCurrentConfig_m6853 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseConfig::ClearCurrentConfigInMemory()
-extern "C" void ParseConfig_ClearCurrentConfigInMemory_m6850 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseConfig_ClearCurrentConfigInMemory_m6854 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseConfig::.ctor()
-extern "C" void ParseConfig__ctor_m6851 (ParseConfig_t1252 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseConfig__ctor_m6855 (ParseConfig_t1252 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseConfig::.ctor(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
-extern "C" void ParseConfig__ctor_m6852 (ParseConfig_t1252 * __this, Dictionary_2_t312 * ___fetchedConfig, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseConfig__ctor_m6856 (ParseConfig_t1252 * __this, Dictionary_2_t312 * ___fetchedConfig, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<Parse.ParseConfig> Parse.ParseConfig::GetAsync()
-extern "C" Task_1_t1406 * ParseConfig_GetAsync_m6853 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1406 * ParseConfig_GetAsync_m6857 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<Parse.ParseConfig> Parse.ParseConfig::GetAsync(System.Threading.CancellationToken)
-extern "C" Task_1_t1406 * ParseConfig_GetAsync_m6854 (Object_t * __this /* static, unused */, CancellationToken_t1181  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1406 * ParseConfig_GetAsync_m6858 (Object_t * __this /* static, unused */, CancellationToken_t1181  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<Parse.ParseConfig> Parse.ParseConfig::GetAsync(System.Threading.Tasks.Task,System.Threading.CancellationToken)
-extern "C" Task_1_t1406 * ParseConfig_GetAsync_m6855 (Object_t * __this /* static, unused */, Task_t1227 * ___toAwait, CancellationToken_t1181  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1406 * ParseConfig_GetAsync_m6859 (Object_t * __this /* static, unused */, Task_t1227 * ___toAwait, CancellationToken_t1181  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Parse.ParseConfig Parse.ParseConfig::HandleFetchResult(System.Object)
-extern "C" ParseConfig_t1252 * ParseConfig_HandleFetchResult_m6856 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ParseConfig_t1252 * ParseConfig_HandleFetchResult_m6860 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseConfig::SaveCurrentConfigFromFetchedConfig(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
-extern "C" void ParseConfig_SaveCurrentConfigFromFetchedConfig_m6857 (Object_t * __this /* static, unused */, Dictionary_2_t312 * ___fetchedConfig, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseConfig_SaveCurrentConfigFromFetchedConfig_m6861 (Object_t * __this /* static, unused */, Dictionary_2_t312 * ___fetchedConfig, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Parse.ParseConfig::get_Item(System.String)
-extern "C" Object_t * ParseConfig_get_Item_m6858 (ParseConfig_t1252 * __this, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ParseConfig_get_Item_m6862 (ParseConfig_t1252 * __this, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Parse.ParseConfig Parse.ParseConfig::<GetAsync>b__4(System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>)
-extern "C" ParseConfig_t1252 * ParseConfig_U3CGetAsyncU3Eb__4_m6859 (Object_t * __this /* static, unused */, Task_1_t1404 * ___task, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ParseConfig_t1252 * ParseConfig_U3CGetAsyncU3Eb__4_m6863 (Object_t * __this /* static, unused */, Task_1_t1404 * ___task, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseConfig::.cctor()
-extern "C" void ParseConfig__cctor_m6860 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseConfig__cctor_m6864 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

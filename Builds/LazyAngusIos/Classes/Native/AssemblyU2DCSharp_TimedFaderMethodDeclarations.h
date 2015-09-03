@@ -8,8 +8,8 @@
 struct TimedFader_t677;
 
 // System.Void TimedFader::.ctor()
-extern "C" void TimedFader__ctor_m3685 (TimedFader_t677 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TimedFader__ctor_m3688 (TimedFader_t677 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TimedFader::Awake()
-extern "C" void TimedFader_Awake_m3686 (TimedFader_t677 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TimedFader_Awake_m3689 (TimedFader_t677 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TimedFader::Update()
-extern "C" void TimedFader_Update_m3687 (TimedFader_t677 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TimedFader_Update_m3690 (TimedFader_t677 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -4,26 +4,26 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo>
-struct InternalEnumerator_1_t8621;
+// System.Array/InternalEnumerator`1<Mono.Xml.Schema.XsdIdentityPath>
+struct InternalEnumerator_1_t9157;
 // System.Object
 struct Object_t;
-// Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo
-struct XmlAttributeTokenInfo_t3281;
+// Mono.Xml.Schema.XsdIdentityPath
+struct XsdIdentityPath_t3406;
 // System.Array
 struct Array_t;
 
-// System.Void System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo>::.ctor(System.Array)
+// System.Void System.Array/InternalEnumerator`1<Mono.Xml.Schema.XsdIdentityPath>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m63406(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8621 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m21348_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo>::System.Collections.IEnumerator.Reset()
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m63407(__this, method) (( void (*) (InternalEnumerator_1_t8621 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m21349_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m63408(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8621 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m21350_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo>::Dispose()
-#define InternalEnumerator_1_Dispose_m63409(__this, method) (( void (*) (InternalEnumerator_1_t8621 *, const MethodInfo*))InternalEnumerator_1_Dispose_m21351_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m63410(__this, method) (( bool (*) (InternalEnumerator_1_t8621 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m21352_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo>::get_Current()
-#define InternalEnumerator_1_get_Current_m63411(__this, method) (( XmlAttributeTokenInfo_t3281 * (*) (InternalEnumerator_1_t8621 *, const MethodInfo*))InternalEnumerator_1_get_Current_m21353_gshared)(__this, method)
+#define InternalEnumerator_1__ctor_m67707(__this, ___array, method) (( void (*) (InternalEnumerator_1_t9157 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m25537_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<Mono.Xml.Schema.XsdIdentityPath>::System.Collections.IEnumerator.Reset()
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m67708(__this, method) (( void (*) (InternalEnumerator_1_t9157 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m25538_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<Mono.Xml.Schema.XsdIdentityPath>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m67709(__this, method) (( Object_t * (*) (InternalEnumerator_1_t9157 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m25539_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<Mono.Xml.Schema.XsdIdentityPath>::Dispose()
+#define InternalEnumerator_1_Dispose_m67710(__this, method) (( void (*) (InternalEnumerator_1_t9157 *, const MethodInfo*))InternalEnumerator_1_Dispose_m25540_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<Mono.Xml.Schema.XsdIdentityPath>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m67711(__this, method) (( bool (*) (InternalEnumerator_1_t9157 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m25541_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<Mono.Xml.Schema.XsdIdentityPath>::get_Current()
+#define InternalEnumerator_1_get_Current_m67712(__this, method) (( XsdIdentityPath_t3406 * (*) (InternalEnumerator_1_t9157 *, const MethodInfo*))InternalEnumerator_1_get_Current_m25542_gshared)(__this, method)

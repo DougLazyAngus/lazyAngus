@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.GC
-struct  GC_t4831  : public Object_t
+struct  GC_t4885  : public Object_t
 {
 };

@@ -8,4 +8,4 @@
 struct ThreadStaticAttribute_t2191;
 
 // System.Void System.ThreadStaticAttribute::.ctor()
-extern "C" void ThreadStaticAttribute__ctor_m8041 (ThreadStaticAttribute_t2191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThreadStaticAttribute__ctor_m8044 (ThreadStaticAttribute_t2191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

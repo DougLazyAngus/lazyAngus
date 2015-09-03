@@ -18,24 +18,24 @@ struct StringU5BU5D_t75;
 #include "UnityEngine_UnityEngine_SocialPlatforms_GameCenter_GcScoreDa.h"
 
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard::.ctor(UnityEngine.SocialPlatforms.Impl.Leaderboard)
-extern "C" void GcLeaderboard__ctor_m8917 (GcLeaderboard_t2716 * __this, Leaderboard_t2715 * ___board, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GcLeaderboard__ctor_m8920 (GcLeaderboard_t2716 * __this, Leaderboard_t2715 * ___board, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard::Finalize()
-extern "C" void GcLeaderboard_Finalize_m8918 (GcLeaderboard_t2716 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GcLeaderboard_Finalize_m8921 (GcLeaderboard_t2716 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard::Contains(UnityEngine.SocialPlatforms.Impl.Leaderboard)
-extern "C" bool GcLeaderboard_Contains_m8919 (GcLeaderboard_t2716 * __this, Leaderboard_t2715 * ___board, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool GcLeaderboard_Contains_m8922 (GcLeaderboard_t2716 * __this, Leaderboard_t2715 * ___board, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard::SetScores(UnityEngine.SocialPlatforms.GameCenter.GcScoreData[])
-extern "C" void GcLeaderboard_SetScores_m8920 (GcLeaderboard_t2716 * __this, GcScoreDataU5BU5D_t2917* ___scoreDatas, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GcLeaderboard_SetScores_m8923 (GcLeaderboard_t2716 * __this, GcScoreDataU5BU5D_t2917* ___scoreDatas, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard::SetLocalScore(UnityEngine.SocialPlatforms.GameCenter.GcScoreData)
-extern "C" void GcLeaderboard_SetLocalScore_m8921 (GcLeaderboard_t2716 * __this, GcScoreData_t2864  ___scoreData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GcLeaderboard_SetLocalScore_m8924 (GcLeaderboard_t2716 * __this, GcScoreData_t2864  ___scoreData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard::SetMaxRange(System.UInt32)
-extern "C" void GcLeaderboard_SetMaxRange_m8922 (GcLeaderboard_t2716 * __this, uint32_t ___maxRange, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GcLeaderboard_SetMaxRange_m8925 (GcLeaderboard_t2716 * __this, uint32_t ___maxRange, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard::SetTitle(System.String)
-extern "C" void GcLeaderboard_SetTitle_m8923 (GcLeaderboard_t2716 * __this, String_t* ___title, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GcLeaderboard_SetTitle_m8926 (GcLeaderboard_t2716 * __this, String_t* ___title, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard::Internal_LoadScores(System.String,System.Int32,System.Int32,System.Int32,System.Int32)
-extern "C" void GcLeaderboard_Internal_LoadScores_m8924 (GcLeaderboard_t2716 * __this, String_t* ___category, int32_t ___from, int32_t ___count, int32_t ___playerScope, int32_t ___timeScope, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GcLeaderboard_Internal_LoadScores_m8927 (GcLeaderboard_t2716 * __this, String_t* ___category, int32_t ___from, int32_t ___count, int32_t ___playerScope, int32_t ___timeScope, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard::Internal_LoadScoresWithUsers(System.String,System.Int32,System.String[])
-extern "C" void GcLeaderboard_Internal_LoadScoresWithUsers_m8925 (GcLeaderboard_t2716 * __this, String_t* ___category, int32_t ___timeScope, StringU5BU5D_t75* ___userIDs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GcLeaderboard_Internal_LoadScoresWithUsers_m8928 (GcLeaderboard_t2716 * __this, String_t* ___category, int32_t ___timeScope, StringU5BU5D_t75* ___userIDs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard::Loading()
-extern "C" bool GcLeaderboard_Loading_m8926 (GcLeaderboard_t2716 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool GcLeaderboard_Loading_m8929 (GcLeaderboard_t2716 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard::Dispose()
-extern "C" void GcLeaderboard_Dispose_m8927 (GcLeaderboard_t2716 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GcLeaderboard_Dispose_m8930 (GcLeaderboard_t2716 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

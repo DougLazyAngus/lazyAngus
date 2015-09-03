@@ -5,7 +5,7 @@
 // System.Diagnostics.DebuggerBrowsableState
 #include "mscorlib_System_Diagnostics_DebuggerBrowsableState.h"
 // System.Diagnostics.DebuggerBrowsableState
-struct  DebuggerBrowsableState_t4475 
+struct  DebuggerBrowsableState_t4961 
 {
 	// System.Int32 System.Diagnostics.DebuggerBrowsableState::value__
 	int32_t ___value___1;

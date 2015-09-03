@@ -18,10 +18,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`3<System.AsyncCallback,System.Object,System.IAsyncResult>::.ctor(System.Object,System.IntPtr)
 // System.Func`3<System.Object,System.Object,System.Object>
 #include "System_Core_System_Func_3_genMethodDeclarations.h"
-#define Func_3__ctor_m31107(__this, ___object, ___method, method) (( void (*) (Func_3_t1433 *, Object_t *, IntPtr_t, const MethodInfo*))Func_3__ctor_m7534_gshared)(__this, ___object, ___method, method)
+#define Func_3__ctor_m35330(__this, ___object, ___method, method) (( void (*) (Func_3_t1433 *, Object_t *, IntPtr_t, const MethodInfo*))Func_3__ctor_m7538_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`3<System.AsyncCallback,System.Object,System.IAsyncResult>::Invoke(T1,T2)
-#define Func_3_Invoke_m31108(__this, ___arg1, ___arg2, method) (( Object_t * (*) (Func_3_t1433 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_3_Invoke_m31109_gshared)(__this, ___arg1, ___arg2, method)
+#define Func_3_Invoke_m35331(__this, ___arg1, ___arg2, method) (( Object_t * (*) (Func_3_t1433 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_3_Invoke_m35332_gshared)(__this, ___arg1, ___arg2, method)
 // System.IAsyncResult System.Func`3<System.AsyncCallback,System.Object,System.IAsyncResult>::BeginInvoke(T1,T2,System.AsyncCallback,System.Object)
-#define Func_3_BeginInvoke_m31110(__this, ___arg1, ___arg2, ___callback, ___object, method) (( Object_t * (*) (Func_3_t1433 *, AsyncCallback_t386 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_3_BeginInvoke_m31111_gshared)(__this, ___arg1, ___arg2, ___callback, ___object, method)
+#define Func_3_BeginInvoke_m35333(__this, ___arg1, ___arg2, ___callback, ___object, method) (( Object_t * (*) (Func_3_t1433 *, AsyncCallback_t386 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_3_BeginInvoke_m35334_gshared)(__this, ___arg1, ___arg2, ___callback, ___object, method)
 // TResult System.Func`3<System.AsyncCallback,System.Object,System.IAsyncResult>::EndInvoke(System.IAsyncResult)
-#define Func_3_EndInvoke_m31112(__this, ___result, method) (( Object_t * (*) (Func_3_t1433 *, Object_t *, const MethodInfo*))Func_3_EndInvoke_m31113_gshared)(__this, ___result, method)
+#define Func_3_EndInvoke_m35335(__this, ___result, method) (( Object_t * (*) (Func_3_t1433 *, Object_t *, const MethodInfo*))Func_3_EndInvoke_m35336_gshared)(__this, ___result, method)

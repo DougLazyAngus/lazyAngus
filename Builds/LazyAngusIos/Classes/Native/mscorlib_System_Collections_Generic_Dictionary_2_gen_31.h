@@ -3,17 +3,17 @@
 // System.Int32[]
 struct Int32U5BU5D_t484;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t5408;
+struct LinkU5BU5D_t5941;
 // System.Object[]
 struct ObjectU5BU5D_t696;
 // Parse.Internal.ParseJSONCacheItem[]
-struct ParseJSONCacheItemU5BU5D_t6255;
+struct ParseJSONCacheItemU5BU5D_t6788;
 // System.Collections.Generic.IEqualityComparer`1<System.Object>
 struct IEqualityComparer_1_t1204;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t2936;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Object,Parse.Internal.ParseJSONCacheItem,System.Collections.DictionaryEntry>
-struct Transform_1_t6256;
+struct Transform_1_t6789;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<System.Object,Parse.Internal.ParseJSONCacheItem>
@@ -22,11 +22,11 @@ struct  Dictionary_2_t1515  : public Object_t
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Object,Parse.Internal.ParseJSONCacheItem>::table
 	Int32U5BU5D_t484* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Object,Parse.Internal.ParseJSONCacheItem>::linkSlots
-	LinkU5BU5D_t5408* ___linkSlots_5;
+	LinkU5BU5D_t5941* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.Object,Parse.Internal.ParseJSONCacheItem>::keySlots
 	ObjectU5BU5D_t696* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.Object,Parse.Internal.ParseJSONCacheItem>::valueSlots
-	ParseJSONCacheItemU5BU5D_t6255* ___valueSlots_7;
+	ParseJSONCacheItemU5BU5D_t6788* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Object,Parse.Internal.ParseJSONCacheItem>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Object,Parse.Internal.ParseJSONCacheItem>::emptySlot
@@ -44,5 +44,5 @@ struct  Dictionary_2_t1515  : public Object_t
 };
 struct Dictionary_2_t1515_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.Object,Parse.Internal.ParseJSONCacheItem>::<>f__am$cacheB
-	Transform_1_t6256 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t6789 * ___U3CU3Ef__amU24cacheB_15;
 };

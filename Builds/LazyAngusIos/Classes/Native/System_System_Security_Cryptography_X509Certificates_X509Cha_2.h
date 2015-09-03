@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.ArrayList
-struct ArrayList_t712;
-// System.Object
-#include "mscorlib_System_Object.h"
-// System.Security.Cryptography.X509Certificates.X509ChainElementCollection
-struct  X509ChainElementCollection_t4110  : public Object_t
+// System.Enum
+#include "mscorlib_System_Enum.h"
+// System.Security.Cryptography.X509Certificates.X509ChainStatusFlags
+#include "System_System_Security_Cryptography_X509Certificates_X509Cha_2.h"
+// System.Security.Cryptography.X509Certificates.X509ChainStatusFlags
+struct  X509ChainStatusFlags_t4451 
 {
-	// System.Collections.ArrayList System.Security.Cryptography.X509Certificates.X509ChainElementCollection::_list
-	ArrayList_t712 * ____list_0;
+	// System.Int32 System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::value__
+	int32_t ___value___1;
 };

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Net.ServicePoint
-struct ServicePoint_t3951;
+struct ServicePoint_t3276;
 // System.String
 struct String_t;
 // System.Collections.ArrayList
@@ -9,14 +9,14 @@ struct ArrayList_t712;
 // System.Random
 struct Random_t2831;
 // System.Collections.Queue
-struct Queue_t4018;
+struct Queue_t4410;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.WebConnectionGroup
-struct  WebConnectionGroup_t4089  : public Object_t
+struct  WebConnectionGroup_t4421  : public Object_t
 {
 	// System.Net.ServicePoint System.Net.WebConnectionGroup::sPoint
-	ServicePoint_t3951 * ___sPoint_0;
+	ServicePoint_t3276 * ___sPoint_0;
 	// System.String System.Net.WebConnectionGroup::name
 	String_t* ___name_1;
 	// System.Collections.ArrayList System.Net.WebConnectionGroup::connections
@@ -24,5 +24,5 @@ struct  WebConnectionGroup_t4089  : public Object_t
 	// System.Random System.Net.WebConnectionGroup::rnd
 	Random_t2831 * ___rnd_3;
 	// System.Collections.Queue System.Net.WebConnectionGroup::queue
-	Queue_t4018 * ___queue_4;
+	Queue_t4410 * ___queue_4;
 };

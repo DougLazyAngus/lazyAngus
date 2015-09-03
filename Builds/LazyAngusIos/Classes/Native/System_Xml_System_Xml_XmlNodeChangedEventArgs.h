@@ -9,7 +9,7 @@ struct String_t;
 // System.Xml.XmlNodeChangedAction
 #include "System_Xml_System_Xml_XmlNodeChangedAction.h"
 // System.Xml.XmlNodeChangedEventArgs
-struct  XmlNodeChangedEventArgs_t3262  : public EventArgs_t1314
+struct  XmlNodeChangedEventArgs_t3526  : public EventArgs_t1314
 {
 	// System.Xml.XmlNode System.Xml.XmlNodeChangedEventArgs::_oldParent
 	XmlNode_t731 * ____oldParent_1;

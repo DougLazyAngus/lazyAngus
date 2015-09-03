@@ -13,7 +13,7 @@ struct IDisposable_t58;
 // Parse.ParseGeoPoint
 #include "Parse_Unity_Parse_ParseGeoPoint.h"
 // Parse.Internal.FlexibleListWrapper`2/<GetEnumerator>d__2<Parse.ParseGeoPoint,System.Object>
-struct  U3CGetEnumeratorU3Ed__2_t6906  : public Object_t
+struct  U3CGetEnumeratorU3Ed__2_t7441  : public Object_t
 {
 	// TOut Parse.Internal.FlexibleListWrapper`2/<GetEnumerator>d__2<Parse.ParseGeoPoint,System.Object>::<>2__current
 	ParseGeoPoint_t1264  ___U3CU3E2__current_0;

@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<RealAngusElementButton>
-struct  Predicate_1_t5787  : public MulticastDelegate_t388
+struct  Predicate_1_t6320  : public MulticastDelegate_t388
 {
 };

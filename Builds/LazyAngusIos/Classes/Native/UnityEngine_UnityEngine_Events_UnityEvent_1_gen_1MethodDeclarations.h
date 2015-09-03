@@ -20,23 +20,23 @@ struct BaseInvokableCall_t2900;
 #include "UnityEngine_UnityEngine_Color.h"
 
 // System.Void UnityEngine.Events.UnityEvent`1<UnityEngine.Color>::.ctor()
-extern "C" void UnityEvent_1__ctor_m6034_gshared (UnityEvent_1_t916 * __this, const MethodInfo* method);
-#define UnityEvent_1__ctor_m6034(__this, method) (( void (*) (UnityEvent_1_t916 *, const MethodInfo*))UnityEvent_1__ctor_m6034_gshared)(__this, method)
+extern "C" void UnityEvent_1__ctor_m6038_gshared (UnityEvent_1_t916 * __this, const MethodInfo* method);
+#define UnityEvent_1__ctor_m6038(__this, method) (( void (*) (UnityEvent_1_t916 *, const MethodInfo*))UnityEvent_1__ctor_m6038_gshared)(__this, method)
 // System.Void UnityEngine.Events.UnityEvent`1<UnityEngine.Color>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-extern "C" void UnityEvent_1_AddListener_m6036_gshared (UnityEvent_1_t916 * __this, UnityAction_1_t1056 * ___call, const MethodInfo* method);
-#define UnityEvent_1_AddListener_m6036(__this, ___call, method) (( void (*) (UnityEvent_1_t916 *, UnityAction_1_t1056 *, const MethodInfo*))UnityEvent_1_AddListener_m6036_gshared)(__this, ___call, method)
+extern "C" void UnityEvent_1_AddListener_m6040_gshared (UnityEvent_1_t916 * __this, UnityAction_1_t1056 * ___call, const MethodInfo* method);
+#define UnityEvent_1_AddListener_m6040(__this, ___call, method) (( void (*) (UnityEvent_1_t916 *, UnityAction_1_t1056 *, const MethodInfo*))UnityEvent_1_AddListener_m6040_gshared)(__this, ___call, method)
 // System.Void UnityEngine.Events.UnityEvent`1<UnityEngine.Color>::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)
-extern "C" void UnityEvent_1_RemoveListener_m29154_gshared (UnityEvent_1_t916 * __this, UnityAction_1_t1056 * ___call, const MethodInfo* method);
-#define UnityEvent_1_RemoveListener_m29154(__this, ___call, method) (( void (*) (UnityEvent_1_t916 *, UnityAction_1_t1056 *, const MethodInfo*))UnityEvent_1_RemoveListener_m29154_gshared)(__this, ___call, method)
+extern "C" void UnityEvent_1_RemoveListener_m33372_gshared (UnityEvent_1_t916 * __this, UnityAction_1_t1056 * ___call, const MethodInfo* method);
+#define UnityEvent_1_RemoveListener_m33372(__this, ___call, method) (( void (*) (UnityEvent_1_t916 *, UnityAction_1_t1056 *, const MethodInfo*))UnityEvent_1_RemoveListener_m33372_gshared)(__this, ___call, method)
 // System.Reflection.MethodInfo UnityEngine.Events.UnityEvent`1<UnityEngine.Color>::FindMethod_Impl(System.String,System.Object)
-extern "C" MethodInfo_t * UnityEvent_1_FindMethod_Impl_m6481_gshared (UnityEvent_1_t916 * __this, String_t* ___name, Object_t * ___targetObj, const MethodInfo* method);
-#define UnityEvent_1_FindMethod_Impl_m6481(__this, ___name, ___targetObj, method) (( MethodInfo_t * (*) (UnityEvent_1_t916 *, String_t*, Object_t *, const MethodInfo*))UnityEvent_1_FindMethod_Impl_m6481_gshared)(__this, ___name, ___targetObj, method)
+extern "C" MethodInfo_t * UnityEvent_1_FindMethod_Impl_m6485_gshared (UnityEvent_1_t916 * __this, String_t* ___name, Object_t * ___targetObj, const MethodInfo* method);
+#define UnityEvent_1_FindMethod_Impl_m6485(__this, ___name, ___targetObj, method) (( MethodInfo_t * (*) (UnityEvent_1_t916 *, String_t*, Object_t *, const MethodInfo*))UnityEvent_1_FindMethod_Impl_m6485_gshared)(__this, ___name, ___targetObj, method)
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`1<UnityEngine.Color>::GetDelegate(System.Object,System.Reflection.MethodInfo)
-extern "C" BaseInvokableCall_t2900 * UnityEvent_1_GetDelegate_m6482_gshared (UnityEvent_1_t916 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, const MethodInfo* method);
-#define UnityEvent_1_GetDelegate_m6482(__this, ___target, ___theFunction, method) (( BaseInvokableCall_t2900 * (*) (UnityEvent_1_t916 *, Object_t *, MethodInfo_t *, const MethodInfo*))UnityEvent_1_GetDelegate_m6482_gshared)(__this, ___target, ___theFunction, method)
+extern "C" BaseInvokableCall_t2900 * UnityEvent_1_GetDelegate_m6486_gshared (UnityEvent_1_t916 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, const MethodInfo* method);
+#define UnityEvent_1_GetDelegate_m6486(__this, ___target, ___theFunction, method) (( BaseInvokableCall_t2900 * (*) (UnityEvent_1_t916 *, Object_t *, MethodInfo_t *, const MethodInfo*))UnityEvent_1_GetDelegate_m6486_gshared)(__this, ___target, ___theFunction, method)
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`1<UnityEngine.Color>::GetDelegate(UnityEngine.Events.UnityAction`1<T0>)
-extern "C" BaseInvokableCall_t2900 * UnityEvent_1_GetDelegate_m29155_gshared (Object_t * __this /* static, unused */, UnityAction_1_t1056 * ___action, const MethodInfo* method);
-#define UnityEvent_1_GetDelegate_m29155(__this /* static, unused */, ___action, method) (( BaseInvokableCall_t2900 * (*) (Object_t * /* static, unused */, UnityAction_1_t1056 *, const MethodInfo*))UnityEvent_1_GetDelegate_m29155_gshared)(__this /* static, unused */, ___action, method)
+extern "C" BaseInvokableCall_t2900 * UnityEvent_1_GetDelegate_m33373_gshared (Object_t * __this /* static, unused */, UnityAction_1_t1056 * ___action, const MethodInfo* method);
+#define UnityEvent_1_GetDelegate_m33373(__this /* static, unused */, ___action, method) (( BaseInvokableCall_t2900 * (*) (Object_t * /* static, unused */, UnityAction_1_t1056 *, const MethodInfo*))UnityEvent_1_GetDelegate_m33373_gshared)(__this /* static, unused */, ___action, method)
 // System.Void UnityEngine.Events.UnityEvent`1<UnityEngine.Color>::Invoke(T0)
-extern "C" void UnityEvent_1_Invoke_m6035_gshared (UnityEvent_1_t916 * __this, Color_t325  ___arg0, const MethodInfo* method);
-#define UnityEvent_1_Invoke_m6035(__this, ___arg0, method) (( void (*) (UnityEvent_1_t916 *, Color_t325 , const MethodInfo*))UnityEvent_1_Invoke_m6035_gshared)(__this, ___arg0, method)
+extern "C" void UnityEvent_1_Invoke_m6039_gshared (UnityEvent_1_t916 * __this, Color_t325  ___arg0, const MethodInfo* method);
+#define UnityEvent_1_Invoke_m6039(__this, ___arg0, method) (( void (*) (UnityEvent_1_t916 *, Color_t325 , const MethodInfo*))UnityEvent_1_Invoke_m6039_gshared)(__this, ___arg0, method)

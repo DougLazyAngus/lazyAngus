@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<UnityEngine.EventSystems.BaseRaycaster>
-struct  Comparison_1_t5831  : public MulticastDelegate_t388
+struct  Comparison_1_t6364  : public MulticastDelegate_t388
 {
 };

@@ -10,4 +10,4 @@ struct GP_TBM_UpdateMatchResult_t256;
 struct String_t;
 
 // System.Void GP_TBM_UpdateMatchResult::.ctor(System.String)
-extern "C" void GP_TBM_UpdateMatchResult__ctor_m1408 (GP_TBM_UpdateMatchResult_t256 * __this, String_t* ___code, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GP_TBM_UpdateMatchResult__ctor_m1410 (GP_TBM_UpdateMatchResult_t256 * __this, String_t* ___code, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -14,15 +14,15 @@ struct String_t;
 struct IDictionary_2_t836;
 
 // System.Void UnityEngine.Networking.Match.ResponseBase::.ctor()
-extern "C" void ResponseBase__ctor_m9787 (ResponseBase_t2810 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ResponseBase__ctor_m9790 (ResponseBase_t2810 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Networking.Match.ResponseBase::Parse(System.Object)
 // System.String UnityEngine.Networking.Match.ResponseBase::ParseJSONString(System.String,System.Object,System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern "C" String_t* ResponseBase_ParseJSONString_m9788 (ResponseBase_t2810 * __this, String_t* ___name, Object_t * ___obj, Object_t* ___dictJsonObj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ResponseBase_ParseJSONString_m9791 (ResponseBase_t2810 * __this, String_t* ___name, Object_t * ___obj, Object_t* ___dictJsonObj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Networking.Match.ResponseBase::ParseJSONInt32(System.String,System.Object,System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern "C" int32_t ResponseBase_ParseJSONInt32_m9789 (ResponseBase_t2810 * __this, String_t* ___name, Object_t * ___obj, Object_t* ___dictJsonObj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ResponseBase_ParseJSONInt32_m9792 (ResponseBase_t2810 * __this, String_t* ___name, Object_t * ___obj, Object_t* ___dictJsonObj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt16 UnityEngine.Networking.Match.ResponseBase::ParseJSONUInt16(System.String,System.Object,System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern "C" uint16_t ResponseBase_ParseJSONUInt16_m9790 (ResponseBase_t2810 * __this, String_t* ___name, Object_t * ___obj, Object_t* ___dictJsonObj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t ResponseBase_ParseJSONUInt16_m9793 (ResponseBase_t2810 * __this, String_t* ___name, Object_t * ___obj, Object_t* ___dictJsonObj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 UnityEngine.Networking.Match.ResponseBase::ParseJSONUInt64(System.String,System.Object,System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern "C" uint64_t ResponseBase_ParseJSONUInt64_m9791 (ResponseBase_t2810 * __this, String_t* ___name, Object_t * ___obj, Object_t* ___dictJsonObj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t ResponseBase_ParseJSONUInt64_m9794 (ResponseBase_t2810 * __this, String_t* ___name, Object_t * ___obj, Object_t* ___dictJsonObj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Networking.Match.ResponseBase::ParseJSONBool(System.String,System.Object,System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern "C" bool ResponseBase_ParseJSONBool_m9792 (ResponseBase_t2810 * __this, String_t* ___name, Object_t * ___obj, Object_t* ___dictJsonObj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ResponseBase_ParseJSONBool_m9795 (ResponseBase_t2810 * __this, String_t* ___name, Object_t * ___obj, Object_t* ___dictJsonObj, const MethodInfo* method) IL2CPP_METHOD_ATTR;

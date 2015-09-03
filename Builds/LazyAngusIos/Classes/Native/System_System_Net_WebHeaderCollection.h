@@ -9,12 +9,12 @@ struct BooleanU5BU5D_t487;
 // System.Collections.Specialized.NameValueCollection
 #include "System_System_Collections_Specialized_NameValueCollection.h"
 // System.Net.WebHeaderCollection
-struct  WebHeaderCollection_t4033  : public NameValueCollection_t3985
+struct  WebHeaderCollection_t4307  : public NameValueCollection_t3299
 {
 	// System.Boolean System.Net.WebHeaderCollection::internallyCreated
 	bool ___internallyCreated_15;
 };
-struct WebHeaderCollection_t4033_StaticFields{
+struct WebHeaderCollection_t4307_StaticFields{
 	// System.Collections.Hashtable System.Net.WebHeaderCollection::restricted
 	Hashtable_t710 * ___restricted_12;
 	// System.Collections.Hashtable System.Net.WebHeaderCollection::multiValue

@@ -5,7 +5,7 @@ struct Dictionary_2_t316;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.String,TweetTemplate>
-struct  KeyCollection_t5634  : public Object_t
+struct  KeyCollection_t6167  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.String,TweetTemplate>::dictionary
 	Dictionary_2_t316 * ___dictionary_0;

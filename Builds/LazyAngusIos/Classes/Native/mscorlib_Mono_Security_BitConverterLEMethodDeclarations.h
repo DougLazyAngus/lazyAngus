@@ -5,35 +5,39 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.BitConverterLE
-struct BitConverterLE_t4435;
+struct BitConverterLE_t4781;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 
 // System.Byte[] Mono.Security.BitConverterLE::GetUShortBytes(System.Byte*)
-extern "C" ByteU5BU5D_t66* BitConverterLE_GetUShortBytes_m16874 (Object_t * __this /* static, unused */, uint8_t* ___bytes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* BitConverterLE_GetUShortBytes_m19506 (Object_t * __this /* static, unused */, uint8_t* ___bytes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.BitConverterLE::GetUIntBytes(System.Byte*)
-extern "C" ByteU5BU5D_t66* BitConverterLE_GetUIntBytes_m16875 (Object_t * __this /* static, unused */, uint8_t* ___bytes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* BitConverterLE_GetUIntBytes_m19507 (Object_t * __this /* static, unused */, uint8_t* ___bytes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.BitConverterLE::GetULongBytes(System.Byte*)
-extern "C" ByteU5BU5D_t66* BitConverterLE_GetULongBytes_m16876 (Object_t * __this /* static, unused */, uint8_t* ___bytes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* BitConverterLE_GetULongBytes_m19508 (Object_t * __this /* static, unused */, uint8_t* ___bytes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.BitConverterLE::GetBytes(System.Int16)
-extern "C" ByteU5BU5D_t66* BitConverterLE_GetBytes_m16877 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* BitConverterLE_GetBytes_m19509 (Object_t * __this /* static, unused */, int16_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.BitConverterLE::GetBytes(System.Int32)
-extern "C" ByteU5BU5D_t66* BitConverterLE_GetBytes_m16878 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* BitConverterLE_GetBytes_m19510 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.BitConverterLE::GetBytes(System.Single)
-extern "C" ByteU5BU5D_t66* BitConverterLE_GetBytes_m16879 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* BitConverterLE_GetBytes_m19511 (Object_t * __this /* static, unused */, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.BitConverterLE::GetBytes(System.Double)
-extern "C" ByteU5BU5D_t66* BitConverterLE_GetBytes_m16880 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* BitConverterLE_GetBytes_m19512 (Object_t * __this /* static, unused */, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.BitConverterLE::UShortFromBytes(System.Byte*,System.Byte[],System.Int32)
-extern "C" void BitConverterLE_UShortFromBytes_m16881 (Object_t * __this /* static, unused */, uint8_t* ___dst, ByteU5BU5D_t66* ___src, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BitConverterLE_UShortFromBytes_m19513 (Object_t * __this /* static, unused */, uint8_t* ___dst, ByteU5BU5D_t66* ___src, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.BitConverterLE::UIntFromBytes(System.Byte*,System.Byte[],System.Int32)
-extern "C" void BitConverterLE_UIntFromBytes_m16882 (Object_t * __this /* static, unused */, uint8_t* ___dst, ByteU5BU5D_t66* ___src, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BitConverterLE_UIntFromBytes_m19514 (Object_t * __this /* static, unused */, uint8_t* ___dst, ByteU5BU5D_t66* ___src, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.BitConverterLE::ULongFromBytes(System.Byte*,System.Byte[],System.Int32)
-extern "C" void BitConverterLE_ULongFromBytes_m16883 (Object_t * __this /* static, unused */, uint8_t* ___dst, ByteU5BU5D_t66* ___src, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BitConverterLE_ULongFromBytes_m19515 (Object_t * __this /* static, unused */, uint8_t* ___dst, ByteU5BU5D_t66* ___src, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 Mono.Security.BitConverterLE::ToInt16(System.Byte[],System.Int32)
-extern "C" int16_t BitConverterLE_ToInt16_m16884 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___value, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int16_t BitConverterLE_ToInt16_m19516 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___value, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.BitConverterLE::ToInt32(System.Byte[],System.Int32)
-extern "C" int32_t BitConverterLE_ToInt32_m16885 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___value, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t BitConverterLE_ToInt32_m19517 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___value, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.UInt16 Mono.Security.BitConverterLE::ToUInt16(System.Byte[],System.Int32)
+extern "C" uint16_t BitConverterLE_ToUInt16_m19518 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___value, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.UInt32 Mono.Security.BitConverterLE::ToUInt32(System.Byte[],System.Int32)
+extern "C" uint32_t BitConverterLE_ToUInt32_m19519 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___value, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single Mono.Security.BitConverterLE::ToSingle(System.Byte[],System.Int32)
-extern "C" float BitConverterLE_ToSingle_m16886 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___value, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float BitConverterLE_ToSingle_m19520 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___value, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double Mono.Security.BitConverterLE::ToDouble(System.Byte[],System.Int32)
-extern "C" double BitConverterLE_ToDouble_m16887 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___value, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" double BitConverterLE_ToDouble_m19521 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___value, int32_t ___startIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;

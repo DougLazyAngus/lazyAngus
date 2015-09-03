@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.FileWebRequest
-struct FileWebRequest_t4047;
+struct FileWebRequest_t4353;
 // System.Net.ICredentials
-struct ICredentials_t3300;
+struct ICredentials_t3551;
 // System.Net.WebHeaderCollection
-struct WebHeaderCollection_t4033;
+struct WebHeaderCollection_t4307;
 // System.String
 struct String_t;
 // System.Net.IWebProxy
-struct IWebProxy_t4050;
+struct IWebProxy_t4356;
 // System.Uri
 struct Uri_t771;
 // System.Runtime.Serialization.SerializationInfo
@@ -27,43 +27,43 @@ struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
 // System.Net.WebResponse
-struct WebResponse_t3319;
+struct WebResponse_t3728;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Net.FileWebRequest::.ctor(System.Uri)
-extern "C" void FileWebRequest__ctor_m13957 (FileWebRequest_t4047 * __this, Uri_t771 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileWebRequest__ctor_m16476 (FileWebRequest_t4353 * __this, Uri_t771 * ___uri, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FileWebRequest::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void FileWebRequest__ctor_m13958 (FileWebRequest_t4047 * __this, SerializationInfo_t2936 * ___serializationInfo, StreamingContext_t2937  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileWebRequest__ctor_m16477 (FileWebRequest_t4353 * __this, SerializationInfo_t2936 * ___serializationInfo, StreamingContext_t2937  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FileWebRequest::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void FileWebRequest_System_Runtime_Serialization_ISerializable_GetObjectData_m13959 (FileWebRequest_t4047 * __this, SerializationInfo_t2936 * ___serializationInfo, StreamingContext_t2937  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileWebRequest_System_Runtime_Serialization_ISerializable_GetObjectData_m16478 (FileWebRequest_t4353 * __this, SerializationInfo_t2936 * ___serializationInfo, StreamingContext_t2937  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.Net.FileWebRequest::get_ContentLength()
-extern "C" int64_t FileWebRequest_get_ContentLength_m13960 (FileWebRequest_t4047 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t FileWebRequest_get_ContentLength_m16479 (FileWebRequest_t4353 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.ICredentials System.Net.FileWebRequest::get_Credentials()
-extern "C" Object_t * FileWebRequest_get_Credentials_m13961 (FileWebRequest_t4047 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * FileWebRequest_get_Credentials_m16480 (FileWebRequest_t4353 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FileWebRequest::set_Credentials(System.Net.ICredentials)
-extern "C" void FileWebRequest_set_Credentials_m13962 (FileWebRequest_t4047 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileWebRequest_set_Credentials_m16481 (FileWebRequest_t4353 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.WebHeaderCollection System.Net.FileWebRequest::get_Headers()
-extern "C" WebHeaderCollection_t4033 * FileWebRequest_get_Headers_m13963 (FileWebRequest_t4047 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WebHeaderCollection_t4307 * FileWebRequest_get_Headers_m16482 (FileWebRequest_t4353 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Net.FileWebRequest::get_Method()
-extern "C" String_t* FileWebRequest_get_Method_m13964 (FileWebRequest_t4047 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* FileWebRequest_get_Method_m16483 (FileWebRequest_t4353 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.IWebProxy System.Net.FileWebRequest::get_Proxy()
-extern "C" Object_t * FileWebRequest_get_Proxy_m13965 (FileWebRequest_t4047 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * FileWebRequest_get_Proxy_m16484 (FileWebRequest_t4353 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Uri System.Net.FileWebRequest::get_RequestUri()
-extern "C" Uri_t771 * FileWebRequest_get_RequestUri_m13966 (FileWebRequest_t4047 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Uri_t771 * FileWebRequest_get_RequestUri_m16485 (FileWebRequest_t4353 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Exception System.Net.FileWebRequest::GetMustImplement()
-extern "C" Exception_t57 * FileWebRequest_GetMustImplement_m13967 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Exception_t57 * FileWebRequest_GetMustImplement_m16486 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FileWebRequest::Abort()
-extern "C" void FileWebRequest_Abort_m13968 (FileWebRequest_t4047 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileWebRequest_Abort_m16487 (FileWebRequest_t4353 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IAsyncResult System.Net.FileWebRequest::BeginGetResponse(System.AsyncCallback,System.Object)
-extern "C" Object_t * FileWebRequest_BeginGetResponse_m13969 (FileWebRequest_t4047 * __this, AsyncCallback_t386 * ___callback, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * FileWebRequest_BeginGetResponse_m16488 (FileWebRequest_t4353 * __this, AsyncCallback_t386 * ___callback, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.WebResponse System.Net.FileWebRequest::EndGetResponse(System.IAsyncResult)
-extern "C" WebResponse_t3319 * FileWebRequest_EndGetResponse_m13970 (FileWebRequest_t4047 * __this, Object_t * ___asyncResult, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WebResponse_t3728 * FileWebRequest_EndGetResponse_m16489 (FileWebRequest_t4353 * __this, Object_t * ___asyncResult, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.WebResponse System.Net.FileWebRequest::GetResponse()
-extern "C" WebResponse_t3319 * FileWebRequest_GetResponse_m13971 (FileWebRequest_t4047 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WebResponse_t3728 * FileWebRequest_GetResponse_m16490 (FileWebRequest_t4353 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.WebResponse System.Net.FileWebRequest::GetResponseInternal()
-extern "C" WebResponse_t3319 * FileWebRequest_GetResponseInternal_m13972 (FileWebRequest_t4047 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WebResponse_t3728 * FileWebRequest_GetResponseInternal_m16491 (FileWebRequest_t4353 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FileWebRequest::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void FileWebRequest_GetObjectData_m13973 (FileWebRequest_t4047 * __this, SerializationInfo_t2936 * ___serializationInfo, StreamingContext_t2937  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileWebRequest_GetObjectData_m16492 (FileWebRequest_t4353 * __this, SerializationInfo_t2936 * ___serializationInfo, StreamingContext_t2937  ___streamingContext, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.FileWebRequest::Close()
-extern "C" void FileWebRequest_Close_m13974 (FileWebRequest_t4047 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileWebRequest_Close_m16493 (FileWebRequest_t4353 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

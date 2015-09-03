@@ -1074,139 +1074,9 @@ void* RuntimeInvoker_PersistentListenerMode_t2898 (const MethodInfo* method, voi
 }
 
 struct Object_t;
-// System.Xml.XmlTokenizedType
-#include "System_Xml_System_Xml_XmlTokenizedType.h"
-void* RuntimeInvoker_XmlTokenizedType_t3299 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// System.Xml.Schema.XmlSchemaValidity
-#include "System_Xml_System_Xml_Schema_XmlSchemaValidity.h"
-void* RuntimeInvoker_XmlSchemaValidity_t3183 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// Mono.Xml.DTDContentOrderType
-#include "System_Xml_Mono_Xml_DTDContentOrderType.h"
-void* RuntimeInvoker_DTDContentOrderType_t3215 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// System.Xml.XmlNodeType
-#include "System_Xml_System_Xml_XmlNodeType.h"
-void* RuntimeInvoker_XmlNodeType_t3265 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// System.Xml.XmlSpace
-#include "System_Xml_System_Xml_XmlSpace.h"
-void* RuntimeInvoker_XmlSpace_t3277 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// System.Xml.ReadState
-#include "System_Xml_System_Xml_ReadState.h"
-void* RuntimeInvoker_ReadState_t3225 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// System.Xml.ConformanceLevel
-#include "System_Xml_System_Xml_ConformanceLevel.h"
-void* RuntimeInvoker_ConformanceLevel_t3189 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// Mono.Xml2.XmlTextReader/DtdInputState
-#include "System_Xml_Mono_Xml2_XmlTextReader_DtdInputState.h"
-void* RuntimeInvoker_DtdInputState_t3283 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// System.Xml.EntityHandling
-#include "System_Xml_System_Xml_EntityHandling.h"
-void* RuntimeInvoker_EntityHandling_t3219 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// System.Xml.WhitespaceHandling
-#include "System_Xml_System_Xml_WhitespaceHandling.h"
-void* RuntimeInvoker_WhitespaceHandling_t3226 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// System.Linq.Expressions.ExpressionType
-#include "System_Core_System_Linq_Expressions_ExpressionType.h"
-void* RuntimeInvoker_ExpressionType_t3344 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// System.Linq.Expressions.MemberBindingType
-#include "System_Core_System_Linq_Expressions_MemberBindingType.h"
-void* RuntimeInvoker_MemberBindingType_t3352 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// System.TimeSpan
-#include "mscorlib_System_TimeSpan.h"
-void* RuntimeInvoker_TimeSpan_t334 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef TimeSpan_t334  (*Func)(void* obj, const MethodInfo* method);
-	TimeSpan_t334  ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
 // Mono.Math.Prime.ConfidenceFactor
 #include "Mono_Security_Mono_Math_Prime_ConfidenceFactor.h"
-void* RuntimeInvoker_ConfidenceFactor_t3797 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_ConfidenceFactor_t3118 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1216,7 +1086,7 @@ void* RuntimeInvoker_ConfidenceFactor_t3797 (const MethodInfo* method, void* obj
 struct Object_t;
 // Mono.Security.X509.X509ChainStatusFlags
 #include "Mono_Security_Mono_Security_X509_X509ChainStatusFlags.h"
-void* RuntimeInvoker_X509ChainStatusFlags_t3834 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_X509ChainStatusFlags_t3155 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1226,7 +1096,7 @@ void* RuntimeInvoker_X509ChainStatusFlags_t3834 (const MethodInfo* method, void*
 struct Object_t;
 // Mono.Security.Protocol.Tls.AlertLevel
 #include "Mono_Security_Mono_Security_Protocol_Tls_AlertLevel.h"
-void* RuntimeInvoker_AlertLevel_t3853 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_AlertLevel_t3174 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef uint8_t (*Func)(void* obj, const MethodInfo* method);
 	uint8_t ret = ((Func)method->method)(obj, method);
@@ -1236,7 +1106,7 @@ void* RuntimeInvoker_AlertLevel_t3853 (const MethodInfo* method, void* obj, void
 struct Object_t;
 // Mono.Security.Protocol.Tls.AlertDescription
 #include "Mono_Security_Mono_Security_Protocol_Tls_AlertDescription.h"
-void* RuntimeInvoker_AlertDescription_t3854 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_AlertDescription_t3175 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef uint8_t (*Func)(void* obj, const MethodInfo* method);
 	uint8_t ret = ((Func)method->method)(obj, method);
@@ -1246,7 +1116,7 @@ void* RuntimeInvoker_AlertDescription_t3854 (const MethodInfo* method, void* obj
 struct Object_t;
 // Mono.Security.Protocol.Tls.CipherAlgorithmType
 #include "Mono_Security_Mono_Security_Protocol_Tls_CipherAlgorithmType.h"
-void* RuntimeInvoker_CipherAlgorithmType_t3856 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_CipherAlgorithmType_t3177 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1256,7 +1126,7 @@ void* RuntimeInvoker_CipherAlgorithmType_t3856 (const MethodInfo* method, void* 
 struct Object_t;
 // Mono.Security.Protocol.Tls.HashAlgorithmType
 #include "Mono_Security_Mono_Security_Protocol_Tls_HashAlgorithmType.h"
-void* RuntimeInvoker_HashAlgorithmType_t3875 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_HashAlgorithmType_t3196 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1266,7 +1136,7 @@ void* RuntimeInvoker_HashAlgorithmType_t3875 (const MethodInfo* method, void* ob
 struct Object_t;
 // Mono.Security.Protocol.Tls.ExchangeAlgorithmType
 #include "Mono_Security_Mono_Security_Protocol_Tls_ExchangeAlgorithmTy.h"
-void* RuntimeInvoker_ExchangeAlgorithmType_t3873 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_ExchangeAlgorithmType_t3194 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1276,7 +1146,7 @@ void* RuntimeInvoker_ExchangeAlgorithmType_t3873 (const MethodInfo* method, void
 struct Object_t;
 // System.Security.Cryptography.CipherMode
 #include "mscorlib_System_Security_Cryptography_CipherMode.h"
-void* RuntimeInvoker_CipherMode_t3964 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_CipherMode_t3291 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1286,7 +1156,7 @@ void* RuntimeInvoker_CipherMode_t3964 (const MethodInfo* method, void* obj, void
 struct Object_t;
 // Mono.Security.Protocol.Tls.SecurityProtocolType
 #include "Mono_Security_Mono_Security_Protocol_Tls_SecurityProtocolTyp.h"
-void* RuntimeInvoker_SecurityProtocolType_t3888 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_SecurityProtocolType_t3210 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1296,7 +1166,7 @@ void* RuntimeInvoker_SecurityProtocolType_t3888 (const MethodInfo* method, void*
 struct Object_t;
 // Mono.Security.Protocol.Tls.SecurityCompressionType
 #include "Mono_Security_Mono_Security_Protocol_Tls_SecurityCompression.h"
-void* RuntimeInvoker_SecurityCompressionType_t3887 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_SecurityCompressionType_t3209 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1306,7 +1176,7 @@ void* RuntimeInvoker_SecurityCompressionType_t3887 (const MethodInfo* method, vo
 struct Object_t;
 // Mono.Security.Protocol.Tls.Handshake.HandshakeType
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Handshake.h"
-void* RuntimeInvoker_HandshakeType_t3904 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_HandshakeType_t3226 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef uint8_t (*Func)(void* obj, const MethodInfo* method);
 	uint8_t ret = ((Func)method->method)(obj, method);
@@ -1316,7 +1186,7 @@ void* RuntimeInvoker_HandshakeType_t3904 (const MethodInfo* method, void* obj, v
 struct Object_t;
 // Mono.Security.Protocol.Tls.HandshakeState
 #include "Mono_Security_Mono_Security_Protocol_Tls_HandshakeState.h"
-void* RuntimeInvoker_HandshakeState_t3874 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_HandshakeState_t3195 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1326,17 +1196,17 @@ void* RuntimeInvoker_HandshakeState_t3874 (const MethodInfo* method, void* obj, 
 struct Object_t;
 // System.Security.Cryptography.RSAParameters
 #include "mscorlib_System_Security_Cryptography_RSAParameters.h"
-void* RuntimeInvoker_RSAParameters_t3902 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_RSAParameters_t3224 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef RSAParameters_t3902  (*Func)(void* obj, const MethodInfo* method);
-	RSAParameters_t3902  ret = ((Func)method->method)(obj, method);
+	typedef RSAParameters_t3224  (*Func)(void* obj, const MethodInfo* method);
+	RSAParameters_t3224  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // Mono.Security.Protocol.Tls.ContentType
 #include "Mono_Security_Mono_Security_Protocol_Tls_ContentType.h"
-void* RuntimeInvoker_ContentType_t3868 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_ContentType_t3189 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef uint8_t (*Func)(void* obj, const MethodInfo* method);
 	uint8_t ret = ((Func)method->method)(obj, method);
@@ -1344,29 +1214,9 @@ void* RuntimeInvoker_ContentType_t3868 (const MethodInfo* method, void* obj, voi
 }
 
 struct Object_t;
-// System.Collections.Generic.RBTree/NodeEnumerator
-#include "System_System_Collections_Generic_RBTree_NodeEnumerator.h"
-void* RuntimeInvoker_NodeEnumerator_t3971 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef NodeEnumerator_t3971  (*Func)(void* obj, const MethodInfo* method);
-	NodeEnumerator_t3971  ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// System.Collections.DictionaryEntry
-#include "mscorlib_System_Collections_DictionaryEntry.h"
-void* RuntimeInvoker_DictionaryEntry_t2156 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef DictionaryEntry_t2156  (*Func)(void* obj, const MethodInfo* method);
-	DictionaryEntry_t2156  ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// System.ComponentModel.EditorBrowsableState
-#include "System_System_ComponentModel_EditorBrowsableState.h"
-void* RuntimeInvoker_EditorBrowsableState_t3986 (const MethodInfo* method, void* obj, void** args)
+// System.Configuration.ConfigurationElementCollectionType
+#include "System_Configuration_System_Configuration_ConfigurationEleme.h"
+void* RuntimeInvoker_ConfigurationElementCollectionType_t3317 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1374,9 +1224,9 @@ void* RuntimeInvoker_EditorBrowsableState_t3986 (const MethodInfo* method, void*
 }
 
 struct Object_t;
-// System.Net.Sockets.SocketError
-#include "System_System_Net_Sockets_SocketError.h"
-void* RuntimeInvoker_SocketError_t4019 (const MethodInfo* method, void* obj, void** args)
+// System.Configuration.ConfigurationPropertyOptions
+#include "System_Configuration_System_Configuration_ConfigurationPrope_0.h"
+void* RuntimeInvoker_ConfigurationPropertyOptions_t3332 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1384,9 +1234,9 @@ void* RuntimeInvoker_SocketError_t4019 (const MethodInfo* method, void* obj, voi
 }
 
 struct Object_t;
-// System.Net.Sockets.SocketType
-#include "System_System_Net_Sockets_SocketType.h"
-void* RuntimeInvoker_SocketType_t4025 (const MethodInfo* method, void* obj, void** args)
+// System.Configuration.PropertyValueOrigin
+#include "System_Configuration_System_Configuration_PropertyValueOrigi.h"
+void* RuntimeInvoker_PropertyValueOrigin_t3357 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1394,9 +1244,9 @@ void* RuntimeInvoker_SocketType_t4025 (const MethodInfo* method, void* obj, void
 }
 
 struct Object_t;
-// System.Net.Sockets.AddressFamily
-#include "System_System_Net_Sockets_AddressFamily.h"
-void* RuntimeInvoker_AddressFamily_t4004 (const MethodInfo* method, void* obj, void** args)
+// System.Xml.Schema.XmlSchemaContentProcessing
+#include "System_Xml_System_Xml_Schema_XmlSchemaContentProcessing.h"
+void* RuntimeInvoker_XmlSchemaContentProcessing_t3646 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1404,9 +1254,9 @@ void* RuntimeInvoker_AddressFamily_t4004 (const MethodInfo* method, void* obj, v
 }
 
 struct Object_t;
-// System.Net.Sockets.ProtocolType
-#include "System_System_Net_Sockets_ProtocolType.h"
-void* RuntimeInvoker_ProtocolType_t4009 (const MethodInfo* method, void* obj, void** args)
+// System.Xml.ValidationType
+#include "System_Xml_System_Xml_ValidationType.h"
+void* RuntimeInvoker_ValidationType_t3496 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1414,9 +1264,9 @@ void* RuntimeInvoker_ProtocolType_t4009 (const MethodInfo* method, void* obj, vo
 }
 
 struct Object_t;
-// System.Net.FtpStatusCode
-#include "System_System_Net_FtpStatusCode.h"
-void* RuntimeInvoker_FtpStatusCode_t4061 (const MethodInfo* method, void* obj, void** args)
+// System.Xml.XmlNodeType
+#include "System_Xml_System_Xml_XmlNodeType.h"
+void* RuntimeInvoker_XmlNodeType_t3530 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1424,9 +1274,9 @@ void* RuntimeInvoker_FtpStatusCode_t4061 (const MethodInfo* method, void* obj, v
 }
 
 struct Object_t;
-// System.Net.FtpWebRequest/RequestState
-#include "System_System_Net_FtpWebRequest_RequestState.h"
-void* RuntimeInvoker_RequestState_t4062 (const MethodInfo* method, void* obj, void** args)
+// System.Xml.ReadState
+#include "System_Xml_System_Xml_ReadState.h"
+void* RuntimeInvoker_ReadState_t3495 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1434,9 +1284,9 @@ void* RuntimeInvoker_RequestState_t4062 (const MethodInfo* method, void* obj, vo
 }
 
 struct Object_t;
-// System.Net.DecompressionMethods
-#include "System_System_Net_DecompressionMethods.h"
-void* RuntimeInvoker_DecompressionMethods_t4041 (const MethodInfo* method, void* obj, void** args)
+// System.Xml.XmlSpace
+#include "System_Xml_System_Xml_XmlSpace.h"
+void* RuntimeInvoker_XmlSpace_t3538 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1444,9 +1294,9 @@ void* RuntimeInvoker_DecompressionMethods_t4041 (const MethodInfo* method, void*
 }
 
 struct Object_t;
-// System.Net.HttpStatusCode
-#include "System_System_Net_HttpStatusCode.h"
-void* RuntimeInvoker_HttpStatusCode_t4068 (const MethodInfo* method, void* obj, void** args)
+// Mono.Xml.DTDOccurence
+#include "System_Xml_Mono_Xml_DTDOccurence.h"
+void* RuntimeInvoker_DTDOccurence_t3478 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1454,9 +1304,9 @@ void* RuntimeInvoker_HttpStatusCode_t4068 (const MethodInfo* method, void* obj, 
 }
 
 struct Object_t;
-// System.Net.SecurityProtocolType
-#include "System_System_Net_SecurityProtocolType.h"
-void* RuntimeInvoker_SecurityProtocolType_t4081 (const MethodInfo* method, void* obj, void** args)
+// Mono.Xml.DTDContentOrderType
+#include "System_Xml_Mono_Xml_DTDContentOrderType.h"
+void* RuntimeInvoker_DTDContentOrderType_t3476 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1464,9 +1314,9 @@ void* RuntimeInvoker_SecurityProtocolType_t4081 (const MethodInfo* method, void*
 }
 
 struct Object_t;
-// System.Net.WebExceptionStatus
-#include "System_System_Net_WebExceptionStatus.h"
-void* RuntimeInvoker_WebExceptionStatus_t4091 (const MethodInfo* method, void* obj, void** args)
+// Mono.Xml.DTDAttributeOccurenceType
+#include "System_Xml_Mono_Xml_DTDAttributeOccurenceType.h"
+void* RuntimeInvoker_DTDAttributeOccurenceType_t3477 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1474,9 +1324,9 @@ void* RuntimeInvoker_WebExceptionStatus_t4091 (const MethodInfo* method, void* o
 }
 
 struct Object_t;
-// System.Security.Cryptography.X509Certificates.X509ChainStatusFlags
-#include "System_System_Security_Cryptography_X509Certificates_X509Cha_1.h"
-void* RuntimeInvoker_X509ChainStatusFlags_t4118 (const MethodInfo* method, void* obj, void** args)
+// System.Xml.EntityHandling
+#include "System_Xml_System_Xml_EntityHandling.h"
+void* RuntimeInvoker_EntityHandling_t3488 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1484,9 +1334,9 @@ void* RuntimeInvoker_X509ChainStatusFlags_t4118 (const MethodInfo* method, void*
 }
 
 struct Object_t;
-// System.Security.Cryptography.X509Certificates.X509RevocationFlag
-#include "System_System_Security_Cryptography_X509Certificates_X509Rev.h"
-void* RuntimeInvoker_X509RevocationFlag_t4125 (const MethodInfo* method, void* obj, void** args)
+// System.Xml.ConformanceLevel
+#include "System_Xml_System_Xml_ConformanceLevel.h"
+void* RuntimeInvoker_ConformanceLevel_t3442 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1494,9 +1344,9 @@ void* RuntimeInvoker_X509RevocationFlag_t4125 (const MethodInfo* method, void* o
 }
 
 struct Object_t;
-// System.Security.Cryptography.X509Certificates.X509RevocationMode
-#include "System_System_Security_Cryptography_X509Certificates_X509Rev_0.h"
-void* RuntimeInvoker_X509RevocationMode_t4126 (const MethodInfo* method, void* obj, void** args)
+// System.Xml.Schema.XmlSchemaValidationFlags
+#include "System_Xml_System_Xml_Schema_XmlSchemaValidationFlags.h"
+void* RuntimeInvoker_XmlSchemaValidationFlags_t3700 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1504,9 +1354,9 @@ void* RuntimeInvoker_X509RevocationMode_t4126 (const MethodInfo* method, void* o
 }
 
 struct Object_t;
-// System.Security.Cryptography.X509Certificates.X509VerificationFlags
-#include "System_System_Security_Cryptography_X509Certificates_X509Ver.h"
-void* RuntimeInvoker_X509VerificationFlags_t4129 (const MethodInfo* method, void* obj, void** args)
+// Mono.Xml2.XmlTextReader/DtdInputState
+#include "System_Xml_Mono_Xml2_XmlTextReader_DtdInputState.h"
+void* RuntimeInvoker_DtdInputState_t3544 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1514,9 +1364,9 @@ void* RuntimeInvoker_X509VerificationFlags_t4129 (const MethodInfo* method, void
 }
 
 struct Object_t;
-// System.Security.Cryptography.X509Certificates.X509KeyUsageFlags
-#include "System_System_Security_Cryptography_X509Certificates_X509Key.h"
-void* RuntimeInvoker_X509KeyUsageFlags_t4123 (const MethodInfo* method, void* obj, void** args)
+// System.Xml.WhitespaceHandling
+#include "System_Xml_System_Xml_WhitespaceHandling.h"
+void* RuntimeInvoker_WhitespaceHandling_t3497 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1524,9 +1374,9 @@ void* RuntimeInvoker_X509KeyUsageFlags_t4123 (const MethodInfo* method, void* ob
 }
 
 struct Object_t;
-// System.Text.RegularExpressions.RegexOptions
-#include "System_System_Text_RegularExpressions_RegexOptions.h"
-void* RuntimeInvoker_RegexOptions_t4142 (const MethodInfo* method, void* obj, void** args)
+// System.Xml.Schema.XmlTypeCode
+#include "System_Xml_System_Xml_Schema_XmlTypeCode.h"
+void* RuntimeInvoker_XmlTypeCode_t3701 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1534,39 +1384,9 @@ void* RuntimeInvoker_RegexOptions_t4142 (const MethodInfo* method, void* obj, vo
 }
 
 struct Object_t;
-// System.Text.RegularExpressions.Interval
-#include "System_System_Text_RegularExpressions_Interval.h"
-void* RuntimeInvoker_Interval_t4164 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef Interval_t4164  (*Func)(void* obj, const MethodInfo* method);
-	Interval_t4164  ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// System.Text.RegularExpressions.Category
-#include "System_System_Text_RegularExpressions_Category.h"
-void* RuntimeInvoker_Category_t4149 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef uint16_t (*Func)(void* obj, const MethodInfo* method);
-	uint16_t ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// System.Text.RegularExpressions.Position
-#include "System_System_Text_RegularExpressions_Position.h"
-void* RuntimeInvoker_Position_t4145 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef uint16_t (*Func)(void* obj, const MethodInfo* method);
-	uint16_t ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// System.UriHostNameType
-#include "System_System_UriHostNameType.h"
-void* RuntimeInvoker_UriHostNameType_t4195 (const MethodInfo* method, void* obj, void** args)
+// System.Xml.XmlTokenizedType
+#include "System_Xml_System_Xml_XmlTokenizedType.h"
+void* RuntimeInvoker_XmlTokenizedType_t3550 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1574,9 +1394,9 @@ void* RuntimeInvoker_UriHostNameType_t4195 (const MethodInfo* method, void* obj,
 }
 
 struct Object_t;
-// System.TypeCode
-#include "mscorlib_System_TypeCode.h"
-void* RuntimeInvoker_TypeCode_t4859 (const MethodInfo* method, void* obj, void** args)
+// System.Xml.Schema.XmlSchemaFacet/Facet
+#include "System_Xml_System_Xml_Schema_XmlSchemaFacet_Facet.h"
+void* RuntimeInvoker_Facet_t3653 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1584,9 +1404,9 @@ void* RuntimeInvoker_TypeCode_t4859 (const MethodInfo* method, void* obj, void**
 }
 
 struct Object_t;
-// System.Reflection.TypeAttributes
-#include "mscorlib_System_Reflection_TypeAttributes.h"
-void* RuntimeInvoker_TypeAttributes_t4575 (const MethodInfo* method, void* obj, void** args)
+// System.Xml.Schema.XmlSchemaValidity
+#include "System_Xml_System_Xml_Schema_XmlSchemaValidity.h"
+void* RuntimeInvoker_XmlSchemaValidity_t3693 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1594,9 +1414,9 @@ void* RuntimeInvoker_TypeAttributes_t4575 (const MethodInfo* method, void* obj, 
 }
 
 struct Object_t;
-// System.Reflection.MemberTypes
-#include "mscorlib_System_Reflection_MemberTypes.h"
-void* RuntimeInvoker_MemberTypes_t4555 (const MethodInfo* method, void* obj, void** args)
+// System.Xml.Schema.XmlSeverityType
+#include "System_Xml_System_Xml_Schema_XmlSeverityType.h"
+void* RuntimeInvoker_XmlSeverityType_t3696 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1604,19 +1424,19 @@ void* RuntimeInvoker_MemberTypes_t4555 (const MethodInfo* method, void* obj, voi
 }
 
 struct Object_t;
-// System.RuntimeTypeHandle
-#include "mscorlib_System_RuntimeTypeHandle.h"
-void* RuntimeInvoker_RuntimeTypeHandle_t4359 (const MethodInfo* method, void* obj, void** args)
+// System.Xml.Schema.XmlSchemaForm
+#include "System_Xml_System_Xml_Schema_XmlSchemaForm.h"
+void* RuntimeInvoker_XmlSchemaForm_t3654 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef RuntimeTypeHandle_t4359  (*Func)(void* obj, const MethodInfo* method);
-	RuntimeTypeHandle_t4359  ret = ((Func)method->method)(obj, method);
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-// Mono.Math.Prime.ConfidenceFactor
-#include "mscorlib_Mono_Math_Prime_ConfidenceFactor.h"
-void* RuntimeInvoker_ConfidenceFactor_t4404 (const MethodInfo* method, void* obj, void** args)
+// System.Xml.Schema.XmlSchemaDerivationMethod
+#include "System_Xml_System_Xml_Schema_XmlSchemaDerivationMethod.h"
+void* RuntimeInvoker_XmlSchemaDerivationMethod_t3648 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1634,9 +1454,9 @@ void* RuntimeInvoker_Decimal_t759 (const MethodInfo* method, void* obj, void** a
 }
 
 struct Object_t;
-// System.Reflection.CallingConventions
-#include "mscorlib_System_Reflection_CallingConventions.h"
-void* RuntimeInvoker_CallingConventions_t4550 (const MethodInfo* method, void* obj, void** args)
+// System.Xml.Schema.XmlSchemaUse
+#include "System_Xml_System_Xml_Schema_XmlSchemaUse.h"
+void* RuntimeInvoker_XmlSchemaUse_t3692 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1644,19 +1464,9 @@ void* RuntimeInvoker_CallingConventions_t4550 (const MethodInfo* method, void* o
 }
 
 struct Object_t;
-// System.RuntimeMethodHandle
-#include "mscorlib_System_RuntimeMethodHandle.h"
-void* RuntimeInvoker_RuntimeMethodHandle_t4853 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef RuntimeMethodHandle_t4853  (*Func)(void* obj, const MethodInfo* method);
-	RuntimeMethodHandle_t4853  ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// System.Reflection.MethodAttributes
-#include "mscorlib_System_Reflection_MethodAttributes.h"
-void* RuntimeInvoker_MethodAttributes_t4556 (const MethodInfo* method, void* obj, void** args)
+// System.Xml.Schema.XmlSchemaContentType
+#include "System_Xml_System_Xml_Schema_XmlSchemaContentType.h"
+void* RuntimeInvoker_XmlSchemaContentType_t3647 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1664,9 +1474,9 @@ void* RuntimeInvoker_MethodAttributes_t4556 (const MethodInfo* method, void* obj
 }
 
 struct Object_t;
-// System.Reflection.FieldAttributes
-#include "mscorlib_System_Reflection_FieldAttributes.h"
-void* RuntimeInvoker_FieldAttributes_t4553 (const MethodInfo* method, void* obj, void** args)
+// Mono.Xml.Schema.XsdWhitespaceFacet
+#include "System_Xml_Mono_Xml_Schema_XsdWhitespaceFacet.h"
+void* RuntimeInvoker_XsdWhitespaceFacet_t3565 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1674,29 +1484,19 @@ void* RuntimeInvoker_FieldAttributes_t4553 (const MethodInfo* method, void* obj,
 }
 
 struct Object_t;
-// System.RuntimeFieldHandle
-#include "mscorlib_System_RuntimeFieldHandle.h"
-void* RuntimeInvoker_RuntimeFieldHandle_t4360 (const MethodInfo* method, void* obj, void** args)
+// System.Collections.DictionaryEntry
+#include "mscorlib_System_Collections_DictionaryEntry.h"
+void* RuntimeInvoker_DictionaryEntry_t2156 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef RuntimeFieldHandle_t4360  (*Func)(void* obj, const MethodInfo* method);
-	RuntimeFieldHandle_t4360  ret = ((Func)method->method)(obj, method);
+	typedef DictionaryEntry_t2156  (*Func)(void* obj, const MethodInfo* method);
+	DictionaryEntry_t2156  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-// System.Reflection.PropertyAttributes
-#include "mscorlib_System_Reflection_PropertyAttributes.h"
-void* RuntimeInvoker_PropertyAttributes_t4571 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// System.Reflection.AssemblyNameFlags
-#include "mscorlib_System_Reflection_AssemblyNameFlags.h"
-void* RuntimeInvoker_AssemblyNameFlags_t4547 (const MethodInfo* method, void* obj, void** args)
+// System.Xml.Serialization.SchemaTypes
+#include "System_Xml_System_Xml_Serialization_SchemaTypes.h"
+void* RuntimeInvoker_SchemaTypes_t3703 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1704,9 +1504,9 @@ void* RuntimeInvoker_AssemblyNameFlags_t4547 (const MethodInfo* method, void* ob
 }
 
 struct Object_t;
-// System.Reflection.EventAttributes
-#include "mscorlib_System_Reflection_EventAttributes.h"
-void* RuntimeInvoker_EventAttributes_t4551 (const MethodInfo* method, void* obj, void** args)
+// System.Linq.Expressions.ExpressionType
+#include "System_Core_System_Linq_Expressions_ExpressionType.h"
+void* RuntimeInvoker_ExpressionType_t3763 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1714,9 +1514,19 @@ void* RuntimeInvoker_EventAttributes_t4551 (const MethodInfo* method, void* obj,
 }
 
 struct Object_t;
-// System.Reflection.ParameterAttributes
-#include "mscorlib_System_Reflection_ParameterAttributes.h"
-void* RuntimeInvoker_ParameterAttributes_t4567 (const MethodInfo* method, void* obj, void** args)
+// System.TimeSpan
+#include "mscorlib_System_TimeSpan.h"
+void* RuntimeInvoker_TimeSpan_t334 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef TimeSpan_t334  (*Func)(void* obj, const MethodInfo* method);
+	TimeSpan_t334  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Linq.Expressions.MemberBindingType
+#include "System_Core_System_Linq_Expressions_MemberBindingType.h"
+void* RuntimeInvoker_MemberBindingType_t3771 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1724,39 +1534,19 @@ void* RuntimeInvoker_ParameterAttributes_t4567 (const MethodInfo* method, void* 
 }
 
 struct Object_t;
-// System.Runtime.Serialization.StreamingContext
-#include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
-void* RuntimeInvoker_StreamingContext_t2937 (const MethodInfo* method, void* obj, void** args)
+// System.Collections.Generic.RBTree/NodeEnumerator
+#include "System_System_Collections_Generic_RBTree_NodeEnumerator.h"
+void* RuntimeInvoker_NodeEnumerator_t4207 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef StreamingContext_t2937  (*Func)(void* obj, const MethodInfo* method);
-	StreamingContext_t2937  ret = ((Func)method->method)(obj, method);
+	typedef NodeEnumerator_t4207  (*Func)(void* obj, const MethodInfo* method);
+	NodeEnumerator_t4207  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-// System.Runtime.Serialization.Formatters.TypeFilterLevel
-#include "mscorlib_System_Runtime_Serialization_Formatters_TypeFilterL.h"
-void* RuntimeInvoker_TypeFilterLevel_t4677 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// System.Runtime.Serialization.SerializationEntry
-#include "mscorlib_System_Runtime_Serialization_SerializationEntry.h"
-void* RuntimeInvoker_SerializationEntry_t4694 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef SerializationEntry_t4694  (*Func)(void* obj, const MethodInfo* method);
-	SerializationEntry_t4694  ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-// System.Runtime.Serialization.StreamingContextStates
-#include "mscorlib_System_Runtime_Serialization_StreamingContextStates.h"
-void* RuntimeInvoker_StreamingContextStates_t4697 (const MethodInfo* method, void* obj, void** args)
+// System.ComponentModel.EditorBrowsableState
+#include "System_System_ComponentModel_EditorBrowsableState.h"
+void* RuntimeInvoker_EditorBrowsableState_t4240 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1764,9 +1554,9 @@ void* RuntimeInvoker_StreamingContextStates_t4697 (const MethodInfo* method, voi
 }
 
 struct Object_t;
-// System.Security.Cryptography.CspProviderFlags
-#include "mscorlib_System_Security_Cryptography_CspProviderFlags.h"
-void* RuntimeInvoker_CspProviderFlags_t4700 (const MethodInfo* method, void* obj, void** args)
+// System.Net.Configuration.ProxyElement/AutoDetectValues
+#include "System_System_Net_Configuration_ProxyElement_AutoDetectValue.h"
+void* RuntimeInvoker_AutoDetectValues_t4331 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1774,9 +1564,289 @@ void* RuntimeInvoker_CspProviderFlags_t4700 (const MethodInfo* method, void* obj
 }
 
 struct Object_t;
-// System.Security.Cryptography.PaddingMode
-#include "mscorlib_System_Security_Cryptography_PaddingMode.h"
-void* RuntimeInvoker_PaddingMode_t4712 (const MethodInfo* method, void* obj, void** args)
+// System.Net.Configuration.ProxyElement/BypassOnLocalValues
+#include "System_System_Net_Configuration_ProxyElement_BypassOnLocalVa.h"
+void* RuntimeInvoker_BypassOnLocalValues_t4329 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Net.Configuration.ProxyElement/UseSystemDefaultValues
+#include "System_System_Net_Configuration_ProxyElement_UseSystemDefaul.h"
+void* RuntimeInvoker_UseSystemDefaultValues_t4330 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Net.Sockets.AddressFamily
+#include "System_System_Net_Sockets_AddressFamily.h"
+void* RuntimeInvoker_AddressFamily_t4398 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Net.FtpWebRequest/RequestState
+#include "System_System_Net_FtpWebRequest_RequestState.h"
+void* RuntimeInvoker_RequestState_t4366 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Net.FtpStatusCode
+#include "System_System_Net_FtpStatusCode.h"
+void* RuntimeInvoker_FtpStatusCode_t4365 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Net.DecompressionMethods
+#include "System_System_Net_DecompressionMethods.h"
+void* RuntimeInvoker_DecompressionMethods_t4348 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Net.HttpStatusCode
+#include "System_System_Net_HttpStatusCode.h"
+void* RuntimeInvoker_HttpStatusCode_t4373 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Net.SecurityProtocolType
+#include "System_System_Net_SecurityProtocolType.h"
+void* RuntimeInvoker_SecurityProtocolType_t4389 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Net.Sockets.SocketError
+#include "System_System_Net_Sockets_SocketError.h"
+void* RuntimeInvoker_SocketError_t4411 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Net.Sockets.SocketType
+#include "System_System_Net_Sockets_SocketType.h"
+void* RuntimeInvoker_SocketType_t4417 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Net.Sockets.ProtocolType
+#include "System_System_Net_Sockets_ProtocolType.h"
+void* RuntimeInvoker_ProtocolType_t4403 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Net.WebExceptionStatus
+#include "System_System_Net_WebExceptionStatus.h"
+void* RuntimeInvoker_WebExceptionStatus_t4423 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Security.Cryptography.X509Certificates.X509ChainStatusFlags
+#include "System_System_Security_Cryptography_X509Certificates_X509Cha_2.h"
+void* RuntimeInvoker_X509ChainStatusFlags_t4451 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Security.Cryptography.X509Certificates.X509RevocationFlag
+#include "System_System_Security_Cryptography_X509Certificates_X509Rev.h"
+void* RuntimeInvoker_X509RevocationFlag_t4458 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Security.Cryptography.X509Certificates.X509RevocationMode
+#include "System_System_Security_Cryptography_X509Certificates_X509Rev_0.h"
+void* RuntimeInvoker_X509RevocationMode_t4459 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Security.Cryptography.X509Certificates.X509VerificationFlags
+#include "System_System_Security_Cryptography_X509Certificates_X509Ver.h"
+void* RuntimeInvoker_X509VerificationFlags_t4462 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Security.Cryptography.X509Certificates.X509KeyUsageFlags
+#include "System_System_Security_Cryptography_X509Certificates_X509Key.h"
+void* RuntimeInvoker_X509KeyUsageFlags_t4456 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Text.RegularExpressions.Interval
+#include "System_System_Text_RegularExpressions_Interval.h"
+void* RuntimeInvoker_Interval_t4497 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Interval_t4497  (*Func)(void* obj, const MethodInfo* method);
+	Interval_t4497  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Text.RegularExpressions.Category
+#include "System_System_Text_RegularExpressions_Category.h"
+void* RuntimeInvoker_Category_t4481 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef uint16_t (*Func)(void* obj, const MethodInfo* method);
+	uint16_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Text.RegularExpressions.RegexOptions
+#include "System_System_Text_RegularExpressions_RegexOptions.h"
+void* RuntimeInvoker_RegexOptions_t4507 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Text.RegularExpressions.Position
+#include "System_System_Text_RegularExpressions_Position.h"
+void* RuntimeInvoker_Position_t4465 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef uint16_t (*Func)(void* obj, const MethodInfo* method);
+	uint16_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.UriHostNameType
+#include "System_System_UriHostNameType.h"
+void* RuntimeInvoker_UriHostNameType_t4539 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.TypeCode
+#include "mscorlib_System_TypeCode.h"
+void* RuntimeInvoker_TypeCode_t4923 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Reflection.TypeAttributes
+#include "mscorlib_System_Reflection_TypeAttributes.h"
+void* RuntimeInvoker_TypeAttributes_t5041 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Reflection.MemberTypes
+#include "mscorlib_System_Reflection_MemberTypes.h"
+void* RuntimeInvoker_MemberTypes_t5018 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.RuntimeTypeHandle
+#include "mscorlib_System_RuntimeTypeHandle.h"
+void* RuntimeInvoker_RuntimeTypeHandle_t4729 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef RuntimeTypeHandle_t4729  (*Func)(void* obj, const MethodInfo* method);
+	RuntimeTypeHandle_t4729  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// Mono.Math.Prime.ConfidenceFactor
+#include "mscorlib_Mono_Math_Prime_ConfidenceFactor.h"
+void* RuntimeInvoker_ConfidenceFactor_t4775 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.ConsoleKeyInfo
+#include "mscorlib_System_ConsoleKeyInfo.h"
+void* RuntimeInvoker_ConsoleKeyInfo_t4859 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef ConsoleKeyInfo_t4859  (*Func)(void* obj, const MethodInfo* method);
+	ConsoleKeyInfo_t4859  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.ConsoleKey
+#include "mscorlib_System_ConsoleKey.h"
+void* RuntimeInvoker_ConsoleKey_t4858 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1786,7 +1856,7 @@ void* RuntimeInvoker_PaddingMode_t4712 (const MethodInfo* method, void* obj, voi
 struct Object_t;
 // System.DayOfWeek
 #include "mscorlib_System_DayOfWeek.h"
-void* RuntimeInvoker_DayOfWeek_t4813 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_DayOfWeek_t4866 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1796,7 +1866,7 @@ void* RuntimeInvoker_DayOfWeek_t4813 (const MethodInfo* method, void* obj, void*
 struct Object_t;
 // System.DateTimeKind
 #include "mscorlib_System_DateTimeKind.h"
-void* RuntimeInvoker_DateTimeKind_t4811 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_DateTimeKind_t4864 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1816,7 +1886,287 @@ void* RuntimeInvoker_DateTimeOffset_t2962 (const MethodInfo* method, void* obj, 
 struct Object_t;
 // System.PlatformID
 #include "mscorlib_System_PlatformID.h"
-void* RuntimeInvoker_PlatformID_t4850 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_PlatformID_t4904 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Reflection.AssemblyNameFlags
+#include "mscorlib_System_Reflection_AssemblyNameFlags.h"
+void* RuntimeInvoker_AssemblyNameFlags_t5009 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Reflection.EventAttributes
+#include "mscorlib_System_Reflection_EventAttributes.h"
+void* RuntimeInvoker_EventAttributes_t5013 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Reflection.FieldAttributes
+#include "mscorlib_System_Reflection_FieldAttributes.h"
+void* RuntimeInvoker_FieldAttributes_t5015 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.RuntimeFieldHandle
+#include "mscorlib_System_RuntimeFieldHandle.h"
+void* RuntimeInvoker_RuntimeFieldHandle_t4730 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef RuntimeFieldHandle_t4730  (*Func)(void* obj, const MethodInfo* method);
+	RuntimeFieldHandle_t4730  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Reflection.MethodImplAttributes
+#include "mscorlib_System_Reflection_MethodImplAttributes.h"
+void* RuntimeInvoker_MethodImplAttributes_t5020 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.RuntimeMethodHandle
+#include "mscorlib_System_RuntimeMethodHandle.h"
+void* RuntimeInvoker_RuntimeMethodHandle_t4907 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef RuntimeMethodHandle_t4907  (*Func)(void* obj, const MethodInfo* method);
+	RuntimeMethodHandle_t4907  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Reflection.MethodAttributes
+#include "mscorlib_System_Reflection_MethodAttributes.h"
+void* RuntimeInvoker_MethodAttributes_t5019 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Reflection.CallingConventions
+#include "mscorlib_System_Reflection_CallingConventions.h"
+void* RuntimeInvoker_CallingConventions_t5012 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Reflection.PropertyAttributes
+#include "mscorlib_System_Reflection_PropertyAttributes.h"
+void* RuntimeInvoker_PropertyAttributes_t5036 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Reflection.ParameterAttributes
+#include "mscorlib_System_Reflection_ParameterAttributes.h"
+void* RuntimeInvoker_ParameterAttributes_t5031 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Reflection.Emit.MethodToken
+#include "mscorlib_System_Reflection_Emit_MethodToken.h"
+void* RuntimeInvoker_MethodToken_t5072 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef MethodToken_t5072  (*Func)(void* obj, const MethodInfo* method);
+	MethodToken_t5072  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Reflection.Emit.Label
+#include "mscorlib_System_Reflection_Emit_Label.h"
+void* RuntimeInvoker_Label_t4474 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Label_t4474  (*Func)(void* obj, const MethodInfo* method);
+	Label_t4474  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Reflection.Emit.OperandType
+#include "mscorlib_System_Reflection_Emit_OperandType.h"
+void* RuntimeInvoker_OperandType_t5077 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Reflection.Emit.StackBehaviour
+#include "mscorlib_System_Reflection_Emit_StackBehaviour.h"
+void* RuntimeInvoker_StackBehaviour_t5082 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Runtime.Remoting.Lifetime.LeaseState
+#include "mscorlib_System_Runtime_Remoting_Lifetime_LeaseState.h"
+void* RuntimeInvoker_LeaseState_t5148 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Runtime.Remoting.Messaging.CallType
+#include "mscorlib_System_Runtime_Remoting_Messaging_CallType.h"
+void* RuntimeInvoker_CallType_t5168 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Runtime.Serialization.SerializationEntry
+#include "mscorlib_System_Runtime_Serialization_SerializationEntry.h"
+void* RuntimeInvoker_SerializationEntry_t5200 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef SerializationEntry_t5200  (*Func)(void* obj, const MethodInfo* method);
+	SerializationEntry_t5200  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Runtime.Serialization.StreamingContextStates
+#include "mscorlib_System_Runtime_Serialization_StreamingContextStates.h"
+void* RuntimeInvoker_StreamingContextStates_t5205 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Runtime.Serialization.StreamingContext
+#include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
+void* RuntimeInvoker_StreamingContext_t2937 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef StreamingContext_t2937  (*Func)(void* obj, const MethodInfo* method);
+	StreamingContext_t2937  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Runtime.Serialization.Formatters.TypeFilterLevel
+#include "mscorlib_System_Runtime_Serialization_Formatters_TypeFilterL.h"
+void* RuntimeInvoker_TypeFilterLevel_t5208 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Security.HostSecurityManagerOptions
+#include "mscorlib_System_Security_HostSecurityManagerOptions.h"
+void* RuntimeInvoker_HostSecurityManagerOptions_t5228 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Security.Cryptography.CspProviderFlags
+#include "mscorlib_System_Security_Cryptography_CspProviderFlags.h"
+void* RuntimeInvoker_CspProviderFlags_t5250 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Security.Cryptography.PaddingMode
+#include "mscorlib_System_Security_Cryptography_PaddingMode.h"
+void* RuntimeInvoker_PaddingMode_t5263 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Security.Permissions.FileIOPermissionAccess
+#include "mscorlib_System_Security_Permissions_FileIOPermissionAccess.h"
+void* RuntimeInvoker_FileIOPermissionAccess_t5294 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Security.Permissions.ReflectionPermissionFlag
+#include "mscorlib_System_Security_Permissions_ReflectionPermissionFla.h"
+void* RuntimeInvoker_ReflectionPermissionFlag_t5307 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Security.Permissions.StrongNameIdentityPermission/SNIP
+#include "mscorlib_System_Security_Permissions_StrongNameIdentityPermi.h"
+void* RuntimeInvoker_SNIP_t5314 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef SNIP_t5314  (*Func)(void* obj, const MethodInfo* method);
+	SNIP_t5314  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Security.Policy.PolicyStatementAttribute
+#include "mscorlib_System_Security_Policy_PolicyStatementAttribute.h"
+void* RuntimeInvoker_PolicyStatementAttribute_t5338 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Security.SecurityZone
+#include "mscorlib_System_Security_SecurityZone.h"
+void* RuntimeInvoker_SecurityZone_t5244 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, method);
@@ -1826,20 +2176,20 @@ void* RuntimeInvoker_PlatformID_t4850 (const MethodInfo* method, void* obj, void
 struct Object_t;
 // System.TimeZoneInfo/TimeType
 #include "System_Core_System_TimeZoneInfo_TimeType.h"
-void* RuntimeInvoker_TimeType_t3373 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_TimeType_t3751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef TimeType_t3373  (*Func)(void* obj, const MethodInfo* method);
-	TimeType_t3373  ret = ((Func)method->method)(obj, method);
+	typedef TimeType_t3751  (*Func)(void* obj, const MethodInfo* method);
+	TimeType_t3751  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Link
 #include "mscorlib_System_Collections_Generic_Link.h"
-void* RuntimeInvoker_Link_t4447 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Link_t5385 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Link_t4447  (*Func)(void* obj, const MethodInfo* method);
-	Link_t4447  ret = ((Func)method->method)(obj, method);
+	typedef Link_t5385  (*Func)(void* obj, const MethodInfo* method);
+	Link_t5385  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -1936,10 +2286,10 @@ void* RuntimeInvoker_Keyframe_t2797 (const MethodInfo* method, void* obj, void**
 struct Object_t;
 // System.Reflection.ParameterModifier
 #include "mscorlib_System_Reflection_ParameterModifier.h"
-void* RuntimeInvoker_ParameterModifier_t4568 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_ParameterModifier_t5033 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef ParameterModifier_t4568  (*Func)(void* obj, const MethodInfo* method);
-	ParameterModifier_t4568  ret = ((Func)method->method)(obj, method);
+	typedef ParameterModifier_t5033  (*Func)(void* obj, const MethodInfo* method);
+	ParameterModifier_t5033  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -1956,90 +2306,150 @@ void* RuntimeInvoker_HitInfo_t2880 (const MethodInfo* method, void* obj, void** 
 struct Object_t;
 // System.Xml.XmlNamespaceManager/NsDecl
 #include "System_Xml_System_Xml_XmlNamespaceManager_NsDecl.h"
-void* RuntimeInvoker_NsDecl_t3253 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_NsDecl_t3518 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef NsDecl_t3253  (*Func)(void* obj, const MethodInfo* method);
-	NsDecl_t3253  ret = ((Func)method->method)(obj, method);
+	typedef NsDecl_t3518  (*Func)(void* obj, const MethodInfo* method);
+	NsDecl_t3518  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Xml.XmlNamespaceManager/NsScope
 #include "System_Xml_System_Xml_XmlNamespaceManager_NsScope.h"
-void* RuntimeInvoker_NsScope_t3254 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_NsScope_t3519 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef NsScope_t3254  (*Func)(void* obj, const MethodInfo* method);
-	NsScope_t3254  ret = ((Func)method->method)(obj, method);
+	typedef NsScope_t3519  (*Func)(void* obj, const MethodInfo* method);
+	NsScope_t3519  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // Mono.Xml2.XmlTextReader/TagName
 #include "System_Xml_Mono_Xml2_XmlTextReader_TagName.h"
-void* RuntimeInvoker_TagName_t3282 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_TagName_t3543 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef TagName_t3282  (*Func)(void* obj, const MethodInfo* method);
-	TagName_t3282  ret = ((Func)method->method)(obj, method);
+	typedef TagName_t3543  (*Func)(void* obj, const MethodInfo* method);
+	TagName_t3543  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Security.Cryptography.X509Certificates.X509ChainStatus
 #include "System_System_Security_Cryptography_X509Certificates_X509Cha_5.h"
-void* RuntimeInvoker_X509ChainStatus_t4113 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_X509ChainStatus_t4447 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef X509ChainStatus_t4113  (*Func)(void* obj, const MethodInfo* method);
-	X509ChainStatus_t4113  ret = ((Func)method->method)(obj, method);
+	typedef X509ChainStatus_t4447  (*Func)(void* obj, const MethodInfo* method);
+	X509ChainStatus_t4447  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Text.RegularExpressions.Mark
 #include "System_System_Text_RegularExpressions_Mark.h"
-void* RuntimeInvoker_Mark_t4157 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Mark_t4489 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Mark_t4157  (*Func)(void* obj, const MethodInfo* method);
-	Mark_t4157  ret = ((Func)method->method)(obj, method);
+	typedef Mark_t4489  (*Func)(void* obj, const MethodInfo* method);
+	Mark_t4489  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Uri/UriScheme
 #include "System_System_Uri_UriScheme.h"
-void* RuntimeInvoker_UriScheme_t4193 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_UriScheme_t4537 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef UriScheme_t4193  (*Func)(void* obj, const MethodInfo* method);
-	UriScheme_t4193  ret = ((Func)method->method)(obj, method);
+	typedef UriScheme_t4537  (*Func)(void* obj, const MethodInfo* method);
+	UriScheme_t4537  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // Mono.Globalization.Unicode.CodePointIndexer/TableRange
 #include "mscorlib_Mono_Globalization_Unicode_CodePointIndexer_TableRa.h"
-void* RuntimeInvoker_TableRange_t4381 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_TableRange_t4750 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef TableRange_t4381  (*Func)(void* obj, const MethodInfo* method);
-	TableRange_t4381  ret = ((Func)method->method)(obj, method);
+	typedef TableRange_t4750  (*Func)(void* obj, const MethodInfo* method);
+	TableRange_t4750  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// Mono.Security.Uri/UriScheme
+#include "mscorlib_Mono_Security_Uri_UriScheme.h"
+void* RuntimeInvoker_UriScheme_t4790 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef UriScheme_t4790  (*Func)(void* obj, const MethodInfo* method);
+	UriScheme_t4790  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Hashtable/Slot
 #include "mscorlib_System_Collections_Hashtable_Slot.h"
-void* RuntimeInvoker_Slot_t4457 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Slot_t4942 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Slot_t4457  (*Func)(void* obj, const MethodInfo* method);
-	Slot_t4457  ret = ((Func)method->method)(obj, method);
+	typedef Slot_t4942  (*Func)(void* obj, const MethodInfo* method);
+	Slot_t4942  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.SortedList/Slot
 #include "mscorlib_System_Collections_SortedList_Slot.h"
-void* RuntimeInvoker_Slot_t4466 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Slot_t4951 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Slot_t4466  (*Func)(void* obj, const MethodInfo* method);
-	Slot_t4466  ret = ((Func)method->method)(obj, method);
+	typedef Slot_t4951  (*Func)(void* obj, const MethodInfo* method);
+	Slot_t4951  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Reflection.Emit.MonoResource
+#include "mscorlib_System_Reflection_Emit_MonoResource.h"
+void* RuntimeInvoker_MonoResource_t5044 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef MonoResource_t5044  (*Func)(void* obj, const MethodInfo* method);
+	MonoResource_t5044  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Reflection.Emit.RefEmitPermissionSet
+#include "mscorlib_System_Reflection_Emit_RefEmitPermissionSet.h"
+void* RuntimeInvoker_RefEmitPermissionSet_t5043 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef RefEmitPermissionSet_t5043  (*Func)(void* obj, const MethodInfo* method);
+	RefEmitPermissionSet_t5043  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Reflection.Emit.ILTokenInfo
+#include "mscorlib_System_Reflection_Emit_ILTokenInfo.h"
+void* RuntimeInvoker_ILTokenInfo_t5063 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef ILTokenInfo_t5063  (*Func)(void* obj, const MethodInfo* method);
+	ILTokenInfo_t5063  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Reflection.Emit.ILGenerator/LabelData
+#include "mscorlib_System_Reflection_Emit_ILGenerator_LabelData.h"
+void* RuntimeInvoker_LabelData_t5065 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef LabelData_t5065  (*Func)(void* obj, const MethodInfo* method);
+	LabelData_t5065  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Reflection.Emit.ILGenerator/LabelFixup
+#include "mscorlib_System_Reflection_Emit_ILGenerator_LabelFixup.h"
+void* RuntimeInvoker_LabelFixup_t5064 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef LabelFixup_t5064  (*Func)(void* obj, const MethodInfo* method);
+	LabelFixup_t5064  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -2086,40 +2496,40 @@ void* RuntimeInvoker_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, v
 struct Object_t;
 // System.Collections.Generic.HashSet`1/Enumerator<System.Object>
 #include "System_Core_System_Collections_Generic_HashSet_1_Enumerator__0.h"
-void* RuntimeInvoker_Enumerator_t5977 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t6510 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t5977  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t5977  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6510  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6510  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.LinkedList`1/Enumerator<System.Object>
 #include "System_System_Collections_Generic_LinkedList_1_Enumerator_ge_0.h"
-void* RuntimeInvoker_Enumerator_t6017 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t6550 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6017  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6017  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6550  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6550  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Queue`1/Enumerator<System.Object>
 #include "System_System_Collections_Generic_Queue_1_Enumerator_gen.h"
-void* RuntimeInvoker_Enumerator_t6340 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t6873 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6340  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6340  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6873  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6873  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.SortedDictionary`2/Enumerator<System.Object,System.Object>
 #include "System_System_Collections_Generic_SortedDictionary_2_Enumera_0.h"
-void* RuntimeInvoker_Enumerator_t5668 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t6201 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t5668  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t5668  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6201  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6201  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -2136,60 +2546,60 @@ void* RuntimeInvoker_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, vo
 struct Object_t;
 // System.Collections.Generic.SortedDictionary`2/ValueCollection/Enumerator<System.Object,System.Object>
 #include "System_System_Collections_Generic_SortedDictionary_2_ValueCo_0.h"
-void* RuntimeInvoker_Enumerator_t5660 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t6193 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t5660  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t5660  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6193  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6193  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.SortedDictionary`2/KeyCollection/Enumerator<System.Object,System.Object>
 #include "System_System_Collections_Generic_SortedDictionary_2_KeyColl_0.h"
-void* RuntimeInvoker_Enumerator_t5657 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t6190 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t5657  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t5657  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6190  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6190  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Stack`1/Enumerator<System.Object>
 #include "System_System_Collections_Generic_Stack_1_Enumerator_gen.h"
-void* RuntimeInvoker_Enumerator_t5440 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t5973 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t5440  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t5440  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t5973  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t5973  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__14.h"
-void* RuntimeInvoker_Enumerator_t5460 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t5993 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t5460  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t5460  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t5993  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t5993  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_13.h"
-void* RuntimeInvoker_Enumerator_t5459 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t5992 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t5459  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t5459  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t5992  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t5992  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_9.h"
-void* RuntimeInvoker_Enumerator_t5463 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t5996 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t5463  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t5463  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t5996  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t5996  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -2206,1100 +2616,1140 @@ void* RuntimeInvoker_Enumerator_t760 (const MethodInfo* method, void* obj, void*
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__12.h"
-void* RuntimeInvoker_Enumerator_t5420 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t5953 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t5420  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t5420  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t5953  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t5953  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_18.h"
-void* RuntimeInvoker_KeyValuePair_2_t5412 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t5945 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5412  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t5412  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t5945  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t5945  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_10.h"
-void* RuntimeInvoker_Enumerator_t5419 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t5952 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t5419  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t5419  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t5952  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t5952  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_6.h"
-void* RuntimeInvoker_Enumerator_t5423 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t5956 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t5423  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t5423  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t5956  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t5956  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_54.h"
-void* RuntimeInvoker_Enumerator_t6075 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_55.h"
+void* RuntimeInvoker_Enumerator_t6608 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6075  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6075  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6608  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6608  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Int32>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__19.h"
-void* RuntimeInvoker_Enumerator_t5553 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t6086 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t5553  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t5553  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6086  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6086  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Int32>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_24.h"
-void* RuntimeInvoker_KeyValuePair_2_t5549 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6082 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5549  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t5549  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t6082  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t6082  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Int32>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_22.h"
-void* RuntimeInvoker_Enumerator_t5552 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t6085 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t5552  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t5552  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6085  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6085  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int32>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_22.h"
-void* RuntimeInvoker_Enumerator_t5556 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t6089 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t5556  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t5556  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6089  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6089  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Int32>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_25.h"
-void* RuntimeInvoker_Enumerator_t5700 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_26.h"
+void* RuntimeInvoker_Enumerator_t6233 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t5700  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t5700  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6233  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6233  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Single>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_29.h"
-void* RuntimeInvoker_Enumerator_t5744 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_30.h"
+void* RuntimeInvoker_Enumerator_t6277 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t5744  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t5744  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6277  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6277  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_37.h"
-void* RuntimeInvoker_Enumerator_t5817 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_38.h"
+void* RuntimeInvoker_Enumerator_t6350 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t5817  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t5817  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6350  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6350  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_44.h"
-void* RuntimeInvoker_Enumerator_t5883 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_45.h"
+void* RuntimeInvoker_Enumerator_t6416 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t5883  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t5883  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6416  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6416  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.HashSet`1/Link<System.Object>
 #include "System_Core_System_Collections_Generic_HashSet_1_Link_gen.h"
-void* RuntimeInvoker_Link_t5979 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Link_t6512 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Link_t5979  (*Func)(void* obj, const MethodInfo* method);
-	Link_t5979  ret = ((Func)method->method)(obj, method);
+	typedef Link_t6512  (*Func)(void* obj, const MethodInfo* method);
+	Link_t6512  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Int64,System.Object>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_40.h"
-void* RuntimeInvoker_KeyValuePair_2_t6039 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6572 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6039  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t6039  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t6572  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t6572  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int64,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__35.h"
-void* RuntimeInvoker_Enumerator_t6047 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t6580 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6047  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6047  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6580  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6580  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int64,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_43.h"
-void* RuntimeInvoker_Enumerator_t6046 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t6579 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6046  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6046  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6579  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6579  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_41.h"
-void* RuntimeInvoker_Enumerator_t6050 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t6583 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6050  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6050  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6583  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6583  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Byte>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_45.h"
-void* RuntimeInvoker_KeyValuePair_2_t6218 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6218  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t6218  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t6751  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t6751  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Int64,System.Byte>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_46.h"
-void* RuntimeInvoker_KeyValuePair_2_t6223 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6756 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6223  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t6223  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t6756  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t6756  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int64,System.Byte>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__40.h"
-void* RuntimeInvoker_Enumerator_t6229 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t6762 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6229  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6229  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6762  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6762  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int64,System.Byte>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_49.h"
-void* RuntimeInvoker_Enumerator_t6228 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t6761 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6228  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6228  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6761  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6761  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Byte>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_47.h"
-void* RuntimeInvoker_Enumerator_t6232 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t6765 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6232  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6232  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6765  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6765  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Byte>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__41.h"
-void* RuntimeInvoker_Enumerator_t6244 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t6777 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6244  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6244  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6777  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6777  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Byte>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_51.h"
-void* RuntimeInvoker_Enumerator_t6243 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t6776 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6243  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6243  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6776  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6776  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Byte>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_49.h"
-void* RuntimeInvoker_Enumerator_t6247 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t6780 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6247  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6247  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6780  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6780  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Byte>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_60.h"
-void* RuntimeInvoker_Enumerator_t6406 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_61.h"
+void* RuntimeInvoker_Enumerator_t6939 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6406  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6406  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6939  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6939  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.SByte>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_61.h"
-void* RuntimeInvoker_Enumerator_t6462 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_62.h"
+void* RuntimeInvoker_Enumerator_t6995 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6462  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6462  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t6995  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t6995  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Int16>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_62.h"
-void* RuntimeInvoker_Enumerator_t6509 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_63.h"
+void* RuntimeInvoker_Enumerator_t7042 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6509  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6509  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7042  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7042  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.UInt16>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_63.h"
-void* RuntimeInvoker_Enumerator_t6556 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_64.h"
+void* RuntimeInvoker_Enumerator_t7089 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6556  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6556  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7089  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7089  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.UInt32>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_64.h"
-void* RuntimeInvoker_Enumerator_t6637 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_65.h"
+void* RuntimeInvoker_Enumerator_t7170 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6637  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6637  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7170  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7170  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Int64>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_65.h"
-void* RuntimeInvoker_Enumerator_t6684 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_66.h"
+void* RuntimeInvoker_Enumerator_t7217 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6684  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6684  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7217  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7217  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.UInt64>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_66.h"
-void* RuntimeInvoker_Enumerator_t6728 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_67.h"
+void* RuntimeInvoker_Enumerator_t7261 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6728  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6728  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7261  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7261  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Double>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_67.h"
-void* RuntimeInvoker_Enumerator_t6788 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_68.h"
+void* RuntimeInvoker_Enumerator_t7321 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6788  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6788  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7321  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7321  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.DateTime>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_68.h"
-void* RuntimeInvoker_Enumerator_t6876 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_69.h"
+void* RuntimeInvoker_Enumerator_t7409 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6876  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6876  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7409  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7409  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<Parse.ParseGeoPoint>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_69.h"
-void* RuntimeInvoker_Enumerator_t6897 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_70.h"
+void* RuntimeInvoker_Enumerator_t7432 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t6897  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t6897  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7432  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7432  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Single>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_53.h"
-void* RuntimeInvoker_KeyValuePair_2_t7036 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7571 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7036  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7036  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7571  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7571  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Double>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_54.h"
-void* RuntimeInvoker_KeyValuePair_2_t7042 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7577 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7042  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7042  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7577  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7577  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.DateTime>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_55.h"
-void* RuntimeInvoker_KeyValuePair_2_t7053 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7588 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7053  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7053  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7588  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7588  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_56.h"
-void* RuntimeInvoker_KeyValuePair_2_t7062 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7597 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7062  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7062  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7597  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7597  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Single>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__50.h"
-void* RuntimeInvoker_Enumerator_t7099 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t7634 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7099  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7099  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7634  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7634  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Single>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_62.h"
-void* RuntimeInvoker_Enumerator_t7098 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t7633 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7098  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7098  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7633  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7633  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Single>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_60.h"
-void* RuntimeInvoker_Enumerator_t7102 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t7637 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7102  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7102  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7637  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7637  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Double>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__52.h"
-void* RuntimeInvoker_Enumerator_t7119 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t7654 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7119  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7119  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7654  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7654  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Double>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_65.h"
-void* RuntimeInvoker_Enumerator_t7118 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t7653 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7118  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7118  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7653  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7653  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Double>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_63.h"
-void* RuntimeInvoker_Enumerator_t7122 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t7657 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7122  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7122  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7657  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7657  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.DateTime>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__54.h"
-void* RuntimeInvoker_Enumerator_t7145 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t7680 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7145  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7145  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7680  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7680  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.DateTime>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_68.h"
-void* RuntimeInvoker_Enumerator_t7144 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t7679 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7144  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7144  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7679  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7679  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.DateTime>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_66.h"
-void* RuntimeInvoker_Enumerator_t7148 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t7683 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7148  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7148  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7683  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7683  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Parse.ParseGeoPoint>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__57.h"
-void* RuntimeInvoker_Enumerator_t7172 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t7707 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7172  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7172  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7707  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7707  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,Parse.ParseGeoPoint>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_72.h"
-void* RuntimeInvoker_Enumerator_t7171 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t7706 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7171  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7171  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7706  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7706  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,Parse.ParseGeoPoint>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_70.h"
-void* RuntimeInvoker_Enumerator_t7175 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t7710 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7175  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7175  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7710  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7710  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_67.h"
-void* RuntimeInvoker_KeyValuePair_2_t7228 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7763 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7228  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7228  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7763  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7763  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Int16>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_69.h"
-void* RuntimeInvoker_KeyValuePair_2_t7239 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7774 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7239  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7239  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7774  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7774  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_71.h"
-void* RuntimeInvoker_KeyValuePair_2_t7250 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7785 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7250  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7250  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7785  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7785  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt32>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_73.h"
-void* RuntimeInvoker_KeyValuePair_2_t7268 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7803 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7268  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7268  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7803  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7803  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Int64>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_75.h"
-void* RuntimeInvoker_KeyValuePair_2_t7279 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7814 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7279  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7279  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7814  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7814  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt64>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_77.h"
-void* RuntimeInvoker_KeyValuePair_2_t7290 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7825 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7290  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7290  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7825  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7825  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.Byte>>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_75.h"
-void* RuntimeInvoker_Enumerator_t7322 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_76.h"
+void* RuntimeInvoker_Enumerator_t7857 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7322  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7322  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7857  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7857  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_66.h"
-void* RuntimeInvoker_KeyValuePair_2_t7219 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7754 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7219  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7219  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7754  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7754  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_77.h"
-void* RuntimeInvoker_Enumerator_t7399 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_78.h"
+void* RuntimeInvoker_Enumerator_t7934 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7399  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7399  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7934  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7934  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.SByte>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_68.h"
-void* RuntimeInvoker_KeyValuePair_2_t7230 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7765 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7230  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7230  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7765  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7765  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int16>>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_79.h"
-void* RuntimeInvoker_Enumerator_t7464 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_80.h"
+void* RuntimeInvoker_Enumerator_t7999 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7464  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7464  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t7999  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t7999  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Int16>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_70.h"
-void* RuntimeInvoker_KeyValuePair_2_t7241 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7776 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7241  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7241  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7776  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7776  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_81.h"
-void* RuntimeInvoker_Enumerator_t7529 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_82.h"
+void* RuntimeInvoker_Enumerator_t8064 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7529  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7529  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t8064  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t8064  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.UInt16>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_72.h"
-void* RuntimeInvoker_KeyValuePair_2_t7252 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7787 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7252  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7252  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7787  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7787  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int32>>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_83.h"
-void* RuntimeInvoker_Enumerator_t7594 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_84.h"
+void* RuntimeInvoker_Enumerator_t8129 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7594  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7594  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t8129  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t8129  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_25.h"
-void* RuntimeInvoker_KeyValuePair_2_t5560 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6093 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5560  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t5560  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t6093  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t6093  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt32>>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_85.h"
-void* RuntimeInvoker_Enumerator_t7659 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_86.h"
+void* RuntimeInvoker_Enumerator_t8194 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7659  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7659  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t8194  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t8194  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.UInt32>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_74.h"
-void* RuntimeInvoker_KeyValuePair_2_t7270 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7805 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7270  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7270  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7805  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7805  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int64>>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_87.h"
-void* RuntimeInvoker_Enumerator_t7724 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_88.h"
+void* RuntimeInvoker_Enumerator_t8259 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7724  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7724  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t8259  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t8259  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Int64>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_76.h"
-void* RuntimeInvoker_KeyValuePair_2_t7281 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7816 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7281  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7281  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7816  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7816  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt64>>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_89.h"
-void* RuntimeInvoker_Enumerator_t7789 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_90.h"
+void* RuntimeInvoker_Enumerator_t8324 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7789  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7789  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t8324  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t8324  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.UInt64>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_78.h"
-void* RuntimeInvoker_KeyValuePair_2_t7292 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7827 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7292  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7292  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7827  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7827  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.Double>>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_91.h"
-void* RuntimeInvoker_Enumerator_t7867 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_92.h"
+void* RuntimeInvoker_Enumerator_t8402 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7867  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7867  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t8402  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t8402  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Double>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_58.h"
-void* RuntimeInvoker_KeyValuePair_2_t7111 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7646 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7111  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7111  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7646  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7646  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.Single>>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_93.h"
-void* RuntimeInvoker_Enumerator_t7932 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_94.h"
+void* RuntimeInvoker_Enumerator_t8467 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t7932  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t7932  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t8467  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t8467  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Single>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_57.h"
-void* RuntimeInvoker_KeyValuePair_2_t7091 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7626 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7091  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7091  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7626  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7626  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,System.DateTime>>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_95.h"
-void* RuntimeInvoker_Enumerator_t8006 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_96.h"
+void* RuntimeInvoker_Enumerator_t8541 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8006  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8006  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t8541  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t8541  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.DateTime>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_59.h"
-void* RuntimeInvoker_KeyValuePair_2_t7137 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7672 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7137  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7137  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7672  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7672  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_97.h"
-void* RuntimeInvoker_Enumerator_t8038 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_98.h"
+void* RuntimeInvoker_Enumerator_t8573 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8038  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8038  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t8573  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t8573  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseGeoPoint>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_61.h"
-void* RuntimeInvoker_KeyValuePair_2_t7164 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7699 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7164  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t7164  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t7699  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t7699  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Int64,System.Int32>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_131.h"
-void* RuntimeInvoker_KeyValuePair_2_t8373 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t8908 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t8373  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t8373  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t8908  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t8908  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int64,System.Int32>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__62.h"
-void* RuntimeInvoker_Enumerator_t8379 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t8914 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8379  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8379  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t8914  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t8914  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int64,System.Int32>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_78.h"
-void* RuntimeInvoker_Enumerator_t8378 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t8913 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8378  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8378  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t8913  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t8913  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int64,System.Int32>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_76.h"
-void* RuntimeInvoker_Enumerator_t8382 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t8917 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8382  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8382  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t8917  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t8917  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_103.h"
-void* RuntimeInvoker_Enumerator_t8462 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_104.h"
+void* RuntimeInvoker_Enumerator_t8997 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8462  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8462  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t8997  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t8997  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.UILineInfo>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_104.h"
-void* RuntimeInvoker_Enumerator_t8471 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_105.h"
+void* RuntimeInvoker_Enumerator_t9006 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8471  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8471  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t9006  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t9006  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Int64>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__65.h"
-void* RuntimeInvoker_Enumerator_t8485 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t9020 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8485  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8485  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t9020  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t9020  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Int64>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_82.h"
-void* RuntimeInvoker_Enumerator_t8484 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t9019 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8484  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8484  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t9019  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t9019  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Int64>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_79.h"
-void* RuntimeInvoker_Enumerator_t8488 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t9023 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8488  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8488  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t9023  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t9023  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/Enumerator<System.UInt64,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__67.h"
-void* RuntimeInvoker_Enumerator_t8518 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t9053 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8518  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8518  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t9053  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t9053  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.UInt64,System.Object>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_134.h"
-void* RuntimeInvoker_KeyValuePair_2_t8514 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t9049 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t8514  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t8514  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t9049  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t9049  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.UInt64,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_85.h"
-void* RuntimeInvoker_Enumerator_t8517 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t9052 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8517  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8517  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t9052  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t9052  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.UInt64,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_82.h"
-void* RuntimeInvoker_Enumerator_t8521 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t9056 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8521  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8521  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t9056  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t9056  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_136.h"
-void* RuntimeInvoker_KeyValuePair_2_t8530 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t9065 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t8530  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t8530  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t9065  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t9065  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__70.h"
-void* RuntimeInvoker_Enumerator_t8557 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t9092 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8557  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8557  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t9092  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t9092  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_89.h"
-void* RuntimeInvoker_Enumerator_t8556 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t9091 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8556  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8556  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t9091  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t9091  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_86.h"
-void* RuntimeInvoker_Enumerator_t8560 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t9095 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8560  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8560  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t9095  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t9095  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__73.h"
-void* RuntimeInvoker_Enumerator_t8638 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t9187 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8638  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8638  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t9187  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t9187  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Int32,System.TimeZoneInfo/TimeType>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_142.h"
-void* RuntimeInvoker_KeyValuePair_2_t8633 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t9182 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t8633  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t8633  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t9182  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t9182  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_93.h"
-void* RuntimeInvoker_Enumerator_t8637 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t9186 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8637  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8637  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t9186  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t9186  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.TimeZoneInfo/TimeType>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_90.h"
-void* RuntimeInvoker_Enumerator_t8641 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Enumerator_t9190 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8641  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8641  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t9190  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t9190  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
-#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_109.h"
-void* RuntimeInvoker_Enumerator_t8649 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_110.h"
+void* RuntimeInvoker_Enumerator_t9198 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8649  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8649  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t9198  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t9198  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_17.h"
-void* RuntimeInvoker_KeyValuePair_2_t3396 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t3795 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t3396  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t3396  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t3795  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t3795  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.ArraySegment`1<System.Byte>
 #include "mscorlib_System_ArraySegment_1_gen.h"
-void* RuntimeInvoker_ArraySegment_1_t8671 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_ArraySegment_1_t9243 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef ArraySegment_1_t8671  (*Func)(void* obj, const MethodInfo* method);
-	ArraySegment_1_t8671  ret = ((Func)method->method)(obj, method);
+	typedef ArraySegment_1_t9243  (*Func)(void* obj, const MethodInfo* method);
+	ArraySegment_1_t9243  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Int32>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__74.h"
-void* RuntimeInvoker_Enumerator_t8684 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__76.h"
+void* RuntimeInvoker_Enumerator_t9252 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8684  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8684  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t9252  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t9252  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_143.h"
-void* RuntimeInvoker_KeyValuePair_2_t8680 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_145.h"
+void* RuntimeInvoker_KeyValuePair_2_t9248 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t8680  (*Func)(void* obj, const MethodInfo* method);
-	KeyValuePair_2_t8680  ret = ((Func)method->method)(obj, method);
+	typedef KeyValuePair_2_t9248  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t9248  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,System.Int32>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_95.h"
-void* RuntimeInvoker_Enumerator_t8683 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_97.h"
+void* RuntimeInvoker_Enumerator_t9251 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8683  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8683  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t9251  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t9251  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Int32>
-#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_92.h"
-void* RuntimeInvoker_Enumerator_t8687 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_94.h"
+void* RuntimeInvoker_Enumerator_t9255 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Enumerator_t8687  (*Func)(void* obj, const MethodInfo* method);
-	Enumerator_t8687  ret = ((Func)method->method)(obj, method);
+	typedef Enumerator_t9255  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t9255  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,System.Reflection.Emit.Label>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__77.h"
+void* RuntimeInvoker_Enumerator_t9265 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Enumerator_t9265  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t9265  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Collections.Generic.KeyValuePair`2<System.Int32,System.Reflection.Emit.Label>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_146.h"
+void* RuntimeInvoker_KeyValuePair_2_t9260 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef KeyValuePair_2_t9260  (*Func)(void* obj, const MethodInfo* method);
+	KeyValuePair_2_t9260  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,System.Reflection.Emit.Label>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_99.h"
+void* RuntimeInvoker_Enumerator_t9264 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Enumerator_t9264  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t9264  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,System.Reflection.Emit.Label>
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_96.h"
+void* RuntimeInvoker_Enumerator_t9268 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Enumerator_t9268  (*Func)(void* obj, const MethodInfo* method);
+	Enumerator_t9268  ret = ((Func)method->method)(obj, method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -3763,7 +4213,7 @@ struct Object_t;
 struct StringBuilder_t261;
 // System.Text.StringBuilder
 #include "mscorlib_System_Text_StringBuilder.h"
-void* RuntimeInvoker_Void_t85_StringBuilderU26_t3333 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_StringBuilderU26_t3741 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, StringBuilder_t261 ** p1, const MethodInfo* method);
 	((Func)method->method)(obj, (StringBuilder_t261 **)args[0], method);
@@ -3774,7 +4224,7 @@ struct Object_t;
 struct Stream_t51;
 // System.IO.Stream
 #include "mscorlib_System_IO_Stream.h"
-void* RuntimeInvoker_Void_t85_StreamU26_t4343 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_StreamU26_t4709 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, Stream_t51 ** p1, const MethodInfo* method);
 	((Func)method->method)(obj, (Stream_t51 **)args[0], method);
@@ -3790,22 +4240,6 @@ void* RuntimeInvoker_Void_t85_StringU26_t827 (const MethodInfo* method, void* ob
 	typedef void (*Func)(void* obj, String_t** p1, const MethodInfo* method);
 	((Func)method->method)(obj, (String_t**)args[0], method);
 	return NULL;
-}
-
-struct Object_t;
-void* RuntimeInvoker_Void_t85_BooleanU26_t841 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef void (*Func)(void* obj, bool* p1, const MethodInfo* method);
-	((Func)method->method)(obj, (bool*)args[0], method);
-	return NULL;
-}
-
-struct Object_t;
-void* RuntimeInvoker_UInt32_t754_Int32_t82 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef uint32_t (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	uint32_t ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
@@ -3841,6 +4275,14 @@ void* RuntimeInvoker_UInt16_t757_Int64_t89 (const MethodInfo* method, void* obj,
 }
 
 struct Object_t;
+void* RuntimeInvoker_UInt32_t754_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef uint32_t (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	uint32_t ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
 void* RuntimeInvoker_UInt64_t758_Int16_t756 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef uint64_t (*Func)(void* obj, int16_t p1, const MethodInfo* method);
@@ -3851,7 +4293,7 @@ void* RuntimeInvoker_UInt64_t758_Int16_t756 (const MethodInfo* method, void* obj
 struct Object_t;
 struct ByteU5BU5D_t66;
 #include "mscorlib_ArrayTypes.h"
-void* RuntimeInvoker_Void_t85_ByteU5BU5DU26_t3962 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_ByteU5BU5DU26_t3289 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, ByteU5BU5D_t66** p1, const MethodInfo* method);
 	((Func)method->method)(obj, (ByteU5BU5D_t66**)args[0], method);
@@ -3859,10 +4301,18 @@ void* RuntimeInvoker_Void_t85_ByteU5BU5DU26_t3962 (const MethodInfo* method, voi
 }
 
 struct Object_t;
+void* RuntimeInvoker_Void_t85_BooleanU26_t841 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, bool* p1, const MethodInfo* method);
+	((Func)method->method)(obj, (bool*)args[0], method);
+	return NULL;
+}
+
+struct Object_t;
 struct List_1_t698;
 // System.Collections.Generic.List`1<System.Object>
 #include "mscorlib_System_Collections_Generic_List_1_gen_0.h"
-void* RuntimeInvoker_Void_t85_List_1U26_t9874 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_List_1U26_t10504 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, List_1_t698 ** p1, const MethodInfo* method);
 	((Func)method->method)(obj, (List_1_t698 **)args[0], method);
@@ -3882,7 +4332,7 @@ struct Object_t;
 struct List_1_t811;
 // System.Collections.Generic.List`1<System.Int32>
 #include "mscorlib_System_Collections_Generic_List_1_gen_21.h"
-void* RuntimeInvoker_Void_t85_List_1U26_t9879 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_List_1U26_t10509 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, List_1_t811 ** p1, const MethodInfo* method);
 	((Func)method->method)(obj, (List_1_t811 **)args[0], method);
@@ -3890,13 +4340,13 @@ void* RuntimeInvoker_Void_t85_List_1U26_t9879 (const MethodInfo* method, void* o
 }
 
 struct Object_t;
-struct List_1_t5743;
+struct List_1_t6276;
 // System.Collections.Generic.List`1<System.Single>
-#include "mscorlib_System_Collections_Generic_List_1_gen_69.h"
-void* RuntimeInvoker_Void_t85_List_1U26_t9881 (const MethodInfo* method, void* obj, void** args)
+#include "mscorlib_System_Collections_Generic_List_1_gen_70.h"
+void* RuntimeInvoker_Void_t85_List_1U26_t10511 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, List_1_t5743 ** p1, const MethodInfo* method);
-	((Func)method->method)(obj, (List_1_t5743 **)args[0], method);
+	typedef void (*Func)(void* obj, List_1_t6276 ** p1, const MethodInfo* method);
+	((Func)method->method)(obj, (List_1_t6276 **)args[0], method);
 	return NULL;
 }
 
@@ -4046,16 +4496,32 @@ void* RuntimeInvoker_Void_t85_Range_t2879 (const MethodInfo* method, void* obj, 
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_RSAParameters_t3902 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_RSAParameters_t3224 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, RSAParameters_t3902  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((RSAParameters_t3902 *)args[0]), method);
+	typedef void (*Func)(void* obj, RSAParameters_t3224  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((RSAParameters_t3224 *)args[0]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Decimal_t759 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Decimal_t759  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((Decimal_t759 *)args[0]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_TimeSpan_t334 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, TimeSpan_t334  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((TimeSpan_t334 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
 struct Stream_t51;
-void* RuntimeInvoker_Boolean_t59_StreamU26_t4343 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_StreamU26_t4709 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Stream_t51 ** p1, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Stream_t51 **)args[0], method);
@@ -4063,10 +4529,10 @@ void* RuntimeInvoker_Boolean_t59_StreamU26_t4343 (const MethodInfo* method, void
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Interval_t4164 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Interval_t4497 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Interval_t4164  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((Interval_t4164 *)args[0]), method);
+	typedef void (*Func)(void* obj, Interval_t4497  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((Interval_t4497 *)args[0]), method);
 	return NULL;
 }
 
@@ -4089,18 +4555,10 @@ void* RuntimeInvoker_Int64_t89_Int32_t82 (const MethodInfo* method, void* obj, v
 struct Object_t;
 // System.Security.Cryptography.DSAParameters
 #include "mscorlib_System_Security_Cryptography_DSAParameters.h"
-void* RuntimeInvoker_Void_t85_DSAParameters_t3929 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_DSAParameters_t3251 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, DSAParameters_t3929  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((DSAParameters_t3929 *)args[0]), method);
-	return NULL;
-}
-
-struct Object_t;
-void* RuntimeInvoker_Void_t85_StreamingContext_t2937 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef void (*Func)(void* obj, StreamingContext_t2937  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((StreamingContext_t2937 *)args[0]), method);
+	typedef void (*Func)(void* obj, DSAParameters_t3251  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((DSAParameters_t3251 *)args[0]), method);
 	return NULL;
 }
 
@@ -4131,10 +4589,52 @@ void* RuntimeInvoker_Single_t87_Int16_t756 (const MethodInfo* method, void* obj,
 struct Object_t;
 // System.MonoEnumInfo
 #include "mscorlib_System_MonoEnumInfo.h"
-void* RuntimeInvoker_Void_t85_MonoEnumInfo_t4824 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_MonoEnumInfo_t4878 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, MonoEnumInfo_t4824  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((MonoEnumInfo_t4824 *)args[0]), method);
+	typedef void (*Func)(void* obj, MonoEnumInfo_t4878  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((MonoEnumInfo_t4878 *)args[0]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_ConsoleKeyInfo_t4859 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, ConsoleKeyInfo_t4859  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((ConsoleKeyInfo_t4859 *)args[0]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_RuntimeMethodHandle_t4907 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, RuntimeMethodHandle_t4907  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((RuntimeMethodHandle_t4907 *)args[0]), method);
+	return NULL;
+}
+
+struct Object_t;
+// System.Reflection.Emit.OpCode
+#include "mscorlib_System_Reflection_Emit_OpCode.h"
+void* RuntimeInvoker_Void_t85_OpCode_t4583 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, OpCode_t4583  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((OpCode_t4583 *)args[0]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Label_t4474 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Label_t4474  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((Label_t4474 *)args[0]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_StreamingContext_t2937 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, StreamingContext_t2937  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((StreamingContext_t2937 *)args[0]), method);
 	return NULL;
 }
 
@@ -4149,18 +4649,10 @@ void* RuntimeInvoker_Void_t85_ColorTween_t917 (const MethodInfo* method, void* o
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_TimeSpan_t334 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Link_t5385 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, TimeSpan_t334  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((TimeSpan_t334 *)args[0]), method);
-	return NULL;
-}
-
-struct Object_t;
-void* RuntimeInvoker_Void_t85_Link_t4447 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef void (*Func)(void* obj, Link_t4447  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((Link_t4447 *)args[0]), method);
+	typedef void (*Func)(void* obj, Link_t5385  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((Link_t5385 *)args[0]), method);
 	return NULL;
 }
 
@@ -4229,10 +4721,10 @@ void* RuntimeInvoker_Void_t85_Keyframe_t2797 (const MethodInfo* method, void* ob
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_ParameterModifier_t4568 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_ParameterModifier_t5033 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, ParameterModifier_t4568  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((ParameterModifier_t4568 *)args[0]), method);
+	typedef void (*Func)(void* obj, ParameterModifier_t5033  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((ParameterModifier_t5033 *)args[0]), method);
 	return NULL;
 }
 
@@ -4245,90 +4737,130 @@ void* RuntimeInvoker_Void_t85_HitInfo_t2880 (const MethodInfo* method, void* obj
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_NsDecl_t3253 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_NsDecl_t3518 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, NsDecl_t3253  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((NsDecl_t3253 *)args[0]), method);
+	typedef void (*Func)(void* obj, NsDecl_t3518  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((NsDecl_t3518 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_NsScope_t3254 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_NsScope_t3519 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, NsScope_t3254  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((NsScope_t3254 *)args[0]), method);
+	typedef void (*Func)(void* obj, NsScope_t3519  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((NsScope_t3519 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_TagName_t3282 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_TagName_t3543 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, TagName_t3282  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((TagName_t3282 *)args[0]), method);
+	typedef void (*Func)(void* obj, TagName_t3543  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((TagName_t3543 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_TimeType_t3373 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_TimeType_t3751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, TimeType_t3373  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((TimeType_t3373 *)args[0]), method);
+	typedef void (*Func)(void* obj, TimeType_t3751  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((TimeType_t3751 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_X509ChainStatus_t4113 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_X509ChainStatus_t4447 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, X509ChainStatus_t4113  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((X509ChainStatus_t4113 *)args[0]), method);
+	typedef void (*Func)(void* obj, X509ChainStatus_t4447  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((X509ChainStatus_t4447 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Mark_t4157 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Mark_t4489 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Mark_t4157  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((Mark_t4157 *)args[0]), method);
+	typedef void (*Func)(void* obj, Mark_t4489  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((Mark_t4489 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_UriScheme_t4193 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_UriScheme_t4537 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, UriScheme_t4193  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((UriScheme_t4193 *)args[0]), method);
+	typedef void (*Func)(void* obj, UriScheme_t4537  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((UriScheme_t4537 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_TableRange_t4381 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_TableRange_t4750 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, TableRange_t4381  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((TableRange_t4381 *)args[0]), method);
+	typedef void (*Func)(void* obj, TableRange_t4750  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((TableRange_t4750 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Slot_t4457 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_UriScheme_t4790 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Slot_t4457  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((Slot_t4457 *)args[0]), method);
+	typedef void (*Func)(void* obj, UriScheme_t4790  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((UriScheme_t4790 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Slot_t4466 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Slot_t4942 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Slot_t4466  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((Slot_t4466 *)args[0]), method);
+	typedef void (*Func)(void* obj, Slot_t4942  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((Slot_t4942 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Decimal_t759 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Slot_t4951 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Decimal_t759  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((Decimal_t759 *)args[0]), method);
+	typedef void (*Func)(void* obj, Slot_t4951  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((Slot_t4951 *)args[0]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_MonoResource_t5044 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, MonoResource_t5044  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((MonoResource_t5044 *)args[0]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_RefEmitPermissionSet_t5043 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, RefEmitPermissionSet_t5043  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((RefEmitPermissionSet_t5043 *)args[0]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_ILTokenInfo_t5063 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, ILTokenInfo_t5063  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((ILTokenInfo_t5063 *)args[0]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_LabelData_t5065 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, LabelData_t5065  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((LabelData_t5065 *)args[0]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_LabelFixup_t5064 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, LabelFixup_t5064  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((LabelFixup_t5064 *)args[0]), method);
 	return NULL;
 }
 
@@ -4403,16 +4935,6 @@ void* RuntimeInvoker_Boolean_t59_TextGenerationSettings_t1062 (const MethodInfo*
 }
 
 struct Object_t;
-// System.TimeZoneInfo/TransitionTime
-#include "System_Core_System_TimeZoneInfo_TransitionTime.h"
-void* RuntimeInvoker_Boolean_t59_TransitionTime_t3372 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef bool (*Func)(void* obj, TransitionTime_t3372  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((TransitionTime_t3372 *)args[0]), method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
 void* RuntimeInvoker_Boolean_t59_DateTime_t287 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, DateTime_t287  p1, const MethodInfo* method);
@@ -4421,10 +4943,28 @@ void* RuntimeInvoker_Boolean_t59_DateTime_t287 (const MethodInfo* method, void* 
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Interval_t4164 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Guid_t74 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, Interval_t4164  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((Interval_t4164 *)args[0]), method);
+	typedef bool (*Func)(void* obj, Guid_t74  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((Guid_t74 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.TimeZoneInfo/TransitionTime
+#include "System_Core_System_TimeZoneInfo_TransitionTime.h"
+void* RuntimeInvoker_Boolean_t59_TransitionTime_t3750 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, TransitionTime_t3750  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((TransitionTime_t3750 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_Interval_t4497 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, Interval_t4497  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((Interval_t4497 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -4433,6 +4973,14 @@ void* RuntimeInvoker_Boolean_t59_Decimal_t759 (const MethodInfo* method, void* o
 {
 	typedef bool (*Func)(void* obj, Decimal_t759  p1, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, *((Decimal_t759 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_ConsoleKeyInfo_t4859 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, ConsoleKeyInfo_t4859  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((ConsoleKeyInfo_t4859 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -4485,14 +5033,6 @@ void* RuntimeInvoker_Boolean_t59_DateTimeOffset_t2962 (const MethodInfo* method,
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Guid_t74 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef bool (*Func)(void* obj, Guid_t74  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((Guid_t74 *)args[0]), method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
 void* RuntimeInvoker_Boolean_t59_TimeSpan_t334 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, TimeSpan_t334  p1, const MethodInfo* method);
@@ -4501,10 +5041,18 @@ void* RuntimeInvoker_Boolean_t59_TimeSpan_t334 (const MethodInfo* method, void* 
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Link_t4447 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_SNIP_t5314 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, Link_t4447  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((Link_t4447 *)args[0]), method);
+	typedef bool (*Func)(void* obj, SNIP_t5314  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((SNIP_t5314 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_Link_t5385 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, Link_t5385  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((Link_t5385 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -4597,90 +5145,146 @@ void* RuntimeInvoker_Boolean_t59_Keyframe_t2797 (const MethodInfo* method, void*
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_ParameterModifier_t4568 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_ParameterModifier_t5033 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, ParameterModifier_t4568  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((ParameterModifier_t4568 *)args[0]), method);
+	typedef bool (*Func)(void* obj, ParameterModifier_t5033  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((ParameterModifier_t5033 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_NsDecl_t3253 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_NsDecl_t3518 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, NsDecl_t3253  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((NsDecl_t3253 *)args[0]), method);
+	typedef bool (*Func)(void* obj, NsDecl_t3518  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((NsDecl_t3518 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_NsScope_t3254 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_NsScope_t3519 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, NsScope_t3254  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((NsScope_t3254 *)args[0]), method);
+	typedef bool (*Func)(void* obj, NsScope_t3519  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((NsScope_t3519 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_TagName_t3282 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_TagName_t3543 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, TagName_t3282  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((TagName_t3282 *)args[0]), method);
+	typedef bool (*Func)(void* obj, TagName_t3543  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((TagName_t3543 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_TimeType_t3373 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_TimeType_t3751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, TimeType_t3373  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((TimeType_t3373 *)args[0]), method);
+	typedef bool (*Func)(void* obj, TimeType_t3751  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((TimeType_t3751 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_X509ChainStatus_t4113 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_X509ChainStatus_t4447 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, X509ChainStatus_t4113  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((X509ChainStatus_t4113 *)args[0]), method);
+	typedef bool (*Func)(void* obj, X509ChainStatus_t4447  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((X509ChainStatus_t4447 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Mark_t4157 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Label_t4474 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, Mark_t4157  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((Mark_t4157 *)args[0]), method);
+	typedef bool (*Func)(void* obj, Label_t4474  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((Label_t4474 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_UriScheme_t4193 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Mark_t4489 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, UriScheme_t4193  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((UriScheme_t4193 *)args[0]), method);
+	typedef bool (*Func)(void* obj, Mark_t4489  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((Mark_t4489 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_TableRange_t4381 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_UriScheme_t4537 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, TableRange_t4381  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((TableRange_t4381 *)args[0]), method);
+	typedef bool (*Func)(void* obj, UriScheme_t4537  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((UriScheme_t4537 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Slot_t4457 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_TableRange_t4750 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, Slot_t4457  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((Slot_t4457 *)args[0]), method);
+	typedef bool (*Func)(void* obj, TableRange_t4750  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((TableRange_t4750 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Slot_t4466 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_UriScheme_t4790 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, Slot_t4466  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((Slot_t4466 *)args[0]), method);
+	typedef bool (*Func)(void* obj, UriScheme_t4790  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((UriScheme_t4790 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_Slot_t4942 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, Slot_t4942  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((Slot_t4942 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_Slot_t4951 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, Slot_t4951  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((Slot_t4951 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_MonoResource_t5044 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, MonoResource_t5044  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((MonoResource_t5044 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_RefEmitPermissionSet_t5043 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, RefEmitPermissionSet_t5043  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((RefEmitPermissionSet_t5043 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_ILTokenInfo_t5063 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, ILTokenInfo_t5063  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((ILTokenInfo_t5063 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_LabelData_t5065 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, LabelData_t5065  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((LabelData_t5065 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_LabelFixup_t5064 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, LabelFixup_t5064  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((LabelFixup_t5064 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -4733,10 +5337,10 @@ void* RuntimeInvoker_Vector4_t1059_SByte_t88 (const MethodInfo* method, void* ob
 }
 
 struct Object_t;
-void* RuntimeInvoker_RSAParameters_t3902_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_RSAParameters_t3224_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef RSAParameters_t3902  (*Func)(void* obj, int8_t p1, const MethodInfo* method);
-	RSAParameters_t3902  ret = ((Func)method->method)(obj, *((int8_t*)args[0]), method);
+	typedef RSAParameters_t3224  (*Func)(void* obj, int8_t p1, const MethodInfo* method);
+	RSAParameters_t3224  ret = ((Func)method->method)(obj, *((int8_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -4765,18 +5369,18 @@ void* RuntimeInvoker_Decimal_t759_SByte_t88 (const MethodInfo* method, void* obj
 }
 
 struct Object_t;
-void* RuntimeInvoker_DSAParameters_t3929_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_DSAParameters_t3251_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef DSAParameters_t3929  (*Func)(void* obj, int8_t p1, const MethodInfo* method);
-	DSAParameters_t3929  ret = ((Func)method->method)(obj, *((int8_t*)args[0]), method);
+	typedef DSAParameters_t3251  (*Func)(void* obj, int8_t p1, const MethodInfo* method);
+	DSAParameters_t3251  ret = ((Func)method->method)(obj, *((int8_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_UInt64_t758_Int64_t89 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_ConsoleKeyInfo_t4859_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef uint64_t (*Func)(void* obj, int64_t p1, const MethodInfo* method);
-	uint64_t ret = ((Func)method->method)(obj, *((int64_t*)args[0]), method);
+	typedef ConsoleKeyInfo_t4859  (*Func)(void* obj, int8_t p1, const MethodInfo* method);
+	ConsoleKeyInfo_t4859  ret = ((Func)method->method)(obj, *((int8_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -4801,6 +5405,14 @@ void* RuntimeInvoker_UInt32_t754_Single_t87 (const MethodInfo* method, void* obj
 {
 	typedef uint32_t (*Func)(void* obj, float p1, const MethodInfo* method);
 	uint32_t ret = ((Func)method->method)(obj, *((float*)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_UInt64_t758_Int64_t89 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef uint64_t (*Func)(void* obj, int64_t p1, const MethodInfo* method);
+	uint64_t ret = ((Func)method->method)(obj, *((int64_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -4877,282 +5489,290 @@ void* RuntimeInvoker_Void_t85_KeyValuePair_2_t70 (const MethodInfo* method, void
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t5412 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t5945 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t5412  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t5412 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t5945  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t5945 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t5549 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t6082 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t5549  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t5549 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t6082  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t6082 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Link_t5979 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Link_t6512 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Link_t5979  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((Link_t5979 *)args[0]), method);
+	typedef void (*Func)(void* obj, Link_t6512  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((Link_t6512 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t6039 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t6572 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t6039  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t6039 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t6572  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t6572 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t6218 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t6751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t6218  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t6218 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t6751  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t6751 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t6223 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t6756 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t6223  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t6223 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t6756  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t6756 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7036 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7571 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7036  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7036 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7571  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7571 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7042 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7577 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7042  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7042 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7577  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7577 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7053 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7588 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7053  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7053 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7588  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7588 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7062 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7597 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7062  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7062 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7597  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7597 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7228 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7763 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7228  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7228 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7763  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7763 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7239 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7774 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7239  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7239 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7774  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7774 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7250 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7785 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7250  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7250 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7785  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7785 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7268 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7803 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7268  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7268 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7803  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7803 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7279 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7814 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7279  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7279 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7814  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7814 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7290 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7825 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7290  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7290 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7825  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7825 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t8373 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t8908 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t8373  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t8373 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t8908  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t8908 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t8514 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t9049 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t8514  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t8514 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t9049  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t9049 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t8530 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t9065 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t8530  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t8530 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t9065  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t9065 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t8633 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t9182 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t8633  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t8633 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t9182  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t9182 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t3396 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t3795 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t3396  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t3396 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t3795  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t3795 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_ArraySegment_1_t8671 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_ArraySegment_1_t9243 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, ArraySegment_1_t8671  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((ArraySegment_1_t8671 *)args[0]), method);
+	typedef void (*Func)(void* obj, ArraySegment_1_t9243  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((ArraySegment_1_t9243 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t8680 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t9248 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t8680  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t8680 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t9248  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t9248 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7219 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t9260 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7219  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7219 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t9260  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t9260 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7230 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7754 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7230  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7230 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7754  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7754 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7241 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7765 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7241  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7241 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7765  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7765 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7252 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7776 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7252  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7252 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7776  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7776 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t5560 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7787 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t5560  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t5560 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7787  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7787 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7270 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t6093 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7270  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7270 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t6093  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t6093 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7281 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7805 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7281  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7281 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7805  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7805 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7292 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7816 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7292  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7292 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7816  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7816 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7111 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7827 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7111  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7111 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7827  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7827 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7091 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7646 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7091  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7091 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7646  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7646 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7137 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7626 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7137  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7137 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7626  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7626 *)args[0]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7164 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7672 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2_t7164  p1, const MethodInfo* method);
-	((Func)method->method)(obj, *((KeyValuePair_2_t7164 *)args[0]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7672  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7672 *)args[0]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2_t7699 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, KeyValuePair_2_t7699  p1, const MethodInfo* method);
+	((Func)method->method)(obj, *((KeyValuePair_2_t7699 *)args[0]), method);
 	return NULL;
 }
 
@@ -5175,7 +5795,7 @@ void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t791 (const MethodInfo* method, 
 }
 
 struct Object_t;
-void* RuntimeInvoker_SecurityProtocolType_t3888_Int16_t756 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_SecurityProtocolType_t3210_Int16_t756 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, int16_t p1, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, *((int16_t*)args[0]), method);
@@ -5185,7 +5805,7 @@ void* RuntimeInvoker_SecurityProtocolType_t3888_Int16_t756 (const MethodInfo* me
 struct Object_t;
 // System.Globalization.UnicodeCategory
 #include "mscorlib_System_Globalization_UnicodeCategory.h"
-void* RuntimeInvoker_UnicodeCategory_t4349_Int16_t756 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_UnicodeCategory_t4719_Int16_t756 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, int16_t p1, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, *((int16_t*)args[0]), method);
@@ -5251,194 +5871,202 @@ void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t70 (const MethodInfo* method, v
 struct Object_t;
 // System.ArraySegment`1<System.Object>
 #include "mscorlib_System_ArraySegment_1_gen_0.h"
-void* RuntimeInvoker_Boolean_t59_ArraySegment_1_t8729 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_ArraySegment_1_t9327 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, ArraySegment_1_t8729  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((ArraySegment_1_t8729 *)args[0]), method);
+	typedef bool (*Func)(void* obj, ArraySegment_1_t9327  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((ArraySegment_1_t9327 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t5412 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t5945 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t5412  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5412 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t5945  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5945 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t5549 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t6082 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t5549  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5549 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t6082  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6082 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Link_t5979 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Link_t6512 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, Link_t5979  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((Link_t5979 *)args[0]), method);
+	typedef bool (*Func)(void* obj, Link_t6512  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((Link_t6512 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t6039 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t6572 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t6039  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6039 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t6572  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6572 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t6218 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t6751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t6218  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6218 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t6751  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6751 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t6223 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t6756 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t6223  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6223 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t6756  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6756 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7036 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7571 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7036  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7036 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7571  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7571 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7042 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7577 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7042  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7042 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7577  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7577 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7053 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7588 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7053  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7053 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7588  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7588 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7062 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7597 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7062  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7062 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7597  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7597 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7228 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7763 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7228  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7228 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7763  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7763 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7239 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7774 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7239  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7239 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7774  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7774 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7250 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7785 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7250  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7250 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7785  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7785 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7268 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7803 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7268  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7268 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7803  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7803 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7279 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7814 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7279  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7279 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7814  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7814 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7290 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7825 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7290  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7290 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7825  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7825 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t8373 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t8908 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t8373  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t8373 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t8908  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t8908 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t8514 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t9049 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t8514  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t8514 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t9049  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t9049 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t8530 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t9065 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t8530  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t8530 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t9065  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t9065 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t8633 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t9182 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t8633  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t8633 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t9182  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t9182 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t3396 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t3795 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t3396  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t3396 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t3795  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t3795 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_ArraySegment_1_t8671 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_ArraySegment_1_t9243 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, ArraySegment_1_t8671  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((ArraySegment_1_t8671 *)args[0]), method);
+	typedef bool (*Func)(void* obj, ArraySegment_1_t9243  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((ArraySegment_1_t9243 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t8680 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t9248 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t8680  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t8680 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t9248  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t9248 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t9260 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t9260  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t9260 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -5487,108 +6115,108 @@ void* RuntimeInvoker_Boolean_t59_Nullable_1_t1312 (const MethodInfo* method, voi
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7219 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7754 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7219  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7219 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7754  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7754 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7230 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7765 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7230  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7230 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7765  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7765 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7241 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7776 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7241  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7241 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7776  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7776 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7252 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7787 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7252  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7252 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7787  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7787 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t5560 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t6093 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t5560  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5560 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t6093  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6093 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7270 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7805 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7270  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7270 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7805  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7805 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7281 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7816 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7281  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7281 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7816  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7816 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7292 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7827 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7292  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7292 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7827  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7827 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7111 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7646 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7111  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7111 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7646  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7646 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7091 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7626 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7091  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7091 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7626  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7626 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7137 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7672 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7137  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7137 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7672  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7672 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7164 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7699 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7164  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7164 *)args[0]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7699  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7699 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 // System.Nullable`1<System.Byte>
 #include "mscorlib_System_Nullable_1_gen_5.h"
-void* RuntimeInvoker_Boolean_t59_Nullable_1_t8625 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Nullable_1_t9213 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, Nullable_1_t8625  p1, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((Nullable_1_t8625 *)args[0]), method);
+	typedef bool (*Func)(void* obj, Nullable_1_t9213  p1, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((Nullable_1_t9213 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -5741,7 +6369,7 @@ void* RuntimeInvoker_Touch_t720_Int32_t82 (const MethodInfo* method, void* obj, 
 }
 
 struct Object_t;
-void* RuntimeInvoker_SecurityProtocolType_t3888_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_SecurityProtocolType_t3210_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, int32_t p1, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
@@ -5749,7 +6377,7 @@ void* RuntimeInvoker_SecurityProtocolType_t3888_Int32_t82 (const MethodInfo* met
 }
 
 struct Object_t;
-void* RuntimeInvoker_X509KeyUsageFlags_t4123_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_X509KeyUsageFlags_t4456_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, int32_t p1, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
@@ -5757,10 +6385,10 @@ void* RuntimeInvoker_X509KeyUsageFlags_t4123_Int32_t82 (const MethodInfo* method
 }
 
 struct Object_t;
-void* RuntimeInvoker_Interval_t4164_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Interval_t4497_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Interval_t4164  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	Interval_t4164  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef Interval_t4497  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	Interval_t4497  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -5783,23 +6411,7 @@ void* RuntimeInvoker_Decimal_t759_Int32_t82 (const MethodInfo* method, void* obj
 struct Object_t;
 // Mono.Globalization.Unicode.SimpleCollator/ExtenderType
 #include "mscorlib_Mono_Globalization_Unicode_SimpleCollator_ExtenderT.h"
-void* RuntimeInvoker_ExtenderType_t4395_Int32_t82 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-void* RuntimeInvoker_Int32_t82_DateTime_t287 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, DateTime_t287  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((DateTime_t287 *)args[0]), method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-void* RuntimeInvoker_DayOfWeek_t4813_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_ExtenderType_t4764_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, int32_t p1, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
@@ -5819,6 +6431,14 @@ void* RuntimeInvoker_Single_t87_Double_t90 (const MethodInfo* method, void* obj,
 {
 	typedef float (*Func)(void* obj, double p1, const MethodInfo* method);
 	float ret = ((Func)method->method)(obj, *((double*)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Int32_t82_DateTime_t287 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, DateTime_t287  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((DateTime_t287 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -5847,18 +6467,34 @@ void* RuntimeInvoker_Int32_t82_TimeSpan_t334 (const MethodInfo* method, void* ob
 }
 
 struct Object_t;
-void* RuntimeInvoker_Link_t4447_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_DayOfWeek_t4866_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Link_t4447  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	Link_t4447  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef int32_t (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Link_t4447 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_OpCode_t4583 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Link_t4447  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((Link_t4447 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, OpCode_t4583  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((OpCode_t4583 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Link_t5385_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Link_t5385  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	Link_t5385  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Int32_t82_Link_t5385 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, Link_t5385  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((Link_t5385 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -6039,18 +6675,18 @@ void* RuntimeInvoker_Int32_t82_Keyframe_t2797 (const MethodInfo* method, void* o
 }
 
 struct Object_t;
-void* RuntimeInvoker_ParameterModifier_t4568_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_ParameterModifier_t5033_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef ParameterModifier_t4568  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	ParameterModifier_t4568  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef ParameterModifier_t5033  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	ParameterModifier_t5033  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_ParameterModifier_t4568 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_ParameterModifier_t5033 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, ParameterModifier_t4568  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((ParameterModifier_t4568 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, ParameterModifier_t5033  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((ParameterModifier_t5033 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -6071,162 +6707,274 @@ void* RuntimeInvoker_Int32_t82_HitInfo_t2880 (const MethodInfo* method, void* ob
 }
 
 struct Object_t;
-void* RuntimeInvoker_NsDecl_t3253_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_NsDecl_t3518_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef NsDecl_t3253  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	NsDecl_t3253  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef NsDecl_t3518  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	NsDecl_t3518  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_NsDecl_t3253 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_NsDecl_t3518 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, NsDecl_t3253  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((NsDecl_t3253 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, NsDecl_t3518  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((NsDecl_t3518 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_NsScope_t3254_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_NsScope_t3519_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef NsScope_t3254  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	NsScope_t3254  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef NsScope_t3519  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	NsScope_t3519  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_NsScope_t3254 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_NsScope_t3519 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, NsScope_t3254  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((NsScope_t3254 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, NsScope_t3519  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((NsScope_t3519 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_TagName_t3282_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_TagName_t3543_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef TagName_t3282  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	TagName_t3282  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef TagName_t3543  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	TagName_t3543  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_TagName_t3282 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_TagName_t3543 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, TagName_t3282  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((TagName_t3282 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, TagName_t3543  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((TagName_t3543 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_TimeType_t3373_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_TimeType_t3751_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef TimeType_t3373  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	TimeType_t3373  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef TimeType_t3751  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	TimeType_t3751  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_TimeType_t3373 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_TimeType_t3751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, TimeType_t3373  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((TimeType_t3373 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, TimeType_t3751  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((TimeType_t3751 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_X509ChainStatus_t4113_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_X509ChainStatus_t4447_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef X509ChainStatus_t4113  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	X509ChainStatus_t4113  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef X509ChainStatus_t4447  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	X509ChainStatus_t4447  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_X509ChainStatus_t4113 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_X509ChainStatus_t4447 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, X509ChainStatus_t4113  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((X509ChainStatus_t4113 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, X509ChainStatus_t4447  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((X509ChainStatus_t4447 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Mark_t4157_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Label_t4474_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Mark_t4157  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	Mark_t4157  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef Label_t4474  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	Label_t4474  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Mark_t4157 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Label_t4474 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Mark_t4157  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((Mark_t4157 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, Label_t4474  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((Label_t4474 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_UriScheme_t4193_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Mark_t4489_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef UriScheme_t4193  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	UriScheme_t4193  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef Mark_t4489  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	Mark_t4489  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_UriScheme_t4193 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Mark_t4489 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, UriScheme_t4193  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((UriScheme_t4193 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, Mark_t4489  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((Mark_t4489 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_TableRange_t4381_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_UriScheme_t4537_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef TableRange_t4381  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	TableRange_t4381  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef UriScheme_t4537  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	UriScheme_t4537  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_TableRange_t4381 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_UriScheme_t4537 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, TableRange_t4381  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((TableRange_t4381 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, UriScheme_t4537  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((UriScheme_t4537 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Slot_t4457_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_TableRange_t4750_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Slot_t4457  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	Slot_t4457  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef TableRange_t4750  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	TableRange_t4750  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Slot_t4457 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_TableRange_t4750 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Slot_t4457  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((Slot_t4457 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, TableRange_t4750  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((TableRange_t4750 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Slot_t4466_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_UriScheme_t4790_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Slot_t4466  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	Slot_t4466  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef UriScheme_t4790  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	UriScheme_t4790  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Slot_t4466 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_UriScheme_t4790 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Slot_t4466  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((Slot_t4466 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, UriScheme_t4790  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((UriScheme_t4790 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Slot_t4942_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Slot_t4942  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	Slot_t4942  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Int32_t82_Slot_t4942 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, Slot_t4942  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((Slot_t4942 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Slot_t4951_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Slot_t4951  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	Slot_t4951  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Int32_t82_Slot_t4951 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, Slot_t4951  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((Slot_t4951 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_MonoResource_t5044_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef MonoResource_t5044  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	MonoResource_t5044  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Int32_t82_MonoResource_t5044 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, MonoResource_t5044  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((MonoResource_t5044 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_RefEmitPermissionSet_t5043_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef RefEmitPermissionSet_t5043  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	RefEmitPermissionSet_t5043  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Int32_t82_RefEmitPermissionSet_t5043 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, RefEmitPermissionSet_t5043  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((RefEmitPermissionSet_t5043 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_ILTokenInfo_t5063_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef ILTokenInfo_t5063  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	ILTokenInfo_t5063  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Int32_t82_ILTokenInfo_t5063 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, ILTokenInfo_t5063  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((ILTokenInfo_t5063 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_LabelData_t5065_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef LabelData_t5065  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	LabelData_t5065  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Int32_t82_LabelData_t5065 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, LabelData_t5065  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((LabelData_t5065 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_LabelFixup_t5064_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef LabelFixup_t5064  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	LabelFixup_t5064  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Int32_t82_LabelFixup_t5064 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, LabelFixup_t5064  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((LabelFixup_t5064 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -6263,14 +7011,6 @@ void* RuntimeInvoker_UInt32_t754_Decimal_t759 (const MethodInfo* method, void* o
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int64_t89_Int64U26_t5010 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int64_t (*Func)(void* obj, int64_t* p1, const MethodInfo* method);
-	int64_t ret = ((Func)method->method)(obj, (int64_t*)args[0], method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
 void* RuntimeInvoker_Boolean_t59_IntPtr_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, IntPtr_t p1, const MethodInfo* method);
@@ -6283,6 +7023,14 @@ void* RuntimeInvoker_Double_t90_Double_t90 (const MethodInfo* method, void* obj,
 {
 	typedef double (*Func)(void* obj, double p1, const MethodInfo* method);
 	double ret = ((Func)method->method)(obj, *((double*)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Int64_t89_Int64U26_t5538 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int64_t (*Func)(void* obj, int64_t* p1, const MethodInfo* method);
+	int64_t ret = ((Func)method->method)(obj, (int64_t*)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -6315,6 +7063,14 @@ void* RuntimeInvoker_Decimal_t759_Int64_t89 (const MethodInfo* method, void* obj
 {
 	typedef Decimal_t759  (*Func)(void* obj, int64_t p1, const MethodInfo* method);
 	Decimal_t759  ret = ((Func)method->method)(obj, *((int64_t*)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_TimeSpan_t334_Int64_t89 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef TimeSpan_t334  (*Func)(void* obj, int64_t p1, const MethodInfo* method);
+	TimeSpan_t334  ret = ((Func)method->method)(obj, *((int64_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -6376,7 +7132,7 @@ void* RuntimeInvoker_Vector3_t538_Single_t87 (const MethodInfo* method, void* ob
 }
 
 struct Object_t;
-void* RuntimeInvoker_Double_t90_DecimalU26_t5048 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Double_t90_DecimalU26_t5576 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef double (*Func)(void* obj, Decimal_t759 * p1, const MethodInfo* method);
 	double ret = ((Func)method->method)(obj, (Decimal_t759 *)args[0], method);
@@ -6424,370 +7180,386 @@ void* RuntimeInvoker_KeyValuePair_2_t70_Int32_t82 (const MethodInfo* method, voi
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5412_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t5945_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5412  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t5412  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t5945  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t5945  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t5412 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t5945 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t5412  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5412 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t5945  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5945 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5549_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6082_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5549  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t5549  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t6082  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t6082  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t5549 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t6082 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t5549  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5549 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t6082  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6082 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Link_t5979_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Link_t6512_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Link_t5979  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	Link_t5979  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef Link_t6512  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	Link_t6512  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Link_t5979 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Link_t6512 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Link_t5979  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((Link_t5979 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, Link_t6512  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((Link_t6512 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t6039_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6572_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6039  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t6039  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t6572  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t6572  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t6039 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t6572 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t6039  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6039 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t6572  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6572 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t6218_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6751_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6218  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t6218  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t6751  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t6751  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t6218 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t6751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t6218  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6218 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t6751  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6751 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t6223_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6756_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6223  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t6223  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t6756  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t6756  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t6223 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t6756 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t6223  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6223 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t6756  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6756 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7036_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7571_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7036  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t7036  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t7571  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t7571  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7036 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7571 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7036  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7036 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7571  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7571 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7042_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7577_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7042  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t7042  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t7577  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t7577  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7042 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7577 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7042  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7042 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7577  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7577 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7053_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7588_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7053  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t7053  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t7588  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t7588  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7053 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7588 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7053  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7053 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7588  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7588 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7062_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7597_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7062  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t7062  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t7597  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t7597  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7062 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7597 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7062  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7062 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7597  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7597 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7228_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7763_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7228  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t7228  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t7763  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t7763  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7228 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7763 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7228  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7228 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7763  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7763 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7239_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7774_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7239  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t7239  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t7774  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t7774  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7239 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7774 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7239  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7239 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7774  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7774 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7250_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7785_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7250  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t7250  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t7785  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t7785  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7250 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7785 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7250  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7250 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7785  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7785 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7268_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7803_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7268  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t7268  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t7803  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t7803  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7268 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7803 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7268  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7268 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7803  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7803 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7279_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7814_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7279  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t7279  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t7814  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t7814  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7279 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7814 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7279  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7279 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7814  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7814 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7290_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7825_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7290  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t7290  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t7825  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t7825  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7290 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7825 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7290  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7290 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7825  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7825 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t8373_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t8908_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t8373  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t8373  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t8908  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t8908  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t8373 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t8908 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t8373  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t8373 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t8908  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t8908 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t8514_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t9049_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t8514  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t8514  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t9049  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t9049  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t8514 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t9049 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t8514  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t8514 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t9049  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t9049 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t8530_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t9065_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t8530  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t8530  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t9065  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t9065  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t8530 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t9065 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t8530  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t8530 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t9065  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t9065 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t8633_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t9182_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t8633  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t8633  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t9182  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t9182  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t8633 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t9182 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t8633  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t8633 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t9182  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t9182 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t3396_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t3795_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t3396  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t3396  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t3795  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t3795  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t3396 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t3795 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t3396  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t3396 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t3795  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t3795 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_ArraySegment_1_t8671_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_ArraySegment_1_t9243_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef ArraySegment_1_t8671  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	ArraySegment_1_t8671  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef ArraySegment_1_t9243  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	ArraySegment_1_t9243  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_ArraySegment_1_t8671 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_ArraySegment_1_t9243 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, ArraySegment_1_t8671  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((ArraySegment_1_t8671 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, ArraySegment_1_t9243  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((ArraySegment_1_t9243 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t8680_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t9248_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t8680  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
-	KeyValuePair_2_t8680  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	typedef KeyValuePair_2_t9248  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t9248  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t8680 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t9248 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t8680  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t8680 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t9248  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t9248 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_KeyValuePair_2_t9260_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef KeyValuePair_2_t9260  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
+	KeyValuePair_2_t9260  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t9260 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t9260  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t9260 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -6811,10 +7583,10 @@ void* RuntimeInvoker_ParseGeoDistance_t1263_Double_t90 (const MethodInfo* method
 }
 
 struct Object_t;
-void* RuntimeInvoker_Double_t90_Interval_t4164 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Double_t90_Interval_t4497 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef double (*Func)(void* obj, Interval_t4164  p1, const MethodInfo* method);
-	double ret = ((Func)method->method)(obj, *((Interval_t4164 *)args[0]), method);
+	typedef double (*Func)(void* obj, Interval_t4497  p1, const MethodInfo* method);
+	double ret = ((Func)method->method)(obj, *((Interval_t4497 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -6877,19 +7649,19 @@ void* RuntimeInvoker_IntPtr_t_Int32_t82 (const MethodInfo* method, void* obj, vo
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_IntPtr_t (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, IntPtr_t p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
 struct Object_t;
 void* RuntimeInvoker_SByte_t88_Object_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int8_t (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
 	int8_t ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Int32_t82_IntPtr_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, IntPtr_t p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -6926,10 +7698,10 @@ void* RuntimeInvoker_Matrix4x4_t1100_Matrix4x4U26_t3011 (const MethodInfo* metho
 }
 
 struct Object_t;
-void* RuntimeInvoker_DSAParameters_t3929_BooleanU26_t841 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_DSAParameters_t3251_BooleanU26_t841 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef DSAParameters_t3929  (*Func)(void* obj, bool* p1, const MethodInfo* method);
-	DSAParameters_t3929  ret = ((Func)method->method)(obj, (bool*)args[0], method);
+	typedef DSAParameters_t3251  (*Func)(void* obj, bool* p1, const MethodInfo* method);
+	DSAParameters_t3251  ret = ((Func)method->method)(obj, (bool*)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -6966,6 +7738,14 @@ void* RuntimeInvoker_UIntPtr_t_Int32_t82 (const MethodInfo* method, void* obj, v
 {
 	typedef UIntPtr_t  (*Func)(void* obj, int32_t p1, const MethodInfo* method);
 	UIntPtr_t  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_ConsoleKeyInfo_t4859_BooleanU26_t841 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef ConsoleKeyInfo_t4859  (*Func)(void* obj, bool* p1, const MethodInfo* method);
+	ConsoleKeyInfo_t4859  ret = ((Func)method->method)(obj, (bool*)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -7142,14 +7922,6 @@ void* RuntimeInvoker_IntPtr_t_Int64_t89 (const MethodInfo* method, void* obj, vo
 }
 
 struct Object_t;
-void* RuntimeInvoker_DayOfWeek_t4813_DateTime_t287 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, DateTime_t287  p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((DateTime_t287 *)args[0]), method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
 void* RuntimeInvoker_DateTime_t287_TimeSpan_t334 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef DateTime_t287  (*Func)(void* obj, TimeSpan_t334  p1, const MethodInfo* method);
@@ -7178,6 +7950,14 @@ void* RuntimeInvoker_DateTime_t287_DateTime_t287 (const MethodInfo* method, void
 {
 	typedef DateTime_t287  (*Func)(void* obj, DateTime_t287  p1, const MethodInfo* method);
 	DateTime_t287  ret = ((Func)method->method)(obj, *((DateTime_t287 *)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_DayOfWeek_t4866_DateTime_t287 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, DateTime_t287  p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((DateTime_t287 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -7316,15 +8096,15 @@ void* RuntimeInvoker_Double_t90_Object_t (const MethodInfo* method, void* obj, v
 struct Object_t;
 // System.Reflection.MonoMethodInfo
 #include "mscorlib_System_Reflection_MonoMethodInfo.h"
-void* RuntimeInvoker_MonoMethodInfo_t4563_IntPtr_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_MonoMethodInfo_t5027_IntPtr_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef MonoMethodInfo_t4563  (*Func)(void* obj, IntPtr_t p1, const MethodInfo* method);
-	MonoMethodInfo_t4563  ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), method);
+	typedef MonoMethodInfo_t5027  (*Func)(void* obj, IntPtr_t p1, const MethodInfo* method);
+	MonoMethodInfo_t5027  ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_MethodAttributes_t4556_IntPtr_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_MethodAttributes_t5019_IntPtr_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, IntPtr_t p1, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), method);
@@ -7332,7 +8112,15 @@ void* RuntimeInvoker_MethodAttributes_t4556_IntPtr_t (const MethodInfo* method, 
 }
 
 struct Object_t;
-void* RuntimeInvoker_CallingConventions_t4550_IntPtr_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_CallingConventions_t5012_IntPtr_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, IntPtr_t p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_MethodImplAttributes_t5020_IntPtr_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, IntPtr_t p1, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), method);
@@ -7342,18 +8130,18 @@ void* RuntimeInvoker_CallingConventions_t4550_IntPtr_t (const MethodInfo* method
 struct Object_t;
 // System.Runtime.InteropServices.GCHandle
 #include "mscorlib_System_Runtime_InteropServices_GCHandle.h"
-void* RuntimeInvoker_GCHandle_t3996_IntPtr_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_GCHandle_t4297_IntPtr_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef GCHandle_t3996  (*Func)(void* obj, IntPtr_t p1, const MethodInfo* method);
-	GCHandle_t3996  ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), method);
+	typedef GCHandle_t4297  (*Func)(void* obj, IntPtr_t p1, const MethodInfo* method);
+	GCHandle_t4297  ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_IntPtr_t_GCHandle_t3996 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_IntPtr_t_GCHandle_t4297 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef IntPtr_t (*Func)(void* obj, GCHandle_t3996  p1, const MethodInfo* method);
-	IntPtr_t ret = ((Func)method->method)(obj, *((GCHandle_t3996 *)args[0]), method);
+	typedef IntPtr_t (*Func)(void* obj, GCHandle_t4297  p1, const MethodInfo* method);
+	IntPtr_t ret = ((Func)method->method)(obj, *((GCHandle_t4297 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -7374,1986 +8162,1986 @@ void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t70 (const MethodInfo* me
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7219 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7754 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7219  p1, const MethodInfo* method);
-	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7219 *)args[0]), method);
+	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7754  p1, const MethodInfo* method);
+	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7754 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t6218 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t6751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t6218  p1, const MethodInfo* method);
-	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6218 *)args[0]), method);
+	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t6751  p1, const MethodInfo* method);
+	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6751 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7230 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7765 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7230  p1, const MethodInfo* method);
-	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7230 *)args[0]), method);
+	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7765  p1, const MethodInfo* method);
+	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7765 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t7228 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t7763 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t7228  p1, const MethodInfo* method);
-	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7228 *)args[0]), method);
+	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t7763  p1, const MethodInfo* method);
+	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7763 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7241 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7776 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7241  p1, const MethodInfo* method);
-	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7241 *)args[0]), method);
+	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7776  p1, const MethodInfo* method);
+	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7776 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t7239 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t7774 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t7239  p1, const MethodInfo* method);
-	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7239 *)args[0]), method);
+	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t7774  p1, const MethodInfo* method);
+	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7774 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7252 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7787 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7252  p1, const MethodInfo* method);
-	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7252 *)args[0]), method);
+	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7787  p1, const MethodInfo* method);
+	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7787 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t7250 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t7785 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t7250  p1, const MethodInfo* method);
-	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7250 *)args[0]), method);
+	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t7785  p1, const MethodInfo* method);
+	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7785 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t5560 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t6093 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t5560  p1, const MethodInfo* method);
-	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5560 *)args[0]), method);
+	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t6093  p1, const MethodInfo* method);
+	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6093 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t5549 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t6082 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t5549  p1, const MethodInfo* method);
-	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5549 *)args[0]), method);
+	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t6082  p1, const MethodInfo* method);
+	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6082 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7270 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7805 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7270  p1, const MethodInfo* method);
-	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7270 *)args[0]), method);
+	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7805  p1, const MethodInfo* method);
+	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7805 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t7268 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t7803 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t7268  p1, const MethodInfo* method);
-	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7268 *)args[0]), method);
+	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t7803  p1, const MethodInfo* method);
+	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7803 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7281 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7816 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7281  p1, const MethodInfo* method);
-	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7281 *)args[0]), method);
+	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7816  p1, const MethodInfo* method);
+	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7816 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t7279 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t7814 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t7279  p1, const MethodInfo* method);
-	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7279 *)args[0]), method);
+	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t7814  p1, const MethodInfo* method);
+	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7814 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7292 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7827 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7292  p1, const MethodInfo* method);
-	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7292 *)args[0]), method);
+	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7827  p1, const MethodInfo* method);
+	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7827 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t7290 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t7825 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t7290  p1, const MethodInfo* method);
-	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7290 *)args[0]), method);
+	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t7825  p1, const MethodInfo* method);
+	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7825 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7111 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7646 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7111  p1, const MethodInfo* method);
-	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7111 *)args[0]), method);
+	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7646  p1, const MethodInfo* method);
+	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7646 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t7042 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t7577 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t7042  p1, const MethodInfo* method);
-	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7042 *)args[0]), method);
+	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t7577  p1, const MethodInfo* method);
+	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7577 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7091 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7626 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7091  p1, const MethodInfo* method);
-	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7091 *)args[0]), method);
+	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7626  p1, const MethodInfo* method);
+	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7626 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t7036 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t7571 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t7036  p1, const MethodInfo* method);
-	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7036 *)args[0]), method);
+	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t7571  p1, const MethodInfo* method);
+	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7571 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7219_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7754_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7219  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
-	KeyValuePair_2_t7219  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
+	typedef KeyValuePair_2_t7754  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
+	KeyValuePair_2_t7754  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t6218_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6751_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6218  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
-	KeyValuePair_2_t6218  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
+	typedef KeyValuePair_2_t6751  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
+	KeyValuePair_2_t6751  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7219_KeyValuePair_2_t7219 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7754_KeyValuePair_2_t7754 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7219  (*Func)(void* obj, KeyValuePair_2_t7219  p1, const MethodInfo* method);
-	KeyValuePair_2_t7219  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7219 *)args[0]), method);
+	typedef KeyValuePair_2_t7754  (*Func)(void* obj, KeyValuePair_2_t7754  p1, const MethodInfo* method);
+	KeyValuePair_2_t7754  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7754 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t6218_KeyValuePair_2_t6218 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6751_KeyValuePair_2_t6751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6218  (*Func)(void* obj, KeyValuePair_2_t6218  p1, const MethodInfo* method);
-	KeyValuePair_2_t6218  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6218 *)args[0]), method);
+	typedef KeyValuePair_2_t6751  (*Func)(void* obj, KeyValuePair_2_t6751  p1, const MethodInfo* method);
+	KeyValuePair_2_t6751  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6751 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7219_KeyValuePair_2_t7230 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7754_KeyValuePair_2_t7765 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7219  (*Func)(void* obj, KeyValuePair_2_t7230  p1, const MethodInfo* method);
-	KeyValuePair_2_t7219  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7230 *)args[0]), method);
+	typedef KeyValuePair_2_t7754  (*Func)(void* obj, KeyValuePair_2_t7765  p1, const MethodInfo* method);
+	KeyValuePair_2_t7754  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7765 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t6218_KeyValuePair_2_t7228 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6751_KeyValuePair_2_t7763 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6218  (*Func)(void* obj, KeyValuePair_2_t7228  p1, const MethodInfo* method);
-	KeyValuePair_2_t6218  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7228 *)args[0]), method);
+	typedef KeyValuePair_2_t6751  (*Func)(void* obj, KeyValuePair_2_t7763  p1, const MethodInfo* method);
+	KeyValuePair_2_t6751  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7763 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7219_KeyValuePair_2_t7241 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7754_KeyValuePair_2_t7776 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7219  (*Func)(void* obj, KeyValuePair_2_t7241  p1, const MethodInfo* method);
-	KeyValuePair_2_t7219  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7241 *)args[0]), method);
+	typedef KeyValuePair_2_t7754  (*Func)(void* obj, KeyValuePair_2_t7776  p1, const MethodInfo* method);
+	KeyValuePair_2_t7754  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7776 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t6218_KeyValuePair_2_t7239 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6751_KeyValuePair_2_t7774 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6218  (*Func)(void* obj, KeyValuePair_2_t7239  p1, const MethodInfo* method);
-	KeyValuePair_2_t6218  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7239 *)args[0]), method);
+	typedef KeyValuePair_2_t6751  (*Func)(void* obj, KeyValuePair_2_t7774  p1, const MethodInfo* method);
+	KeyValuePair_2_t6751  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7774 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7219_KeyValuePair_2_t7252 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7754_KeyValuePair_2_t7787 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7219  (*Func)(void* obj, KeyValuePair_2_t7252  p1, const MethodInfo* method);
-	KeyValuePair_2_t7219  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7252 *)args[0]), method);
+	typedef KeyValuePair_2_t7754  (*Func)(void* obj, KeyValuePair_2_t7787  p1, const MethodInfo* method);
+	KeyValuePair_2_t7754  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7787 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t6218_KeyValuePair_2_t7250 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6751_KeyValuePair_2_t7785 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6218  (*Func)(void* obj, KeyValuePair_2_t7250  p1, const MethodInfo* method);
-	KeyValuePair_2_t6218  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7250 *)args[0]), method);
+	typedef KeyValuePair_2_t6751  (*Func)(void* obj, KeyValuePair_2_t7785  p1, const MethodInfo* method);
+	KeyValuePair_2_t6751  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7785 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7219_KeyValuePair_2_t5560 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7754_KeyValuePair_2_t6093 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7219  (*Func)(void* obj, KeyValuePair_2_t5560  p1, const MethodInfo* method);
-	KeyValuePair_2_t7219  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5560 *)args[0]), method);
+	typedef KeyValuePair_2_t7754  (*Func)(void* obj, KeyValuePair_2_t6093  p1, const MethodInfo* method);
+	KeyValuePair_2_t7754  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6093 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t6218_KeyValuePair_2_t5549 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6751_KeyValuePair_2_t6082 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6218  (*Func)(void* obj, KeyValuePair_2_t5549  p1, const MethodInfo* method);
-	KeyValuePair_2_t6218  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5549 *)args[0]), method);
+	typedef KeyValuePair_2_t6751  (*Func)(void* obj, KeyValuePair_2_t6082  p1, const MethodInfo* method);
+	KeyValuePair_2_t6751  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6082 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7219_KeyValuePair_2_t7270 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7754_KeyValuePair_2_t7805 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7219  (*Func)(void* obj, KeyValuePair_2_t7270  p1, const MethodInfo* method);
-	KeyValuePair_2_t7219  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7270 *)args[0]), method);
+	typedef KeyValuePair_2_t7754  (*Func)(void* obj, KeyValuePair_2_t7805  p1, const MethodInfo* method);
+	KeyValuePair_2_t7754  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7805 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t6218_KeyValuePair_2_t7268 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6751_KeyValuePair_2_t7803 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6218  (*Func)(void* obj, KeyValuePair_2_t7268  p1, const MethodInfo* method);
-	KeyValuePair_2_t6218  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7268 *)args[0]), method);
+	typedef KeyValuePair_2_t6751  (*Func)(void* obj, KeyValuePair_2_t7803  p1, const MethodInfo* method);
+	KeyValuePair_2_t6751  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7803 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7219_KeyValuePair_2_t7281 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7754_KeyValuePair_2_t7816 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7219  (*Func)(void* obj, KeyValuePair_2_t7281  p1, const MethodInfo* method);
-	KeyValuePair_2_t7219  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7281 *)args[0]), method);
+	typedef KeyValuePair_2_t7754  (*Func)(void* obj, KeyValuePair_2_t7816  p1, const MethodInfo* method);
+	KeyValuePair_2_t7754  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7816 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t6218_KeyValuePair_2_t7279 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6751_KeyValuePair_2_t7814 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6218  (*Func)(void* obj, KeyValuePair_2_t7279  p1, const MethodInfo* method);
-	KeyValuePair_2_t6218  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7279 *)args[0]), method);
+	typedef KeyValuePair_2_t6751  (*Func)(void* obj, KeyValuePair_2_t7814  p1, const MethodInfo* method);
+	KeyValuePair_2_t6751  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7814 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7219_KeyValuePair_2_t7292 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7754_KeyValuePair_2_t7827 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7219  (*Func)(void* obj, KeyValuePair_2_t7292  p1, const MethodInfo* method);
-	KeyValuePair_2_t7219  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7292 *)args[0]), method);
+	typedef KeyValuePair_2_t7754  (*Func)(void* obj, KeyValuePair_2_t7827  p1, const MethodInfo* method);
+	KeyValuePair_2_t7754  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7827 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t6218_KeyValuePair_2_t7290 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6751_KeyValuePair_2_t7825 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6218  (*Func)(void* obj, KeyValuePair_2_t7290  p1, const MethodInfo* method);
-	KeyValuePair_2_t6218  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7290 *)args[0]), method);
+	typedef KeyValuePair_2_t6751  (*Func)(void* obj, KeyValuePair_2_t7825  p1, const MethodInfo* method);
+	KeyValuePair_2_t6751  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7825 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7219_KeyValuePair_2_t7111 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7754_KeyValuePair_2_t7646 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7219  (*Func)(void* obj, KeyValuePair_2_t7111  p1, const MethodInfo* method);
-	KeyValuePair_2_t7219  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7111 *)args[0]), method);
+	typedef KeyValuePair_2_t7754  (*Func)(void* obj, KeyValuePair_2_t7646  p1, const MethodInfo* method);
+	KeyValuePair_2_t7754  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7646 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t6218_KeyValuePair_2_t7042 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6751_KeyValuePair_2_t7577 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6218  (*Func)(void* obj, KeyValuePair_2_t7042  p1, const MethodInfo* method);
-	KeyValuePair_2_t6218  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7042 *)args[0]), method);
+	typedef KeyValuePair_2_t6751  (*Func)(void* obj, KeyValuePair_2_t7577  p1, const MethodInfo* method);
+	KeyValuePair_2_t6751  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7577 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7219_KeyValuePair_2_t7091 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7754_KeyValuePair_2_t7626 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7219  (*Func)(void* obj, KeyValuePair_2_t7091  p1, const MethodInfo* method);
-	KeyValuePair_2_t7219  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7091 *)args[0]), method);
+	typedef KeyValuePair_2_t7754  (*Func)(void* obj, KeyValuePair_2_t7626  p1, const MethodInfo* method);
+	KeyValuePair_2_t7754  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7626 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t6218_KeyValuePair_2_t7036 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6751_KeyValuePair_2_t7571 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6218  (*Func)(void* obj, KeyValuePair_2_t7036  p1, const MethodInfo* method);
-	KeyValuePair_2_t6218  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7036 *)args[0]), method);
+	typedef KeyValuePair_2_t6751  (*Func)(void* obj, KeyValuePair_2_t7571  p1, const MethodInfo* method);
+	KeyValuePair_2_t6751  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7571 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7230_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7765_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7230  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
-	KeyValuePair_2_t7230  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
+	typedef KeyValuePair_2_t7765  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
+	KeyValuePair_2_t7765  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7228_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7763_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7228  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
-	KeyValuePair_2_t7228  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
+	typedef KeyValuePair_2_t7763  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
+	KeyValuePair_2_t7763  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7230_KeyValuePair_2_t7219 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7765_KeyValuePair_2_t7754 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7230  (*Func)(void* obj, KeyValuePair_2_t7219  p1, const MethodInfo* method);
-	KeyValuePair_2_t7230  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7219 *)args[0]), method);
+	typedef KeyValuePair_2_t7765  (*Func)(void* obj, KeyValuePair_2_t7754  p1, const MethodInfo* method);
+	KeyValuePair_2_t7765  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7754 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7228_KeyValuePair_2_t6218 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7763_KeyValuePair_2_t6751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7228  (*Func)(void* obj, KeyValuePair_2_t6218  p1, const MethodInfo* method);
-	KeyValuePair_2_t7228  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6218 *)args[0]), method);
+	typedef KeyValuePair_2_t7763  (*Func)(void* obj, KeyValuePair_2_t6751  p1, const MethodInfo* method);
+	KeyValuePair_2_t7763  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6751 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7230_KeyValuePair_2_t7230 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7765_KeyValuePair_2_t7765 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7230  (*Func)(void* obj, KeyValuePair_2_t7230  p1, const MethodInfo* method);
-	KeyValuePair_2_t7230  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7230 *)args[0]), method);
+	typedef KeyValuePair_2_t7765  (*Func)(void* obj, KeyValuePair_2_t7765  p1, const MethodInfo* method);
+	KeyValuePair_2_t7765  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7765 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7228_KeyValuePair_2_t7228 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7763_KeyValuePair_2_t7763 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7228  (*Func)(void* obj, KeyValuePair_2_t7228  p1, const MethodInfo* method);
-	KeyValuePair_2_t7228  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7228 *)args[0]), method);
+	typedef KeyValuePair_2_t7763  (*Func)(void* obj, KeyValuePair_2_t7763  p1, const MethodInfo* method);
+	KeyValuePair_2_t7763  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7763 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7230_KeyValuePair_2_t7241 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7765_KeyValuePair_2_t7776 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7230  (*Func)(void* obj, KeyValuePair_2_t7241  p1, const MethodInfo* method);
-	KeyValuePair_2_t7230  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7241 *)args[0]), method);
+	typedef KeyValuePair_2_t7765  (*Func)(void* obj, KeyValuePair_2_t7776  p1, const MethodInfo* method);
+	KeyValuePair_2_t7765  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7776 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7228_KeyValuePair_2_t7239 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7763_KeyValuePair_2_t7774 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7228  (*Func)(void* obj, KeyValuePair_2_t7239  p1, const MethodInfo* method);
-	KeyValuePair_2_t7228  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7239 *)args[0]), method);
+	typedef KeyValuePair_2_t7763  (*Func)(void* obj, KeyValuePair_2_t7774  p1, const MethodInfo* method);
+	KeyValuePair_2_t7763  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7774 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7230_KeyValuePair_2_t7252 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7765_KeyValuePair_2_t7787 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7230  (*Func)(void* obj, KeyValuePair_2_t7252  p1, const MethodInfo* method);
-	KeyValuePair_2_t7230  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7252 *)args[0]), method);
+	typedef KeyValuePair_2_t7765  (*Func)(void* obj, KeyValuePair_2_t7787  p1, const MethodInfo* method);
+	KeyValuePair_2_t7765  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7787 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7228_KeyValuePair_2_t7250 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7763_KeyValuePair_2_t7785 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7228  (*Func)(void* obj, KeyValuePair_2_t7250  p1, const MethodInfo* method);
-	KeyValuePair_2_t7228  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7250 *)args[0]), method);
+	typedef KeyValuePair_2_t7763  (*Func)(void* obj, KeyValuePair_2_t7785  p1, const MethodInfo* method);
+	KeyValuePair_2_t7763  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7785 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7230_KeyValuePair_2_t5560 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7765_KeyValuePair_2_t6093 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7230  (*Func)(void* obj, KeyValuePair_2_t5560  p1, const MethodInfo* method);
-	KeyValuePair_2_t7230  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5560 *)args[0]), method);
+	typedef KeyValuePair_2_t7765  (*Func)(void* obj, KeyValuePair_2_t6093  p1, const MethodInfo* method);
+	KeyValuePair_2_t7765  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6093 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7228_KeyValuePair_2_t5549 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7763_KeyValuePair_2_t6082 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7228  (*Func)(void* obj, KeyValuePair_2_t5549  p1, const MethodInfo* method);
-	KeyValuePair_2_t7228  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5549 *)args[0]), method);
+	typedef KeyValuePair_2_t7763  (*Func)(void* obj, KeyValuePair_2_t6082  p1, const MethodInfo* method);
+	KeyValuePair_2_t7763  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6082 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7230_KeyValuePair_2_t7270 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7765_KeyValuePair_2_t7805 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7230  (*Func)(void* obj, KeyValuePair_2_t7270  p1, const MethodInfo* method);
-	KeyValuePair_2_t7230  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7270 *)args[0]), method);
+	typedef KeyValuePair_2_t7765  (*Func)(void* obj, KeyValuePair_2_t7805  p1, const MethodInfo* method);
+	KeyValuePair_2_t7765  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7805 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7228_KeyValuePair_2_t7268 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7763_KeyValuePair_2_t7803 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7228  (*Func)(void* obj, KeyValuePair_2_t7268  p1, const MethodInfo* method);
-	KeyValuePair_2_t7228  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7268 *)args[0]), method);
+	typedef KeyValuePair_2_t7763  (*Func)(void* obj, KeyValuePair_2_t7803  p1, const MethodInfo* method);
+	KeyValuePair_2_t7763  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7803 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7230_KeyValuePair_2_t7281 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7765_KeyValuePair_2_t7816 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7230  (*Func)(void* obj, KeyValuePair_2_t7281  p1, const MethodInfo* method);
-	KeyValuePair_2_t7230  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7281 *)args[0]), method);
+	typedef KeyValuePair_2_t7765  (*Func)(void* obj, KeyValuePair_2_t7816  p1, const MethodInfo* method);
+	KeyValuePair_2_t7765  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7816 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7228_KeyValuePair_2_t7279 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7763_KeyValuePair_2_t7814 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7228  (*Func)(void* obj, KeyValuePair_2_t7279  p1, const MethodInfo* method);
-	KeyValuePair_2_t7228  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7279 *)args[0]), method);
+	typedef KeyValuePair_2_t7763  (*Func)(void* obj, KeyValuePair_2_t7814  p1, const MethodInfo* method);
+	KeyValuePair_2_t7763  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7814 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7230_KeyValuePair_2_t7292 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7765_KeyValuePair_2_t7827 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7230  (*Func)(void* obj, KeyValuePair_2_t7292  p1, const MethodInfo* method);
-	KeyValuePair_2_t7230  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7292 *)args[0]), method);
+	typedef KeyValuePair_2_t7765  (*Func)(void* obj, KeyValuePair_2_t7827  p1, const MethodInfo* method);
+	KeyValuePair_2_t7765  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7827 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7228_KeyValuePair_2_t7290 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7763_KeyValuePair_2_t7825 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7228  (*Func)(void* obj, KeyValuePair_2_t7290  p1, const MethodInfo* method);
-	KeyValuePair_2_t7228  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7290 *)args[0]), method);
+	typedef KeyValuePair_2_t7763  (*Func)(void* obj, KeyValuePair_2_t7825  p1, const MethodInfo* method);
+	KeyValuePair_2_t7763  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7825 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7230_KeyValuePair_2_t7111 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7765_KeyValuePair_2_t7646 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7230  (*Func)(void* obj, KeyValuePair_2_t7111  p1, const MethodInfo* method);
-	KeyValuePair_2_t7230  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7111 *)args[0]), method);
+	typedef KeyValuePair_2_t7765  (*Func)(void* obj, KeyValuePair_2_t7646  p1, const MethodInfo* method);
+	KeyValuePair_2_t7765  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7646 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7228_KeyValuePair_2_t7042 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7763_KeyValuePair_2_t7577 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7228  (*Func)(void* obj, KeyValuePair_2_t7042  p1, const MethodInfo* method);
-	KeyValuePair_2_t7228  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7042 *)args[0]), method);
+	typedef KeyValuePair_2_t7763  (*Func)(void* obj, KeyValuePair_2_t7577  p1, const MethodInfo* method);
+	KeyValuePair_2_t7763  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7577 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7230_KeyValuePair_2_t7091 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7765_KeyValuePair_2_t7626 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7230  (*Func)(void* obj, KeyValuePair_2_t7091  p1, const MethodInfo* method);
-	KeyValuePair_2_t7230  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7091 *)args[0]), method);
+	typedef KeyValuePair_2_t7765  (*Func)(void* obj, KeyValuePair_2_t7626  p1, const MethodInfo* method);
+	KeyValuePair_2_t7765  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7626 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7228_KeyValuePair_2_t7036 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7763_KeyValuePair_2_t7571 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7228  (*Func)(void* obj, KeyValuePair_2_t7036  p1, const MethodInfo* method);
-	KeyValuePair_2_t7228  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7036 *)args[0]), method);
+	typedef KeyValuePair_2_t7763  (*Func)(void* obj, KeyValuePair_2_t7571  p1, const MethodInfo* method);
+	KeyValuePair_2_t7763  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7571 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7241_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7776_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7241  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
-	KeyValuePair_2_t7241  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
+	typedef KeyValuePair_2_t7776  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
+	KeyValuePair_2_t7776  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7239_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7774_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7239  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
-	KeyValuePair_2_t7239  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
+	typedef KeyValuePair_2_t7774  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
+	KeyValuePair_2_t7774  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7241_KeyValuePair_2_t7219 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7776_KeyValuePair_2_t7754 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7241  (*Func)(void* obj, KeyValuePair_2_t7219  p1, const MethodInfo* method);
-	KeyValuePair_2_t7241  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7219 *)args[0]), method);
+	typedef KeyValuePair_2_t7776  (*Func)(void* obj, KeyValuePair_2_t7754  p1, const MethodInfo* method);
+	KeyValuePair_2_t7776  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7754 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7239_KeyValuePair_2_t6218 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7774_KeyValuePair_2_t6751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7239  (*Func)(void* obj, KeyValuePair_2_t6218  p1, const MethodInfo* method);
-	KeyValuePair_2_t7239  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6218 *)args[0]), method);
+	typedef KeyValuePair_2_t7774  (*Func)(void* obj, KeyValuePair_2_t6751  p1, const MethodInfo* method);
+	KeyValuePair_2_t7774  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6751 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7241_KeyValuePair_2_t7230 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7776_KeyValuePair_2_t7765 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7241  (*Func)(void* obj, KeyValuePair_2_t7230  p1, const MethodInfo* method);
-	KeyValuePair_2_t7241  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7230 *)args[0]), method);
+	typedef KeyValuePair_2_t7776  (*Func)(void* obj, KeyValuePair_2_t7765  p1, const MethodInfo* method);
+	KeyValuePair_2_t7776  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7765 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7239_KeyValuePair_2_t7228 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7774_KeyValuePair_2_t7763 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7239  (*Func)(void* obj, KeyValuePair_2_t7228  p1, const MethodInfo* method);
-	KeyValuePair_2_t7239  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7228 *)args[0]), method);
+	typedef KeyValuePair_2_t7774  (*Func)(void* obj, KeyValuePair_2_t7763  p1, const MethodInfo* method);
+	KeyValuePair_2_t7774  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7763 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7241_KeyValuePair_2_t7241 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7776_KeyValuePair_2_t7776 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7241  (*Func)(void* obj, KeyValuePair_2_t7241  p1, const MethodInfo* method);
-	KeyValuePair_2_t7241  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7241 *)args[0]), method);
+	typedef KeyValuePair_2_t7776  (*Func)(void* obj, KeyValuePair_2_t7776  p1, const MethodInfo* method);
+	KeyValuePair_2_t7776  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7776 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7239_KeyValuePair_2_t7239 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7774_KeyValuePair_2_t7774 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7239  (*Func)(void* obj, KeyValuePair_2_t7239  p1, const MethodInfo* method);
-	KeyValuePair_2_t7239  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7239 *)args[0]), method);
+	typedef KeyValuePair_2_t7774  (*Func)(void* obj, KeyValuePair_2_t7774  p1, const MethodInfo* method);
+	KeyValuePair_2_t7774  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7774 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7241_KeyValuePair_2_t7252 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7776_KeyValuePair_2_t7787 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7241  (*Func)(void* obj, KeyValuePair_2_t7252  p1, const MethodInfo* method);
-	KeyValuePair_2_t7241  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7252 *)args[0]), method);
+	typedef KeyValuePair_2_t7776  (*Func)(void* obj, KeyValuePair_2_t7787  p1, const MethodInfo* method);
+	KeyValuePair_2_t7776  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7787 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7239_KeyValuePair_2_t7250 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7774_KeyValuePair_2_t7785 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7239  (*Func)(void* obj, KeyValuePair_2_t7250  p1, const MethodInfo* method);
-	KeyValuePair_2_t7239  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7250 *)args[0]), method);
+	typedef KeyValuePair_2_t7774  (*Func)(void* obj, KeyValuePair_2_t7785  p1, const MethodInfo* method);
+	KeyValuePair_2_t7774  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7785 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7241_KeyValuePair_2_t5560 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7776_KeyValuePair_2_t6093 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7241  (*Func)(void* obj, KeyValuePair_2_t5560  p1, const MethodInfo* method);
-	KeyValuePair_2_t7241  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5560 *)args[0]), method);
+	typedef KeyValuePair_2_t7776  (*Func)(void* obj, KeyValuePair_2_t6093  p1, const MethodInfo* method);
+	KeyValuePair_2_t7776  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6093 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7239_KeyValuePair_2_t5549 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7774_KeyValuePair_2_t6082 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7239  (*Func)(void* obj, KeyValuePair_2_t5549  p1, const MethodInfo* method);
-	KeyValuePair_2_t7239  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5549 *)args[0]), method);
+	typedef KeyValuePair_2_t7774  (*Func)(void* obj, KeyValuePair_2_t6082  p1, const MethodInfo* method);
+	KeyValuePair_2_t7774  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6082 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7241_KeyValuePair_2_t7270 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7776_KeyValuePair_2_t7805 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7241  (*Func)(void* obj, KeyValuePair_2_t7270  p1, const MethodInfo* method);
-	KeyValuePair_2_t7241  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7270 *)args[0]), method);
+	typedef KeyValuePair_2_t7776  (*Func)(void* obj, KeyValuePair_2_t7805  p1, const MethodInfo* method);
+	KeyValuePair_2_t7776  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7805 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7239_KeyValuePair_2_t7268 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7774_KeyValuePair_2_t7803 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7239  (*Func)(void* obj, KeyValuePair_2_t7268  p1, const MethodInfo* method);
-	KeyValuePair_2_t7239  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7268 *)args[0]), method);
+	typedef KeyValuePair_2_t7774  (*Func)(void* obj, KeyValuePair_2_t7803  p1, const MethodInfo* method);
+	KeyValuePair_2_t7774  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7803 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7241_KeyValuePair_2_t7281 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7776_KeyValuePair_2_t7816 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7241  (*Func)(void* obj, KeyValuePair_2_t7281  p1, const MethodInfo* method);
-	KeyValuePair_2_t7241  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7281 *)args[0]), method);
+	typedef KeyValuePair_2_t7776  (*Func)(void* obj, KeyValuePair_2_t7816  p1, const MethodInfo* method);
+	KeyValuePair_2_t7776  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7816 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7239_KeyValuePair_2_t7279 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7774_KeyValuePair_2_t7814 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7239  (*Func)(void* obj, KeyValuePair_2_t7279  p1, const MethodInfo* method);
-	KeyValuePair_2_t7239  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7279 *)args[0]), method);
+	typedef KeyValuePair_2_t7774  (*Func)(void* obj, KeyValuePair_2_t7814  p1, const MethodInfo* method);
+	KeyValuePair_2_t7774  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7814 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7241_KeyValuePair_2_t7292 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7776_KeyValuePair_2_t7827 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7241  (*Func)(void* obj, KeyValuePair_2_t7292  p1, const MethodInfo* method);
-	KeyValuePair_2_t7241  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7292 *)args[0]), method);
+	typedef KeyValuePair_2_t7776  (*Func)(void* obj, KeyValuePair_2_t7827  p1, const MethodInfo* method);
+	KeyValuePair_2_t7776  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7827 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7239_KeyValuePair_2_t7290 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7774_KeyValuePair_2_t7825 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7239  (*Func)(void* obj, KeyValuePair_2_t7290  p1, const MethodInfo* method);
-	KeyValuePair_2_t7239  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7290 *)args[0]), method);
+	typedef KeyValuePair_2_t7774  (*Func)(void* obj, KeyValuePair_2_t7825  p1, const MethodInfo* method);
+	KeyValuePair_2_t7774  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7825 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7241_KeyValuePair_2_t7111 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7776_KeyValuePair_2_t7646 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7241  (*Func)(void* obj, KeyValuePair_2_t7111  p1, const MethodInfo* method);
-	KeyValuePair_2_t7241  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7111 *)args[0]), method);
+	typedef KeyValuePair_2_t7776  (*Func)(void* obj, KeyValuePair_2_t7646  p1, const MethodInfo* method);
+	KeyValuePair_2_t7776  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7646 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7239_KeyValuePair_2_t7042 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7774_KeyValuePair_2_t7577 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7239  (*Func)(void* obj, KeyValuePair_2_t7042  p1, const MethodInfo* method);
-	KeyValuePair_2_t7239  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7042 *)args[0]), method);
+	typedef KeyValuePair_2_t7774  (*Func)(void* obj, KeyValuePair_2_t7577  p1, const MethodInfo* method);
+	KeyValuePair_2_t7774  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7577 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7241_KeyValuePair_2_t7091 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7776_KeyValuePair_2_t7626 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7241  (*Func)(void* obj, KeyValuePair_2_t7091  p1, const MethodInfo* method);
-	KeyValuePair_2_t7241  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7091 *)args[0]), method);
+	typedef KeyValuePair_2_t7776  (*Func)(void* obj, KeyValuePair_2_t7626  p1, const MethodInfo* method);
+	KeyValuePair_2_t7776  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7626 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7239_KeyValuePair_2_t7036 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7774_KeyValuePair_2_t7571 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7239  (*Func)(void* obj, KeyValuePair_2_t7036  p1, const MethodInfo* method);
-	KeyValuePair_2_t7239  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7036 *)args[0]), method);
+	typedef KeyValuePair_2_t7774  (*Func)(void* obj, KeyValuePair_2_t7571  p1, const MethodInfo* method);
+	KeyValuePair_2_t7774  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7571 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7252_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7787_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7252  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
-	KeyValuePair_2_t7252  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
+	typedef KeyValuePair_2_t7787  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
+	KeyValuePair_2_t7787  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7250_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7785_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7250  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
-	KeyValuePair_2_t7250  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
+	typedef KeyValuePair_2_t7785  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
+	KeyValuePair_2_t7785  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7252_KeyValuePair_2_t7219 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7787_KeyValuePair_2_t7754 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7252  (*Func)(void* obj, KeyValuePair_2_t7219  p1, const MethodInfo* method);
-	KeyValuePair_2_t7252  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7219 *)args[0]), method);
+	typedef KeyValuePair_2_t7787  (*Func)(void* obj, KeyValuePair_2_t7754  p1, const MethodInfo* method);
+	KeyValuePair_2_t7787  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7754 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7250_KeyValuePair_2_t6218 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7785_KeyValuePair_2_t6751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7250  (*Func)(void* obj, KeyValuePair_2_t6218  p1, const MethodInfo* method);
-	KeyValuePair_2_t7250  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6218 *)args[0]), method);
+	typedef KeyValuePair_2_t7785  (*Func)(void* obj, KeyValuePair_2_t6751  p1, const MethodInfo* method);
+	KeyValuePair_2_t7785  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6751 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7252_KeyValuePair_2_t7230 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7787_KeyValuePair_2_t7765 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7252  (*Func)(void* obj, KeyValuePair_2_t7230  p1, const MethodInfo* method);
-	KeyValuePair_2_t7252  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7230 *)args[0]), method);
+	typedef KeyValuePair_2_t7787  (*Func)(void* obj, KeyValuePair_2_t7765  p1, const MethodInfo* method);
+	KeyValuePair_2_t7787  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7765 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7250_KeyValuePair_2_t7228 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7785_KeyValuePair_2_t7763 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7250  (*Func)(void* obj, KeyValuePair_2_t7228  p1, const MethodInfo* method);
-	KeyValuePair_2_t7250  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7228 *)args[0]), method);
+	typedef KeyValuePair_2_t7785  (*Func)(void* obj, KeyValuePair_2_t7763  p1, const MethodInfo* method);
+	KeyValuePair_2_t7785  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7763 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7252_KeyValuePair_2_t7241 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7787_KeyValuePair_2_t7776 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7252  (*Func)(void* obj, KeyValuePair_2_t7241  p1, const MethodInfo* method);
-	KeyValuePair_2_t7252  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7241 *)args[0]), method);
+	typedef KeyValuePair_2_t7787  (*Func)(void* obj, KeyValuePair_2_t7776  p1, const MethodInfo* method);
+	KeyValuePair_2_t7787  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7776 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7250_KeyValuePair_2_t7239 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7785_KeyValuePair_2_t7774 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7250  (*Func)(void* obj, KeyValuePair_2_t7239  p1, const MethodInfo* method);
-	KeyValuePair_2_t7250  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7239 *)args[0]), method);
+	typedef KeyValuePair_2_t7785  (*Func)(void* obj, KeyValuePair_2_t7774  p1, const MethodInfo* method);
+	KeyValuePair_2_t7785  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7774 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7252_KeyValuePair_2_t7252 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7787_KeyValuePair_2_t7787 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7252  (*Func)(void* obj, KeyValuePair_2_t7252  p1, const MethodInfo* method);
-	KeyValuePair_2_t7252  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7252 *)args[0]), method);
+	typedef KeyValuePair_2_t7787  (*Func)(void* obj, KeyValuePair_2_t7787  p1, const MethodInfo* method);
+	KeyValuePair_2_t7787  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7787 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7250_KeyValuePair_2_t7250 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7785_KeyValuePair_2_t7785 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7250  (*Func)(void* obj, KeyValuePair_2_t7250  p1, const MethodInfo* method);
-	KeyValuePair_2_t7250  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7250 *)args[0]), method);
+	typedef KeyValuePair_2_t7785  (*Func)(void* obj, KeyValuePair_2_t7785  p1, const MethodInfo* method);
+	KeyValuePair_2_t7785  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7785 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7252_KeyValuePair_2_t5560 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7787_KeyValuePair_2_t6093 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7252  (*Func)(void* obj, KeyValuePair_2_t5560  p1, const MethodInfo* method);
-	KeyValuePair_2_t7252  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5560 *)args[0]), method);
+	typedef KeyValuePair_2_t7787  (*Func)(void* obj, KeyValuePair_2_t6093  p1, const MethodInfo* method);
+	KeyValuePair_2_t7787  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6093 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7250_KeyValuePair_2_t5549 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7785_KeyValuePair_2_t6082 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7250  (*Func)(void* obj, KeyValuePair_2_t5549  p1, const MethodInfo* method);
-	KeyValuePair_2_t7250  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5549 *)args[0]), method);
+	typedef KeyValuePair_2_t7785  (*Func)(void* obj, KeyValuePair_2_t6082  p1, const MethodInfo* method);
+	KeyValuePair_2_t7785  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6082 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7252_KeyValuePair_2_t7270 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7787_KeyValuePair_2_t7805 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7252  (*Func)(void* obj, KeyValuePair_2_t7270  p1, const MethodInfo* method);
-	KeyValuePair_2_t7252  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7270 *)args[0]), method);
+	typedef KeyValuePair_2_t7787  (*Func)(void* obj, KeyValuePair_2_t7805  p1, const MethodInfo* method);
+	KeyValuePair_2_t7787  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7805 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7250_KeyValuePair_2_t7268 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7785_KeyValuePair_2_t7803 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7250  (*Func)(void* obj, KeyValuePair_2_t7268  p1, const MethodInfo* method);
-	KeyValuePair_2_t7250  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7268 *)args[0]), method);
+	typedef KeyValuePair_2_t7785  (*Func)(void* obj, KeyValuePair_2_t7803  p1, const MethodInfo* method);
+	KeyValuePair_2_t7785  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7803 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7252_KeyValuePair_2_t7281 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7787_KeyValuePair_2_t7816 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7252  (*Func)(void* obj, KeyValuePair_2_t7281  p1, const MethodInfo* method);
-	KeyValuePair_2_t7252  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7281 *)args[0]), method);
+	typedef KeyValuePair_2_t7787  (*Func)(void* obj, KeyValuePair_2_t7816  p1, const MethodInfo* method);
+	KeyValuePair_2_t7787  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7816 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7250_KeyValuePair_2_t7279 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7785_KeyValuePair_2_t7814 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7250  (*Func)(void* obj, KeyValuePair_2_t7279  p1, const MethodInfo* method);
-	KeyValuePair_2_t7250  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7279 *)args[0]), method);
+	typedef KeyValuePair_2_t7785  (*Func)(void* obj, KeyValuePair_2_t7814  p1, const MethodInfo* method);
+	KeyValuePair_2_t7785  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7814 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7252_KeyValuePair_2_t7292 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7787_KeyValuePair_2_t7827 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7252  (*Func)(void* obj, KeyValuePair_2_t7292  p1, const MethodInfo* method);
-	KeyValuePair_2_t7252  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7292 *)args[0]), method);
+	typedef KeyValuePair_2_t7787  (*Func)(void* obj, KeyValuePair_2_t7827  p1, const MethodInfo* method);
+	KeyValuePair_2_t7787  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7827 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7250_KeyValuePair_2_t7290 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7785_KeyValuePair_2_t7825 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7250  (*Func)(void* obj, KeyValuePair_2_t7290  p1, const MethodInfo* method);
-	KeyValuePair_2_t7250  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7290 *)args[0]), method);
+	typedef KeyValuePair_2_t7785  (*Func)(void* obj, KeyValuePair_2_t7825  p1, const MethodInfo* method);
+	KeyValuePair_2_t7785  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7825 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7252_KeyValuePair_2_t7111 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7787_KeyValuePair_2_t7646 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7252  (*Func)(void* obj, KeyValuePair_2_t7111  p1, const MethodInfo* method);
-	KeyValuePair_2_t7252  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7111 *)args[0]), method);
+	typedef KeyValuePair_2_t7787  (*Func)(void* obj, KeyValuePair_2_t7646  p1, const MethodInfo* method);
+	KeyValuePair_2_t7787  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7646 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7250_KeyValuePair_2_t7042 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7785_KeyValuePair_2_t7577 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7250  (*Func)(void* obj, KeyValuePair_2_t7042  p1, const MethodInfo* method);
-	KeyValuePair_2_t7250  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7042 *)args[0]), method);
+	typedef KeyValuePair_2_t7785  (*Func)(void* obj, KeyValuePair_2_t7577  p1, const MethodInfo* method);
+	KeyValuePair_2_t7785  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7577 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7252_KeyValuePair_2_t7091 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7787_KeyValuePair_2_t7626 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7252  (*Func)(void* obj, KeyValuePair_2_t7091  p1, const MethodInfo* method);
-	KeyValuePair_2_t7252  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7091 *)args[0]), method);
+	typedef KeyValuePair_2_t7787  (*Func)(void* obj, KeyValuePair_2_t7626  p1, const MethodInfo* method);
+	KeyValuePair_2_t7787  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7626 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7250_KeyValuePair_2_t7036 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7785_KeyValuePair_2_t7571 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7250  (*Func)(void* obj, KeyValuePair_2_t7036  p1, const MethodInfo* method);
-	KeyValuePair_2_t7250  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7036 *)args[0]), method);
+	typedef KeyValuePair_2_t7785  (*Func)(void* obj, KeyValuePair_2_t7571  p1, const MethodInfo* method);
+	KeyValuePair_2_t7785  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7571 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5560_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6093_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5560  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
-	KeyValuePair_2_t5560  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
+	typedef KeyValuePair_2_t6093  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
+	KeyValuePair_2_t6093  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5549_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6082_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5549  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
-	KeyValuePair_2_t5549  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
+	typedef KeyValuePair_2_t6082  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
+	KeyValuePair_2_t6082  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5560_KeyValuePair_2_t7219 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6093_KeyValuePair_2_t7754 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5560  (*Func)(void* obj, KeyValuePair_2_t7219  p1, const MethodInfo* method);
-	KeyValuePair_2_t5560  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7219 *)args[0]), method);
+	typedef KeyValuePair_2_t6093  (*Func)(void* obj, KeyValuePair_2_t7754  p1, const MethodInfo* method);
+	KeyValuePair_2_t6093  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7754 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5549_KeyValuePair_2_t6218 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6082_KeyValuePair_2_t6751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5549  (*Func)(void* obj, KeyValuePair_2_t6218  p1, const MethodInfo* method);
-	KeyValuePair_2_t5549  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6218 *)args[0]), method);
+	typedef KeyValuePair_2_t6082  (*Func)(void* obj, KeyValuePair_2_t6751  p1, const MethodInfo* method);
+	KeyValuePair_2_t6082  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6751 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5560_KeyValuePair_2_t7230 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6093_KeyValuePair_2_t7765 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5560  (*Func)(void* obj, KeyValuePair_2_t7230  p1, const MethodInfo* method);
-	KeyValuePair_2_t5560  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7230 *)args[0]), method);
+	typedef KeyValuePair_2_t6093  (*Func)(void* obj, KeyValuePair_2_t7765  p1, const MethodInfo* method);
+	KeyValuePair_2_t6093  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7765 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5549_KeyValuePair_2_t7228 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6082_KeyValuePair_2_t7763 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5549  (*Func)(void* obj, KeyValuePair_2_t7228  p1, const MethodInfo* method);
-	KeyValuePair_2_t5549  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7228 *)args[0]), method);
+	typedef KeyValuePair_2_t6082  (*Func)(void* obj, KeyValuePair_2_t7763  p1, const MethodInfo* method);
+	KeyValuePair_2_t6082  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7763 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5560_KeyValuePair_2_t7241 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6093_KeyValuePair_2_t7776 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5560  (*Func)(void* obj, KeyValuePair_2_t7241  p1, const MethodInfo* method);
-	KeyValuePair_2_t5560  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7241 *)args[0]), method);
+	typedef KeyValuePair_2_t6093  (*Func)(void* obj, KeyValuePair_2_t7776  p1, const MethodInfo* method);
+	KeyValuePair_2_t6093  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7776 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5549_KeyValuePair_2_t7239 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6082_KeyValuePair_2_t7774 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5549  (*Func)(void* obj, KeyValuePair_2_t7239  p1, const MethodInfo* method);
-	KeyValuePair_2_t5549  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7239 *)args[0]), method);
+	typedef KeyValuePair_2_t6082  (*Func)(void* obj, KeyValuePair_2_t7774  p1, const MethodInfo* method);
+	KeyValuePair_2_t6082  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7774 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5560_KeyValuePair_2_t7252 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6093_KeyValuePair_2_t7787 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5560  (*Func)(void* obj, KeyValuePair_2_t7252  p1, const MethodInfo* method);
-	KeyValuePair_2_t5560  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7252 *)args[0]), method);
+	typedef KeyValuePair_2_t6093  (*Func)(void* obj, KeyValuePair_2_t7787  p1, const MethodInfo* method);
+	KeyValuePair_2_t6093  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7787 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5549_KeyValuePair_2_t7250 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6082_KeyValuePair_2_t7785 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5549  (*Func)(void* obj, KeyValuePair_2_t7250  p1, const MethodInfo* method);
-	KeyValuePair_2_t5549  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7250 *)args[0]), method);
+	typedef KeyValuePair_2_t6082  (*Func)(void* obj, KeyValuePair_2_t7785  p1, const MethodInfo* method);
+	KeyValuePair_2_t6082  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7785 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5560_KeyValuePair_2_t5560 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6093_KeyValuePair_2_t6093 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5560  (*Func)(void* obj, KeyValuePair_2_t5560  p1, const MethodInfo* method);
-	KeyValuePair_2_t5560  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5560 *)args[0]), method);
+	typedef KeyValuePair_2_t6093  (*Func)(void* obj, KeyValuePair_2_t6093  p1, const MethodInfo* method);
+	KeyValuePair_2_t6093  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6093 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5549_KeyValuePair_2_t5549 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6082_KeyValuePair_2_t6082 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5549  (*Func)(void* obj, KeyValuePair_2_t5549  p1, const MethodInfo* method);
-	KeyValuePair_2_t5549  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5549 *)args[0]), method);
+	typedef KeyValuePair_2_t6082  (*Func)(void* obj, KeyValuePair_2_t6082  p1, const MethodInfo* method);
+	KeyValuePair_2_t6082  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6082 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5560_KeyValuePair_2_t7270 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6093_KeyValuePair_2_t7805 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5560  (*Func)(void* obj, KeyValuePair_2_t7270  p1, const MethodInfo* method);
-	KeyValuePair_2_t5560  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7270 *)args[0]), method);
+	typedef KeyValuePair_2_t6093  (*Func)(void* obj, KeyValuePair_2_t7805  p1, const MethodInfo* method);
+	KeyValuePair_2_t6093  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7805 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5549_KeyValuePair_2_t7268 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6082_KeyValuePair_2_t7803 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5549  (*Func)(void* obj, KeyValuePair_2_t7268  p1, const MethodInfo* method);
-	KeyValuePair_2_t5549  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7268 *)args[0]), method);
+	typedef KeyValuePair_2_t6082  (*Func)(void* obj, KeyValuePair_2_t7803  p1, const MethodInfo* method);
+	KeyValuePair_2_t6082  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7803 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5560_KeyValuePair_2_t7281 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6093_KeyValuePair_2_t7816 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5560  (*Func)(void* obj, KeyValuePair_2_t7281  p1, const MethodInfo* method);
-	KeyValuePair_2_t5560  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7281 *)args[0]), method);
+	typedef KeyValuePair_2_t6093  (*Func)(void* obj, KeyValuePair_2_t7816  p1, const MethodInfo* method);
+	KeyValuePair_2_t6093  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7816 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5549_KeyValuePair_2_t7279 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6082_KeyValuePair_2_t7814 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5549  (*Func)(void* obj, KeyValuePair_2_t7279  p1, const MethodInfo* method);
-	KeyValuePair_2_t5549  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7279 *)args[0]), method);
+	typedef KeyValuePair_2_t6082  (*Func)(void* obj, KeyValuePair_2_t7814  p1, const MethodInfo* method);
+	KeyValuePair_2_t6082  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7814 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5560_KeyValuePair_2_t7292 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6093_KeyValuePair_2_t7827 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5560  (*Func)(void* obj, KeyValuePair_2_t7292  p1, const MethodInfo* method);
-	KeyValuePair_2_t5560  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7292 *)args[0]), method);
+	typedef KeyValuePair_2_t6093  (*Func)(void* obj, KeyValuePair_2_t7827  p1, const MethodInfo* method);
+	KeyValuePair_2_t6093  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7827 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5549_KeyValuePair_2_t7290 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6082_KeyValuePair_2_t7825 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5549  (*Func)(void* obj, KeyValuePair_2_t7290  p1, const MethodInfo* method);
-	KeyValuePair_2_t5549  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7290 *)args[0]), method);
+	typedef KeyValuePair_2_t6082  (*Func)(void* obj, KeyValuePair_2_t7825  p1, const MethodInfo* method);
+	KeyValuePair_2_t6082  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7825 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5560_KeyValuePair_2_t7111 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6093_KeyValuePair_2_t7646 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5560  (*Func)(void* obj, KeyValuePair_2_t7111  p1, const MethodInfo* method);
-	KeyValuePair_2_t5560  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7111 *)args[0]), method);
+	typedef KeyValuePair_2_t6093  (*Func)(void* obj, KeyValuePair_2_t7646  p1, const MethodInfo* method);
+	KeyValuePair_2_t6093  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7646 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5549_KeyValuePair_2_t7042 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6082_KeyValuePair_2_t7577 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5549  (*Func)(void* obj, KeyValuePair_2_t7042  p1, const MethodInfo* method);
-	KeyValuePair_2_t5549  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7042 *)args[0]), method);
+	typedef KeyValuePair_2_t6082  (*Func)(void* obj, KeyValuePair_2_t7577  p1, const MethodInfo* method);
+	KeyValuePair_2_t6082  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7577 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5560_KeyValuePair_2_t7091 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6093_KeyValuePair_2_t7626 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5560  (*Func)(void* obj, KeyValuePair_2_t7091  p1, const MethodInfo* method);
-	KeyValuePair_2_t5560  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7091 *)args[0]), method);
+	typedef KeyValuePair_2_t6093  (*Func)(void* obj, KeyValuePair_2_t7626  p1, const MethodInfo* method);
+	KeyValuePair_2_t6093  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7626 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5549_KeyValuePair_2_t7036 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6082_KeyValuePair_2_t7571 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5549  (*Func)(void* obj, KeyValuePair_2_t7036  p1, const MethodInfo* method);
-	KeyValuePair_2_t5549  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7036 *)args[0]), method);
+	typedef KeyValuePair_2_t6082  (*Func)(void* obj, KeyValuePair_2_t7571  p1, const MethodInfo* method);
+	KeyValuePair_2_t6082  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7571 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7270_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7805_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7270  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
-	KeyValuePair_2_t7270  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
+	typedef KeyValuePair_2_t7805  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
+	KeyValuePair_2_t7805  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7268_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7803_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7268  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
-	KeyValuePair_2_t7268  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
+	typedef KeyValuePair_2_t7803  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
+	KeyValuePair_2_t7803  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7270_KeyValuePair_2_t7219 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7805_KeyValuePair_2_t7754 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7270  (*Func)(void* obj, KeyValuePair_2_t7219  p1, const MethodInfo* method);
-	KeyValuePair_2_t7270  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7219 *)args[0]), method);
+	typedef KeyValuePair_2_t7805  (*Func)(void* obj, KeyValuePair_2_t7754  p1, const MethodInfo* method);
+	KeyValuePair_2_t7805  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7754 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7268_KeyValuePair_2_t6218 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7803_KeyValuePair_2_t6751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7268  (*Func)(void* obj, KeyValuePair_2_t6218  p1, const MethodInfo* method);
-	KeyValuePair_2_t7268  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6218 *)args[0]), method);
+	typedef KeyValuePair_2_t7803  (*Func)(void* obj, KeyValuePair_2_t6751  p1, const MethodInfo* method);
+	KeyValuePair_2_t7803  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6751 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7270_KeyValuePair_2_t7230 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7805_KeyValuePair_2_t7765 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7270  (*Func)(void* obj, KeyValuePair_2_t7230  p1, const MethodInfo* method);
-	KeyValuePair_2_t7270  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7230 *)args[0]), method);
+	typedef KeyValuePair_2_t7805  (*Func)(void* obj, KeyValuePair_2_t7765  p1, const MethodInfo* method);
+	KeyValuePair_2_t7805  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7765 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7268_KeyValuePair_2_t7228 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7803_KeyValuePair_2_t7763 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7268  (*Func)(void* obj, KeyValuePair_2_t7228  p1, const MethodInfo* method);
-	KeyValuePair_2_t7268  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7228 *)args[0]), method);
+	typedef KeyValuePair_2_t7803  (*Func)(void* obj, KeyValuePair_2_t7763  p1, const MethodInfo* method);
+	KeyValuePair_2_t7803  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7763 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7270_KeyValuePair_2_t7241 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7805_KeyValuePair_2_t7776 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7270  (*Func)(void* obj, KeyValuePair_2_t7241  p1, const MethodInfo* method);
-	KeyValuePair_2_t7270  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7241 *)args[0]), method);
+	typedef KeyValuePair_2_t7805  (*Func)(void* obj, KeyValuePair_2_t7776  p1, const MethodInfo* method);
+	KeyValuePair_2_t7805  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7776 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7268_KeyValuePair_2_t7239 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7803_KeyValuePair_2_t7774 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7268  (*Func)(void* obj, KeyValuePair_2_t7239  p1, const MethodInfo* method);
-	KeyValuePair_2_t7268  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7239 *)args[0]), method);
+	typedef KeyValuePair_2_t7803  (*Func)(void* obj, KeyValuePair_2_t7774  p1, const MethodInfo* method);
+	KeyValuePair_2_t7803  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7774 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7270_KeyValuePair_2_t7252 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7805_KeyValuePair_2_t7787 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7270  (*Func)(void* obj, KeyValuePair_2_t7252  p1, const MethodInfo* method);
-	KeyValuePair_2_t7270  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7252 *)args[0]), method);
+	typedef KeyValuePair_2_t7805  (*Func)(void* obj, KeyValuePair_2_t7787  p1, const MethodInfo* method);
+	KeyValuePair_2_t7805  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7787 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7268_KeyValuePair_2_t7250 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7803_KeyValuePair_2_t7785 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7268  (*Func)(void* obj, KeyValuePair_2_t7250  p1, const MethodInfo* method);
-	KeyValuePair_2_t7268  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7250 *)args[0]), method);
+	typedef KeyValuePair_2_t7803  (*Func)(void* obj, KeyValuePair_2_t7785  p1, const MethodInfo* method);
+	KeyValuePair_2_t7803  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7785 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7270_KeyValuePair_2_t5560 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7805_KeyValuePair_2_t6093 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7270  (*Func)(void* obj, KeyValuePair_2_t5560  p1, const MethodInfo* method);
-	KeyValuePair_2_t7270  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5560 *)args[0]), method);
+	typedef KeyValuePair_2_t7805  (*Func)(void* obj, KeyValuePair_2_t6093  p1, const MethodInfo* method);
+	KeyValuePair_2_t7805  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6093 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7268_KeyValuePair_2_t5549 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7803_KeyValuePair_2_t6082 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7268  (*Func)(void* obj, KeyValuePair_2_t5549  p1, const MethodInfo* method);
-	KeyValuePair_2_t7268  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5549 *)args[0]), method);
+	typedef KeyValuePair_2_t7803  (*Func)(void* obj, KeyValuePair_2_t6082  p1, const MethodInfo* method);
+	KeyValuePair_2_t7803  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6082 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7270_KeyValuePair_2_t7270 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7805_KeyValuePair_2_t7805 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7270  (*Func)(void* obj, KeyValuePair_2_t7270  p1, const MethodInfo* method);
-	KeyValuePair_2_t7270  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7270 *)args[0]), method);
+	typedef KeyValuePair_2_t7805  (*Func)(void* obj, KeyValuePair_2_t7805  p1, const MethodInfo* method);
+	KeyValuePair_2_t7805  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7805 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7268_KeyValuePair_2_t7268 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7803_KeyValuePair_2_t7803 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7268  (*Func)(void* obj, KeyValuePair_2_t7268  p1, const MethodInfo* method);
-	KeyValuePair_2_t7268  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7268 *)args[0]), method);
+	typedef KeyValuePair_2_t7803  (*Func)(void* obj, KeyValuePair_2_t7803  p1, const MethodInfo* method);
+	KeyValuePair_2_t7803  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7803 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7270_KeyValuePair_2_t7281 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7805_KeyValuePair_2_t7816 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7270  (*Func)(void* obj, KeyValuePair_2_t7281  p1, const MethodInfo* method);
-	KeyValuePair_2_t7270  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7281 *)args[0]), method);
+	typedef KeyValuePair_2_t7805  (*Func)(void* obj, KeyValuePair_2_t7816  p1, const MethodInfo* method);
+	KeyValuePair_2_t7805  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7816 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7268_KeyValuePair_2_t7279 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7803_KeyValuePair_2_t7814 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7268  (*Func)(void* obj, KeyValuePair_2_t7279  p1, const MethodInfo* method);
-	KeyValuePair_2_t7268  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7279 *)args[0]), method);
+	typedef KeyValuePair_2_t7803  (*Func)(void* obj, KeyValuePair_2_t7814  p1, const MethodInfo* method);
+	KeyValuePair_2_t7803  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7814 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7270_KeyValuePair_2_t7292 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7805_KeyValuePair_2_t7827 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7270  (*Func)(void* obj, KeyValuePair_2_t7292  p1, const MethodInfo* method);
-	KeyValuePair_2_t7270  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7292 *)args[0]), method);
+	typedef KeyValuePair_2_t7805  (*Func)(void* obj, KeyValuePair_2_t7827  p1, const MethodInfo* method);
+	KeyValuePair_2_t7805  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7827 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7268_KeyValuePair_2_t7290 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7803_KeyValuePair_2_t7825 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7268  (*Func)(void* obj, KeyValuePair_2_t7290  p1, const MethodInfo* method);
-	KeyValuePair_2_t7268  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7290 *)args[0]), method);
+	typedef KeyValuePair_2_t7803  (*Func)(void* obj, KeyValuePair_2_t7825  p1, const MethodInfo* method);
+	KeyValuePair_2_t7803  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7825 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7270_KeyValuePair_2_t7111 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7805_KeyValuePair_2_t7646 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7270  (*Func)(void* obj, KeyValuePair_2_t7111  p1, const MethodInfo* method);
-	KeyValuePair_2_t7270  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7111 *)args[0]), method);
+	typedef KeyValuePair_2_t7805  (*Func)(void* obj, KeyValuePair_2_t7646  p1, const MethodInfo* method);
+	KeyValuePair_2_t7805  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7646 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7268_KeyValuePair_2_t7042 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7803_KeyValuePair_2_t7577 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7268  (*Func)(void* obj, KeyValuePair_2_t7042  p1, const MethodInfo* method);
-	KeyValuePair_2_t7268  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7042 *)args[0]), method);
+	typedef KeyValuePair_2_t7803  (*Func)(void* obj, KeyValuePair_2_t7577  p1, const MethodInfo* method);
+	KeyValuePair_2_t7803  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7577 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7270_KeyValuePair_2_t7091 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7805_KeyValuePair_2_t7626 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7270  (*Func)(void* obj, KeyValuePair_2_t7091  p1, const MethodInfo* method);
-	KeyValuePair_2_t7270  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7091 *)args[0]), method);
+	typedef KeyValuePair_2_t7805  (*Func)(void* obj, KeyValuePair_2_t7626  p1, const MethodInfo* method);
+	KeyValuePair_2_t7805  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7626 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7268_KeyValuePair_2_t7036 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7803_KeyValuePair_2_t7571 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7268  (*Func)(void* obj, KeyValuePair_2_t7036  p1, const MethodInfo* method);
-	KeyValuePair_2_t7268  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7036 *)args[0]), method);
+	typedef KeyValuePair_2_t7803  (*Func)(void* obj, KeyValuePair_2_t7571  p1, const MethodInfo* method);
+	KeyValuePair_2_t7803  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7571 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7281_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7816_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7281  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
-	KeyValuePair_2_t7281  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
+	typedef KeyValuePair_2_t7816  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
+	KeyValuePair_2_t7816  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7279_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7814_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7279  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
-	KeyValuePair_2_t7279  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
+	typedef KeyValuePair_2_t7814  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
+	KeyValuePair_2_t7814  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7281_KeyValuePair_2_t7219 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7816_KeyValuePair_2_t7754 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7281  (*Func)(void* obj, KeyValuePair_2_t7219  p1, const MethodInfo* method);
-	KeyValuePair_2_t7281  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7219 *)args[0]), method);
+	typedef KeyValuePair_2_t7816  (*Func)(void* obj, KeyValuePair_2_t7754  p1, const MethodInfo* method);
+	KeyValuePair_2_t7816  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7754 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7279_KeyValuePair_2_t6218 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7814_KeyValuePair_2_t6751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7279  (*Func)(void* obj, KeyValuePair_2_t6218  p1, const MethodInfo* method);
-	KeyValuePair_2_t7279  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6218 *)args[0]), method);
+	typedef KeyValuePair_2_t7814  (*Func)(void* obj, KeyValuePair_2_t6751  p1, const MethodInfo* method);
+	KeyValuePair_2_t7814  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6751 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7281_KeyValuePair_2_t7230 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7816_KeyValuePair_2_t7765 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7281  (*Func)(void* obj, KeyValuePair_2_t7230  p1, const MethodInfo* method);
-	KeyValuePair_2_t7281  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7230 *)args[0]), method);
+	typedef KeyValuePair_2_t7816  (*Func)(void* obj, KeyValuePair_2_t7765  p1, const MethodInfo* method);
+	KeyValuePair_2_t7816  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7765 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7279_KeyValuePair_2_t7228 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7814_KeyValuePair_2_t7763 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7279  (*Func)(void* obj, KeyValuePair_2_t7228  p1, const MethodInfo* method);
-	KeyValuePair_2_t7279  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7228 *)args[0]), method);
+	typedef KeyValuePair_2_t7814  (*Func)(void* obj, KeyValuePair_2_t7763  p1, const MethodInfo* method);
+	KeyValuePair_2_t7814  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7763 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7281_KeyValuePair_2_t7241 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7816_KeyValuePair_2_t7776 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7281  (*Func)(void* obj, KeyValuePair_2_t7241  p1, const MethodInfo* method);
-	KeyValuePair_2_t7281  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7241 *)args[0]), method);
+	typedef KeyValuePair_2_t7816  (*Func)(void* obj, KeyValuePair_2_t7776  p1, const MethodInfo* method);
+	KeyValuePair_2_t7816  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7776 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7279_KeyValuePair_2_t7239 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7814_KeyValuePair_2_t7774 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7279  (*Func)(void* obj, KeyValuePair_2_t7239  p1, const MethodInfo* method);
-	KeyValuePair_2_t7279  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7239 *)args[0]), method);
+	typedef KeyValuePair_2_t7814  (*Func)(void* obj, KeyValuePair_2_t7774  p1, const MethodInfo* method);
+	KeyValuePair_2_t7814  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7774 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7281_KeyValuePair_2_t7252 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7816_KeyValuePair_2_t7787 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7281  (*Func)(void* obj, KeyValuePair_2_t7252  p1, const MethodInfo* method);
-	KeyValuePair_2_t7281  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7252 *)args[0]), method);
+	typedef KeyValuePair_2_t7816  (*Func)(void* obj, KeyValuePair_2_t7787  p1, const MethodInfo* method);
+	KeyValuePair_2_t7816  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7787 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7279_KeyValuePair_2_t7250 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7814_KeyValuePair_2_t7785 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7279  (*Func)(void* obj, KeyValuePair_2_t7250  p1, const MethodInfo* method);
-	KeyValuePair_2_t7279  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7250 *)args[0]), method);
+	typedef KeyValuePair_2_t7814  (*Func)(void* obj, KeyValuePair_2_t7785  p1, const MethodInfo* method);
+	KeyValuePair_2_t7814  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7785 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7281_KeyValuePair_2_t5560 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7816_KeyValuePair_2_t6093 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7281  (*Func)(void* obj, KeyValuePair_2_t5560  p1, const MethodInfo* method);
-	KeyValuePair_2_t7281  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5560 *)args[0]), method);
+	typedef KeyValuePair_2_t7816  (*Func)(void* obj, KeyValuePair_2_t6093  p1, const MethodInfo* method);
+	KeyValuePair_2_t7816  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6093 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7279_KeyValuePair_2_t5549 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7814_KeyValuePair_2_t6082 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7279  (*Func)(void* obj, KeyValuePair_2_t5549  p1, const MethodInfo* method);
-	KeyValuePair_2_t7279  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5549 *)args[0]), method);
+	typedef KeyValuePair_2_t7814  (*Func)(void* obj, KeyValuePair_2_t6082  p1, const MethodInfo* method);
+	KeyValuePair_2_t7814  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6082 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7281_KeyValuePair_2_t7270 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7816_KeyValuePair_2_t7805 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7281  (*Func)(void* obj, KeyValuePair_2_t7270  p1, const MethodInfo* method);
-	KeyValuePair_2_t7281  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7270 *)args[0]), method);
+	typedef KeyValuePair_2_t7816  (*Func)(void* obj, KeyValuePair_2_t7805  p1, const MethodInfo* method);
+	KeyValuePair_2_t7816  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7805 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7279_KeyValuePair_2_t7268 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7814_KeyValuePair_2_t7803 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7279  (*Func)(void* obj, KeyValuePair_2_t7268  p1, const MethodInfo* method);
-	KeyValuePair_2_t7279  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7268 *)args[0]), method);
+	typedef KeyValuePair_2_t7814  (*Func)(void* obj, KeyValuePair_2_t7803  p1, const MethodInfo* method);
+	KeyValuePair_2_t7814  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7803 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7281_KeyValuePair_2_t7281 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7816_KeyValuePair_2_t7816 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7281  (*Func)(void* obj, KeyValuePair_2_t7281  p1, const MethodInfo* method);
-	KeyValuePair_2_t7281  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7281 *)args[0]), method);
+	typedef KeyValuePair_2_t7816  (*Func)(void* obj, KeyValuePair_2_t7816  p1, const MethodInfo* method);
+	KeyValuePair_2_t7816  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7816 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7279_KeyValuePair_2_t7279 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7814_KeyValuePair_2_t7814 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7279  (*Func)(void* obj, KeyValuePair_2_t7279  p1, const MethodInfo* method);
-	KeyValuePair_2_t7279  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7279 *)args[0]), method);
+	typedef KeyValuePair_2_t7814  (*Func)(void* obj, KeyValuePair_2_t7814  p1, const MethodInfo* method);
+	KeyValuePair_2_t7814  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7814 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7281_KeyValuePair_2_t7292 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7816_KeyValuePair_2_t7827 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7281  (*Func)(void* obj, KeyValuePair_2_t7292  p1, const MethodInfo* method);
-	KeyValuePair_2_t7281  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7292 *)args[0]), method);
+	typedef KeyValuePair_2_t7816  (*Func)(void* obj, KeyValuePair_2_t7827  p1, const MethodInfo* method);
+	KeyValuePair_2_t7816  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7827 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7279_KeyValuePair_2_t7290 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7814_KeyValuePair_2_t7825 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7279  (*Func)(void* obj, KeyValuePair_2_t7290  p1, const MethodInfo* method);
-	KeyValuePair_2_t7279  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7290 *)args[0]), method);
+	typedef KeyValuePair_2_t7814  (*Func)(void* obj, KeyValuePair_2_t7825  p1, const MethodInfo* method);
+	KeyValuePair_2_t7814  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7825 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7281_KeyValuePair_2_t7111 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7816_KeyValuePair_2_t7646 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7281  (*Func)(void* obj, KeyValuePair_2_t7111  p1, const MethodInfo* method);
-	KeyValuePair_2_t7281  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7111 *)args[0]), method);
+	typedef KeyValuePair_2_t7816  (*Func)(void* obj, KeyValuePair_2_t7646  p1, const MethodInfo* method);
+	KeyValuePair_2_t7816  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7646 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7279_KeyValuePair_2_t7042 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7814_KeyValuePair_2_t7577 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7279  (*Func)(void* obj, KeyValuePair_2_t7042  p1, const MethodInfo* method);
-	KeyValuePair_2_t7279  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7042 *)args[0]), method);
+	typedef KeyValuePair_2_t7814  (*Func)(void* obj, KeyValuePair_2_t7577  p1, const MethodInfo* method);
+	KeyValuePair_2_t7814  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7577 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7281_KeyValuePair_2_t7091 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7816_KeyValuePair_2_t7626 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7281  (*Func)(void* obj, KeyValuePair_2_t7091  p1, const MethodInfo* method);
-	KeyValuePair_2_t7281  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7091 *)args[0]), method);
+	typedef KeyValuePair_2_t7816  (*Func)(void* obj, KeyValuePair_2_t7626  p1, const MethodInfo* method);
+	KeyValuePair_2_t7816  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7626 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7279_KeyValuePair_2_t7036 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7814_KeyValuePair_2_t7571 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7279  (*Func)(void* obj, KeyValuePair_2_t7036  p1, const MethodInfo* method);
-	KeyValuePair_2_t7279  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7036 *)args[0]), method);
+	typedef KeyValuePair_2_t7814  (*Func)(void* obj, KeyValuePair_2_t7571  p1, const MethodInfo* method);
+	KeyValuePair_2_t7814  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7571 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7292_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7827_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7292  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
-	KeyValuePair_2_t7292  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
+	typedef KeyValuePair_2_t7827  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
+	KeyValuePair_2_t7827  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7290_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7825_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7290  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
-	KeyValuePair_2_t7290  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
+	typedef KeyValuePair_2_t7825  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
+	KeyValuePair_2_t7825  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7292_KeyValuePair_2_t7219 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7827_KeyValuePair_2_t7754 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7292  (*Func)(void* obj, KeyValuePair_2_t7219  p1, const MethodInfo* method);
-	KeyValuePair_2_t7292  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7219 *)args[0]), method);
+	typedef KeyValuePair_2_t7827  (*Func)(void* obj, KeyValuePair_2_t7754  p1, const MethodInfo* method);
+	KeyValuePair_2_t7827  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7754 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7290_KeyValuePair_2_t6218 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7825_KeyValuePair_2_t6751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7290  (*Func)(void* obj, KeyValuePair_2_t6218  p1, const MethodInfo* method);
-	KeyValuePair_2_t7290  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6218 *)args[0]), method);
+	typedef KeyValuePair_2_t7825  (*Func)(void* obj, KeyValuePair_2_t6751  p1, const MethodInfo* method);
+	KeyValuePair_2_t7825  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6751 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7292_KeyValuePair_2_t7230 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7827_KeyValuePair_2_t7765 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7292  (*Func)(void* obj, KeyValuePair_2_t7230  p1, const MethodInfo* method);
-	KeyValuePair_2_t7292  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7230 *)args[0]), method);
+	typedef KeyValuePair_2_t7827  (*Func)(void* obj, KeyValuePair_2_t7765  p1, const MethodInfo* method);
+	KeyValuePair_2_t7827  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7765 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7290_KeyValuePair_2_t7228 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7825_KeyValuePair_2_t7763 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7290  (*Func)(void* obj, KeyValuePair_2_t7228  p1, const MethodInfo* method);
-	KeyValuePair_2_t7290  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7228 *)args[0]), method);
+	typedef KeyValuePair_2_t7825  (*Func)(void* obj, KeyValuePair_2_t7763  p1, const MethodInfo* method);
+	KeyValuePair_2_t7825  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7763 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7292_KeyValuePair_2_t7241 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7827_KeyValuePair_2_t7776 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7292  (*Func)(void* obj, KeyValuePair_2_t7241  p1, const MethodInfo* method);
-	KeyValuePair_2_t7292  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7241 *)args[0]), method);
+	typedef KeyValuePair_2_t7827  (*Func)(void* obj, KeyValuePair_2_t7776  p1, const MethodInfo* method);
+	KeyValuePair_2_t7827  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7776 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7290_KeyValuePair_2_t7239 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7825_KeyValuePair_2_t7774 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7290  (*Func)(void* obj, KeyValuePair_2_t7239  p1, const MethodInfo* method);
-	KeyValuePair_2_t7290  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7239 *)args[0]), method);
+	typedef KeyValuePair_2_t7825  (*Func)(void* obj, KeyValuePair_2_t7774  p1, const MethodInfo* method);
+	KeyValuePair_2_t7825  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7774 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7292_KeyValuePair_2_t7252 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7827_KeyValuePair_2_t7787 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7292  (*Func)(void* obj, KeyValuePair_2_t7252  p1, const MethodInfo* method);
-	KeyValuePair_2_t7292  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7252 *)args[0]), method);
+	typedef KeyValuePair_2_t7827  (*Func)(void* obj, KeyValuePair_2_t7787  p1, const MethodInfo* method);
+	KeyValuePair_2_t7827  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7787 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7290_KeyValuePair_2_t7250 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7825_KeyValuePair_2_t7785 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7290  (*Func)(void* obj, KeyValuePair_2_t7250  p1, const MethodInfo* method);
-	KeyValuePair_2_t7290  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7250 *)args[0]), method);
+	typedef KeyValuePair_2_t7825  (*Func)(void* obj, KeyValuePair_2_t7785  p1, const MethodInfo* method);
+	KeyValuePair_2_t7825  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7785 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7292_KeyValuePair_2_t5560 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7827_KeyValuePair_2_t6093 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7292  (*Func)(void* obj, KeyValuePair_2_t5560  p1, const MethodInfo* method);
-	KeyValuePair_2_t7292  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5560 *)args[0]), method);
+	typedef KeyValuePair_2_t7827  (*Func)(void* obj, KeyValuePair_2_t6093  p1, const MethodInfo* method);
+	KeyValuePair_2_t7827  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6093 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7290_KeyValuePair_2_t5549 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7825_KeyValuePair_2_t6082 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7290  (*Func)(void* obj, KeyValuePair_2_t5549  p1, const MethodInfo* method);
-	KeyValuePair_2_t7290  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5549 *)args[0]), method);
+	typedef KeyValuePair_2_t7825  (*Func)(void* obj, KeyValuePair_2_t6082  p1, const MethodInfo* method);
+	KeyValuePair_2_t7825  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6082 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7292_KeyValuePair_2_t7270 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7827_KeyValuePair_2_t7805 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7292  (*Func)(void* obj, KeyValuePair_2_t7270  p1, const MethodInfo* method);
-	KeyValuePair_2_t7292  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7270 *)args[0]), method);
+	typedef KeyValuePair_2_t7827  (*Func)(void* obj, KeyValuePair_2_t7805  p1, const MethodInfo* method);
+	KeyValuePair_2_t7827  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7805 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7290_KeyValuePair_2_t7268 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7825_KeyValuePair_2_t7803 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7290  (*Func)(void* obj, KeyValuePair_2_t7268  p1, const MethodInfo* method);
-	KeyValuePair_2_t7290  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7268 *)args[0]), method);
+	typedef KeyValuePair_2_t7825  (*Func)(void* obj, KeyValuePair_2_t7803  p1, const MethodInfo* method);
+	KeyValuePair_2_t7825  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7803 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7292_KeyValuePair_2_t7281 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7827_KeyValuePair_2_t7816 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7292  (*Func)(void* obj, KeyValuePair_2_t7281  p1, const MethodInfo* method);
-	KeyValuePair_2_t7292  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7281 *)args[0]), method);
+	typedef KeyValuePair_2_t7827  (*Func)(void* obj, KeyValuePair_2_t7816  p1, const MethodInfo* method);
+	KeyValuePair_2_t7827  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7816 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7290_KeyValuePair_2_t7279 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7825_KeyValuePair_2_t7814 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7290  (*Func)(void* obj, KeyValuePair_2_t7279  p1, const MethodInfo* method);
-	KeyValuePair_2_t7290  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7279 *)args[0]), method);
+	typedef KeyValuePair_2_t7825  (*Func)(void* obj, KeyValuePair_2_t7814  p1, const MethodInfo* method);
+	KeyValuePair_2_t7825  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7814 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7292_KeyValuePair_2_t7292 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7827_KeyValuePair_2_t7827 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7292  (*Func)(void* obj, KeyValuePair_2_t7292  p1, const MethodInfo* method);
-	KeyValuePair_2_t7292  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7292 *)args[0]), method);
+	typedef KeyValuePair_2_t7827  (*Func)(void* obj, KeyValuePair_2_t7827  p1, const MethodInfo* method);
+	KeyValuePair_2_t7827  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7827 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7290_KeyValuePair_2_t7290 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7825_KeyValuePair_2_t7825 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7290  (*Func)(void* obj, KeyValuePair_2_t7290  p1, const MethodInfo* method);
-	KeyValuePair_2_t7290  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7290 *)args[0]), method);
+	typedef KeyValuePair_2_t7825  (*Func)(void* obj, KeyValuePair_2_t7825  p1, const MethodInfo* method);
+	KeyValuePair_2_t7825  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7825 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7292_KeyValuePair_2_t7111 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7827_KeyValuePair_2_t7646 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7292  (*Func)(void* obj, KeyValuePair_2_t7111  p1, const MethodInfo* method);
-	KeyValuePair_2_t7292  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7111 *)args[0]), method);
+	typedef KeyValuePair_2_t7827  (*Func)(void* obj, KeyValuePair_2_t7646  p1, const MethodInfo* method);
+	KeyValuePair_2_t7827  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7646 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7290_KeyValuePair_2_t7042 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7825_KeyValuePair_2_t7577 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7290  (*Func)(void* obj, KeyValuePair_2_t7042  p1, const MethodInfo* method);
-	KeyValuePair_2_t7290  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7042 *)args[0]), method);
+	typedef KeyValuePair_2_t7825  (*Func)(void* obj, KeyValuePair_2_t7577  p1, const MethodInfo* method);
+	KeyValuePair_2_t7825  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7577 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7292_KeyValuePair_2_t7091 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7827_KeyValuePair_2_t7626 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7292  (*Func)(void* obj, KeyValuePair_2_t7091  p1, const MethodInfo* method);
-	KeyValuePair_2_t7292  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7091 *)args[0]), method);
+	typedef KeyValuePair_2_t7827  (*Func)(void* obj, KeyValuePair_2_t7626  p1, const MethodInfo* method);
+	KeyValuePair_2_t7827  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7626 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7290_KeyValuePair_2_t7036 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7825_KeyValuePair_2_t7571 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7290  (*Func)(void* obj, KeyValuePair_2_t7036  p1, const MethodInfo* method);
-	KeyValuePair_2_t7290  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7036 *)args[0]), method);
+	typedef KeyValuePair_2_t7825  (*Func)(void* obj, KeyValuePair_2_t7571  p1, const MethodInfo* method);
+	KeyValuePair_2_t7825  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7571 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7111_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7646_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7111  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
-	KeyValuePair_2_t7111  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
+	typedef KeyValuePair_2_t7646  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
+	KeyValuePair_2_t7646  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7042_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7577_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7042  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
-	KeyValuePair_2_t7042  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
+	typedef KeyValuePair_2_t7577  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
+	KeyValuePair_2_t7577  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7111_KeyValuePair_2_t7219 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7646_KeyValuePair_2_t7754 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7111  (*Func)(void* obj, KeyValuePair_2_t7219  p1, const MethodInfo* method);
-	KeyValuePair_2_t7111  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7219 *)args[0]), method);
+	typedef KeyValuePair_2_t7646  (*Func)(void* obj, KeyValuePair_2_t7754  p1, const MethodInfo* method);
+	KeyValuePair_2_t7646  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7754 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7042_KeyValuePair_2_t6218 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7577_KeyValuePair_2_t6751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7042  (*Func)(void* obj, KeyValuePair_2_t6218  p1, const MethodInfo* method);
-	KeyValuePair_2_t7042  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6218 *)args[0]), method);
+	typedef KeyValuePair_2_t7577  (*Func)(void* obj, KeyValuePair_2_t6751  p1, const MethodInfo* method);
+	KeyValuePair_2_t7577  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6751 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7111_KeyValuePair_2_t7230 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7646_KeyValuePair_2_t7765 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7111  (*Func)(void* obj, KeyValuePair_2_t7230  p1, const MethodInfo* method);
-	KeyValuePair_2_t7111  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7230 *)args[0]), method);
+	typedef KeyValuePair_2_t7646  (*Func)(void* obj, KeyValuePair_2_t7765  p1, const MethodInfo* method);
+	KeyValuePair_2_t7646  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7765 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7042_KeyValuePair_2_t7228 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7577_KeyValuePair_2_t7763 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7042  (*Func)(void* obj, KeyValuePair_2_t7228  p1, const MethodInfo* method);
-	KeyValuePair_2_t7042  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7228 *)args[0]), method);
+	typedef KeyValuePair_2_t7577  (*Func)(void* obj, KeyValuePair_2_t7763  p1, const MethodInfo* method);
+	KeyValuePair_2_t7577  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7763 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7111_KeyValuePair_2_t7241 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7646_KeyValuePair_2_t7776 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7111  (*Func)(void* obj, KeyValuePair_2_t7241  p1, const MethodInfo* method);
-	KeyValuePair_2_t7111  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7241 *)args[0]), method);
+	typedef KeyValuePair_2_t7646  (*Func)(void* obj, KeyValuePair_2_t7776  p1, const MethodInfo* method);
+	KeyValuePair_2_t7646  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7776 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7042_KeyValuePair_2_t7239 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7577_KeyValuePair_2_t7774 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7042  (*Func)(void* obj, KeyValuePair_2_t7239  p1, const MethodInfo* method);
-	KeyValuePair_2_t7042  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7239 *)args[0]), method);
+	typedef KeyValuePair_2_t7577  (*Func)(void* obj, KeyValuePair_2_t7774  p1, const MethodInfo* method);
+	KeyValuePair_2_t7577  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7774 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7111_KeyValuePair_2_t7252 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7646_KeyValuePair_2_t7787 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7111  (*Func)(void* obj, KeyValuePair_2_t7252  p1, const MethodInfo* method);
-	KeyValuePair_2_t7111  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7252 *)args[0]), method);
+	typedef KeyValuePair_2_t7646  (*Func)(void* obj, KeyValuePair_2_t7787  p1, const MethodInfo* method);
+	KeyValuePair_2_t7646  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7787 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7042_KeyValuePair_2_t7250 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7577_KeyValuePair_2_t7785 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7042  (*Func)(void* obj, KeyValuePair_2_t7250  p1, const MethodInfo* method);
-	KeyValuePair_2_t7042  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7250 *)args[0]), method);
+	typedef KeyValuePair_2_t7577  (*Func)(void* obj, KeyValuePair_2_t7785  p1, const MethodInfo* method);
+	KeyValuePair_2_t7577  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7785 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7111_KeyValuePair_2_t5560 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7646_KeyValuePair_2_t6093 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7111  (*Func)(void* obj, KeyValuePair_2_t5560  p1, const MethodInfo* method);
-	KeyValuePair_2_t7111  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5560 *)args[0]), method);
+	typedef KeyValuePair_2_t7646  (*Func)(void* obj, KeyValuePair_2_t6093  p1, const MethodInfo* method);
+	KeyValuePair_2_t7646  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6093 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7042_KeyValuePair_2_t5549 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7577_KeyValuePair_2_t6082 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7042  (*Func)(void* obj, KeyValuePair_2_t5549  p1, const MethodInfo* method);
-	KeyValuePair_2_t7042  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5549 *)args[0]), method);
+	typedef KeyValuePair_2_t7577  (*Func)(void* obj, KeyValuePair_2_t6082  p1, const MethodInfo* method);
+	KeyValuePair_2_t7577  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6082 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7111_KeyValuePair_2_t7270 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7646_KeyValuePair_2_t7805 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7111  (*Func)(void* obj, KeyValuePair_2_t7270  p1, const MethodInfo* method);
-	KeyValuePair_2_t7111  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7270 *)args[0]), method);
+	typedef KeyValuePair_2_t7646  (*Func)(void* obj, KeyValuePair_2_t7805  p1, const MethodInfo* method);
+	KeyValuePair_2_t7646  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7805 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7042_KeyValuePair_2_t7268 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7577_KeyValuePair_2_t7803 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7042  (*Func)(void* obj, KeyValuePair_2_t7268  p1, const MethodInfo* method);
-	KeyValuePair_2_t7042  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7268 *)args[0]), method);
+	typedef KeyValuePair_2_t7577  (*Func)(void* obj, KeyValuePair_2_t7803  p1, const MethodInfo* method);
+	KeyValuePair_2_t7577  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7803 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7111_KeyValuePair_2_t7281 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7646_KeyValuePair_2_t7816 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7111  (*Func)(void* obj, KeyValuePair_2_t7281  p1, const MethodInfo* method);
-	KeyValuePair_2_t7111  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7281 *)args[0]), method);
+	typedef KeyValuePair_2_t7646  (*Func)(void* obj, KeyValuePair_2_t7816  p1, const MethodInfo* method);
+	KeyValuePair_2_t7646  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7816 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7042_KeyValuePair_2_t7279 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7577_KeyValuePair_2_t7814 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7042  (*Func)(void* obj, KeyValuePair_2_t7279  p1, const MethodInfo* method);
-	KeyValuePair_2_t7042  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7279 *)args[0]), method);
+	typedef KeyValuePair_2_t7577  (*Func)(void* obj, KeyValuePair_2_t7814  p1, const MethodInfo* method);
+	KeyValuePair_2_t7577  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7814 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7111_KeyValuePair_2_t7292 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7646_KeyValuePair_2_t7827 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7111  (*Func)(void* obj, KeyValuePair_2_t7292  p1, const MethodInfo* method);
-	KeyValuePair_2_t7111  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7292 *)args[0]), method);
+	typedef KeyValuePair_2_t7646  (*Func)(void* obj, KeyValuePair_2_t7827  p1, const MethodInfo* method);
+	KeyValuePair_2_t7646  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7827 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7042_KeyValuePair_2_t7290 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7577_KeyValuePair_2_t7825 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7042  (*Func)(void* obj, KeyValuePair_2_t7290  p1, const MethodInfo* method);
-	KeyValuePair_2_t7042  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7290 *)args[0]), method);
+	typedef KeyValuePair_2_t7577  (*Func)(void* obj, KeyValuePair_2_t7825  p1, const MethodInfo* method);
+	KeyValuePair_2_t7577  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7825 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7111_KeyValuePair_2_t7111 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7646_KeyValuePair_2_t7646 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7111  (*Func)(void* obj, KeyValuePair_2_t7111  p1, const MethodInfo* method);
-	KeyValuePair_2_t7111  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7111 *)args[0]), method);
+	typedef KeyValuePair_2_t7646  (*Func)(void* obj, KeyValuePair_2_t7646  p1, const MethodInfo* method);
+	KeyValuePair_2_t7646  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7646 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7042_KeyValuePair_2_t7042 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7577_KeyValuePair_2_t7577 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7042  (*Func)(void* obj, KeyValuePair_2_t7042  p1, const MethodInfo* method);
-	KeyValuePair_2_t7042  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7042 *)args[0]), method);
+	typedef KeyValuePair_2_t7577  (*Func)(void* obj, KeyValuePair_2_t7577  p1, const MethodInfo* method);
+	KeyValuePair_2_t7577  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7577 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7111_KeyValuePair_2_t7091 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7646_KeyValuePair_2_t7626 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7111  (*Func)(void* obj, KeyValuePair_2_t7091  p1, const MethodInfo* method);
-	KeyValuePair_2_t7111  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7091 *)args[0]), method);
+	typedef KeyValuePair_2_t7646  (*Func)(void* obj, KeyValuePair_2_t7626  p1, const MethodInfo* method);
+	KeyValuePair_2_t7646  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7626 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7042_KeyValuePair_2_t7036 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7577_KeyValuePair_2_t7571 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7042  (*Func)(void* obj, KeyValuePair_2_t7036  p1, const MethodInfo* method);
-	KeyValuePair_2_t7042  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7036 *)args[0]), method);
+	typedef KeyValuePair_2_t7577  (*Func)(void* obj, KeyValuePair_2_t7571  p1, const MethodInfo* method);
+	KeyValuePair_2_t7577  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7571 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7091_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7626_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7091  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
-	KeyValuePair_2_t7091  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
+	typedef KeyValuePair_2_t7626  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
+	KeyValuePair_2_t7626  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7036_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7571_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7036  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
-	KeyValuePair_2_t7036  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
+	typedef KeyValuePair_2_t7571  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
+	KeyValuePair_2_t7571  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7091_KeyValuePair_2_t7219 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7626_KeyValuePair_2_t7754 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7091  (*Func)(void* obj, KeyValuePair_2_t7219  p1, const MethodInfo* method);
-	KeyValuePair_2_t7091  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7219 *)args[0]), method);
+	typedef KeyValuePair_2_t7626  (*Func)(void* obj, KeyValuePair_2_t7754  p1, const MethodInfo* method);
+	KeyValuePair_2_t7626  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7754 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7036_KeyValuePair_2_t6218 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7571_KeyValuePair_2_t6751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7036  (*Func)(void* obj, KeyValuePair_2_t6218  p1, const MethodInfo* method);
-	KeyValuePair_2_t7036  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6218 *)args[0]), method);
+	typedef KeyValuePair_2_t7571  (*Func)(void* obj, KeyValuePair_2_t6751  p1, const MethodInfo* method);
+	KeyValuePair_2_t7571  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6751 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7091_KeyValuePair_2_t7230 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7626_KeyValuePair_2_t7765 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7091  (*Func)(void* obj, KeyValuePair_2_t7230  p1, const MethodInfo* method);
-	KeyValuePair_2_t7091  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7230 *)args[0]), method);
+	typedef KeyValuePair_2_t7626  (*Func)(void* obj, KeyValuePair_2_t7765  p1, const MethodInfo* method);
+	KeyValuePair_2_t7626  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7765 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7036_KeyValuePair_2_t7228 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7571_KeyValuePair_2_t7763 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7036  (*Func)(void* obj, KeyValuePair_2_t7228  p1, const MethodInfo* method);
-	KeyValuePair_2_t7036  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7228 *)args[0]), method);
+	typedef KeyValuePair_2_t7571  (*Func)(void* obj, KeyValuePair_2_t7763  p1, const MethodInfo* method);
+	KeyValuePair_2_t7571  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7763 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7091_KeyValuePair_2_t7241 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7626_KeyValuePair_2_t7776 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7091  (*Func)(void* obj, KeyValuePair_2_t7241  p1, const MethodInfo* method);
-	KeyValuePair_2_t7091  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7241 *)args[0]), method);
+	typedef KeyValuePair_2_t7626  (*Func)(void* obj, KeyValuePair_2_t7776  p1, const MethodInfo* method);
+	KeyValuePair_2_t7626  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7776 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7036_KeyValuePair_2_t7239 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7571_KeyValuePair_2_t7774 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7036  (*Func)(void* obj, KeyValuePair_2_t7239  p1, const MethodInfo* method);
-	KeyValuePair_2_t7036  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7239 *)args[0]), method);
+	typedef KeyValuePair_2_t7571  (*Func)(void* obj, KeyValuePair_2_t7774  p1, const MethodInfo* method);
+	KeyValuePair_2_t7571  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7774 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7091_KeyValuePair_2_t7252 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7626_KeyValuePair_2_t7787 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7091  (*Func)(void* obj, KeyValuePair_2_t7252  p1, const MethodInfo* method);
-	KeyValuePair_2_t7091  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7252 *)args[0]), method);
+	typedef KeyValuePair_2_t7626  (*Func)(void* obj, KeyValuePair_2_t7787  p1, const MethodInfo* method);
+	KeyValuePair_2_t7626  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7787 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7036_KeyValuePair_2_t7250 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7571_KeyValuePair_2_t7785 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7036  (*Func)(void* obj, KeyValuePair_2_t7250  p1, const MethodInfo* method);
-	KeyValuePair_2_t7036  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7250 *)args[0]), method);
+	typedef KeyValuePair_2_t7571  (*Func)(void* obj, KeyValuePair_2_t7785  p1, const MethodInfo* method);
+	KeyValuePair_2_t7571  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7785 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7091_KeyValuePair_2_t5560 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7626_KeyValuePair_2_t6093 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7091  (*Func)(void* obj, KeyValuePair_2_t5560  p1, const MethodInfo* method);
-	KeyValuePair_2_t7091  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5560 *)args[0]), method);
+	typedef KeyValuePair_2_t7626  (*Func)(void* obj, KeyValuePair_2_t6093  p1, const MethodInfo* method);
+	KeyValuePair_2_t7626  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6093 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7036_KeyValuePair_2_t5549 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7571_KeyValuePair_2_t6082 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7036  (*Func)(void* obj, KeyValuePair_2_t5549  p1, const MethodInfo* method);
-	KeyValuePair_2_t7036  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5549 *)args[0]), method);
+	typedef KeyValuePair_2_t7571  (*Func)(void* obj, KeyValuePair_2_t6082  p1, const MethodInfo* method);
+	KeyValuePair_2_t7571  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6082 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7091_KeyValuePair_2_t7270 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7626_KeyValuePair_2_t7805 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7091  (*Func)(void* obj, KeyValuePair_2_t7270  p1, const MethodInfo* method);
-	KeyValuePair_2_t7091  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7270 *)args[0]), method);
+	typedef KeyValuePair_2_t7626  (*Func)(void* obj, KeyValuePair_2_t7805  p1, const MethodInfo* method);
+	KeyValuePair_2_t7626  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7805 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7036_KeyValuePair_2_t7268 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7571_KeyValuePair_2_t7803 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7036  (*Func)(void* obj, KeyValuePair_2_t7268  p1, const MethodInfo* method);
-	KeyValuePair_2_t7036  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7268 *)args[0]), method);
+	typedef KeyValuePair_2_t7571  (*Func)(void* obj, KeyValuePair_2_t7803  p1, const MethodInfo* method);
+	KeyValuePair_2_t7571  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7803 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7091_KeyValuePair_2_t7281 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7626_KeyValuePair_2_t7816 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7091  (*Func)(void* obj, KeyValuePair_2_t7281  p1, const MethodInfo* method);
-	KeyValuePair_2_t7091  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7281 *)args[0]), method);
+	typedef KeyValuePair_2_t7626  (*Func)(void* obj, KeyValuePair_2_t7816  p1, const MethodInfo* method);
+	KeyValuePair_2_t7626  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7816 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7036_KeyValuePair_2_t7279 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7571_KeyValuePair_2_t7814 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7036  (*Func)(void* obj, KeyValuePair_2_t7279  p1, const MethodInfo* method);
-	KeyValuePair_2_t7036  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7279 *)args[0]), method);
+	typedef KeyValuePair_2_t7571  (*Func)(void* obj, KeyValuePair_2_t7814  p1, const MethodInfo* method);
+	KeyValuePair_2_t7571  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7814 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7091_KeyValuePair_2_t7292 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7626_KeyValuePair_2_t7827 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7091  (*Func)(void* obj, KeyValuePair_2_t7292  p1, const MethodInfo* method);
-	KeyValuePair_2_t7091  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7292 *)args[0]), method);
+	typedef KeyValuePair_2_t7626  (*Func)(void* obj, KeyValuePair_2_t7827  p1, const MethodInfo* method);
+	KeyValuePair_2_t7626  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7827 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7036_KeyValuePair_2_t7290 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7571_KeyValuePair_2_t7825 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7036  (*Func)(void* obj, KeyValuePair_2_t7290  p1, const MethodInfo* method);
-	KeyValuePair_2_t7036  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7290 *)args[0]), method);
+	typedef KeyValuePair_2_t7571  (*Func)(void* obj, KeyValuePair_2_t7825  p1, const MethodInfo* method);
+	KeyValuePair_2_t7571  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7825 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7091_KeyValuePair_2_t7111 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7626_KeyValuePair_2_t7646 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7091  (*Func)(void* obj, KeyValuePair_2_t7111  p1, const MethodInfo* method);
-	KeyValuePair_2_t7091  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7111 *)args[0]), method);
+	typedef KeyValuePair_2_t7626  (*Func)(void* obj, KeyValuePair_2_t7646  p1, const MethodInfo* method);
+	KeyValuePair_2_t7626  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7646 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7036_KeyValuePair_2_t7042 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7571_KeyValuePair_2_t7577 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7036  (*Func)(void* obj, KeyValuePair_2_t7042  p1, const MethodInfo* method);
-	KeyValuePair_2_t7036  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7042 *)args[0]), method);
+	typedef KeyValuePair_2_t7571  (*Func)(void* obj, KeyValuePair_2_t7577  p1, const MethodInfo* method);
+	KeyValuePair_2_t7571  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7577 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7091_KeyValuePair_2_t7091 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7626_KeyValuePair_2_t7626 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7091  (*Func)(void* obj, KeyValuePair_2_t7091  p1, const MethodInfo* method);
-	KeyValuePair_2_t7091  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7091 *)args[0]), method);
+	typedef KeyValuePair_2_t7626  (*Func)(void* obj, KeyValuePair_2_t7626  p1, const MethodInfo* method);
+	KeyValuePair_2_t7626  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7626 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7036_KeyValuePair_2_t7036 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7571_KeyValuePair_2_t7571 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7036  (*Func)(void* obj, KeyValuePair_2_t7036  p1, const MethodInfo* method);
-	KeyValuePair_2_t7036  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7036 *)args[0]), method);
+	typedef KeyValuePair_2_t7571  (*Func)(void* obj, KeyValuePair_2_t7571  p1, const MethodInfo* method);
+	KeyValuePair_2_t7571  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7571 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7137 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7672 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7137  p1, const MethodInfo* method);
-	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7137 *)args[0]), method);
+	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7672  p1, const MethodInfo* method);
+	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7672 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t7053 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t7588 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t7053  p1, const MethodInfo* method);
-	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7053 *)args[0]), method);
+	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t7588  p1, const MethodInfo* method);
+	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7588 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7137_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7672_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7137  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
-	KeyValuePair_2_t7137  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
+	typedef KeyValuePair_2_t7672  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
+	KeyValuePair_2_t7672  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7053_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7588_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7053  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
-	KeyValuePair_2_t7053  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
+	typedef KeyValuePair_2_t7588  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
+	KeyValuePair_2_t7588  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7164 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t791_KeyValuePair_2_t7699 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7164  p1, const MethodInfo* method);
-	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7164 *)args[0]), method);
+	typedef KeyValuePair_2_t791  (*Func)(void* obj, KeyValuePair_2_t7699  p1, const MethodInfo* method);
+	KeyValuePair_2_t791  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7699 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t7062 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t70_KeyValuePair_2_t7597 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t7062  p1, const MethodInfo* method);
-	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7062 *)args[0]), method);
+	typedef KeyValuePair_2_t70  (*Func)(void* obj, KeyValuePair_2_t7597  p1, const MethodInfo* method);
+	KeyValuePair_2_t70  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7597 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7164_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7699_KeyValuePair_2_t791 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7164  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
-	KeyValuePair_2_t7164  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
+	typedef KeyValuePair_2_t7699  (*Func)(void* obj, KeyValuePair_2_t791  p1, const MethodInfo* method);
+	KeyValuePair_2_t7699  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t791 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7062_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7597_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7062  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
-	KeyValuePair_2_t7062  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
+	typedef KeyValuePair_2_t7597  (*Func)(void* obj, KeyValuePair_2_t70  p1, const MethodInfo* method);
+	KeyValuePair_2_t7597  ret = ((Func)method->method)(obj, *((KeyValuePair_2_t70 *)args[0]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -9368,7 +10156,7 @@ void* RuntimeInvoker_Object_t_Vector3U26_t845 (const MethodInfo* method, void* o
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_RegexOptionsU26_t4350 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_RegexOptionsU26_t4720 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef Object_t * (*Func)(void* obj, int32_t* p1, const MethodInfo* method);
 	Object_t * ret = ((Func)method->method)(obj, (int32_t*)args[0], method);
@@ -9379,7 +10167,7 @@ struct Object_t;
 struct Object_t;
 // System.IO.MonoIOError
 #include "mscorlib_System_IO_MonoIOError.h"
-void* RuntimeInvoker_Object_t_MonoIOErrorU26_t5350 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_MonoIOErrorU26_t5776 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef Object_t * (*Func)(void* obj, int32_t* p1, const MethodInfo* method);
 	Object_t * ret = ((Func)method->method)(obj, (int32_t*)args[0], method);
@@ -9499,10 +10287,37 @@ void* RuntimeInvoker_Vector4_t1059_Object_t (const MethodInfo* method, void* obj
 }
 
 struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Decimal_t759_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Decimal_t759  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	Decimal_t759  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_TimeSpan_t334_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef TimeSpan_t334  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	TimeSpan_t334  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_XmlSchemaContentType_t3647_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
 // System.Net.Security.SslPolicyErrors
 #include "System_System_Net_Security_SslPolicyErrors.h"
 struct Object_t;
-void* RuntimeInvoker_SslPolicyErrors_t4000_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_SslPolicyErrors_t4393_Object_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
@@ -9513,7 +10328,7 @@ struct Object_t;
 // Mono.Security.X509.OSX509Certificates/SecTrustResult
 #include "System_Mono_Security_X509_OSX509Certificates_SecTrustResult.h"
 struct Object_t;
-void* RuntimeInvoker_SecTrustResult_t4095_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_SecTrustResult_t4432_Object_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
@@ -9524,7 +10339,7 @@ struct Object_t;
 // System.Security.Cryptography.AsnDecodeStatus
 #include "System_System_Security_Cryptography_AsnDecodeStatus.h"
 struct Object_t;
-void* RuntimeInvoker_AsnDecodeStatus_t4130_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_AsnDecodeStatus_t4426_Object_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
@@ -9533,7 +10348,7 @@ void* RuntimeInvoker_AsnDecodeStatus_t4130_Object_t (const MethodInfo* method, v
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_X509ChainStatusFlags_t4118_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_X509ChainStatusFlags_t4451_Object_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
@@ -9542,7 +10357,7 @@ void* RuntimeInvoker_X509ChainStatusFlags_t4118_Object_t (const MethodInfo* meth
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Category_t4149_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Category_t4481_Object_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef uint16_t (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
 	uint16_t ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
@@ -9551,19 +10366,10 @@ void* RuntimeInvoker_Category_t4149_Object_t (const MethodInfo* method, void* ob
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_UriHostNameType_t4195_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_UriHostNameType_t4539_Object_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-struct Object_t;
-void* RuntimeInvoker_Decimal_t759_Object_t (const MethodInfo* method, void* obj, void** args)
-{
-	typedef Decimal_t759  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	Decimal_t759  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -9578,7 +10384,7 @@ void* RuntimeInvoker_Object_t_Decimal_t759 (const MethodInfo* method, void* obj,
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_TypeCode_t4859_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_TypeCode_t4923_Object_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
@@ -9587,29 +10393,20 @@ void* RuntimeInvoker_TypeCode_t4859_Object_t (const MethodInfo* method, void* ob
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_RuntimeTypeHandle_t4359 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_RuntimeTypeHandle_t4729 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, RuntimeTypeHandle_t4359  p1, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((RuntimeTypeHandle_t4359 *)args[0]), method);
+	typedef Object_t * (*Func)(void* obj, RuntimeTypeHandle_t4729  p1, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((RuntimeTypeHandle_t4729 *)args[0]), method);
 	return ret;
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_RuntimeTypeHandle_t4359_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_RuntimeTypeHandle_t4729_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef RuntimeTypeHandle_t4359  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	RuntimeTypeHandle_t4359  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef RuntimeTypeHandle_t4729  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	RuntimeTypeHandle_t4729  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-struct Object_t;
-void* RuntimeInvoker_Object_t_RuntimeFieldHandle_t4360 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef Object_t * (*Func)(void* obj, RuntimeFieldHandle_t4360  p1, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((RuntimeFieldHandle_t4360 *)args[0]), method);
-	return ret;
 }
 
 struct Object_t;
@@ -9623,10 +10420,39 @@ void* RuntimeInvoker_Object_t_StreamingContext_t2937 (const MethodInfo* method, 
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_RuntimeMethodHandle_t4853 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_TypeAttributes_t5041_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, RuntimeMethodHandle_t4853  p1, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((RuntimeMethodHandle_t4853 *)args[0]), method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.IO.FileAttributes
+#include "mscorlib_System_IO_FileAttributes.h"
+struct Object_t;
+void* RuntimeInvoker_FileAttributes_t4983_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Object_t_RuntimeFieldHandle_t4730 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, RuntimeFieldHandle_t4730  p1, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((RuntimeFieldHandle_t4730 *)args[0]), method);
+	return ret;
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Object_t_RuntimeMethodHandle_t4907 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, RuntimeMethodHandle_t4907  p1, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((RuntimeMethodHandle_t4907 *)args[0]), method);
 	return ret;
 }
 
@@ -9634,28 +10460,39 @@ struct Object_t;
 // System.Reflection.MonoEventInfo
 #include "mscorlib_System_Reflection_MonoEventInfo.h"
 struct Object_t;
-void* RuntimeInvoker_MonoEventInfo_t4560_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_MonoEventInfo_t5026_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef MonoEventInfo_t4560  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	MonoEventInfo_t4560  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef MonoEventInfo_t5026  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	MonoEventInfo_t5026  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_GCHandle_t3996_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_GCHandle_t4297_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef GCHandle_t3996  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	GCHandle_t3996  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef GCHandle_t4297  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	GCHandle_t4297  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Runtime.Serialization.Formatters.Binary.TypeTag
+#include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Type.h"
+struct Object_t;
+void* RuntimeInvoker_TypeTag_t5211_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef uint8_t (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	uint8_t ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_TypeAttributes_t4575_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_SNIP_t5314_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef SNIP_t5314  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	SNIP_t5314  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -9733,10 +10570,19 @@ void* RuntimeInvoker_UILineInfo_t1093_Object_t (const MethodInfo* method, void* 
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_TimeType_t3373_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_TimeType_t3751_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef TimeType_t3373  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	TimeType_t3373  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef TimeType_t3751  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	TimeType_t3751  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Label_t4474_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Label_t4474  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	Label_t4474  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -9771,28 +10617,28 @@ void* RuntimeInvoker_KeyValuePair_2_t70_Object_t (const MethodInfo* method, void
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5412_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t5945_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5412  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t5412  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t5945  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t5945  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5549_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6082_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5549  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t5549  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t6082  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t6082  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t6039_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6572_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6039  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t6039  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t6572  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t6572  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -9807,163 +10653,172 @@ void* RuntimeInvoker_Object_t_KeyValuePair_2_t70 (const MethodInfo* method, void
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t6223_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6756_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6223  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t6223  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t6756  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t6756  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t6218_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6751_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6218  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t6218  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t6751  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t6751  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7036_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7571_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7036  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t7036  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t7571  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t7571  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7042_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7577_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7042  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t7042  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t7577  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t7577  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7053_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7588_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7053  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t7053  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t7588  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t7588  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7062_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7597_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7062  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t7062  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t7597  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t7597  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7228_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7763_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7228  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t7228  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t7763  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t7763  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7239_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7774_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7239  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t7239  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t7774  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t7774  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7250_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7785_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7250  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t7250  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t7785  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t7785  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7268_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7803_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7268  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t7268  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t7803  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t7803  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7279_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7814_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7279  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t7279  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t7814  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t7814  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7290_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7825_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7290  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t7290  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t7825  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t7825  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t8373_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t8908_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t8373  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t8373  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t8908  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t8908  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t8514_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t9049_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t8514  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t8514  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t9049  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t9049  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t8530_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t9065_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t8530  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t8530  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t9065  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t9065  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t8633_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t9182_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t8633  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t8633  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t9182  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t9182  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t3396_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t3795_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t3396  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t3396  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t3795  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t3795  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t8680_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t9248_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t8680  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
-	KeyValuePair_2_t8680  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	typedef KeyValuePair_2_t9248  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t9248  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_KeyValuePair_2_t9260_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef KeyValuePair_2_t9260  (*Func)(void* obj, Object_t * p1, const MethodInfo* method);
+	KeyValuePair_2_t9260  ret = ((Func)method->method)(obj, (Object_t *)args[0], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -10029,19 +10884,19 @@ void* RuntimeInvoker_Void_t85_Byte_t755_Byte_t755 (const MethodInfo* method, voi
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_UInt16_t757_SByte_t88 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef void (*Func)(void* obj, uint16_t p1, int8_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((uint16_t*)args[0]), *((int8_t*)args[1]), method);
-	return NULL;
-}
-
-struct Object_t;
 void* RuntimeInvoker_Boolean_t59_Int16_t756_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, int16_t p1, int8_t p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, *((int16_t*)args[0]), *((int8_t*)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_UInt16_t757_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, uint16_t p1, int8_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((uint16_t*)args[0]), *((int8_t*)args[1]), method);
+	return NULL;
 }
 
 struct Object_t;
@@ -10245,13 +11100,13 @@ void* RuntimeInvoker_Void_t85_Single_t87_Int32_t82 (const MethodInfo* method, vo
 }
 
 struct Object_t;
-struct EventWaitHandle_t3368;
+struct EventWaitHandle_t3783;
 // System.Threading.EventWaitHandle
 #include "mscorlib_System_Threading_EventWaitHandle.h"
-void* RuntimeInvoker_Void_t85_EventWaitHandleU26_t3770_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_EventWaitHandleU26_t4183_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, EventWaitHandle_t3368 ** p1, int8_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (EventWaitHandle_t3368 **)args[0], *((int8_t*)args[1]), method);
+	typedef void (*Func)(void* obj, EventWaitHandle_t3783 ** p1, int8_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (EventWaitHandle_t3783 **)args[0], *((int8_t*)args[1]), method);
 	return NULL;
 }
 
@@ -10264,7 +11119,7 @@ void* RuntimeInvoker_UInt16_t757_UInt16_t757_UInt16_t757 (const MethodInfo* meth
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_RegexOptionsU26_t4350_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_RegexOptionsU26_t4720_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, int32_t* p1, int8_t p2, const MethodInfo* method);
 	((Func)method->method)(obj, (int32_t*)args[0], *((int8_t*)args[1]), method);
@@ -10288,7 +11143,7 @@ void* RuntimeInvoker_Void_t85_Int64_t89_Int64_t89 (const MethodInfo* method, voi
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_ByteU26_t3961_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_ByteU26_t3288_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, uint8_t* p1, int8_t p2, const MethodInfo* method);
 	((Func)method->method)(obj, (uint8_t*)args[0], *((int8_t*)args[1]), method);
@@ -10320,7 +11175,15 @@ void* RuntimeInvoker_Void_t85_SByte_t88_TimeSpan_t334 (const MethodInfo* method,
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_ByteU26_t3961_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_OpCode_t4583_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, OpCode_t4583  p1, int8_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((OpCode_t4583 *)args[0]), *((int8_t*)args[1]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_ByteU26_t3288_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, uint8_t* p1, int8_t p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (uint8_t*)args[0], *((int8_t*)args[1]), method);
@@ -10360,7 +11223,7 @@ void* RuntimeInvoker_Int32_t82_Int32_t82_Int32_t82 (const MethodInfo* method, vo
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_UInt16U26_t5026_Int16_t756 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_UInt16U26_t5554_Int16_t756 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, uint16_t* p1, int16_t p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (uint16_t*)args[0], *((int16_t*)args[1]), method);
@@ -10402,10 +11265,19 @@ void* RuntimeInvoker_Void_t85_Int32_t82_RectU26_t3006 (const MethodInfo* method,
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_DecimalU26_t5048_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_DecimalU26_t5576_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, Decimal_t759 * p1, int32_t p2, const MethodInfo* method);
 	((Func)method->method)(obj, (Decimal_t759 *)args[0], *((int32_t*)args[1]), method);
+	return NULL;
+}
+
+struct Object_t;
+struct StringBuilder_t261;
+void* RuntimeInvoker_Void_t85_StringBuilderU26_t3741_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, StringBuilder_t261 ** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (StringBuilder_t261 **)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
@@ -10415,15 +11287,6 @@ void* RuntimeInvoker_UInt32_t754_Int32_t82_Int32_t82 (const MethodInfo* method, 
 	typedef uint32_t (*Func)(void* obj, int32_t p1, int32_t p2, const MethodInfo* method);
 	uint32_t ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((int32_t*)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-struct StringBuilder_t261;
-void* RuntimeInvoker_Void_t85_StringBuilderU26_t3333_Int32_t82 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef void (*Func)(void* obj, StringBuilder_t261 ** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (StringBuilder_t261 **)args[0], *((int32_t*)args[1]), method);
-	return NULL;
 }
 
 struct Object_t;
@@ -10437,7 +11300,7 @@ void* RuntimeInvoker_Void_t85_Int32_t82_ObjectU26_t2379 (const MethodInfo* metho
 
 struct Object_t;
 struct ObjectU5BU5D_t696;
-void* RuntimeInvoker_Void_t85_ObjectU5BU5DU26_t5004_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_ObjectU5BU5DU26_t5533_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, ObjectU5BU5D_t696** p1, int32_t p2, const MethodInfo* method);
 	((Func)method->method)(obj, (ObjectU5BU5D_t696**)args[0], *((int32_t*)args[1]), method);
@@ -10454,7 +11317,7 @@ void* RuntimeInvoker_Void_t85_Int32U26_t840_Int32_t82 (const MethodInfo* method,
 
 struct Object_t;
 struct Int32U5BU5D_t484;
-void* RuntimeInvoker_Void_t85_Int32U5BU5DU26_t9878_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32U5BU5DU26_t10508_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, Int32U5BU5D_t484** p1, int32_t p2, const MethodInfo* method);
 	((Func)method->method)(obj, (Int32U5BU5D_t484**)args[0], *((int32_t*)args[1]), method);
@@ -10463,7 +11326,7 @@ void* RuntimeInvoker_Void_t85_Int32U5BU5DU26_t9878_Int32_t82 (const MethodInfo* 
 
 struct Object_t;
 struct SingleU5BU5D_t587;
-void* RuntimeInvoker_Void_t85_SingleU5BU5DU26_t9880_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_SingleU5BU5DU26_t10510_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, SingleU5BU5D_t587** p1, int32_t p2, const MethodInfo* method);
 	((Func)method->method)(obj, (SingleU5BU5D_t587**)args[0], *((int32_t*)args[1]), method);
@@ -10471,18 +11334,18 @@ void* RuntimeInvoker_Void_t85_SingleU5BU5DU26_t9880_Int32_t82 (const MethodInfo*
 }
 
 struct Object_t;
-struct RaycastResultU5BU5D_t5815;
+struct RaycastResultU5BU5D_t6348;
 #include "UnityEngine.UI_ArrayTypes.h"
-void* RuntimeInvoker_Void_t85_RaycastResultU5BU5DU26_t9882_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_RaycastResultU5BU5DU26_t10512_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, RaycastResultU5BU5D_t5815** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (RaycastResultU5BU5D_t5815**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, RaycastResultU5BU5D_t6348** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (RaycastResultU5BU5D_t6348**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
 struct UIVertexU5BU5D_t964;
-void* RuntimeInvoker_Void_t85_UIVertexU5BU5DU26_t9883_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_UIVertexU5BU5DU26_t10513_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, UIVertexU5BU5D_t964** p1, int32_t p2, const MethodInfo* method);
 	((Func)method->method)(obj, (UIVertexU5BU5D_t964**)args[0], *((int32_t*)args[1]), method);
@@ -10490,17 +11353,17 @@ void* RuntimeInvoker_Void_t85_UIVertexU5BU5DU26_t9883_Int32_t82 (const MethodInf
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t6073;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9884_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t6606;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10514_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t6073** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t6073**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t6606** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t6606**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
 struct ByteU5BU5D_t66;
-void* RuntimeInvoker_Void_t85_ByteU5BU5DU26_t3962_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_ByteU5BU5DU26_t3289_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, ByteU5BU5D_t66** p1, int32_t p2, const MethodInfo* method);
 	((Func)method->method)(obj, (ByteU5BU5D_t66**)args[0], *((int32_t*)args[1]), method);
@@ -10508,198 +11371,198 @@ void* RuntimeInvoker_Void_t85_ByteU5BU5DU26_t3962_Int32_t82 (const MethodInfo* m
 }
 
 struct Object_t;
-struct SByteU5BU5D_t4778;
-void* RuntimeInvoker_Void_t85_SByteU5BU5DU26_t9885_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct SByteU5BU5D_t5369;
+void* RuntimeInvoker_Void_t85_SByteU5BU5DU26_t10515_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, SByteU5BU5D_t4778** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (SByteU5BU5D_t4778**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, SByteU5BU5D_t5369** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (SByteU5BU5D_t5369**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct Int16U5BU5D_t4903;
-void* RuntimeInvoker_Void_t85_Int16U5BU5DU26_t9886_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct Int16U5BU5D_t5433;
+void* RuntimeInvoker_Void_t85_Int16U5BU5DU26_t10516_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Int16U5BU5D_t4903** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (Int16U5BU5D_t4903**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, Int16U5BU5D_t5433** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (Int16U5BU5D_t5433**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct UInt16U5BU5D_t4077;
-void* RuntimeInvoker_Void_t85_UInt16U5BU5DU26_t9887_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct UInt16U5BU5D_t4381;
+void* RuntimeInvoker_Void_t85_UInt16U5BU5DU26_t10517_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, UInt16U5BU5D_t4077** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (UInt16U5BU5D_t4077**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, UInt16U5BU5D_t4381** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (UInt16U5BU5D_t4381**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct UInt32U5BU5D_t3234;
-void* RuntimeInvoker_Void_t85_UInt32U5BU5DU26_t9888_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct UInt32U5BU5D_t3116;
+void* RuntimeInvoker_Void_t85_UInt32U5BU5DU26_t10518_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, UInt32U5BU5D_t3234** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (UInt32U5BU5D_t3234**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, UInt32U5BU5D_t3116** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (UInt32U5BU5D_t3116**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct Int64U5BU5D_t4889;
-void* RuntimeInvoker_Void_t85_Int64U5BU5DU26_t5399_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct Int64U5BU5D_t4562;
+void* RuntimeInvoker_Void_t85_Int64U5BU5DU26_t5770_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Int64U5BU5D_t4889** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (Int64U5BU5D_t4889**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, Int64U5BU5D_t4562** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (Int64U5BU5D_t4562**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct UInt64U5BU5D_t4727;
-void* RuntimeInvoker_Void_t85_UInt64U5BU5DU26_t9889_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct UInt64U5BU5D_t5278;
+void* RuntimeInvoker_Void_t85_UInt64U5BU5DU26_t10519_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, UInt64U5BU5D_t4727** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (UInt64U5BU5D_t4727**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, UInt64U5BU5D_t5278** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (UInt64U5BU5D_t5278**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct DoubleU5BU5D_t4890;
-void* RuntimeInvoker_Void_t85_DoubleU5BU5DU26_t9890_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct DoubleU5BU5D_t5416;
+void* RuntimeInvoker_Void_t85_DoubleU5BU5DU26_t10520_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, DoubleU5BU5D_t4890** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (DoubleU5BU5D_t4890**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, DoubleU5BU5D_t5416** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (DoubleU5BU5D_t5416**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct DateTimeU5BU5D_t4912;
-void* RuntimeInvoker_Void_t85_DateTimeU5BU5DU26_t9891_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct DateTimeU5BU5D_t5444;
+void* RuntimeInvoker_Void_t85_DateTimeU5BU5DU26_t10521_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, DateTimeU5BU5D_t4912** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (DateTimeU5BU5D_t4912**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, DateTimeU5BU5D_t5444** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (DateTimeU5BU5D_t5444**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct ParseGeoPointU5BU5D_t6895;
+struct ParseGeoPointU5BU5D_t7430;
 #include "Parse.Unity_ArrayTypes.h"
-void* RuntimeInvoker_Void_t85_ParseGeoPointU5BU5DU26_t9892_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_ParseGeoPointU5BU5DU26_t10522_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, ParseGeoPointU5BU5D_t6895** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (ParseGeoPointU5BU5D_t6895**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, ParseGeoPointU5BU5D_t7430** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (ParseGeoPointU5BU5D_t7430**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t7320;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9893_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t7855;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10523_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7320** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7320**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7855** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7855**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t7397;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9894_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t7932;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10524_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7397** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7397**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7932** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7932**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t7462;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9895_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t7997;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10525_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7462** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7462**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7997** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7997**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t7527;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9896_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t8062;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10526_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7527** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7527**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8062** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8062**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t7592;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9897_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t8127;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10527_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7592** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7592**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8127** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8127**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t7657;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9898_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t8192;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10528_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7657** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7657**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8192** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8192**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t7722;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9899_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t8257;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10529_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7722** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7722**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8257** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8257**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t7787;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9900_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t8322;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10530_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7787** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7787**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8322** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8322**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t7865;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9901_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t8400;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10531_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7865** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7865**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8400** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8400**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t7930;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9902_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t8465;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10532_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7930** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7930**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8465** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8465**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t8004;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9903_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t8539;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10533_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8004** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8004**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8539** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8539**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t8036;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9904_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t8571;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10534_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8036** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8036**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8571** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8571**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
 struct UICharInfoU5BU5D_t2926;
-void* RuntimeInvoker_Void_t85_UICharInfoU5BU5DU26_t9905_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_UICharInfoU5BU5DU26_t10535_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, UICharInfoU5BU5D_t2926** p1, int32_t p2, const MethodInfo* method);
 	((Func)method->method)(obj, (UICharInfoU5BU5D_t2926**)args[0], *((int32_t*)args[1]), method);
@@ -10708,7 +11571,7 @@ void* RuntimeInvoker_Void_t85_UICharInfoU5BU5DU26_t9905_Int32_t82 (const MethodI
 
 struct Object_t;
 struct UILineInfoU5BU5D_t2927;
-void* RuntimeInvoker_Void_t85_UILineInfoU5BU5DU26_t9906_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_UILineInfoU5BU5DU26_t10536_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, UILineInfoU5BU5D_t2927** p1, int32_t p2, const MethodInfo* method);
 	((Func)method->method)(obj, (UILineInfoU5BU5D_t2927**)args[0], *((int32_t*)args[1]), method);
@@ -10716,11 +11579,11 @@ void* RuntimeInvoker_Void_t85_UILineInfoU5BU5DU26_t9906_Int32_t82 (const MethodI
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t8647;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9907_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t9196;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10537_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8647** p1, int32_t p2, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8647**)args[0], *((int32_t*)args[1]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t9196** p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t9196**)args[0], *((int32_t*)args[1]), method);
 	return NULL;
 }
 
@@ -10817,10 +11680,18 @@ void* RuntimeInvoker_Boolean_t59_Int32U26_t840_Int32_t82 (const MethodInfo* meth
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_Link_t4447 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_OpCode_t4583_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, Link_t4447  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((Link_t4447 *)args[1]), method);
+	typedef void (*Func)(void* obj, OpCode_t4583  p1, int32_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((OpCode_t4583 *)args[0]), *((int32_t*)args[1]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Int32_t82_Link_t5385 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, int32_t p1, Link_t5385  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((Link_t5385 *)args[1]), method);
 	return NULL;
 }
 
@@ -10921,90 +11792,146 @@ void* RuntimeInvoker_Void_t85_Int32_t82_Keyframe_t2797 (const MethodInfo* method
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_ParameterModifier_t4568 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_ParameterModifier_t5033 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, ParameterModifier_t4568  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((ParameterModifier_t4568 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, ParameterModifier_t5033  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((ParameterModifier_t5033 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_NsDecl_t3253 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_NsDecl_t3518 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, NsDecl_t3253  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((NsDecl_t3253 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, NsDecl_t3518  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((NsDecl_t3518 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_NsScope_t3254 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_NsScope_t3519 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, NsScope_t3254  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((NsScope_t3254 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, NsScope_t3519  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((NsScope_t3519 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_TagName_t3282 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_TagName_t3543 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, TagName_t3282  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((TagName_t3282 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, TagName_t3543  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((TagName_t3543 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_TimeType_t3373 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_TimeType_t3751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, TimeType_t3373  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((TimeType_t3373 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, TimeType_t3751  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((TimeType_t3751 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_X509ChainStatus_t4113 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_X509ChainStatus_t4447 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, X509ChainStatus_t4113  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((X509ChainStatus_t4113 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, X509ChainStatus_t4447  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((X509ChainStatus_t4447 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_Mark_t4157 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_Label_t4474 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, Mark_t4157  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((Mark_t4157 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, Label_t4474  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((Label_t4474 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_UriScheme_t4193 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_Mark_t4489 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, UriScheme_t4193  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((UriScheme_t4193 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, Mark_t4489  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((Mark_t4489 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_TableRange_t4381 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_UriScheme_t4537 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, TableRange_t4381  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((TableRange_t4381 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, UriScheme_t4537  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((UriScheme_t4537 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_Slot_t4457 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_TableRange_t4750 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, Slot_t4457  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((Slot_t4457 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, TableRange_t4750  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((TableRange_t4750 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_Slot_t4466 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_UriScheme_t4790 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, Slot_t4466  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((Slot_t4466 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, UriScheme_t4790  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((UriScheme_t4790 *)args[1]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Int32_t82_Slot_t4942 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, int32_t p1, Slot_t4942  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((Slot_t4942 *)args[1]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Int32_t82_Slot_t4951 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, int32_t p1, Slot_t4951  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((Slot_t4951 *)args[1]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Int32_t82_MonoResource_t5044 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, int32_t p1, MonoResource_t5044  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((MonoResource_t5044 *)args[1]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Int32_t82_RefEmitPermissionSet_t5043 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, int32_t p1, RefEmitPermissionSet_t5043  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((RefEmitPermissionSet_t5043 *)args[1]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Int32_t82_ILTokenInfo_t5063 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, int32_t p1, ILTokenInfo_t5063  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((ILTokenInfo_t5063 *)args[1]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Int32_t82_LabelData_t5065 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, int32_t p1, LabelData_t5065  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((LabelData_t5065 *)args[1]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Int32_t82_LabelFixup_t5064 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, int32_t p1, LabelFixup_t5064  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((LabelFixup_t5064 *)args[1]), method);
 	return NULL;
 }
 
@@ -11050,10 +11977,10 @@ void* RuntimeInvoker_Int32_t82_Int64_t89_Int32_t82 (const MethodInfo* method, vo
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Int32_t82_TimeTypeU26_t9910 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Int32_t82_TimeTypeU26_t10540 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, int32_t p1, TimeType_t3373 * p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((int32_t*)args[0]), (TimeType_t3373 *)args[1], method);
+	typedef bool (*Func)(void* obj, int32_t p1, TimeType_t3751 * p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((int32_t*)args[0]), (TimeType_t3751 *)args[1], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -11062,6 +11989,14 @@ void* RuntimeInvoker_Boolean_t59_Int32_t82_Int32U26_t840 (const MethodInfo* meth
 {
 	typedef bool (*Func)(void* obj, int32_t p1, int32_t* p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, *((int32_t*)args[0]), (int32_t*)args[1], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_Int32_t82_LabelU26_t10541 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, int32_t p1, Label_t4474 * p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((int32_t*)args[0]), (Label_t4474 *)args[1], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -11106,6 +12041,14 @@ void* RuntimeInvoker_Int32_t82_Int64_t89_Int64_t89 (const MethodInfo* method, vo
 }
 
 struct Object_t;
+void* RuntimeInvoker_Void_t85_OpCode_t4583_Int64_t89 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, OpCode_t4583  p1, int64_t p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((OpCode_t4583 *)args[0]), *((int64_t*)args[1]), method);
+	return NULL;
+}
+
+struct Object_t;
 struct Object_t;
 void* RuntimeInvoker_Boolean_t59_Int64_t89_ObjectU26_t2379 (const MethodInfo* method, void* obj, void** args)
 {
@@ -11115,7 +12058,7 @@ void* RuntimeInvoker_Boolean_t59_Int64_t89_ObjectU26_t2379 (const MethodInfo* me
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Int64_t89_ByteU26_t3961 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Int64_t89_ByteU26_t3288 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, int64_t p1, uint8_t* p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, *((int64_t*)args[0]), (uint8_t*)args[1], method);
@@ -11144,6 +12087,24 @@ void* RuntimeInvoker_Void_t85_IntPtr_t_SByte_t88 (const MethodInfo* method, void
 	typedef void (*Func)(void* obj, IntPtr_t p1, int8_t p2, const MethodInfo* method);
 	((Func)method->method)(obj, *((IntPtr_t*)args[0]), *((int8_t*)args[1]), method);
 	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_ConsoleKeyInfo_t4859_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef ConsoleKeyInfo_t4859  (*Func)(void* obj, int32_t p1, int8_t p2, const MethodInfo* method);
+	ConsoleKeyInfo_t4859  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((int8_t*)args[1]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Security.Permissions.PermissionState
+#include "mscorlib_System_Security_Permissions_PermissionState.h"
+void* RuntimeInvoker_PermissionState_t5304_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, int32_t p1, int8_t p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((int8_t*)args[1]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
@@ -11211,186 +12172,194 @@ void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t70 (const MethodInfo* me
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t5412 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t5945 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t5412  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t5412 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t5945  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t5945 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t5549 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t6082 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t5549  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t5549 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t6082  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t6082 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_Link_t5979 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_Link_t6512 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, Link_t5979  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((Link_t5979 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, Link_t6512  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((Link_t6512 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t6039 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t6572 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t6039  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t6039 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t6572  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t6572 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t6218 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t6751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t6218  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t6218 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t6751  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t6751 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t6223 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t6756 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t6223  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t6223 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t6756  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t6756 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t7036 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t7571 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t7036  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t7036 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t7571  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t7571 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t7042 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t7577 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t7042  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t7042 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t7577  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t7577 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t7053 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t7588 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t7053  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t7053 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t7588  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t7588 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t7062 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t7597 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t7062  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t7062 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t7597  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t7597 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t7228 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t7763 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t7228  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t7228 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t7763  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t7763 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t7239 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t7774 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t7239  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t7239 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t7774  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t7774 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t7250 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t7785 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t7250  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t7250 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t7785  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t7785 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t7268 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t7803 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t7268  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t7268 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t7803  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t7803 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t7279 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t7814 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t7279  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t7279 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t7814  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t7814 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t7290 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t7825 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t7290  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t7290 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t7825  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t7825 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t8373 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t8908 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t8373  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t8373 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t8908  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t8908 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t8514 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t9049 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t8514  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t8514 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t9049  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t9049 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t8530 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t9065 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t8530  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t8530 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t9065  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t9065 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t8633 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t9182 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t8633  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t8633 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t9182  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t9182 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t3396 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t3795 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t3396  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t3396 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t3795  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t3795 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_ArraySegment_1_t8671 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_ArraySegment_1_t9243 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, ArraySegment_1_t8671  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((ArraySegment_1_t8671 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, ArraySegment_1_t9243  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((ArraySegment_1_t9243 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t8680 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t9248 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t8680  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t8680 *)args[1]), method);
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t9248  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t9248 *)args[1]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Int32_t82_KeyValuePair_2_t9260 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, int32_t p1, KeyValuePair_2_t9260  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((KeyValuePair_2_t9260 *)args[1]), method);
 	return NULL;
 }
 
@@ -11419,7 +12388,7 @@ void* RuntimeInvoker_Single_t87_Int32_t82_Single_t87 (const MethodInfo* method, 
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_DecimalU26_t5048_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_DecimalU26_t5576_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Decimal_t759 * p1, int32_t p2, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Decimal_t759 *)args[0], *((int32_t*)args[1]), method);
@@ -11495,10 +12464,10 @@ void* RuntimeInvoker_Void_t85_Int32U26_t840_Int32U26_t840 (const MethodInfo* met
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Int32_t82_TimeType_t3373 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Int32_t82_TimeType_t3751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, int32_t p1, TimeType_t3373  p2, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((TimeType_t3373 *)args[1]), method);
+	typedef int32_t (*Func)(void* obj, int32_t p1, TimeType_t3751  p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((TimeType_t3751 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -11507,6 +12476,14 @@ void* RuntimeInvoker_DictionaryEntry_t2156_Int32_t82_Int32_t82 (const MethodInfo
 {
 	typedef DictionaryEntry_t2156  (*Func)(void* obj, int32_t p1, int32_t p2, const MethodInfo* method);
 	DictionaryEntry_t2156  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((int32_t*)args[1]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Int32_t82_Int32_t82_Label_t4474 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, int32_t p1, Label_t4474  p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((Label_t4474 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -11620,12 +12597,11 @@ void* RuntimeInvoker_Boolean_t59_Ray_t776_SingleU26_t847 (const MethodInfo* meth
 }
 
 struct Object_t;
-struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Byte_t755_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_DateTime_t287_TimeSpan_t334 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, uint8_t p1, Object_t * p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((uint8_t*)args[0]), (Object_t *)args[1], method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+	typedef void (*Func)(void* obj, DateTime_t287  p1, TimeSpan_t334  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((DateTime_t287 *)args[0]), *((TimeSpan_t334 *)args[1]), method);
+	return NULL;
 }
 
 struct Object_t;
@@ -11638,15 +12614,24 @@ void* RuntimeInvoker_Void_t85_Object_t_Int16_t756 (const MethodInfo* method, voi
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_DateTime_t287_TimeSpan_t334 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_OpCode_t4583_Label_t4474 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, DateTime_t287  p1, TimeSpan_t334  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((DateTime_t287 *)args[0]), *((TimeSpan_t334 *)args[1]), method);
+	typedef void (*Func)(void* obj, OpCode_t4583  p1, Label_t4474  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((OpCode_t4583 *)args[0]), *((Label_t4474 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_NavigationU26_t9875_Navigation_t971 (const MethodInfo* method, void* obj, void** args)
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_Byte_t755_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, uint8_t p1, Object_t * p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((uint8_t*)args[0]), (Object_t *)args[1], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_NavigationU26_t10505_Navigation_t971 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Navigation_t971 * p1, Navigation_t971  p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Navigation_t971 *)args[0], *((Navigation_t971 *)args[1]), method);
@@ -11654,7 +12639,7 @@ void* RuntimeInvoker_Boolean_t59_NavigationU26_t9875_Navigation_t971 (const Meth
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_ColorBlockU26_t9876_ColorBlock_t928 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_ColorBlockU26_t10506_ColorBlock_t928 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, ColorBlock_t928 * p1, ColorBlock_t928  p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (ColorBlock_t928 *)args[0], *((ColorBlock_t928 *)args[1]), method);
@@ -11662,7 +12647,7 @@ void* RuntimeInvoker_Boolean_t59_ColorBlockU26_t9876_ColorBlock_t928 (const Meth
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_SpriteStateU26_t9877_SpriteState_t988 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_SpriteStateU26_t10507_SpriteState_t988 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, SpriteState_t988 * p1, SpriteState_t988  p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (SpriteState_t988 *)args[0], *((SpriteState_t988 *)args[1]), method);
@@ -11670,18 +12655,18 @@ void* RuntimeInvoker_Boolean_t59_SpriteStateU26_t9877_SpriteState_t988 (const Me
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_DateTime_t287_TimeType_t3373 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_DateTime_t287_TimeType_t3751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, DateTime_t287  p1, TimeType_t3373  p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((DateTime_t287 *)args[0]), *((TimeType_t3373 *)args[1]), method);
+	typedef void (*Func)(void* obj, DateTime_t287  p1, TimeType_t3751  p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((DateTime_t287 *)args[0]), *((TimeType_t3751 *)args[1]), method);
 	return NULL;
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t6223_Int64_t89_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6756_Int64_t89_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6223  (*Func)(void* obj, int64_t p1, int8_t p2, const MethodInfo* method);
-	KeyValuePair_2_t6223  ret = ((Func)method->method)(obj, *((int64_t*)args[0]), *((int8_t*)args[1]), method);
+	typedef KeyValuePair_2_t6756  (*Func)(void* obj, int64_t p1, int8_t p2, const MethodInfo* method);
+	KeyValuePair_2_t6756  ret = ((Func)method->method)(obj, *((int64_t*)args[0]), *((int8_t*)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -11808,10 +12793,50 @@ void* RuntimeInvoker_Boolean_t59_Color_t325_Color_t325 (const MethodInfo* method
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_TransitionTime_t3372_TransitionTime_t3372 (const MethodInfo* method, void* obj, void** args)
+// System.Xml.Schema.QNameValueType
+#include "System_Xml_System_Xml_Schema_QNameValueType.h"
+void* RuntimeInvoker_Boolean_t59_QNameValueType_t3616_QNameValueType_t3616 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, TransitionTime_t3372  p1, TransitionTime_t3372  p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((TransitionTime_t3372 *)args[0]), *((TransitionTime_t3372 *)args[1]), method);
+	typedef bool (*Func)(void* obj, QNameValueType_t3616  p1, QNameValueType_t3616  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((QNameValueType_t3616 *)args[0]), *((QNameValueType_t3616 *)args[1]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Xml.Schema.StringValueType
+#include "System_Xml_System_Xml_Schema_StringValueType.h"
+void* RuntimeInvoker_Boolean_t59_StringValueType_t3617_StringValueType_t3617 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, StringValueType_t3617  p1, StringValueType_t3617  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((StringValueType_t3617 *)args[0]), *((StringValueType_t3617 *)args[1]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Xml.Schema.UriValueType
+#include "System_Xml_System_Xml_Schema_UriValueType.h"
+void* RuntimeInvoker_Boolean_t59_UriValueType_t3618_UriValueType_t3618 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, UriValueType_t3618  p1, UriValueType_t3618  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((UriValueType_t3618 *)args[0]), *((UriValueType_t3618 *)args[1]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.Xml.Schema.StringArrayValueType
+#include "System_Xml_System_Xml_Schema_StringArrayValueType.h"
+void* RuntimeInvoker_Boolean_t59_StringArrayValueType_t3619_StringArrayValueType_t3619 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, StringArrayValueType_t3619  p1, StringArrayValueType_t3619  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((StringArrayValueType_t3619 *)args[0]), *((StringArrayValueType_t3619 *)args[1]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_TransitionTime_t3750_TransitionTime_t3750 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, TransitionTime_t3750  p1, TransitionTime_t3750  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((TransitionTime_t3750 *)args[0]), *((TransitionTime_t3750 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -11824,18 +12849,18 @@ void* RuntimeInvoker_Boolean_t59_Decimal_t759_Decimal_t759 (const MethodInfo* me
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_TimeSpan_t334_TimeSpan_t334 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef bool (*Func)(void* obj, TimeSpan_t334  p1, TimeSpan_t334  p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((TimeSpan_t334 *)args[0]), *((TimeSpan_t334 *)args[1]), method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
 void* RuntimeInvoker_Boolean_t59_DateTime_t287_DateTime_t287 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, DateTime_t287  p1, DateTime_t287  p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, *((DateTime_t287 *)args[0]), *((DateTime_t287 *)args[1]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_Guid_t74_Guid_t74 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, Guid_t74  p1, Guid_t74  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((Guid_t74 *)args[0]), *((Guid_t74 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -11846,6 +12871,22 @@ void* RuntimeInvoker_Object_t_SByte_t88_SByte_t88 (const MethodInfo* method, voi
 	typedef Object_t * (*Func)(void* obj, int8_t p1, int8_t p2, const MethodInfo* method);
 	Object_t * ret = ((Func)method->method)(obj, *((int8_t*)args[0]), *((int8_t*)args[1]), method);
 	return ret;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_TimeSpan_t334_TimeSpan_t334 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, TimeSpan_t334  p1, TimeSpan_t334  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((TimeSpan_t334 *)args[0]), *((TimeSpan_t334 *)args[1]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_OpCode_t4583_OpCode_t4583 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, OpCode_t4583  p1, OpCode_t4583  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((OpCode_t4583 *)args[0]), *((OpCode_t4583 *)args[1]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
@@ -11889,26 +12930,18 @@ void* RuntimeInvoker_Boolean_t59_UILineInfo_t1093_UILineInfo_t1093 (const Method
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_TimeType_t3373_TimeType_t3373 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_TimeType_t3751_TimeType_t3751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, TimeType_t3373  p1, TimeType_t3373  p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((TimeType_t3373 *)args[0]), *((TimeType_t3373 *)args[1]), method);
+	typedef bool (*Func)(void* obj, TimeType_t3751  p1, TimeType_t3751  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((TimeType_t3751 *)args[0]), *((TimeType_t3751 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_DateTimeOffset_t2962_DateTimeOffset_t2962 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Label_t4474_Label_t4474 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, DateTimeOffset_t2962  p1, DateTimeOffset_t2962  p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((DateTimeOffset_t2962 *)args[0]), *((DateTimeOffset_t2962 *)args[1]), method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Guid_t74_Guid_t74 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef bool (*Func)(void* obj, Guid_t74  p1, Guid_t74  p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((Guid_t74 *)args[0]), *((Guid_t74 *)args[1]), method);
+	typedef bool (*Func)(void* obj, Label_t4474  p1, Label_t4474  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((Label_t4474 *)args[0]), *((Label_t4474 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -11949,10 +12982,10 @@ void* RuntimeInvoker_Byte_t755_Object_t_SByte_t88 (const MethodInfo* method, voi
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t8680_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t9248_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t8680  (*Func)(void* obj, int32_t p1, int32_t p2, const MethodInfo* method);
-	KeyValuePair_2_t8680  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((int32_t*)args[1]), method);
+	typedef KeyValuePair_2_t9248  (*Func)(void* obj, int32_t p1, int32_t p2, const MethodInfo* method);
+	KeyValuePair_2_t9248  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((int32_t*)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -12010,10 +13043,10 @@ void* RuntimeInvoker_Double_t90_Double_t90_Double_t90 (const MethodInfo* method,
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t8373_Int64_t89_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t8908_Int64_t89_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t8373  (*Func)(void* obj, int64_t p1, int32_t p2, const MethodInfo* method);
-	KeyValuePair_2_t8373  ret = ((Func)method->method)(obj, *((int64_t*)args[0]), *((int32_t*)args[1]), method);
+	typedef KeyValuePair_2_t8908  (*Func)(void* obj, int64_t p1, int32_t p2, const MethodInfo* method);
+	KeyValuePair_2_t8908  ret = ((Func)method->method)(obj, *((int64_t*)args[0]), *((int32_t*)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -12061,7 +13094,7 @@ void* RuntimeInvoker_Object_t_Int16_t756_Int16_t756 (const MethodInfo* method, v
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_DecimalU26_t5048_UInt64U26_t5015 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_DecimalU26_t5576_UInt64U26_t5543 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Decimal_t759 * p1, uint64_t* p2, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Decimal_t759 *)args[0], (uint64_t*)args[1], method);
@@ -12069,7 +13102,7 @@ void* RuntimeInvoker_Int32_t82_DecimalU26_t5048_UInt64U26_t5015 (const MethodInf
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_DecimalU26_t5048_Int64U26_t5010 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_DecimalU26_t5576_Int64U26_t5538 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Decimal_t759 * p1, int64_t* p2, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Decimal_t759 *)args[0], (int64_t*)args[1], method);
@@ -12077,10 +13110,19 @@ void* RuntimeInvoker_Int32_t82_DecimalU26_t5048_Int64U26_t5010 (const MethodInfo
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_DecimalU26_t5048_DecimalU26_t5048 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_DecimalU26_t5576_DecimalU26_t5576 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Decimal_t759 * p1, Decimal_t759 * p2, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Decimal_t759 *)args[0], (Decimal_t759 *)args[1], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_SByte_t88_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int8_t (*Func)(void* obj, Object_t * p1, int32_t p2, const MethodInfo* method);
+	int8_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -12152,10 +13194,10 @@ void* RuntimeInvoker_Byte_t755_Object_t_Int32_t82 (const MethodInfo* method, voi
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_IntPtr_t_MonoMethodInfoU26_t5354 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_IntPtr_t_MonoMethodInfoU26_t5780 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, IntPtr_t p1, MonoMethodInfo_t4563 * p2, const MethodInfo* method);
-	((Func)method->method)(obj, *((IntPtr_t*)args[0]), (MonoMethodInfo_t4563 *)args[1], method);
+	typedef void (*Func)(void* obj, IntPtr_t p1, MonoMethodInfo_t5027 * p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((IntPtr_t*)args[0]), (MonoMethodInfo_t5027 *)args[1], method);
 	return NULL;
 }
 
@@ -12229,14 +13271,6 @@ void* RuntimeInvoker_Int16_t756_Object_t_Int32_t82 (const MethodInfo* method, vo
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_IntPtr_t_MonoIOErrorU26_t5350 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef bool (*Func)(void* obj, IntPtr_t p1, int32_t* p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), (int32_t*)args[1], method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
 void* RuntimeInvoker_Int32_t82_DateTime_t287_DateTime_t287 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, DateTime_t287  p1, DateTime_t287  p2, const MethodInfo* method);
@@ -12257,6 +13291,24 @@ void* RuntimeInvoker_Int32_t82_TimeSpan_t334_TimeSpan_t334 (const MethodInfo* me
 {
 	typedef int32_t (*Func)(void* obj, TimeSpan_t334  p1, TimeSpan_t334  p2, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, *((TimeSpan_t334 *)args[0]), *((TimeSpan_t334 *)args[1]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.ConsoleScreenBufferInfo
+#include "mscorlib_System_ConsoleScreenBufferInfo.h"
+void* RuntimeInvoker_Boolean_t59_IntPtr_t_ConsoleScreenBufferInfoU26_t5773 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, IntPtr_t p1, ConsoleScreenBufferInfo_t4932 * p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), (ConsoleScreenBufferInfo_t4932 *)args[1], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_IntPtr_t_MonoIOErrorU26_t5776 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, IntPtr_t p1, int32_t* p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), (int32_t*)args[1], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -12293,34 +13345,34 @@ void* RuntimeInvoker_Int32_t82_UILineInfo_t1093_UILineInfo_t1093 (const MethodIn
 }
 
 struct Object_t;
-void* RuntimeInvoker_TimeType_t3373_Int32_t82_TimeType_t3373 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_TimeType_t3751_Int32_t82_TimeType_t3751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef TimeType_t3373  (*Func)(void* obj, int32_t p1, TimeType_t3373  p2, const MethodInfo* method);
-	TimeType_t3373  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((TimeType_t3373 *)args[1]), method);
+	typedef TimeType_t3751  (*Func)(void* obj, int32_t p1, TimeType_t3751  p2, const MethodInfo* method);
+	TimeType_t3751  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((TimeType_t3751 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_DictionaryEntry_t2156_Int32_t82_TimeType_t3373 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_DictionaryEntry_t2156_Int32_t82_TimeType_t3751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef DictionaryEntry_t2156  (*Func)(void* obj, int32_t p1, TimeType_t3373  p2, const MethodInfo* method);
-	DictionaryEntry_t2156  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((TimeType_t3373 *)args[1]), method);
+	typedef DictionaryEntry_t2156  (*Func)(void* obj, int32_t p1, TimeType_t3751  p2, const MethodInfo* method);
+	DictionaryEntry_t2156  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((TimeType_t3751 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_DateTimeOffset_t2962_DateTimeOffset_t2962 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Label_t4474_Int32_t82_Label_t4474 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, DateTimeOffset_t2962  p1, DateTimeOffset_t2962  p2, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((DateTimeOffset_t2962 *)args[0]), *((DateTimeOffset_t2962 *)args[1]), method);
+	typedef Label_t4474  (*Func)(void* obj, int32_t p1, Label_t4474  p2, const MethodInfo* method);
+	Label_t4474  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((Label_t4474 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Guid_t74_Guid_t74 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_DictionaryEntry_t2156_Int32_t82_Label_t4474 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Guid_t74  p1, Guid_t74  p2, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((Guid_t74 *)args[0]), *((Guid_t74 *)args[1]), method);
+	typedef DictionaryEntry_t2156  (*Func)(void* obj, int32_t p1, Label_t4474  p2, const MethodInfo* method);
+	DictionaryEntry_t2156  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((Label_t4474 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -12377,106 +13429,106 @@ void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t70_KeyValuePair_2_t70 (const Me
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t6218_KeyValuePair_2_t6218 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t6751_KeyValuePair_2_t6751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t6218  p1, KeyValuePair_2_t6218  p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6218 *)args[0]), *((KeyValuePair_2_t6218 *)args[1]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t6751  p1, KeyValuePair_2_t6751  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6751 *)args[0]), *((KeyValuePair_2_t6751 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7228_KeyValuePair_2_t7228 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7763_KeyValuePair_2_t7763 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7228  p1, KeyValuePair_2_t7228  p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7228 *)args[0]), *((KeyValuePair_2_t7228 *)args[1]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7763  p1, KeyValuePair_2_t7763  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7763 *)args[0]), *((KeyValuePair_2_t7763 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7239_KeyValuePair_2_t7239 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7774_KeyValuePair_2_t7774 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7239  p1, KeyValuePair_2_t7239  p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7239 *)args[0]), *((KeyValuePair_2_t7239 *)args[1]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7774  p1, KeyValuePair_2_t7774  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7774 *)args[0]), *((KeyValuePair_2_t7774 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7250_KeyValuePair_2_t7250 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7785_KeyValuePair_2_t7785 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7250  p1, KeyValuePair_2_t7250  p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7250 *)args[0]), *((KeyValuePair_2_t7250 *)args[1]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7785  p1, KeyValuePair_2_t7785  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7785 *)args[0]), *((KeyValuePair_2_t7785 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t5549_KeyValuePair_2_t5549 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t6082_KeyValuePair_2_t6082 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t5549  p1, KeyValuePair_2_t5549  p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5549 *)args[0]), *((KeyValuePair_2_t5549 *)args[1]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t6082  p1, KeyValuePair_2_t6082  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6082 *)args[0]), *((KeyValuePair_2_t6082 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7268_KeyValuePair_2_t7268 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7803_KeyValuePair_2_t7803 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7268  p1, KeyValuePair_2_t7268  p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7268 *)args[0]), *((KeyValuePair_2_t7268 *)args[1]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7803  p1, KeyValuePair_2_t7803  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7803 *)args[0]), *((KeyValuePair_2_t7803 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7279_KeyValuePair_2_t7279 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7814_KeyValuePair_2_t7814 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7279  p1, KeyValuePair_2_t7279  p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7279 *)args[0]), *((KeyValuePair_2_t7279 *)args[1]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7814  p1, KeyValuePair_2_t7814  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7814 *)args[0]), *((KeyValuePair_2_t7814 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7290_KeyValuePair_2_t7290 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7825_KeyValuePair_2_t7825 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7290  p1, KeyValuePair_2_t7290  p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7290 *)args[0]), *((KeyValuePair_2_t7290 *)args[1]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7825  p1, KeyValuePair_2_t7825  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7825 *)args[0]), *((KeyValuePair_2_t7825 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7042_KeyValuePair_2_t7042 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7577_KeyValuePair_2_t7577 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7042  p1, KeyValuePair_2_t7042  p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7042 *)args[0]), *((KeyValuePair_2_t7042 *)args[1]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7577  p1, KeyValuePair_2_t7577  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7577 *)args[0]), *((KeyValuePair_2_t7577 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7036_KeyValuePair_2_t7036 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7571_KeyValuePair_2_t7571 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7036  p1, KeyValuePair_2_t7036  p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7036 *)args[0]), *((KeyValuePair_2_t7036 *)args[1]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7571  p1, KeyValuePair_2_t7571  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7571 *)args[0]), *((KeyValuePair_2_t7571 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7053_KeyValuePair_2_t7053 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7588_KeyValuePair_2_t7588 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7053  p1, KeyValuePair_2_t7053  p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7053 *)args[0]), *((KeyValuePair_2_t7053 *)args[1]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7588  p1, KeyValuePair_2_t7588  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7588 *)args[0]), *((KeyValuePair_2_t7588 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7062_KeyValuePair_2_t7062 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t7597_KeyValuePair_2_t7597 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t7062  p1, KeyValuePair_2_t7062  p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7062 *)args[0]), *((KeyValuePair_2_t7062 *)args[1]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t7597  p1, KeyValuePair_2_t7597  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7597 *)args[0]), *((KeyValuePair_2_t7597 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t3396_KeyValuePair_2_t3396 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_KeyValuePair_2_t3795_KeyValuePair_2_t3795 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, KeyValuePair_2_t3396  p1, KeyValuePair_2_t3396  p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t3396 *)args[0]), *((KeyValuePair_2_t3396 *)args[1]), method);
+	typedef bool (*Func)(void* obj, KeyValuePair_2_t3795  p1, KeyValuePair_2_t3795  p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((KeyValuePair_2_t3795 *)args[0]), *((KeyValuePair_2_t3795 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -12539,20 +13591,29 @@ void* RuntimeInvoker_UInt32_t754_Object_t_Int32_t82 (const MethodInfo* method, v
 
 struct Object_t;
 struct Object_t;
-struct UriFormatException_t3311;
+struct UriFormatException_t3724;
 // System.UriFormatException
 #include "System_System_UriFormatException.h"
-void* RuntimeInvoker_Void_t85_Object_t_UriFormatExceptionU26_t4352 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Object_t_UriFormatExceptionU26_t4722 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Object_t * p1, UriFormatException_t3311 ** p2, const MethodInfo* method);
-	((Func)method->method)(obj, (Object_t *)args[0], (UriFormatException_t3311 **)args[1], method);
+	typedef void (*Func)(void* obj, Object_t * p1, UriFormatException_t3724 ** p2, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (UriFormatException_t3724 **)args[1], method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_MonoEnumInfoU26_t5758 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, MonoEnumInfo_t4878 * p2, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (MonoEnumInfo_t4878 *)args[1], method);
 	return NULL;
 }
 
 struct Object_t;
 struct ObjectU5BU5D_t696;
 struct Object_t;
-void* RuntimeInvoker_Void_t85_ObjectU5BU5DU26_t5004_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_ObjectU5BU5DU26_t5533_Object_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, ObjectU5BU5D_t696** p1, Object_t * p2, const MethodInfo* method);
 	((Func)method->method)(obj, (ObjectU5BU5D_t696**)args[0], (Object_t *)args[1], method);
@@ -12561,10 +13622,10 @@ void* RuntimeInvoker_Void_t85_ObjectU5BU5DU26_t5004_Object_t (const MethodInfo* 
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Object_t_MonoEventInfoU26_t5353 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Object_t_MonoEventInfoU26_t5779 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Object_t * p1, MonoEventInfo_t4560 * p2, const MethodInfo* method);
-	((Func)method->method)(obj, (Object_t *)args[0], (MonoEventInfo_t4560 *)args[1], method);
+	typedef void (*Func)(void* obj, Object_t * p1, MonoEventInfo_t5026 * p2, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (MonoEventInfo_t5026 *)args[1], method);
 	return NULL;
 }
 
@@ -12574,15 +13635,6 @@ void* RuntimeInvoker_Void_t85_Object_t_BooleanU26_t841 (const MethodInfo* method
 {
 	typedef void (*Func)(void* obj, Object_t * p1, bool* p2, const MethodInfo* method);
 	((Func)method->method)(obj, (Object_t *)args[0], (bool*)args[1], method);
-	return NULL;
-}
-
-struct Object_t;
-struct Object_t;
-void* RuntimeInvoker_Void_t85_Object_t_MonoEnumInfoU26_t5385 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef void (*Func)(void* obj, Object_t * p1, MonoEnumInfo_t4824 * p2, const MethodInfo* method);
-	((Func)method->method)(obj, (Object_t *)args[0], (MonoEnumInfo_t4824 *)args[1], method);
 	return NULL;
 }
 
@@ -12798,31 +13850,52 @@ void* RuntimeInvoker_Boolean_t59_Object_t_Int32U26_t840 (const MethodInfo* metho
 
 struct Object_t;
 struct Object_t;
-struct IPAddress_t4078;
+struct Exception_t57;
+// System.Exception
+#include "mscorlib_System_Exception.h"
+void* RuntimeInvoker_Boolean_t59_Object_t_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, Object_t * p1, Exception_t57 ** p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (Exception_t57 **)args[1], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+struct IPAddress_t4382;
 // System.Net.IPAddress
 #include "System_System_Net_IPAddress.h"
-void* RuntimeInvoker_Boolean_t59_Object_t_IPAddressU26_t4344 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_IPAddressU26_t4710 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, Object_t * p1, IPAddress_t4078 ** p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (IPAddress_t4078 **)args[1], method);
+	typedef bool (*Func)(void* obj, Object_t * p1, IPAddress_t4382 ** p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (IPAddress_t4382 **)args[1], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-struct IPv6Address_t4079;
+struct IPv6Address_t4384;
 // System.Net.IPv6Address
 #include "System_System_Net_IPv6Address.h"
-void* RuntimeInvoker_Boolean_t59_Object_t_IPv6AddressU26_t4345 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_IPv6AddressU26_t4711 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, Object_t * p1, IPv6Address_t4079 ** p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (IPv6Address_t4079 **)args[1], method);
+	typedef bool (*Func)(void* obj, Object_t * p1, IPv6Address_t4384 ** p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (IPv6Address_t4384 **)args[1], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_Int64U26_t5010 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Int32U26_t840_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, int32_t* p1, Object_t * p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (int32_t*)args[0], (Object_t *)args[1], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_Object_t_Int64U26_t5538 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, int64_t* p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (int64_t*)args[1], method);
@@ -12831,7 +13904,7 @@ void* RuntimeInvoker_Boolean_t59_Object_t_Int64U26_t5010 (const MethodInfo* meth
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_UInt32U26_t3771 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_UInt32U26_t4184 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, uint32_t* p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (uint32_t*)args[1], method);
@@ -12840,7 +13913,7 @@ void* RuntimeInvoker_Boolean_t59_Object_t_UInt32U26_t3771 (const MethodInfo* met
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_UInt64U26_t5015 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_UInt64U26_t5543 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, uint64_t* p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (uint64_t*)args[1], method);
@@ -12849,7 +13922,7 @@ void* RuntimeInvoker_Boolean_t59_Object_t_UInt64U26_t5015 (const MethodInfo* met
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_ByteU26_t3961 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_ByteU26_t3288 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, uint8_t* p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (uint8_t*)args[1], method);
@@ -12858,7 +13931,7 @@ void* RuntimeInvoker_Boolean_t59_Object_t_ByteU26_t3961 (const MethodInfo* metho
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_SByteU26_t5020 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_SByteU26_t5548 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, int8_t* p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (int8_t*)args[1], method);
@@ -12867,7 +13940,7 @@ void* RuntimeInvoker_Boolean_t59_Object_t_SByteU26_t5020 (const MethodInfo* meth
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_Int16U26_t5023 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Int16U26_t5551 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, int16_t* p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (int16_t*)args[1], method);
@@ -12876,7 +13949,7 @@ void* RuntimeInvoker_Boolean_t59_Object_t_Int16U26_t5023 (const MethodInfo* meth
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_UInt16U26_t5026 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_UInt16U26_t5554 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, uint16_t* p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (uint16_t*)args[1], method);
@@ -12894,7 +13967,7 @@ void* RuntimeInvoker_Boolean_t59_Object_t_SingleU26_t847 (const MethodInfo* meth
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_DoubleU26_t5045 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_DoubleU26_t5573 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, double* p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (double*)args[1], method);
@@ -12912,28 +13985,10 @@ void* RuntimeInvoker_Boolean_t59_Object_t_BooleanU26_t841 (const MethodInfo* met
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Object_t_RuntimeFieldHandle_t4360 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Object_t_RuntimeFieldHandle_t4730 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Object_t * p1, RuntimeFieldHandle_t4360  p2, const MethodInfo* method);
-	((Func)method->method)(obj, (Object_t *)args[0], *((RuntimeFieldHandle_t4360 *)args[1]), method);
-	return NULL;
-}
-
-struct Object_t;
-struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_MonoIOErrorU26_t5350 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef bool (*Func)(void* obj, Object_t * p1, int32_t* p2, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (int32_t*)args[1], method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-struct Object_t;
-void* RuntimeInvoker_Void_t85_Object_t_DateTime_t287 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef void (*Func)(void* obj, Object_t * p1, DateTime_t287  p2, const MethodInfo* method);
-	((Func)method->method)(obj, (Object_t *)args[0], *((DateTime_t287 *)args[1]), method);
+	typedef void (*Func)(void* obj, Object_t * p1, RuntimeFieldHandle_t4730  p2, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], *((RuntimeFieldHandle_t4730 *)args[1]), method);
 	return NULL;
 }
 
@@ -12952,6 +14007,42 @@ void* RuntimeInvoker_Void_t85_Object_t_Decimal_t759 (const MethodInfo* method, v
 {
 	typedef void (*Func)(void* obj, Object_t * p1, Decimal_t759  p2, const MethodInfo* method);
 	((Func)method->method)(obj, (Object_t *)args[0], *((Decimal_t759 *)args[1]), method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_Object_t_MonoIOErrorU26_t5776 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, Object_t * p1, int32_t* p2, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (int32_t*)args[1], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_OpCode_t4583_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, OpCode_t4583  p1, Object_t * p2, const MethodInfo* method);
+	((Func)method->method)(obj, *((OpCode_t4583 *)args[0]), (Object_t *)args[1], method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_DateTime_t287 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, DateTime_t287  p2, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], *((DateTime_t287 *)args[1]), method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_SNIP_t5314 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, SNIP_t5314  p2, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], *((SNIP_t5314 *)args[1]), method);
 	return NULL;
 }
 
@@ -12976,7 +14067,7 @@ void* RuntimeInvoker_Void_t85_Object_t_ParseGeoPoint_t1264 (const MethodInfo* me
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_DateTimeU26_t5375 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_DateTimeU26_t5748 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, DateTime_t287 * p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (DateTime_t287 *)args[1], method);
@@ -12985,7 +14076,7 @@ void* RuntimeInvoker_Boolean_t59_Object_t_DateTimeU26_t5375 (const MethodInfo* m
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_ParseGeoPointU26_t9908 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_ParseGeoPointU26_t10538 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, ParseGeoPoint_t1264 * p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (ParseGeoPoint_t1264 *)args[1], method);
@@ -12994,7 +14085,7 @@ void* RuntimeInvoker_Boolean_t59_Object_t_ParseGeoPointU26_t9908 (const MethodIn
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_KeyValuePair_2U26_t9909 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_KeyValuePair_2U26_t10539 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t70 * p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (KeyValuePair_2_t70 *)args[1], method);
@@ -13002,10 +14093,18 @@ void* RuntimeInvoker_Boolean_t59_Object_t_KeyValuePair_2U26_t9909 (const MethodI
 }
 
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t8633_Int32_t82_TimeType_t3373 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t9182_Int32_t82_TimeType_t3751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t8633  (*Func)(void* obj, int32_t p1, TimeType_t3373  p2, const MethodInfo* method);
-	KeyValuePair_2_t8633  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((TimeType_t3373 *)args[1]), method);
+	typedef KeyValuePair_2_t9182  (*Func)(void* obj, int32_t p1, TimeType_t3751  p2, const MethodInfo* method);
+	KeyValuePair_2_t9182  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((TimeType_t3751 *)args[1]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+void* RuntimeInvoker_KeyValuePair_2_t9260_Int32_t82_Label_t4474 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef KeyValuePair_2_t9260  (*Func)(void* obj, int32_t p1, Label_t4474  p2, const MethodInfo* method);
+	KeyValuePair_2_t9260  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((Label_t4474 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -13047,6 +14146,15 @@ void* RuntimeInvoker_UInt64_t758_Object_t_Int32_t82 (const MethodInfo* method, v
 
 struct Object_t;
 struct Object_t;
+void* RuntimeInvoker_Char_t60_Object_t_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef uint16_t (*Func)(void* obj, Object_t * p1, int32_t* p2, const MethodInfo* method);
+	uint16_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (int32_t*)args[1], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
 void* RuntimeInvoker_Boolean_t59_DateTime_t287_Object_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, DateTime_t287  p1, Object_t * p2, const MethodInfo* method);
@@ -13082,7 +14190,7 @@ void* RuntimeInvoker_Single_t87_Object_t_Int32_t82 (const MethodInfo* method, vo
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_IntPtr_t_SecTrustResultU26_t4347 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_IntPtr_t_SecTrustResultU26_t4716 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, IntPtr_t p1, int32_t* p2, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), (int32_t*)args[1], method);
@@ -13169,7 +14277,7 @@ void* RuntimeInvoker_Boolean_t59_IntPtr_t_IntPtr_t (const MethodInfo* method, vo
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int64_t89_IntPtr_t_MonoIOErrorU26_t5350 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int64_t89_IntPtr_t_MonoIOErrorU26_t5776 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int64_t (*Func)(void* obj, IntPtr_t p1, int32_t* p2, const MethodInfo* method);
 	int64_t ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), (int32_t*)args[1], method);
@@ -13194,98 +14302,98 @@ void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t70_KeyValuePair_2_t70 (const Meth
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t6218_KeyValuePair_2_t6218 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t6751_KeyValuePair_2_t6751 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t6218  p1, KeyValuePair_2_t6218  p2, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6218 *)args[0]), *((KeyValuePair_2_t6218 *)args[1]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t6751  p1, KeyValuePair_2_t6751  p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6751 *)args[0]), *((KeyValuePair_2_t6751 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7228_KeyValuePair_2_t7228 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7763_KeyValuePair_2_t7763 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7228  p1, KeyValuePair_2_t7228  p2, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7228 *)args[0]), *((KeyValuePair_2_t7228 *)args[1]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7763  p1, KeyValuePair_2_t7763  p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7763 *)args[0]), *((KeyValuePair_2_t7763 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7239_KeyValuePair_2_t7239 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7774_KeyValuePair_2_t7774 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7239  p1, KeyValuePair_2_t7239  p2, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7239 *)args[0]), *((KeyValuePair_2_t7239 *)args[1]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7774  p1, KeyValuePair_2_t7774  p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7774 *)args[0]), *((KeyValuePair_2_t7774 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7250_KeyValuePair_2_t7250 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7785_KeyValuePair_2_t7785 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7250  p1, KeyValuePair_2_t7250  p2, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7250 *)args[0]), *((KeyValuePair_2_t7250 *)args[1]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7785  p1, KeyValuePair_2_t7785  p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7785 *)args[0]), *((KeyValuePair_2_t7785 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t5549_KeyValuePair_2_t5549 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t6082_KeyValuePair_2_t6082 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t5549  p1, KeyValuePair_2_t5549  p2, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5549 *)args[0]), *((KeyValuePair_2_t5549 *)args[1]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t6082  p1, KeyValuePair_2_t6082  p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6082 *)args[0]), *((KeyValuePair_2_t6082 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7268_KeyValuePair_2_t7268 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7803_KeyValuePair_2_t7803 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7268  p1, KeyValuePair_2_t7268  p2, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7268 *)args[0]), *((KeyValuePair_2_t7268 *)args[1]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7803  p1, KeyValuePair_2_t7803  p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7803 *)args[0]), *((KeyValuePair_2_t7803 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7279_KeyValuePair_2_t7279 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7814_KeyValuePair_2_t7814 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7279  p1, KeyValuePair_2_t7279  p2, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7279 *)args[0]), *((KeyValuePair_2_t7279 *)args[1]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7814  p1, KeyValuePair_2_t7814  p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7814 *)args[0]), *((KeyValuePair_2_t7814 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7290_KeyValuePair_2_t7290 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7825_KeyValuePair_2_t7825 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7290  p1, KeyValuePair_2_t7290  p2, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7290 *)args[0]), *((KeyValuePair_2_t7290 *)args[1]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7825  p1, KeyValuePair_2_t7825  p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7825 *)args[0]), *((KeyValuePair_2_t7825 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7042_KeyValuePair_2_t7042 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7577_KeyValuePair_2_t7577 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7042  p1, KeyValuePair_2_t7042  p2, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7042 *)args[0]), *((KeyValuePair_2_t7042 *)args[1]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7577  p1, KeyValuePair_2_t7577  p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7577 *)args[0]), *((KeyValuePair_2_t7577 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7036_KeyValuePair_2_t7036 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7571_KeyValuePair_2_t7571 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7036  p1, KeyValuePair_2_t7036  p2, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7036 *)args[0]), *((KeyValuePair_2_t7036 *)args[1]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7571  p1, KeyValuePair_2_t7571  p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7571 *)args[0]), *((KeyValuePair_2_t7571 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7053_KeyValuePair_2_t7053 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7588_KeyValuePair_2_t7588 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7053  p1, KeyValuePair_2_t7053  p2, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7053 *)args[0]), *((KeyValuePair_2_t7053 *)args[1]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7588  p1, KeyValuePair_2_t7588  p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7588 *)args[0]), *((KeyValuePair_2_t7588 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7062_KeyValuePair_2_t7062 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7597_KeyValuePair_2_t7597 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7062  p1, KeyValuePair_2_t7062  p2, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7062 *)args[0]), *((KeyValuePair_2_t7062 *)args[1]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7597  p1, KeyValuePair_2_t7597  p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7597 *)args[0]), *((KeyValuePair_2_t7597 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -13299,10 +14407,10 @@ void* RuntimeInvoker_Void_t85_Object_t_KeyValuePair_2_t70 (const MethodInfo* met
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t3396_KeyValuePair_2_t3396 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t3795_KeyValuePair_2_t3795 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t3396  p1, KeyValuePair_2_t3396  p2, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t3396 *)args[0]), *((KeyValuePair_2_t3396 *)args[1]), method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t3795  p1, KeyValuePair_2_t3795  p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t3795 *)args[0]), *((KeyValuePair_2_t3795 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -13446,7 +14554,7 @@ void* RuntimeInvoker_Single_t87_Object_t_Single_t87 (const MethodInfo* method, v
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_SocketErrorU26_t4336 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_SocketErrorU26_t4712 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t* p2, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (int32_t*)args[1], method);
@@ -13456,10 +14564,19 @@ void* RuntimeInvoker_Int32_t82_Object_t_SocketErrorU26_t4336 (const MethodInfo* 
 struct Object_t;
 struct Object_t;
 struct ObjectU5BU5D_t696;
-void* RuntimeInvoker_Int32_t82_Object_t_ObjectU5BU5DU26_t5004 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_ObjectU5BU5DU26_t5533 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, ObjectU5BU5D_t696** p2, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (ObjectU5BU5D_t696**)args[1], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Int32_t82_Object_t_BooleanU26_t841 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, Object_t * p1, bool* p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (bool*)args[1], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -13492,10 +14609,19 @@ void* RuntimeInvoker_Object_t_Vector2_t110_Int32_t82 (const MethodInfo* method, 
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_GCHandle_t3996_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Label_t4474_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef GCHandle_t3996  (*Func)(void* obj, Object_t * p1, int32_t p2, const MethodInfo* method);
-	GCHandle_t3996  ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), method);
+	typedef Label_t4474  (*Func)(void* obj, Object_t * p1, int32_t p2, const MethodInfo* method);
+	Label_t4474  ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_GCHandle_t4297_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef GCHandle_t4297  (*Func)(void* obj, Object_t * p1, int32_t p2, const MethodInfo* method);
+	GCHandle_t4297  ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -13519,10 +14645,19 @@ void* RuntimeInvoker_DictionaryEntry_t2156_Object_t_Int32_t82 (const MethodInfo*
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t6218_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6751_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6218  (*Func)(void* obj, Object_t * p1, int8_t p2, const MethodInfo* method);
-	KeyValuePair_2_t6218  ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int8_t*)args[1]), method);
+	typedef KeyValuePair_2_t6751  (*Func)(void* obj, Object_t * p1, int8_t p2, const MethodInfo* method);
+	KeyValuePair_2_t6751  ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int8_t*)args[1]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Int64_t89_Object_t_BooleanU26_t841 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int64_t (*Func)(void* obj, Object_t * p1, bool* p2, const MethodInfo* method);
+	int64_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (bool*)args[1], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -13592,7 +14727,7 @@ void* RuntimeInvoker_Single_t87_Object_t_TextGenerationSettings_t1062 (const Met
 struct Object_t;
 // System.IO.MonoFileType
 #include "mscorlib_System_IO_MonoFileType.h"
-void* RuntimeInvoker_MonoFileType_t4508_IntPtr_t_MonoIOErrorU26_t5350 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_MonoFileType_t4993_IntPtr_t_MonoIOErrorU26_t5776 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, IntPtr_t p1, int32_t* p2, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), (int32_t*)args[1], method);
@@ -13610,19 +14745,19 @@ void* RuntimeInvoker_KeyValuePair_2_t70_Object_t_Int32_t82 (const MethodInfo* me
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5412_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t5945_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5412  (*Func)(void* obj, int32_t p1, Object_t * p2, const MethodInfo* method);
-	KeyValuePair_2_t5412  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), (Object_t *)args[1], method);
+	typedef KeyValuePair_2_t5945  (*Func)(void* obj, int32_t p1, Object_t * p2, const MethodInfo* method);
+	KeyValuePair_2_t5945  ret = ((Func)method->method)(obj, *((int32_t*)args[0]), (Object_t *)args[1], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t5549_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6082_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t5549  (*Func)(void* obj, Object_t * p1, int32_t p2, const MethodInfo* method);
-	KeyValuePair_2_t5549  ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), method);
+	typedef KeyValuePair_2_t6082  (*Func)(void* obj, Object_t * p1, int32_t p2, const MethodInfo* method);
+	KeyValuePair_2_t6082  ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -13666,28 +14801,28 @@ void* RuntimeInvoker_Char_t60_Object_t_Object_t (const MethodInfo* method, void*
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t6039_Int64_t89_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t6572_Int64_t89_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t6039  (*Func)(void* obj, int64_t p1, Object_t * p2, const MethodInfo* method);
-	KeyValuePair_2_t6039  ret = ((Func)method->method)(obj, *((int64_t*)args[0]), (Object_t *)args[1], method);
+	typedef KeyValuePair_2_t6572  (*Func)(void* obj, int64_t p1, Object_t * p2, const MethodInfo* method);
+	KeyValuePair_2_t6572  ret = ((Func)method->method)(obj, *((int64_t*)args[0]), (Object_t *)args[1], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7279_Object_t_Int64_t89 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7814_Object_t_Int64_t89 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7279  (*Func)(void* obj, Object_t * p1, int64_t p2, const MethodInfo* method);
-	KeyValuePair_2_t7279  ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int64_t*)args[1]), method);
+	typedef KeyValuePair_2_t7814  (*Func)(void* obj, Object_t * p1, int64_t p2, const MethodInfo* method);
+	KeyValuePair_2_t7814  ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int64_t*)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t8514_Int64_t89_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t9049_Int64_t89_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t8514  (*Func)(void* obj, int64_t p1, Object_t * p2, const MethodInfo* method);
-	KeyValuePair_2_t8514  ret = ((Func)method->method)(obj, *((int64_t*)args[0]), (Object_t *)args[1], method);
+	typedef KeyValuePair_2_t9049  (*Func)(void* obj, int64_t p1, Object_t * p2, const MethodInfo* method);
+	KeyValuePair_2_t9049  ret = ((Func)method->method)(obj, *((int64_t*)args[0]), (Object_t *)args[1], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -13780,6 +14915,36 @@ void* RuntimeInvoker_Object_t_Byte_t755_Object_t (const MethodInfo* method, void
 
 struct Object_t;
 struct Object_t;
+struct Exception_t57;
+void* RuntimeInvoker_XmlSchemaForm_t3654_Object_t_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, Object_t * p1, Exception_t57 ** p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (Exception_t57 **)args[1], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+struct Exception_t57;
+void* RuntimeInvoker_XmlSchemaContentProcessing_t3646_Object_t_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, Object_t * p1, Exception_t57 ** p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (Exception_t57 **)args[1], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+struct Exception_t57;
+void* RuntimeInvoker_XmlSchemaUse_t3692_Object_t_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, Object_t * p1, Exception_t57 ** p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (Exception_t57 **)args[1], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
 struct Object_t;
 void* RuntimeInvoker_Byte_t755_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
@@ -13789,10 +14954,8 @@ void* RuntimeInvoker_Byte_t755_Object_t_Object_t (const MethodInfo* method, void
 }
 
 struct Object_t;
-// System.IO.FileAttributes
-#include "mscorlib_System_IO_FileAttributes.h"
 struct Object_t;
-void* RuntimeInvoker_FileAttributes_t4500_Object_t_MonoIOErrorU26_t5350 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_FileAttributes_t4983_Object_t_MonoIOErrorU26_t5776 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t* p2, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (int32_t*)args[1], method);
@@ -13811,10 +14974,10 @@ void* RuntimeInvoker_Object_t_Object_t_Byte_t755 (const MethodInfo* method, void
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7036_Object_t_Single_t87 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7571_Object_t_Single_t87 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7036  (*Func)(void* obj, Object_t * p1, float p2, const MethodInfo* method);
-	KeyValuePair_2_t7036  ret = ((Func)method->method)(obj, (Object_t *)args[0], *((float*)args[1]), method);
+	typedef KeyValuePair_2_t7571  (*Func)(void* obj, Object_t * p1, float p2, const MethodInfo* method);
+	KeyValuePair_2_t7571  ret = ((Func)method->method)(obj, (Object_t *)args[0], *((float*)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -13886,10 +15049,10 @@ void* RuntimeInvoker_Object_t_Int16_t756_Object_t (const MethodInfo* method, voi
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7042_Object_t_Double_t90 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7577_Object_t_Double_t90 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7042  (*Func)(void* obj, Object_t * p1, double p2, const MethodInfo* method);
-	KeyValuePair_2_t7042  ret = ((Func)method->method)(obj, (Object_t *)args[0], *((double*)args[1]), method);
+	typedef KeyValuePair_2_t7577  (*Func)(void* obj, Object_t * p1, double p2, const MethodInfo* method);
+	KeyValuePair_2_t7577  ret = ((Func)method->method)(obj, (Object_t *)args[0], *((double*)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -14011,19 +15174,19 @@ void* RuntimeInvoker_Object_t_Int64_t89_Object_t (const MethodInfo* method, void
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7053_Object_t_DateTime_t287 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7588_Object_t_DateTime_t287 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7053  (*Func)(void* obj, Object_t * p1, DateTime_t287  p2, const MethodInfo* method);
-	KeyValuePair_2_t7053  ret = ((Func)method->method)(obj, (Object_t *)args[0], *((DateTime_t287 *)args[1]), method);
+	typedef KeyValuePair_2_t7588  (*Func)(void* obj, Object_t * p1, DateTime_t287  p2, const MethodInfo* method);
+	KeyValuePair_2_t7588  ret = ((Func)method->method)(obj, (Object_t *)args[0], *((DateTime_t287 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t7062_Object_t_ParseGeoPoint_t1264 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t7597_Object_t_ParseGeoPoint_t1264 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t7062  (*Func)(void* obj, Object_t * p1, ParseGeoPoint_t1264  p2, const MethodInfo* method);
-	KeyValuePair_2_t7062  ret = ((Func)method->method)(obj, (Object_t *)args[0], *((ParseGeoPoint_t1264 *)args[1]), method);
+	typedef KeyValuePair_2_t7597  (*Func)(void* obj, Object_t * p1, ParseGeoPoint_t1264  p2, const MethodInfo* method);
+	KeyValuePair_2_t7597  ret = ((Func)method->method)(obj, (Object_t *)args[0], *((ParseGeoPoint_t1264 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -14127,10 +15290,10 @@ void* RuntimeInvoker_Object_t_Object_t_Double_t90 (const MethodInfo* method, voi
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_KeyValuePair_2_t8530_Object_t_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_KeyValuePair_2_t9065_Object_t_KeyValuePair_2_t70 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef KeyValuePair_2_t8530  (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t70  p2, const MethodInfo* method);
-	KeyValuePair_2_t8530  ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t70 *)args[1]), method);
+	typedef KeyValuePair_2_t9065  (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t70  p2, const MethodInfo* method);
+	KeyValuePair_2_t9065  ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t70 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -14166,13 +15329,24 @@ void* RuntimeInvoker_Object_t_Object_t_Vector3U26_t845 (const MethodInfo* method
 struct Object_t;
 struct Object_t;
 struct Object_t;
-struct DictionaryNode_t3974;
+struct Exception_t57;
+void* RuntimeInvoker_Object_t_Object_t_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, Exception_t57 ** p2, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (Exception_t57 **)args[1], method);
+	return ret;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct DictionaryNode_t4209;
 // System.Collections.Specialized.ListDictionary/DictionaryNode
 #include "System_System_Collections_Specialized_ListDictionary_Diction.h"
-void* RuntimeInvoker_Object_t_Object_t_DictionaryNodeU26_t4335 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_Object_t_DictionaryNodeU26_t4703 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, Object_t * p1, DictionaryNode_t3974 ** p2, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (DictionaryNode_t3974 **)args[1], method);
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, DictionaryNode_t4209 ** p2, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (DictionaryNode_t4209 **)args[1], method);
 	return ret;
 }
 
@@ -14182,6 +15356,19 @@ void* RuntimeInvoker_IntPtr_t_IntPtr_t_IntPtr_t (const MethodInfo* method, void*
 	typedef IntPtr_t (*Func)(void* obj, IntPtr_t p1, IntPtr_t p2, const MethodInfo* method);
 	IntPtr_t ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), *((IntPtr_t*)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct MethodInfo_t;
+// System.Reflection.MethodInfo
+#include "mscorlib_System_Reflection_MethodInfo.h"
+void* RuntimeInvoker_Object_t_Object_t_MethodInfoU26_t4718 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, MethodInfo_t ** p2, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (MethodInfo_t **)args[1], method);
+	return ret;
 }
 
 struct Object_t;
@@ -14219,7 +15406,7 @@ struct Object_t;
 #include "Mono_Security_Mono_Math_BigInteger_Sign.h"
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Sign_t3792_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Sign_t3112_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, Object_t * p2, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], method);
@@ -14229,11 +15416,33 @@ void* RuntimeInvoker_Sign_t3792_Object_t_Object_t (const MethodInfo* method, voi
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_Object_t_DSAParameters_t3929 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_Object_t_DSAParameters_t3251 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, Object_t * p1, DSAParameters_t3929  p2, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], *((DSAParameters_t3929 *)args[1]), method);
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, DSAParameters_t3251  p2, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], *((DSAParameters_t3251 *)args[1]), method);
 	return ret;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_DateTime_t287_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef DateTime_t287  (*Func)(void* obj, Object_t * p1, Object_t * p2, const MethodInfo* method);
+	DateTime_t287  ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// Mono.Xml.Schema.XsdOrdering
+#include "System_Xml_Mono_Xml_Schema_XsdOrdering.h"
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_XsdOrdering_t3566_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, Object_t * p1, Object_t * p2, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
@@ -14251,7 +15460,7 @@ struct Object_t;
 #include "mscorlib_Mono_Math_BigInteger_Sign.h"
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Sign_t4406_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Sign_t4771_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, Object_t * p2, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], method);
@@ -14261,11 +15470,11 @@ void* RuntimeInvoker_Sign_t4406_Object_t_Object_t (const MethodInfo* method, voi
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_DateTime_t287_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_Object_t_StreamingContext_t2937 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef DateTime_t287  (*Func)(void* obj, Object_t * p1, Object_t * p2, const MethodInfo* method);
-	DateTime_t287  ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, StreamingContext_t2937  p2, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], *((StreamingContext_t2937 *)args[1]), method);
+	return ret;
 }
 
 struct Object_t;
@@ -14372,6 +15581,14 @@ void* RuntimeInvoker_Void_t85_SByte_t88_SByte_t88_SByte_t88 (const MethodInfo* m
 {
 	typedef void (*Func)(void* obj, int8_t p1, int8_t p2, int8_t p3, const MethodInfo* method);
 	((Func)method->method)(obj, *((int8_t*)args[0]), *((int8_t*)args[1]), *((int8_t*)args[2]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Byte_t755_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, uint8_t p1, int8_t p2, int8_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, *((uint8_t*)args[0]), *((int8_t*)args[1]), *((int8_t*)args[2]), method);
 	return NULL;
 }
 
@@ -14484,9 +15701,7 @@ void* RuntimeInvoker_Int32_t82_Int16_t756_Int32_t82_Int32_t82 (const MethodInfo*
 
 struct Object_t;
 struct Exception_t57;
-// System.Exception
-#include "mscorlib_System_Exception.h"
-void* RuntimeInvoker_Boolean_t59_Int32_t82_SByte_t88_ExceptionU26_t5005 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Int32_t82_SByte_t88_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, int32_t p1, int8_t p2, Exception_t57 ** p3, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((int8_t*)args[1]), (Exception_t57 **)args[2], method);
@@ -14527,7 +15742,7 @@ void* RuntimeInvoker_UInt32_t754_Int32_t82_Int32_t82_Int32_t82 (const MethodInfo
 
 struct Object_t;
 struct ObjectU5BU5D_t696;
-void* RuntimeInvoker_Void_t85_ObjectU5BU5DU26_t5004_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_ObjectU5BU5DU26_t5533_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, ObjectU5BU5D_t696** p1, int32_t p2, int32_t p3, const MethodInfo* method);
 	((Func)method->method)(obj, (ObjectU5BU5D_t696**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
@@ -14536,7 +15751,7 @@ void* RuntimeInvoker_Void_t85_ObjectU5BU5DU26_t5004_Int32_t82_Int32_t82 (const M
 
 struct Object_t;
 struct Int32U5BU5D_t484;
-void* RuntimeInvoker_Void_t85_Int32U5BU5DU26_t9878_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int32U5BU5DU26_t10508_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, Int32U5BU5D_t484** p1, int32_t p2, int32_t p3, const MethodInfo* method);
 	((Func)method->method)(obj, (Int32U5BU5D_t484**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
@@ -14545,7 +15760,7 @@ void* RuntimeInvoker_Void_t85_Int32U5BU5DU26_t9878_Int32_t82_Int32_t82 (const Me
 
 struct Object_t;
 struct SingleU5BU5D_t587;
-void* RuntimeInvoker_Void_t85_SingleU5BU5DU26_t9880_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_SingleU5BU5DU26_t10510_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, SingleU5BU5D_t587** p1, int32_t p2, int32_t p3, const MethodInfo* method);
 	((Func)method->method)(obj, (SingleU5BU5D_t587**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
@@ -14553,17 +15768,17 @@ void* RuntimeInvoker_Void_t85_SingleU5BU5DU26_t9880_Int32_t82_Int32_t82 (const M
 }
 
 struct Object_t;
-struct RaycastResultU5BU5D_t5815;
-void* RuntimeInvoker_Void_t85_RaycastResultU5BU5DU26_t9882_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct RaycastResultU5BU5D_t6348;
+void* RuntimeInvoker_Void_t85_RaycastResultU5BU5DU26_t10512_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, RaycastResultU5BU5D_t5815** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (RaycastResultU5BU5D_t5815**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, RaycastResultU5BU5D_t6348** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (RaycastResultU5BU5D_t6348**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
 struct UIVertexU5BU5D_t964;
-void* RuntimeInvoker_Void_t85_UIVertexU5BU5DU26_t9883_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_UIVertexU5BU5DU26_t10513_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, UIVertexU5BU5D_t964** p1, int32_t p2, int32_t p3, const MethodInfo* method);
 	((Func)method->method)(obj, (UIVertexU5BU5D_t964**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
@@ -14571,17 +15786,17 @@ void* RuntimeInvoker_Void_t85_UIVertexU5BU5DU26_t9883_Int32_t82_Int32_t82 (const
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t6073;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9884_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t6606;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10514_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t6073** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t6073**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t6606** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t6606**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
 struct ByteU5BU5D_t66;
-void* RuntimeInvoker_Void_t85_ByteU5BU5DU26_t3962_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_ByteU5BU5DU26_t3289_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, ByteU5BU5D_t66** p1, int32_t p2, int32_t p3, const MethodInfo* method);
 	((Func)method->method)(obj, (ByteU5BU5D_t66**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
@@ -14589,197 +15804,197 @@ void* RuntimeInvoker_Void_t85_ByteU5BU5DU26_t3962_Int32_t82_Int32_t82 (const Met
 }
 
 struct Object_t;
-struct SByteU5BU5D_t4778;
-void* RuntimeInvoker_Void_t85_SByteU5BU5DU26_t9885_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct SByteU5BU5D_t5369;
+void* RuntimeInvoker_Void_t85_SByteU5BU5DU26_t10515_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, SByteU5BU5D_t4778** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (SByteU5BU5D_t4778**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, SByteU5BU5D_t5369** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (SByteU5BU5D_t5369**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct Int16U5BU5D_t4903;
-void* RuntimeInvoker_Void_t85_Int16U5BU5DU26_t9886_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct Int16U5BU5D_t5433;
+void* RuntimeInvoker_Void_t85_Int16U5BU5DU26_t10516_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Int16U5BU5D_t4903** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (Int16U5BU5D_t4903**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, Int16U5BU5D_t5433** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (Int16U5BU5D_t5433**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct UInt16U5BU5D_t4077;
-void* RuntimeInvoker_Void_t85_UInt16U5BU5DU26_t9887_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct UInt16U5BU5D_t4381;
+void* RuntimeInvoker_Void_t85_UInt16U5BU5DU26_t10517_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, UInt16U5BU5D_t4077** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (UInt16U5BU5D_t4077**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, UInt16U5BU5D_t4381** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (UInt16U5BU5D_t4381**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct UInt32U5BU5D_t3234;
-void* RuntimeInvoker_Void_t85_UInt32U5BU5DU26_t9888_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct UInt32U5BU5D_t3116;
+void* RuntimeInvoker_Void_t85_UInt32U5BU5DU26_t10518_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, UInt32U5BU5D_t3234** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (UInt32U5BU5D_t3234**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, UInt32U5BU5D_t3116** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (UInt32U5BU5D_t3116**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct Int64U5BU5D_t4889;
-void* RuntimeInvoker_Void_t85_Int64U5BU5DU26_t5399_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct Int64U5BU5D_t4562;
+void* RuntimeInvoker_Void_t85_Int64U5BU5DU26_t5770_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Int64U5BU5D_t4889** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (Int64U5BU5D_t4889**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, Int64U5BU5D_t4562** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (Int64U5BU5D_t4562**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct UInt64U5BU5D_t4727;
-void* RuntimeInvoker_Void_t85_UInt64U5BU5DU26_t9889_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct UInt64U5BU5D_t5278;
+void* RuntimeInvoker_Void_t85_UInt64U5BU5DU26_t10519_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, UInt64U5BU5D_t4727** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (UInt64U5BU5D_t4727**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, UInt64U5BU5D_t5278** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (UInt64U5BU5D_t5278**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct DoubleU5BU5D_t4890;
-void* RuntimeInvoker_Void_t85_DoubleU5BU5DU26_t9890_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct DoubleU5BU5D_t5416;
+void* RuntimeInvoker_Void_t85_DoubleU5BU5DU26_t10520_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, DoubleU5BU5D_t4890** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (DoubleU5BU5D_t4890**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, DoubleU5BU5D_t5416** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (DoubleU5BU5D_t5416**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct DateTimeU5BU5D_t4912;
-void* RuntimeInvoker_Void_t85_DateTimeU5BU5DU26_t9891_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct DateTimeU5BU5D_t5444;
+void* RuntimeInvoker_Void_t85_DateTimeU5BU5DU26_t10521_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, DateTimeU5BU5D_t4912** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (DateTimeU5BU5D_t4912**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, DateTimeU5BU5D_t5444** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (DateTimeU5BU5D_t5444**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct ParseGeoPointU5BU5D_t6895;
-void* RuntimeInvoker_Void_t85_ParseGeoPointU5BU5DU26_t9892_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct ParseGeoPointU5BU5D_t7430;
+void* RuntimeInvoker_Void_t85_ParseGeoPointU5BU5DU26_t10522_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, ParseGeoPointU5BU5D_t6895** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (ParseGeoPointU5BU5D_t6895**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, ParseGeoPointU5BU5D_t7430** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (ParseGeoPointU5BU5D_t7430**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t7320;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9893_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t7855;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10523_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7320** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7320**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7855** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7855**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t7397;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9894_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t7932;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10524_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7397** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7397**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7932** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7932**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t7462;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9895_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t7997;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10525_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7462** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7462**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7997** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7997**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t7527;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9896_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t8062;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10526_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7527** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7527**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8062** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8062**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t7592;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9897_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t8127;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10527_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7592** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7592**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8127** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8127**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t7657;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9898_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t8192;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10528_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7657** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7657**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8192** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8192**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t7722;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9899_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t8257;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10529_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7722** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7722**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8257** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8257**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t7787;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9900_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t8322;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10530_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7787** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7787**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8322** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8322**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t7865;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9901_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t8400;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10531_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7865** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7865**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8400** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8400**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t7930;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9902_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t8465;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10532_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t7930** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t7930**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8465** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8465**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t8004;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9903_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t8539;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10533_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8004** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8004**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8539** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8539**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t8036;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9904_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t8571;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10534_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8036** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8036**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8571** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8571**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
 struct Object_t;
 struct UICharInfoU5BU5D_t2926;
-void* RuntimeInvoker_Void_t85_UICharInfoU5BU5DU26_t9905_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_UICharInfoU5BU5DU26_t10535_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, UICharInfoU5BU5D_t2926** p1, int32_t p2, int32_t p3, const MethodInfo* method);
 	((Func)method->method)(obj, (UICharInfoU5BU5D_t2926**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
@@ -14788,7 +16003,7 @@ void* RuntimeInvoker_Void_t85_UICharInfoU5BU5DU26_t9905_Int32_t82_Int32_t82 (con
 
 struct Object_t;
 struct UILineInfoU5BU5D_t2927;
-void* RuntimeInvoker_Void_t85_UILineInfoU5BU5DU26_t9906_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_UILineInfoU5BU5DU26_t10536_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, UILineInfoU5BU5D_t2927** p1, int32_t p2, int32_t p3, const MethodInfo* method);
 	((Func)method->method)(obj, (UILineInfoU5BU5D_t2927**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
@@ -14796,11 +16011,11 @@ void* RuntimeInvoker_Void_t85_UILineInfoU5BU5DU26_t9906_Int32_t82_Int32_t82 (con
 }
 
 struct Object_t;
-struct KeyValuePair_2U5BU5D_t8647;
-void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t9907_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct KeyValuePair_2U5BU5D_t9196;
+void* RuntimeInvoker_Void_t85_KeyValuePair_2U5BU5DU26_t10537_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t8647** p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t8647**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, KeyValuePair_2U5BU5D_t9196** p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (KeyValuePair_2U5BU5D_t9196**)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
 }
 
@@ -14829,6 +16044,14 @@ void* RuntimeInvoker_Boolean_t59_Int32_t82_Int32U26_t840_Int32_t82 (const Method
 }
 
 struct Object_t;
+void* RuntimeInvoker_Boolean_t59_Int32_t82_Int32_t82_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, int32_t p1, int32_t p2, int32_t* p3, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((int32_t*)args[1]), (int32_t*)args[2], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
 struct Object_t;
 void* RuntimeInvoker_Void_t85_Object_t_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
@@ -14847,7 +16070,7 @@ void* RuntimeInvoker_Void_t85_Single_t87_Single_t87_Single_t87 (const MethodInfo
 
 struct Object_t;
 struct ByteU5BU5D_t66;
-void* RuntimeInvoker_Void_t85_SByte_t88_ByteU5BU5DU26_t3962_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_SByte_t88_ByteU5BU5DU26_t3289_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, int8_t p1, ByteU5BU5D_t66** p2, int32_t* p3, const MethodInfo* method);
 	((Func)method->method)(obj, *((int8_t*)args[0]), (ByteU5BU5D_t66**)args[1], (int32_t*)args[2], method);
@@ -14898,20 +16121,20 @@ void* RuntimeInvoker_Int32_t82_Int32_t82_Int32_t82_RectU26_t3006 (const MethodIn
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Int32U26_t840_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, int32_t* p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (int32_t*)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
 struct Object_t;
 void* RuntimeInvoker_Object_t_SByte_t88_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef Object_t * (*Func)(void* obj, int8_t p1, int8_t p2, int8_t p3, const MethodInfo* method);
 	Object_t * ret = ((Func)method->method)(obj, *((int8_t*)args[0]), *((int8_t*)args[1]), *((int8_t*)args[2]), method);
 	return ret;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Int32_t82_Int32U26_t840_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, int32_t* p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (int32_t*)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
@@ -14937,6 +16160,14 @@ void* RuntimeInvoker_Void_t85_IntPtr_t_Int32_t82_Int32_t82 (const MethodInfo* me
 	typedef void (*Func)(void* obj, IntPtr_t p1, int32_t p2, int32_t p3, const MethodInfo* method);
 	((Func)method->method)(obj, *((IntPtr_t*)args[0]), *((int32_t*)args[1]), *((int32_t*)args[2]), method);
 	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_XmlSchemaDerivationMethod_t3648_Int32_t82_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, int32_t p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
@@ -15007,12 +16238,12 @@ void* RuntimeInvoker_Boolean_t59_Int32U26_t840_Int32U26_t840_Int32_t82 (const Me
 }
 
 struct Object_t;
-struct Int64U5BU5D_t4889;
+struct Int64U5BU5D_t4562;
 struct StringU5BU5D_t75;
-void* RuntimeInvoker_Boolean_t59_Int32_t82_Int64U5BU5DU26_t5399_StringU5BU5DU26_t4340 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Int32_t82_Int64U5BU5DU26_t5770_StringU5BU5DU26_t4706 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, int32_t p1, Int64U5BU5D_t4889** p2, StringU5BU5D_t75** p3, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, *((int32_t*)args[0]), (Int64U5BU5D_t4889**)args[1], (StringU5BU5D_t75**)args[2], method);
+	typedef bool (*Func)(void* obj, int32_t p1, Int64U5BU5D_t4562** p2, StringU5BU5D_t75** p3, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((int32_t*)args[0]), (Int64U5BU5D_t4562**)args[1], (StringU5BU5D_t75**)args[2], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -15076,6 +16307,15 @@ void* RuntimeInvoker_Void_t85_IntPtr_t_SByte_t88_Int32U26_t840 (const MethodInfo
 	typedef void (*Func)(void* obj, IntPtr_t p1, int8_t p2, int32_t* p3, const MethodInfo* method);
 	((Func)method->method)(obj, *((IntPtr_t*)args[0]), *((int8_t*)args[1]), (int32_t*)args[2], method);
 	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
@@ -15156,6 +16396,17 @@ void* RuntimeInvoker_Void_t85_Vector3U26_t845_ColorU26_t1157_SphericalHarmonicsL
 }
 
 struct Object_t;
+struct String_t;
+struct String_t;
+struct String_t;
+void* RuntimeInvoker_Void_t85_StringU26_t827_StringU26_t827_StringU26_t827 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, String_t** p1, String_t** p2, String_t** p3, const MethodInfo* method);
+	((Func)method->method)(obj, (String_t**)args[0], (String_t**)args[1], (String_t**)args[2], method);
+	return NULL;
+}
+
+struct Object_t;
 void* RuntimeInvoker_Void_t85_IntPtr_t_Int32_t82_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, IntPtr_t p1, int32_t p2, int32_t* p3, const MethodInfo* method);
@@ -15208,10 +16459,19 @@ void* RuntimeInvoker_Boolean_t59_RayU26_t3013_BoundsU26_t3012_SingleU26_t847 (co
 }
 
 struct Object_t;
-void* RuntimeInvoker_TransitionTime_t3372_DateTime_t287_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_TransitionTime_t3750_DateTime_t287_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef TransitionTime_t3372  (*Func)(void* obj, DateTime_t287  p1, int32_t p2, int32_t p3, const MethodInfo* method);
-	TransitionTime_t3372  ret = ((Func)method->method)(obj, *((DateTime_t287 *)args[0]), *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	typedef TransitionTime_t3750  (*Func)(void* obj, DateTime_t287  p1, int32_t p2, int32_t p3, const MethodInfo* method);
+	TransitionTime_t3750  ret = ((Func)method->method)(obj, *((DateTime_t287 *)args[0]), *((int32_t*)args[1]), *((int32_t*)args[2]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Int64_t89_Object_t_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int64_t (*Func)(void* obj, Object_t * p1, int32_t p2, int8_t p3, const MethodInfo* method);
+	int64_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int8_t*)args[2]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -15276,7 +16536,7 @@ void* RuntimeInvoker_Void_t85_DateTime_t287_DateTime_t287_TimeSpan_t334 (const M
 }
 
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_IntPtr_t_Int64_t89_MonoIOErrorU26_t5350 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_IntPtr_t_Int64_t89_MonoIOErrorU26_t5776 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, IntPtr_t p1, int64_t p2, int32_t* p3, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), *((int64_t*)args[1]), (int32_t*)args[2], method);
@@ -15349,10 +16609,10 @@ struct Object_t;
 struct Object_t;
 // System.Reflection.MonoPropertyInfo
 #include "mscorlib_System_Reflection_MonoPropertyInfo.h"
-void* RuntimeInvoker_Void_t85_Object_t_MonoPropertyInfoU26_t5355_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Object_t_MonoPropertyInfoU26_t5781_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Object_t * p1, MonoPropertyInfo_t4564 * p2, int32_t p3, const MethodInfo* method);
-	((Func)method->method)(obj, (Object_t *)args[0], (MonoPropertyInfo_t4564 *)args[1], *((int32_t*)args[2]), method);
+	typedef void (*Func)(void* obj, Object_t * p1, MonoPropertyInfo_t5028 * p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (MonoPropertyInfo_t5028 *)args[1], *((int32_t*)args[2]), method);
 	return NULL;
 }
 
@@ -15385,11 +16645,29 @@ void* RuntimeInvoker_Void_t85_Object_t_AnimatorStateInfo_t2795_Int32_t82 (const 
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_UInt32U26_t3771_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_UInt32U26_t4184_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, uint32_t* p2, int32_t p3, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (uint32_t*)args[1], *((int32_t*)args[2]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t* p3, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (int32_t*)args[2], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_OpCode_t4583_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, OpCode_t4583  p1, Object_t * p2, int32_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, *((OpCode_t4583 *)args[0]), (Object_t *)args[1], *((int32_t*)args[2]), method);
+	return NULL;
 }
 
 struct Object_t;
@@ -15402,7 +16680,7 @@ void* RuntimeInvoker_Boolean_t59_Int32_t82_Rect_t708_Object_t (const MethodInfo*
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_DecimalU26_t5048_DecimalU26_t5048_DecimalU26_t5048 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_DecimalU26_t5576_DecimalU26_t5576_DecimalU26_t5576 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Decimal_t759 * p1, Decimal_t759 * p2, Decimal_t759 * p3, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Decimal_t759 *)args[0], (Decimal_t759 *)args[1], (Decimal_t759 *)args[2], method);
@@ -15454,10 +16732,28 @@ void* RuntimeInvoker_Void_t85_IntPtr_t_RenderBufferU26_t3016_RenderBufferU26_t30
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_X509ChainStatusFlags_t4118_Object_t_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_X509ChainStatusFlags_t4451_Object_t_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int8_t p3, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int8_t*)args[2]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_IntPtr_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, IntPtr_t p1, Object_t * p2, int8_t p3, const MethodInfo* method);
+	((Func)method->method)(obj, *((IntPtr_t*)args[0]), (Object_t *)args[1], *((int8_t*)args[2]), method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Int32_t82_Object_t_TimeSpan_t334_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, Object_t * p1, TimeSpan_t334  p2, int8_t p3, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((TimeSpan_t334 *)args[1]), *((int8_t*)args[2]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -15522,20 +16818,10 @@ struct Object_t;
 struct Object_t;
 struct ByteU5BU5D_t66;
 struct ByteU5BU5D_t66;
-void* RuntimeInvoker_Void_t85_Object_t_ByteU5BU5DU26_t3962_ByteU5BU5DU26_t3962 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Object_t_ByteU5BU5DU26_t3289_ByteU5BU5DU26_t3289 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, Object_t * p1, ByteU5BU5D_t66** p2, ByteU5BU5D_t66** p3, const MethodInfo* method);
 	((Func)method->method)(obj, (Object_t *)args[0], (ByteU5BU5D_t66**)args[1], (ByteU5BU5D_t66**)args[2], method);
-	return NULL;
-}
-
-struct Object_t;
-struct Object_t;
-struct Object_t;
-void* RuntimeInvoker_Void_t85_Object_t_SByte_t88_Object_t (const MethodInfo* method, void* obj, void** args)
-{
-	typedef void (*Func)(void* obj, Object_t * p1, int8_t p2, Object_t * p3, const MethodInfo* method);
-	((Func)method->method)(obj, (Object_t *)args[0], *((int8_t*)args[1]), (Object_t *)args[2], method);
 	return NULL;
 }
 
@@ -15552,10 +16838,33 @@ void* RuntimeInvoker_Void_t85_SByte_t88_Object_t_Object_t (const MethodInfo* met
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Object_t_Int64U26_t5010_ObjectU26_t2379 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Object_t_SByte_t88_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, int8_t p2, Object_t * p3, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], *((int8_t*)args[1]), (Object_t *)args[2], method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_Int64U26_t5538_ObjectU26_t2379 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, Object_t * p1, int64_t* p2, Object_t ** p3, const MethodInfo* method);
 	((Func)method->method)(obj, (Object_t *)args[0], (int64_t*)args[1], (Object_t **)args[2], method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+struct TypeMetadata_t5219;
+// System.Runtime.Serialization.Formatters.Binary.TypeMetadata
+#include "mscorlib_System_Runtime_Serialization_Formatters_Binary_Type_0.h"
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_TypeMetadataU26_t5793_ObjectU26_t2379 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, TypeMetadata_t5219 ** p2, Object_t ** p3, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (TypeMetadata_t5219 **)args[1], (Object_t **)args[2], method);
 	return NULL;
 }
 
@@ -15572,16 +16881,6 @@ void* RuntimeInvoker_Boolean_t59_SByte_t88_Object_t_Object_t (const MethodInfo* 
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef bool (*Func)(void* obj, Object_t * p1, Object_t * p2, int8_t p3, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int8_t*)args[2]), method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-struct Object_t;
-struct Object_t;
 void* RuntimeInvoker_Void_t85_Object_t_Byte_t755_Object_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, Object_t * p1, uint8_t p2, Object_t * p3, const MethodInfo* method);
@@ -15591,12 +16890,22 @@ void* RuntimeInvoker_Void_t85_Object_t_Byte_t755_Object_t (const MethodInfo* met
 
 struct Object_t;
 struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, Object_t * p1, Object_t * p2, int8_t p3, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int8_t*)args[2]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
 // System.IO.MonoIOStat
 #include "mscorlib_System_IO_MonoIOStat.h"
-void* RuntimeInvoker_Boolean_t59_Object_t_MonoIOStatU26_t5351_MonoIOErrorU26_t5350 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_MonoIOStatU26_t5777_MonoIOErrorU26_t5776 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, Object_t * p1, MonoIOStat_t4507 * p2, int32_t* p3, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (MonoIOStat_t4507 *)args[1], (int32_t*)args[2], method);
+	typedef bool (*Func)(void* obj, Object_t * p1, MonoIOStat_t4990 * p2, int32_t* p3, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (MonoIOStat_t4990 *)args[1], (int32_t*)args[2], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -15635,7 +16944,7 @@ void* RuntimeInvoker_Color_t325_Color_t325_Color_t325_Single_t87 (const MethodIn
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Char_t60_Object_t_Int32U26_t840_CharU26_t4351 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Char_t60_Object_t_Int32U26_t840_CharU26_t4721 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef uint16_t (*Func)(void* obj, Object_t * p1, int32_t* p2, uint16_t* p3, const MethodInfo* method);
 	uint16_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (int32_t*)args[1], (uint16_t*)args[2], method);
@@ -15764,6 +17073,16 @@ void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int64_t89 (const MethodInfo* met
 }
 
 struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_Int64_t89_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, int64_t p2, Object_t * p3, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], *((int64_t*)args[1]), (Object_t *)args[2], method);
+	return NULL;
+}
+
+struct Object_t;
 void* RuntimeInvoker_Matrix4x4_t1100_Vector3_t538_Quaternion_t802_Vector3_t538 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef Matrix4x4_t1100  (*Func)(void* obj, Vector3_t538  p1, Quaternion_t802  p2, Vector3_t538  p3, const MethodInfo* method);
@@ -15857,23 +17176,23 @@ void* RuntimeInvoker_Void_t85_IntPtr_t_Object_t_Vector2U26_t3007 (const MethodIn
 }
 
 struct Object_t;
+// System.Net.ChunkStream/State
+#include "System_System_Net_ChunkStream_State.h"
+struct Object_t;
+void* RuntimeInvoker_State_t4305_Object_t_Int32U26_t840_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t* p2, int32_t p3, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (int32_t*)args[1], *((int32_t*)args[2]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
 struct Object_t;
 void* RuntimeInvoker_Void_t85_IntPtr_t_Object_t_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, IntPtr_t p1, Object_t * p2, int32_t* p3, const MethodInfo* method);
 	((Func)method->method)(obj, *((IntPtr_t*)args[0]), (Object_t *)args[1], (int32_t*)args[2], method);
 	return NULL;
-}
-
-struct Object_t;
-// System.Net.ChunkStream/State
-#include "System_System_Net_ChunkStream_State.h"
-struct Object_t;
-void* RuntimeInvoker_State_t4031_Object_t_Int32U26_t840_Int32_t82 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t* p2, int32_t p3, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (int32_t*)args[1], *((int32_t*)args[2]), method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
@@ -16027,7 +17346,7 @@ void* RuntimeInvoker_Object_t_Object_t_Int32_t82_Int32_t82 (const MethodInfo* me
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_IntPtr_t_IntPtr_t_IntPtrU26_t4346 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_IntPtr_t_IntPtr_t_IntPtrU26_t4715 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, IntPtr_t p1, IntPtr_t p2, IntPtr_t* p3, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), *((IntPtr_t*)args[1]), (IntPtr_t*)args[2], method);
@@ -16066,6 +17385,16 @@ void* RuntimeInvoker_Object_t_Int32_t82_Object_t_Int32_t82 (const MethodInfo* me
 
 struct Object_t;
 struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Object_t_Int32_t82_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, int32_t p1, int32_t p2, Object_t * p3, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((int32_t*)args[1]), (Object_t *)args[2], method);
+	return ret;
+}
+
+struct Object_t;
+struct Object_t;
 void* RuntimeInvoker_IntPtr_t_SByte_t88_Object_t_BooleanU26_t841 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef IntPtr_t (*Func)(void* obj, int8_t p1, Object_t * p2, bool* p3, const MethodInfo* method);
@@ -16087,6 +17416,30 @@ void* RuntimeInvoker_Void_t85_TouchScreenKeyboard_InternalConstructorHelperArgum
 
 struct Object_t;
 struct Object_t;
+struct XmlSchemaDatatype_t3469;
+// System.Xml.Schema.XmlSchemaDatatype
+#include "System_Xml_System_Xml_Schema_XmlSchemaDatatype.h"
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_XmlSchemaDatatypeU26_t3736_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, XmlSchemaDatatype_t3469 ** p2, Object_t * p3, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (XmlSchemaDatatype_t3469 **)args[1], (Object_t *)args[2], method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_ObjectU26_t2379_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, Object_t ** p2, Object_t * p3, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (Object_t **)args[1], (Object_t *)args[2], method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
 struct Object_t;
 void* RuntimeInvoker_UInt32_t754_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args)
 {
@@ -16099,7 +17452,7 @@ struct Object_t;
 struct Object_t;
 struct ObjectU5BU5D_t696;
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Object_t_ObjectU5BU5DU26_t5004_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Object_t_ObjectU5BU5DU26_t5533_Object_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, Object_t * p1, ObjectU5BU5D_t696** p2, Object_t * p3, const MethodInfo* method);
 	((Func)method->method)(obj, (Object_t *)args[0], (ObjectU5BU5D_t696**)args[1], (Object_t *)args[2], method);
@@ -16150,7 +17503,7 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct ByteU5BU5D_t66;
-void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_ByteU5BU5DU26_t3962 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_ByteU5BU5DU26_t3289 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, Object_t * p2, ByteU5BU5D_t66** p3, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (ByteU5BU5D_t66**)args[2], method);
@@ -16161,7 +17514,7 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct ObjectU5BU5D_t696;
-void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_ObjectU5BU5DU26_t5004 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_ObjectU5BU5DU26_t5533 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, Object_t * p2, ObjectU5BU5D_t696** p3, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (ObjectU5BU5D_t696**)args[2], method);
@@ -16196,6 +17549,29 @@ void* RuntimeInvoker_Void_t85_Object_t_Object_t_StreamingContext_t2937 (const Me
 	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, StreamingContext_t2937  p3, const MethodInfo* method);
 	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((StreamingContext_t2937 *)args[2]), method);
 	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_OpCode_t4583_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, OpCode_t4583  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
+	((Func)method->method)(obj, *((OpCode_t4583 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
+	return NULL;
+}
+
+struct Object_t;
+struct PermissionSet_t4833;
+// System.Security.PermissionSet
+#include "mscorlib_System_Security_PermissionSet.h"
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_PermissionSetU26_t5794_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, PermissionSet_t4833 ** p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (PermissionSet_t4833 **)args[0], (Object_t *)args[1], (Object_t *)args[2], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
@@ -16250,8 +17626,18 @@ void* RuntimeInvoker_Single_t87_IntPtr_t_Object_t_Single_t87 (const MethodInfo* 
 struct Object_t;
 struct Object_t;
 struct Object_t;
+void* RuntimeInvoker_Single_t87_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef float (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, const MethodInfo* method);
+	float ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
 struct Exception_t57;
-void* RuntimeInvoker_Object_t_Object_t_SByte_t88_ExceptionU26_t5005 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_Object_t_SByte_t88_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef Object_t * (*Func)(void* obj, Object_t * p1, int8_t p2, Exception_t57 ** p3, const MethodInfo* method);
 	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int8_t*)args[1]), (Exception_t57 **)args[2], method);
@@ -16279,7 +17665,7 @@ void* RuntimeInvoker_Object_t_Touch_t720_BooleanU26_t841_BooleanU26_t841 (const 
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_X509ChainStatusFlags_t4118_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_X509ChainStatusFlags_t4451_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, Object_t * p2, int8_t p3, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int8_t*)args[2]), method);
@@ -16317,118 +17703,118 @@ void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t70_KeyValuePair_2_t70_Object_t (c
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t6218_KeyValuePair_2_t6218_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t6751_KeyValuePair_2_t6751_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t6218  p1, KeyValuePair_2_t6218  p2, Object_t * p3, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6218 *)args[0]), *((KeyValuePair_2_t6218 *)args[1]), (Object_t *)args[2], method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t6751  p1, KeyValuePair_2_t6751  p2, Object_t * p3, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6751 *)args[0]), *((KeyValuePair_2_t6751 *)args[1]), (Object_t *)args[2], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7228_KeyValuePair_2_t7228_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7763_KeyValuePair_2_t7763_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7228  p1, KeyValuePair_2_t7228  p2, Object_t * p3, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7228 *)args[0]), *((KeyValuePair_2_t7228 *)args[1]), (Object_t *)args[2], method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7763  p1, KeyValuePair_2_t7763  p2, Object_t * p3, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7763 *)args[0]), *((KeyValuePair_2_t7763 *)args[1]), (Object_t *)args[2], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7239_KeyValuePair_2_t7239_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7774_KeyValuePair_2_t7774_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7239  p1, KeyValuePair_2_t7239  p2, Object_t * p3, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7239 *)args[0]), *((KeyValuePair_2_t7239 *)args[1]), (Object_t *)args[2], method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7774  p1, KeyValuePair_2_t7774  p2, Object_t * p3, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7774 *)args[0]), *((KeyValuePair_2_t7774 *)args[1]), (Object_t *)args[2], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7250_KeyValuePair_2_t7250_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7785_KeyValuePair_2_t7785_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7250  p1, KeyValuePair_2_t7250  p2, Object_t * p3, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7250 *)args[0]), *((KeyValuePair_2_t7250 *)args[1]), (Object_t *)args[2], method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7785  p1, KeyValuePair_2_t7785  p2, Object_t * p3, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7785 *)args[0]), *((KeyValuePair_2_t7785 *)args[1]), (Object_t *)args[2], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t5549_KeyValuePair_2_t5549_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t6082_KeyValuePair_2_t6082_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t5549  p1, KeyValuePair_2_t5549  p2, Object_t * p3, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5549 *)args[0]), *((KeyValuePair_2_t5549 *)args[1]), (Object_t *)args[2], method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t6082  p1, KeyValuePair_2_t6082  p2, Object_t * p3, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6082 *)args[0]), *((KeyValuePair_2_t6082 *)args[1]), (Object_t *)args[2], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7268_KeyValuePair_2_t7268_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7803_KeyValuePair_2_t7803_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7268  p1, KeyValuePair_2_t7268  p2, Object_t * p3, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7268 *)args[0]), *((KeyValuePair_2_t7268 *)args[1]), (Object_t *)args[2], method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7803  p1, KeyValuePair_2_t7803  p2, Object_t * p3, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7803 *)args[0]), *((KeyValuePair_2_t7803 *)args[1]), (Object_t *)args[2], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7279_KeyValuePair_2_t7279_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7814_KeyValuePair_2_t7814_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7279  p1, KeyValuePair_2_t7279  p2, Object_t * p3, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7279 *)args[0]), *((KeyValuePair_2_t7279 *)args[1]), (Object_t *)args[2], method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7814  p1, KeyValuePair_2_t7814  p2, Object_t * p3, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7814 *)args[0]), *((KeyValuePair_2_t7814 *)args[1]), (Object_t *)args[2], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7290_KeyValuePair_2_t7290_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7825_KeyValuePair_2_t7825_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7290  p1, KeyValuePair_2_t7290  p2, Object_t * p3, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7290 *)args[0]), *((KeyValuePair_2_t7290 *)args[1]), (Object_t *)args[2], method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7825  p1, KeyValuePair_2_t7825  p2, Object_t * p3, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7825 *)args[0]), *((KeyValuePair_2_t7825 *)args[1]), (Object_t *)args[2], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7042_KeyValuePair_2_t7042_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7577_KeyValuePair_2_t7577_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7042  p1, KeyValuePair_2_t7042  p2, Object_t * p3, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7042 *)args[0]), *((KeyValuePair_2_t7042 *)args[1]), (Object_t *)args[2], method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7577  p1, KeyValuePair_2_t7577  p2, Object_t * p3, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7577 *)args[0]), *((KeyValuePair_2_t7577 *)args[1]), (Object_t *)args[2], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7036_KeyValuePair_2_t7036_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7571_KeyValuePair_2_t7571_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7036  p1, KeyValuePair_2_t7036  p2, Object_t * p3, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7036 *)args[0]), *((KeyValuePair_2_t7036 *)args[1]), (Object_t *)args[2], method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7571  p1, KeyValuePair_2_t7571  p2, Object_t * p3, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7571 *)args[0]), *((KeyValuePair_2_t7571 *)args[1]), (Object_t *)args[2], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7053_KeyValuePair_2_t7053_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7588_KeyValuePair_2_t7588_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7053  p1, KeyValuePair_2_t7053  p2, Object_t * p3, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7053 *)args[0]), *((KeyValuePair_2_t7053 *)args[1]), (Object_t *)args[2], method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7588  p1, KeyValuePair_2_t7588  p2, Object_t * p3, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7588 *)args[0]), *((KeyValuePair_2_t7588 *)args[1]), (Object_t *)args[2], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7062_KeyValuePair_2_t7062_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t7597_KeyValuePair_2_t7597_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7062  p1, KeyValuePair_2_t7062  p2, Object_t * p3, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7062 *)args[0]), *((KeyValuePair_2_t7062 *)args[1]), (Object_t *)args[2], method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t7597  p1, KeyValuePair_2_t7597  p2, Object_t * p3, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7597 *)args[0]), *((KeyValuePair_2_t7597 *)args[1]), (Object_t *)args[2], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t3396_KeyValuePair_2_t3396_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_KeyValuePair_2_t3795_KeyValuePair_2_t3795_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t3396  p1, KeyValuePair_2_t3396  p2, Object_t * p3, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t3396 *)args[0]), *((KeyValuePair_2_t3396 *)args[1]), (Object_t *)args[2], method);
+	typedef int32_t (*Func)(void* obj, KeyValuePair_2_t3795  p1, KeyValuePair_2_t3795  p2, Object_t * p3, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((KeyValuePair_2_t3795 *)args[0]), *((KeyValuePair_2_t3795 *)args[1]), (Object_t *)args[2], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -16439,6 +17825,16 @@ void* RuntimeInvoker_Single_t87_Object_t_Object_t_Single_t87 (const MethodInfo* 
 {
 	typedef float (*Func)(void* obj, Object_t * p1, Object_t * p2, float p3, const MethodInfo* method);
 	float ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((float*)args[2]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_DateTime_t287_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef DateTime_t287  (*Func)(void* obj, Object_t * p1, Object_t * p2, int32_t p3, const MethodInfo* method);
+	DateTime_t287  ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int32_t*)args[2]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -16464,23 +17860,13 @@ void* RuntimeInvoker_Void_t85_Object_t_IntPtr_t_Object_t (const MethodInfo* meth
 
 struct Object_t;
 struct Object_t;
-struct Object_t;
-void* RuntimeInvoker_DateTime_t287_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef DateTime_t287  (*Func)(void* obj, Object_t * p1, Object_t * p2, int32_t p3, const MethodInfo* method);
-	DateTime_t287  ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int32_t*)args[2]), method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-struct Object_t;
-struct Object_t;
-struct Module_t4535;
+struct Module_t5023;
 // System.Reflection.Module
 #include "mscorlib_System_Reflection_Module.h"
-void* RuntimeInvoker_IntPtr_t_Object_t_Int32U26_t840_ModuleU26_t5352 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_IntPtr_t_Object_t_Int32U26_t840_ModuleU26_t5778 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef IntPtr_t (*Func)(void* obj, Object_t * p1, int32_t* p2, Module_t4535 ** p3, const MethodInfo* method);
-	IntPtr_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (int32_t*)args[1], (Module_t4535 **)args[2], method);
+	typedef IntPtr_t (*Func)(void* obj, Object_t * p1, int32_t* p2, Module_t5023 ** p3, const MethodInfo* method);
+	IntPtr_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (int32_t*)args[1], (Module_t5023 **)args[2], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -16573,8 +17959,8 @@ void* RuntimeInvoker_Object_t_Byte_t755_Object_t_Object_t (const MethodInfo* met
 struct Object_t;
 struct Object_t;
 struct Object_t;
-struct ISurrogateSelector_t4637;
-void* RuntimeInvoker_Object_t_Object_t_StreamingContext_t2937_ISurrogateSelectorU26_t5364 (const MethodInfo* method, void* obj, void** args)
+struct ISurrogateSelector_t5172;
+void* RuntimeInvoker_Object_t_Object_t_StreamingContext_t2937_ISurrogateSelectorU26_t5790 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef Object_t * (*Func)(void* obj, Object_t * p1, StreamingContext_t2937  p2, Object_t ** p3, const MethodInfo* method);
 	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], *((StreamingContext_t2937 *)args[1]), (Object_t **)args[2], method);
@@ -16800,6 +18186,29 @@ void* RuntimeInvoker_Object_t_Object_t_Object_t_StringU26_t827 (const MethodInfo
 
 struct Object_t;
 struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Object_t_Object_t_Object_t_BooleanU26_t841 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, Object_t * p2, bool* p3, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (bool*)args[2], method);
+	return ret;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Exception_t57;
+void* RuntimeInvoker_Object_t_Object_t_Object_t_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, Object_t * p2, Exception_t57 ** p3, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (Exception_t57 **)args[2], method);
+	return ret;
+}
+
+struct Object_t;
+struct Object_t;
 void* RuntimeInvoker_IntPtr_t_IntPtr_t_Object_t_IntPtr_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef IntPtr_t (*Func)(void* obj, IntPtr_t p1, Object_t * p2, IntPtr_t p3, const MethodInfo* method);
@@ -16811,13 +18220,11 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-struct MulticastDelegate_t388;
-// System.MulticastDelegate
-#include "mscorlib_System_MulticastDelegate.h"
-void* RuntimeInvoker_Object_t_Object_t_Object_t_MulticastDelegateU26_t5054 (const MethodInfo* method, void* obj, void** args)
+struct MethodInfo_t;
+void* RuntimeInvoker_Object_t_Object_t_Object_t_MethodInfoU26_t4718 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, Object_t * p1, Object_t * p2, MulticastDelegate_t388 ** p3, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (MulticastDelegate_t388 **)args[2], method);
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, Object_t * p2, MethodInfo_t ** p3, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (MethodInfo_t **)args[2], method);
 	return ret;
 }
 
@@ -16825,11 +18232,13 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-struct Exception_t57;
-void* RuntimeInvoker_Object_t_Object_t_Object_t_ExceptionU26_t5005 (const MethodInfo* method, void* obj, void** args)
+struct MulticastDelegate_t388;
+// System.MulticastDelegate
+#include "mscorlib_System_MulticastDelegate.h"
+void* RuntimeInvoker_Object_t_Object_t_Object_t_MulticastDelegateU26_t5582 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, Object_t * p1, Object_t * p2, Exception_t57 ** p3, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (Exception_t57 **)args[2], method);
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, Object_t * p2, MulticastDelegate_t388 ** p3, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (MulticastDelegate_t388 **)args[2], method);
 	return ret;
 }
 
@@ -16905,21 +18314,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_Interval_t4164_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_Interval_t4497_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, Interval_t4164  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((Interval_t4164 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
-	return ret;
-}
-
-struct Object_t;
-struct Object_t;
-struct Object_t;
-struct Object_t;
-void* RuntimeInvoker_Object_t_StreamingContext_t2937_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
-{
-	typedef Object_t * (*Func)(void* obj, StreamingContext_t2937  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((StreamingContext_t2937 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
+	typedef Object_t * (*Func)(void* obj, Interval_t4497  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((Interval_t4497 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
 	return ret;
 }
 
@@ -16953,6 +18351,17 @@ void* RuntimeInvoker_Object_t_Object_t_Decimal_t759_Object_t (const MethodInfo* 
 {
 	typedef Object_t * (*Func)(void* obj, Object_t * p1, Decimal_t759  p2, Object_t * p3, const MethodInfo* method);
 	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], *((Decimal_t759 *)args[1]), (Object_t *)args[2], method);
+	return ret;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Object_t_StreamingContext_t2937_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, StreamingContext_t2937  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((StreamingContext_t2937 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
 	return ret;
 }
 
@@ -17048,10 +18457,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t6218_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t6751_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t6218  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6218 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t6751  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6751 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
 	return ret;
 }
 
@@ -17059,10 +18468,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t7228_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t7763_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7228  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7228 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7763  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7763 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
 	return ret;
 }
 
@@ -17070,10 +18479,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t7239_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t7774_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7239  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7239 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7774  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7774 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
 	return ret;
 }
 
@@ -17081,10 +18490,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t7250_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t7785_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7250  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7250 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7785  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7785 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
 	return ret;
 }
 
@@ -17092,10 +18501,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t5549_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t6082_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t5549  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5549 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t6082  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6082 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
 	return ret;
 }
 
@@ -17103,10 +18512,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t7268_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t7803_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7268  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7268 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7803  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7803 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
 	return ret;
 }
 
@@ -17114,10 +18523,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t7279_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t7814_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7279  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7279 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7814  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7814 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
 	return ret;
 }
 
@@ -17125,10 +18534,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t7290_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t7825_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7290  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7290 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7825  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7825 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
 	return ret;
 }
 
@@ -17136,10 +18545,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t7042_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t7577_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7042  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7042 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7577  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7577 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
 	return ret;
 }
 
@@ -17147,10 +18556,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t7036_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t7571_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7036  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7036 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7571  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7571 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
 	return ret;
 }
 
@@ -17158,10 +18567,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t7053_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t7588_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7053  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7053 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7588  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7588 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
 	return ret;
 }
 
@@ -17169,10 +18578,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t7062_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t7597_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7062  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7062 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7597  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7597 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
 	return ret;
 }
 
@@ -17180,10 +18589,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t3396_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t3795_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t3396  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t3396 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t3795  p1, Object_t * p2, Object_t * p3, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t3795 *)args[0]), (Object_t *)args[1], (Object_t *)args[2], method);
 	return ret;
 }
 
@@ -17204,6 +18613,14 @@ void* RuntimeInvoker_Void_t85_SByte_t88_SByte_t88_SByte_t88_SByte_t88 (const Met
 {
 	typedef void (*Func)(void* obj, int8_t p1, int8_t p2, int8_t p3, int8_t p4, const MethodInfo* method);
 	((Func)method->method)(obj, *((int8_t*)args[0]), *((int8_t*)args[1]), *((int8_t*)args[2]), *((int8_t*)args[3]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Byte_t755_SByte_t88_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, uint8_t p1, int8_t p2, int8_t p3, int8_t p4, const MethodInfo* method);
+	((Func)method->method)(obj, *((uint8_t*)args[0]), *((int8_t*)args[1]), *((int8_t*)args[2]), *((int8_t*)args[3]), method);
 	return NULL;
 }
 
@@ -17266,7 +18683,7 @@ void* RuntimeInvoker_Void_t85_Int32_t82_Single_t87_Int32_t82_SByte_t88 (const Me
 struct Object_t;
 // System.Text.RegularExpressions.OpFlags
 #include "System_System_Text_RegularExpressions_OpFlags.h"
-void* RuntimeInvoker_OpFlags_t4144_SByte_t88_SByte_t88_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_OpFlags_t4464_SByte_t88_SByte_t88_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef uint16_t (*Func)(void* obj, int8_t p1, int8_t p2, int8_t p3, int8_t p4, const MethodInfo* method);
 	uint16_t ret = ((Func)method->method)(obj, *((int8_t*)args[0]), *((int8_t*)args[1]), *((int8_t*)args[2]), *((int8_t*)args[3]), method);
@@ -17470,6 +18887,15 @@ void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_SByte_t88 (const Met
 
 struct Object_t;
 struct Object_t;
+void* RuntimeInvoker_Object_t_Int16_t756_Int16_t756_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, int16_t p1, int16_t p2, int32_t p3, int32_t p4, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((int16_t*)args[0]), *((int16_t*)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
+	return ret;
+}
+
+struct Object_t;
+struct Object_t;
 void* RuntimeInvoker_Int32_t82_Object_t_SByte_t88_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, int8_t p2, int32_t p3, int32_t p4, const MethodInfo* method);
@@ -17505,7 +18931,7 @@ void* RuntimeInvoker_Boolean_t59_IntPtr_t_Int32_t82_Int32_t82_Int32U26_t840 (con
 struct Object_t;
 struct Object_t;
 struct Exception_t57;
-void* RuntimeInvoker_Boolean_t59_SByte_t88_Object_t_Int32_t82_ExceptionU26_t5005 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_SByte_t88_Object_t_Int32_t82_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, int8_t p1, Object_t * p2, int32_t p3, Exception_t57 ** p4, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, *((int8_t*)args[0]), (Object_t *)args[1], *((int32_t*)args[2]), (Exception_t57 **)args[3], method);
@@ -17594,6 +19020,15 @@ void* RuntimeInvoker_Void_t85_CancellationToken_t1181_Int32_t82_Int32_t82_Object
 
 struct Object_t;
 struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2937_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, StreamingContext_t2937  p2, int32_t p3, int32_t p4, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], *((StreamingContext_t2937 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
 void* RuntimeInvoker_Int32_t82_Object_t_Int64_t89_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, int64_t p2, int32_t p3, int32_t p4, const MethodInfo* method);
@@ -17611,7 +19046,7 @@ void* RuntimeInvoker_IntPtr_t_Int32_t82_Int32_t82_Int32_t82_Int32U26_t840 (const
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_CharU26_t4351_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_CharU26_t4721_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, uint16_t* p3, int8_t p4, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (uint16_t*)args[2], *((int8_t*)args[3]), method);
@@ -17657,11 +19092,11 @@ void* RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88_SByte_t88 (const Metho
 struct Object_t;
 struct Object_t;
 struct Object_t;
-struct HeaderU5BU5D_t4866;
-void* RuntimeInvoker_Void_t85_Object_t_SByte_t88_ObjectU26_t2379_HeaderU5BU5DU26_t5365 (const MethodInfo* method, void* obj, void** args)
+struct HeaderU5BU5D_t5388;
+void* RuntimeInvoker_Void_t85_Object_t_SByte_t88_ObjectU26_t2379_HeaderU5BU5DU26_t5791 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Object_t * p1, int8_t p2, Object_t ** p3, HeaderU5BU5D_t4866** p4, const MethodInfo* method);
-	((Func)method->method)(obj, (Object_t *)args[0], *((int8_t*)args[1]), (Object_t **)args[2], (HeaderU5BU5D_t4866**)args[3], method);
+	typedef void (*Func)(void* obj, Object_t * p1, int8_t p2, Object_t ** p3, HeaderU5BU5D_t5388** p4, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], *((int8_t*)args[1]), (Object_t **)args[2], (HeaderU5BU5D_t5388**)args[3], method);
 	return NULL;
 }
 
@@ -17677,7 +19112,7 @@ void* RuntimeInvoker_Int32_t82_Object_t_Double_t90_Int32_t82_Int32_t82 (const Me
 struct Object_t;
 struct Object_t;
 struct Exception_t57;
-void* RuntimeInvoker_Boolean_t59_Object_t_SByte_t88_Int32U26_t840_ExceptionU26_t5005 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_SByte_t88_Int32U26_t840_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, int8_t p2, int32_t* p3, Exception_t57 ** p4, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int8_t*)args[1]), (int32_t*)args[2], (Exception_t57 **)args[3], method);
@@ -17687,7 +19122,7 @@ void* RuntimeInvoker_Boolean_t59_Object_t_SByte_t88_Int32U26_t840_ExceptionU26_t
 struct Object_t;
 struct Object_t;
 struct Exception_t57;
-void* RuntimeInvoker_Boolean_t59_Object_t_SByte_t88_Int64U26_t5010_ExceptionU26_t5005 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_SByte_t88_Int64U26_t5538_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, int8_t p2, int64_t* p3, Exception_t57 ** p4, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int8_t*)args[1]), (int64_t*)args[2], (Exception_t57 **)args[3], method);
@@ -17697,7 +19132,7 @@ void* RuntimeInvoker_Boolean_t59_Object_t_SByte_t88_Int64U26_t5010_ExceptionU26_
 struct Object_t;
 struct Object_t;
 struct Exception_t57;
-void* RuntimeInvoker_Boolean_t59_Object_t_SByte_t88_UInt32U26_t3771_ExceptionU26_t5005 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_SByte_t88_UInt32U26_t4184_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, int8_t p2, uint32_t* p3, Exception_t57 ** p4, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int8_t*)args[1]), (uint32_t*)args[2], (Exception_t57 **)args[3], method);
@@ -17707,7 +19142,7 @@ void* RuntimeInvoker_Boolean_t59_Object_t_SByte_t88_UInt32U26_t3771_ExceptionU26
 struct Object_t;
 struct Object_t;
 struct Exception_t57;
-void* RuntimeInvoker_Boolean_t59_Object_t_SByte_t88_SByteU26_t5020_ExceptionU26_t5005 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_SByte_t88_SByteU26_t5548_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, int8_t p2, int8_t* p3, Exception_t57 ** p4, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int8_t*)args[1]), (int8_t*)args[2], (Exception_t57 **)args[3], method);
@@ -17717,10 +19152,20 @@ void* RuntimeInvoker_Boolean_t59_Object_t_SByte_t88_SByteU26_t5020_ExceptionU26_
 struct Object_t;
 struct Object_t;
 struct Exception_t57;
-void* RuntimeInvoker_Boolean_t59_Object_t_SByte_t88_Int16U26_t5023_ExceptionU26_t5005 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_SByte_t88_Int16U26_t5551_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, int8_t p2, int16_t* p3, Exception_t57 ** p4, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int8_t*)args[1]), (int16_t*)args[2], (Exception_t57 **)args[3], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+// System.InputRecord
+#include "mscorlib_System_InputRecord.h"
+void* RuntimeInvoker_Boolean_t59_IntPtr_t_InputRecordU26_t5774_Int32_t82_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, IntPtr_t p1, InputRecord_t4929 * p2, int32_t p3, int32_t* p4, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), (InputRecord_t4929 *)args[1], *((int32_t*)args[2]), (int32_t*)args[3], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -17736,7 +19181,7 @@ void* RuntimeInvoker_Object_t_Object_t_SByte_t88_SByte_t88_SByte_t88 (const Meth
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_DecimalU26_t5048_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_DecimalU26_t5576_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Decimal_t759 * p1, Object_t * p2, int32_t p3, int32_t p4, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Decimal_t759 *)args[0], (Object_t *)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), method);
@@ -17753,7 +19198,7 @@ void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Int32U26_t840 (const
 }
 
 struct Object_t;
-void* RuntimeInvoker_Int64_t89_IntPtr_t_Int64_t89_Int32_t82_MonoIOErrorU26_t5350 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int64_t89_IntPtr_t_Int64_t89_Int32_t82_MonoIOErrorU26_t5776 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int64_t (*Func)(void* obj, IntPtr_t p1, int64_t p2, int32_t p3, int32_t* p4, const MethodInfo* method);
 	int64_t ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), *((int64_t*)args[1]), *((int32_t*)args[2]), (int32_t*)args[3], method);
@@ -17796,6 +19241,16 @@ void* RuntimeInvoker_Void_t85_Object_t_Int32_t82_Object_t_SByte_t88 (const Metho
 {
 	typedef void (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, int8_t p4, const MethodInfo* method);
 	((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], *((int8_t*)args[3]), method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_SByte_t88_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, int8_t p2, Object_t * p3, int32_t p4, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], *((int8_t*)args[1]), (Object_t *)args[2], *((int32_t*)args[3]), method);
 	return NULL;
 }
 
@@ -17930,20 +19385,20 @@ void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82_Int32_t82 (const Metho
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Void_t85_IntPtr_t_Object_t_Int32U26_t840_SByte_t88 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef void (*Func)(void* obj, IntPtr_t p1, Object_t * p2, int32_t* p3, int8_t p4, const MethodInfo* method);
-	((Func)method->method)(obj, *((IntPtr_t*)args[0]), (Object_t *)args[1], (int32_t*)args[2], *((int8_t*)args[3]), method);
-	return NULL;
-}
-
-struct Object_t;
-struct Object_t;
 struct Object_t;
 void* RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, Object_t * p4, const MethodInfo* method);
 	((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (Object_t *)args[3], method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_IntPtr_t_Object_t_Int32U26_t840_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, IntPtr_t p1, Object_t * p2, int32_t* p3, int8_t p4, const MethodInfo* method);
+	((Func)method->method)(obj, *((IntPtr_t*)args[0]), (Object_t *)args[1], (int32_t*)args[2], *((int8_t*)args[3]), method);
 	return NULL;
 }
 
@@ -17968,118 +19423,118 @@ void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t70_Int32_t82_Int32_t82 (
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t6218_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t6751_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t6218  p2, int32_t p3, int32_t p4, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t6218 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t6751  p2, int32_t p3, int32_t p4, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t6751 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t7228_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t7763_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t7228  p2, int32_t p3, int32_t p4, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t7228 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t7763  p2, int32_t p3, int32_t p4, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t7763 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t7239_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t7774_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t7239  p2, int32_t p3, int32_t p4, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t7239 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t7774  p2, int32_t p3, int32_t p4, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t7774 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t7250_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t7785_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t7250  p2, int32_t p3, int32_t p4, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t7250 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t7785  p2, int32_t p3, int32_t p4, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t7785 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t5549_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t6082_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t5549  p2, int32_t p3, int32_t p4, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t5549 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t6082  p2, int32_t p3, int32_t p4, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t6082 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t7268_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t7803_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t7268  p2, int32_t p3, int32_t p4, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t7268 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t7803  p2, int32_t p3, int32_t p4, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t7803 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t7279_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t7814_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t7279  p2, int32_t p3, int32_t p4, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t7279 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t7814  p2, int32_t p3, int32_t p4, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t7814 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t7290_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t7825_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t7290  p2, int32_t p3, int32_t p4, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t7290 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t7825  p2, int32_t p3, int32_t p4, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t7825 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t7042_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t7577_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t7042  p2, int32_t p3, int32_t p4, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t7042 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t7577  p2, int32_t p3, int32_t p4, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t7577 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t7036_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t7571_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t7036  p2, int32_t p3, int32_t p4, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t7036 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t7571  p2, int32_t p3, int32_t p4, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t7571 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t7053_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t7588_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t7053  p2, int32_t p3, int32_t p4, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t7053 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t7588  p2, int32_t p3, int32_t p4, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t7588 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t7062_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t7597_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t7062  p2, int32_t p3, int32_t p4, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t7062 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t7597  p2, int32_t p3, int32_t p4, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t7597 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t3396_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_KeyValuePair_2_t3795_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t3396  p2, int32_t p3, int32_t p4, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t3396 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, KeyValuePair_2_t3795  p2, int32_t p3, int32_t p4, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((KeyValuePair_2_t3795 *)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -18122,6 +19577,16 @@ void* RuntimeInvoker_IntPtr_t_SByte_t88_SByte_t88_Object_t_BooleanU26_t841 (cons
 
 struct Object_t;
 struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Object_t_Byte_t755_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, uint8_t p1, Object_t * p2, int32_t p3, int32_t p4, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((uint8_t*)args[0]), (Object_t *)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), method);
+	return ret;
+}
+
+struct Object_t;
+struct Object_t;
 struct String_t;
 struct String_t;
 void* RuntimeInvoker_Void_t85_Object_t_Int32U26_t840_StringU26_t827_StringU26_t827 (const MethodInfo* method, void* obj, void** args)
@@ -18133,12 +19598,25 @@ void* RuntimeInvoker_Void_t85_Object_t_Int32U26_t840_StringU26_t827_StringU26_t8
 
 struct Object_t;
 struct Object_t;
-struct Object_t;
-void* RuntimeInvoker_Object_t_Byte_t755_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+struct String_t;
+struct String_t;
+struct String_t;
+void* RuntimeInvoker_Void_t85_Object_t_StringU26_t827_StringU26_t827_StringU26_t827 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, uint8_t p1, Object_t * p2, int32_t p3, int32_t p4, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((uint8_t*)args[0]), (Object_t *)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), method);
-	return ret;
+	typedef void (*Func)(void* obj, Object_t * p1, String_t** p2, String_t** p3, String_t** p4, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (String_t**)args[1], (String_t**)args[2], (String_t**)args[3], method);
+	return NULL;
+}
+
+struct Object_t;
+// System.TermInfoStrings
+#include "mscorlib_System_TermInfoStrings.h"
+struct Object_t;
+void* RuntimeInvoker_TermInfoStrings_t4916_Object_t_Int32_t82_Int32_t82_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, int32_t* p4, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (int32_t*)args[3], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
@@ -18157,7 +19635,7 @@ struct Object_t;
 struct SerializationInfo_t2936;
 // System.Runtime.Serialization.SerializationInfo
 #include "mscorlib_System_Runtime_Serialization_SerializationInfo.h"
-void* RuntimeInvoker_Void_t85_Object_t_Int64U26_t5010_ObjectU26_t2379_SerializationInfoU26_t5366 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Object_t_Int64U26_t5538_ObjectU26_t2379_SerializationInfoU26_t5792 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, Object_t * p1, int64_t* p2, Object_t ** p3, SerializationInfo_t2936 ** p4, const MethodInfo* method);
 	((Func)method->method)(obj, (Object_t *)args[0], (int64_t*)args[1], (Object_t **)args[2], (SerializationInfo_t2936 **)args[3], method);
@@ -18179,10 +19657,20 @@ struct Object_t;
 struct String_t;
 struct StringU5BU5D_t75;
 struct StringU5BU5D_t75;
-void* RuntimeInvoker_Boolean_t59_Object_t_StringU26_t827_StringU5BU5DU26_t4340_StringU5BU5DU26_t4340 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_StringU26_t827_StringU5BU5DU26_t4706_StringU5BU5DU26_t4706 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, String_t** p2, StringU5BU5D_t75** p3, StringU5BU5D_t75** p4, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (String_t**)args[1], (StringU5BU5D_t75**)args[2], (StringU5BU5D_t75**)args[3], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_SByte_t88_MonoIOErrorU26_t5776 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, Object_t * p1, Object_t * p2, int8_t p3, int32_t* p4, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int8_t*)args[2]), (int32_t*)args[3], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -18218,6 +19706,16 @@ void* RuntimeInvoker_Object_t_Vector3U26_t845_Vector3U26_t845_Single_t87_Int32_t
 struct Object_t;
 struct Object_t;
 struct Object_t;
+void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, Object_t * p4, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (Object_t *)args[3], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
 void* RuntimeInvoker_Int32_t82_Object_t_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, Object_t * p2, int32_t p3, int32_t p4, const MethodInfo* method);
@@ -18233,16 +19731,6 @@ void* RuntimeInvoker_Object_t_Object_t_Int32_t82_Int32_t82_Int32_t82 (const Meth
 	typedef Object_t * (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, int32_t p4, const MethodInfo* method);
 	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), method);
 	return ret;
-}
-
-struct Object_t;
-struct Object_t;
-struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args)
-{
-	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, Object_t * p4, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (Object_t *)args[3], method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
@@ -18306,7 +19794,7 @@ void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_Int32U26_t840 (cons
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_Int64U26_t5010 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_Int64U26_t5538 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, int64_t* p4, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], (int64_t*)args[3], method);
@@ -18316,7 +19804,7 @@ void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_Int64U26_t5010 (con
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_UInt32U26_t3771 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_UInt32U26_t4184 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, uint32_t* p4, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], (uint32_t*)args[3], method);
@@ -18326,7 +19814,7 @@ void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_UInt32U26_t3771 (co
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_ByteU26_t3961 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_ByteU26_t3288 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, uint8_t* p4, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], (uint8_t*)args[3], method);
@@ -18336,7 +19824,7 @@ void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_ByteU26_t3961 (cons
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_UInt16U26_t5026 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_UInt16U26_t5554 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, uint16_t* p4, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], (uint16_t*)args[3], method);
@@ -18356,7 +19844,7 @@ void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_SingleU26_t847 (con
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_DoubleU26_t5045 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_DoubleU26_t5573 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, double* p4, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], (double*)args[3], method);
@@ -18446,12 +19934,12 @@ void* RuntimeInvoker_Void_t85_Int32U26_t840_Object_t_Object_t_BooleanU26_t841 (c
 struct Object_t;
 struct Object_t;
 struct Object_t;
-struct ContractionU5BU5D_t4398;
-struct Level2MapU5BU5D_t4399;
-void* RuntimeInvoker_Void_t85_Object_t_Object_t_ContractionU5BU5DU26_t5212_Level2MapU5BU5DU26_t5213 (const MethodInfo* method, void* obj, void** args)
+struct ContractionU5BU5D_t4766;
+struct Level2MapU5BU5D_t4767;
+void* RuntimeInvoker_Void_t85_Object_t_Object_t_ContractionU5BU5DU26_t5740_Level2MapU5BU5DU26_t5741 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, ContractionU5BU5D_t4398** p3, Level2MapU5BU5D_t4399** p4, const MethodInfo* method);
-	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (ContractionU5BU5D_t4398**)args[2], (Level2MapU5BU5D_t4399**)args[3], method);
+	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, ContractionU5BU5D_t4766** p3, Level2MapU5BU5D_t4767** p4, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (ContractionU5BU5D_t4766**)args[2], (Level2MapU5BU5D_t4767**)args[3], method);
 	return NULL;
 }
 
@@ -18470,7 +19958,7 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int64U26_t5010_ObjectU26_t2379 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int64U26_t5538_ObjectU26_t2379 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, int64_t* p3, Object_t ** p4, const MethodInfo* method);
 	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (int64_t*)args[2], (Object_t **)args[3], method);
@@ -18501,6 +19989,28 @@ void* RuntimeInvoker_Void_t85_Vector2_t110_Object_t_Object_t_Vector2U26_t3007 (c
 struct Object_t;
 struct Object_t;
 struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, Object_t * p1, Object_t * p2, Object_t * p3, int8_t p4, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (Object_t *)args[2], *((int8_t*)args[3]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct ByteU5BU5D_t66;
+void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_ByteU5BU5DU26_t3289_Int32U2AU26_t5747 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, Object_t * p1, Object_t * p2, ByteU5BU5D_t66** p3, int32_t** p4, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (ByteU5BU5D_t66**)args[2], (int32_t**)args[3], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
 void* RuntimeInvoker_Boolean_t59_Object_t_Vector2_t110_Object_t_Vector3U26_t845 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, Vector2_t110  p2, Object_t * p3, Vector3_t538 * p4, const MethodInfo* method);
@@ -18521,6 +20031,16 @@ void* RuntimeInvoker_Boolean_t59_Object_t_Vector2_t110_Object_t_Vector2U26_t3007
 struct Object_t;
 struct Object_t;
 struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_Object_t_TimeSpan_t334_TimeSpan_t334 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, TimeSpan_t334  p3, TimeSpan_t334  p4, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((TimeSpan_t334 *)args[2]), *((TimeSpan_t334 *)args[3]), method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
 void* RuntimeInvoker_Object_t_Object_t_RayU26_t3013_Single_t87_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef Object_t * (*Func)(void* obj, Object_t * p1, Ray_t776 * p2, float p3, int32_t p4, const MethodInfo* method);
@@ -18532,10 +20052,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_Object_t_Object_t_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_Object_t_SByte_t88_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, Object_t * p1, Object_t * p2, int8_t p3, int8_t p4, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int8_t*)args[2]), *((int8_t*)args[3]), method);
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, int8_t p2, Object_t * p3, int8_t p4, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int8_t*)args[1]), (Object_t *)args[2], *((int8_t*)args[3]), method);
 	return ret;
 }
 
@@ -18543,10 +20063,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_Object_t_SByte_t88_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_Object_t_Object_t_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, Object_t * p1, int8_t p2, Object_t * p3, int8_t p4, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int8_t*)args[1]), (Object_t *)args[2], *((int8_t*)args[3]), method);
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, Object_t * p2, int8_t p3, int8_t p4, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int8_t*)args[2]), *((int8_t*)args[3]), method);
 	return ret;
 }
 
@@ -18726,6 +20246,17 @@ void* RuntimeInvoker_Rect_t708_Single_t87_Single_t87_Object_t_Object_t (const Me
 
 struct Object_t;
 struct Object_t;
+struct Exception_t57;
+struct Object_t;
+void* RuntimeInvoker_XmlSchemaDerivationMethod_t3648_Object_t_ExceptionU26_t3742_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, Object_t * p1, Exception_t57 ** p2, Object_t * p3, int32_t p4, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (Exception_t57 **)args[1], (Object_t *)args[2], *((int32_t*)args[3]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
 struct Object_t;
 struct Object_t;
 void* RuntimeInvoker_Void_t85_Object_t_Single_t87_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
@@ -18892,10 +20423,21 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_Int32_t82_TimeType_t3373_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_Int32_t82_TimeType_t3751_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, int32_t p1, TimeType_t3373  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((TimeType_t3373 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
+	typedef Object_t * (*Func)(void* obj, int32_t p1, TimeType_t3751  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((TimeType_t3751 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
+	return ret;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Object_t_Int32_t82_Label_t4474_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, int32_t p1, Label_t4474  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((Label_t4474 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
 	return ret;
 }
 
@@ -18950,8 +20492,20 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Object_t_Object_t_Object_t_SByte_t88_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, Object_t * p2, int8_t p3, Object_t * p4, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int8_t*)args[2]), (Object_t *)args[3], method);
+	return ret;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
 struct ByteU5BU5D_t66;
-void* RuntimeInvoker_Object_t_Object_t_Object_t_ByteU5BU5DU26_t3962_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_Object_t_Object_t_ByteU5BU5DU26_t3289_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef Object_t * (*Func)(void* obj, Object_t * p1, Object_t * p2, ByteU5BU5D_t66** p3, int32_t* p4, const MethodInfo* method);
 	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (ByteU5BU5D_t66**)args[2], (int32_t*)args[3], method);
@@ -19200,10 +20754,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t6218_KeyValuePair_2_t6218_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t6751_KeyValuePair_2_t6751_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t6218  p1, KeyValuePair_2_t6218  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6218 *)args[0]), *((KeyValuePair_2_t6218 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t6751  p1, KeyValuePair_2_t6751  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6751 *)args[0]), *((KeyValuePair_2_t6751 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
 	return ret;
 }
 
@@ -19211,10 +20765,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t7228_KeyValuePair_2_t7228_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t7763_KeyValuePair_2_t7763_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7228  p1, KeyValuePair_2_t7228  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7228 *)args[0]), *((KeyValuePair_2_t7228 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7763  p1, KeyValuePair_2_t7763  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7763 *)args[0]), *((KeyValuePair_2_t7763 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
 	return ret;
 }
 
@@ -19222,10 +20776,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t7239_KeyValuePair_2_t7239_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t7774_KeyValuePair_2_t7774_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7239  p1, KeyValuePair_2_t7239  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7239 *)args[0]), *((KeyValuePair_2_t7239 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7774  p1, KeyValuePair_2_t7774  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7774 *)args[0]), *((KeyValuePair_2_t7774 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
 	return ret;
 }
 
@@ -19233,10 +20787,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t7250_KeyValuePair_2_t7250_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t7785_KeyValuePair_2_t7785_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7250  p1, KeyValuePair_2_t7250  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7250 *)args[0]), *((KeyValuePair_2_t7250 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7785  p1, KeyValuePair_2_t7785  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7785 *)args[0]), *((KeyValuePair_2_t7785 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
 	return ret;
 }
 
@@ -19244,10 +20798,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t5549_KeyValuePair_2_t5549_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t6082_KeyValuePair_2_t6082_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t5549  p1, KeyValuePair_2_t5549  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t5549 *)args[0]), *((KeyValuePair_2_t5549 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t6082  p1, KeyValuePair_2_t6082  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t6082 *)args[0]), *((KeyValuePair_2_t6082 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
 	return ret;
 }
 
@@ -19255,10 +20809,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t7268_KeyValuePair_2_t7268_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t7803_KeyValuePair_2_t7803_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7268  p1, KeyValuePair_2_t7268  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7268 *)args[0]), *((KeyValuePair_2_t7268 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7803  p1, KeyValuePair_2_t7803  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7803 *)args[0]), *((KeyValuePair_2_t7803 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
 	return ret;
 }
 
@@ -19266,10 +20820,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t7279_KeyValuePair_2_t7279_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t7814_KeyValuePair_2_t7814_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7279  p1, KeyValuePair_2_t7279  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7279 *)args[0]), *((KeyValuePair_2_t7279 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7814  p1, KeyValuePair_2_t7814  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7814 *)args[0]), *((KeyValuePair_2_t7814 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
 	return ret;
 }
 
@@ -19277,10 +20831,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t7290_KeyValuePair_2_t7290_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t7825_KeyValuePair_2_t7825_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7290  p1, KeyValuePair_2_t7290  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7290 *)args[0]), *((KeyValuePair_2_t7290 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7825  p1, KeyValuePair_2_t7825  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7825 *)args[0]), *((KeyValuePair_2_t7825 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
 	return ret;
 }
 
@@ -19288,10 +20842,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t7042_KeyValuePair_2_t7042_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t7577_KeyValuePair_2_t7577_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7042  p1, KeyValuePair_2_t7042  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7042 *)args[0]), *((KeyValuePair_2_t7042 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7577  p1, KeyValuePair_2_t7577  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7577 *)args[0]), *((KeyValuePair_2_t7577 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
 	return ret;
 }
 
@@ -19299,10 +20853,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t7036_KeyValuePair_2_t7036_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t7571_KeyValuePair_2_t7571_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7036  p1, KeyValuePair_2_t7036  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7036 *)args[0]), *((KeyValuePair_2_t7036 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7571  p1, KeyValuePair_2_t7571  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7571 *)args[0]), *((KeyValuePair_2_t7571 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
 	return ret;
 }
 
@@ -19310,10 +20864,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t7053_KeyValuePair_2_t7053_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t7588_KeyValuePair_2_t7588_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7053  p1, KeyValuePair_2_t7053  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7053 *)args[0]), *((KeyValuePair_2_t7053 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7588  p1, KeyValuePair_2_t7588  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7588 *)args[0]), *((KeyValuePair_2_t7588 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
 	return ret;
 }
 
@@ -19321,10 +20875,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t7062_KeyValuePair_2_t7062_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t7597_KeyValuePair_2_t7597_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7062  p1, KeyValuePair_2_t7062  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7062 *)args[0]), *((KeyValuePair_2_t7062 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t7597  p1, KeyValuePair_2_t7597  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t7597 *)args[0]), *((KeyValuePair_2_t7597 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
 	return ret;
 }
 
@@ -19332,10 +20886,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_KeyValuePair_2_t3396_KeyValuePair_2_t3396_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_KeyValuePair_2_t3795_KeyValuePair_2_t3795_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t3396  p1, KeyValuePair_2_t3396  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t3396 *)args[0]), *((KeyValuePair_2_t3396 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
+	typedef Object_t * (*Func)(void* obj, KeyValuePair_2_t3795  p1, KeyValuePair_2_t3795  p2, Object_t * p3, Object_t * p4, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((KeyValuePair_2_t3795 *)args[0]), *((KeyValuePair_2_t3795 *)args[1]), (Object_t *)args[2], (Object_t *)args[3], method);
 	return ret;
 }
 
@@ -19425,10 +20979,26 @@ void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodI
 }
 
 struct Object_t;
+void* RuntimeInvoker_Void_t85_Byte_t755_SByte_t88_SByte_t88_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, uint8_t p1, int8_t p2, int8_t p3, int8_t p4, int8_t p5, const MethodInfo* method);
+	((Func)method->method)(obj, *((uint8_t*)args[0]), *((int8_t*)args[1]), *((int8_t*)args[2]), *((int8_t*)args[3]), *((int8_t*)args[4]), method);
+	return NULL;
+}
+
+struct Object_t;
 void* RuntimeInvoker_Void_t85_Int16_t756_Int16_t756_SByte_t88_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, int16_t p1, int16_t p2, int8_t p3, int8_t p4, int8_t p5, const MethodInfo* method);
 	((Func)method->method)(obj, *((int16_t*)args[0]), *((int16_t*)args[1]), *((int8_t*)args[2]), *((int8_t*)args[3]), *((int8_t*)args[4]), method);
+	return NULL;
+}
+
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Int16_t756_Int32_t82_SByte_t88_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, int16_t p1, int32_t p2, int8_t p3, int8_t p4, int8_t p5, const MethodInfo* method);
+	((Func)method->method)(obj, *((int16_t*)args[0]), *((int32_t*)args[1]), *((int8_t*)args[2]), *((int8_t*)args[3]), *((int8_t*)args[4]), method);
 	return NULL;
 }
 
@@ -19590,7 +21160,7 @@ void* RuntimeInvoker_Boolean_t59_Vector3U26_t845_Vector3U26_t845_RaycastHitU26_t
 struct Object_t;
 struct Object_t;
 struct Exception_t57;
-void* RuntimeInvoker_Boolean_t59_Int32U26_t840_Object_t_SByte_t88_SByte_t88_ExceptionU26_t5005 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Int32U26_t840_Object_t_SByte_t88_SByte_t88_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, int32_t* p1, Object_t * p2, int8_t p3, int8_t p4, Exception_t57 ** p5, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (int32_t*)args[0], (Object_t *)args[1], *((int8_t*)args[2]), *((int8_t*)args[3]), (Exception_t57 **)args[4], method);
@@ -19600,11 +21170,11 @@ void* RuntimeInvoker_Boolean_t59_Int32U26_t840_Object_t_SByte_t88_SByte_t88_Exce
 struct Object_t;
 struct Object_t;
 struct Object_t;
-struct HeaderU5BU5D_t4866;
-void* RuntimeInvoker_Void_t85_Byte_t755_Object_t_SByte_t88_ObjectU26_t2379_HeaderU5BU5DU26_t5365 (const MethodInfo* method, void* obj, void** args)
+struct HeaderU5BU5D_t5388;
+void* RuntimeInvoker_Void_t85_Byte_t755_Object_t_SByte_t88_ObjectU26_t2379_HeaderU5BU5DU26_t5791 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, uint8_t p1, Object_t * p2, int8_t p3, Object_t ** p4, HeaderU5BU5D_t4866** p5, const MethodInfo* method);
-	((Func)method->method)(obj, *((uint8_t*)args[0]), (Object_t *)args[1], *((int8_t*)args[2]), (Object_t **)args[3], (HeaderU5BU5D_t4866**)args[4], method);
+	typedef void (*Func)(void* obj, uint8_t p1, Object_t * p2, int8_t p3, Object_t ** p4, HeaderU5BU5D_t5388** p5, const MethodInfo* method);
+	((Func)method->method)(obj, *((uint8_t*)args[0]), (Object_t *)args[1], *((int8_t*)args[2]), (Object_t **)args[3], (HeaderU5BU5D_t5388**)args[4], method);
 	return NULL;
 }
 
@@ -19618,7 +21188,7 @@ void* RuntimeInvoker_Boolean_t59_Vector3_t538_Vector3_t538_RaycastHitU26_t3039_S
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_CharU26_t4351_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_CharU26_t4721_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, uint16_t* p4, int8_t p5, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (uint16_t*)args[3], *((int8_t*)args[4]), method);
@@ -19646,19 +21216,19 @@ void* RuntimeInvoker_Object_t_Object_t_Int32_t82_SByte_t88_SByte_t88_SByte_t88 (
 
 struct Object_t;
 struct Object_t;
-struct EndPoint_t4012;
+struct EndPoint_t4351;
 // System.Net.EndPoint
 #include "System_System_Net_EndPoint.h"
-void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Int32_t82_EndPointU26_t4338 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Int32_t82_EndPointU26_t4714 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, int32_t p4, EndPoint_t4012 ** p5, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), (EndPoint_t4012 **)args[4], method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, int32_t p4, EndPoint_t4351 ** p5, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), (EndPoint_t4351 **)args[4], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Int32_t82_SocketErrorU26_t4336 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Int32_t82_SocketErrorU26_t4712 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, int32_t p4, int32_t* p5, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), (int32_t*)args[4], method);
@@ -19772,7 +21342,7 @@ void* RuntimeInvoker_Void_t85_IntPtr_t_Rect_t708_Object_t_Int32_t82_SByte_t88 (c
 struct Object_t;
 struct Object_t;
 struct Exception_t57;
-void* RuntimeInvoker_Boolean_t59_Int32U26_t840_Object_t_Int32U26_t840_SByte_t88_ExceptionU26_t5005 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Int32U26_t840_Object_t_Int32U26_t840_SByte_t88_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, int32_t* p1, Object_t * p2, int32_t* p3, int8_t p4, Exception_t57 ** p5, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (int32_t*)args[0], (Object_t *)args[1], (int32_t*)args[2], *((int8_t*)args[3]), (Exception_t57 **)args[4], method);
@@ -19803,7 +21373,7 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct SerializationInfo_t2936;
-void* RuntimeInvoker_Void_t85_Byte_t755_Object_t_Int64U26_t5010_ObjectU26_t2379_SerializationInfoU26_t5366 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Byte_t755_Object_t_Int64U26_t5538_ObjectU26_t2379_SerializationInfoU26_t5792 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, uint8_t p1, Object_t * p2, int64_t* p3, Object_t ** p4, SerializationInfo_t2936 ** p5, const MethodInfo* method);
 	((Func)method->method)(obj, *((uint8_t*)args[0]), (Object_t *)args[1], (int64_t*)args[2], (Object_t **)args[3], (SerializationInfo_t2936 **)args[4], method);
@@ -19820,17 +21390,17 @@ void* RuntimeInvoker_Boolean_t59_Rect_t708_Int32_t82_SByte_t88_Object_t_IntPtr_t
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_DateTime_t287_DateTime_t287_TimeSpan_t334_TransitionTime_t3372_TransitionTime_t3372 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_DateTime_t287_DateTime_t287_TimeSpan_t334_TransitionTime_t3750_TransitionTime_t3750 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, DateTime_t287  p1, DateTime_t287  p2, TimeSpan_t334  p3, TransitionTime_t3372  p4, TransitionTime_t3372  p5, const MethodInfo* method);
-	((Func)method->method)(obj, *((DateTime_t287 *)args[0]), *((DateTime_t287 *)args[1]), *((TimeSpan_t334 *)args[2]), *((TransitionTime_t3372 *)args[3]), *((TransitionTime_t3372 *)args[4]), method);
+	typedef void (*Func)(void* obj, DateTime_t287  p1, DateTime_t287  p2, TimeSpan_t334  p3, TransitionTime_t3750  p4, TransitionTime_t3750  p5, const MethodInfo* method);
+	((Func)method->method)(obj, *((DateTime_t287 *)args[0]), *((DateTime_t287 *)args[1]), *((TimeSpan_t334 *)args[2]), *((TransitionTime_t3750 *)args[3]), *((TransitionTime_t3750 *)args[4]), method);
 	return NULL;
 }
 
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_DecimalU26_t5048_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_DecimalU26_t5576_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, Decimal_t759 * p4, int8_t p5, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], (Decimal_t759 *)args[3], *((int8_t*)args[4]), method);
@@ -19920,7 +21490,7 @@ void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Int32_t82_Object_t_Int32U26_
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_IntPtr_t_Object_t_Int32_t82_Int32_t82_MonoIOErrorU26_t5350 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_IntPtr_t_Object_t_Int32_t82_Int32_t82_MonoIOErrorU26_t5776 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, IntPtr_t p1, Object_t * p2, int32_t p3, int32_t p4, int32_t* p5, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), (Object_t *)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), (int32_t*)args[4], method);
@@ -19939,10 +21509,21 @@ void* RuntimeInvoker_Void_t85_IntPtr_t_RectU26_t3006_Object_t_Int32_t82_Vector2U
 struct Object_t;
 struct Object_t;
 struct ByteU5BU5D_t66;
-void* RuntimeInvoker_Void_t85_Object_t_Int32U26_t840_ByteU26_t3961_Int32U26_t840_ByteU5BU5DU26_t3962 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Object_t_Int32U26_t840_ByteU26_t3288_Int32U26_t840_ByteU5BU5DU26_t3289 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, Object_t * p1, int32_t* p2, uint8_t* p3, int32_t* p4, ByteU5BU5D_t66** p5, const MethodInfo* method);
 	((Func)method->method)(obj, (Object_t *)args[0], (int32_t*)args[1], (uint8_t*)args[2], (int32_t*)args[3], (ByteU5BU5D_t66**)args[4], method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, Object_t * p3, int8_t p4, int8_t p5, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (Object_t *)args[2], *((int8_t*)args[3]), *((int8_t*)args[4]), method);
 	return NULL;
 }
 
@@ -20010,6 +21591,17 @@ void* RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88_Int32_t82_Object_t (co
 struct Object_t;
 struct Object_t;
 struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_Object_t_SByte_t88_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, Object_t * p1, int8_t p2, Object_t * p3, int32_t p4, Object_t * p5, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int8_t*)args[1]), (Object_t *)args[2], *((int32_t*)args[3]), (Object_t *)args[4], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
 void* RuntimeInvoker_Object_t_Int16_t756_Object_t_BooleanU26_t841_BooleanU26_t841_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef Object_t * (*Func)(void* obj, int16_t p1, Object_t * p2, bool* p3, bool* p4, int8_t p5, const MethodInfo* method);
@@ -20022,7 +21614,7 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct SerializationInfo_t2936;
-void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int64_t89_ObjectU26_t2379_SerializationInfoU26_t5366 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int64_t89_ObjectU26_t2379_SerializationInfoU26_t5792 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, int64_t p3, Object_t ** p4, SerializationInfo_t2936 ** p5, const MethodInfo* method);
 	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int64_t*)args[2]), (Object_t **)args[3], (SerializationInfo_t2936 **)args[4], method);
@@ -20096,6 +21688,19 @@ void* RuntimeInvoker_Void_t85_Int32_t82_Object_t_Single_t87_Object_t_Object_t (c
 }
 
 struct Object_t;
+struct String_t;
+struct String_t;
+struct String_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_StringU26_t827_StringU26_t827_StringU26_t827_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, String_t** p1, String_t** p2, String_t** p3, Object_t * p4, Object_t * p5, const MethodInfo* method);
+	((Func)method->method)(obj, (String_t**)args[0], (String_t**)args[1], (String_t**)args[2], (Object_t *)args[3], (Object_t *)args[4], method);
+	return NULL;
+}
+
+struct Object_t;
 struct Object_t;
 struct Object_t;
 void* RuntimeInvoker_Void_t85_Int32U26_t840_Object_t_Object_t_BooleanU26_t841_BooleanU26_t841 (const MethodInfo* method, void* obj, void** args)
@@ -20131,6 +21736,17 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_TimeSpan_t334_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, Object_t * p3, TimeSpan_t334  p4, int8_t p5, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (Object_t *)args[2], *((TimeSpan_t334 *)args[3]), *((int8_t*)args[4]), method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
 void* RuntimeInvoker_Int32_t82_Int32_t82_Object_t_Int32_t82_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, int32_t p1, Object_t * p2, int32_t p3, Object_t * p4, Object_t * p5, const MethodInfo* method);
@@ -20151,10 +21767,10 @@ void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Object_t (c
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_DateTime_t287_DateTime_t287_TimeSpan_t334_TransitionTime_t3372_TransitionTime_t3372 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_DateTime_t287_DateTime_t287_TimeSpan_t334_TransitionTime_t3750_TransitionTime_t3750 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, DateTime_t287  p1, DateTime_t287  p2, TimeSpan_t334  p3, TransitionTime_t3372  p4, TransitionTime_t3372  p5, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, *((DateTime_t287 *)args[0]), *((DateTime_t287 *)args[1]), *((TimeSpan_t334 *)args[2]), *((TransitionTime_t3372 *)args[3]), *((TransitionTime_t3372 *)args[4]), method);
+	typedef Object_t * (*Func)(void* obj, DateTime_t287  p1, DateTime_t287  p2, TimeSpan_t334  p3, TransitionTime_t3750  p4, TransitionTime_t3750  p5, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((DateTime_t287 *)args[0]), *((DateTime_t287 *)args[1]), *((TimeSpan_t334 *)args[2]), *((TransitionTime_t3750 *)args[3]), *((TransitionTime_t3750 *)args[4]), method);
 	return ret;
 }
 
@@ -20173,7 +21789,7 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82_Int32_t82_MonoIOErrorU26_t5350 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82_Int32_t82_MonoIOErrorU26_t5776 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef Object_t * (*Func)(void* obj, Object_t * p1, Object_t * p2, int32_t p3, int32_t p4, int32_t* p5, const MethodInfo* method);
 	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), (int32_t*)args[4], method);
@@ -20200,6 +21816,18 @@ void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_SByte_t88 (con
 {
 	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, Object_t * p3, Object_t * p4, int8_t p5, const MethodInfo* method);
 	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (Object_t *)args[2], (Object_t *)args[3], *((int8_t*)args[4]), method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, int8_t p3, Object_t * p4, Object_t * p5, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int8_t*)args[2]), (Object_t *)args[3], (Object_t *)args[4], method);
 	return NULL;
 }
 
@@ -20352,6 +21980,18 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
+void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Int64_t89_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, Object_t * p2, Object_t * p3, int64_t p4, int8_t p5, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (Object_t *)args[2], *((int64_t*)args[3]), *((int8_t*)args[4]), method);
+	return ret;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
 void* RuntimeInvoker_Int32_t82_Int32_t82_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, int32_t p1, Object_t * p2, Object_t * p3, Object_t * p4, Object_t * p5, const MethodInfo* method);
@@ -20364,10 +22004,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_Object_t_Int32_t82_Int32_t82_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, Object_t * p1, Object_t * p2, int32_t p3, int32_t p4, Object_t * p5, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), (Object_t *)args[4], method);
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, Object_t * p4, Object_t * p5, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (Object_t *)args[3], (Object_t *)args[4], method);
 	return ret;
 }
 
@@ -20376,10 +22016,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_Object_t_Int32_t82_Int32_t82_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef Object_t * (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, Object_t * p4, Object_t * p5, const MethodInfo* method);
-	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (Object_t *)args[3], (Object_t *)args[4], method);
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, Object_t * p2, int32_t p3, int32_t p4, Object_t * p5, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), (Object_t *)args[4], method);
 	return ret;
 }
 
@@ -20404,6 +22044,42 @@ void* RuntimeInvoker_Object_t_Int32_t82_Object_t_Int32_t82_Object_t_Object_t (co
 {
 	typedef Object_t * (*Func)(void* obj, int32_t p1, Object_t * p2, int32_t p3, Object_t * p4, Object_t * p5, const MethodInfo* method);
 	Object_t * ret = ((Func)method->method)(obj, *((int32_t*)args[0]), (Object_t *)args[1], *((int32_t*)args[2]), (Object_t *)args[3], (Object_t *)args[4], method);
+	return ret;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Object_t_Int32_t82_Int32_t82_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, int32_t p1, int32_t p2, Object_t * p3, Object_t * p4, Object_t * p5, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((int32_t*)args[1]), (Object_t *)args[2], (Object_t *)args[3], (Object_t *)args[4], method);
+	return ret;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_TimeSpan_t334_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, Object_t * p2, Object_t * p3, TimeSpan_t334  p4, int8_t p5, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (Object_t *)args[2], *((TimeSpan_t334 *)args[3]), *((int8_t*)args[4]), method);
+	return ret;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Object_t_Object_t_Int32_t82_Int32U26_t840_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t* p3, Object_t * p4, Object_t * p5, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (int32_t*)args[2], (Object_t *)args[3], (Object_t *)args[4], method);
 	return ret;
 }
 
@@ -20501,6 +22177,20 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
+struct PermissionSet_t4833;
+void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t_PermissionSetU26_t5794 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, Object_t * p2, Object_t * p3, Object_t * p4, PermissionSet_t4833 ** p5, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (Object_t *)args[2], (Object_t *)args[3], (PermissionSet_t4833 **)args[4], method);
+	return ret;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
 void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t_CancellationToken_t1181 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef Object_t * (*Func)(void* obj, Object_t * p1, Object_t * p2, Object_t * p3, Object_t * p4, CancellationToken_t1181  p5, const MethodInfo* method);
@@ -20569,7 +22259,7 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct SerializationInfo_t2936;
-void* RuntimeInvoker_Void_t85_Object_t_SByte_t88_SByte_t88_Int64U26_t5010_ObjectU26_t2379_SerializationInfoU26_t5366 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Object_t_SByte_t88_SByte_t88_Int64U26_t5538_ObjectU26_t2379_SerializationInfoU26_t5792 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, Object_t * p1, int8_t p2, int8_t p3, int64_t* p4, Object_t ** p5, SerializationInfo_t2936 ** p6, const MethodInfo* method);
 	((Func)method->method)(obj, (Object_t *)args[0], *((int8_t*)args[1]), *((int8_t*)args[2]), (int64_t*)args[3], (Object_t **)args[4], (SerializationInfo_t2936 **)args[5], method);
@@ -20624,6 +22314,16 @@ void* RuntimeInvoker_Void_t85_Int64_t89_Int32_t82_Int32_t82_Int32_t82_Object_t_O
 struct Object_t;
 struct Object_t;
 struct Object_t;
+void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Object_t_Int32_t82_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, int32_t p4, int32_t p5, int8_t p6, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], *((int32_t*)args[3]), *((int32_t*)args[4]), *((int8_t*)args[5]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
 void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int32_t82_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, Object_t * p4, int32_t p5, int8_t p6, const MethodInfo* method);
@@ -20636,10 +22336,10 @@ struct Object_t;
 struct Object_t;
 // Mono.Globalization.Unicode.SimpleCollator/Context
 #include "mscorlib_Mono_Globalization_Unicode_SimpleCollator_Context.h"
-void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_Int32_t82_Int32_t82_SByte_t88_ContextU26_t5215 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_Int32_t82_Int32_t82_SByte_t88_ContextU26_t5743 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, Object_t * p1, Object_t * p2, int32_t p3, int32_t p4, int8_t p5, Context_t4392 * p6, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), *((int8_t*)args[4]), (Context_t4392 *)args[5], method);
+	typedef bool (*Func)(void* obj, Object_t * p1, Object_t * p2, int32_t p3, int32_t p4, int8_t p5, Context_t4761 * p6, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), *((int8_t*)args[4]), (Context_t4761 *)args[5], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -20662,11 +22362,22 @@ void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int32_t82_I
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_UInt64U2AU26_t5391_Int32U2AU26_t5392_CharU2AU26_t5393_CharU2AU26_t5393_Int64U2AU26_t5394_Int32U2AU26_t5392 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_UInt64U2AU26_t5763_Int32U2AU26_t5747_CharU2AU26_t5764_CharU2AU26_t5764_Int64U2AU26_t5765_Int32U2AU26_t5747 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, uint64_t** p1, int32_t** p2, uint16_t** p3, uint16_t** p4, int64_t** p5, int32_t** p6, const MethodInfo* method);
 	((Func)method->method)(obj, (uint64_t**)args[0], (int32_t**)args[1], (uint16_t**)args[2], (uint16_t**)args[3], (int64_t**)args[4], (int32_t**)args[5], method);
 	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_Object_t_SByte_t88_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, Object_t * p1, Object_t * p2, Object_t * p3, int8_t p4, int8_t p5, int8_t p6, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (Object_t *)args[2], *((int8_t*)args[3]), *((int8_t*)args[4]), *((int8_t*)args[5]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
@@ -20691,7 +22402,7 @@ void* RuntimeInvoker_Int32_t82_IntPtr_t_Object_t_Int32_t82_Int32_t82_Int32_t82_I
 
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_IntPtr_t_Object_t_Int32_t82_Int32_t82_Int32_t82_Int32_t82_MonoIOErrorU26_t5350 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_IntPtr_t_Object_t_Int32_t82_Int32_t82_Int32_t82_Int32_t82_MonoIOErrorU26_t5776 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef IntPtr_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, int32_t p4, int32_t p5, int32_t* p6, const MethodInfo* method);
 	IntPtr_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), *((int32_t*)args[4]), (int32_t*)args[5], method);
@@ -20701,7 +22412,7 @@ void* RuntimeInvoker_IntPtr_t_Object_t_Int32_t82_Int32_t82_Int32_t82_Int32_t82_M
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Object_t_Int32_t82_CharU26_t4351_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Object_t_Int32_t82_CharU26_t4721_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, int32_t p4, uint16_t* p5, int8_t p6, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], *((int32_t*)args[3]), (uint16_t*)args[4], *((int8_t*)args[5]), method);
@@ -20712,7 +22423,7 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Exception_t57;
-void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_SByte_t88_Int32U26_t840_ExceptionU26_t5005 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_SByte_t88_Int32U26_t840_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, int8_t p4, int32_t* p5, Exception_t57 ** p6, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], *((int8_t*)args[3]), (int32_t*)args[4], (Exception_t57 **)args[5], method);
@@ -20723,7 +22434,7 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Exception_t57;
-void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_SByte_t88_Int64U26_t5010_ExceptionU26_t5005 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_SByte_t88_Int64U26_t5538_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, int8_t p4, int64_t* p5, Exception_t57 ** p6, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], *((int8_t*)args[3]), (int64_t*)args[4], (Exception_t57 **)args[5], method);
@@ -20734,7 +22445,7 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Exception_t57;
-void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_SByte_t88_UInt32U26_t3771_ExceptionU26_t5005 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_SByte_t88_UInt32U26_t4184_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, int8_t p4, uint32_t* p5, Exception_t57 ** p6, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], *((int8_t*)args[3]), (uint32_t*)args[4], (Exception_t57 **)args[5], method);
@@ -20745,7 +22456,7 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Exception_t57;
-void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_SByte_t88_UInt64U26_t5015_ExceptionU26_t5005 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_SByte_t88_UInt64U26_t5543_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, int8_t p4, uint64_t* p5, Exception_t57 ** p6, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], *((int8_t*)args[3]), (uint64_t*)args[4], (Exception_t57 **)args[5], method);
@@ -20756,7 +22467,7 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Exception_t57;
-void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_SByte_t88_DoubleU26_t5045_ExceptionU26_t5005 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Object_t_SByte_t88_DoubleU26_t5573_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, int8_t p4, double* p5, Exception_t57 ** p6, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], *((int8_t*)args[3]), (double*)args[4], (Exception_t57 **)args[5], method);
@@ -20775,13 +22486,13 @@ void* RuntimeInvoker_Object_t_Vector2U26_t3007_Vector2U26_t3007_Single_t87_Int32
 struct Object_t;
 struct Object_t;
 struct Object_t;
-struct DecoderFallbackBuffer_t4760;
+struct DecoderFallbackBuffer_t5351;
 // System.Text.DecoderFallbackBuffer
 #include "mscorlib_System_Text_DecoderFallbackBuffer.h"
-void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int32_t82_DecoderFallbackBufferU26_t5369 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int32_t82_DecoderFallbackBufferU26_t5798 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, Object_t * p4, int32_t p5, DecoderFallbackBuffer_t4760 ** p6, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (Object_t *)args[3], *((int32_t*)args[4]), (DecoderFallbackBuffer_t4760 **)args[5], method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, Object_t * p4, int32_t p5, DecoderFallbackBuffer_t5351 ** p6, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (Object_t *)args[3], *((int32_t*)args[4]), (DecoderFallbackBuffer_t5351 **)args[5], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -20837,14 +22548,14 @@ void* RuntimeInvoker_Void_t85_Object_t_Int32U26_t840_Int32U26_t840_Int32U26_t840
 
 struct Object_t;
 struct Object_t;
-struct CodePointIndexer_t4383;
+struct CodePointIndexer_t4752;
 // Mono.Globalization.Unicode.CodePointIndexer
 #include "mscorlib_Mono_Globalization_Unicode_CodePointIndexer.h"
-struct CodePointIndexer_t4383;
-void* RuntimeInvoker_Void_t85_Object_t_CodePointIndexerU26_t5214_ByteU2AU26_t5032_ByteU2AU26_t5032_CodePointIndexerU26_t5214_ByteU2AU26_t5032 (const MethodInfo* method, void* obj, void** args)
+struct CodePointIndexer_t4752;
+void* RuntimeInvoker_Void_t85_Object_t_CodePointIndexerU26_t5742_ByteU2AU26_t5560_ByteU2AU26_t5560_CodePointIndexerU26_t5742_ByteU2AU26_t5560 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Object_t * p1, CodePointIndexer_t4383 ** p2, uint8_t** p3, uint8_t** p4, CodePointIndexer_t4383 ** p5, uint8_t** p6, const MethodInfo* method);
-	((Func)method->method)(obj, (Object_t *)args[0], (CodePointIndexer_t4383 **)args[1], (uint8_t**)args[2], (uint8_t**)args[3], (CodePointIndexer_t4383 **)args[4], (uint8_t**)args[5], method);
+	typedef void (*Func)(void* obj, Object_t * p1, CodePointIndexer_t4752 ** p2, uint8_t** p3, uint8_t** p4, CodePointIndexer_t4752 ** p5, uint8_t** p6, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (CodePointIndexer_t4752 **)args[1], (uint8_t**)args[2], (uint8_t**)args[3], (CodePointIndexer_t4752 **)args[4], (uint8_t**)args[5], method);
 	return NULL;
 }
 
@@ -20859,13 +22570,13 @@ void* RuntimeInvoker_Void_t85_Object_t_UIVertex_t965_Vector2_t110_Vector2_t110_V
 
 struct Object_t;
 struct Object_t;
-struct DecoderFallbackBuffer_t4760;
+struct DecoderFallbackBuffer_t5351;
 struct ByteU5BU5D_t66;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_DecoderFallbackBufferU26_t5369_ByteU5BU5DU26_t3962_Object_t_Int64_t89_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_DecoderFallbackBufferU26_t5798_ByteU5BU5DU26_t3289_Object_t_Int64_t89_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, DecoderFallbackBuffer_t4760 ** p2, ByteU5BU5D_t66** p3, Object_t * p4, int64_t p5, int32_t p6, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (DecoderFallbackBuffer_t4760 **)args[1], (ByteU5BU5D_t66**)args[2], (Object_t *)args[3], *((int64_t*)args[4]), *((int32_t*)args[5]), method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, DecoderFallbackBuffer_t5351 ** p2, ByteU5BU5D_t66** p3, Object_t * p4, int64_t p5, int32_t p6, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (DecoderFallbackBuffer_t5351 **)args[1], (ByteU5BU5D_t66**)args[2], (Object_t *)args[3], *((int64_t*)args[4]), *((int32_t*)args[5]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -20928,10 +22639,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_Object_t_Int32_t82_Int32_t82_Object_t_ContextU26_t5215 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_Object_t_Int32_t82_Int32_t82_Object_t_ContextU26_t5743 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, Object_t * p2, int32_t p3, int32_t p4, Object_t * p5, Context_t4392 * p6, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), (Object_t *)args[4], (Context_t4392 *)args[5], method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, Object_t * p2, int32_t p3, int32_t p4, Object_t * p5, Context_t4761 * p6, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), (Object_t *)args[4], (Context_t4761 *)args[5], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -20976,10 +22687,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Int64_t89_Object_t_Object_t_Int64_t89_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Object_t_Int64_t89_Object_t_Int64_t89_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, int64_t p1, Object_t * p2, Object_t * p3, int64_t p4, Object_t * p5, Object_t * p6, const MethodInfo* method);
-	((Func)method->method)(obj, *((int64_t*)args[0]), (Object_t *)args[1], (Object_t *)args[2], *((int64_t*)args[3]), (Object_t *)args[4], (Object_t *)args[5], method);
+	typedef void (*Func)(void* obj, Object_t * p1, int64_t p2, Object_t * p3, int64_t p4, Object_t * p5, Object_t * p6, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], *((int64_t*)args[1]), (Object_t *)args[2], *((int64_t*)args[3]), (Object_t *)args[4], (Object_t *)args[5], method);
 	return NULL;
 }
 
@@ -20988,10 +22699,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Object_t_Int64_t89_Object_t_Int64_t89_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Int64_t89_Object_t_Object_t_Int64_t89_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Object_t * p1, int64_t p2, Object_t * p3, int64_t p4, Object_t * p5, Object_t * p6, const MethodInfo* method);
-	((Func)method->method)(obj, (Object_t *)args[0], *((int64_t*)args[1]), (Object_t *)args[2], *((int64_t*)args[3]), (Object_t *)args[4], (Object_t *)args[5], method);
+	typedef void (*Func)(void* obj, int64_t p1, Object_t * p2, Object_t * p3, int64_t p4, Object_t * p5, Object_t * p6, const MethodInfo* method);
+	((Func)method->method)(obj, *((int64_t*)args[0]), (Object_t *)args[1], (Object_t *)args[2], *((int64_t*)args[3]), (Object_t *)args[4], (Object_t *)args[5], method);
 	return NULL;
 }
 
@@ -21016,6 +22727,18 @@ void* RuntimeInvoker_Object_t_Object_t_Int32_t82_Int32_t82_Int32_t82_Object_t_Ob
 {
 	typedef Object_t * (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, int32_t p4, Object_t * p5, Object_t * p6, const MethodInfo* method);
 	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), (Object_t *)args[4], (Object_t *)args[5], method);
+	return ret;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Object_t_Object_t_Int32_t82_Object_t_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, Object_t * p4, int32_t p5, int32_t p6, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], (Object_t *)args[3], *((int32_t*)args[4]), *((int32_t*)args[5]), method);
 	return ret;
 }
 
@@ -21051,10 +22774,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, int32_t p3, Object_t * p4, Object_t * p5, Object_t * p6, const MethodInfo* method);
-	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int32_t*)args[2]), (Object_t *)args[3], (Object_t *)args[4], (Object_t *)args[5], method);
+	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, Object_t * p3, Object_t * p4, int32_t p5, Object_t * p6, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (Object_t *)args[2], (Object_t *)args[3], *((int32_t*)args[4]), (Object_t *)args[5], method);
 	return NULL;
 }
 
@@ -21064,10 +22787,10 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, Object_t * p3, Object_t * p4, int32_t p5, Object_t * p6, const MethodInfo* method);
-	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (Object_t *)args[2], (Object_t *)args[3], *((int32_t*)args[4]), (Object_t *)args[5], method);
+	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, int32_t p3, Object_t * p4, Object_t * p5, Object_t * p6, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int32_t*)args[2]), (Object_t *)args[3], (Object_t *)args[4], (Object_t *)args[5], method);
 	return NULL;
 }
 
@@ -21305,7 +23028,7 @@ void* RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int32_t82_Int32_t82_Int32_t82_S
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_UInt32U26_t3771_Int32_t82_UInt32U26_t3771_Int32_t82_Int32_t82_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_UInt32U26_t4184_Int32_t82_UInt32U26_t4184_Int32_t82_Int32_t82_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, uint32_t* p1, int32_t p2, uint32_t* p3, int32_t p4, int32_t p5, int32_t p6, int32_t p7, const MethodInfo* method);
 	((Func)method->method)(obj, (uint32_t*)args[0], *((int32_t*)args[1]), (uint32_t*)args[2], *((int32_t*)args[3]), *((int32_t*)args[4]), *((int32_t*)args[5]), *((int32_t*)args[6]), method);
@@ -21377,11 +23100,11 @@ void* RuntimeInvoker_Void_t85_Vector2_t110_Vector2_t110_Single_t87_Int32_t82_Sin
 
 struct Object_t;
 struct Object_t;
-struct EndPoint_t4012;
-void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Int32_t82_EndPointU26_t4338_SByte_t88_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
+struct EndPoint_t4351;
+void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Int32_t82_EndPointU26_t4714_SByte_t88_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, int32_t p4, EndPoint_t4012 ** p5, int8_t p6, int32_t* p7, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), (EndPoint_t4012 **)args[4], *((int8_t*)args[5]), (int32_t*)args[6], method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, int32_t p4, EndPoint_t4351 ** p5, int8_t p6, int32_t* p7, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), (EndPoint_t4351 **)args[4], *((int8_t*)args[5]), (int32_t*)args[6], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -21409,7 +23132,7 @@ void* RuntimeInvoker_Object_t_Object_t_Int32_t82_SByte_t88_SByte_t88_SByte_t88_S
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int32_t82_CharU26_t4351_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int32_t82_CharU26_t4721_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, Object_t * p4, int32_t p5, uint16_t* p6, int8_t p7, const MethodInfo* method);
 	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (Object_t *)args[3], *((int32_t*)args[4]), (uint16_t*)args[5], *((int8_t*)args[6]), method);
@@ -21430,10 +23153,10 @@ void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Int32_t82_Int32_t82_SBy
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_Int32U26_t840_Int32_t82_Int32_t82_Object_t_SByte_t88_ContextU26_t5215 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Int32U26_t840_Int32_t82_Int32_t82_Object_t_SByte_t88_ContextU26_t5743 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, Object_t * p1, int32_t* p2, int32_t p3, int32_t p4, Object_t * p5, int8_t p6, Context_t4392 * p7, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (int32_t*)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), (Object_t *)args[4], *((int8_t*)args[5]), (Context_t4392 *)args[6], method);
+	typedef bool (*Func)(void* obj, Object_t * p1, int32_t* p2, int32_t p3, int32_t p4, Object_t * p5, int8_t p6, Context_t4761 * p7, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (int32_t*)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), (Object_t *)args[4], *((int8_t*)args[5]), (Context_t4761 *)args[6], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -21448,7 +23171,7 @@ void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Int32_t82_Object_t_SByte_t88
 }
 
 struct Object_t;
-void* RuntimeInvoker_Void_t85_ByteU2AU26_t5032_ByteU2AU26_t5032_DoubleU2AU26_t5033_UInt16U2AU26_t5034_UInt16U2AU26_t5034_UInt16U2AU26_t5034_UInt16U2AU26_t5034 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_ByteU2AU26_t5560_ByteU2AU26_t5560_DoubleU2AU26_t5561_UInt16U2AU26_t5562_UInt16U2AU26_t5562_UInt16U2AU26_t5562_UInt16U2AU26_t5562 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, uint8_t** p1, uint8_t** p2, double** p3, uint16_t** p4, uint16_t** p5, uint16_t** p6, uint16_t** p7, const MethodInfo* method);
 	((Func)method->method)(obj, (uint8_t**)args[0], (uint8_t**)args[1], (double**)args[2], (uint16_t**)args[3], (uint16_t**)args[4], (uint16_t**)args[5], (uint16_t**)args[6], method);
@@ -21457,13 +23180,13 @@ void* RuntimeInvoker_Void_t85_ByteU2AU26_t5032_ByteU2AU26_t5032_DoubleU2AU26_t50
 
 struct Object_t;
 struct Object_t;
-struct SocketAddress_t4085;
+struct SocketAddress_t4397;
 // System.Net.SocketAddress
 #include "System_System_Net_SocketAddress.h"
-void* RuntimeInvoker_Int32_t82_IntPtr_t_Object_t_Int32_t82_Int32_t82_Int32_t82_SocketAddressU26_t4337_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_IntPtr_t_Object_t_Int32_t82_Int32_t82_Int32_t82_SocketAddressU26_t4713_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, IntPtr_t p1, Object_t * p2, int32_t p3, int32_t p4, int32_t p5, SocketAddress_t4085 ** p6, int32_t* p7, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), (Object_t *)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), *((int32_t*)args[4]), (SocketAddress_t4085 **)args[5], (int32_t*)args[6], method);
+	typedef int32_t (*Func)(void* obj, IntPtr_t p1, Object_t * p2, int32_t p3, int32_t p4, int32_t p5, SocketAddress_t4397 ** p6, int32_t* p7, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, *((IntPtr_t*)args[0]), (Object_t *)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), *((int32_t*)args[4]), (SocketAddress_t4397 **)args[5], (int32_t*)args[6], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -21482,7 +23205,7 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Exception_t57;
-void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_Int32_t82_DateTimeU26_t5375_DateTimeOffsetU26_t5376_SByte_t88_ExceptionU26_t5005 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_Int32_t82_DateTimeU26_t5748_DateTimeOffsetU26_t5749_SByte_t88_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, Object_t * p2, int32_t p3, DateTime_t287 * p4, DateTimeOffset_t2962 * p5, int8_t p6, Exception_t57 ** p7, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int32_t*)args[2]), (DateTime_t287 *)args[3], (DateTimeOffset_t2962 *)args[4], *((int8_t*)args[5]), (Exception_t57 **)args[6], method);
@@ -21503,14 +23226,14 @@ void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Object_t_Int32_t82_Int32_t82_S
 struct Object_t;
 struct Object_t;
 struct Object_t;
-struct EncoderFallbackBuffer_t4769;
+struct EncoderFallbackBuffer_t5360;
 // System.Text.EncoderFallbackBuffer
 #include "mscorlib_System_Text_EncoderFallbackBuffer.h"
 struct CharU5BU5D_t711;
-void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int32_t82_EncoderFallbackBufferU26_t5367_CharU5BU5DU26_t5368 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int32_t82_EncoderFallbackBufferU26_t5796_CharU5BU5DU26_t5797 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, Object_t * p4, int32_t p5, EncoderFallbackBuffer_t4769 ** p6, CharU5BU5D_t711** p7, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (Object_t *)args[3], *((int32_t*)args[4]), (EncoderFallbackBuffer_t4769 **)args[5], (CharU5BU5D_t711**)args[6], method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, Object_t * p4, int32_t p5, EncoderFallbackBuffer_t5360 ** p6, CharU5BU5D_t711** p7, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (Object_t *)args[3], *((int32_t*)args[4]), (EncoderFallbackBuffer_t5360 **)args[5], (CharU5BU5D_t711**)args[6], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -21537,6 +23260,15 @@ void* RuntimeInvoker_Void_t85_Object_t_Int32_t82_Object_t_Int32_t82_Single_t87_S
 
 struct Object_t;
 struct Object_t;
+void* RuntimeInvoker_Boolean_t59_Object_t_IntPtrU26_t4715_Int32U26_t840_IntPtrU26_t4715_Int32U26_t840_IntPtrU26_t4715_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, Object_t * p1, IntPtr_t* p2, int32_t* p3, IntPtr_t* p4, int32_t* p5, IntPtr_t* p6, int32_t* p7, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (IntPtr_t*)args[1], (int32_t*)args[2], (IntPtr_t*)args[3], (int32_t*)args[4], (IntPtr_t*)args[5], (int32_t*)args[6], method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
 struct Object_t;
 void* RuntimeInvoker_Int32_t82_IntPtr_t_Object_t_Int32_t82_Int32_t82_Int32_t82_Object_t_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
 {
@@ -21554,6 +23286,30 @@ void* RuntimeInvoker_Void_t85_Int32_t82_Object_t_Object_t_Object_t_SByte_t88_Obj
 {
 	typedef void (*Func)(void* obj, int32_t p1, Object_t * p2, Object_t * p3, Object_t * p4, int8_t p5, Object_t * p6, int8_t p7, const MethodInfo* method);
 	((Func)method->method)(obj, *((int32_t*)args[0]), (Object_t *)args[1], (Object_t *)args[2], (Object_t *)args[3], *((int8_t*)args[4]), (Object_t *)args[5], *((int8_t*)args[6]), method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int32_t82_Object_t_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, Object_t * p4, Object_t * p5, Object_t * p6, int8_t p7, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (Object_t *)args[3], (Object_t *)args[4], (Object_t *)args[5], *((int8_t*)args[6]), method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_StreamingContext_t2937_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, Object_t * p3, Object_t * p4, StreamingContext_t2937  p5, int32_t p6, int32_t p7, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (Object_t *)args[2], (Object_t *)args[3], *((StreamingContext_t2937 *)args[4]), *((int32_t*)args[5]), *((int32_t*)args[6]), method);
 	return NULL;
 }
 
@@ -21664,12 +23420,26 @@ void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t_Int32
 struct Object_t;
 struct Object_t;
 struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, Object_t * p3, Object_t * p4, Object_t * p5, Object_t * p6, int32_t p7, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (Object_t *)args[2], (Object_t *)args[3], (Object_t *)args[4], (Object_t *)args[5], *((int32_t*)args[6]), method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
 struct ObjectU5BU5D_t696;
 struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Object_t_Int32_t82_Object_t_ObjectU5BU5DU26_t5004_Object_t_Object_t_Object_t_ObjectU26_t2379 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Object_t_Int32_t82_Object_t_ObjectU5BU5DU26_t5533_Object_t_Object_t_Object_t_ObjectU26_t2379 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef Object_t * (*Func)(void* obj, int32_t p1, Object_t * p2, ObjectU5BU5D_t696** p3, Object_t * p4, Object_t * p5, Object_t * p6, Object_t ** p7, const MethodInfo* method);
 	Object_t * ret = ((Func)method->method)(obj, *((int32_t*)args[0]), (Object_t *)args[1], (ObjectU5BU5D_t696**)args[2], (Object_t *)args[3], (Object_t *)args[4], (Object_t *)args[5], (Object_t **)args[6], method);
@@ -21777,7 +23547,7 @@ struct MethodBase_t1542;
 // System.Reflection.MethodBase
 #include "mscorlib_System_Reflection_MethodBase.h"
 struct String_t;
-void* RuntimeInvoker_Boolean_t59_Int32_t82_SByte_t88_MethodBaseU26_t5349_Int32U26_t840_Int32U26_t840_StringU26_t827_Int32U26_t840_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Int32_t82_SByte_t88_MethodBaseU26_t5775_Int32U26_t840_Int32U26_t840_StringU26_t827_Int32U26_t840_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, int32_t p1, int8_t p2, MethodBase_t1542 ** p3, int32_t* p4, int32_t* p5, String_t** p6, int32_t* p7, int32_t* p8, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, *((int32_t*)args[0]), *((int8_t*)args[1]), (MethodBase_t1542 **)args[2], (int32_t*)args[3], (int32_t*)args[4], (String_t**)args[5], (int32_t*)args[6], (int32_t*)args[7], method);
@@ -21787,30 +23557,30 @@ void* RuntimeInvoker_Boolean_t59_Int32_t82_SByte_t88_MethodBaseU26_t5349_Int32U2
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int16_t756_Int32_t82_SByte_t88_ContextU26_t5215 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int16_t756_Int32_t82_SByte_t88_ContextU26_t5743 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, Object_t * p4, int16_t p5, int32_t p6, int8_t p7, Context_t4392 * p8, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (Object_t *)args[3], *((int16_t*)args[4]), *((int32_t*)args[5]), *((int8_t*)args[6]), (Context_t4392 *)args[7], method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, Object_t * p4, int16_t p5, int32_t p6, int8_t p7, Context_t4761 * p8, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (Object_t *)args[3], *((int16_t*)args[4]), *((int32_t*)args[5]), *((int8_t*)args[6]), (Context_t4761 *)args[7], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Int32_t82_Object_t_Int32_t82_SByte_t88_ContextU26_t5215 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Int32_t82_Object_t_Int32_t82_SByte_t88_ContextU26_t5743 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, int32_t p4, Object_t * p5, int32_t p6, int8_t p7, Context_t4392 * p8, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), (Object_t *)args[4], *((int32_t*)args[5]), *((int8_t*)args[6]), (Context_t4392 *)args[7], method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, int32_t p4, Object_t * p5, int32_t p6, int8_t p7, Context_t4761 * p8, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), (Object_t *)args[4], *((int32_t*)args[5]), *((int8_t*)args[6]), (Context_t4761 *)args[7], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_Int32U26_t840_Int32_t82_Int32_t82_Int32_t82_Object_t_SByte_t88_ContextU26_t5215 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Int32U26_t840_Int32_t82_Int32_t82_Int32_t82_Object_t_SByte_t88_ContextU26_t5743 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, Object_t * p1, int32_t* p2, int32_t p3, int32_t p4, int32_t p5, Object_t * p6, int8_t p7, Context_t4392 * p8, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (int32_t*)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), *((int32_t*)args[4]), (Object_t *)args[5], *((int8_t*)args[6]), (Context_t4392 *)args[7], method);
+	typedef bool (*Func)(void* obj, Object_t * p1, int32_t* p2, int32_t p3, int32_t p4, int32_t p5, Object_t * p6, int8_t p7, Context_t4761 * p8, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (int32_t*)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), *((int32_t*)args[4]), (Object_t *)args[5], *((int8_t*)args[6]), (Context_t4761 *)args[7], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -21826,12 +23596,12 @@ void* RuntimeInvoker_Void_t85_Single_t87_Vector2_t110_Single_t87_Single_t87_Vect
 struct Object_t;
 struct Object_t;
 struct Object_t;
-struct DecoderFallbackBuffer_t4760;
+struct DecoderFallbackBuffer_t5351;
 struct ByteU5BU5D_t66;
-void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Int32_t82_Object_t_DecoderFallbackBufferU26_t5369_ByteU5BU5DU26_t3962_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Int32_t82_Object_t_DecoderFallbackBufferU26_t5798_ByteU5BU5DU26_t3289_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, int32_t p4, Object_t * p5, DecoderFallbackBuffer_t4760 ** p6, ByteU5BU5D_t66** p7, int8_t p8, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), (Object_t *)args[4], (DecoderFallbackBuffer_t4760 **)args[5], (ByteU5BU5D_t66**)args[6], *((int8_t*)args[7]), method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, int32_t p4, Object_t * p5, DecoderFallbackBuffer_t5351 ** p6, ByteU5BU5D_t66** p7, int8_t p8, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), (Object_t *)args[4], (DecoderFallbackBuffer_t5351 **)args[5], (ByteU5BU5D_t66**)args[6], *((int8_t*)args[7]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -21870,14 +23640,14 @@ void* RuntimeInvoker_Void_t85_Rect_t708_Int32_t82_Object_t_SByte_t88_Int32_t82_O
 
 struct Object_t;
 struct Object_t;
-struct DecoderFallbackBuffer_t4760;
+struct DecoderFallbackBuffer_t5351;
 struct ByteU5BU5D_t66;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Void_t85_Object_t_DecoderFallbackBufferU26_t5369_ByteU5BU5DU26_t3962_Object_t_Int64_t89_Int32_t82_Object_t_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Void_t85_Object_t_DecoderFallbackBufferU26_t5798_ByteU5BU5DU26_t3289_Object_t_Int64_t89_Int32_t82_Object_t_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef void (*Func)(void* obj, Object_t * p1, DecoderFallbackBuffer_t4760 ** p2, ByteU5BU5D_t66** p3, Object_t * p4, int64_t p5, int32_t p6, Object_t * p7, int32_t* p8, const MethodInfo* method);
-	((Func)method->method)(obj, (Object_t *)args[0], (DecoderFallbackBuffer_t4760 **)args[1], (ByteU5BU5D_t66**)args[2], (Object_t *)args[3], *((int64_t*)args[4]), *((int32_t*)args[5]), (Object_t *)args[6], (int32_t*)args[7], method);
+	typedef void (*Func)(void* obj, Object_t * p1, DecoderFallbackBuffer_t5351 ** p2, ByteU5BU5D_t66** p3, Object_t * p4, int64_t p5, int32_t p6, Object_t * p7, int32_t* p8, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (DecoderFallbackBuffer_t5351 **)args[1], (ByteU5BU5D_t66**)args[2], (Object_t *)args[3], *((int64_t*)args[4]), *((int32_t*)args[5]), (Object_t *)args[6], (int32_t*)args[7], method);
 	return NULL;
 }
 
@@ -21914,6 +23684,19 @@ void* RuntimeInvoker_Object_t_Object_t_Int32_t82_Object_t_Int32U26_t840_BooleanU
 	typedef Object_t * (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, int32_t* p4, bool* p5, bool* p6, int32_t* p7, int8_t p8, const MethodInfo* method);
 	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], (int32_t*)args[3], (bool*)args[4], (bool*)args[5], (int32_t*)args[6], *((int8_t*)args[7]), method);
 	return ret;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82_Object_t_Object_t_Int32_t82_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, int32_t p3, Object_t * p4, Object_t * p5, int32_t p6, int32_t p7, Object_t * p8, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int32_t*)args[2]), (Object_t *)args[3], (Object_t *)args[4], *((int32_t*)args[5]), *((int32_t*)args[6]), (Object_t *)args[7], method);
+	return NULL;
 }
 
 struct Object_t;
@@ -21962,6 +23745,38 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
+struct XmlSchemaAnyAttribute_t3630;
+// System.Xml.Schema.XmlSchemaAnyAttribute
+#include "System_Xml_System_Xml_Schema_XmlSchemaAnyAttribute.h"
+struct Object_t;
+void* RuntimeInvoker_Int32_t82_Object_t_Object_t_Object_t_Object_t_Object_t_XmlSchemaAnyAttributeU26_t3743_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, Object_t * p1, Object_t * p2, Object_t * p3, Object_t * p4, Object_t * p5, XmlSchemaAnyAttribute_t3630 ** p6, Object_t * p7, int8_t p8, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (Object_t *)args[2], (Object_t *)args[3], (Object_t *)args[4], (XmlSchemaAnyAttribute_t3630 **)args[5], (Object_t *)args[6], *((int8_t*)args[7]), method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, Object_t * p3, Object_t * p4, Object_t * p5, Object_t * p6, Object_t * p7, int32_t p8, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (Object_t *)args[2], (Object_t *)args[3], (Object_t *)args[4], (Object_t *)args[5], (Object_t *)args[6], *((int32_t*)args[7]), method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
 struct Object_t;
 struct Object_t;
 void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int64_t89_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
@@ -21969,6 +23784,21 @@ void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int64_t89_Object_t_Object_t_Obje
 	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, int64_t p3, Object_t * p4, Object_t * p5, Object_t * p6, Object_t * p7, Object_t * p8, const MethodInfo* method);
 	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int64_t*)args[2]), (Object_t *)args[3], (Object_t *)args[4], (Object_t *)args[5], (Object_t *)args[6], (Object_t *)args[7], method);
 	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Object_t_Object_t_Int32_t82_Object_t_Object_t_Object_t_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, Object_t * p4, Object_t * p5, Object_t * p6, Object_t * p7, int8_t p8, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], (Object_t *)args[3], (Object_t *)args[4], (Object_t *)args[5], (Object_t *)args[6], *((int8_t*)args[7]), method);
+	return ret;
 }
 
 struct Object_t;
@@ -22063,12 +23893,12 @@ void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int32_t82_I
 struct Object_t;
 struct Object_t;
 struct Object_t;
-struct DecoderFallbackBuffer_t4760;
+struct DecoderFallbackBuffer_t5351;
 struct ByteU5BU5D_t66;
-void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Int32_t82_Int32_t82_Object_t_DecoderFallbackBufferU26_t5369_ByteU5BU5DU26_t3962_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Int32_t82_Int32_t82_Object_t_DecoderFallbackBufferU26_t5798_ByteU5BU5DU26_t3289_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, int32_t p4, int32_t p5, Object_t * p6, DecoderFallbackBuffer_t4760 ** p7, ByteU5BU5D_t66** p8, int8_t p9, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), *((int32_t*)args[4]), (Object_t *)args[5], (DecoderFallbackBuffer_t4760 **)args[6], (ByteU5BU5D_t66**)args[7], *((int8_t*)args[8]), method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, int32_t p4, int32_t p5, Object_t * p6, DecoderFallbackBuffer_t5351 ** p7, ByteU5BU5D_t66** p8, int8_t p9, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), *((int32_t*)args[3]), *((int32_t*)args[4]), (Object_t *)args[5], (DecoderFallbackBuffer_t5351 **)args[6], (ByteU5BU5D_t66**)args[7], *((int8_t*)args[8]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -22108,13 +23938,13 @@ void* RuntimeInvoker_Void_t85_Rect_t708_Single_t87_Single_t87_Single_t87_Single_
 struct Object_t;
 struct Object_t;
 struct Object_t;
-struct Contraction_t4385;
+struct Contraction_t4754;
 // Mono.Globalization.Unicode.Contraction
 #include "mscorlib_Mono_Globalization_Unicode_Contraction.h"
-void* RuntimeInvoker_Boolean_t59_Object_t_Int32U26_t840_Int32_t82_Int32_t82_Object_t_SByte_t88_Int32_t82_ContractionU26_t5216_ContextU26_t5215 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Int32U26_t840_Int32_t82_Int32_t82_Object_t_SByte_t88_Int32_t82_ContractionU26_t5744_ContextU26_t5743 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, Object_t * p1, int32_t* p2, int32_t p3, int32_t p4, Object_t * p5, int8_t p6, int32_t p7, Contraction_t4385 ** p8, Context_t4392 * p9, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (int32_t*)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), (Object_t *)args[4], *((int8_t*)args[5]), *((int32_t*)args[6]), (Contraction_t4385 **)args[7], (Context_t4392 *)args[8], method);
+	typedef bool (*Func)(void* obj, Object_t * p1, int32_t* p2, int32_t p3, int32_t p4, Object_t * p5, int8_t p6, int32_t p7, Contraction_t4754 ** p8, Context_t4761 * p9, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (int32_t*)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), (Object_t *)args[4], *((int8_t*)args[5]), *((int32_t*)args[6]), (Contraction_t4754 **)args[7], (Context_t4761 *)args[8], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -22133,7 +23963,7 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Exception_t57;
-void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_Object_t_Int32_t82_DateTimeU26_t5375_SByte_t88_BooleanU26_t841_SByte_t88_ExceptionU26_t5005 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_Object_t_Int32_t82_DateTimeU26_t5748_SByte_t88_BooleanU26_t841_SByte_t88_ExceptionU26_t3742 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, Object_t * p2, Object_t * p3, int32_t p4, DateTime_t287 * p5, int8_t p6, bool* p7, int8_t p8, Exception_t57 ** p9, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (Object_t *)args[2], *((int32_t*)args[3]), (DateTime_t287 *)args[4], *((int8_t*)args[5]), (bool*)args[6], *((int8_t*)args[7]), (Exception_t57 **)args[8], method);
@@ -22158,12 +23988,54 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_Int32_t82_Int32_t82_Object_t_Object_t_Object_t_Object_t_SByte_t88_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, Object_t * p4, Object_t * p5, Object_t * p6, Object_t * p7, int8_t p8, int8_t p9, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (Object_t *)args[3], (Object_t *)args[4], (Object_t *)args[5], (Object_t *)args[6], *((int8_t*)args[7]), *((int8_t*)args[8]), method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t_Int32_t82_Int32_t82_SByte_t88_SByte_t88_Int32U26_t840 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, Object_t * p2, Object_t * p3, Object_t * p4, int32_t p5, int32_t p6, int8_t p7, int8_t p8, int32_t* p9, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (Object_t *)args[2], (Object_t *)args[3], *((int32_t*)args[4]), *((int32_t*)args[5]), *((int8_t*)args[6]), *((int8_t*)args[7]), (int32_t*)args[8], method);
+	return ret;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
 struct Object_t;
 void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82_Nullable_1_t704_Nullable_1_t704_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, int32_t p3, Nullable_1_t704  p4, Nullable_1_t704  p5, Object_t * p6, Object_t * p7, Object_t * p8, Object_t * p9, const MethodInfo* method);
 	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int32_t*)args[2]), *((Nullable_1_t704 *)args[3]), *((Nullable_1_t704 *)args[4]), (Object_t *)args[5], (Object_t *)args[6], (Object_t *)args[7], (Object_t *)args[8], method);
 	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Object_t_Object_t_Int32_t82_Int32_t82_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, Object_t * p4, Object_t * p5, Object_t * p6, Object_t * p7, Object_t * p8, Object_t * p9, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (Object_t *)args[3], (Object_t *)args[4], (Object_t *)args[5], (Object_t *)args[6], (Object_t *)args[7], (Object_t *)args[8], method);
+	return ret;
 }
 
 struct Object_t;
@@ -22220,11 +24092,11 @@ void* RuntimeInvoker_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Objec
 struct Object_t;
 struct Object_t;
 struct Object_t;
-struct Contraction_t4385;
-void* RuntimeInvoker_Boolean_t59_Object_t_Int32U26_t840_Int32_t82_Int32_t82_Int32_t82_Object_t_SByte_t88_Int32_t82_ContractionU26_t5216_ContextU26_t5215 (const MethodInfo* method, void* obj, void** args)
+struct Contraction_t4754;
+void* RuntimeInvoker_Boolean_t59_Object_t_Int32U26_t840_Int32_t82_Int32_t82_Int32_t82_Object_t_SByte_t88_Int32_t82_ContractionU26_t5744_ContextU26_t5743 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, Object_t * p1, int32_t* p2, int32_t p3, int32_t p4, int32_t p5, Object_t * p6, int8_t p7, int32_t p8, Contraction_t4385 ** p9, Context_t4392 * p10, const MethodInfo* method);
-	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (int32_t*)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), *((int32_t*)args[4]), (Object_t *)args[5], *((int8_t*)args[6]), *((int32_t*)args[7]), (Contraction_t4385 **)args[8], (Context_t4392 *)args[9], method);
+	typedef bool (*Func)(void* obj, Object_t * p1, int32_t* p2, int32_t p3, int32_t p4, int32_t p5, Object_t * p6, int8_t p7, int32_t p8, Contraction_t4754 ** p9, Context_t4761 * p10, const MethodInfo* method);
+	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (int32_t*)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), *((int32_t*)args[4]), (Object_t *)args[5], *((int8_t*)args[6]), *((int32_t*)args[7]), (Contraction_t4754 **)args[8], (Context_t4761 *)args[9], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -22245,12 +24117,12 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-struct DecoderFallbackBuffer_t4760;
+struct DecoderFallbackBuffer_t5351;
 struct ByteU5BU5D_t66;
-void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Object_t_Int32_t82_UInt32U26_t3771_UInt32U26_t3771_Object_t_DecoderFallbackBufferU26_t5369_ByteU5BU5DU26_t3962_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Object_t_Int32_t82_UInt32U26_t4184_UInt32U26_t4184_Object_t_DecoderFallbackBufferU26_t5798_ByteU5BU5DU26_t3289_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, int32_t p4, uint32_t* p5, uint32_t* p6, Object_t * p7, DecoderFallbackBuffer_t4760 ** p8, ByteU5BU5D_t66** p9, int8_t p10, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], *((int32_t*)args[3]), (uint32_t*)args[4], (uint32_t*)args[5], (Object_t *)args[6], (DecoderFallbackBuffer_t4760 **)args[7], (ByteU5BU5D_t66**)args[8], *((int8_t*)args[9]), method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, Object_t * p3, int32_t p4, uint32_t* p5, uint32_t* p6, Object_t * p7, DecoderFallbackBuffer_t5351 ** p8, ByteU5BU5D_t66** p9, int8_t p10, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), (Object_t *)args[2], *((int32_t*)args[3]), (uint32_t*)args[4], (uint32_t*)args[5], (Object_t *)args[6], (DecoderFallbackBuffer_t5351 **)args[7], (ByteU5BU5D_t66**)args[8], *((int8_t*)args[9]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -22277,6 +24149,22 @@ void* RuntimeInvoker_Object_t_Rect_t708_Int32_t82_Int32_t82_Single_t87_Single_t8
 	typedef Object_t * (*Func)(void* obj, Rect_t708  p1, int32_t p2, int32_t p3, float p4, float p5, Object_t * p6, Object_t * p7, Object_t * p8, Object_t * p9, int8_t p10, const MethodInfo* method);
 	Object_t * ret = ((Func)method->method)(obj, *((Rect_t708 *)args[0]), *((int32_t*)args[1]), *((int32_t*)args[2]), *((float*)args[3]), *((float*)args[4]), (Object_t *)args[5], (Object_t *)args[6], (Object_t *)args[7], (Object_t *)args[8], *((int8_t*)args[9]), method);
 	return ret;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82_Int32_t82_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Object_t * p1, Object_t * p2, int32_t p3, int32_t p4, Object_t * p5, Object_t * p6, Object_t * p7, Object_t * p8, Object_t * p9, Object_t * p10, const MethodInfo* method);
+	((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], *((int32_t*)args[2]), *((int32_t*)args[3]), (Object_t *)args[4], (Object_t *)args[5], (Object_t *)args[6], (Object_t *)args[7], (Object_t *)args[8], (Object_t *)args[9], method);
+	return NULL;
 }
 
 struct Object_t;
@@ -22324,10 +24212,10 @@ void* RuntimeInvoker_Void_t85_Int32_t82_Int16_t756_Int16_t756_SByte_t88_SByte_t8
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int32_t82_Int32_t82_BooleanU26_t841_BooleanU26_t841_SByte_t88_SByte_t88_ContextU26_t5215 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int32_t82_Int32_t82_BooleanU26_t841_BooleanU26_t841_SByte_t88_SByte_t88_ContextU26_t5743 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, Object_t * p4, int32_t p5, int32_t p6, bool* p7, bool* p8, int8_t p9, int8_t p10, Context_t4392 * p11, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (Object_t *)args[3], *((int32_t*)args[4]), *((int32_t*)args[5]), (bool*)args[6], (bool*)args[7], *((int8_t*)args[8]), *((int8_t*)args[9]), (Context_t4392 *)args[10], method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, Object_t * p4, int32_t p5, int32_t p6, bool* p7, bool* p8, int8_t p9, int8_t p10, Context_t4761 * p11, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (Object_t *)args[3], *((int32_t*)args[4]), *((int32_t*)args[5]), (bool*)args[6], (bool*)args[7], *((int8_t*)args[8]), *((int8_t*)args[9]), (Context_t4761 *)args[10], method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -22335,12 +24223,12 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-struct DecoderFallbackBuffer_t4760;
+struct DecoderFallbackBuffer_t5351;
 struct ByteU5BU5D_t66;
-void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int32_t82_UInt32U26_t3771_UInt32U26_t3771_Object_t_DecoderFallbackBufferU26_t5369_ByteU5BU5DU26_t3962_SByte_t88 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Int32_t82_Object_t_Int32_t82_Int32_t82_Object_t_Int32_t82_UInt32U26_t4184_UInt32U26_t4184_Object_t_DecoderFallbackBufferU26_t5798_ByteU5BU5DU26_t3289_SByte_t88 (const MethodInfo* method, void* obj, void** args)
 {
-	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, Object_t * p4, int32_t p5, uint32_t* p6, uint32_t* p7, Object_t * p8, DecoderFallbackBuffer_t4760 ** p9, ByteU5BU5D_t66** p10, int8_t p11, const MethodInfo* method);
-	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (Object_t *)args[3], *((int32_t*)args[4]), (uint32_t*)args[5], (uint32_t*)args[6], (Object_t *)args[7], (DecoderFallbackBuffer_t4760 **)args[8], (ByteU5BU5D_t66**)args[9], *((int8_t*)args[10]), method);
+	typedef int32_t (*Func)(void* obj, Object_t * p1, int32_t p2, int32_t p3, Object_t * p4, int32_t p5, uint32_t* p6, uint32_t* p7, Object_t * p8, DecoderFallbackBuffer_t5351 ** p9, ByteU5BU5D_t66** p10, int8_t p11, const MethodInfo* method);
+	int32_t ret = ((Func)method->method)(obj, (Object_t *)args[0], *((int32_t*)args[1]), *((int32_t*)args[2]), (Object_t *)args[3], *((int32_t*)args[4]), (uint32_t*)args[5], (uint32_t*)args[6], (Object_t *)args[7], (DecoderFallbackBuffer_t5351 **)args[8], (ByteU5BU5D_t66**)args[9], *((int8_t*)args[10]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
@@ -22349,7 +24237,7 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
-void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_Object_t_SByte_t88_DateTimeU26_t5375_DateTimeOffsetU26_t5376_Object_t_Int32_t82_SByte_t88_BooleanU26_t841_BooleanU26_t841 (const MethodInfo* method, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t59_Object_t_Object_t_Object_t_SByte_t88_DateTimeU26_t5748_DateTimeOffsetU26_t5749_Object_t_Int32_t82_SByte_t88_BooleanU26_t841_BooleanU26_t841 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef bool (*Func)(void* obj, Object_t * p1, Object_t * p2, Object_t * p3, int8_t p4, DateTime_t287 * p5, DateTimeOffset_t2962 * p6, Object_t * p7, int32_t p8, int8_t p9, bool* p10, bool* p11, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, (Object_t *)args[0], (Object_t *)args[1], (Object_t *)args[2], *((int8_t*)args[3]), (DateTime_t287 *)args[4], (DateTimeOffset_t2962 *)args[5], (Object_t *)args[6], *((int32_t*)args[7]), *((int8_t*)args[8]), (bool*)args[9], (bool*)args[10], method);
@@ -22415,6 +24303,25 @@ struct Object_t;
 struct Object_t;
 struct Object_t;
 struct Object_t;
+void* RuntimeInvoker_Object_t_SByte_t88_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Int32_t82_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef Object_t * (*Func)(void* obj, int8_t p1, Object_t * p2, Object_t * p3, Object_t * p4, Object_t * p5, Object_t * p6, Object_t * p7, Object_t * p8, int32_t p9, Object_t * p10, Object_t * p11, Object_t * p12, const MethodInfo* method);
+	Object_t * ret = ((Func)method->method)(obj, *((int8_t*)args[0]), (Object_t *)args[1], (Object_t *)args[2], (Object_t *)args[3], (Object_t *)args[4], (Object_t *)args[5], (Object_t *)args[6], (Object_t *)args[7], *((int32_t*)args[8]), (Object_t *)args[9], (Object_t *)args[10], (Object_t *)args[11], method);
+	return ret;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
 struct Object_t;
 void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args)
 {
@@ -22436,6 +24343,25 @@ void* RuntimeInvoker_Void_t85_Int32_t82_Object_t_Object_t_Object_t_Object_t_Int3
 {
 	typedef void (*Func)(void* obj, int32_t p1, Object_t * p2, Object_t * p3, Object_t * p4, Object_t * p5, int32_t p6, Object_t * p7, Object_t * p8, int32_t p9, int8_t p10, int32_t p11, Object_t * p12, Object_t * p13, const MethodInfo* method);
 	((Func)method->method)(obj, *((int32_t*)args[0]), (Object_t *)args[1], (Object_t *)args[2], (Object_t *)args[3], (Object_t *)args[4], *((int32_t*)args[5]), (Object_t *)args[6], (Object_t *)args[7], *((int32_t*)args[8]), *((int8_t*)args[9]), *((int32_t*)args[10]), (Object_t *)args[11], (Object_t *)args[12], method);
+	return NULL;
+}
+
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+struct Object_t;
+void* RuntimeInvoker_Void_t85_SByte_t88_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Object_t_Int32_t82_Object_t_Object_t_Object_t_SByte_t88_Object_t (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, int8_t p1, Object_t * p2, Object_t * p3, Object_t * p4, Object_t * p5, Object_t * p6, Object_t * p7, Object_t * p8, int32_t p9, Object_t * p10, Object_t * p11, Object_t * p12, int8_t p13, Object_t * p14, const MethodInfo* method);
+	((Func)method->method)(obj, *((int8_t*)args[0]), (Object_t *)args[1], (Object_t *)args[2], (Object_t *)args[3], (Object_t *)args[4], (Object_t *)args[5], (Object_t *)args[6], (Object_t *)args[7], *((int32_t*)args[8]), (Object_t *)args[9], (Object_t *)args[10], (Object_t *)args[11], *((int8_t*)args[12]), (Object_t *)args[13], method);
 	return NULL;
 }
 

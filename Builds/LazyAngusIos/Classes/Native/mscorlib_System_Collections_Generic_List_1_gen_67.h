@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Net.Cookie[]
-struct CookieU5BU5D_t8673;
+// System.Collections.Generic.RBTree/Node[]
+struct NodeU5BU5D_t6194;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Net.Cookie>
-struct  List_1_t4037  : public Object_t
+// System.Collections.Generic.List`1<System.Collections.Generic.RBTree/Node>
+struct  List_1_t4208  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Net.Cookie>::_items
-	CookieU5BU5D_t8673* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Net.Cookie>::_size
+	// T[] System.Collections.Generic.List`1<System.Collections.Generic.RBTree/Node>::_items
+	NodeU5BU5D_t6194* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.RBTree/Node>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Net.Cookie>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.RBTree/Node>::_version
 	int32_t ____version_3;
 };
-struct List_1_t4037_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Net.Cookie>::EmptyArray
-	CookieU5BU5D_t8673* ___EmptyArray_4;
+struct List_1_t4208_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Collections.Generic.RBTree/Node>::EmptyArray
+	NodeU5BU5D_t6194* ___EmptyArray_4;
 };

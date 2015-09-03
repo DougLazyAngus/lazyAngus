@@ -5,16 +5,16 @@ struct CharU5BU5D_t711;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.UInt32[]
-struct UInt32U5BU5D_t3234;
+struct UInt32U5BU5D_t3116;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlChar
-struct  XmlChar_t3235  : public Object_t
+struct  XmlChar_t3506  : public Object_t
 {
 };
-struct XmlChar_t3235_StaticFields{
+struct XmlChar_t3506_StaticFields{
 	// System.Char[] System.Xml.XmlChar::WhitespaceChars
 	CharU5BU5D_t711* ___WhitespaceChars_0;
 	// System.Byte[] System.Xml.XmlChar::firstNamePages
@@ -22,7 +22,7 @@ struct XmlChar_t3235_StaticFields{
 	// System.Byte[] System.Xml.XmlChar::namePages
 	ByteU5BU5D_t66* ___namePages_2;
 	// System.UInt32[] System.Xml.XmlChar::nameBitmap
-	UInt32U5BU5D_t3234* ___nameBitmap_3;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.XmlChar::<>f__switch$map47
-	Dictionary_2_t223 * ___U3CU3Ef__switchU24map47_4;
+	UInt32U5BU5D_t3116* ___nameBitmap_3;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.XmlChar::<>f__switch$map2F
+	Dictionary_2_t223 * ___U3CU3Ef__switchU24map2F_4;
 };

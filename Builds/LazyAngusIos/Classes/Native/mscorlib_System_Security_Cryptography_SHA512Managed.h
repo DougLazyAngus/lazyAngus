@@ -3,11 +3,11 @@
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.UInt64[]
-struct UInt64U5BU5D_t4727;
+struct UInt64U5BU5D_t5278;
 // System.Security.Cryptography.SHA512
 #include "mscorlib_System_Security_Cryptography_SHA512.h"
 // System.Security.Cryptography.SHA512Managed
-struct  SHA512Managed_t4730  : public SHA512_t4729
+struct  SHA512Managed_t5281  : public SHA512_t5280
 {
 	// System.Byte[] System.Security.Cryptography.SHA512Managed::xBuf
 	ByteU5BU5D_t66* ___xBuf_4;
@@ -34,7 +34,7 @@ struct  SHA512Managed_t4730  : public SHA512_t4729
 	// System.UInt64 System.Security.Cryptography.SHA512Managed::H8
 	uint64_t ___H8_15;
 	// System.UInt64[] System.Security.Cryptography.SHA512Managed::W
-	UInt64U5BU5D_t4727* ___W_16;
+	UInt64U5BU5D_t5278* ___W_16;
 	// System.Int32 System.Security.Cryptography.SHA512Managed::wOff
 	int32_t ___wOff_17;
 };

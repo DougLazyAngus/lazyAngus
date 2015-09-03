@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>
-struct List_1_t693;
-// UnionAssets.FLE.EventHandlerFunction
-struct EventHandlerFunction_t689;
+// System.Collections.Generic.List`1<System.Net.Cookie>
+struct List_1_t4343;
+// System.Net.Cookie
+struct Cookie_t4346;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.EventHandlerFunction>
-struct  Enumerator_t5499 
+// System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>
+struct  Enumerator_t4573 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.EventHandlerFunction>::l
-	List_1_t693 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.EventHandlerFunction>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::l
+	List_1_t4343 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.EventHandlerFunction>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnionAssets.FLE.EventHandlerFunction>::current
-	EventHandlerFunction_t689 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::current
+	Cookie_t4346 * ___current_3;
 };

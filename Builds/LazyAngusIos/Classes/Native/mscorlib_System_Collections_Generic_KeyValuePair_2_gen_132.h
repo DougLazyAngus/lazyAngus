@@ -5,7 +5,7 @@ struct LayoutCache_t2730;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>
-struct  KeyValuePair_2_t8431 
+struct  KeyValuePair_2_t8966 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::key
 	int32_t ___key_0;

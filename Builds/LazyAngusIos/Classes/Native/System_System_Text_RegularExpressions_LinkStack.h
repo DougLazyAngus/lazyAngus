@@ -5,7 +5,7 @@ struct Stack_t2914;
 // System.Text.RegularExpressions.LinkRef
 #include "System_System_Text_RegularExpressions_LinkRef.h"
 // System.Text.RegularExpressions.LinkStack
-struct  LinkStack_t4155  : public LinkRef_t4151
+struct  LinkStack_t4487  : public LinkRef_t4483
 {
 	// System.Collections.Stack System.Text.RegularExpressions.LinkStack::stack
 	Stack_t2914 * ___stack_0;

@@ -7,7 +7,7 @@ struct ArrayList_t712;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // Mono.Security.X509.X509ExtensionCollection
-struct X509ExtensionCollection_t3829;
+struct X509ExtensionCollection_t3150;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Object
@@ -15,7 +15,7 @@ struct Dictionary_2_t223;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // Mono.Security.X509.X509Crl
-struct  X509Crl_t3836  : public Object_t
+struct  X509Crl_t3157  : public Object_t
 {
 	// System.String Mono.Security.X509.X509Crl::issuer
 	String_t* ___issuer_0;
@@ -32,13 +32,13 @@ struct  X509Crl_t3836  : public Object_t
 	// System.Byte[] Mono.Security.X509.X509Crl::signature
 	ByteU5BU5D_t66* ___signature_6;
 	// Mono.Security.X509.X509ExtensionCollection Mono.Security.X509.X509Crl::extensions
-	X509ExtensionCollection_t3829 * ___extensions_7;
+	X509ExtensionCollection_t3150 * ___extensions_7;
 	// System.Byte[] Mono.Security.X509.X509Crl::encoded
 	ByteU5BU5D_t66* ___encoded_8;
 	// System.Byte[] Mono.Security.X509.X509Crl::hash_value
 	ByteU5BU5D_t66* ___hash_value_9;
 };
-struct X509Crl_t3836_StaticFields{
+struct X509Crl_t3157_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Security.X509.X509Crl::<>f__switch$map13
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map13_10;
 };

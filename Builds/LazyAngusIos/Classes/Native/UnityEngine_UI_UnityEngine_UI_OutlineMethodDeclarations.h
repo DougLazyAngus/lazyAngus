@@ -10,6 +10,6 @@ struct Outline_t1034;
 struct List_1_t967;
 
 // System.Void UnityEngine.UI.Outline::.ctor()
-extern "C" void Outline__ctor_m5906 (Outline_t1034 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Outline__ctor_m5910 (Outline_t1034 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Outline::ModifyVertices(System.Collections.Generic.List`1<UnityEngine.UIVertex>)
-extern "C" void Outline_ModifyVertices_m5907 (Outline_t1034 * __this, List_1_t967 * ___verts, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Outline_ModifyVertices_m5911 (Outline_t1034 * __this, List_1_t967 * ___verts, const MethodInfo* method) IL2CPP_METHOD_ATTR;

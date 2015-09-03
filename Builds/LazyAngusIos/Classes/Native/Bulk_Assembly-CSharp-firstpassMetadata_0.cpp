@@ -122,15 +122,21 @@ extern const MethodInfo Attribute_Equals_m489_MethodInfo;
 extern const MethodInfo Object_Finalize_m490_MethodInfo;
 extern const MethodInfo Attribute_GetHashCode_m491_MethodInfo;
 extern const MethodInfo Object_ToString_m492_MethodInfo;
+extern const MethodInfo Attribute_get_TypeId_m493_MethodInfo;
+extern const MethodInfo Attribute_IsDefaultAttribute_m494_MethodInfo;
 static const Il2CppMethodReference AdvertiserOptInAttribute_t1_VTable[] =
 {
 	&Attribute_Equals_m489_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Attribute_GetHashCode_m491_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
+	&Attribute_get_TypeId_m493_MethodInfo,
+	&Attribute_IsDefaultAttribute_m494_MethodInfo,
 };
 static bool AdvertiserOptInAttribute_t1_VTableIsGenericMethod[] =
 {
+	false,
+	false,
 	false,
 	false,
 	false,
@@ -208,7 +214,7 @@ TypeInfo AdvertiserOptInAttribute_t1_il2cpp_TypeInfo =
 	, 0/* field_count */
 	, 0/* event_count */
 	, 0/* nested_type_count */
-	, 4/* vtable_count */
+	, 6/* vtable_count */
 	, 0/* interfaces_count */
 	, 1/* interface_offsets_count */
 
@@ -264,9 +270,13 @@ static const Il2CppMethodReference RangedTooltipAttribute_t3_VTable[] =
 	&Object_Finalize_m490_MethodInfo,
 	&Attribute_GetHashCode_m491_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
+	&Attribute_get_TypeId_m493_MethodInfo,
+	&Attribute_IsDefaultAttribute_m494_MethodInfo,
 };
 static bool RangedTooltipAttribute_t3_VTableIsGenericMethod[] =
 {
+	false,
+	false,
 	false,
 	false,
 	false,
@@ -342,7 +352,7 @@ TypeInfo RangedTooltipAttribute_t3_il2cpp_TypeInfo =
 	, 3/* field_count */
 	, 0/* event_count */
 	, 0/* nested_type_count */
-	, 4/* vtable_count */
+	, 6/* vtable_count */
 	, 0/* interfaces_count */
 	, 1/* interface_offsets_count */
 
@@ -392,9 +402,13 @@ static const Il2CppMethodReference TooltipAttribute_t4_VTable[] =
 	&Object_Finalize_m490_MethodInfo,
 	&Attribute_GetHashCode_m491_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
+	&Attribute_get_TypeId_m493_MethodInfo,
+	&Attribute_IsDefaultAttribute_m494_MethodInfo,
 };
 static bool TooltipAttribute_t4_VTableIsGenericMethod[] =
 {
+	false,
+	false,
 	false,
 	false,
 	false,
@@ -470,7 +484,7 @@ TypeInfo TooltipAttribute_t4_il2cpp_TypeInfo =
 	, 1/* field_count */
 	, 0/* event_count */
 	, 0/* nested_type_count */
-	, 4/* vtable_count */
+	, 6/* vtable_count */
 	, 0/* interfaces_count */
 	, 1/* interface_offsets_count */
 
@@ -538,12 +552,12 @@ static const MethodInfo* Field_t5_MethodInfos[] =
 	&Field_ToString_m4_MethodInfo,
 	NULL
 };
-extern const MethodInfo Object_Equals_m493_MethodInfo;
+extern const MethodInfo Object_Equals_m495_MethodInfo;
 extern const MethodInfo Object_GetHashCode_m406_MethodInfo;
 extern const MethodInfo Field_ToString_m4_MethodInfo;
 static const Il2CppMethodReference Field_t5_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Field_ToString_m4_MethodInfo,
@@ -687,7 +701,7 @@ static const MethodInfo* Fields_t6_MethodInfos[] =
 };
 static const Il2CppMethodReference Fields_t6_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -2146,10 +2160,10 @@ static const Il2CppGenericParameter* GAIHandler__buildCustomDimensionsDictionary
 };
 extern const MethodInfo GAIHandler__buildCustomDimensionsDictionary_m459_MethodInfo;
 extern const Il2CppGenericContainer GAIHandler__buildCustomDimensionsDictionary_m459_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&GAIHandler__buildCustomDimensionsDictionary_m459_MethodInfo, 1, 1, GAIHandler__buildCustomDimensionsDictionary_m459_Il2CppGenericParametersArray };
-extern const Il2CppGenericMethod HitBuilder_1_GetCustomDimensions_m494_GenericMethod;
+extern const Il2CppGenericMethod HitBuilder_1_GetCustomDimensions_m496_GenericMethod;
 static Il2CppRGCTXDefinition GAIHandler__buildCustomDimensionsDictionary_m459_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &HitBuilder_1_GetCustomDimensions_m494_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &HitBuilder_1_GetCustomDimensions_m496_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // System.Void GAIHandler::_buildCustomDimensionsDictionary(HitBuilder`1<T>)
@@ -2219,10 +2233,10 @@ static const Il2CppGenericParameter* GAIHandler__buildCustomMetricsDictionary_m4
 };
 extern const MethodInfo GAIHandler__buildCustomMetricsDictionary_m460_MethodInfo;
 extern const Il2CppGenericContainer GAIHandler__buildCustomMetricsDictionary_m460_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&GAIHandler__buildCustomMetricsDictionary_m460_MethodInfo, 1, 1, GAIHandler__buildCustomMetricsDictionary_m460_Il2CppGenericParametersArray };
-extern const Il2CppGenericMethod HitBuilder_1_GetCustomMetrics_m495_GenericMethod;
+extern const Il2CppGenericMethod HitBuilder_1_GetCustomMetrics_m497_GenericMethod;
 static Il2CppRGCTXDefinition GAIHandler__buildCustomMetricsDictionary_m460_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &HitBuilder_1_GetCustomMetrics_m495_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &HitBuilder_1_GetCustomMetrics_m497_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // System.Void GAIHandler::_buildCustomMetricsDictionary(HitBuilder`1<T>)
@@ -2298,18 +2312,18 @@ static const Il2CppGenericParameter* GAIHandler__buildCampaignParametersDictiona
 };
 extern const MethodInfo GAIHandler__buildCampaignParametersDictionary_m461_MethodInfo;
 extern const Il2CppGenericContainer GAIHandler__buildCampaignParametersDictionary_m461_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&GAIHandler__buildCampaignParametersDictionary_m461_MethodInfo, 1, 1, GAIHandler__buildCampaignParametersDictionary_m461_Il2CppGenericParametersArray };
-extern const Il2CppGenericMethod HitBuilder_1_GetCampaignSource_m496_GenericMethod;
-extern const Il2CppGenericMethod HitBuilder_1_GetCampaignMedium_m497_GenericMethod;
-extern const Il2CppGenericMethod HitBuilder_1_GetCampaignName_m498_GenericMethod;
-extern const Il2CppGenericMethod HitBuilder_1_GetCampaignContent_m499_GenericMethod;
-extern const Il2CppGenericMethod HitBuilder_1_GetCampaignKeyword_m500_GenericMethod;
+extern const Il2CppGenericMethod HitBuilder_1_GetCampaignSource_m498_GenericMethod;
+extern const Il2CppGenericMethod HitBuilder_1_GetCampaignMedium_m499_GenericMethod;
+extern const Il2CppGenericMethod HitBuilder_1_GetCampaignName_m500_GenericMethod;
+extern const Il2CppGenericMethod HitBuilder_1_GetCampaignContent_m501_GenericMethod;
+extern const Il2CppGenericMethod HitBuilder_1_GetCampaignKeyword_m502_GenericMethod;
 static Il2CppRGCTXDefinition GAIHandler__buildCampaignParametersDictionary_m461_RGCTXData[6] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &HitBuilder_1_GetCampaignSource_m496_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &HitBuilder_1_GetCampaignMedium_m497_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &HitBuilder_1_GetCampaignName_m498_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &HitBuilder_1_GetCampaignContent_m499_GenericMethod }/* Method */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &HitBuilder_1_GetCampaignKeyword_m500_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &HitBuilder_1_GetCampaignSource_m498_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &HitBuilder_1_GetCampaignMedium_m499_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &HitBuilder_1_GetCampaignName_m500_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &HitBuilder_1_GetCampaignContent_m501_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &HitBuilder_1_GetCampaignKeyword_m502_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // System.Void GAIHandler::_buildCampaignParametersDictionary(HitBuilder`1<T>)
@@ -2393,7 +2407,7 @@ static const MethodInfo* GAIHandler_t7_MethodInfos[] =
 };
 static const Il2CppMethodReference GAIHandler_t7_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -2537,7 +2551,7 @@ static const MethodInfo* GoogleAnalyticsAndroidV4_t8_MethodInfos[] =
 extern const MethodInfo GoogleAnalyticsAndroidV4_Dispose_m58_MethodInfo;
 static const Il2CppMethodReference GoogleAnalyticsAndroidV4_t8_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -2667,7 +2681,7 @@ static const MethodInfo* GoogleAnalyticsMPV3_t9_MethodInfos[] =
 };
 static const Il2CppMethodReference GoogleAnalyticsMPV3_t9_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -2760,53 +2774,53 @@ static const MethodInfo* DebugMode_t10_MethodInfos[] =
 {
 	NULL
 };
-extern const MethodInfo Enum_Equals_m501_MethodInfo;
-extern const MethodInfo Enum_GetHashCode_m502_MethodInfo;
-extern const MethodInfo Enum_ToString_m503_MethodInfo;
-extern const MethodInfo Enum_ToString_m504_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToBoolean_m505_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToByte_m506_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToChar_m507_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToDateTime_m508_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToDecimal_m509_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToDouble_m510_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToInt16_m511_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToInt32_m512_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToInt64_m513_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToSByte_m514_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToSingle_m515_MethodInfo;
-extern const MethodInfo Enum_ToString_m516_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToType_m517_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToUInt16_m518_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToUInt32_m519_MethodInfo;
-extern const MethodInfo Enum_System_IConvertible_ToUInt64_m520_MethodInfo;
-extern const MethodInfo Enum_CompareTo_m521_MethodInfo;
-extern const MethodInfo Enum_GetTypeCode_m522_MethodInfo;
+extern const MethodInfo Enum_Equals_m503_MethodInfo;
+extern const MethodInfo Enum_GetHashCode_m504_MethodInfo;
+extern const MethodInfo Enum_ToString_m505_MethodInfo;
+extern const MethodInfo Enum_ToString_m506_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToBoolean_m507_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToByte_m508_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToChar_m509_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToDateTime_m510_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToDecimal_m511_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToDouble_m512_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToInt16_m513_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToInt32_m514_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToInt64_m515_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToSByte_m516_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToSingle_m517_MethodInfo;
+extern const MethodInfo Enum_ToString_m518_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToType_m519_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToUInt16_m520_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToUInt32_m521_MethodInfo;
+extern const MethodInfo Enum_System_IConvertible_ToUInt64_m522_MethodInfo;
+extern const MethodInfo Enum_CompareTo_m523_MethodInfo;
+extern const MethodInfo Enum_GetTypeCode_m524_MethodInfo;
 static const Il2CppMethodReference DebugMode_t10_VTable[] =
 {
-	&Enum_Equals_m501_MethodInfo,
+	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Enum_GetHashCode_m502_MethodInfo,
-	&Enum_ToString_m503_MethodInfo,
-	&Enum_ToString_m504_MethodInfo,
-	&Enum_System_IConvertible_ToBoolean_m505_MethodInfo,
-	&Enum_System_IConvertible_ToByte_m506_MethodInfo,
-	&Enum_System_IConvertible_ToChar_m507_MethodInfo,
-	&Enum_System_IConvertible_ToDateTime_m508_MethodInfo,
-	&Enum_System_IConvertible_ToDecimal_m509_MethodInfo,
-	&Enum_System_IConvertible_ToDouble_m510_MethodInfo,
-	&Enum_System_IConvertible_ToInt16_m511_MethodInfo,
-	&Enum_System_IConvertible_ToInt32_m512_MethodInfo,
-	&Enum_System_IConvertible_ToInt64_m513_MethodInfo,
-	&Enum_System_IConvertible_ToSByte_m514_MethodInfo,
-	&Enum_System_IConvertible_ToSingle_m515_MethodInfo,
-	&Enum_ToString_m516_MethodInfo,
-	&Enum_System_IConvertible_ToType_m517_MethodInfo,
-	&Enum_System_IConvertible_ToUInt16_m518_MethodInfo,
-	&Enum_System_IConvertible_ToUInt32_m519_MethodInfo,
-	&Enum_System_IConvertible_ToUInt64_m520_MethodInfo,
-	&Enum_CompareTo_m521_MethodInfo,
-	&Enum_GetTypeCode_m522_MethodInfo,
+	&Enum_GetHashCode_m504_MethodInfo,
+	&Enum_ToString_m505_MethodInfo,
+	&Enum_ToString_m506_MethodInfo,
+	&Enum_System_IConvertible_ToBoolean_m507_MethodInfo,
+	&Enum_System_IConvertible_ToByte_m508_MethodInfo,
+	&Enum_System_IConvertible_ToChar_m509_MethodInfo,
+	&Enum_System_IConvertible_ToDateTime_m510_MethodInfo,
+	&Enum_System_IConvertible_ToDecimal_m511_MethodInfo,
+	&Enum_System_IConvertible_ToDouble_m512_MethodInfo,
+	&Enum_System_IConvertible_ToInt16_m513_MethodInfo,
+	&Enum_System_IConvertible_ToInt32_m514_MethodInfo,
+	&Enum_System_IConvertible_ToInt64_m515_MethodInfo,
+	&Enum_System_IConvertible_ToSByte_m516_MethodInfo,
+	&Enum_System_IConvertible_ToSingle_m517_MethodInfo,
+	&Enum_ToString_m518_MethodInfo,
+	&Enum_System_IConvertible_ToType_m519_MethodInfo,
+	&Enum_System_IConvertible_ToUInt16_m520_MethodInfo,
+	&Enum_System_IConvertible_ToUInt32_m521_MethodInfo,
+	&Enum_System_IConvertible_ToUInt64_m522_MethodInfo,
+	&Enum_CompareTo_m523_MethodInfo,
+	&Enum_GetTypeCode_m524_MethodInfo,
 };
 static bool DebugMode_t10_VTableIsGenericMethod[] =
 {
@@ -3872,15 +3886,15 @@ static const Il2CppType* GoogleAnalyticsV4_t11_il2cpp_TypeInfo__nestedTypes[1] =
 {
 	&DebugMode_t10_0_0_0,
 };
-extern const MethodInfo Object_Equals_m523_MethodInfo;
-extern const MethodInfo Object_GetHashCode_m524_MethodInfo;
-extern const MethodInfo Object_ToString_m525_MethodInfo;
+extern const MethodInfo Object_Equals_m525_MethodInfo;
+extern const MethodInfo Object_GetHashCode_m526_MethodInfo;
+extern const MethodInfo Object_ToString_m527_MethodInfo;
 static const Il2CppMethodReference GoogleAnalyticsV4_t11_VTable[] =
 {
-	&Object_Equals_m523_MethodInfo,
+	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Object_GetHashCode_m524_MethodInfo,
-	&Object_ToString_m525_MethodInfo,
+	&Object_GetHashCode_m526_MethodInfo,
+	&Object_ToString_m527_MethodInfo,
 };
 static bool GoogleAnalyticsV4_t11_VTableIsGenericMethod[] =
 {
@@ -4698,7 +4712,7 @@ static const MethodInfo* GoogleAnalyticsiOSV3_t12_MethodInfos[] =
 };
 static const Il2CppMethodReference GoogleAnalyticsiOSV3_t12_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -4920,7 +4934,7 @@ extern const MethodInfo AppViewHitBuilder_GetThis_m121_MethodInfo;
 extern const MethodInfo AppViewHitBuilder_Validate_m122_MethodInfo;
 static const Il2CppMethodReference AppViewHitBuilder_t14_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -5305,7 +5319,7 @@ extern const MethodInfo EventHitBuilder_GetThis_m132_MethodInfo;
 extern const MethodInfo EventHitBuilder_Validate_m133_MethodInfo;
 static const Il2CppMethodReference EventHitBuilder_t16_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -5584,7 +5598,7 @@ extern const MethodInfo ExceptionHitBuilder_GetThis_m139_MethodInfo;
 extern const MethodInfo ExceptionHitBuilder_Validate_m140_MethodInfo;
 static const Il2CppMethodReference ExceptionHitBuilder_t18_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -6272,7 +6286,7 @@ static const MethodInfo* HitBuilder_1_t80_MethodInfos[] =
 };
 static const Il2CppMethodReference HitBuilder_1_t80_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -6288,10 +6302,10 @@ static bool HitBuilder_1_t80_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppGenericMethod HitBuilder_1_GetThis_m526_GenericMethod;
+extern const Il2CppGenericMethod HitBuilder_1_GetThis_m528_GenericMethod;
 static Il2CppRGCTXDefinition HitBuilder_1_t80_RGCTXData[2] = 
 {
-	{ IL2CPP_RGCTX_DATA_METHOD, &HitBuilder_1_GetThis_m526_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &HitBuilder_1_GetThis_m528_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 extern Il2CppImage g_AssemblyU2DCSharpU2Dfirstpass_dll_Image;
@@ -6822,7 +6836,7 @@ extern const MethodInfo ItemHitBuilder_GetThis_m156_MethodInfo;
 extern const MethodInfo ItemHitBuilder_Validate_m157_MethodInfo;
 static const Il2CppMethodReference ItemHitBuilder_t20_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -7154,7 +7168,7 @@ extern const MethodInfo SocialHitBuilder_GetThis_m165_MethodInfo;
 extern const MethodInfo SocialHitBuilder_Validate_m166_MethodInfo;
 static const Il2CppMethodReference SocialHitBuilder_t22_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -7539,7 +7553,7 @@ extern const MethodInfo TimingHitBuilder_GetThis_m176_MethodInfo;
 extern const MethodInfo TimingHitBuilder_Validate_m177_MethodInfo;
 static const Il2CppMethodReference TimingHitBuilder_t24_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -8030,7 +8044,7 @@ extern const MethodInfo TransactionHitBuilder_GetThis_m191_MethodInfo;
 extern const MethodInfo TransactionHitBuilder_Validate_m192_MethodInfo;
 static const Il2CppMethodReference TransactionHitBuilder_t26_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -8129,29 +8143,29 @@ static const MethodInfo* JSONBinaryTag_t28_MethodInfos[] =
 };
 static const Il2CppMethodReference JSONBinaryTag_t28_VTable[] =
 {
-	&Enum_Equals_m501_MethodInfo,
+	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
-	&Enum_GetHashCode_m502_MethodInfo,
-	&Enum_ToString_m503_MethodInfo,
-	&Enum_ToString_m504_MethodInfo,
-	&Enum_System_IConvertible_ToBoolean_m505_MethodInfo,
-	&Enum_System_IConvertible_ToByte_m506_MethodInfo,
-	&Enum_System_IConvertible_ToChar_m507_MethodInfo,
-	&Enum_System_IConvertible_ToDateTime_m508_MethodInfo,
-	&Enum_System_IConvertible_ToDecimal_m509_MethodInfo,
-	&Enum_System_IConvertible_ToDouble_m510_MethodInfo,
-	&Enum_System_IConvertible_ToInt16_m511_MethodInfo,
-	&Enum_System_IConvertible_ToInt32_m512_MethodInfo,
-	&Enum_System_IConvertible_ToInt64_m513_MethodInfo,
-	&Enum_System_IConvertible_ToSByte_m514_MethodInfo,
-	&Enum_System_IConvertible_ToSingle_m515_MethodInfo,
-	&Enum_ToString_m516_MethodInfo,
-	&Enum_System_IConvertible_ToType_m517_MethodInfo,
-	&Enum_System_IConvertible_ToUInt16_m518_MethodInfo,
-	&Enum_System_IConvertible_ToUInt32_m519_MethodInfo,
-	&Enum_System_IConvertible_ToUInt64_m520_MethodInfo,
-	&Enum_CompareTo_m521_MethodInfo,
-	&Enum_GetTypeCode_m522_MethodInfo,
+	&Enum_GetHashCode_m504_MethodInfo,
+	&Enum_ToString_m505_MethodInfo,
+	&Enum_ToString_m506_MethodInfo,
+	&Enum_System_IConvertible_ToBoolean_m507_MethodInfo,
+	&Enum_System_IConvertible_ToByte_m508_MethodInfo,
+	&Enum_System_IConvertible_ToChar_m509_MethodInfo,
+	&Enum_System_IConvertible_ToDateTime_m510_MethodInfo,
+	&Enum_System_IConvertible_ToDecimal_m511_MethodInfo,
+	&Enum_System_IConvertible_ToDouble_m512_MethodInfo,
+	&Enum_System_IConvertible_ToInt16_m513_MethodInfo,
+	&Enum_System_IConvertible_ToInt32_m514_MethodInfo,
+	&Enum_System_IConvertible_ToInt64_m515_MethodInfo,
+	&Enum_System_IConvertible_ToSByte_m516_MethodInfo,
+	&Enum_System_IConvertible_ToSingle_m517_MethodInfo,
+	&Enum_ToString_m518_MethodInfo,
+	&Enum_System_IConvertible_ToType_m519_MethodInfo,
+	&Enum_System_IConvertible_ToUInt16_m520_MethodInfo,
+	&Enum_System_IConvertible_ToUInt32_m521_MethodInfo,
+	&Enum_System_IConvertible_ToUInt64_m522_MethodInfo,
+	&Enum_CompareTo_m523_MethodInfo,
+	&Enum_GetTypeCode_m524_MethodInfo,
 };
 static bool JSONBinaryTag_t28_VTableIsGenericMethod[] =
 {
@@ -8495,7 +8509,7 @@ extern const MethodInfo U3CU3Ec__Iterator0_Reset_m200_MethodInfo;
 extern const MethodInfo U3CU3Ec__Iterator0_System_Collections_IEnumerable_GetEnumerator_m196_MethodInfo;
 static const Il2CppMethodReference U3CU3Ec__Iterator0_t30_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -8848,7 +8862,7 @@ extern const MethodInfo U3CU3Ec__Iterator1_Reset_m208_MethodInfo;
 extern const MethodInfo U3CU3Ec__Iterator1_System_Collections_IEnumerable_GetEnumerator_m204_MethodInfo;
 static const Il2CppMethodReference U3CU3Ec__Iterator1_t32_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -10872,7 +10886,7 @@ extern const MethodInfo U3CU3Ec__Iterator2_Reset_m265_MethodInfo;
 extern const MethodInfo U3CU3Ec__Iterator2_System_Collections_IEnumerable_GetEnumerator_m261_MethodInfo;
 static const Il2CppMethodReference U3CU3Ec__Iterator2_t34_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -11173,7 +11187,7 @@ extern const MethodInfo U3CGetEnumeratorU3Ec__Iterator3_MoveNext_m269_MethodInfo
 extern const MethodInfo U3CGetEnumeratorU3Ec__Iterator3_Reset_m271_MethodInfo;
 static const Il2CppMethodReference U3CGetEnumeratorU3Ec__Iterator3_t36_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -12122,7 +12136,7 @@ extern const MethodInfo U3CU3Ec__Iterator4_Reset_m293_MethodInfo;
 extern const MethodInfo U3CU3Ec__Iterator4_System_Collections_IEnumerable_GetEnumerator_m289_MethodInfo;
 static const Il2CppMethodReference U3CU3Ec__Iterator4_t39_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -12423,7 +12437,7 @@ extern const MethodInfo U3CGetEnumeratorU3Ec__Iterator5_MoveNext_m297_MethodInfo
 extern const MethodInfo U3CGetEnumeratorU3Ec__Iterator5_Reset_m299_MethodInfo;
 static const Il2CppMethodReference U3CGetEnumeratorU3Ec__Iterator5_t42_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -12594,7 +12608,7 @@ static const MethodInfo* U3CRemoveU3Ec__AnonStorey6_t43_MethodInfos[] =
 };
 static const Il2CppMethodReference U3CRemoveU3Ec__AnonStorey6_t43_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
@@ -14754,7 +14768,7 @@ static const MethodInfo* JSON_t47_MethodInfos[] =
 };
 static const Il2CppMethodReference JSON_t47_VTable[] =
 {
-	&Object_Equals_m493_MethodInfo,
+	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,

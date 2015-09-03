@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Xml.XmlReaderBinarySupport/CharGetter
-struct  CharGetter_t3275  : public MulticastDelegate_t388
+struct  CharGetter_t3536  : public MulticastDelegate_t388
 {
 };

@@ -5,35 +5,35 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Byte,System.UInt16>
-struct U3CCreateSelectIteratorU3Ec__Iterator10_2_t6570;
+struct U3CCreateSelectIteratorU3Ec__Iterator10_2_t7103;
 // System.Object
 struct Object_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.IEnumerator`1<System.UInt16>
-struct IEnumerator_1_t6367;
+struct IEnumerator_1_t6900;
 
 // System.Void System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Byte,System.UInt16>::.ctor()
-extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2__ctor_m38258_gshared (U3CCreateSelectIteratorU3Ec__Iterator10_2_t6570 * __this, const MethodInfo* method);
-#define U3CCreateSelectIteratorU3Ec__Iterator10_2__ctor_m38258(__this, method) (( void (*) (U3CCreateSelectIteratorU3Ec__Iterator10_2_t6570 *, const MethodInfo*))U3CCreateSelectIteratorU3Ec__Iterator10_2__ctor_m38258_gshared)(__this, method)
+extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2__ctor_m42506_gshared (U3CCreateSelectIteratorU3Ec__Iterator10_2_t7103 * __this, const MethodInfo* method);
+#define U3CCreateSelectIteratorU3Ec__Iterator10_2__ctor_m42506(__this, method) (( void (*) (U3CCreateSelectIteratorU3Ec__Iterator10_2_t7103 *, const MethodInfo*))U3CCreateSelectIteratorU3Ec__Iterator10_2__ctor_m42506_gshared)(__this, method)
 // TResult System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Byte,System.UInt16>::System.Collections.Generic.IEnumerator<TResult>.get_Current()
-extern "C" uint16_t U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m38259_gshared (U3CCreateSelectIteratorU3Ec__Iterator10_2_t6570 * __this, const MethodInfo* method);
-#define U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m38259(__this, method) (( uint16_t (*) (U3CCreateSelectIteratorU3Ec__Iterator10_2_t6570 *, const MethodInfo*))U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m38259_gshared)(__this, method)
+extern "C" uint16_t U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m42507_gshared (U3CCreateSelectIteratorU3Ec__Iterator10_2_t7103 * __this, const MethodInfo* method);
+#define U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m42507(__this, method) (( uint16_t (*) (U3CCreateSelectIteratorU3Ec__Iterator10_2_t7103 *, const MethodInfo*))U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumeratorU3CTResultU3E_get_Current_m42507_gshared)(__this, method)
 // System.Object System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Byte,System.UInt16>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerator_get_Current_m38260_gshared (U3CCreateSelectIteratorU3Ec__Iterator10_2_t6570 * __this, const MethodInfo* method);
-#define U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerator_get_Current_m38260(__this, method) (( Object_t * (*) (U3CCreateSelectIteratorU3Ec__Iterator10_2_t6570 *, const MethodInfo*))U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerator_get_Current_m38260_gshared)(__this, method)
+extern "C" Object_t * U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerator_get_Current_m42508_gshared (U3CCreateSelectIteratorU3Ec__Iterator10_2_t7103 * __this, const MethodInfo* method);
+#define U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerator_get_Current_m42508(__this, method) (( Object_t * (*) (U3CCreateSelectIteratorU3Ec__Iterator10_2_t7103 *, const MethodInfo*))U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerator_get_Current_m42508_gshared)(__this, method)
 // System.Collections.IEnumerator System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Byte,System.UInt16>::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerable_GetEnumerator_m38261_gshared (U3CCreateSelectIteratorU3Ec__Iterator10_2_t6570 * __this, const MethodInfo* method);
-#define U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerable_GetEnumerator_m38261(__this, method) (( Object_t * (*) (U3CCreateSelectIteratorU3Ec__Iterator10_2_t6570 *, const MethodInfo*))U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerable_GetEnumerator_m38261_gshared)(__this, method)
+extern "C" Object_t * U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerable_GetEnumerator_m42509_gshared (U3CCreateSelectIteratorU3Ec__Iterator10_2_t7103 * __this, const MethodInfo* method);
+#define U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerable_GetEnumerator_m42509(__this, method) (( Object_t * (*) (U3CCreateSelectIteratorU3Ec__Iterator10_2_t7103 *, const MethodInfo*))U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_IEnumerable_GetEnumerator_m42509_gshared)(__this, method)
 // System.Collections.Generic.IEnumerator`1<TResult> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Byte,System.UInt16>::System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
-extern "C" Object_t* U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m38262_gshared (U3CCreateSelectIteratorU3Ec__Iterator10_2_t6570 * __this, const MethodInfo* method);
-#define U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m38262(__this, method) (( Object_t* (*) (U3CCreateSelectIteratorU3Ec__Iterator10_2_t6570 *, const MethodInfo*))U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m38262_gshared)(__this, method)
+extern "C" Object_t* U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m42510_gshared (U3CCreateSelectIteratorU3Ec__Iterator10_2_t7103 * __this, const MethodInfo* method);
+#define U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m42510(__this, method) (( Object_t* (*) (U3CCreateSelectIteratorU3Ec__Iterator10_2_t7103 *, const MethodInfo*))U3CCreateSelectIteratorU3Ec__Iterator10_2_System_Collections_Generic_IEnumerableU3CTResultU3E_GetEnumerator_m42510_gshared)(__this, method)
 // System.Boolean System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Byte,System.UInt16>::MoveNext()
-extern "C" bool U3CCreateSelectIteratorU3Ec__Iterator10_2_MoveNext_m38263_gshared (U3CCreateSelectIteratorU3Ec__Iterator10_2_t6570 * __this, const MethodInfo* method);
-#define U3CCreateSelectIteratorU3Ec__Iterator10_2_MoveNext_m38263(__this, method) (( bool (*) (U3CCreateSelectIteratorU3Ec__Iterator10_2_t6570 *, const MethodInfo*))U3CCreateSelectIteratorU3Ec__Iterator10_2_MoveNext_m38263_gshared)(__this, method)
+extern "C" bool U3CCreateSelectIteratorU3Ec__Iterator10_2_MoveNext_m42511_gshared (U3CCreateSelectIteratorU3Ec__Iterator10_2_t7103 * __this, const MethodInfo* method);
+#define U3CCreateSelectIteratorU3Ec__Iterator10_2_MoveNext_m42511(__this, method) (( bool (*) (U3CCreateSelectIteratorU3Ec__Iterator10_2_t7103 *, const MethodInfo*))U3CCreateSelectIteratorU3Ec__Iterator10_2_MoveNext_m42511_gshared)(__this, method)
 // System.Void System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Byte,System.UInt16>::Dispose()
-extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2_Dispose_m38264_gshared (U3CCreateSelectIteratorU3Ec__Iterator10_2_t6570 * __this, const MethodInfo* method);
-#define U3CCreateSelectIteratorU3Ec__Iterator10_2_Dispose_m38264(__this, method) (( void (*) (U3CCreateSelectIteratorU3Ec__Iterator10_2_t6570 *, const MethodInfo*))U3CCreateSelectIteratorU3Ec__Iterator10_2_Dispose_m38264_gshared)(__this, method)
+extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2_Dispose_m42512_gshared (U3CCreateSelectIteratorU3Ec__Iterator10_2_t7103 * __this, const MethodInfo* method);
+#define U3CCreateSelectIteratorU3Ec__Iterator10_2_Dispose_m42512(__this, method) (( void (*) (U3CCreateSelectIteratorU3Ec__Iterator10_2_t7103 *, const MethodInfo*))U3CCreateSelectIteratorU3Ec__Iterator10_2_Dispose_m42512_gshared)(__this, method)
 // System.Void System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.Byte,System.UInt16>::Reset()
-extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2_Reset_m38265_gshared (U3CCreateSelectIteratorU3Ec__Iterator10_2_t6570 * __this, const MethodInfo* method);
-#define U3CCreateSelectIteratorU3Ec__Iterator10_2_Reset_m38265(__this, method) (( void (*) (U3CCreateSelectIteratorU3Ec__Iterator10_2_t6570 *, const MethodInfo*))U3CCreateSelectIteratorU3Ec__Iterator10_2_Reset_m38265_gshared)(__this, method)
+extern "C" void U3CCreateSelectIteratorU3Ec__Iterator10_2_Reset_m42513_gshared (U3CCreateSelectIteratorU3Ec__Iterator10_2_t7103 * __this, const MethodInfo* method);
+#define U3CCreateSelectIteratorU3Ec__Iterator10_2_Reset_m42513(__this, method) (( void (*) (U3CCreateSelectIteratorU3Ec__Iterator10_2_t7103 *, const MethodInfo*))U3CCreateSelectIteratorU3Ec__Iterator10_2_Reset_m42513_gshared)(__this, method)

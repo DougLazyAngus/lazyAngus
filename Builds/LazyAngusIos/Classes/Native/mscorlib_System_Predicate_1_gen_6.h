@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<AN_PropertyTemplate>
-struct  Predicate_1_t5485  : public MulticastDelegate_t388
+struct  Predicate_1_t6018  : public MulticastDelegate_t388
 {
 };

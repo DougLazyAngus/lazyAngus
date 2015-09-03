@@ -4,27 +4,27 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>
-struct EqualityComparer_1_t8465;
+// System.Collections.Generic.EqualityComparer`1<System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>>
+struct EqualityComparer_1_t8577;
 // System.Object
 struct Object_t;
-// UnityEngine.UICharInfo
-#include "UnityEngine_UnityEngine_UICharInfo.h"
+// System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_56.h"
 
-// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>::.ctor()
-extern "C" void EqualityComparer_1__ctor_m61318_gshared (EqualityComparer_1_t8465 * __this, const MethodInfo* method);
-#define EqualityComparer_1__ctor_m61318(__this, method) (( void (*) (EqualityComparer_1_t8465 *, const MethodInfo*))EqualityComparer_1__ctor_m61318_gshared)(__this, method)
-// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>::.cctor()
-extern "C" void EqualityComparer_1__cctor_m61319_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define EqualityComparer_1__cctor_m61319(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1__cctor_m61319_gshared)(__this /* static, unused */, method)
-// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
-extern "C" int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m61320_gshared (EqualityComparer_1_t8465 * __this, Object_t * ___obj, const MethodInfo* method);
-#define EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m61320(__this, ___obj, method) (( int32_t (*) (EqualityComparer_1_t8465 *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m61320_gshared)(__this, ___obj, method)
-// System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
-extern "C" bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m61321_gshared (EqualityComparer_1_t8465 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
-#define EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m61321(__this, ___x, ___y, method) (( bool (*) (EqualityComparer_1_t8465 *, Object_t *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m61321_gshared)(__this, ___x, ___y, method)
-// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>::GetHashCode(T)
-// System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>::Equals(T,T)
-// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>::get_Default()
-extern "C" EqualityComparer_1_t8465 * EqualityComparer_1_get_Default_m61322_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define EqualityComparer_1_get_Default_m61322(__this /* static, unused */, method) (( EqualityComparer_1_t8465 * (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1_get_Default_m61322_gshared)(__this /* static, unused */, method)
+// System.Void System.Collections.Generic.EqualityComparer`1<System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>>::.ctor()
+extern "C" void EqualityComparer_1__ctor_m60651_gshared (EqualityComparer_1_t8577 * __this, const MethodInfo* method);
+#define EqualityComparer_1__ctor_m60651(__this, method) (( void (*) (EqualityComparer_1_t8577 *, const MethodInfo*))EqualityComparer_1__ctor_m60651_gshared)(__this, method)
+// System.Void System.Collections.Generic.EqualityComparer`1<System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>>::.cctor()
+extern "C" void EqualityComparer_1__cctor_m60652_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define EqualityComparer_1__cctor_m60652(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1__cctor_m60652_gshared)(__this /* static, unused */, method)
+// System.Int32 System.Collections.Generic.EqualityComparer`1<System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+extern "C" int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m60653_gshared (EqualityComparer_1_t8577 * __this, Object_t * ___obj, const MethodInfo* method);
+#define EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m60653(__this, ___obj, method) (( int32_t (*) (EqualityComparer_1_t8577 *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m60653_gshared)(__this, ___obj, method)
+// System.Boolean System.Collections.Generic.EqualityComparer`1<System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+extern "C" bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m60654_gshared (EqualityComparer_1_t8577 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
+#define EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m60654(__this, ___x, ___y, method) (( bool (*) (EqualityComparer_1_t8577 *, Object_t *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m60654_gshared)(__this, ___x, ___y, method)
+// System.Int32 System.Collections.Generic.EqualityComparer`1<System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>>::GetHashCode(T)
+// System.Boolean System.Collections.Generic.EqualityComparer`1<System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>>::Equals(T,T)
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<System.Collections.Generic.KeyValuePair`2<System.Object,Parse.ParseGeoPoint>>::get_Default()
+extern "C" EqualityComparer_1_t8577 * EqualityComparer_1_get_Default_m60655_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define EqualityComparer_1_get_Default_m60655(__this /* static, unused */, method) (( EqualityComparer_1_t8577 * (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1_get_Default_m60655_gshared)(__this /* static, unused */, method)

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`4<System.Object,System.AsyncCallback,System.Object,System.IAsyncResult>
-struct Func_4_t8406;
+struct Func_4_t8941;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -18,10 +18,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`4<System.Object,System.AsyncCallback,System.Object,System.IAsyncResult>::.ctor(System.Object,System.IntPtr)
 // System.Func`4<System.Object,System.Object,System.Object,System.Object>
 #include "System_Core_System_Func_4_gen_0MethodDeclarations.h"
-#define Func_4__ctor_m60408(__this, ___object, ___method, method) (( void (*) (Func_4_t8406 *, Object_t *, IntPtr_t, const MethodInfo*))Func_4__ctor_m60409_gshared)(__this, ___object, ___method, method)
+#define Func_4__ctor_m64671(__this, ___object, ___method, method) (( void (*) (Func_4_t8941 *, Object_t *, IntPtr_t, const MethodInfo*))Func_4__ctor_m64672_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`4<System.Object,System.AsyncCallback,System.Object,System.IAsyncResult>::Invoke(T1,T2,T3)
-#define Func_4_Invoke_m60410(__this, ___arg1, ___arg2, ___arg3, method) (( Object_t * (*) (Func_4_t8406 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_4_Invoke_m60411_gshared)(__this, ___arg1, ___arg2, ___arg3, method)
+#define Func_4_Invoke_m64673(__this, ___arg1, ___arg2, ___arg3, method) (( Object_t * (*) (Func_4_t8941 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_4_Invoke_m64674_gshared)(__this, ___arg1, ___arg2, ___arg3, method)
 // System.IAsyncResult System.Func`4<System.Object,System.AsyncCallback,System.Object,System.IAsyncResult>::BeginInvoke(T1,T2,T3,System.AsyncCallback,System.Object)
-#define Func_4_BeginInvoke_m60412(__this, ___arg1, ___arg2, ___arg3, ___callback, ___object, method) (( Object_t * (*) (Func_4_t8406 *, Object_t *, AsyncCallback_t386 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_4_BeginInvoke_m60413_gshared)(__this, ___arg1, ___arg2, ___arg3, ___callback, ___object, method)
+#define Func_4_BeginInvoke_m64675(__this, ___arg1, ___arg2, ___arg3, ___callback, ___object, method) (( Object_t * (*) (Func_4_t8941 *, Object_t *, AsyncCallback_t386 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_4_BeginInvoke_m64676_gshared)(__this, ___arg1, ___arg2, ___arg3, ___callback, ___object, method)
 // TResult System.Func`4<System.Object,System.AsyncCallback,System.Object,System.IAsyncResult>::EndInvoke(System.IAsyncResult)
-#define Func_4_EndInvoke_m60414(__this, ___result, method) (( Object_t * (*) (Func_4_t8406 *, Object_t *, const MethodInfo*))Func_4_EndInvoke_m60415_gshared)(__this, ___result, method)
+#define Func_4_EndInvoke_m64677(__this, ___result, method) (( Object_t * (*) (Func_4_t8941 *, Object_t *, const MethodInfo*))Func_4_EndInvoke_m64678_gshared)(__this, ___result, method)

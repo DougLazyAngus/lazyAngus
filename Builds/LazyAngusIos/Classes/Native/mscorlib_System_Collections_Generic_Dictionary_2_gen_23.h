@@ -3,15 +3,15 @@
 // System.Int32[]
 struct Int32U5BU5D_t484;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t5408;
+struct LinkU5BU5D_t5941;
 // UnityEngine.EventSystems.PointerEventData[]
-struct PointerEventDataU5BU5D_t5849;
+struct PointerEventDataU5BU5D_t6382;
 // System.Collections.Generic.IEqualityComparer`1<System.Int32>
-struct IEqualityComparer_1_t5409;
+struct IEqualityComparer_1_t5942;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t2936;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,UnityEngine.EventSystems.PointerEventData,System.Collections.DictionaryEntry>
-struct Transform_1_t5850;
+struct Transform_1_t6383;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>
@@ -20,11 +20,11 @@ struct  Dictionary_2_t905  : public Object_t
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::table
 	Int32U5BU5D_t484* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::linkSlots
-	LinkU5BU5D_t5408* ___linkSlots_5;
+	LinkU5BU5D_t5941* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::keySlots
 	Int32U5BU5D_t484* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::valueSlots
-	PointerEventDataU5BU5D_t5849* ___valueSlots_7;
+	PointerEventDataU5BU5D_t6382* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::emptySlot
@@ -42,5 +42,5 @@ struct  Dictionary_2_t905  : public Object_t
 };
 struct Dictionary_2_t905_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::<>f__am$cacheB
-	Transform_1_t5850 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t6383 * ___U3CU3Ef__amU24cacheB_15;
 };

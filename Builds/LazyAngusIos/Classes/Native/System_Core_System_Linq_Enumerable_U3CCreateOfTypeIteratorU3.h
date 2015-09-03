@@ -9,12 +9,12 @@ struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.Enumerable/<CreateOfTypeIterator>c__IteratorC`1<System.Object>
-struct  U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t6266  : public Object_t
+struct  U3CCreateOfTypeIteratorU3Ec__IteratorC_1_t6799  : public Object_t
 {
 	// System.Collections.IEnumerable System.Linq.Enumerable/<CreateOfTypeIterator>c__IteratorC`1<System.Object>::source
 	Object_t * ___source_0;
-	// System.Collections.IEnumerator System.Linq.Enumerable/<CreateOfTypeIterator>c__IteratorC`1<System.Object>::<$s_69>__0
-	Object_t * ___U3CU24s_69U3E__0_1;
+	// System.Collections.IEnumerator System.Linq.Enumerable/<CreateOfTypeIterator>c__IteratorC`1<System.Object>::<$s_59>__0
+	Object_t * ___U3CU24s_59U3E__0_1;
 	// System.Object System.Linq.Enumerable/<CreateOfTypeIterator>c__IteratorC`1<System.Object>::<element>__1
 	Object_t * ___U3CelementU3E__1_2;
 	// System.Int32 System.Linq.Enumerable/<CreateOfTypeIterator>c__IteratorC`1<System.Object>::$PC

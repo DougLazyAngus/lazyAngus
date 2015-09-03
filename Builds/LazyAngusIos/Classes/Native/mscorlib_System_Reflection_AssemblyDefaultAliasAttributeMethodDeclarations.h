@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.AssemblyDefaultAliasAttribute
-struct AssemblyDefaultAliasAttribute_t3323;
+struct AssemblyDefaultAliasAttribute_t3386;
 // System.String
 struct String_t;
 
 // System.Void System.Reflection.AssemblyDefaultAliasAttribute::.ctor(System.String)
-extern "C" void AssemblyDefaultAliasAttribute__ctor_m11656 (AssemblyDefaultAliasAttribute_t3323 * __this, String_t* ___defaultAlias, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyDefaultAliasAttribute__ctor_m12121 (AssemblyDefaultAliasAttribute_t3386 * __this, String_t* ___defaultAlias, const MethodInfo* method) IL2CPP_METHOD_ATTR;

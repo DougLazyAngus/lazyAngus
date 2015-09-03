@@ -1,22 +1,36 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Byte[]
-struct ByteU5BU5D_t66;
-// System.Type[]
-struct TypeU5BU5D_t1220;
+// System.Runtime.Serialization.SerializationBinder
+struct SerializationBinder_t5197;
+// System.Runtime.Serialization.ISurrogateSelector
+struct ISurrogateSelector_t5172;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Runtime.Serialization.Formatters.Binary.BinaryCommon
-struct  BinaryCommon_t4663  : public Object_t
+// System.Runtime.Serialization.Formatters.FormatterAssemblyStyle
+#include "mscorlib_System_Runtime_Serialization_Formatters_FormatterAs.h"
+// System.Runtime.Serialization.StreamingContext
+#include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
+// System.Runtime.Serialization.Formatters.FormatterTypeStyle
+#include "mscorlib_System_Runtime_Serialization_Formatters_FormatterTy.h"
+// System.Runtime.Serialization.Formatters.TypeFilterLevel
+#include "mscorlib_System_Runtime_Serialization_Formatters_TypeFilterL.h"
+// System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+struct  BinaryFormatter_t5120  : public Object_t
 {
+	// System.Runtime.Serialization.Formatters.FormatterAssemblyStyle System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::assembly_format
+	int32_t ___assembly_format_0;
+	// System.Runtime.Serialization.SerializationBinder System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::binder
+	SerializationBinder_t5197 * ___binder_1;
+	// System.Runtime.Serialization.StreamingContext System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::context
+	StreamingContext_t2937  ___context_2;
+	// System.Runtime.Serialization.ISurrogateSelector System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::surrogate_selector
+	Object_t * ___surrogate_selector_3;
+	// System.Runtime.Serialization.Formatters.FormatterTypeStyle System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::type_format
+	int32_t ___type_format_4;
+	// System.Runtime.Serialization.Formatters.TypeFilterLevel System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::filter_level
+	int32_t ___filter_level_5;
 };
-struct BinaryCommon_t4663_StaticFields{
-	// System.Byte[] System.Runtime.Serialization.Formatters.Binary.BinaryCommon::BinaryHeader
-	ByteU5BU5D_t66* ___BinaryHeader_0;
-	// System.Type[] System.Runtime.Serialization.Formatters.Binary.BinaryCommon::_typeCodesToType
-	TypeU5BU5D_t1220* ____typeCodesToType_1;
-	// System.Byte[] System.Runtime.Serialization.Formatters.Binary.BinaryCommon::_typeCodeMap
-	ByteU5BU5D_t66* ____typeCodeMap_2;
-	// System.Boolean System.Runtime.Serialization.Formatters.Binary.BinaryCommon::UseReflectionSerialization
-	bool ___UseReflectionSerialization_3;
+struct BinaryFormatter_t5120_StaticFields{
+	// System.Runtime.Serialization.ISurrogateSelector System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::<DefaultSurrogateSelector>k__BackingField
+	Object_t * ___U3CDefaultSurrogateSelectorU3Ek__BackingField_6;
 };

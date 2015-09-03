@@ -3,46 +3,46 @@
 // System.Int32[]
 struct Int32U5BU5D_t484;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t5408;
+struct LinkU5BU5D_t5941;
 // System.String[]
 struct StringU5BU5D_t75;
-// System.Single[]
-struct SingleU5BU5D_t587;
+// System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>[]
+struct Task_1U5BU5D_t6690;
 // System.Collections.Generic.IEqualityComparer`1<System.String>
-struct IEqualityComparer_1_t5396;
+struct IEqualityComparer_1_t5767;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t2936;
-// System.Collections.Generic.Dictionary`2/Transform`1<System.String,System.Single,System.Collections.DictionaryEntry>
-struct Transform_1_t7089;
+// System.Collections.Generic.Dictionary`2/Transform`1<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>,System.Collections.DictionaryEntry>
+struct Transform_1_t6691;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.Dictionary`2<System.String,System.Single>
-struct  Dictionary_2_t7090  : public Object_t
+// System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>
+struct  Dictionary_2_t6685  : public Object_t
 {
-	// System.Int32[] System.Collections.Generic.Dictionary`2<System.String,System.Single>::table
+	// System.Int32[] System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::table
 	Int32U5BU5D_t484* ___table_4;
-	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.String,System.Single>::linkSlots
-	LinkU5BU5D_t5408* ___linkSlots_5;
-	// TKey[] System.Collections.Generic.Dictionary`2<System.String,System.Single>::keySlots
+	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::linkSlots
+	LinkU5BU5D_t5941* ___linkSlots_5;
+	// TKey[] System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::keySlots
 	StringU5BU5D_t75* ___keySlots_6;
-	// TValue[] System.Collections.Generic.Dictionary`2<System.String,System.Single>::valueSlots
-	SingleU5BU5D_t587* ___valueSlots_7;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.Single>::touchedSlots
+	// TValue[] System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::valueSlots
+	Task_1U5BU5D_t6690* ___valueSlots_7;
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::touchedSlots
 	int32_t ___touchedSlots_8;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.Single>::emptySlot
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::emptySlot
 	int32_t ___emptySlot_9;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.Single>::count
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::count
 	int32_t ___count_10;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.Single>::threshold
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::threshold
 	int32_t ___threshold_11;
-	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.String,System.Single>::hcp
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::hcp
 	Object_t* ___hcp_12;
-	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.String,System.Single>::serialization_info
+	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::serialization_info
 	SerializationInfo_t2936 * ___serialization_info_13;
-	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.Single>::generation
+	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t7090_StaticFields{
-	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.String,System.Single>::<>f__am$cacheB
-	Transform_1_t7089 * ___U3CU3Ef__amU24cacheB_15;
+struct Dictionary_2_t6685_StaticFields{
+	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::<>f__am$cacheB
+	Transform_1_t6691 * ___U3CU3Ef__amU24cacheB_15;
 };

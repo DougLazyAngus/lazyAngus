@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.Byte[]>
-struct List_1_t2761;
-// System.Byte[]
-struct ByteU5BU5D_t66;
+// System.Collections.Generic.List`1<System.Action`1<System.Threading.Tasks.Task>>
+struct List_1_t2172;
+// System.Action`1<System.Threading.Tasks.Task>
+struct Action_1_t1189;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<System.Byte[]>
-struct  Enumerator_t8448 
+// System.Collections.Generic.List`1/Enumerator<System.Action`1<System.Threading.Tasks.Task>>
+struct  Enumerator_t8924 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Byte[]>::l
-	List_1_t2761 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Byte[]>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Action`1<System.Threading.Tasks.Task>>::l
+	List_1_t2172 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Action`1<System.Threading.Tasks.Task>>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Byte[]>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Action`1<System.Threading.Tasks.Task>>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Byte[]>::current
-	ByteU5BU5D_t66* ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.Action`1<System.Threading.Tasks.Task>>::current
+	Action_1_t1189 * ___current_3;
 };

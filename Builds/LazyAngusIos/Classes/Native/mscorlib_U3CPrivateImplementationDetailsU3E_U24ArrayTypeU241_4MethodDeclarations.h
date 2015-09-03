@@ -4,10 +4,10 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// <PrivateImplementationDetails>/$ArrayType$1024
-struct U24ArrayTypeU241024_t4884;
-struct U24ArrayTypeU241024_t4884_marshaled;
+// <PrivateImplementationDetails>/$ArrayType$136
+struct U24ArrayTypeU24136_t5403;
+struct U24ArrayTypeU24136_t5403_marshaled;
 
-void U24ArrayTypeU241024_t4884_marshal(const U24ArrayTypeU241024_t4884& unmarshaled, U24ArrayTypeU241024_t4884_marshaled& marshaled);
-void U24ArrayTypeU241024_t4884_marshal_back(const U24ArrayTypeU241024_t4884_marshaled& marshaled, U24ArrayTypeU241024_t4884& unmarshaled);
-void U24ArrayTypeU241024_t4884_marshal_cleanup(U24ArrayTypeU241024_t4884_marshaled& marshaled);
+void U24ArrayTypeU24136_t5403_marshal(const U24ArrayTypeU24136_t5403& unmarshaled, U24ArrayTypeU24136_t5403_marshaled& marshaled);
+void U24ArrayTypeU24136_t5403_marshal_back(const U24ArrayTypeU24136_t5403_marshaled& marshaled, U24ArrayTypeU24136_t5403& unmarshaled);
+void U24ArrayTypeU24136_t5403_marshal_cleanup(U24ArrayTypeU24136_t5403_marshaled& marshaled);

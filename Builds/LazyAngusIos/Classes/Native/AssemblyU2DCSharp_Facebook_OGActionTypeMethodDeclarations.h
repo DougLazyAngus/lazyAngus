@@ -10,8 +10,8 @@ struct OGActionType_t432;
 struct String_t;
 
 // System.Void Facebook.OGActionType::.ctor()
-extern "C" void OGActionType__ctor_m2325 (OGActionType_t432 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OGActionType__ctor_m2327 (OGActionType_t432 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.OGActionType::.cctor()
-extern "C" void OGActionType__cctor_m2326 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OGActionType__cctor_m2328 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Facebook.OGActionType::ToString()
-extern "C" String_t* OGActionType_ToString_m2327 (OGActionType_t432 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* OGActionType_ToString_m2329 (OGActionType_t432 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

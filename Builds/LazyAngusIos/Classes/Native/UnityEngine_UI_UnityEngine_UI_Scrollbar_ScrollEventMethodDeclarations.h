@@ -8,4 +8,4 @@
 struct ScrollEvent_t974;
 
 // System.Void UnityEngine.UI.Scrollbar/ScrollEvent::.ctor()
-extern "C" void ScrollEvent__ctor_m5401 (ScrollEvent_t974 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ScrollEvent__ctor_m5405 (ScrollEvent_t974 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

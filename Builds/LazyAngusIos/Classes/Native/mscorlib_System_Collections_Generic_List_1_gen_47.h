@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>[]
-struct IDictionary_2U5BU5D_t6298;
+struct IDictionary_2U5BU5D_t6831;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>
 struct  List_1_t1278  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::_items
-	IDictionary_2U5BU5D_t6298* ____items_1;
+	IDictionary_2U5BU5D_t6831* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::_version
@@ -16,5 +16,5 @@ struct  List_1_t1278  : public Object_t
 };
 struct List_1_t1278_StaticFields{
 	// T[] System.Collections.Generic.List`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::EmptyArray
-	IDictionary_2U5BU5D_t6298* ___EmptyArray_4;
+	IDictionary_2U5BU5D_t6831* ___EmptyArray_4;
 };

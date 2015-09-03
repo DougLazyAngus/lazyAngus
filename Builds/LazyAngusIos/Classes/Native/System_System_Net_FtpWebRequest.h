@@ -5,29 +5,29 @@ struct Uri_t771;
 // System.String
 struct String_t;
 // System.Net.ServicePoint
-struct ServicePoint_t3951;
+struct ServicePoint_t3276;
 // System.IO.Stream
 struct Stream_t51;
 // System.IO.StreamReader
 struct StreamReader_t1178;
 // System.Net.NetworkCredential
-struct NetworkCredential_t4063;
+struct NetworkCredential_t4367;
 // System.Net.IPHostEntry
-struct IPHostEntry_t4064;
+struct IPHostEntry_t4368;
 // System.Net.IPEndPoint
-struct IPEndPoint_t4065;
+struct IPEndPoint_t4369;
 // System.Net.IWebProxy
-struct IWebProxy_t4050;
+struct IWebProxy_t4356;
 // System.Object
 struct Object_t;
 // System.Net.FtpAsyncResult
-struct FtpAsyncResult_t4054;
+struct FtpAsyncResult_t4359;
 // System.Net.FtpWebResponse
-struct FtpWebResponse_t4053;
+struct FtpWebResponse_t4358;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Net.Security.RemoteCertificateValidationCallback
-struct RemoteCertificateValidationCallback_t3952;
+struct RemoteCertificateValidationCallback_t3277;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Net.WebRequest
@@ -35,14 +35,14 @@ struct Dictionary_2_t223;
 // System.Net.FtpWebRequest/RequestState
 #include "System_System_Net_FtpWebRequest_RequestState.h"
 // System.Net.FtpWebRequest
-struct  FtpWebRequest_t4057  : public WebRequest_t3318
+struct  FtpWebRequest_t4362  : public WebRequest_t3280
 {
 	// System.Uri System.Net.FtpWebRequest::requestUri
 	Uri_t771 * ___requestUri_6;
 	// System.String System.Net.FtpWebRequest::file_name
 	String_t* ___file_name_7;
 	// System.Net.ServicePoint System.Net.FtpWebRequest::servicePoint
-	ServicePoint_t3951 * ___servicePoint_8;
+	ServicePoint_t3276 * ___servicePoint_8;
 	// System.IO.Stream System.Net.FtpWebRequest::origDataStream
 	Stream_t51 * ___origDataStream_9;
 	// System.IO.Stream System.Net.FtpWebRequest::dataStream
@@ -52,11 +52,11 @@ struct  FtpWebRequest_t4057  : public WebRequest_t3318
 	// System.IO.StreamReader System.Net.FtpWebRequest::controlReader
 	StreamReader_t1178 * ___controlReader_12;
 	// System.Net.NetworkCredential System.Net.FtpWebRequest::credentials
-	NetworkCredential_t4063 * ___credentials_13;
+	NetworkCredential_t4367 * ___credentials_13;
 	// System.Net.IPHostEntry System.Net.FtpWebRequest::hostEntry
-	IPHostEntry_t4064 * ___hostEntry_14;
+	IPHostEntry_t4368 * ___hostEntry_14;
 	// System.Net.IPEndPoint System.Net.FtpWebRequest::localEndPoint
-	IPEndPoint_t4065 * ___localEndPoint_15;
+	IPEndPoint_t4369 * ___localEndPoint_15;
 	// System.Net.IWebProxy System.Net.FtpWebRequest::proxy
 	Object_t * ___proxy_16;
 	// System.Int32 System.Net.FtpWebRequest::timeout
@@ -82,23 +82,23 @@ struct  FtpWebRequest_t4057  : public WebRequest_t3318
 	// System.Net.FtpWebRequest/RequestState System.Net.FtpWebRequest::requestState
 	int32_t ___requestState_27;
 	// System.Net.FtpAsyncResult System.Net.FtpWebRequest::asyncResult
-	FtpAsyncResult_t4054 * ___asyncResult_28;
+	FtpAsyncResult_t4359 * ___asyncResult_28;
 	// System.Net.FtpWebResponse System.Net.FtpWebRequest::ftpResponse
-	FtpWebResponse_t4053 * ___ftpResponse_29;
+	FtpWebResponse_t4358 * ___ftpResponse_29;
 	// System.IO.Stream System.Net.FtpWebRequest::requestStream
 	Stream_t51 * ___requestStream_30;
 	// System.String System.Net.FtpWebRequest::initial_path
 	String_t* ___initial_path_31;
 	// System.Net.Security.RemoteCertificateValidationCallback System.Net.FtpWebRequest::callback
-	RemoteCertificateValidationCallback_t3952 * ___callback_33;
+	RemoteCertificateValidationCallback_t3277 * ___callback_33;
 };
-struct FtpWebRequest_t4057_StaticFields{
+struct FtpWebRequest_t4362_StaticFields{
 	// System.String[] System.Net.FtpWebRequest::supportedCommands
 	StringU5BU5D_t75* ___supportedCommands_32;
 	// System.Net.Security.RemoteCertificateValidationCallback System.Net.FtpWebRequest::<>f__am$cache1C
-	RemoteCertificateValidationCallback_t3952 * ___U3CU3Ef__amU24cache1C_34;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Net.FtpWebRequest::<>f__switch$map5
-	Dictionary_2_t223 * ___U3CU3Ef__switchU24map5_35;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Net.FtpWebRequest::<>f__switch$map6
-	Dictionary_2_t223 * ___U3CU3Ef__switchU24map6_36;
+	RemoteCertificateValidationCallback_t3277 * ___U3CU3Ef__amU24cache1C_34;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Net.FtpWebRequest::<>f__switch$mapA
+	Dictionary_2_t223 * ___U3CU3Ef__switchU24mapA_35;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Net.FtpWebRequest::<>f__switch$mapB
+	Dictionary_2_t223 * ___U3CU3Ef__switchU24mapB_36;
 };

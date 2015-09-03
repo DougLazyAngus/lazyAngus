@@ -10,10 +10,10 @@ struct TW_FriendsIdsRequest_t330;
 struct String_t;
 
 // System.Void TW_FriendsIdsRequest::.ctor()
-extern "C" void TW_FriendsIdsRequest__ctor_m1737 (TW_FriendsIdsRequest_t330 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TW_FriendsIdsRequest__ctor_m1739 (TW_FriendsIdsRequest_t330 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // TW_FriendsIdsRequest TW_FriendsIdsRequest::Create()
-extern "C" TW_FriendsIdsRequest_t330 * TW_FriendsIdsRequest_Create_m1738 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TW_FriendsIdsRequest_t330 * TW_FriendsIdsRequest_Create_m1740 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TW_FriendsIdsRequest::Awake()
-extern "C" void TW_FriendsIdsRequest_Awake_m1739 (TW_FriendsIdsRequest_t330 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TW_FriendsIdsRequest_Awake_m1741 (TW_FriendsIdsRequest_t330 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TW_FriendsIdsRequest::OnResult(System.String)
-extern "C" void TW_FriendsIdsRequest_OnResult_m1740 (TW_FriendsIdsRequest_t330 * __this, String_t* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TW_FriendsIdsRequest_OnResult_m1742 (TW_FriendsIdsRequest_t330 * __this, String_t* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;

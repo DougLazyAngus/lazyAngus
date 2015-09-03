@@ -3,6 +3,6 @@
 // System.Exception
 #include "mscorlib_System_Exception.h"
 // System.ApplicationException
-struct  ApplicationException_t3392  : public Exception_t57
+struct  ApplicationException_t3803  : public Exception_t57
 {
 };

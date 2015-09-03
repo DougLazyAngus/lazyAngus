@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.Selectable[]
-struct SelectableU5BU5D_t5925;
+struct SelectableU5BU5D_t6458;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.UI.Selectable>
 struct  List_1_t986  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::_items
-	SelectableU5BU5D_t5925* ____items_1;
+	SelectableU5BU5D_t6458* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::_version
@@ -16,5 +16,5 @@ struct  List_1_t986  : public Object_t
 };
 struct List_1_t986_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Selectable>::EmptyArray
-	SelectableU5BU5D_t5925* ___EmptyArray_4;
+	SelectableU5BU5D_t6458* ___EmptyArray_4;
 };

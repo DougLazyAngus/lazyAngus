@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlNodeType
-struct XmlNodeType_t3265;
+struct XmlNodeType_t3530;
 

@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Runtime.Serialization.ObjectRecord
-struct ObjectRecord_t4680;
+struct ObjectRecord_t5184;
 // System.Collections.ArrayList
 struct ArrayList_t712;
 // System.Collections.Hashtable
 struct Hashtable_t710;
 // System.Runtime.Serialization.ISurrogateSelector
-struct ISurrogateSelector_t4637;
+struct ISurrogateSelector_t5172;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 // System.Runtime.Serialization.ObjectManager
-struct  ObjectManager_t4673  : public Object_t
+struct  ObjectManager_t5185  : public Object_t
 {
 	// System.Runtime.Serialization.ObjectRecord System.Runtime.Serialization.ObjectManager::_objectRecordChain
-	ObjectRecord_t4680 * ____objectRecordChain_0;
+	ObjectRecord_t5184 * ____objectRecordChain_0;
 	// System.Runtime.Serialization.ObjectRecord System.Runtime.Serialization.ObjectManager::_lastObjectRecord
-	ObjectRecord_t4680 * ____lastObjectRecord_1;
+	ObjectRecord_t5184 * ____lastObjectRecord_1;
 	// System.Collections.ArrayList System.Runtime.Serialization.ObjectManager::_deserializedRecords
 	ArrayList_t712 * ____deserializedRecords_2;
 	// System.Collections.ArrayList System.Runtime.Serialization.ObjectManager::_onDeserializedCallbackRecords

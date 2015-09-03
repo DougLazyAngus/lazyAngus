@@ -4,27 +4,27 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.EqualityComparer`1<System.Guid>
-struct EqualityComparer_1_t8736;
+// System.Collections.Generic.EqualityComparer`1<System.Reflection.Emit.Label>
+struct EqualityComparer_1_t9272;
 // System.Object
 struct Object_t;
-// System.Guid
-#include "mscorlib_System_Guid.h"
+// System.Reflection.Emit.Label
+#include "mscorlib_System_Reflection_Emit_Label.h"
 
-// System.Void System.Collections.Generic.EqualityComparer`1<System.Guid>::.ctor()
-extern "C" void EqualityComparer_1__ctor_m64704_gshared (EqualityComparer_1_t8736 * __this, const MethodInfo* method);
-#define EqualityComparer_1__ctor_m64704(__this, method) (( void (*) (EqualityComparer_1_t8736 *, const MethodInfo*))EqualityComparer_1__ctor_m64704_gshared)(__this, method)
-// System.Void System.Collections.Generic.EqualityComparer`1<System.Guid>::.cctor()
-extern "C" void EqualityComparer_1__cctor_m64705_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define EqualityComparer_1__cctor_m64705(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1__cctor_m64705_gshared)(__this /* static, unused */, method)
-// System.Int32 System.Collections.Generic.EqualityComparer`1<System.Guid>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
-extern "C" int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m64706_gshared (EqualityComparer_1_t8736 * __this, Object_t * ___obj, const MethodInfo* method);
-#define EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m64706(__this, ___obj, method) (( int32_t (*) (EqualityComparer_1_t8736 *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m64706_gshared)(__this, ___obj, method)
-// System.Boolean System.Collections.Generic.EqualityComparer`1<System.Guid>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
-extern "C" bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m64707_gshared (EqualityComparer_1_t8736 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
-#define EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m64707(__this, ___x, ___y, method) (( bool (*) (EqualityComparer_1_t8736 *, Object_t *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m64707_gshared)(__this, ___x, ___y, method)
-// System.Int32 System.Collections.Generic.EqualityComparer`1<System.Guid>::GetHashCode(T)
-// System.Boolean System.Collections.Generic.EqualityComparer`1<System.Guid>::Equals(T,T)
-// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<System.Guid>::get_Default()
-extern "C" EqualityComparer_1_t8736 * EqualityComparer_1_get_Default_m64708_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define EqualityComparer_1_get_Default_m64708(__this /* static, unused */, method) (( EqualityComparer_1_t8736 * (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1_get_Default_m64708_gshared)(__this /* static, unused */, method)
+// System.Void System.Collections.Generic.EqualityComparer`1<System.Reflection.Emit.Label>::.ctor()
+extern "C" void EqualityComparer_1__ctor_m69231_gshared (EqualityComparer_1_t9272 * __this, const MethodInfo* method);
+#define EqualityComparer_1__ctor_m69231(__this, method) (( void (*) (EqualityComparer_1_t9272 *, const MethodInfo*))EqualityComparer_1__ctor_m69231_gshared)(__this, method)
+// System.Void System.Collections.Generic.EqualityComparer`1<System.Reflection.Emit.Label>::.cctor()
+extern "C" void EqualityComparer_1__cctor_m69232_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define EqualityComparer_1__cctor_m69232(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1__cctor_m69232_gshared)(__this /* static, unused */, method)
+// System.Int32 System.Collections.Generic.EqualityComparer`1<System.Reflection.Emit.Label>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+extern "C" int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m69233_gshared (EqualityComparer_1_t9272 * __this, Object_t * ___obj, const MethodInfo* method);
+#define EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m69233(__this, ___obj, method) (( int32_t (*) (EqualityComparer_1_t9272 *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m69233_gshared)(__this, ___obj, method)
+// System.Boolean System.Collections.Generic.EqualityComparer`1<System.Reflection.Emit.Label>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+extern "C" bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m69234_gshared (EqualityComparer_1_t9272 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
+#define EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m69234(__this, ___x, ___y, method) (( bool (*) (EqualityComparer_1_t9272 *, Object_t *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m69234_gshared)(__this, ___x, ___y, method)
+// System.Int32 System.Collections.Generic.EqualityComparer`1<System.Reflection.Emit.Label>::GetHashCode(T)
+// System.Boolean System.Collections.Generic.EqualityComparer`1<System.Reflection.Emit.Label>::Equals(T,T)
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<System.Reflection.Emit.Label>::get_Default()
+extern "C" EqualityComparer_1_t9272 * EqualityComparer_1_get_Default_m69235_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define EqualityComparer_1_get_Default_m69235(__this /* static, unused */, method) (( EqualityComparer_1_t9272 * (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1_get_Default_m69235_gshared)(__this /* static, unused */, method)

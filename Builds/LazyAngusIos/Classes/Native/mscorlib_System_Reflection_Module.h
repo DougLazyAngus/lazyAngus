@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Reflection.TypeFilter
-struct TypeFilter_t4559;
+struct TypeFilter_t5022;
 // System.Reflection.Assembly
 struct Assembly_t783;
 // System.String
@@ -13,7 +13,7 @@ struct String_t;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // System.Reflection.Module
-struct  Module_t4535  : public Object_t
+struct  Module_t5023  : public Object_t
 {
 	// System.IntPtr System.Reflection.Module::_impl
 	IntPtr_t ____impl_3;
@@ -30,9 +30,9 @@ struct  Module_t4535  : public Object_t
 	// System.Int32 System.Reflection.Module::token
 	int32_t ___token_9;
 };
-struct Module_t4535_StaticFields{
+struct Module_t5023_StaticFields{
 	// System.Reflection.TypeFilter System.Reflection.Module::FilterTypeName
-	TypeFilter_t4559 * ___FilterTypeName_1;
+	TypeFilter_t5022 * ___FilterTypeName_1;
 	// System.Reflection.TypeFilter System.Reflection.Module::FilterTypeNameIgnoreCase
-	TypeFilter_t4559 * ___FilterTypeNameIgnoreCase_2;
+	TypeFilter_t5022 * ___FilterTypeNameIgnoreCase_2;
 };

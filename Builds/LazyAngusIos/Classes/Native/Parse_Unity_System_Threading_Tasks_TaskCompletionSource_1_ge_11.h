@@ -5,7 +5,7 @@ struct Task_1_t1573;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.Tasks.TaskCompletionSource`1<System.UInt64>
-struct  TaskCompletionSource_1_t8339  : public Object_t
+struct  TaskCompletionSource_1_t8874  : public Object_t
 {
 	// System.Threading.Tasks.Task`1<T> System.Threading.Tasks.TaskCompletionSource`1<System.UInt64>::<Task>k__BackingField
 	Task_1_t1573 * ___U3CTaskU3Ek__BackingField_0;

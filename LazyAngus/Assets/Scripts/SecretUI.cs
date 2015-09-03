@@ -7,6 +7,9 @@ using System.Collections;
 public class SecretUI : MonoBehaviour {
 	public static SecretUI instance;
 
+	[System.Runtime.InteropServices.DllImport("__Internal")]
+	extern static public void LaunchShareWidget(int score, bool isHighScore);
+
 	public GameObject inputs;
 	public InputField levelInputField;
 	public InputField debugFlagsInputField;
@@ -46,6 +49,6 @@ public class SecretUI : MonoBehaviour {
 	}
 	
 	public void DebugShowSharing() {
-		FacebookSharing.instance.ShareScore (100, true);
+		LaunchShareWidget (100, true);
 	}
 }

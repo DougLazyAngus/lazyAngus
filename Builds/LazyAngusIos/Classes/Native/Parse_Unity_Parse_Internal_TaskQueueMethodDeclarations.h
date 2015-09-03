@@ -14,10 +14,10 @@ struct Task_t1227;
 #include "Parse_Unity_System_Threading_CancellationToken.h"
 
 // System.Threading.Tasks.Task Parse.Internal.TaskQueue::GetTaskToAwait(System.Threading.CancellationToken)
-extern "C" Task_t1227 * TaskQueue_GetTaskToAwait_m6749 (TaskQueue_t1228 * __this, CancellationToken_t1181  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1227 * TaskQueue_GetTaskToAwait_m6753 (TaskQueue_t1228 * __this, CancellationToken_t1181  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Parse.Internal.TaskQueue::get_Mutex()
-extern "C" Object_t * TaskQueue_get_Mutex_m6750 (TaskQueue_t1228 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * TaskQueue_get_Mutex_m6754 (TaskQueue_t1228 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.Internal.TaskQueue::.ctor()
-extern "C" void TaskQueue__ctor_m6751 (TaskQueue_t1228 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TaskQueue__ctor_m6755 (TaskQueue_t1228 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.Internal.TaskQueue::<GetTaskToAwait>b__0(System.Threading.Tasks.Task)
-extern "C" void TaskQueue_U3CGetTaskToAwaitU3Eb__0_m6752 (Object_t * __this /* static, unused */, Task_t1227 * ___task, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TaskQueue_U3CGetTaskToAwaitU3Eb__0_m6756 (Object_t * __this /* static, unused */, Task_t1227 * ___task, const MethodInfo* method) IL2CPP_METHOD_ATTR;

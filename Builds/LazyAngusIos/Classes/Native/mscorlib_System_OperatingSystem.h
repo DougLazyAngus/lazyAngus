@@ -9,7 +9,7 @@ struct String_t;
 // System.PlatformID
 #include "mscorlib_System_PlatformID.h"
 // System.OperatingSystem
-struct  OperatingSystem_t4826  : public Object_t
+struct  OperatingSystem_t4880  : public Object_t
 {
 	// System.PlatformID System.OperatingSystem::_platform
 	int32_t ____platform_0;

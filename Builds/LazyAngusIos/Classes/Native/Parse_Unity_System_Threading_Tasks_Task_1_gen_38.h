@@ -5,7 +5,7 @@ struct ParseRole_t1317;
 // System.Threading.Tasks.Task
 #include "Parse_Unity_System_Threading_Tasks_Task.h"
 // System.Threading.Tasks.Task`1<Parse.ParseRole>
-struct  Task_1_t6321  : public Task_t1227
+struct  Task_1_t6854  : public Task_t1227
 {
 	// T System.Threading.Tasks.Task`1<Parse.ParseRole>::result
 	ParseRole_t1317 * ___result_9;

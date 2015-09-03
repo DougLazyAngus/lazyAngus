@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Globalization.Unicode.Contraction
-struct Contraction_t4385;
+struct Contraction_t4754;
 // System.Char[]
 struct CharU5BU5D_t711;
 // System.String
@@ -14,4 +14,4 @@ struct String_t;
 struct ByteU5BU5D_t66;
 
 // System.Void Mono.Globalization.Unicode.Contraction::.ctor(System.Char[],System.String,System.Byte[])
-extern "C" void Contraction__ctor_m16460 (Contraction_t4385 * __this, CharU5BU5D_t711* ___source, String_t* ___replacement, ByteU5BU5D_t66* ___sortkey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Contraction__ctor_m19297 (Contraction_t4754 * __this, CharU5BU5D_t711* ___source, String_t* ___replacement, ByteU5BU5D_t66* ___sortkey, const MethodInfo* method) IL2CPP_METHOD_ATTR;

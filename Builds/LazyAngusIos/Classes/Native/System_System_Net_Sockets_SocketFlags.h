@@ -5,7 +5,7 @@
 // System.Net.Sockets.SocketFlags
 #include "System_System_Net_Sockets_SocketFlags.h"
 // System.Net.Sockets.SocketFlags
-struct  SocketFlags_t4021 
+struct  SocketFlags_t4413 
 {
 	// System.Int32 System.Net.Sockets.SocketFlags::value__
 	int32_t ___value___1;

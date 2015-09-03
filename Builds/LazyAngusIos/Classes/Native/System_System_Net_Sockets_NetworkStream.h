@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Net.Sockets.Socket
-struct Socket_t4007;
+struct Socket_t4401;
 // System.IO.Stream
 #include "mscorlib_System_IO_Stream.h"
 // System.IO.FileAccess
 #include "mscorlib_System_IO_FileAccess.h"
 // System.Net.Sockets.NetworkStream
-struct  NetworkStream_t4008  : public Stream_t51
+struct  NetworkStream_t4402  : public Stream_t51
 {
 	// System.IO.FileAccess System.Net.Sockets.NetworkStream::access
-	int32_t ___access_1;
+	int32_t ___access_2;
 	// System.Net.Sockets.Socket System.Net.Sockets.NetworkStream::socket
-	Socket_t4007 * ___socket_2;
+	Socket_t4401 * ___socket_3;
 	// System.Boolean System.Net.Sockets.NetworkStream::owns_socket
-	bool ___owns_socket_3;
+	bool ___owns_socket_4;
 	// System.Boolean System.Net.Sockets.NetworkStream::readable
-	bool ___readable_4;
+	bool ___readable_5;
 	// System.Boolean System.Net.Sockets.NetworkStream::writeable
-	bool ___writeable_5;
+	bool ___writeable_6;
 	// System.Boolean System.Net.Sockets.NetworkStream::disposed
-	bool ___disposed_6;
+	bool ___disposed_7;
 };

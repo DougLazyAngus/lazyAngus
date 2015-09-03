@@ -5,8 +5,8 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Linq.Enumerable/ReadOnlyCollectionOf`1<System.Object>
-struct ReadOnlyCollectionOf_1_t6314;
+struct ReadOnlyCollectionOf_1_t6847;
 
 // System.Void System.Linq.Enumerable/ReadOnlyCollectionOf`1<System.Object>::.cctor()
-extern "C" void ReadOnlyCollectionOf_1__cctor_m35109_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define ReadOnlyCollectionOf_1__cctor_m35109(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))ReadOnlyCollectionOf_1__cctor_m35109_gshared)(__this /* static, unused */, method)
+extern "C" void ReadOnlyCollectionOf_1__cctor_m39355_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define ReadOnlyCollectionOf_1__cctor_m39355(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))ReadOnlyCollectionOf_1__cctor_m39355_gshared)(__this /* static, unused */, method)

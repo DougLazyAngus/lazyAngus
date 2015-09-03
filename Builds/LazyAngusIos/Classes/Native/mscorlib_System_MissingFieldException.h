@@ -3,6 +3,6 @@
 // System.MissingMemberException
 #include "mscorlib_System_MissingMemberException.h"
 // System.MissingFieldException
-struct  MissingFieldException_t4836  : public MissingMemberException_t4837
+struct  MissingFieldException_t4891  : public MissingMemberException_t4892
 {
 };

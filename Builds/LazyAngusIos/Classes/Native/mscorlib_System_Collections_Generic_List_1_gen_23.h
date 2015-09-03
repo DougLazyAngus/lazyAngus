@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // MouseTrap[]
-struct MouseTrapU5BU5D_t5771;
+struct MouseTrapU5BU5D_t6304;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<MouseTrap>
 struct  List_1_t605  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<MouseTrap>::_items
-	MouseTrapU5BU5D_t5771* ____items_1;
+	MouseTrapU5BU5D_t6304* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<MouseTrap>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<MouseTrap>::_version
@@ -16,5 +16,5 @@ struct  List_1_t605  : public Object_t
 };
 struct List_1_t605_StaticFields{
 	// T[] System.Collections.Generic.List`1<MouseTrap>::EmptyArray
-	MouseTrapU5BU5D_t5771* ___EmptyArray_4;
+	MouseTrapU5BU5D_t6304* ___EmptyArray_4;
 };

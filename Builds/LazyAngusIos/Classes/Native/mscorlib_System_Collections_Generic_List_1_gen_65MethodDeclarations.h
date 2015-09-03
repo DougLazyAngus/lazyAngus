@@ -4,150 +4,206 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>
-struct List_1_t3380;
+// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
+struct List_1_t3791;
 // System.Object
 struct Object_t;
-// System.TimeZoneInfo/AdjustmentRule
-struct AdjustmentRule_t3371;
-// System.Collections.Generic.IEnumerable`1<System.TimeZoneInfo/AdjustmentRule>
-struct IEnumerable_1_t9756;
-// System.TimeZoneInfo/AdjustmentRule[]
-struct AdjustmentRuleU5BU5D_t3374;
-// System.Collections.Generic.IEnumerator`1<System.TimeZoneInfo/AdjustmentRule>
-struct IEnumerator_1_t9757;
+// System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
+struct IEnumerable_1_t10338;
+// System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>[]
+struct KeyValuePair_2U5BU5D_t9196;
+// System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
+struct IEnumerator_1_t10339;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
-// System.Collections.Generic.ICollection`1<System.TimeZoneInfo/AdjustmentRule>
-struct ICollection_1_t9758;
-// System.Collections.ObjectModel.ReadOnlyCollection`1<System.TimeZoneInfo/AdjustmentRule>
-struct ReadOnlyCollection_1_t8660;
-// System.Predicate`1<System.TimeZoneInfo/AdjustmentRule>
-struct Predicate_1_t8661;
-// System.Collections.Generic.IComparer`1<System.TimeZoneInfo/AdjustmentRule>
-struct IComparer_1_t9759;
-// System.Comparison`1<System.TimeZoneInfo/AdjustmentRule>
-struct Comparison_1_t8663;
-// System.Collections.Generic.List`1/Enumerator<System.TimeZoneInfo/AdjustmentRule>
+// System.Collections.Generic.ICollection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
+struct ICollection_1_t10340;
+// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
+struct ReadOnlyCollection_1_t9200;
+// System.Predicate`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
+struct Predicate_1_t9204;
+// System.Collections.Generic.IComparer`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
+struct IComparer_1_t10341;
+// System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
+struct Comparison_1_t9207;
+// System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_17.h"
+// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_110.h"
 
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::.ctor()
-// System.Collections.Generic.List`1<System.Object>
-#include "mscorlib_System_Collections_Generic_List_1_gen_0MethodDeclarations.h"
-#define List_1__ctor_m12003(__this, method) (( void (*) (List_1_t3380 *, const MethodInfo*))List_1__ctor_m3858_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1__ctor_m63970(__this, ___collection, method) (( void (*) (List_1_t3380 *, Object_t*, const MethodInfo*))List_1__ctor_m7623_gshared)(__this, ___collection, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::.ctor(System.Int32)
-#define List_1__ctor_m63971(__this, ___capacity, method) (( void (*) (List_1_t3380 *, int32_t, const MethodInfo*))List_1__ctor_m21718_gshared)(__this, ___capacity, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::.ctor(T[],System.Int32)
-#define List_1__ctor_m63972(__this, ___data, ___size, method) (( void (*) (List_1_t3380 *, AdjustmentRuleU5BU5D_t3374*, int32_t, const MethodInfo*))List_1__ctor_m21720_gshared)(__this, ___data, ___size, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::.cctor()
-#define List_1__cctor_m63973(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m21722_gshared)(__this /* static, unused */, method)
-// System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-#define List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m63974(__this, method) (( Object_t* (*) (List_1_t3380 *, const MethodInfo*))List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m10513_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define List_1_System_Collections_ICollection_CopyTo_m63975(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t3380 *, Array_t *, int32_t, const MethodInfo*))List_1_System_Collections_ICollection_CopyTo_m10496_gshared)(__this, ___array, ___arrayIndex, method)
-// System.Collections.IEnumerator System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::System.Collections.IEnumerable.GetEnumerator()
-#define List_1_System_Collections_IEnumerable_GetEnumerator_m63976(__this, method) (( Object_t * (*) (List_1_t3380 *, const MethodInfo*))List_1_System_Collections_IEnumerable_GetEnumerator_m10492_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::System.Collections.IList.Add(System.Object)
-#define List_1_System_Collections_IList_Add_m63977(__this, ___item, method) (( int32_t (*) (List_1_t3380 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Add_m10501_gshared)(__this, ___item, method)
-// System.Boolean System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::System.Collections.IList.Contains(System.Object)
-#define List_1_System_Collections_IList_Contains_m63978(__this, ___item, method) (( bool (*) (List_1_t3380 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Contains_m10503_gshared)(__this, ___item, method)
-// System.Int32 System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::System.Collections.IList.IndexOf(System.Object)
-#define List_1_System_Collections_IList_IndexOf_m63979(__this, ___item, method) (( int32_t (*) (List_1_t3380 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_IndexOf_m10504_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::System.Collections.IList.Insert(System.Int32,System.Object)
-#define List_1_System_Collections_IList_Insert_m63980(__this, ___index, ___item, method) (( void (*) (List_1_t3380 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Insert_m10505_gshared)(__this, ___index, ___item, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::System.Collections.IList.Remove(System.Object)
-#define List_1_System_Collections_IList_Remove_m63981(__this, ___item, method) (( void (*) (List_1_t3380 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Remove_m10506_gshared)(__this, ___item, method)
-// System.Boolean System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-#define List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m63982(__this, method) (( bool (*) (List_1_t3380 *, const MethodInfo*))List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m10508_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::System.Collections.ICollection.get_IsSynchronized()
-#define List_1_System_Collections_ICollection_get_IsSynchronized_m63983(__this, method) (( bool (*) (List_1_t3380 *, const MethodInfo*))List_1_System_Collections_ICollection_get_IsSynchronized_m10494_gshared)(__this, method)
-// System.Object System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::System.Collections.ICollection.get_SyncRoot()
-#define List_1_System_Collections_ICollection_get_SyncRoot_m63984(__this, method) (( Object_t * (*) (List_1_t3380 *, const MethodInfo*))List_1_System_Collections_ICollection_get_SyncRoot_m10495_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::System.Collections.IList.get_IsFixedSize()
-#define List_1_System_Collections_IList_get_IsFixedSize_m63985(__this, method) (( bool (*) (List_1_t3380 *, const MethodInfo*))List_1_System_Collections_IList_get_IsFixedSize_m10497_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::System.Collections.IList.get_IsReadOnly()
-#define List_1_System_Collections_IList_get_IsReadOnly_m63986(__this, method) (( bool (*) (List_1_t3380 *, const MethodInfo*))List_1_System_Collections_IList_get_IsReadOnly_m10498_gshared)(__this, method)
-// System.Object System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::System.Collections.IList.get_Item(System.Int32)
-#define List_1_System_Collections_IList_get_Item_m63987(__this, ___index, method) (( Object_t * (*) (List_1_t3380 *, int32_t, const MethodInfo*))List_1_System_Collections_IList_get_Item_m10499_gshared)(__this, ___index, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::System.Collections.IList.set_Item(System.Int32,System.Object)
-#define List_1_System_Collections_IList_set_Item_m63988(__this, ___index, ___value, method) (( void (*) (List_1_t3380 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_set_Item_m10500_gshared)(__this, ___index, ___value, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::Add(T)
-#define List_1_Add_m63989(__this, ___item, method) (( void (*) (List_1_t3380 *, AdjustmentRule_t3371 *, const MethodInfo*))List_1_Add_m10509_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::GrowIfNeeded(System.Int32)
-#define List_1_GrowIfNeeded_m63990(__this, ___newCount, method) (( void (*) (List_1_t3380 *, int32_t, const MethodInfo*))List_1_GrowIfNeeded_m21740_gshared)(__this, ___newCount, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::CheckRange(System.Int32,System.Int32)
-#define List_1_CheckRange_m63991(__this, ___idx, ___count, method) (( void (*) (List_1_t3380 *, int32_t, int32_t, const MethodInfo*))List_1_CheckRange_m21742_gshared)(__this, ___idx, ___count, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::AddCollection(System.Collections.Generic.ICollection`1<T>)
-#define List_1_AddCollection_m63992(__this, ___collection, method) (( void (*) (List_1_t3380 *, Object_t*, const MethodInfo*))List_1_AddCollection_m21744_gshared)(__this, ___collection, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::AddEnumerable(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_AddEnumerable_m63993(__this, ___enumerable, method) (( void (*) (List_1_t3380 *, Object_t*, const MethodInfo*))List_1_AddEnumerable_m21746_gshared)(__this, ___enumerable, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_AddRange_m63994(__this, ___collection, method) (( void (*) (List_1_t3380 *, Object_t*, const MethodInfo*))List_1_AddRange_m21748_gshared)(__this, ___collection, method)
-// System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::AsReadOnly()
-#define List_1_AsReadOnly_m63995(__this, method) (( ReadOnlyCollection_1_t8660 * (*) (List_1_t3380 *, const MethodInfo*))List_1_AsReadOnly_m21750_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::Clear()
-#define List_1_Clear_m63996(__this, method) (( void (*) (List_1_t3380 *, const MethodInfo*))List_1_Clear_m10502_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::Contains(T)
-#define List_1_Contains_m63997(__this, ___item, method) (( bool (*) (List_1_t3380 *, AdjustmentRule_t3371 *, const MethodInfo*))List_1_Contains_m10510_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::CopyTo(T[],System.Int32)
-#define List_1_CopyTo_m63998(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t3380 *, AdjustmentRuleU5BU5D_t3374*, int32_t, const MethodInfo*))List_1_CopyTo_m10511_gshared)(__this, ___array, ___arrayIndex, method)
-// T System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::Find(System.Predicate`1<T>)
-#define List_1_Find_m63999(__this, ___match, method) (( AdjustmentRule_t3371 * (*) (List_1_t3380 *, Predicate_1_t8661 *, const MethodInfo*))List_1_Find_m21755_gshared)(__this, ___match, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::CheckMatch(System.Predicate`1<T>)
-#define List_1_CheckMatch_m64000(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t8661 *, const MethodInfo*))List_1_CheckMatch_m21757_gshared)(__this /* static, unused */, ___match, method)
-// System.Int32 System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
-#define List_1_GetIndex_m64001(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t3380 *, int32_t, int32_t, Predicate_1_t8661 *, const MethodInfo*))List_1_GetIndex_m21759_gshared)(__this, ___startIndex, ___count, ___match, method)
-// System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::GetEnumerator()
-#define List_1_GetEnumerator_m64002(__this, method) (( Enumerator_t8662  (*) (List_1_t3380 *, const MethodInfo*))List_1_GetEnumerator_m4014_gshared)(__this, method)
-// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::GetRange(System.Int32,System.Int32)
-#define List_1_GetRange_m64003(__this, ___index, ___count, method) (( List_1_t3380 * (*) (List_1_t3380 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m21761_gshared)(__this, ___index, ___count, method)
-// System.Int32 System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::IndexOf(T)
-#define List_1_IndexOf_m64004(__this, ___item, method) (( int32_t (*) (List_1_t3380 *, AdjustmentRule_t3371 *, const MethodInfo*))List_1_IndexOf_m10514_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::Shift(System.Int32,System.Int32)
-#define List_1_Shift_m64005(__this, ___start, ___delta, method) (( void (*) (List_1_t3380 *, int32_t, int32_t, const MethodInfo*))List_1_Shift_m21764_gshared)(__this, ___start, ___delta, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::CheckIndex(System.Int32)
-#define List_1_CheckIndex_m64006(__this, ___index, method) (( void (*) (List_1_t3380 *, int32_t, const MethodInfo*))List_1_CheckIndex_m21766_gshared)(__this, ___index, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::Insert(System.Int32,T)
-#define List_1_Insert_m64007(__this, ___index, ___item, method) (( void (*) (List_1_t3380 *, int32_t, AdjustmentRule_t3371 *, const MethodInfo*))List_1_Insert_m10515_gshared)(__this, ___index, ___item, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::CheckCollection(System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_CheckCollection_m64008(__this, ___collection, method) (( void (*) (List_1_t3380 *, Object_t*, const MethodInfo*))List_1_CheckCollection_m21769_gshared)(__this, ___collection, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::InsertRange(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_InsertRange_m64009(__this, ___index, ___collection, method) (( void (*) (List_1_t3380 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertRange_m21771_gshared)(__this, ___index, ___collection, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::InsertCollection(System.Int32,System.Collections.Generic.ICollection`1<T>)
-#define List_1_InsertCollection_m64010(__this, ___index, ___collection, method) (( void (*) (List_1_t3380 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertCollection_m21773_gshared)(__this, ___index, ___collection, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::InsertEnumeration(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
-#define List_1_InsertEnumeration_m64011(__this, ___index, ___enumerable, method) (( void (*) (List_1_t3380 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertEnumeration_m21775_gshared)(__this, ___index, ___enumerable, method)
-// System.Boolean System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::Remove(T)
-#define List_1_Remove_m64012(__this, ___item, method) (( bool (*) (List_1_t3380 *, AdjustmentRule_t3371 *, const MethodInfo*))List_1_Remove_m10512_gshared)(__this, ___item, method)
-// System.Int32 System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::RemoveAll(System.Predicate`1<T>)
-#define List_1_RemoveAll_m64013(__this, ___match, method) (( int32_t (*) (List_1_t3380 *, Predicate_1_t8661 *, const MethodInfo*))List_1_RemoveAll_m21778_gshared)(__this, ___match, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::RemoveAt(System.Int32)
-#define List_1_RemoveAt_m64014(__this, ___index, method) (( void (*) (List_1_t3380 *, int32_t, const MethodInfo*))List_1_RemoveAt_m10507_gshared)(__this, ___index, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::RemoveRange(System.Int32,System.Int32)
-#define List_1_RemoveRange_m64015(__this, ___index, ___count, method) (( void (*) (List_1_t3380 *, int32_t, int32_t, const MethodInfo*))List_1_RemoveRange_m21781_gshared)(__this, ___index, ___count, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::Reverse()
-#define List_1_Reverse_m64016(__this, method) (( void (*) (List_1_t3380 *, const MethodInfo*))List_1_Reverse_m21783_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::Sort()
-#define List_1_Sort_m64017(__this, method) (( void (*) (List_1_t3380 *, const MethodInfo*))List_1_Sort_m21785_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::Sort(System.Collections.Generic.IComparer`1<T>)
-#define List_1_Sort_m64018(__this, ___comparer, method) (( void (*) (List_1_t3380 *, Object_t*, const MethodInfo*))List_1_Sort_m21787_gshared)(__this, ___comparer, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::Sort(System.Comparison`1<T>)
-#define List_1_Sort_m64019(__this, ___comparison, method) (( void (*) (List_1_t3380 *, Comparison_1_t8663 *, const MethodInfo*))List_1_Sort_m21789_gshared)(__this, ___comparison, method)
-// T[] System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::ToArray()
-#define List_1_ToArray_m12010(__this, method) (( AdjustmentRuleU5BU5D_t3374* (*) (List_1_t3380 *, const MethodInfo*))List_1_ToArray_m21791_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::TrimExcess()
-#define List_1_TrimExcess_m64020(__this, method) (( void (*) (List_1_t3380 *, const MethodInfo*))List_1_TrimExcess_m21793_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::get_Capacity()
-#define List_1_get_Capacity_m64021(__this, method) (( int32_t (*) (List_1_t3380 *, const MethodInfo*))List_1_get_Capacity_m21795_gshared)(__this, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::set_Capacity(System.Int32)
-#define List_1_set_Capacity_m64022(__this, ___value, method) (( void (*) (List_1_t3380 *, int32_t, const MethodInfo*))List_1_set_Capacity_m21797_gshared)(__this, ___value, method)
-// System.Int32 System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::get_Count()
-#define List_1_get_Count_m64023(__this, method) (( int32_t (*) (List_1_t3380 *, const MethodInfo*))List_1_get_Count_m10493_gshared)(__this, method)
-// T System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::get_Item(System.Int32)
-#define List_1_get_Item_m64024(__this, ___index, method) (( AdjustmentRule_t3371 * (*) (List_1_t3380 *, int32_t, const MethodInfo*))List_1_get_Item_m10516_gshared)(__this, ___index, method)
-// System.Void System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>::set_Item(System.Int32,T)
-#define List_1_set_Item_m64025(__this, ___index, ___value, method) (( void (*) (List_1_t3380 *, int32_t, AdjustmentRule_t3371 *, const MethodInfo*))List_1_set_Item_m10517_gshared)(__this, ___index, ___value, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::.ctor()
+extern "C" void List_1__ctor_m68147_gshared (List_1_t3791 * __this, const MethodInfo* method);
+#define List_1__ctor_m68147(__this, method) (( void (*) (List_1_t3791 *, const MethodInfo*))List_1__ctor_m68147_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
+extern "C" void List_1__ctor_m68148_gshared (List_1_t3791 * __this, Object_t* ___collection, const MethodInfo* method);
+#define List_1__ctor_m68148(__this, ___collection, method) (( void (*) (List_1_t3791 *, Object_t*, const MethodInfo*))List_1__ctor_m68148_gshared)(__this, ___collection, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::.ctor(System.Int32)
+extern "C" void List_1__ctor_m15167_gshared (List_1_t3791 * __this, int32_t ___capacity, const MethodInfo* method);
+#define List_1__ctor_m15167(__this, ___capacity, method) (( void (*) (List_1_t3791 *, int32_t, const MethodInfo*))List_1__ctor_m15167_gshared)(__this, ___capacity, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::.ctor(T[],System.Int32)
+extern "C" void List_1__ctor_m68149_gshared (List_1_t3791 * __this, KeyValuePair_2U5BU5D_t9196* ___data, int32_t ___size, const MethodInfo* method);
+#define List_1__ctor_m68149(__this, ___data, ___size, method) (( void (*) (List_1_t3791 *, KeyValuePair_2U5BU5D_t9196*, int32_t, const MethodInfo*))List_1__ctor_m68149_gshared)(__this, ___data, ___size, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::.cctor()
+extern "C" void List_1__cctor_m68150_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define List_1__cctor_m68150(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m68150_gshared)(__this /* static, unused */, method)
+// System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+extern "C" Object_t* List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m68151_gshared (List_1_t3791 * __this, const MethodInfo* method);
+#define List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m68151(__this, method) (( Object_t* (*) (List_1_t3791 *, const MethodInfo*))List_1_System_Collections_Generic_IEnumerableU3CTU3E_GetEnumerator_m68151_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+extern "C" void List_1_System_Collections_ICollection_CopyTo_m68152_gshared (List_1_t3791 * __this, Array_t * ___array, int32_t ___arrayIndex, const MethodInfo* method);
+#define List_1_System_Collections_ICollection_CopyTo_m68152(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t3791 *, Array_t *, int32_t, const MethodInfo*))List_1_System_Collections_ICollection_CopyTo_m68152_gshared)(__this, ___array, ___arrayIndex, method)
+// System.Collections.IEnumerator System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IEnumerable.GetEnumerator()
+extern "C" Object_t * List_1_System_Collections_IEnumerable_GetEnumerator_m68153_gshared (List_1_t3791 * __this, const MethodInfo* method);
+#define List_1_System_Collections_IEnumerable_GetEnumerator_m68153(__this, method) (( Object_t * (*) (List_1_t3791 *, const MethodInfo*))List_1_System_Collections_IEnumerable_GetEnumerator_m68153_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IList.Add(System.Object)
+extern "C" int32_t List_1_System_Collections_IList_Add_m68154_gshared (List_1_t3791 * __this, Object_t * ___item, const MethodInfo* method);
+#define List_1_System_Collections_IList_Add_m68154(__this, ___item, method) (( int32_t (*) (List_1_t3791 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Add_m68154_gshared)(__this, ___item, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IList.Contains(System.Object)
+extern "C" bool List_1_System_Collections_IList_Contains_m68155_gshared (List_1_t3791 * __this, Object_t * ___item, const MethodInfo* method);
+#define List_1_System_Collections_IList_Contains_m68155(__this, ___item, method) (( bool (*) (List_1_t3791 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Contains_m68155_gshared)(__this, ___item, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IList.IndexOf(System.Object)
+extern "C" int32_t List_1_System_Collections_IList_IndexOf_m68156_gshared (List_1_t3791 * __this, Object_t * ___item, const MethodInfo* method);
+#define List_1_System_Collections_IList_IndexOf_m68156(__this, ___item, method) (( int32_t (*) (List_1_t3791 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_IndexOf_m68156_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IList.Insert(System.Int32,System.Object)
+extern "C" void List_1_System_Collections_IList_Insert_m68157_gshared (List_1_t3791 * __this, int32_t ___index, Object_t * ___item, const MethodInfo* method);
+#define List_1_System_Collections_IList_Insert_m68157(__this, ___index, ___item, method) (( void (*) (List_1_t3791 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Insert_m68157_gshared)(__this, ___index, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IList.Remove(System.Object)
+extern "C" void List_1_System_Collections_IList_Remove_m68158_gshared (List_1_t3791 * __this, Object_t * ___item, const MethodInfo* method);
+#define List_1_System_Collections_IList_Remove_m68158(__this, ___item, method) (( void (*) (List_1_t3791 *, Object_t *, const MethodInfo*))List_1_System_Collections_IList_Remove_m68158_gshared)(__this, ___item, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+extern "C" bool List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m68159_gshared (List_1_t3791 * __this, const MethodInfo* method);
+#define List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m68159(__this, method) (( bool (*) (List_1_t3791 *, const MethodInfo*))List_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m68159_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.ICollection.get_IsSynchronized()
+extern "C" bool List_1_System_Collections_ICollection_get_IsSynchronized_m68160_gshared (List_1_t3791 * __this, const MethodInfo* method);
+#define List_1_System_Collections_ICollection_get_IsSynchronized_m68160(__this, method) (( bool (*) (List_1_t3791 *, const MethodInfo*))List_1_System_Collections_ICollection_get_IsSynchronized_m68160_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.ICollection.get_SyncRoot()
+extern "C" Object_t * List_1_System_Collections_ICollection_get_SyncRoot_m68161_gshared (List_1_t3791 * __this, const MethodInfo* method);
+#define List_1_System_Collections_ICollection_get_SyncRoot_m68161(__this, method) (( Object_t * (*) (List_1_t3791 *, const MethodInfo*))List_1_System_Collections_ICollection_get_SyncRoot_m68161_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IList.get_IsFixedSize()
+extern "C" bool List_1_System_Collections_IList_get_IsFixedSize_m68162_gshared (List_1_t3791 * __this, const MethodInfo* method);
+#define List_1_System_Collections_IList_get_IsFixedSize_m68162(__this, method) (( bool (*) (List_1_t3791 *, const MethodInfo*))List_1_System_Collections_IList_get_IsFixedSize_m68162_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IList.get_IsReadOnly()
+extern "C" bool List_1_System_Collections_IList_get_IsReadOnly_m68163_gshared (List_1_t3791 * __this, const MethodInfo* method);
+#define List_1_System_Collections_IList_get_IsReadOnly_m68163(__this, method) (( bool (*) (List_1_t3791 *, const MethodInfo*))List_1_System_Collections_IList_get_IsReadOnly_m68163_gshared)(__this, method)
+// System.Object System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IList.get_Item(System.Int32)
+extern "C" Object_t * List_1_System_Collections_IList_get_Item_m68164_gshared (List_1_t3791 * __this, int32_t ___index, const MethodInfo* method);
+#define List_1_System_Collections_IList_get_Item_m68164(__this, ___index, method) (( Object_t * (*) (List_1_t3791 *, int32_t, const MethodInfo*))List_1_System_Collections_IList_get_Item_m68164_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IList.set_Item(System.Int32,System.Object)
+extern "C" void List_1_System_Collections_IList_set_Item_m68165_gshared (List_1_t3791 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method);
+#define List_1_System_Collections_IList_set_Item_m68165(__this, ___index, ___value, method) (( void (*) (List_1_t3791 *, int32_t, Object_t *, const MethodInfo*))List_1_System_Collections_IList_set_Item_m68165_gshared)(__this, ___index, ___value, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::Add(T)
+extern "C" void List_1_Add_m68166_gshared (List_1_t3791 * __this, KeyValuePair_2_t3795  ___item, const MethodInfo* method);
+#define List_1_Add_m68166(__this, ___item, method) (( void (*) (List_1_t3791 *, KeyValuePair_2_t3795 , const MethodInfo*))List_1_Add_m68166_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::GrowIfNeeded(System.Int32)
+extern "C" void List_1_GrowIfNeeded_m68167_gshared (List_1_t3791 * __this, int32_t ___newCount, const MethodInfo* method);
+#define List_1_GrowIfNeeded_m68167(__this, ___newCount, method) (( void (*) (List_1_t3791 *, int32_t, const MethodInfo*))List_1_GrowIfNeeded_m68167_gshared)(__this, ___newCount, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::CheckRange(System.Int32,System.Int32)
+extern "C" void List_1_CheckRange_m68168_gshared (List_1_t3791 * __this, int32_t ___idx, int32_t ___count, const MethodInfo* method);
+#define List_1_CheckRange_m68168(__this, ___idx, ___count, method) (( void (*) (List_1_t3791 *, int32_t, int32_t, const MethodInfo*))List_1_CheckRange_m68168_gshared)(__this, ___idx, ___count, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::AddCollection(System.Collections.Generic.ICollection`1<T>)
+extern "C" void List_1_AddCollection_m68169_gshared (List_1_t3791 * __this, Object_t* ___collection, const MethodInfo* method);
+#define List_1_AddCollection_m68169(__this, ___collection, method) (( void (*) (List_1_t3791 *, Object_t*, const MethodInfo*))List_1_AddCollection_m68169_gshared)(__this, ___collection, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::AddEnumerable(System.Collections.Generic.IEnumerable`1<T>)
+extern "C" void List_1_AddEnumerable_m68170_gshared (List_1_t3791 * __this, Object_t* ___enumerable, const MethodInfo* method);
+#define List_1_AddEnumerable_m68170(__this, ___enumerable, method) (( void (*) (List_1_t3791 *, Object_t*, const MethodInfo*))List_1_AddEnumerable_m68170_gshared)(__this, ___enumerable, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
+extern "C" void List_1_AddRange_m68171_gshared (List_1_t3791 * __this, Object_t* ___collection, const MethodInfo* method);
+#define List_1_AddRange_m68171(__this, ___collection, method) (( void (*) (List_1_t3791 *, Object_t*, const MethodInfo*))List_1_AddRange_m68171_gshared)(__this, ___collection, method)
+// System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::AsReadOnly()
+extern "C" ReadOnlyCollection_1_t9200 * List_1_AsReadOnly_m68172_gshared (List_1_t3791 * __this, const MethodInfo* method);
+#define List_1_AsReadOnly_m68172(__this, method) (( ReadOnlyCollection_1_t9200 * (*) (List_1_t3791 *, const MethodInfo*))List_1_AsReadOnly_m68172_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::Clear()
+extern "C" void List_1_Clear_m68173_gshared (List_1_t3791 * __this, const MethodInfo* method);
+#define List_1_Clear_m68173(__this, method) (( void (*) (List_1_t3791 *, const MethodInfo*))List_1_Clear_m68173_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::Contains(T)
+extern "C" bool List_1_Contains_m68174_gshared (List_1_t3791 * __this, KeyValuePair_2_t3795  ___item, const MethodInfo* method);
+#define List_1_Contains_m68174(__this, ___item, method) (( bool (*) (List_1_t3791 *, KeyValuePair_2_t3795 , const MethodInfo*))List_1_Contains_m68174_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::CopyTo(T[],System.Int32)
+extern "C" void List_1_CopyTo_m68175_gshared (List_1_t3791 * __this, KeyValuePair_2U5BU5D_t9196* ___array, int32_t ___arrayIndex, const MethodInfo* method);
+#define List_1_CopyTo_m68175(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t3791 *, KeyValuePair_2U5BU5D_t9196*, int32_t, const MethodInfo*))List_1_CopyTo_m68175_gshared)(__this, ___array, ___arrayIndex, method)
+// T System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::Find(System.Predicate`1<T>)
+extern "C" KeyValuePair_2_t3795  List_1_Find_m68176_gshared (List_1_t3791 * __this, Predicate_1_t9204 * ___match, const MethodInfo* method);
+#define List_1_Find_m68176(__this, ___match, method) (( KeyValuePair_2_t3795  (*) (List_1_t3791 *, Predicate_1_t9204 *, const MethodInfo*))List_1_Find_m68176_gshared)(__this, ___match, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::CheckMatch(System.Predicate`1<T>)
+extern "C" void List_1_CheckMatch_m68177_gshared (Object_t * __this /* static, unused */, Predicate_1_t9204 * ___match, const MethodInfo* method);
+#define List_1_CheckMatch_m68177(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t9204 *, const MethodInfo*))List_1_CheckMatch_m68177_gshared)(__this /* static, unused */, ___match, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
+extern "C" int32_t List_1_GetIndex_m68178_gshared (List_1_t3791 * __this, int32_t ___startIndex, int32_t ___count, Predicate_1_t9204 * ___match, const MethodInfo* method);
+#define List_1_GetIndex_m68178(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t3791 *, int32_t, int32_t, Predicate_1_t9204 *, const MethodInfo*))List_1_GetIndex_m68178_gshared)(__this, ___startIndex, ___count, ___match, method)
+// System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::GetEnumerator()
+extern "C" Enumerator_t9198  List_1_GetEnumerator_m68179_gshared (List_1_t3791 * __this, const MethodInfo* method);
+#define List_1_GetEnumerator_m68179(__this, method) (( Enumerator_t9198  (*) (List_1_t3791 *, const MethodInfo*))List_1_GetEnumerator_m68179_gshared)(__this, method)
+// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::GetRange(System.Int32,System.Int32)
+extern "C" List_1_t3791 * List_1_GetRange_m68180_gshared (List_1_t3791 * __this, int32_t ___index, int32_t ___count, const MethodInfo* method);
+#define List_1_GetRange_m68180(__this, ___index, ___count, method) (( List_1_t3791 * (*) (List_1_t3791 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m68180_gshared)(__this, ___index, ___count, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::IndexOf(T)
+extern "C" int32_t List_1_IndexOf_m68181_gshared (List_1_t3791 * __this, KeyValuePair_2_t3795  ___item, const MethodInfo* method);
+#define List_1_IndexOf_m68181(__this, ___item, method) (( int32_t (*) (List_1_t3791 *, KeyValuePair_2_t3795 , const MethodInfo*))List_1_IndexOf_m68181_gshared)(__this, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::Shift(System.Int32,System.Int32)
+extern "C" void List_1_Shift_m68182_gshared (List_1_t3791 * __this, int32_t ___start, int32_t ___delta, const MethodInfo* method);
+#define List_1_Shift_m68182(__this, ___start, ___delta, method) (( void (*) (List_1_t3791 *, int32_t, int32_t, const MethodInfo*))List_1_Shift_m68182_gshared)(__this, ___start, ___delta, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::CheckIndex(System.Int32)
+extern "C" void List_1_CheckIndex_m68183_gshared (List_1_t3791 * __this, int32_t ___index, const MethodInfo* method);
+#define List_1_CheckIndex_m68183(__this, ___index, method) (( void (*) (List_1_t3791 *, int32_t, const MethodInfo*))List_1_CheckIndex_m68183_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::Insert(System.Int32,T)
+extern "C" void List_1_Insert_m68184_gshared (List_1_t3791 * __this, int32_t ___index, KeyValuePair_2_t3795  ___item, const MethodInfo* method);
+#define List_1_Insert_m68184(__this, ___index, ___item, method) (( void (*) (List_1_t3791 *, int32_t, KeyValuePair_2_t3795 , const MethodInfo*))List_1_Insert_m68184_gshared)(__this, ___index, ___item, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::CheckCollection(System.Collections.Generic.IEnumerable`1<T>)
+extern "C" void List_1_CheckCollection_m68185_gshared (List_1_t3791 * __this, Object_t* ___collection, const MethodInfo* method);
+#define List_1_CheckCollection_m68185(__this, ___collection, method) (( void (*) (List_1_t3791 *, Object_t*, const MethodInfo*))List_1_CheckCollection_m68185_gshared)(__this, ___collection, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::InsertRange(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
+extern "C" void List_1_InsertRange_m68186_gshared (List_1_t3791 * __this, int32_t ___index, Object_t* ___collection, const MethodInfo* method);
+#define List_1_InsertRange_m68186(__this, ___index, ___collection, method) (( void (*) (List_1_t3791 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertRange_m68186_gshared)(__this, ___index, ___collection, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::InsertCollection(System.Int32,System.Collections.Generic.ICollection`1<T>)
+extern "C" void List_1_InsertCollection_m68187_gshared (List_1_t3791 * __this, int32_t ___index, Object_t* ___collection, const MethodInfo* method);
+#define List_1_InsertCollection_m68187(__this, ___index, ___collection, method) (( void (*) (List_1_t3791 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertCollection_m68187_gshared)(__this, ___index, ___collection, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::InsertEnumeration(System.Int32,System.Collections.Generic.IEnumerable`1<T>)
+extern "C" void List_1_InsertEnumeration_m68188_gshared (List_1_t3791 * __this, int32_t ___index, Object_t* ___enumerable, const MethodInfo* method);
+#define List_1_InsertEnumeration_m68188(__this, ___index, ___enumerable, method) (( void (*) (List_1_t3791 *, int32_t, Object_t*, const MethodInfo*))List_1_InsertEnumeration_m68188_gshared)(__this, ___index, ___enumerable, method)
+// System.Boolean System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::Remove(T)
+extern "C" bool List_1_Remove_m68189_gshared (List_1_t3791 * __this, KeyValuePair_2_t3795  ___item, const MethodInfo* method);
+#define List_1_Remove_m68189(__this, ___item, method) (( bool (*) (List_1_t3791 *, KeyValuePair_2_t3795 , const MethodInfo*))List_1_Remove_m68189_gshared)(__this, ___item, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::RemoveAll(System.Predicate`1<T>)
+extern "C" int32_t List_1_RemoveAll_m68190_gshared (List_1_t3791 * __this, Predicate_1_t9204 * ___match, const MethodInfo* method);
+#define List_1_RemoveAll_m68190(__this, ___match, method) (( int32_t (*) (List_1_t3791 *, Predicate_1_t9204 *, const MethodInfo*))List_1_RemoveAll_m68190_gshared)(__this, ___match, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::RemoveAt(System.Int32)
+extern "C" void List_1_RemoveAt_m68191_gshared (List_1_t3791 * __this, int32_t ___index, const MethodInfo* method);
+#define List_1_RemoveAt_m68191(__this, ___index, method) (( void (*) (List_1_t3791 *, int32_t, const MethodInfo*))List_1_RemoveAt_m68191_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::RemoveRange(System.Int32,System.Int32)
+extern "C" void List_1_RemoveRange_m68192_gshared (List_1_t3791 * __this, int32_t ___index, int32_t ___count, const MethodInfo* method);
+#define List_1_RemoveRange_m68192(__this, ___index, ___count, method) (( void (*) (List_1_t3791 *, int32_t, int32_t, const MethodInfo*))List_1_RemoveRange_m68192_gshared)(__this, ___index, ___count, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::Reverse()
+extern "C" void List_1_Reverse_m68193_gshared (List_1_t3791 * __this, const MethodInfo* method);
+#define List_1_Reverse_m68193(__this, method) (( void (*) (List_1_t3791 *, const MethodInfo*))List_1_Reverse_m68193_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::Sort()
+extern "C" void List_1_Sort_m68194_gshared (List_1_t3791 * __this, const MethodInfo* method);
+#define List_1_Sort_m68194(__this, method) (( void (*) (List_1_t3791 *, const MethodInfo*))List_1_Sort_m68194_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::Sort(System.Collections.Generic.IComparer`1<T>)
+extern "C" void List_1_Sort_m68195_gshared (List_1_t3791 * __this, Object_t* ___comparer, const MethodInfo* method);
+#define List_1_Sort_m68195(__this, ___comparer, method) (( void (*) (List_1_t3791 *, Object_t*, const MethodInfo*))List_1_Sort_m68195_gshared)(__this, ___comparer, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::Sort(System.Comparison`1<T>)
+extern "C" void List_1_Sort_m68196_gshared (List_1_t3791 * __this, Comparison_1_t9207 * ___comparison, const MethodInfo* method);
+#define List_1_Sort_m68196(__this, ___comparison, method) (( void (*) (List_1_t3791 *, Comparison_1_t9207 *, const MethodInfo*))List_1_Sort_m68196_gshared)(__this, ___comparison, method)
+// T[] System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::ToArray()
+extern "C" KeyValuePair_2U5BU5D_t9196* List_1_ToArray_m68197_gshared (List_1_t3791 * __this, const MethodInfo* method);
+#define List_1_ToArray_m68197(__this, method) (( KeyValuePair_2U5BU5D_t9196* (*) (List_1_t3791 *, const MethodInfo*))List_1_ToArray_m68197_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::TrimExcess()
+extern "C" void List_1_TrimExcess_m68198_gshared (List_1_t3791 * __this, const MethodInfo* method);
+#define List_1_TrimExcess_m68198(__this, method) (( void (*) (List_1_t3791 *, const MethodInfo*))List_1_TrimExcess_m68198_gshared)(__this, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::get_Capacity()
+extern "C" int32_t List_1_get_Capacity_m68199_gshared (List_1_t3791 * __this, const MethodInfo* method);
+#define List_1_get_Capacity_m68199(__this, method) (( int32_t (*) (List_1_t3791 *, const MethodInfo*))List_1_get_Capacity_m68199_gshared)(__this, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::set_Capacity(System.Int32)
+extern "C" void List_1_set_Capacity_m68200_gshared (List_1_t3791 * __this, int32_t ___value, const MethodInfo* method);
+#define List_1_set_Capacity_m68200(__this, ___value, method) (( void (*) (List_1_t3791 *, int32_t, const MethodInfo*))List_1_set_Capacity_m68200_gshared)(__this, ___value, method)
+// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::get_Count()
+extern "C" int32_t List_1_get_Count_m68201_gshared (List_1_t3791 * __this, const MethodInfo* method);
+#define List_1_get_Count_m68201(__this, method) (( int32_t (*) (List_1_t3791 *, const MethodInfo*))List_1_get_Count_m68201_gshared)(__this, method)
+// T System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::get_Item(System.Int32)
+extern "C" KeyValuePair_2_t3795  List_1_get_Item_m68202_gshared (List_1_t3791 * __this, int32_t ___index, const MethodInfo* method);
+#define List_1_get_Item_m68202(__this, ___index, method) (( KeyValuePair_2_t3795  (*) (List_1_t3791 *, int32_t, const MethodInfo*))List_1_get_Item_m68202_gshared)(__this, ___index, method)
+// System.Void System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::set_Item(System.Int32,T)
+extern "C" void List_1_set_Item_m68203_gshared (List_1_t3791 * __this, int32_t ___index, KeyValuePair_2_t3795  ___value, const MethodInfo* method);
+#define List_1_set_Item_m68203(__this, ___index, ___value, method) (( void (*) (List_1_t3791 *, int32_t, KeyValuePair_2_t3795 , const MethodInfo*))List_1_set_Item_m68203_gshared)(__this, ___index, ___value, method)

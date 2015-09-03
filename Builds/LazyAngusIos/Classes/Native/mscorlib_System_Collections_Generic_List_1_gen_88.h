@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// Parse.ParseFile[]
-struct ParseFileU5BU5D_t6992;
+// System.Boolean[]
+struct BooleanU5BU5D_t487;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<Parse.ParseFile>
-struct  List_1_t6993  : public Object_t
+// System.Collections.Generic.List`1<System.Boolean>
+struct  List_1_t7495  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<Parse.ParseFile>::_items
-	ParseFileU5BU5D_t6992* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<Parse.ParseFile>::_size
+	// T[] System.Collections.Generic.List`1<System.Boolean>::_items
+	BooleanU5BU5D_t487* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Boolean>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<Parse.ParseFile>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Boolean>::_version
 	int32_t ____version_3;
 };
-struct List_1_t6993_StaticFields{
-	// T[] System.Collections.Generic.List`1<Parse.ParseFile>::EmptyArray
-	ParseFileU5BU5D_t6992* ___EmptyArray_4;
+struct List_1_t7495_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Boolean>::EmptyArray
+	BooleanU5BU5D_t487* ___EmptyArray_4;
 };

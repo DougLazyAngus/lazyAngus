@@ -12,4 +12,4 @@ struct String_t;
 struct List_1_t115;
 
 // System.Void FBAppRequestsFilterGroup::.ctor(System.String,System.Collections.Generic.List`1<System.String>)
-extern "C" void FBAppRequestsFilterGroup__ctor_m2276 (FBAppRequestsFilterGroup_t424 * __this, String_t* ___name, List_1_t115 * ___user_ids, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FBAppRequestsFilterGroup__ctor_m2278 (FBAppRequestsFilterGroup_t424 * __this, String_t* ___name, List_1_t115 * ___user_ids, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -7,7 +7,7 @@ struct List_1_t698;
 // System.Object
 #include "mscorlib_System_Object.h"
 // QuasiRandomGenerator`1<System.Object>
-struct  QuasiRandomGenerator_1_t5777  : public Object_t
+struct  QuasiRandomGenerator_1_t6310  : public Object_t
 {
 	// T[] QuasiRandomGenerator`1<System.Object>::distribution
 	ObjectU5BU5D_t696* ___distribution_0;

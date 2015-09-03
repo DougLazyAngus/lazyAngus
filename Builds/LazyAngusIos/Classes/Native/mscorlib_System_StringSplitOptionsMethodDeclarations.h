@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.StringSplitOptions
-struct StringSplitOptions_t4857;
+struct StringSplitOptions_t4908;
 

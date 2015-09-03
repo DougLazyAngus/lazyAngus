@@ -3,27 +3,27 @@
 #include "mscorlib_System_Array.h"
 // System.Collections.Generic.HashSet`1/Link<System.Object>[]
 // System.Collections.Generic.HashSet`1/Link<System.Object>[]
-struct  LinkU5BU5D_t5978  : public Array_t
+struct  LinkU5BU5D_t6511  : public Array_t
 {
 };
 // System.Collections.Generic.HashSet`1/Link<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>[]
 // System.Collections.Generic.HashSet`1/Link<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>[]
-struct  LinkU5BU5D_t5982  : public Array_t
+struct  LinkU5BU5D_t6515  : public Array_t
 {
 };
 // System.Func`3<System.Object,System.Object,System.Object>[]
 // System.Func`3<System.Object,System.Object,System.Object>[]
-struct  Func_3U5BU5D_t6107  : public Array_t
+struct  Func_3U5BU5D_t6640  : public Array_t
 {
 };
 // System.Collections.Generic.HashSet`1/Link<System.String>[]
 // System.Collections.Generic.HashSet`1/Link<System.String>[]
-struct  LinkU5BU5D_t6126  : public Array_t
+struct  LinkU5BU5D_t6659  : public Array_t
 {
 };
 // System.Collections.Generic.HashSet`1/Link<Parse.ParseObject>[]
 // System.Collections.Generic.HashSet`1/Link<Parse.ParseObject>[]
-struct  LinkU5BU5D_t6273  : public Array_t
+struct  LinkU5BU5D_t6806  : public Array_t
 {
 };
 // System.Linq.Expressions.ParameterExpression[]
@@ -38,31 +38,31 @@ struct  ExpressionU5BU5D_t1541  : public Array_t
 };
 // System.Action[]
 // System.Action[]
-struct  ActionU5BU5D_t6338  : public Array_t
-{
-};
-// System.Linq.Expressions.MemberBinding[]
-// System.Linq.Expressions.MemberBinding[]
-struct  MemberBindingU5BU5D_t9742  : public Array_t
-{
-};
-// System.Linq.Expressions.ElementInit[]
-// System.Linq.Expressions.ElementInit[]
-struct  ElementInitU5BU5D_t9744  : public Array_t
-{
-};
-// System.Threading.ReaderWriterLockSlim/LockDetails[]
-// System.Threading.ReaderWriterLockSlim/LockDetails[]
-struct  LockDetailsU5BU5D_t3369  : public Array_t
+struct  ActionU5BU5D_t6871  : public Array_t
 {
 };
 // System.TimeZoneInfo/AdjustmentRule[]
 // System.TimeZoneInfo/AdjustmentRule[]
-struct  AdjustmentRuleU5BU5D_t3374  : public Array_t
+struct  AdjustmentRuleU5BU5D_t3752  : public Array_t
 {
 };
 // System.TimeZoneInfo/TimeType[]
 // System.TimeZoneInfo/TimeType[]
-struct  TimeTypeU5BU5D_t8631  : public Array_t
+struct  TimeTypeU5BU5D_t9180  : public Array_t
+{
+};
+// System.Linq.Expressions.MemberBinding[]
+// System.Linq.Expressions.MemberBinding[]
+struct  MemberBindingU5BU5D_t10346  : public Array_t
+{
+};
+// System.Linq.Expressions.ElementInit[]
+// System.Linq.Expressions.ElementInit[]
+struct  ElementInitU5BU5D_t10348  : public Array_t
+{
+};
+// System.Threading.ReaderWriterLockSlim/LockDetails[]
+// System.Threading.ReaderWriterLockSlim/LockDetails[]
+struct  LockDetailsU5BU5D_t3784  : public Array_t
 {
 };

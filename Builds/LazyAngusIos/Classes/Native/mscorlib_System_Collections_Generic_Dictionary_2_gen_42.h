@@ -3,17 +3,17 @@
 // System.Int32[]
 struct Int32U5BU5D_t484;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t5408;
+struct LinkU5BU5D_t5941;
 // UnityEngine.Networking.Types.NetworkID[]
-struct NetworkIDU5BU5D_t8507;
+struct NetworkIDU5BU5D_t9042;
 // UnityEngine.Networking.Types.NetworkAccessToken[]
-struct NetworkAccessTokenU5BU5D_t8508;
+struct NetworkAccessTokenU5BU5D_t9043;
 // System.Collections.Generic.IEqualityComparer`1<UnityEngine.Networking.Types.NetworkID>
-struct IEqualityComparer_1_t8509;
+struct IEqualityComparer_1_t9044;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t2936;
 // System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken,System.Collections.DictionaryEntry>
-struct Transform_1_t8510;
+struct Transform_1_t9045;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>
@@ -22,11 +22,11 @@ struct  Dictionary_2_t2832  : public Object_t
 	// System.Int32[] System.Collections.Generic.Dictionary`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::table
 	Int32U5BU5D_t484* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::linkSlots
-	LinkU5BU5D_t5408* ___linkSlots_5;
+	LinkU5BU5D_t5941* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::keySlots
-	NetworkIDU5BU5D_t8507* ___keySlots_6;
+	NetworkIDU5BU5D_t9042* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::valueSlots
-	NetworkAccessTokenU5BU5D_t8508* ___valueSlots_7;
+	NetworkAccessTokenU5BU5D_t9043* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::emptySlot
@@ -44,5 +44,5 @@ struct  Dictionary_2_t2832  : public Object_t
 };
 struct Dictionary_2_t2832_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::<>f__am$cacheB
-	Transform_1_t8510 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t9045 * ___U3CU3Ef__amU24cacheB_15;
 };

@@ -9,7 +9,7 @@ struct Func_2_t1450;
 // System.Threading.CancellationTokenRegistration
 #include "Parse_Unity_System_Threading_CancellationTokenRegistration.h"
 // System.Threading.Tasks.Task/<>c__DisplayClass3`1<System.Object>
-struct  U3CU3Ec__DisplayClass3_1_t6006  : public Object_t
+struct  U3CU3Ec__DisplayClass3_1_t6539  : public Object_t
 {
 	// System.Threading.Tasks.TaskCompletionSource`1<T> System.Threading.Tasks.Task/<>c__DisplayClass3`1<System.Object>::tcs
 	TaskCompletionSource_1_t1347 * ___tcs_0;

@@ -5,7 +5,7 @@ struct Dictionary_2_t2832;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>
-struct  KeyCollection_t8526  : public Object_t
+struct  KeyCollection_t9061  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.Networking.Types.NetworkID,UnityEngine.Networking.Types.NetworkAccessToken>::dictionary
 	Dictionary_2_t2832 * ___dictionary_0;

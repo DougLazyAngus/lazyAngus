@@ -8,4 +8,4 @@
 struct ParamArrayAttribute_t818;
 
 // System.Void System.ParamArrayAttribute::.ctor()
-extern "C" void ParamArrayAttribute__ctor_m4521 (ParamArrayAttribute_t818 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParamArrayAttribute__ctor_m4524 (ParamArrayAttribute_t818 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

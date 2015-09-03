@@ -13,7 +13,7 @@ struct MethodInfoU5BU5D_t2159;
 // System.Reflection.EventAttributes
 #include "mscorlib_System_Reflection_EventAttributes.h"
 // System.Reflection.MonoEventInfo
-struct  MonoEventInfo_t4560 
+struct  MonoEventInfo_t5026 
 {
 	// System.Type System.Reflection.MonoEventInfo::declaring_type
 	Type_t * ___declaring_type_0;

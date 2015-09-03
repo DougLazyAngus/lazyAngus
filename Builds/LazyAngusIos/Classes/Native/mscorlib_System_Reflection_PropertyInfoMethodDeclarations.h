@@ -32,24 +32,26 @@ struct TypeU5BU5D_t1220;
 #include "mscorlib_System_Reflection_BindingFlags.h"
 
 // System.Void System.Reflection.PropertyInfo::.ctor()
-extern "C" void PropertyInfo__ctor_m18264 (PropertyInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PropertyInfo__ctor_m22065 (PropertyInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.PropertyAttributes System.Reflection.PropertyInfo::get_Attributes()
 // System.Boolean System.Reflection.PropertyInfo::get_CanRead()
 // System.Boolean System.Reflection.PropertyInfo::get_CanWrite()
 // System.Reflection.MemberTypes System.Reflection.PropertyInfo::get_MemberType()
-extern "C" int32_t PropertyInfo_get_MemberType_m18265 (PropertyInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PropertyInfo_get_MemberType_m22066 (PropertyInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.PropertyInfo::get_PropertyType()
 // System.Reflection.MethodInfo[] System.Reflection.PropertyInfo::GetAccessors(System.Boolean)
+// System.Reflection.MethodInfo System.Reflection.PropertyInfo::GetGetMethod()
+extern "C" MethodInfo_t * PropertyInfo_GetGetMethod_m22067 (PropertyInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo System.Reflection.PropertyInfo::GetGetMethod(System.Boolean)
 // System.Reflection.ParameterInfo[] System.Reflection.PropertyInfo::GetIndexParameters()
 // System.Reflection.MethodInfo System.Reflection.PropertyInfo::GetSetMethod(System.Boolean)
 // System.Object System.Reflection.PropertyInfo::GetValue(System.Object,System.Object[])
-extern "C" Object_t * PropertyInfo_GetValue_m18266 (PropertyInfo_t * __this, Object_t * ___obj, ObjectU5BU5D_t696* ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * PropertyInfo_GetValue_m22068 (PropertyInfo_t * __this, Object_t * ___obj, ObjectU5BU5D_t696* ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Reflection.PropertyInfo::GetValue(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
 // System.Void System.Reflection.PropertyInfo::SetValue(System.Object,System.Object,System.Object[])
-extern "C" void PropertyInfo_SetValue_m18267 (PropertyInfo_t * __this, Object_t * ___obj, Object_t * ___value, ObjectU5BU5D_t696* ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PropertyInfo_SetValue_m22069 (PropertyInfo_t * __this, Object_t * ___obj, Object_t * ___value, ObjectU5BU5D_t696* ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.PropertyInfo::SetValue(System.Object,System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
 // System.Type[] System.Reflection.PropertyInfo::GetOptionalCustomModifiers()
-extern "C" TypeU5BU5D_t1220* PropertyInfo_GetOptionalCustomModifiers_m18268 (PropertyInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TypeU5BU5D_t1220* PropertyInfo_GetOptionalCustomModifiers_m22070 (PropertyInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type[] System.Reflection.PropertyInfo::GetRequiredCustomModifiers()
-extern "C" TypeU5BU5D_t1220* PropertyInfo_GetRequiredCustomModifiers_m18269 (PropertyInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TypeU5BU5D_t1220* PropertyInfo_GetRequiredCustomModifiers_m22071 (PropertyInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

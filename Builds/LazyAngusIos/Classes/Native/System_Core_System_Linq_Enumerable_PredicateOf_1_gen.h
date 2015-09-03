@@ -5,10 +5,10 @@ struct Func_2_t1104;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.Enumerable/PredicateOf`1<System.Object>
-struct  PredicateOf_1_t5986  : public Object_t
+struct  PredicateOf_1_t6519  : public Object_t
 {
 };
-struct PredicateOf_1_t5986_StaticFields{
+struct PredicateOf_1_t6519_StaticFields{
 	// System.Func`2<T,System.Boolean> System.Linq.Enumerable/PredicateOf`1<System.Object>::Always
 	Func_2_t1104 * ___Always_0;
 	// System.Func`2<T,System.Boolean> System.Linq.Enumerable/PredicateOf`1<System.Object>::<>f__am$cache1

@@ -5,21 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.CharEnumerator
-struct CharEnumerator_t4807;
+struct CharEnumerator_t4847;
 // System.Object
 struct Object_t;
 // System.String
 struct String_t;
 
 // System.Void System.CharEnumerator::.ctor(System.String)
-extern "C" void CharEnumerator__ctor_m19532 (CharEnumerator_t4807 * __this, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CharEnumerator__ctor_m20001 (CharEnumerator_t4847 * __this, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.CharEnumerator::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * CharEnumerator_System_Collections_IEnumerator_get_Current_m19533 (CharEnumerator_t4807 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CharEnumerator_System_Collections_IEnumerator_get_Current_m20002 (CharEnumerator_t4847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.CharEnumerator::System.IDisposable.Dispose()
-extern "C" void CharEnumerator_System_IDisposable_Dispose_m19534 (CharEnumerator_t4807 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CharEnumerator_System_IDisposable_Dispose_m20003 (CharEnumerator_t4847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.CharEnumerator::get_Current()
-extern "C" uint16_t CharEnumerator_get_Current_m19535 (CharEnumerator_t4807 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t CharEnumerator_get_Current_m20004 (CharEnumerator_t4847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object System.CharEnumerator::Clone()
+extern "C" Object_t * CharEnumerator_Clone_m20005 (CharEnumerator_t4847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.CharEnumerator::MoveNext()
-extern "C" bool CharEnumerator_MoveNext_m19536 (CharEnumerator_t4807 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool CharEnumerator_MoveNext_m20006 (CharEnumerator_t4847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.CharEnumerator::Reset()
-extern "C" void CharEnumerator_Reset_m19537 (CharEnumerator_t4807 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CharEnumerator_Reset_m20007 (CharEnumerator_t4847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

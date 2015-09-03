@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.ASN1Convert
-struct ASN1Convert_t3802;
+struct ASN1Convert_t3123;
 // Mono.Security.ASN1
-struct ASN1_t3801;
+struct ASN1_t3122;
 // System.String
 struct String_t;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 
 // Mono.Security.ASN1 Mono.Security.ASN1Convert::FromInt32(System.Int32)
-extern "C" ASN1_t3801 * ASN1Convert_FromInt32_m12499 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ASN1_t3122 * ASN1Convert_FromInt32_m10666 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.ASN1 Mono.Security.ASN1Convert::FromOid(System.String)
-extern "C" ASN1_t3801 * ASN1Convert_FromOid_m12500 (Object_t * __this /* static, unused */, String_t* ___oid, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ASN1_t3122 * ASN1Convert_FromOid_m10667 (Object_t * __this /* static, unused */, String_t* ___oid, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.ASN1Convert::ToInt32(Mono.Security.ASN1)
-extern "C" int32_t ASN1Convert_ToInt32_m12501 (Object_t * __this /* static, unused */, ASN1_t3801 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ASN1Convert_ToInt32_m10668 (Object_t * __this /* static, unused */, ASN1_t3122 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.ASN1Convert::ToOid(Mono.Security.ASN1)
-extern "C" String_t* ASN1Convert_ToOid_m12502 (Object_t * __this /* static, unused */, ASN1_t3801 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ASN1Convert_ToOid_m10669 (Object_t * __this /* static, unused */, ASN1_t3122 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime Mono.Security.ASN1Convert::ToDateTime(Mono.Security.ASN1)
-extern "C" DateTime_t287  ASN1Convert_ToDateTime_m12503 (Object_t * __this /* static, unused */, ASN1_t3801 * ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t287  ASN1Convert_ToDateTime_m10670 (Object_t * __this /* static, unused */, ASN1_t3122 * ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;

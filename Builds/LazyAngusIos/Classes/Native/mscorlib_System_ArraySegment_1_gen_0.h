@@ -5,7 +5,7 @@ struct ObjectU5BU5D_t696;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.ArraySegment`1<System.Object>
-struct  ArraySegment_1_t8729 
+struct  ArraySegment_1_t9327 
 {
 	// T[] System.ArraySegment`1<System.Object>::array
 	ObjectU5BU5D_t696* ___array_0;

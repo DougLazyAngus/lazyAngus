@@ -10,4 +10,4 @@ struct InternalsVisibleToAttribute_t2179;
 struct String_t;
 
 // System.Void System.Runtime.CompilerServices.InternalsVisibleToAttribute::.ctor(System.String)
-extern "C" void InternalsVisibleToAttribute__ctor_m7997 (InternalsVisibleToAttribute_t2179 * __this, String_t* ___assemblyName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InternalsVisibleToAttribute__ctor_m8000 (InternalsVisibleToAttribute_t2179 * __this, String_t* ___assemblyName, const MethodInfo* method) IL2CPP_METHOD_ATTR;

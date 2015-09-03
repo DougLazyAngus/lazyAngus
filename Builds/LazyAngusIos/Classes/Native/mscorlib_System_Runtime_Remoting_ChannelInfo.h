@@ -5,7 +5,7 @@ struct ObjectU5BU5D_t696;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.ChannelInfo
-struct  ChannelInfo_t4608  : public Object_t
+struct  ChannelInfo_t5137  : public Object_t
 {
 	// System.Object[] System.Runtime.Remoting.ChannelInfo::channelData
 	ObjectU5BU5D_t696* ___channelData_0;

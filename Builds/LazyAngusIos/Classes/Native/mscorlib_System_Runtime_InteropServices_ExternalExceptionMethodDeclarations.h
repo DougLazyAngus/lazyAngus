@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.ExternalException
-struct ExternalException_t3990;
+struct ExternalException_t4272;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
@@ -14,8 +14,8 @@ struct SerializationInfo_t2936;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Runtime.InteropServices.ExternalException::.ctor()
-extern "C" void ExternalException__ctor_m18289 (ExternalException_t3990 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExternalException__ctor_m22536 (ExternalException_t4272 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.InteropServices.ExternalException::.ctor(System.String)
-extern "C" void ExternalException__ctor_m15230 (ExternalException_t3990 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExternalException__ctor_m18067 (ExternalException_t4272 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.InteropServices.ExternalException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ExternalException__ctor_m15231 (ExternalException_t3990 * __this, SerializationInfo_t2936 * ___info, StreamingContext_t2937  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExternalException__ctor_m18068 (ExternalException_t4272 * __this, SerializationInfo_t2936 * ___info, StreamingContext_t2937  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

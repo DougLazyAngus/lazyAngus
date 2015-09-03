@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IDictionary`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.IComparable>,System.IComparable>
-struct IDictionary_2_t6096;
+struct IDictionary_2_t6629;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.IComparable>

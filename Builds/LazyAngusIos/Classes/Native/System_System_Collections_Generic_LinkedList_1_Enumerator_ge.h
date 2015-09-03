@@ -4,6 +4,8 @@
 struct LinkedList_1_t1295;
 // System.Collections.Generic.LinkedListNode`1<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>
 struct LinkedListNode_1_t1519;
+// System.Runtime.Serialization.SerializationInfo
+struct SerializationInfo_t2936;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.LinkedList`1/Enumerator<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>
@@ -17,4 +19,6 @@ struct  Enumerator_t1521
 	int32_t ___index_2;
 	// System.UInt32 System.Collections.Generic.LinkedList`1/Enumerator<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::version
 	uint32_t ___version_3;
+	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.LinkedList`1/Enumerator<System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>::si
+	SerializationInfo_t2936 * ___si_4;
 };

@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.ObjectRecord
-struct ObjectRecord_t4680;
+struct ObjectRecord_t5184;
 // System.Runtime.Serialization.ObjectManager
-struct ObjectManager_t4673;
+struct ObjectManager_t5185;
 // System.Reflection.MemberInfo
 struct MemberInfo_t;
 // System.Object
@@ -17,35 +17,35 @@ struct Int32U5BU5D_t484;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.BaseFixupRecord
-struct BaseFixupRecord_t4681;
+struct BaseFixupRecord_t5186;
 // System.Runtime.Serialization.ISurrogateSelector
-struct ISurrogateSelector_t4637;
+struct ISurrogateSelector_t5172;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Runtime.Serialization.ObjectRecord::.ctor()
-extern "C" void ObjectRecord__ctor_m18673 (ObjectRecord_t4680 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectRecord__ctor_m22950 (ObjectRecord_t5184 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ObjectRecord::SetMemberValue(System.Runtime.Serialization.ObjectManager,System.Reflection.MemberInfo,System.Object)
-extern "C" void ObjectRecord_SetMemberValue_m18674 (ObjectRecord_t4680 * __this, ObjectManager_t4673 * ___manager, MemberInfo_t * ___member, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectRecord_SetMemberValue_m22951 (ObjectRecord_t5184 * __this, ObjectManager_t5185 * ___manager, MemberInfo_t * ___member, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ObjectRecord::SetArrayValue(System.Runtime.Serialization.ObjectManager,System.Object,System.Int32[])
-extern "C" void ObjectRecord_SetArrayValue_m18675 (ObjectRecord_t4680 * __this, ObjectManager_t4673 * ___manager, Object_t * ___value, Int32U5BU5D_t484* ___indices, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectRecord_SetArrayValue_m22952 (ObjectRecord_t5184 * __this, ObjectManager_t5185 * ___manager, Object_t * ___value, Int32U5BU5D_t484* ___indices, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ObjectRecord::SetMemberValue(System.Runtime.Serialization.ObjectManager,System.String,System.Object)
-extern "C" void ObjectRecord_SetMemberValue_m18676 (ObjectRecord_t4680 * __this, ObjectManager_t4673 * ___manager, String_t* ___memberName, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectRecord_SetMemberValue_m22953 (ObjectRecord_t5184 * __this, ObjectManager_t5185 * ___manager, String_t* ___memberName, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Serialization.ObjectRecord::get_IsInstanceReady()
-extern "C" bool ObjectRecord_get_IsInstanceReady_m18677 (ObjectRecord_t4680 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ObjectRecord_get_IsInstanceReady_m22954 (ObjectRecord_t5184 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Serialization.ObjectRecord::get_IsUnsolvedObjectReference()
-extern "C" bool ObjectRecord_get_IsUnsolvedObjectReference_m18678 (ObjectRecord_t4680 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ObjectRecord_get_IsUnsolvedObjectReference_m22955 (ObjectRecord_t5184 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Serialization.ObjectRecord::get_IsRegistered()
-extern "C" bool ObjectRecord_get_IsRegistered_m18679 (ObjectRecord_t4680 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ObjectRecord_get_IsRegistered_m22956 (ObjectRecord_t5184 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Serialization.ObjectRecord::DoFixups(System.Boolean,System.Runtime.Serialization.ObjectManager,System.Boolean)
-extern "C" bool ObjectRecord_DoFixups_m18680 (ObjectRecord_t4680 * __this, bool ___asContainer, ObjectManager_t4673 * ___manager, bool ___strict, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ObjectRecord_DoFixups_m22957 (ObjectRecord_t5184 * __this, bool ___asContainer, ObjectManager_t5185 * ___manager, bool ___strict, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ObjectRecord::RemoveFixup(System.Runtime.Serialization.BaseFixupRecord,System.Boolean)
-extern "C" void ObjectRecord_RemoveFixup_m18681 (ObjectRecord_t4680 * __this, BaseFixupRecord_t4681 * ___fixupToRemove, bool ___asContainer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectRecord_RemoveFixup_m22958 (ObjectRecord_t5184 * __this, BaseFixupRecord_t5186 * ___fixupToRemove, bool ___asContainer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ObjectRecord::UnchainFixup(System.Runtime.Serialization.BaseFixupRecord,System.Runtime.Serialization.BaseFixupRecord,System.Boolean)
-extern "C" void ObjectRecord_UnchainFixup_m18682 (ObjectRecord_t4680 * __this, BaseFixupRecord_t4681 * ___fixup, BaseFixupRecord_t4681 * ___prevFixup, bool ___asContainer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectRecord_UnchainFixup_m22959 (ObjectRecord_t5184 * __this, BaseFixupRecord_t5186 * ___fixup, BaseFixupRecord_t5186 * ___prevFixup, bool ___asContainer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.ObjectRecord::ChainFixup(System.Runtime.Serialization.BaseFixupRecord,System.Boolean)
-extern "C" void ObjectRecord_ChainFixup_m18683 (ObjectRecord_t4680 * __this, BaseFixupRecord_t4681 * ___fixup, bool ___asContainer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjectRecord_ChainFixup_m22960 (ObjectRecord_t5184 * __this, BaseFixupRecord_t5186 * ___fixup, bool ___asContainer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Serialization.ObjectRecord::LoadData(System.Runtime.Serialization.ObjectManager,System.Runtime.Serialization.ISurrogateSelector,System.Runtime.Serialization.StreamingContext)
-extern "C" bool ObjectRecord_LoadData_m18684 (ObjectRecord_t4680 * __this, ObjectManager_t4673 * ___manager, Object_t * ___selector, StreamingContext_t2937  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ObjectRecord_LoadData_m22961 (ObjectRecord_t5184 * __this, ObjectManager_t5185 * ___manager, Object_t * ___selector, StreamingContext_t2937  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Serialization.ObjectRecord::get_HasPendingFixups()
-extern "C" bool ObjectRecord_get_HasPendingFixups_m18685 (ObjectRecord_t4680 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ObjectRecord_get_HasPendingFixups_m22962 (ObjectRecord_t5184 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

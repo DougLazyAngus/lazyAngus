@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IDictionary`2<System.Int64,System.Int32>
-struct IDictionary_2_t8372;
+struct IDictionary_2_t8907;
 // System.Collections.Generic.IList`1<System.WeakReference>
-struct IList_1_t6037;
+struct IList_1_t6570;
 // System.Func`1<System.Int32>
 struct Func_1_t1371;
 // System.Object

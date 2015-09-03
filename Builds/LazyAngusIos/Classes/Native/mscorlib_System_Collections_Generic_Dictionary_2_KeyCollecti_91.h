@@ -5,7 +5,7 @@ struct Dictionary_2_t2897;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
-struct  KeyCollection_t8585  : public Object_t
+struct  KeyCollection_t9120  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::dictionary
 	Dictionary_2_t2897 * ___dictionary_0;

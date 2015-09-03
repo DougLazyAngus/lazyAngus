@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Exception
-#include "mscorlib_System_Exception.h"
+// System.ApplicationException
+#include "mscorlib_System_ApplicationException.h"
 // System.Reflection.TargetException
-struct  TargetException_t4572  : public Exception_t57
+struct  TargetException_t5038  : public ApplicationException_t3803
 {
 };

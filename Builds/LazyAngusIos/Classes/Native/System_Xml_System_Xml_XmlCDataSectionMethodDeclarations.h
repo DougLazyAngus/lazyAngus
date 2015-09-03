@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlCDataSection
-struct XmlCDataSection_t3232;
+struct XmlCDataSection_t3504;
 // System.String
 struct String_t;
 // System.Xml.XmlNode
@@ -16,14 +16,14 @@ struct XmlDocument_t691;
 #include "System_Xml_System_Xml_XmlNodeType.h"
 
 // System.Void System.Xml.XmlCDataSection::.ctor(System.String,System.Xml.XmlDocument)
-extern "C" void XmlCDataSection__ctor_m10918 (XmlCDataSection_t3232 * __this, String_t* ___data, XmlDocument_t691 * ___doc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlCDataSection__ctor_m12839 (XmlCDataSection_t3504 * __this, String_t* ___data, XmlDocument_t691 * ___doc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlCDataSection::get_LocalName()
-extern "C" String_t* XmlCDataSection_get_LocalName_m10919 (XmlCDataSection_t3232 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlCDataSection_get_LocalName_m12840 (XmlCDataSection_t3504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlCDataSection::get_Name()
-extern "C" String_t* XmlCDataSection_get_Name_m10920 (XmlCDataSection_t3232 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlCDataSection_get_Name_m12841 (XmlCDataSection_t3504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNodeType System.Xml.XmlCDataSection::get_NodeType()
-extern "C" int32_t XmlCDataSection_get_NodeType_m10921 (XmlCDataSection_t3232 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlCDataSection_get_NodeType_m12842 (XmlCDataSection_t3504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlCDataSection::get_ParentNode()
-extern "C" XmlNode_t731 * XmlCDataSection_get_ParentNode_m10922 (XmlCDataSection_t3232 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t731 * XmlCDataSection_get_ParentNode_m12843 (XmlCDataSection_t3504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlCDataSection::CloneNode(System.Boolean)
-extern "C" XmlNode_t731 * XmlCDataSection_CloneNode_m10923 (XmlCDataSection_t3232 * __this, bool ___deep, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t731 * XmlCDataSection_CloneNode_m12844 (XmlCDataSection_t3504 * __this, bool ___deep, const MethodInfo* method) IL2CPP_METHOD_ATTR;

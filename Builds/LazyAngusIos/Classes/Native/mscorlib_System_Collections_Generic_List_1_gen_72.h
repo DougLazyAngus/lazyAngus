@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.WeakReference[]
-struct WeakReferenceU5BU5D_t6057;
+// System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>[]
+struct Tuple_2U5BU5D_t6563;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.WeakReference>
-struct  List_1_t6058  : public Object_t
+// System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>
+struct  List_1_t6564  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.WeakReference>::_items
-	WeakReferenceU5BU5D_t6057* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.WeakReference>::_size
+	// T[] System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::_items
+	Tuple_2U5BU5D_t6563* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.WeakReference>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::_version
 	int32_t ____version_3;
 };
-struct List_1_t6058_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.WeakReference>::EmptyArray
-	WeakReferenceU5BU5D_t6057* ___EmptyArray_4;
+struct List_1_t6564_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::EmptyArray
+	Tuple_2U5BU5D_t6563* ___EmptyArray_4;
 };

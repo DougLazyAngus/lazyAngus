@@ -13,7 +13,7 @@ struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.Enumerable/<CreateExceptIterator>c__Iterator4`1<System.Object>
-struct  U3CCreateExceptIteratorU3Ec__Iterator4_1_t6119  : public Object_t
+struct  U3CCreateExceptIteratorU3Ec__Iterator4_1_t6652  : public Object_t
 {
 	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateExceptIterator>c__Iterator4`1<System.Object>::second
 	Object_t* ___second_0;
@@ -23,8 +23,8 @@ struct  U3CCreateExceptIteratorU3Ec__Iterator4_1_t6119  : public Object_t
 	HashSet_1_t1484 * ___U3CitemsU3E__0_2;
 	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateExceptIterator>c__Iterator4`1<System.Object>::first
 	Object_t* ___first_3;
-	// System.Collections.Generic.IEnumerator`1<TSource> System.Linq.Enumerable/<CreateExceptIterator>c__Iterator4`1<System.Object>::<$s_49>__1
-	Object_t* ___U3CU24s_49U3E__1_4;
+	// System.Collections.Generic.IEnumerator`1<TSource> System.Linq.Enumerable/<CreateExceptIterator>c__Iterator4`1<System.Object>::<$s_39>__1
+	Object_t* ___U3CU24s_39U3E__1_4;
 	// TSource System.Linq.Enumerable/<CreateExceptIterator>c__Iterator4`1<System.Object>::<element>__2
 	Object_t * ___U3CelementU3E__2_5;
 	// System.Int32 System.Linq.Enumerable/<CreateExceptIterator>c__Iterator4`1<System.Object>::$PC

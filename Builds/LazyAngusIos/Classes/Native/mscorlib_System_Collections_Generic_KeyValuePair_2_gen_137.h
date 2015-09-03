@@ -7,7 +7,7 @@ struct ConstructorDelegate_t2845;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>
-struct  KeyValuePair_2_t8537 
+struct  KeyValuePair_2_t9072 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>::key
 	Type_t * ___key_0;

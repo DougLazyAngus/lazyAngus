@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.X509Certificates.X509Extension
-struct X509Extension_t4106;
+struct X509Extension_t4440;
 // System.String
 struct String_t;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Security.Cryptography.AsnEncodedData
-struct AsnEncodedData_t4098;
+struct AsnEncodedData_t4428;
 
 // System.Void System.Security.Cryptography.X509Certificates.X509Extension::.ctor()
-extern "C" void X509Extension__ctor_m14644 (X509Extension_t4106 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Extension__ctor_m17370 (X509Extension_t4440 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509Extension::.ctor(System.String,System.Byte[],System.Boolean)
-extern "C" void X509Extension__ctor_m14645 (X509Extension_t4106 * __this, String_t* ___oid, ByteU5BU5D_t66* ___rawData, bool ___critical, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Extension__ctor_m17371 (X509Extension_t4440 * __this, String_t* ___oid, ByteU5BU5D_t66* ___rawData, bool ___critical, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.X509Certificates.X509Extension::get_Critical()
-extern "C" bool X509Extension_get_Critical_m14646 (X509Extension_t4106 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509Extension_get_Critical_m17372 (X509Extension_t4440 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509Extension::set_Critical(System.Boolean)
-extern "C" void X509Extension_set_Critical_m14647 (X509Extension_t4106 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Extension_set_Critical_m17373 (X509Extension_t4440 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509Extension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
-extern "C" void X509Extension_CopyFrom_m14648 (X509Extension_t4106 * __this, AsnEncodedData_t4098 * ___asnEncodedData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Extension_CopyFrom_m17374 (X509Extension_t4440 * __this, AsnEncodedData_t4428 * ___asnEncodedData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.Cryptography.X509Certificates.X509Extension::FormatUnkownData(System.Byte[])
-extern "C" String_t* X509Extension_FormatUnkownData_m14649 (X509Extension_t4106 * __this, ByteU5BU5D_t66* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* X509Extension_FormatUnkownData_m17375 (X509Extension_t4440 * __this, ByteU5BU5D_t66* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;

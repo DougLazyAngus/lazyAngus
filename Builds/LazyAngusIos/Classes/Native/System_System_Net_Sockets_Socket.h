@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Queue
-struct Queue_t4018;
+struct Queue_t4410;
 // System.Threading.Thread
 struct Thread_t1478;
 // System.Net.EndPoint
-struct EndPoint_t4012;
+struct EndPoint_t4351;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Object
@@ -19,12 +19,12 @@ struct MethodInfo_t;
 // System.Net.Sockets.ProtocolType
 #include "System_System_Net_Sockets_ProtocolType.h"
 // System.Net.Sockets.Socket
-struct  Socket_t4007  : public Object_t
+struct  Socket_t4401  : public Object_t
 {
 	// System.Collections.Queue System.Net.Sockets.Socket::readQ
-	Queue_t4018 * ___readQ_0;
+	Queue_t4410 * ___readQ_0;
 	// System.Collections.Queue System.Net.Sockets.Socket::writeQ
-	Queue_t4018 * ___writeQ_1;
+	Queue_t4410 * ___writeQ_1;
 	// System.Boolean System.Net.Sockets.Socket::islistening
 	bool ___islistening_2;
 	// System.Int32 System.Net.Sockets.Socket::MinListenPort
@@ -56,9 +56,9 @@ struct  Socket_t4007  : public Object_t
 	// System.Boolean System.Net.Sockets.Socket::disposed
 	bool ___disposed_19;
 	// System.Net.EndPoint System.Net.Sockets.Socket::seed_endpoint
-	EndPoint_t4012 * ___seed_endpoint_20;
+	EndPoint_t4351 * ___seed_endpoint_20;
 };
-struct Socket_t4007_StaticFields{
+struct Socket_t4401_StaticFields{
 	// System.Int32 System.Net.Sockets.Socket::ipv4Supported
 	int32_t ___ipv4Supported_5;
 	// System.Int32 System.Net.Sockets.Socket::ipv6Supported

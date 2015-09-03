@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<System.Object,System.Collections.Generic.List`1<Parse.ParseACL>>
-struct Func_2_t7007;
+struct Func_2_t7542;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.List`1<Parse.ParseACL>
-struct List_1_t7002;
+struct List_1_t7537;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<System.Object,System.Collections.Generic.List`1<Parse.ParseACL>>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Object,System.Object>
 #include "System_Core_System_Func_2_gen_18MethodDeclarations.h"
-#define Func_2__ctor_m43983(__this, ___object, ___method, method) (( void (*) (Func_2_t7007 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7622_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m48233(__this, ___object, ___method, method) (( void (*) (Func_2_t7542 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7626_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Object,System.Collections.Generic.List`1<Parse.ParseACL>>::Invoke(T)
-#define Func_2_Invoke_m43984(__this, ___arg1, method) (( List_1_t7002 * (*) (Func_2_t7007 *, Object_t *, const MethodInfo*))Func_2_Invoke_m31187_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m48234(__this, ___arg1, method) (( List_1_t7537 * (*) (Func_2_t7542 *, Object_t *, const MethodInfo*))Func_2_Invoke_m35410_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Object,System.Collections.Generic.List`1<Parse.ParseACL>>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Func_2_BeginInvoke_m43985(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t7007 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m31189_gshared)(__this, ___arg1, ___callback, ___object, method)
+#define Func_2_BeginInvoke_m48235(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t7542 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m35412_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Object,System.Collections.Generic.List`1<Parse.ParseACL>>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m43986(__this, ___result, method) (( List_1_t7002 * (*) (Func_2_t7007 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m31191_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m48236(__this, ___result, method) (( List_1_t7537 * (*) (Func_2_t7542 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m35414_gshared)(__this, ___result, method)

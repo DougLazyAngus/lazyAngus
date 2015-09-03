@@ -6761,7 +6761,7 @@ extern "C" void JSONNode_SaveToFile_m245 (JSONNode_t29 * __this, String_t* ___aF
 		NullCheck(L_1);
 		DirectoryInfo_t64 * L_2 = FileInfo_get_Directory_m422(L_1, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		String_t* L_3 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.IO.FileSystemInfo::get_FullName() */, L_2);
+		String_t* L_3 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(9 /* System.String System.IO.FileSystemInfo::get_FullName() */, L_2);
 		Directory_CreateDirectory_m423(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 		String_t* L_4 = ___aFileName;
 		FileStream_t62 * L_5 = File_OpenWrite_m424(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
@@ -6850,10 +6850,10 @@ IL_0006:
 			JSONNode_SaveToStream_m241(__this, L_1, /*hidden argument*/NULL);
 			MemoryStream_t65 * L_2 = V_0;
 			NullCheck(L_2);
-			VirtActionInvoker1< int64_t >::Invoke(10 /* System.Void System.IO.MemoryStream::set_Position(System.Int64) */, L_2, (((int64_t)0)));
+			VirtActionInvoker1< int64_t >::Invoke(12 /* System.Void System.IO.MemoryStream::set_Position(System.Int64) */, L_2, (((int64_t)0)));
 			MemoryStream_t65 * L_3 = V_0;
 			NullCheck(L_3);
-			ByteU5BU5D_t66* L_4 = (ByteU5BU5D_t66*)VirtFuncInvoker0< ByteU5BU5D_t66* >::Invoke(28 /* System.Byte[] System.IO.MemoryStream::ToArray() */, L_3);
+			ByteU5BU5D_t66* L_4 = (ByteU5BU5D_t66*)VirtFuncInvoker0< ByteU5BU5D_t66* >::Invoke(30 /* System.Byte[] System.IO.MemoryStream::ToArray() */, L_3);
 			IL2CPP_RUNTIME_CLASS_INIT(Convert_t67_il2cpp_TypeInfo_var);
 			String_t* L_5 = Convert_ToBase64String_m426(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 			V_1 = L_5;
@@ -7355,7 +7355,7 @@ extern "C" JSONNode_t29 * JSONNode_LoadFromBase64_m253 (Object_t * __this /* sta
 		V_1 = L_3;
 		MemoryStream_t65 * L_4 = V_1;
 		NullCheck(L_4);
-		VirtActionInvoker1< int64_t >::Invoke(10 /* System.Void System.IO.MemoryStream::set_Position(System.Int64) */, L_4, (((int64_t)0)));
+		VirtActionInvoker1< int64_t >::Invoke(12 /* System.Void System.IO.MemoryStream::set_Position(System.Int64) */, L_4, (((int64_t)0)));
 		MemoryStream_t65 * L_5 = V_1;
 		JSONNode_t29 * L_6 = JSONNode_LoadFromStream_m251(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		return L_6;
@@ -8571,13 +8571,13 @@ extern "C" void JSONArray_Serialize_m285 (JSONArray_t33 * __this, BinaryWriter_t
 	{
 		BinaryWriter_t50 * L_0 = ___aWriter;
 		NullCheck(L_0);
-		VirtActionInvoker1< uint8_t >::Invoke(7 /* System.Void System.IO.BinaryWriter::Write(System.Byte) */, L_0, 1);
+		VirtActionInvoker1< uint8_t >::Invoke(8 /* System.Void System.IO.BinaryWriter::Write(System.Byte) */, L_0, 1);
 		BinaryWriter_t50 * L_1 = ___aWriter;
 		List_1_t37 * L_2 = (__this->___m_List_0);
 		NullCheck(L_2);
 		int32_t L_3 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<SimpleJSON.JSONNode>::get_Count() */, L_2);
 		NullCheck(L_1);
-		VirtActionInvoker1< int32_t >::Invoke(9 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_1, L_3);
+		VirtActionInvoker1< int32_t >::Invoke(16 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_1, L_3);
 		V_0 = 0;
 		goto IL_0035;
 	}
@@ -10170,13 +10170,13 @@ extern "C" void JSONClass_Serialize_m316 (JSONClass_t38 * __this, BinaryWriter_t
 	{
 		BinaryWriter_t50 * L_0 = ___aWriter;
 		NullCheck(L_0);
-		VirtActionInvoker1< uint8_t >::Invoke(7 /* System.Void System.IO.BinaryWriter::Write(System.Byte) */, L_0, 2);
+		VirtActionInvoker1< uint8_t >::Invoke(8 /* System.Void System.IO.BinaryWriter::Write(System.Byte) */, L_0, 2);
 		BinaryWriter_t50 * L_1 = ___aWriter;
 		Dictionary_2_t44 * L_2 = (__this->___m_Dict_0);
 		NullCheck(L_2);
 		int32_t L_3 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::get_Count() */, L_2);
 		NullCheck(L_1);
-		VirtActionInvoker1< int32_t >::Invoke(9 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_1, L_3);
+		VirtActionInvoker1< int32_t >::Invoke(16 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_1, L_3);
 		Dictionary_2_t44 * L_4 = (__this->___m_Dict_0);
 		NullCheck(L_4);
 		KeyCollection_t77 * L_5 = Dictionary_2_get_Keys_m451(L_4, /*hidden argument*/Dictionary_2_get_Keys_m451_MethodInfo_var);
@@ -10199,7 +10199,7 @@ IL_002e:
 			BinaryWriter_t50 * L_8 = ___aWriter;
 			String_t* L_9 = V_0;
 			NullCheck(L_8);
-			VirtActionInvoker1< String_t* >::Invoke(11 /* System.Void System.IO.BinaryWriter::Write(System.String) */, L_8, L_9);
+			VirtActionInvoker1< String_t* >::Invoke(20 /* System.Void System.IO.BinaryWriter::Write(System.String) */, L_8, L_9);
 			Dictionary_2_t44 * L_10 = (__this->___m_Dict_0);
 			String_t* L_11 = V_0;
 			NullCheck(L_10);
@@ -10394,11 +10394,11 @@ extern "C" void JSONData_Serialize_m326 (JSONData_t45 * __this, BinaryWriter_t50
 	{
 		BinaryWriter_t50 * L_8 = ___aWriter;
 		NullCheck(L_8);
-		VirtActionInvoker1< uint8_t >::Invoke(7 /* System.Void System.IO.BinaryWriter::Write(System.Byte) */, L_8, 4);
+		VirtActionInvoker1< uint8_t >::Invoke(8 /* System.Void System.IO.BinaryWriter::Write(System.Byte) */, L_8, 4);
 		BinaryWriter_t50 * L_9 = ___aWriter;
 		int32_t L_10 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(18 /* System.Int32 SimpleJSON.JSONNode::get_AsInt() */, __this);
 		NullCheck(L_9);
-		VirtActionInvoker1< int32_t >::Invoke(9 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_9, L_10);
+		VirtActionInvoker1< int32_t >::Invoke(16 /* System.Void System.IO.BinaryWriter::Write(System.Int32) */, L_9, L_10);
 		return;
 	}
 
@@ -10422,11 +10422,11 @@ IL_0041:
 	{
 		BinaryWriter_t50 * L_17 = ___aWriter;
 		NullCheck(L_17);
-		VirtActionInvoker1< uint8_t >::Invoke(7 /* System.Void System.IO.BinaryWriter::Write(System.Byte) */, L_17, 7);
+		VirtActionInvoker1< uint8_t >::Invoke(8 /* System.Void System.IO.BinaryWriter::Write(System.Byte) */, L_17, 7);
 		BinaryWriter_t50 * L_18 = ___aWriter;
 		float L_19 = (float)VirtFuncInvoker0< float >::Invoke(20 /* System.Single SimpleJSON.JSONNode::get_AsFloat() */, __this);
 		NullCheck(L_18);
-		VirtActionInvoker1< float >::Invoke(10 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_18, L_19);
+		VirtActionInvoker1< float >::Invoke(19 /* System.Void System.IO.BinaryWriter::Write(System.Single) */, L_18, L_19);
 		return;
 	}
 
@@ -10450,11 +10450,11 @@ IL_0077:
 	{
 		BinaryWriter_t50 * L_26 = ___aWriter;
 		NullCheck(L_26);
-		VirtActionInvoker1< uint8_t >::Invoke(7 /* System.Void System.IO.BinaryWriter::Write(System.Byte) */, L_26, 5);
+		VirtActionInvoker1< uint8_t >::Invoke(8 /* System.Void System.IO.BinaryWriter::Write(System.Byte) */, L_26, 5);
 		BinaryWriter_t50 * L_27 = ___aWriter;
 		double L_28 = (double)VirtFuncInvoker0< double >::Invoke(22 /* System.Double SimpleJSON.JSONNode::get_AsDouble() */, __this);
 		NullCheck(L_27);
-		VirtActionInvoker1< double >::Invoke(8 /* System.Void System.IO.BinaryWriter::Write(System.Double) */, L_27, L_28);
+		VirtActionInvoker1< double >::Invoke(14 /* System.Void System.IO.BinaryWriter::Write(System.Double) */, L_27, L_28);
 		return;
 	}
 
@@ -10478,11 +10478,11 @@ IL_00ad:
 	{
 		BinaryWriter_t50 * L_35 = ___aWriter;
 		NullCheck(L_35);
-		VirtActionInvoker1< uint8_t >::Invoke(7 /* System.Void System.IO.BinaryWriter::Write(System.Byte) */, L_35, 6);
+		VirtActionInvoker1< uint8_t >::Invoke(8 /* System.Void System.IO.BinaryWriter::Write(System.Byte) */, L_35, 6);
 		BinaryWriter_t50 * L_36 = ___aWriter;
 		bool L_37 = (bool)VirtFuncInvoker0< bool >::Invoke(24 /* System.Boolean SimpleJSON.JSONNode::get_AsBool() */, __this);
 		NullCheck(L_36);
-		VirtActionInvoker1< bool >::Invoke(6 /* System.Void System.IO.BinaryWriter::Write(System.Boolean) */, L_36, L_37);
+		VirtActionInvoker1< bool >::Invoke(7 /* System.Void System.IO.BinaryWriter::Write(System.Boolean) */, L_36, L_37);
 		return;
 	}
 
@@ -10490,11 +10490,11 @@ IL_00e3:
 	{
 		BinaryWriter_t50 * L_38 = ___aWriter;
 		NullCheck(L_38);
-		VirtActionInvoker1< uint8_t >::Invoke(7 /* System.Void System.IO.BinaryWriter::Write(System.Byte) */, L_38, 3);
+		VirtActionInvoker1< uint8_t >::Invoke(8 /* System.Void System.IO.BinaryWriter::Write(System.Byte) */, L_38, 3);
 		BinaryWriter_t50 * L_39 = ___aWriter;
 		String_t* L_40 = (__this->___m_Data_0);
 		NullCheck(L_39);
-		VirtActionInvoker1< String_t* >::Invoke(11 /* System.Void System.IO.BinaryWriter::Write(System.String) */, L_39, L_40);
+		VirtActionInvoker1< String_t* >::Invoke(20 /* System.Void System.IO.BinaryWriter::Write(System.String) */, L_39, L_40);
 		return;
 	}
 }

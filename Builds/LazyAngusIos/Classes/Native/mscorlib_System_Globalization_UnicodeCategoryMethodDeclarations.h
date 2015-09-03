@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Globalization.UnicodeCategory
-struct UnicodeCategory_t4349;
+struct UnicodeCategory_t4719;
 

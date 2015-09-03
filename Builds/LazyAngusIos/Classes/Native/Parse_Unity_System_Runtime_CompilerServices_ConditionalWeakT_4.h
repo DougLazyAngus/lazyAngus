@@ -5,7 +5,7 @@ struct WeakReference_t2241;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.IComparable>
-struct  Reference_t6097  : public Object_t
+struct  Reference_t6630  : public Object_t
 {
 	// System.Int32 System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.IComparable>::hashCode
 	int32_t ___hashCode_0;

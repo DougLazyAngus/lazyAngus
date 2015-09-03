@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Runtime.Remoting.Proxies.RealProxy
-struct RealProxy_t4641;
+struct RealProxy_t5175;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Proxies.TransparentProxy
-struct  TransparentProxy_t4642  : public Object_t
+struct  TransparentProxy_t5176  : public Object_t
 {
 	// System.Runtime.Remoting.Proxies.RealProxy System.Runtime.Remoting.Proxies.TransparentProxy::_rp
-	RealProxy_t4641 * ____rp_0;
+	RealProxy_t5175 * ____rp_0;
 };

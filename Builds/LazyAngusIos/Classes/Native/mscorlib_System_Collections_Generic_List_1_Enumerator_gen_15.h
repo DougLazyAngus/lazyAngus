@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.Net.Cookie>
-struct List_1_t4037;
-// System.Net.Cookie
-struct Cookie_t4035;
+// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>
+struct List_1_t3464;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>
-struct  Enumerator_t4215 
+// System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_16.h"
+// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>
+struct  Enumerator_t3462 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::l
-	List_1_t4037 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::l
+	List_1_t3464 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.Net.Cookie>::current
-	Cookie_t4035 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>::current
+	KeyValuePair_2_t3463  ___current_3;
 };

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.TimeZoneInfo/AdjustmentRule
-struct AdjustmentRule_t3371;
+struct AdjustmentRule_t3749;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t2936;
 // System.Object
@@ -20,20 +20,20 @@ struct Object_t;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.TimeZoneInfo/AdjustmentRule::.ctor(System.DateTime,System.DateTime,System.TimeSpan,System.TimeZoneInfo/TransitionTime,System.TimeZoneInfo/TransitionTime)
-extern "C" void AdjustmentRule__ctor_m11908 (AdjustmentRule_t3371 * __this, DateTime_t287  ___dateStart, DateTime_t287  ___dateEnd, TimeSpan_t334  ___daylightDelta, TransitionTime_t3372  ___daylightTransitionStart, TransitionTime_t3372  ___daylightTransitionEnd, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AdjustmentRule__ctor_m14953 (AdjustmentRule_t3749 * __this, DateTime_t287  ___dateStart, DateTime_t287  ___dateEnd, TimeSpan_t334  ___daylightDelta, TransitionTime_t3750  ___daylightTransitionStart, TransitionTime_t3750  ___daylightTransitionEnd, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.TimeZoneInfo/AdjustmentRule::get_DateEnd()
-extern "C" DateTime_t287  AdjustmentRule_get_DateEnd_m11909 (AdjustmentRule_t3371 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t287  AdjustmentRule_get_DateEnd_m14954 (AdjustmentRule_t3749 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.TimeZoneInfo/AdjustmentRule::get_DateStart()
-extern "C" DateTime_t287  AdjustmentRule_get_DateStart_m11910 (AdjustmentRule_t3371 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t287  AdjustmentRule_get_DateStart_m14955 (AdjustmentRule_t3749 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.TimeSpan System.TimeZoneInfo/AdjustmentRule::get_DaylightDelta()
-extern "C" TimeSpan_t334  AdjustmentRule_get_DaylightDelta_m11911 (AdjustmentRule_t3371 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TimeSpan_t334  AdjustmentRule_get_DaylightDelta_m14956 (AdjustmentRule_t3749 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.TimeZoneInfo/AdjustmentRule System.TimeZoneInfo/AdjustmentRule::CreateAdjustmentRule(System.DateTime,System.DateTime,System.TimeSpan,System.TimeZoneInfo/TransitionTime,System.TimeZoneInfo/TransitionTime)
-extern "C" AdjustmentRule_t3371 * AdjustmentRule_CreateAdjustmentRule_m11912 (Object_t * __this /* static, unused */, DateTime_t287  ___dateStart, DateTime_t287  ___dateEnd, TimeSpan_t334  ___daylightDelta, TransitionTime_t3372  ___daylightTransitionStart, TransitionTime_t3372  ___daylightTransitionEnd, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AdjustmentRule_t3749 * AdjustmentRule_CreateAdjustmentRule_m14957 (Object_t * __this /* static, unused */, DateTime_t287  ___dateStart, DateTime_t287  ___dateEnd, TimeSpan_t334  ___daylightDelta, TransitionTime_t3750  ___daylightTransitionStart, TransitionTime_t3750  ___daylightTransitionEnd, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.TimeZoneInfo/AdjustmentRule::Equals(System.TimeZoneInfo/AdjustmentRule)
-extern "C" bool AdjustmentRule_Equals_m11913 (AdjustmentRule_t3371 * __this, AdjustmentRule_t3371 * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool AdjustmentRule_Equals_m14958 (AdjustmentRule_t3749 * __this, AdjustmentRule_t3749 * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.TimeZoneInfo/AdjustmentRule::GetHashCode()
-extern "C" int32_t AdjustmentRule_GetHashCode_m11914 (AdjustmentRule_t3371 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t AdjustmentRule_GetHashCode_m14959 (AdjustmentRule_t3749 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.TimeZoneInfo/AdjustmentRule::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void AdjustmentRule_GetObjectData_m11915 (AdjustmentRule_t3371 * __this, SerializationInfo_t2936 * ___info, StreamingContext_t2937  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AdjustmentRule_GetObjectData_m14960 (AdjustmentRule_t3749 * __this, SerializationInfo_t2936 * ___info, StreamingContext_t2937  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.TimeZoneInfo/AdjustmentRule::OnDeserialization(System.Object)
-extern "C" void AdjustmentRule_OnDeserialization_m11916 (AdjustmentRule_t3371 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AdjustmentRule_OnDeserialization_m14961 (AdjustmentRule_t3749 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;

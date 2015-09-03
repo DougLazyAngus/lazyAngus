@@ -16,16 +16,16 @@ struct BaseEventData_t859;
 struct IEnumerator_t48;
 
 // System.Void UnityEngine.UI.Button::.ctor()
-extern "C" void Button__ctor_m5044 (Button_t501 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Button__ctor_m5048 (Button_t501 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Button/ButtonClickedEvent UnityEngine.UI.Button::get_onClick()
-extern "C" ButtonClickedEvent_t919 * Button_get_onClick_m5045 (Button_t501 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ButtonClickedEvent_t919 * Button_get_onClick_m5049 (Button_t501 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Button::set_onClick(UnityEngine.UI.Button/ButtonClickedEvent)
-extern "C" void Button_set_onClick_m5046 (Button_t501 * __this, ButtonClickedEvent_t919 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Button_set_onClick_m5050 (Button_t501 * __this, ButtonClickedEvent_t919 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Button::Press()
-extern "C" void Button_Press_m5047 (Button_t501 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Button_Press_m5051 (Button_t501 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Button::OnPointerClick(UnityEngine.EventSystems.PointerEventData)
-extern "C" void Button_OnPointerClick_m5048 (Button_t501 * __this, PointerEventData_t899 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Button_OnPointerClick_m5052 (Button_t501 * __this, PointerEventData_t899 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Button::OnSubmit(UnityEngine.EventSystems.BaseEventData)
-extern "C" void Button_OnSubmit_m5049 (Button_t501 * __this, BaseEventData_t859 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Button_OnSubmit_m5053 (Button_t501 * __this, BaseEventData_t859 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator UnityEngine.UI.Button::OnFinishSubmit()
-extern "C" Object_t * Button_OnFinishSubmit_m5050 (Button_t501 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Button_OnFinishSubmit_m5054 (Button_t501 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

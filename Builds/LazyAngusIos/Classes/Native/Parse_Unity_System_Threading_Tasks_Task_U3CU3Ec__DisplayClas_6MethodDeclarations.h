@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.Tasks.Task/<>c__DisplayClass19`1<System.Object>
-struct U3CU3Ec__DisplayClass19_1_t6204;
+struct U3CU3Ec__DisplayClass19_1_t6737;
 // System.Object[]
 struct ObjectU5BU5D_t696;
 // System.Threading.Tasks.Task
@@ -16,11 +16,11 @@ struct Object_t;
 struct Task_1_t1410;
 
 // System.Void System.Threading.Tasks.Task/<>c__DisplayClass19`1<System.Object>::.ctor()
-extern "C" void U3CU3Ec__DisplayClass19_1__ctor_m33573_gshared (U3CU3Ec__DisplayClass19_1_t6204 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass19_1__ctor_m33573(__this, method) (( void (*) (U3CU3Ec__DisplayClass19_1_t6204 *, const MethodInfo*))U3CU3Ec__DisplayClass19_1__ctor_m33573_gshared)(__this, method)
+extern "C" void U3CU3Ec__DisplayClass19_1__ctor_m37807_gshared (U3CU3Ec__DisplayClass19_1_t6737 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass19_1__ctor_m37807(__this, method) (( void (*) (U3CU3Ec__DisplayClass19_1_t6737 *, const MethodInfo*))U3CU3Ec__DisplayClass19_1__ctor_m37807_gshared)(__this, method)
 // T[] System.Threading.Tasks.Task/<>c__DisplayClass19`1<System.Object>::<WhenAll>b__17(System.Threading.Tasks.Task)
-extern "C" ObjectU5BU5D_t696* U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__17_m33574_gshared (U3CU3Ec__DisplayClass19_1_t6204 * __this, Task_t1227 * ____, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__17_m33574(__this, ____, method) (( ObjectU5BU5D_t696* (*) (U3CU3Ec__DisplayClass19_1_t6204 *, Task_t1227 *, const MethodInfo*))U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__17_m33574_gshared)(__this, ____, method)
+extern "C" ObjectU5BU5D_t696* U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__17_m37808_gshared (U3CU3Ec__DisplayClass19_1_t6737 * __this, Task_t1227 * ____, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__17_m37808(__this, ____, method) (( ObjectU5BU5D_t696* (*) (U3CU3Ec__DisplayClass19_1_t6737 *, Task_t1227 *, const MethodInfo*))U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__17_m37808_gshared)(__this, ____, method)
 // T System.Threading.Tasks.Task/<>c__DisplayClass19`1<System.Object>::<WhenAll>b__18(System.Threading.Tasks.Task`1<T>)
-extern "C" Object_t * U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__18_m33575_gshared (Object_t * __this /* static, unused */, Task_1_t1410 * ___t, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__18_m33575(__this /* static, unused */, ___t, method) (( Object_t * (*) (Object_t * /* static, unused */, Task_1_t1410 *, const MethodInfo*))U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__18_m33575_gshared)(__this /* static, unused */, ___t, method)
+extern "C" Object_t * U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__18_m37809_gshared (Object_t * __this /* static, unused */, Task_1_t1410 * ___t, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__18_m37809(__this /* static, unused */, ___t, method) (( Object_t * (*) (Object_t * /* static, unused */, Task_1_t1410 *, const MethodInfo*))U3CU3Ec__DisplayClass19_1_U3CWhenAllU3Eb__18_m37809_gshared)(__this /* static, unused */, ___t, method)

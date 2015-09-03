@@ -13,7 +13,7 @@ struct CharU5BU5D_t711;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Net.Cookie
-struct  Cookie_t4035  : public Object_t
+struct  Cookie_t4346  : public Object_t
 {
 	// System.String System.Net.Cookie::comment
 	String_t* ___comment_0;
@@ -46,7 +46,7 @@ struct  Cookie_t4035  : public Object_t
 	// System.Boolean System.Net.Cookie::exact_domain
 	bool ___exact_domain_17;
 };
-struct Cookie_t4035_StaticFields{
+struct Cookie_t4346_StaticFields{
 	// System.Char[] System.Net.Cookie::reservedCharsName
 	CharU5BU5D_t711* ___reservedCharsName_14;
 	// System.Char[] System.Net.Cookie::portSeparators

@@ -13,7 +13,7 @@ struct ResponseDelegate_1_t2949;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Networking.Match.NetworkMatch/<ProcessMatchResponse>c__Iterator0`1<System.Object>
-struct  U3CProcessMatchResponseU3Ec__Iterator0_1_t8529  : public Object_t
+struct  U3CProcessMatchResponseU3Ec__Iterator0_1_t9064  : public Object_t
 {
 	// UnityEngine.WWW UnityEngine.Networking.Match.NetworkMatch/<ProcessMatchResponse>c__Iterator0`1<System.Object>::client
 	WWW_t265 * ___client_0;

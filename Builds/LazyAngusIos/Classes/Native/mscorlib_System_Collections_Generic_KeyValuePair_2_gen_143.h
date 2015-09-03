@@ -1,12 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
+// System.Type
+struct Type_t;
+// System.Collections.Generic.LinkedList`1<System.ComponentModel.TypeDescriptionProvider>
+struct LinkedList_1_t9223;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>
-struct  KeyValuePair_2_t8680 
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.LinkedList`1<System.ComponentModel.TypeDescriptionProvider>>
+struct  KeyValuePair_2_t9227 
 {
-	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>::key
-	int32_t ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>::value
-	int32_t ___value_1;
+	// TKey System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.LinkedList`1<System.ComponentModel.TypeDescriptionProvider>>::key
+	Type_t * ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2<System.Type,System.Collections.Generic.LinkedList`1<System.ComponentModel.TypeDescriptionProvider>>::value
+	LinkedList_1_t9223 * ___value_1;
 };

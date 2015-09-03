@@ -14,16 +14,16 @@ struct ObjectU5BU5D_t696;
 struct String_t;
 
 // System.Void System.ValueType::.ctor()
-extern "C" void ValueType__ctor_m15674 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ValueType__ctor_m18538 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.ValueType::InternalEquals(System.Object,System.Object,System.Object[]&)
-extern "C" bool ValueType_InternalEquals_m15675 (Object_t * __this /* static, unused */, Object_t * ___o1, Object_t * ___o2, ObjectU5BU5D_t696** ___fields, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ValueType_InternalEquals_m18539 (Object_t * __this /* static, unused */, Object_t * ___o1, Object_t * ___o2, ObjectU5BU5D_t696** ___fields, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.ValueType::DefaultEquals(System.Object,System.Object)
-extern "C" bool ValueType_DefaultEquals_m15676 (Object_t * __this /* static, unused */, Object_t * ___o1, Object_t * ___o2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ValueType_DefaultEquals_m18540 (Object_t * __this /* static, unused */, Object_t * ___o1, Object_t * ___o2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.ValueType::Equals(System.Object)
-extern "C" bool ValueType_Equals_m4724 (Object_t * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ValueType_Equals_m4728 (Object_t * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.ValueType::InternalGetHashCode(System.Object,System.Object[]&)
-extern "C" int32_t ValueType_InternalGetHashCode_m15677 (Object_t * __this /* static, unused */, Object_t * ___o, ObjectU5BU5D_t696** ___fields, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ValueType_InternalGetHashCode_m18541 (Object_t * __this /* static, unused */, Object_t * ___o, ObjectU5BU5D_t696** ___fields, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.ValueType::GetHashCode()
-extern "C" int32_t ValueType_GetHashCode_m4725 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t ValueType_GetHashCode_m4729 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.ValueType::ToString()
-extern "C" String_t* ValueType_ToString_m4726 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ValueType_ToString_m4730 (Object_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

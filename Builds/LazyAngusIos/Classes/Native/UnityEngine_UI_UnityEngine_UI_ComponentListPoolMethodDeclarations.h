@@ -10,10 +10,10 @@ struct ComponentListPool_t1032;
 struct List_1_t1064;
 
 // System.Void UnityEngine.UI.ComponentListPool::.cctor()
-extern "C" void ComponentListPool__cctor_m5898 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ComponentListPool__cctor_m5902 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<UnityEngine.Component> UnityEngine.UI.ComponentListPool::Get()
-extern "C" List_1_t1064 * ComponentListPool_Get_m5899 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t1064 * ComponentListPool_Get_m5903 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.ComponentListPool::Release(System.Collections.Generic.List`1<UnityEngine.Component>)
-extern "C" void ComponentListPool_Release_m5900 (Object_t * __this /* static, unused */, List_1_t1064 * ___toRelease, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ComponentListPool_Release_m5904 (Object_t * __this /* static, unused */, List_1_t1064 * ___toRelease, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.ComponentListPool::<s_ComponentListPool>m__17(System.Collections.Generic.List`1<UnityEngine.Component>)
-extern "C" void ComponentListPool_U3Cs_ComponentListPoolU3Em__17_m5901 (Object_t * __this /* static, unused */, List_1_t1064 * ___l, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ComponentListPool_U3Cs_ComponentListPoolU3Em__17_m5905 (Object_t * __this /* static, unused */, List_1_t1064 * ___l, const MethodInfo* method) IL2CPP_METHOD_ATTR;

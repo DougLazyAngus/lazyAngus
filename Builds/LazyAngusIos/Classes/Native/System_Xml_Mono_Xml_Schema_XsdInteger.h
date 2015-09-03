@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdDecimal
 #include "System_Xml_Mono_Xml_Schema_XsdDecimal.h"
 // Mono.Xml.Schema.XsdInteger
-struct  XsdInteger_t3134  : public XsdDecimal_t3133
+struct  XsdInteger_t3584  : public XsdDecimal_t3583
 {
 };

@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Byte[,]
-struct ByteU5BU2CU5D_t4701;
+struct ByteU5BU2CU5D_t5251;
 // System.Security.Cryptography.SymmetricAlgorithm
 #include "mscorlib_System_Security_Cryptography_SymmetricAlgorithm.h"
 // System.Security.Cryptography.DES
-struct  DES_t3947  : public SymmetricAlgorithm_t3819
+struct  DES_t3271  : public SymmetricAlgorithm_t3140
 {
 };
-struct DES_t3947_StaticFields{
+struct DES_t3271_StaticFields{
 	// System.Byte[,] System.Security.Cryptography.DES::weakKeys
-	ByteU5BU2CU5D_t4701* ___weakKeys_10;
+	ByteU5BU2CU5D_t5251* ___weakKeys_10;
 	// System.Byte[,] System.Security.Cryptography.DES::semiWeakKeys
-	ByteU5BU2CU5D_t4701* ___semiWeakKeys_11;
+	ByteU5BU2CU5D_t5251* ___semiWeakKeys_11;
 };

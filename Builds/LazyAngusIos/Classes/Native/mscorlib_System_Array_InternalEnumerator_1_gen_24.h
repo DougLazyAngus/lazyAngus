@@ -5,7 +5,7 @@ struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Array/InternalEnumerator`1<MouseSinkController>
-struct  InternalEnumerator_1_t5733 
+struct  InternalEnumerator_1_t6266 
 {
 	// System.Array System.Array/InternalEnumerator`1<MouseSinkController>::array
 	Array_t * ___array_0;

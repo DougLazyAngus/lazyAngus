@@ -13,7 +13,7 @@ struct IDisposable_t58;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // Parse.Internal.FlexibleListWrapper`2/<GetEnumerator>d__2<System.DateTime,System.Object>
-struct  U3CGetEnumeratorU3Ed__2_t6885  : public Object_t
+struct  U3CGetEnumeratorU3Ed__2_t7420  : public Object_t
 {
 	// TOut Parse.Internal.FlexibleListWrapper`2/<GetEnumerator>d__2<System.DateTime,System.Object>::<>2__current
 	DateTime_t287  ___U3CU3E2__current_0;

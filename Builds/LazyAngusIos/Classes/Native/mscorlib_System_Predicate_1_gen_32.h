@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<UnityEngine.EventSystems.BaseInputModule>
-struct  Predicate_1_t5799  : public MulticastDelegate_t388
+struct  Predicate_1_t6332  : public MulticastDelegate_t388
 {
 };

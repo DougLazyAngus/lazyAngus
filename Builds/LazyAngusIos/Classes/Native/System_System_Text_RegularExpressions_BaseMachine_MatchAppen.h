@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Text.RegularExpressions.BaseMachine/MatchAppendEvaluator
-struct  MatchAppendEvaluator_t4132  : public MulticastDelegate_t388
+struct  MatchAppendEvaluator_t4466  : public MulticastDelegate_t388
 {
 };

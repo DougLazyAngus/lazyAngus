@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // GPScore[]
-struct GPScoreU5BU5D_t5564;
+struct GPScoreU5BU5D_t6097;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<GPScore>
 struct  List_1_t697  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<GPScore>::_items
-	GPScoreU5BU5D_t5564* ____items_1;
+	GPScoreU5BU5D_t6097* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<GPScore>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<GPScore>::_version
@@ -16,5 +16,5 @@ struct  List_1_t697  : public Object_t
 };
 struct List_1_t697_StaticFields{
 	// T[] System.Collections.Generic.List`1<GPScore>::EmptyArray
-	GPScoreU5BU5D_t5564* ___EmptyArray_4;
+	GPScoreU5BU5D_t6097* ___EmptyArray_4;
 };

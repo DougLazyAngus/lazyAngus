@@ -5,7 +5,7 @@ struct ArrayList_t712;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Cryptography.OidCollection
-struct  OidCollection_t4117  : public Object_t
+struct  OidCollection_t4429  : public Object_t
 {
 	// System.Collections.ArrayList System.Security.Cryptography.OidCollection::_list
 	ArrayList_t712 * ____list_0;

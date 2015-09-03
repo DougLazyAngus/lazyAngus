@@ -5,7 +5,7 @@ struct Dictionary_2_t2731;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>
-struct  ValueCollection_t8433  : public Object_t
+struct  ValueCollection_t8968  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::dictionary
 	Dictionary_2_t2731 * ___dictionary_0;

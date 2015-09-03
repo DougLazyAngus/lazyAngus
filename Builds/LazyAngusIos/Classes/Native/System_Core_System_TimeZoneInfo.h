@@ -5,7 +5,7 @@ struct String_t;
 // System.TimeZoneInfo
 struct TimeZoneInfo_t1530;
 // System.TimeZoneInfo/AdjustmentRule[]
-struct AdjustmentRuleU5BU5D_t3374;
+struct AdjustmentRuleU5BU5D_t3752;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.TimeSpan
@@ -26,7 +26,7 @@ struct  TimeZoneInfo_t1530  : public Object_t
 	// System.Boolean System.TimeZoneInfo::disableDaylightSavingTime
 	bool ___disableDaylightSavingTime_6;
 	// System.TimeZoneInfo/AdjustmentRule[] System.TimeZoneInfo::adjustmentRules
-	AdjustmentRuleU5BU5D_t3374* ___adjustmentRules_8;
+	AdjustmentRuleU5BU5D_t3752* ___adjustmentRules_8;
 };
 struct TimeZoneInfo_t1530_StaticFields{
 	// System.TimeZoneInfo System.TimeZoneInfo::local

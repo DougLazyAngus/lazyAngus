@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Queue
-struct Queue_t4018;
+struct Queue_t4410;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Queue/QueueEnumerator
-struct  QueueEnumerator_t4465  : public Object_t
+struct  QueueEnumerator_t4950  : public Object_t
 {
 	// System.Collections.Queue System.Collections.Queue/QueueEnumerator::queue
-	Queue_t4018 * ___queue_0;
+	Queue_t4410 * ___queue_0;
 	// System.Int32 System.Collections.Queue/QueueEnumerator::_version
 	int32_t ____version_1;
 	// System.Int32 System.Collections.Queue/QueueEnumerator::current

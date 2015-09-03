@@ -5,7 +5,7 @@ struct Dictionary_2_t1502;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.String,Parse.Internal.IParseFieldOperation>
-struct  KeyCollection_t6263  : public Object_t
+struct  KeyCollection_t6796  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.String,Parse.Internal.IParseFieldOperation>::dictionary
 	Dictionary_2_t1502 * ___dictionary_0;

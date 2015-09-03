@@ -9,7 +9,7 @@ struct ArrayList_t712;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Cryptography.PKCS8/PrivateKeyInfo
-struct  PrivateKeyInfo_t4418  : public Object_t
+struct  PrivateKeyInfo_t4804  : public Object_t
 {
 	// System.Int32 Mono.Security.Cryptography.PKCS8/PrivateKeyInfo::_version
 	int32_t ____version_0;

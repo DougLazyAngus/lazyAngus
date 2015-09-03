@@ -5,7 +5,7 @@ struct Dictionary_2_t2957;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
-struct  ValueCollection_t8549  : public Object_t
+struct  ValueCollection_t9084  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::dictionary
 	Dictionary_2_t2957 * ___dictionary_0;

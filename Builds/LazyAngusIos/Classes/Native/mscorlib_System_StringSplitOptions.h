@@ -5,7 +5,7 @@
 // System.StringSplitOptions
 #include "mscorlib_System_StringSplitOptions.h"
 // System.StringSplitOptions
-struct  StringSplitOptions_t4857 
+struct  StringSplitOptions_t4908 
 {
 	// System.Int32 System.StringSplitOptions::value__
 	int32_t ___value___1;

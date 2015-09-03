@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlReaderBinarySupport/CommandState
-struct CommandState_t3274;
+struct CommandState_t3535;
 

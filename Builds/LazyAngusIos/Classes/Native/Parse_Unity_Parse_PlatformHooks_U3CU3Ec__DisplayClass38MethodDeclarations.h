@@ -14,12 +14,12 @@ struct Task_1_t1389;
 struct Task_1_t1410;
 
 // System.Void Parse.PlatformHooks/<>c__DisplayClass38::.ctor()
-extern "C" void U3CU3Ec__DisplayClass38__ctor_m7299 (U3CU3Ec__DisplayClass38_t1342 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass38__ctor_m7303 (U3CU3Ec__DisplayClass38_t1342 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.PlatformHooks/<>c__DisplayClass38::<RequestAsync>b__2c()
-extern "C" void U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2c_m7300 (U3CU3Ec__DisplayClass38_t1342 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2c_m7304 (U3CU3Ec__DisplayClass38_t1342 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.PlatformHooks/<>c__DisplayClass38::<RequestAsync>b__2f(System.Threading.Tasks.Task)
-extern "C" Task_t1227 * U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2f_m7301 (U3CU3Ec__DisplayClass38_t1342 * __this, Task_t1227 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1227 * U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__2f_m7305 (U3CU3Ec__DisplayClass38_t1342 * __this, Task_t1227 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.PlatformHooks/<>c__DisplayClass38::<RequestAsync>b__30(System.Threading.Tasks.Task)
-extern "C" void U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__30_m7302 (U3CU3Ec__DisplayClass38_t1342 * __this, Task_t1227 * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__30_m7306 (U3CU3Ec__DisplayClass38_t1342 * __this, Task_t1227 * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.String>> Parse.PlatformHooks/<>c__DisplayClass38::<RequestAsync>b__33(System.Threading.Tasks.Task`1<System.Object>)
-extern "C" Task_1_t1389 * U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__33_m7303 (U3CU3Ec__DisplayClass38_t1342 * __this, Task_1_t1410 * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1389 * U3CU3Ec__DisplayClass38_U3CRequestAsyncU3Eb__33_m7307 (U3CU3Ec__DisplayClass38_t1342 * __this, Task_1_t1410 * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -16,22 +16,22 @@ struct MouseMove_t530;
 #include "UnityEngine_UnityEngine_Vector3.h"
 
 // System.Void DeadMouseRelay::.ctor()
-extern "C" void DeadMouseRelay__ctor_m2867 (DeadMouseRelay_t532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeadMouseRelay__ctor_m2869 (DeadMouseRelay_t532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void DeadMouseRelay::add_MultiKill(DeadMouseRelay/MultiKillEventHandler)
-extern "C" void DeadMouseRelay_add_MultiKill_m2868 (DeadMouseRelay_t532 * __this, MultiKillEventHandler_t529 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeadMouseRelay_add_MultiKill_m2870 (DeadMouseRelay_t532 * __this, MultiKillEventHandler_t529 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void DeadMouseRelay::remove_MultiKill(DeadMouseRelay/MultiKillEventHandler)
-extern "C" void DeadMouseRelay_remove_MultiKill_m2869 (DeadMouseRelay_t532 * __this, MultiKillEventHandler_t529 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeadMouseRelay_remove_MultiKill_m2871 (DeadMouseRelay_t532 * __this, MultiKillEventHandler_t529 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void DeadMouseRelay::add_MouseKill(DeadMouseRelay/MouseKillEventHandler)
-extern "C" void DeadMouseRelay_add_MouseKill_m2870 (DeadMouseRelay_t532 * __this, MouseKillEventHandler_t531 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeadMouseRelay_add_MouseKill_m2872 (DeadMouseRelay_t532 * __this, MouseKillEventHandler_t531 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void DeadMouseRelay::remove_MouseKill(DeadMouseRelay/MouseKillEventHandler)
-extern "C" void DeadMouseRelay_remove_MouseKill_m2871 (DeadMouseRelay_t532 * __this, MouseKillEventHandler_t531 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeadMouseRelay_remove_MouseKill_m2873 (DeadMouseRelay_t532 * __this, MouseKillEventHandler_t531 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void DeadMouseRelay::Awake()
-extern "C" void DeadMouseRelay_Awake_m2872 (DeadMouseRelay_t532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeadMouseRelay_Awake_m2874 (DeadMouseRelay_t532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void DeadMouseRelay::Start()
-extern "C" void DeadMouseRelay_Start_m2873 (DeadMouseRelay_t532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeadMouseRelay_Start_m2875 (DeadMouseRelay_t532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void DeadMouseRelay::Update()
-extern "C" void DeadMouseRelay_Update_m2874 (DeadMouseRelay_t532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeadMouseRelay_Update_m2876 (DeadMouseRelay_t532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void DeadMouseRelay::HandleMultiKill(System.Int32,UnityEngine.Vector3)
-extern "C" void DeadMouseRelay_HandleMultiKill_m2875 (DeadMouseRelay_t532 * __this, int32_t ___numKilled, Vector3_t538  ___pawPosition, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeadMouseRelay_HandleMultiKill_m2877 (DeadMouseRelay_t532 * __this, int32_t ___numKilled, Vector3_t538  ___pawPosition, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void DeadMouseRelay::HandleMouseKill(MouseMove)
-extern "C" void DeadMouseRelay_HandleMouseKill_m2876 (DeadMouseRelay_t532 * __this, MouseMove_t530 * ___mouseMove, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeadMouseRelay_HandleMouseKill_m2878 (DeadMouseRelay_t532 * __this, MouseMove_t530 * ___mouseMove, const MethodInfo* method) IL2CPP_METHOD_ATTR;

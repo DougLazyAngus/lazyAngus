@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<Parse.ParseGeoPoint>
-struct List_1_t6896;
+// System.Collections.Generic.List`1<System.DateTime>
+struct List_1_t7408;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// Parse.ParseGeoPoint
-#include "Parse_Unity_Parse_ParseGeoPoint.h"
-// System.Collections.Generic.List`1/Enumerator<Parse.ParseGeoPoint>
-struct  Enumerator_t6897 
+// System.DateTime
+#include "mscorlib_System_DateTime.h"
+// System.Collections.Generic.List`1/Enumerator<System.DateTime>
+struct  Enumerator_t7409 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<Parse.ParseGeoPoint>::l
-	List_1_t6896 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<Parse.ParseGeoPoint>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.DateTime>::l
+	List_1_t7408 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.DateTime>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<Parse.ParseGeoPoint>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.DateTime>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<Parse.ParseGeoPoint>::current
-	ParseGeoPoint_t1264  ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.DateTime>::current
+	DateTime_t287  ___current_3;
 };

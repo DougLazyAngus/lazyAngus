@@ -5,7 +5,7 @@ struct List_1_t693;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>
-struct  KeyValuePair_2_t5501 
+struct  KeyValuePair_2_t6034 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>>::key
 	int32_t ___key_0;

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>[]
-struct Task_1U5BU5D_t6157;
+// System.Collections.Generic.IDictionary`2<System.String,System.Object>[]
+struct IDictionary_2U5BU5D_t6701;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>
-struct  List_1_t6200  : public Object_t
+// System.Collections.Generic.List`1<System.Collections.Generic.IDictionary`2<System.String,System.Object>>
+struct  List_1_t6702  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::_items
-	Task_1U5BU5D_t6157* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::_size
+	// T[] System.Collections.Generic.List`1<System.Collections.Generic.IDictionary`2<System.String,System.Object>>::_items
+	IDictionary_2U5BU5D_t6701* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.IDictionary`2<System.String,System.Object>>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::_version
+	// System.Int32 System.Collections.Generic.List`1<System.Collections.Generic.IDictionary`2<System.String,System.Object>>::_version
 	int32_t ____version_3;
 };
-struct List_1_t6200_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>::EmptyArray
-	Task_1U5BU5D_t6157* ___EmptyArray_4;
+struct List_1_t6702_StaticFields{
+	// T[] System.Collections.Generic.List`1<System.Collections.Generic.IDictionary`2<System.String,System.Object>>::EmptyArray
+	IDictionary_2U5BU5D_t6701* ___EmptyArray_4;
 };

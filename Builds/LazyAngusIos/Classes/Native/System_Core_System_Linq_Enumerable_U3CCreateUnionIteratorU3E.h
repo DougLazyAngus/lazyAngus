@@ -13,7 +13,7 @@ struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.Enumerable/<CreateUnionIterator>c__Iterator1C`1<System.Object>
-struct  U3CCreateUnionIteratorU3Ec__Iterator1C_1_t6120  : public Object_t
+struct  U3CCreateUnionIteratorU3Ec__Iterator1C_1_t6653  : public Object_t
 {
 	// System.Collections.Generic.IEqualityComparer`1<TSource> System.Linq.Enumerable/<CreateUnionIterator>c__Iterator1C`1<System.Object>::comparer
 	Object_t* ___comparer_0;
@@ -21,14 +21,14 @@ struct  U3CCreateUnionIteratorU3Ec__Iterator1C_1_t6120  : public Object_t
 	HashSet_1_t1484 * ___U3CitemsU3E__0_1;
 	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateUnionIterator>c__Iterator1C`1<System.Object>::first
 	Object_t* ___first_2;
-	// System.Collections.Generic.IEnumerator`1<TSource> System.Linq.Enumerable/<CreateUnionIterator>c__Iterator1C`1<System.Object>::<$s_95>__1
-	Object_t* ___U3CU24s_95U3E__1_3;
+	// System.Collections.Generic.IEnumerator`1<TSource> System.Linq.Enumerable/<CreateUnionIterator>c__Iterator1C`1<System.Object>::<$s_85>__1
+	Object_t* ___U3CU24s_85U3E__1_3;
 	// TSource System.Linq.Enumerable/<CreateUnionIterator>c__Iterator1C`1<System.Object>::<element>__2
 	Object_t * ___U3CelementU3E__2_4;
 	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateUnionIterator>c__Iterator1C`1<System.Object>::second
 	Object_t* ___second_5;
-	// System.Collections.Generic.IEnumerator`1<TSource> System.Linq.Enumerable/<CreateUnionIterator>c__Iterator1C`1<System.Object>::<$s_96>__3
-	Object_t* ___U3CU24s_96U3E__3_6;
+	// System.Collections.Generic.IEnumerator`1<TSource> System.Linq.Enumerable/<CreateUnionIterator>c__Iterator1C`1<System.Object>::<$s_86>__3
+	Object_t* ___U3CU24s_86U3E__3_6;
 	// TSource System.Linq.Enumerable/<CreateUnionIterator>c__Iterator1C`1<System.Object>::<element>__4
 	Object_t * ___U3CelementU3E__4_7;
 	// System.Int32 System.Linq.Enumerable/<CreateUnionIterator>c__Iterator1C`1<System.Object>::$PC

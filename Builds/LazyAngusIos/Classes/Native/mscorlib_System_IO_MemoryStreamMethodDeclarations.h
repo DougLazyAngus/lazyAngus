@@ -14,48 +14,48 @@ struct ByteU5BU5D_t66;
 // System.Void System.IO.MemoryStream::.ctor()
 extern "C" void MemoryStream__ctor_m425 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.MemoryStream::.ctor(System.Int32)
-extern "C" void MemoryStream__ctor_m10263 (MemoryStream_t65 * __this, int32_t ___capacity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemoryStream__ctor_m10266 (MemoryStream_t65 * __this, int32_t ___capacity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.MemoryStream::.ctor(System.Byte[])
 extern "C" void MemoryStream__ctor_m430 (MemoryStream_t65 * __this, ByteU5BU5D_t66* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.MemoryStream::InternalConstructor(System.Byte[],System.Int32,System.Int32,System.Boolean,System.Boolean)
-extern "C" void MemoryStream_InternalConstructor_m17570 (MemoryStream_t65 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___index, int32_t ___count, bool ___writable, bool ___publicallyVisible, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemoryStream_InternalConstructor_m21535 (MemoryStream_t65 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___index, int32_t ___count, bool ___writable, bool ___publicallyVisible, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.MemoryStream::CheckIfClosedThrowDisposed()
-extern "C" void MemoryStream_CheckIfClosedThrowDisposed_m17571 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemoryStream_CheckIfClosedThrowDisposed_m21536 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.MemoryStream::get_CanRead()
-extern "C" bool MemoryStream_get_CanRead_m17572 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MemoryStream_get_CanRead_m21537 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.MemoryStream::get_CanSeek()
-extern "C" bool MemoryStream_get_CanSeek_m17573 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MemoryStream_get_CanSeek_m21538 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.MemoryStream::get_CanWrite()
-extern "C" bool MemoryStream_get_CanWrite_m17574 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MemoryStream_get_CanWrite_m21539 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.MemoryStream::set_Capacity(System.Int32)
-extern "C" void MemoryStream_set_Capacity_m17575 (MemoryStream_t65 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemoryStream_set_Capacity_m21540 (MemoryStream_t65 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.IO.MemoryStream::get_Length()
-extern "C" int64_t MemoryStream_get_Length_m17576 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t MemoryStream_get_Length_m21541 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.IO.MemoryStream::get_Position()
-extern "C" int64_t MemoryStream_get_Position_m17577 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t MemoryStream_get_Position_m21542 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.MemoryStream::set_Position(System.Int64)
-extern "C" void MemoryStream_set_Position_m17578 (MemoryStream_t65 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemoryStream_set_Position_m21543 (MemoryStream_t65 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.MemoryStream::Dispose(System.Boolean)
-extern "C" void MemoryStream_Dispose_m17579 (MemoryStream_t65 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemoryStream_Dispose_m21544 (MemoryStream_t65 * __this, bool ___disposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.MemoryStream::Flush()
-extern "C" void MemoryStream_Flush_m17580 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemoryStream_Flush_m21545 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.IO.MemoryStream::GetBuffer()
-extern "C" ByteU5BU5D_t66* MemoryStream_GetBuffer_m17581 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* MemoryStream_GetBuffer_m21546 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.MemoryStream::Read(System.Byte[],System.Int32,System.Int32)
-extern "C" int32_t MemoryStream_Read_m17582 (MemoryStream_t65 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MemoryStream_Read_m21547 (MemoryStream_t65 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.MemoryStream::ReadByte()
-extern "C" int32_t MemoryStream_ReadByte_m17583 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MemoryStream_ReadByte_m21548 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int64 System.IO.MemoryStream::Seek(System.Int64,System.IO.SeekOrigin)
-extern "C" int64_t MemoryStream_Seek_m17584 (MemoryStream_t65 * __this, int64_t ___offset, int32_t ___loc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int64_t MemoryStream_Seek_m21549 (MemoryStream_t65 * __this, int64_t ___offset, int32_t ___loc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.MemoryStream::CalculateNewCapacity(System.Int32)
-extern "C" int32_t MemoryStream_CalculateNewCapacity_m17585 (MemoryStream_t65 * __this, int32_t ___minimum, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MemoryStream_CalculateNewCapacity_m21550 (MemoryStream_t65 * __this, int32_t ___minimum, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.MemoryStream::Expand(System.Int32)
-extern "C" void MemoryStream_Expand_m17586 (MemoryStream_t65 * __this, int32_t ___newSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemoryStream_Expand_m21551 (MemoryStream_t65 * __this, int32_t ___newSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.MemoryStream::SetLength(System.Int64)
-extern "C" void MemoryStream_SetLength_m17587 (MemoryStream_t65 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemoryStream_SetLength_m21552 (MemoryStream_t65 * __this, int64_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.IO.MemoryStream::ToArray()
-extern "C" ByteU5BU5D_t66* MemoryStream_ToArray_m17588 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* MemoryStream_ToArray_m21553 (MemoryStream_t65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.MemoryStream::Write(System.Byte[],System.Int32,System.Int32)
-extern "C" void MemoryStream_Write_m17589 (MemoryStream_t65 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemoryStream_Write_m21554 (MemoryStream_t65 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.MemoryStream::WriteByte(System.Byte)
-extern "C" void MemoryStream_WriteByte_m17590 (MemoryStream_t65 * __this, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemoryStream_WriteByte_m21555 (MemoryStream_t65 * __this, uint8_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

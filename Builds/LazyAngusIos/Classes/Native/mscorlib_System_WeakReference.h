@@ -10,5 +10,5 @@ struct  WeakReference_t2241  : public Object_t
 	// System.Boolean System.WeakReference::isLongReference
 	bool ___isLongReference_0;
 	// System.Runtime.InteropServices.GCHandle System.WeakReference::gcHandle
-	GCHandle_t3996  ___gcHandle_1;
+	GCHandle_t4297  ___gcHandle_1;
 };

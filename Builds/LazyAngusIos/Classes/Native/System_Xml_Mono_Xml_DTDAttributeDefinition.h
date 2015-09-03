@@ -3,18 +3,28 @@
 // System.String
 struct String_t;
 // System.Xml.Schema.XmlSchemaDatatype
-struct XmlSchemaDatatype_t3116;
+struct XmlSchemaDatatype_t3469;
+// System.Collections.ArrayList
+struct ArrayList_t712;
 // Mono.Xml.DTDNode
 #include "System_Xml_Mono_Xml_DTDNode.h"
+// Mono.Xml.DTDAttributeOccurenceType
+#include "System_Xml_Mono_Xml_DTDAttributeOccurenceType.h"
 // Mono.Xml.DTDAttributeDefinition
-struct  DTDAttributeDefinition_t3209  : public DTDNode_t3199
+struct  DTDAttributeDefinition_t3470  : public DTDNode_t3459
 {
 	// System.String Mono.Xml.DTDAttributeDefinition::name
 	String_t* ___name_5;
 	// System.Xml.Schema.XmlSchemaDatatype Mono.Xml.DTDAttributeDefinition::datatype
-	XmlSchemaDatatype_t3116 * ___datatype_6;
+	XmlSchemaDatatype_t3469 * ___datatype_6;
+	// System.Collections.ArrayList Mono.Xml.DTDAttributeDefinition::enumeratedLiterals
+	ArrayList_t712 * ___enumeratedLiterals_7;
 	// System.String Mono.Xml.DTDAttributeDefinition::unresolvedDefault
-	String_t* ___unresolvedDefault_7;
+	String_t* ___unresolvedDefault_8;
+	// System.Collections.ArrayList Mono.Xml.DTDAttributeDefinition::enumeratedNotations
+	ArrayList_t712 * ___enumeratedNotations_9;
+	// Mono.Xml.DTDAttributeOccurenceType Mono.Xml.DTDAttributeDefinition::occurenceType
+	int32_t ___occurenceType_10;
 	// System.String Mono.Xml.DTDAttributeDefinition::resolvedDefaultValue
-	String_t* ___resolvedDefaultValue_8;
+	String_t* ___resolvedDefaultValue_11;
 };

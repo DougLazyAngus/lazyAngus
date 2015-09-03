@@ -8,22 +8,22 @@ struct  GUILayoutOptionU5BU5D_t715  : public Array_t
 };
 // UnityEngine.Texture2D[]
 // UnityEngine.Texture2D[]
-struct  Texture2DU5BU5D_t5623  : public Array_t
+struct  Texture2DU5BU5D_t6156  : public Array_t
 {
 };
 // UnityEngine.MonoBehaviour[]
 // UnityEngine.MonoBehaviour[]
-struct  MonoBehaviourU5BU5D_t9837  : public Array_t
+struct  MonoBehaviourU5BU5D_t10456  : public Array_t
 {
 };
 // UnityEngine.Behaviour[]
 // UnityEngine.Behaviour[]
-struct  BehaviourU5BU5D_t9838  : public Array_t
+struct  BehaviourU5BU5D_t10457  : public Array_t
 {
 };
 // UnityEngine.Component[]
 // UnityEngine.Component[]
-struct  ComponentU5BU5D_t5810  : public Array_t
+struct  ComponentU5BU5D_t6343  : public Array_t
 {
 };
 // UnityEngine.Object[]
@@ -55,7 +55,7 @@ struct RectTransformU5BU5D_t551_StaticFields{
 };
 // UnityEngine.Transform[]
 // UnityEngine.Transform[]
-struct  TransformU5BU5D_t5839  : public Array_t
+struct  TransformU5BU5D_t6372  : public Array_t
 {
 };
 // UnityEngine.Material[]
@@ -90,10 +90,10 @@ struct  RaycastHitU5BU5D_t1075  : public Array_t
 };
 // UnityEngine.Font[]
 // UnityEngine.Font[]
-struct  FontU5BU5D_t5866  : public Array_t
+struct  FontU5BU5D_t6399  : public Array_t
 {
 };
-struct FontU5BU5D_t5866_StaticFields{
+struct FontU5BU5D_t6399_StaticFields{
 };
 // UnityEngine.UIVertex[]
 // UnityEngine.UIVertex[]
@@ -104,10 +104,10 @@ struct UIVertexU5BU5D_t964_StaticFields{
 };
 // UnityEngine.Canvas[]
 // UnityEngine.Canvas[]
-struct  CanvasU5BU5D_t5892  : public Array_t
+struct  CanvasU5BU5D_t6425  : public Array_t
 {
 };
-struct CanvasU5BU5D_t5892_StaticFields{
+struct CanvasU5BU5D_t6425_StaticFields{
 };
 // UnityEngine.UILineInfo[]
 // UnityEngine.UILineInfo[]
@@ -121,7 +121,7 @@ struct  UICharInfoU5BU5D_t2926  : public Array_t
 };
 // UnityEngine.CanvasGroup[]
 // UnityEngine.CanvasGroup[]
-struct  CanvasGroupU5BU5D_t5931  : public Array_t
+struct  CanvasGroupU5BU5D_t6464  : public Array_t
 {
 };
 // UnityEngine.SocialPlatforms.IAchievementDescription[]
@@ -156,7 +156,7 @@ struct  UserProfileU5BU5D_t2712  : public Array_t
 };
 // UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard[]
 // UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard[]
-struct  GcLeaderboardU5BU5D_t8418  : public Array_t
+struct  GcLeaderboardU5BU5D_t8953  : public Array_t
 {
 };
 // UnityEngine.SocialPlatforms.GameCenter.GcAchievementData[]
@@ -193,15 +193,15 @@ struct  RectU5BU5D_t2921  : public Array_t
 };
 // UnityEngine.GUILayoutUtility/LayoutCache[]
 // UnityEngine.GUILayoutUtility/LayoutCache[]
-struct  LayoutCacheU5BU5D_t8429  : public Array_t
+struct  LayoutCacheU5BU5D_t8964  : public Array_t
 {
 };
 // UnityEngine.GUILayoutEntry[]
 // UnityEngine.GUILayoutEntry[]
-struct  GUILayoutEntryU5BU5D_t8435  : public Array_t
+struct  GUILayoutEntryU5BU5D_t8970  : public Array_t
 {
 };
-struct GUILayoutEntryU5BU5D_t8435_StaticFields{
+struct GUILayoutEntryU5BU5D_t8970_StaticFields{
 };
 // UnityEngine.GUIStyle[]
 // UnityEngine.GUIStyle[]
@@ -238,7 +238,7 @@ struct  RemoteNotificationU5BU5D_t2924  : public Array_t
 };
 // UnityEngine.Rigidbody2D[]
 // UnityEngine.Rigidbody2D[]
-struct  Rigidbody2DU5BU5D_t8455  : public Array_t
+struct  Rigidbody2DU5BU5D_t8990  : public Array_t
 {
 };
 // UnityEngine.Keyframe[]
@@ -248,32 +248,32 @@ struct  KeyframeU5BU5D_t2925  : public Array_t
 };
 // UnityEngine.Networking.Match.MatchDirectConnectInfo[]
 // UnityEngine.Networking.Match.MatchDirectConnectInfo[]
-struct  MatchDirectConnectInfoU5BU5D_t8495  : public Array_t
+struct  MatchDirectConnectInfoU5BU5D_t9030  : public Array_t
 {
 };
 // UnityEngine.Networking.Match.MatchDesc[]
 // UnityEngine.Networking.Match.MatchDesc[]
-struct  MatchDescU5BU5D_t8501  : public Array_t
+struct  MatchDescU5BU5D_t9036  : public Array_t
 {
 };
 // UnityEngine.Networking.Types.NetworkID[]
 // UnityEngine.Networking.Types.NetworkID[]
-struct  NetworkIDU5BU5D_t8507  : public Array_t
+struct  NetworkIDU5BU5D_t9042  : public Array_t
 {
 };
 // UnityEngine.Networking.Types.NetworkAccessToken[]
 // UnityEngine.Networking.Types.NetworkAccessToken[]
-struct  NetworkAccessTokenU5BU5D_t8508  : public Array_t
+struct  NetworkAccessTokenU5BU5D_t9043  : public Array_t
 {
 };
 // SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate[]
 // SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate[]
-struct  ConstructorDelegateU5BU5D_t8535  : public Array_t
+struct  ConstructorDelegateU5BU5D_t9070  : public Array_t
 {
 };
 // SimpleJson.Reflection.ReflectionUtils/GetDelegate[]
 // SimpleJson.Reflection.ReflectionUtils/GetDelegate[]
-struct  GetDelegateU5BU5D_t8546  : public Array_t
+struct  GetDelegateU5BU5D_t9081  : public Array_t
 {
 };
 // UnityEngine.DisallowMultipleComponent[]
@@ -298,23 +298,23 @@ struct  HitInfoU5BU5D_t2881  : public Array_t
 };
 // UnityEngine.Event[]
 // UnityEngine.Event[]
-struct  EventU5BU5D_t8580  : public Array_t
+struct  EventU5BU5D_t9115  : public Array_t
 {
 };
-struct EventU5BU5D_t8580_StaticFields{
+struct EventU5BU5D_t9115_StaticFields{
 };
 // UnityEngine.TextEditor/TextEditOp[]
 // UnityEngine.TextEditor/TextEditOp[]
-struct  TextEditOpU5BU5D_t8581  : public Array_t
+struct  TextEditOpU5BU5D_t9116  : public Array_t
 {
 };
 // UnityEngine.Events.PersistentCall[]
 // UnityEngine.Events.PersistentCall[]
-struct  PersistentCallU5BU5D_t8600  : public Array_t
+struct  PersistentCallU5BU5D_t9135  : public Array_t
 {
 };
 // UnityEngine.Events.BaseInvokableCall[]
 // UnityEngine.Events.BaseInvokableCall[]
-struct  BaseInvokableCallU5BU5D_t8605  : public Array_t
+struct  BaseInvokableCallU5BU5D_t9140  : public Array_t
 {
 };

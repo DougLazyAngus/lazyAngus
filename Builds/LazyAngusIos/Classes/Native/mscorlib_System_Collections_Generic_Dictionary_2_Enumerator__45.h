@@ -7,7 +7,7 @@ struct Dictionary_2_t1525;
 // System.Collections.Generic.KeyValuePair`2<System.Tuple`2<System.Type,System.String>,System.String>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_49.h"
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Tuple`2<System.Type,System.String>,System.String>
-struct  Enumerator_t6284 
+struct  Enumerator_t6817 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Tuple`2<System.Type,System.String>,System.String>::dictionary
 	Dictionary_2_t1525 * ___dictionary_0;
@@ -16,5 +16,5 @@ struct  Enumerator_t6284
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Tuple`2<System.Type,System.String>,System.String>::stamp
 	int32_t ___stamp_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Tuple`2<System.Type,System.String>,System.String>::current
-	KeyValuePair_2_t6281  ___current_3;
+	KeyValuePair_2_t6814  ___current_3;
 };

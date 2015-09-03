@@ -1,8 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
+// System.String
+struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Messaging.CallContextRemotingData
-struct  CallContextRemotingData_t4629  : public Object_t
+struct  CallContextRemotingData_t5162  : public Object_t
 {
+	// System.String System.Runtime.Remoting.Messaging.CallContextRemotingData::_logicalCallID
+	String_t* ____logicalCallID_0;
 };

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Hashtable/SyncHashtable
-struct SyncHashtable_t4463;
+struct SyncHashtable_t4948;
 // System.Object
 struct Object_t;
 // System.Collections.ICollection
@@ -24,40 +24,40 @@ struct IDictionaryEnumerator_t798;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Collections.Hashtable/SyncHashtable::.ctor(System.Collections.Hashtable)
-extern "C" void SyncHashtable__ctor_m17116 (SyncHashtable_t4463 * __this, Hashtable_t710 * ___host, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SyncHashtable__ctor_m21030 (SyncHashtable_t4948 * __this, Hashtable_t710 * ___host, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Hashtable/SyncHashtable::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void SyncHashtable__ctor_m17117 (SyncHashtable_t4463 * __this, SerializationInfo_t2936 * ___info, StreamingContext_t2937  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SyncHashtable__ctor_m21031 (SyncHashtable_t4948 * __this, SerializationInfo_t2936 * ___info, StreamingContext_t2937  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator System.Collections.Hashtable/SyncHashtable::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * SyncHashtable_System_Collections_IEnumerable_GetEnumerator_m17118 (SyncHashtable_t4463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SyncHashtable_System_Collections_IEnumerable_GetEnumerator_m21032 (SyncHashtable_t4948 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Hashtable/SyncHashtable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void SyncHashtable_GetObjectData_m17119 (SyncHashtable_t4463 * __this, SerializationInfo_t2936 * ___info, StreamingContext_t2937  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SyncHashtable_GetObjectData_m21033 (SyncHashtable_t4948 * __this, SerializationInfo_t2936 * ___info, StreamingContext_t2937  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.Hashtable/SyncHashtable::get_Count()
-extern "C" int32_t SyncHashtable_get_Count_m17120 (SyncHashtable_t4463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t SyncHashtable_get_Count_m21034 (SyncHashtable_t4948 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.Hashtable/SyncHashtable::get_IsSynchronized()
-extern "C" bool SyncHashtable_get_IsSynchronized_m17121 (SyncHashtable_t4463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SyncHashtable_get_IsSynchronized_m21035 (SyncHashtable_t4948 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.Hashtable/SyncHashtable::get_SyncRoot()
-extern "C" Object_t * SyncHashtable_get_SyncRoot_m17122 (SyncHashtable_t4463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SyncHashtable_get_SyncRoot_m21036 (SyncHashtable_t4948 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ICollection System.Collections.Hashtable/SyncHashtable::get_Keys()
-extern "C" Object_t * SyncHashtable_get_Keys_m17123 (SyncHashtable_t4463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SyncHashtable_get_Keys_m21037 (SyncHashtable_t4948 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ICollection System.Collections.Hashtable/SyncHashtable::get_Values()
-extern "C" Object_t * SyncHashtable_get_Values_m17124 (SyncHashtable_t4463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SyncHashtable_get_Values_m21038 (SyncHashtable_t4948 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.Hashtable/SyncHashtable::get_Item(System.Object)
-extern "C" Object_t * SyncHashtable_get_Item_m17125 (SyncHashtable_t4463 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SyncHashtable_get_Item_m21039 (SyncHashtable_t4948 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Hashtable/SyncHashtable::set_Item(System.Object,System.Object)
-extern "C" void SyncHashtable_set_Item_m17126 (SyncHashtable_t4463 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SyncHashtable_set_Item_m21040 (SyncHashtable_t4948 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Hashtable/SyncHashtable::CopyTo(System.Array,System.Int32)
-extern "C" void SyncHashtable_CopyTo_m17127 (SyncHashtable_t4463 * __this, Array_t * ___array, int32_t ___arrayIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SyncHashtable_CopyTo_m21041 (SyncHashtable_t4948 * __this, Array_t * ___array, int32_t ___arrayIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Hashtable/SyncHashtable::Add(System.Object,System.Object)
-extern "C" void SyncHashtable_Add_m17128 (SyncHashtable_t4463 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SyncHashtable_Add_m21042 (SyncHashtable_t4948 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Hashtable/SyncHashtable::Clear()
-extern "C" void SyncHashtable_Clear_m17129 (SyncHashtable_t4463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SyncHashtable_Clear_m21043 (SyncHashtable_t4948 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.Hashtable/SyncHashtable::Contains(System.Object)
-extern "C" bool SyncHashtable_Contains_m17130 (SyncHashtable_t4463 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SyncHashtable_Contains_m21044 (SyncHashtable_t4948 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IDictionaryEnumerator System.Collections.Hashtable/SyncHashtable::GetEnumerator()
-extern "C" Object_t * SyncHashtable_GetEnumerator_m17131 (SyncHashtable_t4463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SyncHashtable_GetEnumerator_m21045 (SyncHashtable_t4948 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Hashtable/SyncHashtable::Remove(System.Object)
-extern "C" void SyncHashtable_Remove_m17132 (SyncHashtable_t4463 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SyncHashtable_Remove_m21046 (SyncHashtable_t4948 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.Hashtable/SyncHashtable::ContainsKey(System.Object)
-extern "C" bool SyncHashtable_ContainsKey_m17133 (SyncHashtable_t4463 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SyncHashtable_ContainsKey_m21047 (SyncHashtable_t4948 * __this, Object_t * ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.Hashtable/SyncHashtable::Clone()
-extern "C" Object_t * SyncHashtable_Clone_m17134 (SyncHashtable_t4463 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SyncHashtable_Clone_m21048 (SyncHashtable_t4948 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,14 +5,14 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Linq.SortContext`1<System.Object>
-struct SortContext_1_t6100;
+struct SortContext_1_t6633;
 // System.Object[]
 struct ObjectU5BU5D_t696;
 // System.Linq.SortDirection
 #include "System_Core_System_Linq_SortDirection.h"
 
 // System.Void System.Linq.SortContext`1<System.Object>::.ctor(System.Linq.SortDirection,System.Linq.SortContext`1<TElement>)
-extern "C" void SortContext_1__ctor_m32229_gshared (SortContext_1_t6100 * __this, int32_t ___direction, SortContext_1_t6100 * ___child_context, const MethodInfo* method);
-#define SortContext_1__ctor_m32229(__this, ___direction, ___child_context, method) (( void (*) (SortContext_1_t6100 *, int32_t, SortContext_1_t6100 *, const MethodInfo*))SortContext_1__ctor_m32229_gshared)(__this, ___direction, ___child_context, method)
+extern "C" void SortContext_1__ctor_m36459_gshared (SortContext_1_t6633 * __this, int32_t ___direction, SortContext_1_t6633 * ___child_context, const MethodInfo* method);
+#define SortContext_1__ctor_m36459(__this, ___direction, ___child_context, method) (( void (*) (SortContext_1_t6633 *, int32_t, SortContext_1_t6633 *, const MethodInfo*))SortContext_1__ctor_m36459_gshared)(__this, ___direction, ___child_context, method)
 // System.Void System.Linq.SortContext`1<System.Object>::Initialize(TElement[])
 // System.Int32 System.Linq.SortContext`1<System.Object>::Compare(System.Int32,System.Int32)

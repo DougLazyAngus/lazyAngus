@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Linq.Expressions.MemberBinding
-struct MemberBinding_t3351;
+struct MemberBinding_t3770;
 // System.Reflection.MemberInfo
 struct MemberInfo_t;
 // System.String
@@ -14,8 +14,8 @@ struct String_t;
 #include "System_Core_System_Linq_Expressions_MemberBindingType.h"
 
 // System.Linq.Expressions.MemberBindingType System.Linq.Expressions.MemberBinding::get_BindingType()
-extern "C" int32_t MemberBinding_get_BindingType_m11849 (MemberBinding_t3351 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MemberBinding_get_BindingType_m15096 (MemberBinding_t3770 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MemberInfo System.Linq.Expressions.MemberBinding::get_Member()
-extern "C" MemberInfo_t * MemberBinding_get_Member_m11850 (MemberBinding_t3351 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MemberInfo_t * MemberBinding_get_Member_m15097 (MemberBinding_t3770 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Linq.Expressions.MemberBinding::ToString()
-extern "C" String_t* MemberBinding_ToString_m11851 (MemberBinding_t3351 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* MemberBinding_ToString_m15098 (MemberBinding_t3770 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

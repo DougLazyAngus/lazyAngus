@@ -10,4 +10,4 @@ struct GcAchievementDescriptionData_t2862;
 struct AchievementDescription_t2875;
 
 // UnityEngine.SocialPlatforms.Impl.AchievementDescription UnityEngine.SocialPlatforms.GameCenter.GcAchievementDescriptionData::ToAchievementDescription()
-extern "C" AchievementDescription_t2875 * GcAchievementDescriptionData_ToAchievementDescription_m10026 (GcAchievementDescriptionData_t2862 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AchievementDescription_t2875 * GcAchievementDescriptionData_ToAchievementDescription_m10029 (GcAchievementDescriptionData_t2862 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

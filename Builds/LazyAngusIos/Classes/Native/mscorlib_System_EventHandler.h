@@ -13,6 +13,6 @@ struct AsyncCallback_t386;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.EventHandler
-struct  EventHandler_t4074  : public MulticastDelegate_t388
+struct  EventHandler_t4260  : public MulticastDelegate_t388
 {
 };

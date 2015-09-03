@@ -7,7 +7,7 @@ struct ConstructorInfo_t1398;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.MonoTypeInfo
-struct  MonoTypeInfo_t4843  : public Object_t
+struct  MonoTypeInfo_t4897  : public Object_t
 {
 	// System.String System.MonoTypeInfo::full_name
 	String_t* ___full_name_0;

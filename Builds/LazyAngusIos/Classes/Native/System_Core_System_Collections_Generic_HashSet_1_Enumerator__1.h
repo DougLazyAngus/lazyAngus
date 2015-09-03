@@ -7,7 +7,7 @@ struct String_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.HashSet`1/Enumerator<System.String>
-struct  Enumerator_t6128 
+struct  Enumerator_t6661 
 {
 	// System.Collections.Generic.HashSet`1<T> System.Collections.Generic.HashSet`1/Enumerator<System.String>::hashset
 	HashSet_1_t1307 * ___hashset_0;

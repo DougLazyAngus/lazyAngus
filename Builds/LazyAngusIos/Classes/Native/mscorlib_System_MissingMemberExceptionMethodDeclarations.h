@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.MissingMemberException
-struct MissingMemberException_t4837;
+struct MissingMemberException_t4892;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
@@ -14,14 +14,14 @@ struct SerializationInfo_t2936;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.MissingMemberException::.ctor()
-extern "C" void MissingMemberException__ctor_m19961 (MissingMemberException_t4837 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MissingMemberException__ctor_m20481 (MissingMemberException_t4892 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MissingMemberException::.ctor(System.String)
-extern "C" void MissingMemberException__ctor_m19962 (MissingMemberException_t4837 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MissingMemberException__ctor_m20482 (MissingMemberException_t4892 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MissingMemberException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void MissingMemberException__ctor_m19963 (MissingMemberException_t4837 * __this, SerializationInfo_t2936 * ___info, StreamingContext_t2937  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MissingMemberException__ctor_m20483 (MissingMemberException_t4892 * __this, SerializationInfo_t2936 * ___info, StreamingContext_t2937  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MissingMemberException::.ctor(System.String,System.String)
-extern "C" void MissingMemberException__ctor_m19964 (MissingMemberException_t4837 * __this, String_t* ___className, String_t* ___memberName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MissingMemberException__ctor_m20484 (MissingMemberException_t4892 * __this, String_t* ___className, String_t* ___memberName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.MissingMemberException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void MissingMemberException_GetObjectData_m19965 (MissingMemberException_t4837 * __this, SerializationInfo_t2936 * ___info, StreamingContext_t2937  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MissingMemberException_GetObjectData_m20485 (MissingMemberException_t4892 * __this, SerializationInfo_t2936 * ___info, StreamingContext_t2937  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.MissingMemberException::get_Message()
-extern "C" String_t* MissingMemberException_get_Message_m19966 (MissingMemberException_t4837 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* MissingMemberException_get_Message_m20486 (MissingMemberException_t4892 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
