@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.RectTransformUtility
-struct RectTransformUtility_t1085;
+struct RectTransformUtility_t1088;
 // UnityEngine.RectTransform
 struct RectTransform_t545;
 // UnityEngine.Camera
@@ -36,13 +36,13 @@ extern "C" void RectTransformUtility_PixelAdjustPoint_m9793 (Object_t * __this /
 // System.Void UnityEngine.RectTransformUtility::INTERNAL_CALL_PixelAdjustPoint(UnityEngine.Vector2&,UnityEngine.Transform,UnityEngine.Canvas,UnityEngine.Vector2&)
 extern "C" void RectTransformUtility_INTERNAL_CALL_PixelAdjustPoint_m9794 (Object_t * __this /* static, unused */, Vector2_t110 * ___point, Transform_t406 * ___elementTransform, Canvas_t547 * ___canvas, Vector2_t110 * ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rect UnityEngine.RectTransformUtility::PixelAdjustRect(UnityEngine.RectTransform,UnityEngine.Canvas)
-extern "C" Rect_t709  RectTransformUtility_PixelAdjustRect_m6093 (Object_t * __this /* static, unused */, RectTransform_t545 * ___rectTransform, Canvas_t547 * ___canvas, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rect_t712  RectTransformUtility_PixelAdjustRect_m6093 (Object_t * __this /* static, unused */, RectTransform_t545 * ___rectTransform, Canvas_t547 * ___canvas, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.RectTransformUtility::ScreenPointToWorldPointInRectangle(UnityEngine.RectTransform,UnityEngine.Vector2,UnityEngine.Camera,UnityEngine.Vector3&)
 extern "C" bool RectTransformUtility_ScreenPointToWorldPointInRectangle_m9795 (Object_t * __this /* static, unused */, RectTransform_t545 * ___rect, Vector2_t110  ___screenPoint, Camera_t548 * ___cam, Vector3_t538 * ___worldPoint, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.RectTransformUtility::ScreenPointToLocalPointInRectangle(UnityEngine.RectTransform,UnityEngine.Vector2,UnityEngine.Camera,UnityEngine.Vector2&)
 extern "C" bool RectTransformUtility_ScreenPointToLocalPointInRectangle_m6151 (Object_t * __this /* static, unused */, RectTransform_t545 * ___rect, Vector2_t110  ___screenPoint, Camera_t548 * ___cam, Vector2_t110 * ___localPoint, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Ray UnityEngine.RectTransformUtility::ScreenPointToRay(UnityEngine.Camera,UnityEngine.Vector2)
-extern "C" Ray_t777  RectTransformUtility_ScreenPointToRay_m9796 (Object_t * __this /* static, unused */, Camera_t548 * ___cam, Vector2_t110  ___screenPos, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Ray_t780  RectTransformUtility_ScreenPointToRay_m9796 (Object_t * __this /* static, unused */, Camera_t548 * ___cam, Vector2_t110  ___screenPos, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransformUtility::FlipLayoutOnAxis(UnityEngine.RectTransform,System.Int32,System.Boolean,System.Boolean)
 extern "C" void RectTransformUtility_FlipLayoutOnAxis_m6256 (Object_t * __this /* static, unused */, RectTransform_t545 * ___rect, int32_t ___axis, bool ___keepPositioning, bool ___recursive, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransformUtility::FlipLayoutAxes(UnityEngine.RectTransform,System.Boolean,System.Boolean)

@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<GoogleMobileAdBanner>
-struct IList_1_t6063;
+struct IList_1_t6066;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.ObjectModel.ReadOnlyCollection`1<GoogleMobileAdBanner>
-struct  ReadOnlyCollection_1_t6064  : public Object_t
+struct  ReadOnlyCollection_1_t6067  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<GoogleMobileAdBanner>::list
 	Object_t* ___list_0;

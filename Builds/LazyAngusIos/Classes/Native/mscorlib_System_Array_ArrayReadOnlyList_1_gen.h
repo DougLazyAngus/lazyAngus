@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Object[]
-struct ObjectU5BU5D_t697;
+struct ObjectU5BU5D_t700;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Array/ArrayReadOnlyList`1<System.Object>
-struct  ArrayReadOnlyList_1_t9279  : public Object_t
+struct  ArrayReadOnlyList_1_t9284  : public Object_t
 {
 	// T[] System.Array/ArrayReadOnlyList`1<System.Object>::array
-	ObjectU5BU5D_t697* ___array_0;
+	ObjectU5BU5D_t700* ___array_0;
 };

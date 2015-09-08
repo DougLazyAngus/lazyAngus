@@ -4,20 +4,21 @@ using System.Collections;
 public class TipConfig {
 	public string tipID;
 	public string tipText;
-	public Vector2 tipPosition;
+	public string previousTipID;
 
-	public TipConfig(string tipID, 
-	                 string tipText, 
-	                 Vector2 tipPosition) {
-		this.tipID = tipID;
-		this.tipText = tipText;
-		this.tipPosition = tipPosition;
-	}
 	public TipConfig(string tipID, 
 	                 string tipText) {
 		this.tipID = tipID;
 		this.tipText = tipText;
-		this.tipPosition = new Vector2 (0f, 0f);
+		this.previousTipID = null;
+	}
+
+	public TipConfig(string tipID, 
+	                 string tipText,
+		             string previousTipID) {
+		this.tipID = tipID;
+		this.tipText = tipText;
+		this.previousTipID = previousTipID;
 	}
 }
 
@@ -57,9 +58,12 @@ public class TipController : MonoBehaviour {
 	}		
 
 	void OnPhaseChanged() {
-		if (GamePhaseState.instance.IsPlaying()) {
+		if (GamePhaseState.instance.IsPlaying ()) {
 			EnqueueTipForLevel ();
-		} else {
+		}
+
+		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.LEVEL_PLAY && 
+		    GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.PENDING) {
 			ClearEnqueuedTips ();
 		}
 	}
@@ -81,6 +85,12 @@ public class TipController : MonoBehaviour {
 		StartCoroutine (enqueuedTip);
 	}
 
+	public void EnqueueAnytimeTip(string message) {
+		TipConfig tipConfig = new TipConfig (null, 
+		                                     message);
+		EnqueueTip (tipConfig, 0.001f); 
+	}
+
 	IEnumerator PlayTipWithPause(TipConfig tipConfig, 
 	                             float tipPause) {
 		yield return new WaitForSeconds (tipPause);
@@ -95,11 +105,23 @@ public class TipController : MonoBehaviour {
 		}
 	}
 
-	public bool MaybeShowTip(TipConfig tipConfig) {
-		bool showedTip = PersistentStorage.instance.GetBoolValue ("tip." + tipConfig.tipID, 
-		                                                          false);
-		if (showedTip) {
+	bool DidShowTip(string tipID) {
+		if (tipID == null) {
 			return false;
+		}
+		return PersistentStorage.instance.GetBoolValue ("tip." + tipID, 
+		                                                false);
+	}
+
+	public bool MaybeShowTip(TipConfig tipConfig) {
+		if (DidShowTip(tipConfig.tipID)) {
+			return false;
+		}
+
+		if (tipConfig.previousTipID != null) {
+			if (!DidShowTip(tipConfig.previousTipID)) {
+				return false;
+			}
 		}
 
 		if (DialogController.instance.IsDialogShowing ()) {
@@ -112,12 +134,13 @@ public class TipController : MonoBehaviour {
 		tipDialogObject.transform.localScale = new Vector3 (1f, 1f, 1f);
 
 		TipDialog td = tipDialogObject.GetComponent<TipDialog> ();
-		td.ConfigureDialog (tipConfig.tipText, 
-		                   	tipConfig.tipPosition);
+		td.ConfigureDialog (tipConfig.tipText);
 			
 		DialogController.instance.ShowDialog (tipDialogObject);
-		PersistentStorage.instance.SetBoolValue ("tip." + tipConfig.tipID, 
-		                                        true);
+		if (tipConfig.tipID != null) {
+			PersistentStorage.instance.SetBoolValue ("tip." + tipConfig.tipID, 
+			                                         true);
+		}
 		return true;
 	}
 }

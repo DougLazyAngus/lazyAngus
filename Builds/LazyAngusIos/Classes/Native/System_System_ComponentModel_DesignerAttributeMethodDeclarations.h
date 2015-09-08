@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ComponentModel.DesignerAttribute
-struct DesignerAttribute_t4236;
+struct DesignerAttribute_t4239;
 // System.String
 struct String_t;
 // System.Object
@@ -14,16 +14,16 @@ struct Object_t;
 struct Type_t;
 
 // System.Void System.ComponentModel.DesignerAttribute::.ctor(System.String,System.Type)
-extern "C" void DesignerAttribute__ctor_m15801 (DesignerAttribute_t4236 * __this, String_t* ___designerTypeName, Type_t * ___designerBaseType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DesignerAttribute__ctor_m15801 (DesignerAttribute_t4239 * __this, String_t* ___designerTypeName, Type_t * ___designerBaseType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ComponentModel.DesignerAttribute::.ctor(System.String,System.String)
-extern "C" void DesignerAttribute__ctor_m15802 (DesignerAttribute_t4236 * __this, String_t* ___designerTypeName, String_t* ___designerBaseTypeName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DesignerAttribute__ctor_m15802 (DesignerAttribute_t4239 * __this, String_t* ___designerTypeName, String_t* ___designerBaseTypeName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.ComponentModel.DesignerAttribute::get_DesignerBaseTypeName()
-extern "C" String_t* DesignerAttribute_get_DesignerBaseTypeName_m15803 (DesignerAttribute_t4236 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DesignerAttribute_get_DesignerBaseTypeName_m15803 (DesignerAttribute_t4239 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.ComponentModel.DesignerAttribute::get_DesignerTypeName()
-extern "C" String_t* DesignerAttribute_get_DesignerTypeName_m15804 (DesignerAttribute_t4236 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* DesignerAttribute_get_DesignerTypeName_m15804 (DesignerAttribute_t4239 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.ComponentModel.DesignerAttribute::get_TypeId()
-extern "C" Object_t * DesignerAttribute_get_TypeId_m15805 (DesignerAttribute_t4236 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * DesignerAttribute_get_TypeId_m15805 (DesignerAttribute_t4239 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.ComponentModel.DesignerAttribute::Equals(System.Object)
-extern "C" bool DesignerAttribute_Equals_m15806 (DesignerAttribute_t4236 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DesignerAttribute_Equals_m15806 (DesignerAttribute_t4239 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.ComponentModel.DesignerAttribute::GetHashCode()
-extern "C" int32_t DesignerAttribute_GetHashCode_m15807 (DesignerAttribute_t4236 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t DesignerAttribute_GetHashCode_m15807 (DesignerAttribute_t4239 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

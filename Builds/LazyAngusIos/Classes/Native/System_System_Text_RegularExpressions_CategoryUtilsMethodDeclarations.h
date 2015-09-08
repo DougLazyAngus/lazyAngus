@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.CategoryUtils
-struct CategoryUtils_t4483;
+struct CategoryUtils_t4486;
 // System.String
 struct String_t;
 // System.Text.RegularExpressions.Category

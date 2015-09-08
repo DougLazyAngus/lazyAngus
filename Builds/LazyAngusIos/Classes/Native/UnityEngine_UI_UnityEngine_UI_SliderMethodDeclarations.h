@@ -9,15 +9,15 @@ struct Slider_t497;
 // UnityEngine.RectTransform
 struct RectTransform_t545;
 // UnityEngine.UI.Slider/SliderEvent
-struct SliderEvent_t992;
+struct SliderEvent_t995;
 // UnityEngine.EventSystems.PointerEventData
-struct PointerEventData_t900;
+struct PointerEventData_t903;
 // UnityEngine.Camera
 struct Camera_t548;
 // UnityEngine.EventSystems.AxisEventData
-struct AxisEventData_t896;
+struct AxisEventData_t899;
 // UnityEngine.UI.Selectable
-struct Selectable_t923;
+struct Selectable_t926;
 // UnityEngine.Transform
 struct Transform_t406;
 // UnityEngine.UI.Slider/Direction
@@ -62,9 +62,9 @@ extern "C" float Slider_get_normalizedValue_m5596 (Slider_t497 * __this, const M
 // System.Void UnityEngine.UI.Slider::set_normalizedValue(System.Single)
 extern "C" void Slider_set_normalizedValue_m5597 (Slider_t497 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Slider/SliderEvent UnityEngine.UI.Slider::get_onValueChanged()
-extern "C" SliderEvent_t992 * Slider_get_onValueChanged_m5598 (Slider_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SliderEvent_t995 * Slider_get_onValueChanged_m5598 (Slider_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::set_onValueChanged(UnityEngine.UI.Slider/SliderEvent)
-extern "C" void Slider_set_onValueChanged_m5599 (Slider_t497 * __this, SliderEvent_t992 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_set_onValueChanged_m5599 (Slider_t497 * __this, SliderEvent_t995 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.Slider::get_stepSize()
 extern "C" float Slider_get_stepSize_m5600 (Slider_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::Rebuild(UnityEngine.UI.CanvasUpdate)
@@ -88,25 +88,25 @@ extern "C" bool Slider_get_reverseValue_m5609 (Slider_t497 * __this, const Metho
 // System.Void UnityEngine.UI.Slider::UpdateVisuals()
 extern "C" void Slider_UpdateVisuals_m5610 (Slider_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::UpdateDrag(UnityEngine.EventSystems.PointerEventData,UnityEngine.Camera)
-extern "C" void Slider_UpdateDrag_m5611 (Slider_t497 * __this, PointerEventData_t900 * ___eventData, Camera_t548 * ___cam, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_UpdateDrag_m5611 (Slider_t497 * __this, PointerEventData_t903 * ___eventData, Camera_t548 * ___cam, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.Slider::MayDrag(UnityEngine.EventSystems.PointerEventData)
-extern "C" bool Slider_MayDrag_m5612 (Slider_t497 * __this, PointerEventData_t900 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Slider_MayDrag_m5612 (Slider_t497 * __this, PointerEventData_t903 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
-extern "C" void Slider_OnPointerDown_m5613 (Slider_t497 * __this, PointerEventData_t900 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_OnPointerDown_m5613 (Slider_t497 * __this, PointerEventData_t903 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::OnDrag(UnityEngine.EventSystems.PointerEventData)
-extern "C" void Slider_OnDrag_m5614 (Slider_t497 * __this, PointerEventData_t900 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_OnDrag_m5614 (Slider_t497 * __this, PointerEventData_t903 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::OnMove(UnityEngine.EventSystems.AxisEventData)
-extern "C" void Slider_OnMove_m5615 (Slider_t497 * __this, AxisEventData_t896 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_OnMove_m5615 (Slider_t497 * __this, AxisEventData_t899 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Selectable UnityEngine.UI.Slider::FindSelectableOnLeft()
-extern "C" Selectable_t923 * Slider_FindSelectableOnLeft_m5616 (Slider_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Selectable_t926 * Slider_FindSelectableOnLeft_m5616 (Slider_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Selectable UnityEngine.UI.Slider::FindSelectableOnRight()
-extern "C" Selectable_t923 * Slider_FindSelectableOnRight_m5617 (Slider_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Selectable_t926 * Slider_FindSelectableOnRight_m5617 (Slider_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Selectable UnityEngine.UI.Slider::FindSelectableOnUp()
-extern "C" Selectable_t923 * Slider_FindSelectableOnUp_m5618 (Slider_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Selectable_t926 * Slider_FindSelectableOnUp_m5618 (Slider_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Selectable UnityEngine.UI.Slider::FindSelectableOnDown()
-extern "C" Selectable_t923 * Slider_FindSelectableOnDown_m5619 (Slider_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Selectable_t926 * Slider_FindSelectableOnDown_m5619 (Slider_t497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::OnInitializePotentialDrag(UnityEngine.EventSystems.PointerEventData)
-extern "C" void Slider_OnInitializePotentialDrag_m5620 (Slider_t497 * __this, PointerEventData_t900 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_OnInitializePotentialDrag_m5620 (Slider_t497 * __this, PointerEventData_t903 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::SetDirection(UnityEngine.UI.Slider/Direction,System.Boolean)
 extern "C" void Slider_SetDirection_m5621 (Slider_t497 * __this, int32_t ___direction, bool ___includeRectLayouts, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.Slider::UnityEngine.UI.ICanvasElement.IsDestroyed()

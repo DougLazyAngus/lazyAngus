@@ -11,9 +11,9 @@ struct Type_t;
 // System.String
 struct String_t;
 // System.Reflection.Module
-struct Module_t5024;
+struct Module_t5027;
 // System.Object[]
-struct ObjectU5BU5D_t697;
+struct ObjectU5BU5D_t700;
 // System.Reflection.MemberTypes
 #include "mscorlib_System_Reflection_MemberTypes.h"
 
@@ -24,7 +24,7 @@ extern "C" void MemberInfo__ctor_m19263 (MemberInfo_t * __this, const MethodInfo
 // System.String System.Reflection.MemberInfo::get_Name()
 // System.Type System.Reflection.MemberInfo::get_ReflectedType()
 // System.Reflection.Module System.Reflection.MemberInfo::get_Module()
-extern "C" Module_t5024 * MemberInfo_get_Module_m19264 (MemberInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Module_t5027 * MemberInfo_get_Module_m19264 (MemberInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.MemberInfo::IsDefined(System.Type,System.Boolean)
 // System.Object[] System.Reflection.MemberInfo::GetCustomAttributes(System.Boolean)
 // System.Object[] System.Reflection.MemberInfo::GetCustomAttributes(System.Type,System.Boolean)

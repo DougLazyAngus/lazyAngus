@@ -5,7 +5,7 @@
 // UnityEngine.UserAuthorizationDialog
 #include "UnityEngine_UnityEngine_UserAuthorizationDialog.h"
 // Metadata Definition UnityEngine.UserAuthorizationDialog
-extern TypeInfo UserAuthorizationDialog_t2910_il2cpp_TypeInfo;
+extern TypeInfo UserAuthorizationDialog_t2913_il2cpp_TypeInfo;
 // UnityEngine.UserAuthorizationDialog
 #include "UnityEngine_UnityEngine_UserAuthorizationDialogMethodDeclarations.h"
 extern const Il2CppType Void_t85_0_0_0;
@@ -15,7 +15,7 @@ extern const MethodInfo UserAuthorizationDialog__ctor_m10232_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&UserAuthorizationDialog__ctor_m10232/* method */
-	, &UserAuthorizationDialog_t2910_il2cpp_TypeInfo/* declaring_type */
+	, &UserAuthorizationDialog_t2913_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -38,7 +38,7 @@ extern const MethodInfo UserAuthorizationDialog_Start_m10233_MethodInfo =
 {
 	"Start"/* name */
 	, (methodPointerType)&UserAuthorizationDialog_Start_m10233/* method */
-	, &UserAuthorizationDialog_t2910_il2cpp_TypeInfo/* declaring_type */
+	, &UserAuthorizationDialog_t2913_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -61,7 +61,7 @@ extern const MethodInfo UserAuthorizationDialog_OnGUI_m10234_MethodInfo =
 {
 	"OnGUI"/* name */
 	, (methodPointerType)&UserAuthorizationDialog_OnGUI_m10234/* method */
-	, &UserAuthorizationDialog_t2910_il2cpp_TypeInfo/* declaring_type */
+	, &UserAuthorizationDialog_t2913_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -80,7 +80,7 @@ extern const MethodInfo UserAuthorizationDialog_OnGUI_m10234_MethodInfo =
 };
 extern const Il2CppType Int32_t82_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo UserAuthorizationDialog_t2910_UserAuthorizationDialog_DoUserAuthorizationDialog_m10235_ParameterInfos[] = 
+static const ParameterInfo UserAuthorizationDialog_t2913_UserAuthorizationDialog_DoUserAuthorizationDialog_m10235_ParameterInfos[] = 
 {
 	{"windowID", 0, 134219955, 0, &Int32_t82_0_0_0},
 };
@@ -90,10 +90,10 @@ extern const MethodInfo UserAuthorizationDialog_DoUserAuthorizationDialog_m10235
 {
 	"DoUserAuthorizationDialog"/* name */
 	, (methodPointerType)&UserAuthorizationDialog_DoUserAuthorizationDialog_m10235/* method */
-	, &UserAuthorizationDialog_t2910_il2cpp_TypeInfo/* declaring_type */
+	, &UserAuthorizationDialog_t2913_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, UserAuthorizationDialog_t2910_UserAuthorizationDialog_DoUserAuthorizationDialog_m10235_ParameterInfos/* parameters */
+	, UserAuthorizationDialog_t2913_UserAuthorizationDialog_DoUserAuthorizationDialog_m10235_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -107,7 +107,7 @@ extern const MethodInfo UserAuthorizationDialog_DoUserAuthorizationDialog_m10235
 	, NULL/* dummy */
 
 };
-static const MethodInfo* UserAuthorizationDialog_t2910_MethodInfos[] =
+static const MethodInfo* UserAuthorizationDialog_t2913_MethodInfos[] =
 {
 	&UserAuthorizationDialog__ctor_m10232_MethodInfo,
 	&UserAuthorizationDialog_Start_m10233_MethodInfo,
@@ -119,14 +119,14 @@ extern const MethodInfo Object_Equals_m525_MethodInfo;
 extern const MethodInfo Object_Finalize_m490_MethodInfo;
 extern const MethodInfo Object_GetHashCode_m526_MethodInfo;
 extern const MethodInfo Object_ToString_m527_MethodInfo;
-static const Il2CppMethodReference UserAuthorizationDialog_t2910_VTable[] =
+static const Il2CppMethodReference UserAuthorizationDialog_t2913_VTable[] =
 {
 	&Object_Equals_m525_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m526_MethodInfo,
 	&Object_ToString_m527_MethodInfo,
 };
-static bool UserAuthorizationDialog_t2910_VTableIsGenericMethod[] =
+static bool UserAuthorizationDialog_t2913_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -134,38 +134,38 @@ static bool UserAuthorizationDialog_t2910_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
-extern const Il2CppType UserAuthorizationDialog_t2910_0_0_0;
-extern const Il2CppType UserAuthorizationDialog_t2910_1_0_0;
+extern const Il2CppType UserAuthorizationDialog_t2913_0_0_0;
+extern const Il2CppType UserAuthorizationDialog_t2913_1_0_0;
 extern const Il2CppType MonoBehaviour_t13_0_0_0;
-struct UserAuthorizationDialog_t2910;
-const Il2CppTypeDefinitionMetadata UserAuthorizationDialog_t2910_DefinitionMetadata = 
+struct UserAuthorizationDialog_t2913;
+const Il2CppTypeDefinitionMetadata UserAuthorizationDialog_t2913_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &MonoBehaviour_t13_0_0_0/* parent */
-	, UserAuthorizationDialog_t2910_VTable/* vtableMethods */
-	, UserAuthorizationDialog_t2910_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, UserAuthorizationDialog_t2913_VTable/* vtableMethods */
+	, UserAuthorizationDialog_t2913_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1362/* fieldStart */
 
 };
-TypeInfo UserAuthorizationDialog_t2910_il2cpp_TypeInfo = 
+TypeInfo UserAuthorizationDialog_t2913_il2cpp_TypeInfo = 
 {
 	&g_UnityEngine_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "UserAuthorizationDialog"/* name */
 	, "UnityEngine"/* namespaze */
-	, UserAuthorizationDialog_t2910_MethodInfos/* methods */
+	, UserAuthorizationDialog_t2913_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &UserAuthorizationDialog_t2910_il2cpp_TypeInfo/* element_class */
+	, &UserAuthorizationDialog_t2913_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 823/* custom_attributes_cache */
-	, &UserAuthorizationDialog_t2910_0_0_0/* byval_arg */
-	, &UserAuthorizationDialog_t2910_1_0_0/* this_arg */
-	, &UserAuthorizationDialog_t2910_DefinitionMetadata/* definitionMetadata */
+	, &UserAuthorizationDialog_t2913_0_0_0/* byval_arg */
+	, &UserAuthorizationDialog_t2913_1_0_0/* this_arg */
+	, &UserAuthorizationDialog_t2913_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -175,8 +175,8 @@ TypeInfo UserAuthorizationDialog_t2910_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (UserAuthorizationDialog_t2910)/* instance_size */
-	, sizeof (UserAuthorizationDialog_t2910)/* actualSize */
+	, sizeof (UserAuthorizationDialog_t2913)/* instance_size */
+	, sizeof (UserAuthorizationDialog_t2913)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -208,12 +208,12 @@ TypeInfo UserAuthorizationDialog_t2910_il2cpp_TypeInfo =
 // UnityEngine.Internal.DefaultValueAttribute
 #include "UnityEngine_UnityEngine_Internal_DefaultValueAttribute.h"
 // Metadata Definition UnityEngine.Internal.DefaultValueAttribute
-extern TypeInfo DefaultValueAttribute_t2911_il2cpp_TypeInfo;
+extern TypeInfo DefaultValueAttribute_t2914_il2cpp_TypeInfo;
 // UnityEngine.Internal.DefaultValueAttribute
 #include "UnityEngine_UnityEngine_Internal_DefaultValueAttributeMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo DefaultValueAttribute_t2911_DefaultValueAttribute__ctor_m10236_ParameterInfos[] = 
+static const ParameterInfo DefaultValueAttribute_t2914_DefaultValueAttribute__ctor_m10236_ParameterInfos[] = 
 {
 	{"value", 0, 134219956, 0, &String_t_0_0_0},
 };
@@ -223,10 +223,10 @@ extern const MethodInfo DefaultValueAttribute__ctor_m10236_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&DefaultValueAttribute__ctor_m10236/* method */
-	, &DefaultValueAttribute_t2911_il2cpp_TypeInfo/* declaring_type */
+	, &DefaultValueAttribute_t2914_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, DefaultValueAttribute_t2911_DefaultValueAttribute__ctor_m10236_ParameterInfos/* parameters */
+	, DefaultValueAttribute_t2914_DefaultValueAttribute__ctor_m10236_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -247,7 +247,7 @@ extern const MethodInfo DefaultValueAttribute_get_Value_m10237_MethodInfo =
 {
 	"get_Value"/* name */
 	, (methodPointerType)&DefaultValueAttribute_get_Value_m10237/* method */
-	, &DefaultValueAttribute_t2911_il2cpp_TypeInfo/* declaring_type */
+	, &DefaultValueAttribute_t2914_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -265,7 +265,7 @@ extern const MethodInfo DefaultValueAttribute_get_Value_m10237_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo DefaultValueAttribute_t2911_DefaultValueAttribute_Equals_m10238_ParameterInfos[] = 
+static const ParameterInfo DefaultValueAttribute_t2914_DefaultValueAttribute_Equals_m10238_ParameterInfos[] = 
 {
 	{"obj", 0, 134219957, 0, &Object_t_0_0_0},
 };
@@ -276,10 +276,10 @@ extern const MethodInfo DefaultValueAttribute_Equals_m10238_MethodInfo =
 {
 	"Equals"/* name */
 	, (methodPointerType)&DefaultValueAttribute_Equals_m10238/* method */
-	, &DefaultValueAttribute_t2911_il2cpp_TypeInfo/* declaring_type */
+	, &DefaultValueAttribute_t2914_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, DefaultValueAttribute_t2911_DefaultValueAttribute_Equals_m10238_ParameterInfos/* parameters */
+	, DefaultValueAttribute_t2914_DefaultValueAttribute_Equals_m10238_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -299,7 +299,7 @@ extern const MethodInfo DefaultValueAttribute_GetHashCode_m10239_MethodInfo =
 {
 	"GetHashCode"/* name */
 	, (methodPointerType)&DefaultValueAttribute_GetHashCode_m10239/* method */
-	, &DefaultValueAttribute_t2911_il2cpp_TypeInfo/* declaring_type */
+	, &DefaultValueAttribute_t2914_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -316,7 +316,7 @@ extern const MethodInfo DefaultValueAttribute_GetHashCode_m10239_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* DefaultValueAttribute_t2911_MethodInfos[] =
+static const MethodInfo* DefaultValueAttribute_t2914_MethodInfos[] =
 {
 	&DefaultValueAttribute__ctor_m10236_MethodInfo,
 	&DefaultValueAttribute_get_Value_m10237_MethodInfo,
@@ -325,9 +325,9 @@ static const MethodInfo* DefaultValueAttribute_t2911_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo DefaultValueAttribute_get_Value_m10237_MethodInfo;
-static const PropertyInfo DefaultValueAttribute_t2911____Value_PropertyInfo = 
+static const PropertyInfo DefaultValueAttribute_t2914____Value_PropertyInfo = 
 {
-	&DefaultValueAttribute_t2911_il2cpp_TypeInfo/* parent */
+	&DefaultValueAttribute_t2914_il2cpp_TypeInfo/* parent */
 	, "Value"/* name */
 	, &DefaultValueAttribute_get_Value_m10237_MethodInfo/* get */
 	, NULL/* set */
@@ -335,9 +335,9 @@ static const PropertyInfo DefaultValueAttribute_t2911____Value_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* DefaultValueAttribute_t2911_PropertyInfos[] =
+static const PropertyInfo* DefaultValueAttribute_t2914_PropertyInfos[] =
 {
-	&DefaultValueAttribute_t2911____Value_PropertyInfo,
+	&DefaultValueAttribute_t2914____Value_PropertyInfo,
 	NULL
 };
 extern const MethodInfo DefaultValueAttribute_Equals_m10238_MethodInfo;
@@ -345,7 +345,7 @@ extern const MethodInfo DefaultValueAttribute_GetHashCode_m10239_MethodInfo;
 extern const MethodInfo Object_ToString_m492_MethodInfo;
 extern const MethodInfo Attribute_get_TypeId_m493_MethodInfo;
 extern const MethodInfo Attribute_IsDefaultAttribute_m494_MethodInfo;
-static const Il2CppMethodReference DefaultValueAttribute_t2911_VTable[] =
+static const Il2CppMethodReference DefaultValueAttribute_t2914_VTable[] =
 {
 	&DefaultValueAttribute_Equals_m10238_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -354,7 +354,7 @@ static const Il2CppMethodReference DefaultValueAttribute_t2911_VTable[] =
 	&Attribute_get_TypeId_m493_MethodInfo,
 	&Attribute_IsDefaultAttribute_m494_MethodInfo,
 };
-static bool DefaultValueAttribute_t2911_VTableIsGenericMethod[] =
+static bool DefaultValueAttribute_t2914_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -364,43 +364,43 @@ static bool DefaultValueAttribute_t2911_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType _Attribute_t86_0_0_0;
-static Il2CppInterfaceOffsetPair DefaultValueAttribute_t2911_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair DefaultValueAttribute_t2914_InterfacesOffsets[] = 
 {
 	{ &_Attribute_t86_0_0_0, 4},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
-extern const Il2CppType DefaultValueAttribute_t2911_0_0_0;
-extern const Il2CppType DefaultValueAttribute_t2911_1_0_0;
+extern const Il2CppType DefaultValueAttribute_t2914_0_0_0;
+extern const Il2CppType DefaultValueAttribute_t2914_1_0_0;
 extern const Il2CppType Attribute_t426_0_0_0;
-struct DefaultValueAttribute_t2911;
-const Il2CppTypeDefinitionMetadata DefaultValueAttribute_t2911_DefinitionMetadata = 
+struct DefaultValueAttribute_t2914;
+const Il2CppTypeDefinitionMetadata DefaultValueAttribute_t2914_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, DefaultValueAttribute_t2911_InterfacesOffsets/* interfaceOffsets */
+	, DefaultValueAttribute_t2914_InterfacesOffsets/* interfaceOffsets */
 	, &Attribute_t426_0_0_0/* parent */
-	, DefaultValueAttribute_t2911_VTable/* vtableMethods */
-	, DefaultValueAttribute_t2911_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, DefaultValueAttribute_t2914_VTable/* vtableMethods */
+	, DefaultValueAttribute_t2914_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1366/* fieldStart */
 
 };
-TypeInfo DefaultValueAttribute_t2911_il2cpp_TypeInfo = 
+TypeInfo DefaultValueAttribute_t2914_il2cpp_TypeInfo = 
 {
 	&g_UnityEngine_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DefaultValueAttribute"/* name */
 	, "UnityEngine.Internal"/* namespaze */
-	, DefaultValueAttribute_t2911_MethodInfos/* methods */
-	, DefaultValueAttribute_t2911_PropertyInfos/* properties */
+	, DefaultValueAttribute_t2914_MethodInfos/* methods */
+	, DefaultValueAttribute_t2914_PropertyInfos/* properties */
 	, NULL/* events */
-	, &DefaultValueAttribute_t2911_il2cpp_TypeInfo/* element_class */
+	, &DefaultValueAttribute_t2914_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 824/* custom_attributes_cache */
-	, &DefaultValueAttribute_t2911_0_0_0/* byval_arg */
-	, &DefaultValueAttribute_t2911_1_0_0/* this_arg */
-	, &DefaultValueAttribute_t2911_DefinitionMetadata/* definitionMetadata */
+	, &DefaultValueAttribute_t2914_0_0_0/* byval_arg */
+	, &DefaultValueAttribute_t2914_1_0_0/* this_arg */
+	, &DefaultValueAttribute_t2914_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -410,8 +410,8 @@ TypeInfo DefaultValueAttribute_t2911_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DefaultValueAttribute_t2911)/* instance_size */
-	, sizeof (DefaultValueAttribute_t2911)/* actualSize */
+	, sizeof (DefaultValueAttribute_t2914)/* instance_size */
+	, sizeof (DefaultValueAttribute_t2914)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -443,7 +443,7 @@ TypeInfo DefaultValueAttribute_t2911_il2cpp_TypeInfo =
 // UnityEngine.Internal.ExcludeFromDocsAttribute
 #include "UnityEngine_UnityEngine_Internal_ExcludeFromDocsAttribute.h"
 // Metadata Definition UnityEngine.Internal.ExcludeFromDocsAttribute
-extern TypeInfo ExcludeFromDocsAttribute_t2912_il2cpp_TypeInfo;
+extern TypeInfo ExcludeFromDocsAttribute_t2915_il2cpp_TypeInfo;
 // UnityEngine.Internal.ExcludeFromDocsAttribute
 #include "UnityEngine_UnityEngine_Internal_ExcludeFromDocsAttributeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -452,7 +452,7 @@ extern const MethodInfo ExcludeFromDocsAttribute__ctor_m10240_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ExcludeFromDocsAttribute__ctor_m10240/* method */
-	, &ExcludeFromDocsAttribute_t2912_il2cpp_TypeInfo/* declaring_type */
+	, &ExcludeFromDocsAttribute_t2915_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -469,14 +469,14 @@ extern const MethodInfo ExcludeFromDocsAttribute__ctor_m10240_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ExcludeFromDocsAttribute_t2912_MethodInfos[] =
+static const MethodInfo* ExcludeFromDocsAttribute_t2915_MethodInfos[] =
 {
 	&ExcludeFromDocsAttribute__ctor_m10240_MethodInfo,
 	NULL
 };
 extern const MethodInfo Attribute_Equals_m489_MethodInfo;
 extern const MethodInfo Attribute_GetHashCode_m491_MethodInfo;
-static const Il2CppMethodReference ExcludeFromDocsAttribute_t2912_VTable[] =
+static const Il2CppMethodReference ExcludeFromDocsAttribute_t2915_VTable[] =
 {
 	&Attribute_Equals_m489_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -485,7 +485,7 @@ static const Il2CppMethodReference ExcludeFromDocsAttribute_t2912_VTable[] =
 	&Attribute_get_TypeId_m493_MethodInfo,
 	&Attribute_IsDefaultAttribute_m494_MethodInfo,
 };
-static bool ExcludeFromDocsAttribute_t2912_VTableIsGenericMethod[] =
+static bool ExcludeFromDocsAttribute_t2915_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -494,42 +494,42 @@ static bool ExcludeFromDocsAttribute_t2912_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair ExcludeFromDocsAttribute_t2912_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ExcludeFromDocsAttribute_t2915_InterfacesOffsets[] = 
 {
 	{ &_Attribute_t86_0_0_0, 4},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
-extern const Il2CppType ExcludeFromDocsAttribute_t2912_0_0_0;
-extern const Il2CppType ExcludeFromDocsAttribute_t2912_1_0_0;
-struct ExcludeFromDocsAttribute_t2912;
-const Il2CppTypeDefinitionMetadata ExcludeFromDocsAttribute_t2912_DefinitionMetadata = 
+extern const Il2CppType ExcludeFromDocsAttribute_t2915_0_0_0;
+extern const Il2CppType ExcludeFromDocsAttribute_t2915_1_0_0;
+struct ExcludeFromDocsAttribute_t2915;
+const Il2CppTypeDefinitionMetadata ExcludeFromDocsAttribute_t2915_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ExcludeFromDocsAttribute_t2912_InterfacesOffsets/* interfaceOffsets */
+	, ExcludeFromDocsAttribute_t2915_InterfacesOffsets/* interfaceOffsets */
 	, &Attribute_t426_0_0_0/* parent */
-	, ExcludeFromDocsAttribute_t2912_VTable/* vtableMethods */
-	, ExcludeFromDocsAttribute_t2912_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ExcludeFromDocsAttribute_t2915_VTable/* vtableMethods */
+	, ExcludeFromDocsAttribute_t2915_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo ExcludeFromDocsAttribute_t2912_il2cpp_TypeInfo = 
+TypeInfo ExcludeFromDocsAttribute_t2915_il2cpp_TypeInfo = 
 {
 	&g_UnityEngine_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ExcludeFromDocsAttribute"/* name */
 	, "UnityEngine.Internal"/* namespaze */
-	, ExcludeFromDocsAttribute_t2912_MethodInfos/* methods */
+	, ExcludeFromDocsAttribute_t2915_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ExcludeFromDocsAttribute_t2912_il2cpp_TypeInfo/* element_class */
+	, &ExcludeFromDocsAttribute_t2915_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 825/* custom_attributes_cache */
-	, &ExcludeFromDocsAttribute_t2912_0_0_0/* byval_arg */
-	, &ExcludeFromDocsAttribute_t2912_1_0_0/* this_arg */
-	, &ExcludeFromDocsAttribute_t2912_DefinitionMetadata/* definitionMetadata */
+	, &ExcludeFromDocsAttribute_t2915_0_0_0/* byval_arg */
+	, &ExcludeFromDocsAttribute_t2915_1_0_0/* this_arg */
+	, &ExcludeFromDocsAttribute_t2915_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -539,8 +539,8 @@ TypeInfo ExcludeFromDocsAttribute_t2912_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ExcludeFromDocsAttribute_t2912)/* instance_size */
-	, sizeof (ExcludeFromDocsAttribute_t2912)/* actualSize */
+	, sizeof (ExcludeFromDocsAttribute_t2915)/* instance_size */
+	, sizeof (ExcludeFromDocsAttribute_t2915)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -572,11 +572,11 @@ TypeInfo ExcludeFromDocsAttribute_t2912_il2cpp_TypeInfo =
 // UnityEngine.Serialization.FormerlySerializedAsAttribute
 #include "UnityEngine_UnityEngine_Serialization_FormerlySerializedAsAt.h"
 // Metadata Definition UnityEngine.Serialization.FormerlySerializedAsAttribute
-extern TypeInfo FormerlySerializedAsAttribute_t1126_il2cpp_TypeInfo;
+extern TypeInfo FormerlySerializedAsAttribute_t1129_il2cpp_TypeInfo;
 // UnityEngine.Serialization.FormerlySerializedAsAttribute
 #include "UnityEngine_UnityEngine_Serialization_FormerlySerializedAsAtMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo FormerlySerializedAsAttribute_t1126_FormerlySerializedAsAttribute__ctor_m6399_ParameterInfos[] = 
+static const ParameterInfo FormerlySerializedAsAttribute_t1129_FormerlySerializedAsAttribute__ctor_m6399_ParameterInfos[] = 
 {
 	{"oldName", 0, 134219958, 0, &String_t_0_0_0},
 };
@@ -586,10 +586,10 @@ extern const MethodInfo FormerlySerializedAsAttribute__ctor_m6399_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&FormerlySerializedAsAttribute__ctor_m6399/* method */
-	, &FormerlySerializedAsAttribute_t1126_il2cpp_TypeInfo/* declaring_type */
+	, &FormerlySerializedAsAttribute_t1129_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, FormerlySerializedAsAttribute_t1126_FormerlySerializedAsAttribute__ctor_m6399_ParameterInfos/* parameters */
+	, FormerlySerializedAsAttribute_t1129_FormerlySerializedAsAttribute__ctor_m6399_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -603,12 +603,12 @@ extern const MethodInfo FormerlySerializedAsAttribute__ctor_m6399_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* FormerlySerializedAsAttribute_t1126_MethodInfos[] =
+static const MethodInfo* FormerlySerializedAsAttribute_t1129_MethodInfos[] =
 {
 	&FormerlySerializedAsAttribute__ctor_m6399_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference FormerlySerializedAsAttribute_t1126_VTable[] =
+static const Il2CppMethodReference FormerlySerializedAsAttribute_t1129_VTable[] =
 {
 	&Attribute_Equals_m489_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -617,7 +617,7 @@ static const Il2CppMethodReference FormerlySerializedAsAttribute_t1126_VTable[] 
 	&Attribute_get_TypeId_m493_MethodInfo,
 	&Attribute_IsDefaultAttribute_m494_MethodInfo,
 };
-static bool FormerlySerializedAsAttribute_t1126_VTableIsGenericMethod[] =
+static bool FormerlySerializedAsAttribute_t1129_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -626,42 +626,42 @@ static bool FormerlySerializedAsAttribute_t1126_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair FormerlySerializedAsAttribute_t1126_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair FormerlySerializedAsAttribute_t1129_InterfacesOffsets[] = 
 {
 	{ &_Attribute_t86_0_0_0, 4},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
-extern const Il2CppType FormerlySerializedAsAttribute_t1126_0_0_0;
-extern const Il2CppType FormerlySerializedAsAttribute_t1126_1_0_0;
-struct FormerlySerializedAsAttribute_t1126;
-const Il2CppTypeDefinitionMetadata FormerlySerializedAsAttribute_t1126_DefinitionMetadata = 
+extern const Il2CppType FormerlySerializedAsAttribute_t1129_0_0_0;
+extern const Il2CppType FormerlySerializedAsAttribute_t1129_1_0_0;
+struct FormerlySerializedAsAttribute_t1129;
+const Il2CppTypeDefinitionMetadata FormerlySerializedAsAttribute_t1129_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, FormerlySerializedAsAttribute_t1126_InterfacesOffsets/* interfaceOffsets */
+	, FormerlySerializedAsAttribute_t1129_InterfacesOffsets/* interfaceOffsets */
 	, &Attribute_t426_0_0_0/* parent */
-	, FormerlySerializedAsAttribute_t1126_VTable/* vtableMethods */
-	, FormerlySerializedAsAttribute_t1126_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, FormerlySerializedAsAttribute_t1129_VTable/* vtableMethods */
+	, FormerlySerializedAsAttribute_t1129_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1367/* fieldStart */
 
 };
-TypeInfo FormerlySerializedAsAttribute_t1126_il2cpp_TypeInfo = 
+TypeInfo FormerlySerializedAsAttribute_t1129_il2cpp_TypeInfo = 
 {
 	&g_UnityEngine_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "FormerlySerializedAsAttribute"/* name */
 	, "UnityEngine.Serialization"/* namespaze */
-	, FormerlySerializedAsAttribute_t1126_MethodInfos/* methods */
+	, FormerlySerializedAsAttribute_t1129_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &FormerlySerializedAsAttribute_t1126_il2cpp_TypeInfo/* element_class */
+	, &FormerlySerializedAsAttribute_t1129_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 826/* custom_attributes_cache */
-	, &FormerlySerializedAsAttribute_t1126_0_0_0/* byval_arg */
-	, &FormerlySerializedAsAttribute_t1126_1_0_0/* this_arg */
-	, &FormerlySerializedAsAttribute_t1126_DefinitionMetadata/* definitionMetadata */
+	, &FormerlySerializedAsAttribute_t1129_0_0_0/* byval_arg */
+	, &FormerlySerializedAsAttribute_t1129_1_0_0/* this_arg */
+	, &FormerlySerializedAsAttribute_t1129_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -671,8 +671,8 @@ TypeInfo FormerlySerializedAsAttribute_t1126_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (FormerlySerializedAsAttribute_t1126)/* instance_size */
-	, sizeof (FormerlySerializedAsAttribute_t1126)/* actualSize */
+	, sizeof (FormerlySerializedAsAttribute_t1129)/* instance_size */
+	, sizeof (FormerlySerializedAsAttribute_t1129)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -704,10 +704,10 @@ TypeInfo FormerlySerializedAsAttribute_t1126_il2cpp_TypeInfo =
 // UnityEngineInternal.TypeInferenceRules
 #include "UnityEngine_UnityEngineInternal_TypeInferenceRules.h"
 // Metadata Definition UnityEngineInternal.TypeInferenceRules
-extern TypeInfo TypeInferenceRules_t2913_il2cpp_TypeInfo;
+extern TypeInfo TypeInferenceRules_t2916_il2cpp_TypeInfo;
 // UnityEngineInternal.TypeInferenceRules
 #include "UnityEngine_UnityEngineInternal_TypeInferenceRulesMethodDeclarations.h"
-static const MethodInfo* TypeInferenceRules_t2913_MethodInfos[] =
+static const MethodInfo* TypeInferenceRules_t2916_MethodInfos[] =
 {
 	NULL
 };
@@ -733,7 +733,7 @@ extern const MethodInfo Enum_System_IConvertible_ToUInt32_m521_MethodInfo;
 extern const MethodInfo Enum_System_IConvertible_ToUInt64_m522_MethodInfo;
 extern const MethodInfo Enum_CompareTo_m523_MethodInfo;
 extern const MethodInfo Enum_GetTypeCode_m524_MethodInfo;
-static const Il2CppMethodReference TypeInferenceRules_t2913_VTable[] =
+static const Il2CppMethodReference TypeInferenceRules_t2916_VTable[] =
 {
 	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -759,7 +759,7 @@ static const Il2CppMethodReference TypeInferenceRules_t2913_VTable[] =
 	&Enum_CompareTo_m523_MethodInfo,
 	&Enum_GetTypeCode_m524_MethodInfo,
 };
-static bool TypeInferenceRules_t2913_VTableIsGenericMethod[] =
+static bool TypeInferenceRules_t2916_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -788,47 +788,47 @@ static bool TypeInferenceRules_t2913_VTableIsGenericMethod[] =
 extern const Il2CppType IFormattable_t97_0_0_0;
 extern const Il2CppType IConvertible_t98_0_0_0;
 extern const Il2CppType IComparable_t99_0_0_0;
-static Il2CppInterfaceOffsetPair TypeInferenceRules_t2913_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair TypeInferenceRules_t2916_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
 	{ &IComparable_t99_0_0_0, 21},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
-extern const Il2CppType TypeInferenceRules_t2913_0_0_0;
-extern const Il2CppType TypeInferenceRules_t2913_1_0_0;
+extern const Il2CppType TypeInferenceRules_t2916_0_0_0;
+extern const Il2CppType TypeInferenceRules_t2916_1_0_0;
 extern const Il2CppType Enum_t100_0_0_0;
 // System.Int32
 #include "mscorlib_System_Int32.h"
 extern TypeInfo Int32_t82_il2cpp_TypeInfo;
-const Il2CppTypeDefinitionMetadata TypeInferenceRules_t2913_DefinitionMetadata = 
+const Il2CppTypeDefinitionMetadata TypeInferenceRules_t2916_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, TypeInferenceRules_t2913_InterfacesOffsets/* interfaceOffsets */
+	, TypeInferenceRules_t2916_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t100_0_0_0/* parent */
-	, TypeInferenceRules_t2913_VTable/* vtableMethods */
-	, TypeInferenceRules_t2913_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, TypeInferenceRules_t2916_VTable/* vtableMethods */
+	, TypeInferenceRules_t2916_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1368/* fieldStart */
 
 };
-TypeInfo TypeInferenceRules_t2913_il2cpp_TypeInfo = 
+TypeInfo TypeInferenceRules_t2916_il2cpp_TypeInfo = 
 {
 	&g_UnityEngine_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "TypeInferenceRules"/* name */
 	, "UnityEngineInternal"/* namespaze */
-	, TypeInferenceRules_t2913_MethodInfos/* methods */
+	, TypeInferenceRules_t2916_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
 	, &Int32_t82_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &TypeInferenceRules_t2913_0_0_0/* byval_arg */
-	, &TypeInferenceRules_t2913_1_0_0/* this_arg */
-	, &TypeInferenceRules_t2913_DefinitionMetadata/* definitionMetadata */
+	, &TypeInferenceRules_t2916_0_0_0/* byval_arg */
+	, &TypeInferenceRules_t2916_1_0_0/* this_arg */
+	, &TypeInferenceRules_t2916_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -838,8 +838,8 @@ TypeInfo TypeInferenceRules_t2913_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (TypeInferenceRules_t2913)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (TypeInferenceRules_t2913)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (TypeInferenceRules_t2916)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (TypeInferenceRules_t2916)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -871,13 +871,13 @@ TypeInfo TypeInferenceRules_t2913_il2cpp_TypeInfo =
 // UnityEngineInternal.TypeInferenceRuleAttribute
 #include "UnityEngine_UnityEngineInternal_TypeInferenceRuleAttribute.h"
 // Metadata Definition UnityEngineInternal.TypeInferenceRuleAttribute
-extern TypeInfo TypeInferenceRuleAttribute_t2914_il2cpp_TypeInfo;
+extern TypeInfo TypeInferenceRuleAttribute_t2917_il2cpp_TypeInfo;
 // UnityEngineInternal.TypeInferenceRuleAttribute
 #include "UnityEngine_UnityEngineInternal_TypeInferenceRuleAttributeMethodDeclarations.h"
-extern const Il2CppType TypeInferenceRules_t2913_0_0_0;
-static const ParameterInfo TypeInferenceRuleAttribute_t2914_TypeInferenceRuleAttribute__ctor_m10241_ParameterInfos[] = 
+extern const Il2CppType TypeInferenceRules_t2916_0_0_0;
+static const ParameterInfo TypeInferenceRuleAttribute_t2917_TypeInferenceRuleAttribute__ctor_m10241_ParameterInfos[] = 
 {
-	{"rule", 0, 134219959, 0, &TypeInferenceRules_t2913_0_0_0},
+	{"rule", 0, 134219959, 0, &TypeInferenceRules_t2916_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void UnityEngineInternal.TypeInferenceRuleAttribute::.ctor(UnityEngineInternal.TypeInferenceRules)
@@ -885,10 +885,10 @@ extern const MethodInfo TypeInferenceRuleAttribute__ctor_m10241_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&TypeInferenceRuleAttribute__ctor_m10241/* method */
-	, &TypeInferenceRuleAttribute_t2914_il2cpp_TypeInfo/* declaring_type */
+	, &TypeInferenceRuleAttribute_t2917_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, TypeInferenceRuleAttribute_t2914_TypeInferenceRuleAttribute__ctor_m10241_ParameterInfos/* parameters */
+	, TypeInferenceRuleAttribute_t2917_TypeInferenceRuleAttribute__ctor_m10241_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -903,7 +903,7 @@ extern const MethodInfo TypeInferenceRuleAttribute__ctor_m10241_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo TypeInferenceRuleAttribute_t2914_TypeInferenceRuleAttribute__ctor_m10242_ParameterInfos[] = 
+static const ParameterInfo TypeInferenceRuleAttribute_t2917_TypeInferenceRuleAttribute__ctor_m10242_ParameterInfos[] = 
 {
 	{"rule", 0, 134219960, 0, &String_t_0_0_0},
 };
@@ -913,10 +913,10 @@ extern const MethodInfo TypeInferenceRuleAttribute__ctor_m10242_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&TypeInferenceRuleAttribute__ctor_m10242/* method */
-	, &TypeInferenceRuleAttribute_t2914_il2cpp_TypeInfo/* declaring_type */
+	, &TypeInferenceRuleAttribute_t2917_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, TypeInferenceRuleAttribute_t2914_TypeInferenceRuleAttribute__ctor_m10242_ParameterInfos/* parameters */
+	, TypeInferenceRuleAttribute_t2917_TypeInferenceRuleAttribute__ctor_m10242_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -936,7 +936,7 @@ extern const MethodInfo TypeInferenceRuleAttribute_ToString_m10243_MethodInfo =
 {
 	"ToString"/* name */
 	, (methodPointerType)&TypeInferenceRuleAttribute_ToString_m10243/* method */
-	, &TypeInferenceRuleAttribute_t2914_il2cpp_TypeInfo/* declaring_type */
+	, &TypeInferenceRuleAttribute_t2917_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -953,7 +953,7 @@ extern const MethodInfo TypeInferenceRuleAttribute_ToString_m10243_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* TypeInferenceRuleAttribute_t2914_MethodInfos[] =
+static const MethodInfo* TypeInferenceRuleAttribute_t2917_MethodInfos[] =
 {
 	&TypeInferenceRuleAttribute__ctor_m10241_MethodInfo,
 	&TypeInferenceRuleAttribute__ctor_m10242_MethodInfo,
@@ -961,7 +961,7 @@ static const MethodInfo* TypeInferenceRuleAttribute_t2914_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo TypeInferenceRuleAttribute_ToString_m10243_MethodInfo;
-static const Il2CppMethodReference TypeInferenceRuleAttribute_t2914_VTable[] =
+static const Il2CppMethodReference TypeInferenceRuleAttribute_t2917_VTable[] =
 {
 	&Attribute_Equals_m489_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -970,7 +970,7 @@ static const Il2CppMethodReference TypeInferenceRuleAttribute_t2914_VTable[] =
 	&Attribute_get_TypeId_m493_MethodInfo,
 	&Attribute_IsDefaultAttribute_m494_MethodInfo,
 };
-static bool TypeInferenceRuleAttribute_t2914_VTableIsGenericMethod[] =
+static bool TypeInferenceRuleAttribute_t2917_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -979,42 +979,42 @@ static bool TypeInferenceRuleAttribute_t2914_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair TypeInferenceRuleAttribute_t2914_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair TypeInferenceRuleAttribute_t2917_InterfacesOffsets[] = 
 {
 	{ &_Attribute_t86_0_0_0, 4},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
-extern const Il2CppType TypeInferenceRuleAttribute_t2914_0_0_0;
-extern const Il2CppType TypeInferenceRuleAttribute_t2914_1_0_0;
-struct TypeInferenceRuleAttribute_t2914;
-const Il2CppTypeDefinitionMetadata TypeInferenceRuleAttribute_t2914_DefinitionMetadata = 
+extern const Il2CppType TypeInferenceRuleAttribute_t2917_0_0_0;
+extern const Il2CppType TypeInferenceRuleAttribute_t2917_1_0_0;
+struct TypeInferenceRuleAttribute_t2917;
+const Il2CppTypeDefinitionMetadata TypeInferenceRuleAttribute_t2917_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, TypeInferenceRuleAttribute_t2914_InterfacesOffsets/* interfaceOffsets */
+	, TypeInferenceRuleAttribute_t2917_InterfacesOffsets/* interfaceOffsets */
 	, &Attribute_t426_0_0_0/* parent */
-	, TypeInferenceRuleAttribute_t2914_VTable/* vtableMethods */
-	, TypeInferenceRuleAttribute_t2914_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, TypeInferenceRuleAttribute_t2917_VTable/* vtableMethods */
+	, TypeInferenceRuleAttribute_t2917_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 1373/* fieldStart */
 
 };
-TypeInfo TypeInferenceRuleAttribute_t2914_il2cpp_TypeInfo = 
+TypeInfo TypeInferenceRuleAttribute_t2917_il2cpp_TypeInfo = 
 {
 	&g_UnityEngine_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "TypeInferenceRuleAttribute"/* name */
 	, "UnityEngineInternal"/* namespaze */
-	, TypeInferenceRuleAttribute_t2914_MethodInfos/* methods */
+	, TypeInferenceRuleAttribute_t2917_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &TypeInferenceRuleAttribute_t2914_il2cpp_TypeInfo/* element_class */
+	, &TypeInferenceRuleAttribute_t2917_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 827/* custom_attributes_cache */
-	, &TypeInferenceRuleAttribute_t2914_0_0_0/* byval_arg */
-	, &TypeInferenceRuleAttribute_t2914_1_0_0/* this_arg */
-	, &TypeInferenceRuleAttribute_t2914_DefinitionMetadata/* definitionMetadata */
+	, &TypeInferenceRuleAttribute_t2917_0_0_0/* byval_arg */
+	, &TypeInferenceRuleAttribute_t2917_1_0_0/* this_arg */
+	, &TypeInferenceRuleAttribute_t2917_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -1024,8 +1024,8 @@ TypeInfo TypeInferenceRuleAttribute_t2914_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (TypeInferenceRuleAttribute_t2914)/* instance_size */
-	, sizeof (TypeInferenceRuleAttribute_t2914)/* actualSize */
+	, sizeof (TypeInferenceRuleAttribute_t2917)/* instance_size */
+	, sizeof (TypeInferenceRuleAttribute_t2917)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1057,7 +1057,7 @@ TypeInfo TypeInferenceRuleAttribute_t2914_il2cpp_TypeInfo =
 // UnityEngineInternal.GenericStack
 #include "UnityEngine_UnityEngineInternal_GenericStack.h"
 // Metadata Definition UnityEngineInternal.GenericStack
-extern TypeInfo GenericStack_t2728_il2cpp_TypeInfo;
+extern TypeInfo GenericStack_t2731_il2cpp_TypeInfo;
 // UnityEngineInternal.GenericStack
 #include "UnityEngine_UnityEngineInternal_GenericStackMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -1066,7 +1066,7 @@ extern const MethodInfo GenericStack__ctor_m10244_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&GenericStack__ctor_m10244/* method */
-	, &GenericStack_t2728_il2cpp_TypeInfo/* declaring_type */
+	, &GenericStack_t2731_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -1083,7 +1083,7 @@ extern const MethodInfo GenericStack__ctor_m10244_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* GenericStack_t2728_MethodInfos[] =
+static const MethodInfo* GenericStack_t2731_MethodInfos[] =
 {
 	&GenericStack__ctor_m10244_MethodInfo,
 	NULL
@@ -1102,7 +1102,7 @@ extern const MethodInfo Stack_Peek_m10578_MethodInfo;
 extern const MethodInfo Stack_Pop_m10579_MethodInfo;
 extern const MethodInfo Stack_Push_m10580_MethodInfo;
 extern const MethodInfo Stack_ToArray_m10581_MethodInfo;
-static const Il2CppMethodReference GenericStack_t2728_VTable[] =
+static const Il2CppMethodReference GenericStack_t2731_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -1127,7 +1127,7 @@ static const Il2CppMethodReference GenericStack_t2728_VTable[] =
 	&Stack_Push_m10580_MethodInfo,
 	&Stack_ToArray_m10581_MethodInfo,
 };
-static bool GenericStack_t2728_VTableIsGenericMethod[] =
+static bool GenericStack_t2731_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -1153,47 +1153,47 @@ static bool GenericStack_t2728_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType IEnumerable_t104_0_0_0;
-extern const Il2CppType ICloneable_t833_0_0_0;
-extern const Il2CppType ICollection_t769_0_0_0;
-static Il2CppInterfaceOffsetPair GenericStack_t2728_InterfacesOffsets[] = 
+extern const Il2CppType ICloneable_t836_0_0_0;
+extern const Il2CppType ICollection_t772_0_0_0;
+static Il2CppInterfaceOffsetPair GenericStack_t2731_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICloneable_t833_0_0_0, 5},
-	{ &ICollection_t769_0_0_0, 6},
+	{ &ICloneable_t836_0_0_0, 5},
+	{ &ICollection_t772_0_0_0, 6},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
-extern const Il2CppType GenericStack_t2728_0_0_0;
-extern const Il2CppType GenericStack_t2728_1_0_0;
-extern const Il2CppType Stack_t2915_0_0_0;
-struct GenericStack_t2728;
-const Il2CppTypeDefinitionMetadata GenericStack_t2728_DefinitionMetadata = 
+extern const Il2CppType GenericStack_t2731_0_0_0;
+extern const Il2CppType GenericStack_t2731_1_0_0;
+extern const Il2CppType Stack_t2918_0_0_0;
+struct GenericStack_t2731;
+const Il2CppTypeDefinitionMetadata GenericStack_t2731_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, GenericStack_t2728_InterfacesOffsets/* interfaceOffsets */
-	, &Stack_t2915_0_0_0/* parent */
-	, GenericStack_t2728_VTable/* vtableMethods */
-	, GenericStack_t2728_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, GenericStack_t2731_InterfacesOffsets/* interfaceOffsets */
+	, &Stack_t2918_0_0_0/* parent */
+	, GenericStack_t2731_VTable/* vtableMethods */
+	, GenericStack_t2731_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo GenericStack_t2728_il2cpp_TypeInfo = 
+TypeInfo GenericStack_t2731_il2cpp_TypeInfo = 
 {
 	&g_UnityEngine_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "GenericStack"/* name */
 	, "UnityEngineInternal"/* namespaze */
-	, GenericStack_t2728_MethodInfos/* methods */
+	, GenericStack_t2731_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &GenericStack_t2728_il2cpp_TypeInfo/* element_class */
+	, &GenericStack_t2731_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &GenericStack_t2728_0_0_0/* byval_arg */
-	, &GenericStack_t2728_1_0_0/* this_arg */
-	, &GenericStack_t2728_DefinitionMetadata/* definitionMetadata */
+	, &GenericStack_t2731_0_0_0/* byval_arg */
+	, &GenericStack_t2731_1_0_0/* this_arg */
+	, &GenericStack_t2731_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -1203,8 +1203,8 @@ TypeInfo GenericStack_t2728_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (GenericStack_t2728)/* instance_size */
-	, sizeof (GenericStack_t2728)/* actualSize */
+	, sizeof (GenericStack_t2731)/* instance_size */
+	, sizeof (GenericStack_t2731)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1236,13 +1236,13 @@ TypeInfo GenericStack_t2728_il2cpp_TypeInfo =
 // UnityEngine.Events.UnityAction
 #include "UnityEngine_UnityEngine_Events_UnityAction.h"
 // Metadata Definition UnityEngine.Events.UnityAction
-extern TypeInfo UnityAction_t936_il2cpp_TypeInfo;
+extern TypeInfo UnityAction_t939_il2cpp_TypeInfo;
 // UnityEngine.Events.UnityAction
 #include "UnityEngine_UnityEngine_Events_UnityActionMethodDeclarations.h"
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo UnityAction_t936_UnityAction__ctor_m6185_ParameterInfos[] = 
+static const ParameterInfo UnityAction_t939_UnityAction__ctor_m6185_ParameterInfos[] = 
 {
 	{"object", 0, 134219961, 0, &Object_t_0_0_0},
 	{"method", 1, 134219962, 0, &IntPtr_t_0_0_0},
@@ -1253,10 +1253,10 @@ extern const MethodInfo UnityAction__ctor_m6185_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&UnityAction__ctor_m6185/* method */
-	, &UnityAction_t936_il2cpp_TypeInfo/* declaring_type */
+	, &UnityAction_t939_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_IntPtr_t/* invoker_method */
-	, UnityAction_t936_UnityAction__ctor_m6185_ParameterInfos/* parameters */
+	, UnityAction_t939_UnityAction__ctor_m6185_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -1276,7 +1276,7 @@ extern const MethodInfo UnityAction_Invoke_m10245_MethodInfo =
 {
 	"Invoke"/* name */
 	, (methodPointerType)&UnityAction_Invoke_m10245/* method */
-	, &UnityAction_t936_il2cpp_TypeInfo/* declaring_type */
+	, &UnityAction_t939_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -1296,7 +1296,7 @@ extern const MethodInfo UnityAction_Invoke_m10245_MethodInfo =
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UnityAction_t936_UnityAction_BeginInvoke_m10246_ParameterInfos[] = 
+static const ParameterInfo UnityAction_t939_UnityAction_BeginInvoke_m10246_ParameterInfos[] = 
 {
 	{"callback", 0, 134219963, 0, &AsyncCallback_t386_0_0_0},
 	{"object", 1, 134219964, 0, &Object_t_0_0_0},
@@ -1308,10 +1308,10 @@ extern const MethodInfo UnityAction_BeginInvoke_m10246_MethodInfo =
 {
 	"BeginInvoke"/* name */
 	, (methodPointerType)&UnityAction_BeginInvoke_m10246/* method */
-	, &UnityAction_t936_il2cpp_TypeInfo/* declaring_type */
+	, &UnityAction_t939_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, UnityAction_t936_UnityAction_BeginInvoke_m10246_ParameterInfos/* parameters */
+	, UnityAction_t939_UnityAction_BeginInvoke_m10246_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -1326,7 +1326,7 @@ extern const MethodInfo UnityAction_BeginInvoke_m10246_MethodInfo =
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo UnityAction_t936_UnityAction_EndInvoke_m10247_ParameterInfos[] = 
+static const ParameterInfo UnityAction_t939_UnityAction_EndInvoke_m10247_ParameterInfos[] = 
 {
 	{"result", 0, 134219965, 0, &IAsyncResult_t385_0_0_0},
 };
@@ -1336,10 +1336,10 @@ extern const MethodInfo UnityAction_EndInvoke_m10247_MethodInfo =
 {
 	"EndInvoke"/* name */
 	, (methodPointerType)&UnityAction_EndInvoke_m10247/* method */
-	, &UnityAction_t936_il2cpp_TypeInfo/* declaring_type */
+	, &UnityAction_t939_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, UnityAction_t936_UnityAction_EndInvoke_m10247_ParameterInfos/* parameters */
+	, UnityAction_t939_UnityAction_EndInvoke_m10247_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -1353,7 +1353,7 @@ extern const MethodInfo UnityAction_EndInvoke_m10247_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* UnityAction_t936_MethodInfos[] =
+static const MethodInfo* UnityAction_t939_MethodInfos[] =
 {
 	&UnityAction__ctor_m6185_MethodInfo,
 	&UnityAction_Invoke_m10245_MethodInfo,
@@ -1372,7 +1372,7 @@ extern const MethodInfo MulticastDelegate_RemoveImpl_m4704_MethodInfo;
 extern const MethodInfo UnityAction_Invoke_m10245_MethodInfo;
 extern const MethodInfo UnityAction_BeginInvoke_m10246_MethodInfo;
 extern const MethodInfo UnityAction_EndInvoke_m10247_MethodInfo;
-static const Il2CppMethodReference UnityAction_t936_VTable[] =
+static const Il2CppMethodReference UnityAction_t939_VTable[] =
 {
 	&MulticastDelegate_Equals_m4697_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -1390,7 +1390,7 @@ static const Il2CppMethodReference UnityAction_t936_VTable[] =
 	&UnityAction_BeginInvoke_m10246_MethodInfo,
 	&UnityAction_EndInvoke_m10247_MethodInfo,
 };
-static bool UnityAction_t936_VTableIsGenericMethod[] =
+static bool UnityAction_t939_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -1408,56 +1408,56 @@ static bool UnityAction_t936_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ISerializable_t834_0_0_0;
-static Il2CppInterfaceOffsetPair UnityAction_t936_InterfacesOffsets[] = 
+extern const Il2CppType ISerializable_t837_0_0_0;
+static Il2CppInterfaceOffsetPair UnityAction_t939_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t833_0_0_0, 4},
-	{ &ISerializable_t834_0_0_0, 5},
+	{ &ICloneable_t836_0_0_0, 4},
+	{ &ISerializable_t837_0_0_0, 5},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
-extern const Il2CppType UnityAction_t936_0_0_0;
-extern const Il2CppType UnityAction_t936_1_0_0;
+extern const Il2CppType UnityAction_t939_0_0_0;
+extern const Il2CppType UnityAction_t939_1_0_0;
 extern const Il2CppType MulticastDelegate_t388_0_0_0;
-struct UnityAction_t936;
-const Il2CppTypeDefinitionMetadata UnityAction_t936_DefinitionMetadata = 
+struct UnityAction_t939;
+const Il2CppTypeDefinitionMetadata UnityAction_t939_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, UnityAction_t936_InterfacesOffsets/* interfaceOffsets */
+	, UnityAction_t939_InterfacesOffsets/* interfaceOffsets */
 	, &MulticastDelegate_t388_0_0_0/* parent */
-	, UnityAction_t936_VTable/* vtableMethods */
-	, UnityAction_t936_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, UnityAction_t939_VTable/* vtableMethods */
+	, UnityAction_t939_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo UnityAction_t936_il2cpp_TypeInfo = 
+TypeInfo UnityAction_t939_il2cpp_TypeInfo = 
 {
 	&g_UnityEngine_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "UnityAction"/* name */
 	, "UnityEngine.Events"/* namespaze */
-	, UnityAction_t936_MethodInfos/* methods */
+	, UnityAction_t939_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &UnityAction_t936_il2cpp_TypeInfo/* element_class */
+	, &UnityAction_t939_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &UnityAction_t936_0_0_0/* byval_arg */
-	, &UnityAction_t936_1_0_0/* this_arg */
-	, &UnityAction_t936_DefinitionMetadata/* definitionMetadata */
+	, &UnityAction_t939_0_0_0/* byval_arg */
+	, &UnityAction_t939_1_0_0/* this_arg */
+	, &UnityAction_t939_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
 	, NULL/* static_fields */
 	, NULL/* rgctx_data */
-	, (methodPointerType)pinvoke_delegate_wrapper_UnityAction_t936/* pinvoke_delegate_wrapper */
+	, (methodPointerType)pinvoke_delegate_wrapper_UnityAction_t939/* pinvoke_delegate_wrapper */
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (UnityAction_t936)/* instance_size */
-	, sizeof (UnityAction_t936)/* actualSize */
+	, sizeof (UnityAction_t939)/* instance_size */
+	, sizeof (UnityAction_t939)/* actualSize */
 	, 0/* element_size */
 	, sizeof(methodPointerType)/* native_size */
 	, 0/* static_fields_size */
@@ -1487,18 +1487,18 @@ TypeInfo UnityAction_t936_il2cpp_TypeInfo =
 
 };
 // Metadata Definition UnityEngine.Events.UnityAction`1
-extern TypeInfo UnityAction_1_t3001_il2cpp_TypeInfo;
-extern const Il2CppGenericContainer UnityAction_1_t3001_Il2CppGenericContainer;
-extern TypeInfo UnityAction_1_t3001_gp_T0_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter UnityAction_1_t3001_gp_T0_0_il2cpp_TypeInfo_GenericParamFull = { &UnityAction_1_t3001_Il2CppGenericContainer, NULL, "T0", 0, 0 };
-static const Il2CppGenericParameter* UnityAction_1_t3001_Il2CppGenericParametersArray[1] = 
+extern TypeInfo UnityAction_1_t3004_il2cpp_TypeInfo;
+extern const Il2CppGenericContainer UnityAction_1_t3004_Il2CppGenericContainer;
+extern TypeInfo UnityAction_1_t3004_gp_T0_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter UnityAction_1_t3004_gp_T0_0_il2cpp_TypeInfo_GenericParamFull = { &UnityAction_1_t3004_Il2CppGenericContainer, NULL, "T0", 0, 0 };
+static const Il2CppGenericParameter* UnityAction_1_t3004_Il2CppGenericParametersArray[1] = 
 {
-	&UnityAction_1_t3001_gp_T0_0_il2cpp_TypeInfo_GenericParamFull,
+	&UnityAction_1_t3004_gp_T0_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const Il2CppGenericContainer UnityAction_1_t3001_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&UnityAction_1_t3001_il2cpp_TypeInfo, 1, 0, UnityAction_1_t3001_Il2CppGenericParametersArray };
+extern const Il2CppGenericContainer UnityAction_1_t3004_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&UnityAction_1_t3004_il2cpp_TypeInfo, 1, 0, UnityAction_1_t3004_Il2CppGenericParametersArray };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo UnityAction_1_t3001_UnityAction_1__ctor_m10483_ParameterInfos[] = 
+static const ParameterInfo UnityAction_1_t3004_UnityAction_1__ctor_m10483_ParameterInfos[] = 
 {
 	{"object", 0, 134219966, 0, &Object_t_0_0_0},
 	{"method", 1, 134219967, 0, &IntPtr_t_0_0_0},
@@ -1508,10 +1508,10 @@ extern const MethodInfo UnityAction_1__ctor_m10483_MethodInfo =
 {
 	".ctor"/* name */
 	, NULL/* method */
-	, &UnityAction_1_t3001_il2cpp_TypeInfo/* declaring_type */
+	, &UnityAction_1_t3004_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityAction_1_t3001_UnityAction_1__ctor_m10483_ParameterInfos/* parameters */
+	, UnityAction_1_t3004_UnityAction_1__ctor_m10483_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -1525,21 +1525,21 @@ extern const MethodInfo UnityAction_1__ctor_m10483_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UnityAction_1_t3001_gp_0_0_0_0;
-extern const Il2CppType UnityAction_1_t3001_gp_0_0_0_0;
-static const ParameterInfo UnityAction_1_t3001_UnityAction_1_Invoke_m10484_ParameterInfos[] = 
+extern const Il2CppType UnityAction_1_t3004_gp_0_0_0_0;
+extern const Il2CppType UnityAction_1_t3004_gp_0_0_0_0;
+static const ParameterInfo UnityAction_1_t3004_UnityAction_1_Invoke_m10484_ParameterInfos[] = 
 {
-	{"arg0", 0, 134219968, 0, &UnityAction_1_t3001_gp_0_0_0_0},
+	{"arg0", 0, 134219968, 0, &UnityAction_1_t3004_gp_0_0_0_0},
 };
 // System.Void UnityEngine.Events.UnityAction`1::Invoke(T0)
 extern const MethodInfo UnityAction_1_Invoke_m10484_MethodInfo = 
 {
 	"Invoke"/* name */
 	, NULL/* method */
-	, &UnityAction_1_t3001_il2cpp_TypeInfo/* declaring_type */
+	, &UnityAction_1_t3004_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityAction_1_t3001_UnityAction_1_Invoke_m10484_ParameterInfos/* parameters */
+	, UnityAction_1_t3004_UnityAction_1_Invoke_m10484_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -1553,12 +1553,12 @@ extern const MethodInfo UnityAction_1_Invoke_m10484_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UnityAction_1_t3001_gp_0_0_0_0;
+extern const Il2CppType UnityAction_1_t3004_gp_0_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UnityAction_1_t3001_UnityAction_1_BeginInvoke_m10485_ParameterInfos[] = 
+static const ParameterInfo UnityAction_1_t3004_UnityAction_1_BeginInvoke_m10485_ParameterInfos[] = 
 {
-	{"arg0", 0, 134219969, 0, &UnityAction_1_t3001_gp_0_0_0_0},
+	{"arg0", 0, 134219969, 0, &UnityAction_1_t3004_gp_0_0_0_0},
 	{"callback", 1, 134219970, 0, &AsyncCallback_t386_0_0_0},
 	{"object", 2, 134219971, 0, &Object_t_0_0_0},
 };
@@ -1567,10 +1567,10 @@ extern const MethodInfo UnityAction_1_BeginInvoke_m10485_MethodInfo =
 {
 	"BeginInvoke"/* name */
 	, NULL/* method */
-	, &UnityAction_1_t3001_il2cpp_TypeInfo/* declaring_type */
+	, &UnityAction_1_t3004_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityAction_1_t3001_UnityAction_1_BeginInvoke_m10485_ParameterInfos/* parameters */
+	, UnityAction_1_t3004_UnityAction_1_BeginInvoke_m10485_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -1585,7 +1585,7 @@ extern const MethodInfo UnityAction_1_BeginInvoke_m10485_MethodInfo =
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo UnityAction_1_t3001_UnityAction_1_EndInvoke_m10486_ParameterInfos[] = 
+static const ParameterInfo UnityAction_1_t3004_UnityAction_1_EndInvoke_m10486_ParameterInfos[] = 
 {
 	{"result", 0, 134219972, 0, &IAsyncResult_t385_0_0_0},
 };
@@ -1594,10 +1594,10 @@ extern const MethodInfo UnityAction_1_EndInvoke_m10486_MethodInfo =
 {
 	"EndInvoke"/* name */
 	, NULL/* method */
-	, &UnityAction_1_t3001_il2cpp_TypeInfo/* declaring_type */
+	, &UnityAction_1_t3004_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityAction_1_t3001_UnityAction_1_EndInvoke_m10486_ParameterInfos/* parameters */
+	, UnityAction_1_t3004_UnityAction_1_EndInvoke_m10486_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -1611,7 +1611,7 @@ extern const MethodInfo UnityAction_1_EndInvoke_m10486_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* UnityAction_1_t3001_MethodInfos[] =
+static const MethodInfo* UnityAction_1_t3004_MethodInfos[] =
 {
 	&UnityAction_1__ctor_m10483_MethodInfo,
 	&UnityAction_1_Invoke_m10484_MethodInfo,
@@ -1622,7 +1622,7 @@ static const MethodInfo* UnityAction_1_t3001_MethodInfos[] =
 extern const MethodInfo UnityAction_1_Invoke_m10484_MethodInfo;
 extern const MethodInfo UnityAction_1_BeginInvoke_m10485_MethodInfo;
 extern const MethodInfo UnityAction_1_EndInvoke_m10486_MethodInfo;
-static const Il2CppMethodReference UnityAction_1_t3001_VTable[] =
+static const Il2CppMethodReference UnityAction_1_t3004_VTable[] =
 {
 	&MulticastDelegate_Equals_m4697_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -1640,7 +1640,7 @@ static const Il2CppMethodReference UnityAction_1_t3001_VTable[] =
 	&UnityAction_1_BeginInvoke_m10485_MethodInfo,
 	&UnityAction_1_EndInvoke_m10486_MethodInfo,
 };
-static bool UnityAction_1_t3001_VTableIsGenericMethod[] =
+static bool UnityAction_1_t3004_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -1658,46 +1658,46 @@ static bool UnityAction_1_t3001_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair UnityAction_1_t3001_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair UnityAction_1_t3004_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t833_0_0_0, 4},
-	{ &ISerializable_t834_0_0_0, 5},
+	{ &ICloneable_t836_0_0_0, 4},
+	{ &ISerializable_t837_0_0_0, 5},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
-extern const Il2CppType UnityAction_1_t3001_0_0_0;
-extern const Il2CppType UnityAction_1_t3001_1_0_0;
-struct UnityAction_1_t3001;
-const Il2CppTypeDefinitionMetadata UnityAction_1_t3001_DefinitionMetadata = 
+extern const Il2CppType UnityAction_1_t3004_0_0_0;
+extern const Il2CppType UnityAction_1_t3004_1_0_0;
+struct UnityAction_1_t3004;
+const Il2CppTypeDefinitionMetadata UnityAction_1_t3004_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, UnityAction_1_t3001_InterfacesOffsets/* interfaceOffsets */
+	, UnityAction_1_t3004_InterfacesOffsets/* interfaceOffsets */
 	, &MulticastDelegate_t388_0_0_0/* parent */
-	, UnityAction_1_t3001_VTable/* vtableMethods */
-	, UnityAction_1_t3001_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, UnityAction_1_t3004_VTable/* vtableMethods */
+	, UnityAction_1_t3004_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo UnityAction_1_t3001_il2cpp_TypeInfo = 
+TypeInfo UnityAction_1_t3004_il2cpp_TypeInfo = 
 {
 	&g_UnityEngine_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "UnityAction`1"/* name */
 	, "UnityEngine.Events"/* namespaze */
-	, UnityAction_1_t3001_MethodInfos/* methods */
+	, UnityAction_1_t3004_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &UnityAction_1_t3001_il2cpp_TypeInfo/* element_class */
+	, &UnityAction_1_t3004_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &UnityAction_1_t3001_0_0_0/* byval_arg */
-	, &UnityAction_1_t3001_1_0_0/* this_arg */
-	, &UnityAction_1_t3001_DefinitionMetadata/* definitionMetadata */
+	, &UnityAction_1_t3004_0_0_0/* byval_arg */
+	, &UnityAction_1_t3004_1_0_0/* this_arg */
+	, &UnityAction_1_t3004_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
-	, &UnityAction_1_t3001_Il2CppGenericContainer/* generic_container */
+	, &UnityAction_1_t3004_Il2CppGenericContainer/* generic_container */
 	, NULL/* static_fields */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
@@ -1735,21 +1735,21 @@ TypeInfo UnityAction_1_t3001_il2cpp_TypeInfo =
 
 };
 // Metadata Definition UnityEngine.Events.UnityAction`2
-extern TypeInfo UnityAction_2_t3002_il2cpp_TypeInfo;
-extern const Il2CppGenericContainer UnityAction_2_t3002_Il2CppGenericContainer;
-extern TypeInfo UnityAction_2_t3002_gp_T0_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter UnityAction_2_t3002_gp_T0_0_il2cpp_TypeInfo_GenericParamFull = { &UnityAction_2_t3002_Il2CppGenericContainer, NULL, "T0", 0, 0 };
-extern TypeInfo UnityAction_2_t3002_gp_T1_1_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter UnityAction_2_t3002_gp_T1_1_il2cpp_TypeInfo_GenericParamFull = { &UnityAction_2_t3002_Il2CppGenericContainer, NULL, "T1", 1, 0 };
-static const Il2CppGenericParameter* UnityAction_2_t3002_Il2CppGenericParametersArray[2] = 
+extern TypeInfo UnityAction_2_t3005_il2cpp_TypeInfo;
+extern const Il2CppGenericContainer UnityAction_2_t3005_Il2CppGenericContainer;
+extern TypeInfo UnityAction_2_t3005_gp_T0_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter UnityAction_2_t3005_gp_T0_0_il2cpp_TypeInfo_GenericParamFull = { &UnityAction_2_t3005_Il2CppGenericContainer, NULL, "T0", 0, 0 };
+extern TypeInfo UnityAction_2_t3005_gp_T1_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter UnityAction_2_t3005_gp_T1_1_il2cpp_TypeInfo_GenericParamFull = { &UnityAction_2_t3005_Il2CppGenericContainer, NULL, "T1", 1, 0 };
+static const Il2CppGenericParameter* UnityAction_2_t3005_Il2CppGenericParametersArray[2] = 
 {
-	&UnityAction_2_t3002_gp_T0_0_il2cpp_TypeInfo_GenericParamFull,
-	&UnityAction_2_t3002_gp_T1_1_il2cpp_TypeInfo_GenericParamFull,
+	&UnityAction_2_t3005_gp_T0_0_il2cpp_TypeInfo_GenericParamFull,
+	&UnityAction_2_t3005_gp_T1_1_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const Il2CppGenericContainer UnityAction_2_t3002_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&UnityAction_2_t3002_il2cpp_TypeInfo, 2, 0, UnityAction_2_t3002_Il2CppGenericParametersArray };
+extern const Il2CppGenericContainer UnityAction_2_t3005_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&UnityAction_2_t3005_il2cpp_TypeInfo, 2, 0, UnityAction_2_t3005_Il2CppGenericParametersArray };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo UnityAction_2_t3002_UnityAction_2__ctor_m10487_ParameterInfos[] = 
+static const ParameterInfo UnityAction_2_t3005_UnityAction_2__ctor_m10487_ParameterInfos[] = 
 {
 	{"object", 0, 134219973, 0, &Object_t_0_0_0},
 	{"method", 1, 134219974, 0, &IntPtr_t_0_0_0},
@@ -1759,10 +1759,10 @@ extern const MethodInfo UnityAction_2__ctor_m10487_MethodInfo =
 {
 	".ctor"/* name */
 	, NULL/* method */
-	, &UnityAction_2_t3002_il2cpp_TypeInfo/* declaring_type */
+	, &UnityAction_2_t3005_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityAction_2_t3002_UnityAction_2__ctor_m10487_ParameterInfos/* parameters */
+	, UnityAction_2_t3005_UnityAction_2__ctor_m10487_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -1776,24 +1776,24 @@ extern const MethodInfo UnityAction_2__ctor_m10487_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UnityAction_2_t3002_gp_0_0_0_0;
-extern const Il2CppType UnityAction_2_t3002_gp_0_0_0_0;
-extern const Il2CppType UnityAction_2_t3002_gp_1_0_0_0;
-extern const Il2CppType UnityAction_2_t3002_gp_1_0_0_0;
-static const ParameterInfo UnityAction_2_t3002_UnityAction_2_Invoke_m10488_ParameterInfos[] = 
+extern const Il2CppType UnityAction_2_t3005_gp_0_0_0_0;
+extern const Il2CppType UnityAction_2_t3005_gp_0_0_0_0;
+extern const Il2CppType UnityAction_2_t3005_gp_1_0_0_0;
+extern const Il2CppType UnityAction_2_t3005_gp_1_0_0_0;
+static const ParameterInfo UnityAction_2_t3005_UnityAction_2_Invoke_m10488_ParameterInfos[] = 
 {
-	{"arg0", 0, 134219975, 0, &UnityAction_2_t3002_gp_0_0_0_0},
-	{"arg1", 1, 134219976, 0, &UnityAction_2_t3002_gp_1_0_0_0},
+	{"arg0", 0, 134219975, 0, &UnityAction_2_t3005_gp_0_0_0_0},
+	{"arg1", 1, 134219976, 0, &UnityAction_2_t3005_gp_1_0_0_0},
 };
 // System.Void UnityEngine.Events.UnityAction`2::Invoke(T0,T1)
 extern const MethodInfo UnityAction_2_Invoke_m10488_MethodInfo = 
 {
 	"Invoke"/* name */
 	, NULL/* method */
-	, &UnityAction_2_t3002_il2cpp_TypeInfo/* declaring_type */
+	, &UnityAction_2_t3005_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityAction_2_t3002_UnityAction_2_Invoke_m10488_ParameterInfos/* parameters */
+	, UnityAction_2_t3005_UnityAction_2_Invoke_m10488_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -1807,14 +1807,14 @@ extern const MethodInfo UnityAction_2_Invoke_m10488_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UnityAction_2_t3002_gp_0_0_0_0;
-extern const Il2CppType UnityAction_2_t3002_gp_1_0_0_0;
+extern const Il2CppType UnityAction_2_t3005_gp_0_0_0_0;
+extern const Il2CppType UnityAction_2_t3005_gp_1_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UnityAction_2_t3002_UnityAction_2_BeginInvoke_m10489_ParameterInfos[] = 
+static const ParameterInfo UnityAction_2_t3005_UnityAction_2_BeginInvoke_m10489_ParameterInfos[] = 
 {
-	{"arg0", 0, 134219977, 0, &UnityAction_2_t3002_gp_0_0_0_0},
-	{"arg1", 1, 134219978, 0, &UnityAction_2_t3002_gp_1_0_0_0},
+	{"arg0", 0, 134219977, 0, &UnityAction_2_t3005_gp_0_0_0_0},
+	{"arg1", 1, 134219978, 0, &UnityAction_2_t3005_gp_1_0_0_0},
 	{"callback", 2, 134219979, 0, &AsyncCallback_t386_0_0_0},
 	{"object", 3, 134219980, 0, &Object_t_0_0_0},
 };
@@ -1823,10 +1823,10 @@ extern const MethodInfo UnityAction_2_BeginInvoke_m10489_MethodInfo =
 {
 	"BeginInvoke"/* name */
 	, NULL/* method */
-	, &UnityAction_2_t3002_il2cpp_TypeInfo/* declaring_type */
+	, &UnityAction_2_t3005_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityAction_2_t3002_UnityAction_2_BeginInvoke_m10489_ParameterInfos/* parameters */
+	, UnityAction_2_t3005_UnityAction_2_BeginInvoke_m10489_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -1841,7 +1841,7 @@ extern const MethodInfo UnityAction_2_BeginInvoke_m10489_MethodInfo =
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo UnityAction_2_t3002_UnityAction_2_EndInvoke_m10490_ParameterInfos[] = 
+static const ParameterInfo UnityAction_2_t3005_UnityAction_2_EndInvoke_m10490_ParameterInfos[] = 
 {
 	{"result", 0, 134219981, 0, &IAsyncResult_t385_0_0_0},
 };
@@ -1850,10 +1850,10 @@ extern const MethodInfo UnityAction_2_EndInvoke_m10490_MethodInfo =
 {
 	"EndInvoke"/* name */
 	, NULL/* method */
-	, &UnityAction_2_t3002_il2cpp_TypeInfo/* declaring_type */
+	, &UnityAction_2_t3005_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityAction_2_t3002_UnityAction_2_EndInvoke_m10490_ParameterInfos/* parameters */
+	, UnityAction_2_t3005_UnityAction_2_EndInvoke_m10490_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -1867,7 +1867,7 @@ extern const MethodInfo UnityAction_2_EndInvoke_m10490_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* UnityAction_2_t3002_MethodInfos[] =
+static const MethodInfo* UnityAction_2_t3005_MethodInfos[] =
 {
 	&UnityAction_2__ctor_m10487_MethodInfo,
 	&UnityAction_2_Invoke_m10488_MethodInfo,
@@ -1878,7 +1878,7 @@ static const MethodInfo* UnityAction_2_t3002_MethodInfos[] =
 extern const MethodInfo UnityAction_2_Invoke_m10488_MethodInfo;
 extern const MethodInfo UnityAction_2_BeginInvoke_m10489_MethodInfo;
 extern const MethodInfo UnityAction_2_EndInvoke_m10490_MethodInfo;
-static const Il2CppMethodReference UnityAction_2_t3002_VTable[] =
+static const Il2CppMethodReference UnityAction_2_t3005_VTable[] =
 {
 	&MulticastDelegate_Equals_m4697_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -1896,7 +1896,7 @@ static const Il2CppMethodReference UnityAction_2_t3002_VTable[] =
 	&UnityAction_2_BeginInvoke_m10489_MethodInfo,
 	&UnityAction_2_EndInvoke_m10490_MethodInfo,
 };
-static bool UnityAction_2_t3002_VTableIsGenericMethod[] =
+static bool UnityAction_2_t3005_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -1914,46 +1914,46 @@ static bool UnityAction_2_t3002_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair UnityAction_2_t3002_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair UnityAction_2_t3005_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t833_0_0_0, 4},
-	{ &ISerializable_t834_0_0_0, 5},
+	{ &ICloneable_t836_0_0_0, 4},
+	{ &ISerializable_t837_0_0_0, 5},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
-extern const Il2CppType UnityAction_2_t3002_0_0_0;
-extern const Il2CppType UnityAction_2_t3002_1_0_0;
-struct UnityAction_2_t3002;
-const Il2CppTypeDefinitionMetadata UnityAction_2_t3002_DefinitionMetadata = 
+extern const Il2CppType UnityAction_2_t3005_0_0_0;
+extern const Il2CppType UnityAction_2_t3005_1_0_0;
+struct UnityAction_2_t3005;
+const Il2CppTypeDefinitionMetadata UnityAction_2_t3005_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, UnityAction_2_t3002_InterfacesOffsets/* interfaceOffsets */
+	, UnityAction_2_t3005_InterfacesOffsets/* interfaceOffsets */
 	, &MulticastDelegate_t388_0_0_0/* parent */
-	, UnityAction_2_t3002_VTable/* vtableMethods */
-	, UnityAction_2_t3002_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, UnityAction_2_t3005_VTable/* vtableMethods */
+	, UnityAction_2_t3005_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo UnityAction_2_t3002_il2cpp_TypeInfo = 
+TypeInfo UnityAction_2_t3005_il2cpp_TypeInfo = 
 {
 	&g_UnityEngine_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "UnityAction`2"/* name */
 	, "UnityEngine.Events"/* namespaze */
-	, UnityAction_2_t3002_MethodInfos/* methods */
+	, UnityAction_2_t3005_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &UnityAction_2_t3002_il2cpp_TypeInfo/* element_class */
+	, &UnityAction_2_t3005_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &UnityAction_2_t3002_0_0_0/* byval_arg */
-	, &UnityAction_2_t3002_1_0_0/* this_arg */
-	, &UnityAction_2_t3002_DefinitionMetadata/* definitionMetadata */
+	, &UnityAction_2_t3005_0_0_0/* byval_arg */
+	, &UnityAction_2_t3005_1_0_0/* this_arg */
+	, &UnityAction_2_t3005_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
-	, &UnityAction_2_t3002_Il2CppGenericContainer/* generic_container */
+	, &UnityAction_2_t3005_Il2CppGenericContainer/* generic_container */
 	, NULL/* static_fields */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
@@ -1991,24 +1991,24 @@ TypeInfo UnityAction_2_t3002_il2cpp_TypeInfo =
 
 };
 // Metadata Definition UnityEngine.Events.UnityAction`3
-extern TypeInfo UnityAction_3_t3003_il2cpp_TypeInfo;
-extern const Il2CppGenericContainer UnityAction_3_t3003_Il2CppGenericContainer;
-extern TypeInfo UnityAction_3_t3003_gp_T0_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter UnityAction_3_t3003_gp_T0_0_il2cpp_TypeInfo_GenericParamFull = { &UnityAction_3_t3003_Il2CppGenericContainer, NULL, "T0", 0, 0 };
-extern TypeInfo UnityAction_3_t3003_gp_T1_1_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter UnityAction_3_t3003_gp_T1_1_il2cpp_TypeInfo_GenericParamFull = { &UnityAction_3_t3003_Il2CppGenericContainer, NULL, "T1", 1, 0 };
-extern TypeInfo UnityAction_3_t3003_gp_T2_2_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter UnityAction_3_t3003_gp_T2_2_il2cpp_TypeInfo_GenericParamFull = { &UnityAction_3_t3003_Il2CppGenericContainer, NULL, "T2", 2, 0 };
-static const Il2CppGenericParameter* UnityAction_3_t3003_Il2CppGenericParametersArray[3] = 
+extern TypeInfo UnityAction_3_t3006_il2cpp_TypeInfo;
+extern const Il2CppGenericContainer UnityAction_3_t3006_Il2CppGenericContainer;
+extern TypeInfo UnityAction_3_t3006_gp_T0_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter UnityAction_3_t3006_gp_T0_0_il2cpp_TypeInfo_GenericParamFull = { &UnityAction_3_t3006_Il2CppGenericContainer, NULL, "T0", 0, 0 };
+extern TypeInfo UnityAction_3_t3006_gp_T1_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter UnityAction_3_t3006_gp_T1_1_il2cpp_TypeInfo_GenericParamFull = { &UnityAction_3_t3006_Il2CppGenericContainer, NULL, "T1", 1, 0 };
+extern TypeInfo UnityAction_3_t3006_gp_T2_2_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter UnityAction_3_t3006_gp_T2_2_il2cpp_TypeInfo_GenericParamFull = { &UnityAction_3_t3006_Il2CppGenericContainer, NULL, "T2", 2, 0 };
+static const Il2CppGenericParameter* UnityAction_3_t3006_Il2CppGenericParametersArray[3] = 
 {
-	&UnityAction_3_t3003_gp_T0_0_il2cpp_TypeInfo_GenericParamFull,
-	&UnityAction_3_t3003_gp_T1_1_il2cpp_TypeInfo_GenericParamFull,
-	&UnityAction_3_t3003_gp_T2_2_il2cpp_TypeInfo_GenericParamFull,
+	&UnityAction_3_t3006_gp_T0_0_il2cpp_TypeInfo_GenericParamFull,
+	&UnityAction_3_t3006_gp_T1_1_il2cpp_TypeInfo_GenericParamFull,
+	&UnityAction_3_t3006_gp_T2_2_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const Il2CppGenericContainer UnityAction_3_t3003_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&UnityAction_3_t3003_il2cpp_TypeInfo, 3, 0, UnityAction_3_t3003_Il2CppGenericParametersArray };
+extern const Il2CppGenericContainer UnityAction_3_t3006_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&UnityAction_3_t3006_il2cpp_TypeInfo, 3, 0, UnityAction_3_t3006_Il2CppGenericParametersArray };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo UnityAction_3_t3003_UnityAction_3__ctor_m10491_ParameterInfos[] = 
+static const ParameterInfo UnityAction_3_t3006_UnityAction_3__ctor_m10491_ParameterInfos[] = 
 {
 	{"object", 0, 134219982, 0, &Object_t_0_0_0},
 	{"method", 1, 134219983, 0, &IntPtr_t_0_0_0},
@@ -2018,10 +2018,10 @@ extern const MethodInfo UnityAction_3__ctor_m10491_MethodInfo =
 {
 	".ctor"/* name */
 	, NULL/* method */
-	, &UnityAction_3_t3003_il2cpp_TypeInfo/* declaring_type */
+	, &UnityAction_3_t3006_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityAction_3_t3003_UnityAction_3__ctor_m10491_ParameterInfos/* parameters */
+	, UnityAction_3_t3006_UnityAction_3__ctor_m10491_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -2035,27 +2035,27 @@ extern const MethodInfo UnityAction_3__ctor_m10491_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UnityAction_3_t3003_gp_0_0_0_0;
-extern const Il2CppType UnityAction_3_t3003_gp_0_0_0_0;
-extern const Il2CppType UnityAction_3_t3003_gp_1_0_0_0;
-extern const Il2CppType UnityAction_3_t3003_gp_1_0_0_0;
-extern const Il2CppType UnityAction_3_t3003_gp_2_0_0_0;
-extern const Il2CppType UnityAction_3_t3003_gp_2_0_0_0;
-static const ParameterInfo UnityAction_3_t3003_UnityAction_3_Invoke_m10492_ParameterInfos[] = 
+extern const Il2CppType UnityAction_3_t3006_gp_0_0_0_0;
+extern const Il2CppType UnityAction_3_t3006_gp_0_0_0_0;
+extern const Il2CppType UnityAction_3_t3006_gp_1_0_0_0;
+extern const Il2CppType UnityAction_3_t3006_gp_1_0_0_0;
+extern const Il2CppType UnityAction_3_t3006_gp_2_0_0_0;
+extern const Il2CppType UnityAction_3_t3006_gp_2_0_0_0;
+static const ParameterInfo UnityAction_3_t3006_UnityAction_3_Invoke_m10492_ParameterInfos[] = 
 {
-	{"arg0", 0, 134219984, 0, &UnityAction_3_t3003_gp_0_0_0_0},
-	{"arg1", 1, 134219985, 0, &UnityAction_3_t3003_gp_1_0_0_0},
-	{"arg2", 2, 134219986, 0, &UnityAction_3_t3003_gp_2_0_0_0},
+	{"arg0", 0, 134219984, 0, &UnityAction_3_t3006_gp_0_0_0_0},
+	{"arg1", 1, 134219985, 0, &UnityAction_3_t3006_gp_1_0_0_0},
+	{"arg2", 2, 134219986, 0, &UnityAction_3_t3006_gp_2_0_0_0},
 };
 // System.Void UnityEngine.Events.UnityAction`3::Invoke(T0,T1,T2)
 extern const MethodInfo UnityAction_3_Invoke_m10492_MethodInfo = 
 {
 	"Invoke"/* name */
 	, NULL/* method */
-	, &UnityAction_3_t3003_il2cpp_TypeInfo/* declaring_type */
+	, &UnityAction_3_t3006_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityAction_3_t3003_UnityAction_3_Invoke_m10492_ParameterInfos/* parameters */
+	, UnityAction_3_t3006_UnityAction_3_Invoke_m10492_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -2069,16 +2069,16 @@ extern const MethodInfo UnityAction_3_Invoke_m10492_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UnityAction_3_t3003_gp_0_0_0_0;
-extern const Il2CppType UnityAction_3_t3003_gp_1_0_0_0;
-extern const Il2CppType UnityAction_3_t3003_gp_2_0_0_0;
+extern const Il2CppType UnityAction_3_t3006_gp_0_0_0_0;
+extern const Il2CppType UnityAction_3_t3006_gp_1_0_0_0;
+extern const Il2CppType UnityAction_3_t3006_gp_2_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UnityAction_3_t3003_UnityAction_3_BeginInvoke_m10493_ParameterInfos[] = 
+static const ParameterInfo UnityAction_3_t3006_UnityAction_3_BeginInvoke_m10493_ParameterInfos[] = 
 {
-	{"arg0", 0, 134219987, 0, &UnityAction_3_t3003_gp_0_0_0_0},
-	{"arg1", 1, 134219988, 0, &UnityAction_3_t3003_gp_1_0_0_0},
-	{"arg2", 2, 134219989, 0, &UnityAction_3_t3003_gp_2_0_0_0},
+	{"arg0", 0, 134219987, 0, &UnityAction_3_t3006_gp_0_0_0_0},
+	{"arg1", 1, 134219988, 0, &UnityAction_3_t3006_gp_1_0_0_0},
+	{"arg2", 2, 134219989, 0, &UnityAction_3_t3006_gp_2_0_0_0},
 	{"callback", 3, 134219990, 0, &AsyncCallback_t386_0_0_0},
 	{"object", 4, 134219991, 0, &Object_t_0_0_0},
 };
@@ -2087,10 +2087,10 @@ extern const MethodInfo UnityAction_3_BeginInvoke_m10493_MethodInfo =
 {
 	"BeginInvoke"/* name */
 	, NULL/* method */
-	, &UnityAction_3_t3003_il2cpp_TypeInfo/* declaring_type */
+	, &UnityAction_3_t3006_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityAction_3_t3003_UnityAction_3_BeginInvoke_m10493_ParameterInfos/* parameters */
+	, UnityAction_3_t3006_UnityAction_3_BeginInvoke_m10493_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -2105,7 +2105,7 @@ extern const MethodInfo UnityAction_3_BeginInvoke_m10493_MethodInfo =
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo UnityAction_3_t3003_UnityAction_3_EndInvoke_m10494_ParameterInfos[] = 
+static const ParameterInfo UnityAction_3_t3006_UnityAction_3_EndInvoke_m10494_ParameterInfos[] = 
 {
 	{"result", 0, 134219992, 0, &IAsyncResult_t385_0_0_0},
 };
@@ -2114,10 +2114,10 @@ extern const MethodInfo UnityAction_3_EndInvoke_m10494_MethodInfo =
 {
 	"EndInvoke"/* name */
 	, NULL/* method */
-	, &UnityAction_3_t3003_il2cpp_TypeInfo/* declaring_type */
+	, &UnityAction_3_t3006_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityAction_3_t3003_UnityAction_3_EndInvoke_m10494_ParameterInfos/* parameters */
+	, UnityAction_3_t3006_UnityAction_3_EndInvoke_m10494_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -2131,7 +2131,7 @@ extern const MethodInfo UnityAction_3_EndInvoke_m10494_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* UnityAction_3_t3003_MethodInfos[] =
+static const MethodInfo* UnityAction_3_t3006_MethodInfos[] =
 {
 	&UnityAction_3__ctor_m10491_MethodInfo,
 	&UnityAction_3_Invoke_m10492_MethodInfo,
@@ -2142,7 +2142,7 @@ static const MethodInfo* UnityAction_3_t3003_MethodInfos[] =
 extern const MethodInfo UnityAction_3_Invoke_m10492_MethodInfo;
 extern const MethodInfo UnityAction_3_BeginInvoke_m10493_MethodInfo;
 extern const MethodInfo UnityAction_3_EndInvoke_m10494_MethodInfo;
-static const Il2CppMethodReference UnityAction_3_t3003_VTable[] =
+static const Il2CppMethodReference UnityAction_3_t3006_VTable[] =
 {
 	&MulticastDelegate_Equals_m4697_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -2160,7 +2160,7 @@ static const Il2CppMethodReference UnityAction_3_t3003_VTable[] =
 	&UnityAction_3_BeginInvoke_m10493_MethodInfo,
 	&UnityAction_3_EndInvoke_m10494_MethodInfo,
 };
-static bool UnityAction_3_t3003_VTableIsGenericMethod[] =
+static bool UnityAction_3_t3006_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -2178,46 +2178,46 @@ static bool UnityAction_3_t3003_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair UnityAction_3_t3003_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair UnityAction_3_t3006_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t833_0_0_0, 4},
-	{ &ISerializable_t834_0_0_0, 5},
+	{ &ICloneable_t836_0_0_0, 4},
+	{ &ISerializable_t837_0_0_0, 5},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
-extern const Il2CppType UnityAction_3_t3003_0_0_0;
-extern const Il2CppType UnityAction_3_t3003_1_0_0;
-struct UnityAction_3_t3003;
-const Il2CppTypeDefinitionMetadata UnityAction_3_t3003_DefinitionMetadata = 
+extern const Il2CppType UnityAction_3_t3006_0_0_0;
+extern const Il2CppType UnityAction_3_t3006_1_0_0;
+struct UnityAction_3_t3006;
+const Il2CppTypeDefinitionMetadata UnityAction_3_t3006_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, UnityAction_3_t3003_InterfacesOffsets/* interfaceOffsets */
+	, UnityAction_3_t3006_InterfacesOffsets/* interfaceOffsets */
 	, &MulticastDelegate_t388_0_0_0/* parent */
-	, UnityAction_3_t3003_VTable/* vtableMethods */
-	, UnityAction_3_t3003_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, UnityAction_3_t3006_VTable/* vtableMethods */
+	, UnityAction_3_t3006_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo UnityAction_3_t3003_il2cpp_TypeInfo = 
+TypeInfo UnityAction_3_t3006_il2cpp_TypeInfo = 
 {
 	&g_UnityEngine_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "UnityAction`3"/* name */
 	, "UnityEngine.Events"/* namespaze */
-	, UnityAction_3_t3003_MethodInfos/* methods */
+	, UnityAction_3_t3006_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &UnityAction_3_t3003_il2cpp_TypeInfo/* element_class */
+	, &UnityAction_3_t3006_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &UnityAction_3_t3003_0_0_0/* byval_arg */
-	, &UnityAction_3_t3003_1_0_0/* this_arg */
-	, &UnityAction_3_t3003_DefinitionMetadata/* definitionMetadata */
+	, &UnityAction_3_t3006_0_0_0/* byval_arg */
+	, &UnityAction_3_t3006_1_0_0/* this_arg */
+	, &UnityAction_3_t3006_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
-	, &UnityAction_3_t3003_Il2CppGenericContainer/* generic_container */
+	, &UnityAction_3_t3006_Il2CppGenericContainer/* generic_container */
 	, NULL/* static_fields */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
@@ -2255,27 +2255,27 @@ TypeInfo UnityAction_3_t3003_il2cpp_TypeInfo =
 
 };
 // Metadata Definition UnityEngine.Events.UnityAction`4
-extern TypeInfo UnityAction_4_t3004_il2cpp_TypeInfo;
-extern const Il2CppGenericContainer UnityAction_4_t3004_Il2CppGenericContainer;
-extern TypeInfo UnityAction_4_t3004_gp_T0_0_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter UnityAction_4_t3004_gp_T0_0_il2cpp_TypeInfo_GenericParamFull = { &UnityAction_4_t3004_Il2CppGenericContainer, NULL, "T0", 0, 0 };
-extern TypeInfo UnityAction_4_t3004_gp_T1_1_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter UnityAction_4_t3004_gp_T1_1_il2cpp_TypeInfo_GenericParamFull = { &UnityAction_4_t3004_Il2CppGenericContainer, NULL, "T1", 1, 0 };
-extern TypeInfo UnityAction_4_t3004_gp_T2_2_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter UnityAction_4_t3004_gp_T2_2_il2cpp_TypeInfo_GenericParamFull = { &UnityAction_4_t3004_Il2CppGenericContainer, NULL, "T2", 2, 0 };
-extern TypeInfo UnityAction_4_t3004_gp_T3_3_il2cpp_TypeInfo;
-extern const Il2CppGenericParameter UnityAction_4_t3004_gp_T3_3_il2cpp_TypeInfo_GenericParamFull = { &UnityAction_4_t3004_Il2CppGenericContainer, NULL, "T3", 3, 0 };
-static const Il2CppGenericParameter* UnityAction_4_t3004_Il2CppGenericParametersArray[4] = 
+extern TypeInfo UnityAction_4_t3007_il2cpp_TypeInfo;
+extern const Il2CppGenericContainer UnityAction_4_t3007_Il2CppGenericContainer;
+extern TypeInfo UnityAction_4_t3007_gp_T0_0_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter UnityAction_4_t3007_gp_T0_0_il2cpp_TypeInfo_GenericParamFull = { &UnityAction_4_t3007_Il2CppGenericContainer, NULL, "T0", 0, 0 };
+extern TypeInfo UnityAction_4_t3007_gp_T1_1_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter UnityAction_4_t3007_gp_T1_1_il2cpp_TypeInfo_GenericParamFull = { &UnityAction_4_t3007_Il2CppGenericContainer, NULL, "T1", 1, 0 };
+extern TypeInfo UnityAction_4_t3007_gp_T2_2_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter UnityAction_4_t3007_gp_T2_2_il2cpp_TypeInfo_GenericParamFull = { &UnityAction_4_t3007_Il2CppGenericContainer, NULL, "T2", 2, 0 };
+extern TypeInfo UnityAction_4_t3007_gp_T3_3_il2cpp_TypeInfo;
+extern const Il2CppGenericParameter UnityAction_4_t3007_gp_T3_3_il2cpp_TypeInfo_GenericParamFull = { &UnityAction_4_t3007_Il2CppGenericContainer, NULL, "T3", 3, 0 };
+static const Il2CppGenericParameter* UnityAction_4_t3007_Il2CppGenericParametersArray[4] = 
 {
-	&UnityAction_4_t3004_gp_T0_0_il2cpp_TypeInfo_GenericParamFull,
-	&UnityAction_4_t3004_gp_T1_1_il2cpp_TypeInfo_GenericParamFull,
-	&UnityAction_4_t3004_gp_T2_2_il2cpp_TypeInfo_GenericParamFull,
-	&UnityAction_4_t3004_gp_T3_3_il2cpp_TypeInfo_GenericParamFull,
+	&UnityAction_4_t3007_gp_T0_0_il2cpp_TypeInfo_GenericParamFull,
+	&UnityAction_4_t3007_gp_T1_1_il2cpp_TypeInfo_GenericParamFull,
+	&UnityAction_4_t3007_gp_T2_2_il2cpp_TypeInfo_GenericParamFull,
+	&UnityAction_4_t3007_gp_T3_3_il2cpp_TypeInfo_GenericParamFull,
 };
-extern const Il2CppGenericContainer UnityAction_4_t3004_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&UnityAction_4_t3004_il2cpp_TypeInfo, 4, 0, UnityAction_4_t3004_Il2CppGenericParametersArray };
+extern const Il2CppGenericContainer UnityAction_4_t3007_Il2CppGenericContainer = { { NULL, NULL }, NULL, (void*)&UnityAction_4_t3007_il2cpp_TypeInfo, 4, 0, UnityAction_4_t3007_Il2CppGenericParametersArray };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType IntPtr_t_0_0_0;
-static const ParameterInfo UnityAction_4_t3004_UnityAction_4__ctor_m10495_ParameterInfos[] = 
+static const ParameterInfo UnityAction_4_t3007_UnityAction_4__ctor_m10495_ParameterInfos[] = 
 {
 	{"object", 0, 134219993, 0, &Object_t_0_0_0},
 	{"method", 1, 134219994, 0, &IntPtr_t_0_0_0},
@@ -2285,10 +2285,10 @@ extern const MethodInfo UnityAction_4__ctor_m10495_MethodInfo =
 {
 	".ctor"/* name */
 	, NULL/* method */
-	, &UnityAction_4_t3004_il2cpp_TypeInfo/* declaring_type */
+	, &UnityAction_4_t3007_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityAction_4_t3004_UnityAction_4__ctor_m10495_ParameterInfos/* parameters */
+	, UnityAction_4_t3007_UnityAction_4__ctor_m10495_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 3/* iflags */
@@ -2302,30 +2302,30 @@ extern const MethodInfo UnityAction_4__ctor_m10495_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UnityAction_4_t3004_gp_0_0_0_0;
-extern const Il2CppType UnityAction_4_t3004_gp_0_0_0_0;
-extern const Il2CppType UnityAction_4_t3004_gp_1_0_0_0;
-extern const Il2CppType UnityAction_4_t3004_gp_1_0_0_0;
-extern const Il2CppType UnityAction_4_t3004_gp_2_0_0_0;
-extern const Il2CppType UnityAction_4_t3004_gp_2_0_0_0;
-extern const Il2CppType UnityAction_4_t3004_gp_3_0_0_0;
-extern const Il2CppType UnityAction_4_t3004_gp_3_0_0_0;
-static const ParameterInfo UnityAction_4_t3004_UnityAction_4_Invoke_m10496_ParameterInfos[] = 
+extern const Il2CppType UnityAction_4_t3007_gp_0_0_0_0;
+extern const Il2CppType UnityAction_4_t3007_gp_0_0_0_0;
+extern const Il2CppType UnityAction_4_t3007_gp_1_0_0_0;
+extern const Il2CppType UnityAction_4_t3007_gp_1_0_0_0;
+extern const Il2CppType UnityAction_4_t3007_gp_2_0_0_0;
+extern const Il2CppType UnityAction_4_t3007_gp_2_0_0_0;
+extern const Il2CppType UnityAction_4_t3007_gp_3_0_0_0;
+extern const Il2CppType UnityAction_4_t3007_gp_3_0_0_0;
+static const ParameterInfo UnityAction_4_t3007_UnityAction_4_Invoke_m10496_ParameterInfos[] = 
 {
-	{"arg0", 0, 134219995, 0, &UnityAction_4_t3004_gp_0_0_0_0},
-	{"arg1", 1, 134219996, 0, &UnityAction_4_t3004_gp_1_0_0_0},
-	{"arg2", 2, 134219997, 0, &UnityAction_4_t3004_gp_2_0_0_0},
-	{"arg3", 3, 134219998, 0, &UnityAction_4_t3004_gp_3_0_0_0},
+	{"arg0", 0, 134219995, 0, &UnityAction_4_t3007_gp_0_0_0_0},
+	{"arg1", 1, 134219996, 0, &UnityAction_4_t3007_gp_1_0_0_0},
+	{"arg2", 2, 134219997, 0, &UnityAction_4_t3007_gp_2_0_0_0},
+	{"arg3", 3, 134219998, 0, &UnityAction_4_t3007_gp_3_0_0_0},
 };
 // System.Void UnityEngine.Events.UnityAction`4::Invoke(T0,T1,T2,T3)
 extern const MethodInfo UnityAction_4_Invoke_m10496_MethodInfo = 
 {
 	"Invoke"/* name */
 	, NULL/* method */
-	, &UnityAction_4_t3004_il2cpp_TypeInfo/* declaring_type */
+	, &UnityAction_4_t3007_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityAction_4_t3004_UnityAction_4_Invoke_m10496_ParameterInfos/* parameters */
+	, UnityAction_4_t3007_UnityAction_4_Invoke_m10496_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -2339,18 +2339,18 @@ extern const MethodInfo UnityAction_4_Invoke_m10496_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType UnityAction_4_t3004_gp_0_0_0_0;
-extern const Il2CppType UnityAction_4_t3004_gp_1_0_0_0;
-extern const Il2CppType UnityAction_4_t3004_gp_2_0_0_0;
-extern const Il2CppType UnityAction_4_t3004_gp_3_0_0_0;
+extern const Il2CppType UnityAction_4_t3007_gp_0_0_0_0;
+extern const Il2CppType UnityAction_4_t3007_gp_1_0_0_0;
+extern const Il2CppType UnityAction_4_t3007_gp_2_0_0_0;
+extern const Il2CppType UnityAction_4_t3007_gp_3_0_0_0;
 extern const Il2CppType AsyncCallback_t386_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo UnityAction_4_t3004_UnityAction_4_BeginInvoke_m10497_ParameterInfos[] = 
+static const ParameterInfo UnityAction_4_t3007_UnityAction_4_BeginInvoke_m10497_ParameterInfos[] = 
 {
-	{"arg0", 0, 134219999, 0, &UnityAction_4_t3004_gp_0_0_0_0},
-	{"arg1", 1, 134220000, 0, &UnityAction_4_t3004_gp_1_0_0_0},
-	{"arg2", 2, 134220001, 0, &UnityAction_4_t3004_gp_2_0_0_0},
-	{"arg3", 3, 134220002, 0, &UnityAction_4_t3004_gp_3_0_0_0},
+	{"arg0", 0, 134219999, 0, &UnityAction_4_t3007_gp_0_0_0_0},
+	{"arg1", 1, 134220000, 0, &UnityAction_4_t3007_gp_1_0_0_0},
+	{"arg2", 2, 134220001, 0, &UnityAction_4_t3007_gp_2_0_0_0},
+	{"arg3", 3, 134220002, 0, &UnityAction_4_t3007_gp_3_0_0_0},
 	{"callback", 4, 134220003, 0, &AsyncCallback_t386_0_0_0},
 	{"object", 5, 134220004, 0, &Object_t_0_0_0},
 };
@@ -2359,10 +2359,10 @@ extern const MethodInfo UnityAction_4_BeginInvoke_m10497_MethodInfo =
 {
 	"BeginInvoke"/* name */
 	, NULL/* method */
-	, &UnityAction_4_t3004_il2cpp_TypeInfo/* declaring_type */
+	, &UnityAction_4_t3007_il2cpp_TypeInfo/* declaring_type */
 	, &IAsyncResult_t385_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityAction_4_t3004_UnityAction_4_BeginInvoke_m10497_ParameterInfos/* parameters */
+	, UnityAction_4_t3007_UnityAction_4_BeginInvoke_m10497_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -2377,7 +2377,7 @@ extern const MethodInfo UnityAction_4_BeginInvoke_m10497_MethodInfo =
 
 };
 extern const Il2CppType IAsyncResult_t385_0_0_0;
-static const ParameterInfo UnityAction_4_t3004_UnityAction_4_EndInvoke_m10498_ParameterInfos[] = 
+static const ParameterInfo UnityAction_4_t3007_UnityAction_4_EndInvoke_m10498_ParameterInfos[] = 
 {
 	{"result", 0, 134220005, 0, &IAsyncResult_t385_0_0_0},
 };
@@ -2386,10 +2386,10 @@ extern const MethodInfo UnityAction_4_EndInvoke_m10498_MethodInfo =
 {
 	"EndInvoke"/* name */
 	, NULL/* method */
-	, &UnityAction_4_t3004_il2cpp_TypeInfo/* declaring_type */
+	, &UnityAction_4_t3007_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, UnityAction_4_t3004_UnityAction_4_EndInvoke_m10498_ParameterInfos/* parameters */
+	, UnityAction_4_t3007_UnityAction_4_EndInvoke_m10498_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 3/* iflags */
@@ -2403,7 +2403,7 @@ extern const MethodInfo UnityAction_4_EndInvoke_m10498_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* UnityAction_4_t3004_MethodInfos[] =
+static const MethodInfo* UnityAction_4_t3007_MethodInfos[] =
 {
 	&UnityAction_4__ctor_m10495_MethodInfo,
 	&UnityAction_4_Invoke_m10496_MethodInfo,
@@ -2414,7 +2414,7 @@ static const MethodInfo* UnityAction_4_t3004_MethodInfos[] =
 extern const MethodInfo UnityAction_4_Invoke_m10496_MethodInfo;
 extern const MethodInfo UnityAction_4_BeginInvoke_m10497_MethodInfo;
 extern const MethodInfo UnityAction_4_EndInvoke_m10498_MethodInfo;
-static const Il2CppMethodReference UnityAction_4_t3004_VTable[] =
+static const Il2CppMethodReference UnityAction_4_t3007_VTable[] =
 {
 	&MulticastDelegate_Equals_m4697_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -2432,7 +2432,7 @@ static const Il2CppMethodReference UnityAction_4_t3004_VTable[] =
 	&UnityAction_4_BeginInvoke_m10497_MethodInfo,
 	&UnityAction_4_EndInvoke_m10498_MethodInfo,
 };
-static bool UnityAction_4_t3004_VTableIsGenericMethod[] =
+static bool UnityAction_4_t3007_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -2450,46 +2450,46 @@ static bool UnityAction_4_t3004_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair UnityAction_4_t3004_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair UnityAction_4_t3007_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t833_0_0_0, 4},
-	{ &ISerializable_t834_0_0_0, 5},
+	{ &ICloneable_t836_0_0_0, 4},
+	{ &ISerializable_t837_0_0_0, 5},
 };
 extern Il2CppImage g_UnityEngine_dll_Image;
-extern const Il2CppType UnityAction_4_t3004_0_0_0;
-extern const Il2CppType UnityAction_4_t3004_1_0_0;
-struct UnityAction_4_t3004;
-const Il2CppTypeDefinitionMetadata UnityAction_4_t3004_DefinitionMetadata = 
+extern const Il2CppType UnityAction_4_t3007_0_0_0;
+extern const Il2CppType UnityAction_4_t3007_1_0_0;
+struct UnityAction_4_t3007;
+const Il2CppTypeDefinitionMetadata UnityAction_4_t3007_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, UnityAction_4_t3004_InterfacesOffsets/* interfaceOffsets */
+	, UnityAction_4_t3007_InterfacesOffsets/* interfaceOffsets */
 	, &MulticastDelegate_t388_0_0_0/* parent */
-	, UnityAction_4_t3004_VTable/* vtableMethods */
-	, UnityAction_4_t3004_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, UnityAction_4_t3007_VTable/* vtableMethods */
+	, UnityAction_4_t3007_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo UnityAction_4_t3004_il2cpp_TypeInfo = 
+TypeInfo UnityAction_4_t3007_il2cpp_TypeInfo = 
 {
 	&g_UnityEngine_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "UnityAction`4"/* name */
 	, "UnityEngine.Events"/* namespaze */
-	, UnityAction_4_t3004_MethodInfos/* methods */
+	, UnityAction_4_t3007_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &UnityAction_4_t3004_il2cpp_TypeInfo/* element_class */
+	, &UnityAction_4_t3007_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &UnityAction_4_t3004_0_0_0/* byval_arg */
-	, &UnityAction_4_t3004_1_0_0/* this_arg */
-	, &UnityAction_4_t3004_DefinitionMetadata/* definitionMetadata */
+	, &UnityAction_4_t3007_0_0_0/* byval_arg */
+	, &UnityAction_4_t3007_1_0_0/* this_arg */
+	, &UnityAction_4_t3007_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
-	, &UnityAction_4_t3004_Il2CppGenericContainer/* generic_container */
+	, &UnityAction_4_t3007_Il2CppGenericContainer/* generic_container */
 	, NULL/* static_fields */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */

@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.Dictionary`2<System.String,Parse.ParseRole>
-struct Dictionary_2_t7746;
+struct Dictionary_2_t7751;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseRole>
-struct  ValueCollection_t7749  : public Object_t
+struct  ValueCollection_t7754  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Parse.ParseRole>::dictionary
-	Dictionary_2_t7746 * ___dictionary_0;
+	Dictionary_2_t7751 * ___dictionary_0;
 };

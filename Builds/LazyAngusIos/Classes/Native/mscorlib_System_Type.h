@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Type[]
-struct TypeU5BU5D_t1221;
+struct TypeU5BU5D_t1224;
 // System.Reflection.MemberFilter
-struct MemberFilter_t4729;
+struct MemberFilter_t4732;
 // System.Object
 struct Object_t;
 // System.Reflection.MemberInfo
@@ -16,19 +16,19 @@ struct Object_t;
 struct  Type_t  : public MemberInfo_t
 {
 	// System.RuntimeTypeHandle System.Type::_impl
-	RuntimeTypeHandle_t4730  ____impl_1;
+	RuntimeTypeHandle_t4733  ____impl_1;
 };
 struct Type_t_StaticFields{
 	// System.Char System.Type::Delimiter
 	uint16_t ___Delimiter_2;
 	// System.Type[] System.Type::EmptyTypes
-	TypeU5BU5D_t1221* ___EmptyTypes_3;
+	TypeU5BU5D_t1224* ___EmptyTypes_3;
 	// System.Reflection.MemberFilter System.Type::FilterAttribute
-	MemberFilter_t4729 * ___FilterAttribute_4;
+	MemberFilter_t4732 * ___FilterAttribute_4;
 	// System.Reflection.MemberFilter System.Type::FilterName
-	MemberFilter_t4729 * ___FilterName_5;
+	MemberFilter_t4732 * ___FilterName_5;
 	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
-	MemberFilter_t4729 * ___FilterNameIgnoreCase_6;
+	MemberFilter_t4732 * ___FilterNameIgnoreCase_6;
 	// System.Object System.Type::Missing
 	Object_t * ___Missing_7;
 };

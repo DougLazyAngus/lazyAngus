@@ -3,6 +3,6 @@
 // System.Exception
 #include "mscorlib_System_Exception.h"
 // System.TimeZoneNotFoundException
-struct  TimeZoneNotFoundException_t1532  : public Exception_t57
+struct  TimeZoneNotFoundException_t1535  : public Exception_t57
 {
 };

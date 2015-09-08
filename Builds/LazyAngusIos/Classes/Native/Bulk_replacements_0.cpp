@@ -80,7 +80,7 @@ extern "C" Type_t * TypeBuilder_CreateType_m12231 (Object_t * __this /* static, 
 	}
 	{
 		NotSupportedException_t56 * L_0 = (NotSupportedException_t56 *)il2cpp_codegen_object_new (NotSupportedException_t56_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m11477(L_0, (String_t*) &_stringLiteral2493, /*hidden argument*/NULL);
+		NotSupportedException__ctor_m11477(L_0, (String_t*) &_stringLiteral2494, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
@@ -106,7 +106,7 @@ extern "C" String_t* SecurityElement_ToString_m12232 (Object_t * __this /* stati
 	}
 	{
 		NotSupportedException_t56 * L_0 = (NotSupportedException_t56 *)il2cpp_codegen_object_new (NotSupportedException_t56_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m11477(L_0, (String_t*) &_stringLiteral2494, /*hidden argument*/NULL);
+		NotSupportedException__ctor_m11477(L_0, (String_t*) &_stringLiteral2495, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
@@ -133,13 +133,13 @@ extern "C" Object_t * RemotingServices_GetClientChannelSinkChain_m12233 (Object_
 	}
 	{
 		NotSupportedException_t56 * L_0 = (NotSupportedException_t56 *)il2cpp_codegen_object_new (NotSupportedException_t56_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m11477(L_0, (String_t*) &_stringLiteral2495, /*hidden argument*/NULL);
+		NotSupportedException__ctor_m11477(L_0, (String_t*) &_stringLiteral2496, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
 // System.Object Replacements.RemotingServices::CreateClientProxy(System.Type,System.String,System.Object[])
 extern TypeInfo* NotSupportedException_t56_il2cpp_TypeInfo_var;
-extern "C" Object_t * RemotingServices_CreateClientProxy_m12234 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___url, ObjectU5BU5D_t697* ___activationAttributes, const MethodInfo* method)
+extern "C" Object_t * RemotingServices_CreateClientProxy_m12234 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___url, ObjectU5BU5D_t700* ___activationAttributes, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -149,7 +149,7 @@ extern "C" Object_t * RemotingServices_CreateClientProxy_m12234 (Object_t * __th
 	}
 	{
 		NotSupportedException_t56 * L_0 = (NotSupportedException_t56 *)il2cpp_codegen_object_new (NotSupportedException_t56_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m11477(L_0, (String_t*) &_stringLiteral2496, /*hidden argument*/NULL);
+		NotSupportedException__ctor_m11477(L_0, (String_t*) &_stringLiteral2497, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }

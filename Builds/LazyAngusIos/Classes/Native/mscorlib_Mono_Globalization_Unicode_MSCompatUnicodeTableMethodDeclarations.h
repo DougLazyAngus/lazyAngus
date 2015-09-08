@@ -5,30 +5,30 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Globalization.Unicode.MSCompatUnicodeTable
-struct MSCompatUnicodeTable_t4760;
+struct MSCompatUnicodeTable_t4763;
 // Mono.Globalization.Unicode.TailoringInfo
-struct TailoringInfo_t4754;
+struct TailoringInfo_t4757;
 // System.Globalization.CultureInfo
-struct CultureInfo_t783;
+struct CultureInfo_t786;
 // Mono.Globalization.Unicode.Contraction[]
-struct ContractionU5BU5D_t4767;
+struct ContractionU5BU5D_t4770;
 // Mono.Globalization.Unicode.Level2Map[]
-struct Level2MapU5BU5D_t4768;
+struct Level2MapU5BU5D_t4771;
 // System.String
 struct String_t;
 // Mono.Globalization.Unicode.CodePointIndexer
-struct CodePointIndexer_t4753;
+struct CodePointIndexer_t4756;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void Mono.Globalization.Unicode.MSCompatUnicodeTable::.cctor()
 extern "C" void MSCompatUnicodeTable__cctor_m19318 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Globalization.Unicode.TailoringInfo Mono.Globalization.Unicode.MSCompatUnicodeTable::GetTailoringInfo(System.Int32)
-extern "C" TailoringInfo_t4754 * MSCompatUnicodeTable_GetTailoringInfo_m19319 (Object_t * __this /* static, unused */, int32_t ___lcid, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TailoringInfo_t4757 * MSCompatUnicodeTable_GetTailoringInfo_m19319 (Object_t * __this /* static, unused */, int32_t ___lcid, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Globalization.Unicode.MSCompatUnicodeTable::BuildTailoringTables(System.Globalization.CultureInfo,Mono.Globalization.Unicode.TailoringInfo,Mono.Globalization.Unicode.Contraction[]&,Mono.Globalization.Unicode.Level2Map[]&)
-extern "C" void MSCompatUnicodeTable_BuildTailoringTables_m19320 (Object_t * __this /* static, unused */, CultureInfo_t783 * ___culture, TailoringInfo_t4754 * ___t, ContractionU5BU5D_t4767** ___contractions, Level2MapU5BU5D_t4768** ___diacriticals, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MSCompatUnicodeTable_BuildTailoringTables_m19320 (Object_t * __this /* static, unused */, CultureInfo_t786 * ___culture, TailoringInfo_t4757 * ___t, ContractionU5BU5D_t4770** ___contractions, Level2MapU5BU5D_t4771** ___diacriticals, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Globalization.Unicode.MSCompatUnicodeTable::SetCJKReferences(System.String,Mono.Globalization.Unicode.CodePointIndexer&,System.Byte*&,System.Byte*&,Mono.Globalization.Unicode.CodePointIndexer&,System.Byte*&)
-extern "C" void MSCompatUnicodeTable_SetCJKReferences_m19321 (Object_t * __this /* static, unused */, String_t* ___name, CodePointIndexer_t4753 ** ___cjkIndexer, uint8_t** ___catTable, uint8_t** ___lv1Table, CodePointIndexer_t4753 ** ___lv2Indexer, uint8_t** ___lv2Table, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MSCompatUnicodeTable_SetCJKReferences_m19321 (Object_t * __this /* static, unused */, String_t* ___name, CodePointIndexer_t4756 ** ___cjkIndexer, uint8_t** ___catTable, uint8_t** ___lv1Table, CodePointIndexer_t4756 ** ___lv2Indexer, uint8_t** ___lv2Table, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte Mono.Globalization.Unicode.MSCompatUnicodeTable::Category(System.Int32)
 extern "C" uint8_t MSCompatUnicodeTable_Category_m19322 (Object_t * __this /* static, unused */, int32_t ___cp, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte Mono.Globalization.Unicode.MSCompatUnicodeTable::Level1(System.Int32)
@@ -58,6 +58,6 @@ extern "C" IntPtr_t MSCompatUnicodeTable_GetResource_m19334 (Object_t * __this /
 // System.UInt32 Mono.Globalization.Unicode.MSCompatUnicodeTable::UInt32FromBytePtr(System.Byte*,System.UInt32)
 extern "C" uint32_t MSCompatUnicodeTable_UInt32FromBytePtr_m19335 (Object_t * __this /* static, unused */, uint8_t* ___raw, uint32_t ___idx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Globalization.Unicode.MSCompatUnicodeTable::FillCJK(System.String,Mono.Globalization.Unicode.CodePointIndexer&,System.Byte*&,System.Byte*&,Mono.Globalization.Unicode.CodePointIndexer&,System.Byte*&)
-extern "C" void MSCompatUnicodeTable_FillCJK_m19336 (Object_t * __this /* static, unused */, String_t* ___culture, CodePointIndexer_t4753 ** ___cjkIndexer, uint8_t** ___catTable, uint8_t** ___lv1Table, CodePointIndexer_t4753 ** ___lv2Indexer, uint8_t** ___lv2Table, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MSCompatUnicodeTable_FillCJK_m19336 (Object_t * __this /* static, unused */, String_t* ___culture, CodePointIndexer_t4756 ** ___cjkIndexer, uint8_t** ___catTable, uint8_t** ___lv1Table, CodePointIndexer_t4756 ** ___lv2Indexer, uint8_t** ___lv2Table, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Globalization.Unicode.MSCompatUnicodeTable::FillCJKCore(System.String,Mono.Globalization.Unicode.CodePointIndexer&,System.Byte*&,System.Byte*&,Mono.Globalization.Unicode.CodePointIndexer&,System.Byte*&)
-extern "C" void MSCompatUnicodeTable_FillCJKCore_m19337 (Object_t * __this /* static, unused */, String_t* ___culture, CodePointIndexer_t4753 ** ___cjkIndexer, uint8_t** ___catTable, uint8_t** ___lv1Table, CodePointIndexer_t4753 ** ___cjkLv2Indexer, uint8_t** ___lv2Table, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MSCompatUnicodeTable_FillCJKCore_m19337 (Object_t * __this /* static, unused */, String_t* ___culture, CodePointIndexer_t4756 ** ___cjkIndexer, uint8_t** ___catTable, uint8_t** ___lv1Table, CodePointIndexer_t4756 ** ___cjkLv2Indexer, uint8_t** ___lv2Table, const MethodInfo* method) IL2CPP_METHOD_ATTR;

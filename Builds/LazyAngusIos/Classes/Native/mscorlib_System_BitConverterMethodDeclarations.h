@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.BitConverter
-struct BitConverter_t3256;
+struct BitConverter_t3259;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.String

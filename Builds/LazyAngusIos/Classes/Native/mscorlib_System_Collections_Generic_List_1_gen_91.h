@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // Parse.ParseUser[]
-struct ParseUserU5BU5D_t7546;
+struct ParseUserU5BU5D_t7551;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<Parse.ParseUser>
-struct  List_1_t7547  : public Object_t
+struct  List_1_t7552  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<Parse.ParseUser>::_items
-	ParseUserU5BU5D_t7546* ____items_1;
+	ParseUserU5BU5D_t7551* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<Parse.ParseUser>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<Parse.ParseUser>::_version
 	int32_t ____version_3;
 };
-struct List_1_t7547_StaticFields{
+struct List_1_t7552_StaticFields{
 	// T[] System.Collections.Generic.List`1<Parse.ParseUser>::EmptyArray
-	ParseUserU5BU5D_t7546* ___EmptyArray_4;
+	ParseUserU5BU5D_t7551* ___EmptyArray_4;
 };

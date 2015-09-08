@@ -5,7 +5,7 @@
 // System.Security.Permissions.UIPermissionClipboard
 #include "mscorlib_System_Security_Permissions_UIPermissionClipboard.h"
 // System.Security.Permissions.UIPermissionClipboard
-struct  UIPermissionClipboard_t5318 
+struct  UIPermissionClipboard_t5321 
 {
 	// System.Int32 System.Security.Permissions.UIPermissionClipboard::value__
 	int32_t ___value___1;

@@ -5,7 +5,7 @@ struct Type_t;
 // System.ComponentModel.TypeConverter
 #include "System_System_ComponentModel_TypeConverter.h"
 // System.ComponentModel.BaseNumberConverter
-struct  BaseNumberConverter_t4224  : public TypeConverter_t3328
+struct  BaseNumberConverter_t4227  : public TypeConverter_t3331
 {
 	// System.Type System.ComponentModel.BaseNumberConverter::InnerType
 	Type_t * ___InnerType_0;

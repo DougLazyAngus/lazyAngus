@@ -3,7 +3,7 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Runtime.InteropServices.ComCompatibleVersionAttribute
-struct  ComCompatibleVersionAttribute_t3388  : public Attribute_t426
+struct  ComCompatibleVersionAttribute_t3391  : public Attribute_t426
 {
 	// System.Int32 System.Runtime.InteropServices.ComCompatibleVersionAttribute::major
 	int32_t ___major_0;

@@ -7,9 +7,9 @@
 // UnityEngine.Camera
 struct Camera_t548;
 // UnityEngine.RenderTexture
-struct RenderTexture_t2720;
+struct RenderTexture_t2723;
 // UnityEngine.Camera[]
-struct CameraU5BU5D_t2883;
+struct CameraU5BU5D_t2886;
 // UnityEngine.GameObject
 struct GameObject_t352;
 // UnityEngine.Rect
@@ -36,19 +36,19 @@ extern "C" int32_t Camera_get_cullingMask_m6043 (Camera_t548 * __this, const Met
 // System.Int32 UnityEngine.Camera::get_eventMask()
 extern "C" int32_t Camera_get_eventMask_m9496 (Camera_t548 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Camera::INTERNAL_get_rect(UnityEngine.Rect&)
-extern "C" void Camera_INTERNAL_get_rect_m9497 (Camera_t548 * __this, Rect_t709 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Camera_INTERNAL_get_rect_m9497 (Camera_t548 * __this, Rect_t712 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Camera::INTERNAL_set_rect(UnityEngine.Rect&)
-extern "C" void Camera_INTERNAL_set_rect_m9498 (Camera_t548 * __this, Rect_t709 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Camera_INTERNAL_set_rect_m9498 (Camera_t548 * __this, Rect_t712 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rect UnityEngine.Camera::get_rect()
-extern "C" Rect_t709  Camera_get_rect_m4311 (Camera_t548 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rect_t712  Camera_get_rect_m4311 (Camera_t548 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Camera::set_rect(UnityEngine.Rect)
-extern "C" void Camera_set_rect_m4316 (Camera_t548 * __this, Rect_t709  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Camera_set_rect_m4316 (Camera_t548 * __this, Rect_t712  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Camera::INTERNAL_get_pixelRect(UnityEngine.Rect&)
-extern "C" void Camera_INTERNAL_get_pixelRect_m9499 (Camera_t548 * __this, Rect_t709 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Camera_INTERNAL_get_pixelRect_m9499 (Camera_t548 * __this, Rect_t712 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rect UnityEngine.Camera::get_pixelRect()
-extern "C" Rect_t709  Camera_get_pixelRect_m9500 (Camera_t548 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rect_t712  Camera_get_pixelRect_m9500 (Camera_t548 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.RenderTexture UnityEngine.Camera::get_targetTexture()
-extern "C" RenderTexture_t2720 * Camera_get_targetTexture_m9501 (Camera_t548 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" RenderTexture_t2723 * Camera_get_targetTexture_m9501 (Camera_t548 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.CameraClearFlags UnityEngine.Camera::get_clearFlags()
 extern "C" int32_t Camera_get_clearFlags_m9502 (Camera_t548 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Camera::WorldToScreenPoint(UnityEngine.Vector3)
@@ -64,15 +64,15 @@ extern "C" Vector3_t538  Camera_ScreenToViewportPoint_m4517 (Camera_t548 * __thi
 // UnityEngine.Vector3 UnityEngine.Camera::INTERNAL_CALL_ScreenToViewportPoint(UnityEngine.Camera,UnityEngine.Vector3&)
 extern "C" Vector3_t538  Camera_INTERNAL_CALL_ScreenToViewportPoint_m9505 (Object_t * __this /* static, unused */, Camera_t548 * ___self, Vector3_t538 * ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Ray UnityEngine.Camera::ScreenPointToRay(UnityEngine.Vector3)
-extern "C" Ray_t777  Camera_ScreenPointToRay_m4169 (Camera_t548 * __this, Vector3_t538  ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Ray_t780  Camera_ScreenPointToRay_m4169 (Camera_t548 * __this, Vector3_t538  ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Ray UnityEngine.Camera::INTERNAL_CALL_ScreenPointToRay(UnityEngine.Camera,UnityEngine.Vector3&)
-extern "C" Ray_t777  Camera_INTERNAL_CALL_ScreenPointToRay_m9506 (Object_t * __this /* static, unused */, Camera_t548 * ___self, Vector3_t538 * ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Ray_t780  Camera_INTERNAL_CALL_ScreenPointToRay_m9506 (Object_t * __this /* static, unused */, Camera_t548 * ___self, Vector3_t538 * ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Camera UnityEngine.Camera::get_main()
 extern "C" Camera_t548 * Camera_get_main_m4167 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Camera::get_allCamerasCount()
 extern "C" int32_t Camera_get_allCamerasCount_m9507 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Camera::GetAllCameras(UnityEngine.Camera[])
-extern "C" int32_t Camera_GetAllCameras_m9508 (Object_t * __this /* static, unused */, CameraU5BU5D_t2883* ___cameras, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Camera_GetAllCameras_m9508 (Object_t * __this /* static, unused */, CameraU5BU5D_t2886* ___cameras, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Camera::FireOnPreCull(UnityEngine.Camera)
 extern "C" void Camera_FireOnPreCull_m9509 (Object_t * __this /* static, unused */, Camera_t548 * ___cam, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Camera::FireOnPreRender(UnityEngine.Camera)
@@ -80,10 +80,10 @@ extern "C" void Camera_FireOnPreRender_m9510 (Object_t * __this /* static, unuse
 // System.Void UnityEngine.Camera::FireOnPostRender(UnityEngine.Camera)
 extern "C" void Camera_FireOnPostRender_m9511 (Object_t * __this /* static, unused */, Camera_t548 * ___cam, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject UnityEngine.Camera::RaycastTry(UnityEngine.Ray,System.Single,System.Int32)
-extern "C" GameObject_t352 * Camera_RaycastTry_m9512 (Camera_t548 * __this, Ray_t777  ___ray, float ___distance, int32_t ___layerMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t352 * Camera_RaycastTry_m9512 (Camera_t548 * __this, Ray_t780  ___ray, float ___distance, int32_t ___layerMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject UnityEngine.Camera::INTERNAL_CALL_RaycastTry(UnityEngine.Camera,UnityEngine.Ray&,System.Single,System.Int32)
-extern "C" GameObject_t352 * Camera_INTERNAL_CALL_RaycastTry_m9513 (Object_t * __this /* static, unused */, Camera_t548 * ___self, Ray_t777 * ___ray, float ___distance, int32_t ___layerMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t352 * Camera_INTERNAL_CALL_RaycastTry_m9513 (Object_t * __this /* static, unused */, Camera_t548 * ___self, Ray_t780 * ___ray, float ___distance, int32_t ___layerMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject UnityEngine.Camera::RaycastTry2D(UnityEngine.Ray,System.Single,System.Int32)
-extern "C" GameObject_t352 * Camera_RaycastTry2D_m9514 (Camera_t548 * __this, Ray_t777  ___ray, float ___distance, int32_t ___layerMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t352 * Camera_RaycastTry2D_m9514 (Camera_t548 * __this, Ray_t780  ___ray, float ___distance, int32_t ___layerMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject UnityEngine.Camera::INTERNAL_CALL_RaycastTry2D(UnityEngine.Camera,UnityEngine.Ray&,System.Single,System.Int32)
-extern "C" GameObject_t352 * Camera_INTERNAL_CALL_RaycastTry2D_m9515 (Object_t * __this /* static, unused */, Camera_t548 * ___self, Ray_t777 * ___ray, float ___distance, int32_t ___layerMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t352 * Camera_INTERNAL_CALL_RaycastTry2D_m9515 (Object_t * __this /* static, unused */, Camera_t548 * ___self, Ray_t780 * ___ray, float ___distance, int32_t ___layerMask, const MethodInfo* method) IL2CPP_METHOD_ATTR;

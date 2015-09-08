@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Threading.Tasks.Task`1<System.Byte>
-struct Task_1_t1436;
+struct Task_1_t1439;
 // System.Threading.Tasks.Task
-struct Task_t1228;
+struct Task_t1231;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`2<System.Threading.Tasks.Task,System.Threading.Tasks.Task`1<System.Byte>>
-struct  Func_2_t6539  : public MulticastDelegate_t388
+struct  Func_2_t6544  : public MulticastDelegate_t388
 {
 };

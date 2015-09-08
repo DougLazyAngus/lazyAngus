@@ -7,17 +7,17 @@ struct String_t;
 // System.Type
 struct Type_t;
 // System.ComponentModel.TypeConverter
-struct TypeConverter_t3328;
+struct TypeConverter_t3331;
 // System.Configuration.ConfigurationValidatorBase
-struct ConfigurationValidatorBase_t3329;
+struct ConfigurationValidatorBase_t3332;
 // System.Configuration.ConfigurationCollectionAttribute
-struct ConfigurationCollectionAttribute_t3309;
+struct ConfigurationCollectionAttribute_t3312;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Configuration.ConfigurationPropertyOptions
 #include "System_Configuration_System_Configuration_ConfigurationPrope_0.h"
 // System.Configuration.ConfigurationProperty
-struct  ConfigurationProperty_t3330  : public Object_t
+struct  ConfigurationProperty_t3333  : public Object_t
 {
 	// System.String System.Configuration.ConfigurationProperty::name
 	String_t* ___name_1;
@@ -26,17 +26,17 @@ struct  ConfigurationProperty_t3330  : public Object_t
 	// System.Object System.Configuration.ConfigurationProperty::default_value
 	Object_t * ___default_value_3;
 	// System.ComponentModel.TypeConverter System.Configuration.ConfigurationProperty::converter
-	TypeConverter_t3328 * ___converter_4;
+	TypeConverter_t3331 * ___converter_4;
 	// System.Configuration.ConfigurationValidatorBase System.Configuration.ConfigurationProperty::validation
-	ConfigurationValidatorBase_t3329 * ___validation_5;
+	ConfigurationValidatorBase_t3332 * ___validation_5;
 	// System.Configuration.ConfigurationPropertyOptions System.Configuration.ConfigurationProperty::flags
 	int32_t ___flags_6;
 	// System.String System.Configuration.ConfigurationProperty::description
 	String_t* ___description_7;
 	// System.Configuration.ConfigurationCollectionAttribute System.Configuration.ConfigurationProperty::collectionAttribute
-	ConfigurationCollectionAttribute_t3309 * ___collectionAttribute_8;
+	ConfigurationCollectionAttribute_t3312 * ___collectionAttribute_8;
 };
-struct ConfigurationProperty_t3330_StaticFields{
+struct ConfigurationProperty_t3333_StaticFields{
 	// System.Object System.Configuration.ConfigurationProperty::NoDefaultValue
 	Object_t * ___NoDefaultValue_0;
 };

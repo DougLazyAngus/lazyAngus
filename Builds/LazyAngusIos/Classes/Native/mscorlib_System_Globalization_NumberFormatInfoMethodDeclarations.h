@@ -15,7 +15,7 @@ struct Object_t;
 // System.Type
 struct Type_t;
 // System.IFormatProvider
-struct IFormatProvider_t5003;
+struct IFormatProvider_t5006;
 
 // System.Void System.Globalization.NumberFormatInfo::.ctor(System.Int32,System.Boolean)
 extern "C" void NumberFormatInfo__ctor_m21369 (NumberFormatInfo_t452 * __this, int32_t ___lcid, bool ___read_only, const MethodInfo* method) IL2CPP_METHOD_ATTR;

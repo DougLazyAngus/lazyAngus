@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.SmallRect
-struct  SmallRect_t4932 
+struct  SmallRect_t4935 
 {
 	// System.Int16 System.SmallRect::Left
 	int16_t ___Left_0;

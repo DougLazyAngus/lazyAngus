@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Tuple
-struct Tuple_t1184;
+struct Tuple_t1187;
 

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int64>,System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>
-struct Func_2_t7979;
+struct Func_2_t7984;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -20,14 +20,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_75.h"
 
 // System.Void System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int64>,System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::.ctor(System.Object,System.IntPtr)
-extern "C" void Func_2__ctor_m53313_gshared (Func_2_t7979 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Func_2__ctor_m53313(__this, ___object, ___method, method) (( void (*) (Func_2_t7979 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m53313_gshared)(__this, ___object, ___method, method)
+extern "C" void Func_2__ctor_m53325_gshared (Func_2_t7984 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Func_2__ctor_m53325(__this, ___object, ___method, method) (( void (*) (Func_2_t7984 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m53325_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int64>,System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::Invoke(T)
-extern "C" KeyValuePair_2_t7764  Func_2_Invoke_m53315_gshared (Func_2_t7979 * __this, KeyValuePair_2_t7815  ___arg1, const MethodInfo* method);
-#define Func_2_Invoke_m53315(__this, ___arg1, method) (( KeyValuePair_2_t7764  (*) (Func_2_t7979 *, KeyValuePair_2_t7815 , const MethodInfo*))Func_2_Invoke_m53315_gshared)(__this, ___arg1, method)
+extern "C" KeyValuePair_2_t7769  Func_2_Invoke_m53327_gshared (Func_2_t7984 * __this, KeyValuePair_2_t7820  ___arg1, const MethodInfo* method);
+#define Func_2_Invoke_m53327(__this, ___arg1, method) (( KeyValuePair_2_t7769  (*) (Func_2_t7984 *, KeyValuePair_2_t7820 , const MethodInfo*))Func_2_Invoke_m53327_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int64>,System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Func_2_BeginInvoke_m53317_gshared (Func_2_t7979 * __this, KeyValuePair_2_t7815  ___arg1, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Func_2_BeginInvoke_m53317(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t7979 *, KeyValuePair_2_t7815 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m53317_gshared)(__this, ___arg1, ___callback, ___object, method)
+extern "C" Object_t * Func_2_BeginInvoke_m53329_gshared (Func_2_t7984 * __this, KeyValuePair_2_t7820  ___arg1, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Func_2_BeginInvoke_m53329(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t7984 *, KeyValuePair_2_t7820 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m53329_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Int64>,System.Collections.Generic.KeyValuePair`2<System.Object,System.SByte>>::EndInvoke(System.IAsyncResult)
-extern "C" KeyValuePair_2_t7764  Func_2_EndInvoke_m53319_gshared (Func_2_t7979 * __this, Object_t * ___result, const MethodInfo* method);
-#define Func_2_EndInvoke_m53319(__this, ___result, method) (( KeyValuePair_2_t7764  (*) (Func_2_t7979 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m53319_gshared)(__this, ___result, method)
+extern "C" KeyValuePair_2_t7769  Func_2_EndInvoke_m53331_gshared (Func_2_t7984 * __this, Object_t * ___result, const MethodInfo* method);
+#define Func_2_EndInvoke_m53331(__this, ___result, method) (( KeyValuePair_2_t7769  (*) (Func_2_t7984 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m53331_gshared)(__this, ___result, method)

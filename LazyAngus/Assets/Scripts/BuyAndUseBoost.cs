@@ -2,30 +2,40 @@ using UnityEngine;
 using System.Collections;
 
 public class BuyAndUseBoost : MonoBehaviour {
-	private BoostConfig boostConfig;
-	private PlayerStats playerStats;
+	BoostButton boostButton;
 	
-	void Start() {
-		boostConfig = BoostConfig.instance;
-		playerStats = PlayerStats.instance;
+	void Awake() {
+		boostButton = GetComponent<BoostButton> ();
 	}
-	
+
 	public void BuyAndUse() {
-		// Can't do it if a boost is active.
+		if (!boostButton.BoostIsUnlocked ()) {
+			TipController.instance.EnqueueAnytimeTip("I can't eat that cat food until Wave " +
+			                                         boostButton.GetLevelLock() + "!");
+			return;
+		}
+		
 		if (BoostConfig.instance.IsBoostActive()) {
+			TipController.instance.EnqueueAnytimeTip("I can only use one cat food at a time!");
+			return;
+		}
+		
+		if (!boostButton.CanAffordBoost ()) {
+			TipController.instance.EnqueueAnytimeTip("I can't afford that cat food!\n\nI can earn money by swiping two mice at once!");
 			return;
 		}
 
-		BoostButton button = gameObject.GetComponent<BoostButton>();
-		BoostConfig.BoostType boostType = button.GetBoostType ();
-
-		int price = boostConfig.GetCurrentPriceForBoost (boostType);
-		if (playerStats.CanAfford (price)) {
-			playerStats.AddBoost (boostType);
-			playerStats.SpendMoney (price);
+		if (!boostButton.CanUseBoost ()) {
+			return;
 		}
 
-		playerStats.RemoveBoost (boostType);		
-		boostConfig.ExecuteBoost (boostType);		
+		BoostConfig.BoostType boostType = boostButton.GetBoostType ();
+
+		int price = BoostConfig.instance.GetCurrentPriceForBoost (boostType);
+		PlayerStats.instance.AddBoost (boostType);
+		PlayerStats.instance.SpendMoney (price);
+
+		PlayerStats.instance.RemoveBoost (boostType);		
+		BoostConfig.instance.ExecuteBoost (boostType);		
 	}
 }

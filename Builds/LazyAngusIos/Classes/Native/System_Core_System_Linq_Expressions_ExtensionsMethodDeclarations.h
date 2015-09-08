@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Linq.Expressions.Extensions
-struct Extensions_t3765;
+struct Extensions_t3768;
 // System.Type
 struct Type_t;
 // System.Reflection.MethodInfo

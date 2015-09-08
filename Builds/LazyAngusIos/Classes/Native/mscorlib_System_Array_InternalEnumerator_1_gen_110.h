@@ -4,11 +4,11 @@
 struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Array/InternalEnumerator`1<System.Xml.NameTable/Entry>
-struct  InternalEnumerator_1_t9168 
+// System.Array/InternalEnumerator`1<System.Xml.Schema.XmlSchemaException>
+struct  InternalEnumerator_1_t9167 
 {
-	// System.Array System.Array/InternalEnumerator`1<System.Xml.NameTable/Entry>::array
+	// System.Array System.Array/InternalEnumerator`1<System.Xml.Schema.XmlSchemaException>::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<System.Xml.NameTable/Entry>::idx
+	// System.Int32 System.Array/InternalEnumerator`1<System.Xml.Schema.XmlSchemaException>::idx
 	int32_t ___idx_1;
 };

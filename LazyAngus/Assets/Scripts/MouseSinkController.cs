@@ -34,7 +34,7 @@ public class MouseSinkController : MonoBehaviour {
 	List<MouseTrap> mouseTraps;	
 	public MouseHoleLocation mouseHoleLocation;
 	SizeCamera sizeCameraWorld;
-
+	
 	bool registeredForEvents;
 
 	void Awake() {
@@ -131,6 +131,8 @@ public class MouseSinkController : MonoBehaviour {
 			DeadMouseRelay.instance.HandleMouseKill(mouseMove);
 			RemoveTopmostMouseTrap();
 			trapsSpent += 1;
+
+			UsedTrapRelay.instance.HandleUsedTrap();
 		} else {
 			savedMouseCount += 1;
 			GameController.instance.OnMouseExit (mouseMove);

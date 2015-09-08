@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // TimeController/TimeStateChangedEventHandler
-struct  TimeStateChangedEventHandler_t675  : public MulticastDelegate_t388
+struct  TimeStateChangedEventHandler_t678  : public MulticastDelegate_t388
 {
 };

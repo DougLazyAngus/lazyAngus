@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Schema.XmlSchemaValidationFlags
-struct XmlSchemaValidationFlags_t3701;
+struct XmlSchemaValidationFlags_t3704;
 

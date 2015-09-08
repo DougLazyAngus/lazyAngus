@@ -5,7 +5,7 @@
 // System.Diagnostics.SourceLevels
 #include "System_System_Diagnostics_SourceLevels.h"
 // System.Diagnostics.SourceLevels
-struct  SourceLevels_t4286 
+struct  SourceLevels_t4289 
 {
 	// System.Int32 System.Diagnostics.SourceLevels::value__
 	int32_t ___value___1;

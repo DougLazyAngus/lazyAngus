@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.PrivateKeySelectionCallback
-struct PrivateKeySelectionCallback_t3200;
+struct PrivateKeySelectionCallback_t3203;
 // System.Object
 struct Object_t;
 // System.Security.Cryptography.AsymmetricAlgorithm
-struct AsymmetricAlgorithm_t3240;
+struct AsymmetricAlgorithm_t3243;
 // System.Security.Cryptography.X509Certificates.X509Certificate
-struct X509Certificate_t3222;
+struct X509Certificate_t3225;
 // System.String
 struct String_t;
 // System.IAsyncResult
@@ -22,13 +22,13 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void Mono.Security.Protocol.Tls.PrivateKeySelectionCallback::.ctor(System.Object,System.IntPtr)
-extern "C" void PrivateKeySelectionCallback__ctor_m11468 (PrivateKeySelectionCallback_t3200 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PrivateKeySelectionCallback__ctor_m11468 (PrivateKeySelectionCallback_t3203 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.AsymmetricAlgorithm Mono.Security.Protocol.Tls.PrivateKeySelectionCallback::Invoke(System.Security.Cryptography.X509Certificates.X509Certificate,System.String)
-extern "C" AsymmetricAlgorithm_t3240 * PrivateKeySelectionCallback_Invoke_m11469 (PrivateKeySelectionCallback_t3200 * __this, X509Certificate_t3222 * ___certificate, String_t* ___targetHost, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AsymmetricAlgorithm_t3243 * PrivateKeySelectionCallback_Invoke_m11469 (PrivateKeySelectionCallback_t3203 * __this, X509Certificate_t3225 * ___certificate, String_t* ___targetHost, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String
 #include "mscorlib_System_String.h"
-extern "C" AsymmetricAlgorithm_t3240 * pinvoke_delegate_wrapper_PrivateKeySelectionCallback_t3200(Il2CppObject* delegate, X509Certificate_t3222 * ___certificate, String_t* ___targetHost);
+extern "C" AsymmetricAlgorithm_t3243 * pinvoke_delegate_wrapper_PrivateKeySelectionCallback_t3203(Il2CppObject* delegate, X509Certificate_t3225 * ___certificate, String_t* ___targetHost);
 // System.IAsyncResult Mono.Security.Protocol.Tls.PrivateKeySelectionCallback::BeginInvoke(System.Security.Cryptography.X509Certificates.X509Certificate,System.String,System.AsyncCallback,System.Object)
-extern "C" Object_t * PrivateKeySelectionCallback_BeginInvoke_m11470 (PrivateKeySelectionCallback_t3200 * __this, X509Certificate_t3222 * ___certificate, String_t* ___targetHost, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * PrivateKeySelectionCallback_BeginInvoke_m11470 (PrivateKeySelectionCallback_t3203 * __this, X509Certificate_t3225 * ___certificate, String_t* ___targetHost, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.AsymmetricAlgorithm Mono.Security.Protocol.Tls.PrivateKeySelectionCallback::EndInvoke(System.IAsyncResult)
-extern "C" AsymmetricAlgorithm_t3240 * PrivateKeySelectionCallback_EndInvoke_m11471 (PrivateKeySelectionCallback_t3200 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AsymmetricAlgorithm_t3243 * PrivateKeySelectionCallback_EndInvoke_m11471 (PrivateKeySelectionCallback_t3203 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

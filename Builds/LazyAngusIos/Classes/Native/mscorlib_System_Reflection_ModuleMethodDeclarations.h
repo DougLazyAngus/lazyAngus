@@ -5,46 +5,46 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.Module
-struct Module_t5024;
+struct Module_t5027;
 // System.Reflection.Assembly
-struct Assembly_t784;
+struct Assembly_t787;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t697;
+struct ObjectU5BU5D_t700;
 // System.Type
 struct Type_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2937;
+struct SerializationInfo_t2940;
 // System.Object
 struct Object_t;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Reflection.Module::.ctor()
-extern "C" void Module__ctor_m21921 (Module_t5024 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Module__ctor_m21921 (Module_t5027 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.Module::.cctor()
 extern "C" void Module__cctor_m21922 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Assembly System.Reflection.Module::get_Assembly()
-extern "C" Assembly_t784 * Module_get_Assembly_m21923 (Module_t5024 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Assembly_t787 * Module_get_Assembly_m21923 (Module_t5027 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.Module::get_Name()
-extern "C" String_t* Module_get_Name_m21924 (Module_t5024 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Module_get_Name_m21924 (Module_t5027 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.Module::get_ScopeName()
-extern "C" String_t* Module_get_ScopeName_m21925 (Module_t5024 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Module_get_ScopeName_m21925 (Module_t5027 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.Module::GetCustomAttributes(System.Type,System.Boolean)
-extern "C" ObjectU5BU5D_t697* Module_GetCustomAttributes_m21926 (Module_t5024 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t700* Module_GetCustomAttributes_m21926 (Module_t5027 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.Module::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void Module_GetObjectData_m21927 (Module_t5024 * __this, SerializationInfo_t2937 * ___info, StreamingContext_t2938  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Module_GetObjectData_m21927 (Module_t5027 * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.Module::GetType(System.String)
-extern "C" Type_t * Module_GetType_m21928 (Module_t5024 * __this, String_t* ___className, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * Module_GetType_m21928 (Module_t5027 * __this, String_t* ___className, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.Module::GetType(System.String,System.Boolean,System.Boolean)
-extern "C" Type_t * Module_GetType_m21929 (Module_t5024 * __this, String_t* ___className, bool ___throwOnError, bool ___ignoreCase, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * Module_GetType_m21929 (Module_t5027 * __this, String_t* ___className, bool ___throwOnError, bool ___ignoreCase, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Module::IsDefined(System.Type,System.Boolean)
-extern "C" bool Module_IsDefined_m21930 (Module_t5024 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Module_IsDefined_m21930 (Module_t5027 * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Module::IsResource()
-extern "C" bool Module_IsResource_m21931 (Module_t5024 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Module_IsResource_m21931 (Module_t5027 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.Module::ToString()
-extern "C" String_t* Module_ToString_m21932 (Module_t5024 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Module_ToString_m21932 (Module_t5027 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Module::filter_by_type_name(System.Type,System.Object)
 extern "C" bool Module_filter_by_type_name_m21933 (Object_t * __this /* static, unused */, Type_t * ___m, Object_t * ___filterCriteria, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Module::filter_by_type_name_ignore_case(System.Type,System.Object)

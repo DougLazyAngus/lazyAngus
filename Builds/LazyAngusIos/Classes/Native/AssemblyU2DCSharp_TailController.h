@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Renderer
-struct Renderer_t603;
+struct Renderer_t604;
 // UnityEngine.Material[]
-struct MaterialU5BU5D_t671;
+struct MaterialU5BU5D_t674;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // TailController
-struct  TailController_t672  : public MonoBehaviour_t13
+struct  TailController_t675  : public MonoBehaviour_t13
 {
 	// UnityEngine.Renderer TailController::tailRenderer
-	Renderer_t603 * ___tailRenderer_2;
+	Renderer_t604 * ___tailRenderer_2;
 	// UnityEngine.Material[] TailController::tailMaterials
-	MaterialU5BU5D_t671* ___tailMaterials_3;
+	MaterialU5BU5D_t674* ___tailMaterials_3;
 	// System.Single TailController::cycleTime
 	float ___cycleTime_4;
 	// System.Int32 TailController::numFrames
 	int32_t ___numFrames_5;
 	// UnityEngine.Material[] TailController::currentMaterial
-	MaterialU5BU5D_t671* ___currentMaterial_6;
+	MaterialU5BU5D_t674* ___currentMaterial_6;
 };

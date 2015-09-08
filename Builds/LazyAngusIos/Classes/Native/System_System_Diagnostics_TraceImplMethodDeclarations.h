@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Diagnostics.TraceImpl
-struct TraceImpl_t4288;
+struct TraceImpl_t4291;
 
 // System.Void System.Diagnostics.TraceImpl::.cctor()
 extern "C" void TraceImpl__cctor_m16072 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

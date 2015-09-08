@@ -82,8 +82,6 @@ public class InputHandler : MonoBehaviour {
 			worldCamera = Camera.main;
 			GameObject uxCameraObject = GameObject.FindGameObjectWithTag("ScalingUXCanvas");
 			uxCamera = uxCameraObject.GetComponent<Camera>();
-			
-			
 		}
 		Rect viewportRect = worldCamera.rect;
 		float minX, maxX, minY, maxY;

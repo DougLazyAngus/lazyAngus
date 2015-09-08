@@ -5,7 +5,7 @@ struct String_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Runtime.InteropServices.GuidAttribute
-struct  GuidAttribute_t1113  : public Attribute_t426
+struct  GuidAttribute_t1116  : public Attribute_t426
 {
 	// System.String System.Runtime.InteropServices.GuidAttribute::guidValue
 	String_t* ___guidValue_0;

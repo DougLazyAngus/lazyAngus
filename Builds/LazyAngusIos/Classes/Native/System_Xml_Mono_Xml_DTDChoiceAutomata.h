@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Xml.DTDAutomata
-struct DTDAutomata_t3446;
+struct DTDAutomata_t3449;
 // Mono.Xml.DTDAutomata
 #include "System_Xml_Mono_Xml_DTDAutomata.h"
 // Mono.Xml.DTDChoiceAutomata
-struct  DTDChoiceAutomata_t3448  : public DTDAutomata_t3446
+struct  DTDChoiceAutomata_t3451  : public DTDAutomata_t3449
 {
 	// Mono.Xml.DTDAutomata Mono.Xml.DTDChoiceAutomata::left
-	DTDAutomata_t3446 * ___left_1;
+	DTDAutomata_t3449 * ___left_1;
 	// Mono.Xml.DTDAutomata Mono.Xml.DTDChoiceAutomata::right
-	DTDAutomata_t3446 * ___right_2;
+	DTDAutomata_t3449 * ___right_2;
 	// System.Boolean Mono.Xml.DTDChoiceAutomata::hasComputedEmptiable
 	bool ___hasComputedEmptiable_3;
 	// System.Boolean Mono.Xml.DTDChoiceAutomata::cachedEmptiable

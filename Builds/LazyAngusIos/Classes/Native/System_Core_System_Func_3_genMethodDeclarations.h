@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`3<System.Object,System.Object,System.Object>
-struct Func_3_t1212;
+struct Func_3_t1215;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,14 +16,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Func`3<System.Object,System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
-extern "C" void Func_3__ctor_m7551_gshared (Func_3_t1212 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Func_3__ctor_m7551(__this, ___object, ___method, method) (( void (*) (Func_3_t1212 *, Object_t *, IntPtr_t, const MethodInfo*))Func_3__ctor_m7551_gshared)(__this, ___object, ___method, method)
+extern "C" void Func_3__ctor_m7551_gshared (Func_3_t1215 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Func_3__ctor_m7551(__this, ___object, ___method, method) (( void (*) (Func_3_t1215 *, Object_t *, IntPtr_t, const MethodInfo*))Func_3__ctor_m7551_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`3<System.Object,System.Object,System.Object>::Invoke(T1,T2)
-extern "C" Object_t * Func_3_Invoke_m35345_gshared (Func_3_t1212 * __this, Object_t * ___arg1, Object_t * ___arg2, const MethodInfo* method);
-#define Func_3_Invoke_m35345(__this, ___arg1, ___arg2, method) (( Object_t * (*) (Func_3_t1212 *, Object_t *, Object_t *, const MethodInfo*))Func_3_Invoke_m35345_gshared)(__this, ___arg1, ___arg2, method)
+extern "C" Object_t * Func_3_Invoke_m35357_gshared (Func_3_t1215 * __this, Object_t * ___arg1, Object_t * ___arg2, const MethodInfo* method);
+#define Func_3_Invoke_m35357(__this, ___arg1, ___arg2, method) (( Object_t * (*) (Func_3_t1215 *, Object_t *, Object_t *, const MethodInfo*))Func_3_Invoke_m35357_gshared)(__this, ___arg1, ___arg2, method)
 // System.IAsyncResult System.Func`3<System.Object,System.Object,System.Object>::BeginInvoke(T1,T2,System.AsyncCallback,System.Object)
-extern "C" Object_t * Func_3_BeginInvoke_m35347_gshared (Func_3_t1212 * __this, Object_t * ___arg1, Object_t * ___arg2, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Func_3_BeginInvoke_m35347(__this, ___arg1, ___arg2, ___callback, ___object, method) (( Object_t * (*) (Func_3_t1212 *, Object_t *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_3_BeginInvoke_m35347_gshared)(__this, ___arg1, ___arg2, ___callback, ___object, method)
+extern "C" Object_t * Func_3_BeginInvoke_m35359_gshared (Func_3_t1215 * __this, Object_t * ___arg1, Object_t * ___arg2, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Func_3_BeginInvoke_m35359(__this, ___arg1, ___arg2, ___callback, ___object, method) (( Object_t * (*) (Func_3_t1215 *, Object_t *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_3_BeginInvoke_m35359_gshared)(__this, ___arg1, ___arg2, ___callback, ___object, method)
 // TResult System.Func`3<System.Object,System.Object,System.Object>::EndInvoke(System.IAsyncResult)
-extern "C" Object_t * Func_3_EndInvoke_m35349_gshared (Func_3_t1212 * __this, Object_t * ___result, const MethodInfo* method);
-#define Func_3_EndInvoke_m35349(__this, ___result, method) (( Object_t * (*) (Func_3_t1212 *, Object_t *, const MethodInfo*))Func_3_EndInvoke_m35349_gshared)(__this, ___result, method)
+extern "C" Object_t * Func_3_EndInvoke_m35361_gshared (Func_3_t1215 * __this, Object_t * ___result, const MethodInfo* method);
+#define Func_3_EndInvoke_m35361(__this, ___result, method) (( Object_t * (*) (Func_3_t1215 *, Object_t *, const MethodInfo*))Func_3_EndInvoke_m35361_gshared)(__this, ___result, method)

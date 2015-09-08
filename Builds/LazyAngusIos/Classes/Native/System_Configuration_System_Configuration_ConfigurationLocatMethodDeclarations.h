@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Configuration.ConfigurationLocation
-struct ConfigurationLocation_t3322;
+struct ConfigurationLocation_t3325;
 // System.String
 struct String_t;
 // System.Configuration.Configuration
-struct Configuration_t3297;
+struct Configuration_t3300;
 
 // System.Void System.Configuration.ConfigurationLocation::.ctor(System.String,System.String,System.Configuration.Configuration,System.Boolean)
-extern "C" void ConfigurationLocation__ctor_m11821 (ConfigurationLocation_t3322 * __this, String_t* ___path, String_t* ___xmlContent, Configuration_t3297 * ___parent, bool ___allowOverride, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConfigurationLocation__ctor_m11821 (ConfigurationLocation_t3325 * __this, String_t* ___path, String_t* ___xmlContent, Configuration_t3300 * ___parent, bool ___allowOverride, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Configuration.ConfigurationLocation::.cctor()
 extern "C" void ConfigurationLocation__cctor_m11822 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Configuration.ConfigurationLocation::get_Path()
-extern "C" String_t* ConfigurationLocation_get_Path_m11823 (ConfigurationLocation_t3322 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ConfigurationLocation_get_Path_m11823 (ConfigurationLocation_t3325 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Configuration.Configuration System.Configuration.ConfigurationLocation::OpenConfiguration()
-extern "C" Configuration_t3297 * ConfigurationLocation_OpenConfiguration_m11824 (ConfigurationLocation_t3322 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Configuration_t3300 * ConfigurationLocation_OpenConfiguration_m11824 (ConfigurationLocation_t3325 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Configuration.ConfigurationLocation::SetParentConfiguration(System.Configuration.Configuration)
-extern "C" void ConfigurationLocation_SetParentConfiguration_m11825 (ConfigurationLocation_t3322 * __this, Configuration_t3297 * ___parent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ConfigurationLocation_SetParentConfiguration_m11825 (ConfigurationLocation_t3325 * __this, Configuration_t3300 * ___parent, const MethodInfo* method) IL2CPP_METHOD_ATTR;

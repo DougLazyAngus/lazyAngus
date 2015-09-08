@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Security.Protocol.Tls.ValidationResult
-struct ValidationResult_t3213;
+struct ValidationResult_t3216;
 // Mono.Security.X509.X509CertificateCollection
-struct X509CertificateCollection_t3147;
+struct X509CertificateCollection_t3150;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // Mono.Security.Protocol.Tls.CertificateValidationCallback2
-struct  CertificateValidationCallback2_t3215  : public MulticastDelegate_t388
+struct  CertificateValidationCallback2_t3218  : public MulticastDelegate_t388
 {
 };

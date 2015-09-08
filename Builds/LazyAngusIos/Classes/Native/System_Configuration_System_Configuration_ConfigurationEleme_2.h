@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ArrayList
-struct ArrayList_t713;
+struct ArrayList_t716;
 // System.Collections.IComparer
-struct IComparer_t3317;
+struct IComparer_t3320;
 // System.String
 struct String_t;
 // System.Configuration.ConfigurationElement
 #include "System_Configuration_System_Configuration_ConfigurationEleme_0.h"
 // System.Configuration.ConfigurationElementCollection
-struct  ConfigurationElementCollection_t3312  : public ConfigurationElement_t3315
+struct  ConfigurationElementCollection_t3315  : public ConfigurationElement_t3318
 {
 	// System.Collections.ArrayList System.Configuration.ConfigurationElementCollection::list
-	ArrayList_t713 * ___list_13;
+	ArrayList_t716 * ___list_13;
 	// System.Collections.ArrayList System.Configuration.ConfigurationElementCollection::removed
-	ArrayList_t713 * ___removed_14;
+	ArrayList_t716 * ___removed_14;
 	// System.Collections.ArrayList System.Configuration.ConfigurationElementCollection::inherited
-	ArrayList_t713 * ___inherited_15;
+	ArrayList_t716 * ___inherited_15;
 	// System.Boolean System.Configuration.ConfigurationElementCollection::emitClear
 	bool ___emitClear_16;
 	// System.Boolean System.Configuration.ConfigurationElementCollection::modified

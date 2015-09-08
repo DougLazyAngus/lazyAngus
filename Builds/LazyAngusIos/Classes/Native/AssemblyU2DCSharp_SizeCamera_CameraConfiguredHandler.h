@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // SizeCamera/CameraConfiguredHandler
-struct  CameraConfiguredHandler_t660  : public MulticastDelegate_t388
+struct  CameraConfiguredHandler_t663  : public MulticastDelegate_t388
 {
 };

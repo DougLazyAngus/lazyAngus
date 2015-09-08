@@ -5,7 +5,7 @@ struct ByteU5BU5D_t66;
 // Mono.Security.Cryptography.MD2
 #include "Mono_Security_Mono_Security_Cryptography_MD2.h"
 // Mono.Security.Cryptography.MD2Managed
-struct  MD2Managed_t3135  : public MD2_t3133
+struct  MD2Managed_t3138  : public MD2_t3136
 {
 	// System.Byte[] Mono.Security.Cryptography.MD2Managed::state
 	ByteU5BU5D_t66* ___state_4;
@@ -18,7 +18,7 @@ struct  MD2Managed_t3135  : public MD2_t3133
 	// System.Byte[] Mono.Security.Cryptography.MD2Managed::x
 	ByteU5BU5D_t66* ___x_8;
 };
-struct MD2Managed_t3135_StaticFields{
+struct MD2Managed_t3138_StaticFields{
 	// System.Byte[] Mono.Security.Cryptography.MD2Managed::PI_SUBST
 	ByteU5BU5D_t66* ___PI_SUBST_9;
 };

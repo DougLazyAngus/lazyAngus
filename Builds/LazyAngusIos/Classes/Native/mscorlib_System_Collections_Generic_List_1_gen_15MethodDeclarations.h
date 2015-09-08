@@ -11,25 +11,25 @@ struct Object_t;
 // Facebook.FacebookDelegate
 struct FacebookDelegate_t433;
 // System.Collections.Generic.IEnumerable`1<Facebook.FacebookDelegate>
-struct IEnumerable_1_t9516;
+struct IEnumerable_1_t9521;
 // Facebook.FacebookDelegate[]
-struct FacebookDelegateU5BU5D_t6207;
+struct FacebookDelegateU5BU5D_t6210;
 // System.Collections.Generic.IEnumerator`1<Facebook.FacebookDelegate>
-struct IEnumerator_1_t9517;
+struct IEnumerator_1_t9522;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.ICollection`1<Facebook.FacebookDelegate>
-struct ICollection_1_t9518;
+struct ICollection_1_t9523;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<Facebook.FacebookDelegate>
-struct ReadOnlyCollection_1_t6209;
+struct ReadOnlyCollection_1_t6212;
 // System.Predicate`1<Facebook.FacebookDelegate>
-struct Predicate_1_t6210;
+struct Predicate_1_t6213;
 // System.Collections.Generic.IComparer`1<Facebook.FacebookDelegate>
-struct IComparer_1_t9519;
+struct IComparer_1_t9524;
 // System.Comparison`1<Facebook.FacebookDelegate>
-struct Comparison_1_t6211;
+struct Comparison_1_t6214;
 // System.Collections.Generic.List`1/Enumerator<Facebook.FacebookDelegate>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_8.h"
 
@@ -42,7 +42,7 @@ struct Comparison_1_t6211;
 // System.Void System.Collections.Generic.List`1<Facebook.FacebookDelegate>::.ctor(System.Int32)
 #define List_1__ctor_m30404(__this, ___capacity, method) (( void (*) (List_1_t412 *, int32_t, const MethodInfo*))List_1__ctor_m25920_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.List`1<Facebook.FacebookDelegate>::.ctor(T[],System.Int32)
-#define List_1__ctor_m30405(__this, ___data, ___size, method) (( void (*) (List_1_t412 *, FacebookDelegateU5BU5D_t6207*, int32_t, const MethodInfo*))List_1__ctor_m25922_gshared)(__this, ___data, ___size, method)
+#define List_1__ctor_m30405(__this, ___data, ___size, method) (( void (*) (List_1_t412 *, FacebookDelegateU5BU5D_t6210*, int32_t, const MethodInfo*))List_1__ctor_m25922_gshared)(__this, ___data, ___size, method)
 // System.Void System.Collections.Generic.List`1<Facebook.FacebookDelegate>::.cctor()
 #define List_1__cctor_m30406(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m25924_gshared)(__this /* static, unused */, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<Facebook.FacebookDelegate>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
@@ -88,21 +88,21 @@ struct Comparison_1_t6211;
 // System.Void System.Collections.Generic.List`1<Facebook.FacebookDelegate>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
 #define List_1_AddRange_m30427(__this, ___collection, method) (( void (*) (List_1_t412 *, Object_t*, const MethodInfo*))List_1_AddRange_m25950_gshared)(__this, ___collection, method)
 // System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<Facebook.FacebookDelegate>::AsReadOnly()
-#define List_1_AsReadOnly_m30428(__this, method) (( ReadOnlyCollection_1_t6209 * (*) (List_1_t412 *, const MethodInfo*))List_1_AsReadOnly_m25952_gshared)(__this, method)
+#define List_1_AsReadOnly_m30428(__this, method) (( ReadOnlyCollection_1_t6212 * (*) (List_1_t412 *, const MethodInfo*))List_1_AsReadOnly_m25952_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<Facebook.FacebookDelegate>::Clear()
 #define List_1_Clear_m30429(__this, method) (( void (*) (List_1_t412 *, const MethodInfo*))List_1_Clear_m10518_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<Facebook.FacebookDelegate>::Contains(T)
 #define List_1_Contains_m30430(__this, ___item, method) (( bool (*) (List_1_t412 *, FacebookDelegate_t433 *, const MethodInfo*))List_1_Contains_m10526_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<Facebook.FacebookDelegate>::CopyTo(T[],System.Int32)
-#define List_1_CopyTo_m30431(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t412 *, FacebookDelegateU5BU5D_t6207*, int32_t, const MethodInfo*))List_1_CopyTo_m10527_gshared)(__this, ___array, ___arrayIndex, method)
+#define List_1_CopyTo_m30431(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t412 *, FacebookDelegateU5BU5D_t6210*, int32_t, const MethodInfo*))List_1_CopyTo_m10527_gshared)(__this, ___array, ___arrayIndex, method)
 // T System.Collections.Generic.List`1<Facebook.FacebookDelegate>::Find(System.Predicate`1<T>)
-#define List_1_Find_m30432(__this, ___match, method) (( FacebookDelegate_t433 * (*) (List_1_t412 *, Predicate_1_t6210 *, const MethodInfo*))List_1_Find_m25957_gshared)(__this, ___match, method)
+#define List_1_Find_m30432(__this, ___match, method) (( FacebookDelegate_t433 * (*) (List_1_t412 *, Predicate_1_t6213 *, const MethodInfo*))List_1_Find_m25957_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<Facebook.FacebookDelegate>::CheckMatch(System.Predicate`1<T>)
-#define List_1_CheckMatch_m30433(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t6210 *, const MethodInfo*))List_1_CheckMatch_m25959_gshared)(__this /* static, unused */, ___match, method)
+#define List_1_CheckMatch_m30433(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t6213 *, const MethodInfo*))List_1_CheckMatch_m25959_gshared)(__this /* static, unused */, ___match, method)
 // System.Int32 System.Collections.Generic.List`1<Facebook.FacebookDelegate>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
-#define List_1_GetIndex_m30434(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t412 *, int32_t, int32_t, Predicate_1_t6210 *, const MethodInfo*))List_1_GetIndex_m25961_gshared)(__this, ___startIndex, ___count, ___match, method)
+#define List_1_GetIndex_m30434(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t412 *, int32_t, int32_t, Predicate_1_t6213 *, const MethodInfo*))List_1_GetIndex_m25961_gshared)(__this, ___startIndex, ___count, ___match, method)
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<Facebook.FacebookDelegate>::GetEnumerator()
-#define List_1_GetEnumerator_m4209(__this, method) (( Enumerator_t781  (*) (List_1_t412 *, const MethodInfo*))List_1_GetEnumerator_m4029_gshared)(__this, method)
+#define List_1_GetEnumerator_m4209(__this, method) (( Enumerator_t784  (*) (List_1_t412 *, const MethodInfo*))List_1_GetEnumerator_m4029_gshared)(__this, method)
 // System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<Facebook.FacebookDelegate>::GetRange(System.Int32,System.Int32)
 #define List_1_GetRange_m30435(__this, ___index, ___count, method) (( List_1_t412 * (*) (List_1_t412 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m25963_gshared)(__this, ___index, ___count, method)
 // System.Int32 System.Collections.Generic.List`1<Facebook.FacebookDelegate>::IndexOf(T)
@@ -124,7 +124,7 @@ struct Comparison_1_t6211;
 // System.Boolean System.Collections.Generic.List`1<Facebook.FacebookDelegate>::Remove(T)
 #define List_1_Remove_m30444(__this, ___item, method) (( bool (*) (List_1_t412 *, FacebookDelegate_t433 *, const MethodInfo*))List_1_Remove_m10528_gshared)(__this, ___item, method)
 // System.Int32 System.Collections.Generic.List`1<Facebook.FacebookDelegate>::RemoveAll(System.Predicate`1<T>)
-#define List_1_RemoveAll_m30445(__this, ___match, method) (( int32_t (*) (List_1_t412 *, Predicate_1_t6210 *, const MethodInfo*))List_1_RemoveAll_m25980_gshared)(__this, ___match, method)
+#define List_1_RemoveAll_m30445(__this, ___match, method) (( int32_t (*) (List_1_t412 *, Predicate_1_t6213 *, const MethodInfo*))List_1_RemoveAll_m25980_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<Facebook.FacebookDelegate>::RemoveAt(System.Int32)
 #define List_1_RemoveAt_m30446(__this, ___index, method) (( void (*) (List_1_t412 *, int32_t, const MethodInfo*))List_1_RemoveAt_m10523_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<Facebook.FacebookDelegate>::RemoveRange(System.Int32,System.Int32)
@@ -136,9 +136,9 @@ struct Comparison_1_t6211;
 // System.Void System.Collections.Generic.List`1<Facebook.FacebookDelegate>::Sort(System.Collections.Generic.IComparer`1<T>)
 #define List_1_Sort_m30450(__this, ___comparer, method) (( void (*) (List_1_t412 *, Object_t*, const MethodInfo*))List_1_Sort_m25989_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.List`1<Facebook.FacebookDelegate>::Sort(System.Comparison`1<T>)
-#define List_1_Sort_m30451(__this, ___comparison, method) (( void (*) (List_1_t412 *, Comparison_1_t6211 *, const MethodInfo*))List_1_Sort_m25991_gshared)(__this, ___comparison, method)
+#define List_1_Sort_m30451(__this, ___comparison, method) (( void (*) (List_1_t412 *, Comparison_1_t6214 *, const MethodInfo*))List_1_Sort_m25991_gshared)(__this, ___comparison, method)
 // T[] System.Collections.Generic.List`1<Facebook.FacebookDelegate>::ToArray()
-#define List_1_ToArray_m30452(__this, method) (( FacebookDelegateU5BU5D_t6207* (*) (List_1_t412 *, const MethodInfo*))List_1_ToArray_m25993_gshared)(__this, method)
+#define List_1_ToArray_m30452(__this, method) (( FacebookDelegateU5BU5D_t6210* (*) (List_1_t412 *, const MethodInfo*))List_1_ToArray_m25993_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<Facebook.FacebookDelegate>::TrimExcess()
 #define List_1_TrimExcess_m30453(__this, method) (( void (*) (List_1_t412 *, const MethodInfo*))List_1_TrimExcess_m25995_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.List`1<Facebook.FacebookDelegate>::get_Capacity()

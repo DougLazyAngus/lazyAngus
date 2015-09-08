@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.ParseObject/<>c__DisplayClass18
-struct U3CU3Ec__DisplayClass18_t1272;
+struct U3CU3Ec__DisplayClass18_t1275;
 // System.Threading.Tasks.Task
-struct Task_t1228;
+struct Task_t1231;
 
 // System.Void Parse.ParseObject/<>c__DisplayClass18::.ctor()
-extern "C" void U3CU3Ec__DisplayClass18__ctor_m6943 (U3CU3Ec__DisplayClass18_t1272 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass18__ctor_m6943 (U3CU3Ec__DisplayClass18_t1275 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParseObject/<>c__DisplayClass18::<SaveAsync>b__17(System.Threading.Tasks.Task)
-extern "C" Task_t1228 * U3CU3Ec__DisplayClass18_U3CSaveAsyncU3Eb__17_m6944 (U3CU3Ec__DisplayClass18_t1272 * __this, Task_t1228 * ___toAwait, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1231 * U3CU3Ec__DisplayClass18_U3CSaveAsyncU3Eb__17_m6944 (U3CU3Ec__DisplayClass18_t1275 * __this, Task_t1231 * ___toAwait, const MethodInfo* method) IL2CPP_METHOD_ATTR;

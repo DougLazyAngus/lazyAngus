@@ -3,6 +3,6 @@
 // System.ComponentModel.TypeConverter
 #include "System_System_ComponentModel_TypeConverter.h"
 // System.ComponentModel.GuidConverter
-struct  GuidConverter_t4244  : public TypeConverter_t3328
+struct  GuidConverter_t4247  : public TypeConverter_t3331
 {
 };

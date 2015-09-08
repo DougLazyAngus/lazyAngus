@@ -14,196 +14,196 @@
 #include <assert.h>
 #include "stringLiterals.h"
 
-extern TypeInfo U3CModuleU3E_t3294_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t3297_il2cpp_TypeInfo;
 // <Module>
 #include "System_Configuration_U3CModuleU3E.h"
-extern TypeInfo IConfigErrorInfo_t3376_il2cpp_TypeInfo;
-extern TypeInfo IConfigSystem_t3306_il2cpp_TypeInfo;
-extern TypeInfo IInternalConfigConfigurationFactory_t3371_il2cpp_TypeInfo;
-extern TypeInfo IInternalConfigHost_t3302_il2cpp_TypeInfo;
-extern TypeInfo IInternalConfigRoot_t3352_il2cpp_TypeInfo;
-extern TypeInfo IInternalConfigSystem_t3326_il2cpp_TypeInfo;
-extern TypeInfo ProviderBase_t3295_il2cpp_TypeInfo;
+extern TypeInfo IConfigErrorInfo_t3379_il2cpp_TypeInfo;
+extern TypeInfo IConfigSystem_t3309_il2cpp_TypeInfo;
+extern TypeInfo IInternalConfigConfigurationFactory_t3374_il2cpp_TypeInfo;
+extern TypeInfo IInternalConfigHost_t3305_il2cpp_TypeInfo;
+extern TypeInfo IInternalConfigRoot_t3355_il2cpp_TypeInfo;
+extern TypeInfo IInternalConfigSystem_t3329_il2cpp_TypeInfo;
+extern TypeInfo ProviderBase_t3298_il2cpp_TypeInfo;
 // System.Configuration.Provider.ProviderBase
 #include "System_Configuration_System_Configuration_Provider_ProviderB.h"
-extern TypeInfo ProviderCollection_t3296_il2cpp_TypeInfo;
+extern TypeInfo ProviderCollection_t3299_il2cpp_TypeInfo;
 // System.Configuration.Provider.ProviderCollection
 #include "System_Configuration_System_Configuration_Provider_ProviderC.h"
-extern TypeInfo ClientConfigurationSystem_t3298_il2cpp_TypeInfo;
+extern TypeInfo ClientConfigurationSystem_t3301_il2cpp_TypeInfo;
 // System.Configuration.ClientConfigurationSystem
 #include "System_Configuration_System_Configuration_ClientConfiguratio.h"
-extern TypeInfo ConfigNameValueCollection_t3299_il2cpp_TypeInfo;
+extern TypeInfo ConfigNameValueCollection_t3302_il2cpp_TypeInfo;
 // System.Configuration.ConfigNameValueCollection
 #include "System_Configuration_System_Configuration_ConfigNameValueCol.h"
-extern TypeInfo ConfigInfo_t3301_il2cpp_TypeInfo;
+extern TypeInfo ConfigInfo_t3304_il2cpp_TypeInfo;
 // System.Configuration.ConfigInfo
 #include "System_Configuration_System_Configuration_ConfigInfo.h"
-extern TypeInfo Configuration_t3297_il2cpp_TypeInfo;
+extern TypeInfo Configuration_t3300_il2cpp_TypeInfo;
 // System.Configuration.Configuration
 #include "System_Configuration_System_Configuration_Configuration.h"
-extern TypeInfo ConfigurationAllowDefinition_t3307_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationAllowDefinition_t3310_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationAllowDefinition
 #include "System_Configuration_System_Configuration_ConfigurationAllow.h"
-extern TypeInfo ConfigurationAllowExeDefinition_t3308_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationAllowExeDefinition_t3311_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationAllowExeDefinition
 #include "System_Configuration_System_Configuration_ConfigurationAllow_0.h"
-extern TypeInfo ConfigurationCollectionAttribute_t3309_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationCollectionAttribute_t3312_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationCollectionAttribute
 #include "System_Configuration_System_Configuration_ConfigurationColle.h"
-extern TypeInfo ConfigurationElement_t3315_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationElement_t3318_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationElement
 #include "System_Configuration_System_Configuration_ConfigurationEleme_0.h"
-extern TypeInfo ElementMap_t3310_il2cpp_TypeInfo;
+extern TypeInfo ElementMap_t3313_il2cpp_TypeInfo;
 // System.Configuration.ElementMap
 #include "System_Configuration_System_Configuration_ElementMap.h"
-extern TypeInfo ConfigurationRemoveElement_t3316_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationRemoveElement_t3319_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationElementCollection/ConfigurationRemoveElement
 #include "System_Configuration_System_Configuration_ConfigurationEleme_1.h"
-extern TypeInfo ConfigurationElementCollection_t3312_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationElementCollection_t3315_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationElementCollection
 #include "System_Configuration_System_Configuration_ConfigurationEleme_2.h"
-extern TypeInfo ConfigurationElementCollectionType_t3318_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationElementCollectionType_t3321_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationElementCollectionType
 #include "System_Configuration_System_Configuration_ConfigurationEleme.h"
-extern TypeInfo ConfigurationErrorsException_t3319_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationErrorsException_t3322_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationErrorsException
 #include "System_Configuration_System_Configuration_ConfigurationError.h"
-extern TypeInfo ConfigurationFileMap_t3321_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationFileMap_t3324_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationFileMap
 #include "System_Configuration_System_Configuration_ConfigurationFileM.h"
-extern TypeInfo ConfigurationLocation_t3322_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationLocation_t3325_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationLocation
 #include "System_Configuration_System_Configuration_ConfigurationLocat.h"
-extern TypeInfo ConfigurationLocationCollection_t3304_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationLocationCollection_t3307_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationLocationCollection
 #include "System_Configuration_System_Configuration_ConfigurationLocat_0.h"
-extern TypeInfo ConfigurationLockType_t3324_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationLockType_t3327_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationLockType
 #include "System_Configuration_System_Configuration_ConfigurationLockT.h"
-extern TypeInfo ConfigurationLockCollection_t3314_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationLockCollection_t3317_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationLockCollection
 #include "System_Configuration_System_Configuration_ConfigurationLockC.h"
-extern TypeInfo ConfigurationManager_t3327_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationManager_t3330_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationManager
 #include "System_Configuration_System_Configuration_ConfigurationManag.h"
-extern TypeInfo ConfigurationProperty_t3330_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationProperty_t3333_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationProperty
 #include "System_Configuration_System_Configuration_ConfigurationPrope.h"
-extern TypeInfo ConfigurationPropertyAttribute_t3331_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationPropertyAttribute_t3334_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationPropertyAttribute
 #include "System_Configuration_System_Configuration_ConfigurationPrope_1.h"
-extern TypeInfo ConfigurationPropertyCollection_t3311_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationPropertyCollection_t3314_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationPropertyCollection
 #include "System_Configuration_System_Configuration_ConfigurationPrope_2.h"
-extern TypeInfo ConfigurationPropertyOptions_t3333_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationPropertyOptions_t3336_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationPropertyOptions
 #include "System_Configuration_System_Configuration_ConfigurationPrope_0.h"
-extern TypeInfo ConfigurationSaveMode_t3334_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationSaveMode_t3337_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationSaveMode
 #include "System_Configuration_System_Configuration_ConfigurationSaveM.h"
-extern TypeInfo ConfigurationSection_t3337_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationSection_t3340_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationSection
 #include "System_Configuration_System_Configuration_ConfigurationSecti.h"
-extern TypeInfo U3CGetEnumeratorU3Ec__Iterator0_t3339_il2cpp_TypeInfo;
+extern TypeInfo U3CGetEnumeratorU3Ec__Iterator0_t3342_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationSectionCollection/<GetEnumerator>c__Iterator0
 #include "System_Configuration_System_Configuration_ConfigurationSecti_0.h"
-extern TypeInfo ConfigurationSectionCollection_t3338_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationSectionCollection_t3341_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationSectionCollection
 #include "System_Configuration_System_Configuration_ConfigurationSecti_1.h"
-extern TypeInfo ConfigurationSectionGroup_t3303_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationSectionGroup_t3306_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationSectionGroup
 #include "System_Configuration_System_Configuration_ConfigurationSecti_2.h"
-extern TypeInfo ConfigurationSectionGroupCollection_t3341_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationSectionGroupCollection_t3344_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationSectionGroupCollection
 #include "System_Configuration_System_Configuration_ConfigurationSecti_3.h"
-extern TypeInfo ConfigurationUserLevel_t3342_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationUserLevel_t3345_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationUserLevel
 #include "System_Configuration_System_Configuration_ConfigurationUserL.h"
-extern TypeInfo ConfigurationValidatorAttribute_t3343_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationValidatorAttribute_t3346_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationValidatorAttribute
 #include "System_Configuration_System_Configuration_ConfigurationValid.h"
-extern TypeInfo ConfigurationValidatorBase_t3329_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationValidatorBase_t3332_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationValidatorBase
 #include "System_Configuration_System_Configuration_ConfigurationValid_0.h"
-extern TypeInfo ConfigXmlTextReader_t3344_il2cpp_TypeInfo;
+extern TypeInfo ConfigXmlTextReader_t3347_il2cpp_TypeInfo;
 // ConfigXmlTextReader
 #include "System_Configuration_ConfigXmlTextReader.h"
-extern TypeInfo DefaultSection_t3346_il2cpp_TypeInfo;
+extern TypeInfo DefaultSection_t3349_il2cpp_TypeInfo;
 // System.Configuration.DefaultSection
 #include "System_Configuration_System_Configuration_DefaultSection.h"
-extern TypeInfo DefaultValidator_t3347_il2cpp_TypeInfo;
+extern TypeInfo DefaultValidator_t3350_il2cpp_TypeInfo;
 // System.Configuration.DefaultValidator
 #include "System_Configuration_System_Configuration_DefaultValidator.h"
-extern TypeInfo ElementInformation_t3313_il2cpp_TypeInfo;
+extern TypeInfo ElementInformation_t3316_il2cpp_TypeInfo;
 // System.Configuration.ElementInformation
 #include "System_Configuration_System_Configuration_ElementInformation.h"
-extern TypeInfo ExeConfigurationFileMap_t3350_il2cpp_TypeInfo;
+extern TypeInfo ExeConfigurationFileMap_t3353_il2cpp_TypeInfo;
 // System.Configuration.ExeConfigurationFileMap
 #include "System_Configuration_System_Configuration_ExeConfigurationFi.h"
-extern TypeInfo IgnoreSection_t3351_il2cpp_TypeInfo;
+extern TypeInfo IgnoreSection_t3354_il2cpp_TypeInfo;
 // System.Configuration.IgnoreSection
 #include "System_Configuration_System_Configuration_IgnoreSection.h"
-extern TypeInfo InternalConfigurationFactory_t3325_il2cpp_TypeInfo;
+extern TypeInfo InternalConfigurationFactory_t3328_il2cpp_TypeInfo;
 // System.Configuration.InternalConfigurationFactory
 #include "System_Configuration_System_Configuration_InternalConfigurat.h"
-extern TypeInfo InternalConfigurationSystem_t3353_il2cpp_TypeInfo;
+extern TypeInfo InternalConfigurationSystem_t3356_il2cpp_TypeInfo;
 // System.Configuration.InternalConfigurationSystem
 #include "System_Configuration_System_Configuration_InternalConfigurat_0.h"
-extern TypeInfo InternalConfigurationHost_t3354_il2cpp_TypeInfo;
+extern TypeInfo InternalConfigurationHost_t3357_il2cpp_TypeInfo;
 // System.Configuration.InternalConfigurationHost
 #include "System_Configuration_System_Configuration_InternalConfigurat_1.h"
-extern TypeInfo ExeConfigurationHost_t3355_il2cpp_TypeInfo;
+extern TypeInfo ExeConfigurationHost_t3358_il2cpp_TypeInfo;
 // System.Configuration.ExeConfigurationHost
 #include "System_Configuration_System_Configuration_ExeConfigurationHo.h"
-extern TypeInfo InternalConfigurationRoot_t3356_il2cpp_TypeInfo;
+extern TypeInfo InternalConfigurationRoot_t3359_il2cpp_TypeInfo;
 // System.Configuration.InternalConfigurationRoot
 #include "System_Configuration_System_Configuration_InternalConfigurat_2.h"
-extern TypeInfo PropertyInformation_t3348_il2cpp_TypeInfo;
+extern TypeInfo PropertyInformation_t3351_il2cpp_TypeInfo;
 // System.Configuration.PropertyInformation
 #include "System_Configuration_System_Configuration_PropertyInformatio.h"
-extern TypeInfo PropertyInformationEnumerator_t3357_il2cpp_TypeInfo;
+extern TypeInfo PropertyInformationEnumerator_t3360_il2cpp_TypeInfo;
 // System.Configuration.PropertyInformationCollection/PropertyInformationEnumerator
 #include "System_Configuration_System_Configuration_PropertyInformatio_0.h"
-extern TypeInfo PropertyInformationCollection_t3349_il2cpp_TypeInfo;
+extern TypeInfo PropertyInformationCollection_t3352_il2cpp_TypeInfo;
 // System.Configuration.PropertyInformationCollection
 #include "System_Configuration_System_Configuration_PropertyInformatio_1.h"
-extern TypeInfo PropertyValueOrigin_t3358_il2cpp_TypeInfo;
+extern TypeInfo PropertyValueOrigin_t3361_il2cpp_TypeInfo;
 // System.Configuration.PropertyValueOrigin
 #include "System_Configuration_System_Configuration_PropertyValueOrigi.h"
-extern TypeInfo ProtectedConfiguration_t3359_il2cpp_TypeInfo;
+extern TypeInfo ProtectedConfiguration_t3362_il2cpp_TypeInfo;
 // System.Configuration.ProtectedConfiguration
 #include "System_Configuration_System_Configuration_ProtectedConfigura.h"
-extern TypeInfo ProtectedConfigurationProvider_t3360_il2cpp_TypeInfo;
+extern TypeInfo ProtectedConfigurationProvider_t3363_il2cpp_TypeInfo;
 // System.Configuration.ProtectedConfigurationProvider
 #include "System_Configuration_System_Configuration_ProtectedConfigura_0.h"
-extern TypeInfo ProtectedConfigurationProviderCollection_t3361_il2cpp_TypeInfo;
+extern TypeInfo ProtectedConfigurationProviderCollection_t3364_il2cpp_TypeInfo;
 // System.Configuration.ProtectedConfigurationProviderCollection
 #include "System_Configuration_System_Configuration_ProtectedConfigura_1.h"
-extern TypeInfo ProtectedConfigurationSection_t3362_il2cpp_TypeInfo;
+extern TypeInfo ProtectedConfigurationSection_t3365_il2cpp_TypeInfo;
 // System.Configuration.ProtectedConfigurationSection
 #include "System_Configuration_System_Configuration_ProtectedConfigura_2.h"
-extern TypeInfo ProviderSettings_t3363_il2cpp_TypeInfo;
+extern TypeInfo ProviderSettings_t3366_il2cpp_TypeInfo;
 // System.Configuration.ProviderSettings
 #include "System_Configuration_System_Configuration_ProviderSettings.h"
-extern TypeInfo ProviderSettingsCollection_t3364_il2cpp_TypeInfo;
+extern TypeInfo ProviderSettingsCollection_t3367_il2cpp_TypeInfo;
 // System.Configuration.ProviderSettingsCollection
 #include "System_Configuration_System_Configuration_ProviderSettingsCo.h"
-extern TypeInfo SectionInfo_t3365_il2cpp_TypeInfo;
+extern TypeInfo SectionInfo_t3368_il2cpp_TypeInfo;
 // System.Configuration.SectionInfo
 #include "System_Configuration_System_Configuration_SectionInfo.h"
-extern TypeInfo SectionGroupInfo_t3305_il2cpp_TypeInfo;
+extern TypeInfo SectionGroupInfo_t3308_il2cpp_TypeInfo;
 // System.Configuration.SectionGroupInfo
 #include "System_Configuration_System_Configuration_SectionGroupInfo.h"
-extern TypeInfo ConfigInfoCollection_t3366_il2cpp_TypeInfo;
+extern TypeInfo ConfigInfoCollection_t3369_il2cpp_TypeInfo;
 // System.Configuration.ConfigInfoCollection
 #include "System_Configuration_System_Configuration_ConfigInfoCollecti.h"
-extern TypeInfo SectionInformation_t3335_il2cpp_TypeInfo;
+extern TypeInfo SectionInformation_t3338_il2cpp_TypeInfo;
 // System.Configuration.SectionInformation
 #include "System_Configuration_System_Configuration_SectionInformation.h"
-extern TypeInfo MonoTODOAttribute_t3367_il2cpp_TypeInfo;
+extern TypeInfo MonoTODOAttribute_t3370_il2cpp_TypeInfo;
 // System.MonoTODOAttribute
 #include "System_Configuration_System_MonoTODOAttribute.h"
-extern TypeInfo MonoInternalNoteAttribute_t3368_il2cpp_TypeInfo;
+extern TypeInfo MonoInternalNoteAttribute_t3371_il2cpp_TypeInfo;
 // System.MonoInternalNoteAttribute
 #include "System_Configuration_System_MonoInternalNoteAttribute.h"
 #include <map>
@@ -211,74 +211,74 @@ struct TypeInfo;
 struct MethodInfo;
 TypeInfo* g_System_Configuration_Assembly_Types[69] = 
 {
-	&U3CModuleU3E_t3294_il2cpp_TypeInfo,
-	&IConfigErrorInfo_t3376_il2cpp_TypeInfo,
-	&IConfigSystem_t3306_il2cpp_TypeInfo,
-	&IInternalConfigConfigurationFactory_t3371_il2cpp_TypeInfo,
-	&IInternalConfigHost_t3302_il2cpp_TypeInfo,
-	&IInternalConfigRoot_t3352_il2cpp_TypeInfo,
-	&IInternalConfigSystem_t3326_il2cpp_TypeInfo,
-	&ProviderBase_t3295_il2cpp_TypeInfo,
-	&ProviderCollection_t3296_il2cpp_TypeInfo,
-	&ClientConfigurationSystem_t3298_il2cpp_TypeInfo,
-	&ConfigNameValueCollection_t3299_il2cpp_TypeInfo,
-	&ConfigInfo_t3301_il2cpp_TypeInfo,
-	&Configuration_t3297_il2cpp_TypeInfo,
-	&ConfigurationAllowDefinition_t3307_il2cpp_TypeInfo,
-	&ConfigurationAllowExeDefinition_t3308_il2cpp_TypeInfo,
-	&ConfigurationCollectionAttribute_t3309_il2cpp_TypeInfo,
-	&ConfigurationElement_t3315_il2cpp_TypeInfo,
-	&ElementMap_t3310_il2cpp_TypeInfo,
-	&ConfigurationRemoveElement_t3316_il2cpp_TypeInfo,
-	&ConfigurationElementCollection_t3312_il2cpp_TypeInfo,
-	&ConfigurationElementCollectionType_t3318_il2cpp_TypeInfo,
-	&ConfigurationErrorsException_t3319_il2cpp_TypeInfo,
-	&ConfigurationFileMap_t3321_il2cpp_TypeInfo,
-	&ConfigurationLocation_t3322_il2cpp_TypeInfo,
-	&ConfigurationLocationCollection_t3304_il2cpp_TypeInfo,
-	&ConfigurationLockType_t3324_il2cpp_TypeInfo,
-	&ConfigurationLockCollection_t3314_il2cpp_TypeInfo,
-	&ConfigurationManager_t3327_il2cpp_TypeInfo,
-	&ConfigurationProperty_t3330_il2cpp_TypeInfo,
-	&ConfigurationPropertyAttribute_t3331_il2cpp_TypeInfo,
-	&ConfigurationPropertyCollection_t3311_il2cpp_TypeInfo,
-	&ConfigurationPropertyOptions_t3333_il2cpp_TypeInfo,
-	&ConfigurationSaveMode_t3334_il2cpp_TypeInfo,
-	&ConfigurationSection_t3337_il2cpp_TypeInfo,
-	&U3CGetEnumeratorU3Ec__Iterator0_t3339_il2cpp_TypeInfo,
-	&ConfigurationSectionCollection_t3338_il2cpp_TypeInfo,
-	&ConfigurationSectionGroup_t3303_il2cpp_TypeInfo,
-	&ConfigurationSectionGroupCollection_t3341_il2cpp_TypeInfo,
-	&ConfigurationUserLevel_t3342_il2cpp_TypeInfo,
-	&ConfigurationValidatorAttribute_t3343_il2cpp_TypeInfo,
-	&ConfigurationValidatorBase_t3329_il2cpp_TypeInfo,
-	&ConfigXmlTextReader_t3344_il2cpp_TypeInfo,
-	&DefaultSection_t3346_il2cpp_TypeInfo,
-	&DefaultValidator_t3347_il2cpp_TypeInfo,
-	&ElementInformation_t3313_il2cpp_TypeInfo,
-	&ExeConfigurationFileMap_t3350_il2cpp_TypeInfo,
-	&IgnoreSection_t3351_il2cpp_TypeInfo,
-	&InternalConfigurationFactory_t3325_il2cpp_TypeInfo,
-	&InternalConfigurationSystem_t3353_il2cpp_TypeInfo,
-	&InternalConfigurationHost_t3354_il2cpp_TypeInfo,
-	&ExeConfigurationHost_t3355_il2cpp_TypeInfo,
-	&InternalConfigurationRoot_t3356_il2cpp_TypeInfo,
-	&PropertyInformation_t3348_il2cpp_TypeInfo,
-	&PropertyInformationEnumerator_t3357_il2cpp_TypeInfo,
-	&PropertyInformationCollection_t3349_il2cpp_TypeInfo,
-	&PropertyValueOrigin_t3358_il2cpp_TypeInfo,
-	&ProtectedConfiguration_t3359_il2cpp_TypeInfo,
-	&ProtectedConfigurationProvider_t3360_il2cpp_TypeInfo,
-	&ProtectedConfigurationProviderCollection_t3361_il2cpp_TypeInfo,
-	&ProtectedConfigurationSection_t3362_il2cpp_TypeInfo,
-	&ProviderSettings_t3363_il2cpp_TypeInfo,
-	&ProviderSettingsCollection_t3364_il2cpp_TypeInfo,
-	&SectionInfo_t3365_il2cpp_TypeInfo,
-	&SectionGroupInfo_t3305_il2cpp_TypeInfo,
-	&ConfigInfoCollection_t3366_il2cpp_TypeInfo,
-	&SectionInformation_t3335_il2cpp_TypeInfo,
-	&MonoTODOAttribute_t3367_il2cpp_TypeInfo,
-	&MonoInternalNoteAttribute_t3368_il2cpp_TypeInfo,
+	&U3CModuleU3E_t3297_il2cpp_TypeInfo,
+	&IConfigErrorInfo_t3379_il2cpp_TypeInfo,
+	&IConfigSystem_t3309_il2cpp_TypeInfo,
+	&IInternalConfigConfigurationFactory_t3374_il2cpp_TypeInfo,
+	&IInternalConfigHost_t3305_il2cpp_TypeInfo,
+	&IInternalConfigRoot_t3355_il2cpp_TypeInfo,
+	&IInternalConfigSystem_t3329_il2cpp_TypeInfo,
+	&ProviderBase_t3298_il2cpp_TypeInfo,
+	&ProviderCollection_t3299_il2cpp_TypeInfo,
+	&ClientConfigurationSystem_t3301_il2cpp_TypeInfo,
+	&ConfigNameValueCollection_t3302_il2cpp_TypeInfo,
+	&ConfigInfo_t3304_il2cpp_TypeInfo,
+	&Configuration_t3300_il2cpp_TypeInfo,
+	&ConfigurationAllowDefinition_t3310_il2cpp_TypeInfo,
+	&ConfigurationAllowExeDefinition_t3311_il2cpp_TypeInfo,
+	&ConfigurationCollectionAttribute_t3312_il2cpp_TypeInfo,
+	&ConfigurationElement_t3318_il2cpp_TypeInfo,
+	&ElementMap_t3313_il2cpp_TypeInfo,
+	&ConfigurationRemoveElement_t3319_il2cpp_TypeInfo,
+	&ConfigurationElementCollection_t3315_il2cpp_TypeInfo,
+	&ConfigurationElementCollectionType_t3321_il2cpp_TypeInfo,
+	&ConfigurationErrorsException_t3322_il2cpp_TypeInfo,
+	&ConfigurationFileMap_t3324_il2cpp_TypeInfo,
+	&ConfigurationLocation_t3325_il2cpp_TypeInfo,
+	&ConfigurationLocationCollection_t3307_il2cpp_TypeInfo,
+	&ConfigurationLockType_t3327_il2cpp_TypeInfo,
+	&ConfigurationLockCollection_t3317_il2cpp_TypeInfo,
+	&ConfigurationManager_t3330_il2cpp_TypeInfo,
+	&ConfigurationProperty_t3333_il2cpp_TypeInfo,
+	&ConfigurationPropertyAttribute_t3334_il2cpp_TypeInfo,
+	&ConfigurationPropertyCollection_t3314_il2cpp_TypeInfo,
+	&ConfigurationPropertyOptions_t3336_il2cpp_TypeInfo,
+	&ConfigurationSaveMode_t3337_il2cpp_TypeInfo,
+	&ConfigurationSection_t3340_il2cpp_TypeInfo,
+	&U3CGetEnumeratorU3Ec__Iterator0_t3342_il2cpp_TypeInfo,
+	&ConfigurationSectionCollection_t3341_il2cpp_TypeInfo,
+	&ConfigurationSectionGroup_t3306_il2cpp_TypeInfo,
+	&ConfigurationSectionGroupCollection_t3344_il2cpp_TypeInfo,
+	&ConfigurationUserLevel_t3345_il2cpp_TypeInfo,
+	&ConfigurationValidatorAttribute_t3346_il2cpp_TypeInfo,
+	&ConfigurationValidatorBase_t3332_il2cpp_TypeInfo,
+	&ConfigXmlTextReader_t3347_il2cpp_TypeInfo,
+	&DefaultSection_t3349_il2cpp_TypeInfo,
+	&DefaultValidator_t3350_il2cpp_TypeInfo,
+	&ElementInformation_t3316_il2cpp_TypeInfo,
+	&ExeConfigurationFileMap_t3353_il2cpp_TypeInfo,
+	&IgnoreSection_t3354_il2cpp_TypeInfo,
+	&InternalConfigurationFactory_t3328_il2cpp_TypeInfo,
+	&InternalConfigurationSystem_t3356_il2cpp_TypeInfo,
+	&InternalConfigurationHost_t3357_il2cpp_TypeInfo,
+	&ExeConfigurationHost_t3358_il2cpp_TypeInfo,
+	&InternalConfigurationRoot_t3359_il2cpp_TypeInfo,
+	&PropertyInformation_t3351_il2cpp_TypeInfo,
+	&PropertyInformationEnumerator_t3360_il2cpp_TypeInfo,
+	&PropertyInformationCollection_t3352_il2cpp_TypeInfo,
+	&PropertyValueOrigin_t3361_il2cpp_TypeInfo,
+	&ProtectedConfiguration_t3362_il2cpp_TypeInfo,
+	&ProtectedConfigurationProvider_t3363_il2cpp_TypeInfo,
+	&ProtectedConfigurationProviderCollection_t3364_il2cpp_TypeInfo,
+	&ProtectedConfigurationSection_t3365_il2cpp_TypeInfo,
+	&ProviderSettings_t3366_il2cpp_TypeInfo,
+	&ProviderSettingsCollection_t3367_il2cpp_TypeInfo,
+	&SectionInfo_t3368_il2cpp_TypeInfo,
+	&SectionGroupInfo_t3308_il2cpp_TypeInfo,
+	&ConfigInfoCollection_t3369_il2cpp_TypeInfo,
+	&SectionInformation_t3338_il2cpp_TypeInfo,
+	&MonoTODOAttribute_t3370_il2cpp_TypeInfo,
+	&MonoInternalNoteAttribute_t3371_il2cpp_TypeInfo,
 	NULL,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
@@ -467,211 +467,211 @@ static const char* s_StringTable[168] =
 #endif
 static const Il2CppFieldDefinition s_FieldTable[205] = 
 {
-	{ 0, 100, offsetof(ProviderBase_t3295, ___alreadyInitialized_0), 0 } ,
-	{ 1, 99, offsetof(ProviderBase_t3295, ____description_1), 0 } ,
-	{ 2, 99, offsetof(ProviderBase_t3295, ____name_2), 0 } ,
-	{ 3, 5877, offsetof(ProviderCollection_t3296, ___lookup_0), 0 } ,
-	{ 4, 100, offsetof(ProviderCollection_t3296, ___readOnly_1), 0 } ,
-	{ 5, 5542, offsetof(ProviderCollection_t3296, ___values_2), 0 } ,
-	{ 6, 5880, offsetof(ClientConfigurationSystem_t3298, ___cfg_0), 0 } ,
-	{ 7, 100, offsetof(ConfigNameValueCollection_t3299, ___modified_12), 0 } ,
-	{ 8, 101, offsetof(ConfigInfo_t3301, ___Name_0), 0 } ,
-	{ 9, 101, offsetof(ConfigInfo_t3301, ___TypeName_1), 0 } ,
-	{ 10, 5884, offsetof(ConfigInfo_t3301, ___Type_2), 0 } ,
-	{ 11, 99, offsetof(ConfigInfo_t3301, ___streamName_3), 0 } ,
-	{ 12, 5885, offsetof(ConfigInfo_t3301, ___Parent_4), 0 } ,
-	{ 13, 5886, offsetof(ConfigInfo_t3301, ___ConfigHost_5), 0 } ,
-	{ 14, 5880, offsetof(Configuration_t3297, ___parent_0), 0 } ,
-	{ 15, 5877, offsetof(Configuration_t3297, ___elementData_1), 0 } ,
-	{ 11, 99, offsetof(Configuration_t3297, ___streamName_2), 0 } ,
-	{ 16, 5888, offsetof(Configuration_t3297, ___rootSectionGroup_3), 0 } ,
-	{ 17, 5889, offsetof(Configuration_t3297, ___locations_4), 0 } ,
-	{ 18, 5890, offsetof(Configuration_t3297, ___rootGroup_5), 0 } ,
-	{ 19, 5891, offsetof(Configuration_t3297, ___system_6), 0 } ,
-	{ 20, 100, offsetof(Configuration_t3297, ___hasFile_7), 0 } ,
-	{ 21, 99, offsetof(Configuration_t3297, ___rootNamespace_8), 0 } ,
-	{ 22, 99, offsetof(Configuration_t3297, ___configPath_9), 0 } ,
-	{ 23, 99, offsetof(Configuration_t3297, ___locationConfigPath_10), 0 } ,
-	{ 24, 99, offsetof(Configuration_t3297, ___locationSubPath_11), 0 } ,
-	{ 25, 90, offsetof(ConfigurationAllowDefinition_t3307, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 26, 5893, 0, 0 } ,
-	{ 27, 5893, 0, 0 } ,
-	{ 28, 5893, 0, 0 } ,
-	{ 29, 5893, 0, 0 } ,
-	{ 25, 90, offsetof(ConfigurationAllowExeDefinition_t3308, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 26, 5895, 0, 0 } ,
-	{ 28, 5895, 0, 0 } ,
-	{ 30, 5895, 0, 0 } ,
-	{ 31, 5895, 0, 0 } ,
-	{ 32, 99, offsetof(ConfigurationCollectionAttribute_t3309, ___addItemName_0), 0 } ,
-	{ 33, 99, offsetof(ConfigurationCollectionAttribute_t3309, ___clearItemsName_1), 0 } ,
-	{ 34, 99, offsetof(ConfigurationCollectionAttribute_t3309, ___removeItemName_2), 0 } ,
-	{ 35, 5898, offsetof(ConfigurationCollectionAttribute_t3309, ___collectionType_3), 0 } ,
-	{ 36, 5899, offsetof(ConfigurationCollectionAttribute_t3309, ___itemType_4), 0 } ,
-	{ 37, 99, offsetof(ConfigurationElement_t3315, ___rawXml_0), 0 } ,
-	{ 7, 100, offsetof(ConfigurationElement_t3315, ___modified_1), 0 } ,
-	{ 38, 5903, offsetof(ConfigurationElement_t3315, ___map_2), 0 } ,
-	{ 39, 5904, offsetof(ConfigurationElement_t3315, ___keyProps_3), 0 } ,
-	{ 40, 5905, offsetof(ConfigurationElement_t3315, ___defaultCollection_4), 0 } ,
-	{ 4, 100, offsetof(ConfigurationElement_t3315, ___readOnly_5), 0 } ,
-	{ 41, 5906, offsetof(ConfigurationElement_t3315, ___elementInfo_6), 0 } ,
-	{ 42, 5880, offsetof(ConfigurationElement_t3315, ____configuration_7), 0 } ,
-	{ 43, 5907, offsetof(ConfigurationElement_t3315, ___lockAllAttributesExcept_8), 0 } ,
-	{ 44, 5907, offsetof(ConfigurationElement_t3315, ___lockAllElementsExcept_9), 0 } ,
-	{ 45, 5907, offsetof(ConfigurationElement_t3315, ___lockAttributes_10), 0 } ,
-	{ 46, 5907, offsetof(ConfigurationElement_t3315, ___lockElements_11), 0 } ,
-	{ 47, 100, offsetof(ConfigurationElement_t3315, ___lockItem_12), 0 } ,
-	{ 48, 5909, offsetof(ElementMap_t3310_StaticFields, ___elementMaps_0), 0 } ,
-	{ 49, 5910, offsetof(ElementMap_t3310, ___properties_1), 0 } ,
-	{ 50, 5911, offsetof(ElementMap_t3310, ___collectionAttribute_2), 0 } ,
-	{ 49, 5910, offsetof(ConfigurationRemoveElement_t3316, ___properties_13), 0 } ,
-	{ 51, 5913, offsetof(ConfigurationRemoveElement_t3316, ____origElement_14), 0 } ,
-	{ 52, 5914, offsetof(ConfigurationRemoveElement_t3316, ____origCollection_15), 0 } ,
-	{ 53, 5542, offsetof(ConfigurationElementCollection_t3312, ___list_13), 0 } ,
-	{ 54, 5542, offsetof(ConfigurationElementCollection_t3312, ___removed_14), 0 } ,
-	{ 55, 5542, offsetof(ConfigurationElementCollection_t3312, ___inherited_15), 0 } ,
-	{ 56, 100, offsetof(ConfigurationElementCollection_t3312, ___emitClear_16), 0 } ,
-	{ 7, 100, offsetof(ConfigurationElementCollection_t3312, ___modified_17), 0 } ,
-	{ 57, 5916, offsetof(ConfigurationElementCollection_t3312, ___comparer_18), 0 } ,
-	{ 58, 110, offsetof(ConfigurationElementCollection_t3312, ___inheritedLimitIndex_19), 0 } ,
-	{ 59, 99, offsetof(ConfigurationElementCollection_t3312, ___addElementName_20), 0 } ,
-	{ 60, 99, offsetof(ConfigurationElementCollection_t3312, ___clearElementName_21), 0 } ,
-	{ 61, 99, offsetof(ConfigurationElementCollection_t3312, ___removeElementName_22), 0 } ,
-	{ 25, 90, offsetof(ConfigurationElementCollectionType_t3318, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 62, 5918, 0, 0 } ,
-	{ 63, 5918, 0, 0 } ,
-	{ 64, 5918, 0, 0 } ,
-	{ 65, 5918, 0, 0 } ,
-	{ 66, 71, offsetof(ConfigurationErrorsException_t3319, ___filename_13), 0 } ,
-	{ 67, 2433, offsetof(ConfigurationErrorsException_t3319, ___line_14), 0 } ,
-	{ 68, 99, offsetof(ConfigurationFileMap_t3321, ___machineConfigFilename_0), 0 } ,
-	{ 69, 2265, offsetof(ConfigurationLocation_t3322_StaticFields, ___pathTrimChars_0), 0 } ,
-	{ 70, 99, offsetof(ConfigurationLocation_t3322, ___path_1), 0 } ,
-	{ 71, 5880, offsetof(ConfigurationLocation_t3322, ___configuration_2), 0 } ,
-	{ 14, 5880, offsetof(ConfigurationLocation_t3322, ___parent_3), 0 } ,
-	{ 72, 99, offsetof(ConfigurationLocation_t3322, ___xmlContent_4), 0 } ,
-	{ 73, 100, offsetof(ConfigurationLocation_t3322, ___parentResolved_5), 0 } ,
-	{ 74, 100, offsetof(ConfigurationLocation_t3322, ___allowOverride_6), 0 } ,
-	{ 25, 90, offsetof(ConfigurationLockType_t3324, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 75, 5926, 0, 0 } ,
-	{ 76, 5926, 0, 0 } ,
-	{ 77, 5926, 0, 0 } ,
-	{ 78, 5542, offsetof(ConfigurationLockCollection_t3314, ___names_0), 0 } ,
-	{ 79, 5929, offsetof(ConfigurationLockCollection_t3314, ___element_1), 0 } ,
-	{ 80, 5930, offsetof(ConfigurationLockCollection_t3314, ___lockType_2), 0 } ,
-	{ 81, 100, offsetof(ConfigurationLockCollection_t3314, ___is_modified_3), 0 } ,
-	{ 82, 5877, offsetof(ConfigurationLockCollection_t3314, ___valid_name_hash_4), 0 } ,
-	{ 83, 99, offsetof(ConfigurationLockCollection_t3314, ___valid_names_5), 0 } ,
-	{ 84, 5933, offsetof(ConfigurationManager_t3327_StaticFields, ___configFactory_0), 0 } ,
-	{ 85, 5934, offsetof(ConfigurationManager_t3327_StaticFields, ___configSystem_1), 0 } ,
-	{ 86, 3807, offsetof(ConfigurationManager_t3327_StaticFields, ___lockobj_2), 0 } ,
-	{ 87, 3731, offsetof(ConfigurationProperty_t3330_StaticFields, ___NoDefaultValue_0), 0 } ,
-	{ 88, 99, offsetof(ConfigurationProperty_t3330, ___name_1), 0 } ,
-	{ 89, 5899, offsetof(ConfigurationProperty_t3330, ___type_2), 0 } ,
-	{ 90, 653, offsetof(ConfigurationProperty_t3330, ___default_value_3), 0 } ,
-	{ 91, 5937, offsetof(ConfigurationProperty_t3330, ___converter_4), 0 } ,
-	{ 92, 5938, offsetof(ConfigurationProperty_t3330, ___validation_5), 0 } ,
-	{ 93, 5939, offsetof(ConfigurationProperty_t3330, ___flags_6), 0 } ,
-	{ 94, 99, offsetof(ConfigurationProperty_t3330, ___description_7), 0 } ,
-	{ 50, 5940, offsetof(ConfigurationProperty_t3330, ___collectionAttribute_8), 0 } ,
-	{ 88, 99, offsetof(ConfigurationPropertyAttribute_t3331, ___name_0), 0 } ,
-	{ 90, 653, offsetof(ConfigurationPropertyAttribute_t3331, ___default_value_1), 0 } ,
-	{ 93, 5939, offsetof(ConfigurationPropertyAttribute_t3331, ___flags_2), 0 } ,
-	{ 95, 5943, offsetof(ConfigurationPropertyCollection_t3311, ___collection_0), 0 } ,
-	{ 25, 90, offsetof(ConfigurationPropertyOptions_t3333, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 96, 5945, 0, 0 } ,
-	{ 97, 5945, 0, 0 } ,
-	{ 98, 5945, 0, 0 } ,
-	{ 99, 5945, 0, 0 } ,
-	{ 25, 90, offsetof(ConfigurationSaveMode_t3334, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 100, 5947, 0, 0 } ,
-	{ 101, 5947, 0, 0 } ,
-	{ 102, 5947, 0, 0 } ,
-	{ 103, 5949, offsetof(ConfigurationSection_t3337, ___sectionInformation_13), 0 } ,
-	{ 104, 5950, offsetof(ConfigurationSection_t3337, ___section_handler_14), 0 } ,
-	{ 105, 99, offsetof(ConfigurationSection_t3337, ___externalDataXml_15), 0 } ,
-	{ 106, 653, offsetof(ConfigurationSection_t3337, ____configContext_16), 0 } ,
-	{ 107, 5952, offsetof(U3CGetEnumeratorU3Ec__Iterator0_t3339, ___U3CU24s_32U3E__0_0), 0 } ,
-	{ 108, 1044, offsetof(U3CGetEnumeratorU3Ec__Iterator0_t3339, ___U3CkeyU3E__1_1), 0 } ,
-	{ 109, 137, offsetof(U3CGetEnumeratorU3Ec__Iterator0_t3339, ___U24PC_2), 0 } ,
-	{ 110, 148, offsetof(U3CGetEnumeratorU3Ec__Iterator0_t3339, ___U24current_3), 0 } ,
-	{ 111, 5953, offsetof(U3CGetEnumeratorU3Ec__Iterator0_t3339, ___U3CU3Ef__this_4), 0 } ,
-	{ 112, 5890, offsetof(ConfigurationSectionCollection_t3338, ___group_10), 0 } ,
-	{ 113, 5880, offsetof(ConfigurationSectionCollection_t3338, ___config_11), 0 } ,
-	{ 114, 5958, offsetof(ConfigurationSectionGroup_t3303, ___sections_0), 0 } ,
-	{ 115, 5959, offsetof(ConfigurationSectionGroup_t3303, ___groups_1), 0 } ,
-	{ 113, 5880, offsetof(ConfigurationSectionGroup_t3303, ___config_2), 0 } ,
-	{ 112, 5890, offsetof(ConfigurationSectionGroup_t3303, ___group_3), 0 } ,
-	{ 116, 100, offsetof(ConfigurationSectionGroup_t3303, ___initialized_4), 0 } ,
-	{ 112, 5890, offsetof(ConfigurationSectionGroupCollection_t3341, ___group_10), 0 } ,
-	{ 113, 5880, offsetof(ConfigurationSectionGroupCollection_t3341, ___config_11), 0 } ,
-	{ 25, 90, offsetof(ConfigurationUserLevel_t3342, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 96, 5962, 0, 0 } ,
-	{ 117, 5962, 0, 0 } ,
-	{ 118, 5962, 0, 0 } ,
-	{ 119, 5899, offsetof(ConfigurationValidatorAttribute_t3343, ___validatorType_0), 0 } ,
-	{ 120, 5938, offsetof(ConfigurationValidatorAttribute_t3343, ___instance_1), 0 } ,
-	{ 121, 71, offsetof(ConfigXmlTextReader_t3344, ___fileName_7), 0 } ,
-	{ 49, 5971, offsetof(DefaultSection_t3346_StaticFields, ___properties_17), 0 } ,
-	{ 122, 5974, offsetof(ElementInformation_t3313, ___propertyInfo_0), 0 } ,
-	{ 123, 5913, offsetof(ElementInformation_t3313, ___owner_1), 0 } ,
-	{ 49, 5975, offsetof(ElementInformation_t3313, ___properties_2), 0 } ,
-	{ 124, 99, offsetof(ExeConfigurationFileMap_t3350, ___exeConfigFilename_1), 0 } ,
-	{ 125, 99, offsetof(ExeConfigurationFileMap_t3350, ___localUserConfigFilename_2), 0 } ,
-	{ 126, 99, offsetof(ExeConfigurationFileMap_t3350, ___roamingUserConfigFilename_3), 0 } ,
-	{ 127, 99, offsetof(IgnoreSection_t3351, ___xml_17), 0 } ,
-	{ 49, 5971, offsetof(IgnoreSection_t3351_StaticFields, ___properties_18), 0 } ,
-	{ 128, 5980, offsetof(InternalConfigurationSystem_t3353, ___host_0), 0 } ,
-	{ 129, 5981, offsetof(InternalConfigurationSystem_t3353, ___root_1), 0 } ,
-	{ 130, 5982, offsetof(InternalConfigurationSystem_t3353, ___hostInitParams_2), 0 } ,
-	{ 38, 5986, offsetof(ExeConfigurationHost_t3355, ___map_0), 0 } ,
-	{ 131, 5987, offsetof(ExeConfigurationHost_t3355, ___level_1), 0 } ,
-	{ 132, 951, offsetof(ExeConfigurationHost_t3355_StaticFields, ___U3CU3Ef__switchU24map0_2), 49 } ,
-	{ 128, 5980, offsetof(InternalConfigurationRoot_t3356, ___host_0), 0 } ,
-	{ 133, 100, offsetof(InternalConfigurationRoot_t3356, ___isDesignTime_1), 0 } ,
-	{ 134, 100, offsetof(PropertyInformation_t3348, ___isModified_0), 0 } ,
-	{ 135, 653, offsetof(PropertyInformation_t3348, ___val_1), 0 } ,
-	{ 136, 5991, offsetof(PropertyInformation_t3348, ___origin_2), 0 } ,
-	{ 123, 5913, offsetof(PropertyInformation_t3348, ___owner_3), 0 } ,
-	{ 137, 5992, offsetof(PropertyInformation_t3348, ___property_4), 0 } ,
-	{ 95, 5994, offsetof(PropertyInformationEnumerator_t3357, ___collection_0), 0 } ,
-	{ 138, 110, offsetof(PropertyInformationEnumerator_t3357, ___position_1), 0 } ,
-	{ 25, 90, offsetof(PropertyValueOrigin_t3358, ___value___1) + sizeof(Object_t), 0 } ,
-	{ 139, 5997, 0, 0 } ,
-	{ 140, 5997, 0, 0 } ,
-	{ 141, 5997, 0, 0 } ,
-	{ 142, 6003, offsetof(ProtectedConfigurationSection_t3362_StaticFields, ___defaultProviderProp_17), 0 } ,
-	{ 143, 6003, offsetof(ProtectedConfigurationSection_t3362_StaticFields, ___providersProp_18), 0 } ,
-	{ 49, 5971, offsetof(ProtectedConfigurationSection_t3362_StaticFields, ___properties_19), 0 } ,
-	{ 144, 6004, offsetof(ProtectedConfigurationSection_t3362, ___providers_20), 0 } ,
-	{ 145, 6006, offsetof(ProviderSettings_t3363, ___parameters_13), 0 } ,
-	{ 146, 6003, offsetof(ProviderSettings_t3363_StaticFields, ___nameProp_14), 0 } ,
-	{ 147, 6003, offsetof(ProviderSettings_t3363_StaticFields, ___typeProp_15), 0 } ,
-	{ 49, 5971, offsetof(ProviderSettings_t3363_StaticFields, ___properties_16), 0 } ,
-	{ 148, 5971, offsetof(ProviderSettingsCollection_t3364_StaticFields, ___props_23), 0 } ,
-	{ 149, 100, offsetof(SectionInfo_t3365, ___allowLocation_6), 0 } ,
-	{ 150, 100, offsetof(SectionInfo_t3365, ___requirePermission_7), 0 } ,
-	{ 151, 100, offsetof(SectionInfo_t3365, ___restartOnExternalChanges_8), 0 } ,
-	{ 152, 6009, offsetof(SectionInfo_t3365, ___allowDefinition_9), 0 } ,
-	{ 153, 6010, offsetof(SectionInfo_t3365, ___allowExeDefinition_10), 0 } ,
-	{ 154, 951, offsetof(SectionInfo_t3365_StaticFields, ___U3CU3Ef__switchU24map1_11), 62 } ,
-	{ 114, 6012, offsetof(SectionGroupInfo_t3305, ___sections_6), 0 } ,
-	{ 115, 6012, offsetof(SectionGroupInfo_t3305, ___groups_7), 0 } ,
-	{ 155, 6013, offsetof(SectionGroupInfo_t3305_StaticFields, ___emptyList_8), 0 } ,
-	{ 14, 6016, offsetof(SectionInformation_t3335, ___parent_0), 0 } ,
-	{ 156, 6009, offsetof(SectionInformation_t3335, ___allow_definition_1), 0 } ,
-	{ 157, 6010, offsetof(SectionInformation_t3335, ___allow_exe_definition_2), 0 } ,
-	{ 158, 100, offsetof(SectionInformation_t3335, ___allow_location_3), 0 } ,
-	{ 159, 100, offsetof(SectionInformation_t3335, ___allow_override_4), 0 } ,
-	{ 160, 100, offsetof(SectionInformation_t3335, ___inherit_on_child_apps_5), 0 } ,
-	{ 161, 100, offsetof(SectionInformation_t3335, ___restart_on_external_changes_6), 0 } ,
-	{ 162, 100, offsetof(SectionInformation_t3335, ___require_permission_7), 0 } ,
-	{ 163, 99, offsetof(SectionInformation_t3335, ___config_source_8), 0 } ,
-	{ 88, 99, offsetof(SectionInformation_t3335, ___name_9), 0 } ,
-	{ 164, 99, offsetof(SectionInformation_t3335, ___raw_xml_10), 0 } ,
-	{ 165, 6017, offsetof(SectionInformation_t3335, ___protection_provider_11), 0 } ,
-	{ 166, 99, offsetof(SectionInformation_t3335, ___U3CConfigFilePathU3Ek__BackingField_12), 64 } ,
-	{ 167, 99, offsetof(MonoTODOAttribute_t3367, ___comment_0), 0 } ,
+	{ 0, 100, offsetof(ProviderBase_t3298, ___alreadyInitialized_0), 0 } ,
+	{ 1, 99, offsetof(ProviderBase_t3298, ____description_1), 0 } ,
+	{ 2, 99, offsetof(ProviderBase_t3298, ____name_2), 0 } ,
+	{ 3, 5882, offsetof(ProviderCollection_t3299, ___lookup_0), 0 } ,
+	{ 4, 100, offsetof(ProviderCollection_t3299, ___readOnly_1), 0 } ,
+	{ 5, 5547, offsetof(ProviderCollection_t3299, ___values_2), 0 } ,
+	{ 6, 5885, offsetof(ClientConfigurationSystem_t3301, ___cfg_0), 0 } ,
+	{ 7, 100, offsetof(ConfigNameValueCollection_t3302, ___modified_12), 0 } ,
+	{ 8, 101, offsetof(ConfigInfo_t3304, ___Name_0), 0 } ,
+	{ 9, 101, offsetof(ConfigInfo_t3304, ___TypeName_1), 0 } ,
+	{ 10, 5889, offsetof(ConfigInfo_t3304, ___Type_2), 0 } ,
+	{ 11, 99, offsetof(ConfigInfo_t3304, ___streamName_3), 0 } ,
+	{ 12, 5890, offsetof(ConfigInfo_t3304, ___Parent_4), 0 } ,
+	{ 13, 5891, offsetof(ConfigInfo_t3304, ___ConfigHost_5), 0 } ,
+	{ 14, 5885, offsetof(Configuration_t3300, ___parent_0), 0 } ,
+	{ 15, 5882, offsetof(Configuration_t3300, ___elementData_1), 0 } ,
+	{ 11, 99, offsetof(Configuration_t3300, ___streamName_2), 0 } ,
+	{ 16, 5893, offsetof(Configuration_t3300, ___rootSectionGroup_3), 0 } ,
+	{ 17, 5894, offsetof(Configuration_t3300, ___locations_4), 0 } ,
+	{ 18, 5895, offsetof(Configuration_t3300, ___rootGroup_5), 0 } ,
+	{ 19, 5896, offsetof(Configuration_t3300, ___system_6), 0 } ,
+	{ 20, 100, offsetof(Configuration_t3300, ___hasFile_7), 0 } ,
+	{ 21, 99, offsetof(Configuration_t3300, ___rootNamespace_8), 0 } ,
+	{ 22, 99, offsetof(Configuration_t3300, ___configPath_9), 0 } ,
+	{ 23, 99, offsetof(Configuration_t3300, ___locationConfigPath_10), 0 } ,
+	{ 24, 99, offsetof(Configuration_t3300, ___locationSubPath_11), 0 } ,
+	{ 25, 90, offsetof(ConfigurationAllowDefinition_t3310, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 26, 5898, 0, 0 } ,
+	{ 27, 5898, 0, 0 } ,
+	{ 28, 5898, 0, 0 } ,
+	{ 29, 5898, 0, 0 } ,
+	{ 25, 90, offsetof(ConfigurationAllowExeDefinition_t3311, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 26, 5900, 0, 0 } ,
+	{ 28, 5900, 0, 0 } ,
+	{ 30, 5900, 0, 0 } ,
+	{ 31, 5900, 0, 0 } ,
+	{ 32, 99, offsetof(ConfigurationCollectionAttribute_t3312, ___addItemName_0), 0 } ,
+	{ 33, 99, offsetof(ConfigurationCollectionAttribute_t3312, ___clearItemsName_1), 0 } ,
+	{ 34, 99, offsetof(ConfigurationCollectionAttribute_t3312, ___removeItemName_2), 0 } ,
+	{ 35, 5903, offsetof(ConfigurationCollectionAttribute_t3312, ___collectionType_3), 0 } ,
+	{ 36, 5904, offsetof(ConfigurationCollectionAttribute_t3312, ___itemType_4), 0 } ,
+	{ 37, 99, offsetof(ConfigurationElement_t3318, ___rawXml_0), 0 } ,
+	{ 7, 100, offsetof(ConfigurationElement_t3318, ___modified_1), 0 } ,
+	{ 38, 5908, offsetof(ConfigurationElement_t3318, ___map_2), 0 } ,
+	{ 39, 5909, offsetof(ConfigurationElement_t3318, ___keyProps_3), 0 } ,
+	{ 40, 5910, offsetof(ConfigurationElement_t3318, ___defaultCollection_4), 0 } ,
+	{ 4, 100, offsetof(ConfigurationElement_t3318, ___readOnly_5), 0 } ,
+	{ 41, 5911, offsetof(ConfigurationElement_t3318, ___elementInfo_6), 0 } ,
+	{ 42, 5885, offsetof(ConfigurationElement_t3318, ____configuration_7), 0 } ,
+	{ 43, 5912, offsetof(ConfigurationElement_t3318, ___lockAllAttributesExcept_8), 0 } ,
+	{ 44, 5912, offsetof(ConfigurationElement_t3318, ___lockAllElementsExcept_9), 0 } ,
+	{ 45, 5912, offsetof(ConfigurationElement_t3318, ___lockAttributes_10), 0 } ,
+	{ 46, 5912, offsetof(ConfigurationElement_t3318, ___lockElements_11), 0 } ,
+	{ 47, 100, offsetof(ConfigurationElement_t3318, ___lockItem_12), 0 } ,
+	{ 48, 5914, offsetof(ElementMap_t3313_StaticFields, ___elementMaps_0), 0 } ,
+	{ 49, 5915, offsetof(ElementMap_t3313, ___properties_1), 0 } ,
+	{ 50, 5916, offsetof(ElementMap_t3313, ___collectionAttribute_2), 0 } ,
+	{ 49, 5915, offsetof(ConfigurationRemoveElement_t3319, ___properties_13), 0 } ,
+	{ 51, 5918, offsetof(ConfigurationRemoveElement_t3319, ____origElement_14), 0 } ,
+	{ 52, 5919, offsetof(ConfigurationRemoveElement_t3319, ____origCollection_15), 0 } ,
+	{ 53, 5547, offsetof(ConfigurationElementCollection_t3315, ___list_13), 0 } ,
+	{ 54, 5547, offsetof(ConfigurationElementCollection_t3315, ___removed_14), 0 } ,
+	{ 55, 5547, offsetof(ConfigurationElementCollection_t3315, ___inherited_15), 0 } ,
+	{ 56, 100, offsetof(ConfigurationElementCollection_t3315, ___emitClear_16), 0 } ,
+	{ 7, 100, offsetof(ConfigurationElementCollection_t3315, ___modified_17), 0 } ,
+	{ 57, 5921, offsetof(ConfigurationElementCollection_t3315, ___comparer_18), 0 } ,
+	{ 58, 110, offsetof(ConfigurationElementCollection_t3315, ___inheritedLimitIndex_19), 0 } ,
+	{ 59, 99, offsetof(ConfigurationElementCollection_t3315, ___addElementName_20), 0 } ,
+	{ 60, 99, offsetof(ConfigurationElementCollection_t3315, ___clearElementName_21), 0 } ,
+	{ 61, 99, offsetof(ConfigurationElementCollection_t3315, ___removeElementName_22), 0 } ,
+	{ 25, 90, offsetof(ConfigurationElementCollectionType_t3321, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 62, 5923, 0, 0 } ,
+	{ 63, 5923, 0, 0 } ,
+	{ 64, 5923, 0, 0 } ,
+	{ 65, 5923, 0, 0 } ,
+	{ 66, 71, offsetof(ConfigurationErrorsException_t3322, ___filename_13), 0 } ,
+	{ 67, 2438, offsetof(ConfigurationErrorsException_t3322, ___line_14), 0 } ,
+	{ 68, 99, offsetof(ConfigurationFileMap_t3324, ___machineConfigFilename_0), 0 } ,
+	{ 69, 2270, offsetof(ConfigurationLocation_t3325_StaticFields, ___pathTrimChars_0), 0 } ,
+	{ 70, 99, offsetof(ConfigurationLocation_t3325, ___path_1), 0 } ,
+	{ 71, 5885, offsetof(ConfigurationLocation_t3325, ___configuration_2), 0 } ,
+	{ 14, 5885, offsetof(ConfigurationLocation_t3325, ___parent_3), 0 } ,
+	{ 72, 99, offsetof(ConfigurationLocation_t3325, ___xmlContent_4), 0 } ,
+	{ 73, 100, offsetof(ConfigurationLocation_t3325, ___parentResolved_5), 0 } ,
+	{ 74, 100, offsetof(ConfigurationLocation_t3325, ___allowOverride_6), 0 } ,
+	{ 25, 90, offsetof(ConfigurationLockType_t3327, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 75, 5931, 0, 0 } ,
+	{ 76, 5931, 0, 0 } ,
+	{ 77, 5931, 0, 0 } ,
+	{ 78, 5547, offsetof(ConfigurationLockCollection_t3317, ___names_0), 0 } ,
+	{ 79, 5934, offsetof(ConfigurationLockCollection_t3317, ___element_1), 0 } ,
+	{ 80, 5935, offsetof(ConfigurationLockCollection_t3317, ___lockType_2), 0 } ,
+	{ 81, 100, offsetof(ConfigurationLockCollection_t3317, ___is_modified_3), 0 } ,
+	{ 82, 5882, offsetof(ConfigurationLockCollection_t3317, ___valid_name_hash_4), 0 } ,
+	{ 83, 99, offsetof(ConfigurationLockCollection_t3317, ___valid_names_5), 0 } ,
+	{ 84, 5938, offsetof(ConfigurationManager_t3330_StaticFields, ___configFactory_0), 0 } ,
+	{ 85, 5939, offsetof(ConfigurationManager_t3330_StaticFields, ___configSystem_1), 0 } ,
+	{ 86, 3812, offsetof(ConfigurationManager_t3330_StaticFields, ___lockobj_2), 0 } ,
+	{ 87, 3736, offsetof(ConfigurationProperty_t3333_StaticFields, ___NoDefaultValue_0), 0 } ,
+	{ 88, 99, offsetof(ConfigurationProperty_t3333, ___name_1), 0 } ,
+	{ 89, 5904, offsetof(ConfigurationProperty_t3333, ___type_2), 0 } ,
+	{ 90, 653, offsetof(ConfigurationProperty_t3333, ___default_value_3), 0 } ,
+	{ 91, 5942, offsetof(ConfigurationProperty_t3333, ___converter_4), 0 } ,
+	{ 92, 5943, offsetof(ConfigurationProperty_t3333, ___validation_5), 0 } ,
+	{ 93, 5944, offsetof(ConfigurationProperty_t3333, ___flags_6), 0 } ,
+	{ 94, 99, offsetof(ConfigurationProperty_t3333, ___description_7), 0 } ,
+	{ 50, 5945, offsetof(ConfigurationProperty_t3333, ___collectionAttribute_8), 0 } ,
+	{ 88, 99, offsetof(ConfigurationPropertyAttribute_t3334, ___name_0), 0 } ,
+	{ 90, 653, offsetof(ConfigurationPropertyAttribute_t3334, ___default_value_1), 0 } ,
+	{ 93, 5944, offsetof(ConfigurationPropertyAttribute_t3334, ___flags_2), 0 } ,
+	{ 95, 5948, offsetof(ConfigurationPropertyCollection_t3314, ___collection_0), 0 } ,
+	{ 25, 90, offsetof(ConfigurationPropertyOptions_t3336, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 96, 5950, 0, 0 } ,
+	{ 97, 5950, 0, 0 } ,
+	{ 98, 5950, 0, 0 } ,
+	{ 99, 5950, 0, 0 } ,
+	{ 25, 90, offsetof(ConfigurationSaveMode_t3337, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 100, 5952, 0, 0 } ,
+	{ 101, 5952, 0, 0 } ,
+	{ 102, 5952, 0, 0 } ,
+	{ 103, 5954, offsetof(ConfigurationSection_t3340, ___sectionInformation_13), 0 } ,
+	{ 104, 5955, offsetof(ConfigurationSection_t3340, ___section_handler_14), 0 } ,
+	{ 105, 99, offsetof(ConfigurationSection_t3340, ___externalDataXml_15), 0 } ,
+	{ 106, 653, offsetof(ConfigurationSection_t3340, ____configContext_16), 0 } ,
+	{ 107, 5957, offsetof(U3CGetEnumeratorU3Ec__Iterator0_t3342, ___U3CU24s_32U3E__0_0), 0 } ,
+	{ 108, 1044, offsetof(U3CGetEnumeratorU3Ec__Iterator0_t3342, ___U3CkeyU3E__1_1), 0 } ,
+	{ 109, 137, offsetof(U3CGetEnumeratorU3Ec__Iterator0_t3342, ___U24PC_2), 0 } ,
+	{ 110, 148, offsetof(U3CGetEnumeratorU3Ec__Iterator0_t3342, ___U24current_3), 0 } ,
+	{ 111, 5958, offsetof(U3CGetEnumeratorU3Ec__Iterator0_t3342, ___U3CU3Ef__this_4), 0 } ,
+	{ 112, 5895, offsetof(ConfigurationSectionCollection_t3341, ___group_10), 0 } ,
+	{ 113, 5885, offsetof(ConfigurationSectionCollection_t3341, ___config_11), 0 } ,
+	{ 114, 5963, offsetof(ConfigurationSectionGroup_t3306, ___sections_0), 0 } ,
+	{ 115, 5964, offsetof(ConfigurationSectionGroup_t3306, ___groups_1), 0 } ,
+	{ 113, 5885, offsetof(ConfigurationSectionGroup_t3306, ___config_2), 0 } ,
+	{ 112, 5895, offsetof(ConfigurationSectionGroup_t3306, ___group_3), 0 } ,
+	{ 116, 100, offsetof(ConfigurationSectionGroup_t3306, ___initialized_4), 0 } ,
+	{ 112, 5895, offsetof(ConfigurationSectionGroupCollection_t3344, ___group_10), 0 } ,
+	{ 113, 5885, offsetof(ConfigurationSectionGroupCollection_t3344, ___config_11), 0 } ,
+	{ 25, 90, offsetof(ConfigurationUserLevel_t3345, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 96, 5967, 0, 0 } ,
+	{ 117, 5967, 0, 0 } ,
+	{ 118, 5967, 0, 0 } ,
+	{ 119, 5904, offsetof(ConfigurationValidatorAttribute_t3346, ___validatorType_0), 0 } ,
+	{ 120, 5943, offsetof(ConfigurationValidatorAttribute_t3346, ___instance_1), 0 } ,
+	{ 121, 71, offsetof(ConfigXmlTextReader_t3347, ___fileName_7), 0 } ,
+	{ 49, 5976, offsetof(DefaultSection_t3349_StaticFields, ___properties_17), 0 } ,
+	{ 122, 5979, offsetof(ElementInformation_t3316, ___propertyInfo_0), 0 } ,
+	{ 123, 5918, offsetof(ElementInformation_t3316, ___owner_1), 0 } ,
+	{ 49, 5980, offsetof(ElementInformation_t3316, ___properties_2), 0 } ,
+	{ 124, 99, offsetof(ExeConfigurationFileMap_t3353, ___exeConfigFilename_1), 0 } ,
+	{ 125, 99, offsetof(ExeConfigurationFileMap_t3353, ___localUserConfigFilename_2), 0 } ,
+	{ 126, 99, offsetof(ExeConfigurationFileMap_t3353, ___roamingUserConfigFilename_3), 0 } ,
+	{ 127, 99, offsetof(IgnoreSection_t3354, ___xml_17), 0 } ,
+	{ 49, 5976, offsetof(IgnoreSection_t3354_StaticFields, ___properties_18), 0 } ,
+	{ 128, 5985, offsetof(InternalConfigurationSystem_t3356, ___host_0), 0 } ,
+	{ 129, 5986, offsetof(InternalConfigurationSystem_t3356, ___root_1), 0 } ,
+	{ 130, 5987, offsetof(InternalConfigurationSystem_t3356, ___hostInitParams_2), 0 } ,
+	{ 38, 5991, offsetof(ExeConfigurationHost_t3358, ___map_0), 0 } ,
+	{ 131, 5992, offsetof(ExeConfigurationHost_t3358, ___level_1), 0 } ,
+	{ 132, 951, offsetof(ExeConfigurationHost_t3358_StaticFields, ___U3CU3Ef__switchU24map0_2), 49 } ,
+	{ 128, 5985, offsetof(InternalConfigurationRoot_t3359, ___host_0), 0 } ,
+	{ 133, 100, offsetof(InternalConfigurationRoot_t3359, ___isDesignTime_1), 0 } ,
+	{ 134, 100, offsetof(PropertyInformation_t3351, ___isModified_0), 0 } ,
+	{ 135, 653, offsetof(PropertyInformation_t3351, ___val_1), 0 } ,
+	{ 136, 5996, offsetof(PropertyInformation_t3351, ___origin_2), 0 } ,
+	{ 123, 5918, offsetof(PropertyInformation_t3351, ___owner_3), 0 } ,
+	{ 137, 5997, offsetof(PropertyInformation_t3351, ___property_4), 0 } ,
+	{ 95, 5999, offsetof(PropertyInformationEnumerator_t3360, ___collection_0), 0 } ,
+	{ 138, 110, offsetof(PropertyInformationEnumerator_t3360, ___position_1), 0 } ,
+	{ 25, 90, offsetof(PropertyValueOrigin_t3361, ___value___1) + sizeof(Object_t), 0 } ,
+	{ 139, 6002, 0, 0 } ,
+	{ 140, 6002, 0, 0 } ,
+	{ 141, 6002, 0, 0 } ,
+	{ 142, 6008, offsetof(ProtectedConfigurationSection_t3365_StaticFields, ___defaultProviderProp_17), 0 } ,
+	{ 143, 6008, offsetof(ProtectedConfigurationSection_t3365_StaticFields, ___providersProp_18), 0 } ,
+	{ 49, 5976, offsetof(ProtectedConfigurationSection_t3365_StaticFields, ___properties_19), 0 } ,
+	{ 144, 6009, offsetof(ProtectedConfigurationSection_t3365, ___providers_20), 0 } ,
+	{ 145, 6011, offsetof(ProviderSettings_t3366, ___parameters_13), 0 } ,
+	{ 146, 6008, offsetof(ProviderSettings_t3366_StaticFields, ___nameProp_14), 0 } ,
+	{ 147, 6008, offsetof(ProviderSettings_t3366_StaticFields, ___typeProp_15), 0 } ,
+	{ 49, 5976, offsetof(ProviderSettings_t3366_StaticFields, ___properties_16), 0 } ,
+	{ 148, 5976, offsetof(ProviderSettingsCollection_t3367_StaticFields, ___props_23), 0 } ,
+	{ 149, 100, offsetof(SectionInfo_t3368, ___allowLocation_6), 0 } ,
+	{ 150, 100, offsetof(SectionInfo_t3368, ___requirePermission_7), 0 } ,
+	{ 151, 100, offsetof(SectionInfo_t3368, ___restartOnExternalChanges_8), 0 } ,
+	{ 152, 6014, offsetof(SectionInfo_t3368, ___allowDefinition_9), 0 } ,
+	{ 153, 6015, offsetof(SectionInfo_t3368, ___allowExeDefinition_10), 0 } ,
+	{ 154, 951, offsetof(SectionInfo_t3368_StaticFields, ___U3CU3Ef__switchU24map1_11), 62 } ,
+	{ 114, 6017, offsetof(SectionGroupInfo_t3308, ___sections_6), 0 } ,
+	{ 115, 6017, offsetof(SectionGroupInfo_t3308, ___groups_7), 0 } ,
+	{ 155, 6018, offsetof(SectionGroupInfo_t3308_StaticFields, ___emptyList_8), 0 } ,
+	{ 14, 6021, offsetof(SectionInformation_t3338, ___parent_0), 0 } ,
+	{ 156, 6014, offsetof(SectionInformation_t3338, ___allow_definition_1), 0 } ,
+	{ 157, 6015, offsetof(SectionInformation_t3338, ___allow_exe_definition_2), 0 } ,
+	{ 158, 100, offsetof(SectionInformation_t3338, ___allow_location_3), 0 } ,
+	{ 159, 100, offsetof(SectionInformation_t3338, ___allow_override_4), 0 } ,
+	{ 160, 100, offsetof(SectionInformation_t3338, ___inherit_on_child_apps_5), 0 } ,
+	{ 161, 100, offsetof(SectionInformation_t3338, ___restart_on_external_changes_6), 0 } ,
+	{ 162, 100, offsetof(SectionInformation_t3338, ___require_permission_7), 0 } ,
+	{ 163, 99, offsetof(SectionInformation_t3338, ___config_source_8), 0 } ,
+	{ 88, 99, offsetof(SectionInformation_t3338, ___name_9), 0 } ,
+	{ 164, 99, offsetof(SectionInformation_t3338, ___raw_xml_10), 0 } ,
+	{ 165, 6022, offsetof(SectionInformation_t3338, ___protection_provider_11), 0 } ,
+	{ 166, 99, offsetof(SectionInformation_t3338, ___U3CConfigFilePathU3Ek__BackingField_12), 64 } ,
+	{ 167, 99, offsetof(MonoTODOAttribute_t3370, ___comment_0), 0 } ,
 };
 #ifdef __clang__
 #pragma clang diagnostic pop

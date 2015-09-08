@@ -5,7 +5,7 @@
 // Mono.Security.UriPartial
 #include "mscorlib_Mono_Security_UriPartial.h"
 // Mono.Security.UriPartial
-struct  UriPartial_t4790 
+struct  UriPartial_t4793 
 {
 	// System.Int32 Mono.Security.UriPartial::value__
 	int32_t ___value___1;

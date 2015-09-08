@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Tuple`2<System.Type,System.Type>
-struct Tuple_2_t1459;
+struct Tuple_2_t1462;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<System.Tuple`2<System.Type,System.Type>>
-struct  Comparison_1_t6651  : public MulticastDelegate_t388
+struct  Comparison_1_t6656  : public MulticastDelegate_t388
 {
 };

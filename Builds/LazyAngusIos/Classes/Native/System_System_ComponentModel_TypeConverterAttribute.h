@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.ComponentModel.TypeConverterAttribute
-struct TypeConverterAttribute_t3375;
+struct TypeConverterAttribute_t3378;
 // System.String
 struct String_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.ComponentModel.TypeConverterAttribute
-struct  TypeConverterAttribute_t3375  : public Attribute_t426
+struct  TypeConverterAttribute_t3378  : public Attribute_t426
 {
 	// System.String System.ComponentModel.TypeConverterAttribute::converter_type
 	String_t* ___converter_type_1;
 };
-struct TypeConverterAttribute_t3375_StaticFields{
+struct TypeConverterAttribute_t3378_StaticFields{
 	// System.ComponentModel.TypeConverterAttribute System.ComponentModel.TypeConverterAttribute::Default
-	TypeConverterAttribute_t3375 * ___Default_0;
+	TypeConverterAttribute_t3378 * ___Default_0;
 };

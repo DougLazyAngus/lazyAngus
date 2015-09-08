@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Messaging.CallType
-struct CallType_t5169;
+struct CallType_t5172;
 

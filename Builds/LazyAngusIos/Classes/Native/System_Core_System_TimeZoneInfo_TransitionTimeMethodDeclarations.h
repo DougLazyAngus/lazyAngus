@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.TimeZoneInfo/TransitionTime
-struct TransitionTime_t3751;
+struct TransitionTime_t3754;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2937;
+struct SerializationInfo_t2940;
 // System.Object
 struct Object_t;
 // System.DateTime
@@ -18,22 +18,22 @@ struct Object_t;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.TimeZoneInfo/TransitionTime::.ctor(System.DateTime,System.Int32,System.Int32)
-extern "C" void TransitionTime__ctor_m14977 (TransitionTime_t3751 * __this, DateTime_t287  ___timeOfDay, int32_t ___month, int32_t ___day, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TransitionTime__ctor_m14977 (TransitionTime_t3754 * __this, DateTime_t287  ___timeOfDay, int32_t ___month, int32_t ___day, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.TimeZoneInfo/TransitionTime::.ctor(System.DateTime,System.Int32)
-extern "C" void TransitionTime__ctor_m14978 (TransitionTime_t3751 * __this, DateTime_t287  ___timeOfDay, int32_t ___month, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TransitionTime__ctor_m14978 (TransitionTime_t3754 * __this, DateTime_t287  ___timeOfDay, int32_t ___month, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.TimeZoneInfo/TransitionTime System.TimeZoneInfo/TransitionTime::CreateFixedDateRule(System.DateTime,System.Int32,System.Int32)
-extern "C" TransitionTime_t3751  TransitionTime_CreateFixedDateRule_m14979 (Object_t * __this /* static, unused */, DateTime_t287  ___timeOfDay, int32_t ___month, int32_t ___day, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TransitionTime_t3754  TransitionTime_CreateFixedDateRule_m14979 (Object_t * __this /* static, unused */, DateTime_t287  ___timeOfDay, int32_t ___month, int32_t ___day, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.TimeZoneInfo/TransitionTime::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void TransitionTime_GetObjectData_m14980 (TransitionTime_t3751 * __this, SerializationInfo_t2937 * ___info, StreamingContext_t2938  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TransitionTime_GetObjectData_m14980 (TransitionTime_t3754 * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.TimeZoneInfo/TransitionTime::Equals(System.Object)
-extern "C" bool TransitionTime_Equals_m14981 (TransitionTime_t3751 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TransitionTime_Equals_m14981 (TransitionTime_t3754 * __this, Object_t * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.TimeZoneInfo/TransitionTime::Equals(System.TimeZoneInfo/TransitionTime)
-extern "C" bool TransitionTime_Equals_m14982 (TransitionTime_t3751 * __this, TransitionTime_t3751  ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TransitionTime_Equals_m14982 (TransitionTime_t3754 * __this, TransitionTime_t3754  ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.TimeZoneInfo/TransitionTime::GetHashCode()
-extern "C" int32_t TransitionTime_GetHashCode_m14983 (TransitionTime_t3751 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t TransitionTime_GetHashCode_m14983 (TransitionTime_t3754 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.TimeZoneInfo/TransitionTime::OnDeserialization(System.Object)
-extern "C" void TransitionTime_OnDeserialization_m14984 (TransitionTime_t3751 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TransitionTime_OnDeserialization_m14984 (TransitionTime_t3754 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.TimeZoneInfo/TransitionTime::op_Equality(System.TimeZoneInfo/TransitionTime,System.TimeZoneInfo/TransitionTime)
-extern "C" bool TransitionTime_op_Equality_m14985 (Object_t * __this /* static, unused */, TransitionTime_t3751  ___t1, TransitionTime_t3751  ___t2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TransitionTime_op_Equality_m14985 (Object_t * __this /* static, unused */, TransitionTime_t3754  ___t1, TransitionTime_t3754  ___t2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.TimeZoneInfo/TransitionTime::op_Inequality(System.TimeZoneInfo/TransitionTime,System.TimeZoneInfo/TransitionTime)
-extern "C" bool TransitionTime_op_Inequality_m14986 (Object_t * __this /* static, unused */, TransitionTime_t3751  ___t1, TransitionTime_t3751  ___t2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TransitionTime_op_Inequality_m14986 (Object_t * __this /* static, unused */, TransitionTime_t3754  ___t1, TransitionTime_t3754  ___t2, const MethodInfo* method) IL2CPP_METHOD_ATTR;

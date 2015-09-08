@@ -13,6 +13,6 @@ struct AsyncCallback_t386;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Threading.WaitOrTimerCallback
-struct  WaitOrTimerCallback_t5378  : public MulticastDelegate_t388
+struct  WaitOrTimerCallback_t5381  : public MulticastDelegate_t388
 {
 };

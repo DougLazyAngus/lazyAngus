@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // RealAngusElementButton
-struct RealAngusElementButton_t640;
+struct RealAngusElementButton_t643;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<RealAngusElementButton>
-struct  Comparison_1_t6323  : public MulticastDelegate_t388
+struct  Comparison_1_t6328  : public MulticastDelegate_t388
 {
 };

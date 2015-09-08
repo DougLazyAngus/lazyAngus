@@ -3,7 +3,7 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // InOutTransitioner
-struct  InOutTransitioner_t575  : public Object_t
+struct  InOutTransitioner_t576  : public Object_t
 {
 	// System.Single InOutTransitioner::duration
 	float ___duration_0;

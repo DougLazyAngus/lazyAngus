@@ -9,7 +9,7 @@ struct AN_GMSRTMProxy_t170;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t697;
+struct ObjectU5BU5D_t700;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Int32[]
@@ -18,7 +18,7 @@ struct Int32U5BU5D_t484;
 // System.Void AN_GMSRTMProxy::.ctor()
 extern "C" void AN_GMSRTMProxy__ctor_m1135 (AN_GMSRTMProxy_t170 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSRTMProxy::CallActivityFunction(System.String,System.Object[])
-extern "C" void AN_GMSRTMProxy_CallActivityFunction_m1136 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t697* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_GMSRTMProxy_CallActivityFunction_m1136 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t700* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSRTMProxy::RTMFindMatch(System.Int32,System.Int32,System.String[])
 extern "C" void AN_GMSRTMProxy_RTMFindMatch_m1137 (Object_t * __this /* static, unused */, int32_t ___minPlayers, int32_t ___maxPlayers, StringU5BU5D_t75* ___pIds, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GMSRTMProxy::RTMFindMatch(System.String[])

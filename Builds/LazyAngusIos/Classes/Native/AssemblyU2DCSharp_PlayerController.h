@@ -3,11 +3,11 @@
 // UnityEngine.GameObject
 struct GameObject_t352;
 // HeadMovement
-struct HeadMovement_t573;
+struct HeadMovement_t574;
 // TipConfig
 struct TipConfig_t513;
 // PlayerController
-struct PlayerController_t629;
+struct PlayerController_t633;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector3
@@ -15,7 +15,7 @@ struct PlayerController_t629;
 // PlayerController/BodyMovementType
 #include "AssemblyU2DCSharp_PlayerController_BodyMovementType.h"
 // PlayerController
-struct  PlayerController_t629  : public MonoBehaviour_t13
+struct  PlayerController_t633  : public MonoBehaviour_t13
 {
 	// System.Single PlayerController::startCatAngle
 	float ___startCatAngle_2;
@@ -24,7 +24,7 @@ struct  PlayerController_t629  : public MonoBehaviour_t13
 	// UnityEngine.GameObject PlayerController::leftPawGameObject
 	GameObject_t352 * ___leftPawGameObject_4;
 	// HeadMovement PlayerController::headMovement
-	HeadMovement_t573 * ___headMovement_5;
+	HeadMovement_t574 * ___headMovement_5;
 	// UnityEngine.GameObject PlayerController::fartPuffPrototype
 	GameObject_t352 * ___fartPuffPrototype_6;
 	// UnityEngine.GameObject PlayerController::butthole
@@ -50,7 +50,7 @@ struct  PlayerController_t629  : public MonoBehaviour_t13
 	// PlayerController/BodyMovementType PlayerController::<bodyMovement>k__BackingField
 	int32_t ___U3CbodyMovementU3Ek__BackingField_17;
 };
-struct PlayerController_t629_StaticFields{
+struct PlayerController_t633_StaticFields{
 	// PlayerController PlayerController::<instance>k__BackingField
-	PlayerController_t629 * ___U3CinstanceU3Ek__BackingField_18;
+	PlayerController_t633 * ___U3CinstanceU3Ek__BackingField_18;
 };

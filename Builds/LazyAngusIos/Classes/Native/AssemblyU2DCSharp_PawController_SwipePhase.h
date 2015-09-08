@@ -5,7 +5,7 @@
 // PawController/SwipePhase
 #include "AssemblyU2DCSharp_PawController_SwipePhase.h"
 // PawController/SwipePhase
-struct  SwipePhase_t622 
+struct  SwipePhase_t623 
 {
 	// System.Int32 PawController/SwipePhase::value__
 	int32_t ___value___1;

@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<System.Threading.Tasks.Task,System.SByte>
-struct Func_2_t8813;
+struct Func_2_t8818;
 // System.Object
 struct Object_t;
 // System.Threading.Tasks.Task
-struct Task_t1228;
+struct Task_t1231;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<System.Threading.Tasks.Task,System.SByte>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Object,System.SByte>
 #include "System_Core_System_Func_2_gen_134MethodDeclarations.h"
-#define Func_2__ctor_m63846(__this, ___object, ___method, method) (( void (*) (Func_2_t8813 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m41140_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m63858(__this, ___object, ___method, method) (( void (*) (Func_2_t8818 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m41152_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Threading.Tasks.Task,System.SByte>::Invoke(T)
-#define Func_2_Invoke_m63847(__this, ___arg1, method) (( int8_t (*) (Func_2_t8813 *, Task_t1228 *, const MethodInfo*))Func_2_Invoke_m41141_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m63859(__this, ___arg1, method) (( int8_t (*) (Func_2_t8818 *, Task_t1231 *, const MethodInfo*))Func_2_Invoke_m41153_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Threading.Tasks.Task,System.SByte>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Func_2_BeginInvoke_m63848(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t8813 *, Task_t1228 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m41142_gshared)(__this, ___arg1, ___callback, ___object, method)
+#define Func_2_BeginInvoke_m63860(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t8818 *, Task_t1231 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m41154_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Threading.Tasks.Task,System.SByte>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m63849(__this, ___result, method) (( int8_t (*) (Func_2_t8813 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m41143_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m63861(__this, ___result, method) (( int8_t (*) (Func_2_t8818 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m41155_gshared)(__this, ___result, method)

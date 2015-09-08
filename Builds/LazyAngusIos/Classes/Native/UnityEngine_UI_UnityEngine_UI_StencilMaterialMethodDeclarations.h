@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.StencilMaterial
-struct StencilMaterial_t996;
+struct StencilMaterial_t999;
 // UnityEngine.Material
 struct Material_t526;
 

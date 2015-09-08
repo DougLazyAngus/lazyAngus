@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Shader
-struct Shader_t2759;
+struct Shader_t2762;
 // System.String
 struct String_t;
 

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Net.WebHeaderCollection
-struct WebHeaderCollection_t4308;
+struct WebHeaderCollection_t4311;
 // System.Text.StringBuilder
 struct StringBuilder_t261;
 // System.Collections.ArrayList
-struct ArrayList_t713;
+struct ArrayList_t716;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.ChunkStream/State
 #include "System_System_Net_ChunkStream_State.h"
 // System.Net.ChunkStream
-struct  ChunkStream_t4309  : public Object_t
+struct  ChunkStream_t4312  : public Object_t
 {
 	// System.Net.WebHeaderCollection System.Net.ChunkStream::headers
-	WebHeaderCollection_t4308 * ___headers_0;
+	WebHeaderCollection_t4311 * ___headers_0;
 	// System.Int32 System.Net.ChunkStream::chunkSize
 	int32_t ___chunkSize_1;
 	// System.Int32 System.Net.ChunkStream::chunkRead
@@ -30,5 +30,5 @@ struct  ChunkStream_t4309  : public Object_t
 	// System.Int32 System.Net.ChunkStream::trailerState
 	int32_t ___trailerState_7;
 	// System.Collections.ArrayList System.Net.ChunkStream::chunks
-	ArrayList_t713 * ___chunks_8;
+	ArrayList_t716 * ___chunks_8;
 };

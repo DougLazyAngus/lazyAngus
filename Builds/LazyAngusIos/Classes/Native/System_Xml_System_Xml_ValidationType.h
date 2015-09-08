@@ -5,7 +5,7 @@
 // System.Xml.ValidationType
 #include "System_Xml_System_Xml_ValidationType.h"
 // System.Xml.ValidationType
-struct  ValidationType_t3497 
+struct  ValidationType_t3500 
 {
 	// System.Int32 System.Xml.ValidationType::value__
 	int32_t ___value___1;

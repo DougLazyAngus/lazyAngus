@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Serialization.CodeIdentifier
-struct CodeIdentifier_t3703;
+struct CodeIdentifier_t3706;
 // System.String
 struct String_t;
 

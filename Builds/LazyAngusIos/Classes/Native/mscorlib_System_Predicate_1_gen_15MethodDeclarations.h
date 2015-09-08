@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Predicate`1<FBAppRequest>
-struct Predicate_1_t6138;
+struct Predicate_1_t6141;
 // System.Object
 struct Object_t;
 // FBAppRequest
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Predicate`1<FBAppRequest>::.ctor(System.Object,System.IntPtr)
 // System.Predicate`1<System.Object>
 #include "mscorlib_System_Predicate_1_gen_3MethodDeclarations.h"
-#define Predicate_1__ctor_m29253(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6138 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m26073_gshared)(__this, ___object, ___method, method)
+#define Predicate_1__ctor_m29253(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6141 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m26073_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<FBAppRequest>::Invoke(T)
-#define Predicate_1_Invoke_m29254(__this, ___obj, method) (( bool (*) (Predicate_1_t6138 *, FBAppRequest_t286 *, const MethodInfo*))Predicate_1_Invoke_m26074_gshared)(__this, ___obj, method)
+#define Predicate_1_Invoke_m29254(__this, ___obj, method) (( bool (*) (Predicate_1_t6141 *, FBAppRequest_t286 *, const MethodInfo*))Predicate_1_Invoke_m26074_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<FBAppRequest>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m29255(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6138 *, FBAppRequest_t286 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m26075_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Predicate_1_BeginInvoke_m29255(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6141 *, FBAppRequest_t286 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m26075_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<FBAppRequest>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m29256(__this, ___result, method) (( bool (*) (Predicate_1_t6138 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m26076_gshared)(__this, ___result, method)
+#define Predicate_1_EndInvoke_m29256(__this, ___result, method) (( bool (*) (Predicate_1_t6141 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m26076_gshared)(__this, ___result, method)

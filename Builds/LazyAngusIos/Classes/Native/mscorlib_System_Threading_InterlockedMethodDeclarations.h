@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.Interlocked
-struct Interlocked_t1446;
+struct Interlocked_t1449;
 // System.Object
 struct Object_t;
 

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Input
-struct Input_t722;
+struct Input_t725;
 // System.String
 struct String_t;
 // UnityEngine.Vector3
@@ -36,7 +36,7 @@ extern "C" Vector2_t110  Input_get_mouseScrollDelta_m5995 (Object_t * __this /* 
 // System.Boolean UnityEngine.Input::get_mousePresent()
 extern "C" bool Input_get_mousePresent_m6020 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Touch UnityEngine.Input::GetTouch(System.Int32)
-extern "C" Touch_t721  Input_GetTouch_m3850 (Object_t * __this /* static, unused */, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Touch_t724  Input_GetTouch_m3850 (Object_t * __this /* static, unused */, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Input::get_touchCount()
 extern "C" int32_t Input_get_touchCount_m3849 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Input::get_touchSupported()

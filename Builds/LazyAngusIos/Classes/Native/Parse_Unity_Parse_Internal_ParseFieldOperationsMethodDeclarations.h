@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.Internal.ParseFieldOperations
-struct ParseFieldOperations_t1211;
+struct ParseFieldOperations_t1214;
 // System.Collections.Generic.IEqualityComparer`1<System.Object>
-struct IEqualityComparer_1_t1205;
+struct IEqualityComparer_1_t1208;
 // Parse.Internal.IParseFieldOperation
-struct IParseFieldOperation_t1394;
+struct IParseFieldOperation_t1397;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t837;
+struct IDictionary_2_t840;
 
 // Parse.Internal.IParseFieldOperation Parse.Internal.ParseFieldOperations::Decode(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
 extern "C" Object_t * ParseFieldOperations_Decode_m6651 (Object_t * __this /* static, unused */, Object_t* ___json, const MethodInfo* method) IL2CPP_METHOD_ATTR;

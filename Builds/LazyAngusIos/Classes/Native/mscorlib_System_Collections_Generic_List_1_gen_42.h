@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.Toggle[]
-struct ToggleU5BU5D_t6481;
+struct ToggleU5BU5D_t6486;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.UI.Toggle>
-struct  List_1_t1002  : public Object_t
+struct  List_1_t1005  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::_items
-	ToggleU5BU5D_t6481* ____items_1;
+	ToggleU5BU5D_t6486* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::_version
 	int32_t ____version_3;
 };
-struct List_1_t1002_StaticFields{
+struct List_1_t1005_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::EmptyArray
-	ToggleU5BU5D_t6481* ___EmptyArray_4;
+	ToggleU5BU5D_t6486* ___EmptyArray_4;
 };

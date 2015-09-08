@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Predicate`1<System.Configuration.ConfigurationProperty>
-struct Predicate_1_t9156;
+struct Predicate_1_t9161;
 // System.Object
 struct Object_t;
 // System.Configuration.ConfigurationProperty
-struct ConfigurationProperty_t3330;
+struct ConfigurationProperty_t3333;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Predicate`1<System.Configuration.ConfigurationProperty>::.ctor(System.Object,System.IntPtr)
 // System.Predicate`1<System.Object>
 #include "mscorlib_System_Predicate_1_gen_3MethodDeclarations.h"
-#define Predicate_1__ctor_m67705(__this, ___object, ___method, method) (( void (*) (Predicate_1_t9156 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m26073_gshared)(__this, ___object, ___method, method)
+#define Predicate_1__ctor_m67717(__this, ___object, ___method, method) (( void (*) (Predicate_1_t9161 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m26073_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<System.Configuration.ConfigurationProperty>::Invoke(T)
-#define Predicate_1_Invoke_m67706(__this, ___obj, method) (( bool (*) (Predicate_1_t9156 *, ConfigurationProperty_t3330 *, const MethodInfo*))Predicate_1_Invoke_m26074_gshared)(__this, ___obj, method)
+#define Predicate_1_Invoke_m67718(__this, ___obj, method) (( bool (*) (Predicate_1_t9161 *, ConfigurationProperty_t3333 *, const MethodInfo*))Predicate_1_Invoke_m26074_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<System.Configuration.ConfigurationProperty>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m67707(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t9156 *, ConfigurationProperty_t3330 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m26075_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Predicate_1_BeginInvoke_m67719(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t9161 *, ConfigurationProperty_t3333 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m26075_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<System.Configuration.ConfigurationProperty>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m67708(__this, ___result, method) (( bool (*) (Predicate_1_t9156 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m26076_gshared)(__this, ___result, method)
+#define Predicate_1_EndInvoke_m67720(__this, ___result, method) (( bool (*) (Predicate_1_t9161 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m26076_gshared)(__this, ___result, method)

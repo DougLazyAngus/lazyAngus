@@ -7,7 +7,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // RealAngusItemDesc
-struct  RealAngusItemDesc_t647  : public Object_t
+struct  RealAngusItemDesc_t650  : public Object_t
 {
 	// UnityEngine.Sprite RealAngusItemDesc::<pictureSprite>k__BackingField
 	Sprite_t512 * ___U3CpictureSpriteU3Ek__BackingField_0;

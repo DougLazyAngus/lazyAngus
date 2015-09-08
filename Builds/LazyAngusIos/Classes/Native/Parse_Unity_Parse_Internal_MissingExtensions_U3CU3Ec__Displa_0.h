@@ -9,7 +9,7 @@ struct Stream_t51;
 // System.Threading.CancellationToken
 #include "Parse_Unity_System_Threading_CancellationToken.h"
 // Parse.Internal.MissingExtensions/<>c__DisplayClass7
-struct  U3CU3Ec__DisplayClass7_t1181  : public Object_t
+struct  U3CU3Ec__DisplayClass7_t1184  : public Object_t
 {
 	// System.Byte[] Parse.Internal.MissingExtensions/<>c__DisplayClass7::buffer
 	ByteU5BU5D_t66* ___buffer_0;
@@ -22,5 +22,5 @@ struct  U3CU3Ec__DisplayClass7_t1181  : public Object_t
 	// System.Int32 Parse.Internal.MissingExtensions/<>c__DisplayClass7::bufferSize
 	int32_t ___bufferSize_4;
 	// System.Threading.CancellationToken Parse.Internal.MissingExtensions/<>c__DisplayClass7::cancellationToken
-	CancellationToken_t1182  ___cancellationToken_5;
+	CancellationToken_t1185  ___cancellationToken_5;
 };

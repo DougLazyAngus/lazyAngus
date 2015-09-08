@@ -7,7 +7,7 @@ struct Dictionary_2_t151;
 // System.Collections.Generic.KeyValuePair`2<System.Int32,IOSADBanner>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_3.h"
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,IOSADBanner>
-struct  Enumerator_t744 
+struct  Enumerator_t747 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,IOSADBanner>::dictionary
 	Dictionary_2_t151 * ___dictionary_0;
@@ -16,5 +16,5 @@ struct  Enumerator_t744
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,IOSADBanner>::stamp
 	int32_t ___stamp_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,IOSADBanner>::current
-	KeyValuePair_2_t743  ___current_3;
+	KeyValuePair_2_t746  ___current_3;
 };

@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.Formatters.Binary.BinaryCommon
-struct BinaryCommon_t5210;
+struct BinaryCommon_t5213;
 // System.Type
 struct Type_t;
 // System.Runtime.Serialization.ISurrogateSelector
-struct ISurrogateSelector_t5173;
+struct ISurrogateSelector_t5176;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Runtime.Serialization.StreamingContext
@@ -24,6 +24,6 @@ extern "C" uint8_t BinaryCommon_GetTypeCode_m23046 (Object_t * __this /* static,
 // System.Type System.Runtime.Serialization.Formatters.Binary.BinaryCommon::GetTypeFromCode(System.Int32)
 extern "C" Type_t * BinaryCommon_GetTypeFromCode_m23047 (Object_t * __this /* static, unused */, int32_t ___code, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.BinaryCommon::CheckSerializable(System.Type,System.Runtime.Serialization.ISurrogateSelector,System.Runtime.Serialization.StreamingContext)
-extern "C" void BinaryCommon_CheckSerializable_m23048 (Object_t * __this /* static, unused */, Type_t * ___type, Object_t * ___selector, StreamingContext_t2938  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BinaryCommon_CheckSerializable_m23048 (Object_t * __this /* static, unused */, Type_t * ___type, Object_t * ___selector, StreamingContext_t2941  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.BinaryCommon::SwapBytes(System.Byte[],System.Int32,System.Int32)
 extern "C" void BinaryCommon_SwapBytes_m23049 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___byteArray, int32_t ___size, int32_t ___dataSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;

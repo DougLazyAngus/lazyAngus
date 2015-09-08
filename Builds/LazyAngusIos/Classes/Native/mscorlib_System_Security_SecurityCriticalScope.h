@@ -5,7 +5,7 @@
 // System.Security.SecurityCriticalScope
 #include "mscorlib_System_Security_SecurityCriticalScope.h"
 // System.Security.SecurityCriticalScope
-struct  SecurityCriticalScope_t5236 
+struct  SecurityCriticalScope_t5239 
 {
 	// System.Int32 System.Security.SecurityCriticalScope::value__
 	int32_t ___value___1;

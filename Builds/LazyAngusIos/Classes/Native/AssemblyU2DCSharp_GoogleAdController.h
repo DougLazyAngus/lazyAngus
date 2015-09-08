@@ -2,10 +2,12 @@
 #include <stdint.h>
 // GoogleAdController
 struct GoogleAdController_t570;
-// System.Collections.IEnumerator
-struct IEnumerator_t48;
+// PhaseDelayedEventScheduler
+struct PhaseDelayedEventScheduler_t571;
 // GoogleMobileAdBanner
 struct GoogleMobileAdBanner_t140;
+// GamePhaseState[]
+struct GamePhaseStateU5BU5D_t572;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // GoogleAdController
@@ -13,18 +15,18 @@ struct  GoogleAdController_t570  : public MonoBehaviour_t13
 {
 	// System.Int32 GoogleAdController::instancesBetweenInterstitialAds
 	int32_t ___instancesBetweenInterstitialAds_3;
-	// System.Single GoogleAdController::waitBeforeAd
-	float ___waitBeforeAd_4;
-	// System.Collections.IEnumerator GoogleAdController::pendingInterstitialAd
-	Object_t * ___pendingInterstitialAd_5;
+	// PhaseDelayedEventScheduler GoogleAdController::phaseDelayedEventScheduler
+	PhaseDelayedEventScheduler_t571 * ___phaseDelayedEventScheduler_4;
 	// System.Boolean GoogleAdController::registeredForEvents
-	bool ___registeredForEvents_6;
+	bool ___registeredForEvents_5;
 	// System.Boolean GoogleAdController::interstitialAdLoaded
-	bool ___interstitialAdLoaded_7;
+	bool ___interstitialAdLoaded_6;
 	// System.Boolean GoogleAdController::adsEnabled
-	bool ___adsEnabled_8;
+	bool ___adsEnabled_7;
 	// GoogleMobileAdBanner GoogleAdController::banner
-	Object_t * ___banner_9;
+	Object_t * ___banner_8;
+	// GamePhaseState[] GoogleAdController::acceptableGamePhases
+	GamePhaseStateU5BU5D_t572* ___acceptableGamePhases_9;
 };
 struct GoogleAdController_t570_StaticFields{
 	// GoogleAdController GoogleAdController::instance

@@ -7,17 +7,17 @@ struct GameObject_t352;
 // DistortForEffect
 struct DistortForEffect_t537;
 // RealAngusElementButton/ButtonHandler
-struct ButtonHandler_t646;
+struct ButtonHandler_t649;
 // InOutTransitioner
-struct InOutTransitioner_t575;
+struct InOutTransitioner_t576;
 // RealAngusItemDesc
-struct RealAngusItemDesc_t647;
+struct RealAngusItemDesc_t650;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // RealAngusElementButton
-struct  RealAngusElementButton_t640  : public MonoBehaviour_t13
+struct  RealAngusElementButton_t643  : public MonoBehaviour_t13
 {
 	// UnityEngine.UI.Image RealAngusElementButton::photoImage
 	Image_t503 * ___photoImage_2;
@@ -32,9 +32,9 @@ struct  RealAngusElementButton_t640  : public MonoBehaviour_t13
 	// DistortForEffect RealAngusElementButton::distortForEffect
 	DistortForEffect_t537 * ___distortForEffect_7;
 	// RealAngusElementButton/ButtonHandler RealAngusElementButton::OnButtonClicked
-	ButtonHandler_t646 * ___OnButtonClicked_8;
+	ButtonHandler_t649 * ___OnButtonClicked_8;
 	// RealAngusElementButton/ButtonHandler RealAngusElementButton::OnTransitionComplete
-	ButtonHandler_t646 * ___OnTransitionComplete_9;
+	ButtonHandler_t649 * ___OnTransitionComplete_9;
 	// UnityEngine.Vector2 RealAngusElementButton::homePosition
 	Vector2_t110  ___homePosition_10;
 	// System.Single RealAngusElementButton::homeRotation
@@ -46,7 +46,7 @@ struct  RealAngusElementButton_t640  : public MonoBehaviour_t13
 	// System.Single RealAngusElementButton::selectedScale
 	float ___selectedScale_14;
 	// InOutTransitioner RealAngusElementButton::transitioner
-	InOutTransitioner_t575 * ___transitioner_15;
+	InOutTransitioner_t576 * ___transitioner_15;
 	// RealAngusItemDesc RealAngusElementButton::<raid>k__BackingField
-	RealAngusItemDesc_t647 * ___U3CraidU3Ek__BackingField_16;
+	RealAngusItemDesc_t650 * ___U3CraidU3Ek__BackingField_16;
 };

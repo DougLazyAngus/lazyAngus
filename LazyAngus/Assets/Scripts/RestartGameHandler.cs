@@ -3,6 +3,6 @@ using System.Collections;
 
 public class RestartGameHandler : MonoBehaviour {
 	public void RestartGame() {
-		GameController.instance.RestartGame ();
+		GamePhaseState.instance.RestartGame ();
 	}
 }

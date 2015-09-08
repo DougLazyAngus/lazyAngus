@@ -9,7 +9,7 @@ struct Dictionary_2_t223;
 // System.Configuration.ConfigurationAllowExeDefinition
 #include "System_Configuration_System_Configuration_ConfigurationAllow_0.h"
 // System.Configuration.SectionInfo
-struct  SectionInfo_t3365  : public ConfigInfo_t3301
+struct  SectionInfo_t3368  : public ConfigInfo_t3304
 {
 	// System.Boolean System.Configuration.SectionInfo::allowLocation
 	bool ___allowLocation_6;
@@ -22,7 +22,7 @@ struct  SectionInfo_t3365  : public ConfigInfo_t3301
 	// System.Configuration.ConfigurationAllowExeDefinition System.Configuration.SectionInfo::allowExeDefinition
 	int32_t ___allowExeDefinition_10;
 };
-struct SectionInfo_t3365_StaticFields{
+struct SectionInfo_t3368_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Configuration.SectionInfo::<>f__switch$map1
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map1_11;
 };

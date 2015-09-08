@@ -5,18 +5,18 @@
 // <Module>
 #include "System_Configuration_U3CModuleU3E.h"
 // Metadata Definition <Module>
-extern TypeInfo U3CModuleU3E_t3294_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t3297_il2cpp_TypeInfo;
 // <Module>
 #include "System_Configuration_U3CModuleU3EMethodDeclarations.h"
-static const MethodInfo* U3CModuleU3E_t3294_MethodInfos[] =
+static const MethodInfo* U3CModuleU3E_t3297_MethodInfos[] =
 {
 	NULL
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType U3CModuleU3E_t3294_0_0_0;
-extern const Il2CppType U3CModuleU3E_t3294_1_0_0;
-struct U3CModuleU3E_t3294;
-const Il2CppTypeDefinitionMetadata U3CModuleU3E_t3294_DefinitionMetadata = 
+extern const Il2CppType U3CModuleU3E_t3297_0_0_0;
+extern const Il2CppType U3CModuleU3E_t3297_1_0_0;
+struct U3CModuleU3E_t3297;
+const Il2CppTypeDefinitionMetadata U3CModuleU3E_t3297_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -29,21 +29,21 @@ const Il2CppTypeDefinitionMetadata U3CModuleU3E_t3294_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo U3CModuleU3E_t3294_il2cpp_TypeInfo = 
+TypeInfo U3CModuleU3E_t3297_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "<Module>"/* name */
 	, ""/* namespaze */
-	, U3CModuleU3E_t3294_MethodInfos/* methods */
+	, U3CModuleU3E_t3297_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &U3CModuleU3E_t3294_il2cpp_TypeInfo/* element_class */
+	, &U3CModuleU3E_t3297_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &U3CModuleU3E_t3294_0_0_0/* byval_arg */
-	, &U3CModuleU3E_t3294_1_0_0/* this_arg */
-	, &U3CModuleU3E_t3294_DefinitionMetadata/* definitionMetadata */
+	, &U3CModuleU3E_t3297_0_0_0/* byval_arg */
+	, &U3CModuleU3E_t3297_1_0_0/* this_arg */
+	, &U3CModuleU3E_t3297_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -53,8 +53,8 @@ TypeInfo U3CModuleU3E_t3294_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CModuleU3E_t3294)/* instance_size */
-	, sizeof (U3CModuleU3E_t3294)/* actualSize */
+	, sizeof (U3CModuleU3E_t3297)/* instance_size */
+	, sizeof (U3CModuleU3E_t3297)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -84,7 +84,7 @@ TypeInfo U3CModuleU3E_t3294_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Configuration.Internal.IConfigErrorInfo
-extern TypeInfo IConfigErrorInfo_t3376_il2cpp_TypeInfo;
+extern TypeInfo IConfigErrorInfo_t3379_il2cpp_TypeInfo;
 extern const Il2CppType String_t_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Configuration.Internal.IConfigErrorInfo::get_Filename()
@@ -92,7 +92,7 @@ extern const MethodInfo IConfigErrorInfo_get_Filename_m12138_MethodInfo =
 {
 	"get_Filename"/* name */
 	, NULL/* method */
-	, &IConfigErrorInfo_t3376_il2cpp_TypeInfo/* declaring_type */
+	, &IConfigErrorInfo_t3379_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -116,7 +116,7 @@ extern const MethodInfo IConfigErrorInfo_get_LineNumber_m12139_MethodInfo =
 {
 	"get_LineNumber"/* name */
 	, NULL/* method */
-	, &IConfigErrorInfo_t3376_il2cpp_TypeInfo/* declaring_type */
+	, &IConfigErrorInfo_t3379_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -133,16 +133,16 @@ extern const MethodInfo IConfigErrorInfo_get_LineNumber_m12139_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IConfigErrorInfo_t3376_MethodInfos[] =
+static const MethodInfo* IConfigErrorInfo_t3379_MethodInfos[] =
 {
 	&IConfigErrorInfo_get_Filename_m12138_MethodInfo,
 	&IConfigErrorInfo_get_LineNumber_m12139_MethodInfo,
 	NULL
 };
 extern const MethodInfo IConfigErrorInfo_get_Filename_m12138_MethodInfo;
-static const PropertyInfo IConfigErrorInfo_t3376____Filename_PropertyInfo = 
+static const PropertyInfo IConfigErrorInfo_t3379____Filename_PropertyInfo = 
 {
-	&IConfigErrorInfo_t3376_il2cpp_TypeInfo/* parent */
+	&IConfigErrorInfo_t3379_il2cpp_TypeInfo/* parent */
 	, "Filename"/* name */
 	, &IConfigErrorInfo_get_Filename_m12138_MethodInfo/* get */
 	, NULL/* set */
@@ -151,9 +151,9 @@ static const PropertyInfo IConfigErrorInfo_t3376____Filename_PropertyInfo =
 
 };
 extern const MethodInfo IConfigErrorInfo_get_LineNumber_m12139_MethodInfo;
-static const PropertyInfo IConfigErrorInfo_t3376____LineNumber_PropertyInfo = 
+static const PropertyInfo IConfigErrorInfo_t3379____LineNumber_PropertyInfo = 
 {
-	&IConfigErrorInfo_t3376_il2cpp_TypeInfo/* parent */
+	&IConfigErrorInfo_t3379_il2cpp_TypeInfo/* parent */
 	, "LineNumber"/* name */
 	, &IConfigErrorInfo_get_LineNumber_m12139_MethodInfo/* get */
 	, NULL/* set */
@@ -161,17 +161,17 @@ static const PropertyInfo IConfigErrorInfo_t3376____LineNumber_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* IConfigErrorInfo_t3376_PropertyInfos[] =
+static const PropertyInfo* IConfigErrorInfo_t3379_PropertyInfos[] =
 {
-	&IConfigErrorInfo_t3376____Filename_PropertyInfo,
-	&IConfigErrorInfo_t3376____LineNumber_PropertyInfo,
+	&IConfigErrorInfo_t3379____Filename_PropertyInfo,
+	&IConfigErrorInfo_t3379____LineNumber_PropertyInfo,
 	NULL
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType IConfigErrorInfo_t3376_0_0_0;
-extern const Il2CppType IConfigErrorInfo_t3376_1_0_0;
-struct IConfigErrorInfo_t3376;
-const Il2CppTypeDefinitionMetadata IConfigErrorInfo_t3376_DefinitionMetadata = 
+extern const Il2CppType IConfigErrorInfo_t3379_0_0_0;
+extern const Il2CppType IConfigErrorInfo_t3379_1_0_0;
+struct IConfigErrorInfo_t3379;
+const Il2CppTypeDefinitionMetadata IConfigErrorInfo_t3379_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -184,21 +184,21 @@ const Il2CppTypeDefinitionMetadata IConfigErrorInfo_t3376_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IConfigErrorInfo_t3376_il2cpp_TypeInfo = 
+TypeInfo IConfigErrorInfo_t3379_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IConfigErrorInfo"/* name */
 	, "System.Configuration.Internal"/* namespaze */
-	, IConfigErrorInfo_t3376_MethodInfos/* methods */
-	, IConfigErrorInfo_t3376_PropertyInfos/* properties */
+	, IConfigErrorInfo_t3379_MethodInfos/* methods */
+	, IConfigErrorInfo_t3379_PropertyInfos/* properties */
 	, NULL/* events */
-	, &IConfigErrorInfo_t3376_il2cpp_TypeInfo/* element_class */
+	, &IConfigErrorInfo_t3379_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &IConfigErrorInfo_t3376_0_0_0/* byval_arg */
-	, &IConfigErrorInfo_t3376_1_0_0/* this_arg */
-	, &IConfigErrorInfo_t3376_DefinitionMetadata/* definitionMetadata */
+	, &IConfigErrorInfo_t3379_0_0_0/* byval_arg */
+	, &IConfigErrorInfo_t3379_1_0_0/* this_arg */
+	, &IConfigErrorInfo_t3379_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -239,16 +239,16 @@ TypeInfo IConfigErrorInfo_t3376_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Configuration.Internal.IConfigSystem
-extern TypeInfo IConfigSystem_t3306_il2cpp_TypeInfo;
-extern const Il2CppType IInternalConfigHost_t3302_0_0_0;
+extern TypeInfo IConfigSystem_t3309_il2cpp_TypeInfo;
+extern const Il2CppType IInternalConfigHost_t3305_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.Internal.IInternalConfigHost System.Configuration.Internal.IConfigSystem::get_Host()
 extern const MethodInfo IConfigSystem_get_Host_m12140_MethodInfo = 
 {
 	"get_Host"/* name */
 	, NULL/* method */
-	, &IConfigSystem_t3306_il2cpp_TypeInfo/* declaring_type */
-	, &IInternalConfigHost_t3302_0_0_0/* return_type */
+	, &IConfigSystem_t3309_il2cpp_TypeInfo/* declaring_type */
+	, &IInternalConfigHost_t3305_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -264,15 +264,15 @@ extern const MethodInfo IConfigSystem_get_Host_m12140_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IConfigSystem_t3306_MethodInfos[] =
+static const MethodInfo* IConfigSystem_t3309_MethodInfos[] =
 {
 	&IConfigSystem_get_Host_m12140_MethodInfo,
 	NULL
 };
 extern const MethodInfo IConfigSystem_get_Host_m12140_MethodInfo;
-static const PropertyInfo IConfigSystem_t3306____Host_PropertyInfo = 
+static const PropertyInfo IConfigSystem_t3309____Host_PropertyInfo = 
 {
-	&IConfigSystem_t3306_il2cpp_TypeInfo/* parent */
+	&IConfigSystem_t3309_il2cpp_TypeInfo/* parent */
 	, "Host"/* name */
 	, &IConfigSystem_get_Host_m12140_MethodInfo/* get */
 	, NULL/* set */
@@ -280,16 +280,16 @@ static const PropertyInfo IConfigSystem_t3306____Host_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* IConfigSystem_t3306_PropertyInfos[] =
+static const PropertyInfo* IConfigSystem_t3309_PropertyInfos[] =
 {
-	&IConfigSystem_t3306____Host_PropertyInfo,
+	&IConfigSystem_t3309____Host_PropertyInfo,
 	NULL
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType IConfigSystem_t3306_0_0_0;
-extern const Il2CppType IConfigSystem_t3306_1_0_0;
-struct IConfigSystem_t3306;
-const Il2CppTypeDefinitionMetadata IConfigSystem_t3306_DefinitionMetadata = 
+extern const Il2CppType IConfigSystem_t3309_0_0_0;
+extern const Il2CppType IConfigSystem_t3309_1_0_0;
+struct IConfigSystem_t3309;
+const Il2CppTypeDefinitionMetadata IConfigSystem_t3309_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -302,21 +302,21 @@ const Il2CppTypeDefinitionMetadata IConfigSystem_t3306_DefinitionMetadata =
 	, -1/* fieldStart */
 
 };
-TypeInfo IConfigSystem_t3306_il2cpp_TypeInfo = 
+TypeInfo IConfigSystem_t3309_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IConfigSystem"/* name */
 	, "System.Configuration.Internal"/* namespaze */
-	, IConfigSystem_t3306_MethodInfos/* methods */
-	, IConfigSystem_t3306_PropertyInfos/* properties */
+	, IConfigSystem_t3309_MethodInfos/* methods */
+	, IConfigSystem_t3309_PropertyInfos/* properties */
 	, NULL/* events */
-	, &IConfigSystem_t3306_il2cpp_TypeInfo/* element_class */
+	, &IConfigSystem_t3309_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &IConfigSystem_t3306_0_0_0/* byval_arg */
-	, &IConfigSystem_t3306_1_0_0/* this_arg */
-	, &IConfigSystem_t3306_DefinitionMetadata/* definitionMetadata */
+	, &IConfigSystem_t3309_0_0_0/* byval_arg */
+	, &IConfigSystem_t3309_1_0_0/* this_arg */
+	, &IConfigSystem_t3309_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -357,27 +357,27 @@ TypeInfo IConfigSystem_t3306_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Configuration.Internal.IInternalConfigConfigurationFactory
-extern TypeInfo IInternalConfigConfigurationFactory_t3371_il2cpp_TypeInfo;
+extern TypeInfo IInternalConfigConfigurationFactory_t3374_il2cpp_TypeInfo;
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
-static const ParameterInfo IInternalConfigConfigurationFactory_t3371_IInternalConfigConfigurationFactory_Create_m12141_ParameterInfos[] = 
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
+static const ParameterInfo IInternalConfigConfigurationFactory_t3374_IInternalConfigConfigurationFactory_Create_m12141_ParameterInfos[] = 
 {
 	{"typeConfigHost", 0, 134217729, 0, &Type_t_0_0_0},
-	{"hostInitConfigurationParams", 1, 134217730, 3, &ObjectU5BU5D_t697_0_0_0},
+	{"hostInitConfigurationParams", 1, 134217730, 3, &ObjectU5BU5D_t700_0_0_0},
 };
-extern const Il2CppType Configuration_t3297_0_0_0;
+extern const Il2CppType Configuration_t3300_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.Configuration System.Configuration.Internal.IInternalConfigConfigurationFactory::Create(System.Type,System.Object[])
 extern const MethodInfo IInternalConfigConfigurationFactory_Create_m12141_MethodInfo = 
 {
 	"Create"/* name */
 	, NULL/* method */
-	, &IInternalConfigConfigurationFactory_t3371_il2cpp_TypeInfo/* declaring_type */
-	, &Configuration_t3297_0_0_0/* return_type */
+	, &IInternalConfigConfigurationFactory_t3374_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, IInternalConfigConfigurationFactory_t3371_IInternalConfigConfigurationFactory_Create_m12141_ParameterInfos/* parameters */
+	, IInternalConfigConfigurationFactory_t3374_IInternalConfigConfigurationFactory_Create_m12141_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -391,16 +391,16 @@ extern const MethodInfo IInternalConfigConfigurationFactory_Create_m12141_Method
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IInternalConfigConfigurationFactory_t3371_MethodInfos[] =
+static const MethodInfo* IInternalConfigConfigurationFactory_t3374_MethodInfos[] =
 {
 	&IInternalConfigConfigurationFactory_Create_m12141_MethodInfo,
 	NULL
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType IInternalConfigConfigurationFactory_t3371_0_0_0;
-extern const Il2CppType IInternalConfigConfigurationFactory_t3371_1_0_0;
-struct IInternalConfigConfigurationFactory_t3371;
-const Il2CppTypeDefinitionMetadata IInternalConfigConfigurationFactory_t3371_DefinitionMetadata = 
+extern const Il2CppType IInternalConfigConfigurationFactory_t3374_0_0_0;
+extern const Il2CppType IInternalConfigConfigurationFactory_t3374_1_0_0;
+struct IInternalConfigConfigurationFactory_t3374;
+const Il2CppTypeDefinitionMetadata IInternalConfigConfigurationFactory_t3374_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -413,21 +413,21 @@ const Il2CppTypeDefinitionMetadata IInternalConfigConfigurationFactory_t3371_Def
 	, -1/* fieldStart */
 
 };
-TypeInfo IInternalConfigConfigurationFactory_t3371_il2cpp_TypeInfo = 
+TypeInfo IInternalConfigConfigurationFactory_t3374_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IInternalConfigConfigurationFactory"/* name */
 	, "System.Configuration.Internal"/* namespaze */
-	, IInternalConfigConfigurationFactory_t3371_MethodInfos/* methods */
+	, IInternalConfigConfigurationFactory_t3374_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &IInternalConfigConfigurationFactory_t3371_il2cpp_TypeInfo/* element_class */
+	, &IInternalConfigConfigurationFactory_t3374_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 2/* custom_attributes_cache */
-	, &IInternalConfigConfigurationFactory_t3371_0_0_0/* byval_arg */
-	, &IInternalConfigConfigurationFactory_t3371_1_0_0/* this_arg */
-	, &IInternalConfigConfigurationFactory_t3371_DefinitionMetadata/* definitionMetadata */
+	, &IInternalConfigConfigurationFactory_t3374_0_0_0/* byval_arg */
+	, &IInternalConfigConfigurationFactory_t3374_1_0_0/* this_arg */
+	, &IInternalConfigConfigurationFactory_t3374_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -468,9 +468,9 @@ TypeInfo IInternalConfigConfigurationFactory_t3371_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Configuration.Internal.IInternalConfigHost
-extern TypeInfo IInternalConfigHost_t3302_il2cpp_TypeInfo;
+extern TypeInfo IInternalConfigHost_t3305_il2cpp_TypeInfo;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo IInternalConfigHost_t3302_IInternalConfigHost_CreateDeprecatedConfigContext_m12142_ParameterInfos[] = 
+static const ParameterInfo IInternalConfigHost_t3305_IInternalConfigHost_CreateDeprecatedConfigContext_m12142_ParameterInfos[] = 
 {
 	{"configPath", 0, 134217731, 0, &String_t_0_0_0},
 };
@@ -481,10 +481,10 @@ extern const MethodInfo IInternalConfigHost_CreateDeprecatedConfigContext_m12142
 {
 	"CreateDeprecatedConfigContext"/* name */
 	, NULL/* method */
-	, &IInternalConfigHost_t3302_il2cpp_TypeInfo/* declaring_type */
+	, &IInternalConfigHost_t3305_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, IInternalConfigHost_t3302_IInternalConfigHost_CreateDeprecatedConfigContext_m12142_ParameterInfos/* parameters */
+	, IInternalConfigHost_t3305_IInternalConfigHost_CreateDeprecatedConfigContext_m12142_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -500,7 +500,7 @@ extern const MethodInfo IInternalConfigHost_CreateDeprecatedConfigContext_m12142
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo IInternalConfigHost_t3302_IInternalConfigHost_GetConfigPathFromLocationSubPath_m12143_ParameterInfos[] = 
+static const ParameterInfo IInternalConfigHost_t3305_IInternalConfigHost_GetConfigPathFromLocationSubPath_m12143_ParameterInfos[] = 
 {
 	{"configPath", 0, 134217732, 0, &String_t_0_0_0},
 	{"locatinSubPath", 1, 134217733, 0, &String_t_0_0_0},
@@ -511,10 +511,10 @@ extern const MethodInfo IInternalConfigHost_GetConfigPathFromLocationSubPath_m12
 {
 	"GetConfigPathFromLocationSubPath"/* name */
 	, NULL/* method */
-	, &IInternalConfigHost_t3302_il2cpp_TypeInfo/* declaring_type */
+	, &IInternalConfigHost_t3305_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, IInternalConfigHost_t3302_IInternalConfigHost_GetConfigPathFromLocationSubPath_m12143_ParameterInfos/* parameters */
+	, IInternalConfigHost_t3305_IInternalConfigHost_GetConfigPathFromLocationSubPath_m12143_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -531,7 +531,7 @@ extern const MethodInfo IInternalConfigHost_GetConfigPathFromLocationSubPath_m12
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo IInternalConfigHost_t3302_IInternalConfigHost_GetConfigType_m12144_ParameterInfos[] = 
+static const ParameterInfo IInternalConfigHost_t3305_IInternalConfigHost_GetConfigType_m12144_ParameterInfos[] = 
 {
 	{"typeName", 0, 134217734, 0, &String_t_0_0_0},
 	{"throwOnError", 1, 134217735, 0, &Boolean_t59_0_0_0},
@@ -542,10 +542,10 @@ extern const MethodInfo IInternalConfigHost_GetConfigType_m12144_MethodInfo =
 {
 	"GetConfigType"/* name */
 	, NULL/* method */
-	, &IInternalConfigHost_t3302_il2cpp_TypeInfo/* declaring_type */
+	, &IInternalConfigHost_t3305_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_SByte_t88/* invoker_method */
-	, IInternalConfigHost_t3302_IInternalConfigHost_GetConfigType_m12144_ParameterInfos/* parameters */
+	, IInternalConfigHost_t3305_IInternalConfigHost_GetConfigType_m12144_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -560,7 +560,7 @@ extern const MethodInfo IInternalConfigHost_GetConfigType_m12144_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo IInternalConfigHost_t3302_IInternalConfigHost_GetStreamName_m12145_ParameterInfos[] = 
+static const ParameterInfo IInternalConfigHost_t3305_IInternalConfigHost_GetStreamName_m12145_ParameterInfos[] = 
 {
 	{"configPath", 0, 134217736, 0, &String_t_0_0_0},
 };
@@ -570,10 +570,10 @@ extern const MethodInfo IInternalConfigHost_GetStreamName_m12145_MethodInfo =
 {
 	"GetStreamName"/* name */
 	, NULL/* method */
-	, &IInternalConfigHost_t3302_il2cpp_TypeInfo/* declaring_type */
+	, &IInternalConfigHost_t3305_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, IInternalConfigHost_t3302_IInternalConfigHost_GetStreamName_m12145_ParameterInfos/* parameters */
+	, IInternalConfigHost_t3305_IInternalConfigHost_GetStreamName_m12145_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -591,28 +591,28 @@ extern const Il2CppType String_t_1_0_0;
 extern const Il2CppType String_t_1_0_0;
 extern const Il2CppType String_t_1_0_2;
 extern const Il2CppType String_t_1_0_2;
-extern const Il2CppType IInternalConfigRoot_t3352_0_0_0;
-extern const Il2CppType IInternalConfigRoot_t3352_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
-static const ParameterInfo IInternalConfigHost_t3302_IInternalConfigHost_InitForConfiguration_m12146_ParameterInfos[] = 
+extern const Il2CppType IInternalConfigRoot_t3355_0_0_0;
+extern const Il2CppType IInternalConfigRoot_t3355_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
+static const ParameterInfo IInternalConfigHost_t3305_IInternalConfigHost_InitForConfiguration_m12146_ParameterInfos[] = 
 {
 	{"locationSubPath", 0, 134217737, 0, &String_t_1_0_0},
 	{"configPath", 1, 134217738, 0, &String_t_1_0_2},
 	{"locationConfigPath", 2, 134217739, 0, &String_t_1_0_2},
-	{"root", 3, 134217740, 0, &IInternalConfigRoot_t3352_0_0_0},
-	{"hostInitConfigurationParams", 4, 134217741, 5, &ObjectU5BU5D_t697_0_0_0},
+	{"root", 3, 134217740, 0, &IInternalConfigRoot_t3355_0_0_0},
+	{"hostInitConfigurationParams", 4, 134217741, 5, &ObjectU5BU5D_t700_0_0_0},
 };
 extern const Il2CppType Void_t85_0_0_0;
-extern void* RuntimeInvoker_Void_t85_StringU26_t828_StringU26_t828_StringU26_t828_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_StringU26_t831_StringU26_t831_StringU26_t831_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.Internal.IInternalConfigHost::InitForConfiguration(System.String&,System.String&,System.String&,System.Configuration.Internal.IInternalConfigRoot,System.Object[])
 extern const MethodInfo IInternalConfigHost_InitForConfiguration_m12146_MethodInfo = 
 {
 	"InitForConfiguration"/* name */
 	, NULL/* method */
-	, &IInternalConfigHost_t3302_il2cpp_TypeInfo/* declaring_type */
+	, &IInternalConfigHost_t3305_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_StringU26_t828_StringU26_t828_StringU26_t828_Object_t_Object_t/* invoker_method */
-	, IInternalConfigHost_t3302_IInternalConfigHost_InitForConfiguration_m12146_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_StringU26_t831_StringU26_t831_StringU26_t831_Object_t_Object_t/* invoker_method */
+	, IInternalConfigHost_t3305_IInternalConfigHost_InitForConfiguration_m12146_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -627,15 +627,15 @@ extern const MethodInfo IInternalConfigHost_InitForConfiguration_m12146_MethodIn
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ConfigurationAllowDefinition_t3307_0_0_0;
-extern const Il2CppType ConfigurationAllowDefinition_t3307_0_0_0;
-extern const Il2CppType ConfigurationAllowExeDefinition_t3308_0_0_0;
-extern const Il2CppType ConfigurationAllowExeDefinition_t3308_0_0_0;
-static const ParameterInfo IInternalConfigHost_t3302_IInternalConfigHost_IsDefinitionAllowed_m12147_ParameterInfos[] = 
+extern const Il2CppType ConfigurationAllowDefinition_t3310_0_0_0;
+extern const Il2CppType ConfigurationAllowDefinition_t3310_0_0_0;
+extern const Il2CppType ConfigurationAllowExeDefinition_t3311_0_0_0;
+extern const Il2CppType ConfigurationAllowExeDefinition_t3311_0_0_0;
+static const ParameterInfo IInternalConfigHost_t3305_IInternalConfigHost_IsDefinitionAllowed_m12147_ParameterInfos[] = 
 {
 	{"configPath", 0, 134217742, 0, &String_t_0_0_0},
-	{"allowDefinition", 1, 134217743, 0, &ConfigurationAllowDefinition_t3307_0_0_0},
-	{"allowExeDefinition", 2, 134217744, 0, &ConfigurationAllowExeDefinition_t3308_0_0_0},
+	{"allowDefinition", 1, 134217743, 0, &ConfigurationAllowDefinition_t3310_0_0_0},
+	{"allowExeDefinition", 2, 134217744, 0, &ConfigurationAllowExeDefinition_t3311_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Configuration.Internal.IInternalConfigHost::IsDefinitionAllowed(System.String,System.Configuration.ConfigurationAllowDefinition,System.Configuration.ConfigurationAllowExeDefinition)
@@ -643,10 +643,10 @@ extern const MethodInfo IInternalConfigHost_IsDefinitionAllowed_m12147_MethodInf
 {
 	"IsDefinitionAllowed"/* name */
 	, NULL/* method */
-	, &IInternalConfigHost_t3302_il2cpp_TypeInfo/* declaring_type */
+	, &IInternalConfigHost_t3305_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Int32_t82/* invoker_method */
-	, IInternalConfigHost_t3302_IInternalConfigHost_IsDefinitionAllowed_m12147_ParameterInfos/* parameters */
+	, IInternalConfigHost_t3305_IInternalConfigHost_IsDefinitionAllowed_m12147_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -661,7 +661,7 @@ extern const MethodInfo IInternalConfigHost_IsDefinitionAllowed_m12147_MethodInf
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo IInternalConfigHost_t3302_IInternalConfigHost_OpenStreamForRead_m12148_ParameterInfos[] = 
+static const ParameterInfo IInternalConfigHost_t3305_IInternalConfigHost_OpenStreamForRead_m12148_ParameterInfos[] = 
 {
 	{"streamName", 0, 134217745, 0, &String_t_0_0_0},
 };
@@ -672,10 +672,10 @@ extern const MethodInfo IInternalConfigHost_OpenStreamForRead_m12148_MethodInfo 
 {
 	"OpenStreamForRead"/* name */
 	, NULL/* method */
-	, &IInternalConfigHost_t3302_il2cpp_TypeInfo/* declaring_type */
+	, &IInternalConfigHost_t3305_il2cpp_TypeInfo/* declaring_type */
 	, &Stream_t51_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, IInternalConfigHost_t3302_IInternalConfigHost_OpenStreamForRead_m12148_ParameterInfos/* parameters */
+	, IInternalConfigHost_t3305_IInternalConfigHost_OpenStreamForRead_m12148_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -689,7 +689,7 @@ extern const MethodInfo IInternalConfigHost_OpenStreamForRead_m12148_MethodInfo 
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IInternalConfigHost_t3302_MethodInfos[] =
+static const MethodInfo* IInternalConfigHost_t3305_MethodInfos[] =
 {
 	&IInternalConfigHost_CreateDeprecatedConfigContext_m12142_MethodInfo,
 	&IInternalConfigHost_GetConfigPathFromLocationSubPath_m12143_MethodInfo,
@@ -701,9 +701,9 @@ static const MethodInfo* IInternalConfigHost_t3302_MethodInfos[] =
 	NULL
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType IInternalConfigHost_t3302_1_0_0;
-struct IInternalConfigHost_t3302;
-const Il2CppTypeDefinitionMetadata IInternalConfigHost_t3302_DefinitionMetadata = 
+extern const Il2CppType IInternalConfigHost_t3305_1_0_0;
+struct IInternalConfigHost_t3305;
+const Il2CppTypeDefinitionMetadata IInternalConfigHost_t3305_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -716,21 +716,21 @@ const Il2CppTypeDefinitionMetadata IInternalConfigHost_t3302_DefinitionMetadata 
 	, -1/* fieldStart */
 
 };
-TypeInfo IInternalConfigHost_t3302_il2cpp_TypeInfo = 
+TypeInfo IInternalConfigHost_t3305_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IInternalConfigHost"/* name */
 	, "System.Configuration.Internal"/* namespaze */
-	, IInternalConfigHost_t3302_MethodInfos/* methods */
+	, IInternalConfigHost_t3305_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &IInternalConfigHost_t3302_il2cpp_TypeInfo/* element_class */
+	, &IInternalConfigHost_t3305_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 4/* custom_attributes_cache */
-	, &IInternalConfigHost_t3302_0_0_0/* byval_arg */
-	, &IInternalConfigHost_t3302_1_0_0/* this_arg */
-	, &IInternalConfigHost_t3302_DefinitionMetadata/* definitionMetadata */
+	, &IInternalConfigHost_t3305_0_0_0/* byval_arg */
+	, &IInternalConfigHost_t3305_1_0_0/* this_arg */
+	, &IInternalConfigHost_t3305_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -771,12 +771,12 @@ TypeInfo IInternalConfigHost_t3302_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Configuration.Internal.IInternalConfigRoot
-extern TypeInfo IInternalConfigRoot_t3352_il2cpp_TypeInfo;
-extern const Il2CppType IInternalConfigHost_t3302_0_0_0;
+extern TypeInfo IInternalConfigRoot_t3355_il2cpp_TypeInfo;
+extern const Il2CppType IInternalConfigHost_t3305_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo IInternalConfigRoot_t3352_IInternalConfigRoot_Init_m12149_ParameterInfos[] = 
+static const ParameterInfo IInternalConfigRoot_t3355_IInternalConfigRoot_Init_m12149_ParameterInfos[] = 
 {
-	{"host", 0, 134217746, 0, &IInternalConfigHost_t3302_0_0_0},
+	{"host", 0, 134217746, 0, &IInternalConfigHost_t3305_0_0_0},
 	{"isDesignTime", 1, 134217747, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -785,10 +785,10 @@ extern const MethodInfo IInternalConfigRoot_Init_m12149_MethodInfo =
 {
 	"Init"/* name */
 	, NULL/* method */
-	, &IInternalConfigRoot_t3352_il2cpp_TypeInfo/* declaring_type */
+	, &IInternalConfigRoot_t3355_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, IInternalConfigRoot_t3352_IInternalConfigRoot_Init_m12149_ParameterInfos/* parameters */
+	, IInternalConfigRoot_t3355_IInternalConfigRoot_Init_m12149_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -802,15 +802,15 @@ extern const MethodInfo IInternalConfigRoot_Init_m12149_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IInternalConfigRoot_t3352_MethodInfos[] =
+static const MethodInfo* IInternalConfigRoot_t3355_MethodInfos[] =
 {
 	&IInternalConfigRoot_Init_m12149_MethodInfo,
 	NULL
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType IInternalConfigRoot_t3352_1_0_0;
-struct IInternalConfigRoot_t3352;
-const Il2CppTypeDefinitionMetadata IInternalConfigRoot_t3352_DefinitionMetadata = 
+extern const Il2CppType IInternalConfigRoot_t3355_1_0_0;
+struct IInternalConfigRoot_t3355;
+const Il2CppTypeDefinitionMetadata IInternalConfigRoot_t3355_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -823,21 +823,21 @@ const Il2CppTypeDefinitionMetadata IInternalConfigRoot_t3352_DefinitionMetadata 
 	, -1/* fieldStart */
 
 };
-TypeInfo IInternalConfigRoot_t3352_il2cpp_TypeInfo = 
+TypeInfo IInternalConfigRoot_t3355_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IInternalConfigRoot"/* name */
 	, "System.Configuration.Internal"/* namespaze */
-	, IInternalConfigRoot_t3352_MethodInfos/* methods */
+	, IInternalConfigRoot_t3355_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &IInternalConfigRoot_t3352_il2cpp_TypeInfo/* element_class */
+	, &IInternalConfigRoot_t3355_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 6/* custom_attributes_cache */
-	, &IInternalConfigRoot_t3352_0_0_0/* byval_arg */
-	, &IInternalConfigRoot_t3352_1_0_0/* this_arg */
-	, &IInternalConfigRoot_t3352_DefinitionMetadata/* definitionMetadata */
+	, &IInternalConfigRoot_t3355_0_0_0/* byval_arg */
+	, &IInternalConfigRoot_t3355_1_0_0/* this_arg */
+	, &IInternalConfigRoot_t3355_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -878,9 +878,9 @@ TypeInfo IInternalConfigRoot_t3352_il2cpp_TypeInfo =
 
 };
 // Metadata Definition System.Configuration.Internal.IInternalConfigSystem
-extern TypeInfo IInternalConfigSystem_t3326_il2cpp_TypeInfo;
+extern TypeInfo IInternalConfigSystem_t3329_il2cpp_TypeInfo;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo IInternalConfigSystem_t3326_IInternalConfigSystem_GetSection_m12150_ParameterInfos[] = 
+static const ParameterInfo IInternalConfigSystem_t3329_IInternalConfigSystem_GetSection_m12150_ParameterInfos[] = 
 {
 	{"configKey", 0, 134217748, 0, &String_t_0_0_0},
 };
@@ -890,10 +890,10 @@ extern const MethodInfo IInternalConfigSystem_GetSection_m12150_MethodInfo =
 {
 	"GetSection"/* name */
 	, NULL/* method */
-	, &IInternalConfigSystem_t3326_il2cpp_TypeInfo/* declaring_type */
+	, &IInternalConfigSystem_t3329_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, IInternalConfigSystem_t3326_IInternalConfigSystem_GetSection_m12150_ParameterInfos/* parameters */
+	, IInternalConfigSystem_t3329_IInternalConfigSystem_GetSection_m12150_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -907,16 +907,16 @@ extern const MethodInfo IInternalConfigSystem_GetSection_m12150_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IInternalConfigSystem_t3326_MethodInfos[] =
+static const MethodInfo* IInternalConfigSystem_t3329_MethodInfos[] =
 {
 	&IInternalConfigSystem_GetSection_m12150_MethodInfo,
 	NULL
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType IInternalConfigSystem_t3326_0_0_0;
-extern const Il2CppType IInternalConfigSystem_t3326_1_0_0;
-struct IInternalConfigSystem_t3326;
-const Il2CppTypeDefinitionMetadata IInternalConfigSystem_t3326_DefinitionMetadata = 
+extern const Il2CppType IInternalConfigSystem_t3329_0_0_0;
+extern const Il2CppType IInternalConfigSystem_t3329_1_0_0;
+struct IInternalConfigSystem_t3329;
+const Il2CppTypeDefinitionMetadata IInternalConfigSystem_t3329_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
@@ -929,21 +929,21 @@ const Il2CppTypeDefinitionMetadata IInternalConfigSystem_t3326_DefinitionMetadat
 	, -1/* fieldStart */
 
 };
-TypeInfo IInternalConfigSystem_t3326_il2cpp_TypeInfo = 
+TypeInfo IInternalConfigSystem_t3329_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IInternalConfigSystem"/* name */
 	, "System.Configuration.Internal"/* namespaze */
-	, IInternalConfigSystem_t3326_MethodInfos/* methods */
+	, IInternalConfigSystem_t3329_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &IInternalConfigSystem_t3326_il2cpp_TypeInfo/* element_class */
+	, &IInternalConfigSystem_t3329_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 7/* custom_attributes_cache */
-	, &IInternalConfigSystem_t3326_0_0_0/* byval_arg */
-	, &IInternalConfigSystem_t3326_1_0_0/* this_arg */
-	, &IInternalConfigSystem_t3326_DefinitionMetadata/* definitionMetadata */
+	, &IInternalConfigSystem_t3329_0_0_0/* byval_arg */
+	, &IInternalConfigSystem_t3329_1_0_0/* this_arg */
+	, &IInternalConfigSystem_t3329_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -986,16 +986,16 @@ TypeInfo IInternalConfigSystem_t3326_il2cpp_TypeInfo =
 // System.Configuration.Provider.ProviderBase
 #include "System_Configuration_System_Configuration_Provider_ProviderB.h"
 // Metadata Definition System.Configuration.Provider.ProviderBase
-extern TypeInfo ProviderBase_t3295_il2cpp_TypeInfo;
+extern TypeInfo ProviderBase_t3298_il2cpp_TypeInfo;
 // System.Configuration.Provider.ProviderBase
 #include "System_Configuration_System_Configuration_Provider_ProviderBMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType NameValueCollection_t3300_0_0_0;
-extern const Il2CppType NameValueCollection_t3300_0_0_0;
-static const ParameterInfo ProviderBase_t3295_ProviderBase_Initialize_m11660_ParameterInfos[] = 
+extern const Il2CppType NameValueCollection_t3303_0_0_0;
+extern const Il2CppType NameValueCollection_t3303_0_0_0;
+static const ParameterInfo ProviderBase_t3298_ProviderBase_Initialize_m11660_ParameterInfos[] = 
 {
 	{"name", 0, 134217749, 0, &String_t_0_0_0},
-	{"config", 1, 134217750, 0, &NameValueCollection_t3300_0_0_0},
+	{"config", 1, 134217750, 0, &NameValueCollection_t3303_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.Provider.ProviderBase::Initialize(System.String,System.Collections.Specialized.NameValueCollection)
@@ -1003,10 +1003,10 @@ extern const MethodInfo ProviderBase_Initialize_m11660_MethodInfo =
 {
 	"Initialize"/* name */
 	, (methodPointerType)&ProviderBase_Initialize_m11660/* method */
-	, &ProviderBase_t3295_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderBase_t3298_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ProviderBase_t3295_ProviderBase_Initialize_m11660_ParameterInfos/* parameters */
+	, ProviderBase_t3298_ProviderBase_Initialize_m11660_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -1026,7 +1026,7 @@ extern const MethodInfo ProviderBase_get_Name_m11661_MethodInfo =
 {
 	"get_Name"/* name */
 	, (methodPointerType)&ProviderBase_get_Name_m11661/* method */
-	, &ProviderBase_t3295_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderBase_t3298_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -1043,16 +1043,16 @@ extern const MethodInfo ProviderBase_get_Name_m11661_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ProviderBase_t3295_MethodInfos[] =
+static const MethodInfo* ProviderBase_t3298_MethodInfos[] =
 {
 	&ProviderBase_Initialize_m11660_MethodInfo,
 	&ProviderBase_get_Name_m11661_MethodInfo,
 	NULL
 };
 extern const MethodInfo ProviderBase_get_Name_m11661_MethodInfo;
-static const PropertyInfo ProviderBase_t3295____Name_PropertyInfo = 
+static const PropertyInfo ProviderBase_t3298____Name_PropertyInfo = 
 {
-	&ProviderBase_t3295_il2cpp_TypeInfo/* parent */
+	&ProviderBase_t3298_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
 	, &ProviderBase_get_Name_m11661_MethodInfo/* get */
 	, NULL/* set */
@@ -1060,9 +1060,9 @@ static const PropertyInfo ProviderBase_t3295____Name_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ProviderBase_t3295_PropertyInfos[] =
+static const PropertyInfo* ProviderBase_t3298_PropertyInfos[] =
 {
-	&ProviderBase_t3295____Name_PropertyInfo,
+	&ProviderBase_t3298____Name_PropertyInfo,
 	NULL
 };
 extern const MethodInfo Object_Equals_m495_MethodInfo;
@@ -1070,7 +1070,7 @@ extern const MethodInfo Object_Finalize_m490_MethodInfo;
 extern const MethodInfo Object_GetHashCode_m406_MethodInfo;
 extern const MethodInfo Object_ToString_m492_MethodInfo;
 extern const MethodInfo ProviderBase_Initialize_m11660_MethodInfo;
-static const Il2CppMethodReference ProviderBase_t3295_VTable[] =
+static const Il2CppMethodReference ProviderBase_t3298_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -1079,7 +1079,7 @@ static const Il2CppMethodReference ProviderBase_t3295_VTable[] =
 	&ProviderBase_Initialize_m11660_MethodInfo,
 	&ProviderBase_get_Name_m11661_MethodInfo,
 };
-static bool ProviderBase_t3295_VTableIsGenericMethod[] =
+static bool ProviderBase_t3298_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -1089,37 +1089,37 @@ static bool ProviderBase_t3295_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ProviderBase_t3295_0_0_0;
-extern const Il2CppType ProviderBase_t3295_1_0_0;
-struct ProviderBase_t3295;
-const Il2CppTypeDefinitionMetadata ProviderBase_t3295_DefinitionMetadata = 
+extern const Il2CppType ProviderBase_t3298_0_0_0;
+extern const Il2CppType ProviderBase_t3298_1_0_0;
+struct ProviderBase_t3298;
+const Il2CppTypeDefinitionMetadata ProviderBase_t3298_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ProviderBase_t3295_VTable/* vtableMethods */
-	, ProviderBase_t3295_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ProviderBase_t3298_VTable/* vtableMethods */
+	, ProviderBase_t3298_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 0/* fieldStart */
 
 };
-TypeInfo ProviderBase_t3295_il2cpp_TypeInfo = 
+TypeInfo ProviderBase_t3298_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ProviderBase"/* name */
 	, "System.Configuration.Provider"/* namespaze */
-	, ProviderBase_t3295_MethodInfos/* methods */
-	, ProviderBase_t3295_PropertyInfos/* properties */
+	, ProviderBase_t3298_MethodInfos/* methods */
+	, ProviderBase_t3298_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ProviderBase_t3295_il2cpp_TypeInfo/* element_class */
+	, &ProviderBase_t3298_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ProviderBase_t3295_0_0_0/* byval_arg */
-	, &ProviderBase_t3295_1_0_0/* this_arg */
-	, &ProviderBase_t3295_DefinitionMetadata/* definitionMetadata */
+	, &ProviderBase_t3298_0_0_0/* byval_arg */
+	, &ProviderBase_t3298_1_0_0/* this_arg */
+	, &ProviderBase_t3298_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -1129,8 +1129,8 @@ TypeInfo ProviderBase_t3295_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ProviderBase_t3295)/* instance_size */
-	, sizeof (ProviderBase_t3295)/* actualSize */
+	, sizeof (ProviderBase_t3298)/* instance_size */
+	, sizeof (ProviderBase_t3298)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1162,7 +1162,7 @@ TypeInfo ProviderBase_t3295_il2cpp_TypeInfo =
 // System.Configuration.Provider.ProviderCollection
 #include "System_Configuration_System_Configuration_Provider_ProviderC.h"
 // Metadata Definition System.Configuration.Provider.ProviderCollection
-extern TypeInfo ProviderCollection_t3296_il2cpp_TypeInfo;
+extern TypeInfo ProviderCollection_t3299_il2cpp_TypeInfo;
 // System.Configuration.Provider.ProviderCollection
 #include "System_Configuration_System_Configuration_Provider_ProviderCMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -1171,7 +1171,7 @@ extern const MethodInfo ProviderCollection__ctor_m11662_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ProviderCollection__ctor_m11662/* method */
-	, &ProviderCollection_t3296_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderCollection_t3299_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -1191,7 +1191,7 @@ extern const MethodInfo ProviderCollection__ctor_m11662_MethodInfo =
 extern const Il2CppType Array_t_0_0_0;
 extern const Il2CppType Array_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ProviderCollection_t3296_ProviderCollection_System_Collections_ICollection_CopyTo_m11663_ParameterInfos[] = 
+static const ParameterInfo ProviderCollection_t3299_ProviderCollection_System_Collections_ICollection_CopyTo_m11663_ParameterInfos[] = 
 {
 	{"array", 0, 134217751, 0, &Array_t_0_0_0},
 	{"index", 1, 134217752, 0, &Int32_t82_0_0_0},
@@ -1202,10 +1202,10 @@ extern const MethodInfo ProviderCollection_System_Collections_ICollection_CopyTo
 {
 	"System.Collections.ICollection.CopyTo"/* name */
 	, (methodPointerType)&ProviderCollection_System_Collections_ICollection_CopyTo_m11663/* method */
-	, &ProviderCollection_t3296_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderCollection_t3299_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82/* invoker_method */
-	, ProviderCollection_t3296_ProviderCollection_System_Collections_ICollection_CopyTo_m11663_ParameterInfos/* parameters */
+	, ProviderCollection_t3299_ProviderCollection_System_Collections_ICollection_CopyTo_m11663_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -1219,10 +1219,10 @@ extern const MethodInfo ProviderCollection_System_Collections_ICollection_CopyTo
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ProviderBase_t3295_0_0_0;
-static const ParameterInfo ProviderCollection_t3296_ProviderCollection_Add_m11664_ParameterInfos[] = 
+extern const Il2CppType ProviderBase_t3298_0_0_0;
+static const ParameterInfo ProviderCollection_t3299_ProviderCollection_Add_m11664_ParameterInfos[] = 
 {
-	{"provider", 0, 134217753, 0, &ProviderBase_t3295_0_0_0},
+	{"provider", 0, 134217753, 0, &ProviderBase_t3298_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.Provider.ProviderCollection::Add(System.Configuration.Provider.ProviderBase)
@@ -1230,10 +1230,10 @@ extern const MethodInfo ProviderCollection_Add_m11664_MethodInfo =
 {
 	"Add"/* name */
 	, (methodPointerType)&ProviderCollection_Add_m11664/* method */
-	, &ProviderCollection_t3296_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderCollection_t3299_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ProviderCollection_t3296_ProviderCollection_Add_m11664_ParameterInfos/* parameters */
+	, ProviderCollection_t3299_ProviderCollection_Add_m11664_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -1254,7 +1254,7 @@ extern const MethodInfo ProviderCollection_GetEnumerator_m11665_MethodInfo =
 {
 	"GetEnumerator"/* name */
 	, (methodPointerType)&ProviderCollection_GetEnumerator_m11665/* method */
-	, &ProviderCollection_t3296_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderCollection_t3299_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t48_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -1277,7 +1277,7 @@ extern const MethodInfo ProviderCollection_get_Count_m11666_MethodInfo =
 {
 	"get_Count"/* name */
 	, (methodPointerType)&ProviderCollection_get_Count_m11666/* method */
-	, &ProviderCollection_t3296_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderCollection_t3299_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -1300,7 +1300,7 @@ extern const MethodInfo ProviderCollection_get_IsSynchronized_m11667_MethodInfo 
 {
 	"get_IsSynchronized"/* name */
 	, (methodPointerType)&ProviderCollection_get_IsSynchronized_m11667/* method */
-	, &ProviderCollection_t3296_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderCollection_t3299_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -1323,7 +1323,7 @@ extern const MethodInfo ProviderCollection_get_SyncRoot_m11668_MethodInfo =
 {
 	"get_SyncRoot"/* name */
 	, (methodPointerType)&ProviderCollection_get_SyncRoot_m11668/* method */
-	, &ProviderCollection_t3296_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderCollection_t3299_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -1341,7 +1341,7 @@ extern const MethodInfo ProviderCollection_get_SyncRoot_m11668_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ProviderCollection_t3296_ProviderCollection_get_Item_m11669_ParameterInfos[] = 
+static const ParameterInfo ProviderCollection_t3299_ProviderCollection_get_Item_m11669_ParameterInfos[] = 
 {
 	{"name", 0, 134217754, 0, &String_t_0_0_0},
 };
@@ -1351,10 +1351,10 @@ extern const MethodInfo ProviderCollection_get_Item_m11669_MethodInfo =
 {
 	"get_Item"/* name */
 	, (methodPointerType)&ProviderCollection_get_Item_m11669/* method */
-	, &ProviderCollection_t3296_il2cpp_TypeInfo/* declaring_type */
-	, &ProviderBase_t3295_0_0_0/* return_type */
+	, &ProviderCollection_t3299_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderBase_t3298_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ProviderCollection_t3296_ProviderCollection_get_Item_m11669_ParameterInfos/* parameters */
+	, ProviderCollection_t3299_ProviderCollection_get_Item_m11669_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -1368,7 +1368,7 @@ extern const MethodInfo ProviderCollection_get_Item_m11669_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ProviderCollection_t3296_MethodInfos[] =
+static const MethodInfo* ProviderCollection_t3299_MethodInfos[] =
 {
 	&ProviderCollection__ctor_m11662_MethodInfo,
 	&ProviderCollection_System_Collections_ICollection_CopyTo_m11663_MethodInfo,
@@ -1381,9 +1381,9 @@ static const MethodInfo* ProviderCollection_t3296_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ProviderCollection_get_Count_m11666_MethodInfo;
-static const PropertyInfo ProviderCollection_t3296____Count_PropertyInfo = 
+static const PropertyInfo ProviderCollection_t3299____Count_PropertyInfo = 
 {
-	&ProviderCollection_t3296_il2cpp_TypeInfo/* parent */
+	&ProviderCollection_t3299_il2cpp_TypeInfo/* parent */
 	, "Count"/* name */
 	, &ProviderCollection_get_Count_m11666_MethodInfo/* get */
 	, NULL/* set */
@@ -1392,9 +1392,9 @@ static const PropertyInfo ProviderCollection_t3296____Count_PropertyInfo =
 
 };
 extern const MethodInfo ProviderCollection_get_IsSynchronized_m11667_MethodInfo;
-static const PropertyInfo ProviderCollection_t3296____IsSynchronized_PropertyInfo = 
+static const PropertyInfo ProviderCollection_t3299____IsSynchronized_PropertyInfo = 
 {
-	&ProviderCollection_t3296_il2cpp_TypeInfo/* parent */
+	&ProviderCollection_t3299_il2cpp_TypeInfo/* parent */
 	, "IsSynchronized"/* name */
 	, &ProviderCollection_get_IsSynchronized_m11667_MethodInfo/* get */
 	, NULL/* set */
@@ -1403,9 +1403,9 @@ static const PropertyInfo ProviderCollection_t3296____IsSynchronized_PropertyInf
 
 };
 extern const MethodInfo ProviderCollection_get_SyncRoot_m11668_MethodInfo;
-static const PropertyInfo ProviderCollection_t3296____SyncRoot_PropertyInfo = 
+static const PropertyInfo ProviderCollection_t3299____SyncRoot_PropertyInfo = 
 {
-	&ProviderCollection_t3296_il2cpp_TypeInfo/* parent */
+	&ProviderCollection_t3299_il2cpp_TypeInfo/* parent */
 	, "SyncRoot"/* name */
 	, &ProviderCollection_get_SyncRoot_m11668_MethodInfo/* get */
 	, NULL/* set */
@@ -1414,9 +1414,9 @@ static const PropertyInfo ProviderCollection_t3296____SyncRoot_PropertyInfo =
 
 };
 extern const MethodInfo ProviderCollection_get_Item_m11669_MethodInfo;
-static const PropertyInfo ProviderCollection_t3296____Item_PropertyInfo = 
+static const PropertyInfo ProviderCollection_t3299____Item_PropertyInfo = 
 {
-	&ProviderCollection_t3296_il2cpp_TypeInfo/* parent */
+	&ProviderCollection_t3299_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
 	, &ProviderCollection_get_Item_m11669_MethodInfo/* get */
 	, NULL/* set */
@@ -1424,18 +1424,18 @@ static const PropertyInfo ProviderCollection_t3296____Item_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ProviderCollection_t3296_PropertyInfos[] =
+static const PropertyInfo* ProviderCollection_t3299_PropertyInfos[] =
 {
-	&ProviderCollection_t3296____Count_PropertyInfo,
-	&ProviderCollection_t3296____IsSynchronized_PropertyInfo,
-	&ProviderCollection_t3296____SyncRoot_PropertyInfo,
-	&ProviderCollection_t3296____Item_PropertyInfo,
+	&ProviderCollection_t3299____Count_PropertyInfo,
+	&ProviderCollection_t3299____IsSynchronized_PropertyInfo,
+	&ProviderCollection_t3299____SyncRoot_PropertyInfo,
+	&ProviderCollection_t3299____Item_PropertyInfo,
 	NULL
 };
 extern const MethodInfo ProviderCollection_System_Collections_ICollection_CopyTo_m11663_MethodInfo;
 extern const MethodInfo ProviderCollection_GetEnumerator_m11665_MethodInfo;
 extern const MethodInfo ProviderCollection_Add_m11664_MethodInfo;
-static const Il2CppMethodReference ProviderCollection_t3296_VTable[] =
+static const Il2CppMethodReference ProviderCollection_t3299_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -1448,7 +1448,7 @@ static const Il2CppMethodReference ProviderCollection_t3296_VTable[] =
 	&ProviderCollection_GetEnumerator_m11665_MethodInfo,
 	&ProviderCollection_Add_m11664_MethodInfo,
 };
-static bool ProviderCollection_t3296_VTableIsGenericMethod[] =
+static bool ProviderCollection_t3299_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -1461,50 +1461,50 @@ static bool ProviderCollection_t3296_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ICollection_t769_0_0_0;
+extern const Il2CppType ICollection_t772_0_0_0;
 extern const Il2CppType IEnumerable_t104_0_0_0;
-static const Il2CppType* ProviderCollection_t3296_InterfacesTypeInfos[] = 
+static const Il2CppType* ProviderCollection_t3299_InterfacesTypeInfos[] = 
 {
-	&ICollection_t769_0_0_0,
+	&ICollection_t772_0_0_0,
 	&IEnumerable_t104_0_0_0,
 };
-static Il2CppInterfaceOffsetPair ProviderCollection_t3296_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ProviderCollection_t3299_InterfacesOffsets[] = 
 {
-	{ &ICollection_t769_0_0_0, 4},
+	{ &ICollection_t772_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ProviderCollection_t3296_0_0_0;
-extern const Il2CppType ProviderCollection_t3296_1_0_0;
-struct ProviderCollection_t3296;
-const Il2CppTypeDefinitionMetadata ProviderCollection_t3296_DefinitionMetadata = 
+extern const Il2CppType ProviderCollection_t3299_0_0_0;
+extern const Il2CppType ProviderCollection_t3299_1_0_0;
+struct ProviderCollection_t3299;
+const Il2CppTypeDefinitionMetadata ProviderCollection_t3299_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, ProviderCollection_t3296_InterfacesTypeInfos/* implementedInterfaces */
-	, ProviderCollection_t3296_InterfacesOffsets/* interfaceOffsets */
+	, ProviderCollection_t3299_InterfacesTypeInfos/* implementedInterfaces */
+	, ProviderCollection_t3299_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ProviderCollection_t3296_VTable/* vtableMethods */
-	, ProviderCollection_t3296_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ProviderCollection_t3299_VTable/* vtableMethods */
+	, ProviderCollection_t3299_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 3/* fieldStart */
 
 };
-TypeInfo ProviderCollection_t3296_il2cpp_TypeInfo = 
+TypeInfo ProviderCollection_t3299_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ProviderCollection"/* name */
 	, "System.Configuration.Provider"/* namespaze */
-	, ProviderCollection_t3296_MethodInfos/* methods */
-	, ProviderCollection_t3296_PropertyInfos/* properties */
+	, ProviderCollection_t3299_MethodInfos/* methods */
+	, ProviderCollection_t3299_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ProviderCollection_t3296_il2cpp_TypeInfo/* element_class */
+	, &ProviderCollection_t3299_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 8/* custom_attributes_cache */
-	, &ProviderCollection_t3296_0_0_0/* byval_arg */
-	, &ProviderCollection_t3296_1_0_0/* this_arg */
-	, &ProviderCollection_t3296_DefinitionMetadata/* definitionMetadata */
+	, &ProviderCollection_t3299_0_0_0/* byval_arg */
+	, &ProviderCollection_t3299_1_0_0/* this_arg */
+	, &ProviderCollection_t3299_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -1514,8 +1514,8 @@ TypeInfo ProviderCollection_t3296_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ProviderCollection_t3296)/* instance_size */
-	, sizeof (ProviderCollection_t3296)/* actualSize */
+	, sizeof (ProviderCollection_t3299)/* instance_size */
+	, sizeof (ProviderCollection_t3299)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1547,7 +1547,7 @@ TypeInfo ProviderCollection_t3296_il2cpp_TypeInfo =
 // System.Configuration.ClientConfigurationSystem
 #include "System_Configuration_System_Configuration_ClientConfiguratio.h"
 // Metadata Definition System.Configuration.ClientConfigurationSystem
-extern TypeInfo ClientConfigurationSystem_t3298_il2cpp_TypeInfo;
+extern TypeInfo ClientConfigurationSystem_t3301_il2cpp_TypeInfo;
 // System.Configuration.ClientConfigurationSystem
 #include "System_Configuration_System_Configuration_ClientConfiguratioMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -1556,7 +1556,7 @@ extern const MethodInfo ClientConfigurationSystem__ctor_m11670_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ClientConfigurationSystem__ctor_m11670/* method */
-	, &ClientConfigurationSystem_t3298_il2cpp_TypeInfo/* declaring_type */
+	, &ClientConfigurationSystem_t3301_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -1574,7 +1574,7 @@ extern const MethodInfo ClientConfigurationSystem__ctor_m11670_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ClientConfigurationSystem_t3298_ClientConfigurationSystem_System_Configuration_Internal_IInternalConfigSystem_GetSection_m11671_ParameterInfos[] = 
+static const ParameterInfo ClientConfigurationSystem_t3301_ClientConfigurationSystem_System_Configuration_Internal_IInternalConfigSystem_GetSection_m11671_ParameterInfos[] = 
 {
 	{"configKey", 0, 134217755, 0, &String_t_0_0_0},
 };
@@ -1584,10 +1584,10 @@ extern const MethodInfo ClientConfigurationSystem_System_Configuration_Internal_
 {
 	"System.Configuration.Internal.IInternalConfigSystem.GetSection"/* name */
 	, (methodPointerType)&ClientConfigurationSystem_System_Configuration_Internal_IInternalConfigSystem_GetSection_m11671/* method */
-	, &ClientConfigurationSystem_t3298_il2cpp_TypeInfo/* declaring_type */
+	, &ClientConfigurationSystem_t3301_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ClientConfigurationSystem_t3298_ClientConfigurationSystem_System_Configuration_Internal_IInternalConfigSystem_GetSection_m11671_ParameterInfos/* parameters */
+	, ClientConfigurationSystem_t3301_ClientConfigurationSystem_System_Configuration_Internal_IInternalConfigSystem_GetSection_m11671_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -1607,8 +1607,8 @@ extern const MethodInfo ClientConfigurationSystem_get_Configuration_m11672_Metho
 {
 	"get_Configuration"/* name */
 	, (methodPointerType)&ClientConfigurationSystem_get_Configuration_m11672/* method */
-	, &ClientConfigurationSystem_t3298_il2cpp_TypeInfo/* declaring_type */
-	, &Configuration_t3297_0_0_0/* return_type */
+	, &ClientConfigurationSystem_t3301_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -1624,7 +1624,7 @@ extern const MethodInfo ClientConfigurationSystem_get_Configuration_m11672_Metho
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ClientConfigurationSystem_t3298_MethodInfos[] =
+static const MethodInfo* ClientConfigurationSystem_t3301_MethodInfos[] =
 {
 	&ClientConfigurationSystem__ctor_m11670_MethodInfo,
 	&ClientConfigurationSystem_System_Configuration_Internal_IInternalConfigSystem_GetSection_m11671_MethodInfo,
@@ -1632,9 +1632,9 @@ static const MethodInfo* ClientConfigurationSystem_t3298_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ClientConfigurationSystem_get_Configuration_m11672_MethodInfo;
-static const PropertyInfo ClientConfigurationSystem_t3298____Configuration_PropertyInfo = 
+static const PropertyInfo ClientConfigurationSystem_t3301____Configuration_PropertyInfo = 
 {
-	&ClientConfigurationSystem_t3298_il2cpp_TypeInfo/* parent */
+	&ClientConfigurationSystem_t3301_il2cpp_TypeInfo/* parent */
 	, "Configuration"/* name */
 	, &ClientConfigurationSystem_get_Configuration_m11672_MethodInfo/* get */
 	, NULL/* set */
@@ -1642,13 +1642,13 @@ static const PropertyInfo ClientConfigurationSystem_t3298____Configuration_Prope
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ClientConfigurationSystem_t3298_PropertyInfos[] =
+static const PropertyInfo* ClientConfigurationSystem_t3301_PropertyInfos[] =
 {
-	&ClientConfigurationSystem_t3298____Configuration_PropertyInfo,
+	&ClientConfigurationSystem_t3301____Configuration_PropertyInfo,
 	NULL
 };
 extern const MethodInfo ClientConfigurationSystem_System_Configuration_Internal_IInternalConfigSystem_GetSection_m11671_MethodInfo;
-static const Il2CppMethodReference ClientConfigurationSystem_t3298_VTable[] =
+static const Il2CppMethodReference ClientConfigurationSystem_t3301_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -1656,7 +1656,7 @@ static const Il2CppMethodReference ClientConfigurationSystem_t3298_VTable[] =
 	&Object_ToString_m492_MethodInfo,
 	&ClientConfigurationSystem_System_Configuration_Internal_IInternalConfigSystem_GetSection_m11671_MethodInfo,
 };
-static bool ClientConfigurationSystem_t3298_VTableIsGenericMethod[] =
+static bool ClientConfigurationSystem_t3301_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -1664,46 +1664,46 @@ static bool ClientConfigurationSystem_t3298_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* ClientConfigurationSystem_t3298_InterfacesTypeInfos[] = 
+static const Il2CppType* ClientConfigurationSystem_t3301_InterfacesTypeInfos[] = 
 {
-	&IInternalConfigSystem_t3326_0_0_0,
+	&IInternalConfigSystem_t3329_0_0_0,
 };
-static Il2CppInterfaceOffsetPair ClientConfigurationSystem_t3298_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ClientConfigurationSystem_t3301_InterfacesOffsets[] = 
 {
-	{ &IInternalConfigSystem_t3326_0_0_0, 4},
+	{ &IInternalConfigSystem_t3329_0_0_0, 4},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ClientConfigurationSystem_t3298_0_0_0;
-extern const Il2CppType ClientConfigurationSystem_t3298_1_0_0;
-struct ClientConfigurationSystem_t3298;
-const Il2CppTypeDefinitionMetadata ClientConfigurationSystem_t3298_DefinitionMetadata = 
+extern const Il2CppType ClientConfigurationSystem_t3301_0_0_0;
+extern const Il2CppType ClientConfigurationSystem_t3301_1_0_0;
+struct ClientConfigurationSystem_t3301;
+const Il2CppTypeDefinitionMetadata ClientConfigurationSystem_t3301_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, ClientConfigurationSystem_t3298_InterfacesTypeInfos/* implementedInterfaces */
-	, ClientConfigurationSystem_t3298_InterfacesOffsets/* interfaceOffsets */
+	, ClientConfigurationSystem_t3301_InterfacesTypeInfos/* implementedInterfaces */
+	, ClientConfigurationSystem_t3301_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ClientConfigurationSystem_t3298_VTable/* vtableMethods */
-	, ClientConfigurationSystem_t3298_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ClientConfigurationSystem_t3301_VTable/* vtableMethods */
+	, ClientConfigurationSystem_t3301_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 6/* fieldStart */
 
 };
-TypeInfo ClientConfigurationSystem_t3298_il2cpp_TypeInfo = 
+TypeInfo ClientConfigurationSystem_t3301_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ClientConfigurationSystem"/* name */
 	, "System.Configuration"/* namespaze */
-	, ClientConfigurationSystem_t3298_MethodInfos/* methods */
-	, ClientConfigurationSystem_t3298_PropertyInfos/* properties */
+	, ClientConfigurationSystem_t3301_MethodInfos/* methods */
+	, ClientConfigurationSystem_t3301_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ClientConfigurationSystem_t3298_il2cpp_TypeInfo/* element_class */
+	, &ClientConfigurationSystem_t3301_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ClientConfigurationSystem_t3298_0_0_0/* byval_arg */
-	, &ClientConfigurationSystem_t3298_1_0_0/* this_arg */
-	, &ClientConfigurationSystem_t3298_DefinitionMetadata/* definitionMetadata */
+	, &ClientConfigurationSystem_t3301_0_0_0/* byval_arg */
+	, &ClientConfigurationSystem_t3301_1_0_0/* this_arg */
+	, &ClientConfigurationSystem_t3301_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -1713,8 +1713,8 @@ TypeInfo ClientConfigurationSystem_t3298_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ClientConfigurationSystem_t3298)/* instance_size */
-	, sizeof (ClientConfigurationSystem_t3298)/* actualSize */
+	, sizeof (ClientConfigurationSystem_t3301)/* instance_size */
+	, sizeof (ClientConfigurationSystem_t3301)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -1746,7 +1746,7 @@ TypeInfo ClientConfigurationSystem_t3298_il2cpp_TypeInfo =
 // System.Configuration.ConfigNameValueCollection
 #include "System_Configuration_System_Configuration_ConfigNameValueCol.h"
 // Metadata Definition System.Configuration.ConfigNameValueCollection
-extern TypeInfo ConfigNameValueCollection_t3299_il2cpp_TypeInfo;
+extern TypeInfo ConfigNameValueCollection_t3302_il2cpp_TypeInfo;
 // System.Configuration.ConfigNameValueCollection
 #include "System_Configuration_System_Configuration_ConfigNameValueColMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -1755,7 +1755,7 @@ extern const MethodInfo ConfigNameValueCollection__ctor_m11673_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigNameValueCollection__ctor_m11673/* method */
-	, &ConfigNameValueCollection_t3299_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigNameValueCollection_t3302_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -1772,11 +1772,11 @@ extern const MethodInfo ConfigNameValueCollection__ctor_m11673_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigNameValueCollection_t3299_0_0_0;
-extern const Il2CppType ConfigNameValueCollection_t3299_0_0_0;
-static const ParameterInfo ConfigNameValueCollection_t3299_ConfigNameValueCollection__ctor_m11674_ParameterInfos[] = 
+extern const Il2CppType ConfigNameValueCollection_t3302_0_0_0;
+extern const Il2CppType ConfigNameValueCollection_t3302_0_0_0;
+static const ParameterInfo ConfigNameValueCollection_t3302_ConfigNameValueCollection__ctor_m11674_ParameterInfos[] = 
 {
-	{"col", 0, 134217756, 0, &ConfigNameValueCollection_t3299_0_0_0},
+	{"col", 0, 134217756, 0, &ConfigNameValueCollection_t3302_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigNameValueCollection::.ctor(System.Configuration.ConfigNameValueCollection)
@@ -1784,10 +1784,10 @@ extern const MethodInfo ConfigNameValueCollection__ctor_m11674_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigNameValueCollection__ctor_m11674/* method */
-	, &ConfigNameValueCollection_t3299_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigNameValueCollection_t3302_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigNameValueCollection_t3299_ConfigNameValueCollection__ctor_m11674_ParameterInfos/* parameters */
+	, ConfigNameValueCollection_t3302_ConfigNameValueCollection__ctor_m11674_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -1807,7 +1807,7 @@ extern const MethodInfo ConfigNameValueCollection_ResetModified_m11675_MethodInf
 {
 	"ResetModified"/* name */
 	, (methodPointerType)&ConfigNameValueCollection_ResetModified_m11675/* method */
-	, &ConfigNameValueCollection_t3299_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigNameValueCollection_t3302_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -1830,7 +1830,7 @@ extern const MethodInfo ConfigNameValueCollection_get_IsModified_m11676_MethodIn
 {
 	"get_IsModified"/* name */
 	, (methodPointerType)&ConfigNameValueCollection_get_IsModified_m11676/* method */
-	, &ConfigNameValueCollection_t3299_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigNameValueCollection_t3302_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -1849,7 +1849,7 @@ extern const MethodInfo ConfigNameValueCollection_get_IsModified_m11676_MethodIn
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigNameValueCollection_t3299_ConfigNameValueCollection_Set_m11677_ParameterInfos[] = 
+static const ParameterInfo ConfigNameValueCollection_t3302_ConfigNameValueCollection_Set_m11677_ParameterInfos[] = 
 {
 	{"name", 0, 134217757, 0, &String_t_0_0_0},
 	{"value", 1, 134217758, 0, &String_t_0_0_0},
@@ -1860,10 +1860,10 @@ extern const MethodInfo ConfigNameValueCollection_Set_m11677_MethodInfo =
 {
 	"Set"/* name */
 	, (methodPointerType)&ConfigNameValueCollection_Set_m11677/* method */
-	, &ConfigNameValueCollection_t3299_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigNameValueCollection_t3302_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ConfigNameValueCollection_t3299_ConfigNameValueCollection_Set_m11677_ParameterInfos/* parameters */
+	, ConfigNameValueCollection_t3302_ConfigNameValueCollection_Set_m11677_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -1877,7 +1877,7 @@ extern const MethodInfo ConfigNameValueCollection_Set_m11677_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigNameValueCollection_t3299_MethodInfos[] =
+static const MethodInfo* ConfigNameValueCollection_t3302_MethodInfos[] =
 {
 	&ConfigNameValueCollection__ctor_m11673_MethodInfo,
 	&ConfigNameValueCollection__ctor_m11674_MethodInfo,
@@ -1887,9 +1887,9 @@ static const MethodInfo* ConfigNameValueCollection_t3299_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ConfigNameValueCollection_get_IsModified_m11676_MethodInfo;
-static const PropertyInfo ConfigNameValueCollection_t3299____IsModified_PropertyInfo = 
+static const PropertyInfo ConfigNameValueCollection_t3302____IsModified_PropertyInfo = 
 {
-	&ConfigNameValueCollection_t3299_il2cpp_TypeInfo/* parent */
+	&ConfigNameValueCollection_t3302_il2cpp_TypeInfo/* parent */
 	, "IsModified"/* name */
 	, &ConfigNameValueCollection_get_IsModified_m11676_MethodInfo/* get */
 	, NULL/* set */
@@ -1897,9 +1897,9 @@ static const PropertyInfo ConfigNameValueCollection_t3299____IsModified_Property
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigNameValueCollection_t3299_PropertyInfos[] =
+static const PropertyInfo* ConfigNameValueCollection_t3302_PropertyInfos[] =
 {
-	&ConfigNameValueCollection_t3299____IsModified_PropertyInfo,
+	&ConfigNameValueCollection_t3302____IsModified_PropertyInfo,
 	NULL
 };
 extern const MethodInfo NameObjectCollectionBase_get_Count_m12162_MethodInfo;
@@ -1917,7 +1917,7 @@ extern const MethodInfo NameValueCollection_GetKey_m12173_MethodInfo;
 extern const MethodInfo NameValueCollection_GetValues_m12174_MethodInfo;
 extern const MethodInfo NameValueCollection_Remove_m12175_MethodInfo;
 extern const MethodInfo ConfigNameValueCollection_Set_m11677_MethodInfo;
-static const Il2CppMethodReference ConfigNameValueCollection_t3299_VTable[] =
+static const Il2CppMethodReference ConfigNameValueCollection_t3302_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -1943,7 +1943,7 @@ static const Il2CppMethodReference ConfigNameValueCollection_t3299_VTable[] =
 	&NameValueCollection_Remove_m12175_MethodInfo,
 	&ConfigNameValueCollection_Set_m11677_MethodInfo,
 };
-static bool ConfigNameValueCollection_t3299_VTableIsGenericMethod[] =
+static bool ConfigNameValueCollection_t3302_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -1969,46 +1969,46 @@ static bool ConfigNameValueCollection_t3299_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType IDeserializationCallback_t838_0_0_0;
-extern const Il2CppType ISerializable_t834_0_0_0;
-static Il2CppInterfaceOffsetPair ConfigNameValueCollection_t3299_InterfacesOffsets[] = 
+extern const Il2CppType IDeserializationCallback_t841_0_0_0;
+extern const Il2CppType ISerializable_t837_0_0_0;
+static Il2CppInterfaceOffsetPair ConfigNameValueCollection_t3302_InterfacesOffsets[] = 
 {
-	{ &ICollection_t769_0_0_0, 4},
+	{ &ICollection_t772_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
-	{ &IDeserializationCallback_t838_0_0_0, 9},
-	{ &ISerializable_t834_0_0_0, 10},
+	{ &IDeserializationCallback_t841_0_0_0, 9},
+	{ &ISerializable_t837_0_0_0, 10},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigNameValueCollection_t3299_1_0_0;
-struct ConfigNameValueCollection_t3299;
-const Il2CppTypeDefinitionMetadata ConfigNameValueCollection_t3299_DefinitionMetadata = 
+extern const Il2CppType ConfigNameValueCollection_t3302_1_0_0;
+struct ConfigNameValueCollection_t3302;
+const Il2CppTypeDefinitionMetadata ConfigNameValueCollection_t3302_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ConfigNameValueCollection_t3299_InterfacesOffsets/* interfaceOffsets */
-	, &NameValueCollection_t3300_0_0_0/* parent */
-	, ConfigNameValueCollection_t3299_VTable/* vtableMethods */
-	, ConfigNameValueCollection_t3299_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigNameValueCollection_t3302_InterfacesOffsets/* interfaceOffsets */
+	, &NameValueCollection_t3303_0_0_0/* parent */
+	, ConfigNameValueCollection_t3302_VTable/* vtableMethods */
+	, ConfigNameValueCollection_t3302_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 7/* fieldStart */
 
 };
-TypeInfo ConfigNameValueCollection_t3299_il2cpp_TypeInfo = 
+TypeInfo ConfigNameValueCollection_t3302_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigNameValueCollection"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigNameValueCollection_t3299_MethodInfos/* methods */
-	, ConfigNameValueCollection_t3299_PropertyInfos/* properties */
+	, ConfigNameValueCollection_t3302_MethodInfos/* methods */
+	, ConfigNameValueCollection_t3302_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigNameValueCollection_t3299_il2cpp_TypeInfo/* element_class */
+	, &ConfigNameValueCollection_t3302_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ConfigNameValueCollection_t3299_0_0_0/* byval_arg */
-	, &ConfigNameValueCollection_t3299_1_0_0/* this_arg */
-	, &ConfigNameValueCollection_t3299_DefinitionMetadata/* definitionMetadata */
+	, &ConfigNameValueCollection_t3302_0_0_0/* byval_arg */
+	, &ConfigNameValueCollection_t3302_1_0_0/* this_arg */
+	, &ConfigNameValueCollection_t3302_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -2018,8 +2018,8 @@ TypeInfo ConfigNameValueCollection_t3299_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigNameValueCollection_t3299)/* instance_size */
-	, sizeof (ConfigNameValueCollection_t3299)/* actualSize */
+	, sizeof (ConfigNameValueCollection_t3302)/* instance_size */
+	, sizeof (ConfigNameValueCollection_t3302)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -2051,7 +2051,7 @@ TypeInfo ConfigNameValueCollection_t3299_il2cpp_TypeInfo =
 // System.Configuration.ConfigInfo
 #include "System_Configuration_System_Configuration_ConfigInfo.h"
 // Metadata Definition System.Configuration.ConfigInfo
-extern TypeInfo ConfigInfo_t3301_il2cpp_TypeInfo;
+extern TypeInfo ConfigInfo_t3304_il2cpp_TypeInfo;
 // System.Configuration.ConfigInfo
 #include "System_Configuration_System_Configuration_ConfigInfoMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -2060,7 +2060,7 @@ extern const MethodInfo ConfigInfo__ctor_m11678_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigInfo__ctor_m11678/* method */
-	, &ConfigInfo_t3301_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigInfo_t3304_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -2083,7 +2083,7 @@ extern const MethodInfo ConfigInfo_CreateInstance_m11679_MethodInfo =
 {
 	"CreateInstance"/* name */
 	, (methodPointerType)&ConfigInfo_CreateInstance_m11679/* method */
-	, &ConfigInfo_t3301_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigInfo_t3304_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -2101,7 +2101,7 @@ extern const MethodInfo ConfigInfo_CreateInstance_m11679_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigInfo_t3301_ConfigInfo_set_StreamName_m11680_ParameterInfos[] = 
+static const ParameterInfo ConfigInfo_t3304_ConfigInfo_set_StreamName_m11680_ParameterInfos[] = 
 {
 	{"value", 0, 134217759, 0, &String_t_0_0_0},
 };
@@ -2111,10 +2111,10 @@ extern const MethodInfo ConfigInfo_set_StreamName_m11680_MethodInfo =
 {
 	"set_StreamName"/* name */
 	, (methodPointerType)&ConfigInfo_set_StreamName_m11680/* method */
-	, &ConfigInfo_t3301_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigInfo_t3304_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigInfo_t3301_ConfigInfo_set_StreamName_m11680_ParameterInfos/* parameters */
+	, ConfigInfo_t3304_ConfigInfo_set_StreamName_m11680_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -2129,12 +2129,12 @@ extern const MethodInfo ConfigInfo_set_StreamName_m11680_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlReader_t3369_0_0_0;
-extern const Il2CppType XmlReader_t3369_0_0_0;
-static const ParameterInfo ConfigInfo_t3301_ConfigInfo_ThrowException_m11681_ParameterInfos[] = 
+extern const Il2CppType XmlReader_t3372_0_0_0;
+extern const Il2CppType XmlReader_t3372_0_0_0;
+static const ParameterInfo ConfigInfo_t3304_ConfigInfo_ThrowException_m11681_ParameterInfos[] = 
 {
 	{"text", 0, 134217760, 0, &String_t_0_0_0},
-	{"reader", 1, 134217761, 0, &XmlReader_t3369_0_0_0},
+	{"reader", 1, 134217761, 0, &XmlReader_t3372_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigInfo::ThrowException(System.String,System.Xml.XmlReader)
@@ -2142,10 +2142,10 @@ extern const MethodInfo ConfigInfo_ThrowException_m11681_MethodInfo =
 {
 	"ThrowException"/* name */
 	, (methodPointerType)&ConfigInfo_ThrowException_m11681/* method */
-	, &ConfigInfo_t3301_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigInfo_t3304_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ConfigInfo_t3301_ConfigInfo_ThrowException_m11681_ParameterInfos/* parameters */
+	, ConfigInfo_t3304_ConfigInfo_ThrowException_m11681_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -2159,14 +2159,14 @@ extern const MethodInfo ConfigInfo_ThrowException_m11681_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Configuration_t3297_0_0_0;
+extern const Il2CppType Configuration_t3300_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlReader_t3369_0_0_0;
-static const ParameterInfo ConfigInfo_t3301_ConfigInfo_ReadConfig_m12151_ParameterInfos[] = 
+extern const Il2CppType XmlReader_t3372_0_0_0;
+static const ParameterInfo ConfigInfo_t3304_ConfigInfo_ReadConfig_m12151_ParameterInfos[] = 
 {
-	{"cfg", 0, 134217762, 0, &Configuration_t3297_0_0_0},
+	{"cfg", 0, 134217762, 0, &Configuration_t3300_0_0_0},
 	{"streamName", 1, 134217763, 0, &String_t_0_0_0},
-	{"reader", 2, 134217764, 0, &XmlReader_t3369_0_0_0},
+	{"reader", 2, 134217764, 0, &XmlReader_t3372_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigInfo::ReadConfig(System.Configuration.Configuration,System.String,System.Xml.XmlReader)
@@ -2174,10 +2174,10 @@ extern const MethodInfo ConfigInfo_ReadConfig_m12151_MethodInfo =
 {
 	"ReadConfig"/* name */
 	, NULL/* method */
-	, &ConfigInfo_t3301_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigInfo_t3304_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t/* invoker_method */
-	, ConfigInfo_t3301_ConfigInfo_ReadConfig_m12151_ParameterInfos/* parameters */
+	, ConfigInfo_t3304_ConfigInfo_ReadConfig_m12151_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -2191,13 +2191,13 @@ extern const MethodInfo ConfigInfo_ReadConfig_m12151_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Configuration_t3297_0_0_0;
-extern const Il2CppType XmlReader_t3369_0_0_0;
+extern const Il2CppType Configuration_t3300_0_0_0;
+extern const Il2CppType XmlReader_t3372_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ConfigInfo_t3301_ConfigInfo_ReadData_m12152_ParameterInfos[] = 
+static const ParameterInfo ConfigInfo_t3304_ConfigInfo_ReadData_m12152_ParameterInfos[] = 
 {
-	{"config", 0, 134217765, 0, &Configuration_t3297_0_0_0},
-	{"reader", 1, 134217766, 0, &XmlReader_t3369_0_0_0},
+	{"config", 0, 134217765, 0, &Configuration_t3300_0_0_0},
+	{"reader", 1, 134217766, 0, &XmlReader_t3372_0_0_0},
 	{"overrideAllowed", 2, 134217767, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -2206,10 +2206,10 @@ extern const MethodInfo ConfigInfo_ReadData_m12152_MethodInfo =
 {
 	"ReadData"/* name */
 	, NULL/* method */
-	, &ConfigInfo_t3301_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigInfo_t3304_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88/* invoker_method */
-	, ConfigInfo_t3301_ConfigInfo_ReadData_m12152_ParameterInfos/* parameters */
+	, ConfigInfo_t3304_ConfigInfo_ReadData_m12152_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -2223,11 +2223,11 @@ extern const MethodInfo ConfigInfo_ReadData_m12152_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigInfo_t3301_0_0_0;
-extern const Il2CppType ConfigInfo_t3301_0_0_0;
-static const ParameterInfo ConfigInfo_t3301_ConfigInfo_Merge_m12153_ParameterInfos[] = 
+extern const Il2CppType ConfigInfo_t3304_0_0_0;
+extern const Il2CppType ConfigInfo_t3304_0_0_0;
+static const ParameterInfo ConfigInfo_t3304_ConfigInfo_Merge_m12153_ParameterInfos[] = 
 {
-	{"data", 0, 134217768, 0, &ConfigInfo_t3301_0_0_0},
+	{"data", 0, 134217768, 0, &ConfigInfo_t3304_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigInfo::Merge(System.Configuration.ConfigInfo)
@@ -2235,10 +2235,10 @@ extern const MethodInfo ConfigInfo_Merge_m12153_MethodInfo =
 {
 	"Merge"/* name */
 	, NULL/* method */
-	, &ConfigInfo_t3301_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigInfo_t3304_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigInfo_t3301_ConfigInfo_Merge_m12153_ParameterInfos/* parameters */
+	, ConfigInfo_t3304_ConfigInfo_Merge_m12153_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1475/* flags */
 	, 0/* iflags */
@@ -2252,7 +2252,7 @@ extern const MethodInfo ConfigInfo_Merge_m12153_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigInfo_t3301_MethodInfos[] =
+static const MethodInfo* ConfigInfo_t3304_MethodInfos[] =
 {
 	&ConfigInfo__ctor_m11678_MethodInfo,
 	&ConfigInfo_CreateInstance_m11679_MethodInfo,
@@ -2264,9 +2264,9 @@ static const MethodInfo* ConfigInfo_t3301_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ConfigInfo_set_StreamName_m11680_MethodInfo;
-static const PropertyInfo ConfigInfo_t3301____StreamName_PropertyInfo = 
+static const PropertyInfo ConfigInfo_t3304____StreamName_PropertyInfo = 
 {
-	&ConfigInfo_t3301_il2cpp_TypeInfo/* parent */
+	&ConfigInfo_t3304_il2cpp_TypeInfo/* parent */
 	, "StreamName"/* name */
 	, NULL/* get */
 	, &ConfigInfo_set_StreamName_m11680_MethodInfo/* set */
@@ -2274,13 +2274,13 @@ static const PropertyInfo ConfigInfo_t3301____StreamName_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigInfo_t3301_PropertyInfos[] =
+static const PropertyInfo* ConfigInfo_t3304_PropertyInfos[] =
 {
-	&ConfigInfo_t3301____StreamName_PropertyInfo,
+	&ConfigInfo_t3304____StreamName_PropertyInfo,
 	NULL
 };
 extern const MethodInfo ConfigInfo_CreateInstance_m11679_MethodInfo;
-static const Il2CppMethodReference ConfigInfo_t3301_VTable[] =
+static const Il2CppMethodReference ConfigInfo_t3304_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -2291,7 +2291,7 @@ static const Il2CppMethodReference ConfigInfo_t3301_VTable[] =
 	NULL,
 	NULL,
 };
-static bool ConfigInfo_t3301_VTableIsGenericMethod[] =
+static bool ConfigInfo_t3304_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -2303,36 +2303,36 @@ static bool ConfigInfo_t3301_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigInfo_t3301_1_0_0;
-struct ConfigInfo_t3301;
-const Il2CppTypeDefinitionMetadata ConfigInfo_t3301_DefinitionMetadata = 
+extern const Il2CppType ConfigInfo_t3304_1_0_0;
+struct ConfigInfo_t3304;
+const Il2CppTypeDefinitionMetadata ConfigInfo_t3304_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ConfigInfo_t3301_VTable/* vtableMethods */
-	, ConfigInfo_t3301_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigInfo_t3304_VTable/* vtableMethods */
+	, ConfigInfo_t3304_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 8/* fieldStart */
 
 };
-TypeInfo ConfigInfo_t3301_il2cpp_TypeInfo = 
+TypeInfo ConfigInfo_t3304_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigInfo"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigInfo_t3301_MethodInfos/* methods */
-	, ConfigInfo_t3301_PropertyInfos/* properties */
+	, ConfigInfo_t3304_MethodInfos/* methods */
+	, ConfigInfo_t3304_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigInfo_t3301_il2cpp_TypeInfo/* element_class */
+	, &ConfigInfo_t3304_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ConfigInfo_t3301_0_0_0/* byval_arg */
-	, &ConfigInfo_t3301_1_0_0/* this_arg */
-	, &ConfigInfo_t3301_DefinitionMetadata/* definitionMetadata */
+	, &ConfigInfo_t3304_0_0_0/* byval_arg */
+	, &ConfigInfo_t3304_1_0_0/* this_arg */
+	, &ConfigInfo_t3304_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -2342,8 +2342,8 @@ TypeInfo ConfigInfo_t3301_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigInfo_t3301)/* instance_size */
-	, sizeof (ConfigInfo_t3301)/* actualSize */
+	, sizeof (ConfigInfo_t3304)/* instance_size */
+	, sizeof (ConfigInfo_t3304)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -2375,14 +2375,14 @@ TypeInfo ConfigInfo_t3301_il2cpp_TypeInfo =
 // System.Configuration.Configuration
 #include "System_Configuration_System_Configuration_Configuration.h"
 // Metadata Definition System.Configuration.Configuration
-extern TypeInfo Configuration_t3297_il2cpp_TypeInfo;
+extern TypeInfo Configuration_t3300_il2cpp_TypeInfo;
 // System.Configuration.Configuration
 #include "System_Configuration_System_Configuration_ConfigurationMethodDeclarations.h"
-extern const Il2CppType Configuration_t3297_0_0_0;
+extern const Il2CppType Configuration_t3300_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Configuration_t3297_Configuration__ctor_m11682_ParameterInfos[] = 
+static const ParameterInfo Configuration_t3300_Configuration__ctor_m11682_ParameterInfos[] = 
 {
-	{"parent", 0, 134217769, 0, &Configuration_t3297_0_0_0},
+	{"parent", 0, 134217769, 0, &Configuration_t3300_0_0_0},
 	{"locationSubPath", 1, 134217770, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -2391,10 +2391,10 @@ extern const MethodInfo Configuration__ctor_m11682_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&Configuration__ctor_m11682/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, Configuration_t3297_Configuration__ctor_m11682_ParameterInfos/* parameters */
+	, Configuration_t3300_Configuration__ctor_m11682_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -2408,12 +2408,12 @@ extern const MethodInfo Configuration__ctor_m11682_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType InternalConfigurationSystem_t3353_0_0_0;
-extern const Il2CppType InternalConfigurationSystem_t3353_0_0_0;
+extern const Il2CppType InternalConfigurationSystem_t3356_0_0_0;
+extern const Il2CppType InternalConfigurationSystem_t3356_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Configuration_t3297_Configuration__ctor_m11683_ParameterInfos[] = 
+static const ParameterInfo Configuration_t3300_Configuration__ctor_m11683_ParameterInfos[] = 
 {
-	{"system", 0, 134217771, 0, &InternalConfigurationSystem_t3353_0_0_0},
+	{"system", 0, 134217771, 0, &InternalConfigurationSystem_t3356_0_0_0},
 	{"locationSubPath", 1, 134217772, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -2422,10 +2422,10 @@ extern const MethodInfo Configuration__ctor_m11683_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&Configuration__ctor_m11683/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, Configuration_t3297_Configuration__ctor_m11683_ParameterInfos/* parameters */
+	, Configuration_t3300_Configuration__ctor_m11683_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -2440,11 +2440,11 @@ extern const MethodInfo Configuration__ctor_m11683_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType Configuration_t3297_0_0_0;
-static const ParameterInfo Configuration_t3297_Configuration_FindLocationConfiguration_m11684_ParameterInfos[] = 
+extern const Il2CppType Configuration_t3300_0_0_0;
+static const ParameterInfo Configuration_t3300_Configuration_FindLocationConfiguration_m11684_ParameterInfos[] = 
 {
 	{"relativePath", 0, 134217773, 0, &String_t_0_0_0},
-	{"defaultConfiguration", 1, 134217774, 0, &Configuration_t3297_0_0_0},
+	{"defaultConfiguration", 1, 134217774, 0, &Configuration_t3300_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.Configuration System.Configuration.Configuration::FindLocationConfiguration(System.String,System.Configuration.Configuration)
@@ -2452,10 +2452,10 @@ extern const MethodInfo Configuration_FindLocationConfiguration_m11684_MethodInf
 {
 	"FindLocationConfiguration"/* name */
 	, (methodPointerType)&Configuration_FindLocationConfiguration_m11684/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
-	, &Configuration_t3297_0_0_0/* return_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, Configuration_t3297_Configuration_FindLocationConfiguration_m11684_ParameterInfos/* parameters */
+	, Configuration_t3300_Configuration_FindLocationConfiguration_m11684_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -2469,14 +2469,14 @@ extern const MethodInfo Configuration_FindLocationConfiguration_m11684_MethodInf
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IConfigSystem_t3306_0_0_0;
+extern const Il2CppType IConfigSystem_t3309_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType Configuration_t3297_0_0_0;
-static const ParameterInfo Configuration_t3297_Configuration_Init_m11685_ParameterInfos[] = 
+extern const Il2CppType Configuration_t3300_0_0_0;
+static const ParameterInfo Configuration_t3300_Configuration_Init_m11685_ParameterInfos[] = 
 {
-	{"system", 0, 134217775, 0, &IConfigSystem_t3306_0_0_0},
+	{"system", 0, 134217775, 0, &IConfigSystem_t3309_0_0_0},
 	{"configPath", 1, 134217776, 0, &String_t_0_0_0},
-	{"parent", 2, 134217777, 0, &Configuration_t3297_0_0_0},
+	{"parent", 2, 134217777, 0, &Configuration_t3300_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.Configuration::Init(System.Configuration.Internal.IConfigSystem,System.String,System.Configuration.Configuration)
@@ -2484,10 +2484,10 @@ extern const MethodInfo Configuration_Init_m11685_MethodInfo =
 {
 	"Init"/* name */
 	, (methodPointerType)&Configuration_Init_m11685/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t/* invoker_method */
-	, Configuration_t3297_Configuration_Init_m11685_ParameterInfos/* parameters */
+	, Configuration_t3300_Configuration_Init_m11685_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -2507,8 +2507,8 @@ extern const MethodInfo Configuration_get_Parent_m11686_MethodInfo =
 {
 	"get_Parent"/* name */
 	, (methodPointerType)&Configuration_get_Parent_m11686/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
-	, &Configuration_t3297_0_0_0/* return_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -2524,10 +2524,10 @@ extern const MethodInfo Configuration_get_Parent_m11686_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Configuration_t3297_0_0_0;
-static const ParameterInfo Configuration_t3297_Configuration_set_Parent_m11687_ParameterInfos[] = 
+extern const Il2CppType Configuration_t3300_0_0_0;
+static const ParameterInfo Configuration_t3300_Configuration_set_Parent_m11687_ParameterInfos[] = 
 {
-	{"value", 0, 134217778, 0, &Configuration_t3297_0_0_0},
+	{"value", 0, 134217778, 0, &Configuration_t3300_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.Configuration::set_Parent(System.Configuration.Configuration)
@@ -2535,10 +2535,10 @@ extern const MethodInfo Configuration_set_Parent_m11687_MethodInfo =
 {
 	"set_Parent"/* name */
 	, (methodPointerType)&Configuration_set_Parent_m11687/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, Configuration_t3297_Configuration_set_Parent_m11687_ParameterInfos/* parameters */
+	, Configuration_t3300_Configuration_set_Parent_m11687_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -2558,8 +2558,8 @@ extern const MethodInfo Configuration_GetParentWithFile_m11688_MethodInfo =
 {
 	"GetParentWithFile"/* name */
 	, (methodPointerType)&Configuration_GetParentWithFile_m11688/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
-	, &Configuration_t3297_0_0_0/* return_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -2581,8 +2581,8 @@ extern const MethodInfo Configuration_get_ConfigHost_m11689_MethodInfo =
 {
 	"get_ConfigHost"/* name */
 	, (methodPointerType)&Configuration_get_ConfigHost_m11689/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
-	, &IInternalConfigHost_t3302_0_0_0/* return_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
+	, &IInternalConfigHost_t3305_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -2604,7 +2604,7 @@ extern const MethodInfo Configuration_get_LocationConfigPath_m11690_MethodInfo =
 {
 	"get_LocationConfigPath"/* name */
 	, (methodPointerType)&Configuration_get_LocationConfigPath_m11690/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -2627,7 +2627,7 @@ extern const MethodInfo Configuration_get_ConfigPath_m11691_MethodInfo =
 {
 	"get_ConfigPath"/* name */
 	, (methodPointerType)&Configuration_get_ConfigPath_m11691/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -2650,7 +2650,7 @@ extern const MethodInfo Configuration_get_FilePath_m11692_MethodInfo =
 {
 	"get_FilePath"/* name */
 	, (methodPointerType)&Configuration_get_FilePath_m11692/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -2673,7 +2673,7 @@ extern const MethodInfo Configuration_get_HasFile_m11693_MethodInfo =
 {
 	"get_HasFile"/* name */
 	, (methodPointerType)&Configuration_get_HasFile_m11693/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -2690,15 +2690,15 @@ extern const MethodInfo Configuration_get_HasFile_m11693_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationLocationCollection_t3304_0_0_0;
+extern const Il2CppType ConfigurationLocationCollection_t3307_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.ConfigurationLocationCollection System.Configuration.Configuration::get_Locations()
 extern const MethodInfo Configuration_get_Locations_m11694_MethodInfo = 
 {
 	"get_Locations"/* name */
 	, (methodPointerType)&Configuration_get_Locations_m11694/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationLocationCollection_t3304_0_0_0/* return_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLocationCollection_t3307_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -2714,15 +2714,15 @@ extern const MethodInfo Configuration_get_Locations_m11694_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationSectionGroup_t3303_0_0_0;
+extern const Il2CppType ConfigurationSectionGroup_t3306_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.ConfigurationSectionGroup System.Configuration.Configuration::get_RootSectionGroup()
 extern const MethodInfo Configuration_get_RootSectionGroup_m11695_MethodInfo = 
 {
 	"get_RootSectionGroup"/* name */
 	, (methodPointerType)&Configuration_get_RootSectionGroup_m11695/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationSectionGroup_t3303_0_0_0/* return_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSectionGroup_t3306_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -2738,15 +2738,15 @@ extern const MethodInfo Configuration_get_RootSectionGroup_m11695_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationSectionGroupCollection_t3341_0_0_0;
+extern const Il2CppType ConfigurationSectionGroupCollection_t3344_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.ConfigurationSectionGroupCollection System.Configuration.Configuration::get_SectionGroups()
 extern const MethodInfo Configuration_get_SectionGroups_m11696_MethodInfo = 
 {
 	"get_SectionGroups"/* name */
 	, (methodPointerType)&Configuration_get_SectionGroups_m11696/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationSectionGroupCollection_t3341_0_0_0/* return_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSectionGroupCollection_t3344_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -2762,15 +2762,15 @@ extern const MethodInfo Configuration_get_SectionGroups_m11696_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationSectionCollection_t3338_0_0_0;
+extern const Il2CppType ConfigurationSectionCollection_t3341_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.ConfigurationSectionCollection System.Configuration.Configuration::get_Sections()
 extern const MethodInfo Configuration_get_Sections_m11697_MethodInfo = 
 {
 	"get_Sections"/* name */
 	, (methodPointerType)&Configuration_get_Sections_m11697/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationSectionCollection_t3338_0_0_0/* return_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSectionCollection_t3341_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -2787,21 +2787,21 @@ extern const MethodInfo Configuration_get_Sections_m11697_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Configuration_t3297_Configuration_GetSection_m11698_ParameterInfos[] = 
+static const ParameterInfo Configuration_t3300_Configuration_GetSection_m11698_ParameterInfos[] = 
 {
 	{"path", 0, 134217779, 0, &String_t_0_0_0},
 };
-extern const Il2CppType ConfigurationSection_t3337_0_0_0;
+extern const Il2CppType ConfigurationSection_t3340_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.ConfigurationSection System.Configuration.Configuration::GetSection(System.String)
 extern const MethodInfo Configuration_GetSection_m11698_MethodInfo = 
 {
 	"GetSection"/* name */
 	, (methodPointerType)&Configuration_GetSection_m11698/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationSection_t3337_0_0_0/* return_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSection_t3340_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Configuration_t3297_Configuration_GetSection_m11698_ParameterInfos/* parameters */
+	, Configuration_t3300_Configuration_GetSection_m11698_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -2815,12 +2815,12 @@ extern const MethodInfo Configuration_GetSection_m11698_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SectionInfo_t3365_0_0_0;
-extern const Il2CppType SectionInfo_t3365_0_0_0;
+extern const Il2CppType SectionInfo_t3368_0_0_0;
+extern const Il2CppType SectionInfo_t3368_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Configuration_t3297_Configuration_GetSectionInstance_m11699_ParameterInfos[] = 
+static const ParameterInfo Configuration_t3300_Configuration_GetSectionInstance_m11699_ParameterInfos[] = 
 {
-	{"config", 0, 134217780, 0, &SectionInfo_t3365_0_0_0},
+	{"config", 0, 134217780, 0, &SectionInfo_t3368_0_0_0},
 	{"createDefaultInstance", 1, 134217781, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -2829,10 +2829,10 @@ extern const MethodInfo Configuration_GetSectionInstance_m11699_MethodInfo =
 {
 	"GetSectionInstance"/* name */
 	, (methodPointerType)&Configuration_GetSectionInstance_m11699/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationSection_t3337_0_0_0/* return_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSection_t3340_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_SByte_t88/* invoker_method */
-	, Configuration_t3297_Configuration_GetSectionInstance_m11699_ParameterInfos/* parameters */
+	, Configuration_t3300_Configuration_GetSectionInstance_m11699_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -2846,11 +2846,11 @@ extern const MethodInfo Configuration_GetSectionInstance_m11699_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SectionGroupInfo_t3305_0_0_0;
-extern const Il2CppType SectionGroupInfo_t3305_0_0_0;
-static const ParameterInfo Configuration_t3297_Configuration_GetSectionGroupInstance_m11700_ParameterInfos[] = 
+extern const Il2CppType SectionGroupInfo_t3308_0_0_0;
+extern const Il2CppType SectionGroupInfo_t3308_0_0_0;
+static const ParameterInfo Configuration_t3300_Configuration_GetSectionGroupInstance_m11700_ParameterInfos[] = 
 {
-	{"group", 0, 134217782, 0, &SectionGroupInfo_t3305_0_0_0},
+	{"group", 0, 134217782, 0, &SectionGroupInfo_t3308_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.ConfigurationSectionGroup System.Configuration.Configuration::GetSectionGroupInstance(System.Configuration.SectionGroupInfo)
@@ -2858,10 +2858,10 @@ extern const MethodInfo Configuration_GetSectionGroupInstance_m11700_MethodInfo 
 {
 	"GetSectionGroupInstance"/* name */
 	, (methodPointerType)&Configuration_GetSectionGroupInstance_m11700/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationSectionGroup_t3303_0_0_0/* return_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSectionGroup_t3306_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Configuration_t3297_Configuration_GetSectionGroupInstance_m11700_ParameterInfos/* parameters */
+	, Configuration_t3300_Configuration_GetSectionGroupInstance_m11700_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -2875,11 +2875,11 @@ extern const MethodInfo Configuration_GetSectionGroupInstance_m11700_MethodInfo 
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SectionInfo_t3365_0_0_0;
+extern const Il2CppType SectionInfo_t3368_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Configuration_t3297_Configuration_SetSectionXml_m11701_ParameterInfos[] = 
+static const ParameterInfo Configuration_t3300_Configuration_SetSectionXml_m11701_ParameterInfos[] = 
 {
-	{"config", 0, 134217783, 0, &SectionInfo_t3365_0_0_0},
+	{"config", 0, 134217783, 0, &SectionInfo_t3368_0_0_0},
 	{"data", 1, 134217784, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -2888,10 +2888,10 @@ extern const MethodInfo Configuration_SetSectionXml_m11701_MethodInfo =
 {
 	"SetSectionXml"/* name */
 	, (methodPointerType)&Configuration_SetSectionXml_m11701/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, Configuration_t3297_Configuration_SetSectionXml_m11701_ParameterInfos/* parameters */
+	, Configuration_t3300_Configuration_SetSectionXml_m11701_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -2905,10 +2905,10 @@ extern const MethodInfo Configuration_SetSectionXml_m11701_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SectionInfo_t3365_0_0_0;
-static const ParameterInfo Configuration_t3297_Configuration_GetSectionXml_m11702_ParameterInfos[] = 
+extern const Il2CppType SectionInfo_t3368_0_0_0;
+static const ParameterInfo Configuration_t3300_Configuration_GetSectionXml_m11702_ParameterInfos[] = 
 {
-	{"config", 0, 134217785, 0, &SectionInfo_t3365_0_0_0},
+	{"config", 0, 134217785, 0, &SectionInfo_t3368_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Configuration.Configuration::GetSectionXml(System.Configuration.SectionInfo)
@@ -2916,10 +2916,10 @@ extern const MethodInfo Configuration_GetSectionXml_m11702_MethodInfo =
 {
 	"GetSectionXml"/* name */
 	, (methodPointerType)&Configuration_GetSectionXml_m11702/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, Configuration_t3297_Configuration_GetSectionXml_m11702_ParameterInfos/* parameters */
+	, Configuration_t3300_Configuration_GetSectionXml_m11702_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -2939,7 +2939,7 @@ extern const MethodInfo Configuration_Load_m11703_MethodInfo =
 {
 	"Load"/* name */
 	, (methodPointerType)&Configuration_Load_m11703/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -2956,11 +2956,11 @@ extern const MethodInfo Configuration_Load_m11703_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlReader_t3369_0_0_0;
+extern const Il2CppType XmlReader_t3372_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo Configuration_t3297_Configuration_ReadConfigFile_m11704_ParameterInfos[] = 
+static const ParameterInfo Configuration_t3300_Configuration_ReadConfigFile_m11704_ParameterInfos[] = 
 {
-	{"reader", 0, 134217786, 0, &XmlReader_t3369_0_0_0},
+	{"reader", 0, 134217786, 0, &XmlReader_t3372_0_0_0},
 	{"fileName", 1, 134217787, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -2969,10 +2969,10 @@ extern const MethodInfo Configuration_ReadConfigFile_m11704_MethodInfo =
 {
 	"ReadConfigFile"/* name */
 	, (methodPointerType)&Configuration_ReadConfigFile_m11704/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, Configuration_t3297_Configuration_ReadConfigFile_m11704_ParameterInfos/* parameters */
+	, Configuration_t3300_Configuration_ReadConfigFile_m11704_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -2986,11 +2986,11 @@ extern const MethodInfo Configuration_ReadConfigFile_m11704_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlReader_t3369_0_0_0;
+extern const Il2CppType XmlReader_t3372_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo Configuration_t3297_Configuration_ReadData_m11705_ParameterInfos[] = 
+static const ParameterInfo Configuration_t3300_Configuration_ReadData_m11705_ParameterInfos[] = 
 {
-	{"reader", 0, 134217788, 0, &XmlReader_t3369_0_0_0},
+	{"reader", 0, 134217788, 0, &XmlReader_t3372_0_0_0},
 	{"allowOverride", 1, 134217789, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -2999,10 +2999,10 @@ extern const MethodInfo Configuration_ReadData_m11705_MethodInfo =
 {
 	"ReadData"/* name */
 	, (methodPointerType)&Configuration_ReadData_m11705/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, Configuration_t3297_Configuration_ReadData_m11705_ParameterInfos/* parameters */
+	, Configuration_t3300_Configuration_ReadData_m11705_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -3017,11 +3017,11 @@ extern const MethodInfo Configuration_ReadData_m11705_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlReader_t3369_0_0_0;
-static const ParameterInfo Configuration_t3297_Configuration_ThrowException_m11706_ParameterInfos[] = 
+extern const Il2CppType XmlReader_t3372_0_0_0;
+static const ParameterInfo Configuration_t3300_Configuration_ThrowException_m11706_ParameterInfos[] = 
 {
 	{"text", 0, 134217790, 0, &String_t_0_0_0},
-	{"reader", 1, 134217791, 0, &XmlReader_t3369_0_0_0},
+	{"reader", 1, 134217791, 0, &XmlReader_t3372_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.Configuration::ThrowException(System.String,System.Xml.XmlReader)
@@ -3029,10 +3029,10 @@ extern const MethodInfo Configuration_ThrowException_m11706_MethodInfo =
 {
 	"ThrowException"/* name */
 	, (methodPointerType)&Configuration_ThrowException_m11706/* method */
-	, &Configuration_t3297_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, Configuration_t3297_Configuration_ThrowException_m11706_ParameterInfos/* parameters */
+	, Configuration_t3300_Configuration_ThrowException_m11706_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -3046,7 +3046,7 @@ extern const MethodInfo Configuration_ThrowException_m11706_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* Configuration_t3297_MethodInfos[] =
+static const MethodInfo* Configuration_t3300_MethodInfos[] =
 {
 	&Configuration__ctor_m11682_MethodInfo,
 	&Configuration__ctor_m11683_MethodInfo,
@@ -3077,9 +3077,9 @@ static const MethodInfo* Configuration_t3297_MethodInfos[] =
 };
 extern const MethodInfo Configuration_get_Parent_m11686_MethodInfo;
 extern const MethodInfo Configuration_set_Parent_m11687_MethodInfo;
-static const PropertyInfo Configuration_t3297____Parent_PropertyInfo = 
+static const PropertyInfo Configuration_t3300____Parent_PropertyInfo = 
 {
-	&Configuration_t3297_il2cpp_TypeInfo/* parent */
+	&Configuration_t3300_il2cpp_TypeInfo/* parent */
 	, "Parent"/* name */
 	, &Configuration_get_Parent_m11686_MethodInfo/* get */
 	, &Configuration_set_Parent_m11687_MethodInfo/* set */
@@ -3088,9 +3088,9 @@ static const PropertyInfo Configuration_t3297____Parent_PropertyInfo =
 
 };
 extern const MethodInfo Configuration_get_ConfigHost_m11689_MethodInfo;
-static const PropertyInfo Configuration_t3297____ConfigHost_PropertyInfo = 
+static const PropertyInfo Configuration_t3300____ConfigHost_PropertyInfo = 
 {
-	&Configuration_t3297_il2cpp_TypeInfo/* parent */
+	&Configuration_t3300_il2cpp_TypeInfo/* parent */
 	, "ConfigHost"/* name */
 	, &Configuration_get_ConfigHost_m11689_MethodInfo/* get */
 	, NULL/* set */
@@ -3099,9 +3099,9 @@ static const PropertyInfo Configuration_t3297____ConfigHost_PropertyInfo =
 
 };
 extern const MethodInfo Configuration_get_LocationConfigPath_m11690_MethodInfo;
-static const PropertyInfo Configuration_t3297____LocationConfigPath_PropertyInfo = 
+static const PropertyInfo Configuration_t3300____LocationConfigPath_PropertyInfo = 
 {
-	&Configuration_t3297_il2cpp_TypeInfo/* parent */
+	&Configuration_t3300_il2cpp_TypeInfo/* parent */
 	, "LocationConfigPath"/* name */
 	, &Configuration_get_LocationConfigPath_m11690_MethodInfo/* get */
 	, NULL/* set */
@@ -3110,9 +3110,9 @@ static const PropertyInfo Configuration_t3297____LocationConfigPath_PropertyInfo
 
 };
 extern const MethodInfo Configuration_get_ConfigPath_m11691_MethodInfo;
-static const PropertyInfo Configuration_t3297____ConfigPath_PropertyInfo = 
+static const PropertyInfo Configuration_t3300____ConfigPath_PropertyInfo = 
 {
-	&Configuration_t3297_il2cpp_TypeInfo/* parent */
+	&Configuration_t3300_il2cpp_TypeInfo/* parent */
 	, "ConfigPath"/* name */
 	, &Configuration_get_ConfigPath_m11691_MethodInfo/* get */
 	, NULL/* set */
@@ -3121,9 +3121,9 @@ static const PropertyInfo Configuration_t3297____ConfigPath_PropertyInfo =
 
 };
 extern const MethodInfo Configuration_get_FilePath_m11692_MethodInfo;
-static const PropertyInfo Configuration_t3297____FilePath_PropertyInfo = 
+static const PropertyInfo Configuration_t3300____FilePath_PropertyInfo = 
 {
-	&Configuration_t3297_il2cpp_TypeInfo/* parent */
+	&Configuration_t3300_il2cpp_TypeInfo/* parent */
 	, "FilePath"/* name */
 	, &Configuration_get_FilePath_m11692_MethodInfo/* get */
 	, NULL/* set */
@@ -3132,9 +3132,9 @@ static const PropertyInfo Configuration_t3297____FilePath_PropertyInfo =
 
 };
 extern const MethodInfo Configuration_get_HasFile_m11693_MethodInfo;
-static const PropertyInfo Configuration_t3297____HasFile_PropertyInfo = 
+static const PropertyInfo Configuration_t3300____HasFile_PropertyInfo = 
 {
-	&Configuration_t3297_il2cpp_TypeInfo/* parent */
+	&Configuration_t3300_il2cpp_TypeInfo/* parent */
 	, "HasFile"/* name */
 	, &Configuration_get_HasFile_m11693_MethodInfo/* get */
 	, NULL/* set */
@@ -3143,9 +3143,9 @@ static const PropertyInfo Configuration_t3297____HasFile_PropertyInfo =
 
 };
 extern const MethodInfo Configuration_get_Locations_m11694_MethodInfo;
-static const PropertyInfo Configuration_t3297____Locations_PropertyInfo = 
+static const PropertyInfo Configuration_t3300____Locations_PropertyInfo = 
 {
-	&Configuration_t3297_il2cpp_TypeInfo/* parent */
+	&Configuration_t3300_il2cpp_TypeInfo/* parent */
 	, "Locations"/* name */
 	, &Configuration_get_Locations_m11694_MethodInfo/* get */
 	, NULL/* set */
@@ -3154,9 +3154,9 @@ static const PropertyInfo Configuration_t3297____Locations_PropertyInfo =
 
 };
 extern const MethodInfo Configuration_get_RootSectionGroup_m11695_MethodInfo;
-static const PropertyInfo Configuration_t3297____RootSectionGroup_PropertyInfo = 
+static const PropertyInfo Configuration_t3300____RootSectionGroup_PropertyInfo = 
 {
-	&Configuration_t3297_il2cpp_TypeInfo/* parent */
+	&Configuration_t3300_il2cpp_TypeInfo/* parent */
 	, "RootSectionGroup"/* name */
 	, &Configuration_get_RootSectionGroup_m11695_MethodInfo/* get */
 	, NULL/* set */
@@ -3165,9 +3165,9 @@ static const PropertyInfo Configuration_t3297____RootSectionGroup_PropertyInfo =
 
 };
 extern const MethodInfo Configuration_get_SectionGroups_m11696_MethodInfo;
-static const PropertyInfo Configuration_t3297____SectionGroups_PropertyInfo = 
+static const PropertyInfo Configuration_t3300____SectionGroups_PropertyInfo = 
 {
-	&Configuration_t3297_il2cpp_TypeInfo/* parent */
+	&Configuration_t3300_il2cpp_TypeInfo/* parent */
 	, "SectionGroups"/* name */
 	, &Configuration_get_SectionGroups_m11696_MethodInfo/* get */
 	, NULL/* set */
@@ -3176,9 +3176,9 @@ static const PropertyInfo Configuration_t3297____SectionGroups_PropertyInfo =
 
 };
 extern const MethodInfo Configuration_get_Sections_m11697_MethodInfo;
-static const PropertyInfo Configuration_t3297____Sections_PropertyInfo = 
+static const PropertyInfo Configuration_t3300____Sections_PropertyInfo = 
 {
-	&Configuration_t3297_il2cpp_TypeInfo/* parent */
+	&Configuration_t3300_il2cpp_TypeInfo/* parent */
 	, "Sections"/* name */
 	, &Configuration_get_Sections_m11697_MethodInfo/* get */
 	, NULL/* set */
@@ -3186,28 +3186,28 @@ static const PropertyInfo Configuration_t3297____Sections_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* Configuration_t3297_PropertyInfos[] =
+static const PropertyInfo* Configuration_t3300_PropertyInfos[] =
 {
-	&Configuration_t3297____Parent_PropertyInfo,
-	&Configuration_t3297____ConfigHost_PropertyInfo,
-	&Configuration_t3297____LocationConfigPath_PropertyInfo,
-	&Configuration_t3297____ConfigPath_PropertyInfo,
-	&Configuration_t3297____FilePath_PropertyInfo,
-	&Configuration_t3297____HasFile_PropertyInfo,
-	&Configuration_t3297____Locations_PropertyInfo,
-	&Configuration_t3297____RootSectionGroup_PropertyInfo,
-	&Configuration_t3297____SectionGroups_PropertyInfo,
-	&Configuration_t3297____Sections_PropertyInfo,
+	&Configuration_t3300____Parent_PropertyInfo,
+	&Configuration_t3300____ConfigHost_PropertyInfo,
+	&Configuration_t3300____LocationConfigPath_PropertyInfo,
+	&Configuration_t3300____ConfigPath_PropertyInfo,
+	&Configuration_t3300____FilePath_PropertyInfo,
+	&Configuration_t3300____HasFile_PropertyInfo,
+	&Configuration_t3300____Locations_PropertyInfo,
+	&Configuration_t3300____RootSectionGroup_PropertyInfo,
+	&Configuration_t3300____SectionGroups_PropertyInfo,
+	&Configuration_t3300____Sections_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference Configuration_t3297_VTable[] =
+static const Il2CppMethodReference Configuration_t3300_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool Configuration_t3297_VTableIsGenericMethod[] =
+static bool Configuration_t3300_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -3215,36 +3215,36 @@ static bool Configuration_t3297_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType Configuration_t3297_1_0_0;
-struct Configuration_t3297;
-const Il2CppTypeDefinitionMetadata Configuration_t3297_DefinitionMetadata = 
+extern const Il2CppType Configuration_t3300_1_0_0;
+struct Configuration_t3300;
+const Il2CppTypeDefinitionMetadata Configuration_t3300_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, Configuration_t3297_VTable/* vtableMethods */
-	, Configuration_t3297_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, Configuration_t3300_VTable/* vtableMethods */
+	, Configuration_t3300_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 14/* fieldStart */
 
 };
-TypeInfo Configuration_t3297_il2cpp_TypeInfo = 
+TypeInfo Configuration_t3300_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "Configuration"/* name */
 	, "System.Configuration"/* namespaze */
-	, Configuration_t3297_MethodInfos/* methods */
-	, Configuration_t3297_PropertyInfos/* properties */
+	, Configuration_t3300_MethodInfos/* methods */
+	, Configuration_t3300_PropertyInfos/* properties */
 	, NULL/* events */
-	, &Configuration_t3297_il2cpp_TypeInfo/* element_class */
+	, &Configuration_t3300_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &Configuration_t3297_0_0_0/* byval_arg */
-	, &Configuration_t3297_1_0_0/* this_arg */
-	, &Configuration_t3297_DefinitionMetadata/* definitionMetadata */
+	, &Configuration_t3300_0_0_0/* byval_arg */
+	, &Configuration_t3300_1_0_0/* this_arg */
+	, &Configuration_t3300_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -3254,8 +3254,8 @@ TypeInfo Configuration_t3297_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (Configuration_t3297)/* instance_size */
-	, sizeof (Configuration_t3297)/* actualSize */
+	, sizeof (Configuration_t3300)/* instance_size */
+	, sizeof (Configuration_t3300)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -3287,10 +3287,10 @@ TypeInfo Configuration_t3297_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationAllowDefinition
 #include "System_Configuration_System_Configuration_ConfigurationAllow.h"
 // Metadata Definition System.Configuration.ConfigurationAllowDefinition
-extern TypeInfo ConfigurationAllowDefinition_t3307_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationAllowDefinition_t3310_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationAllowDefinition
 #include "System_Configuration_System_Configuration_ConfigurationAllowMethodDeclarations.h"
-static const MethodInfo* ConfigurationAllowDefinition_t3307_MethodInfos[] =
+static const MethodInfo* ConfigurationAllowDefinition_t3310_MethodInfos[] =
 {
 	NULL
 };
@@ -3316,7 +3316,7 @@ extern const MethodInfo Enum_System_IConvertible_ToUInt32_m521_MethodInfo;
 extern const MethodInfo Enum_System_IConvertible_ToUInt64_m522_MethodInfo;
 extern const MethodInfo Enum_CompareTo_m523_MethodInfo;
 extern const MethodInfo Enum_GetTypeCode_m524_MethodInfo;
-static const Il2CppMethodReference ConfigurationAllowDefinition_t3307_VTable[] =
+static const Il2CppMethodReference ConfigurationAllowDefinition_t3310_VTable[] =
 {
 	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -3342,7 +3342,7 @@ static const Il2CppMethodReference ConfigurationAllowDefinition_t3307_VTable[] =
 	&Enum_CompareTo_m523_MethodInfo,
 	&Enum_GetTypeCode_m524_MethodInfo,
 };
-static bool ConfigurationAllowDefinition_t3307_VTableIsGenericMethod[] =
+static bool ConfigurationAllowDefinition_t3310_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -3371,46 +3371,46 @@ static bool ConfigurationAllowDefinition_t3307_VTableIsGenericMethod[] =
 extern const Il2CppType IFormattable_t97_0_0_0;
 extern const Il2CppType IConvertible_t98_0_0_0;
 extern const Il2CppType IComparable_t99_0_0_0;
-static Il2CppInterfaceOffsetPair ConfigurationAllowDefinition_t3307_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ConfigurationAllowDefinition_t3310_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
 	{ &IComparable_t99_0_0_0, 21},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationAllowDefinition_t3307_1_0_0;
+extern const Il2CppType ConfigurationAllowDefinition_t3310_1_0_0;
 extern const Il2CppType Enum_t100_0_0_0;
 // System.Int32
 #include "mscorlib_System_Int32.h"
 extern TypeInfo Int32_t82_il2cpp_TypeInfo;
-const Il2CppTypeDefinitionMetadata ConfigurationAllowDefinition_t3307_DefinitionMetadata = 
+const Il2CppTypeDefinitionMetadata ConfigurationAllowDefinition_t3310_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ConfigurationAllowDefinition_t3307_InterfacesOffsets/* interfaceOffsets */
+	, ConfigurationAllowDefinition_t3310_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t100_0_0_0/* parent */
-	, ConfigurationAllowDefinition_t3307_VTable/* vtableMethods */
-	, ConfigurationAllowDefinition_t3307_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationAllowDefinition_t3310_VTable/* vtableMethods */
+	, ConfigurationAllowDefinition_t3310_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 26/* fieldStart */
 
 };
-TypeInfo ConfigurationAllowDefinition_t3307_il2cpp_TypeInfo = 
+TypeInfo ConfigurationAllowDefinition_t3310_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationAllowDefinition"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationAllowDefinition_t3307_MethodInfos/* methods */
+	, ConfigurationAllowDefinition_t3310_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
 	, &Int32_t82_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ConfigurationAllowDefinition_t3307_0_0_0/* byval_arg */
-	, &ConfigurationAllowDefinition_t3307_1_0_0/* this_arg */
-	, &ConfigurationAllowDefinition_t3307_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationAllowDefinition_t3310_0_0_0/* byval_arg */
+	, &ConfigurationAllowDefinition_t3310_1_0_0/* this_arg */
+	, &ConfigurationAllowDefinition_t3310_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -3420,8 +3420,8 @@ TypeInfo ConfigurationAllowDefinition_t3307_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationAllowDefinition_t3307)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (ConfigurationAllowDefinition_t3307)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (ConfigurationAllowDefinition_t3310)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (ConfigurationAllowDefinition_t3310)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -3453,14 +3453,14 @@ TypeInfo ConfigurationAllowDefinition_t3307_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationAllowExeDefinition
 #include "System_Configuration_System_Configuration_ConfigurationAllow_0.h"
 // Metadata Definition System.Configuration.ConfigurationAllowExeDefinition
-extern TypeInfo ConfigurationAllowExeDefinition_t3308_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationAllowExeDefinition_t3311_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationAllowExeDefinition
 #include "System_Configuration_System_Configuration_ConfigurationAllow_0MethodDeclarations.h"
-static const MethodInfo* ConfigurationAllowExeDefinition_t3308_MethodInfos[] =
+static const MethodInfo* ConfigurationAllowExeDefinition_t3311_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference ConfigurationAllowExeDefinition_t3308_VTable[] =
+static const Il2CppMethodReference ConfigurationAllowExeDefinition_t3311_VTable[] =
 {
 	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -3486,7 +3486,7 @@ static const Il2CppMethodReference ConfigurationAllowExeDefinition_t3308_VTable[
 	&Enum_CompareTo_m523_MethodInfo,
 	&Enum_GetTypeCode_m524_MethodInfo,
 };
-static bool ConfigurationAllowExeDefinition_t3308_VTableIsGenericMethod[] =
+static bool ConfigurationAllowExeDefinition_t3311_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -3512,42 +3512,42 @@ static bool ConfigurationAllowExeDefinition_t3308_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair ConfigurationAllowExeDefinition_t3308_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ConfigurationAllowExeDefinition_t3311_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
 	{ &IComparable_t99_0_0_0, 21},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationAllowExeDefinition_t3308_1_0_0;
-const Il2CppTypeDefinitionMetadata ConfigurationAllowExeDefinition_t3308_DefinitionMetadata = 
+extern const Il2CppType ConfigurationAllowExeDefinition_t3311_1_0_0;
+const Il2CppTypeDefinitionMetadata ConfigurationAllowExeDefinition_t3311_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ConfigurationAllowExeDefinition_t3308_InterfacesOffsets/* interfaceOffsets */
+	, ConfigurationAllowExeDefinition_t3311_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t100_0_0_0/* parent */
-	, ConfigurationAllowExeDefinition_t3308_VTable/* vtableMethods */
-	, ConfigurationAllowExeDefinition_t3308_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationAllowExeDefinition_t3311_VTable/* vtableMethods */
+	, ConfigurationAllowExeDefinition_t3311_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 31/* fieldStart */
 
 };
-TypeInfo ConfigurationAllowExeDefinition_t3308_il2cpp_TypeInfo = 
+TypeInfo ConfigurationAllowExeDefinition_t3311_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationAllowExeDefinition"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationAllowExeDefinition_t3308_MethodInfos/* methods */
+	, ConfigurationAllowExeDefinition_t3311_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
 	, &Int32_t82_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ConfigurationAllowExeDefinition_t3308_0_0_0/* byval_arg */
-	, &ConfigurationAllowExeDefinition_t3308_1_0_0/* this_arg */
-	, &ConfigurationAllowExeDefinition_t3308_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationAllowExeDefinition_t3311_0_0_0/* byval_arg */
+	, &ConfigurationAllowExeDefinition_t3311_1_0_0/* this_arg */
+	, &ConfigurationAllowExeDefinition_t3311_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -3557,8 +3557,8 @@ TypeInfo ConfigurationAllowExeDefinition_t3308_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationAllowExeDefinition_t3308)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (ConfigurationAllowExeDefinition_t3308)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (ConfigurationAllowExeDefinition_t3311)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (ConfigurationAllowExeDefinition_t3311)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -3590,11 +3590,11 @@ TypeInfo ConfigurationAllowExeDefinition_t3308_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationCollectionAttribute
 #include "System_Configuration_System_Configuration_ConfigurationColle.h"
 // Metadata Definition System.Configuration.ConfigurationCollectionAttribute
-extern TypeInfo ConfigurationCollectionAttribute_t3309_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationCollectionAttribute_t3312_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationCollectionAttribute
 #include "System_Configuration_System_Configuration_ConfigurationColleMethodDeclarations.h"
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo ConfigurationCollectionAttribute_t3309_ConfigurationCollectionAttribute__ctor_m11707_ParameterInfos[] = 
+static const ParameterInfo ConfigurationCollectionAttribute_t3312_ConfigurationCollectionAttribute__ctor_m11707_ParameterInfos[] = 
 {
 	{"itemType", 0, 134217792, 0, &Type_t_0_0_0},
 };
@@ -3604,10 +3604,10 @@ extern const MethodInfo ConfigurationCollectionAttribute__ctor_m11707_MethodInfo
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationCollectionAttribute__ctor_m11707/* method */
-	, &ConfigurationCollectionAttribute_t3309_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationCollectionAttribute_t3312_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationCollectionAttribute_t3309_ConfigurationCollectionAttribute__ctor_m11707_ParameterInfos/* parameters */
+	, ConfigurationCollectionAttribute_t3312_ConfigurationCollectionAttribute__ctor_m11707_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -3627,7 +3627,7 @@ extern const MethodInfo ConfigurationCollectionAttribute_get_AddItemName_m11708_
 {
 	"get_AddItemName"/* name */
 	, (methodPointerType)&ConfigurationCollectionAttribute_get_AddItemName_m11708/* method */
-	, &ConfigurationCollectionAttribute_t3309_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationCollectionAttribute_t3312_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -3650,7 +3650,7 @@ extern const MethodInfo ConfigurationCollectionAttribute_get_ClearItemsName_m117
 {
 	"get_ClearItemsName"/* name */
 	, (methodPointerType)&ConfigurationCollectionAttribute_get_ClearItemsName_m11709/* method */
-	, &ConfigurationCollectionAttribute_t3309_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationCollectionAttribute_t3312_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -3673,7 +3673,7 @@ extern const MethodInfo ConfigurationCollectionAttribute_get_RemoveItemName_m117
 {
 	"get_RemoveItemName"/* name */
 	, (methodPointerType)&ConfigurationCollectionAttribute_get_RemoveItemName_m11710/* method */
-	, &ConfigurationCollectionAttribute_t3309_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationCollectionAttribute_t3312_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -3690,11 +3690,11 @@ extern const MethodInfo ConfigurationCollectionAttribute_get_RemoveItemName_m117
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationElementCollectionType_t3318_0_0_0;
-extern const Il2CppType ConfigurationElementCollectionType_t3318_0_0_0;
-static const ParameterInfo ConfigurationCollectionAttribute_t3309_ConfigurationCollectionAttribute_set_CollectionType_m11711_ParameterInfos[] = 
+extern const Il2CppType ConfigurationElementCollectionType_t3321_0_0_0;
+extern const Il2CppType ConfigurationElementCollectionType_t3321_0_0_0;
+static const ParameterInfo ConfigurationCollectionAttribute_t3312_ConfigurationCollectionAttribute_set_CollectionType_m11711_ParameterInfos[] = 
 {
-	{"value", 0, 134217793, 0, &ConfigurationElementCollectionType_t3318_0_0_0},
+	{"value", 0, 134217793, 0, &ConfigurationElementCollectionType_t3321_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationCollectionAttribute::set_CollectionType(System.Configuration.ConfigurationElementCollectionType)
@@ -3702,10 +3702,10 @@ extern const MethodInfo ConfigurationCollectionAttribute_set_CollectionType_m117
 {
 	"set_CollectionType"/* name */
 	, (methodPointerType)&ConfigurationCollectionAttribute_set_CollectionType_m11711/* method */
-	, &ConfigurationCollectionAttribute_t3309_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationCollectionAttribute_t3312_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, ConfigurationCollectionAttribute_t3309_ConfigurationCollectionAttribute_set_CollectionType_m11711_ParameterInfos/* parameters */
+	, ConfigurationCollectionAttribute_t3312_ConfigurationCollectionAttribute_set_CollectionType_m11711_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -3719,7 +3719,7 @@ extern const MethodInfo ConfigurationCollectionAttribute_set_CollectionType_m117
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigurationCollectionAttribute_t3309_MethodInfos[] =
+static const MethodInfo* ConfigurationCollectionAttribute_t3312_MethodInfos[] =
 {
 	&ConfigurationCollectionAttribute__ctor_m11707_MethodInfo,
 	&ConfigurationCollectionAttribute_get_AddItemName_m11708_MethodInfo,
@@ -3729,9 +3729,9 @@ static const MethodInfo* ConfigurationCollectionAttribute_t3309_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ConfigurationCollectionAttribute_get_AddItemName_m11708_MethodInfo;
-static const PropertyInfo ConfigurationCollectionAttribute_t3309____AddItemName_PropertyInfo = 
+static const PropertyInfo ConfigurationCollectionAttribute_t3312____AddItemName_PropertyInfo = 
 {
-	&ConfigurationCollectionAttribute_t3309_il2cpp_TypeInfo/* parent */
+	&ConfigurationCollectionAttribute_t3312_il2cpp_TypeInfo/* parent */
 	, "AddItemName"/* name */
 	, &ConfigurationCollectionAttribute_get_AddItemName_m11708_MethodInfo/* get */
 	, NULL/* set */
@@ -3740,9 +3740,9 @@ static const PropertyInfo ConfigurationCollectionAttribute_t3309____AddItemName_
 
 };
 extern const MethodInfo ConfigurationCollectionAttribute_get_ClearItemsName_m11709_MethodInfo;
-static const PropertyInfo ConfigurationCollectionAttribute_t3309____ClearItemsName_PropertyInfo = 
+static const PropertyInfo ConfigurationCollectionAttribute_t3312____ClearItemsName_PropertyInfo = 
 {
-	&ConfigurationCollectionAttribute_t3309_il2cpp_TypeInfo/* parent */
+	&ConfigurationCollectionAttribute_t3312_il2cpp_TypeInfo/* parent */
 	, "ClearItemsName"/* name */
 	, &ConfigurationCollectionAttribute_get_ClearItemsName_m11709_MethodInfo/* get */
 	, NULL/* set */
@@ -3751,9 +3751,9 @@ static const PropertyInfo ConfigurationCollectionAttribute_t3309____ClearItemsNa
 
 };
 extern const MethodInfo ConfigurationCollectionAttribute_get_RemoveItemName_m11710_MethodInfo;
-static const PropertyInfo ConfigurationCollectionAttribute_t3309____RemoveItemName_PropertyInfo = 
+static const PropertyInfo ConfigurationCollectionAttribute_t3312____RemoveItemName_PropertyInfo = 
 {
-	&ConfigurationCollectionAttribute_t3309_il2cpp_TypeInfo/* parent */
+	&ConfigurationCollectionAttribute_t3312_il2cpp_TypeInfo/* parent */
 	, "RemoveItemName"/* name */
 	, &ConfigurationCollectionAttribute_get_RemoveItemName_m11710_MethodInfo/* get */
 	, NULL/* set */
@@ -3762,9 +3762,9 @@ static const PropertyInfo ConfigurationCollectionAttribute_t3309____RemoveItemNa
 
 };
 extern const MethodInfo ConfigurationCollectionAttribute_set_CollectionType_m11711_MethodInfo;
-static const PropertyInfo ConfigurationCollectionAttribute_t3309____CollectionType_PropertyInfo = 
+static const PropertyInfo ConfigurationCollectionAttribute_t3312____CollectionType_PropertyInfo = 
 {
-	&ConfigurationCollectionAttribute_t3309_il2cpp_TypeInfo/* parent */
+	&ConfigurationCollectionAttribute_t3312_il2cpp_TypeInfo/* parent */
 	, "CollectionType"/* name */
 	, NULL/* get */
 	, &ConfigurationCollectionAttribute_set_CollectionType_m11711_MethodInfo/* set */
@@ -3772,19 +3772,19 @@ static const PropertyInfo ConfigurationCollectionAttribute_t3309____CollectionTy
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigurationCollectionAttribute_t3309_PropertyInfos[] =
+static const PropertyInfo* ConfigurationCollectionAttribute_t3312_PropertyInfos[] =
 {
-	&ConfigurationCollectionAttribute_t3309____AddItemName_PropertyInfo,
-	&ConfigurationCollectionAttribute_t3309____ClearItemsName_PropertyInfo,
-	&ConfigurationCollectionAttribute_t3309____RemoveItemName_PropertyInfo,
-	&ConfigurationCollectionAttribute_t3309____CollectionType_PropertyInfo,
+	&ConfigurationCollectionAttribute_t3312____AddItemName_PropertyInfo,
+	&ConfigurationCollectionAttribute_t3312____ClearItemsName_PropertyInfo,
+	&ConfigurationCollectionAttribute_t3312____RemoveItemName_PropertyInfo,
+	&ConfigurationCollectionAttribute_t3312____CollectionType_PropertyInfo,
 	NULL
 };
 extern const MethodInfo Attribute_Equals_m489_MethodInfo;
 extern const MethodInfo Attribute_GetHashCode_m491_MethodInfo;
 extern const MethodInfo Attribute_get_TypeId_m493_MethodInfo;
 extern const MethodInfo Attribute_IsDefaultAttribute_m494_MethodInfo;
-static const Il2CppMethodReference ConfigurationCollectionAttribute_t3309_VTable[] =
+static const Il2CppMethodReference ConfigurationCollectionAttribute_t3312_VTable[] =
 {
 	&Attribute_Equals_m489_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -3793,7 +3793,7 @@ static const Il2CppMethodReference ConfigurationCollectionAttribute_t3309_VTable
 	&Attribute_get_TypeId_m493_MethodInfo,
 	&Attribute_IsDefaultAttribute_m494_MethodInfo,
 };
-static bool ConfigurationCollectionAttribute_t3309_VTableIsGenericMethod[] =
+static bool ConfigurationCollectionAttribute_t3312_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -3803,43 +3803,43 @@ static bool ConfigurationCollectionAttribute_t3309_VTableIsGenericMethod[] =
 	false,
 };
 extern const Il2CppType _Attribute_t86_0_0_0;
-static Il2CppInterfaceOffsetPair ConfigurationCollectionAttribute_t3309_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ConfigurationCollectionAttribute_t3312_InterfacesOffsets[] = 
 {
 	{ &_Attribute_t86_0_0_0, 4},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationCollectionAttribute_t3309_0_0_0;
-extern const Il2CppType ConfigurationCollectionAttribute_t3309_1_0_0;
+extern const Il2CppType ConfigurationCollectionAttribute_t3312_0_0_0;
+extern const Il2CppType ConfigurationCollectionAttribute_t3312_1_0_0;
 extern const Il2CppType Attribute_t426_0_0_0;
-struct ConfigurationCollectionAttribute_t3309;
-const Il2CppTypeDefinitionMetadata ConfigurationCollectionAttribute_t3309_DefinitionMetadata = 
+struct ConfigurationCollectionAttribute_t3312;
+const Il2CppTypeDefinitionMetadata ConfigurationCollectionAttribute_t3312_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ConfigurationCollectionAttribute_t3309_InterfacesOffsets/* interfaceOffsets */
+	, ConfigurationCollectionAttribute_t3312_InterfacesOffsets/* interfaceOffsets */
 	, &Attribute_t426_0_0_0/* parent */
-	, ConfigurationCollectionAttribute_t3309_VTable/* vtableMethods */
-	, ConfigurationCollectionAttribute_t3309_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationCollectionAttribute_t3312_VTable/* vtableMethods */
+	, ConfigurationCollectionAttribute_t3312_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 36/* fieldStart */
 
 };
-TypeInfo ConfigurationCollectionAttribute_t3309_il2cpp_TypeInfo = 
+TypeInfo ConfigurationCollectionAttribute_t3312_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationCollectionAttribute"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationCollectionAttribute_t3309_MethodInfos/* methods */
-	, ConfigurationCollectionAttribute_t3309_PropertyInfos/* properties */
+	, ConfigurationCollectionAttribute_t3312_MethodInfos/* methods */
+	, ConfigurationCollectionAttribute_t3312_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigurationCollectionAttribute_t3309_il2cpp_TypeInfo/* element_class */
+	, &ConfigurationCollectionAttribute_t3312_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 9/* custom_attributes_cache */
-	, &ConfigurationCollectionAttribute_t3309_0_0_0/* byval_arg */
-	, &ConfigurationCollectionAttribute_t3309_1_0_0/* this_arg */
-	, &ConfigurationCollectionAttribute_t3309_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationCollectionAttribute_t3312_0_0_0/* byval_arg */
+	, &ConfigurationCollectionAttribute_t3312_1_0_0/* this_arg */
+	, &ConfigurationCollectionAttribute_t3312_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -3849,8 +3849,8 @@ TypeInfo ConfigurationCollectionAttribute_t3309_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationCollectionAttribute_t3309)/* instance_size */
-	, sizeof (ConfigurationCollectionAttribute_t3309)/* actualSize */
+	, sizeof (ConfigurationCollectionAttribute_t3312)/* instance_size */
+	, sizeof (ConfigurationCollectionAttribute_t3312)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -3882,7 +3882,7 @@ TypeInfo ConfigurationCollectionAttribute_t3309_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationElement
 #include "System_Configuration_System_Configuration_ConfigurationEleme_0.h"
 // Metadata Definition System.Configuration.ConfigurationElement
-extern TypeInfo ConfigurationElement_t3315_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationElement_t3318_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationElement
 #include "System_Configuration_System_Configuration_ConfigurationEleme_0MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -3891,7 +3891,7 @@ extern const MethodInfo ConfigurationElement__ctor_m11712_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationElement__ctor_m11712/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -3914,8 +3914,8 @@ extern const MethodInfo ConfigurationElement_get_Configuration_m11713_MethodInfo
 {
 	"get_Configuration"/* name */
 	, (methodPointerType)&ConfigurationElement_get_Configuration_m11713/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
-	, &Configuration_t3297_0_0_0/* return_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -3931,10 +3931,10 @@ extern const MethodInfo ConfigurationElement_get_Configuration_m11713_MethodInfo
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Configuration_t3297_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_set_Configuration_m11714_ParameterInfos[] = 
+extern const Il2CppType Configuration_t3300_0_0_0;
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_set_Configuration_m11714_ParameterInfos[] = 
 {
-	{"value", 0, 134217794, 0, &Configuration_t3297_0_0_0},
+	{"value", 0, 134217794, 0, &Configuration_t3300_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationElement::set_Configuration(System.Configuration.Configuration)
@@ -3942,10 +3942,10 @@ extern const MethodInfo ConfigurationElement_set_Configuration_m11714_MethodInfo
 {
 	"set_Configuration"/* name */
 	, (methodPointerType)&ConfigurationElement_set_Configuration_m11714/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_set_Configuration_m11714_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_set_Configuration_m11714_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -3959,11 +3959,11 @@ extern const MethodInfo ConfigurationElement_set_Configuration_m11714_MethodInfo
 	, NULL/* dummy */
 
 };
-extern const Il2CppType PropertyInformation_t3348_0_0_0;
-extern const Il2CppType PropertyInformation_t3348_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_InitFromProperty_m11715_ParameterInfos[] = 
+extern const Il2CppType PropertyInformation_t3351_0_0_0;
+extern const Il2CppType PropertyInformation_t3351_0_0_0;
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_InitFromProperty_m11715_ParameterInfos[] = 
 {
-	{"propertyInfo", 0, 134217795, 0, &PropertyInformation_t3348_0_0_0},
+	{"propertyInfo", 0, 134217795, 0, &PropertyInformation_t3351_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationElement::InitFromProperty(System.Configuration.PropertyInformation)
@@ -3971,10 +3971,10 @@ extern const MethodInfo ConfigurationElement_InitFromProperty_m11715_MethodInfo 
 {
 	"InitFromProperty"/* name */
 	, (methodPointerType)&ConfigurationElement_InitFromProperty_m11715/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_InitFromProperty_m11715_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_InitFromProperty_m11715_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 451/* flags */
 	, 0/* iflags */
@@ -3988,15 +3988,15 @@ extern const MethodInfo ConfigurationElement_InitFromProperty_m11715_MethodInfo 
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ElementInformation_t3313_0_0_0;
+extern const Il2CppType ElementInformation_t3316_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.ElementInformation System.Configuration.ConfigurationElement::get_ElementInformation()
 extern const MethodInfo ConfigurationElement_get_ElementInformation_m11716_MethodInfo = 
 {
 	"get_ElementInformation"/* name */
 	, (methodPointerType)&ConfigurationElement_get_ElementInformation_m11716/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
-	, &ElementInformation_t3313_0_0_0/* return_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
+	, &ElementInformation_t3316_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -4018,7 +4018,7 @@ extern const MethodInfo ConfigurationElement_get_RawXml_m11717_MethodInfo =
 {
 	"get_RawXml"/* name */
 	, (methodPointerType)&ConfigurationElement_get_RawXml_m11717/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -4036,7 +4036,7 @@ extern const MethodInfo ConfigurationElement_get_RawXml_m11717_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_set_RawXml_m11718_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_set_RawXml_m11718_ParameterInfos[] = 
 {
 	{"value", 0, 134217796, 0, &String_t_0_0_0},
 };
@@ -4046,10 +4046,10 @@ extern const MethodInfo ConfigurationElement_set_RawXml_m11718_MethodInfo =
 {
 	"set_RawXml"/* name */
 	, (methodPointerType)&ConfigurationElement_set_RawXml_m11718/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_set_RawXml_m11718_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_set_RawXml_m11718_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -4069,7 +4069,7 @@ extern const MethodInfo ConfigurationElement_Init_m11719_MethodInfo =
 {
 	"Init"/* name */
 	, (methodPointerType)&ConfigurationElement_Init_m11719/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -4086,15 +4086,15 @@ extern const MethodInfo ConfigurationElement_Init_m11719_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationLockCollection_t3314_0_0_0;
+extern const Il2CppType ConfigurationLockCollection_t3317_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.ConfigurationLockCollection System.Configuration.ConfigurationElement::get_LockAllAttributesExcept()
 extern const MethodInfo ConfigurationElement_get_LockAllAttributesExcept_m11720_MethodInfo = 
 {
 	"get_LockAllAttributesExcept"/* name */
 	, (methodPointerType)&ConfigurationElement_get_LockAllAttributesExcept_m11720/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationLockCollection_t3314_0_0_0/* return_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLockCollection_t3317_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -4116,8 +4116,8 @@ extern const MethodInfo ConfigurationElement_get_LockAllElementsExcept_m11721_Me
 {
 	"get_LockAllElementsExcept"/* name */
 	, (methodPointerType)&ConfigurationElement_get_LockAllElementsExcept_m11721/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationLockCollection_t3314_0_0_0/* return_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLockCollection_t3317_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -4139,8 +4139,8 @@ extern const MethodInfo ConfigurationElement_get_LockAttributes_m11722_MethodInf
 {
 	"get_LockAttributes"/* name */
 	, (methodPointerType)&ConfigurationElement_get_LockAttributes_m11722/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationLockCollection_t3314_0_0_0/* return_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLockCollection_t3317_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -4162,8 +4162,8 @@ extern const MethodInfo ConfigurationElement_get_LockElements_m11723_MethodInfo 
 {
 	"get_LockElements"/* name */
 	, (methodPointerType)&ConfigurationElement_get_LockElements_m11723/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationLockCollection_t3314_0_0_0/* return_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLockCollection_t3317_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -4180,7 +4180,7 @@ extern const MethodInfo ConfigurationElement_get_LockElements_m11723_MethodInfo 
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_set_LockItem_m11724_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_set_LockItem_m11724_ParameterInfos[] = 
 {
 	{"value", 0, 134217797, 0, &Boolean_t59_0_0_0},
 };
@@ -4190,10 +4190,10 @@ extern const MethodInfo ConfigurationElement_set_LockItem_m11724_MethodInfo =
 {
 	"set_LockItem"/* name */
 	, (methodPointerType)&ConfigurationElement_set_LockItem_m11724/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_set_LockItem_m11724_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_set_LockItem_m11724_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -4207,13 +4207,13 @@ extern const MethodInfo ConfigurationElement_set_LockItem_m11724_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationProperty_t3330_0_0_0;
-extern const Il2CppType ConfigurationProperty_t3330_0_0_0;
+extern const Il2CppType ConfigurationProperty_t3333_0_0_0;
+extern const Il2CppType ConfigurationProperty_t3333_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_SetPropertyValue_m11725_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_SetPropertyValue_m11725_ParameterInfos[] = 
 {
-	{"prop", 0, 134217798, 0, &ConfigurationProperty_t3330_0_0_0},
+	{"prop", 0, 134217798, 0, &ConfigurationProperty_t3333_0_0_0},
 	{"value", 1, 134217799, 0, &Object_t_0_0_0},
 	{"ignoreLocks", 2, 134217800, 0, &Boolean_t59_0_0_0},
 };
@@ -4223,10 +4223,10 @@ extern const MethodInfo ConfigurationElement_SetPropertyValue_m11725_MethodInfo 
 {
 	"SetPropertyValue"/* name */
 	, (methodPointerType)&ConfigurationElement_SetPropertyValue_m11725/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_SetPropertyValue_m11725_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_SetPropertyValue_m11725_ParameterInfos/* parameters */
 	, 11/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -4240,15 +4240,15 @@ extern const MethodInfo ConfigurationElement_SetPropertyValue_m11725_MethodInfo 
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationPropertyCollection_t3311_0_0_0;
+extern const Il2CppType ConfigurationPropertyCollection_t3314_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.ConfigurationPropertyCollection System.Configuration.ConfigurationElement::GetKeyProperties()
 extern const MethodInfo ConfigurationElement_GetKeyProperties_m11726_MethodInfo = 
 {
 	"GetKeyProperties"/* name */
 	, (methodPointerType)&ConfigurationElement_GetKeyProperties_m11726/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationPropertyCollection_t3311_0_0_0/* return_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyCollection_t3314_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -4264,15 +4264,15 @@ extern const MethodInfo ConfigurationElement_GetKeyProperties_m11726_MethodInfo 
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationElementCollection_t3312_0_0_0;
+extern const Il2CppType ConfigurationElementCollection_t3315_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.ConfigurationElementCollection System.Configuration.ConfigurationElement::GetDefaultCollection()
 extern const MethodInfo ConfigurationElement_GetDefaultCollection_m11727_MethodInfo = 
 {
 	"GetDefaultCollection"/* name */
 	, (methodPointerType)&ConfigurationElement_GetDefaultCollection_m11727/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationElementCollection_t3312_0_0_0/* return_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -4288,10 +4288,10 @@ extern const MethodInfo ConfigurationElement_GetDefaultCollection_m11727_MethodI
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationProperty_t3330_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_get_Item_m11728_ParameterInfos[] = 
+extern const Il2CppType ConfigurationProperty_t3333_0_0_0;
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_get_Item_m11728_ParameterInfos[] = 
 {
-	{"property", 0, 134217801, 0, &ConfigurationProperty_t3330_0_0_0},
+	{"property", 0, 134217801, 0, &ConfigurationProperty_t3333_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Configuration.ConfigurationElement::get_Item(System.Configuration.ConfigurationProperty)
@@ -4299,10 +4299,10 @@ extern const MethodInfo ConfigurationElement_get_Item_m11728_MethodInfo =
 {
 	"get_Item"/* name */
 	, (methodPointerType)&ConfigurationElement_get_Item_m11728/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_get_Item_m11728_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_get_Item_m11728_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2181/* flags */
 	, 0/* iflags */
@@ -4316,11 +4316,11 @@ extern const MethodInfo ConfigurationElement_get_Item_m11728_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationProperty_t3330_0_0_0;
+extern const Il2CppType ConfigurationProperty_t3333_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_set_Item_m11729_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_set_Item_m11729_ParameterInfos[] = 
 {
-	{"property", 0, 134217802, 0, &ConfigurationProperty_t3330_0_0_0},
+	{"property", 0, 134217802, 0, &ConfigurationProperty_t3333_0_0_0},
 	{"value", 1, 134217803, 0, &Object_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -4329,10 +4329,10 @@ extern const MethodInfo ConfigurationElement_set_Item_m11729_MethodInfo =
 {
 	"set_Item"/* name */
 	, (methodPointerType)&ConfigurationElement_set_Item_m11729/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_set_Item_m11729_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_set_Item_m11729_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2181/* flags */
 	, 0/* iflags */
@@ -4347,7 +4347,7 @@ extern const MethodInfo ConfigurationElement_set_Item_m11729_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_get_Item_m11730_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_get_Item_m11730_ParameterInfos[] = 
 {
 	{"property_name", 0, 134217804, 0, &String_t_0_0_0},
 };
@@ -4357,10 +4357,10 @@ extern const MethodInfo ConfigurationElement_get_Item_m11730_MethodInfo =
 {
 	"get_Item"/* name */
 	, (methodPointerType)&ConfigurationElement_get_Item_m11730/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_get_Item_m11730_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_get_Item_m11730_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2181/* flags */
 	, 0/* iflags */
@@ -4376,7 +4376,7 @@ extern const MethodInfo ConfigurationElement_get_Item_m11730_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_set_Item_m11731_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_set_Item_m11731_ParameterInfos[] = 
 {
 	{"property_name", 0, 134217805, 0, &String_t_0_0_0},
 	{"value", 1, 134217806, 0, &Object_t_0_0_0},
@@ -4387,10 +4387,10 @@ extern const MethodInfo ConfigurationElement_set_Item_m11731_MethodInfo =
 {
 	"set_Item"/* name */
 	, (methodPointerType)&ConfigurationElement_set_Item_m11731/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_set_Item_m11731_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_set_Item_m11731_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2181/* flags */
 	, 0/* iflags */
@@ -4410,8 +4410,8 @@ extern const MethodInfo ConfigurationElement_get_Properties_m11732_MethodInfo =
 {
 	"get_Properties"/* name */
 	, (methodPointerType)&ConfigurationElement_get_Properties_m11732/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationPropertyCollection_t3311_0_0_0/* return_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyCollection_t3314_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -4428,7 +4428,7 @@ extern const MethodInfo ConfigurationElement_get_Properties_m11732_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_Equals_m11733_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_Equals_m11733_ParameterInfos[] = 
 {
 	{"compareTo", 0, 134217807, 0, &Object_t_0_0_0},
 };
@@ -4438,10 +4438,10 @@ extern const MethodInfo ConfigurationElement_Equals_m11733_MethodInfo =
 {
 	"Equals"/* name */
 	, (methodPointerType)&ConfigurationElement_Equals_m11733/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_Equals_m11733_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_Equals_m11733_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -4461,7 +4461,7 @@ extern const MethodInfo ConfigurationElement_GetHashCode_m11734_MethodInfo =
 {
 	"GetHashCode"/* name */
 	, (methodPointerType)&ConfigurationElement_GetHashCode_m11734/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -4484,7 +4484,7 @@ extern const MethodInfo ConfigurationElement_HasValues_m11735_MethodInfo =
 {
 	"HasValues"/* name */
 	, (methodPointerType)&ConfigurationElement_HasValues_m11735/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -4507,7 +4507,7 @@ extern const MethodInfo ConfigurationElement_HasLocalModifications_m11736_Method
 {
 	"HasLocalModifications"/* name */
 	, (methodPointerType)&ConfigurationElement_HasLocalModifications_m11736/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -4524,11 +4524,11 @@ extern const MethodInfo ConfigurationElement_HasLocalModifications_m11736_Method
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlReader_t3369_0_0_0;
+extern const Il2CppType XmlReader_t3372_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_DeserializeElement_m11737_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_DeserializeElement_m11737_ParameterInfos[] = 
 {
-	{"reader", 0, 134217808, 0, &XmlReader_t3369_0_0_0},
+	{"reader", 0, 134217808, 0, &XmlReader_t3372_0_0_0},
 	{"serializeCollectionKey", 1, 134217809, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -4537,10 +4537,10 @@ extern const MethodInfo ConfigurationElement_DeserializeElement_m11737_MethodInf
 {
 	"DeserializeElement"/* name */
 	, (methodPointerType)&ConfigurationElement_DeserializeElement_m11737/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_DeserializeElement_m11737_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_DeserializeElement_m11737_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 453/* flags */
 	, 0/* iflags */
@@ -4556,7 +4556,7 @@ extern const MethodInfo ConfigurationElement_DeserializeElement_m11737_MethodInf
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_OnDeserializeUnrecognizedAttribute_m11738_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_OnDeserializeUnrecognizedAttribute_m11738_ParameterInfos[] = 
 {
 	{"name", 0, 134217810, 0, &String_t_0_0_0},
 	{"value", 1, 134217811, 0, &String_t_0_0_0},
@@ -4567,10 +4567,10 @@ extern const MethodInfo ConfigurationElement_OnDeserializeUnrecognizedAttribute_
 {
 	"OnDeserializeUnrecognizedAttribute"/* name */
 	, (methodPointerType)&ConfigurationElement_OnDeserializeUnrecognizedAttribute_m11738/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_OnDeserializeUnrecognizedAttribute_m11738_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_OnDeserializeUnrecognizedAttribute_m11738_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
@@ -4585,11 +4585,11 @@ extern const MethodInfo ConfigurationElement_OnDeserializeUnrecognizedAttribute_
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlReader_t3369_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_OnDeserializeUnrecognizedElement_m11739_ParameterInfos[] = 
+extern const Il2CppType XmlReader_t3372_0_0_0;
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_OnDeserializeUnrecognizedElement_m11739_ParameterInfos[] = 
 {
 	{"element", 0, 134217812, 0, &String_t_0_0_0},
-	{"reader", 1, 134217813, 0, &XmlReader_t3369_0_0_0},
+	{"reader", 1, 134217813, 0, &XmlReader_t3372_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Configuration.ConfigurationElement::OnDeserializeUnrecognizedElement(System.String,System.Xml.XmlReader)
@@ -4597,10 +4597,10 @@ extern const MethodInfo ConfigurationElement_OnDeserializeUnrecognizedElement_m1
 {
 	"OnDeserializeUnrecognizedElement"/* name */
 	, (methodPointerType)&ConfigurationElement_OnDeserializeUnrecognizedElement_m11739/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_OnDeserializeUnrecognizedElement_m11739_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_OnDeserializeUnrecognizedElement_m11739_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
@@ -4615,7 +4615,7 @@ extern const MethodInfo ConfigurationElement_OnDeserializeUnrecognizedElement_m1
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_OnRequiredPropertyNotFound_m11740_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_OnRequiredPropertyNotFound_m11740_ParameterInfos[] = 
 {
 	{"name", 0, 134217814, 0, &String_t_0_0_0},
 };
@@ -4625,10 +4625,10 @@ extern const MethodInfo ConfigurationElement_OnRequiredPropertyNotFound_m11740_M
 {
 	"OnRequiredPropertyNotFound"/* name */
 	, (methodPointerType)&ConfigurationElement_OnRequiredPropertyNotFound_m11740/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_OnRequiredPropertyNotFound_m11740_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_OnRequiredPropertyNotFound_m11740_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
@@ -4642,11 +4642,11 @@ extern const MethodInfo ConfigurationElement_OnRequiredPropertyNotFound_m11740_M
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlWriter_t3370_0_0_0;
-extern const Il2CppType XmlWriter_t3370_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_PreSerialize_m11741_ParameterInfos[] = 
+extern const Il2CppType XmlWriter_t3373_0_0_0;
+extern const Il2CppType XmlWriter_t3373_0_0_0;
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_PreSerialize_m11741_ParameterInfos[] = 
 {
-	{"writer", 0, 134217815, 0, &XmlWriter_t3370_0_0_0},
+	{"writer", 0, 134217815, 0, &XmlWriter_t3373_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationElement::PreSerialize(System.Xml.XmlWriter)
@@ -4654,10 +4654,10 @@ extern const MethodInfo ConfigurationElement_PreSerialize_m11741_MethodInfo =
 {
 	"PreSerialize"/* name */
 	, (methodPointerType)&ConfigurationElement_PreSerialize_m11741/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_PreSerialize_m11741_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_PreSerialize_m11741_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
@@ -4677,7 +4677,7 @@ extern const MethodInfo ConfigurationElement_PostDeserialize_m11742_MethodInfo =
 {
 	"PostDeserialize"/* name */
 	, (methodPointerType)&ConfigurationElement_PostDeserialize_m11742/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -4700,7 +4700,7 @@ extern const MethodInfo ConfigurationElement_InitializeDefault_m11743_MethodInfo
 {
 	"InitializeDefault"/* name */
 	, (methodPointerType)&ConfigurationElement_InitializeDefault_m11743/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -4723,7 +4723,7 @@ extern const MethodInfo ConfigurationElement_IsModified_m11744_MethodInfo =
 {
 	"IsModified"/* name */
 	, (methodPointerType)&ConfigurationElement_IsModified_m11744/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -4746,7 +4746,7 @@ extern const MethodInfo ConfigurationElement_SetReadOnly_m11745_MethodInfo =
 {
 	"SetReadOnly"/* name */
 	, (methodPointerType)&ConfigurationElement_SetReadOnly_m11745/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -4769,7 +4769,7 @@ extern const MethodInfo ConfigurationElement_IsReadOnly_m11746_MethodInfo =
 {
 	"IsReadOnly"/* name */
 	, (methodPointerType)&ConfigurationElement_IsReadOnly_m11746/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -4786,11 +4786,11 @@ extern const MethodInfo ConfigurationElement_IsReadOnly_m11746_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_Reset_m11747_ParameterInfos[] = 
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_Reset_m11747_ParameterInfos[] = 
 {
-	{"parentElement", 0, 134217816, 0, &ConfigurationElement_t3315_0_0_0},
+	{"parentElement", 0, 134217816, 0, &ConfigurationElement_t3318_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationElement::Reset(System.Configuration.ConfigurationElement)
@@ -4798,10 +4798,10 @@ extern const MethodInfo ConfigurationElement_Reset_m11747_MethodInfo =
 {
 	"Reset"/* name */
 	, (methodPointerType)&ConfigurationElement_Reset_m11747/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_Reset_m11747_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_Reset_m11747_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 453/* flags */
 	, 0/* iflags */
@@ -4821,7 +4821,7 @@ extern const MethodInfo ConfigurationElement_ResetModified_m11748_MethodInfo =
 {
 	"ResetModified"/* name */
 	, (methodPointerType)&ConfigurationElement_ResetModified_m11748/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -4838,11 +4838,11 @@ extern const MethodInfo ConfigurationElement_ResetModified_m11748_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlWriter_t3370_0_0_0;
+extern const Il2CppType XmlWriter_t3373_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_SerializeElement_m11749_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_SerializeElement_m11749_ParameterInfos[] = 
 {
-	{"writer", 0, 134217817, 0, &XmlWriter_t3370_0_0_0},
+	{"writer", 0, 134217817, 0, &XmlWriter_t3373_0_0_0},
 	{"serializeCollectionKey", 1, 134217818, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -4851,10 +4851,10 @@ extern const MethodInfo ConfigurationElement_SerializeElement_m11749_MethodInfo 
 {
 	"SerializeElement"/* name */
 	, (methodPointerType)&ConfigurationElement_SerializeElement_m11749/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_SByte_t88/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_SerializeElement_m11749_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_SerializeElement_m11749_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 453/* flags */
 	, 0/* iflags */
@@ -4868,11 +4868,11 @@ extern const MethodInfo ConfigurationElement_SerializeElement_m11749_MethodInfo 
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlWriter_t3370_0_0_0;
+extern const Il2CppType XmlWriter_t3373_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_SerializeToXmlElement_m11750_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_SerializeToXmlElement_m11750_ParameterInfos[] = 
 {
-	{"writer", 0, 134217819, 0, &XmlWriter_t3370_0_0_0},
+	{"writer", 0, 134217819, 0, &XmlWriter_t3373_0_0_0},
 	{"elementName", 1, 134217820, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -4881,10 +4881,10 @@ extern const MethodInfo ConfigurationElement_SerializeToXmlElement_m11750_Method
 {
 	"SerializeToXmlElement"/* name */
 	, (methodPointerType)&ConfigurationElement_SerializeToXmlElement_m11750/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_SerializeToXmlElement_m11750_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_SerializeToXmlElement_m11750_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 453/* flags */
 	, 0/* iflags */
@@ -4898,15 +4898,15 @@ extern const MethodInfo ConfigurationElement_SerializeToXmlElement_m11750_Method
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-extern const Il2CppType ConfigurationSaveMode_t3334_0_0_0;
-extern const Il2CppType ConfigurationSaveMode_t3334_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_Unmerge_m11751_ParameterInfos[] = 
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+extern const Il2CppType ConfigurationSaveMode_t3337_0_0_0;
+extern const Il2CppType ConfigurationSaveMode_t3337_0_0_0;
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_Unmerge_m11751_ParameterInfos[] = 
 {
-	{"source", 0, 134217821, 0, &ConfigurationElement_t3315_0_0_0},
-	{"parent", 1, 134217822, 0, &ConfigurationElement_t3315_0_0_0},
-	{"updateMode", 2, 134217823, 0, &ConfigurationSaveMode_t3334_0_0_0},
+	{"source", 0, 134217821, 0, &ConfigurationElement_t3318_0_0_0},
+	{"parent", 1, 134217822, 0, &ConfigurationElement_t3318_0_0_0},
+	{"updateMode", 2, 134217823, 0, &ConfigurationSaveMode_t3337_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationElement::Unmerge(System.Configuration.ConfigurationElement,System.Configuration.ConfigurationElement,System.Configuration.ConfigurationSaveMode)
@@ -4914,10 +4914,10 @@ extern const MethodInfo ConfigurationElement_Unmerge_m11751_MethodInfo =
 {
 	"Unmerge"/* name */
 	, (methodPointerType)&ConfigurationElement_Unmerge_m11751/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_Unmerge_m11751_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_Unmerge_m11751_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 453/* flags */
 	, 0/* iflags */
@@ -4932,7 +4932,7 @@ extern const MethodInfo ConfigurationElement_Unmerge_m11751_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_HasValue_m11752_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_HasValue_m11752_ParameterInfos[] = 
 {
 	{"propName", 0, 134217824, 0, &String_t_0_0_0},
 };
@@ -4942,10 +4942,10 @@ extern const MethodInfo ConfigurationElement_HasValue_m11752_MethodInfo =
 {
 	"HasValue"/* name */
 	, (methodPointerType)&ConfigurationElement_HasValue_m11752/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_HasValue_m11752_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_HasValue_m11752_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -4959,11 +4959,11 @@ extern const MethodInfo ConfigurationElement_HasValue_m11752_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationProperty_t3330_0_0_0;
+extern const Il2CppType ConfigurationProperty_t3333_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationElement_t3315_ConfigurationElement_ValidateValue_m11753_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElement_t3318_ConfigurationElement_ValidateValue_m11753_ParameterInfos[] = 
 {
-	{"p", 0, 134217825, 0, &ConfigurationProperty_t3330_0_0_0},
+	{"p", 0, 134217825, 0, &ConfigurationProperty_t3333_0_0_0},
 	{"value", 1, 134217826, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -4972,10 +4972,10 @@ extern const MethodInfo ConfigurationElement_ValidateValue_m11753_MethodInfo =
 {
 	"ValidateValue"/* name */
 	, (methodPointerType)&ConfigurationElement_ValidateValue_m11753/* method */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ConfigurationElement_t3315_ConfigurationElement_ValidateValue_m11753_ParameterInfos/* parameters */
+	, ConfigurationElement_t3318_ConfigurationElement_ValidateValue_m11753_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -4989,7 +4989,7 @@ extern const MethodInfo ConfigurationElement_ValidateValue_m11753_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigurationElement_t3315_MethodInfos[] =
+static const MethodInfo* ConfigurationElement_t3318_MethodInfos[] =
 {
 	&ConfigurationElement__ctor_m11712_MethodInfo,
 	&ConfigurationElement_get_Configuration_m11713_MethodInfo,
@@ -5037,9 +5037,9 @@ static const MethodInfo* ConfigurationElement_t3315_MethodInfos[] =
 };
 extern const MethodInfo ConfigurationElement_get_Configuration_m11713_MethodInfo;
 extern const MethodInfo ConfigurationElement_set_Configuration_m11714_MethodInfo;
-static const PropertyInfo ConfigurationElement_t3315____Configuration_PropertyInfo = 
+static const PropertyInfo ConfigurationElement_t3318____Configuration_PropertyInfo = 
 {
-	&ConfigurationElement_t3315_il2cpp_TypeInfo/* parent */
+	&ConfigurationElement_t3318_il2cpp_TypeInfo/* parent */
 	, "Configuration"/* name */
 	, &ConfigurationElement_get_Configuration_m11713_MethodInfo/* get */
 	, &ConfigurationElement_set_Configuration_m11714_MethodInfo/* set */
@@ -5048,9 +5048,9 @@ static const PropertyInfo ConfigurationElement_t3315____Configuration_PropertyIn
 
 };
 extern const MethodInfo ConfigurationElement_get_ElementInformation_m11716_MethodInfo;
-static const PropertyInfo ConfigurationElement_t3315____ElementInformation_PropertyInfo = 
+static const PropertyInfo ConfigurationElement_t3318____ElementInformation_PropertyInfo = 
 {
-	&ConfigurationElement_t3315_il2cpp_TypeInfo/* parent */
+	&ConfigurationElement_t3318_il2cpp_TypeInfo/* parent */
 	, "ElementInformation"/* name */
 	, &ConfigurationElement_get_ElementInformation_m11716_MethodInfo/* get */
 	, NULL/* set */
@@ -5060,9 +5060,9 @@ static const PropertyInfo ConfigurationElement_t3315____ElementInformation_Prope
 };
 extern const MethodInfo ConfigurationElement_get_RawXml_m11717_MethodInfo;
 extern const MethodInfo ConfigurationElement_set_RawXml_m11718_MethodInfo;
-static const PropertyInfo ConfigurationElement_t3315____RawXml_PropertyInfo = 
+static const PropertyInfo ConfigurationElement_t3318____RawXml_PropertyInfo = 
 {
-	&ConfigurationElement_t3315_il2cpp_TypeInfo/* parent */
+	&ConfigurationElement_t3318_il2cpp_TypeInfo/* parent */
 	, "RawXml"/* name */
 	, &ConfigurationElement_get_RawXml_m11717_MethodInfo/* get */
 	, &ConfigurationElement_set_RawXml_m11718_MethodInfo/* set */
@@ -5071,9 +5071,9 @@ static const PropertyInfo ConfigurationElement_t3315____RawXml_PropertyInfo =
 
 };
 extern const MethodInfo ConfigurationElement_get_LockAllAttributesExcept_m11720_MethodInfo;
-static const PropertyInfo ConfigurationElement_t3315____LockAllAttributesExcept_PropertyInfo = 
+static const PropertyInfo ConfigurationElement_t3318____LockAllAttributesExcept_PropertyInfo = 
 {
-	&ConfigurationElement_t3315_il2cpp_TypeInfo/* parent */
+	&ConfigurationElement_t3318_il2cpp_TypeInfo/* parent */
 	, "LockAllAttributesExcept"/* name */
 	, &ConfigurationElement_get_LockAllAttributesExcept_m11720_MethodInfo/* get */
 	, NULL/* set */
@@ -5082,9 +5082,9 @@ static const PropertyInfo ConfigurationElement_t3315____LockAllAttributesExcept_
 
 };
 extern const MethodInfo ConfigurationElement_get_LockAllElementsExcept_m11721_MethodInfo;
-static const PropertyInfo ConfigurationElement_t3315____LockAllElementsExcept_PropertyInfo = 
+static const PropertyInfo ConfigurationElement_t3318____LockAllElementsExcept_PropertyInfo = 
 {
-	&ConfigurationElement_t3315_il2cpp_TypeInfo/* parent */
+	&ConfigurationElement_t3318_il2cpp_TypeInfo/* parent */
 	, "LockAllElementsExcept"/* name */
 	, &ConfigurationElement_get_LockAllElementsExcept_m11721_MethodInfo/* get */
 	, NULL/* set */
@@ -5093,9 +5093,9 @@ static const PropertyInfo ConfigurationElement_t3315____LockAllElementsExcept_Pr
 
 };
 extern const MethodInfo ConfigurationElement_get_LockAttributes_m11722_MethodInfo;
-static const PropertyInfo ConfigurationElement_t3315____LockAttributes_PropertyInfo = 
+static const PropertyInfo ConfigurationElement_t3318____LockAttributes_PropertyInfo = 
 {
-	&ConfigurationElement_t3315_il2cpp_TypeInfo/* parent */
+	&ConfigurationElement_t3318_il2cpp_TypeInfo/* parent */
 	, "LockAttributes"/* name */
 	, &ConfigurationElement_get_LockAttributes_m11722_MethodInfo/* get */
 	, NULL/* set */
@@ -5104,9 +5104,9 @@ static const PropertyInfo ConfigurationElement_t3315____LockAttributes_PropertyI
 
 };
 extern const MethodInfo ConfigurationElement_get_LockElements_m11723_MethodInfo;
-static const PropertyInfo ConfigurationElement_t3315____LockElements_PropertyInfo = 
+static const PropertyInfo ConfigurationElement_t3318____LockElements_PropertyInfo = 
 {
-	&ConfigurationElement_t3315_il2cpp_TypeInfo/* parent */
+	&ConfigurationElement_t3318_il2cpp_TypeInfo/* parent */
 	, "LockElements"/* name */
 	, &ConfigurationElement_get_LockElements_m11723_MethodInfo/* get */
 	, NULL/* set */
@@ -5115,9 +5115,9 @@ static const PropertyInfo ConfigurationElement_t3315____LockElements_PropertyInf
 
 };
 extern const MethodInfo ConfigurationElement_set_LockItem_m11724_MethodInfo;
-static const PropertyInfo ConfigurationElement_t3315____LockItem_PropertyInfo = 
+static const PropertyInfo ConfigurationElement_t3318____LockItem_PropertyInfo = 
 {
-	&ConfigurationElement_t3315_il2cpp_TypeInfo/* parent */
+	&ConfigurationElement_t3318_il2cpp_TypeInfo/* parent */
 	, "LockItem"/* name */
 	, NULL/* get */
 	, &ConfigurationElement_set_LockItem_m11724_MethodInfo/* set */
@@ -5127,9 +5127,9 @@ static const PropertyInfo ConfigurationElement_t3315____LockItem_PropertyInfo =
 };
 extern const MethodInfo ConfigurationElement_get_Item_m11728_MethodInfo;
 extern const MethodInfo ConfigurationElement_set_Item_m11729_MethodInfo;
-static const PropertyInfo ConfigurationElement_t3315____Item_ConfigurationProperty_t3330_PropertyInfo = 
+static const PropertyInfo ConfigurationElement_t3318____Item_ConfigurationProperty_t3333_PropertyInfo = 
 {
-	&ConfigurationElement_t3315_il2cpp_TypeInfo/* parent */
+	&ConfigurationElement_t3318_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
 	, &ConfigurationElement_get_Item_m11728_MethodInfo/* get */
 	, &ConfigurationElement_set_Item_m11729_MethodInfo/* set */
@@ -5139,9 +5139,9 @@ static const PropertyInfo ConfigurationElement_t3315____Item_ConfigurationProper
 };
 extern const MethodInfo ConfigurationElement_get_Item_m11730_MethodInfo;
 extern const MethodInfo ConfigurationElement_set_Item_m11731_MethodInfo;
-static const PropertyInfo ConfigurationElement_t3315____Item_String_t_PropertyInfo = 
+static const PropertyInfo ConfigurationElement_t3318____Item_String_t_PropertyInfo = 
 {
-	&ConfigurationElement_t3315_il2cpp_TypeInfo/* parent */
+	&ConfigurationElement_t3318_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
 	, &ConfigurationElement_get_Item_m11730_MethodInfo/* get */
 	, &ConfigurationElement_set_Item_m11731_MethodInfo/* set */
@@ -5150,9 +5150,9 @@ static const PropertyInfo ConfigurationElement_t3315____Item_String_t_PropertyIn
 
 };
 extern const MethodInfo ConfigurationElement_get_Properties_m11732_MethodInfo;
-static const PropertyInfo ConfigurationElement_t3315____Properties_PropertyInfo = 
+static const PropertyInfo ConfigurationElement_t3318____Properties_PropertyInfo = 
 {
-	&ConfigurationElement_t3315_il2cpp_TypeInfo/* parent */
+	&ConfigurationElement_t3318_il2cpp_TypeInfo/* parent */
 	, "Properties"/* name */
 	, &ConfigurationElement_get_Properties_m11732_MethodInfo/* get */
 	, NULL/* set */
@@ -5160,19 +5160,19 @@ static const PropertyInfo ConfigurationElement_t3315____Properties_PropertyInfo 
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigurationElement_t3315_PropertyInfos[] =
+static const PropertyInfo* ConfigurationElement_t3318_PropertyInfos[] =
 {
-	&ConfigurationElement_t3315____Configuration_PropertyInfo,
-	&ConfigurationElement_t3315____ElementInformation_PropertyInfo,
-	&ConfigurationElement_t3315____RawXml_PropertyInfo,
-	&ConfigurationElement_t3315____LockAllAttributesExcept_PropertyInfo,
-	&ConfigurationElement_t3315____LockAllElementsExcept_PropertyInfo,
-	&ConfigurationElement_t3315____LockAttributes_PropertyInfo,
-	&ConfigurationElement_t3315____LockElements_PropertyInfo,
-	&ConfigurationElement_t3315____LockItem_PropertyInfo,
-	&ConfigurationElement_t3315____Item_ConfigurationProperty_t3330_PropertyInfo,
-	&ConfigurationElement_t3315____Item_String_t_PropertyInfo,
-	&ConfigurationElement_t3315____Properties_PropertyInfo,
+	&ConfigurationElement_t3318____Configuration_PropertyInfo,
+	&ConfigurationElement_t3318____ElementInformation_PropertyInfo,
+	&ConfigurationElement_t3318____RawXml_PropertyInfo,
+	&ConfigurationElement_t3318____LockAllAttributesExcept_PropertyInfo,
+	&ConfigurationElement_t3318____LockAllElementsExcept_PropertyInfo,
+	&ConfigurationElement_t3318____LockAttributes_PropertyInfo,
+	&ConfigurationElement_t3318____LockElements_PropertyInfo,
+	&ConfigurationElement_t3318____LockItem_PropertyInfo,
+	&ConfigurationElement_t3318____Item_ConfigurationProperty_t3333_PropertyInfo,
+	&ConfigurationElement_t3318____Item_String_t_PropertyInfo,
+	&ConfigurationElement_t3318____Properties_PropertyInfo,
 	NULL
 };
 extern const MethodInfo ConfigurationElement_Equals_m11733_MethodInfo;
@@ -5196,7 +5196,7 @@ extern const MethodInfo ConfigurationElement_ResetModified_m11748_MethodInfo;
 extern const MethodInfo ConfigurationElement_SerializeElement_m11749_MethodInfo;
 extern const MethodInfo ConfigurationElement_SerializeToXmlElement_m11750_MethodInfo;
 extern const MethodInfo ConfigurationElement_Unmerge_m11751_MethodInfo;
-static const Il2CppMethodReference ConfigurationElement_t3315_VTable[] =
+static const Il2CppMethodReference ConfigurationElement_t3318_VTable[] =
 {
 	&ConfigurationElement_Equals_m11733_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -5223,7 +5223,7 @@ static const Il2CppMethodReference ConfigurationElement_t3315_VTable[] =
 	&ConfigurationElement_SerializeToXmlElement_m11750_MethodInfo,
 	&ConfigurationElement_Unmerge_m11751_MethodInfo,
 };
-static bool ConfigurationElement_t3315_VTableIsGenericMethod[] =
+static bool ConfigurationElement_t3318_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -5251,36 +5251,36 @@ static bool ConfigurationElement_t3315_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationElement_t3315_1_0_0;
-struct ConfigurationElement_t3315;
-const Il2CppTypeDefinitionMetadata ConfigurationElement_t3315_DefinitionMetadata = 
+extern const Il2CppType ConfigurationElement_t3318_1_0_0;
+struct ConfigurationElement_t3318;
+const Il2CppTypeDefinitionMetadata ConfigurationElement_t3318_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ConfigurationElement_t3315_VTable/* vtableMethods */
-	, ConfigurationElement_t3315_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationElement_t3318_VTable/* vtableMethods */
+	, ConfigurationElement_t3318_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 41/* fieldStart */
 
 };
-TypeInfo ConfigurationElement_t3315_il2cpp_TypeInfo = 
+TypeInfo ConfigurationElement_t3318_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationElement"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationElement_t3315_MethodInfos/* methods */
-	, ConfigurationElement_t3315_PropertyInfos/* properties */
+	, ConfigurationElement_t3318_MethodInfos/* methods */
+	, ConfigurationElement_t3318_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigurationElement_t3315_il2cpp_TypeInfo/* element_class */
+	, &ConfigurationElement_t3318_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 10/* custom_attributes_cache */
-	, &ConfigurationElement_t3315_0_0_0/* byval_arg */
-	, &ConfigurationElement_t3315_1_0_0/* this_arg */
-	, &ConfigurationElement_t3315_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationElement_t3318_0_0_0/* byval_arg */
+	, &ConfigurationElement_t3318_1_0_0/* this_arg */
+	, &ConfigurationElement_t3318_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -5290,8 +5290,8 @@ TypeInfo ConfigurationElement_t3315_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationElement_t3315)/* instance_size */
-	, sizeof (ConfigurationElement_t3315)/* actualSize */
+	, sizeof (ConfigurationElement_t3318)/* instance_size */
+	, sizeof (ConfigurationElement_t3318)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -5323,11 +5323,11 @@ TypeInfo ConfigurationElement_t3315_il2cpp_TypeInfo =
 // System.Configuration.ElementMap
 #include "System_Configuration_System_Configuration_ElementMap.h"
 // Metadata Definition System.Configuration.ElementMap
-extern TypeInfo ElementMap_t3310_il2cpp_TypeInfo;
+extern TypeInfo ElementMap_t3313_il2cpp_TypeInfo;
 // System.Configuration.ElementMap
 #include "System_Configuration_System_Configuration_ElementMapMethodDeclarations.h"
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo ElementMap_t3310_ElementMap__ctor_m11754_ParameterInfos[] = 
+static const ParameterInfo ElementMap_t3313_ElementMap__ctor_m11754_ParameterInfos[] = 
 {
 	{"t", 0, 134217827, 0, &Type_t_0_0_0},
 };
@@ -5337,10 +5337,10 @@ extern const MethodInfo ElementMap__ctor_m11754_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ElementMap__ctor_m11754/* method */
-	, &ElementMap_t3310_il2cpp_TypeInfo/* declaring_type */
+	, &ElementMap_t3313_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ElementMap_t3310_ElementMap__ctor_m11754_ParameterInfos/* parameters */
+	, ElementMap_t3313_ElementMap__ctor_m11754_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -5360,7 +5360,7 @@ extern const MethodInfo ElementMap__cctor_m11755_MethodInfo =
 {
 	".cctor"/* name */
 	, (methodPointerType)&ElementMap__cctor_m11755/* method */
-	, &ElementMap_t3310_il2cpp_TypeInfo/* declaring_type */
+	, &ElementMap_t3313_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -5378,21 +5378,21 @@ extern const MethodInfo ElementMap__cctor_m11755_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo ElementMap_t3310_ElementMap_GetMap_m11756_ParameterInfos[] = 
+static const ParameterInfo ElementMap_t3313_ElementMap_GetMap_m11756_ParameterInfos[] = 
 {
 	{"t", 0, 134217828, 0, &Type_t_0_0_0},
 };
-extern const Il2CppType ElementMap_t3310_0_0_0;
+extern const Il2CppType ElementMap_t3313_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.ElementMap System.Configuration.ElementMap::GetMap(System.Type)
 extern const MethodInfo ElementMap_GetMap_m11756_MethodInfo = 
 {
 	"GetMap"/* name */
 	, (methodPointerType)&ElementMap_GetMap_m11756/* method */
-	, &ElementMap_t3310_il2cpp_TypeInfo/* declaring_type */
-	, &ElementMap_t3310_0_0_0/* return_type */
+	, &ElementMap_t3313_il2cpp_TypeInfo/* declaring_type */
+	, &ElementMap_t3313_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ElementMap_t3310_ElementMap_GetMap_m11756_ParameterInfos/* parameters */
+	, ElementMap_t3313_ElementMap_GetMap_m11756_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -5412,8 +5412,8 @@ extern const MethodInfo ElementMap_get_Properties_m11757_MethodInfo =
 {
 	"get_Properties"/* name */
 	, (methodPointerType)&ElementMap_get_Properties_m11757/* method */
-	, &ElementMap_t3310_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationPropertyCollection_t3311_0_0_0/* return_type */
+	, &ElementMap_t3313_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyCollection_t3314_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -5429,7 +5429,7 @@ extern const MethodInfo ElementMap_get_Properties_m11757_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ElementMap_t3310_MethodInfos[] =
+static const MethodInfo* ElementMap_t3313_MethodInfos[] =
 {
 	&ElementMap__ctor_m11754_MethodInfo,
 	&ElementMap__cctor_m11755_MethodInfo,
@@ -5438,9 +5438,9 @@ static const MethodInfo* ElementMap_t3310_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ElementMap_get_Properties_m11757_MethodInfo;
-static const PropertyInfo ElementMap_t3310____Properties_PropertyInfo = 
+static const PropertyInfo ElementMap_t3313____Properties_PropertyInfo = 
 {
-	&ElementMap_t3310_il2cpp_TypeInfo/* parent */
+	&ElementMap_t3313_il2cpp_TypeInfo/* parent */
 	, "Properties"/* name */
 	, &ElementMap_get_Properties_m11757_MethodInfo/* get */
 	, NULL/* set */
@@ -5448,19 +5448,19 @@ static const PropertyInfo ElementMap_t3310____Properties_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ElementMap_t3310_PropertyInfos[] =
+static const PropertyInfo* ElementMap_t3313_PropertyInfos[] =
 {
-	&ElementMap_t3310____Properties_PropertyInfo,
+	&ElementMap_t3313____Properties_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference ElementMap_t3310_VTable[] =
+static const Il2CppMethodReference ElementMap_t3313_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool ElementMap_t3310_VTableIsGenericMethod[] =
+static bool ElementMap_t3313_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -5468,36 +5468,36 @@ static bool ElementMap_t3310_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ElementMap_t3310_1_0_0;
-struct ElementMap_t3310;
-const Il2CppTypeDefinitionMetadata ElementMap_t3310_DefinitionMetadata = 
+extern const Il2CppType ElementMap_t3313_1_0_0;
+struct ElementMap_t3313;
+const Il2CppTypeDefinitionMetadata ElementMap_t3313_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ElementMap_t3310_VTable/* vtableMethods */
-	, ElementMap_t3310_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ElementMap_t3313_VTable/* vtableMethods */
+	, ElementMap_t3313_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 54/* fieldStart */
 
 };
-TypeInfo ElementMap_t3310_il2cpp_TypeInfo = 
+TypeInfo ElementMap_t3313_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ElementMap"/* name */
 	, "System.Configuration"/* namespaze */
-	, ElementMap_t3310_MethodInfos/* methods */
-	, ElementMap_t3310_PropertyInfos/* properties */
+	, ElementMap_t3313_MethodInfos/* methods */
+	, ElementMap_t3313_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ElementMap_t3310_il2cpp_TypeInfo/* element_class */
+	, &ElementMap_t3313_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ElementMap_t3310_0_0_0/* byval_arg */
-	, &ElementMap_t3310_1_0_0/* this_arg */
-	, &ElementMap_t3310_DefinitionMetadata/* definitionMetadata */
+	, &ElementMap_t3313_0_0_0/* byval_arg */
+	, &ElementMap_t3313_1_0_0/* this_arg */
+	, &ElementMap_t3313_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -5507,11 +5507,11 @@ TypeInfo ElementMap_t3310_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ElementMap_t3310)/* instance_size */
-	, sizeof (ElementMap_t3310)/* actualSize */
+	, sizeof (ElementMap_t3313)/* instance_size */
+	, sizeof (ElementMap_t3313)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(ElementMap_t3310_StaticFields)/* static_fields_size */
+	, sizeof(ElementMap_t3313_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048576/* flags */
@@ -5540,15 +5540,15 @@ TypeInfo ElementMap_t3310_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationElementCollection/ConfigurationRemoveElement
 #include "System_Configuration_System_Configuration_ConfigurationEleme_1.h"
 // Metadata Definition System.Configuration.ConfigurationElementCollection/ConfigurationRemoveElement
-extern TypeInfo ConfigurationRemoveElement_t3316_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationRemoveElement_t3319_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationElementCollection/ConfigurationRemoveElement
 #include "System_Configuration_System_Configuration_ConfigurationEleme_1MethodDeclarations.h"
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-extern const Il2CppType ConfigurationElementCollection_t3312_0_0_0;
-static const ParameterInfo ConfigurationRemoveElement_t3316_ConfigurationRemoveElement__ctor_m11758_ParameterInfos[] = 
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+extern const Il2CppType ConfigurationElementCollection_t3315_0_0_0;
+static const ParameterInfo ConfigurationRemoveElement_t3319_ConfigurationRemoveElement__ctor_m11758_ParameterInfos[] = 
 {
-	{"origElement", 0, 134217858, 0, &ConfigurationElement_t3315_0_0_0},
-	{"origCollection", 1, 134217859, 0, &ConfigurationElementCollection_t3312_0_0_0},
+	{"origElement", 0, 134217858, 0, &ConfigurationElement_t3318_0_0_0},
+	{"origCollection", 1, 134217859, 0, &ConfigurationElementCollection_t3315_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationElementCollection/ConfigurationRemoveElement::.ctor(System.Configuration.ConfigurationElement,System.Configuration.ConfigurationElementCollection)
@@ -5556,10 +5556,10 @@ extern const MethodInfo ConfigurationRemoveElement__ctor_m11758_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationRemoveElement__ctor_m11758/* method */
-	, &ConfigurationRemoveElement_t3316_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationRemoveElement_t3319_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ConfigurationRemoveElement_t3316_ConfigurationRemoveElement__ctor_m11758_ParameterInfos/* parameters */
+	, ConfigurationRemoveElement_t3319_ConfigurationRemoveElement__ctor_m11758_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -5579,7 +5579,7 @@ extern const MethodInfo ConfigurationRemoveElement_get_KeyValue_m11759_MethodInf
 {
 	"get_KeyValue"/* name */
 	, (methodPointerType)&ConfigurationRemoveElement_get_KeyValue_m11759/* method */
-	, &ConfigurationRemoveElement_t3316_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationRemoveElement_t3319_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -5602,8 +5602,8 @@ extern const MethodInfo ConfigurationRemoveElement_get_Properties_m11760_MethodI
 {
 	"get_Properties"/* name */
 	, (methodPointerType)&ConfigurationRemoveElement_get_Properties_m11760/* method */
-	, &ConfigurationRemoveElement_t3316_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationPropertyCollection_t3311_0_0_0/* return_type */
+	, &ConfigurationRemoveElement_t3319_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyCollection_t3314_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -5619,7 +5619,7 @@ extern const MethodInfo ConfigurationRemoveElement_get_Properties_m11760_MethodI
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigurationRemoveElement_t3316_MethodInfos[] =
+static const MethodInfo* ConfigurationRemoveElement_t3319_MethodInfos[] =
 {
 	&ConfigurationRemoveElement__ctor_m11758_MethodInfo,
 	&ConfigurationRemoveElement_get_KeyValue_m11759_MethodInfo,
@@ -5627,9 +5627,9 @@ static const MethodInfo* ConfigurationRemoveElement_t3316_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ConfigurationRemoveElement_get_KeyValue_m11759_MethodInfo;
-static const PropertyInfo ConfigurationRemoveElement_t3316____KeyValue_PropertyInfo = 
+static const PropertyInfo ConfigurationRemoveElement_t3319____KeyValue_PropertyInfo = 
 {
-	&ConfigurationRemoveElement_t3316_il2cpp_TypeInfo/* parent */
+	&ConfigurationRemoveElement_t3319_il2cpp_TypeInfo/* parent */
 	, "KeyValue"/* name */
 	, &ConfigurationRemoveElement_get_KeyValue_m11759_MethodInfo/* get */
 	, NULL/* set */
@@ -5638,9 +5638,9 @@ static const PropertyInfo ConfigurationRemoveElement_t3316____KeyValue_PropertyI
 
 };
 extern const MethodInfo ConfigurationRemoveElement_get_Properties_m11760_MethodInfo;
-static const PropertyInfo ConfigurationRemoveElement_t3316____Properties_PropertyInfo = 
+static const PropertyInfo ConfigurationRemoveElement_t3319____Properties_PropertyInfo = 
 {
-	&ConfigurationRemoveElement_t3316_il2cpp_TypeInfo/* parent */
+	&ConfigurationRemoveElement_t3319_il2cpp_TypeInfo/* parent */
 	, "Properties"/* name */
 	, &ConfigurationRemoveElement_get_Properties_m11760_MethodInfo/* get */
 	, NULL/* set */
@@ -5648,13 +5648,13 @@ static const PropertyInfo ConfigurationRemoveElement_t3316____Properties_Propert
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigurationRemoveElement_t3316_PropertyInfos[] =
+static const PropertyInfo* ConfigurationRemoveElement_t3319_PropertyInfos[] =
 {
-	&ConfigurationRemoveElement_t3316____KeyValue_PropertyInfo,
-	&ConfigurationRemoveElement_t3316____Properties_PropertyInfo,
+	&ConfigurationRemoveElement_t3319____KeyValue_PropertyInfo,
+	&ConfigurationRemoveElement_t3319____Properties_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference ConfigurationRemoveElement_t3316_VTable[] =
+static const Il2CppMethodReference ConfigurationRemoveElement_t3319_VTable[] =
 {
 	&ConfigurationElement_Equals_m11733_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -5681,7 +5681,7 @@ static const Il2CppMethodReference ConfigurationRemoveElement_t3316_VTable[] =
 	&ConfigurationElement_SerializeToXmlElement_m11750_MethodInfo,
 	&ConfigurationElement_Unmerge_m11751_MethodInfo,
 };
-static bool ConfigurationRemoveElement_t3316_VTableIsGenericMethod[] =
+static bool ConfigurationRemoveElement_t3319_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -5709,38 +5709,38 @@ static bool ConfigurationRemoveElement_t3316_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationRemoveElement_t3316_0_0_0;
-extern const Il2CppType ConfigurationRemoveElement_t3316_1_0_0;
-extern TypeInfo ConfigurationElementCollection_t3312_il2cpp_TypeInfo;
-struct ConfigurationRemoveElement_t3316;
-const Il2CppTypeDefinitionMetadata ConfigurationRemoveElement_t3316_DefinitionMetadata = 
+extern const Il2CppType ConfigurationRemoveElement_t3319_0_0_0;
+extern const Il2CppType ConfigurationRemoveElement_t3319_1_0_0;
+extern TypeInfo ConfigurationElementCollection_t3315_il2cpp_TypeInfo;
+struct ConfigurationRemoveElement_t3319;
+const Il2CppTypeDefinitionMetadata ConfigurationRemoveElement_t3319_DefinitionMetadata = 
 {
-	&ConfigurationElementCollection_t3312_0_0_0/* declaringType */
+	&ConfigurationElementCollection_t3315_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &ConfigurationElement_t3315_0_0_0/* parent */
-	, ConfigurationRemoveElement_t3316_VTable/* vtableMethods */
-	, ConfigurationRemoveElement_t3316_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &ConfigurationElement_t3318_0_0_0/* parent */
+	, ConfigurationRemoveElement_t3319_VTable/* vtableMethods */
+	, ConfigurationRemoveElement_t3319_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 57/* fieldStart */
 
 };
-TypeInfo ConfigurationRemoveElement_t3316_il2cpp_TypeInfo = 
+TypeInfo ConfigurationRemoveElement_t3319_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationRemoveElement"/* name */
 	, ""/* namespaze */
-	, ConfigurationRemoveElement_t3316_MethodInfos/* methods */
-	, ConfigurationRemoveElement_t3316_PropertyInfos/* properties */
+	, ConfigurationRemoveElement_t3319_MethodInfos/* methods */
+	, ConfigurationRemoveElement_t3319_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigurationRemoveElement_t3316_il2cpp_TypeInfo/* element_class */
+	, &ConfigurationRemoveElement_t3319_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ConfigurationRemoveElement_t3316_0_0_0/* byval_arg */
-	, &ConfigurationRemoveElement_t3316_1_0_0/* this_arg */
-	, &ConfigurationRemoveElement_t3316_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationRemoveElement_t3319_0_0_0/* byval_arg */
+	, &ConfigurationRemoveElement_t3319_1_0_0/* this_arg */
+	, &ConfigurationRemoveElement_t3319_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -5750,8 +5750,8 @@ TypeInfo ConfigurationRemoveElement_t3316_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationRemoveElement_t3316)/* instance_size */
-	, sizeof (ConfigurationRemoveElement_t3316)/* actualSize */
+	, sizeof (ConfigurationRemoveElement_t3319)/* instance_size */
+	, sizeof (ConfigurationRemoveElement_t3319)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -5791,7 +5791,7 @@ extern const MethodInfo ConfigurationElementCollection__ctor_m11761_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationElementCollection__ctor_m11761/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -5810,7 +5810,7 @@ extern const MethodInfo ConfigurationElementCollection__ctor_m11761_MethodInfo =
 };
 extern const Il2CppType Array_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_System_Collections_ICollection_CopyTo_m11762_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_System_Collections_ICollection_CopyTo_m11762_ParameterInfos[] = 
 {
 	{"arr", 0, 134217829, 0, &Array_t_0_0_0},
 	{"index", 1, 134217830, 0, &Int32_t82_0_0_0},
@@ -5821,10 +5821,10 @@ extern const MethodInfo ConfigurationElementCollection_System_Collections_IColle
 {
 	"System.Collections.ICollection.CopyTo"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_System_Collections_ICollection_CopyTo_m11762/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_System_Collections_ICollection_CopyTo_m11762_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_System_Collections_ICollection_CopyTo_m11762_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -5838,10 +5838,10 @@ extern const MethodInfo ConfigurationElementCollection_System_Collections_IColle
 	, NULL/* dummy */
 
 };
-extern const Il2CppType PropertyInformation_t3348_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_InitFromProperty_m11763_ParameterInfos[] = 
+extern const Il2CppType PropertyInformation_t3351_0_0_0;
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_InitFromProperty_m11763_ParameterInfos[] = 
 {
-	{"propertyInfo", 0, 134217831, 0, &PropertyInformation_t3348_0_0_0},
+	{"propertyInfo", 0, 134217831, 0, &PropertyInformation_t3351_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationElementCollection::InitFromProperty(System.Configuration.PropertyInformation)
@@ -5849,10 +5849,10 @@ extern const MethodInfo ConfigurationElementCollection_InitFromProperty_m11763_M
 {
 	"InitFromProperty"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_InitFromProperty_m11763/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_InitFromProperty_m11763_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_InitFromProperty_m11763_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 195/* flags */
 	, 0/* iflags */
@@ -5866,15 +5866,15 @@ extern const MethodInfo ConfigurationElementCollection_InitFromProperty_m11763_M
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_ConfigurationElementCollectionType_t3318 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_ConfigurationElementCollectionType_t3321 (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.ConfigurationElementCollectionType System.Configuration.ConfigurationElementCollection::get_CollectionType()
 extern const MethodInfo ConfigurationElementCollection_get_CollectionType_m11764_MethodInfo = 
 {
 	"get_CollectionType"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_get_CollectionType_m11764/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationElementCollectionType_t3318_0_0_0/* return_type */
-	, RuntimeInvoker_ConfigurationElementCollectionType_t3318/* invoker_method */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollectionType_t3321_0_0_0/* return_type */
+	, RuntimeInvoker_ConfigurationElementCollectionType_t3321/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2502/* flags */
@@ -5895,7 +5895,7 @@ extern const MethodInfo ConfigurationElementCollection_get_IsBasic_m11765_Method
 {
 	"get_IsBasic"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_get_IsBasic_m11765/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -5918,7 +5918,7 @@ extern const MethodInfo ConfigurationElementCollection_get_IsAlternate_m11766_Me
 {
 	"get_IsAlternate"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_get_IsAlternate_m11766/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -5941,7 +5941,7 @@ extern const MethodInfo ConfigurationElementCollection_get_Count_m11767_MethodIn
 {
 	"get_Count"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_get_Count_m11767/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -5964,7 +5964,7 @@ extern const MethodInfo ConfigurationElementCollection_get_ElementName_m11768_Me
 {
 	"get_ElementName"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_get_ElementName_m11768/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -5982,7 +5982,7 @@ extern const MethodInfo ConfigurationElementCollection_get_ElementName_m11768_Me
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_set_EmitClear_m11769_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_set_EmitClear_m11769_ParameterInfos[] = 
 {
 	{"value", 0, 134217832, 0, &Boolean_t59_0_0_0},
 };
@@ -5992,10 +5992,10 @@ extern const MethodInfo ConfigurationElementCollection_set_EmitClear_m11769_Meth
 {
 	"set_EmitClear"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_set_EmitClear_m11769/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_set_EmitClear_m11769_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_set_EmitClear_m11769_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -6015,7 +6015,7 @@ extern const MethodInfo ConfigurationElementCollection_get_IsSynchronized_m11770
 {
 	"get_IsSynchronized"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_get_IsSynchronized_m11770/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -6038,7 +6038,7 @@ extern const MethodInfo ConfigurationElementCollection_get_SyncRoot_m11771_Metho
 {
 	"get_SyncRoot"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_get_SyncRoot_m11771/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -6061,7 +6061,7 @@ extern const MethodInfo ConfigurationElementCollection_get_ThrowOnDuplicate_m117
 {
 	"get_ThrowOnDuplicate"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_get_ThrowOnDuplicate_m11772/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -6084,7 +6084,7 @@ extern const MethodInfo ConfigurationElementCollection_get_AddElementName_m11773
 {
 	"get_AddElementName"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_get_AddElementName_m11773/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -6107,7 +6107,7 @@ extern const MethodInfo ConfigurationElementCollection_get_ClearElementName_m117
 {
 	"get_ClearElementName"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_get_ClearElementName_m11774/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -6130,7 +6130,7 @@ extern const MethodInfo ConfigurationElementCollection_get_RemoveElementName_m11
 {
 	"get_RemoveElementName"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_get_RemoveElementName_m11775/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -6147,10 +6147,10 @@ extern const MethodInfo ConfigurationElementCollection_get_RemoveElementName_m11
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_BaseAdd_m11776_ParameterInfos[] = 
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_BaseAdd_m11776_ParameterInfos[] = 
 {
-	{"element", 0, 134217833, 0, &ConfigurationElement_t3315_0_0_0},
+	{"element", 0, 134217833, 0, &ConfigurationElement_t3318_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationElementCollection::BaseAdd(System.Configuration.ConfigurationElement)
@@ -6158,10 +6158,10 @@ extern const MethodInfo ConfigurationElementCollection_BaseAdd_m11776_MethodInfo
 {
 	"BaseAdd"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_BaseAdd_m11776/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_BaseAdd_m11776_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_BaseAdd_m11776_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
@@ -6175,11 +6175,11 @@ extern const MethodInfo ConfigurationElementCollection_BaseAdd_m11776_MethodInfo
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_BaseAdd_m11777_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_BaseAdd_m11777_ParameterInfos[] = 
 {
-	{"element", 0, 134217834, 0, &ConfigurationElement_t3315_0_0_0},
+	{"element", 0, 134217834, 0, &ConfigurationElement_t3318_0_0_0},
 	{"throwIfExists", 1, 134217835, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -6188,10 +6188,10 @@ extern const MethodInfo ConfigurationElementCollection_BaseAdd_m11777_MethodInfo
 {
 	"BaseAdd"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_BaseAdd_m11777/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_BaseAdd_m11777_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_BaseAdd_m11777_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -6211,7 +6211,7 @@ extern const MethodInfo ConfigurationElementCollection_BaseClear_m11778_MethodIn
 {
 	"BaseClear"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_BaseClear_m11778/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -6229,7 +6229,7 @@ extern const MethodInfo ConfigurationElementCollection_BaseClear_m11778_MethodIn
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_BaseGet_m11779_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_BaseGet_m11779_ParameterInfos[] = 
 {
 	{"index", 0, 134217836, 0, &Int32_t82_0_0_0},
 };
@@ -6239,10 +6239,10 @@ extern const MethodInfo ConfigurationElementCollection_BaseGet_m11779_MethodInfo
 {
 	"BaseGet"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_BaseGet_m11779/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationElement_t3315_0_0_0/* return_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t82/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_BaseGet_m11779_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_BaseGet_m11779_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 133/* flags */
 	, 0/* iflags */
@@ -6257,7 +6257,7 @@ extern const MethodInfo ConfigurationElementCollection_BaseGet_m11779_MethodInfo
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_BaseGet_m11780_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_BaseGet_m11780_ParameterInfos[] = 
 {
 	{"key", 0, 134217837, 0, &Object_t_0_0_0},
 };
@@ -6267,10 +6267,10 @@ extern const MethodInfo ConfigurationElementCollection_BaseGet_m11780_MethodInfo
 {
 	"BaseGet"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_BaseGet_m11780/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationElement_t3315_0_0_0/* return_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_BaseGet_m11780_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_BaseGet_m11780_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 133/* flags */
 	, 0/* iflags */
@@ -6284,10 +6284,10 @@ extern const MethodInfo ConfigurationElementCollection_BaseGet_m11780_MethodInfo
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_BaseIndexOf_m11781_ParameterInfos[] = 
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_BaseIndexOf_m11781_ParameterInfos[] = 
 {
-	{"element", 0, 134217838, 0, &ConfigurationElement_t3315_0_0_0},
+	{"element", 0, 134217838, 0, &ConfigurationElement_t3318_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Configuration.ConfigurationElementCollection::BaseIndexOf(System.Configuration.ConfigurationElement)
@@ -6295,10 +6295,10 @@ extern const MethodInfo ConfigurationElementCollection_BaseIndexOf_m11781_Method
 {
 	"BaseIndexOf"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_BaseIndexOf_m11781/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_BaseIndexOf_m11781_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_BaseIndexOf_m11781_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
 	, 0/* iflags */
@@ -6313,7 +6313,7 @@ extern const MethodInfo ConfigurationElementCollection_BaseIndexOf_m11781_Method
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_IndexOfKey_m11782_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_IndexOfKey_m11782_ParameterInfos[] = 
 {
 	{"key", 0, 134217839, 0, &Object_t_0_0_0},
 };
@@ -6323,10 +6323,10 @@ extern const MethodInfo ConfigurationElementCollection_IndexOfKey_m11782_MethodI
 {
 	"IndexOfKey"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_IndexOfKey_m11782/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_IndexOfKey_m11782_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_IndexOfKey_m11782_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -6341,7 +6341,7 @@ extern const MethodInfo ConfigurationElementCollection_IndexOfKey_m11782_MethodI
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_BaseRemove_m11783_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_BaseRemove_m11783_ParameterInfos[] = 
 {
 	{"key", 0, 134217840, 0, &Object_t_0_0_0},
 };
@@ -6351,10 +6351,10 @@ extern const MethodInfo ConfigurationElementCollection_BaseRemove_m11783_MethodI
 {
 	"BaseRemove"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_BaseRemove_m11783/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_BaseRemove_m11783_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_BaseRemove_m11783_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 133/* flags */
 	, 0/* iflags */
@@ -6369,7 +6369,7 @@ extern const MethodInfo ConfigurationElementCollection_BaseRemove_m11783_MethodI
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_BaseRemoveAt_m11784_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_BaseRemoveAt_m11784_ParameterInfos[] = 
 {
 	{"index", 0, 134217841, 0, &Int32_t82_0_0_0},
 };
@@ -6379,10 +6379,10 @@ extern const MethodInfo ConfigurationElementCollection_BaseRemoveAt_m11784_Metho
 {
 	"BaseRemoveAt"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_BaseRemoveAt_m11784/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_BaseRemoveAt_m11784_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_BaseRemoveAt_m11784_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 133/* flags */
 	, 0/* iflags */
@@ -6398,7 +6398,7 @@ extern const MethodInfo ConfigurationElementCollection_BaseRemoveAt_m11784_Metho
 };
 extern const Il2CppType Object_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_CompareKeys_m11785_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_CompareKeys_m11785_ParameterInfos[] = 
 {
 	{"key1", 0, 134217842, 0, &Object_t_0_0_0},
 	{"key2", 1, 134217843, 0, &Object_t_0_0_0},
@@ -6409,10 +6409,10 @@ extern const MethodInfo ConfigurationElementCollection_CompareKeys_m11785_Method
 {
 	"CompareKeys"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_CompareKeys_m11785/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_CompareKeys_m11785_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_CompareKeys_m11785_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -6432,8 +6432,8 @@ extern const MethodInfo ConfigurationElementCollection_CreateNewElement_m12155_M
 {
 	"CreateNewElement"/* name */
 	, NULL/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationElement_t3315_0_0_0/* return_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -6450,7 +6450,7 @@ extern const MethodInfo ConfigurationElementCollection_CreateNewElement_m12155_M
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_CreateNewElement_m11786_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_CreateNewElement_m11786_ParameterInfos[] = 
 {
 	{"elementName", 0, 134217844, 0, &String_t_0_0_0},
 };
@@ -6460,10 +6460,10 @@ extern const MethodInfo ConfigurationElementCollection_CreateNewElement_m11786_M
 {
 	"CreateNewElement"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_CreateNewElement_m11786/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationElement_t3315_0_0_0/* return_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_CreateNewElement_m11786_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_CreateNewElement_m11786_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
@@ -6478,7 +6478,7 @@ extern const MethodInfo ConfigurationElementCollection_CreateNewElement_m11786_M
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_CreateNewElementInternal_m11787_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_CreateNewElementInternal_m11787_ParameterInfos[] = 
 {
 	{"elementName", 0, 134217845, 0, &String_t_0_0_0},
 };
@@ -6488,10 +6488,10 @@ extern const MethodInfo ConfigurationElementCollection_CreateNewElementInternal_
 {
 	"CreateNewElementInternal"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_CreateNewElementInternal_m11787/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationElement_t3315_0_0_0/* return_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_CreateNewElementInternal_m11787_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_CreateNewElementInternal_m11787_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -6506,7 +6506,7 @@ extern const MethodInfo ConfigurationElementCollection_CreateNewElementInternal_
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_Equals_m11788_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_Equals_m11788_ParameterInfos[] = 
 {
 	{"compareTo", 0, 134217846, 0, &Object_t_0_0_0},
 };
@@ -6516,10 +6516,10 @@ extern const MethodInfo ConfigurationElementCollection_Equals_m11788_MethodInfo 
 {
 	"Equals"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_Equals_m11788/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_Equals_m11788_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_Equals_m11788_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -6533,10 +6533,10 @@ extern const MethodInfo ConfigurationElementCollection_Equals_m11788_MethodInfo 
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_GetElementKey_m12156_ParameterInfos[] = 
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_GetElementKey_m12156_ParameterInfos[] = 
 {
-	{"element", 0, 134217847, 0, &ConfigurationElement_t3315_0_0_0},
+	{"element", 0, 134217847, 0, &ConfigurationElement_t3318_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Configuration.ConfigurationElementCollection::GetElementKey(System.Configuration.ConfigurationElement)
@@ -6544,10 +6544,10 @@ extern const MethodInfo ConfigurationElementCollection_GetElementKey_m12156_Meth
 {
 	"GetElementKey"/* name */
 	, NULL/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_GetElementKey_m12156_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_GetElementKey_m12156_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1476/* flags */
 	, 0/* iflags */
@@ -6567,7 +6567,7 @@ extern const MethodInfo ConfigurationElementCollection_GetHashCode_m11789_Method
 {
 	"GetHashCode"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_GetHashCode_m11789/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -6590,7 +6590,7 @@ extern const MethodInfo ConfigurationElementCollection_GetEnumerator_m11790_Meth
 {
 	"GetEnumerator"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_GetEnumerator_m11790/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t48_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -6608,7 +6608,7 @@ extern const MethodInfo ConfigurationElementCollection_GetEnumerator_m11790_Meth
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_IsElementName_m11791_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_IsElementName_m11791_ParameterInfos[] = 
 {
 	{"elementName", 0, 134217848, 0, &String_t_0_0_0},
 };
@@ -6618,10 +6618,10 @@ extern const MethodInfo ConfigurationElementCollection_IsElementName_m11791_Meth
 {
 	"IsElementName"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_IsElementName_m11791/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_IsElementName_m11791_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_IsElementName_m11791_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
@@ -6635,10 +6635,10 @@ extern const MethodInfo ConfigurationElementCollection_IsElementName_m11791_Meth
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_IsElementRemovable_m11792_ParameterInfos[] = 
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_IsElementRemovable_m11792_ParameterInfos[] = 
 {
-	{"element", 0, 134217849, 0, &ConfigurationElement_t3315_0_0_0},
+	{"element", 0, 134217849, 0, &ConfigurationElement_t3318_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Configuration.ConfigurationElementCollection::IsElementRemovable(System.Configuration.ConfigurationElement)
@@ -6646,10 +6646,10 @@ extern const MethodInfo ConfigurationElementCollection_IsElementRemovable_m11792
 {
 	"IsElementRemovable"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_IsElementRemovable_m11792/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_IsElementRemovable_m11792_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_IsElementRemovable_m11792_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 452/* flags */
 	, 0/* iflags */
@@ -6669,7 +6669,7 @@ extern const MethodInfo ConfigurationElementCollection_IsModified_m11793_MethodI
 {
 	"IsModified"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_IsModified_m11793/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -6692,7 +6692,7 @@ extern const MethodInfo ConfigurationElementCollection_IsReadOnly_m11794_MethodI
 {
 	"IsReadOnly"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_IsReadOnly_m11794/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -6715,7 +6715,7 @@ extern const MethodInfo ConfigurationElementCollection_HasValues_m11795_MethodIn
 {
 	"HasValues"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_HasValues_m11795/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -6732,10 +6732,10 @@ extern const MethodInfo ConfigurationElementCollection_HasValues_m11795_MethodIn
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_Reset_m11796_ParameterInfos[] = 
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_Reset_m11796_ParameterInfos[] = 
 {
-	{"parentElement", 0, 134217850, 0, &ConfigurationElement_t3315_0_0_0},
+	{"parentElement", 0, 134217850, 0, &ConfigurationElement_t3318_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationElementCollection::Reset(System.Configuration.ConfigurationElement)
@@ -6743,10 +6743,10 @@ extern const MethodInfo ConfigurationElementCollection_Reset_m11796_MethodInfo =
 {
 	"Reset"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_Reset_m11796/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_Reset_m11796_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_Reset_m11796_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 197/* flags */
 	, 0/* iflags */
@@ -6766,7 +6766,7 @@ extern const MethodInfo ConfigurationElementCollection_ResetModified_m11797_Meth
 {
 	"ResetModified"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_ResetModified_m11797/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -6789,7 +6789,7 @@ extern const MethodInfo ConfigurationElementCollection_SetReadOnly_m11798_Method
 {
 	"SetReadOnly"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_SetReadOnly_m11798/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -6806,11 +6806,11 @@ extern const MethodInfo ConfigurationElementCollection_SetReadOnly_m11798_Method
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlWriter_t3370_0_0_0;
+extern const Il2CppType XmlWriter_t3373_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_SerializeElement_m11799_ParameterInfos[] = 
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_SerializeElement_m11799_ParameterInfos[] = 
 {
-	{"writer", 0, 134217851, 0, &XmlWriter_t3370_0_0_0},
+	{"writer", 0, 134217851, 0, &XmlWriter_t3373_0_0_0},
 	{"serializeCollectionKey", 1, 134217852, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -6819,10 +6819,10 @@ extern const MethodInfo ConfigurationElementCollection_SerializeElement_m11799_M
 {
 	"SerializeElement"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_SerializeElement_m11799/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_SByte_t88/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_SerializeElement_m11799_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_SerializeElement_m11799_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 197/* flags */
 	, 0/* iflags */
@@ -6837,11 +6837,11 @@ extern const MethodInfo ConfigurationElementCollection_SerializeElement_m11799_M
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlReader_t3369_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_OnDeserializeUnrecognizedElement_m11800_ParameterInfos[] = 
+extern const Il2CppType XmlReader_t3372_0_0_0;
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_OnDeserializeUnrecognizedElement_m11800_ParameterInfos[] = 
 {
 	{"elementName", 0, 134217853, 0, &String_t_0_0_0},
-	{"reader", 1, 134217854, 0, &XmlReader_t3369_0_0_0},
+	{"reader", 1, 134217854, 0, &XmlReader_t3372_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Configuration.ConfigurationElementCollection::OnDeserializeUnrecognizedElement(System.String,System.Xml.XmlReader)
@@ -6849,10 +6849,10 @@ extern const MethodInfo ConfigurationElementCollection_OnDeserializeUnrecognized
 {
 	"OnDeserializeUnrecognizedElement"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_OnDeserializeUnrecognizedElement_m11800/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_OnDeserializeUnrecognizedElement_m11800_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_OnDeserializeUnrecognizedElement_m11800_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 196/* flags */
 	, 0/* iflags */
@@ -6866,14 +6866,14 @@ extern const MethodInfo ConfigurationElementCollection_OnDeserializeUnrecognized
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-extern const Il2CppType ConfigurationSaveMode_t3334_0_0_0;
-static const ParameterInfo ConfigurationElementCollection_t3312_ConfigurationElementCollection_Unmerge_m11801_ParameterInfos[] = 
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+extern const Il2CppType ConfigurationSaveMode_t3337_0_0_0;
+static const ParameterInfo ConfigurationElementCollection_t3315_ConfigurationElementCollection_Unmerge_m11801_ParameterInfos[] = 
 {
-	{"sourceElement", 0, 134217855, 0, &ConfigurationElement_t3315_0_0_0},
-	{"parentElement", 1, 134217856, 0, &ConfigurationElement_t3315_0_0_0},
-	{"updateMode", 2, 134217857, 0, &ConfigurationSaveMode_t3334_0_0_0},
+	{"sourceElement", 0, 134217855, 0, &ConfigurationElement_t3318_0_0_0},
+	{"parentElement", 1, 134217856, 0, &ConfigurationElement_t3318_0_0_0},
+	{"updateMode", 2, 134217857, 0, &ConfigurationSaveMode_t3337_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationElementCollection::Unmerge(System.Configuration.ConfigurationElement,System.Configuration.ConfigurationElement,System.Configuration.ConfigurationSaveMode)
@@ -6881,10 +6881,10 @@ extern const MethodInfo ConfigurationElementCollection_Unmerge_m11801_MethodInfo
 {
 	"Unmerge"/* name */
 	, (methodPointerType)&ConfigurationElementCollection_Unmerge_m11801/* method */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82/* invoker_method */
-	, ConfigurationElementCollection_t3312_ConfigurationElementCollection_Unmerge_m11801_ParameterInfos/* parameters */
+	, ConfigurationElementCollection_t3315_ConfigurationElementCollection_Unmerge_m11801_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 197/* flags */
 	, 0/* iflags */
@@ -6898,7 +6898,7 @@ extern const MethodInfo ConfigurationElementCollection_Unmerge_m11801_MethodInfo
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigurationElementCollection_t3312_MethodInfos[] =
+static const MethodInfo* ConfigurationElementCollection_t3315_MethodInfos[] =
 {
 	&ConfigurationElementCollection__ctor_m11761_MethodInfo,
 	&ConfigurationElementCollection_System_Collections_ICollection_CopyTo_m11762_MethodInfo,
@@ -6946,9 +6946,9 @@ static const MethodInfo* ConfigurationElementCollection_t3312_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ConfigurationElementCollection_get_CollectionType_m11764_MethodInfo;
-static const PropertyInfo ConfigurationElementCollection_t3312____CollectionType_PropertyInfo = 
+static const PropertyInfo ConfigurationElementCollection_t3315____CollectionType_PropertyInfo = 
 {
-	&ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* parent */
+	&ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* parent */
 	, "CollectionType"/* name */
 	, &ConfigurationElementCollection_get_CollectionType_m11764_MethodInfo/* get */
 	, NULL/* set */
@@ -6957,9 +6957,9 @@ static const PropertyInfo ConfigurationElementCollection_t3312____CollectionType
 
 };
 extern const MethodInfo ConfigurationElementCollection_get_IsBasic_m11765_MethodInfo;
-static const PropertyInfo ConfigurationElementCollection_t3312____IsBasic_PropertyInfo = 
+static const PropertyInfo ConfigurationElementCollection_t3315____IsBasic_PropertyInfo = 
 {
-	&ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* parent */
+	&ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* parent */
 	, "IsBasic"/* name */
 	, &ConfigurationElementCollection_get_IsBasic_m11765_MethodInfo/* get */
 	, NULL/* set */
@@ -6968,9 +6968,9 @@ static const PropertyInfo ConfigurationElementCollection_t3312____IsBasic_Proper
 
 };
 extern const MethodInfo ConfigurationElementCollection_get_IsAlternate_m11766_MethodInfo;
-static const PropertyInfo ConfigurationElementCollection_t3312____IsAlternate_PropertyInfo = 
+static const PropertyInfo ConfigurationElementCollection_t3315____IsAlternate_PropertyInfo = 
 {
-	&ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* parent */
+	&ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* parent */
 	, "IsAlternate"/* name */
 	, &ConfigurationElementCollection_get_IsAlternate_m11766_MethodInfo/* get */
 	, NULL/* set */
@@ -6979,9 +6979,9 @@ static const PropertyInfo ConfigurationElementCollection_t3312____IsAlternate_Pr
 
 };
 extern const MethodInfo ConfigurationElementCollection_get_Count_m11767_MethodInfo;
-static const PropertyInfo ConfigurationElementCollection_t3312____Count_PropertyInfo = 
+static const PropertyInfo ConfigurationElementCollection_t3315____Count_PropertyInfo = 
 {
-	&ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* parent */
+	&ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* parent */
 	, "Count"/* name */
 	, &ConfigurationElementCollection_get_Count_m11767_MethodInfo/* get */
 	, NULL/* set */
@@ -6990,9 +6990,9 @@ static const PropertyInfo ConfigurationElementCollection_t3312____Count_Property
 
 };
 extern const MethodInfo ConfigurationElementCollection_get_ElementName_m11768_MethodInfo;
-static const PropertyInfo ConfigurationElementCollection_t3312____ElementName_PropertyInfo = 
+static const PropertyInfo ConfigurationElementCollection_t3315____ElementName_PropertyInfo = 
 {
-	&ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* parent */
+	&ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* parent */
 	, "ElementName"/* name */
 	, &ConfigurationElementCollection_get_ElementName_m11768_MethodInfo/* get */
 	, NULL/* set */
@@ -7001,9 +7001,9 @@ static const PropertyInfo ConfigurationElementCollection_t3312____ElementName_Pr
 
 };
 extern const MethodInfo ConfigurationElementCollection_set_EmitClear_m11769_MethodInfo;
-static const PropertyInfo ConfigurationElementCollection_t3312____EmitClear_PropertyInfo = 
+static const PropertyInfo ConfigurationElementCollection_t3315____EmitClear_PropertyInfo = 
 {
-	&ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* parent */
+	&ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* parent */
 	, "EmitClear"/* name */
 	, NULL/* get */
 	, &ConfigurationElementCollection_set_EmitClear_m11769_MethodInfo/* set */
@@ -7012,9 +7012,9 @@ static const PropertyInfo ConfigurationElementCollection_t3312____EmitClear_Prop
 
 };
 extern const MethodInfo ConfigurationElementCollection_get_IsSynchronized_m11770_MethodInfo;
-static const PropertyInfo ConfigurationElementCollection_t3312____IsSynchronized_PropertyInfo = 
+static const PropertyInfo ConfigurationElementCollection_t3315____IsSynchronized_PropertyInfo = 
 {
-	&ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* parent */
+	&ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* parent */
 	, "IsSynchronized"/* name */
 	, &ConfigurationElementCollection_get_IsSynchronized_m11770_MethodInfo/* get */
 	, NULL/* set */
@@ -7023,9 +7023,9 @@ static const PropertyInfo ConfigurationElementCollection_t3312____IsSynchronized
 
 };
 extern const MethodInfo ConfigurationElementCollection_get_SyncRoot_m11771_MethodInfo;
-static const PropertyInfo ConfigurationElementCollection_t3312____SyncRoot_PropertyInfo = 
+static const PropertyInfo ConfigurationElementCollection_t3315____SyncRoot_PropertyInfo = 
 {
-	&ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* parent */
+	&ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* parent */
 	, "SyncRoot"/* name */
 	, &ConfigurationElementCollection_get_SyncRoot_m11771_MethodInfo/* get */
 	, NULL/* set */
@@ -7034,9 +7034,9 @@ static const PropertyInfo ConfigurationElementCollection_t3312____SyncRoot_Prope
 
 };
 extern const MethodInfo ConfigurationElementCollection_get_ThrowOnDuplicate_m11772_MethodInfo;
-static const PropertyInfo ConfigurationElementCollection_t3312____ThrowOnDuplicate_PropertyInfo = 
+static const PropertyInfo ConfigurationElementCollection_t3315____ThrowOnDuplicate_PropertyInfo = 
 {
-	&ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* parent */
+	&ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* parent */
 	, "ThrowOnDuplicate"/* name */
 	, &ConfigurationElementCollection_get_ThrowOnDuplicate_m11772_MethodInfo/* get */
 	, NULL/* set */
@@ -7045,9 +7045,9 @@ static const PropertyInfo ConfigurationElementCollection_t3312____ThrowOnDuplica
 
 };
 extern const MethodInfo ConfigurationElementCollection_get_AddElementName_m11773_MethodInfo;
-static const PropertyInfo ConfigurationElementCollection_t3312____AddElementName_PropertyInfo = 
+static const PropertyInfo ConfigurationElementCollection_t3315____AddElementName_PropertyInfo = 
 {
-	&ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* parent */
+	&ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* parent */
 	, "AddElementName"/* name */
 	, &ConfigurationElementCollection_get_AddElementName_m11773_MethodInfo/* get */
 	, NULL/* set */
@@ -7056,9 +7056,9 @@ static const PropertyInfo ConfigurationElementCollection_t3312____AddElementName
 
 };
 extern const MethodInfo ConfigurationElementCollection_get_ClearElementName_m11774_MethodInfo;
-static const PropertyInfo ConfigurationElementCollection_t3312____ClearElementName_PropertyInfo = 
+static const PropertyInfo ConfigurationElementCollection_t3315____ClearElementName_PropertyInfo = 
 {
-	&ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* parent */
+	&ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* parent */
 	, "ClearElementName"/* name */
 	, &ConfigurationElementCollection_get_ClearElementName_m11774_MethodInfo/* get */
 	, NULL/* set */
@@ -7067,9 +7067,9 @@ static const PropertyInfo ConfigurationElementCollection_t3312____ClearElementNa
 
 };
 extern const MethodInfo ConfigurationElementCollection_get_RemoveElementName_m11775_MethodInfo;
-static const PropertyInfo ConfigurationElementCollection_t3312____RemoveElementName_PropertyInfo = 
+static const PropertyInfo ConfigurationElementCollection_t3315____RemoveElementName_PropertyInfo = 
 {
-	&ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* parent */
+	&ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* parent */
 	, "RemoveElementName"/* name */
 	, &ConfigurationElementCollection_get_RemoveElementName_m11775_MethodInfo/* get */
 	, NULL/* set */
@@ -7077,25 +7077,25 @@ static const PropertyInfo ConfigurationElementCollection_t3312____RemoveElementN
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigurationElementCollection_t3312_PropertyInfos[] =
+static const PropertyInfo* ConfigurationElementCollection_t3315_PropertyInfos[] =
 {
-	&ConfigurationElementCollection_t3312____CollectionType_PropertyInfo,
-	&ConfigurationElementCollection_t3312____IsBasic_PropertyInfo,
-	&ConfigurationElementCollection_t3312____IsAlternate_PropertyInfo,
-	&ConfigurationElementCollection_t3312____Count_PropertyInfo,
-	&ConfigurationElementCollection_t3312____ElementName_PropertyInfo,
-	&ConfigurationElementCollection_t3312____EmitClear_PropertyInfo,
-	&ConfigurationElementCollection_t3312____IsSynchronized_PropertyInfo,
-	&ConfigurationElementCollection_t3312____SyncRoot_PropertyInfo,
-	&ConfigurationElementCollection_t3312____ThrowOnDuplicate_PropertyInfo,
-	&ConfigurationElementCollection_t3312____AddElementName_PropertyInfo,
-	&ConfigurationElementCollection_t3312____ClearElementName_PropertyInfo,
-	&ConfigurationElementCollection_t3312____RemoveElementName_PropertyInfo,
+	&ConfigurationElementCollection_t3315____CollectionType_PropertyInfo,
+	&ConfigurationElementCollection_t3315____IsBasic_PropertyInfo,
+	&ConfigurationElementCollection_t3315____IsAlternate_PropertyInfo,
+	&ConfigurationElementCollection_t3315____Count_PropertyInfo,
+	&ConfigurationElementCollection_t3315____ElementName_PropertyInfo,
+	&ConfigurationElementCollection_t3315____EmitClear_PropertyInfo,
+	&ConfigurationElementCollection_t3315____IsSynchronized_PropertyInfo,
+	&ConfigurationElementCollection_t3315____SyncRoot_PropertyInfo,
+	&ConfigurationElementCollection_t3315____ThrowOnDuplicate_PropertyInfo,
+	&ConfigurationElementCollection_t3315____AddElementName_PropertyInfo,
+	&ConfigurationElementCollection_t3315____ClearElementName_PropertyInfo,
+	&ConfigurationElementCollection_t3315____RemoveElementName_PropertyInfo,
 	NULL
 };
-static const Il2CppType* ConfigurationElementCollection_t3312_il2cpp_TypeInfo__nestedTypes[1] =
+static const Il2CppType* ConfigurationElementCollection_t3315_il2cpp_TypeInfo__nestedTypes[1] =
 {
-	&ConfigurationRemoveElement_t3316_0_0_0,
+	&ConfigurationRemoveElement_t3319_0_0_0,
 };
 extern const MethodInfo ConfigurationElementCollection_Equals_m11788_MethodInfo;
 extern const MethodInfo ConfigurationElementCollection_GetHashCode_m11789_MethodInfo;
@@ -7115,7 +7115,7 @@ extern const MethodInfo ConfigurationElementCollection_BaseAdd_m11776_MethodInfo
 extern const MethodInfo ConfigurationElementCollection_CreateNewElement_m11786_MethodInfo;
 extern const MethodInfo ConfigurationElementCollection_IsElementName_m11791_MethodInfo;
 extern const MethodInfo ConfigurationElementCollection_IsElementRemovable_m11792_MethodInfo;
-static const Il2CppMethodReference ConfigurationElementCollection_t3312_VTable[] =
+static const Il2CppMethodReference ConfigurationElementCollection_t3315_VTable[] =
 {
 	&ConfigurationElementCollection_Equals_m11788_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -7156,7 +7156,7 @@ static const Il2CppMethodReference ConfigurationElementCollection_t3312_VTable[]
 	&ConfigurationElementCollection_IsElementName_m11791_MethodInfo,
 	&ConfigurationElementCollection_IsElementRemovable_m11792_MethodInfo,
 };
-static bool ConfigurationElementCollection_t3312_VTableIsGenericMethod[] =
+static bool ConfigurationElementCollection_t3315_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -7197,47 +7197,47 @@ static bool ConfigurationElementCollection_t3312_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* ConfigurationElementCollection_t3312_InterfacesTypeInfos[] = 
+static const Il2CppType* ConfigurationElementCollection_t3315_InterfacesTypeInfos[] = 
 {
-	&ICollection_t769_0_0_0,
+	&ICollection_t772_0_0_0,
 	&IEnumerable_t104_0_0_0,
 };
-static Il2CppInterfaceOffsetPair ConfigurationElementCollection_t3312_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ConfigurationElementCollection_t3315_InterfacesOffsets[] = 
 {
-	{ &ICollection_t769_0_0_0, 24},
+	{ &ICollection_t772_0_0_0, 24},
 	{ &IEnumerable_t104_0_0_0, 28},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationElementCollection_t3312_1_0_0;
-struct ConfigurationElementCollection_t3312;
-const Il2CppTypeDefinitionMetadata ConfigurationElementCollection_t3312_DefinitionMetadata = 
+extern const Il2CppType ConfigurationElementCollection_t3315_1_0_0;
+struct ConfigurationElementCollection_t3315;
+const Il2CppTypeDefinitionMetadata ConfigurationElementCollection_t3315_DefinitionMetadata = 
 {
 	NULL/* declaringType */
-	, ConfigurationElementCollection_t3312_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
-	, ConfigurationElementCollection_t3312_InterfacesTypeInfos/* implementedInterfaces */
-	, ConfigurationElementCollection_t3312_InterfacesOffsets/* interfaceOffsets */
-	, &ConfigurationElement_t3315_0_0_0/* parent */
-	, ConfigurationElementCollection_t3312_VTable/* vtableMethods */
-	, ConfigurationElementCollection_t3312_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationElementCollection_t3315_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, ConfigurationElementCollection_t3315_InterfacesTypeInfos/* implementedInterfaces */
+	, ConfigurationElementCollection_t3315_InterfacesOffsets/* interfaceOffsets */
+	, &ConfigurationElement_t3318_0_0_0/* parent */
+	, ConfigurationElementCollection_t3315_VTable/* vtableMethods */
+	, ConfigurationElementCollection_t3315_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 60/* fieldStart */
 
 };
-TypeInfo ConfigurationElementCollection_t3312_il2cpp_TypeInfo = 
+TypeInfo ConfigurationElementCollection_t3315_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationElementCollection"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationElementCollection_t3312_MethodInfos/* methods */
-	, ConfigurationElementCollection_t3312_PropertyInfos/* properties */
+	, ConfigurationElementCollection_t3315_MethodInfos/* methods */
+	, ConfigurationElementCollection_t3315_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigurationElementCollection_t3312_il2cpp_TypeInfo/* element_class */
+	, &ConfigurationElementCollection_t3315_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 12/* custom_attributes_cache */
-	, &ConfigurationElementCollection_t3312_0_0_0/* byval_arg */
-	, &ConfigurationElementCollection_t3312_1_0_0/* this_arg */
-	, &ConfigurationElementCollection_t3312_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationElementCollection_t3315_0_0_0/* byval_arg */
+	, &ConfigurationElementCollection_t3315_1_0_0/* this_arg */
+	, &ConfigurationElementCollection_t3315_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -7247,8 +7247,8 @@ TypeInfo ConfigurationElementCollection_t3312_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationElementCollection_t3312)/* instance_size */
-	, sizeof (ConfigurationElementCollection_t3312)/* actualSize */
+	, sizeof (ConfigurationElementCollection_t3315)/* instance_size */
+	, sizeof (ConfigurationElementCollection_t3315)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -7280,14 +7280,14 @@ TypeInfo ConfigurationElementCollection_t3312_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationElementCollectionType
 #include "System_Configuration_System_Configuration_ConfigurationEleme.h"
 // Metadata Definition System.Configuration.ConfigurationElementCollectionType
-extern TypeInfo ConfigurationElementCollectionType_t3318_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationElementCollectionType_t3321_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationElementCollectionType
 #include "System_Configuration_System_Configuration_ConfigurationElemeMethodDeclarations.h"
-static const MethodInfo* ConfigurationElementCollectionType_t3318_MethodInfos[] =
+static const MethodInfo* ConfigurationElementCollectionType_t3321_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference ConfigurationElementCollectionType_t3318_VTable[] =
+static const Il2CppMethodReference ConfigurationElementCollectionType_t3321_VTable[] =
 {
 	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -7313,7 +7313,7 @@ static const Il2CppMethodReference ConfigurationElementCollectionType_t3318_VTab
 	&Enum_CompareTo_m523_MethodInfo,
 	&Enum_GetTypeCode_m524_MethodInfo,
 };
-static bool ConfigurationElementCollectionType_t3318_VTableIsGenericMethod[] =
+static bool ConfigurationElementCollectionType_t3321_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -7339,42 +7339,42 @@ static bool ConfigurationElementCollectionType_t3318_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair ConfigurationElementCollectionType_t3318_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ConfigurationElementCollectionType_t3321_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
 	{ &IComparable_t99_0_0_0, 21},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationElementCollectionType_t3318_1_0_0;
-const Il2CppTypeDefinitionMetadata ConfigurationElementCollectionType_t3318_DefinitionMetadata = 
+extern const Il2CppType ConfigurationElementCollectionType_t3321_1_0_0;
+const Il2CppTypeDefinitionMetadata ConfigurationElementCollectionType_t3321_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ConfigurationElementCollectionType_t3318_InterfacesOffsets/* interfaceOffsets */
+	, ConfigurationElementCollectionType_t3321_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t100_0_0_0/* parent */
-	, ConfigurationElementCollectionType_t3318_VTable/* vtableMethods */
-	, ConfigurationElementCollectionType_t3318_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationElementCollectionType_t3321_VTable/* vtableMethods */
+	, ConfigurationElementCollectionType_t3321_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 70/* fieldStart */
 
 };
-TypeInfo ConfigurationElementCollectionType_t3318_il2cpp_TypeInfo = 
+TypeInfo ConfigurationElementCollectionType_t3321_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationElementCollectionType"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationElementCollectionType_t3318_MethodInfos/* methods */
+	, ConfigurationElementCollectionType_t3321_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
 	, &Int32_t82_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ConfigurationElementCollectionType_t3318_0_0_0/* byval_arg */
-	, &ConfigurationElementCollectionType_t3318_1_0_0/* this_arg */
-	, &ConfigurationElementCollectionType_t3318_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationElementCollectionType_t3321_0_0_0/* byval_arg */
+	, &ConfigurationElementCollectionType_t3321_1_0_0/* this_arg */
+	, &ConfigurationElementCollectionType_t3321_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -7384,8 +7384,8 @@ TypeInfo ConfigurationElementCollectionType_t3318_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationElementCollectionType_t3318)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (ConfigurationElementCollectionType_t3318)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (ConfigurationElementCollectionType_t3321)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (ConfigurationElementCollectionType_t3321)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -7417,7 +7417,7 @@ TypeInfo ConfigurationElementCollectionType_t3318_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationErrorsException
 #include "System_Configuration_System_Configuration_ConfigurationError.h"
 // Metadata Definition System.Configuration.ConfigurationErrorsException
-extern TypeInfo ConfigurationErrorsException_t3319_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationErrorsException_t3322_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationErrorsException
 #include "System_Configuration_System_Configuration_ConfigurationErrorMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -7426,7 +7426,7 @@ extern const MethodInfo ConfigurationErrorsException__ctor_m11802_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationErrorsException__ctor_m11802/* method */
-	, &ConfigurationErrorsException_t3319_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationErrorsException_t3322_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -7444,7 +7444,7 @@ extern const MethodInfo ConfigurationErrorsException__ctor_m11802_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationErrorsException_t3319_ConfigurationErrorsException__ctor_m11803_ParameterInfos[] = 
+static const ParameterInfo ConfigurationErrorsException_t3322_ConfigurationErrorsException__ctor_m11803_ParameterInfos[] = 
 {
 	{"message", 0, 134217860, 0, &String_t_0_0_0},
 };
@@ -7454,10 +7454,10 @@ extern const MethodInfo ConfigurationErrorsException__ctor_m11803_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationErrorsException__ctor_m11803/* method */
-	, &ConfigurationErrorsException_t3319_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationErrorsException_t3322_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationErrorsException_t3319_ConfigurationErrorsException__ctor_m11803_ParameterInfos/* parameters */
+	, ConfigurationErrorsException_t3322_ConfigurationErrorsException__ctor_m11803_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -7471,25 +7471,25 @@ extern const MethodInfo ConfigurationErrorsException__ctor_m11803_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SerializationInfo_t2937_0_0_0;
-extern const Il2CppType SerializationInfo_t2937_0_0_0;
-extern const Il2CppType StreamingContext_t2938_0_0_0;
-extern const Il2CppType StreamingContext_t2938_0_0_0;
-static const ParameterInfo ConfigurationErrorsException_t3319_ConfigurationErrorsException__ctor_m11804_ParameterInfos[] = 
+extern const Il2CppType SerializationInfo_t2940_0_0_0;
+extern const Il2CppType SerializationInfo_t2940_0_0_0;
+extern const Il2CppType StreamingContext_t2941_0_0_0;
+extern const Il2CppType StreamingContext_t2941_0_0_0;
+static const ParameterInfo ConfigurationErrorsException_t3322_ConfigurationErrorsException__ctor_m11804_ParameterInfos[] = 
 {
-	{"info", 0, 134217861, 0, &SerializationInfo_t2937_0_0_0},
-	{"context", 1, 134217862, 0, &StreamingContext_t2938_0_0_0},
+	{"info", 0, 134217861, 0, &SerializationInfo_t2940_0_0_0},
+	{"context", 1, 134217862, 0, &StreamingContext_t2941_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2938 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2941 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationErrorsException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern const MethodInfo ConfigurationErrorsException__ctor_m11804_MethodInfo = 
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationErrorsException__ctor_m11804/* method */
-	, &ConfigurationErrorsException_t3319_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationErrorsException_t3322_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2938/* invoker_method */
-	, ConfigurationErrorsException_t3319_ConfigurationErrorsException__ctor_m11804_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2941/* invoker_method */
+	, ConfigurationErrorsException_t3322_ConfigurationErrorsException__ctor_m11804_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6276/* flags */
 	, 0/* iflags */
@@ -7506,7 +7506,7 @@ extern const MethodInfo ConfigurationErrorsException__ctor_m11804_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Exception_t57_0_0_0;
 extern const Il2CppType Exception_t57_0_0_0;
-static const ParameterInfo ConfigurationErrorsException_t3319_ConfigurationErrorsException__ctor_m11805_ParameterInfos[] = 
+static const ParameterInfo ConfigurationErrorsException_t3322_ConfigurationErrorsException__ctor_m11805_ParameterInfos[] = 
 {
 	{"message", 0, 134217863, 0, &String_t_0_0_0},
 	{"inner", 1, 134217864, 0, &Exception_t57_0_0_0},
@@ -7517,10 +7517,10 @@ extern const MethodInfo ConfigurationErrorsException__ctor_m11805_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationErrorsException__ctor_m11805/* method */
-	, &ConfigurationErrorsException_t3319_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationErrorsException_t3322_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ConfigurationErrorsException_t3319_ConfigurationErrorsException__ctor_m11805_ParameterInfos/* parameters */
+	, ConfigurationErrorsException_t3322_ConfigurationErrorsException__ctor_m11805_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -7535,12 +7535,12 @@ extern const MethodInfo ConfigurationErrorsException__ctor_m11805_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlNode_t732_0_0_0;
-extern const Il2CppType XmlNode_t732_0_0_0;
-static const ParameterInfo ConfigurationErrorsException_t3319_ConfigurationErrorsException__ctor_m11806_ParameterInfos[] = 
+extern const Il2CppType XmlNode_t735_0_0_0;
+extern const Il2CppType XmlNode_t735_0_0_0;
+static const ParameterInfo ConfigurationErrorsException_t3322_ConfigurationErrorsException__ctor_m11806_ParameterInfos[] = 
 {
 	{"message", 0, 134217865, 0, &String_t_0_0_0},
-	{"node", 1, 134217866, 0, &XmlNode_t732_0_0_0},
+	{"node", 1, 134217866, 0, &XmlNode_t735_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationErrorsException::.ctor(System.String,System.Xml.XmlNode)
@@ -7548,10 +7548,10 @@ extern const MethodInfo ConfigurationErrorsException__ctor_m11806_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationErrorsException__ctor_m11806/* method */
-	, &ConfigurationErrorsException_t3319_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationErrorsException_t3322_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ConfigurationErrorsException_t3319_ConfigurationErrorsException__ctor_m11806_ParameterInfos/* parameters */
+	, ConfigurationErrorsException_t3322_ConfigurationErrorsException__ctor_m11806_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -7566,11 +7566,11 @@ extern const MethodInfo ConfigurationErrorsException__ctor_m11806_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlReader_t3369_0_0_0;
-static const ParameterInfo ConfigurationErrorsException_t3319_ConfigurationErrorsException__ctor_m11807_ParameterInfos[] = 
+extern const Il2CppType XmlReader_t3372_0_0_0;
+static const ParameterInfo ConfigurationErrorsException_t3322_ConfigurationErrorsException__ctor_m11807_ParameterInfos[] = 
 {
 	{"message", 0, 134217867, 0, &String_t_0_0_0},
-	{"reader", 1, 134217868, 0, &XmlReader_t3369_0_0_0},
+	{"reader", 1, 134217868, 0, &XmlReader_t3372_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationErrorsException::.ctor(System.String,System.Xml.XmlReader)
@@ -7578,10 +7578,10 @@ extern const MethodInfo ConfigurationErrorsException__ctor_m11807_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationErrorsException__ctor_m11807/* method */
-	, &ConfigurationErrorsException_t3319_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationErrorsException_t3322_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ConfigurationErrorsException_t3319_ConfigurationErrorsException__ctor_m11807_ParameterInfos/* parameters */
+	, ConfigurationErrorsException_t3322_ConfigurationErrorsException__ctor_m11807_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -7599,7 +7599,7 @@ extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Exception_t57_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ConfigurationErrorsException_t3319_ConfigurationErrorsException__ctor_m11808_ParameterInfos[] = 
+static const ParameterInfo ConfigurationErrorsException_t3322_ConfigurationErrorsException__ctor_m11808_ParameterInfos[] = 
 {
 	{"message", 0, 134217869, 0, &String_t_0_0_0},
 	{"inner", 1, 134217870, 0, &Exception_t57_0_0_0},
@@ -7612,10 +7612,10 @@ extern const MethodInfo ConfigurationErrorsException__ctor_m11808_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationErrorsException__ctor_m11808/* method */
-	, &ConfigurationErrorsException_t3319_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationErrorsException_t3322_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Int32_t82/* invoker_method */
-	, ConfigurationErrorsException_t3319_ConfigurationErrorsException__ctor_m11808_ParameterInfos/* parameters */
+	, ConfigurationErrorsException_t3322_ConfigurationErrorsException__ctor_m11808_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -7635,7 +7635,7 @@ extern const MethodInfo ConfigurationErrorsException_get_BareMessage_m11809_Meth
 {
 	"get_BareMessage"/* name */
 	, (methodPointerType)&ConfigurationErrorsException_get_BareMessage_m11809/* method */
-	, &ConfigurationErrorsException_t3319_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationErrorsException_t3322_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -7658,7 +7658,7 @@ extern const MethodInfo ConfigurationErrorsException_get_Message_m11810_MethodIn
 {
 	"get_Message"/* name */
 	, (methodPointerType)&ConfigurationErrorsException_get_Message_m11810/* method */
-	, &ConfigurationErrorsException_t3319_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationErrorsException_t3322_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -7675,10 +7675,10 @@ extern const MethodInfo ConfigurationErrorsException_get_Message_m11810_MethodIn
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlReader_t3369_0_0_0;
-static const ParameterInfo ConfigurationErrorsException_t3319_ConfigurationErrorsException_GetFilename_m11811_ParameterInfos[] = 
+extern const Il2CppType XmlReader_t3372_0_0_0;
+static const ParameterInfo ConfigurationErrorsException_t3322_ConfigurationErrorsException_GetFilename_m11811_ParameterInfos[] = 
 {
-	{"reader", 0, 134217873, 0, &XmlReader_t3369_0_0_0},
+	{"reader", 0, 134217873, 0, &XmlReader_t3372_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Configuration.ConfigurationErrorsException::GetFilename(System.Xml.XmlReader)
@@ -7686,10 +7686,10 @@ extern const MethodInfo ConfigurationErrorsException_GetFilename_m11811_MethodIn
 {
 	"GetFilename"/* name */
 	, (methodPointerType)&ConfigurationErrorsException_GetFilename_m11811/* method */
-	, &ConfigurationErrorsException_t3319_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationErrorsException_t3322_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConfigurationErrorsException_t3319_ConfigurationErrorsException_GetFilename_m11811_ParameterInfos/* parameters */
+	, ConfigurationErrorsException_t3322_ConfigurationErrorsException_GetFilename_m11811_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -7703,10 +7703,10 @@ extern const MethodInfo ConfigurationErrorsException_GetFilename_m11811_MethodIn
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlReader_t3369_0_0_0;
-static const ParameterInfo ConfigurationErrorsException_t3319_ConfigurationErrorsException_GetLineNumber_m11812_ParameterInfos[] = 
+extern const Il2CppType XmlReader_t3372_0_0_0;
+static const ParameterInfo ConfigurationErrorsException_t3322_ConfigurationErrorsException_GetLineNumber_m11812_ParameterInfos[] = 
 {
-	{"reader", 0, 134217874, 0, &XmlReader_t3369_0_0_0},
+	{"reader", 0, 134217874, 0, &XmlReader_t3372_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Configuration.ConfigurationErrorsException::GetLineNumber(System.Xml.XmlReader)
@@ -7714,10 +7714,10 @@ extern const MethodInfo ConfigurationErrorsException_GetLineNumber_m11812_Method
 {
 	"GetLineNumber"/* name */
 	, (methodPointerType)&ConfigurationErrorsException_GetLineNumber_m11812/* method */
-	, &ConfigurationErrorsException_t3319_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationErrorsException_t3322_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, ConfigurationErrorsException_t3319_ConfigurationErrorsException_GetLineNumber_m11812_ParameterInfos/* parameters */
+	, ConfigurationErrorsException_t3322_ConfigurationErrorsException_GetLineNumber_m11812_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -7731,10 +7731,10 @@ extern const MethodInfo ConfigurationErrorsException_GetLineNumber_m11812_Method
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t732_0_0_0;
-static const ParameterInfo ConfigurationErrorsException_t3319_ConfigurationErrorsException_GetFilename_m11813_ParameterInfos[] = 
+extern const Il2CppType XmlNode_t735_0_0_0;
+static const ParameterInfo ConfigurationErrorsException_t3322_ConfigurationErrorsException_GetFilename_m11813_ParameterInfos[] = 
 {
-	{"node", 0, 134217875, 0, &XmlNode_t732_0_0_0},
+	{"node", 0, 134217875, 0, &XmlNode_t735_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Configuration.ConfigurationErrorsException::GetFilename(System.Xml.XmlNode)
@@ -7742,10 +7742,10 @@ extern const MethodInfo ConfigurationErrorsException_GetFilename_m11813_MethodIn
 {
 	"GetFilename"/* name */
 	, (methodPointerType)&ConfigurationErrorsException_GetFilename_m11813/* method */
-	, &ConfigurationErrorsException_t3319_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationErrorsException_t3322_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConfigurationErrorsException_t3319_ConfigurationErrorsException_GetFilename_m11813_ParameterInfos/* parameters */
+	, ConfigurationErrorsException_t3322_ConfigurationErrorsException_GetFilename_m11813_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -7759,10 +7759,10 @@ extern const MethodInfo ConfigurationErrorsException_GetFilename_m11813_MethodIn
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlNode_t732_0_0_0;
-static const ParameterInfo ConfigurationErrorsException_t3319_ConfigurationErrorsException_GetLineNumber_m11814_ParameterInfos[] = 
+extern const Il2CppType XmlNode_t735_0_0_0;
+static const ParameterInfo ConfigurationErrorsException_t3322_ConfigurationErrorsException_GetLineNumber_m11814_ParameterInfos[] = 
 {
-	{"node", 0, 134217876, 0, &XmlNode_t732_0_0_0},
+	{"node", 0, 134217876, 0, &XmlNode_t735_0_0_0},
 };
 extern void* RuntimeInvoker_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Int32 System.Configuration.ConfigurationErrorsException::GetLineNumber(System.Xml.XmlNode)
@@ -7770,10 +7770,10 @@ extern const MethodInfo ConfigurationErrorsException_GetLineNumber_m11814_Method
 {
 	"GetLineNumber"/* name */
 	, (methodPointerType)&ConfigurationErrorsException_GetLineNumber_m11814/* method */
-	, &ConfigurationErrorsException_t3319_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationErrorsException_t3322_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82_Object_t/* invoker_method */
-	, ConfigurationErrorsException_t3319_ConfigurationErrorsException_GetLineNumber_m11814_ParameterInfos/* parameters */
+	, ConfigurationErrorsException_t3322_ConfigurationErrorsException_GetLineNumber_m11814_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -7787,23 +7787,23 @@ extern const MethodInfo ConfigurationErrorsException_GetLineNumber_m11814_Method
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SerializationInfo_t2937_0_0_0;
-extern const Il2CppType StreamingContext_t2938_0_0_0;
-static const ParameterInfo ConfigurationErrorsException_t3319_ConfigurationErrorsException_GetObjectData_m11815_ParameterInfos[] = 
+extern const Il2CppType SerializationInfo_t2940_0_0_0;
+extern const Il2CppType StreamingContext_t2941_0_0_0;
+static const ParameterInfo ConfigurationErrorsException_t3322_ConfigurationErrorsException_GetObjectData_m11815_ParameterInfos[] = 
 {
-	{"info", 0, 134217877, 0, &SerializationInfo_t2937_0_0_0},
-	{"context", 1, 134217878, 0, &StreamingContext_t2938_0_0_0},
+	{"info", 0, 134217877, 0, &SerializationInfo_t2940_0_0_0},
+	{"context", 1, 134217878, 0, &StreamingContext_t2941_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2938 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2941 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationErrorsException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern const MethodInfo ConfigurationErrorsException_GetObjectData_m11815_MethodInfo = 
 {
 	"GetObjectData"/* name */
 	, (methodPointerType)&ConfigurationErrorsException_GetObjectData_m11815/* method */
-	, &ConfigurationErrorsException_t3319_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationErrorsException_t3322_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2938/* invoker_method */
-	, ConfigurationErrorsException_t3319_ConfigurationErrorsException_GetObjectData_m11815_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2941/* invoker_method */
+	, ConfigurationErrorsException_t3322_ConfigurationErrorsException_GetObjectData_m11815_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -7817,7 +7817,7 @@ extern const MethodInfo ConfigurationErrorsException_GetObjectData_m11815_Method
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigurationErrorsException_t3319_MethodInfos[] =
+static const MethodInfo* ConfigurationErrorsException_t3322_MethodInfos[] =
 {
 	&ConfigurationErrorsException__ctor_m11802_MethodInfo,
 	&ConfigurationErrorsException__ctor_m11803_MethodInfo,
@@ -7836,9 +7836,9 @@ static const MethodInfo* ConfigurationErrorsException_t3319_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ConfigurationErrorsException_get_BareMessage_m11809_MethodInfo;
-static const PropertyInfo ConfigurationErrorsException_t3319____BareMessage_PropertyInfo = 
+static const PropertyInfo ConfigurationErrorsException_t3322____BareMessage_PropertyInfo = 
 {
-	&ConfigurationErrorsException_t3319_il2cpp_TypeInfo/* parent */
+	&ConfigurationErrorsException_t3322_il2cpp_TypeInfo/* parent */
 	, "BareMessage"/* name */
 	, &ConfigurationErrorsException_get_BareMessage_m11809_MethodInfo/* get */
 	, NULL/* set */
@@ -7847,9 +7847,9 @@ static const PropertyInfo ConfigurationErrorsException_t3319____BareMessage_Prop
 
 };
 extern const MethodInfo ConfigurationErrorsException_get_Message_m11810_MethodInfo;
-static const PropertyInfo ConfigurationErrorsException_t3319____Message_PropertyInfo = 
+static const PropertyInfo ConfigurationErrorsException_t3322____Message_PropertyInfo = 
 {
-	&ConfigurationErrorsException_t3319_il2cpp_TypeInfo/* parent */
+	&ConfigurationErrorsException_t3322_il2cpp_TypeInfo/* parent */
 	, "Message"/* name */
 	, &ConfigurationErrorsException_get_Message_m11810_MethodInfo/* get */
 	, NULL/* set */
@@ -7857,10 +7857,10 @@ static const PropertyInfo ConfigurationErrorsException_t3319____Message_Property
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigurationErrorsException_t3319_PropertyInfos[] =
+static const PropertyInfo* ConfigurationErrorsException_t3322_PropertyInfos[] =
 {
-	&ConfigurationErrorsException_t3319____BareMessage_PropertyInfo,
-	&ConfigurationErrorsException_t3319____Message_PropertyInfo,
+	&ConfigurationErrorsException_t3322____BareMessage_PropertyInfo,
+	&ConfigurationErrorsException_t3322____Message_PropertyInfo,
 	NULL
 };
 extern const MethodInfo Exception_ToString_m7964_MethodInfo;
@@ -7869,7 +7869,7 @@ extern const MethodInfo Exception_get_InnerException_m8555_MethodInfo;
 extern const MethodInfo Exception_get_Source_m8557_MethodInfo;
 extern const MethodInfo Exception_get_StackTrace_m8558_MethodInfo;
 extern const MethodInfo Exception_GetType_m8559_MethodInfo;
-static const Il2CppMethodReference ConfigurationErrorsException_t3319_VTable[] =
+static const Il2CppMethodReference ConfigurationErrorsException_t3322_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -7884,7 +7884,7 @@ static const Il2CppMethodReference ConfigurationErrorsException_t3319_VTable[] =
 	&Exception_GetType_m8559_MethodInfo,
 	&ConfigurationErrorsException_get_BareMessage_m11809_MethodInfo,
 };
-static bool ConfigurationErrorsException_t3319_VTableIsGenericMethod[] =
+static bool ConfigurationErrorsException_t3322_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -7899,45 +7899,45 @@ static bool ConfigurationErrorsException_t3319_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType _Exception_t2400_0_0_0;
-static Il2CppInterfaceOffsetPair ConfigurationErrorsException_t3319_InterfacesOffsets[] = 
+extern const Il2CppType _Exception_t2403_0_0_0;
+static Il2CppInterfaceOffsetPair ConfigurationErrorsException_t3322_InterfacesOffsets[] = 
 {
-	{ &ISerializable_t834_0_0_0, 4},
-	{ &_Exception_t2400_0_0_0, 5},
+	{ &ISerializable_t837_0_0_0, 4},
+	{ &_Exception_t2403_0_0_0, 5},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationErrorsException_t3319_0_0_0;
-extern const Il2CppType ConfigurationErrorsException_t3319_1_0_0;
-extern const Il2CppType ConfigurationException_t3320_0_0_0;
-struct ConfigurationErrorsException_t3319;
-const Il2CppTypeDefinitionMetadata ConfigurationErrorsException_t3319_DefinitionMetadata = 
+extern const Il2CppType ConfigurationErrorsException_t3322_0_0_0;
+extern const Il2CppType ConfigurationErrorsException_t3322_1_0_0;
+extern const Il2CppType ConfigurationException_t3323_0_0_0;
+struct ConfigurationErrorsException_t3322;
+const Il2CppTypeDefinitionMetadata ConfigurationErrorsException_t3322_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ConfigurationErrorsException_t3319_InterfacesOffsets/* interfaceOffsets */
-	, &ConfigurationException_t3320_0_0_0/* parent */
-	, ConfigurationErrorsException_t3319_VTable/* vtableMethods */
-	, ConfigurationErrorsException_t3319_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationErrorsException_t3322_InterfacesOffsets/* interfaceOffsets */
+	, &ConfigurationException_t3323_0_0_0/* parent */
+	, ConfigurationErrorsException_t3322_VTable/* vtableMethods */
+	, ConfigurationErrorsException_t3322_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 75/* fieldStart */
 
 };
-TypeInfo ConfigurationErrorsException_t3319_il2cpp_TypeInfo = 
+TypeInfo ConfigurationErrorsException_t3322_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationErrorsException"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationErrorsException_t3319_MethodInfos/* methods */
-	, ConfigurationErrorsException_t3319_PropertyInfos/* properties */
+	, ConfigurationErrorsException_t3322_MethodInfos/* methods */
+	, ConfigurationErrorsException_t3322_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigurationErrorsException_t3319_il2cpp_TypeInfo/* element_class */
+	, &ConfigurationErrorsException_t3322_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ConfigurationErrorsException_t3319_0_0_0/* byval_arg */
-	, &ConfigurationErrorsException_t3319_1_0_0/* this_arg */
-	, &ConfigurationErrorsException_t3319_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationErrorsException_t3322_0_0_0/* byval_arg */
+	, &ConfigurationErrorsException_t3322_1_0_0/* this_arg */
+	, &ConfigurationErrorsException_t3322_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -7947,8 +7947,8 @@ TypeInfo ConfigurationErrorsException_t3319_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationErrorsException_t3319)/* instance_size */
-	, sizeof (ConfigurationErrorsException_t3319)/* actualSize */
+	, sizeof (ConfigurationErrorsException_t3322)/* instance_size */
+	, sizeof (ConfigurationErrorsException_t3322)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -7980,7 +7980,7 @@ TypeInfo ConfigurationErrorsException_t3319_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationFileMap
 #include "System_Configuration_System_Configuration_ConfigurationFileM.h"
 // Metadata Definition System.Configuration.ConfigurationFileMap
-extern TypeInfo ConfigurationFileMap_t3321_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationFileMap_t3324_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationFileMap
 #include "System_Configuration_System_Configuration_ConfigurationFileMMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -7989,7 +7989,7 @@ extern const MethodInfo ConfigurationFileMap__ctor_m11816_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationFileMap__ctor_m11816/* method */
-	, &ConfigurationFileMap_t3321_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationFileMap_t3324_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -8007,7 +8007,7 @@ extern const MethodInfo ConfigurationFileMap__ctor_m11816_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationFileMap_t3321_ConfigurationFileMap__ctor_m11817_ParameterInfos[] = 
+static const ParameterInfo ConfigurationFileMap_t3324_ConfigurationFileMap__ctor_m11817_ParameterInfos[] = 
 {
 	{"machineConfigFilename", 0, 134217879, 0, &String_t_0_0_0},
 };
@@ -8017,10 +8017,10 @@ extern const MethodInfo ConfigurationFileMap__ctor_m11817_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationFileMap__ctor_m11817/* method */
-	, &ConfigurationFileMap_t3321_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationFileMap_t3324_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationFileMap_t3321_ConfigurationFileMap__ctor_m11817_ParameterInfos/* parameters */
+	, ConfigurationFileMap_t3324_ConfigurationFileMap__ctor_m11817_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -8040,7 +8040,7 @@ extern const MethodInfo ConfigurationFileMap_get_MachineConfigFilename_m11818_Me
 {
 	"get_MachineConfigFilename"/* name */
 	, (methodPointerType)&ConfigurationFileMap_get_MachineConfigFilename_m11818/* method */
-	, &ConfigurationFileMap_t3321_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationFileMap_t3324_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -8058,7 +8058,7 @@ extern const MethodInfo ConfigurationFileMap_get_MachineConfigFilename_m11818_Me
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationFileMap_t3321_ConfigurationFileMap_set_MachineConfigFilename_m11819_ParameterInfos[] = 
+static const ParameterInfo ConfigurationFileMap_t3324_ConfigurationFileMap_set_MachineConfigFilename_m11819_ParameterInfos[] = 
 {
 	{"value", 0, 134217880, 0, &String_t_0_0_0},
 };
@@ -8068,10 +8068,10 @@ extern const MethodInfo ConfigurationFileMap_set_MachineConfigFilename_m11819_Me
 {
 	"set_MachineConfigFilename"/* name */
 	, (methodPointerType)&ConfigurationFileMap_set_MachineConfigFilename_m11819/* method */
-	, &ConfigurationFileMap_t3321_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationFileMap_t3324_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationFileMap_t3321_ConfigurationFileMap_set_MachineConfigFilename_m11819_ParameterInfos/* parameters */
+	, ConfigurationFileMap_t3324_ConfigurationFileMap_set_MachineConfigFilename_m11819_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -8091,7 +8091,7 @@ extern const MethodInfo ConfigurationFileMap_Clone_m11820_MethodInfo =
 {
 	"Clone"/* name */
 	, (methodPointerType)&ConfigurationFileMap_Clone_m11820/* method */
-	, &ConfigurationFileMap_t3321_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationFileMap_t3324_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -8108,7 +8108,7 @@ extern const MethodInfo ConfigurationFileMap_Clone_m11820_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigurationFileMap_t3321_MethodInfos[] =
+static const MethodInfo* ConfigurationFileMap_t3324_MethodInfos[] =
 {
 	&ConfigurationFileMap__ctor_m11816_MethodInfo,
 	&ConfigurationFileMap__ctor_m11817_MethodInfo,
@@ -8119,9 +8119,9 @@ static const MethodInfo* ConfigurationFileMap_t3321_MethodInfos[] =
 };
 extern const MethodInfo ConfigurationFileMap_get_MachineConfigFilename_m11818_MethodInfo;
 extern const MethodInfo ConfigurationFileMap_set_MachineConfigFilename_m11819_MethodInfo;
-static const PropertyInfo ConfigurationFileMap_t3321____MachineConfigFilename_PropertyInfo = 
+static const PropertyInfo ConfigurationFileMap_t3324____MachineConfigFilename_PropertyInfo = 
 {
-	&ConfigurationFileMap_t3321_il2cpp_TypeInfo/* parent */
+	&ConfigurationFileMap_t3324_il2cpp_TypeInfo/* parent */
 	, "MachineConfigFilename"/* name */
 	, &ConfigurationFileMap_get_MachineConfigFilename_m11818_MethodInfo/* get */
 	, &ConfigurationFileMap_set_MachineConfigFilename_m11819_MethodInfo/* set */
@@ -8129,13 +8129,13 @@ static const PropertyInfo ConfigurationFileMap_t3321____MachineConfigFilename_Pr
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigurationFileMap_t3321_PropertyInfos[] =
+static const PropertyInfo* ConfigurationFileMap_t3324_PropertyInfos[] =
 {
-	&ConfigurationFileMap_t3321____MachineConfigFilename_PropertyInfo,
+	&ConfigurationFileMap_t3324____MachineConfigFilename_PropertyInfo,
 	NULL
 };
 extern const MethodInfo ConfigurationFileMap_Clone_m11820_MethodInfo;
-static const Il2CppMethodReference ConfigurationFileMap_t3321_VTable[] =
+static const Il2CppMethodReference ConfigurationFileMap_t3324_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -8144,7 +8144,7 @@ static const Il2CppMethodReference ConfigurationFileMap_t3321_VTable[] =
 	&ConfigurationFileMap_Clone_m11820_MethodInfo,
 	&ConfigurationFileMap_Clone_m11820_MethodInfo,
 };
-static bool ConfigurationFileMap_t3321_VTableIsGenericMethod[] =
+static bool ConfigurationFileMap_t3324_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -8153,47 +8153,47 @@ static bool ConfigurationFileMap_t3321_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern const Il2CppType ICloneable_t833_0_0_0;
-static const Il2CppType* ConfigurationFileMap_t3321_InterfacesTypeInfos[] = 
+extern const Il2CppType ICloneable_t836_0_0_0;
+static const Il2CppType* ConfigurationFileMap_t3324_InterfacesTypeInfos[] = 
 {
-	&ICloneable_t833_0_0_0,
+	&ICloneable_t836_0_0_0,
 };
-static Il2CppInterfaceOffsetPair ConfigurationFileMap_t3321_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ConfigurationFileMap_t3324_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t833_0_0_0, 4},
+	{ &ICloneable_t836_0_0_0, 4},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationFileMap_t3321_0_0_0;
-extern const Il2CppType ConfigurationFileMap_t3321_1_0_0;
-struct ConfigurationFileMap_t3321;
-const Il2CppTypeDefinitionMetadata ConfigurationFileMap_t3321_DefinitionMetadata = 
+extern const Il2CppType ConfigurationFileMap_t3324_0_0_0;
+extern const Il2CppType ConfigurationFileMap_t3324_1_0_0;
+struct ConfigurationFileMap_t3324;
+const Il2CppTypeDefinitionMetadata ConfigurationFileMap_t3324_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, ConfigurationFileMap_t3321_InterfacesTypeInfos/* implementedInterfaces */
-	, ConfigurationFileMap_t3321_InterfacesOffsets/* interfaceOffsets */
+	, ConfigurationFileMap_t3324_InterfacesTypeInfos/* implementedInterfaces */
+	, ConfigurationFileMap_t3324_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ConfigurationFileMap_t3321_VTable/* vtableMethods */
-	, ConfigurationFileMap_t3321_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationFileMap_t3324_VTable/* vtableMethods */
+	, ConfigurationFileMap_t3324_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 77/* fieldStart */
 
 };
-TypeInfo ConfigurationFileMap_t3321_il2cpp_TypeInfo = 
+TypeInfo ConfigurationFileMap_t3324_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationFileMap"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationFileMap_t3321_MethodInfos/* methods */
-	, ConfigurationFileMap_t3321_PropertyInfos/* properties */
+	, ConfigurationFileMap_t3324_MethodInfos/* methods */
+	, ConfigurationFileMap_t3324_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigurationFileMap_t3321_il2cpp_TypeInfo/* element_class */
+	, &ConfigurationFileMap_t3324_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ConfigurationFileMap_t3321_0_0_0/* byval_arg */
-	, &ConfigurationFileMap_t3321_1_0_0/* this_arg */
-	, &ConfigurationFileMap_t3321_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationFileMap_t3324_0_0_0/* byval_arg */
+	, &ConfigurationFileMap_t3324_1_0_0/* this_arg */
+	, &ConfigurationFileMap_t3324_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8203,8 +8203,8 @@ TypeInfo ConfigurationFileMap_t3321_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationFileMap_t3321)/* instance_size */
-	, sizeof (ConfigurationFileMap_t3321)/* actualSize */
+	, sizeof (ConfigurationFileMap_t3324)/* instance_size */
+	, sizeof (ConfigurationFileMap_t3324)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -8236,18 +8236,18 @@ TypeInfo ConfigurationFileMap_t3321_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationLocation
 #include "System_Configuration_System_Configuration_ConfigurationLocat.h"
 // Metadata Definition System.Configuration.ConfigurationLocation
-extern TypeInfo ConfigurationLocation_t3322_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationLocation_t3325_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationLocation
 #include "System_Configuration_System_Configuration_ConfigurationLocatMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType Configuration_t3297_0_0_0;
+extern const Il2CppType Configuration_t3300_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ConfigurationLocation_t3322_ConfigurationLocation__ctor_m11821_ParameterInfos[] = 
+static const ParameterInfo ConfigurationLocation_t3325_ConfigurationLocation__ctor_m11821_ParameterInfos[] = 
 {
 	{"path", 0, 134217881, 0, &String_t_0_0_0},
 	{"xmlContent", 1, 134217882, 0, &String_t_0_0_0},
-	{"parent", 2, 134217883, 0, &Configuration_t3297_0_0_0},
+	{"parent", 2, 134217883, 0, &Configuration_t3300_0_0_0},
 	{"allowOverride", 3, 134217884, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -8256,10 +8256,10 @@ extern const MethodInfo ConfigurationLocation__ctor_m11821_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationLocation__ctor_m11821/* method */
-	, &ConfigurationLocation_t3322_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLocation_t3325_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_SByte_t88/* invoker_method */
-	, ConfigurationLocation_t3322_ConfigurationLocation__ctor_m11821_ParameterInfos/* parameters */
+	, ConfigurationLocation_t3325_ConfigurationLocation__ctor_m11821_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -8279,7 +8279,7 @@ extern const MethodInfo ConfigurationLocation__cctor_m11822_MethodInfo =
 {
 	".cctor"/* name */
 	, (methodPointerType)&ConfigurationLocation__cctor_m11822/* method */
-	, &ConfigurationLocation_t3322_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLocation_t3325_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -8302,7 +8302,7 @@ extern const MethodInfo ConfigurationLocation_get_Path_m11823_MethodInfo =
 {
 	"get_Path"/* name */
 	, (methodPointerType)&ConfigurationLocation_get_Path_m11823/* method */
-	, &ConfigurationLocation_t3322_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLocation_t3325_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -8325,8 +8325,8 @@ extern const MethodInfo ConfigurationLocation_OpenConfiguration_m11824_MethodInf
 {
 	"OpenConfiguration"/* name */
 	, (methodPointerType)&ConfigurationLocation_OpenConfiguration_m11824/* method */
-	, &ConfigurationLocation_t3322_il2cpp_TypeInfo/* declaring_type */
-	, &Configuration_t3297_0_0_0/* return_type */
+	, &ConfigurationLocation_t3325_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -8342,10 +8342,10 @@ extern const MethodInfo ConfigurationLocation_OpenConfiguration_m11824_MethodInf
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Configuration_t3297_0_0_0;
-static const ParameterInfo ConfigurationLocation_t3322_ConfigurationLocation_SetParentConfiguration_m11825_ParameterInfos[] = 
+extern const Il2CppType Configuration_t3300_0_0_0;
+static const ParameterInfo ConfigurationLocation_t3325_ConfigurationLocation_SetParentConfiguration_m11825_ParameterInfos[] = 
 {
-	{"parent", 0, 134217885, 0, &Configuration_t3297_0_0_0},
+	{"parent", 0, 134217885, 0, &Configuration_t3300_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationLocation::SetParentConfiguration(System.Configuration.Configuration)
@@ -8353,10 +8353,10 @@ extern const MethodInfo ConfigurationLocation_SetParentConfiguration_m11825_Meth
 {
 	"SetParentConfiguration"/* name */
 	, (methodPointerType)&ConfigurationLocation_SetParentConfiguration_m11825/* method */
-	, &ConfigurationLocation_t3322_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLocation_t3325_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationLocation_t3322_ConfigurationLocation_SetParentConfiguration_m11825_ParameterInfos/* parameters */
+	, ConfigurationLocation_t3325_ConfigurationLocation_SetParentConfiguration_m11825_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -8370,7 +8370,7 @@ extern const MethodInfo ConfigurationLocation_SetParentConfiguration_m11825_Meth
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigurationLocation_t3322_MethodInfos[] =
+static const MethodInfo* ConfigurationLocation_t3325_MethodInfos[] =
 {
 	&ConfigurationLocation__ctor_m11821_MethodInfo,
 	&ConfigurationLocation__cctor_m11822_MethodInfo,
@@ -8380,9 +8380,9 @@ static const MethodInfo* ConfigurationLocation_t3322_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ConfigurationLocation_get_Path_m11823_MethodInfo;
-static const PropertyInfo ConfigurationLocation_t3322____Path_PropertyInfo = 
+static const PropertyInfo ConfigurationLocation_t3325____Path_PropertyInfo = 
 {
-	&ConfigurationLocation_t3322_il2cpp_TypeInfo/* parent */
+	&ConfigurationLocation_t3325_il2cpp_TypeInfo/* parent */
 	, "Path"/* name */
 	, &ConfigurationLocation_get_Path_m11823_MethodInfo/* get */
 	, NULL/* set */
@@ -8390,19 +8390,19 @@ static const PropertyInfo ConfigurationLocation_t3322____Path_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigurationLocation_t3322_PropertyInfos[] =
+static const PropertyInfo* ConfigurationLocation_t3325_PropertyInfos[] =
 {
-	&ConfigurationLocation_t3322____Path_PropertyInfo,
+	&ConfigurationLocation_t3325____Path_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference ConfigurationLocation_t3322_VTable[] =
+static const Il2CppMethodReference ConfigurationLocation_t3325_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool ConfigurationLocation_t3322_VTableIsGenericMethod[] =
+static bool ConfigurationLocation_t3325_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -8410,37 +8410,37 @@ static bool ConfigurationLocation_t3322_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationLocation_t3322_0_0_0;
-extern const Il2CppType ConfigurationLocation_t3322_1_0_0;
-struct ConfigurationLocation_t3322;
-const Il2CppTypeDefinitionMetadata ConfigurationLocation_t3322_DefinitionMetadata = 
+extern const Il2CppType ConfigurationLocation_t3325_0_0_0;
+extern const Il2CppType ConfigurationLocation_t3325_1_0_0;
+struct ConfigurationLocation_t3325;
+const Il2CppTypeDefinitionMetadata ConfigurationLocation_t3325_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ConfigurationLocation_t3322_VTable/* vtableMethods */
-	, ConfigurationLocation_t3322_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationLocation_t3325_VTable/* vtableMethods */
+	, ConfigurationLocation_t3325_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 78/* fieldStart */
 
 };
-TypeInfo ConfigurationLocation_t3322_il2cpp_TypeInfo = 
+TypeInfo ConfigurationLocation_t3325_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationLocation"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationLocation_t3322_MethodInfos/* methods */
-	, ConfigurationLocation_t3322_PropertyInfos/* properties */
+	, ConfigurationLocation_t3325_MethodInfos/* methods */
+	, ConfigurationLocation_t3325_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigurationLocation_t3322_il2cpp_TypeInfo/* element_class */
+	, &ConfigurationLocation_t3325_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ConfigurationLocation_t3322_0_0_0/* byval_arg */
-	, &ConfigurationLocation_t3322_1_0_0/* this_arg */
-	, &ConfigurationLocation_t3322_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationLocation_t3325_0_0_0/* byval_arg */
+	, &ConfigurationLocation_t3325_1_0_0/* this_arg */
+	, &ConfigurationLocation_t3325_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8450,11 +8450,11 @@ TypeInfo ConfigurationLocation_t3322_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationLocation_t3322)/* instance_size */
-	, sizeof (ConfigurationLocation_t3322)/* actualSize */
+	, sizeof (ConfigurationLocation_t3325)/* instance_size */
+	, sizeof (ConfigurationLocation_t3325)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(ConfigurationLocation_t3322_StaticFields)/* static_fields_size */
+	, sizeof(ConfigurationLocation_t3325_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048577/* flags */
@@ -8483,7 +8483,7 @@ TypeInfo ConfigurationLocation_t3322_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationLocationCollection
 #include "System_Configuration_System_Configuration_ConfigurationLocat_0.h"
 // Metadata Definition System.Configuration.ConfigurationLocationCollection
-extern TypeInfo ConfigurationLocationCollection_t3304_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationLocationCollection_t3307_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationLocationCollection
 #include "System_Configuration_System_Configuration_ConfigurationLocat_0MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -8492,7 +8492,7 @@ extern const MethodInfo ConfigurationLocationCollection__ctor_m11826_MethodInfo 
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationLocationCollection__ctor_m11826/* method */
-	, &ConfigurationLocationCollection_t3304_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLocationCollection_t3307_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -8509,10 +8509,10 @@ extern const MethodInfo ConfigurationLocationCollection__ctor_m11826_MethodInfo 
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationLocation_t3322_0_0_0;
-static const ParameterInfo ConfigurationLocationCollection_t3304_ConfigurationLocationCollection_Add_m11827_ParameterInfos[] = 
+extern const Il2CppType ConfigurationLocation_t3325_0_0_0;
+static const ParameterInfo ConfigurationLocationCollection_t3307_ConfigurationLocationCollection_Add_m11827_ParameterInfos[] = 
 {
-	{"loc", 0, 134217886, 0, &ConfigurationLocation_t3322_0_0_0},
+	{"loc", 0, 134217886, 0, &ConfigurationLocation_t3325_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationLocationCollection::Add(System.Configuration.ConfigurationLocation)
@@ -8520,10 +8520,10 @@ extern const MethodInfo ConfigurationLocationCollection_Add_m11827_MethodInfo =
 {
 	"Add"/* name */
 	, (methodPointerType)&ConfigurationLocationCollection_Add_m11827/* method */
-	, &ConfigurationLocationCollection_t3304_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLocationCollection_t3307_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationLocationCollection_t3304_ConfigurationLocationCollection_Add_m11827_ParameterInfos/* parameters */
+	, ConfigurationLocationCollection_t3307_ConfigurationLocationCollection_Add_m11827_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -8538,7 +8538,7 @@ extern const MethodInfo ConfigurationLocationCollection_Add_m11827_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationLocationCollection_t3304_ConfigurationLocationCollection_Find_m11828_ParameterInfos[] = 
+static const ParameterInfo ConfigurationLocationCollection_t3307_ConfigurationLocationCollection_Find_m11828_ParameterInfos[] = 
 {
 	{"location", 0, 134217887, 0, &String_t_0_0_0},
 };
@@ -8548,10 +8548,10 @@ extern const MethodInfo ConfigurationLocationCollection_Find_m11828_MethodInfo =
 {
 	"Find"/* name */
 	, (methodPointerType)&ConfigurationLocationCollection_Find_m11828/* method */
-	, &ConfigurationLocationCollection_t3304_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationLocation_t3322_0_0_0/* return_type */
+	, &ConfigurationLocationCollection_t3307_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLocation_t3325_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConfigurationLocationCollection_t3304_ConfigurationLocationCollection_Find_m11828_ParameterInfos/* parameters */
+	, ConfigurationLocationCollection_t3307_ConfigurationLocationCollection_Find_m11828_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -8565,7 +8565,7 @@ extern const MethodInfo ConfigurationLocationCollection_Find_m11828_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigurationLocationCollection_t3304_MethodInfos[] =
+static const MethodInfo* ConfigurationLocationCollection_t3307_MethodInfos[] =
 {
 	&ConfigurationLocationCollection__ctor_m11826_MethodInfo,
 	&ConfigurationLocationCollection_Add_m11827_MethodInfo,
@@ -8578,7 +8578,7 @@ extern const MethodInfo ReadOnlyCollectionBase_System_Collections_ICollection_ge
 extern const MethodInfo ReadOnlyCollectionBase_System_Collections_ICollection_get_SyncRoot_m12179_MethodInfo;
 extern const MethodInfo ReadOnlyCollectionBase_System_Collections_ICollection_CopyTo_m12180_MethodInfo;
 extern const MethodInfo ReadOnlyCollectionBase_GetEnumerator_m12181_MethodInfo;
-static const Il2CppMethodReference ConfigurationLocationCollection_t3304_VTable[] =
+static const Il2CppMethodReference ConfigurationLocationCollection_t3307_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -8592,7 +8592,7 @@ static const Il2CppMethodReference ConfigurationLocationCollection_t3304_VTable[
 	&ReadOnlyCollectionBase_get_Count_m12177_MethodInfo,
 	&ReadOnlyCollectionBase_GetEnumerator_m12181_MethodInfo,
 };
-static bool ConfigurationLocationCollection_t3304_VTableIsGenericMethod[] =
+static bool ConfigurationLocationCollection_t3307_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -8606,43 +8606,43 @@ static bool ConfigurationLocationCollection_t3304_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair ConfigurationLocationCollection_t3304_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ConfigurationLocationCollection_t3307_InterfacesOffsets[] = 
 {
 	{ &IEnumerable_t104_0_0_0, 4},
-	{ &ICollection_t769_0_0_0, 5},
+	{ &ICollection_t772_0_0_0, 5},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationLocationCollection_t3304_1_0_0;
-extern const Il2CppType ReadOnlyCollectionBase_t3323_0_0_0;
-struct ConfigurationLocationCollection_t3304;
-const Il2CppTypeDefinitionMetadata ConfigurationLocationCollection_t3304_DefinitionMetadata = 
+extern const Il2CppType ConfigurationLocationCollection_t3307_1_0_0;
+extern const Il2CppType ReadOnlyCollectionBase_t3326_0_0_0;
+struct ConfigurationLocationCollection_t3307;
+const Il2CppTypeDefinitionMetadata ConfigurationLocationCollection_t3307_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ConfigurationLocationCollection_t3304_InterfacesOffsets/* interfaceOffsets */
-	, &ReadOnlyCollectionBase_t3323_0_0_0/* parent */
-	, ConfigurationLocationCollection_t3304_VTable/* vtableMethods */
-	, ConfigurationLocationCollection_t3304_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationLocationCollection_t3307_InterfacesOffsets/* interfaceOffsets */
+	, &ReadOnlyCollectionBase_t3326_0_0_0/* parent */
+	, ConfigurationLocationCollection_t3307_VTable/* vtableMethods */
+	, ConfigurationLocationCollection_t3307_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo ConfigurationLocationCollection_t3304_il2cpp_TypeInfo = 
+TypeInfo ConfigurationLocationCollection_t3307_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationLocationCollection"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationLocationCollection_t3304_MethodInfos/* methods */
+	, ConfigurationLocationCollection_t3307_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ConfigurationLocationCollection_t3304_il2cpp_TypeInfo/* element_class */
+	, &ConfigurationLocationCollection_t3307_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 15/* custom_attributes_cache */
-	, &ConfigurationLocationCollection_t3304_0_0_0/* byval_arg */
-	, &ConfigurationLocationCollection_t3304_1_0_0/* this_arg */
-	, &ConfigurationLocationCollection_t3304_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationLocationCollection_t3307_0_0_0/* byval_arg */
+	, &ConfigurationLocationCollection_t3307_1_0_0/* this_arg */
+	, &ConfigurationLocationCollection_t3307_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8652,8 +8652,8 @@ TypeInfo ConfigurationLocationCollection_t3304_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationLocationCollection_t3304)/* instance_size */
-	, sizeof (ConfigurationLocationCollection_t3304)/* actualSize */
+	, sizeof (ConfigurationLocationCollection_t3307)/* instance_size */
+	, sizeof (ConfigurationLocationCollection_t3307)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -8685,14 +8685,14 @@ TypeInfo ConfigurationLocationCollection_t3304_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationLockType
 #include "System_Configuration_System_Configuration_ConfigurationLockT.h"
 // Metadata Definition System.Configuration.ConfigurationLockType
-extern TypeInfo ConfigurationLockType_t3324_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationLockType_t3327_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationLockType
 #include "System_Configuration_System_Configuration_ConfigurationLockTMethodDeclarations.h"
-static const MethodInfo* ConfigurationLockType_t3324_MethodInfos[] =
+static const MethodInfo* ConfigurationLockType_t3327_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference ConfigurationLockType_t3324_VTable[] =
+static const Il2CppMethodReference ConfigurationLockType_t3327_VTable[] =
 {
 	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -8718,7 +8718,7 @@ static const Il2CppMethodReference ConfigurationLockType_t3324_VTable[] =
 	&Enum_CompareTo_m523_MethodInfo,
 	&Enum_GetTypeCode_m524_MethodInfo,
 };
-static bool ConfigurationLockType_t3324_VTableIsGenericMethod[] =
+static bool ConfigurationLockType_t3327_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -8744,43 +8744,43 @@ static bool ConfigurationLockType_t3324_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair ConfigurationLockType_t3324_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ConfigurationLockType_t3327_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
 	{ &IComparable_t99_0_0_0, 21},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationLockType_t3324_0_0_0;
-extern const Il2CppType ConfigurationLockType_t3324_1_0_0;
-const Il2CppTypeDefinitionMetadata ConfigurationLockType_t3324_DefinitionMetadata = 
+extern const Il2CppType ConfigurationLockType_t3327_0_0_0;
+extern const Il2CppType ConfigurationLockType_t3327_1_0_0;
+const Il2CppTypeDefinitionMetadata ConfigurationLockType_t3327_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ConfigurationLockType_t3324_InterfacesOffsets/* interfaceOffsets */
+	, ConfigurationLockType_t3327_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t100_0_0_0/* parent */
-	, ConfigurationLockType_t3324_VTable/* vtableMethods */
-	, ConfigurationLockType_t3324_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationLockType_t3327_VTable/* vtableMethods */
+	, ConfigurationLockType_t3327_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 85/* fieldStart */
 
 };
-TypeInfo ConfigurationLockType_t3324_il2cpp_TypeInfo = 
+TypeInfo ConfigurationLockType_t3327_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationLockType"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationLockType_t3324_MethodInfos/* methods */
+	, ConfigurationLockType_t3327_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
 	, &Int32_t82_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 16/* custom_attributes_cache */
-	, &ConfigurationLockType_t3324_0_0_0/* byval_arg */
-	, &ConfigurationLockType_t3324_1_0_0/* this_arg */
-	, &ConfigurationLockType_t3324_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationLockType_t3327_0_0_0/* byval_arg */
+	, &ConfigurationLockType_t3327_1_0_0/* this_arg */
+	, &ConfigurationLockType_t3327_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8790,8 +8790,8 @@ TypeInfo ConfigurationLockType_t3324_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationLockType_t3324)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (ConfigurationLockType_t3324)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (ConfigurationLockType_t3327)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (ConfigurationLockType_t3327)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -8823,15 +8823,15 @@ TypeInfo ConfigurationLockType_t3324_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationLockCollection
 #include "System_Configuration_System_Configuration_ConfigurationLockC.h"
 // Metadata Definition System.Configuration.ConfigurationLockCollection
-extern TypeInfo ConfigurationLockCollection_t3314_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationLockCollection_t3317_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationLockCollection
 #include "System_Configuration_System_Configuration_ConfigurationLockCMethodDeclarations.h"
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-extern const Il2CppType ConfigurationLockType_t3324_0_0_0;
-static const ParameterInfo ConfigurationLockCollection_t3314_ConfigurationLockCollection__ctor_m11829_ParameterInfos[] = 
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+extern const Il2CppType ConfigurationLockType_t3327_0_0_0;
+static const ParameterInfo ConfigurationLockCollection_t3317_ConfigurationLockCollection__ctor_m11829_ParameterInfos[] = 
 {
-	{"element", 0, 134217888, 0, &ConfigurationElement_t3315_0_0_0},
-	{"lockType", 1, 134217889, 0, &ConfigurationLockType_t3324_0_0_0},
+	{"element", 0, 134217888, 0, &ConfigurationElement_t3318_0_0_0},
+	{"lockType", 1, 134217889, 0, &ConfigurationLockType_t3327_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationLockCollection::.ctor(System.Configuration.ConfigurationElement,System.Configuration.ConfigurationLockType)
@@ -8839,10 +8839,10 @@ extern const MethodInfo ConfigurationLockCollection__ctor_m11829_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationLockCollection__ctor_m11829/* method */
-	, &ConfigurationLockCollection_t3314_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLockCollection_t3317_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82/* invoker_method */
-	, ConfigurationLockCollection_t3314_ConfigurationLockCollection__ctor_m11829_ParameterInfos/* parameters */
+	, ConfigurationLockCollection_t3317_ConfigurationLockCollection__ctor_m11829_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -8858,7 +8858,7 @@ extern const MethodInfo ConfigurationLockCollection__ctor_m11829_MethodInfo =
 };
 extern const Il2CppType Array_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ConfigurationLockCollection_t3314_ConfigurationLockCollection_System_Collections_ICollection_CopyTo_m11830_ParameterInfos[] = 
+static const ParameterInfo ConfigurationLockCollection_t3317_ConfigurationLockCollection_System_Collections_ICollection_CopyTo_m11830_ParameterInfos[] = 
 {
 	{"array", 0, 134217890, 0, &Array_t_0_0_0},
 	{"index", 1, 134217891, 0, &Int32_t82_0_0_0},
@@ -8869,10 +8869,10 @@ extern const MethodInfo ConfigurationLockCollection_System_Collections_ICollecti
 {
 	"System.Collections.ICollection.CopyTo"/* name */
 	, (methodPointerType)&ConfigurationLockCollection_System_Collections_ICollection_CopyTo_m11830/* method */
-	, &ConfigurationLockCollection_t3314_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLockCollection_t3317_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82/* invoker_method */
-	, ConfigurationLockCollection_t3314_ConfigurationLockCollection_System_Collections_ICollection_CopyTo_m11830_ParameterInfos/* parameters */
+	, ConfigurationLockCollection_t3317_ConfigurationLockCollection_System_Collections_ICollection_CopyTo_m11830_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -8887,7 +8887,7 @@ extern const MethodInfo ConfigurationLockCollection_System_Collections_ICollecti
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationLockCollection_t3314_ConfigurationLockCollection_CheckName_m11831_ParameterInfos[] = 
+static const ParameterInfo ConfigurationLockCollection_t3317_ConfigurationLockCollection_CheckName_m11831_ParameterInfos[] = 
 {
 	{"name", 0, 134217892, 0, &String_t_0_0_0},
 };
@@ -8897,10 +8897,10 @@ extern const MethodInfo ConfigurationLockCollection_CheckName_m11831_MethodInfo 
 {
 	"CheckName"/* name */
 	, (methodPointerType)&ConfigurationLockCollection_CheckName_m11831/* method */
-	, &ConfigurationLockCollection_t3314_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLockCollection_t3317_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationLockCollection_t3314_ConfigurationLockCollection_CheckName_m11831_ParameterInfos/* parameters */
+	, ConfigurationLockCollection_t3317_ConfigurationLockCollection_CheckName_m11831_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -8915,7 +8915,7 @@ extern const MethodInfo ConfigurationLockCollection_CheckName_m11831_MethodInfo 
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationLockCollection_t3314_ConfigurationLockCollection_Add_m11832_ParameterInfos[] = 
+static const ParameterInfo ConfigurationLockCollection_t3317_ConfigurationLockCollection_Add_m11832_ParameterInfos[] = 
 {
 	{"name", 0, 134217893, 0, &String_t_0_0_0},
 };
@@ -8925,10 +8925,10 @@ extern const MethodInfo ConfigurationLockCollection_Add_m11832_MethodInfo =
 {
 	"Add"/* name */
 	, (methodPointerType)&ConfigurationLockCollection_Add_m11832/* method */
-	, &ConfigurationLockCollection_t3314_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLockCollection_t3317_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationLockCollection_t3314_ConfigurationLockCollection_Add_m11832_ParameterInfos/* parameters */
+	, ConfigurationLockCollection_t3317_ConfigurationLockCollection_Add_m11832_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -8948,7 +8948,7 @@ extern const MethodInfo ConfigurationLockCollection_Clear_m11833_MethodInfo =
 {
 	"Clear"/* name */
 	, (methodPointerType)&ConfigurationLockCollection_Clear_m11833/* method */
-	, &ConfigurationLockCollection_t3314_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLockCollection_t3317_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -8971,7 +8971,7 @@ extern const MethodInfo ConfigurationLockCollection_GetEnumerator_m11834_MethodI
 {
 	"GetEnumerator"/* name */
 	, (methodPointerType)&ConfigurationLockCollection_GetEnumerator_m11834/* method */
-	, &ConfigurationLockCollection_t3314_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLockCollection_t3317_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t48_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -8989,7 +8989,7 @@ extern const MethodInfo ConfigurationLockCollection_GetEnumerator_m11834_MethodI
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationLockCollection_t3314_ConfigurationLockCollection_SetFromList_m11835_ParameterInfos[] = 
+static const ParameterInfo ConfigurationLockCollection_t3317_ConfigurationLockCollection_SetFromList_m11835_ParameterInfos[] = 
 {
 	{"attributeList", 0, 134217894, 0, &String_t_0_0_0},
 };
@@ -8999,10 +8999,10 @@ extern const MethodInfo ConfigurationLockCollection_SetFromList_m11835_MethodInf
 {
 	"SetFromList"/* name */
 	, (methodPointerType)&ConfigurationLockCollection_SetFromList_m11835/* method */
-	, &ConfigurationLockCollection_t3314_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLockCollection_t3317_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationLockCollection_t3314_ConfigurationLockCollection_SetFromList_m11835_ParameterInfos/* parameters */
+	, ConfigurationLockCollection_t3317_ConfigurationLockCollection_SetFromList_m11835_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -9022,7 +9022,7 @@ extern const MethodInfo ConfigurationLockCollection_get_Count_m11836_MethodInfo 
 {
 	"get_Count"/* name */
 	, (methodPointerType)&ConfigurationLockCollection_get_Count_m11836/* method */
-	, &ConfigurationLockCollection_t3314_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLockCollection_t3317_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -9045,7 +9045,7 @@ extern const MethodInfo ConfigurationLockCollection_get_IsSynchronized_m11837_Me
 {
 	"get_IsSynchronized"/* name */
 	, (methodPointerType)&ConfigurationLockCollection_get_IsSynchronized_m11837/* method */
-	, &ConfigurationLockCollection_t3314_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLockCollection_t3317_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -9068,7 +9068,7 @@ extern const MethodInfo ConfigurationLockCollection_get_SyncRoot_m11838_MethodIn
 {
 	"get_SyncRoot"/* name */
 	, (methodPointerType)&ConfigurationLockCollection_get_SyncRoot_m11838/* method */
-	, &ConfigurationLockCollection_t3314_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationLockCollection_t3317_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -9085,7 +9085,7 @@ extern const MethodInfo ConfigurationLockCollection_get_SyncRoot_m11838_MethodIn
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigurationLockCollection_t3314_MethodInfos[] =
+static const MethodInfo* ConfigurationLockCollection_t3317_MethodInfos[] =
 {
 	&ConfigurationLockCollection__ctor_m11829_MethodInfo,
 	&ConfigurationLockCollection_System_Collections_ICollection_CopyTo_m11830_MethodInfo,
@@ -9100,9 +9100,9 @@ static const MethodInfo* ConfigurationLockCollection_t3314_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ConfigurationLockCollection_get_Count_m11836_MethodInfo;
-static const PropertyInfo ConfigurationLockCollection_t3314____Count_PropertyInfo = 
+static const PropertyInfo ConfigurationLockCollection_t3317____Count_PropertyInfo = 
 {
-	&ConfigurationLockCollection_t3314_il2cpp_TypeInfo/* parent */
+	&ConfigurationLockCollection_t3317_il2cpp_TypeInfo/* parent */
 	, "Count"/* name */
 	, &ConfigurationLockCollection_get_Count_m11836_MethodInfo/* get */
 	, NULL/* set */
@@ -9111,9 +9111,9 @@ static const PropertyInfo ConfigurationLockCollection_t3314____Count_PropertyInf
 
 };
 extern const MethodInfo ConfigurationLockCollection_get_IsSynchronized_m11837_MethodInfo;
-static const PropertyInfo ConfigurationLockCollection_t3314____IsSynchronized_PropertyInfo = 
+static const PropertyInfo ConfigurationLockCollection_t3317____IsSynchronized_PropertyInfo = 
 {
-	&ConfigurationLockCollection_t3314_il2cpp_TypeInfo/* parent */
+	&ConfigurationLockCollection_t3317_il2cpp_TypeInfo/* parent */
 	, "IsSynchronized"/* name */
 	, &ConfigurationLockCollection_get_IsSynchronized_m11837_MethodInfo/* get */
 	, NULL/* set */
@@ -9122,9 +9122,9 @@ static const PropertyInfo ConfigurationLockCollection_t3314____IsSynchronized_Pr
 
 };
 extern const MethodInfo ConfigurationLockCollection_get_SyncRoot_m11838_MethodInfo;
-static const PropertyInfo ConfigurationLockCollection_t3314____SyncRoot_PropertyInfo = 
+static const PropertyInfo ConfigurationLockCollection_t3317____SyncRoot_PropertyInfo = 
 {
-	&ConfigurationLockCollection_t3314_il2cpp_TypeInfo/* parent */
+	&ConfigurationLockCollection_t3317_il2cpp_TypeInfo/* parent */
 	, "SyncRoot"/* name */
 	, &ConfigurationLockCollection_get_SyncRoot_m11838_MethodInfo/* get */
 	, NULL/* set */
@@ -9132,16 +9132,16 @@ static const PropertyInfo ConfigurationLockCollection_t3314____SyncRoot_Property
 	, 18/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigurationLockCollection_t3314_PropertyInfos[] =
+static const PropertyInfo* ConfigurationLockCollection_t3317_PropertyInfos[] =
 {
-	&ConfigurationLockCollection_t3314____Count_PropertyInfo,
-	&ConfigurationLockCollection_t3314____IsSynchronized_PropertyInfo,
-	&ConfigurationLockCollection_t3314____SyncRoot_PropertyInfo,
+	&ConfigurationLockCollection_t3317____Count_PropertyInfo,
+	&ConfigurationLockCollection_t3317____IsSynchronized_PropertyInfo,
+	&ConfigurationLockCollection_t3317____SyncRoot_PropertyInfo,
 	NULL
 };
 extern const MethodInfo ConfigurationLockCollection_System_Collections_ICollection_CopyTo_m11830_MethodInfo;
 extern const MethodInfo ConfigurationLockCollection_GetEnumerator_m11834_MethodInfo;
-static const Il2CppMethodReference ConfigurationLockCollection_t3314_VTable[] =
+static const Il2CppMethodReference ConfigurationLockCollection_t3317_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -9153,7 +9153,7 @@ static const Il2CppMethodReference ConfigurationLockCollection_t3314_VTable[] =
 	&ConfigurationLockCollection_System_Collections_ICollection_CopyTo_m11830_MethodInfo,
 	&ConfigurationLockCollection_GetEnumerator_m11834_MethodInfo,
 };
-static bool ConfigurationLockCollection_t3314_VTableIsGenericMethod[] =
+static bool ConfigurationLockCollection_t3317_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -9165,47 +9165,47 @@ static bool ConfigurationLockCollection_t3314_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* ConfigurationLockCollection_t3314_InterfacesTypeInfos[] = 
+static const Il2CppType* ConfigurationLockCollection_t3317_InterfacesTypeInfos[] = 
 {
-	&ICollection_t769_0_0_0,
+	&ICollection_t772_0_0_0,
 	&IEnumerable_t104_0_0_0,
 };
-static Il2CppInterfaceOffsetPair ConfigurationLockCollection_t3314_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ConfigurationLockCollection_t3317_InterfacesOffsets[] = 
 {
-	{ &ICollection_t769_0_0_0, 4},
+	{ &ICollection_t772_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationLockCollection_t3314_1_0_0;
-struct ConfigurationLockCollection_t3314;
-const Il2CppTypeDefinitionMetadata ConfigurationLockCollection_t3314_DefinitionMetadata = 
+extern const Il2CppType ConfigurationLockCollection_t3317_1_0_0;
+struct ConfigurationLockCollection_t3317;
+const Il2CppTypeDefinitionMetadata ConfigurationLockCollection_t3317_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, ConfigurationLockCollection_t3314_InterfacesTypeInfos/* implementedInterfaces */
-	, ConfigurationLockCollection_t3314_InterfacesOffsets/* interfaceOffsets */
+	, ConfigurationLockCollection_t3317_InterfacesTypeInfos/* implementedInterfaces */
+	, ConfigurationLockCollection_t3317_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ConfigurationLockCollection_t3314_VTable/* vtableMethods */
-	, ConfigurationLockCollection_t3314_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationLockCollection_t3317_VTable/* vtableMethods */
+	, ConfigurationLockCollection_t3317_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 89/* fieldStart */
 
 };
-TypeInfo ConfigurationLockCollection_t3314_il2cpp_TypeInfo = 
+TypeInfo ConfigurationLockCollection_t3317_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationLockCollection"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationLockCollection_t3314_MethodInfos/* methods */
-	, ConfigurationLockCollection_t3314_PropertyInfos/* properties */
+	, ConfigurationLockCollection_t3317_MethodInfos/* methods */
+	, ConfigurationLockCollection_t3317_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigurationLockCollection_t3314_il2cpp_TypeInfo/* element_class */
+	, &ConfigurationLockCollection_t3317_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ConfigurationLockCollection_t3314_0_0_0/* byval_arg */
-	, &ConfigurationLockCollection_t3314_1_0_0/* this_arg */
-	, &ConfigurationLockCollection_t3314_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationLockCollection_t3317_0_0_0/* byval_arg */
+	, &ConfigurationLockCollection_t3317_1_0_0/* this_arg */
+	, &ConfigurationLockCollection_t3317_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -9215,8 +9215,8 @@ TypeInfo ConfigurationLockCollection_t3314_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationLockCollection_t3314)/* instance_size */
-	, sizeof (ConfigurationLockCollection_t3314)/* actualSize */
+	, sizeof (ConfigurationLockCollection_t3317)/* instance_size */
+	, sizeof (ConfigurationLockCollection_t3317)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -9248,7 +9248,7 @@ TypeInfo ConfigurationLockCollection_t3314_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationManager
 #include "System_Configuration_System_Configuration_ConfigurationManag.h"
 // Metadata Definition System.Configuration.ConfigurationManager
-extern TypeInfo ConfigurationManager_t3327_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationManager_t3330_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationManager
 #include "System_Configuration_System_Configuration_ConfigurationManagMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -9257,7 +9257,7 @@ extern const MethodInfo ConfigurationManager__cctor_m11839_MethodInfo =
 {
 	".cctor"/* name */
 	, (methodPointerType)&ConfigurationManager__cctor_m11839/* method */
-	, &ConfigurationManager_t3327_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationManager_t3330_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -9274,11 +9274,11 @@ extern const MethodInfo ConfigurationManager__cctor_m11839_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Assembly_t784_0_0_0;
-extern const Il2CppType Assembly_t784_0_0_0;
-static const ParameterInfo ConfigurationManager_t3327_ConfigurationManager_GetAssemblyInfo_m11840_ParameterInfos[] = 
+extern const Il2CppType Assembly_t787_0_0_0;
+extern const Il2CppType Assembly_t787_0_0_0;
+static const ParameterInfo ConfigurationManager_t3330_ConfigurationManager_GetAssemblyInfo_m11840_ParameterInfos[] = 
 {
-	{"a", 0, 134217895, 0, &Assembly_t784_0_0_0},
+	{"a", 0, 134217895, 0, &Assembly_t787_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.String System.Configuration.ConfigurationManager::GetAssemblyInfo(System.Reflection.Assembly)
@@ -9286,10 +9286,10 @@ extern const MethodInfo ConfigurationManager_GetAssemblyInfo_m11840_MethodInfo =
 {
 	"GetAssemblyInfo"/* name */
 	, (methodPointerType)&ConfigurationManager_GetAssemblyInfo_m11840/* method */
-	, &ConfigurationManager_t3327_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationManager_t3330_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConfigurationManager_t3327_ConfigurationManager_GetAssemblyInfo_m11840_ParameterInfos/* parameters */
+	, ConfigurationManager_t3330_ConfigurationManager_GetAssemblyInfo_m11840_ParameterInfos/* parameters */
 	, 19/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -9303,14 +9303,14 @@ extern const MethodInfo ConfigurationManager_GetAssemblyInfo_m11840_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationUserLevel_t3342_0_0_0;
-extern const Il2CppType ConfigurationUserLevel_t3342_0_0_0;
-extern const Il2CppType Assembly_t784_0_0_0;
+extern const Il2CppType ConfigurationUserLevel_t3345_0_0_0;
+extern const Il2CppType ConfigurationUserLevel_t3345_0_0_0;
+extern const Il2CppType Assembly_t787_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationManager_t3327_ConfigurationManager_OpenExeConfigurationInternal_m11841_ParameterInfos[] = 
+static const ParameterInfo ConfigurationManager_t3330_ConfigurationManager_OpenExeConfigurationInternal_m11841_ParameterInfos[] = 
 {
-	{"userLevel", 0, 134217896, 0, &ConfigurationUserLevel_t3342_0_0_0},
-	{"calling_assembly", 1, 134217897, 0, &Assembly_t784_0_0_0},
+	{"userLevel", 0, 134217896, 0, &ConfigurationUserLevel_t3345_0_0_0},
+	{"calling_assembly", 1, 134217897, 0, &Assembly_t787_0_0_0},
 	{"exePath", 2, 134217898, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -9319,10 +9319,10 @@ extern const MethodInfo ConfigurationManager_OpenExeConfigurationInternal_m11841
 {
 	"OpenExeConfigurationInternal"/* name */
 	, (methodPointerType)&ConfigurationManager_OpenExeConfigurationInternal_m11841/* method */
-	, &ConfigurationManager_t3327_il2cpp_TypeInfo/* declaring_type */
-	, &Configuration_t3297_0_0_0/* return_type */
+	, &ConfigurationManager_t3330_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t82_Object_t_Object_t/* invoker_method */
-	, ConfigurationManager_t3327_ConfigurationManager_OpenExeConfigurationInternal_m11841_ParameterInfos/* parameters */
+	, ConfigurationManager_t3330_ConfigurationManager_OpenExeConfigurationInternal_m11841_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -9342,8 +9342,8 @@ extern const MethodInfo ConfigurationManager_get_ConfigurationFactory_m11842_Met
 {
 	"get_ConfigurationFactory"/* name */
 	, (methodPointerType)&ConfigurationManager_get_ConfigurationFactory_m11842/* method */
-	, &ConfigurationManager_t3327_il2cpp_TypeInfo/* declaring_type */
-	, &IInternalConfigConfigurationFactory_t3371_0_0_0/* return_type */
+	, &ConfigurationManager_t3330_il2cpp_TypeInfo/* declaring_type */
+	, &IInternalConfigConfigurationFactory_t3374_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -9365,8 +9365,8 @@ extern const MethodInfo ConfigurationManager_get_ConfigurationSystem_m11843_Meth
 {
 	"get_ConfigurationSystem"/* name */
 	, (methodPointerType)&ConfigurationManager_get_ConfigurationSystem_m11843/* method */
-	, &ConfigurationManager_t3327_il2cpp_TypeInfo/* declaring_type */
-	, &IInternalConfigSystem_t3326_0_0_0/* return_type */
+	, &ConfigurationManager_t3330_il2cpp_TypeInfo/* declaring_type */
+	, &IInternalConfigSystem_t3329_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -9383,7 +9383,7 @@ extern const MethodInfo ConfigurationManager_get_ConfigurationSystem_m11843_Meth
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationManager_t3327_ConfigurationManager_GetSection_m11844_ParameterInfos[] = 
+static const ParameterInfo ConfigurationManager_t3330_ConfigurationManager_GetSection_m11844_ParameterInfos[] = 
 {
 	{"sectionName", 0, 134217899, 0, &String_t_0_0_0},
 };
@@ -9393,10 +9393,10 @@ extern const MethodInfo ConfigurationManager_GetSection_m11844_MethodInfo =
 {
 	"GetSection"/* name */
 	, (methodPointerType)&ConfigurationManager_GetSection_m11844/* method */
-	, &ConfigurationManager_t3327_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationManager_t3330_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConfigurationManager_t3327_ConfigurationManager_GetSection_m11844_ParameterInfos/* parameters */
+	, ConfigurationManager_t3330_ConfigurationManager_GetSection_m11844_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -9410,7 +9410,7 @@ extern const MethodInfo ConfigurationManager_GetSection_m11844_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigurationManager_t3327_MethodInfos[] =
+static const MethodInfo* ConfigurationManager_t3330_MethodInfos[] =
 {
 	&ConfigurationManager__cctor_m11839_MethodInfo,
 	&ConfigurationManager_GetAssemblyInfo_m11840_MethodInfo,
@@ -9421,9 +9421,9 @@ static const MethodInfo* ConfigurationManager_t3327_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ConfigurationManager_get_ConfigurationFactory_m11842_MethodInfo;
-static const PropertyInfo ConfigurationManager_t3327____ConfigurationFactory_PropertyInfo = 
+static const PropertyInfo ConfigurationManager_t3330____ConfigurationFactory_PropertyInfo = 
 {
-	&ConfigurationManager_t3327_il2cpp_TypeInfo/* parent */
+	&ConfigurationManager_t3330_il2cpp_TypeInfo/* parent */
 	, "ConfigurationFactory"/* name */
 	, &ConfigurationManager_get_ConfigurationFactory_m11842_MethodInfo/* get */
 	, NULL/* set */
@@ -9432,9 +9432,9 @@ static const PropertyInfo ConfigurationManager_t3327____ConfigurationFactory_Pro
 
 };
 extern const MethodInfo ConfigurationManager_get_ConfigurationSystem_m11843_MethodInfo;
-static const PropertyInfo ConfigurationManager_t3327____ConfigurationSystem_PropertyInfo = 
+static const PropertyInfo ConfigurationManager_t3330____ConfigurationSystem_PropertyInfo = 
 {
-	&ConfigurationManager_t3327_il2cpp_TypeInfo/* parent */
+	&ConfigurationManager_t3330_il2cpp_TypeInfo/* parent */
 	, "ConfigurationSystem"/* name */
 	, &ConfigurationManager_get_ConfigurationSystem_m11843_MethodInfo/* get */
 	, NULL/* set */
@@ -9442,20 +9442,20 @@ static const PropertyInfo ConfigurationManager_t3327____ConfigurationSystem_Prop
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigurationManager_t3327_PropertyInfos[] =
+static const PropertyInfo* ConfigurationManager_t3330_PropertyInfos[] =
 {
-	&ConfigurationManager_t3327____ConfigurationFactory_PropertyInfo,
-	&ConfigurationManager_t3327____ConfigurationSystem_PropertyInfo,
+	&ConfigurationManager_t3330____ConfigurationFactory_PropertyInfo,
+	&ConfigurationManager_t3330____ConfigurationSystem_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference ConfigurationManager_t3327_VTable[] =
+static const Il2CppMethodReference ConfigurationManager_t3330_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool ConfigurationManager_t3327_VTableIsGenericMethod[] =
+static bool ConfigurationManager_t3330_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -9463,37 +9463,37 @@ static bool ConfigurationManager_t3327_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationManager_t3327_0_0_0;
-extern const Il2CppType ConfigurationManager_t3327_1_0_0;
-struct ConfigurationManager_t3327;
-const Il2CppTypeDefinitionMetadata ConfigurationManager_t3327_DefinitionMetadata = 
+extern const Il2CppType ConfigurationManager_t3330_0_0_0;
+extern const Il2CppType ConfigurationManager_t3330_1_0_0;
+struct ConfigurationManager_t3330;
+const Il2CppTypeDefinitionMetadata ConfigurationManager_t3330_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ConfigurationManager_t3327_VTable/* vtableMethods */
-	, ConfigurationManager_t3327_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationManager_t3330_VTable/* vtableMethods */
+	, ConfigurationManager_t3330_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 95/* fieldStart */
 
 };
-TypeInfo ConfigurationManager_t3327_il2cpp_TypeInfo = 
+TypeInfo ConfigurationManager_t3330_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationManager"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationManager_t3327_MethodInfos/* methods */
-	, ConfigurationManager_t3327_PropertyInfos/* properties */
+	, ConfigurationManager_t3330_MethodInfos/* methods */
+	, ConfigurationManager_t3330_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigurationManager_t3327_il2cpp_TypeInfo/* element_class */
+	, &ConfigurationManager_t3330_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ConfigurationManager_t3327_0_0_0/* byval_arg */
-	, &ConfigurationManager_t3327_1_0_0/* this_arg */
-	, &ConfigurationManager_t3327_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationManager_t3330_0_0_0/* byval_arg */
+	, &ConfigurationManager_t3330_1_0_0/* this_arg */
+	, &ConfigurationManager_t3330_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -9503,11 +9503,11 @@ TypeInfo ConfigurationManager_t3327_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationManager_t3327)/* instance_size */
-	, sizeof (ConfigurationManager_t3327)/* actualSize */
+	, sizeof (ConfigurationManager_t3330)/* instance_size */
+	, sizeof (ConfigurationManager_t3330)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(ConfigurationManager_t3327_StaticFields)/* static_fields_size */
+	, sizeof(ConfigurationManager_t3330_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048961/* flags */
@@ -9536,12 +9536,12 @@ TypeInfo ConfigurationManager_t3327_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationProperty
 #include "System_Configuration_System_Configuration_ConfigurationPrope.h"
 // Metadata Definition System.Configuration.ConfigurationProperty
-extern TypeInfo ConfigurationProperty_t3330_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationProperty_t3333_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationProperty
 #include "System_Configuration_System_Configuration_ConfigurationPropeMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo ConfigurationProperty_t3330_ConfigurationProperty__ctor_m11845_ParameterInfos[] = 
+static const ParameterInfo ConfigurationProperty_t3333_ConfigurationProperty__ctor_m11845_ParameterInfos[] = 
 {
 	{"name", 0, 134217900, 0, &String_t_0_0_0},
 	{"type", 1, 134217901, 0, &Type_t_0_0_0},
@@ -9552,10 +9552,10 @@ extern const MethodInfo ConfigurationProperty__ctor_m11845_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationProperty__ctor_m11845/* method */
-	, &ConfigurationProperty_t3330_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationProperty_t3333_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ConfigurationProperty_t3330_ConfigurationProperty__ctor_m11845_ParameterInfos/* parameters */
+	, ConfigurationProperty_t3333_ConfigurationProperty__ctor_m11845_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -9572,7 +9572,7 @@ extern const MethodInfo ConfigurationProperty__ctor_m11845_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ConfigurationProperty_t3330_ConfigurationProperty__ctor_m11846_ParameterInfos[] = 
+static const ParameterInfo ConfigurationProperty_t3333_ConfigurationProperty__ctor_m11846_ParameterInfos[] = 
 {
 	{"name", 0, 134217902, 0, &String_t_0_0_0},
 	{"type", 1, 134217903, 0, &Type_t_0_0_0},
@@ -9584,10 +9584,10 @@ extern const MethodInfo ConfigurationProperty__ctor_m11846_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationProperty__ctor_m11846/* method */
-	, &ConfigurationProperty_t3330_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationProperty_t3333_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t/* invoker_method */
-	, ConfigurationProperty_t3330_ConfigurationProperty__ctor_m11846_ParameterInfos/* parameters */
+	, ConfigurationProperty_t3333_ConfigurationProperty__ctor_m11846_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -9604,14 +9604,14 @@ extern const MethodInfo ConfigurationProperty__ctor_m11846_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType ConfigurationPropertyOptions_t3333_0_0_0;
-extern const Il2CppType ConfigurationPropertyOptions_t3333_0_0_0;
-static const ParameterInfo ConfigurationProperty_t3330_ConfigurationProperty__ctor_m11847_ParameterInfos[] = 
+extern const Il2CppType ConfigurationPropertyOptions_t3336_0_0_0;
+extern const Il2CppType ConfigurationPropertyOptions_t3336_0_0_0;
+static const ParameterInfo ConfigurationProperty_t3333_ConfigurationProperty__ctor_m11847_ParameterInfos[] = 
 {
 	{"name", 0, 134217905, 0, &String_t_0_0_0},
 	{"type", 1, 134217906, 0, &Type_t_0_0_0},
 	{"default_value", 2, 134217907, 0, &Object_t_0_0_0},
-	{"flags", 3, 134217908, 0, &ConfigurationPropertyOptions_t3333_0_0_0},
+	{"flags", 3, 134217908, 0, &ConfigurationPropertyOptions_t3336_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationProperty::.ctor(System.String,System.Type,System.Object,System.Configuration.ConfigurationPropertyOptions)
@@ -9619,10 +9619,10 @@ extern const MethodInfo ConfigurationProperty__ctor_m11847_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationProperty__ctor_m11847/* method */
-	, &ConfigurationProperty_t3330_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationProperty_t3333_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Int32_t82/* invoker_method */
-	, ConfigurationProperty_t3330_ConfigurationProperty__ctor_m11847_ParameterInfos/* parameters */
+	, ConfigurationProperty_t3333_ConfigurationProperty__ctor_m11847_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -9639,19 +9639,19 @@ extern const MethodInfo ConfigurationProperty__ctor_m11847_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType TypeConverter_t3328_0_0_0;
-extern const Il2CppType TypeConverter_t3328_0_0_0;
-extern const Il2CppType ConfigurationValidatorBase_t3329_0_0_0;
-extern const Il2CppType ConfigurationValidatorBase_t3329_0_0_0;
-extern const Il2CppType ConfigurationPropertyOptions_t3333_0_0_0;
-static const ParameterInfo ConfigurationProperty_t3330_ConfigurationProperty__ctor_m11848_ParameterInfos[] = 
+extern const Il2CppType TypeConverter_t3331_0_0_0;
+extern const Il2CppType TypeConverter_t3331_0_0_0;
+extern const Il2CppType ConfigurationValidatorBase_t3332_0_0_0;
+extern const Il2CppType ConfigurationValidatorBase_t3332_0_0_0;
+extern const Il2CppType ConfigurationPropertyOptions_t3336_0_0_0;
+static const ParameterInfo ConfigurationProperty_t3333_ConfigurationProperty__ctor_m11848_ParameterInfos[] = 
 {
 	{"name", 0, 134217909, 0, &String_t_0_0_0},
 	{"type", 1, 134217910, 0, &Type_t_0_0_0},
 	{"default_value", 2, 134217911, 0, &Object_t_0_0_0},
-	{"converter", 3, 134217912, 0, &TypeConverter_t3328_0_0_0},
-	{"validation", 4, 134217913, 0, &ConfigurationValidatorBase_t3329_0_0_0},
-	{"flags", 5, 134217914, 0, &ConfigurationPropertyOptions_t3333_0_0_0},
+	{"converter", 3, 134217912, 0, &TypeConverter_t3331_0_0_0},
+	{"validation", 4, 134217913, 0, &ConfigurationValidatorBase_t3332_0_0_0},
+	{"flags", 5, 134217914, 0, &ConfigurationPropertyOptions_t3336_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationProperty::.ctor(System.String,System.Type,System.Object,System.ComponentModel.TypeConverter,System.Configuration.ConfigurationValidatorBase,System.Configuration.ConfigurationPropertyOptions)
@@ -9659,10 +9659,10 @@ extern const MethodInfo ConfigurationProperty__ctor_m11848_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationProperty__ctor_m11848/* method */
-	, &ConfigurationProperty_t3330_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationProperty_t3333_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t_Int32_t82/* invoker_method */
-	, ConfigurationProperty_t3330_ConfigurationProperty__ctor_m11848_ParameterInfos/* parameters */
+	, ConfigurationProperty_t3333_ConfigurationProperty__ctor_m11848_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -9679,18 +9679,18 @@ extern const MethodInfo ConfigurationProperty__ctor_m11848_MethodInfo =
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Type_t_0_0_0;
 extern const Il2CppType Object_t_0_0_0;
-extern const Il2CppType TypeConverter_t3328_0_0_0;
-extern const Il2CppType ConfigurationValidatorBase_t3329_0_0_0;
-extern const Il2CppType ConfigurationPropertyOptions_t3333_0_0_0;
+extern const Il2CppType TypeConverter_t3331_0_0_0;
+extern const Il2CppType ConfigurationValidatorBase_t3332_0_0_0;
+extern const Il2CppType ConfigurationPropertyOptions_t3336_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationProperty_t3330_ConfigurationProperty__ctor_m11849_ParameterInfos[] = 
+static const ParameterInfo ConfigurationProperty_t3333_ConfigurationProperty__ctor_m11849_ParameterInfos[] = 
 {
 	{"name", 0, 134217915, 0, &String_t_0_0_0},
 	{"type", 1, 134217916, 0, &Type_t_0_0_0},
 	{"default_value", 2, 134217917, 0, &Object_t_0_0_0},
-	{"converter", 3, 134217918, 0, &TypeConverter_t3328_0_0_0},
-	{"validation", 4, 134217919, 0, &ConfigurationValidatorBase_t3329_0_0_0},
-	{"flags", 5, 134217920, 0, &ConfigurationPropertyOptions_t3333_0_0_0},
+	{"converter", 3, 134217918, 0, &TypeConverter_t3331_0_0_0},
+	{"validation", 4, 134217919, 0, &ConfigurationValidatorBase_t3332_0_0_0},
+	{"flags", 5, 134217920, 0, &ConfigurationPropertyOptions_t3336_0_0_0},
 	{"description", 6, 134217921, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -9699,10 +9699,10 @@ extern const MethodInfo ConfigurationProperty__ctor_m11849_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationProperty__ctor_m11849/* method */
-	, &ConfigurationProperty_t3330_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationProperty_t3333_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t_Object_t_Object_t_Int32_t82_Object_t/* invoker_method */
-	, ConfigurationProperty_t3330_ConfigurationProperty__ctor_m11849_ParameterInfos/* parameters */
+	, ConfigurationProperty_t3333_ConfigurationProperty__ctor_m11849_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -9722,7 +9722,7 @@ extern const MethodInfo ConfigurationProperty__cctor_m11850_MethodInfo =
 {
 	".cctor"/* name */
 	, (methodPointerType)&ConfigurationProperty__cctor_m11850/* method */
-	, &ConfigurationProperty_t3330_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationProperty_t3333_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -9745,7 +9745,7 @@ extern const MethodInfo ConfigurationProperty_get_DefaultValue_m11851_MethodInfo
 {
 	"get_DefaultValue"/* name */
 	, (methodPointerType)&ConfigurationProperty_get_DefaultValue_m11851/* method */
-	, &ConfigurationProperty_t3330_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationProperty_t3333_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -9768,7 +9768,7 @@ extern const MethodInfo ConfigurationProperty_get_IsKey_m11852_MethodInfo =
 {
 	"get_IsKey"/* name */
 	, (methodPointerType)&ConfigurationProperty_get_IsKey_m11852/* method */
-	, &ConfigurationProperty_t3330_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationProperty_t3333_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -9791,7 +9791,7 @@ extern const MethodInfo ConfigurationProperty_get_IsRequired_m11853_MethodInfo =
 {
 	"get_IsRequired"/* name */
 	, (methodPointerType)&ConfigurationProperty_get_IsRequired_m11853/* method */
-	, &ConfigurationProperty_t3330_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationProperty_t3333_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -9814,7 +9814,7 @@ extern const MethodInfo ConfigurationProperty_get_IsDefaultCollection_m11854_Met
 {
 	"get_IsDefaultCollection"/* name */
 	, (methodPointerType)&ConfigurationProperty_get_IsDefaultCollection_m11854/* method */
-	, &ConfigurationProperty_t3330_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationProperty_t3333_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -9837,7 +9837,7 @@ extern const MethodInfo ConfigurationProperty_get_Name_m11855_MethodInfo =
 {
 	"get_Name"/* name */
 	, (methodPointerType)&ConfigurationProperty_get_Name_m11855/* method */
-	, &ConfigurationProperty_t3330_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationProperty_t3333_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -9860,7 +9860,7 @@ extern const MethodInfo ConfigurationProperty_get_Type_m11856_MethodInfo =
 {
 	"get_Type"/* name */
 	, (methodPointerType)&ConfigurationProperty_get_Type_m11856/* method */
-	, &ConfigurationProperty_t3330_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationProperty_t3333_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -9883,8 +9883,8 @@ extern const MethodInfo ConfigurationProperty_get_Validator_m11857_MethodInfo =
 {
 	"get_Validator"/* name */
 	, (methodPointerType)&ConfigurationProperty_get_Validator_m11857/* method */
-	, &ConfigurationProperty_t3330_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationValidatorBase_t3329_0_0_0/* return_type */
+	, &ConfigurationProperty_t3333_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationValidatorBase_t3332_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -9901,7 +9901,7 @@ extern const MethodInfo ConfigurationProperty_get_Validator_m11857_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationProperty_t3330_ConfigurationProperty_ConvertFromString_m11858_ParameterInfos[] = 
+static const ParameterInfo ConfigurationProperty_t3333_ConfigurationProperty_ConvertFromString_m11858_ParameterInfos[] = 
 {
 	{"value", 0, 134217922, 0, &String_t_0_0_0},
 };
@@ -9911,10 +9911,10 @@ extern const MethodInfo ConfigurationProperty_ConvertFromString_m11858_MethodInf
 {
 	"ConvertFromString"/* name */
 	, (methodPointerType)&ConfigurationProperty_ConvertFromString_m11858/* method */
-	, &ConfigurationProperty_t3330_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationProperty_t3333_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConfigurationProperty_t3330_ConfigurationProperty_ConvertFromString_m11858_ParameterInfos/* parameters */
+	, ConfigurationProperty_t3333_ConfigurationProperty_ConvertFromString_m11858_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -9929,7 +9929,7 @@ extern const MethodInfo ConfigurationProperty_ConvertFromString_m11858_MethodInf
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ConfigurationProperty_t3330_ConfigurationProperty_ConvertToString_m11859_ParameterInfos[] = 
+static const ParameterInfo ConfigurationProperty_t3333_ConfigurationProperty_ConvertToString_m11859_ParameterInfos[] = 
 {
 	{"value", 0, 134217923, 0, &Object_t_0_0_0},
 };
@@ -9939,10 +9939,10 @@ extern const MethodInfo ConfigurationProperty_ConvertToString_m11859_MethodInfo 
 {
 	"ConvertToString"/* name */
 	, (methodPointerType)&ConfigurationProperty_ConvertToString_m11859/* method */
-	, &ConfigurationProperty_t3330_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationProperty_t3333_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConfigurationProperty_t3330_ConfigurationProperty_ConvertToString_m11859_ParameterInfos/* parameters */
+	, ConfigurationProperty_t3333_ConfigurationProperty_ConvertToString_m11859_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -9962,7 +9962,7 @@ extern const MethodInfo ConfigurationProperty_get_IsElement_m11860_MethodInfo =
 {
 	"get_IsElement"/* name */
 	, (methodPointerType)&ConfigurationProperty_get_IsElement_m11860/* method */
-	, &ConfigurationProperty_t3330_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationProperty_t3333_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -9985,8 +9985,8 @@ extern const MethodInfo ConfigurationProperty_get_CollectionAttribute_m11861_Met
 {
 	"get_CollectionAttribute"/* name */
 	, (methodPointerType)&ConfigurationProperty_get_CollectionAttribute_m11861/* method */
-	, &ConfigurationProperty_t3330_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationCollectionAttribute_t3309_0_0_0/* return_type */
+	, &ConfigurationProperty_t3333_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationCollectionAttribute_t3312_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -10002,10 +10002,10 @@ extern const MethodInfo ConfigurationProperty_get_CollectionAttribute_m11861_Met
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationCollectionAttribute_t3309_0_0_0;
-static const ParameterInfo ConfigurationProperty_t3330_ConfigurationProperty_set_CollectionAttribute_m11862_ParameterInfos[] = 
+extern const Il2CppType ConfigurationCollectionAttribute_t3312_0_0_0;
+static const ParameterInfo ConfigurationProperty_t3333_ConfigurationProperty_set_CollectionAttribute_m11862_ParameterInfos[] = 
 {
-	{"value", 0, 134217924, 0, &ConfigurationCollectionAttribute_t3309_0_0_0},
+	{"value", 0, 134217924, 0, &ConfigurationCollectionAttribute_t3312_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationProperty::set_CollectionAttribute(System.Configuration.ConfigurationCollectionAttribute)
@@ -10013,10 +10013,10 @@ extern const MethodInfo ConfigurationProperty_set_CollectionAttribute_m11862_Met
 {
 	"set_CollectionAttribute"/* name */
 	, (methodPointerType)&ConfigurationProperty_set_CollectionAttribute_m11862/* method */
-	, &ConfigurationProperty_t3330_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationProperty_t3333_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationProperty_t3330_ConfigurationProperty_set_CollectionAttribute_m11862_ParameterInfos/* parameters */
+	, ConfigurationProperty_t3333_ConfigurationProperty_set_CollectionAttribute_m11862_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -10031,7 +10031,7 @@ extern const MethodInfo ConfigurationProperty_set_CollectionAttribute_m11862_Met
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ConfigurationProperty_t3330_ConfigurationProperty_Validate_m11863_ParameterInfos[] = 
+static const ParameterInfo ConfigurationProperty_t3333_ConfigurationProperty_Validate_m11863_ParameterInfos[] = 
 {
 	{"value", 0, 134217925, 0, &Object_t_0_0_0},
 };
@@ -10041,10 +10041,10 @@ extern const MethodInfo ConfigurationProperty_Validate_m11863_MethodInfo =
 {
 	"Validate"/* name */
 	, (methodPointerType)&ConfigurationProperty_Validate_m11863/* method */
-	, &ConfigurationProperty_t3330_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationProperty_t3333_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationProperty_t3330_ConfigurationProperty_Validate_m11863_ParameterInfos/* parameters */
+	, ConfigurationProperty_t3333_ConfigurationProperty_Validate_m11863_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -10058,7 +10058,7 @@ extern const MethodInfo ConfigurationProperty_Validate_m11863_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigurationProperty_t3330_MethodInfos[] =
+static const MethodInfo* ConfigurationProperty_t3333_MethodInfos[] =
 {
 	&ConfigurationProperty__ctor_m11845_MethodInfo,
 	&ConfigurationProperty__ctor_m11846_MethodInfo,
@@ -10082,9 +10082,9 @@ static const MethodInfo* ConfigurationProperty_t3330_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ConfigurationProperty_get_DefaultValue_m11851_MethodInfo;
-static const PropertyInfo ConfigurationProperty_t3330____DefaultValue_PropertyInfo = 
+static const PropertyInfo ConfigurationProperty_t3333____DefaultValue_PropertyInfo = 
 {
-	&ConfigurationProperty_t3330_il2cpp_TypeInfo/* parent */
+	&ConfigurationProperty_t3333_il2cpp_TypeInfo/* parent */
 	, "DefaultValue"/* name */
 	, &ConfigurationProperty_get_DefaultValue_m11851_MethodInfo/* get */
 	, NULL/* set */
@@ -10093,9 +10093,9 @@ static const PropertyInfo ConfigurationProperty_t3330____DefaultValue_PropertyIn
 
 };
 extern const MethodInfo ConfigurationProperty_get_IsKey_m11852_MethodInfo;
-static const PropertyInfo ConfigurationProperty_t3330____IsKey_PropertyInfo = 
+static const PropertyInfo ConfigurationProperty_t3333____IsKey_PropertyInfo = 
 {
-	&ConfigurationProperty_t3330_il2cpp_TypeInfo/* parent */
+	&ConfigurationProperty_t3333_il2cpp_TypeInfo/* parent */
 	, "IsKey"/* name */
 	, &ConfigurationProperty_get_IsKey_m11852_MethodInfo/* get */
 	, NULL/* set */
@@ -10104,9 +10104,9 @@ static const PropertyInfo ConfigurationProperty_t3330____IsKey_PropertyInfo =
 
 };
 extern const MethodInfo ConfigurationProperty_get_IsRequired_m11853_MethodInfo;
-static const PropertyInfo ConfigurationProperty_t3330____IsRequired_PropertyInfo = 
+static const PropertyInfo ConfigurationProperty_t3333____IsRequired_PropertyInfo = 
 {
-	&ConfigurationProperty_t3330_il2cpp_TypeInfo/* parent */
+	&ConfigurationProperty_t3333_il2cpp_TypeInfo/* parent */
 	, "IsRequired"/* name */
 	, &ConfigurationProperty_get_IsRequired_m11853_MethodInfo/* get */
 	, NULL/* set */
@@ -10115,9 +10115,9 @@ static const PropertyInfo ConfigurationProperty_t3330____IsRequired_PropertyInfo
 
 };
 extern const MethodInfo ConfigurationProperty_get_IsDefaultCollection_m11854_MethodInfo;
-static const PropertyInfo ConfigurationProperty_t3330____IsDefaultCollection_PropertyInfo = 
+static const PropertyInfo ConfigurationProperty_t3333____IsDefaultCollection_PropertyInfo = 
 {
-	&ConfigurationProperty_t3330_il2cpp_TypeInfo/* parent */
+	&ConfigurationProperty_t3333_il2cpp_TypeInfo/* parent */
 	, "IsDefaultCollection"/* name */
 	, &ConfigurationProperty_get_IsDefaultCollection_m11854_MethodInfo/* get */
 	, NULL/* set */
@@ -10126,9 +10126,9 @@ static const PropertyInfo ConfigurationProperty_t3330____IsDefaultCollection_Pro
 
 };
 extern const MethodInfo ConfigurationProperty_get_Name_m11855_MethodInfo;
-static const PropertyInfo ConfigurationProperty_t3330____Name_PropertyInfo = 
+static const PropertyInfo ConfigurationProperty_t3333____Name_PropertyInfo = 
 {
-	&ConfigurationProperty_t3330_il2cpp_TypeInfo/* parent */
+	&ConfigurationProperty_t3333_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
 	, &ConfigurationProperty_get_Name_m11855_MethodInfo/* get */
 	, NULL/* set */
@@ -10137,9 +10137,9 @@ static const PropertyInfo ConfigurationProperty_t3330____Name_PropertyInfo =
 
 };
 extern const MethodInfo ConfigurationProperty_get_Type_m11856_MethodInfo;
-static const PropertyInfo ConfigurationProperty_t3330____Type_PropertyInfo = 
+static const PropertyInfo ConfigurationProperty_t3333____Type_PropertyInfo = 
 {
-	&ConfigurationProperty_t3330_il2cpp_TypeInfo/* parent */
+	&ConfigurationProperty_t3333_il2cpp_TypeInfo/* parent */
 	, "Type"/* name */
 	, &ConfigurationProperty_get_Type_m11856_MethodInfo/* get */
 	, NULL/* set */
@@ -10148,9 +10148,9 @@ static const PropertyInfo ConfigurationProperty_t3330____Type_PropertyInfo =
 
 };
 extern const MethodInfo ConfigurationProperty_get_Validator_m11857_MethodInfo;
-static const PropertyInfo ConfigurationProperty_t3330____Validator_PropertyInfo = 
+static const PropertyInfo ConfigurationProperty_t3333____Validator_PropertyInfo = 
 {
-	&ConfigurationProperty_t3330_il2cpp_TypeInfo/* parent */
+	&ConfigurationProperty_t3333_il2cpp_TypeInfo/* parent */
 	, "Validator"/* name */
 	, &ConfigurationProperty_get_Validator_m11857_MethodInfo/* get */
 	, NULL/* set */
@@ -10159,9 +10159,9 @@ static const PropertyInfo ConfigurationProperty_t3330____Validator_PropertyInfo 
 
 };
 extern const MethodInfo ConfigurationProperty_get_IsElement_m11860_MethodInfo;
-static const PropertyInfo ConfigurationProperty_t3330____IsElement_PropertyInfo = 
+static const PropertyInfo ConfigurationProperty_t3333____IsElement_PropertyInfo = 
 {
-	&ConfigurationProperty_t3330_il2cpp_TypeInfo/* parent */
+	&ConfigurationProperty_t3333_il2cpp_TypeInfo/* parent */
 	, "IsElement"/* name */
 	, &ConfigurationProperty_get_IsElement_m11860_MethodInfo/* get */
 	, NULL/* set */
@@ -10171,9 +10171,9 @@ static const PropertyInfo ConfigurationProperty_t3330____IsElement_PropertyInfo 
 };
 extern const MethodInfo ConfigurationProperty_get_CollectionAttribute_m11861_MethodInfo;
 extern const MethodInfo ConfigurationProperty_set_CollectionAttribute_m11862_MethodInfo;
-static const PropertyInfo ConfigurationProperty_t3330____CollectionAttribute_PropertyInfo = 
+static const PropertyInfo ConfigurationProperty_t3333____CollectionAttribute_PropertyInfo = 
 {
-	&ConfigurationProperty_t3330_il2cpp_TypeInfo/* parent */
+	&ConfigurationProperty_t3333_il2cpp_TypeInfo/* parent */
 	, "CollectionAttribute"/* name */
 	, &ConfigurationProperty_get_CollectionAttribute_m11861_MethodInfo/* get */
 	, &ConfigurationProperty_set_CollectionAttribute_m11862_MethodInfo/* set */
@@ -10181,27 +10181,27 @@ static const PropertyInfo ConfigurationProperty_t3330____CollectionAttribute_Pro
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigurationProperty_t3330_PropertyInfos[] =
+static const PropertyInfo* ConfigurationProperty_t3333_PropertyInfos[] =
 {
-	&ConfigurationProperty_t3330____DefaultValue_PropertyInfo,
-	&ConfigurationProperty_t3330____IsKey_PropertyInfo,
-	&ConfigurationProperty_t3330____IsRequired_PropertyInfo,
-	&ConfigurationProperty_t3330____IsDefaultCollection_PropertyInfo,
-	&ConfigurationProperty_t3330____Name_PropertyInfo,
-	&ConfigurationProperty_t3330____Type_PropertyInfo,
-	&ConfigurationProperty_t3330____Validator_PropertyInfo,
-	&ConfigurationProperty_t3330____IsElement_PropertyInfo,
-	&ConfigurationProperty_t3330____CollectionAttribute_PropertyInfo,
+	&ConfigurationProperty_t3333____DefaultValue_PropertyInfo,
+	&ConfigurationProperty_t3333____IsKey_PropertyInfo,
+	&ConfigurationProperty_t3333____IsRequired_PropertyInfo,
+	&ConfigurationProperty_t3333____IsDefaultCollection_PropertyInfo,
+	&ConfigurationProperty_t3333____Name_PropertyInfo,
+	&ConfigurationProperty_t3333____Type_PropertyInfo,
+	&ConfigurationProperty_t3333____Validator_PropertyInfo,
+	&ConfigurationProperty_t3333____IsElement_PropertyInfo,
+	&ConfigurationProperty_t3333____CollectionAttribute_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference ConfigurationProperty_t3330_VTable[] =
+static const Il2CppMethodReference ConfigurationProperty_t3333_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool ConfigurationProperty_t3330_VTableIsGenericMethod[] =
+static bool ConfigurationProperty_t3333_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -10209,36 +10209,36 @@ static bool ConfigurationProperty_t3330_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationProperty_t3330_1_0_0;
-struct ConfigurationProperty_t3330;
-const Il2CppTypeDefinitionMetadata ConfigurationProperty_t3330_DefinitionMetadata = 
+extern const Il2CppType ConfigurationProperty_t3333_1_0_0;
+struct ConfigurationProperty_t3333;
+const Il2CppTypeDefinitionMetadata ConfigurationProperty_t3333_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ConfigurationProperty_t3330_VTable/* vtableMethods */
-	, ConfigurationProperty_t3330_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationProperty_t3333_VTable/* vtableMethods */
+	, ConfigurationProperty_t3333_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 98/* fieldStart */
 
 };
-TypeInfo ConfigurationProperty_t3330_il2cpp_TypeInfo = 
+TypeInfo ConfigurationProperty_t3333_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationProperty"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationProperty_t3330_MethodInfos/* methods */
-	, ConfigurationProperty_t3330_PropertyInfos/* properties */
+	, ConfigurationProperty_t3333_MethodInfos/* methods */
+	, ConfigurationProperty_t3333_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigurationProperty_t3330_il2cpp_TypeInfo/* element_class */
+	, &ConfigurationProperty_t3333_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ConfigurationProperty_t3330_0_0_0/* byval_arg */
-	, &ConfigurationProperty_t3330_1_0_0/* this_arg */
-	, &ConfigurationProperty_t3330_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationProperty_t3333_0_0_0/* byval_arg */
+	, &ConfigurationProperty_t3333_1_0_0/* this_arg */
+	, &ConfigurationProperty_t3333_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -10248,11 +10248,11 @@ TypeInfo ConfigurationProperty_t3330_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationProperty_t3330)/* instance_size */
-	, sizeof (ConfigurationProperty_t3330)/* actualSize */
+	, sizeof (ConfigurationProperty_t3333)/* instance_size */
+	, sizeof (ConfigurationProperty_t3333)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(ConfigurationProperty_t3330_StaticFields)/* static_fields_size */
+	, sizeof(ConfigurationProperty_t3333_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048833/* flags */
@@ -10281,11 +10281,11 @@ TypeInfo ConfigurationProperty_t3330_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationPropertyAttribute
 #include "System_Configuration_System_Configuration_ConfigurationPrope_1.h"
 // Metadata Definition System.Configuration.ConfigurationPropertyAttribute
-extern TypeInfo ConfigurationPropertyAttribute_t3331_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationPropertyAttribute_t3334_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationPropertyAttribute
 #include "System_Configuration_System_Configuration_ConfigurationPrope_1MethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationPropertyAttribute_t3331_ConfigurationPropertyAttribute__ctor_m11864_ParameterInfos[] = 
+static const ParameterInfo ConfigurationPropertyAttribute_t3334_ConfigurationPropertyAttribute__ctor_m11864_ParameterInfos[] = 
 {
 	{"name", 0, 134217926, 0, &String_t_0_0_0},
 };
@@ -10295,10 +10295,10 @@ extern const MethodInfo ConfigurationPropertyAttribute__ctor_m11864_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationPropertyAttribute__ctor_m11864/* method */
-	, &ConfigurationPropertyAttribute_t3331_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyAttribute_t3334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationPropertyAttribute_t3331_ConfigurationPropertyAttribute__ctor_m11864_ParameterInfos/* parameters */
+	, ConfigurationPropertyAttribute_t3334_ConfigurationPropertyAttribute__ctor_m11864_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -10318,7 +10318,7 @@ extern const MethodInfo ConfigurationPropertyAttribute_get_DefaultValue_m11865_M
 {
 	"get_DefaultValue"/* name */
 	, (methodPointerType)&ConfigurationPropertyAttribute_get_DefaultValue_m11865/* method */
-	, &ConfigurationPropertyAttribute_t3331_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyAttribute_t3334_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -10336,7 +10336,7 @@ extern const MethodInfo ConfigurationPropertyAttribute_get_DefaultValue_m11865_M
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ConfigurationPropertyAttribute_t3331_ConfigurationPropertyAttribute_set_DefaultValue_m11866_ParameterInfos[] = 
+static const ParameterInfo ConfigurationPropertyAttribute_t3334_ConfigurationPropertyAttribute_set_DefaultValue_m11866_ParameterInfos[] = 
 {
 	{"value", 0, 134217927, 0, &Object_t_0_0_0},
 };
@@ -10346,10 +10346,10 @@ extern const MethodInfo ConfigurationPropertyAttribute_set_DefaultValue_m11866_M
 {
 	"set_DefaultValue"/* name */
 	, (methodPointerType)&ConfigurationPropertyAttribute_set_DefaultValue_m11866/* method */
-	, &ConfigurationPropertyAttribute_t3331_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyAttribute_t3334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationPropertyAttribute_t3331_ConfigurationPropertyAttribute_set_DefaultValue_m11866_ParameterInfos/* parameters */
+	, ConfigurationPropertyAttribute_t3334_ConfigurationPropertyAttribute_set_DefaultValue_m11866_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -10363,15 +10363,15 @@ extern const MethodInfo ConfigurationPropertyAttribute_set_DefaultValue_m11866_M
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_ConfigurationPropertyOptions_t3333 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_ConfigurationPropertyOptions_t3336 (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.ConfigurationPropertyOptions System.Configuration.ConfigurationPropertyAttribute::get_Options()
 extern const MethodInfo ConfigurationPropertyAttribute_get_Options_m11867_MethodInfo = 
 {
 	"get_Options"/* name */
 	, (methodPointerType)&ConfigurationPropertyAttribute_get_Options_m11867/* method */
-	, &ConfigurationPropertyAttribute_t3331_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationPropertyOptions_t3333_0_0_0/* return_type */
-	, RuntimeInvoker_ConfigurationPropertyOptions_t3333/* invoker_method */
+	, &ConfigurationPropertyAttribute_t3334_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyOptions_t3336_0_0_0/* return_type */
+	, RuntimeInvoker_ConfigurationPropertyOptions_t3336/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -10386,10 +10386,10 @@ extern const MethodInfo ConfigurationPropertyAttribute_get_Options_m11867_Method
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationPropertyOptions_t3333_0_0_0;
-static const ParameterInfo ConfigurationPropertyAttribute_t3331_ConfigurationPropertyAttribute_set_Options_m11868_ParameterInfos[] = 
+extern const Il2CppType ConfigurationPropertyOptions_t3336_0_0_0;
+static const ParameterInfo ConfigurationPropertyAttribute_t3334_ConfigurationPropertyAttribute_set_Options_m11868_ParameterInfos[] = 
 {
-	{"value", 0, 134217928, 0, &ConfigurationPropertyOptions_t3333_0_0_0},
+	{"value", 0, 134217928, 0, &ConfigurationPropertyOptions_t3336_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationPropertyAttribute::set_Options(System.Configuration.ConfigurationPropertyOptions)
@@ -10397,10 +10397,10 @@ extern const MethodInfo ConfigurationPropertyAttribute_set_Options_m11868_Method
 {
 	"set_Options"/* name */
 	, (methodPointerType)&ConfigurationPropertyAttribute_set_Options_m11868/* method */
-	, &ConfigurationPropertyAttribute_t3331_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyAttribute_t3334_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, ConfigurationPropertyAttribute_t3331_ConfigurationPropertyAttribute_set_Options_m11868_ParameterInfos/* parameters */
+	, ConfigurationPropertyAttribute_t3334_ConfigurationPropertyAttribute_set_Options_m11868_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -10420,7 +10420,7 @@ extern const MethodInfo ConfigurationPropertyAttribute_get_Name_m11869_MethodInf
 {
 	"get_Name"/* name */
 	, (methodPointerType)&ConfigurationPropertyAttribute_get_Name_m11869/* method */
-	, &ConfigurationPropertyAttribute_t3331_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyAttribute_t3334_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -10437,7 +10437,7 @@ extern const MethodInfo ConfigurationPropertyAttribute_get_Name_m11869_MethodInf
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigurationPropertyAttribute_t3331_MethodInfos[] =
+static const MethodInfo* ConfigurationPropertyAttribute_t3334_MethodInfos[] =
 {
 	&ConfigurationPropertyAttribute__ctor_m11864_MethodInfo,
 	&ConfigurationPropertyAttribute_get_DefaultValue_m11865_MethodInfo,
@@ -10449,9 +10449,9 @@ static const MethodInfo* ConfigurationPropertyAttribute_t3331_MethodInfos[] =
 };
 extern const MethodInfo ConfigurationPropertyAttribute_get_DefaultValue_m11865_MethodInfo;
 extern const MethodInfo ConfigurationPropertyAttribute_set_DefaultValue_m11866_MethodInfo;
-static const PropertyInfo ConfigurationPropertyAttribute_t3331____DefaultValue_PropertyInfo = 
+static const PropertyInfo ConfigurationPropertyAttribute_t3334____DefaultValue_PropertyInfo = 
 {
-	&ConfigurationPropertyAttribute_t3331_il2cpp_TypeInfo/* parent */
+	&ConfigurationPropertyAttribute_t3334_il2cpp_TypeInfo/* parent */
 	, "DefaultValue"/* name */
 	, &ConfigurationPropertyAttribute_get_DefaultValue_m11865_MethodInfo/* get */
 	, &ConfigurationPropertyAttribute_set_DefaultValue_m11866_MethodInfo/* set */
@@ -10461,9 +10461,9 @@ static const PropertyInfo ConfigurationPropertyAttribute_t3331____DefaultValue_P
 };
 extern const MethodInfo ConfigurationPropertyAttribute_get_Options_m11867_MethodInfo;
 extern const MethodInfo ConfigurationPropertyAttribute_set_Options_m11868_MethodInfo;
-static const PropertyInfo ConfigurationPropertyAttribute_t3331____Options_PropertyInfo = 
+static const PropertyInfo ConfigurationPropertyAttribute_t3334____Options_PropertyInfo = 
 {
-	&ConfigurationPropertyAttribute_t3331_il2cpp_TypeInfo/* parent */
+	&ConfigurationPropertyAttribute_t3334_il2cpp_TypeInfo/* parent */
 	, "Options"/* name */
 	, &ConfigurationPropertyAttribute_get_Options_m11867_MethodInfo/* get */
 	, &ConfigurationPropertyAttribute_set_Options_m11868_MethodInfo/* set */
@@ -10472,9 +10472,9 @@ static const PropertyInfo ConfigurationPropertyAttribute_t3331____Options_Proper
 
 };
 extern const MethodInfo ConfigurationPropertyAttribute_get_Name_m11869_MethodInfo;
-static const PropertyInfo ConfigurationPropertyAttribute_t3331____Name_PropertyInfo = 
+static const PropertyInfo ConfigurationPropertyAttribute_t3334____Name_PropertyInfo = 
 {
-	&ConfigurationPropertyAttribute_t3331_il2cpp_TypeInfo/* parent */
+	&ConfigurationPropertyAttribute_t3334_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
 	, &ConfigurationPropertyAttribute_get_Name_m11869_MethodInfo/* get */
 	, NULL/* set */
@@ -10482,14 +10482,14 @@ static const PropertyInfo ConfigurationPropertyAttribute_t3331____Name_PropertyI
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigurationPropertyAttribute_t3331_PropertyInfos[] =
+static const PropertyInfo* ConfigurationPropertyAttribute_t3334_PropertyInfos[] =
 {
-	&ConfigurationPropertyAttribute_t3331____DefaultValue_PropertyInfo,
-	&ConfigurationPropertyAttribute_t3331____Options_PropertyInfo,
-	&ConfigurationPropertyAttribute_t3331____Name_PropertyInfo,
+	&ConfigurationPropertyAttribute_t3334____DefaultValue_PropertyInfo,
+	&ConfigurationPropertyAttribute_t3334____Options_PropertyInfo,
+	&ConfigurationPropertyAttribute_t3334____Name_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference ConfigurationPropertyAttribute_t3331_VTable[] =
+static const Il2CppMethodReference ConfigurationPropertyAttribute_t3334_VTable[] =
 {
 	&Attribute_Equals_m489_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -10498,7 +10498,7 @@ static const Il2CppMethodReference ConfigurationPropertyAttribute_t3331_VTable[]
 	&Attribute_get_TypeId_m493_MethodInfo,
 	&Attribute_IsDefaultAttribute_m494_MethodInfo,
 };
-static bool ConfigurationPropertyAttribute_t3331_VTableIsGenericMethod[] =
+static bool ConfigurationPropertyAttribute_t3334_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -10507,42 +10507,42 @@ static bool ConfigurationPropertyAttribute_t3331_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair ConfigurationPropertyAttribute_t3331_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ConfigurationPropertyAttribute_t3334_InterfacesOffsets[] = 
 {
 	{ &_Attribute_t86_0_0_0, 4},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationPropertyAttribute_t3331_0_0_0;
-extern const Il2CppType ConfigurationPropertyAttribute_t3331_1_0_0;
-struct ConfigurationPropertyAttribute_t3331;
-const Il2CppTypeDefinitionMetadata ConfigurationPropertyAttribute_t3331_DefinitionMetadata = 
+extern const Il2CppType ConfigurationPropertyAttribute_t3334_0_0_0;
+extern const Il2CppType ConfigurationPropertyAttribute_t3334_1_0_0;
+struct ConfigurationPropertyAttribute_t3334;
+const Il2CppTypeDefinitionMetadata ConfigurationPropertyAttribute_t3334_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ConfigurationPropertyAttribute_t3331_InterfacesOffsets/* interfaceOffsets */
+	, ConfigurationPropertyAttribute_t3334_InterfacesOffsets/* interfaceOffsets */
 	, &Attribute_t426_0_0_0/* parent */
-	, ConfigurationPropertyAttribute_t3331_VTable/* vtableMethods */
-	, ConfigurationPropertyAttribute_t3331_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationPropertyAttribute_t3334_VTable/* vtableMethods */
+	, ConfigurationPropertyAttribute_t3334_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 107/* fieldStart */
 
 };
-TypeInfo ConfigurationPropertyAttribute_t3331_il2cpp_TypeInfo = 
+TypeInfo ConfigurationPropertyAttribute_t3334_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationPropertyAttribute"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationPropertyAttribute_t3331_MethodInfos/* methods */
-	, ConfigurationPropertyAttribute_t3331_PropertyInfos/* properties */
+	, ConfigurationPropertyAttribute_t3334_MethodInfos/* methods */
+	, ConfigurationPropertyAttribute_t3334_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigurationPropertyAttribute_t3331_il2cpp_TypeInfo/* element_class */
+	, &ConfigurationPropertyAttribute_t3334_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 20/* custom_attributes_cache */
-	, &ConfigurationPropertyAttribute_t3331_0_0_0/* byval_arg */
-	, &ConfigurationPropertyAttribute_t3331_1_0_0/* this_arg */
-	, &ConfigurationPropertyAttribute_t3331_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationPropertyAttribute_t3334_0_0_0/* byval_arg */
+	, &ConfigurationPropertyAttribute_t3334_1_0_0/* this_arg */
+	, &ConfigurationPropertyAttribute_t3334_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -10552,8 +10552,8 @@ TypeInfo ConfigurationPropertyAttribute_t3331_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationPropertyAttribute_t3331)/* instance_size */
-	, sizeof (ConfigurationPropertyAttribute_t3331)/* actualSize */
+	, sizeof (ConfigurationPropertyAttribute_t3334)/* instance_size */
+	, sizeof (ConfigurationPropertyAttribute_t3334)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -10585,7 +10585,7 @@ TypeInfo ConfigurationPropertyAttribute_t3331_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationPropertyCollection
 #include "System_Configuration_System_Configuration_ConfigurationPrope_2.h"
 // Metadata Definition System.Configuration.ConfigurationPropertyCollection
-extern TypeInfo ConfigurationPropertyCollection_t3311_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationPropertyCollection_t3314_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationPropertyCollection
 #include "System_Configuration_System_Configuration_ConfigurationPrope_2MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -10594,7 +10594,7 @@ extern const MethodInfo ConfigurationPropertyCollection__ctor_m11870_MethodInfo 
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationPropertyCollection__ctor_m11870/* method */
-	, &ConfigurationPropertyCollection_t3311_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyCollection_t3314_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -10613,7 +10613,7 @@ extern const MethodInfo ConfigurationPropertyCollection__ctor_m11870_MethodInfo 
 };
 extern const Il2CppType Array_t_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
-static const ParameterInfo ConfigurationPropertyCollection_t3311_ConfigurationPropertyCollection_System_Collections_ICollection_CopyTo_m11871_ParameterInfos[] = 
+static const ParameterInfo ConfigurationPropertyCollection_t3314_ConfigurationPropertyCollection_System_Collections_ICollection_CopyTo_m11871_ParameterInfos[] = 
 {
 	{"array", 0, 134217929, 0, &Array_t_0_0_0},
 	{"index", 1, 134217930, 0, &Int32_t82_0_0_0},
@@ -10624,10 +10624,10 @@ extern const MethodInfo ConfigurationPropertyCollection_System_Collections_IColl
 {
 	"System.Collections.ICollection.CopyTo"/* name */
 	, (methodPointerType)&ConfigurationPropertyCollection_System_Collections_ICollection_CopyTo_m11871/* method */
-	, &ConfigurationPropertyCollection_t3311_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyCollection_t3314_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Int32_t82/* invoker_method */
-	, ConfigurationPropertyCollection_t3311_ConfigurationPropertyCollection_System_Collections_ICollection_CopyTo_m11871_ParameterInfos/* parameters */
+	, ConfigurationPropertyCollection_t3314_ConfigurationPropertyCollection_System_Collections_ICollection_CopyTo_m11871_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 481/* flags */
 	, 0/* iflags */
@@ -10647,7 +10647,7 @@ extern const MethodInfo ConfigurationPropertyCollection_get_Count_m11872_MethodI
 {
 	"get_Count"/* name */
 	, (methodPointerType)&ConfigurationPropertyCollection_get_Count_m11872/* method */
-	, &ConfigurationPropertyCollection_t3311_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyCollection_t3314_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -10670,7 +10670,7 @@ extern const MethodInfo ConfigurationPropertyCollection_get_IsSynchronized_m1187
 {
 	"get_IsSynchronized"/* name */
 	, (methodPointerType)&ConfigurationPropertyCollection_get_IsSynchronized_m11873/* method */
-	, &ConfigurationPropertyCollection_t3311_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyCollection_t3314_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -10693,7 +10693,7 @@ extern const MethodInfo ConfigurationPropertyCollection_get_SyncRoot_m11874_Meth
 {
 	"get_SyncRoot"/* name */
 	, (methodPointerType)&ConfigurationPropertyCollection_get_SyncRoot_m11874/* method */
-	, &ConfigurationPropertyCollection_t3311_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyCollection_t3314_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -10710,10 +10710,10 @@ extern const MethodInfo ConfigurationPropertyCollection_get_SyncRoot_m11874_Meth
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationProperty_t3330_0_0_0;
-static const ParameterInfo ConfigurationPropertyCollection_t3311_ConfigurationPropertyCollection_Add_m11875_ParameterInfos[] = 
+extern const Il2CppType ConfigurationProperty_t3333_0_0_0;
+static const ParameterInfo ConfigurationPropertyCollection_t3314_ConfigurationPropertyCollection_Add_m11875_ParameterInfos[] = 
 {
-	{"property", 0, 134217931, 0, &ConfigurationProperty_t3330_0_0_0},
+	{"property", 0, 134217931, 0, &ConfigurationProperty_t3333_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationPropertyCollection::Add(System.Configuration.ConfigurationProperty)
@@ -10721,10 +10721,10 @@ extern const MethodInfo ConfigurationPropertyCollection_Add_m11875_MethodInfo =
 {
 	"Add"/* name */
 	, (methodPointerType)&ConfigurationPropertyCollection_Add_m11875/* method */
-	, &ConfigurationPropertyCollection_t3311_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyCollection_t3314_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationPropertyCollection_t3311_ConfigurationPropertyCollection_Add_m11875_ParameterInfos/* parameters */
+	, ConfigurationPropertyCollection_t3314_ConfigurationPropertyCollection_Add_m11875_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -10744,7 +10744,7 @@ extern const MethodInfo ConfigurationPropertyCollection_GetEnumerator_m11876_Met
 {
 	"GetEnumerator"/* name */
 	, (methodPointerType)&ConfigurationPropertyCollection_GetEnumerator_m11876/* method */
-	, &ConfigurationPropertyCollection_t3311_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyCollection_t3314_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t48_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -10761,7 +10761,7 @@ extern const MethodInfo ConfigurationPropertyCollection_GetEnumerator_m11876_Met
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigurationPropertyCollection_t3311_MethodInfos[] =
+static const MethodInfo* ConfigurationPropertyCollection_t3314_MethodInfos[] =
 {
 	&ConfigurationPropertyCollection__ctor_m11870_MethodInfo,
 	&ConfigurationPropertyCollection_System_Collections_ICollection_CopyTo_m11871_MethodInfo,
@@ -10773,9 +10773,9 @@ static const MethodInfo* ConfigurationPropertyCollection_t3311_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ConfigurationPropertyCollection_get_Count_m11872_MethodInfo;
-static const PropertyInfo ConfigurationPropertyCollection_t3311____Count_PropertyInfo = 
+static const PropertyInfo ConfigurationPropertyCollection_t3314____Count_PropertyInfo = 
 {
-	&ConfigurationPropertyCollection_t3311_il2cpp_TypeInfo/* parent */
+	&ConfigurationPropertyCollection_t3314_il2cpp_TypeInfo/* parent */
 	, "Count"/* name */
 	, &ConfigurationPropertyCollection_get_Count_m11872_MethodInfo/* get */
 	, NULL/* set */
@@ -10784,9 +10784,9 @@ static const PropertyInfo ConfigurationPropertyCollection_t3311____Count_Propert
 
 };
 extern const MethodInfo ConfigurationPropertyCollection_get_IsSynchronized_m11873_MethodInfo;
-static const PropertyInfo ConfigurationPropertyCollection_t3311____IsSynchronized_PropertyInfo = 
+static const PropertyInfo ConfigurationPropertyCollection_t3314____IsSynchronized_PropertyInfo = 
 {
-	&ConfigurationPropertyCollection_t3311_il2cpp_TypeInfo/* parent */
+	&ConfigurationPropertyCollection_t3314_il2cpp_TypeInfo/* parent */
 	, "IsSynchronized"/* name */
 	, &ConfigurationPropertyCollection_get_IsSynchronized_m11873_MethodInfo/* get */
 	, NULL/* set */
@@ -10795,9 +10795,9 @@ static const PropertyInfo ConfigurationPropertyCollection_t3311____IsSynchronize
 
 };
 extern const MethodInfo ConfigurationPropertyCollection_get_SyncRoot_m11874_MethodInfo;
-static const PropertyInfo ConfigurationPropertyCollection_t3311____SyncRoot_PropertyInfo = 
+static const PropertyInfo ConfigurationPropertyCollection_t3314____SyncRoot_PropertyInfo = 
 {
-	&ConfigurationPropertyCollection_t3311_il2cpp_TypeInfo/* parent */
+	&ConfigurationPropertyCollection_t3314_il2cpp_TypeInfo/* parent */
 	, "SyncRoot"/* name */
 	, &ConfigurationPropertyCollection_get_SyncRoot_m11874_MethodInfo/* get */
 	, NULL/* set */
@@ -10805,16 +10805,16 @@ static const PropertyInfo ConfigurationPropertyCollection_t3311____SyncRoot_Prop
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigurationPropertyCollection_t3311_PropertyInfos[] =
+static const PropertyInfo* ConfigurationPropertyCollection_t3314_PropertyInfos[] =
 {
-	&ConfigurationPropertyCollection_t3311____Count_PropertyInfo,
-	&ConfigurationPropertyCollection_t3311____IsSynchronized_PropertyInfo,
-	&ConfigurationPropertyCollection_t3311____SyncRoot_PropertyInfo,
+	&ConfigurationPropertyCollection_t3314____Count_PropertyInfo,
+	&ConfigurationPropertyCollection_t3314____IsSynchronized_PropertyInfo,
+	&ConfigurationPropertyCollection_t3314____SyncRoot_PropertyInfo,
 	NULL
 };
 extern const MethodInfo ConfigurationPropertyCollection_System_Collections_ICollection_CopyTo_m11871_MethodInfo;
 extern const MethodInfo ConfigurationPropertyCollection_GetEnumerator_m11876_MethodInfo;
-static const Il2CppMethodReference ConfigurationPropertyCollection_t3311_VTable[] =
+static const Il2CppMethodReference ConfigurationPropertyCollection_t3314_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -10826,7 +10826,7 @@ static const Il2CppMethodReference ConfigurationPropertyCollection_t3311_VTable[
 	&ConfigurationPropertyCollection_System_Collections_ICollection_CopyTo_m11871_MethodInfo,
 	&ConfigurationPropertyCollection_GetEnumerator_m11876_MethodInfo,
 };
-static bool ConfigurationPropertyCollection_t3311_VTableIsGenericMethod[] =
+static bool ConfigurationPropertyCollection_t3314_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -10838,47 +10838,47 @@ static bool ConfigurationPropertyCollection_t3311_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* ConfigurationPropertyCollection_t3311_InterfacesTypeInfos[] = 
+static const Il2CppType* ConfigurationPropertyCollection_t3314_InterfacesTypeInfos[] = 
 {
-	&ICollection_t769_0_0_0,
+	&ICollection_t772_0_0_0,
 	&IEnumerable_t104_0_0_0,
 };
-static Il2CppInterfaceOffsetPair ConfigurationPropertyCollection_t3311_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ConfigurationPropertyCollection_t3314_InterfacesOffsets[] = 
 {
-	{ &ICollection_t769_0_0_0, 4},
+	{ &ICollection_t772_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationPropertyCollection_t3311_1_0_0;
-struct ConfigurationPropertyCollection_t3311;
-const Il2CppTypeDefinitionMetadata ConfigurationPropertyCollection_t3311_DefinitionMetadata = 
+extern const Il2CppType ConfigurationPropertyCollection_t3314_1_0_0;
+struct ConfigurationPropertyCollection_t3314;
+const Il2CppTypeDefinitionMetadata ConfigurationPropertyCollection_t3314_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, ConfigurationPropertyCollection_t3311_InterfacesTypeInfos/* implementedInterfaces */
-	, ConfigurationPropertyCollection_t3311_InterfacesOffsets/* interfaceOffsets */
+	, ConfigurationPropertyCollection_t3314_InterfacesTypeInfos/* implementedInterfaces */
+	, ConfigurationPropertyCollection_t3314_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ConfigurationPropertyCollection_t3311_VTable/* vtableMethods */
-	, ConfigurationPropertyCollection_t3311_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationPropertyCollection_t3314_VTable/* vtableMethods */
+	, ConfigurationPropertyCollection_t3314_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 110/* fieldStart */
 
 };
-TypeInfo ConfigurationPropertyCollection_t3311_il2cpp_TypeInfo = 
+TypeInfo ConfigurationPropertyCollection_t3314_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationPropertyCollection"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationPropertyCollection_t3311_MethodInfos/* methods */
-	, ConfigurationPropertyCollection_t3311_PropertyInfos/* properties */
+	, ConfigurationPropertyCollection_t3314_MethodInfos/* methods */
+	, ConfigurationPropertyCollection_t3314_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigurationPropertyCollection_t3311_il2cpp_TypeInfo/* element_class */
+	, &ConfigurationPropertyCollection_t3314_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 21/* custom_attributes_cache */
-	, &ConfigurationPropertyCollection_t3311_0_0_0/* byval_arg */
-	, &ConfigurationPropertyCollection_t3311_1_0_0/* this_arg */
-	, &ConfigurationPropertyCollection_t3311_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationPropertyCollection_t3314_0_0_0/* byval_arg */
+	, &ConfigurationPropertyCollection_t3314_1_0_0/* this_arg */
+	, &ConfigurationPropertyCollection_t3314_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -10888,8 +10888,8 @@ TypeInfo ConfigurationPropertyCollection_t3311_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationPropertyCollection_t3311)/* instance_size */
-	, sizeof (ConfigurationPropertyCollection_t3311)/* actualSize */
+	, sizeof (ConfigurationPropertyCollection_t3314)/* instance_size */
+	, sizeof (ConfigurationPropertyCollection_t3314)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -10921,14 +10921,14 @@ TypeInfo ConfigurationPropertyCollection_t3311_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationPropertyOptions
 #include "System_Configuration_System_Configuration_ConfigurationPrope_0.h"
 // Metadata Definition System.Configuration.ConfigurationPropertyOptions
-extern TypeInfo ConfigurationPropertyOptions_t3333_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationPropertyOptions_t3336_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationPropertyOptions
 #include "System_Configuration_System_Configuration_ConfigurationPrope_0MethodDeclarations.h"
-static const MethodInfo* ConfigurationPropertyOptions_t3333_MethodInfos[] =
+static const MethodInfo* ConfigurationPropertyOptions_t3336_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference ConfigurationPropertyOptions_t3333_VTable[] =
+static const Il2CppMethodReference ConfigurationPropertyOptions_t3336_VTable[] =
 {
 	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -10954,7 +10954,7 @@ static const Il2CppMethodReference ConfigurationPropertyOptions_t3333_VTable[] =
 	&Enum_CompareTo_m523_MethodInfo,
 	&Enum_GetTypeCode_m524_MethodInfo,
 };
-static bool ConfigurationPropertyOptions_t3333_VTableIsGenericMethod[] =
+static bool ConfigurationPropertyOptions_t3336_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -10980,42 +10980,42 @@ static bool ConfigurationPropertyOptions_t3333_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair ConfigurationPropertyOptions_t3333_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ConfigurationPropertyOptions_t3336_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
 	{ &IComparable_t99_0_0_0, 21},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationPropertyOptions_t3333_1_0_0;
-const Il2CppTypeDefinitionMetadata ConfigurationPropertyOptions_t3333_DefinitionMetadata = 
+extern const Il2CppType ConfigurationPropertyOptions_t3336_1_0_0;
+const Il2CppTypeDefinitionMetadata ConfigurationPropertyOptions_t3336_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ConfigurationPropertyOptions_t3333_InterfacesOffsets/* interfaceOffsets */
+	, ConfigurationPropertyOptions_t3336_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t100_0_0_0/* parent */
-	, ConfigurationPropertyOptions_t3333_VTable/* vtableMethods */
-	, ConfigurationPropertyOptions_t3333_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationPropertyOptions_t3336_VTable/* vtableMethods */
+	, ConfigurationPropertyOptions_t3336_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 111/* fieldStart */
 
 };
-TypeInfo ConfigurationPropertyOptions_t3333_il2cpp_TypeInfo = 
+TypeInfo ConfigurationPropertyOptions_t3336_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationPropertyOptions"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationPropertyOptions_t3333_MethodInfos/* methods */
+	, ConfigurationPropertyOptions_t3336_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
 	, &Int32_t82_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 22/* custom_attributes_cache */
-	, &ConfigurationPropertyOptions_t3333_0_0_0/* byval_arg */
-	, &ConfigurationPropertyOptions_t3333_1_0_0/* this_arg */
-	, &ConfigurationPropertyOptions_t3333_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationPropertyOptions_t3336_0_0_0/* byval_arg */
+	, &ConfigurationPropertyOptions_t3336_1_0_0/* this_arg */
+	, &ConfigurationPropertyOptions_t3336_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -11025,8 +11025,8 @@ TypeInfo ConfigurationPropertyOptions_t3333_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationPropertyOptions_t3333)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (ConfigurationPropertyOptions_t3333)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (ConfigurationPropertyOptions_t3336)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (ConfigurationPropertyOptions_t3336)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -11058,14 +11058,14 @@ TypeInfo ConfigurationPropertyOptions_t3333_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationSaveMode
 #include "System_Configuration_System_Configuration_ConfigurationSaveM.h"
 // Metadata Definition System.Configuration.ConfigurationSaveMode
-extern TypeInfo ConfigurationSaveMode_t3334_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationSaveMode_t3337_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationSaveMode
 #include "System_Configuration_System_Configuration_ConfigurationSaveMMethodDeclarations.h"
-static const MethodInfo* ConfigurationSaveMode_t3334_MethodInfos[] =
+static const MethodInfo* ConfigurationSaveMode_t3337_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference ConfigurationSaveMode_t3334_VTable[] =
+static const Il2CppMethodReference ConfigurationSaveMode_t3337_VTable[] =
 {
 	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -11091,7 +11091,7 @@ static const Il2CppMethodReference ConfigurationSaveMode_t3334_VTable[] =
 	&Enum_CompareTo_m523_MethodInfo,
 	&Enum_GetTypeCode_m524_MethodInfo,
 };
-static bool ConfigurationSaveMode_t3334_VTableIsGenericMethod[] =
+static bool ConfigurationSaveMode_t3337_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -11117,42 +11117,42 @@ static bool ConfigurationSaveMode_t3334_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair ConfigurationSaveMode_t3334_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ConfigurationSaveMode_t3337_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
 	{ &IComparable_t99_0_0_0, 21},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationSaveMode_t3334_1_0_0;
-const Il2CppTypeDefinitionMetadata ConfigurationSaveMode_t3334_DefinitionMetadata = 
+extern const Il2CppType ConfigurationSaveMode_t3337_1_0_0;
+const Il2CppTypeDefinitionMetadata ConfigurationSaveMode_t3337_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ConfigurationSaveMode_t3334_InterfacesOffsets/* interfaceOffsets */
+	, ConfigurationSaveMode_t3337_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t100_0_0_0/* parent */
-	, ConfigurationSaveMode_t3334_VTable/* vtableMethods */
-	, ConfigurationSaveMode_t3334_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationSaveMode_t3337_VTable/* vtableMethods */
+	, ConfigurationSaveMode_t3337_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 116/* fieldStart */
 
 };
-TypeInfo ConfigurationSaveMode_t3334_il2cpp_TypeInfo = 
+TypeInfo ConfigurationSaveMode_t3337_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationSaveMode"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationSaveMode_t3334_MethodInfos/* methods */
+	, ConfigurationSaveMode_t3337_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
 	, &Int32_t82_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ConfigurationSaveMode_t3334_0_0_0/* byval_arg */
-	, &ConfigurationSaveMode_t3334_1_0_0/* this_arg */
-	, &ConfigurationSaveMode_t3334_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationSaveMode_t3337_0_0_0/* byval_arg */
+	, &ConfigurationSaveMode_t3337_1_0_0/* this_arg */
+	, &ConfigurationSaveMode_t3337_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -11162,8 +11162,8 @@ TypeInfo ConfigurationSaveMode_t3334_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationSaveMode_t3334)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (ConfigurationSaveMode_t3334)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (ConfigurationSaveMode_t3337)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (ConfigurationSaveMode_t3337)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -11195,7 +11195,7 @@ TypeInfo ConfigurationSaveMode_t3334_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationSection
 #include "System_Configuration_System_Configuration_ConfigurationSecti.h"
 // Metadata Definition System.Configuration.ConfigurationSection
-extern TypeInfo ConfigurationSection_t3337_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationSection_t3340_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationSection
 #include "System_Configuration_System_Configuration_ConfigurationSectiMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -11204,7 +11204,7 @@ extern const MethodInfo ConfigurationSection__ctor_m11877_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationSection__ctor_m11877/* method */
-	, &ConfigurationSection_t3337_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSection_t3340_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -11221,15 +11221,15 @@ extern const MethodInfo ConfigurationSection__ctor_m11877_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IConfigurationSectionHandler_t3336_0_0_0;
+extern const Il2CppType IConfigurationSectionHandler_t3339_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.IConfigurationSectionHandler System.Configuration.ConfigurationSection::get_SectionHandler()
 extern const MethodInfo ConfigurationSection_get_SectionHandler_m11878_MethodInfo = 
 {
 	"get_SectionHandler"/* name */
 	, (methodPointerType)&ConfigurationSection_get_SectionHandler_m11878/* method */
-	, &ConfigurationSection_t3337_il2cpp_TypeInfo/* declaring_type */
-	, &IConfigurationSectionHandler_t3336_0_0_0/* return_type */
+	, &ConfigurationSection_t3340_il2cpp_TypeInfo/* declaring_type */
+	, &IConfigurationSectionHandler_t3339_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -11245,10 +11245,10 @@ extern const MethodInfo ConfigurationSection_get_SectionHandler_m11878_MethodInf
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IConfigurationSectionHandler_t3336_0_0_0;
-static const ParameterInfo ConfigurationSection_t3337_ConfigurationSection_set_SectionHandler_m11879_ParameterInfos[] = 
+extern const Il2CppType IConfigurationSectionHandler_t3339_0_0_0;
+static const ParameterInfo ConfigurationSection_t3340_ConfigurationSection_set_SectionHandler_m11879_ParameterInfos[] = 
 {
-	{"value", 0, 134217932, 0, &IConfigurationSectionHandler_t3336_0_0_0},
+	{"value", 0, 134217932, 0, &IConfigurationSectionHandler_t3339_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationSection::set_SectionHandler(System.Configuration.IConfigurationSectionHandler)
@@ -11256,10 +11256,10 @@ extern const MethodInfo ConfigurationSection_set_SectionHandler_m11879_MethodInf
 {
 	"set_SectionHandler"/* name */
 	, (methodPointerType)&ConfigurationSection_set_SectionHandler_m11879/* method */
-	, &ConfigurationSection_t3337_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSection_t3340_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationSection_t3337_ConfigurationSection_set_SectionHandler_m11879_ParameterInfos/* parameters */
+	, ConfigurationSection_t3340_ConfigurationSection_set_SectionHandler_m11879_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -11273,15 +11273,15 @@ extern const MethodInfo ConfigurationSection_set_SectionHandler_m11879_MethodInf
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SectionInformation_t3335_0_0_0;
+extern const Il2CppType SectionInformation_t3338_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.SectionInformation System.Configuration.ConfigurationSection::get_SectionInformation()
 extern const MethodInfo ConfigurationSection_get_SectionInformation_m11880_MethodInfo = 
 {
 	"get_SectionInformation"/* name */
 	, (methodPointerType)&ConfigurationSection_get_SectionInformation_m11880/* method */
-	, &ConfigurationSection_t3337_il2cpp_TypeInfo/* declaring_type */
-	, &SectionInformation_t3335_0_0_0/* return_type */
+	, &ConfigurationSection_t3340_il2cpp_TypeInfo/* declaring_type */
+	, &SectionInformation_t3338_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -11303,7 +11303,7 @@ extern const MethodInfo ConfigurationSection_get_ConfigContext_m11881_MethodInfo
 {
 	"get_ConfigContext"/* name */
 	, (methodPointerType)&ConfigurationSection_get_ConfigContext_m11881/* method */
-	, &ConfigurationSection_t3337_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSection_t3340_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -11321,7 +11321,7 @@ extern const MethodInfo ConfigurationSection_get_ConfigContext_m11881_MethodInfo
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ConfigurationSection_t3337_ConfigurationSection_set_ConfigContext_m11882_ParameterInfos[] = 
+static const ParameterInfo ConfigurationSection_t3340_ConfigurationSection_set_ConfigContext_m11882_ParameterInfos[] = 
 {
 	{"value", 0, 134217933, 0, &Object_t_0_0_0},
 };
@@ -11331,10 +11331,10 @@ extern const MethodInfo ConfigurationSection_set_ConfigContext_m11882_MethodInfo
 {
 	"set_ConfigContext"/* name */
 	, (methodPointerType)&ConfigurationSection_set_ConfigContext_m11882/* method */
-	, &ConfigurationSection_t3337_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSection_t3340_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationSection_t3337_ConfigurationSection_set_ConfigContext_m11882_ParameterInfos/* parameters */
+	, ConfigurationSection_t3340_ConfigurationSection_set_ConfigContext_m11882_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -11354,7 +11354,7 @@ extern const MethodInfo ConfigurationSection_GetRuntimeObject_m11883_MethodInfo 
 {
 	"GetRuntimeObject"/* name */
 	, (methodPointerType)&ConfigurationSection_GetRuntimeObject_m11883/* method */
-	, &ConfigurationSection_t3337_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSection_t3340_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -11377,7 +11377,7 @@ extern const MethodInfo ConfigurationSection_IsModified_m11884_MethodInfo =
 {
 	"IsModified"/* name */
 	, (methodPointerType)&ConfigurationSection_IsModified_m11884/* method */
-	, &ConfigurationSection_t3337_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSection_t3340_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -11400,7 +11400,7 @@ extern const MethodInfo ConfigurationSection_ResetModified_m11885_MethodInfo =
 {
 	"ResetModified"/* name */
 	, (methodPointerType)&ConfigurationSection_ResetModified_m11885/* method */
-	, &ConfigurationSection_t3337_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSection_t3340_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -11418,7 +11418,7 @@ extern const MethodInfo ConfigurationSection_ResetModified_m11885_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo ConfigurationSection_t3337_ConfigurationSection_CreateElement_m11886_ParameterInfos[] = 
+static const ParameterInfo ConfigurationSection_t3340_ConfigurationSection_CreateElement_m11886_ParameterInfos[] = 
 {
 	{"t", 0, 134217934, 0, &Type_t_0_0_0},
 };
@@ -11428,10 +11428,10 @@ extern const MethodInfo ConfigurationSection_CreateElement_m11886_MethodInfo =
 {
 	"CreateElement"/* name */
 	, (methodPointerType)&ConfigurationSection_CreateElement_m11886/* method */
-	, &ConfigurationSection_t3337_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationElement_t3315_0_0_0/* return_type */
+	, &ConfigurationSection_t3340_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConfigurationSection_t3337_ConfigurationSection_CreateElement_m11886_ParameterInfos/* parameters */
+	, ConfigurationSection_t3340_ConfigurationSection_CreateElement_m11886_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -11445,10 +11445,10 @@ extern const MethodInfo ConfigurationSection_CreateElement_m11886_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlReader_t3369_0_0_0;
-static const ParameterInfo ConfigurationSection_t3337_ConfigurationSection_DoDeserializeSection_m11887_ParameterInfos[] = 
+extern const Il2CppType XmlReader_t3372_0_0_0;
+static const ParameterInfo ConfigurationSection_t3340_ConfigurationSection_DoDeserializeSection_m11887_ParameterInfos[] = 
 {
-	{"reader", 0, 134217935, 0, &XmlReader_t3369_0_0_0},
+	{"reader", 0, 134217935, 0, &XmlReader_t3372_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationSection::DoDeserializeSection(System.Xml.XmlReader)
@@ -11456,10 +11456,10 @@ extern const MethodInfo ConfigurationSection_DoDeserializeSection_m11887_MethodI
 {
 	"DoDeserializeSection"/* name */
 	, (methodPointerType)&ConfigurationSection_DoDeserializeSection_m11887/* method */
-	, &ConfigurationSection_t3337_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSection_t3340_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationSection_t3337_ConfigurationSection_DoDeserializeSection_m11887_ParameterInfos/* parameters */
+	, ConfigurationSection_t3340_ConfigurationSection_DoDeserializeSection_m11887_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -11473,10 +11473,10 @@ extern const MethodInfo ConfigurationSection_DoDeserializeSection_m11887_MethodI
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlReader_t3369_0_0_0;
-static const ParameterInfo ConfigurationSection_t3337_ConfigurationSection_DeserializeSection_m11888_ParameterInfos[] = 
+extern const Il2CppType XmlReader_t3372_0_0_0;
+static const ParameterInfo ConfigurationSection_t3340_ConfigurationSection_DeserializeSection_m11888_ParameterInfos[] = 
 {
-	{"reader", 0, 134217936, 0, &XmlReader_t3369_0_0_0},
+	{"reader", 0, 134217936, 0, &XmlReader_t3372_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationSection::DeserializeSection(System.Xml.XmlReader)
@@ -11484,10 +11484,10 @@ extern const MethodInfo ConfigurationSection_DeserializeSection_m11888_MethodInf
 {
 	"DeserializeSection"/* name */
 	, (methodPointerType)&ConfigurationSection_DeserializeSection_m11888/* method */
-	, &ConfigurationSection_t3337_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSection_t3340_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationSection_t3337_ConfigurationSection_DeserializeSection_m11888_ParameterInfos/* parameters */
+	, ConfigurationSection_t3340_ConfigurationSection_DeserializeSection_m11888_ParameterInfos/* parameters */
 	, 26/* custom_attributes_cache */
 	, 453/* flags */
 	, 0/* iflags */
@@ -11502,7 +11502,7 @@ extern const MethodInfo ConfigurationSection_DeserializeSection_m11888_MethodInf
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationSection_t3337_ConfigurationSection_DeserializeConfigSource_m11889_ParameterInfos[] = 
+static const ParameterInfo ConfigurationSection_t3340_ConfigurationSection_DeserializeConfigSource_m11889_ParameterInfos[] = 
 {
 	{"basePath", 0, 134217937, 0, &String_t_0_0_0},
 };
@@ -11512,10 +11512,10 @@ extern const MethodInfo ConfigurationSection_DeserializeConfigSource_m11889_Meth
 {
 	"DeserializeConfigSource"/* name */
 	, (methodPointerType)&ConfigurationSection_DeserializeConfigSource_m11889/* method */
-	, &ConfigurationSection_t3337_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSection_t3340_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationSection_t3337_ConfigurationSection_DeserializeConfigSource_m11889_ParameterInfos/* parameters */
+	, ConfigurationSection_t3340_ConfigurationSection_DeserializeConfigSource_m11889_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -11529,14 +11529,14 @@ extern const MethodInfo ConfigurationSection_DeserializeConfigSource_m11889_Meth
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ConfigurationSaveMode_t3334_0_0_0;
-static const ParameterInfo ConfigurationSection_t3337_ConfigurationSection_SerializeSection_m11890_ParameterInfos[] = 
+extern const Il2CppType ConfigurationSaveMode_t3337_0_0_0;
+static const ParameterInfo ConfigurationSection_t3340_ConfigurationSection_SerializeSection_m11890_ParameterInfos[] = 
 {
-	{"parentElement", 0, 134217938, 0, &ConfigurationElement_t3315_0_0_0},
+	{"parentElement", 0, 134217938, 0, &ConfigurationElement_t3318_0_0_0},
 	{"name", 1, 134217939, 0, &String_t_0_0_0},
-	{"saveMode", 2, 134217940, 0, &ConfigurationSaveMode_t3334_0_0_0},
+	{"saveMode", 2, 134217940, 0, &ConfigurationSaveMode_t3337_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.String System.Configuration.ConfigurationSection::SerializeSection(System.Configuration.ConfigurationElement,System.String,System.Configuration.ConfigurationSaveMode)
@@ -11544,10 +11544,10 @@ extern const MethodInfo ConfigurationSection_SerializeSection_m11890_MethodInfo 
 {
 	"SerializeSection"/* name */
 	, (methodPointerType)&ConfigurationSection_SerializeSection_m11890/* method */
-	, &ConfigurationSection_t3337_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSection_t3340_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82/* invoker_method */
-	, ConfigurationSection_t3337_ConfigurationSection_SerializeSection_m11890_ParameterInfos/* parameters */
+	, ConfigurationSection_t3340_ConfigurationSection_SerializeSection_m11890_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 453/* flags */
 	, 0/* iflags */
@@ -11561,7 +11561,7 @@ extern const MethodInfo ConfigurationSection_SerializeSection_m11890_MethodInfo 
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigurationSection_t3337_MethodInfos[] =
+static const MethodInfo* ConfigurationSection_t3340_MethodInfos[] =
 {
 	&ConfigurationSection__ctor_m11877_MethodInfo,
 	&ConfigurationSection_get_SectionHandler_m11878_MethodInfo,
@@ -11581,9 +11581,9 @@ static const MethodInfo* ConfigurationSection_t3337_MethodInfos[] =
 };
 extern const MethodInfo ConfigurationSection_get_SectionHandler_m11878_MethodInfo;
 extern const MethodInfo ConfigurationSection_set_SectionHandler_m11879_MethodInfo;
-static const PropertyInfo ConfigurationSection_t3337____SectionHandler_PropertyInfo = 
+static const PropertyInfo ConfigurationSection_t3340____SectionHandler_PropertyInfo = 
 {
-	&ConfigurationSection_t3337_il2cpp_TypeInfo/* parent */
+	&ConfigurationSection_t3340_il2cpp_TypeInfo/* parent */
 	, "SectionHandler"/* name */
 	, &ConfigurationSection_get_SectionHandler_m11878_MethodInfo/* get */
 	, &ConfigurationSection_set_SectionHandler_m11879_MethodInfo/* set */
@@ -11592,9 +11592,9 @@ static const PropertyInfo ConfigurationSection_t3337____SectionHandler_PropertyI
 
 };
 extern const MethodInfo ConfigurationSection_get_SectionInformation_m11880_MethodInfo;
-static const PropertyInfo ConfigurationSection_t3337____SectionInformation_PropertyInfo = 
+static const PropertyInfo ConfigurationSection_t3340____SectionInformation_PropertyInfo = 
 {
-	&ConfigurationSection_t3337_il2cpp_TypeInfo/* parent */
+	&ConfigurationSection_t3340_il2cpp_TypeInfo/* parent */
 	, "SectionInformation"/* name */
 	, &ConfigurationSection_get_SectionInformation_m11880_MethodInfo/* get */
 	, NULL/* set */
@@ -11604,9 +11604,9 @@ static const PropertyInfo ConfigurationSection_t3337____SectionInformation_Prope
 };
 extern const MethodInfo ConfigurationSection_get_ConfigContext_m11881_MethodInfo;
 extern const MethodInfo ConfigurationSection_set_ConfigContext_m11882_MethodInfo;
-static const PropertyInfo ConfigurationSection_t3337____ConfigContext_PropertyInfo = 
+static const PropertyInfo ConfigurationSection_t3340____ConfigContext_PropertyInfo = 
 {
-	&ConfigurationSection_t3337_il2cpp_TypeInfo/* parent */
+	&ConfigurationSection_t3340_il2cpp_TypeInfo/* parent */
 	, "ConfigContext"/* name */
 	, &ConfigurationSection_get_ConfigContext_m11881_MethodInfo/* get */
 	, &ConfigurationSection_set_ConfigContext_m11882_MethodInfo/* set */
@@ -11614,11 +11614,11 @@ static const PropertyInfo ConfigurationSection_t3337____ConfigContext_PropertyIn
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigurationSection_t3337_PropertyInfos[] =
+static const PropertyInfo* ConfigurationSection_t3340_PropertyInfos[] =
 {
-	&ConfigurationSection_t3337____SectionHandler_PropertyInfo,
-	&ConfigurationSection_t3337____SectionInformation_PropertyInfo,
-	&ConfigurationSection_t3337____ConfigContext_PropertyInfo,
+	&ConfigurationSection_t3340____SectionHandler_PropertyInfo,
+	&ConfigurationSection_t3340____SectionInformation_PropertyInfo,
+	&ConfigurationSection_t3340____ConfigContext_PropertyInfo,
 	NULL
 };
 extern const MethodInfo ConfigurationSection_IsModified_m11884_MethodInfo;
@@ -11626,7 +11626,7 @@ extern const MethodInfo ConfigurationSection_ResetModified_m11885_MethodInfo;
 extern const MethodInfo ConfigurationSection_GetRuntimeObject_m11883_MethodInfo;
 extern const MethodInfo ConfigurationSection_DeserializeSection_m11888_MethodInfo;
 extern const MethodInfo ConfigurationSection_SerializeSection_m11890_MethodInfo;
-static const Il2CppMethodReference ConfigurationSection_t3337_VTable[] =
+static const Il2CppMethodReference ConfigurationSection_t3340_VTable[] =
 {
 	&ConfigurationElement_Equals_m11733_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -11656,7 +11656,7 @@ static const Il2CppMethodReference ConfigurationSection_t3337_VTable[] =
 	&ConfigurationSection_DeserializeSection_m11888_MethodInfo,
 	&ConfigurationSection_SerializeSection_m11890_MethodInfo,
 };
-static bool ConfigurationSection_t3337_VTableIsGenericMethod[] =
+static bool ConfigurationSection_t3340_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -11687,36 +11687,36 @@ static bool ConfigurationSection_t3337_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationSection_t3337_1_0_0;
-struct ConfigurationSection_t3337;
-const Il2CppTypeDefinitionMetadata ConfigurationSection_t3337_DefinitionMetadata = 
+extern const Il2CppType ConfigurationSection_t3340_1_0_0;
+struct ConfigurationSection_t3340;
+const Il2CppTypeDefinitionMetadata ConfigurationSection_t3340_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &ConfigurationElement_t3315_0_0_0/* parent */
-	, ConfigurationSection_t3337_VTable/* vtableMethods */
-	, ConfigurationSection_t3337_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &ConfigurationElement_t3318_0_0_0/* parent */
+	, ConfigurationSection_t3340_VTable/* vtableMethods */
+	, ConfigurationSection_t3340_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 120/* fieldStart */
 
 };
-TypeInfo ConfigurationSection_t3337_il2cpp_TypeInfo = 
+TypeInfo ConfigurationSection_t3340_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationSection"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationSection_t3337_MethodInfos/* methods */
-	, ConfigurationSection_t3337_PropertyInfos/* properties */
+	, ConfigurationSection_t3340_MethodInfos/* methods */
+	, ConfigurationSection_t3340_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigurationSection_t3337_il2cpp_TypeInfo/* element_class */
+	, &ConfigurationSection_t3340_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ConfigurationSection_t3337_0_0_0/* byval_arg */
-	, &ConfigurationSection_t3337_1_0_0/* this_arg */
-	, &ConfigurationSection_t3337_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationSection_t3340_0_0_0/* byval_arg */
+	, &ConfigurationSection_t3340_1_0_0/* this_arg */
+	, &ConfigurationSection_t3340_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -11726,8 +11726,8 @@ TypeInfo ConfigurationSection_t3337_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationSection_t3337)/* instance_size */
-	, sizeof (ConfigurationSection_t3337)/* actualSize */
+	, sizeof (ConfigurationSection_t3340)/* instance_size */
+	, sizeof (ConfigurationSection_t3340)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -11759,7 +11759,7 @@ TypeInfo ConfigurationSection_t3337_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationSectionCollection/<GetEnumerator>c__Iterator0
 #include "System_Configuration_System_Configuration_ConfigurationSecti_0.h"
 // Metadata Definition System.Configuration.ConfigurationSectionCollection/<GetEnumerator>c__Iterator0
-extern TypeInfo U3CGetEnumeratorU3Ec__Iterator0_t3339_il2cpp_TypeInfo;
+extern TypeInfo U3CGetEnumeratorU3Ec__Iterator0_t3342_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationSectionCollection/<GetEnumerator>c__Iterator0
 #include "System_Configuration_System_Configuration_ConfigurationSecti_0MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -11768,7 +11768,7 @@ extern const MethodInfo U3CGetEnumeratorU3Ec__Iterator0__ctor_m11891_MethodInfo 
 {
 	".ctor"/* name */
 	, (methodPointerType)&U3CGetEnumeratorU3Ec__Iterator0__ctor_m11891/* method */
-	, &U3CGetEnumeratorU3Ec__Iterator0_t3339_il2cpp_TypeInfo/* declaring_type */
+	, &U3CGetEnumeratorU3Ec__Iterator0_t3342_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -11791,7 +11791,7 @@ extern const MethodInfo U3CGetEnumeratorU3Ec__Iterator0_System_Collections_Gener
 {
 	"System.Collections.Generic.IEnumerator<object>.get_Current"/* name */
 	, (methodPointerType)&U3CGetEnumeratorU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m11892/* method */
-	, &U3CGetEnumeratorU3Ec__Iterator0_t3339_il2cpp_TypeInfo/* declaring_type */
+	, &U3CGetEnumeratorU3Ec__Iterator0_t3342_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -11814,7 +11814,7 @@ extern const MethodInfo U3CGetEnumeratorU3Ec__Iterator0_System_Collections_IEnum
 {
 	"System.Collections.IEnumerator.get_Current"/* name */
 	, (methodPointerType)&U3CGetEnumeratorU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m11893/* method */
-	, &U3CGetEnumeratorU3Ec__Iterator0_t3339_il2cpp_TypeInfo/* declaring_type */
+	, &U3CGetEnumeratorU3Ec__Iterator0_t3342_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -11837,7 +11837,7 @@ extern const MethodInfo U3CGetEnumeratorU3Ec__Iterator0_MoveNext_m11894_MethodIn
 {
 	"MoveNext"/* name */
 	, (methodPointerType)&U3CGetEnumeratorU3Ec__Iterator0_MoveNext_m11894/* method */
-	, &U3CGetEnumeratorU3Ec__Iterator0_t3339_il2cpp_TypeInfo/* declaring_type */
+	, &U3CGetEnumeratorU3Ec__Iterator0_t3342_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -11860,7 +11860,7 @@ extern const MethodInfo U3CGetEnumeratorU3Ec__Iterator0_Dispose_m11895_MethodInf
 {
 	"Dispose"/* name */
 	, (methodPointerType)&U3CGetEnumeratorU3Ec__Iterator0_Dispose_m11895/* method */
-	, &U3CGetEnumeratorU3Ec__Iterator0_t3339_il2cpp_TypeInfo/* declaring_type */
+	, &U3CGetEnumeratorU3Ec__Iterator0_t3342_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -11883,7 +11883,7 @@ extern const MethodInfo U3CGetEnumeratorU3Ec__Iterator0_Reset_m11896_MethodInfo 
 {
 	"Reset"/* name */
 	, (methodPointerType)&U3CGetEnumeratorU3Ec__Iterator0_Reset_m11896/* method */
-	, &U3CGetEnumeratorU3Ec__Iterator0_t3339_il2cpp_TypeInfo/* declaring_type */
+	, &U3CGetEnumeratorU3Ec__Iterator0_t3342_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -11900,7 +11900,7 @@ extern const MethodInfo U3CGetEnumeratorU3Ec__Iterator0_Reset_m11896_MethodInfo 
 	, NULL/* dummy */
 
 };
-static const MethodInfo* U3CGetEnumeratorU3Ec__Iterator0_t3339_MethodInfos[] =
+static const MethodInfo* U3CGetEnumeratorU3Ec__Iterator0_t3342_MethodInfos[] =
 {
 	&U3CGetEnumeratorU3Ec__Iterator0__ctor_m11891_MethodInfo,
 	&U3CGetEnumeratorU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m11892_MethodInfo,
@@ -11911,9 +11911,9 @@ static const MethodInfo* U3CGetEnumeratorU3Ec__Iterator0_t3339_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo U3CGetEnumeratorU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m11892_MethodInfo;
-static const PropertyInfo U3CGetEnumeratorU3Ec__Iterator0_t3339____System_Collections_Generic_IEnumeratorU3CobjectU3E_Current_PropertyInfo = 
+static const PropertyInfo U3CGetEnumeratorU3Ec__Iterator0_t3342____System_Collections_Generic_IEnumeratorU3CobjectU3E_Current_PropertyInfo = 
 {
-	&U3CGetEnumeratorU3Ec__Iterator0_t3339_il2cpp_TypeInfo/* parent */
+	&U3CGetEnumeratorU3Ec__Iterator0_t3342_il2cpp_TypeInfo/* parent */
 	, "System.Collections.Generic.IEnumerator<object>.Current"/* name */
 	, &U3CGetEnumeratorU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m11892_MethodInfo/* get */
 	, NULL/* set */
@@ -11922,9 +11922,9 @@ static const PropertyInfo U3CGetEnumeratorU3Ec__Iterator0_t3339____System_Collec
 
 };
 extern const MethodInfo U3CGetEnumeratorU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m11893_MethodInfo;
-static const PropertyInfo U3CGetEnumeratorU3Ec__Iterator0_t3339____System_Collections_IEnumerator_Current_PropertyInfo = 
+static const PropertyInfo U3CGetEnumeratorU3Ec__Iterator0_t3342____System_Collections_IEnumerator_Current_PropertyInfo = 
 {
-	&U3CGetEnumeratorU3Ec__Iterator0_t3339_il2cpp_TypeInfo/* parent */
+	&U3CGetEnumeratorU3Ec__Iterator0_t3342_il2cpp_TypeInfo/* parent */
 	, "System.Collections.IEnumerator.Current"/* name */
 	, &U3CGetEnumeratorU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m11893_MethodInfo/* get */
 	, NULL/* set */
@@ -11932,16 +11932,16 @@ static const PropertyInfo U3CGetEnumeratorU3Ec__Iterator0_t3339____System_Collec
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* U3CGetEnumeratorU3Ec__Iterator0_t3339_PropertyInfos[] =
+static const PropertyInfo* U3CGetEnumeratorU3Ec__Iterator0_t3342_PropertyInfos[] =
 {
-	&U3CGetEnumeratorU3Ec__Iterator0_t3339____System_Collections_Generic_IEnumeratorU3CobjectU3E_Current_PropertyInfo,
-	&U3CGetEnumeratorU3Ec__Iterator0_t3339____System_Collections_IEnumerator_Current_PropertyInfo,
+	&U3CGetEnumeratorU3Ec__Iterator0_t3342____System_Collections_Generic_IEnumeratorU3CobjectU3E_Current_PropertyInfo,
+	&U3CGetEnumeratorU3Ec__Iterator0_t3342____System_Collections_IEnumerator_Current_PropertyInfo,
 	NULL
 };
 extern const MethodInfo U3CGetEnumeratorU3Ec__Iterator0_MoveNext_m11894_MethodInfo;
 extern const MethodInfo U3CGetEnumeratorU3Ec__Iterator0_Reset_m11896_MethodInfo;
 extern const MethodInfo U3CGetEnumeratorU3Ec__Iterator0_Dispose_m11895_MethodInfo;
-static const Il2CppMethodReference U3CGetEnumeratorU3Ec__Iterator0_t3339_VTable[] =
+static const Il2CppMethodReference U3CGetEnumeratorU3Ec__Iterator0_t3342_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -11953,7 +11953,7 @@ static const Il2CppMethodReference U3CGetEnumeratorU3Ec__Iterator0_t3339_VTable[
 	&U3CGetEnumeratorU3Ec__Iterator0_Reset_m11896_MethodInfo,
 	&U3CGetEnumeratorU3Ec__Iterator0_Dispose_m11895_MethodInfo,
 };
-static bool U3CGetEnumeratorU3Ec__Iterator0_t3339_VTableIsGenericMethod[] =
+static bool U3CGetEnumeratorU3Ec__Iterator0_t3342_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -11967,51 +11967,51 @@ static bool U3CGetEnumeratorU3Ec__Iterator0_t3339_VTableIsGenericMethod[] =
 };
 extern const Il2CppType IEnumerator_1_t105_0_0_0;
 extern const Il2CppType IDisposable_t58_0_0_0;
-static const Il2CppType* U3CGetEnumeratorU3Ec__Iterator0_t3339_InterfacesTypeInfos[] = 
+static const Il2CppType* U3CGetEnumeratorU3Ec__Iterator0_t3342_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_1_t105_0_0_0,
 	&IEnumerator_t48_0_0_0,
 	&IDisposable_t58_0_0_0,
 };
-static Il2CppInterfaceOffsetPair U3CGetEnumeratorU3Ec__Iterator0_t3339_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair U3CGetEnumeratorU3Ec__Iterator0_t3342_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_1_t105_0_0_0, 4},
 	{ &IEnumerator_t48_0_0_0, 5},
 	{ &IDisposable_t58_0_0_0, 8},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType U3CGetEnumeratorU3Ec__Iterator0_t3339_0_0_0;
-extern const Il2CppType U3CGetEnumeratorU3Ec__Iterator0_t3339_1_0_0;
-extern TypeInfo ConfigurationSectionCollection_t3338_il2cpp_TypeInfo;
-struct U3CGetEnumeratorU3Ec__Iterator0_t3339;
-const Il2CppTypeDefinitionMetadata U3CGetEnumeratorU3Ec__Iterator0_t3339_DefinitionMetadata = 
+extern const Il2CppType U3CGetEnumeratorU3Ec__Iterator0_t3342_0_0_0;
+extern const Il2CppType U3CGetEnumeratorU3Ec__Iterator0_t3342_1_0_0;
+extern TypeInfo ConfigurationSectionCollection_t3341_il2cpp_TypeInfo;
+struct U3CGetEnumeratorU3Ec__Iterator0_t3342;
+const Il2CppTypeDefinitionMetadata U3CGetEnumeratorU3Ec__Iterator0_t3342_DefinitionMetadata = 
 {
-	&ConfigurationSectionCollection_t3338_0_0_0/* declaringType */
+	&ConfigurationSectionCollection_t3341_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
-	, U3CGetEnumeratorU3Ec__Iterator0_t3339_InterfacesTypeInfos/* implementedInterfaces */
-	, U3CGetEnumeratorU3Ec__Iterator0_t3339_InterfacesOffsets/* interfaceOffsets */
+	, U3CGetEnumeratorU3Ec__Iterator0_t3342_InterfacesTypeInfos/* implementedInterfaces */
+	, U3CGetEnumeratorU3Ec__Iterator0_t3342_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, U3CGetEnumeratorU3Ec__Iterator0_t3339_VTable/* vtableMethods */
-	, U3CGetEnumeratorU3Ec__Iterator0_t3339_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CGetEnumeratorU3Ec__Iterator0_t3342_VTable/* vtableMethods */
+	, U3CGetEnumeratorU3Ec__Iterator0_t3342_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 124/* fieldStart */
 
 };
-TypeInfo U3CGetEnumeratorU3Ec__Iterator0_t3339_il2cpp_TypeInfo = 
+TypeInfo U3CGetEnumeratorU3Ec__Iterator0_t3342_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "<GetEnumerator>c__Iterator0"/* name */
 	, ""/* namespaze */
-	, U3CGetEnumeratorU3Ec__Iterator0_t3339_MethodInfos/* methods */
-	, U3CGetEnumeratorU3Ec__Iterator0_t3339_PropertyInfos/* properties */
+	, U3CGetEnumeratorU3Ec__Iterator0_t3342_MethodInfos/* methods */
+	, U3CGetEnumeratorU3Ec__Iterator0_t3342_PropertyInfos/* properties */
 	, NULL/* events */
-	, &U3CGetEnumeratorU3Ec__Iterator0_t3339_il2cpp_TypeInfo/* element_class */
+	, &U3CGetEnumeratorU3Ec__Iterator0_t3342_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 31/* custom_attributes_cache */
-	, &U3CGetEnumeratorU3Ec__Iterator0_t3339_0_0_0/* byval_arg */
-	, &U3CGetEnumeratorU3Ec__Iterator0_t3339_1_0_0/* this_arg */
-	, &U3CGetEnumeratorU3Ec__Iterator0_t3339_DefinitionMetadata/* definitionMetadata */
+	, &U3CGetEnumeratorU3Ec__Iterator0_t3342_0_0_0/* byval_arg */
+	, &U3CGetEnumeratorU3Ec__Iterator0_t3342_1_0_0/* this_arg */
+	, &U3CGetEnumeratorU3Ec__Iterator0_t3342_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -12021,8 +12021,8 @@ TypeInfo U3CGetEnumeratorU3Ec__Iterator0_t3339_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CGetEnumeratorU3Ec__Iterator0_t3339)/* instance_size */
-	, sizeof (U3CGetEnumeratorU3Ec__Iterator0_t3339)/* actualSize */
+	, sizeof (U3CGetEnumeratorU3Ec__Iterator0_t3342)/* instance_size */
+	, sizeof (U3CGetEnumeratorU3Ec__Iterator0_t3342)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -12056,12 +12056,12 @@ TypeInfo U3CGetEnumeratorU3Ec__Iterator0_t3339_il2cpp_TypeInfo =
 // Metadata Definition System.Configuration.ConfigurationSectionCollection
 // System.Configuration.ConfigurationSectionCollection
 #include "System_Configuration_System_Configuration_ConfigurationSecti_1MethodDeclarations.h"
-extern const Il2CppType Configuration_t3297_0_0_0;
-extern const Il2CppType SectionGroupInfo_t3305_0_0_0;
-static const ParameterInfo ConfigurationSectionCollection_t3338_ConfigurationSectionCollection__ctor_m11897_ParameterInfos[] = 
+extern const Il2CppType Configuration_t3300_0_0_0;
+extern const Il2CppType SectionGroupInfo_t3308_0_0_0;
+static const ParameterInfo ConfigurationSectionCollection_t3341_ConfigurationSectionCollection__ctor_m11897_ParameterInfos[] = 
 {
-	{"config", 0, 134217941, 0, &Configuration_t3297_0_0_0},
-	{"group", 1, 134217942, 0, &SectionGroupInfo_t3305_0_0_0},
+	{"config", 0, 134217941, 0, &Configuration_t3300_0_0_0},
+	{"group", 1, 134217942, 0, &SectionGroupInfo_t3308_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationSectionCollection::.ctor(System.Configuration.Configuration,System.Configuration.SectionGroupInfo)
@@ -12069,10 +12069,10 @@ extern const MethodInfo ConfigurationSectionCollection__ctor_m11897_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationSectionCollection__ctor_m11897/* method */
-	, &ConfigurationSectionCollection_t3338_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSectionCollection_t3341_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ConfigurationSectionCollection_t3338_ConfigurationSectionCollection__ctor_m11897_ParameterInfos/* parameters */
+	, ConfigurationSectionCollection_t3341_ConfigurationSectionCollection__ctor_m11897_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -12086,15 +12086,15 @@ extern const MethodInfo ConfigurationSectionCollection__ctor_m11897_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType KeysCollection_t3372_0_0_0;
+extern const Il2CppType KeysCollection_t3375_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Specialized.NameObjectCollectionBase/KeysCollection System.Configuration.ConfigurationSectionCollection::get_Keys()
 extern const MethodInfo ConfigurationSectionCollection_get_Keys_m11898_MethodInfo = 
 {
 	"get_Keys"/* name */
 	, (methodPointerType)&ConfigurationSectionCollection_get_Keys_m11898/* method */
-	, &ConfigurationSectionCollection_t3338_il2cpp_TypeInfo/* declaring_type */
-	, &KeysCollection_t3372_0_0_0/* return_type */
+	, &ConfigurationSectionCollection_t3341_il2cpp_TypeInfo/* declaring_type */
+	, &KeysCollection_t3375_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -12116,7 +12116,7 @@ extern const MethodInfo ConfigurationSectionCollection_get_Count_m11899_MethodIn
 {
 	"get_Count"/* name */
 	, (methodPointerType)&ConfigurationSectionCollection_get_Count_m11899/* method */
-	, &ConfigurationSectionCollection_t3338_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSectionCollection_t3341_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -12134,7 +12134,7 @@ extern const MethodInfo ConfigurationSectionCollection_get_Count_m11899_MethodIn
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationSectionCollection_t3338_ConfigurationSectionCollection_get_Item_m11900_ParameterInfos[] = 
+static const ParameterInfo ConfigurationSectionCollection_t3341_ConfigurationSectionCollection_get_Item_m11900_ParameterInfos[] = 
 {
 	{"name", 0, 134217943, 0, &String_t_0_0_0},
 };
@@ -12144,10 +12144,10 @@ extern const MethodInfo ConfigurationSectionCollection_get_Item_m11900_MethodInf
 {
 	"get_Item"/* name */
 	, (methodPointerType)&ConfigurationSectionCollection_get_Item_m11900/* method */
-	, &ConfigurationSectionCollection_t3338_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationSection_t3337_0_0_0/* return_type */
+	, &ConfigurationSectionCollection_t3341_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSection_t3340_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConfigurationSectionCollection_t3338_ConfigurationSectionCollection_get_Item_m11900_ParameterInfos/* parameters */
+	, ConfigurationSectionCollection_t3341_ConfigurationSectionCollection_get_Item_m11900_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -12167,7 +12167,7 @@ extern const MethodInfo ConfigurationSectionCollection_GetEnumerator_m11901_Meth
 {
 	"GetEnumerator"/* name */
 	, (methodPointerType)&ConfigurationSectionCollection_GetEnumerator_m11901/* method */
-	, &ConfigurationSectionCollection_t3338_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSectionCollection_t3341_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t48_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -12184,23 +12184,23 @@ extern const MethodInfo ConfigurationSectionCollection_GetEnumerator_m11901_Meth
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SerializationInfo_t2937_0_0_0;
-extern const Il2CppType StreamingContext_t2938_0_0_0;
-static const ParameterInfo ConfigurationSectionCollection_t3338_ConfigurationSectionCollection_GetObjectData_m11902_ParameterInfos[] = 
+extern const Il2CppType SerializationInfo_t2940_0_0_0;
+extern const Il2CppType StreamingContext_t2941_0_0_0;
+static const ParameterInfo ConfigurationSectionCollection_t3341_ConfigurationSectionCollection_GetObjectData_m11902_ParameterInfos[] = 
 {
-	{"info", 0, 134217944, 0, &SerializationInfo_t2937_0_0_0},
-	{"context", 1, 134217945, 0, &StreamingContext_t2938_0_0_0},
+	{"info", 0, 134217944, 0, &SerializationInfo_t2940_0_0_0},
+	{"context", 1, 134217945, 0, &StreamingContext_t2941_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2938 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2941 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationSectionCollection::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern const MethodInfo ConfigurationSectionCollection_GetObjectData_m11902_MethodInfo = 
 {
 	"GetObjectData"/* name */
 	, (methodPointerType)&ConfigurationSectionCollection_GetObjectData_m11902/* method */
-	, &ConfigurationSectionCollection_t3338_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSectionCollection_t3341_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2938/* invoker_method */
-	, ConfigurationSectionCollection_t3338_ConfigurationSectionCollection_GetObjectData_m11902_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2941/* invoker_method */
+	, ConfigurationSectionCollection_t3341_ConfigurationSectionCollection_GetObjectData_m11902_ParameterInfos/* parameters */
 	, 30/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -12214,7 +12214,7 @@ extern const MethodInfo ConfigurationSectionCollection_GetObjectData_m11902_Meth
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigurationSectionCollection_t3338_MethodInfos[] =
+static const MethodInfo* ConfigurationSectionCollection_t3341_MethodInfos[] =
 {
 	&ConfigurationSectionCollection__ctor_m11897_MethodInfo,
 	&ConfigurationSectionCollection_get_Keys_m11898_MethodInfo,
@@ -12225,9 +12225,9 @@ static const MethodInfo* ConfigurationSectionCollection_t3338_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ConfigurationSectionCollection_get_Keys_m11898_MethodInfo;
-static const PropertyInfo ConfigurationSectionCollection_t3338____Keys_PropertyInfo = 
+static const PropertyInfo ConfigurationSectionCollection_t3341____Keys_PropertyInfo = 
 {
-	&ConfigurationSectionCollection_t3338_il2cpp_TypeInfo/* parent */
+	&ConfigurationSectionCollection_t3341_il2cpp_TypeInfo/* parent */
 	, "Keys"/* name */
 	, &ConfigurationSectionCollection_get_Keys_m11898_MethodInfo/* get */
 	, NULL/* set */
@@ -12236,9 +12236,9 @@ static const PropertyInfo ConfigurationSectionCollection_t3338____Keys_PropertyI
 
 };
 extern const MethodInfo ConfigurationSectionCollection_get_Count_m11899_MethodInfo;
-static const PropertyInfo ConfigurationSectionCollection_t3338____Count_PropertyInfo = 
+static const PropertyInfo ConfigurationSectionCollection_t3341____Count_PropertyInfo = 
 {
-	&ConfigurationSectionCollection_t3338_il2cpp_TypeInfo/* parent */
+	&ConfigurationSectionCollection_t3341_il2cpp_TypeInfo/* parent */
 	, "Count"/* name */
 	, &ConfigurationSectionCollection_get_Count_m11899_MethodInfo/* get */
 	, NULL/* set */
@@ -12247,9 +12247,9 @@ static const PropertyInfo ConfigurationSectionCollection_t3338____Count_Property
 
 };
 extern const MethodInfo ConfigurationSectionCollection_get_Item_m11900_MethodInfo;
-static const PropertyInfo ConfigurationSectionCollection_t3338____Item_PropertyInfo = 
+static const PropertyInfo ConfigurationSectionCollection_t3341____Item_PropertyInfo = 
 {
-	&ConfigurationSectionCollection_t3338_il2cpp_TypeInfo/* parent */
+	&ConfigurationSectionCollection_t3341_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
 	, &ConfigurationSectionCollection_get_Item_m11900_MethodInfo/* get */
 	, NULL/* set */
@@ -12257,20 +12257,20 @@ static const PropertyInfo ConfigurationSectionCollection_t3338____Item_PropertyI
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigurationSectionCollection_t3338_PropertyInfos[] =
+static const PropertyInfo* ConfigurationSectionCollection_t3341_PropertyInfos[] =
 {
-	&ConfigurationSectionCollection_t3338____Keys_PropertyInfo,
-	&ConfigurationSectionCollection_t3338____Count_PropertyInfo,
-	&ConfigurationSectionCollection_t3338____Item_PropertyInfo,
+	&ConfigurationSectionCollection_t3341____Keys_PropertyInfo,
+	&ConfigurationSectionCollection_t3341____Count_PropertyInfo,
+	&ConfigurationSectionCollection_t3341____Item_PropertyInfo,
 	NULL
 };
-static const Il2CppType* ConfigurationSectionCollection_t3338_il2cpp_TypeInfo__nestedTypes[1] =
+static const Il2CppType* ConfigurationSectionCollection_t3341_il2cpp_TypeInfo__nestedTypes[1] =
 {
-	&U3CGetEnumeratorU3Ec__Iterator0_t3339_0_0_0,
+	&U3CGetEnumeratorU3Ec__Iterator0_t3342_0_0_0,
 };
 extern const MethodInfo ConfigurationSectionCollection_GetEnumerator_m11901_MethodInfo;
 extern const MethodInfo ConfigurationSectionCollection_GetObjectData_m11902_MethodInfo;
-static const Il2CppMethodReference ConfigurationSectionCollection_t3338_VTable[] =
+static const Il2CppMethodReference ConfigurationSectionCollection_t3341_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -12289,7 +12289,7 @@ static const Il2CppMethodReference ConfigurationSectionCollection_t3338_VTable[]
 	&ConfigurationSectionCollection_get_Count_m11899_MethodInfo,
 	&NameObjectCollectionBase_OnDeserialization_m12167_MethodInfo,
 };
-static bool ConfigurationSectionCollection_t3338_VTableIsGenericMethod[] =
+static bool ConfigurationSectionCollection_t3341_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -12308,45 +12308,45 @@ static bool ConfigurationSectionCollection_t3338_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair ConfigurationSectionCollection_t3338_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ConfigurationSectionCollection_t3341_InterfacesOffsets[] = 
 {
-	{ &ICollection_t769_0_0_0, 4},
+	{ &ICollection_t772_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
-	{ &IDeserializationCallback_t838_0_0_0, 9},
-	{ &ISerializable_t834_0_0_0, 10},
+	{ &IDeserializationCallback_t841_0_0_0, 9},
+	{ &ISerializable_t837_0_0_0, 10},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationSectionCollection_t3338_1_0_0;
-extern const Il2CppType NameObjectCollectionBase_t3340_0_0_0;
-struct ConfigurationSectionCollection_t3338;
-const Il2CppTypeDefinitionMetadata ConfigurationSectionCollection_t3338_DefinitionMetadata = 
+extern const Il2CppType ConfigurationSectionCollection_t3341_1_0_0;
+extern const Il2CppType NameObjectCollectionBase_t3343_0_0_0;
+struct ConfigurationSectionCollection_t3341;
+const Il2CppTypeDefinitionMetadata ConfigurationSectionCollection_t3341_DefinitionMetadata = 
 {
 	NULL/* declaringType */
-	, ConfigurationSectionCollection_t3338_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, ConfigurationSectionCollection_t3341_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ConfigurationSectionCollection_t3338_InterfacesOffsets/* interfaceOffsets */
-	, &NameObjectCollectionBase_t3340_0_0_0/* parent */
-	, ConfigurationSectionCollection_t3338_VTable/* vtableMethods */
-	, ConfigurationSectionCollection_t3338_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationSectionCollection_t3341_InterfacesOffsets/* interfaceOffsets */
+	, &NameObjectCollectionBase_t3343_0_0_0/* parent */
+	, ConfigurationSectionCollection_t3341_VTable/* vtableMethods */
+	, ConfigurationSectionCollection_t3341_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 129/* fieldStart */
 
 };
-TypeInfo ConfigurationSectionCollection_t3338_il2cpp_TypeInfo = 
+TypeInfo ConfigurationSectionCollection_t3341_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationSectionCollection"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationSectionCollection_t3338_MethodInfos/* methods */
-	, ConfigurationSectionCollection_t3338_PropertyInfos/* properties */
+	, ConfigurationSectionCollection_t3341_MethodInfos/* methods */
+	, ConfigurationSectionCollection_t3341_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigurationSectionCollection_t3338_il2cpp_TypeInfo/* element_class */
+	, &ConfigurationSectionCollection_t3341_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 28/* custom_attributes_cache */
-	, &ConfigurationSectionCollection_t3338_0_0_0/* byval_arg */
-	, &ConfigurationSectionCollection_t3338_1_0_0/* this_arg */
-	, &ConfigurationSectionCollection_t3338_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationSectionCollection_t3341_0_0_0/* byval_arg */
+	, &ConfigurationSectionCollection_t3341_1_0_0/* this_arg */
+	, &ConfigurationSectionCollection_t3341_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -12356,8 +12356,8 @@ TypeInfo ConfigurationSectionCollection_t3338_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationSectionCollection_t3338)/* instance_size */
-	, sizeof (ConfigurationSectionCollection_t3338)/* actualSize */
+	, sizeof (ConfigurationSectionCollection_t3341)/* instance_size */
+	, sizeof (ConfigurationSectionCollection_t3341)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -12389,7 +12389,7 @@ TypeInfo ConfigurationSectionCollection_t3338_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationSectionGroup
 #include "System_Configuration_System_Configuration_ConfigurationSecti_2.h"
 // Metadata Definition System.Configuration.ConfigurationSectionGroup
-extern TypeInfo ConfigurationSectionGroup_t3303_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationSectionGroup_t3306_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationSectionGroup
 #include "System_Configuration_System_Configuration_ConfigurationSecti_2MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -12398,7 +12398,7 @@ extern const MethodInfo ConfigurationSectionGroup__ctor_m11903_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationSectionGroup__ctor_m11903/* method */
-	, &ConfigurationSectionGroup_t3303_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSectionGroup_t3306_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -12421,8 +12421,8 @@ extern const MethodInfo ConfigurationSectionGroup_get_Config_m11904_MethodInfo =
 {
 	"get_Config"/* name */
 	, (methodPointerType)&ConfigurationSectionGroup_get_Config_m11904/* method */
-	, &ConfigurationSectionGroup_t3303_il2cpp_TypeInfo/* declaring_type */
-	, &Configuration_t3297_0_0_0/* return_type */
+	, &ConfigurationSectionGroup_t3306_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -12438,12 +12438,12 @@ extern const MethodInfo ConfigurationSectionGroup_get_Config_m11904_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Configuration_t3297_0_0_0;
-extern const Il2CppType SectionGroupInfo_t3305_0_0_0;
-static const ParameterInfo ConfigurationSectionGroup_t3303_ConfigurationSectionGroup_Initialize_m11905_ParameterInfos[] = 
+extern const Il2CppType Configuration_t3300_0_0_0;
+extern const Il2CppType SectionGroupInfo_t3308_0_0_0;
+static const ParameterInfo ConfigurationSectionGroup_t3306_ConfigurationSectionGroup_Initialize_m11905_ParameterInfos[] = 
 {
-	{"config", 0, 134217946, 0, &Configuration_t3297_0_0_0},
-	{"group", 1, 134217947, 0, &SectionGroupInfo_t3305_0_0_0},
+	{"config", 0, 134217946, 0, &Configuration_t3300_0_0_0},
+	{"group", 1, 134217947, 0, &SectionGroupInfo_t3308_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationSectionGroup::Initialize(System.Configuration.Configuration,System.Configuration.SectionGroupInfo)
@@ -12451,10 +12451,10 @@ extern const MethodInfo ConfigurationSectionGroup_Initialize_m11905_MethodInfo =
 {
 	"Initialize"/* name */
 	, (methodPointerType)&ConfigurationSectionGroup_Initialize_m11905/* method */
-	, &ConfigurationSectionGroup_t3303_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSectionGroup_t3306_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ConfigurationSectionGroup_t3303_ConfigurationSectionGroup_Initialize_m11905_ParameterInfos/* parameters */
+	, ConfigurationSectionGroup_t3306_ConfigurationSectionGroup_Initialize_m11905_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -12474,8 +12474,8 @@ extern const MethodInfo ConfigurationSectionGroup_get_SectionGroups_m11906_Metho
 {
 	"get_SectionGroups"/* name */
 	, (methodPointerType)&ConfigurationSectionGroup_get_SectionGroups_m11906/* method */
-	, &ConfigurationSectionGroup_t3303_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationSectionGroupCollection_t3341_0_0_0/* return_type */
+	, &ConfigurationSectionGroup_t3306_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSectionGroupCollection_t3344_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -12497,8 +12497,8 @@ extern const MethodInfo ConfigurationSectionGroup_get_Sections_m11907_MethodInfo
 {
 	"get_Sections"/* name */
 	, (methodPointerType)&ConfigurationSectionGroup_get_Sections_m11907/* method */
-	, &ConfigurationSectionGroup_t3303_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationSectionCollection_t3338_0_0_0/* return_type */
+	, &ConfigurationSectionGroup_t3306_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSectionCollection_t3341_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -12514,7 +12514,7 @@ extern const MethodInfo ConfigurationSectionGroup_get_Sections_m11907_MethodInfo
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigurationSectionGroup_t3303_MethodInfos[] =
+static const MethodInfo* ConfigurationSectionGroup_t3306_MethodInfos[] =
 {
 	&ConfigurationSectionGroup__ctor_m11903_MethodInfo,
 	&ConfigurationSectionGroup_get_Config_m11904_MethodInfo,
@@ -12524,9 +12524,9 @@ static const MethodInfo* ConfigurationSectionGroup_t3303_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ConfigurationSectionGroup_get_Config_m11904_MethodInfo;
-static const PropertyInfo ConfigurationSectionGroup_t3303____Config_PropertyInfo = 
+static const PropertyInfo ConfigurationSectionGroup_t3306____Config_PropertyInfo = 
 {
-	&ConfigurationSectionGroup_t3303_il2cpp_TypeInfo/* parent */
+	&ConfigurationSectionGroup_t3306_il2cpp_TypeInfo/* parent */
 	, "Config"/* name */
 	, &ConfigurationSectionGroup_get_Config_m11904_MethodInfo/* get */
 	, NULL/* set */
@@ -12535,9 +12535,9 @@ static const PropertyInfo ConfigurationSectionGroup_t3303____Config_PropertyInfo
 
 };
 extern const MethodInfo ConfigurationSectionGroup_get_SectionGroups_m11906_MethodInfo;
-static const PropertyInfo ConfigurationSectionGroup_t3303____SectionGroups_PropertyInfo = 
+static const PropertyInfo ConfigurationSectionGroup_t3306____SectionGroups_PropertyInfo = 
 {
-	&ConfigurationSectionGroup_t3303_il2cpp_TypeInfo/* parent */
+	&ConfigurationSectionGroup_t3306_il2cpp_TypeInfo/* parent */
 	, "SectionGroups"/* name */
 	, &ConfigurationSectionGroup_get_SectionGroups_m11906_MethodInfo/* get */
 	, NULL/* set */
@@ -12546,9 +12546,9 @@ static const PropertyInfo ConfigurationSectionGroup_t3303____SectionGroups_Prope
 
 };
 extern const MethodInfo ConfigurationSectionGroup_get_Sections_m11907_MethodInfo;
-static const PropertyInfo ConfigurationSectionGroup_t3303____Sections_PropertyInfo = 
+static const PropertyInfo ConfigurationSectionGroup_t3306____Sections_PropertyInfo = 
 {
-	&ConfigurationSectionGroup_t3303_il2cpp_TypeInfo/* parent */
+	&ConfigurationSectionGroup_t3306_il2cpp_TypeInfo/* parent */
 	, "Sections"/* name */
 	, &ConfigurationSectionGroup_get_Sections_m11907_MethodInfo/* get */
 	, NULL/* set */
@@ -12556,21 +12556,21 @@ static const PropertyInfo ConfigurationSectionGroup_t3303____Sections_PropertyIn
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigurationSectionGroup_t3303_PropertyInfos[] =
+static const PropertyInfo* ConfigurationSectionGroup_t3306_PropertyInfos[] =
 {
-	&ConfigurationSectionGroup_t3303____Config_PropertyInfo,
-	&ConfigurationSectionGroup_t3303____SectionGroups_PropertyInfo,
-	&ConfigurationSectionGroup_t3303____Sections_PropertyInfo,
+	&ConfigurationSectionGroup_t3306____Config_PropertyInfo,
+	&ConfigurationSectionGroup_t3306____SectionGroups_PropertyInfo,
+	&ConfigurationSectionGroup_t3306____Sections_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference ConfigurationSectionGroup_t3303_VTable[] =
+static const Il2CppMethodReference ConfigurationSectionGroup_t3306_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool ConfigurationSectionGroup_t3303_VTableIsGenericMethod[] =
+static bool ConfigurationSectionGroup_t3306_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -12578,36 +12578,36 @@ static bool ConfigurationSectionGroup_t3303_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationSectionGroup_t3303_1_0_0;
-struct ConfigurationSectionGroup_t3303;
-const Il2CppTypeDefinitionMetadata ConfigurationSectionGroup_t3303_DefinitionMetadata = 
+extern const Il2CppType ConfigurationSectionGroup_t3306_1_0_0;
+struct ConfigurationSectionGroup_t3306;
+const Il2CppTypeDefinitionMetadata ConfigurationSectionGroup_t3306_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ConfigurationSectionGroup_t3303_VTable/* vtableMethods */
-	, ConfigurationSectionGroup_t3303_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationSectionGroup_t3306_VTable/* vtableMethods */
+	, ConfigurationSectionGroup_t3306_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 131/* fieldStart */
 
 };
-TypeInfo ConfigurationSectionGroup_t3303_il2cpp_TypeInfo = 
+TypeInfo ConfigurationSectionGroup_t3306_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationSectionGroup"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationSectionGroup_t3303_MethodInfos/* methods */
-	, ConfigurationSectionGroup_t3303_PropertyInfos/* properties */
+	, ConfigurationSectionGroup_t3306_MethodInfos/* methods */
+	, ConfigurationSectionGroup_t3306_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigurationSectionGroup_t3303_il2cpp_TypeInfo/* element_class */
+	, &ConfigurationSectionGroup_t3306_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ConfigurationSectionGroup_t3303_0_0_0/* byval_arg */
-	, &ConfigurationSectionGroup_t3303_1_0_0/* this_arg */
-	, &ConfigurationSectionGroup_t3303_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationSectionGroup_t3306_0_0_0/* byval_arg */
+	, &ConfigurationSectionGroup_t3306_1_0_0/* this_arg */
+	, &ConfigurationSectionGroup_t3306_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -12617,8 +12617,8 @@ TypeInfo ConfigurationSectionGroup_t3303_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationSectionGroup_t3303)/* instance_size */
-	, sizeof (ConfigurationSectionGroup_t3303)/* actualSize */
+	, sizeof (ConfigurationSectionGroup_t3306)/* instance_size */
+	, sizeof (ConfigurationSectionGroup_t3306)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -12650,15 +12650,15 @@ TypeInfo ConfigurationSectionGroup_t3303_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationSectionGroupCollection
 #include "System_Configuration_System_Configuration_ConfigurationSecti_3.h"
 // Metadata Definition System.Configuration.ConfigurationSectionGroupCollection
-extern TypeInfo ConfigurationSectionGroupCollection_t3341_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationSectionGroupCollection_t3344_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationSectionGroupCollection
 #include "System_Configuration_System_Configuration_ConfigurationSecti_3MethodDeclarations.h"
-extern const Il2CppType Configuration_t3297_0_0_0;
-extern const Il2CppType SectionGroupInfo_t3305_0_0_0;
-static const ParameterInfo ConfigurationSectionGroupCollection_t3341_ConfigurationSectionGroupCollection__ctor_m11908_ParameterInfos[] = 
+extern const Il2CppType Configuration_t3300_0_0_0;
+extern const Il2CppType SectionGroupInfo_t3308_0_0_0;
+static const ParameterInfo ConfigurationSectionGroupCollection_t3344_ConfigurationSectionGroupCollection__ctor_m11908_ParameterInfos[] = 
 {
-	{"config", 0, 134217948, 0, &Configuration_t3297_0_0_0},
-	{"group", 1, 134217949, 0, &SectionGroupInfo_t3305_0_0_0},
+	{"config", 0, 134217948, 0, &Configuration_t3300_0_0_0},
+	{"group", 1, 134217949, 0, &SectionGroupInfo_t3308_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationSectionGroupCollection::.ctor(System.Configuration.Configuration,System.Configuration.SectionGroupInfo)
@@ -12666,10 +12666,10 @@ extern const MethodInfo ConfigurationSectionGroupCollection__ctor_m11908_MethodI
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationSectionGroupCollection__ctor_m11908/* method */
-	, &ConfigurationSectionGroupCollection_t3341_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSectionGroupCollection_t3344_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ConfigurationSectionGroupCollection_t3341_ConfigurationSectionGroupCollection__ctor_m11908_ParameterInfos/* parameters */
+	, ConfigurationSectionGroupCollection_t3344_ConfigurationSectionGroupCollection__ctor_m11908_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -12689,8 +12689,8 @@ extern const MethodInfo ConfigurationSectionGroupCollection_get_Keys_m11909_Meth
 {
 	"get_Keys"/* name */
 	, (methodPointerType)&ConfigurationSectionGroupCollection_get_Keys_m11909/* method */
-	, &ConfigurationSectionGroupCollection_t3341_il2cpp_TypeInfo/* declaring_type */
-	, &KeysCollection_t3372_0_0_0/* return_type */
+	, &ConfigurationSectionGroupCollection_t3344_il2cpp_TypeInfo/* declaring_type */
+	, &KeysCollection_t3375_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -12712,7 +12712,7 @@ extern const MethodInfo ConfigurationSectionGroupCollection_get_Count_m11910_Met
 {
 	"get_Count"/* name */
 	, (methodPointerType)&ConfigurationSectionGroupCollection_get_Count_m11910/* method */
-	, &ConfigurationSectionGroupCollection_t3341_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSectionGroupCollection_t3344_il2cpp_TypeInfo/* declaring_type */
 	, &Int32_t82_0_0_0/* return_type */
 	, RuntimeInvoker_Int32_t82/* invoker_method */
 	, NULL/* parameters */
@@ -12730,7 +12730,7 @@ extern const MethodInfo ConfigurationSectionGroupCollection_get_Count_m11910_Met
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigurationSectionGroupCollection_t3341_ConfigurationSectionGroupCollection_get_Item_m11911_ParameterInfos[] = 
+static const ParameterInfo ConfigurationSectionGroupCollection_t3344_ConfigurationSectionGroupCollection_get_Item_m11911_ParameterInfos[] = 
 {
 	{"name", 0, 134217950, 0, &String_t_0_0_0},
 };
@@ -12740,10 +12740,10 @@ extern const MethodInfo ConfigurationSectionGroupCollection_get_Item_m11911_Meth
 {
 	"get_Item"/* name */
 	, (methodPointerType)&ConfigurationSectionGroupCollection_get_Item_m11911/* method */
-	, &ConfigurationSectionGroupCollection_t3341_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationSectionGroup_t3303_0_0_0/* return_type */
+	, &ConfigurationSectionGroupCollection_t3344_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSectionGroup_t3306_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConfigurationSectionGroupCollection_t3341_ConfigurationSectionGroupCollection_get_Item_m11911_ParameterInfos/* parameters */
+	, ConfigurationSectionGroupCollection_t3344_ConfigurationSectionGroupCollection_get_Item_m11911_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -12763,7 +12763,7 @@ extern const MethodInfo ConfigurationSectionGroupCollection_GetEnumerator_m11912
 {
 	"GetEnumerator"/* name */
 	, (methodPointerType)&ConfigurationSectionGroupCollection_GetEnumerator_m11912/* method */
-	, &ConfigurationSectionGroupCollection_t3341_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSectionGroupCollection_t3344_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t48_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -12780,23 +12780,23 @@ extern const MethodInfo ConfigurationSectionGroupCollection_GetEnumerator_m11912
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SerializationInfo_t2937_0_0_0;
-extern const Il2CppType StreamingContext_t2938_0_0_0;
-static const ParameterInfo ConfigurationSectionGroupCollection_t3341_ConfigurationSectionGroupCollection_GetObjectData_m11913_ParameterInfos[] = 
+extern const Il2CppType SerializationInfo_t2940_0_0_0;
+extern const Il2CppType StreamingContext_t2941_0_0_0;
+static const ParameterInfo ConfigurationSectionGroupCollection_t3344_ConfigurationSectionGroupCollection_GetObjectData_m11913_ParameterInfos[] = 
 {
-	{"info", 0, 134217951, 0, &SerializationInfo_t2937_0_0_0},
-	{"context", 1, 134217952, 0, &StreamingContext_t2938_0_0_0},
+	{"info", 0, 134217951, 0, &SerializationInfo_t2940_0_0_0},
+	{"context", 1, 134217952, 0, &StreamingContext_t2941_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2938 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2941 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigurationSectionGroupCollection::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern const MethodInfo ConfigurationSectionGroupCollection_GetObjectData_m11913_MethodInfo = 
 {
 	"GetObjectData"/* name */
 	, (methodPointerType)&ConfigurationSectionGroupCollection_GetObjectData_m11913/* method */
-	, &ConfigurationSectionGroupCollection_t3341_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSectionGroupCollection_t3344_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2938/* invoker_method */
-	, ConfigurationSectionGroupCollection_t3341_ConfigurationSectionGroupCollection_GetObjectData_m11913_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2941/* invoker_method */
+	, ConfigurationSectionGroupCollection_t3344_ConfigurationSectionGroupCollection_GetObjectData_m11913_ParameterInfos/* parameters */
 	, 37/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -12810,7 +12810,7 @@ extern const MethodInfo ConfigurationSectionGroupCollection_GetObjectData_m11913
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigurationSectionGroupCollection_t3341_MethodInfos[] =
+static const MethodInfo* ConfigurationSectionGroupCollection_t3344_MethodInfos[] =
 {
 	&ConfigurationSectionGroupCollection__ctor_m11908_MethodInfo,
 	&ConfigurationSectionGroupCollection_get_Keys_m11909_MethodInfo,
@@ -12821,9 +12821,9 @@ static const MethodInfo* ConfigurationSectionGroupCollection_t3341_MethodInfos[]
 	NULL
 };
 extern const MethodInfo ConfigurationSectionGroupCollection_get_Keys_m11909_MethodInfo;
-static const PropertyInfo ConfigurationSectionGroupCollection_t3341____Keys_PropertyInfo = 
+static const PropertyInfo ConfigurationSectionGroupCollection_t3344____Keys_PropertyInfo = 
 {
-	&ConfigurationSectionGroupCollection_t3341_il2cpp_TypeInfo/* parent */
+	&ConfigurationSectionGroupCollection_t3344_il2cpp_TypeInfo/* parent */
 	, "Keys"/* name */
 	, &ConfigurationSectionGroupCollection_get_Keys_m11909_MethodInfo/* get */
 	, NULL/* set */
@@ -12832,9 +12832,9 @@ static const PropertyInfo ConfigurationSectionGroupCollection_t3341____Keys_Prop
 
 };
 extern const MethodInfo ConfigurationSectionGroupCollection_get_Count_m11910_MethodInfo;
-static const PropertyInfo ConfigurationSectionGroupCollection_t3341____Count_PropertyInfo = 
+static const PropertyInfo ConfigurationSectionGroupCollection_t3344____Count_PropertyInfo = 
 {
-	&ConfigurationSectionGroupCollection_t3341_il2cpp_TypeInfo/* parent */
+	&ConfigurationSectionGroupCollection_t3344_il2cpp_TypeInfo/* parent */
 	, "Count"/* name */
 	, &ConfigurationSectionGroupCollection_get_Count_m11910_MethodInfo/* get */
 	, NULL/* set */
@@ -12843,9 +12843,9 @@ static const PropertyInfo ConfigurationSectionGroupCollection_t3341____Count_Pro
 
 };
 extern const MethodInfo ConfigurationSectionGroupCollection_get_Item_m11911_MethodInfo;
-static const PropertyInfo ConfigurationSectionGroupCollection_t3341____Item_PropertyInfo = 
+static const PropertyInfo ConfigurationSectionGroupCollection_t3344____Item_PropertyInfo = 
 {
-	&ConfigurationSectionGroupCollection_t3341_il2cpp_TypeInfo/* parent */
+	&ConfigurationSectionGroupCollection_t3344_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
 	, &ConfigurationSectionGroupCollection_get_Item_m11911_MethodInfo/* get */
 	, NULL/* set */
@@ -12853,16 +12853,16 @@ static const PropertyInfo ConfigurationSectionGroupCollection_t3341____Item_Prop
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigurationSectionGroupCollection_t3341_PropertyInfos[] =
+static const PropertyInfo* ConfigurationSectionGroupCollection_t3344_PropertyInfos[] =
 {
-	&ConfigurationSectionGroupCollection_t3341____Keys_PropertyInfo,
-	&ConfigurationSectionGroupCollection_t3341____Count_PropertyInfo,
-	&ConfigurationSectionGroupCollection_t3341____Item_PropertyInfo,
+	&ConfigurationSectionGroupCollection_t3344____Keys_PropertyInfo,
+	&ConfigurationSectionGroupCollection_t3344____Count_PropertyInfo,
+	&ConfigurationSectionGroupCollection_t3344____Item_PropertyInfo,
 	NULL
 };
 extern const MethodInfo ConfigurationSectionGroupCollection_GetEnumerator_m11912_MethodInfo;
 extern const MethodInfo ConfigurationSectionGroupCollection_GetObjectData_m11913_MethodInfo;
-static const Il2CppMethodReference ConfigurationSectionGroupCollection_t3341_VTable[] =
+static const Il2CppMethodReference ConfigurationSectionGroupCollection_t3344_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -12881,7 +12881,7 @@ static const Il2CppMethodReference ConfigurationSectionGroupCollection_t3341_VTa
 	&ConfigurationSectionGroupCollection_get_Count_m11910_MethodInfo,
 	&NameObjectCollectionBase_OnDeserialization_m12167_MethodInfo,
 };
-static bool ConfigurationSectionGroupCollection_t3341_VTableIsGenericMethod[] =
+static bool ConfigurationSectionGroupCollection_t3344_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -12900,44 +12900,44 @@ static bool ConfigurationSectionGroupCollection_t3341_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair ConfigurationSectionGroupCollection_t3341_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ConfigurationSectionGroupCollection_t3344_InterfacesOffsets[] = 
 {
-	{ &ICollection_t769_0_0_0, 4},
+	{ &ICollection_t772_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
-	{ &IDeserializationCallback_t838_0_0_0, 9},
-	{ &ISerializable_t834_0_0_0, 10},
+	{ &IDeserializationCallback_t841_0_0_0, 9},
+	{ &ISerializable_t837_0_0_0, 10},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationSectionGroupCollection_t3341_1_0_0;
-struct ConfigurationSectionGroupCollection_t3341;
-const Il2CppTypeDefinitionMetadata ConfigurationSectionGroupCollection_t3341_DefinitionMetadata = 
+extern const Il2CppType ConfigurationSectionGroupCollection_t3344_1_0_0;
+struct ConfigurationSectionGroupCollection_t3344;
+const Il2CppTypeDefinitionMetadata ConfigurationSectionGroupCollection_t3344_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ConfigurationSectionGroupCollection_t3341_InterfacesOffsets/* interfaceOffsets */
-	, &NameObjectCollectionBase_t3340_0_0_0/* parent */
-	, ConfigurationSectionGroupCollection_t3341_VTable/* vtableMethods */
-	, ConfigurationSectionGroupCollection_t3341_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationSectionGroupCollection_t3344_InterfacesOffsets/* interfaceOffsets */
+	, &NameObjectCollectionBase_t3343_0_0_0/* parent */
+	, ConfigurationSectionGroupCollection_t3344_VTable/* vtableMethods */
+	, ConfigurationSectionGroupCollection_t3344_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 136/* fieldStart */
 
 };
-TypeInfo ConfigurationSectionGroupCollection_t3341_il2cpp_TypeInfo = 
+TypeInfo ConfigurationSectionGroupCollection_t3344_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationSectionGroupCollection"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationSectionGroupCollection_t3341_MethodInfos/* methods */
-	, ConfigurationSectionGroupCollection_t3341_PropertyInfos/* properties */
+	, ConfigurationSectionGroupCollection_t3344_MethodInfos/* methods */
+	, ConfigurationSectionGroupCollection_t3344_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigurationSectionGroupCollection_t3341_il2cpp_TypeInfo/* element_class */
+	, &ConfigurationSectionGroupCollection_t3344_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 36/* custom_attributes_cache */
-	, &ConfigurationSectionGroupCollection_t3341_0_0_0/* byval_arg */
-	, &ConfigurationSectionGroupCollection_t3341_1_0_0/* this_arg */
-	, &ConfigurationSectionGroupCollection_t3341_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationSectionGroupCollection_t3344_0_0_0/* byval_arg */
+	, &ConfigurationSectionGroupCollection_t3344_1_0_0/* this_arg */
+	, &ConfigurationSectionGroupCollection_t3344_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -12947,8 +12947,8 @@ TypeInfo ConfigurationSectionGroupCollection_t3341_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationSectionGroupCollection_t3341)/* instance_size */
-	, sizeof (ConfigurationSectionGroupCollection_t3341)/* actualSize */
+	, sizeof (ConfigurationSectionGroupCollection_t3344)/* instance_size */
+	, sizeof (ConfigurationSectionGroupCollection_t3344)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -12980,14 +12980,14 @@ TypeInfo ConfigurationSectionGroupCollection_t3341_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationUserLevel
 #include "System_Configuration_System_Configuration_ConfigurationUserL.h"
 // Metadata Definition System.Configuration.ConfigurationUserLevel
-extern TypeInfo ConfigurationUserLevel_t3342_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationUserLevel_t3345_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationUserLevel
 #include "System_Configuration_System_Configuration_ConfigurationUserLMethodDeclarations.h"
-static const MethodInfo* ConfigurationUserLevel_t3342_MethodInfos[] =
+static const MethodInfo* ConfigurationUserLevel_t3345_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference ConfigurationUserLevel_t3342_VTable[] =
+static const Il2CppMethodReference ConfigurationUserLevel_t3345_VTable[] =
 {
 	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -13013,7 +13013,7 @@ static const Il2CppMethodReference ConfigurationUserLevel_t3342_VTable[] =
 	&Enum_CompareTo_m523_MethodInfo,
 	&Enum_GetTypeCode_m524_MethodInfo,
 };
-static bool ConfigurationUserLevel_t3342_VTableIsGenericMethod[] =
+static bool ConfigurationUserLevel_t3345_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -13039,42 +13039,42 @@ static bool ConfigurationUserLevel_t3342_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair ConfigurationUserLevel_t3342_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ConfigurationUserLevel_t3345_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
 	{ &IComparable_t99_0_0_0, 21},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationUserLevel_t3342_1_0_0;
-const Il2CppTypeDefinitionMetadata ConfigurationUserLevel_t3342_DefinitionMetadata = 
+extern const Il2CppType ConfigurationUserLevel_t3345_1_0_0;
+const Il2CppTypeDefinitionMetadata ConfigurationUserLevel_t3345_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ConfigurationUserLevel_t3342_InterfacesOffsets/* interfaceOffsets */
+	, ConfigurationUserLevel_t3345_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t100_0_0_0/* parent */
-	, ConfigurationUserLevel_t3342_VTable/* vtableMethods */
-	, ConfigurationUserLevel_t3342_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationUserLevel_t3345_VTable/* vtableMethods */
+	, ConfigurationUserLevel_t3345_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 138/* fieldStart */
 
 };
-TypeInfo ConfigurationUserLevel_t3342_il2cpp_TypeInfo = 
+TypeInfo ConfigurationUserLevel_t3345_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationUserLevel"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationUserLevel_t3342_MethodInfos/* methods */
+	, ConfigurationUserLevel_t3345_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
 	, &Int32_t82_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ConfigurationUserLevel_t3342_0_0_0/* byval_arg */
-	, &ConfigurationUserLevel_t3342_1_0_0/* this_arg */
-	, &ConfigurationUserLevel_t3342_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationUserLevel_t3345_0_0_0/* byval_arg */
+	, &ConfigurationUserLevel_t3345_1_0_0/* this_arg */
+	, &ConfigurationUserLevel_t3345_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -13084,8 +13084,8 @@ TypeInfo ConfigurationUserLevel_t3342_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationUserLevel_t3342)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (ConfigurationUserLevel_t3342)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (ConfigurationUserLevel_t3345)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (ConfigurationUserLevel_t3345)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -13117,7 +13117,7 @@ TypeInfo ConfigurationUserLevel_t3342_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationValidatorAttribute
 #include "System_Configuration_System_Configuration_ConfigurationValid.h"
 // Metadata Definition System.Configuration.ConfigurationValidatorAttribute
-extern TypeInfo ConfigurationValidatorAttribute_t3343_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationValidatorAttribute_t3346_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationValidatorAttribute
 #include "System_Configuration_System_Configuration_ConfigurationValidMethodDeclarations.h"
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -13126,8 +13126,8 @@ extern const MethodInfo ConfigurationValidatorAttribute_get_ValidatorInstance_m1
 {
 	"get_ValidatorInstance"/* name */
 	, (methodPointerType)&ConfigurationValidatorAttribute_get_ValidatorInstance_m11914/* method */
-	, &ConfigurationValidatorAttribute_t3343_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationValidatorBase_t3329_0_0_0/* return_type */
+	, &ConfigurationValidatorAttribute_t3346_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationValidatorBase_t3332_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -13143,15 +13143,15 @@ extern const MethodInfo ConfigurationValidatorAttribute_get_ValidatorInstance_m1
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigurationValidatorAttribute_t3343_MethodInfos[] =
+static const MethodInfo* ConfigurationValidatorAttribute_t3346_MethodInfos[] =
 {
 	&ConfigurationValidatorAttribute_get_ValidatorInstance_m11914_MethodInfo,
 	NULL
 };
 extern const MethodInfo ConfigurationValidatorAttribute_get_ValidatorInstance_m11914_MethodInfo;
-static const PropertyInfo ConfigurationValidatorAttribute_t3343____ValidatorInstance_PropertyInfo = 
+static const PropertyInfo ConfigurationValidatorAttribute_t3346____ValidatorInstance_PropertyInfo = 
 {
-	&ConfigurationValidatorAttribute_t3343_il2cpp_TypeInfo/* parent */
+	&ConfigurationValidatorAttribute_t3346_il2cpp_TypeInfo/* parent */
 	, "ValidatorInstance"/* name */
 	, &ConfigurationValidatorAttribute_get_ValidatorInstance_m11914_MethodInfo/* get */
 	, NULL/* set */
@@ -13159,12 +13159,12 @@ static const PropertyInfo ConfigurationValidatorAttribute_t3343____ValidatorInst
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigurationValidatorAttribute_t3343_PropertyInfos[] =
+static const PropertyInfo* ConfigurationValidatorAttribute_t3346_PropertyInfos[] =
 {
-	&ConfigurationValidatorAttribute_t3343____ValidatorInstance_PropertyInfo,
+	&ConfigurationValidatorAttribute_t3346____ValidatorInstance_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference ConfigurationValidatorAttribute_t3343_VTable[] =
+static const Il2CppMethodReference ConfigurationValidatorAttribute_t3346_VTable[] =
 {
 	&Attribute_Equals_m489_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -13174,7 +13174,7 @@ static const Il2CppMethodReference ConfigurationValidatorAttribute_t3343_VTable[
 	&Attribute_IsDefaultAttribute_m494_MethodInfo,
 	&ConfigurationValidatorAttribute_get_ValidatorInstance_m11914_MethodInfo,
 };
-static bool ConfigurationValidatorAttribute_t3343_VTableIsGenericMethod[] =
+static bool ConfigurationValidatorAttribute_t3346_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -13184,42 +13184,42 @@ static bool ConfigurationValidatorAttribute_t3343_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair ConfigurationValidatorAttribute_t3343_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ConfigurationValidatorAttribute_t3346_InterfacesOffsets[] = 
 {
 	{ &_Attribute_t86_0_0_0, 4},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationValidatorAttribute_t3343_0_0_0;
-extern const Il2CppType ConfigurationValidatorAttribute_t3343_1_0_0;
-struct ConfigurationValidatorAttribute_t3343;
-const Il2CppTypeDefinitionMetadata ConfigurationValidatorAttribute_t3343_DefinitionMetadata = 
+extern const Il2CppType ConfigurationValidatorAttribute_t3346_0_0_0;
+extern const Il2CppType ConfigurationValidatorAttribute_t3346_1_0_0;
+struct ConfigurationValidatorAttribute_t3346;
+const Il2CppTypeDefinitionMetadata ConfigurationValidatorAttribute_t3346_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ConfigurationValidatorAttribute_t3343_InterfacesOffsets/* interfaceOffsets */
+	, ConfigurationValidatorAttribute_t3346_InterfacesOffsets/* interfaceOffsets */
 	, &Attribute_t426_0_0_0/* parent */
-	, ConfigurationValidatorAttribute_t3343_VTable/* vtableMethods */
-	, ConfigurationValidatorAttribute_t3343_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationValidatorAttribute_t3346_VTable/* vtableMethods */
+	, ConfigurationValidatorAttribute_t3346_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 142/* fieldStart */
 
 };
-TypeInfo ConfigurationValidatorAttribute_t3343_il2cpp_TypeInfo = 
+TypeInfo ConfigurationValidatorAttribute_t3346_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationValidatorAttribute"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationValidatorAttribute_t3343_MethodInfos/* methods */
-	, ConfigurationValidatorAttribute_t3343_PropertyInfos/* properties */
+	, ConfigurationValidatorAttribute_t3346_MethodInfos/* methods */
+	, ConfigurationValidatorAttribute_t3346_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigurationValidatorAttribute_t3343_il2cpp_TypeInfo/* element_class */
+	, &ConfigurationValidatorAttribute_t3346_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 38/* custom_attributes_cache */
-	, &ConfigurationValidatorAttribute_t3343_0_0_0/* byval_arg */
-	, &ConfigurationValidatorAttribute_t3343_1_0_0/* this_arg */
-	, &ConfigurationValidatorAttribute_t3343_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationValidatorAttribute_t3346_0_0_0/* byval_arg */
+	, &ConfigurationValidatorAttribute_t3346_1_0_0/* this_arg */
+	, &ConfigurationValidatorAttribute_t3346_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -13229,8 +13229,8 @@ TypeInfo ConfigurationValidatorAttribute_t3343_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationValidatorAttribute_t3343)/* instance_size */
-	, sizeof (ConfigurationValidatorAttribute_t3343)/* actualSize */
+	, sizeof (ConfigurationValidatorAttribute_t3346)/* instance_size */
+	, sizeof (ConfigurationValidatorAttribute_t3346)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -13262,7 +13262,7 @@ TypeInfo ConfigurationValidatorAttribute_t3343_il2cpp_TypeInfo =
 // System.Configuration.ConfigurationValidatorBase
 #include "System_Configuration_System_Configuration_ConfigurationValid_0.h"
 // Metadata Definition System.Configuration.ConfigurationValidatorBase
-extern TypeInfo ConfigurationValidatorBase_t3329_il2cpp_TypeInfo;
+extern TypeInfo ConfigurationValidatorBase_t3332_il2cpp_TypeInfo;
 // System.Configuration.ConfigurationValidatorBase
 #include "System_Configuration_System_Configuration_ConfigurationValid_0MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -13271,7 +13271,7 @@ extern const MethodInfo ConfigurationValidatorBase__ctor_m11915_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigurationValidatorBase__ctor_m11915/* method */
-	, &ConfigurationValidatorBase_t3329_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationValidatorBase_t3332_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -13289,7 +13289,7 @@ extern const MethodInfo ConfigurationValidatorBase__ctor_m11915_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo ConfigurationValidatorBase_t3329_ConfigurationValidatorBase_CanValidate_m11916_ParameterInfos[] = 
+static const ParameterInfo ConfigurationValidatorBase_t3332_ConfigurationValidatorBase_CanValidate_m11916_ParameterInfos[] = 
 {
 	{"type", 0, 134217953, 0, &Type_t_0_0_0},
 };
@@ -13299,10 +13299,10 @@ extern const MethodInfo ConfigurationValidatorBase_CanValidate_m11916_MethodInfo
 {
 	"CanValidate"/* name */
 	, (methodPointerType)&ConfigurationValidatorBase_CanValidate_m11916/* method */
-	, &ConfigurationValidatorBase_t3329_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationValidatorBase_t3332_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, ConfigurationValidatorBase_t3329_ConfigurationValidatorBase_CanValidate_m11916_ParameterInfos/* parameters */
+	, ConfigurationValidatorBase_t3332_ConfigurationValidatorBase_CanValidate_m11916_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -13317,7 +13317,7 @@ extern const MethodInfo ConfigurationValidatorBase_CanValidate_m11916_MethodInfo
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo ConfigurationValidatorBase_t3329_ConfigurationValidatorBase_Validate_m12157_ParameterInfos[] = 
+static const ParameterInfo ConfigurationValidatorBase_t3332_ConfigurationValidatorBase_Validate_m12157_ParameterInfos[] = 
 {
 	{"value", 0, 134217954, 0, &Object_t_0_0_0},
 };
@@ -13327,10 +13327,10 @@ extern const MethodInfo ConfigurationValidatorBase_Validate_m12157_MethodInfo =
 {
 	"Validate"/* name */
 	, NULL/* method */
-	, &ConfigurationValidatorBase_t3329_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationValidatorBase_t3332_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigurationValidatorBase_t3329_ConfigurationValidatorBase_Validate_m12157_ParameterInfos/* parameters */
+	, ConfigurationValidatorBase_t3332_ConfigurationValidatorBase_Validate_m12157_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -13344,7 +13344,7 @@ extern const MethodInfo ConfigurationValidatorBase_Validate_m12157_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigurationValidatorBase_t3329_MethodInfos[] =
+static const MethodInfo* ConfigurationValidatorBase_t3332_MethodInfos[] =
 {
 	&ConfigurationValidatorBase__ctor_m11915_MethodInfo,
 	&ConfigurationValidatorBase_CanValidate_m11916_MethodInfo,
@@ -13352,7 +13352,7 @@ static const MethodInfo* ConfigurationValidatorBase_t3329_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ConfigurationValidatorBase_CanValidate_m11916_MethodInfo;
-static const Il2CppMethodReference ConfigurationValidatorBase_t3329_VTable[] =
+static const Il2CppMethodReference ConfigurationValidatorBase_t3332_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -13361,7 +13361,7 @@ static const Il2CppMethodReference ConfigurationValidatorBase_t3329_VTable[] =
 	&ConfigurationValidatorBase_CanValidate_m11916_MethodInfo,
 	NULL,
 };
-static bool ConfigurationValidatorBase_t3329_VTableIsGenericMethod[] =
+static bool ConfigurationValidatorBase_t3332_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -13371,36 +13371,36 @@ static bool ConfigurationValidatorBase_t3329_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigurationValidatorBase_t3329_1_0_0;
-struct ConfigurationValidatorBase_t3329;
-const Il2CppTypeDefinitionMetadata ConfigurationValidatorBase_t3329_DefinitionMetadata = 
+extern const Il2CppType ConfigurationValidatorBase_t3332_1_0_0;
+struct ConfigurationValidatorBase_t3332;
+const Il2CppTypeDefinitionMetadata ConfigurationValidatorBase_t3332_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ConfigurationValidatorBase_t3329_VTable/* vtableMethods */
-	, ConfigurationValidatorBase_t3329_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigurationValidatorBase_t3332_VTable/* vtableMethods */
+	, ConfigurationValidatorBase_t3332_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo ConfigurationValidatorBase_t3329_il2cpp_TypeInfo = 
+TypeInfo ConfigurationValidatorBase_t3332_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigurationValidatorBase"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigurationValidatorBase_t3329_MethodInfos/* methods */
+	, ConfigurationValidatorBase_t3332_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ConfigurationValidatorBase_t3329_il2cpp_TypeInfo/* element_class */
+	, &ConfigurationValidatorBase_t3332_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ConfigurationValidatorBase_t3329_0_0_0/* byval_arg */
-	, &ConfigurationValidatorBase_t3329_1_0_0/* this_arg */
-	, &ConfigurationValidatorBase_t3329_DefinitionMetadata/* definitionMetadata */
+	, &ConfigurationValidatorBase_t3332_0_0_0/* byval_arg */
+	, &ConfigurationValidatorBase_t3332_1_0_0/* this_arg */
+	, &ConfigurationValidatorBase_t3332_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -13410,8 +13410,8 @@ TypeInfo ConfigurationValidatorBase_t3329_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigurationValidatorBase_t3329)/* instance_size */
-	, sizeof (ConfigurationValidatorBase_t3329)/* actualSize */
+	, sizeof (ConfigurationValidatorBase_t3332)/* instance_size */
+	, sizeof (ConfigurationValidatorBase_t3332)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -13443,12 +13443,12 @@ TypeInfo ConfigurationValidatorBase_t3329_il2cpp_TypeInfo =
 // ConfigXmlTextReader
 #include "System_Configuration_ConfigXmlTextReader.h"
 // Metadata Definition ConfigXmlTextReader
-extern TypeInfo ConfigXmlTextReader_t3344_il2cpp_TypeInfo;
+extern TypeInfo ConfigXmlTextReader_t3347_il2cpp_TypeInfo;
 // ConfigXmlTextReader
 #include "System_Configuration_ConfigXmlTextReaderMethodDeclarations.h"
 extern const Il2CppType Stream_t51_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigXmlTextReader_t3344_ConfigXmlTextReader__ctor_m11917_ParameterInfos[] = 
+static const ParameterInfo ConfigXmlTextReader_t3347_ConfigXmlTextReader__ctor_m11917_ParameterInfos[] = 
 {
 	{"s", 0, 134217955, 0, &Stream_t51_0_0_0},
 	{"fileName", 1, 134217956, 0, &String_t_0_0_0},
@@ -13459,10 +13459,10 @@ extern const MethodInfo ConfigXmlTextReader__ctor_m11917_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigXmlTextReader__ctor_m11917/* method */
-	, &ConfigXmlTextReader_t3344_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigXmlTextReader_t3347_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ConfigXmlTextReader_t3344_ConfigXmlTextReader__ctor_m11917_ParameterInfos/* parameters */
+	, ConfigXmlTextReader_t3347_ConfigXmlTextReader__ctor_m11917_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -13476,12 +13476,12 @@ extern const MethodInfo ConfigXmlTextReader__ctor_m11917_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType TextReader_t3373_0_0_0;
-extern const Il2CppType TextReader_t3373_0_0_0;
+extern const Il2CppType TextReader_t3376_0_0_0;
+extern const Il2CppType TextReader_t3376_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigXmlTextReader_t3344_ConfigXmlTextReader__ctor_m11918_ParameterInfos[] = 
+static const ParameterInfo ConfigXmlTextReader_t3347_ConfigXmlTextReader__ctor_m11918_ParameterInfos[] = 
 {
-	{"input", 0, 134217957, 0, &TextReader_t3373_0_0_0},
+	{"input", 0, 134217957, 0, &TextReader_t3376_0_0_0},
 	{"fileName", 1, 134217958, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -13490,10 +13490,10 @@ extern const MethodInfo ConfigXmlTextReader__ctor_m11918_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigXmlTextReader__ctor_m11918/* method */
-	, &ConfigXmlTextReader_t3344_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigXmlTextReader_t3347_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ConfigXmlTextReader_t3344_ConfigXmlTextReader__ctor_m11918_ParameterInfos/* parameters */
+	, ConfigXmlTextReader_t3347_ConfigXmlTextReader__ctor_m11918_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -13513,7 +13513,7 @@ extern const MethodInfo ConfigXmlTextReader_get_Filename_m11919_MethodInfo =
 {
 	"get_Filename"/* name */
 	, (methodPointerType)&ConfigXmlTextReader_get_Filename_m11919/* method */
-	, &ConfigXmlTextReader_t3344_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigXmlTextReader_t3347_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -13530,7 +13530,7 @@ extern const MethodInfo ConfigXmlTextReader_get_Filename_m11919_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigXmlTextReader_t3344_MethodInfos[] =
+static const MethodInfo* ConfigXmlTextReader_t3347_MethodInfos[] =
 {
 	&ConfigXmlTextReader__ctor_m11917_MethodInfo,
 	&ConfigXmlTextReader__ctor_m11918_MethodInfo,
@@ -13538,9 +13538,9 @@ static const MethodInfo* ConfigXmlTextReader_t3344_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ConfigXmlTextReader_get_Filename_m11919_MethodInfo;
-static const PropertyInfo ConfigXmlTextReader_t3344____Filename_PropertyInfo = 
+static const PropertyInfo ConfigXmlTextReader_t3347____Filename_PropertyInfo = 
 {
-	&ConfigXmlTextReader_t3344_il2cpp_TypeInfo/* parent */
+	&ConfigXmlTextReader_t3347_il2cpp_TypeInfo/* parent */
 	, "Filename"/* name */
 	, &ConfigXmlTextReader_get_Filename_m11919_MethodInfo/* get */
 	, NULL/* set */
@@ -13548,9 +13548,9 @@ static const PropertyInfo ConfigXmlTextReader_t3344____Filename_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigXmlTextReader_t3344_PropertyInfos[] =
+static const PropertyInfo* ConfigXmlTextReader_t3347_PropertyInfos[] =
 {
-	&ConfigXmlTextReader_t3344____Filename_PropertyInfo,
+	&ConfigXmlTextReader_t3347____Filename_PropertyInfo,
 	NULL
 };
 extern const MethodInfo XmlReader_System_IDisposable_Dispose_m12182_MethodInfo;
@@ -13601,7 +13601,7 @@ extern const MethodInfo XmlTextReader_Mono_Xml_IHasXmlParserContext_get_ParserCo
 extern const MethodInfo XmlTextReader_get_LineNumber_m12227_MethodInfo;
 extern const MethodInfo XmlTextReader_get_LinePosition_m12228_MethodInfo;
 extern const MethodInfo XmlTextReader_HasLineInfo_m12229_MethodInfo;
-static const Il2CppMethodReference ConfigXmlTextReader_t3344_VTable[] =
+static const Il2CppMethodReference ConfigXmlTextReader_t3347_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -13659,7 +13659,7 @@ static const Il2CppMethodReference ConfigXmlTextReader_t3344_VTable[] =
 	&ConfigXmlTextReader_get_Filename_m11919_MethodInfo,
 	&XmlTextReader_get_LineNumber_m12227_MethodInfo,
 };
-static bool ConfigXmlTextReader_t3344_VTableIsGenericMethod[] =
+static bool ConfigXmlTextReader_t3347_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -13717,54 +13717,54 @@ static bool ConfigXmlTextReader_t3344_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* ConfigXmlTextReader_t3344_InterfacesTypeInfos[] = 
+static const Il2CppType* ConfigXmlTextReader_t3347_InterfacesTypeInfos[] = 
 {
-	&IConfigErrorInfo_t3376_0_0_0,
+	&IConfigErrorInfo_t3379_0_0_0,
 };
-extern const Il2CppType IHasXmlParserContext_t3391_0_0_0;
-extern const Il2CppType IXmlLineInfo_t3374_0_0_0;
-extern const Il2CppType IXmlNamespaceResolver_t3392_0_0_0;
-static Il2CppInterfaceOffsetPair ConfigXmlTextReader_t3344_InterfacesOffsets[] = 
+extern const Il2CppType IHasXmlParserContext_t3394_0_0_0;
+extern const Il2CppType IXmlLineInfo_t3377_0_0_0;
+extern const Il2CppType IXmlNamespaceResolver_t3395_0_0_0;
+static Il2CppInterfaceOffsetPair ConfigXmlTextReader_t3347_InterfacesOffsets[] = 
 {
-	{ &IHasXmlParserContext_t3391_0_0_0, 48},
-	{ &IXmlLineInfo_t3374_0_0_0, 49},
-	{ &IXmlNamespaceResolver_t3392_0_0_0, 52},
+	{ &IHasXmlParserContext_t3394_0_0_0, 48},
+	{ &IXmlLineInfo_t3377_0_0_0, 49},
+	{ &IXmlNamespaceResolver_t3395_0_0_0, 52},
 	{ &IDisposable_t58_0_0_0, 4},
-	{ &IConfigErrorInfo_t3376_0_0_0, 53},
+	{ &IConfigErrorInfo_t3379_0_0_0, 53},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigXmlTextReader_t3344_0_0_0;
-extern const Il2CppType ConfigXmlTextReader_t3344_1_0_0;
-extern const Il2CppType XmlTextReader_t3345_0_0_0;
-struct ConfigXmlTextReader_t3344;
-const Il2CppTypeDefinitionMetadata ConfigXmlTextReader_t3344_DefinitionMetadata = 
+extern const Il2CppType ConfigXmlTextReader_t3347_0_0_0;
+extern const Il2CppType ConfigXmlTextReader_t3347_1_0_0;
+extern const Il2CppType XmlTextReader_t3348_0_0_0;
+struct ConfigXmlTextReader_t3347;
+const Il2CppTypeDefinitionMetadata ConfigXmlTextReader_t3347_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, ConfigXmlTextReader_t3344_InterfacesTypeInfos/* implementedInterfaces */
-	, ConfigXmlTextReader_t3344_InterfacesOffsets/* interfaceOffsets */
-	, &XmlTextReader_t3345_0_0_0/* parent */
-	, ConfigXmlTextReader_t3344_VTable/* vtableMethods */
-	, ConfigXmlTextReader_t3344_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigXmlTextReader_t3347_InterfacesTypeInfos/* implementedInterfaces */
+	, ConfigXmlTextReader_t3347_InterfacesOffsets/* interfaceOffsets */
+	, &XmlTextReader_t3348_0_0_0/* parent */
+	, ConfigXmlTextReader_t3347_VTable/* vtableMethods */
+	, ConfigXmlTextReader_t3347_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 144/* fieldStart */
 
 };
-TypeInfo ConfigXmlTextReader_t3344_il2cpp_TypeInfo = 
+TypeInfo ConfigXmlTextReader_t3347_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigXmlTextReader"/* name */
 	, ""/* namespaze */
-	, ConfigXmlTextReader_t3344_MethodInfos/* methods */
-	, ConfigXmlTextReader_t3344_PropertyInfos/* properties */
+	, ConfigXmlTextReader_t3347_MethodInfos/* methods */
+	, ConfigXmlTextReader_t3347_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigXmlTextReader_t3344_il2cpp_TypeInfo/* element_class */
+	, &ConfigXmlTextReader_t3347_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ConfigXmlTextReader_t3344_0_0_0/* byval_arg */
-	, &ConfigXmlTextReader_t3344_1_0_0/* this_arg */
-	, &ConfigXmlTextReader_t3344_DefinitionMetadata/* definitionMetadata */
+	, &ConfigXmlTextReader_t3347_0_0_0/* byval_arg */
+	, &ConfigXmlTextReader_t3347_1_0_0/* this_arg */
+	, &ConfigXmlTextReader_t3347_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -13774,8 +13774,8 @@ TypeInfo ConfigXmlTextReader_t3344_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigXmlTextReader_t3344)/* instance_size */
-	, sizeof (ConfigXmlTextReader_t3344)/* actualSize */
+	, sizeof (ConfigXmlTextReader_t3347)/* instance_size */
+	, sizeof (ConfigXmlTextReader_t3347)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -13807,7 +13807,7 @@ TypeInfo ConfigXmlTextReader_t3344_il2cpp_TypeInfo =
 // System.Configuration.DefaultSection
 #include "System_Configuration_System_Configuration_DefaultSection.h"
 // Metadata Definition System.Configuration.DefaultSection
-extern TypeInfo DefaultSection_t3346_il2cpp_TypeInfo;
+extern TypeInfo DefaultSection_t3349_il2cpp_TypeInfo;
 // System.Configuration.DefaultSection
 #include "System_Configuration_System_Configuration_DefaultSectionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -13816,7 +13816,7 @@ extern const MethodInfo DefaultSection__ctor_m11920_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&DefaultSection__ctor_m11920/* method */
-	, &DefaultSection_t3346_il2cpp_TypeInfo/* declaring_type */
+	, &DefaultSection_t3349_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -13839,7 +13839,7 @@ extern const MethodInfo DefaultSection__cctor_m11921_MethodInfo =
 {
 	".cctor"/* name */
 	, (methodPointerType)&DefaultSection__cctor_m11921/* method */
-	, &DefaultSection_t3346_il2cpp_TypeInfo/* declaring_type */
+	, &DefaultSection_t3349_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -13856,10 +13856,10 @@ extern const MethodInfo DefaultSection__cctor_m11921_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlReader_t3369_0_0_0;
-static const ParameterInfo DefaultSection_t3346_DefaultSection_DeserializeSection_m11922_ParameterInfos[] = 
+extern const Il2CppType XmlReader_t3372_0_0_0;
+static const ParameterInfo DefaultSection_t3349_DefaultSection_DeserializeSection_m11922_ParameterInfos[] = 
 {
-	{"xmlReader", 0, 134217959, 0, &XmlReader_t3369_0_0_0},
+	{"xmlReader", 0, 134217959, 0, &XmlReader_t3372_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.DefaultSection::DeserializeSection(System.Xml.XmlReader)
@@ -13867,10 +13867,10 @@ extern const MethodInfo DefaultSection_DeserializeSection_m11922_MethodInfo =
 {
 	"DeserializeSection"/* name */
 	, (methodPointerType)&DefaultSection_DeserializeSection_m11922/* method */
-	, &DefaultSection_t3346_il2cpp_TypeInfo/* declaring_type */
+	, &DefaultSection_t3349_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, DefaultSection_t3346_DefaultSection_DeserializeSection_m11922_ParameterInfos/* parameters */
+	, DefaultSection_t3349_DefaultSection_DeserializeSection_m11922_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 197/* flags */
 	, 0/* iflags */
@@ -13890,7 +13890,7 @@ extern const MethodInfo DefaultSection_IsModified_m11923_MethodInfo =
 {
 	"IsModified"/* name */
 	, (methodPointerType)&DefaultSection_IsModified_m11923/* method */
-	, &DefaultSection_t3346_il2cpp_TypeInfo/* declaring_type */
+	, &DefaultSection_t3349_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -13907,10 +13907,10 @@ extern const MethodInfo DefaultSection_IsModified_m11923_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-static const ParameterInfo DefaultSection_t3346_DefaultSection_Reset_m11924_ParameterInfos[] = 
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+static const ParameterInfo DefaultSection_t3349_DefaultSection_Reset_m11924_ParameterInfos[] = 
 {
-	{"parentSection", 0, 134217960, 0, &ConfigurationElement_t3315_0_0_0},
+	{"parentSection", 0, 134217960, 0, &ConfigurationElement_t3318_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.DefaultSection::Reset(System.Configuration.ConfigurationElement)
@@ -13918,10 +13918,10 @@ extern const MethodInfo DefaultSection_Reset_m11924_MethodInfo =
 {
 	"Reset"/* name */
 	, (methodPointerType)&DefaultSection_Reset_m11924/* method */
-	, &DefaultSection_t3346_il2cpp_TypeInfo/* declaring_type */
+	, &DefaultSection_t3349_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, DefaultSection_t3346_DefaultSection_Reset_m11924_ParameterInfos/* parameters */
+	, DefaultSection_t3349_DefaultSection_Reset_m11924_ParameterInfos/* parameters */
 	, 40/* custom_attributes_cache */
 	, 197/* flags */
 	, 0/* iflags */
@@ -13941,7 +13941,7 @@ extern const MethodInfo DefaultSection_ResetModified_m11925_MethodInfo =
 {
 	"ResetModified"/* name */
 	, (methodPointerType)&DefaultSection_ResetModified_m11925/* method */
-	, &DefaultSection_t3346_il2cpp_TypeInfo/* declaring_type */
+	, &DefaultSection_t3349_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -13958,14 +13958,14 @@ extern const MethodInfo DefaultSection_ResetModified_m11925_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ConfigurationSaveMode_t3334_0_0_0;
-static const ParameterInfo DefaultSection_t3346_DefaultSection_SerializeSection_m11926_ParameterInfos[] = 
+extern const Il2CppType ConfigurationSaveMode_t3337_0_0_0;
+static const ParameterInfo DefaultSection_t3349_DefaultSection_SerializeSection_m11926_ParameterInfos[] = 
 {
-	{"parentSection", 0, 134217961, 0, &ConfigurationElement_t3315_0_0_0},
+	{"parentSection", 0, 134217961, 0, &ConfigurationElement_t3318_0_0_0},
 	{"name", 1, 134217962, 0, &String_t_0_0_0},
-	{"saveMode", 2, 134217963, 0, &ConfigurationSaveMode_t3334_0_0_0},
+	{"saveMode", 2, 134217963, 0, &ConfigurationSaveMode_t3337_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.String System.Configuration.DefaultSection::SerializeSection(System.Configuration.ConfigurationElement,System.String,System.Configuration.ConfigurationSaveMode)
@@ -13973,10 +13973,10 @@ extern const MethodInfo DefaultSection_SerializeSection_m11926_MethodInfo =
 {
 	"SerializeSection"/* name */
 	, (methodPointerType)&DefaultSection_SerializeSection_m11926/* method */
-	, &DefaultSection_t3346_il2cpp_TypeInfo/* declaring_type */
+	, &DefaultSection_t3349_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82/* invoker_method */
-	, DefaultSection_t3346_DefaultSection_SerializeSection_m11926_ParameterInfos/* parameters */
+	, DefaultSection_t3349_DefaultSection_SerializeSection_m11926_ParameterInfos/* parameters */
 	, 42/* custom_attributes_cache */
 	, 197/* flags */
 	, 0/* iflags */
@@ -13996,8 +13996,8 @@ extern const MethodInfo DefaultSection_get_Properties_m11927_MethodInfo =
 {
 	"get_Properties"/* name */
 	, (methodPointerType)&DefaultSection_get_Properties_m11927/* method */
-	, &DefaultSection_t3346_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationPropertyCollection_t3311_0_0_0/* return_type */
+	, &DefaultSection_t3349_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyCollection_t3314_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -14013,7 +14013,7 @@ extern const MethodInfo DefaultSection_get_Properties_m11927_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* DefaultSection_t3346_MethodInfos[] =
+static const MethodInfo* DefaultSection_t3349_MethodInfos[] =
 {
 	&DefaultSection__ctor_m11920_MethodInfo,
 	&DefaultSection__cctor_m11921_MethodInfo,
@@ -14026,9 +14026,9 @@ static const MethodInfo* DefaultSection_t3346_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo DefaultSection_get_Properties_m11927_MethodInfo;
-static const PropertyInfo DefaultSection_t3346____Properties_PropertyInfo = 
+static const PropertyInfo DefaultSection_t3349____Properties_PropertyInfo = 
 {
-	&DefaultSection_t3346_il2cpp_TypeInfo/* parent */
+	&DefaultSection_t3349_il2cpp_TypeInfo/* parent */
 	, "Properties"/* name */
 	, &DefaultSection_get_Properties_m11927_MethodInfo/* get */
 	, NULL/* set */
@@ -14036,9 +14036,9 @@ static const PropertyInfo DefaultSection_t3346____Properties_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* DefaultSection_t3346_PropertyInfos[] =
+static const PropertyInfo* DefaultSection_t3349_PropertyInfos[] =
 {
-	&DefaultSection_t3346____Properties_PropertyInfo,
+	&DefaultSection_t3349____Properties_PropertyInfo,
 	NULL
 };
 extern const MethodInfo DefaultSection_IsModified_m11923_MethodInfo;
@@ -14046,7 +14046,7 @@ extern const MethodInfo DefaultSection_Reset_m11924_MethodInfo;
 extern const MethodInfo DefaultSection_ResetModified_m11925_MethodInfo;
 extern const MethodInfo DefaultSection_DeserializeSection_m11922_MethodInfo;
 extern const MethodInfo DefaultSection_SerializeSection_m11926_MethodInfo;
-static const Il2CppMethodReference DefaultSection_t3346_VTable[] =
+static const Il2CppMethodReference DefaultSection_t3349_VTable[] =
 {
 	&ConfigurationElement_Equals_m11733_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -14076,7 +14076,7 @@ static const Il2CppMethodReference DefaultSection_t3346_VTable[] =
 	&DefaultSection_DeserializeSection_m11922_MethodInfo,
 	&DefaultSection_SerializeSection_m11926_MethodInfo,
 };
-static bool DefaultSection_t3346_VTableIsGenericMethod[] =
+static bool DefaultSection_t3349_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -14107,37 +14107,37 @@ static bool DefaultSection_t3346_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType DefaultSection_t3346_0_0_0;
-extern const Il2CppType DefaultSection_t3346_1_0_0;
-struct DefaultSection_t3346;
-const Il2CppTypeDefinitionMetadata DefaultSection_t3346_DefinitionMetadata = 
+extern const Il2CppType DefaultSection_t3349_0_0_0;
+extern const Il2CppType DefaultSection_t3349_1_0_0;
+struct DefaultSection_t3349;
+const Il2CppTypeDefinitionMetadata DefaultSection_t3349_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &ConfigurationSection_t3337_0_0_0/* parent */
-	, DefaultSection_t3346_VTable/* vtableMethods */
-	, DefaultSection_t3346_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &ConfigurationSection_t3340_0_0_0/* parent */
+	, DefaultSection_t3349_VTable/* vtableMethods */
+	, DefaultSection_t3349_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 145/* fieldStart */
 
 };
-TypeInfo DefaultSection_t3346_il2cpp_TypeInfo = 
+TypeInfo DefaultSection_t3349_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DefaultSection"/* name */
 	, "System.Configuration"/* namespaze */
-	, DefaultSection_t3346_MethodInfos/* methods */
-	, DefaultSection_t3346_PropertyInfos/* properties */
+	, DefaultSection_t3349_MethodInfos/* methods */
+	, DefaultSection_t3349_PropertyInfos/* properties */
 	, NULL/* events */
-	, &DefaultSection_t3346_il2cpp_TypeInfo/* element_class */
+	, &DefaultSection_t3349_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &DefaultSection_t3346_0_0_0/* byval_arg */
-	, &DefaultSection_t3346_1_0_0/* this_arg */
-	, &DefaultSection_t3346_DefinitionMetadata/* definitionMetadata */
+	, &DefaultSection_t3349_0_0_0/* byval_arg */
+	, &DefaultSection_t3349_1_0_0/* this_arg */
+	, &DefaultSection_t3349_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -14147,11 +14147,11 @@ TypeInfo DefaultSection_t3346_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DefaultSection_t3346)/* instance_size */
-	, sizeof (DefaultSection_t3346)/* actualSize */
+	, sizeof (DefaultSection_t3349)/* instance_size */
+	, sizeof (DefaultSection_t3349)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(DefaultSection_t3346_StaticFields)/* static_fields_size */
+	, sizeof(DefaultSection_t3349_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 257/* flags */
@@ -14180,7 +14180,7 @@ TypeInfo DefaultSection_t3346_il2cpp_TypeInfo =
 // System.Configuration.DefaultValidator
 #include "System_Configuration_System_Configuration_DefaultValidator.h"
 // Metadata Definition System.Configuration.DefaultValidator
-extern TypeInfo DefaultValidator_t3347_il2cpp_TypeInfo;
+extern TypeInfo DefaultValidator_t3350_il2cpp_TypeInfo;
 // System.Configuration.DefaultValidator
 #include "System_Configuration_System_Configuration_DefaultValidatorMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -14189,7 +14189,7 @@ extern const MethodInfo DefaultValidator__ctor_m11928_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&DefaultValidator__ctor_m11928/* method */
-	, &DefaultValidator_t3347_il2cpp_TypeInfo/* declaring_type */
+	, &DefaultValidator_t3350_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -14207,7 +14207,7 @@ extern const MethodInfo DefaultValidator__ctor_m11928_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-static const ParameterInfo DefaultValidator_t3347_DefaultValidator_CanValidate_m11929_ParameterInfos[] = 
+static const ParameterInfo DefaultValidator_t3350_DefaultValidator_CanValidate_m11929_ParameterInfos[] = 
 {
 	{"type", 0, 134217964, 0, &Type_t_0_0_0},
 };
@@ -14217,10 +14217,10 @@ extern const MethodInfo DefaultValidator_CanValidate_m11929_MethodInfo =
 {
 	"CanValidate"/* name */
 	, (methodPointerType)&DefaultValidator_CanValidate_m11929/* method */
-	, &DefaultValidator_t3347_il2cpp_TypeInfo/* declaring_type */
+	, &DefaultValidator_t3350_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, DefaultValidator_t3347_DefaultValidator_CanValidate_m11929_ParameterInfos/* parameters */
+	, DefaultValidator_t3350_DefaultValidator_CanValidate_m11929_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -14235,7 +14235,7 @@ extern const MethodInfo DefaultValidator_CanValidate_m11929_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo DefaultValidator_t3347_DefaultValidator_Validate_m11930_ParameterInfos[] = 
+static const ParameterInfo DefaultValidator_t3350_DefaultValidator_Validate_m11930_ParameterInfos[] = 
 {
 	{"value", 0, 134217965, 0, &Object_t_0_0_0},
 };
@@ -14245,10 +14245,10 @@ extern const MethodInfo DefaultValidator_Validate_m11930_MethodInfo =
 {
 	"Validate"/* name */
 	, (methodPointerType)&DefaultValidator_Validate_m11930/* method */
-	, &DefaultValidator_t3347_il2cpp_TypeInfo/* declaring_type */
+	, &DefaultValidator_t3350_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, DefaultValidator_t3347_DefaultValidator_Validate_m11930_ParameterInfos/* parameters */
+	, DefaultValidator_t3350_DefaultValidator_Validate_m11930_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -14262,7 +14262,7 @@ extern const MethodInfo DefaultValidator_Validate_m11930_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* DefaultValidator_t3347_MethodInfos[] =
+static const MethodInfo* DefaultValidator_t3350_MethodInfos[] =
 {
 	&DefaultValidator__ctor_m11928_MethodInfo,
 	&DefaultValidator_CanValidate_m11929_MethodInfo,
@@ -14271,7 +14271,7 @@ static const MethodInfo* DefaultValidator_t3347_MethodInfos[] =
 };
 extern const MethodInfo DefaultValidator_CanValidate_m11929_MethodInfo;
 extern const MethodInfo DefaultValidator_Validate_m11930_MethodInfo;
-static const Il2CppMethodReference DefaultValidator_t3347_VTable[] =
+static const Il2CppMethodReference DefaultValidator_t3350_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -14280,7 +14280,7 @@ static const Il2CppMethodReference DefaultValidator_t3347_VTable[] =
 	&DefaultValidator_CanValidate_m11929_MethodInfo,
 	&DefaultValidator_Validate_m11930_MethodInfo,
 };
-static bool DefaultValidator_t3347_VTableIsGenericMethod[] =
+static bool DefaultValidator_t3350_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -14290,37 +14290,37 @@ static bool DefaultValidator_t3347_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType DefaultValidator_t3347_0_0_0;
-extern const Il2CppType DefaultValidator_t3347_1_0_0;
-struct DefaultValidator_t3347;
-const Il2CppTypeDefinitionMetadata DefaultValidator_t3347_DefinitionMetadata = 
+extern const Il2CppType DefaultValidator_t3350_0_0_0;
+extern const Il2CppType DefaultValidator_t3350_1_0_0;
+struct DefaultValidator_t3350;
+const Il2CppTypeDefinitionMetadata DefaultValidator_t3350_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &ConfigurationValidatorBase_t3329_0_0_0/* parent */
-	, DefaultValidator_t3347_VTable/* vtableMethods */
-	, DefaultValidator_t3347_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &ConfigurationValidatorBase_t3332_0_0_0/* parent */
+	, DefaultValidator_t3350_VTable/* vtableMethods */
+	, DefaultValidator_t3350_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo DefaultValidator_t3347_il2cpp_TypeInfo = 
+TypeInfo DefaultValidator_t3350_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DefaultValidator"/* name */
 	, "System.Configuration"/* namespaze */
-	, DefaultValidator_t3347_MethodInfos/* methods */
+	, DefaultValidator_t3350_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &DefaultValidator_t3347_il2cpp_TypeInfo/* element_class */
+	, &DefaultValidator_t3350_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &DefaultValidator_t3347_0_0_0/* byval_arg */
-	, &DefaultValidator_t3347_1_0_0/* this_arg */
-	, &DefaultValidator_t3347_DefinitionMetadata/* definitionMetadata */
+	, &DefaultValidator_t3350_0_0_0/* byval_arg */
+	, &DefaultValidator_t3350_1_0_0/* this_arg */
+	, &DefaultValidator_t3350_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -14330,8 +14330,8 @@ TypeInfo DefaultValidator_t3347_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DefaultValidator_t3347)/* instance_size */
-	, sizeof (DefaultValidator_t3347)/* actualSize */
+	, sizeof (DefaultValidator_t3350)/* instance_size */
+	, sizeof (DefaultValidator_t3350)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -14363,15 +14363,15 @@ TypeInfo DefaultValidator_t3347_il2cpp_TypeInfo =
 // System.Configuration.ElementInformation
 #include "System_Configuration_System_Configuration_ElementInformation.h"
 // Metadata Definition System.Configuration.ElementInformation
-extern TypeInfo ElementInformation_t3313_il2cpp_TypeInfo;
+extern TypeInfo ElementInformation_t3316_il2cpp_TypeInfo;
 // System.Configuration.ElementInformation
 #include "System_Configuration_System_Configuration_ElementInformationMethodDeclarations.h"
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-extern const Il2CppType PropertyInformation_t3348_0_0_0;
-static const ParameterInfo ElementInformation_t3313_ElementInformation__ctor_m11931_ParameterInfos[] = 
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+extern const Il2CppType PropertyInformation_t3351_0_0_0;
+static const ParameterInfo ElementInformation_t3316_ElementInformation__ctor_m11931_ParameterInfos[] = 
 {
-	{"owner", 0, 134217966, 0, &ConfigurationElement_t3315_0_0_0},
-	{"propertyInfo", 1, 134217967, 0, &PropertyInformation_t3348_0_0_0},
+	{"owner", 0, 134217966, 0, &ConfigurationElement_t3318_0_0_0},
+	{"propertyInfo", 1, 134217967, 0, &PropertyInformation_t3351_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ElementInformation::.ctor(System.Configuration.ConfigurationElement,System.Configuration.PropertyInformation)
@@ -14379,10 +14379,10 @@ extern const MethodInfo ElementInformation__ctor_m11931_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ElementInformation__ctor_m11931/* method */
-	, &ElementInformation_t3313_il2cpp_TypeInfo/* declaring_type */
+	, &ElementInformation_t3316_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ElementInformation_t3313_ElementInformation__ctor_m11931_ParameterInfos/* parameters */
+	, ElementInformation_t3316_ElementInformation__ctor_m11931_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -14396,15 +14396,15 @@ extern const MethodInfo ElementInformation__ctor_m11931_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType PropertyInformationCollection_t3349_0_0_0;
+extern const Il2CppType PropertyInformationCollection_t3352_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.PropertyInformationCollection System.Configuration.ElementInformation::get_Properties()
 extern const MethodInfo ElementInformation_get_Properties_m11932_MethodInfo = 
 {
 	"get_Properties"/* name */
 	, (methodPointerType)&ElementInformation_get_Properties_m11932/* method */
-	, &ElementInformation_t3313_il2cpp_TypeInfo/* declaring_type */
-	, &PropertyInformationCollection_t3349_0_0_0/* return_type */
+	, &ElementInformation_t3316_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformationCollection_t3352_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -14420,10 +14420,10 @@ extern const MethodInfo ElementInformation_get_Properties_m11932_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ElementInformation_t3313_0_0_0;
-static const ParameterInfo ElementInformation_t3313_ElementInformation_Reset_m11933_ParameterInfos[] = 
+extern const Il2CppType ElementInformation_t3316_0_0_0;
+static const ParameterInfo ElementInformation_t3316_ElementInformation_Reset_m11933_ParameterInfos[] = 
 {
-	{"parentInfo", 0, 134217968, 0, &ElementInformation_t3313_0_0_0},
+	{"parentInfo", 0, 134217968, 0, &ElementInformation_t3316_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ElementInformation::Reset(System.Configuration.ElementInformation)
@@ -14431,10 +14431,10 @@ extern const MethodInfo ElementInformation_Reset_m11933_MethodInfo =
 {
 	"Reset"/* name */
 	, (methodPointerType)&ElementInformation_Reset_m11933/* method */
-	, &ElementInformation_t3313_il2cpp_TypeInfo/* declaring_type */
+	, &ElementInformation_t3316_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ElementInformation_t3313_ElementInformation_Reset_m11933_ParameterInfos/* parameters */
+	, ElementInformation_t3316_ElementInformation_Reset_m11933_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -14448,7 +14448,7 @@ extern const MethodInfo ElementInformation_Reset_m11933_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ElementInformation_t3313_MethodInfos[] =
+static const MethodInfo* ElementInformation_t3316_MethodInfos[] =
 {
 	&ElementInformation__ctor_m11931_MethodInfo,
 	&ElementInformation_get_Properties_m11932_MethodInfo,
@@ -14456,9 +14456,9 @@ static const MethodInfo* ElementInformation_t3313_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ElementInformation_get_Properties_m11932_MethodInfo;
-static const PropertyInfo ElementInformation_t3313____Properties_PropertyInfo = 
+static const PropertyInfo ElementInformation_t3316____Properties_PropertyInfo = 
 {
-	&ElementInformation_t3313_il2cpp_TypeInfo/* parent */
+	&ElementInformation_t3316_il2cpp_TypeInfo/* parent */
 	, "Properties"/* name */
 	, &ElementInformation_get_Properties_m11932_MethodInfo/* get */
 	, NULL/* set */
@@ -14466,19 +14466,19 @@ static const PropertyInfo ElementInformation_t3313____Properties_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ElementInformation_t3313_PropertyInfos[] =
+static const PropertyInfo* ElementInformation_t3316_PropertyInfos[] =
 {
-	&ElementInformation_t3313____Properties_PropertyInfo,
+	&ElementInformation_t3316____Properties_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference ElementInformation_t3313_VTable[] =
+static const Il2CppMethodReference ElementInformation_t3316_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool ElementInformation_t3313_VTableIsGenericMethod[] =
+static bool ElementInformation_t3316_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -14486,36 +14486,36 @@ static bool ElementInformation_t3313_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ElementInformation_t3313_1_0_0;
-struct ElementInformation_t3313;
-const Il2CppTypeDefinitionMetadata ElementInformation_t3313_DefinitionMetadata = 
+extern const Il2CppType ElementInformation_t3316_1_0_0;
+struct ElementInformation_t3316;
+const Il2CppTypeDefinitionMetadata ElementInformation_t3316_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ElementInformation_t3313_VTable/* vtableMethods */
-	, ElementInformation_t3313_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ElementInformation_t3316_VTable/* vtableMethods */
+	, ElementInformation_t3316_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 146/* fieldStart */
 
 };
-TypeInfo ElementInformation_t3313_il2cpp_TypeInfo = 
+TypeInfo ElementInformation_t3316_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ElementInformation"/* name */
 	, "System.Configuration"/* namespaze */
-	, ElementInformation_t3313_MethodInfos/* methods */
-	, ElementInformation_t3313_PropertyInfos/* properties */
+	, ElementInformation_t3316_MethodInfos/* methods */
+	, ElementInformation_t3316_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ElementInformation_t3313_il2cpp_TypeInfo/* element_class */
+	, &ElementInformation_t3316_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ElementInformation_t3313_0_0_0/* byval_arg */
-	, &ElementInformation_t3313_1_0_0/* this_arg */
-	, &ElementInformation_t3313_DefinitionMetadata/* definitionMetadata */
+	, &ElementInformation_t3316_0_0_0/* byval_arg */
+	, &ElementInformation_t3316_1_0_0/* this_arg */
+	, &ElementInformation_t3316_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -14525,8 +14525,8 @@ TypeInfo ElementInformation_t3313_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ElementInformation_t3313)/* instance_size */
-	, sizeof (ElementInformation_t3313)/* actualSize */
+	, sizeof (ElementInformation_t3316)/* instance_size */
+	, sizeof (ElementInformation_t3316)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -14558,7 +14558,7 @@ TypeInfo ElementInformation_t3313_il2cpp_TypeInfo =
 // System.Configuration.ExeConfigurationFileMap
 #include "System_Configuration_System_Configuration_ExeConfigurationFi.h"
 // Metadata Definition System.Configuration.ExeConfigurationFileMap
-extern TypeInfo ExeConfigurationFileMap_t3350_il2cpp_TypeInfo;
+extern TypeInfo ExeConfigurationFileMap_t3353_il2cpp_TypeInfo;
 // System.Configuration.ExeConfigurationFileMap
 #include "System_Configuration_System_Configuration_ExeConfigurationFiMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -14567,7 +14567,7 @@ extern const MethodInfo ExeConfigurationFileMap__ctor_m11934_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ExeConfigurationFileMap__ctor_m11934/* method */
-	, &ExeConfigurationFileMap_t3350_il2cpp_TypeInfo/* declaring_type */
+	, &ExeConfigurationFileMap_t3353_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -14590,7 +14590,7 @@ extern const MethodInfo ExeConfigurationFileMap_get_ExeConfigFilename_m11935_Met
 {
 	"get_ExeConfigFilename"/* name */
 	, (methodPointerType)&ExeConfigurationFileMap_get_ExeConfigFilename_m11935/* method */
-	, &ExeConfigurationFileMap_t3350_il2cpp_TypeInfo/* declaring_type */
+	, &ExeConfigurationFileMap_t3353_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -14608,7 +14608,7 @@ extern const MethodInfo ExeConfigurationFileMap_get_ExeConfigFilename_m11935_Met
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ExeConfigurationFileMap_t3350_ExeConfigurationFileMap_set_ExeConfigFilename_m11936_ParameterInfos[] = 
+static const ParameterInfo ExeConfigurationFileMap_t3353_ExeConfigurationFileMap_set_ExeConfigFilename_m11936_ParameterInfos[] = 
 {
 	{"value", 0, 134217969, 0, &String_t_0_0_0},
 };
@@ -14618,10 +14618,10 @@ extern const MethodInfo ExeConfigurationFileMap_set_ExeConfigFilename_m11936_Met
 {
 	"set_ExeConfigFilename"/* name */
 	, (methodPointerType)&ExeConfigurationFileMap_set_ExeConfigFilename_m11936/* method */
-	, &ExeConfigurationFileMap_t3350_il2cpp_TypeInfo/* declaring_type */
+	, &ExeConfigurationFileMap_t3353_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ExeConfigurationFileMap_t3350_ExeConfigurationFileMap_set_ExeConfigFilename_m11936_ParameterInfos/* parameters */
+	, ExeConfigurationFileMap_t3353_ExeConfigurationFileMap_set_ExeConfigFilename_m11936_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -14641,7 +14641,7 @@ extern const MethodInfo ExeConfigurationFileMap_get_LocalUserConfigFilename_m119
 {
 	"get_LocalUserConfigFilename"/* name */
 	, (methodPointerType)&ExeConfigurationFileMap_get_LocalUserConfigFilename_m11937/* method */
-	, &ExeConfigurationFileMap_t3350_il2cpp_TypeInfo/* declaring_type */
+	, &ExeConfigurationFileMap_t3353_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -14659,7 +14659,7 @@ extern const MethodInfo ExeConfigurationFileMap_get_LocalUserConfigFilename_m119
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ExeConfigurationFileMap_t3350_ExeConfigurationFileMap_set_LocalUserConfigFilename_m11938_ParameterInfos[] = 
+static const ParameterInfo ExeConfigurationFileMap_t3353_ExeConfigurationFileMap_set_LocalUserConfigFilename_m11938_ParameterInfos[] = 
 {
 	{"value", 0, 134217970, 0, &String_t_0_0_0},
 };
@@ -14669,10 +14669,10 @@ extern const MethodInfo ExeConfigurationFileMap_set_LocalUserConfigFilename_m119
 {
 	"set_LocalUserConfigFilename"/* name */
 	, (methodPointerType)&ExeConfigurationFileMap_set_LocalUserConfigFilename_m11938/* method */
-	, &ExeConfigurationFileMap_t3350_il2cpp_TypeInfo/* declaring_type */
+	, &ExeConfigurationFileMap_t3353_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ExeConfigurationFileMap_t3350_ExeConfigurationFileMap_set_LocalUserConfigFilename_m11938_ParameterInfos/* parameters */
+	, ExeConfigurationFileMap_t3353_ExeConfigurationFileMap_set_LocalUserConfigFilename_m11938_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -14692,7 +14692,7 @@ extern const MethodInfo ExeConfigurationFileMap_get_RoamingUserConfigFilename_m1
 {
 	"get_RoamingUserConfigFilename"/* name */
 	, (methodPointerType)&ExeConfigurationFileMap_get_RoamingUserConfigFilename_m11939/* method */
-	, &ExeConfigurationFileMap_t3350_il2cpp_TypeInfo/* declaring_type */
+	, &ExeConfigurationFileMap_t3353_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -14710,7 +14710,7 @@ extern const MethodInfo ExeConfigurationFileMap_get_RoamingUserConfigFilename_m1
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ExeConfigurationFileMap_t3350_ExeConfigurationFileMap_set_RoamingUserConfigFilename_m11940_ParameterInfos[] = 
+static const ParameterInfo ExeConfigurationFileMap_t3353_ExeConfigurationFileMap_set_RoamingUserConfigFilename_m11940_ParameterInfos[] = 
 {
 	{"value", 0, 134217971, 0, &String_t_0_0_0},
 };
@@ -14720,10 +14720,10 @@ extern const MethodInfo ExeConfigurationFileMap_set_RoamingUserConfigFilename_m1
 {
 	"set_RoamingUserConfigFilename"/* name */
 	, (methodPointerType)&ExeConfigurationFileMap_set_RoamingUserConfigFilename_m11940/* method */
-	, &ExeConfigurationFileMap_t3350_il2cpp_TypeInfo/* declaring_type */
+	, &ExeConfigurationFileMap_t3353_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ExeConfigurationFileMap_t3350_ExeConfigurationFileMap_set_RoamingUserConfigFilename_m11940_ParameterInfos/* parameters */
+	, ExeConfigurationFileMap_t3353_ExeConfigurationFileMap_set_RoamingUserConfigFilename_m11940_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -14743,7 +14743,7 @@ extern const MethodInfo ExeConfigurationFileMap_Clone_m11941_MethodInfo =
 {
 	"Clone"/* name */
 	, (methodPointerType)&ExeConfigurationFileMap_Clone_m11941/* method */
-	, &ExeConfigurationFileMap_t3350_il2cpp_TypeInfo/* declaring_type */
+	, &ExeConfigurationFileMap_t3353_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -14760,7 +14760,7 @@ extern const MethodInfo ExeConfigurationFileMap_Clone_m11941_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ExeConfigurationFileMap_t3350_MethodInfos[] =
+static const MethodInfo* ExeConfigurationFileMap_t3353_MethodInfos[] =
 {
 	&ExeConfigurationFileMap__ctor_m11934_MethodInfo,
 	&ExeConfigurationFileMap_get_ExeConfigFilename_m11935_MethodInfo,
@@ -14774,9 +14774,9 @@ static const MethodInfo* ExeConfigurationFileMap_t3350_MethodInfos[] =
 };
 extern const MethodInfo ExeConfigurationFileMap_get_ExeConfigFilename_m11935_MethodInfo;
 extern const MethodInfo ExeConfigurationFileMap_set_ExeConfigFilename_m11936_MethodInfo;
-static const PropertyInfo ExeConfigurationFileMap_t3350____ExeConfigFilename_PropertyInfo = 
+static const PropertyInfo ExeConfigurationFileMap_t3353____ExeConfigFilename_PropertyInfo = 
 {
-	&ExeConfigurationFileMap_t3350_il2cpp_TypeInfo/* parent */
+	&ExeConfigurationFileMap_t3353_il2cpp_TypeInfo/* parent */
 	, "ExeConfigFilename"/* name */
 	, &ExeConfigurationFileMap_get_ExeConfigFilename_m11935_MethodInfo/* get */
 	, &ExeConfigurationFileMap_set_ExeConfigFilename_m11936_MethodInfo/* set */
@@ -14786,9 +14786,9 @@ static const PropertyInfo ExeConfigurationFileMap_t3350____ExeConfigFilename_Pro
 };
 extern const MethodInfo ExeConfigurationFileMap_get_LocalUserConfigFilename_m11937_MethodInfo;
 extern const MethodInfo ExeConfigurationFileMap_set_LocalUserConfigFilename_m11938_MethodInfo;
-static const PropertyInfo ExeConfigurationFileMap_t3350____LocalUserConfigFilename_PropertyInfo = 
+static const PropertyInfo ExeConfigurationFileMap_t3353____LocalUserConfigFilename_PropertyInfo = 
 {
-	&ExeConfigurationFileMap_t3350_il2cpp_TypeInfo/* parent */
+	&ExeConfigurationFileMap_t3353_il2cpp_TypeInfo/* parent */
 	, "LocalUserConfigFilename"/* name */
 	, &ExeConfigurationFileMap_get_LocalUserConfigFilename_m11937_MethodInfo/* get */
 	, &ExeConfigurationFileMap_set_LocalUserConfigFilename_m11938_MethodInfo/* set */
@@ -14798,9 +14798,9 @@ static const PropertyInfo ExeConfigurationFileMap_t3350____LocalUserConfigFilena
 };
 extern const MethodInfo ExeConfigurationFileMap_get_RoamingUserConfigFilename_m11939_MethodInfo;
 extern const MethodInfo ExeConfigurationFileMap_set_RoamingUserConfigFilename_m11940_MethodInfo;
-static const PropertyInfo ExeConfigurationFileMap_t3350____RoamingUserConfigFilename_PropertyInfo = 
+static const PropertyInfo ExeConfigurationFileMap_t3353____RoamingUserConfigFilename_PropertyInfo = 
 {
-	&ExeConfigurationFileMap_t3350_il2cpp_TypeInfo/* parent */
+	&ExeConfigurationFileMap_t3353_il2cpp_TypeInfo/* parent */
 	, "RoamingUserConfigFilename"/* name */
 	, &ExeConfigurationFileMap_get_RoamingUserConfigFilename_m11939_MethodInfo/* get */
 	, &ExeConfigurationFileMap_set_RoamingUserConfigFilename_m11940_MethodInfo/* set */
@@ -14808,15 +14808,15 @@ static const PropertyInfo ExeConfigurationFileMap_t3350____RoamingUserConfigFile
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ExeConfigurationFileMap_t3350_PropertyInfos[] =
+static const PropertyInfo* ExeConfigurationFileMap_t3353_PropertyInfos[] =
 {
-	&ExeConfigurationFileMap_t3350____ExeConfigFilename_PropertyInfo,
-	&ExeConfigurationFileMap_t3350____LocalUserConfigFilename_PropertyInfo,
-	&ExeConfigurationFileMap_t3350____RoamingUserConfigFilename_PropertyInfo,
+	&ExeConfigurationFileMap_t3353____ExeConfigFilename_PropertyInfo,
+	&ExeConfigurationFileMap_t3353____LocalUserConfigFilename_PropertyInfo,
+	&ExeConfigurationFileMap_t3353____RoamingUserConfigFilename_PropertyInfo,
 	NULL
 };
 extern const MethodInfo ExeConfigurationFileMap_Clone_m11941_MethodInfo;
-static const Il2CppMethodReference ExeConfigurationFileMap_t3350_VTable[] =
+static const Il2CppMethodReference ExeConfigurationFileMap_t3353_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -14825,7 +14825,7 @@ static const Il2CppMethodReference ExeConfigurationFileMap_t3350_VTable[] =
 	&ExeConfigurationFileMap_Clone_m11941_MethodInfo,
 	&ExeConfigurationFileMap_Clone_m11941_MethodInfo,
 };
-static bool ExeConfigurationFileMap_t3350_VTableIsGenericMethod[] =
+static bool ExeConfigurationFileMap_t3353_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -14834,42 +14834,42 @@ static bool ExeConfigurationFileMap_t3350_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair ExeConfigurationFileMap_t3350_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ExeConfigurationFileMap_t3353_InterfacesOffsets[] = 
 {
-	{ &ICloneable_t833_0_0_0, 4},
+	{ &ICloneable_t836_0_0_0, 4},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ExeConfigurationFileMap_t3350_0_0_0;
-extern const Il2CppType ExeConfigurationFileMap_t3350_1_0_0;
-struct ExeConfigurationFileMap_t3350;
-const Il2CppTypeDefinitionMetadata ExeConfigurationFileMap_t3350_DefinitionMetadata = 
+extern const Il2CppType ExeConfigurationFileMap_t3353_0_0_0;
+extern const Il2CppType ExeConfigurationFileMap_t3353_1_0_0;
+struct ExeConfigurationFileMap_t3353;
+const Il2CppTypeDefinitionMetadata ExeConfigurationFileMap_t3353_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ExeConfigurationFileMap_t3350_InterfacesOffsets/* interfaceOffsets */
-	, &ConfigurationFileMap_t3321_0_0_0/* parent */
-	, ExeConfigurationFileMap_t3350_VTable/* vtableMethods */
-	, ExeConfigurationFileMap_t3350_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ExeConfigurationFileMap_t3353_InterfacesOffsets/* interfaceOffsets */
+	, &ConfigurationFileMap_t3324_0_0_0/* parent */
+	, ExeConfigurationFileMap_t3353_VTable/* vtableMethods */
+	, ExeConfigurationFileMap_t3353_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 149/* fieldStart */
 
 };
-TypeInfo ExeConfigurationFileMap_t3350_il2cpp_TypeInfo = 
+TypeInfo ExeConfigurationFileMap_t3353_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ExeConfigurationFileMap"/* name */
 	, "System.Configuration"/* namespaze */
-	, ExeConfigurationFileMap_t3350_MethodInfos/* methods */
-	, ExeConfigurationFileMap_t3350_PropertyInfos/* properties */
+	, ExeConfigurationFileMap_t3353_MethodInfos/* methods */
+	, ExeConfigurationFileMap_t3353_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ExeConfigurationFileMap_t3350_il2cpp_TypeInfo/* element_class */
+	, &ExeConfigurationFileMap_t3353_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ExeConfigurationFileMap_t3350_0_0_0/* byval_arg */
-	, &ExeConfigurationFileMap_t3350_1_0_0/* this_arg */
-	, &ExeConfigurationFileMap_t3350_DefinitionMetadata/* definitionMetadata */
+	, &ExeConfigurationFileMap_t3353_0_0_0/* byval_arg */
+	, &ExeConfigurationFileMap_t3353_1_0_0/* this_arg */
+	, &ExeConfigurationFileMap_t3353_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -14879,8 +14879,8 @@ TypeInfo ExeConfigurationFileMap_t3350_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ExeConfigurationFileMap_t3350)/* instance_size */
-	, sizeof (ExeConfigurationFileMap_t3350)/* actualSize */
+	, sizeof (ExeConfigurationFileMap_t3353)/* instance_size */
+	, sizeof (ExeConfigurationFileMap_t3353)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -14912,7 +14912,7 @@ TypeInfo ExeConfigurationFileMap_t3350_il2cpp_TypeInfo =
 // System.Configuration.IgnoreSection
 #include "System_Configuration_System_Configuration_IgnoreSection.h"
 // Metadata Definition System.Configuration.IgnoreSection
-extern TypeInfo IgnoreSection_t3351_il2cpp_TypeInfo;
+extern TypeInfo IgnoreSection_t3354_il2cpp_TypeInfo;
 // System.Configuration.IgnoreSection
 #include "System_Configuration_System_Configuration_IgnoreSectionMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -14921,7 +14921,7 @@ extern const MethodInfo IgnoreSection__ctor_m11942_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&IgnoreSection__ctor_m11942/* method */
-	, &IgnoreSection_t3351_il2cpp_TypeInfo/* declaring_type */
+	, &IgnoreSection_t3354_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -14944,7 +14944,7 @@ extern const MethodInfo IgnoreSection__cctor_m11943_MethodInfo =
 {
 	".cctor"/* name */
 	, (methodPointerType)&IgnoreSection__cctor_m11943/* method */
-	, &IgnoreSection_t3351_il2cpp_TypeInfo/* declaring_type */
+	, &IgnoreSection_t3354_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -14967,7 +14967,7 @@ extern const MethodInfo IgnoreSection_IsModified_m11944_MethodInfo =
 {
 	"IsModified"/* name */
 	, (methodPointerType)&IgnoreSection_IsModified_m11944/* method */
-	, &IgnoreSection_t3351_il2cpp_TypeInfo/* declaring_type */
+	, &IgnoreSection_t3354_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -14984,10 +14984,10 @@ extern const MethodInfo IgnoreSection_IsModified_m11944_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlReader_t3369_0_0_0;
-static const ParameterInfo IgnoreSection_t3351_IgnoreSection_DeserializeSection_m11945_ParameterInfos[] = 
+extern const Il2CppType XmlReader_t3372_0_0_0;
+static const ParameterInfo IgnoreSection_t3354_IgnoreSection_DeserializeSection_m11945_ParameterInfos[] = 
 {
-	{"reader", 0, 134217972, 0, &XmlReader_t3369_0_0_0},
+	{"reader", 0, 134217972, 0, &XmlReader_t3372_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.IgnoreSection::DeserializeSection(System.Xml.XmlReader)
@@ -14995,10 +14995,10 @@ extern const MethodInfo IgnoreSection_DeserializeSection_m11945_MethodInfo =
 {
 	"DeserializeSection"/* name */
 	, (methodPointerType)&IgnoreSection_DeserializeSection_m11945/* method */
-	, &IgnoreSection_t3351_il2cpp_TypeInfo/* declaring_type */
+	, &IgnoreSection_t3354_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, IgnoreSection_t3351_IgnoreSection_DeserializeSection_m11945_ParameterInfos/* parameters */
+	, IgnoreSection_t3354_IgnoreSection_DeserializeSection_m11945_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 197/* flags */
 	, 0/* iflags */
@@ -15012,10 +15012,10 @@ extern const MethodInfo IgnoreSection_DeserializeSection_m11945_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-static const ParameterInfo IgnoreSection_t3351_IgnoreSection_Reset_m11946_ParameterInfos[] = 
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+static const ParameterInfo IgnoreSection_t3354_IgnoreSection_Reset_m11946_ParameterInfos[] = 
 {
-	{"parentElement", 0, 134217973, 0, &ConfigurationElement_t3315_0_0_0},
+	{"parentElement", 0, 134217973, 0, &ConfigurationElement_t3318_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.IgnoreSection::Reset(System.Configuration.ConfigurationElement)
@@ -15023,10 +15023,10 @@ extern const MethodInfo IgnoreSection_Reset_m11946_MethodInfo =
 {
 	"Reset"/* name */
 	, (methodPointerType)&IgnoreSection_Reset_m11946/* method */
-	, &IgnoreSection_t3351_il2cpp_TypeInfo/* declaring_type */
+	, &IgnoreSection_t3354_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, IgnoreSection_t3351_IgnoreSection_Reset_m11946_ParameterInfos/* parameters */
+	, IgnoreSection_t3354_IgnoreSection_Reset_m11946_ParameterInfos/* parameters */
 	, 43/* custom_attributes_cache */
 	, 197/* flags */
 	, 0/* iflags */
@@ -15046,7 +15046,7 @@ extern const MethodInfo IgnoreSection_ResetModified_m11947_MethodInfo =
 {
 	"ResetModified"/* name */
 	, (methodPointerType)&IgnoreSection_ResetModified_m11947/* method */
-	, &IgnoreSection_t3351_il2cpp_TypeInfo/* declaring_type */
+	, &IgnoreSection_t3354_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -15063,14 +15063,14 @@ extern const MethodInfo IgnoreSection_ResetModified_m11947_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ConfigurationSaveMode_t3334_0_0_0;
-static const ParameterInfo IgnoreSection_t3351_IgnoreSection_SerializeSection_m11948_ParameterInfos[] = 
+extern const Il2CppType ConfigurationSaveMode_t3337_0_0_0;
+static const ParameterInfo IgnoreSection_t3354_IgnoreSection_SerializeSection_m11948_ParameterInfos[] = 
 {
-	{"parentElement", 0, 134217974, 0, &ConfigurationElement_t3315_0_0_0},
+	{"parentElement", 0, 134217974, 0, &ConfigurationElement_t3318_0_0_0},
 	{"name", 1, 134217975, 0, &String_t_0_0_0},
-	{"saveMode", 2, 134217976, 0, &ConfigurationSaveMode_t3334_0_0_0},
+	{"saveMode", 2, 134217976, 0, &ConfigurationSaveMode_t3337_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.String System.Configuration.IgnoreSection::SerializeSection(System.Configuration.ConfigurationElement,System.String,System.Configuration.ConfigurationSaveMode)
@@ -15078,10 +15078,10 @@ extern const MethodInfo IgnoreSection_SerializeSection_m11948_MethodInfo =
 {
 	"SerializeSection"/* name */
 	, (methodPointerType)&IgnoreSection_SerializeSection_m11948/* method */
-	, &IgnoreSection_t3351_il2cpp_TypeInfo/* declaring_type */
+	, &IgnoreSection_t3354_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t_Int32_t82/* invoker_method */
-	, IgnoreSection_t3351_IgnoreSection_SerializeSection_m11948_ParameterInfos/* parameters */
+	, IgnoreSection_t3354_IgnoreSection_SerializeSection_m11948_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 197/* flags */
 	, 0/* iflags */
@@ -15101,8 +15101,8 @@ extern const MethodInfo IgnoreSection_get_Properties_m11949_MethodInfo =
 {
 	"get_Properties"/* name */
 	, (methodPointerType)&IgnoreSection_get_Properties_m11949/* method */
-	, &IgnoreSection_t3351_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationPropertyCollection_t3311_0_0_0/* return_type */
+	, &IgnoreSection_t3354_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyCollection_t3314_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -15118,7 +15118,7 @@ extern const MethodInfo IgnoreSection_get_Properties_m11949_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* IgnoreSection_t3351_MethodInfos[] =
+static const MethodInfo* IgnoreSection_t3354_MethodInfos[] =
 {
 	&IgnoreSection__ctor_m11942_MethodInfo,
 	&IgnoreSection__cctor_m11943_MethodInfo,
@@ -15131,9 +15131,9 @@ static const MethodInfo* IgnoreSection_t3351_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo IgnoreSection_get_Properties_m11949_MethodInfo;
-static const PropertyInfo IgnoreSection_t3351____Properties_PropertyInfo = 
+static const PropertyInfo IgnoreSection_t3354____Properties_PropertyInfo = 
 {
-	&IgnoreSection_t3351_il2cpp_TypeInfo/* parent */
+	&IgnoreSection_t3354_il2cpp_TypeInfo/* parent */
 	, "Properties"/* name */
 	, &IgnoreSection_get_Properties_m11949_MethodInfo/* get */
 	, NULL/* set */
@@ -15141,9 +15141,9 @@ static const PropertyInfo IgnoreSection_t3351____Properties_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* IgnoreSection_t3351_PropertyInfos[] =
+static const PropertyInfo* IgnoreSection_t3354_PropertyInfos[] =
 {
-	&IgnoreSection_t3351____Properties_PropertyInfo,
+	&IgnoreSection_t3354____Properties_PropertyInfo,
 	NULL
 };
 extern const MethodInfo IgnoreSection_IsModified_m11944_MethodInfo;
@@ -15151,7 +15151,7 @@ extern const MethodInfo IgnoreSection_Reset_m11946_MethodInfo;
 extern const MethodInfo IgnoreSection_ResetModified_m11947_MethodInfo;
 extern const MethodInfo IgnoreSection_DeserializeSection_m11945_MethodInfo;
 extern const MethodInfo IgnoreSection_SerializeSection_m11948_MethodInfo;
-static const Il2CppMethodReference IgnoreSection_t3351_VTable[] =
+static const Il2CppMethodReference IgnoreSection_t3354_VTable[] =
 {
 	&ConfigurationElement_Equals_m11733_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -15181,7 +15181,7 @@ static const Il2CppMethodReference IgnoreSection_t3351_VTable[] =
 	&IgnoreSection_DeserializeSection_m11945_MethodInfo,
 	&IgnoreSection_SerializeSection_m11948_MethodInfo,
 };
-static bool IgnoreSection_t3351_VTableIsGenericMethod[] =
+static bool IgnoreSection_t3354_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -15212,37 +15212,37 @@ static bool IgnoreSection_t3351_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType IgnoreSection_t3351_0_0_0;
-extern const Il2CppType IgnoreSection_t3351_1_0_0;
-struct IgnoreSection_t3351;
-const Il2CppTypeDefinitionMetadata IgnoreSection_t3351_DefinitionMetadata = 
+extern const Il2CppType IgnoreSection_t3354_0_0_0;
+extern const Il2CppType IgnoreSection_t3354_1_0_0;
+struct IgnoreSection_t3354;
+const Il2CppTypeDefinitionMetadata IgnoreSection_t3354_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &ConfigurationSection_t3337_0_0_0/* parent */
-	, IgnoreSection_t3351_VTable/* vtableMethods */
-	, IgnoreSection_t3351_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &ConfigurationSection_t3340_0_0_0/* parent */
+	, IgnoreSection_t3354_VTable/* vtableMethods */
+	, IgnoreSection_t3354_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 152/* fieldStart */
 
 };
-TypeInfo IgnoreSection_t3351_il2cpp_TypeInfo = 
+TypeInfo IgnoreSection_t3354_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "IgnoreSection"/* name */
 	, "System.Configuration"/* namespaze */
-	, IgnoreSection_t3351_MethodInfos/* methods */
-	, IgnoreSection_t3351_PropertyInfos/* properties */
+	, IgnoreSection_t3354_MethodInfos/* methods */
+	, IgnoreSection_t3354_PropertyInfos/* properties */
 	, NULL/* events */
-	, &IgnoreSection_t3351_il2cpp_TypeInfo/* element_class */
+	, &IgnoreSection_t3354_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &IgnoreSection_t3351_0_0_0/* byval_arg */
-	, &IgnoreSection_t3351_1_0_0/* this_arg */
-	, &IgnoreSection_t3351_DefinitionMetadata/* definitionMetadata */
+	, &IgnoreSection_t3354_0_0_0/* byval_arg */
+	, &IgnoreSection_t3354_1_0_0/* this_arg */
+	, &IgnoreSection_t3354_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -15252,11 +15252,11 @@ TypeInfo IgnoreSection_t3351_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (IgnoreSection_t3351)/* instance_size */
-	, sizeof (IgnoreSection_t3351)/* actualSize */
+	, sizeof (IgnoreSection_t3354)/* instance_size */
+	, sizeof (IgnoreSection_t3354)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(IgnoreSection_t3351_StaticFields)/* static_fields_size */
+	, sizeof(IgnoreSection_t3354_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 257/* flags */
@@ -15285,7 +15285,7 @@ TypeInfo IgnoreSection_t3351_il2cpp_TypeInfo =
 // System.Configuration.InternalConfigurationFactory
 #include "System_Configuration_System_Configuration_InternalConfigurat.h"
 // Metadata Definition System.Configuration.InternalConfigurationFactory
-extern TypeInfo InternalConfigurationFactory_t3325_il2cpp_TypeInfo;
+extern TypeInfo InternalConfigurationFactory_t3328_il2cpp_TypeInfo;
 // System.Configuration.InternalConfigurationFactory
 #include "System_Configuration_System_Configuration_InternalConfiguratMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -15294,7 +15294,7 @@ extern const MethodInfo InternalConfigurationFactory__ctor_m11950_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&InternalConfigurationFactory__ctor_m11950/* method */
-	, &InternalConfigurationFactory_t3325_il2cpp_TypeInfo/* declaring_type */
+	, &InternalConfigurationFactory_t3328_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -15312,11 +15312,11 @@ extern const MethodInfo InternalConfigurationFactory__ctor_m11950_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
-static const ParameterInfo InternalConfigurationFactory_t3325_InternalConfigurationFactory_Create_m11951_ParameterInfos[] = 
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
+static const ParameterInfo InternalConfigurationFactory_t3328_InternalConfigurationFactory_Create_m11951_ParameterInfos[] = 
 {
 	{"typeConfigHost", 0, 134217977, 0, &Type_t_0_0_0},
-	{"hostInitConfigurationParams", 1, 134217978, 45, &ObjectU5BU5D_t697_0_0_0},
+	{"hostInitConfigurationParams", 1, 134217978, 45, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.Configuration System.Configuration.InternalConfigurationFactory::Create(System.Type,System.Object[])
@@ -15324,10 +15324,10 @@ extern const MethodInfo InternalConfigurationFactory_Create_m11951_MethodInfo =
 {
 	"Create"/* name */
 	, (methodPointerType)&InternalConfigurationFactory_Create_m11951/* method */
-	, &InternalConfigurationFactory_t3325_il2cpp_TypeInfo/* declaring_type */
-	, &Configuration_t3297_0_0_0/* return_type */
+	, &InternalConfigurationFactory_t3328_il2cpp_TypeInfo/* declaring_type */
+	, &Configuration_t3300_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, InternalConfigurationFactory_t3325_InternalConfigurationFactory_Create_m11951_ParameterInfos/* parameters */
+	, InternalConfigurationFactory_t3328_InternalConfigurationFactory_Create_m11951_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -15341,14 +15341,14 @@ extern const MethodInfo InternalConfigurationFactory_Create_m11951_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* InternalConfigurationFactory_t3325_MethodInfos[] =
+static const MethodInfo* InternalConfigurationFactory_t3328_MethodInfos[] =
 {
 	&InternalConfigurationFactory__ctor_m11950_MethodInfo,
 	&InternalConfigurationFactory_Create_m11951_MethodInfo,
 	NULL
 };
 extern const MethodInfo InternalConfigurationFactory_Create_m11951_MethodInfo;
-static const Il2CppMethodReference InternalConfigurationFactory_t3325_VTable[] =
+static const Il2CppMethodReference InternalConfigurationFactory_t3328_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -15356,7 +15356,7 @@ static const Il2CppMethodReference InternalConfigurationFactory_t3325_VTable[] =
 	&Object_ToString_m492_MethodInfo,
 	&InternalConfigurationFactory_Create_m11951_MethodInfo,
 };
-static bool InternalConfigurationFactory_t3325_VTableIsGenericMethod[] =
+static bool InternalConfigurationFactory_t3328_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -15364,46 +15364,46 @@ static bool InternalConfigurationFactory_t3325_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* InternalConfigurationFactory_t3325_InterfacesTypeInfos[] = 
+static const Il2CppType* InternalConfigurationFactory_t3328_InterfacesTypeInfos[] = 
 {
-	&IInternalConfigConfigurationFactory_t3371_0_0_0,
+	&IInternalConfigConfigurationFactory_t3374_0_0_0,
 };
-static Il2CppInterfaceOffsetPair InternalConfigurationFactory_t3325_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair InternalConfigurationFactory_t3328_InterfacesOffsets[] = 
 {
-	{ &IInternalConfigConfigurationFactory_t3371_0_0_0, 4},
+	{ &IInternalConfigConfigurationFactory_t3374_0_0_0, 4},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType InternalConfigurationFactory_t3325_0_0_0;
-extern const Il2CppType InternalConfigurationFactory_t3325_1_0_0;
-struct InternalConfigurationFactory_t3325;
-const Il2CppTypeDefinitionMetadata InternalConfigurationFactory_t3325_DefinitionMetadata = 
+extern const Il2CppType InternalConfigurationFactory_t3328_0_0_0;
+extern const Il2CppType InternalConfigurationFactory_t3328_1_0_0;
+struct InternalConfigurationFactory_t3328;
+const Il2CppTypeDefinitionMetadata InternalConfigurationFactory_t3328_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, InternalConfigurationFactory_t3325_InterfacesTypeInfos/* implementedInterfaces */
-	, InternalConfigurationFactory_t3325_InterfacesOffsets/* interfaceOffsets */
+	, InternalConfigurationFactory_t3328_InterfacesTypeInfos/* implementedInterfaces */
+	, InternalConfigurationFactory_t3328_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, InternalConfigurationFactory_t3325_VTable/* vtableMethods */
-	, InternalConfigurationFactory_t3325_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, InternalConfigurationFactory_t3328_VTable/* vtableMethods */
+	, InternalConfigurationFactory_t3328_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo InternalConfigurationFactory_t3325_il2cpp_TypeInfo = 
+TypeInfo InternalConfigurationFactory_t3328_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "InternalConfigurationFactory"/* name */
 	, "System.Configuration"/* namespaze */
-	, InternalConfigurationFactory_t3325_MethodInfos/* methods */
+	, InternalConfigurationFactory_t3328_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &InternalConfigurationFactory_t3325_il2cpp_TypeInfo/* element_class */
+	, &InternalConfigurationFactory_t3328_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &InternalConfigurationFactory_t3325_0_0_0/* byval_arg */
-	, &InternalConfigurationFactory_t3325_1_0_0/* this_arg */
-	, &InternalConfigurationFactory_t3325_DefinitionMetadata/* definitionMetadata */
+	, &InternalConfigurationFactory_t3328_0_0_0/* byval_arg */
+	, &InternalConfigurationFactory_t3328_1_0_0/* this_arg */
+	, &InternalConfigurationFactory_t3328_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -15413,8 +15413,8 @@ TypeInfo InternalConfigurationFactory_t3325_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (InternalConfigurationFactory_t3325)/* instance_size */
-	, sizeof (InternalConfigurationFactory_t3325)/* actualSize */
+	, sizeof (InternalConfigurationFactory_t3328)/* instance_size */
+	, sizeof (InternalConfigurationFactory_t3328)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -15446,7 +15446,7 @@ TypeInfo InternalConfigurationFactory_t3325_il2cpp_TypeInfo =
 // System.Configuration.InternalConfigurationSystem
 #include "System_Configuration_System_Configuration_InternalConfigurat_0.h"
 // Metadata Definition System.Configuration.InternalConfigurationSystem
-extern TypeInfo InternalConfigurationSystem_t3353_il2cpp_TypeInfo;
+extern TypeInfo InternalConfigurationSystem_t3356_il2cpp_TypeInfo;
 // System.Configuration.InternalConfigurationSystem
 #include "System_Configuration_System_Configuration_InternalConfigurat_0MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -15455,7 +15455,7 @@ extern const MethodInfo InternalConfigurationSystem__ctor_m11952_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&InternalConfigurationSystem__ctor_m11952/* method */
-	, &InternalConfigurationSystem_t3353_il2cpp_TypeInfo/* declaring_type */
+	, &InternalConfigurationSystem_t3356_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -15473,11 +15473,11 @@ extern const MethodInfo InternalConfigurationSystem__ctor_m11952_MethodInfo =
 
 };
 extern const Il2CppType Type_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
-static const ParameterInfo InternalConfigurationSystem_t3353_InternalConfigurationSystem_Init_m11953_ParameterInfos[] = 
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
+static const ParameterInfo InternalConfigurationSystem_t3356_InternalConfigurationSystem_Init_m11953_ParameterInfos[] = 
 {
 	{"typeConfigHost", 0, 134217979, 0, &Type_t_0_0_0},
-	{"hostInitParams", 1, 134217980, 46, &ObjectU5BU5D_t697_0_0_0},
+	{"hostInitParams", 1, 134217980, 46, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.InternalConfigurationSystem::Init(System.Type,System.Object[])
@@ -15485,10 +15485,10 @@ extern const MethodInfo InternalConfigurationSystem_Init_m11953_MethodInfo =
 {
 	"Init"/* name */
 	, (methodPointerType)&InternalConfigurationSystem_Init_m11953/* method */
-	, &InternalConfigurationSystem_t3353_il2cpp_TypeInfo/* declaring_type */
+	, &InternalConfigurationSystem_t3356_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, InternalConfigurationSystem_t3353_InternalConfigurationSystem_Init_m11953_ParameterInfos/* parameters */
+	, InternalConfigurationSystem_t3356_InternalConfigurationSystem_Init_m11953_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -15505,22 +15505,22 @@ extern const MethodInfo InternalConfigurationSystem_Init_m11953_MethodInfo =
 extern const Il2CppType String_t_1_0_0;
 extern const Il2CppType String_t_1_0_2;
 extern const Il2CppType String_t_1_0_2;
-static const ParameterInfo InternalConfigurationSystem_t3353_InternalConfigurationSystem_InitForConfiguration_m11954_ParameterInfos[] = 
+static const ParameterInfo InternalConfigurationSystem_t3356_InternalConfigurationSystem_InitForConfiguration_m11954_ParameterInfos[] = 
 {
 	{"locationConfigPath", 0, 134217981, 0, &String_t_1_0_0},
 	{"parentConfigPath", 1, 134217982, 0, &String_t_1_0_2},
 	{"parentLocationConfigPath", 2, 134217983, 0, &String_t_1_0_2},
 };
-extern void* RuntimeInvoker_Void_t85_StringU26_t828_StringU26_t828_StringU26_t828 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_StringU26_t831_StringU26_t831_StringU26_t831 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.InternalConfigurationSystem::InitForConfiguration(System.String&,System.String&,System.String&)
 extern const MethodInfo InternalConfigurationSystem_InitForConfiguration_m11954_MethodInfo = 
 {
 	"InitForConfiguration"/* name */
 	, (methodPointerType)&InternalConfigurationSystem_InitForConfiguration_m11954/* method */
-	, &InternalConfigurationSystem_t3353_il2cpp_TypeInfo/* declaring_type */
+	, &InternalConfigurationSystem_t3356_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_StringU26_t828_StringU26_t828_StringU26_t828/* invoker_method */
-	, InternalConfigurationSystem_t3353_InternalConfigurationSystem_InitForConfiguration_m11954_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_StringU26_t831_StringU26_t831_StringU26_t831/* invoker_method */
+	, InternalConfigurationSystem_t3356_InternalConfigurationSystem_InitForConfiguration_m11954_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -15540,8 +15540,8 @@ extern const MethodInfo InternalConfigurationSystem_get_Host_m11955_MethodInfo =
 {
 	"get_Host"/* name */
 	, (methodPointerType)&InternalConfigurationSystem_get_Host_m11955/* method */
-	, &InternalConfigurationSystem_t3353_il2cpp_TypeInfo/* declaring_type */
-	, &IInternalConfigHost_t3302_0_0_0/* return_type */
+	, &InternalConfigurationSystem_t3356_il2cpp_TypeInfo/* declaring_type */
+	, &IInternalConfigHost_t3305_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -15557,7 +15557,7 @@ extern const MethodInfo InternalConfigurationSystem_get_Host_m11955_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* InternalConfigurationSystem_t3353_MethodInfos[] =
+static const MethodInfo* InternalConfigurationSystem_t3356_MethodInfos[] =
 {
 	&InternalConfigurationSystem__ctor_m11952_MethodInfo,
 	&InternalConfigurationSystem_Init_m11953_MethodInfo,
@@ -15566,9 +15566,9 @@ static const MethodInfo* InternalConfigurationSystem_t3353_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo InternalConfigurationSystem_get_Host_m11955_MethodInfo;
-static const PropertyInfo InternalConfigurationSystem_t3353____Host_PropertyInfo = 
+static const PropertyInfo InternalConfigurationSystem_t3356____Host_PropertyInfo = 
 {
-	&InternalConfigurationSystem_t3353_il2cpp_TypeInfo/* parent */
+	&InternalConfigurationSystem_t3356_il2cpp_TypeInfo/* parent */
 	, "Host"/* name */
 	, &InternalConfigurationSystem_get_Host_m11955_MethodInfo/* get */
 	, NULL/* set */
@@ -15576,13 +15576,13 @@ static const PropertyInfo InternalConfigurationSystem_t3353____Host_PropertyInfo
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* InternalConfigurationSystem_t3353_PropertyInfos[] =
+static const PropertyInfo* InternalConfigurationSystem_t3356_PropertyInfos[] =
 {
-	&InternalConfigurationSystem_t3353____Host_PropertyInfo,
+	&InternalConfigurationSystem_t3356____Host_PropertyInfo,
 	NULL
 };
 extern const MethodInfo InternalConfigurationSystem_Init_m11953_MethodInfo;
-static const Il2CppMethodReference InternalConfigurationSystem_t3353_VTable[] =
+static const Il2CppMethodReference InternalConfigurationSystem_t3356_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -15591,7 +15591,7 @@ static const Il2CppMethodReference InternalConfigurationSystem_t3353_VTable[] =
 	&InternalConfigurationSystem_get_Host_m11955_MethodInfo,
 	&InternalConfigurationSystem_Init_m11953_MethodInfo,
 };
-static bool InternalConfigurationSystem_t3353_VTableIsGenericMethod[] =
+static bool InternalConfigurationSystem_t3356_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -15600,45 +15600,45 @@ static bool InternalConfigurationSystem_t3353_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* InternalConfigurationSystem_t3353_InterfacesTypeInfos[] = 
+static const Il2CppType* InternalConfigurationSystem_t3356_InterfacesTypeInfos[] = 
 {
-	&IConfigSystem_t3306_0_0_0,
+	&IConfigSystem_t3309_0_0_0,
 };
-static Il2CppInterfaceOffsetPair InternalConfigurationSystem_t3353_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair InternalConfigurationSystem_t3356_InterfacesOffsets[] = 
 {
-	{ &IConfigSystem_t3306_0_0_0, 4},
+	{ &IConfigSystem_t3309_0_0_0, 4},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType InternalConfigurationSystem_t3353_1_0_0;
-struct InternalConfigurationSystem_t3353;
-const Il2CppTypeDefinitionMetadata InternalConfigurationSystem_t3353_DefinitionMetadata = 
+extern const Il2CppType InternalConfigurationSystem_t3356_1_0_0;
+struct InternalConfigurationSystem_t3356;
+const Il2CppTypeDefinitionMetadata InternalConfigurationSystem_t3356_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, InternalConfigurationSystem_t3353_InterfacesTypeInfos/* implementedInterfaces */
-	, InternalConfigurationSystem_t3353_InterfacesOffsets/* interfaceOffsets */
+	, InternalConfigurationSystem_t3356_InterfacesTypeInfos/* implementedInterfaces */
+	, InternalConfigurationSystem_t3356_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, InternalConfigurationSystem_t3353_VTable/* vtableMethods */
-	, InternalConfigurationSystem_t3353_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, InternalConfigurationSystem_t3356_VTable/* vtableMethods */
+	, InternalConfigurationSystem_t3356_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 154/* fieldStart */
 
 };
-TypeInfo InternalConfigurationSystem_t3353_il2cpp_TypeInfo = 
+TypeInfo InternalConfigurationSystem_t3356_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "InternalConfigurationSystem"/* name */
 	, "System.Configuration"/* namespaze */
-	, InternalConfigurationSystem_t3353_MethodInfos/* methods */
-	, InternalConfigurationSystem_t3353_PropertyInfos/* properties */
+	, InternalConfigurationSystem_t3356_MethodInfos/* methods */
+	, InternalConfigurationSystem_t3356_PropertyInfos/* properties */
 	, NULL/* events */
-	, &InternalConfigurationSystem_t3353_il2cpp_TypeInfo/* element_class */
+	, &InternalConfigurationSystem_t3356_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &InternalConfigurationSystem_t3353_0_0_0/* byval_arg */
-	, &InternalConfigurationSystem_t3353_1_0_0/* this_arg */
-	, &InternalConfigurationSystem_t3353_DefinitionMetadata/* definitionMetadata */
+	, &InternalConfigurationSystem_t3356_0_0_0/* byval_arg */
+	, &InternalConfigurationSystem_t3356_1_0_0/* this_arg */
+	, &InternalConfigurationSystem_t3356_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -15648,8 +15648,8 @@ TypeInfo InternalConfigurationSystem_t3353_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (InternalConfigurationSystem_t3353)/* instance_size */
-	, sizeof (InternalConfigurationSystem_t3353)/* actualSize */
+	, sizeof (InternalConfigurationSystem_t3356)/* instance_size */
+	, sizeof (InternalConfigurationSystem_t3356)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -15681,7 +15681,7 @@ TypeInfo InternalConfigurationSystem_t3353_il2cpp_TypeInfo =
 // System.Configuration.InternalConfigurationHost
 #include "System_Configuration_System_Configuration_InternalConfigurat_1.h"
 // Metadata Definition System.Configuration.InternalConfigurationHost
-extern TypeInfo InternalConfigurationHost_t3354_il2cpp_TypeInfo;
+extern TypeInfo InternalConfigurationHost_t3357_il2cpp_TypeInfo;
 // System.Configuration.InternalConfigurationHost
 #include "System_Configuration_System_Configuration_InternalConfigurat_1MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -15690,7 +15690,7 @@ extern const MethodInfo InternalConfigurationHost__ctor_m11956_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&InternalConfigurationHost__ctor_m11956/* method */
-	, &InternalConfigurationHost_t3354_il2cpp_TypeInfo/* declaring_type */
+	, &InternalConfigurationHost_t3357_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -15708,7 +15708,7 @@ extern const MethodInfo InternalConfigurationHost__ctor_m11956_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo InternalConfigurationHost_t3354_InternalConfigurationHost_CreateDeprecatedConfigContext_m11957_ParameterInfos[] = 
+static const ParameterInfo InternalConfigurationHost_t3357_InternalConfigurationHost_CreateDeprecatedConfigContext_m11957_ParameterInfos[] = 
 {
 	{"configPath", 0, 134217984, 0, &String_t_0_0_0},
 };
@@ -15718,10 +15718,10 @@ extern const MethodInfo InternalConfigurationHost_CreateDeprecatedConfigContext_
 {
 	"CreateDeprecatedConfigContext"/* name */
 	, (methodPointerType)&InternalConfigurationHost_CreateDeprecatedConfigContext_m11957/* method */
-	, &InternalConfigurationHost_t3354_il2cpp_TypeInfo/* declaring_type */
+	, &InternalConfigurationHost_t3357_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, InternalConfigurationHost_t3354_InternalConfigurationHost_CreateDeprecatedConfigContext_m11957_ParameterInfos/* parameters */
+	, InternalConfigurationHost_t3357_InternalConfigurationHost_CreateDeprecatedConfigContext_m11957_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -15737,7 +15737,7 @@ extern const MethodInfo InternalConfigurationHost_CreateDeprecatedConfigContext_
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo InternalConfigurationHost_t3354_InternalConfigurationHost_GetConfigPathFromLocationSubPath_m11958_ParameterInfos[] = 
+static const ParameterInfo InternalConfigurationHost_t3357_InternalConfigurationHost_GetConfigPathFromLocationSubPath_m11958_ParameterInfos[] = 
 {
 	{"configPath", 0, 134217985, 0, &String_t_0_0_0},
 	{"locationSubPath", 1, 134217986, 0, &String_t_0_0_0},
@@ -15748,10 +15748,10 @@ extern const MethodInfo InternalConfigurationHost_GetConfigPathFromLocationSubPa
 {
 	"GetConfigPathFromLocationSubPath"/* name */
 	, (methodPointerType)&InternalConfigurationHost_GetConfigPathFromLocationSubPath_m11958/* method */
-	, &InternalConfigurationHost_t3354_il2cpp_TypeInfo/* declaring_type */
+	, &InternalConfigurationHost_t3357_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, InternalConfigurationHost_t3354_InternalConfigurationHost_GetConfigPathFromLocationSubPath_m11958_ParameterInfos/* parameters */
+	, InternalConfigurationHost_t3357_InternalConfigurationHost_GetConfigPathFromLocationSubPath_m11958_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -15767,7 +15767,7 @@ extern const MethodInfo InternalConfigurationHost_GetConfigPathFromLocationSubPa
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo InternalConfigurationHost_t3354_InternalConfigurationHost_GetConfigType_m11959_ParameterInfos[] = 
+static const ParameterInfo InternalConfigurationHost_t3357_InternalConfigurationHost_GetConfigType_m11959_ParameterInfos[] = 
 {
 	{"typeName", 0, 134217987, 0, &String_t_0_0_0},
 	{"throwOnError", 1, 134217988, 0, &Boolean_t59_0_0_0},
@@ -15778,10 +15778,10 @@ extern const MethodInfo InternalConfigurationHost_GetConfigType_m11959_MethodInf
 {
 	"GetConfigType"/* name */
 	, (methodPointerType)&InternalConfigurationHost_GetConfigType_m11959/* method */
-	, &InternalConfigurationHost_t3354_il2cpp_TypeInfo/* declaring_type */
+	, &InternalConfigurationHost_t3357_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_SByte_t88/* invoker_method */
-	, InternalConfigurationHost_t3354_InternalConfigurationHost_GetConfigType_m11959_ParameterInfos/* parameters */
+	, InternalConfigurationHost_t3357_InternalConfigurationHost_GetConfigType_m11959_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -15796,7 +15796,7 @@ extern const MethodInfo InternalConfigurationHost_GetConfigType_m11959_MethodInf
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo InternalConfigurationHost_t3354_InternalConfigurationHost_GetStreamName_m12158_ParameterInfos[] = 
+static const ParameterInfo InternalConfigurationHost_t3357_InternalConfigurationHost_GetStreamName_m12158_ParameterInfos[] = 
 {
 	{"configPath", 0, 134217989, 0, &String_t_0_0_0},
 };
@@ -15806,10 +15806,10 @@ extern const MethodInfo InternalConfigurationHost_GetStreamName_m12158_MethodInf
 {
 	"GetStreamName"/* name */
 	, NULL/* method */
-	, &InternalConfigurationHost_t3354_il2cpp_TypeInfo/* declaring_type */
+	, &InternalConfigurationHost_t3357_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, InternalConfigurationHost_t3354_InternalConfigurationHost_GetStreamName_m12158_ParameterInfos/* parameters */
+	, InternalConfigurationHost_t3357_InternalConfigurationHost_GetStreamName_m12158_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -15823,12 +15823,12 @@ extern const MethodInfo InternalConfigurationHost_GetStreamName_m12158_MethodInf
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IInternalConfigRoot_t3352_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
-static const ParameterInfo InternalConfigurationHost_t3354_InternalConfigurationHost_Init_m12159_ParameterInfos[] = 
+extern const Il2CppType IInternalConfigRoot_t3355_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
+static const ParameterInfo InternalConfigurationHost_t3357_InternalConfigurationHost_Init_m12159_ParameterInfos[] = 
 {
-	{"root", 0, 134217990, 0, &IInternalConfigRoot_t3352_0_0_0},
-	{"hostInitParams", 1, 134217991, 47, &ObjectU5BU5D_t697_0_0_0},
+	{"root", 0, 134217990, 0, &IInternalConfigRoot_t3355_0_0_0},
+	{"hostInitParams", 1, 134217991, 47, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.InternalConfigurationHost::Init(System.Configuration.Internal.IInternalConfigRoot,System.Object[])
@@ -15836,10 +15836,10 @@ extern const MethodInfo InternalConfigurationHost_Init_m12159_MethodInfo =
 {
 	"Init"/* name */
 	, NULL/* method */
-	, &InternalConfigurationHost_t3354_il2cpp_TypeInfo/* declaring_type */
+	, &InternalConfigurationHost_t3357_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, InternalConfigurationHost_t3354_InternalConfigurationHost_Init_m12159_ParameterInfos/* parameters */
+	, InternalConfigurationHost_t3357_InternalConfigurationHost_Init_m12159_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -15856,26 +15856,26 @@ extern const MethodInfo InternalConfigurationHost_Init_m12159_MethodInfo =
 extern const Il2CppType String_t_1_0_0;
 extern const Il2CppType String_t_1_0_2;
 extern const Il2CppType String_t_1_0_2;
-extern const Il2CppType IInternalConfigRoot_t3352_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
-static const ParameterInfo InternalConfigurationHost_t3354_InternalConfigurationHost_InitForConfiguration_m12160_ParameterInfos[] = 
+extern const Il2CppType IInternalConfigRoot_t3355_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
+static const ParameterInfo InternalConfigurationHost_t3357_InternalConfigurationHost_InitForConfiguration_m12160_ParameterInfos[] = 
 {
 	{"locationSubPath", 0, 134217992, 0, &String_t_1_0_0},
 	{"configPath", 1, 134217993, 0, &String_t_1_0_2},
 	{"locationConfigPath", 2, 134217994, 0, &String_t_1_0_2},
-	{"root", 3, 134217995, 0, &IInternalConfigRoot_t3352_0_0_0},
-	{"hostInitConfigurationParams", 4, 134217996, 48, &ObjectU5BU5D_t697_0_0_0},
+	{"root", 3, 134217995, 0, &IInternalConfigRoot_t3355_0_0_0},
+	{"hostInitConfigurationParams", 4, 134217996, 48, &ObjectU5BU5D_t700_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_StringU26_t828_StringU26_t828_StringU26_t828_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_StringU26_t831_StringU26_t831_StringU26_t831_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.InternalConfigurationHost::InitForConfiguration(System.String&,System.String&,System.String&,System.Configuration.Internal.IInternalConfigRoot,System.Object[])
 extern const MethodInfo InternalConfigurationHost_InitForConfiguration_m12160_MethodInfo = 
 {
 	"InitForConfiguration"/* name */
 	, NULL/* method */
-	, &InternalConfigurationHost_t3354_il2cpp_TypeInfo/* declaring_type */
+	, &InternalConfigurationHost_t3357_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_StringU26_t828_StringU26_t828_StringU26_t828_Object_t_Object_t/* invoker_method */
-	, InternalConfigurationHost_t3354_InternalConfigurationHost_InitForConfiguration_m12160_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_StringU26_t831_StringU26_t831_StringU26_t831_Object_t_Object_t/* invoker_method */
+	, InternalConfigurationHost_t3357_InternalConfigurationHost_InitForConfiguration_m12160_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -15890,13 +15890,13 @@ extern const MethodInfo InternalConfigurationHost_InitForConfiguration_m12160_Me
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ConfigurationAllowDefinition_t3307_0_0_0;
-extern const Il2CppType ConfigurationAllowExeDefinition_t3308_0_0_0;
-static const ParameterInfo InternalConfigurationHost_t3354_InternalConfigurationHost_IsDefinitionAllowed_m11960_ParameterInfos[] = 
+extern const Il2CppType ConfigurationAllowDefinition_t3310_0_0_0;
+extern const Il2CppType ConfigurationAllowExeDefinition_t3311_0_0_0;
+static const ParameterInfo InternalConfigurationHost_t3357_InternalConfigurationHost_IsDefinitionAllowed_m11960_ParameterInfos[] = 
 {
 	{"configPath", 0, 134217997, 0, &String_t_0_0_0},
-	{"allowDefinition", 1, 134217998, 0, &ConfigurationAllowDefinition_t3307_0_0_0},
-	{"allowExeDefinition", 2, 134217999, 0, &ConfigurationAllowExeDefinition_t3308_0_0_0},
+	{"allowDefinition", 1, 134217998, 0, &ConfigurationAllowDefinition_t3310_0_0_0},
+	{"allowExeDefinition", 2, 134217999, 0, &ConfigurationAllowExeDefinition_t3311_0_0_0},
 };
 extern void* RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Boolean System.Configuration.InternalConfigurationHost::IsDefinitionAllowed(System.String,System.Configuration.ConfigurationAllowDefinition,System.Configuration.ConfigurationAllowExeDefinition)
@@ -15904,10 +15904,10 @@ extern const MethodInfo InternalConfigurationHost_IsDefinitionAllowed_m11960_Met
 {
 	"IsDefinitionAllowed"/* name */
 	, (methodPointerType)&InternalConfigurationHost_IsDefinitionAllowed_m11960/* method */
-	, &InternalConfigurationHost_t3354_il2cpp_TypeInfo/* declaring_type */
+	, &InternalConfigurationHost_t3357_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Int32_t82_Int32_t82/* invoker_method */
-	, InternalConfigurationHost_t3354_InternalConfigurationHost_IsDefinitionAllowed_m11960_ParameterInfos/* parameters */
+	, InternalConfigurationHost_t3357_InternalConfigurationHost_IsDefinitionAllowed_m11960_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -15927,7 +15927,7 @@ extern const MethodInfo InternalConfigurationHost_get_bundled_machine_config_m11
 {
 	"get_bundled_machine_config"/* name */
 	, (methodPointerType)&InternalConfigurationHost_get_bundled_machine_config_m11961/* method */
-	, &InternalConfigurationHost_t3354_il2cpp_TypeInfo/* declaring_type */
+	, &InternalConfigurationHost_t3357_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -15945,7 +15945,7 @@ extern const MethodInfo InternalConfigurationHost_get_bundled_machine_config_m11
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo InternalConfigurationHost_t3354_InternalConfigurationHost_OpenStreamForRead_m11962_ParameterInfos[] = 
+static const ParameterInfo InternalConfigurationHost_t3357_InternalConfigurationHost_OpenStreamForRead_m11962_ParameterInfos[] = 
 {
 	{"streamName", 0, 134218000, 0, &String_t_0_0_0},
 };
@@ -15955,10 +15955,10 @@ extern const MethodInfo InternalConfigurationHost_OpenStreamForRead_m11962_Metho
 {
 	"OpenStreamForRead"/* name */
 	, (methodPointerType)&InternalConfigurationHost_OpenStreamForRead_m11962/* method */
-	, &InternalConfigurationHost_t3354_il2cpp_TypeInfo/* declaring_type */
+	, &InternalConfigurationHost_t3357_il2cpp_TypeInfo/* declaring_type */
 	, &Stream_t51_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, InternalConfigurationHost_t3354_InternalConfigurationHost_OpenStreamForRead_m11962_ParameterInfos/* parameters */
+	, InternalConfigurationHost_t3357_InternalConfigurationHost_OpenStreamForRead_m11962_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 454/* flags */
 	, 0/* iflags */
@@ -15972,7 +15972,7 @@ extern const MethodInfo InternalConfigurationHost_OpenStreamForRead_m11962_Metho
 	, NULL/* dummy */
 
 };
-static const MethodInfo* InternalConfigurationHost_t3354_MethodInfos[] =
+static const MethodInfo* InternalConfigurationHost_t3357_MethodInfos[] =
 {
 	&InternalConfigurationHost__ctor_m11956_MethodInfo,
 	&InternalConfigurationHost_CreateDeprecatedConfigContext_m11957_MethodInfo,
@@ -15993,7 +15993,7 @@ extern const MethodInfo InternalConfigurationHost_GetStreamName_m12158_MethodInf
 extern const MethodInfo InternalConfigurationHost_InitForConfiguration_m12160_MethodInfo;
 extern const MethodInfo InternalConfigurationHost_IsDefinitionAllowed_m11960_MethodInfo;
 extern const MethodInfo InternalConfigurationHost_OpenStreamForRead_m11962_MethodInfo;
-static const Il2CppMethodReference InternalConfigurationHost_t3354_VTable[] =
+static const Il2CppMethodReference InternalConfigurationHost_t3357_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -16015,7 +16015,7 @@ static const Il2CppMethodReference InternalConfigurationHost_t3354_VTable[] =
 	&InternalConfigurationHost_IsDefinitionAllowed_m11960_MethodInfo,
 	&InternalConfigurationHost_OpenStreamForRead_m11962_MethodInfo,
 };
-static bool InternalConfigurationHost_t3354_VTableIsGenericMethod[] =
+static bool InternalConfigurationHost_t3357_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -16037,46 +16037,46 @@ static bool InternalConfigurationHost_t3354_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* InternalConfigurationHost_t3354_InterfacesTypeInfos[] = 
+static const Il2CppType* InternalConfigurationHost_t3357_InterfacesTypeInfos[] = 
 {
-	&IInternalConfigHost_t3302_0_0_0,
+	&IInternalConfigHost_t3305_0_0_0,
 };
-static Il2CppInterfaceOffsetPair InternalConfigurationHost_t3354_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair InternalConfigurationHost_t3357_InterfacesOffsets[] = 
 {
-	{ &IInternalConfigHost_t3302_0_0_0, 4},
+	{ &IInternalConfigHost_t3305_0_0_0, 4},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType InternalConfigurationHost_t3354_0_0_0;
-extern const Il2CppType InternalConfigurationHost_t3354_1_0_0;
-struct InternalConfigurationHost_t3354;
-const Il2CppTypeDefinitionMetadata InternalConfigurationHost_t3354_DefinitionMetadata = 
+extern const Il2CppType InternalConfigurationHost_t3357_0_0_0;
+extern const Il2CppType InternalConfigurationHost_t3357_1_0_0;
+struct InternalConfigurationHost_t3357;
+const Il2CppTypeDefinitionMetadata InternalConfigurationHost_t3357_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, InternalConfigurationHost_t3354_InterfacesTypeInfos/* implementedInterfaces */
-	, InternalConfigurationHost_t3354_InterfacesOffsets/* interfaceOffsets */
+	, InternalConfigurationHost_t3357_InterfacesTypeInfos/* implementedInterfaces */
+	, InternalConfigurationHost_t3357_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, InternalConfigurationHost_t3354_VTable/* vtableMethods */
-	, InternalConfigurationHost_t3354_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, InternalConfigurationHost_t3357_VTable/* vtableMethods */
+	, InternalConfigurationHost_t3357_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo InternalConfigurationHost_t3354_il2cpp_TypeInfo = 
+TypeInfo InternalConfigurationHost_t3357_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "InternalConfigurationHost"/* name */
 	, "System.Configuration"/* namespaze */
-	, InternalConfigurationHost_t3354_MethodInfos/* methods */
+	, InternalConfigurationHost_t3357_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &InternalConfigurationHost_t3354_il2cpp_TypeInfo/* element_class */
+	, &InternalConfigurationHost_t3357_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &InternalConfigurationHost_t3354_0_0_0/* byval_arg */
-	, &InternalConfigurationHost_t3354_1_0_0/* this_arg */
-	, &InternalConfigurationHost_t3354_DefinitionMetadata/* definitionMetadata */
+	, &InternalConfigurationHost_t3357_0_0_0/* byval_arg */
+	, &InternalConfigurationHost_t3357_1_0_0/* this_arg */
+	, &InternalConfigurationHost_t3357_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -16086,8 +16086,8 @@ TypeInfo InternalConfigurationHost_t3354_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (InternalConfigurationHost_t3354)/* instance_size */
-	, sizeof (InternalConfigurationHost_t3354)/* actualSize */
+	, sizeof (InternalConfigurationHost_t3357)/* instance_size */
+	, sizeof (InternalConfigurationHost_t3357)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -16119,7 +16119,7 @@ TypeInfo InternalConfigurationHost_t3354_il2cpp_TypeInfo =
 // System.Configuration.ExeConfigurationHost
 #include "System_Configuration_System_Configuration_ExeConfigurationHo.h"
 // Metadata Definition System.Configuration.ExeConfigurationHost
-extern TypeInfo ExeConfigurationHost_t3355_il2cpp_TypeInfo;
+extern TypeInfo ExeConfigurationHost_t3358_il2cpp_TypeInfo;
 // System.Configuration.ExeConfigurationHost
 #include "System_Configuration_System_Configuration_ExeConfigurationHoMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -16128,7 +16128,7 @@ extern const MethodInfo ExeConfigurationHost__ctor_m11963_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ExeConfigurationHost__ctor_m11963/* method */
-	, &ExeConfigurationHost_t3355_il2cpp_TypeInfo/* declaring_type */
+	, &ExeConfigurationHost_t3358_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -16145,12 +16145,12 @@ extern const MethodInfo ExeConfigurationHost__ctor_m11963_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IInternalConfigRoot_t3352_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
-static const ParameterInfo ExeConfigurationHost_t3355_ExeConfigurationHost_Init_m11964_ParameterInfos[] = 
+extern const Il2CppType IInternalConfigRoot_t3355_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
+static const ParameterInfo ExeConfigurationHost_t3358_ExeConfigurationHost_Init_m11964_ParameterInfos[] = 
 {
-	{"root", 0, 134218001, 0, &IInternalConfigRoot_t3352_0_0_0},
-	{"hostInitParams", 1, 134218002, 50, &ObjectU5BU5D_t697_0_0_0},
+	{"root", 0, 134218001, 0, &IInternalConfigRoot_t3355_0_0_0},
+	{"hostInitParams", 1, 134218002, 50, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ExeConfigurationHost::Init(System.Configuration.Internal.IInternalConfigRoot,System.Object[])
@@ -16158,10 +16158,10 @@ extern const MethodInfo ExeConfigurationHost_Init_m11964_MethodInfo =
 {
 	"Init"/* name */
 	, (methodPointerType)&ExeConfigurationHost_Init_m11964/* method */
-	, &ExeConfigurationHost_t3355_il2cpp_TypeInfo/* declaring_type */
+	, &ExeConfigurationHost_t3358_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ExeConfigurationHost_t3355_ExeConfigurationHost_Init_m11964_ParameterInfos/* parameters */
+	, ExeConfigurationHost_t3358_ExeConfigurationHost_Init_m11964_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -16176,7 +16176,7 @@ extern const MethodInfo ExeConfigurationHost_Init_m11964_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ExeConfigurationHost_t3355_ExeConfigurationHost_GetStreamName_m11965_ParameterInfos[] = 
+static const ParameterInfo ExeConfigurationHost_t3358_ExeConfigurationHost_GetStreamName_m11965_ParameterInfos[] = 
 {
 	{"configPath", 0, 134218003, 0, &String_t_0_0_0},
 };
@@ -16186,10 +16186,10 @@ extern const MethodInfo ExeConfigurationHost_GetStreamName_m11965_MethodInfo =
 {
 	"GetStreamName"/* name */
 	, (methodPointerType)&ExeConfigurationHost_GetStreamName_m11965/* method */
-	, &ExeConfigurationHost_t3355_il2cpp_TypeInfo/* declaring_type */
+	, &ExeConfigurationHost_t3358_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ExeConfigurationHost_t3355_ExeConfigurationHost_GetStreamName_m11965_ParameterInfos/* parameters */
+	, ExeConfigurationHost_t3358_ExeConfigurationHost_GetStreamName_m11965_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -16206,26 +16206,26 @@ extern const MethodInfo ExeConfigurationHost_GetStreamName_m11965_MethodInfo =
 extern const Il2CppType String_t_1_0_0;
 extern const Il2CppType String_t_1_0_2;
 extern const Il2CppType String_t_1_0_2;
-extern const Il2CppType IInternalConfigRoot_t3352_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
-static const ParameterInfo ExeConfigurationHost_t3355_ExeConfigurationHost_InitForConfiguration_m11966_ParameterInfos[] = 
+extern const Il2CppType IInternalConfigRoot_t3355_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
+static const ParameterInfo ExeConfigurationHost_t3358_ExeConfigurationHost_InitForConfiguration_m11966_ParameterInfos[] = 
 {
 	{"locationSubPath", 0, 134218004, 0, &String_t_1_0_0},
 	{"configPath", 1, 134218005, 0, &String_t_1_0_2},
 	{"locationConfigPath", 2, 134218006, 0, &String_t_1_0_2},
-	{"root", 3, 134218007, 0, &IInternalConfigRoot_t3352_0_0_0},
-	{"hostInitConfigurationParams", 4, 134218008, 51, &ObjectU5BU5D_t697_0_0_0},
+	{"root", 3, 134218007, 0, &IInternalConfigRoot_t3355_0_0_0},
+	{"hostInitConfigurationParams", 4, 134218008, 51, &ObjectU5BU5D_t700_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_StringU26_t828_StringU26_t828_StringU26_t828_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_StringU26_t831_StringU26_t831_StringU26_t831_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ExeConfigurationHost::InitForConfiguration(System.String&,System.String&,System.String&,System.Configuration.Internal.IInternalConfigRoot,System.Object[])
 extern const MethodInfo ExeConfigurationHost_InitForConfiguration_m11966_MethodInfo = 
 {
 	"InitForConfiguration"/* name */
 	, (methodPointerType)&ExeConfigurationHost_InitForConfiguration_m11966/* method */
-	, &ExeConfigurationHost_t3355_il2cpp_TypeInfo/* declaring_type */
+	, &ExeConfigurationHost_t3358_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_StringU26_t828_StringU26_t828_StringU26_t828_Object_t_Object_t/* invoker_method */
-	, ExeConfigurationHost_t3355_ExeConfigurationHost_InitForConfiguration_m11966_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_StringU26_t831_StringU26_t831_StringU26_t831_Object_t_Object_t/* invoker_method */
+	, ExeConfigurationHost_t3358_ExeConfigurationHost_InitForConfiguration_m11966_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -16239,7 +16239,7 @@ extern const MethodInfo ExeConfigurationHost_InitForConfiguration_m11966_MethodI
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ExeConfigurationHost_t3355_MethodInfos[] =
+static const MethodInfo* ExeConfigurationHost_t3358_MethodInfos[] =
 {
 	&ExeConfigurationHost__ctor_m11963_MethodInfo,
 	&ExeConfigurationHost_Init_m11964_MethodInfo,
@@ -16250,7 +16250,7 @@ static const MethodInfo* ExeConfigurationHost_t3355_MethodInfos[] =
 extern const MethodInfo ExeConfigurationHost_GetStreamName_m11965_MethodInfo;
 extern const MethodInfo ExeConfigurationHost_InitForConfiguration_m11966_MethodInfo;
 extern const MethodInfo ExeConfigurationHost_Init_m11964_MethodInfo;
-static const Il2CppMethodReference ExeConfigurationHost_t3355_VTable[] =
+static const Il2CppMethodReference ExeConfigurationHost_t3358_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -16272,7 +16272,7 @@ static const Il2CppMethodReference ExeConfigurationHost_t3355_VTable[] =
 	&InternalConfigurationHost_IsDefinitionAllowed_m11960_MethodInfo,
 	&InternalConfigurationHost_OpenStreamForRead_m11962_MethodInfo,
 };
-static bool ExeConfigurationHost_t3355_VTableIsGenericMethod[] =
+static bool ExeConfigurationHost_t3358_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -16294,42 +16294,42 @@ static bool ExeConfigurationHost_t3355_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair ExeConfigurationHost_t3355_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ExeConfigurationHost_t3358_InterfacesOffsets[] = 
 {
-	{ &IInternalConfigHost_t3302_0_0_0, 4},
+	{ &IInternalConfigHost_t3305_0_0_0, 4},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ExeConfigurationHost_t3355_0_0_0;
-extern const Il2CppType ExeConfigurationHost_t3355_1_0_0;
-struct ExeConfigurationHost_t3355;
-const Il2CppTypeDefinitionMetadata ExeConfigurationHost_t3355_DefinitionMetadata = 
+extern const Il2CppType ExeConfigurationHost_t3358_0_0_0;
+extern const Il2CppType ExeConfigurationHost_t3358_1_0_0;
+struct ExeConfigurationHost_t3358;
+const Il2CppTypeDefinitionMetadata ExeConfigurationHost_t3358_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ExeConfigurationHost_t3355_InterfacesOffsets/* interfaceOffsets */
-	, &InternalConfigurationHost_t3354_0_0_0/* parent */
-	, ExeConfigurationHost_t3355_VTable/* vtableMethods */
-	, ExeConfigurationHost_t3355_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ExeConfigurationHost_t3358_InterfacesOffsets/* interfaceOffsets */
+	, &InternalConfigurationHost_t3357_0_0_0/* parent */
+	, ExeConfigurationHost_t3358_VTable/* vtableMethods */
+	, ExeConfigurationHost_t3358_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 157/* fieldStart */
 
 };
-TypeInfo ExeConfigurationHost_t3355_il2cpp_TypeInfo = 
+TypeInfo ExeConfigurationHost_t3358_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ExeConfigurationHost"/* name */
 	, "System.Configuration"/* namespaze */
-	, ExeConfigurationHost_t3355_MethodInfos/* methods */
+	, ExeConfigurationHost_t3358_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ExeConfigurationHost_t3355_il2cpp_TypeInfo/* element_class */
+	, &ExeConfigurationHost_t3358_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ExeConfigurationHost_t3355_0_0_0/* byval_arg */
-	, &ExeConfigurationHost_t3355_1_0_0/* this_arg */
-	, &ExeConfigurationHost_t3355_DefinitionMetadata/* definitionMetadata */
+	, &ExeConfigurationHost_t3358_0_0_0/* byval_arg */
+	, &ExeConfigurationHost_t3358_1_0_0/* this_arg */
+	, &ExeConfigurationHost_t3358_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -16339,11 +16339,11 @@ TypeInfo ExeConfigurationHost_t3355_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ExeConfigurationHost_t3355)/* instance_size */
-	, sizeof (ExeConfigurationHost_t3355)/* actualSize */
+	, sizeof (ExeConfigurationHost_t3358)/* instance_size */
+	, sizeof (ExeConfigurationHost_t3358)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(ExeConfigurationHost_t3355_StaticFields)/* static_fields_size */
+	, sizeof(ExeConfigurationHost_t3358_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048576/* flags */
@@ -16372,7 +16372,7 @@ TypeInfo ExeConfigurationHost_t3355_il2cpp_TypeInfo =
 // System.Configuration.InternalConfigurationRoot
 #include "System_Configuration_System_Configuration_InternalConfigurat_2.h"
 // Metadata Definition System.Configuration.InternalConfigurationRoot
-extern TypeInfo InternalConfigurationRoot_t3356_il2cpp_TypeInfo;
+extern TypeInfo InternalConfigurationRoot_t3359_il2cpp_TypeInfo;
 // System.Configuration.InternalConfigurationRoot
 #include "System_Configuration_System_Configuration_InternalConfigurat_2MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -16381,7 +16381,7 @@ extern const MethodInfo InternalConfigurationRoot__ctor_m11967_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&InternalConfigurationRoot__ctor_m11967/* method */
-	, &InternalConfigurationRoot_t3356_il2cpp_TypeInfo/* declaring_type */
+	, &InternalConfigurationRoot_t3359_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -16398,11 +16398,11 @@ extern const MethodInfo InternalConfigurationRoot__ctor_m11967_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType IInternalConfigHost_t3302_0_0_0;
+extern const Il2CppType IInternalConfigHost_t3305_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo InternalConfigurationRoot_t3356_InternalConfigurationRoot_Init_m11968_ParameterInfos[] = 
+static const ParameterInfo InternalConfigurationRoot_t3359_InternalConfigurationRoot_Init_m11968_ParameterInfos[] = 
 {
-	{"host", 0, 134218009, 0, &IInternalConfigHost_t3302_0_0_0},
+	{"host", 0, 134218009, 0, &IInternalConfigHost_t3305_0_0_0},
 	{"isDesignTime", 1, 134218010, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -16411,10 +16411,10 @@ extern const MethodInfo InternalConfigurationRoot_Init_m11968_MethodInfo =
 {
 	"Init"/* name */
 	, (methodPointerType)&InternalConfigurationRoot_Init_m11968/* method */
-	, &InternalConfigurationRoot_t3356_il2cpp_TypeInfo/* declaring_type */
+	, &InternalConfigurationRoot_t3359_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_SByte_t88/* invoker_method */
-	, InternalConfigurationRoot_t3356_InternalConfigurationRoot_Init_m11968_ParameterInfos/* parameters */
+	, InternalConfigurationRoot_t3359_InternalConfigurationRoot_Init_m11968_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -16428,14 +16428,14 @@ extern const MethodInfo InternalConfigurationRoot_Init_m11968_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* InternalConfigurationRoot_t3356_MethodInfos[] =
+static const MethodInfo* InternalConfigurationRoot_t3359_MethodInfos[] =
 {
 	&InternalConfigurationRoot__ctor_m11967_MethodInfo,
 	&InternalConfigurationRoot_Init_m11968_MethodInfo,
 	NULL
 };
 extern const MethodInfo InternalConfigurationRoot_Init_m11968_MethodInfo;
-static const Il2CppMethodReference InternalConfigurationRoot_t3356_VTable[] =
+static const Il2CppMethodReference InternalConfigurationRoot_t3359_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -16443,7 +16443,7 @@ static const Il2CppMethodReference InternalConfigurationRoot_t3356_VTable[] =
 	&Object_ToString_m492_MethodInfo,
 	&InternalConfigurationRoot_Init_m11968_MethodInfo,
 };
-static bool InternalConfigurationRoot_t3356_VTableIsGenericMethod[] =
+static bool InternalConfigurationRoot_t3359_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -16451,46 +16451,46 @@ static bool InternalConfigurationRoot_t3356_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* InternalConfigurationRoot_t3356_InterfacesTypeInfos[] = 
+static const Il2CppType* InternalConfigurationRoot_t3359_InterfacesTypeInfos[] = 
 {
-	&IInternalConfigRoot_t3352_0_0_0,
+	&IInternalConfigRoot_t3355_0_0_0,
 };
-static Il2CppInterfaceOffsetPair InternalConfigurationRoot_t3356_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair InternalConfigurationRoot_t3359_InterfacesOffsets[] = 
 {
-	{ &IInternalConfigRoot_t3352_0_0_0, 4},
+	{ &IInternalConfigRoot_t3355_0_0_0, 4},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType InternalConfigurationRoot_t3356_0_0_0;
-extern const Il2CppType InternalConfigurationRoot_t3356_1_0_0;
-struct InternalConfigurationRoot_t3356;
-const Il2CppTypeDefinitionMetadata InternalConfigurationRoot_t3356_DefinitionMetadata = 
+extern const Il2CppType InternalConfigurationRoot_t3359_0_0_0;
+extern const Il2CppType InternalConfigurationRoot_t3359_1_0_0;
+struct InternalConfigurationRoot_t3359;
+const Il2CppTypeDefinitionMetadata InternalConfigurationRoot_t3359_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, InternalConfigurationRoot_t3356_InterfacesTypeInfos/* implementedInterfaces */
-	, InternalConfigurationRoot_t3356_InterfacesOffsets/* interfaceOffsets */
+	, InternalConfigurationRoot_t3359_InterfacesTypeInfos/* implementedInterfaces */
+	, InternalConfigurationRoot_t3359_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, InternalConfigurationRoot_t3356_VTable/* vtableMethods */
-	, InternalConfigurationRoot_t3356_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, InternalConfigurationRoot_t3359_VTable/* vtableMethods */
+	, InternalConfigurationRoot_t3359_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 160/* fieldStart */
 
 };
-TypeInfo InternalConfigurationRoot_t3356_il2cpp_TypeInfo = 
+TypeInfo InternalConfigurationRoot_t3359_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "InternalConfigurationRoot"/* name */
 	, "System.Configuration"/* namespaze */
-	, InternalConfigurationRoot_t3356_MethodInfos/* methods */
+	, InternalConfigurationRoot_t3359_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &InternalConfigurationRoot_t3356_il2cpp_TypeInfo/* element_class */
+	, &InternalConfigurationRoot_t3359_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &InternalConfigurationRoot_t3356_0_0_0/* byval_arg */
-	, &InternalConfigurationRoot_t3356_1_0_0/* this_arg */
-	, &InternalConfigurationRoot_t3356_DefinitionMetadata/* definitionMetadata */
+	, &InternalConfigurationRoot_t3359_0_0_0/* byval_arg */
+	, &InternalConfigurationRoot_t3359_1_0_0/* this_arg */
+	, &InternalConfigurationRoot_t3359_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -16500,8 +16500,8 @@ TypeInfo InternalConfigurationRoot_t3356_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (InternalConfigurationRoot_t3356)/* instance_size */
-	, sizeof (InternalConfigurationRoot_t3356)/* actualSize */
+	, sizeof (InternalConfigurationRoot_t3359)/* instance_size */
+	, sizeof (InternalConfigurationRoot_t3359)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -16533,15 +16533,15 @@ TypeInfo InternalConfigurationRoot_t3356_il2cpp_TypeInfo =
 // System.Configuration.PropertyInformation
 #include "System_Configuration_System_Configuration_PropertyInformatio.h"
 // Metadata Definition System.Configuration.PropertyInformation
-extern TypeInfo PropertyInformation_t3348_il2cpp_TypeInfo;
+extern TypeInfo PropertyInformation_t3351_il2cpp_TypeInfo;
 // System.Configuration.PropertyInformation
 #include "System_Configuration_System_Configuration_PropertyInformatioMethodDeclarations.h"
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-extern const Il2CppType ConfigurationProperty_t3330_0_0_0;
-static const ParameterInfo PropertyInformation_t3348_PropertyInformation__ctor_m11969_ParameterInfos[] = 
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+extern const Il2CppType ConfigurationProperty_t3333_0_0_0;
+static const ParameterInfo PropertyInformation_t3351_PropertyInformation__ctor_m11969_ParameterInfos[] = 
 {
-	{"owner", 0, 134218011, 0, &ConfigurationElement_t3315_0_0_0},
-	{"property", 1, 134218012, 0, &ConfigurationProperty_t3330_0_0_0},
+	{"owner", 0, 134218011, 0, &ConfigurationElement_t3318_0_0_0},
+	{"property", 1, 134218012, 0, &ConfigurationProperty_t3333_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.PropertyInformation::.ctor(System.Configuration.ConfigurationElement,System.Configuration.ConfigurationProperty)
@@ -16549,10 +16549,10 @@ extern const MethodInfo PropertyInformation__ctor_m11969_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&PropertyInformation__ctor_m11969/* method */
-	, &PropertyInformation_t3348_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformation_t3351_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, PropertyInformation_t3348_PropertyInformation__ctor_m11969_ParameterInfos/* parameters */
+	, PropertyInformation_t3351_PropertyInformation__ctor_m11969_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6275/* flags */
 	, 0/* iflags */
@@ -16572,7 +16572,7 @@ extern const MethodInfo PropertyInformation_get_DefaultValue_m11970_MethodInfo =
 {
 	"get_DefaultValue"/* name */
 	, (methodPointerType)&PropertyInformation_get_DefaultValue_m11970/* method */
-	, &PropertyInformation_t3348_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformation_t3351_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -16595,7 +16595,7 @@ extern const MethodInfo PropertyInformation_get_IsKey_m11971_MethodInfo =
 {
 	"get_IsKey"/* name */
 	, (methodPointerType)&PropertyInformation_get_IsKey_m11971/* method */
-	, &PropertyInformation_t3348_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformation_t3351_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -16618,7 +16618,7 @@ extern const MethodInfo PropertyInformation_get_IsModified_m11972_MethodInfo =
 {
 	"get_IsModified"/* name */
 	, (methodPointerType)&PropertyInformation_get_IsModified_m11972/* method */
-	, &PropertyInformation_t3348_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformation_t3351_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -16636,7 +16636,7 @@ extern const MethodInfo PropertyInformation_get_IsModified_m11972_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo PropertyInformation_t3348_PropertyInformation_set_IsModified_m11973_ParameterInfos[] = 
+static const ParameterInfo PropertyInformation_t3351_PropertyInformation_set_IsModified_m11973_ParameterInfos[] = 
 {
 	{"value", 0, 134218013, 0, &Boolean_t59_0_0_0},
 };
@@ -16646,10 +16646,10 @@ extern const MethodInfo PropertyInformation_set_IsModified_m11973_MethodInfo =
 {
 	"set_IsModified"/* name */
 	, (methodPointerType)&PropertyInformation_set_IsModified_m11973/* method */
-	, &PropertyInformation_t3348_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformation_t3351_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, PropertyInformation_t3348_PropertyInformation_set_IsModified_m11973_ParameterInfos/* parameters */
+	, PropertyInformation_t3351_PropertyInformation_set_IsModified_m11973_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -16669,7 +16669,7 @@ extern const MethodInfo PropertyInformation_get_IsRequired_m11974_MethodInfo =
 {
 	"get_IsRequired"/* name */
 	, (methodPointerType)&PropertyInformation_get_IsRequired_m11974/* method */
-	, &PropertyInformation_t3348_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformation_t3351_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -16692,7 +16692,7 @@ extern const MethodInfo PropertyInformation_get_Name_m11975_MethodInfo =
 {
 	"get_Name"/* name */
 	, (methodPointerType)&PropertyInformation_get_Name_m11975/* method */
-	, &PropertyInformation_t3348_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformation_t3351_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -16715,7 +16715,7 @@ extern const MethodInfo PropertyInformation_get_Type_m11976_MethodInfo =
 {
 	"get_Type"/* name */
 	, (methodPointerType)&PropertyInformation_get_Type_m11976/* method */
-	, &PropertyInformation_t3348_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformation_t3351_il2cpp_TypeInfo/* declaring_type */
 	, &Type_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -16738,7 +16738,7 @@ extern const MethodInfo PropertyInformation_get_Value_m11977_MethodInfo =
 {
 	"get_Value"/* name */
 	, (methodPointerType)&PropertyInformation_get_Value_m11977/* method */
-	, &PropertyInformation_t3348_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformation_t3351_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -16756,7 +16756,7 @@ extern const MethodInfo PropertyInformation_get_Value_m11977_MethodInfo =
 
 };
 extern const Il2CppType Object_t_0_0_0;
-static const ParameterInfo PropertyInformation_t3348_PropertyInformation_set_Value_m11978_ParameterInfos[] = 
+static const ParameterInfo PropertyInformation_t3351_PropertyInformation_set_Value_m11978_ParameterInfos[] = 
 {
 	{"value", 0, 134218014, 0, &Object_t_0_0_0},
 };
@@ -16766,10 +16766,10 @@ extern const MethodInfo PropertyInformation_set_Value_m11978_MethodInfo =
 {
 	"set_Value"/* name */
 	, (methodPointerType)&PropertyInformation_set_Value_m11978/* method */
-	, &PropertyInformation_t3348_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformation_t3351_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, PropertyInformation_t3348_PropertyInformation_set_Value_m11978_ParameterInfos/* parameters */
+	, PropertyInformation_t3351_PropertyInformation_set_Value_m11978_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -16783,10 +16783,10 @@ extern const MethodInfo PropertyInformation_set_Value_m11978_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType PropertyInformation_t3348_0_0_0;
-static const ParameterInfo PropertyInformation_t3348_PropertyInformation_Reset_m11979_ParameterInfos[] = 
+extern const Il2CppType PropertyInformation_t3351_0_0_0;
+static const ParameterInfo PropertyInformation_t3351_PropertyInformation_Reset_m11979_ParameterInfos[] = 
 {
-	{"parentProperty", 0, 134218015, 0, &PropertyInformation_t3348_0_0_0},
+	{"parentProperty", 0, 134218015, 0, &PropertyInformation_t3351_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.PropertyInformation::Reset(System.Configuration.PropertyInformation)
@@ -16794,10 +16794,10 @@ extern const MethodInfo PropertyInformation_Reset_m11979_MethodInfo =
 {
 	"Reset"/* name */
 	, (methodPointerType)&PropertyInformation_Reset_m11979/* method */
-	, &PropertyInformation_t3348_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformation_t3351_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, PropertyInformation_t3348_PropertyInformation_Reset_m11979_ParameterInfos/* parameters */
+	, PropertyInformation_t3351_PropertyInformation_Reset_m11979_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -16817,7 +16817,7 @@ extern const MethodInfo PropertyInformation_get_IsElement_m11980_MethodInfo =
 {
 	"get_IsElement"/* name */
 	, (methodPointerType)&PropertyInformation_get_IsElement_m11980/* method */
-	, &PropertyInformation_t3348_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformation_t3351_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -16834,16 +16834,16 @@ extern const MethodInfo PropertyInformation_get_IsElement_m11980_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType PropertyValueOrigin_t3358_0_0_0;
-extern void* RuntimeInvoker_PropertyValueOrigin_t3358 (const MethodInfo* method, void* obj, void** args);
+extern const Il2CppType PropertyValueOrigin_t3361_0_0_0;
+extern void* RuntimeInvoker_PropertyValueOrigin_t3361 (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.PropertyValueOrigin System.Configuration.PropertyInformation::get_ValueOrigin()
 extern const MethodInfo PropertyInformation_get_ValueOrigin_m11981_MethodInfo = 
 {
 	"get_ValueOrigin"/* name */
 	, (methodPointerType)&PropertyInformation_get_ValueOrigin_m11981/* method */
-	, &PropertyInformation_t3348_il2cpp_TypeInfo/* declaring_type */
-	, &PropertyValueOrigin_t3358_0_0_0/* return_type */
-	, RuntimeInvoker_PropertyValueOrigin_t3358/* invoker_method */
+	, &PropertyInformation_t3351_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyValueOrigin_t3361_0_0_0/* return_type */
+	, RuntimeInvoker_PropertyValueOrigin_t3361/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
@@ -16864,7 +16864,7 @@ extern const MethodInfo PropertyInformation_GetStringValue_m11982_MethodInfo =
 {
 	"GetStringValue"/* name */
 	, (methodPointerType)&PropertyInformation_GetStringValue_m11982/* method */
-	, &PropertyInformation_t3348_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformation_t3351_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -16882,7 +16882,7 @@ extern const MethodInfo PropertyInformation_GetStringValue_m11982_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo PropertyInformation_t3348_PropertyInformation_SetStringValue_m11983_ParameterInfos[] = 
+static const ParameterInfo PropertyInformation_t3351_PropertyInformation_SetStringValue_m11983_ParameterInfos[] = 
 {
 	{"value", 0, 134218016, 0, &String_t_0_0_0},
 };
@@ -16892,10 +16892,10 @@ extern const MethodInfo PropertyInformation_SetStringValue_m11983_MethodInfo =
 {
 	"SetStringValue"/* name */
 	, (methodPointerType)&PropertyInformation_SetStringValue_m11983/* method */
-	, &PropertyInformation_t3348_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformation_t3351_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, PropertyInformation_t3348_PropertyInformation_SetStringValue_m11983_ParameterInfos/* parameters */
+	, PropertyInformation_t3351_PropertyInformation_SetStringValue_m11983_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -16915,8 +16915,8 @@ extern const MethodInfo PropertyInformation_get_Property_m11984_MethodInfo =
 {
 	"get_Property"/* name */
 	, (methodPointerType)&PropertyInformation_get_Property_m11984/* method */
-	, &PropertyInformation_t3348_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationProperty_t3330_0_0_0/* return_type */
+	, &PropertyInformation_t3351_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationProperty_t3333_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -16932,7 +16932,7 @@ extern const MethodInfo PropertyInformation_get_Property_m11984_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* PropertyInformation_t3348_MethodInfos[] =
+static const MethodInfo* PropertyInformation_t3351_MethodInfos[] =
 {
 	&PropertyInformation__ctor_m11969_MethodInfo,
 	&PropertyInformation_get_DefaultValue_m11970_MethodInfo,
@@ -16953,9 +16953,9 @@ static const MethodInfo* PropertyInformation_t3348_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo PropertyInformation_get_DefaultValue_m11970_MethodInfo;
-static const PropertyInfo PropertyInformation_t3348____DefaultValue_PropertyInfo = 
+static const PropertyInfo PropertyInformation_t3351____DefaultValue_PropertyInfo = 
 {
-	&PropertyInformation_t3348_il2cpp_TypeInfo/* parent */
+	&PropertyInformation_t3351_il2cpp_TypeInfo/* parent */
 	, "DefaultValue"/* name */
 	, &PropertyInformation_get_DefaultValue_m11970_MethodInfo/* get */
 	, NULL/* set */
@@ -16964,9 +16964,9 @@ static const PropertyInfo PropertyInformation_t3348____DefaultValue_PropertyInfo
 
 };
 extern const MethodInfo PropertyInformation_get_IsKey_m11971_MethodInfo;
-static const PropertyInfo PropertyInformation_t3348____IsKey_PropertyInfo = 
+static const PropertyInfo PropertyInformation_t3351____IsKey_PropertyInfo = 
 {
-	&PropertyInformation_t3348_il2cpp_TypeInfo/* parent */
+	&PropertyInformation_t3351_il2cpp_TypeInfo/* parent */
 	, "IsKey"/* name */
 	, &PropertyInformation_get_IsKey_m11971_MethodInfo/* get */
 	, NULL/* set */
@@ -16976,9 +16976,9 @@ static const PropertyInfo PropertyInformation_t3348____IsKey_PropertyInfo =
 };
 extern const MethodInfo PropertyInformation_get_IsModified_m11972_MethodInfo;
 extern const MethodInfo PropertyInformation_set_IsModified_m11973_MethodInfo;
-static const PropertyInfo PropertyInformation_t3348____IsModified_PropertyInfo = 
+static const PropertyInfo PropertyInformation_t3351____IsModified_PropertyInfo = 
 {
-	&PropertyInformation_t3348_il2cpp_TypeInfo/* parent */
+	&PropertyInformation_t3351_il2cpp_TypeInfo/* parent */
 	, "IsModified"/* name */
 	, &PropertyInformation_get_IsModified_m11972_MethodInfo/* get */
 	, &PropertyInformation_set_IsModified_m11973_MethodInfo/* set */
@@ -16987,9 +16987,9 @@ static const PropertyInfo PropertyInformation_t3348____IsModified_PropertyInfo =
 
 };
 extern const MethodInfo PropertyInformation_get_IsRequired_m11974_MethodInfo;
-static const PropertyInfo PropertyInformation_t3348____IsRequired_PropertyInfo = 
+static const PropertyInfo PropertyInformation_t3351____IsRequired_PropertyInfo = 
 {
-	&PropertyInformation_t3348_il2cpp_TypeInfo/* parent */
+	&PropertyInformation_t3351_il2cpp_TypeInfo/* parent */
 	, "IsRequired"/* name */
 	, &PropertyInformation_get_IsRequired_m11974_MethodInfo/* get */
 	, NULL/* set */
@@ -16998,9 +16998,9 @@ static const PropertyInfo PropertyInformation_t3348____IsRequired_PropertyInfo =
 
 };
 extern const MethodInfo PropertyInformation_get_Name_m11975_MethodInfo;
-static const PropertyInfo PropertyInformation_t3348____Name_PropertyInfo = 
+static const PropertyInfo PropertyInformation_t3351____Name_PropertyInfo = 
 {
-	&PropertyInformation_t3348_il2cpp_TypeInfo/* parent */
+	&PropertyInformation_t3351_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
 	, &PropertyInformation_get_Name_m11975_MethodInfo/* get */
 	, NULL/* set */
@@ -17009,9 +17009,9 @@ static const PropertyInfo PropertyInformation_t3348____Name_PropertyInfo =
 
 };
 extern const MethodInfo PropertyInformation_get_Type_m11976_MethodInfo;
-static const PropertyInfo PropertyInformation_t3348____Type_PropertyInfo = 
+static const PropertyInfo PropertyInformation_t3351____Type_PropertyInfo = 
 {
-	&PropertyInformation_t3348_il2cpp_TypeInfo/* parent */
+	&PropertyInformation_t3351_il2cpp_TypeInfo/* parent */
 	, "Type"/* name */
 	, &PropertyInformation_get_Type_m11976_MethodInfo/* get */
 	, NULL/* set */
@@ -17021,9 +17021,9 @@ static const PropertyInfo PropertyInformation_t3348____Type_PropertyInfo =
 };
 extern const MethodInfo PropertyInformation_get_Value_m11977_MethodInfo;
 extern const MethodInfo PropertyInformation_set_Value_m11978_MethodInfo;
-static const PropertyInfo PropertyInformation_t3348____Value_PropertyInfo = 
+static const PropertyInfo PropertyInformation_t3351____Value_PropertyInfo = 
 {
-	&PropertyInformation_t3348_il2cpp_TypeInfo/* parent */
+	&PropertyInformation_t3351_il2cpp_TypeInfo/* parent */
 	, "Value"/* name */
 	, &PropertyInformation_get_Value_m11977_MethodInfo/* get */
 	, &PropertyInformation_set_Value_m11978_MethodInfo/* set */
@@ -17032,9 +17032,9 @@ static const PropertyInfo PropertyInformation_t3348____Value_PropertyInfo =
 
 };
 extern const MethodInfo PropertyInformation_get_IsElement_m11980_MethodInfo;
-static const PropertyInfo PropertyInformation_t3348____IsElement_PropertyInfo = 
+static const PropertyInfo PropertyInformation_t3351____IsElement_PropertyInfo = 
 {
-	&PropertyInformation_t3348_il2cpp_TypeInfo/* parent */
+	&PropertyInformation_t3351_il2cpp_TypeInfo/* parent */
 	, "IsElement"/* name */
 	, &PropertyInformation_get_IsElement_m11980_MethodInfo/* get */
 	, NULL/* set */
@@ -17043,9 +17043,9 @@ static const PropertyInfo PropertyInformation_t3348____IsElement_PropertyInfo =
 
 };
 extern const MethodInfo PropertyInformation_get_ValueOrigin_m11981_MethodInfo;
-static const PropertyInfo PropertyInformation_t3348____ValueOrigin_PropertyInfo = 
+static const PropertyInfo PropertyInformation_t3351____ValueOrigin_PropertyInfo = 
 {
-	&PropertyInformation_t3348_il2cpp_TypeInfo/* parent */
+	&PropertyInformation_t3351_il2cpp_TypeInfo/* parent */
 	, "ValueOrigin"/* name */
 	, &PropertyInformation_get_ValueOrigin_m11981_MethodInfo/* get */
 	, NULL/* set */
@@ -17054,9 +17054,9 @@ static const PropertyInfo PropertyInformation_t3348____ValueOrigin_PropertyInfo 
 
 };
 extern const MethodInfo PropertyInformation_get_Property_m11984_MethodInfo;
-static const PropertyInfo PropertyInformation_t3348____Property_PropertyInfo = 
+static const PropertyInfo PropertyInformation_t3351____Property_PropertyInfo = 
 {
-	&PropertyInformation_t3348_il2cpp_TypeInfo/* parent */
+	&PropertyInformation_t3351_il2cpp_TypeInfo/* parent */
 	, "Property"/* name */
 	, &PropertyInformation_get_Property_m11984_MethodInfo/* get */
 	, NULL/* set */
@@ -17064,28 +17064,28 @@ static const PropertyInfo PropertyInformation_t3348____Property_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* PropertyInformation_t3348_PropertyInfos[] =
+static const PropertyInfo* PropertyInformation_t3351_PropertyInfos[] =
 {
-	&PropertyInformation_t3348____DefaultValue_PropertyInfo,
-	&PropertyInformation_t3348____IsKey_PropertyInfo,
-	&PropertyInformation_t3348____IsModified_PropertyInfo,
-	&PropertyInformation_t3348____IsRequired_PropertyInfo,
-	&PropertyInformation_t3348____Name_PropertyInfo,
-	&PropertyInformation_t3348____Type_PropertyInfo,
-	&PropertyInformation_t3348____Value_PropertyInfo,
-	&PropertyInformation_t3348____IsElement_PropertyInfo,
-	&PropertyInformation_t3348____ValueOrigin_PropertyInfo,
-	&PropertyInformation_t3348____Property_PropertyInfo,
+	&PropertyInformation_t3351____DefaultValue_PropertyInfo,
+	&PropertyInformation_t3351____IsKey_PropertyInfo,
+	&PropertyInformation_t3351____IsModified_PropertyInfo,
+	&PropertyInformation_t3351____IsRequired_PropertyInfo,
+	&PropertyInformation_t3351____Name_PropertyInfo,
+	&PropertyInformation_t3351____Type_PropertyInfo,
+	&PropertyInformation_t3351____Value_PropertyInfo,
+	&PropertyInformation_t3351____IsElement_PropertyInfo,
+	&PropertyInformation_t3351____ValueOrigin_PropertyInfo,
+	&PropertyInformation_t3351____Property_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference PropertyInformation_t3348_VTable[] =
+static const Il2CppMethodReference PropertyInformation_t3351_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool PropertyInformation_t3348_VTableIsGenericMethod[] =
+static bool PropertyInformation_t3351_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -17093,36 +17093,36 @@ static bool PropertyInformation_t3348_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType PropertyInformation_t3348_1_0_0;
-struct PropertyInformation_t3348;
-const Il2CppTypeDefinitionMetadata PropertyInformation_t3348_DefinitionMetadata = 
+extern const Il2CppType PropertyInformation_t3351_1_0_0;
+struct PropertyInformation_t3351;
+const Il2CppTypeDefinitionMetadata PropertyInformation_t3351_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, PropertyInformation_t3348_VTable/* vtableMethods */
-	, PropertyInformation_t3348_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, PropertyInformation_t3351_VTable/* vtableMethods */
+	, PropertyInformation_t3351_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 162/* fieldStart */
 
 };
-TypeInfo PropertyInformation_t3348_il2cpp_TypeInfo = 
+TypeInfo PropertyInformation_t3351_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "PropertyInformation"/* name */
 	, "System.Configuration"/* namespaze */
-	, PropertyInformation_t3348_MethodInfos/* methods */
-	, PropertyInformation_t3348_PropertyInfos/* properties */
+	, PropertyInformation_t3351_MethodInfos/* methods */
+	, PropertyInformation_t3351_PropertyInfos/* properties */
 	, NULL/* events */
-	, &PropertyInformation_t3348_il2cpp_TypeInfo/* element_class */
+	, &PropertyInformation_t3351_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &PropertyInformation_t3348_0_0_0/* byval_arg */
-	, &PropertyInformation_t3348_1_0_0/* this_arg */
-	, &PropertyInformation_t3348_DefinitionMetadata/* definitionMetadata */
+	, &PropertyInformation_t3351_0_0_0/* byval_arg */
+	, &PropertyInformation_t3351_1_0_0/* this_arg */
+	, &PropertyInformation_t3351_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -17132,8 +17132,8 @@ TypeInfo PropertyInformation_t3348_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (PropertyInformation_t3348)/* instance_size */
-	, sizeof (PropertyInformation_t3348)/* actualSize */
+	, sizeof (PropertyInformation_t3351)/* instance_size */
+	, sizeof (PropertyInformation_t3351)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -17165,13 +17165,13 @@ TypeInfo PropertyInformation_t3348_il2cpp_TypeInfo =
 // System.Configuration.PropertyInformationCollection/PropertyInformationEnumerator
 #include "System_Configuration_System_Configuration_PropertyInformatio_0.h"
 // Metadata Definition System.Configuration.PropertyInformationCollection/PropertyInformationEnumerator
-extern TypeInfo PropertyInformationEnumerator_t3357_il2cpp_TypeInfo;
+extern TypeInfo PropertyInformationEnumerator_t3360_il2cpp_TypeInfo;
 // System.Configuration.PropertyInformationCollection/PropertyInformationEnumerator
 #include "System_Configuration_System_Configuration_PropertyInformatio_0MethodDeclarations.h"
-extern const Il2CppType PropertyInformationCollection_t3349_0_0_0;
-static const ParameterInfo PropertyInformationEnumerator_t3357_PropertyInformationEnumerator__ctor_m11985_ParameterInfos[] = 
+extern const Il2CppType PropertyInformationCollection_t3352_0_0_0;
+static const ParameterInfo PropertyInformationEnumerator_t3360_PropertyInformationEnumerator__ctor_m11985_ParameterInfos[] = 
 {
-	{"collection", 0, 134218021, 0, &PropertyInformationCollection_t3349_0_0_0},
+	{"collection", 0, 134218021, 0, &PropertyInformationCollection_t3352_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.PropertyInformationCollection/PropertyInformationEnumerator::.ctor(System.Configuration.PropertyInformationCollection)
@@ -17179,10 +17179,10 @@ extern const MethodInfo PropertyInformationEnumerator__ctor_m11985_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&PropertyInformationEnumerator__ctor_m11985/* method */
-	, &PropertyInformationEnumerator_t3357_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformationEnumerator_t3360_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, PropertyInformationEnumerator_t3357_PropertyInformationEnumerator__ctor_m11985_ParameterInfos/* parameters */
+	, PropertyInformationEnumerator_t3360_PropertyInformationEnumerator__ctor_m11985_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -17202,7 +17202,7 @@ extern const MethodInfo PropertyInformationEnumerator_get_Current_m11986_MethodI
 {
 	"get_Current"/* name */
 	, (methodPointerType)&PropertyInformationEnumerator_get_Current_m11986/* method */
-	, &PropertyInformationEnumerator_t3357_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformationEnumerator_t3360_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -17225,7 +17225,7 @@ extern const MethodInfo PropertyInformationEnumerator_MoveNext_m11987_MethodInfo
 {
 	"MoveNext"/* name */
 	, (methodPointerType)&PropertyInformationEnumerator_MoveNext_m11987/* method */
-	, &PropertyInformationEnumerator_t3357_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformationEnumerator_t3360_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -17248,7 +17248,7 @@ extern const MethodInfo PropertyInformationEnumerator_Reset_m11988_MethodInfo =
 {
 	"Reset"/* name */
 	, (methodPointerType)&PropertyInformationEnumerator_Reset_m11988/* method */
-	, &PropertyInformationEnumerator_t3357_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformationEnumerator_t3360_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -17265,7 +17265,7 @@ extern const MethodInfo PropertyInformationEnumerator_Reset_m11988_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* PropertyInformationEnumerator_t3357_MethodInfos[] =
+static const MethodInfo* PropertyInformationEnumerator_t3360_MethodInfos[] =
 {
 	&PropertyInformationEnumerator__ctor_m11985_MethodInfo,
 	&PropertyInformationEnumerator_get_Current_m11986_MethodInfo,
@@ -17274,9 +17274,9 @@ static const MethodInfo* PropertyInformationEnumerator_t3357_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo PropertyInformationEnumerator_get_Current_m11986_MethodInfo;
-static const PropertyInfo PropertyInformationEnumerator_t3357____Current_PropertyInfo = 
+static const PropertyInfo PropertyInformationEnumerator_t3360____Current_PropertyInfo = 
 {
-	&PropertyInformationEnumerator_t3357_il2cpp_TypeInfo/* parent */
+	&PropertyInformationEnumerator_t3360_il2cpp_TypeInfo/* parent */
 	, "Current"/* name */
 	, &PropertyInformationEnumerator_get_Current_m11986_MethodInfo/* get */
 	, NULL/* set */
@@ -17284,14 +17284,14 @@ static const PropertyInfo PropertyInformationEnumerator_t3357____Current_Propert
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* PropertyInformationEnumerator_t3357_PropertyInfos[] =
+static const PropertyInfo* PropertyInformationEnumerator_t3360_PropertyInfos[] =
 {
-	&PropertyInformationEnumerator_t3357____Current_PropertyInfo,
+	&PropertyInformationEnumerator_t3360____Current_PropertyInfo,
 	NULL
 };
 extern const MethodInfo PropertyInformationEnumerator_MoveNext_m11987_MethodInfo;
 extern const MethodInfo PropertyInformationEnumerator_Reset_m11988_MethodInfo;
-static const Il2CppMethodReference PropertyInformationEnumerator_t3357_VTable[] =
+static const Il2CppMethodReference PropertyInformationEnumerator_t3360_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -17301,7 +17301,7 @@ static const Il2CppMethodReference PropertyInformationEnumerator_t3357_VTable[] 
 	&PropertyInformationEnumerator_MoveNext_m11987_MethodInfo,
 	&PropertyInformationEnumerator_Reset_m11988_MethodInfo,
 };
-static bool PropertyInformationEnumerator_t3357_VTableIsGenericMethod[] =
+static bool PropertyInformationEnumerator_t3360_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -17311,47 +17311,47 @@ static bool PropertyInformationEnumerator_t3357_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* PropertyInformationEnumerator_t3357_InterfacesTypeInfos[] = 
+static const Il2CppType* PropertyInformationEnumerator_t3360_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_t48_0_0_0,
 };
-static Il2CppInterfaceOffsetPair PropertyInformationEnumerator_t3357_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair PropertyInformationEnumerator_t3360_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_t48_0_0_0, 4},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType PropertyInformationEnumerator_t3357_0_0_0;
-extern const Il2CppType PropertyInformationEnumerator_t3357_1_0_0;
-extern TypeInfo PropertyInformationCollection_t3349_il2cpp_TypeInfo;
-struct PropertyInformationEnumerator_t3357;
-const Il2CppTypeDefinitionMetadata PropertyInformationEnumerator_t3357_DefinitionMetadata = 
+extern const Il2CppType PropertyInformationEnumerator_t3360_0_0_0;
+extern const Il2CppType PropertyInformationEnumerator_t3360_1_0_0;
+extern TypeInfo PropertyInformationCollection_t3352_il2cpp_TypeInfo;
+struct PropertyInformationEnumerator_t3360;
+const Il2CppTypeDefinitionMetadata PropertyInformationEnumerator_t3360_DefinitionMetadata = 
 {
-	&PropertyInformationCollection_t3349_0_0_0/* declaringType */
+	&PropertyInformationCollection_t3352_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
-	, PropertyInformationEnumerator_t3357_InterfacesTypeInfos/* implementedInterfaces */
-	, PropertyInformationEnumerator_t3357_InterfacesOffsets/* interfaceOffsets */
+	, PropertyInformationEnumerator_t3360_InterfacesTypeInfos/* implementedInterfaces */
+	, PropertyInformationEnumerator_t3360_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, PropertyInformationEnumerator_t3357_VTable/* vtableMethods */
-	, PropertyInformationEnumerator_t3357_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, PropertyInformationEnumerator_t3360_VTable/* vtableMethods */
+	, PropertyInformationEnumerator_t3360_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 167/* fieldStart */
 
 };
-TypeInfo PropertyInformationEnumerator_t3357_il2cpp_TypeInfo = 
+TypeInfo PropertyInformationEnumerator_t3360_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "PropertyInformationEnumerator"/* name */
 	, ""/* namespaze */
-	, PropertyInformationEnumerator_t3357_MethodInfos/* methods */
-	, PropertyInformationEnumerator_t3357_PropertyInfos/* properties */
+	, PropertyInformationEnumerator_t3360_MethodInfos/* methods */
+	, PropertyInformationEnumerator_t3360_PropertyInfos/* properties */
 	, NULL/* events */
-	, &PropertyInformationEnumerator_t3357_il2cpp_TypeInfo/* element_class */
+	, &PropertyInformationEnumerator_t3360_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &PropertyInformationEnumerator_t3357_0_0_0/* byval_arg */
-	, &PropertyInformationEnumerator_t3357_1_0_0/* this_arg */
-	, &PropertyInformationEnumerator_t3357_DefinitionMetadata/* definitionMetadata */
+	, &PropertyInformationEnumerator_t3360_0_0_0/* byval_arg */
+	, &PropertyInformationEnumerator_t3360_1_0_0/* this_arg */
+	, &PropertyInformationEnumerator_t3360_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -17361,8 +17361,8 @@ TypeInfo PropertyInformationEnumerator_t3357_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (PropertyInformationEnumerator_t3357)/* instance_size */
-	, sizeof (PropertyInformationEnumerator_t3357)/* actualSize */
+	, sizeof (PropertyInformationEnumerator_t3360)/* instance_size */
+	, sizeof (PropertyInformationEnumerator_t3360)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -17402,7 +17402,7 @@ extern const MethodInfo PropertyInformationCollection__ctor_m11989_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&PropertyInformationCollection__ctor_m11989/* method */
-	, &PropertyInformationCollection_t3349_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformationCollection_t3352_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -17420,7 +17420,7 @@ extern const MethodInfo PropertyInformationCollection__ctor_m11989_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo PropertyInformationCollection_t3349_PropertyInformationCollection_get_Item_m11990_ParameterInfos[] = 
+static const ParameterInfo PropertyInformationCollection_t3352_PropertyInformationCollection_get_Item_m11990_ParameterInfos[] = 
 {
 	{"propertyName", 0, 134218017, 0, &String_t_0_0_0},
 };
@@ -17430,10 +17430,10 @@ extern const MethodInfo PropertyInformationCollection_get_Item_m11990_MethodInfo
 {
 	"get_Item"/* name */
 	, (methodPointerType)&PropertyInformationCollection_get_Item_m11990/* method */
-	, &PropertyInformationCollection_t3349_il2cpp_TypeInfo/* declaring_type */
-	, &PropertyInformation_t3348_0_0_0/* return_type */
+	, &PropertyInformationCollection_t3352_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformation_t3351_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, PropertyInformationCollection_t3349_PropertyInformationCollection_get_Item_m11990_ParameterInfos/* parameters */
+	, PropertyInformationCollection_t3352_PropertyInformationCollection_get_Item_m11990_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -17453,7 +17453,7 @@ extern const MethodInfo PropertyInformationCollection_GetEnumerator_m11991_Metho
 {
 	"GetEnumerator"/* name */
 	, (methodPointerType)&PropertyInformationCollection_GetEnumerator_m11991/* method */
-	, &PropertyInformationCollection_t3349_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformationCollection_t3352_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t48_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -17470,10 +17470,10 @@ extern const MethodInfo PropertyInformationCollection_GetEnumerator_m11991_Metho
 	, NULL/* dummy */
 
 };
-extern const Il2CppType PropertyInformation_t3348_0_0_0;
-static const ParameterInfo PropertyInformationCollection_t3349_PropertyInformationCollection_Add_m11992_ParameterInfos[] = 
+extern const Il2CppType PropertyInformation_t3351_0_0_0;
+static const ParameterInfo PropertyInformationCollection_t3352_PropertyInformationCollection_Add_m11992_ParameterInfos[] = 
 {
-	{"pi", 0, 134218018, 0, &PropertyInformation_t3348_0_0_0},
+	{"pi", 0, 134218018, 0, &PropertyInformation_t3351_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.PropertyInformationCollection::Add(System.Configuration.PropertyInformation)
@@ -17481,10 +17481,10 @@ extern const MethodInfo PropertyInformationCollection_Add_m11992_MethodInfo =
 {
 	"Add"/* name */
 	, (methodPointerType)&PropertyInformationCollection_Add_m11992/* method */
-	, &PropertyInformationCollection_t3349_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformationCollection_t3352_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, PropertyInformationCollection_t3349_PropertyInformationCollection_Add_m11992_ParameterInfos/* parameters */
+	, PropertyInformationCollection_t3352_PropertyInformationCollection_Add_m11992_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -17498,23 +17498,23 @@ extern const MethodInfo PropertyInformationCollection_Add_m11992_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType SerializationInfo_t2937_0_0_0;
-extern const Il2CppType StreamingContext_t2938_0_0_0;
-static const ParameterInfo PropertyInformationCollection_t3349_PropertyInformationCollection_GetObjectData_m11993_ParameterInfos[] = 
+extern const Il2CppType SerializationInfo_t2940_0_0_0;
+extern const Il2CppType StreamingContext_t2941_0_0_0;
+static const ParameterInfo PropertyInformationCollection_t3352_PropertyInformationCollection_GetObjectData_m11993_ParameterInfos[] = 
 {
-	{"info", 0, 134218019, 0, &SerializationInfo_t2937_0_0_0},
-	{"context", 1, 134218020, 0, &StreamingContext_t2938_0_0_0},
+	{"info", 0, 134218019, 0, &SerializationInfo_t2940_0_0_0},
+	{"context", 1, 134218020, 0, &StreamingContext_t2941_0_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2938 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2941 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.PropertyInformationCollection::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern const MethodInfo PropertyInformationCollection_GetObjectData_m11993_MethodInfo = 
 {
 	"GetObjectData"/* name */
 	, (methodPointerType)&PropertyInformationCollection_GetObjectData_m11993/* method */
-	, &PropertyInformationCollection_t3349_il2cpp_TypeInfo/* declaring_type */
+	, &PropertyInformationCollection_t3352_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2938/* invoker_method */
-	, PropertyInformationCollection_t3349_PropertyInformationCollection_GetObjectData_m11993_ParameterInfos/* parameters */
+	, RuntimeInvoker_Void_t85_Object_t_StreamingContext_t2941/* invoker_method */
+	, PropertyInformationCollection_t3352_PropertyInformationCollection_GetObjectData_m11993_ParameterInfos/* parameters */
 	, 53/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -17528,7 +17528,7 @@ extern const MethodInfo PropertyInformationCollection_GetObjectData_m11993_Metho
 	, NULL/* dummy */
 
 };
-static const MethodInfo* PropertyInformationCollection_t3349_MethodInfos[] =
+static const MethodInfo* PropertyInformationCollection_t3352_MethodInfos[] =
 {
 	&PropertyInformationCollection__ctor_m11989_MethodInfo,
 	&PropertyInformationCollection_get_Item_m11990_MethodInfo,
@@ -17538,9 +17538,9 @@ static const MethodInfo* PropertyInformationCollection_t3349_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo PropertyInformationCollection_get_Item_m11990_MethodInfo;
-static const PropertyInfo PropertyInformationCollection_t3349____Item_PropertyInfo = 
+static const PropertyInfo PropertyInformationCollection_t3352____Item_PropertyInfo = 
 {
-	&PropertyInformationCollection_t3349_il2cpp_TypeInfo/* parent */
+	&PropertyInformationCollection_t3352_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
 	, &PropertyInformationCollection_get_Item_m11990_MethodInfo/* get */
 	, NULL/* set */
@@ -17548,18 +17548,18 @@ static const PropertyInfo PropertyInformationCollection_t3349____Item_PropertyIn
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* PropertyInformationCollection_t3349_PropertyInfos[] =
+static const PropertyInfo* PropertyInformationCollection_t3352_PropertyInfos[] =
 {
-	&PropertyInformationCollection_t3349____Item_PropertyInfo,
+	&PropertyInformationCollection_t3352____Item_PropertyInfo,
 	NULL
 };
-static const Il2CppType* PropertyInformationCollection_t3349_il2cpp_TypeInfo__nestedTypes[1] =
+static const Il2CppType* PropertyInformationCollection_t3352_il2cpp_TypeInfo__nestedTypes[1] =
 {
-	&PropertyInformationEnumerator_t3357_0_0_0,
+	&PropertyInformationEnumerator_t3360_0_0_0,
 };
 extern const MethodInfo PropertyInformationCollection_GetEnumerator_m11991_MethodInfo;
 extern const MethodInfo PropertyInformationCollection_GetObjectData_m11993_MethodInfo;
-static const Il2CppMethodReference PropertyInformationCollection_t3349_VTable[] =
+static const Il2CppMethodReference PropertyInformationCollection_t3352_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -17578,7 +17578,7 @@ static const Il2CppMethodReference PropertyInformationCollection_t3349_VTable[] 
 	&NameObjectCollectionBase_get_Count_m12162_MethodInfo,
 	&NameObjectCollectionBase_OnDeserialization_m12167_MethodInfo,
 };
-static bool PropertyInformationCollection_t3349_VTableIsGenericMethod[] =
+static bool PropertyInformationCollection_t3352_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -17597,44 +17597,44 @@ static bool PropertyInformationCollection_t3349_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair PropertyInformationCollection_t3349_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair PropertyInformationCollection_t3352_InterfacesOffsets[] = 
 {
-	{ &ICollection_t769_0_0_0, 4},
+	{ &ICollection_t772_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
-	{ &IDeserializationCallback_t838_0_0_0, 9},
-	{ &ISerializable_t834_0_0_0, 10},
+	{ &IDeserializationCallback_t841_0_0_0, 9},
+	{ &ISerializable_t837_0_0_0, 10},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType PropertyInformationCollection_t3349_1_0_0;
-struct PropertyInformationCollection_t3349;
-const Il2CppTypeDefinitionMetadata PropertyInformationCollection_t3349_DefinitionMetadata = 
+extern const Il2CppType PropertyInformationCollection_t3352_1_0_0;
+struct PropertyInformationCollection_t3352;
+const Il2CppTypeDefinitionMetadata PropertyInformationCollection_t3352_DefinitionMetadata = 
 {
 	NULL/* declaringType */
-	, PropertyInformationCollection_t3349_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, PropertyInformationCollection_t3352_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, PropertyInformationCollection_t3349_InterfacesOffsets/* interfaceOffsets */
-	, &NameObjectCollectionBase_t3340_0_0_0/* parent */
-	, PropertyInformationCollection_t3349_VTable/* vtableMethods */
-	, PropertyInformationCollection_t3349_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, PropertyInformationCollection_t3352_InterfacesOffsets/* interfaceOffsets */
+	, &NameObjectCollectionBase_t3343_0_0_0/* parent */
+	, PropertyInformationCollection_t3352_VTable/* vtableMethods */
+	, PropertyInformationCollection_t3352_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo PropertyInformationCollection_t3349_il2cpp_TypeInfo = 
+TypeInfo PropertyInformationCollection_t3352_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "PropertyInformationCollection"/* name */
 	, "System.Configuration"/* namespaze */
-	, PropertyInformationCollection_t3349_MethodInfos/* methods */
-	, PropertyInformationCollection_t3349_PropertyInfos/* properties */
+	, PropertyInformationCollection_t3352_MethodInfos/* methods */
+	, PropertyInformationCollection_t3352_PropertyInfos/* properties */
 	, NULL/* events */
-	, &PropertyInformationCollection_t3349_il2cpp_TypeInfo/* element_class */
+	, &PropertyInformationCollection_t3352_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 52/* custom_attributes_cache */
-	, &PropertyInformationCollection_t3349_0_0_0/* byval_arg */
-	, &PropertyInformationCollection_t3349_1_0_0/* this_arg */
-	, &PropertyInformationCollection_t3349_DefinitionMetadata/* definitionMetadata */
+	, &PropertyInformationCollection_t3352_0_0_0/* byval_arg */
+	, &PropertyInformationCollection_t3352_1_0_0/* this_arg */
+	, &PropertyInformationCollection_t3352_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -17644,8 +17644,8 @@ TypeInfo PropertyInformationCollection_t3349_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (PropertyInformationCollection_t3349)/* instance_size */
-	, sizeof (PropertyInformationCollection_t3349)/* actualSize */
+	, sizeof (PropertyInformationCollection_t3352)/* instance_size */
+	, sizeof (PropertyInformationCollection_t3352)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -17677,14 +17677,14 @@ TypeInfo PropertyInformationCollection_t3349_il2cpp_TypeInfo =
 // System.Configuration.PropertyValueOrigin
 #include "System_Configuration_System_Configuration_PropertyValueOrigi.h"
 // Metadata Definition System.Configuration.PropertyValueOrigin
-extern TypeInfo PropertyValueOrigin_t3358_il2cpp_TypeInfo;
+extern TypeInfo PropertyValueOrigin_t3361_il2cpp_TypeInfo;
 // System.Configuration.PropertyValueOrigin
 #include "System_Configuration_System_Configuration_PropertyValueOrigiMethodDeclarations.h"
-static const MethodInfo* PropertyValueOrigin_t3358_MethodInfos[] =
+static const MethodInfo* PropertyValueOrigin_t3361_MethodInfos[] =
 {
 	NULL
 };
-static const Il2CppMethodReference PropertyValueOrigin_t3358_VTable[] =
+static const Il2CppMethodReference PropertyValueOrigin_t3361_VTable[] =
 {
 	&Enum_Equals_m503_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -17710,7 +17710,7 @@ static const Il2CppMethodReference PropertyValueOrigin_t3358_VTable[] =
 	&Enum_CompareTo_m523_MethodInfo,
 	&Enum_GetTypeCode_m524_MethodInfo,
 };
-static bool PropertyValueOrigin_t3358_VTableIsGenericMethod[] =
+static bool PropertyValueOrigin_t3361_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -17736,42 +17736,42 @@ static bool PropertyValueOrigin_t3358_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair PropertyValueOrigin_t3358_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair PropertyValueOrigin_t3361_InterfacesOffsets[] = 
 {
 	{ &IFormattable_t97_0_0_0, 4},
 	{ &IConvertible_t98_0_0_0, 5},
 	{ &IComparable_t99_0_0_0, 21},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType PropertyValueOrigin_t3358_1_0_0;
-const Il2CppTypeDefinitionMetadata PropertyValueOrigin_t3358_DefinitionMetadata = 
+extern const Il2CppType PropertyValueOrigin_t3361_1_0_0;
+const Il2CppTypeDefinitionMetadata PropertyValueOrigin_t3361_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, PropertyValueOrigin_t3358_InterfacesOffsets/* interfaceOffsets */
+	, PropertyValueOrigin_t3361_InterfacesOffsets/* interfaceOffsets */
 	, &Enum_t100_0_0_0/* parent */
-	, PropertyValueOrigin_t3358_VTable/* vtableMethods */
-	, PropertyValueOrigin_t3358_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, PropertyValueOrigin_t3361_VTable/* vtableMethods */
+	, PropertyValueOrigin_t3361_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 169/* fieldStart */
 
 };
-TypeInfo PropertyValueOrigin_t3358_il2cpp_TypeInfo = 
+TypeInfo PropertyValueOrigin_t3361_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "PropertyValueOrigin"/* name */
 	, "System.Configuration"/* namespaze */
-	, PropertyValueOrigin_t3358_MethodInfos/* methods */
+	, PropertyValueOrigin_t3361_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
 	, &Int32_t82_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &PropertyValueOrigin_t3358_0_0_0/* byval_arg */
-	, &PropertyValueOrigin_t3358_1_0_0/* this_arg */
-	, &PropertyValueOrigin_t3358_DefinitionMetadata/* definitionMetadata */
+	, &PropertyValueOrigin_t3361_0_0_0/* byval_arg */
+	, &PropertyValueOrigin_t3361_1_0_0/* this_arg */
+	, &PropertyValueOrigin_t3361_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -17781,8 +17781,8 @@ TypeInfo PropertyValueOrigin_t3358_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (PropertyValueOrigin_t3358)+ sizeof (Il2CppObject)/* instance_size */
-	, sizeof (PropertyValueOrigin_t3358)+ sizeof (Il2CppObject)/* actualSize */
+	, sizeof (PropertyValueOrigin_t3361)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (PropertyValueOrigin_t3361)+ sizeof (Il2CppObject)/* actualSize */
 	, 0/* element_size */
 	, sizeof(int32_t)/* native_size */
 	, 0/* static_fields_size */
@@ -17814,18 +17814,18 @@ TypeInfo PropertyValueOrigin_t3358_il2cpp_TypeInfo =
 // System.Configuration.ProtectedConfiguration
 #include "System_Configuration_System_Configuration_ProtectedConfigura.h"
 // Metadata Definition System.Configuration.ProtectedConfiguration
-extern TypeInfo ProtectedConfiguration_t3359_il2cpp_TypeInfo;
+extern TypeInfo ProtectedConfiguration_t3362_il2cpp_TypeInfo;
 // System.Configuration.ProtectedConfiguration
 #include "System_Configuration_System_Configuration_ProtectedConfiguraMethodDeclarations.h"
-extern const Il2CppType ProtectedConfigurationProviderCollection_t3361_0_0_0;
+extern const Il2CppType ProtectedConfigurationProviderCollection_t3364_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.ProtectedConfigurationProviderCollection System.Configuration.ProtectedConfiguration::get_Providers()
 extern const MethodInfo ProtectedConfiguration_get_Providers_m11994_MethodInfo = 
 {
 	"get_Providers"/* name */
 	, (methodPointerType)&ProtectedConfiguration_get_Providers_m11994/* method */
-	, &ProtectedConfiguration_t3359_il2cpp_TypeInfo/* declaring_type */
-	, &ProtectedConfigurationProviderCollection_t3361_0_0_0/* return_type */
+	, &ProtectedConfiguration_t3362_il2cpp_TypeInfo/* declaring_type */
+	, &ProtectedConfigurationProviderCollection_t3364_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17841,15 +17841,15 @@ extern const MethodInfo ProtectedConfiguration_get_Providers_m11994_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ProtectedConfigurationSection_t3362_0_0_0;
+extern const Il2CppType ProtectedConfigurationSection_t3365_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.ProtectedConfigurationSection System.Configuration.ProtectedConfiguration::get_Section()
 extern const MethodInfo ProtectedConfiguration_get_Section_m11995_MethodInfo = 
 {
 	"get_Section"/* name */
 	, (methodPointerType)&ProtectedConfiguration_get_Section_m11995/* method */
-	, &ProtectedConfiguration_t3359_il2cpp_TypeInfo/* declaring_type */
-	, &ProtectedConfigurationSection_t3362_0_0_0/* return_type */
+	, &ProtectedConfiguration_t3362_il2cpp_TypeInfo/* declaring_type */
+	, &ProtectedConfigurationSection_t3365_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17867,22 +17867,22 @@ extern const MethodInfo ProtectedConfiguration_get_Section_m11995_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo ProtectedConfiguration_t3359_ProtectedConfiguration_GetProvider_m11996_ParameterInfos[] = 
+static const ParameterInfo ProtectedConfiguration_t3362_ProtectedConfiguration_GetProvider_m11996_ParameterInfos[] = 
 {
 	{"name", 0, 134218022, 0, &String_t_0_0_0},
 	{"throwOnError", 1, 134218023, 0, &Boolean_t59_0_0_0},
 };
-extern const Il2CppType ProtectedConfigurationProvider_t3360_0_0_0;
+extern const Il2CppType ProtectedConfigurationProvider_t3363_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.ProtectedConfigurationProvider System.Configuration.ProtectedConfiguration::GetProvider(System.String,System.Boolean)
 extern const MethodInfo ProtectedConfiguration_GetProvider_m11996_MethodInfo = 
 {
 	"GetProvider"/* name */
 	, (methodPointerType)&ProtectedConfiguration_GetProvider_m11996/* method */
-	, &ProtectedConfiguration_t3359_il2cpp_TypeInfo/* declaring_type */
-	, &ProtectedConfigurationProvider_t3360_0_0_0/* return_type */
+	, &ProtectedConfiguration_t3362_il2cpp_TypeInfo/* declaring_type */
+	, &ProtectedConfigurationProvider_t3363_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_SByte_t88/* invoker_method */
-	, ProtectedConfiguration_t3359_ProtectedConfiguration_GetProvider_m11996_ParameterInfos/* parameters */
+	, ProtectedConfiguration_t3362_ProtectedConfiguration_GetProvider_m11996_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 147/* flags */
 	, 0/* iflags */
@@ -17896,7 +17896,7 @@ extern const MethodInfo ProtectedConfiguration_GetProvider_m11996_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ProtectedConfiguration_t3359_MethodInfos[] =
+static const MethodInfo* ProtectedConfiguration_t3362_MethodInfos[] =
 {
 	&ProtectedConfiguration_get_Providers_m11994_MethodInfo,
 	&ProtectedConfiguration_get_Section_m11995_MethodInfo,
@@ -17904,9 +17904,9 @@ static const MethodInfo* ProtectedConfiguration_t3359_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ProtectedConfiguration_get_Providers_m11994_MethodInfo;
-static const PropertyInfo ProtectedConfiguration_t3359____Providers_PropertyInfo = 
+static const PropertyInfo ProtectedConfiguration_t3362____Providers_PropertyInfo = 
 {
-	&ProtectedConfiguration_t3359_il2cpp_TypeInfo/* parent */
+	&ProtectedConfiguration_t3362_il2cpp_TypeInfo/* parent */
 	, "Providers"/* name */
 	, &ProtectedConfiguration_get_Providers_m11994_MethodInfo/* get */
 	, NULL/* set */
@@ -17915,9 +17915,9 @@ static const PropertyInfo ProtectedConfiguration_t3359____Providers_PropertyInfo
 
 };
 extern const MethodInfo ProtectedConfiguration_get_Section_m11995_MethodInfo;
-static const PropertyInfo ProtectedConfiguration_t3359____Section_PropertyInfo = 
+static const PropertyInfo ProtectedConfiguration_t3362____Section_PropertyInfo = 
 {
-	&ProtectedConfiguration_t3359_il2cpp_TypeInfo/* parent */
+	&ProtectedConfiguration_t3362_il2cpp_TypeInfo/* parent */
 	, "Section"/* name */
 	, &ProtectedConfiguration_get_Section_m11995_MethodInfo/* get */
 	, NULL/* set */
@@ -17925,20 +17925,20 @@ static const PropertyInfo ProtectedConfiguration_t3359____Section_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ProtectedConfiguration_t3359_PropertyInfos[] =
+static const PropertyInfo* ProtectedConfiguration_t3362_PropertyInfos[] =
 {
-	&ProtectedConfiguration_t3359____Providers_PropertyInfo,
-	&ProtectedConfiguration_t3359____Section_PropertyInfo,
+	&ProtectedConfiguration_t3362____Providers_PropertyInfo,
+	&ProtectedConfiguration_t3362____Section_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference ProtectedConfiguration_t3359_VTable[] =
+static const Il2CppMethodReference ProtectedConfiguration_t3362_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool ProtectedConfiguration_t3359_VTableIsGenericMethod[] =
+static bool ProtectedConfiguration_t3362_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -17946,37 +17946,37 @@ static bool ProtectedConfiguration_t3359_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ProtectedConfiguration_t3359_0_0_0;
-extern const Il2CppType ProtectedConfiguration_t3359_1_0_0;
-struct ProtectedConfiguration_t3359;
-const Il2CppTypeDefinitionMetadata ProtectedConfiguration_t3359_DefinitionMetadata = 
+extern const Il2CppType ProtectedConfiguration_t3362_0_0_0;
+extern const Il2CppType ProtectedConfiguration_t3362_1_0_0;
+struct ProtectedConfiguration_t3362;
+const Il2CppTypeDefinitionMetadata ProtectedConfiguration_t3362_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, ProtectedConfiguration_t3359_VTable/* vtableMethods */
-	, ProtectedConfiguration_t3359_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ProtectedConfiguration_t3362_VTable/* vtableMethods */
+	, ProtectedConfiguration_t3362_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo ProtectedConfiguration_t3359_il2cpp_TypeInfo = 
+TypeInfo ProtectedConfiguration_t3362_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ProtectedConfiguration"/* name */
 	, "System.Configuration"/* namespaze */
-	, ProtectedConfiguration_t3359_MethodInfos/* methods */
-	, ProtectedConfiguration_t3359_PropertyInfos/* properties */
+	, ProtectedConfiguration_t3362_MethodInfos/* methods */
+	, ProtectedConfiguration_t3362_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ProtectedConfiguration_t3359_il2cpp_TypeInfo/* element_class */
+	, &ProtectedConfiguration_t3362_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ProtectedConfiguration_t3359_0_0_0/* byval_arg */
-	, &ProtectedConfiguration_t3359_1_0_0/* this_arg */
-	, &ProtectedConfiguration_t3359_DefinitionMetadata/* definitionMetadata */
+	, &ProtectedConfiguration_t3362_0_0_0/* byval_arg */
+	, &ProtectedConfiguration_t3362_1_0_0/* this_arg */
+	, &ProtectedConfiguration_t3362_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -17986,8 +17986,8 @@ TypeInfo ProtectedConfiguration_t3359_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ProtectedConfiguration_t3359)/* instance_size */
-	, sizeof (ProtectedConfiguration_t3359)/* actualSize */
+	, sizeof (ProtectedConfiguration_t3362)/* instance_size */
+	, sizeof (ProtectedConfiguration_t3362)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -18019,13 +18019,13 @@ TypeInfo ProtectedConfiguration_t3359_il2cpp_TypeInfo =
 // System.Configuration.ProtectedConfigurationProvider
 #include "System_Configuration_System_Configuration_ProtectedConfigura_0.h"
 // Metadata Definition System.Configuration.ProtectedConfigurationProvider
-extern TypeInfo ProtectedConfigurationProvider_t3360_il2cpp_TypeInfo;
+extern TypeInfo ProtectedConfigurationProvider_t3363_il2cpp_TypeInfo;
 // System.Configuration.ProtectedConfigurationProvider
 #include "System_Configuration_System_Configuration_ProtectedConfigura_0MethodDeclarations.h"
-extern const Il2CppType XmlNode_t732_0_0_0;
-static const ParameterInfo ProtectedConfigurationProvider_t3360_ProtectedConfigurationProvider_Decrypt_m12161_ParameterInfos[] = 
+extern const Il2CppType XmlNode_t735_0_0_0;
+static const ParameterInfo ProtectedConfigurationProvider_t3363_ProtectedConfigurationProvider_Decrypt_m12161_ParameterInfos[] = 
 {
-	{"encrypted_node", 0, 134218024, 0, &XmlNode_t732_0_0_0},
+	{"encrypted_node", 0, 134218024, 0, &XmlNode_t735_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Xml.XmlNode System.Configuration.ProtectedConfigurationProvider::Decrypt(System.Xml.XmlNode)
@@ -18033,10 +18033,10 @@ extern const MethodInfo ProtectedConfigurationProvider_Decrypt_m12161_MethodInfo
 {
 	"Decrypt"/* name */
 	, NULL/* method */
-	, &ProtectedConfigurationProvider_t3360_il2cpp_TypeInfo/* declaring_type */
-	, &XmlNode_t732_0_0_0/* return_type */
+	, &ProtectedConfigurationProvider_t3363_il2cpp_TypeInfo/* declaring_type */
+	, &XmlNode_t735_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ProtectedConfigurationProvider_t3360_ProtectedConfigurationProvider_Decrypt_m12161_ParameterInfos/* parameters */
+	, ProtectedConfigurationProvider_t3363_ProtectedConfigurationProvider_Decrypt_m12161_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 1478/* flags */
 	, 0/* iflags */
@@ -18050,12 +18050,12 @@ extern const MethodInfo ProtectedConfigurationProvider_Decrypt_m12161_MethodInfo
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ProtectedConfigurationProvider_t3360_MethodInfos[] =
+static const MethodInfo* ProtectedConfigurationProvider_t3363_MethodInfos[] =
 {
 	&ProtectedConfigurationProvider_Decrypt_m12161_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference ProtectedConfigurationProvider_t3360_VTable[] =
+static const Il2CppMethodReference ProtectedConfigurationProvider_t3363_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -18065,7 +18065,7 @@ static const Il2CppMethodReference ProtectedConfigurationProvider_t3360_VTable[]
 	&ProviderBase_get_Name_m11661_MethodInfo,
 	NULL,
 };
-static bool ProtectedConfigurationProvider_t3360_VTableIsGenericMethod[] =
+static bool ProtectedConfigurationProvider_t3363_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -18076,36 +18076,36 @@ static bool ProtectedConfigurationProvider_t3360_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ProtectedConfigurationProvider_t3360_1_0_0;
-struct ProtectedConfigurationProvider_t3360;
-const Il2CppTypeDefinitionMetadata ProtectedConfigurationProvider_t3360_DefinitionMetadata = 
+extern const Il2CppType ProtectedConfigurationProvider_t3363_1_0_0;
+struct ProtectedConfigurationProvider_t3363;
+const Il2CppTypeDefinitionMetadata ProtectedConfigurationProvider_t3363_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &ProviderBase_t3295_0_0_0/* parent */
-	, ProtectedConfigurationProvider_t3360_VTable/* vtableMethods */
-	, ProtectedConfigurationProvider_t3360_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &ProviderBase_t3298_0_0_0/* parent */
+	, ProtectedConfigurationProvider_t3363_VTable/* vtableMethods */
+	, ProtectedConfigurationProvider_t3363_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo ProtectedConfigurationProvider_t3360_il2cpp_TypeInfo = 
+TypeInfo ProtectedConfigurationProvider_t3363_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ProtectedConfigurationProvider"/* name */
 	, "System.Configuration"/* namespaze */
-	, ProtectedConfigurationProvider_t3360_MethodInfos/* methods */
+	, ProtectedConfigurationProvider_t3363_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &ProtectedConfigurationProvider_t3360_il2cpp_TypeInfo/* element_class */
+	, &ProtectedConfigurationProvider_t3363_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ProtectedConfigurationProvider_t3360_0_0_0/* byval_arg */
-	, &ProtectedConfigurationProvider_t3360_1_0_0/* this_arg */
-	, &ProtectedConfigurationProvider_t3360_DefinitionMetadata/* definitionMetadata */
+	, &ProtectedConfigurationProvider_t3363_0_0_0/* byval_arg */
+	, &ProtectedConfigurationProvider_t3363_1_0_0/* this_arg */
+	, &ProtectedConfigurationProvider_t3363_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -18115,8 +18115,8 @@ TypeInfo ProtectedConfigurationProvider_t3360_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ProtectedConfigurationProvider_t3360)/* instance_size */
-	, sizeof (ProtectedConfigurationProvider_t3360)/* actualSize */
+	, sizeof (ProtectedConfigurationProvider_t3363)/* instance_size */
+	, sizeof (ProtectedConfigurationProvider_t3363)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -18148,7 +18148,7 @@ TypeInfo ProtectedConfigurationProvider_t3360_il2cpp_TypeInfo =
 // System.Configuration.ProtectedConfigurationProviderCollection
 #include "System_Configuration_System_Configuration_ProtectedConfigura_1.h"
 // Metadata Definition System.Configuration.ProtectedConfigurationProviderCollection
-extern TypeInfo ProtectedConfigurationProviderCollection_t3361_il2cpp_TypeInfo;
+extern TypeInfo ProtectedConfigurationProviderCollection_t3364_il2cpp_TypeInfo;
 // System.Configuration.ProtectedConfigurationProviderCollection
 #include "System_Configuration_System_Configuration_ProtectedConfigura_1MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -18157,7 +18157,7 @@ extern const MethodInfo ProtectedConfigurationProviderCollection__ctor_m11997_Me
 {
 	".ctor"/* name */
 	, (methodPointerType)&ProtectedConfigurationProviderCollection__ctor_m11997/* method */
-	, &ProtectedConfigurationProviderCollection_t3361_il2cpp_TypeInfo/* declaring_type */
+	, &ProtectedConfigurationProviderCollection_t3364_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -18175,7 +18175,7 @@ extern const MethodInfo ProtectedConfigurationProviderCollection__ctor_m11997_Me
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ProtectedConfigurationProviderCollection_t3361_ProtectedConfigurationProviderCollection_get_Item_m11998_ParameterInfos[] = 
+static const ParameterInfo ProtectedConfigurationProviderCollection_t3364_ProtectedConfigurationProviderCollection_get_Item_m11998_ParameterInfos[] = 
 {
 	{"name", 0, 134218025, 0, &String_t_0_0_0},
 };
@@ -18185,10 +18185,10 @@ extern const MethodInfo ProtectedConfigurationProviderCollection_get_Item_m11998
 {
 	"get_Item"/* name */
 	, (methodPointerType)&ProtectedConfigurationProviderCollection_get_Item_m11998/* method */
-	, &ProtectedConfigurationProviderCollection_t3361_il2cpp_TypeInfo/* declaring_type */
-	, &ProtectedConfigurationProvider_t3360_0_0_0/* return_type */
+	, &ProtectedConfigurationProviderCollection_t3364_il2cpp_TypeInfo/* declaring_type */
+	, &ProtectedConfigurationProvider_t3363_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ProtectedConfigurationProviderCollection_t3361_ProtectedConfigurationProviderCollection_get_Item_m11998_ParameterInfos/* parameters */
+	, ProtectedConfigurationProviderCollection_t3364_ProtectedConfigurationProviderCollection_get_Item_m11998_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -18202,10 +18202,10 @@ extern const MethodInfo ProtectedConfigurationProviderCollection_get_Item_m11998
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ProviderBase_t3295_0_0_0;
-static const ParameterInfo ProtectedConfigurationProviderCollection_t3361_ProtectedConfigurationProviderCollection_Add_m11999_ParameterInfos[] = 
+extern const Il2CppType ProviderBase_t3298_0_0_0;
+static const ParameterInfo ProtectedConfigurationProviderCollection_t3364_ProtectedConfigurationProviderCollection_Add_m11999_ParameterInfos[] = 
 {
-	{"provider", 0, 134218026, 0, &ProviderBase_t3295_0_0_0},
+	{"provider", 0, 134218026, 0, &ProviderBase_t3298_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ProtectedConfigurationProviderCollection::Add(System.Configuration.Provider.ProviderBase)
@@ -18213,10 +18213,10 @@ extern const MethodInfo ProtectedConfigurationProviderCollection_Add_m11999_Meth
 {
 	"Add"/* name */
 	, (methodPointerType)&ProtectedConfigurationProviderCollection_Add_m11999/* method */
-	, &ProtectedConfigurationProviderCollection_t3361_il2cpp_TypeInfo/* declaring_type */
+	, &ProtectedConfigurationProviderCollection_t3364_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ProtectedConfigurationProviderCollection_t3361_ProtectedConfigurationProviderCollection_Add_m11999_ParameterInfos/* parameters */
+	, ProtectedConfigurationProviderCollection_t3364_ProtectedConfigurationProviderCollection_Add_m11999_ParameterInfos/* parameters */
 	, 55/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -18230,7 +18230,7 @@ extern const MethodInfo ProtectedConfigurationProviderCollection_Add_m11999_Meth
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ProtectedConfigurationProviderCollection_t3361_MethodInfos[] =
+static const MethodInfo* ProtectedConfigurationProviderCollection_t3364_MethodInfos[] =
 {
 	&ProtectedConfigurationProviderCollection__ctor_m11997_MethodInfo,
 	&ProtectedConfigurationProviderCollection_get_Item_m11998_MethodInfo,
@@ -18238,9 +18238,9 @@ static const MethodInfo* ProtectedConfigurationProviderCollection_t3361_MethodIn
 	NULL
 };
 extern const MethodInfo ProtectedConfigurationProviderCollection_get_Item_m11998_MethodInfo;
-static const PropertyInfo ProtectedConfigurationProviderCollection_t3361____Item_PropertyInfo = 
+static const PropertyInfo ProtectedConfigurationProviderCollection_t3364____Item_PropertyInfo = 
 {
-	&ProtectedConfigurationProviderCollection_t3361_il2cpp_TypeInfo/* parent */
+	&ProtectedConfigurationProviderCollection_t3364_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
 	, &ProtectedConfigurationProviderCollection_get_Item_m11998_MethodInfo/* get */
 	, NULL/* set */
@@ -18248,13 +18248,13 @@ static const PropertyInfo ProtectedConfigurationProviderCollection_t3361____Item
 	, 56/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ProtectedConfigurationProviderCollection_t3361_PropertyInfos[] =
+static const PropertyInfo* ProtectedConfigurationProviderCollection_t3364_PropertyInfos[] =
 {
-	&ProtectedConfigurationProviderCollection_t3361____Item_PropertyInfo,
+	&ProtectedConfigurationProviderCollection_t3364____Item_PropertyInfo,
 	NULL
 };
 extern const MethodInfo ProtectedConfigurationProviderCollection_Add_m11999_MethodInfo;
-static const Il2CppMethodReference ProtectedConfigurationProviderCollection_t3361_VTable[] =
+static const Il2CppMethodReference ProtectedConfigurationProviderCollection_t3364_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -18267,7 +18267,7 @@ static const Il2CppMethodReference ProtectedConfigurationProviderCollection_t336
 	&ProviderCollection_GetEnumerator_m11665_MethodInfo,
 	&ProtectedConfigurationProviderCollection_Add_m11999_MethodInfo,
 };
-static bool ProtectedConfigurationProviderCollection_t3361_VTableIsGenericMethod[] =
+static bool ProtectedConfigurationProviderCollection_t3364_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -18280,42 +18280,42 @@ static bool ProtectedConfigurationProviderCollection_t3361_VTableIsGenericMethod
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair ProtectedConfigurationProviderCollection_t3361_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ProtectedConfigurationProviderCollection_t3364_InterfacesOffsets[] = 
 {
-	{ &ICollection_t769_0_0_0, 4},
+	{ &ICollection_t772_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ProtectedConfigurationProviderCollection_t3361_1_0_0;
-struct ProtectedConfigurationProviderCollection_t3361;
-const Il2CppTypeDefinitionMetadata ProtectedConfigurationProviderCollection_t3361_DefinitionMetadata = 
+extern const Il2CppType ProtectedConfigurationProviderCollection_t3364_1_0_0;
+struct ProtectedConfigurationProviderCollection_t3364;
+const Il2CppTypeDefinitionMetadata ProtectedConfigurationProviderCollection_t3364_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ProtectedConfigurationProviderCollection_t3361_InterfacesOffsets/* interfaceOffsets */
-	, &ProviderCollection_t3296_0_0_0/* parent */
-	, ProtectedConfigurationProviderCollection_t3361_VTable/* vtableMethods */
-	, ProtectedConfigurationProviderCollection_t3361_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ProtectedConfigurationProviderCollection_t3364_InterfacesOffsets/* interfaceOffsets */
+	, &ProviderCollection_t3299_0_0_0/* parent */
+	, ProtectedConfigurationProviderCollection_t3364_VTable/* vtableMethods */
+	, ProtectedConfigurationProviderCollection_t3364_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo ProtectedConfigurationProviderCollection_t3361_il2cpp_TypeInfo = 
+TypeInfo ProtectedConfigurationProviderCollection_t3364_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ProtectedConfigurationProviderCollection"/* name */
 	, "System.Configuration"/* namespaze */
-	, ProtectedConfigurationProviderCollection_t3361_MethodInfos/* methods */
-	, ProtectedConfigurationProviderCollection_t3361_PropertyInfos/* properties */
+	, ProtectedConfigurationProviderCollection_t3364_MethodInfos/* methods */
+	, ProtectedConfigurationProviderCollection_t3364_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ProtectedConfigurationProviderCollection_t3361_il2cpp_TypeInfo/* element_class */
+	, &ProtectedConfigurationProviderCollection_t3364_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 54/* custom_attributes_cache */
-	, &ProtectedConfigurationProviderCollection_t3361_0_0_0/* byval_arg */
-	, &ProtectedConfigurationProviderCollection_t3361_1_0_0/* this_arg */
-	, &ProtectedConfigurationProviderCollection_t3361_DefinitionMetadata/* definitionMetadata */
+	, &ProtectedConfigurationProviderCollection_t3364_0_0_0/* byval_arg */
+	, &ProtectedConfigurationProviderCollection_t3364_1_0_0/* this_arg */
+	, &ProtectedConfigurationProviderCollection_t3364_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -18325,8 +18325,8 @@ TypeInfo ProtectedConfigurationProviderCollection_t3361_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ProtectedConfigurationProviderCollection_t3361)/* instance_size */
-	, sizeof (ProtectedConfigurationProviderCollection_t3361)/* actualSize */
+	, sizeof (ProtectedConfigurationProviderCollection_t3364)/* instance_size */
+	, sizeof (ProtectedConfigurationProviderCollection_t3364)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -18358,7 +18358,7 @@ TypeInfo ProtectedConfigurationProviderCollection_t3361_il2cpp_TypeInfo =
 // System.Configuration.ProtectedConfigurationSection
 #include "System_Configuration_System_Configuration_ProtectedConfigura_2.h"
 // Metadata Definition System.Configuration.ProtectedConfigurationSection
-extern TypeInfo ProtectedConfigurationSection_t3362_il2cpp_TypeInfo;
+extern TypeInfo ProtectedConfigurationSection_t3365_il2cpp_TypeInfo;
 // System.Configuration.ProtectedConfigurationSection
 #include "System_Configuration_System_Configuration_ProtectedConfigura_2MethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -18367,7 +18367,7 @@ extern const MethodInfo ProtectedConfigurationSection__cctor_m12000_MethodInfo =
 {
 	".cctor"/* name */
 	, (methodPointerType)&ProtectedConfigurationSection__cctor_m12000/* method */
-	, &ProtectedConfigurationSection_t3362_il2cpp_TypeInfo/* declaring_type */
+	, &ProtectedConfigurationSection_t3365_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -18384,15 +18384,15 @@ extern const MethodInfo ProtectedConfigurationSection__cctor_m12000_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ProviderSettingsCollection_t3364_0_0_0;
+extern const Il2CppType ProviderSettingsCollection_t3367_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.ProviderSettingsCollection System.Configuration.ProtectedConfigurationSection::get_Providers()
 extern const MethodInfo ProtectedConfigurationSection_get_Providers_m12001_MethodInfo = 
 {
 	"get_Providers"/* name */
 	, (methodPointerType)&ProtectedConfigurationSection_get_Providers_m12001/* method */
-	, &ProtectedConfigurationSection_t3362_il2cpp_TypeInfo/* declaring_type */
-	, &ProviderSettingsCollection_t3364_0_0_0/* return_type */
+	, &ProtectedConfigurationSection_t3365_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderSettingsCollection_t3367_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -18414,8 +18414,8 @@ extern const MethodInfo ProtectedConfigurationSection_get_Properties_m12002_Meth
 {
 	"get_Properties"/* name */
 	, (methodPointerType)&ProtectedConfigurationSection_get_Properties_m12002/* method */
-	, &ProtectedConfigurationSection_t3362_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationPropertyCollection_t3311_0_0_0/* return_type */
+	, &ProtectedConfigurationSection_t3365_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyCollection_t3314_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -18437,8 +18437,8 @@ extern const MethodInfo ProtectedConfigurationSection_GetAllProviders_m12003_Met
 {
 	"GetAllProviders"/* name */
 	, (methodPointerType)&ProtectedConfigurationSection_GetAllProviders_m12003/* method */
-	, &ProtectedConfigurationSection_t3362_il2cpp_TypeInfo/* declaring_type */
-	, &ProtectedConfigurationProviderCollection_t3361_0_0_0/* return_type */
+	, &ProtectedConfigurationSection_t3365_il2cpp_TypeInfo/* declaring_type */
+	, &ProtectedConfigurationProviderCollection_t3364_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -18454,11 +18454,11 @@ extern const MethodInfo ProtectedConfigurationSection_GetAllProviders_m12003_Met
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ProviderSettings_t3363_0_0_0;
-extern const Il2CppType ProviderSettings_t3363_0_0_0;
-static const ParameterInfo ProtectedConfigurationSection_t3362_ProtectedConfigurationSection_InstantiateProvider_m12004_ParameterInfos[] = 
+extern const Il2CppType ProviderSettings_t3366_0_0_0;
+extern const Il2CppType ProviderSettings_t3366_0_0_0;
+static const ParameterInfo ProtectedConfigurationSection_t3365_ProtectedConfigurationSection_InstantiateProvider_m12004_ParameterInfos[] = 
 {
-	{"ps", 0, 134218027, 0, &ProviderSettings_t3363_0_0_0},
+	{"ps", 0, 134218027, 0, &ProviderSettings_t3366_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.ProtectedConfigurationProvider System.Configuration.ProtectedConfigurationSection::InstantiateProvider(System.Configuration.ProviderSettings)
@@ -18466,10 +18466,10 @@ extern const MethodInfo ProtectedConfigurationSection_InstantiateProvider_m12004
 {
 	"InstantiateProvider"/* name */
 	, (methodPointerType)&ProtectedConfigurationSection_InstantiateProvider_m12004/* method */
-	, &ProtectedConfigurationSection_t3362_il2cpp_TypeInfo/* declaring_type */
-	, &ProtectedConfigurationProvider_t3360_0_0_0/* return_type */
+	, &ProtectedConfigurationSection_t3365_il2cpp_TypeInfo/* declaring_type */
+	, &ProtectedConfigurationProvider_t3363_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ProtectedConfigurationSection_t3362_ProtectedConfigurationSection_InstantiateProvider_m12004_ParameterInfos/* parameters */
+	, ProtectedConfigurationSection_t3365_ProtectedConfigurationSection_InstantiateProvider_m12004_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -18483,7 +18483,7 @@ extern const MethodInfo ProtectedConfigurationSection_InstantiateProvider_m12004
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ProtectedConfigurationSection_t3362_MethodInfos[] =
+static const MethodInfo* ProtectedConfigurationSection_t3365_MethodInfos[] =
 {
 	&ProtectedConfigurationSection__cctor_m12000_MethodInfo,
 	&ProtectedConfigurationSection_get_Providers_m12001_MethodInfo,
@@ -18493,9 +18493,9 @@ static const MethodInfo* ProtectedConfigurationSection_t3362_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ProtectedConfigurationSection_get_Providers_m12001_MethodInfo;
-static const PropertyInfo ProtectedConfigurationSection_t3362____Providers_PropertyInfo = 
+static const PropertyInfo ProtectedConfigurationSection_t3365____Providers_PropertyInfo = 
 {
-	&ProtectedConfigurationSection_t3362_il2cpp_TypeInfo/* parent */
+	&ProtectedConfigurationSection_t3365_il2cpp_TypeInfo/* parent */
 	, "Providers"/* name */
 	, &ProtectedConfigurationSection_get_Providers_m12001_MethodInfo/* get */
 	, NULL/* set */
@@ -18504,9 +18504,9 @@ static const PropertyInfo ProtectedConfigurationSection_t3362____Providers_Prope
 
 };
 extern const MethodInfo ProtectedConfigurationSection_get_Properties_m12002_MethodInfo;
-static const PropertyInfo ProtectedConfigurationSection_t3362____Properties_PropertyInfo = 
+static const PropertyInfo ProtectedConfigurationSection_t3365____Properties_PropertyInfo = 
 {
-	&ProtectedConfigurationSection_t3362_il2cpp_TypeInfo/* parent */
+	&ProtectedConfigurationSection_t3365_il2cpp_TypeInfo/* parent */
 	, "Properties"/* name */
 	, &ProtectedConfigurationSection_get_Properties_m12002_MethodInfo/* get */
 	, NULL/* set */
@@ -18514,13 +18514,13 @@ static const PropertyInfo ProtectedConfigurationSection_t3362____Properties_Prop
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ProtectedConfigurationSection_t3362_PropertyInfos[] =
+static const PropertyInfo* ProtectedConfigurationSection_t3365_PropertyInfos[] =
 {
-	&ProtectedConfigurationSection_t3362____Providers_PropertyInfo,
-	&ProtectedConfigurationSection_t3362____Properties_PropertyInfo,
+	&ProtectedConfigurationSection_t3365____Providers_PropertyInfo,
+	&ProtectedConfigurationSection_t3365____Properties_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference ProtectedConfigurationSection_t3362_VTable[] =
+static const Il2CppMethodReference ProtectedConfigurationSection_t3365_VTable[] =
 {
 	&ConfigurationElement_Equals_m11733_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -18550,7 +18550,7 @@ static const Il2CppMethodReference ProtectedConfigurationSection_t3362_VTable[] 
 	&ConfigurationSection_DeserializeSection_m11888_MethodInfo,
 	&ConfigurationSection_SerializeSection_m11890_MethodInfo,
 };
-static bool ProtectedConfigurationSection_t3362_VTableIsGenericMethod[] =
+static bool ProtectedConfigurationSection_t3365_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -18581,36 +18581,36 @@ static bool ProtectedConfigurationSection_t3362_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ProtectedConfigurationSection_t3362_1_0_0;
-struct ProtectedConfigurationSection_t3362;
-const Il2CppTypeDefinitionMetadata ProtectedConfigurationSection_t3362_DefinitionMetadata = 
+extern const Il2CppType ProtectedConfigurationSection_t3365_1_0_0;
+struct ProtectedConfigurationSection_t3365;
+const Il2CppTypeDefinitionMetadata ProtectedConfigurationSection_t3365_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &ConfigurationSection_t3337_0_0_0/* parent */
-	, ProtectedConfigurationSection_t3362_VTable/* vtableMethods */
-	, ProtectedConfigurationSection_t3362_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &ConfigurationSection_t3340_0_0_0/* parent */
+	, ProtectedConfigurationSection_t3365_VTable/* vtableMethods */
+	, ProtectedConfigurationSection_t3365_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 173/* fieldStart */
 
 };
-TypeInfo ProtectedConfigurationSection_t3362_il2cpp_TypeInfo = 
+TypeInfo ProtectedConfigurationSection_t3365_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ProtectedConfigurationSection"/* name */
 	, "System.Configuration"/* namespaze */
-	, ProtectedConfigurationSection_t3362_MethodInfos/* methods */
-	, ProtectedConfigurationSection_t3362_PropertyInfos/* properties */
+	, ProtectedConfigurationSection_t3365_MethodInfos/* methods */
+	, ProtectedConfigurationSection_t3365_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ProtectedConfigurationSection_t3362_il2cpp_TypeInfo/* element_class */
+	, &ProtectedConfigurationSection_t3365_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ProtectedConfigurationSection_t3362_0_0_0/* byval_arg */
-	, &ProtectedConfigurationSection_t3362_1_0_0/* this_arg */
-	, &ProtectedConfigurationSection_t3362_DefinitionMetadata/* definitionMetadata */
+	, &ProtectedConfigurationSection_t3365_0_0_0/* byval_arg */
+	, &ProtectedConfigurationSection_t3365_1_0_0/* this_arg */
+	, &ProtectedConfigurationSection_t3365_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -18620,11 +18620,11 @@ TypeInfo ProtectedConfigurationSection_t3362_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ProtectedConfigurationSection_t3362)/* instance_size */
-	, sizeof (ProtectedConfigurationSection_t3362)/* actualSize */
+	, sizeof (ProtectedConfigurationSection_t3365)/* instance_size */
+	, sizeof (ProtectedConfigurationSection_t3365)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(ProtectedConfigurationSection_t3362_StaticFields)/* static_fields_size */
+	, sizeof(ProtectedConfigurationSection_t3365_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 257/* flags */
@@ -18653,7 +18653,7 @@ TypeInfo ProtectedConfigurationSection_t3362_il2cpp_TypeInfo =
 // System.Configuration.ProviderSettings
 #include "System_Configuration_System_Configuration_ProviderSettings.h"
 // Metadata Definition System.Configuration.ProviderSettings
-extern TypeInfo ProviderSettings_t3363_il2cpp_TypeInfo;
+extern TypeInfo ProviderSettings_t3366_il2cpp_TypeInfo;
 // System.Configuration.ProviderSettings
 #include "System_Configuration_System_Configuration_ProviderSettingsMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -18662,7 +18662,7 @@ extern const MethodInfo ProviderSettings__ctor_m12005_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ProviderSettings__ctor_m12005/* method */
-	, &ProviderSettings_t3363_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderSettings_t3366_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -18685,7 +18685,7 @@ extern const MethodInfo ProviderSettings__cctor_m12006_MethodInfo =
 {
 	".cctor"/* name */
 	, (methodPointerType)&ProviderSettings__cctor_m12006/* method */
-	, &ProviderSettings_t3363_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderSettings_t3366_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -18704,7 +18704,7 @@ extern const MethodInfo ProviderSettings__cctor_m12006_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ProviderSettings_t3363_ProviderSettings_OnDeserializeUnrecognizedAttribute_m12007_ParameterInfos[] = 
+static const ParameterInfo ProviderSettings_t3366_ProviderSettings_OnDeserializeUnrecognizedAttribute_m12007_ParameterInfos[] = 
 {
 	{"name", 0, 134218028, 0, &String_t_0_0_0},
 	{"value", 1, 134218029, 0, &String_t_0_0_0},
@@ -18715,10 +18715,10 @@ extern const MethodInfo ProviderSettings_OnDeserializeUnrecognizedAttribute_m120
 {
 	"OnDeserializeUnrecognizedAttribute"/* name */
 	, (methodPointerType)&ProviderSettings_OnDeserializeUnrecognizedAttribute_m12007/* method */
-	, &ProviderSettings_t3363_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderSettings_t3366_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t_Object_t/* invoker_method */
-	, ProviderSettings_t3363_ProviderSettings_OnDeserializeUnrecognizedAttribute_m12007_ParameterInfos/* parameters */
+	, ProviderSettings_t3366_ProviderSettings_OnDeserializeUnrecognizedAttribute_m12007_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 196/* flags */
 	, 0/* iflags */
@@ -18738,7 +18738,7 @@ extern const MethodInfo ProviderSettings_IsModified_m12008_MethodInfo =
 {
 	"IsModified"/* name */
 	, (methodPointerType)&ProviderSettings_IsModified_m12008/* method */
-	, &ProviderSettings_t3363_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderSettings_t3366_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59/* invoker_method */
 	, NULL/* parameters */
@@ -18755,10 +18755,10 @@ extern const MethodInfo ProviderSettings_IsModified_m12008_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-static const ParameterInfo ProviderSettings_t3363_ProviderSettings_Reset_m12009_ParameterInfos[] = 
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+static const ParameterInfo ProviderSettings_t3366_ProviderSettings_Reset_m12009_ParameterInfos[] = 
 {
-	{"parentElement", 0, 134218030, 0, &ConfigurationElement_t3315_0_0_0},
+	{"parentElement", 0, 134218030, 0, &ConfigurationElement_t3318_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ProviderSettings::Reset(System.Configuration.ConfigurationElement)
@@ -18766,10 +18766,10 @@ extern const MethodInfo ProviderSettings_Reset_m12009_MethodInfo =
 {
 	"Reset"/* name */
 	, (methodPointerType)&ProviderSettings_Reset_m12009/* method */
-	, &ProviderSettings_t3363_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderSettings_t3366_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ProviderSettings_t3363_ProviderSettings_Reset_m12009_ParameterInfos/* parameters */
+	, ProviderSettings_t3366_ProviderSettings_Reset_m12009_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 197/* flags */
 	, 0/* iflags */
@@ -18783,14 +18783,14 @@ extern const MethodInfo ProviderSettings_Reset_m12009_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-extern const Il2CppType ConfigurationSaveMode_t3334_0_0_0;
-static const ParameterInfo ProviderSettings_t3363_ProviderSettings_Unmerge_m12010_ParameterInfos[] = 
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+extern const Il2CppType ConfigurationSaveMode_t3337_0_0_0;
+static const ParameterInfo ProviderSettings_t3366_ProviderSettings_Unmerge_m12010_ParameterInfos[] = 
 {
-	{"source", 0, 134218031, 0, &ConfigurationElement_t3315_0_0_0},
-	{"parent", 1, 134218032, 0, &ConfigurationElement_t3315_0_0_0},
-	{"updateMode", 2, 134218033, 0, &ConfigurationSaveMode_t3334_0_0_0},
+	{"source", 0, 134218031, 0, &ConfigurationElement_t3318_0_0_0},
+	{"parent", 1, 134218032, 0, &ConfigurationElement_t3318_0_0_0},
+	{"updateMode", 2, 134218033, 0, &ConfigurationSaveMode_t3337_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ProviderSettings::Unmerge(System.Configuration.ConfigurationElement,System.Configuration.ConfigurationElement,System.Configuration.ConfigurationSaveMode)
@@ -18798,10 +18798,10 @@ extern const MethodInfo ProviderSettings_Unmerge_m12010_MethodInfo =
 {
 	"Unmerge"/* name */
 	, (methodPointerType)&ProviderSettings_Unmerge_m12010/* method */
-	, &ProviderSettings_t3363_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderSettings_t3366_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Int32_t82/* invoker_method */
-	, ProviderSettings_t3363_ProviderSettings_Unmerge_m12010_ParameterInfos/* parameters */
+	, ProviderSettings_t3366_ProviderSettings_Unmerge_m12010_ParameterInfos/* parameters */
 	, 58/* custom_attributes_cache */
 	, 197/* flags */
 	, 0/* iflags */
@@ -18821,7 +18821,7 @@ extern const MethodInfo ProviderSettings_get_Name_m12011_MethodInfo =
 {
 	"get_Name"/* name */
 	, (methodPointerType)&ProviderSettings_get_Name_m12011/* method */
-	, &ProviderSettings_t3363_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderSettings_t3366_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -18844,7 +18844,7 @@ extern const MethodInfo ProviderSettings_get_Type_m12012_MethodInfo =
 {
 	"get_Type"/* name */
 	, (methodPointerType)&ProviderSettings_get_Type_m12012/* method */
-	, &ProviderSettings_t3363_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderSettings_t3366_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -18867,8 +18867,8 @@ extern const MethodInfo ProviderSettings_get_Properties_m12013_MethodInfo =
 {
 	"get_Properties"/* name */
 	, (methodPointerType)&ProviderSettings_get_Properties_m12013/* method */
-	, &ProviderSettings_t3363_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationPropertyCollection_t3311_0_0_0/* return_type */
+	, &ProviderSettings_t3366_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyCollection_t3314_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -18890,8 +18890,8 @@ extern const MethodInfo ProviderSettings_get_Parameters_m12014_MethodInfo =
 {
 	"get_Parameters"/* name */
 	, (methodPointerType)&ProviderSettings_get_Parameters_m12014/* method */
-	, &ProviderSettings_t3363_il2cpp_TypeInfo/* declaring_type */
-	, &NameValueCollection_t3300_0_0_0/* return_type */
+	, &ProviderSettings_t3366_il2cpp_TypeInfo/* declaring_type */
+	, &NameValueCollection_t3303_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -18907,7 +18907,7 @@ extern const MethodInfo ProviderSettings_get_Parameters_m12014_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ProviderSettings_t3363_MethodInfos[] =
+static const MethodInfo* ProviderSettings_t3366_MethodInfos[] =
 {
 	&ProviderSettings__ctor_m12005_MethodInfo,
 	&ProviderSettings__cctor_m12006_MethodInfo,
@@ -18922,9 +18922,9 @@ static const MethodInfo* ProviderSettings_t3363_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ProviderSettings_get_Name_m12011_MethodInfo;
-static const PropertyInfo ProviderSettings_t3363____Name_PropertyInfo = 
+static const PropertyInfo ProviderSettings_t3366____Name_PropertyInfo = 
 {
-	&ProviderSettings_t3363_il2cpp_TypeInfo/* parent */
+	&ProviderSettings_t3366_il2cpp_TypeInfo/* parent */
 	, "Name"/* name */
 	, &ProviderSettings_get_Name_m12011_MethodInfo/* get */
 	, NULL/* set */
@@ -18933,9 +18933,9 @@ static const PropertyInfo ProviderSettings_t3363____Name_PropertyInfo =
 
 };
 extern const MethodInfo ProviderSettings_get_Type_m12012_MethodInfo;
-static const PropertyInfo ProviderSettings_t3363____Type_PropertyInfo = 
+static const PropertyInfo ProviderSettings_t3366____Type_PropertyInfo = 
 {
-	&ProviderSettings_t3363_il2cpp_TypeInfo/* parent */
+	&ProviderSettings_t3366_il2cpp_TypeInfo/* parent */
 	, "Type"/* name */
 	, &ProviderSettings_get_Type_m12012_MethodInfo/* get */
 	, NULL/* set */
@@ -18944,9 +18944,9 @@ static const PropertyInfo ProviderSettings_t3363____Type_PropertyInfo =
 
 };
 extern const MethodInfo ProviderSettings_get_Properties_m12013_MethodInfo;
-static const PropertyInfo ProviderSettings_t3363____Properties_PropertyInfo = 
+static const PropertyInfo ProviderSettings_t3366____Properties_PropertyInfo = 
 {
-	&ProviderSettings_t3363_il2cpp_TypeInfo/* parent */
+	&ProviderSettings_t3366_il2cpp_TypeInfo/* parent */
 	, "Properties"/* name */
 	, &ProviderSettings_get_Properties_m12013_MethodInfo/* get */
 	, NULL/* set */
@@ -18955,9 +18955,9 @@ static const PropertyInfo ProviderSettings_t3363____Properties_PropertyInfo =
 
 };
 extern const MethodInfo ProviderSettings_get_Parameters_m12014_MethodInfo;
-static const PropertyInfo ProviderSettings_t3363____Parameters_PropertyInfo = 
+static const PropertyInfo ProviderSettings_t3366____Parameters_PropertyInfo = 
 {
-	&ProviderSettings_t3363_il2cpp_TypeInfo/* parent */
+	&ProviderSettings_t3366_il2cpp_TypeInfo/* parent */
 	, "Parameters"/* name */
 	, &ProviderSettings_get_Parameters_m12014_MethodInfo/* get */
 	, NULL/* set */
@@ -18965,19 +18965,19 @@ static const PropertyInfo ProviderSettings_t3363____Parameters_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ProviderSettings_t3363_PropertyInfos[] =
+static const PropertyInfo* ProviderSettings_t3366_PropertyInfos[] =
 {
-	&ProviderSettings_t3363____Name_PropertyInfo,
-	&ProviderSettings_t3363____Type_PropertyInfo,
-	&ProviderSettings_t3363____Properties_PropertyInfo,
-	&ProviderSettings_t3363____Parameters_PropertyInfo,
+	&ProviderSettings_t3366____Name_PropertyInfo,
+	&ProviderSettings_t3366____Type_PropertyInfo,
+	&ProviderSettings_t3366____Properties_PropertyInfo,
+	&ProviderSettings_t3366____Parameters_PropertyInfo,
 	NULL
 };
 extern const MethodInfo ProviderSettings_OnDeserializeUnrecognizedAttribute_m12007_MethodInfo;
 extern const MethodInfo ProviderSettings_IsModified_m12008_MethodInfo;
 extern const MethodInfo ProviderSettings_Reset_m12009_MethodInfo;
 extern const MethodInfo ProviderSettings_Unmerge_m12010_MethodInfo;
-static const Il2CppMethodReference ProviderSettings_t3363_VTable[] =
+static const Il2CppMethodReference ProviderSettings_t3366_VTable[] =
 {
 	&ConfigurationElement_Equals_m11733_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -19004,7 +19004,7 @@ static const Il2CppMethodReference ProviderSettings_t3363_VTable[] =
 	&ConfigurationElement_SerializeToXmlElement_m11750_MethodInfo,
 	&ProviderSettings_Unmerge_m12010_MethodInfo,
 };
-static bool ProviderSettings_t3363_VTableIsGenericMethod[] =
+static bool ProviderSettings_t3366_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -19032,36 +19032,36 @@ static bool ProviderSettings_t3363_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ProviderSettings_t3363_1_0_0;
-struct ProviderSettings_t3363;
-const Il2CppTypeDefinitionMetadata ProviderSettings_t3363_DefinitionMetadata = 
+extern const Il2CppType ProviderSettings_t3366_1_0_0;
+struct ProviderSettings_t3366;
+const Il2CppTypeDefinitionMetadata ProviderSettings_t3366_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &ConfigurationElement_t3315_0_0_0/* parent */
-	, ProviderSettings_t3363_VTable/* vtableMethods */
-	, ProviderSettings_t3363_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &ConfigurationElement_t3318_0_0_0/* parent */
+	, ProviderSettings_t3366_VTable/* vtableMethods */
+	, ProviderSettings_t3366_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 177/* fieldStart */
 
 };
-TypeInfo ProviderSettings_t3363_il2cpp_TypeInfo = 
+TypeInfo ProviderSettings_t3366_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ProviderSettings"/* name */
 	, "System.Configuration"/* namespaze */
-	, ProviderSettings_t3363_MethodInfos/* methods */
-	, ProviderSettings_t3363_PropertyInfos/* properties */
+	, ProviderSettings_t3366_MethodInfos/* methods */
+	, ProviderSettings_t3366_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ProviderSettings_t3363_il2cpp_TypeInfo/* element_class */
+	, &ProviderSettings_t3366_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &ProviderSettings_t3363_0_0_0/* byval_arg */
-	, &ProviderSettings_t3363_1_0_0/* this_arg */
-	, &ProviderSettings_t3363_DefinitionMetadata/* definitionMetadata */
+	, &ProviderSettings_t3366_0_0_0/* byval_arg */
+	, &ProviderSettings_t3366_1_0_0/* this_arg */
+	, &ProviderSettings_t3366_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -19071,11 +19071,11 @@ TypeInfo ProviderSettings_t3363_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ProviderSettings_t3363)/* instance_size */
-	, sizeof (ProviderSettings_t3363)/* actualSize */
+	, sizeof (ProviderSettings_t3366)/* instance_size */
+	, sizeof (ProviderSettings_t3366)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(ProviderSettings_t3363_StaticFields)/* static_fields_size */
+	, sizeof(ProviderSettings_t3366_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 257/* flags */
@@ -19104,7 +19104,7 @@ TypeInfo ProviderSettings_t3363_il2cpp_TypeInfo =
 // System.Configuration.ProviderSettingsCollection
 #include "System_Configuration_System_Configuration_ProviderSettingsCo.h"
 // Metadata Definition System.Configuration.ProviderSettingsCollection
-extern TypeInfo ProviderSettingsCollection_t3364_il2cpp_TypeInfo;
+extern TypeInfo ProviderSettingsCollection_t3367_il2cpp_TypeInfo;
 // System.Configuration.ProviderSettingsCollection
 #include "System_Configuration_System_Configuration_ProviderSettingsCoMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -19113,7 +19113,7 @@ extern const MethodInfo ProviderSettingsCollection__cctor_m12015_MethodInfo =
 {
 	".cctor"/* name */
 	, (methodPointerType)&ProviderSettingsCollection__cctor_m12015/* method */
-	, &ProviderSettingsCollection_t3364_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderSettingsCollection_t3367_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -19136,8 +19136,8 @@ extern const MethodInfo ProviderSettingsCollection_CreateNewElement_m12016_Metho
 {
 	"CreateNewElement"/* name */
 	, (methodPointerType)&ProviderSettingsCollection_CreateNewElement_m12016/* method */
-	, &ProviderSettingsCollection_t3364_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationElement_t3315_0_0_0/* return_type */
+	, &ProviderSettingsCollection_t3367_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationElement_t3318_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -19153,10 +19153,10 @@ extern const MethodInfo ProviderSettingsCollection_CreateNewElement_m12016_Metho
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationElement_t3315_0_0_0;
-static const ParameterInfo ProviderSettingsCollection_t3364_ProviderSettingsCollection_GetElementKey_m12017_ParameterInfos[] = 
+extern const Il2CppType ConfigurationElement_t3318_0_0_0;
+static const ParameterInfo ProviderSettingsCollection_t3367_ProviderSettingsCollection_GetElementKey_m12017_ParameterInfos[] = 
 {
-	{"element", 0, 134218034, 0, &ConfigurationElement_t3315_0_0_0},
+	{"element", 0, 134218034, 0, &ConfigurationElement_t3318_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Object System.Configuration.ProviderSettingsCollection::GetElementKey(System.Configuration.ConfigurationElement)
@@ -19164,10 +19164,10 @@ extern const MethodInfo ProviderSettingsCollection_GetElementKey_m12017_MethodIn
 {
 	"GetElementKey"/* name */
 	, (methodPointerType)&ProviderSettingsCollection_GetElementKey_m12017/* method */
-	, &ProviderSettingsCollection_t3364_il2cpp_TypeInfo/* declaring_type */
+	, &ProviderSettingsCollection_t3367_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ProviderSettingsCollection_t3364_ProviderSettingsCollection_GetElementKey_m12017_ParameterInfos/* parameters */
+	, ProviderSettingsCollection_t3367_ProviderSettingsCollection_GetElementKey_m12017_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 196/* flags */
 	, 0/* iflags */
@@ -19187,8 +19187,8 @@ extern const MethodInfo ProviderSettingsCollection_get_Properties_m12018_MethodI
 {
 	"get_Properties"/* name */
 	, (methodPointerType)&ProviderSettingsCollection_get_Properties_m12018/* method */
-	, &ProviderSettingsCollection_t3364_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationPropertyCollection_t3311_0_0_0/* return_type */
+	, &ProviderSettingsCollection_t3367_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationPropertyCollection_t3314_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -19204,7 +19204,7 @@ extern const MethodInfo ProviderSettingsCollection_get_Properties_m12018_MethodI
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ProviderSettingsCollection_t3364_MethodInfos[] =
+static const MethodInfo* ProviderSettingsCollection_t3367_MethodInfos[] =
 {
 	&ProviderSettingsCollection__cctor_m12015_MethodInfo,
 	&ProviderSettingsCollection_CreateNewElement_m12016_MethodInfo,
@@ -19213,9 +19213,9 @@ static const MethodInfo* ProviderSettingsCollection_t3364_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ProviderSettingsCollection_get_Properties_m12018_MethodInfo;
-static const PropertyInfo ProviderSettingsCollection_t3364____Properties_PropertyInfo = 
+static const PropertyInfo ProviderSettingsCollection_t3367____Properties_PropertyInfo = 
 {
-	&ProviderSettingsCollection_t3364_il2cpp_TypeInfo/* parent */
+	&ProviderSettingsCollection_t3367_il2cpp_TypeInfo/* parent */
 	, "Properties"/* name */
 	, &ProviderSettingsCollection_get_Properties_m12018_MethodInfo/* get */
 	, NULL/* set */
@@ -19223,14 +19223,14 @@ static const PropertyInfo ProviderSettingsCollection_t3364____Properties_Propert
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ProviderSettingsCollection_t3364_PropertyInfos[] =
+static const PropertyInfo* ProviderSettingsCollection_t3367_PropertyInfos[] =
 {
-	&ProviderSettingsCollection_t3364____Properties_PropertyInfo,
+	&ProviderSettingsCollection_t3367____Properties_PropertyInfo,
 	NULL
 };
 extern const MethodInfo ProviderSettingsCollection_CreateNewElement_m12016_MethodInfo;
 extern const MethodInfo ProviderSettingsCollection_GetElementKey_m12017_MethodInfo;
-static const Il2CppMethodReference ProviderSettingsCollection_t3364_VTable[] =
+static const Il2CppMethodReference ProviderSettingsCollection_t3367_VTable[] =
 {
 	&ConfigurationElementCollection_Equals_m11788_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -19271,7 +19271,7 @@ static const Il2CppMethodReference ProviderSettingsCollection_t3364_VTable[] =
 	&ConfigurationElementCollection_IsElementName_m11791_MethodInfo,
 	&ConfigurationElementCollection_IsElementRemovable_m11792_MethodInfo,
 };
-static bool ProviderSettingsCollection_t3364_VTableIsGenericMethod[] =
+static bool ProviderSettingsCollection_t3367_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -19312,42 +19312,42 @@ static bool ProviderSettingsCollection_t3364_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair ProviderSettingsCollection_t3364_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ProviderSettingsCollection_t3367_InterfacesOffsets[] = 
 {
-	{ &ICollection_t769_0_0_0, 24},
+	{ &ICollection_t772_0_0_0, 24},
 	{ &IEnumerable_t104_0_0_0, 28},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ProviderSettingsCollection_t3364_1_0_0;
-struct ProviderSettingsCollection_t3364;
-const Il2CppTypeDefinitionMetadata ProviderSettingsCollection_t3364_DefinitionMetadata = 
+extern const Il2CppType ProviderSettingsCollection_t3367_1_0_0;
+struct ProviderSettingsCollection_t3367;
+const Il2CppTypeDefinitionMetadata ProviderSettingsCollection_t3367_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ProviderSettingsCollection_t3364_InterfacesOffsets/* interfaceOffsets */
-	, &ConfigurationElementCollection_t3312_0_0_0/* parent */
-	, ProviderSettingsCollection_t3364_VTable/* vtableMethods */
-	, ProviderSettingsCollection_t3364_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ProviderSettingsCollection_t3367_InterfacesOffsets/* interfaceOffsets */
+	, &ConfigurationElementCollection_t3315_0_0_0/* parent */
+	, ProviderSettingsCollection_t3367_VTable/* vtableMethods */
+	, ProviderSettingsCollection_t3367_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 181/* fieldStart */
 
 };
-TypeInfo ProviderSettingsCollection_t3364_il2cpp_TypeInfo = 
+TypeInfo ProviderSettingsCollection_t3367_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ProviderSettingsCollection"/* name */
 	, "System.Configuration"/* namespaze */
-	, ProviderSettingsCollection_t3364_MethodInfos/* methods */
-	, ProviderSettingsCollection_t3364_PropertyInfos/* properties */
+	, ProviderSettingsCollection_t3367_MethodInfos/* methods */
+	, ProviderSettingsCollection_t3367_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ProviderSettingsCollection_t3364_il2cpp_TypeInfo/* element_class */
+	, &ProviderSettingsCollection_t3367_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 61/* custom_attributes_cache */
-	, &ProviderSettingsCollection_t3364_0_0_0/* byval_arg */
-	, &ProviderSettingsCollection_t3364_1_0_0/* this_arg */
-	, &ProviderSettingsCollection_t3364_DefinitionMetadata/* definitionMetadata */
+	, &ProviderSettingsCollection_t3367_0_0_0/* byval_arg */
+	, &ProviderSettingsCollection_t3367_1_0_0/* this_arg */
+	, &ProviderSettingsCollection_t3367_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -19357,11 +19357,11 @@ TypeInfo ProviderSettingsCollection_t3364_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ProviderSettingsCollection_t3364)/* instance_size */
-	, sizeof (ProviderSettingsCollection_t3364)/* actualSize */
+	, sizeof (ProviderSettingsCollection_t3367)/* instance_size */
+	, sizeof (ProviderSettingsCollection_t3367)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(ProviderSettingsCollection_t3364_StaticFields)/* static_fields_size */
+	, sizeof(ProviderSettingsCollection_t3367_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048833/* flags */
@@ -19390,7 +19390,7 @@ TypeInfo ProviderSettingsCollection_t3364_il2cpp_TypeInfo =
 // System.Configuration.SectionInfo
 #include "System_Configuration_System_Configuration_SectionInfo.h"
 // Metadata Definition System.Configuration.SectionInfo
-extern TypeInfo SectionInfo_t3365_il2cpp_TypeInfo;
+extern TypeInfo SectionInfo_t3368_il2cpp_TypeInfo;
 // System.Configuration.SectionInfo
 #include "System_Configuration_System_Configuration_SectionInfoMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -19399,7 +19399,7 @@ extern const MethodInfo SectionInfo__ctor_m12019_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&SectionInfo__ctor_m12019/* method */
-	, &SectionInfo_t3365_il2cpp_TypeInfo/* declaring_type */
+	, &SectionInfo_t3368_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -19422,7 +19422,7 @@ extern const MethodInfo SectionInfo_CreateInstance_m12020_MethodInfo =
 {
 	"CreateInstance"/* name */
 	, (methodPointerType)&SectionInfo_CreateInstance_m12020/* method */
-	, &SectionInfo_t3365_il2cpp_TypeInfo/* declaring_type */
+	, &SectionInfo_t3368_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -19439,14 +19439,14 @@ extern const MethodInfo SectionInfo_CreateInstance_m12020_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Configuration_t3297_0_0_0;
+extern const Il2CppType Configuration_t3300_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlReader_t3369_0_0_0;
-static const ParameterInfo SectionInfo_t3365_SectionInfo_ReadConfig_m12021_ParameterInfos[] = 
+extern const Il2CppType XmlReader_t3372_0_0_0;
+static const ParameterInfo SectionInfo_t3368_SectionInfo_ReadConfig_m12021_ParameterInfos[] = 
 {
-	{"cfg", 0, 134218035, 0, &Configuration_t3297_0_0_0},
+	{"cfg", 0, 134218035, 0, &Configuration_t3300_0_0_0},
 	{"streamName", 1, 134218036, 0, &String_t_0_0_0},
-	{"reader", 2, 134218037, 0, &XmlReader_t3369_0_0_0},
+	{"reader", 2, 134218037, 0, &XmlReader_t3372_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.SectionInfo::ReadConfig(System.Configuration.Configuration,System.String,System.Xml.XmlReader)
@@ -19454,10 +19454,10 @@ extern const MethodInfo SectionInfo_ReadConfig_m12021_MethodInfo =
 {
 	"ReadConfig"/* name */
 	, (methodPointerType)&SectionInfo_ReadConfig_m12021/* method */
-	, &SectionInfo_t3365_il2cpp_TypeInfo/* declaring_type */
+	, &SectionInfo_t3368_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t/* invoker_method */
-	, SectionInfo_t3365_SectionInfo_ReadConfig_m12021_ParameterInfos/* parameters */
+	, SectionInfo_t3368_SectionInfo_ReadConfig_m12021_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -19471,13 +19471,13 @@ extern const MethodInfo SectionInfo_ReadConfig_m12021_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Configuration_t3297_0_0_0;
-extern const Il2CppType XmlReader_t3369_0_0_0;
+extern const Il2CppType Configuration_t3300_0_0_0;
+extern const Il2CppType XmlReader_t3372_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo SectionInfo_t3365_SectionInfo_ReadData_m12022_ParameterInfos[] = 
+static const ParameterInfo SectionInfo_t3368_SectionInfo_ReadData_m12022_ParameterInfos[] = 
 {
-	{"config", 0, 134218038, 0, &Configuration_t3297_0_0_0},
-	{"reader", 1, 134218039, 0, &XmlReader_t3369_0_0_0},
+	{"config", 0, 134218038, 0, &Configuration_t3300_0_0_0},
+	{"reader", 1, 134218039, 0, &XmlReader_t3372_0_0_0},
 	{"overrideAllowed", 2, 134218040, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -19486,10 +19486,10 @@ extern const MethodInfo SectionInfo_ReadData_m12022_MethodInfo =
 {
 	"ReadData"/* name */
 	, (methodPointerType)&SectionInfo_ReadData_m12022/* method */
-	, &SectionInfo_t3365_il2cpp_TypeInfo/* declaring_type */
+	, &SectionInfo_t3368_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88/* invoker_method */
-	, SectionInfo_t3365_SectionInfo_ReadData_m12022_ParameterInfos/* parameters */
+	, SectionInfo_t3368_SectionInfo_ReadData_m12022_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -19503,10 +19503,10 @@ extern const MethodInfo SectionInfo_ReadData_m12022_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigInfo_t3301_0_0_0;
-static const ParameterInfo SectionInfo_t3365_SectionInfo_Merge_m12023_ParameterInfos[] = 
+extern const Il2CppType ConfigInfo_t3304_0_0_0;
+static const ParameterInfo SectionInfo_t3368_SectionInfo_Merge_m12023_ParameterInfos[] = 
 {
-	{"data", 0, 134218041, 0, &ConfigInfo_t3301_0_0_0},
+	{"data", 0, 134218041, 0, &ConfigInfo_t3304_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.SectionInfo::Merge(System.Configuration.ConfigInfo)
@@ -19514,10 +19514,10 @@ extern const MethodInfo SectionInfo_Merge_m12023_MethodInfo =
 {
 	"Merge"/* name */
 	, (methodPointerType)&SectionInfo_Merge_m12023/* method */
-	, &SectionInfo_t3365_il2cpp_TypeInfo/* declaring_type */
+	, &SectionInfo_t3368_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, SectionInfo_t3365_SectionInfo_Merge_m12023_ParameterInfos/* parameters */
+	, SectionInfo_t3368_SectionInfo_Merge_m12023_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 195/* flags */
 	, 0/* iflags */
@@ -19531,7 +19531,7 @@ extern const MethodInfo SectionInfo_Merge_m12023_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* SectionInfo_t3365_MethodInfos[] =
+static const MethodInfo* SectionInfo_t3368_MethodInfos[] =
 {
 	&SectionInfo__ctor_m12019_MethodInfo,
 	&SectionInfo_CreateInstance_m12020_MethodInfo,
@@ -19544,7 +19544,7 @@ extern const MethodInfo SectionInfo_CreateInstance_m12020_MethodInfo;
 extern const MethodInfo SectionInfo_ReadConfig_m12021_MethodInfo;
 extern const MethodInfo SectionInfo_ReadData_m12022_MethodInfo;
 extern const MethodInfo SectionInfo_Merge_m12023_MethodInfo;
-static const Il2CppMethodReference SectionInfo_t3365_VTable[] =
+static const Il2CppMethodReference SectionInfo_t3368_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -19555,7 +19555,7 @@ static const Il2CppMethodReference SectionInfo_t3365_VTable[] =
 	&SectionInfo_ReadData_m12022_MethodInfo,
 	&SectionInfo_Merge_m12023_MethodInfo,
 };
-static bool SectionInfo_t3365_VTableIsGenericMethod[] =
+static bool SectionInfo_t3368_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -19567,36 +19567,36 @@ static bool SectionInfo_t3365_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType SectionInfo_t3365_1_0_0;
-struct SectionInfo_t3365;
-const Il2CppTypeDefinitionMetadata SectionInfo_t3365_DefinitionMetadata = 
+extern const Il2CppType SectionInfo_t3368_1_0_0;
+struct SectionInfo_t3368;
+const Il2CppTypeDefinitionMetadata SectionInfo_t3368_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &ConfigInfo_t3301_0_0_0/* parent */
-	, SectionInfo_t3365_VTable/* vtableMethods */
-	, SectionInfo_t3365_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &ConfigInfo_t3304_0_0_0/* parent */
+	, SectionInfo_t3368_VTable/* vtableMethods */
+	, SectionInfo_t3368_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 182/* fieldStart */
 
 };
-TypeInfo SectionInfo_t3365_il2cpp_TypeInfo = 
+TypeInfo SectionInfo_t3368_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "SectionInfo"/* name */
 	, "System.Configuration"/* namespaze */
-	, SectionInfo_t3365_MethodInfos/* methods */
+	, SectionInfo_t3368_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &SectionInfo_t3365_il2cpp_TypeInfo/* element_class */
+	, &SectionInfo_t3368_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &SectionInfo_t3365_0_0_0/* byval_arg */
-	, &SectionInfo_t3365_1_0_0/* this_arg */
-	, &SectionInfo_t3365_DefinitionMetadata/* definitionMetadata */
+	, &SectionInfo_t3368_0_0_0/* byval_arg */
+	, &SectionInfo_t3368_1_0_0/* this_arg */
+	, &SectionInfo_t3368_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -19606,11 +19606,11 @@ TypeInfo SectionInfo_t3365_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (SectionInfo_t3365)/* instance_size */
-	, sizeof (SectionInfo_t3365)/* actualSize */
+	, sizeof (SectionInfo_t3368)/* instance_size */
+	, sizeof (SectionInfo_t3368)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(SectionInfo_t3365_StaticFields)/* static_fields_size */
+	, sizeof(SectionInfo_t3368_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048576/* flags */
@@ -19639,7 +19639,7 @@ TypeInfo SectionInfo_t3365_il2cpp_TypeInfo =
 // System.Configuration.SectionGroupInfo
 #include "System_Configuration_System_Configuration_SectionGroupInfo.h"
 // Metadata Definition System.Configuration.SectionGroupInfo
-extern TypeInfo SectionGroupInfo_t3305_il2cpp_TypeInfo;
+extern TypeInfo SectionGroupInfo_t3308_il2cpp_TypeInfo;
 // System.Configuration.SectionGroupInfo
 #include "System_Configuration_System_Configuration_SectionGroupInfoMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -19648,7 +19648,7 @@ extern const MethodInfo SectionGroupInfo__ctor_m12024_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&SectionGroupInfo__ctor_m12024/* method */
-	, &SectionGroupInfo_t3305_il2cpp_TypeInfo/* declaring_type */
+	, &SectionGroupInfo_t3308_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -19671,7 +19671,7 @@ extern const MethodInfo SectionGroupInfo__cctor_m12025_MethodInfo =
 {
 	".cctor"/* name */
 	, (methodPointerType)&SectionGroupInfo__cctor_m12025/* method */
-	, &SectionGroupInfo_t3305_il2cpp_TypeInfo/* declaring_type */
+	, &SectionGroupInfo_t3308_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -19688,10 +19688,10 @@ extern const MethodInfo SectionGroupInfo__cctor_m12025_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigInfo_t3301_0_0_0;
-static const ParameterInfo SectionGroupInfo_t3305_SectionGroupInfo_AddChild_m12026_ParameterInfos[] = 
+extern const Il2CppType ConfigInfo_t3304_0_0_0;
+static const ParameterInfo SectionGroupInfo_t3308_SectionGroupInfo_AddChild_m12026_ParameterInfos[] = 
 {
-	{"data", 0, 134218042, 0, &ConfigInfo_t3301_0_0_0},
+	{"data", 0, 134218042, 0, &ConfigInfo_t3304_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.SectionGroupInfo::AddChild(System.Configuration.ConfigInfo)
@@ -19699,10 +19699,10 @@ extern const MethodInfo SectionGroupInfo_AddChild_m12026_MethodInfo =
 {
 	"AddChild"/* name */
 	, (methodPointerType)&SectionGroupInfo_AddChild_m12026/* method */
-	, &SectionGroupInfo_t3305_il2cpp_TypeInfo/* declaring_type */
+	, &SectionGroupInfo_t3308_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, SectionGroupInfo_t3305_SectionGroupInfo_AddChild_m12026_ParameterInfos/* parameters */
+	, SectionGroupInfo_t3308_SectionGroupInfo_AddChild_m12026_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -19722,7 +19722,7 @@ extern const MethodInfo SectionGroupInfo_Clear_m12027_MethodInfo =
 {
 	"Clear"/* name */
 	, (methodPointerType)&SectionGroupInfo_Clear_m12027/* method */
-	, &SectionGroupInfo_t3305_il2cpp_TypeInfo/* declaring_type */
+	, &SectionGroupInfo_t3308_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -19740,7 +19740,7 @@ extern const MethodInfo SectionGroupInfo_Clear_m12027_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SectionGroupInfo_t3305_SectionGroupInfo_HasChild_m12028_ParameterInfos[] = 
+static const ParameterInfo SectionGroupInfo_t3308_SectionGroupInfo_HasChild_m12028_ParameterInfos[] = 
 {
 	{"name", 0, 134218043, 0, &String_t_0_0_0},
 };
@@ -19750,10 +19750,10 @@ extern const MethodInfo SectionGroupInfo_HasChild_m12028_MethodInfo =
 {
 	"HasChild"/* name */
 	, (methodPointerType)&SectionGroupInfo_HasChild_m12028/* method */
-	, &SectionGroupInfo_t3305_il2cpp_TypeInfo/* declaring_type */
+	, &SectionGroupInfo_t3308_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t59_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t59_Object_t/* invoker_method */
-	, SectionGroupInfo_t3305_SectionGroupInfo_HasChild_m12028_ParameterInfos/* parameters */
+	, SectionGroupInfo_t3308_SectionGroupInfo_HasChild_m12028_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -19768,7 +19768,7 @@ extern const MethodInfo SectionGroupInfo_HasChild_m12028_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SectionGroupInfo_t3305_SectionGroupInfo_RemoveChild_m12029_ParameterInfos[] = 
+static const ParameterInfo SectionGroupInfo_t3308_SectionGroupInfo_RemoveChild_m12029_ParameterInfos[] = 
 {
 	{"name", 0, 134218044, 0, &String_t_0_0_0},
 };
@@ -19778,10 +19778,10 @@ extern const MethodInfo SectionGroupInfo_RemoveChild_m12029_MethodInfo =
 {
 	"RemoveChild"/* name */
 	, (methodPointerType)&SectionGroupInfo_RemoveChild_m12029/* method */
-	, &SectionGroupInfo_t3305_il2cpp_TypeInfo/* declaring_type */
+	, &SectionGroupInfo_t3308_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, SectionGroupInfo_t3305_SectionGroupInfo_RemoveChild_m12029_ParameterInfos/* parameters */
+	, SectionGroupInfo_t3308_SectionGroupInfo_RemoveChild_m12029_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -19795,15 +19795,15 @@ extern const MethodInfo SectionGroupInfo_RemoveChild_m12029_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigInfoCollection_t3366_0_0_0;
+extern const Il2CppType ConfigInfoCollection_t3369_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.ConfigInfoCollection System.Configuration.SectionGroupInfo::get_Sections()
 extern const MethodInfo SectionGroupInfo_get_Sections_m12030_MethodInfo = 
 {
 	"get_Sections"/* name */
 	, (methodPointerType)&SectionGroupInfo_get_Sections_m12030/* method */
-	, &SectionGroupInfo_t3305_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigInfoCollection_t3366_0_0_0/* return_type */
+	, &SectionGroupInfo_t3308_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigInfoCollection_t3369_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -19825,8 +19825,8 @@ extern const MethodInfo SectionGroupInfo_get_Groups_m12031_MethodInfo =
 {
 	"get_Groups"/* name */
 	, (methodPointerType)&SectionGroupInfo_get_Groups_m12031/* method */
-	, &SectionGroupInfo_t3305_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigInfoCollection_t3366_0_0_0/* return_type */
+	, &SectionGroupInfo_t3308_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigInfoCollection_t3369_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -19842,14 +19842,14 @@ extern const MethodInfo SectionGroupInfo_get_Groups_m12031_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Configuration_t3297_0_0_0;
+extern const Il2CppType Configuration_t3300_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType XmlReader_t3369_0_0_0;
-static const ParameterInfo SectionGroupInfo_t3305_SectionGroupInfo_ReadConfig_m12032_ParameterInfos[] = 
+extern const Il2CppType XmlReader_t3372_0_0_0;
+static const ParameterInfo SectionGroupInfo_t3308_SectionGroupInfo_ReadConfig_m12032_ParameterInfos[] = 
 {
-	{"cfg", 0, 134218045, 0, &Configuration_t3297_0_0_0},
+	{"cfg", 0, 134218045, 0, &Configuration_t3300_0_0_0},
 	{"streamName", 1, 134218046, 0, &String_t_0_0_0},
-	{"reader", 2, 134218047, 0, &XmlReader_t3369_0_0_0},
+	{"reader", 2, 134218047, 0, &XmlReader_t3372_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.SectionGroupInfo::ReadConfig(System.Configuration.Configuration,System.String,System.Xml.XmlReader)
@@ -19857,10 +19857,10 @@ extern const MethodInfo SectionGroupInfo_ReadConfig_m12032_MethodInfo =
 {
 	"ReadConfig"/* name */
 	, (methodPointerType)&SectionGroupInfo_ReadConfig_m12032/* method */
-	, &SectionGroupInfo_t3305_il2cpp_TypeInfo/* declaring_type */
+	, &SectionGroupInfo_t3308_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t/* invoker_method */
-	, SectionGroupInfo_t3305_SectionGroupInfo_ReadConfig_m12032_ParameterInfos/* parameters */
+	, SectionGroupInfo_t3308_SectionGroupInfo_ReadConfig_m12032_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -19874,10 +19874,10 @@ extern const MethodInfo SectionGroupInfo_ReadConfig_m12032_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlReader_t3369_0_0_0;
-static const ParameterInfo SectionGroupInfo_t3305_SectionGroupInfo_ReadRemoveSection_m12033_ParameterInfos[] = 
+extern const Il2CppType XmlReader_t3372_0_0_0;
+static const ParameterInfo SectionGroupInfo_t3308_SectionGroupInfo_ReadRemoveSection_m12033_ParameterInfos[] = 
 {
-	{"reader", 0, 134218048, 0, &XmlReader_t3369_0_0_0},
+	{"reader", 0, 134218048, 0, &XmlReader_t3372_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.SectionGroupInfo::ReadRemoveSection(System.Xml.XmlReader)
@@ -19885,10 +19885,10 @@ extern const MethodInfo SectionGroupInfo_ReadRemoveSection_m12033_MethodInfo =
 {
 	"ReadRemoveSection"/* name */
 	, (methodPointerType)&SectionGroupInfo_ReadRemoveSection_m12033/* method */
-	, &SectionGroupInfo_t3305_il2cpp_TypeInfo/* declaring_type */
+	, &SectionGroupInfo_t3308_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, SectionGroupInfo_t3305_SectionGroupInfo_ReadRemoveSection_m12033_ParameterInfos/* parameters */
+	, SectionGroupInfo_t3308_SectionGroupInfo_ReadRemoveSection_m12033_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -19902,13 +19902,13 @@ extern const MethodInfo SectionGroupInfo_ReadRemoveSection_m12033_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlReader_t3369_0_0_0;
-extern const Il2CppType Configuration_t3297_0_0_0;
+extern const Il2CppType XmlReader_t3372_0_0_0;
+extern const Il2CppType Configuration_t3300_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo SectionGroupInfo_t3305_SectionGroupInfo_ReadRootData_m12034_ParameterInfos[] = 
+static const ParameterInfo SectionGroupInfo_t3308_SectionGroupInfo_ReadRootData_m12034_ParameterInfos[] = 
 {
-	{"reader", 0, 134218049, 0, &XmlReader_t3369_0_0_0},
-	{"config", 1, 134218050, 0, &Configuration_t3297_0_0_0},
+	{"reader", 0, 134218049, 0, &XmlReader_t3372_0_0_0},
+	{"config", 1, 134218050, 0, &Configuration_t3300_0_0_0},
 	{"overrideAllowed", 2, 134218051, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -19917,10 +19917,10 @@ extern const MethodInfo SectionGroupInfo_ReadRootData_m12034_MethodInfo =
 {
 	"ReadRootData"/* name */
 	, (methodPointerType)&SectionGroupInfo_ReadRootData_m12034/* method */
-	, &SectionGroupInfo_t3305_il2cpp_TypeInfo/* declaring_type */
+	, &SectionGroupInfo_t3308_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88/* invoker_method */
-	, SectionGroupInfo_t3305_SectionGroupInfo_ReadRootData_m12034_ParameterInfos/* parameters */
+	, SectionGroupInfo_t3308_SectionGroupInfo_ReadRootData_m12034_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -19934,13 +19934,13 @@ extern const MethodInfo SectionGroupInfo_ReadRootData_m12034_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType Configuration_t3297_0_0_0;
-extern const Il2CppType XmlReader_t3369_0_0_0;
+extern const Il2CppType Configuration_t3300_0_0_0;
+extern const Il2CppType XmlReader_t3372_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo SectionGroupInfo_t3305_SectionGroupInfo_ReadData_m12035_ParameterInfos[] = 
+static const ParameterInfo SectionGroupInfo_t3308_SectionGroupInfo_ReadData_m12035_ParameterInfos[] = 
 {
-	{"config", 0, 134218052, 0, &Configuration_t3297_0_0_0},
-	{"reader", 1, 134218053, 0, &XmlReader_t3369_0_0_0},
+	{"config", 0, 134218052, 0, &Configuration_t3300_0_0_0},
+	{"reader", 1, 134218053, 0, &XmlReader_t3372_0_0_0},
 	{"overrideAllowed", 2, 134218054, 0, &Boolean_t59_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88 (const MethodInfo* method, void* obj, void** args);
@@ -19949,10 +19949,10 @@ extern const MethodInfo SectionGroupInfo_ReadData_m12035_MethodInfo =
 {
 	"ReadData"/* name */
 	, (methodPointerType)&SectionGroupInfo_ReadData_m12035/* method */
-	, &SectionGroupInfo_t3305_il2cpp_TypeInfo/* declaring_type */
+	, &SectionGroupInfo_t3308_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88/* invoker_method */
-	, SectionGroupInfo_t3305_SectionGroupInfo_ReadData_m12035_ParameterInfos/* parameters */
+	, SectionGroupInfo_t3308_SectionGroupInfo_ReadData_m12035_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 198/* flags */
 	, 0/* iflags */
@@ -19966,14 +19966,14 @@ extern const MethodInfo SectionGroupInfo_ReadData_m12035_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlReader_t3369_0_0_0;
-extern const Il2CppType Configuration_t3297_0_0_0;
+extern const Il2CppType XmlReader_t3372_0_0_0;
+extern const Il2CppType Configuration_t3300_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo SectionGroupInfo_t3305_SectionGroupInfo_ReadContent_m12036_ParameterInfos[] = 
+static const ParameterInfo SectionGroupInfo_t3308_SectionGroupInfo_ReadContent_m12036_ParameterInfos[] = 
 {
-	{"reader", 0, 134218055, 0, &XmlReader_t3369_0_0_0},
-	{"config", 1, 134218056, 0, &Configuration_t3297_0_0_0},
+	{"reader", 0, 134218055, 0, &XmlReader_t3372_0_0_0},
+	{"config", 1, 134218056, 0, &Configuration_t3300_0_0_0},
 	{"overrideAllowed", 2, 134218057, 0, &Boolean_t59_0_0_0},
 	{"root", 3, 134218058, 0, &Boolean_t59_0_0_0},
 };
@@ -19983,10 +19983,10 @@ extern const MethodInfo SectionGroupInfo_ReadContent_m12036_MethodInfo =
 {
 	"ReadContent"/* name */
 	, (methodPointerType)&SectionGroupInfo_ReadContent_m12036/* method */
-	, &SectionGroupInfo_t3305_il2cpp_TypeInfo/* declaring_type */
+	, &SectionGroupInfo_t3308_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t_SByte_t88_SByte_t88/* invoker_method */
-	, SectionGroupInfo_t3305_SectionGroupInfo_ReadContent_m12036_ParameterInfos/* parameters */
+	, SectionGroupInfo_t3308_SectionGroupInfo_ReadContent_m12036_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -20000,12 +20000,12 @@ extern const MethodInfo SectionGroupInfo_ReadContent_m12036_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlReader_t3369_0_0_0;
-extern const Il2CppType SectionGroupInfo_t3305_0_0_0;
-static const ParameterInfo SectionGroupInfo_t3305_SectionGroupInfo_GetConfigInfo_m12037_ParameterInfos[] = 
+extern const Il2CppType XmlReader_t3372_0_0_0;
+extern const Il2CppType SectionGroupInfo_t3308_0_0_0;
+static const ParameterInfo SectionGroupInfo_t3308_SectionGroupInfo_GetConfigInfo_m12037_ParameterInfos[] = 
 {
-	{"reader", 0, 134218059, 0, &XmlReader_t3369_0_0_0},
-	{"current", 1, 134218060, 0, &SectionGroupInfo_t3305_0_0_0},
+	{"reader", 0, 134218059, 0, &XmlReader_t3372_0_0_0},
+	{"current", 1, 134218060, 0, &SectionGroupInfo_t3308_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Configuration.ConfigInfo System.Configuration.SectionGroupInfo::GetConfigInfo(System.Xml.XmlReader,System.Configuration.SectionGroupInfo)
@@ -20013,10 +20013,10 @@ extern const MethodInfo SectionGroupInfo_GetConfigInfo_m12037_MethodInfo =
 {
 	"GetConfigInfo"/* name */
 	, (methodPointerType)&SectionGroupInfo_GetConfigInfo_m12037/* method */
-	, &SectionGroupInfo_t3305_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigInfo_t3301_0_0_0/* return_type */
+	, &SectionGroupInfo_t3308_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigInfo_t3304_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t_Object_t/* invoker_method */
-	, SectionGroupInfo_t3305_SectionGroupInfo_GetConfigInfo_m12037_ParameterInfos/* parameters */
+	, SectionGroupInfo_t3308_SectionGroupInfo_GetConfigInfo_m12037_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -20030,10 +20030,10 @@ extern const MethodInfo SectionGroupInfo_GetConfigInfo_m12037_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigInfo_t3301_0_0_0;
-static const ParameterInfo SectionGroupInfo_t3305_SectionGroupInfo_Merge_m12038_ParameterInfos[] = 
+extern const Il2CppType ConfigInfo_t3304_0_0_0;
+static const ParameterInfo SectionGroupInfo_t3308_SectionGroupInfo_Merge_m12038_ParameterInfos[] = 
 {
-	{"newData", 0, 134218061, 0, &ConfigInfo_t3301_0_0_0},
+	{"newData", 0, 134218061, 0, &ConfigInfo_t3304_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.SectionGroupInfo::Merge(System.Configuration.ConfigInfo)
@@ -20041,10 +20041,10 @@ extern const MethodInfo SectionGroupInfo_Merge_m12038_MethodInfo =
 {
 	"Merge"/* name */
 	, (methodPointerType)&SectionGroupInfo_Merge_m12038/* method */
-	, &SectionGroupInfo_t3305_il2cpp_TypeInfo/* declaring_type */
+	, &SectionGroupInfo_t3308_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, SectionGroupInfo_t3305_SectionGroupInfo_Merge_m12038_ParameterInfos/* parameters */
+	, SectionGroupInfo_t3308_SectionGroupInfo_Merge_m12038_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 195/* flags */
 	, 0/* iflags */
@@ -20058,7 +20058,7 @@ extern const MethodInfo SectionGroupInfo_Merge_m12038_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* SectionGroupInfo_t3305_MethodInfos[] =
+static const MethodInfo* SectionGroupInfo_t3308_MethodInfos[] =
 {
 	&SectionGroupInfo__ctor_m12024_MethodInfo,
 	&SectionGroupInfo__cctor_m12025_MethodInfo,
@@ -20078,9 +20078,9 @@ static const MethodInfo* SectionGroupInfo_t3305_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo SectionGroupInfo_get_Sections_m12030_MethodInfo;
-static const PropertyInfo SectionGroupInfo_t3305____Sections_PropertyInfo = 
+static const PropertyInfo SectionGroupInfo_t3308____Sections_PropertyInfo = 
 {
-	&SectionGroupInfo_t3305_il2cpp_TypeInfo/* parent */
+	&SectionGroupInfo_t3308_il2cpp_TypeInfo/* parent */
 	, "Sections"/* name */
 	, &SectionGroupInfo_get_Sections_m12030_MethodInfo/* get */
 	, NULL/* set */
@@ -20089,9 +20089,9 @@ static const PropertyInfo SectionGroupInfo_t3305____Sections_PropertyInfo =
 
 };
 extern const MethodInfo SectionGroupInfo_get_Groups_m12031_MethodInfo;
-static const PropertyInfo SectionGroupInfo_t3305____Groups_PropertyInfo = 
+static const PropertyInfo SectionGroupInfo_t3308____Groups_PropertyInfo = 
 {
-	&SectionGroupInfo_t3305_il2cpp_TypeInfo/* parent */
+	&SectionGroupInfo_t3308_il2cpp_TypeInfo/* parent */
 	, "Groups"/* name */
 	, &SectionGroupInfo_get_Groups_m12031_MethodInfo/* get */
 	, NULL/* set */
@@ -20099,16 +20099,16 @@ static const PropertyInfo SectionGroupInfo_t3305____Groups_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* SectionGroupInfo_t3305_PropertyInfos[] =
+static const PropertyInfo* SectionGroupInfo_t3308_PropertyInfos[] =
 {
-	&SectionGroupInfo_t3305____Sections_PropertyInfo,
-	&SectionGroupInfo_t3305____Groups_PropertyInfo,
+	&SectionGroupInfo_t3308____Sections_PropertyInfo,
+	&SectionGroupInfo_t3308____Groups_PropertyInfo,
 	NULL
 };
 extern const MethodInfo SectionGroupInfo_ReadConfig_m12032_MethodInfo;
 extern const MethodInfo SectionGroupInfo_ReadData_m12035_MethodInfo;
 extern const MethodInfo SectionGroupInfo_Merge_m12038_MethodInfo;
-static const Il2CppMethodReference SectionGroupInfo_t3305_VTable[] =
+static const Il2CppMethodReference SectionGroupInfo_t3308_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -20119,7 +20119,7 @@ static const Il2CppMethodReference SectionGroupInfo_t3305_VTable[] =
 	&SectionGroupInfo_ReadData_m12035_MethodInfo,
 	&SectionGroupInfo_Merge_m12038_MethodInfo,
 };
-static bool SectionGroupInfo_t3305_VTableIsGenericMethod[] =
+static bool SectionGroupInfo_t3308_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -20131,36 +20131,36 @@ static bool SectionGroupInfo_t3305_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType SectionGroupInfo_t3305_1_0_0;
-struct SectionGroupInfo_t3305;
-const Il2CppTypeDefinitionMetadata SectionGroupInfo_t3305_DefinitionMetadata = 
+extern const Il2CppType SectionGroupInfo_t3308_1_0_0;
+struct SectionGroupInfo_t3308;
+const Il2CppTypeDefinitionMetadata SectionGroupInfo_t3308_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
-	, &ConfigInfo_t3301_0_0_0/* parent */
-	, SectionGroupInfo_t3305_VTable/* vtableMethods */
-	, SectionGroupInfo_t3305_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, &ConfigInfo_t3304_0_0_0/* parent */
+	, SectionGroupInfo_t3308_VTable/* vtableMethods */
+	, SectionGroupInfo_t3308_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 188/* fieldStart */
 
 };
-TypeInfo SectionGroupInfo_t3305_il2cpp_TypeInfo = 
+TypeInfo SectionGroupInfo_t3308_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "SectionGroupInfo"/* name */
 	, "System.Configuration"/* namespaze */
-	, SectionGroupInfo_t3305_MethodInfos/* methods */
-	, SectionGroupInfo_t3305_PropertyInfos/* properties */
+	, SectionGroupInfo_t3308_MethodInfos/* methods */
+	, SectionGroupInfo_t3308_PropertyInfos/* properties */
 	, NULL/* events */
-	, &SectionGroupInfo_t3305_il2cpp_TypeInfo/* element_class */
+	, &SectionGroupInfo_t3308_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &SectionGroupInfo_t3305_0_0_0/* byval_arg */
-	, &SectionGroupInfo_t3305_1_0_0/* this_arg */
-	, &SectionGroupInfo_t3305_DefinitionMetadata/* definitionMetadata */
+	, &SectionGroupInfo_t3308_0_0_0/* byval_arg */
+	, &SectionGroupInfo_t3308_1_0_0/* this_arg */
+	, &SectionGroupInfo_t3308_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -20170,11 +20170,11 @@ TypeInfo SectionGroupInfo_t3305_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (SectionGroupInfo_t3305)/* instance_size */
-	, sizeof (SectionGroupInfo_t3305)/* actualSize */
+	, sizeof (SectionGroupInfo_t3308)/* instance_size */
+	, sizeof (SectionGroupInfo_t3308)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(SectionGroupInfo_t3305_StaticFields)/* static_fields_size */
+	, sizeof(SectionGroupInfo_t3308_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048576/* flags */
@@ -20203,7 +20203,7 @@ TypeInfo SectionGroupInfo_t3305_il2cpp_TypeInfo =
 // System.Configuration.ConfigInfoCollection
 #include "System_Configuration_System_Configuration_ConfigInfoCollecti.h"
 // Metadata Definition System.Configuration.ConfigInfoCollection
-extern TypeInfo ConfigInfoCollection_t3366_il2cpp_TypeInfo;
+extern TypeInfo ConfigInfoCollection_t3369_il2cpp_TypeInfo;
 // System.Configuration.ConfigInfoCollection
 #include "System_Configuration_System_Configuration_ConfigInfoCollectiMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -20212,7 +20212,7 @@ extern const MethodInfo ConfigInfoCollection__ctor_m12039_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&ConfigInfoCollection__ctor_m12039/* method */
-	, &ConfigInfoCollection_t3366_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigInfoCollection_t3369_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -20235,8 +20235,8 @@ extern const MethodInfo ConfigInfoCollection_get_AllKeys_m12040_MethodInfo =
 {
 	"get_AllKeys"/* name */
 	, (methodPointerType)&ConfigInfoCollection_get_AllKeys_m12040/* method */
-	, &ConfigInfoCollection_t3366_il2cpp_TypeInfo/* declaring_type */
-	, &ICollection_t769_0_0_0/* return_type */
+	, &ConfigInfoCollection_t3369_il2cpp_TypeInfo/* declaring_type */
+	, &ICollection_t772_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -20253,7 +20253,7 @@ extern const MethodInfo ConfigInfoCollection_get_AllKeys_m12040_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigInfoCollection_t3366_ConfigInfoCollection_get_Item_m12041_ParameterInfos[] = 
+static const ParameterInfo ConfigInfoCollection_t3369_ConfigInfoCollection_get_Item_m12041_ParameterInfos[] = 
 {
 	{"name", 0, 134218062, 0, &String_t_0_0_0},
 };
@@ -20263,10 +20263,10 @@ extern const MethodInfo ConfigInfoCollection_get_Item_m12041_MethodInfo =
 {
 	"get_Item"/* name */
 	, (methodPointerType)&ConfigInfoCollection_get_Item_m12041/* method */
-	, &ConfigInfoCollection_t3366_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigInfo_t3301_0_0_0/* return_type */
+	, &ConfigInfoCollection_t3369_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigInfo_t3304_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, ConfigInfoCollection_t3366_ConfigInfoCollection_get_Item_m12041_ParameterInfos/* parameters */
+	, ConfigInfoCollection_t3369_ConfigInfoCollection_get_Item_m12041_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -20281,11 +20281,11 @@ extern const MethodInfo ConfigInfoCollection_get_Item_m12041_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ConfigInfo_t3301_0_0_0;
-static const ParameterInfo ConfigInfoCollection_t3366_ConfigInfoCollection_set_Item_m12042_ParameterInfos[] = 
+extern const Il2CppType ConfigInfo_t3304_0_0_0;
+static const ParameterInfo ConfigInfoCollection_t3369_ConfigInfoCollection_set_Item_m12042_ParameterInfos[] = 
 {
 	{"name", 0, 134218063, 0, &String_t_0_0_0},
-	{"value", 1, 134218064, 0, &ConfigInfo_t3301_0_0_0},
+	{"value", 1, 134218064, 0, &ConfigInfo_t3304_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigInfoCollection::set_Item(System.String,System.Configuration.ConfigInfo)
@@ -20293,10 +20293,10 @@ extern const MethodInfo ConfigInfoCollection_set_Item_m12042_MethodInfo =
 {
 	"set_Item"/* name */
 	, (methodPointerType)&ConfigInfoCollection_set_Item_m12042/* method */
-	, &ConfigInfoCollection_t3366_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigInfoCollection_t3369_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ConfigInfoCollection_t3366_ConfigInfoCollection_set_Item_m12042_ParameterInfos/* parameters */
+	, ConfigInfoCollection_t3369_ConfigInfoCollection_set_Item_m12042_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -20311,11 +20311,11 @@ extern const MethodInfo ConfigInfoCollection_set_Item_m12042_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ConfigInfo_t3301_0_0_0;
-static const ParameterInfo ConfigInfoCollection_t3366_ConfigInfoCollection_Add_m12043_ParameterInfos[] = 
+extern const Il2CppType ConfigInfo_t3304_0_0_0;
+static const ParameterInfo ConfigInfoCollection_t3369_ConfigInfoCollection_Add_m12043_ParameterInfos[] = 
 {
 	{"name", 0, 134218065, 0, &String_t_0_0_0},
-	{"config", 1, 134218066, 0, &ConfigInfo_t3301_0_0_0},
+	{"config", 1, 134218066, 0, &ConfigInfo_t3304_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.ConfigInfoCollection::Add(System.String,System.Configuration.ConfigInfo)
@@ -20323,10 +20323,10 @@ extern const MethodInfo ConfigInfoCollection_Add_m12043_MethodInfo =
 {
 	"Add"/* name */
 	, (methodPointerType)&ConfigInfoCollection_Add_m12043/* method */
-	, &ConfigInfoCollection_t3366_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigInfoCollection_t3369_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t_Object_t/* invoker_method */
-	, ConfigInfoCollection_t3366_ConfigInfoCollection_Add_m12043_ParameterInfos/* parameters */
+	, ConfigInfoCollection_t3369_ConfigInfoCollection_Add_m12043_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -20346,7 +20346,7 @@ extern const MethodInfo ConfigInfoCollection_Clear_m12044_MethodInfo =
 {
 	"Clear"/* name */
 	, (methodPointerType)&ConfigInfoCollection_Clear_m12044/* method */
-	, &ConfigInfoCollection_t3366_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigInfoCollection_t3369_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -20364,7 +20364,7 @@ extern const MethodInfo ConfigInfoCollection_Clear_m12044_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo ConfigInfoCollection_t3366_ConfigInfoCollection_Remove_m12045_ParameterInfos[] = 
+static const ParameterInfo ConfigInfoCollection_t3369_ConfigInfoCollection_Remove_m12045_ParameterInfos[] = 
 {
 	{"name", 0, 134218067, 0, &String_t_0_0_0},
 };
@@ -20374,10 +20374,10 @@ extern const MethodInfo ConfigInfoCollection_Remove_m12045_MethodInfo =
 {
 	"Remove"/* name */
 	, (methodPointerType)&ConfigInfoCollection_Remove_m12045/* method */
-	, &ConfigInfoCollection_t3366_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigInfoCollection_t3369_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, ConfigInfoCollection_t3366_ConfigInfoCollection_Remove_m12045_ParameterInfos/* parameters */
+	, ConfigInfoCollection_t3369_ConfigInfoCollection_Remove_m12045_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -20391,7 +20391,7 @@ extern const MethodInfo ConfigInfoCollection_Remove_m12045_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* ConfigInfoCollection_t3366_MethodInfos[] =
+static const MethodInfo* ConfigInfoCollection_t3369_MethodInfos[] =
 {
 	&ConfigInfoCollection__ctor_m12039_MethodInfo,
 	&ConfigInfoCollection_get_AllKeys_m12040_MethodInfo,
@@ -20403,9 +20403,9 @@ static const MethodInfo* ConfigInfoCollection_t3366_MethodInfos[] =
 	NULL
 };
 extern const MethodInfo ConfigInfoCollection_get_AllKeys_m12040_MethodInfo;
-static const PropertyInfo ConfigInfoCollection_t3366____AllKeys_PropertyInfo = 
+static const PropertyInfo ConfigInfoCollection_t3369____AllKeys_PropertyInfo = 
 {
-	&ConfigInfoCollection_t3366_il2cpp_TypeInfo/* parent */
+	&ConfigInfoCollection_t3369_il2cpp_TypeInfo/* parent */
 	, "AllKeys"/* name */
 	, &ConfigInfoCollection_get_AllKeys_m12040_MethodInfo/* get */
 	, NULL/* set */
@@ -20415,9 +20415,9 @@ static const PropertyInfo ConfigInfoCollection_t3366____AllKeys_PropertyInfo =
 };
 extern const MethodInfo ConfigInfoCollection_get_Item_m12041_MethodInfo;
 extern const MethodInfo ConfigInfoCollection_set_Item_m12042_MethodInfo;
-static const PropertyInfo ConfigInfoCollection_t3366____Item_PropertyInfo = 
+static const PropertyInfo ConfigInfoCollection_t3369____Item_PropertyInfo = 
 {
-	&ConfigInfoCollection_t3366_il2cpp_TypeInfo/* parent */
+	&ConfigInfoCollection_t3369_il2cpp_TypeInfo/* parent */
 	, "Item"/* name */
 	, &ConfigInfoCollection_get_Item_m12041_MethodInfo/* get */
 	, &ConfigInfoCollection_set_Item_m12042_MethodInfo/* set */
@@ -20425,13 +20425,13 @@ static const PropertyInfo ConfigInfoCollection_t3366____Item_PropertyInfo =
 	, 0/* custom_attributes_cache */
 
 };
-static const PropertyInfo* ConfigInfoCollection_t3366_PropertyInfos[] =
+static const PropertyInfo* ConfigInfoCollection_t3369_PropertyInfos[] =
 {
-	&ConfigInfoCollection_t3366____AllKeys_PropertyInfo,
-	&ConfigInfoCollection_t3366____Item_PropertyInfo,
+	&ConfigInfoCollection_t3369____AllKeys_PropertyInfo,
+	&ConfigInfoCollection_t3369____Item_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference ConfigInfoCollection_t3366_VTable[] =
+static const Il2CppMethodReference ConfigInfoCollection_t3369_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -20450,7 +20450,7 @@ static const Il2CppMethodReference ConfigInfoCollection_t3366_VTable[] =
 	&NameObjectCollectionBase_get_Count_m12162_MethodInfo,
 	&NameObjectCollectionBase_OnDeserialization_m12167_MethodInfo,
 };
-static bool ConfigInfoCollection_t3366_VTableIsGenericMethod[] =
+static bool ConfigInfoCollection_t3369_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -20469,44 +20469,44 @@ static bool ConfigInfoCollection_t3366_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair ConfigInfoCollection_t3366_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ConfigInfoCollection_t3369_InterfacesOffsets[] = 
 {
-	{ &ICollection_t769_0_0_0, 4},
+	{ &ICollection_t772_0_0_0, 4},
 	{ &IEnumerable_t104_0_0_0, 8},
-	{ &IDeserializationCallback_t838_0_0_0, 9},
-	{ &ISerializable_t834_0_0_0, 10},
+	{ &IDeserializationCallback_t841_0_0_0, 9},
+	{ &ISerializable_t837_0_0_0, 10},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType ConfigInfoCollection_t3366_1_0_0;
-struct ConfigInfoCollection_t3366;
-const Il2CppTypeDefinitionMetadata ConfigInfoCollection_t3366_DefinitionMetadata = 
+extern const Il2CppType ConfigInfoCollection_t3369_1_0_0;
+struct ConfigInfoCollection_t3369;
+const Il2CppTypeDefinitionMetadata ConfigInfoCollection_t3369_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, ConfigInfoCollection_t3366_InterfacesOffsets/* interfaceOffsets */
-	, &NameObjectCollectionBase_t3340_0_0_0/* parent */
-	, ConfigInfoCollection_t3366_VTable/* vtableMethods */
-	, ConfigInfoCollection_t3366_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ConfigInfoCollection_t3369_InterfacesOffsets/* interfaceOffsets */
+	, &NameObjectCollectionBase_t3343_0_0_0/* parent */
+	, ConfigInfoCollection_t3369_VTable/* vtableMethods */
+	, ConfigInfoCollection_t3369_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo ConfigInfoCollection_t3366_il2cpp_TypeInfo = 
+TypeInfo ConfigInfoCollection_t3369_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ConfigInfoCollection"/* name */
 	, "System.Configuration"/* namespaze */
-	, ConfigInfoCollection_t3366_MethodInfos/* methods */
-	, ConfigInfoCollection_t3366_PropertyInfos/* properties */
+	, ConfigInfoCollection_t3369_MethodInfos/* methods */
+	, ConfigInfoCollection_t3369_PropertyInfos/* properties */
 	, NULL/* events */
-	, &ConfigInfoCollection_t3366_il2cpp_TypeInfo/* element_class */
+	, &ConfigInfoCollection_t3369_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 63/* custom_attributes_cache */
-	, &ConfigInfoCollection_t3366_0_0_0/* byval_arg */
-	, &ConfigInfoCollection_t3366_1_0_0/* this_arg */
-	, &ConfigInfoCollection_t3366_DefinitionMetadata/* definitionMetadata */
+	, &ConfigInfoCollection_t3369_0_0_0/* byval_arg */
+	, &ConfigInfoCollection_t3369_1_0_0/* this_arg */
+	, &ConfigInfoCollection_t3369_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -20516,8 +20516,8 @@ TypeInfo ConfigInfoCollection_t3366_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ConfigInfoCollection_t3366)/* instance_size */
-	, sizeof (ConfigInfoCollection_t3366)/* actualSize */
+	, sizeof (ConfigInfoCollection_t3369)/* instance_size */
+	, sizeof (ConfigInfoCollection_t3369)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -20549,7 +20549,7 @@ TypeInfo ConfigInfoCollection_t3366_il2cpp_TypeInfo =
 // System.Configuration.SectionInformation
 #include "System_Configuration_System_Configuration_SectionInformation.h"
 // Metadata Definition System.Configuration.SectionInformation
-extern TypeInfo SectionInformation_t3335_il2cpp_TypeInfo;
+extern TypeInfo SectionInformation_t3338_il2cpp_TypeInfo;
 // System.Configuration.SectionInformation
 #include "System_Configuration_System_Configuration_SectionInformationMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -20558,7 +20558,7 @@ extern const MethodInfo SectionInformation__ctor_m12046_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&SectionInformation__ctor_m12046/* method */
-	, &SectionInformation_t3335_il2cpp_TypeInfo/* declaring_type */
+	, &SectionInformation_t3338_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -20581,7 +20581,7 @@ extern const MethodInfo SectionInformation_get_ConfigFilePath_m12047_MethodInfo 
 {
 	"get_ConfigFilePath"/* name */
 	, (methodPointerType)&SectionInformation_get_ConfigFilePath_m12047/* method */
-	, &SectionInformation_t3335_il2cpp_TypeInfo/* declaring_type */
+	, &SectionInformation_t3338_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -20599,7 +20599,7 @@ extern const MethodInfo SectionInformation_get_ConfigFilePath_m12047_MethodInfo 
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SectionInformation_t3335_SectionInformation_set_ConfigFilePath_m12048_ParameterInfos[] = 
+static const ParameterInfo SectionInformation_t3338_SectionInformation_set_ConfigFilePath_m12048_ParameterInfos[] = 
 {
 	{"value", 0, 134218068, 0, &String_t_0_0_0},
 };
@@ -20609,10 +20609,10 @@ extern const MethodInfo SectionInformation_set_ConfigFilePath_m12048_MethodInfo 
 {
 	"set_ConfigFilePath"/* name */
 	, (methodPointerType)&SectionInformation_set_ConfigFilePath_m12048/* method */
-	, &SectionInformation_t3335_il2cpp_TypeInfo/* declaring_type */
+	, &SectionInformation_t3338_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, SectionInformation_t3335_SectionInformation_set_ConfigFilePath_m12048_ParameterInfos/* parameters */
+	, SectionInformation_t3338_SectionInformation_set_ConfigFilePath_m12048_ParameterInfos/* parameters */
 	, 67/* custom_attributes_cache */
 	, 2179/* flags */
 	, 0/* iflags */
@@ -20626,10 +20626,10 @@ extern const MethodInfo SectionInformation_set_ConfigFilePath_m12048_MethodInfo 
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationAllowDefinition_t3307_0_0_0;
-static const ParameterInfo SectionInformation_t3335_SectionInformation_set_AllowDefinition_m12049_ParameterInfos[] = 
+extern const Il2CppType ConfigurationAllowDefinition_t3310_0_0_0;
+static const ParameterInfo SectionInformation_t3338_SectionInformation_set_AllowDefinition_m12049_ParameterInfos[] = 
 {
-	{"value", 0, 134218069, 0, &ConfigurationAllowDefinition_t3307_0_0_0},
+	{"value", 0, 134218069, 0, &ConfigurationAllowDefinition_t3310_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.SectionInformation::set_AllowDefinition(System.Configuration.ConfigurationAllowDefinition)
@@ -20637,10 +20637,10 @@ extern const MethodInfo SectionInformation_set_AllowDefinition_m12049_MethodInfo
 {
 	"set_AllowDefinition"/* name */
 	, (methodPointerType)&SectionInformation_set_AllowDefinition_m12049/* method */
-	, &SectionInformation_t3335_il2cpp_TypeInfo/* declaring_type */
+	, &SectionInformation_t3338_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, SectionInformation_t3335_SectionInformation_set_AllowDefinition_m12049_ParameterInfos/* parameters */
+	, SectionInformation_t3338_SectionInformation_set_AllowDefinition_m12049_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -20654,10 +20654,10 @@ extern const MethodInfo SectionInformation_set_AllowDefinition_m12049_MethodInfo
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationAllowExeDefinition_t3308_0_0_0;
-static const ParameterInfo SectionInformation_t3335_SectionInformation_set_AllowExeDefinition_m12050_ParameterInfos[] = 
+extern const Il2CppType ConfigurationAllowExeDefinition_t3311_0_0_0;
+static const ParameterInfo SectionInformation_t3338_SectionInformation_set_AllowExeDefinition_m12050_ParameterInfos[] = 
 {
-	{"value", 0, 134218070, 0, &ConfigurationAllowExeDefinition_t3308_0_0_0},
+	{"value", 0, 134218070, 0, &ConfigurationAllowExeDefinition_t3311_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.SectionInformation::set_AllowExeDefinition(System.Configuration.ConfigurationAllowExeDefinition)
@@ -20665,10 +20665,10 @@ extern const MethodInfo SectionInformation_set_AllowExeDefinition_m12050_MethodI
 {
 	"set_AllowExeDefinition"/* name */
 	, (methodPointerType)&SectionInformation_set_AllowExeDefinition_m12050/* method */
-	, &SectionInformation_t3335_il2cpp_TypeInfo/* declaring_type */
+	, &SectionInformation_t3338_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Int32_t82/* invoker_method */
-	, SectionInformation_t3335_SectionInformation_set_AllowExeDefinition_m12050_ParameterInfos/* parameters */
+	, SectionInformation_t3338_SectionInformation_set_AllowExeDefinition_m12050_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -20683,7 +20683,7 @@ extern const MethodInfo SectionInformation_set_AllowExeDefinition_m12050_MethodI
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo SectionInformation_t3335_SectionInformation_set_AllowLocation_m12051_ParameterInfos[] = 
+static const ParameterInfo SectionInformation_t3338_SectionInformation_set_AllowLocation_m12051_ParameterInfos[] = 
 {
 	{"value", 0, 134218071, 0, &Boolean_t59_0_0_0},
 };
@@ -20693,10 +20693,10 @@ extern const MethodInfo SectionInformation_set_AllowLocation_m12051_MethodInfo =
 {
 	"set_AllowLocation"/* name */
 	, (methodPointerType)&SectionInformation_set_AllowLocation_m12051/* method */
-	, &SectionInformation_t3335_il2cpp_TypeInfo/* declaring_type */
+	, &SectionInformation_t3338_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, SectionInformation_t3335_SectionInformation_set_AllowLocation_m12051_ParameterInfos/* parameters */
+	, SectionInformation_t3338_SectionInformation_set_AllowLocation_m12051_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -20716,7 +20716,7 @@ extern const MethodInfo SectionInformation_get_ConfigSource_m12052_MethodInfo =
 {
 	"get_ConfigSource"/* name */
 	, (methodPointerType)&SectionInformation_get_ConfigSource_m12052/* method */
-	, &SectionInformation_t3335_il2cpp_TypeInfo/* declaring_type */
+	, &SectionInformation_t3338_il2cpp_TypeInfo/* declaring_type */
 	, &String_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
@@ -20734,7 +20734,7 @@ extern const MethodInfo SectionInformation_get_ConfigSource_m12052_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SectionInformation_t3335_SectionInformation_set_ConfigSource_m12053_ParameterInfos[] = 
+static const ParameterInfo SectionInformation_t3338_SectionInformation_set_ConfigSource_m12053_ParameterInfos[] = 
 {
 	{"value", 0, 134218072, 0, &String_t_0_0_0},
 };
@@ -20744,10 +20744,10 @@ extern const MethodInfo SectionInformation_set_ConfigSource_m12053_MethodInfo =
 {
 	"set_ConfigSource"/* name */
 	, (methodPointerType)&SectionInformation_set_ConfigSource_m12053/* method */
-	, &SectionInformation_t3335_il2cpp_TypeInfo/* declaring_type */
+	, &SectionInformation_t3338_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, SectionInformation_t3335_SectionInformation_set_ConfigSource_m12053_ParameterInfos/* parameters */
+	, SectionInformation_t3338_SectionInformation_set_ConfigSource_m12053_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -20762,7 +20762,7 @@ extern const MethodInfo SectionInformation_set_ConfigSource_m12053_MethodInfo =
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo SectionInformation_t3335_SectionInformation_set_RequirePermission_m12054_ParameterInfos[] = 
+static const ParameterInfo SectionInformation_t3338_SectionInformation_set_RequirePermission_m12054_ParameterInfos[] = 
 {
 	{"value", 0, 134218073, 0, &Boolean_t59_0_0_0},
 };
@@ -20772,10 +20772,10 @@ extern const MethodInfo SectionInformation_set_RequirePermission_m12054_MethodIn
 {
 	"set_RequirePermission"/* name */
 	, (methodPointerType)&SectionInformation_set_RequirePermission_m12054/* method */
-	, &SectionInformation_t3335_il2cpp_TypeInfo/* declaring_type */
+	, &SectionInformation_t3338_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, SectionInformation_t3335_SectionInformation_set_RequirePermission_m12054_ParameterInfos/* parameters */
+	, SectionInformation_t3338_SectionInformation_set_RequirePermission_m12054_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -20790,7 +20790,7 @@ extern const MethodInfo SectionInformation_set_RequirePermission_m12054_MethodIn
 
 };
 extern const Il2CppType Boolean_t59_0_0_0;
-static const ParameterInfo SectionInformation_t3335_SectionInformation_set_RestartOnExternalChanges_m12055_ParameterInfos[] = 
+static const ParameterInfo SectionInformation_t3338_SectionInformation_set_RestartOnExternalChanges_m12055_ParameterInfos[] = 
 {
 	{"value", 0, 134218074, 0, &Boolean_t59_0_0_0},
 };
@@ -20800,10 +20800,10 @@ extern const MethodInfo SectionInformation_set_RestartOnExternalChanges_m12055_M
 {
 	"set_RestartOnExternalChanges"/* name */
 	, (methodPointerType)&SectionInformation_set_RestartOnExternalChanges_m12055/* method */
-	, &SectionInformation_t3335_il2cpp_TypeInfo/* declaring_type */
+	, &SectionInformation_t3338_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_SByte_t88/* invoker_method */
-	, SectionInformation_t3335_SectionInformation_set_RestartOnExternalChanges_m12055_ParameterInfos/* parameters */
+	, SectionInformation_t3338_SectionInformation_set_RestartOnExternalChanges_m12055_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2182/* flags */
 	, 0/* iflags */
@@ -20823,8 +20823,8 @@ extern const MethodInfo SectionInformation_GetParentSection_m12056_MethodInfo =
 {
 	"GetParentSection"/* name */
 	, (methodPointerType)&SectionInformation_GetParentSection_m12056/* method */
-	, &SectionInformation_t3335_il2cpp_TypeInfo/* declaring_type */
-	, &ConfigurationSection_t3337_0_0_0/* return_type */
+	, &SectionInformation_t3338_il2cpp_TypeInfo/* declaring_type */
+	, &ConfigurationSection_t3340_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -20840,10 +20840,10 @@ extern const MethodInfo SectionInformation_GetParentSection_m12056_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ConfigurationSection_t3337_0_0_0;
-static const ParameterInfo SectionInformation_t3335_SectionInformation_SetParentSection_m12057_ParameterInfos[] = 
+extern const Il2CppType ConfigurationSection_t3340_0_0_0;
+static const ParameterInfo SectionInformation_t3338_SectionInformation_SetParentSection_m12057_ParameterInfos[] = 
 {
-	{"parent", 0, 134218075, 0, &ConfigurationSection_t3337_0_0_0},
+	{"parent", 0, 134218075, 0, &ConfigurationSection_t3340_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void System.Configuration.SectionInformation::SetParentSection(System.Configuration.ConfigurationSection)
@@ -20851,10 +20851,10 @@ extern const MethodInfo SectionInformation_SetParentSection_m12057_MethodInfo =
 {
 	"SetParentSection"/* name */
 	, (methodPointerType)&SectionInformation_SetParentSection_m12057/* method */
-	, &SectionInformation_t3335_il2cpp_TypeInfo/* declaring_type */
+	, &SectionInformation_t3338_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, SectionInformation_t3335_SectionInformation_SetParentSection_m12057_ParameterInfos/* parameters */
+	, SectionInformation_t3338_SectionInformation_SetParentSection_m12057_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -20869,7 +20869,7 @@ extern const MethodInfo SectionInformation_SetParentSection_m12057_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SectionInformation_t3335_SectionInformation_ProtectSection_m12058_ParameterInfos[] = 
+static const ParameterInfo SectionInformation_t3338_SectionInformation_ProtectSection_m12058_ParameterInfos[] = 
 {
 	{"provider", 0, 134218076, 0, &String_t_0_0_0},
 };
@@ -20879,10 +20879,10 @@ extern const MethodInfo SectionInformation_ProtectSection_m12058_MethodInfo =
 {
 	"ProtectSection"/* name */
 	, (methodPointerType)&SectionInformation_ProtectSection_m12058/* method */
-	, &SectionInformation_t3335_il2cpp_TypeInfo/* declaring_type */
+	, &SectionInformation_t3338_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, SectionInformation_t3335_SectionInformation_ProtectSection_m12058_ParameterInfos/* parameters */
+	, SectionInformation_t3338_SectionInformation_ProtectSection_m12058_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -20897,7 +20897,7 @@ extern const MethodInfo SectionInformation_ProtectSection_m12058_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SectionInformation_t3335_SectionInformation_SetRawXml_m12059_ParameterInfos[] = 
+static const ParameterInfo SectionInformation_t3338_SectionInformation_SetRawXml_m12059_ParameterInfos[] = 
 {
 	{"xml", 0, 134218077, 0, &String_t_0_0_0},
 };
@@ -20907,10 +20907,10 @@ extern const MethodInfo SectionInformation_SetRawXml_m12059_MethodInfo =
 {
 	"SetRawXml"/* name */
 	, (methodPointerType)&SectionInformation_SetRawXml_m12059/* method */
-	, &SectionInformation_t3335_il2cpp_TypeInfo/* declaring_type */
+	, &SectionInformation_t3338_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, SectionInformation_t3335_SectionInformation_SetRawXml_m12059_ParameterInfos/* parameters */
+	, SectionInformation_t3338_SectionInformation_SetRawXml_m12059_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -20925,7 +20925,7 @@ extern const MethodInfo SectionInformation_SetRawXml_m12059_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo SectionInformation_t3335_SectionInformation_SetName_m12060_ParameterInfos[] = 
+static const ParameterInfo SectionInformation_t3338_SectionInformation_SetName_m12060_ParameterInfos[] = 
 {
 	{"name", 0, 134218078, 0, &String_t_0_0_0},
 };
@@ -20935,10 +20935,10 @@ extern const MethodInfo SectionInformation_SetName_m12060_MethodInfo =
 {
 	"SetName"/* name */
 	, (methodPointerType)&SectionInformation_SetName_m12060/* method */
-	, &SectionInformation_t3335_il2cpp_TypeInfo/* declaring_type */
+	, &SectionInformation_t3338_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, SectionInformation_t3335_SectionInformation_SetName_m12060_ParameterInfos/* parameters */
+	, SectionInformation_t3338_SectionInformation_SetName_m12060_ParameterInfos/* parameters */
 	, 68/* custom_attributes_cache */
 	, 131/* flags */
 	, 0/* iflags */
@@ -20952,7 +20952,7 @@ extern const MethodInfo SectionInformation_SetName_m12060_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* SectionInformation_t3335_MethodInfos[] =
+static const MethodInfo* SectionInformation_t3338_MethodInfos[] =
 {
 	&SectionInformation__ctor_m12046_MethodInfo,
 	&SectionInformation_get_ConfigFilePath_m12047_MethodInfo,
@@ -20973,9 +20973,9 @@ static const MethodInfo* SectionInformation_t3335_MethodInfos[] =
 };
 extern const MethodInfo SectionInformation_get_ConfigFilePath_m12047_MethodInfo;
 extern const MethodInfo SectionInformation_set_ConfigFilePath_m12048_MethodInfo;
-static const PropertyInfo SectionInformation_t3335____ConfigFilePath_PropertyInfo = 
+static const PropertyInfo SectionInformation_t3338____ConfigFilePath_PropertyInfo = 
 {
-	&SectionInformation_t3335_il2cpp_TypeInfo/* parent */
+	&SectionInformation_t3338_il2cpp_TypeInfo/* parent */
 	, "ConfigFilePath"/* name */
 	, &SectionInformation_get_ConfigFilePath_m12047_MethodInfo/* get */
 	, &SectionInformation_set_ConfigFilePath_m12048_MethodInfo/* set */
@@ -20984,9 +20984,9 @@ static const PropertyInfo SectionInformation_t3335____ConfigFilePath_PropertyInf
 
 };
 extern const MethodInfo SectionInformation_set_AllowDefinition_m12049_MethodInfo;
-static const PropertyInfo SectionInformation_t3335____AllowDefinition_PropertyInfo = 
+static const PropertyInfo SectionInformation_t3338____AllowDefinition_PropertyInfo = 
 {
-	&SectionInformation_t3335_il2cpp_TypeInfo/* parent */
+	&SectionInformation_t3338_il2cpp_TypeInfo/* parent */
 	, "AllowDefinition"/* name */
 	, NULL/* get */
 	, &SectionInformation_set_AllowDefinition_m12049_MethodInfo/* set */
@@ -20995,9 +20995,9 @@ static const PropertyInfo SectionInformation_t3335____AllowDefinition_PropertyIn
 
 };
 extern const MethodInfo SectionInformation_set_AllowExeDefinition_m12050_MethodInfo;
-static const PropertyInfo SectionInformation_t3335____AllowExeDefinition_PropertyInfo = 
+static const PropertyInfo SectionInformation_t3338____AllowExeDefinition_PropertyInfo = 
 {
-	&SectionInformation_t3335_il2cpp_TypeInfo/* parent */
+	&SectionInformation_t3338_il2cpp_TypeInfo/* parent */
 	, "AllowExeDefinition"/* name */
 	, NULL/* get */
 	, &SectionInformation_set_AllowExeDefinition_m12050_MethodInfo/* set */
@@ -21006,9 +21006,9 @@ static const PropertyInfo SectionInformation_t3335____AllowExeDefinition_Propert
 
 };
 extern const MethodInfo SectionInformation_set_AllowLocation_m12051_MethodInfo;
-static const PropertyInfo SectionInformation_t3335____AllowLocation_PropertyInfo = 
+static const PropertyInfo SectionInformation_t3338____AllowLocation_PropertyInfo = 
 {
-	&SectionInformation_t3335_il2cpp_TypeInfo/* parent */
+	&SectionInformation_t3338_il2cpp_TypeInfo/* parent */
 	, "AllowLocation"/* name */
 	, NULL/* get */
 	, &SectionInformation_set_AllowLocation_m12051_MethodInfo/* set */
@@ -21018,9 +21018,9 @@ static const PropertyInfo SectionInformation_t3335____AllowLocation_PropertyInfo
 };
 extern const MethodInfo SectionInformation_get_ConfigSource_m12052_MethodInfo;
 extern const MethodInfo SectionInformation_set_ConfigSource_m12053_MethodInfo;
-static const PropertyInfo SectionInformation_t3335____ConfigSource_PropertyInfo = 
+static const PropertyInfo SectionInformation_t3338____ConfigSource_PropertyInfo = 
 {
-	&SectionInformation_t3335_il2cpp_TypeInfo/* parent */
+	&SectionInformation_t3338_il2cpp_TypeInfo/* parent */
 	, "ConfigSource"/* name */
 	, &SectionInformation_get_ConfigSource_m12052_MethodInfo/* get */
 	, &SectionInformation_set_ConfigSource_m12053_MethodInfo/* set */
@@ -21029,9 +21029,9 @@ static const PropertyInfo SectionInformation_t3335____ConfigSource_PropertyInfo 
 
 };
 extern const MethodInfo SectionInformation_set_RequirePermission_m12054_MethodInfo;
-static const PropertyInfo SectionInformation_t3335____RequirePermission_PropertyInfo = 
+static const PropertyInfo SectionInformation_t3338____RequirePermission_PropertyInfo = 
 {
-	&SectionInformation_t3335_il2cpp_TypeInfo/* parent */
+	&SectionInformation_t3338_il2cpp_TypeInfo/* parent */
 	, "RequirePermission"/* name */
 	, NULL/* get */
 	, &SectionInformation_set_RequirePermission_m12054_MethodInfo/* set */
@@ -21040,9 +21040,9 @@ static const PropertyInfo SectionInformation_t3335____RequirePermission_Property
 
 };
 extern const MethodInfo SectionInformation_set_RestartOnExternalChanges_m12055_MethodInfo;
-static const PropertyInfo SectionInformation_t3335____RestartOnExternalChanges_PropertyInfo = 
+static const PropertyInfo SectionInformation_t3338____RestartOnExternalChanges_PropertyInfo = 
 {
-	&SectionInformation_t3335_il2cpp_TypeInfo/* parent */
+	&SectionInformation_t3338_il2cpp_TypeInfo/* parent */
 	, "RestartOnExternalChanges"/* name */
 	, NULL/* get */
 	, &SectionInformation_set_RestartOnExternalChanges_m12055_MethodInfo/* set */
@@ -21050,25 +21050,25 @@ static const PropertyInfo SectionInformation_t3335____RestartOnExternalChanges_P
 	, 70/* custom_attributes_cache */
 
 };
-static const PropertyInfo* SectionInformation_t3335_PropertyInfos[] =
+static const PropertyInfo* SectionInformation_t3338_PropertyInfos[] =
 {
-	&SectionInformation_t3335____ConfigFilePath_PropertyInfo,
-	&SectionInformation_t3335____AllowDefinition_PropertyInfo,
-	&SectionInformation_t3335____AllowExeDefinition_PropertyInfo,
-	&SectionInformation_t3335____AllowLocation_PropertyInfo,
-	&SectionInformation_t3335____ConfigSource_PropertyInfo,
-	&SectionInformation_t3335____RequirePermission_PropertyInfo,
-	&SectionInformation_t3335____RestartOnExternalChanges_PropertyInfo,
+	&SectionInformation_t3338____ConfigFilePath_PropertyInfo,
+	&SectionInformation_t3338____AllowDefinition_PropertyInfo,
+	&SectionInformation_t3338____AllowExeDefinition_PropertyInfo,
+	&SectionInformation_t3338____AllowLocation_PropertyInfo,
+	&SectionInformation_t3338____ConfigSource_PropertyInfo,
+	&SectionInformation_t3338____RequirePermission_PropertyInfo,
+	&SectionInformation_t3338____RestartOnExternalChanges_PropertyInfo,
 	NULL
 };
-static const Il2CppMethodReference SectionInformation_t3335_VTable[] =
+static const Il2CppMethodReference SectionInformation_t3338_VTable[] =
 {
 	&Object_Equals_m495_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
 	&Object_GetHashCode_m406_MethodInfo,
 	&Object_ToString_m492_MethodInfo,
 };
-static bool SectionInformation_t3335_VTableIsGenericMethod[] =
+static bool SectionInformation_t3338_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -21076,36 +21076,36 @@ static bool SectionInformation_t3335_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType SectionInformation_t3335_1_0_0;
-struct SectionInformation_t3335;
-const Il2CppTypeDefinitionMetadata SectionInformation_t3335_DefinitionMetadata = 
+extern const Il2CppType SectionInformation_t3338_1_0_0;
+struct SectionInformation_t3338;
+const Il2CppTypeDefinitionMetadata SectionInformation_t3338_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, SectionInformation_t3335_VTable/* vtableMethods */
-	, SectionInformation_t3335_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, SectionInformation_t3338_VTable/* vtableMethods */
+	, SectionInformation_t3338_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 191/* fieldStart */
 
 };
-TypeInfo SectionInformation_t3335_il2cpp_TypeInfo = 
+TypeInfo SectionInformation_t3338_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "SectionInformation"/* name */
 	, "System.Configuration"/* namespaze */
-	, SectionInformation_t3335_MethodInfos/* methods */
-	, SectionInformation_t3335_PropertyInfos/* properties */
+	, SectionInformation_t3338_MethodInfos/* methods */
+	, SectionInformation_t3338_PropertyInfos/* properties */
 	, NULL/* events */
-	, &SectionInformation_t3335_il2cpp_TypeInfo/* element_class */
+	, &SectionInformation_t3338_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 0/* custom_attributes_cache */
-	, &SectionInformation_t3335_0_0_0/* byval_arg */
-	, &SectionInformation_t3335_1_0_0/* this_arg */
-	, &SectionInformation_t3335_DefinitionMetadata/* definitionMetadata */
+	, &SectionInformation_t3338_0_0_0/* byval_arg */
+	, &SectionInformation_t3338_1_0_0/* this_arg */
+	, &SectionInformation_t3338_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -21115,8 +21115,8 @@ TypeInfo SectionInformation_t3335_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (SectionInformation_t3335)/* instance_size */
-	, sizeof (SectionInformation_t3335)/* actualSize */
+	, sizeof (SectionInformation_t3338)/* instance_size */
+	, sizeof (SectionInformation_t3338)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -21148,7 +21148,7 @@ TypeInfo SectionInformation_t3335_il2cpp_TypeInfo =
 // System.MonoTODOAttribute
 #include "System_Configuration_System_MonoTODOAttribute.h"
 // Metadata Definition System.MonoTODOAttribute
-extern TypeInfo MonoTODOAttribute_t3367_il2cpp_TypeInfo;
+extern TypeInfo MonoTODOAttribute_t3370_il2cpp_TypeInfo;
 // System.MonoTODOAttribute
 #include "System_Configuration_System_MonoTODOAttributeMethodDeclarations.h"
 extern void* RuntimeInvoker_Void_t85 (const MethodInfo* method, void* obj, void** args);
@@ -21157,7 +21157,7 @@ extern const MethodInfo MonoTODOAttribute__ctor_m12061_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&MonoTODOAttribute__ctor_m12061/* method */
-	, &MonoTODOAttribute_t3367_il2cpp_TypeInfo/* declaring_type */
+	, &MonoTODOAttribute_t3370_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85/* invoker_method */
 	, NULL/* parameters */
@@ -21175,7 +21175,7 @@ extern const MethodInfo MonoTODOAttribute__ctor_m12061_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo MonoTODOAttribute_t3367_MonoTODOAttribute__ctor_m12062_ParameterInfos[] = 
+static const ParameterInfo MonoTODOAttribute_t3370_MonoTODOAttribute__ctor_m12062_ParameterInfos[] = 
 {
 	{"comment", 0, 134218079, 0, &String_t_0_0_0},
 };
@@ -21185,10 +21185,10 @@ extern const MethodInfo MonoTODOAttribute__ctor_m12062_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&MonoTODOAttribute__ctor_m12062/* method */
-	, &MonoTODOAttribute_t3367_il2cpp_TypeInfo/* declaring_type */
+	, &MonoTODOAttribute_t3370_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, MonoTODOAttribute_t3367_MonoTODOAttribute__ctor_m12062_ParameterInfos/* parameters */
+	, MonoTODOAttribute_t3370_MonoTODOAttribute__ctor_m12062_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -21202,13 +21202,13 @@ extern const MethodInfo MonoTODOAttribute__ctor_m12062_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* MonoTODOAttribute_t3367_MethodInfos[] =
+static const MethodInfo* MonoTODOAttribute_t3370_MethodInfos[] =
 {
 	&MonoTODOAttribute__ctor_m12061_MethodInfo,
 	&MonoTODOAttribute__ctor_m12062_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference MonoTODOAttribute_t3367_VTable[] =
+static const Il2CppMethodReference MonoTODOAttribute_t3370_VTable[] =
 {
 	&Attribute_Equals_m489_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -21217,7 +21217,7 @@ static const Il2CppMethodReference MonoTODOAttribute_t3367_VTable[] =
 	&Attribute_get_TypeId_m493_MethodInfo,
 	&Attribute_IsDefaultAttribute_m494_MethodInfo,
 };
-static bool MonoTODOAttribute_t3367_VTableIsGenericMethod[] =
+static bool MonoTODOAttribute_t3370_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -21226,42 +21226,42 @@ static bool MonoTODOAttribute_t3367_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair MonoTODOAttribute_t3367_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair MonoTODOAttribute_t3370_InterfacesOffsets[] = 
 {
 	{ &_Attribute_t86_0_0_0, 4},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType MonoTODOAttribute_t3367_0_0_0;
-extern const Il2CppType MonoTODOAttribute_t3367_1_0_0;
-struct MonoTODOAttribute_t3367;
-const Il2CppTypeDefinitionMetadata MonoTODOAttribute_t3367_DefinitionMetadata = 
+extern const Il2CppType MonoTODOAttribute_t3370_0_0_0;
+extern const Il2CppType MonoTODOAttribute_t3370_1_0_0;
+struct MonoTODOAttribute_t3370;
+const Il2CppTypeDefinitionMetadata MonoTODOAttribute_t3370_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, MonoTODOAttribute_t3367_InterfacesOffsets/* interfaceOffsets */
+	, MonoTODOAttribute_t3370_InterfacesOffsets/* interfaceOffsets */
 	, &Attribute_t426_0_0_0/* parent */
-	, MonoTODOAttribute_t3367_VTable/* vtableMethods */
-	, MonoTODOAttribute_t3367_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, MonoTODOAttribute_t3370_VTable/* vtableMethods */
+	, MonoTODOAttribute_t3370_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, 204/* fieldStart */
 
 };
-TypeInfo MonoTODOAttribute_t3367_il2cpp_TypeInfo = 
+TypeInfo MonoTODOAttribute_t3370_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MonoTODOAttribute"/* name */
 	, "System"/* namespaze */
-	, MonoTODOAttribute_t3367_MethodInfos/* methods */
+	, MonoTODOAttribute_t3370_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &MonoTODOAttribute_t3367_il2cpp_TypeInfo/* element_class */
+	, &MonoTODOAttribute_t3370_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 71/* custom_attributes_cache */
-	, &MonoTODOAttribute_t3367_0_0_0/* byval_arg */
-	, &MonoTODOAttribute_t3367_1_0_0/* this_arg */
-	, &MonoTODOAttribute_t3367_DefinitionMetadata/* definitionMetadata */
+	, &MonoTODOAttribute_t3370_0_0_0/* byval_arg */
+	, &MonoTODOAttribute_t3370_1_0_0/* this_arg */
+	, &MonoTODOAttribute_t3370_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -21271,8 +21271,8 @@ TypeInfo MonoTODOAttribute_t3367_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MonoTODOAttribute_t3367)/* instance_size */
-	, sizeof (MonoTODOAttribute_t3367)/* actualSize */
+	, sizeof (MonoTODOAttribute_t3370)/* instance_size */
+	, sizeof (MonoTODOAttribute_t3370)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -21304,11 +21304,11 @@ TypeInfo MonoTODOAttribute_t3367_il2cpp_TypeInfo =
 // System.MonoInternalNoteAttribute
 #include "System_Configuration_System_MonoInternalNoteAttribute.h"
 // Metadata Definition System.MonoInternalNoteAttribute
-extern TypeInfo MonoInternalNoteAttribute_t3368_il2cpp_TypeInfo;
+extern TypeInfo MonoInternalNoteAttribute_t3371_il2cpp_TypeInfo;
 // System.MonoInternalNoteAttribute
 #include "System_Configuration_System_MonoInternalNoteAttributeMethodDeclarations.h"
 extern const Il2CppType String_t_0_0_0;
-static const ParameterInfo MonoInternalNoteAttribute_t3368_MonoInternalNoteAttribute__ctor_m12063_ParameterInfos[] = 
+static const ParameterInfo MonoInternalNoteAttribute_t3371_MonoInternalNoteAttribute__ctor_m12063_ParameterInfos[] = 
 {
 	{"comment", 0, 134218080, 0, &String_t_0_0_0},
 };
@@ -21318,10 +21318,10 @@ extern const MethodInfo MonoInternalNoteAttribute__ctor_m12063_MethodInfo =
 {
 	".ctor"/* name */
 	, (methodPointerType)&MonoInternalNoteAttribute__ctor_m12063/* method */
-	, &MonoInternalNoteAttribute_t3368_il2cpp_TypeInfo/* declaring_type */
+	, &MonoInternalNoteAttribute_t3371_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t85_Object_t/* invoker_method */
-	, MonoInternalNoteAttribute_t3368_MonoInternalNoteAttribute__ctor_m12063_ParameterInfos/* parameters */
+	, MonoInternalNoteAttribute_t3371_MonoInternalNoteAttribute__ctor_m12063_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 6278/* flags */
 	, 0/* iflags */
@@ -21335,12 +21335,12 @@ extern const MethodInfo MonoInternalNoteAttribute__ctor_m12063_MethodInfo =
 	, NULL/* dummy */
 
 };
-static const MethodInfo* MonoInternalNoteAttribute_t3368_MethodInfos[] =
+static const MethodInfo* MonoInternalNoteAttribute_t3371_MethodInfos[] =
 {
 	&MonoInternalNoteAttribute__ctor_m12063_MethodInfo,
 	NULL
 };
-static const Il2CppMethodReference MonoInternalNoteAttribute_t3368_VTable[] =
+static const Il2CppMethodReference MonoInternalNoteAttribute_t3371_VTable[] =
 {
 	&Attribute_Equals_m489_MethodInfo,
 	&Object_Finalize_m490_MethodInfo,
@@ -21349,7 +21349,7 @@ static const Il2CppMethodReference MonoInternalNoteAttribute_t3368_VTable[] =
 	&Attribute_get_TypeId_m493_MethodInfo,
 	&Attribute_IsDefaultAttribute_m494_MethodInfo,
 };
-static bool MonoInternalNoteAttribute_t3368_VTableIsGenericMethod[] =
+static bool MonoInternalNoteAttribute_t3371_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -21358,42 +21358,42 @@ static bool MonoInternalNoteAttribute_t3368_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static Il2CppInterfaceOffsetPair MonoInternalNoteAttribute_t3368_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair MonoInternalNoteAttribute_t3371_InterfacesOffsets[] = 
 {
 	{ &_Attribute_t86_0_0_0, 4},
 };
 extern Il2CppImage g_System_Configuration_dll_Image;
-extern const Il2CppType MonoInternalNoteAttribute_t3368_0_0_0;
-extern const Il2CppType MonoInternalNoteAttribute_t3368_1_0_0;
-struct MonoInternalNoteAttribute_t3368;
-const Il2CppTypeDefinitionMetadata MonoInternalNoteAttribute_t3368_DefinitionMetadata = 
+extern const Il2CppType MonoInternalNoteAttribute_t3371_0_0_0;
+extern const Il2CppType MonoInternalNoteAttribute_t3371_1_0_0;
+struct MonoInternalNoteAttribute_t3371;
+const Il2CppTypeDefinitionMetadata MonoInternalNoteAttribute_t3371_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
-	, MonoInternalNoteAttribute_t3368_InterfacesOffsets/* interfaceOffsets */
-	, &MonoTODOAttribute_t3367_0_0_0/* parent */
-	, MonoInternalNoteAttribute_t3368_VTable/* vtableMethods */
-	, MonoInternalNoteAttribute_t3368_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, MonoInternalNoteAttribute_t3371_InterfacesOffsets/* interfaceOffsets */
+	, &MonoTODOAttribute_t3370_0_0_0/* parent */
+	, MonoInternalNoteAttribute_t3371_VTable/* vtableMethods */
+	, MonoInternalNoteAttribute_t3371_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 	, -1/* fieldStart */
 
 };
-TypeInfo MonoInternalNoteAttribute_t3368_il2cpp_TypeInfo = 
+TypeInfo MonoInternalNoteAttribute_t3371_il2cpp_TypeInfo = 
 {
 	&g_System_Configuration_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "MonoInternalNoteAttribute"/* name */
 	, "System"/* namespaze */
-	, MonoInternalNoteAttribute_t3368_MethodInfos/* methods */
+	, MonoInternalNoteAttribute_t3371_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* events */
-	, &MonoInternalNoteAttribute_t3368_il2cpp_TypeInfo/* element_class */
+	, &MonoInternalNoteAttribute_t3371_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, 72/* custom_attributes_cache */
-	, &MonoInternalNoteAttribute_t3368_0_0_0/* byval_arg */
-	, &MonoInternalNoteAttribute_t3368_1_0_0/* this_arg */
-	, &MonoInternalNoteAttribute_t3368_DefinitionMetadata/* definitionMetadata */
+	, &MonoInternalNoteAttribute_t3371_0_0_0/* byval_arg */
+	, &MonoInternalNoteAttribute_t3371_1_0_0/* this_arg */
+	, &MonoInternalNoteAttribute_t3371_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -21403,8 +21403,8 @@ TypeInfo MonoInternalNoteAttribute_t3368_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (MonoInternalNoteAttribute_t3368)/* instance_size */
-	, sizeof (MonoInternalNoteAttribute_t3368)/* actualSize */
+	, sizeof (MonoInternalNoteAttribute_t3371)/* instance_size */
+	, sizeof (MonoInternalNoteAttribute_t3371)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */

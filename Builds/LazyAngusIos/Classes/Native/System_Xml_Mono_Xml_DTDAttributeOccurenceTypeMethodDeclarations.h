@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.DTDAttributeOccurenceType
-struct DTDAttributeOccurenceType_t3478;
+struct DTDAttributeOccurenceType_t3481;
 

@@ -3,7 +3,7 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.Schema.XmlSchemaCompilationSettings
-struct  XmlSchemaCompilationSettings_t3639  : public Object_t
+struct  XmlSchemaCompilationSettings_t3642  : public Object_t
 {
 	// System.Boolean System.Xml.Schema.XmlSchemaCompilationSettings::enable_upa_check
 	bool ___enable_upa_check_0;

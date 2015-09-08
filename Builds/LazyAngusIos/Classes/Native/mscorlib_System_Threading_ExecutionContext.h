@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.SecurityContext
-struct SecurityContext_t5235;
+struct SecurityContext_t5238;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.ExecutionContext
-struct  ExecutionContext_t5153  : public Object_t
+struct  ExecutionContext_t5156  : public Object_t
 {
 	// System.Security.SecurityContext System.Threading.ExecutionContext::_sc
-	SecurityContext_t5235 * ____sc_0;
+	SecurityContext_t5238 * ____sc_0;
 	// System.Boolean System.Threading.ExecutionContext::_suppressFlow
 	bool ____suppressFlow_1;
 	// System.Boolean System.Threading.ExecutionContext::_capture

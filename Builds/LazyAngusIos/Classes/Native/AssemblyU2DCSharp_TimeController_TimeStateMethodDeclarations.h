@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // TimeController/TimeState
-struct TimeState_t674;
+struct TimeState_t677;
 

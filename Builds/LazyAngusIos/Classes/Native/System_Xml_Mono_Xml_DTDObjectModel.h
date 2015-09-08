@@ -1,68 +1,68 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Xml.DTDAutomataFactory
-struct DTDAutomataFactory_t3445;
+struct DTDAutomataFactory_t3448;
 // Mono.Xml.DTDElementAutomata
-struct DTDElementAutomata_t3447;
+struct DTDElementAutomata_t3450;
 // Mono.Xml.DTDEmptyAutomata
-struct DTDEmptyAutomata_t3451;
+struct DTDEmptyAutomata_t3454;
 // Mono.Xml.DTDAnyAutomata
-struct DTDAnyAutomata_t3452;
+struct DTDAnyAutomata_t3455;
 // Mono.Xml.DTDInvalidAutomata
-struct DTDInvalidAutomata_t3453;
+struct DTDInvalidAutomata_t3456;
 // Mono.Xml.DTDElementDeclarationCollection
-struct DTDElementDeclarationCollection_t3454;
+struct DTDElementDeclarationCollection_t3457;
 // Mono.Xml.DTDAttListDeclarationCollection
-struct DTDAttListDeclarationCollection_t3455;
+struct DTDAttListDeclarationCollection_t3458;
 // Mono.Xml.DTDParameterEntityDeclarationCollection
-struct DTDParameterEntityDeclarationCollection_t3456;
+struct DTDParameterEntityDeclarationCollection_t3459;
 // Mono.Xml.DTDEntityDeclarationCollection
-struct DTDEntityDeclarationCollection_t3457;
+struct DTDEntityDeclarationCollection_t3460;
 // Mono.Xml.DTDNotationDeclarationCollection
-struct DTDNotationDeclarationCollection_t3458;
+struct DTDNotationDeclarationCollection_t3461;
 // System.Collections.ArrayList
-struct ArrayList_t713;
+struct ArrayList_t716;
 // System.Xml.XmlResolver
-struct XmlResolver_t3434;
+struct XmlResolver_t3437;
 // System.Xml.XmlNameTable
-struct XmlNameTable_t3459;
+struct XmlNameTable_t3462;
 // System.Collections.Hashtable
-struct Hashtable_t711;
+struct Hashtable_t714;
 // System.String
 struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Xml.DTDObjectModel
-struct  DTDObjectModel_t3444  : public Object_t
+struct  DTDObjectModel_t3447  : public Object_t
 {
 	// Mono.Xml.DTDAutomataFactory Mono.Xml.DTDObjectModel::factory
-	DTDAutomataFactory_t3445 * ___factory_0;
+	DTDAutomataFactory_t3448 * ___factory_0;
 	// Mono.Xml.DTDElementAutomata Mono.Xml.DTDObjectModel::rootAutomata
-	DTDElementAutomata_t3447 * ___rootAutomata_1;
+	DTDElementAutomata_t3450 * ___rootAutomata_1;
 	// Mono.Xml.DTDEmptyAutomata Mono.Xml.DTDObjectModel::emptyAutomata
-	DTDEmptyAutomata_t3451 * ___emptyAutomata_2;
+	DTDEmptyAutomata_t3454 * ___emptyAutomata_2;
 	// Mono.Xml.DTDAnyAutomata Mono.Xml.DTDObjectModel::anyAutomata
-	DTDAnyAutomata_t3452 * ___anyAutomata_3;
+	DTDAnyAutomata_t3455 * ___anyAutomata_3;
 	// Mono.Xml.DTDInvalidAutomata Mono.Xml.DTDObjectModel::invalidAutomata
-	DTDInvalidAutomata_t3453 * ___invalidAutomata_4;
+	DTDInvalidAutomata_t3456 * ___invalidAutomata_4;
 	// Mono.Xml.DTDElementDeclarationCollection Mono.Xml.DTDObjectModel::elementDecls
-	DTDElementDeclarationCollection_t3454 * ___elementDecls_5;
+	DTDElementDeclarationCollection_t3457 * ___elementDecls_5;
 	// Mono.Xml.DTDAttListDeclarationCollection Mono.Xml.DTDObjectModel::attListDecls
-	DTDAttListDeclarationCollection_t3455 * ___attListDecls_6;
+	DTDAttListDeclarationCollection_t3458 * ___attListDecls_6;
 	// Mono.Xml.DTDParameterEntityDeclarationCollection Mono.Xml.DTDObjectModel::peDecls
-	DTDParameterEntityDeclarationCollection_t3456 * ___peDecls_7;
+	DTDParameterEntityDeclarationCollection_t3459 * ___peDecls_7;
 	// Mono.Xml.DTDEntityDeclarationCollection Mono.Xml.DTDObjectModel::entityDecls
-	DTDEntityDeclarationCollection_t3457 * ___entityDecls_8;
+	DTDEntityDeclarationCollection_t3460 * ___entityDecls_8;
 	// Mono.Xml.DTDNotationDeclarationCollection Mono.Xml.DTDObjectModel::notationDecls
-	DTDNotationDeclarationCollection_t3458 * ___notationDecls_9;
+	DTDNotationDeclarationCollection_t3461 * ___notationDecls_9;
 	// System.Collections.ArrayList Mono.Xml.DTDObjectModel::validationErrors
-	ArrayList_t713 * ___validationErrors_10;
+	ArrayList_t716 * ___validationErrors_10;
 	// System.Xml.XmlResolver Mono.Xml.DTDObjectModel::resolver
-	XmlResolver_t3434 * ___resolver_11;
+	XmlResolver_t3437 * ___resolver_11;
 	// System.Xml.XmlNameTable Mono.Xml.DTDObjectModel::nameTable
-	XmlNameTable_t3459 * ___nameTable_12;
+	XmlNameTable_t3462 * ___nameTable_12;
 	// System.Collections.Hashtable Mono.Xml.DTDObjectModel::externalResources
-	Hashtable_t711 * ___externalResources_13;
+	Hashtable_t714 * ___externalResources_13;
 	// System.String Mono.Xml.DTDObjectModel::baseURI
 	String_t* ___baseURI_14;
 	// System.String Mono.Xml.DTDObjectModel::name

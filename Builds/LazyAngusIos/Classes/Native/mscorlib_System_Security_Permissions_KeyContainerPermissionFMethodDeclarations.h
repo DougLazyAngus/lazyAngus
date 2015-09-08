@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Permissions.KeyContainerPermissionFlags
-struct KeyContainerPermissionFlags_t5304;
+struct KeyContainerPermissionFlags_t5307;
 

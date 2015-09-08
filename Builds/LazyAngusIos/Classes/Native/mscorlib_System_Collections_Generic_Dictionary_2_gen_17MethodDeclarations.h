@@ -7,35 +7,35 @@
 // System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>
 struct Dictionary_2_t291;
 // System.Collections.Generic.ICollection`1<FacebookProfileImageSize>
-struct ICollection_1_t9487;
+struct ICollection_1_t9492;
 // System.Collections.Generic.ICollection`1<UnityEngine.Texture2D>
-struct ICollection_1_t9488;
+struct ICollection_1_t9493;
 // System.Collections.ICollection
-struct ICollection_t769;
+struct ICollection_t772;
 // System.Object
 struct Object_t;
 // UnityEngine.Texture2D
 struct Texture2D_t108;
 // System.Collections.Generic.Dictionary`2/KeyCollection<FacebookProfileImageSize,UnityEngine.Texture2D>
-struct KeyCollection_t6161;
+struct KeyCollection_t6164;
 // System.Collections.Generic.Dictionary`2/ValueCollection<FacebookProfileImageSize,UnityEngine.Texture2D>
-struct ValueCollection_t6162;
+struct ValueCollection_t6165;
 // System.Collections.Generic.IEqualityComparer`1<FacebookProfileImageSize>
-struct IEqualityComparer_1_t6158;
+struct IEqualityComparer_1_t6161;
 // System.Collections.Generic.IDictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>
-struct IDictionary_2_t9489;
+struct IDictionary_2_t9494;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2937;
+struct SerializationInfo_t2940;
 // System.Collections.Generic.KeyValuePair`2<FacebookProfileImageSize,UnityEngine.Texture2D>[]
-struct KeyValuePair_2U5BU5D_t9490;
+struct KeyValuePair_2U5BU5D_t9495;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<FacebookProfileImageSize,UnityEngine.Texture2D>>
-struct IEnumerator_1_t9491;
+struct IEnumerator_1_t9496;
 // System.Collections.IDictionaryEnumerator
-struct IDictionaryEnumerator_t799;
+struct IDictionaryEnumerator_t802;
 // FacebookProfileImageSize
 #include "AssemblyU2DCSharp_FacebookProfileImageSize.h"
 // System.Runtime.Serialization.StreamingContext
@@ -60,7 +60,7 @@ struct IDictionaryEnumerator_t799;
 // System.Void System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>,System.Collections.Generic.IEqualityComparer`1<TKey>)
 #define Dictionary_2__ctor_m29592(__this, ___dictionary, ___comparer, method) (( void (*) (Dictionary_2_t291 *, Object_t*, Object_t*, const MethodInfo*))Dictionary_2__ctor_m25449_gshared)(__this, ___dictionary, ___comparer, method)
 // System.Void System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-#define Dictionary_2__ctor_m29593(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t291 *, SerializationInfo_t2937 *, StreamingContext_t2938 , const MethodInfo*))Dictionary_2__ctor_m25451_gshared)(__this, ___info, ___context, method)
+#define Dictionary_2__ctor_m29593(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t291 *, SerializationInfo_t2940 *, StreamingContext_t2941 , const MethodInfo*))Dictionary_2__ctor_m25451_gshared)(__this, ___info, ___context, method)
 // System.Collections.Generic.ICollection`1<TKey> System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys()
 #define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m29594(__this, method) (( Object_t* (*) (Dictionary_2_t291 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m25453_gshared)(__this, method)
 // System.Collections.Generic.ICollection`1<TValue> System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Values()
@@ -86,13 +86,13 @@ struct IDictionaryEnumerator_t799;
 // System.Boolean System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly()
 #define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m29605(__this, method) (( bool (*) (Dictionary_2_t291 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m25475_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m29606(__this, ___keyValuePair, method) (( void (*) (Dictionary_2_t291 *, KeyValuePair_2_t6160 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m25477_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m29606(__this, ___keyValuePair, method) (( void (*) (Dictionary_2_t291 *, KeyValuePair_2_t6163 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m25477_gshared)(__this, ___keyValuePair, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m29607(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t291 *, KeyValuePair_2_t6160 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m25479_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m29607(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t291 *, KeyValuePair_2_t6163 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m25479_gshared)(__this, ___keyValuePair, method)
 // System.Void System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m29608(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t291 *, KeyValuePair_2U5BU5D_t9490*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m25481_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m29608(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t291 *, KeyValuePair_2U5BU5D_t9495*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m25481_gshared)(__this, ___array, ___index, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m29609(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t291 *, KeyValuePair_2_t6160 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m25483_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m29609(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t291 *, KeyValuePair_2_t6163 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m25483_gshared)(__this, ___keyValuePair, method)
 // System.Void System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
 #define Dictionary_2_System_Collections_ICollection_CopyTo_m29610(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t291 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_System_Collections_ICollection_CopyTo_m25485_gshared)(__this, ___array, ___index, method)
 // System.Collections.IEnumerator System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::System.Collections.IEnumerable.GetEnumerator()
@@ -114,13 +114,13 @@ struct IDictionaryEnumerator_t799;
 // System.Void System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::CopyToCheck(System.Array,System.Int32)
 #define Dictionary_2_CopyToCheck_m29619(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t291 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m25503_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::make_pair(TKey,TValue)
-#define Dictionary_2_make_pair_m29620(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t6160  (*) (Object_t * /* static, unused */, int32_t, Texture2D_t108 *, const MethodInfo*))Dictionary_2_make_pair_m25505_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_make_pair_m29620(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t6163  (*) (Object_t * /* static, unused */, int32_t, Texture2D_t108 *, const MethodInfo*))Dictionary_2_make_pair_m25505_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TKey System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::pick_key(TKey,TValue)
 #define Dictionary_2_pick_key_m29621(__this /* static, unused */, ___key, ___value, method) (( int32_t (*) (Object_t * /* static, unused */, int32_t, Texture2D_t108 *, const MethodInfo*))Dictionary_2_pick_key_m25507_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TValue System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::pick_value(TKey,TValue)
 #define Dictionary_2_pick_value_m29622(__this /* static, unused */, ___key, ___value, method) (( Texture2D_t108 * (*) (Object_t * /* static, unused */, int32_t, Texture2D_t108 *, const MethodInfo*))Dictionary_2_pick_value_m25509_gshared)(__this /* static, unused */, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-#define Dictionary_2_CopyTo_m29623(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t291 *, KeyValuePair_2U5BU5D_t9490*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m25511_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_CopyTo_m29623(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t291 *, KeyValuePair_2U5BU5D_t9495*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m25511_gshared)(__this, ___array, ___index, method)
 // System.Void System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::Resize()
 #define Dictionary_2_Resize_m29624(__this, method) (( void (*) (Dictionary_2_t291 *, const MethodInfo*))Dictionary_2_Resize_m25513_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::Add(TKey,TValue)
@@ -132,7 +132,7 @@ struct IDictionaryEnumerator_t799;
 // System.Boolean System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::ContainsValue(TValue)
 #define Dictionary_2_ContainsValue_m29628(__this, ___value, method) (( bool (*) (Dictionary_2_t291 *, Texture2D_t108 *, const MethodInfo*))Dictionary_2_ContainsValue_m25521_gshared)(__this, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-#define Dictionary_2_GetObjectData_m29629(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t291 *, SerializationInfo_t2937 *, StreamingContext_t2938 , const MethodInfo*))Dictionary_2_GetObjectData_m25523_gshared)(__this, ___info, ___context, method)
+#define Dictionary_2_GetObjectData_m29629(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t291 *, SerializationInfo_t2940 *, StreamingContext_t2941 , const MethodInfo*))Dictionary_2_GetObjectData_m25523_gshared)(__this, ___info, ___context, method)
 // System.Void System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::OnDeserialization(System.Object)
 #define Dictionary_2_OnDeserialization_m29630(__this, ___sender, method) (( void (*) (Dictionary_2_t291 *, Object_t *, const MethodInfo*))Dictionary_2_OnDeserialization_m25525_gshared)(__this, ___sender, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::Remove(TKey)
@@ -140,16 +140,16 @@ struct IDictionaryEnumerator_t799;
 // System.Boolean System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::TryGetValue(TKey,TValue&)
 #define Dictionary_2_TryGetValue_m29632(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t291 *, int32_t, Texture2D_t108 **, const MethodInfo*))Dictionary_2_TryGetValue_m25529_gshared)(__this, ___key, ___value, method)
 // System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::get_Keys()
-#define Dictionary_2_get_Keys_m29633(__this, method) (( KeyCollection_t6161 * (*) (Dictionary_2_t291 *, const MethodInfo*))Dictionary_2_get_Keys_m25531_gshared)(__this, method)
+#define Dictionary_2_get_Keys_m29633(__this, method) (( KeyCollection_t6164 * (*) (Dictionary_2_t291 *, const MethodInfo*))Dictionary_2_get_Keys_m25531_gshared)(__this, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::get_Values()
-#define Dictionary_2_get_Values_m29634(__this, method) (( ValueCollection_t6162 * (*) (Dictionary_2_t291 *, const MethodInfo*))Dictionary_2_get_Values_m25533_gshared)(__this, method)
+#define Dictionary_2_get_Values_m29634(__this, method) (( ValueCollection_t6165 * (*) (Dictionary_2_t291 *, const MethodInfo*))Dictionary_2_get_Values_m25533_gshared)(__this, method)
 // TKey System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::ToTKey(System.Object)
 #define Dictionary_2_ToTKey_m29635(__this, ___key, method) (( int32_t (*) (Dictionary_2_t291 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m25535_gshared)(__this, ___key, method)
 // TValue System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::ToTValue(System.Object)
 #define Dictionary_2_ToTValue_m29636(__this, ___value, method) (( Texture2D_t108 * (*) (Dictionary_2_t291 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m25537_gshared)(__this, ___value, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::ContainsKeyValuePair(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_ContainsKeyValuePair_m29637(__this, ___pair, method) (( bool (*) (Dictionary_2_t291 *, KeyValuePair_2_t6160 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m25539_gshared)(__this, ___pair, method)
+#define Dictionary_2_ContainsKeyValuePair_m29637(__this, ___pair, method) (( bool (*) (Dictionary_2_t291 *, KeyValuePair_2_t6163 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m25539_gshared)(__this, ___pair, method)
 // System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::GetEnumerator()
-#define Dictionary_2_GetEnumerator_m29638(__this, method) (( Enumerator_t6163  (*) (Dictionary_2_t291 *, const MethodInfo*))Dictionary_2_GetEnumerator_m25541_gshared)(__this, method)
+#define Dictionary_2_GetEnumerator_m29638(__this, method) (( Enumerator_t6166  (*) (Dictionary_2_t291 *, const MethodInfo*))Dictionary_2_GetEnumerator_m25541_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2<FacebookProfileImageSize,UnityEngine.Texture2D>::<CopyTo>m__2(TKey,TValue)
-#define Dictionary_2_U3CCopyToU3Em__2_m29639(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2157  (*) (Object_t * /* static, unused */, int32_t, Texture2D_t108 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__2_m25543_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_U3CCopyToU3Em__2_m29639(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2160  (*) (Object_t * /* static, unused */, int32_t, Texture2D_t108 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__2_m25543_gshared)(__this /* static, unused */, ___key, ___value, method)

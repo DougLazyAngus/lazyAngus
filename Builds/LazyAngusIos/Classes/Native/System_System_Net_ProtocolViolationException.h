@@ -3,6 +3,6 @@
 // System.InvalidOperationException
 #include "mscorlib_System_InvalidOperationException.h"
 // System.Net.ProtocolViolationException
-struct  ProtocolViolationException_t4387  : public InvalidOperationException_t1447
+struct  ProtocolViolationException_t4390  : public InvalidOperationException_t1450
 {
 };

@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PlayButtonClickSound
-struct  PlayButtonClickSound_t626  : public MonoBehaviour_t13
+struct  PlayButtonClickSound_t630  : public MonoBehaviour_t13
 {
 };

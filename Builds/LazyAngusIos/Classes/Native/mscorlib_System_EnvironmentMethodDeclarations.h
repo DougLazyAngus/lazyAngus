@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Environment
-struct Environment_t4882;
+struct Environment_t4885;
 // System.String
 struct String_t;
 // System.OperatingSystem
-struct OperatingSystem_t4881;
+struct OperatingSystem_t4884;
 // System.PlatformID
 #include "mscorlib_System_PlatformID.h"
 // System.Environment/SpecialFolder
@@ -24,7 +24,7 @@ extern "C" int32_t Environment_get_Platform_m20413 (Object_t * __this /* static,
 // System.String System.Environment::GetOSVersionString()
 extern "C" String_t* Environment_GetOSVersionString_m20414 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.OperatingSystem System.Environment::get_OSVersion()
-extern "C" OperatingSystem_t4881 * Environment_get_OSVersion_m20415 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" OperatingSystem_t4884 * Environment_get_OSVersion_m20415 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Environment::get_TickCount()
 extern "C" int32_t Environment_get_TickCount_m10297 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Environment::Exit(System.Int32)

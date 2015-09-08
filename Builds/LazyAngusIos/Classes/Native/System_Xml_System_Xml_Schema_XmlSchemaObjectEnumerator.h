@@ -5,7 +5,7 @@ struct IEnumerator_t48;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.Schema.XmlSchemaObjectEnumerator
-struct  XmlSchemaObjectEnumerator_t3675  : public Object_t
+struct  XmlSchemaObjectEnumerator_t3678  : public Object_t
 {
 	// System.Collections.IEnumerator System.Xml.Schema.XmlSchemaObjectEnumerator::ienum
 	Object_t * ___ienum_0;

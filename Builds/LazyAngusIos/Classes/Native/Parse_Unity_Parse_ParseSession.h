@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.HashSet`1<System.String>
-struct HashSet_1_t1308;
+struct HashSet_1_t1311;
 // Parse.ParseObject
 #include "Parse_Unity_Parse_ParseObject.h"
 // Parse.ParseSession
-struct  ParseSession_t1321  : public ParseObject_t1239
+struct  ParseSession_t1324  : public ParseObject_t1242
 {
 };
-struct ParseSession_t1321_StaticFields{
+struct ParseSession_t1324_StaticFields{
 	// System.Collections.Generic.HashSet`1<System.String> Parse.ParseSession::readOnlyKeys
-	HashSet_1_t1308 * ___readOnlyKeys_30;
+	HashSet_1_t1311 * ___readOnlyKeys_30;
 };

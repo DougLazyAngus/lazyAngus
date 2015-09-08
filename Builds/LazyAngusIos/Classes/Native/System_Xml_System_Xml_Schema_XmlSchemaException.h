@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.Schema.XmlSchemaObject
-struct XmlSchemaObject_t3440;
+struct XmlSchemaObject_t3443;
 // System.String
 struct String_t;
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.Xml.Schema.XmlSchemaException
-struct  XmlSchemaException_t3621  : public SystemException_t3384
+struct  XmlSchemaException_t3624  : public SystemException_t3387
 {
 	// System.Boolean System.Xml.Schema.XmlSchemaException::hasLineInfo
 	bool ___hasLineInfo_11;
@@ -16,7 +16,7 @@ struct  XmlSchemaException_t3621  : public SystemException_t3384
 	// System.Int32 System.Xml.Schema.XmlSchemaException::linePosition
 	int32_t ___linePosition_13;
 	// System.Xml.Schema.XmlSchemaObject System.Xml.Schema.XmlSchemaException::sourceObj
-	XmlSchemaObject_t3440 * ___sourceObj_14;
+	XmlSchemaObject_t3443 * ___sourceObj_14;
 	// System.String System.Xml.Schema.XmlSchemaException::sourceUri
 	String_t* ___sourceUri_15;
 };

@@ -5,7 +5,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Xml.DTDValidatingReader/AttributeSlot
-struct  AttributeSlot_t3482  : public Object_t
+struct  AttributeSlot_t3485  : public Object_t
 {
 	// System.String Mono.Xml.DTDValidatingReader/AttributeSlot::Name
 	String_t* ___Name_0;

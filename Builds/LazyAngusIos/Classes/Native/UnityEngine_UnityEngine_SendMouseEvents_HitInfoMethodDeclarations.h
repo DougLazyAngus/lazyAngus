@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SendMouseEvents/HitInfo
-struct HitInfo_t2881;
+struct HitInfo_t2884;
 // System.String
 struct String_t;
 // UnityEngine.SendMouseEvents/HitInfo
 #include "UnityEngine_UnityEngine_SendMouseEvents_HitInfo.h"
 
 // System.Void UnityEngine.SendMouseEvents/HitInfo::SendMessage(System.String)
-extern "C" void HitInfo_SendMessage_m10114 (HitInfo_t2881 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HitInfo_SendMessage_m10114 (HitInfo_t2884 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.SendMouseEvents/HitInfo::Compare(UnityEngine.SendMouseEvents/HitInfo,UnityEngine.SendMouseEvents/HitInfo)
-extern "C" bool HitInfo_Compare_m10115 (Object_t * __this /* static, unused */, HitInfo_t2881  ___lhs, HitInfo_t2881  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool HitInfo_Compare_m10115 (Object_t * __this /* static, unused */, HitInfo_t2884  ___lhs, HitInfo_t2884  ___rhs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.SendMouseEvents/HitInfo::op_Implicit(UnityEngine.SendMouseEvents/HitInfo)
-extern "C" bool HitInfo_op_Implicit_m10116 (Object_t * __this /* static, unused */, HitInfo_t2881  ___exists, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool HitInfo_op_Implicit_m10116 (Object_t * __this /* static, unused */, HitInfo_t2884  ___exists, const MethodInfo* method) IL2CPP_METHOD_ATTR;

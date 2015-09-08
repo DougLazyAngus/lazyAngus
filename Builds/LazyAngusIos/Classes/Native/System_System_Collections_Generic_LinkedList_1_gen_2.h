@@ -3,13 +3,13 @@
 // System.Object
 struct Object_t;
 // System.Collections.Generic.LinkedListNode`1<System.ComponentModel.TypeDescriptionProvider>
-struct LinkedListNode_1_t9226;
+struct LinkedListNode_1_t9231;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2937;
+struct SerializationInfo_t2940;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.LinkedList`1<System.ComponentModel.TypeDescriptionProvider>
-struct  LinkedList_1_t9224  : public Object_t
+struct  LinkedList_1_t9229  : public Object_t
 {
 	// System.UInt32 System.Collections.Generic.LinkedList`1<System.ComponentModel.TypeDescriptionProvider>::count
 	uint32_t ___count_0;
@@ -18,7 +18,7 @@ struct  LinkedList_1_t9224  : public Object_t
 	// System.Object System.Collections.Generic.LinkedList`1<System.ComponentModel.TypeDescriptionProvider>::syncRoot
 	Object_t * ___syncRoot_2;
 	// System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedList`1<System.ComponentModel.TypeDescriptionProvider>::first
-	LinkedListNode_1_t9226 * ___first_3;
+	LinkedListNode_1_t9231 * ___first_3;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.LinkedList`1<System.ComponentModel.TypeDescriptionProvider>::si
-	SerializationInfo_t2937 * ___si_4;
+	SerializationInfo_t2940 * ___si_4;
 };

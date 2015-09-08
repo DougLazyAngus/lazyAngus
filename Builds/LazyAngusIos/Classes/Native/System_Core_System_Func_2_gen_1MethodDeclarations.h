@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<UnityEngine.UI.ILayoutElement,System.Single>
-struct Func_2_t1024;
+struct Func_2_t1027;
 // System.Object
 struct Object_t;
 // UnityEngine.UI.ILayoutElement
-struct ILayoutElement_t1066;
+struct ILayoutElement_t1069;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<UnityEngine.UI.ILayoutElement,System.Single>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Object,System.Single>
 #include "System_Core_System_Func_2_gen_58MethodDeclarations.h"
-#define Func_2__ctor_m6357(__this, ___object, ___method, method) (( void (*) (Func_2_t1024 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m34989_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m6357(__this, ___object, ___method, method) (( void (*) (Func_2_t1027 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m35001_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<UnityEngine.UI.ILayoutElement,System.Single>::Invoke(T)
-#define Func_2_Invoke_m34990(__this, ___arg1, method) (( float (*) (Func_2_t1024 *, Object_t *, const MethodInfo*))Func_2_Invoke_m34991_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m35002(__this, ___arg1, method) (( float (*) (Func_2_t1027 *, Object_t *, const MethodInfo*))Func_2_Invoke_m35003_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<UnityEngine.UI.ILayoutElement,System.Single>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Func_2_BeginInvoke_m34992(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t1024 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m34993_gshared)(__this, ___arg1, ___callback, ___object, method)
+#define Func_2_BeginInvoke_m35004(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t1027 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m35005_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<UnityEngine.UI.ILayoutElement,System.Single>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m34994(__this, ___result, method) (( float (*) (Func_2_t1024 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m34995_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m35006(__this, ___result, method) (( float (*) (Func_2_t1027 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m35007_gshared)(__this, ___result, method)

@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.ParseUser/<>c__DisplayClass2b
-struct U3CU3Ec__DisplayClass2b_t1334;
+struct U3CU3Ec__DisplayClass2b_t1337;
 // System.Threading.Tasks.Task`1<Parse.ParseUser>
-struct Task_1_t1408;
+struct Task_1_t1411;
 // System.Threading.Tasks.Task`1<System.Collections.Generic.IDictionary`2<System.String,System.Object>>
-struct Task_1_t1391;
+struct Task_1_t1394;
 
 // System.Void Parse.ParseUser/<>c__DisplayClass2b::.ctor()
-extern "C" void U3CU3Ec__DisplayClass2b__ctor_m7215 (U3CU3Ec__DisplayClass2b_t1334 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass2b__ctor_m7215 (U3CU3Ec__DisplayClass2b_t1337 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<Parse.ParseUser> Parse.ParseUser/<>c__DisplayClass2b::<LogInWithAsync>b__2a(System.Threading.Tasks.Task`1<System.Collections.Generic.IDictionary`2<System.String,System.Object>>)
-extern "C" Task_1_t1408 * U3CU3Ec__DisplayClass2b_U3CLogInWithAsyncU3Eb__2a_m7216 (U3CU3Ec__DisplayClass2b_t1334 * __this, Task_1_t1391 * ___authData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1411 * U3CU3Ec__DisplayClass2b_U3CLogInWithAsyncU3Eb__2a_m7216 (U3CU3Ec__DisplayClass2b_t1337 * __this, Task_1_t1394 * ___authData, const MethodInfo* method) IL2CPP_METHOD_ATTR;

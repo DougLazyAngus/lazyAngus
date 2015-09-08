@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // Parse.Internal.FlexibleDictionaryWrapper`2<System.Double,System.Byte>
-struct FlexibleDictionaryWrapper_2_t2013;
+struct FlexibleDictionaryWrapper_2_t2016;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>>
-struct IEnumerator_1_t7760;
+struct IEnumerator_1_t7765;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Double>
@@ -11,16 +11,16 @@ struct IEnumerator_1_t7760;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Byte>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_66.h"
 // Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Double,System.Byte>
-struct  U3CGetEnumeratorU3Ed__4_t8425  : public Object_t
+struct  U3CGetEnumeratorU3Ed__4_t8430  : public Object_t
 {
 	// System.Collections.Generic.KeyValuePair`2<System.String,TOut> Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Double,System.Byte>::<>2__current
-	KeyValuePair_2_t7647  ___U3CU3E2__current_0;
+	KeyValuePair_2_t7652  ___U3CU3E2__current_0;
 	// System.Int32 Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Double,System.Byte>::<>1__state
 	int32_t ___U3CU3E1__state_1;
 	// Parse.Internal.FlexibleDictionaryWrapper`2<TOut,TIn> Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Double,System.Byte>::<>4__this
-	FlexibleDictionaryWrapper_2_t2013 * ___U3CU3E4__this_2;
+	FlexibleDictionaryWrapper_2_t2016 * ___U3CU3E4__this_2;
 	// System.Collections.Generic.KeyValuePair`2<System.String,TIn> Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Double,System.Byte>::<pair>5__5
-	KeyValuePair_2_t7755  ___U3CpairU3E5__5_3;
+	KeyValuePair_2_t7760  ___U3CpairU3E5__5_3;
 	// System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,TIn>> Parse.Internal.FlexibleDictionaryWrapper`2/<GetEnumerator>d__4<System.Double,System.Byte>::<>7__wrap6
 	Object_t* ___U3CU3E7__wrap6_4;
 };

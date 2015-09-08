@@ -11,11 +11,11 @@ struct Object_t;
 // System.Type
 struct Type_t;
 // System.IFormatProvider
-struct IFormatProvider_t5003;
+struct IFormatProvider_t5006;
 // System.String
 struct String_t;
 // System.Globalization.CultureInfo
-struct CultureInfo_t783;
+struct CultureInfo_t786;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Decimal
@@ -38,7 +38,7 @@ extern "C" uint16_t Char_System_IConvertible_ToChar_m18770 (uint16_t* __this, Ob
 // System.DateTime System.Char::System.IConvertible.ToDateTime(System.IFormatProvider)
 extern "C" DateTime_t287  Char_System_IConvertible_ToDateTime_m18771 (uint16_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Char::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t760  Char_System_IConvertible_ToDecimal_m18772 (uint16_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t763  Char_System_IConvertible_ToDecimal_m18772 (uint16_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Char::System.IConvertible.ToDouble(System.IFormatProvider)
 extern "C" double Char_System_IConvertible_ToDouble_m18773 (uint16_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Char::System.IConvertible.ToInt16(System.IFormatProvider)
@@ -102,13 +102,13 @@ extern "C" uint16_t Char_ToLower_m6238 (Object_t * __this /* static, unused */, 
 // System.Char System.Char::ToLowerInvariant(System.Char)
 extern "C" uint16_t Char_ToLowerInvariant_m18794 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Char::ToLower(System.Char,System.Globalization.CultureInfo)
-extern "C" uint16_t Char_ToLower_m18795 (Object_t * __this /* static, unused */, uint16_t ___c, CultureInfo_t783 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Char_ToLower_m18795 (Object_t * __this /* static, unused */, uint16_t ___c, CultureInfo_t786 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Char::ToUpper(System.Char)
 extern "C" uint16_t Char_ToUpper_m6236 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Char::ToUpperInvariant(System.Char)
 extern "C" uint16_t Char_ToUpperInvariant_m18150 (Object_t * __this /* static, unused */, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char System.Char::ToUpper(System.Char,System.Globalization.CultureInfo)
-extern "C" uint16_t Char_ToUpper_m14841 (Object_t * __this /* static, unused */, uint16_t ___c, CultureInfo_t783 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint16_t Char_ToUpper_m14841 (Object_t * __this /* static, unused */, uint16_t ___c, CultureInfo_t786 * ___culture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Char::ToString()
 extern "C" String_t* Char_ToString_m4295 (uint16_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Char::ToString(System.IFormatProvider)

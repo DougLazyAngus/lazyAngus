@@ -7,7 +7,7 @@ struct Dictionary_2_t317;
 // System.Collections.Generic.KeyValuePair`2<System.String,TwitterUserInfo>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_31.h"
 // System.Collections.Generic.Dictionary`2/Enumerator<System.String,TwitterUserInfo>
-struct  Enumerator_t6176 
+struct  Enumerator_t6179 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,TwitterUserInfo>::dictionary
 	Dictionary_2_t317 * ___dictionary_0;
@@ -16,5 +16,5 @@ struct  Enumerator_t6176
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,TwitterUserInfo>::stamp
 	int32_t ___stamp_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,TwitterUserInfo>::current
-	KeyValuePair_2_t6173  ___current_3;
+	KeyValuePair_2_t6176  ___current_3;
 };

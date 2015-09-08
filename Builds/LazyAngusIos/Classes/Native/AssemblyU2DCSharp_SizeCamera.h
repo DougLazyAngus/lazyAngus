@@ -3,9 +3,9 @@
 // UnityEngine.Camera
 struct Camera_t548;
 // ZoomCamera
-struct ZoomCamera_t661;
+struct ZoomCamera_t664;
 // SizeCamera/CameraConfiguredHandler
-struct CameraConfiguredHandler_t660;
+struct CameraConfiguredHandler_t663;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // SizeCamera
@@ -24,13 +24,13 @@ struct  SizeCamera_t519  : public MonoBehaviour_t13
 	// UnityEngine.Camera SizeCamera::myCamera
 	Camera_t548 * ___myCamera_7;
 	// ZoomCamera SizeCamera::myZoomCamera
-	ZoomCamera_t661 * ___myZoomCamera_8;
+	ZoomCamera_t664 * ___myZoomCamera_8;
 	// System.Boolean SizeCamera::registeredForEvents
 	bool ___registeredForEvents_9;
 	// System.Single SizeCamera::finalAspectRatio
 	float ___finalAspectRatio_10;
 	// SizeCamera/CameraConfiguredHandler SizeCamera::CameraConfigured
-	CameraConfiguredHandler_t660 * ___CameraConfigured_11;
+	CameraConfiguredHandler_t663 * ___CameraConfigured_11;
 	// System.Single SizeCamera::<finalActualWorldHalfHeight>k__BackingField
 	float ___U3CfinalActualWorldHalfHeightU3Ek__BackingField_12;
 };

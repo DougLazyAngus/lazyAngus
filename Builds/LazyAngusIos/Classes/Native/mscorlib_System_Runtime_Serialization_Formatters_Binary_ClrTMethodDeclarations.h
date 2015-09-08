@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.Formatters.Binary.ClrTypeMetadata
-struct ClrTypeMetadata_t5221;
+struct ClrTypeMetadata_t5224;
 // System.Type
 struct Type_t;
 
 // System.Void System.Runtime.Serialization.Formatters.Binary.ClrTypeMetadata::.ctor(System.Type)
-extern "C" void ClrTypeMetadata__ctor_m23090 (ClrTypeMetadata_t5221 * __this, Type_t * ___instanceType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ClrTypeMetadata__ctor_m23090 (ClrTypeMetadata_t5224 * __this, Type_t * ___instanceType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Serialization.Formatters.Binary.ClrTypeMetadata::get_RequiresTypes()
-extern "C" bool ClrTypeMetadata_get_RequiresTypes_m23091 (ClrTypeMetadata_t5221 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ClrTypeMetadata_get_RequiresTypes_m23091 (ClrTypeMetadata_t5224 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

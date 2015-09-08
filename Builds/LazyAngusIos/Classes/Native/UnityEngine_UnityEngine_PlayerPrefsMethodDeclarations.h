@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.PlayerPrefs
-struct PlayerPrefs_t2778;
+struct PlayerPrefs_t2781;
 // System.String
 struct String_t;
 

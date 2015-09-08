@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ComponentModel.WeakObjectWrapper
-struct WeakObjectWrapper_t4269;
+struct WeakObjectWrapper_t4272;
 // System.WeakReference
-struct WeakReference_t2242;
+struct WeakReference_t2245;
 
 // System.Int32 System.ComponentModel.WeakObjectWrapper::get_TargetHashCode()
-extern "C" int32_t WeakObjectWrapper_get_TargetHashCode_m16016 (WeakObjectWrapper_t4269 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t WeakObjectWrapper_get_TargetHashCode_m16016 (WeakObjectWrapper_t4272 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.WeakReference System.ComponentModel.WeakObjectWrapper::get_Weak()
-extern "C" WeakReference_t2242 * WeakObjectWrapper_get_Weak_m16017 (WeakObjectWrapper_t4269 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WeakReference_t2245 * WeakObjectWrapper_get_Weak_m16017 (WeakObjectWrapper_t4272 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

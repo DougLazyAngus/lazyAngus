@@ -5,7 +5,7 @@ struct String_t;
 // System.Xml.XmlTextReader
 #include "System_Xml_System_Xml_XmlTextReader.h"
 // ConfigXmlTextReader
-struct  ConfigXmlTextReader_t3344  : public XmlTextReader_t3345
+struct  ConfigXmlTextReader_t3347  : public XmlTextReader_t3348
 {
 	// System.String ConfigXmlTextReader::fileName
 	String_t* ___fileName_7;

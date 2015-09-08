@@ -174,7 +174,7 @@ static const ParameterInfo ConsoleBase_t109_ConsoleBase_LabelAndTextField_m532_P
 	{"label", 0, 134217730, 0, &String_t_0_0_0},
 	{"text", 1, 134217731, 0, &String_t_1_0_0},
 };
-extern void* RuntimeInvoker_Void_t85_Object_t_StringU26_t828 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Void_t85_Object_t_StringU26_t831 (const MethodInfo* method, void* obj, void** args);
 // System.Void ConsoleBase::LabelAndTextField(System.String,System.String&)
 extern const MethodInfo ConsoleBase_LabelAndTextField_m532_MethodInfo = 
 {
@@ -182,7 +182,7 @@ extern const MethodInfo ConsoleBase_LabelAndTextField_m532_MethodInfo =
 	, (methodPointerType)&ConsoleBase_LabelAndTextField_m532/* method */
 	, &ConsoleBase_t109_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t85_0_0_0/* return_type */
-	, RuntimeInvoker_Void_t85_Object_t_StringU26_t828/* invoker_method */
+	, RuntimeInvoker_Void_t85_Object_t_StringU26_t831/* invoker_method */
 	, ConsoleBase_t109_ConsoleBase_LabelAndTextField_m532_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
 	, 132/* flags */
@@ -1828,14 +1828,14 @@ extern const MethodInfo AN_ActivityTemplate_IsLauncherProperty_m578_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlDocument_t692_0_0_0;
-extern const Il2CppType XmlDocument_t692_0_0_0;
-extern const Il2CppType XmlElement_t693_0_0_0;
-extern const Il2CppType XmlElement_t693_0_0_0;
+extern const Il2CppType XmlDocument_t695_0_0_0;
+extern const Il2CppType XmlDocument_t695_0_0_0;
+extern const Il2CppType XmlElement_t696_0_0_0;
+extern const Il2CppType XmlElement_t696_0_0_0;
 static const ParameterInfo AN_ActivityTemplate_t117_AN_ActivityTemplate_ToXmlElement_m579_ParameterInfos[] = 
 {
-	{"doc", 0, 134217743, 0, &XmlDocument_t692_0_0_0},
-	{"parent", 1, 134217744, 0, &XmlElement_t693_0_0_0},
+	{"doc", 0, 134217743, 0, &XmlDocument_t695_0_0_0},
+	{"parent", 1, 134217744, 0, &XmlElement_t696_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_ActivityTemplate::ToXmlElement(System.Xml.XmlDocument,System.Xml.XmlElement)
@@ -2235,12 +2235,12 @@ extern const MethodInfo AN_ApplicationTemplate_GetLauncherActivity_m588_MethodIn
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlDocument_t692_0_0_0;
-extern const Il2CppType XmlElement_t693_0_0_0;
+extern const Il2CppType XmlDocument_t695_0_0_0;
+extern const Il2CppType XmlElement_t696_0_0_0;
 static const ParameterInfo AN_ApplicationTemplate_t120_AN_ApplicationTemplate_ToXmlElement_m589_ParameterInfos[] = 
 {
-	{"doc", 0, 134217749, 0, &XmlDocument_t692_0_0_0},
-	{"parent", 1, 134217750, 0, &XmlElement_t693_0_0_0},
+	{"doc", 0, 134217749, 0, &XmlDocument_t695_0_0_0},
+	{"parent", 1, 134217750, 0, &XmlElement_t696_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_ApplicationTemplate::ToXmlElement(System.Xml.XmlDocument,System.Xml.XmlElement)
@@ -2663,12 +2663,12 @@ extern const MethodInfo AN_BaseTemplate_GetPropertiesWithTag_m599_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlDocument_t692_0_0_0;
-extern const Il2CppType XmlElement_t693_0_0_0;
+extern const Il2CppType XmlDocument_t695_0_0_0;
+extern const Il2CppType XmlElement_t696_0_0_0;
 static const ParameterInfo AN_BaseTemplate_t118_AN_BaseTemplate_ToXmlElement_m4520_ParameterInfos[] = 
 {
-	{"doc", 0, 134217761, 0, &XmlDocument_t692_0_0_0},
-	{"parent", 1, 134217762, 0, &XmlElement_t693_0_0_0},
+	{"doc", 0, 134217761, 0, &XmlDocument_t695_0_0_0},
+	{"parent", 1, 134217762, 0, &XmlElement_t696_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_BaseTemplate::ToXmlElement(System.Xml.XmlDocument,System.Xml.XmlElement)
@@ -2865,13 +2865,13 @@ extern const MethodInfo AN_BaseTemplate_RemoveValue_m605_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlDocument_t692_0_0_0;
-extern const Il2CppType XmlElement_t693_0_0_0;
+extern const Il2CppType XmlDocument_t695_0_0_0;
+extern const Il2CppType XmlElement_t696_0_0_0;
 extern const Il2CppType AN_BaseTemplate_t118_0_0_0;
 static const ParameterInfo AN_BaseTemplate_t118_AN_BaseTemplate_AddPropertiesToXml_m606_ParameterInfos[] = 
 {
-	{"doc", 0, 134217771, 0, &XmlDocument_t692_0_0_0},
-	{"parent", 1, 134217772, 0, &XmlElement_t693_0_0_0},
+	{"doc", 0, 134217771, 0, &XmlDocument_t695_0_0_0},
+	{"parent", 1, 134217772, 0, &XmlElement_t696_0_0_0},
 	{"template", 2, 134217773, 0, &AN_BaseTemplate_t118_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -2897,13 +2897,13 @@ extern const MethodInfo AN_BaseTemplate_AddPropertiesToXml_m606_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlDocument_t692_0_0_0;
-extern const Il2CppType XmlElement_t693_0_0_0;
+extern const Il2CppType XmlDocument_t695_0_0_0;
+extern const Il2CppType XmlElement_t696_0_0_0;
 extern const Il2CppType AN_BaseTemplate_t118_0_0_0;
 static const ParameterInfo AN_BaseTemplate_t118_AN_BaseTemplate_AddAttributesToXml_m607_ParameterInfos[] = 
 {
-	{"doc", 0, 134217774, 0, &XmlDocument_t692_0_0_0},
-	{"parent", 1, 134217775, 0, &XmlElement_t693_0_0_0},
+	{"doc", 0, 134217774, 0, &XmlDocument_t695_0_0_0},
+	{"parent", 1, 134217775, 0, &XmlElement_t696_0_0_0},
 	{"template", 2, 134217776, 0, &AN_BaseTemplate_t118_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -3284,12 +3284,12 @@ extern const MethodInfo AN_ManifestTemplate_AddPermission_m615_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlDocument_t692_0_0_0;
-extern const Il2CppType XmlElement_t693_0_0_0;
+extern const Il2CppType XmlDocument_t695_0_0_0;
+extern const Il2CppType XmlElement_t696_0_0_0;
 static const ParameterInfo AN_ManifestTemplate_t124_AN_ManifestTemplate_ToXmlElement_m616_ParameterInfos[] = 
 {
-	{"doc", 0, 134217782, 0, &XmlDocument_t692_0_0_0},
-	{"parent", 1, 134217783, 0, &XmlElement_t693_0_0_0},
+	{"doc", 0, 134217782, 0, &XmlDocument_t695_0_0_0},
+	{"parent", 1, 134217783, 0, &XmlElement_t696_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_ManifestTemplate::ToXmlElement(System.Xml.XmlDocument,System.Xml.XmlElement)
@@ -3690,12 +3690,12 @@ extern const MethodInfo AN_PropertyTemplate__ctor_m619_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType XmlDocument_t692_0_0_0;
-extern const Il2CppType XmlElement_t693_0_0_0;
+extern const Il2CppType XmlDocument_t695_0_0_0;
+extern const Il2CppType XmlElement_t696_0_0_0;
 static const ParameterInfo AN_PropertyTemplate_t126_AN_PropertyTemplate_ToXmlElement_m620_ParameterInfos[] = 
 {
-	{"doc", 0, 134217785, 0, &XmlDocument_t692_0_0_0},
-	{"parent", 1, 134217786, 0, &XmlElement_t693_0_0_0},
+	{"doc", 0, 134217785, 0, &XmlDocument_t695_0_0_0},
+	{"parent", 1, 134217786, 0, &XmlElement_t696_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_PropertyTemplate::ToXmlElement(System.Xml.XmlDocument,System.Xml.XmlElement)
@@ -4081,12 +4081,12 @@ extern const MethodInfo EventDispatcher__ctor_m628_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 static const ParameterInfo EventDispatcher_t129_EventDispatcher_addEventListener_m629_ParameterInfos[] = 
 {
 	{"eventName", 0, 134217790, 0, &String_t_0_0_0},
-	{"handler", 1, 134217791, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134217791, 0, &EventHandlerFunction_t693_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
@@ -4112,11 +4112,11 @@ extern const MethodInfo EventDispatcher_addEventListener_m629_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 static const ParameterInfo EventDispatcher_t129_EventDispatcher_addEventListener_m630_ParameterInfos[] = 
 {
 	{"eventID", 0, 134217792, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134217793, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134217793, 0, &EventHandlerFunction_t693_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction)
@@ -4142,12 +4142,12 @@ extern const MethodInfo EventDispatcher_addEventListener_m630_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo EventDispatcher_t129_EventDispatcher_addEventListener_m631_ParameterInfos[] = 
 {
 	{"eventID", 0, 134217794, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134217795, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134217795, 0, &EventHandlerFunction_t693_0_0_0},
 	{"eventGraphName", 2, 134217796, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -4174,12 +4174,12 @@ extern const MethodInfo EventDispatcher_addEventListener_m631_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 static const ParameterInfo EventDispatcher_t129_EventDispatcher_addEventListener_m632_ParameterInfos[] = 
 {
 	{"eventName", 0, 134217797, 0, &String_t_0_0_0},
-	{"handler", 1, 134217798, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134217798, 0, &DataEventHandlerFunction_t694_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
@@ -4205,11 +4205,11 @@ extern const MethodInfo EventDispatcher_addEventListener_m632_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 static const ParameterInfo EventDispatcher_t129_EventDispatcher_addEventListener_m633_ParameterInfos[] = 
 {
 	{"eventID", 0, 134217799, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134217800, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134217800, 0, &DataEventHandlerFunction_t694_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.EventDispatcher::addEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction)
@@ -4235,12 +4235,12 @@ extern const MethodInfo EventDispatcher_addEventListener_m633_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo EventDispatcher_t129_EventDispatcher_addEventListener_m634_ParameterInfos[] = 
 {
 	{"eventID", 0, 134217801, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134217802, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134217802, 0, &DataEventHandlerFunction_t694_0_0_0},
 	{"eventGraphName", 2, 134217803, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -4267,11 +4267,11 @@ extern const MethodInfo EventDispatcher_addEventListener_m634_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 static const ParameterInfo EventDispatcher_t129_EventDispatcher_removeEventListener_m635_ParameterInfos[] = 
 {
 	{"eventName", 0, 134217804, 0, &String_t_0_0_0},
-	{"handler", 1, 134217805, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134217805, 0, &EventHandlerFunction_t693_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
@@ -4297,11 +4297,11 @@ extern const MethodInfo EventDispatcher_removeEventListener_m635_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 static const ParameterInfo EventDispatcher_t129_EventDispatcher_removeEventListener_m636_ParameterInfos[] = 
 {
 	{"eventID", 0, 134217806, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134217807, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134217807, 0, &EventHandlerFunction_t693_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction)
@@ -4327,12 +4327,12 @@ extern const MethodInfo EventDispatcher_removeEventListener_m636_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo EventDispatcher_t129_EventDispatcher_removeEventListener_m637_ParameterInfos[] = 
 {
 	{"eventID", 0, 134217808, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134217809, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134217809, 0, &EventHandlerFunction_t693_0_0_0},
 	{"eventGraphName", 2, 134217810, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -4359,11 +4359,11 @@ extern const MethodInfo EventDispatcher_removeEventListener_m637_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 static const ParameterInfo EventDispatcher_t129_EventDispatcher_removeEventListener_m638_ParameterInfos[] = 
 {
 	{"eventName", 0, 134217811, 0, &String_t_0_0_0},
-	{"handler", 1, 134217812, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134217812, 0, &DataEventHandlerFunction_t694_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
@@ -4389,11 +4389,11 @@ extern const MethodInfo EventDispatcher_removeEventListener_m638_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 static const ParameterInfo EventDispatcher_t129_EventDispatcher_removeEventListener_m639_ParameterInfos[] = 
 {
 	{"eventID", 0, 134217813, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134217814, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134217814, 0, &DataEventHandlerFunction_t694_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.EventDispatcher::removeEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction)
@@ -4419,12 +4419,12 @@ extern const MethodInfo EventDispatcher_removeEventListener_m639_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo EventDispatcher_t129_EventDispatcher_removeEventListener_m640_ParameterInfos[] = 
 {
 	{"eventID", 0, 134217815, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134217816, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134217816, 0, &DataEventHandlerFunction_t694_0_0_0},
 	{"eventGraphName", 2, 134217817, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -4737,11 +4737,11 @@ extern const MethodInfo EventDispatcher_clearEvents_m650_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType List_1_t694_0_0_0;
-extern const Il2CppType List_1_t694_0_0_0;
+extern const Il2CppType List_1_t697_0_0_0;
+extern const Il2CppType List_1_t697_0_0_0;
 static const ParameterInfo EventDispatcher_t129_EventDispatcher_cloenArray_m651_ParameterInfos[] = 
 {
-	{"list", 0, 134217833, 0, &List_1_t694_0_0_0},
+	{"list", 0, 134217833, 0, &List_1_t697_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction> UnionAssets.FLE.EventDispatcher::cloenArray(System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>)
@@ -4750,7 +4750,7 @@ extern const MethodInfo EventDispatcher_cloenArray_m651_MethodInfo =
 	"cloenArray"/* name */
 	, (methodPointerType)&EventDispatcher_cloenArray_m651/* method */
 	, &EventDispatcher_t129_il2cpp_TypeInfo/* declaring_type */
-	, &List_1_t694_0_0_0/* return_type */
+	, &List_1_t697_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
 	, EventDispatcher_t129_EventDispatcher_cloenArray_m651_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -4766,11 +4766,11 @@ extern const MethodInfo EventDispatcher_cloenArray_m651_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType List_1_t695_0_0_0;
-extern const Il2CppType List_1_t695_0_0_0;
+extern const Il2CppType List_1_t698_0_0_0;
+extern const Il2CppType List_1_t698_0_0_0;
 static const ParameterInfo EventDispatcher_t129_EventDispatcher_cloenArray_m652_ParameterInfos[] = 
 {
-	{"list", 0, 134217834, 0, &List_1_t695_0_0_0},
+	{"list", 0, 134217834, 0, &List_1_t698_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction> UnionAssets.FLE.EventDispatcher::cloenArray(System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>)
@@ -4779,7 +4779,7 @@ extern const MethodInfo EventDispatcher_cloenArray_m652_MethodInfo =
 	"cloenArray"/* name */
 	, (methodPointerType)&EventDispatcher_cloenArray_m652/* method */
 	, &EventDispatcher_t129_il2cpp_TypeInfo/* declaring_type */
-	, &List_1_t695_0_0_0/* return_type */
+	, &List_1_t698_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
 	, EventDispatcher_t129_EventDispatcher_cloenArray_m652_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -5026,11 +5026,11 @@ extern const MethodInfo EventDispatcherBase__ctor_m654_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 static const ParameterInfo EventDispatcherBase_t130_EventDispatcherBase_addEventListener_m655_ParameterInfos[] = 
 {
 	{"eventName", 0, 134217835, 0, &String_t_0_0_0},
-	{"handler", 1, 134217836, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134217836, 0, &EventHandlerFunction_t693_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.EventDispatcherBase::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
@@ -5056,11 +5056,11 @@ extern const MethodInfo EventDispatcherBase_addEventListener_m655_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 static const ParameterInfo EventDispatcherBase_t130_EventDispatcherBase_addEventListener_m656_ParameterInfos[] = 
 {
 	{"eventID", 0, 134217837, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134217838, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134217838, 0, &EventHandlerFunction_t693_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.EventDispatcherBase::addEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction)
@@ -5086,12 +5086,12 @@ extern const MethodInfo EventDispatcherBase_addEventListener_m656_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo EventDispatcherBase_t130_EventDispatcherBase_addEventListener_m657_ParameterInfos[] = 
 {
 	{"eventID", 0, 134217839, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134217840, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134217840, 0, &EventHandlerFunction_t693_0_0_0},
 	{"eventGraphName", 2, 134217841, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -5118,11 +5118,11 @@ extern const MethodInfo EventDispatcherBase_addEventListener_m657_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 static const ParameterInfo EventDispatcherBase_t130_EventDispatcherBase_addEventListener_m658_ParameterInfos[] = 
 {
 	{"eventName", 0, 134217842, 0, &String_t_0_0_0},
-	{"handler", 1, 134217843, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134217843, 0, &DataEventHandlerFunction_t694_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.EventDispatcherBase::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
@@ -5148,11 +5148,11 @@ extern const MethodInfo EventDispatcherBase_addEventListener_m658_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 static const ParameterInfo EventDispatcherBase_t130_EventDispatcherBase_addEventListener_m659_ParameterInfos[] = 
 {
 	{"eventID", 0, 134217844, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134217845, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134217845, 0, &DataEventHandlerFunction_t694_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.EventDispatcherBase::addEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction)
@@ -5178,12 +5178,12 @@ extern const MethodInfo EventDispatcherBase_addEventListener_m659_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo EventDispatcherBase_t130_EventDispatcherBase_addEventListener_m660_ParameterInfos[] = 
 {
 	{"eventID", 0, 134217846, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134217847, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134217847, 0, &DataEventHandlerFunction_t694_0_0_0},
 	{"eventGraphName", 2, 134217848, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -5210,11 +5210,11 @@ extern const MethodInfo EventDispatcherBase_addEventListener_m660_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 static const ParameterInfo EventDispatcherBase_t130_EventDispatcherBase_removeEventListener_m661_ParameterInfos[] = 
 {
 	{"eventName", 0, 134217849, 0, &String_t_0_0_0},
-	{"handler", 1, 134217850, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134217850, 0, &EventHandlerFunction_t693_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.EventDispatcherBase::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
@@ -5240,11 +5240,11 @@ extern const MethodInfo EventDispatcherBase_removeEventListener_m661_MethodInfo 
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 static const ParameterInfo EventDispatcherBase_t130_EventDispatcherBase_removeEventListener_m662_ParameterInfos[] = 
 {
 	{"eventID", 0, 134217851, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134217852, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134217852, 0, &EventHandlerFunction_t693_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.EventDispatcherBase::removeEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction)
@@ -5270,12 +5270,12 @@ extern const MethodInfo EventDispatcherBase_removeEventListener_m662_MethodInfo 
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo EventDispatcherBase_t130_EventDispatcherBase_removeEventListener_m663_ParameterInfos[] = 
 {
 	{"eventID", 0, 134217853, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134217854, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134217854, 0, &EventHandlerFunction_t693_0_0_0},
 	{"eventGraphName", 2, 134217855, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -5302,11 +5302,11 @@ extern const MethodInfo EventDispatcherBase_removeEventListener_m663_MethodInfo 
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 static const ParameterInfo EventDispatcherBase_t130_EventDispatcherBase_removeEventListener_m664_ParameterInfos[] = 
 {
 	{"eventName", 0, 134217856, 0, &String_t_0_0_0},
-	{"handler", 1, 134217857, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134217857, 0, &DataEventHandlerFunction_t694_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.EventDispatcherBase::removeEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
@@ -5332,11 +5332,11 @@ extern const MethodInfo EventDispatcherBase_removeEventListener_m664_MethodInfo 
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 static const ParameterInfo EventDispatcherBase_t130_EventDispatcherBase_removeEventListener_m665_ParameterInfos[] = 
 {
 	{"eventID", 0, 134217858, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134217859, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134217859, 0, &DataEventHandlerFunction_t694_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.EventDispatcherBase::removeEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction)
@@ -5362,12 +5362,12 @@ extern const MethodInfo EventDispatcherBase_removeEventListener_m665_MethodInfo 
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 extern const Il2CppType String_t_0_0_0;
 static const ParameterInfo EventDispatcherBase_t130_EventDispatcherBase_removeEventListener_m666_ParameterInfos[] = 
 {
 	{"eventID", 0, 134217860, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134217861, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134217861, 0, &DataEventHandlerFunction_t694_0_0_0},
 	{"eventGraphName", 2, 134217862, 0, &String_t_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
@@ -5680,10 +5680,10 @@ extern const MethodInfo EventDispatcherBase_clearEvents_m676_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType List_1_t694_0_0_0;
+extern const Il2CppType List_1_t697_0_0_0;
 static const ParameterInfo EventDispatcherBase_t130_EventDispatcherBase_cloenArray_m677_ParameterInfos[] = 
 {
-	{"list", 0, 134217878, 0, &List_1_t694_0_0_0},
+	{"list", 0, 134217878, 0, &List_1_t697_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction> UnionAssets.FLE.EventDispatcherBase::cloenArray(System.Collections.Generic.List`1<UnionAssets.FLE.EventHandlerFunction>)
@@ -5692,7 +5692,7 @@ extern const MethodInfo EventDispatcherBase_cloenArray_m677_MethodInfo =
 	"cloenArray"/* name */
 	, (methodPointerType)&EventDispatcherBase_cloenArray_m677/* method */
 	, &EventDispatcherBase_t130_il2cpp_TypeInfo/* declaring_type */
-	, &List_1_t694_0_0_0/* return_type */
+	, &List_1_t697_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
 	, EventDispatcherBase_t130_EventDispatcherBase_cloenArray_m677_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -5708,10 +5708,10 @@ extern const MethodInfo EventDispatcherBase_cloenArray_m677_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType List_1_t695_0_0_0;
+extern const Il2CppType List_1_t698_0_0_0;
 static const ParameterInfo EventDispatcherBase_t130_EventDispatcherBase_cloenArray_m678_ParameterInfos[] = 
 {
-	{"list", 0, 134217879, 0, &List_1_t695_0_0_0},
+	{"list", 0, 134217879, 0, &List_1_t698_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction> UnionAssets.FLE.EventDispatcherBase::cloenArray(System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>)
@@ -5720,7 +5720,7 @@ extern const MethodInfo EventDispatcherBase_cloenArray_m678_MethodInfo =
 	"cloenArray"/* name */
 	, (methodPointerType)&EventDispatcherBase_cloenArray_m678/* method */
 	, &EventDispatcherBase_t130_il2cpp_TypeInfo/* declaring_type */
-	, &List_1_t695_0_0_0/* return_type */
+	, &List_1_t698_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
 	, EventDispatcherBase_t130_EventDispatcherBase_cloenArray_m678_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */
@@ -6557,11 +6557,11 @@ TypeInfo CEvent_t133_il2cpp_TypeInfo =
 // Metadata Definition UnionAssets.FLE.IDispatcher
 extern TypeInfo IDispatcher_t132_il2cpp_TypeInfo;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 static const ParameterInfo IDispatcher_t132_IDispatcher_addEventListener_m4521_ParameterInfos[] = 
 {
 	{"eventName", 0, 134217885, 0, &String_t_0_0_0},
-	{"handler", 1, 134217886, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134217886, 0, &EventHandlerFunction_t693_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
@@ -6587,11 +6587,11 @@ extern const MethodInfo IDispatcher_addEventListener_m4521_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 static const ParameterInfo IDispatcher_t132_IDispatcher_addEventListener_m4522_ParameterInfos[] = 
 {
 	{"eventID", 0, 134217887, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134217888, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134217888, 0, &EventHandlerFunction_t693_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction)
@@ -6617,11 +6617,11 @@ extern const MethodInfo IDispatcher_addEventListener_m4522_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 static const ParameterInfo IDispatcher_t132_IDispatcher_addEventListener_m4523_ParameterInfos[] = 
 {
 	{"eventName", 0, 134217889, 0, &String_t_0_0_0},
-	{"handler", 1, 134217890, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134217890, 0, &DataEventHandlerFunction_t694_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
@@ -6647,11 +6647,11 @@ extern const MethodInfo IDispatcher_addEventListener_m4523_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 static const ParameterInfo IDispatcher_t132_IDispatcher_addEventListener_m4524_ParameterInfos[] = 
 {
 	{"eventID", 0, 134217891, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134217892, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134217892, 0, &DataEventHandlerFunction_t694_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.IDispatcher::addEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction)
@@ -6677,11 +6677,11 @@ extern const MethodInfo IDispatcher_addEventListener_m4524_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 static const ParameterInfo IDispatcher_t132_IDispatcher_removeEventListener_m4525_ParameterInfos[] = 
 {
 	{"eventName", 0, 134217893, 0, &String_t_0_0_0},
-	{"handler", 1, 134217894, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134217894, 0, &EventHandlerFunction_t693_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
@@ -6707,11 +6707,11 @@ extern const MethodInfo IDispatcher_removeEventListener_m4525_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 static const ParameterInfo IDispatcher_t132_IDispatcher_removeEventListener_m4526_ParameterInfos[] = 
 {
 	{"eventID", 0, 134217895, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134217896, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134217896, 0, &EventHandlerFunction_t693_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.Int32,UnionAssets.FLE.EventHandlerFunction)
@@ -6737,11 +6737,11 @@ extern const MethodInfo IDispatcher_removeEventListener_m4526_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 static const ParameterInfo IDispatcher_t132_IDispatcher_removeEventListener_m4527_ParameterInfos[] = 
 {
 	{"eventName", 0, 134217897, 0, &String_t_0_0_0},
-	{"handler", 1, 134217898, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134217898, 0, &DataEventHandlerFunction_t694_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
@@ -6767,11 +6767,11 @@ extern const MethodInfo IDispatcher_removeEventListener_m4527_MethodInfo =
 
 };
 extern const Il2CppType Int32_t82_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 static const ParameterInfo IDispatcher_t132_IDispatcher_removeEventListener_m4528_ParameterInfos[] = 
 {
 	{"eventID", 0, 134217899, 0, &Int32_t82_0_0_0},
-	{"handler", 1, 134217900, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134217900, 0, &DataEventHandlerFunction_t694_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void UnionAssets.FLE.IDispatcher::removeEventListener(System.Int32,UnionAssets.FLE.DataEventHandlerFunction)
@@ -8869,13 +8869,13 @@ extern const MethodInfo GoogleMobileAd_SetInterstisialsUnitID_m735_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType TextAnchor_t829_0_0_0;
-extern const Il2CppType TextAnchor_t829_0_0_0;
+extern const Il2CppType TextAnchor_t832_0_0_0;
+extern const Il2CppType TextAnchor_t832_0_0_0;
 extern const Il2CppType GADBannerSize_t187_0_0_0;
 extern const Il2CppType GADBannerSize_t187_0_0_0;
 static const ParameterInfo GoogleMobileAd_t145_GoogleMobileAd_CreateAdBanner_m736_ParameterInfos[] = 
 {
-	{"anchor", 0, 134217923, 0, &TextAnchor_t829_0_0_0},
+	{"anchor", 0, 134217923, 0, &TextAnchor_t832_0_0_0},
 	{"size", 1, 134217924, 0, &GADBannerSize_t187_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
@@ -9475,11 +9475,11 @@ extern const MethodInfo GoogleMobileAd_OnAdInAppRequestListner_m758_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 static const ParameterInfo GoogleMobileAd_t145_GoogleMobileAd_addEventListener_m759_ParameterInfos[] = 
 {
 	{"eventName", 0, 134217940, 0, &String_t_0_0_0},
-	{"handler", 1, 134217941, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134217941, 0, &EventHandlerFunction_t693_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleMobileAd::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
@@ -9505,11 +9505,11 @@ extern const MethodInfo GoogleMobileAd_addEventListener_m759_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 static const ParameterInfo GoogleMobileAd_t145_GoogleMobileAd_addEventListener_m760_ParameterInfos[] = 
 {
 	{"eventName", 0, 134217942, 0, &String_t_0_0_0},
-	{"handler", 1, 134217943, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134217943, 0, &DataEventHandlerFunction_t694_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleMobileAd::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
@@ -9535,11 +9535,11 @@ extern const MethodInfo GoogleMobileAd_addEventListener_m760_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 static const ParameterInfo GoogleMobileAd_t145_GoogleMobileAd_removeEventListener_m761_ParameterInfos[] = 
 {
 	{"eventName", 0, 134217944, 0, &String_t_0_0_0},
-	{"handler", 1, 134217945, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134217945, 0, &EventHandlerFunction_t693_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleMobileAd::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
@@ -9565,11 +9565,11 @@ extern const MethodInfo GoogleMobileAd_removeEventListener_m761_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 static const ParameterInfo GoogleMobileAd_t145_GoogleMobileAd_removeEventListener_m762_ParameterInfos[] = 
 {
 	{"eventName", 0, 134217946, 0, &String_t_0_0_0},
-	{"handler", 1, 134217947, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134217947, 0, &DataEventHandlerFunction_t694_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleMobileAd::removeEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
@@ -10153,12 +10153,12 @@ TypeInfo GoogleMobileAdSettings_t147_il2cpp_TypeInfo =
 extern TypeInfo IOSADBanner_t150_il2cpp_TypeInfo;
 // IOSADBanner
 #include "AssemblyU2DCSharp_IOSADBannerMethodDeclarations.h"
-extern const Il2CppType TextAnchor_t829_0_0_0;
+extern const Il2CppType TextAnchor_t832_0_0_0;
 extern const Il2CppType GADBannerSize_t187_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo IOSADBanner_t150_IOSADBanner__ctor_m774_ParameterInfos[] = 
 {
-	{"anchor", 0, 134217950, 0, &TextAnchor_t829_0_0_0},
+	{"anchor", 0, 134217950, 0, &TextAnchor_t832_0_0_0},
 	{"size", 1, 134217951, 0, &GADBannerSize_t187_0_0_0},
 	{"id", 2, 134217952, 0, &Int32_t82_0_0_0},
 };
@@ -10530,10 +10530,10 @@ extern const MethodInfo IOSADBanner_SetBannerPosition_m786_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType TextAnchor_t829_0_0_0;
+extern const Il2CppType TextAnchor_t832_0_0_0;
 static const ParameterInfo IOSADBanner_t150_IOSADBanner_SetBannerPosition_m787_ParameterInfos[] = 
 {
-	{"anchor", 0, 134217974, 0, &TextAnchor_t829_0_0_0},
+	{"anchor", 0, 134217974, 0, &TextAnchor_t832_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void IOSADBanner::SetBannerPosition(UnityEngine.TextAnchor)
@@ -10800,15 +10800,15 @@ extern const MethodInfo IOSADBanner_set_ShowOnLoad_m797_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_TextAnchor_t829 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_TextAnchor_t832 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.TextAnchor IOSADBanner::get_anchor()
 extern const MethodInfo IOSADBanner_get_anchor_m798_MethodInfo = 
 {
 	"get_anchor"/* name */
 	, (methodPointerType)&IOSADBanner_get_anchor_m798/* method */
 	, &IOSADBanner_t150_il2cpp_TypeInfo/* declaring_type */
-	, &TextAnchor_t829_0_0_0/* return_type */
-	, RuntimeInvoker_TextAnchor_t829/* invoker_method */
+	, &TextAnchor_t832_0_0_0/* return_type */
+	, RuntimeInvoker_TextAnchor_t832/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
@@ -12323,11 +12323,11 @@ extern const MethodInfo IOSAdMobController_SetInterstisialsUnitID_m839_MethodInf
 	, NULL/* dummy */
 
 };
-extern const Il2CppType TextAnchor_t829_0_0_0;
+extern const Il2CppType TextAnchor_t832_0_0_0;
 extern const Il2CppType GADBannerSize_t187_0_0_0;
 static const ParameterInfo IOSAdMobController_t152_IOSAdMobController_CreateAdBanner_m840_ParameterInfos[] = 
 {
-	{"anchor", 0, 134218001, 0, &TextAnchor_t829_0_0_0},
+	{"anchor", 0, 134218001, 0, &TextAnchor_t832_0_0_0},
 	{"size", 1, 134218002, 0, &GADBannerSize_t187_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
@@ -12738,7 +12738,7 @@ extern const MethodInfo IOSAdMobController_GetBanner_m854_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType List_1_t696_0_0_0;
+extern const Il2CppType List_1_t699_0_0_0;
 extern void* RuntimeInvoker_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.List`1<GoogleMobileAdBanner> IOSAdMobController::get_banners()
 extern const MethodInfo IOSAdMobController_get_banners_m855_MethodInfo = 
@@ -12746,7 +12746,7 @@ extern const MethodInfo IOSAdMobController_get_banners_m855_MethodInfo =
 	"get_banners"/* name */
 	, (methodPointerType)&IOSAdMobController_get_banners_m855/* method */
 	, &IOSAdMobController_t152_il2cpp_TypeInfo/* declaring_type */
-	, &List_1_t696_0_0_0/* return_type */
+	, &List_1_t699_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -14121,12 +14121,12 @@ TypeInfo GADTestDevice_t154_il2cpp_TypeInfo =
 extern TypeInfo WP8ADBanner_t155_il2cpp_TypeInfo;
 // WP8ADBanner
 #include "AssemblyU2DCSharp_WP8ADBannerMethodDeclarations.h"
-extern const Il2CppType TextAnchor_t829_0_0_0;
+extern const Il2CppType TextAnchor_t832_0_0_0;
 extern const Il2CppType GADBannerSize_t187_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo WP8ADBanner_t155_WP8ADBanner__ctor_m889_ParameterInfos[] = 
 {
-	{"anchor", 0, 134218030, 0, &TextAnchor_t829_0_0_0},
+	{"anchor", 0, 134218030, 0, &TextAnchor_t832_0_0_0},
 	{"size", 1, 134218031, 0, &GADBannerSize_t187_0_0_0},
 	{"id", 2, 134218032, 0, &Int32_t82_0_0_0},
 };
@@ -14286,10 +14286,10 @@ extern const MethodInfo WP8ADBanner_SetBannerPosition_m894_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType TextAnchor_t829_0_0_0;
+extern const Il2CppType TextAnchor_t832_0_0_0;
 static const ParameterInfo WP8ADBanner_t155_WP8ADBanner_SetBannerPosition_m895_ParameterInfos[] = 
 {
-	{"anchor", 0, 134218039, 0, &TextAnchor_t829_0_0_0},
+	{"anchor", 0, 134218039, 0, &TextAnchor_t832_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void WP8ADBanner::SetBannerPosition(UnityEngine.TextAnchor)
@@ -14556,15 +14556,15 @@ extern const MethodInfo WP8ADBanner_set_ShowOnLoad_m905_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_TextAnchor_t829 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_TextAnchor_t832 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.TextAnchor WP8ADBanner::get_anchor()
 extern const MethodInfo WP8ADBanner_get_anchor_m906_MethodInfo = 
 {
 	"get_anchor"/* name */
 	, (methodPointerType)&WP8ADBanner_get_anchor_m906/* method */
 	, &WP8ADBanner_t155_il2cpp_TypeInfo/* declaring_type */
-	, &TextAnchor_t829_0_0_0/* return_type */
-	, RuntimeInvoker_TextAnchor_t829/* invoker_method */
+	, &TextAnchor_t832_0_0_0/* return_type */
+	, RuntimeInvoker_TextAnchor_t832/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
@@ -15604,11 +15604,11 @@ extern const MethodInfo WP8AdMobController_Init_m930_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType ScreenOrientation_t830_0_0_0;
-extern const Il2CppType ScreenOrientation_t830_0_0_0;
+extern const Il2CppType ScreenOrientation_t833_0_0_0;
+extern const Il2CppType ScreenOrientation_t833_0_0_0;
 static const ParameterInfo WP8AdMobController_t157_WP8AdMobController_SetOrientation_m931_ParameterInfos[] = 
 {
-	{"orientation", 0, 134218049, 0, &ScreenOrientation_t830_0_0_0},
+	{"orientation", 0, 134218049, 0, &ScreenOrientation_t833_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void WP8AdMobController::SetOrientation(UnityEngine.ScreenOrientation)
@@ -15719,11 +15719,11 @@ extern const MethodInfo WP8AdMobController_SetInterstisialsUnitID_m934_MethodInf
 	, NULL/* dummy */
 
 };
-extern const Il2CppType TextAnchor_t829_0_0_0;
+extern const Il2CppType TextAnchor_t832_0_0_0;
 extern const Il2CppType GADBannerSize_t187_0_0_0;
 static const ParameterInfo WP8AdMobController_t157_WP8AdMobController_CreateAdBanner_m935_ParameterInfos[] = 
 {
-	{"anchor", 0, 134218054, 0, &TextAnchor_t829_0_0_0},
+	{"anchor", 0, 134218054, 0, &TextAnchor_t832_0_0_0},
 	{"size", 1, 134218055, 0, &GADBannerSize_t187_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
@@ -16113,7 +16113,7 @@ extern const MethodInfo WP8AdMobController_get_banners_m949_MethodInfo =
 	"get_banners"/* name */
 	, (methodPointerType)&WP8AdMobController_get_banners_m949/* method */
 	, &WP8AdMobController_t157_il2cpp_TypeInfo/* declaring_type */
-	, &List_1_t696_0_0_0/* return_type */
+	, &List_1_t699_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -17710,11 +17710,11 @@ extern const MethodInfo AndroidAdMobController_SetGender_m993_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType TextAnchor_t829_0_0_0;
+extern const Il2CppType TextAnchor_t832_0_0_0;
 extern const Il2CppType GADBannerSize_t187_0_0_0;
 static const ParameterInfo AndroidAdMobController_t160_AndroidAdMobController_CreateAdBanner_m994_ParameterInfos[] = 
 {
-	{"anchor", 0, 134218100, 0, &TextAnchor_t829_0_0_0},
+	{"anchor", 0, 134218100, 0, &TextAnchor_t832_0_0_0},
 	{"size", 1, 134218101, 0, &GADBannerSize_t187_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
@@ -17932,7 +17932,7 @@ extern const MethodInfo AndroidAdMobController_get_banners_m1002_MethodInfo =
 	"get_banners"/* name */
 	, (methodPointerType)&AndroidAdMobController_get_banners_m1002/* method */
 	, &AndroidAdMobController_t160_il2cpp_TypeInfo/* declaring_type */
-	, &List_1_t696_0_0_0/* return_type */
+	, &List_1_t699_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -19195,12 +19195,12 @@ extern const MethodInfo AN_GoogleAdProxy__ctor_m1035_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
 static const ParameterInfo AN_GoogleAdProxy_t162_AN_GoogleAdProxy_CallActivityFunction_m1036_ParameterInfos[] = 
 {
 	{"methodName", 0, 134218120, 0, &String_t_0_0_0},
-	{"args", 1, 134218121, 81, &ObjectU5BU5D_t697_0_0_0},
+	{"args", 1, 134218121, 81, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_GoogleAdProxy::CallActivityFunction(System.String,System.Object[])
@@ -19961,12 +19961,12 @@ extern const MethodInfo AN_ProxyPool__ctor_m1058_MethodInfo =
 };
 extern const Il2CppType String_t_0_0_0;
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
 static const ParameterInfo AN_ProxyPool_t163_AN_ProxyPool_CallStatic_m1059_ParameterInfos[] = 
 {
 	{"className", 0, 134218150, 0, &String_t_0_0_0},
 	{"methodName", 1, 134218151, 0, &String_t_0_0_0},
-	{"args", 2, 134218152, 82, &ObjectU5BU5D_t697_0_0_0},
+	{"args", 2, 134218152, 82, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_ProxyPool::CallStatic(System.String,System.String,System.Object[])
@@ -20112,11 +20112,11 @@ extern const MethodInfo AN_BillingProxy__ctor_m1060_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
 static const ParameterInfo AN_BillingProxy_t164_AN_BillingProxy_CallActivityFunction_m1061_ParameterInfos[] = 
 {
 	{"methodName", 0, 134218153, 0, &String_t_0_0_0},
-	{"args", 1, 134218154, 83, &ObjectU5BU5D_t697_0_0_0},
+	{"args", 1, 134218154, 83, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_BillingProxy::CallActivityFunction(System.String,System.Object[])
@@ -20408,11 +20408,11 @@ extern const MethodInfo AN_FBProxy__ctor_m1067_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
 static const ParameterInfo AN_FBProxy_t165_AN_FBProxy_CallActivityFunction_m1068_ParameterInfos[] = 
 {
 	{"methodName", 0, 134218162, 0, &String_t_0_0_0},
-	{"args", 1, 134218163, 84, &ObjectU5BU5D_t697_0_0_0},
+	{"args", 1, 134218163, 84, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_FBProxy::CallActivityFunction(System.String,System.Object[])
@@ -20593,11 +20593,11 @@ extern const MethodInfo AN_GMSGeneralProxy__ctor_m1070_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
 static const ParameterInfo AN_GMSGeneralProxy_t166_AN_GMSGeneralProxy_CallActivityFunction_m1071_ParameterInfos[] = 
 {
 	{"methodName", 0, 134218168, 0, &String_t_0_0_0},
-	{"args", 1, 134218169, 85, &ObjectU5BU5D_t697_0_0_0},
+	{"args", 1, 134218169, 85, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_GMSGeneralProxy::CallActivityFunction(System.String,System.Object[])
@@ -22003,11 +22003,11 @@ extern const MethodInfo AN_GMSGiftsProxy__ctor_m1116_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
 static const ParameterInfo AN_GMSGiftsProxy_t167_AN_GMSGiftsProxy_CallActivityFunction_m1117_ParameterInfos[] = 
 {
 	{"methodName", 0, 134218225, 0, &String_t_0_0_0},
-	{"args", 1, 134218226, 86, &ObjectU5BU5D_t697_0_0_0},
+	{"args", 1, 134218226, 86, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_GMSGiftsProxy::CallActivityFunction(System.String,System.Object[])
@@ -22320,11 +22320,11 @@ extern const MethodInfo AN_GMSInvitationProxy__ctor_m1124_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
 static const ParameterInfo AN_GMSInvitationProxy_t168_AN_GMSInvitationProxy_CallActivityFunction_m1125_ParameterInfos[] = 
 {
 	{"methodName", 0, 134218234, 0, &String_t_0_0_0},
-	{"args", 1, 134218235, 87, &ObjectU5BU5D_t697_0_0_0},
+	{"args", 1, 134218235, 87, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_GMSInvitationProxy::CallActivityFunction(System.String,System.Object[])
@@ -22518,11 +22518,11 @@ extern const MethodInfo AN_GMSQuestsEventsProxy__ctor_m1128_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
 static const ParameterInfo AN_GMSQuestsEventsProxy_t169_AN_GMSQuestsEventsProxy_CallActivityFunction_m1129_ParameterInfos[] = 
 {
 	{"methodName", 0, 134218236, 0, &String_t_0_0_0},
-	{"args", 1, 134218237, 88, &ObjectU5BU5D_t697_0_0_0},
+	{"args", 1, 134218237, 88, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_GMSQuestsEventsProxy::CallActivityFunction(System.String,System.Object[])
@@ -22812,11 +22812,11 @@ extern const MethodInfo AN_GMSRTMProxy__ctor_m1135_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
 static const ParameterInfo AN_GMSRTMProxy_t170_AN_GMSRTMProxy_CallActivityFunction_m1136_ParameterInfos[] = 
 {
 	{"methodName", 0, 134218244, 0, &String_t_0_0_0},
-	{"args", 1, 134218245, 89, &ObjectU5BU5D_t697_0_0_0},
+	{"args", 1, 134218245, 89, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_GMSRTMProxy::CallActivityFunction(System.String,System.Object[])
@@ -23888,11 +23888,11 @@ extern const MethodInfo AN_GoogleAnalyticsProxy__ctor_m1168_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
 static const ParameterInfo AN_GoogleAnalyticsProxy_t171_AN_GoogleAnalyticsProxy_CallActivityFunction_m1169_ParameterInfos[] = 
 {
 	{"methodName", 0, 134218296, 0, &String_t_0_0_0},
-	{"args", 1, 134218297, 90, &ObjectU5BU5D_t697_0_0_0},
+	{"args", 1, 134218297, 90, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_GoogleAnalyticsProxy::CallActivityFunction(System.String,System.Object[])
@@ -24480,11 +24480,11 @@ extern const MethodInfo AN_GooglePlayUtilsProxy__ctor_m1184_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
 static const ParameterInfo AN_GooglePlayUtilsProxy_t172_AN_GooglePlayUtilsProxy_CallActivityFunction_m1185_ParameterInfos[] = 
 {
 	{"methodName", 0, 134218333, 0, &String_t_0_0_0},
-	{"args", 1, 134218334, 91, &ObjectU5BU5D_t697_0_0_0},
+	{"args", 1, 134218334, 91, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_GooglePlayUtilsProxy::CallActivityFunction(System.String,System.Object[])
@@ -24654,11 +24654,11 @@ extern const MethodInfo AN_ImmersiveModeProxy__ctor_m1187_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
 static const ParameterInfo AN_ImmersiveModeProxy_t173_AN_ImmersiveModeProxy_CallActivityFunction_m1188_ParameterInfos[] = 
 {
 	{"methodName", 0, 134218335, 0, &String_t_0_0_0},
-	{"args", 1, 134218336, 92, &ObjectU5BU5D_t697_0_0_0},
+	{"args", 1, 134218336, 92, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_ImmersiveModeProxy::CallActivityFunction(System.String,System.Object[])
@@ -24828,11 +24828,11 @@ extern const MethodInfo AN_LicenseManagerProxy__ctor_m1190_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
 static const ParameterInfo AN_LicenseManagerProxy_t174_AN_LicenseManagerProxy_CallActivityFunction_m1191_ParameterInfos[] = 
 {
 	{"methodName", 0, 134218337, 0, &String_t_0_0_0},
-	{"args", 1, 134218338, 93, &ObjectU5BU5D_t697_0_0_0},
+	{"args", 1, 134218338, 93, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_LicenseManagerProxy::CallActivityFunction(System.String,System.Object[])
@@ -25007,11 +25007,11 @@ extern const MethodInfo AN_PlusButtonProxy__ctor_m1193_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
 static const ParameterInfo AN_PlusButtonProxy_t175_AN_PlusButtonProxy_CallActivityFunction_m1194_ParameterInfos[] = 
 {
 	{"methodName", 0, 134218340, 0, &String_t_0_0_0},
-	{"args", 1, 134218341, 94, &ObjectU5BU5D_t697_0_0_0},
+	{"args", 1, 134218341, 94, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_PlusButtonProxy::CallActivityFunction(System.String,System.Object[])
@@ -25343,11 +25343,11 @@ extern const MethodInfo AN_SocialSharingProxy__ctor_m1201_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
 static const ParameterInfo AN_SocialSharingProxy_t176_AN_SocialSharingProxy_CallActivityFunction_m1202_ParameterInfos[] = 
 {
 	{"methodName", 0, 134218354, 0, &String_t_0_0_0},
-	{"args", 1, 134218355, 95, &ObjectU5BU5D_t697_0_0_0},
+	{"args", 1, 134218355, 95, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_SocialSharingProxy::CallActivityFunction(System.String,System.Object[])
@@ -25699,11 +25699,11 @@ extern const MethodInfo AN_TVControllerProxy__ctor_m1209_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
 static const ParameterInfo AN_TVControllerProxy_t177_AN_TVControllerProxy_CallActivityFunction_m1210_ParameterInfos[] = 
 {
 	{"methodName", 0, 134218378, 0, &String_t_0_0_0},
-	{"args", 1, 134218379, 96, &ObjectU5BU5D_t697_0_0_0},
+	{"args", 1, 134218379, 96, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AN_TVControllerProxy::CallActivityFunction(System.String,System.Object[])
@@ -26485,11 +26485,11 @@ extern const MethodInfo AndroidNative_OpenAppInStore_m1236_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
 static const ParameterInfo AndroidNative_t178_AndroidNative_CallUtility_m1237_ParameterInfos[] = 
 {
 	{"methodName", 0, 134218395, 0, &String_t_0_0_0},
-	{"args", 1, 134218396, 97, &ObjectU5BU5D_t697_0_0_0},
+	{"args", 1, 134218396, 97, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AndroidNative::CallUtility(System.String,System.Object[])
@@ -26515,11 +26515,11 @@ extern const MethodInfo AndroidNative_CallUtility_m1237_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType ObjectU5BU5D_t697_0_0_0;
+extern const Il2CppType ObjectU5BU5D_t700_0_0_0;
 static const ParameterInfo AndroidNative_t178_AndroidNative_CallAndroidNativeBridge_m1238_ParameterInfos[] = 
 {
 	{"methodName", 0, 134218397, 0, &String_t_0_0_0},
-	{"args", 1, 134218398, 98, &ObjectU5BU5D_t697_0_0_0},
+	{"args", 1, 134218398, 98, &ObjectU5BU5D_t700_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void AndroidNative::CallAndroidNativeBridge(System.String,System.Object[])
@@ -31702,10 +31702,10 @@ extern const MethodInfo GoogleMobileAdBanner_SetBannerPosition_m4543_MethodInfo 
 	, NULL/* dummy */
 
 };
-extern const Il2CppType TextAnchor_t829_0_0_0;
+extern const Il2CppType TextAnchor_t832_0_0_0;
 static const ParameterInfo GoogleMobileAdBanner_t140_GoogleMobileAdBanner_SetBannerPosition_m4544_ParameterInfos[] = 
 {
-	{"anchor", 0, 134218401, 0, &TextAnchor_t829_0_0_0},
+	{"anchor", 0, 134218401, 0, &TextAnchor_t832_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleMobileAdBanner::SetBannerPosition(UnityEngine.TextAnchor)
@@ -31919,15 +31919,15 @@ extern const MethodInfo GoogleMobileAdBanner_get_size_m4552_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_TextAnchor_t829 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_TextAnchor_t832 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.TextAnchor GoogleMobileAdBanner::get_anchor()
 extern const MethodInfo GoogleMobileAdBanner_get_anchor_m4553_MethodInfo = 
 {
 	"get_anchor"/* name */
 	, NULL/* method */
 	, &GoogleMobileAdBanner_t140_il2cpp_TypeInfo/* declaring_type */
-	, &TextAnchor_t829_0_0_0/* return_type */
-	, RuntimeInvoker_TextAnchor_t829/* invoker_method */
+	, &TextAnchor_t832_0_0_0/* return_type */
+	, RuntimeInvoker_TextAnchor_t832/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 3526/* flags */
@@ -32198,11 +32198,11 @@ extern const MethodInfo GoogleMobileAdBanner_set_OnLeftApplicationAction_m4563_M
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 static const ParameterInfo GoogleMobileAdBanner_t140_GoogleMobileAdBanner_addEventListener_m4564_ParameterInfos[] = 
 {
 	{"eventName", 0, 134218408, 0, &String_t_0_0_0},
-	{"handler", 1, 134218409, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134218409, 0, &EventHandlerFunction_t693_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleMobileAdBanner::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
@@ -32228,11 +32228,11 @@ extern const MethodInfo GoogleMobileAdBanner_addEventListener_m4564_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 static const ParameterInfo GoogleMobileAdBanner_t140_GoogleMobileAdBanner_addEventListener_m4565_ParameterInfos[] = 
 {
 	{"eventName", 0, 134218410, 0, &String_t_0_0_0},
-	{"handler", 1, 134218411, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134218411, 0, &DataEventHandlerFunction_t694_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleMobileAdBanner::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
@@ -32258,11 +32258,11 @@ extern const MethodInfo GoogleMobileAdBanner_addEventListener_m4565_MethodInfo =
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 static const ParameterInfo GoogleMobileAdBanner_t140_GoogleMobileAdBanner_removeEventListener_m4566_ParameterInfos[] = 
 {
 	{"eventName", 0, 134218412, 0, &String_t_0_0_0},
-	{"handler", 1, 134218413, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134218413, 0, &EventHandlerFunction_t693_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleMobileAdBanner::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
@@ -32288,11 +32288,11 @@ extern const MethodInfo GoogleMobileAdBanner_removeEventListener_m4566_MethodInf
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 static const ParameterInfo GoogleMobileAdBanner_t140_GoogleMobileAdBanner_removeEventListener_m4567_ParameterInfos[] = 
 {
 	{"eventName", 0, 134218414, 0, &String_t_0_0_0},
-	{"handler", 1, 134218415, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134218415, 0, &DataEventHandlerFunction_t694_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleMobileAdBanner::removeEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
@@ -32873,11 +32873,11 @@ extern const MethodInfo GoogleMobileAdInterface_TagForChildDirectedTreatment_m45
 	, NULL/* dummy */
 
 };
-extern const Il2CppType TextAnchor_t829_0_0_0;
+extern const Il2CppType TextAnchor_t832_0_0_0;
 extern const Il2CppType GADBannerSize_t187_0_0_0;
 static const ParameterInfo GoogleMobileAdInterface_t142_GoogleMobileAdInterface_CreateAdBanner_m4578_ParameterInfos[] = 
 {
-	{"anchor", 0, 134218429, 0, &TextAnchor_t829_0_0_0},
+	{"anchor", 0, 134218429, 0, &TextAnchor_t832_0_0_0},
 	{"size", 1, 134218430, 0, &GADBannerSize_t187_0_0_0},
 };
 extern void* RuntimeInvoker_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
@@ -33095,7 +33095,7 @@ extern const MethodInfo GoogleMobileAdInterface_get_banners_m4586_MethodInfo =
 	"get_banners"/* name */
 	, NULL/* method */
 	, &GoogleMobileAdInterface_t142_il2cpp_TypeInfo/* declaring_type */
-	, &List_1_t696_0_0_0/* return_type */
+	, &List_1_t699_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
@@ -33487,11 +33487,11 @@ extern const MethodInfo GoogleMobileAdInterface_set_OnAdInAppRequest_m4601_Metho
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 static const ParameterInfo GoogleMobileAdInterface_t142_GoogleMobileAdInterface_addEventListener_m4602_ParameterInfos[] = 
 {
 	{"eventName", 0, 134218443, 0, &String_t_0_0_0},
-	{"handler", 1, 134218444, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134218444, 0, &EventHandlerFunction_t693_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleMobileAdInterface::addEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
@@ -33517,11 +33517,11 @@ extern const MethodInfo GoogleMobileAdInterface_addEventListener_m4602_MethodInf
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 static const ParameterInfo GoogleMobileAdInterface_t142_GoogleMobileAdInterface_addEventListener_m4603_ParameterInfos[] = 
 {
 	{"eventName", 0, 134218445, 0, &String_t_0_0_0},
-	{"handler", 1, 134218446, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134218446, 0, &DataEventHandlerFunction_t694_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleMobileAdInterface::addEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
@@ -33547,11 +33547,11 @@ extern const MethodInfo GoogleMobileAdInterface_addEventListener_m4603_MethodInf
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType EventHandlerFunction_t690_0_0_0;
+extern const Il2CppType EventHandlerFunction_t693_0_0_0;
 static const ParameterInfo GoogleMobileAdInterface_t142_GoogleMobileAdInterface_removeEventListener_m4604_ParameterInfos[] = 
 {
 	{"eventName", 0, 134218447, 0, &String_t_0_0_0},
-	{"handler", 1, 134218448, 0, &EventHandlerFunction_t690_0_0_0},
+	{"handler", 1, 134218448, 0, &EventHandlerFunction_t693_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleMobileAdInterface::removeEventListener(System.String,UnionAssets.FLE.EventHandlerFunction)
@@ -33577,11 +33577,11 @@ extern const MethodInfo GoogleMobileAdInterface_removeEventListener_m4604_Method
 
 };
 extern const Il2CppType String_t_0_0_0;
-extern const Il2CppType DataEventHandlerFunction_t691_0_0_0;
+extern const Il2CppType DataEventHandlerFunction_t694_0_0_0;
 static const ParameterInfo GoogleMobileAdInterface_t142_GoogleMobileAdInterface_removeEventListener_m4605_ParameterInfos[] = 
 {
 	{"eventName", 0, 134218449, 0, &String_t_0_0_0},
-	{"handler", 1, 134218450, 0, &DataEventHandlerFunction_t691_0_0_0},
+	{"handler", 1, 134218450, 0, &DataEventHandlerFunction_t694_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Object_t_Object_t (const MethodInfo* method, void* obj, void** args);
 // System.Void GoogleMobileAdInterface::removeEventListener(System.String,UnionAssets.FLE.DataEventHandlerFunction)
@@ -34297,12 +34297,12 @@ TypeInfo TwitterManagerInterface_t341_il2cpp_TypeInfo =
 extern TypeInfo AndroidADBanner_t215_il2cpp_TypeInfo;
 // AndroidADBanner
 #include "AssemblyU2DCSharp_AndroidADBannerMethodDeclarations.h"
-extern const Il2CppType TextAnchor_t829_0_0_0;
+extern const Il2CppType TextAnchor_t832_0_0_0;
 extern const Il2CppType GADBannerSize_t187_0_0_0;
 extern const Il2CppType Int32_t82_0_0_0;
 static const ParameterInfo AndroidADBanner_t215_AndroidADBanner__ctor_m1253_ParameterInfos[] = 
 {
-	{"anchor", 0, 134218459, 0, &TextAnchor_t829_0_0_0},
+	{"anchor", 0, 134218459, 0, &TextAnchor_t832_0_0_0},
 	{"size", 1, 134218460, 0, &GADBannerSize_t187_0_0_0},
 	{"id", 2, 134218461, 0, &Int32_t82_0_0_0},
 };
@@ -34462,10 +34462,10 @@ extern const MethodInfo AndroidADBanner_SetBannerPosition_m1258_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern const Il2CppType TextAnchor_t829_0_0_0;
+extern const Il2CppType TextAnchor_t832_0_0_0;
 static const ParameterInfo AndroidADBanner_t215_AndroidADBanner_SetBannerPosition_m1259_ParameterInfos[] = 
 {
-	{"anchor", 0, 134218468, 0, &TextAnchor_t829_0_0_0},
+	{"anchor", 0, 134218468, 0, &TextAnchor_t832_0_0_0},
 };
 extern void* RuntimeInvoker_Void_t85_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Void AndroidADBanner::SetBannerPosition(UnityEngine.TextAnchor)
@@ -34732,15 +34732,15 @@ extern const MethodInfo AndroidADBanner_set_ShowOnLoad_m1269_MethodInfo =
 	, NULL/* dummy */
 
 };
-extern void* RuntimeInvoker_TextAnchor_t829 (const MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_TextAnchor_t832 (const MethodInfo* method, void* obj, void** args);
 // UnityEngine.TextAnchor AndroidADBanner::get_anchor()
 extern const MethodInfo AndroidADBanner_get_anchor_m1270_MethodInfo = 
 {
 	"get_anchor"/* name */
 	, (methodPointerType)&AndroidADBanner_get_anchor_m1270/* method */
 	, &AndroidADBanner_t215_il2cpp_TypeInfo/* declaring_type */
-	, &TextAnchor_t829_0_0_0/* return_type */
-	, RuntimeInvoker_TextAnchor_t829/* invoker_method */
+	, &TextAnchor_t832_0_0_0/* return_type */
+	, RuntimeInvoker_TextAnchor_t832/* invoker_method */
 	, NULL/* parameters */
 	, 0/* custom_attributes_cache */
 	, 2534/* flags */
@@ -37041,7 +37041,7 @@ static const ParameterInfo GPLeaderBoard_t224_GPLeaderBoard_GetScoresList_m1314_
 	{"timeSpan", 0, 134218489, 0, &GPBoardTimeSpan_t191_0_0_0},
 	{"collection", 1, 134218490, 0, &GPCollectionType_t192_0_0_0},
 };
-extern const Il2CppType List_1_t698_0_0_0;
+extern const Il2CppType List_1_t701_0_0_0;
 extern void* RuntimeInvoker_Object_t_Int32_t82_Int32_t82 (const MethodInfo* method, void* obj, void** args);
 // System.Collections.Generic.List`1<GPScore> GPLeaderBoard::GetScoresList(GPBoardTimeSpan,GPCollectionType)
 extern const MethodInfo GPLeaderBoard_GetScoresList_m1314_MethodInfo = 
@@ -37049,7 +37049,7 @@ extern const MethodInfo GPLeaderBoard_GetScoresList_m1314_MethodInfo =
 	"GetScoresList"/* name */
 	, (methodPointerType)&GPLeaderBoard_GetScoresList_m1314/* method */
 	, &GPLeaderBoard_t224_il2cpp_TypeInfo/* declaring_type */
-	, &List_1_t698_0_0_0/* return_type */
+	, &List_1_t701_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Int32_t82_Int32_t82/* invoker_method */
 	, GPLeaderBoard_t224_GPLeaderBoard_GetScoresList_m1314_ParameterInfos/* parameters */
 	, 0/* custom_attributes_cache */

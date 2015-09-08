@@ -7,7 +7,7 @@
 // UnityEngine.RectTransform
 struct RectTransform_t545;
 // UnityEngine.RectTransform/ReapplyDrivenProperties
-struct ReapplyDrivenProperties_t1108;
+struct ReapplyDrivenProperties_t1111;
 // UnityEngine.Vector3[]
 struct Vector3U5BU5D_t546;
 // UnityEngine.Rect
@@ -22,13 +22,13 @@ struct Vector3U5BU5D_t546;
 #include "UnityEngine_UnityEngine_RectTransform_Axis.h"
 
 // System.Void UnityEngine.RectTransform::add_reapplyDrivenProperties(UnityEngine.RectTransform/ReapplyDrivenProperties)
-extern "C" void RectTransform_add_reapplyDrivenProperties_m6353 (Object_t * __this /* static, unused */, ReapplyDrivenProperties_t1108 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_add_reapplyDrivenProperties_m6353 (Object_t * __this /* static, unused */, ReapplyDrivenProperties_t1111 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::remove_reapplyDrivenProperties(UnityEngine.RectTransform/ReapplyDrivenProperties)
-extern "C" void RectTransform_remove_reapplyDrivenProperties_m9398 (Object_t * __this /* static, unused */, ReapplyDrivenProperties_t1108 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_remove_reapplyDrivenProperties_m9398 (Object_t * __this /* static, unused */, ReapplyDrivenProperties_t1111 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::INTERNAL_get_rect(UnityEngine.Rect&)
-extern "C" void RectTransform_INTERNAL_get_rect_m9399 (RectTransform_t545 * __this, Rect_t709 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RectTransform_INTERNAL_get_rect_m9399 (RectTransform_t545 * __this, Rect_t712 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rect UnityEngine.RectTransform::get_rect()
-extern "C" Rect_t709  RectTransform_get_rect_m4336 (RectTransform_t545 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rect_t712  RectTransform_get_rect_m4336 (RectTransform_t545 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::INTERNAL_get_anchorMin(UnityEngine.Vector2&)
 extern "C" void RectTransform_INTERNAL_get_anchorMin_m9400 (RectTransform_t545 * __this, Vector2_t110 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.RectTransform::INTERNAL_set_anchorMin(UnityEngine.Vector2&)

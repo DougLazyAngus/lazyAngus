@@ -5,7 +5,7 @@ struct String_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // Mono.Security.Uri/UriScheme
-struct  UriScheme_t4791 
+struct  UriScheme_t4794 
 {
 	// System.String Mono.Security.Uri/UriScheme::scheme
 	String_t* ___scheme_0;
@@ -15,7 +15,7 @@ struct  UriScheme_t4791
 	int32_t ___defaultPort_2;
 };
 // Native definition for marshalling of: Mono.Security.Uri/UriScheme
-struct UriScheme_t4791_marshaled
+struct UriScheme_t4794_marshaled
 {
 	char* ___scheme_0;
 	char* ___delimiter_1;

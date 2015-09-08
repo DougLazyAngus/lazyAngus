@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Sockets.AddressFamily
-struct AddressFamily_t4399;
+struct AddressFamily_t4402;
 

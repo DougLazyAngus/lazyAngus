@@ -5,7 +5,7 @@
 // System.Xml.NewLineHandling
 #include "System_Xml_System_Xml_NewLineHandling.h"
 // System.Xml.NewLineHandling
-struct  NewLineHandling_t3495 
+struct  NewLineHandling_t3498 
 {
 	// System.Int32 System.Xml.NewLineHandling::value__
 	int32_t ___value___1;

@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SocialPlatforms.ActivePlatform
-struct ActivePlatform_t2887;
+struct ActivePlatform_t2890;
 // UnityEngine.SocialPlatforms.ISocialPlatform
-struct ISocialPlatform_t2886;
+struct ISocialPlatform_t2889;
 
 // UnityEngine.SocialPlatforms.ISocialPlatform UnityEngine.SocialPlatforms.ActivePlatform::get_Instance()
 extern "C" Object_t * ActivePlatform_get_Instance_m10121 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

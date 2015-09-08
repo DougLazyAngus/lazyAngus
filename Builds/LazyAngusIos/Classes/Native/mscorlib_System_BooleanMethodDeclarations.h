@@ -11,7 +11,7 @@ struct Object_t;
 // System.Type
 struct Type_t;
 // System.IFormatProvider
-struct IFormatProvider_t5003;
+struct IFormatProvider_t5006;
 // System.String
 struct String_t;
 // System.DateTime
@@ -34,7 +34,7 @@ extern "C" uint16_t Boolean_System_IConvertible_ToChar_m18996 (bool* __this, Obj
 // System.DateTime System.Boolean::System.IConvertible.ToDateTime(System.IFormatProvider)
 extern "C" DateTime_t287  Boolean_System_IConvertible_ToDateTime_m18997 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Boolean::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t760  Boolean_System_IConvertible_ToDecimal_m18998 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t763  Boolean_System_IConvertible_ToDecimal_m18998 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Boolean::System.IConvertible.ToDouble(System.IFormatProvider)
 extern "C" double Boolean_System_IConvertible_ToDouble_m18999 (bool* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Boolean::System.IConvertible.ToInt16(System.IFormatProvider)

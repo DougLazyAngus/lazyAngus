@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ComponentModel.CultureInfoConverter/CultureInfoComparer
-struct CultureInfoComparer_t4231;
+struct CultureInfoComparer_t4234;
 // System.Object
 struct Object_t;
 
 // System.Void System.ComponentModel.CultureInfoConverter/CultureInfoComparer::.ctor()
-extern "C" void CultureInfoComparer__ctor_m15780 (CultureInfoComparer_t4231 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CultureInfoComparer__ctor_m15780 (CultureInfoComparer_t4234 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.ComponentModel.CultureInfoConverter/CultureInfoComparer::Compare(System.Object,System.Object)
-extern "C" int32_t CultureInfoComparer_Compare_m15781 (CultureInfoComparer_t4231 * __this, Object_t * ___first, Object_t * ___second, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CultureInfoComparer_Compare_m15781 (CultureInfoComparer_t4234 * __this, Object_t * ___first, Object_t * ___second, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -13,9 +13,9 @@ struct String_t;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Object[]
-struct ObjectU5BU5D_t697;
+struct ObjectU5BU5D_t700;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2937;
+struct SerializationInfo_t2940;
 // System.Reflection.EventAttributes
 #include "mscorlib_System_Reflection_EventAttributes.h"
 // System.Runtime.Serialization.StreamingContext
@@ -38,8 +38,8 @@ extern "C" String_t* MonoEvent_ToString_m21947 (MonoEvent_t * __this, const Meth
 // System.Boolean System.Reflection.MonoEvent::IsDefined(System.Type,System.Boolean)
 extern "C" bool MonoEvent_IsDefined_m21948 (MonoEvent_t * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.MonoEvent::GetCustomAttributes(System.Boolean)
-extern "C" ObjectU5BU5D_t697* MonoEvent_GetCustomAttributes_m21949 (MonoEvent_t * __this, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t700* MonoEvent_GetCustomAttributes_m21949 (MonoEvent_t * __this, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.MonoEvent::GetCustomAttributes(System.Type,System.Boolean)
-extern "C" ObjectU5BU5D_t697* MonoEvent_GetCustomAttributes_m21950 (MonoEvent_t * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t700* MonoEvent_GetCustomAttributes_m21950 (MonoEvent_t * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.MonoEvent::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void MonoEvent_GetObjectData_m21951 (MonoEvent_t * __this, SerializationInfo_t2937 * ___info, StreamingContext_t2938  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoEvent_GetObjectData_m21951 (MonoEvent_t * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

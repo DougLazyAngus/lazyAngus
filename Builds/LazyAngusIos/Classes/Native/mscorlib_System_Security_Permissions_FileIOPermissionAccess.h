@@ -5,7 +5,7 @@
 // System.Security.Permissions.FileIOPermissionAccess
 #include "mscorlib_System_Security_Permissions_FileIOPermissionAccess.h"
 // System.Security.Permissions.FileIOPermissionAccess
-struct  FileIOPermissionAccess_t5295 
+struct  FileIOPermissionAccess_t5298 
 {
 	// System.Int32 System.Security.Permissions.FileIOPermissionAccess::value__
 	int32_t ___value___1;

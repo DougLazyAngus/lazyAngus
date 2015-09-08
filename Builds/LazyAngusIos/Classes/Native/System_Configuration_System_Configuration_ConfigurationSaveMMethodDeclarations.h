@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Configuration.ConfigurationSaveMode
-struct ConfigurationSaveMode_t3334;
+struct ConfigurationSaveMode_t3337;
 

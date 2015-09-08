@@ -3,6 +3,6 @@
 // System.ComponentModel.TypeConverter
 #include "System_System_ComponentModel_TypeConverter.h"
 // System.ComponentModel.DateTimeConverter
-struct  DateTimeConverter_t4234  : public TypeConverter_t3328
+struct  DateTimeConverter_t4237  : public TypeConverter_t3331
 {
 };

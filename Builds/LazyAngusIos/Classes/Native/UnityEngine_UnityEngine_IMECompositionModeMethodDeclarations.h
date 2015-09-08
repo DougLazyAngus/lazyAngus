@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.IMECompositionMode
-struct IMECompositionMode_t2772;
+struct IMECompositionMode_t2775;
 

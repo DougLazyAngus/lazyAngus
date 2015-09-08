@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Runtime.Remoting.Activation.IActivator
-struct IActivator_t5130;
+struct IActivator_t5133;
 // System.Object[]
-struct ObjectU5BU5D_t697;
+struct ObjectU5BU5D_t700;
 // System.Collections.IList
-struct IList_t701;
+struct IList_t704;
 // System.Type
 struct Type_t;
 // System.String
@@ -15,12 +15,12 @@ struct Dictionary_2_t223;
 // System.Runtime.Remoting.Messaging.MethodCall
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodCall.h"
 // System.Runtime.Remoting.Messaging.ConstructionCall
-struct  ConstructionCall_t5157  : public MethodCall_t5158
+struct  ConstructionCall_t5160  : public MethodCall_t5161
 {
 	// System.Runtime.Remoting.Activation.IActivator System.Runtime.Remoting.Messaging.ConstructionCall::_activator
 	Object_t * ____activator_11;
 	// System.Object[] System.Runtime.Remoting.Messaging.ConstructionCall::_activationAttributes
-	ObjectU5BU5D_t697* ____activationAttributes_12;
+	ObjectU5BU5D_t700* ____activationAttributes_12;
 	// System.Collections.IList System.Runtime.Remoting.Messaging.ConstructionCall::_contextProperties
 	Object_t * ____contextProperties_13;
 	// System.Type System.Runtime.Remoting.Messaging.ConstructionCall::_activationType
@@ -30,7 +30,7 @@ struct  ConstructionCall_t5157  : public MethodCall_t5158
 	// System.Boolean System.Runtime.Remoting.Messaging.ConstructionCall::_isContextOk
 	bool ____isContextOk_16;
 };
-struct ConstructionCall_t5157_StaticFields{
+struct ConstructionCall_t5160_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Runtime.Remoting.Messaging.ConstructionCall::<>f__switch$map25
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map25_17;
 };

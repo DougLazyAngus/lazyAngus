@@ -5,7 +5,7 @@ struct Dictionary_2_t413;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Facebook.FacebookDelegate>
-struct  ValueCollection_t6215  : public Object_t
+struct  ValueCollection_t6218  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Facebook.FacebookDelegate>::dictionary
 	Dictionary_2_t413 * ___dictionary_0;

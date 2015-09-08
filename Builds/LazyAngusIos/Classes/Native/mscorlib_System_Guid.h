@@ -3,7 +3,7 @@
 // System.Object
 struct Object_t;
 // System.Security.Cryptography.RandomNumberGenerator
-struct RandomNumberGenerator_t3118;
+struct RandomNumberGenerator_t3121;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Guid
@@ -40,7 +40,7 @@ struct Guid_t74_StaticFields{
 	// System.Object System.Guid::_rngAccess
 	Object_t * ____rngAccess_12;
 	// System.Security.Cryptography.RandomNumberGenerator System.Guid::_rng
-	RandomNumberGenerator_t3118 * ____rng_13;
+	RandomNumberGenerator_t3121 * ____rng_13;
 	// System.Security.Cryptography.RandomNumberGenerator System.Guid::_fastRng
-	RandomNumberGenerator_t3118 * ____fastRng_14;
+	RandomNumberGenerator_t3121 * ____fastRng_14;
 };

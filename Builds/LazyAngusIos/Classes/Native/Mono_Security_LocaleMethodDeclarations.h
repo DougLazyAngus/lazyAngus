@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Locale
-struct Locale_t3112;
+struct Locale_t3115;
 // System.String
 struct String_t;
 

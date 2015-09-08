@@ -3,7 +3,7 @@
 // UnityEngine.RectTransform
 struct RectTransform_t545;
 // UnityEngine.UI.Slider/SliderEvent
-struct SliderEvent_t992;
+struct SliderEvent_t995;
 // UnityEngine.UI.Image
 struct Image_t503;
 // UnityEngine.Transform
@@ -17,7 +17,7 @@ struct Transform_t406;
 // UnityEngine.DrivenRectTransformTracker
 #include "UnityEngine_UnityEngine_DrivenRectTransformTracker.h"
 // UnityEngine.UI.Slider
-struct  Slider_t497  : public Selectable_t923
+struct  Slider_t497  : public Selectable_t926
 {
 	// UnityEngine.RectTransform UnityEngine.UI.Slider::m_FillRect
 	RectTransform_t545 * ___m_FillRect_16;
@@ -34,7 +34,7 @@ struct  Slider_t497  : public Selectable_t923
 	// System.Single UnityEngine.UI.Slider::m_Value
 	float ___m_Value_22;
 	// UnityEngine.UI.Slider/SliderEvent UnityEngine.UI.Slider::m_OnValueChanged
-	SliderEvent_t992 * ___m_OnValueChanged_23;
+	SliderEvent_t995 * ___m_OnValueChanged_23;
 	// UnityEngine.UI.Image UnityEngine.UI.Slider::m_FillImage
 	Image_t503 * ___m_FillImage_24;
 	// UnityEngine.Transform UnityEngine.UI.Slider::m_FillTransform
@@ -48,5 +48,5 @@ struct  Slider_t497  : public Selectable_t923
 	// UnityEngine.Vector2 UnityEngine.UI.Slider::m_Offset
 	Vector2_t110  ___m_Offset_29;
 	// UnityEngine.DrivenRectTransformTracker UnityEngine.UI.Slider::m_Tracker
-	DrivenRectTransformTracker_t980  ___m_Tracker_30;
+	DrivenRectTransformTracker_t983  ___m_Tracker_30;
 };

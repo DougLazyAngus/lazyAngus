@@ -7,10 +7,10 @@ struct Texture_t394;
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // UnityEngine.UserAuthorizationDialog
-struct  UserAuthorizationDialog_t2910  : public MonoBehaviour_t13
+struct  UserAuthorizationDialog_t2913  : public MonoBehaviour_t13
 {
 	// UnityEngine.Rect UnityEngine.UserAuthorizationDialog::windowRect
-	Rect_t709  ___windowRect_4;
+	Rect_t712  ___windowRect_4;
 	// UnityEngine.Texture UnityEngine.UserAuthorizationDialog::warningIcon
 	Texture_t394 * ___warningIcon_5;
 };

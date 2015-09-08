@@ -1,16 +1,6 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
-		<type fullname="RealAngusElementButton">
-			<method name="ViewImage"/>
-		</type>
-		<type fullname="BuyAndUseBoost">
-			<method name="BuyAndUse"/>
-		</type>
-		<type fullname="TipDialog">
-			<method name="CloseDialog"/>
-		</type>
 		<type fullname="PlayButtonClickSound">
-			<method name="Play"/>
 			<method name="Play"/>
 			<method name="Play"/>
 			<method name="Play"/>
@@ -31,9 +21,17 @@
 			<method name="Play"/>
 		</type>
 		<type fullname="RateMeDialog">
-			<method name="NoThanks"/>
 			<method name="RateThis"/>
 			<method name="RemindMeLater"/>
+		</type>
+		<type fullname="RealAngusElementButton">
+			<method name="ViewImage"/>
+		</type>
+		<type fullname="BuyAndUseBoost">
+			<method name="BuyAndUse"/>
+		</type>
+		<type fullname="TipDialog">
+			<method name="CloseDialog"/>
 		</type>
 		<type fullname="PlayLevelHandler">
 			<method name="Play"/>

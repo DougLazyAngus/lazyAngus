@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.Path
-struct Path_t2161;
+struct Path_t2164;
 // System.String
 struct String_t;
 // System.Char[]
-struct CharU5BU5D_t712;
+struct CharU5BU5D_t715;
 
 // System.Void System.IO.Path::.cctor()
 extern "C" void Path__cctor_m21597 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -36,9 +36,9 @@ extern "C" String_t* Path_GetPathRoot_m21604 (Object_t * __this /* static, unuse
 // System.Boolean System.IO.Path::IsPathRooted(System.String)
 extern "C" bool Path_IsPathRooted_m12099 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char[] System.IO.Path::GetInvalidFileNameChars()
-extern "C" CharU5BU5D_t712* Path_GetInvalidFileNameChars_m21605 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CharU5BU5D_t715* Path_GetInvalidFileNameChars_m21605 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Char[] System.IO.Path::GetInvalidPathChars()
-extern "C" CharU5BU5D_t712* Path_GetInvalidPathChars_m21606 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CharU5BU5D_t715* Path_GetInvalidPathChars_m21606 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.Path::findExtension(System.String)
 extern "C" int32_t Path_findExtension_m21607 (Object_t * __this /* static, unused */, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.Path::GetServerAndShare(System.String)

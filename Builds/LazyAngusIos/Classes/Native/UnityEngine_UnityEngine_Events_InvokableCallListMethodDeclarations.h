@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Events.InvokableCallList
-struct InvokableCallList_t2908;
+struct InvokableCallList_t2911;
 // UnityEngine.Events.BaseInvokableCall
-struct BaseInvokableCall_t2901;
+struct BaseInvokableCall_t2904;
 // System.Object
 struct Object_t;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Object[]
-struct ObjectU5BU5D_t697;
+struct ObjectU5BU5D_t700;
 
 // System.Void UnityEngine.Events.InvokableCallList::.ctor()
-extern "C" void InvokableCallList__ctor_m10217 (InvokableCallList_t2908 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InvokableCallList__ctor_m10217 (InvokableCallList_t2911 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.InvokableCallList::AddPersistentInvokableCall(UnityEngine.Events.BaseInvokableCall)
-extern "C" void InvokableCallList_AddPersistentInvokableCall_m10218 (InvokableCallList_t2908 * __this, BaseInvokableCall_t2901 * ___call, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InvokableCallList_AddPersistentInvokableCall_m10218 (InvokableCallList_t2911 * __this, BaseInvokableCall_t2904 * ___call, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.InvokableCallList::AddListener(UnityEngine.Events.BaseInvokableCall)
-extern "C" void InvokableCallList_AddListener_m10219 (InvokableCallList_t2908 * __this, BaseInvokableCall_t2901 * ___call, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InvokableCallList_AddListener_m10219 (InvokableCallList_t2911 * __this, BaseInvokableCall_t2904 * ___call, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.InvokableCallList::RemoveListener(System.Object,System.Reflection.MethodInfo)
-extern "C" void InvokableCallList_RemoveListener_m10220 (InvokableCallList_t2908 * __this, Object_t * ___targetObj, MethodInfo_t * ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InvokableCallList_RemoveListener_m10220 (InvokableCallList_t2911 * __this, Object_t * ___targetObj, MethodInfo_t * ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.InvokableCallList::ClearPersistent()
-extern "C" void InvokableCallList_ClearPersistent_m10221 (InvokableCallList_t2908 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InvokableCallList_ClearPersistent_m10221 (InvokableCallList_t2911 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.InvokableCallList::Invoke(System.Object[])
-extern "C" void InvokableCallList_Invoke_m10222 (InvokableCallList_t2908 * __this, ObjectU5BU5D_t697* ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void InvokableCallList_Invoke_m10222 (InvokableCallList_t2911 * __this, ObjectU5BU5D_t700* ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,7 +5,7 @@
 // System.Diagnostics.TraceOptions
 #include "System_System_Diagnostics_TraceOptions.h"
 // System.Diagnostics.TraceOptions
-struct  TraceOptions_t4290 
+struct  TraceOptions_t4293 
 {
 	// System.Int32 System.Diagnostics.TraceOptions::value__
 	int32_t ___value___1;

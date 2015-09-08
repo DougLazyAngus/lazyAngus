@@ -5,30 +5,30 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.Internal.ParseIncrementOperation
-struct ParseIncrementOperation_t1215;
+struct ParseIncrementOperation_t1218;
 // System.Object
 struct Object_t;
 // Parse.Internal.IParseFieldOperation
-struct IParseFieldOperation_t1394;
+struct IParseFieldOperation_t1397;
 // Parse.ParseObject
-struct ParseObject_t1239;
+struct ParseObject_t1242;
 // System.String
 struct String_t;
 
 // System.Void Parse.Internal.ParseIncrementOperation::.cctor()
 extern "C" void ParseIncrementOperation__cctor_m6655 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.Internal.ParseIncrementOperation::.ctor(System.Object)
-extern "C" void ParseIncrementOperation__ctor_m6656 (ParseIncrementOperation_t1215 * __this, Object_t * ___amount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParseIncrementOperation__ctor_m6656 (ParseIncrementOperation_t1218 * __this, Object_t * ___amount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Parse.Internal.ParseIncrementOperation::Encode()
-extern "C" Object_t * ParseIncrementOperation_Encode_m6657 (ParseIncrementOperation_t1215 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ParseIncrementOperation_Encode_m6657 (ParseIncrementOperation_t1218 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Parse.Internal.ParseIncrementOperation::Add(System.Object,System.Object)
 extern "C" Object_t * ParseIncrementOperation_Add_m6658 (Object_t * __this /* static, unused */, Object_t * ___obj1, Object_t * ___obj2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Parse.Internal.IParseFieldOperation Parse.Internal.ParseIncrementOperation::MergeWithPrevious(Parse.Internal.IParseFieldOperation)
-extern "C" Object_t * ParseIncrementOperation_MergeWithPrevious_m6659 (ParseIncrementOperation_t1215 * __this, Object_t * ___previous, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ParseIncrementOperation_MergeWithPrevious_m6659 (ParseIncrementOperation_t1218 * __this, Object_t * ___previous, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Parse.Internal.ParseIncrementOperation::Apply(System.Object,Parse.ParseObject,System.String)
-extern "C" Object_t * ParseIncrementOperation_Apply_m6660 (ParseIncrementOperation_t1215 * __this, Object_t * ___oldValue, ParseObject_t1239 * ___obj, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ParseIncrementOperation_Apply_m6660 (ParseIncrementOperation_t1218 * __this, Object_t * ___oldValue, ParseObject_t1242 * ___obj, String_t* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Parse.Internal.ParseIncrementOperation::get_Amount()
-extern "C" Object_t * ParseIncrementOperation_get_Amount_m6661 (ParseIncrementOperation_t1215 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ParseIncrementOperation_get_Amount_m6661 (ParseIncrementOperation_t1218 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Parse.Internal.ParseIncrementOperation::<.cctor>b__1(System.Object,System.Object)
 extern "C" Object_t * ParseIncrementOperation_U3C_cctorU3Eb__1_m6662 (Object_t * __this /* static, unused */, Object_t * ___left, Object_t * ___right, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Parse.Internal.ParseIncrementOperation::<.cctor>b__2(System.Object,System.Object)

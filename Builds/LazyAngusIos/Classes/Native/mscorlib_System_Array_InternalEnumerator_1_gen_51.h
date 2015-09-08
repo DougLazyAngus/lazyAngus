@@ -4,11 +4,11 @@
 struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Array/InternalEnumerator`1<Parse.ParseQuery`1<System.Object>>
-struct  InternalEnumerator_1_t6748 
+// System.Array/InternalEnumerator`1<Parse.ParseGeoPoint>
+struct  InternalEnumerator_1_t6714 
 {
-	// System.Array System.Array/InternalEnumerator`1<Parse.ParseQuery`1<System.Object>>::array
+	// System.Array System.Array/InternalEnumerator`1<Parse.ParseGeoPoint>::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<Parse.ParseQuery`1<System.Object>>::idx
+	// System.Int32 System.Array/InternalEnumerator`1<Parse.ParseGeoPoint>::idx
 	int32_t ___idx_1;
 };

@@ -17,7 +17,7 @@ struct FacebookDelegate_t433;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Collections.Generic.List`1<System.Object>
-struct List_1_t699;
+struct List_1_t702;
 // Facebook.OGActionType
 struct OGActionType_t432;
 // System.Collections.Generic.Dictionary`2<System.String,System.String[]>
@@ -66,7 +66,7 @@ extern "C" DateTime_t287  AbstractFacebook_get_AccessTokenExpiresAt_m2229 (Abstr
 // System.Void Facebook.AbstractFacebook::GetAuthResponse(Facebook.FacebookDelegate)
 extern "C" void AbstractFacebook_GetAuthResponse_m2230 (AbstractFacebook_t414 * __this, FacebookDelegate_t433 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.AbstractFacebook::AppRequest(System.String,System.String[],System.Collections.Generic.List`1<System.Object>,System.String[],System.Nullable`1<System.Int32>,System.String,System.String,Facebook.FacebookDelegate)
-extern "C" void AbstractFacebook_AppRequest_m2231 (AbstractFacebook_t414 * __this, String_t* ___message, StringU5BU5D_t75* ___to, List_1_t699 * ___filters, StringU5BU5D_t75* ___excludeIds, Nullable_1_t705  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_t433 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AbstractFacebook_AppRequest_m2231 (AbstractFacebook_t414 * __this, String_t* ___message, StringU5BU5D_t75* ___to, List_1_t702 * ___filters, StringU5BU5D_t75* ___excludeIds, Nullable_1_t708  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_t433 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.AbstractFacebook::AppRequest(System.String,Facebook.OGActionType,System.String,System.String[],System.Collections.Generic.List`1<System.Object>,System.String[],System.Nullable`1<System.Int32>,System.String,System.String,Facebook.FacebookDelegate)
 // System.Void Facebook.AbstractFacebook::FeedRequest(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary`2<System.String,System.String[]>,Facebook.FacebookDelegate)
 // System.Void Facebook.AbstractFacebook::Pay(System.String,System.String,System.Int32,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.String,System.String,System.String,Facebook.FacebookDelegate)

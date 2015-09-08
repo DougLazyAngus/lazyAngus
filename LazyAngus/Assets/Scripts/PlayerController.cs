@@ -32,7 +32,17 @@ public class PlayerController : MonoBehaviour {
 	public static PlayerController instance { get; private set; }
 
 	bool registeredForEvents;
+
+	public delegate void TurnedWithTapHandler();
+	public event TurnedWithTapHandler TurnedWithTap;
 	
+	public delegate void TurnedWithDragHandler();
+	public event TurnedWithDragHandler TurnedWithDrag;
+	
+	public delegate void SwattedHandler();
+	public event SwattedHandler Swatted;
+
+
 	public TipConfig turningTip;
 	public float turningTipPause;
 
@@ -153,7 +163,11 @@ public class PlayerController : MonoBehaviour {
 
 		rightPawGameObject.GetComponent<PawController> ().CancelSwipe();
 		leftPawGameObject.GetComponent<PawController> ().CancelSwipe();
-	}  
+
+		if (TurnedWithDrag != null) {
+			TurnedWithDrag();
+		}
+	}
 
 	public void	HandleSlapClickStart(Vector2 worldPoint2d) {
 		Vector3 swipeLocationCat;
@@ -165,6 +179,10 @@ public class PlayerController : MonoBehaviour {
 		if (paw) {
 			// If for a paw, do the slap.
 			paw.GetComponent<PawController> ().Swipe (swipeLocationCat);
+
+			if (Swatted != null) {
+				Swatted();
+			}
 		} else {
 			// Otherwise start turning to face this location.
 			currentTurnAngleDegrees = transform.rotation.eulerAngles.z;
@@ -174,16 +192,12 @@ public class PlayerController : MonoBehaviour {
 			rightPawGameObject.GetComponent<PawController> ().CancelSwipe();
 			leftPawGameObject.GetComponent<PawController> ().CancelSwipe();
 
-			// First level is all for explaining basic game.
-			if (GameLevelState.instance.gameLevel > 1) {
-				TipController.instance.EnqueueTip(turningTip, 
-				                                  turningTipPause);
+			if (TurnedWithTap != null) {
+				TurnedWithTap();
 			}
 		}
 
 		headMovement.LookTowards (swipeLocationCat);
-
-
 	}
 
 	void OnApplicationFocus(bool focusStatus) {

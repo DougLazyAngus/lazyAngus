@@ -5,7 +5,7 @@
 // System.ConsoleSpecialKey
 #include "mscorlib_System_ConsoleSpecialKey.h"
 // System.ConsoleSpecialKey
-struct  ConsoleSpecialKey_t4862 
+struct  ConsoleSpecialKey_t4865 
 {
 	// System.Int32 System.ConsoleSpecialKey::value__
 	int32_t ___value___1;

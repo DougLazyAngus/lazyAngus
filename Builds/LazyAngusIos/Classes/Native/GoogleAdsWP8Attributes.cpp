@@ -53,110 +53,110 @@
 #include "mscorlib_System_Runtime_CompilerServices_RuntimeCompatibilit.h"
 // System.Runtime.CompilerServices.RuntimeCompatibilityAttribute
 #include "mscorlib_System_Runtime_CompilerServices_RuntimeCompatibilitMethodDeclarations.h"
-extern TypeInfo* AssemblyTitleAttribute_t1120_il2cpp_TypeInfo_var;
-extern TypeInfo* CompilationRelaxationsAttribute_t2182_il2cpp_TypeInfo_var;
-extern TypeInfo* DebuggableAttribute_t2181_il2cpp_TypeInfo_var;
-extern TypeInfo* AssemblyFileVersionAttribute_t1121_il2cpp_TypeInfo_var;
-extern TypeInfo* GuidAttribute_t1113_il2cpp_TypeInfo_var;
-extern TypeInfo* ComVisibleAttribute_t1119_il2cpp_TypeInfo_var;
-extern TypeInfo* AssemblyTrademarkAttribute_t1122_il2cpp_TypeInfo_var;
-extern TypeInfo* AssemblyCopyrightAttribute_t1118_il2cpp_TypeInfo_var;
-extern TypeInfo* AssemblyProductAttribute_t1117_il2cpp_TypeInfo_var;
-extern TypeInfo* AssemblyCompanyAttribute_t1116_il2cpp_TypeInfo_var;
-extern TypeInfo* AssemblyConfigurationAttribute_t1115_il2cpp_TypeInfo_var;
-extern TypeInfo* AssemblyDescriptionAttribute_t1114_il2cpp_TypeInfo_var;
+extern TypeInfo* AssemblyTitleAttribute_t1123_il2cpp_TypeInfo_var;
+extern TypeInfo* CompilationRelaxationsAttribute_t2185_il2cpp_TypeInfo_var;
+extern TypeInfo* DebuggableAttribute_t2184_il2cpp_TypeInfo_var;
+extern TypeInfo* AssemblyFileVersionAttribute_t1124_il2cpp_TypeInfo_var;
+extern TypeInfo* GuidAttribute_t1116_il2cpp_TypeInfo_var;
+extern TypeInfo* ComVisibleAttribute_t1122_il2cpp_TypeInfo_var;
+extern TypeInfo* AssemblyTrademarkAttribute_t1125_il2cpp_TypeInfo_var;
+extern TypeInfo* AssemblyCopyrightAttribute_t1121_il2cpp_TypeInfo_var;
+extern TypeInfo* AssemblyProductAttribute_t1120_il2cpp_TypeInfo_var;
+extern TypeInfo* AssemblyCompanyAttribute_t1119_il2cpp_TypeInfo_var;
+extern TypeInfo* AssemblyConfigurationAttribute_t1118_il2cpp_TypeInfo_var;
+extern TypeInfo* AssemblyDescriptionAttribute_t1117_il2cpp_TypeInfo_var;
 extern TypeInfo* RuntimeCompatibilityAttribute_t78_il2cpp_TypeInfo_var;
 void g_GoogleAdsWP8_Assembly_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		AssemblyTitleAttribute_t1120_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1996);
-		CompilationRelaxationsAttribute_t2182_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3451);
-		DebuggableAttribute_t2181_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3450);
-		AssemblyFileVersionAttribute_t1121_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1997);
-		GuidAttribute_t1113_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1989);
-		ComVisibleAttribute_t1119_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1995);
-		AssemblyTrademarkAttribute_t1122_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1998);
-		AssemblyCopyrightAttribute_t1118_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1994);
-		AssemblyProductAttribute_t1117_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1993);
-		AssemblyCompanyAttribute_t1116_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1992);
-		AssemblyConfigurationAttribute_t1115_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1991);
-		AssemblyDescriptionAttribute_t1114_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1990);
+		AssemblyTitleAttribute_t1123_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2001);
+		CompilationRelaxationsAttribute_t2185_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3456);
+		DebuggableAttribute_t2184_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3455);
+		AssemblyFileVersionAttribute_t1124_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2002);
+		GuidAttribute_t1116_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1994);
+		ComVisibleAttribute_t1122_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2000);
+		AssemblyTrademarkAttribute_t1125_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2003);
+		AssemblyCopyrightAttribute_t1121_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1999);
+		AssemblyProductAttribute_t1120_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1998);
+		AssemblyCompanyAttribute_t1119_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1997);
+		AssemblyConfigurationAttribute_t1118_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1996);
+		AssemblyDescriptionAttribute_t1117_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(1995);
 		RuntimeCompatibilityAttribute_t78_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(52);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 13;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		AssemblyTitleAttribute_t1120 * tmp;
-		tmp = (AssemblyTitleAttribute_t1120 *)il2cpp_codegen_object_new (AssemblyTitleAttribute_t1120_il2cpp_TypeInfo_var);
+		AssemblyTitleAttribute_t1123 * tmp;
+		tmp = (AssemblyTitleAttribute_t1123 *)il2cpp_codegen_object_new (AssemblyTitleAttribute_t1123_il2cpp_TypeInfo_var);
 		AssemblyTitleAttribute__ctor_m6377(tmp, il2cpp_codegen_string_new_wrapper("FakeDLL"), NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 	{
-		CompilationRelaxationsAttribute_t2182 * tmp;
-		tmp = (CompilationRelaxationsAttribute_t2182 *)il2cpp_codegen_object_new (CompilationRelaxationsAttribute_t2182_il2cpp_TypeInfo_var);
+		CompilationRelaxationsAttribute_t2185 * tmp;
+		tmp = (CompilationRelaxationsAttribute_t2185 *)il2cpp_codegen_object_new (CompilationRelaxationsAttribute_t2185_il2cpp_TypeInfo_var);
 		CompilationRelaxationsAttribute__ctor_m8015(tmp, 8, NULL);
 		cache->attributes[1] = (Il2CppObject*)tmp;
 	}
 	{
-		DebuggableAttribute_t2181 * tmp;
-		tmp = (DebuggableAttribute_t2181 *)il2cpp_codegen_object_new (DebuggableAttribute_t2181_il2cpp_TypeInfo_var);
+		DebuggableAttribute_t2184 * tmp;
+		tmp = (DebuggableAttribute_t2184 *)il2cpp_codegen_object_new (DebuggableAttribute_t2184_il2cpp_TypeInfo_var);
 		DebuggableAttribute__ctor_m8014(tmp, 263, NULL);
 		cache->attributes[2] = (Il2CppObject*)tmp;
 	}
 	{
-		AssemblyFileVersionAttribute_t1121 * tmp;
-		tmp = (AssemblyFileVersionAttribute_t1121 *)il2cpp_codegen_object_new (AssemblyFileVersionAttribute_t1121_il2cpp_TypeInfo_var);
+		AssemblyFileVersionAttribute_t1124 * tmp;
+		tmp = (AssemblyFileVersionAttribute_t1124 *)il2cpp_codegen_object_new (AssemblyFileVersionAttribute_t1124_il2cpp_TypeInfo_var);
 		AssemblyFileVersionAttribute__ctor_m6378(tmp, il2cpp_codegen_string_new_wrapper("1.0.0.0"), NULL);
 		cache->attributes[3] = (Il2CppObject*)tmp;
 	}
 	{
-		GuidAttribute_t1113 * tmp;
-		tmp = (GuidAttribute_t1113 *)il2cpp_codegen_object_new (GuidAttribute_t1113_il2cpp_TypeInfo_var);
+		GuidAttribute_t1116 * tmp;
+		tmp = (GuidAttribute_t1116 *)il2cpp_codegen_object_new (GuidAttribute_t1116_il2cpp_TypeInfo_var);
 		GuidAttribute__ctor_m6370(tmp, il2cpp_codegen_string_new_wrapper("8f84d072-15c1-40b7-96b1-c88746fabdfc"), NULL);
 		cache->attributes[4] = (Il2CppObject*)tmp;
 	}
 	{
-		ComVisibleAttribute_t1119 * tmp;
-		tmp = (ComVisibleAttribute_t1119 *)il2cpp_codegen_object_new (ComVisibleAttribute_t1119_il2cpp_TypeInfo_var);
+		ComVisibleAttribute_t1122 * tmp;
+		tmp = (ComVisibleAttribute_t1122 *)il2cpp_codegen_object_new (ComVisibleAttribute_t1122_il2cpp_TypeInfo_var);
 		ComVisibleAttribute__ctor_m6376(tmp, false, NULL);
 		cache->attributes[5] = (Il2CppObject*)tmp;
 	}
 	{
-		AssemblyTrademarkAttribute_t1122 * tmp;
-		tmp = (AssemblyTrademarkAttribute_t1122 *)il2cpp_codegen_object_new (AssemblyTrademarkAttribute_t1122_il2cpp_TypeInfo_var);
+		AssemblyTrademarkAttribute_t1125 * tmp;
+		tmp = (AssemblyTrademarkAttribute_t1125 *)il2cpp_codegen_object_new (AssemblyTrademarkAttribute_t1125_il2cpp_TypeInfo_var);
 		AssemblyTrademarkAttribute__ctor_m6379(tmp, il2cpp_codegen_string_new_wrapper(""), NULL);
 		cache->attributes[6] = (Il2CppObject*)tmp;
 	}
 	{
-		AssemblyCopyrightAttribute_t1118 * tmp;
-		tmp = (AssemblyCopyrightAttribute_t1118 *)il2cpp_codegen_object_new (AssemblyCopyrightAttribute_t1118_il2cpp_TypeInfo_var);
+		AssemblyCopyrightAttribute_t1121 * tmp;
+		tmp = (AssemblyCopyrightAttribute_t1121 *)il2cpp_codegen_object_new (AssemblyCopyrightAttribute_t1121_il2cpp_TypeInfo_var);
 		AssemblyCopyrightAttribute__ctor_m6375(tmp, il2cpp_codegen_string_new_wrapper("Copyright © Romeo1994 2014"), NULL);
 		cache->attributes[7] = (Il2CppObject*)tmp;
 	}
 	{
-		AssemblyProductAttribute_t1117 * tmp;
-		tmp = (AssemblyProductAttribute_t1117 *)il2cpp_codegen_object_new (AssemblyProductAttribute_t1117_il2cpp_TypeInfo_var);
+		AssemblyProductAttribute_t1120 * tmp;
+		tmp = (AssemblyProductAttribute_t1120 *)il2cpp_codegen_object_new (AssemblyProductAttribute_t1120_il2cpp_TypeInfo_var);
 		AssemblyProductAttribute__ctor_m6374(tmp, il2cpp_codegen_string_new_wrapper("FakeDLL"), NULL);
 		cache->attributes[8] = (Il2CppObject*)tmp;
 	}
 	{
-		AssemblyCompanyAttribute_t1116 * tmp;
-		tmp = (AssemblyCompanyAttribute_t1116 *)il2cpp_codegen_object_new (AssemblyCompanyAttribute_t1116_il2cpp_TypeInfo_var);
+		AssemblyCompanyAttribute_t1119 * tmp;
+		tmp = (AssemblyCompanyAttribute_t1119 *)il2cpp_codegen_object_new (AssemblyCompanyAttribute_t1119_il2cpp_TypeInfo_var);
 		AssemblyCompanyAttribute__ctor_m6373(tmp, il2cpp_codegen_string_new_wrapper("Romeo1994"), NULL);
 		cache->attributes[9] = (Il2CppObject*)tmp;
 	}
 	{
-		AssemblyConfigurationAttribute_t1115 * tmp;
-		tmp = (AssemblyConfigurationAttribute_t1115 *)il2cpp_codegen_object_new (AssemblyConfigurationAttribute_t1115_il2cpp_TypeInfo_var);
+		AssemblyConfigurationAttribute_t1118 * tmp;
+		tmp = (AssemblyConfigurationAttribute_t1118 *)il2cpp_codegen_object_new (AssemblyConfigurationAttribute_t1118_il2cpp_TypeInfo_var);
 		AssemblyConfigurationAttribute__ctor_m6372(tmp, il2cpp_codegen_string_new_wrapper(""), NULL);
 		cache->attributes[10] = (Il2CppObject*)tmp;
 	}
 	{
-		AssemblyDescriptionAttribute_t1114 * tmp;
-		tmp = (AssemblyDescriptionAttribute_t1114 *)il2cpp_codegen_object_new (AssemblyDescriptionAttribute_t1114_il2cpp_TypeInfo_var);
+		AssemblyDescriptionAttribute_t1117 * tmp;
+		tmp = (AssemblyDescriptionAttribute_t1117 *)il2cpp_codegen_object_new (AssemblyDescriptionAttribute_t1117_il2cpp_TypeInfo_var);
 		AssemblyDescriptionAttribute__ctor_m6371(tmp, il2cpp_codegen_string_new_wrapper(""), NULL);
 		cache->attributes[11] = (Il2CppObject*)tmp;
 	}

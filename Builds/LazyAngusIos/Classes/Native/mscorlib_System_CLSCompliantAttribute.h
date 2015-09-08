@@ -3,7 +3,7 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.CLSCompliantAttribute
-struct  CLSCompliantAttribute_t3109  : public Attribute_t426
+struct  CLSCompliantAttribute_t3112  : public Attribute_t426
 {
 	// System.Boolean System.CLSCompliantAttribute::is_compliant
 	bool ___is_compliant_0;

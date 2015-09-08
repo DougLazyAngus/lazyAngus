@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Globalization.CCMath
-struct CCMath_t4967;
+struct CCMath_t4970;
 
 // System.Int32 System.Globalization.CCMath::div(System.Int32,System.Int32)
 extern "C" int32_t CCMath_div_m21232 (Object_t * __this /* static, unused */, int32_t ___x, int32_t ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;

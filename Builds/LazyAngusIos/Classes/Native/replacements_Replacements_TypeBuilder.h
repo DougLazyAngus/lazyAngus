@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // Replacements.TypeBuilder
-struct  TypeBuilder_t3395  : public Object_t
+struct  TypeBuilder_t3398  : public Object_t
 {
 };

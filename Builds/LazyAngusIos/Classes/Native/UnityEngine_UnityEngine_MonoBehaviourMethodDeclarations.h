@@ -9,8 +9,8 @@ struct MonoBehaviour_t13;
 // System.String
 struct String_t;
 // UnityEngine.Coroutine
-struct Coroutine_t969;
-struct Coroutine_t969_marshaled;
+struct Coroutine_t972;
+struct Coroutine_t972_marshaled;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Object
@@ -23,16 +23,16 @@ extern "C" void MonoBehaviour_Invoke_m4175 (MonoBehaviour_t13 * __this, String_t
 // System.Void UnityEngine.MonoBehaviour::CancelInvoke(System.String)
 extern "C" void MonoBehaviour_CancelInvoke_m4174 (MonoBehaviour_t13 * __this, String_t* ___methodName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
-extern "C" Coroutine_t969 * MonoBehaviour_StartCoroutine_m3879 (MonoBehaviour_t13 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Coroutine_t972 * MonoBehaviour_StartCoroutine_m3879 (MonoBehaviour_t13 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine_Auto(System.Collections.IEnumerator)
-extern "C" Coroutine_t969 * MonoBehaviour_StartCoroutine_Auto_m9550 (MonoBehaviour_t13 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Coroutine_t972 * MonoBehaviour_StartCoroutine_Auto_m9550 (MonoBehaviour_t13 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::StopCoroutine(System.Collections.IEnumerator)
 extern "C" void MonoBehaviour_StopCoroutine_m4340 (MonoBehaviour_t13 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::StopCoroutine(UnityEngine.Coroutine)
-extern "C" void MonoBehaviour_StopCoroutine_m6248 (MonoBehaviour_t13 * __this, Coroutine_t969 * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoBehaviour_StopCoroutine_m6248 (MonoBehaviour_t13 * __this, Coroutine_t972 * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::StopCoroutineViaEnumerator_Auto(System.Collections.IEnumerator)
 extern "C" void MonoBehaviour_StopCoroutineViaEnumerator_Auto_m9551 (MonoBehaviour_t13 * __this, Object_t * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::StopCoroutine_Auto(UnityEngine.Coroutine)
-extern "C" void MonoBehaviour_StopCoroutine_Auto_m9552 (MonoBehaviour_t13 * __this, Coroutine_t969 * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoBehaviour_StopCoroutine_Auto_m9552 (MonoBehaviour_t13 * __this, Coroutine_t972 * ___routine, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::print(System.Object)
 extern "C" void MonoBehaviour_print_m4136 (Object_t * __this /* static, unused */, Object_t * ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;

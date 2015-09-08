@@ -9,7 +9,7 @@ struct GameController_t557;
 // MouseMove
 struct MouseMove_t530;
 // MouseSinkController
-struct MouseSinkController_t607;
+struct MouseSinkController_t608;
 
 // System.Void GameController::.ctor()
 extern "C" void GameController__ctor_m2974 (GameController_t557 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -46,7 +46,7 @@ extern "C" void GameController_OnMouseExit_m2989 (GameController_t557 * __this, 
 // System.Boolean GameController::CheckForGameEnd()
 extern "C" bool GameController_CheckForGameEnd_m2990 (GameController_t557 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // MouseSinkController GameController::FindDoomedExit()
-extern "C" MouseSinkController_t607 * GameController_FindDoomedExit_m2991 (GameController_t557 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MouseSinkController_t608 * GameController_FindDoomedExit_m2991 (GameController_t557 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean GameController::CheckForLevelEnd()
 extern "C" bool GameController_CheckForLevelEnd_m2992 (GameController_t557 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameController::OnMouseKilled(MouseMove)

@@ -3,7 +3,7 @@
 // System.Type
 struct Type_t;
 // System.Collections.Generic.LinkedList`1<System.ComponentModel.TypeDescriptionProvider>
-struct LinkedList_1_t9224;
+struct LinkedList_1_t9229;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Type,System.Collections.Generic.LinkedList`1<System.ComponentModel.TypeDescriptionProvider>,System.Collections.DictionaryEntry>
-struct  Transform_1_t9225  : public MulticastDelegate_t388
+struct  Transform_1_t9230  : public MulticastDelegate_t388
 {
 };

@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.RijndaelManaged
-struct RijndaelManaged_t5267;
+struct RijndaelManaged_t5270;
 // System.Security.Cryptography.ICryptoTransform
-struct ICryptoTransform_t3180;
+struct ICryptoTransform_t3183;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 
 // System.Void System.Security.Cryptography.RijndaelManaged::.ctor()
-extern "C" void RijndaelManaged__ctor_m23429 (RijndaelManaged_t5267 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelManaged__ctor_m23429 (RijndaelManaged_t5270 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RijndaelManaged::GenerateIV()
-extern "C" void RijndaelManaged_GenerateIV_m23430 (RijndaelManaged_t5267 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelManaged_GenerateIV_m23430 (RijndaelManaged_t5270 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RijndaelManaged::GenerateKey()
-extern "C" void RijndaelManaged_GenerateKey_m23431 (RijndaelManaged_t5267 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelManaged_GenerateKey_m23431 (RijndaelManaged_t5270 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.RijndaelManaged::CreateDecryptor(System.Byte[],System.Byte[])
-extern "C" Object_t * RijndaelManaged_CreateDecryptor_m23432 (RijndaelManaged_t5267 * __this, ByteU5BU5D_t66* ___rgbKey, ByteU5BU5D_t66* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RijndaelManaged_CreateDecryptor_m23432 (RijndaelManaged_t5270 * __this, ByteU5BU5D_t66* ___rgbKey, ByteU5BU5D_t66* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.ICryptoTransform System.Security.Cryptography.RijndaelManaged::CreateEncryptor(System.Byte[],System.Byte[])
-extern "C" Object_t * RijndaelManaged_CreateEncryptor_m23433 (RijndaelManaged_t5267 * __this, ByteU5BU5D_t66* ___rgbKey, ByteU5BU5D_t66* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RijndaelManaged_CreateEncryptor_m23433 (RijndaelManaged_t5270 * __this, ByteU5BU5D_t66* ___rgbKey, ByteU5BU5D_t66* ___rgbIV, const MethodInfo* method) IL2CPP_METHOD_ATTR;

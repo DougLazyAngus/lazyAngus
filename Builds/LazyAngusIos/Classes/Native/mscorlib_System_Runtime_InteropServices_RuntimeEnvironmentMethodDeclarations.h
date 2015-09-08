@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.RuntimeEnvironment
-struct RuntimeEnvironment_t5106;
+struct RuntimeEnvironment_t5109;
 // System.String
 struct String_t;
 

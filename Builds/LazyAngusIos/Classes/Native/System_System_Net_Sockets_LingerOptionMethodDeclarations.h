@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Sockets.LingerOption
-struct LingerOption_t4400;
+struct LingerOption_t4403;
 
 // System.Void System.Net.Sockets.LingerOption::.ctor(System.Boolean,System.Int32)
-extern "C" void LingerOption__ctor_m16857 (LingerOption_t4400 * __this, bool ___enable, int32_t ___secs, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LingerOption__ctor_m16857 (LingerOption_t4403 * __this, bool ___enable, int32_t ___secs, const MethodInfo* method) IL2CPP_METHOD_ATTR;

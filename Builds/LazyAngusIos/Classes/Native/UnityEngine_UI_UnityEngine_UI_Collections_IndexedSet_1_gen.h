@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>
-struct List_1_t6395;
+struct List_1_t6400;
 // System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>
-struct Dictionary_2_t1088;
+struct Dictionary_2_t1091;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement>
-struct  IndexedSet_1_t926  : public Object_t
+struct  IndexedSet_1_t929  : public Object_t
 {
 	// System.Collections.Generic.List`1<T> UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement>::m_List
-	List_1_t6395 * ___m_List_0;
+	List_1_t6400 * ___m_List_0;
 	// System.Collections.Generic.Dictionary`2<T,System.Int32> UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement>::m_Dictionary
-	Dictionary_2_t1088 * ___m_Dictionary_1;
+	Dictionary_2_t1091 * ___m_Dictionary_1;
 };

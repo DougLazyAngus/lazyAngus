@@ -5,13 +5,13 @@ struct String_t;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // Mono.Security.X509.X509CertificateCollection
-struct X509CertificateCollection_t4785;
+struct X509CertificateCollection_t4788;
 // Mono.Security.ASN1
-struct ASN1_t4780;
+struct ASN1_t4783;
 // Mono.Security.X509.X509Certificate
-struct X509Certificate_t4795;
+struct X509Certificate_t4798;
 // Mono.Security.X509.X509Chain
-struct X509Chain_t4796;
+struct X509Chain_t4799;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // Mono.Security.Authenticode.AuthenticodeBase
@@ -19,20 +19,20 @@ struct Dictionary_2_t223;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // Mono.Security.Authenticode.AuthenticodeDeformatter
-struct  AuthenticodeDeformatter_t4797  : public AuthenticodeBase_t4794
+struct  AuthenticodeDeformatter_t4800  : public AuthenticodeBase_t4797
 {
 	// System.String Mono.Security.Authenticode.AuthenticodeDeformatter::filename
 	String_t* ___filename_8;
 	// System.Byte[] Mono.Security.Authenticode.AuthenticodeDeformatter::hash
 	ByteU5BU5D_t66* ___hash_9;
 	// Mono.Security.X509.X509CertificateCollection Mono.Security.Authenticode.AuthenticodeDeformatter::coll
-	X509CertificateCollection_t4785 * ___coll_10;
+	X509CertificateCollection_t4788 * ___coll_10;
 	// Mono.Security.ASN1 Mono.Security.Authenticode.AuthenticodeDeformatter::signedHash
-	ASN1_t4780 * ___signedHash_11;
+	ASN1_t4783 * ___signedHash_11;
 	// System.DateTime Mono.Security.Authenticode.AuthenticodeDeformatter::timestamp
 	DateTime_t287  ___timestamp_12;
 	// Mono.Security.X509.X509Certificate Mono.Security.Authenticode.AuthenticodeDeformatter::signingCertificate
-	X509Certificate_t4795 * ___signingCertificate_13;
+	X509Certificate_t4798 * ___signingCertificate_13;
 	// System.Int32 Mono.Security.Authenticode.AuthenticodeDeformatter::reason
 	int32_t ___reason_14;
 	// System.Boolean Mono.Security.Authenticode.AuthenticodeDeformatter::trustedRoot
@@ -42,11 +42,11 @@ struct  AuthenticodeDeformatter_t4797  : public AuthenticodeBase_t4794
 	// System.Byte[] Mono.Security.Authenticode.AuthenticodeDeformatter::entry
 	ByteU5BU5D_t66* ___entry_17;
 	// Mono.Security.X509.X509Chain Mono.Security.Authenticode.AuthenticodeDeformatter::signerChain
-	X509Chain_t4796 * ___signerChain_18;
+	X509Chain_t4799 * ___signerChain_18;
 	// Mono.Security.X509.X509Chain Mono.Security.Authenticode.AuthenticodeDeformatter::timestampChain
-	X509Chain_t4796 * ___timestampChain_19;
+	X509Chain_t4799 * ___timestampChain_19;
 };
-struct AuthenticodeDeformatter_t4797_StaticFields{
+struct AuthenticodeDeformatter_t4800_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Security.Authenticode.AuthenticodeDeformatter::<>f__switch$map7
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map7_20;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Security.Authenticode.AuthenticodeDeformatter::<>f__switch$map8

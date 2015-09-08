@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.Security.Cryptography.CryptographicException
-struct  CryptographicException_t3257  : public SystemException_t3384
+struct  CryptographicException_t3260  : public SystemException_t3387
 {
 };

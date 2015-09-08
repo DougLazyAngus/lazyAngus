@@ -5,18 +5,18 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.Tasks.TaskExtensions/<>c__DisplayClass7`1<System.Int16>
-struct U3CU3Ec__DisplayClass7_1_t8831;
+struct U3CU3Ec__DisplayClass7_1_t8836;
 // System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<System.Int16>>
-struct Task_1_t8829;
+struct Task_1_t8834;
 // System.Threading.Tasks.Task`1<System.Int16>
-struct Task_1_t1570;
+struct Task_1_t1573;
 
 // System.Void System.Threading.Tasks.TaskExtensions/<>c__DisplayClass7`1<System.Int16>::.ctor()
-extern "C" void U3CU3Ec__DisplayClass7_1__ctor_m63936_gshared (U3CU3Ec__DisplayClass7_1_t8831 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass7_1__ctor_m63936(__this, method) (( void (*) (U3CU3Ec__DisplayClass7_1_t8831 *, const MethodInfo*))U3CU3Ec__DisplayClass7_1__ctor_m63936_gshared)(__this, method)
+extern "C" void U3CU3Ec__DisplayClass7_1__ctor_m63948_gshared (U3CU3Ec__DisplayClass7_1_t8836 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass7_1__ctor_m63948(__this, method) (( void (*) (U3CU3Ec__DisplayClass7_1_t8836 *, const MethodInfo*))U3CU3Ec__DisplayClass7_1__ctor_m63948_gshared)(__this, method)
 // System.Void System.Threading.Tasks.TaskExtensions/<>c__DisplayClass7`1<System.Int16>::<Unwrap>b__5(System.Threading.Tasks.Task`1<System.Threading.Tasks.Task`1<T>>)
-extern "C" void U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m63937_gshared (U3CU3Ec__DisplayClass7_1_t8831 * __this, Task_1_t8829 * ___t, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m63937(__this, ___t, method) (( void (*) (U3CU3Ec__DisplayClass7_1_t8831 *, Task_1_t8829 *, const MethodInfo*))U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m63937_gshared)(__this, ___t, method)
+extern "C" void U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m63949_gshared (U3CU3Ec__DisplayClass7_1_t8836 * __this, Task_1_t8834 * ___t, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m63949(__this, ___t, method) (( void (*) (U3CU3Ec__DisplayClass7_1_t8836 *, Task_1_t8834 *, const MethodInfo*))U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__5_m63949_gshared)(__this, ___t, method)
 // System.Void System.Threading.Tasks.TaskExtensions/<>c__DisplayClass7`1<System.Int16>::<Unwrap>b__6(System.Threading.Tasks.Task`1<T>)
-extern "C" void U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m63938_gshared (U3CU3Ec__DisplayClass7_1_t8831 * __this, Task_1_t1570 * ___inner, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m63938(__this, ___inner, method) (( void (*) (U3CU3Ec__DisplayClass7_1_t8831 *, Task_1_t1570 *, const MethodInfo*))U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m63938_gshared)(__this, ___inner, method)
+extern "C" void U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m63950_gshared (U3CU3Ec__DisplayClass7_1_t8836 * __this, Task_1_t1573 * ___inner, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m63950(__this, ___inner, method) (( void (*) (U3CU3Ec__DisplayClass7_1_t8836 *, Task_1_t1573 *, const MethodInfo*))U3CU3Ec__DisplayClass7_1_U3CUnwrapU3Eb__6_m63950_gshared)(__this, ___inner, method)

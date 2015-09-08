@@ -5,7 +5,7 @@ struct Type_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Reflection.LocalVariableInfo
-struct  LocalVariableInfo_t5017  : public Object_t
+struct  LocalVariableInfo_t5020  : public Object_t
 {
 	// System.Type System.Reflection.LocalVariableInfo::type
 	Type_t * ___type_0;

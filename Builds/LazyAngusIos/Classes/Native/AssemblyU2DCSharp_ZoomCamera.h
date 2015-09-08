@@ -7,7 +7,7 @@ struct SizeCamera_t519;
 // BounceLerp
 #include "AssemblyU2DCSharp_BounceLerp.h"
 // ZoomCamera
-struct  ZoomCamera_t661  : public BounceLerp_t515
+struct  ZoomCamera_t664  : public BounceLerp_t515
 {
 	// System.Single ZoomCamera::zoomOutScale
 	float ___zoomOutScale_7;

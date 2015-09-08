@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Buffer
-struct Buffer_t4847;
+struct Buffer_t4850;
 // System.Array
 struct Array_t;
 

@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // Parse.ParseUser
-struct ParseUser_t1323;
+struct ParseUser_t1326;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.ParseUser/<>c__DisplayClassa
-struct  U3CU3Ec__DisplayClassa_t1326  : public Object_t
+struct  U3CU3Ec__DisplayClassa_t1329  : public Object_t
 {
 	// Parse.ParseUser Parse.ParseUser/<>c__DisplayClassa::user
-	ParseUser_t1323 * ___user_0;
+	ParseUser_t1326 * ___user_0;
 };

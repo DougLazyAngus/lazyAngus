@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Math
-struct Math_t4890;
+struct Math_t4893;
 // System.Decimal
 #include "mscorlib_System_Decimal.h"
 
@@ -28,7 +28,7 @@ extern "C" double Math_Min_m7672 (Object_t * __this /* static, unused */, double
 // System.Int32 System.Math::Min(System.Int32,System.Int32)
 extern "C" int32_t Math_Min_m14817 (Object_t * __this /* static, unused */, int32_t ___val1, int32_t ___val2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Math::Round(System.Decimal)
-extern "C" Decimal_t760  Math_Round_m20475 (Object_t * __this /* static, unused */, Decimal_t760  ___d, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t763  Math_Round_m20475 (Object_t * __this /* static, unused */, Decimal_t763  ___d, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Math::Round(System.Double)
 extern "C" double Math_Round_m20476 (Object_t * __this /* static, unused */, double ___a, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Math::Sin(System.Double)

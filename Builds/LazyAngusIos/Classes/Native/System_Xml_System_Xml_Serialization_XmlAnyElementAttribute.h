@@ -3,7 +3,7 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Xml.Serialization.XmlAnyElementAttribute
-struct  XmlAnyElementAttribute_t3708  : public Attribute_t426
+struct  XmlAnyElementAttribute_t3711  : public Attribute_t426
 {
 	// System.Int32 System.Xml.Serialization.XmlAnyElementAttribute::order
 	int32_t ___order_0;

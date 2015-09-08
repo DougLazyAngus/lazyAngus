@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Social
-struct Social_t2885;
+struct Social_t2888;
 // UnityEngine.SocialPlatforms.ISocialPlatform
-struct ISocialPlatform_t2886;
+struct ISocialPlatform_t2889;
 // UnityEngine.SocialPlatforms.ILocalUser
-struct ILocalUser_t810;
+struct ILocalUser_t813;
 // System.String
 struct String_t;
 // System.Action`1<System.Boolean>

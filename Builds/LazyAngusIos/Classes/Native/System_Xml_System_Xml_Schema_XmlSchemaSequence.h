@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.Schema.XmlSchemaObjectCollection
-struct XmlSchemaObjectCollection_t3624;
+struct XmlSchemaObjectCollection_t3627;
 // System.Xml.Schema.XmlSchemaGroupBase
 #include "System_Xml_System_Xml_Schema_XmlSchemaGroupBase.h"
 // System.Xml.Schema.XmlSchemaSequence
-struct  XmlSchemaSequence_t3423  : public XmlSchemaGroupBase_t3626
+struct  XmlSchemaSequence_t3426  : public XmlSchemaGroupBase_t3629
 {
 	// System.Xml.Schema.XmlSchemaObjectCollection System.Xml.Schema.XmlSchemaSequence::items
-	XmlSchemaObjectCollection_t3624 * ___items_28;
+	XmlSchemaObjectCollection_t3627 * ___items_28;
 };

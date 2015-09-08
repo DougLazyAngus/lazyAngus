@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlConvert
-struct XmlConvert_t3518;
+struct XmlConvert_t3521;
 // System.String
 struct String_t;
 // System.String[]
@@ -13,7 +13,7 @@ struct StringU5BU5D_t75;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Char[]
-struct CharU5BU5D_t712;
+struct CharU5BU5D_t715;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Globalization.DateTimeStyles
@@ -44,7 +44,7 @@ extern "C" DateTime_t287  XmlConvert_ToDateTime_m13043 (Object_t * __this /* sta
 // System.DateTime System.Xml.XmlConvert::ToDateTime(System.String,System.String[],System.Globalization.DateTimeStyles)
 extern "C" DateTime_t287  XmlConvert_ToDateTime_m13044 (Object_t * __this /* static, unused */, String_t* ___s, StringU5BU5D_t75* ___formats, int32_t ___style, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Xml.XmlConvert::ToDecimal(System.String)
-extern "C" Decimal_t760  XmlConvert_ToDecimal_m13045 (Object_t * __this /* static, unused */, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t763  XmlConvert_ToDecimal_m13045 (Object_t * __this /* static, unused */, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Xml.XmlConvert::ToDouble(System.String)
 extern "C" double XmlConvert_ToDouble_m13046 (Object_t * __this /* static, unused */, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single System.Xml.XmlConvert::TryParseStringFloatConstants(System.String)
@@ -76,4 +76,4 @@ extern "C" String_t* XmlConvert_VerifyNCName_m13059 (Object_t * __this /* static
 // System.Byte[] System.Xml.XmlConvert::FromBinHexString(System.String)
 extern "C" ByteU5BU5D_t66* XmlConvert_FromBinHexString_m13060 (Object_t * __this /* static, unused */, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Xml.XmlConvert::FromBinHexString(System.Char[],System.Int32,System.Int32,System.Byte[])
-extern "C" int32_t XmlConvert_FromBinHexString_m13061 (Object_t * __this /* static, unused */, CharU5BU5D_t712* ___chars, int32_t ___offset, int32_t ___charLength, ByteU5BU5D_t66* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlConvert_FromBinHexString_m13061 (Object_t * __this /* static, unused */, CharU5BU5D_t715* ___chars, int32_t ___offset, int32_t ___charLength, ByteU5BU5D_t66* ___buffer, const MethodInfo* method) IL2CPP_METHOD_ATTR;

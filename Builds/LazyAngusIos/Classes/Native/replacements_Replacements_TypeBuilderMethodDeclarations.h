@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Replacements.TypeBuilder
-struct TypeBuilder_t3395;
+struct TypeBuilder_t3398;
 // System.Type
 struct Type_t;
 // System.Object

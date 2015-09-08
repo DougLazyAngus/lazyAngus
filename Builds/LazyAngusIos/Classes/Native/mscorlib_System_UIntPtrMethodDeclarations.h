@@ -7,7 +7,7 @@
 // System.UIntPtr
 struct UIntPtr_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2937;
+struct SerializationInfo_t2940;
 // System.Object
 struct Object_t;
 // System.String
@@ -28,7 +28,7 @@ extern "C" void UIntPtr__ctor_m19026 (UIntPtr_t * __this, void* ___value, const 
 // System.Void System.UIntPtr::.cctor()
 extern "C" void UIntPtr__cctor_m19027 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UIntPtr::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void UIntPtr_System_Runtime_Serialization_ISerializable_GetObjectData_m19028 (UIntPtr_t * __this, SerializationInfo_t2937 * ___info, StreamingContext_t2938  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UIntPtr_System_Runtime_Serialization_ISerializable_GetObjectData_m19028 (UIntPtr_t * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.UIntPtr::Equals(System.Object)
 extern "C" bool UIntPtr_Equals_m19029 (UIntPtr_t * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.UIntPtr::GetHashCode()

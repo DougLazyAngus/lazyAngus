@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ConsoleModifiers
-struct ConsoleModifiers_t4861;
+struct ConsoleModifiers_t4864;
 

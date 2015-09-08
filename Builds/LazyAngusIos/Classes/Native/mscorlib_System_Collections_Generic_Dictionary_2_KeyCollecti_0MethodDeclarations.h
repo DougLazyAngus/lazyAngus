@@ -13,7 +13,7 @@ struct Dictionary_2_t44;
 // System.String
 struct String_t;
 // System.Collections.Generic.IEnumerator`1<System.String>
-struct IEnumerator_1_t1478;
+struct IEnumerator_1_t1481;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator

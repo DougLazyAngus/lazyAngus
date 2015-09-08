@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Schema.XmlTypeCode
-struct XmlTypeCode_t3702;
+struct XmlTypeCode_t3705;
 

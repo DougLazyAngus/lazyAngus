@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.Dictionary`2<System.Object,Parse.Internal.ParseJSONCacheItem>
-struct Dictionary_2_t1516;
+struct Dictionary_2_t1519;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,Parse.Internal.ParseJSONCacheItem>
-struct  KeyCollection_t6792  : public Object_t
+struct  KeyCollection_t6797  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,Parse.Internal.ParseJSONCacheItem>::dictionary
-	Dictionary_2_t1516 * ___dictionary_0;
+	Dictionary_2_t1519 * ___dictionary_0;
 };

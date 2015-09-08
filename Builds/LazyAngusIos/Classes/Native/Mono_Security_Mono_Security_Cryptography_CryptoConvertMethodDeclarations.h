@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Cryptography.CryptoConvert
-struct CryptoConvert_t3131;
+struct CryptoConvert_t3134;
 // System.String
 struct String_t;
 // System.Byte[]

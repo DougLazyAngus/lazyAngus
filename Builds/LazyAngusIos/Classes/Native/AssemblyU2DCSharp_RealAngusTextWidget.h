@@ -5,13 +5,13 @@ struct Text_t502;
 // UnityEngine.RectTransform
 struct RectTransform_t545;
 // InOutTransitioner
-struct InOutTransitioner_t575;
+struct InOutTransitioner_t576;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // RealAngusTextWidget
-struct  RealAngusTextWidget_t638  : public MonoBehaviour_t13
+struct  RealAngusTextWidget_t641  : public MonoBehaviour_t13
 {
 	// UnityEngine.UI.Text RealAngusTextWidget::mainText
 	Text_t502 * ___mainText_2;
@@ -26,5 +26,5 @@ struct  RealAngusTextWidget_t638  : public MonoBehaviour_t13
 	// UnityEngine.RectTransform RealAngusTextWidget::rectTransform
 	RectTransform_t545 * ___rectTransform_7;
 	// InOutTransitioner RealAngusTextWidget::transitioner
-	InOutTransitioner_t575 * ___transitioner_8;
+	InOutTransitioner_t576 * ___transitioner_8;
 };

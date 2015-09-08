@@ -11,7 +11,7 @@ struct Dictionary_2_t122;
 // System.String
 struct String_t;
 // System.Text.Encoding
-struct Encoding_t754;
+struct Encoding_t757;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // UnityEngine.Texture2D
@@ -38,7 +38,7 @@ extern "C" void WWW_InitWWW_m9453 (WWW_t265 * __this, String_t* ___url, ByteU5BU
 // System.String UnityEngine.WWW::EscapeURL(System.String)
 extern "C" String_t* WWW_EscapeURL_m4356 (Object_t * __this /* static, unused */, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.WWW::EscapeURL(System.String,System.Text.Encoding)
-extern "C" String_t* WWW_EscapeURL_m9454 (Object_t * __this /* static, unused */, String_t* ___s, Encoding_t754 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* WWW_EscapeURL_m9454 (Object_t * __this /* static, unused */, String_t* ___s, Encoding_t757 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.Dictionary`2<System.String,System.String> UnityEngine.WWW::get_responseHeaders()
 extern "C" Dictionary_2_t122 * WWW_get_responseHeaders_m4065 (WWW_t265 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.WWW::get_responseHeadersString()
@@ -46,9 +46,9 @@ extern "C" String_t* WWW_get_responseHeadersString_m9455 (WWW_t265 * __this, con
 // System.String UnityEngine.WWW::get_text()
 extern "C" String_t* WWW_get_text_m4071 (WWW_t265 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.Encoding UnityEngine.WWW::get_DefaultEncoding()
-extern "C" Encoding_t754 * WWW_get_DefaultEncoding_m9456 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Encoding_t757 * WWW_get_DefaultEncoding_m9456 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.Encoding UnityEngine.WWW::GetTextEncoder()
-extern "C" Encoding_t754 * WWW_GetTextEncoder_m9457 (WWW_t265 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Encoding_t757 * WWW_GetTextEncoder_m9457 (WWW_t265 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] UnityEngine.WWW::get_bytes()
 extern "C" ByteU5BU5D_t66* WWW_get_bytes_m9458 (WWW_t265 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.WWW::get_error()

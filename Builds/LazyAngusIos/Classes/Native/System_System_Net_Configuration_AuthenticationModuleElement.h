@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Configuration.ConfigurationPropertyCollection
-struct ConfigurationPropertyCollection_t3311;
+struct ConfigurationPropertyCollection_t3314;
 // System.Configuration.ConfigurationProperty
-struct ConfigurationProperty_t3330;
+struct ConfigurationProperty_t3333;
 // System.Configuration.ConfigurationElement
 #include "System_Configuration_System_Configuration_ConfigurationEleme_0.h"
 // System.Net.Configuration.AuthenticationModuleElement
-struct  AuthenticationModuleElement_t4311  : public ConfigurationElement_t3315
+struct  AuthenticationModuleElement_t4314  : public ConfigurationElement_t3318
 {
 };
-struct AuthenticationModuleElement_t4311_StaticFields{
+struct AuthenticationModuleElement_t4314_StaticFields{
 	// System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.AuthenticationModuleElement::properties
-	ConfigurationPropertyCollection_t3311 * ___properties_13;
+	ConfigurationPropertyCollection_t3314 * ___properties_13;
 	// System.Configuration.ConfigurationProperty System.Net.Configuration.AuthenticationModuleElement::typeProp
-	ConfigurationProperty_t3330 * ___typeProp_14;
+	ConfigurationProperty_t3333 * ___typeProp_14;
 };

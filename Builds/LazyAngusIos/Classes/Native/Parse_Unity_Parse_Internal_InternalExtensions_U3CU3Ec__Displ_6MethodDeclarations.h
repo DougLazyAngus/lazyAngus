@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.Internal.InternalExtensions/<>c__DisplayClass1`2<System.Byte,System.Object>
-struct U3CU3Ec__DisplayClass1_2_t6629;
+struct U3CU3Ec__DisplayClass1_2_t6634;
 // System.Object
 struct Object_t;
 // System.Threading.Tasks.Task
-struct Task_t1228;
+struct Task_t1231;
 
 // System.Void Parse.Internal.InternalExtensions/<>c__DisplayClass1`2<System.Byte,System.Object>::.ctor()
-extern "C" void U3CU3Ec__DisplayClass1_2__ctor_m36436_gshared (U3CU3Ec__DisplayClass1_2_t6629 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass1_2__ctor_m36436(__this, method) (( void (*) (U3CU3Ec__DisplayClass1_2_t6629 *, const MethodInfo*))U3CU3Ec__DisplayClass1_2__ctor_m36436_gshared)(__this, method)
+extern "C" void U3CU3Ec__DisplayClass1_2__ctor_m36448_gshared (U3CU3Ec__DisplayClass1_2_t6634 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass1_2__ctor_m36448(__this, method) (( void (*) (U3CU3Ec__DisplayClass1_2_t6634 *, const MethodInfo*))U3CU3Ec__DisplayClass1_2__ctor_m36448_gshared)(__this, method)
 // TResult Parse.Internal.InternalExtensions/<>c__DisplayClass1`2<System.Byte,System.Object>::<OnSuccess>b__0(System.Threading.Tasks.Task)
-extern "C" Object_t * U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m36437_gshared (U3CU3Ec__DisplayClass1_2_t6629 * __this, Task_t1228 * ___t, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m36437(__this, ___t, method) (( Object_t * (*) (U3CU3Ec__DisplayClass1_2_t6629 *, Task_t1228 *, const MethodInfo*))U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m36437_gshared)(__this, ___t, method)
+extern "C" Object_t * U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m36449_gshared (U3CU3Ec__DisplayClass1_2_t6634 * __this, Task_t1231 * ___t, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m36449(__this, ___t, method) (( Object_t * (*) (U3CU3Ec__DisplayClass1_2_t6634 *, Task_t1231 *, const MethodInfo*))U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m36449_gshared)(__this, ___t, method)

@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.IConsoleDriver
-struct IConsoleDriver_t4857;
+struct IConsoleDriver_t4860;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.ConsoleDriver
-struct  ConsoleDriver_t4858  : public Object_t
+struct  ConsoleDriver_t4861  : public Object_t
 {
 };
-struct ConsoleDriver_t4858_StaticFields{
+struct ConsoleDriver_t4861_StaticFields{
 	// System.IConsoleDriver System.ConsoleDriver::driver
 	Object_t * ___driver_0;
 	// System.Boolean System.ConsoleDriver::is_console

@@ -9,15 +9,15 @@ struct FieldInfo_t;
 // System.Type
 struct Type_t;
 // System.Reflection.Emit.UnmanagedMarshal
-struct UnmanagedMarshal_t5033;
+struct UnmanagedMarshal_t5036;
 // System.Object
 struct Object_t;
 // System.Reflection.Binder
-struct Binder_t2971;
+struct Binder_t2974;
 // System.Globalization.CultureInfo
-struct CultureInfo_t783;
+struct CultureInfo_t786;
 // System.Object[]
-struct ObjectU5BU5D_t697;
+struct ObjectU5BU5D_t700;
 // System.Reflection.FieldAttributes
 #include "mscorlib_System_Reflection_FieldAttributes.h"
 // System.RuntimeFieldHandle
@@ -53,12 +53,12 @@ extern "C" void FieldInfo_SetValue_m21881 (FieldInfo_t * __this, Object_t * ___o
 // System.Reflection.FieldInfo System.Reflection.FieldInfo::internal_from_handle_type(System.IntPtr,System.IntPtr)
 extern "C" FieldInfo_t * FieldInfo_internal_from_handle_type_m21882 (Object_t * __this /* static, unused */, IntPtr_t ___field_handle, IntPtr_t ___type_handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.FieldInfo System.Reflection.FieldInfo::GetFieldFromHandle(System.RuntimeFieldHandle)
-extern "C" FieldInfo_t * FieldInfo_GetFieldFromHandle_m7850 (Object_t * __this /* static, unused */, RuntimeFieldHandle_t4731  ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" FieldInfo_t * FieldInfo_GetFieldFromHandle_m7850 (Object_t * __this /* static, unused */, RuntimeFieldHandle_t4734  ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Reflection.FieldInfo::GetFieldOffset()
 extern "C" int32_t FieldInfo_GetFieldOffset_m21883 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Emit.UnmanagedMarshal System.Reflection.FieldInfo::GetUnmanagedMarshal()
-extern "C" UnmanagedMarshal_t5033 * FieldInfo_GetUnmanagedMarshal_m21884 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" UnmanagedMarshal_t5036 * FieldInfo_GetUnmanagedMarshal_m21884 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.Emit.UnmanagedMarshal System.Reflection.FieldInfo::get_UMarshal()
-extern "C" UnmanagedMarshal_t5033 * FieldInfo_get_UMarshal_m21885 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" UnmanagedMarshal_t5036 * FieldInfo_get_UMarshal_m21885 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.FieldInfo::GetPseudoCustomAttributes()
-extern "C" ObjectU5BU5D_t697* FieldInfo_GetPseudoCustomAttributes_m21886 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t700* FieldInfo_GetPseudoCustomAttributes_m21886 (FieldInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

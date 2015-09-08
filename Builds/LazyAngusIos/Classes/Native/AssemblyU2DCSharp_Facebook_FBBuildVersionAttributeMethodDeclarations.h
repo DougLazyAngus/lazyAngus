@@ -11,7 +11,7 @@ struct String_t;
 // System.Type
 struct Type_t;
 // Facebook.FBBuildVersionAttribute[]
-struct FBBuildVersionAttributeU5BU5D_t710;
+struct FBBuildVersionAttributeU5BU5D_t713;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 
@@ -30,4 +30,4 @@ extern "C" String_t* FBBuildVersionAttribute_ToString_m2284 (FBBuildVersionAttri
 // Facebook.FBBuildVersionAttribute Facebook.FBBuildVersionAttribute::GetVersionAttributeOfType(System.Type)
 extern "C" FBBuildVersionAttribute_t425 * FBBuildVersionAttribute_GetVersionAttributeOfType_m2285 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Facebook.FBBuildVersionAttribute[] Facebook.FBBuildVersionAttribute::getAttributes(System.Type)
-extern "C" FBBuildVersionAttributeU5BU5D_t710* FBBuildVersionAttribute_getAttributes_m2286 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" FBBuildVersionAttributeU5BU5D_t713* FBBuildVersionAttribute_getAttributes_m2286 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;

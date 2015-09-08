@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.Monitor
-struct Monitor_t5376;
+struct Monitor_t5379;
 // System.Object
 struct Object_t;
 

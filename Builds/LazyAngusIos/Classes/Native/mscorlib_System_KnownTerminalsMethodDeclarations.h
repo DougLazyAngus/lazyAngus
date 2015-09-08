@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.KnownTerminals
-struct KnownTerminals_t4888;
+struct KnownTerminals_t4891;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 

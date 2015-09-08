@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Coord
-struct  Coord_t4931 
+struct  Coord_t4934 
 {
 	// System.Int16 System.Coord::X
 	int16_t ___X_0;

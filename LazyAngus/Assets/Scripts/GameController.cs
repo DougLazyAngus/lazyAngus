@@ -28,7 +28,8 @@ public class GameController : MonoBehaviour {
 	void Start() {
 		RegisterForEvents ();
 
-		RestartGame ();
+		GameLevelState.instance.SetGameLevel (1);
+		GamePhaseState.instance.RestartGame ();
 
 		SocialHelper.instance.Authenticate (success => {
 			if (success) {
@@ -87,9 +88,7 @@ public class GameController : MonoBehaviour {
 		}
 	}
 	
-	public void RestartGame() {
-		GameLevelState.instance.SetGameLevel (1);
-		GamePhaseState.instance.RestartGame ();
+	public void RestarrrtGame() {
 	}
 
 	void OnGameInstanceChanged() {

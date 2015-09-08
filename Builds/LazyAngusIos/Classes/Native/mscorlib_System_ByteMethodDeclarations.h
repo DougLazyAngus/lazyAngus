@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Byte
-struct Byte_t756;
+struct Byte_t759;
 // System.Object
 struct Object_t;
 // System.Type
 struct Type_t;
 // System.IFormatProvider
-struct IFormatProvider_t5003;
+struct IFormatProvider_t5006;
 // System.String
 struct String_t;
 // System.DateTime
@@ -32,7 +32,7 @@ extern "C" uint16_t Byte_System_IConvertible_ToChar_m18668 (uint8_t* __this, Obj
 // System.DateTime System.Byte::System.IConvertible.ToDateTime(System.IFormatProvider)
 extern "C" DateTime_t287  Byte_System_IConvertible_ToDateTime_m18669 (uint8_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Byte::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t760  Byte_System_IConvertible_ToDecimal_m18670 (uint8_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t763  Byte_System_IConvertible_ToDecimal_m18670 (uint8_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Byte::System.IConvertible.ToDouble(System.IFormatProvider)
 extern "C" double Byte_System_IConvertible_ToDouble_m18671 (uint8_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Byte::System.IConvertible.ToInt16(System.IFormatProvider)

@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.TimeZoneInfo
-struct TimeZoneInfo_t1531;
+struct TimeZoneInfo_t1534;
 // System.String
 struct String_t;
 // System.TimeZoneInfo/AdjustmentRule[]
-struct AdjustmentRuleU5BU5D_t3753;
+struct AdjustmentRuleU5BU5D_t3756;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2937;
+struct SerializationInfo_t2940;
 // System.Object
 struct Object_t;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>
-struct List_1_t3790;
+struct List_1_t3793;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.String>
 struct Dictionary_2_t103;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType>
-struct Dictionary_2_t3791;
+struct Dictionary_2_t3794;
 // System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
-struct List_1_t3792;
+struct List_1_t3795;
 // System.TimeSpan
 #include "mscorlib_System_TimeSpan.h"
 // System.Runtime.Serialization.StreamingContext
@@ -32,43 +32,43 @@ struct List_1_t3792;
 #include "mscorlib_System_DateTime.h"
 
 // System.Void System.TimeZoneInfo::.ctor(System.String,System.TimeSpan,System.String,System.String,System.String,System.TimeZoneInfo/AdjustmentRule[],System.Boolean)
-extern "C" void TimeZoneInfo__ctor_m14987 (TimeZoneInfo_t1531 * __this, String_t* ___id, TimeSpan_t334  ___baseUtcOffset, String_t* ___displayName, String_t* ___standardDisplayName, String_t* ___daylightDisplayName, AdjustmentRuleU5BU5D_t3753* ___adjustmentRules, bool ___disableDaylightSavingTime, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TimeZoneInfo__ctor_m14987 (TimeZoneInfo_t1534 * __this, String_t* ___id, TimeSpan_t334  ___baseUtcOffset, String_t* ___displayName, String_t* ___standardDisplayName, String_t* ___daylightDisplayName, AdjustmentRuleU5BU5D_t3756* ___adjustmentRules, bool ___disableDaylightSavingTime, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.TimeZoneInfo::.cctor()
 extern "C" void TimeZoneInfo__cctor_m14988 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.TimeSpan System.TimeZoneInfo::get_BaseUtcOffset()
-extern "C" TimeSpan_t334  TimeZoneInfo_get_BaseUtcOffset_m14989 (TimeZoneInfo_t1531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TimeSpan_t334  TimeZoneInfo_get_BaseUtcOffset_m14989 (TimeZoneInfo_t1534 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.TimeZoneInfo::get_DisplayName()
-extern "C" String_t* TimeZoneInfo_get_DisplayName_m14990 (TimeZoneInfo_t1531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TimeZoneInfo_get_DisplayName_m14990 (TimeZoneInfo_t1534 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.TimeZoneInfo::get_Id()
-extern "C" String_t* TimeZoneInfo_get_Id_m14991 (TimeZoneInfo_t1531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TimeZoneInfo_get_Id_m14991 (TimeZoneInfo_t1534 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.TimeZoneInfo System.TimeZoneInfo::get_Local()
-extern "C" TimeZoneInfo_t1531 * TimeZoneInfo_get_Local_m7823 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TimeZoneInfo_t1534 * TimeZoneInfo_get_Local_m7823 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.TimeZoneInfo::get_StandardName()
-extern "C" String_t* TimeZoneInfo_get_StandardName_m7824 (TimeZoneInfo_t1531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TimeZoneInfo_get_StandardName_m7824 (TimeZoneInfo_t1534 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.TimeZoneInfo::get_TimeZoneDirectory()
 extern "C" String_t* TimeZoneInfo_get_TimeZoneDirectory_m14992 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.TimeZoneInfo System.TimeZoneInfo::CreateCustomTimeZone(System.String,System.TimeSpan,System.String,System.String)
-extern "C" TimeZoneInfo_t1531 * TimeZoneInfo_CreateCustomTimeZone_m14993 (Object_t * __this /* static, unused */, String_t* ___id, TimeSpan_t334  ___baseUtcOffset, String_t* ___displayName, String_t* ___standardDisplayName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TimeZoneInfo_t1534 * TimeZoneInfo_CreateCustomTimeZone_m14993 (Object_t * __this /* static, unused */, String_t* ___id, TimeSpan_t334  ___baseUtcOffset, String_t* ___displayName, String_t* ___standardDisplayName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.TimeZoneInfo System.TimeZoneInfo::CreateCustomTimeZone(System.String,System.TimeSpan,System.String,System.String,System.String,System.TimeZoneInfo/AdjustmentRule[])
-extern "C" TimeZoneInfo_t1531 * TimeZoneInfo_CreateCustomTimeZone_m14994 (Object_t * __this /* static, unused */, String_t* ___id, TimeSpan_t334  ___baseUtcOffset, String_t* ___displayName, String_t* ___standardDisplayName, String_t* ___daylightDisplayName, AdjustmentRuleU5BU5D_t3753* ___adjustmentRules, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TimeZoneInfo_t1534 * TimeZoneInfo_CreateCustomTimeZone_m14994 (Object_t * __this /* static, unused */, String_t* ___id, TimeSpan_t334  ___baseUtcOffset, String_t* ___displayName, String_t* ___standardDisplayName, String_t* ___daylightDisplayName, AdjustmentRuleU5BU5D_t3756* ___adjustmentRules, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.TimeZoneInfo System.TimeZoneInfo::CreateCustomTimeZone(System.String,System.TimeSpan,System.String,System.String,System.String,System.TimeZoneInfo/AdjustmentRule[],System.Boolean)
-extern "C" TimeZoneInfo_t1531 * TimeZoneInfo_CreateCustomTimeZone_m14995 (Object_t * __this /* static, unused */, String_t* ___id, TimeSpan_t334  ___baseUtcOffset, String_t* ___displayName, String_t* ___standardDisplayName, String_t* ___daylightDisplayName, AdjustmentRuleU5BU5D_t3753* ___adjustmentRules, bool ___disableDaylightSavingTime, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TimeZoneInfo_t1534 * TimeZoneInfo_CreateCustomTimeZone_m14995 (Object_t * __this /* static, unused */, String_t* ___id, TimeSpan_t334  ___baseUtcOffset, String_t* ___displayName, String_t* ___standardDisplayName, String_t* ___daylightDisplayName, AdjustmentRuleU5BU5D_t3756* ___adjustmentRules, bool ___disableDaylightSavingTime, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.TimeZoneInfo::Equals(System.TimeZoneInfo)
-extern "C" bool TimeZoneInfo_Equals_m14996 (TimeZoneInfo_t1531 * __this, TimeZoneInfo_t1531 * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TimeZoneInfo_Equals_m14996 (TimeZoneInfo_t1534 * __this, TimeZoneInfo_t1534 * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.TimeZoneInfo System.TimeZoneInfo::FindSystemTimeZoneByFileName(System.String,System.String)
-extern "C" TimeZoneInfo_t1531 * TimeZoneInfo_FindSystemTimeZoneByFileName_m14997 (Object_t * __this /* static, unused */, String_t* ___id, String_t* ___filepath, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TimeZoneInfo_t1534 * TimeZoneInfo_FindSystemTimeZoneByFileName_m14997 (Object_t * __this /* static, unused */, String_t* ___id, String_t* ___filepath, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.TimeZoneInfo/AdjustmentRule[] System.TimeZoneInfo::GetAdjustmentRules()
-extern "C" AdjustmentRuleU5BU5D_t3753* TimeZoneInfo_GetAdjustmentRules_m14998 (TimeZoneInfo_t1531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AdjustmentRuleU5BU5D_t3756* TimeZoneInfo_GetAdjustmentRules_m14998 (TimeZoneInfo_t1534 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.TimeZoneInfo::GetHashCode()
-extern "C" int32_t TimeZoneInfo_GetHashCode_m14999 (TimeZoneInfo_t1531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t TimeZoneInfo_GetHashCode_m14999 (TimeZoneInfo_t1534 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.TimeZoneInfo::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void TimeZoneInfo_GetObjectData_m15000 (TimeZoneInfo_t1531 * __this, SerializationInfo_t2937 * ___info, StreamingContext_t2938  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TimeZoneInfo_GetObjectData_m15000 (TimeZoneInfo_t1534 * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.TimeZoneInfo::HasSameRules(System.TimeZoneInfo)
-extern "C" bool TimeZoneInfo_HasSameRules_m15001 (TimeZoneInfo_t1531 * __this, TimeZoneInfo_t1531 * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TimeZoneInfo_HasSameRules_m15001 (TimeZoneInfo_t1534 * __this, TimeZoneInfo_t1534 * ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.TimeZoneInfo::OnDeserialization(System.Object)
-extern "C" void TimeZoneInfo_OnDeserialization_m15002 (TimeZoneInfo_t1531 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TimeZoneInfo_OnDeserialization_m15002 (TimeZoneInfo_t1534 * __this, Object_t * ___sender, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.TimeZoneInfo::ToString()
-extern "C" String_t* TimeZoneInfo_ToString_m15003 (TimeZoneInfo_t1531 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TimeZoneInfo_ToString_m15003 (TimeZoneInfo_t1534 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.TimeZoneInfo::ValidTZFile(System.Byte[],System.Int32)
 extern "C" bool TimeZoneInfo_ValidTZFile_m15004 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___buffer, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.TimeZoneInfo::SwapInt32(System.Int32)
@@ -76,14 +76,14 @@ extern "C" int32_t TimeZoneInfo_SwapInt32_m15005 (Object_t * __this /* static, u
 // System.Int32 System.TimeZoneInfo::ReadBigEndianInt32(System.Byte[],System.Int32)
 extern "C" int32_t TimeZoneInfo_ReadBigEndianInt32_m15006 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___buffer, int32_t ___start, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.TimeZoneInfo System.TimeZoneInfo::ParseTZBuffer(System.String,System.Byte[],System.Int32)
-extern "C" TimeZoneInfo_t1531 * TimeZoneInfo_ParseTZBuffer_m15007 (Object_t * __this /* static, unused */, String_t* ___id, ByteU5BU5D_t66* ___buffer, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TimeZoneInfo_t1534 * TimeZoneInfo_ParseTZBuffer_m15007 (Object_t * __this /* static, unused */, String_t* ___id, ByteU5BU5D_t66* ___buffer, int32_t ___length, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule> System.TimeZoneInfo::ValidateRules(System.Collections.Generic.List`1<System.TimeZoneInfo/AdjustmentRule>)
-extern "C" List_1_t3790 * TimeZoneInfo_ValidateRules_m15008 (Object_t * __this /* static, unused */, List_1_t3790 * ___adjustmentRules, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t3793 * TimeZoneInfo_ValidateRules_m15008 (Object_t * __this /* static, unused */, List_1_t3793 * ___adjustmentRules, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.String> System.TimeZoneInfo::ParseAbbreviations(System.Byte[],System.Int32,System.Int32)
 extern "C" Dictionary_2_t103 * TimeZoneInfo_ParseAbbreviations_m15009 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType> System.TimeZoneInfo::ParseTimesTypes(System.Byte[],System.Int32,System.Int32,System.Collections.Generic.Dictionary`2<System.Int32,System.String>)
-extern "C" Dictionary_2_t3791 * TimeZoneInfo_ParseTimesTypes_m15010 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___buffer, int32_t ___index, int32_t ___count, Dictionary_2_t103 * ___abbreviations, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Dictionary_2_t3794 * TimeZoneInfo_ParseTimesTypes_m15010 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___buffer, int32_t ___index, int32_t ___count, Dictionary_2_t103 * ___abbreviations, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>> System.TimeZoneInfo::ParseTransitions(System.Byte[],System.Int32,System.Int32,System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType>)
-extern "C" List_1_t3792 * TimeZoneInfo_ParseTransitions_m15011 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___buffer, int32_t ___index, int32_t ___count, Dictionary_2_t3791 * ___time_types, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t3795 * TimeZoneInfo_ParseTransitions_m15011 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___buffer, int32_t ___index, int32_t ___count, Dictionary_2_t3794 * ___time_types, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime System.TimeZoneInfo::DateTimeFromUnixTime(System.Int64)
 extern "C" DateTime_t287  TimeZoneInfo_DateTimeFromUnixTime_m15012 (Object_t * __this /* static, unused */, int64_t ___unix_time, const MethodInfo* method) IL2CPP_METHOD_ATTR;

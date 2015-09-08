@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Permissions.UIPermissionWindow
-struct UIPermissionWindow_t5319;
+struct UIPermissionWindow_t5322;
 

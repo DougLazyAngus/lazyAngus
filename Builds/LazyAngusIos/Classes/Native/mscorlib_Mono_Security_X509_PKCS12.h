@@ -3,26 +3,26 @@
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Collections.ArrayList
-struct ArrayList_t713;
+struct ArrayList_t716;
 // Mono.Security.X509.X509CertificateCollection
-struct X509CertificateCollection_t4785;
+struct X509CertificateCollection_t4788;
 // System.Security.Cryptography.RandomNumberGenerator
-struct RandomNumberGenerator_t3118;
+struct RandomNumberGenerator_t3121;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.X509.PKCS12
-struct  PKCS12_t4814  : public Object_t
+struct  PKCS12_t4817  : public Object_t
 {
 	// System.Byte[] Mono.Security.X509.PKCS12::_password
 	ByteU5BU5D_t66* ____password_1;
 	// System.Collections.ArrayList Mono.Security.X509.PKCS12::_keyBags
-	ArrayList_t713 * ____keyBags_2;
+	ArrayList_t716 * ____keyBags_2;
 	// System.Collections.ArrayList Mono.Security.X509.PKCS12::_secretBags
-	ArrayList_t713 * ____secretBags_3;
+	ArrayList_t716 * ____secretBags_3;
 	// Mono.Security.X509.X509CertificateCollection Mono.Security.X509.PKCS12::_certs
-	X509CertificateCollection_t4785 * ____certs_4;
+	X509CertificateCollection_t4788 * ____certs_4;
 	// System.Boolean Mono.Security.X509.PKCS12::_keyBagsChanged
 	bool ____keyBagsChanged_5;
 	// System.Boolean Mono.Security.X509.PKCS12::_secretBagsChanged
@@ -32,11 +32,11 @@ struct  PKCS12_t4814  : public Object_t
 	// System.Int32 Mono.Security.X509.PKCS12::_iterations
 	int32_t ____iterations_8;
 	// System.Collections.ArrayList Mono.Security.X509.PKCS12::_safeBags
-	ArrayList_t713 * ____safeBags_9;
+	ArrayList_t716 * ____safeBags_9;
 	// System.Security.Cryptography.RandomNumberGenerator Mono.Security.X509.PKCS12::_rng
-	RandomNumberGenerator_t3118 * ____rng_10;
+	RandomNumberGenerator_t3121 * ____rng_10;
 };
-struct PKCS12_t4814_StaticFields{
+struct PKCS12_t4817_StaticFields{
 	// System.Int32 Mono.Security.X509.PKCS12::recommendedIterationCount
 	int32_t ___recommendedIterationCount_0;
 	// System.Int32 Mono.Security.X509.PKCS12::password_max_length

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.MonoTypeInfo
-struct MonoTypeInfo_t4898;
+struct MonoTypeInfo_t4901;
 
 // System.Void System.MonoTypeInfo::.ctor()
-extern "C" void MonoTypeInfo__ctor_m20522 (MonoTypeInfo_t4898 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoTypeInfo__ctor_m20522 (MonoTypeInfo_t4901 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

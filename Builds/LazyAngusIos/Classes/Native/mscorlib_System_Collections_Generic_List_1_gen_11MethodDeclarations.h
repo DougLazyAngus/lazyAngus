@@ -11,25 +11,25 @@ struct Object_t;
 // FBAppRequest
 struct FBAppRequest_t286;
 // System.Collections.Generic.IEnumerable`1<FBAppRequest>
-struct IEnumerable_1_t9467;
+struct IEnumerable_1_t9472;
 // FBAppRequest[]
-struct FBAppRequestU5BU5D_t6135;
+struct FBAppRequestU5BU5D_t6138;
 // System.Collections.Generic.IEnumerator`1<FBAppRequest>
-struct IEnumerator_1_t9468;
+struct IEnumerator_1_t9473;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.ICollection`1<FBAppRequest>
-struct ICollection_1_t9469;
+struct ICollection_1_t9474;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<FBAppRequest>
-struct ReadOnlyCollection_1_t6137;
+struct ReadOnlyCollection_1_t6140;
 // System.Predicate`1<FBAppRequest>
-struct Predicate_1_t6138;
+struct Predicate_1_t6141;
 // System.Collections.Generic.IComparer`1<FBAppRequest>
-struct IComparer_1_t9470;
+struct IComparer_1_t9475;
 // System.Comparison`1<FBAppRequest>
-struct Comparison_1_t6139;
+struct Comparison_1_t6142;
 // System.Collections.Generic.List`1/Enumerator<FBAppRequest>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_7.h"
 
@@ -42,7 +42,7 @@ struct Comparison_1_t6139;
 // System.Void System.Collections.Generic.List`1<FBAppRequest>::.ctor(System.Int32)
 #define List_1__ctor_m29168(__this, ___capacity, method) (( void (*) (List_1_t275 *, int32_t, const MethodInfo*))List_1__ctor_m25920_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.List`1<FBAppRequest>::.ctor(T[],System.Int32)
-#define List_1__ctor_m29169(__this, ___data, ___size, method) (( void (*) (List_1_t275 *, FBAppRequestU5BU5D_t6135*, int32_t, const MethodInfo*))List_1__ctor_m25922_gshared)(__this, ___data, ___size, method)
+#define List_1__ctor_m29169(__this, ___data, ___size, method) (( void (*) (List_1_t275 *, FBAppRequestU5BU5D_t6138*, int32_t, const MethodInfo*))List_1__ctor_m25922_gshared)(__this, ___data, ___size, method)
 // System.Void System.Collections.Generic.List`1<FBAppRequest>::.cctor()
 #define List_1__cctor_m29170(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m25924_gshared)(__this /* static, unused */, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<FBAppRequest>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
@@ -88,21 +88,21 @@ struct Comparison_1_t6139;
 // System.Void System.Collections.Generic.List`1<FBAppRequest>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
 #define List_1_AddRange_m29191(__this, ___collection, method) (( void (*) (List_1_t275 *, Object_t*, const MethodInfo*))List_1_AddRange_m25950_gshared)(__this, ___collection, method)
 // System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<FBAppRequest>::AsReadOnly()
-#define List_1_AsReadOnly_m29192(__this, method) (( ReadOnlyCollection_1_t6137 * (*) (List_1_t275 *, const MethodInfo*))List_1_AsReadOnly_m25952_gshared)(__this, method)
+#define List_1_AsReadOnly_m29192(__this, method) (( ReadOnlyCollection_1_t6140 * (*) (List_1_t275 *, const MethodInfo*))List_1_AsReadOnly_m25952_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<FBAppRequest>::Clear()
 #define List_1_Clear_m29193(__this, method) (( void (*) (List_1_t275 *, const MethodInfo*))List_1_Clear_m10518_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<FBAppRequest>::Contains(T)
 #define List_1_Contains_m29194(__this, ___item, method) (( bool (*) (List_1_t275 *, FBAppRequest_t286 *, const MethodInfo*))List_1_Contains_m10526_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<FBAppRequest>::CopyTo(T[],System.Int32)
-#define List_1_CopyTo_m29195(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t275 *, FBAppRequestU5BU5D_t6135*, int32_t, const MethodInfo*))List_1_CopyTo_m10527_gshared)(__this, ___array, ___arrayIndex, method)
+#define List_1_CopyTo_m29195(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t275 *, FBAppRequestU5BU5D_t6138*, int32_t, const MethodInfo*))List_1_CopyTo_m10527_gshared)(__this, ___array, ___arrayIndex, method)
 // T System.Collections.Generic.List`1<FBAppRequest>::Find(System.Predicate`1<T>)
-#define List_1_Find_m29196(__this, ___match, method) (( FBAppRequest_t286 * (*) (List_1_t275 *, Predicate_1_t6138 *, const MethodInfo*))List_1_Find_m25957_gshared)(__this, ___match, method)
+#define List_1_Find_m29196(__this, ___match, method) (( FBAppRequest_t286 * (*) (List_1_t275 *, Predicate_1_t6141 *, const MethodInfo*))List_1_Find_m25957_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<FBAppRequest>::CheckMatch(System.Predicate`1<T>)
-#define List_1_CheckMatch_m29197(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t6138 *, const MethodInfo*))List_1_CheckMatch_m25959_gshared)(__this /* static, unused */, ___match, method)
+#define List_1_CheckMatch_m29197(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t6141 *, const MethodInfo*))List_1_CheckMatch_m25959_gshared)(__this /* static, unused */, ___match, method)
 // System.Int32 System.Collections.Generic.List`1<FBAppRequest>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
-#define List_1_GetIndex_m29198(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t275 *, int32_t, int32_t, Predicate_1_t6138 *, const MethodInfo*))List_1_GetIndex_m25961_gshared)(__this, ___startIndex, ___count, ___match, method)
+#define List_1_GetIndex_m29198(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t275 *, int32_t, int32_t, Predicate_1_t6141 *, const MethodInfo*))List_1_GetIndex_m25961_gshared)(__this, ___startIndex, ___count, ___match, method)
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<FBAppRequest>::GetEnumerator()
-#define List_1_GetEnumerator_m4122(__this, method) (( Enumerator_t774  (*) (List_1_t275 *, const MethodInfo*))List_1_GetEnumerator_m4029_gshared)(__this, method)
+#define List_1_GetEnumerator_m4122(__this, method) (( Enumerator_t777  (*) (List_1_t275 *, const MethodInfo*))List_1_GetEnumerator_m4029_gshared)(__this, method)
 // System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<FBAppRequest>::GetRange(System.Int32,System.Int32)
 #define List_1_GetRange_m29199(__this, ___index, ___count, method) (( List_1_t275 * (*) (List_1_t275 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m25963_gshared)(__this, ___index, ___count, method)
 // System.Int32 System.Collections.Generic.List`1<FBAppRequest>::IndexOf(T)
@@ -124,7 +124,7 @@ struct Comparison_1_t6139;
 // System.Boolean System.Collections.Generic.List`1<FBAppRequest>::Remove(T)
 #define List_1_Remove_m29208(__this, ___item, method) (( bool (*) (List_1_t275 *, FBAppRequest_t286 *, const MethodInfo*))List_1_Remove_m10528_gshared)(__this, ___item, method)
 // System.Int32 System.Collections.Generic.List`1<FBAppRequest>::RemoveAll(System.Predicate`1<T>)
-#define List_1_RemoveAll_m29209(__this, ___match, method) (( int32_t (*) (List_1_t275 *, Predicate_1_t6138 *, const MethodInfo*))List_1_RemoveAll_m25980_gshared)(__this, ___match, method)
+#define List_1_RemoveAll_m29209(__this, ___match, method) (( int32_t (*) (List_1_t275 *, Predicate_1_t6141 *, const MethodInfo*))List_1_RemoveAll_m25980_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<FBAppRequest>::RemoveAt(System.Int32)
 #define List_1_RemoveAt_m29210(__this, ___index, method) (( void (*) (List_1_t275 *, int32_t, const MethodInfo*))List_1_RemoveAt_m10523_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<FBAppRequest>::RemoveRange(System.Int32,System.Int32)
@@ -136,9 +136,9 @@ struct Comparison_1_t6139;
 // System.Void System.Collections.Generic.List`1<FBAppRequest>::Sort(System.Collections.Generic.IComparer`1<T>)
 #define List_1_Sort_m29214(__this, ___comparer, method) (( void (*) (List_1_t275 *, Object_t*, const MethodInfo*))List_1_Sort_m25989_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.List`1<FBAppRequest>::Sort(System.Comparison`1<T>)
-#define List_1_Sort_m29215(__this, ___comparison, method) (( void (*) (List_1_t275 *, Comparison_1_t6139 *, const MethodInfo*))List_1_Sort_m25991_gshared)(__this, ___comparison, method)
+#define List_1_Sort_m29215(__this, ___comparison, method) (( void (*) (List_1_t275 *, Comparison_1_t6142 *, const MethodInfo*))List_1_Sort_m25991_gshared)(__this, ___comparison, method)
 // T[] System.Collections.Generic.List`1<FBAppRequest>::ToArray()
-#define List_1_ToArray_m29216(__this, method) (( FBAppRequestU5BU5D_t6135* (*) (List_1_t275 *, const MethodInfo*))List_1_ToArray_m25993_gshared)(__this, method)
+#define List_1_ToArray_m29216(__this, method) (( FBAppRequestU5BU5D_t6138* (*) (List_1_t275 *, const MethodInfo*))List_1_ToArray_m25993_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<FBAppRequest>::TrimExcess()
 #define List_1_TrimExcess_m29217(__this, method) (( void (*) (List_1_t275 *, const MethodInfo*))List_1_TrimExcess_m25995_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.List`1<FBAppRequest>::get_Capacity()

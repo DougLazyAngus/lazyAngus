@@ -7,16 +7,16 @@
 // System.SmallRect
 #include "mscorlib_System_SmallRect.h"
 // System.ConsoleScreenBufferInfo
-struct  ConsoleScreenBufferInfo_t4933 
+struct  ConsoleScreenBufferInfo_t4936 
 {
 	// System.Coord System.ConsoleScreenBufferInfo::Size
-	Coord_t4931  ___Size_0;
+	Coord_t4934  ___Size_0;
 	// System.Coord System.ConsoleScreenBufferInfo::CursorPosition
-	Coord_t4931  ___CursorPosition_1;
+	Coord_t4934  ___CursorPosition_1;
 	// System.Int16 System.ConsoleScreenBufferInfo::Attribute
 	int16_t ___Attribute_2;
 	// System.SmallRect System.ConsoleScreenBufferInfo::Window
-	SmallRect_t4932  ___Window_3;
+	SmallRect_t4935  ___Window_3;
 	// System.Coord System.ConsoleScreenBufferInfo::MaxWindowSize
-	Coord_t4931  ___MaxWindowSize_4;
+	Coord_t4934  ___MaxWindowSize_4;
 };

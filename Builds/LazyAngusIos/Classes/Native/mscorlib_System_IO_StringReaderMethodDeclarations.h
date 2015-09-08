@@ -9,7 +9,7 @@ struct StringReader_t259;
 // System.String
 struct String_t;
 // System.Char[]
-struct CharU5BU5D_t712;
+struct CharU5BU5D_t715;
 
 // System.Void System.IO.StringReader::.ctor(System.String)
 extern "C" void StringReader__ctor_m3999 (StringReader_t259 * __this, String_t* ___s, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -22,7 +22,7 @@ extern "C" int32_t StringReader_Peek_m21688 (StringReader_t259 * __this, const M
 // System.Int32 System.IO.StringReader::Read()
 extern "C" int32_t StringReader_Read_m21689 (StringReader_t259 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.IO.StringReader::Read(System.Char[],System.Int32,System.Int32)
-extern "C" int32_t StringReader_Read_m21690 (StringReader_t259 * __this, CharU5BU5D_t712* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t StringReader_Read_m21690 (StringReader_t259 * __this, CharU5BU5D_t715* ___buffer, int32_t ___index, int32_t ___count, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.StringReader::ReadLine()
 extern "C" String_t* StringReader_ReadLine_m21691 (StringReader_t259 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.IO.StringReader::ReadToEnd()

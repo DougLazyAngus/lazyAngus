@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Net.Cookie
-struct Cookie_t4347;
+struct Cookie_t4350;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<System.Net.Cookie>
-struct  Predicate_1_t9240  : public MulticastDelegate_t388
+struct  Predicate_1_t9245  : public MulticastDelegate_t388
 {
 };

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.SmallRect
-struct SmallRect_t4932;
+struct SmallRect_t4935;
 

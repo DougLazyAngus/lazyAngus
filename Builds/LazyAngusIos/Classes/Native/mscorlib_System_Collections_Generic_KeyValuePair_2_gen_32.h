@@ -7,7 +7,7 @@ struct FacebookDelegate_t433;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,Facebook.FacebookDelegate>
-struct  KeyValuePair_2_t6213 
+struct  KeyValuePair_2_t6216 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,Facebook.FacebookDelegate>::key
 	String_t* ___key_0;

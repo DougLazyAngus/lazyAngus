@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SystemInfo
-struct SystemInfo_t2705;
+struct SystemInfo_t2708;
 // System.String
 struct String_t;
 

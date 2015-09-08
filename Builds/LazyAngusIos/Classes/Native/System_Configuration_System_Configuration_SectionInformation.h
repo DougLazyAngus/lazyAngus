@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Configuration.ConfigurationSection
-struct ConfigurationSection_t3337;
+struct ConfigurationSection_t3340;
 // System.String
 struct String_t;
 // System.Configuration.ProtectedConfigurationProvider
-struct ProtectedConfigurationProvider_t3360;
+struct ProtectedConfigurationProvider_t3363;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Configuration.ConfigurationAllowDefinition
@@ -13,10 +13,10 @@ struct ProtectedConfigurationProvider_t3360;
 // System.Configuration.ConfigurationAllowExeDefinition
 #include "System_Configuration_System_Configuration_ConfigurationAllow_0.h"
 // System.Configuration.SectionInformation
-struct  SectionInformation_t3335  : public Object_t
+struct  SectionInformation_t3338  : public Object_t
 {
 	// System.Configuration.ConfigurationSection System.Configuration.SectionInformation::parent
-	ConfigurationSection_t3337 * ___parent_0;
+	ConfigurationSection_t3340 * ___parent_0;
 	// System.Configuration.ConfigurationAllowDefinition System.Configuration.SectionInformation::allow_definition
 	int32_t ___allow_definition_1;
 	// System.Configuration.ConfigurationAllowExeDefinition System.Configuration.SectionInformation::allow_exe_definition
@@ -38,7 +38,7 @@ struct  SectionInformation_t3335  : public Object_t
 	// System.String System.Configuration.SectionInformation::raw_xml
 	String_t* ___raw_xml_10;
 	// System.Configuration.ProtectedConfigurationProvider System.Configuration.SectionInformation::protection_provider
-	ProtectedConfigurationProvider_t3360 * ___protection_provider_11;
+	ProtectedConfigurationProvider_t3363 * ___protection_provider_11;
 	// System.String System.Configuration.SectionInformation::<ConfigFilePath>k__BackingField
 	String_t* ___U3CConfigFilePathU3Ek__BackingField_12;
 };

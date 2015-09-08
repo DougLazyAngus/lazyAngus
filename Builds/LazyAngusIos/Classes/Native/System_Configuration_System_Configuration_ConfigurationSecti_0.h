@@ -7,11 +7,11 @@ struct String_t;
 // System.Object
 struct Object_t;
 // System.Configuration.ConfigurationSectionCollection
-struct ConfigurationSectionCollection_t3338;
+struct ConfigurationSectionCollection_t3341;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Configuration.ConfigurationSectionCollection/<GetEnumerator>c__Iterator0
-struct  U3CGetEnumeratorU3Ec__Iterator0_t3339  : public Object_t
+struct  U3CGetEnumeratorU3Ec__Iterator0_t3342  : public Object_t
 {
 	// System.Collections.IEnumerator System.Configuration.ConfigurationSectionCollection/<GetEnumerator>c__Iterator0::<$s_32>__0
 	Object_t * ___U3CU24s_32U3E__0_0;
@@ -22,5 +22,5 @@ struct  U3CGetEnumeratorU3Ec__Iterator0_t3339  : public Object_t
 	// System.Object System.Configuration.ConfigurationSectionCollection/<GetEnumerator>c__Iterator0::$current
 	Object_t * ___U24current_3;
 	// System.Configuration.ConfigurationSectionCollection System.Configuration.ConfigurationSectionCollection/<GetEnumerator>c__Iterator0::<>f__this
-	ConfigurationSectionCollection_t3338 * ___U3CU3Ef__this_4;
+	ConfigurationSectionCollection_t3341 * ___U3CU3Ef__this_4;
 };

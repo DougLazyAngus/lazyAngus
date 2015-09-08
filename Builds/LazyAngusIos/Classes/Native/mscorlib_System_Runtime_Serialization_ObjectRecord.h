@@ -3,25 +3,25 @@
 // System.Object
 struct Object_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2937;
+struct SerializationInfo_t2940;
 // System.Runtime.Serialization.ISerializationSurrogate
-struct ISerializationSurrogate_t5193;
+struct ISerializationSurrogate_t5196;
 // System.Runtime.Serialization.ISurrogateSelector
-struct ISurrogateSelector_t5173;
+struct ISurrogateSelector_t5176;
 // System.Reflection.MemberInfo
 struct MemberInfo_t;
 // System.Int32[]
 struct Int32U5BU5D_t484;
 // System.Runtime.Serialization.BaseFixupRecord
-struct BaseFixupRecord_t5187;
+struct BaseFixupRecord_t5190;
 // System.Runtime.Serialization.ObjectRecord
-struct ObjectRecord_t5185;
+struct ObjectRecord_t5188;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Serialization.ObjectRecordStatus
 #include "mscorlib_System_Runtime_Serialization_ObjectRecordStatus.h"
 // System.Runtime.Serialization.ObjectRecord
-struct  ObjectRecord_t5185  : public Object_t
+struct  ObjectRecord_t5188  : public Object_t
 {
 	// System.Runtime.Serialization.ObjectRecordStatus System.Runtime.Serialization.ObjectRecord::Status
 	uint8_t ___Status_0;
@@ -32,7 +32,7 @@ struct  ObjectRecord_t5185  : public Object_t
 	// System.Int64 System.Runtime.Serialization.ObjectRecord::ObjectID
 	int64_t ___ObjectID_3;
 	// System.Runtime.Serialization.SerializationInfo System.Runtime.Serialization.ObjectRecord::Info
-	SerializationInfo_t2937 * ___Info_4;
+	SerializationInfo_t2940 * ___Info_4;
 	// System.Int64 System.Runtime.Serialization.ObjectRecord::IdOfContainingObj
 	int64_t ___IdOfContainingObj_5;
 	// System.Runtime.Serialization.ISerializationSurrogate System.Runtime.Serialization.ObjectRecord::Surrogate
@@ -44,9 +44,9 @@ struct  ObjectRecord_t5185  : public Object_t
 	// System.Int32[] System.Runtime.Serialization.ObjectRecord::ArrayIndex
 	Int32U5BU5D_t484* ___ArrayIndex_9;
 	// System.Runtime.Serialization.BaseFixupRecord System.Runtime.Serialization.ObjectRecord::FixupChainAsContainer
-	BaseFixupRecord_t5187 * ___FixupChainAsContainer_10;
+	BaseFixupRecord_t5190 * ___FixupChainAsContainer_10;
 	// System.Runtime.Serialization.BaseFixupRecord System.Runtime.Serialization.ObjectRecord::FixupChainAsRequired
-	BaseFixupRecord_t5187 * ___FixupChainAsRequired_11;
+	BaseFixupRecord_t5190 * ___FixupChainAsRequired_11;
 	// System.Runtime.Serialization.ObjectRecord System.Runtime.Serialization.ObjectRecord::Next
-	ObjectRecord_t5185 * ___Next_12;
+	ObjectRecord_t5188 * ___Next_12;
 };

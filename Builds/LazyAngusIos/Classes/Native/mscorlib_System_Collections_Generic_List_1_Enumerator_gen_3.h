@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<GPScore>
-struct List_1_t698;
+struct List_1_t701;
 // GPScore
 struct GPScore_t343;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<GPScore>
-struct  Enumerator_t752 
+struct  Enumerator_t755 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<GPScore>::l
-	List_1_t698 * ___l_0;
+	List_1_t701 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<GPScore>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<GPScore>::ver

@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Policy.PolicyStatement
-struct PolicyStatement_t5323;
+struct PolicyStatement_t5326;
 // System.Security.Policy.IMembershipCondition
-struct IMembershipCondition_t5326;
+struct IMembershipCondition_t5329;
 // System.String
 struct String_t;
 // System.Collections.ArrayList
-struct ArrayList_t713;
+struct ArrayList_t716;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Policy.CodeGroup
-struct  CodeGroup_t5327  : public Object_t
+struct  CodeGroup_t5330  : public Object_t
 {
 	// System.Security.Policy.PolicyStatement System.Security.Policy.CodeGroup::m_policy
-	PolicyStatement_t5323 * ___m_policy_0;
+	PolicyStatement_t5326 * ___m_policy_0;
 	// System.Security.Policy.IMembershipCondition System.Security.Policy.CodeGroup::m_membershipCondition
 	Object_t * ___m_membershipCondition_1;
 	// System.String System.Security.Policy.CodeGroup::m_description
@@ -24,9 +24,9 @@ struct  CodeGroup_t5327  : public Object_t
 	// System.String System.Security.Policy.CodeGroup::m_name
 	String_t* ___m_name_3;
 	// System.Collections.ArrayList System.Security.Policy.CodeGroup::m_children
-	ArrayList_t713 * ___m_children_4;
+	ArrayList_t716 * ___m_children_4;
 };
-struct CodeGroup_t5327_StaticFields{
+struct CodeGroup_t5330_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Security.Policy.CodeGroup::<>f__switch$map2E
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map2E_5;
 };

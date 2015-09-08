@@ -5,7 +5,7 @@ struct StringBuilder_t261;
 // System.IO.TextWriter
 #include "mscorlib_System_IO_TextWriter.h"
 // System.IO.StringWriter
-struct  StringWriter_t3382  : public TextWriter_t3559
+struct  StringWriter_t3385  : public TextWriter_t3562
 {
 	// System.Text.StringBuilder System.IO.StringWriter::internalString
 	StringBuilder_t261 * ___internalString_4;

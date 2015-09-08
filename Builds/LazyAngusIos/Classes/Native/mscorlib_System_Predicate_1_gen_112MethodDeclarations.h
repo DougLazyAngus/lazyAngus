@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Predicate`1<System.Net.Cookie>
-struct Predicate_1_t9240;
+struct Predicate_1_t9245;
 // System.Object
 struct Object_t;
 // System.Net.Cookie
-struct Cookie_t4347;
+struct Cookie_t4350;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Predicate`1<System.Net.Cookie>::.ctor(System.Object,System.IntPtr)
 // System.Predicate`1<System.Object>
 #include "mscorlib_System_Predicate_1_gen_3MethodDeclarations.h"
-#define Predicate_1__ctor_m68911(__this, ___object, ___method, method) (( void (*) (Predicate_1_t9240 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m26073_gshared)(__this, ___object, ___method, method)
+#define Predicate_1__ctor_m68923(__this, ___object, ___method, method) (( void (*) (Predicate_1_t9245 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m26073_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<System.Net.Cookie>::Invoke(T)
-#define Predicate_1_Invoke_m68912(__this, ___obj, method) (( bool (*) (Predicate_1_t9240 *, Cookie_t4347 *, const MethodInfo*))Predicate_1_Invoke_m26074_gshared)(__this, ___obj, method)
+#define Predicate_1_Invoke_m68924(__this, ___obj, method) (( bool (*) (Predicate_1_t9245 *, Cookie_t4350 *, const MethodInfo*))Predicate_1_Invoke_m26074_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<System.Net.Cookie>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m68913(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t9240 *, Cookie_t4347 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m26075_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Predicate_1_BeginInvoke_m68925(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t9245 *, Cookie_t4350 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m26075_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<System.Net.Cookie>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m68914(__this, ___result, method) (( bool (*) (Predicate_1_t9240 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m26076_gshared)(__this, ___result, method)
+#define Predicate_1_EndInvoke_m68926(__this, ___result, method) (( bool (*) (Predicate_1_t9245 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m26076_gshared)(__this, ___result, method)

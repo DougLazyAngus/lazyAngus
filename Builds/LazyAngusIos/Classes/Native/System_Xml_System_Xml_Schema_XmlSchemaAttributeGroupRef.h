@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.XmlQualifiedName
-struct XmlQualifiedName_t3416;
+struct XmlQualifiedName_t3419;
 // System.Xml.Schema.XmlSchemaAnnotated
 #include "System_Xml_System_Xml_Schema_XmlSchemaAnnotated.h"
 // System.Xml.Schema.XmlSchemaAttributeGroupRef
-struct  XmlSchemaAttributeGroupRef_t3637  : public XmlSchemaAnnotated_t3629
+struct  XmlSchemaAttributeGroupRef_t3640  : public XmlSchemaAnnotated_t3632
 {
 	// System.Xml.XmlQualifiedName System.Xml.Schema.XmlSchemaAttributeGroupRef::refName
-	XmlQualifiedName_t3416 * ___refName_16;
+	XmlQualifiedName_t3419 * ___refName_16;
 };

@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.UInt32[]
-struct UInt32U5BU5D_t3117;
+struct UInt32U5BU5D_t3120;
 // System.UInt64[]
-struct UInt64U5BU5D_t5279;
+struct UInt64U5BU5D_t5282;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Cryptography.SHAConstants
-struct  SHAConstants_t5283  : public Object_t
+struct  SHAConstants_t5286  : public Object_t
 {
 };
-struct SHAConstants_t5283_StaticFields{
+struct SHAConstants_t5286_StaticFields{
 	// System.UInt32[] System.Security.Cryptography.SHAConstants::K1
-	UInt32U5BU5D_t3117* ___K1_0;
+	UInt32U5BU5D_t3120* ___K1_0;
 	// System.UInt64[] System.Security.Cryptography.SHAConstants::K2
-	UInt64U5BU5D_t5279* ___K2_1;
+	UInt64U5BU5D_t5282* ___K2_1;
 };

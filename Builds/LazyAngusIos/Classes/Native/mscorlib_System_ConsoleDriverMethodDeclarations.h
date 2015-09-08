@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ConsoleDriver
-struct ConsoleDriver_t4858;
+struct ConsoleDriver_t4861;
 // System.IConsoleDriver
-struct IConsoleDriver_t4857;
+struct IConsoleDriver_t4860;
 // System.String
 struct String_t;
 // System.Byte[]
@@ -26,7 +26,7 @@ extern "C" Object_t * ConsoleDriver_CreateWindowsConsoleDriver_m20058 (Object_t 
 // System.IConsoleDriver System.ConsoleDriver::CreateTermInfoDriver(System.String)
 extern "C" Object_t * ConsoleDriver_CreateTermInfoDriver_m20059 (Object_t * __this /* static, unused */, String_t* ___term, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.ConsoleKeyInfo System.ConsoleDriver::ReadKey(System.Boolean)
-extern "C" ConsoleKeyInfo_t4860  ConsoleDriver_ReadKey_m20060 (Object_t * __this /* static, unused */, bool ___intercept, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ConsoleKeyInfo_t4863  ConsoleDriver_ReadKey_m20060 (Object_t * __this /* static, unused */, bool ___intercept, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.ConsoleDriver::get_IsConsole()
 extern "C" bool ConsoleDriver_get_IsConsole_m20061 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.ConsoleDriver::Isatty(System.IntPtr)

@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Reflection.Assembly
-struct Assembly_t784;
+struct Assembly_t787;
 // System.Object
 struct Object_t;
 // System.ResolveEventArgs
-struct ResolveEventArgs_t4907;
+struct ResolveEventArgs_t4910;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct AsyncCallback_t386;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.ResolveEventHandler
-struct  ResolveEventHandler_t4839  : public MulticastDelegate_t388
+struct  ResolveEventHandler_t4842  : public MulticastDelegate_t388
 {
 };

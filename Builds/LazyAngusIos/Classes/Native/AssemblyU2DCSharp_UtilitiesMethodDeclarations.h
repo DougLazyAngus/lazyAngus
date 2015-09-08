@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Utilities
-struct Utilities_t688;
+struct Utilities_t691;
 // UnityEngine.GameObject
 struct GameObject_t352;
 // System.String
@@ -15,7 +15,7 @@ struct IEnumerator_t48;
 // UnityEngine.GameObject[]
 struct GameObjectU5BU5D_t507;
 // System.Single[]
-struct SingleU5BU5D_t588;
+struct SingleU5BU5D_t589;
 // UnityEngine.Mesh
 struct Mesh_t525;
 // UnityEngine.Transform
@@ -28,7 +28,7 @@ struct Transform_t406;
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // System.Void Utilities::.ctor()
-extern "C" void Utilities__ctor_m3758 (Utilities_t688 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Utilities__ctor_m3758 (Utilities_t691 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Utilities::.cctor()
 extern "C" void Utilities__cctor_m3759 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single Utilities::GetZAngle(UnityEngine.Vector3)
@@ -56,7 +56,7 @@ extern "C" float Utilities_GetIOSVersion_m3770 (Object_t * __this /* static, unu
 // System.Single Utilities::SecondsSinceEpoch()
 extern "C" float Utilities_SecondsSinceEpoch_m3771 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single[] Utilities::GetBlendingCoefficients(System.Single,System.Int32)
-extern "C" SingleU5BU5D_t588* Utilities_GetBlendingCoefficients_m3772 (Object_t * __this /* static, unused */, float ___t, int32_t ___numPoints, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SingleU5BU5D_t589* Utilities_GetBlendingCoefficients_m3772 (Object_t * __this /* static, unused */, float ___t, int32_t ___numPoints, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Utilities::ParseIntWithDefault(System.String,System.Int32)
 extern "C" int32_t Utilities_ParseIntWithDefault_m3773 (Object_t * __this /* static, unused */, String_t* ___text, int32_t ___defaultValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Utilities::MakeFanWithAngleRange(UnityEngine.Mesh&,System.Single,System.Single,System.Single,System.Int32)

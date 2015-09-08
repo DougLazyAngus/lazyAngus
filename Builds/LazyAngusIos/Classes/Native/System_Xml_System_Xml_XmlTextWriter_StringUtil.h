@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Globalization.CultureInfo
-struct CultureInfo_t783;
+struct CultureInfo_t786;
 // System.Globalization.CompareInfo
-struct CompareInfo_t3276;
+struct CompareInfo_t3279;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlTextWriter/StringUtil
-struct  StringUtil_t3557  : public Object_t
+struct  StringUtil_t3560  : public Object_t
 {
 };
-struct StringUtil_t3557_StaticFields{
+struct StringUtil_t3560_StaticFields{
 	// System.Globalization.CultureInfo System.Xml.XmlTextWriter/StringUtil::cul
-	CultureInfo_t783 * ___cul_0;
+	CultureInfo_t786 * ___cul_0;
 	// System.Globalization.CompareInfo System.Xml.XmlTextWriter/StringUtil::cmp
-	CompareInfo_t3276 * ___cmp_1;
+	CompareInfo_t3279 * ___cmp_1;
 };

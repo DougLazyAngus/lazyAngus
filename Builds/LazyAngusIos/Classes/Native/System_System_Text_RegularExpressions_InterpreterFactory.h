@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.IDictionary
-struct IDictionary_t700;
+struct IDictionary_t703;
 // System.UInt16[]
-struct UInt16U5BU5D_t4382;
+struct UInt16U5BU5D_t4385;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.InterpreterFactory
-struct  InterpreterFactory_t4485  : public Object_t
+struct  InterpreterFactory_t4488  : public Object_t
 {
 	// System.Collections.IDictionary System.Text.RegularExpressions.InterpreterFactory::mapping
 	Object_t * ___mapping_0;
 	// System.UInt16[] System.Text.RegularExpressions.InterpreterFactory::pattern
-	UInt16U5BU5D_t4382* ___pattern_1;
+	UInt16U5BU5D_t4385* ___pattern_1;
 	// System.String[] System.Text.RegularExpressions.InterpreterFactory::namesMapping
 	StringU5BU5D_t75* ___namesMapping_2;
 	// System.Int32 System.Text.RegularExpressions.InterpreterFactory::gap

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.Emit.ILGenerator/LabelFixup
-struct LabelFixup_t5065;
+struct LabelFixup_t5068;
 

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.NativeEventCalls
-struct NativeEventCalls_t5377;
+struct NativeEventCalls_t5380;
 // System.String
 struct String_t;
 // System.IntPtr

@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Xml.Schema.XsdKeyEntryFieldCollection
-struct XsdKeyEntryFieldCollection_t3412;
+struct XsdKeyEntryFieldCollection_t3415;
 // Mono.Xml.Schema.XsdKeyTable
-struct XsdKeyTable_t3413;
+struct XsdKeyTable_t3416;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Xml.Schema.XsdKeyEntry
-struct  XsdKeyEntry_t3409  : public Object_t
+struct  XsdKeyEntry_t3412  : public Object_t
 {
 	// System.Int32 Mono.Xml.Schema.XsdKeyEntry::StartDepth
 	int32_t ___StartDepth_0;
@@ -18,11 +18,11 @@ struct  XsdKeyEntry_t3409  : public Object_t
 	// System.Boolean Mono.Xml.Schema.XsdKeyEntry::SelectorHasLineInfo
 	bool ___SelectorHasLineInfo_3;
 	// Mono.Xml.Schema.XsdKeyEntryFieldCollection Mono.Xml.Schema.XsdKeyEntry::KeyFields
-	XsdKeyEntryFieldCollection_t3412 * ___KeyFields_4;
+	XsdKeyEntryFieldCollection_t3415 * ___KeyFields_4;
 	// System.Boolean Mono.Xml.Schema.XsdKeyEntry::KeyRefFound
 	bool ___KeyRefFound_5;
 	// Mono.Xml.Schema.XsdKeyTable Mono.Xml.Schema.XsdKeyEntry::OwnerSequence
-	XsdKeyTable_t3413 * ___OwnerSequence_6;
+	XsdKeyTable_t3416 * ___OwnerSequence_6;
 	// System.Boolean Mono.Xml.Schema.XsdKeyEntry::keyFound
 	bool ___keyFound_7;
 };

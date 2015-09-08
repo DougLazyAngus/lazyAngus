@@ -5,13 +5,13 @@ struct String_t;
 // System.Type
 struct Type_t;
 // System.Configuration.ConfigInfo
-struct ConfigInfo_t3301;
+struct ConfigInfo_t3304;
 // System.Configuration.Internal.IInternalConfigHost
-struct IInternalConfigHost_t3302;
+struct IInternalConfigHost_t3305;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Configuration.ConfigInfo
-struct  ConfigInfo_t3301  : public Object_t
+struct  ConfigInfo_t3304  : public Object_t
 {
 	// System.String System.Configuration.ConfigInfo::Name
 	String_t* ___Name_0;
@@ -22,7 +22,7 @@ struct  ConfigInfo_t3301  : public Object_t
 	// System.String System.Configuration.ConfigInfo::streamName
 	String_t* ___streamName_3;
 	// System.Configuration.ConfigInfo System.Configuration.ConfigInfo::Parent
-	ConfigInfo_t3301 * ___Parent_4;
+	ConfigInfo_t3304 * ___Parent_4;
 	// System.Configuration.Internal.IInternalConfigHost System.Configuration.ConfigInfo::ConfigHost
 	Object_t * ___ConfigHost_5;
 };

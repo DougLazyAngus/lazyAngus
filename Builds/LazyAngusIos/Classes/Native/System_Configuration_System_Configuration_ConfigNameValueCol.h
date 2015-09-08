@@ -3,7 +3,7 @@
 // System.Collections.Specialized.NameValueCollection
 #include "System_System_Collections_Specialized_NameValueCollection.h"
 // System.Configuration.ConfigNameValueCollection
-struct  ConfigNameValueCollection_t3299  : public NameValueCollection_t3300
+struct  ConfigNameValueCollection_t3302  : public NameValueCollection_t3303
 {
 	// System.Boolean System.Configuration.ConfigNameValueCollection::modified
 	bool ___modified_12;

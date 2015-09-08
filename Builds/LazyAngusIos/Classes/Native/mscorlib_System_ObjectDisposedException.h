@@ -5,7 +5,7 @@ struct String_t;
 // System.InvalidOperationException
 #include "mscorlib_System_InvalidOperationException.h"
 // System.ObjectDisposedException
-struct  ObjectDisposedException_t3261  : public InvalidOperationException_t1447
+struct  ObjectDisposedException_t3264  : public InvalidOperationException_t1450
 {
 	// System.String System.ObjectDisposedException::obj_name
 	String_t* ___obj_name_12;

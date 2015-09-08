@@ -3,7 +3,7 @@
 // System.Object
 struct Object_t;
 // Parse.ParseObject
-struct ParseObject_t1239;
+struct ParseObject_t1242;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct AsyncCallback_t386;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`2<Parse.ParseObject,System.Object>
-struct  Func_2_t6746  : public MulticastDelegate_t388
+struct  Func_2_t6751  : public MulticastDelegate_t388
 {
 };

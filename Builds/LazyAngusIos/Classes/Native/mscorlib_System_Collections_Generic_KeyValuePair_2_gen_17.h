@@ -7,10 +7,10 @@
 // System.TimeZoneInfo/TimeType
 #include "System_Core_System_TimeZoneInfo_TimeType.h"
 // System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>
-struct  KeyValuePair_2_t3796 
+struct  KeyValuePair_2_t3799 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>::key
 	DateTime_t287  ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>::value
-	TimeType_t3752  ___value_1;
+	TimeType_t3755  ___value_1;
 };

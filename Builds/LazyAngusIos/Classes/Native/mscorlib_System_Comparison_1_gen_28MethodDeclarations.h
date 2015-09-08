@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Comparison`1<MouseSinkController/MouseHoleLocation>
-struct Comparison_1_t6300;
+struct Comparison_1_t6304;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Comparison`1<MouseSinkController/MouseHoleLocation>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Int32>
 #include "mscorlib_System_Comparison_1_gen_22MethodDeclarations.h"
-#define Comparison_1__ctor_m31832(__this, ___object, ___method, method) (( void (*) (Comparison_1_t6300 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m31033_gshared)(__this, ___object, ___method, method)
+#define Comparison_1__ctor_m31838(__this, ___object, ___method, method) (( void (*) (Comparison_1_t6304 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m31033_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<MouseSinkController/MouseHoleLocation>::Invoke(T,T)
-#define Comparison_1_Invoke_m31833(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t6300 *, int32_t, int32_t, const MethodInfo*))Comparison_1_Invoke_m31034_gshared)(__this, ___x, ___y, method)
+#define Comparison_1_Invoke_m31839(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t6304 *, int32_t, int32_t, const MethodInfo*))Comparison_1_Invoke_m31034_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<MouseSinkController/MouseHoleLocation>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m31834(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t6300 *, int32_t, int32_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m31035_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+#define Comparison_1_BeginInvoke_m31840(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t6304 *, int32_t, int32_t, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m31035_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<MouseSinkController/MouseHoleLocation>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m31835(__this, ___result, method) (( int32_t (*) (Comparison_1_t6300 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m31036_gshared)(__this, ___result, method)
+#define Comparison_1_EndInvoke_m31841(__this, ___result, method) (( int32_t (*) (Comparison_1_t6304 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m31036_gshared)(__this, ___result, method)

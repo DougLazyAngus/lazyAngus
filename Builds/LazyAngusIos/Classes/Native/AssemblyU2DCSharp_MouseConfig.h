@@ -1,15 +1,15 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Single[]
-struct SingleU5BU5D_t588;
+struct SingleU5BU5D_t589;
 // UnityEngine.GameObject
 struct GameObject_t352;
 // MouseTypeDesc[]
-struct MouseTypeDescU5BU5D_t600;
+struct MouseTypeDescU5BU5D_t601;
 // MouseWiggleDesc[]
-struct MouseWiggleDescU5BU5D_t601;
+struct MouseWiggleDescU5BU5D_t602;
 // MouseConfig
-struct MouseConfig_t602;
+struct MouseConfig_t603;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Color
@@ -17,7 +17,7 @@ struct MouseConfig_t602;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // MouseConfig
-struct  MouseConfig_t602  : public MonoBehaviour_t13
+struct  MouseConfig_t603  : public MonoBehaviour_t13
 {
 	// System.Single MouseConfig::timeToTurn
 	float ___timeToTurn_2;
@@ -28,9 +28,9 @@ struct  MouseConfig_t602  : public MonoBehaviour_t13
 	// System.Single MouseConfig::startMouseRadius
 	float ___startMouseRadius_5;
 	// System.Single[] MouseConfig::speeds
-	SingleU5BU5D_t588* ___speeds_6;
+	SingleU5BU5D_t589* ___speeds_6;
 	// System.Single[] MouseConfig::scales
-	SingleU5BU5D_t588* ___scales_7;
+	SingleU5BU5D_t589* ___scales_7;
 	// UnityEngine.Color MouseConfig::poisonedColor
 	Color_t325  ___poisonedColor_8;
 	// UnityEngine.Color MouseConfig::fartedUponColor
@@ -64,11 +64,11 @@ struct  MouseConfig_t602  : public MonoBehaviour_t13
 	// System.Int32 MouseConfig::maxRDWiggleCycles
 	int32_t ___maxRDWiggleCycles_23;
 	// MouseTypeDesc[] MouseConfig::mouseDescs
-	MouseTypeDescU5BU5D_t600* ___mouseDescs_24;
+	MouseTypeDescU5BU5D_t601* ___mouseDescs_24;
 	// MouseWiggleDesc[] MouseConfig::mouseWiggleDescs
-	MouseWiggleDescU5BU5D_t601* ___mouseWiggleDescs_25;
+	MouseWiggleDescU5BU5D_t602* ___mouseWiggleDescs_25;
 };
-struct MouseConfig_t602_StaticFields{
+struct MouseConfig_t603_StaticFields{
 	// MouseConfig MouseConfig::instance
-	MouseConfig_t602 * ___instance_26;
+	MouseConfig_t603 * ___instance_26;
 };

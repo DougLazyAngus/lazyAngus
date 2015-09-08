@@ -7,11 +7,11 @@
 // System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>
 struct Dictionary_2_t44;
 // System.Collections.Generic.ICollection`1<System.String>
-struct ICollection_1_t1231;
+struct ICollection_1_t1234;
 // System.Collections.Generic.ICollection`1<SimpleJSON.JSONNode>
-struct ICollection_1_t9339;
+struct ICollection_1_t9344;
 // System.Collections.ICollection
-struct ICollection_t769;
+struct ICollection_t772;
 // System.Object
 struct Object_t;
 // SimpleJSON.JSONNode
@@ -21,23 +21,23 @@ struct String_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.String,SimpleJSON.JSONNode>
 struct KeyCollection_t77;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.String,SimpleJSON.JSONNode>
-struct ValueCollection_t6000;
+struct ValueCollection_t6003;
 // System.Collections.Generic.IEqualityComparer`1<System.String>
-struct IEqualityComparer_1_t5768;
+struct IEqualityComparer_1_t5771;
 // System.Collections.Generic.IDictionary`2<System.String,SimpleJSON.JSONNode>
-struct IDictionary_2_t9341;
+struct IDictionary_2_t9346;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2937;
+struct SerializationInfo_t2940;
 // System.Collections.Generic.KeyValuePair`2<System.String,SimpleJSON.JSONNode>[]
-struct KeyValuePair_2U5BU5D_t9342;
+struct KeyValuePair_2U5BU5D_t9347;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,SimpleJSON.JSONNode>>
-struct IEnumerator_1_t9343;
+struct IEnumerator_1_t9348;
 // System.Collections.IDictionaryEnumerator
-struct IDictionaryEnumerator_t799;
+struct IDictionaryEnumerator_t802;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,SimpleJSON.JSONNode>
@@ -60,7 +60,7 @@ struct IDictionaryEnumerator_t799;
 // System.Void System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>,System.Collections.Generic.IEqualityComparer`1<TKey>)
 #define Dictionary_2__ctor_m26155(__this, ___dictionary, ___comparer, method) (( void (*) (Dictionary_2_t44 *, Object_t*, Object_t*, const MethodInfo*))Dictionary_2__ctor_m26156_gshared)(__this, ___dictionary, ___comparer, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-#define Dictionary_2__ctor_m26157(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t44 *, SerializationInfo_t2937 *, StreamingContext_t2938 , const MethodInfo*))Dictionary_2__ctor_m26158_gshared)(__this, ___info, ___context, method)
+#define Dictionary_2__ctor_m26157(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t44 *, SerializationInfo_t2940 *, StreamingContext_t2941 , const MethodInfo*))Dictionary_2__ctor_m26158_gshared)(__this, ___info, ___context, method)
 // System.Collections.Generic.ICollection`1<TKey> System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys()
 #define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m26159(__this, method) (( Object_t* (*) (Dictionary_2_t44 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m26160_gshared)(__this, method)
 // System.Collections.Generic.ICollection`1<TValue> System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Values()
@@ -90,7 +90,7 @@ struct IDictionaryEnumerator_t799;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
 #define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m26185(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t44 *, KeyValuePair_2_t41 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m26186_gshared)(__this, ___keyValuePair, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m26187(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t44 *, KeyValuePair_2U5BU5D_t9342*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m26188_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m26187(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t44 *, KeyValuePair_2U5BU5D_t9347*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m26188_gshared)(__this, ___array, ___index, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
 #define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m26189(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t44 *, KeyValuePair_2_t41 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m26190_gshared)(__this, ___keyValuePair, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
@@ -120,7 +120,7 @@ struct IDictionaryEnumerator_t799;
 // TValue System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::pick_value(TKey,TValue)
 #define Dictionary_2_pick_value_m26215(__this /* static, unused */, ___key, ___value, method) (( JSONNode_t29 * (*) (Object_t * /* static, unused */, String_t*, JSONNode_t29 *, const MethodInfo*))Dictionary_2_pick_value_m26216_gshared)(__this /* static, unused */, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-#define Dictionary_2_CopyTo_m26217(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t44 *, KeyValuePair_2U5BU5D_t9342*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m26218_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_CopyTo_m26217(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t44 *, KeyValuePair_2U5BU5D_t9347*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m26218_gshared)(__this, ___array, ___index, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::Resize()
 #define Dictionary_2_Resize_m26219(__this, method) (( void (*) (Dictionary_2_t44 *, const MethodInfo*))Dictionary_2_Resize_m26220_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::Add(TKey,TValue)
@@ -132,7 +132,7 @@ struct IDictionaryEnumerator_t799;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::ContainsValue(TValue)
 #define Dictionary_2_ContainsValue_m26227(__this, ___value, method) (( bool (*) (Dictionary_2_t44 *, JSONNode_t29 *, const MethodInfo*))Dictionary_2_ContainsValue_m26228_gshared)(__this, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-#define Dictionary_2_GetObjectData_m26229(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t44 *, SerializationInfo_t2937 *, StreamingContext_t2938 , const MethodInfo*))Dictionary_2_GetObjectData_m26230_gshared)(__this, ___info, ___context, method)
+#define Dictionary_2_GetObjectData_m26229(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t44 *, SerializationInfo_t2940 *, StreamingContext_t2941 , const MethodInfo*))Dictionary_2_GetObjectData_m26230_gshared)(__this, ___info, ___context, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::OnDeserialization(System.Object)
 #define Dictionary_2_OnDeserialization_m26231(__this, ___sender, method) (( void (*) (Dictionary_2_t44 *, Object_t *, const MethodInfo*))Dictionary_2_OnDeserialization_m26232_gshared)(__this, ___sender, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::Remove(TKey)
@@ -142,7 +142,7 @@ struct IDictionaryEnumerator_t799;
 // System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::get_Keys()
 #define Dictionary_2_get_Keys_m451(__this, method) (( KeyCollection_t77 * (*) (Dictionary_2_t44 *, const MethodInfo*))Dictionary_2_get_Keys_m26237_gshared)(__this, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::get_Values()
-#define Dictionary_2_get_Values_m26238(__this, method) (( ValueCollection_t6000 * (*) (Dictionary_2_t44 *, const MethodInfo*))Dictionary_2_get_Values_m26239_gshared)(__this, method)
+#define Dictionary_2_get_Values_m26238(__this, method) (( ValueCollection_t6003 * (*) (Dictionary_2_t44 *, const MethodInfo*))Dictionary_2_get_Values_m26239_gshared)(__this, method)
 // TKey System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::ToTKey(System.Object)
 #define Dictionary_2_ToTKey_m26240(__this, ___key, method) (( String_t* (*) (Dictionary_2_t44 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m26241_gshared)(__this, ___key, method)
 // TValue System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::ToTValue(System.Object)
@@ -152,4 +152,4 @@ struct IDictionaryEnumerator_t799;
 // System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::GetEnumerator()
 #define Dictionary_2_GetEnumerator_m435(__this, method) (( Enumerator_t40  (*) (Dictionary_2_t44 *, const MethodInfo*))Dictionary_2_GetEnumerator_m26246_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2<System.String,SimpleJSON.JSONNode>::<CopyTo>m__2(TKey,TValue)
-#define Dictionary_2_U3CCopyToU3Em__2_m26247(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2157  (*) (Object_t * /* static, unused */, String_t*, JSONNode_t29 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__2_m26248_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_U3CCopyToU3Em__2_m26247(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2160  (*) (Object_t * /* static, unused */, String_t*, JSONNode_t29 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__2_m26248_gshared)(__this /* static, unused */, ___key, ___value, method)

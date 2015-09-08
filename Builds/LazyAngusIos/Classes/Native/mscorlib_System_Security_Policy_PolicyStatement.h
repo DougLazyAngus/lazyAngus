@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.PermissionSet
-struct PermissionSet_t4834;
+struct PermissionSet_t4837;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Policy.PolicyStatementAttribute
 #include "mscorlib_System_Security_Policy_PolicyStatementAttribute.h"
 // System.Security.Policy.PolicyStatement
-struct  PolicyStatement_t5323  : public Object_t
+struct  PolicyStatement_t5326  : public Object_t
 {
 	// System.Security.PermissionSet System.Security.Policy.PolicyStatement::perms
-	PermissionSet_t4834 * ___perms_0;
+	PermissionSet_t4837 * ___perms_0;
 	// System.Security.Policy.PolicyStatementAttribute System.Security.Policy.PolicyStatement::attrs
 	int32_t ___attrs_1;
 };

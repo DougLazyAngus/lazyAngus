@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Char[]
-struct CharU5BU5D_t712;
+struct CharU5BU5D_t715;
 // System.IFormatProvider
-struct IFormatProvider_t5003;
+struct IFormatProvider_t5006;
 // System.IO.TextWriter
-struct TextWriter_t3559;
+struct TextWriter_t3562;
 // System.MarshalByRefObject
 #include "mscorlib_System_MarshalByRefObject.h"
 // System.IO.TextWriter
-struct  TextWriter_t3559  : public MarshalByRefObject_t4289
+struct  TextWriter_t3562  : public MarshalByRefObject_t4292
 {
 	// System.Char[] System.IO.TextWriter::CoreNewLine
-	CharU5BU5D_t712* ___CoreNewLine_1;
+	CharU5BU5D_t715* ___CoreNewLine_1;
 	// System.IFormatProvider System.IO.TextWriter::internalFormatProvider
 	Object_t * ___internalFormatProvider_2;
 };
-struct TextWriter_t3559_StaticFields{
+struct TextWriter_t3562_StaticFields{
 	// System.IO.TextWriter System.IO.TextWriter::Null
-	TextWriter_t3559 * ___Null_3;
+	TextWriter_t3562 * ___Null_3;
 };

@@ -9,7 +9,7 @@ struct Type_t;
 // System.Configuration.ConfigurationElementCollectionType
 #include "System_Configuration_System_Configuration_ConfigurationEleme.h"
 // System.Configuration.ConfigurationCollectionAttribute
-struct  ConfigurationCollectionAttribute_t3309  : public Attribute_t426
+struct  ConfigurationCollectionAttribute_t3312  : public Attribute_t426
 {
 	// System.String System.Configuration.ConfigurationCollectionAttribute::addItemName
 	String_t* ___addItemName_0;

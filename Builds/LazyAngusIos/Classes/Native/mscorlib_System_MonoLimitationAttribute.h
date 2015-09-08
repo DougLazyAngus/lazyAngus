@@ -3,6 +3,6 @@
 // System.MonoTODOAttribute
 #include "mscorlib_System_MonoTODOAttribute.h"
 // System.MonoLimitationAttribute
-struct  MonoLimitationAttribute_t4923  : public MonoTODOAttribute_t4921
+struct  MonoLimitationAttribute_t4926  : public MonoTODOAttribute_t4924
 {
 };

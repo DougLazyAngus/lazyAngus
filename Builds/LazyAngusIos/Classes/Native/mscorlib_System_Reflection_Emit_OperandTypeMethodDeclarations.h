@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.Emit.OperandType
-struct OperandType_t5078;
+struct OperandType_t5081;
 

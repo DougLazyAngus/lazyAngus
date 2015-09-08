@@ -14,19 +14,19 @@
 #include <assert.h>
 #include "stringLiterals.h"
 
-extern TypeInfo U3CModuleU3E_t3393_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t3396_il2cpp_TypeInfo;
 // <Module>
 #include "replacements_U3CModuleU3E.h"
-extern TypeInfo MSCompatUnicodeTable_t3394_il2cpp_TypeInfo;
+extern TypeInfo MSCompatUnicodeTable_t3397_il2cpp_TypeInfo;
 // Replacements.MSCompatUnicodeTable
 #include "replacements_Replacements_MSCompatUnicodeTable.h"
-extern TypeInfo TypeBuilder_t3395_il2cpp_TypeInfo;
+extern TypeInfo TypeBuilder_t3398_il2cpp_TypeInfo;
 // Replacements.TypeBuilder
 #include "replacements_Replacements_TypeBuilder.h"
-extern TypeInfo SecurityElement_t3396_il2cpp_TypeInfo;
+extern TypeInfo SecurityElement_t3399_il2cpp_TypeInfo;
 // Replacements.SecurityElement
 #include "replacements_Replacements_SecurityElement.h"
-extern TypeInfo RemotingServices_t3397_il2cpp_TypeInfo;
+extern TypeInfo RemotingServices_t3400_il2cpp_TypeInfo;
 // Replacements.RemotingServices
 #include "replacements_Replacements_RemotingServices.h"
 #include <map>
@@ -34,11 +34,11 @@ struct TypeInfo;
 struct MethodInfo;
 TypeInfo* g_replacements_Assembly_Types[6] = 
 {
-	&U3CModuleU3E_t3393_il2cpp_TypeInfo,
-	&MSCompatUnicodeTable_t3394_il2cpp_TypeInfo,
-	&TypeBuilder_t3395_il2cpp_TypeInfo,
-	&SecurityElement_t3396_il2cpp_TypeInfo,
-	&RemotingServices_t3397_il2cpp_TypeInfo,
+	&U3CModuleU3E_t3396_il2cpp_TypeInfo,
+	&MSCompatUnicodeTable_t3397_il2cpp_TypeInfo,
+	&TypeBuilder_t3398_il2cpp_TypeInfo,
+	&SecurityElement_t3399_il2cpp_TypeInfo,
+	&RemotingServices_t3400_il2cpp_TypeInfo,
 	NULL,
 };
 extern Il2CppImage g_replacements_dll_Image;

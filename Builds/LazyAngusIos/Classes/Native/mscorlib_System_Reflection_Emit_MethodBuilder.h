@@ -3,21 +3,21 @@
 // System.Type
 struct Type_t;
 // System.Type[]
-struct TypeU5BU5D_t1221;
+struct TypeU5BU5D_t1224;
 // System.String
 struct String_t;
 // System.Reflection.Emit.ILGenerator
-struct ILGenerator_t4553;
+struct ILGenerator_t4556;
 // System.Reflection.Emit.TypeBuilder
-struct TypeBuilder_t5052;
+struct TypeBuilder_t5055;
 // System.Reflection.Emit.ParameterBuilder[]
-struct ParameterBuilderU5BU5D_t5053;
+struct ParameterBuilderU5BU5D_t5056;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Reflection.Emit.GenericTypeParameterBuilder[]
-struct GenericTypeParameterBuilderU5BU5D_t5072;
+struct GenericTypeParameterBuilderU5BU5D_t5075;
 // System.Type[][]
-struct TypeU5BU5DU5BU5D_t5054;
+struct TypeU5BU5DU5BU5D_t5057;
 // System.Reflection.MethodInfo
 #include "mscorlib_System_Reflection_MethodInfo.h"
 // System.Reflection.MethodAttributes
@@ -27,12 +27,12 @@ struct TypeU5BU5DU5BU5D_t5054;
 // System.Reflection.CallingConventions
 #include "mscorlib_System_Reflection_CallingConventions.h"
 // System.Reflection.Emit.MethodBuilder
-struct  MethodBuilder_t5062  : public MethodInfo_t
+struct  MethodBuilder_t5065  : public MethodInfo_t
 {
 	// System.Type System.Reflection.Emit.MethodBuilder::rtype
 	Type_t * ___rtype_0;
 	// System.Type[] System.Reflection.Emit.MethodBuilder::parameters
-	TypeU5BU5D_t1221* ___parameters_1;
+	TypeU5BU5D_t1224* ___parameters_1;
 	// System.Reflection.MethodAttributes System.Reflection.Emit.MethodBuilder::attrs
 	int32_t ___attrs_2;
 	// System.Reflection.MethodImplAttributes System.Reflection.Emit.MethodBuilder::iattrs
@@ -42,11 +42,11 @@ struct  MethodBuilder_t5062  : public MethodInfo_t
 	// System.Int32 System.Reflection.Emit.MethodBuilder::table_idx
 	int32_t ___table_idx_5;
 	// System.Reflection.Emit.ILGenerator System.Reflection.Emit.MethodBuilder::ilgen
-	ILGenerator_t4553 * ___ilgen_6;
+	ILGenerator_t4556 * ___ilgen_6;
 	// System.Reflection.Emit.TypeBuilder System.Reflection.Emit.MethodBuilder::type
-	TypeBuilder_t5052 * ___type_7;
+	TypeBuilder_t5055 * ___type_7;
 	// System.Reflection.Emit.ParameterBuilder[] System.Reflection.Emit.MethodBuilder::pinfo
-	ParameterBuilderU5BU5D_t5053* ___pinfo_8;
+	ParameterBuilderU5BU5D_t5056* ___pinfo_8;
 	// System.Reflection.MethodInfo System.Reflection.Emit.MethodBuilder::override_method
 	MethodInfo_t * ___override_method_9;
 	// System.Reflection.CallingConventions System.Reflection.Emit.MethodBuilder::call_conv
@@ -54,13 +54,13 @@ struct  MethodBuilder_t5062  : public MethodInfo_t
 	// System.Boolean System.Reflection.Emit.MethodBuilder::init_locals
 	bool ___init_locals_11;
 	// System.Reflection.Emit.GenericTypeParameterBuilder[] System.Reflection.Emit.MethodBuilder::generic_params
-	GenericTypeParameterBuilderU5BU5D_t5072* ___generic_params_12;
+	GenericTypeParameterBuilderU5BU5D_t5075* ___generic_params_12;
 	// System.Type[] System.Reflection.Emit.MethodBuilder::returnModReq
-	TypeU5BU5D_t1221* ___returnModReq_13;
+	TypeU5BU5D_t1224* ___returnModReq_13;
 	// System.Type[] System.Reflection.Emit.MethodBuilder::returnModOpt
-	TypeU5BU5D_t1221* ___returnModOpt_14;
+	TypeU5BU5D_t1224* ___returnModOpt_14;
 	// System.Type[][] System.Reflection.Emit.MethodBuilder::paramModReq
-	TypeU5BU5DU5BU5D_t5054* ___paramModReq_15;
+	TypeU5BU5DU5BU5D_t5057* ___paramModReq_15;
 	// System.Type[][] System.Reflection.Emit.MethodBuilder::paramModOpt
-	TypeU5BU5DU5BU5D_t5054* ___paramModOpt_16;
+	TypeU5BU5DU5BU5D_t5057* ___paramModOpt_16;
 };

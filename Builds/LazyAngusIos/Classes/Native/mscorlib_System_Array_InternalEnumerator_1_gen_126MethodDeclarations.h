@@ -4,26 +4,30 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array/InternalEnumerator`1<System.ComponentModel.PropertyDescriptor>
-struct InternalEnumerator_1_t9220;
+// System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
+struct InternalEnumerator_1_t9203;
 // System.Object
 struct Object_t;
-// System.ComponentModel.PropertyDescriptor
-struct PropertyDescriptor_t4220;
 // System.Array
 struct Array_t;
+// System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_17.h"
 
-// System.Void System.Array/InternalEnumerator`1<System.ComponentModel.PropertyDescriptor>::.ctor(System.Array)
-// System.Array/InternalEnumerator`1<System.Object>
-#include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m68560(__this, ___array, method) (( void (*) (InternalEnumerator_1_t9220 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m25550_gshared)(__this, ___array, method)
-// System.Void System.Array/InternalEnumerator`1<System.ComponentModel.PropertyDescriptor>::System.Collections.IEnumerator.Reset()
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m68561(__this, method) (( void (*) (InternalEnumerator_1_t9220 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m25551_gshared)(__this, method)
-// System.Object System.Array/InternalEnumerator`1<System.ComponentModel.PropertyDescriptor>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m68562(__this, method) (( Object_t * (*) (InternalEnumerator_1_t9220 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m25552_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.ComponentModel.PropertyDescriptor>::Dispose()
-#define InternalEnumerator_1_Dispose_m68563(__this, method) (( void (*) (InternalEnumerator_1_t9220 *, const MethodInfo*))InternalEnumerator_1_Dispose_m25553_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.ComponentModel.PropertyDescriptor>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m68564(__this, method) (( bool (*) (InternalEnumerator_1_t9220 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m25554_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.ComponentModel.PropertyDescriptor>::get_Current()
-#define InternalEnumerator_1_get_Current_m68565(__this, method) (( PropertyDescriptor_t4220 * (*) (InternalEnumerator_1_t9220 *, const MethodInfo*))InternalEnumerator_1_get_Current_m25555_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::.ctor(System.Array)
+extern "C" void InternalEnumerator_1__ctor_m68229_gshared (InternalEnumerator_1_t9203 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m68229(__this, ___array, method) (( void (*) (InternalEnumerator_1_t9203 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m68229_gshared)(__this, ___array, method)
+// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IEnumerator.Reset()
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m68230_gshared (InternalEnumerator_1_t9203 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m68230(__this, method) (( void (*) (InternalEnumerator_1_t9203 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m68230_gshared)(__this, method)
+// System.Object System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m68231_gshared (InternalEnumerator_1_t9203 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m68231(__this, method) (( Object_t * (*) (InternalEnumerator_1_t9203 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m68231_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::Dispose()
+extern "C" void InternalEnumerator_1_Dispose_m68232_gshared (InternalEnumerator_1_t9203 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m68232(__this, method) (( void (*) (InternalEnumerator_1_t9203 *, const MethodInfo*))InternalEnumerator_1_Dispose_m68232_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::MoveNext()
+extern "C" bool InternalEnumerator_1_MoveNext_m68233_gshared (InternalEnumerator_1_t9203 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m68233(__this, method) (( bool (*) (InternalEnumerator_1_t9203 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m68233_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::get_Current()
+extern "C" KeyValuePair_2_t3799  InternalEnumerator_1_get_Current_m68234_gshared (InternalEnumerator_1_t9203 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m68234(__this, method) (( KeyValuePair_2_t3799  (*) (InternalEnumerator_1_t9203 *, const MethodInfo*))InternalEnumerator_1_get_Current_m68234_gshared)(__this, method)

@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.Internal.ReflectionHelpers
-struct ReflectionHelpers_t1227;
+struct ReflectionHelpers_t1230;
 // System.Collections.Generic.IEnumerable`1<System.Reflection.PropertyInfo>
-struct IEnumerable_1_t1396;
+struct IEnumerable_1_t1399;
 // System.Type
 struct Type_t;
 // System.Reflection.MethodInfo
@@ -15,26 +15,26 @@ struct MethodInfo_t;
 // System.String
 struct String_t;
 // System.Type[]
-struct TypeU5BU5D_t1221;
+struct TypeU5BU5D_t1224;
 // System.Collections.Generic.IEnumerable`1<System.Type>
-struct IEnumerable_1_t1397;
+struct IEnumerable_1_t1400;
 // System.Collections.Generic.IEnumerable`1<System.Reflection.ConstructorInfo>
-struct IEnumerable_1_t1398;
+struct IEnumerable_1_t1401;
 // System.Reflection.ConstructorInfo
-struct ConstructorInfo_t1399;
+struct ConstructorInfo_t1402;
 // System.Reflection.PropertyInfo
 struct PropertyInfo_t;
 // <>f__AnonymousType0`2<System.Reflection.ConstructorInfo,System.Reflection.ParameterInfo[]>
-struct U3CU3Ef__AnonymousType0_2_t1400;
+struct U3CU3Ef__AnonymousType0_2_t1403;
 // <>f__AnonymousType1`2<<>f__AnonymousType0`2<System.Reflection.ConstructorInfo,System.Reflection.ParameterInfo[]>,System.Collections.Generic.IEnumerable`1<System.Type>>
-struct U3CU3Ef__AnonymousType1_2_t1395;
+struct U3CU3Ef__AnonymousType1_2_t1398;
 // System.Reflection.ParameterInfo
-struct ParameterInfo_t1401;
+struct ParameterInfo_t1404;
 
 // System.Collections.Generic.IEnumerable`1<System.Reflection.PropertyInfo> Parse.Internal.ReflectionHelpers::GetProperties(System.Type)
 extern "C" Object_t* ReflectionHelpers_GetProperties_m6752 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo Parse.Internal.ReflectionHelpers::GetMethod(System.Type,System.String,System.Type[])
-extern "C" MethodInfo_t * ReflectionHelpers_GetMethod_m6753 (Object_t * __this /* static, unused */, Type_t * ___type, String_t* ___name, TypeU5BU5D_t1221* ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodInfo_t * ReflectionHelpers_GetMethod_m6753 (Object_t * __this /* static, unused */, Type_t * ___type, String_t* ___name, TypeU5BU5D_t1224* ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Parse.Internal.ReflectionHelpers::IsPrimitive(System.Type)
 extern "C" bool ReflectionHelpers_IsPrimitive_m6754 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IEnumerable`1<System.Type> Parse.Internal.ReflectionHelpers::GetInterfaces(System.Type)
@@ -44,18 +44,18 @@ extern "C" bool ReflectionHelpers_IsConstructedGenericType_m6756 (Object_t * __t
 // System.Collections.Generic.IEnumerable`1<System.Reflection.ConstructorInfo> Parse.Internal.ReflectionHelpers::GetConstructors(System.Type)
 extern "C" Object_t* ReflectionHelpers_GetConstructors_m6757 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type[] Parse.Internal.ReflectionHelpers::GetGenericTypeArguments(System.Type)
-extern "C" TypeU5BU5D_t1221* ReflectionHelpers_GetGenericTypeArguments_m6758 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TypeU5BU5D_t1224* ReflectionHelpers_GetGenericTypeArguments_m6758 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.ConstructorInfo Parse.Internal.ReflectionHelpers::FindConstructor(System.Type,System.Type[])
-extern "C" ConstructorInfo_t1399 * ReflectionHelpers_FindConstructor_m6759 (Object_t * __this /* static, unused */, Type_t * ___self, TypeU5BU5D_t1221* ___parameterTypes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ConstructorInfo_t1402 * ReflectionHelpers_FindConstructor_m6759 (Object_t * __this /* static, unused */, Type_t * ___self, TypeU5BU5D_t1224* ___parameterTypes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.PropertyInfo Parse.Internal.ReflectionHelpers::GetProperty(System.Type,System.String)
 extern "C" PropertyInfo_t * ReflectionHelpers_GetProperty_m6760 (Object_t * __this /* static, unused */, Type_t * ___type, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Parse.Internal.ReflectionHelpers::IsNullable(System.Type)
 extern "C" bool ReflectionHelpers_IsNullable_m6761 (Object_t * __this /* static, unused */, Type_t * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // <>f__AnonymousType0`2<System.Reflection.ConstructorInfo,System.Reflection.ParameterInfo[]> Parse.Internal.ReflectionHelpers::<FindConstructor>b__2(System.Reflection.ConstructorInfo)
-extern "C" U3CU3Ef__AnonymousType0_2_t1400 * ReflectionHelpers_U3CFindConstructorU3Eb__2_m6762 (Object_t * __this /* static, unused */, ConstructorInfo_t1399 * ___constructor, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" U3CU3Ef__AnonymousType0_2_t1403 * ReflectionHelpers_U3CFindConstructorU3Eb__2_m6762 (Object_t * __this /* static, unused */, ConstructorInfo_t1402 * ___constructor, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // <>f__AnonymousType1`2<<>f__AnonymousType0`2<System.Reflection.ConstructorInfo,System.Reflection.ParameterInfo[]>,System.Collections.Generic.IEnumerable`1<System.Type>> Parse.Internal.ReflectionHelpers::<FindConstructor>b__3(<>f__AnonymousType0`2<System.Reflection.ConstructorInfo,System.Reflection.ParameterInfo[]>)
-extern "C" U3CU3Ef__AnonymousType1_2_t1395 * ReflectionHelpers_U3CFindConstructorU3Eb__3_m6763 (Object_t * __this /* static, unused */, U3CU3Ef__AnonymousType0_2_t1400 * ___U3CU3Eh__TransparentIdentifier0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" U3CU3Ef__AnonymousType1_2_t1398 * ReflectionHelpers_U3CFindConstructorU3Eb__3_m6763 (Object_t * __this /* static, unused */, U3CU3Ef__AnonymousType0_2_t1403 * ___U3CU3Eh__TransparentIdentifier0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.ConstructorInfo Parse.Internal.ReflectionHelpers::<FindConstructor>b__6(<>f__AnonymousType1`2<<>f__AnonymousType0`2<System.Reflection.ConstructorInfo,System.Reflection.ParameterInfo[]>,System.Collections.Generic.IEnumerable`1<System.Type>>)
-extern "C" ConstructorInfo_t1399 * ReflectionHelpers_U3CFindConstructorU3Eb__6_m6764 (Object_t * __this /* static, unused */, U3CU3Ef__AnonymousType1_2_t1395 * ___U3CU3Eh__TransparentIdentifier1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ConstructorInfo_t1402 * ReflectionHelpers_U3CFindConstructorU3Eb__6_m6764 (Object_t * __this /* static, unused */, U3CU3Ef__AnonymousType1_2_t1398 * ___U3CU3Eh__TransparentIdentifier1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type Parse.Internal.ReflectionHelpers::<FindConstructor>b__4(System.Reflection.ParameterInfo)
-extern "C" Type_t * ReflectionHelpers_U3CFindConstructorU3Eb__4_m6765 (Object_t * __this /* static, unused */, ParameterInfo_t1401 * ___p, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * ReflectionHelpers_U3CFindConstructorU3Eb__4_m6765 (Object_t * __this /* static, unused */, ParameterInfo_t1404 * ___p, const MethodInfo* method) IL2CPP_METHOD_ATTR;

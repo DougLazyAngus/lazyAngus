@@ -3,11 +3,11 @@
 // System.String
 struct String_t;
 // System.Xml.XmlQualifiedName
-struct XmlQualifiedName_t3416;
+struct XmlQualifiedName_t3419;
 // System.Xml.Schema.XmlSchemaType
-struct XmlSchemaType_t3646;
+struct XmlSchemaType_t3649;
 // System.Xml.Schema.XmlSchemaDatatype
-struct XmlSchemaDatatype_t3470;
+struct XmlSchemaDatatype_t3473;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Xml.Schema.XmlSchemaAnnotated
@@ -15,7 +15,7 @@ struct Dictionary_2_t223;
 // System.Xml.Schema.XmlSchemaDerivationMethod
 #include "System_Xml_System_Xml_Schema_XmlSchemaDerivationMethod.h"
 // System.Xml.Schema.XmlSchemaType
-struct  XmlSchemaType_t3646  : public XmlSchemaAnnotated_t3629
+struct  XmlSchemaType_t3649  : public XmlSchemaAnnotated_t3632
 {
 	// System.Xml.Schema.XmlSchemaDerivationMethod System.Xml.Schema.XmlSchemaType::final
 	int32_t ___final_16;
@@ -26,19 +26,19 @@ struct  XmlSchemaType_t3646  : public XmlSchemaAnnotated_t3629
 	// System.Boolean System.Xml.Schema.XmlSchemaType::recursed
 	bool ___recursed_19;
 	// System.Xml.XmlQualifiedName System.Xml.Schema.XmlSchemaType::BaseSchemaTypeName
-	XmlQualifiedName_t3416 * ___BaseSchemaTypeName_20;
+	XmlQualifiedName_t3419 * ___BaseSchemaTypeName_20;
 	// System.Xml.Schema.XmlSchemaType System.Xml.Schema.XmlSchemaType::BaseXmlSchemaTypeInternal
-	XmlSchemaType_t3646 * ___BaseXmlSchemaTypeInternal_21;
+	XmlSchemaType_t3649 * ___BaseXmlSchemaTypeInternal_21;
 	// System.Xml.Schema.XmlSchemaDatatype System.Xml.Schema.XmlSchemaType::DatatypeInternal
-	XmlSchemaDatatype_t3470 * ___DatatypeInternal_22;
+	XmlSchemaDatatype_t3473 * ___DatatypeInternal_22;
 	// System.Xml.Schema.XmlSchemaDerivationMethod System.Xml.Schema.XmlSchemaType::resolvedDerivedBy
 	int32_t ___resolvedDerivedBy_23;
 	// System.Xml.Schema.XmlSchemaDerivationMethod System.Xml.Schema.XmlSchemaType::finalResolved
 	int32_t ___finalResolved_24;
 	// System.Xml.XmlQualifiedName System.Xml.Schema.XmlSchemaType::QNameInternal
-	XmlQualifiedName_t3416 * ___QNameInternal_25;
+	XmlQualifiedName_t3419 * ___QNameInternal_25;
 };
-struct XmlSchemaType_t3646_StaticFields{
+struct XmlSchemaType_t3649_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.Schema.XmlSchemaType::<>f__switch$map42
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map42_26;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.Schema.XmlSchemaType::<>f__switch$map43

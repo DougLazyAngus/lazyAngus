@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // PersistentStorage
-struct PersistentStorage_t625;
+struct PersistentStorage_t626;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PersistentStorage
-struct  PersistentStorage_t625  : public MonoBehaviour_t13
+struct  PersistentStorage_t626  : public MonoBehaviour_t13
 {
 };
-struct PersistentStorage_t625_StaticFields{
+struct PersistentStorage_t626_StaticFields{
 	// PersistentStorage PersistentStorage::instance
-	PersistentStorage_t625 * ___instance_2;
+	PersistentStorage_t626 * ___instance_2;
 };

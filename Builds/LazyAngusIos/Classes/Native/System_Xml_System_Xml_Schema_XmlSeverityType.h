@@ -5,7 +5,7 @@
 // System.Xml.Schema.XmlSeverityType
 #include "System_Xml_System_Xml_Schema_XmlSeverityType.h"
 // System.Xml.Schema.XmlSeverityType
-struct  XmlSeverityType_t3697 
+struct  XmlSeverityType_t3700 
 {
 	// System.Int32 System.Xml.Schema.XmlSeverityType::value__
 	int32_t ___value___1;

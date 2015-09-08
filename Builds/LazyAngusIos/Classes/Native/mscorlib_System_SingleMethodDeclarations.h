@@ -7,7 +7,7 @@
 // System.Single
 struct Single_t87;
 // System.IFormatProvider
-struct IFormatProvider_t5003;
+struct IFormatProvider_t5006;
 // System.Object
 struct Object_t;
 // System.Type
@@ -32,7 +32,7 @@ extern "C" uint16_t Single_System_IConvertible_ToChar_m18879 (float* __this, Obj
 // System.DateTime System.Single::System.IConvertible.ToDateTime(System.IFormatProvider)
 extern "C" DateTime_t287  Single_System_IConvertible_ToDateTime_m18880 (float* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Single::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t760  Single_System_IConvertible_ToDecimal_m18881 (float* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t763  Single_System_IConvertible_ToDecimal_m18881 (float* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Single::System.IConvertible.ToDouble(System.IFormatProvider)
 extern "C" double Single_System_IConvertible_ToDouble_m18882 (float* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Single::System.IConvertible.ToInt16(System.IFormatProvider)

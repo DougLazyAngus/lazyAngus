@@ -9,11 +9,11 @@ struct Exception_t57;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2937;
+struct SerializationInfo_t2940;
 // System.Text.StringBuilder
 struct StringBuilder_t261;
 // System.Reflection.MethodBase
-struct MethodBase_t1543;
+struct MethodBase_t1546;
 // System.Type
 struct Type_t;
 // System.Runtime.Serialization.StreamingContext
@@ -24,7 +24,7 @@ extern "C" void Exception__ctor_m7960 (Exception_t57 * __this, const MethodInfo*
 // System.Void System.Exception::.ctor(System.String)
 extern "C" void Exception__ctor_m416 (Exception_t57 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Exception::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void Exception__ctor_m10349 (Exception_t57 * __this, SerializationInfo_t2937 * ___info, StreamingContext_t2938  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Exception__ctor_m10349 (Exception_t57 * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Exception::.ctor(System.String,System.Exception)
 extern "C" void Exception__ctor_m7665 (Exception_t57 * __this, String_t* ___message, Exception_t57 * ___innerException, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Exception System.Exception::get_InnerException()
@@ -40,10 +40,10 @@ extern "C" String_t* Exception_get_Source_m8557 (Exception_t57 * __this, const M
 // System.String System.Exception::get_StackTrace()
 extern "C" String_t* Exception_get_StackTrace_m8558 (Exception_t57 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void Exception_GetObjectData_m8554 (Exception_t57 * __this, SerializationInfo_t2937 * ___info, StreamingContext_t2938  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Exception_GetObjectData_m8554 (Exception_t57 * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Exception::ToString()
 extern "C" String_t* Exception_ToString_m7964 (Exception_t57 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Exception::GetFullNameForStackTrace(System.Text.StringBuilder,System.Reflection.MethodBase)
-extern "C" void Exception_GetFullNameForStackTrace_m19266 (Exception_t57 * __this, StringBuilder_t261 * ___sb, MethodBase_t1543 * ___mi, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Exception_GetFullNameForStackTrace_m19266 (Exception_t57 * __this, StringBuilder_t261 * ___sb, MethodBase_t1546 * ___mi, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Exception::GetType()
 extern "C" Type_t * Exception_GetType_m8559 (Exception_t57 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

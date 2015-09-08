@@ -1,21 +1,21 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.Schema.XmlSchemaObjectCollection
-struct XmlSchemaObjectCollection_t3624;
+struct XmlSchemaObjectCollection_t3627;
 // System.String
 struct String_t;
 // System.Object
 struct Object_t;
 // System.Xml.Schema.XmlSchemaType
-struct XmlSchemaType_t3646;
+struct XmlSchemaType_t3649;
 // System.Xml.XmlQualifiedName
-struct XmlQualifiedName_t3416;
+struct XmlQualifiedName_t3419;
 // System.Xml.Schema.XmlSchema
-struct XmlSchema_t3625;
+struct XmlSchema_t3628;
 // System.Xml.Schema.XmlSchemaElement
-struct XmlSchemaElement_t3417;
+struct XmlSchemaElement_t3420;
 // System.Collections.ArrayList
-struct ArrayList_t713;
+struct ArrayList_t716;
 // System.Xml.Schema.XmlSchemaParticle
 #include "System_Xml_System_Xml_Schema_XmlSchemaParticle.h"
 // System.Xml.Schema.XmlSchemaDerivationMethod
@@ -23,18 +23,18 @@ struct ArrayList_t713;
 // System.Xml.Schema.XmlSchemaForm
 #include "System_Xml_System_Xml_Schema_XmlSchemaForm.h"
 // System.Xml.Schema.XmlSchemaElement
-struct  XmlSchemaElement_t3417  : public XmlSchemaParticle_t3630
+struct  XmlSchemaElement_t3420  : public XmlSchemaParticle_t3633
 {
 	// System.Xml.Schema.XmlSchemaDerivationMethod System.Xml.Schema.XmlSchemaElement::block
 	int32_t ___block_27;
 	// System.Xml.Schema.XmlSchemaObjectCollection System.Xml.Schema.XmlSchemaElement::constraints
-	XmlSchemaObjectCollection_t3624 * ___constraints_28;
+	XmlSchemaObjectCollection_t3627 * ___constraints_28;
 	// System.String System.Xml.Schema.XmlSchemaElement::defaultValue
 	String_t* ___defaultValue_29;
 	// System.Object System.Xml.Schema.XmlSchemaElement::elementType
 	Object_t * ___elementType_30;
 	// System.Xml.Schema.XmlSchemaType System.Xml.Schema.XmlSchemaElement::elementSchemaType
-	XmlSchemaType_t3646 * ___elementSchemaType_31;
+	XmlSchemaType_t3649 * ___elementSchemaType_31;
 	// System.Xml.Schema.XmlSchemaDerivationMethod System.Xml.Schema.XmlSchemaElement::final
 	int32_t ___final_32;
 	// System.String System.Xml.Schema.XmlSchemaElement::fixedValue
@@ -48,29 +48,29 @@ struct  XmlSchemaElement_t3417  : public XmlSchemaParticle_t3630
 	// System.String System.Xml.Schema.XmlSchemaElement::name
 	String_t* ___name_37;
 	// System.Xml.XmlQualifiedName System.Xml.Schema.XmlSchemaElement::refName
-	XmlQualifiedName_t3416 * ___refName_38;
+	XmlQualifiedName_t3419 * ___refName_38;
 	// System.Xml.Schema.XmlSchemaType System.Xml.Schema.XmlSchemaElement::schemaType
-	XmlSchemaType_t3646 * ___schemaType_39;
+	XmlSchemaType_t3649 * ___schemaType_39;
 	// System.Xml.XmlQualifiedName System.Xml.Schema.XmlSchemaElement::schemaTypeName
-	XmlQualifiedName_t3416 * ___schemaTypeName_40;
+	XmlQualifiedName_t3419 * ___schemaTypeName_40;
 	// System.Xml.XmlQualifiedName System.Xml.Schema.XmlSchemaElement::substitutionGroup
-	XmlQualifiedName_t3416 * ___substitutionGroup_41;
+	XmlQualifiedName_t3419 * ___substitutionGroup_41;
 	// System.Xml.Schema.XmlSchema System.Xml.Schema.XmlSchemaElement::schema
-	XmlSchema_t3625 * ___schema_42;
+	XmlSchema_t3628 * ___schema_42;
 	// System.Boolean System.Xml.Schema.XmlSchemaElement::parentIsSchema
 	bool ___parentIsSchema_43;
 	// System.Xml.XmlQualifiedName System.Xml.Schema.XmlSchemaElement::qName
-	XmlQualifiedName_t3416 * ___qName_44;
+	XmlQualifiedName_t3419 * ___qName_44;
 	// System.Xml.Schema.XmlSchemaDerivationMethod System.Xml.Schema.XmlSchemaElement::blockResolved
 	int32_t ___blockResolved_45;
 	// System.Xml.Schema.XmlSchemaDerivationMethod System.Xml.Schema.XmlSchemaElement::finalResolved
 	int32_t ___finalResolved_46;
 	// System.Xml.Schema.XmlSchemaElement System.Xml.Schema.XmlSchemaElement::referencedElement
-	XmlSchemaElement_t3417 * ___referencedElement_47;
+	XmlSchemaElement_t3420 * ___referencedElement_47;
 	// System.Collections.ArrayList System.Xml.Schema.XmlSchemaElement::substitutingElements
-	ArrayList_t713 * ___substitutingElements_48;
+	ArrayList_t716 * ___substitutingElements_48;
 	// System.Xml.Schema.XmlSchemaElement System.Xml.Schema.XmlSchemaElement::substitutionGroupElement
-	XmlSchemaElement_t3417 * ___substitutionGroupElement_49;
+	XmlSchemaElement_t3420 * ___substitutionGroupElement_49;
 	// System.Boolean System.Xml.Schema.XmlSchemaElement::actualIsAbstract
 	bool ___actualIsAbstract_50;
 	// System.Boolean System.Xml.Schema.XmlSchemaElement::actualIsNillable

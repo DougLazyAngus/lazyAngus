@@ -7,7 +7,7 @@ struct ByteU5BU5D_t66;
 // System.IO.Stream
 #include "mscorlib_System_IO_Stream.h"
 // Mono.Security.Protocol.Tls.TlsStream
-struct  TlsStream_t3194  : public Stream_t51
+struct  TlsStream_t3197  : public Stream_t51
 {
 	// System.Boolean Mono.Security.Protocol.Tls.TlsStream::canRead
 	bool ___canRead_2;

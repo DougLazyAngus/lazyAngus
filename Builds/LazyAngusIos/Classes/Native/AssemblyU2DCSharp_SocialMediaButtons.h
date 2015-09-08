@@ -5,7 +5,7 @@ struct Button_t501;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // SocialMediaButtons
-struct  SocialMediaButtons_t667  : public MonoBehaviour_t13
+struct  SocialMediaButtons_t670  : public MonoBehaviour_t13
 {
 	// UnityEngine.UI.Button SocialMediaButtons::fbButton
 	Button_t501 * ___fbButton_2;

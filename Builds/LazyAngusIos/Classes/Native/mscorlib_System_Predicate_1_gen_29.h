@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // MouseTrap
-struct MouseTrap_t610;
+struct MouseTrap_t611;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<MouseTrap>
-struct  Predicate_1_t6308  : public MulticastDelegate_t388
+struct  Predicate_1_t6312  : public MulticastDelegate_t388
 {
 };

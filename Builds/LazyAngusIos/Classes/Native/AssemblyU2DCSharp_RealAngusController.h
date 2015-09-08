@@ -3,30 +3,30 @@
 // UnityEngine.GameObject
 struct GameObject_t352;
 // RealAngusTextWidget
-struct RealAngusTextWidget_t638;
+struct RealAngusTextWidget_t641;
 // RealAngusSelectedButtonParent
-struct RealAngusSelectedButtonParent_t639;
+struct RealAngusSelectedButtonParent_t642;
 // UnityEngine.RectTransform
 struct RectTransform_t545;
 // RealAngusElementButton
-struct RealAngusElementButton_t640;
+struct RealAngusElementButton_t643;
 // System.Collections.Generic.List`1<RealAngusElementButton>
-struct List_1_t641;
+struct List_1_t644;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // RealAngusController
-struct  RealAngusController_t642  : public MonoBehaviour_t13
+struct  RealAngusController_t645  : public MonoBehaviour_t13
 {
 	// UnityEngine.GameObject RealAngusController::realAngusElementButtonPrototype
 	GameObject_t352 * ___realAngusElementButtonPrototype_2;
 	// UnityEngine.GameObject RealAngusController::parentScreen
 	GameObject_t352 * ___parentScreen_3;
 	// RealAngusTextWidget RealAngusController::realAngusTextWidget
-	RealAngusTextWidget_t638 * ___realAngusTextWidget_4;
+	RealAngusTextWidget_t641 * ___realAngusTextWidget_4;
 	// RealAngusSelectedButtonParent RealAngusController::realAngusSelectedButtonParent
-	RealAngusSelectedButtonParent_t639 * ___realAngusSelectedButtonParent_5;
+	RealAngusSelectedButtonParent_t642 * ___realAngusSelectedButtonParent_5;
 	// UnityEngine.GameObject RealAngusController::tipDialogPrototype
 	GameObject_t352 * ___tipDialogPrototype_6;
 	// System.Int32 RealAngusController::numColumns
@@ -48,7 +48,7 @@ struct  RealAngusController_t642  : public MonoBehaviour_t13
 	// UnityEngine.RectTransform RealAngusController::parentScreenRectTransform
 	RectTransform_t545 * ___parentScreenRectTransform_15;
 	// RealAngusElementButton RealAngusController::selectedButton
-	RealAngusElementButton_t640 * ___selectedButton_16;
+	RealAngusElementButton_t643 * ___selectedButton_16;
 	// UnityEngine.Vector2 RealAngusController::selectedButtonLocation
 	Vector2_t110  ___selectedButtonLocation_17;
 	// System.Single RealAngusController::selectedButtonScale
@@ -62,7 +62,7 @@ struct  RealAngusController_t642  : public MonoBehaviour_t13
 	// System.Single RealAngusController::buttonPanelHeight
 	float ___buttonPanelHeight_22;
 	// System.Collections.Generic.List`1<RealAngusElementButton> RealAngusController::buttons
-	List_1_t641 * ___buttons_23;
+	List_1_t644 * ___buttons_23;
 	// System.Single RealAngusController::columnWidth
 	float ___columnWidth_24;
 	// System.Single RealAngusController::rowHeight

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Replacements.SecurityElement
-struct SecurityElement_t3396;
+struct SecurityElement_t3399;
 // System.String
 struct String_t;
 // System.Object

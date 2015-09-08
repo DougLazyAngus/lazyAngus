@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Reflection.Assembly
-struct Assembly_t784;
+struct Assembly_t787;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Policy.Hash
-struct  Hash_t5334  : public Object_t
+struct  Hash_t5337  : public Object_t
 {
 	// System.Reflection.Assembly System.Security.Policy.Hash::assembly
-	Assembly_t784 * ___assembly_0;
+	Assembly_t787 * ___assembly_0;
 	// System.Byte[] System.Security.Policy.Hash::data
 	ByteU5BU5D_t66* ___data_1;
 };

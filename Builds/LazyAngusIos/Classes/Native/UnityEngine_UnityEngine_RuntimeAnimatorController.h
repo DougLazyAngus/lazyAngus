@@ -3,6 +3,6 @@
 // UnityEngine.Object
 #include "UnityEngine_UnityEngine_Object.h"
 // UnityEngine.RuntimeAnimatorController
-struct  RuntimeAnimatorController_t1102  : public Object_t718
+struct  RuntimeAnimatorController_t1105  : public Object_t721
 {
 };

@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.Resolution
-struct  Resolution_t2866 
+struct  Resolution_t2869 
 {
 	// System.Int32 UnityEngine.Resolution::m_Width
 	int32_t ___m_Width_0;

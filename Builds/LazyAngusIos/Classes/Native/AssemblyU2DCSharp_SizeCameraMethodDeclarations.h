@@ -7,14 +7,14 @@
 // SizeCamera
 struct SizeCamera_t519;
 // SizeCamera/CameraConfiguredHandler
-struct CameraConfiguredHandler_t660;
+struct CameraConfiguredHandler_t663;
 
 // System.Void SizeCamera::.ctor()
 extern "C" void SizeCamera__ctor_m3615 (SizeCamera_t519 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SizeCamera::add_CameraConfigured(SizeCamera/CameraConfiguredHandler)
-extern "C" void SizeCamera_add_CameraConfigured_m3616 (SizeCamera_t519 * __this, CameraConfiguredHandler_t660 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SizeCamera_add_CameraConfigured_m3616 (SizeCamera_t519 * __this, CameraConfiguredHandler_t663 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SizeCamera::remove_CameraConfigured(SizeCamera/CameraConfiguredHandler)
-extern "C" void SizeCamera_remove_CameraConfigured_m3617 (SizeCamera_t519 * __this, CameraConfiguredHandler_t660 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SizeCamera_remove_CameraConfigured_m3617 (SizeCamera_t519 * __this, CameraConfiguredHandler_t663 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single SizeCamera::get_finalActualWorldHalfHeight()
 extern "C" float SizeCamera_get_finalActualWorldHalfHeight_m3618 (SizeCamera_t519 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SizeCamera::set_finalActualWorldHalfHeight(System.Single)

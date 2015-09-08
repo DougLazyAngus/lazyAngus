@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ObsoleteAttribute
-struct ObsoleteAttribute_t822;
+struct ObsoleteAttribute_t825;
 // System.String
 struct String_t;
 
 // System.Void System.ObsoleteAttribute::.ctor()
-extern "C" void ObsoleteAttribute__ctor_m4644 (ObsoleteAttribute_t822 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObsoleteAttribute__ctor_m4644 (ObsoleteAttribute_t825 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ObsoleteAttribute::.ctor(System.String)
-extern "C" void ObsoleteAttribute__ctor_m4626 (ObsoleteAttribute_t822 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObsoleteAttribute__ctor_m4626 (ObsoleteAttribute_t825 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ObsoleteAttribute::.ctor(System.String,System.Boolean)
-extern "C" void ObsoleteAttribute__ctor_m6400 (ObsoleteAttribute_t822 * __this, String_t* ___message, bool ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObsoleteAttribute__ctor_m6400 (ObsoleteAttribute_t825 * __this, String_t* ___message, bool ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;

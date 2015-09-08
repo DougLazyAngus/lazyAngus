@@ -44,4 +44,4 @@ extern "C" Color_t325  Color_get_clear_m4085 (Object_t * __this /* static, unuse
 // UnityEngine.Color UnityEngine.Color::op_Multiply(UnityEngine.Color,System.Single)
 extern "C" Color_t325  Color_op_Multiply_m6291 (Object_t * __this /* static, unused */, Color_t325  ___a, float ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector4 UnityEngine.Color::op_Implicit(UnityEngine.Color)
-extern "C" Vector4_t1060  Color_op_Implicit_m9293 (Object_t * __this /* static, unused */, Color_t325  ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector4_t1063  Color_op_Implicit_m9293 (Object_t * __this /* static, unused */, Color_t325  ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;

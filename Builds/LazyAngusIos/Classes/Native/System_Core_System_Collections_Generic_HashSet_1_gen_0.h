@@ -3,24 +3,24 @@
 // System.Int32[]
 struct Int32U5BU5D_t484;
 // System.Collections.Generic.HashSet`1/Link<System.Object>[]
-struct LinkU5BU5D_t6512;
+struct LinkU5BU5D_t6517;
 // System.Object[]
-struct ObjectU5BU5D_t697;
+struct ObjectU5BU5D_t700;
 // System.Collections.Generic.IEqualityComparer`1<System.Object>
-struct IEqualityComparer_1_t1205;
+struct IEqualityComparer_1_t1208;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2937;
+struct SerializationInfo_t2940;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.HashSet`1<System.Object>
-struct  HashSet_1_t1485  : public Object_t
+struct  HashSet_1_t1488  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.HashSet`1<System.Object>::table
 	Int32U5BU5D_t484* ___table_0;
 	// System.Collections.Generic.HashSet`1/Link<T>[] System.Collections.Generic.HashSet`1<System.Object>::links
-	LinkU5BU5D_t6512* ___links_1;
+	LinkU5BU5D_t6517* ___links_1;
 	// T[] System.Collections.Generic.HashSet`1<System.Object>::slots
-	ObjectU5BU5D_t697* ___slots_2;
+	ObjectU5BU5D_t700* ___slots_2;
 	// System.Int32 System.Collections.Generic.HashSet`1<System.Object>::touched
 	int32_t ___touched_3;
 	// System.Int32 System.Collections.Generic.HashSet`1<System.Object>::empty_slot
@@ -32,7 +32,7 @@ struct  HashSet_1_t1485  : public Object_t
 	// System.Collections.Generic.IEqualityComparer`1<T> System.Collections.Generic.HashSet`1<System.Object>::comparer
 	Object_t* ___comparer_7;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.HashSet`1<System.Object>::si
-	SerializationInfo_t2937 * ___si_8;
+	SerializationInfo_t2940 * ___si_8;
 	// System.Int32 System.Collections.Generic.HashSet`1<System.Object>::generation
 	int32_t ___generation_9;
 };

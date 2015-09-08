@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.GC
-struct GC_t4886;
+struct GC_t4889;
 // System.Object
 struct Object_t;
 

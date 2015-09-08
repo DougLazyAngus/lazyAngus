@@ -11,25 +11,25 @@ struct Object_t;
 // GameAnalyticsSDK.Studio
 struct Studio_t489;
 // System.Collections.Generic.IEnumerable`1<GameAnalyticsSDK.Studio>
-struct IEnumerable_1_t9532;
+struct IEnumerable_1_t9537;
 // GameAnalyticsSDK.Studio[]
-struct StudioU5BU5D_t6227;
+struct StudioU5BU5D_t6230;
 // System.Collections.Generic.IEnumerator`1<GameAnalyticsSDK.Studio>
-struct IEnumerator_1_t9533;
+struct IEnumerator_1_t9538;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.ICollection`1<GameAnalyticsSDK.Studio>
-struct ICollection_1_t9534;
+struct ICollection_1_t9539;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<GameAnalyticsSDK.Studio>
-struct ReadOnlyCollection_1_t6229;
+struct ReadOnlyCollection_1_t6232;
 // System.Predicate`1<GameAnalyticsSDK.Studio>
-struct Predicate_1_t6230;
+struct Predicate_1_t6233;
 // System.Collections.Generic.IComparer`1<GameAnalyticsSDK.Studio>
-struct IComparer_1_t9535;
+struct IComparer_1_t9540;
 // System.Comparison`1<GameAnalyticsSDK.Studio>
-struct Comparison_1_t6232;
+struct Comparison_1_t6235;
 // System.Collections.Generic.List`1/Enumerator<GameAnalyticsSDK.Studio>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_25.h"
 
@@ -42,7 +42,7 @@ struct Comparison_1_t6232;
 // System.Void System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::.ctor(System.Int32)
 #define List_1__ctor_m30733(__this, ___capacity, method) (( void (*) (List_1_t485 *, int32_t, const MethodInfo*))List_1__ctor_m25920_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::.ctor(T[],System.Int32)
-#define List_1__ctor_m30734(__this, ___data, ___size, method) (( void (*) (List_1_t485 *, StudioU5BU5D_t6227*, int32_t, const MethodInfo*))List_1__ctor_m25922_gshared)(__this, ___data, ___size, method)
+#define List_1__ctor_m30734(__this, ___data, ___size, method) (( void (*) (List_1_t485 *, StudioU5BU5D_t6230*, int32_t, const MethodInfo*))List_1__ctor_m25922_gshared)(__this, ___data, ___size, method)
 // System.Void System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::.cctor()
 #define List_1__cctor_m30735(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m25924_gshared)(__this /* static, unused */, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
@@ -88,21 +88,21 @@ struct Comparison_1_t6232;
 // System.Void System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
 #define List_1_AddRange_m30756(__this, ___collection, method) (( void (*) (List_1_t485 *, Object_t*, const MethodInfo*))List_1_AddRange_m25950_gshared)(__this, ___collection, method)
 // System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::AsReadOnly()
-#define List_1_AsReadOnly_m30757(__this, method) (( ReadOnlyCollection_1_t6229 * (*) (List_1_t485 *, const MethodInfo*))List_1_AsReadOnly_m25952_gshared)(__this, method)
+#define List_1_AsReadOnly_m30757(__this, method) (( ReadOnlyCollection_1_t6232 * (*) (List_1_t485 *, const MethodInfo*))List_1_AsReadOnly_m25952_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::Clear()
 #define List_1_Clear_m30758(__this, method) (( void (*) (List_1_t485 *, const MethodInfo*))List_1_Clear_m10518_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::Contains(T)
 #define List_1_Contains_m30759(__this, ___item, method) (( bool (*) (List_1_t485 *, Studio_t489 *, const MethodInfo*))List_1_Contains_m10526_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::CopyTo(T[],System.Int32)
-#define List_1_CopyTo_m30760(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t485 *, StudioU5BU5D_t6227*, int32_t, const MethodInfo*))List_1_CopyTo_m10527_gshared)(__this, ___array, ___arrayIndex, method)
+#define List_1_CopyTo_m30760(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t485 *, StudioU5BU5D_t6230*, int32_t, const MethodInfo*))List_1_CopyTo_m10527_gshared)(__this, ___array, ___arrayIndex, method)
 // T System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::Find(System.Predicate`1<T>)
-#define List_1_Find_m30761(__this, ___match, method) (( Studio_t489 * (*) (List_1_t485 *, Predicate_1_t6230 *, const MethodInfo*))List_1_Find_m25957_gshared)(__this, ___match, method)
+#define List_1_Find_m30761(__this, ___match, method) (( Studio_t489 * (*) (List_1_t485 *, Predicate_1_t6233 *, const MethodInfo*))List_1_Find_m25957_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::CheckMatch(System.Predicate`1<T>)
-#define List_1_CheckMatch_m30762(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t6230 *, const MethodInfo*))List_1_CheckMatch_m25959_gshared)(__this /* static, unused */, ___match, method)
+#define List_1_CheckMatch_m30762(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t6233 *, const MethodInfo*))List_1_CheckMatch_m25959_gshared)(__this /* static, unused */, ___match, method)
 // System.Int32 System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
-#define List_1_GetIndex_m30763(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t485 *, int32_t, int32_t, Predicate_1_t6230 *, const MethodInfo*))List_1_GetIndex_m25961_gshared)(__this, ___startIndex, ___count, ___match, method)
+#define List_1_GetIndex_m30763(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t485 *, int32_t, int32_t, Predicate_1_t6233 *, const MethodInfo*))List_1_GetIndex_m25961_gshared)(__this, ___startIndex, ___count, ___match, method)
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::GetEnumerator()
-#define List_1_GetEnumerator_m30764(__this, method) (( Enumerator_t6231  (*) (List_1_t485 *, const MethodInfo*))List_1_GetEnumerator_m4029_gshared)(__this, method)
+#define List_1_GetEnumerator_m30764(__this, method) (( Enumerator_t6234  (*) (List_1_t485 *, const MethodInfo*))List_1_GetEnumerator_m4029_gshared)(__this, method)
 // System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::GetRange(System.Int32,System.Int32)
 #define List_1_GetRange_m30765(__this, ___index, ___count, method) (( List_1_t485 * (*) (List_1_t485 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m25963_gshared)(__this, ___index, ___count, method)
 // System.Int32 System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::IndexOf(T)
@@ -124,7 +124,7 @@ struct Comparison_1_t6232;
 // System.Boolean System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::Remove(T)
 #define List_1_Remove_m30774(__this, ___item, method) (( bool (*) (List_1_t485 *, Studio_t489 *, const MethodInfo*))List_1_Remove_m10528_gshared)(__this, ___item, method)
 // System.Int32 System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::RemoveAll(System.Predicate`1<T>)
-#define List_1_RemoveAll_m30775(__this, ___match, method) (( int32_t (*) (List_1_t485 *, Predicate_1_t6230 *, const MethodInfo*))List_1_RemoveAll_m25980_gshared)(__this, ___match, method)
+#define List_1_RemoveAll_m30775(__this, ___match, method) (( int32_t (*) (List_1_t485 *, Predicate_1_t6233 *, const MethodInfo*))List_1_RemoveAll_m25980_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::RemoveAt(System.Int32)
 #define List_1_RemoveAt_m30776(__this, ___index, method) (( void (*) (List_1_t485 *, int32_t, const MethodInfo*))List_1_RemoveAt_m10523_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::RemoveRange(System.Int32,System.Int32)
@@ -136,9 +136,9 @@ struct Comparison_1_t6232;
 // System.Void System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::Sort(System.Collections.Generic.IComparer`1<T>)
 #define List_1_Sort_m30780(__this, ___comparer, method) (( void (*) (List_1_t485 *, Object_t*, const MethodInfo*))List_1_Sort_m25989_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::Sort(System.Comparison`1<T>)
-#define List_1_Sort_m30781(__this, ___comparison, method) (( void (*) (List_1_t485 *, Comparison_1_t6232 *, const MethodInfo*))List_1_Sort_m25991_gshared)(__this, ___comparison, method)
+#define List_1_Sort_m30781(__this, ___comparison, method) (( void (*) (List_1_t485 *, Comparison_1_t6235 *, const MethodInfo*))List_1_Sort_m25991_gshared)(__this, ___comparison, method)
 // T[] System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::ToArray()
-#define List_1_ToArray_m30782(__this, method) (( StudioU5BU5D_t6227* (*) (List_1_t485 *, const MethodInfo*))List_1_ToArray_m25993_gshared)(__this, method)
+#define List_1_ToArray_m30782(__this, method) (( StudioU5BU5D_t6230* (*) (List_1_t485 *, const MethodInfo*))List_1_ToArray_m25993_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::TrimExcess()
 #define List_1_TrimExcess_m30783(__this, method) (( void (*) (List_1_t485 *, const MethodInfo*))List_1_TrimExcess_m25995_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.List`1<GameAnalyticsSDK.Studio>::get_Capacity()

@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.IDictionaryEnumerator
-struct IDictionaryEnumerator_t799;
+struct IDictionaryEnumerator_t802;
 // System.Collections.IEnumerable
 struct IEnumerable_t104;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.Schema.XmlSchemaObjectTable/XmlSchemaObjectTableEnumerator
-struct  XmlSchemaObjectTableEnumerator_t3676  : public Object_t
+struct  XmlSchemaObjectTableEnumerator_t3679  : public Object_t
 {
 	// System.Collections.IDictionaryEnumerator System.Xml.Schema.XmlSchemaObjectTable/XmlSchemaObjectTableEnumerator::xenum
 	Object_t * ___xenum_0;

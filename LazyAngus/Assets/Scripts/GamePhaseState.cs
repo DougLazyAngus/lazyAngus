@@ -14,10 +14,9 @@ public class GamePhaseState : MonoBehaviour {
 		PENDING,
 	};
 
-	public GamePhaseType gamePhase  { get; private set; }
-	public GamePhaseType previousGamePhase  { get; private set; }
-
-	private GamePhaseType pendingPhase;
+	public GamePhaseType gamePhase { get; private set; }
+	public GamePhaseType previousGamePhase { get; private set; }
+	public GamePhaseType pendingPhase { get; private set; }
 
 	private float pendingPhaseTimeout;
 	

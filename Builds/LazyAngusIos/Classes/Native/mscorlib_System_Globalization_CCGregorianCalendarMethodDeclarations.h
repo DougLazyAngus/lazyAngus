@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Globalization.CCGregorianCalendar
-struct CCGregorianCalendar_t4969;
+struct CCGregorianCalendar_t4972;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 

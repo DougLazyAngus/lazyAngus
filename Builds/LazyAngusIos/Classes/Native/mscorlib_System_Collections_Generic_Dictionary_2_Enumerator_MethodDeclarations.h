@@ -28,7 +28,7 @@ struct Dictionary_2_t44;
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJSON.JSONNode>::System.Collections.IEnumerator.Reset()
 #define Enumerator_System_Collections_IEnumerator_Reset_m26371(__this, method) (( void (*) (Enumerator_t40 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m26283_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJSON.JSONNode>::System.Collections.IDictionaryEnumerator.get_Entry()
-#define Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m26372(__this, method) (( DictionaryEntry_t2157  (*) (Enumerator_t40 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m26284_gshared)(__this, method)
+#define Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m26372(__this, method) (( DictionaryEntry_t2160  (*) (Enumerator_t40 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Entry_m26284_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJSON.JSONNode>::System.Collections.IDictionaryEnumerator.get_Key()
 #define Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m26373(__this, method) (( Object_t * (*) (Enumerator_t40 *, const MethodInfo*))Enumerator_System_Collections_IDictionaryEnumerator_get_Key_m26285_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJSON.JSONNode>::System.Collections.IDictionaryEnumerator.get_Value()

@@ -9,7 +9,7 @@ struct Object_t;
 // System.Configuration.ConfigurationPropertyOptions
 #include "System_Configuration_System_Configuration_ConfigurationPrope_0.h"
 // System.Configuration.ConfigurationPropertyAttribute
-struct  ConfigurationPropertyAttribute_t3331  : public Attribute_t426
+struct  ConfigurationPropertyAttribute_t3334  : public Attribute_t426
 {
 	// System.String System.Configuration.ConfigurationPropertyAttribute::name
 	String_t* ___name_0;

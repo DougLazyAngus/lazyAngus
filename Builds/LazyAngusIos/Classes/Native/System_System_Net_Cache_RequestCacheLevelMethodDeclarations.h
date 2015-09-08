@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Cache.RequestCacheLevel
-struct RequestCacheLevel_t4305;
+struct RequestCacheLevel_t4308;
 

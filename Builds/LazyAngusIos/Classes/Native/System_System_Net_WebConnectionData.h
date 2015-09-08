@@ -1,30 +1,30 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Net.HttpWebRequest
-struct HttpWebRequest_t3198;
+struct HttpWebRequest_t3201;
 // System.String
 struct String_t;
 // System.Net.WebHeaderCollection
-struct WebHeaderCollection_t4308;
+struct WebHeaderCollection_t4311;
 // System.Version
-struct Version_t1402;
+struct Version_t1405;
 // System.IO.Stream
 struct Stream_t51;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.WebConnectionData
-struct  WebConnectionData_t4421  : public Object_t
+struct  WebConnectionData_t4424  : public Object_t
 {
 	// System.Net.HttpWebRequest System.Net.WebConnectionData::request
-	HttpWebRequest_t3198 * ___request_0;
+	HttpWebRequest_t3201 * ___request_0;
 	// System.Int32 System.Net.WebConnectionData::StatusCode
 	int32_t ___StatusCode_1;
 	// System.String System.Net.WebConnectionData::StatusDescription
 	String_t* ___StatusDescription_2;
 	// System.Net.WebHeaderCollection System.Net.WebConnectionData::Headers
-	WebHeaderCollection_t4308 * ___Headers_3;
+	WebHeaderCollection_t4311 * ___Headers_3;
 	// System.Version System.Net.WebConnectionData::Version
-	Version_t1402 * ___Version_4;
+	Version_t1405 * ___Version_4;
 	// System.IO.Stream System.Net.WebConnectionData::stream
 	Stream_t51 * ___stream_5;
 	// System.String System.Net.WebConnectionData::Challenge

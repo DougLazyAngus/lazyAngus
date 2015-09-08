@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Threading.WaitHandle
-struct WaitHandle_t3253;
+struct WaitHandle_t3256;
 // System.Threading.WaitOrTimerCallback
-struct WaitOrTimerCallback_t5378;
+struct WaitOrTimerCallback_t5381;
 // System.Object
 struct Object_t;
 // System.Threading.ManualResetEvent
-struct ManualResetEvent_t3202;
+struct ManualResetEvent_t3205;
 // System.MarshalByRefObject
 #include "mscorlib_System_MarshalByRefObject.h"
 // System.TimeSpan
 #include "mscorlib_System_TimeSpan.h"
 // System.Threading.RegisteredWaitHandle
-struct  RegisteredWaitHandle_t5379  : public MarshalByRefObject_t4289
+struct  RegisteredWaitHandle_t5382  : public MarshalByRefObject_t4292
 {
 	// System.Threading.WaitHandle System.Threading.RegisteredWaitHandle::_waitObject
-	WaitHandle_t3253 * ____waitObject_1;
+	WaitHandle_t3256 * ____waitObject_1;
 	// System.Threading.WaitOrTimerCallback System.Threading.RegisteredWaitHandle::_callback
-	WaitOrTimerCallback_t5378 * ____callback_2;
+	WaitOrTimerCallback_t5381 * ____callback_2;
 	// System.TimeSpan System.Threading.RegisteredWaitHandle::_timeout
 	TimeSpan_t334  ____timeout_3;
 	// System.Object System.Threading.RegisteredWaitHandle::_state
@@ -26,9 +26,9 @@ struct  RegisteredWaitHandle_t5379  : public MarshalByRefObject_t4289
 	// System.Boolean System.Threading.RegisteredWaitHandle::_executeOnlyOnce
 	bool ____executeOnlyOnce_5;
 	// System.Threading.WaitHandle System.Threading.RegisteredWaitHandle::_finalEvent
-	WaitHandle_t3253 * ____finalEvent_6;
+	WaitHandle_t3256 * ____finalEvent_6;
 	// System.Threading.ManualResetEvent System.Threading.RegisteredWaitHandle::_cancelEvent
-	ManualResetEvent_t3202 * ____cancelEvent_7;
+	ManualResetEvent_t3205 * ____cancelEvent_7;
 	// System.Int32 System.Threading.RegisteredWaitHandle::_callsInProcess
 	int32_t ____callsInProcess_8;
 	// System.Boolean System.Threading.RegisteredWaitHandle::_unregistered

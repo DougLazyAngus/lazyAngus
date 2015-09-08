@@ -1,29 +1,29 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.Schema.XmlSchemaAttribute[]
-struct XmlSchemaAttributeU5BU5D_t3433;
+struct XmlSchemaAttributeU5BU5D_t3436;
 // System.Xml.XmlReader
-struct XmlReader_t3369;
+struct XmlReader_t3372;
 // System.Xml.XmlResolver
-struct XmlResolver_t3434;
+struct XmlResolver_t3437;
 // Mono.Xml.IHasXmlSchemaInfo
-struct IHasXmlSchemaInfo_t3435;
+struct IHasXmlSchemaInfo_t3438;
 // System.Xml.IXmlLineInfo
-struct IXmlLineInfo_t3374;
+struct IXmlLineInfo_t3377;
 // System.Xml.Schema.XmlSchemaSet
-struct XmlSchemaSet_t3436;
+struct XmlSchemaSet_t3439;
 // Mono.Xml.Schema.XsdIDManager
-struct XsdIDManager_t3437;
+struct XsdIDManager_t3440;
 // System.Collections.ArrayList
-struct ArrayList_t713;
+struct ArrayList_t716;
 // Mono.Xml.Schema.XsdParticleStateManager
-struct XsdParticleStateManager_t3419;
+struct XsdParticleStateManager_t3422;
 // System.Text.StringBuilder
 struct StringBuilder_t261;
 // System.Object
 struct Object_t;
 // System.Xml.Schema.ValidationEventHandler
-struct ValidationEventHandler_t3438;
+struct ValidationEventHandler_t3441;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Xml.XmlReader
@@ -31,12 +31,12 @@ struct Dictionary_2_t223;
 // System.Xml.ValidationType
 #include "System_Xml_System_Xml_ValidationType.h"
 // Mono.Xml.Schema.XsdValidatingReader
-struct  XsdValidatingReader_t3439  : public XmlReader_t3369
+struct  XsdValidatingReader_t3442  : public XmlReader_t3372
 {
 	// System.Xml.XmlReader Mono.Xml.Schema.XsdValidatingReader::reader
-	XmlReader_t3369 * ___reader_3;
+	XmlReader_t3372 * ___reader_3;
 	// System.Xml.XmlResolver Mono.Xml.Schema.XsdValidatingReader::resolver
-	XmlResolver_t3434 * ___resolver_4;
+	XmlResolver_t3437 * ___resolver_4;
 	// Mono.Xml.IHasXmlSchemaInfo Mono.Xml.Schema.XsdValidatingReader::sourceReaderSchemaInfo
 	Object_t * ___sourceReaderSchemaInfo_5;
 	// System.Xml.IXmlLineInfo Mono.Xml.Schema.XsdValidatingReader::readerLineInfo
@@ -44,7 +44,7 @@ struct  XsdValidatingReader_t3439  : public XmlReader_t3369
 	// System.Xml.ValidationType Mono.Xml.Schema.XsdValidatingReader::validationType
 	int32_t ___validationType_7;
 	// System.Xml.Schema.XmlSchemaSet Mono.Xml.Schema.XsdValidatingReader::schemas
-	XmlSchemaSet_t3436 * ___schemas_8;
+	XmlSchemaSet_t3439 * ___schemas_8;
 	// System.Boolean Mono.Xml.Schema.XsdValidatingReader::namespaces
 	bool ___namespaces_9;
 	// System.Boolean Mono.Xml.Schema.XsdValidatingReader::validationStarted
@@ -52,19 +52,19 @@ struct  XsdValidatingReader_t3439  : public XmlReader_t3369
 	// System.Boolean Mono.Xml.Schema.XsdValidatingReader::checkIdentity
 	bool ___checkIdentity_11;
 	// Mono.Xml.Schema.XsdIDManager Mono.Xml.Schema.XsdValidatingReader::idManager
-	XsdIDManager_t3437 * ___idManager_12;
+	XsdIDManager_t3440 * ___idManager_12;
 	// System.Boolean Mono.Xml.Schema.XsdValidatingReader::checkKeyConstraints
 	bool ___checkKeyConstraints_13;
 	// System.Collections.ArrayList Mono.Xml.Schema.XsdValidatingReader::keyTables
-	ArrayList_t713 * ___keyTables_14;
+	ArrayList_t716 * ___keyTables_14;
 	// System.Collections.ArrayList Mono.Xml.Schema.XsdValidatingReader::currentKeyFieldConsumers
-	ArrayList_t713 * ___currentKeyFieldConsumers_15;
+	ArrayList_t716 * ___currentKeyFieldConsumers_15;
 	// System.Collections.ArrayList Mono.Xml.Schema.XsdValidatingReader::tmpKeyrefPool
-	ArrayList_t713 * ___tmpKeyrefPool_16;
+	ArrayList_t716 * ___tmpKeyrefPool_16;
 	// System.Collections.ArrayList Mono.Xml.Schema.XsdValidatingReader::elementQNameStack
-	ArrayList_t713 * ___elementQNameStack_17;
+	ArrayList_t716 * ___elementQNameStack_17;
 	// Mono.Xml.Schema.XsdParticleStateManager Mono.Xml.Schema.XsdValidatingReader::state
-	XsdParticleStateManager_t3419 * ___state_18;
+	XsdParticleStateManager_t3422 * ___state_18;
 	// System.Int32 Mono.Xml.Schema.XsdValidatingReader::skipValidationDepth
 	int32_t ___skipValidationDepth_19;
 	// System.Int32 Mono.Xml.Schema.XsdValidatingReader::xsiNilDepth
@@ -74,21 +74,21 @@ struct  XsdValidatingReader_t3439  : public XmlReader_t3369
 	// System.Boolean Mono.Xml.Schema.XsdValidatingReader::shouldValidateCharacters
 	bool ___shouldValidateCharacters_22;
 	// System.Xml.Schema.XmlSchemaAttribute[] Mono.Xml.Schema.XsdValidatingReader::defaultAttributes
-	XmlSchemaAttributeU5BU5D_t3433* ___defaultAttributes_23;
+	XmlSchemaAttributeU5BU5D_t3436* ___defaultAttributes_23;
 	// System.Int32 Mono.Xml.Schema.XsdValidatingReader::currentDefaultAttribute
 	int32_t ___currentDefaultAttribute_24;
 	// System.Collections.ArrayList Mono.Xml.Schema.XsdValidatingReader::defaultAttributesCache
-	ArrayList_t713 * ___defaultAttributesCache_25;
+	ArrayList_t716 * ___defaultAttributesCache_25;
 	// System.Boolean Mono.Xml.Schema.XsdValidatingReader::defaultAttributeConsumed
 	bool ___defaultAttributeConsumed_26;
 	// System.Object Mono.Xml.Schema.XsdValidatingReader::currentAttrType
 	Object_t * ___currentAttrType_27;
 	// System.Xml.Schema.ValidationEventHandler Mono.Xml.Schema.XsdValidatingReader::ValidationEventHandler
-	ValidationEventHandler_t3438 * ___ValidationEventHandler_28;
+	ValidationEventHandler_t3441 * ___ValidationEventHandler_28;
 };
-struct XsdValidatingReader_t3439_StaticFields{
+struct XsdValidatingReader_t3442_StaticFields{
 	// System.Xml.Schema.XmlSchemaAttribute[] Mono.Xml.Schema.XsdValidatingReader::emptyAttributeArray
-	XmlSchemaAttributeU5BU5D_t3433* ___emptyAttributeArray_2;
+	XmlSchemaAttributeU5BU5D_t3436* ___emptyAttributeArray_2;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Xml.Schema.XsdValidatingReader::<>f__switch$map3
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map3_29;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Xml.Schema.XsdValidatingReader::<>f__switch$map4

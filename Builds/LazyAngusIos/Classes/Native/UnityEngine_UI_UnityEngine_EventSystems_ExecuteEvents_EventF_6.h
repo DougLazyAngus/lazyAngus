@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.EventSystems.IInitializePotentialDragHandler
-struct IInitializePotentialDragHandler_t1043;
+struct IInitializePotentialDragHandler_t1046;
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t860;
+struct BaseEventData_t863;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IInitializePotentialDragHandler>
-struct  EventFunction_1_t875  : public MulticastDelegate_t388
+struct  EventFunction_1_t878  : public MulticastDelegate_t388
 {
 };

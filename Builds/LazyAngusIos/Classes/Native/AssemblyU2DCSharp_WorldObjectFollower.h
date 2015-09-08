@@ -9,7 +9,7 @@ struct RectTransform_t545;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // WorldObjectFollower
-struct  WorldObjectFollower_t689  : public WorldRelativeGUIElement_t550
+struct  WorldObjectFollower_t692  : public WorldRelativeGUIElement_t550
 {
 	// UnityEngine.GameObject WorldObjectFollower::objectToFollow
 	GameObject_t352 * ___objectToFollow_7;

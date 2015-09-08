@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Xml.Serialization.XmlNamespaceDeclarationsAttribute
-struct  XmlNamespaceDeclarationsAttribute_t3713  : public Attribute_t426
+struct  XmlNamespaceDeclarationsAttribute_t3716  : public Attribute_t426
 {
 };

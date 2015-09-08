@@ -38,21 +38,21 @@ extern "C" Vector3_t538  Transform_get_eulerAngles_m4445 (Transform_t406 * __thi
 // UnityEngine.Vector3 UnityEngine.Transform::get_forward()
 extern "C" Vector3_t538  Transform_get_forward_m6111 (Transform_t406 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::INTERNAL_get_rotation(UnityEngine.Quaternion&)
-extern "C" void Transform_INTERNAL_get_rotation_m9588 (Transform_t406 * __this, Quaternion_t803 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Transform_INTERNAL_get_rotation_m9588 (Transform_t406 * __this, Quaternion_t806 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::INTERNAL_set_rotation(UnityEngine.Quaternion&)
-extern "C" void Transform_INTERNAL_set_rotation_m9589 (Transform_t406 * __this, Quaternion_t803 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Transform_INTERNAL_set_rotation_m9589 (Transform_t406 * __this, Quaternion_t806 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Quaternion UnityEngine.Transform::get_rotation()
-extern "C" Quaternion_t803  Transform_get_rotation_m4351 (Transform_t406 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Quaternion_t806  Transform_get_rotation_m4351 (Transform_t406 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::set_rotation(UnityEngine.Quaternion)
-extern "C" void Transform_set_rotation_m4309 (Transform_t406 * __this, Quaternion_t803  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Transform_set_rotation_m4309 (Transform_t406 * __this, Quaternion_t806  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::INTERNAL_get_localRotation(UnityEngine.Quaternion&)
-extern "C" void Transform_INTERNAL_get_localRotation_m9590 (Transform_t406 * __this, Quaternion_t803 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Transform_INTERNAL_get_localRotation_m9590 (Transform_t406 * __this, Quaternion_t806 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::INTERNAL_set_localRotation(UnityEngine.Quaternion&)
-extern "C" void Transform_INTERNAL_set_localRotation_m9591 (Transform_t406 * __this, Quaternion_t803 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Transform_INTERNAL_set_localRotation_m9591 (Transform_t406 * __this, Quaternion_t806 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Quaternion UnityEngine.Transform::get_localRotation()
-extern "C" Quaternion_t803  Transform_get_localRotation_m4443 (Transform_t406 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Quaternion_t806  Transform_get_localRotation_m4443 (Transform_t406 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::set_localRotation(UnityEngine.Quaternion)
-extern "C" void Transform_set_localRotation_m4374 (Transform_t406 * __this, Quaternion_t803  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Transform_set_localRotation_m4374 (Transform_t406 * __this, Quaternion_t806  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::INTERNAL_get_localScale(UnityEngine.Vector3&)
 extern "C" void Transform_INTERNAL_get_localScale_m9592 (Transform_t406 * __this, Vector3_t538 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::INTERNAL_set_localScale(UnityEngine.Vector3&)
@@ -74,9 +74,9 @@ extern "C" void Transform_SetParent_m4440 (Transform_t406 * __this, Transform_t4
 // System.Void UnityEngine.Transform::SetParent(UnityEngine.Transform,System.Boolean)
 extern "C" void Transform_SetParent_m4322 (Transform_t406 * __this, Transform_t406 * ___parent, bool ___worldPositionStays, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::INTERNAL_get_worldToLocalMatrix(UnityEngine.Matrix4x4&)
-extern "C" void Transform_INTERNAL_get_worldToLocalMatrix_m9596 (Transform_t406 * __this, Matrix4x4_t1101 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Transform_INTERNAL_get_worldToLocalMatrix_m9596 (Transform_t406 * __this, Matrix4x4_t1104 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Matrix4x4 UnityEngine.Transform::get_worldToLocalMatrix()
-extern "C" Matrix4x4_t1101  Transform_get_worldToLocalMatrix_m6274 (Transform_t406 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Matrix4x4_t1104  Transform_get_worldToLocalMatrix_m6274 (Transform_t406 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::Rotate(UnityEngine.Vector3)
 extern "C" void Transform_Rotate_m4468 (Transform_t406 * __this, Vector3_t538  ___eulerAngles, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::Rotate(UnityEngine.Vector3,UnityEngine.Space)

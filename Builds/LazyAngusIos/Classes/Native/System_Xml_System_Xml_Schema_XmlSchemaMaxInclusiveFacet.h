@@ -3,6 +3,6 @@
 // System.Xml.Schema.XmlSchemaFacet
 #include "System_Xml_System_Xml_Schema_XmlSchemaFacet.h"
 // System.Xml.Schema.XmlSchemaMaxInclusiveFacet
-struct  XmlSchemaMaxInclusiveFacet_t3668  : public XmlSchemaFacet_t3652
+struct  XmlSchemaMaxInclusiveFacet_t3671  : public XmlSchemaFacet_t3655
 {
 };

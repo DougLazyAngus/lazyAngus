@@ -1,30 +1,30 @@
 ﻿#pragma once
 #include <stdint.h>
 // Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32
-struct U3CU3Ec__DisplayClass32_t1276;
+struct U3CU3Ec__DisplayClass32_t1279;
 // Parse.ParseObject/<>c__DisplayClass30
-struct U3CU3Ec__DisplayClass30_t1277;
+struct U3CU3Ec__DisplayClass30_t1280;
 // System.Collections.Generic.List`1<Parse.ParseObject>
-struct List_1_t1282;
+struct List_1_t1285;
 // System.Func`2<Parse.ParseObject,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>
-struct Func_2_t1283;
+struct Func_2_t1286;
 // System.Func`2<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>,System.Object>
-struct Func_2_t1284;
+struct Func_2_t1287;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36
-struct  U3CU3Ec__DisplayClass36_t1275  : public Object_t
+struct  U3CU3Ec__DisplayClass36_t1278  : public Object_t
 {
 	// Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32 Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36::CS$<>8__locals33
-	U3CU3Ec__DisplayClass32_t1276 * ___CSU24U3CU3E8__locals33_0;
+	U3CU3Ec__DisplayClass32_t1279 * ___CSU24U3CU3E8__locals33_0;
 	// Parse.ParseObject/<>c__DisplayClass30 Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36::CS$<>8__locals31
-	U3CU3Ec__DisplayClass30_t1277 * ___CSU24U3CU3E8__locals31_1;
+	U3CU3Ec__DisplayClass30_t1280 * ___CSU24U3CU3E8__locals31_1;
 	// System.Collections.Generic.List`1<Parse.ParseObject> Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36::current
-	List_1_t1282 * ___current_2;
+	List_1_t1285 * ___current_2;
 };
-struct U3CU3Ec__DisplayClass36_t1275_StaticFields{
+struct U3CU3Ec__DisplayClass36_t1278_StaticFields{
 	// System.Func`2<Parse.ParseObject,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>> Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36::CS$<>9__CachedAnonymousMethodDelegate38
-	Func_2_t1283 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate38_3;
+	Func_2_t1286 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate38_3;
 	// System.Func`2<System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>,System.Object> Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36::CS$<>9__CachedAnonymousMethodDelegate39
-	Func_2_t1284 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate39_4;
+	Func_2_t1287 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate39_4;
 };

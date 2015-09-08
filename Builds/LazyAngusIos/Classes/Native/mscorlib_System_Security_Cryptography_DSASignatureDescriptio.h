@@ -3,6 +3,6 @@
 // System.Security.Cryptography.SignatureDescription
 #include "mscorlib_System_Security_Cryptography_SignatureDescription.h"
 // System.Security.Cryptography.DSASignatureDescription
-struct  DSASignatureDescription_t5285  : public SignatureDescription_t5284
+struct  DSASignatureDescription_t5288  : public SignatureDescription_t5287
 {
 };

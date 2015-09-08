@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Console/WindowsConsole
-struct WindowsConsole_t4852;
+struct WindowsConsole_t4855;
 
 // System.Int32 System.Console/WindowsConsole::GetConsoleCP()
 extern "C" int32_t WindowsConsole_GetConsoleCP_m20035 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

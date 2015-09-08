@@ -11,25 +11,25 @@ struct Object_t;
 // GADTestDevice
 struct GADTestDevice_t154;
 // System.Collections.Generic.IEnumerable`1<GADTestDevice>
-struct IEnumerable_1_t9399;
+struct IEnumerable_1_t9404;
 // GADTestDevice[]
-struct GADTestDeviceU5BU5D_t6057;
+struct GADTestDeviceU5BU5D_t6060;
 // System.Collections.Generic.IEnumerator`1<GADTestDevice>
-struct IEnumerator_1_t9400;
+struct IEnumerator_1_t9405;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.ICollection`1<GADTestDevice>
-struct ICollection_1_t9401;
+struct ICollection_1_t9406;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<GADTestDevice>
-struct ReadOnlyCollection_1_t6060;
+struct ReadOnlyCollection_1_t6063;
 // System.Predicate`1<GADTestDevice>
-struct Predicate_1_t6061;
+struct Predicate_1_t6064;
 // System.Collections.Generic.IComparer`1<GADTestDevice>
-struct IComparer_1_t9402;
+struct IComparer_1_t9407;
 // System.Comparison`1<GADTestDevice>
-struct Comparison_1_t6062;
+struct Comparison_1_t6065;
 // System.Collections.Generic.List`1/Enumerator<GADTestDevice>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_1.h"
 
@@ -42,7 +42,7 @@ struct Comparison_1_t6062;
 // System.Void System.Collections.Generic.List`1<GADTestDevice>::.ctor(System.Int32)
 #define List_1__ctor_m27609(__this, ___capacity, method) (( void (*) (List_1_t146 *, int32_t, const MethodInfo*))List_1__ctor_m25920_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.List`1<GADTestDevice>::.ctor(T[],System.Int32)
-#define List_1__ctor_m27610(__this, ___data, ___size, method) (( void (*) (List_1_t146 *, GADTestDeviceU5BU5D_t6057*, int32_t, const MethodInfo*))List_1__ctor_m25922_gshared)(__this, ___data, ___size, method)
+#define List_1__ctor_m27610(__this, ___data, ___size, method) (( void (*) (List_1_t146 *, GADTestDeviceU5BU5D_t6060*, int32_t, const MethodInfo*))List_1__ctor_m25922_gshared)(__this, ___data, ___size, method)
 // System.Void System.Collections.Generic.List`1<GADTestDevice>::.cctor()
 #define List_1__cctor_m27611(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))List_1__cctor_m25924_gshared)(__this /* static, unused */, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.List`1<GADTestDevice>::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
@@ -88,21 +88,21 @@ struct Comparison_1_t6062;
 // System.Void System.Collections.Generic.List`1<GADTestDevice>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
 #define List_1_AddRange_m27632(__this, ___collection, method) (( void (*) (List_1_t146 *, Object_t*, const MethodInfo*))List_1_AddRange_m25950_gshared)(__this, ___collection, method)
 // System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Collections.Generic.List`1<GADTestDevice>::AsReadOnly()
-#define List_1_AsReadOnly_m27633(__this, method) (( ReadOnlyCollection_1_t6060 * (*) (List_1_t146 *, const MethodInfo*))List_1_AsReadOnly_m25952_gshared)(__this, method)
+#define List_1_AsReadOnly_m27633(__this, method) (( ReadOnlyCollection_1_t6063 * (*) (List_1_t146 *, const MethodInfo*))List_1_AsReadOnly_m25952_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<GADTestDevice>::Clear()
 #define List_1_Clear_m27634(__this, method) (( void (*) (List_1_t146 *, const MethodInfo*))List_1_Clear_m10518_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1<GADTestDevice>::Contains(T)
 #define List_1_Contains_m27635(__this, ___item, method) (( bool (*) (List_1_t146 *, GADTestDevice_t154 *, const MethodInfo*))List_1_Contains_m10526_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.List`1<GADTestDevice>::CopyTo(T[],System.Int32)
-#define List_1_CopyTo_m27636(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t146 *, GADTestDeviceU5BU5D_t6057*, int32_t, const MethodInfo*))List_1_CopyTo_m10527_gshared)(__this, ___array, ___arrayIndex, method)
+#define List_1_CopyTo_m27636(__this, ___array, ___arrayIndex, method) (( void (*) (List_1_t146 *, GADTestDeviceU5BU5D_t6060*, int32_t, const MethodInfo*))List_1_CopyTo_m10527_gshared)(__this, ___array, ___arrayIndex, method)
 // T System.Collections.Generic.List`1<GADTestDevice>::Find(System.Predicate`1<T>)
-#define List_1_Find_m27637(__this, ___match, method) (( GADTestDevice_t154 * (*) (List_1_t146 *, Predicate_1_t6061 *, const MethodInfo*))List_1_Find_m25957_gshared)(__this, ___match, method)
+#define List_1_Find_m27637(__this, ___match, method) (( GADTestDevice_t154 * (*) (List_1_t146 *, Predicate_1_t6064 *, const MethodInfo*))List_1_Find_m25957_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<GADTestDevice>::CheckMatch(System.Predicate`1<T>)
-#define List_1_CheckMatch_m27638(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t6061 *, const MethodInfo*))List_1_CheckMatch_m25959_gshared)(__this /* static, unused */, ___match, method)
+#define List_1_CheckMatch_m27638(__this /* static, unused */, ___match, method) (( void (*) (Object_t * /* static, unused */, Predicate_1_t6064 *, const MethodInfo*))List_1_CheckMatch_m25959_gshared)(__this /* static, unused */, ___match, method)
 // System.Int32 System.Collections.Generic.List`1<GADTestDevice>::GetIndex(System.Int32,System.Int32,System.Predicate`1<T>)
-#define List_1_GetIndex_m27639(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t146 *, int32_t, int32_t, Predicate_1_t6061 *, const MethodInfo*))List_1_GetIndex_m25961_gshared)(__this, ___startIndex, ___count, ___match, method)
+#define List_1_GetIndex_m27639(__this, ___startIndex, ___count, ___match, method) (( int32_t (*) (List_1_t146 *, int32_t, int32_t, Predicate_1_t6064 *, const MethodInfo*))List_1_GetIndex_m25961_gshared)(__this, ___startIndex, ___count, ___match, method)
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<GADTestDevice>::GetEnumerator()
-#define List_1_GetEnumerator_m3933(__this, method) (( Enumerator_t741  (*) (List_1_t146 *, const MethodInfo*))List_1_GetEnumerator_m4029_gshared)(__this, method)
+#define List_1_GetEnumerator_m3933(__this, method) (( Enumerator_t744  (*) (List_1_t146 *, const MethodInfo*))List_1_GetEnumerator_m4029_gshared)(__this, method)
 // System.Collections.Generic.List`1<T> System.Collections.Generic.List`1<GADTestDevice>::GetRange(System.Int32,System.Int32)
 #define List_1_GetRange_m27640(__this, ___index, ___count, method) (( List_1_t146 * (*) (List_1_t146 *, int32_t, int32_t, const MethodInfo*))List_1_GetRange_m25963_gshared)(__this, ___index, ___count, method)
 // System.Int32 System.Collections.Generic.List`1<GADTestDevice>::IndexOf(T)
@@ -124,7 +124,7 @@ struct Comparison_1_t6062;
 // System.Boolean System.Collections.Generic.List`1<GADTestDevice>::Remove(T)
 #define List_1_Remove_m27649(__this, ___item, method) (( bool (*) (List_1_t146 *, GADTestDevice_t154 *, const MethodInfo*))List_1_Remove_m10528_gshared)(__this, ___item, method)
 // System.Int32 System.Collections.Generic.List`1<GADTestDevice>::RemoveAll(System.Predicate`1<T>)
-#define List_1_RemoveAll_m27650(__this, ___match, method) (( int32_t (*) (List_1_t146 *, Predicate_1_t6061 *, const MethodInfo*))List_1_RemoveAll_m25980_gshared)(__this, ___match, method)
+#define List_1_RemoveAll_m27650(__this, ___match, method) (( int32_t (*) (List_1_t146 *, Predicate_1_t6064 *, const MethodInfo*))List_1_RemoveAll_m25980_gshared)(__this, ___match, method)
 // System.Void System.Collections.Generic.List`1<GADTestDevice>::RemoveAt(System.Int32)
 #define List_1_RemoveAt_m27651(__this, ___index, method) (( void (*) (List_1_t146 *, int32_t, const MethodInfo*))List_1_RemoveAt_m10523_gshared)(__this, ___index, method)
 // System.Void System.Collections.Generic.List`1<GADTestDevice>::RemoveRange(System.Int32,System.Int32)
@@ -136,9 +136,9 @@ struct Comparison_1_t6062;
 // System.Void System.Collections.Generic.List`1<GADTestDevice>::Sort(System.Collections.Generic.IComparer`1<T>)
 #define List_1_Sort_m27655(__this, ___comparer, method) (( void (*) (List_1_t146 *, Object_t*, const MethodInfo*))List_1_Sort_m25989_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.List`1<GADTestDevice>::Sort(System.Comparison`1<T>)
-#define List_1_Sort_m27656(__this, ___comparison, method) (( void (*) (List_1_t146 *, Comparison_1_t6062 *, const MethodInfo*))List_1_Sort_m25991_gshared)(__this, ___comparison, method)
+#define List_1_Sort_m27656(__this, ___comparison, method) (( void (*) (List_1_t146 *, Comparison_1_t6065 *, const MethodInfo*))List_1_Sort_m25991_gshared)(__this, ___comparison, method)
 // T[] System.Collections.Generic.List`1<GADTestDevice>::ToArray()
-#define List_1_ToArray_m27657(__this, method) (( GADTestDeviceU5BU5D_t6057* (*) (List_1_t146 *, const MethodInfo*))List_1_ToArray_m25993_gshared)(__this, method)
+#define List_1_ToArray_m27657(__this, method) (( GADTestDeviceU5BU5D_t6060* (*) (List_1_t146 *, const MethodInfo*))List_1_ToArray_m25993_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1<GADTestDevice>::TrimExcess()
 #define List_1_TrimExcess_m27658(__this, method) (( void (*) (List_1_t146 *, const MethodInfo*))List_1_TrimExcess_m25995_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.List`1<GADTestDevice>::get_Capacity()

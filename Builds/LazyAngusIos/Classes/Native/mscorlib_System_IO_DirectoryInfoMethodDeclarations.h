@@ -9,7 +9,7 @@ struct DirectoryInfo_t64;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2937;
+struct SerializationInfo_t2940;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
@@ -18,7 +18,7 @@ extern "C" void DirectoryInfo__ctor_m21469 (DirectoryInfo_t64 * __this, String_t
 // System.Void System.IO.DirectoryInfo::.ctor(System.String,System.Boolean)
 extern "C" void DirectoryInfo__ctor_m21470 (DirectoryInfo_t64 * __this, String_t* ___path, bool ___simpleOriginalPath, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.DirectoryInfo::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void DirectoryInfo__ctor_m21471 (DirectoryInfo_t64 * __this, SerializationInfo_t2937 * ___info, StreamingContext_t2938  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DirectoryInfo__ctor_m21471 (DirectoryInfo_t64 * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.DirectoryInfo::Initialize()
 extern "C" void DirectoryInfo_Initialize_m21472 (DirectoryInfo_t64 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.IO.DirectoryInfo::get_Exists()

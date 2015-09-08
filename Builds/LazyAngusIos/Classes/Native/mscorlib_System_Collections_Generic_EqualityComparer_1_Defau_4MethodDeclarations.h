@@ -5,14 +5,14 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Int64>
-struct DefaultComparer_t6590;
+struct DefaultComparer_t6595;
 
 // System.Void System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Int64>::.ctor()
-extern "C" void DefaultComparer__ctor_m35922_gshared (DefaultComparer_t6590 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m35922(__this, method) (( void (*) (DefaultComparer_t6590 *, const MethodInfo*))DefaultComparer__ctor_m35922_gshared)(__this, method)
+extern "C" void DefaultComparer__ctor_m35934_gshared (DefaultComparer_t6595 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m35934(__this, method) (( void (*) (DefaultComparer_t6595 *, const MethodInfo*))DefaultComparer__ctor_m35934_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Int64>::GetHashCode(T)
-extern "C" int32_t DefaultComparer_GetHashCode_m35923_gshared (DefaultComparer_t6590 * __this, int64_t ___obj, const MethodInfo* method);
-#define DefaultComparer_GetHashCode_m35923(__this, ___obj, method) (( int32_t (*) (DefaultComparer_t6590 *, int64_t, const MethodInfo*))DefaultComparer_GetHashCode_m35923_gshared)(__this, ___obj, method)
+extern "C" int32_t DefaultComparer_GetHashCode_m35935_gshared (DefaultComparer_t6595 * __this, int64_t ___obj, const MethodInfo* method);
+#define DefaultComparer_GetHashCode_m35935(__this, ___obj, method) (( int32_t (*) (DefaultComparer_t6595 *, int64_t, const MethodInfo*))DefaultComparer_GetHashCode_m35935_gshared)(__this, ___obj, method)
 // System.Boolean System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Int64>::Equals(T,T)
-extern "C" bool DefaultComparer_Equals_m35924_gshared (DefaultComparer_t6590 * __this, int64_t ___x, int64_t ___y, const MethodInfo* method);
-#define DefaultComparer_Equals_m35924(__this, ___x, ___y, method) (( bool (*) (DefaultComparer_t6590 *, int64_t, int64_t, const MethodInfo*))DefaultComparer_Equals_m35924_gshared)(__this, ___x, ___y, method)
+extern "C" bool DefaultComparer_Equals_m35936_gshared (DefaultComparer_t6595 * __this, int64_t ___x, int64_t ___y, const MethodInfo* method);
+#define DefaultComparer_Equals_m35936(__this, ___x, ___y, method) (( bool (*) (DefaultComparer_t6595 *, int64_t, int64_t, const MethodInfo*))DefaultComparer_Equals_m35936_gshared)(__this, ___x, ___y, method)

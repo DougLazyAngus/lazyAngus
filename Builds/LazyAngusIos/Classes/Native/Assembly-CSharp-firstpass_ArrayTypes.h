@@ -3,6 +3,6 @@
 #include "mscorlib_System_Array.h"
 // SimpleJSON.JSONNode[]
 // SimpleJSON.JSONNode[]
-struct  JSONNodeU5BU5D_t5972  : public Array_t
+struct  JSONNodeU5BU5D_t5975  : public Array_t
 {
 };

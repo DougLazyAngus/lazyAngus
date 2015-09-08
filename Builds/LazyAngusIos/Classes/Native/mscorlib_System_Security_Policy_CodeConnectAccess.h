@@ -5,14 +5,14 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Policy.CodeConnectAccess
-struct  CodeConnectAccess_t5325  : public Object_t
+struct  CodeConnectAccess_t5328  : public Object_t
 {
 	// System.String System.Security.Policy.CodeConnectAccess::_scheme
 	String_t* ____scheme_4;
 	// System.Int32 System.Security.Policy.CodeConnectAccess::_port
 	int32_t ____port_5;
 };
-struct CodeConnectAccess_t5325_StaticFields{
+struct CodeConnectAccess_t5328_StaticFields{
 	// System.String System.Security.Policy.CodeConnectAccess::AnyScheme
 	String_t* ___AnyScheme_0;
 	// System.Int32 System.Security.Policy.CodeConnectAccess::DefaultPort

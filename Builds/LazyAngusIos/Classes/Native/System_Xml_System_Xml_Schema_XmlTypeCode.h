@@ -5,7 +5,7 @@
 // System.Xml.Schema.XmlTypeCode
 #include "System_Xml_System_Xml_Schema_XmlTypeCode.h"
 // System.Xml.Schema.XmlTypeCode
-struct  XmlTypeCode_t3702 
+struct  XmlTypeCode_t3705 
 {
 	// System.Int32 System.Xml.Schema.XmlTypeCode::value__
 	int32_t ___value___1;

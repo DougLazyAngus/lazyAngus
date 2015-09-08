@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Permissions.RegistryPermissionAccess
-struct RegistryPermissionAccess_t5310;
+struct RegistryPermissionAccess_t5313;
 

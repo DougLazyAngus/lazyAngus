@@ -15,11 +15,11 @@ struct Dictionary_2_t272;
 // System.Collections.Generic.List`1<System.String>
 struct List_1_t115;
 // System.Collections.Generic.List`1<FacebookUserInfo>
-struct List_1_t702;
+struct List_1_t705;
 // System.Collections.Generic.Dictionary`2<System.String,FBScore>
 struct Dictionary_2_t273;
 // System.Collections.Generic.List`1<FBScore>
-struct List_1_t703;
+struct List_1_t706;
 // System.Collections.Generic.List`1<FBAppRequest>
 struct List_1_t275;
 // UnityEngine.Texture2D
@@ -33,11 +33,11 @@ struct FBResult_t281;
 // Facebook.OGActionType
 struct OGActionType_t432;
 // System.Collections.Generic.List`1<System.Object>
-struct List_1_t699;
+struct List_1_t702;
 // FBScore
 struct FBScore_t293;
 // System.Collections.Generic.List`1<FBLikeInfo>
-struct List_1_t704;
+struct List_1_t707;
 // UnionAssets.FLE.CEvent
 struct CEvent_t133;
 // FBPostResult
@@ -90,9 +90,9 @@ extern "C" void SPFacebook_OnAppRequestCompleted_AndroidCB_m1472 (SPFacebook_t28
 // System.Void SPFacebook::AppRequest(System.String,Facebook.OGActionType,System.String,System.String[],System.String,System.String)
 extern "C" void SPFacebook_AppRequest_m1473 (SPFacebook_t282 * __this, String_t* ___message, OGActionType_t432 * ___actionType, String_t* ___objectId, StringU5BU5D_t75* ___to, String_t* ___data, String_t* ___title, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SPFacebook::AppRequest(System.String,Facebook.OGActionType,System.String,System.Collections.Generic.List`1<System.Object>,System.String[],System.Nullable`1<System.Int32>,System.String,System.String)
-extern "C" void SPFacebook_AppRequest_m1474 (SPFacebook_t282 * __this, String_t* ___message, OGActionType_t432 * ___actionType, String_t* ___objectId, List_1_t699 * ___filters, StringU5BU5D_t75* ___excludeIds, Nullable_1_t705  ___maxRecipients, String_t* ___data, String_t* ___title, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SPFacebook_AppRequest_m1474 (SPFacebook_t282 * __this, String_t* ___message, OGActionType_t432 * ___actionType, String_t* ___objectId, List_1_t702 * ___filters, StringU5BU5D_t75* ___excludeIds, Nullable_1_t708  ___maxRecipients, String_t* ___data, String_t* ___title, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SPFacebook::AppRequest(System.String,System.String[],System.Collections.Generic.List`1<System.Object>,System.String[],System.Nullable`1<System.Int32>,System.String,System.String)
-extern "C" void SPFacebook_AppRequest_m1475 (SPFacebook_t282 * __this, String_t* ___message, StringU5BU5D_t75* ___to, List_1_t699 * ___filters, StringU5BU5D_t75* ___excludeIds, Nullable_1_t705  ___maxRecipients, String_t* ___data, String_t* ___title, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SPFacebook_AppRequest_m1475 (SPFacebook_t282 * __this, String_t* ___message, StringU5BU5D_t75* ___to, List_1_t702 * ___filters, StringU5BU5D_t75* ___excludeIds, Nullable_1_t708  ___maxRecipients, String_t* ___data, String_t* ___title, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SPFacebook::LoadPendingRequests()
 extern "C" void SPFacebook_LoadPendingRequests_m1476 (SPFacebook_t282 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SPFacebook::OnRequestsLoadComplete(FBResult)
@@ -114,7 +114,7 @@ extern "C" void SPFacebook_LoadLikes_m1484 (SPFacebook_t282 * __this, String_t* 
 // System.Void SPFacebook::Pay(System.String,System.Int32)
 extern "C" void SPFacebook_Pay_m1485 (SPFacebook_t282 * __this, String_t* ___product, int32_t ___quantity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SPFacebook::Pay(System.String,System.String,System.Int32,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.String,System.String,System.String)
-extern "C" void SPFacebook_Pay_m1486 (SPFacebook_t282 * __this, String_t* ___product, String_t* ___action, int32_t ___quantity, Nullable_1_t705  ___quantityMin, Nullable_1_t705  ___quantityMax, String_t* ___requestId, String_t* ___pricepointId, String_t* ___testCurrency, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SPFacebook_Pay_m1486 (SPFacebook_t282 * __this, String_t* ___product, String_t* ___action, int32_t ___quantity, Nullable_1_t708  ___quantityMin, Nullable_1_t708  ___quantityMax, String_t* ___requestId, String_t* ___pricepointId, String_t* ___testCurrency, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // FBScore SPFacebook::GetCurrentPlayerScoreByAppId(System.String)
 extern "C" FBScore_t293 * SPFacebook_GetCurrentPlayerScoreByAppId_m1487 (SPFacebook_t282 * __this, String_t* ___appId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 SPFacebook::GetCurrentPlayerIntScoreByAppId(System.String)
@@ -124,7 +124,7 @@ extern "C" int32_t SPFacebook_GetScoreByUserId_m1489 (SPFacebook_t282 * __this, 
 // FBScore SPFacebook::GetScoreObjectByUserId(System.String)
 extern "C" FBScore_t293 * SPFacebook_GetScoreObjectByUserId_m1490 (SPFacebook_t282 * __this, String_t* ___userId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<FBLikeInfo> SPFacebook::GerUserLikesList(System.String)
-extern "C" List_1_t704 * SPFacebook_GerUserLikesList_m1491 (SPFacebook_t282 * __this, String_t* ___userId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t707 * SPFacebook_GerUserLikesList_m1491 (SPFacebook_t282 * __this, String_t* ___userId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean SPFacebook::IsUserLikesPage(System.String,System.String)
 extern "C" bool SPFacebook_IsUserLikesPage_m1492 (SPFacebook_t282 * __this, String_t* ___userId, String_t* ___pageId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean SPFacebook::get_IsInited()
@@ -142,13 +142,13 @@ extern "C" Dictionary_2_t272 * SPFacebook_get_friends_m1498 (SPFacebook_t282 * _
 // System.Collections.Generic.List`1<System.String> SPFacebook::get_friendsIds()
 extern "C" List_1_t115 * SPFacebook_get_friendsIds_m1499 (SPFacebook_t282 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<FacebookUserInfo> SPFacebook::get_friendsList()
-extern "C" List_1_t702 * SPFacebook_get_friendsList_m1500 (SPFacebook_t282 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t705 * SPFacebook_get_friendsList_m1500 (SPFacebook_t282 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.Dictionary`2<System.String,FBScore> SPFacebook::get_userScores()
 extern "C" Dictionary_2_t273 * SPFacebook_get_userScores_m1501 (SPFacebook_t282 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.Dictionary`2<System.String,FBScore> SPFacebook::get_appScores()
 extern "C" Dictionary_2_t273 * SPFacebook_get_appScores_m1502 (SPFacebook_t282 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<FBScore> SPFacebook::get_applicationScoreList()
-extern "C" List_1_t703 * SPFacebook_get_applicationScoreList_m1503 (SPFacebook_t282 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t706 * SPFacebook_get_applicationScoreList_m1503 (SPFacebook_t282 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<FBAppRequest> SPFacebook::get_AppRequests()
 extern "C" List_1_t275 * SPFacebook_get_AppRequests_m1504 (SPFacebook_t282 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SPFacebook::OnUserLikesResult(UnionAssets.FLE.CEvent)

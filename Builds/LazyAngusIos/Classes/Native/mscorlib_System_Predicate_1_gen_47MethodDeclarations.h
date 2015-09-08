@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Predicate`1<UnityEngine.RectTransform>
-struct Predicate_1_t6490;
+struct Predicate_1_t6495;
 // System.Object
 struct Object_t;
 // UnityEngine.RectTransform
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Predicate`1<UnityEngine.RectTransform>::.ctor(System.Object,System.IntPtr)
 // System.Predicate`1<System.Object>
 #include "mscorlib_System_Predicate_1_gen_3MethodDeclarations.h"
-#define Predicate_1__ctor_m34971(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6490 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m26073_gshared)(__this, ___object, ___method, method)
+#define Predicate_1__ctor_m34983(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6495 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m26073_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<UnityEngine.RectTransform>::Invoke(T)
-#define Predicate_1_Invoke_m34972(__this, ___obj, method) (( bool (*) (Predicate_1_t6490 *, RectTransform_t545 *, const MethodInfo*))Predicate_1_Invoke_m26074_gshared)(__this, ___obj, method)
+#define Predicate_1_Invoke_m34984(__this, ___obj, method) (( bool (*) (Predicate_1_t6495 *, RectTransform_t545 *, const MethodInfo*))Predicate_1_Invoke_m26074_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<UnityEngine.RectTransform>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m34973(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6490 *, RectTransform_t545 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m26075_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Predicate_1_BeginInvoke_m34985(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6495 *, RectTransform_t545 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m26075_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<UnityEngine.RectTransform>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m34974(__this, ___result, method) (( bool (*) (Predicate_1_t6490 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m26076_gshared)(__this, ___result, method)
+#define Predicate_1_EndInvoke_m34986(__this, ___result, method) (( bool (*) (Predicate_1_t6495 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m26076_gshared)(__this, ___result, method)

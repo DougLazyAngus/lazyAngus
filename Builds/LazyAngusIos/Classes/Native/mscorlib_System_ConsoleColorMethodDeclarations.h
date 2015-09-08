@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ConsoleColor
-struct ConsoleColor_t4856;
+struct ConsoleColor_t4859;
 

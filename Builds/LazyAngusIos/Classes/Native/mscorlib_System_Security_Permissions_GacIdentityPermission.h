@@ -3,6 +3,6 @@
 // System.Security.CodeAccessPermission
 #include "mscorlib_System_Security_CodeAccessPermission.h"
 // System.Security.Permissions.GacIdentityPermission
-struct  GacIdentityPermission_t5296  : public CodeAccessPermission_t5227
+struct  GacIdentityPermission_t5299  : public CodeAccessPermission_t5230
 {
 };

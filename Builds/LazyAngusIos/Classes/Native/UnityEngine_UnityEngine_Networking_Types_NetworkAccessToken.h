@@ -5,7 +5,7 @@ struct ByteU5BU5D_t66;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Networking.Types.NetworkAccessToken
-struct  NetworkAccessToken_t2831  : public Object_t
+struct  NetworkAccessToken_t2834  : public Object_t
 {
 	// System.Byte[] UnityEngine.Networking.Types.NetworkAccessToken::array
 	ByteU5BU5D_t66* ___array_0;

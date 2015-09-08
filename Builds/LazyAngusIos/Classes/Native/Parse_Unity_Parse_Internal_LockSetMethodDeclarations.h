@@ -5,20 +5,20 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.Internal.LockSet
-struct LockSet_t1202;
+struct LockSet_t1205;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t725;
+struct IEnumerable_1_t728;
 // System.IComparable
 struct IComparable_t99;
 // System.Object
 struct Object_t;
 
 // System.Void Parse.Internal.LockSet::.ctor(System.Collections.Generic.IEnumerable`1<System.Object>)
-extern "C" void LockSet__ctor_m6622 (LockSet_t1202 * __this, Object_t* ___mutexes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LockSet__ctor_m6622 (LockSet_t1205 * __this, Object_t* ___mutexes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.Internal.LockSet::Enter()
-extern "C" void LockSet_Enter_m6623 (LockSet_t1202 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LockSet_Enter_m6623 (LockSet_t1205 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.Internal.LockSet::Exit()
-extern "C" void LockSet_Exit_m6624 (LockSet_t1202 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LockSet_Exit_m6624 (LockSet_t1205 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IComparable Parse.Internal.LockSet::GetStableId(System.Object)
 extern "C" Object_t * LockSet_GetStableId_m6625 (Object_t * __this /* static, unused */, Object_t * ___mutex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IComparable Parse.Internal.LockSet::<.ctor>b__0(System.Object)

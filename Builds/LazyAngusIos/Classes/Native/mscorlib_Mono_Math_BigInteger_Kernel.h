@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Math.BigInteger/Kernel
-struct  Kernel_t4775  : public Object_t
+struct  Kernel_t4778  : public Object_t
 {
 };

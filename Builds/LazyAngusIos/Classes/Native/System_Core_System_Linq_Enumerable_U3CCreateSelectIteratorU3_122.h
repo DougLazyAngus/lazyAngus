@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IEnumerable`1<System.DateTime>
-struct IEnumerable_1_t7403;
+struct IEnumerable_1_t7408;
 // System.Collections.Generic.IEnumerator`1<System.DateTime>
-struct IEnumerator_1_t7404;
+struct IEnumerator_1_t7409;
 // System.Func`2<System.DateTime,System.Object>
-struct Func_2_t7401;
+struct Func_2_t7406;
 // System.Object
 struct Object_t;
 // System.Object
@@ -13,7 +13,7 @@ struct Object_t;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.DateTime,System.Object>
-struct  U3CCreateSelectIteratorU3Ec__Iterator10_2_t7405  : public Object_t
+struct  U3CCreateSelectIteratorU3Ec__Iterator10_2_t7410  : public Object_t
 {
 	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.DateTime,System.Object>::source
 	Object_t* ___source_0;
@@ -22,7 +22,7 @@ struct  U3CCreateSelectIteratorU3Ec__Iterator10_2_t7405  : public Object_t
 	// TSource System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.DateTime,System.Object>::<element>__1
 	DateTime_t287  ___U3CelementU3E__1_2;
 	// System.Func`2<TSource,TResult> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.DateTime,System.Object>::selector
-	Func_2_t7401 * ___selector_3;
+	Func_2_t7406 * ___selector_3;
 	// System.Int32 System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.DateTime,System.Object>::$PC
 	int32_t ___U24PC_4;
 	// TResult System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.DateTime,System.Object>::$current
@@ -30,5 +30,5 @@ struct  U3CCreateSelectIteratorU3Ec__Iterator10_2_t7405  : public Object_t
 	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.DateTime,System.Object>::<$>source
 	Object_t* ___U3CU24U3Esource_6;
 	// System.Func`2<TSource,TResult> System.Linq.Enumerable/<CreateSelectIterator>c__Iterator10`2<System.DateTime,System.Object>::<$>selector
-	Func_2_t7401 * ___U3CU24U3Eselector_7;
+	Func_2_t7406 * ___U3CU24U3Eselector_7;
 };

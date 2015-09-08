@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Configuration.ConfigurationSettings
-struct ConfigurationSettings_t4275;
+struct ConfigurationSettings_t4278;
 // System.Object
 struct Object_t;
 // System.String

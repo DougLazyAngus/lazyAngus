@@ -5,7 +5,7 @@
 // System.ConsoleModifiers
 #include "mscorlib_System_ConsoleModifiers.h"
 // System.ConsoleModifiers
-struct  ConsoleModifiers_t4861 
+struct  ConsoleModifiers_t4864 
 {
 	// System.Int32 System.ConsoleModifiers::value__
 	int32_t ___value___1;

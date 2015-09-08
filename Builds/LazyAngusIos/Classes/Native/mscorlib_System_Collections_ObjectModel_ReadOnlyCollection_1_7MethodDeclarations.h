@@ -5,81 +5,81 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>
-struct ReadOnlyCollection_1_t5986;
+struct ReadOnlyCollection_1_t5989;
 // SimpleJSON.JSONNode
 struct JSONNode_t29;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IList`1<SimpleJSON.JSONNode>
-struct IList_1_t5985;
+struct IList_1_t5988;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // SimpleJSON.JSONNode[]
-struct JSONNodeU5BU5D_t5972;
+struct JSONNodeU5BU5D_t5975;
 // System.Collections.Generic.IEnumerator`1<SimpleJSON.JSONNode>
 struct IEnumerator_1_t31;
 
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::.ctor(System.Collections.Generic.IList`1<T>)
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Object>
 #include "mscorlib_System_Collections_ObjectModel_ReadOnlyCollection_1MethodDeclarations.h"
-#define ReadOnlyCollection_1__ctor_m26105(__this, ___list, method) (( void (*) (ReadOnlyCollection_1_t5986 *, Object_t*, const MethodInfo*))ReadOnlyCollection_1__ctor_m7541_gshared)(__this, ___list, method)
+#define ReadOnlyCollection_1__ctor_m26105(__this, ___list, method) (( void (*) (ReadOnlyCollection_1_t5989 *, Object_t*, const MethodInfo*))ReadOnlyCollection_1__ctor_m7541_gshared)(__this, ___list, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.Generic.ICollection<T>.Add(T)
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m26106(__this, ___item, method) (( void (*) (ReadOnlyCollection_1_t5986 *, JSONNode_t29 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m26008_gshared)(__this, ___item, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m26106(__this, ___item, method) (( void (*) (ReadOnlyCollection_1_t5989 *, JSONNode_t29 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Add_m26008_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.Generic.ICollection<T>.Clear()
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m26107(__this, method) (( void (*) (ReadOnlyCollection_1_t5986 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m26009_gshared)(__this, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m26107(__this, method) (( void (*) (ReadOnlyCollection_1_t5989 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Clear_m26009_gshared)(__this, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.Generic.IList<T>.Insert(System.Int32,T)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m26108(__this, ___index, ___item, method) (( void (*) (ReadOnlyCollection_1_t5986 *, int32_t, JSONNode_t29 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m26010_gshared)(__this, ___index, ___item, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m26108(__this, ___index, ___item, method) (( void (*) (ReadOnlyCollection_1_t5989 *, int32_t, JSONNode_t29 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_Insert_m26010_gshared)(__this, ___index, ___item, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.Generic.ICollection<T>.Remove(T)
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m26109(__this, ___item, method) (( bool (*) (ReadOnlyCollection_1_t5986 *, JSONNode_t29 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m26011_gshared)(__this, ___item, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m26109(__this, ___item, method) (( bool (*) (ReadOnlyCollection_1_t5989 *, JSONNode_t29 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_Remove_m26011_gshared)(__this, ___item, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.Generic.IList<T>.RemoveAt(System.Int32)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m26110(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t5986 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m26012_gshared)(__this, ___index, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m26110(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t5989 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_RemoveAt_m26012_gshared)(__this, ___index, method)
 // T System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.Generic.IList<T>.get_Item(System.Int32)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m26111(__this, ___index, method) (( JSONNode_t29 * (*) (ReadOnlyCollection_1_t5986 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m26013_gshared)(__this, ___index, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m26111(__this, ___index, method) (( JSONNode_t29 * (*) (ReadOnlyCollection_1_t5989 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_get_Item_m26013_gshared)(__this, ___index, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.Generic.IList<T>.set_Item(System.Int32,T)
-#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m26112(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t5986 *, int32_t, JSONNode_t29 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m26014_gshared)(__this, ___index, ___value, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m26112(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t5989 *, int32_t, JSONNode_t29 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_IListU3CTU3E_set_Item_m26014_gshared)(__this, ___index, ___value, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m26113(__this, method) (( bool (*) (ReadOnlyCollection_1_t5986 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m26015_gshared)(__this, method)
+#define ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m26113(__this, method) (( bool (*) (ReadOnlyCollection_1_t5989 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_Generic_ICollectionU3CTU3E_get_IsReadOnly_m26015_gshared)(__this, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m26114(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t5986 *, Array_t *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m26016_gshared)(__this, ___array, ___index, method)
+#define ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m26114(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t5989 *, Array_t *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_CopyTo_m26016_gshared)(__this, ___array, ___index, method)
 // System.Collections.IEnumerator System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.IEnumerable.GetEnumerator()
-#define ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m26115(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t5986 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m26017_gshared)(__this, method)
+#define ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m26115(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t5989 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IEnumerable_GetEnumerator_m26017_gshared)(__this, method)
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.IList.Add(System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_Add_m26116(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t5986 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Add_m26018_gshared)(__this, ___value, method)
+#define ReadOnlyCollection_1_System_Collections_IList_Add_m26116(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t5989 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Add_m26018_gshared)(__this, ___value, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.IList.Clear()
-#define ReadOnlyCollection_1_System_Collections_IList_Clear_m26117(__this, method) (( void (*) (ReadOnlyCollection_1_t5986 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Clear_m26019_gshared)(__this, method)
+#define ReadOnlyCollection_1_System_Collections_IList_Clear_m26117(__this, method) (( void (*) (ReadOnlyCollection_1_t5989 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Clear_m26019_gshared)(__this, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.IList.Contains(System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_Contains_m26118(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t5986 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Contains_m26020_gshared)(__this, ___value, method)
+#define ReadOnlyCollection_1_System_Collections_IList_Contains_m26118(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t5989 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Contains_m26020_gshared)(__this, ___value, method)
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.IList.IndexOf(System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_IndexOf_m26119(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t5986 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_IndexOf_m26021_gshared)(__this, ___value, method)
+#define ReadOnlyCollection_1_System_Collections_IList_IndexOf_m26119(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t5989 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_IndexOf_m26021_gshared)(__this, ___value, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.IList.Insert(System.Int32,System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_Insert_m26120(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t5986 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Insert_m26022_gshared)(__this, ___index, ___value, method)
+#define ReadOnlyCollection_1_System_Collections_IList_Insert_m26120(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t5989 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Insert_m26022_gshared)(__this, ___index, ___value, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.IList.Remove(System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_Remove_m26121(__this, ___value, method) (( void (*) (ReadOnlyCollection_1_t5986 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Remove_m26023_gshared)(__this, ___value, method)
+#define ReadOnlyCollection_1_System_Collections_IList_Remove_m26121(__this, ___value, method) (( void (*) (ReadOnlyCollection_1_t5989 *, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_Remove_m26023_gshared)(__this, ___value, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.IList.RemoveAt(System.Int32)
-#define ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m26122(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t5986 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m26024_gshared)(__this, ___index, method)
+#define ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m26122(__this, ___index, method) (( void (*) (ReadOnlyCollection_1_t5989 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_RemoveAt_m26024_gshared)(__this, ___index, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.ICollection.get_IsSynchronized()
-#define ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m26123(__this, method) (( bool (*) (ReadOnlyCollection_1_t5986 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m26025_gshared)(__this, method)
+#define ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m26123(__this, method) (( bool (*) (ReadOnlyCollection_1_t5989 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_IsSynchronized_m26025_gshared)(__this, method)
 // System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.ICollection.get_SyncRoot()
-#define ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m26124(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t5986 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m26026_gshared)(__this, method)
+#define ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m26124(__this, method) (( Object_t * (*) (ReadOnlyCollection_1_t5989 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_ICollection_get_SyncRoot_m26026_gshared)(__this, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.IList.get_IsFixedSize()
-#define ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m26125(__this, method) (( bool (*) (ReadOnlyCollection_1_t5986 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m26027_gshared)(__this, method)
+#define ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m26125(__this, method) (( bool (*) (ReadOnlyCollection_1_t5989 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsFixedSize_m26027_gshared)(__this, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.IList.get_IsReadOnly()
-#define ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m26126(__this, method) (( bool (*) (ReadOnlyCollection_1_t5986 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m26028_gshared)(__this, method)
+#define ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m26126(__this, method) (( bool (*) (ReadOnlyCollection_1_t5989 *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_IsReadOnly_m26028_gshared)(__this, method)
 // System.Object System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.IList.get_Item(System.Int32)
-#define ReadOnlyCollection_1_System_Collections_IList_get_Item_m26127(__this, ___index, method) (( Object_t * (*) (ReadOnlyCollection_1_t5986 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_Item_m26029_gshared)(__this, ___index, method)
+#define ReadOnlyCollection_1_System_Collections_IList_get_Item_m26127(__this, ___index, method) (( Object_t * (*) (ReadOnlyCollection_1_t5989 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_get_Item_m26029_gshared)(__this, ___index, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::System.Collections.IList.set_Item(System.Int32,System.Object)
-#define ReadOnlyCollection_1_System_Collections_IList_set_Item_m26128(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t5986 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_set_Item_m26030_gshared)(__this, ___index, ___value, method)
+#define ReadOnlyCollection_1_System_Collections_IList_set_Item_m26128(__this, ___index, ___value, method) (( void (*) (ReadOnlyCollection_1_t5989 *, int32_t, Object_t *, const MethodInfo*))ReadOnlyCollection_1_System_Collections_IList_set_Item_m26030_gshared)(__this, ___index, ___value, method)
 // System.Boolean System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::Contains(T)
-#define ReadOnlyCollection_1_Contains_m26129(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t5986 *, JSONNode_t29 *, const MethodInfo*))ReadOnlyCollection_1_Contains_m26031_gshared)(__this, ___value, method)
+#define ReadOnlyCollection_1_Contains_m26129(__this, ___value, method) (( bool (*) (ReadOnlyCollection_1_t5989 *, JSONNode_t29 *, const MethodInfo*))ReadOnlyCollection_1_Contains_m26031_gshared)(__this, ___value, method)
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::CopyTo(T[],System.Int32)
-#define ReadOnlyCollection_1_CopyTo_m26130(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t5986 *, JSONNodeU5BU5D_t5972*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m26032_gshared)(__this, ___array, ___index, method)
+#define ReadOnlyCollection_1_CopyTo_m26130(__this, ___array, ___index, method) (( void (*) (ReadOnlyCollection_1_t5989 *, JSONNodeU5BU5D_t5975*, int32_t, const MethodInfo*))ReadOnlyCollection_1_CopyTo_m26032_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.IEnumerator`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::GetEnumerator()
-#define ReadOnlyCollection_1_GetEnumerator_m26131(__this, method) (( Object_t* (*) (ReadOnlyCollection_1_t5986 *, const MethodInfo*))ReadOnlyCollection_1_GetEnumerator_m26033_gshared)(__this, method)
+#define ReadOnlyCollection_1_GetEnumerator_m26131(__this, method) (( Object_t* (*) (ReadOnlyCollection_1_t5989 *, const MethodInfo*))ReadOnlyCollection_1_GetEnumerator_m26033_gshared)(__this, method)
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::IndexOf(T)
-#define ReadOnlyCollection_1_IndexOf_m26132(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t5986 *, JSONNode_t29 *, const MethodInfo*))ReadOnlyCollection_1_IndexOf_m26034_gshared)(__this, ___value, method)
+#define ReadOnlyCollection_1_IndexOf_m26132(__this, ___value, method) (( int32_t (*) (ReadOnlyCollection_1_t5989 *, JSONNode_t29 *, const MethodInfo*))ReadOnlyCollection_1_IndexOf_m26034_gshared)(__this, ___value, method)
 // System.Int32 System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::get_Count()
-#define ReadOnlyCollection_1_get_Count_m26133(__this, method) (( int32_t (*) (ReadOnlyCollection_1_t5986 *, const MethodInfo*))ReadOnlyCollection_1_get_Count_m26035_gshared)(__this, method)
+#define ReadOnlyCollection_1_get_Count_m26133(__this, method) (( int32_t (*) (ReadOnlyCollection_1_t5989 *, const MethodInfo*))ReadOnlyCollection_1_get_Count_m26035_gshared)(__this, method)
 // T System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::get_Item(System.Int32)
-#define ReadOnlyCollection_1_get_Item_m26134(__this, ___index, method) (( JSONNode_t29 * (*) (ReadOnlyCollection_1_t5986 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_get_Item_m26036_gshared)(__this, ___index, method)
+#define ReadOnlyCollection_1_get_Item_m26134(__this, ___index, method) (( JSONNode_t29 * (*) (ReadOnlyCollection_1_t5989 *, int32_t, const MethodInfo*))ReadOnlyCollection_1_get_Item_m26036_gshared)(__this, ___index, method)

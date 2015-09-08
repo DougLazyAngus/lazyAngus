@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Int16
-struct Int16_t757;
+struct Int16_t760;
 // System.IFormatProvider
-struct IFormatProvider_t5003;
+struct IFormatProvider_t5006;
 // System.Object
 struct Object_t;
 // System.Type
@@ -32,7 +32,7 @@ extern "C" uint16_t Int16_System_IConvertible_ToChar_m18717 (int16_t* __this, Ob
 // System.DateTime System.Int16::System.IConvertible.ToDateTime(System.IFormatProvider)
 extern "C" DateTime_t287  Int16_System_IConvertible_ToDateTime_m18718 (int16_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Int16::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t760  Int16_System_IConvertible_ToDecimal_m18719 (int16_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t763  Int16_System_IConvertible_ToDecimal_m18719 (int16_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Int16::System.IConvertible.ToDouble(System.IFormatProvider)
 extern "C" double Int16_System_IConvertible_ToDouble_m18720 (int16_t* __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Int16::System.IConvertible.ToInt16(System.IFormatProvider)

@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Hashtable
-struct Hashtable_t711;
+struct Hashtable_t714;
 // System.Xml.Schema.XmlSchemaElement
-struct XmlSchemaElement_t3417;
+struct XmlSchemaElement_t3420;
 // System.Collections.Stack
-struct Stack_t2915;
+struct Stack_t2918;
 // Mono.Xml.Schema.XsdValidationContext
-struct XsdValidationContext_t3418;
+struct XsdValidationContext_t3421;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Object
@@ -15,20 +15,20 @@ struct Dictionary_2_t223;
 // System.Xml.Schema.XmlSchemaContentProcessing
 #include "System_Xml_System_Xml_Schema_XmlSchemaContentProcessing.h"
 // Mono.Xml.Schema.XsdParticleStateManager
-struct  XsdParticleStateManager_t3419  : public Object_t
+struct  XsdParticleStateManager_t3422  : public Object_t
 {
 	// System.Collections.Hashtable Mono.Xml.Schema.XsdParticleStateManager::table
-	Hashtable_t711 * ___table_0;
+	Hashtable_t714 * ___table_0;
 	// System.Xml.Schema.XmlSchemaContentProcessing Mono.Xml.Schema.XsdParticleStateManager::processContents
 	int32_t ___processContents_1;
 	// System.Xml.Schema.XmlSchemaElement Mono.Xml.Schema.XsdParticleStateManager::CurrentElement
-	XmlSchemaElement_t3417 * ___CurrentElement_2;
+	XmlSchemaElement_t3420 * ___CurrentElement_2;
 	// System.Collections.Stack Mono.Xml.Schema.XsdParticleStateManager::ContextStack
-	Stack_t2915 * ___ContextStack_3;
+	Stack_t2918 * ___ContextStack_3;
 	// Mono.Xml.Schema.XsdValidationContext Mono.Xml.Schema.XsdParticleStateManager::Context
-	XsdValidationContext_t3418 * ___Context_4;
+	XsdValidationContext_t3421 * ___Context_4;
 };
-struct XsdParticleStateManager_t3419_StaticFields{
+struct XsdParticleStateManager_t3422_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Xml.Schema.XsdParticleStateManager::<>f__switch$map2
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map2_5;
 };

@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // MouseTypeDesc
-struct MouseTypeDesc_t611;
+struct MouseTypeDesc_t612;
 // System.String
 struct String_t;
 
 // System.Void MouseTypeDesc::.ctor(System.String,System.String,System.Single,System.Single)
-extern "C" void MouseTypeDesc__ctor_m3282 (MouseTypeDesc_t611 * __this, String_t* ___oldImageName, String_t* ___newImageName, float ___speed, float ___scale, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseTypeDesc__ctor_m3275 (MouseTypeDesc_t612 * __this, String_t* ___oldImageName, String_t* ___newImageName, float ___speed, float ___scale, const MethodInfo* method) IL2CPP_METHOD_ATTR;

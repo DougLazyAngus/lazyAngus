@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.RegularExpressions.RxInterpreter
-struct RxInterpreter_t4512;
+struct RxInterpreter_t4515;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Text.RegularExpressions.EvalDelegate
-struct  EvalDelegate_t4511  : public MulticastDelegate_t388
+struct  EvalDelegate_t4514  : public MulticastDelegate_t388
 {
 };

@@ -1,15 +1,15 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.Schema.XmlSchemaSimpleType
-struct XmlSchemaSimpleType_t3634;
+struct XmlSchemaSimpleType_t3637;
 // System.Xml.XmlQualifiedName
-struct XmlQualifiedName_t3416;
+struct XmlQualifiedName_t3419;
 // System.Xml.Schema.XmlSchemaObjectCollection
-struct XmlSchemaObjectCollection_t3624;
+struct XmlSchemaObjectCollection_t3627;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Text.RegularExpressions.Regex[]
-struct RegexU5BU5D_t3686;
+struct RegexU5BU5D_t3689;
 // System.Object
 struct Object_t;
 // System.Xml.Schema.XmlSchemaSimpleTypeContent
@@ -21,30 +21,30 @@ struct Object_t;
 // System.Globalization.NumberStyles
 #include "mscorlib_System_Globalization_NumberStyles.h"
 // System.Xml.Schema.XmlSchemaSimpleTypeRestriction
-struct  XmlSchemaSimpleTypeRestriction_t3687  : public XmlSchemaSimpleTypeContent_t3684
+struct  XmlSchemaSimpleTypeRestriction_t3690  : public XmlSchemaSimpleTypeContent_t3687
 {
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaSimpleTypeRestriction::baseType
-	XmlSchemaSimpleType_t3634 * ___baseType_17;
+	XmlSchemaSimpleType_t3637 * ___baseType_17;
 	// System.Xml.XmlQualifiedName System.Xml.Schema.XmlSchemaSimpleTypeRestriction::baseTypeName
-	XmlQualifiedName_t3416 * ___baseTypeName_18;
+	XmlQualifiedName_t3419 * ___baseTypeName_18;
 	// System.Xml.Schema.XmlSchemaObjectCollection System.Xml.Schema.XmlSchemaSimpleTypeRestriction::facets
-	XmlSchemaObjectCollection_t3624 * ___facets_19;
+	XmlSchemaObjectCollection_t3627 * ___facets_19;
 	// System.String[] System.Xml.Schema.XmlSchemaSimpleTypeRestriction::enumarationFacetValues
 	StringU5BU5D_t75* ___enumarationFacetValues_20;
 	// System.String[] System.Xml.Schema.XmlSchemaSimpleTypeRestriction::patternFacetValues
 	StringU5BU5D_t75* ___patternFacetValues_21;
 	// System.Text.RegularExpressions.Regex[] System.Xml.Schema.XmlSchemaSimpleTypeRestriction::rexPatterns
-	RegexU5BU5D_t3686* ___rexPatterns_22;
+	RegexU5BU5D_t3689* ___rexPatterns_22;
 	// System.Decimal System.Xml.Schema.XmlSchemaSimpleTypeRestriction::lengthFacet
-	Decimal_t760  ___lengthFacet_23;
+	Decimal_t763  ___lengthFacet_23;
 	// System.Decimal System.Xml.Schema.XmlSchemaSimpleTypeRestriction::maxLengthFacet
-	Decimal_t760  ___maxLengthFacet_24;
+	Decimal_t763  ___maxLengthFacet_24;
 	// System.Decimal System.Xml.Schema.XmlSchemaSimpleTypeRestriction::minLengthFacet
-	Decimal_t760  ___minLengthFacet_25;
+	Decimal_t763  ___minLengthFacet_25;
 	// System.Decimal System.Xml.Schema.XmlSchemaSimpleTypeRestriction::fractionDigitsFacet
-	Decimal_t760  ___fractionDigitsFacet_26;
+	Decimal_t763  ___fractionDigitsFacet_26;
 	// System.Decimal System.Xml.Schema.XmlSchemaSimpleTypeRestriction::totalDigitsFacet
-	Decimal_t760  ___totalDigitsFacet_27;
+	Decimal_t763  ___totalDigitsFacet_27;
 	// System.Object System.Xml.Schema.XmlSchemaSimpleTypeRestriction::maxInclusiveFacet
 	Object_t * ___maxInclusiveFacet_28;
 	// System.Object System.Xml.Schema.XmlSchemaSimpleTypeRestriction::maxExclusiveFacet
@@ -56,7 +56,7 @@ struct  XmlSchemaSimpleTypeRestriction_t3687  : public XmlSchemaSimpleTypeConten
 	// System.Xml.Schema.XmlSchemaFacet/Facet System.Xml.Schema.XmlSchemaSimpleTypeRestriction::fixedFacets
 	int32_t ___fixedFacets_32;
 };
-struct XmlSchemaSimpleTypeRestriction_t3687_StaticFields{
+struct XmlSchemaSimpleTypeRestriction_t3690_StaticFields{
 	// System.Globalization.NumberStyles System.Xml.Schema.XmlSchemaSimpleTypeRestriction::lengthStyle
 	int32_t ___lengthStyle_33;
 	// System.Xml.Schema.XmlSchemaFacet/Facet System.Xml.Schema.XmlSchemaSimpleTypeRestriction::listFacets

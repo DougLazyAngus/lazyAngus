@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.UTF8Encoding/UTF8Decoder
-struct UTF8Decoder_t5372;
+struct UTF8Decoder_t5375;
 // System.Text.DecoderFallback
-struct DecoderFallback_t5351;
+struct DecoderFallback_t5354;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Char[]
-struct CharU5BU5D_t712;
+struct CharU5BU5D_t715;
 
 // System.Void System.Text.UTF8Encoding/UTF8Decoder::.ctor(System.Text.DecoderFallback)
-extern "C" void UTF8Decoder__ctor_m24260 (UTF8Decoder_t5372 * __this, DecoderFallback_t5351 * ___fallback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UTF8Decoder__ctor_m24260 (UTF8Decoder_t5375 * __this, DecoderFallback_t5354 * ___fallback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.UTF8Encoding/UTF8Decoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern "C" int32_t UTF8Decoder_GetChars_m24261 (UTF8Decoder_t5372 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t712* ___chars, int32_t ___charIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UTF8Decoder_GetChars_m24261 (UTF8Decoder_t5375 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t715* ___chars, int32_t ___charIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;

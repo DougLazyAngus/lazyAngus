@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<System.Net.Cookie>
-struct List_1_t4344;
+struct List_1_t4347;
 // System.Net.CookieCollection/CookieCollectionComparer
-struct CookieCollectionComparer_t4343;
+struct CookieCollectionComparer_t4346;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.CookieCollection
-struct  CookieCollection_t4345  : public Object_t
+struct  CookieCollection_t4348  : public Object_t
 {
 	// System.Collections.Generic.List`1<System.Net.Cookie> System.Net.CookieCollection::list
-	List_1_t4344 * ___list_0;
+	List_1_t4347 * ___list_0;
 };
-struct CookieCollection_t4345_StaticFields{
+struct CookieCollection_t4348_StaticFields{
 	// System.Net.CookieCollection/CookieCollectionComparer System.Net.CookieCollection::Comparer
-	CookieCollectionComparer_t4343 * ___Comparer_1;
+	CookieCollectionComparer_t4346 * ___Comparer_1;
 };

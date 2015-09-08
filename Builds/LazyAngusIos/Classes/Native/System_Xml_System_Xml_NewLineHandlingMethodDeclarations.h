@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.NewLineHandling
-struct NewLineHandling_t3495;
+struct NewLineHandling_t3498;
 

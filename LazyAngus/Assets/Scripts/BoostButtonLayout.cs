@@ -31,7 +31,7 @@ public class BoostButtonLayout : MonoBehaviour {
 	void DoLayout() {
 		AddBoostButtons ();
 		LayoutBoostButtons ();
-		RefreshBoostButtons ();
+		RefreshBoostButtons();
 	}
 
 	void AddBoostButtons() {

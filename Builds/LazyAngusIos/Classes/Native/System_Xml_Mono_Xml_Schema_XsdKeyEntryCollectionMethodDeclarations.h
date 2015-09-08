@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.Schema.XsdKeyEntryCollection
-struct XsdKeyEntryCollection_t3414;
+struct XsdKeyEntryCollection_t3417;
 // Mono.Xml.Schema.XsdKeyEntry
-struct XsdKeyEntry_t3409;
+struct XsdKeyEntry_t3412;
 
 // System.Void Mono.Xml.Schema.XsdKeyEntryCollection::.ctor()
-extern "C" void XsdKeyEntryCollection__ctor_m12258 (XsdKeyEntryCollection_t3414 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdKeyEntryCollection__ctor_m12258 (XsdKeyEntryCollection_t3417 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.Schema.XsdKeyEntryCollection::Add(Mono.Xml.Schema.XsdKeyEntry)
-extern "C" void XsdKeyEntryCollection_Add_m12259 (XsdKeyEntryCollection_t3414 * __this, XsdKeyEntry_t3409 * ___entry, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdKeyEntryCollection_Add_m12259 (XsdKeyEntryCollection_t3417 * __this, XsdKeyEntry_t3412 * ___entry, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Xml.Schema.XsdKeyEntry Mono.Xml.Schema.XsdKeyEntryCollection::get_Item(System.Int32)
-extern "C" XsdKeyEntry_t3409 * XsdKeyEntryCollection_get_Item_m12260 (XsdKeyEntryCollection_t3414 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XsdKeyEntry_t3412 * XsdKeyEntryCollection_get_Item_m12260 (XsdKeyEntryCollection_t3417 * __this, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;

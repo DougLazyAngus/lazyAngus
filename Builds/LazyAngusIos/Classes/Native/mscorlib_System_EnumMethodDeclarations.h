@@ -9,7 +9,7 @@ struct Enum_t100;
 // System.Object
 struct Object_t;
 // System.IFormatProvider
-struct IFormatProvider_t5003;
+struct IFormatProvider_t5006;
 // System.Type
 struct Type_t;
 // System.Array
@@ -17,7 +17,7 @@ struct Array_t;
 // System.String
 struct String_t;
 // System.Collections.Hashtable
-struct Hashtable_t711;
+struct Hashtable_t714;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.DateTime
@@ -40,7 +40,7 @@ extern "C" uint16_t Enum_System_IConvertible_ToChar_m509 (Object_t * __this, Obj
 // System.DateTime System.Enum::System.IConvertible.ToDateTime(System.IFormatProvider)
 extern "C" DateTime_t287  Enum_System_IConvertible_ToDateTime_m510 (Object_t * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Decimal System.Enum::System.IConvertible.ToDecimal(System.IFormatProvider)
-extern "C" Decimal_t760  Enum_System_IConvertible_ToDecimal_m511 (Object_t * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Decimal_t763  Enum_System_IConvertible_ToDecimal_m511 (Object_t * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Double System.Enum::System.IConvertible.ToDouble(System.IFormatProvider)
 extern "C" double Enum_System_IConvertible_ToDouble_m512 (Object_t * __this, Object_t * ___provider, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int16 System.Enum::System.IConvertible.ToInt16(System.IFormatProvider)
@@ -82,7 +82,7 @@ extern "C" Type_t * Enum_GetUnderlyingType_m18049 (Object_t * __this /* static, 
 // System.Object System.Enum::Parse(System.Type,System.String)
 extern "C" Object_t * Enum_Parse_m12129 (Object_t * __this /* static, unused */, Type_t * ___enumType, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Enum::FindName(System.Collections.Hashtable,System.String[],System.String,System.Boolean)
-extern "C" int32_t Enum_FindName_m19076 (Object_t * __this /* static, unused */, Hashtable_t711 * ___name_hash, StringU5BU5D_t75* ___names, String_t* ___name, bool ___ignoreCase, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Enum_FindName_m19076 (Object_t * __this /* static, unused */, Hashtable_t714 * ___name_hash, StringU5BU5D_t75* ___names, String_t* ___name, bool ___ignoreCase, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.Enum::GetValue(System.Object,System.TypeCode)
 extern "C" uint64_t Enum_GetValue_m19077 (Object_t * __this /* static, unused */, Object_t * ___value, int32_t ___typeCode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Enum::Parse(System.Type,System.String,System.Boolean)

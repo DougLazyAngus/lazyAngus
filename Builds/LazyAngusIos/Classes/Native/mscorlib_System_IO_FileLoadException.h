@@ -5,7 +5,7 @@ struct String_t;
 // System.IO.IOException
 #include "mscorlib_System_IO_IOException.h"
 // System.IO.FileLoadException
-struct  FileLoadException_t4985  : public IOException_t3284
+struct  FileLoadException_t4988  : public IOException_t3287
 {
 	// System.String System.IO.FileLoadException::msg
 	String_t* ___msg_11;

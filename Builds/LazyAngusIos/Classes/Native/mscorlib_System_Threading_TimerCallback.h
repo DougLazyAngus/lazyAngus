@@ -11,6 +11,6 @@ struct AsyncCallback_t386;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Threading.TimerCallback
-struct  TimerCallback_t2176  : public MulticastDelegate_t388
+struct  TimerCallback_t2179  : public MulticastDelegate_t388
 {
 };

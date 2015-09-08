@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.Text[]
-struct TextU5BU5D_t6404;
+struct TextU5BU5D_t6409;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.UI.Text>
-struct  List_1_t1078  : public Object_t
+struct  List_1_t1081  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Text>::_items
-	TextU5BU5D_t6404* ____items_1;
+	TextU5BU5D_t6409* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Text>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Text>::_version
 	int32_t ____version_3;
 };
-struct List_1_t1078_StaticFields{
+struct List_1_t1081_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Text>::EmptyArray
-	TextU5BU5D_t6404* ___EmptyArray_4;
+	TextU5BU5D_t6409* ___EmptyArray_4;
 };

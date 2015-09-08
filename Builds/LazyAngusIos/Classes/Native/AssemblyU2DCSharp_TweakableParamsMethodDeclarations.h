@@ -5,10 +5,10 @@
 #include "codegen/il2cpp-codegen.h"
 
 // TweakableParams
-struct TweakableParams_t684;
+struct TweakableParams_t687;
 
 // System.Void TweakableParams::.ctor()
-extern "C" void TweakableParams__ctor_m3739 (TweakableParams_t684 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TweakableParams__ctor_m3739 (TweakableParams_t687 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 TweakableParams::GetInitialMoney()
 extern "C" int32_t TweakableParams_GetInitialMoney_m3740 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 TweakableParams::GetInitialBoosts()

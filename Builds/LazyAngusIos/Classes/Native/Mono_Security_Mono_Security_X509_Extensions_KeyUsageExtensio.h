@@ -3,7 +3,7 @@
 // Mono.Security.X509.X509Extension
 #include "Mono_Security_Mono_Security_X509_X509Extension.h"
 // Mono.Security.X509.Extensions.KeyUsageExtension
-struct  KeyUsageExtension_t3168  : public X509Extension_t3159
+struct  KeyUsageExtension_t3171  : public X509Extension_t3162
 {
 	// System.Int32 Mono.Security.X509.Extensions.KeyUsageExtension::kubits
 	int32_t ___kubits_3;

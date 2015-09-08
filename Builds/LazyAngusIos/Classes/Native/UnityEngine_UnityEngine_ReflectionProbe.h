@@ -3,6 +3,6 @@
 // UnityEngine.Behaviour
 #include "UnityEngine_UnityEngine_Behaviour.h"
 // UnityEngine.ReflectionProbe
-struct  ReflectionProbe_t2721  : public Behaviour_t1111
+struct  ReflectionProbe_t2724  : public Behaviour_t1114
 {
 };

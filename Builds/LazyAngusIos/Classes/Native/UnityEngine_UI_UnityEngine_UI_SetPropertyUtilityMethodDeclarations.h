@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.SetPropertyUtility
-struct SetPropertyUtility_t990;
+struct SetPropertyUtility_t993;
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 

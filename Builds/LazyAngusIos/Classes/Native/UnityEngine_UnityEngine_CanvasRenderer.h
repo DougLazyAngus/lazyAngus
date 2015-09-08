@@ -3,6 +3,6 @@
 // UnityEngine.Component
 #include "UnityEngine_UnityEngine_Component.h"
 // UnityEngine.CanvasRenderer
-struct  CanvasRenderer_t935  : public Component_t776
+struct  CanvasRenderer_t938  : public Component_t779
 {
 };

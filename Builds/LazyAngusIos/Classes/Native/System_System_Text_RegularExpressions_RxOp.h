@@ -5,7 +5,7 @@
 // System.Text.RegularExpressions.RxOp
 #include "System_System_Text_RegularExpressions_RxOp.h"
 // System.Text.RegularExpressions.RxOp
-struct  RxOp_t4515 
+struct  RxOp_t4518 
 {
 	// System.Byte System.Text.RegularExpressions.RxOp::value__
 	uint8_t ___value___1;

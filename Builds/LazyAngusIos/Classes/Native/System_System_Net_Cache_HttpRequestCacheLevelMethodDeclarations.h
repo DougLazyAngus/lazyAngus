@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Cache.HttpRequestCacheLevel
-struct HttpRequestCacheLevel_t4304;
+struct HttpRequestCacheLevel_t4307;
 

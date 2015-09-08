@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.Schema.XsdTime
-struct XsdTime_t3611;
+struct XsdTime_t3614;
 // System.Object
 struct Object_t;
 // System.String
 struct String_t;
 // System.Xml.XmlNameTable
-struct XmlNameTable_t3459;
+struct XmlNameTable_t3462;
 // System.Xml.IXmlNamespaceResolver
-struct IXmlNamespaceResolver_t3392;
+struct IXmlNamespaceResolver_t3395;
 // System.ValueType
-struct ValueType_t843;
+struct ValueType_t846;
 // System.Xml.Schema.XmlSchemaFacet/Facet
 #include "System_Xml_System_Xml_Schema_XmlSchemaFacet_Facet.h"
 // System.Xml.XmlTokenizedType
@@ -26,18 +26,18 @@ struct ValueType_t843;
 #include "System_Xml_Mono_Xml_Schema_XsdOrdering.h"
 
 // System.Void Mono.Xml.Schema.XsdTime::.ctor()
-extern "C" void XsdTime__ctor_m13877 (XsdTime_t3611 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdTime__ctor_m13877 (XsdTime_t3614 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.Schema.XsdTime::.cctor()
 extern "C" void XsdTime__cctor_m13878 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.Schema.XmlSchemaFacet/Facet Mono.Xml.Schema.XsdTime::get_AllowedFacets()
-extern "C" int32_t XsdTime_get_AllowedFacets_m13879 (XsdTime_t3611 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XsdTime_get_AllowedFacets_m13879 (XsdTime_t3614 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlTokenizedType Mono.Xml.Schema.XsdTime::get_TokenizedType()
-extern "C" int32_t XsdTime_get_TokenizedType_m13880 (XsdTime_t3611 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XsdTime_get_TokenizedType_m13880 (XsdTime_t3614 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.Schema.XmlTypeCode Mono.Xml.Schema.XsdTime::get_TypeCode()
-extern "C" int32_t XsdTime_get_TypeCode_m13881 (XsdTime_t3611 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XsdTime_get_TypeCode_m13881 (XsdTime_t3614 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Mono.Xml.Schema.XsdTime::ParseValue(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver)
-extern "C" Object_t * XsdTime_ParseValue_m13882 (XsdTime_t3611 * __this, String_t* ___s, XmlNameTable_t3459 * ___nameTable, Object_t * ___nsmgr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * XsdTime_ParseValue_m13882 (XsdTime_t3614 * __this, String_t* ___s, XmlNameTable_t3462 * ___nameTable, Object_t * ___nsmgr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.ValueType Mono.Xml.Schema.XsdTime::ParseValueType(System.String,System.Xml.XmlNameTable,System.Xml.IXmlNamespaceResolver)
-extern "C" ValueType_t843 * XsdTime_ParseValueType_m13883 (XsdTime_t3611 * __this, String_t* ___s, XmlNameTable_t3459 * ___nameTable, Object_t * ___nsmgr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ValueType_t846 * XsdTime_ParseValueType_m13883 (XsdTime_t3614 * __this, String_t* ___s, XmlNameTable_t3462 * ___nameTable, Object_t * ___nsmgr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Xml.Schema.XsdOrdering Mono.Xml.Schema.XsdTime::Compare(System.Object,System.Object)
-extern "C" int32_t XsdTime_Compare_m13884 (XsdTime_t3611 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XsdTime_Compare_m13884 (XsdTime_t3614 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;

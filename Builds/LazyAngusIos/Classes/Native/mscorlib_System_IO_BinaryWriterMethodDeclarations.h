@@ -9,11 +9,11 @@ struct BinaryWriter_t50;
 // System.IO.Stream
 struct Stream_t51;
 // System.Text.Encoding
-struct Encoding_t754;
+struct Encoding_t757;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Char[]
-struct CharU5BU5D_t712;
+struct CharU5BU5D_t715;
 // System.String
 struct String_t;
 // System.Decimal
@@ -24,7 +24,7 @@ extern "C" void BinaryWriter__ctor_m21442 (BinaryWriter_t50 * __this, const Meth
 // System.Void System.IO.BinaryWriter::.ctor(System.IO.Stream)
 extern "C" void BinaryWriter__ctor_m420 (BinaryWriter_t50 * __this, Stream_t51 * ___output, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.BinaryWriter::.ctor(System.IO.Stream,System.Text.Encoding)
-extern "C" void BinaryWriter__ctor_m21443 (BinaryWriter_t50 * __this, Stream_t51 * ___output, Encoding_t754 * ___encoding, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BinaryWriter__ctor_m21443 (BinaryWriter_t50 * __this, Stream_t51 * ___output, Encoding_t757 * ___encoding, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.BinaryWriter::.cctor()
 extern "C" void BinaryWriter__cctor_m21444 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.BinaryWriter::System.IDisposable.Dispose()
@@ -44,9 +44,9 @@ extern "C" void BinaryWriter_Write_m21451 (BinaryWriter_t50 * __this, ByteU5BU5D
 // System.Void System.IO.BinaryWriter::Write(System.Char)
 extern "C" void BinaryWriter_Write_m21452 (BinaryWriter_t50 * __this, uint16_t ___ch, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.BinaryWriter::Write(System.Char[])
-extern "C" void BinaryWriter_Write_m21453 (BinaryWriter_t50 * __this, CharU5BU5D_t712* ___chars, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BinaryWriter_Write_m21453 (BinaryWriter_t50 * __this, CharU5BU5D_t715* ___chars, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.BinaryWriter::Write(System.Decimal)
-extern "C" void BinaryWriter_Write_m21454 (BinaryWriter_t50 * __this, Decimal_t760  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void BinaryWriter_Write_m21454 (BinaryWriter_t50 * __this, Decimal_t763  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.BinaryWriter::Write(System.Double)
 extern "C" void BinaryWriter_Write_m21455 (BinaryWriter_t50 * __this, double ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.BinaryWriter::Write(System.Int16)

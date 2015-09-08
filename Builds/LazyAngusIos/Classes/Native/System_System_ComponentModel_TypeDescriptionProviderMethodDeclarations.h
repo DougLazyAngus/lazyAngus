@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ComponentModel.TypeDescriptionProvider
-struct TypeDescriptionProvider_t4258;
+struct TypeDescriptionProvider_t4261;
 

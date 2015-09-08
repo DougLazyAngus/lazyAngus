@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.HostSecurityManager
-struct  HostSecurityManager_t5228  : public Object_t
+struct  HostSecurityManager_t5231  : public Object_t
 {
 };

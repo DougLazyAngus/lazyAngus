@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String,System.Collections.DictionaryEntry>
-struct  Transform_1_t6222  : public MulticastDelegate_t388
+struct  Transform_1_t6225  : public MulticastDelegate_t388
 {
 };

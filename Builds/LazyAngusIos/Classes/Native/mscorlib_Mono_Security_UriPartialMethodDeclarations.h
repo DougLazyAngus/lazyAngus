@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.UriPartial
-struct UriPartial_t4790;
+struct UriPartial_t4793;
 

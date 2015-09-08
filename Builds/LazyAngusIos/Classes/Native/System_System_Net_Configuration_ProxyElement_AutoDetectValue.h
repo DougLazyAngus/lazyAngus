@@ -5,7 +5,7 @@
 // System.Net.Configuration.ProxyElement/AutoDetectValues
 #include "System_System_Net_Configuration_ProxyElement_AutoDetectValue.h"
 // System.Net.Configuration.ProxyElement/AutoDetectValues
-struct  AutoDetectValues_t4332 
+struct  AutoDetectValues_t4335 
 {
 	// System.Int32 System.Net.Configuration.ProxyElement/AutoDetectValues::value__
 	int32_t ___value___1;

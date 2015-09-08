@@ -4,11 +4,11 @@
 struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Array/InternalEnumerator`1<System.Security.Permissions.KeyContainerPermissionAccessEntry>
-struct  InternalEnumerator_1_t9317 
+// System.Array/InternalEnumerator`1<System.Runtime.Serialization.Formatters.Binary.TypeTag>
+struct  InternalEnumerator_1_t9320 
 {
-	// System.Array System.Array/InternalEnumerator`1<System.Security.Permissions.KeyContainerPermissionAccessEntry>::array
+	// System.Array System.Array/InternalEnumerator`1<System.Runtime.Serialization.Formatters.Binary.TypeTag>::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<System.Security.Permissions.KeyContainerPermissionAccessEntry>::idx
+	// System.Int32 System.Array/InternalEnumerator`1<System.Runtime.Serialization.Formatters.Binary.TypeTag>::idx
 	int32_t ___idx_1;
 };

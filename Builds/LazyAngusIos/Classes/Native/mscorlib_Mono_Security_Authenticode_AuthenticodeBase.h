@@ -7,7 +7,7 @@ struct FileStream_t62;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Authenticode.AuthenticodeBase
-struct  AuthenticodeBase_t4794  : public Object_t
+struct  AuthenticodeBase_t4797  : public Object_t
 {
 	// System.Byte[] Mono.Security.Authenticode.AuthenticodeBase::fileblock
 	ByteU5BU5D_t66* ___fileblock_0;

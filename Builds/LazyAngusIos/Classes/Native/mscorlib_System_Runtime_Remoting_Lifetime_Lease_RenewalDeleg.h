@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Runtime.Remoting.Lifetime.ILease
-struct ILease_t5146;
+struct ILease_t5149;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Runtime.Remoting.Lifetime.Lease/RenewalDelegate
-struct  RenewalDelegate_t5147  : public MulticastDelegate_t388
+struct  RenewalDelegate_t5150  : public MulticastDelegate_t388
 {
 };

@@ -5,7 +5,7 @@
 // Mono.Math.Prime.ConfidenceFactor
 #include "Mono_Security_Mono_Math_Prime_ConfidenceFactor.h"
 // Mono.Math.Prime.ConfidenceFactor
-struct  ConfidenceFactor_t3119 
+struct  ConfidenceFactor_t3122 
 {
 	// System.Int32 Mono.Math.Prime.ConfidenceFactor::value__
 	int32_t ___value___1;
