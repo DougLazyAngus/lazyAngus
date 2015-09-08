@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.Sockets.MulticastOption
-struct  MulticastOption_t4400  : public Object_t
+struct  MulticastOption_t4401  : public Object_t
 {
 };

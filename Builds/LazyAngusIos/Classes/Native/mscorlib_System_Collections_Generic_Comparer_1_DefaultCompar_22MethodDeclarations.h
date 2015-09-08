@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Comparer`1/DefaultComparer<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt64>>
-struct DefaultComparer_t8332;
+struct DefaultComparer_t8333;
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt64>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_77.h"
 
 // System.Void System.Collections.Generic.Comparer`1/DefaultComparer<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt64>>::.ctor()
-extern "C" void DefaultComparer__ctor_m57543_gshared (DefaultComparer_t8332 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m57543(__this, method) (( void (*) (DefaultComparer_t8332 *, const MethodInfo*))DefaultComparer__ctor_m57543_gshared)(__this, method)
+extern "C" void DefaultComparer__ctor_m57556_gshared (DefaultComparer_t8333 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m57556(__this, method) (( void (*) (DefaultComparer_t8333 *, const MethodInfo*))DefaultComparer__ctor_m57556_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Comparer`1/DefaultComparer<System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt64>>::Compare(T,T)
-extern "C" int32_t DefaultComparer_Compare_m57544_gshared (DefaultComparer_t8332 * __this, KeyValuePair_2_t7825  ___x, KeyValuePair_2_t7825  ___y, const MethodInfo* method);
-#define DefaultComparer_Compare_m57544(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t8332 *, KeyValuePair_2_t7825 , KeyValuePair_2_t7825 , const MethodInfo*))DefaultComparer_Compare_m57544_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t DefaultComparer_Compare_m57557_gshared (DefaultComparer_t8333 * __this, KeyValuePair_2_t7826  ___x, KeyValuePair_2_t7826  ___y, const MethodInfo* method);
+#define DefaultComparer_Compare_m57557(__this, ___x, ___y, method) (( int32_t (*) (DefaultComparer_t8333 *, KeyValuePair_2_t7826 , KeyValuePair_2_t7826 , const MethodInfo*))DefaultComparer_Compare_m57557_gshared)(__this, ___x, ___y, method)

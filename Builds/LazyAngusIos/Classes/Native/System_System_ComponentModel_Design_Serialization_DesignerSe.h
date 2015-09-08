@@ -5,7 +5,7 @@ struct String_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.ComponentModel.Design.Serialization.DesignerSerializerAttribute
-struct  DesignerSerializerAttribute_t4236  : public Attribute_t426
+struct  DesignerSerializerAttribute_t4237  : public Attribute_t426
 {
 	// System.String System.ComponentModel.Design.Serialization.DesignerSerializerAttribute::serializerTypeName
 	String_t* ___serializerTypeName_0;

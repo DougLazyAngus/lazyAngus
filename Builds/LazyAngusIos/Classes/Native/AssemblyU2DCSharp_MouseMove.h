@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Renderer
-struct Renderer_t602;
+struct Renderer_t603;
 // UnityEngine.GameObject
 struct GameObject_t352;
 // UnityEngine.Transform
@@ -9,7 +9,7 @@ struct Transform_t406;
 // UnityEngine.UI.Slider
 struct Slider_t497;
 // TweakableSlider
-struct TweakableSlider_t603;
+struct TweakableSlider_t604;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // MouseConfig/MovementPhaseType
@@ -22,7 +22,7 @@ struct TweakableSlider_t603;
 struct  MouseMove_t530  : public MonoBehaviour_t13
 {
 	// UnityEngine.Renderer MouseMove::mouseRenderer
-	Renderer_t602 * ___mouseRenderer_3;
+	Renderer_t603 * ___mouseRenderer_3;
 	// UnityEngine.GameObject MouseMove::trackingStatusBarPrototype
 	GameObject_t352 * ___trackingStatusBarPrototype_4;
 	// System.Single MouseMove::minDistanceToManuallyOrient
@@ -56,7 +56,7 @@ struct  MouseMove_t530  : public MonoBehaviour_t13
 	// UnityEngine.UI.Slider MouseMove::sliderInstance
 	Slider_t497 * ___sliderInstance_19;
 	// TweakableSlider MouseMove::tweakableSlider
-	TweakableSlider_t603 * ___tweakableSlider_20;
+	TweakableSlider_t604 * ___tweakableSlider_20;
 	// MouseConfig/MouseWiggleType MouseMove::wiggleType
 	int32_t ___wiggleType_21;
 	// System.Single MouseMove::wiggleMagnitude

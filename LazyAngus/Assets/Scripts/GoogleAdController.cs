@@ -5,15 +5,17 @@ public class GoogleAdController : MonoBehaviour {
 	public static GoogleAdController instance;
 
 	public int instancesBetweenInterstitialAds = 3;
-	public float waitBeforeAd = 2f;
 
-	IEnumerator pendingInterstitialAd;
+	public PhaseDelayedEventScheduler phaseDelayedEventScheduler;
 
 	bool registeredForEvents;
 	bool interstitialAdLoaded = false;
 	bool adsEnabled = true;
 
 	GoogleMobileAdBanner banner;
+
+	public GamePhaseState [] acceptableGamePhases;
+
 	
 	void Awake() {
 		instance = this;
@@ -78,36 +80,28 @@ public class GoogleAdController : MonoBehaviour {
 		UpdateInterstialAd ();
 	}
 
+
+
 	void UpdateInterstialAd() {
-		if (pendingInterstitialAd != null) {
-			StopCoroutine (pendingInterstitialAd);
-			pendingInterstitialAd = null;
-		}
-
-		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.GAME_OVER) {
-			pendingInterstitialAd = CreatePendingInterstitialAd();
-			StartCoroutine(pendingInterstitialAd);
-		}
-	}
-
-	IEnumerator CreatePendingInterstitialAd() {
-		yield return new WaitForSeconds(waitBeforeAd);
-		pendingInterstitialAd = null;
-		TryToShowInterstitialAd ();
+		phaseDelayedEventScheduler.OnPhaseChanged (MaybeShowAd);
 	}
 
 
-	void TryToShowInterstitialAd() {
+	bool MaybeShowAd() {
 		bool shouldShowAd = ShouldShowInterstitialAd ();
 		if (!shouldShowAd) {
-			return;
+			return false;
 		}
 
+		PersistentStorage.instance.SetIntValue ("lastInstanceAdShown", 
+		                                        GamePhaseState.instance.instancesFinishedThisSession);
 		GoogleMobileAd.ShowInterstitialAd ();
+		return true;
 	}
 
 	bool ShouldShowInterstitialAd() {
-		if (GamePhaseState.instance.instancesFinishedThisSession % instancesBetweenInterstitialAds != 0) {
+		int lastInstanceAdShown = PersistentStorage.instance.GetIntValue ("lastInstanceAdShown", 0);
+		if (GamePhaseState.instance.instancesFinishedThisSession < lastInstanceAdShown + instancesBetweenInterstitialAds) {
 			return false;
 		}
 

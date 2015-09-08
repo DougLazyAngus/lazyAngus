@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ConsoleSpecialKey
-struct ConsoleSpecialKey_t4861;
+struct ConsoleSpecialKey_t4862;
 

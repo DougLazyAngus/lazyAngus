@@ -5,7 +5,7 @@ struct Type_t;
 // System.Type
 #include "mscorlib_System_Type.h"
 // System.Reflection.Emit.DerivedType
-struct  DerivedType_t5055  : public Type_t
+struct  DerivedType_t5056  : public Type_t
 {
 	// System.Type System.Reflection.Emit.DerivedType::elementType
 	Type_t * ___elementType_8;

@@ -5,7 +5,7 @@ struct Type_t;
 // System.ComponentModel.PropertyDescriptor
 #include "System_System_ComponentModel_PropertyDescriptor.h"
 // System.ComponentModel.ArrayConverter/ArrayPropertyDescriptor
-struct  ArrayPropertyDescriptor_t4218  : public PropertyDescriptor_t4219
+struct  ArrayPropertyDescriptor_t4219  : public PropertyDescriptor_t4220
 {
 	// System.Int32 System.ComponentModel.ArrayConverter/ArrayPropertyDescriptor::index
 	int32_t ___index_3;

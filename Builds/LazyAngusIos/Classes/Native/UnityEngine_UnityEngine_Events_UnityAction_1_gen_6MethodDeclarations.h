@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.Component>>
-struct UnityAction_1_t1031;
+struct UnityAction_1_t1032;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.List`1<UnityEngine.Component>
-struct List_1_t1064;
+struct List_1_t1065;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.Component>>::.ctor(System.Object,System.IntPtr)
 // UnityEngine.Events.UnityAction`1<System.Object>
 #include "UnityEngine_UnityEngine_Events_UnityAction_1_gen_7MethodDeclarations.h"
-#define UnityAction_1__ctor_m6352(__this, ___object, ___method, method) (( void (*) (UnityAction_1_t1031 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m32164_gshared)(__this, ___object, ___method, method)
+#define UnityAction_1__ctor_m6365(__this, ___object, ___method, method) (( void (*) (UnityAction_1_t1032 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m32177_gshared)(__this, ___object, ___method, method)
 // System.Void UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.Component>>::Invoke(T0)
-#define UnityAction_1_Invoke_m35018(__this, ___arg0, method) (( void (*) (UnityAction_1_t1031 *, List_1_t1064 *, const MethodInfo*))UnityAction_1_Invoke_m32166_gshared)(__this, ___arg0, method)
+#define UnityAction_1_Invoke_m35031(__this, ___arg0, method) (( void (*) (UnityAction_1_t1032 *, List_1_t1065 *, const MethodInfo*))UnityAction_1_Invoke_m32179_gshared)(__this, ___arg0, method)
 // System.IAsyncResult UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.Component>>::BeginInvoke(T0,System.AsyncCallback,System.Object)
-#define UnityAction_1_BeginInvoke_m35019(__this, ___arg0, ___callback, ___object, method) (( Object_t * (*) (UnityAction_1_t1031 *, List_1_t1064 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))UnityAction_1_BeginInvoke_m32168_gshared)(__this, ___arg0, ___callback, ___object, method)
+#define UnityAction_1_BeginInvoke_m35032(__this, ___arg0, ___callback, ___object, method) (( Object_t * (*) (UnityAction_1_t1032 *, List_1_t1065 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))UnityAction_1_BeginInvoke_m32181_gshared)(__this, ___arg0, ___callback, ___object, method)
 // System.Void UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.Component>>::EndInvoke(System.IAsyncResult)
-#define UnityAction_1_EndInvoke_m35020(__this, ___result, method) (( void (*) (UnityAction_1_t1031 *, Object_t *, const MethodInfo*))UnityAction_1_EndInvoke_m32170_gshared)(__this, ___result, method)
+#define UnityAction_1_EndInvoke_m35033(__this, ___result, method) (( void (*) (UnityAction_1_t1032 *, Object_t *, const MethodInfo*))UnityAction_1_EndInvoke_m32183_gshared)(__this, ___result, method)

@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.DTDParameterEntityDeclarationCollection
-struct DTDParameterEntityDeclarationCollection_t3455;
+struct DTDParameterEntityDeclarationCollection_t3456;
 // Mono.Xml.DTDParameterEntityDeclaration
-struct DTDParameterEntityDeclaration_t3475;
+struct DTDParameterEntityDeclaration_t3476;
 // System.String
 struct String_t;
 // Mono.Xml.DTDObjectModel
-struct DTDObjectModel_t3443;
+struct DTDObjectModel_t3444;
 
 // System.Void Mono.Xml.DTDParameterEntityDeclarationCollection::.ctor(Mono.Xml.DTDObjectModel)
-extern "C" void DTDParameterEntityDeclarationCollection__ctor_m12614 (DTDParameterEntityDeclarationCollection_t3455 * __this, DTDObjectModel_t3443 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDParameterEntityDeclarationCollection__ctor_m12627 (DTDParameterEntityDeclarationCollection_t3456 * __this, DTDObjectModel_t3444 * ___root, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Xml.DTDParameterEntityDeclaration Mono.Xml.DTDParameterEntityDeclarationCollection::get_Item(System.String)
-extern "C" DTDParameterEntityDeclaration_t3475 * DTDParameterEntityDeclarationCollection_get_Item_m12615 (DTDParameterEntityDeclarationCollection_t3455 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DTDParameterEntityDeclaration_t3476 * DTDParameterEntityDeclarationCollection_get_Item_m12628 (DTDParameterEntityDeclarationCollection_t3456 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.DTDParameterEntityDeclarationCollection::Add(System.String,Mono.Xml.DTDParameterEntityDeclaration)
-extern "C" void DTDParameterEntityDeclarationCollection_Add_m12616 (DTDParameterEntityDeclarationCollection_t3455 * __this, String_t* ___name, DTDParameterEntityDeclaration_t3475 * ___decl, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DTDParameterEntityDeclarationCollection_Add_m12629 (DTDParameterEntityDeclarationCollection_t3456 * __this, String_t* ___name, DTDParameterEntityDeclaration_t3476 * ___decl, const MethodInfo* method) IL2CPP_METHOD_ATTR;

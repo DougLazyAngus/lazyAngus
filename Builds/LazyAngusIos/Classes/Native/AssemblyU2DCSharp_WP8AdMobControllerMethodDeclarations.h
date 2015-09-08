@@ -7,7 +7,7 @@
 // WP8AdMobController
 struct WP8AdMobController_t157;
 // System.Collections.Generic.List`1<GoogleMobileAdBanner>
-struct List_1_t695;
+struct List_1_t696;
 // System.String
 struct String_t;
 // System.Action
@@ -74,7 +74,7 @@ extern "C" void WP8AdMobController_ShowInterstitialAd_m947 (WP8AdMobController_t
 // GoogleMobileAdBanner WP8AdMobController::GetBanner(System.Int32)
 extern "C" Object_t * WP8AdMobController_GetBanner_m948 (WP8AdMobController_t157 * __this, int32_t ___id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<GoogleMobileAdBanner> WP8AdMobController::get_banners()
-extern "C" List_1_t695 * WP8AdMobController_get_banners_m949 (WP8AdMobController_t157 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t696 * WP8AdMobController_get_banners_m949 (WP8AdMobController_t157 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean WP8AdMobController::get_IsInited()
 extern "C" bool WP8AdMobController_get_IsInited_m950 (WP8AdMobController_t157 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String WP8AdMobController::get_BannersUunitId()

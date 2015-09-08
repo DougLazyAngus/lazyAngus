@@ -1,28 +1,28 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.AsymmetricAlgorithm
-struct AsymmetricAlgorithm_t3239;
+struct AsymmetricAlgorithm_t3240;
 // System.Security.Cryptography.AsnEncodedData
-struct AsnEncodedData_t4428;
+struct AsnEncodedData_t4429;
 // System.Security.Cryptography.Oid
-struct Oid_t4427;
+struct Oid_t4428;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Cryptography.X509Certificates.PublicKey
-struct  PublicKey_t4434  : public Object_t
+struct  PublicKey_t4435  : public Object_t
 {
 	// System.Security.Cryptography.AsymmetricAlgorithm System.Security.Cryptography.X509Certificates.PublicKey::_key
-	AsymmetricAlgorithm_t3239 * ____key_0;
+	AsymmetricAlgorithm_t3240 * ____key_0;
 	// System.Security.Cryptography.AsnEncodedData System.Security.Cryptography.X509Certificates.PublicKey::_keyValue
-	AsnEncodedData_t4428 * ____keyValue_1;
+	AsnEncodedData_t4429 * ____keyValue_1;
 	// System.Security.Cryptography.AsnEncodedData System.Security.Cryptography.X509Certificates.PublicKey::_params
-	AsnEncodedData_t4428 * ____params_2;
+	AsnEncodedData_t4429 * ____params_2;
 	// System.Security.Cryptography.Oid System.Security.Cryptography.X509Certificates.PublicKey::_oid
-	Oid_t4427 * ____oid_3;
+	Oid_t4428 * ____oid_3;
 };
-struct PublicKey_t4434_StaticFields{
+struct PublicKey_t4435_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Security.Cryptography.X509Certificates.PublicKey::<>f__switch$map16
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map16_4;
 };

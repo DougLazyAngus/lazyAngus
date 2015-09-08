@@ -1,4 +1,4 @@
-//Generated on : 9/3/2015 10:05:02 AM
+//Generated on : 9/3/2015 3:44:10 PM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.AnimationCurve
@@ -586,6 +586,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.GameObject::get_activeInHierarchy()
 		void Register_UnityEngine_GameObject_get_activeInHierarchy();
 		Register_UnityEngine_GameObject_get_activeInHierarchy();
+
+		//System.Boolean UnityEngine.GameObject::get_activeSelf()
+		void Register_UnityEngine_GameObject_get_activeSelf();
+		Register_UnityEngine_GameObject_get_activeSelf();
 
 		//System.Int32 UnityEngine.GameObject::get_layer()
 		void Register_UnityEngine_GameObject_get_layer();

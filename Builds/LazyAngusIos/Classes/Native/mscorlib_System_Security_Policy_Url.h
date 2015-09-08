@@ -5,7 +5,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Policy.Url
-struct  Url_t5344  : public Object_t
+struct  Url_t5345  : public Object_t
 {
 	// System.String System.Security.Policy.Url::origin_url
 	String_t* ___origin_url_0;

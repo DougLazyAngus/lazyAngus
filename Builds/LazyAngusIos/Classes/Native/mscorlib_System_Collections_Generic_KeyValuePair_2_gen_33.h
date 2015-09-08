@@ -7,7 +7,7 @@ struct String_t;
 // GameAnalyticsSDK.GA_ServerFieldTypes/FieldType
 #include "AssemblyU2DCSharp_GameAnalyticsSDK_GA_ServerFieldTypes_Field.h"
 // System.Collections.Generic.KeyValuePair`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>
-struct  KeyValuePair_2_t6222 
+struct  KeyValuePair_2_t6223 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<GameAnalyticsSDK.GA_ServerFieldTypes/FieldType,System.String>::key
 	int32_t ___key_0;

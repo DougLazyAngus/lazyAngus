@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Predicate`1<UnityEngine.EventSystems.EventTrigger/Entry>
-struct Predicate_1_t6368;
+struct Predicate_1_t6369;
 // System.Object
 struct Object_t;
 // UnityEngine.EventSystems.EventTrigger/Entry
-struct Entry_t865;
+struct Entry_t866;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Predicate`1<UnityEngine.EventSystems.EventTrigger/Entry>::.ctor(System.Object,System.IntPtr)
 // System.Predicate`1<System.Object>
 #include "mscorlib_System_Predicate_1_gen_3MethodDeclarations.h"
-#define Predicate_1__ctor_m32885(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6368 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m26060_gshared)(__this, ___object, ___method, method)
+#define Predicate_1__ctor_m32898(__this, ___object, ___method, method) (( void (*) (Predicate_1_t6369 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m26073_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<UnityEngine.EventSystems.EventTrigger/Entry>::Invoke(T)
-#define Predicate_1_Invoke_m32886(__this, ___obj, method) (( bool (*) (Predicate_1_t6368 *, Entry_t865 *, const MethodInfo*))Predicate_1_Invoke_m26061_gshared)(__this, ___obj, method)
+#define Predicate_1_Invoke_m32899(__this, ___obj, method) (( bool (*) (Predicate_1_t6369 *, Entry_t866 *, const MethodInfo*))Predicate_1_Invoke_m26074_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<UnityEngine.EventSystems.EventTrigger/Entry>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m32887(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6368 *, Entry_t865 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m26062_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Predicate_1_BeginInvoke_m32900(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t6369 *, Entry_t866 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m26075_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<UnityEngine.EventSystems.EventTrigger/Entry>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m32888(__this, ___result, method) (( bool (*) (Predicate_1_t6368 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m26063_gshared)(__this, ___result, method)
+#define Predicate_1_EndInvoke_m32901(__this, ___result, method) (( bool (*) (Predicate_1_t6369 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m26076_gshared)(__this, ___result, method)

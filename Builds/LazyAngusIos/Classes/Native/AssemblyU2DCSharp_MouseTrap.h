@@ -7,7 +7,7 @@ struct GameObject_t352;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // MouseTrap
-struct  MouseTrap_t609  : public MonoBehaviour_t13
+struct  MouseTrap_t610  : public MonoBehaviour_t13
 {
 	// UnityEngine.GameObject MouseTrap::mouseTrapEffectPrototype
 	GameObject_t352 * ___mouseTrapEffectPrototype_2;

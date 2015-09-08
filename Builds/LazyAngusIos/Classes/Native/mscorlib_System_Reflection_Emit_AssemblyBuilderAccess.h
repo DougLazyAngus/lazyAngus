@@ -5,7 +5,7 @@
 // System.Reflection.Emit.AssemblyBuilderAccess
 #include "mscorlib_System_Reflection_Emit_AssemblyBuilderAccess.h"
 // System.Reflection.Emit.AssemblyBuilderAccess
-struct  AssemblyBuilderAccess_t5050 
+struct  AssemblyBuilderAccess_t5051 
 {
 	// System.Int32 System.Reflection.Emit.AssemblyBuilderAccess::value__
 	int32_t ___value___1;

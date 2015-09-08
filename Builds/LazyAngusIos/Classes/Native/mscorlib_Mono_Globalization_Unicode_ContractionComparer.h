@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Globalization.Unicode.ContractionComparer
-struct ContractionComparer_t4755;
+struct ContractionComparer_t4756;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Globalization.Unicode.ContractionComparer
-struct  ContractionComparer_t4755  : public Object_t
+struct  ContractionComparer_t4756  : public Object_t
 {
 };
-struct ContractionComparer_t4755_StaticFields{
+struct ContractionComparer_t4756_StaticFields{
 	// Mono.Globalization.Unicode.ContractionComparer Mono.Globalization.Unicode.ContractionComparer::Instance
-	ContractionComparer_t4755 * ___Instance_0;
+	ContractionComparer_t4756 * ___Instance_0;
 };

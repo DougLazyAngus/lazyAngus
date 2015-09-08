@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Uri
-struct Uri_t771;
+struct Uri_t772;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Action`1<System.Uri>
-struct  Action_1_t1188  : public MulticastDelegate_t388
+struct  Action_1_t1189  : public MulticastDelegate_t388
 {
 };

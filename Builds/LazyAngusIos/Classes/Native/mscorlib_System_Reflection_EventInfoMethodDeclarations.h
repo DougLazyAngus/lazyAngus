@@ -16,10 +16,10 @@ struct MethodInfo_t;
 #include "mscorlib_System_Reflection_MemberTypes.h"
 
 // System.Void System.Reflection.EventInfo::.ctor()
-extern "C" void EventInfo__ctor_m21858 (EventInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EventInfo__ctor_m21871 (EventInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.EventAttributes System.Reflection.EventInfo::get_Attributes()
 // System.Type System.Reflection.EventInfo::get_EventHandlerType()
-extern "C" Type_t * EventInfo_get_EventHandlerType_m21859 (EventInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * EventInfo_get_EventHandlerType_m21872 (EventInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MemberTypes System.Reflection.EventInfo::get_MemberType()
-extern "C" int32_t EventInfo_get_MemberType_m21860 (EventInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t EventInfo_get_MemberType_m21873 (EventInfo_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo System.Reflection.EventInfo::GetAddMethod(System.Boolean)

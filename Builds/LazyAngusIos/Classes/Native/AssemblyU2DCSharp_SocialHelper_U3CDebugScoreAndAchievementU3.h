@@ -5,7 +5,7 @@ struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // SocialHelper/<DebugScoreAndAchievement>c__Iterator1A
-struct  U3CDebugScoreAndAchievementU3Ec__Iterator1A_t662  : public Object_t
+struct  U3CDebugScoreAndAchievementU3Ec__Iterator1A_t663  : public Object_t
 {
 	// System.Int32 SocialHelper/<DebugScoreAndAchievement>c__Iterator1A::$PC
 	int32_t ___U24PC_0;

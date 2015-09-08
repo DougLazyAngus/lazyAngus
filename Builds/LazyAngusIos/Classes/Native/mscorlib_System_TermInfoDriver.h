@@ -3,34 +3,34 @@
 // System.String[]
 struct StringU5BU5D_t75;
 // System.TermInfoReader
-struct TermInfoReader_t4912;
+struct TermInfoReader_t4913;
 // System.String
 struct String_t;
 // System.IO.StreamReader
-struct StreamReader_t1178;
+struct StreamReader_t1179;
 // System.IO.CStreamWriter
-struct CStreamWriter_t4850;
+struct CStreamWriter_t4851;
 // System.Char[]
-struct CharU5BU5D_t711;
+struct CharU5BU5D_t712;
 // System.Object
 struct Object_t;
 // System.Collections.Hashtable
-struct Hashtable_t710;
+struct Hashtable_t711;
 // System.ByteMatcher
-struct ByteMatcher_t4913;
+struct ByteMatcher_t4914;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.TermInfoStrings[]
-struct TermInfoStringsU5BU5D_t4914;
+struct TermInfoStringsU5BU5D_t4915;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.ConsoleColor
 #include "mscorlib_System_ConsoleColor.h"
 // System.TermInfoDriver
-struct  TermInfoDriver_t4848  : public Object_t
+struct  TermInfoDriver_t4849  : public Object_t
 {
 	// System.TermInfoReader System.TermInfoDriver::reader
-	TermInfoReader_t4912 * ___reader_3;
+	TermInfoReader_t4913 * ___reader_3;
 	// System.Int32 System.TermInfoDriver::cursorLeft
 	int32_t ___cursorLeft_4;
 	// System.Int32 System.TermInfoDriver::cursorTop
@@ -52,9 +52,9 @@ struct  TermInfoDriver_t4848  : public Object_t
 	// System.String System.TermInfoDriver::term
 	String_t* ___term_13;
 	// System.IO.StreamReader System.TermInfoDriver::stdin
-	StreamReader_t1178 * ___stdin_14;
+	StreamReader_t1179 * ___stdin_14;
 	// System.IO.CStreamWriter System.TermInfoDriver::stdout
-	CStreamWriter_t4850 * ___stdout_15;
+	CStreamWriter_t4851 * ___stdout_15;
 	// System.Int32 System.TermInfoDriver::windowWidth
 	int32_t ___windowWidth_16;
 	// System.Int32 System.TermInfoDriver::windowHeight
@@ -64,7 +64,7 @@ struct  TermInfoDriver_t4848  : public Object_t
 	// System.Int32 System.TermInfoDriver::bufferWidth
 	int32_t ___bufferWidth_19;
 	// System.Char[] System.TermInfoDriver::buffer
-	CharU5BU5D_t711* ___buffer_20;
+	CharU5BU5D_t712* ___buffer_20;
 	// System.Int32 System.TermInfoDriver::readpos
 	int32_t ___readpos_21;
 	// System.Int32 System.TermInfoDriver::writepos
@@ -100,9 +100,9 @@ struct  TermInfoDriver_t4848  : public Object_t
 	// System.Boolean System.TermInfoDriver::noGetPosition
 	bool ___noGetPosition_37;
 	// System.Collections.Hashtable System.TermInfoDriver::keymap
-	Hashtable_t710 * ___keymap_38;
+	Hashtable_t711 * ___keymap_38;
 	// System.ByteMatcher System.TermInfoDriver::rootmap
-	ByteMatcher_t4913 * ___rootmap_39;
+	ByteMatcher_t4914 * ___rootmap_39;
 	// System.Boolean System.TermInfoDriver::home_1_1
 	bool ___home_1_1_40;
 	// System.Int32 System.TermInfoDriver::rl_startx
@@ -112,11 +112,11 @@ struct  TermInfoDriver_t4848  : public Object_t
 	// System.Byte[] System.TermInfoDriver::control_characters
 	ByteU5BU5D_t66* ___control_characters_43;
 	// System.Char[] System.TermInfoDriver::echobuf
-	CharU5BU5D_t711* ___echobuf_44;
+	CharU5BU5D_t712* ___echobuf_44;
 	// System.Int32 System.TermInfoDriver::echon
 	int32_t ___echon_45;
 };
-struct TermInfoDriver_t4848_StaticFields{
+struct TermInfoDriver_t4849_StaticFields{
 	// System.Int32* System.TermInfoDriver::native_terminal_size
 	int32_t* ___native_terminal_size_0;
 	// System.Int32 System.TermInfoDriver::terminal_size
@@ -124,5 +124,5 @@ struct TermInfoDriver_t4848_StaticFields{
 	// System.String[] System.TermInfoDriver::locations
 	StringU5BU5D_t75* ___locations_2;
 	// System.TermInfoStrings[] System.TermInfoDriver::UsedKeys
-	TermInfoStringsU5BU5D_t4914* ___UsedKeys_46;
+	TermInfoStringsU5BU5D_t4915* ___UsedKeys_46;
 };

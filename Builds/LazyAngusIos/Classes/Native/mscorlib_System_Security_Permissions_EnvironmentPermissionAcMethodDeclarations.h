@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Permissions.EnvironmentPermissionAccess
-struct EnvironmentPermissionAccess_t5290;
+struct EnvironmentPermissionAccess_t5291;
 

@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.Schema.ValidationHandler
-struct  ValidationHandler_t3697  : public Object_t
+struct  ValidationHandler_t3698  : public Object_t
 {
 };

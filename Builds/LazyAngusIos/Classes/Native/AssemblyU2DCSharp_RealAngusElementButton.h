@@ -2,18 +2,22 @@
 #include <stdint.h>
 // UnityEngine.UI.Image
 struct Image_t503;
+// UnityEngine.GameObject
+struct GameObject_t352;
 // DistortForEffect
 struct DistortForEffect_t537;
 // RealAngusElementButton/ButtonHandler
-struct ButtonHandler_t645;
+struct ButtonHandler_t646;
+// InOutTransitioner
+struct InOutTransitioner_t575;
 // RealAngusItemDesc
-struct RealAngusItemDesc_t646;
+struct RealAngusItemDesc_t647;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // RealAngusElementButton
-struct  RealAngusElementButton_t639  : public MonoBehaviour_t13
+struct  RealAngusElementButton_t640  : public MonoBehaviour_t13
 {
 	// UnityEngine.UI.Image RealAngusElementButton::photoImage
 	Image_t503 * ___photoImage_2;
@@ -21,32 +25,28 @@ struct  RealAngusElementButton_t639  : public MonoBehaviour_t13
 	Image_t503 * ___frameImage_3;
 	// UnityEngine.UI.Image RealAngusElementButton::shadowImage
 	Image_t503 * ___shadowImage_4;
-	// UnityEngine.UI.Image RealAngusElementButton::lockImage
-	Image_t503 * ___lockImage_5;
+	// UnityEngine.GameObject RealAngusElementButton::lockWidgetGameObject
+	GameObject_t352 * ___lockWidgetGameObject_5;
 	// System.Single RealAngusElementButton::pauseBeforePulsing
 	float ___pauseBeforePulsing_6;
-	// System.Single RealAngusElementButton::startTransitionTime
-	float ___startTransitionTime_7;
-	// System.Boolean RealAngusElementButton::transitioning
-	bool ___transitioning_8;
 	// DistortForEffect RealAngusElementButton::distortForEffect
-	DistortForEffect_t537 * ___distortForEffect_9;
+	DistortForEffect_t537 * ___distortForEffect_7;
 	// RealAngusElementButton/ButtonHandler RealAngusElementButton::OnButtonClicked
-	ButtonHandler_t645 * ___OnButtonClicked_10;
+	ButtonHandler_t646 * ___OnButtonClicked_8;
 	// RealAngusElementButton/ButtonHandler RealAngusElementButton::OnTransitionComplete
-	ButtonHandler_t645 * ___OnTransitionComplete_11;
+	ButtonHandler_t646 * ___OnTransitionComplete_9;
 	// UnityEngine.Vector2 RealAngusElementButton::homePosition
-	Vector2_t110  ___homePosition_12;
+	Vector2_t110  ___homePosition_10;
 	// System.Single RealAngusElementButton::homeRotation
-	float ___homeRotation_13;
+	float ___homeRotation_11;
 	// UnityEngine.Vector2 RealAngusElementButton::selectedPosition
-	Vector2_t110  ___selectedPosition_14;
+	Vector2_t110  ___selectedPosition_12;
 	// System.Single RealAngusElementButton::selectedRotation
-	float ___selectedRotation_15;
+	float ___selectedRotation_13;
 	// System.Single RealAngusElementButton::selectedScale
-	float ___selectedScale_16;
+	float ___selectedScale_14;
+	// InOutTransitioner RealAngusElementButton::transitioner
+	InOutTransitioner_t575 * ___transitioner_15;
 	// RealAngusItemDesc RealAngusElementButton::<raid>k__BackingField
-	RealAngusItemDesc_t646 * ___U3CraidU3Ek__BackingField_17;
-	// System.Boolean RealAngusElementButton::<selected>k__BackingField
-	bool ___U3CselectedU3Ek__BackingField_18;
+	RealAngusItemDesc_t647 * ___U3CraidU3Ek__BackingField_16;
 };

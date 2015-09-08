@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Networking.Match.Request
-struct Request_t2809;
+struct Request_t2810;
 // System.String
 struct String_t;
 // UnityEngine.Networking.Types.SourceID
@@ -14,12 +14,12 @@ struct String_t;
 #include "UnityEngine_UnityEngine_Networking_Types_AppID.h"
 
 // System.Void UnityEngine.Networking.Match.Request::.ctor()
-extern "C" void Request__ctor_m9785 (Request_t2809 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Request__ctor_m9798 (Request_t2810 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Networking.Types.SourceID UnityEngine.Networking.Match.Request::get_sourceId()
-extern "C" uint64_t Request_get_sourceId_m9786 (Request_t2809 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Request_get_sourceId_m9799 (Request_t2810 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Networking.Types.AppID UnityEngine.Networking.Match.Request::get_appId()
-extern "C" uint64_t Request_get_appId_m9787 (Request_t2809 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" uint64_t Request_get_appId_m9800 (Request_t2810 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Networking.Match.Request::get_domain()
-extern "C" int32_t Request_get_domain_m9788 (Request_t2809 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Request_get_domain_m9801 (Request_t2810 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Networking.Match.Request::ToString()
-extern "C" String_t* Request_ToString_m9789 (Request_t2809 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Request_ToString_m9802 (Request_t2810 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

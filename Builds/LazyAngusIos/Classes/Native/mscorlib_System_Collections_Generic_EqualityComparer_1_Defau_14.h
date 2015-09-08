@@ -3,6 +3,6 @@
 // System.Collections.Generic.EqualityComparer`1<Parse.ParseGeoPoint>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_15.h"
 // System.Collections.Generic.EqualityComparer`1/DefaultComparer<Parse.ParseGeoPoint>
-struct  DefaultComparer_t7436  : public EqualityComparer_1_t7435
+struct  DefaultComparer_t7437  : public EqualityComparer_1_t7436
 {
 };

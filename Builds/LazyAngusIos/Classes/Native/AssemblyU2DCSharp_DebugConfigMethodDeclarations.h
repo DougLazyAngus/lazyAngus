@@ -21,3 +21,5 @@ extern "C" void DebugConfig_Start_m2883 (DebugConfig_t533 * __this, const Method
 extern "C" bool DebugConfig_IsDebugFlagSet_m2884 (DebugConfig_t533 * __this, int32_t ___debugFlag, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void DebugConfig::SetDebugFlags(System.Int32)
 extern "C" void DebugConfig_SetDebugFlags_m2885 (DebugConfig_t533 * __this, int32_t ___debugFlags, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 DebugConfig::GetDebugFlags()
+extern "C" int32_t DebugConfig_GetDebugFlags_m2886 (DebugConfig_t533 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

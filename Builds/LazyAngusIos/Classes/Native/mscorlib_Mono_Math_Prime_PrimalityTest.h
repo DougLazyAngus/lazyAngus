@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Math.BigInteger
-struct BigInteger_t4772;
+struct BigInteger_t4773;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // Mono.Math.Prime.PrimalityTest
-struct  PrimalityTest_t5387  : public MulticastDelegate_t388
+struct  PrimalityTest_t5388  : public MulticastDelegate_t388
 {
 };

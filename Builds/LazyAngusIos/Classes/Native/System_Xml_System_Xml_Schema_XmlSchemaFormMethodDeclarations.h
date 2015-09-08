@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Schema.XmlSchemaForm
-struct XmlSchemaForm_t3654;
+struct XmlSchemaForm_t3655;
 

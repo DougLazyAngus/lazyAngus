@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.Expressions.Extensions
-struct  Extensions_t3764  : public Object_t
+struct  Extensions_t3765  : public Object_t
 {
 };

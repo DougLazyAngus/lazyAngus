@@ -3,11 +3,11 @@
 // UnityEngine.GameObject
 struct GameObject_t352;
 // UnityEngine.CircleCollider2D
-struct CircleCollider2D_t622;
+struct CircleCollider2D_t623;
 // UnityEngine.Transform
 struct Transform_t406;
 // TimerWidget
-struct TimerWidget_t623;
+struct TimerWidget_t624;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector3
@@ -15,7 +15,7 @@ struct TimerWidget_t623;
 // PawController/SwipePhase
 #include "AssemblyU2DCSharp_PawController_SwipePhase.h"
 // PawController
-struct  PawController_t619  : public MonoBehaviour_t13
+struct  PawController_t620  : public MonoBehaviour_t13
 {
 	// UnityEngine.Vector3 PawController::nextSwipeLocationCat
 	Vector3_t538  ___nextSwipeLocationCat_2;
@@ -36,9 +36,9 @@ struct  PawController_t619  : public MonoBehaviour_t13
 	// UnityEngine.GameObject PawController::bigDangerPawArtGameObject
 	GameObject_t352 * ___bigDangerPawArtGameObject_10;
 	// UnityEngine.CircleCollider2D PawController::normalCollider
-	CircleCollider2D_t622 * ___normalCollider_11;
+	CircleCollider2D_t623 * ___normalCollider_11;
 	// UnityEngine.CircleCollider2D PawController::bigCollider
-	CircleCollider2D_t622 * ___bigCollider_12;
+	CircleCollider2D_t623 * ___bigCollider_12;
 	// System.Single PawController::debugTimer
 	float ___debugTimer_13;
 	// System.Single PawController::swipeSpeed
@@ -58,5 +58,5 @@ struct  PawController_t619  : public MonoBehaviour_t13
 	// UnityEngine.GameObject PawController::timerWidgetPrototype
 	GameObject_t352 * ___timerWidgetPrototype_21;
 	// TimerWidget PawController::timerWidget
-	TimerWidget_t623 * ___timerWidget_22;
+	TimerWidget_t624 * ___timerWidget_22;
 };

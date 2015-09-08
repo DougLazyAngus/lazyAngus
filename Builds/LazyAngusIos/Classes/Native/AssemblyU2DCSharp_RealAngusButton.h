@@ -5,7 +5,7 @@ struct GameObject_t352;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // RealAngusButton
-struct  RealAngusButton_t636  : public MonoBehaviour_t13
+struct  RealAngusButton_t637  : public MonoBehaviour_t13
 {
 	// UnityEngine.GameObject RealAngusButton::newLabel
 	GameObject_t352 * ___newLabel_2;

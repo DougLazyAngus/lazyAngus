@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Converter`2<System.Object,System.Object>
-struct Converter_2_t9277;
+struct Converter_2_t9278;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,14 +16,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Converter`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
-extern "C" void Converter_2__ctor_m69257_gshared (Converter_2_t9277 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Converter_2__ctor_m69257(__this, ___object, ___method, method) (( void (*) (Converter_2_t9277 *, Object_t *, IntPtr_t, const MethodInfo*))Converter_2__ctor_m69257_gshared)(__this, ___object, ___method, method)
+extern "C" void Converter_2__ctor_m69270_gshared (Converter_2_t9278 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Converter_2__ctor_m69270(__this, ___object, ___method, method) (( void (*) (Converter_2_t9278 *, Object_t *, IntPtr_t, const MethodInfo*))Converter_2__ctor_m69270_gshared)(__this, ___object, ___method, method)
 // TOutput System.Converter`2<System.Object,System.Object>::Invoke(TInput)
-extern "C" Object_t * Converter_2_Invoke_m69258_gshared (Converter_2_t9277 * __this, Object_t * ___input, const MethodInfo* method);
-#define Converter_2_Invoke_m69258(__this, ___input, method) (( Object_t * (*) (Converter_2_t9277 *, Object_t *, const MethodInfo*))Converter_2_Invoke_m69258_gshared)(__this, ___input, method)
+extern "C" Object_t * Converter_2_Invoke_m69271_gshared (Converter_2_t9278 * __this, Object_t * ___input, const MethodInfo* method);
+#define Converter_2_Invoke_m69271(__this, ___input, method) (( Object_t * (*) (Converter_2_t9278 *, Object_t *, const MethodInfo*))Converter_2_Invoke_m69271_gshared)(__this, ___input, method)
 // System.IAsyncResult System.Converter`2<System.Object,System.Object>::BeginInvoke(TInput,System.AsyncCallback,System.Object)
-extern "C" Object_t * Converter_2_BeginInvoke_m69259_gshared (Converter_2_t9277 * __this, Object_t * ___input, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Converter_2_BeginInvoke_m69259(__this, ___input, ___callback, ___object, method) (( Object_t * (*) (Converter_2_t9277 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Converter_2_BeginInvoke_m69259_gshared)(__this, ___input, ___callback, ___object, method)
+extern "C" Object_t * Converter_2_BeginInvoke_m69272_gshared (Converter_2_t9278 * __this, Object_t * ___input, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Converter_2_BeginInvoke_m69272(__this, ___input, ___callback, ___object, method) (( Object_t * (*) (Converter_2_t9278 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Converter_2_BeginInvoke_m69272_gshared)(__this, ___input, ___callback, ___object, method)
 // TOutput System.Converter`2<System.Object,System.Object>::EndInvoke(System.IAsyncResult)
-extern "C" Object_t * Converter_2_EndInvoke_m69260_gshared (Converter_2_t9277 * __this, Object_t * ___result, const MethodInfo* method);
-#define Converter_2_EndInvoke_m69260(__this, ___result, method) (( Object_t * (*) (Converter_2_t9277 *, Object_t *, const MethodInfo*))Converter_2_EndInvoke_m69260_gshared)(__this, ___result, method)
+extern "C" Object_t * Converter_2_EndInvoke_m69273_gshared (Converter_2_t9278 * __this, Object_t * ___result, const MethodInfo* method);
+#define Converter_2_EndInvoke_m69273(__this, ___result, method) (( Object_t * (*) (Converter_2_t9278 *, Object_t *, const MethodInfo*))Converter_2_EndInvoke_m69273_gshared)(__this, ___result, method)

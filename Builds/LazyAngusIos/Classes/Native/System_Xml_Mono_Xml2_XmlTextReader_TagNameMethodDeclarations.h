@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml2.XmlTextReader/TagName
-struct TagName_t3543;
-struct TagName_t3543_marshaled;
+struct TagName_t3544;
+struct TagName_t3544_marshaled;
 // System.String
 struct String_t;
 
 // System.Void Mono.Xml2.XmlTextReader/TagName::.ctor(System.String,System.String,System.String)
-extern "C" void TagName__ctor_m13329 (TagName_t3543 * __this, String_t* ___n, String_t* ___l, String_t* ___p, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-void TagName_t3543_marshal(const TagName_t3543& unmarshaled, TagName_t3543_marshaled& marshaled);
-void TagName_t3543_marshal_back(const TagName_t3543_marshaled& marshaled, TagName_t3543& unmarshaled);
-void TagName_t3543_marshal_cleanup(TagName_t3543_marshaled& marshaled);
+extern "C" void TagName__ctor_m13342 (TagName_t3544 * __this, String_t* ___n, String_t* ___l, String_t* ___p, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+void TagName_t3544_marshal(const TagName_t3544& unmarshaled, TagName_t3544_marshaled& marshaled);
+void TagName_t3544_marshal_back(const TagName_t3544_marshaled& marshaled, TagName_t3544& unmarshaled);
+void TagName_t3544_marshal_cleanup(TagName_t3544_marshaled& marshaled);

@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Globalization.CCGregorianCalendar
-struct  CCGregorianCalendar_t4968  : public Object_t
+struct  CCGregorianCalendar_t4969  : public Object_t
 {
 };

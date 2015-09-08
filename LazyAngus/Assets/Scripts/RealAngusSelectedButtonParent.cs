@@ -1,12 +1,10 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
 public class RealAngusSelectedButtonParent : MonoBehaviour {
 
-	float startTransitionTime;
-	bool transitioning;
-	bool visible;
+	InOutTransitioner transitioner;
 	Image image;
 	float selectedBackgroundAlpha = 0.4f;
 
@@ -16,12 +14,15 @@ public class RealAngusSelectedButtonParent : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (!transitioning) {
+		MaybeMakeTransitioner ();
+		if (!transitioner.IsTransitioning()) {
+			if (transitioner.GetFractionIn () == 0) {
+				gameObject.SetActive (false);
+			}			
 			return;
 		}
 		
@@ -30,31 +31,29 @@ public class RealAngusSelectedButtonParent : MonoBehaviour {
 
 	
 	void UpdateSelectionState() {
-		float timeFraction = (Time.time - startTransitionTime) / 
-			TweakableParams.realAngusSelectionFadeTime;
-		if (timeFraction >= 1) {
-			transitioning = false;
-			if (!visible) {
-				gameObject.SetActive (false);
-			}
-		} else {
-			if (visible) {
-				image.color = new Color (0, 0, 0, 
-				                         selectedBackgroundAlpha * timeFraction);
-			} else {
-				image.color = new Color (0, 0, 0, 
-				                         selectedBackgroundAlpha * (1 - timeFraction));
-			}
-		}
+		transitioner.UpdateTransitionFraction ();
+		UpdateImage ();
+	}
+
+	void UpdateImage() {
+		float fractionIn = transitioner.GetFractionIn ();
+		image.color = new Color (0, 0, 0, 
+		                         selectedBackgroundAlpha * fractionIn);
 	}
 
 	public void StartVisibilityTransition(bool visible) {
-		this.visible = visible;
-		transitioning = true;
-		startTransitionTime = Time.time;
+		MaybeMakeTransitioner ();
+		transitioner.Transition (visible);
 
 		if (visible) {
 			gameObject.SetActive(true);
+			UpdateImage();
+		}
+	}
+
+	void MaybeMakeTransitioner() {
+		if (transitioner == null) {
+			transitioner = new InOutTransitioner (TweakableParams.realAngusSelectionFadeTime);
 		}
 	}
 }

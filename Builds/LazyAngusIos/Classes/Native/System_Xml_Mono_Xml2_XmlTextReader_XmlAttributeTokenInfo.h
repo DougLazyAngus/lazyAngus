@@ -7,7 +7,7 @@ struct StringBuilder_t261;
 // Mono.Xml2.XmlTextReader/XmlTokenInfo
 #include "System_Xml_Mono_Xml2_XmlTextReader_XmlTokenInfo.h"
 // Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo
-struct  XmlAttributeTokenInfo_t3542  : public XmlTokenInfo_t3541
+struct  XmlAttributeTokenInfo_t3543  : public XmlTokenInfo_t3542
 {
 	// System.Int32 Mono.Xml2.XmlTextReader/XmlAttributeTokenInfo::ValueTokenStartIndex
 	int32_t ___ValueTokenStartIndex_13;

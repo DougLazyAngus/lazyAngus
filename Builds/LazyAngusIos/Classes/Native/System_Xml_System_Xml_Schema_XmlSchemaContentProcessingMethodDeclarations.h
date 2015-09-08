@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Schema.XmlSchemaContentProcessing
-struct XmlSchemaContentProcessing_t3646;
+struct XmlSchemaContentProcessing_t3647;
 

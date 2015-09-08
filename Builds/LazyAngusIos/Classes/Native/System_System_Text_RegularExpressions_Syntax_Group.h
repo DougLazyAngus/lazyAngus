@@ -3,6 +3,6 @@
 // System.Text.RegularExpressions.Syntax.CompositeExpression
 #include "System_System_Text_RegularExpressions_Syntax_CompositeExpres.h"
 // System.Text.RegularExpressions.Syntax.Group
-struct  Group_t4519  : public CompositeExpression_t4518
+struct  Group_t4520  : public CompositeExpression_t4519
 {
 };

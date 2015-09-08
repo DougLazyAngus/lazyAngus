@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Predicate`1<Parse.ParseFile>
-struct Predicate_1_t7530;
+struct Predicate_1_t7531;
 // System.Object
 struct Object_t;
 // Parse.ParseFile
-struct ParseFile_t1259;
+struct ParseFile_t1260;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Predicate`1<Parse.ParseFile>::.ctor(System.Object,System.IntPtr)
 // System.Predicate`1<System.Object>
 #include "mscorlib_System_Predicate_1_gen_3MethodDeclarations.h"
-#define Predicate_1__ctor_m47997(__this, ___object, ___method, method) (( void (*) (Predicate_1_t7530 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m26060_gshared)(__this, ___object, ___method, method)
+#define Predicate_1__ctor_m48010(__this, ___object, ___method, method) (( void (*) (Predicate_1_t7531 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m26073_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<Parse.ParseFile>::Invoke(T)
-#define Predicate_1_Invoke_m47998(__this, ___obj, method) (( bool (*) (Predicate_1_t7530 *, ParseFile_t1259 *, const MethodInfo*))Predicate_1_Invoke_m26061_gshared)(__this, ___obj, method)
+#define Predicate_1_Invoke_m48011(__this, ___obj, method) (( bool (*) (Predicate_1_t7531 *, ParseFile_t1260 *, const MethodInfo*))Predicate_1_Invoke_m26074_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<Parse.ParseFile>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m47999(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t7530 *, ParseFile_t1259 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m26062_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Predicate_1_BeginInvoke_m48012(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t7531 *, ParseFile_t1260 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m26075_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<Parse.ParseFile>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m48000(__this, ___result, method) (( bool (*) (Predicate_1_t7530 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m26063_gshared)(__this, ___result, method)
+#define Predicate_1_EndInvoke_m48013(__this, ___result, method) (( bool (*) (Predicate_1_t7531 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m26076_gshared)(__this, ___result, method)

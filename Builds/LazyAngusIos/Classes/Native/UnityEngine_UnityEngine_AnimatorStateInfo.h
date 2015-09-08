@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.AnimatorStateInfo
-struct  AnimatorStateInfo_t2795 
+struct  AnimatorStateInfo_t2796 
 {
 	// System.Int32 UnityEngine.AnimatorStateInfo::m_Name
 	int32_t ___m_Name_0;

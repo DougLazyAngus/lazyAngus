@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.Internal.FacebookAuthenticationProvider/<>c__DisplayClassb
-struct U3CU3Ec__DisplayClassb_t1187;
+struct U3CU3Ec__DisplayClassb_t1188;
 
 // System.Void Parse.Internal.FacebookAuthenticationProvider/<>c__DisplayClassb::.ctor()
-extern "C" void U3CU3Ec__DisplayClassb__ctor_m6552 (U3CU3Ec__DisplayClassb_t1187 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClassb__ctor_m6565 (U3CU3Ec__DisplayClassb_t1188 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.Internal.FacebookAuthenticationProvider/<>c__DisplayClassb::<AuthenticateAsync>b__a()
-extern "C" void U3CU3Ec__DisplayClassb_U3CAuthenticateAsyncU3Eb__a_m6553 (U3CU3Ec__DisplayClassb_t1187 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClassb_U3CAuthenticateAsyncU3Eb__a_m6566 (U3CU3Ec__DisplayClassb_t1188 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

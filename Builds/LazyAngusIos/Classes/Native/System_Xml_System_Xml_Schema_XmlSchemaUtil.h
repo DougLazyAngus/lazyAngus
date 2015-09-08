@@ -7,10 +7,10 @@ struct Dictionary_2_t223;
 // System.Xml.Schema.XmlSchemaDerivationMethod
 #include "System_Xml_System_Xml_Schema_XmlSchemaDerivationMethod.h"
 // System.Xml.Schema.XmlSchemaUtil
-struct  XmlSchemaUtil_t3698  : public Object_t
+struct  XmlSchemaUtil_t3699  : public Object_t
 {
 };
-struct XmlSchemaUtil_t3698_StaticFields{
+struct XmlSchemaUtil_t3699_StaticFields{
 	// System.Xml.Schema.XmlSchemaDerivationMethod System.Xml.Schema.XmlSchemaUtil::FinalAllowed
 	int32_t ___FinalAllowed_0;
 	// System.Xml.Schema.XmlSchemaDerivationMethod System.Xml.Schema.XmlSchemaUtil::ElementBlockAllowed

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Configuration.ConfigurationLockType
-struct ConfigurationLockType_t3323;
+struct ConfigurationLockType_t3324;
 

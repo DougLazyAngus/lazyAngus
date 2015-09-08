@@ -3,28 +3,28 @@
 // System.Object
 struct Object_t;
 // System.Collections.Hashtable
-struct Hashtable_t710;
+struct Hashtable_t711;
 // System.String
 struct String_t;
 // System.Text.RegularExpressions.Regex
-struct Regex_t801;
+struct Regex_t802;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.UriParser
-struct  UriParser_t4277  : public Object_t
+struct  UriParser_t4278  : public Object_t
 {
 	// System.String System.UriParser::scheme_name
 	String_t* ___scheme_name_2;
 	// System.Int32 System.UriParser::default_port
 	int32_t ___default_port_3;
 };
-struct UriParser_t4277_StaticFields{
+struct UriParser_t4278_StaticFields{
 	// System.Object System.UriParser::lock_object
 	Object_t * ___lock_object_0;
 	// System.Collections.Hashtable System.UriParser::table
-	Hashtable_t710 * ___table_1;
+	Hashtable_t711 * ___table_1;
 	// System.Text.RegularExpressions.Regex System.UriParser::uri_regex
-	Regex_t801 * ___uri_regex_4;
+	Regex_t802 * ___uri_regex_4;
 	// System.Text.RegularExpressions.Regex System.UriParser::auth_regex
-	Regex_t801 * ___auth_regex_5;
+	Regex_t802 * ___auth_regex_5;
 };

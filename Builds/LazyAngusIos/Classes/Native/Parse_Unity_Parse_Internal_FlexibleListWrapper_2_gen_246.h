@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<System.Collections.Generic.IDictionary`2<System.String,System.Object>>
-struct IList_1_t6703;
+struct IList_1_t6704;
 // System.Func`2<System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.Object>
-struct Func_2_t7583;
+struct Func_2_t7584;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.FlexibleListWrapper`2<System.Object,System.Collections.Generic.IDictionary`2<System.String,System.Object>>
-struct  FlexibleListWrapper_2_t1825  : public Object_t
+struct  FlexibleListWrapper_2_t1826  : public Object_t
 {
 	// System.Collections.Generic.IList`1<TIn> Parse.Internal.FlexibleListWrapper`2<System.Object,System.Collections.Generic.IDictionary`2<System.String,System.Object>>::toWrap
 	Object_t* ___toWrap_0;
 };
-struct FlexibleListWrapper_2_t1825_StaticFields{
+struct FlexibleListWrapper_2_t1826_StaticFields{
 	// System.Func`2<TIn,TOut> Parse.Internal.FlexibleListWrapper`2<System.Object,System.Collections.Generic.IDictionary`2<System.String,System.Object>>::CS$<>9__CachedAnonymousMethodDelegate1
-	Func_2_t7583 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_1;
+	Func_2_t7584 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_1;
 };

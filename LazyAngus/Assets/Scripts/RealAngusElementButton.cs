@@ -12,8 +12,6 @@ public class RealAngusElementButton : MonoBehaviour
 	public float pauseBeforePulsing = 0.5f;
 	public RealAngusItemDesc raid { get; private set; }
 
-	float startTransitionTime;
-	bool transitioning = true;
 	DistortForEffect distortForEffect;
 
 	public delegate void ButtonHandler (RealAngusElementButton button);
@@ -21,18 +19,18 @@ public class RealAngusElementButton : MonoBehaviour
 	ButtonHandler OnButtonClicked;
 	ButtonHandler OnTransitionComplete;
 
-	public bool selected { get; private set; }
-	
 	Vector2 homePosition;
 	float homeRotation;
 
 	Vector2 selectedPosition;
 	float selectedRotation;
 	float selectedScale;
+	InOutTransitioner transitioner;
 	
 	void Awake ()
 	{
 		distortForEffect = GetComponent<DistortForEffect> ();
+		transitioner = new InOutTransitioner (TweakableParams.realAngusSelectionMoveTime);
 	}
 	
 	// Use this for initialization
@@ -43,23 +41,22 @@ public class RealAngusElementButton : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{	
-		if (transitioning) {
-			UpdateSelectionState();
+		if (!transitioner.IsTransitioning()) {
+			return;
 		}
+
+		UpdateSelectionState();
 	}
 
 	void UpdateSelectionState() {
-		float timeFraction = (Time.time - startTransitionTime) / 
-			TweakableParams.realAngusSelectionMoveTime;
+		transitioner.UpdateTransitionFraction ();
+		float fractionIn = transitioner.GetFractionIn ();
+		Utilities.LerpTransform (fractionIn, 
+		                         homePosition, homeRotation, 1, 
+		                         selectedPosition, selectedRotation, selectedScale, 
+		                         transform);
 
-		Utilities.LerpTransformInOut (selected, 
-		                              timeFraction,
-		                              homePosition, homeRotation, 1, 
-		                              selectedPosition, selectedRotation, selectedScale, 
-		                              transform);
-
-		if (timeFraction >= 1) {
-			transitioning = false;
+		if (!transitioner.IsTransitioning ()) {
 			if (OnTransitionComplete != null) {
 				OnTransitionComplete (this);
 			}
@@ -125,30 +122,16 @@ public class RealAngusElementButton : MonoBehaviour
 	public void SetSelected (bool selected, 
 	                         bool skipTransition=false)
 	{
-		if (selected == this.selected) {
-			return;
-		}
-
-		this.selected = selected;
 		if (skipTransition) {
-			startTransitionTime = 0;
+			transitioner.Reset (selected);
 			UpdateSelectionState();
 		} else {
-			SetStartTransitionTime();
-			transitioning = true;
+			transitioner.Transition(selected);
 		}
 	}
 
-	void SetStartTransitionTime() {
-		// If already transitioning, we just want to go back through as much 
-		// time as was just used.
-		if (transitioning) {
-			float timeAlreadySpent = Time.time - startTransitionTime;
-			float timeRemaining = TweakableParams.realAngusSelectionMoveTime - timeAlreadySpent;
-			startTransitionTime = Time.time - timeRemaining;
-		} else {
-			startTransitionTime = Time.time;
-		}
+	public bool IsSelected() {
+		return transitioner.movingIn;
 	}
 
 	public void SetSelectedTransform(Vector2 position, 

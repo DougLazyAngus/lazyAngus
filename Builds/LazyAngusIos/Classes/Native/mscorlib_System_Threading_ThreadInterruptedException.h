@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.Threading.ThreadInterruptedException
-struct  ThreadInterruptedException_t5379  : public SystemException_t3383
+struct  ThreadInterruptedException_t5380  : public SystemException_t3384
 {
 };

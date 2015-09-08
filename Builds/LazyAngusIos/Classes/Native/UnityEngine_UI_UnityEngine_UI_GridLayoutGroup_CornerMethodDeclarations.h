@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.GridLayoutGroup/Corner
-struct Corner_t1011;
+struct Corner_t1012;
 

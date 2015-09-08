@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.Tasks.TaskFactory/<>c__DisplayClass1`1<System.Object>
-struct U3CU3Ec__DisplayClass1_1_t6521;
+struct U3CU3Ec__DisplayClass1_1_t6522;
 
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass1`1<System.Object>::.ctor()
-extern "C" void U3CU3Ec__DisplayClass1_1__ctor_m35251_gshared (U3CU3Ec__DisplayClass1_1_t6521 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass1_1__ctor_m35251(__this, method) (( void (*) (U3CU3Ec__DisplayClass1_1_t6521 *, const MethodInfo*))U3CU3Ec__DisplayClass1_1__ctor_m35251_gshared)(__this, method)
+extern "C" void U3CU3Ec__DisplayClass1_1__ctor_m35264_gshared (U3CU3Ec__DisplayClass1_1_t6522 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass1_1__ctor_m35264(__this, method) (( void (*) (U3CU3Ec__DisplayClass1_1_t6522 *, const MethodInfo*))U3CU3Ec__DisplayClass1_1__ctor_m35264_gshared)(__this, method)
 // System.Void System.Threading.Tasks.TaskFactory/<>c__DisplayClass1`1<System.Object>::<StartNew>b__0()
-extern "C" void U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m35252_gshared (U3CU3Ec__DisplayClass1_1_t6521 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m35252(__this, method) (( void (*) (U3CU3Ec__DisplayClass1_1_t6521 *, const MethodInfo*))U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m35252_gshared)(__this, method)
+extern "C" void U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m35265_gshared (U3CU3Ec__DisplayClass1_1_t6522 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m35265(__this, method) (( void (*) (U3CU3Ec__DisplayClass1_1_t6522 *, const MethodInfo*))U3CU3Ec__DisplayClass1_1_U3CStartNewU3Eb__0_m35265_gshared)(__this, method)

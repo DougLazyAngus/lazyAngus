@@ -5,7 +5,7 @@
 // System.Security.Permissions.ReflectionPermissionFlag
 #include "mscorlib_System_Security_Permissions_ReflectionPermissionFla.h"
 // System.Security.Permissions.ReflectionPermission
-struct  ReflectionPermission_t5306  : public CodeAccessPermission_t5226
+struct  ReflectionPermission_t5307  : public CodeAccessPermission_t5227
 {
 	// System.Security.Permissions.ReflectionPermissionFlag System.Security.Permissions.ReflectionPermission::flags
 	int32_t ___flags_0;

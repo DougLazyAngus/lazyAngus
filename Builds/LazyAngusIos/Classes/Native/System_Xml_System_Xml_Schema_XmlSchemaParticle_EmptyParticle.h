@@ -3,6 +3,6 @@
 // System.Xml.Schema.XmlSchemaParticle
 #include "System_Xml_System_Xml_Schema_XmlSchemaParticle.h"
 // System.Xml.Schema.XmlSchemaParticle/EmptyParticle
-struct  EmptyParticle_t3677  : public XmlSchemaParticle_t3629
+struct  EmptyParticle_t3678  : public XmlSchemaParticle_t3630
 {
 };

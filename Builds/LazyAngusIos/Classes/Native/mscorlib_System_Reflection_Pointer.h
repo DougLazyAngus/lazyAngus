@@ -7,7 +7,7 @@ struct Type_t;
 // System.Void
 #include "mscorlib_System_Void.h"
 // System.Reflection.Pointer
-struct  Pointer_t5034  : public Object_t
+struct  Pointer_t5035  : public Object_t
 {
 	// System.Void* System.Reflection.Pointer::data
 	void* ___data_0;

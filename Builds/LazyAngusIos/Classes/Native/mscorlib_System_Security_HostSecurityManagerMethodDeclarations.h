@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.HostSecurityManager
-struct HostSecurityManager_t5227;
+struct HostSecurityManager_t5228;
 // System.Security.Policy.Evidence
-struct Evidence_t4832;
+struct Evidence_t4833;
 // System.Reflection.Assembly
-struct Assembly_t783;
+struct Assembly_t784;
 // System.Security.HostSecurityManagerOptions
 #include "mscorlib_System_Security_HostSecurityManagerOptions.h"
 
 // System.Void System.Security.HostSecurityManager::.ctor()
-extern "C" void HostSecurityManager__ctor_m23139 (HostSecurityManager_t5227 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HostSecurityManager__ctor_m23152 (HostSecurityManager_t5228 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.HostSecurityManagerOptions System.Security.HostSecurityManager::get_Flags()
-extern "C" int32_t HostSecurityManager_get_Flags_m23140 (HostSecurityManager_t5227 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t HostSecurityManager_get_Flags_m23153 (HostSecurityManager_t5228 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Policy.Evidence System.Security.HostSecurityManager::ProvideAssemblyEvidence(System.Reflection.Assembly,System.Security.Policy.Evidence)
-extern "C" Evidence_t4832 * HostSecurityManager_ProvideAssemblyEvidence_m23141 (HostSecurityManager_t5227 * __this, Assembly_t783 * ___loadedAssembly, Evidence_t4832 * ___inputEvidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Evidence_t4833 * HostSecurityManager_ProvideAssemblyEvidence_m23154 (HostSecurityManager_t5228 * __this, Assembly_t784 * ___loadedAssembly, Evidence_t4833 * ___inputEvidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,7 +5,7 @@
 // System.Configuration.ConfigurationElementCollectionType
 #include "System_Configuration_System_Configuration_ConfigurationEleme.h"
 // System.Configuration.ConfigurationElementCollectionType
-struct  ConfigurationElementCollectionType_t3317 
+struct  ConfigurationElementCollectionType_t3318 
 {
 	// System.Int32 System.Configuration.ConfigurationElementCollectionType::value__
 	int32_t ___value___1;

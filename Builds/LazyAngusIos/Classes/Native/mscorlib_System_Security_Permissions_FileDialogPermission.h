@@ -5,7 +5,7 @@
 // System.Security.Permissions.FileDialogPermissionAccess
 #include "mscorlib_System_Security_Permissions_FileDialogPermissionAcc.h"
 // System.Security.Permissions.FileDialogPermission
-struct  FileDialogPermission_t5291  : public CodeAccessPermission_t5226
+struct  FileDialogPermission_t5292  : public CodeAccessPermission_t5227
 {
 	// System.Security.Permissions.FileDialogPermissionAccess System.Security.Permissions.FileDialogPermission::_access
 	int32_t ____access_0;

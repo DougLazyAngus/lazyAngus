@@ -9,7 +9,7 @@ struct Image_t503;
 // WorldRelativeGUIElement
 #include "AssemblyU2DCSharp_WorldRelativeGUIElement.h"
 // TimerWidget
-struct  TimerWidget_t623  : public WorldRelativeGUIElement_t550
+struct  TimerWidget_t624  : public WorldRelativeGUIElement_t550
 {
 	// UnityEngine.GameObject TimerWidget::worldCanvasGameObject
 	GameObject_t352 * ___worldCanvasGameObject_7;

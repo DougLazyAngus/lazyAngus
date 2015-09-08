@@ -14,6 +14,7 @@ public class DebugConfig : MonoBehaviour {
 
 	public const int DEBUG_FLAG_SHORT_MOUSE_PATH = 0;
 	public const int DEBUG_UI_FOR_APPLE = 1;
+	public const int DEBUG_RATE_ME_DIALOG = 2;
 
 	int debugFlags = 0;
 	
@@ -38,5 +39,9 @@ public class DebugConfig : MonoBehaviour {
 	public void SetDebugFlags(int debugFlags) {
 		this.debugFlags = debugFlags;
 		PersistentStorage.instance.SetIntValue("debugFlags", debugFlags);
+	}
+
+	public int GetDebugFlags() {
+		return this.debugFlags;
 	}
 }

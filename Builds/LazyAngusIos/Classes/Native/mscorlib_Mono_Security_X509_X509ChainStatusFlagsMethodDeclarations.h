@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.X509.X509ChainStatusFlags
-struct X509ChainStatusFlags_t4817;
+struct X509ChainStatusFlags_t4818;
 

@@ -8,19 +8,19 @@ struct DebugConfig_t533;
 struct  DebugConfig_t533  : public MonoBehaviour_t13
 {
 	// System.Boolean DebugConfig::useDebugValues
-	bool ___useDebugValues_4;
+	bool ___useDebugValues_5;
 	// System.Boolean DebugConfig::skipWelcome
-	bool ___skipWelcome_5;
+	bool ___skipWelcome_6;
 	// System.Boolean DebugConfig::clearAchievements
-	bool ___clearAchievements_6;
+	bool ___clearAchievements_7;
 	// System.Boolean DebugConfig::debugFBShare
-	bool ___debugFBShare_7;
+	bool ___debugFBShare_8;
 	// System.Boolean DebugConfig::debugTwitterShare
-	bool ___debugTwitterShare_8;
+	bool ___debugTwitterShare_9;
 	// System.Int32 DebugConfig::debugFlags
-	int32_t ___debugFlags_9;
+	int32_t ___debugFlags_10;
 };
 struct DebugConfig_t533_StaticFields{
 	// DebugConfig DebugConfig::<instance>k__BackingField
-	DebugConfig_t533 * ___U3CinstanceU3Ek__BackingField_10;
+	DebugConfig_t533 * ___U3CinstanceU3Ek__BackingField_11;
 };

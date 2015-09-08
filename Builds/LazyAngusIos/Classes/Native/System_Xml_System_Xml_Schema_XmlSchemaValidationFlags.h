@@ -5,7 +5,7 @@
 // System.Xml.Schema.XmlSchemaValidationFlags
 #include "System_Xml_System_Xml_Schema_XmlSchemaValidationFlags.h"
 // System.Xml.Schema.XmlSchemaValidationFlags
-struct  XmlSchemaValidationFlags_t3700 
+struct  XmlSchemaValidationFlags_t3701 
 {
 	// System.Int32 System.Xml.Schema.XmlSchemaValidationFlags::value__
 	int32_t ___value___1;

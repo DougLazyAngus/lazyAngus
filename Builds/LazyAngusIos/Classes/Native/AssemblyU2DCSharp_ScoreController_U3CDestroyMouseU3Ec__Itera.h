@@ -7,7 +7,7 @@ struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // ScoreController/<DestroyMouse>c__Iterator19
-struct  U3CDestroyMouseU3Ec__Iterator19_t654  : public Object_t
+struct  U3CDestroyMouseU3Ec__Iterator19_t655  : public Object_t
 {
 	// UnityEngine.GameObject ScoreController/<DestroyMouse>c__Iterator19::deadMouseGameObject
 	GameObject_t352 * ___deadMouseGameObject_0;

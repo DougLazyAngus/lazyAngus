@@ -5,12 +5,12 @@
 // System.Security.RuntimeDeclSecurityEntry
 #include "mscorlib_System_Security_RuntimeDeclSecurityEntry.h"
 // System.Security.RuntimeDeclSecurityActions
-struct  RuntimeDeclSecurityActions_t5241 
+struct  RuntimeDeclSecurityActions_t5242 
 {
 	// System.Security.RuntimeDeclSecurityEntry System.Security.RuntimeDeclSecurityActions::cas
-	RuntimeDeclSecurityEntry_t5237  ___cas_0;
+	RuntimeDeclSecurityEntry_t5238  ___cas_0;
 	// System.Security.RuntimeDeclSecurityEntry System.Security.RuntimeDeclSecurityActions::noncas
-	RuntimeDeclSecurityEntry_t5237  ___noncas_1;
+	RuntimeDeclSecurityEntry_t5238  ___noncas_1;
 	// System.Security.RuntimeDeclSecurityEntry System.Security.RuntimeDeclSecurityActions::choice
-	RuntimeDeclSecurityEntry_t5237  ___choice_2;
+	RuntimeDeclSecurityEntry_t5238  ___choice_2;
 };

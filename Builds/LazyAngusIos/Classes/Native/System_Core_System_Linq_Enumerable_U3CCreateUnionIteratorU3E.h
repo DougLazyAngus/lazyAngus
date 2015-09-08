@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IEqualityComparer`1<System.Object>
-struct IEqualityComparer_1_t1204;
+struct IEqualityComparer_1_t1205;
 // System.Collections.Generic.HashSet`1<System.Object>
-struct HashSet_1_t1484;
+struct HashSet_1_t1485;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t724;
+struct IEnumerable_1_t725;
 // System.Collections.Generic.IEnumerator`1<System.Object>
 struct IEnumerator_1_t105;
 // System.Object
@@ -13,12 +13,12 @@ struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.Enumerable/<CreateUnionIterator>c__Iterator1C`1<System.Object>
-struct  U3CCreateUnionIteratorU3Ec__Iterator1C_1_t6653  : public Object_t
+struct  U3CCreateUnionIteratorU3Ec__Iterator1C_1_t6654  : public Object_t
 {
 	// System.Collections.Generic.IEqualityComparer`1<TSource> System.Linq.Enumerable/<CreateUnionIterator>c__Iterator1C`1<System.Object>::comparer
 	Object_t* ___comparer_0;
 	// System.Collections.Generic.HashSet`1<TSource> System.Linq.Enumerable/<CreateUnionIterator>c__Iterator1C`1<System.Object>::<items>__0
-	HashSet_1_t1484 * ___U3CitemsU3E__0_1;
+	HashSet_1_t1485 * ___U3CitemsU3E__0_1;
 	// System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/<CreateUnionIterator>c__Iterator1C`1<System.Object>::first
 	Object_t* ___first_2;
 	// System.Collections.Generic.IEnumerator`1<TSource> System.Linq.Enumerable/<CreateUnionIterator>c__Iterator1C`1<System.Object>::<$s_85>__1

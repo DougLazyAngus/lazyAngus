@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.ParsePush
-struct ParsePush_t1311;
+struct ParsePush_t1312;
 // Parse.ParseQuery`1<Parse.ParseInstallation>
-struct ParseQuery_1_t1309;
+struct ParseQuery_1_t1310;
 // System.Collections.Generic.IEnumerable`1<System.String>
-struct IEnumerable_1_t723;
+struct IEnumerable_1_t724;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t836;
+struct IDictionary_2_t837;
 // System.String
 struct String_t;
 // System.Threading.Tasks.Task
-struct Task_t1227;
+struct Task_t1228;
 // System.EventHandler`1<Parse.ParsePushNotificationEventArgs>
-struct EventHandler_1_t1420;
+struct EventHandler_1_t1421;
 // System.Nullable`1<System.DateTime>
 #include "mscorlib_System_Nullable_1_gen_2.h"
 // System.Nullable`1<System.TimeSpan>
@@ -26,72 +26,72 @@ struct EventHandler_1_t1420;
 #include "Parse_Unity_System_Threading_CancellationToken.h"
 
 // System.Void Parse.ParsePush::.ctor()
-extern "C" void ParsePush__ctor_m7108 (ParsePush_t1311 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParsePush__ctor_m7121 (ParsePush_t1312 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Parse.ParseQuery`1<Parse.ParseInstallation> Parse.ParsePush::get_Query()
-extern "C" ParseQuery_1_t1309 * ParsePush_get_Query_m7109 (ParsePush_t1311 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ParseQuery_1_t1310 * ParsePush_get_Query_m7122 (ParsePush_t1312 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParsePush::set_Query(Parse.ParseQuery`1<Parse.ParseInstallation>)
-extern "C" void ParsePush_set_Query_m7110 (ParsePush_t1311 * __this, ParseQuery_1_t1309 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParsePush_set_Query_m7123 (ParsePush_t1312 * __this, ParseQuery_1_t1310 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IEnumerable`1<System.String> Parse.ParsePush::get_Channels()
-extern "C" Object_t* ParsePush_get_Channels_m7111 (ParsePush_t1311 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t* ParsePush_get_Channels_m7124 (ParsePush_t1312 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParsePush::set_Channels(System.Collections.Generic.IEnumerable`1<System.String>)
-extern "C" void ParsePush_set_Channels_m7112 (ParsePush_t1311 * __this, Object_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParsePush_set_Channels_m7125 (ParsePush_t1312 * __this, Object_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Nullable`1<System.DateTime> Parse.ParsePush::get_Expiration()
-extern "C" Nullable_1_t1304  ParsePush_get_Expiration_m7113 (ParsePush_t1311 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Nullable_1_t1305  ParsePush_get_Expiration_m7126 (ParsePush_t1312 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParsePush::set_Expiration(System.Nullable`1<System.DateTime>)
-extern "C" void ParsePush_set_Expiration_m7114 (ParsePush_t1311 * __this, Nullable_1_t1304  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParsePush_set_Expiration_m7127 (ParsePush_t1312 * __this, Nullable_1_t1305  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Nullable`1<System.TimeSpan> Parse.ParsePush::get_ExpirationInterval()
-extern "C" Nullable_1_t1312  ParsePush_get_ExpirationInterval_m7115 (ParsePush_t1311 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Nullable_1_t1313  ParsePush_get_ExpirationInterval_m7128 (ParsePush_t1312 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParsePush::set_ExpirationInterval(System.Nullable`1<System.TimeSpan>)
-extern "C" void ParsePush_set_ExpirationInterval_m7116 (ParsePush_t1311 * __this, Nullable_1_t1312  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParsePush_set_ExpirationInterval_m7129 (ParsePush_t1312 * __this, Nullable_1_t1313  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParsePush::get_Data()
-extern "C" Object_t* ParsePush_get_Data_m7117 (ParsePush_t1311 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t* ParsePush_get_Data_m7130 (ParsePush_t1312 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParsePush::set_Data(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern "C" void ParsePush_set_Data_m7118 (ParsePush_t1311 * __this, Object_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParsePush_set_Data_m7131 (ParsePush_t1312 * __this, Object_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Parse.ParsePush::get_Alert()
-extern "C" String_t* ParsePush_get_Alert_m7119 (ParsePush_t1311 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ParsePush_get_Alert_m7132 (ParsePush_t1312 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParsePush::set_Alert(System.String)
-extern "C" void ParsePush_set_Alert_m7120 (ParsePush_t1311 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParsePush_set_Alert_m7133 (ParsePush_t1312 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParsePush::Encode()
-extern "C" Object_t* ParsePush_Encode_m7121 (ParsePush_t1311 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t* ParsePush_Encode_m7134 (ParsePush_t1312 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParsePush::SendAsync()
-extern "C" Task_t1227 * ParsePush_SendAsync_m7122 (ParsePush_t1311 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * ParsePush_SendAsync_m7135 (ParsePush_t1312 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParsePush::SendAsync(System.Threading.CancellationToken)
-extern "C" Task_t1227 * ParsePush_SendAsync_m7123 (ParsePush_t1311 * __this, CancellationToken_t1181  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * ParsePush_SendAsync_m7136 (ParsePush_t1312 * __this, CancellationToken_t1182  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParsePush::SendAlertAsync(System.String)
-extern "C" Task_t1227 * ParsePush_SendAlertAsync_m7124 (Object_t * __this /* static, unused */, String_t* ___alert, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * ParsePush_SendAlertAsync_m7137 (Object_t * __this /* static, unused */, String_t* ___alert, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParsePush::SendAlertAsync(System.String,System.String)
-extern "C" Task_t1227 * ParsePush_SendAlertAsync_m7125 (Object_t * __this /* static, unused */, String_t* ___alert, String_t* ___channel, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * ParsePush_SendAlertAsync_m7138 (Object_t * __this /* static, unused */, String_t* ___alert, String_t* ___channel, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParsePush::SendAlertAsync(System.String,System.Collections.Generic.IEnumerable`1<System.String>)
-extern "C" Task_t1227 * ParsePush_SendAlertAsync_m7126 (Object_t * __this /* static, unused */, String_t* ___alert, Object_t* ___channels, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * ParsePush_SendAlertAsync_m7139 (Object_t * __this /* static, unused */, String_t* ___alert, Object_t* ___channels, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParsePush::SendAlertAsync(System.String,Parse.ParseQuery`1<Parse.ParseInstallation>)
-extern "C" Task_t1227 * ParsePush_SendAlertAsync_m7127 (Object_t * __this /* static, unused */, String_t* ___alert, ParseQuery_1_t1309 * ___query, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * ParsePush_SendAlertAsync_m7140 (Object_t * __this /* static, unused */, String_t* ___alert, ParseQuery_1_t1310 * ___query, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParsePush::SendDataAsync(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern "C" Task_t1227 * ParsePush_SendDataAsync_m7128 (Object_t * __this /* static, unused */, Object_t* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * ParsePush_SendDataAsync_m7141 (Object_t * __this /* static, unused */, Object_t* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParsePush::SendDataAsync(System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.String)
-extern "C" Task_t1227 * ParsePush_SendDataAsync_m7129 (Object_t * __this /* static, unused */, Object_t* ___data, String_t* ___channel, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * ParsePush_SendDataAsync_m7142 (Object_t * __this /* static, unused */, Object_t* ___data, String_t* ___channel, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParsePush::SendDataAsync(System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.Collections.Generic.IEnumerable`1<System.String>)
-extern "C" Task_t1227 * ParsePush_SendDataAsync_m7130 (Object_t * __this /* static, unused */, Object_t* ___data, Object_t* ___channels, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * ParsePush_SendDataAsync_m7143 (Object_t * __this /* static, unused */, Object_t* ___data, Object_t* ___channels, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParsePush::SendDataAsync(System.Collections.Generic.IDictionary`2<System.String,System.Object>,Parse.ParseQuery`1<Parse.ParseInstallation>)
-extern "C" Task_t1227 * ParsePush_SendDataAsync_m7131 (Object_t * __this /* static, unused */, Object_t* ___data, ParseQuery_1_t1309 * ___query, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * ParsePush_SendDataAsync_m7144 (Object_t * __this /* static, unused */, Object_t* ___data, ParseQuery_1_t1310 * ___query, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParsePush::add_ParsePushNotificationReceived(System.EventHandler`1<Parse.ParsePushNotificationEventArgs>)
-extern "C" void ParsePush_add_ParsePushNotificationReceived_m7132 (Object_t * __this /* static, unused */, EventHandler_1_t1420 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParsePush_add_ParsePushNotificationReceived_m7145 (Object_t * __this /* static, unused */, EventHandler_1_t1421 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParsePush::remove_ParsePushNotificationReceived(System.EventHandler`1<Parse.ParsePushNotificationEventArgs>)
-extern "C" void ParsePush_remove_ParsePushNotificationReceived_m7133 (Object_t * __this /* static, unused */, EventHandler_1_t1420 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParsePush_remove_ParsePushNotificationReceived_m7146 (Object_t * __this /* static, unused */, EventHandler_1_t1421 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParsePush::SubscribeAsync(System.String)
-extern "C" Task_t1227 * ParsePush_SubscribeAsync_m7134 (Object_t * __this /* static, unused */, String_t* ___channel, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * ParsePush_SubscribeAsync_m7147 (Object_t * __this /* static, unused */, String_t* ___channel, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParsePush::SubscribeAsync(System.String,System.Threading.CancellationToken)
-extern "C" Task_t1227 * ParsePush_SubscribeAsync_m7135 (Object_t * __this /* static, unused */, String_t* ___channel, CancellationToken_t1181  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * ParsePush_SubscribeAsync_m7148 (Object_t * __this /* static, unused */, String_t* ___channel, CancellationToken_t1182  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParsePush::SubscribeAsync(System.Collections.Generic.IEnumerable`1<System.String>)
-extern "C" Task_t1227 * ParsePush_SubscribeAsync_m7136 (Object_t * __this /* static, unused */, Object_t* ___channels, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * ParsePush_SubscribeAsync_m7149 (Object_t * __this /* static, unused */, Object_t* ___channels, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParsePush::SubscribeAsync(System.Collections.Generic.IEnumerable`1<System.String>,System.Threading.CancellationToken)
-extern "C" Task_t1227 * ParsePush_SubscribeAsync_m7137 (Object_t * __this /* static, unused */, Object_t* ___channels, CancellationToken_t1181  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * ParsePush_SubscribeAsync_m7150 (Object_t * __this /* static, unused */, Object_t* ___channels, CancellationToken_t1182  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParsePush::UnsubscribeAsync(System.String)
-extern "C" Task_t1227 * ParsePush_UnsubscribeAsync_m7138 (Object_t * __this /* static, unused */, String_t* ___channel, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * ParsePush_UnsubscribeAsync_m7151 (Object_t * __this /* static, unused */, String_t* ___channel, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParsePush::UnsubscribeAsync(System.String,System.Threading.CancellationToken)
-extern "C" Task_t1227 * ParsePush_UnsubscribeAsync_m7139 (Object_t * __this /* static, unused */, String_t* ___channel, CancellationToken_t1181  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * ParsePush_UnsubscribeAsync_m7152 (Object_t * __this /* static, unused */, String_t* ___channel, CancellationToken_t1182  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParsePush::UnsubscribeAsync(System.Collections.Generic.IEnumerable`1<System.String>)
-extern "C" Task_t1227 * ParsePush_UnsubscribeAsync_m7140 (Object_t * __this /* static, unused */, Object_t* ___channels, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * ParsePush_UnsubscribeAsync_m7153 (Object_t * __this /* static, unused */, Object_t* ___channels, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParsePush::UnsubscribeAsync(System.Collections.Generic.IEnumerable`1<System.String>,System.Threading.CancellationToken)
-extern "C" Task_t1227 * ParsePush_UnsubscribeAsync_m7141 (Object_t * __this /* static, unused */, Object_t* ___channels, CancellationToken_t1181  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * ParsePush_UnsubscribeAsync_m7154 (Object_t * __this /* static, unused */, Object_t* ___channels, CancellationToken_t1182  ___cancellationToken, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParsePush::.cctor()
-extern "C" void ParsePush__cctor_m7142 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ParsePush__cctor_m7155 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

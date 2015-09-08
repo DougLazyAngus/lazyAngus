@@ -5,7 +5,7 @@ struct ByteU5BU5D_t66;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.TermInfoReader
-struct  TermInfoReader_t4912  : public Object_t
+struct  TermInfoReader_t4913  : public Object_t
 {
 	// System.Int16 System.TermInfoReader::boolSize
 	int16_t ___boolSize_0;

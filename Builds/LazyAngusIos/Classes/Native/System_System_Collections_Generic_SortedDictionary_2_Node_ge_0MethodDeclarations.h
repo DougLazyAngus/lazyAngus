@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.SortedDictionary`2/Node<System.String,System.String>
-struct Node_t6202;
+struct Node_t6203;
 // System.String
 struct String_t;
 // System.Collections.Generic.RBTree/Node
-struct Node_t4204;
+struct Node_t4205;
 // System.Collections.Generic.KeyValuePair`2<System.String,System.String>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_1.h"
 // System.Collections.DictionaryEntry
@@ -18,12 +18,12 @@ struct Node_t4204;
 // System.Void System.Collections.Generic.SortedDictionary`2/Node<System.String,System.String>::.ctor(TKey)
 // System.Collections.Generic.SortedDictionary`2/Node<System.Object,System.Object>
 #include "System_System_Collections_Generic_SortedDictionary_2_Node_geMethodDeclarations.h"
-#define Node__ctor_m30357(__this, ___key, method) (( void (*) (Node_t6202 *, String_t*, const MethodInfo*))Node__ctor_m30203_gshared)(__this, ___key, method)
+#define Node__ctor_m30370(__this, ___key, method) (( void (*) (Node_t6203 *, String_t*, const MethodInfo*))Node__ctor_m30216_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.SortedDictionary`2/Node<System.String,System.String>::.ctor(TKey,TValue)
-#define Node__ctor_m30358(__this, ___key, ___value, method) (( void (*) (Node_t6202 *, String_t*, String_t*, const MethodInfo*))Node__ctor_m30204_gshared)(__this, ___key, ___value, method)
+#define Node__ctor_m30371(__this, ___key, ___value, method) (( void (*) (Node_t6203 *, String_t*, String_t*, const MethodInfo*))Node__ctor_m30217_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.SortedDictionary`2/Node<System.String,System.String>::SwapValue(System.Collections.Generic.RBTree/Node)
-#define Node_SwapValue_m30359(__this, ___other, method) (( void (*) (Node_t6202 *, Node_t4204 *, const MethodInfo*))Node_SwapValue_m30205_gshared)(__this, ___other, method)
+#define Node_SwapValue_m30372(__this, ___other, method) (( void (*) (Node_t6203 *, Node_t4205 *, const MethodInfo*))Node_SwapValue_m30218_gshared)(__this, ___other, method)
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.SortedDictionary`2/Node<System.String,System.String>::AsKV()
-#define Node_AsKV_m30360(__this, method) (( KeyValuePair_2_t302  (*) (Node_t6202 *, const MethodInfo*))Node_AsKV_m30206_gshared)(__this, method)
+#define Node_AsKV_m30373(__this, method) (( KeyValuePair_2_t302  (*) (Node_t6203 *, const MethodInfo*))Node_AsKV_m30219_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.SortedDictionary`2/Node<System.String,System.String>::AsDE()
-#define Node_AsDE_m30361(__this, method) (( DictionaryEntry_t2156  (*) (Node_t6202 *, const MethodInfo*))Node_AsDE_m30207_gshared)(__this, method)
+#define Node_AsDE_m30374(__this, method) (( DictionaryEntry_t2157  (*) (Node_t6203 *, const MethodInfo*))Node_AsDE_m30220_gshared)(__this, method)

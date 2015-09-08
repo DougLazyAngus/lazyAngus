@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.CompilerServices.ExtensionAttribute
-struct ExtensionAttribute_t817;
+struct ExtensionAttribute_t818;
 
 // System.Void System.Runtime.CompilerServices.ExtensionAttribute::.ctor()
-extern "C" void ExtensionAttribute__ctor_m4505 (ExtensionAttribute_t817 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExtensionAttribute__ctor_m4519 (ExtensionAttribute_t818 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

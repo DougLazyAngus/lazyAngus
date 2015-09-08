@@ -5,7 +5,7 @@ struct Sprite_t512;
 // System.Object
 #include "mscorlib_System_Object.h"
 // MouseWiggleDesc
-struct  MouseWiggleDesc_t611  : public Object_t
+struct  MouseWiggleDesc_t612  : public Object_t
 {
 	// UnityEngine.Sprite MouseWiggleDesc::introScreenSprite
 	Sprite_t512 * ___introScreenSprite_0;

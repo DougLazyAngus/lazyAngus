@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Messaging.OneWayAttribute
-struct OneWayAttribute_t5169;
+struct OneWayAttribute_t5170;
 

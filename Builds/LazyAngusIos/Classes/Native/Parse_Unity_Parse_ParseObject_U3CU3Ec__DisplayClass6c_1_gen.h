@@ -1,42 +1,42 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t724;
+struct IEnumerable_1_t725;
 // System.Func`2<System.Object,System.Boolean>
-struct Func_2_t1104;
+struct Func_2_t1105;
 // System.Func`2<System.Object,System.String>
-struct Func_2_t6678;
-// System.Func`2<System.Linq.IGrouping`2<System.String,System.String>,System.Boolean>
 struct Func_2_t6679;
-// System.Func`2<<>f__AnonymousType5`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>,System.String>
+// System.Func`2<System.Linq.IGrouping`2<System.String,System.String>,System.Boolean>
 struct Func_2_t6680;
-// System.Func`2<<>f__AnonymousType5`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>
+// System.Func`2<<>f__AnonymousType5`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>,System.String>
 struct Func_2_t6681;
+// System.Func`2<<>f__AnonymousType5`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>
+struct Func_2_t6682;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.CancellationToken
 #include "Parse_Unity_System_Threading_CancellationToken.h"
 // Parse.ParseObject/<>c__DisplayClass6c`1<System.Object>
-struct  U3CU3Ec__DisplayClass6c_1_t6682  : public Object_t
+struct  U3CU3Ec__DisplayClass6c_1_t6683  : public Object_t
 {
 	// System.Collections.Generic.IEnumerable`1<T> Parse.ParseObject/<>c__DisplayClass6c`1<System.Object>::objects
 	Object_t* ___objects_0;
 	// System.Boolean Parse.ParseObject/<>c__DisplayClass6c`1<System.Object>::force
 	bool ___force_1;
 	// System.Threading.CancellationToken Parse.ParseObject/<>c__DisplayClass6c`1<System.Object>::cancellationToken
-	CancellationToken_t1181  ___cancellationToken_2;
+	CancellationToken_t1182  ___cancellationToken_2;
 };
-struct U3CU3Ec__DisplayClass6c_1_t6682_StaticFields{
+struct U3CU3Ec__DisplayClass6c_1_t6683_StaticFields{
 	// System.Func`2<T,System.Boolean> Parse.ParseObject/<>c__DisplayClass6c`1<System.Object>::CS$<>9__CachedAnonymousMethodDelegate6e
-	Func_2_t1104 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate6e_3;
+	Func_2_t1105 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate6e_3;
 	// System.Func`2<T,System.String> Parse.ParseObject/<>c__DisplayClass6c`1<System.Object>::CS$<>9__CachedAnonymousMethodDelegate6f
-	Func_2_t6678 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate6f_4;
+	Func_2_t6679 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate6f_4;
 	// System.Func`2<T,System.String> Parse.ParseObject/<>c__DisplayClass6c`1<System.Object>::CS$<>9__CachedAnonymousMethodDelegate70
-	Func_2_t6678 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate70_5;
+	Func_2_t6679 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate70_5;
 	// System.Func`2<System.Linq.IGrouping`2<System.String,System.String>,System.Boolean> Parse.ParseObject/<>c__DisplayClass6c`1<System.Object>::CS$<>9__CachedAnonymousMethodDelegate71
-	Func_2_t6679 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate71_6;
+	Func_2_t6680 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate71_6;
 	// System.Func`2<<>f__AnonymousType5`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>,System.String> Parse.ParseObject/<>c__DisplayClass6c`1<System.Object>::CS$<>9__CachedAnonymousMethodDelegate72
-	Func_2_t6680 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate72_7;
+	Func_2_t6681 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate72_7;
 	// System.Func`2<<>f__AnonymousType5`2<System.String,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>>,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>> Parse.ParseObject/<>c__DisplayClass6c`1<System.Object>::CS$<>9__CachedAnonymousMethodDelegate73
-	Func_2_t6681 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate73_8;
+	Func_2_t6682 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate73_8;
 };

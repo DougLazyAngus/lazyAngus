@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.DayOfWeek
-struct DayOfWeek_t4866;
+struct DayOfWeek_t4867;
 

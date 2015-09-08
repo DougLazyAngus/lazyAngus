@@ -5,7 +5,7 @@
 // System.Globalization.CultureTypes
 #include "mscorlib_System_Globalization_CultureTypes.h"
 // System.Globalization.CultureTypes
-struct  CultureTypes_t4971 
+struct  CultureTypes_t4972 
 {
 	// System.Int32 System.Globalization.CultureTypes::value__
 	int32_t ___value___1;

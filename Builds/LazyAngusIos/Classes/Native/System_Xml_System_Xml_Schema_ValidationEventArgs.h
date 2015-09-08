@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.Schema.XmlSchemaException
-struct XmlSchemaException_t3620;
+struct XmlSchemaException_t3621;
 // System.String
 struct String_t;
 // System.EventArgs
@@ -9,10 +9,10 @@ struct String_t;
 // System.Xml.Schema.XmlSeverityType
 #include "System_Xml_System_Xml_Schema_XmlSeverityType.h"
 // System.Xml.Schema.ValidationEventArgs
-struct  ValidationEventArgs_t3621  : public EventArgs_t1314
+struct  ValidationEventArgs_t3622  : public EventArgs_t1315
 {
 	// System.Xml.Schema.XmlSchemaException System.Xml.Schema.ValidationEventArgs::exception
-	XmlSchemaException_t3620 * ___exception_1;
+	XmlSchemaException_t3621 * ___exception_1;
 	// System.String System.Xml.Schema.ValidationEventArgs::message
 	String_t* ___message_2;
 	// System.Xml.Schema.XmlSeverityType System.Xml.Schema.ValidationEventArgs::severity

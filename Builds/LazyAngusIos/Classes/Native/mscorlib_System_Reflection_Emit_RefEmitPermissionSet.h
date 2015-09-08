@@ -7,7 +7,7 @@ struct String_t;
 // System.Security.Permissions.SecurityAction
 #include "mscorlib_System_Security_Permissions_SecurityAction.h"
 // System.Reflection.Emit.RefEmitPermissionSet
-struct  RefEmitPermissionSet_t5043 
+struct  RefEmitPermissionSet_t5044 
 {
 	// System.Security.Permissions.SecurityAction System.Reflection.Emit.RefEmitPermissionSet::action
 	int32_t ___action_0;
@@ -15,7 +15,7 @@ struct  RefEmitPermissionSet_t5043
 	String_t* ___pset_1;
 };
 // Native definition for marshalling of: System.Reflection.Emit.RefEmitPermissionSet
-struct RefEmitPermissionSet_t5043_marshaled
+struct RefEmitPermissionSet_t5044_marshaled
 {
 	int32_t ___action_0;
 	char* ___pset_1;

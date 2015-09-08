@@ -5,7 +5,7 @@
 // System.Net.WebExceptionStatus
 #include "System_System_Net_WebExceptionStatus.h"
 // System.Net.WebExceptionStatus
-struct  WebExceptionStatus_t4423 
+struct  WebExceptionStatus_t4424 
 {
 	// System.Int32 System.Net.WebExceptionStatus::value__
 	int32_t ___value___1;

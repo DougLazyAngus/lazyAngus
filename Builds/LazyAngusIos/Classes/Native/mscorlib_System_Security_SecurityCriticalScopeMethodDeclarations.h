@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.SecurityCriticalScope
-struct SecurityCriticalScope_t5235;
+struct SecurityCriticalScope_t5236;
 

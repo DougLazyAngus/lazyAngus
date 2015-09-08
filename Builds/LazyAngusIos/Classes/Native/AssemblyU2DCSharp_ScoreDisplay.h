@@ -7,7 +7,7 @@ struct DistortForEffect_t537;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // ScoreDisplay
-struct  ScoreDisplay_t656  : public MonoBehaviour_t13
+struct  ScoreDisplay_t657  : public MonoBehaviour_t13
 {
 	// UnityEngine.UI.Text ScoreDisplay::scoreText
 	Text_t502 * ___scoreText_2;

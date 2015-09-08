@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.OperatingSystem
-struct OperatingSystem_t4880;
+struct OperatingSystem_t4881;
 // System.Version
-struct Version_t1401;
+struct Version_t1402;
 // System.Object
 struct Object_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2936;
+struct SerializationInfo_t2937;
 // System.String
 struct String_t;
 // System.PlatformID
@@ -20,12 +20,12 @@ struct String_t;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.OperatingSystem::.ctor(System.PlatformID,System.Version)
-extern "C" void OperatingSystem__ctor_m20671 (OperatingSystem_t4880 * __this, int32_t ___platform, Version_t1401 * ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OperatingSystem__ctor_m20684 (OperatingSystem_t4881 * __this, int32_t ___platform, Version_t1402 * ___version, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.PlatformID System.OperatingSystem::get_Platform()
-extern "C" int32_t OperatingSystem_get_Platform_m20672 (OperatingSystem_t4880 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t OperatingSystem_get_Platform_m20685 (OperatingSystem_t4881 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.OperatingSystem::Clone()
-extern "C" Object_t * OperatingSystem_Clone_m20673 (OperatingSystem_t4880 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * OperatingSystem_Clone_m20686 (OperatingSystem_t4881 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.OperatingSystem::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void OperatingSystem_GetObjectData_m20674 (OperatingSystem_t4880 * __this, SerializationInfo_t2936 * ___info, StreamingContext_t2937  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void OperatingSystem_GetObjectData_m20687 (OperatingSystem_t4881 * __this, SerializationInfo_t2937 * ___info, StreamingContext_t2938  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.OperatingSystem::ToString()
-extern "C" String_t* OperatingSystem_ToString_m20675 (OperatingSystem_t4880 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* OperatingSystem_ToString_m20688 (OperatingSystem_t4881 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

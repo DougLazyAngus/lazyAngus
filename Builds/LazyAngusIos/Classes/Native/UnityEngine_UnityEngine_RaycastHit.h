@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Collider
-struct Collider_t778;
+struct Collider_t779;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.Vector3
@@ -9,7 +9,7 @@ struct Collider_t778;
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // UnityEngine.RaycastHit
-struct  RaycastHit_t777 
+struct  RaycastHit_t778 
 {
 	// UnityEngine.Vector3 UnityEngine.RaycastHit::m_Point
 	Vector3_t538  ___m_Point_0;
@@ -22,5 +22,5 @@ struct  RaycastHit_t777
 	// UnityEngine.Vector2 UnityEngine.RaycastHit::m_UV
 	Vector2_t110  ___m_UV_4;
 	// UnityEngine.Collider UnityEngine.RaycastHit::m_Collider
-	Collider_t778 * ___m_Collider_5;
+	Collider_t779 * ___m_Collider_5;
 };

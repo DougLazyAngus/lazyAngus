@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.RBTree/Node
-struct Node_t4204;
+struct Node_t4205;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.RBTree/Node
-struct  Node_t4204  : public Object_t
+struct  Node_t4205  : public Object_t
 {
 	// System.Collections.Generic.RBTree/Node System.Collections.Generic.RBTree/Node::left
-	Node_t4204 * ___left_2;
+	Node_t4205 * ___left_2;
 	// System.Collections.Generic.RBTree/Node System.Collections.Generic.RBTree/Node::right
-	Node_t4204 * ___right_3;
+	Node_t4205 * ___right_3;
 	// System.UInt32 System.Collections.Generic.RBTree/Node::size_black
 	uint32_t ___size_black_4;
 };

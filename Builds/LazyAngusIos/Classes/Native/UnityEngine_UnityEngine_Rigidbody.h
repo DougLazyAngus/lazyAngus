@@ -3,6 +3,6 @@
 // UnityEngine.Component
 #include "UnityEngine_UnityEngine_Component.h"
 // UnityEngine.Rigidbody
-struct  Rigidbody_t2784  : public Component_t775
+struct  Rigidbody_t2785  : public Component_t776
 {
 };

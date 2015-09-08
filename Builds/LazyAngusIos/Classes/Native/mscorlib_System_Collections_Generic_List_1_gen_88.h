@@ -5,7 +5,7 @@ struct BooleanU5BU5D_t487;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<System.Boolean>
-struct  List_1_t7495  : public Object_t
+struct  List_1_t7496  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<System.Boolean>::_items
 	BooleanU5BU5D_t487* ____items_1;
@@ -14,7 +14,7 @@ struct  List_1_t7495  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1<System.Boolean>::_version
 	int32_t ____version_3;
 };
-struct List_1_t7495_StaticFields{
+struct List_1_t7496_StaticFields{
 	// T[] System.Collections.Generic.List`1<System.Boolean>::EmptyArray
 	BooleanU5BU5D_t487* ___EmptyArray_4;
 };

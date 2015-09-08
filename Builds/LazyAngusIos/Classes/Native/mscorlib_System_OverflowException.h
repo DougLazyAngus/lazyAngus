@@ -3,6 +3,6 @@
 // System.ArithmeticException
 #include "mscorlib_System_ArithmeticException.h"
 // System.OverflowException
-struct  OverflowException_t3732  : public ArithmeticException_t3253
+struct  OverflowException_t3733  : public ArithmeticException_t3254
 {
 };

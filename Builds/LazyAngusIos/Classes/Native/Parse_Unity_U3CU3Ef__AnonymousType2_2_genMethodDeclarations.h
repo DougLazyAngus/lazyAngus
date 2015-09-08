@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // <>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.String>
-struct U3CU3Ef__AnonymousType2_2_t1405;
+struct U3CU3Ef__AnonymousType2_2_t1406;
 // System.String
 struct String_t;
 // System.Object
@@ -16,14 +16,14 @@ struct Object_t;
 // System.Void <>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.String>::.ctor(<pair>j__TPar,<valueString>j__TPar)
 // <>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Object>
 #include "Parse_Unity_U3CU3Ef__AnonymousType2_2_gen_0MethodDeclarations.h"
-#define U3CU3Ef__AnonymousType2_2__ctor_m7638(__this, ___pair, ___valueString, method) (( void (*) (U3CU3Ef__AnonymousType2_2_t1405 *, KeyValuePair_2_t791 , String_t*, const MethodInfo*))U3CU3Ef__AnonymousType2_2__ctor_m37056_gshared)(__this, ___pair, ___valueString, method)
+#define U3CU3Ef__AnonymousType2_2__ctor_m7651(__this, ___pair, ___valueString, method) (( void (*) (U3CU3Ef__AnonymousType2_2_t1406 *, KeyValuePair_2_t792 , String_t*, const MethodInfo*))U3CU3Ef__AnonymousType2_2__ctor_m37069_gshared)(__this, ___pair, ___valueString, method)
 // <pair>j__TPar <>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.String>::get_pair()
-#define U3CU3Ef__AnonymousType2_2_get_pair_m7639(__this, method) (( KeyValuePair_2_t791  (*) (U3CU3Ef__AnonymousType2_2_t1405 *, const MethodInfo*))U3CU3Ef__AnonymousType2_2_get_pair_m37057_gshared)(__this, method)
+#define U3CU3Ef__AnonymousType2_2_get_pair_m7652(__this, method) (( KeyValuePair_2_t792  (*) (U3CU3Ef__AnonymousType2_2_t1406 *, const MethodInfo*))U3CU3Ef__AnonymousType2_2_get_pair_m37070_gshared)(__this, method)
 // <valueString>j__TPar <>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.String>::get_valueString()
-#define U3CU3Ef__AnonymousType2_2_get_valueString_m7640(__this, method) (( String_t* (*) (U3CU3Ef__AnonymousType2_2_t1405 *, const MethodInfo*))U3CU3Ef__AnonymousType2_2_get_valueString_m37058_gshared)(__this, method)
+#define U3CU3Ef__AnonymousType2_2_get_valueString_m7653(__this, method) (( String_t* (*) (U3CU3Ef__AnonymousType2_2_t1406 *, const MethodInfo*))U3CU3Ef__AnonymousType2_2_get_valueString_m37071_gshared)(__this, method)
 // System.String <>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.String>::ToString()
-#define U3CU3Ef__AnonymousType2_2_ToString_m37059(__this, method) (( String_t* (*) (U3CU3Ef__AnonymousType2_2_t1405 *, const MethodInfo*))U3CU3Ef__AnonymousType2_2_ToString_m37060_gshared)(__this, method)
+#define U3CU3Ef__AnonymousType2_2_ToString_m37072(__this, method) (( String_t* (*) (U3CU3Ef__AnonymousType2_2_t1406 *, const MethodInfo*))U3CU3Ef__AnonymousType2_2_ToString_m37073_gshared)(__this, method)
 // System.Boolean <>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.String>::Equals(System.Object)
-#define U3CU3Ef__AnonymousType2_2_Equals_m37061(__this, ___value, method) (( bool (*) (U3CU3Ef__AnonymousType2_2_t1405 *, Object_t *, const MethodInfo*))U3CU3Ef__AnonymousType2_2_Equals_m37062_gshared)(__this, ___value, method)
+#define U3CU3Ef__AnonymousType2_2_Equals_m37074(__this, ___value, method) (( bool (*) (U3CU3Ef__AnonymousType2_2_t1406 *, Object_t *, const MethodInfo*))U3CU3Ef__AnonymousType2_2_Equals_m37075_gshared)(__this, ___value, method)
 // System.Int32 <>f__AnonymousType2`2<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>,System.String>::GetHashCode()
-#define U3CU3Ef__AnonymousType2_2_GetHashCode_m37063(__this, method) (( int32_t (*) (U3CU3Ef__AnonymousType2_2_t1405 *, const MethodInfo*))U3CU3Ef__AnonymousType2_2_GetHashCode_m37064_gshared)(__this, method)
+#define U3CU3Ef__AnonymousType2_2_GetHashCode_m37076(__this, method) (( int32_t (*) (U3CU3Ef__AnonymousType2_2_t1406 *, const MethodInfo*))U3CU3Ef__AnonymousType2_2_GetHashCode_m37077_gshared)(__this, method)

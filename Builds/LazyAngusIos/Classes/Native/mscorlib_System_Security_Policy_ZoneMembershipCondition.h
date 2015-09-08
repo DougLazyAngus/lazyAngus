@@ -5,7 +5,7 @@
 // System.Security.SecurityZone
 #include "mscorlib_System_Security_SecurityZone.h"
 // System.Security.Policy.ZoneMembershipCondition
-struct  ZoneMembershipCondition_t5346  : public Object_t
+struct  ZoneMembershipCondition_t5347  : public Object_t
 {
 	// System.Int32 System.Security.Policy.ZoneMembershipCondition::version
 	int32_t ___version_0;

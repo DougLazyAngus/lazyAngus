@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.Internal.InternalExtensions/<>c__DisplayClass1`2<System.Object,System.Single>
-struct U3CU3Ec__DisplayClass1_2_t8895;
+struct U3CU3Ec__DisplayClass1_2_t8896;
 // System.Threading.Tasks.Task
-struct Task_t1227;
+struct Task_t1228;
 
 // System.Void Parse.Internal.InternalExtensions/<>c__DisplayClass1`2<System.Object,System.Single>::.ctor()
-extern "C" void U3CU3Ec__DisplayClass1_2__ctor_m64244_gshared (U3CU3Ec__DisplayClass1_2_t8895 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass1_2__ctor_m64244(__this, method) (( void (*) (U3CU3Ec__DisplayClass1_2_t8895 *, const MethodInfo*))U3CU3Ec__DisplayClass1_2__ctor_m64244_gshared)(__this, method)
+extern "C" void U3CU3Ec__DisplayClass1_2__ctor_m64257_gshared (U3CU3Ec__DisplayClass1_2_t8896 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass1_2__ctor_m64257(__this, method) (( void (*) (U3CU3Ec__DisplayClass1_2_t8896 *, const MethodInfo*))U3CU3Ec__DisplayClass1_2__ctor_m64257_gshared)(__this, method)
 // TResult Parse.Internal.InternalExtensions/<>c__DisplayClass1`2<System.Object,System.Single>::<OnSuccess>b__0(System.Threading.Tasks.Task)
-extern "C" float U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m64245_gshared (U3CU3Ec__DisplayClass1_2_t8895 * __this, Task_t1227 * ___t, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m64245(__this, ___t, method) (( float (*) (U3CU3Ec__DisplayClass1_2_t8895 *, Task_t1227 *, const MethodInfo*))U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m64245_gshared)(__this, ___t, method)
+extern "C" float U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m64258_gshared (U3CU3Ec__DisplayClass1_2_t8896 * __this, Task_t1228 * ___t, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m64258(__this, ___t, method) (( float (*) (U3CU3Ec__DisplayClass1_2_t8896 *, Task_t1228 *, const MethodInfo*))U3CU3Ec__DisplayClass1_2_U3COnSuccessU3Eb__0_m64258_gshared)(__this, ___t, method)

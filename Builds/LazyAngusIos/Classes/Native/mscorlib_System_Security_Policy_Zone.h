@@ -5,7 +5,7 @@
 // System.Security.SecurityZone
 #include "mscorlib_System_Security_SecurityZone.h"
 // System.Security.Policy.Zone
-struct  Zone_t5345  : public Object_t
+struct  Zone_t5346  : public Object_t
 {
 	// System.Security.SecurityZone System.Security.Policy.Zone::zone
 	int32_t ___zone_0;

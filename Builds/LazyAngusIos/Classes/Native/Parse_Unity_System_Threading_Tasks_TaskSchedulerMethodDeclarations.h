@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.Tasks.TaskScheduler
-struct TaskScheduler_t1382;
+struct TaskScheduler_t1383;
 // System.Threading.SynchronizationContext
-struct SynchronizationContext_t1385;
+struct SynchronizationContext_t1386;
 // System.Action
 struct Action_t143;
 
 // System.Void System.Threading.Tasks.TaskScheduler::.ctor(System.Threading.SynchronizationContext)
-extern "C" void TaskScheduler__ctor_m7434 (TaskScheduler_t1382 * __this, SynchronizationContext_t1385 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TaskScheduler__ctor_m7447 (TaskScheduler_t1383 * __this, SynchronizationContext_t1386 * ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Tasks.TaskScheduler::Post(System.Action)
-extern "C" void TaskScheduler_Post_m7435 (TaskScheduler_t1382 * __this, Action_t143 * ___action, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TaskScheduler_Post_m7448 (TaskScheduler_t1383 * __this, Action_t143 * ___action, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.TaskScheduler System.Threading.Tasks.TaskScheduler::FromCurrentSynchronizationContext()
-extern "C" TaskScheduler_t1382 * TaskScheduler_FromCurrentSynchronizationContext_m7436 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TaskScheduler_t1383 * TaskScheduler_FromCurrentSynchronizationContext_m7449 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Tasks.TaskScheduler::.cctor()
-extern "C" void TaskScheduler__cctor_m7437 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TaskScheduler__cctor_m7450 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

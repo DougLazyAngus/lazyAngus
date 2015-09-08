@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>
-struct Tuple_2_t1268;
+struct Tuple_2_t1269;
 // System.Threading.Tasks.Task
 #include "Parse_Unity_System_Threading_Tasks_Task.h"
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>
-struct  Task_1_t1404  : public Task_t1227
+struct  Task_1_t1405  : public Task_t1228
 {
 	// T System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>::result
-	Tuple_2_t1268 * ___result_9;
+	Tuple_2_t1269 * ___result_9;
 };

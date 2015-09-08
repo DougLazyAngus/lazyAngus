@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Configuration.PropertyValueOrigin
-struct PropertyValueOrigin_t3357;
+struct PropertyValueOrigin_t3358;
 

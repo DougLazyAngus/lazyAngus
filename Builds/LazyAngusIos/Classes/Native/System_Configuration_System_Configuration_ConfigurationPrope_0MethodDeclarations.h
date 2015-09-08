@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Configuration.ConfigurationPropertyOptions
-struct ConfigurationPropertyOptions_t3332;
+struct ConfigurationPropertyOptions_t3333;
 

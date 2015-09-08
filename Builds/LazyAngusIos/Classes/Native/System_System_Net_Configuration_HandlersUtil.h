@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.Configuration.HandlersUtil
-struct  HandlersUtil_t4317  : public Object_t
+struct  HandlersUtil_t4318  : public Object_t
 {
 };

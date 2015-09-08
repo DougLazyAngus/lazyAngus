@@ -5,27 +5,27 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>
-struct Enumerator_t6483;
+struct Enumerator_t6484;
 // System.Object
 struct Object_t;
 // UnityEngine.UI.Toggle
-struct Toggle_t1000;
+struct Toggle_t1001;
 // System.Collections.Generic.List`1<UnityEngine.UI.Toggle>
-struct List_1_t1001;
+struct List_1_t1002;
 
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::.ctor(System.Collections.Generic.List`1<T>)
 // System.Collections.Generic.List`1/Enumerator<System.Object>
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_5MethodDeclarations.h"
-#define Enumerator__ctor_m34842(__this, ___l, method) (( void (*) (Enumerator_t6483 *, List_1_t1001 *, const MethodInfo*))Enumerator__ctor_m25990_gshared)(__this, ___l, method)
+#define Enumerator__ctor_m34855(__this, ___l, method) (( void (*) (Enumerator_t6484 *, List_1_t1002 *, const MethodInfo*))Enumerator__ctor_m26003_gshared)(__this, ___l, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::System.Collections.IEnumerator.Reset()
-#define Enumerator_System_Collections_IEnumerator_Reset_m34843(__this, method) (( void (*) (Enumerator_t6483 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m25991_gshared)(__this, method)
+#define Enumerator_System_Collections_IEnumerator_Reset_m34856(__this, method) (( void (*) (Enumerator_t6484 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m26004_gshared)(__this, method)
 // System.Object System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::System.Collections.IEnumerator.get_Current()
-#define Enumerator_System_Collections_IEnumerator_get_Current_m34844(__this, method) (( Object_t * (*) (Enumerator_t6483 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m25992_gshared)(__this, method)
+#define Enumerator_System_Collections_IEnumerator_get_Current_m34857(__this, method) (( Object_t * (*) (Enumerator_t6484 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m26005_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::Dispose()
-#define Enumerator_Dispose_m34845(__this, method) (( void (*) (Enumerator_t6483 *, const MethodInfo*))Enumerator_Dispose_m25993_gshared)(__this, method)
+#define Enumerator_Dispose_m34858(__this, method) (( void (*) (Enumerator_t6484 *, const MethodInfo*))Enumerator_Dispose_m26006_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::VerifyState()
-#define Enumerator_VerifyState_m34846(__this, method) (( void (*) (Enumerator_t6483 *, const MethodInfo*))Enumerator_VerifyState_m25994_gshared)(__this, method)
+#define Enumerator_VerifyState_m34859(__this, method) (( void (*) (Enumerator_t6484 *, const MethodInfo*))Enumerator_VerifyState_m26007_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::MoveNext()
-#define Enumerator_MoveNext_m34847(__this, method) (( bool (*) (Enumerator_t6483 *, const MethodInfo*))Enumerator_MoveNext_m4019_gshared)(__this, method)
+#define Enumerator_MoveNext_m34860(__this, method) (( bool (*) (Enumerator_t6484 *, const MethodInfo*))Enumerator_MoveNext_m4031_gshared)(__this, method)
 // T System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Toggle>::get_Current()
-#define Enumerator_get_Current_m34848(__this, method) (( Toggle_t1000 * (*) (Enumerator_t6483 *, const MethodInfo*))Enumerator_get_Current_m4018_gshared)(__this, method)
+#define Enumerator_get_Current_m34861(__this, method) (( Toggle_t1001 * (*) (Enumerator_t6484 *, const MethodInfo*))Enumerator_get_Current_m4030_gshared)(__this, method)

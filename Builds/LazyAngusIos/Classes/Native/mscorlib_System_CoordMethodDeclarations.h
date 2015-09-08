@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Coord
-struct Coord_t4930;
+struct Coord_t4931;
 

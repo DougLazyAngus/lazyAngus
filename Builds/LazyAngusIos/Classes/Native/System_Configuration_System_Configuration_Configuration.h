@@ -1,36 +1,36 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Configuration.Configuration
-struct Configuration_t3296;
+struct Configuration_t3297;
 // System.Collections.Hashtable
-struct Hashtable_t710;
+struct Hashtable_t711;
 // System.String
 struct String_t;
 // System.Configuration.ConfigurationSectionGroup
-struct ConfigurationSectionGroup_t3302;
+struct ConfigurationSectionGroup_t3303;
 // System.Configuration.ConfigurationLocationCollection
-struct ConfigurationLocationCollection_t3303;
+struct ConfigurationLocationCollection_t3304;
 // System.Configuration.SectionGroupInfo
-struct SectionGroupInfo_t3304;
+struct SectionGroupInfo_t3305;
 // System.Configuration.Internal.IConfigSystem
-struct IConfigSystem_t3305;
+struct IConfigSystem_t3306;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Configuration.Configuration
-struct  Configuration_t3296  : public Object_t
+struct  Configuration_t3297  : public Object_t
 {
 	// System.Configuration.Configuration System.Configuration.Configuration::parent
-	Configuration_t3296 * ___parent_0;
+	Configuration_t3297 * ___parent_0;
 	// System.Collections.Hashtable System.Configuration.Configuration::elementData
-	Hashtable_t710 * ___elementData_1;
+	Hashtable_t711 * ___elementData_1;
 	// System.String System.Configuration.Configuration::streamName
 	String_t* ___streamName_2;
 	// System.Configuration.ConfigurationSectionGroup System.Configuration.Configuration::rootSectionGroup
-	ConfigurationSectionGroup_t3302 * ___rootSectionGroup_3;
+	ConfigurationSectionGroup_t3303 * ___rootSectionGroup_3;
 	// System.Configuration.ConfigurationLocationCollection System.Configuration.Configuration::locations
-	ConfigurationLocationCollection_t3303 * ___locations_4;
+	ConfigurationLocationCollection_t3304 * ___locations_4;
 	// System.Configuration.SectionGroupInfo System.Configuration.Configuration::rootGroup
-	SectionGroupInfo_t3304 * ___rootGroup_5;
+	SectionGroupInfo_t3305 * ___rootGroup_5;
 	// System.Configuration.Internal.IConfigSystem System.Configuration.Configuration::system
 	Object_t * ___system_6;
 	// System.Boolean System.Configuration.Configuration::hasFile

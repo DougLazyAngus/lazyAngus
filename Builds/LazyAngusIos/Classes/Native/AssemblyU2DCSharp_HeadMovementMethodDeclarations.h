@@ -10,12 +10,12 @@ struct HeadMovement_t573;
 #include "UnityEngine_UnityEngine_Vector3.h"
 
 // System.Void HeadMovement::.ctor()
-extern "C" void HeadMovement__ctor_m3093 (HeadMovement_t573 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HeadMovement__ctor_m3094 (HeadMovement_t573 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void HeadMovement::Start()
-extern "C" void HeadMovement_Start_m3094 (HeadMovement_t573 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HeadMovement_Start_m3095 (HeadMovement_t573 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void HeadMovement::Update()
-extern "C" void HeadMovement_Update_m3095 (HeadMovement_t573 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HeadMovement_Update_m3096 (HeadMovement_t573 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean HeadMovement::MoveTowards(System.Single,System.Single)
-extern "C" bool HeadMovement_MoveTowards_m3096 (HeadMovement_t573 * __this, float ___targetDeg, float ___speedDeg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool HeadMovement_MoveTowards_m3097 (HeadMovement_t573 * __this, float ___targetDeg, float ___speedDeg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void HeadMovement::LookTowards(UnityEngine.Vector3)
-extern "C" void HeadMovement_LookTowards_m3097 (HeadMovement_t573 * __this, Vector3_t538  ___location, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HeadMovement_LookTowards_m3098 (HeadMovement_t573 * __this, Vector3_t538  ___location, const MethodInfo* method) IL2CPP_METHOD_ATTR;

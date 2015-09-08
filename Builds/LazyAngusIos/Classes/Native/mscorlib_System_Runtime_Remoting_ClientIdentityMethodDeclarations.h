@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.ClientIdentity
-struct ClientIdentity_t5114;
+struct ClientIdentity_t5115;
 // System.MarshalByRefObject
-struct MarshalByRefObject_t4288;
+struct MarshalByRefObject_t4289;
 // System.String
 struct String_t;
 // System.Runtime.Remoting.ObjRef
-struct ObjRef_t5112;
+struct ObjRef_t5113;
 // System.Type
 struct Type_t;
 
 // System.Void System.Runtime.Remoting.ClientIdentity::.ctor(System.String,System.Runtime.Remoting.ObjRef)
-extern "C" void ClientIdentity__ctor_m22582 (ClientIdentity_t5114 * __this, String_t* ___objectUri, ObjRef_t5112 * ___objRef, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ClientIdentity__ctor_m22595 (ClientIdentity_t5115 * __this, String_t* ___objectUri, ObjRef_t5113 * ___objRef, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.MarshalByRefObject System.Runtime.Remoting.ClientIdentity::get_ClientProxy()
-extern "C" MarshalByRefObject_t4288 * ClientIdentity_get_ClientProxy_m22583 (ClientIdentity_t5114 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MarshalByRefObject_t4289 * ClientIdentity_get_ClientProxy_m22596 (ClientIdentity_t5115 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.ClientIdentity::set_ClientProxy(System.MarshalByRefObject)
-extern "C" void ClientIdentity_set_ClientProxy_m22584 (ClientIdentity_t5114 * __this, MarshalByRefObject_t4288 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ClientIdentity_set_ClientProxy_m22597 (ClientIdentity_t5115 * __this, MarshalByRefObject_t4289 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.ObjRef System.Runtime.Remoting.ClientIdentity::CreateObjRef(System.Type)
-extern "C" ObjRef_t5112 * ClientIdentity_CreateObjRef_m22585 (ClientIdentity_t5114 * __this, Type_t * ___requestedType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjRef_t5113 * ClientIdentity_CreateObjRef_m22598 (ClientIdentity_t5115 * __this, Type_t * ___requestedType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.ClientIdentity::get_TargetUri()
-extern "C" String_t* ClientIdentity_get_TargetUri_m22586 (ClientIdentity_t5114 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ClientIdentity_get_TargetUri_m22599 (ClientIdentity_t5115 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Object[]
-struct ObjectU5BU5D_t696;
+struct ObjectU5BU5D_t697;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Stack
-struct  Stack_t2914  : public Object_t
+struct  Stack_t2915  : public Object_t
 {
 	// System.Object[] System.Collections.Stack::contents
-	ObjectU5BU5D_t696* ___contents_0;
+	ObjectU5BU5D_t697* ___contents_0;
 	// System.Int32 System.Collections.Stack::current
 	int32_t ___current_1;
 	// System.Int32 System.Collections.Stack::count

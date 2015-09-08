@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ArrayList
-struct ArrayList_t712;
+struct ArrayList_t713;
 // System.Object
 struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.ArrayList/SimpleEnumerator
-struct  SimpleEnumerator_t4935  : public Object_t
+struct  SimpleEnumerator_t4936  : public Object_t
 {
 	// System.Collections.ArrayList System.Collections.ArrayList/SimpleEnumerator::list
-	ArrayList_t712 * ___list_0;
+	ArrayList_t713 * ___list_0;
 	// System.Int32 System.Collections.ArrayList/SimpleEnumerator::index
 	int32_t ___index_1;
 	// System.Int32 System.Collections.ArrayList/SimpleEnumerator::version
@@ -18,7 +18,7 @@ struct  SimpleEnumerator_t4935  : public Object_t
 	// System.Object System.Collections.ArrayList/SimpleEnumerator::currentElement
 	Object_t * ___currentElement_3;
 };
-struct SimpleEnumerator_t4935_StaticFields{
+struct SimpleEnumerator_t4936_StaticFields{
 	// System.Object System.Collections.ArrayList/SimpleEnumerator::endFlag
 	Object_t * ___endFlag_4;
 };

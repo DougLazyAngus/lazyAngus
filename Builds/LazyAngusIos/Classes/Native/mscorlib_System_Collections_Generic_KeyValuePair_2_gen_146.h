@@ -5,10 +5,10 @@
 // System.Reflection.Emit.Label
 #include "mscorlib_System_Reflection_Emit_Label.h"
 // System.Collections.Generic.KeyValuePair`2<System.Int32,System.Reflection.Emit.Label>
-struct  KeyValuePair_2_t9260 
+struct  KeyValuePair_2_t9261 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,System.Reflection.Emit.Label>::key
 	int32_t ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2<System.Int32,System.Reflection.Emit.Label>::value
-	Label_t4474  ___value_1;
+	Label_t4475  ___value_1;
 };

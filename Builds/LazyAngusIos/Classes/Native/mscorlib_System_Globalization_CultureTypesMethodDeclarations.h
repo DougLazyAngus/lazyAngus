@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Globalization.CultureTypes
-struct CultureTypes_t4971;
+struct CultureTypes_t4972;
 

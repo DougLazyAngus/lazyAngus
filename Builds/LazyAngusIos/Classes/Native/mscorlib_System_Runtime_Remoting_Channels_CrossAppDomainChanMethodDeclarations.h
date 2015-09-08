@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Channels.CrossAppDomainChannel
-struct CrossAppDomainChannel_t5141;
+struct CrossAppDomainChannel_t5142;
 // System.String
 struct String_t;
 // System.Object
 struct Object_t;
 
 // System.Void System.Runtime.Remoting.Channels.CrossAppDomainChannel::.ctor()
-extern "C" void CrossAppDomainChannel__ctor_m22675 (CrossAppDomainChannel_t5141 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CrossAppDomainChannel__ctor_m22688 (CrossAppDomainChannel_t5142 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Channels.CrossAppDomainChannel::.cctor()
-extern "C" void CrossAppDomainChannel__cctor_m22676 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CrossAppDomainChannel__cctor_m22689 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Channels.CrossAppDomainChannel::RegisterCrossAppDomainChannel()
-extern "C" void CrossAppDomainChannel_RegisterCrossAppDomainChannel_m22677 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CrossAppDomainChannel_RegisterCrossAppDomainChannel_m22690 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.Channels.CrossAppDomainChannel::get_ChannelName()
-extern "C" String_t* CrossAppDomainChannel_get_ChannelName_m22678 (CrossAppDomainChannel_t5141 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* CrossAppDomainChannel_get_ChannelName_m22691 (CrossAppDomainChannel_t5142 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Runtime.Remoting.Channels.CrossAppDomainChannel::get_ChannelPriority()
-extern "C" int32_t CrossAppDomainChannel_get_ChannelPriority_m22679 (CrossAppDomainChannel_t5141 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CrossAppDomainChannel_get_ChannelPriority_m22692 (CrossAppDomainChannel_t5142 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.Channels.CrossAppDomainChannel::get_ChannelData()
-extern "C" Object_t * CrossAppDomainChannel_get_ChannelData_m22680 (CrossAppDomainChannel_t5141 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CrossAppDomainChannel_get_ChannelData_m22693 (CrossAppDomainChannel_t5142 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Channels.CrossAppDomainChannel::StartListening(System.Object)
-extern "C" void CrossAppDomainChannel_StartListening_m22681 (CrossAppDomainChannel_t5141 * __this, Object_t * ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CrossAppDomainChannel_StartListening_m22694 (CrossAppDomainChannel_t5142 * __this, Object_t * ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;

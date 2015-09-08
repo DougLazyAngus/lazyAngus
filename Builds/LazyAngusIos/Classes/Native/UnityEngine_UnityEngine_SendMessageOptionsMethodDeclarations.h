@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SendMessageOptions
-struct SendMessageOptions_t2702;
+struct SendMessageOptions_t2703;
 

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>
-struct InternalEnumerator_1_t9242;
+struct InternalEnumerator_1_t9243;
 // System.Object
 struct Object_t;
 // System.Array
@@ -14,20 +14,20 @@ struct Array_t;
 #include "System_System_Security_Cryptography_X509Certificates_X509Cha_5.h"
 
 // System.Void System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m68919_gshared (InternalEnumerator_1_t9242 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m68919(__this, ___array, method) (( void (*) (InternalEnumerator_1_t9242 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m68919_gshared)(__this, ___array, method)
+extern "C" void InternalEnumerator_1__ctor_m68932_gshared (InternalEnumerator_1_t9243 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m68932(__this, ___array, method) (( void (*) (InternalEnumerator_1_t9243 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m68932_gshared)(__this, ___array, method)
 // System.Void System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::System.Collections.IEnumerator.Reset()
-extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m68920_gshared (InternalEnumerator_1_t9242 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m68920(__this, method) (( void (*) (InternalEnumerator_1_t9242 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m68920_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m68933_gshared (InternalEnumerator_1_t9243 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m68933(__this, method) (( void (*) (InternalEnumerator_1_t9243 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m68933_gshared)(__this, method)
 // System.Object System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m68921_gshared (InternalEnumerator_1_t9242 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m68921(__this, method) (( Object_t * (*) (InternalEnumerator_1_t9242 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m68921_gshared)(__this, method)
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m68934_gshared (InternalEnumerator_1_t9243 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m68934(__this, method) (( Object_t * (*) (InternalEnumerator_1_t9243 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m68934_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m68922_gshared (InternalEnumerator_1_t9242 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m68922(__this, method) (( void (*) (InternalEnumerator_1_t9242 *, const MethodInfo*))InternalEnumerator_1_Dispose_m68922_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_Dispose_m68935_gshared (InternalEnumerator_1_t9243 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m68935(__this, method) (( void (*) (InternalEnumerator_1_t9243 *, const MethodInfo*))InternalEnumerator_1_Dispose_m68935_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m68923_gshared (InternalEnumerator_1_t9242 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m68923(__this, method) (( bool (*) (InternalEnumerator_1_t9242 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m68923_gshared)(__this, method)
+extern "C" bool InternalEnumerator_1_MoveNext_m68936_gshared (InternalEnumerator_1_t9243 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m68936(__this, method) (( bool (*) (InternalEnumerator_1_t9243 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m68936_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::get_Current()
-extern "C" X509ChainStatus_t4447  InternalEnumerator_1_get_Current_m68924_gshared (InternalEnumerator_1_t9242 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m68924(__this, method) (( X509ChainStatus_t4447  (*) (InternalEnumerator_1_t9242 *, const MethodInfo*))InternalEnumerator_1_get_Current_m68924_gshared)(__this, method)
+extern "C" X509ChainStatus_t4448  InternalEnumerator_1_get_Current_m68937_gshared (InternalEnumerator_1_t9243 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m68937(__this, method) (( X509ChainStatus_t4448  (*) (InternalEnumerator_1_t9243 *, const MethodInfo*))InternalEnumerator_1_get_Current_m68937_gshared)(__this, method)

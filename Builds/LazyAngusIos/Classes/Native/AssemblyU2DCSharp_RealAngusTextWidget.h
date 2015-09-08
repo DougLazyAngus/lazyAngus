@@ -4,12 +4,14 @@
 struct Text_t502;
 // UnityEngine.RectTransform
 struct RectTransform_t545;
+// InOutTransitioner
+struct InOutTransitioner_t575;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // RealAngusTextWidget
-struct  RealAngusTextWidget_t637  : public MonoBehaviour_t13
+struct  RealAngusTextWidget_t638  : public MonoBehaviour_t13
 {
 	// UnityEngine.UI.Text RealAngusTextWidget::mainText
 	Text_t502 * ___mainText_2;
@@ -21,12 +23,8 @@ struct  RealAngusTextWidget_t637  : public MonoBehaviour_t13
 	float ___offscreenRotation_5;
 	// System.Single RealAngusTextWidget::onscreenRotation
 	float ___onscreenRotation_6;
-	// System.Single RealAngusTextWidget::startTransitionTime
-	float ___startTransitionTime_7;
-	// System.Boolean RealAngusTextWidget::transitioning
-	bool ___transitioning_8;
-	// System.Boolean RealAngusTextWidget::onscreen
-	bool ___onscreen_9;
 	// UnityEngine.RectTransform RealAngusTextWidget::rectTransform
-	RectTransform_t545 * ___rectTransform_10;
+	RectTransform_t545 * ___rectTransform_7;
+	// InOutTransitioner RealAngusTextWidget::transitioner
+	InOutTransitioner_t575 * ___transitioner_8;
 };

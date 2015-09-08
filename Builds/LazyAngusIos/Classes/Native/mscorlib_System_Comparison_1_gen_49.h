@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.WeakReference
-struct WeakReference_t2241;
+struct WeakReference_t2242;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<System.WeakReference>
-struct  Comparison_1_t6595  : public MulticastDelegate_t388
+struct  Comparison_1_t6596  : public MulticastDelegate_t388
 {
 };

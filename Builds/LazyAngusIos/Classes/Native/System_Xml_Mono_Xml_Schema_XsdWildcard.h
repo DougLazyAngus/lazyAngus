@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.Schema.XmlSchemaObject
-struct XmlSchemaObject_t3439;
+struct XmlSchemaObject_t3440;
 // System.String
 struct String_t;
 // System.Collections.Specialized.StringCollection
-struct StringCollection_t3440;
+struct StringCollection_t3441;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Object
@@ -13,10 +13,10 @@ struct Dictionary_2_t223;
 // System.Xml.Schema.XmlSchemaContentProcessing
 #include "System_Xml_System_Xml_Schema_XmlSchemaContentProcessing.h"
 // Mono.Xml.Schema.XsdWildcard
-struct  XsdWildcard_t3441  : public Object_t
+struct  XsdWildcard_t3442  : public Object_t
 {
 	// System.Xml.Schema.XmlSchemaObject Mono.Xml.Schema.XsdWildcard::xsobj
-	XmlSchemaObject_t3439 * ___xsobj_0;
+	XmlSchemaObject_t3440 * ___xsobj_0;
 	// System.Xml.Schema.XmlSchemaContentProcessing Mono.Xml.Schema.XsdWildcard::ResolvedProcessing
 	int32_t ___ResolvedProcessing_1;
 	// System.String Mono.Xml.Schema.XsdWildcard::TargetNamespace
@@ -32,9 +32,9 @@ struct  XsdWildcard_t3441  : public Object_t
 	// System.Boolean Mono.Xml.Schema.XsdWildcard::HasValueTargetNamespace
 	bool ___HasValueTargetNamespace_7;
 	// System.Collections.Specialized.StringCollection Mono.Xml.Schema.XsdWildcard::ResolvedNamespaces
-	StringCollection_t3440 * ___ResolvedNamespaces_8;
+	StringCollection_t3441 * ___ResolvedNamespaces_8;
 };
-struct XsdWildcard_t3441_StaticFields{
+struct XsdWildcard_t3442_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Xml.Schema.XsdWildcard::<>f__switch$map6
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map6_9;
 };

@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.AudioSettings/AudioConfigurationChangeHandler
-struct  AudioConfigurationChangeHandler_t2787  : public MulticastDelegate_t388
+struct  AudioConfigurationChangeHandler_t2788  : public MulticastDelegate_t388
 {
 };

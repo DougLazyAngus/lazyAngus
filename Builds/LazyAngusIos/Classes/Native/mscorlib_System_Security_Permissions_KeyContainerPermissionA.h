@@ -7,7 +7,7 @@ struct String_t;
 // System.Security.Permissions.KeyContainerPermissionFlags
 #include "mscorlib_System_Security_Permissions_KeyContainerPermissionF.h"
 // System.Security.Permissions.KeyContainerPermissionAccessEntry
-struct  KeyContainerPermissionAccessEntry_t5301  : public Object_t
+struct  KeyContainerPermissionAccessEntry_t5302  : public Object_t
 {
 	// System.Security.Permissions.KeyContainerPermissionFlags System.Security.Permissions.KeyContainerPermissionAccessEntry::_flags
 	int32_t ____flags_0;

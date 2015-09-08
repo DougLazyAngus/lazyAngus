@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.RegularExpressions.FactoryCache
-struct FactoryCache_t4470;
+struct FactoryCache_t4471;
 // System.Text.RegularExpressions.IMachineFactory
-struct IMachineFactory_t4505;
+struct IMachineFactory_t4506;
 // System.Collections.IDictionary
-struct IDictionary_t699;
+struct IDictionary_t700;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Int32[]
@@ -13,15 +13,15 @@ struct Int32U5BU5D_t484;
 // System.String
 struct String_t;
 // System.Collections.Hashtable
-struct Hashtable_t710;
+struct Hashtable_t711;
 // System.Text.RegularExpressions.RegexRunnerFactory
-struct RegexRunnerFactory_t4506;
+struct RegexRunnerFactory_t4507;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.RegexOptions
 #include "System_System_Text_RegularExpressions_RegexOptions.h"
 // System.Text.RegularExpressions.Regex
-struct  Regex_t801  : public Object_t
+struct  Regex_t802  : public Object_t
 {
 	// System.Text.RegularExpressions.IMachineFactory System.Text.RegularExpressions.Regex::machineFactory
 	Object_t * ___machineFactory_2;
@@ -42,19 +42,19 @@ struct  Regex_t801  : public Object_t
 	// System.Text.RegularExpressions.RegexOptions System.Text.RegularExpressions.Regex::roptions
 	int32_t ___roptions_10;
 	// System.Collections.Hashtable System.Text.RegularExpressions.Regex::capnames
-	Hashtable_t710 * ___capnames_11;
+	Hashtable_t711 * ___capnames_11;
 	// System.Collections.Hashtable System.Text.RegularExpressions.Regex::caps
-	Hashtable_t710 * ___caps_12;
+	Hashtable_t711 * ___caps_12;
 	// System.Text.RegularExpressions.RegexRunnerFactory System.Text.RegularExpressions.Regex::factory
-	RegexRunnerFactory_t4506 * ___factory_13;
+	RegexRunnerFactory_t4507 * ___factory_13;
 	// System.Int32 System.Text.RegularExpressions.Regex::capsize
 	int32_t ___capsize_14;
 	// System.String[] System.Text.RegularExpressions.Regex::capslist
 	StringU5BU5D_t75* ___capslist_15;
 };
-struct Regex_t801_StaticFields{
+struct Regex_t802_StaticFields{
 	// System.Text.RegularExpressions.FactoryCache System.Text.RegularExpressions.Regex::cache
-	FactoryCache_t4470 * ___cache_0;
+	FactoryCache_t4471 * ___cache_0;
 	// System.Boolean System.Text.RegularExpressions.Regex::old_rx
 	bool ___old_rx_1;
 };

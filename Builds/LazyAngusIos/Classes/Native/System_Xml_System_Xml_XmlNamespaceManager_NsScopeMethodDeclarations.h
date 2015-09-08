@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlNamespaceManager/NsScope
-struct NsScope_t3519;
-struct NsScope_t3519_marshaled;
+struct NsScope_t3520;
+struct NsScope_t3520_marshaled;
 
-void NsScope_t3519_marshal(const NsScope_t3519& unmarshaled, NsScope_t3519_marshaled& marshaled);
-void NsScope_t3519_marshal_back(const NsScope_t3519_marshaled& marshaled, NsScope_t3519& unmarshaled);
-void NsScope_t3519_marshal_cleanup(NsScope_t3519_marshaled& marshaled);
+void NsScope_t3520_marshal(const NsScope_t3520& unmarshaled, NsScope_t3520_marshaled& marshaled);
+void NsScope_t3520_marshal_back(const NsScope_t3520_marshaled& marshaled, NsScope_t3520& unmarshaled);
+void NsScope_t3520_marshal_cleanup(NsScope_t3520_marshaled& marshaled);

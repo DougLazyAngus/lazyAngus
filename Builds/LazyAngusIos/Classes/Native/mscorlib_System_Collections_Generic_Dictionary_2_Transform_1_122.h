@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.ComponentModel.WeakObjectWrapper
-struct WeakObjectWrapper_t4268;
+struct WeakObjectWrapper_t4269;
 // System.Collections.Generic.LinkedList`1<System.ComponentModel.TypeDescriptionProvider>
-struct LinkedList_1_t9223;
+struct LinkedList_1_t9224;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<System.ComponentModel.WeakObjectWrapper,System.Collections.Generic.LinkedList`1<System.ComponentModel.TypeDescriptionProvider>,System.Collections.DictionaryEntry>
-struct  Transform_1_t9232  : public MulticastDelegate_t388
+struct  Transform_1_t9233  : public MulticastDelegate_t388
 {
 };

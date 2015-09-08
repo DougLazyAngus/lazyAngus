@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.UInt32[]
-struct UInt32U5BU5D_t3116;
+struct UInt32U5BU5D_t3117;
 // System.Security.Cryptography.RandomNumberGenerator
-struct RandomNumberGenerator_t3117;
+struct RandomNumberGenerator_t3118;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Math.BigInteger
-struct  BigInteger_t3113  : public Object_t
+struct  BigInteger_t3114  : public Object_t
 {
 	// System.UInt32 Mono.Math.BigInteger::length
 	uint32_t ___length_0;
 	// System.UInt32[] Mono.Math.BigInteger::data
-	UInt32U5BU5D_t3116* ___data_1;
+	UInt32U5BU5D_t3117* ___data_1;
 };
-struct BigInteger_t3113_StaticFields{
+struct BigInteger_t3114_StaticFields{
 	// System.UInt32[] Mono.Math.BigInteger::smallPrimes
-	UInt32U5BU5D_t3116* ___smallPrimes_2;
+	UInt32U5BU5D_t3117* ___smallPrimes_2;
 	// System.Security.Cryptography.RandomNumberGenerator Mono.Math.BigInteger::rng
-	RandomNumberGenerator_t3117 * ___rng_3;
+	RandomNumberGenerator_t3118 * ___rng_3;
 };

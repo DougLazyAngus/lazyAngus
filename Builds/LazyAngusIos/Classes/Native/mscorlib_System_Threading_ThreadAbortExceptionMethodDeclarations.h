@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.ThreadAbortException
-struct ThreadAbortException_t4579;
+struct ThreadAbortException_t4580;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2936;
+struct SerializationInfo_t2937;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Threading.ThreadAbortException::.ctor()
-extern "C" void ThreadAbortException__ctor_m24367 (ThreadAbortException_t4579 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThreadAbortException__ctor_m24380 (ThreadAbortException_t4580 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.ThreadAbortException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ThreadAbortException__ctor_m24368 (ThreadAbortException_t4579 * __this, SerializationInfo_t2936 * ___info, StreamingContext_t2937  ___sc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ThreadAbortException__ctor_m24381 (ThreadAbortException_t4580 * __this, SerializationInfo_t2937 * ___info, StreamingContext_t2938  ___sc, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,7 +5,7 @@
 // System.Threading.Tasks.TaskCreationOptions
 #include "Parse_Unity_System_Threading_Tasks_TaskCreationOptions.h"
 // System.Threading.Tasks.TaskCreationOptions
-struct  TaskCreationOptions_t1373 
+struct  TaskCreationOptions_t1374 
 {
 	// System.Int32 System.Threading.Tasks.TaskCreationOptions::value__
 	int32_t ___value___1;

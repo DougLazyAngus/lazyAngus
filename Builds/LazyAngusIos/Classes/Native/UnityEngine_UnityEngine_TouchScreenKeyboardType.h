@@ -5,7 +5,7 @@
 // UnityEngine.TouchScreenKeyboardType
 #include "UnityEngine_UnityEngine_TouchScreenKeyboardType.h"
 // UnityEngine.TouchScreenKeyboardType
-struct  TouchScreenKeyboardType_t1090 
+struct  TouchScreenKeyboardType_t1091 
 {
 	// System.Int32 UnityEngine.TouchScreenKeyboardType::value__
 	int32_t ___value___1;

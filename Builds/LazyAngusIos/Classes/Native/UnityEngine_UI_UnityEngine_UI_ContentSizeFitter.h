@@ -9,7 +9,7 @@ struct RectTransform_t545;
 // UnityEngine.DrivenRectTransformTracker
 #include "UnityEngine_UnityEngine_DrivenRectTransformTracker.h"
 // UnityEngine.UI.ContentSizeFitter
-struct  ContentSizeFitter_t1010  : public UIBehaviour_t862
+struct  ContentSizeFitter_t1011  : public UIBehaviour_t863
 {
 	// UnityEngine.UI.ContentSizeFitter/FitMode UnityEngine.UI.ContentSizeFitter::m_HorizontalFit
 	int32_t ___m_HorizontalFit_2;
@@ -18,5 +18,5 @@ struct  ContentSizeFitter_t1010  : public UIBehaviour_t862
 	// UnityEngine.RectTransform UnityEngine.UI.ContentSizeFitter::m_Rect
 	RectTransform_t545 * ___m_Rect_4;
 	// UnityEngine.DrivenRectTransformTracker UnityEngine.UI.ContentSizeFitter::m_Tracker
-	DrivenRectTransformTracker_t979  ___m_Tracker_5;
+	DrivenRectTransformTracker_t980  ___m_Tracker_5;
 };

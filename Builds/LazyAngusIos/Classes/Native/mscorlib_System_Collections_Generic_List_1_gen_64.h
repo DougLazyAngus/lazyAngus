@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Linq.Expressions.Expression[]
-struct ExpressionU5BU5D_t1541;
+struct ExpressionU5BU5D_t1542;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<System.Linq.Expressions.Expression>
-struct  List_1_t3793  : public Object_t
+struct  List_1_t3794  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::_items
-	ExpressionU5BU5D_t1541* ____items_1;
+	ExpressionU5BU5D_t1542* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::_version
 	int32_t ____version_3;
 };
-struct List_1_t3793_StaticFields{
+struct List_1_t3794_StaticFields{
 	// T[] System.Collections.Generic.List`1<System.Linq.Expressions.Expression>::EmptyArray
-	ExpressionU5BU5D_t1541* ___EmptyArray_4;
+	ExpressionU5BU5D_t1542* ___EmptyArray_4;
 };

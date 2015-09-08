@@ -3,13 +3,13 @@
 // System.Object
 struct Object_t;
 // System.Xml.Schema.XmlSchemaSimpleType
-struct XmlSchemaSimpleType_t3633;
+struct XmlSchemaSimpleType_t3634;
 // System.String
 struct String_t;
 // System.Xml.XmlQualifiedName
-struct XmlQualifiedName_t3415;
+struct XmlQualifiedName_t3416;
 // System.Xml.Schema.XmlSchemaAttribute
-struct XmlSchemaAttribute_t3634;
+struct XmlSchemaAttribute_t3635;
 // System.Xml.Schema.XmlSchemaAnnotated
 #include "System_Xml_System_Xml_Schema_XmlSchemaAnnotated.h"
 // System.Xml.Schema.XmlSchemaForm
@@ -17,12 +17,12 @@ struct XmlSchemaAttribute_t3634;
 // System.Xml.Schema.XmlSchemaUse
 #include "System_Xml_System_Xml_Schema_XmlSchemaUse.h"
 // System.Xml.Schema.XmlSchemaAttribute
-struct  XmlSchemaAttribute_t3634  : public XmlSchemaAnnotated_t3628
+struct  XmlSchemaAttribute_t3635  : public XmlSchemaAnnotated_t3629
 {
 	// System.Object System.Xml.Schema.XmlSchemaAttribute::attributeType
 	Object_t * ___attributeType_16;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaAttribute::attributeSchemaType
-	XmlSchemaSimpleType_t3633 * ___attributeSchemaType_17;
+	XmlSchemaSimpleType_t3634 * ___attributeSchemaType_17;
 	// System.String System.Xml.Schema.XmlSchemaAttribute::defaultValue
 	String_t* ___defaultValue_18;
 	// System.String System.Xml.Schema.XmlSchemaAttribute::fixedValue
@@ -40,17 +40,17 @@ struct  XmlSchemaAttribute_t3634  : public XmlSchemaAnnotated_t3628
 	// System.String System.Xml.Schema.XmlSchemaAttribute::targetNamespace
 	String_t* ___targetNamespace_25;
 	// System.Xml.XmlQualifiedName System.Xml.Schema.XmlSchemaAttribute::qualifiedName
-	XmlQualifiedName_t3415 * ___qualifiedName_26;
+	XmlQualifiedName_t3416 * ___qualifiedName_26;
 	// System.Xml.XmlQualifiedName System.Xml.Schema.XmlSchemaAttribute::refName
-	XmlQualifiedName_t3415 * ___refName_27;
+	XmlQualifiedName_t3416 * ___refName_27;
 	// System.Xml.Schema.XmlSchemaSimpleType System.Xml.Schema.XmlSchemaAttribute::schemaType
-	XmlSchemaSimpleType_t3633 * ___schemaType_28;
+	XmlSchemaSimpleType_t3634 * ___schemaType_28;
 	// System.Xml.XmlQualifiedName System.Xml.Schema.XmlSchemaAttribute::schemaTypeName
-	XmlQualifiedName_t3415 * ___schemaTypeName_29;
+	XmlQualifiedName_t3416 * ___schemaTypeName_29;
 	// System.Xml.Schema.XmlSchemaUse System.Xml.Schema.XmlSchemaAttribute::use
 	int32_t ___use_30;
 	// System.Xml.Schema.XmlSchemaUse System.Xml.Schema.XmlSchemaAttribute::validatedUse
 	int32_t ___validatedUse_31;
 	// System.Xml.Schema.XmlSchemaAttribute System.Xml.Schema.XmlSchemaAttribute::referencedAttribute
-	XmlSchemaAttribute_t3634 * ___referencedAttribute_32;
+	XmlSchemaAttribute_t3635 * ___referencedAttribute_32;
 };

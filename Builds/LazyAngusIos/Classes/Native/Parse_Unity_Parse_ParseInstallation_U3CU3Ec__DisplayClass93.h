@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // Parse.ParseInstallation
-struct ParseInstallation_t1305;
+struct ParseInstallation_t1306;
 // System.Threading.Tasks.Task
-struct Task_t1227;
+struct Task_t1228;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.CancellationToken
 #include "Parse_Unity_System_Threading_CancellationToken.h"
 // Parse.ParseInstallation/<>c__DisplayClass93
-struct  U3CU3Ec__DisplayClass93_t1306  : public Object_t
+struct  U3CU3Ec__DisplayClass93_t1307  : public Object_t
 {
 	// Parse.ParseInstallation Parse.ParseInstallation/<>c__DisplayClass93::<>4__this
-	ParseInstallation_t1305 * ___U3CU3E4__this_0;
+	ParseInstallation_t1306 * ___U3CU3E4__this_0;
 	// System.Threading.Tasks.Task Parse.ParseInstallation/<>c__DisplayClass93::toAwait
-	Task_t1227 * ___toAwait_1;
+	Task_t1228 * ___toAwait_1;
 	// System.Threading.CancellationToken Parse.ParseInstallation/<>c__DisplayClass93::cancellationToken
-	CancellationToken_t1181  ___cancellationToken_2;
+	CancellationToken_t1182  ___cancellationToken_2;
 };

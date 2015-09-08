@@ -5,7 +5,7 @@ struct String_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.WebCamDevice
-struct  WebCamDevice_t2791 
+struct  WebCamDevice_t2792 
 {
 	// System.String UnityEngine.WebCamDevice::m_Name
 	String_t* ___m_Name_0;
@@ -13,7 +13,7 @@ struct  WebCamDevice_t2791
 	int32_t ___m_Flags_1;
 };
 // Native definition for marshalling of: UnityEngine.WebCamDevice
-struct WebCamDevice_t2791_marshaled
+struct WebCamDevice_t2792_marshaled
 {
 	char* ___m_Name_0;
 	int32_t ___m_Flags_1;

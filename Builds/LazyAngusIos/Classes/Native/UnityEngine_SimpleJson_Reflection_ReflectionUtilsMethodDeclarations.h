@@ -5,65 +5,65 @@
 #include "codegen/il2cpp-codegen.h"
 
 // SimpleJson.Reflection.ReflectionUtils
-struct ReflectionUtils_t2851;
+struct ReflectionUtils_t2852;
 // System.Collections.Generic.IEnumerable`1<System.Reflection.ConstructorInfo>
-struct IEnumerable_1_t1397;
+struct IEnumerable_1_t1398;
 // System.Type
 struct Type_t;
 // System.Reflection.ConstructorInfo
-struct ConstructorInfo_t1398;
+struct ConstructorInfo_t1399;
 // System.Type[]
-struct TypeU5BU5D_t1220;
+struct TypeU5BU5D_t1221;
 // System.Collections.Generic.IEnumerable`1<System.Reflection.PropertyInfo>
-struct IEnumerable_1_t1395;
+struct IEnumerable_1_t1396;
 // System.Collections.Generic.IEnumerable`1<System.Reflection.FieldInfo>
-struct IEnumerable_1_t2934;
+struct IEnumerable_1_t2935;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Reflection.PropertyInfo
 struct PropertyInfo_t;
 // SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate
-struct ConstructorDelegate_t2845;
+struct ConstructorDelegate_t2846;
 // SimpleJson.Reflection.ReflectionUtils/GetDelegate
-struct GetDelegate_t2843;
+struct GetDelegate_t2844;
 // System.Reflection.FieldInfo
 struct FieldInfo_t;
 // SimpleJson.Reflection.ReflectionUtils/SetDelegate
-struct SetDelegate_t2844;
+struct SetDelegate_t2845;
 
 // System.Void SimpleJson.Reflection.ReflectionUtils::.cctor()
-extern "C" void ReflectionUtils__cctor_m9998 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReflectionUtils__cctor_m10011 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IEnumerable`1<System.Reflection.ConstructorInfo> SimpleJson.Reflection.ReflectionUtils::GetConstructors(System.Type)
-extern "C" Object_t* ReflectionUtils_GetConstructors_m9999 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t* ReflectionUtils_GetConstructors_m10012 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.ConstructorInfo SimpleJson.Reflection.ReflectionUtils::GetConstructorInfo(System.Type,System.Type[])
-extern "C" ConstructorInfo_t1398 * ReflectionUtils_GetConstructorInfo_m10000 (Object_t * __this /* static, unused */, Type_t * ___type, TypeU5BU5D_t1220* ___argsType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ConstructorInfo_t1399 * ReflectionUtils_GetConstructorInfo_m10013 (Object_t * __this /* static, unused */, Type_t * ___type, TypeU5BU5D_t1221* ___argsType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IEnumerable`1<System.Reflection.PropertyInfo> SimpleJson.Reflection.ReflectionUtils::GetProperties(System.Type)
-extern "C" Object_t* ReflectionUtils_GetProperties_m10001 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t* ReflectionUtils_GetProperties_m10014 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IEnumerable`1<System.Reflection.FieldInfo> SimpleJson.Reflection.ReflectionUtils::GetFields(System.Type)
-extern "C" Object_t* ReflectionUtils_GetFields_m10002 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t* ReflectionUtils_GetFields_m10015 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo SimpleJson.Reflection.ReflectionUtils::GetGetterMethodInfo(System.Reflection.PropertyInfo)
-extern "C" MethodInfo_t * ReflectionUtils_GetGetterMethodInfo_m10003 (Object_t * __this /* static, unused */, PropertyInfo_t * ___propertyInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodInfo_t * ReflectionUtils_GetGetterMethodInfo_m10016 (Object_t * __this /* static, unused */, PropertyInfo_t * ___propertyInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo SimpleJson.Reflection.ReflectionUtils::GetSetterMethodInfo(System.Reflection.PropertyInfo)
-extern "C" MethodInfo_t * ReflectionUtils_GetSetterMethodInfo_m10004 (Object_t * __this /* static, unused */, PropertyInfo_t * ___propertyInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodInfo_t * ReflectionUtils_GetSetterMethodInfo_m10017 (Object_t * __this /* static, unused */, PropertyInfo_t * ___propertyInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate SimpleJson.Reflection.ReflectionUtils::GetContructor(System.Type,System.Type[])
-extern "C" ConstructorDelegate_t2845 * ReflectionUtils_GetContructor_m10005 (Object_t * __this /* static, unused */, Type_t * ___type, TypeU5BU5D_t1220* ___argsType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ConstructorDelegate_t2846 * ReflectionUtils_GetContructor_m10018 (Object_t * __this /* static, unused */, Type_t * ___type, TypeU5BU5D_t1221* ___argsType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate SimpleJson.Reflection.ReflectionUtils::GetConstructorByReflection(System.Reflection.ConstructorInfo)
-extern "C" ConstructorDelegate_t2845 * ReflectionUtils_GetConstructorByReflection_m10006 (Object_t * __this /* static, unused */, ConstructorInfo_t1398 * ___constructorInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ConstructorDelegate_t2846 * ReflectionUtils_GetConstructorByReflection_m10019 (Object_t * __this /* static, unused */, ConstructorInfo_t1399 * ___constructorInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate SimpleJson.Reflection.ReflectionUtils::GetConstructorByReflection(System.Type,System.Type[])
-extern "C" ConstructorDelegate_t2845 * ReflectionUtils_GetConstructorByReflection_m10007 (Object_t * __this /* static, unused */, Type_t * ___type, TypeU5BU5D_t1220* ___argsType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ConstructorDelegate_t2846 * ReflectionUtils_GetConstructorByReflection_m10020 (Object_t * __this /* static, unused */, Type_t * ___type, TypeU5BU5D_t1221* ___argsType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // SimpleJson.Reflection.ReflectionUtils/GetDelegate SimpleJson.Reflection.ReflectionUtils::GetGetMethod(System.Reflection.PropertyInfo)
-extern "C" GetDelegate_t2843 * ReflectionUtils_GetGetMethod_m10008 (Object_t * __this /* static, unused */, PropertyInfo_t * ___propertyInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GetDelegate_t2844 * ReflectionUtils_GetGetMethod_m10021 (Object_t * __this /* static, unused */, PropertyInfo_t * ___propertyInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // SimpleJson.Reflection.ReflectionUtils/GetDelegate SimpleJson.Reflection.ReflectionUtils::GetGetMethod(System.Reflection.FieldInfo)
-extern "C" GetDelegate_t2843 * ReflectionUtils_GetGetMethod_m10009 (Object_t * __this /* static, unused */, FieldInfo_t * ___fieldInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GetDelegate_t2844 * ReflectionUtils_GetGetMethod_m10022 (Object_t * __this /* static, unused */, FieldInfo_t * ___fieldInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // SimpleJson.Reflection.ReflectionUtils/GetDelegate SimpleJson.Reflection.ReflectionUtils::GetGetMethodByReflection(System.Reflection.PropertyInfo)
-extern "C" GetDelegate_t2843 * ReflectionUtils_GetGetMethodByReflection_m10010 (Object_t * __this /* static, unused */, PropertyInfo_t * ___propertyInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GetDelegate_t2844 * ReflectionUtils_GetGetMethodByReflection_m10023 (Object_t * __this /* static, unused */, PropertyInfo_t * ___propertyInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // SimpleJson.Reflection.ReflectionUtils/GetDelegate SimpleJson.Reflection.ReflectionUtils::GetGetMethodByReflection(System.Reflection.FieldInfo)
-extern "C" GetDelegate_t2843 * ReflectionUtils_GetGetMethodByReflection_m10011 (Object_t * __this /* static, unused */, FieldInfo_t * ___fieldInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GetDelegate_t2844 * ReflectionUtils_GetGetMethodByReflection_m10024 (Object_t * __this /* static, unused */, FieldInfo_t * ___fieldInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // SimpleJson.Reflection.ReflectionUtils/SetDelegate SimpleJson.Reflection.ReflectionUtils::GetSetMethod(System.Reflection.PropertyInfo)
-extern "C" SetDelegate_t2844 * ReflectionUtils_GetSetMethod_m10012 (Object_t * __this /* static, unused */, PropertyInfo_t * ___propertyInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SetDelegate_t2845 * ReflectionUtils_GetSetMethod_m10025 (Object_t * __this /* static, unused */, PropertyInfo_t * ___propertyInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // SimpleJson.Reflection.ReflectionUtils/SetDelegate SimpleJson.Reflection.ReflectionUtils::GetSetMethod(System.Reflection.FieldInfo)
-extern "C" SetDelegate_t2844 * ReflectionUtils_GetSetMethod_m10013 (Object_t * __this /* static, unused */, FieldInfo_t * ___fieldInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SetDelegate_t2845 * ReflectionUtils_GetSetMethod_m10026 (Object_t * __this /* static, unused */, FieldInfo_t * ___fieldInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // SimpleJson.Reflection.ReflectionUtils/SetDelegate SimpleJson.Reflection.ReflectionUtils::GetSetMethodByReflection(System.Reflection.PropertyInfo)
-extern "C" SetDelegate_t2844 * ReflectionUtils_GetSetMethodByReflection_m10014 (Object_t * __this /* static, unused */, PropertyInfo_t * ___propertyInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SetDelegate_t2845 * ReflectionUtils_GetSetMethodByReflection_m10027 (Object_t * __this /* static, unused */, PropertyInfo_t * ___propertyInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // SimpleJson.Reflection.ReflectionUtils/SetDelegate SimpleJson.Reflection.ReflectionUtils::GetSetMethodByReflection(System.Reflection.FieldInfo)
-extern "C" SetDelegate_t2844 * ReflectionUtils_GetSetMethodByReflection_m10015 (Object_t * __this /* static, unused */, FieldInfo_t * ___fieldInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SetDelegate_t2845 * ReflectionUtils_GetSetMethodByReflection_m10028 (Object_t * __this /* static, unused */, FieldInfo_t * ___fieldInfo, const MethodInfo* method) IL2CPP_METHOD_ATTR;

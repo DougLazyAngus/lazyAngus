@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // TimerWidgetConfig
-struct TimerWidgetConfig_t679;
+struct TimerWidgetConfig_t680;
 
 // System.Void TimerWidgetConfig::.ctor()
-extern "C" void TimerWidgetConfig__ctor_m3698 (TimerWidgetConfig_t679 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TimerWidgetConfig__ctor_m3711 (TimerWidgetConfig_t680 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TimerWidgetConfig::Awake()
-extern "C" void TimerWidgetConfig_Awake_m3699 (TimerWidgetConfig_t679 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TimerWidgetConfig_Awake_m3712 (TimerWidgetConfig_t680 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TimerWidgetConfig::Start()
-extern "C" void TimerWidgetConfig_Start_m3700 (TimerWidgetConfig_t679 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TimerWidgetConfig_Start_m3713 (TimerWidgetConfig_t680 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void TimerWidgetConfig::Update()
-extern "C" void TimerWidgetConfig_Update_m3701 (TimerWidgetConfig_t679 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TimerWidgetConfig_Update_m3714 (TimerWidgetConfig_t680 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

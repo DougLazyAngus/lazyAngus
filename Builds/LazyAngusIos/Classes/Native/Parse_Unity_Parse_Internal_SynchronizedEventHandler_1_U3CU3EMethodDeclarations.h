@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.Internal.SynchronizedEventHandler`1/<>c__DisplayClass2<System.Object>
-struct U3CU3Ec__DisplayClass2_t6560;
+struct U3CU3Ec__DisplayClass2_t6561;
 // System.Threading.Tasks.Task
-struct Task_t1227;
+struct Task_t1228;
 // System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>
-struct Tuple_2_t2383;
+struct Tuple_2_t2384;
 
 // System.Void Parse.Internal.SynchronizedEventHandler`1/<>c__DisplayClass2<System.Object>::.ctor()
-extern "C" void U3CU3Ec__DisplayClass2__ctor_m35655_gshared (U3CU3Ec__DisplayClass2_t6560 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass2__ctor_m35655(__this, method) (( void (*) (U3CU3Ec__DisplayClass2_t6560 *, const MethodInfo*))U3CU3Ec__DisplayClass2__ctor_m35655_gshared)(__this, method)
+extern "C" void U3CU3Ec__DisplayClass2__ctor_m35668_gshared (U3CU3Ec__DisplayClass2_t6561 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass2__ctor_m35668(__this, method) (( void (*) (U3CU3Ec__DisplayClass2_t6561 *, const MethodInfo*))U3CU3Ec__DisplayClass2__ctor_m35668_gshared)(__this, method)
 // System.Threading.Tasks.Task Parse.Internal.SynchronizedEventHandler`1/<>c__DisplayClass2<System.Object>::<Invoke>b__0(System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>)
-extern "C" Task_t1227 * U3CU3Ec__DisplayClass2_U3CInvokeU3Eb__0_m35656_gshared (U3CU3Ec__DisplayClass2_t6560 * __this, Tuple_2_t2383 * ___p, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass2_U3CInvokeU3Eb__0_m35656(__this, ___p, method) (( Task_t1227 * (*) (U3CU3Ec__DisplayClass2_t6560 *, Tuple_2_t2383 *, const MethodInfo*))U3CU3Ec__DisplayClass2_U3CInvokeU3Eb__0_m35656_gshared)(__this, ___p, method)
+extern "C" Task_t1228 * U3CU3Ec__DisplayClass2_U3CInvokeU3Eb__0_m35669_gshared (U3CU3Ec__DisplayClass2_t6561 * __this, Tuple_2_t2384 * ___p, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass2_U3CInvokeU3Eb__0_m35669(__this, ___p, method) (( Task_t1228 * (*) (U3CU3Ec__DisplayClass2_t6561 *, Tuple_2_t2384 *, const MethodInfo*))U3CU3Ec__DisplayClass2_U3CInvokeU3Eb__0_m35669_gshared)(__this, ___p, method)

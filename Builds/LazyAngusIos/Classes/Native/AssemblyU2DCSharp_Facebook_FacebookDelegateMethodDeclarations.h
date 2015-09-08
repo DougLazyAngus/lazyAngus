@@ -18,11 +18,11 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void Facebook.FacebookDelegate::.ctor(System.Object,System.IntPtr)
-extern "C" void FacebookDelegate__ctor_m3799 (FacebookDelegate_t433 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FacebookDelegate__ctor_m3811 (FacebookDelegate_t433 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.FacebookDelegate::Invoke(FBResult)
-extern "C" void FacebookDelegate_Invoke_m3800 (FacebookDelegate_t433 * __this, FBResult_t281 * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FacebookDelegate_Invoke_m3812 (FacebookDelegate_t433 * __this, FBResult_t281 * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void pinvoke_delegate_wrapper_FacebookDelegate_t433(Il2CppObject* delegate, FBResult_t281 * ___result);
 // System.IAsyncResult Facebook.FacebookDelegate::BeginInvoke(FBResult,System.AsyncCallback,System.Object)
-extern "C" Object_t * FacebookDelegate_BeginInvoke_m3801 (FacebookDelegate_t433 * __this, FBResult_t281 * ___result, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * FacebookDelegate_BeginInvoke_m3813 (FacebookDelegate_t433 * __this, FBResult_t281 * ___result, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.FacebookDelegate::EndInvoke(System.IAsyncResult)
-extern "C" void FacebookDelegate_EndInvoke_m3802 (FacebookDelegate_t433 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FacebookDelegate_EndInvoke_m3814 (FacebookDelegate_t433 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.IComparable>
-struct ConditionalWeakTable_2_t1198;
+struct ConditionalWeakTable_2_t1199;
 // System.IComparable
 struct IComparable_t99;
 // System.Object
 struct Object_t;
 // System.Runtime.CompilerServices.ConditionalWeakTable`2/CreateValueCallback<System.Object,System.IComparable>
-struct CreateValueCallback_t1200;
+struct CreateValueCallback_t1201;
 
 // System.Void System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.IComparable>::.ctor()
 // System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Object>
 #include "Parse_Unity_System_Runtime_CompilerServices_ConditionalWeakT_1MethodDeclarations.h"
-#define ConditionalWeakTable_2__ctor_m7524(__this, method) (( void (*) (ConditionalWeakTable_2_t1198 *, const MethodInfo*))ConditionalWeakTable_2__ctor_m35021_gshared)(__this, method)
+#define ConditionalWeakTable_2__ctor_m7537(__this, method) (( void (*) (ConditionalWeakTable_2_t1199 *, const MethodInfo*))ConditionalWeakTable_2__ctor_m35034_gshared)(__this, method)
 // System.Void System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.IComparable>::CleanUp()
-#define ConditionalWeakTable_2_CleanUp_m36440(__this, method) (( void (*) (ConditionalWeakTable_2_t1198 *, const MethodInfo*))ConditionalWeakTable_2_CleanUp_m35022_gshared)(__this, method)
+#define ConditionalWeakTable_2_CleanUp_m36453(__this, method) (( void (*) (ConditionalWeakTable_2_t1199 *, const MethodInfo*))ConditionalWeakTable_2_CleanUp_m35035_gshared)(__this, method)
 // TValue System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.IComparable>::GetValue(TKey,System.Runtime.CompilerServices.ConditionalWeakTable`2/CreateValueCallback<TKey,TValue>)
-#define ConditionalWeakTable_2_GetValue_m7523(__this, ___key, ___createValueCallback, method) (( Object_t * (*) (ConditionalWeakTable_2_t1198 *, Object_t *, CreateValueCallback_t1200 *, const MethodInfo*))ConditionalWeakTable_2_GetValue_m35023_gshared)(__this, ___key, ___createValueCallback, method)
+#define ConditionalWeakTable_2_GetValue_m7536(__this, ___key, ___createValueCallback, method) (( Object_t * (*) (ConditionalWeakTable_2_t1199 *, Object_t *, CreateValueCallback_t1201 *, const MethodInfo*))ConditionalWeakTable_2_GetValue_m35036_gshared)(__this, ___key, ___createValueCallback, method)

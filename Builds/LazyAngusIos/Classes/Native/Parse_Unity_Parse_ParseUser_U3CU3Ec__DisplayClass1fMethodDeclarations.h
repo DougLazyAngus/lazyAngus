@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.ParseUser/<>c__DisplayClass1f
-struct U3CU3Ec__DisplayClass1f_t1330;
+struct U3CU3Ec__DisplayClass1f_t1331;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>
-struct Task_1_t1404;
+struct Task_1_t1405;
 // System.Threading.Tasks.Task
-struct Task_t1227;
+struct Task_t1228;
 
 // System.Void Parse.ParseUser/<>c__DisplayClass1f::.ctor()
-extern "C" void U3CU3Ec__DisplayClass1f__ctor_m7195 (U3CU3Ec__DisplayClass1f_t1330 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass1f__ctor_m7208 (U3CU3Ec__DisplayClass1f_t1331 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>> Parse.ParseUser/<>c__DisplayClass1f::<UpgradeToRevocableSessionAsync>b__1d(System.Threading.Tasks.Task)
-extern "C" Task_1_t1404 * U3CU3Ec__DisplayClass1f_U3CUpgradeToRevocableSessionAsyncU3Eb__1d_m7196 (U3CU3Ec__DisplayClass1f_t1330 * __this, Task_t1227 * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1405 * U3CU3Ec__DisplayClass1f_U3CUpgradeToRevocableSessionAsyncU3Eb__1d_m7209 (U3CU3Ec__DisplayClass1f_t1331 * __this, Task_t1228 * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;

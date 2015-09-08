@@ -3,6 +3,6 @@
 // System.IO.StreamWriter
 #include "mscorlib_System_IO_StreamWriter.h"
 // System.IO.UnexceptionalStreamWriter
-struct  UnexceptionalStreamWriter_t5005  : public StreamWriter_t1564
+struct  UnexceptionalStreamWriter_t5006  : public StreamWriter_t1565
 {
 };

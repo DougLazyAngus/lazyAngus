@@ -5,24 +5,24 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Linq.OrderedSequence`2<System.Object,System.Object>
-struct OrderedSequence_2_t6632;
+struct OrderedSequence_2_t6633;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t724;
+struct IEnumerable_1_t725;
 // System.Func`2<System.Object,System.Object>
-struct Func_2_t1244;
+struct Func_2_t1245;
 // System.Collections.Generic.IComparer`1<System.Object>
-struct IComparer_1_t6200;
+struct IComparer_1_t6201;
 // System.Linq.SortContext`1<System.Object>
-struct SortContext_1_t6633;
+struct SortContext_1_t6634;
 // System.Linq.SortDirection
 #include "System_Core_System_Linq_SortDirection.h"
 
 // System.Void System.Linq.OrderedSequence`2<System.Object,System.Object>::.ctor(System.Collections.Generic.IEnumerable`1<TElement>,System.Func`2<TElement,TKey>,System.Collections.Generic.IComparer`1<TKey>,System.Linq.SortDirection)
-extern "C" void OrderedSequence_2__ctor_m36453_gshared (OrderedSequence_2_t6632 * __this, Object_t* ___source, Func_2_t1244 * ___key_selector, Object_t* ___comparer, int32_t ___direction, const MethodInfo* method);
-#define OrderedSequence_2__ctor_m36453(__this, ___source, ___key_selector, ___comparer, ___direction, method) (( void (*) (OrderedSequence_2_t6632 *, Object_t*, Func_2_t1244 *, Object_t*, int32_t, const MethodInfo*))OrderedSequence_2__ctor_m36453_gshared)(__this, ___source, ___key_selector, ___comparer, ___direction, method)
+extern "C" void OrderedSequence_2__ctor_m36466_gshared (OrderedSequence_2_t6633 * __this, Object_t* ___source, Func_2_t1245 * ___key_selector, Object_t* ___comparer, int32_t ___direction, const MethodInfo* method);
+#define OrderedSequence_2__ctor_m36466(__this, ___source, ___key_selector, ___comparer, ___direction, method) (( void (*) (OrderedSequence_2_t6633 *, Object_t*, Func_2_t1245 *, Object_t*, int32_t, const MethodInfo*))OrderedSequence_2__ctor_m36466_gshared)(__this, ___source, ___key_selector, ___comparer, ___direction, method)
 // System.Linq.SortContext`1<TElement> System.Linq.OrderedSequence`2<System.Object,System.Object>::CreateContext(System.Linq.SortContext`1<TElement>)
-extern "C" SortContext_1_t6633 * OrderedSequence_2_CreateContext_m36454_gshared (OrderedSequence_2_t6632 * __this, SortContext_1_t6633 * ___current, const MethodInfo* method);
-#define OrderedSequence_2_CreateContext_m36454(__this, ___current, method) (( SortContext_1_t6633 * (*) (OrderedSequence_2_t6632 *, SortContext_1_t6633 *, const MethodInfo*))OrderedSequence_2_CreateContext_m36454_gshared)(__this, ___current, method)
+extern "C" SortContext_1_t6634 * OrderedSequence_2_CreateContext_m36467_gshared (OrderedSequence_2_t6633 * __this, SortContext_1_t6634 * ___current, const MethodInfo* method);
+#define OrderedSequence_2_CreateContext_m36467(__this, ___current, method) (( SortContext_1_t6634 * (*) (OrderedSequence_2_t6633 *, SortContext_1_t6634 *, const MethodInfo*))OrderedSequence_2_CreateContext_m36467_gshared)(__this, ___current, method)
 // System.Collections.Generic.IEnumerable`1<TElement> System.Linq.OrderedSequence`2<System.Object,System.Object>::Sort(System.Collections.Generic.IEnumerable`1<TElement>)
-extern "C" Object_t* OrderedSequence_2_Sort_m36455_gshared (OrderedSequence_2_t6632 * __this, Object_t* ___source, const MethodInfo* method);
-#define OrderedSequence_2_Sort_m36455(__this, ___source, method) (( Object_t* (*) (OrderedSequence_2_t6632 *, Object_t*, const MethodInfo*))OrderedSequence_2_Sort_m36455_gshared)(__this, ___source, method)
+extern "C" Object_t* OrderedSequence_2_Sort_m36468_gshared (OrderedSequence_2_t6633 * __this, Object_t* ___source, const MethodInfo* method);
+#define OrderedSequence_2_Sort_m36468(__this, ___source, method) (( Object_t* (*) (OrderedSequence_2_t6633 *, Object_t*, const MethodInfo*))OrderedSequence_2_Sort_m36468_gshared)(__this, ___source, method)

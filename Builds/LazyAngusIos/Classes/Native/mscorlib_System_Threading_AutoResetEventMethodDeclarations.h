@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.AutoResetEvent
-struct AutoResetEvent_t3804;
+struct AutoResetEvent_t3805;
 
 // System.Void System.Threading.AutoResetEvent::.ctor(System.Boolean)
-extern "C" void AutoResetEvent__ctor_m15185 (AutoResetEvent_t3804 * __this, bool ___initialState, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AutoResetEvent__ctor_m15198 (AutoResetEvent_t3805 * __this, bool ___initialState, const MethodInfo* method) IL2CPP_METHOD_ATTR;

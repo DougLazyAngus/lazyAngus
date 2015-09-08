@@ -235,7 +235,7 @@ public class RealAngusController : MonoBehaviour {
 	}
 
 	void OnSelectionTransitionCompleted(RealAngusElementButton button) {
-		if (!button.selected) {
+		if (!button.IsSelected()) {
 			button.transform.SetParent(parentScreen.transform, false);
 		}
 	}

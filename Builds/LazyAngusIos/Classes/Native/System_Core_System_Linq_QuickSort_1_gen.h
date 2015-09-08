@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Object[]
-struct ObjectU5BU5D_t696;
+struct ObjectU5BU5D_t697;
 // System.Int32[]
 struct Int32U5BU5D_t484;
 // System.Linq.SortContext`1<System.Object>
-struct SortContext_1_t6633;
+struct SortContext_1_t6634;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.QuickSort`1<System.Object>
-struct  QuickSort_1_t6635  : public Object_t
+struct  QuickSort_1_t6636  : public Object_t
 {
 	// TElement[] System.Linq.QuickSort`1<System.Object>::elements
-	ObjectU5BU5D_t696* ___elements_0;
+	ObjectU5BU5D_t697* ___elements_0;
 	// System.Int32[] System.Linq.QuickSort`1<System.Object>::indexes
 	Int32U5BU5D_t484* ___indexes_1;
 	// System.Linq.SortContext`1<TElement> System.Linq.QuickSort`1<System.Object>::context
-	SortContext_1_t6633 * ___context_2;
+	SortContext_1_t6634 * ___context_2;
 };

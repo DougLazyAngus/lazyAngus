@@ -3,28 +3,28 @@
 // System.Int32[]
 struct Int32U5BU5D_t484;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t5941;
+struct LinkU5BU5D_t5942;
 // System.TimeZoneInfo/TimeType[]
-struct TimeTypeU5BU5D_t9180;
+struct TimeTypeU5BU5D_t9181;
 // System.Collections.Generic.IEqualityComparer`1<System.Int32>
-struct IEqualityComparer_1_t5942;
+struct IEqualityComparer_1_t5943;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2936;
+struct SerializationInfo_t2937;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,System.TimeZoneInfo/TimeType,System.Collections.DictionaryEntry>
-struct Transform_1_t9181;
+struct Transform_1_t9182;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType>
-struct  Dictionary_2_t3790  : public Object_t
+struct  Dictionary_2_t3791  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType>::table
 	Int32U5BU5D_t484* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType>::linkSlots
-	LinkU5BU5D_t5941* ___linkSlots_5;
+	LinkU5BU5D_t5942* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType>::keySlots
 	Int32U5BU5D_t484* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType>::valueSlots
-	TimeTypeU5BU5D_t9180* ___valueSlots_7;
+	TimeTypeU5BU5D_t9181* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType>::emptySlot
@@ -36,11 +36,11 @@ struct  Dictionary_2_t3790  : public Object_t
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType>::hcp
 	Object_t* ___hcp_12;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType>::serialization_info
-	SerializationInfo_t2936 * ___serialization_info_13;
+	SerializationInfo_t2937 * ___serialization_info_13;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t3790_StaticFields{
+struct Dictionary_2_t3791_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.Int32,System.TimeZoneInfo/TimeType>::<>f__am$cacheB
-	Transform_1_t9181 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t9182 * ___U3CU3Ef__amU24cacheB_15;
 };

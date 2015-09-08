@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.PaddingMode
-struct PaddingMode_t5263;
+struct PaddingMode_t5264;
 

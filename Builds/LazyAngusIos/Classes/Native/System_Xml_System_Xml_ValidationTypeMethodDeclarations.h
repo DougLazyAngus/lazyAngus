@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.ValidationType
-struct ValidationType_t3496;
+struct ValidationType_t3497;
 

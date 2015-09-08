@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.AudioClip/PCMReaderCallback
-struct PCMReaderCallback_t2789;
+struct PCMReaderCallback_t2790;
 // UnityEngine.AudioClip/PCMSetPositionCallback
-struct PCMSetPositionCallback_t2790;
+struct PCMSetPositionCallback_t2791;
 // UnityEngine.Object
 #include "UnityEngine_UnityEngine_Object.h"
 // UnityEngine.AudioClip
-struct  AudioClip_t395  : public Object_t717
+struct  AudioClip_t395  : public Object_t718
 {
 	// UnityEngine.AudioClip/PCMReaderCallback UnityEngine.AudioClip::m_PCMReaderCallback
-	PCMReaderCallback_t2789 * ___m_PCMReaderCallback_2;
+	PCMReaderCallback_t2790 * ___m_PCMReaderCallback_2;
 	// UnityEngine.AudioClip/PCMSetPositionCallback UnityEngine.AudioClip::m_PCMSetPositionCallback
-	PCMSetPositionCallback_t2790 * ___m_PCMSetPositionCallback_3;
+	PCMSetPositionCallback_t2791 * ___m_PCMSetPositionCallback_3;
 };

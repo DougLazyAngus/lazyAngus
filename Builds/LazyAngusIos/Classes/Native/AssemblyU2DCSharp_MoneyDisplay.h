@@ -9,7 +9,7 @@ struct DistortForEffect_t537;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // MoneyDisplay
-struct  MoneyDisplay_t594  : public MonoBehaviour_t13
+struct  MoneyDisplay_t595  : public MonoBehaviour_t13
 {
 	// UnityEngine.UI.Text MoneyDisplay::moneyText
 	Text_t502 * ___moneyText_2;

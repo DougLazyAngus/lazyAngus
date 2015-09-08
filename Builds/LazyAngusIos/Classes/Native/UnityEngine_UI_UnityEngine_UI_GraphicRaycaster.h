@@ -3,9 +3,9 @@
 // UnityEngine.Canvas
 struct Canvas_t547;
 // System.Collections.Generic.List`1<UnityEngine.UI.Graphic>
-struct List_1_t940;
+struct List_1_t941;
 // System.Comparison`1<UnityEngine.UI.Graphic>
-struct Comparison_1_t941;
+struct Comparison_1_t942;
 // UnityEngine.EventSystems.BaseRaycaster
 #include "UnityEngine_UI_UnityEngine_EventSystems_BaseRaycaster.h"
 // UnityEngine.UI.GraphicRaycaster/BlockingObjects
@@ -13,22 +13,22 @@ struct Comparison_1_t941;
 // UnityEngine.LayerMask
 #include "UnityEngine_UnityEngine_LayerMask.h"
 // UnityEngine.UI.GraphicRaycaster
-struct  GraphicRaycaster_t942  : public BaseRaycaster_t893
+struct  GraphicRaycaster_t943  : public BaseRaycaster_t894
 {
 	// System.Boolean UnityEngine.UI.GraphicRaycaster::m_IgnoreReversedGraphics
 	bool ___m_IgnoreReversedGraphics_3;
 	// UnityEngine.UI.GraphicRaycaster/BlockingObjects UnityEngine.UI.GraphicRaycaster::m_BlockingObjects
 	int32_t ___m_BlockingObjects_4;
 	// UnityEngine.LayerMask UnityEngine.UI.GraphicRaycaster::m_BlockingMask
-	LayerMask_t913  ___m_BlockingMask_5;
+	LayerMask_t914  ___m_BlockingMask_5;
 	// UnityEngine.Canvas UnityEngine.UI.GraphicRaycaster::m_Canvas
 	Canvas_t547 * ___m_Canvas_6;
 	// System.Collections.Generic.List`1<UnityEngine.UI.Graphic> UnityEngine.UI.GraphicRaycaster::m_RaycastResults
-	List_1_t940 * ___m_RaycastResults_7;
+	List_1_t941 * ___m_RaycastResults_7;
 };
-struct GraphicRaycaster_t942_StaticFields{
+struct GraphicRaycaster_t943_StaticFields{
 	// System.Collections.Generic.List`1<UnityEngine.UI.Graphic> UnityEngine.UI.GraphicRaycaster::s_SortedGraphics
-	List_1_t940 * ___s_SortedGraphics_8;
+	List_1_t941 * ___s_SortedGraphics_8;
 	// System.Comparison`1<UnityEngine.UI.Graphic> UnityEngine.UI.GraphicRaycaster::<>f__am$cache6
-	Comparison_1_t941 * ___U3CU3Ef__amU24cache6_9;
+	Comparison_1_t942 * ___U3CU3Ef__amU24cache6_9;
 };

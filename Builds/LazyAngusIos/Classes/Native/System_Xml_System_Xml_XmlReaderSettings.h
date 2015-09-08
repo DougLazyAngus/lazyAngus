@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.Schema.XmlSchemaSet
-struct XmlSchemaSet_t3435;
+struct XmlSchemaSet_t3436;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.ConformanceLevel
@@ -9,14 +9,14 @@ struct XmlSchemaSet_t3435;
 // System.Xml.Schema.XmlSchemaValidationFlags
 #include "System_Xml_System_Xml_Schema_XmlSchemaValidationFlags.h"
 // System.Xml.XmlReaderSettings
-struct  XmlReaderSettings_t3534  : public Object_t
+struct  XmlReaderSettings_t3535  : public Object_t
 {
 	// System.Boolean System.Xml.XmlReaderSettings::checkCharacters
 	bool ___checkCharacters_0;
 	// System.Xml.ConformanceLevel System.Xml.XmlReaderSettings::conformance
 	int32_t ___conformance_1;
 	// System.Xml.Schema.XmlSchemaSet System.Xml.XmlReaderSettings::schemas
-	XmlSchemaSet_t3435 * ___schemas_2;
+	XmlSchemaSet_t3436 * ___schemas_2;
 	// System.Boolean System.Xml.XmlReaderSettings::schemasNeedsInitialization
 	bool ___schemasNeedsInitialization_3;
 	// System.Xml.Schema.XmlSchemaValidationFlags System.Xml.XmlReaderSettings::validationFlags

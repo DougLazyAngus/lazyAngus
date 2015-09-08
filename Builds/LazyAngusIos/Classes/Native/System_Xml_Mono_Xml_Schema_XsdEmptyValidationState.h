@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdValidationState
 #include "System_Xml_Mono_Xml_Schema_XsdValidationState.h"
 // Mono.Xml.Schema.XsdEmptyValidationState
-struct  XsdEmptyValidationState_t3431  : public XsdValidationState_t3420
+struct  XsdEmptyValidationState_t3432  : public XsdValidationState_t3421
 {
 };

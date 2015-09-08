@@ -3,6 +3,6 @@
 // System.Collections.Generic.Comparer`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_4.h"
 // System.Collections.Generic.Comparer`1/DefaultComparer<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-struct  DefaultComparer_t6616  : public Comparer_1_t6615
+struct  DefaultComparer_t6617  : public Comparer_1_t6616
 {
 };

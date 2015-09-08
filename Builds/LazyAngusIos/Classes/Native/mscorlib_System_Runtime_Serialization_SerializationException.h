@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.Runtime.Serialization.SerializationException
-struct  SerializationException_t4557  : public SystemException_t3383
+struct  SerializationException_t4558  : public SystemException_t3384
 {
 };

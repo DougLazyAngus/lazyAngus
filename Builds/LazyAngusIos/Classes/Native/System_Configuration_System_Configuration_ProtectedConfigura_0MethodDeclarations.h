@@ -5,8 +5,8 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Configuration.ProtectedConfigurationProvider
-struct ProtectedConfigurationProvider_t3359;
+struct ProtectedConfigurationProvider_t3360;
 // System.Xml.XmlNode
-struct XmlNode_t731;
+struct XmlNode_t732;
 
 // System.Xml.XmlNode System.Configuration.ProtectedConfigurationProvider::Decrypt(System.Xml.XmlNode)

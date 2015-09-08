@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.OpFlags
-struct OpFlags_t4464;
+struct OpFlags_t4465;
 

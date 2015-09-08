@@ -321,27 +321,7 @@ public class Utilities
 		t.localPosition = position;
 		t.localRotation = Quaternion.Euler (0, 0, angle);
 		t.localScale = new Vector2 (scale, scale);
-	}
-
-	public static void LerpTransformInOut (bool fwd, 
-	                                       float timeFraction, 
-	                                 Vector2 fromPosition, 
-	                                 float fromAngle, 
-	                                 float fromScale, 
-	                                 Vector2 toPosition, 
-	                                 float toAngle, 
-	                                 float toScale, 
-	                                 Transform t)
-	{
-		if (fwd) {
-			LerpTransform (timeFraction, fromPosition, fromAngle, fromScale, 
-			              toPosition, toAngle, toScale, t);
-		} else {
-			LerpTransform (timeFraction, toPosition, toAngle, toScale, 
-			               fromPosition, fromAngle, fromScale, t);
-		}
-	}
-
+	}	
 }
 
 

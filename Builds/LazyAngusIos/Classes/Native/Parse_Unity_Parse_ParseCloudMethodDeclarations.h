@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.ParseCloud
-struct ParseCloud_t1249;
+struct ParseCloud_t1250;
 

@@ -3,7 +3,7 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Runtime.CompilerServices.CompilationRelaxationsAttribute
-struct  CompilationRelaxationsAttribute_t2181  : public Attribute_t426
+struct  CompilationRelaxationsAttribute_t2182  : public Attribute_t426
 {
 	// System.Int32 System.Runtime.CompilerServices.CompilationRelaxationsAttribute::relax
 	int32_t ___relax_0;

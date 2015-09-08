@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>
-struct Comparison_1_t9207;
+struct Comparison_1_t9208;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -18,14 +18,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_17.h"
 
 // System.Void System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::.ctor(System.Object,System.IntPtr)
-extern "C" void Comparison_1__ctor_m68301_gshared (Comparison_1_t9207 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Comparison_1__ctor_m68301(__this, ___object, ___method, method) (( void (*) (Comparison_1_t9207 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m68301_gshared)(__this, ___object, ___method, method)
+extern "C" void Comparison_1__ctor_m68314_gshared (Comparison_1_t9208 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Comparison_1__ctor_m68314(__this, ___object, ___method, method) (( void (*) (Comparison_1_t9208 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m68314_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::Invoke(T,T)
-extern "C" int32_t Comparison_1_Invoke_m68302_gshared (Comparison_1_t9207 * __this, KeyValuePair_2_t3795  ___x, KeyValuePair_2_t3795  ___y, const MethodInfo* method);
-#define Comparison_1_Invoke_m68302(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t9207 *, KeyValuePair_2_t3795 , KeyValuePair_2_t3795 , const MethodInfo*))Comparison_1_Invoke_m68302_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t Comparison_1_Invoke_m68315_gshared (Comparison_1_t9208 * __this, KeyValuePair_2_t3796  ___x, KeyValuePair_2_t3796  ___y, const MethodInfo* method);
+#define Comparison_1_Invoke_m68315(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t9208 *, KeyValuePair_2_t3796 , KeyValuePair_2_t3796 , const MethodInfo*))Comparison_1_Invoke_m68315_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Comparison_1_BeginInvoke_m68303_gshared (Comparison_1_t9207 * __this, KeyValuePair_2_t3795  ___x, KeyValuePair_2_t3795  ___y, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Comparison_1_BeginInvoke_m68303(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t9207 *, KeyValuePair_2_t3795 , KeyValuePair_2_t3795 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m68303_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+extern "C" Object_t * Comparison_1_BeginInvoke_m68316_gshared (Comparison_1_t9208 * __this, KeyValuePair_2_t3796  ___x, KeyValuePair_2_t3796  ___y, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Comparison_1_BeginInvoke_m68316(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t9208 *, KeyValuePair_2_t3796 , KeyValuePair_2_t3796 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m68316_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<System.Collections.Generic.KeyValuePair`2<System.DateTime,System.TimeZoneInfo/TimeType>>::EndInvoke(System.IAsyncResult)
-extern "C" int32_t Comparison_1_EndInvoke_m68304_gshared (Comparison_1_t9207 * __this, Object_t * ___result, const MethodInfo* method);
-#define Comparison_1_EndInvoke_m68304(__this, ___result, method) (( int32_t (*) (Comparison_1_t9207 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m68304_gshared)(__this, ___result, method)
+extern "C" int32_t Comparison_1_EndInvoke_m68317_gshared (Comparison_1_t9208 * __this, Object_t * ___result, const MethodInfo* method);
+#define Comparison_1_EndInvoke_m68317(__this, ___result, method) (( int32_t (*) (Comparison_1_t9208 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m68317_gshared)(__this, ___result, method)

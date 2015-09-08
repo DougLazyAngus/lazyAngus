@@ -5,7 +5,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Serialization.Formatters.Binary.TypeMetadata
-struct  TypeMetadata_t5219  : public Object_t
+struct  TypeMetadata_t5220  : public Object_t
 {
 	// System.String System.Runtime.Serialization.Formatters.Binary.TypeMetadata::TypeAssemblyName
 	String_t* ___TypeAssemblyName_0;

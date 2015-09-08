@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Sockets.Socket
-struct Socket_t4401;
+struct Socket_t4402;
 // System.Net.EndPoint
-struct EndPoint_t4351;
+struct EndPoint_t4352;
 // System.Net.SocketAddress
-struct SocketAddress_t4397;
+struct SocketAddress_t4398;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.Byte[]
@@ -46,134 +46,134 @@ struct MethodInfo_t;
 #include "System_System_Net_Sockets_SocketShutdown.h"
 
 // System.Void System.Net.Sockets.Socket::.ctor(System.Net.Sockets.AddressFamily,System.Net.Sockets.SocketType,System.Net.Sockets.ProtocolType,System.IntPtr)
-extern "C" void Socket__ctor_m16895 (Socket_t4401 * __this, int32_t ___family, int32_t ___type, int32_t ___proto, IntPtr_t ___sock, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket__ctor_m16908 (Socket_t4402 * __this, int32_t ___family, int32_t ___type, int32_t ___proto, IntPtr_t ___sock, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::.ctor(System.Net.Sockets.AddressFamily,System.Net.Sockets.SocketType,System.Net.Sockets.ProtocolType)
-extern "C" void Socket__ctor_m16896 (Socket_t4401 * __this, int32_t ___family, int32_t ___type, int32_t ___proto, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket__ctor_m16909 (Socket_t4402 * __this, int32_t ___family, int32_t ___type, int32_t ___proto, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::.cctor()
-extern "C" void Socket__cctor_m16897 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket__cctor_m16910 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::System.IDisposable.Dispose()
-extern "C" void Socket_System_IDisposable_Dispose_m16898 (Socket_t4401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_System_IDisposable_Dispose_m16911 (Socket_t4402 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::SocketDefaults()
-extern "C" void Socket_SocketDefaults_m16899 (Socket_t4401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_SocketDefaults_m16912 (Socket_t4402 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::set_DontFragment(System.Boolean)
-extern "C" void Socket_set_DontFragment_m16900 (Socket_t4401 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_set_DontFragment_m16913 (Socket_t4402 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.SocketAddress System.Net.Sockets.Socket::LocalEndPoint_internal(System.IntPtr,System.Int32&)
-extern "C" SocketAddress_t4397 * Socket_LocalEndPoint_internal_m16901 (Object_t * __this /* static, unused */, IntPtr_t ___socket, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SocketAddress_t4398 * Socket_LocalEndPoint_internal_m16914 (Object_t * __this /* static, unused */, IntPtr_t ___socket, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.EndPoint System.Net.Sockets.Socket::get_LocalEndPoint()
-extern "C" EndPoint_t4351 * Socket_get_LocalEndPoint_m16902 (Socket_t4401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" EndPoint_t4352 * Socket_get_LocalEndPoint_m16915 (Socket_t4402 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Sockets.SocketType System.Net.Sockets.Socket::get_SocketType()
-extern "C" int32_t Socket_get_SocketType_m16903 (Socket_t4401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_get_SocketType_m16916 (Socket_t4402 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.Sockets.Socket::get_SendTimeout()
-extern "C" int32_t Socket_get_SendTimeout_m16904 (Socket_t4401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_get_SendTimeout_m16917 (Socket_t4402 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.Sockets.Socket::get_ReceiveTimeout()
-extern "C" int32_t Socket_get_ReceiveTimeout_m16905 (Socket_t4401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_get_ReceiveTimeout_m16918 (Socket_t4402 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IntPtr System.Net.Sockets.Socket::Accept_internal(System.IntPtr,System.Int32&,System.Boolean)
-extern "C" IntPtr_t Socket_Accept_internal_m16906 (Object_t * __this /* static, unused */, IntPtr_t ___sock, int32_t* ___error, bool ___blocking, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IntPtr_t Socket_Accept_internal_m16919 (Object_t * __this /* static, unused */, IntPtr_t ___sock, int32_t* ___error, bool ___blocking, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Sockets.Socket System.Net.Sockets.Socket::Accept()
-extern "C" Socket_t4401 * Socket_Accept_m16907 (Socket_t4401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Socket_t4402 * Socket_Accept_m16920 (Socket_t4402 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IAsyncResult System.Net.Sockets.Socket::BeginReceive(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.AsyncCallback,System.Object)
-extern "C" Object_t * Socket_BeginReceive_m16908 (Socket_t4401 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___size, int32_t ___socket_flags, AsyncCallback_t386 * ___callback, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Socket_BeginReceive_m16921 (Socket_t4402 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___size, int32_t ___socket_flags, AsyncCallback_t386 * ___callback, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IAsyncResult System.Net.Sockets.Socket::BeginSend(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.AsyncCallback,System.Object)
-extern "C" Object_t * Socket_BeginSend_m16909 (Socket_t4401 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___size, int32_t ___socket_flags, AsyncCallback_t386 * ___callback, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Socket_BeginSend_m16922 (Socket_t4402 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___size, int32_t ___socket_flags, AsyncCallback_t386 * ___callback, Object_t * ___state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::Bind_internal(System.IntPtr,System.Net.SocketAddress,System.Int32&)
-extern "C" void Socket_Bind_internal_m16910 (Object_t * __this /* static, unused */, IntPtr_t ___sock, SocketAddress_t4397 * ___sa, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_Bind_internal_m16923 (Object_t * __this /* static, unused */, IntPtr_t ___sock, SocketAddress_t4398 * ___sa, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::Bind(System.Net.EndPoint)
-extern "C" void Socket_Bind_m16911 (Socket_t4401 * __this, EndPoint_t4351 * ___local_end, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_Bind_m16924 (Socket_t4402 * __this, EndPoint_t4352 * ___local_end, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.Sockets.Socket::EndReceive(System.IAsyncResult)
-extern "C" int32_t Socket_EndReceive_m16912 (Socket_t4401 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_EndReceive_m16925 (Socket_t4402 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.Sockets.Socket::EndReceive(System.IAsyncResult,System.Net.Sockets.SocketError&)
-extern "C" int32_t Socket_EndReceive_m16913 (Socket_t4401 * __this, Object_t * ___asyncResult, int32_t* ___errorCode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_EndReceive_m16926 (Socket_t4402 * __this, Object_t * ___asyncResult, int32_t* ___errorCode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.Sockets.Socket::EndSend(System.IAsyncResult)
-extern "C" int32_t Socket_EndSend_m16914 (Socket_t4401 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_EndSend_m16927 (Socket_t4402 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.Sockets.Socket::EndSend(System.IAsyncResult,System.Net.Sockets.SocketError&)
-extern "C" int32_t Socket_EndSend_m16915 (Socket_t4401 * __this, Object_t * ___asyncResult, int32_t* ___errorCode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_EndSend_m16928 (Socket_t4402 * __this, Object_t * ___asyncResult, int32_t* ___errorCode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Exception System.Net.Sockets.Socket::InvalidAsyncOp(System.String)
-extern "C" Exception_t57 * Socket_InvalidAsyncOp_m16916 (Socket_t4401 * __this, String_t* ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Exception_t57 * Socket_InvalidAsyncOp_m16929 (Socket_t4402 * __this, String_t* ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::Listen_internal(System.IntPtr,System.Int32,System.Int32&)
-extern "C" void Socket_Listen_internal_m16917 (Object_t * __this /* static, unused */, IntPtr_t ___sock, int32_t ___backlog, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_Listen_internal_m16930 (Object_t * __this /* static, unused */, IntPtr_t ___sock, int32_t ___backlog, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::Listen(System.Int32)
-extern "C" void Socket_Listen_m16918 (Socket_t4401 * __this, int32_t ___backlog, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_Listen_m16931 (Socket_t4402 * __this, int32_t ___backlog, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.Sockets.Socket::Poll(System.Int32,System.Net.Sockets.SelectMode)
-extern "C" bool Socket_Poll_m16919 (Socket_t4401 * __this, int32_t ___time_us, int32_t ___mode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Socket_Poll_m16932 (Socket_t4402 * __this, int32_t ___time_us, int32_t ___mode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.Sockets.Socket::Receive(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags)
-extern "C" int32_t Socket_Receive_m16920 (Socket_t4401 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___size, int32_t ___flags, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_Receive_m16933 (Socket_t4402 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___size, int32_t ___flags, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.Sockets.Socket::RecvFrom_internal(System.IntPtr,System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.Net.SocketAddress&,System.Int32&)
-extern "C" int32_t Socket_RecvFrom_internal_m16921 (Object_t * __this /* static, unused */, IntPtr_t ___sock, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, int32_t ___flags, SocketAddress_t4397 ** ___sockaddr, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_RecvFrom_internal_m16934 (Object_t * __this /* static, unused */, IntPtr_t ___sock, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, int32_t ___flags, SocketAddress_t4398 ** ___sockaddr, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.Sockets.Socket::ReceiveFrom_nochecks(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.Net.EndPoint&)
-extern "C" int32_t Socket_ReceiveFrom_nochecks_m16922 (Socket_t4401 * __this, ByteU5BU5D_t66* ___buf, int32_t ___offset, int32_t ___size, int32_t ___flags, EndPoint_t4351 ** ___remote_end, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_ReceiveFrom_nochecks_m16935 (Socket_t4402 * __this, ByteU5BU5D_t66* ___buf, int32_t ___offset, int32_t ___size, int32_t ___flags, EndPoint_t4352 ** ___remote_end, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.Sockets.Socket::ReceiveFrom_nochecks_exc(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.Net.EndPoint&,System.Boolean,System.Int32&)
-extern "C" int32_t Socket_ReceiveFrom_nochecks_exc_m16923 (Socket_t4401 * __this, ByteU5BU5D_t66* ___buf, int32_t ___offset, int32_t ___size, int32_t ___flags, EndPoint_t4351 ** ___remote_end, bool ___throwOnError, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_ReceiveFrom_nochecks_exc_m16936 (Socket_t4402 * __this, ByteU5BU5D_t66* ___buf, int32_t ___offset, int32_t ___size, int32_t ___flags, EndPoint_t4352 ** ___remote_end, bool ___throwOnError, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.Sockets.Socket::Send(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags)
-extern "C" int32_t Socket_Send_m16924 (Socket_t4401 * __this, ByteU5BU5D_t66* ___buf, int32_t ___offset, int32_t ___size, int32_t ___flags, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_Send_m16937 (Socket_t4402 * __this, ByteU5BU5D_t66* ___buf, int32_t ___offset, int32_t ___size, int32_t ___flags, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.Sockets.Socket::SendTo_internal_real(System.IntPtr,System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.Net.SocketAddress,System.Int32&)
-extern "C" int32_t Socket_SendTo_internal_real_m16925 (Object_t * __this /* static, unused */, IntPtr_t ___sock, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, int32_t ___flags, SocketAddress_t4397 * ___sa, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_SendTo_internal_real_m16938 (Object_t * __this /* static, unused */, IntPtr_t ___sock, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, int32_t ___flags, SocketAddress_t4398 * ___sa, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.Sockets.Socket::SendTo_internal(System.IntPtr,System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.Net.SocketAddress,System.Int32&)
-extern "C" int32_t Socket_SendTo_internal_m16926 (Object_t * __this /* static, unused */, IntPtr_t ___sock, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, int32_t ___flags, SocketAddress_t4397 * ___sa, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_SendTo_internal_m16939 (Object_t * __this /* static, unused */, IntPtr_t ___sock, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, int32_t ___flags, SocketAddress_t4398 * ___sa, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.Sockets.Socket::SendTo_nochecks(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.Net.EndPoint)
-extern "C" int32_t Socket_SendTo_nochecks_m16927 (Socket_t4401 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___size, int32_t ___flags, EndPoint_t4351 * ___remote_end, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_SendTo_nochecks_m16940 (Socket_t4402 * __this, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___size, int32_t ___flags, EndPoint_t4352 * ___remote_end, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::CheckProtocolSupport()
-extern "C" void Socket_CheckProtocolSupport_m16928 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_CheckProtocolSupport_m16941 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.Sockets.Socket::get_SupportsIPv4()
-extern "C" bool Socket_get_SupportsIPv4_m16929 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Socket_get_SupportsIPv4_m16942 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.Sockets.Socket::get_SupportsIPv6()
-extern "C" bool Socket_get_SupportsIPv6_m16930 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Socket_get_SupportsIPv6_m16943 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IntPtr System.Net.Sockets.Socket::Socket_internal(System.Net.Sockets.AddressFamily,System.Net.Sockets.SocketType,System.Net.Sockets.ProtocolType,System.Int32&)
-extern "C" IntPtr_t Socket_Socket_internal_m16931 (Socket_t4401 * __this, int32_t ___family, int32_t ___type, int32_t ___proto, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IntPtr_t Socket_Socket_internal_m16944 (Socket_t4402 * __this, int32_t ___family, int32_t ___type, int32_t ___proto, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::Finalize()
-extern "C" void Socket_Finalize_m16932 (Socket_t4401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_Finalize_m16945 (Socket_t4402 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Sockets.AddressFamily System.Net.Sockets.Socket::get_AddressFamily()
-extern "C" int32_t Socket_get_AddressFamily_m16933 (Socket_t4401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_get_AddressFamily_m16946 (Socket_t4402 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::Blocking_internal(System.IntPtr,System.Boolean,System.Int32&)
-extern "C" void Socket_Blocking_internal_m16934 (Object_t * __this /* static, unused */, IntPtr_t ___socket, bool ___block, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_Blocking_internal_m16947 (Object_t * __this /* static, unused */, IntPtr_t ___socket, bool ___block, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.Sockets.Socket::get_Blocking()
-extern "C" bool Socket_get_Blocking_m16935 (Socket_t4401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Socket_get_Blocking_m16948 (Socket_t4402 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::set_Blocking(System.Boolean)
-extern "C" void Socket_set_Blocking_m16936 (Socket_t4401 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_set_Blocking_m16949 (Socket_t4402 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.Sockets.Socket::get_Connected()
-extern "C" bool Socket_get_Connected_m16937 (Socket_t4401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Socket_get_Connected_m16950 (Socket_t4402 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Sockets.ProtocolType System.Net.Sockets.Socket::get_ProtocolType()
-extern "C" int32_t Socket_get_ProtocolType_m16938 (Socket_t4401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_get_ProtocolType_m16951 (Socket_t4402 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::set_NoDelay(System.Boolean)
-extern "C" void Socket_set_NoDelay_m16939 (Socket_t4401 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_set_NoDelay_m16952 (Socket_t4402 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::Linger(System.IntPtr)
-extern "C" void Socket_Linger_m16940 (Socket_t4401 * __this, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_Linger_m16953 (Socket_t4402 * __this, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::Dispose(System.Boolean)
-extern "C" void Socket_Dispose_m16941 (Socket_t4401 * __this, bool ___explicitDisposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_Dispose_m16954 (Socket_t4402 * __this, bool ___explicitDisposing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::Close_internal(System.IntPtr,System.Int32&)
-extern "C" void Socket_Close_internal_m16942 (Object_t * __this /* static, unused */, IntPtr_t ___socket, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_Close_internal_m16955 (Object_t * __this /* static, unused */, IntPtr_t ___socket, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::Close()
-extern "C" void Socket_Close_m16943 (Socket_t4401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_Close_m16956 (Socket_t4402 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::Connect_internal_real(System.IntPtr,System.Net.SocketAddress,System.Int32&)
-extern "C" void Socket_Connect_internal_real_m16944 (Object_t * __this /* static, unused */, IntPtr_t ___sock, SocketAddress_t4397 * ___sa, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_Connect_internal_real_m16957 (Object_t * __this /* static, unused */, IntPtr_t ___sock, SocketAddress_t4398 * ___sa, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::Connect_internal(System.IntPtr,System.Net.SocketAddress,System.Int32&,System.Boolean)
-extern "C" void Socket_Connect_internal_m16945 (Object_t * __this /* static, unused */, IntPtr_t ___sock, SocketAddress_t4397 * ___sa, int32_t* ___error, bool ___requireSocketPolicyFile, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_Connect_internal_m16958 (Object_t * __this /* static, unused */, IntPtr_t ___sock, SocketAddress_t4398 * ___sa, int32_t* ___error, bool ___requireSocketPolicyFile, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.Sockets.Socket::CheckEndPoint(System.Net.SocketAddress)
-extern "C" bool Socket_CheckEndPoint_m16946 (Object_t * __this /* static, unused */, SocketAddress_t4397 * ___sa, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Socket_CheckEndPoint_m16959 (Object_t * __this /* static, unused */, SocketAddress_t4398 * ___sa, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo System.Net.Sockets.Socket::GetUnityCrossDomainHelperMethod(System.String)
-extern "C" MethodInfo_t * Socket_GetUnityCrossDomainHelperMethod_m16947 (Object_t * __this /* static, unused */, String_t* ___methodname, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodInfo_t * Socket_GetUnityCrossDomainHelperMethod_m16960 (Object_t * __this /* static, unused */, String_t* ___methodname, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::Connect(System.Net.EndPoint)
-extern "C" void Socket_Connect_m16948 (Socket_t4401 * __this, EndPoint_t4351 * ___remoteEP, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_Connect_m16961 (Socket_t4402 * __this, EndPoint_t4352 * ___remoteEP, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::Connect(System.Net.EndPoint,System.Boolean)
-extern "C" void Socket_Connect_m16949 (Socket_t4401 * __this, EndPoint_t4351 * ___remoteEP, bool ___requireSocketPolicy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_Connect_m16962 (Socket_t4402 * __this, EndPoint_t4352 * ___remoteEP, bool ___requireSocketPolicy, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Net.Sockets.Socket::Poll_internal(System.IntPtr,System.Net.Sockets.SelectMode,System.Int32,System.Int32&)
-extern "C" bool Socket_Poll_internal_m16950 (Object_t * __this /* static, unused */, IntPtr_t ___socket, int32_t ___mode, int32_t ___timeout, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Socket_Poll_internal_m16963 (Object_t * __this /* static, unused */, IntPtr_t ___socket, int32_t ___mode, int32_t ___timeout, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.Sockets.Socket::Receive_internal(System.IntPtr,System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.Int32&)
-extern "C" int32_t Socket_Receive_internal_m16951 (Object_t * __this /* static, unused */, IntPtr_t ___sock, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, int32_t ___flags, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_Receive_internal_m16964 (Object_t * __this /* static, unused */, IntPtr_t ___sock, ByteU5BU5D_t66* ___buffer, int32_t ___offset, int32_t ___count, int32_t ___flags, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.Sockets.Socket::Receive_nochecks(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError&)
-extern "C" int32_t Socket_Receive_nochecks_m16952 (Socket_t4401 * __this, ByteU5BU5D_t66* ___buf, int32_t ___offset, int32_t ___size, int32_t ___flags, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_Receive_nochecks_m16965 (Socket_t4402 * __this, ByteU5BU5D_t66* ___buf, int32_t ___offset, int32_t ___size, int32_t ___flags, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::GetSocketOption_obj_internal(System.IntPtr,System.Net.Sockets.SocketOptionLevel,System.Net.Sockets.SocketOptionName,System.Object&,System.Int32&)
-extern "C" void Socket_GetSocketOption_obj_internal_m16953 (Object_t * __this /* static, unused */, IntPtr_t ___socket, int32_t ___level, int32_t ___name, Object_t ** ___obj_val, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_GetSocketOption_obj_internal_m16966 (Object_t * __this /* static, unused */, IntPtr_t ___socket, int32_t ___level, int32_t ___name, Object_t ** ___obj_val, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.Sockets.Socket::Send_internal(System.IntPtr,System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.Int32&)
-extern "C" int32_t Socket_Send_internal_m16954 (Object_t * __this /* static, unused */, IntPtr_t ___sock, ByteU5BU5D_t66* ___buf, int32_t ___offset, int32_t ___count, int32_t ___flags, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_Send_internal_m16967 (Object_t * __this /* static, unused */, IntPtr_t ___sock, ByteU5BU5D_t66* ___buf, int32_t ___offset, int32_t ___count, int32_t ___flags, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.Sockets.Socket::Send_nochecks(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError&)
-extern "C" int32_t Socket_Send_nochecks_m16955 (Socket_t4401 * __this, ByteU5BU5D_t66* ___buf, int32_t ___offset, int32_t ___size, int32_t ___flags, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Socket_Send_nochecks_m16968 (Socket_t4402 * __this, ByteU5BU5D_t66* ___buf, int32_t ___offset, int32_t ___size, int32_t ___flags, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Net.Sockets.Socket::GetSocketOption(System.Net.Sockets.SocketOptionLevel,System.Net.Sockets.SocketOptionName)
-extern "C" Object_t * Socket_GetSocketOption_m16956 (Socket_t4401 * __this, int32_t ___optionLevel, int32_t ___optionName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Socket_GetSocketOption_m16969 (Socket_t4402 * __this, int32_t ___optionLevel, int32_t ___optionName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::Shutdown_internal(System.IntPtr,System.Net.Sockets.SocketShutdown,System.Int32&)
-extern "C" void Socket_Shutdown_internal_m16957 (Object_t * __this /* static, unused */, IntPtr_t ___socket, int32_t ___how, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_Shutdown_internal_m16970 (Object_t * __this /* static, unused */, IntPtr_t ___socket, int32_t ___how, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::SetSocketOption_internal(System.IntPtr,System.Net.Sockets.SocketOptionLevel,System.Net.Sockets.SocketOptionName,System.Object,System.Byte[],System.Int32,System.Int32&)
-extern "C" void Socket_SetSocketOption_internal_m16958 (Object_t * __this /* static, unused */, IntPtr_t ___socket, int32_t ___level, int32_t ___name, Object_t * ___obj_val, ByteU5BU5D_t66* ___byte_val, int32_t ___int_val, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_SetSocketOption_internal_m16971 (Object_t * __this /* static, unused */, IntPtr_t ___socket, int32_t ___level, int32_t ___name, Object_t * ___obj_val, ByteU5BU5D_t66* ___byte_val, int32_t ___int_val, int32_t* ___error, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::SetSocketOption(System.Net.Sockets.SocketOptionLevel,System.Net.Sockets.SocketOptionName,System.Int32)
-extern "C" void Socket_SetSocketOption_m16959 (Socket_t4401 * __this, int32_t ___optionLevel, int32_t ___optionName, int32_t ___optionValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_SetSocketOption_m16972 (Socket_t4402 * __this, int32_t ___optionLevel, int32_t ___optionName, int32_t ___optionValue, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Sockets.Socket::ThrowIfUpd()
-extern "C" void Socket_ThrowIfUpd_m16960 (Socket_t4401 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Socket_ThrowIfUpd_m16973 (Socket_t4402 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

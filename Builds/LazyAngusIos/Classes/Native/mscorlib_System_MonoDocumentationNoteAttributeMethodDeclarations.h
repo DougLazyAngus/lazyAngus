@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.MonoDocumentationNoteAttribute
-struct MonoDocumentationNoteAttribute_t4921;
+struct MonoDocumentationNoteAttribute_t4922;
 // System.String
 struct String_t;
 
 // System.Void System.MonoDocumentationNoteAttribute::.ctor(System.String)
-extern "C" void MonoDocumentationNoteAttribute__ctor_m20807 (MonoDocumentationNoteAttribute_t4921 * __this, String_t* ___comment, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoDocumentationNoteAttribute__ctor_m20820 (MonoDocumentationNoteAttribute_t4922 * __this, String_t* ___comment, const MethodInfo* method) IL2CPP_METHOD_ATTR;

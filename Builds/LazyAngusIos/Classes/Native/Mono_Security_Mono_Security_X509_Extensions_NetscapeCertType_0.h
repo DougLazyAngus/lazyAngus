@@ -3,7 +3,7 @@
 // Mono.Security.X509.X509Extension
 #include "Mono_Security_Mono_Security_X509_X509Extension.h"
 // Mono.Security.X509.Extensions.NetscapeCertTypeExtension
-struct  NetscapeCertTypeExtension_t3169  : public X509Extension_t3158
+struct  NetscapeCertTypeExtension_t3170  : public X509Extension_t3159
 {
 	// System.Int32 Mono.Security.X509.Extensions.NetscapeCertTypeExtension::ctbits
 	int32_t ___ctbits_3;

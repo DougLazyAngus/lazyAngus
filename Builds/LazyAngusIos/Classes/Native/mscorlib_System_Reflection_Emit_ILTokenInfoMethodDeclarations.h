@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.Emit.ILTokenInfo
-struct ILTokenInfo_t5063;
+struct ILTokenInfo_t5064;
 

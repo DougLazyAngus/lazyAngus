@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Serialization.XmlAttributeAttribute
-struct XmlAttributeAttribute_t3708;
+struct XmlAttributeAttribute_t3709;
 // System.String
 struct String_t;
 
 // System.Void System.Xml.Serialization.XmlAttributeAttribute::.ctor(System.String)
-extern "C" void XmlAttributeAttribute__ctor_m14703 (XmlAttributeAttribute_t3708 * __this, String_t* ___attributeName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlAttributeAttribute__ctor_m14716 (XmlAttributeAttribute_t3709 * __this, String_t* ___attributeName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.Serialization.XmlAttributeAttribute::set_DataType(System.String)
-extern "C" void XmlAttributeAttribute_set_DataType_m14704 (XmlAttributeAttribute_t3708 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlAttributeAttribute_set_DataType_m14717 (XmlAttributeAttribute_t3709 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

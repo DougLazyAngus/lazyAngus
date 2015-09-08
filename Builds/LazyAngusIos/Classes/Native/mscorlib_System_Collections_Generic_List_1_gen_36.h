@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UIVertex[]
-struct UIVertexU5BU5D_t964;
+struct UIVertexU5BU5D_t965;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnityEngine.UIVertex>
-struct  List_1_t967  : public Object_t
+struct  List_1_t968  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnityEngine.UIVertex>::_items
-	UIVertexU5BU5D_t964* ____items_1;
+	UIVertexU5BU5D_t965* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UIVertex>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UIVertex>::_version
 	int32_t ____version_3;
 };
-struct List_1_t967_StaticFields{
+struct List_1_t968_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnityEngine.UIVertex>::EmptyArray
-	UIVertexU5BU5D_t964* ___EmptyArray_4;
+	UIVertexU5BU5D_t965* ___EmptyArray_4;
 };

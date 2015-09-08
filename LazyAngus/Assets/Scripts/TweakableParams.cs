@@ -65,8 +65,9 @@ public class TweakableParams : MonoBehaviour {
 	public const float flyingAnimationTime = 1.0f;
 	public const float deadMouseAnimationTime = 0.3f;
 
-	public const float realAngusSelectionFadeTime = 0.5f;
-	public const float realAngusSelectionMoveTime = realAngusSelectionFadeTime - 0.1f;
+	public const float realAngusSelectionFadeTime = 0.6f;
+	public const float realAngusSelectionMoveTime = realAngusSelectionFadeTime - 0.2f;
+	public const float realAngusCardMoveTime = realAngusSelectionFadeTime - 0.1f;
 
 	// Real Angus sizing/layout stuff;
 	public const float realAngusImageAspectRatio = 1.33333f;

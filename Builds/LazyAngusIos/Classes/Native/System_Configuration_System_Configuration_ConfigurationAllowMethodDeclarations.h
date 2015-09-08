@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Configuration.ConfigurationAllowDefinition
-struct ConfigurationAllowDefinition_t3306;
+struct ConfigurationAllowDefinition_t3307;
 

@@ -7,7 +7,7 @@ struct Studio_t489;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<GameAnalyticsSDK.Studio>
-struct  Enumerator_t6230 
+struct  Enumerator_t6231 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<GameAnalyticsSDK.Studio>::l
 	List_1_t485 * ___l_0;

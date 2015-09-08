@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Threading.Tasks.TaskFactory
-struct TaskFactory_t1383;
+struct TaskFactory_t1384;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.Tasks.TaskFactory`1<System.Object>
-struct  TaskFactory_1_t8945  : public Object_t
+struct  TaskFactory_1_t8946  : public Object_t
 {
 	// System.Threading.Tasks.TaskFactory System.Threading.Tasks.TaskFactory`1<System.Object>::factory
-	TaskFactory_t1383 * ___factory_0;
+	TaskFactory_t1384 * ___factory_0;
 };

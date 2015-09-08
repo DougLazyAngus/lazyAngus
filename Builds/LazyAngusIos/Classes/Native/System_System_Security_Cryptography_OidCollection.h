@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ArrayList
-struct ArrayList_t712;
+struct ArrayList_t713;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Cryptography.OidCollection
-struct  OidCollection_t4429  : public Object_t
+struct  OidCollection_t4430  : public Object_t
 {
 	// System.Collections.ArrayList System.Security.Cryptography.OidCollection::_list
-	ArrayList_t712 * ____list_0;
+	ArrayList_t713 * ____list_0;
 	// System.Boolean System.Security.Cryptography.OidCollection::_readOnly
 	bool ____readOnly_1;
 };

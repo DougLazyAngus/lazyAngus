@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.ParseClient/<DeepTraversalInternal>d__16
-struct U3CDeepTraversalInternalU3Ed__16_t1241;
+struct U3CDeepTraversalInternalU3Ed__16_t1242;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IEnumerator`1<System.Object>
@@ -14,22 +14,22 @@ struct IEnumerator_1_t105;
 struct IEnumerator_t48;
 
 // System.Collections.Generic.IEnumerator`1<System.Object> Parse.ParseClient/<DeepTraversalInternal>d__16::System.Collections.Generic.IEnumerable<System.Object>.GetEnumerator()
-extern "C" Object_t* U3CDeepTraversalInternalU3Ed__16_System_Collections_Generic_IEnumerableU3CSystem_ObjectU3E_GetEnumerator_m6799 (U3CDeepTraversalInternalU3Ed__16_t1241 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t* U3CDeepTraversalInternalU3Ed__16_System_Collections_Generic_IEnumerableU3CSystem_ObjectU3E_GetEnumerator_m6812 (U3CDeepTraversalInternalU3Ed__16_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator Parse.ParseClient/<DeepTraversalInternal>d__16::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * U3CDeepTraversalInternalU3Ed__16_System_Collections_IEnumerable_GetEnumerator_m6800 (U3CDeepTraversalInternalU3Ed__16_t1241 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * U3CDeepTraversalInternalU3Ed__16_System_Collections_IEnumerable_GetEnumerator_m6813 (U3CDeepTraversalInternalU3Ed__16_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Parse.ParseClient/<DeepTraversalInternal>d__16::MoveNext()
-extern "C" bool U3CDeepTraversalInternalU3Ed__16_MoveNext_m6801 (U3CDeepTraversalInternalU3Ed__16_t1241 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool U3CDeepTraversalInternalU3Ed__16_MoveNext_m6814 (U3CDeepTraversalInternalU3Ed__16_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Parse.ParseClient/<DeepTraversalInternal>d__16::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern "C" Object_t * U3CDeepTraversalInternalU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6802 (U3CDeepTraversalInternalU3Ed__16_t1241 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * U3CDeepTraversalInternalU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6815 (U3CDeepTraversalInternalU3Ed__16_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseClient/<DeepTraversalInternal>d__16::System.Collections.IEnumerator.Reset()
-extern "C" void U3CDeepTraversalInternalU3Ed__16_System_Collections_IEnumerator_Reset_m6803 (U3CDeepTraversalInternalU3Ed__16_t1241 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CDeepTraversalInternalU3Ed__16_System_Collections_IEnumerator_Reset_m6816 (U3CDeepTraversalInternalU3Ed__16_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseClient/<DeepTraversalInternal>d__16::System.IDisposable.Dispose()
-extern "C" void U3CDeepTraversalInternalU3Ed__16_System_IDisposable_Dispose_m6804 (U3CDeepTraversalInternalU3Ed__16_t1241 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CDeepTraversalInternalU3Ed__16_System_IDisposable_Dispose_m6817 (U3CDeepTraversalInternalU3Ed__16_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Parse.ParseClient/<DeepTraversalInternal>d__16::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * U3CDeepTraversalInternalU3Ed__16_System_Collections_IEnumerator_get_Current_m6805 (U3CDeepTraversalInternalU3Ed__16_t1241 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * U3CDeepTraversalInternalU3Ed__16_System_Collections_IEnumerator_get_Current_m6818 (U3CDeepTraversalInternalU3Ed__16_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseClient/<DeepTraversalInternal>d__16::.ctor(System.Int32)
-extern "C" void U3CDeepTraversalInternalU3Ed__16__ctor_m6806 (U3CDeepTraversalInternalU3Ed__16_t1241 * __this, int32_t ___U3CU3E1__state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CDeepTraversalInternalU3Ed__16__ctor_m6819 (U3CDeepTraversalInternalU3Ed__16_t1242 * __this, int32_t ___U3CU3E1__state, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseClient/<DeepTraversalInternal>d__16::<>m__Finally1e()
-extern "C" void U3CDeepTraversalInternalU3Ed__16_U3CU3Em__Finally1e_m6807 (U3CDeepTraversalInternalU3Ed__16_t1241 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CDeepTraversalInternalU3Ed__16_U3CU3Em__Finally1e_m6820 (U3CDeepTraversalInternalU3Ed__16_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseClient/<DeepTraversalInternal>d__16::<>m__Finally20()
-extern "C" void U3CDeepTraversalInternalU3Ed__16_U3CU3Em__Finally20_m6808 (U3CDeepTraversalInternalU3Ed__16_t1241 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CDeepTraversalInternalU3Ed__16_U3CU3Em__Finally20_m6821 (U3CDeepTraversalInternalU3Ed__16_t1242 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

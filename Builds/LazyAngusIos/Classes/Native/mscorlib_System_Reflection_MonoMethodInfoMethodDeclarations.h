@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.MonoMethodInfo
-struct MonoMethodInfo_t5027;
+struct MonoMethodInfo_t5028;
 // System.Type
 struct Type_t;
 // System.Reflection.ParameterInfo[]
-struct ParameterInfoU5BU5D_t1475;
+struct ParameterInfoU5BU5D_t1476;
 // System.Reflection.MemberInfo
 struct MemberInfo_t;
 // System.IntPtr
@@ -24,20 +24,20 @@ struct MemberInfo_t;
 #include "mscorlib_System_Reflection_MethodImplAttributes.h"
 
 // System.Void System.Reflection.MonoMethodInfo::get_method_info(System.IntPtr,System.Reflection.MonoMethodInfo&)
-extern "C" void MonoMethodInfo_get_method_info_m21959 (Object_t * __this /* static, unused */, IntPtr_t ___handle, MonoMethodInfo_t5027 * ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoMethodInfo_get_method_info_m21972 (Object_t * __this /* static, unused */, IntPtr_t ___handle, MonoMethodInfo_t5028 * ___info, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MonoMethodInfo System.Reflection.MonoMethodInfo::GetMethodInfo(System.IntPtr)
-extern "C" MonoMethodInfo_t5027  MonoMethodInfo_GetMethodInfo_m21960 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MonoMethodInfo_t5028  MonoMethodInfo_GetMethodInfo_m21973 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.MonoMethodInfo::GetDeclaringType(System.IntPtr)
-extern "C" Type_t * MonoMethodInfo_GetDeclaringType_m21961 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * MonoMethodInfo_GetDeclaringType_m21974 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.MonoMethodInfo::GetReturnType(System.IntPtr)
-extern "C" Type_t * MonoMethodInfo_GetReturnType_m21962 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * MonoMethodInfo_GetReturnType_m21975 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodAttributes System.Reflection.MonoMethodInfo::GetAttributes(System.IntPtr)
-extern "C" int32_t MonoMethodInfo_GetAttributes_m21963 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MonoMethodInfo_GetAttributes_m21976 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.CallingConventions System.Reflection.MonoMethodInfo::GetCallingConvention(System.IntPtr)
-extern "C" int32_t MonoMethodInfo_GetCallingConvention_m21964 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MonoMethodInfo_GetCallingConvention_m21977 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodImplAttributes System.Reflection.MonoMethodInfo::GetMethodImplementationFlags(System.IntPtr)
-extern "C" int32_t MonoMethodInfo_GetMethodImplementationFlags_m21965 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MonoMethodInfo_GetMethodImplementationFlags_m21978 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.ParameterInfo[] System.Reflection.MonoMethodInfo::get_parameter_info(System.IntPtr,System.Reflection.MemberInfo)
-extern "C" ParameterInfoU5BU5D_t1475* MonoMethodInfo_get_parameter_info_m21966 (Object_t * __this /* static, unused */, IntPtr_t ___handle, MemberInfo_t * ___member, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ParameterInfoU5BU5D_t1476* MonoMethodInfo_get_parameter_info_m21979 (Object_t * __this /* static, unused */, IntPtr_t ___handle, MemberInfo_t * ___member, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.ParameterInfo[] System.Reflection.MonoMethodInfo::GetParametersInfo(System.IntPtr,System.Reflection.MemberInfo)
-extern "C" ParameterInfoU5BU5D_t1475* MonoMethodInfo_GetParametersInfo_m21967 (Object_t * __this /* static, unused */, IntPtr_t ___handle, MemberInfo_t * ___member, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ParameterInfoU5BU5D_t1476* MonoMethodInfo_GetParametersInfo_m21980 (Object_t * __this /* static, unused */, IntPtr_t ___handle, MemberInfo_t * ___member, const MethodInfo* method) IL2CPP_METHOD_ATTR;

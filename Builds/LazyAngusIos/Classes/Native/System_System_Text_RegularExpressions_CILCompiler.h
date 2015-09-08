@@ -1,38 +1,38 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Reflection.Emit.DynamicMethod[]
-struct DynamicMethodU5BU5D_t4475;
+struct DynamicMethodU5BU5D_t4476;
 // System.Boolean[]
 struct BooleanU5BU5D_t487;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>
-struct Dictionary_2_t4476;
-// System.Collections.Generic.Dictionary`2<System.Int32,System.Reflection.Emit.Label>
 struct Dictionary_2_t4477;
+// System.Collections.Generic.Dictionary`2<System.Int32,System.Reflection.Emit.Label>
+struct Dictionary_2_t4478;
 // System.Reflection.FieldInfo
 struct FieldInfo_t;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Reflection.Emit.LocalBuilder
-struct LocalBuilder_t4478;
+struct LocalBuilder_t4479;
 // System.Text.RegularExpressions.RxCompiler
 #include "System_System_Text_RegularExpressions_RxCompiler.h"
 // System.Text.RegularExpressions.CILCompiler
-struct  CILCompiler_t4479  : public RxCompiler_t4480
+struct  CILCompiler_t4480  : public RxCompiler_t4481
 {
 	// System.Reflection.Emit.DynamicMethod[] System.Text.RegularExpressions.CILCompiler::eval_methods
-	DynamicMethodU5BU5D_t4475* ___eval_methods_2;
+	DynamicMethodU5BU5D_t4476* ___eval_methods_2;
 	// System.Boolean[] System.Text.RegularExpressions.CILCompiler::eval_methods_defined
 	BooleanU5BU5D_t487* ___eval_methods_defined_3;
 	// System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> System.Text.RegularExpressions.CILCompiler::generic_ops
-	Dictionary_2_t4476 * ___generic_ops_4;
+	Dictionary_2_t4477 * ___generic_ops_4;
 	// System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> System.Text.RegularExpressions.CILCompiler::op_flags
-	Dictionary_2_t4476 * ___op_flags_5;
+	Dictionary_2_t4477 * ___op_flags_5;
 	// System.Collections.Generic.Dictionary`2<System.Int32,System.Reflection.Emit.Label> System.Text.RegularExpressions.CILCompiler::labels
-	Dictionary_2_t4477 * ___labels_6;
+	Dictionary_2_t4478 * ___labels_6;
 	// System.Reflection.Emit.LocalBuilder System.Text.RegularExpressions.CILCompiler::local_textinfo
-	LocalBuilder_t4478 * ___local_textinfo_33;
+	LocalBuilder_t4479 * ___local_textinfo_33;
 };
-struct CILCompiler_t4479_StaticFields{
+struct CILCompiler_t4480_StaticFields{
 	// System.Reflection.FieldInfo System.Text.RegularExpressions.CILCompiler::fi_str
 	FieldInfo_t * ___fi_str_7;
 	// System.Reflection.FieldInfo System.Text.RegularExpressions.CILCompiler::fi_string_start

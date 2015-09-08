@@ -5,7 +5,7 @@
 // System.Security.SecurityCriticalScope
 #include "mscorlib_System_Security_SecurityCriticalScope.h"
 // System.Security.SecurityCriticalAttribute
-struct  SecurityCriticalAttribute_t2981  : public Attribute_t426
+struct  SecurityCriticalAttribute_t2982  : public Attribute_t426
 {
 	// System.Security.SecurityCriticalScope System.Security.SecurityCriticalAttribute::_scope
 	int32_t ____scope_0;

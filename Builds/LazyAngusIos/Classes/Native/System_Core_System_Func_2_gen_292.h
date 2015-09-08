@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<Parse.ParseGeoPoint>
-struct IList_1_t7422;
+struct IList_1_t7423;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -11,6 +11,6 @@ struct AsyncCallback_t386;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`2<System.Object,System.Collections.Generic.IList`1<Parse.ParseGeoPoint>>
-struct  Func_2_t7480  : public MulticastDelegate_t388
+struct  Func_2_t7481  : public MulticastDelegate_t388
 {
 };

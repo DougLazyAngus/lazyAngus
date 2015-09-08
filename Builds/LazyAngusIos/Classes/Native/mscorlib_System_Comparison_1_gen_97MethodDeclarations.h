@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Comparison`1<System.Action`1<System.Threading.Tasks.Task>>
-struct Comparison_1_t8925;
+struct Comparison_1_t8926;
 // System.Object
 struct Object_t;
 // System.Action`1<System.Threading.Tasks.Task>
-struct Action_1_t1189;
+struct Action_1_t1190;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Comparison`1<System.Action`1<System.Threading.Tasks.Task>>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
-#define Comparison_1__ctor_m64608(__this, ___object, ___method, method) (( void (*) (Comparison_1_t8925 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m26088_gshared)(__this, ___object, ___method, method)
+#define Comparison_1__ctor_m64621(__this, ___object, ___method, method) (( void (*) (Comparison_1_t8926 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m26101_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<System.Action`1<System.Threading.Tasks.Task>>::Invoke(T,T)
-#define Comparison_1_Invoke_m64609(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t8925 *, Action_1_t1189 *, Action_1_t1189 *, const MethodInfo*))Comparison_1_Invoke_m26089_gshared)(__this, ___x, ___y, method)
+#define Comparison_1_Invoke_m64622(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t8926 *, Action_1_t1190 *, Action_1_t1190 *, const MethodInfo*))Comparison_1_Invoke_m26102_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<System.Action`1<System.Threading.Tasks.Task>>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m64610(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t8925 *, Action_1_t1189 *, Action_1_t1189 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m26090_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+#define Comparison_1_BeginInvoke_m64623(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t8926 *, Action_1_t1190 *, Action_1_t1190 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m26103_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<System.Action`1<System.Threading.Tasks.Task>>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m64611(__this, ___result, method) (( int32_t (*) (Comparison_1_t8925 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m26091_gshared)(__this, ___result, method)
+#define Comparison_1_EndInvoke_m64624(__this, ___result, method) (( int32_t (*) (Comparison_1_t8926 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m26104_gshared)(__this, ___result, method)

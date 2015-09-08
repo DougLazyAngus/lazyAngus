@@ -3,18 +3,18 @@
 // System.Object
 struct Object_t;
 // System.Collections.Hashtable
-struct Hashtable_t710;
+struct Hashtable_t711;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Cryptography.CryptoConfig
-struct  CryptoConfig_t3254  : public Object_t
+struct  CryptoConfig_t3255  : public Object_t
 {
 };
-struct CryptoConfig_t3254_StaticFields{
+struct CryptoConfig_t3255_StaticFields{
 	// System.Object System.Security.Cryptography.CryptoConfig::lockObject
 	Object_t * ___lockObject_0;
 	// System.Collections.Hashtable System.Security.Cryptography.CryptoConfig::algorithms
-	Hashtable_t710 * ___algorithms_1;
+	Hashtable_t711 * ___algorithms_1;
 	// System.Collections.Hashtable System.Security.Cryptography.CryptoConfig::oid
-	Hashtable_t710 * ___oid_2;
+	Hashtable_t711 * ___oid_2;
 };

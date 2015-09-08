@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.ComponentModel.TypeDescriptionProvider
-struct  TypeDescriptionProvider_t4257  : public Object_t
+struct  TypeDescriptionProvider_t4258  : public Object_t
 {
 };

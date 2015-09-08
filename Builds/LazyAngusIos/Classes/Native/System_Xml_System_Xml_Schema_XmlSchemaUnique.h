@@ -3,6 +3,6 @@
 // System.Xml.Schema.XmlSchemaIdentityConstraint
 #include "System_Xml_System_Xml_Schema_XmlSchemaIdentityConstraint.h"
 // System.Xml.Schema.XmlSchemaUnique
-struct  XmlSchemaUnique_t3691  : public XmlSchemaIdentityConstraint_t3414
+struct  XmlSchemaUnique_t3692  : public XmlSchemaIdentityConstraint_t3415
 {
 };

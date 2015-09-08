@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Diagnostics.SourceLevels
-struct SourceLevels_t4285;
+struct SourceLevels_t4286;
 

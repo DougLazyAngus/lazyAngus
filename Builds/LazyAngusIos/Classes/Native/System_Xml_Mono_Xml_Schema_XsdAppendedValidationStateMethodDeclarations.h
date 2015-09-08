@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.Schema.XsdAppendedValidationState
-struct XsdAppendedValidationState_t3430;
+struct XsdAppendedValidationState_t3431;
 // Mono.Xml.Schema.XsdParticleStateManager
-struct XsdParticleStateManager_t3418;
+struct XsdParticleStateManager_t3419;
 // Mono.Xml.Schema.XsdValidationState
-struct XsdValidationState_t3420;
+struct XsdValidationState_t3421;
 // System.String
 struct String_t;
 
 // System.Void Mono.Xml.Schema.XsdAppendedValidationState::.ctor(Mono.Xml.Schema.XsdParticleStateManager,Mono.Xml.Schema.XsdValidationState,Mono.Xml.Schema.XsdValidationState)
-extern "C" void XsdAppendedValidationState__ctor_m12297 (XsdAppendedValidationState_t3430 * __this, XsdParticleStateManager_t3418 * ___manager, XsdValidationState_t3420 * ___head, XsdValidationState_t3420 * ___rest, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdAppendedValidationState__ctor_m12310 (XsdAppendedValidationState_t3431 * __this, XsdParticleStateManager_t3419 * ___manager, XsdValidationState_t3421 * ___head, XsdValidationState_t3421 * ___rest, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Xml.Schema.XsdValidationState Mono.Xml.Schema.XsdAppendedValidationState::EvaluateStartElement(System.String,System.String)
-extern "C" XsdValidationState_t3420 * XsdAppendedValidationState_EvaluateStartElement_m12298 (XsdAppendedValidationState_t3430 * __this, String_t* ___name, String_t* ___ns, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XsdValidationState_t3421 * XsdAppendedValidationState_EvaluateStartElement_m12311 (XsdAppendedValidationState_t3431 * __this, String_t* ___name, String_t* ___ns, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Xml.Schema.XsdAppendedValidationState::EvaluateEndElement()
-extern "C" bool XsdAppendedValidationState_EvaluateEndElement_m12299 (XsdAppendedValidationState_t3430 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool XsdAppendedValidationState_EvaluateEndElement_m12312 (XsdAppendedValidationState_t3431 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Xml.Schema.XsdAppendedValidationState::EvaluateIsEmptiable()
-extern "C" bool XsdAppendedValidationState_EvaluateIsEmptiable_m12300 (XsdAppendedValidationState_t3430 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool XsdAppendedValidationState_EvaluateIsEmptiable_m12313 (XsdAppendedValidationState_t3431 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

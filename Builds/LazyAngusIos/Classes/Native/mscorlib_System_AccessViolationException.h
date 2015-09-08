@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.AccessViolationException
-struct  AccessViolationException_t4829  : public SystemException_t3383
+struct  AccessViolationException_t4830  : public SystemException_t3384
 {
 };

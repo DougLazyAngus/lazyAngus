@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<System.UInt64>
-struct List_1_t7260;
+struct List_1_t7261;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<System.UInt64>
-struct  Enumerator_t7261 
+struct  Enumerator_t7262 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.UInt64>::l
-	List_1_t7260 * ___l_0;
+	List_1_t7261 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.UInt64>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.UInt64>::ver

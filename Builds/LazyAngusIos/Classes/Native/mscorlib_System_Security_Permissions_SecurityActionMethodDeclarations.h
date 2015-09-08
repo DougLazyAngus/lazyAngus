@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Permissions.SecurityAction
-struct SecurityAction_t5310;
+struct SecurityAction_t5311;
 

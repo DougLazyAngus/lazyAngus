@@ -5,31 +5,31 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.SortedList/Enumerator
-struct Enumerator_t4953;
+struct Enumerator_t4954;
 // System.Object
 struct Object_t;
 // System.Collections.SortedList
-struct SortedList_t4578;
+struct SortedList_t4579;
 // System.Collections.DictionaryEntry
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 // System.Collections.SortedList/EnumeratorMode
 #include "mscorlib_System_Collections_SortedList_EnumeratorMode.h"
 
 // System.Void System.Collections.SortedList/Enumerator::.ctor(System.Collections.SortedList,System.Collections.SortedList/EnumeratorMode)
-extern "C" void Enumerator__ctor_m21106 (Enumerator_t4953 * __this, SortedList_t4578 * ___host, int32_t ___mode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Enumerator__ctor_m21119 (Enumerator_t4954 * __this, SortedList_t4579 * ___host, int32_t ___mode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.SortedList/Enumerator::.cctor()
-extern "C" void Enumerator__cctor_m21107 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Enumerator__cctor_m21120 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.SortedList/Enumerator::Reset()
-extern "C" void Enumerator_Reset_m21108 (Enumerator_t4953 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Enumerator_Reset_m21121 (Enumerator_t4954 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.SortedList/Enumerator::MoveNext()
-extern "C" bool Enumerator_MoveNext_m21109 (Enumerator_t4953 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Enumerator_MoveNext_m21122 (Enumerator_t4954 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.DictionaryEntry System.Collections.SortedList/Enumerator::get_Entry()
-extern "C" DictionaryEntry_t2156  Enumerator_get_Entry_m21110 (Enumerator_t4953 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DictionaryEntry_t2157  Enumerator_get_Entry_m21123 (Enumerator_t4954 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.SortedList/Enumerator::get_Key()
-extern "C" Object_t * Enumerator_get_Key_m21111 (Enumerator_t4953 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enumerator_get_Key_m21124 (Enumerator_t4954 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.SortedList/Enumerator::get_Value()
-extern "C" Object_t * Enumerator_get_Value_m21112 (Enumerator_t4953 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enumerator_get_Value_m21125 (Enumerator_t4954 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.SortedList/Enumerator::get_Current()
-extern "C" Object_t * Enumerator_get_Current_m21113 (Enumerator_t4953 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enumerator_get_Current_m21126 (Enumerator_t4954 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.SortedList/Enumerator::Clone()
-extern "C" Object_t * Enumerator_Clone_m21114 (Enumerator_t4953 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enumerator_Clone_m21127 (Enumerator_t4954 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

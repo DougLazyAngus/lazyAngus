@@ -5,27 +5,27 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a
-struct U3CU3Ec__DisplayClass3a_t1273;
+struct U3CU3Ec__DisplayClass3a_t1274;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>
-struct Task_1_t1404;
+struct Task_1_t1405;
 // System.Threading.Tasks.Task
-struct Task_t1227;
+struct Task_t1228;
 // <>f__AnonymousType3`2<Parse.ParseObject,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>>
-struct U3CU3Ef__AnonymousType3_2_t1409;
+struct U3CU3Ef__AnonymousType3_2_t1410;
 // Parse.ParseObject
-struct ParseObject_t1238;
+struct ParseObject_t1239;
 // System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>
-struct IDictionary_2_t1269;
+struct IDictionary_2_t1270;
 // System.Collections.Generic.Dictionary`2<System.String,System.Object>
 struct Dictionary_2_t312;
 
 // System.Void Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a::.ctor()
-extern "C" void U3CU3Ec__DisplayClass3a__ctor_m6936 (U3CU3Ec__DisplayClass3a_t1273 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass3a__ctor_m6949 (U3CU3Ec__DisplayClass3a_t1274 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>> Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a::<DeepSaveAsync>b__29(System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>)
-extern "C" Task_1_t1404 * U3CU3Ec__DisplayClass3a_U3CDeepSaveAsyncU3Eb__29_m6937 (U3CU3Ec__DisplayClass3a_t1273 * __this, Task_1_t1404 * ___requestTask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1405 * U3CU3Ec__DisplayClass3a_U3CDeepSaveAsyncU3Eb__29_m6950 (U3CU3Ec__DisplayClass3a_t1274 * __this, Task_1_t1405 * ___requestTask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>> Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a::<DeepSaveAsync>b__2c(System.Threading.Tasks.Task)
-extern "C" Task_1_t1404 * U3CU3Ec__DisplayClass3a_U3CDeepSaveAsyncU3Eb__2c_m6938 (U3CU3Ec__DisplayClass3a_t1273 * __this, Task_t1227 * _____, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1405 * U3CU3Ec__DisplayClass3a_U3CDeepSaveAsyncU3Eb__2c_m6951 (U3CU3Ec__DisplayClass3a_t1274 * __this, Task_t1228 * _____, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // <>f__AnonymousType3`2<Parse.ParseObject,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>> Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a::<DeepSaveAsync>b__2a(Parse.ParseObject,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>)
-extern "C" U3CU3Ef__AnonymousType3_2_t1409 * U3CU3Ec__DisplayClass3a_U3CDeepSaveAsyncU3Eb__2a_m6939 (Object_t * __this /* static, unused */, ParseObject_t1238 * ___item, Object_t* ___ops, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" U3CU3Ef__AnonymousType3_2_t1410 * U3CU3Ec__DisplayClass3a_U3CDeepSaveAsyncU3Eb__2a_m6952 (Object_t * __this /* static, unused */, ParseObject_t1239 * ___item, Object_t* ___ops, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.Dictionary`2<System.String,System.Object> Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a::<DeepSaveAsync>b__2d(Parse.ParseObject,System.Collections.Generic.IDictionary`2<System.String,Parse.Internal.IParseFieldOperation>)
-extern "C" Dictionary_2_t312 * U3CU3Ec__DisplayClass3a_U3CDeepSaveAsyncU3Eb__2d_m6940 (Object_t * __this /* static, unused */, ParseObject_t1238 * ___item, Object_t* ___ops, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Dictionary_2_t312 * U3CU3Ec__DisplayClass3a_U3CDeepSaveAsyncU3Eb__2d_m6953 (Object_t * __this /* static, unused */, ParseObject_t1239 * ___item, Object_t* ___ops, const MethodInfo* method) IL2CPP_METHOD_ATTR;

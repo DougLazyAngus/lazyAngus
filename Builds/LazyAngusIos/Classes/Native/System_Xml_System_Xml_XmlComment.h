@@ -3,6 +3,6 @@
 // System.Xml.XmlCharacterData
 #include "System_Xml_System_Xml_XmlCharacterData.h"
 // System.Xml.XmlComment
-struct  XmlComment_t3507  : public XmlCharacterData_t3505
+struct  XmlComment_t3508  : public XmlCharacterData_t3506
 {
 };

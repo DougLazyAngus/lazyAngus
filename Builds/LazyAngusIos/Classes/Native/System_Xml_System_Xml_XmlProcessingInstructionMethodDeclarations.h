@@ -5,33 +5,33 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.XmlProcessingInstruction
-struct XmlProcessingInstruction_t3532;
+struct XmlProcessingInstruction_t3533;
 // System.String
 struct String_t;
 // System.Xml.XmlDocument
-struct XmlDocument_t691;
+struct XmlDocument_t692;
 // System.Xml.XmlNode
-struct XmlNode_t731;
+struct XmlNode_t732;
 // System.Xml.XmlNodeType
 #include "System_Xml_System_Xml_XmlNodeType.h"
 
 // System.Void System.Xml.XmlProcessingInstruction::.ctor(System.String,System.String,System.Xml.XmlDocument)
-extern "C" void XmlProcessingInstruction__ctor_m13255 (XmlProcessingInstruction_t3532 * __this, String_t* ___target, String_t* ___data, XmlDocument_t691 * ___doc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlProcessingInstruction__ctor_m13268 (XmlProcessingInstruction_t3533 * __this, String_t* ___target, String_t* ___data, XmlDocument_t692 * ___doc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlProcessingInstruction::get_Data()
-extern "C" String_t* XmlProcessingInstruction_get_Data_m13256 (XmlProcessingInstruction_t3532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlProcessingInstruction_get_Data_m13269 (XmlProcessingInstruction_t3533 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlProcessingInstruction::get_InnerText()
-extern "C" String_t* XmlProcessingInstruction_get_InnerText_m13257 (XmlProcessingInstruction_t3532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlProcessingInstruction_get_InnerText_m13270 (XmlProcessingInstruction_t3533 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlProcessingInstruction::get_LocalName()
-extern "C" String_t* XmlProcessingInstruction_get_LocalName_m13258 (XmlProcessingInstruction_t3532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlProcessingInstruction_get_LocalName_m13271 (XmlProcessingInstruction_t3533 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlProcessingInstruction::get_Name()
-extern "C" String_t* XmlProcessingInstruction_get_Name_m13259 (XmlProcessingInstruction_t3532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlProcessingInstruction_get_Name_m13272 (XmlProcessingInstruction_t3533 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNodeType System.Xml.XmlProcessingInstruction::get_NodeType()
-extern "C" int32_t XmlProcessingInstruction_get_NodeType_m13260 (XmlProcessingInstruction_t3532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XmlProcessingInstruction_get_NodeType_m13273 (XmlProcessingInstruction_t3533 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlProcessingInstruction::get_Target()
-extern "C" String_t* XmlProcessingInstruction_get_Target_m13261 (XmlProcessingInstruction_t3532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlProcessingInstruction_get_Target_m13274 (XmlProcessingInstruction_t3533 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Xml.XmlProcessingInstruction::get_Value()
-extern "C" String_t* XmlProcessingInstruction_get_Value_m13262 (XmlProcessingInstruction_t3532 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* XmlProcessingInstruction_get_Value_m13275 (XmlProcessingInstruction_t3533 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.XmlProcessingInstruction::set_Value(System.String)
-extern "C" void XmlProcessingInstruction_set_Value_m13263 (XmlProcessingInstruction_t3532 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlProcessingInstruction_set_Value_m13276 (XmlProcessingInstruction_t3533 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Xml.XmlNode System.Xml.XmlProcessingInstruction::CloneNode(System.Boolean)
-extern "C" XmlNode_t731 * XmlProcessingInstruction_CloneNode_m13264 (XmlProcessingInstruction_t3532 * __this, bool ___deep, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XmlNode_t732 * XmlProcessingInstruction_CloneNode_m13277 (XmlProcessingInstruction_t3533 * __this, bool ___deep, const MethodInfo* method) IL2CPP_METHOD_ATTR;

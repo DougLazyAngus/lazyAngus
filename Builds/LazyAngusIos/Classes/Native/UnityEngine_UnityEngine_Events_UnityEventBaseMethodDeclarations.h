@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Events.UnityEventBase
-struct UnityEventBase_t2908;
+struct UnityEventBase_t2909;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.String
@@ -13,41 +13,41 @@ struct String_t;
 // System.Object
 struct Object_t;
 // UnityEngine.Events.BaseInvokableCall
-struct BaseInvokableCall_t2900;
+struct BaseInvokableCall_t2901;
 // UnityEngine.Events.PersistentCall
-struct PersistentCall_t2903;
+struct PersistentCall_t2904;
 // System.Type
 struct Type_t;
 // System.Object[]
-struct ObjectU5BU5D_t696;
+struct ObjectU5BU5D_t697;
 // System.Type[]
-struct TypeU5BU5D_t1220;
+struct TypeU5BU5D_t1221;
 // UnityEngine.Events.PersistentListenerMode
 #include "UnityEngine_UnityEngine_Events_PersistentListenerMode.h"
 
 // System.Void UnityEngine.Events.UnityEventBase::.ctor()
-extern "C" void UnityEventBase__ctor_m10210 (UnityEventBase_t2908 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityEventBase__ctor_m10223 (UnityEventBase_t2909 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.UnityEventBase::UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
-extern "C" void UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6475 (UnityEventBase_t2908 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m6488 (UnityEventBase_t2909 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.UnityEventBase::UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize()
-extern "C" void UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6476 (UnityEventBase_t2908 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m6489 (UnityEventBase_t2909 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo UnityEngine.Events.UnityEventBase::FindMethod_Impl(System.String,System.Object)
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEventBase::GetDelegate(System.Object,System.Reflection.MethodInfo)
 // System.Reflection.MethodInfo UnityEngine.Events.UnityEventBase::FindMethod(UnityEngine.Events.PersistentCall)
-extern "C" MethodInfo_t * UnityEventBase_FindMethod_m10211 (UnityEventBase_t2908 * __this, PersistentCall_t2903 * ___call, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodInfo_t * UnityEventBase_FindMethod_m10224 (UnityEventBase_t2909 * __this, PersistentCall_t2904 * ___call, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo UnityEngine.Events.UnityEventBase::FindMethod(System.String,System.Object,UnityEngine.Events.PersistentListenerMode,System.Type)
-extern "C" MethodInfo_t * UnityEventBase_FindMethod_m10212 (UnityEventBase_t2908 * __this, String_t* ___name, Object_t * ___listener, int32_t ___mode, Type_t * ___argumentType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodInfo_t * UnityEventBase_FindMethod_m10225 (UnityEventBase_t2909 * __this, String_t* ___name, Object_t * ___listener, int32_t ___mode, Type_t * ___argumentType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.UnityEventBase::DirtyPersistentCalls()
-extern "C" void UnityEventBase_DirtyPersistentCalls_m10213 (UnityEventBase_t2908 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityEventBase_DirtyPersistentCalls_m10226 (UnityEventBase_t2909 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.UnityEventBase::RebuildPersistentCallsIfNeeded()
-extern "C" void UnityEventBase_RebuildPersistentCallsIfNeeded_m10214 (UnityEventBase_t2908 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityEventBase_RebuildPersistentCallsIfNeeded_m10227 (UnityEventBase_t2909 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.UnityEventBase::AddCall(UnityEngine.Events.BaseInvokableCall)
-extern "C" void UnityEventBase_AddCall_m10215 (UnityEventBase_t2908 * __this, BaseInvokableCall_t2900 * ___call, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityEventBase_AddCall_m10228 (UnityEventBase_t2909 * __this, BaseInvokableCall_t2901 * ___call, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.UnityEventBase::RemoveListener(System.Object,System.Reflection.MethodInfo)
-extern "C" void UnityEventBase_RemoveListener_m10216 (UnityEventBase_t2908 * __this, Object_t * ___targetObj, MethodInfo_t * ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityEventBase_RemoveListener_m10229 (UnityEventBase_t2909 * __this, Object_t * ___targetObj, MethodInfo_t * ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.UnityEventBase::Invoke(System.Object[])
-extern "C" void UnityEventBase_Invoke_m10217 (UnityEventBase_t2908 * __this, ObjectU5BU5D_t696* ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityEventBase_Invoke_m10230 (UnityEventBase_t2909 * __this, ObjectU5BU5D_t697* ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Events.UnityEventBase::ToString()
-extern "C" String_t* UnityEventBase_ToString_m6474 (UnityEventBase_t2908 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* UnityEventBase_ToString_m6487 (UnityEventBase_t2909 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo UnityEngine.Events.UnityEventBase::GetValidMethodInfo(System.Object,System.String,System.Type[])
-extern "C" MethodInfo_t * UnityEventBase_GetValidMethodInfo_m10218 (Object_t * __this /* static, unused */, Object_t * ___obj, String_t* ___functionName, TypeU5BU5D_t1220* ___argumentTypes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodInfo_t * UnityEventBase_GetValidMethodInfo_m10231 (Object_t * __this /* static, unused */, Object_t * ___obj, String_t* ___functionName, TypeU5BU5D_t1221* ___argumentTypes, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -3,6 +3,6 @@
 // System.IO.TextReader
 #include "mscorlib_System_IO_TextReader.h"
 // System.IO.TextReader/NullTextReader
-struct  NullTextReader_t4999  : public TextReader_t3372
+struct  NullTextReader_t5000  : public TextReader_t3373
 {
 };

@@ -5,7 +5,7 @@
 // System.Guid
 #include "mscorlib_System_Guid.h"
 // System.Nullable`1<System.Guid>
-struct  Nullable_1_t1248 
+struct  Nullable_1_t1249 
 {
 	// T System.Nullable`1<System.Guid>::value
 	Guid_t74  ___value_0;

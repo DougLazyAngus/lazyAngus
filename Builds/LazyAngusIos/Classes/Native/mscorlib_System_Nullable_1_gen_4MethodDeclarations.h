@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Nullable`1<System.Boolean>
-struct Nullable_1_t3800;
+struct Nullable_1_t3801;
 // System.Object
 struct Object_t;
 // System.String
@@ -16,18 +16,18 @@ struct String_t;
 // System.Void System.Nullable`1<System.Boolean>::.ctor(T)
 // System.Nullable`1<System.Byte>
 #include "mscorlib_System_Nullable_1_gen_5MethodDeclarations.h"
-#define Nullable_1__ctor_m68409(__this, ___value, method) (( void (*) (Nullable_1_t3800 *, bool, const MethodInfo*))Nullable_1__ctor_m68410_gshared)(__this, ___value, method)
+#define Nullable_1__ctor_m68422(__this, ___value, method) (( void (*) (Nullable_1_t3801 *, bool, const MethodInfo*))Nullable_1__ctor_m68423_gshared)(__this, ___value, method)
 // System.Boolean System.Nullable`1<System.Boolean>::get_HasValue()
-#define Nullable_1_get_HasValue_m68411(__this, method) (( bool (*) (Nullable_1_t3800 *, const MethodInfo*))Nullable_1_get_HasValue_m68412_gshared)(__this, method)
+#define Nullable_1_get_HasValue_m68424(__this, method) (( bool (*) (Nullable_1_t3801 *, const MethodInfo*))Nullable_1_get_HasValue_m68425_gshared)(__this, method)
 // T System.Nullable`1<System.Boolean>::get_Value()
-#define Nullable_1_get_Value_m68413(__this, method) (( bool (*) (Nullable_1_t3800 *, const MethodInfo*))Nullable_1_get_Value_m68414_gshared)(__this, method)
+#define Nullable_1_get_Value_m68426(__this, method) (( bool (*) (Nullable_1_t3801 *, const MethodInfo*))Nullable_1_get_Value_m68427_gshared)(__this, method)
 // System.Boolean System.Nullable`1<System.Boolean>::Equals(System.Object)
-#define Nullable_1_Equals_m68415(__this, ___other, method) (( bool (*) (Nullable_1_t3800 *, Object_t *, const MethodInfo*))Nullable_1_Equals_m68416_gshared)(__this, ___other, method)
+#define Nullable_1_Equals_m68428(__this, ___other, method) (( bool (*) (Nullable_1_t3801 *, Object_t *, const MethodInfo*))Nullable_1_Equals_m68429_gshared)(__this, ___other, method)
 // System.Boolean System.Nullable`1<System.Boolean>::Equals(System.Nullable`1<T>)
-#define Nullable_1_Equals_m68417(__this, ___other, method) (( bool (*) (Nullable_1_t3800 *, Nullable_1_t3800 , const MethodInfo*))Nullable_1_Equals_m68418_gshared)(__this, ___other, method)
+#define Nullable_1_Equals_m68430(__this, ___other, method) (( bool (*) (Nullable_1_t3801 *, Nullable_1_t3801 , const MethodInfo*))Nullable_1_Equals_m68431_gshared)(__this, ___other, method)
 // System.Int32 System.Nullable`1<System.Boolean>::GetHashCode()
-#define Nullable_1_GetHashCode_m68419(__this, method) (( int32_t (*) (Nullable_1_t3800 *, const MethodInfo*))Nullable_1_GetHashCode_m68420_gshared)(__this, method)
+#define Nullable_1_GetHashCode_m68432(__this, method) (( int32_t (*) (Nullable_1_t3801 *, const MethodInfo*))Nullable_1_GetHashCode_m68433_gshared)(__this, method)
 // T System.Nullable`1<System.Boolean>::GetValueOrDefault()
-#define Nullable_1_GetValueOrDefault_m68421(__this, method) (( bool (*) (Nullable_1_t3800 *, const MethodInfo*))Nullable_1_GetValueOrDefault_m68422_gshared)(__this, method)
+#define Nullable_1_GetValueOrDefault_m68434(__this, method) (( bool (*) (Nullable_1_t3801 *, const MethodInfo*))Nullable_1_GetValueOrDefault_m68435_gshared)(__this, method)
 // System.String System.Nullable`1<System.Boolean>::ToString()
-#define Nullable_1_ToString_m68423(__this, method) (( String_t* (*) (Nullable_1_t3800 *, const MethodInfo*))Nullable_1_ToString_m68424_gshared)(__this, method)
+#define Nullable_1_ToString_m68436(__this, method) (( String_t* (*) (Nullable_1_t3801 *, const MethodInfo*))Nullable_1_ToString_m68437_gshared)(__this, method)

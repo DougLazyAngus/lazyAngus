@@ -5,14 +5,14 @@ struct String_t;
 // System.Diagnostics.TraceListener
 #include "System_System_Diagnostics_TraceListener.h"
 // System.Diagnostics.DefaultTraceListener
-struct  DefaultTraceListener_t4279  : public TraceListener_t4280
+struct  DefaultTraceListener_t4280  : public TraceListener_t4281
 {
 	// System.String System.Diagnostics.DefaultTraceListener::logFileName
 	String_t* ___logFileName_10;
 	// System.Boolean System.Diagnostics.DefaultTraceListener::assertUiEnabled
 	bool ___assertUiEnabled_11;
 };
-struct DefaultTraceListener_t4279_StaticFields{
+struct DefaultTraceListener_t4280_StaticFields{
 	// System.Boolean System.Diagnostics.DefaultTraceListener::OnWin32
 	bool ___OnWin32_7;
 	// System.String System.Diagnostics.DefaultTraceListener::MonoTracePrefix

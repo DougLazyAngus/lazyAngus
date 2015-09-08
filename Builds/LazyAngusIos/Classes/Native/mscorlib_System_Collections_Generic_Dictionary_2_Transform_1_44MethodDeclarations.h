@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Int64,System.Object,System.Collections.DictionaryEntry>
-struct Transform_1_t6576;
+struct Transform_1_t6577;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -18,14 +18,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 
 // System.Void System.Collections.Generic.Dictionary`2/Transform`1<System.Int64,System.Object,System.Collections.DictionaryEntry>::.ctor(System.Object,System.IntPtr)
-extern "C" void Transform_1__ctor_m35886_gshared (Transform_1_t6576 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Transform_1__ctor_m35886(__this, ___object, ___method, method) (( void (*) (Transform_1_t6576 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m35886_gshared)(__this, ___object, ___method, method)
+extern "C" void Transform_1__ctor_m35899_gshared (Transform_1_t6577 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Transform_1__ctor_m35899(__this, ___object, ___method, method) (( void (*) (Transform_1_t6577 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m35899_gshared)(__this, ___object, ___method, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Int64,System.Object,System.Collections.DictionaryEntry>::Invoke(TKey,TValue)
-extern "C" DictionaryEntry_t2156  Transform_1_Invoke_m35887_gshared (Transform_1_t6576 * __this, int64_t ___key, Object_t * ___value, const MethodInfo* method);
-#define Transform_1_Invoke_m35887(__this, ___key, ___value, method) (( DictionaryEntry_t2156  (*) (Transform_1_t6576 *, int64_t, Object_t *, const MethodInfo*))Transform_1_Invoke_m35887_gshared)(__this, ___key, ___value, method)
+extern "C" DictionaryEntry_t2157  Transform_1_Invoke_m35900_gshared (Transform_1_t6577 * __this, int64_t ___key, Object_t * ___value, const MethodInfo* method);
+#define Transform_1_Invoke_m35900(__this, ___key, ___value, method) (( DictionaryEntry_t2157  (*) (Transform_1_t6577 *, int64_t, Object_t *, const MethodInfo*))Transform_1_Invoke_m35900_gshared)(__this, ___key, ___value, method)
 // System.IAsyncResult System.Collections.Generic.Dictionary`2/Transform`1<System.Int64,System.Object,System.Collections.DictionaryEntry>::BeginInvoke(TKey,TValue,System.AsyncCallback,System.Object)
-extern "C" Object_t * Transform_1_BeginInvoke_m35888_gshared (Transform_1_t6576 * __this, int64_t ___key, Object_t * ___value, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Transform_1_BeginInvoke_m35888(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t6576 *, int64_t, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m35888_gshared)(__this, ___key, ___value, ___callback, ___object, method)
+extern "C" Object_t * Transform_1_BeginInvoke_m35901_gshared (Transform_1_t6577 * __this, int64_t ___key, Object_t * ___value, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Transform_1_BeginInvoke_m35901(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t6577 *, int64_t, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m35901_gshared)(__this, ___key, ___value, ___callback, ___object, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Int64,System.Object,System.Collections.DictionaryEntry>::EndInvoke(System.IAsyncResult)
-extern "C" DictionaryEntry_t2156  Transform_1_EndInvoke_m35889_gshared (Transform_1_t6576 * __this, Object_t * ___result, const MethodInfo* method);
-#define Transform_1_EndInvoke_m35889(__this, ___result, method) (( DictionaryEntry_t2156  (*) (Transform_1_t6576 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m35889_gshared)(__this, ___result, method)
+extern "C" DictionaryEntry_t2157  Transform_1_EndInvoke_m35902_gshared (Transform_1_t6577 * __this, Object_t * ___result, const MethodInfo* method);
+#define Transform_1_EndInvoke_m35902(__this, ___result, method) (( DictionaryEntry_t2157  (*) (Transform_1_t6577 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m35902_gshared)(__this, ___result, method)

@@ -3,6 +3,6 @@
 // System.ComponentModel.BaseNumberConverter
 #include "System_System_ComponentModel_BaseNumberConverter.h"
 // System.ComponentModel.SByteConverter
-struct  SByteConverter_t4253  : public BaseNumberConverter_t4223
+struct  SByteConverter_t4254  : public BaseNumberConverter_t4224
 {
 };

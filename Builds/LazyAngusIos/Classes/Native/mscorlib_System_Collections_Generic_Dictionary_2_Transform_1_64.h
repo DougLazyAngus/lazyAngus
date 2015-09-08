@@ -3,7 +3,7 @@
 // System.Type
 struct Type_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.String>
-struct IDictionary_2_t706;
+struct IDictionary_2_t707;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.String>,System.Collections.DictionaryEntry>
-struct  Transform_1_t6826  : public MulticastDelegate_t388
+struct  Transform_1_t6827  : public MulticastDelegate_t388
 {
 };

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.BindingFlags
-struct BindingFlags_t5011;
+struct BindingFlags_t5012;
 

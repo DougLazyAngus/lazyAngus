@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.HumanLimit
-struct HumanLimit_t2802;
+struct HumanLimit_t2803;
 

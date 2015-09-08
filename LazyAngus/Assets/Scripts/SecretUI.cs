@@ -18,17 +18,19 @@ public class SecretUI : MonoBehaviour {
 		PersistentStorage.instance.ClearAll ();
 	}
 
-	public void ToggleVisibility() {
-		inputs.SetActive(true);
-	}
-
 	void Awake() {
 		instance = this;
+	}
+
+	void UpdateInputs() {
+		int debugFlags = DebugConfig.instance.GetDebugFlags ();
+		debugFlagsInputField.text = "" + debugFlags;
 	}
 
 	void Start() {
 		levelInputField.onEndEdit.AddListener(delegate{ApplyLevelInput();});
 		debugFlagsInputField.onEndEdit.AddListener(delegate{ApplyDebugFlags();});
+
 	}
 
 	void ApplyLevelInput() {
@@ -36,16 +38,22 @@ public class SecretUI : MonoBehaviour {
 		if (suggestedLevel > 0) {
 			GameLevelState.instance.SetGameLevel (suggestedLevel);
 		}
-		inputs.SetActive (false);
 	}
 
+	public void ToggleVisibility() {
+		if (inputs.activeSelf) {
+			inputs.SetActive (false);
+		} else {
+			inputs.SetActive (true);
+			UpdateInputs();
+		}
+	}
 	
 	void ApplyDebugFlags() {
 		int debugFlags = Utilities.ParseIntWithDefault (debugFlagsInputField.text, -1);
 		if (debugFlags >= 0) {
 			DebugConfig.instance.SetDebugFlags(debugFlags);
 		}
-		inputs.SetActive (false);
 	}
 	
 	public void DebugShowSharing() {

@@ -9,12 +9,12 @@ struct AN_GoogleAdProxy_t162;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t696;
+struct ObjectU5BU5D_t697;
 
 // System.Void AN_GoogleAdProxy::.ctor()
 extern "C" void AN_GoogleAdProxy__ctor_m1035 (AN_GoogleAdProxy_t162 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GoogleAdProxy::CallActivityFunction(System.String,System.Object[])
-extern "C" void AN_GoogleAdProxy_CallActivityFunction_m1036 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t696* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_GoogleAdProxy_CallActivityFunction_m1036 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t697* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GoogleAdProxy::InitMobileAd(System.String)
 extern "C" void AN_GoogleAdProxy_InitMobileAd_m1037 (Object_t * __this /* static, unused */, String_t* ___id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_GoogleAdProxy::ChangeBannersUnitID(System.String)

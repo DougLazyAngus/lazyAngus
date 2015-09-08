@@ -7,7 +7,7 @@ struct Object_t;
 // UnityEngine.GUILayoutOption/Type
 #include "UnityEngine_UnityEngine_GUILayoutOption_Type.h"
 // UnityEngine.GUILayoutOption
-struct  GUILayoutOption_t716  : public Object_t
+struct  GUILayoutOption_t717  : public Object_t
 {
 	// UnityEngine.GUILayoutOption/Type UnityEngine.GUILayoutOption::type
 	int32_t ___type_0;

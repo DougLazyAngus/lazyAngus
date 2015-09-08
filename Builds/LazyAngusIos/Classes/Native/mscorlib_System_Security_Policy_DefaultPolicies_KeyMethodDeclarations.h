@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Policy.DefaultPolicies/Key
-struct Key_t5327;
+struct Key_t5328;
 

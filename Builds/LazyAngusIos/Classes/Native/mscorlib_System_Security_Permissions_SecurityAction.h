@@ -5,7 +5,7 @@
 // System.Security.Permissions.SecurityAction
 #include "mscorlib_System_Security_Permissions_SecurityAction.h"
 // System.Security.Permissions.SecurityAction
-struct  SecurityAction_t5310 
+struct  SecurityAction_t5311 
 {
 	// System.Int32 System.Security.Permissions.SecurityAction::value__
 	int32_t ___value___1;

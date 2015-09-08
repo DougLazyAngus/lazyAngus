@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.SecurityZone
-struct SecurityZone_t5244;
+struct SecurityZone_t5245;
 

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Diagnostics.TraceOptions
-struct TraceOptions_t4289;
+struct TraceOptions_t4290;
 

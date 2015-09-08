@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Permissions.IsolatedStorageContainment
-struct IsolatedStorageContainment_t5296;
+struct IsolatedStorageContainment_t5297;
 

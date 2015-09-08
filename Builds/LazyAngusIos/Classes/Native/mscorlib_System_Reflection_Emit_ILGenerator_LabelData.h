@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Reflection.Emit.ILGenerator/LabelData
-struct  LabelData_t5065 
+struct  LabelData_t5066 
 {
 	// System.Int32 System.Reflection.Emit.ILGenerator/LabelData::addr
 	int32_t ___addr_0;

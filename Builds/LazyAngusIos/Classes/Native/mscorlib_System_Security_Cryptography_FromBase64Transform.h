@@ -7,7 +7,7 @@ struct ByteU5BU5D_t66;
 // System.Security.Cryptography.FromBase64TransformMode
 #include "mscorlib_System_Security_Cryptography_FromBase64TransformMod.h"
 // System.Security.Cryptography.FromBase64Transform
-struct  FromBase64Transform_t3730  : public Object_t
+struct  FromBase64Transform_t3731  : public Object_t
 {
 	// System.Security.Cryptography.FromBase64TransformMode System.Security.Cryptography.FromBase64Transform::mode
 	int32_t ___mode_0;

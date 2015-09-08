@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.Selectable/SelectionState
-struct SelectionState_t985;
+struct SelectionState_t986;
 

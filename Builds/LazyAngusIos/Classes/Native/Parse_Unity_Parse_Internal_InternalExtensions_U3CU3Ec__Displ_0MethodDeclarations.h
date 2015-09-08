@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.Internal.InternalExtensions/<>c__DisplayClassf
-struct U3CU3Ec__DisplayClassf_t1193;
+struct U3CU3Ec__DisplayClassf_t1194;
 // System.Threading.Tasks.Task
-struct Task_t1227;
+struct Task_t1228;
 // System.Threading.Tasks.Task`1<System.Boolean>
-struct Task_1_t1386;
+struct Task_1_t1387;
 
 // System.Void Parse.Internal.InternalExtensions/<>c__DisplayClassf::.ctor()
-extern "C" void U3CU3Ec__DisplayClassf__ctor_m6577 (U3CU3Ec__DisplayClassf_t1193 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClassf__ctor_m6590 (U3CU3Ec__DisplayClassf_t1194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.Internal.InternalExtensions/<>c__DisplayClassf::<WhileAsync>b__c()
-extern "C" Task_t1227 * U3CU3Ec__DisplayClassf_U3CWhileAsyncU3Eb__c_m6578 (U3CU3Ec__DisplayClassf_t1193 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * U3CU3Ec__DisplayClassf_U3CWhileAsyncU3Eb__c_m6591 (U3CU3Ec__DisplayClassf_t1194 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.Internal.InternalExtensions/<>c__DisplayClassf::<WhileAsync>b__d(System.Threading.Tasks.Task`1<System.Boolean>)
-extern "C" Task_t1227 * U3CU3Ec__DisplayClassf_U3CWhileAsyncU3Eb__d_m6579 (U3CU3Ec__DisplayClassf_t1193 * __this, Task_1_t1386 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * U3CU3Ec__DisplayClassf_U3CWhileAsyncU3Eb__d_m6592 (U3CU3Ec__DisplayClassf_t1194 * __this, Task_1_t1387 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.Internal.InternalExtensions/<>c__DisplayClassf::<WhileAsync>b__e(System.Threading.Tasks.Task)
-extern "C" Task_t1227 * U3CU3Ec__DisplayClassf_U3CWhileAsyncU3Eb__e_m6580 (U3CU3Ec__DisplayClassf_t1193 * __this, Task_t1227 * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1228 * U3CU3Ec__DisplayClassf_U3CWhileAsyncU3Eb__e_m6593 (U3CU3Ec__DisplayClassf_t1194 * __this, Task_t1228 * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;

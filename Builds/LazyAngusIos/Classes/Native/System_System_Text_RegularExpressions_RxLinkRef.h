@@ -5,7 +5,7 @@ struct Int32U5BU5D_t484;
 // System.Text.RegularExpressions.LinkRef
 #include "System_System_Text_RegularExpressions_LinkRef.h"
 // System.Text.RegularExpressions.RxLinkRef
-struct  RxLinkRef_t4512  : public LinkRef_t4483
+struct  RxLinkRef_t4513  : public LinkRef_t4484
 {
 	// System.Int32[] System.Text.RegularExpressions.RxLinkRef::offsets
 	Int32U5BU5D_t484* ___offsets_0;

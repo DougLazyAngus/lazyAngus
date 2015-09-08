@@ -5,7 +5,7 @@
 // Mono.Math.BigInteger/Sign
 #include "Mono_Security_Mono_Math_BigInteger_Sign.h"
 // Mono.Math.BigInteger/Sign
-struct  Sign_t3112 
+struct  Sign_t3113 
 {
 	// System.Int32 Mono.Math.BigInteger/Sign::value__
 	int32_t ___value___1;

@@ -1,33 +1,33 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Net.ServicePoint
-struct ServicePoint_t3276;
+struct ServicePoint_t3277;
 // System.IO.Stream
 struct Stream_t51;
 // System.Net.Sockets.Socket
-struct Socket_t4401;
+struct Socket_t4402;
 // System.Object
 struct Object_t;
 // System.Threading.WaitCallback
-struct WaitCallback_t2162;
+struct WaitCallback_t2163;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.AsyncCallback
 struct AsyncCallback_t386;
 // System.EventHandler
-struct EventHandler_t4260;
+struct EventHandler_t4261;
 // System.Net.WebConnection/AbortHelper
-struct AbortHelper_t4419;
+struct AbortHelper_t4420;
 // System.Net.WebConnectionData
-struct WebConnectionData_t4420;
+struct WebConnectionData_t4421;
 // System.Net.ChunkStream
-struct ChunkStream_t4308;
+struct ChunkStream_t4309;
 // System.Collections.Queue
-struct Queue_t4410;
+struct Queue_t4411;
 // System.Net.HttpWebRequest
-struct HttpWebRequest_t3197;
+struct HttpWebRequest_t3198;
 // System.Net.NetworkCredential
-struct NetworkCredential_t4367;
+struct NetworkCredential_t4368;
 // System.Exception
 struct Exception_t57;
 // System.Type
@@ -43,38 +43,38 @@ struct MethodInfo_t;
 // System.Net.ReadState
 #include "System_System_Net_ReadState.h"
 // System.Net.WebConnection
-struct  WebConnection_t4379  : public Object_t
+struct  WebConnection_t4380  : public Object_t
 {
 	// System.Net.ServicePoint System.Net.WebConnection::sPoint
-	ServicePoint_t3276 * ___sPoint_0;
+	ServicePoint_t3277 * ___sPoint_0;
 	// System.IO.Stream System.Net.WebConnection::nstream
 	Stream_t51 * ___nstream_1;
 	// System.Net.Sockets.Socket System.Net.WebConnection::socket
-	Socket_t4401 * ___socket_2;
+	Socket_t4402 * ___socket_2;
 	// System.Object System.Net.WebConnection::socketLock
 	Object_t * ___socketLock_3;
 	// System.Net.WebExceptionStatus System.Net.WebConnection::status
 	int32_t ___status_4;
 	// System.Threading.WaitCallback System.Net.WebConnection::initConn
-	WaitCallback_t2162 * ___initConn_5;
+	WaitCallback_t2163 * ___initConn_5;
 	// System.Boolean System.Net.WebConnection::keepAlive
 	bool ___keepAlive_6;
 	// System.Byte[] System.Net.WebConnection::buffer
 	ByteU5BU5D_t66* ___buffer_7;
 	// System.EventHandler System.Net.WebConnection::abortHandler
-	EventHandler_t4260 * ___abortHandler_9;
+	EventHandler_t4261 * ___abortHandler_9;
 	// System.Net.WebConnection/AbortHelper System.Net.WebConnection::abortHelper
-	AbortHelper_t4419 * ___abortHelper_10;
+	AbortHelper_t4420 * ___abortHelper_10;
 	// System.Net.ReadState System.Net.WebConnection::readState
 	int32_t ___readState_11;
 	// System.Net.WebConnectionData System.Net.WebConnection::Data
-	WebConnectionData_t4420 * ___Data_12;
+	WebConnectionData_t4421 * ___Data_12;
 	// System.Boolean System.Net.WebConnection::chunkedRead
 	bool ___chunkedRead_13;
 	// System.Net.ChunkStream System.Net.WebConnection::chunkStream
-	ChunkStream_t4308 * ___chunkStream_14;
+	ChunkStream_t4309 * ___chunkStream_14;
 	// System.Collections.Queue System.Net.WebConnection::queue
-	Queue_t4410 * ___queue_15;
+	Queue_t4411 * ___queue_15;
 	// System.Boolean System.Net.WebConnection::reused
 	bool ___reused_16;
 	// System.Int32 System.Net.WebConnection::position
@@ -82,9 +82,9 @@ struct  WebConnection_t4379  : public Object_t
 	// System.Boolean System.Net.WebConnection::busy
 	bool ___busy_18;
 	// System.Net.HttpWebRequest System.Net.WebConnection::priority_request
-	HttpWebRequest_t3197 * ___priority_request_19;
+	HttpWebRequest_t3198 * ___priority_request_19;
 	// System.Net.NetworkCredential System.Net.WebConnection::ntlm_credentials
-	NetworkCredential_t4367 * ___ntlm_credentials_20;
+	NetworkCredential_t4368 * ___ntlm_credentials_20;
 	// System.Boolean System.Net.WebConnection::ntlm_authenticated
 	bool ___ntlm_authenticated_21;
 	// System.Boolean System.Net.WebConnection::unsafe_sharing
@@ -96,7 +96,7 @@ struct  WebConnection_t4379  : public Object_t
 	// System.Exception System.Net.WebConnection::connect_exception
 	Exception_t57 * ___connect_exception_25;
 };
-struct WebConnection_t4379_StaticFields{
+struct WebConnection_t4380_StaticFields{
 	// System.AsyncCallback System.Net.WebConnection::readDoneDelegate
 	AsyncCallback_t386 * ___readDoneDelegate_8;
 	// System.Object System.Net.WebConnection::classLock

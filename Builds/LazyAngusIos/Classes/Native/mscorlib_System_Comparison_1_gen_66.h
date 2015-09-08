@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<Parse.ParseGeoPoint>
-struct  Comparison_1_t7440  : public MulticastDelegate_t388
+struct  Comparison_1_t7441  : public MulticastDelegate_t388
 {
 };

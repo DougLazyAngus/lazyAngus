@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Predicate`1<GoogleMobileAdBanner>
-struct  Predicate_1_t6064  : public MulticastDelegate_t388
+struct  Predicate_1_t6065  : public MulticastDelegate_t388
 {
 };

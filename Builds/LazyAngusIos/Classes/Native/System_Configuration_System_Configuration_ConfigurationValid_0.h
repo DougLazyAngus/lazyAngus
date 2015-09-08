@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Configuration.ConfigurationValidatorBase
-struct  ConfigurationValidatorBase_t3328  : public Object_t
+struct  ConfigurationValidatorBase_t3329  : public Object_t
 {
 };

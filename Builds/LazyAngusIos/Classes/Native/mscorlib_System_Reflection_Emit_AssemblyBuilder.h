@@ -1,36 +1,36 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Reflection.Emit.ModuleBuilder[]
-struct ModuleBuilderU5BU5D_t5045;
+struct ModuleBuilderU5BU5D_t5046;
 // System.String
 struct String_t;
 // System.Reflection.Emit.MonoResource[]
-struct MonoResourceU5BU5D_t5046;
+struct MonoResourceU5BU5D_t5047;
 // System.Reflection.Emit.RefEmitPermissionSet[]
-struct RefEmitPermissionSetU5BU5D_t5047;
+struct RefEmitPermissionSetU5BU5D_t5048;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Type
 struct Type_t;
 // Mono.Security.StrongName
-struct StrongName_t4788;
+struct StrongName_t4789;
 // System.Reflection.Emit.ModuleBuilder
-struct ModuleBuilder_t5048;
+struct ModuleBuilder_t5049;
 // System.Reflection.Assembly
 #include "mscorlib_System_Reflection_Assembly.h"
 // System.Reflection.Emit.PEFileKinds
 #include "mscorlib_System_Reflection_Emit_PEFileKinds.h"
 // System.Reflection.Emit.AssemblyBuilder
-struct  AssemblyBuilder_t5049  : public Assembly_t783
+struct  AssemblyBuilder_t5050  : public Assembly_t784
 {
 	// System.Reflection.Emit.ModuleBuilder[] System.Reflection.Emit.AssemblyBuilder::modules
-	ModuleBuilderU5BU5D_t5045* ___modules_10;
+	ModuleBuilderU5BU5D_t5046* ___modules_10;
 	// System.String System.Reflection.Emit.AssemblyBuilder::name
 	String_t* ___name_11;
 	// System.String System.Reflection.Emit.AssemblyBuilder::dir
 	String_t* ___dir_12;
 	// System.Reflection.Emit.MonoResource[] System.Reflection.Emit.AssemblyBuilder::resources
-	MonoResourceU5BU5D_t5046* ___resources_13;
+	MonoResourceU5BU5D_t5047* ___resources_13;
 	// System.String System.Reflection.Emit.AssemblyBuilder::version
 	String_t* ___version_14;
 	// System.String System.Reflection.Emit.AssemblyBuilder::culture
@@ -42,11 +42,11 @@ struct  AssemblyBuilder_t5049  : public Assembly_t783
 	// System.UInt32 System.Reflection.Emit.AssemblyBuilder::access
 	uint32_t ___access_18;
 	// System.Reflection.Emit.RefEmitPermissionSet[] System.Reflection.Emit.AssemblyBuilder::permissions_minimum
-	RefEmitPermissionSetU5BU5D_t5047* ___permissions_minimum_19;
+	RefEmitPermissionSetU5BU5D_t5048* ___permissions_minimum_19;
 	// System.Reflection.Emit.RefEmitPermissionSet[] System.Reflection.Emit.AssemblyBuilder::permissions_optional
-	RefEmitPermissionSetU5BU5D_t5047* ___permissions_optional_20;
+	RefEmitPermissionSetU5BU5D_t5048* ___permissions_optional_20;
 	// System.Reflection.Emit.RefEmitPermissionSet[] System.Reflection.Emit.AssemblyBuilder::permissions_refused
-	RefEmitPermissionSetU5BU5D_t5047* ___permissions_refused_21;
+	RefEmitPermissionSetU5BU5D_t5048* ___permissions_refused_21;
 	// System.Boolean System.Reflection.Emit.AssemblyBuilder::corlib_internal
 	bool ___corlib_internal_22;
 	// System.Byte[] System.Reflection.Emit.AssemblyBuilder::pktoken
@@ -64,11 +64,11 @@ struct  AssemblyBuilder_t5049  : public Assembly_t783
 	// System.Boolean System.Reflection.Emit.AssemblyBuilder::is_module_only
 	bool ___is_module_only_29;
 	// Mono.Security.StrongName System.Reflection.Emit.AssemblyBuilder::sn
-	StrongName_t4788 * ___sn_30;
+	StrongName_t4789 * ___sn_30;
 	// System.Boolean System.Reflection.Emit.AssemblyBuilder::is_compiler_context
 	bool ___is_compiler_context_31;
 	// System.String System.Reflection.Emit.AssemblyBuilder::versioninfo_culture
 	String_t* ___versioninfo_culture_32;
 	// System.Reflection.Emit.ModuleBuilder System.Reflection.Emit.AssemblyBuilder::manifest_module
-	ModuleBuilder_t5048 * ___manifest_module_33;
+	ModuleBuilder_t5049 * ___manifest_module_33;
 };

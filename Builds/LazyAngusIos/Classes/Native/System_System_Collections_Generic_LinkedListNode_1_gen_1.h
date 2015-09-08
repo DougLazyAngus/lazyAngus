@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>
-struct Tuple_2_t2383;
+struct Tuple_2_t2384;
 // System.Collections.Generic.LinkedList`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>
-struct LinkedList_1_t6546;
+struct LinkedList_1_t6547;
 // System.Collections.Generic.LinkedListNode`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>
-struct LinkedListNode_1_t6547;
+struct LinkedListNode_1_t6548;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.LinkedListNode`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>
-struct  LinkedListNode_1_t6547  : public Object_t
+struct  LinkedListNode_1_t6548  : public Object_t
 {
 	// T System.Collections.Generic.LinkedListNode`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::item
-	Tuple_2_t2383 * ___item_0;
+	Tuple_2_t2384 * ___item_0;
 	// System.Collections.Generic.LinkedList`1<T> System.Collections.Generic.LinkedListNode`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::container
-	LinkedList_1_t6546 * ___container_1;
+	LinkedList_1_t6547 * ___container_1;
 	// System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedListNode`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::forward
-	LinkedListNode_1_t6547 * ___forward_2;
+	LinkedListNode_1_t6548 * ___forward_2;
 	// System.Collections.Generic.LinkedListNode`1<T> System.Collections.Generic.LinkedListNode`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>::back
-	LinkedListNode_1_t6547 * ___back_3;
+	LinkedListNode_1_t6548 * ___back_3;
 };

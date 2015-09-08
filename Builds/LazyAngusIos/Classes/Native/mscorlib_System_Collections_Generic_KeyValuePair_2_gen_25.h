@@ -5,7 +5,7 @@ struct String_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>
-struct  KeyValuePair_2_t6093 
+struct  KeyValuePair_2_t6094 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>::key
 	String_t* ___key_0;

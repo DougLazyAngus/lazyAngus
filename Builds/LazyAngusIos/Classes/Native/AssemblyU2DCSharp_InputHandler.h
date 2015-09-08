@@ -3,11 +3,11 @@
 // UnityEngine.Camera
 struct Camera_t548;
 // InputHandler
-struct InputHandler_t575;
+struct InputHandler_t576;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // InputHandler
-struct  InputHandler_t575  : public MonoBehaviour_t13
+struct  InputHandler_t576  : public MonoBehaviour_t13
 {
 	// UnityEngine.Camera InputHandler::worldCamera
 	Camera_t548 * ___worldCamera_2;
@@ -16,7 +16,7 @@ struct  InputHandler_t575  : public MonoBehaviour_t13
 	// System.Boolean InputHandler::<isTouchDevice>k__BackingField
 	bool ___U3CisTouchDeviceU3Ek__BackingField_4;
 };
-struct InputHandler_t575_StaticFields{
+struct InputHandler_t576_StaticFields{
 	// InputHandler InputHandler::<instance>k__BackingField
-	InputHandler_t575 * ___U3CinstanceU3Ek__BackingField_5;
+	InputHandler_t576 * ___U3CinstanceU3Ek__BackingField_5;
 };

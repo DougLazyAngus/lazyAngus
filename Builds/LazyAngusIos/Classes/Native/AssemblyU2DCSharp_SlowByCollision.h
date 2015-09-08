@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // SlowByCollision
-struct  SlowByCollision_t661  : public MonoBehaviour_t13
+struct  SlowByCollision_t662  : public MonoBehaviour_t13
 {
 };

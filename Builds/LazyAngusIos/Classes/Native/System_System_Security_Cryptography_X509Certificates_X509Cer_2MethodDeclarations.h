@@ -5,29 +5,29 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.X509Certificates.X509Certificate2Collection
-struct X509Certificate2Collection_t4441;
+struct X509Certificate2Collection_t4442;
 // System.Security.Cryptography.X509Certificates.X509Certificate2
-struct X509Certificate2_t3278;
+struct X509Certificate2_t3279;
 // System.Object
 struct Object_t;
 // System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator
-struct X509Certificate2Enumerator_t4443;
+struct X509Certificate2Enumerator_t4444;
 // System.Security.Cryptography.X509Certificates.X509FindType
 #include "System_System_Security_Cryptography_X509Certificates_X509Fin.h"
 
 // System.Void System.Security.Cryptography.X509Certificates.X509Certificate2Collection::.ctor()
-extern "C" void X509Certificate2Collection__ctor_m17244 (X509Certificate2Collection_t4441 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Certificate2Collection__ctor_m17257 (X509Certificate2Collection_t4442 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509Certificate2Collection::.ctor(System.Security.Cryptography.X509Certificates.X509Certificate2Collection)
-extern "C" void X509Certificate2Collection__ctor_m17245 (X509Certificate2Collection_t4441 * __this, X509Certificate2Collection_t4441 * ___certificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Certificate2Collection__ctor_m17258 (X509Certificate2Collection_t4442 * __this, X509Certificate2Collection_t4442 * ___certificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate2 System.Security.Cryptography.X509Certificates.X509Certificate2Collection::get_Item(System.Int32)
-extern "C" X509Certificate2_t3278 * X509Certificate2Collection_get_Item_m17246 (X509Certificate2Collection_t4441 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate2_t3279 * X509Certificate2Collection_get_Item_m17259 (X509Certificate2Collection_t4442 * __this, int32_t ___index, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Add(System.Security.Cryptography.X509Certificates.X509Certificate2)
-extern "C" int32_t X509Certificate2Collection_Add_m17247 (X509Certificate2Collection_t4441 * __this, X509Certificate2_t3278 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509Certificate2Collection_Add_m17260 (X509Certificate2Collection_t4442 * __this, X509Certificate2_t3279 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509Certificate2Collection::AddRange(System.Security.Cryptography.X509Certificates.X509Certificate2Collection)
-extern "C" void X509Certificate2Collection_AddRange_m17248 (X509Certificate2Collection_t4441 * __this, X509Certificate2Collection_t4441 * ___certificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Certificate2Collection_AddRange_m17261 (X509Certificate2Collection_t4442 * __this, X509Certificate2Collection_t4442 * ___certificates, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Contains(System.Security.Cryptography.X509Certificates.X509Certificate2)
-extern "C" bool X509Certificate2Collection_Contains_m17249 (X509Certificate2Collection_t4441 * __this, X509Certificate2_t3278 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509Certificate2Collection_Contains_m17262 (X509Certificate2Collection_t4442 * __this, X509Certificate2_t3279 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate2Collection System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Find(System.Security.Cryptography.X509Certificates.X509FindType,System.Object,System.Boolean)
-extern "C" X509Certificate2Collection_t4441 * X509Certificate2Collection_Find_m17250 (X509Certificate2Collection_t4441 * __this, int32_t ___findType, Object_t * ___findValue, bool ___validOnly, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate2Collection_t4442 * X509Certificate2Collection_Find_m17263 (X509Certificate2Collection_t4442 * __this, int32_t ___findType, Object_t * ___findValue, bool ___validOnly, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate2Enumerator System.Security.Cryptography.X509Certificates.X509Certificate2Collection::GetEnumerator()
-extern "C" X509Certificate2Enumerator_t4443 * X509Certificate2Collection_GetEnumerator_m17251 (X509Certificate2Collection_t4441 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate2Enumerator_t4444 * X509Certificate2Collection_GetEnumerator_m17264 (X509Certificate2Collection_t4442 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

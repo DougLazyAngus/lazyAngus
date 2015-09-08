@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Runtime.Remoting.Messaging.EnvoyTerminatorSink
-struct EnvoyTerminatorSink_t5160;
+struct EnvoyTerminatorSink_t5161;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Messaging.EnvoyTerminatorSink
-struct  EnvoyTerminatorSink_t5160  : public Object_t
+struct  EnvoyTerminatorSink_t5161  : public Object_t
 {
 };
-struct EnvoyTerminatorSink_t5160_StaticFields{
+struct EnvoyTerminatorSink_t5161_StaticFields{
 	// System.Runtime.Remoting.Messaging.EnvoyTerminatorSink System.Runtime.Remoting.Messaging.EnvoyTerminatorSink::Instance
-	EnvoyTerminatorSink_t5160 * ___Instance_0;
+	EnvoyTerminatorSink_t5161 * ___Instance_0;
 };

@@ -3,11 +3,11 @@
 // System.String
 struct String_t;
 // System.Uri
-struct Uri_t771;
+struct Uri_t772;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.UriBuilder
-struct  UriBuilder_t4536  : public Object_t
+struct  UriBuilder_t4537  : public Object_t
 {
 	// System.String System.UriBuilder::scheme
 	String_t* ___scheme_0;
@@ -26,7 +26,7 @@ struct  UriBuilder_t4536  : public Object_t
 	// System.String System.UriBuilder::password
 	String_t* ___password_7;
 	// System.Uri System.UriBuilder::uri
-	Uri_t771 * ___uri_8;
+	Uri_t772 * ___uri_8;
 	// System.Boolean System.UriBuilder::modified
 	bool ___modified_9;
 };

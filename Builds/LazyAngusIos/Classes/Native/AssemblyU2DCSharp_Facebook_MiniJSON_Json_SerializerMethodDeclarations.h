@@ -11,9 +11,9 @@ struct String_t;
 // System.Object
 struct Object_t;
 // System.Collections.IDictionary
-struct IDictionary_t699;
+struct IDictionary_t700;
 // System.Collections.IList
-struct IList_t700;
+struct IList_t701;
 
 // System.Void Facebook.MiniJSON.Json/Serializer::.ctor()
 extern "C" void Serializer__ctor_m2505 (Serializer_t451 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

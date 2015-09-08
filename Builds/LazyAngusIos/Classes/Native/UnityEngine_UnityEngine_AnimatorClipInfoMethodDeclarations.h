@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.AnimatorClipInfo
-struct AnimatorClipInfo_t2796;
+struct AnimatorClipInfo_t2797;
 

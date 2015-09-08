@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Lifetime.LeaseState
-struct LeaseState_t5148;
+struct LeaseState_t5149;
 

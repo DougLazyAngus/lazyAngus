@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Action`1<FB_APIResult>::.ctor(System.Object,System.IntPtr)
 // System.Action`1<System.Object>
 #include "mscorlib_System_Action_1_gen_34MethodDeclarations.h"
-#define Action_1__ctor_m4014(__this, ___object, ___method, method) (( void (*) (Action_1_t280 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m27580_gshared)(__this, ___object, ___method, method)
+#define Action_1__ctor_m4026(__this, ___object, ___method, method) (( void (*) (Action_1_t280 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m27593_gshared)(__this, ___object, ___method, method)
 // System.Void System.Action`1<FB_APIResult>::Invoke(T)
-#define Action_1_Invoke_m29471(__this, ___obj, method) (( void (*) (Action_1_t280 *, FB_APIResult_t298 *, const MethodInfo*))Action_1_Invoke_m27582_gshared)(__this, ___obj, method)
+#define Action_1_Invoke_m29484(__this, ___obj, method) (( void (*) (Action_1_t280 *, FB_APIResult_t298 *, const MethodInfo*))Action_1_Invoke_m27595_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Action`1<FB_APIResult>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Action_1_BeginInvoke_m29472(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t280 *, FB_APIResult_t298 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m27584_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Action_1_BeginInvoke_m29485(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t280 *, FB_APIResult_t298 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m27597_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Void System.Action`1<FB_APIResult>::EndInvoke(System.IAsyncResult)
-#define Action_1_EndInvoke_m29473(__this, ___result, method) (( void (*) (Action_1_t280 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m27586_gshared)(__this, ___result, method)
+#define Action_1_EndInvoke_m29486(__this, ___result, method) (( void (*) (Action_1_t280 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m27599_gshared)(__this, ___result, method)

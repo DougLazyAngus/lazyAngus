@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.ResourceAttributes
-struct ResourceAttributes_t5037;
+struct ResourceAttributes_t5038;
 

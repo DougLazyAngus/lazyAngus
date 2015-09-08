@@ -5,7 +5,7 @@
 // System.Configuration.ConfigurationLockType
 #include "System_Configuration_System_Configuration_ConfigurationLockT.h"
 // System.Configuration.ConfigurationLockType
-struct  ConfigurationLockType_t3323 
+struct  ConfigurationLockType_t3324 
 {
 	// System.Int32 System.Configuration.ConfigurationLockType::value__
 	int32_t ___value___1;

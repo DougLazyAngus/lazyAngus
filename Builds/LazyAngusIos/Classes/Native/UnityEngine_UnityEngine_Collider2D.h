@@ -3,6 +3,6 @@
 // UnityEngine.Behaviour
 #include "UnityEngine_UnityEngine_Behaviour.h"
 // UnityEngine.Collider2D
-struct  Collider2D_t713  : public Behaviour_t1110
+struct  Collider2D_t714  : public Behaviour_t1111
 {
 };

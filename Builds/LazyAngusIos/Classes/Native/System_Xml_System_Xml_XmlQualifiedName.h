@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.XmlQualifiedName
-struct XmlQualifiedName_t3415;
+struct XmlQualifiedName_t3416;
 // System.String
 struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlQualifiedName
-struct  XmlQualifiedName_t3415  : public Object_t
+struct  XmlQualifiedName_t3416  : public Object_t
 {
 	// System.String System.Xml.XmlQualifiedName::name
 	String_t* ___name_1;
@@ -16,7 +16,7 @@ struct  XmlQualifiedName_t3415  : public Object_t
 	// System.Int32 System.Xml.XmlQualifiedName::hash
 	int32_t ___hash_3;
 };
-struct XmlQualifiedName_t3415_StaticFields{
+struct XmlQualifiedName_t3416_StaticFields{
 	// System.Xml.XmlQualifiedName System.Xml.XmlQualifiedName::Empty
-	XmlQualifiedName_t3415 * ___Empty_0;
+	XmlQualifiedName_t3416 * ___Empty_0;
 };

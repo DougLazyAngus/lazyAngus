@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Delegate
-struct Delegate_t738;
+struct Delegate_t739;
 // System.Threading.Tasks.TaskFactory
-struct TaskFactory_t1383;
+struct TaskFactory_t1384;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>
-struct  Tuple_2_t2383  : public Object_t
+struct  Tuple_2_t2384  : public Object_t
 {
 	// T1 System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>::<Item1>k__BackingField
-	Delegate_t738 * ___U3CItem1U3Ek__BackingField_0;
+	Delegate_t739 * ___U3CItem1U3Ek__BackingField_0;
 	// T2 System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>::<Item2>k__BackingField
-	TaskFactory_t1383 * ___U3CItem2U3Ek__BackingField_1;
+	TaskFactory_t1384 * ___U3CItem2U3Ek__BackingField_1;
 };

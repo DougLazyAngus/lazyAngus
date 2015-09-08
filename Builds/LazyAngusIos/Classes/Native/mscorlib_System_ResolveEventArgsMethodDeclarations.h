@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ResolveEventArgs
-struct ResolveEventArgs_t4906;
+struct ResolveEventArgs_t4907;
 

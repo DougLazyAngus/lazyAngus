@@ -5,7 +5,7 @@
 // System.Handles
 #include "mscorlib_System_Handles.h"
 // System.Handles
-struct  Handles_t4933 
+struct  Handles_t4934 
 {
 	// System.Int32 System.Handles::value__
 	int32_t ___value___1;

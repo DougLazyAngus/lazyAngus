@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Comparison`1<Parse.ParseGeoPoint>
-struct Comparison_1_t7440;
+struct Comparison_1_t7441;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -18,14 +18,14 @@ struct AsyncCallback_t386;
 #include "Parse_Unity_Parse_ParseGeoPoint.h"
 
 // System.Void System.Comparison`1<Parse.ParseGeoPoint>::.ctor(System.Object,System.IntPtr)
-extern "C" void Comparison_1__ctor_m46797_gshared (Comparison_1_t7440 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Comparison_1__ctor_m46797(__this, ___object, ___method, method) (( void (*) (Comparison_1_t7440 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m46797_gshared)(__this, ___object, ___method, method)
+extern "C" void Comparison_1__ctor_m46810_gshared (Comparison_1_t7441 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Comparison_1__ctor_m46810(__this, ___object, ___method, method) (( void (*) (Comparison_1_t7441 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m46810_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<Parse.ParseGeoPoint>::Invoke(T,T)
-extern "C" int32_t Comparison_1_Invoke_m46798_gshared (Comparison_1_t7440 * __this, ParseGeoPoint_t1264  ___x, ParseGeoPoint_t1264  ___y, const MethodInfo* method);
-#define Comparison_1_Invoke_m46798(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t7440 *, ParseGeoPoint_t1264 , ParseGeoPoint_t1264 , const MethodInfo*))Comparison_1_Invoke_m46798_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t Comparison_1_Invoke_m46811_gshared (Comparison_1_t7441 * __this, ParseGeoPoint_t1265  ___x, ParseGeoPoint_t1265  ___y, const MethodInfo* method);
+#define Comparison_1_Invoke_m46811(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t7441 *, ParseGeoPoint_t1265 , ParseGeoPoint_t1265 , const MethodInfo*))Comparison_1_Invoke_m46811_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<Parse.ParseGeoPoint>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Comparison_1_BeginInvoke_m46799_gshared (Comparison_1_t7440 * __this, ParseGeoPoint_t1264  ___x, ParseGeoPoint_t1264  ___y, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Comparison_1_BeginInvoke_m46799(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t7440 *, ParseGeoPoint_t1264 , ParseGeoPoint_t1264 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m46799_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+extern "C" Object_t * Comparison_1_BeginInvoke_m46812_gshared (Comparison_1_t7441 * __this, ParseGeoPoint_t1265  ___x, ParseGeoPoint_t1265  ___y, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Comparison_1_BeginInvoke_m46812(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t7441 *, ParseGeoPoint_t1265 , ParseGeoPoint_t1265 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m46812_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<Parse.ParseGeoPoint>::EndInvoke(System.IAsyncResult)
-extern "C" int32_t Comparison_1_EndInvoke_m46800_gshared (Comparison_1_t7440 * __this, Object_t * ___result, const MethodInfo* method);
-#define Comparison_1_EndInvoke_m46800(__this, ___result, method) (( int32_t (*) (Comparison_1_t7440 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m46800_gshared)(__this, ___result, method)
+extern "C" int32_t Comparison_1_EndInvoke_m46813_gshared (Comparison_1_t7441 * __this, Object_t * ___result, const MethodInfo* method);
+#define Comparison_1_EndInvoke_m46813(__this, ___result, method) (( int32_t (*) (Comparison_1_t7441 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m46813_gshared)(__this, ___result, method)

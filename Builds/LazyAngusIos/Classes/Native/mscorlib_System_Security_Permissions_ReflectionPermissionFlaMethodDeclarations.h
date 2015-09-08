@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Permissions.ReflectionPermissionFlag
-struct ReflectionPermissionFlag_t5307;
+struct ReflectionPermissionFlag_t5308;
 

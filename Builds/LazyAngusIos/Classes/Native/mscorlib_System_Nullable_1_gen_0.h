@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Nullable`1<System.Single>
-struct  Nullable_1_t705 
+struct  Nullable_1_t706 
 {
 	// T System.Nullable`1<System.Single>::value
 	float ___value_0;

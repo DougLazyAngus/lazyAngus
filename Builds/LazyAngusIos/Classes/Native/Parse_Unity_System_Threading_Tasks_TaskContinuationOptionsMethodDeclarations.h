@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.Tasks.TaskContinuationOptions
-struct TaskContinuationOptions_t1372;
+struct TaskContinuationOptions_t1373;
 

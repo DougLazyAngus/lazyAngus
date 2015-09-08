@@ -5,7 +5,7 @@
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // UnityEngine.HumanLimit
-struct  HumanLimit_t2802 
+struct  HumanLimit_t2803 
 {
 	// UnityEngine.Vector3 UnityEngine.HumanLimit::m_Min
 	Vector3_t538  ___m_Min_0;

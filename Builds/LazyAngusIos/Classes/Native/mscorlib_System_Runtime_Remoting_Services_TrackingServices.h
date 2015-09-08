@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ArrayList
-struct ArrayList_t712;
+struct ArrayList_t713;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Services.TrackingServices
-struct  TrackingServices_t5179  : public Object_t
+struct  TrackingServices_t5180  : public Object_t
 {
 };
-struct TrackingServices_t5179_StaticFields{
+struct TrackingServices_t5180_StaticFields{
 	// System.Collections.ArrayList System.Runtime.Remoting.Services.TrackingServices::_handlers
-	ArrayList_t712 * ____handlers_0;
+	ArrayList_t713 * ____handlers_0;
 };

@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
-struct RemotingSurrogateSelector_t5173;
+struct RemotingSurrogateSelector_t5174;
 // System.Runtime.Serialization.ISerializationSurrogate
-struct ISerializationSurrogate_t5192;
+struct ISerializationSurrogate_t5193;
 // System.Type
 struct Type_t;
 // System.Runtime.Serialization.ISurrogateSelector
-struct ISurrogateSelector_t5172;
+struct ISurrogateSelector_t5173;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Runtime.Remoting.Messaging.RemotingSurrogateSelector::.ctor()
-extern "C" void RemotingSurrogateSelector__ctor_m22855 (RemotingSurrogateSelector_t5173 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingSurrogateSelector__ctor_m22868 (RemotingSurrogateSelector_t5174 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.RemotingSurrogateSelector::.cctor()
-extern "C" void RemotingSurrogateSelector__cctor_m22856 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RemotingSurrogateSelector__cctor_m22869 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Serialization.ISerializationSurrogate System.Runtime.Remoting.Messaging.RemotingSurrogateSelector::GetSurrogate(System.Type,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.ISurrogateSelector&)
-extern "C" Object_t * RemotingSurrogateSelector_GetSurrogate_m22857 (RemotingSurrogateSelector_t5173 * __this, Type_t * ___type, StreamingContext_t2937  ___context, Object_t ** ___ssout, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RemotingSurrogateSelector_GetSurrogate_m22870 (RemotingSurrogateSelector_t5174 * __this, Type_t * ___type, StreamingContext_t2938  ___context, Object_t ** ___ssout, const MethodInfo* method) IL2CPP_METHOD_ATTR;

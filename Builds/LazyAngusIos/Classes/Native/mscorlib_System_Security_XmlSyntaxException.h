@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.Security.XmlSyntaxException
-struct  XmlSyntaxException_t5246  : public SystemException_t3383
+struct  XmlSyntaxException_t5247  : public SystemException_t3384
 {
 };

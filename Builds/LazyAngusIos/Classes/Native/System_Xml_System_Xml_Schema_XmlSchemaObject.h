@@ -3,17 +3,17 @@
 // System.String
 struct String_t;
 // System.Xml.Serialization.XmlSerializerNamespaces
-struct XmlSerializerNamespaces_t3673;
+struct XmlSerializerNamespaces_t3674;
 // System.Collections.ArrayList
-struct ArrayList_t712;
+struct ArrayList_t713;
 // System.Xml.Schema.XmlSchemaObject
-struct XmlSchemaObject_t3439;
+struct XmlSchemaObject_t3440;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Guid
 #include "mscorlib_System_Guid.h"
 // System.Xml.Schema.XmlSchemaObject
-struct  XmlSchemaObject_t3439  : public Object_t
+struct  XmlSchemaObject_t3440  : public Object_t
 {
 	// System.Int32 System.Xml.Schema.XmlSchemaObject::lineNumber
 	int32_t ___lineNumber_0;
@@ -22,9 +22,9 @@ struct  XmlSchemaObject_t3439  : public Object_t
 	// System.String System.Xml.Schema.XmlSchemaObject::sourceUri
 	String_t* ___sourceUri_2;
 	// System.Xml.Serialization.XmlSerializerNamespaces System.Xml.Schema.XmlSchemaObject::namespaces
-	XmlSerializerNamespaces_t3673 * ___namespaces_3;
+	XmlSerializerNamespaces_t3674 * ___namespaces_3;
 	// System.Collections.ArrayList System.Xml.Schema.XmlSchemaObject::unhandledAttributeList
-	ArrayList_t712 * ___unhandledAttributeList_4;
+	ArrayList_t713 * ___unhandledAttributeList_4;
 	// System.Boolean System.Xml.Schema.XmlSchemaObject::isCompiled
 	bool ___isCompiled_5;
 	// System.Int32 System.Xml.Schema.XmlSchemaObject::errorCount
@@ -38,7 +38,7 @@ struct  XmlSchemaObject_t3439  : public Object_t
 	// System.Boolean System.Xml.Schema.XmlSchemaObject::isRedefinedComponent
 	bool ___isRedefinedComponent_10;
 	// System.Xml.Schema.XmlSchemaObject System.Xml.Schema.XmlSchemaObject::redefinedObject
-	XmlSchemaObject_t3439 * ___redefinedObject_11;
+	XmlSchemaObject_t3440 * ___redefinedObject_11;
 	// System.Xml.Schema.XmlSchemaObject System.Xml.Schema.XmlSchemaObject::parent
-	XmlSchemaObject_t3439 * ___parent_12;
+	XmlSchemaObject_t3440 * ___parent_12;
 };

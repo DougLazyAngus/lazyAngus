@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<Parse.ParseObject,System.Boolean>
-struct Func_2_t1285;
+struct Func_2_t1286;
 // System.Object
 struct Object_t;
 // Parse.ParseObject
-struct ParseObject_t1238;
+struct ParseObject_t1239;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<Parse.ParseObject,System.Boolean>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Object,System.Byte>
 #include "System_Core_System_Func_2_gen_57MethodDeclarations.h"
-#define Func_2__ctor_m7695(__this, ___object, ___method, method) (( void (*) (Func_2_t1285 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m34853_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m7708(__this, ___object, ___method, method) (( void (*) (Func_2_t1286 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m34866_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<Parse.ParseObject,System.Boolean>::Invoke(T)
-#define Func_2_Invoke_m38104(__this, ___arg1, method) (( bool (*) (Func_2_t1285 *, ParseObject_t1238 *, const MethodInfo*))Func_2_Invoke_m34855_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m38117(__this, ___arg1, method) (( bool (*) (Func_2_t1286 *, ParseObject_t1239 *, const MethodInfo*))Func_2_Invoke_m34868_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<Parse.ParseObject,System.Boolean>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Func_2_BeginInvoke_m38105(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t1285 *, ParseObject_t1238 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m34857_gshared)(__this, ___arg1, ___callback, ___object, method)
+#define Func_2_BeginInvoke_m38118(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t1286 *, ParseObject_t1239 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m34870_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<Parse.ParseObject,System.Boolean>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m38106(__this, ___result, method) (( bool (*) (Func_2_t1285 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m34859_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m38119(__this, ___result, method) (( bool (*) (Func_2_t1286 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m34872_gshared)(__this, ___result, method)

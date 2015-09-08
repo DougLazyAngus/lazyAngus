@@ -3,13 +3,13 @@
 // System.String
 struct String_t;
 // Mono.Security.Uri/UriScheme[]
-struct UriSchemeU5BU5D_t4791;
+struct UriSchemeU5BU5D_t4792;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Uri
-struct  Uri_t4792  : public Object_t
+struct  Uri_t4793  : public Object_t
 {
 	// System.Boolean Mono.Security.Uri::isUnixFilePath
 	bool ___isUnixFilePath_0;
@@ -44,7 +44,7 @@ struct  Uri_t4792  : public Object_t
 	// System.Boolean Mono.Security.Uri::reduce
 	bool ___reduce_15;
 };
-struct Uri_t4792_StaticFields{
+struct Uri_t4793_StaticFields{
 	// System.String Mono.Security.Uri::hexUpperChars
 	String_t* ___hexUpperChars_16;
 	// System.String Mono.Security.Uri::SchemeDelimiter
@@ -66,7 +66,7 @@ struct Uri_t4792_StaticFields{
 	// System.String Mono.Security.Uri::UriSchemeNntp
 	String_t* ___UriSchemeNntp_25;
 	// Mono.Security.Uri/UriScheme[] Mono.Security.Uri::schemes
-	UriSchemeU5BU5D_t4791* ___schemes_26;
+	UriSchemeU5BU5D_t4792* ___schemes_26;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Security.Uri::<>f__switch$map6
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map6_27;
 };

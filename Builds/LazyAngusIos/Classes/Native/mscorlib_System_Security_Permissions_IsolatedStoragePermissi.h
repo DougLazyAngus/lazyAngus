@@ -5,7 +5,7 @@
 // System.Security.Permissions.IsolatedStorageContainment
 #include "mscorlib_System_Security_Permissions_IsolatedStorageContainm.h"
 // System.Security.Permissions.IsolatedStoragePermission
-struct  IsolatedStoragePermission_t5298  : public CodeAccessPermission_t5226
+struct  IsolatedStoragePermission_t5299  : public CodeAccessPermission_t5227
 {
 	// System.Int64 System.Security.Permissions.IsolatedStoragePermission::m_userQuota
 	int64_t ___m_userQuota_0;
