@@ -339,13 +339,6 @@ public class MouseMove : MonoBehaviour
 	void MakeDeadMouse() {
 		SFXPlayer.instance.PlayRandom(SFXPlayer.instance.deadMouseIds,
 		                              0.2f);
-		/*
-		GameObject deadMouseObject = Instantiate (MouseConfig.instance.deadMousePrototype, 
-		                                          new Vector3 (0, 0, 0),
-		                                          Quaternion.identity) as GameObject;
-		DeadMouse deadMouse = deadMouseObject.GetComponent<DeadMouse> ();
-		deadMouse.Configure (this);
-		*/
 	}
 
 	public void OnSafeExit ()

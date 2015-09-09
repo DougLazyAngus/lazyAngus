@@ -46,7 +46,6 @@ public class MouseConfig : MonoBehaviour
 	public Color fartedUponColor;
 
 	public Vector3 progressBarOffset;
-	public GameObject deadMousePrototype;
 	public float minBFWiggleMagnitude = 0.15f;
 	public float maxBFWiggleMagnitude = 0.55f;
 	public int minBFWiggleCycles = 10;
