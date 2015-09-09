@@ -5,6 +5,8 @@ public class ConeOfViewController : MonoBehaviour {
 	public ConeOfViewRenderer leftCone;
 	public ConeOfViewRenderer rightCone;
 
+	public float innerGapHalfAngle = 2;
+
 	public float actualAngleRange { get; private set;}
 	
 	bool registeredForEvents;
@@ -64,7 +66,7 @@ public class ConeOfViewController : MonoBehaviour {
 	}
 
 	void UpdateCones() {
-		leftCone.CreateMeshForAngleRange (0, actualAngleRange/2);
-		rightCone.CreateMeshForAngleRange (-actualAngleRange/2, 0);
+		leftCone.CreateMeshForAngleRange (innerGapHalfAngle, actualAngleRange/2);
+		rightCone.CreateMeshForAngleRange (-actualAngleRange/2, -innerGapHalfAngle);
 	}
 }

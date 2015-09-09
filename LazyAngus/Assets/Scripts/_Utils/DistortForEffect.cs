@@ -32,7 +32,7 @@ public class DistortForEffect : BounceLerp {
 		if (distorting) {
 			return;
 		}
-		startDistortTime = Time.time + delay;
+		startDistortTime = Time.realtimeSinceStartup + delay;
 		distorting = true;
 	}
 
@@ -51,11 +51,11 @@ public class DistortForEffect : BounceLerp {
 
 	// Update is called once per frame
 	void Update () {
-		if (!distorting || Time.time < startDistortTime) {  
+		if (!distorting || Time.realtimeSinceStartup < startDistortTime) {  
 			return;
 		}
 
-		float timeNow = Time.time;
+		float timeNow = Time.realtimeSinceStartup;
 		float timeDelta = timeNow - startDistortTime;
 
 		bool isFinished;
