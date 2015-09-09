@@ -12,8 +12,7 @@ public class MusicPlayer : MonoBehaviour {
 	public AudioSource boostMusic;
 
 	AudioSource currentMusic;
-	IEnumerator playCuedMusic;
-	
+
 	// Use this for initialization
 	void Start () {
 		RegisterForEvents ();	
@@ -70,11 +69,9 @@ public class MusicPlayer : MonoBehaviour {
 	void OnPauseChanged() {
 		if (currentMusic != null) {
 			if (TimeController.instance.timeState == TimeController.TimeState.COMPLETE_PAUSE) {
-				currentMusic.Pause ();
+				FadeOutMusic(currentMusic);
 			} else {
-				if (!currentMusic.isPlaying) {
-					currentMusic.Play ();
-				}
+				FadeInMusic(currentMusic);
 			}
 		}
 	}
@@ -108,29 +105,30 @@ public class MusicPlayer : MonoBehaviour {
 		}
 
 		// Stop current, start desired.
-		if (currentMusic != null && currentMusic.isPlaying) {
-			currentMusic.Stop ();
-		}
-		if (playCuedMusic != null) {
-			StopCoroutine (playCuedMusic);
-			playCuedMusic = null;
-		}
+		FadeOutMusic(currentMusic);
 		currentMusic = null;
 
 		if (desiredMusic) {
 			currentMusic = desiredMusic;
-			playCuedMusic = PlayMusic (desiredMusic);
-			StartCoroutine (playCuedMusic);
+			FadeInMusic(currentMusic);
 		}
-
 	}
 
-
-	IEnumerator PlayMusic(AudioSource music) {
-		yield return new WaitForSeconds(0.5f);
-			playCuedMusic = null;
-		if (music == currentMusic) {
-			music.Play ();
+	void FadeOutMusic(AudioSource music) {
+		if (music == null) {
+			return;
 		}
+
+		MusicFader fader = music.GetComponent<MusicFader>();
+		fader.FadeOut();
+	}
+
+	void FadeInMusic(AudioSource music) {
+		if (music == null) {
+			return;
+		}
+
+		MusicFader fader = music.GetComponent<MusicFader> ();
+		fader.FadeIn();
 	}
 }
