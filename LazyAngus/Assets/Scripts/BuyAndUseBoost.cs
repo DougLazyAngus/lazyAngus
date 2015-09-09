@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System;
 
 public class BuyAndUseBoost : MonoBehaviour {
 	BoostButton boostButton;
@@ -10,18 +11,18 @@ public class BuyAndUseBoost : MonoBehaviour {
 
 	public void BuyAndUse() {
 		if (!boostButton.BoostIsUnlocked ()) {
-			TipController.instance.EnqueueAnytimeTip("I can't eat that cat food until Wave " +
-			                                         boostButton.GetLevelLock() + "!");
+			TipController.instance.EnqueueAnytimeTip(String.Format(LazyAngusStrings.BOOST_FAIL_LEVEL, 
+			                                                       boostButton.GetLevelLock()));
 			return;
 		}
 		
 		if (BoostConfig.instance.IsBoostActive()) {
-			TipController.instance.EnqueueAnytimeTip("I can only use one cat food at a time!");
+			TipController.instance.EnqueueAnytimeTip(LazyAngusStrings.BOOST_FAIL_ACTIVE);
 			return;
 		}
 		
 		if (!boostButton.CanAffordBoost ()) {
-			TipController.instance.EnqueueAnytimeTip("I can't afford that cat food!\n\nI can earn money by swiping two mice at once!");
+			TipController.instance.EnqueueAnytimeTip(LazyAngusStrings.BOOST_FAIL_COST);
 			return;
 		}
 

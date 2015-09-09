@@ -399,15 +399,15 @@ public class LevelConfig : MonoBehaviour
 		}
 		
 		if (--glCounter == 0) {
-			ld.specialText = "Cat food helps Angus move faster!";
+			ld.specialText = LazyAngusStrings.INTRO_BOOST_FAST;
 			ld.sprite = BoostConfig.instance.GetIntroImageForType (
 				BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS);
-			
+
+			ld.tipConfig = new TipConfig("explainBoosts", 
+			                             LazyAngusStrings.TIP_EXPLAIN_BOOSTS);
+			ld.tipPause = 1.7f;
+
 			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS);
-			
-			ld.tipConfig = new TipConfig ("multikill", 
-			                              "Earn money for cat food by killing two mice at once!");
-			ld.tipPause = 2.0f;
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MEDIUM, 
@@ -526,7 +526,7 @@ public class LevelConfig : MonoBehaviour
 		}
 		
 		if (--glCounter == 0) {
-			ld.specialText = "This cat food helps Angus see better!";
+			ld.specialText = LazyAngusStrings.INTRO_BOOST_SEE;
 			ld.sprite = BoostConfig.instance.GetIntroImageForType (
 					BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES);
 
@@ -671,7 +671,7 @@ public class LevelConfig : MonoBehaviour
 		}
 		
 		if (--glCounter == 0) {
-			ld.specialText = "Try new Giant Paws cat food!";
+			ld.specialText = LazyAngusStrings.INTRO_BOOST_GIANT;
 			ld.sprite = BoostConfig.instance.GetIntroImageForType (
 				BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS);
 			
@@ -833,7 +833,7 @@ public class LevelConfig : MonoBehaviour
 		}
 		
 		if (--glCounter == 0) {
-			ld.specialText = "Farty cat food... Yum!";
+			ld.specialText = LazyAngusStrings.INTRO_BOOST_FART;
 			ld.sprite = BoostConfig.instance.GetIntroImageForType (
 				BoostConfig.BoostType.BOOST_TYPE_FART);
 			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_FART);
@@ -996,19 +996,6 @@ public class LevelConfig : MonoBehaviour
 			                      1);
 			return ld;
 		}
-
-		/*
-		if (--glCounter == 0) {
-			ld.specialText = "Introducing... Poison Paws cat food!";
-			ld.sprite = BoostConfig.instance.GetIntroImageForType (
-					BoostConfig.BoostType.BOOST_TYPE_POISON_PAWS);
-			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_POISON_PAWS);
-
-			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.DISTRIBUTED);
-
-			return ld;
-		}
-		*/
 		
 		if (--glCounter == 0) {
 			ld.specialText = "A new mousetrap!";

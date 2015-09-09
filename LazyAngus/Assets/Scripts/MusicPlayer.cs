@@ -9,6 +9,7 @@ public class MusicPlayer : MonoBehaviour {
 	public AudioSource gameMusic;
 	public AudioSource menuMusic;
 	public AudioSource realAngusMusic;
+	public AudioSource boostMusic;
 
 	AudioSource currentMusic;
 	IEnumerator playCuedMusic;
@@ -36,6 +37,8 @@ public class MusicPlayer : MonoBehaviour {
 
 		TimeController.instance.TimeStateChanged += 
 			new TimeController.TimeStateChangedEventHandler (OnPauseChanged);
+		BoostConfig.instance.BoostActive += 
+			new BoostConfig.BoostActiveEventHandler (OnBoostActive);
 	}
 	
 	void UnregisterForEvents() {
@@ -46,14 +49,21 @@ public class MusicPlayer : MonoBehaviour {
 				new SoundController.MusicMuteChangedEventHandler (OnMusicMuteChanged);
 			TimeController.instance.TimeStateChanged -= 
 				new TimeController.TimeStateChangedEventHandler (OnPauseChanged);
+			BoostConfig.instance.BoostActive -= 
+				new BoostConfig.BoostActiveEventHandler (OnBoostActive);
 		}
 	}
 
 	void OnGamePhaseChanged() {
 		UpdateAllMusic ();
 	}
-
+	
 	void OnMusicMuteChanged() {
+		UpdateAllMusic ();
+	}
+	
+	void OnBoostActive(BoostConfig.BoostType newBoost, 
+	                   BoostConfig.BoostType oldBoost) {
 		UpdateAllMusic ();
 	}
 
@@ -77,7 +87,11 @@ public class MusicPlayer : MonoBehaviour {
 			switch (GamePhaseState.instance.gamePhase) {
 			case GamePhaseState.GamePhaseType.LEVEL_PLAY:
 			case GamePhaseState.GamePhaseType.PENDING:
-				desiredMusic = gameMusic;
+				if (BoostConfig.instance.IsBoostActive()) {
+					desiredMusic = boostMusic; 
+				} else {
+					desiredMusic = gameMusic;
+				}
 				break;
 			case GamePhaseState.GamePhaseType.REAL_ANGUS:
 				desiredMusic = realAngusMusic;

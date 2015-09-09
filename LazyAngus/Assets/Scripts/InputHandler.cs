@@ -59,7 +59,8 @@ public class InputHandler : MonoBehaviour {
 		}
 
 		worldPoint = worldCamera.ScreenToWorldPoint (clickPosition);
-		Collider2D collider = Physics2D.OverlapPoint (worldPoint, Layers.UserInteractionsLayerBitmask());
+		Collider2D collider = Physics2D.OverlapPoint (worldPoint, 
+		                                              Layers.UserInteractionsLayerBitmask());
 		if (collider) {
 			return collider;
 		}
