@@ -9,6 +9,7 @@ public class MusicFader : MonoBehaviour {
 	void Awake() {
 		audioSource = GetComponent<AudioSource> ();
 		transitioner = new InOutTransitioner (fadeTime);
+		transitioner.useRealTime = true;
 		transitioner.Reset (true);
 		audioSource.volume = 1.0f;
 	}

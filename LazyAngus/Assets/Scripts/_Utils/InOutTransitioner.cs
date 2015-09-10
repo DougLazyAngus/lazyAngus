@@ -19,6 +19,8 @@ class InOutTransitioner
 	public bool movingIn { get; private set;}
 	float fractionThruTransition;
 
+	public bool useRealTime = false;
+
 	public InOutTransitioner (float transitionDuration) {
 		this.duration = transitionDuration;
 		Reset (false);
@@ -30,8 +32,16 @@ class InOutTransitioner
 		fractionThruTransition = 1;
 	}
 
+	float GetTime() {
+		if (useRealTime) {
+			return Time.realtimeSinceStartup;
+		} else {
+			return Time.time;
+		}
+	}
+
 	public void UpdateTransitionFraction() {
-		float now = Time.time;
+		float now = GetTime ();
 		fractionThruTransition = (now - startTime) / duration;
 		fractionThruTransition = Mathf.Clamp (fractionThruTransition, 0, 1);
 	}
@@ -43,7 +53,7 @@ class InOutTransitioner
 		movingIn = moveIn;
 
 		fractionThruTransition = 1 - fractionThruTransition;
-		startTime = Time.time - fractionThruTransition * duration;
+		startTime = GetTime () - fractionThruTransition * duration;
 	}
 
 	public bool IsTransitioning() {
