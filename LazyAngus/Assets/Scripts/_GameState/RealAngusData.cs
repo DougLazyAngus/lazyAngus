@@ -68,70 +68,66 @@ public class RealAngusData : MonoBehaviour {
 
 		RealAngusItemDesc raid;
 
-		raid = new RealAngusItemDesc ("sleepy_face", 
-		                              "I got Angus in 2011 as a kitten. " + 
-		                              "He was already named \"Angus\" and the name stuck: he was absolutely an Angus.",
+		raid = new RealAngusItemDesc ("01_sleepy_face", 
+		                              LazyAngusStrings.REAL_ANGUS_FACT_01,
 		                              "intro");
 		realAngusItemDescs.Add (raid);
 		
-		raid = new RealAngusItemDesc ("with_curry_napping", 
-		                              "I had just gotten a female kitten, Curry, and she was a bit wild. " + 
-		                              "The vet suggested a boy cat would help her calm down.",
+		raid = new RealAngusItemDesc ("02_with_curry_napping", 
+		                              LazyAngusStrings.REAL_ANGUS_FACT_02,
 		                              "curry_taming");
 		realAngusItemDescs.Add (raid);
 		
-		raid = new RealAngusItemDesc ("kitten_hug", 
-		                              "Angus and Curry became great friends. " + 
-		                              "He would pounce on her occasionally, she usually deserved it.",
+		raid = new RealAngusItemDesc ("03_kitten_hug", 
+		                              LazyAngusStrings.REAL_ANGUS_FACT_03,
 		                              "kitten_hug");
 		realAngusItemDescs.Add (raid);
 		
-		raid = new RealAngusItemDesc ("belly", 
-		                              "He was the only cat I ever met who liked to have his belly rubbed. His massive, fuzzy white belly...", 
+		raid = new RealAngusItemDesc ("04_belly", 
+		                              LazyAngusStrings.REAL_ANGUS_FACT_04,
 		                              "belly");
 		realAngusItemDescs.Add (raid);
 
 
-		raid = new RealAngusItemDesc ("fridge", 
-		                              "He was a glutton. " + 
-		                              "If I didn't hold him down at feeding time he'd stick his face and paws into the bag of catfood.", 
+		raid = new RealAngusItemDesc ("05_fridge", 
+		                              LazyAngusStrings.REAL_ANGUS_FACT_05,
 		                              "glutton");
 		realAngusItemDescs.Add (raid);
 
-		raid = new RealAngusItemDesc ("belly", 
-		                              "The quick brown fox jumps over the lazy dog.",
-		                              "dummy1");
+		raid = new RealAngusItemDesc ("06_dignity", 
+		                              LazyAngusStrings.REAL_ANGUS_FACT_06,
+		                              "dignity");
 		realAngusItemDescs.Add (raid);
 		
-		raid = new RealAngusItemDesc ("belly", 
-		                              "The quick brown fox jumps over the lazy dog.",
-		                              "dummy2");
+		raid = new RealAngusItemDesc ("07_grooming", 
+		                              LazyAngusStrings.REAL_ANGUS_FACT_07,
+		                              "07_grooming");
 		realAngusItemDescs.Add (raid);
 		
-		raid = new RealAngusItemDesc ("belly", 
-		                              "The quick brown fox jumps over the lazy dog.",
-		                              "dummy3");
+		raid = new RealAngusItemDesc ("08_hedgehog", 
+		                              LazyAngusStrings.REAL_ANGUS_FACT_08,
+		                              "08_hedgehog");
 		realAngusItemDescs.Add (raid);
 
 		
-		raid = new RealAngusItemDesc ("belly", 
-		                              "The quick brown fox jumps over the lazy dog.",
-		                              "dummy4");
+		raid = new RealAngusItemDesc ("09_puddle", 
+		                              LazyAngusStrings.REAL_ANGUS_FACT_09,
+		                              "09_puddle");
 		realAngusItemDescs.Add (raid);
 		
-		raid = new RealAngusItemDesc ("belly", 
-		                              "The quick brown fox jumps over the lazy dog.",
-		                              "dummy5");
+		raid = new RealAngusItemDesc ("10_tower", 
+		                              LazyAngusStrings.REAL_ANGUS_FACT_10,
+		                              "10_tower");
 		realAngusItemDescs.Add (raid);
 		
-		raid = new RealAngusItemDesc ("belly", 
-		                              "The quick brown fox jumps over the lazy dog.",
-		                              "dummy6");
+		raid = new RealAngusItemDesc ("11_cuddly", 
+		                              LazyAngusStrings.REAL_ANGUS_FACT_11,
+		                              "11_cuddly");
 		realAngusItemDescs.Add (raid);
 		
 
-		raid = new RealAngusItemDesc ("red_bed", 
-		                              "He died on October 24 of 2014, just 3 years old. A sad time for me and his many fans and admirers. Sleep well, buddy. I miss you.",
+		raid = new RealAngusItemDesc ("12_red_bed", 
+		                              LazyAngusStrings.REAL_ANGUS_FACT_12,
 		                              "final_shot");
 		realAngusItemDescs.Add (raid);
 	}

@@ -398,6 +398,8 @@ public class MouseMove : MonoBehaviour
 			startAngleDeg -= 45;
 		}
 
+		track = Mathf.Clamp (track, 0, TweakableParams.numTracks - 1);
+
 		float extraRadiusFraction = (float)track / (float)(TweakableParams.numTracks - 1);
 		float extraRadius = (MouseConfig.instance.maxCirclingRadius -
 			MouseConfig.instance.minCirclingRadius) * extraRadiusFraction;

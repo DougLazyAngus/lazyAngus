@@ -194,18 +194,34 @@ public class LevelConfig : MonoBehaviour
 
 		LevelDescription ld;
 
-		int gameLevel = 0;
-		while (true) {
-			gameLevel += 1;
-			ld = MakePresetGameLevelSkeleton (gameLevel);
+		int skeletonLevelCount = 40;
+		int [] realAngusLevels = {
+			1, 2, 4, 
+			7, 10, 13,
+			17, 21, 25,
+			29, 33, 37
+		};
+		
 
-			if (ld == null) {
-				break;
-			}
+		int gameLevel = 0;
+		for (gameLevel = 1; gameLevel <= skeletonLevelCount; gameLevel++) {
+			ld = MakePresetGameLevelSkeleton (gameLevel);
 
 			ld.gameLevel = gameLevel;
 			levelDescMap.Add (gameLevel, ld);
 		}
+
+		for (int i = 0; i < realAngusLevels.Length; i++) {
+			int levelIndex = realAngusLevels[i];
+			if (!levelDescMap.ContainsKey(levelIndex)) {
+				Debug.Log("\n\n\nNot enough levels!!!\n\n\n");
+				break;
+			}
+			ld = levelDescMap[levelIndex];
+			ld.realAngusAccumulator.AddNew ();
+		}
+
+
 
 		FillOutPresetGameLevelSkeletons ();
 
@@ -293,9 +309,9 @@ public class LevelConfig : MonoBehaviour
 		ld.explicitMouseDescs = new List<ExplicitMouseDesc> ();
 
 		// Better than switch b/c it's easier to re-arrange levels.
-		int glCounter = gameLevel;
+		switch (gameLevel) {
 
-		if (--glCounter == 0) {
+		case 1:
 			// Four slow mice, all same direction, long pauses.
 			ld.specialText = "";
 
@@ -321,14 +337,12 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.SLOW, 
 			                      2);	
 			return ld;
-		}
 
-		if (--glCounter == 0) {
+		case 2:
 			ld.specialText = "Get ready for faster mice!";
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType (
 				MouseConfig.MouseType.MEDIUM);
 			ld.mouseTypesAccumulator.AddNew ((int)MouseConfig.MouseType.MEDIUM);
-			ld.realAngusAccumulator.AddNew();
 
 			// Eight mice, two medium.
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseSinkController.MouseHoleLocation.WEST,
@@ -355,14 +369,12 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      2);	
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 3:
 			ld.specialText = "A new mousetrap!";
 			ld.sprite = newMouseTrapSprite;
 
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.NORTH);
-			ld.realAngusAccumulator.AddNew();
 
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
@@ -396,14 +408,13 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);	
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 4:
 			ld.specialText = LazyAngusStrings.INTRO_BOOST_FAST;
 			ld.sprite = BoostConfig.instance.GetIntroImageForType (
 				BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS);
 
-			ld.tipConfig = new TipConfig("explainBoosts", 
+			ld.tipConfig = new TipConfig ("explainBoosts", 
 			                             LazyAngusStrings.TIP_EXPLAIN_BOOSTS);
 			ld.tipPause = 1.7f;
 
@@ -433,14 +444,12 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);	
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 5:
 			ld.specialText = "Another mousetrap!";
 			ld.sprite = newMouseTrapSprite;
 			
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.SOUTH);
-			ld.realAngusAccumulator.AddNew();
 
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.MEDIUM, 
@@ -474,9 +483,8 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);	
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 6:
 			ld.specialText = "Here comes the fastest mouse yet!";
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType (
 				MouseConfig.MouseType.FAST);
@@ -523,15 +531,13 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);	
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 7:
 			ld.specialText = LazyAngusStrings.INTRO_BOOST_SEE;
 			ld.sprite = BoostConfig.instance.GetIntroImageForType (
 					BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES);
 
 			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES);
-			ld.realAngusAccumulator.AddNew();
 
 			// Eight mice, two medium.
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.EAST,
@@ -566,9 +572,8 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);	
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 8:
 			ld.specialText = "Whew, another trap!";
 			ld.sprite = newMouseTrapSprite;
 
@@ -614,9 +619,8 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.FAST, 
 			                      2);	
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 9:
 			ld.specialText = "Some mice have learned to dodge!";
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseWiggle (
 				MouseConfig.MouseWiggleType.BACK_FORTH);
@@ -668,17 +672,16 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
 
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 10:
 			ld.specialText = LazyAngusStrings.INTRO_BOOST_GIANT;
 			ld.sprite = BoostConfig.instance.GetIntroImageForType (
 				BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS);
 			
 			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseSinkController.MouseHoleLocation.EAST,
-			                      MouseConfig.MouseType.MEDIUM, 
+
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, true, MouseSinkController.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.SLOW, 
 			                      2, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
 			
@@ -686,9 +689,9 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      2);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.5f, false, MouseSinkController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.5f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.MEDIUM, 
-			                      3, 
+			                      0, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.5f, false, MouseSinkController.MouseHoleLocation.EAST,
@@ -696,8 +699,8 @@ public class LevelConfig : MonoBehaviour
 			                      1);
 			
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.8f, false, MouseSinkController.MouseHoleLocation.NORTH,
-			                      MouseConfig.MouseType.MEDIUM, 
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.8f, true, MouseSinkController.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.SLOW, 
 			                      2, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
 			
@@ -705,31 +708,42 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.4f, false, MouseSinkController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.4f, true, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MEDIUM, 
-			                      2, 
+			                      0, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
 			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.3f, true, MouseSinkController.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.FAST, 
+			                      2);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.3f, false, MouseSinkController.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.FAST, 
+			                      1);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.3f, true, MouseSinkController.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.FAST, 
+			                      0);
+			
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 11:
 			ld.specialText = "I could use another mousetrap...";
 			ld.sprite = newMouseTrapSprite;
 			
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.WEST);
 
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.4f, false, MouseSinkController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.4f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.6f, false, MouseSinkController.MouseHoleLocation.EAST,
-			                      MouseConfig.MouseType.SUPERFAST, 
+			                      MouseConfig.MouseType.FAST, 
 			                      1, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      2,
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
@@ -738,7 +752,7 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.FAST, 
 			                      2);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.4f, false, MouseSinkController.MouseHoleLocation.SOUTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.4f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      2);
 			
@@ -746,16 +760,16 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.SLOW, 
 			                      1); 
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.6f, false, MouseSinkController.MouseHoleLocation.NORTH,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.6f, true, MouseSinkController.MouseHoleLocation.NORTH,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      3, 
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, false, MouseSinkController.MouseHoleLocation.EAST,
-			                      MouseConfig.MouseType.SUPERFAST, 
+			                      MouseConfig.MouseType.MEDIUM, 
 			                      1);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.8f, false, MouseSinkController.MouseHoleLocation.EAST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.8f, true, MouseSinkController.MouseHoleLocation.EAST,
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1); 
 			
@@ -764,9 +778,8 @@ public class LevelConfig : MonoBehaviour
 			                      1); 
 			
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 12:
 			ld.specialText = "Watch out for the super speedster mouse!";
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType (
 				MouseConfig.MouseType.SUPERFAST);
@@ -830,18 +843,16 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseWiggleType.BACK_FORTH);	
 
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 13:
 			ld.specialText = LazyAngusStrings.INTRO_BOOST_FART;
 			ld.sprite = BoostConfig.instance.GetIntroImageForType (
 				BoostConfig.BoostType.BOOST_TYPE_FART);
 			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_FART);
 			
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 14:
 			ld.specialText = "This new mousetrap should help!";
 			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.WEST);
@@ -850,9 +861,8 @@ public class LevelConfig : MonoBehaviour
 			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.PARADE, 1);
 
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 15:
 			ld.specialText = "Mice are weaving side to side!";
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseWiggle (
 					MouseConfig.MouseWiggleType.SIDE_SIDE);
@@ -936,9 +946,8 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseWiggleType.SIDE_SIDE);	
 		
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 16:
 			ld.specialText = "Here comes trouble....";
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType (
 				MouseConfig.MouseType.SUPERFAST);
@@ -956,7 +965,7 @@ public class LevelConfig : MonoBehaviour
 			                      0);
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.1f, true, MouseSinkController.MouseHoleLocation.WEST,
-			                      MouseConfig.MouseType.MEDIUM, 
+			                      MouseConfig.MouseType.SLOW, 
 			                      1);		
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, true, MouseSinkController.MouseHoleLocation.NORTH,
@@ -972,7 +981,7 @@ public class LevelConfig : MonoBehaviour
 			                      1);
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.EAST,
-			                      MouseConfig.MouseType.MEDIUM, 
+			                      MouseConfig.MouseType.SLOW, 
 			                      2);	
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseSinkController.MouseHoleLocation.SOUTH,
@@ -992,12 +1001,11 @@ public class LevelConfig : MonoBehaviour
 			                      0);	
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.2f, true, MouseSinkController.MouseHoleLocation.EAST,
-			                      MouseConfig.MouseType.MEDIUM, 
+			                      MouseConfig.MouseType.SLOW, 
 			                      1);
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 17:
 			ld.specialText = "A new mousetrap!";
 			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.EAST);
@@ -1006,9 +1014,8 @@ public class LevelConfig : MonoBehaviour
 			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.SPOUT);
 
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 18:
 			ld.specialText = "Uh-oh! Some mice dodge AND weave!";
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseWiggle (
 					MouseConfig.MouseWiggleType.ROUND);
@@ -1071,108 +1078,58 @@ public class LevelConfig : MonoBehaviour
 			                      0,
 			                      MouseConfig.MouseWiggleType.ROUND);
 			return ld;
-		}
-
-		if (--glCounter == 0) {
-			return ld;
-		}
-
-		if (--glCounter == 0) {
+			
+		case 20:
 			ld.specialText = "Another mousetrap!";
 			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.SOUTH);
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 21:
 			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.SPOUT);
 			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.DISTRIBUTED);
 			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.PARADE);
 
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
-			return ld;
-		}
-
-		if (--glCounter == 0) {
+			
+		case 23:
 			ld.specialText = "Looks like another new mousetrap!";
 			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.NORTH);
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
-			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.PARADE);
-
-			return ld;
-		}
-		
-		if (--glCounter == 0) {
-			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 26:
 			ld.specialText = "One more trap won't hurt!";
 			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.NORTH);
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 27:
 			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.SPOUT);
 			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.DISTRIBUTED);
 			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.PARADE);
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
-			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 29:
 			ld.specialText = "This looks like a fine new mousetrap!";
 			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.WEST);
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
-			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.SPOUT);
-			return ld;
-		}
-		
-		if (--glCounter == 0) {
-			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 32:
 			ld.specialText = "New mousetrap?  Don't mind if I do!";
 			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.SOUTH);
 			return ld;
-		}
-		
-		if (--glCounter == 0) {
-			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.SPOUT);
-			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.DISTRIBUTED);
-			ld.waveTypesAccumulator.AddNew ((int)LevelDescription.WaveType.PARADE);
-			return ld;
-		}
-		
-		if (--glCounter == 0) {
-			return ld;
-		}
-		
-		if (--glCounter == 0) {
+			
+		case 35:
 			ld.specialText = "One last mousetrap! Better make it count!";
 			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.EAST);
 			return ld;
+		default:
+			return ld;
 		}
-	
-		return null;
 	}
 
 	LevelDescription GenerateRandomLevelDescription (int gameLevel)
