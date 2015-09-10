@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.Emit.PEFileKinds
-struct PEFileKinds_t5084;
+struct PEFileKinds_t5091;
 

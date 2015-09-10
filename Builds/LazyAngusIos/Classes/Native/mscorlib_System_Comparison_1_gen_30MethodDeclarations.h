@@ -4,12 +4,10 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Comparison`1<RealAngusItemDesc>
-struct Comparison_1_t6322;
+// System.Comparison`1<System.Single>
+struct Comparison_1_t6326;
 // System.Object
 struct Object_t;
-// RealAngusItemDesc
-struct RealAngusItemDesc_t650;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -17,13 +15,15 @@ struct AsyncCallback_t386;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
-// System.Void System.Comparison`1<RealAngusItemDesc>::.ctor(System.Object,System.IntPtr)
-// System.Comparison`1<System.Object>
-#include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
-#define Comparison_1__ctor_m32077(__this, ___object, ___method, method) (( void (*) (Comparison_1_t6322 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m26101_gshared)(__this, ___object, ___method, method)
-// System.Int32 System.Comparison`1<RealAngusItemDesc>::Invoke(T,T)
-#define Comparison_1_Invoke_m32078(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t6322 *, RealAngusItemDesc_t650 *, RealAngusItemDesc_t650 *, const MethodInfo*))Comparison_1_Invoke_m26102_gshared)(__this, ___x, ___y, method)
-// System.IAsyncResult System.Comparison`1<RealAngusItemDesc>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m32079(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t6322 *, RealAngusItemDesc_t650 *, RealAngusItemDesc_t650 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m26103_gshared)(__this, ___x, ___y, ___callback, ___object, method)
-// System.Int32 System.Comparison`1<RealAngusItemDesc>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m32080(__this, ___result, method) (( int32_t (*) (Comparison_1_t6322 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m26104_gshared)(__this, ___result, method)
+// System.Void System.Comparison`1<System.Single>::.ctor(System.Object,System.IntPtr)
+extern "C" void Comparison_1__ctor_m32102_gshared (Comparison_1_t6326 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Comparison_1__ctor_m32102(__this, ___object, ___method, method) (( void (*) (Comparison_1_t6326 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m32102_gshared)(__this, ___object, ___method, method)
+// System.Int32 System.Comparison`1<System.Single>::Invoke(T,T)
+extern "C" int32_t Comparison_1_Invoke_m32103_gshared (Comparison_1_t6326 * __this, float ___x, float ___y, const MethodInfo* method);
+#define Comparison_1_Invoke_m32103(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t6326 *, float, float, const MethodInfo*))Comparison_1_Invoke_m32103_gshared)(__this, ___x, ___y, method)
+// System.IAsyncResult System.Comparison`1<System.Single>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
+extern "C" Object_t * Comparison_1_BeginInvoke_m32104_gshared (Comparison_1_t6326 * __this, float ___x, float ___y, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Comparison_1_BeginInvoke_m32104(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t6326 *, float, float, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m32104_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+// System.Int32 System.Comparison`1<System.Single>::EndInvoke(System.IAsyncResult)
+extern "C" int32_t Comparison_1_EndInvoke_m32105_gshared (Comparison_1_t6326 * __this, Object_t * ___result, const MethodInfo* method);
+#define Comparison_1_EndInvoke_m32105(__this, ___result, method) (( int32_t (*) (Comparison_1_t6326 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m32105_gshared)(__this, ___result, method)

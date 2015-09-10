@@ -3,6 +3,6 @@
 // System.ComponentModel.TypeConverter
 #include "System_System_ComponentModel_TypeConverter.h"
 // System.ComponentModel.CollectionConverter
-struct  CollectionConverter_t4225  : public TypeConverter_t3331
+struct  CollectionConverter_t4232  : public TypeConverter_t3338
 {
 };

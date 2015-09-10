@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<RealAngusElementButton>
-struct List_1_t644;
-// RealAngusElementButton
-struct RealAngusElementButton_t643;
+// System.Collections.Generic.List`1<MouseSinkController/MouseHoleLocation>
+struct List_1_t826;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<RealAngusElementButton>
-struct  Enumerator_t6327 
+// MouseSinkController/MouseHoleLocation
+#include "AssemblyU2DCSharp_MouseSinkController_MouseHoleLocation.h"
+// System.Collections.Generic.List`1/Enumerator<MouseSinkController/MouseHoleLocation>
+struct  Enumerator_t6336 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<RealAngusElementButton>::l
-	List_1_t644 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<RealAngusElementButton>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<MouseSinkController/MouseHoleLocation>::l
+	List_1_t826 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<MouseSinkController/MouseHoleLocation>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<RealAngusElementButton>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<MouseSinkController/MouseHoleLocation>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<RealAngusElementButton>::current
-	RealAngusElementButton_t643 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<MouseSinkController/MouseHoleLocation>::current
+	int32_t ___current_3;
 };

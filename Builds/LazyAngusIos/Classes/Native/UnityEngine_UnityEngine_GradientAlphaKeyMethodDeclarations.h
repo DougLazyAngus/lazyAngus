@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.GradientAlphaKey
-struct GradientAlphaKey_t2728;
+struct GradientAlphaKey_t2735;
 
 // System.Void UnityEngine.GradientAlphaKey::.ctor(System.Single,System.Single)
-extern "C" void GradientAlphaKey__ctor_m8981 (GradientAlphaKey_t2728 * __this, float ___alpha, float ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GradientAlphaKey__ctor_m9039 (GradientAlphaKey_t2735 * __this, float ___alpha, float ___time, const MethodInfo* method) IL2CPP_METHOD_ATTR;

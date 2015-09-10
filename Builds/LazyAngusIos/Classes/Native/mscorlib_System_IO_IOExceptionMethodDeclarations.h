@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.IOException
-struct IOException_t3287;
+struct IOException_t3294;
 // System.String
 struct String_t;
 // System.Exception
 struct Exception_t57;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2940;
+struct SerializationInfo_t2947;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.IO.IOException::.ctor()
-extern "C" void IOException__ctor_m21545 (IOException_t3287 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IOException__ctor_m21602 (IOException_t3294 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.IOException::.ctor(System.String)
-extern "C" void IOException__ctor_m18100 (IOException_t3287 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IOException__ctor_m18157 (IOException_t3294 * __this, String_t* ___message, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.IOException::.ctor(System.String,System.Exception)
-extern "C" void IOException__ctor_m11569 (IOException_t3287 * __this, String_t* ___message, Exception_t57 * ___innerException, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IOException__ctor_m11626 (IOException_t3294 * __this, String_t* ___message, Exception_t57 * ___innerException, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.IOException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void IOException__ctor_m21546 (IOException_t3287 * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IOException__ctor_m21603 (IOException_t3294 * __this, SerializationInfo_t2947 * ___info, StreamingContext_t2948  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.IO.IOException::.ctor(System.String,System.Int32)
-extern "C" void IOException__ctor_m21547 (IOException_t3287 * __this, String_t* ___message, int32_t ___hresult, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void IOException__ctor_m21604 (IOException_t3294 * __this, String_t* ___message, int32_t ___hresult, const MethodInfo* method) IL2CPP_METHOD_ATTR;

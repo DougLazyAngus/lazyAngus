@@ -5,9 +5,9 @@ struct Type_t;
 // System.String
 struct String_t;
 // System.Xml.Serialization.TypeData
-struct TypeData_t3708;
+struct TypeData_t3715;
 // System.Xml.Schema.XmlSchemaPatternFacet
-struct XmlSchemaPatternFacet_t3682;
+struct XmlSchemaPatternFacet_t3689;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Object
@@ -15,7 +15,7 @@ struct StringU5BU5D_t75;
 // System.Xml.Serialization.SchemaTypes
 #include "System_Xml_System_Xml_Serialization_SchemaTypes.h"
 // System.Xml.Serialization.TypeData
-struct  TypeData_t3708  : public Object_t
+struct  TypeData_t3715  : public Object_t
 {
 	// System.Type System.Xml.Serialization.TypeData::type
 	Type_t * ___type_0;
@@ -30,17 +30,17 @@ struct  TypeData_t3708  : public Object_t
 	// System.String System.Xml.Serialization.TypeData::fullTypeName
 	String_t* ___fullTypeName_5;
 	// System.Xml.Serialization.TypeData System.Xml.Serialization.TypeData::listItemTypeData
-	TypeData_t3708 * ___listItemTypeData_6;
+	TypeData_t3715 * ___listItemTypeData_6;
 	// System.Xml.Serialization.TypeData System.Xml.Serialization.TypeData::mappedType
-	TypeData_t3708 * ___mappedType_7;
+	TypeData_t3715 * ___mappedType_7;
 	// System.Xml.Schema.XmlSchemaPatternFacet System.Xml.Serialization.TypeData::facet
-	XmlSchemaPatternFacet_t3682 * ___facet_8;
+	XmlSchemaPatternFacet_t3689 * ___facet_8;
 	// System.Boolean System.Xml.Serialization.TypeData::hasPublicConstructor
 	bool ___hasPublicConstructor_9;
 	// System.Boolean System.Xml.Serialization.TypeData::nullableOverride
 	bool ___nullableOverride_10;
 };
-struct TypeData_t3708_StaticFields{
+struct TypeData_t3715_StaticFields{
 	// System.String[] System.Xml.Serialization.TypeData::keywords
 	StringU5BU5D_t75* ___keywords_11;
 };

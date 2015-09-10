@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Hosting.ActivationArguments
-struct  ActivationArguments_t4844  : public Object_t
+struct  ActivationArguments_t4851  : public Object_t
 {
 };

@@ -5,19 +5,19 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.RijndaelManagedTransform
-struct RijndaelManagedTransform_t5272;
+struct RijndaelManagedTransform_t5279;
 // System.Security.Cryptography.Rijndael
-struct Rijndael_t3278;
+struct Rijndael_t3285;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 
 // System.Void System.Security.Cryptography.RijndaelManagedTransform::.ctor(System.Security.Cryptography.Rijndael,System.Boolean,System.Byte[],System.Byte[])
-extern "C" void RijndaelManagedTransform__ctor_m23445 (RijndaelManagedTransform_t5272 * __this, Rijndael_t3278 * ___algo, bool ___encryption, ByteU5BU5D_t66* ___key, ByteU5BU5D_t66* ___iv, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelManagedTransform__ctor_m23502 (RijndaelManagedTransform_t5279 * __this, Rijndael_t3285 * ___algo, bool ___encryption, ByteU5BU5D_t66* ___key, ByteU5BU5D_t66* ___iv, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RijndaelManagedTransform::System.IDisposable.Dispose()
-extern "C" void RijndaelManagedTransform_System_IDisposable_Dispose_m23446 (RijndaelManagedTransform_t5272 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RijndaelManagedTransform_System_IDisposable_Dispose_m23503 (RijndaelManagedTransform_t5279 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.RijndaelManagedTransform::get_CanReuseTransform()
-extern "C" bool RijndaelManagedTransform_get_CanReuseTransform_m23447 (RijndaelManagedTransform_t5272 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool RijndaelManagedTransform_get_CanReuseTransform_m23504 (RijndaelManagedTransform_t5279 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.RijndaelManagedTransform::TransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32)
-extern "C" int32_t RijndaelManagedTransform_TransformBlock_m23448 (RijndaelManagedTransform_t5272 * __this, ByteU5BU5D_t66* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, ByteU5BU5D_t66* ___outputBuffer, int32_t ___outputOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t RijndaelManagedTransform_TransformBlock_m23505 (RijndaelManagedTransform_t5279 * __this, ByteU5BU5D_t66* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, ByteU5BU5D_t66* ___outputBuffer, int32_t ___outputOffset, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] System.Security.Cryptography.RijndaelManagedTransform::TransformFinalBlock(System.Byte[],System.Int32,System.Int32)
-extern "C" ByteU5BU5D_t66* RijndaelManagedTransform_TransformFinalBlock_m23449 (RijndaelManagedTransform_t5272 * __this, ByteU5BU5D_t66* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* RijndaelManagedTransform_TransformFinalBlock_m23506 (RijndaelManagedTransform_t5279 * __this, ByteU5BU5D_t66* ___inputBuffer, int32_t ___inputOffset, int32_t ___inputCount, const MethodInfo* method) IL2CPP_METHOD_ATTR;

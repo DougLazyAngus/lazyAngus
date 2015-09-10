@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<Parse.ParseGeoPoint>
-struct IList_1_t7428;
+struct IList_1_t7435;
 // System.Func`2<Parse.ParseGeoPoint,System.Object>
-struct Func_2_t7429;
+struct Func_2_t7436;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.FlexibleListWrapper`2<System.Object,Parse.ParseGeoPoint>
-struct  FlexibleListWrapper_2_t1757  : public Object_t
+struct  FlexibleListWrapper_2_t1764  : public Object_t
 {
 	// System.Collections.Generic.IList`1<TIn> Parse.Internal.FlexibleListWrapper`2<System.Object,Parse.ParseGeoPoint>::toWrap
 	Object_t* ___toWrap_0;
 };
-struct FlexibleListWrapper_2_t1757_StaticFields{
+struct FlexibleListWrapper_2_t1764_StaticFields{
 	// System.Func`2<TIn,TOut> Parse.Internal.FlexibleListWrapper`2<System.Object,Parse.ParseGeoPoint>::CS$<>9__CachedAnonymousMethodDelegate1
-	Func_2_t7429 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_1;
+	Func_2_t7436 * ___CSU24U3CU3E9__CachedAnonymousMethodDelegate1_1;
 };

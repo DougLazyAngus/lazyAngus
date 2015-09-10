@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// RealAngusElementButton
-struct RealAngusElementButton_t643;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
 struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
+// MouseSinkController/MouseHoleLocation
+#include "AssemblyU2DCSharp_MouseSinkController_MouseHoleLocation.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<RealAngusElementButton>
-struct  Predicate_1_t6326  : public MulticastDelegate_t388
+// System.Predicate`1<MouseSinkController/MouseHoleLocation>
+struct  Predicate_1_t6335  : public MulticastDelegate_t388
 {
 };

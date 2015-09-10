@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Runtime.Remoting.Activation.IActivator
-struct IActivator_t5133;
+struct IActivator_t5140;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Activation.ActivationServices
-struct  ActivationServices_t5134  : public Object_t
+struct  ActivationServices_t5141  : public Object_t
 {
 };
-struct ActivationServices_t5134_StaticFields{
+struct ActivationServices_t5141_StaticFields{
 	// System.Runtime.Remoting.Activation.IActivator System.Runtime.Remoting.Activation.ActivationServices::_constructionActivator
 	Object_t * ____constructionActivator_0;
 };

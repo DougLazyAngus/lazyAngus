@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // LaunchCountController
-struct  LaunchCountController_t579  : public MonoBehaviour_t13
+struct  LaunchCountController_t625  : public MonoBehaviour_t13
 {
 };

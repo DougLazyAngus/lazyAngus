@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.IList`1<MouseSinkController/MouseHoleLocation>
-struct IList_1_t6300;
+// System.Collections.Generic.IList`1<MouseTrap>
+struct IList_1_t6302;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.ObjectModel.ReadOnlyCollection`1<MouseSinkController/MouseHoleLocation>
-struct  ReadOnlyCollection_1_t6301  : public Object_t
+// System.Collections.ObjectModel.ReadOnlyCollection`1<MouseTrap>
+struct  ReadOnlyCollection_1_t6303  : public Object_t
 {
-	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<MouseSinkController/MouseHoleLocation>::list
+	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<MouseTrap>::list
 	Object_t* ___list_0;
 };

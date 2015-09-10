@@ -5,10 +5,10 @@ struct ByteU5BU5D_t66;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.X509.X501
-struct  X501_t3152  : public Object_t
+struct  X501_t3159  : public Object_t
 {
 };
-struct X501_t3152_StaticFields{
+struct X501_t3159_StaticFields{
 	// System.Byte[] Mono.Security.X509.X501::countryName
 	ByteU5BU5D_t66* ___countryName_0;
 	// System.Byte[] Mono.Security.X509.X501::organizationName

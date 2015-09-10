@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Configuration.ConfigurationElementCollectionType
-struct ConfigurationElementCollectionType_t3321;
+struct ConfigurationElementCollectionType_t3328;
 

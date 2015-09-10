@@ -5,37 +5,37 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Policy.AllMembershipCondition
-struct AllMembershipCondition_t5325;
+struct AllMembershipCondition_t5332;
 // System.Security.Policy.Evidence
-struct Evidence_t4836;
+struct Evidence_t4843;
 // System.Security.Policy.IMembershipCondition
-struct IMembershipCondition_t5329;
+struct IMembershipCondition_t5336;
 // System.Object
 struct Object_t;
 // System.Security.SecurityElement
-struct SecurityElement_t4831;
+struct SecurityElement_t4838;
 // System.Security.Policy.PolicyLevel
-struct PolicyLevel_t5235;
+struct PolicyLevel_t5242;
 // System.String
 struct String_t;
 
 // System.Void System.Security.Policy.AllMembershipCondition::.ctor()
-extern "C" void AllMembershipCondition__ctor_m23847 (AllMembershipCondition_t5325 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AllMembershipCondition__ctor_m23904 (AllMembershipCondition_t5332 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Policy.AllMembershipCondition::Check(System.Security.Policy.Evidence)
-extern "C" bool AllMembershipCondition_Check_m23848 (AllMembershipCondition_t5325 * __this, Evidence_t4836 * ___evidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool AllMembershipCondition_Check_m23905 (AllMembershipCondition_t5332 * __this, Evidence_t4843 * ___evidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Policy.IMembershipCondition System.Security.Policy.AllMembershipCondition::Copy()
-extern "C" Object_t * AllMembershipCondition_Copy_m23849 (AllMembershipCondition_t5325 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * AllMembershipCondition_Copy_m23906 (AllMembershipCondition_t5332 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Policy.AllMembershipCondition::Equals(System.Object)
-extern "C" bool AllMembershipCondition_Equals_m23850 (AllMembershipCondition_t5325 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool AllMembershipCondition_Equals_m23907 (AllMembershipCondition_t5332 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Policy.AllMembershipCondition::FromXml(System.Security.SecurityElement)
-extern "C" void AllMembershipCondition_FromXml_m23851 (AllMembershipCondition_t5325 * __this, SecurityElement_t4831 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AllMembershipCondition_FromXml_m23908 (AllMembershipCondition_t5332 * __this, SecurityElement_t4838 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Policy.AllMembershipCondition::FromXml(System.Security.SecurityElement,System.Security.Policy.PolicyLevel)
-extern "C" void AllMembershipCondition_FromXml_m23852 (AllMembershipCondition_t5325 * __this, SecurityElement_t4831 * ___e, PolicyLevel_t5235 * ___level, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AllMembershipCondition_FromXml_m23909 (AllMembershipCondition_t5332 * __this, SecurityElement_t4838 * ___e, PolicyLevel_t5242 * ___level, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Policy.AllMembershipCondition::GetHashCode()
-extern "C" int32_t AllMembershipCondition_GetHashCode_m23853 (AllMembershipCondition_t5325 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t AllMembershipCondition_GetHashCode_m23910 (AllMembershipCondition_t5332 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.Policy.AllMembershipCondition::ToString()
-extern "C" String_t* AllMembershipCondition_ToString_m23854 (AllMembershipCondition_t5325 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* AllMembershipCondition_ToString_m23911 (AllMembershipCondition_t5332 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.SecurityElement System.Security.Policy.AllMembershipCondition::ToXml()
-extern "C" SecurityElement_t4831 * AllMembershipCondition_ToXml_m23855 (AllMembershipCondition_t5325 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SecurityElement_t4838 * AllMembershipCondition_ToXml_m23912 (AllMembershipCondition_t5332 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.SecurityElement System.Security.Policy.AllMembershipCondition::ToXml(System.Security.Policy.PolicyLevel)
-extern "C" SecurityElement_t4831 * AllMembershipCondition_ToXml_m23856 (AllMembershipCondition_t5325 * __this, PolicyLevel_t5235 * ___level, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SecurityElement_t4838 * AllMembershipCondition_ToXml_m23913 (AllMembershipCondition_t5332 * __this, PolicyLevel_t5242 * ___level, const MethodInfo* method) IL2CPP_METHOD_ATTR;

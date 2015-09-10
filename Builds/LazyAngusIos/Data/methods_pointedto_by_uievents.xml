@@ -1,5 +1,11 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="RealAngusElementButton">
+			<method name="ViewImage"/>
+		</type>
+		<type fullname="BuyAndUseBoost">
+			<method name="BuyAndUse"/>
+		</type>
 		<type fullname="PlayButtonClickSound">
 			<method name="Play"/>
 			<method name="Play"/>
@@ -19,19 +25,15 @@
 			<method name="Play"/>
 			<method name="Play"/>
 			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+		</type>
+		<type fullname="TipDialog">
+			<method name="CloseDialog"/>
 		</type>
 		<type fullname="RateMeDialog">
 			<method name="RateThis"/>
 			<method name="RemindMeLater"/>
-		</type>
-		<type fullname="RealAngusElementButton">
-			<method name="ViewImage"/>
-		</type>
-		<type fullname="BuyAndUseBoost">
-			<method name="BuyAndUse"/>
-		</type>
-		<type fullname="TipDialog">
-			<method name="CloseDialog"/>
 		</type>
 		<type fullname="PlayLevelHandler">
 			<method name="Play"/>
@@ -46,24 +48,24 @@
 			<method name="ShareOnTwitter"/>
 			<method name="ShareInShareWidget"/>
 		</type>
-		<type fullname="SecretUI">
-			<method name="ToggleVisibility"/>
-			<method name="ResetPreferences"/>
-			<method name="DebugShowSharing"/>
-			<method name="ResetPreferences"/>
-			<method name="ToggleVisibility"/>
-		</type>
 		<type fullname="RestartGameHandler">
 			<method name="RestartGame"/>
 			<method name="RestartGame"/>
+		</type>
+		<type fullname="RealAngusButton">
+			<method name="ShowRealAngusPage"/>
+			<method name="ShowRealAngusPage"/>
 		</type>
 		<type fullname="SoundController">
 			<method name="ToggleSoundsMuted"/>
 			<method name="ToggleMusicMuted"/>
 		</type>
-		<type fullname="RealAngusButton">
-			<method name="ShowRealAngusPage"/>
-			<method name="ShowRealAngusPage"/>
+		<type fullname="SecretUI">
+			<method name="ResetPreferences"/>
+			<method name="DebugShowSharing"/>
+			<method name="ResetPreferences"/>
+			<method name="ToggleVisibility"/>
+			<method name="ToggleVisibility"/>
 		</type>
 		<type fullname="PausePlayToggle">
 			<method name="TogglePausePlay"/>

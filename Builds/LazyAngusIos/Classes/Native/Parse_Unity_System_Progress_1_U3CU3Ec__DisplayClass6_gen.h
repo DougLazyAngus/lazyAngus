@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Progress`1<System.Object>
-struct Progress_1_t6551;
+struct Progress_1_t6558;
 // System.Action`1<System.Object>
-struct Action_1_t3801;
+struct Action_1_t3808;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Progress`1/<>c__DisplayClass6<System.Object>
-struct  U3CU3Ec__DisplayClass6_t6574  : public Object_t
+struct  U3CU3Ec__DisplayClass6_t6581  : public Object_t
 {
 	// System.Progress`1<T> System.Progress`1/<>c__DisplayClass6<System.Object>::<>4__this
-	Progress_1_t6551 * ___U3CU3E4__this_0;
+	Progress_1_t6558 * ___U3CU3E4__this_0;
 	// System.Action`1<T> System.Progress`1/<>c__DisplayClass6<System.Object>::handler
-	Action_1_t3801 * ___handler_1;
+	Action_1_t3808 * ___handler_1;
 };

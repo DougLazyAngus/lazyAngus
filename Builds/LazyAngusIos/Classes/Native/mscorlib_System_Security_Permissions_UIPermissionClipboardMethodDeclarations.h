@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Permissions.UIPermissionClipboard
-struct UIPermissionClipboard_t5321;
+struct UIPermissionClipboard_t5328;
 

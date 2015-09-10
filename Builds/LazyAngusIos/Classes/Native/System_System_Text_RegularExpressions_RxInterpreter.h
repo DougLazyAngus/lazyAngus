@@ -7,17 +7,17 @@ struct String_t;
 // System.Int32[]
 struct Int32U5BU5D_t484;
 // System.Text.RegularExpressions.EvalDelegate
-struct EvalDelegate_t4514;
+struct EvalDelegate_t4521;
 // System.Text.RegularExpressions.Mark[]
-struct MarkU5BU5D_t4499;
+struct MarkU5BU5D_t4506;
 // System.Text.RegularExpressions.RxInterpreter/RepeatContext
-struct RepeatContext_t4513;
+struct RepeatContext_t4520;
 // System.Text.RegularExpressions.BaseMachine
 #include "System_System_Text_RegularExpressions_BaseMachine.h"
 // System.Text.RegularExpressions.RxInterpreter/IntStack
 #include "System_System_Text_RegularExpressions_RxInterpreter_IntStack.h"
 // System.Text.RegularExpressions.RxInterpreter
-struct  RxInterpreter_t4515  : public BaseMachine_t4471
+struct  RxInterpreter_t4522  : public BaseMachine_t4478
 {
 	// System.Byte[] System.Text.RegularExpressions.RxInterpreter::program
 	ByteU5BU5D_t66* ___program_1;
@@ -32,21 +32,21 @@ struct  RxInterpreter_t4515  : public BaseMachine_t4471
 	// System.Int32[] System.Text.RegularExpressions.RxInterpreter::groups
 	Int32U5BU5D_t484* ___groups_6;
 	// System.Text.RegularExpressions.EvalDelegate System.Text.RegularExpressions.RxInterpreter::eval_del
-	EvalDelegate_t4514 * ___eval_del_7;
+	EvalDelegate_t4521 * ___eval_del_7;
 	// System.Text.RegularExpressions.Mark[] System.Text.RegularExpressions.RxInterpreter::marks
-	MarkU5BU5D_t4499* ___marks_8;
+	MarkU5BU5D_t4506* ___marks_8;
 	// System.Int32 System.Text.RegularExpressions.RxInterpreter::mark_start
 	int32_t ___mark_start_9;
 	// System.Int32 System.Text.RegularExpressions.RxInterpreter::mark_end
 	int32_t ___mark_end_10;
 	// System.Text.RegularExpressions.RxInterpreter/IntStack System.Text.RegularExpressions.RxInterpreter::stack
-	IntStack_t4512  ___stack_11;
+	IntStack_t4519  ___stack_11;
 	// System.Text.RegularExpressions.RxInterpreter/RepeatContext System.Text.RegularExpressions.RxInterpreter::repeat
-	RepeatContext_t4513 * ___repeat_12;
+	RepeatContext_t4520 * ___repeat_12;
 	// System.Text.RegularExpressions.RxInterpreter/RepeatContext System.Text.RegularExpressions.RxInterpreter::deep
-	RepeatContext_t4513 * ___deep_13;
+	RepeatContext_t4520 * ___deep_13;
 };
-struct RxInterpreter_t4515_StaticFields{
+struct RxInterpreter_t4522_StaticFields{
 	// System.Boolean System.Text.RegularExpressions.RxInterpreter::trace_rx
 	bool ___trace_rx_14;
 };

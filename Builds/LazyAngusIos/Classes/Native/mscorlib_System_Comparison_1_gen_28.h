@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
+// MouseTrap
+struct MouseTrap_t551;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
 struct AsyncCallback_t386;
 // System.Object
 struct Object_t;
-// MouseSinkController/MouseHoleLocation
-#include "AssemblyU2DCSharp_MouseSinkController_MouseHoleLocation.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<MouseSinkController/MouseHoleLocation>
-struct  Comparison_1_t6304  : public MulticastDelegate_t388
+// System.Comparison`1<MouseTrap>
+struct  Comparison_1_t6306  : public MulticastDelegate_t388
 {
 };

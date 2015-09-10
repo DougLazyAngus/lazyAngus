@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ArrayList
-struct ArrayList_t716;
+struct ArrayList_t723;
 // System.Collections.Queue
-struct Queue_t4414;
+struct Queue_t4421;
 // System.Runtime.Remoting.Lifetime.Lease/RenewalDelegate
-struct RenewalDelegate_t5150;
+struct RenewalDelegate_t5157;
 // System.MarshalByRefObject
 #include "mscorlib_System_MarshalByRefObject.h"
 // System.DateTime
@@ -15,7 +15,7 @@ struct RenewalDelegate_t5150;
 // System.TimeSpan
 #include "mscorlib_System_TimeSpan.h"
 // System.Runtime.Remoting.Lifetime.Lease
-struct  Lease_t5127  : public MarshalByRefObject_t4292
+struct  Lease_t5134  : public MarshalByRefObject_t4299
 {
 	// System.DateTime System.Runtime.Remoting.Lifetime.Lease::_leaseExpireTime
 	DateTime_t287  ____leaseExpireTime_1;
@@ -28,9 +28,9 @@ struct  Lease_t5127  : public MarshalByRefObject_t4292
 	// System.TimeSpan System.Runtime.Remoting.Lifetime.Lease::_sponsorshipTimeout
 	TimeSpan_t334  ____sponsorshipTimeout_5;
 	// System.Collections.ArrayList System.Runtime.Remoting.Lifetime.Lease::_sponsors
-	ArrayList_t716 * ____sponsors_6;
+	ArrayList_t723 * ____sponsors_6;
 	// System.Collections.Queue System.Runtime.Remoting.Lifetime.Lease::_renewingSponsors
-	Queue_t4414 * ____renewingSponsors_7;
+	Queue_t4421 * ____renewingSponsors_7;
 	// System.Runtime.Remoting.Lifetime.Lease/RenewalDelegate System.Runtime.Remoting.Lifetime.Lease::_renewalDelegate
-	RenewalDelegate_t5150 * ____renewalDelegate_8;
+	RenewalDelegate_t5157 * ____renewalDelegate_8;
 };

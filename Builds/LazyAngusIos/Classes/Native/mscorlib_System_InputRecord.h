@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.InputRecord
-struct  InputRecord_t4933 
+struct  InputRecord_t4940 
 {
 	// System.Int16 System.InputRecord::EventType
 	int16_t ___EventType_0;
@@ -25,7 +25,7 @@ struct  InputRecord_t4933
 	bool ___pad2_8;
 };
 // Native definition for marshalling of: System.InputRecord
-struct InputRecord_t4933_marshaled
+struct InputRecord_t4940_marshaled
 {
 	int16_t ___EventType_0;
 	int32_t ___KeyDown_1;

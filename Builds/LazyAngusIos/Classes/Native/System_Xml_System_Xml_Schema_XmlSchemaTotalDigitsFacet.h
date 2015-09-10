@@ -3,6 +3,6 @@
 // System.Xml.Schema.XmlSchemaNumericFacet
 #include "System_Xml_System_Xml_Schema_XmlSchemaNumericFacet.h"
 // System.Xml.Schema.XmlSchemaTotalDigitsFacet
-struct  XmlSchemaTotalDigitsFacet_t3694  : public XmlSchemaNumericFacet_t3660
+struct  XmlSchemaTotalDigitsFacet_t3701  : public XmlSchemaNumericFacet_t3667
 {
 };

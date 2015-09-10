@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<System.Object>
-struct ResponseDelegate_1_t2953;
+struct ResponseDelegate_1_t2960;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,14 +16,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<System.Object>::.ctor(System.Object,System.IntPtr)
-extern "C" void ResponseDelegate_1__ctor_m66460_gshared (ResponseDelegate_1_t2953 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define ResponseDelegate_1__ctor_m66460(__this, ___object, ___method, method) (( void (*) (ResponseDelegate_1_t2953 *, Object_t *, IntPtr_t, const MethodInfo*))ResponseDelegate_1__ctor_m66460_gshared)(__this, ___object, ___method, method)
+extern "C" void ResponseDelegate_1__ctor_m66517_gshared (ResponseDelegate_1_t2960 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define ResponseDelegate_1__ctor_m66517(__this, ___object, ___method, method) (( void (*) (ResponseDelegate_1_t2960 *, Object_t *, IntPtr_t, const MethodInfo*))ResponseDelegate_1__ctor_m66517_gshared)(__this, ___object, ___method, method)
 // System.Void UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<System.Object>::Invoke(T)
-extern "C" void ResponseDelegate_1_Invoke_m66462_gshared (ResponseDelegate_1_t2953 * __this, Object_t * ___response, const MethodInfo* method);
-#define ResponseDelegate_1_Invoke_m66462(__this, ___response, method) (( void (*) (ResponseDelegate_1_t2953 *, Object_t *, const MethodInfo*))ResponseDelegate_1_Invoke_m66462_gshared)(__this, ___response, method)
+extern "C" void ResponseDelegate_1_Invoke_m66519_gshared (ResponseDelegate_1_t2960 * __this, Object_t * ___response, const MethodInfo* method);
+#define ResponseDelegate_1_Invoke_m66519(__this, ___response, method) (( void (*) (ResponseDelegate_1_t2960 *, Object_t *, const MethodInfo*))ResponseDelegate_1_Invoke_m66519_gshared)(__this, ___response, method)
 // System.IAsyncResult UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<System.Object>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * ResponseDelegate_1_BeginInvoke_m66464_gshared (ResponseDelegate_1_t2953 * __this, Object_t * ___response, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define ResponseDelegate_1_BeginInvoke_m66464(__this, ___response, ___callback, ___object, method) (( Object_t * (*) (ResponseDelegate_1_t2953 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))ResponseDelegate_1_BeginInvoke_m66464_gshared)(__this, ___response, ___callback, ___object, method)
+extern "C" Object_t * ResponseDelegate_1_BeginInvoke_m66521_gshared (ResponseDelegate_1_t2960 * __this, Object_t * ___response, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define ResponseDelegate_1_BeginInvoke_m66521(__this, ___response, ___callback, ___object, method) (( Object_t * (*) (ResponseDelegate_1_t2960 *, Object_t *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))ResponseDelegate_1_BeginInvoke_m66521_gshared)(__this, ___response, ___callback, ___object, method)
 // System.Void UnityEngine.Networking.Match.NetworkMatch/ResponseDelegate`1<System.Object>::EndInvoke(System.IAsyncResult)
-extern "C" void ResponseDelegate_1_EndInvoke_m66466_gshared (ResponseDelegate_1_t2953 * __this, Object_t * ___result, const MethodInfo* method);
-#define ResponseDelegate_1_EndInvoke_m66466(__this, ___result, method) (( void (*) (ResponseDelegate_1_t2953 *, Object_t *, const MethodInfo*))ResponseDelegate_1_EndInvoke_m66466_gshared)(__this, ___result, method)
+extern "C" void ResponseDelegate_1_EndInvoke_m66523_gshared (ResponseDelegate_1_t2960 * __this, Object_t * ___result, const MethodInfo* method);
+#define ResponseDelegate_1_EndInvoke_m66523(__this, ___result, method) (( void (*) (ResponseDelegate_1_t2960 *, Object_t *, const MethodInfo*))ResponseDelegate_1_EndInvoke_m66523_gshared)(__this, ___result, method)

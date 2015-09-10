@@ -5,7 +5,7 @@
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // System.WindowsConsoleDriver
-struct  WindowsConsoleDriver_t4938  : public Object_t
+struct  WindowsConsoleDriver_t4945  : public Object_t
 {
 	// System.IntPtr System.WindowsConsoleDriver::inputHandle
 	IntPtr_t ___inputHandle_0;

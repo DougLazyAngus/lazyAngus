@@ -10,14 +10,14 @@
 // System.Runtime.CompilerServices.ExtensionAttribute
 #include "System_Core_System_Runtime_CompilerServices_ExtensionAttribuMethodDeclarations.h"
 extern TypeInfo* RuntimeCompatibilityAttribute_t78_il2cpp_TypeInfo_var;
-extern TypeInfo* ExtensionAttribute_t821_il2cpp_TypeInfo_var;
+extern TypeInfo* ExtensionAttribute_t828_il2cpp_TypeInfo_var;
 void g_AssemblyU2DCSharp_Assembly_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		RuntimeCompatibilityAttribute_t78_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(52);
-		ExtensionAttribute_t821_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(598);
+		ExtensionAttribute_t828_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(602);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 2;
@@ -30,9 +30,9 @@ void g_AssemblyU2DCSharp_Assembly_CustomAttributesCacheGenerator(CustomAttribute
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 	{
-		ExtensionAttribute_t821 * tmp;
-		tmp = (ExtensionAttribute_t821 *)il2cpp_codegen_object_new (ExtensionAttribute_t821_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4519(tmp, NULL);
+		ExtensionAttribute_t828 * tmp;
+		tmp = (ExtensionAttribute_t828 *)il2cpp_codegen_object_new (ExtensionAttribute_t828_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m4576(tmp, NULL);
 		cache->attributes[1] = (Il2CppObject*)tmp;
 	}
 }
@@ -264,21 +264,21 @@ void GoogleMobileAd_t145_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheD(Cus
 #include "mscorlib_System_ParamArrayAttribute.h"
 // System.ParamArrayAttribute
 #include "mscorlib_System_ParamArrayAttributeMethodDeclarations.h"
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_t145_GoogleMobileAd_AddTestDevices_m744_Arg0_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -394,21 +394,21 @@ void GoogleMobileAd_t145_CustomAttributesCacheGenerator_GoogleMobileAd_U3COnAdIn
 #include "UnityEngine_UnityEngine_SerializeField.h"
 // UnityEngine.SerializeField
 #include "UnityEngine_UnityEngine_SerializeFieldMethodDeclarations.h"
-extern TypeInfo* SerializeField_t823_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t830_il2cpp_TypeInfo_var;
 void GoogleMobileAdSettings_t147_CustomAttributesCacheGenerator_testDevices(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SerializeField_t823_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(600);
+		SerializeField_t830_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(604);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		SerializeField_t823 * tmp;
-		tmp = (SerializeField_t823 *)il2cpp_codegen_object_new (SerializeField_t823_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4539(tmp, NULL);
+		SerializeField_t830 * tmp;
+		tmp = (SerializeField_t830 *)il2cpp_codegen_object_new (SerializeField_t830_il2cpp_TypeInfo_var);
+		SerializeField__ctor_m4596(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -700,21 +700,21 @@ void IOSAdMobController_t152_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheF
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void IOSAdMobController_t152_CustomAttributesCacheGenerator_IOSAdMobController_t152_IOSAdMobController_AddTestDevices_m847_Arg0_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1114,21 +1114,21 @@ void WP8AdMobController_t157_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheF
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void WP8AdMobController_t157_CustomAttributesCacheGenerator_WP8AdMobController_t157_WP8AdMobController_AddTestDevices_m941_Arg0_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1348,21 +1348,21 @@ void AndroidAdMobController_t160_CustomAttributesCacheGenerator_U3CU3Ef__amU24ca
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobController_t160_AndroidAdMobController_AddTestDevices_m992_Arg0_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -1474,345 +1474,345 @@ void AndroidAdMobController_t160_CustomAttributesCacheGenerator_AndroidAdMobCont
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void AN_GoogleAdProxy_t162_CustomAttributesCacheGenerator_AN_GoogleAdProxy_t162_AN_GoogleAdProxy_CallActivityFunction_m1036_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void AN_ProxyPool_t163_CustomAttributesCacheGenerator_AN_ProxyPool_t163_AN_ProxyPool_CallStatic_m1059_Arg2_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void AN_BillingProxy_t164_CustomAttributesCacheGenerator_AN_BillingProxy_t164_AN_BillingProxy_CallActivityFunction_m1061_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void AN_FBProxy_t165_CustomAttributesCacheGenerator_AN_FBProxy_t165_AN_FBProxy_CallActivityFunction_m1068_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void AN_GMSGeneralProxy_t166_CustomAttributesCacheGenerator_AN_GMSGeneralProxy_t166_AN_GMSGeneralProxy_CallActivityFunction_m1071_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void AN_GMSGiftsProxy_t167_CustomAttributesCacheGenerator_AN_GMSGiftsProxy_t167_AN_GMSGiftsProxy_CallActivityFunction_m1117_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void AN_GMSInvitationProxy_t168_CustomAttributesCacheGenerator_AN_GMSInvitationProxy_t168_AN_GMSInvitationProxy_CallActivityFunction_m1125_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void AN_GMSQuestsEventsProxy_t169_CustomAttributesCacheGenerator_AN_GMSQuestsEventsProxy_t169_AN_GMSQuestsEventsProxy_CallActivityFunction_m1129_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void AN_GMSRTMProxy_t170_CustomAttributesCacheGenerator_AN_GMSRTMProxy_t170_AN_GMSRTMProxy_CallActivityFunction_m1136_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void AN_GoogleAnalyticsProxy_t171_CustomAttributesCacheGenerator_AN_GoogleAnalyticsProxy_t171_AN_GoogleAnalyticsProxy_CallActivityFunction_m1169_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void AN_GooglePlayUtilsProxy_t172_CustomAttributesCacheGenerator_AN_GooglePlayUtilsProxy_t172_AN_GooglePlayUtilsProxy_CallActivityFunction_m1185_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void AN_ImmersiveModeProxy_t173_CustomAttributesCacheGenerator_AN_ImmersiveModeProxy_t173_AN_ImmersiveModeProxy_CallActivityFunction_m1188_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void AN_LicenseManagerProxy_t174_CustomAttributesCacheGenerator_AN_LicenseManagerProxy_t174_AN_LicenseManagerProxy_CallActivityFunction_m1191_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void AN_PlusButtonProxy_t175_CustomAttributesCacheGenerator_AN_PlusButtonProxy_t175_AN_PlusButtonProxy_CallActivityFunction_m1194_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void AN_SocialSharingProxy_t176_CustomAttributesCacheGenerator_AN_SocialSharingProxy_t176_AN_SocialSharingProxy_CallActivityFunction_m1202_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void AN_TVControllerProxy_t177_CustomAttributesCacheGenerator_AN_TVControllerProxy_t177_AN_TVControllerProxy_CallActivityFunction_m1210_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void AndroidNative_t178_CustomAttributesCacheGenerator_AndroidNative_t178_AndroidNative_CallUtility_m1237_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
 void AndroidNative_t178_CustomAttributesCacheGenerator_AndroidNative_t178_AndroidNative_CallAndroidNativeBridge_m1238_Arg1_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ParamArrayAttribute_t822_il2cpp_TypeInfo_var;
-void GoogleMobileAdInterface_t142_CustomAttributesCacheGenerator_GoogleMobileAdInterface_t142_GoogleMobileAdInterface_AddTestDevices_m4574_Arg0_ParameterInfo(CustomAttributesCache* cache)
+extern TypeInfo* ParamArrayAttribute_t829_il2cpp_TypeInfo_var;
+void GoogleMobileAdInterface_t142_CustomAttributesCacheGenerator_GoogleMobileAdInterface_t142_GoogleMobileAdInterface_AddTestDevices_m4631_Arg0_ParameterInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ParamArrayAttribute_t822_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(599);
+		ParamArrayAttribute_t829_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ParamArrayAttribute_t822 * tmp;
-		tmp = (ParamArrayAttribute_t822 *)il2cpp_codegen_object_new (ParamArrayAttribute_t822_il2cpp_TypeInfo_var);
-		ParamArrayAttribute__ctor_m4538(tmp, NULL);
+		ParamArrayAttribute_t829 * tmp;
+		tmp = (ParamArrayAttribute_t829 *)il2cpp_codegen_object_new (ParamArrayAttribute_t829_il2cpp_TypeInfo_var);
+		ParamArrayAttribute__ctor_m4595(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4592,21 +4592,21 @@ void GameControllerExample_t377_CustomAttributesCacheGenerator_GameControllerExa
 #include "mscorlib_System_ObsoleteAttribute.h"
 // System.ObsoleteAttribute
 #include "mscorlib_System_ObsoleteAttributeMethodDeclarations.h"
-extern TypeInfo* ObsoleteAttribute_t825_il2cpp_TypeInfo_var;
+extern TypeInfo* ObsoleteAttribute_t832_il2cpp_TypeInfo_var;
 void GameThrive_t378_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ObsoleteAttribute_t825_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(601);
+		ObsoleteAttribute_t832_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(605);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ObsoleteAttribute_t825 * tmp;
-		tmp = (ObsoleteAttribute_t825 *)il2cpp_codegen_object_new (ObsoleteAttribute_t825_il2cpp_TypeInfo_var);
-		ObsoleteAttribute__ctor_m4626(tmp, il2cpp_codegen_string_new_wrapper("GameThrive is decorated and will be removed in future releases. Please rename GameThrive to OneSignal in your code and your AndroidManifest.xml if your app is for Android."), NULL);
+		ObsoleteAttribute_t832 * tmp;
+		tmp = (ObsoleteAttribute_t832 *)il2cpp_codegen_object_new (ObsoleteAttribute_t832_il2cpp_TypeInfo_var);
+		ObsoleteAttribute__ctor_m4683(tmp, il2cpp_codegen_string_new_wrapper("GameThrive is decorated and will be removed in future releases. Please rename GameThrive to OneSignal in your code and your AndroidManifest.xml if your app is for Android."), NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4736,219 +4736,219 @@ void U3CSaveScreenshotU3Ec__IteratorD_t392_CustomAttributesCacheGenerator_U3CSav
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t821_il2cpp_TypeInfo_var;
+extern TypeInfo* ExtensionAttribute_t828_il2cpp_TypeInfo_var;
 void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t821_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(598);
+		ExtensionAttribute_t828_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(602);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t821 * tmp;
-		tmp = (ExtensionAttribute_t821 *)il2cpp_codegen_object_new (ExtensionAttribute_t821_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4519(tmp, NULL);
+		ExtensionAttribute_t828 * tmp;
+		tmp = (ExtensionAttribute_t828 *)il2cpp_codegen_object_new (ExtensionAttribute_t828_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m4576(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t821_il2cpp_TypeInfo_var;
+extern TypeInfo* ExtensionAttribute_t828_il2cpp_TypeInfo_var;
 void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2204(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t821_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(598);
+		ExtensionAttribute_t828_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(602);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t821 * tmp;
-		tmp = (ExtensionAttribute_t821 *)il2cpp_codegen_object_new (ExtensionAttribute_t821_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4519(tmp, NULL);
+		ExtensionAttribute_t828 * tmp;
+		tmp = (ExtensionAttribute_t828 *)il2cpp_codegen_object_new (ExtensionAttribute_t828_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m4576(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t821_il2cpp_TypeInfo_var;
+extern TypeInfo* ExtensionAttribute_t828_il2cpp_TypeInfo_var;
 void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2205(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t821_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(598);
+		ExtensionAttribute_t828_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(602);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t821 * tmp;
-		tmp = (ExtensionAttribute_t821 *)il2cpp_codegen_object_new (ExtensionAttribute_t821_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4519(tmp, NULL);
+		ExtensionAttribute_t828 * tmp;
+		tmp = (ExtensionAttribute_t828 *)il2cpp_codegen_object_new (ExtensionAttribute_t828_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m4576(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t821_il2cpp_TypeInfo_var;
+extern TypeInfo* ExtensionAttribute_t828_il2cpp_TypeInfo_var;
 void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2206(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t821_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(598);
+		ExtensionAttribute_t828_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(602);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t821 * tmp;
-		tmp = (ExtensionAttribute_t821 *)il2cpp_codegen_object_new (ExtensionAttribute_t821_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4519(tmp, NULL);
+		ExtensionAttribute_t828 * tmp;
+		tmp = (ExtensionAttribute_t828 *)il2cpp_codegen_object_new (ExtensionAttribute_t828_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m4576(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t821_il2cpp_TypeInfo_var;
+extern TypeInfo* ExtensionAttribute_t828_il2cpp_TypeInfo_var;
 void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2207(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t821_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(598);
+		ExtensionAttribute_t828_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(602);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t821 * tmp;
-		tmp = (ExtensionAttribute_t821 *)il2cpp_codegen_object_new (ExtensionAttribute_t821_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4519(tmp, NULL);
+		ExtensionAttribute_t828 * tmp;
+		tmp = (ExtensionAttribute_t828 *)il2cpp_codegen_object_new (ExtensionAttribute_t828_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m4576(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t821_il2cpp_TypeInfo_var;
+extern TypeInfo* ExtensionAttribute_t828_il2cpp_TypeInfo_var;
 void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2208(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t821_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(598);
+		ExtensionAttribute_t828_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(602);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t821 * tmp;
-		tmp = (ExtensionAttribute_t821 *)il2cpp_codegen_object_new (ExtensionAttribute_t821_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4519(tmp, NULL);
+		ExtensionAttribute_t828 * tmp;
+		tmp = (ExtensionAttribute_t828 *)il2cpp_codegen_object_new (ExtensionAttribute_t828_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m4576(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t821_il2cpp_TypeInfo_var;
+extern TypeInfo* ExtensionAttribute_t828_il2cpp_TypeInfo_var;
 void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2209(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t821_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(598);
+		ExtensionAttribute_t828_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(602);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t821 * tmp;
-		tmp = (ExtensionAttribute_t821 *)il2cpp_codegen_object_new (ExtensionAttribute_t821_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4519(tmp, NULL);
+		ExtensionAttribute_t828 * tmp;
+		tmp = (ExtensionAttribute_t828 *)il2cpp_codegen_object_new (ExtensionAttribute_t828_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m4576(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t821_il2cpp_TypeInfo_var;
+extern TypeInfo* ExtensionAttribute_t828_il2cpp_TypeInfo_var;
 void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2210(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t821_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(598);
+		ExtensionAttribute_t828_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(602);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t821 * tmp;
-		tmp = (ExtensionAttribute_t821 *)il2cpp_codegen_object_new (ExtensionAttribute_t821_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4519(tmp, NULL);
+		ExtensionAttribute_t828 * tmp;
+		tmp = (ExtensionAttribute_t828 *)il2cpp_codegen_object_new (ExtensionAttribute_t828_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m4576(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t821_il2cpp_TypeInfo_var;
+extern TypeInfo* ExtensionAttribute_t828_il2cpp_TypeInfo_var;
 void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_ScreenPlacement_m2211(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t821_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(598);
+		ExtensionAttribute_t828_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(602);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t821 * tmp;
-		tmp = (ExtensionAttribute_t821 *)il2cpp_codegen_object_new (ExtensionAttribute_t821_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4519(tmp, NULL);
+		ExtensionAttribute_t828 * tmp;
+		tmp = (ExtensionAttribute_t828 *)il2cpp_codegen_object_new (ExtensionAttribute_t828_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m4576(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ExtensionAttribute_t821_il2cpp_TypeInfo_var;
+extern TypeInfo* ExtensionAttribute_t828_il2cpp_TypeInfo_var;
 void ScreenPlacementExtension_t409_CustomAttributesCacheGenerator_ScreenPlacementExtension_DoScreenPlacement_m2212(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ExtensionAttribute_t821_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(598);
+		ExtensionAttribute_t828_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(602);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExtensionAttribute_t821 * tmp;
-		tmp = (ExtensionAttribute_t821 *)il2cpp_codegen_object_new (ExtensionAttribute_t821_il2cpp_TypeInfo_var);
-		ExtensionAttribute__ctor_m4519(tmp, NULL);
+		ExtensionAttribute_t828 * tmp;
+		tmp = (ExtensionAttribute_t828 *)il2cpp_codegen_object_new (ExtensionAttribute_t828_il2cpp_TypeInfo_var);
+		ExtensionAttribute__ctor_m4576(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ObsoleteAttribute_t825_il2cpp_TypeInfo_var;
+extern TypeInfo* ObsoleteAttribute_t832_il2cpp_TypeInfo_var;
 void AbstractFacebook_t414_CustomAttributesCacheGenerator_AbstractFacebook_AppRequest_m2231(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ObsoleteAttribute_t825_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(601);
+		ObsoleteAttribute_t832_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(605);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ObsoleteAttribute_t825 * tmp;
-		tmp = (ObsoleteAttribute_t825 *)il2cpp_codegen_object_new (ObsoleteAttribute_t825_il2cpp_TypeInfo_var);
-		ObsoleteAttribute__ctor_m4644(tmp, NULL);
+		ObsoleteAttribute_t832 * tmp;
+		tmp = (ObsoleteAttribute_t832 *)il2cpp_codegen_object_new (ObsoleteAttribute_t832_il2cpp_TypeInfo_var);
+		ObsoleteAttribute__ctor_m4701(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* ObsoleteAttribute_t825_il2cpp_TypeInfo_var;
+extern TypeInfo* ObsoleteAttribute_t832_il2cpp_TypeInfo_var;
 void FB_t421_CustomAttributesCacheGenerator_FB_PublishInstall_m2271(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ObsoleteAttribute_t825_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(601);
+		ObsoleteAttribute_t832_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(605);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ObsoleteAttribute_t825 * tmp;
-		tmp = (ObsoleteAttribute_t825 *)il2cpp_codegen_object_new (ObsoleteAttribute_t825_il2cpp_TypeInfo_var);
-		ObsoleteAttribute__ctor_m4626(tmp, il2cpp_codegen_string_new_wrapper("use FB.ActivateApp()"), NULL);
+		ObsoleteAttribute_t832 * tmp;
+		tmp = (ObsoleteAttribute_t832 *)il2cpp_codegen_object_new (ObsoleteAttribute_t832_il2cpp_TypeInfo_var);
+		ObsoleteAttribute__ctor_m4683(tmp, il2cpp_codegen_string_new_wrapper("use FB.ActivateApp()"), NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -4956,183 +4956,183 @@ void FB_t421_CustomAttributesCacheGenerator_FB_PublishInstall_m2271(CustomAttrib
 #include "mscorlib_System_AttributeUsageAttribute.h"
 // System.AttributeUsageAttribute
 #include "mscorlib_System_AttributeUsageAttributeMethodDeclarations.h"
-extern TypeInfo* AttributeUsageAttribute_t826_il2cpp_TypeInfo_var;
+extern TypeInfo* AttributeUsageAttribute_t833_il2cpp_TypeInfo_var;
 void FBBuildVersionAttribute_t425_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		AttributeUsageAttribute_t826_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(602);
+		AttributeUsageAttribute_t833_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(606);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		AttributeUsageAttribute_t826 * tmp;
-		tmp = (AttributeUsageAttribute_t826 *)il2cpp_codegen_object_new (AttributeUsageAttribute_t826_il2cpp_TypeInfo_var);
-		AttributeUsageAttribute__ctor_m4656(tmp, 1, NULL);
+		AttributeUsageAttribute_t833 * tmp;
+		tmp = (AttributeUsageAttribute_t833 *)il2cpp_codegen_object_new (AttributeUsageAttribute_t833_il2cpp_TypeInfo_var);
+		AttributeUsageAttribute__ctor_m4713(tmp, 1, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* SerializeField_t823_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t830_il2cpp_TypeInfo_var;
 void FBSettings_t430_CustomAttributesCacheGenerator_selectedAppIndex(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SerializeField_t823_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(600);
+		SerializeField_t830_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(604);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		SerializeField_t823 * tmp;
-		tmp = (SerializeField_t823 *)il2cpp_codegen_object_new (SerializeField_t823_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4539(tmp, NULL);
+		SerializeField_t830 * tmp;
+		tmp = (SerializeField_t830 *)il2cpp_codegen_object_new (SerializeField_t830_il2cpp_TypeInfo_var);
+		SerializeField__ctor_m4596(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* SerializeField_t823_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t830_il2cpp_TypeInfo_var;
 void FBSettings_t430_CustomAttributesCacheGenerator_appIds(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SerializeField_t823_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(600);
+		SerializeField_t830_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(604);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		SerializeField_t823 * tmp;
-		tmp = (SerializeField_t823 *)il2cpp_codegen_object_new (SerializeField_t823_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4539(tmp, NULL);
+		SerializeField_t830 * tmp;
+		tmp = (SerializeField_t830 *)il2cpp_codegen_object_new (SerializeField_t830_il2cpp_TypeInfo_var);
+		SerializeField__ctor_m4596(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* SerializeField_t823_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t830_il2cpp_TypeInfo_var;
 void FBSettings_t430_CustomAttributesCacheGenerator_appLabels(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SerializeField_t823_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(600);
+		SerializeField_t830_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(604);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		SerializeField_t823 * tmp;
-		tmp = (SerializeField_t823 *)il2cpp_codegen_object_new (SerializeField_t823_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4539(tmp, NULL);
+		SerializeField_t830 * tmp;
+		tmp = (SerializeField_t830 *)il2cpp_codegen_object_new (SerializeField_t830_il2cpp_TypeInfo_var);
+		SerializeField__ctor_m4596(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* SerializeField_t823_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t830_il2cpp_TypeInfo_var;
 void FBSettings_t430_CustomAttributesCacheGenerator_cookie(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SerializeField_t823_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(600);
+		SerializeField_t830_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(604);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		SerializeField_t823 * tmp;
-		tmp = (SerializeField_t823 *)il2cpp_codegen_object_new (SerializeField_t823_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4539(tmp, NULL);
+		SerializeField_t830 * tmp;
+		tmp = (SerializeField_t830 *)il2cpp_codegen_object_new (SerializeField_t830_il2cpp_TypeInfo_var);
+		SerializeField__ctor_m4596(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* SerializeField_t823_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t830_il2cpp_TypeInfo_var;
 void FBSettings_t430_CustomAttributesCacheGenerator_logging(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SerializeField_t823_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(600);
+		SerializeField_t830_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(604);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		SerializeField_t823 * tmp;
-		tmp = (SerializeField_t823 *)il2cpp_codegen_object_new (SerializeField_t823_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4539(tmp, NULL);
+		SerializeField_t830 * tmp;
+		tmp = (SerializeField_t830 *)il2cpp_codegen_object_new (SerializeField_t830_il2cpp_TypeInfo_var);
+		SerializeField__ctor_m4596(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* SerializeField_t823_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t830_il2cpp_TypeInfo_var;
 void FBSettings_t430_CustomAttributesCacheGenerator_status(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SerializeField_t823_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(600);
+		SerializeField_t830_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(604);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		SerializeField_t823 * tmp;
-		tmp = (SerializeField_t823 *)il2cpp_codegen_object_new (SerializeField_t823_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4539(tmp, NULL);
+		SerializeField_t830 * tmp;
+		tmp = (SerializeField_t830 *)il2cpp_codegen_object_new (SerializeField_t830_il2cpp_TypeInfo_var);
+		SerializeField__ctor_m4596(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* SerializeField_t823_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t830_il2cpp_TypeInfo_var;
 void FBSettings_t430_CustomAttributesCacheGenerator_xfbml(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SerializeField_t823_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(600);
+		SerializeField_t830_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(604);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		SerializeField_t823 * tmp;
-		tmp = (SerializeField_t823 *)il2cpp_codegen_object_new (SerializeField_t823_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4539(tmp, NULL);
+		SerializeField_t830 * tmp;
+		tmp = (SerializeField_t830 *)il2cpp_codegen_object_new (SerializeField_t830_il2cpp_TypeInfo_var);
+		SerializeField__ctor_m4596(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* SerializeField_t823_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t830_il2cpp_TypeInfo_var;
 void FBSettings_t430_CustomAttributesCacheGenerator_frictionlessRequests(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SerializeField_t823_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(600);
+		SerializeField_t830_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(604);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		SerializeField_t823 * tmp;
-		tmp = (SerializeField_t823 *)il2cpp_codegen_object_new (SerializeField_t823_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4539(tmp, NULL);
+		SerializeField_t830 * tmp;
+		tmp = (SerializeField_t830 *)il2cpp_codegen_object_new (SerializeField_t830_il2cpp_TypeInfo_var);
+		SerializeField__ctor_m4596(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* SerializeField_t823_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t830_il2cpp_TypeInfo_var;
 void FBSettings_t430_CustomAttributesCacheGenerator_iosURLSuffix(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SerializeField_t823_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(600);
+		SerializeField_t830_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(604);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		SerializeField_t823 * tmp;
-		tmp = (SerializeField_t823 *)il2cpp_codegen_object_new (SerializeField_t823_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4539(tmp, NULL);
+		SerializeField_t830 * tmp;
+		tmp = (SerializeField_t830 *)il2cpp_codegen_object_new (SerializeField_t830_il2cpp_TypeInfo_var);
+		SerializeField__ctor_m4596(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -5651,30 +5651,30 @@ void U3CCheckCriticalFPSRoutineU3Ec__Iterator10_t477_CustomAttributesCacheGenera
 // GameAnalyticsSDK.GA_SpecialEvents
 #include "AssemblyU2DCSharp_GameAnalyticsSDK_GA_SpecialEvents.h"
 extern const Il2CppType* GA_SpecialEvents_t476_0_0_0_var;
-extern TypeInfo* ExecuteInEditMode_t827_il2cpp_TypeInfo_var;
-extern TypeInfo* RequireComponent_t828_il2cpp_TypeInfo_var;
+extern TypeInfo* ExecuteInEditMode_t834_il2cpp_TypeInfo_var;
+extern TypeInfo* RequireComponent_t835_il2cpp_TypeInfo_var;
 void GameAnalytics_t479_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		GA_SpecialEvents_t476_0_0_0_var = il2cpp_codegen_type_from_index(444);
-		ExecuteInEditMode_t827_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(603);
-		RequireComponent_t828_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(604);
+		ExecuteInEditMode_t834_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(607);
+		RequireComponent_t835_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(608);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 2;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		ExecuteInEditMode_t827 * tmp;
-		tmp = (ExecuteInEditMode_t827 *)il2cpp_codegen_object_new (ExecuteInEditMode_t827_il2cpp_TypeInfo_var);
-		ExecuteInEditMode__ctor_m4659(tmp, NULL);
+		ExecuteInEditMode_t834 * tmp;
+		tmp = (ExecuteInEditMode_t834 *)il2cpp_codegen_object_new (ExecuteInEditMode_t834_il2cpp_TypeInfo_var);
+		ExecuteInEditMode__ctor_m4716(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 	{
-		RequireComponent_t828 * tmp;
-		tmp = (RequireComponent_t828 *)il2cpp_codegen_object_new (RequireComponent_t828_il2cpp_TypeInfo_var);
-		RequireComponent__ctor_m4660(tmp, il2cpp_codegen_type_get_object(GA_SpecialEvents_t476_0_0_0_var), NULL);
+		RequireComponent_t835 * tmp;
+		tmp = (RequireComponent_t835 *)il2cpp_codegen_object_new (RequireComponent_t835_il2cpp_TypeInfo_var);
+		RequireComponent__ctor_m4717(tmp, il2cpp_codegen_type_get_object(GA_SpecialEvents_t476_0_0_0_var), NULL);
 		cache->attributes[1] = (Il2CppObject*)tmp;
 	}
 }
@@ -5700,147 +5700,147 @@ void Settings_t478_CustomAttributesCacheGenerator_VERSION(CustomAttributesCache*
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* SerializeField_t823_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t830_il2cpp_TypeInfo_var;
 void Settings_t478_CustomAttributesCacheGenerator_gameKey(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SerializeField_t823_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(600);
+		SerializeField_t830_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(604);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		SerializeField_t823 * tmp;
-		tmp = (SerializeField_t823 *)il2cpp_codegen_object_new (SerializeField_t823_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4539(tmp, NULL);
+		SerializeField_t830 * tmp;
+		tmp = (SerializeField_t830 *)il2cpp_codegen_object_new (SerializeField_t830_il2cpp_TypeInfo_var);
+		SerializeField__ctor_m4596(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* SerializeField_t823_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t830_il2cpp_TypeInfo_var;
 void Settings_t478_CustomAttributesCacheGenerator_secretKey(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SerializeField_t823_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(600);
+		SerializeField_t830_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(604);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		SerializeField_t823 * tmp;
-		tmp = (SerializeField_t823 *)il2cpp_codegen_object_new (SerializeField_t823_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4539(tmp, NULL);
+		SerializeField_t830 * tmp;
+		tmp = (SerializeField_t830 *)il2cpp_codegen_object_new (SerializeField_t830_il2cpp_TypeInfo_var);
+		SerializeField__ctor_m4596(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* SerializeField_t823_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t830_il2cpp_TypeInfo_var;
 void Settings_t478_CustomAttributesCacheGenerator_Build(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SerializeField_t823_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(600);
+		SerializeField_t830_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(604);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		SerializeField_t823 * tmp;
-		tmp = (SerializeField_t823 *)il2cpp_codegen_object_new (SerializeField_t823_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4539(tmp, NULL);
+		SerializeField_t830 * tmp;
+		tmp = (SerializeField_t830 *)il2cpp_codegen_object_new (SerializeField_t830_il2cpp_TypeInfo_var);
+		SerializeField__ctor_m4596(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* SerializeField_t823_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t830_il2cpp_TypeInfo_var;
 void Settings_t478_CustomAttributesCacheGenerator_SelectedPlatformStudio(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SerializeField_t823_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(600);
+		SerializeField_t830_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(604);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		SerializeField_t823 * tmp;
-		tmp = (SerializeField_t823 *)il2cpp_codegen_object_new (SerializeField_t823_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4539(tmp, NULL);
+		SerializeField_t830 * tmp;
+		tmp = (SerializeField_t830 *)il2cpp_codegen_object_new (SerializeField_t830_il2cpp_TypeInfo_var);
+		SerializeField__ctor_m4596(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* SerializeField_t823_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t830_il2cpp_TypeInfo_var;
 void Settings_t478_CustomAttributesCacheGenerator_SelectedPlatformGame(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SerializeField_t823_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(600);
+		SerializeField_t830_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(604);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		SerializeField_t823 * tmp;
-		tmp = (SerializeField_t823 *)il2cpp_codegen_object_new (SerializeField_t823_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4539(tmp, NULL);
+		SerializeField_t830 * tmp;
+		tmp = (SerializeField_t830 *)il2cpp_codegen_object_new (SerializeField_t830_il2cpp_TypeInfo_var);
+		SerializeField__ctor_m4596(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* SerializeField_t823_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t830_il2cpp_TypeInfo_var;
 void Settings_t478_CustomAttributesCacheGenerator_SelectedPlatformGameID(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SerializeField_t823_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(600);
+		SerializeField_t830_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(604);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		SerializeField_t823 * tmp;
-		tmp = (SerializeField_t823 *)il2cpp_codegen_object_new (SerializeField_t823_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4539(tmp, NULL);
+		SerializeField_t830 * tmp;
+		tmp = (SerializeField_t830 *)il2cpp_codegen_object_new (SerializeField_t830_il2cpp_TypeInfo_var);
+		SerializeField__ctor_m4596(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* SerializeField_t823_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t830_il2cpp_TypeInfo_var;
 void Settings_t478_CustomAttributesCacheGenerator_SelectedStudio(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SerializeField_t823_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(600);
+		SerializeField_t830_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(604);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		SerializeField_t823 * tmp;
-		tmp = (SerializeField_t823 *)il2cpp_codegen_object_new (SerializeField_t823_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4539(tmp, NULL);
+		SerializeField_t830 * tmp;
+		tmp = (SerializeField_t830 *)il2cpp_codegen_object_new (SerializeField_t830_il2cpp_TypeInfo_var);
+		SerializeField__ctor_m4596(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* SerializeField_t823_il2cpp_TypeInfo_var;
+extern TypeInfo* SerializeField_t830_il2cpp_TypeInfo_var;
 void Settings_t478_CustomAttributesCacheGenerator_SelectedGame(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SerializeField_t823_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(600);
+		SerializeField_t830_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(604);
 		s_Il2CppMethodIntialized = true;
 	}
 	cache->count = 1;
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		SerializeField_t823 * tmp;
-		tmp = (SerializeField_t823 *)il2cpp_codegen_object_new (SerializeField_t823_il2cpp_TypeInfo_var);
-		SerializeField__ctor_m4539(tmp, NULL);
+		SerializeField_t830 * tmp;
+		tmp = (SerializeField_t830 *)il2cpp_codegen_object_new (SerializeField_t830_il2cpp_TypeInfo_var);
+		SerializeField__ctor_m4596(tmp, NULL);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -6222,116 +6222,8 @@ void Game_t490_CustomAttributesCacheGenerator_Game_set_SecretKey_m2709(CustomAtt
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Accumulator_t492_CustomAttributesCacheGenerator_U3CnewCountU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Accumulator_t492_CustomAttributesCacheGenerator_U3CderivedCountU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_get_newCount_m2715(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_set_newCount_m2716(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_get_derivedCount_m2717(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_set_derivedCount_m2718(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void BoostButton_t499_CustomAttributesCacheGenerator_BoostButton_TriggerDistortionEffect_m2772(CustomAttributesCache* cache)
+void BoostButton_t496_CustomAttributesCacheGenerator_BoostButton_TriggerDistortionEffect_m2753(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6349,7 +6241,7 @@ void BoostButton_t499_CustomAttributesCacheGenerator_BoostButton_TriggerDistorti
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CTriggerDistortionEffectU3Ec__Iterator11_t497_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6367,7 +6259,7 @@ void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenera
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2752(CustomAttributesCache* cache)
+void U3CTriggerDistortionEffectU3Ec__Iterator11_t497_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2728(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6385,7 +6277,7 @@ void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenera
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_System_Collections_IEnumerator_get_Current_m2753(CustomAttributesCache* cache)
+void U3CTriggerDistortionEffectU3Ec__Iterator11_t497_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_System_Collections_IEnumerator_get_Current_m2729(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6403,7 +6295,7 @@ void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenera
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_Dispose_m2755(CustomAttributesCache* cache)
+void U3CTriggerDistortionEffectU3Ec__Iterator11_t497_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_Dispose_m2731(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6421,7 +6313,7 @@ void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenera
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_Reset_m2756(CustomAttributesCache* cache)
+void U3CTriggerDistortionEffectU3Ec__Iterator11_t497_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_Reset_m2732(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6439,7 +6331,7 @@ void U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenera
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void BoostButtonLayout_t504_CustomAttributesCacheGenerator_BoostButtonLayout_DelayThenLayout_m2782(CustomAttributesCache* cache)
+void BoostButtonLayout_t500_CustomAttributesCacheGenerator_BoostButtonLayout_DelayThenLayout_m2763(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6457,7 +6349,7 @@ void BoostButtonLayout_t504_CustomAttributesCacheGenerator_BoostButtonLayout_Del
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CDelayThenLayoutU3Ec__Iterator12_t501_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6475,7 +6367,7 @@ void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator(Cust
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2774(CustomAttributesCache* cache)
+void U3CDelayThenLayoutU3Ec__Iterator12_t501_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2755(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6493,7 +6385,7 @@ void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CD
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_System_Collections_IEnumerator_get_Current_m2775(CustomAttributesCache* cache)
+void U3CDelayThenLayoutU3Ec__Iterator12_t501_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_System_Collections_IEnumerator_get_Current_m2756(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6511,7 +6403,7 @@ void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CD
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_Dispose_m2777(CustomAttributesCache* cache)
+void U3CDelayThenLayoutU3Ec__Iterator12_t501_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_Dispose_m2758(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6529,7 +6421,7 @@ void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CD
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_Reset_m2778(CustomAttributesCache* cache)
+void U3CDelayThenLayoutU3Ec__Iterator12_t501_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_Reset_m2759(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6547,7 +6439,7 @@ void U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CD
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void BoostConfig_t496_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
+void BoostConfig_t493_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6565,7 +6457,7 @@ void BoostConfig_t496_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingFie
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void BoostConfig_t496_CustomAttributesCacheGenerator_U3CactiveBoostU3Ek__BackingField(CustomAttributesCache* cache)
+void BoostConfig_t493_CustomAttributesCacheGenerator_U3CactiveBoostU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6583,7 +6475,7 @@ void BoostConfig_t496_CustomAttributesCacheGenerator_U3CactiveBoostU3Ek__Backing
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_get_instance_m2802(CustomAttributesCache* cache)
+void BoostConfig_t493_CustomAttributesCacheGenerator_BoostConfig_get_instance_m2783(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6601,7 +6493,7 @@ void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_get_instance_m2
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_set_instance_m2803(CustomAttributesCache* cache)
+void BoostConfig_t493_CustomAttributesCacheGenerator_BoostConfig_set_instance_m2784(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6619,7 +6511,7 @@ void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_set_instance_m2
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_get_activeBoost_m2804(CustomAttributesCache* cache)
+void BoostConfig_t493_CustomAttributesCacheGenerator_BoostConfig_get_activeBoost_m2785(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6637,7 +6529,7 @@ void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_get_activeBoost
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_set_activeBoost_m2805(CustomAttributesCache* cache)
+void BoostConfig_t493_CustomAttributesCacheGenerator_BoostConfig_set_activeBoost_m2786(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6655,7 +6547,7 @@ void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_set_activeBoost
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_WaitThenCleanup_m2820(CustomAttributesCache* cache)
+void BoostConfig_t493_CustomAttributesCacheGenerator_BoostConfig_WaitThenCleanup_m2801(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6673,7 +6565,7 @@ void BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_WaitThenCleanup
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CWaitThenCleanupU3Ec__Iterator13_t506_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6691,7 +6583,7 @@ void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator(Cust
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2794(CustomAttributesCache* cache)
+void U3CWaitThenCleanupU3Ec__Iterator13_t506_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2775(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6709,7 +6601,7 @@ void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CW
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_System_Collections_IEnumerator_get_Current_m2795(CustomAttributesCache* cache)
+void U3CWaitThenCleanupU3Ec__Iterator13_t506_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_System_Collections_IEnumerator_get_Current_m2776(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6727,7 +6619,7 @@ void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CW
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_Dispose_m2797(CustomAttributesCache* cache)
+void U3CWaitThenCleanupU3Ec__Iterator13_t506_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_Dispose_m2778(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6745,7 +6637,7 @@ void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CW
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_Reset_m2798(CustomAttributesCache* cache)
+void U3CWaitThenCleanupU3Ec__Iterator13_t506_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_Reset_m2779(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6763,7 +6655,7 @@ void U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CW
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ConeOfViewController_t524_CustomAttributesCacheGenerator_U3CactualAngleRangeU3Ek__BackingField(CustomAttributesCache* cache)
+void DeadMouse_t515_CustomAttributesCacheGenerator_U3CmouseTypeU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6781,7 +6673,7 @@ void ConeOfViewController_t524_CustomAttributesCacheGenerator_U3CactualAngleRang
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ConeOfViewController_t524_CustomAttributesCacheGenerator_ConeOfViewController_get_actualAngleRange_m2838(CustomAttributesCache* cache)
+void DeadMouse_t515_CustomAttributesCacheGenerator_DeadMouse_get_mouseType_m2818(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6799,7 +6691,7 @@ void ConeOfViewController_t524_CustomAttributesCacheGenerator_ConeOfViewControll
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ConeOfViewController_t524_CustomAttributesCacheGenerator_ConeOfViewController_set_actualAngleRange_m2839(CustomAttributesCache* cache)
+void DeadMouse_t515_CustomAttributesCacheGenerator_DeadMouse_set_mouseType_m2819(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6817,7 +6709,7 @@ void ConeOfViewController_t524_CustomAttributesCacheGenerator_ConeOfViewControll
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void CrossSceneState_t527_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
+void InputHandler_t533_CustomAttributesCacheGenerator_U3CisTouchDeviceU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6835,7 +6727,7 @@ void CrossSceneState_t527_CustomAttributesCacheGenerator_U3CinstanceU3Ek__Backin
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void CrossSceneState_t527_CustomAttributesCacheGenerator_CrossSceneState_get_instance_m2853(CustomAttributesCache* cache)
+void InputHandler_t533_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6853,7 +6745,7 @@ void CrossSceneState_t527_CustomAttributesCacheGenerator_CrossSceneState_get_ins
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void CrossSceneState_t527_CustomAttributesCacheGenerator_CrossSceneState_set_instance_m2854(CustomAttributesCache* cache)
+void InputHandler_t533_CustomAttributesCacheGenerator_InputHandler_get_isTouchDevice_m2885(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6871,7 +6763,7 @@ void CrossSceneState_t527_CustomAttributesCacheGenerator_CrossSceneState_set_ins
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void DeadMouse_t528_CustomAttributesCacheGenerator_U3CmouseTypeU3Ek__BackingField(CustomAttributesCache* cache)
+void InputHandler_t533_CustomAttributesCacheGenerator_InputHandler_set_isTouchDevice_m2886(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6889,7 +6781,7 @@ void DeadMouse_t528_CustomAttributesCacheGenerator_U3CmouseTypeU3Ek__BackingFiel
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void DeadMouse_t528_CustomAttributesCacheGenerator_DeadMouse_get_mouseType_m2857(CustomAttributesCache* cache)
+void InputHandler_t533_CustomAttributesCacheGenerator_InputHandler_get_instance_m2887(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6907,7 +6799,7 @@ void DeadMouse_t528_CustomAttributesCacheGenerator_DeadMouse_get_mouseType_m2857
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void DeadMouse_t528_CustomAttributesCacheGenerator_DeadMouse_set_mouseType_m2858(CustomAttributesCache* cache)
+void InputHandler_t533_CustomAttributesCacheGenerator_InputHandler_set_instance_m2888(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6925,7 +6817,7 @@ void DeadMouse_t528_CustomAttributesCacheGenerator_DeadMouse_set_mouseType_m2858
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void DebugConfig_t533_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
+void MouseMove_t517_CustomAttributesCacheGenerator_U3CmouseTypeU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6943,7 +6835,7 @@ void DebugConfig_t533_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingFie
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void DebugConfig_t533_CustomAttributesCacheGenerator_DebugConfig_get_instance_m2880(CustomAttributesCache* cache)
+void MouseMove_t517_CustomAttributesCacheGenerator_U3CdeadU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6961,7 +6853,7 @@ void DebugConfig_t533_CustomAttributesCacheGenerator_DebugConfig_get_instance_m2
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void DebugConfig_t533_CustomAttributesCacheGenerator_DebugConfig_set_instance_m2881(CustomAttributesCache* cache)
+void MouseMove_t517_CustomAttributesCacheGenerator_U3CisPoisonedU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6979,7 +6871,7 @@ void DebugConfig_t533_CustomAttributesCacheGenerator_DebugConfig_set_instance_m2
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void DistortForEffect_t537_CustomAttributesCacheGenerator_U3CdistortingU3Ek__BackingField(CustomAttributesCache* cache)
+void MouseMove_t517_CustomAttributesCacheGenerator_U3CisFartedUponU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6997,7 +6889,7 @@ void DistortForEffect_t537_CustomAttributesCacheGenerator_U3CdistortingU3Ek__Bac
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void DistortForEffect_t537_CustomAttributesCacheGenerator_DistortForEffect_get_distorting_m2902(CustomAttributesCache* cache)
+void MouseMove_t517_CustomAttributesCacheGenerator_MouseMove_get_mouseType_m2937(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7015,7 +6907,7 @@ void DistortForEffect_t537_CustomAttributesCacheGenerator_DistortForEffect_get_d
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void DistortForEffect_t537_CustomAttributesCacheGenerator_DistortForEffect_set_distorting_m2903(CustomAttributesCache* cache)
+void MouseMove_t517_CustomAttributesCacheGenerator_MouseMove_set_mouseType_m2938(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7033,7 +6925,7 @@ void DistortForEffect_t537_CustomAttributesCacheGenerator_DistortForEffect_set_d
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_U3CwiggleTypeU3Ek__BackingField(CustomAttributesCache* cache)
+void MouseMove_t517_CustomAttributesCacheGenerator_MouseMove_get_dead_m2939(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7051,7 +6943,7 @@ void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_U3CwiggleTypeU3Ek__Ba
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_U3CwiggleMagnitudeU3Ek__BackingField(CustomAttributesCache* cache)
+void MouseMove_t517_CustomAttributesCacheGenerator_MouseMove_set_dead_m2940(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7069,7 +6961,7 @@ void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_U3CwiggleMagnitudeU3E
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_U3CwiggleCyclesU3Ek__BackingField(CustomAttributesCache* cache)
+void MouseMove_t517_CustomAttributesCacheGenerator_MouseMove_get_isPoisoned_m2941(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7087,7 +6979,7 @@ void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_U3CwiggleCyclesU3Ek__
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_U3CwiggleClockwiseU3Ek__BackingField(CustomAttributesCache* cache)
+void MouseMove_t517_CustomAttributesCacheGenerator_MouseMove_set_isPoisoned_m2942(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7105,7 +6997,7 @@ void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_U3CwiggleClockwiseU3E
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleType_m2912(CustomAttributesCache* cache)
+void MouseMove_t517_CustomAttributesCacheGenerator_MouseMove_get_isFartedUpon_m2943(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7123,7 +7015,7 @@ void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleType_m2913(CustomAttributesCache* cache)
+void MouseMove_t517_CustomAttributesCacheGenerator_MouseMove_set_isFartedUpon_m2944(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7141,7 +7033,7 @@ void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleMagnitude_m2914(CustomAttributesCache* cache)
+void MouseSpawnFromData_t549_CustomAttributesCacheGenerator_U3CmiceSpawnedU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7159,7 +7051,7 @@ void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleMagnitude_m2915(CustomAttributesCache* cache)
+void MouseSpawnFromData_t549_CustomAttributesCacheGenerator_MouseSpawnFromData_get_miceSpawned_m2975(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7177,529 +7069,7 @@ void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleCycles_m2916(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleCycles_m2917(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleClockwise_m2918(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleClockwise_m2919(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameController_t557_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameController_t557_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache9(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameController_t557_CustomAttributesCacheGenerator_GameController_get_instance_m2975(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameController_t557_CustomAttributesCacheGenerator_GameController_set_instance_m2976(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameController_t557_CustomAttributesCacheGenerator_GameController_U3CStartU3Em__4A_m2994(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameLevelState_t560_CustomAttributesCacheGenerator_U3CgameLevelU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameLevelState_t560_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_get_gameLevel_m3006(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_set_gameLevel_m3007(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_get_instance_m3008(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_set_instance_m3009(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_U3CgamePhaseU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_U3CpreviousGamePhaseU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_U3CinstancesFinishedThisSessionU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_U3CinstancesFinishedEverU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_gamePhase_m3032(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_gamePhase_m3033(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_previousGamePhase_m3034(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_previousGamePhase_m3035(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_instancesFinishedThisSession_m3036(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_instancesFinishedThisSession_m3037(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_instancesFinishedEver_m3038(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_instancesFinishedEver_m3039(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_instance_m3040(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_instance_m3041(CustomAttributesCache* cache)
+void MouseSpawnFromData_t549_CustomAttributesCacheGenerator_MouseSpawnFromData_set_miceSpawned_m2976(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7717,7 +7087,7 @@ void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_insta
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_SetupPendingPhase_m3047(CustomAttributesCache* cache)
+void PhaseDelayedEventScheduler_t560_CustomAttributesCacheGenerator_PhaseDelayedEventScheduler_WaitAndFireEvent_m3044(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7735,7 +7105,7 @@ void GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_SetupPend
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CWaitAndFireEventU3Ec__Iterator14_t561_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7753,7 +7123,7 @@ void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator(Cu
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3022(CustomAttributesCache* cache)
+void U3CWaitAndFireEventU3Ec__Iterator14_t561_CustomAttributesCacheGenerator_U3CWaitAndFireEventU3Ec__Iterator14_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3036(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7771,7 +7141,7 @@ void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_System_Collections_IEnumerator_get_Current_m3023(CustomAttributesCache* cache)
+void U3CWaitAndFireEventU3Ec__Iterator14_t561_CustomAttributesCacheGenerator_U3CWaitAndFireEventU3Ec__Iterator14_System_Collections_IEnumerator_get_Current_m3037(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7789,7 +7159,7 @@ void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_Dispose_m3025(CustomAttributesCache* cache)
+void U3CWaitAndFireEventU3Ec__Iterator14_t561_CustomAttributesCacheGenerator_U3CWaitAndFireEventU3Ec__Iterator14_Dispose_m3039(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7807,7 +7177,7 @@ void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_Reset_m3026(CustomAttributesCache* cache)
+void U3CWaitAndFireEventU3Ec__Iterator14_t561_CustomAttributesCacheGenerator_U3CWaitAndFireEventU3Ec__Iterator14_Reset_m3040(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7825,7 +7195,7 @@ void U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameUIController_t568_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
+void RealAngusElementButton_t568_CustomAttributesCacheGenerator_U3CraidU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7843,7 +7213,7 @@ void GameUIController_t568_CustomAttributesCacheGenerator_U3CinstanceU3Ek__Backi
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_get_instance_m3062(CustomAttributesCache* cache)
+void RealAngusElementButton_t568_CustomAttributesCacheGenerator_RealAngusElementButton_get_raid_m3074(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7861,7 +7231,187 @@ void GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_get_i
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_set_instance_m3063(CustomAttributesCache* cache)
+void RealAngusElementButton_t568_CustomAttributesCacheGenerator_RealAngusElementButton_set_raid_m3075(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void SFXPlayer_t580_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void SFXPlayer_t580_CustomAttributesCacheGenerator_SFXPlayer_get_instance_m3118(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void SFXPlayer_t580_CustomAttributesCacheGenerator_SFXPlayer_set_instance_m3119(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void SecretUI_t583_CustomAttributesCacheGenerator_SecretUI_U3CStartU3Em__4A_m3155(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void SecretUI_t583_CustomAttributesCacheGenerator_SecretUI_U3CStartU3Em__4B_m3156(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void SizeCamera_t587_CustomAttributesCacheGenerator_U3CfinalActualWorldHalfHeightU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void SizeCamera_t587_CustomAttributesCacheGenerator_SizeCamera_get_finalActualWorldHalfHeight_m3164(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void SizeCamera_t587_CustomAttributesCacheGenerator_SizeCamera_set_finalActualWorldHalfHeight_m3165(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void SocialHelper_t592_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache3(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void SocialHelper_t592_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache4(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7879,7 +7429,7 @@ void GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_set_i
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_ConfirmComplete_m3066(CustomAttributesCache* cache)
+void SocialHelper_t592_CustomAttributesCacheGenerator_SocialHelper_DebugScoreAndAchievement_m3189(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7897,7 +7447,61 @@ void GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_Confi
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void SocialHelper_t592_CustomAttributesCacheGenerator_SocialHelper_U3CReportScoreU3Em__4D_m3196(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void SocialHelper_t592_CustomAttributesCacheGenerator_SocialHelper_U3CShowLeaderBoardU3Em__4F_m3197(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void SocialHelper_t592_CustomAttributesCacheGenerator_SocialHelper_U3CShowAchievementsU3Em__50_m3198(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void U3CDebugScoreAndAchievementU3Ec__Iterator15_t589_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7915,7 +7519,7 @@ void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator(Cust
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3056(CustomAttributesCache* cache)
+void U3CDebugScoreAndAchievementU3Ec__Iterator15_t589_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator15_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3175(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7933,7 +7537,7 @@ void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CC
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_System_Collections_IEnumerator_get_Current_m3057(CustomAttributesCache* cache)
+void U3CDebugScoreAndAchievementU3Ec__Iterator15_t589_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator15_System_Collections_IEnumerator_get_Current_m3176(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7951,7 +7555,7 @@ void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CC
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_Dispose_m3059(CustomAttributesCache* cache)
+void U3CDebugScoreAndAchievementU3Ec__Iterator15_t589_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator15_Dispose_m3178(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7969,7 +7573,7 @@ void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CC
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_Reset_m3060(CustomAttributesCache* cache)
+void U3CDebugScoreAndAchievementU3Ec__Iterator15_t589_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator15_Reset_m3179(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -7987,7 +7591,7 @@ void U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CC
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void InOutTransitioner_t576_CustomAttributesCacheGenerator_U3CmovingInU3Ek__BackingField(CustomAttributesCache* cache)
+void U3CAuthenticateU3Ec__AnonStorey1B_t590_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8005,7 +7609,7 @@ void InOutTransitioner_t576_CustomAttributesCacheGenerator_U3CmovingInU3Ek__Back
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void InOutTransitioner_t576_CustomAttributesCacheGenerator_InOutTransitioner_get_movingIn_m3096(CustomAttributesCache* cache)
+void U3CRecordAchievementU3Ec__AnonStorey1C_t591_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8023,7 +7627,7 @@ void InOutTransitioner_t576_CustomAttributesCacheGenerator_InOutTransitioner_get
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void InOutTransitioner_t576_CustomAttributesCacheGenerator_InOutTransitioner_set_movingIn_m3097(CustomAttributesCache* cache)
+void ConeOfViewController_t609_CustomAttributesCacheGenerator_U3CactualAngleRangeU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8041,7 +7645,7 @@ void InOutTransitioner_t576_CustomAttributesCacheGenerator_InOutTransitioner_set
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void InputHandler_t577_CustomAttributesCacheGenerator_U3CisTouchDeviceU3Ek__BackingField(CustomAttributesCache* cache)
+void ConeOfViewController_t609_CustomAttributesCacheGenerator_ConeOfViewController_get_actualAngleRange_m3264(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8059,7 +7663,7 @@ void InputHandler_t577_CustomAttributesCacheGenerator_U3CisTouchDeviceU3Ek__Back
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void InputHandler_t577_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
+void ConeOfViewController_t609_CustomAttributesCacheGenerator_ConeOfViewController_set_actualAngleRange_m3265(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8077,7 +7681,7 @@ void InputHandler_t577_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingFi
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void InputHandler_t577_CustomAttributesCacheGenerator_InputHandler_get_isTouchDevice_m3104(CustomAttributesCache* cache)
+void GameController_t616_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8095,7 +7699,7 @@ void InputHandler_t577_CustomAttributesCacheGenerator_InputHandler_get_isTouchDe
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void InputHandler_t577_CustomAttributesCacheGenerator_InputHandler_set_isTouchDevice_m3105(CustomAttributesCache* cache)
+void GameController_t616_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache9(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8113,7 +7717,7 @@ void InputHandler_t577_CustomAttributesCacheGenerator_InputHandler_set_isTouchDe
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void InputHandler_t577_CustomAttributesCacheGenerator_InputHandler_get_instance_m3106(CustomAttributesCache* cache)
+void GameController_t616_CustomAttributesCacheGenerator_GameController_get_instance_m3296(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8131,7 +7735,7 @@ void InputHandler_t577_CustomAttributesCacheGenerator_InputHandler_get_instance_
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void InputHandler_t577_CustomAttributesCacheGenerator_InputHandler_set_instance_m3107(CustomAttributesCache* cache)
+void GameController_t616_CustomAttributesCacheGenerator_GameController_set_instance_m3297(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8149,7 +7753,7 @@ void InputHandler_t577_CustomAttributesCacheGenerator_InputHandler_set_instance_
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void LevelConfig_t594_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
+void GameController_t616_CustomAttributesCacheGenerator_GameController_U3CStartU3Em__51_m3315(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8167,7 +7771,7 @@ void LevelConfig_t594_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingFie
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void LevelConfig_t594_CustomAttributesCacheGenerator_LevelConfig_get_instance_m3128(CustomAttributesCache* cache)
+void GameUIController_t618_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8185,7 +7789,7 @@ void LevelConfig_t594_CustomAttributesCacheGenerator_LevelConfig_get_instance_m3
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void LevelConfig_t594_CustomAttributesCacheGenerator_LevelConfig_set_instance_m3129(CustomAttributesCache* cache)
+void GameUIController_t618_CustomAttributesCacheGenerator_GameUIController_get_instance_m3323(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8203,313 +7807,7 @@ void LevelConfig_t594_CustomAttributesCacheGenerator_LevelConfig_set_instance_m3
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseMove_t530_CustomAttributesCacheGenerator_U3CmouseTypeU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseMove_t530_CustomAttributesCacheGenerator_U3CdeadU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseMove_t530_CustomAttributesCacheGenerator_U3CisPoisonedU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseMove_t530_CustomAttributesCacheGenerator_U3CisFartedUponU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_mouseType_m3187(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_mouseType_m3188(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_dead_m3189(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_dead_m3190(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_isPoisoned_m3191(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_isPoisoned_m3192(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_isFartedUpon_m3193(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_isFartedUpon_m3194(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseSinkController_t608_CustomAttributesCacheGenerator_U3CsavedMouseCountU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseSinkController_t608_CustomAttributesCacheGenerator_MouseSinkController_get_savedMouseCount_m3220(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseSinkController_t608_CustomAttributesCacheGenerator_MouseSinkController_set_savedMouseCount_m3221(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseSpawnFromData_t556_CustomAttributesCacheGenerator_U3CmiceSpawnedU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseSpawnFromData_t556_CustomAttributesCacheGenerator_MouseSpawnFromData_get_miceSpawned_m3245(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void MouseSpawnFromData_t556_CustomAttributesCacheGenerator_MouseSpawnFromData_set_miceSpawned_m3246(CustomAttributesCache* cache)
+void GameUIController_t618_CustomAttributesCacheGenerator_GameUIController_set_instance_m3324(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8527,7 +7825,7 @@ void MouseSpawnFromData_t556_CustomAttributesCacheGenerator_MouseSpawnFromData_s
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void MusicPlayer_t616_CustomAttributesCacheGenerator_MusicPlayer_PlayMusic_m3300(CustomAttributesCache* cache)
+void GameUIController_t618_CustomAttributesCacheGenerator_GameUIController_ConfirmComplete_m3327(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8545,7 +7843,7 @@ void MusicPlayer_t616_CustomAttributesCacheGenerator_MusicPlayer_PlayMusic_m3300
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void U3CPlayMusicU3Ec__Iterator16_t617_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CConfirmCompleteU3Ec__Iterator16_t619_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8563,7 +7861,7 @@ void U3CPlayMusicU3Ec__Iterator16_t617_CustomAttributesCacheGenerator(CustomAttr
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPlayMusicU3Ec__Iterator16_t617_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator16_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3286(CustomAttributesCache* cache)
+void U3CConfirmCompleteU3Ec__Iterator16_t619_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator16_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3317(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8581,7 +7879,7 @@ void U3CPlayMusicU3Ec__Iterator16_t617_CustomAttributesCacheGenerator_U3CPlayMus
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPlayMusicU3Ec__Iterator16_t617_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator16_System_Collections_IEnumerator_get_Current_m3287(CustomAttributesCache* cache)
+void U3CConfirmCompleteU3Ec__Iterator16_t619_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator16_System_Collections_IEnumerator_get_Current_m3318(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8599,7 +7897,7 @@ void U3CPlayMusicU3Ec__Iterator16_t617_CustomAttributesCacheGenerator_U3CPlayMus
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPlayMusicU3Ec__Iterator16_t617_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator16_Dispose_m3289(CustomAttributesCache* cache)
+void U3CConfirmCompleteU3Ec__Iterator16_t619_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator16_Dispose_m3320(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8617,25 +7915,7 @@ void U3CPlayMusicU3Ec__Iterator16_t617_CustomAttributesCacheGenerator_U3CPlayMus
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPlayMusicU3Ec__Iterator16_t617_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator16_Reset_m3290(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(59);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		DebuggerHiddenAttribute_t84 * tmp;
-		tmp = (DebuggerHiddenAttribute_t84 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m488(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void PhaseDelayedEventScheduler_t571_CustomAttributesCacheGenerator_PhaseDelayedEventScheduler_WaitAndFireEvent_m3367(CustomAttributesCache* cache)
+void U3CConfirmCompleteU3Ec__Iterator16_t619_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator16_Reset_m3321(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8653,97 +7933,7 @@ void PhaseDelayedEventScheduler_t571_CustomAttributesCacheGenerator_PhaseDelayed
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void U3CWaitAndFireEventU3Ec__Iterator17_t628_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CWaitAndFireEventU3Ec__Iterator17_t628_CustomAttributesCacheGenerator_U3CWaitAndFireEventU3Ec__Iterator17_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3359(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(59);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		DebuggerHiddenAttribute_t84 * tmp;
-		tmp = (DebuggerHiddenAttribute_t84 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m488(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CWaitAndFireEventU3Ec__Iterator17_t628_CustomAttributesCacheGenerator_U3CWaitAndFireEventU3Ec__Iterator17_System_Collections_IEnumerator_get_Current_m3360(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(59);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		DebuggerHiddenAttribute_t84 * tmp;
-		tmp = (DebuggerHiddenAttribute_t84 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m488(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CWaitAndFireEventU3Ec__Iterator17_t628_CustomAttributesCacheGenerator_U3CWaitAndFireEventU3Ec__Iterator17_Dispose_m3362(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(59);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		DebuggerHiddenAttribute_t84 * tmp;
-		tmp = (DebuggerHiddenAttribute_t84 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m488(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CWaitAndFireEventU3Ec__Iterator17_t628_CustomAttributesCacheGenerator_U3CWaitAndFireEventU3Ec__Iterator17_Reset_m3363(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(59);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		DebuggerHiddenAttribute_t84 * tmp;
-		tmp = (DebuggerHiddenAttribute_t84 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m488(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerController_t633_CustomAttributesCacheGenerator_U3CbodyMovementU3Ek__BackingField(CustomAttributesCache* cache)
+void MouseSinkController_t629_CustomAttributesCacheGenerator_U3CsavedMouseCountU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8761,7 +7951,7 @@ void PlayerController_t633_CustomAttributesCacheGenerator_U3CbodyMovementU3Ek__B
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerController_t633_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
+void MouseSinkController_t629_CustomAttributesCacheGenerator_MouseSinkController_get_savedMouseCount_m3372(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8779,7 +7969,7 @@ void PlayerController_t633_CustomAttributesCacheGenerator_U3CinstanceU3Ek__Backi
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerController_t633_CustomAttributesCacheGenerator_PlayerController_get_bodyMovement_m3373(CustomAttributesCache* cache)
+void MouseSinkController_t629_CustomAttributesCacheGenerator_MouseSinkController_set_savedMouseCount_m3373(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8797,7 +7987,7 @@ void PlayerController_t633_CustomAttributesCacheGenerator_PlayerController_get_b
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerController_t633_CustomAttributesCacheGenerator_PlayerController_set_bodyMovement_m3374(CustomAttributesCache* cache)
+void PlayerController_t637_CustomAttributesCacheGenerator_U3CbodyMovementU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8815,7 +8005,7 @@ void PlayerController_t633_CustomAttributesCacheGenerator_PlayerController_set_b
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerController_t633_CustomAttributesCacheGenerator_PlayerController_get_instance_m3375(CustomAttributesCache* cache)
+void PlayerController_t637_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8833,7 +8023,7 @@ void PlayerController_t633_CustomAttributesCacheGenerator_PlayerController_get_i
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerController_t633_CustomAttributesCacheGenerator_PlayerController_set_instance_m3376(CustomAttributesCache* cache)
+void PlayerController_t637_CustomAttributesCacheGenerator_PlayerController_get_bodyMovement_m3438(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8851,7 +8041,7 @@ void PlayerController_t633_CustomAttributesCacheGenerator_PlayerController_set_i
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerStats_t516_CustomAttributesCacheGenerator_U3CgameScoreU3Ek__BackingField(CustomAttributesCache* cache)
+void PlayerController_t637_CustomAttributesCacheGenerator_PlayerController_set_bodyMovement_m3439(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8869,7 +8059,7 @@ void PlayerStats_t516_CustomAttributesCacheGenerator_U3CgameScoreU3Ek__BackingFi
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerStats_t516_CustomAttributesCacheGenerator_U3CmoneyU3Ek__BackingField(CustomAttributesCache* cache)
+void PlayerController_t637_CustomAttributesCacheGenerator_PlayerController_get_instance_m3440(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -8887,493 +8077,7 @@ void PlayerStats_t516_CustomAttributesCacheGenerator_U3CmoneyU3Ek__BackingField(
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerStats_t516_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_gameScore_m3413(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_gameScore_m3414(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_money_m3415(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_money_m3416(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_instance_m3417(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_instance_m3418(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusElementButton_t643_CustomAttributesCacheGenerator_U3CraidU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusElementButton_t643_CustomAttributesCacheGenerator_RealAngusElementButton_get_raid_m3498(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusElementButton_t643_CustomAttributesCacheGenerator_RealAngusElementButton_set_raid_m3499(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t650_CustomAttributesCacheGenerator_U3CpictureSpriteU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t650_CustomAttributesCacheGenerator_U3CtextU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t650_CustomAttributesCacheGenerator_U3CtagU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t650_CustomAttributesCacheGenerator_U3CunlockedU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t650_CustomAttributesCacheGenerator_U3CviewedU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t650_CustomAttributesCacheGenerator_RealAngusItemDesc_get_pictureSprite_m3515(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t650_CustomAttributesCacheGenerator_RealAngusItemDesc_set_pictureSprite_m3516(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t650_CustomAttributesCacheGenerator_RealAngusItemDesc_get_text_m3517(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t650_CustomAttributesCacheGenerator_RealAngusItemDesc_set_text_m3518(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t650_CustomAttributesCacheGenerator_RealAngusItemDesc_get_tag_m3519(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t650_CustomAttributesCacheGenerator_RealAngusItemDesc_set_tag_m3520(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t650_CustomAttributesCacheGenerator_RealAngusItemDesc_get_unlocked_m3521(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t650_CustomAttributesCacheGenerator_RealAngusItemDesc_set_unlocked_m3522(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t650_CustomAttributesCacheGenerator_RealAngusItemDesc_get_viewed_m3523(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void RealAngusItemDesc_t650_CustomAttributesCacheGenerator_RealAngusItemDesc_set_viewed_m3524(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SFXPlayer_t656_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SFXPlayer_t656_CustomAttributesCacheGenerator_SFXPlayer_get_instance_m3556(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SFXPlayer_t656_CustomAttributesCacheGenerator_SFXPlayer_set_instance_m3557(CustomAttributesCache* cache)
+void PlayerController_t637_CustomAttributesCacheGenerator_PlayerController_set_instance_m3441(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9391,7 +8095,7 @@ void SFXPlayer_t656_CustomAttributesCacheGenerator_SFXPlayer_set_instance_m3557(
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void ScoreController_t659_CustomAttributesCacheGenerator_ScoreController_DestroyMouse_m3589(CustomAttributesCache* cache)
+void ScoreController_t642_CustomAttributesCacheGenerator_ScoreController_DestroyMouse_m3495(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9409,7 +8113,7 @@ void ScoreController_t659_CustomAttributesCacheGenerator_ScoreController_Destroy
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void U3CDestroyMouseU3Ec__Iterator18_t658_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CDestroyMouseU3Ec__Iterator17_t641_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9427,7 +8131,7 @@ void U3CDestroyMouseU3Ec__Iterator18_t658_CustomAttributesCacheGenerator(CustomA
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDestroyMouseU3Ec__Iterator18_t658_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator18_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3577(CustomAttributesCache* cache)
+void U3CDestroyMouseU3Ec__Iterator17_t641_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator17_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3483(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9445,7 +8149,7 @@ void U3CDestroyMouseU3Ec__Iterator18_t658_CustomAttributesCacheGenerator_U3CDest
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDestroyMouseU3Ec__Iterator18_t658_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator18_System_Collections_IEnumerator_get_Current_m3578(CustomAttributesCache* cache)
+void U3CDestroyMouseU3Ec__Iterator17_t641_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator17_System_Collections_IEnumerator_get_Current_m3484(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9463,7 +8167,7 @@ void U3CDestroyMouseU3Ec__Iterator18_t658_CustomAttributesCacheGenerator_U3CDest
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDestroyMouseU3Ec__Iterator18_t658_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator18_Dispose_m3580(CustomAttributesCache* cache)
+void U3CDestroyMouseU3Ec__Iterator17_t641_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator17_Dispose_m3486(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9481,7 +8185,7 @@ void U3CDestroyMouseU3Ec__Iterator18_t658_CustomAttributesCacheGenerator_U3CDest
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDestroyMouseU3Ec__Iterator18_t658_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator18_Reset_m3581(CustomAttributesCache* cache)
+void U3CDestroyMouseU3Ec__Iterator17_t641_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator17_Reset_m3487(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9499,7 +8203,7 @@ void U3CDestroyMouseU3Ec__Iterator18_t658_CustomAttributesCacheGenerator_U3CDest
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SecretUI_t661_CustomAttributesCacheGenerator_SecretUI_U3CStartU3Em__4B_m3609(CustomAttributesCache* cache)
+void SoundController_t645_CustomAttributesCacheGenerator_U3CsfxMutedU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9517,7 +8221,7 @@ void SecretUI_t661_CustomAttributesCacheGenerator_SecretUI_U3CStartU3Em__4B_m360
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SecretUI_t661_CustomAttributesCacheGenerator_SecretUI_U3CStartU3Em__4C_m3610(CustomAttributesCache* cache)
+void SoundController_t645_CustomAttributesCacheGenerator_U3CmusicMutedU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9535,7 +8239,7 @@ void SecretUI_t661_CustomAttributesCacheGenerator_SecretUI_U3CStartU3Em__4C_m361
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SizeCamera_t519_CustomAttributesCacheGenerator_U3CfinalActualWorldHalfHeightU3Ek__BackingField(CustomAttributesCache* cache)
+void SoundController_t645_CustomAttributesCacheGenerator_SoundController_get_sfxMuted_m3511(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9553,7 +8257,7 @@ void SizeCamera_t519_CustomAttributesCacheGenerator_U3CfinalActualWorldHalfHeigh
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SizeCamera_t519_CustomAttributesCacheGenerator_SizeCamera_get_finalActualWorldHalfHeight_m3618(CustomAttributesCache* cache)
+void SoundController_t645_CustomAttributesCacheGenerator_SoundController_set_sfxMuted_m3512(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9571,7 +8275,7 @@ void SizeCamera_t519_CustomAttributesCacheGenerator_SizeCamera_get_finalActualWo
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SizeCamera_t519_CustomAttributesCacheGenerator_SizeCamera_set_finalActualWorldHalfHeight_m3619(CustomAttributesCache* cache)
+void SoundController_t645_CustomAttributesCacheGenerator_SoundController_get_musicMuted_m3513(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9589,7 +8293,7 @@ void SizeCamera_t519_CustomAttributesCacheGenerator_SizeCamera_set_finalActualWo
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SocialHelper_t669_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache3(CustomAttributesCache* cache)
+void SoundController_t645_CustomAttributesCacheGenerator_SoundController_set_musicMuted_m3514(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9607,7 +8311,43 @@ void SocialHelper_t669_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache3(Custo
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SocialHelper_t669_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache4(CustomAttributesCache* cache)
+void TimeController_t650_CustomAttributesCacheGenerator_U3CtimeStateU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void TimeController_t650_CustomAttributesCacheGenerator_TimeController_get_timeState_m3531(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void TimeController_t650_CustomAttributesCacheGenerator_TimeController_set_timeState_m3532(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9625,7 +8365,7 @@ void SocialHelper_t669_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache4(Custo
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void SocialHelper_t669_CustomAttributesCacheGenerator_SocialHelper_DebugScoreAndAchievement_m3643(CustomAttributesCache* cache)
+void TipController_t651_CustomAttributesCacheGenerator_TipController_PlayTipWithPause_m3553(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9643,61 +8383,7 @@ void SocialHelper_t669_CustomAttributesCacheGenerator_SocialHelper_DebugScoreAnd
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SocialHelper_t669_CustomAttributesCacheGenerator_SocialHelper_U3CReportScoreU3Em__4E_m3650(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SocialHelper_t669_CustomAttributesCacheGenerator_SocialHelper_U3CShowLeaderBoardU3Em__50_m3651(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SocialHelper_t669_CustomAttributesCacheGenerator_SocialHelper_U3CShowAchievementsU3Em__51_m3652(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		CompilerGeneratedAttribute_t83 * tmp;
-		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
-		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void U3CDebugScoreAndAchievementU3Ec__Iterator19_t666_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CPlayTipWithPauseU3Ec__Iterator18_t652_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9715,7 +8401,7 @@ void U3CDebugScoreAndAchievementU3Ec__Iterator19_t666_CustomAttributesCacheGener
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDebugScoreAndAchievementU3Ec__Iterator19_t666_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator19_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3629(CustomAttributesCache* cache)
+void U3CPlayTipWithPauseU3Ec__Iterator18_t652_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator18_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3538(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9733,7 +8419,7 @@ void U3CDebugScoreAndAchievementU3Ec__Iterator19_t666_CustomAttributesCacheGener
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDebugScoreAndAchievementU3Ec__Iterator19_t666_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator19_System_Collections_IEnumerator_get_Current_m3630(CustomAttributesCache* cache)
+void U3CPlayTipWithPauseU3Ec__Iterator18_t652_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator18_System_Collections_IEnumerator_get_Current_m3539(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9751,7 +8437,7 @@ void U3CDebugScoreAndAchievementU3Ec__Iterator19_t666_CustomAttributesCacheGener
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDebugScoreAndAchievementU3Ec__Iterator19_t666_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator19_Dispose_m3632(CustomAttributesCache* cache)
+void U3CPlayTipWithPauseU3Ec__Iterator18_t652_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator18_Dispose_m3541(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9769,7 +8455,7 @@ void U3CDebugScoreAndAchievementU3Ec__Iterator19_t666_CustomAttributesCacheGener
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CDebugScoreAndAchievementU3Ec__Iterator19_t666_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator19_Reset_m3633(CustomAttributesCache* cache)
+void U3CPlayTipWithPauseU3Ec__Iterator18_t652_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator18_Reset_m3542(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9787,7 +8473,7 @@ void U3CDebugScoreAndAchievementU3Ec__Iterator19_t666_CustomAttributesCacheGener
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void U3CAuthenticateU3Ec__AnonStorey1C_t667_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_U3CwiggleTypeU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9805,7 +8491,7 @@ void U3CAuthenticateU3Ec__AnonStorey1C_t667_CustomAttributesCacheGenerator(Custo
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void U3CRecordAchievementU3Ec__AnonStorey1D_t668_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_U3CwiggleMagnitudeU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9823,7 +8509,7 @@ void U3CRecordAchievementU3Ec__AnonStorey1D_t668_CustomAttributesCacheGenerator(
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SoundController_t673_CustomAttributesCacheGenerator_U3CsfxMutedU3Ek__BackingField(CustomAttributesCache* cache)
+void ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_U3CwiggleCyclesU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9841,7 +8527,7 @@ void SoundController_t673_CustomAttributesCacheGenerator_U3CsfxMutedU3Ek__Backin
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SoundController_t673_CustomAttributesCacheGenerator_U3CmusicMutedU3Ek__BackingField(CustomAttributesCache* cache)
+void ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_U3CwiggleClockwiseU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9859,7 +8545,7 @@ void SoundController_t673_CustomAttributesCacheGenerator_U3CmusicMutedU3Ek__Back
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SoundController_t673_CustomAttributesCacheGenerator_SoundController_get_sfxMuted_m3673(CustomAttributesCache* cache)
+void ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleType_m3559(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9877,7 +8563,7 @@ void SoundController_t673_CustomAttributesCacheGenerator_SoundController_get_sfx
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SoundController_t673_CustomAttributesCacheGenerator_SoundController_set_sfxMuted_m3674(CustomAttributesCache* cache)
+void ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleType_m3560(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9895,7 +8581,7 @@ void SoundController_t673_CustomAttributesCacheGenerator_SoundController_set_sfx
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SoundController_t673_CustomAttributesCacheGenerator_SoundController_get_musicMuted_m3675(CustomAttributesCache* cache)
+void ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleMagnitude_m3561(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9913,7 +8599,7 @@ void SoundController_t673_CustomAttributesCacheGenerator_SoundController_get_mus
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void SoundController_t673_CustomAttributesCacheGenerator_SoundController_set_musicMuted_m3676(CustomAttributesCache* cache)
+void ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleMagnitude_m3562(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9931,7 +8617,7 @@ void SoundController_t673_CustomAttributesCacheGenerator_SoundController_set_mus
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void TimeController_t679_CustomAttributesCacheGenerator_U3CtimeStateU3Ek__BackingField(CustomAttributesCache* cache)
+void ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleCycles_m3563(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9949,7 +8635,7 @@ void TimeController_t679_CustomAttributesCacheGenerator_U3CtimeStateU3Ek__Backin
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void TimeController_t679_CustomAttributesCacheGenerator_TimeController_get_timeState_m3697(CustomAttributesCache* cache)
+void ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleCycles_m3564(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9967,7 +8653,835 @@ void TimeController_t679_CustomAttributesCacheGenerator_TimeController_get_timeS
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void TimeController_t679_CustomAttributesCacheGenerator_TimeController_set_timeState_m3698(CustomAttributesCache* cache)
+void ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleClockwise_m3565(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleClockwise_m3566(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void RealAngusItemDesc_t571_CustomAttributesCacheGenerator_U3CpictureSpriteU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void RealAngusItemDesc_t571_CustomAttributesCacheGenerator_U3CtextU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void RealAngusItemDesc_t571_CustomAttributesCacheGenerator_U3CtagU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void RealAngusItemDesc_t571_CustomAttributesCacheGenerator_U3CunlockedU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void RealAngusItemDesc_t571_CustomAttributesCacheGenerator_U3CviewedU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void RealAngusItemDesc_t571_CustomAttributesCacheGenerator_RealAngusItemDesc_get_pictureSprite_m3571(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void RealAngusItemDesc_t571_CustomAttributesCacheGenerator_RealAngusItemDesc_set_pictureSprite_m3572(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void RealAngusItemDesc_t571_CustomAttributesCacheGenerator_RealAngusItemDesc_get_text_m3573(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void RealAngusItemDesc_t571_CustomAttributesCacheGenerator_RealAngusItemDesc_set_text_m3574(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void RealAngusItemDesc_t571_CustomAttributesCacheGenerator_RealAngusItemDesc_get_tag_m3575(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void RealAngusItemDesc_t571_CustomAttributesCacheGenerator_RealAngusItemDesc_set_tag_m3576(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void RealAngusItemDesc_t571_CustomAttributesCacheGenerator_RealAngusItemDesc_get_unlocked_m3577(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void RealAngusItemDesc_t571_CustomAttributesCacheGenerator_RealAngusItemDesc_set_unlocked_m3578(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void RealAngusItemDesc_t571_CustomAttributesCacheGenerator_RealAngusItemDesc_get_viewed_m3579(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void RealAngusItemDesc_t571_CustomAttributesCacheGenerator_RealAngusItemDesc_set_viewed_m3580(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void CrossSceneState_t657_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void CrossSceneState_t657_CustomAttributesCacheGenerator_CrossSceneState_get_instance_m3586(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void CrossSceneState_t657_CustomAttributesCacheGenerator_CrossSceneState_set_instance_m3587(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void DebugConfig_t658_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void DebugConfig_t658_CustomAttributesCacheGenerator_DebugConfig_get_instance_m3590(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void DebugConfig_t658_CustomAttributesCacheGenerator_DebugConfig_set_instance_m3591(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GameLevelState_t660_CustomAttributesCacheGenerator_U3CgameLevelU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GameLevelState_t660_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GameLevelState_t660_CustomAttributesCacheGenerator_GameLevelState_get_gameLevel_m3604(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GameLevelState_t660_CustomAttributesCacheGenerator_GameLevelState_set_gameLevel_m3605(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GameLevelState_t660_CustomAttributesCacheGenerator_GameLevelState_get_instance_m3606(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GameLevelState_t660_CustomAttributesCacheGenerator_GameLevelState_set_instance_m3607(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GamePhaseState_t664_CustomAttributesCacheGenerator_U3CgamePhaseU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GamePhaseState_t664_CustomAttributesCacheGenerator_U3CpreviousGamePhaseU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GamePhaseState_t664_CustomAttributesCacheGenerator_U3CpendingPhaseU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GamePhaseState_t664_CustomAttributesCacheGenerator_U3CinstancesFinishedThisSessionU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GamePhaseState_t664_CustomAttributesCacheGenerator_U3CinstancesFinishedEverU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GamePhaseState_t664_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_get_gamePhase_m3630(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_set_gamePhase_m3631(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_get_previousGamePhase_m3632(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_set_previousGamePhase_m3633(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_get_pendingPhase_m3634(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_set_pendingPhase_m3635(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_get_instancesFinishedThisSession_m3636(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_set_instancesFinishedThisSession_m3637(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_get_instancesFinishedEver_m3638(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_set_instancesFinishedEver_m3639(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_get_instance_m3640(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_set_instance_m3641(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -9985,7 +9499,7 @@ void TimeController_t679_CustomAttributesCacheGenerator_TimeController_set_timeS
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void TipController_t684_CustomAttributesCacheGenerator_TipController_PlayTipWithPause_m3732(CustomAttributesCache* cache)
+void GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_SetupPendingPhase_m3647(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10003,7 +9517,7 @@ void TipController_t684_CustomAttributesCacheGenerator_TipController_PlayTipWith
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void U3CPlayTipWithPauseU3Ec__Iterator1A_t685_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CSetupPendingPhaseU3Ec__Iterator19_t665_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10021,7 +9535,7 @@ void U3CPlayTipWithPauseU3Ec__Iterator1A_t685_CustomAttributesCacheGenerator(Cus
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPlayTipWithPauseU3Ec__Iterator1A_t685_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1A_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3718(CustomAttributesCache* cache)
+void U3CSetupPendingPhaseU3Ec__Iterator19_t665_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator19_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3620(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10039,7 +9553,7 @@ void U3CPlayTipWithPauseU3Ec__Iterator1A_t685_CustomAttributesCacheGenerator_U3C
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPlayTipWithPauseU3Ec__Iterator1A_t685_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1A_System_Collections_IEnumerator_get_Current_m3719(CustomAttributesCache* cache)
+void U3CSetupPendingPhaseU3Ec__Iterator19_t665_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator19_System_Collections_IEnumerator_get_Current_m3621(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10057,7 +9571,7 @@ void U3CPlayTipWithPauseU3Ec__Iterator1A_t685_CustomAttributesCacheGenerator_U3C
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPlayTipWithPauseU3Ec__Iterator1A_t685_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1A_Dispose_m3721(CustomAttributesCache* cache)
+void U3CSetupPendingPhaseU3Ec__Iterator19_t665_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator19_Dispose_m3623(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10075,25 +9589,7 @@ void U3CPlayTipWithPauseU3Ec__Iterator1A_t685_CustomAttributesCacheGenerator_U3C
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CPlayTipWithPauseU3Ec__Iterator1A_t685_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1A_Reset_m3722(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(59);
-		s_Il2CppMethodIntialized = true;
-	}
-	cache->count = 1;
-	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
-	{
-		DebuggerHiddenAttribute_t84 * tmp;
-		tmp = (DebuggerHiddenAttribute_t84 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var);
-		DebuggerHiddenAttribute__ctor_m488(tmp, NULL);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-}
-extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void Utilities_t691_CustomAttributesCacheGenerator_Utilities_LaunchAppOrWeb_m3768(CustomAttributesCache* cache)
+void U3CSetupPendingPhaseU3Ec__Iterator19_t665_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator19_Reset_m3624(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10111,7 +9607,421 @@ void Utilities_t691_CustomAttributesCacheGenerator_Utilities_LaunchAppOrWeb_m376
 	}
 }
 extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
-void U3CLaunchAppOrWebU3Ec__Iterator1B_t690_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void LevelConfig_t678_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void LevelConfig_t678_CustomAttributesCacheGenerator_LevelConfig_get_instance_m3655(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void LevelConfig_t678_CustomAttributesCacheGenerator_LevelConfig_set_instance_m3656(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void PlayerStats_t509_CustomAttributesCacheGenerator_U3CgameScoreU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void PlayerStats_t509_CustomAttributesCacheGenerator_U3CmoneyU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void PlayerStats_t509_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void PlayerStats_t509_CustomAttributesCacheGenerator_PlayerStats_get_gameScore_m3699(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void PlayerStats_t509_CustomAttributesCacheGenerator_PlayerStats_set_gameScore_m3700(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void PlayerStats_t509_CustomAttributesCacheGenerator_PlayerStats_get_money_m3701(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void PlayerStats_t509_CustomAttributesCacheGenerator_PlayerStats_set_money_m3702(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void PlayerStats_t509_CustomAttributesCacheGenerator_PlayerStats_get_instance_m3703(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void PlayerStats_t509_CustomAttributesCacheGenerator_PlayerStats_set_instance_m3704(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void Accumulator_t672_CustomAttributesCacheGenerator_U3CnewCountU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void Accumulator_t672_CustomAttributesCacheGenerator_U3CderivedCountU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void Accumulator_t672_CustomAttributesCacheGenerator_Accumulator_get_newCount_m3746(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void Accumulator_t672_CustomAttributesCacheGenerator_Accumulator_set_newCount_m3747(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void Accumulator_t672_CustomAttributesCacheGenerator_Accumulator_get_derivedCount_m3748(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void Accumulator_t672_CustomAttributesCacheGenerator_Accumulator_set_derivedCount_m3749(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void DistortForEffect_t535_CustomAttributesCacheGenerator_U3CdistortingU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void DistortForEffect_t535_CustomAttributesCacheGenerator_DistortForEffect_get_distorting_m3770(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void DistortForEffect_t535_CustomAttributesCacheGenerator_DistortForEffect_set_distorting_m3771(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void InOutTransitioner_t570_CustomAttributesCacheGenerator_U3CmovingInU3Ek__BackingField(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void InOutTransitioner_t570_CustomAttributesCacheGenerator_InOutTransitioner_get_movingIn_m3788(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void InOutTransitioner_t570_CustomAttributesCacheGenerator_InOutTransitioner_set_movingIn_m3789(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10129,7 +10039,43 @@ void U3CLaunchAppOrWebU3Ec__Iterator1B_t690_CustomAttributesCacheGenerator(Custo
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CLaunchAppOrWebU3Ec__Iterator1B_t690_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1B_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3753(CustomAttributesCache* cache)
+void Utilities_t698_CustomAttributesCacheGenerator_Utilities_LaunchAppOrWeb_m3833(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(59);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		DebuggerHiddenAttribute_t84 * tmp;
+		tmp = (DebuggerHiddenAttribute_t84 *)il2cpp_codegen_object_new (DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var);
+		DebuggerHiddenAttribute__ctor_m488(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var;
+void U3CLaunchAppOrWebU3Ec__Iterator1A_t697_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(58);
+		s_Il2CppMethodIntialized = true;
+	}
+	cache->count = 1;
+	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
+	{
+		CompilerGeneratedAttribute_t83 * tmp;
+		tmp = (CompilerGeneratedAttribute_t83 *)il2cpp_codegen_object_new (CompilerGeneratedAttribute_t83_il2cpp_TypeInfo_var);
+		CompilerGeneratedAttribute__ctor_m487(tmp, NULL);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+}
+extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
+void U3CLaunchAppOrWebU3Ec__Iterator1A_t697_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1A_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3818(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10147,7 +10093,7 @@ void U3CLaunchAppOrWebU3Ec__Iterator1B_t690_CustomAttributesCacheGenerator_U3CLa
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CLaunchAppOrWebU3Ec__Iterator1B_t690_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1B_System_Collections_IEnumerator_get_Current_m3754(CustomAttributesCache* cache)
+void U3CLaunchAppOrWebU3Ec__Iterator1A_t697_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1A_System_Collections_IEnumerator_get_Current_m3819(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10165,7 +10111,7 @@ void U3CLaunchAppOrWebU3Ec__Iterator1B_t690_CustomAttributesCacheGenerator_U3CLa
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CLaunchAppOrWebU3Ec__Iterator1B_t690_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1B_Dispose_m3756(CustomAttributesCache* cache)
+void U3CLaunchAppOrWebU3Ec__Iterator1A_t697_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1A_Dispose_m3821(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10183,7 +10129,7 @@ void U3CLaunchAppOrWebU3Ec__Iterator1B_t690_CustomAttributesCacheGenerator_U3CLa
 	}
 }
 extern TypeInfo* DebuggerHiddenAttribute_t84_il2cpp_TypeInfo_var;
-void U3CLaunchAppOrWebU3Ec__Iterator1B_t690_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1B_Reset_m3757(CustomAttributesCache* cache)
+void U3CLaunchAppOrWebU3Ec__Iterator1A_t697_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1A_Reset_m3822(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -10200,7 +10146,7 @@ void U3CLaunchAppOrWebU3Ec__Iterator1B_t690_CustomAttributesCacheGenerator_U3CLa
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_Assembly_AttributeGenerators[564] = 
+extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_Assembly_AttributeGenerators[561] = 
 {
 	NULL,
 	g_AssemblyU2DCSharp_Assembly_CustomAttributesCacheGenerator,
@@ -10301,7 +10247,7 @@ extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_Assembly_Attribu
 	AN_TVControllerProxy_t177_CustomAttributesCacheGenerator_AN_TVControllerProxy_t177_AN_TVControllerProxy_CallActivityFunction_m1210_Arg1_ParameterInfo,
 	AndroidNative_t178_CustomAttributesCacheGenerator_AndroidNative_t178_AndroidNative_CallUtility_m1237_Arg1_ParameterInfo,
 	AndroidNative_t178_CustomAttributesCacheGenerator_AndroidNative_t178_AndroidNative_CallAndroidNativeBridge_m1238_Arg1_ParameterInfo,
-	GoogleMobileAdInterface_t142_CustomAttributesCacheGenerator_GoogleMobileAdInterface_t142_GoogleMobileAdInterface_AddTestDevices_m4574_Arg0_ParameterInfo,
+	GoogleMobileAdInterface_t142_CustomAttributesCacheGenerator_GoogleMobileAdInterface_t142_GoogleMobileAdInterface_AddTestDevices_m4631_Arg0_ParameterInfo,
 	AndroidADBanner_t215_CustomAttributesCacheGenerator_U3CU3Ef__amU24cacheF,
 	AndroidADBanner_t215_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache10,
 	AndroidADBanner_t215_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache11,
@@ -10545,225 +10491,222 @@ extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_Assembly_Attribu
 	Game_t490_CustomAttributesCacheGenerator_Game_set_GameKey_m2707,
 	Game_t490_CustomAttributesCacheGenerator_Game_get_SecretKey_m2708,
 	Game_t490_CustomAttributesCacheGenerator_Game_set_SecretKey_m2709,
-	Accumulator_t492_CustomAttributesCacheGenerator_U3CnewCountU3Ek__BackingField,
-	Accumulator_t492_CustomAttributesCacheGenerator_U3CderivedCountU3Ek__BackingField,
-	Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_get_newCount_m2715,
-	Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_set_newCount_m2716,
-	Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_get_derivedCount_m2717,
-	Accumulator_t492_CustomAttributesCacheGenerator_Accumulator_set_derivedCount_m2718,
-	BoostButton_t499_CustomAttributesCacheGenerator_BoostButton_TriggerDistortionEffect_m2772,
-	U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator,
-	U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2752,
-	U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_System_Collections_IEnumerator_get_Current_m2753,
-	U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_Dispose_m2755,
-	U3CTriggerDistortionEffectU3Ec__Iterator11_t500_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_Reset_m2756,
-	BoostButtonLayout_t504_CustomAttributesCacheGenerator_BoostButtonLayout_DelayThenLayout_m2782,
-	U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator,
-	U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2774,
-	U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_System_Collections_IEnumerator_get_Current_m2775,
-	U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_Dispose_m2777,
-	U3CDelayThenLayoutU3Ec__Iterator12_t505_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_Reset_m2778,
-	BoostConfig_t496_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	BoostConfig_t496_CustomAttributesCacheGenerator_U3CactiveBoostU3Ek__BackingField,
-	BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_get_instance_m2802,
-	BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_set_instance_m2803,
-	BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_get_activeBoost_m2804,
-	BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_set_activeBoost_m2805,
-	BoostConfig_t496_CustomAttributesCacheGenerator_BoostConfig_WaitThenCleanup_m2820,
-	U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator,
-	U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2794,
-	U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_System_Collections_IEnumerator_get_Current_m2795,
-	U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_Dispose_m2797,
-	U3CWaitThenCleanupU3Ec__Iterator13_t510_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_Reset_m2798,
-	ConeOfViewController_t524_CustomAttributesCacheGenerator_U3CactualAngleRangeU3Ek__BackingField,
-	ConeOfViewController_t524_CustomAttributesCacheGenerator_ConeOfViewController_get_actualAngleRange_m2838,
-	ConeOfViewController_t524_CustomAttributesCacheGenerator_ConeOfViewController_set_actualAngleRange_m2839,
-	CrossSceneState_t527_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	CrossSceneState_t527_CustomAttributesCacheGenerator_CrossSceneState_get_instance_m2853,
-	CrossSceneState_t527_CustomAttributesCacheGenerator_CrossSceneState_set_instance_m2854,
-	DeadMouse_t528_CustomAttributesCacheGenerator_U3CmouseTypeU3Ek__BackingField,
-	DeadMouse_t528_CustomAttributesCacheGenerator_DeadMouse_get_mouseType_m2857,
-	DeadMouse_t528_CustomAttributesCacheGenerator_DeadMouse_set_mouseType_m2858,
-	DebugConfig_t533_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	DebugConfig_t533_CustomAttributesCacheGenerator_DebugConfig_get_instance_m2880,
-	DebugConfig_t533_CustomAttributesCacheGenerator_DebugConfig_set_instance_m2881,
-	DistortForEffect_t537_CustomAttributesCacheGenerator_U3CdistortingU3Ek__BackingField,
-	DistortForEffect_t537_CustomAttributesCacheGenerator_DistortForEffect_get_distorting_m2902,
-	DistortForEffect_t537_CustomAttributesCacheGenerator_DistortForEffect_set_distorting_m2903,
-	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_U3CwiggleTypeU3Ek__BackingField,
-	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_U3CwiggleMagnitudeU3Ek__BackingField,
-	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_U3CwiggleCyclesU3Ek__BackingField,
-	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_U3CwiggleClockwiseU3Ek__BackingField,
-	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleType_m2912,
-	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleType_m2913,
-	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleMagnitude_m2914,
-	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleMagnitude_m2915,
-	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleCycles_m2916,
-	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleCycles_m2917,
-	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleClockwise_m2918,
-	ExplicitMouseDesc_t539_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleClockwise_m2919,
-	GameController_t557_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	GameController_t557_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache9,
-	GameController_t557_CustomAttributesCacheGenerator_GameController_get_instance_m2975,
-	GameController_t557_CustomAttributesCacheGenerator_GameController_set_instance_m2976,
-	GameController_t557_CustomAttributesCacheGenerator_GameController_U3CStartU3Em__4A_m2994,
-	GameLevelState_t560_CustomAttributesCacheGenerator_U3CgameLevelU3Ek__BackingField,
-	GameLevelState_t560_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_get_gameLevel_m3006,
-	GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_set_gameLevel_m3007,
-	GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_get_instance_m3008,
-	GameLevelState_t560_CustomAttributesCacheGenerator_GameLevelState_set_instance_m3009,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_U3CgamePhaseU3Ek__BackingField,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_U3CpreviousGamePhaseU3Ek__BackingField,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_U3CinstancesFinishedThisSessionU3Ek__BackingField,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_U3CinstancesFinishedEverU3Ek__BackingField,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_gamePhase_m3032,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_gamePhase_m3033,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_previousGamePhase_m3034,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_previousGamePhase_m3035,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_instancesFinishedThisSession_m3036,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_instancesFinishedThisSession_m3037,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_instancesFinishedEver_m3038,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_instancesFinishedEver_m3039,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_get_instance_m3040,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_set_instance_m3041,
-	GamePhaseState_t564_CustomAttributesCacheGenerator_GamePhaseState_SetupPendingPhase_m3047,
-	U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator,
-	U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3022,
-	U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_System_Collections_IEnumerator_get_Current_m3023,
-	U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_Dispose_m3025,
-	U3CSetupPendingPhaseU3Ec__Iterator14_t565_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator14_Reset_m3026,
-	GameUIController_t568_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_get_instance_m3062,
-	GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_set_instance_m3063,
-	GameUIController_t568_CustomAttributesCacheGenerator_GameUIController_ConfirmComplete_m3066,
-	U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator,
-	U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3056,
-	U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_System_Collections_IEnumerator_get_Current_m3057,
-	U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_Dispose_m3059,
-	U3CConfirmCompleteU3Ec__Iterator15_t569_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator15_Reset_m3060,
-	InOutTransitioner_t576_CustomAttributesCacheGenerator_U3CmovingInU3Ek__BackingField,
-	InOutTransitioner_t576_CustomAttributesCacheGenerator_InOutTransitioner_get_movingIn_m3096,
-	InOutTransitioner_t576_CustomAttributesCacheGenerator_InOutTransitioner_set_movingIn_m3097,
-	InputHandler_t577_CustomAttributesCacheGenerator_U3CisTouchDeviceU3Ek__BackingField,
-	InputHandler_t577_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	InputHandler_t577_CustomAttributesCacheGenerator_InputHandler_get_isTouchDevice_m3104,
-	InputHandler_t577_CustomAttributesCacheGenerator_InputHandler_set_isTouchDevice_m3105,
-	InputHandler_t577_CustomAttributesCacheGenerator_InputHandler_get_instance_m3106,
-	InputHandler_t577_CustomAttributesCacheGenerator_InputHandler_set_instance_m3107,
-	LevelConfig_t594_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	LevelConfig_t594_CustomAttributesCacheGenerator_LevelConfig_get_instance_m3128,
-	LevelConfig_t594_CustomAttributesCacheGenerator_LevelConfig_set_instance_m3129,
-	MouseMove_t530_CustomAttributesCacheGenerator_U3CmouseTypeU3Ek__BackingField,
-	MouseMove_t530_CustomAttributesCacheGenerator_U3CdeadU3Ek__BackingField,
-	MouseMove_t530_CustomAttributesCacheGenerator_U3CisPoisonedU3Ek__BackingField,
-	MouseMove_t530_CustomAttributesCacheGenerator_U3CisFartedUponU3Ek__BackingField,
-	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_mouseType_m3187,
-	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_mouseType_m3188,
-	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_dead_m3189,
-	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_dead_m3190,
-	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_isPoisoned_m3191,
-	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_isPoisoned_m3192,
-	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_get_isFartedUpon_m3193,
-	MouseMove_t530_CustomAttributesCacheGenerator_MouseMove_set_isFartedUpon_m3194,
-	MouseSinkController_t608_CustomAttributesCacheGenerator_U3CsavedMouseCountU3Ek__BackingField,
-	MouseSinkController_t608_CustomAttributesCacheGenerator_MouseSinkController_get_savedMouseCount_m3220,
-	MouseSinkController_t608_CustomAttributesCacheGenerator_MouseSinkController_set_savedMouseCount_m3221,
-	MouseSpawnFromData_t556_CustomAttributesCacheGenerator_U3CmiceSpawnedU3Ek__BackingField,
-	MouseSpawnFromData_t556_CustomAttributesCacheGenerator_MouseSpawnFromData_get_miceSpawned_m3245,
-	MouseSpawnFromData_t556_CustomAttributesCacheGenerator_MouseSpawnFromData_set_miceSpawned_m3246,
-	MusicPlayer_t616_CustomAttributesCacheGenerator_MusicPlayer_PlayMusic_m3300,
-	U3CPlayMusicU3Ec__Iterator16_t617_CustomAttributesCacheGenerator,
-	U3CPlayMusicU3Ec__Iterator16_t617_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator16_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3286,
-	U3CPlayMusicU3Ec__Iterator16_t617_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator16_System_Collections_IEnumerator_get_Current_m3287,
-	U3CPlayMusicU3Ec__Iterator16_t617_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator16_Dispose_m3289,
-	U3CPlayMusicU3Ec__Iterator16_t617_CustomAttributesCacheGenerator_U3CPlayMusicU3Ec__Iterator16_Reset_m3290,
-	PhaseDelayedEventScheduler_t571_CustomAttributesCacheGenerator_PhaseDelayedEventScheduler_WaitAndFireEvent_m3367,
-	U3CWaitAndFireEventU3Ec__Iterator17_t628_CustomAttributesCacheGenerator,
-	U3CWaitAndFireEventU3Ec__Iterator17_t628_CustomAttributesCacheGenerator_U3CWaitAndFireEventU3Ec__Iterator17_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3359,
-	U3CWaitAndFireEventU3Ec__Iterator17_t628_CustomAttributesCacheGenerator_U3CWaitAndFireEventU3Ec__Iterator17_System_Collections_IEnumerator_get_Current_m3360,
-	U3CWaitAndFireEventU3Ec__Iterator17_t628_CustomAttributesCacheGenerator_U3CWaitAndFireEventU3Ec__Iterator17_Dispose_m3362,
-	U3CWaitAndFireEventU3Ec__Iterator17_t628_CustomAttributesCacheGenerator_U3CWaitAndFireEventU3Ec__Iterator17_Reset_m3363,
-	PlayerController_t633_CustomAttributesCacheGenerator_U3CbodyMovementU3Ek__BackingField,
-	PlayerController_t633_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	PlayerController_t633_CustomAttributesCacheGenerator_PlayerController_get_bodyMovement_m3373,
-	PlayerController_t633_CustomAttributesCacheGenerator_PlayerController_set_bodyMovement_m3374,
-	PlayerController_t633_CustomAttributesCacheGenerator_PlayerController_get_instance_m3375,
-	PlayerController_t633_CustomAttributesCacheGenerator_PlayerController_set_instance_m3376,
-	PlayerStats_t516_CustomAttributesCacheGenerator_U3CgameScoreU3Ek__BackingField,
-	PlayerStats_t516_CustomAttributesCacheGenerator_U3CmoneyU3Ek__BackingField,
-	PlayerStats_t516_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_gameScore_m3413,
-	PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_gameScore_m3414,
-	PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_money_m3415,
-	PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_money_m3416,
-	PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_get_instance_m3417,
-	PlayerStats_t516_CustomAttributesCacheGenerator_PlayerStats_set_instance_m3418,
-	RealAngusElementButton_t643_CustomAttributesCacheGenerator_U3CraidU3Ek__BackingField,
-	RealAngusElementButton_t643_CustomAttributesCacheGenerator_RealAngusElementButton_get_raid_m3498,
-	RealAngusElementButton_t643_CustomAttributesCacheGenerator_RealAngusElementButton_set_raid_m3499,
-	RealAngusItemDesc_t650_CustomAttributesCacheGenerator_U3CpictureSpriteU3Ek__BackingField,
-	RealAngusItemDesc_t650_CustomAttributesCacheGenerator_U3CtextU3Ek__BackingField,
-	RealAngusItemDesc_t650_CustomAttributesCacheGenerator_U3CtagU3Ek__BackingField,
-	RealAngusItemDesc_t650_CustomAttributesCacheGenerator_U3CunlockedU3Ek__BackingField,
-	RealAngusItemDesc_t650_CustomAttributesCacheGenerator_U3CviewedU3Ek__BackingField,
-	RealAngusItemDesc_t650_CustomAttributesCacheGenerator_RealAngusItemDesc_get_pictureSprite_m3515,
-	RealAngusItemDesc_t650_CustomAttributesCacheGenerator_RealAngusItemDesc_set_pictureSprite_m3516,
-	RealAngusItemDesc_t650_CustomAttributesCacheGenerator_RealAngusItemDesc_get_text_m3517,
-	RealAngusItemDesc_t650_CustomAttributesCacheGenerator_RealAngusItemDesc_set_text_m3518,
-	RealAngusItemDesc_t650_CustomAttributesCacheGenerator_RealAngusItemDesc_get_tag_m3519,
-	RealAngusItemDesc_t650_CustomAttributesCacheGenerator_RealAngusItemDesc_set_tag_m3520,
-	RealAngusItemDesc_t650_CustomAttributesCacheGenerator_RealAngusItemDesc_get_unlocked_m3521,
-	RealAngusItemDesc_t650_CustomAttributesCacheGenerator_RealAngusItemDesc_set_unlocked_m3522,
-	RealAngusItemDesc_t650_CustomAttributesCacheGenerator_RealAngusItemDesc_get_viewed_m3523,
-	RealAngusItemDesc_t650_CustomAttributesCacheGenerator_RealAngusItemDesc_set_viewed_m3524,
-	SFXPlayer_t656_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
-	SFXPlayer_t656_CustomAttributesCacheGenerator_SFXPlayer_get_instance_m3556,
-	SFXPlayer_t656_CustomAttributesCacheGenerator_SFXPlayer_set_instance_m3557,
-	ScoreController_t659_CustomAttributesCacheGenerator_ScoreController_DestroyMouse_m3589,
-	U3CDestroyMouseU3Ec__Iterator18_t658_CustomAttributesCacheGenerator,
-	U3CDestroyMouseU3Ec__Iterator18_t658_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator18_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3577,
-	U3CDestroyMouseU3Ec__Iterator18_t658_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator18_System_Collections_IEnumerator_get_Current_m3578,
-	U3CDestroyMouseU3Ec__Iterator18_t658_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator18_Dispose_m3580,
-	U3CDestroyMouseU3Ec__Iterator18_t658_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator18_Reset_m3581,
-	SecretUI_t661_CustomAttributesCacheGenerator_SecretUI_U3CStartU3Em__4B_m3609,
-	SecretUI_t661_CustomAttributesCacheGenerator_SecretUI_U3CStartU3Em__4C_m3610,
-	SizeCamera_t519_CustomAttributesCacheGenerator_U3CfinalActualWorldHalfHeightU3Ek__BackingField,
-	SizeCamera_t519_CustomAttributesCacheGenerator_SizeCamera_get_finalActualWorldHalfHeight_m3618,
-	SizeCamera_t519_CustomAttributesCacheGenerator_SizeCamera_set_finalActualWorldHalfHeight_m3619,
-	SocialHelper_t669_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache3,
-	SocialHelper_t669_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache4,
-	SocialHelper_t669_CustomAttributesCacheGenerator_SocialHelper_DebugScoreAndAchievement_m3643,
-	SocialHelper_t669_CustomAttributesCacheGenerator_SocialHelper_U3CReportScoreU3Em__4E_m3650,
-	SocialHelper_t669_CustomAttributesCacheGenerator_SocialHelper_U3CShowLeaderBoardU3Em__50_m3651,
-	SocialHelper_t669_CustomAttributesCacheGenerator_SocialHelper_U3CShowAchievementsU3Em__51_m3652,
-	U3CDebugScoreAndAchievementU3Ec__Iterator19_t666_CustomAttributesCacheGenerator,
-	U3CDebugScoreAndAchievementU3Ec__Iterator19_t666_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator19_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3629,
-	U3CDebugScoreAndAchievementU3Ec__Iterator19_t666_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator19_System_Collections_IEnumerator_get_Current_m3630,
-	U3CDebugScoreAndAchievementU3Ec__Iterator19_t666_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator19_Dispose_m3632,
-	U3CDebugScoreAndAchievementU3Ec__Iterator19_t666_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator19_Reset_m3633,
-	U3CAuthenticateU3Ec__AnonStorey1C_t667_CustomAttributesCacheGenerator,
-	U3CRecordAchievementU3Ec__AnonStorey1D_t668_CustomAttributesCacheGenerator,
-	SoundController_t673_CustomAttributesCacheGenerator_U3CsfxMutedU3Ek__BackingField,
-	SoundController_t673_CustomAttributesCacheGenerator_U3CmusicMutedU3Ek__BackingField,
-	SoundController_t673_CustomAttributesCacheGenerator_SoundController_get_sfxMuted_m3673,
-	SoundController_t673_CustomAttributesCacheGenerator_SoundController_set_sfxMuted_m3674,
-	SoundController_t673_CustomAttributesCacheGenerator_SoundController_get_musicMuted_m3675,
-	SoundController_t673_CustomAttributesCacheGenerator_SoundController_set_musicMuted_m3676,
-	TimeController_t679_CustomAttributesCacheGenerator_U3CtimeStateU3Ek__BackingField,
-	TimeController_t679_CustomAttributesCacheGenerator_TimeController_get_timeState_m3697,
-	TimeController_t679_CustomAttributesCacheGenerator_TimeController_set_timeState_m3698,
-	TipController_t684_CustomAttributesCacheGenerator_TipController_PlayTipWithPause_m3732,
-	U3CPlayTipWithPauseU3Ec__Iterator1A_t685_CustomAttributesCacheGenerator,
-	U3CPlayTipWithPauseU3Ec__Iterator1A_t685_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1A_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3718,
-	U3CPlayTipWithPauseU3Ec__Iterator1A_t685_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1A_System_Collections_IEnumerator_get_Current_m3719,
-	U3CPlayTipWithPauseU3Ec__Iterator1A_t685_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1A_Dispose_m3721,
-	U3CPlayTipWithPauseU3Ec__Iterator1A_t685_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator1A_Reset_m3722,
-	Utilities_t691_CustomAttributesCacheGenerator_Utilities_LaunchAppOrWeb_m3768,
-	U3CLaunchAppOrWebU3Ec__Iterator1B_t690_CustomAttributesCacheGenerator,
-	U3CLaunchAppOrWebU3Ec__Iterator1B_t690_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1B_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3753,
-	U3CLaunchAppOrWebU3Ec__Iterator1B_t690_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1B_System_Collections_IEnumerator_get_Current_m3754,
-	U3CLaunchAppOrWebU3Ec__Iterator1B_t690_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1B_Dispose_m3756,
-	U3CLaunchAppOrWebU3Ec__Iterator1B_t690_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1B_Reset_m3757,
+	BoostButton_t496_CustomAttributesCacheGenerator_BoostButton_TriggerDistortionEffect_m2753,
+	U3CTriggerDistortionEffectU3Ec__Iterator11_t497_CustomAttributesCacheGenerator,
+	U3CTriggerDistortionEffectU3Ec__Iterator11_t497_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2728,
+	U3CTriggerDistortionEffectU3Ec__Iterator11_t497_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_System_Collections_IEnumerator_get_Current_m2729,
+	U3CTriggerDistortionEffectU3Ec__Iterator11_t497_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_Dispose_m2731,
+	U3CTriggerDistortionEffectU3Ec__Iterator11_t497_CustomAttributesCacheGenerator_U3CTriggerDistortionEffectU3Ec__Iterator11_Reset_m2732,
+	BoostButtonLayout_t500_CustomAttributesCacheGenerator_BoostButtonLayout_DelayThenLayout_m2763,
+	U3CDelayThenLayoutU3Ec__Iterator12_t501_CustomAttributesCacheGenerator,
+	U3CDelayThenLayoutU3Ec__Iterator12_t501_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2755,
+	U3CDelayThenLayoutU3Ec__Iterator12_t501_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_System_Collections_IEnumerator_get_Current_m2756,
+	U3CDelayThenLayoutU3Ec__Iterator12_t501_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_Dispose_m2758,
+	U3CDelayThenLayoutU3Ec__Iterator12_t501_CustomAttributesCacheGenerator_U3CDelayThenLayoutU3Ec__Iterator12_Reset_m2759,
+	BoostConfig_t493_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
+	BoostConfig_t493_CustomAttributesCacheGenerator_U3CactiveBoostU3Ek__BackingField,
+	BoostConfig_t493_CustomAttributesCacheGenerator_BoostConfig_get_instance_m2783,
+	BoostConfig_t493_CustomAttributesCacheGenerator_BoostConfig_set_instance_m2784,
+	BoostConfig_t493_CustomAttributesCacheGenerator_BoostConfig_get_activeBoost_m2785,
+	BoostConfig_t493_CustomAttributesCacheGenerator_BoostConfig_set_activeBoost_m2786,
+	BoostConfig_t493_CustomAttributesCacheGenerator_BoostConfig_WaitThenCleanup_m2801,
+	U3CWaitThenCleanupU3Ec__Iterator13_t506_CustomAttributesCacheGenerator,
+	U3CWaitThenCleanupU3Ec__Iterator13_t506_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2775,
+	U3CWaitThenCleanupU3Ec__Iterator13_t506_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_System_Collections_IEnumerator_get_Current_m2776,
+	U3CWaitThenCleanupU3Ec__Iterator13_t506_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_Dispose_m2778,
+	U3CWaitThenCleanupU3Ec__Iterator13_t506_CustomAttributesCacheGenerator_U3CWaitThenCleanupU3Ec__Iterator13_Reset_m2779,
+	DeadMouse_t515_CustomAttributesCacheGenerator_U3CmouseTypeU3Ek__BackingField,
+	DeadMouse_t515_CustomAttributesCacheGenerator_DeadMouse_get_mouseType_m2818,
+	DeadMouse_t515_CustomAttributesCacheGenerator_DeadMouse_set_mouseType_m2819,
+	InputHandler_t533_CustomAttributesCacheGenerator_U3CisTouchDeviceU3Ek__BackingField,
+	InputHandler_t533_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
+	InputHandler_t533_CustomAttributesCacheGenerator_InputHandler_get_isTouchDevice_m2885,
+	InputHandler_t533_CustomAttributesCacheGenerator_InputHandler_set_isTouchDevice_m2886,
+	InputHandler_t533_CustomAttributesCacheGenerator_InputHandler_get_instance_m2887,
+	InputHandler_t533_CustomAttributesCacheGenerator_InputHandler_set_instance_m2888,
+	MouseMove_t517_CustomAttributesCacheGenerator_U3CmouseTypeU3Ek__BackingField,
+	MouseMove_t517_CustomAttributesCacheGenerator_U3CdeadU3Ek__BackingField,
+	MouseMove_t517_CustomAttributesCacheGenerator_U3CisPoisonedU3Ek__BackingField,
+	MouseMove_t517_CustomAttributesCacheGenerator_U3CisFartedUponU3Ek__BackingField,
+	MouseMove_t517_CustomAttributesCacheGenerator_MouseMove_get_mouseType_m2937,
+	MouseMove_t517_CustomAttributesCacheGenerator_MouseMove_set_mouseType_m2938,
+	MouseMove_t517_CustomAttributesCacheGenerator_MouseMove_get_dead_m2939,
+	MouseMove_t517_CustomAttributesCacheGenerator_MouseMove_set_dead_m2940,
+	MouseMove_t517_CustomAttributesCacheGenerator_MouseMove_get_isPoisoned_m2941,
+	MouseMove_t517_CustomAttributesCacheGenerator_MouseMove_set_isPoisoned_m2942,
+	MouseMove_t517_CustomAttributesCacheGenerator_MouseMove_get_isFartedUpon_m2943,
+	MouseMove_t517_CustomAttributesCacheGenerator_MouseMove_set_isFartedUpon_m2944,
+	MouseSpawnFromData_t549_CustomAttributesCacheGenerator_U3CmiceSpawnedU3Ek__BackingField,
+	MouseSpawnFromData_t549_CustomAttributesCacheGenerator_MouseSpawnFromData_get_miceSpawned_m2975,
+	MouseSpawnFromData_t549_CustomAttributesCacheGenerator_MouseSpawnFromData_set_miceSpawned_m2976,
+	PhaseDelayedEventScheduler_t560_CustomAttributesCacheGenerator_PhaseDelayedEventScheduler_WaitAndFireEvent_m3044,
+	U3CWaitAndFireEventU3Ec__Iterator14_t561_CustomAttributesCacheGenerator,
+	U3CWaitAndFireEventU3Ec__Iterator14_t561_CustomAttributesCacheGenerator_U3CWaitAndFireEventU3Ec__Iterator14_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3036,
+	U3CWaitAndFireEventU3Ec__Iterator14_t561_CustomAttributesCacheGenerator_U3CWaitAndFireEventU3Ec__Iterator14_System_Collections_IEnumerator_get_Current_m3037,
+	U3CWaitAndFireEventU3Ec__Iterator14_t561_CustomAttributesCacheGenerator_U3CWaitAndFireEventU3Ec__Iterator14_Dispose_m3039,
+	U3CWaitAndFireEventU3Ec__Iterator14_t561_CustomAttributesCacheGenerator_U3CWaitAndFireEventU3Ec__Iterator14_Reset_m3040,
+	RealAngusElementButton_t568_CustomAttributesCacheGenerator_U3CraidU3Ek__BackingField,
+	RealAngusElementButton_t568_CustomAttributesCacheGenerator_RealAngusElementButton_get_raid_m3074,
+	RealAngusElementButton_t568_CustomAttributesCacheGenerator_RealAngusElementButton_set_raid_m3075,
+	SFXPlayer_t580_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
+	SFXPlayer_t580_CustomAttributesCacheGenerator_SFXPlayer_get_instance_m3118,
+	SFXPlayer_t580_CustomAttributesCacheGenerator_SFXPlayer_set_instance_m3119,
+	SecretUI_t583_CustomAttributesCacheGenerator_SecretUI_U3CStartU3Em__4A_m3155,
+	SecretUI_t583_CustomAttributesCacheGenerator_SecretUI_U3CStartU3Em__4B_m3156,
+	SizeCamera_t587_CustomAttributesCacheGenerator_U3CfinalActualWorldHalfHeightU3Ek__BackingField,
+	SizeCamera_t587_CustomAttributesCacheGenerator_SizeCamera_get_finalActualWorldHalfHeight_m3164,
+	SizeCamera_t587_CustomAttributesCacheGenerator_SizeCamera_set_finalActualWorldHalfHeight_m3165,
+	SocialHelper_t592_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache3,
+	SocialHelper_t592_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache4,
+	SocialHelper_t592_CustomAttributesCacheGenerator_SocialHelper_DebugScoreAndAchievement_m3189,
+	SocialHelper_t592_CustomAttributesCacheGenerator_SocialHelper_U3CReportScoreU3Em__4D_m3196,
+	SocialHelper_t592_CustomAttributesCacheGenerator_SocialHelper_U3CShowLeaderBoardU3Em__4F_m3197,
+	SocialHelper_t592_CustomAttributesCacheGenerator_SocialHelper_U3CShowAchievementsU3Em__50_m3198,
+	U3CDebugScoreAndAchievementU3Ec__Iterator15_t589_CustomAttributesCacheGenerator,
+	U3CDebugScoreAndAchievementU3Ec__Iterator15_t589_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator15_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3175,
+	U3CDebugScoreAndAchievementU3Ec__Iterator15_t589_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator15_System_Collections_IEnumerator_get_Current_m3176,
+	U3CDebugScoreAndAchievementU3Ec__Iterator15_t589_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator15_Dispose_m3178,
+	U3CDebugScoreAndAchievementU3Ec__Iterator15_t589_CustomAttributesCacheGenerator_U3CDebugScoreAndAchievementU3Ec__Iterator15_Reset_m3179,
+	U3CAuthenticateU3Ec__AnonStorey1B_t590_CustomAttributesCacheGenerator,
+	U3CRecordAchievementU3Ec__AnonStorey1C_t591_CustomAttributesCacheGenerator,
+	ConeOfViewController_t609_CustomAttributesCacheGenerator_U3CactualAngleRangeU3Ek__BackingField,
+	ConeOfViewController_t609_CustomAttributesCacheGenerator_ConeOfViewController_get_actualAngleRange_m3264,
+	ConeOfViewController_t609_CustomAttributesCacheGenerator_ConeOfViewController_set_actualAngleRange_m3265,
+	GameController_t616_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
+	GameController_t616_CustomAttributesCacheGenerator_U3CU3Ef__amU24cache9,
+	GameController_t616_CustomAttributesCacheGenerator_GameController_get_instance_m3296,
+	GameController_t616_CustomAttributesCacheGenerator_GameController_set_instance_m3297,
+	GameController_t616_CustomAttributesCacheGenerator_GameController_U3CStartU3Em__51_m3315,
+	GameUIController_t618_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
+	GameUIController_t618_CustomAttributesCacheGenerator_GameUIController_get_instance_m3323,
+	GameUIController_t618_CustomAttributesCacheGenerator_GameUIController_set_instance_m3324,
+	GameUIController_t618_CustomAttributesCacheGenerator_GameUIController_ConfirmComplete_m3327,
+	U3CConfirmCompleteU3Ec__Iterator16_t619_CustomAttributesCacheGenerator,
+	U3CConfirmCompleteU3Ec__Iterator16_t619_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator16_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3317,
+	U3CConfirmCompleteU3Ec__Iterator16_t619_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator16_System_Collections_IEnumerator_get_Current_m3318,
+	U3CConfirmCompleteU3Ec__Iterator16_t619_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator16_Dispose_m3320,
+	U3CConfirmCompleteU3Ec__Iterator16_t619_CustomAttributesCacheGenerator_U3CConfirmCompleteU3Ec__Iterator16_Reset_m3321,
+	MouseSinkController_t629_CustomAttributesCacheGenerator_U3CsavedMouseCountU3Ek__BackingField,
+	MouseSinkController_t629_CustomAttributesCacheGenerator_MouseSinkController_get_savedMouseCount_m3372,
+	MouseSinkController_t629_CustomAttributesCacheGenerator_MouseSinkController_set_savedMouseCount_m3373,
+	PlayerController_t637_CustomAttributesCacheGenerator_U3CbodyMovementU3Ek__BackingField,
+	PlayerController_t637_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
+	PlayerController_t637_CustomAttributesCacheGenerator_PlayerController_get_bodyMovement_m3438,
+	PlayerController_t637_CustomAttributesCacheGenerator_PlayerController_set_bodyMovement_m3439,
+	PlayerController_t637_CustomAttributesCacheGenerator_PlayerController_get_instance_m3440,
+	PlayerController_t637_CustomAttributesCacheGenerator_PlayerController_set_instance_m3441,
+	ScoreController_t642_CustomAttributesCacheGenerator_ScoreController_DestroyMouse_m3495,
+	U3CDestroyMouseU3Ec__Iterator17_t641_CustomAttributesCacheGenerator,
+	U3CDestroyMouseU3Ec__Iterator17_t641_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator17_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3483,
+	U3CDestroyMouseU3Ec__Iterator17_t641_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator17_System_Collections_IEnumerator_get_Current_m3484,
+	U3CDestroyMouseU3Ec__Iterator17_t641_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator17_Dispose_m3486,
+	U3CDestroyMouseU3Ec__Iterator17_t641_CustomAttributesCacheGenerator_U3CDestroyMouseU3Ec__Iterator17_Reset_m3487,
+	SoundController_t645_CustomAttributesCacheGenerator_U3CsfxMutedU3Ek__BackingField,
+	SoundController_t645_CustomAttributesCacheGenerator_U3CmusicMutedU3Ek__BackingField,
+	SoundController_t645_CustomAttributesCacheGenerator_SoundController_get_sfxMuted_m3511,
+	SoundController_t645_CustomAttributesCacheGenerator_SoundController_set_sfxMuted_m3512,
+	SoundController_t645_CustomAttributesCacheGenerator_SoundController_get_musicMuted_m3513,
+	SoundController_t645_CustomAttributesCacheGenerator_SoundController_set_musicMuted_m3514,
+	TimeController_t650_CustomAttributesCacheGenerator_U3CtimeStateU3Ek__BackingField,
+	TimeController_t650_CustomAttributesCacheGenerator_TimeController_get_timeState_m3531,
+	TimeController_t650_CustomAttributesCacheGenerator_TimeController_set_timeState_m3532,
+	TipController_t651_CustomAttributesCacheGenerator_TipController_PlayTipWithPause_m3553,
+	U3CPlayTipWithPauseU3Ec__Iterator18_t652_CustomAttributesCacheGenerator,
+	U3CPlayTipWithPauseU3Ec__Iterator18_t652_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator18_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3538,
+	U3CPlayTipWithPauseU3Ec__Iterator18_t652_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator18_System_Collections_IEnumerator_get_Current_m3539,
+	U3CPlayTipWithPauseU3Ec__Iterator18_t652_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator18_Dispose_m3541,
+	U3CPlayTipWithPauseU3Ec__Iterator18_t652_CustomAttributesCacheGenerator_U3CPlayTipWithPauseU3Ec__Iterator18_Reset_m3542,
+	ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_U3CwiggleTypeU3Ek__BackingField,
+	ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_U3CwiggleMagnitudeU3Ek__BackingField,
+	ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_U3CwiggleCyclesU3Ek__BackingField,
+	ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_U3CwiggleClockwiseU3Ek__BackingField,
+	ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleType_m3559,
+	ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleType_m3560,
+	ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleMagnitude_m3561,
+	ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleMagnitude_m3562,
+	ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleCycles_m3563,
+	ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleCycles_m3564,
+	ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_ExplicitMouseDesc_get_wiggleClockwise_m3565,
+	ExplicitMouseDesc_t654_CustomAttributesCacheGenerator_ExplicitMouseDesc_set_wiggleClockwise_m3566,
+	RealAngusItemDesc_t571_CustomAttributesCacheGenerator_U3CpictureSpriteU3Ek__BackingField,
+	RealAngusItemDesc_t571_CustomAttributesCacheGenerator_U3CtextU3Ek__BackingField,
+	RealAngusItemDesc_t571_CustomAttributesCacheGenerator_U3CtagU3Ek__BackingField,
+	RealAngusItemDesc_t571_CustomAttributesCacheGenerator_U3CunlockedU3Ek__BackingField,
+	RealAngusItemDesc_t571_CustomAttributesCacheGenerator_U3CviewedU3Ek__BackingField,
+	RealAngusItemDesc_t571_CustomAttributesCacheGenerator_RealAngusItemDesc_get_pictureSprite_m3571,
+	RealAngusItemDesc_t571_CustomAttributesCacheGenerator_RealAngusItemDesc_set_pictureSprite_m3572,
+	RealAngusItemDesc_t571_CustomAttributesCacheGenerator_RealAngusItemDesc_get_text_m3573,
+	RealAngusItemDesc_t571_CustomAttributesCacheGenerator_RealAngusItemDesc_set_text_m3574,
+	RealAngusItemDesc_t571_CustomAttributesCacheGenerator_RealAngusItemDesc_get_tag_m3575,
+	RealAngusItemDesc_t571_CustomAttributesCacheGenerator_RealAngusItemDesc_set_tag_m3576,
+	RealAngusItemDesc_t571_CustomAttributesCacheGenerator_RealAngusItemDesc_get_unlocked_m3577,
+	RealAngusItemDesc_t571_CustomAttributesCacheGenerator_RealAngusItemDesc_set_unlocked_m3578,
+	RealAngusItemDesc_t571_CustomAttributesCacheGenerator_RealAngusItemDesc_get_viewed_m3579,
+	RealAngusItemDesc_t571_CustomAttributesCacheGenerator_RealAngusItemDesc_set_viewed_m3580,
+	CrossSceneState_t657_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
+	CrossSceneState_t657_CustomAttributesCacheGenerator_CrossSceneState_get_instance_m3586,
+	CrossSceneState_t657_CustomAttributesCacheGenerator_CrossSceneState_set_instance_m3587,
+	DebugConfig_t658_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
+	DebugConfig_t658_CustomAttributesCacheGenerator_DebugConfig_get_instance_m3590,
+	DebugConfig_t658_CustomAttributesCacheGenerator_DebugConfig_set_instance_m3591,
+	GameLevelState_t660_CustomAttributesCacheGenerator_U3CgameLevelU3Ek__BackingField,
+	GameLevelState_t660_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
+	GameLevelState_t660_CustomAttributesCacheGenerator_GameLevelState_get_gameLevel_m3604,
+	GameLevelState_t660_CustomAttributesCacheGenerator_GameLevelState_set_gameLevel_m3605,
+	GameLevelState_t660_CustomAttributesCacheGenerator_GameLevelState_get_instance_m3606,
+	GameLevelState_t660_CustomAttributesCacheGenerator_GameLevelState_set_instance_m3607,
+	GamePhaseState_t664_CustomAttributesCacheGenerator_U3CgamePhaseU3Ek__BackingField,
+	GamePhaseState_t664_CustomAttributesCacheGenerator_U3CpreviousGamePhaseU3Ek__BackingField,
+	GamePhaseState_t664_CustomAttributesCacheGenerator_U3CpendingPhaseU3Ek__BackingField,
+	GamePhaseState_t664_CustomAttributesCacheGenerator_U3CinstancesFinishedThisSessionU3Ek__BackingField,
+	GamePhaseState_t664_CustomAttributesCacheGenerator_U3CinstancesFinishedEverU3Ek__BackingField,
+	GamePhaseState_t664_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
+	GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_get_gamePhase_m3630,
+	GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_set_gamePhase_m3631,
+	GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_get_previousGamePhase_m3632,
+	GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_set_previousGamePhase_m3633,
+	GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_get_pendingPhase_m3634,
+	GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_set_pendingPhase_m3635,
+	GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_get_instancesFinishedThisSession_m3636,
+	GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_set_instancesFinishedThisSession_m3637,
+	GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_get_instancesFinishedEver_m3638,
+	GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_set_instancesFinishedEver_m3639,
+	GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_get_instance_m3640,
+	GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_set_instance_m3641,
+	GamePhaseState_t664_CustomAttributesCacheGenerator_GamePhaseState_SetupPendingPhase_m3647,
+	U3CSetupPendingPhaseU3Ec__Iterator19_t665_CustomAttributesCacheGenerator,
+	U3CSetupPendingPhaseU3Ec__Iterator19_t665_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator19_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3620,
+	U3CSetupPendingPhaseU3Ec__Iterator19_t665_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator19_System_Collections_IEnumerator_get_Current_m3621,
+	U3CSetupPendingPhaseU3Ec__Iterator19_t665_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator19_Dispose_m3623,
+	U3CSetupPendingPhaseU3Ec__Iterator19_t665_CustomAttributesCacheGenerator_U3CSetupPendingPhaseU3Ec__Iterator19_Reset_m3624,
+	LevelConfig_t678_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
+	LevelConfig_t678_CustomAttributesCacheGenerator_LevelConfig_get_instance_m3655,
+	LevelConfig_t678_CustomAttributesCacheGenerator_LevelConfig_set_instance_m3656,
+	PlayerStats_t509_CustomAttributesCacheGenerator_U3CgameScoreU3Ek__BackingField,
+	PlayerStats_t509_CustomAttributesCacheGenerator_U3CmoneyU3Ek__BackingField,
+	PlayerStats_t509_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
+	PlayerStats_t509_CustomAttributesCacheGenerator_PlayerStats_get_gameScore_m3699,
+	PlayerStats_t509_CustomAttributesCacheGenerator_PlayerStats_set_gameScore_m3700,
+	PlayerStats_t509_CustomAttributesCacheGenerator_PlayerStats_get_money_m3701,
+	PlayerStats_t509_CustomAttributesCacheGenerator_PlayerStats_set_money_m3702,
+	PlayerStats_t509_CustomAttributesCacheGenerator_PlayerStats_get_instance_m3703,
+	PlayerStats_t509_CustomAttributesCacheGenerator_PlayerStats_set_instance_m3704,
+	Accumulator_t672_CustomAttributesCacheGenerator_U3CnewCountU3Ek__BackingField,
+	Accumulator_t672_CustomAttributesCacheGenerator_U3CderivedCountU3Ek__BackingField,
+	Accumulator_t672_CustomAttributesCacheGenerator_Accumulator_get_newCount_m3746,
+	Accumulator_t672_CustomAttributesCacheGenerator_Accumulator_set_newCount_m3747,
+	Accumulator_t672_CustomAttributesCacheGenerator_Accumulator_get_derivedCount_m3748,
+	Accumulator_t672_CustomAttributesCacheGenerator_Accumulator_set_derivedCount_m3749,
+	DistortForEffect_t535_CustomAttributesCacheGenerator_U3CdistortingU3Ek__BackingField,
+	DistortForEffect_t535_CustomAttributesCacheGenerator_DistortForEffect_get_distorting_m3770,
+	DistortForEffect_t535_CustomAttributesCacheGenerator_DistortForEffect_set_distorting_m3771,
+	InOutTransitioner_t570_CustomAttributesCacheGenerator_U3CmovingInU3Ek__BackingField,
+	InOutTransitioner_t570_CustomAttributesCacheGenerator_InOutTransitioner_get_movingIn_m3788,
+	InOutTransitioner_t570_CustomAttributesCacheGenerator_InOutTransitioner_set_movingIn_m3789,
+	Utilities_t698_CustomAttributesCacheGenerator_Utilities_LaunchAppOrWeb_m3833,
+	U3CLaunchAppOrWebU3Ec__Iterator1A_t697_CustomAttributesCacheGenerator,
+	U3CLaunchAppOrWebU3Ec__Iterator1A_t697_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1A_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3818,
+	U3CLaunchAppOrWebU3Ec__Iterator1A_t697_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1A_System_Collections_IEnumerator_get_Current_m3819,
+	U3CLaunchAppOrWebU3Ec__Iterator1A_t697_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1A_Dispose_m3821,
+	U3CLaunchAppOrWebU3Ec__Iterator1A_t697_CustomAttributesCacheGenerator_U3CLaunchAppOrWebU3Ec__Iterator1A_Reset_m3822,
 };

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Double,System.Object>
-struct Transform_1_t7661;
+struct Transform_1_t7668;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,14 +16,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Double,System.Object>::.ctor(System.Object,System.IntPtr)
-extern "C" void Transform_1__ctor_m49697_gshared (Transform_1_t7661 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Transform_1__ctor_m49697(__this, ___object, ___method, method) (( void (*) (Transform_1_t7661 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m49697_gshared)(__this, ___object, ___method, method)
+extern "C" void Transform_1__ctor_m49754_gshared (Transform_1_t7668 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Transform_1__ctor_m49754(__this, ___object, ___method, method) (( void (*) (Transform_1_t7668 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m49754_gshared)(__this, ___object, ___method, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Double,System.Object>::Invoke(TKey,TValue)
-extern "C" Object_t * Transform_1_Invoke_m49698_gshared (Transform_1_t7661 * __this, Object_t * ___key, double ___value, const MethodInfo* method);
-#define Transform_1_Invoke_m49698(__this, ___key, ___value, method) (( Object_t * (*) (Transform_1_t7661 *, Object_t *, double, const MethodInfo*))Transform_1_Invoke_m49698_gshared)(__this, ___key, ___value, method)
+extern "C" Object_t * Transform_1_Invoke_m49755_gshared (Transform_1_t7668 * __this, Object_t * ___key, double ___value, const MethodInfo* method);
+#define Transform_1_Invoke_m49755(__this, ___key, ___value, method) (( Object_t * (*) (Transform_1_t7668 *, Object_t *, double, const MethodInfo*))Transform_1_Invoke_m49755_gshared)(__this, ___key, ___value, method)
 // System.IAsyncResult System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Double,System.Object>::BeginInvoke(TKey,TValue,System.AsyncCallback,System.Object)
-extern "C" Object_t * Transform_1_BeginInvoke_m49699_gshared (Transform_1_t7661 * __this, Object_t * ___key, double ___value, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Transform_1_BeginInvoke_m49699(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t7661 *, Object_t *, double, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m49699_gshared)(__this, ___key, ___value, ___callback, ___object, method)
+extern "C" Object_t * Transform_1_BeginInvoke_m49756_gshared (Transform_1_t7668 * __this, Object_t * ___key, double ___value, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Transform_1_BeginInvoke_m49756(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t7668 *, Object_t *, double, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m49756_gshared)(__this, ___key, ___value, ___callback, ___object, method)
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Double,System.Object>::EndInvoke(System.IAsyncResult)
-extern "C" Object_t * Transform_1_EndInvoke_m49700_gshared (Transform_1_t7661 * __this, Object_t * ___result, const MethodInfo* method);
-#define Transform_1_EndInvoke_m49700(__this, ___result, method) (( Object_t * (*) (Transform_1_t7661 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m49700_gshared)(__this, ___result, method)
+extern "C" Object_t * Transform_1_EndInvoke_m49757_gshared (Transform_1_t7668 * __this, Object_t * ___result, const MethodInfo* method);
+#define Transform_1_EndInvoke_m49757(__this, ___result, method) (( Object_t * (*) (Transform_1_t7668 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m49757_gshared)(__this, ___result, method)

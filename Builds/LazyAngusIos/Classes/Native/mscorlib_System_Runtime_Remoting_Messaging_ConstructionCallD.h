@@ -7,10 +7,10 @@ struct Dictionary_2_t223;
 // System.Runtime.Remoting.Messaging.MethodDictionary
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodDictionary.h"
 // System.Runtime.Remoting.Messaging.ConstructionCallDictionary
-struct  ConstructionCallDictionary_t5162  : public MethodDictionary_t5163
+struct  ConstructionCallDictionary_t5169  : public MethodDictionary_t5170
 {
 };
-struct ConstructionCallDictionary_t5162_StaticFields{
+struct ConstructionCallDictionary_t5169_StaticFields{
 	// System.String[] System.Runtime.Remoting.Messaging.ConstructionCallDictionary::InternalKeys
 	StringU5BU5D_t75* ___InternalKeys_6;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Runtime.Remoting.Messaging.ConstructionCallDictionary::<>f__switch$map28

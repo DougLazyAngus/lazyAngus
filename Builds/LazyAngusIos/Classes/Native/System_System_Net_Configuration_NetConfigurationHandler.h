@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.Configuration.NetConfigurationHandler
-struct  NetConfigurationHandler_t4330  : public Object_t
+struct  NetConfigurationHandler_t4337  : public Object_t
 {
 };

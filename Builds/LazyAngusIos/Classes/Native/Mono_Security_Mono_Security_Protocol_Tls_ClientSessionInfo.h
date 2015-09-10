@@ -9,7 +9,7 @@ struct ByteU5BU5D_t66;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // Mono.Security.Protocol.Tls.ClientSessionInfo
-struct  ClientSessionInfo_t3191  : public Object_t
+struct  ClientSessionInfo_t3198  : public Object_t
 {
 	// System.Boolean Mono.Security.Protocol.Tls.ClientSessionInfo::disposed
 	bool ___disposed_1;
@@ -22,7 +22,7 @@ struct  ClientSessionInfo_t3191  : public Object_t
 	// System.Byte[] Mono.Security.Protocol.Tls.ClientSessionInfo::masterSecret
 	ByteU5BU5D_t66* ___masterSecret_5;
 };
-struct ClientSessionInfo_t3191_StaticFields{
+struct ClientSessionInfo_t3198_StaticFields{
 	// System.Int32 Mono.Security.Protocol.Tls.ClientSessionInfo::ValidityInterval
 	int32_t ___ValidityInterval_0;
 };

@@ -3,7 +3,7 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // AcceleratingSpinner
-struct  AcceleratingSpinner_t491  : public MonoBehaviour_t13
+struct  AcceleratingSpinner_t686  : public MonoBehaviour_t13
 {
 	// System.Single AcceleratingSpinner::initialAngleVelocityDeg
 	float ___initialAngleVelocityDeg_2;

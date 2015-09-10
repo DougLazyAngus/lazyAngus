@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.AssemblyNameFlags
-struct AssemblyNameFlags_t5013;
+struct AssemblyNameFlags_t5020;
 

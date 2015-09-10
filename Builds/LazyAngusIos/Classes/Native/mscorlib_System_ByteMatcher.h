@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Hashtable
-struct Hashtable_t714;
+struct Hashtable_t721;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.ByteMatcher
-struct  ByteMatcher_t4917  : public Object_t
+struct  ByteMatcher_t4924  : public Object_t
 {
 	// System.Collections.Hashtable System.ByteMatcher::map
-	Hashtable_t714 * ___map_0;
+	Hashtable_t721 * ___map_0;
 	// System.Collections.Hashtable System.ByteMatcher::starts
-	Hashtable_t714 * ___starts_1;
+	Hashtable_t721 * ___starts_1;
 };

@@ -3,6 +3,6 @@
 // System.Threading.EventWaitHandle
 #include "mscorlib_System_Threading_EventWaitHandle.h"
 // System.Threading.AutoResetEvent
-struct  AutoResetEvent_t3808  : public EventWaitHandle_t3787
+struct  AutoResetEvent_t3815  : public EventWaitHandle_t3794
 {
 };

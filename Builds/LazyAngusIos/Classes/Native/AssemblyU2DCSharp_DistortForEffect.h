@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // DistortForEffect/DistortFinishedHandler
-struct DistortFinishedHandler_t536;
+struct DistortFinishedHandler_t689;
 // UnityEngine.Transform
 struct Transform_t406;
 // BounceLerp
@@ -9,14 +9,14 @@ struct Transform_t406;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // DistortForEffect
-struct  DistortForEffect_t537  : public BounceLerp_t515
+struct  DistortForEffect_t535  : public BounceLerp_t605
 {
 	// DistortForEffect/DistortFinishedHandler DistortForEffect::handler
-	DistortFinishedHandler_t536 * ___handler_7;
+	DistortFinishedHandler_t689 * ___handler_7;
 	// System.Single DistortForEffect::startDistortTime
 	float ___startDistortTime_8;
 	// UnityEngine.Vector3 DistortForEffect::originalScale
-	Vector3_t538  ___originalScale_9;
+	Vector3_t523  ___originalScale_9;
 	// System.Single DistortForEffect::minScale
 	float ___minScale_10;
 	// UnityEngine.Transform DistortForEffect::thingToScale

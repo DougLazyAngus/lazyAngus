@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // RealAngusData/RealAngusDataChangedEventHandler
-struct  RealAngusDataChangedEventHandler_t646  : public MulticastDelegate_t388
+struct  RealAngusDataChangedEventHandler_t682  : public MulticastDelegate_t388
 {
 };

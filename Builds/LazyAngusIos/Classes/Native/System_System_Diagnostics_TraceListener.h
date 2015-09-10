@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Specialized.StringDictionary
-struct StringDictionary_t4221;
+struct StringDictionary_t4228;
 // System.String
 struct String_t;
 // System.MarshalByRefObject
@@ -9,14 +9,14 @@ struct String_t;
 // System.Diagnostics.TraceOptions
 #include "System_System_Diagnostics_TraceOptions.h"
 // System.Diagnostics.TraceListener
-struct  TraceListener_t4284  : public MarshalByRefObject_t4292
+struct  TraceListener_t4291  : public MarshalByRefObject_t4299
 {
 	// System.Int32 System.Diagnostics.TraceListener::indentLevel
 	int32_t ___indentLevel_1;
 	// System.Int32 System.Diagnostics.TraceListener::indentSize
 	int32_t ___indentSize_2;
 	// System.Collections.Specialized.StringDictionary System.Diagnostics.TraceListener::attributes
-	StringDictionary_t4221 * ___attributes_3;
+	StringDictionary_t4228 * ___attributes_3;
 	// System.Diagnostics.TraceOptions System.Diagnostics.TraceListener::options
 	int32_t ___options_4;
 	// System.String System.Diagnostics.TraceListener::name

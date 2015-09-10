@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlResolver
-struct  XmlResolver_t3437  : public Object_t
+struct  XmlResolver_t3444  : public Object_t
 {
 };

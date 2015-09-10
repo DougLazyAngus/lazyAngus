@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // Parse.ParseRole
-struct ParseRole_t1321;
+struct ParseRole_t1328;
 // System.Threading.Tasks.Task
 #include "Parse_Unity_System_Threading_Tasks_Task.h"
 // System.Threading.Tasks.Task`1<Parse.ParseRole>
-struct  Task_1_t6860  : public Task_t1231
+struct  Task_1_t6867  : public Task_t1238
 {
 	// T System.Threading.Tasks.Task`1<Parse.ParseRole>::result
-	ParseRole_t1321 * ___result_9;
+	ParseRole_t1328 * ___result_9;
 };

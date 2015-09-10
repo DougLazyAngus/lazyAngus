@@ -5,7 +5,7 @@ struct String_t;
 // System.Configuration.ConfigurationFileMap
 #include "System_Configuration_System_Configuration_ConfigurationFileM.h"
 // System.Configuration.ExeConfigurationFileMap
-struct  ExeConfigurationFileMap_t3353  : public ConfigurationFileMap_t3324
+struct  ExeConfigurationFileMap_t3360  : public ConfigurationFileMap_t3331
 {
 	// System.String System.Configuration.ExeConfigurationFileMap::exeConfigFilename
 	String_t* ___exeConfigFilename_1;

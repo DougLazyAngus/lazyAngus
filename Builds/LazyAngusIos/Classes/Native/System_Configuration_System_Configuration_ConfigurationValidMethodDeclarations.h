@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Configuration.ConfigurationValidatorAttribute
-struct ConfigurationValidatorAttribute_t3346;
+struct ConfigurationValidatorAttribute_t3353;
 // System.Configuration.ConfigurationValidatorBase
-struct ConfigurationValidatorBase_t3332;
+struct ConfigurationValidatorBase_t3339;
 
 // System.Configuration.ConfigurationValidatorBase System.Configuration.ConfigurationValidatorAttribute::get_ValidatorInstance()
-extern "C" ConfigurationValidatorBase_t3332 * ConfigurationValidatorAttribute_get_ValidatorInstance_m11914 (ConfigurationValidatorAttribute_t3346 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ConfigurationValidatorBase_t3339 * ConfigurationValidatorAttribute_get_ValidatorInstance_m11971 (ConfigurationValidatorAttribute_t3353 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

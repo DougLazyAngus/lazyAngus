@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ConsoleScreenBufferInfo
-struct ConsoleScreenBufferInfo_t4936;
+struct ConsoleScreenBufferInfo_t4943;
 

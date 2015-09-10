@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.ParseUser/<>c__DisplayClass15
-struct U3CU3Ec__DisplayClass15_t1331;
+struct U3CU3Ec__DisplayClass15_t1338;
 
 // System.Void Parse.ParseUser/<>c__DisplayClass15::.ctor()
-extern "C" void U3CU3Ec__DisplayClass15__ctor_m7202 (U3CU3Ec__DisplayClass15_t1331 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass15__ctor_m7260 (U3CU3Ec__DisplayClass15_t1338 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Parse.ParseUser/<>c__DisplayClass15::<SaveCurrentUserAsync>b__14()
-extern "C" void U3CU3Ec__DisplayClass15_U3CSaveCurrentUserAsyncU3Eb__14_m7203 (U3CU3Ec__DisplayClass15_t1331 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass15_U3CSaveCurrentUserAsyncU3Eb__14_m7261 (U3CU3Ec__DisplayClass15_t1338 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

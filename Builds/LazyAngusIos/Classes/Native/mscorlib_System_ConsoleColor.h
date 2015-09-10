@@ -5,7 +5,7 @@
 // System.ConsoleColor
 #include "mscorlib_System_ConsoleColor.h"
 // System.ConsoleColor
-struct  ConsoleColor_t4859 
+struct  ConsoleColor_t4866 
 {
 	// System.Int32 System.ConsoleColor::value__
 	int32_t ___value___1;

@@ -5,7 +5,7 @@
 // System.Configuration.ConfigurationSaveMode
 #include "System_Configuration_System_Configuration_ConfigurationSaveM.h"
 // System.Configuration.ConfigurationSaveMode
-struct  ConfigurationSaveMode_t3337 
+struct  ConfigurationSaveMode_t3344 
 {
 	// System.Int32 System.Configuration.ConfigurationSaveMode::value__
 	int32_t ___value___1;

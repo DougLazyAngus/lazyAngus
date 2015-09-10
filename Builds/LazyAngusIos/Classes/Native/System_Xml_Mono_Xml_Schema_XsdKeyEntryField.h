@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Xml.Schema.XsdKeyEntry
-struct XsdKeyEntry_t3412;
+struct XsdKeyEntry_t3419;
 // Mono.Xml.Schema.XsdIdentityField
-struct XsdIdentityField_t3408;
+struct XsdIdentityField_t3415;
 // Mono.Xml.Schema.XsdAnySimpleType
-struct XsdAnySimpleType_t3413;
+struct XsdAnySimpleType_t3420;
 // System.Object
 struct Object_t;
 // Mono.Xml.Schema.XsdIdentityPath
-struct XsdIdentityPath_t3410;
+struct XsdIdentityPath_t3417;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Xml.Schema.XsdKeyEntryField
-struct  XsdKeyEntryField_t3414  : public Object_t
+struct  XsdKeyEntryField_t3421  : public Object_t
 {
 	// Mono.Xml.Schema.XsdKeyEntry Mono.Xml.Schema.XsdKeyEntryField::entry
-	XsdKeyEntry_t3412 * ___entry_0;
+	XsdKeyEntry_t3419 * ___entry_0;
 	// Mono.Xml.Schema.XsdIdentityField Mono.Xml.Schema.XsdKeyEntryField::field
-	XsdIdentityField_t3408 * ___field_1;
+	XsdIdentityField_t3415 * ___field_1;
 	// System.Boolean Mono.Xml.Schema.XsdKeyEntryField::FieldFound
 	bool ___FieldFound_2;
 	// System.Int32 Mono.Xml.Schema.XsdKeyEntryField::FieldLineNumber
@@ -28,7 +28,7 @@ struct  XsdKeyEntryField_t3414  : public Object_t
 	// System.Boolean Mono.Xml.Schema.XsdKeyEntryField::FieldHasLineInfo
 	bool ___FieldHasLineInfo_5;
 	// Mono.Xml.Schema.XsdAnySimpleType Mono.Xml.Schema.XsdKeyEntryField::FieldType
-	XsdAnySimpleType_t3413 * ___FieldType_6;
+	XsdAnySimpleType_t3420 * ___FieldType_6;
 	// System.Object Mono.Xml.Schema.XsdKeyEntryField::Identity
 	Object_t * ___Identity_7;
 	// System.Boolean Mono.Xml.Schema.XsdKeyEntryField::IsXsiNil
@@ -36,7 +36,7 @@ struct  XsdKeyEntryField_t3414  : public Object_t
 	// System.Int32 Mono.Xml.Schema.XsdKeyEntryField::FieldFoundDepth
 	int32_t ___FieldFoundDepth_9;
 	// Mono.Xml.Schema.XsdIdentityPath Mono.Xml.Schema.XsdKeyEntryField::FieldFoundPath
-	XsdIdentityPath_t3410 * ___FieldFoundPath_10;
+	XsdIdentityPath_t3417 * ___FieldFoundPath_10;
 	// System.Boolean Mono.Xml.Schema.XsdKeyEntryField::Consuming
 	bool ___Consuming_11;
 	// System.Boolean Mono.Xml.Schema.XsdKeyEntryField::Consumed

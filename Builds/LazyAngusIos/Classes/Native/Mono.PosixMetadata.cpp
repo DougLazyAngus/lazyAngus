@@ -14,7 +14,7 @@
 #include <assert.h>
 #include "stringLiterals.h"
 
-extern TypeInfo U3CModuleU3E_t3110_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t3117_il2cpp_TypeInfo;
 // <Module>
 #include "Mono_Posix_U3CModuleU3E.h"
 #include <map>
@@ -22,7 +22,7 @@ struct TypeInfo;
 struct MethodInfo;
 TypeInfo* g_Mono_Posix_Assembly_Types[2] = 
 {
-	&U3CModuleU3E_t3110_il2cpp_TypeInfo,
+	&U3CModuleU3E_t3117_il2cpp_TypeInfo,
 	NULL,
 };
 extern Il2CppImage g_Mono_Posix_dll_Image;

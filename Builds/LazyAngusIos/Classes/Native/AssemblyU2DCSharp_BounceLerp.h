@@ -3,7 +3,7 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // BounceLerp
-struct  BounceLerp_t515  : public MonoBehaviour_t13
+struct  BounceLerp_t605  : public MonoBehaviour_t13
 {
 	// System.Single BounceLerp::secondsPerPeriod
 	float ___secondsPerPeriod_2;

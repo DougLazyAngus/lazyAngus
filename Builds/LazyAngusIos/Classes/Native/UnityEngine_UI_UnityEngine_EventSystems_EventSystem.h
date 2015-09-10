@@ -1,26 +1,26 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>
-struct List_1_t861;
+struct List_1_t868;
 // UnityEngine.EventSystems.BaseInputModule
-struct BaseInputModule_t862;
+struct BaseInputModule_t869;
 // UnityEngine.GameObject
 struct GameObject_t352;
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t863;
+struct BaseEventData_t870;
 // System.Comparison`1<UnityEngine.EventSystems.RaycastResult>
-struct Comparison_1_t864;
+struct Comparison_1_t871;
 // UnityEngine.EventSystems.EventSystem
-struct EventSystem_t865;
+struct EventSystem_t872;
 // UnityEngine.EventSystems.UIBehaviour
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 // UnityEngine.EventSystems.EventSystem
-struct  EventSystem_t865  : public UIBehaviour_t866
+struct  EventSystem_t872  : public UIBehaviour_t873
 {
 	// System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule> UnityEngine.EventSystems.EventSystem::m_SystemInputModules
-	List_1_t861 * ___m_SystemInputModules_2;
+	List_1_t868 * ___m_SystemInputModules_2;
 	// UnityEngine.EventSystems.BaseInputModule UnityEngine.EventSystems.EventSystem::m_CurrentInputModule
-	BaseInputModule_t862 * ___m_CurrentInputModule_3;
+	BaseInputModule_t869 * ___m_CurrentInputModule_3;
 	// UnityEngine.GameObject UnityEngine.EventSystems.EventSystem::m_FirstSelected
 	GameObject_t352 * ___m_FirstSelected_4;
 	// System.Boolean UnityEngine.EventSystems.EventSystem::m_sendNavigationEvents
@@ -32,11 +32,11 @@ struct  EventSystem_t865  : public UIBehaviour_t866
 	// System.Boolean UnityEngine.EventSystems.EventSystem::m_SelectionGuard
 	bool ___m_SelectionGuard_8;
 	// UnityEngine.EventSystems.BaseEventData UnityEngine.EventSystems.EventSystem::m_DummyData
-	BaseEventData_t863 * ___m_DummyData_9;
+	BaseEventData_t870 * ___m_DummyData_9;
 };
-struct EventSystem_t865_StaticFields{
+struct EventSystem_t872_StaticFields{
 	// System.Comparison`1<UnityEngine.EventSystems.RaycastResult> UnityEngine.EventSystems.EventSystem::s_RaycastComparer
-	Comparison_1_t864 * ___s_RaycastComparer_10;
+	Comparison_1_t871 * ___s_RaycastComparer_10;
 	// UnityEngine.EventSystems.EventSystem UnityEngine.EventSystems.EventSystem::<current>k__BackingField
-	EventSystem_t865 * ___U3CcurrentU3Ek__BackingField_11;
+	EventSystem_t872 * ___U3CcurrentU3Ek__BackingField_11;
 };

@@ -5,7 +5,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Xml.Schema.XsdIdentityStep
-struct  XsdIdentityStep_t3411  : public Object_t
+struct  XsdIdentityStep_t3418  : public Object_t
 {
 	// System.Boolean Mono.Xml.Schema.XsdIdentityStep::IsCurrent
 	bool ___IsCurrent_0;

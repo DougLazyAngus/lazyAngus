@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t840;
+struct IDictionary_2_t847;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.HttpStatusCode
 #include "System_System_Net_HttpStatusCode.h"
 // System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>
-struct  Tuple_2_t1272  : public Object_t
+struct  Tuple_2_t1279  : public Object_t
 {
 	// T1 System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>::<Item1>k__BackingField
 	int32_t ___U3CItem1U3Ek__BackingField_0;

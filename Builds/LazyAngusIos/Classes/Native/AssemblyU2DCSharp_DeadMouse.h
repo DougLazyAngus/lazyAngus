@@ -5,7 +5,7 @@
 // MouseConfig/MouseType
 #include "AssemblyU2DCSharp_MouseConfig_MouseType.h"
 // DeadMouse
-struct  DeadMouse_t528  : public MonoBehaviour_t13
+struct  DeadMouse_t515  : public MonoBehaviour_t13
 {
 	// System.Single DeadMouse::zIndex
 	float ___zIndex_2;

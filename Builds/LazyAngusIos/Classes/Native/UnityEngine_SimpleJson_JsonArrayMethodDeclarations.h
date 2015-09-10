@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // SimpleJson.JsonArray
-struct JsonArray_t2839;
+struct JsonArray_t2846;
 // System.String
 struct String_t;
 
 // System.Void SimpleJson.JsonArray::.ctor()
-extern "C" void JsonArray__ctor_m9937 (JsonArray_t2839 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void JsonArray__ctor_m9994 (JsonArray_t2846 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String SimpleJson.JsonArray::ToString()
-extern "C" String_t* JsonArray_ToString_m9938 (JsonArray_t2839 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* JsonArray_ToString_m9995 (JsonArray_t2846 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

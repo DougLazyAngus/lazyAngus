@@ -5,31 +5,31 @@
 #include "codegen/il2cpp-codegen.h"
 
 // GameUIController
-struct GameUIController_t568;
+struct GameUIController_t618;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // GameUIController/GameUIsType
 #include "AssemblyU2DCSharp_GameUIController_GameUIsType.h"
 
 // System.Void GameUIController::.ctor()
-extern "C" void GameUIController__ctor_m3061 (GameUIController_t568 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameUIController__ctor_m3322 (GameUIController_t618 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // GameUIController GameUIController::get_instance()
-extern "C" GameUIController_t568 * GameUIController_get_instance_m3062 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameUIController_t618 * GameUIController_get_instance_m3323 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameUIController::set_instance(GameUIController)
-extern "C" void GameUIController_set_instance_m3063 (Object_t * __this /* static, unused */, GameUIController_t568 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameUIController_set_instance_m3324 (Object_t * __this /* static, unused */, GameUIController_t618 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameUIController::Awake()
-extern "C" void GameUIController_Awake_m3064 (GameUIController_t568 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameUIController_Awake_m3325 (GameUIController_t618 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameUIController::Start()
-extern "C" void GameUIController_Start_m3065 (GameUIController_t568 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameUIController_Start_m3326 (GameUIController_t618 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator GameUIController::ConfirmComplete()
-extern "C" Object_t * GameUIController_ConfirmComplete_m3066 (GameUIController_t568 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * GameUIController_ConfirmComplete_m3327 (GameUIController_t618 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameUIController::OnDestroy()
-extern "C" void GameUIController_OnDestroy_m3067 (GameUIController_t568 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameUIController_OnDestroy_m3328 (GameUIController_t618 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameUIController::RegisterForEvents()
-extern "C" void GameUIController_RegisterForEvents_m3068 (GameUIController_t568 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameUIController_RegisterForEvents_m3329 (GameUIController_t618 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameUIController::UnregisterForEvents()
-extern "C" void GameUIController_UnregisterForEvents_m3069 (GameUIController_t568 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameUIController_UnregisterForEvents_m3330 (GameUIController_t618 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameUIController::OnGamePhaseChanged()
-extern "C" void GameUIController_OnGamePhaseChanged_m3070 (GameUIController_t568 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameUIController_OnGamePhaseChanged_m3331 (GameUIController_t618 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameUIController::SetActiveUI(GameUIController/GameUIsType)
-extern "C" void GameUIController_SetActiveUI_m3071 (GameUIController_t568 * __this, int32_t ___uiType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GameUIController_SetActiveUI_m3332 (GameUIController_t618 * __this, int32_t ___uiType, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.ParseObject/<>c__DisplayClass7b
-struct U3CU3Ec__DisplayClass7b_t1293;
+struct U3CU3Ec__DisplayClass7b_t1300;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>
-struct Task_1_t1408;
+struct Task_1_t1415;
 // System.Threading.Tasks.Task
-struct Task_t1231;
+struct Task_t1238;
 
 // System.Void Parse.ParseObject/<>c__DisplayClass7b::.ctor()
-extern "C" void U3CU3Ec__DisplayClass7b__ctor_m6970 (U3CU3Ec__DisplayClass7b_t1293 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass7b__ctor_m7028 (U3CU3Ec__DisplayClass7b_t1300 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>> Parse.ParseObject/<>c__DisplayClass7b::<DeleteAsync>b__79(System.Threading.Tasks.Task)
-extern "C" Task_1_t1408 * U3CU3Ec__DisplayClass7b_U3CDeleteAsyncU3Eb__79_m6971 (U3CU3Ec__DisplayClass7b_t1293 * __this, Task_t1231 * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_1_t1415 * U3CU3Ec__DisplayClass7b_U3CDeleteAsyncU3Eb__79_m7029 (U3CU3Ec__DisplayClass7b_t1300 * __this, Task_t1238 * ____, const MethodInfo* method) IL2CPP_METHOD_ATTR;

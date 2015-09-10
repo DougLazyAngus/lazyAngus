@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.ThreadPool
-struct  ThreadPool_t5384  : public Object_t
+struct  ThreadPool_t5391  : public Object_t
 {
 };

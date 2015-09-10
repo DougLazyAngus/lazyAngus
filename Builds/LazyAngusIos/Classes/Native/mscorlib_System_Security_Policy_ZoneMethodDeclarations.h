@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Policy.Zone
-struct Zone_t5349;
+struct Zone_t5356;
 // System.Security.IPermission
-struct IPermission_t5244;
+struct IPermission_t5251;
 // System.Security.Policy.Evidence
-struct Evidence_t4836;
+struct Evidence_t4843;
 // System.String
 struct String_t;
 // System.Object
@@ -18,16 +18,16 @@ struct Object_t;
 #include "mscorlib_System_Security_SecurityZone.h"
 
 // System.Void System.Security.Policy.Zone::.ctor(System.Security.SecurityZone)
-extern "C" void Zone__ctor_m24042 (Zone_t5349 * __this, int32_t ___zone, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Zone__ctor_m24099 (Zone_t5356 * __this, int32_t ___zone, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.SecurityZone System.Security.Policy.Zone::get_SecurityZone()
-extern "C" int32_t Zone_get_SecurityZone_m24043 (Zone_t5349 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Zone_get_SecurityZone_m24100 (Zone_t5356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.IPermission System.Security.Policy.Zone::CreateIdentityPermission(System.Security.Policy.Evidence)
-extern "C" Object_t * Zone_CreateIdentityPermission_m24044 (Zone_t5349 * __this, Evidence_t4836 * ___evidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Zone_CreateIdentityPermission_m24101 (Zone_t5356 * __this, Evidence_t4843 * ___evidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Policy.Zone System.Security.Policy.Zone::CreateFromUrl(System.String)
-extern "C" Zone_t5349 * Zone_CreateFromUrl_m24045 (Object_t * __this /* static, unused */, String_t* ___url, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Zone_t5356 * Zone_CreateFromUrl_m24102 (Object_t * __this /* static, unused */, String_t* ___url, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Policy.Zone::Equals(System.Object)
-extern "C" bool Zone_Equals_m24046 (Zone_t5349 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Zone_Equals_m24103 (Zone_t5356 * __this, Object_t * ___o, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Policy.Zone::GetHashCode()
-extern "C" int32_t Zone_GetHashCode_m24047 (Zone_t5349 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Zone_GetHashCode_m24104 (Zone_t5356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Security.Policy.Zone::ToString()
-extern "C" String_t* Zone_ToString_m24048 (Zone_t5349 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Zone_ToString_m24105 (Zone_t5356 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

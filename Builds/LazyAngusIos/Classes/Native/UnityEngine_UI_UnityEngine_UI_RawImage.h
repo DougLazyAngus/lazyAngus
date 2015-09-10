@@ -7,10 +7,10 @@ struct Texture_t394;
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // UnityEngine.UI.RawImage
-struct  RawImage_t976  : public MaskableGraphic_t956
+struct  RawImage_t983  : public MaskableGraphic_t963
 {
 	// UnityEngine.Texture UnityEngine.UI.RawImage::m_Texture
 	Texture_t394 * ___m_Texture_23;
 	// UnityEngine.Rect UnityEngine.UI.RawImage::m_UVRect
-	Rect_t712  ___m_UVRect_24;
+	Rect_t719  ___m_UVRect_24;
 };

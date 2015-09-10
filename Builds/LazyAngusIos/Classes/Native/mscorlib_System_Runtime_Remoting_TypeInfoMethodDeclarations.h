@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.TypeInfo
-struct TypeInfo_t5131;
+struct TypeInfo_t5138;
 // System.String
 struct String_t;
 // System.Type
 struct Type_t;
 
 // System.Void System.Runtime.Remoting.TypeInfo::.ctor(System.Type)
-extern "C" void TypeInfo__ctor_m22666 (TypeInfo_t5131 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TypeInfo__ctor_m22723 (TypeInfo_t5138 * __this, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.TypeInfo::get_TypeName()
-extern "C" String_t* TypeInfo_get_TypeName_m22667 (TypeInfo_t5131 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* TypeInfo_get_TypeName_m22724 (TypeInfo_t5138 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

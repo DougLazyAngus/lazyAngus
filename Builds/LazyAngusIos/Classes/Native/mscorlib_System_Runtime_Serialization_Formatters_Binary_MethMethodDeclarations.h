@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.Formatters.Binary.MethodFlags
-struct MethodFlags_t5216;
+struct MethodFlags_t5223;
 

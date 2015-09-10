@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.PropertyAttributes
-struct PropertyAttributes_t5040;
+struct PropertyAttributes_t5047;
 

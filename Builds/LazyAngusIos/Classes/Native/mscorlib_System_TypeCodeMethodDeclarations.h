@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.TypeCode
-struct TypeCode_t4927;
+struct TypeCode_t4934;
 

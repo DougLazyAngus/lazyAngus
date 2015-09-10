@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // Parse.ParseObject
-struct ParseObject_t1242;
+struct ParseObject_t1249;
 // System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>
-struct Task_1_t2458;
+struct Task_1_t2465;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Func`2<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseObject>>,Parse.ParseObject>
-struct  Func_2_t6705  : public MulticastDelegate_t388
+struct  Func_2_t6712  : public MulticastDelegate_t388
 {
 };

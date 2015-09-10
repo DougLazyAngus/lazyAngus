@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.AsymmetricAlgorithm
-struct AsymmetricAlgorithm_t3243;
+struct AsymmetricAlgorithm_t3250;
 // System.Security.Cryptography.X509Certificates.X509Certificate
-struct X509Certificate_t3225;
+struct X509Certificate_t3232;
 // System.String
 struct String_t;
 // System.IAsyncResult
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // Mono.Security.Protocol.Tls.PrivateKeySelectionCallback
-struct  PrivateKeySelectionCallback_t3203  : public MulticastDelegate_t388
+struct  PrivateKeySelectionCallback_t3210  : public MulticastDelegate_t388
 {
 };

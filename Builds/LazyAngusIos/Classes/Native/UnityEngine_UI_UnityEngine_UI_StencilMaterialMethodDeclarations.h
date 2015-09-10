@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.StencilMaterial
-struct StencilMaterial_t999;
+struct StencilMaterial_t1006;
 // UnityEngine.Material
-struct Material_t526;
+struct Material_t513;
 
 // System.Void UnityEngine.UI.StencilMaterial::.cctor()
-extern "C" void StencilMaterial__cctor_m5631 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StencilMaterial__cctor_m5690 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Material UnityEngine.UI.StencilMaterial::Add(UnityEngine.Material,System.Int32)
-extern "C" Material_t526 * StencilMaterial_Add_m5632 (Object_t * __this /* static, unused */, Material_t526 * ___baseMat, int32_t ___stencilID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Material_t513 * StencilMaterial_Add_m5691 (Object_t * __this /* static, unused */, Material_t513 * ___baseMat, int32_t ___stencilID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.StencilMaterial::Remove(UnityEngine.Material)
-extern "C" void StencilMaterial_Remove_m5633 (Object_t * __this /* static, unused */, Material_t526 * ___customMat, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StencilMaterial_Remove_m5692 (Object_t * __this /* static, unused */, Material_t513 * ___customMat, const MethodInfo* method) IL2CPP_METHOD_ATTR;

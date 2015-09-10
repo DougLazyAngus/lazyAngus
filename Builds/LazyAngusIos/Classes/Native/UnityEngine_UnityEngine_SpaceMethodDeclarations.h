@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Space
-struct Space_t2707;
+struct Space_t2714;
 

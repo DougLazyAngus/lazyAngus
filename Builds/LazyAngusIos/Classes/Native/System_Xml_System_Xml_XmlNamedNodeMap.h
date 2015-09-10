@@ -3,22 +3,22 @@
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Xml.XmlNode
-struct XmlNode_t735;
+struct XmlNode_t742;
 // System.Collections.ArrayList
-struct ArrayList_t716;
+struct ArrayList_t723;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Xml.XmlNamedNodeMap
-struct  XmlNamedNodeMap_t3507  : public Object_t
+struct  XmlNamedNodeMap_t3514  : public Object_t
 {
 	// System.Xml.XmlNode System.Xml.XmlNamedNodeMap::parent
-	XmlNode_t735 * ___parent_1;
+	XmlNode_t742 * ___parent_1;
 	// System.Collections.ArrayList System.Xml.XmlNamedNodeMap::nodeList
-	ArrayList_t716 * ___nodeList_2;
+	ArrayList_t723 * ___nodeList_2;
 	// System.Boolean System.Xml.XmlNamedNodeMap::readOnly
 	bool ___readOnly_3;
 };
-struct XmlNamedNodeMap_t3507_StaticFields{
+struct XmlNamedNodeMap_t3514_StaticFields{
 	// System.Collections.IEnumerator System.Xml.XmlNamedNodeMap::emptyEnumerator
 	Object_t * ___emptyEnumerator_0;
 };

@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.X509.X509Stores
-struct X509Stores_t4824;
+struct X509Stores_t4831;
 // Mono.Security.X509.X509Store
-struct X509Store_t4823;
+struct X509Store_t4830;
 // System.String
 struct String_t;
 
 // System.Void Mono.Security.X509.X509Stores::.ctor(System.String)
-extern "C" void X509Stores__ctor_m19890 (X509Stores_t4824 * __this, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Stores__ctor_m19947 (X509Stores_t4831 * __this, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509Store Mono.Security.X509.X509Stores::get_TrustedRoot()
-extern "C" X509Store_t4823 * X509Stores_get_TrustedRoot_m19891 (X509Stores_t4824 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Store_t4830 * X509Stores_get_TrustedRoot_m19948 (X509Stores_t4831 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

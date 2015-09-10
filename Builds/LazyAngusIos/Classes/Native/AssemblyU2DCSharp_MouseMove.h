@@ -1,15 +1,15 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Renderer
-struct Renderer_t604;
+struct Renderer_t546;
 // UnityEngine.GameObject
 struct GameObject_t352;
 // UnityEngine.Transform
 struct Transform_t406;
 // UnityEngine.UI.Slider
-struct Slider_t497;
+struct Slider_t494;
 // TweakableSlider
-struct TweakableSlider_t605;
+struct TweakableSlider_t547;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // MouseConfig/MovementPhaseType
@@ -19,10 +19,10 @@ struct TweakableSlider_t605;
 // MouseConfig/MouseType
 #include "AssemblyU2DCSharp_MouseConfig_MouseType.h"
 // MouseMove
-struct  MouseMove_t530  : public MonoBehaviour_t13
+struct  MouseMove_t517  : public MonoBehaviour_t13
 {
 	// UnityEngine.Renderer MouseMove::mouseRenderer
-	Renderer_t604 * ___mouseRenderer_3;
+	Renderer_t546 * ___mouseRenderer_3;
 	// UnityEngine.GameObject MouseMove::trackingStatusBarPrototype
 	GameObject_t352 * ___trackingStatusBarPrototype_4;
 	// System.Single MouseMove::minDistanceToManuallyOrient
@@ -54,9 +54,9 @@ struct  MouseMove_t530  : public MonoBehaviour_t13
 	// System.Single MouseMove::zeroCenteredAngleAdjustmentWhileRunning
 	float ___zeroCenteredAngleAdjustmentWhileRunning_18;
 	// UnityEngine.UI.Slider MouseMove::sliderInstance
-	Slider_t497 * ___sliderInstance_19;
+	Slider_t494 * ___sliderInstance_19;
 	// TweakableSlider MouseMove::tweakableSlider
-	TweakableSlider_t605 * ___tweakableSlider_20;
+	TweakableSlider_t547 * ___tweakableSlider_20;
 	// MouseConfig/MouseWiggleType MouseMove::wiggleType
 	int32_t ___wiggleType_21;
 	// System.Single MouseMove::wiggleMagnitude
@@ -76,7 +76,7 @@ struct  MouseMove_t530  : public MonoBehaviour_t13
 	// System.Boolean MouseMove::<isFartedUpon>k__BackingField
 	bool ___U3CisFartedUponU3Ek__BackingField_29;
 };
-struct MouseMove_t530_StaticFields{
+struct MouseMove_t517_StaticFields{
 	// System.Int32 MouseMove::activeMouseCount
 	int32_t ___activeMouseCount_2;
 };

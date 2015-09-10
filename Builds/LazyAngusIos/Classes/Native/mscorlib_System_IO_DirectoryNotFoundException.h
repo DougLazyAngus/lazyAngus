@@ -3,6 +3,6 @@
 // System.IO.IOException
 #include "mscorlib_System_IO_IOException.h"
 // System.IO.DirectoryNotFoundException
-struct  DirectoryNotFoundException_t4983  : public IOException_t3287
+struct  DirectoryNotFoundException_t4990  : public IOException_t3294
 {
 };

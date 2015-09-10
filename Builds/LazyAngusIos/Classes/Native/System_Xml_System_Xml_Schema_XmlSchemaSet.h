@@ -1,48 +1,48 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.XmlNameTable
-struct XmlNameTable_t3462;
+struct XmlNameTable_t3469;
 // System.Xml.XmlResolver
-struct XmlResolver_t3437;
+struct XmlResolver_t3444;
 // System.Collections.ArrayList
-struct ArrayList_t716;
+struct ArrayList_t723;
 // System.Xml.Schema.XmlSchemaObjectTable
-struct XmlSchemaObjectTable_t3626;
+struct XmlSchemaObjectTable_t3633;
 // System.Collections.Hashtable
-struct Hashtable_t714;
+struct Hashtable_t721;
 // System.Xml.Schema.XmlSchemaCompilationSettings
-struct XmlSchemaCompilationSettings_t3642;
+struct XmlSchemaCompilationSettings_t3649;
 // System.Xml.Schema.ValidationEventHandler
-struct ValidationEventHandler_t3441;
+struct ValidationEventHandler_t3448;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Guid
 #include "mscorlib_System_Guid.h"
 // System.Xml.Schema.XmlSchemaSet
-struct  XmlSchemaSet_t3439  : public Object_t
+struct  XmlSchemaSet_t3446  : public Object_t
 {
 	// System.Xml.XmlNameTable System.Xml.Schema.XmlSchemaSet::nameTable
-	XmlNameTable_t3462 * ___nameTable_0;
+	XmlNameTable_t3469 * ___nameTable_0;
 	// System.Xml.XmlResolver System.Xml.Schema.XmlSchemaSet::xmlResolver
-	XmlResolver_t3437 * ___xmlResolver_1;
+	XmlResolver_t3444 * ___xmlResolver_1;
 	// System.Collections.ArrayList System.Xml.Schema.XmlSchemaSet::schemas
-	ArrayList_t716 * ___schemas_2;
+	ArrayList_t723 * ___schemas_2;
 	// System.Xml.Schema.XmlSchemaObjectTable System.Xml.Schema.XmlSchemaSet::attributes
-	XmlSchemaObjectTable_t3626 * ___attributes_3;
+	XmlSchemaObjectTable_t3633 * ___attributes_3;
 	// System.Xml.Schema.XmlSchemaObjectTable System.Xml.Schema.XmlSchemaSet::elements
-	XmlSchemaObjectTable_t3626 * ___elements_4;
+	XmlSchemaObjectTable_t3633 * ___elements_4;
 	// System.Xml.Schema.XmlSchemaObjectTable System.Xml.Schema.XmlSchemaSet::types
-	XmlSchemaObjectTable_t3626 * ___types_5;
+	XmlSchemaObjectTable_t3633 * ___types_5;
 	// System.Collections.Hashtable System.Xml.Schema.XmlSchemaSet::idCollection
-	Hashtable_t714 * ___idCollection_6;
+	Hashtable_t721 * ___idCollection_6;
 	// System.Xml.Schema.XmlSchemaObjectTable System.Xml.Schema.XmlSchemaSet::namedIdentities
-	XmlSchemaObjectTable_t3626 * ___namedIdentities_7;
+	XmlSchemaObjectTable_t3633 * ___namedIdentities_7;
 	// System.Xml.Schema.XmlSchemaCompilationSettings System.Xml.Schema.XmlSchemaSet::settings
-	XmlSchemaCompilationSettings_t3642 * ___settings_8;
+	XmlSchemaCompilationSettings_t3649 * ___settings_8;
 	// System.Boolean System.Xml.Schema.XmlSchemaSet::isCompiled
 	bool ___isCompiled_9;
 	// System.Guid System.Xml.Schema.XmlSchemaSet::CompilationId
 	Guid_t74  ___CompilationId_10;
 	// System.Xml.Schema.ValidationEventHandler System.Xml.Schema.XmlSchemaSet::ValidationEventHandler
-	ValidationEventHandler_t3441 * ___ValidationEventHandler_11;
+	ValidationEventHandler_t3448 * ___ValidationEventHandler_11;
 };

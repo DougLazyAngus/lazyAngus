@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Canvas
-struct Canvas_t547;
+struct Canvas_t691;
 // UnityEngine.EventSystems.UIBehaviour
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 // UnityEngine.UI.CanvasScaler/ScaleMode
@@ -13,7 +13,7 @@ struct Canvas_t547;
 // UnityEngine.UI.CanvasScaler/Unit
 #include "UnityEngine_UI_UnityEngine_UI_CanvasScaler_Unit.h"
 // UnityEngine.UI.CanvasScaler
-struct  CanvasScaler_t520  : public UIBehaviour_t866
+struct  CanvasScaler_t607  : public UIBehaviour_t873
 {
 	// UnityEngine.UI.CanvasScaler/ScaleMode UnityEngine.UI.CanvasScaler::m_UiScaleMode
 	int32_t ___m_UiScaleMode_3;
@@ -36,7 +36,7 @@ struct  CanvasScaler_t520  : public UIBehaviour_t866
 	// System.Single UnityEngine.UI.CanvasScaler::m_DynamicPixelsPerUnit
 	float ___m_DynamicPixelsPerUnit_12;
 	// UnityEngine.Canvas UnityEngine.UI.CanvasScaler::m_Canvas
-	Canvas_t547 * ___m_Canvas_13;
+	Canvas_t691 * ___m_Canvas_13;
 	// System.Single UnityEngine.UI.CanvasScaler::m_PrevScaleFactor
 	float ___m_PrevScaleFactor_14;
 	// System.Single UnityEngine.UI.CanvasScaler::m_PrevReferencePixelsPerUnit

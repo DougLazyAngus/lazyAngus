@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // Parse.ParseUser
-struct ParseUser_t1326;
+struct ParseUser_t1333;
 // System.String
 struct String_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t840;
+struct IDictionary_2_t847;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.ParseUser/<>c__DisplayClass28
-struct  U3CU3Ec__DisplayClass28_t1336  : public Object_t
+struct  U3CU3Ec__DisplayClass28_t1343  : public Object_t
 {
 	// Parse.ParseUser Parse.ParseUser/<>c__DisplayClass28::user
-	ParseUser_t1326 * ___user_0;
+	ParseUser_t1333 * ___user_0;
 	// System.String Parse.ParseUser/<>c__DisplayClass28::authType
 	String_t* ___authType_1;
 	// System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParseUser/<>c__DisplayClass28::data

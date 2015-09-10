@@ -3,20 +3,20 @@
 // System.String
 struct String_t;
 // FacebookSharing
-struct FacebookSharing_t540;
+struct FacebookSharing_t520;
 // UnityEngine.Texture2D
 struct Texture2D_t108;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // FacebookSharing
-struct  FacebookSharing_t540  : public MonoBehaviour_t13
+struct  FacebookSharing_t520  : public MonoBehaviour_t13
 {
 	// System.Int32 FacebookSharing::scoreToShare
 	int32_t ___scoreToShare_6;
 	// UnityEngine.Texture2D FacebookSharing::lazyAngusIcon
 	Texture2D_t108 * ___lazyAngusIcon_7;
 };
-struct FacebookSharing_t540_StaticFields{
+struct FacebookSharing_t520_StaticFields{
 	// FacebookSharing FacebookSharing::instance
-	FacebookSharing_t540 * ___instance_5;
+	FacebookSharing_t520 * ___instance_5;
 };

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Schema.XmlSchemaFacet/Facet
-struct Facet_t3657;
+struct Facet_t3664;
 

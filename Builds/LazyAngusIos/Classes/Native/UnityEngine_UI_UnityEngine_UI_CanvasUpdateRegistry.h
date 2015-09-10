@@ -1,34 +1,34 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.CanvasUpdateRegistry
-struct CanvasUpdateRegistry_t928;
+struct CanvasUpdateRegistry_t935;
 // UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement>
-struct IndexedSet_1_t929;
+struct IndexedSet_1_t936;
 // System.Comparison`1<UnityEngine.UI.ICanvasElement>
-struct Comparison_1_t930;
+struct Comparison_1_t937;
 // System.Predicate`1<UnityEngine.UI.ICanvasElement>
-struct Predicate_1_t931;
+struct Predicate_1_t938;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.UI.CanvasUpdateRegistry
-struct  CanvasUpdateRegistry_t928  : public Object_t
+struct  CanvasUpdateRegistry_t935  : public Object_t
 {
 	// System.Boolean UnityEngine.UI.CanvasUpdateRegistry::m_PerformingLayoutUpdate
 	bool ___m_PerformingLayoutUpdate_1;
 	// System.Boolean UnityEngine.UI.CanvasUpdateRegistry::m_PerformingGraphicUpdate
 	bool ___m_PerformingGraphicUpdate_2;
 	// UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement> UnityEngine.UI.CanvasUpdateRegistry::m_LayoutRebuildQueue
-	IndexedSet_1_t929 * ___m_LayoutRebuildQueue_3;
+	IndexedSet_1_t936 * ___m_LayoutRebuildQueue_3;
 	// UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement> UnityEngine.UI.CanvasUpdateRegistry::m_GraphicRebuildQueue
-	IndexedSet_1_t929 * ___m_GraphicRebuildQueue_4;
+	IndexedSet_1_t936 * ___m_GraphicRebuildQueue_4;
 };
-struct CanvasUpdateRegistry_t928_StaticFields{
+struct CanvasUpdateRegistry_t935_StaticFields{
 	// UnityEngine.UI.CanvasUpdateRegistry UnityEngine.UI.CanvasUpdateRegistry::s_Instance
-	CanvasUpdateRegistry_t928 * ___s_Instance_0;
+	CanvasUpdateRegistry_t935 * ___s_Instance_0;
 	// System.Comparison`1<UnityEngine.UI.ICanvasElement> UnityEngine.UI.CanvasUpdateRegistry::s_SortLayoutFunction
-	Comparison_1_t930 * ___s_SortLayoutFunction_5;
+	Comparison_1_t937 * ___s_SortLayoutFunction_5;
 	// System.Predicate`1<UnityEngine.UI.ICanvasElement> UnityEngine.UI.CanvasUpdateRegistry::<>f__am$cache6
-	Predicate_1_t931 * ___U3CU3Ef__amU24cache6_6;
+	Predicate_1_t938 * ___U3CU3Ef__amU24cache6_6;
 	// System.Predicate`1<UnityEngine.UI.ICanvasElement> UnityEngine.UI.CanvasUpdateRegistry::<>f__am$cache7
-	Predicate_1_t931 * ___U3CU3Ef__amU24cache7_7;
+	Predicate_1_t938 * ___U3CU3Ef__amU24cache7_7;
 };

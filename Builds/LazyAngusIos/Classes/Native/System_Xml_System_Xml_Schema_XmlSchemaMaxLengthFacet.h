@@ -3,6 +3,6 @@
 // System.Xml.Schema.XmlSchemaNumericFacet
 #include "System_Xml_System_Xml_Schema_XmlSchemaNumericFacet.h"
 // System.Xml.Schema.XmlSchemaMaxLengthFacet
-struct  XmlSchemaMaxLengthFacet_t3672  : public XmlSchemaNumericFacet_t3660
+struct  XmlSchemaMaxLengthFacet_t3679  : public XmlSchemaNumericFacet_t3667
 {
 };

@@ -5,7 +5,7 @@ struct Object_t;
 // System.Xml.Schema.XmlSchemaAnnotated
 #include "System_Xml_System_Xml_Schema_XmlSchemaAnnotated.h"
 // System.Xml.Schema.XmlSchemaContent
-struct  XmlSchemaContent_t3643  : public XmlSchemaAnnotated_t3632
+struct  XmlSchemaContent_t3650  : public XmlSchemaAnnotated_t3639
 {
 	// System.Object System.Xml.Schema.XmlSchemaContent::actualBaseSchemaType
 	Object_t * ___actualBaseSchemaType_16;

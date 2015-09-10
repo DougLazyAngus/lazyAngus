@@ -5,16 +5,16 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.Internal.IdentityEqualityComparer`1<System.Object>
-struct IdentityEqualityComparer_1_t1487;
+struct IdentityEqualityComparer_1_t1494;
 // System.Object
 struct Object_t;
 
 // System.Boolean Parse.Internal.IdentityEqualityComparer`1<System.Object>::Equals(T,T)
-extern "C" bool IdentityEqualityComparer_1_Equals_m36428_gshared (IdentityEqualityComparer_1_t1487 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
-#define IdentityEqualityComparer_1_Equals_m36428(__this, ___x, ___y, method) (( bool (*) (IdentityEqualityComparer_1_t1487 *, Object_t *, Object_t *, const MethodInfo*))IdentityEqualityComparer_1_Equals_m36428_gshared)(__this, ___x, ___y, method)
+extern "C" bool IdentityEqualityComparer_1_Equals_m36485_gshared (IdentityEqualityComparer_1_t1494 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
+#define IdentityEqualityComparer_1_Equals_m36485(__this, ___x, ___y, method) (( bool (*) (IdentityEqualityComparer_1_t1494 *, Object_t *, Object_t *, const MethodInfo*))IdentityEqualityComparer_1_Equals_m36485_gshared)(__this, ___x, ___y, method)
 // System.Int32 Parse.Internal.IdentityEqualityComparer`1<System.Object>::GetHashCode(T)
-extern "C" int32_t IdentityEqualityComparer_1_GetHashCode_m36429_gshared (IdentityEqualityComparer_1_t1487 * __this, Object_t * ___obj, const MethodInfo* method);
-#define IdentityEqualityComparer_1_GetHashCode_m36429(__this, ___obj, method) (( int32_t (*) (IdentityEqualityComparer_1_t1487 *, Object_t *, const MethodInfo*))IdentityEqualityComparer_1_GetHashCode_m36429_gshared)(__this, ___obj, method)
+extern "C" int32_t IdentityEqualityComparer_1_GetHashCode_m36486_gshared (IdentityEqualityComparer_1_t1494 * __this, Object_t * ___obj, const MethodInfo* method);
+#define IdentityEqualityComparer_1_GetHashCode_m36486(__this, ___obj, method) (( int32_t (*) (IdentityEqualityComparer_1_t1494 *, Object_t *, const MethodInfo*))IdentityEqualityComparer_1_GetHashCode_m36486_gshared)(__this, ___obj, method)
 // System.Void Parse.Internal.IdentityEqualityComparer`1<System.Object>::.ctor()
-extern "C" void IdentityEqualityComparer_1__ctor_m7649_gshared (IdentityEqualityComparer_1_t1487 * __this, const MethodInfo* method);
-#define IdentityEqualityComparer_1__ctor_m7649(__this, method) (( void (*) (IdentityEqualityComparer_1_t1487 *, const MethodInfo*))IdentityEqualityComparer_1__ctor_m7649_gshared)(__this, method)
+extern "C" void IdentityEqualityComparer_1__ctor_m7707_gshared (IdentityEqualityComparer_1_t1494 * __this, const MethodInfo* method);
+#define IdentityEqualityComparer_1__ctor_m7707(__this, method) (( void (*) (IdentityEqualityComparer_1_t1494 *, const MethodInfo*))IdentityEqualityComparer_1__ctor_m7707_gshared)(__this, method)

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.FromBase64TransformMode
-struct FromBase64TransformMode_t5259;
+struct FromBase64TransformMode_t5266;
 

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.PolicyLevelType
-struct PolicyLevelType_t5236;
+struct PolicyLevelType_t5243;
 

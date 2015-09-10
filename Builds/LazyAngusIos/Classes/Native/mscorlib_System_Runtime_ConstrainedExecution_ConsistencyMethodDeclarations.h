@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.ConstrainedExecution.Consistency
-struct Consistency_t5096;
+struct Consistency_t5103;
 

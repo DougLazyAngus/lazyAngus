@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.SecurityContext
-struct SecurityContext_t5238;
+struct SecurityContext_t5245;
 // System.Threading.CompressedStack
-struct CompressedStack_t5237;
+struct CompressedStack_t5244;
 
 // System.Void System.Security.SecurityContext::.ctor()
-extern "C" void SecurityContext__ctor_m23205 (SecurityContext_t5238 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityContext__ctor_m23262 (SecurityContext_t5245 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.SecurityContext::.ctor(System.Security.SecurityContext)
-extern "C" void SecurityContext__ctor_m23206 (SecurityContext_t5238 * __this, SecurityContext_t5238 * ___sc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecurityContext__ctor_m23263 (SecurityContext_t5245 * __this, SecurityContext_t5245 * ___sc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.SecurityContext System.Security.SecurityContext::Capture()
-extern "C" SecurityContext_t5238 * SecurityContext_Capture_m23207 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SecurityContext_t5245 * SecurityContext_Capture_m23264 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.SecurityContext::get_FlowSuppressed()
-extern "C" bool SecurityContext_get_FlowSuppressed_m23208 (SecurityContext_t5238 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool SecurityContext_get_FlowSuppressed_m23265 (SecurityContext_t5245 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.CompressedStack System.Security.SecurityContext::get_CompressedStack()
-extern "C" CompressedStack_t5237 * SecurityContext_get_CompressedStack_m23209 (SecurityContext_t5238 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CompressedStack_t5244 * SecurityContext_get_CompressedStack_m23266 (SecurityContext_t5245 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

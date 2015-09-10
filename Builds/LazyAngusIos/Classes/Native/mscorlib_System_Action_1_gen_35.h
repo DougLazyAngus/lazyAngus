@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Action`1<System.Byte>
-struct  Action_1_t6153  : public MulticastDelegate_t388
+struct  Action_1_t6160  : public MulticastDelegate_t388
 {
 };

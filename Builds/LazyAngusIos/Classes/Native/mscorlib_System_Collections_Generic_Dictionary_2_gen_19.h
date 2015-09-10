@@ -3,17 +3,17 @@
 // System.Int32[]
 struct Int32U5BU5D_t484;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t5945;
+struct LinkU5BU5D_t5952;
 // System.String[]
 struct StringU5BU5D_t75;
 // TwitterUserInfo[]
-struct TwitterUserInfoU5BU5D_t6174;
+struct TwitterUserInfoU5BU5D_t6181;
 // System.Collections.Generic.IEqualityComparer`1<System.String>
-struct IEqualityComparer_1_t5771;
+struct IEqualityComparer_1_t5778;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2940;
+struct SerializationInfo_t2947;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.String,TwitterUserInfo,System.Collections.DictionaryEntry>
-struct Transform_1_t6175;
+struct Transform_1_t6182;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>
@@ -22,11 +22,11 @@ struct  Dictionary_2_t317  : public Object_t
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::table
 	Int32U5BU5D_t484* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::linkSlots
-	LinkU5BU5D_t5945* ___linkSlots_5;
+	LinkU5BU5D_t5952* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::keySlots
 	StringU5BU5D_t75* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::valueSlots
-	TwitterUserInfoU5BU5D_t6174* ___valueSlots_7;
+	TwitterUserInfoU5BU5D_t6181* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::emptySlot
@@ -38,11 +38,11 @@ struct  Dictionary_2_t317  : public Object_t
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::hcp
 	Object_t* ___hcp_12;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::serialization_info
-	SerializationInfo_t2940 * ___serialization_info_13;
+	SerializationInfo_t2947 * ___serialization_info_13;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::generation
 	int32_t ___generation_14;
 };
 struct Dictionary_2_t317_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.String,TwitterUserInfo>::<>f__am$cacheB
-	Transform_1_t6175 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t6182 * ___U3CU3Ef__amU24cacheB_15;
 };

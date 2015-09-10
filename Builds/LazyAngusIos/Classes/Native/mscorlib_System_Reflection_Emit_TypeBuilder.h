@@ -5,21 +5,21 @@ struct String_t;
 // System.Type
 struct Type_t;
 // System.Type[]
-struct TypeU5BU5D_t1224;
+struct TypeU5BU5D_t1231;
 // System.Reflection.Emit.MethodBuilder[]
-struct MethodBuilderU5BU5D_t5087;
+struct MethodBuilderU5BU5D_t5094;
 // System.Reflection.Emit.ConstructorBuilder[]
-struct ConstructorBuilderU5BU5D_t5088;
+struct ConstructorBuilderU5BU5D_t5095;
 // System.Reflection.Emit.PropertyBuilder[]
-struct PropertyBuilderU5BU5D_t5089;
+struct PropertyBuilderU5BU5D_t5096;
 // System.Reflection.Emit.FieldBuilder[]
-struct FieldBuilderU5BU5D_t5090;
+struct FieldBuilderU5BU5D_t5097;
 // System.Reflection.Emit.TypeBuilder[]
-struct TypeBuilderU5BU5D_t5077;
+struct TypeBuilderU5BU5D_t5084;
 // System.Reflection.Emit.ModuleBuilder
-struct ModuleBuilder_t5052;
+struct ModuleBuilder_t5059;
 // System.Reflection.Emit.GenericTypeParameterBuilder[]
-struct GenericTypeParameterBuilderU5BU5D_t5075;
+struct GenericTypeParameterBuilderU5BU5D_t5082;
 // System.Type
 #include "mscorlib_System_Type.h"
 // System.Reflection.TypeAttributes
@@ -27,7 +27,7 @@ struct GenericTypeParameterBuilderU5BU5D_t5075;
 // System.Reflection.Emit.PackingSize
 #include "mscorlib_System_Reflection_Emit_PackingSize.h"
 // System.Reflection.Emit.TypeBuilder
-struct  TypeBuilder_t5055  : public Type_t
+struct  TypeBuilder_t5062  : public Type_t
 {
 	// System.String System.Reflection.Emit.TypeBuilder::tname
 	String_t* ___tname_8;
@@ -38,31 +38,31 @@ struct  TypeBuilder_t5055  : public Type_t
 	// System.Type System.Reflection.Emit.TypeBuilder::nesting_type
 	Type_t * ___nesting_type_11;
 	// System.Type[] System.Reflection.Emit.TypeBuilder::interfaces
-	TypeU5BU5D_t1224* ___interfaces_12;
+	TypeU5BU5D_t1231* ___interfaces_12;
 	// System.Int32 System.Reflection.Emit.TypeBuilder::num_methods
 	int32_t ___num_methods_13;
 	// System.Reflection.Emit.MethodBuilder[] System.Reflection.Emit.TypeBuilder::methods
-	MethodBuilderU5BU5D_t5087* ___methods_14;
+	MethodBuilderU5BU5D_t5094* ___methods_14;
 	// System.Reflection.Emit.ConstructorBuilder[] System.Reflection.Emit.TypeBuilder::ctors
-	ConstructorBuilderU5BU5D_t5088* ___ctors_15;
+	ConstructorBuilderU5BU5D_t5095* ___ctors_15;
 	// System.Reflection.Emit.PropertyBuilder[] System.Reflection.Emit.TypeBuilder::properties
-	PropertyBuilderU5BU5D_t5089* ___properties_16;
+	PropertyBuilderU5BU5D_t5096* ___properties_16;
 	// System.Reflection.Emit.FieldBuilder[] System.Reflection.Emit.TypeBuilder::fields
-	FieldBuilderU5BU5D_t5090* ___fields_17;
+	FieldBuilderU5BU5D_t5097* ___fields_17;
 	// System.Reflection.Emit.TypeBuilder[] System.Reflection.Emit.TypeBuilder::subtypes
-	TypeBuilderU5BU5D_t5077* ___subtypes_18;
+	TypeBuilderU5BU5D_t5084* ___subtypes_18;
 	// System.Reflection.TypeAttributes System.Reflection.Emit.TypeBuilder::attrs
 	int32_t ___attrs_19;
 	// System.Int32 System.Reflection.Emit.TypeBuilder::table_idx
 	int32_t ___table_idx_20;
 	// System.Reflection.Emit.ModuleBuilder System.Reflection.Emit.TypeBuilder::pmodule
-	ModuleBuilder_t5052 * ___pmodule_21;
+	ModuleBuilder_t5059 * ___pmodule_21;
 	// System.Int32 System.Reflection.Emit.TypeBuilder::class_size
 	int32_t ___class_size_22;
 	// System.Reflection.Emit.PackingSize System.Reflection.Emit.TypeBuilder::packing_size
 	int32_t ___packing_size_23;
 	// System.Reflection.Emit.GenericTypeParameterBuilder[] System.Reflection.Emit.TypeBuilder::generic_params
-	GenericTypeParameterBuilderU5BU5D_t5075* ___generic_params_24;
+	GenericTypeParameterBuilderU5BU5D_t5082* ___generic_params_24;
 	// System.Type System.Reflection.Emit.TypeBuilder::created
 	Type_t * ___created_25;
 	// System.String System.Reflection.Emit.TypeBuilder::fullname

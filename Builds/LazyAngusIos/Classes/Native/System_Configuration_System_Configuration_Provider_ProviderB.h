@@ -5,7 +5,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Configuration.Provider.ProviderBase
-struct  ProviderBase_t3298  : public Object_t
+struct  ProviderBase_t3305  : public Object_t
 {
 	// System.Boolean System.Configuration.Provider.ProviderBase::alreadyInitialized
 	bool ___alreadyInitialized_0;

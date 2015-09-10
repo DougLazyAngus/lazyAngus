@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Int32[]
-struct Int32U5BU5D_t484;
+// RealAngusItemDesc[]
+struct RealAngusItemDescU5BU5D_t6284;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<System.Int32>
-struct  List_1_t815  : public Object_t
+// System.Collections.Generic.List`1<RealAngusItemDesc>
+struct  List_1_t683  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<System.Int32>::_items
-	Int32U5BU5D_t484* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<System.Int32>::_size
+	// T[] System.Collections.Generic.List`1<RealAngusItemDesc>::_items
+	RealAngusItemDescU5BU5D_t6284* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<RealAngusItemDesc>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<System.Int32>::_version
+	// System.Int32 System.Collections.Generic.List`1<RealAngusItemDesc>::_version
 	int32_t ____version_3;
 };
-struct List_1_t815_StaticFields{
-	// T[] System.Collections.Generic.List`1<System.Int32>::EmptyArray
-	Int32U5BU5D_t484* ___EmptyArray_4;
+struct List_1_t683_StaticFields{
+	// T[] System.Collections.Generic.List`1<RealAngusItemDesc>::EmptyArray
+	RealAngusItemDescU5BU5D_t6284* ___EmptyArray_4;
 };

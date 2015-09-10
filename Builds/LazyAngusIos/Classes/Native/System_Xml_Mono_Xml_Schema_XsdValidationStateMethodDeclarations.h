@@ -5,28 +5,28 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Xml.Schema.XsdValidationState
-struct XsdValidationState_t3424;
+struct XsdValidationState_t3431;
 // Mono.Xml.Schema.XsdInvalidValidationState
-struct XsdInvalidValidationState_t3423;
+struct XsdInvalidValidationState_t3430;
 // Mono.Xml.Schema.XsdParticleStateManager
-struct XsdParticleStateManager_t3422;
+struct XsdParticleStateManager_t3429;
 // System.String
 struct String_t;
 
 // System.Void Mono.Xml.Schema.XsdValidationState::.ctor(Mono.Xml.Schema.XsdParticleStateManager)
-extern "C" void XsdValidationState__ctor_m12279 (XsdValidationState_t3424 * __this, XsdParticleStateManager_t3422 * ___manager, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdValidationState__ctor_m12336 (XsdValidationState_t3431 * __this, XsdParticleStateManager_t3429 * ___manager, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.Schema.XsdValidationState::.cctor()
-extern "C" void XsdValidationState__cctor_m12280 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdValidationState__cctor_m12337 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Xml.Schema.XsdInvalidValidationState Mono.Xml.Schema.XsdValidationState::get_Invalid()
-extern "C" XsdInvalidValidationState_t3423 * XsdValidationState_get_Invalid_m12281 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XsdInvalidValidationState_t3430 * XsdValidationState_get_Invalid_m12338 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Xml.Schema.XsdValidationState Mono.Xml.Schema.XsdValidationState::EvaluateStartElement(System.String,System.String)
 // System.Boolean Mono.Xml.Schema.XsdValidationState::EvaluateEndElement()
 // System.Boolean Mono.Xml.Schema.XsdValidationState::EvaluateIsEmptiable()
 // Mono.Xml.Schema.XsdParticleStateManager Mono.Xml.Schema.XsdValidationState::get_Manager()
-extern "C" XsdParticleStateManager_t3422 * XsdValidationState_get_Manager_m12282 (XsdValidationState_t3424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" XsdParticleStateManager_t3429 * XsdValidationState_get_Manager_m12339 (XsdValidationState_t3431 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Xml.Schema.XsdValidationState::get_Occured()
-extern "C" int32_t XsdValidationState_get_Occured_m12283 (XsdValidationState_t3424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XsdValidationState_get_Occured_m12340 (XsdValidationState_t3431 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Xml.Schema.XsdValidationState::get_OccuredInternal()
-extern "C" int32_t XsdValidationState_get_OccuredInternal_m12284 (XsdValidationState_t3424 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t XsdValidationState_get_OccuredInternal_m12341 (XsdValidationState_t3431 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Xml.Schema.XsdValidationState::set_OccuredInternal(System.Int32)
-extern "C" void XsdValidationState_set_OccuredInternal_m12285 (XsdValidationState_t3424 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XsdValidationState_set_OccuredInternal_m12342 (XsdValidationState_t3431 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

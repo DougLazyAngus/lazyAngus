@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.IList`1<System.Object>,System.Object>
-struct FlexibleListWrapper_2_t1778;
+struct FlexibleListWrapper_2_t1785;
 // System.Collections.Generic.IList`1<System.Object>
-struct IList_1_t1396;
+struct IList_1_t1403;
 // System.Collections.Generic.IList`1<System.Object>[]
-struct IList_1U5BU5D_t9866;
+struct IList_1U5BU5D_t9873;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.IList`1<System.Object>>
-struct IEnumerator_1_t9867;
+struct IEnumerator_1_t9874;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Object
@@ -20,34 +20,34 @@ struct Object_t;
 // System.Void Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.IList`1<System.Object>,System.Object>::.ctor(System.Collections.Generic.IList`1<TIn>)
 // Parse.Internal.FlexibleListWrapper`2<System.Object,System.Object>
 #include "Parse_Unity_Parse_Internal_FlexibleListWrapper_2_genMethodDeclarations.h"
-#define FlexibleListWrapper_2__ctor_m47213(__this, ___toWrap, method) (( void (*) (FlexibleListWrapper_2_t1778 *, Object_t*, const MethodInfo*))FlexibleListWrapper_2__ctor_m36405_gshared)(__this, ___toWrap, method)
+#define FlexibleListWrapper_2__ctor_m47270(__this, ___toWrap, method) (( void (*) (FlexibleListWrapper_2_t1785 *, Object_t*, const MethodInfo*))FlexibleListWrapper_2__ctor_m36462_gshared)(__this, ___toWrap, method)
 // System.Int32 Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.IList`1<System.Object>,System.Object>::IndexOf(TOut)
-#define FlexibleListWrapper_2_IndexOf_m47214(__this, ___item, method) (( int32_t (*) (FlexibleListWrapper_2_t1778 *, Object_t*, const MethodInfo*))FlexibleListWrapper_2_IndexOf_m36406_gshared)(__this, ___item, method)
+#define FlexibleListWrapper_2_IndexOf_m47271(__this, ___item, method) (( int32_t (*) (FlexibleListWrapper_2_t1785 *, Object_t*, const MethodInfo*))FlexibleListWrapper_2_IndexOf_m36463_gshared)(__this, ___item, method)
 // System.Void Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.IList`1<System.Object>,System.Object>::Insert(System.Int32,TOut)
-#define FlexibleListWrapper_2_Insert_m47215(__this, ___index, ___item, method) (( void (*) (FlexibleListWrapper_2_t1778 *, int32_t, Object_t*, const MethodInfo*))FlexibleListWrapper_2_Insert_m36407_gshared)(__this, ___index, ___item, method)
+#define FlexibleListWrapper_2_Insert_m47272(__this, ___index, ___item, method) (( void (*) (FlexibleListWrapper_2_t1785 *, int32_t, Object_t*, const MethodInfo*))FlexibleListWrapper_2_Insert_m36464_gshared)(__this, ___index, ___item, method)
 // System.Void Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.IList`1<System.Object>,System.Object>::RemoveAt(System.Int32)
-#define FlexibleListWrapper_2_RemoveAt_m47216(__this, ___index, method) (( void (*) (FlexibleListWrapper_2_t1778 *, int32_t, const MethodInfo*))FlexibleListWrapper_2_RemoveAt_m36408_gshared)(__this, ___index, method)
+#define FlexibleListWrapper_2_RemoveAt_m47273(__this, ___index, method) (( void (*) (FlexibleListWrapper_2_t1785 *, int32_t, const MethodInfo*))FlexibleListWrapper_2_RemoveAt_m36465_gshared)(__this, ___index, method)
 // TOut Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.IList`1<System.Object>,System.Object>::get_Item(System.Int32)
-#define FlexibleListWrapper_2_get_Item_m47217(__this, ___index, method) (( Object_t* (*) (FlexibleListWrapper_2_t1778 *, int32_t, const MethodInfo*))FlexibleListWrapper_2_get_Item_m36409_gshared)(__this, ___index, method)
+#define FlexibleListWrapper_2_get_Item_m47274(__this, ___index, method) (( Object_t* (*) (FlexibleListWrapper_2_t1785 *, int32_t, const MethodInfo*))FlexibleListWrapper_2_get_Item_m36466_gshared)(__this, ___index, method)
 // System.Void Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.IList`1<System.Object>,System.Object>::set_Item(System.Int32,TOut)
-#define FlexibleListWrapper_2_set_Item_m47218(__this, ___index, ___value, method) (( void (*) (FlexibleListWrapper_2_t1778 *, int32_t, Object_t*, const MethodInfo*))FlexibleListWrapper_2_set_Item_m36410_gshared)(__this, ___index, ___value, method)
+#define FlexibleListWrapper_2_set_Item_m47275(__this, ___index, ___value, method) (( void (*) (FlexibleListWrapper_2_t1785 *, int32_t, Object_t*, const MethodInfo*))FlexibleListWrapper_2_set_Item_m36467_gshared)(__this, ___index, ___value, method)
 // System.Void Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.IList`1<System.Object>,System.Object>::Add(TOut)
-#define FlexibleListWrapper_2_Add_m47219(__this, ___item, method) (( void (*) (FlexibleListWrapper_2_t1778 *, Object_t*, const MethodInfo*))FlexibleListWrapper_2_Add_m36411_gshared)(__this, ___item, method)
+#define FlexibleListWrapper_2_Add_m47276(__this, ___item, method) (( void (*) (FlexibleListWrapper_2_t1785 *, Object_t*, const MethodInfo*))FlexibleListWrapper_2_Add_m36468_gshared)(__this, ___item, method)
 // System.Void Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.IList`1<System.Object>,System.Object>::Clear()
-#define FlexibleListWrapper_2_Clear_m47220(__this, method) (( void (*) (FlexibleListWrapper_2_t1778 *, const MethodInfo*))FlexibleListWrapper_2_Clear_m36412_gshared)(__this, method)
+#define FlexibleListWrapper_2_Clear_m47277(__this, method) (( void (*) (FlexibleListWrapper_2_t1785 *, const MethodInfo*))FlexibleListWrapper_2_Clear_m36469_gshared)(__this, method)
 // System.Boolean Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.IList`1<System.Object>,System.Object>::Contains(TOut)
-#define FlexibleListWrapper_2_Contains_m47221(__this, ___item, method) (( bool (*) (FlexibleListWrapper_2_t1778 *, Object_t*, const MethodInfo*))FlexibleListWrapper_2_Contains_m36413_gshared)(__this, ___item, method)
+#define FlexibleListWrapper_2_Contains_m47278(__this, ___item, method) (( bool (*) (FlexibleListWrapper_2_t1785 *, Object_t*, const MethodInfo*))FlexibleListWrapper_2_Contains_m36470_gshared)(__this, ___item, method)
 // System.Void Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.IList`1<System.Object>,System.Object>::CopyTo(TOut[],System.Int32)
-#define FlexibleListWrapper_2_CopyTo_m47222(__this, ___array, ___arrayIndex, method) (( void (*) (FlexibleListWrapper_2_t1778 *, IList_1U5BU5D_t9866*, int32_t, const MethodInfo*))FlexibleListWrapper_2_CopyTo_m36414_gshared)(__this, ___array, ___arrayIndex, method)
+#define FlexibleListWrapper_2_CopyTo_m47279(__this, ___array, ___arrayIndex, method) (( void (*) (FlexibleListWrapper_2_t1785 *, IList_1U5BU5D_t9873*, int32_t, const MethodInfo*))FlexibleListWrapper_2_CopyTo_m36471_gshared)(__this, ___array, ___arrayIndex, method)
 // System.Int32 Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.IList`1<System.Object>,System.Object>::get_Count()
-#define FlexibleListWrapper_2_get_Count_m47223(__this, method) (( int32_t (*) (FlexibleListWrapper_2_t1778 *, const MethodInfo*))FlexibleListWrapper_2_get_Count_m36415_gshared)(__this, method)
+#define FlexibleListWrapper_2_get_Count_m47280(__this, method) (( int32_t (*) (FlexibleListWrapper_2_t1785 *, const MethodInfo*))FlexibleListWrapper_2_get_Count_m36472_gshared)(__this, method)
 // System.Boolean Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.IList`1<System.Object>,System.Object>::get_IsReadOnly()
-#define FlexibleListWrapper_2_get_IsReadOnly_m47224(__this, method) (( bool (*) (FlexibleListWrapper_2_t1778 *, const MethodInfo*))FlexibleListWrapper_2_get_IsReadOnly_m36416_gshared)(__this, method)
+#define FlexibleListWrapper_2_get_IsReadOnly_m47281(__this, method) (( bool (*) (FlexibleListWrapper_2_t1785 *, const MethodInfo*))FlexibleListWrapper_2_get_IsReadOnly_m36473_gshared)(__this, method)
 // System.Boolean Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.IList`1<System.Object>,System.Object>::Remove(TOut)
-#define FlexibleListWrapper_2_Remove_m47225(__this, ___item, method) (( bool (*) (FlexibleListWrapper_2_t1778 *, Object_t*, const MethodInfo*))FlexibleListWrapper_2_Remove_m36417_gshared)(__this, ___item, method)
+#define FlexibleListWrapper_2_Remove_m47282(__this, ___item, method) (( bool (*) (FlexibleListWrapper_2_t1785 *, Object_t*, const MethodInfo*))FlexibleListWrapper_2_Remove_m36474_gshared)(__this, ___item, method)
 // System.Collections.Generic.IEnumerator`1<TOut> Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.IList`1<System.Object>,System.Object>::GetEnumerator()
-#define FlexibleListWrapper_2_GetEnumerator_m47226(__this, method) (( Object_t* (*) (FlexibleListWrapper_2_t1778 *, const MethodInfo*))FlexibleListWrapper_2_GetEnumerator_m36418_gshared)(__this, method)
+#define FlexibleListWrapper_2_GetEnumerator_m47283(__this, method) (( Object_t* (*) (FlexibleListWrapper_2_t1785 *, const MethodInfo*))FlexibleListWrapper_2_GetEnumerator_m36475_gshared)(__this, method)
 // System.Collections.IEnumerator Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.IList`1<System.Object>,System.Object>::System.Collections.IEnumerable.GetEnumerator()
-#define FlexibleListWrapper_2_System_Collections_IEnumerable_GetEnumerator_m47227(__this, method) (( Object_t * (*) (FlexibleListWrapper_2_t1778 *, const MethodInfo*))FlexibleListWrapper_2_System_Collections_IEnumerable_GetEnumerator_m36419_gshared)(__this, method)
+#define FlexibleListWrapper_2_System_Collections_IEnumerable_GetEnumerator_m47284(__this, method) (( Object_t * (*) (FlexibleListWrapper_2_t1785 *, const MethodInfo*))FlexibleListWrapper_2_System_Collections_IEnumerable_GetEnumerator_m36476_gshared)(__this, method)
 // TOut Parse.Internal.FlexibleListWrapper`2<System.Collections.Generic.IList`1<System.Object>,System.Object>::<CopyTo>b__0(TIn)
-#define FlexibleListWrapper_2_U3CCopyToU3Eb__0_m47228(__this /* static, unused */, ___item, method) (( Object_t* (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))FlexibleListWrapper_2_U3CCopyToU3Eb__0_m36420_gshared)(__this /* static, unused */, ___item, method)
+#define FlexibleListWrapper_2_U3CCopyToU3Eb__0_m47285(__this /* static, unused */, ___item, method) (( Object_t* (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))FlexibleListWrapper_2_U3CCopyToU3Eb__0_m36477_gshared)(__this /* static, unused */, ___item, method)

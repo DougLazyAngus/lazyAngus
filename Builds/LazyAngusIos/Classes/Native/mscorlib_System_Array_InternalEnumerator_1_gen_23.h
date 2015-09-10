@@ -4,11 +4,11 @@
 struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Array/InternalEnumerator`1<UnityEngine.RectTransform>
-struct  InternalEnumerator_1_t6269 
+// System.Array/InternalEnumerator`1<SFXPlayer/SFXType>
+struct  InternalEnumerator_1_t6281 
 {
-	// System.Array System.Array/InternalEnumerator`1<UnityEngine.RectTransform>::array
+	// System.Array System.Array/InternalEnumerator`1<SFXPlayer/SFXType>::array
 	Array_t * ___array_0;
-	// System.Int32 System.Array/InternalEnumerator`1<UnityEngine.RectTransform>::idx
+	// System.Int32 System.Array/InternalEnumerator`1<SFXPlayer/SFXType>::idx
 	int32_t ___idx_1;
 };

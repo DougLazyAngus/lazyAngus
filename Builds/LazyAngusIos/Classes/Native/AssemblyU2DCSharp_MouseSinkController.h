@@ -3,15 +3,15 @@
 // UnityEngine.GameObject
 struct GameObject_t352;
 // System.Collections.Generic.List`1<MouseTrap>
-struct List_1_t607;
+struct List_1_t628;
 // SizeCamera
-struct SizeCamera_t519;
+struct SizeCamera_t587;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // MouseSinkController/MouseHoleLocation
 #include "AssemblyU2DCSharp_MouseSinkController_MouseHoleLocation.h"
 // MouseSinkController
-struct  MouseSinkController_t608  : public MonoBehaviour_t13
+struct  MouseSinkController_t629  : public MonoBehaviour_t13
 {
 	// System.Int32 MouseSinkController::trapCapacity
 	int32_t ___trapCapacity_5;
@@ -28,17 +28,17 @@ struct  MouseSinkController_t608  : public MonoBehaviour_t13
 	// UnityEngine.GameObject MouseSinkController::mouseExitPrototype
 	GameObject_t352 * ___mouseExitPrototype_12;
 	// System.Collections.Generic.List`1<MouseTrap> MouseSinkController::mouseTraps
-	List_1_t607 * ___mouseTraps_13;
+	List_1_t628 * ___mouseTraps_13;
 	// MouseSinkController/MouseHoleLocation MouseSinkController::mouseHoleLocation
 	int32_t ___mouseHoleLocation_14;
 	// SizeCamera MouseSinkController::sizeCameraWorld
-	SizeCamera_t519 * ___sizeCameraWorld_15;
+	SizeCamera_t587 * ___sizeCameraWorld_15;
 	// System.Boolean MouseSinkController::registeredForEvents
 	bool ___registeredForEvents_16;
 	// System.Int32 MouseSinkController::<savedMouseCount>k__BackingField
 	int32_t ___U3CsavedMouseCountU3Ek__BackingField_17;
 };
-struct MouseSinkController_t608_StaticFields{
+struct MouseSinkController_t629_StaticFields{
 	// System.Single MouseSinkController::angleBetweenHoles
 	float ___angleBetweenHoles_10;
 };

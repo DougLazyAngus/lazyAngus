@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.EventSystems.ISelectHandler
-struct ISelectHandler_t1053;
+struct ISelectHandler_t1060;
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t863;
+struct BaseEventData_t870;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ISelectHandler>
-struct  EventFunction_1_t885  : public MulticastDelegate_t388
+struct  EventFunction_1_t892  : public MulticastDelegate_t388
 {
 };

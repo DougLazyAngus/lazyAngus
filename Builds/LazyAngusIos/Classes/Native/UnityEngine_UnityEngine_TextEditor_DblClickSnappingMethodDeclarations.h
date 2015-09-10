@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.TextEditor/DblClickSnapping
-struct DblClickSnapping_t2899;
+struct DblClickSnapping_t2906;
 

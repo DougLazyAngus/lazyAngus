@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.X509.X509Stores
-struct X509Stores_t3164;
+struct X509Stores_t3171;
 // Mono.Security.X509.X509Store
-struct X509Store_t3163;
+struct X509Store_t3170;
 // System.String
 struct String_t;
 
 // System.Void Mono.Security.X509.X509Stores::.ctor(System.String)
-extern "C" void X509Stores__ctor_m10929 (X509Stores_t3164 * __this, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Stores__ctor_m10986 (X509Stores_t3171 * __this, String_t* ___path, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509Store Mono.Security.X509.X509Stores::get_TrustedRoot()
-extern "C" X509Store_t3163 * X509Stores_get_TrustedRoot_m10930 (X509Stores_t3164 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Store_t3170 * X509Stores_get_TrustedRoot_m10987 (X509Stores_t3171 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509Store Mono.Security.X509.X509Stores::Open(System.String,System.Boolean)
-extern "C" X509Store_t3163 * X509Stores_Open_m10931 (X509Stores_t3164 * __this, String_t* ___storeName, bool ___create, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Store_t3170 * X509Stores_Open_m10988 (X509Stores_t3171 * __this, String_t* ___storeName, bool ___create, const MethodInfo* method) IL2CPP_METHOD_ATTR;

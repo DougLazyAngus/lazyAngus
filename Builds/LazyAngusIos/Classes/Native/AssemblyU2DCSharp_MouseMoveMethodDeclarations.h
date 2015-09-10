@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // MouseMove
-struct MouseMove_t530;
+struct MouseMove_t517;
 // MouseConfig/MouseType
 #include "AssemblyU2DCSharp_MouseConfig_MouseType.h"
 // UnityEngine.Vector3
@@ -18,68 +18,68 @@ struct MouseMove_t530;
 #include "AssemblyU2DCSharp_MouseConfig_MouseWiggleType.h"
 
 // System.Void MouseMove::.ctor()
-extern "C" void MouseMove__ctor_m3185 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove__ctor_m2935 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::.cctor()
-extern "C" void MouseMove__cctor_m3186 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove__cctor_m2936 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // MouseConfig/MouseType MouseMove::get_mouseType()
-extern "C" int32_t MouseMove_get_mouseType_m3187 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MouseMove_get_mouseType_m2937 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::set_mouseType(MouseConfig/MouseType)
-extern "C" void MouseMove_set_mouseType_m3188 (MouseMove_t530 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_set_mouseType_m2938 (MouseMove_t517 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean MouseMove::get_dead()
-extern "C" bool MouseMove_get_dead_m3189 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MouseMove_get_dead_m2939 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::set_dead(System.Boolean)
-extern "C" void MouseMove_set_dead_m3190 (MouseMove_t530 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_set_dead_m2940 (MouseMove_t517 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean MouseMove::get_isPoisoned()
-extern "C" bool MouseMove_get_isPoisoned_m3191 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MouseMove_get_isPoisoned_m2941 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::set_isPoisoned(System.Boolean)
-extern "C" void MouseMove_set_isPoisoned_m3192 (MouseMove_t530 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_set_isPoisoned_m2942 (MouseMove_t517 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean MouseMove::get_isFartedUpon()
-extern "C" bool MouseMove_get_isFartedUpon_m3193 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MouseMove_get_isFartedUpon_m2943 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::set_isFartedUpon(System.Boolean)
-extern "C" void MouseMove_set_isFartedUpon_m3194 (MouseMove_t530 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_set_isFartedUpon_m2944 (MouseMove_t517 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::Awake()
-extern "C" void MouseMove_Awake_m3195 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_Awake_m2945 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::Start()
-extern "C" void MouseMove_Start_m3196 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_Start_m2946 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::OnDestroy()
-extern "C" void MouseMove_OnDestroy_m3197 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_OnDestroy_m2947 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::RegisterForEvents()
-extern "C" void MouseMove_RegisterForEvents_m3198 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_RegisterForEvents_m2948 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::UnregisterForEvents()
-extern "C" void MouseMove_UnregisterForEvents_m3199 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_UnregisterForEvents_m2949 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::OnGamePhaseChanged()
-extern "C" void MouseMove_OnGamePhaseChanged_m3200 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_OnGamePhaseChanged_m2950 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::OnFartedUpon()
-extern "C" void MouseMove_OnFartedUpon_m3201 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_OnFartedUpon_m2951 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::SetPoisoned()
-extern "C" void MouseMove_SetPoisoned_m3202 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_SetPoisoned_m2952 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::MakeSlider()
-extern "C" void MouseMove_MakeSlider_m3203 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_MakeSlider_m2953 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::SetMouseTransform()
-extern "C" void MouseMove_SetMouseTransform_m3204 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_SetMouseTransform_m2954 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::SetMousePosition()
-extern "C" void MouseMove_SetMousePosition_m3205 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_SetMousePosition_m2955 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::SetMouseOrientation(UnityEngine.Vector3)
-extern "C" void MouseMove_SetMouseOrientation_m3206 (MouseMove_t530 * __this, Vector3_t538  ___oldPosition, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_SetMouseOrientation_m2956 (MouseMove_t517 * __this, Vector3_t523  ___oldPosition, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::ApplyWiggle()
-extern "C" void MouseMove_ApplyWiggle_m3207 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_ApplyWiggle_m2957 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::UpdateSlider()
-extern "C" void MouseMove_UpdateSlider_m3208 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_UpdateSlider_m2958 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::SetPhase(MouseConfig/MovementPhaseType)
-extern "C" void MouseMove_SetPhase_m3209 (MouseMove_t530 * __this, int32_t ___phase, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_SetPhase_m2959 (MouseMove_t517 * __this, int32_t ___phase, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::FixedUpdate()
-extern "C" void MouseMove_FixedUpdate_m3210 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_FixedUpdate_m2960 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::OnKilled()
-extern "C" void MouseMove_OnKilled_m3211 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_OnKilled_m2961 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::MakeDeadMouse()
-extern "C" void MouseMove_MakeDeadMouse_m3212 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_MakeDeadMouse_m2962 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::OnSafeExit()
-extern "C" void MouseMove_OnSafeExit_m3213 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_OnSafeExit_m2963 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::SetMouseType(MouseConfig/MouseType)
-extern "C" void MouseMove_SetMouseType_m3214 (MouseMove_t530 * __this, int32_t ___mt, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_SetMouseType_m2964 (MouseMove_t517 * __this, int32_t ___mt, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // MouseConfig/MovementPhaseType MouseMove::GetMousePhase()
-extern "C" int32_t MouseMove_GetMousePhase_m3215 (MouseMove_t530 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MouseMove_GetMousePhase_m2965 (MouseMove_t517 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::SetupMouse(MouseConfig/MouseType,MouseSinkController/MouseHoleLocation,System.Boolean,System.Int32)
-extern "C" void MouseMove_SetupMouse_m3216 (MouseMove_t530 * __this, int32_t ___mouseType, int32_t ___originHole, bool ___isClockwise, int32_t ___track, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_SetupMouse_m2966 (MouseMove_t517 * __this, int32_t ___mouseType, int32_t ___originHole, bool ___isClockwise, int32_t ___track, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MouseMove::AddWiggle(MouseConfig/MouseWiggleType,System.Single,System.Int32,System.Boolean)
-extern "C" void MouseMove_AddWiggle_m3217 (MouseMove_t530 * __this, int32_t ___wiggleType, float ___wiggleMagnitude, int32_t ___wiggleCycles, bool ___wiggleClockwise, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MouseMove_AddWiggle_m2967 (MouseMove_t517 * __this, int32_t ___wiggleType, float ___wiggleMagnitude, int32_t ___wiggleCycles, bool ___wiggleClockwise, const MethodInfo* method) IL2CPP_METHOD_ATTR;

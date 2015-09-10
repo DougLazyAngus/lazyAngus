@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.ParseUser/<>c__DisplayClass10
-struct U3CU3Ec__DisplayClass10_t1330;
+struct U3CU3Ec__DisplayClass10_t1337;
 // System.Threading.Tasks.Task
-struct Task_t1231;
+struct Task_t1238;
 // System.Threading.Tasks.Task`1<Parse.ParseUser>
-struct Task_1_t1411;
+struct Task_1_t1418;
 
 // System.Void Parse.ParseUser/<>c__DisplayClass10::.ctor()
-extern "C" void U3CU3Ec__DisplayClass10__ctor_m7200 (U3CU3Ec__DisplayClass10_t1330 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass10__ctor_m7258 (U3CU3Ec__DisplayClass10_t1337 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Threading.Tasks.Task Parse.ParseUser/<>c__DisplayClass10::<LogOutAsync>b__f(System.Threading.Tasks.Task`1<Parse.ParseUser>)
-extern "C" Task_t1231 * U3CU3Ec__DisplayClass10_U3CLogOutAsyncU3Eb__f_m7201 (U3CU3Ec__DisplayClass10_t1330 * __this, Task_1_t1411 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Task_t1238 * U3CU3Ec__DisplayClass10_U3CLogOutAsyncU3Eb__f_m7259 (U3CU3Ec__DisplayClass10_t1337 * __this, Task_1_t1418 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;

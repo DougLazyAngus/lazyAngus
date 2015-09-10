@@ -5,12 +5,12 @@
 // System.Reflection.Emit.MethodToken
 #include "mscorlib_System_Reflection_Emit_MethodToken.h"
 // System.Reflection.Emit.MethodToken
-struct  MethodToken_t5076 
+struct  MethodToken_t5083 
 {
 	// System.Int32 System.Reflection.Emit.MethodToken::tokValue
 	int32_t ___tokValue_0;
 };
-struct MethodToken_t5076_StaticFields{
+struct MethodToken_t5083_StaticFields{
 	// System.Reflection.Emit.MethodToken System.Reflection.Emit.MethodToken::Empty
-	MethodToken_t5076  ___Empty_1;
+	MethodToken_t5083  ___Empty_1;
 };

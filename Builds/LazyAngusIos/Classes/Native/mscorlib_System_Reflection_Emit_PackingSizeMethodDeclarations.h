@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.Emit.PackingSize
-struct PackingSize_t5082;
+struct PackingSize_t5089;
 

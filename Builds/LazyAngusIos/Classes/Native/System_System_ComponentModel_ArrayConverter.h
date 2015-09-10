@@ -3,6 +3,6 @@
 // System.ComponentModel.CollectionConverter
 #include "System_System_ComponentModel_CollectionConverter.h"
 // System.ComponentModel.ArrayConverter
-struct  ArrayConverter_t4224  : public CollectionConverter_t4225
+struct  ArrayConverter_t4231  : public CollectionConverter_t4232
 {
 };

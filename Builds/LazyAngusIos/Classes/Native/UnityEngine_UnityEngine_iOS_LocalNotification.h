@@ -3,10 +3,10 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.iOS.LocalNotification
-struct  LocalNotification_t2782  : public Object_t
+struct  LocalNotification_t2789  : public Object_t
 {
 };
-struct LocalNotification_t2782_StaticFields{
+struct LocalNotification_t2789_StaticFields{
 	// System.Int64 UnityEngine.iOS.LocalNotification::m_NSReferenceDateTicks
 	int64_t ___m_NSReferenceDateTicks_0;
 };

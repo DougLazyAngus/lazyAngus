@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.TermInfoStrings
-struct TermInfoStrings_t4920;
+struct TermInfoStrings_t4927;
 

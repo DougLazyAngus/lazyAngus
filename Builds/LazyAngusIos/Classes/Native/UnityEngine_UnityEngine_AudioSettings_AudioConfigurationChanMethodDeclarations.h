@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.AudioSettings/AudioConfigurationChangeHandler
-struct AudioConfigurationChangeHandler_t2791;
+struct AudioConfigurationChangeHandler_t2798;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,11 +16,11 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnityEngine.AudioSettings/AudioConfigurationChangeHandler::.ctor(System.Object,System.IntPtr)
-extern "C" void AudioConfigurationChangeHandler__ctor_m9664 (AudioConfigurationChangeHandler_t2791 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AudioConfigurationChangeHandler__ctor_m9722 (AudioConfigurationChangeHandler_t2798 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AudioSettings/AudioConfigurationChangeHandler::Invoke(System.Boolean)
-extern "C" void AudioConfigurationChangeHandler_Invoke_m9665 (AudioConfigurationChangeHandler_t2791 * __this, bool ___deviceWasChanged, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_AudioConfigurationChangeHandler_t2791(Il2CppObject* delegate, bool ___deviceWasChanged);
+extern "C" void AudioConfigurationChangeHandler_Invoke_m9723 (AudioConfigurationChangeHandler_t2798 * __this, bool ___deviceWasChanged, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_AudioConfigurationChangeHandler_t2798(Il2CppObject* delegate, bool ___deviceWasChanged);
 // System.IAsyncResult UnityEngine.AudioSettings/AudioConfigurationChangeHandler::BeginInvoke(System.Boolean,System.AsyncCallback,System.Object)
-extern "C" Object_t * AudioConfigurationChangeHandler_BeginInvoke_m9666 (AudioConfigurationChangeHandler_t2791 * __this, bool ___deviceWasChanged, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * AudioConfigurationChangeHandler_BeginInvoke_m9724 (AudioConfigurationChangeHandler_t2798 * __this, bool ___deviceWasChanged, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AudioSettings/AudioConfigurationChangeHandler::EndInvoke(System.IAsyncResult)
-extern "C" void AudioConfigurationChangeHandler_EndInvoke_m9667 (AudioConfigurationChangeHandler_t2791 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AudioConfigurationChangeHandler_EndInvoke_m9725 (AudioConfigurationChangeHandler_t2798 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

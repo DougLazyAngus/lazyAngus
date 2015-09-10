@@ -1,15 +1,15 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Threading.ManualResetEvent
-struct ManualResetEvent_t3205;
+struct ManualResetEvent_t3212;
 // System.IO.Stream
 struct Stream_t51;
 // System.IO.MemoryStream
 struct MemoryStream_t65;
 // Mono.Security.Protocol.Tls.Context
-struct Context_t3182;
+struct Context_t3189;
 // Mono.Security.Protocol.Tls.RecordProtocol
-struct RecordProtocol_t3190;
+struct RecordProtocol_t3197;
 // System.Object
 struct Object_t;
 // System.Byte[]
@@ -19,16 +19,16 @@ struct ByteU5BU5D_t66;
 // System.Boolean
 #include "mscorlib_System_Boolean.h"
 // Mono.Security.Protocol.Tls.SslStreamBase
-struct  SslStreamBase_t3219  : public Stream_t51
+struct  SslStreamBase_t3226  : public Stream_t51
 {
 	// System.IO.Stream Mono.Security.Protocol.Tls.SslStreamBase::innerStream
 	Stream_t51 * ___innerStream_4;
 	// System.IO.MemoryStream Mono.Security.Protocol.Tls.SslStreamBase::inputBuffer
 	MemoryStream_t65 * ___inputBuffer_5;
 	// Mono.Security.Protocol.Tls.Context Mono.Security.Protocol.Tls.SslStreamBase::context
-	Context_t3182 * ___context_6;
+	Context_t3189 * ___context_6;
 	// Mono.Security.Protocol.Tls.RecordProtocol Mono.Security.Protocol.Tls.SslStreamBase::protocol
-	RecordProtocol_t3190 * ___protocol_7;
+	RecordProtocol_t3197 * ___protocol_7;
 	// System.Boolean Mono.Security.Protocol.Tls.SslStreamBase::ownsStream
 	bool ___ownsStream_8;
 	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) Mono.Security.Protocol.Tls.SslStreamBase::disposed
@@ -42,13 +42,13 @@ struct  SslStreamBase_t3219  : public Stream_t51
 	// System.Object Mono.Security.Protocol.Tls.SslStreamBase::write
 	Object_t * ___write_13;
 	// System.Threading.ManualResetEvent Mono.Security.Protocol.Tls.SslStreamBase::negotiationComplete
-	ManualResetEvent_t3205 * ___negotiationComplete_14;
+	ManualResetEvent_t3212 * ___negotiationComplete_14;
 	// System.Byte[] Mono.Security.Protocol.Tls.SslStreamBase::recbuf
 	ByteU5BU5D_t66* ___recbuf_15;
 	// System.IO.MemoryStream Mono.Security.Protocol.Tls.SslStreamBase::recordStream
 	MemoryStream_t65 * ___recordStream_16;
 };
-struct SslStreamBase_t3219_StaticFields{
+struct SslStreamBase_t3226_StaticFields{
 	// System.Threading.ManualResetEvent Mono.Security.Protocol.Tls.SslStreamBase::record_processing
-	ManualResetEvent_t3205 * ___record_processing_3;
+	ManualResetEvent_t3212 * ___record_processing_3;
 };

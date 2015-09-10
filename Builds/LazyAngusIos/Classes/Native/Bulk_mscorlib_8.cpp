@@ -91,38 +91,38 @@
 #include "mscorlib_System_Array.h"
 
 // System.Void System.Text.UTF8Encoding::.ctor()
-extern "C" void UTF8Encoding__ctor_m24262 (UTF8Encoding_t3733 * __this, const MethodInfo* method)
+extern "C" void UTF8Encoding__ctor_m24319 (UTF8Encoding_t3740 * __this, const MethodInfo* method)
 {
 	{
-		UTF8Encoding__ctor_m14812(__this, 0, 0, /*hidden argument*/NULL);
+		UTF8Encoding__ctor_m14869(__this, 0, 0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Text.UTF8Encoding::.ctor(System.Boolean)
-extern "C" void UTF8Encoding__ctor_m24263 (UTF8Encoding_t3733 * __this, bool ___encoderShouldEmitUTF8Identifier, const MethodInfo* method)
+extern "C" void UTF8Encoding__ctor_m24320 (UTF8Encoding_t3740 * __this, bool ___encoderShouldEmitUTF8Identifier, const MethodInfo* method)
 {
 	{
 		bool L_0 = ___encoderShouldEmitUTF8Identifier;
-		UTF8Encoding__ctor_m14812(__this, L_0, 0, /*hidden argument*/NULL);
+		UTF8Encoding__ctor_m14869(__this, L_0, 0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Text.UTF8Encoding::.ctor(System.Boolean,System.Boolean)
-extern TypeInfo* Encoding_t757_il2cpp_TypeInfo_var;
-extern TypeInfo* DecoderFallback_t5354_il2cpp_TypeInfo_var;
-extern "C" void UTF8Encoding__ctor_m14812 (UTF8Encoding_t3733 * __this, bool ___encoderShouldEmitUTF8Identifier, bool ___throwOnInvalidBytes, const MethodInfo* method)
+extern TypeInfo* Encoding_t764_il2cpp_TypeInfo_var;
+extern TypeInfo* DecoderFallback_t5361_il2cpp_TypeInfo_var;
+extern "C" void UTF8Encoding__ctor_m14869 (UTF8Encoding_t3740 * __this, bool ___encoderShouldEmitUTF8Identifier, bool ___throwOnInvalidBytes, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Encoding_t757_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
-		DecoderFallback_t5354_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9340);
+		Encoding_t764_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
+		DecoderFallback_t5361_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9358);
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		Encoding__ctor_m24150(__this, ((int32_t)65001), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		Encoding__ctor_m24207(__this, ((int32_t)65001), /*hidden argument*/NULL);
 		bool L_0 = ___encoderShouldEmitUTF8Identifier;
 		__this->___emitIdentifier_28 = L_0;
 		bool L_1 = ___throwOnInvalidBytes;
@@ -132,67 +132,67 @@ extern "C" void UTF8Encoding__ctor_m14812 (UTF8Encoding_t3733 * __this, bool ___
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(DecoderFallback_t5354_il2cpp_TypeInfo_var);
-		DecoderFallback_t5354 * L_2 = DecoderFallback_get_ExceptionFallback_m24097(NULL /*static, unused*/, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		Encoding_SetFallbackInternal_m24157(__this, (EncoderFallback_t5362 *)NULL, L_2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(DecoderFallback_t5361_il2cpp_TypeInfo_var);
+		DecoderFallback_t5361 * L_2 = DecoderFallback_get_ExceptionFallback_m24154(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		Encoding_SetFallbackInternal_m24214(__this, (EncoderFallback_t5369 *)NULL, L_2, /*hidden argument*/NULL);
 		goto IL_002f;
 	}
 
 IL_0023:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(DecoderFallback_t5354_il2cpp_TypeInfo_var);
-		DecoderFallback_t5354 * L_3 = DecoderFallback_get_StandardSafeFallback_m24099(NULL /*static, unused*/, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		Encoding_SetFallbackInternal_m24157(__this, (EncoderFallback_t5362 *)NULL, L_3, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(DecoderFallback_t5361_il2cpp_TypeInfo_var);
+		DecoderFallback_t5361 * L_3 = DecoderFallback_get_StandardSafeFallback_m24156(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		Encoding_SetFallbackInternal_m24214(__this, (EncoderFallback_t5369 *)NULL, L_3, /*hidden argument*/NULL);
 	}
 
 IL_002f:
 	{
-		String_t* L_4 = (String_t*) &_stringLiteral6518;
+		String_t* L_4 = (String_t*) &_stringLiteral6532;
 		V_0 = L_4;
-		((Encoding_t757 *)__this)->___header_name_10 = L_4;
+		((Encoding_t764 *)__this)->___header_name_10 = L_4;
 		String_t* L_5 = V_0;
 		String_t* L_6 = L_5;
 		V_0 = L_6;
-		((Encoding_t757 *)__this)->___body_name_8 = L_6;
+		((Encoding_t764 *)__this)->___body_name_8 = L_6;
 		String_t* L_7 = V_0;
-		((Encoding_t757 *)__this)->___web_name_15 = L_7;
-		((Encoding_t757 *)__this)->___encoding_name_9 = (String_t*) &_stringLiteral6519;
-		((Encoding_t757 *)__this)->___is_browser_save_13 = 1;
-		((Encoding_t757 *)__this)->___is_browser_display_14 = 1;
-		((Encoding_t757 *)__this)->___is_mail_news_display_11 = 1;
-		((Encoding_t757 *)__this)->___is_mail_news_save_12 = 1;
-		((Encoding_t757 *)__this)->___windows_code_page_1 = ((int32_t)1200);
+		((Encoding_t764 *)__this)->___web_name_15 = L_7;
+		((Encoding_t764 *)__this)->___encoding_name_9 = (String_t*) &_stringLiteral6533;
+		((Encoding_t764 *)__this)->___is_browser_save_13 = 1;
+		((Encoding_t764 *)__this)->___is_browser_display_14 = 1;
+		((Encoding_t764 *)__this)->___is_mail_news_display_11 = 1;
+		((Encoding_t764 *)__this)->___is_mail_news_save_12 = 1;
+		((Encoding_t764 *)__this)->___windows_code_page_1 = ((int32_t)1200);
 		return;
 	}
 }
 // System.Int32 System.Text.UTF8Encoding::InternalGetByteCount(System.Char[],System.Int32,System.Int32,System.Char&,System.Boolean)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern TypeInfo* Encoding_t757_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var;
-extern "C" int32_t UTF8Encoding_InternalGetByteCount_m24264 (Object_t * __this /* static, unused */, CharU5BU5D_t715* ___chars, int32_t ___index, int32_t ___count, uint16_t* ___leftOver, bool ___flush, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern TypeInfo* Encoding_t764_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var;
+extern "C" int32_t UTF8Encoding_InternalGetByteCount_m24321 (Object_t * __this /* static, unused */, CharU5BU5D_t722* ___chars, int32_t ___index, int32_t ___count, uint16_t* ___leftOver, bool ___flush, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
-		Encoding_t757_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
-		ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2630);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		Encoding_t764_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
+		ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2648);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint16_t* V_0 = {0};
 	uintptr_t G_B17_0;
 	{
-		CharU5BU5D_t715* L_0 = ___chars;
+		CharU5BU5D_t722* L_0 = ___chars;
 		if (L_0)
 		{
 			goto IL_000e;
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral5395, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral5409, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -206,7 +206,7 @@ IL_000e:
 	}
 	{
 		int32_t L_3 = ___index;
-		CharU5BU5D_t715* L_4 = ___chars;
+		CharU5BU5D_t722* L_4 = ___chars;
 		NullCheck(L_4);
 		if ((((int32_t)L_3) <= ((int32_t)(((int32_t)(((Array_t *)L_4)->max_length))))))
 		{
@@ -216,10 +216,10 @@ IL_000e:
 
 IL_0018:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_5 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_6 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_6, (String_t*) &_stringLiteral3024, L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_5 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_6 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_6, (String_t*) &_stringLiteral3038, L_5, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 
@@ -233,7 +233,7 @@ IL_002d:
 	}
 	{
 		int32_t L_8 = ___count;
-		CharU5BU5D_t715* L_9 = ___chars;
+		CharU5BU5D_t722* L_9 = ___chars;
 		NullCheck(L_9);
 		int32_t L_10 = ___index;
 		if ((((int32_t)L_8) <= ((int32_t)((int32_t)((int32_t)(((int32_t)(((Array_t *)L_9)->max_length)))-(int32_t)L_10)))))
@@ -244,17 +244,17 @@ IL_002d:
 
 IL_0039:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_11 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_12 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_12, (String_t*) &_stringLiteral632, L_11, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_11 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_12 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_12, (String_t*) &_stringLiteral632, L_11, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_12);
 	}
 
 IL_004e:
 	{
 		int32_t L_13 = ___index;
-		CharU5BU5D_t715* L_14 = ___chars;
+		CharU5BU5D_t722* L_14 = ___chars;
 		NullCheck(L_14);
 		if ((!(((uint32_t)L_13) == ((uint32_t)(((int32_t)(((Array_t *)L_14)->max_length)))))))
 		{
@@ -288,14 +288,14 @@ IL_0061:
 
 IL_0063:
 	{
-		CharU5BU5D_t715* L_18 = ___chars;
+		CharU5BU5D_t722* L_18 = ___chars;
 		if (!L_18)
 		{
 			goto IL_006b;
 		}
 	}
 	{
-		CharU5BU5D_t715* L_19 = ___chars;
+		CharU5BU5D_t722* L_19 = ___chars;
 		NullCheck(L_19);
 		if ((((int32_t)(((Array_t *)L_19)->max_length))))
 		{
@@ -311,7 +311,7 @@ IL_006b:
 
 IL_006f:
 	{
-		CharU5BU5D_t715* L_20 = ___chars;
+		CharU5BU5D_t722* L_20 = ___chars;
 		NullCheck(L_20);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_20, 0);
 		G_B17_0 = ((uintptr_t)(((uint16_t*)(uint16_t*)SZArrayLdElema(L_20, 0))));
@@ -325,12 +325,12 @@ IL_0076:
 		int32_t L_23 = ___count;
 		uint16_t* L_24 = ___leftOver;
 		bool L_25 = ___flush;
-		int32_t L_26 = UTF8Encoding_InternalGetByteCount_m24265(NULL /*static, unused*/, (uint16_t*)(uint16_t*)((intptr_t)((intptr_t)L_21+(int32_t)((int32_t)((int32_t)L_22*(int32_t)2)))), L_23, L_24, L_25, /*hidden argument*/NULL);
+		int32_t L_26 = UTF8Encoding_InternalGetByteCount_m24322(NULL /*static, unused*/, (uint16_t*)(uint16_t*)((intptr_t)((intptr_t)L_21+(int32_t)((int32_t)((int32_t)L_22*(int32_t)2)))), L_23, L_24, L_25, /*hidden argument*/NULL);
 		return L_26;
 	}
 }
 // System.Int32 System.Text.UTF8Encoding::InternalGetByteCount(System.Char*,System.Int32,System.Char&,System.Boolean)
-extern "C" int32_t UTF8Encoding_InternalGetByteCount_m24265 (Object_t * __this /* static, unused */, uint16_t* ___chars, int32_t ___count, uint16_t* ___leftOver, bool ___flush, const MethodInfo* method)
+extern "C" int32_t UTF8Encoding_InternalGetByteCount_m24322 (Object_t * __this /* static, unused */, uint16_t* ___chars, int32_t ___count, uint16_t* ___leftOver, bool ___flush, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	uint16_t* V_1 = {0};
@@ -554,26 +554,26 @@ IL_00e7:
 	}
 }
 // System.Int32 System.Text.UTF8Encoding::GetByteCount(System.Char[],System.Int32,System.Int32)
-extern "C" int32_t UTF8Encoding_GetByteCount_m24266 (UTF8Encoding_t3733 * __this, CharU5BU5D_t715* ___chars, int32_t ___index, int32_t ___count, const MethodInfo* method)
+extern "C" int32_t UTF8Encoding_GetByteCount_m24323 (UTF8Encoding_t3740 * __this, CharU5BU5D_t722* ___chars, int32_t ___index, int32_t ___count, const MethodInfo* method)
 {
 	uint16_t V_0 = 0x0;
 	{
 		V_0 = 0;
-		CharU5BU5D_t715* L_0 = ___chars;
+		CharU5BU5D_t722* L_0 = ___chars;
 		int32_t L_1 = ___index;
 		int32_t L_2 = ___count;
-		int32_t L_3 = UTF8Encoding_InternalGetByteCount_m24264(NULL /*static, unused*/, L_0, L_1, L_2, (&V_0), 1, /*hidden argument*/NULL);
+		int32_t L_3 = UTF8Encoding_InternalGetByteCount_m24321(NULL /*static, unused*/, L_0, L_1, L_2, (&V_0), 1, /*hidden argument*/NULL);
 		return L_3;
 	}
 }
 // System.Int32 System.Text.UTF8Encoding::GetByteCount(System.Char*,System.Int32)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern "C" int32_t UTF8Encoding_GetByteCount_m24267 (UTF8Encoding_t3733 * __this, uint16_t* ___chars, int32_t ___count, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern "C" int32_t UTF8Encoding_GetByteCount_m24324 (UTF8Encoding_t3740 * __this, uint16_t* ___chars, int32_t ___count, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint16_t V_0 = 0x0;
@@ -585,8 +585,8 @@ extern "C" int32_t UTF8Encoding_GetByteCount_m24267 (UTF8Encoding_t3733 * __this
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral5395, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral5409, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -607,22 +607,22 @@ IL_0013:
 		V_0 = 0;
 		uint16_t* L_3 = ___chars;
 		int32_t L_4 = ___count;
-		int32_t L_5 = UTF8Encoding_InternalGetByteCount_m24265(NULL /*static, unused*/, (uint16_t*)(uint16_t*)L_3, L_4, (&V_0), 1, /*hidden argument*/NULL);
+		int32_t L_5 = UTF8Encoding_InternalGetByteCount_m24322(NULL /*static, unused*/, (uint16_t*)(uint16_t*)L_3, L_4, (&V_0), 1, /*hidden argument*/NULL);
 		return L_5;
 	}
 }
 // System.Int32 System.Text.UTF8Encoding::InternalGetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32,System.Char&,System.Boolean)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern TypeInfo* Encoding_t757_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var;
-extern "C" int32_t UTF8Encoding_InternalGetBytes_m24268 (Object_t * __this /* static, unused */, CharU5BU5D_t715* ___chars, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, uint16_t* ___leftOver, bool ___flush, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern TypeInfo* Encoding_t764_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var;
+extern "C" int32_t UTF8Encoding_InternalGetBytes_m24325 (Object_t * __this /* static, unused */, CharU5BU5D_t722* ___chars, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, uint16_t* ___leftOver, bool ___flush, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
-		Encoding_t757_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
-		ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2630);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		Encoding_t764_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
+		ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2648);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint16_t* V_0 = {0};
@@ -630,15 +630,15 @@ extern "C" int32_t UTF8Encoding_InternalGetBytes_m24268 (Object_t * __this /* st
 	uintptr_t G_B22_0;
 	uintptr_t G_B28_0;
 	{
-		CharU5BU5D_t715* L_0 = ___chars;
+		CharU5BU5D_t722* L_0 = ___chars;
 		if (L_0)
 		{
 			goto IL_000e;
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral5395, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral5409, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -651,8 +651,8 @@ IL_000e:
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_3 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_3, (String_t*) &_stringLiteral6435, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_3 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_3, (String_t*) &_stringLiteral6449, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -666,7 +666,7 @@ IL_001c:
 	}
 	{
 		int32_t L_5 = ___charIndex;
-		CharU5BU5D_t715* L_6 = ___chars;
+		CharU5BU5D_t722* L_6 = ___chars;
 		NullCheck(L_6);
 		if ((((int32_t)L_5) <= ((int32_t)(((int32_t)(((Array_t *)L_6)->max_length))))))
 		{
@@ -676,10 +676,10 @@ IL_001c:
 
 IL_0026:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_7 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_8 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_8, (String_t*) &_stringLiteral6436, L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_7 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_8 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_8, (String_t*) &_stringLiteral6450, L_7, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_8);
 	}
 
@@ -693,7 +693,7 @@ IL_003b:
 	}
 	{
 		int32_t L_10 = ___charCount;
-		CharU5BU5D_t715* L_11 = ___chars;
+		CharU5BU5D_t722* L_11 = ___chars;
 		NullCheck(L_11);
 		int32_t L_12 = ___charIndex;
 		if ((((int32_t)L_10) <= ((int32_t)((int32_t)((int32_t)(((int32_t)(((Array_t *)L_11)->max_length)))-(int32_t)L_12)))))
@@ -704,10 +704,10 @@ IL_003b:
 
 IL_0047:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_13 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_14 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_14, (String_t*) &_stringLiteral6437, L_13, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_13 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_14 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_14, (String_t*) &_stringLiteral6451, L_13, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_14);
 	}
 
@@ -731,17 +731,17 @@ IL_005c:
 
 IL_0068:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_18 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_19 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_19, (String_t*) &_stringLiteral6438, L_18, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_18 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_19 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_19, (String_t*) &_stringLiteral6452, L_18, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_19);
 	}
 
 IL_007d:
 	{
 		int32_t L_20 = ___charIndex;
-		CharU5BU5D_t715* L_21 = ___chars;
+		CharU5BU5D_t722* L_21 = ___chars;
 		NullCheck(L_21);
 		if ((!(((uint32_t)L_20) == ((uint32_t)(((int32_t)(((Array_t *)L_21)->max_length)))))))
 		{
@@ -774,14 +774,14 @@ IL_0090:
 
 IL_0092:
 	{
-		CharU5BU5D_t715* L_25 = ___chars;
+		CharU5BU5D_t722* L_25 = ___chars;
 		if (!L_25)
 		{
 			goto IL_009a;
 		}
 	}
 	{
-		CharU5BU5D_t715* L_26 = ___chars;
+		CharU5BU5D_t722* L_26 = ___chars;
 		NullCheck(L_26);
 		if ((((int32_t)(((Array_t *)L_26)->max_length))))
 		{
@@ -797,7 +797,7 @@ IL_009a:
 
 IL_009e:
 	{
-		CharU5BU5D_t715* L_27 = ___chars;
+		CharU5BU5D_t722* L_27 = ___chars;
 		NullCheck(L_27);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_27, 0);
 		G_B22_0 = ((uintptr_t)(((uint16_t*)(uint16_t*)SZArrayLdElema(L_27, 0))));
@@ -820,7 +820,7 @@ IL_00a5:
 		int32_t L_32 = ___charCount;
 		uint16_t* L_33 = ___leftOver;
 		bool L_34 = ___flush;
-		int32_t L_35 = UTF8Encoding_InternalGetBytes_m24269(NULL /*static, unused*/, (uint16_t*)(uint16_t*)((intptr_t)((intptr_t)L_30+(int32_t)((int32_t)((int32_t)L_31*(int32_t)2)))), L_32, (uint8_t*)(uint8_t*)(((uintptr_t)0)), 0, L_33, L_34, /*hidden argument*/NULL);
+		int32_t L_35 = UTF8Encoding_InternalGetBytes_m24326(NULL /*static, unused*/, (uint16_t*)(uint16_t*)((intptr_t)((intptr_t)L_30+(int32_t)((int32_t)((int32_t)L_31*(int32_t)2)))), L_32, (uint8_t*)(uint8_t*)(((uintptr_t)0)), 0, L_33, L_34, /*hidden argument*/NULL);
 		return L_35;
 	}
 
@@ -868,18 +868,18 @@ IL_00d3:
 		int32_t L_45 = ___byteIndex;
 		uint16_t* L_46 = ___leftOver;
 		bool L_47 = ___flush;
-		int32_t L_48 = UTF8Encoding_InternalGetBytes_m24269(NULL /*static, unused*/, (uint16_t*)(uint16_t*)((intptr_t)((intptr_t)L_39+(int32_t)((int32_t)((int32_t)L_40*(int32_t)2)))), L_41, (uint8_t*)(uint8_t*)((intptr_t)((intptr_t)L_42+(int32_t)L_43)), ((int32_t)((int32_t)(((int32_t)(((Array_t *)L_44)->max_length)))-(int32_t)L_45)), L_46, L_47, /*hidden argument*/NULL);
+		int32_t L_48 = UTF8Encoding_InternalGetBytes_m24326(NULL /*static, unused*/, (uint16_t*)(uint16_t*)((intptr_t)((intptr_t)L_39+(int32_t)((int32_t)((int32_t)L_40*(int32_t)2)))), L_41, (uint8_t*)(uint8_t*)((intptr_t)((intptr_t)L_42+(int32_t)L_43)), ((int32_t)((int32_t)(((int32_t)(((Array_t *)L_44)->max_length)))-(int32_t)L_45)), L_46, L_47, /*hidden argument*/NULL);
 		return L_48;
 	}
 }
 // System.Int32 System.Text.UTF8Encoding::InternalGetBytes(System.Char*,System.Int32,System.Byte*,System.Int32,System.Char&,System.Boolean)
-extern TypeInfo* ArgumentException_t729_il2cpp_TypeInfo_var;
-extern "C" int32_t UTF8Encoding_InternalGetBytes_m24269 (Object_t * __this /* static, unused */, uint16_t* ___chars, int32_t ___count, uint8_t* ___bytes, int32_t ___bcount, uint16_t* ___leftOver, bool ___flush, const MethodInfo* method)
+extern TypeInfo* ArgumentException_t736_il2cpp_TypeInfo_var;
+extern "C" int32_t UTF8Encoding_InternalGetBytes_m24326 (Object_t * __this /* static, unused */, uint16_t* ___chars, int32_t ___count, uint8_t* ___bytes, int32_t ___bcount, uint16_t* ___leftOver, bool ___flush, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentException_t729_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(192);
+		ArgumentException_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(192);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint16_t* V_0 = {0};
@@ -1244,38 +1244,38 @@ IL_026b:
 
 IL_0273:
 	{
-		ArgumentException_t729 * L_93 = (ArgumentException_t729 *)il2cpp_codegen_object_new (ArgumentException_t729_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3874(L_93, (String_t*) &_stringLiteral6520, (String_t*) &_stringLiteral6435, /*hidden argument*/NULL);
+		ArgumentException_t736 * L_93 = (ArgumentException_t736 *)il2cpp_codegen_object_new (ArgumentException_t736_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m3930(L_93, (String_t*) &_stringLiteral6534, (String_t*) &_stringLiteral6449, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_93);
 	}
 }
 // System.Int32 System.Text.UTF8Encoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
-extern "C" int32_t UTF8Encoding_GetBytes_m24270 (UTF8Encoding_t3733 * __this, CharU5BU5D_t715* ___chars, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, const MethodInfo* method)
+extern "C" int32_t UTF8Encoding_GetBytes_m24327 (UTF8Encoding_t3740 * __this, CharU5BU5D_t722* ___chars, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, const MethodInfo* method)
 {
 	uint16_t V_0 = 0x0;
 	{
 		V_0 = 0;
-		CharU5BU5D_t715* L_0 = ___chars;
+		CharU5BU5D_t722* L_0 = ___chars;
 		int32_t L_1 = ___charIndex;
 		int32_t L_2 = ___charCount;
 		ByteU5BU5D_t66* L_3 = ___bytes;
 		int32_t L_4 = ___byteIndex;
-		int32_t L_5 = UTF8Encoding_InternalGetBytes_m24268(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, (&V_0), 1, /*hidden argument*/NULL);
+		int32_t L_5 = UTF8Encoding_InternalGetBytes_m24325(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, (&V_0), 1, /*hidden argument*/NULL);
 		return L_5;
 	}
 }
 // System.Int32 System.Text.UTF8Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern TypeInfo* Encoding_t757_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var;
-extern "C" int32_t UTF8Encoding_GetBytes_m24271 (UTF8Encoding_t3733 * __this, String_t* ___s, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern TypeInfo* Encoding_t764_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var;
+extern "C" int32_t UTF8Encoding_GetBytes_m24328 (UTF8Encoding_t3740 * __this, String_t* ___s, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
-		Encoding_t757_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
-		ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2630);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		Encoding_t764_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
+		ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2648);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint16_t* V_0 = {0};
@@ -1291,8 +1291,8 @@ extern "C" int32_t UTF8Encoding_GetBytes_m24271 (UTF8Encoding_t3733 * __this, St
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral4579, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral4593, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -1305,8 +1305,8 @@ IL_000e:
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_3 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_3, (String_t*) &_stringLiteral6435, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_3 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_3, (String_t*) &_stringLiteral6449, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -1331,10 +1331,10 @@ IL_001d:
 
 IL_002a:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_8 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6440, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_9 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_9, (String_t*) &_stringLiteral6436, L_8, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_8 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6454, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_9 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_9, (String_t*) &_stringLiteral6450, L_8, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_9);
 	}
 
@@ -1360,10 +1360,10 @@ IL_003f:
 
 IL_004e:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_15 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6441, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_16 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_16, (String_t*) &_stringLiteral6437, L_15, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_15 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6455, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_16 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_16, (String_t*) &_stringLiteral6451, L_15, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_16);
 	}
 
@@ -1387,10 +1387,10 @@ IL_0063:
 
 IL_0070:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_20 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_21 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_21, (String_t*) &_stringLiteral6438, L_20, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_20 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_21 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_21, (String_t*) &_stringLiteral6452, L_20, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_21);
 	}
 
@@ -1414,7 +1414,7 @@ IL_0090:
 		String_t* L_25 = ___s;
 		V_3 = L_25;
 		String_t* L_26 = V_3;
-		int32_t L_27 = RuntimeHelpers_get_OffsetToStringData_m19298(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_27 = RuntimeHelpers_get_OffsetToStringData_m19355(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = (uint16_t*)((intptr_t)((intptr_t)(((intptr_t)L_26))+(int32_t)L_27));
 		V_1 = 0;
 		ByteU5BU5D_t66* L_28 = ___bytes;
@@ -1429,7 +1429,7 @@ IL_0090:
 		uint16_t* L_30 = V_0;
 		int32_t L_31 = ___charIndex;
 		int32_t L_32 = ___charCount;
-		int32_t L_33 = UTF8Encoding_InternalGetBytes_m24269(NULL /*static, unused*/, (uint16_t*)(uint16_t*)((intptr_t)((intptr_t)L_30+(int32_t)((int32_t)((int32_t)L_31*(int32_t)2)))), L_32, (uint8_t*)(uint8_t*)(((uintptr_t)0)), 0, (&V_1), 1, /*hidden argument*/NULL);
+		int32_t L_33 = UTF8Encoding_InternalGetBytes_m24326(NULL /*static, unused*/, (uint16_t*)(uint16_t*)((intptr_t)((intptr_t)L_30+(int32_t)((int32_t)((int32_t)L_31*(int32_t)2)))), L_32, (uint8_t*)(uint8_t*)(((uintptr_t)0)), 0, (&V_1), 1, /*hidden argument*/NULL);
 		return L_33;
 	}
 
@@ -1475,20 +1475,20 @@ IL_00cd:
 		ByteU5BU5D_t66* L_42 = ___bytes;
 		NullCheck(L_42);
 		int32_t L_43 = ___byteIndex;
-		int32_t L_44 = UTF8Encoding_InternalGetBytes_m24269(NULL /*static, unused*/, (uint16_t*)(uint16_t*)((intptr_t)((intptr_t)L_37+(int32_t)((int32_t)((int32_t)L_38*(int32_t)2)))), L_39, (uint8_t*)(uint8_t*)((intptr_t)((intptr_t)L_40+(int32_t)L_41)), ((int32_t)((int32_t)(((int32_t)(((Array_t *)L_42)->max_length)))-(int32_t)L_43)), (&V_1), 1, /*hidden argument*/NULL);
+		int32_t L_44 = UTF8Encoding_InternalGetBytes_m24326(NULL /*static, unused*/, (uint16_t*)(uint16_t*)((intptr_t)((intptr_t)L_37+(int32_t)((int32_t)((int32_t)L_38*(int32_t)2)))), L_39, (uint8_t*)(uint8_t*)((intptr_t)((intptr_t)L_40+(int32_t)L_41)), ((int32_t)((int32_t)(((int32_t)(((Array_t *)L_42)->max_length)))-(int32_t)L_43)), (&V_1), 1, /*hidden argument*/NULL);
 		return L_44;
 	}
 }
 // System.Int32 System.Text.UTF8Encoding::GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern TypeInfo* IndexOutOfRangeException_t2951_il2cpp_TypeInfo_var;
-extern "C" int32_t UTF8Encoding_GetBytes_m24272 (UTF8Encoding_t3733 * __this, uint16_t* ___chars, int32_t ___charCount, uint8_t* ___bytes, int32_t ___byteCount, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern TypeInfo* IndexOutOfRangeException_t2958_il2cpp_TypeInfo_var;
+extern "C" int32_t UTF8Encoding_GetBytes_m24329 (UTF8Encoding_t3740 * __this, uint16_t* ___chars, int32_t ___charCount, uint8_t* ___bytes, int32_t ___byteCount, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
-		IndexOutOfRangeException_t2951_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(4517);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		IndexOutOfRangeException_t2958_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(4535);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint16_t V_0 = 0x0;
@@ -1500,8 +1500,8 @@ extern "C" int32_t UTF8Encoding_GetBytes_m24272 (UTF8Encoding_t3733 * __this, ui
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral5395, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral5409, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -1514,8 +1514,8 @@ IL_000e:
 		}
 	}
 	{
-		IndexOutOfRangeException_t2951 * L_3 = (IndexOutOfRangeException_t2951 *)il2cpp_codegen_object_new (IndexOutOfRangeException_t2951_il2cpp_TypeInfo_var);
-		IndexOutOfRangeException__ctor_m10269(L_3, (String_t*) &_stringLiteral6437, /*hidden argument*/NULL);
+		IndexOutOfRangeException_t2958 * L_3 = (IndexOutOfRangeException_t2958 *)il2cpp_codegen_object_new (IndexOutOfRangeException_t2958_il2cpp_TypeInfo_var);
+		IndexOutOfRangeException__ctor_m10326(L_3, (String_t*) &_stringLiteral6451, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -1528,8 +1528,8 @@ IL_001d:
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_5 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_5, (String_t*) &_stringLiteral6435, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_5 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_5, (String_t*) &_stringLiteral6449, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
@@ -1542,8 +1542,8 @@ IL_002b:
 		}
 	}
 	{
-		IndexOutOfRangeException_t2951 * L_7 = (IndexOutOfRangeException_t2951 *)il2cpp_codegen_object_new (IndexOutOfRangeException_t2951_il2cpp_TypeInfo_var);
-		IndexOutOfRangeException__ctor_m10269(L_7, (String_t*) &_stringLiteral6437, /*hidden argument*/NULL);
+		IndexOutOfRangeException_t2958 * L_7 = (IndexOutOfRangeException_t2958 *)il2cpp_codegen_object_new (IndexOutOfRangeException_t2958_il2cpp_TypeInfo_var);
+		IndexOutOfRangeException__ctor_m10326(L_7, (String_t*) &_stringLiteral6451, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_7);
 	}
 
@@ -1571,7 +1571,7 @@ IL_0040:
 	{
 		uint16_t* L_10 = ___chars;
 		int32_t L_11 = ___charCount;
-		int32_t L_12 = UTF8Encoding_InternalGetBytes_m24269(NULL /*static, unused*/, (uint16_t*)(uint16_t*)L_10, L_11, (uint8_t*)(uint8_t*)(((uintptr_t)0)), 0, (&V_0), 1, /*hidden argument*/NULL);
+		int32_t L_12 = UTF8Encoding_InternalGetBytes_m24326(NULL /*static, unused*/, (uint16_t*)(uint16_t*)L_10, L_11, (uint8_t*)(uint8_t*)(((uintptr_t)0)), 0, (&V_0), 1, /*hidden argument*/NULL);
 		return L_12;
 	}
 
@@ -1581,22 +1581,22 @@ IL_0054:
 		int32_t L_14 = ___charCount;
 		uint8_t* L_15 = ___bytes;
 		int32_t L_16 = ___byteCount;
-		int32_t L_17 = UTF8Encoding_InternalGetBytes_m24269(NULL /*static, unused*/, (uint16_t*)(uint16_t*)L_13, L_14, (uint8_t*)(uint8_t*)L_15, L_16, (&V_0), 1, /*hidden argument*/NULL);
+		int32_t L_17 = UTF8Encoding_InternalGetBytes_m24326(NULL /*static, unused*/, (uint16_t*)(uint16_t*)L_13, L_14, (uint8_t*)(uint8_t*)L_15, L_16, (&V_0), 1, /*hidden argument*/NULL);
 		return L_17;
 	}
 }
 // System.Int32 System.Text.UTF8Encoding::InternalGetCharCount(System.Byte[],System.Int32,System.Int32,System.UInt32,System.UInt32,System.Object,System.Text.DecoderFallbackBuffer&,System.Byte[]&,System.Boolean)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern TypeInfo* Encoding_t757_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var;
-extern "C" int32_t UTF8Encoding_InternalGetCharCount_m24273 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, uint32_t ___leftOverBits, uint32_t ___leftOverCount, Object_t * ___provider, DecoderFallbackBuffer_t5355 ** ___fallbackBuffer, ByteU5BU5D_t66** ___bufferArg, bool ___flush, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern TypeInfo* Encoding_t764_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var;
+extern "C" int32_t UTF8Encoding_InternalGetCharCount_m24330 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, uint32_t ___leftOverBits, uint32_t ___leftOverCount, Object_t * ___provider, DecoderFallbackBuffer_t5362 ** ___fallbackBuffer, ByteU5BU5D_t66** ___bufferArg, bool ___flush, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
-		Encoding_t757_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
-		ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2630);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		Encoding_t764_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
+		ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2648);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint8_t* V_0 = {0};
@@ -1609,8 +1609,8 @@ extern "C" int32_t UTF8Encoding_InternalGetCharCount_m24273 (Object_t * __this /
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral6435, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral6449, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -1634,10 +1634,10 @@ IL_000e:
 
 IL_0018:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_5 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_6 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_6, (String_t*) &_stringLiteral3024, L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_5 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_6 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_6, (String_t*) &_stringLiteral3038, L_5, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 
@@ -1662,10 +1662,10 @@ IL_002d:
 
 IL_0039:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_11 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_12 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_12, (String_t*) &_stringLiteral632, L_11, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_11 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_12 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_12, (String_t*) &_stringLiteral632, L_11, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_12);
 	}
 
@@ -1721,15 +1721,15 @@ IL_0066:
 		uint32_t L_20 = ___leftOverBits;
 		uint32_t L_21 = ___leftOverCount;
 		Object_t * L_22 = ___provider;
-		DecoderFallbackBuffer_t5355 ** L_23 = ___fallbackBuffer;
+		DecoderFallbackBuffer_t5362 ** L_23 = ___fallbackBuffer;
 		ByteU5BU5D_t66** L_24 = ___bufferArg;
 		bool L_25 = ___flush;
-		int32_t L_26 = UTF8Encoding_InternalGetCharCount_m24274(NULL /*static, unused*/, (uint8_t*)(uint8_t*)((intptr_t)((intptr_t)L_17+(int32_t)L_18)), L_19, L_20, L_21, L_22, L_23, L_24, L_25, /*hidden argument*/NULL);
+		int32_t L_26 = UTF8Encoding_InternalGetCharCount_m24331(NULL /*static, unused*/, (uint8_t*)(uint8_t*)((intptr_t)((intptr_t)L_17+(int32_t)L_18)), L_19, L_20, L_21, L_22, L_23, L_24, L_25, /*hidden argument*/NULL);
 		return L_26;
 	}
 }
 // System.Int32 System.Text.UTF8Encoding::InternalGetCharCount(System.Byte*,System.Int32,System.UInt32,System.UInt32,System.Object,System.Text.DecoderFallbackBuffer&,System.Byte[]&,System.Boolean)
-extern "C" int32_t UTF8Encoding_InternalGetCharCount_m24274 (Object_t * __this /* static, unused */, uint8_t* ___bytes, int32_t ___count, uint32_t ___leftOverBits, uint32_t ___leftOverCount, Object_t * ___provider, DecoderFallbackBuffer_t5355 ** ___fallbackBuffer, ByteU5BU5D_t66** ___bufferArg, bool ___flush, const MethodInfo* method)
+extern "C" int32_t UTF8Encoding_InternalGetCharCount_m24331 (Object_t * __this /* static, unused */, uint8_t* ___bytes, int32_t ___count, uint32_t ___leftOverBits, uint32_t ___leftOverCount, Object_t * ___provider, DecoderFallbackBuffer_t5362 ** ___fallbackBuffer, ByteU5BU5D_t66** ___bufferArg, bool ___flush, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -1917,11 +1917,11 @@ IL_00f9:
 	{
 		int32_t L_30 = V_1;
 		Object_t * L_31 = ___provider;
-		DecoderFallbackBuffer_t5355 ** L_32 = ___fallbackBuffer;
+		DecoderFallbackBuffer_t5362 ** L_32 = ___fallbackBuffer;
 		ByteU5BU5D_t66** L_33 = ___bufferArg;
 		uint8_t* L_34 = ___bytes;
 		int32_t L_35 = V_0;
-		int32_t L_36 = UTF8Encoding_Fallback_m24275(NULL /*static, unused*/, L_31, L_32, L_33, (uint8_t*)(uint8_t*)L_34, (((int64_t)((int32_t)((int32_t)L_35-(int32_t)1)))), 1, /*hidden argument*/NULL);
+		int32_t L_36 = UTF8Encoding_Fallback_m24332(NULL /*static, unused*/, L_31, L_32, L_33, (uint8_t*)(uint8_t*)L_34, (((int64_t)((int32_t)((int32_t)L_35-(int32_t)1)))), 1, /*hidden argument*/NULL);
 		V_1 = ((int32_t)((int32_t)L_30+(int32_t)L_36));
 	}
 
@@ -2034,13 +2034,13 @@ IL_01bb:
 	{
 		int32_t L_52 = V_1;
 		Object_t * L_53 = ___provider;
-		DecoderFallbackBuffer_t5355 ** L_54 = ___fallbackBuffer;
+		DecoderFallbackBuffer_t5362 ** L_54 = ___fallbackBuffer;
 		ByteU5BU5D_t66** L_55 = ___bufferArg;
 		uint8_t* L_56 = ___bytes;
 		int32_t L_57 = V_0;
 		uint32_t L_58 = V_5;
 		uint32_t L_59 = V_5;
-		int32_t L_60 = UTF8Encoding_Fallback_m24275(NULL /*static, unused*/, L_53, L_54, L_55, (uint8_t*)(uint8_t*)L_56, ((int64_t)((int64_t)(((int64_t)L_57))-(int64_t)(((uint64_t)L_58)))), L_59, /*hidden argument*/NULL);
+		int32_t L_60 = UTF8Encoding_Fallback_m24332(NULL /*static, unused*/, L_53, L_54, L_55, (uint8_t*)(uint8_t*)L_56, ((int64_t)((int64_t)(((int64_t)L_57))-(int64_t)(((uint64_t)L_58)))), L_59, /*hidden argument*/NULL);
 		V_1 = ((int32_t)((int32_t)L_52+(int32_t)L_60));
 		goto IL_0204;
 	}
@@ -2056,13 +2056,13 @@ IL_01d8:
 	{
 		int32_t L_62 = V_1;
 		Object_t * L_63 = ___provider;
-		DecoderFallbackBuffer_t5355 ** L_64 = ___fallbackBuffer;
+		DecoderFallbackBuffer_t5362 ** L_64 = ___fallbackBuffer;
 		ByteU5BU5D_t66** L_65 = ___bufferArg;
 		uint8_t* L_66 = ___bytes;
 		int32_t L_67 = V_0;
 		uint32_t L_68 = V_5;
 		uint32_t L_69 = V_5;
-		int32_t L_70 = UTF8Encoding_Fallback_m24275(NULL /*static, unused*/, L_63, L_64, L_65, (uint8_t*)(uint8_t*)L_66, ((int64_t)((int64_t)(((int64_t)L_67))-(int64_t)(((uint64_t)L_68)))), L_69, /*hidden argument*/NULL);
+		int32_t L_70 = UTF8Encoding_Fallback_m24332(NULL /*static, unused*/, L_63, L_64, L_65, (uint8_t*)(uint8_t*)L_66, ((int64_t)((int64_t)(((int64_t)L_67))-(int64_t)(((uint64_t)L_68)))), L_69, /*hidden argument*/NULL);
 		V_1 = ((int32_t)((int32_t)L_62+(int32_t)L_70));
 		goto IL_0204;
 	}
@@ -2096,13 +2096,13 @@ IL_0215:
 	{
 		int32_t L_74 = V_1;
 		Object_t * L_75 = ___provider;
-		DecoderFallbackBuffer_t5355 ** L_76 = ___fallbackBuffer;
+		DecoderFallbackBuffer_t5362 ** L_76 = ___fallbackBuffer;
 		ByteU5BU5D_t66** L_77 = ___bufferArg;
 		uint8_t* L_78 = ___bytes;
 		int32_t L_79 = V_0;
 		uint32_t L_80 = V_5;
 		uint32_t L_81 = V_5;
-		int32_t L_82 = UTF8Encoding_Fallback_m24275(NULL /*static, unused*/, L_75, L_76, L_77, (uint8_t*)(uint8_t*)L_78, ((int64_t)((int64_t)(((int64_t)L_79))-(int64_t)(((uint64_t)L_80)))), L_81, /*hidden argument*/NULL);
+		int32_t L_82 = UTF8Encoding_Fallback_m24332(NULL /*static, unused*/, L_75, L_76, L_77, (uint8_t*)(uint8_t*)L_78, ((int64_t)((int64_t)(((int64_t)L_79))-(int64_t)(((uint64_t)L_80)))), L_81, /*hidden argument*/NULL);
 		V_1 = ((int32_t)((int32_t)L_74+(int32_t)L_82));
 	}
 
@@ -2120,13 +2120,13 @@ IL_0231:
 	{
 		int32_t L_83 = V_1;
 		Object_t * L_84 = ___provider;
-		DecoderFallbackBuffer_t5355 ** L_85 = ___fallbackBuffer;
+		DecoderFallbackBuffer_t5362 ** L_85 = ___fallbackBuffer;
 		ByteU5BU5D_t66** L_86 = ___bufferArg;
 		uint8_t* L_87 = ___bytes;
 		int32_t L_88 = V_0;
 		uint32_t L_89 = V_5;
 		uint32_t L_90 = V_5;
-		int32_t L_91 = UTF8Encoding_Fallback_m24275(NULL /*static, unused*/, L_84, L_85, L_86, (uint8_t*)(uint8_t*)L_87, ((int64_t)((int64_t)(((int64_t)L_88))-(int64_t)(((uint64_t)L_89)))), L_90, /*hidden argument*/NULL);
+		int32_t L_91 = UTF8Encoding_Fallback_m24332(NULL /*static, unused*/, L_84, L_85, L_86, (uint8_t*)(uint8_t*)L_87, ((int64_t)((int64_t)(((int64_t)L_88))-(int64_t)(((uint64_t)L_89)))), L_90, /*hidden argument*/NULL);
 		V_1 = ((int32_t)((int32_t)L_83+(int32_t)L_91));
 		V_6 = 0;
 		int32_t L_92 = V_0;
@@ -2160,13 +2160,13 @@ IL_0256:
 	{
 		int32_t L_97 = V_1;
 		Object_t * L_98 = ___provider;
-		DecoderFallbackBuffer_t5355 ** L_99 = ___fallbackBuffer;
+		DecoderFallbackBuffer_t5362 ** L_99 = ___fallbackBuffer;
 		ByteU5BU5D_t66** L_100 = ___bufferArg;
 		uint8_t* L_101 = ___bytes;
 		int32_t L_102 = V_0;
 		uint32_t L_103 = V_5;
 		uint32_t L_104 = V_5;
-		int32_t L_105 = UTF8Encoding_Fallback_m24275(NULL /*static, unused*/, L_98, L_99, L_100, (uint8_t*)(uint8_t*)L_101, ((int64_t)((int64_t)(((int64_t)L_102))-(int64_t)(((uint64_t)L_103)))), L_104, /*hidden argument*/NULL);
+		int32_t L_105 = UTF8Encoding_Fallback_m24332(NULL /*static, unused*/, L_98, L_99, L_100, (uint8_t*)(uint8_t*)L_101, ((int64_t)((int64_t)(((int64_t)L_102))-(int64_t)(((uint64_t)L_103)))), L_104, /*hidden argument*/NULL);
 		V_1 = ((int32_t)((int32_t)L_97+(int32_t)L_105));
 	}
 
@@ -2177,53 +2177,53 @@ IL_027c:
 	}
 }
 // System.Int32 System.Text.UTF8Encoding::Fallback(System.Object,System.Text.DecoderFallbackBuffer&,System.Byte[]&,System.Byte*,System.Int64,System.UInt32)
-extern TypeInfo* DecoderFallback_t5354_il2cpp_TypeInfo_var;
-extern TypeInfo* Decoder_t3567_il2cpp_TypeInfo_var;
+extern TypeInfo* DecoderFallback_t5361_il2cpp_TypeInfo_var;
+extern TypeInfo* Decoder_t3574_il2cpp_TypeInfo_var;
 extern TypeInfo* ByteU5BU5D_t66_il2cpp_TypeInfo_var;
-extern "C" int32_t UTF8Encoding_Fallback_m24275 (Object_t * __this /* static, unused */, Object_t * ___provider, DecoderFallbackBuffer_t5355 ** ___buffer, ByteU5BU5D_t66** ___bufferArg, uint8_t* ___bytes, int64_t ___index, uint32_t ___size, const MethodInfo* method)
+extern "C" int32_t UTF8Encoding_Fallback_m24332 (Object_t * __this /* static, unused */, Object_t * ___provider, DecoderFallbackBuffer_t5362 ** ___buffer, ByteU5BU5D_t66** ___bufferArg, uint8_t* ___bytes, int64_t ___index, uint32_t ___size, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DecoderFallback_t5354_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9340);
-		Decoder_t3567_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9358);
+		DecoderFallback_t5361_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9358);
+		Decoder_t3574_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9376);
 		ByteU5BU5D_t66_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(254);
 		s_Il2CppMethodIntialized = true;
 	}
-	DecoderFallback_t5354 * V_0 = {0};
+	DecoderFallback_t5361 * V_0 = {0};
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		DecoderFallbackBuffer_t5355 ** L_0 = ___buffer;
-		if ((*((DecoderFallbackBuffer_t5355 **)L_0)))
+		DecoderFallbackBuffer_t5362 ** L_0 = ___buffer;
+		if ((*((DecoderFallbackBuffer_t5362 **)L_0)))
 		{
 			goto IL_0025;
 		}
 	}
 	{
 		Object_t * L_1 = ___provider;
-		V_0 = ((DecoderFallback_t5354 *)IsInst(L_1, DecoderFallback_t5354_il2cpp_TypeInfo_var));
-		DecoderFallback_t5354 * L_2 = V_0;
+		V_0 = ((DecoderFallback_t5361 *)IsInst(L_1, DecoderFallback_t5361_il2cpp_TypeInfo_var));
+		DecoderFallback_t5361 * L_2 = V_0;
 		if (!L_2)
 		{
 			goto IL_0018;
 		}
 	}
 	{
-		DecoderFallbackBuffer_t5355 ** L_3 = ___buffer;
-		DecoderFallback_t5354 * L_4 = V_0;
+		DecoderFallbackBuffer_t5362 ** L_3 = ___buffer;
+		DecoderFallback_t5361 * L_4 = V_0;
 		NullCheck(L_4);
-		DecoderFallbackBuffer_t5355 * L_5 = (DecoderFallbackBuffer_t5355 *)VirtFuncInvoker0< DecoderFallbackBuffer_t5355 * >::Invoke(4 /* System.Text.DecoderFallbackBuffer System.Text.DecoderFallback::CreateFallbackBuffer() */, L_4);
+		DecoderFallbackBuffer_t5362 * L_5 = (DecoderFallbackBuffer_t5362 *)VirtFuncInvoker0< DecoderFallbackBuffer_t5362 * >::Invoke(4 /* System.Text.DecoderFallbackBuffer System.Text.DecoderFallback::CreateFallbackBuffer() */, L_4);
 		*((Object_t **)(L_3)) = (Object_t *)L_5;
 		goto IL_0025;
 	}
 
 IL_0018:
 	{
-		DecoderFallbackBuffer_t5355 ** L_6 = ___buffer;
+		DecoderFallbackBuffer_t5362 ** L_6 = ___buffer;
 		Object_t * L_7 = ___provider;
-		NullCheck(((Decoder_t3567 *)Castclass(L_7, Decoder_t3567_il2cpp_TypeInfo_var)));
-		DecoderFallbackBuffer_t5355 * L_8 = Decoder_get_FallbackBuffer_m24086(((Decoder_t3567 *)Castclass(L_7, Decoder_t3567_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		NullCheck(((Decoder_t3574 *)Castclass(L_7, Decoder_t3574_il2cpp_TypeInfo_var)));
+		DecoderFallbackBuffer_t5362 * L_8 = Decoder_get_FallbackBuffer_m24143(((Decoder_t3574 *)Castclass(L_7, Decoder_t3574_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		*((Object_t **)(L_6)) = (Object_t *)L_8;
 	}
 
@@ -2256,18 +2256,18 @@ IL_0037:
 		NullCheck((*((ByteU5BU5D_t66**)L_11)));
 		IL2CPP_ARRAY_BOUNDS_CHECK((*((ByteU5BU5D_t66**)L_11)), 0);
 		*((uint8_t*)(uint8_t*)SZArrayLdElema((*((ByteU5BU5D_t66**)L_11)), 0)) = (uint8_t)(*((uint8_t*)((intptr_t)((intptr_t)L_12+(int32_t)((int32_t)((int32_t)(((int32_t)L_13))+(int32_t)L_14))))));
-		DecoderFallbackBuffer_t5355 ** L_15 = ___buffer;
+		DecoderFallbackBuffer_t5362 ** L_15 = ___buffer;
 		ByteU5BU5D_t66** L_16 = ___bufferArg;
-		NullCheck((*((DecoderFallbackBuffer_t5355 **)L_15)));
-		VirtFuncInvoker2< bool, ByteU5BU5D_t66*, int32_t >::Invoke(5 /* System.Boolean System.Text.DecoderFallbackBuffer::Fallback(System.Byte[],System.Int32) */, (*((DecoderFallbackBuffer_t5355 **)L_15)), (*((ByteU5BU5D_t66**)L_16)), 0);
+		NullCheck((*((DecoderFallbackBuffer_t5362 **)L_15)));
+		VirtFuncInvoker2< bool, ByteU5BU5D_t66*, int32_t >::Invoke(5 /* System.Boolean System.Text.DecoderFallbackBuffer::Fallback(System.Byte[],System.Int32) */, (*((DecoderFallbackBuffer_t5362 **)L_15)), (*((ByteU5BU5D_t66**)L_16)), 0);
 		int32_t L_17 = V_1;
-		DecoderFallbackBuffer_t5355 ** L_18 = ___buffer;
-		NullCheck((*((DecoderFallbackBuffer_t5355 **)L_18)));
-		int32_t L_19 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 System.Text.DecoderFallbackBuffer::get_Remaining() */, (*((DecoderFallbackBuffer_t5355 **)L_18)));
+		DecoderFallbackBuffer_t5362 ** L_18 = ___buffer;
+		NullCheck((*((DecoderFallbackBuffer_t5362 **)L_18)));
+		int32_t L_19 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 System.Text.DecoderFallbackBuffer::get_Remaining() */, (*((DecoderFallbackBuffer_t5362 **)L_18)));
 		V_1 = ((int32_t)((int32_t)L_17+(int32_t)L_19));
-		DecoderFallbackBuffer_t5355 ** L_20 = ___buffer;
-		NullCheck((*((DecoderFallbackBuffer_t5355 **)L_20)));
-		VirtActionInvoker0::Invoke(7 /* System.Void System.Text.DecoderFallbackBuffer::Reset() */, (*((DecoderFallbackBuffer_t5355 **)L_20)));
+		DecoderFallbackBuffer_t5362 ** L_20 = ___buffer;
+		NullCheck((*((DecoderFallbackBuffer_t5362 **)L_20)));
+		VirtActionInvoker0::Invoke(7 /* System.Void System.Text.DecoderFallbackBuffer::Reset() */, (*((DecoderFallbackBuffer_t5362 **)L_20)));
 		int32_t L_21 = V_2;
 		V_2 = ((int32_t)((int32_t)L_21+(int32_t)1));
 	}
@@ -2287,53 +2287,53 @@ IL_0063:
 	}
 }
 // System.Void System.Text.UTF8Encoding::Fallback(System.Object,System.Text.DecoderFallbackBuffer&,System.Byte[]&,System.Byte*,System.Int64,System.UInt32,System.Char*,System.Int32&)
-extern TypeInfo* DecoderFallback_t5354_il2cpp_TypeInfo_var;
-extern TypeInfo* Decoder_t3567_il2cpp_TypeInfo_var;
+extern TypeInfo* DecoderFallback_t5361_il2cpp_TypeInfo_var;
+extern TypeInfo* Decoder_t3574_il2cpp_TypeInfo_var;
 extern TypeInfo* ByteU5BU5D_t66_il2cpp_TypeInfo_var;
-extern "C" void UTF8Encoding_Fallback_m24276 (Object_t * __this /* static, unused */, Object_t * ___provider, DecoderFallbackBuffer_t5355 ** ___buffer, ByteU5BU5D_t66** ___bufferArg, uint8_t* ___bytes, int64_t ___byteIndex, uint32_t ___size, uint16_t* ___chars, int32_t* ___charIndex, const MethodInfo* method)
+extern "C" void UTF8Encoding_Fallback_m24333 (Object_t * __this /* static, unused */, Object_t * ___provider, DecoderFallbackBuffer_t5362 ** ___buffer, ByteU5BU5D_t66** ___bufferArg, uint8_t* ___bytes, int64_t ___byteIndex, uint32_t ___size, uint16_t* ___chars, int32_t* ___charIndex, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		DecoderFallback_t5354_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9340);
-		Decoder_t3567_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9358);
+		DecoderFallback_t5361_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9358);
+		Decoder_t3574_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9376);
 		ByteU5BU5D_t66_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(254);
 		s_Il2CppMethodIntialized = true;
 	}
-	DecoderFallback_t5354 * V_0 = {0};
+	DecoderFallback_t5361 * V_0 = {0};
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		DecoderFallbackBuffer_t5355 ** L_0 = ___buffer;
-		if ((*((DecoderFallbackBuffer_t5355 **)L_0)))
+		DecoderFallbackBuffer_t5362 ** L_0 = ___buffer;
+		if ((*((DecoderFallbackBuffer_t5362 **)L_0)))
 		{
 			goto IL_0025;
 		}
 	}
 	{
 		Object_t * L_1 = ___provider;
-		V_0 = ((DecoderFallback_t5354 *)IsInst(L_1, DecoderFallback_t5354_il2cpp_TypeInfo_var));
-		DecoderFallback_t5354 * L_2 = V_0;
+		V_0 = ((DecoderFallback_t5361 *)IsInst(L_1, DecoderFallback_t5361_il2cpp_TypeInfo_var));
+		DecoderFallback_t5361 * L_2 = V_0;
 		if (!L_2)
 		{
 			goto IL_0018;
 		}
 	}
 	{
-		DecoderFallbackBuffer_t5355 ** L_3 = ___buffer;
-		DecoderFallback_t5354 * L_4 = V_0;
+		DecoderFallbackBuffer_t5362 ** L_3 = ___buffer;
+		DecoderFallback_t5361 * L_4 = V_0;
 		NullCheck(L_4);
-		DecoderFallbackBuffer_t5355 * L_5 = (DecoderFallbackBuffer_t5355 *)VirtFuncInvoker0< DecoderFallbackBuffer_t5355 * >::Invoke(4 /* System.Text.DecoderFallbackBuffer System.Text.DecoderFallback::CreateFallbackBuffer() */, L_4);
+		DecoderFallbackBuffer_t5362 * L_5 = (DecoderFallbackBuffer_t5362 *)VirtFuncInvoker0< DecoderFallbackBuffer_t5362 * >::Invoke(4 /* System.Text.DecoderFallbackBuffer System.Text.DecoderFallback::CreateFallbackBuffer() */, L_4);
 		*((Object_t **)(L_3)) = (Object_t *)L_5;
 		goto IL_0025;
 	}
 
 IL_0018:
 	{
-		DecoderFallbackBuffer_t5355 ** L_6 = ___buffer;
+		DecoderFallbackBuffer_t5362 ** L_6 = ___buffer;
 		Object_t * L_7 = ___provider;
-		NullCheck(((Decoder_t3567 *)Castclass(L_7, Decoder_t3567_il2cpp_TypeInfo_var)));
-		DecoderFallbackBuffer_t5355 * L_8 = Decoder_get_FallbackBuffer_m24086(((Decoder_t3567 *)Castclass(L_7, Decoder_t3567_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		NullCheck(((Decoder_t3574 *)Castclass(L_7, Decoder_t3574_il2cpp_TypeInfo_var)));
+		DecoderFallbackBuffer_t5362 * L_8 = Decoder_get_FallbackBuffer_m24143(((Decoder_t3574 *)Castclass(L_7, Decoder_t3574_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		*((Object_t **)(L_6)) = (Object_t *)L_8;
 	}
 
@@ -2365,10 +2365,10 @@ IL_0035:
 		NullCheck((*((ByteU5BU5D_t66**)L_11)));
 		IL2CPP_ARRAY_BOUNDS_CHECK((*((ByteU5BU5D_t66**)L_11)), 0);
 		*((uint8_t*)(uint8_t*)SZArrayLdElema((*((ByteU5BU5D_t66**)L_11)), 0)) = (uint8_t)(*((uint8_t*)((intptr_t)((intptr_t)L_12+(intptr_t)(((intptr_t)((int64_t)((int64_t)L_13+(int64_t)(((int64_t)L_14))))))))));
-		DecoderFallbackBuffer_t5355 ** L_15 = ___buffer;
+		DecoderFallbackBuffer_t5362 ** L_15 = ___buffer;
 		ByteU5BU5D_t66** L_16 = ___bufferArg;
-		NullCheck((*((DecoderFallbackBuffer_t5355 **)L_15)));
-		VirtFuncInvoker2< bool, ByteU5BU5D_t66*, int32_t >::Invoke(5 /* System.Boolean System.Text.DecoderFallbackBuffer::Fallback(System.Byte[],System.Int32) */, (*((DecoderFallbackBuffer_t5355 **)L_15)), (*((ByteU5BU5D_t66**)L_16)), 0);
+		NullCheck((*((DecoderFallbackBuffer_t5362 **)L_15)));
+		VirtFuncInvoker2< bool, ByteU5BU5D_t66*, int32_t >::Invoke(5 /* System.Boolean System.Text.DecoderFallbackBuffer::Fallback(System.Byte[],System.Int32) */, (*((DecoderFallbackBuffer_t5362 **)L_15)), (*((ByteU5BU5D_t66**)L_16)), 0);
 		goto IL_0067;
 	}
 
@@ -2381,26 +2381,26 @@ IL_004f:
 		V_2 = L_20;
 		*((int32_t*)(L_18)) = (int32_t)((int32_t)((int32_t)L_20+(int32_t)1));
 		int32_t L_21 = V_2;
-		DecoderFallbackBuffer_t5355 ** L_22 = ___buffer;
-		NullCheck((*((DecoderFallbackBuffer_t5355 **)L_22)));
-		uint16_t L_23 = (uint16_t)VirtFuncInvoker0< uint16_t >::Invoke(6 /* System.Char System.Text.DecoderFallbackBuffer::GetNextChar() */, (*((DecoderFallbackBuffer_t5355 **)L_22)));
+		DecoderFallbackBuffer_t5362 ** L_22 = ___buffer;
+		NullCheck((*((DecoderFallbackBuffer_t5362 **)L_22)));
+		uint16_t L_23 = (uint16_t)VirtFuncInvoker0< uint16_t >::Invoke(6 /* System.Char System.Text.DecoderFallbackBuffer::GetNextChar() */, (*((DecoderFallbackBuffer_t5362 **)L_22)));
 		*((int16_t*)(((intptr_t)((intptr_t)L_17+(int32_t)((int32_t)((int32_t)L_21*(int32_t)2)))))) = (int16_t)L_23;
 	}
 
 IL_0067:
 	{
-		DecoderFallbackBuffer_t5355 ** L_24 = ___buffer;
-		NullCheck((*((DecoderFallbackBuffer_t5355 **)L_24)));
-		int32_t L_25 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 System.Text.DecoderFallbackBuffer::get_Remaining() */, (*((DecoderFallbackBuffer_t5355 **)L_24)));
+		DecoderFallbackBuffer_t5362 ** L_24 = ___buffer;
+		NullCheck((*((DecoderFallbackBuffer_t5362 **)L_24)));
+		int32_t L_25 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 System.Text.DecoderFallbackBuffer::get_Remaining() */, (*((DecoderFallbackBuffer_t5362 **)L_24)));
 		if ((((int32_t)L_25) > ((int32_t)0)))
 		{
 			goto IL_004f;
 		}
 	}
 	{
-		DecoderFallbackBuffer_t5355 ** L_26 = ___buffer;
-		NullCheck((*((DecoderFallbackBuffer_t5355 **)L_26)));
-		VirtActionInvoker0::Invoke(7 /* System.Void System.Text.DecoderFallbackBuffer::Reset() */, (*((DecoderFallbackBuffer_t5355 **)L_26)));
+		DecoderFallbackBuffer_t5362 ** L_26 = ___buffer;
+		NullCheck((*((DecoderFallbackBuffer_t5362 **)L_26)));
+		VirtActionInvoker0::Invoke(7 /* System.Void System.Text.DecoderFallbackBuffer::Reset() */, (*((DecoderFallbackBuffer_t5362 **)L_26)));
 		int32_t L_27 = V_1;
 		V_1 = ((int32_t)((int32_t)L_27+(int32_t)1));
 	}
@@ -2419,33 +2419,33 @@ IL_007c:
 	}
 }
 // System.Int32 System.Text.UTF8Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32)
-extern "C" int32_t UTF8Encoding_GetCharCount_m24277 (UTF8Encoding_t3733 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, const MethodInfo* method)
+extern "C" int32_t UTF8Encoding_GetCharCount_m24334 (UTF8Encoding_t3740 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, const MethodInfo* method)
 {
-	DecoderFallbackBuffer_t5355 * V_0 = {0};
+	DecoderFallbackBuffer_t5362 * V_0 = {0};
 	ByteU5BU5D_t66* V_1 = {0};
 	{
-		V_0 = (DecoderFallbackBuffer_t5355 *)NULL;
+		V_0 = (DecoderFallbackBuffer_t5362 *)NULL;
 		V_1 = (ByteU5BU5D_t66*)NULL;
 		ByteU5BU5D_t66* L_0 = ___bytes;
 		int32_t L_1 = ___index;
 		int32_t L_2 = ___count;
-		DecoderFallback_t5354 * L_3 = Encoding_get_DecoderFallback_m24154(__this, /*hidden argument*/NULL);
-		int32_t L_4 = UTF8Encoding_InternalGetCharCount_m24273(NULL /*static, unused*/, L_0, L_1, L_2, 0, 0, L_3, (&V_0), (&V_1), 1, /*hidden argument*/NULL);
+		DecoderFallback_t5361 * L_3 = Encoding_get_DecoderFallback_m24211(__this, /*hidden argument*/NULL);
+		int32_t L_4 = UTF8Encoding_InternalGetCharCount_m24330(NULL /*static, unused*/, L_0, L_1, L_2, 0, 0, L_3, (&V_0), (&V_1), 1, /*hidden argument*/NULL);
 		return L_4;
 	}
 }
 // System.Int32 System.Text.UTF8Encoding::InternalGetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.UInt32&,System.UInt32&,System.Object,System.Text.DecoderFallbackBuffer&,System.Byte[]&,System.Boolean)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern TypeInfo* Encoding_t757_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var;
-extern "C" int32_t UTF8Encoding_InternalGetChars_m24278 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t715* ___chars, int32_t ___charIndex, uint32_t* ___leftOverBits, uint32_t* ___leftOverCount, Object_t * ___provider, DecoderFallbackBuffer_t5355 ** ___fallbackBuffer, ByteU5BU5D_t66** ___bufferArg, bool ___flush, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern TypeInfo* Encoding_t764_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var;
+extern "C" int32_t UTF8Encoding_InternalGetChars_m24335 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t722* ___chars, int32_t ___charIndex, uint32_t* ___leftOverBits, uint32_t* ___leftOverCount, Object_t * ___provider, DecoderFallbackBuffer_t5362 ** ___fallbackBuffer, ByteU5BU5D_t66** ___bufferArg, bool ___flush, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
-		Encoding_t757_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
-		ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2630);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		Encoding_t764_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
+		ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2648);
 		s_Il2CppMethodIntialized = true;
 	}
 	uint16_t* V_0 = {0};
@@ -2460,22 +2460,22 @@ extern "C" int32_t UTF8Encoding_InternalGetChars_m24278 (Object_t * __this /* st
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral6435, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral6449, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
 IL_000e:
 	{
-		CharU5BU5D_t715* L_2 = ___chars;
+		CharU5BU5D_t722* L_2 = ___chars;
 		if (L_2)
 		{
 			goto IL_001c;
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_3 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_3, (String_t*) &_stringLiteral5395, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_3 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_3, (String_t*) &_stringLiteral5409, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -2499,10 +2499,10 @@ IL_001c:
 
 IL_0026:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_7 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_8 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_8, (String_t*) &_stringLiteral6438, L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_7 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_8 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_8, (String_t*) &_stringLiteral6452, L_7, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_8);
 	}
 
@@ -2527,10 +2527,10 @@ IL_003b:
 
 IL_0047:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_13 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_14 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_14, (String_t*) &_stringLiteral6442, L_13, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_13 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_14 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_14, (String_t*) &_stringLiteral6456, L_13, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_14);
 	}
 
@@ -2544,7 +2544,7 @@ IL_005c:
 	}
 	{
 		int32_t L_16 = ___charIndex;
-		CharU5BU5D_t715* L_17 = ___chars;
+		CharU5BU5D_t722* L_17 = ___chars;
 		NullCheck(L_17);
 		if ((((int32_t)L_16) <= ((int32_t)(((int32_t)(((Array_t *)L_17)->max_length))))))
 		{
@@ -2554,17 +2554,17 @@ IL_005c:
 
 IL_0068:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_18 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_19 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_19, (String_t*) &_stringLiteral6436, L_18, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_18 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_19 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_19, (String_t*) &_stringLiteral6450, L_18, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_19);
 	}
 
 IL_007d:
 	{
 		int32_t L_20 = ___charIndex;
-		CharU5BU5D_t715* L_21 = ___chars;
+		CharU5BU5D_t722* L_21 = ___chars;
 		NullCheck(L_21);
 		if ((!(((uint32_t)L_20) == ((uint32_t)(((int32_t)(((Array_t *)L_21)->max_length)))))))
 		{
@@ -2577,14 +2577,14 @@ IL_007d:
 
 IL_0086:
 	{
-		CharU5BU5D_t715* L_22 = ___chars;
+		CharU5BU5D_t722* L_22 = ___chars;
 		if (!L_22)
 		{
 			goto IL_008e;
 		}
 	}
 	{
-		CharU5BU5D_t715* L_23 = ___chars;
+		CharU5BU5D_t722* L_23 = ___chars;
 		NullCheck(L_23);
 		if ((((int32_t)(((Array_t *)L_23)->max_length))))
 		{
@@ -2600,7 +2600,7 @@ IL_008e:
 
 IL_0092:
 	{
-		CharU5BU5D_t715* L_24 = ___chars;
+		CharU5BU5D_t722* L_24 = ___chars;
 		NullCheck(L_24);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_24, 0);
 		G_B19_0 = ((uintptr_t)(((uint16_t*)(uint16_t*)SZArrayLdElema(L_24, 0))));
@@ -2629,16 +2629,16 @@ IL_00a3:
 	{
 		uint16_t* L_28 = V_0;
 		int32_t L_29 = ___charIndex;
-		CharU5BU5D_t715* L_30 = ___chars;
+		CharU5BU5D_t722* L_30 = ___chars;
 		NullCheck(L_30);
 		int32_t L_31 = ___charIndex;
 		uint32_t* L_32 = ___leftOverBits;
 		uint32_t* L_33 = ___leftOverCount;
 		Object_t * L_34 = ___provider;
-		DecoderFallbackBuffer_t5355 ** L_35 = ___fallbackBuffer;
+		DecoderFallbackBuffer_t5362 ** L_35 = ___fallbackBuffer;
 		ByteU5BU5D_t66** L_36 = ___bufferArg;
 		bool L_37 = ___flush;
-		int32_t L_38 = UTF8Encoding_InternalGetChars_m24279(NULL /*static, unused*/, (uint8_t*)(uint8_t*)(((uintptr_t)0)), 0, (uint16_t*)(uint16_t*)((intptr_t)((intptr_t)L_28+(int32_t)((int32_t)((int32_t)L_29*(int32_t)2)))), ((int32_t)((int32_t)(((int32_t)(((Array_t *)L_30)->max_length)))-(int32_t)L_31)), L_32, L_33, L_34, L_35, L_36, L_37, /*hidden argument*/NULL);
+		int32_t L_38 = UTF8Encoding_InternalGetChars_m24336(NULL /*static, unused*/, (uint8_t*)(uint8_t*)(((uintptr_t)0)), 0, (uint16_t*)(uint16_t*)((intptr_t)((intptr_t)L_28+(int32_t)((int32_t)((int32_t)L_29*(int32_t)2)))), ((int32_t)((int32_t)(((int32_t)(((Array_t *)L_30)->max_length)))-(int32_t)L_31)), L_32, L_33, L_34, L_35, L_36, L_37, /*hidden argument*/NULL);
 		return L_38;
 	}
 
@@ -2681,29 +2681,29 @@ IL_00d7:
 		int32_t L_44 = ___byteCount;
 		uint16_t* L_45 = V_0;
 		int32_t L_46 = ___charIndex;
-		CharU5BU5D_t715* L_47 = ___chars;
+		CharU5BU5D_t722* L_47 = ___chars;
 		NullCheck(L_47);
 		int32_t L_48 = ___charIndex;
 		uint32_t* L_49 = ___leftOverBits;
 		uint32_t* L_50 = ___leftOverCount;
 		Object_t * L_51 = ___provider;
-		DecoderFallbackBuffer_t5355 ** L_52 = ___fallbackBuffer;
+		DecoderFallbackBuffer_t5362 ** L_52 = ___fallbackBuffer;
 		ByteU5BU5D_t66** L_53 = ___bufferArg;
 		bool L_54 = ___flush;
-		int32_t L_55 = UTF8Encoding_InternalGetChars_m24279(NULL /*static, unused*/, (uint8_t*)(uint8_t*)((intptr_t)((intptr_t)L_42+(int32_t)L_43)), L_44, (uint16_t*)(uint16_t*)((intptr_t)((intptr_t)L_45+(int32_t)((int32_t)((int32_t)L_46*(int32_t)2)))), ((int32_t)((int32_t)(((int32_t)(((Array_t *)L_47)->max_length)))-(int32_t)L_48)), L_49, L_50, L_51, L_52, L_53, L_54, /*hidden argument*/NULL);
+		int32_t L_55 = UTF8Encoding_InternalGetChars_m24336(NULL /*static, unused*/, (uint8_t*)(uint8_t*)((intptr_t)((intptr_t)L_42+(int32_t)L_43)), L_44, (uint16_t*)(uint16_t*)((intptr_t)((intptr_t)L_45+(int32_t)((int32_t)((int32_t)L_46*(int32_t)2)))), ((int32_t)((int32_t)(((int32_t)(((Array_t *)L_47)->max_length)))-(int32_t)L_48)), L_49, L_50, L_51, L_52, L_53, L_54, /*hidden argument*/NULL);
 		return L_55;
 	}
 }
 // System.Int32 System.Text.UTF8Encoding::InternalGetChars(System.Byte*,System.Int32,System.Char*,System.Int32,System.UInt32&,System.UInt32&,System.Object,System.Text.DecoderFallbackBuffer&,System.Byte[]&,System.Boolean)
-extern TypeInfo* Encoding_t757_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentException_t729_il2cpp_TypeInfo_var;
-extern "C" int32_t UTF8Encoding_InternalGetChars_m24279 (Object_t * __this /* static, unused */, uint8_t* ___bytes, int32_t ___byteCount, uint16_t* ___chars, int32_t ___charCount, uint32_t* ___leftOverBits, uint32_t* ___leftOverCount, Object_t * ___provider, DecoderFallbackBuffer_t5355 ** ___fallbackBuffer, ByteU5BU5D_t66** ___bufferArg, bool ___flush, const MethodInfo* method)
+extern TypeInfo* Encoding_t764_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentException_t736_il2cpp_TypeInfo_var;
+extern "C" int32_t UTF8Encoding_InternalGetChars_m24336 (Object_t * __this /* static, unused */, uint8_t* ___bytes, int32_t ___byteCount, uint16_t* ___chars, int32_t ___charCount, uint32_t* ___leftOverBits, uint32_t* ___leftOverCount, Object_t * ___provider, DecoderFallbackBuffer_t5362 ** ___fallbackBuffer, ByteU5BU5D_t66** ___bufferArg, bool ___flush, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Encoding_t757_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
-		ArgumentException_t729_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(192);
+		Encoding_t764_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
+		ArgumentException_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(192);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -2822,10 +2822,10 @@ IL_0063:
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_27 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6439, /*hidden argument*/NULL);
-		ArgumentException_t729 * L_28 = (ArgumentException_t729 *)il2cpp_codegen_object_new (ArgumentException_t729_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3874(L_28, L_27, (String_t*) &_stringLiteral5395, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_27 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6453, /*hidden argument*/NULL);
+		ArgumentException_t736 * L_28 = (ArgumentException_t736 *)il2cpp_codegen_object_new (ArgumentException_t736_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m3930(L_28, L_27, (String_t*) &_stringLiteral5409, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_28);
 	}
 
@@ -2923,12 +2923,12 @@ IL_011d:
 IL_013a:
 	{
 		Object_t * L_43 = ___provider;
-		DecoderFallbackBuffer_t5355 ** L_44 = ___fallbackBuffer;
+		DecoderFallbackBuffer_t5362 ** L_44 = ___fallbackBuffer;
 		ByteU5BU5D_t66** L_45 = ___bufferArg;
 		uint8_t* L_46 = ___bytes;
 		int32_t L_47 = V_1;
 		uint16_t* L_48 = ___chars;
-		UTF8Encoding_Fallback_m24276(NULL /*static, unused*/, L_43, L_44, L_45, (uint8_t*)(uint8_t*)L_46, (((int64_t)L_47)), 1, (uint16_t*)(uint16_t*)L_48, (&V_3), /*hidden argument*/NULL);
+		UTF8Encoding_Fallback_m24333(NULL /*static, unused*/, L_43, L_44, L_45, (uint8_t*)(uint8_t*)L_46, (((int64_t)L_47)), 1, (uint16_t*)(uint16_t*)L_48, (&V_3), /*hidden argument*/NULL);
 	}
 
 IL_014c:
@@ -3039,14 +3039,14 @@ IL_01fc:
 	}
 	{
 		Object_t * L_64 = ___provider;
-		DecoderFallbackBuffer_t5355 ** L_65 = ___fallbackBuffer;
+		DecoderFallbackBuffer_t5362 ** L_65 = ___fallbackBuffer;
 		ByteU5BU5D_t66** L_66 = ___bufferArg;
 		uint8_t* L_67 = ___bytes;
 		int32_t L_68 = V_1;
 		uint32_t L_69 = V_7;
 		uint32_t L_70 = V_7;
 		uint16_t* L_71 = ___chars;
-		UTF8Encoding_Fallback_m24276(NULL /*static, unused*/, L_64, L_65, L_66, (uint8_t*)(uint8_t*)L_67, ((int64_t)((int64_t)(((int64_t)L_68))-(int64_t)(((uint64_t)L_69)))), L_70, (uint16_t*)(uint16_t*)L_71, (&V_3), /*hidden argument*/NULL);
+		UTF8Encoding_Fallback_m24333(NULL /*static, unused*/, L_64, L_65, L_66, (uint8_t*)(uint8_t*)L_67, ((int64_t)((int64_t)(((int64_t)L_68))-(int64_t)(((uint64_t)L_69)))), L_70, (uint16_t*)(uint16_t*)L_71, (&V_3), /*hidden argument*/NULL);
 		goto IL_0267;
 	}
 
@@ -3060,14 +3060,14 @@ IL_0219:
 	}
 	{
 		Object_t * L_73 = ___provider;
-		DecoderFallbackBuffer_t5355 ** L_74 = ___fallbackBuffer;
+		DecoderFallbackBuffer_t5362 ** L_74 = ___fallbackBuffer;
 		ByteU5BU5D_t66** L_75 = ___bufferArg;
 		uint8_t* L_76 = ___bytes;
 		int32_t L_77 = V_1;
 		uint32_t L_78 = V_7;
 		uint32_t L_79 = V_7;
 		uint16_t* L_80 = ___chars;
-		UTF8Encoding_Fallback_m24276(NULL /*static, unused*/, L_73, L_74, L_75, (uint8_t*)(uint8_t*)L_76, ((int64_t)((int64_t)(((int64_t)L_77))-(int64_t)(((uint64_t)L_78)))), L_79, (uint16_t*)(uint16_t*)L_80, (&V_3), /*hidden argument*/NULL);
+		UTF8Encoding_Fallback_m24333(NULL /*static, unused*/, L_73, L_74, L_75, (uint8_t*)(uint8_t*)L_76, ((int64_t)((int64_t)(((int64_t)L_77))-(int64_t)(((uint64_t)L_78)))), L_79, (uint16_t*)(uint16_t*)L_80, (&V_3), /*hidden argument*/NULL);
 		goto IL_0267;
 	}
 
@@ -3081,10 +3081,10 @@ IL_0241:
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_83 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6439, /*hidden argument*/NULL);
-		ArgumentException_t729 * L_84 = (ArgumentException_t729 *)il2cpp_codegen_object_new (ArgumentException_t729_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3874(L_84, L_83, (String_t*) &_stringLiteral5395, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_83 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6453, /*hidden argument*/NULL);
+		ArgumentException_t736 * L_84 = (ArgumentException_t736 *)il2cpp_codegen_object_new (ArgumentException_t736_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m3930(L_84, L_83, (String_t*) &_stringLiteral5409, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_84);
 	}
 
@@ -3120,10 +3120,10 @@ IL_0269:
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_92 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6439, /*hidden argument*/NULL);
-		ArgumentException_t729 * L_93 = (ArgumentException_t729 *)il2cpp_codegen_object_new (ArgumentException_t729_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3874(L_93, L_92, (String_t*) &_stringLiteral5395, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_92 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6453, /*hidden argument*/NULL);
+		ArgumentException_t736 * L_93 = (ArgumentException_t736 *)il2cpp_codegen_object_new (ArgumentException_t736_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m3930(L_93, L_92, (String_t*) &_stringLiteral5409, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_93);
 	}
 
@@ -3149,14 +3149,14 @@ IL_028d:
 IL_02c8:
 	{
 		Object_t * L_103 = ___provider;
-		DecoderFallbackBuffer_t5355 ** L_104 = ___fallbackBuffer;
+		DecoderFallbackBuffer_t5362 ** L_104 = ___fallbackBuffer;
 		ByteU5BU5D_t66** L_105 = ___bufferArg;
 		uint8_t* L_106 = ___bytes;
 		int32_t L_107 = V_1;
 		uint32_t L_108 = V_7;
 		uint32_t L_109 = V_7;
 		uint16_t* L_110 = ___chars;
-		UTF8Encoding_Fallback_m24276(NULL /*static, unused*/, L_103, L_104, L_105, (uint8_t*)(uint8_t*)L_106, ((int64_t)((int64_t)(((int64_t)L_107))-(int64_t)(((uint64_t)L_108)))), L_109, (uint16_t*)(uint16_t*)L_110, (&V_3), /*hidden argument*/NULL);
+		UTF8Encoding_Fallback_m24333(NULL /*static, unused*/, L_103, L_104, L_105, (uint8_t*)(uint8_t*)L_106, ((int64_t)((int64_t)(((int64_t)L_107))-(int64_t)(((uint64_t)L_108)))), L_109, (uint16_t*)(uint16_t*)L_110, (&V_3), /*hidden argument*/NULL);
 	}
 
 IL_02df:
@@ -3172,14 +3172,14 @@ IL_02e2:
 IL_02e4:
 	{
 		Object_t * L_111 = ___provider;
-		DecoderFallbackBuffer_t5355 ** L_112 = ___fallbackBuffer;
+		DecoderFallbackBuffer_t5362 ** L_112 = ___fallbackBuffer;
 		ByteU5BU5D_t66** L_113 = ___bufferArg;
 		uint8_t* L_114 = ___bytes;
 		int32_t L_115 = V_1;
 		uint32_t L_116 = V_7;
 		uint32_t L_117 = V_7;
 		uint16_t* L_118 = ___chars;
-		UTF8Encoding_Fallback_m24276(NULL /*static, unused*/, L_111, L_112, L_113, (uint8_t*)(uint8_t*)L_114, ((int64_t)((int64_t)(((int64_t)L_115))-(int64_t)(((uint64_t)L_116)))), L_117, (uint16_t*)(uint16_t*)L_118, (&V_3), /*hidden argument*/NULL);
+		UTF8Encoding_Fallback_m24333(NULL /*static, unused*/, L_111, L_112, L_113, (uint8_t*)(uint8_t*)L_114, ((int64_t)((int64_t)(((int64_t)L_115))-(int64_t)(((uint64_t)L_116)))), L_117, (uint16_t*)(uint16_t*)L_118, (&V_3), /*hidden argument*/NULL);
 		V_8 = 0;
 		int32_t L_119 = V_1;
 		V_1 = ((int32_t)((int32_t)L_119-(int32_t)1));
@@ -3216,14 +3216,14 @@ IL_0306:
 	}
 	{
 		Object_t * L_125 = ___provider;
-		DecoderFallbackBuffer_t5355 ** L_126 = ___fallbackBuffer;
+		DecoderFallbackBuffer_t5362 ** L_126 = ___fallbackBuffer;
 		ByteU5BU5D_t66** L_127 = ___bufferArg;
 		uint8_t* L_128 = ___bytes;
 		int32_t L_129 = V_1;
 		uint32_t L_130 = V_7;
 		uint32_t L_131 = V_7;
 		uint16_t* L_132 = ___chars;
-		UTF8Encoding_Fallback_m24276(NULL /*static, unused*/, L_125, L_126, L_127, (uint8_t*)(uint8_t*)L_128, ((int64_t)((int64_t)(((int64_t)L_129))-(int64_t)(((uint64_t)L_130)))), L_131, (uint16_t*)(uint16_t*)L_132, (&V_3), /*hidden argument*/NULL);
+		UTF8Encoding_Fallback_m24333(NULL /*static, unused*/, L_125, L_126, L_127, (uint8_t*)(uint8_t*)L_128, ((int64_t)((int64_t)(((int64_t)L_129))-(int64_t)(((uint64_t)L_130)))), L_131, (uint16_t*)(uint16_t*)L_132, (&V_3), /*hidden argument*/NULL);
 	}
 
 IL_032d:
@@ -3241,37 +3241,37 @@ IL_032d:
 	}
 }
 // System.Int32 System.Text.UTF8Encoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern "C" int32_t UTF8Encoding_GetChars_m24280 (UTF8Encoding_t3733 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t715* ___chars, int32_t ___charIndex, const MethodInfo* method)
+extern "C" int32_t UTF8Encoding_GetChars_m24337 (UTF8Encoding_t3740 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t722* ___chars, int32_t ___charIndex, const MethodInfo* method)
 {
 	uint32_t V_0 = 0;
 	uint32_t V_1 = 0;
-	DecoderFallbackBuffer_t5355 * V_2 = {0};
+	DecoderFallbackBuffer_t5362 * V_2 = {0};
 	ByteU5BU5D_t66* V_3 = {0};
 	{
 		V_0 = 0;
 		V_1 = 0;
-		V_2 = (DecoderFallbackBuffer_t5355 *)NULL;
+		V_2 = (DecoderFallbackBuffer_t5362 *)NULL;
 		V_3 = (ByteU5BU5D_t66*)NULL;
 		ByteU5BU5D_t66* L_0 = ___bytes;
 		int32_t L_1 = ___byteIndex;
 		int32_t L_2 = ___byteCount;
-		CharU5BU5D_t715* L_3 = ___chars;
+		CharU5BU5D_t722* L_3 = ___chars;
 		int32_t L_4 = ___charIndex;
-		DecoderFallback_t5354 * L_5 = Encoding_get_DecoderFallback_m24154(__this, /*hidden argument*/NULL);
-		int32_t L_6 = UTF8Encoding_InternalGetChars_m24278(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, (&V_0), (&V_1), L_5, (&V_2), (&V_3), 1, /*hidden argument*/NULL);
+		DecoderFallback_t5361 * L_5 = Encoding_get_DecoderFallback_m24211(__this, /*hidden argument*/NULL);
+		int32_t L_6 = UTF8Encoding_InternalGetChars_m24335(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, (&V_0), (&V_1), L_5, (&V_2), (&V_3), 1, /*hidden argument*/NULL);
 		return L_6;
 	}
 }
 // System.Int32 System.Text.UTF8Encoding::GetMaxByteCount(System.Int32)
-extern TypeInfo* Encoding_t757_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var;
-extern "C" int32_t UTF8Encoding_GetMaxByteCount_m24281 (UTF8Encoding_t3733 * __this, int32_t ___charCount, const MethodInfo* method)
+extern TypeInfo* Encoding_t764_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var;
+extern "C" int32_t UTF8Encoding_GetMaxByteCount_m24338 (UTF8Encoding_t3740 * __this, int32_t ___charCount, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Encoding_t757_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
-		ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2630);
+		Encoding_t764_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
+		ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2648);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -3282,10 +3282,10 @@ extern "C" int32_t UTF8Encoding_GetMaxByteCount_m24281 (UTF8Encoding_t3733 * __t
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_1 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6443, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_2 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_2, (String_t*) &_stringLiteral6437, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_1 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6457, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_2 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_2, (String_t*) &_stringLiteral6451, L_1, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -3296,15 +3296,15 @@ IL_0019:
 	}
 }
 // System.Int32 System.Text.UTF8Encoding::GetMaxCharCount(System.Int32)
-extern TypeInfo* Encoding_t757_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var;
-extern "C" int32_t UTF8Encoding_GetMaxCharCount_m24282 (UTF8Encoding_t3733 * __this, int32_t ___byteCount, const MethodInfo* method)
+extern TypeInfo* Encoding_t764_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var;
+extern "C" int32_t UTF8Encoding_GetMaxCharCount_m24339 (UTF8Encoding_t3740 * __this, int32_t ___byteCount, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Encoding_t757_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
-		ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2630);
+		Encoding_t764_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
+		ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2648);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -3315,10 +3315,10 @@ extern "C" int32_t UTF8Encoding_GetMaxCharCount_m24282 (UTF8Encoding_t3733 * __t
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_1 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6443, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_2 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_2, (String_t*) &_stringLiteral6442, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_1 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6457, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_2 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_2, (String_t*) &_stringLiteral6456, L_1, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -3329,25 +3329,25 @@ IL_0019:
 	}
 }
 // System.Text.Decoder System.Text.UTF8Encoding::GetDecoder()
-extern TypeInfo* UTF8Decoder_t5375_il2cpp_TypeInfo_var;
-extern "C" Decoder_t3567 * UTF8Encoding_GetDecoder_m24283 (UTF8Encoding_t3733 * __this, const MethodInfo* method)
+extern TypeInfo* UTF8Decoder_t5382_il2cpp_TypeInfo_var;
+extern "C" Decoder_t3574 * UTF8Encoding_GetDecoder_m24340 (UTF8Encoding_t3740 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		UTF8Decoder_t5375_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9359);
+		UTF8Decoder_t5382_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9377);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		DecoderFallback_t5354 * L_0 = Encoding_get_DecoderFallback_m24154(__this, /*hidden argument*/NULL);
-		UTF8Decoder_t5375 * L_1 = (UTF8Decoder_t5375 *)il2cpp_codegen_object_new (UTF8Decoder_t5375_il2cpp_TypeInfo_var);
-		UTF8Decoder__ctor_m24260(L_1, L_0, /*hidden argument*/NULL);
+		DecoderFallback_t5361 * L_0 = Encoding_get_DecoderFallback_m24211(__this, /*hidden argument*/NULL);
+		UTF8Decoder_t5382 * L_1 = (UTF8Decoder_t5382 *)il2cpp_codegen_object_new (UTF8Decoder_t5382_il2cpp_TypeInfo_var);
+		UTF8Decoder__ctor_m24317(L_1, L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.Byte[] System.Text.UTF8Encoding::GetPreamble()
 extern TypeInfo* ByteU5BU5D_t66_il2cpp_TypeInfo_var;
-extern "C" ByteU5BU5D_t66* UTF8Encoding_GetPreamble_m24284 (UTF8Encoding_t3733 * __this, const MethodInfo* method)
+extern "C" ByteU5BU5D_t66* UTF8Encoding_GetPreamble_m24341 (UTF8Encoding_t3740 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -3387,31 +3387,31 @@ IL_0029:
 	}
 }
 // System.Boolean System.Text.UTF8Encoding::Equals(System.Object)
-extern TypeInfo* UTF8Encoding_t3733_il2cpp_TypeInfo_var;
-extern "C" bool UTF8Encoding_Equals_m24285 (UTF8Encoding_t3733 * __this, Object_t * ___value, const MethodInfo* method)
+extern TypeInfo* UTF8Encoding_t3740_il2cpp_TypeInfo_var;
+extern "C" bool UTF8Encoding_Equals_m24342 (UTF8Encoding_t3740 * __this, Object_t * ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		UTF8Encoding_t3733_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6197);
+		UTF8Encoding_t3740_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(6215);
 		s_Il2CppMethodIntialized = true;
 	}
-	UTF8Encoding_t3733 * V_0 = {0};
+	UTF8Encoding_t3740 * V_0 = {0};
 	int32_t G_B6_0 = 0;
 	{
 		Object_t * L_0 = ___value;
-		V_0 = ((UTF8Encoding_t3733 *)IsInst(L_0, UTF8Encoding_t3733_il2cpp_TypeInfo_var));
-		UTF8Encoding_t3733 * L_1 = V_0;
+		V_0 = ((UTF8Encoding_t3740 *)IsInst(L_0, UTF8Encoding_t3740_il2cpp_TypeInfo_var));
+		UTF8Encoding_t3740 * L_1 = V_0;
 		if (!L_1)
 		{
 			goto IL_004e;
 		}
 	}
 	{
-		int32_t L_2 = (((Encoding_t757 *)__this)->___codePage_0);
-		UTF8Encoding_t3733 * L_3 = V_0;
+		int32_t L_2 = (((Encoding_t764 *)__this)->___codePage_0);
+		UTF8Encoding_t3740 * L_3 = V_0;
 		NullCheck(L_3);
-		int32_t L_4 = (((Encoding_t757 *)L_3)->___codePage_0);
+		int32_t L_4 = (((Encoding_t764 *)L_3)->___codePage_0);
 		if ((!(((uint32_t)L_2) == ((uint32_t)L_4))))
 		{
 			goto IL_004c;
@@ -3419,7 +3419,7 @@ extern "C" bool UTF8Encoding_Equals_m24285 (UTF8Encoding_t3733 * __this, Object_
 	}
 	{
 		bool L_5 = (__this->___emitIdentifier_28);
-		UTF8Encoding_t3733 * L_6 = V_0;
+		UTF8Encoding_t3740 * L_6 = V_0;
 		NullCheck(L_6);
 		bool L_7 = (L_6->___emitIdentifier_28);
 		if ((!(((uint32_t)L_5) == ((uint32_t)L_7))))
@@ -3428,10 +3428,10 @@ extern "C" bool UTF8Encoding_Equals_m24285 (UTF8Encoding_t3733 * __this, Object_
 		}
 	}
 	{
-		DecoderFallback_t5354 * L_8 = Encoding_get_DecoderFallback_m24154(__this, /*hidden argument*/NULL);
-		UTF8Encoding_t3733 * L_9 = V_0;
+		DecoderFallback_t5361 * L_8 = Encoding_get_DecoderFallback_m24211(__this, /*hidden argument*/NULL);
+		UTF8Encoding_t3740 * L_9 = V_0;
 		NullCheck(L_9);
-		DecoderFallback_t5354 * L_10 = Encoding_get_DecoderFallback_m24154(L_9, /*hidden argument*/NULL);
+		DecoderFallback_t5361 * L_10 = Encoding_get_DecoderFallback_m24211(L_9, /*hidden argument*/NULL);
 		NullCheck(L_8);
 		bool L_11 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, L_8, L_10);
 		if (!L_11)
@@ -3440,10 +3440,10 @@ extern "C" bool UTF8Encoding_Equals_m24285 (UTF8Encoding_t3733 * __this, Object_
 		}
 	}
 	{
-		EncoderFallback_t5362 * L_12 = Encoding_get_EncoderFallback_m24156(__this, /*hidden argument*/NULL);
-		UTF8Encoding_t3733 * L_13 = V_0;
+		EncoderFallback_t5369 * L_12 = Encoding_get_EncoderFallback_m24213(__this, /*hidden argument*/NULL);
+		UTF8Encoding_t3740 * L_13 = V_0;
 		NullCheck(L_13);
-		EncoderFallback_t5362 * L_14 = Encoding_get_EncoderFallback_m24156(L_13, /*hidden argument*/NULL);
+		EncoderFallback_t5369 * L_14 = Encoding_get_EncoderFallback_m24213(L_13, /*hidden argument*/NULL);
 		NullCheck(L_12);
 		bool L_15 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, L_12, L_14);
 		G_B6_0 = ((int32_t)(L_15));
@@ -3466,30 +3466,30 @@ IL_004e:
 	}
 }
 // System.Int32 System.Text.UTF8Encoding::GetHashCode()
-extern "C" int32_t UTF8Encoding_GetHashCode_m24286 (UTF8Encoding_t3733 * __this, const MethodInfo* method)
+extern "C" int32_t UTF8Encoding_GetHashCode_m24343 (UTF8Encoding_t3740 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = Encoding_GetHashCode_m24170(__this, /*hidden argument*/NULL);
+		int32_t L_0 = Encoding_GetHashCode_m24227(__this, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
 // System.Int32 System.Text.UTF8Encoding::GetByteCount(System.String)
-extern "C" int32_t UTF8Encoding_GetByteCount_m24287 (UTF8Encoding_t3733 * __this, String_t* ___chars, const MethodInfo* method)
+extern "C" int32_t UTF8Encoding_GetByteCount_m24344 (UTF8Encoding_t3740 * __this, String_t* ___chars, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___chars;
-		int32_t L_1 = Encoding_GetByteCount_m24159(__this, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Encoding_GetByteCount_m24216(__this, L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.String System.Text.UTF8Encoding::GetString(System.Byte[],System.Int32,System.Int32)
-extern "C" String_t* UTF8Encoding_GetString_m24288 (UTF8Encoding_t3733 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, const MethodInfo* method)
+extern "C" String_t* UTF8Encoding_GetString_m24345 (UTF8Encoding_t3740 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, const MethodInfo* method)
 {
 	{
 		ByteU5BU5D_t66* L_0 = ___bytes;
 		int32_t L_1 = ___index;
 		int32_t L_2 = ___count;
-		String_t* L_3 = Encoding_GetString_m24172(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = Encoding_GetString_m24229(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
 		return L_3;
 	}
 }
@@ -3504,10 +3504,10 @@ extern "C" String_t* UTF8Encoding_GetString_m24288 (UTF8Encoding_t3733 * __this,
 
 
 // System.Void System.Text.UTF32Encoding/UTF32Decoder::.ctor(System.Boolean)
-extern "C" void UTF32Decoder__ctor_m24289 (UTF32Decoder_t5376 * __this, bool ___bigEndian, const MethodInfo* method)
+extern "C" void UTF32Decoder__ctor_m24346 (UTF32Decoder_t5383 * __this, bool ___bigEndian, const MethodInfo* method)
 {
 	{
-		Decoder__ctor_m24084(__this, /*hidden argument*/NULL);
+		Decoder__ctor_m24141(__this, /*hidden argument*/NULL);
 		bool L_0 = ___bigEndian;
 		__this->___bigEndian_2 = L_0;
 		__this->___leftOverByte_3 = (-1);
@@ -3515,19 +3515,19 @@ extern "C" void UTF32Decoder__ctor_m24289 (UTF32Decoder_t5376 * __this, bool ___
 	}
 }
 // System.Int32 System.Text.UTF32Encoding/UTF32Decoder::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern TypeInfo* Encoding_t757_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentException_t729_il2cpp_TypeInfo_var;
-extern "C" int32_t UTF32Decoder_GetChars_m24290 (UTF32Decoder_t5376 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t715* ___chars, int32_t ___charIndex, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern TypeInfo* Encoding_t764_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentException_t736_il2cpp_TypeInfo_var;
+extern "C" int32_t UTF32Decoder_GetChars_m24347 (UTF32Decoder_t5383 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t722* ___chars, int32_t ___charIndex, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
-		Encoding_t757_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
-		ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2630);
-		ArgumentException_t729_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(192);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		Encoding_t764_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
+		ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2648);
+		ArgumentException_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(192);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -3547,22 +3547,22 @@ extern "C" int32_t UTF32Decoder_GetChars_m24290 (UTF32Decoder_t5376 * __this, By
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral6435, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral6449, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
 IL_000e:
 	{
-		CharU5BU5D_t715* L_2 = ___chars;
+		CharU5BU5D_t722* L_2 = ___chars;
 		if (L_2)
 		{
 			goto IL_001d;
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_3 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_3, (String_t*) &_stringLiteral5395, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_3 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_3, (String_t*) &_stringLiteral5409, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -3586,10 +3586,10 @@ IL_001d:
 
 IL_0027:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_7 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_8 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_8, (String_t*) &_stringLiteral6438, L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_7 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_8 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_8, (String_t*) &_stringLiteral6452, L_7, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_8);
 	}
 
@@ -3614,10 +3614,10 @@ IL_003c:
 
 IL_0048:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_13 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_14 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_14, (String_t*) &_stringLiteral6442, L_13, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_13 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_14 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_14, (String_t*) &_stringLiteral6456, L_13, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_14);
 	}
 
@@ -3631,7 +3631,7 @@ IL_005d:
 	}
 	{
 		int32_t L_16 = ___charIndex;
-		CharU5BU5D_t715* L_17 = ___chars;
+		CharU5BU5D_t722* L_17 = ___chars;
 		NullCheck(L_17);
 		if ((((int32_t)L_16) <= ((int32_t)(((int32_t)(((Array_t *)L_17)->max_length))))))
 		{
@@ -3641,10 +3641,10 @@ IL_005d:
 
 IL_006a:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_18 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_19 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_19, (String_t*) &_stringLiteral6436, L_18, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_18 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_19 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_19, (String_t*) &_stringLiteral6450, L_18, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_19);
 	}
 
@@ -3654,7 +3654,7 @@ IL_007f:
 		V_0 = L_20;
 		int32_t L_21 = (__this->___leftOverByte_3);
 		V_1 = L_21;
-		CharU5BU5D_t715* L_22 = ___chars;
+		CharU5BU5D_t722* L_22 = ___chars;
 		NullCheck(L_22);
 		V_2 = (((int32_t)(((Array_t *)L_22)->max_length)));
 		int32_t L_23 = (__this->___leftOverLength_4);
@@ -3779,10 +3779,10 @@ IL_0120:
 
 IL_0124:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_53 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6439, /*hidden argument*/NULL);
-		ArgumentException_t729 * L_54 = (ArgumentException_t729 *)il2cpp_codegen_object_new (ArgumentException_t729_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m4229(L_54, L_53, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_53 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6453, /*hidden argument*/NULL);
+		ArgumentException_t736 * L_54 = (ArgumentException_t736 *)il2cpp_codegen_object_new (ArgumentException_t736_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m4285(L_54, L_53, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_54);
 	}
 
@@ -3795,7 +3795,7 @@ IL_0134:
 		}
 	}
 	{
-		CharU5BU5D_t715* L_56 = ___chars;
+		CharU5BU5D_t722* L_56 = ___chars;
 		int32_t L_57 = V_0;
 		int32_t L_58 = L_57;
 		V_0 = ((int32_t)((int32_t)L_58+(int32_t)1));
@@ -3803,7 +3803,7 @@ IL_0134:
 		NullCheck(L_56);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_56, L_58);
 		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_56, L_58)) = (uint16_t)(((uint16_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)((int32_t)L_59-(int32_t)((int32_t)10000)))/(int32_t)((int32_t)1024)))+(int32_t)((int32_t)55296)))));
-		CharU5BU5D_t715* L_60 = ___chars;
+		CharU5BU5D_t722* L_60 = ___chars;
 		int32_t L_61 = V_0;
 		int32_t L_62 = L_61;
 		V_0 = ((int32_t)((int32_t)L_62+(int32_t)1));
@@ -3816,7 +3816,7 @@ IL_0134:
 
 IL_0176:
 	{
-		CharU5BU5D_t715* L_64 = ___chars;
+		CharU5BU5D_t722* L_64 = ___chars;
 		int32_t L_65 = V_0;
 		int32_t L_66 = L_65;
 		V_0 = ((int32_t)((int32_t)L_66+(int32_t)1));
@@ -3923,7 +3923,7 @@ IL_0202:
 		}
 	}
 	{
-		CharU5BU5D_t715* L_104 = ___chars;
+		CharU5BU5D_t722* L_104 = ___chars;
 		int32_t L_105 = V_0;
 		int32_t L_106 = L_105;
 		V_0 = ((int32_t)((int32_t)L_106+(int32_t)1));
@@ -3936,10 +3936,10 @@ IL_0202:
 
 IL_0218:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_108 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6439, /*hidden argument*/NULL);
-		ArgumentException_t729 * L_109 = (ArgumentException_t729 *)il2cpp_codegen_object_new (ArgumentException_t729_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m4229(L_109, L_108, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_108 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6453, /*hidden argument*/NULL);
+		ArgumentException_t736 * L_109 = (ArgumentException_t736 *)il2cpp_codegen_object_new (ArgumentException_t736_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m4285(L_109, L_108, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_109);
 	}
 
@@ -4074,45 +4074,45 @@ IL_02aa:
 
 
 // System.Void System.Text.UTF32Encoding::.ctor()
-extern "C" void UTF32Encoding__ctor_m24291 (UTF32Encoding_t5377 * __this, const MethodInfo* method)
+extern "C" void UTF32Encoding__ctor_m24348 (UTF32Encoding_t5384 * __this, const MethodInfo* method)
 {
 	{
-		UTF32Encoding__ctor_m24293(__this, 0, 1, 0, /*hidden argument*/NULL);
+		UTF32Encoding__ctor_m24350(__this, 0, 1, 0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Text.UTF32Encoding::.ctor(System.Boolean,System.Boolean)
-extern "C" void UTF32Encoding__ctor_m24292 (UTF32Encoding_t5377 * __this, bool ___bigEndian, bool ___byteOrderMark, const MethodInfo* method)
+extern "C" void UTF32Encoding__ctor_m24349 (UTF32Encoding_t5384 * __this, bool ___bigEndian, bool ___byteOrderMark, const MethodInfo* method)
 {
 	{
 		bool L_0 = ___bigEndian;
 		bool L_1 = ___byteOrderMark;
-		UTF32Encoding__ctor_m24293(__this, L_0, L_1, 0, /*hidden argument*/NULL);
+		UTF32Encoding__ctor_m24350(__this, L_0, L_1, 0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Text.UTF32Encoding::.ctor(System.Boolean,System.Boolean,System.Boolean)
-extern TypeInfo* Encoding_t757_il2cpp_TypeInfo_var;
-extern TypeInfo* EncoderFallback_t5362_il2cpp_TypeInfo_var;
-extern TypeInfo* DecoderFallback_t5354_il2cpp_TypeInfo_var;
-extern TypeInfo* EncoderReplacementFallback_t5366_il2cpp_TypeInfo_var;
-extern TypeInfo* DecoderReplacementFallback_t5359_il2cpp_TypeInfo_var;
-extern "C" void UTF32Encoding__ctor_m24293 (UTF32Encoding_t5377 * __this, bool ___bigEndian, bool ___byteOrderMark, bool ___throwOnInvalidCharacters, const MethodInfo* method)
+extern TypeInfo* Encoding_t764_il2cpp_TypeInfo_var;
+extern TypeInfo* EncoderFallback_t5369_il2cpp_TypeInfo_var;
+extern TypeInfo* DecoderFallback_t5361_il2cpp_TypeInfo_var;
+extern TypeInfo* EncoderReplacementFallback_t5373_il2cpp_TypeInfo_var;
+extern TypeInfo* DecoderReplacementFallback_t5366_il2cpp_TypeInfo_var;
+extern "C" void UTF32Encoding__ctor_m24350 (UTF32Encoding_t5384 * __this, bool ___bigEndian, bool ___byteOrderMark, bool ___throwOnInvalidCharacters, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Encoding_t757_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
-		EncoderFallback_t5362_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9345);
-		DecoderFallback_t5354_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9340);
-		EncoderReplacementFallback_t5366_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9349);
-		DecoderReplacementFallback_t5359_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9339);
+		Encoding_t764_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
+		EncoderFallback_t5369_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9363);
+		DecoderFallback_t5361_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9358);
+		EncoderReplacementFallback_t5373_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9367);
+		DecoderReplacementFallback_t5366_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9357);
 		s_Il2CppMethodIntialized = true;
 	}
-	UTF32Encoding_t5377 * G_B2_0 = {0};
-	UTF32Encoding_t5377 * G_B1_0 = {0};
+	UTF32Encoding_t5384 * G_B2_0 = {0};
+	UTF32Encoding_t5384 * G_B1_0 = {0};
 	int32_t G_B3_0 = 0;
-	UTF32Encoding_t5377 * G_B3_1 = {0};
+	UTF32Encoding_t5384 * G_B3_1 = {0};
 	{
 		bool L_0 = ___bigEndian;
 		G_B1_0 = __this;
@@ -4137,8 +4137,8 @@ IL_000b:
 IL_0010:
 	{
 		NullCheck(G_B3_1);
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		Encoding__ctor_m24150(G_B3_1, G_B3_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		Encoding__ctor_m24207(G_B3_1, G_B3_0, /*hidden argument*/NULL);
 		bool L_1 = ___bigEndian;
 		__this->___bigEndian_28 = L_1;
 		bool L_2 = ___byteOrderMark;
@@ -4150,23 +4150,23 @@ IL_0010:
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(EncoderFallback_t5362_il2cpp_TypeInfo_var);
-		EncoderFallback_t5362 * L_4 = EncoderFallback_get_ExceptionFallback_m24127(NULL /*static, unused*/, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(DecoderFallback_t5354_il2cpp_TypeInfo_var);
-		DecoderFallback_t5354 * L_5 = DecoderFallback_get_ExceptionFallback_m24097(NULL /*static, unused*/, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		Encoding_SetFallbackInternal_m24157(__this, L_4, L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(EncoderFallback_t5369_il2cpp_TypeInfo_var);
+		EncoderFallback_t5369 * L_4 = EncoderFallback_get_ExceptionFallback_m24184(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(DecoderFallback_t5361_il2cpp_TypeInfo_var);
+		DecoderFallback_t5361 * L_5 = DecoderFallback_get_ExceptionFallback_m24154(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		Encoding_SetFallbackInternal_m24214(__this, L_4, L_5, /*hidden argument*/NULL);
 		goto IL_0052;
 	}
 
 IL_0038:
 	{
-		EncoderReplacementFallback_t5366 * L_6 = (EncoderReplacementFallback_t5366 *)il2cpp_codegen_object_new (EncoderReplacementFallback_t5366_il2cpp_TypeInfo_var);
-		EncoderReplacementFallback__ctor_m24136(L_6, (String_t*) &_stringLiteral6445, /*hidden argument*/NULL);
-		DecoderReplacementFallback_t5359 * L_7 = (DecoderReplacementFallback_t5359 *)il2cpp_codegen_object_new (DecoderReplacementFallback_t5359_il2cpp_TypeInfo_var);
-		DecoderReplacementFallback__ctor_m24106(L_7, (String_t*) &_stringLiteral6445, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		Encoding_SetFallbackInternal_m24157(__this, L_6, L_7, /*hidden argument*/NULL);
+		EncoderReplacementFallback_t5373 * L_6 = (EncoderReplacementFallback_t5373 *)il2cpp_codegen_object_new (EncoderReplacementFallback_t5373_il2cpp_TypeInfo_var);
+		EncoderReplacementFallback__ctor_m24193(L_6, (String_t*) &_stringLiteral6459, /*hidden argument*/NULL);
+		DecoderReplacementFallback_t5366 * L_7 = (DecoderReplacementFallback_t5366 *)il2cpp_codegen_object_new (DecoderReplacementFallback_t5366_il2cpp_TypeInfo_var);
+		DecoderReplacementFallback__ctor_m24163(L_7, (String_t*) &_stringLiteral6459, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		Encoding_SetFallbackInternal_m24214(__this, L_6, L_7, /*hidden argument*/NULL);
 	}
 
 IL_0052:
@@ -4178,55 +4178,55 @@ IL_0052:
 		}
 	}
 	{
-		((Encoding_t757 *)__this)->___body_name_8 = (String_t*) &_stringLiteral6521;
-		((Encoding_t757 *)__this)->___encoding_name_9 = (String_t*) &_stringLiteral6522;
-		((Encoding_t757 *)__this)->___header_name_10 = (String_t*) &_stringLiteral6521;
-		((Encoding_t757 *)__this)->___web_name_15 = (String_t*) &_stringLiteral6521;
+		((Encoding_t764 *)__this)->___body_name_8 = (String_t*) &_stringLiteral6535;
+		((Encoding_t764 *)__this)->___encoding_name_9 = (String_t*) &_stringLiteral6536;
+		((Encoding_t764 *)__this)->___header_name_10 = (String_t*) &_stringLiteral6535;
+		((Encoding_t764 *)__this)->___web_name_15 = (String_t*) &_stringLiteral6535;
 		goto IL_00af;
 	}
 
 IL_0083:
 	{
-		((Encoding_t757 *)__this)->___body_name_8 = (String_t*) &_stringLiteral6523;
-		((Encoding_t757 *)__this)->___encoding_name_9 = (String_t*) &_stringLiteral6524;
-		((Encoding_t757 *)__this)->___header_name_10 = (String_t*) &_stringLiteral6523;
-		((Encoding_t757 *)__this)->___web_name_15 = (String_t*) &_stringLiteral6523;
+		((Encoding_t764 *)__this)->___body_name_8 = (String_t*) &_stringLiteral6537;
+		((Encoding_t764 *)__this)->___encoding_name_9 = (String_t*) &_stringLiteral6538;
+		((Encoding_t764 *)__this)->___header_name_10 = (String_t*) &_stringLiteral6537;
+		((Encoding_t764 *)__this)->___web_name_15 = (String_t*) &_stringLiteral6537;
 	}
 
 IL_00af:
 	{
-		((Encoding_t757 *)__this)->___windows_code_page_1 = ((int32_t)12000);
+		((Encoding_t764 *)__this)->___windows_code_page_1 = ((int32_t)12000);
 		return;
 	}
 }
 // System.Int32 System.Text.UTF32Encoding::GetByteCount(System.Char[],System.Int32,System.Int32)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern TypeInfo* Encoding_t757_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern TypeInfo* Encoding_t764_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var;
 extern TypeInfo* Char_t60_il2cpp_TypeInfo_var;
-extern "C" int32_t UTF32Encoding_GetByteCount_m24294 (UTF32Encoding_t5377 * __this, CharU5BU5D_t715* ___chars, int32_t ___index, int32_t ___count, const MethodInfo* method)
+extern "C" int32_t UTF32Encoding_GetByteCount_m24351 (UTF32Encoding_t5384 * __this, CharU5BU5D_t722* ___chars, int32_t ___index, int32_t ___count, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
-		Encoding_t757_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
-		ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2630);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		Encoding_t764_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
+		ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2648);
 		Char_t60_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(27);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		CharU5BU5D_t715* L_0 = ___chars;
+		CharU5BU5D_t722* L_0 = ___chars;
 		if (L_0)
 		{
 			goto IL_000e;
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral5395, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral5409, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -4240,7 +4240,7 @@ IL_000e:
 	}
 	{
 		int32_t L_3 = ___index;
-		CharU5BU5D_t715* L_4 = ___chars;
+		CharU5BU5D_t722* L_4 = ___chars;
 		NullCheck(L_4);
 		if ((((int32_t)L_3) <= ((int32_t)(((int32_t)(((Array_t *)L_4)->max_length))))))
 		{
@@ -4250,10 +4250,10 @@ IL_000e:
 
 IL_0018:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_5 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_6 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_6, (String_t*) &_stringLiteral3024, L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_5 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_6 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_6, (String_t*) &_stringLiteral3038, L_5, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 
@@ -4267,7 +4267,7 @@ IL_002d:
 	}
 	{
 		int32_t L_8 = ___count;
-		CharU5BU5D_t715* L_9 = ___chars;
+		CharU5BU5D_t722* L_9 = ___chars;
 		NullCheck(L_9);
 		int32_t L_10 = ___index;
 		if ((((int32_t)L_8) <= ((int32_t)((int32_t)((int32_t)(((int32_t)(((Array_t *)L_9)->max_length)))-(int32_t)L_10)))))
@@ -4278,10 +4278,10 @@ IL_002d:
 
 IL_0039:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_11 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_12 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_12, (String_t*) &_stringLiteral632, L_11, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_11 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_12 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_12, (String_t*) &_stringLiteral632, L_11, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_12);
 	}
 
@@ -4295,13 +4295,13 @@ IL_004e:
 
 IL_0054:
 	{
-		CharU5BU5D_t715* L_14 = ___chars;
+		CharU5BU5D_t722* L_14 = ___chars;
 		int32_t L_15 = V_1;
 		NullCheck(L_14);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_14, L_15);
 		int32_t L_16 = L_15;
 		IL2CPP_RUNTIME_CLASS_INIT(Char_t60_il2cpp_TypeInfo_var);
-		bool L_17 = Char_IsSurrogate_m18791(NULL /*static, unused*/, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_14, L_16)), /*hidden argument*/NULL);
+		bool L_17 = Char_IsSurrogate_m18848(NULL /*static, unused*/, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_14, L_16)), /*hidden argument*/NULL);
 		if (!L_17)
 		{
 			goto IL_007e;
@@ -4309,7 +4309,7 @@ IL_0054:
 	}
 	{
 		int32_t L_18 = V_1;
-		CharU5BU5D_t715* L_19 = ___chars;
+		CharU5BU5D_t722* L_19 = ___chars;
 		NullCheck(L_19);
 		if ((((int32_t)((int32_t)((int32_t)L_18+(int32_t)1))) >= ((int32_t)(((int32_t)(((Array_t *)L_19)->max_length))))))
 		{
@@ -4317,13 +4317,13 @@ IL_0054:
 		}
 	}
 	{
-		CharU5BU5D_t715* L_20 = ___chars;
+		CharU5BU5D_t722* L_20 = ___chars;
 		int32_t L_21 = V_1;
 		NullCheck(L_20);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_20, ((int32_t)((int32_t)L_21+(int32_t)1)));
 		int32_t L_22 = ((int32_t)((int32_t)L_21+(int32_t)1));
 		IL2CPP_RUNTIME_CLASS_INIT(Char_t60_il2cpp_TypeInfo_var);
-		bool L_23 = Char_IsSurrogate_m18791(NULL /*static, unused*/, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_20, L_22)), /*hidden argument*/NULL);
+		bool L_23 = Char_IsSurrogate_m18848(NULL /*static, unused*/, (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_20, L_22)), /*hidden argument*/NULL);
 		if (!L_23)
 		{
 			goto IL_0078;
@@ -4374,20 +4374,20 @@ IL_0086:
 	}
 }
 // System.Int32 System.Text.UTF32Encoding::GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern TypeInfo* Encoding_t757_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentException_t729_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern TypeInfo* Encoding_t764_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentException_t736_il2cpp_TypeInfo_var;
 extern TypeInfo* Char_t60_il2cpp_TypeInfo_var;
-extern "C" int32_t UTF32Encoding_GetBytes_m24295 (UTF32Encoding_t5377 * __this, CharU5BU5D_t715* ___chars, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, const MethodInfo* method)
+extern "C" int32_t UTF32Encoding_GetBytes_m24352 (UTF32Encoding_t5384 * __this, CharU5BU5D_t722* ___chars, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
-		Encoding_t757_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
-		ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2630);
-		ArgumentException_t729_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(192);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		Encoding_t764_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
+		ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2648);
+		ArgumentException_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(192);
 		Char_t60_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(27);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -4397,15 +4397,15 @@ extern "C" int32_t UTF32Encoding_GetBytes_m24295 (UTF32Encoding_t5377 * __this, 
 	int32_t V_3 = 0;
 	int32_t V_4 = 0;
 	{
-		CharU5BU5D_t715* L_0 = ___chars;
+		CharU5BU5D_t722* L_0 = ___chars;
 		if (L_0)
 		{
 			goto IL_000e;
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral5395, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral5409, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -4418,8 +4418,8 @@ IL_000e:
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_3 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_3, (String_t*) &_stringLiteral6435, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_3 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_3, (String_t*) &_stringLiteral6449, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -4433,7 +4433,7 @@ IL_001d:
 	}
 	{
 		int32_t L_5 = ___charIndex;
-		CharU5BU5D_t715* L_6 = ___chars;
+		CharU5BU5D_t722* L_6 = ___chars;
 		NullCheck(L_6);
 		if ((((int32_t)L_5) <= ((int32_t)(((int32_t)(((Array_t *)L_6)->max_length))))))
 		{
@@ -4443,10 +4443,10 @@ IL_001d:
 
 IL_0027:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_7 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_8 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_8, (String_t*) &_stringLiteral6436, L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_7 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_8 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_8, (String_t*) &_stringLiteral6450, L_7, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_8);
 	}
 
@@ -4460,7 +4460,7 @@ IL_003c:
 	}
 	{
 		int32_t L_10 = ___charCount;
-		CharU5BU5D_t715* L_11 = ___chars;
+		CharU5BU5D_t722* L_11 = ___chars;
 		NullCheck(L_11);
 		int32_t L_12 = ___charIndex;
 		if ((((int32_t)L_10) <= ((int32_t)((int32_t)((int32_t)(((int32_t)(((Array_t *)L_11)->max_length)))-(int32_t)L_12)))))
@@ -4471,10 +4471,10 @@ IL_003c:
 
 IL_0048:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_13 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_14 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_14, (String_t*) &_stringLiteral6437, L_13, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_13 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_14 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_14, (String_t*) &_stringLiteral6451, L_13, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_14);
 	}
 
@@ -4498,10 +4498,10 @@ IL_005d:
 
 IL_006a:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_18 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_19 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_19, (String_t*) &_stringLiteral6438, L_18, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_18 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_19 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_19, (String_t*) &_stringLiteral6452, L_18, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_19);
 	}
 
@@ -4517,10 +4517,10 @@ IL_007f:
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_23 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6439, /*hidden argument*/NULL);
-		ArgumentException_t729 * L_24 = (ArgumentException_t729 *)il2cpp_codegen_object_new (ArgumentException_t729_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m4229(L_24, L_23, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_23 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6453, /*hidden argument*/NULL);
+		ArgumentException_t736 * L_24 = (ArgumentException_t736 *)il2cpp_codegen_object_new (ArgumentException_t736_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m4285(L_24, L_23, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_24);
 	}
 
@@ -4533,7 +4533,7 @@ IL_009b:
 
 IL_00a3:
 	{
-		CharU5BU5D_t715* L_26 = ___chars;
+		CharU5BU5D_t722* L_26 = ___chars;
 		int32_t L_27 = ___charIndex;
 		int32_t L_28 = L_27;
 		___charIndex = ((int32_t)((int32_t)L_28+(int32_t)1));
@@ -4543,7 +4543,7 @@ IL_00a3:
 		V_1 = (*(uint16_t*)(uint16_t*)SZArrayLdElema(L_26, L_29));
 		uint16_t L_30 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(Char_t60_il2cpp_TypeInfo_var);
-		bool L_31 = Char_IsSurrogate_m18791(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
+		bool L_31 = Char_IsSurrogate_m18848(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
 		if (!L_31)
 		{
 			goto IL_0196;
@@ -4560,7 +4560,7 @@ IL_00a3:
 	}
 	{
 		uint16_t L_34 = V_1;
-		CharU5BU5D_t715* L_35 = ___chars;
+		CharU5BU5D_t722* L_35 = ___chars;
 		int32_t L_36 = ___charIndex;
 		int32_t L_37 = L_36;
 		___charIndex = ((int32_t)((int32_t)L_37+(int32_t)1));
@@ -4814,17 +4814,17 @@ IL_01f0:
 	}
 }
 // System.Int32 System.Text.UTF32Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern TypeInfo* Encoding_t757_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var;
-extern "C" int32_t UTF32Encoding_GetCharCount_m24296 (UTF32Encoding_t5377 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern TypeInfo* Encoding_t764_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var;
+extern "C" int32_t UTF32Encoding_GetCharCount_m24353 (UTF32Encoding_t5384 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
-		Encoding_t757_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
-		ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2630);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		Encoding_t764_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
+		ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2648);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -4835,8 +4835,8 @@ extern "C" int32_t UTF32Encoding_GetCharCount_m24296 (UTF32Encoding_t5377 * __th
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral6435, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral6449, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -4860,10 +4860,10 @@ IL_000e:
 
 IL_0018:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_5 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_6 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_6, (String_t*) &_stringLiteral3024, L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_5 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_6 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_6, (String_t*) &_stringLiteral3038, L_5, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 
@@ -4888,10 +4888,10 @@ IL_002d:
 
 IL_0039:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_11 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_12 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_12, (String_t*) &_stringLiteral632, L_11, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_11 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_12 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_12, (String_t*) &_stringLiteral632, L_11, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_12);
 	}
 
@@ -4902,19 +4902,19 @@ IL_004e:
 	}
 }
 // System.Int32 System.Text.UTF32Encoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern TypeInfo* Encoding_t757_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentException_t729_il2cpp_TypeInfo_var;
-extern "C" int32_t UTF32Encoding_GetChars_m24297 (UTF32Encoding_t5377 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t715* ___chars, int32_t ___charIndex, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern TypeInfo* Encoding_t764_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentException_t736_il2cpp_TypeInfo_var;
+extern "C" int32_t UTF32Encoding_GetChars_m24354 (UTF32Encoding_t5384 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, int32_t ___byteCount, CharU5BU5D_t722* ___chars, int32_t ___charIndex, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
-		Encoding_t757_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
-		ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2630);
-		ArgumentException_t729_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(192);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		Encoding_t764_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
+		ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2648);
+		ArgumentException_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(192);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -4926,22 +4926,22 @@ extern "C" int32_t UTF32Encoding_GetChars_m24297 (UTF32Encoding_t5377 * __this, 
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral6435, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral6449, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
 IL_000e:
 	{
-		CharU5BU5D_t715* L_2 = ___chars;
+		CharU5BU5D_t722* L_2 = ___chars;
 		if (L_2)
 		{
 			goto IL_001d;
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_3 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_3, (String_t*) &_stringLiteral5395, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_3 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_3, (String_t*) &_stringLiteral5409, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -4965,10 +4965,10 @@ IL_001d:
 
 IL_0027:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_7 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_8 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_8, (String_t*) &_stringLiteral6438, L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_7 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_8 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_8, (String_t*) &_stringLiteral6452, L_7, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_8);
 	}
 
@@ -4993,10 +4993,10 @@ IL_003c:
 
 IL_0048:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_13 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_14 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_14, (String_t*) &_stringLiteral6442, L_13, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_13 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_14 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_14, (String_t*) &_stringLiteral6456, L_13, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_14);
 	}
 
@@ -5010,7 +5010,7 @@ IL_005d:
 	}
 	{
 		int32_t L_16 = ___charIndex;
-		CharU5BU5D_t715* L_17 = ___chars;
+		CharU5BU5D_t722* L_17 = ___chars;
 		NullCheck(L_17);
 		if ((((int32_t)L_16) <= ((int32_t)(((int32_t)(((Array_t *)L_17)->max_length))))))
 		{
@@ -5020,16 +5020,16 @@ IL_005d:
 
 IL_006a:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_18 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6434, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_19 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_19, (String_t*) &_stringLiteral6436, L_18, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_18 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6448, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_19 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_19, (String_t*) &_stringLiteral6450, L_18, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_19);
 	}
 
 IL_007f:
 	{
-		CharU5BU5D_t715* L_20 = ___chars;
+		CharU5BU5D_t722* L_20 = ___chars;
 		NullCheck(L_20);
 		int32_t L_21 = ___charIndex;
 		int32_t L_22 = ___byteCount;
@@ -5039,10 +5039,10 @@ IL_007f:
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_23 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6439, /*hidden argument*/NULL);
-		ArgumentException_t729 * L_24 = (ArgumentException_t729 *)il2cpp_codegen_object_new (ArgumentException_t729_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m4229(L_24, L_23, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_23 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6453, /*hidden argument*/NULL);
+		ArgumentException_t736 * L_24 = (ArgumentException_t736 *)il2cpp_codegen_object_new (ArgumentException_t736_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m4285(L_24, L_23, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_24);
 	}
 
@@ -5062,7 +5062,7 @@ IL_009b:
 
 IL_00a8:
 	{
-		CharU5BU5D_t715* L_27 = ___chars;
+		CharU5BU5D_t722* L_27 = ___chars;
 		int32_t L_28 = V_0;
 		int32_t L_29 = L_28;
 		V_0 = ((int32_t)((int32_t)L_29+(int32_t)1));
@@ -5114,7 +5114,7 @@ IL_00e2:
 
 IL_00e4:
 	{
-		CharU5BU5D_t715* L_45 = ___chars;
+		CharU5BU5D_t722* L_45 = ___chars;
 		int32_t L_46 = V_0;
 		int32_t L_47 = L_46;
 		V_0 = ((int32_t)((int32_t)L_47+(int32_t)1));
@@ -5164,15 +5164,15 @@ IL_011c:
 	}
 }
 // System.Int32 System.Text.UTF32Encoding::GetMaxByteCount(System.Int32)
-extern TypeInfo* Encoding_t757_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var;
-extern "C" int32_t UTF32Encoding_GetMaxByteCount_m24298 (UTF32Encoding_t5377 * __this, int32_t ___charCount, const MethodInfo* method)
+extern TypeInfo* Encoding_t764_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var;
+extern "C" int32_t UTF32Encoding_GetMaxByteCount_m24355 (UTF32Encoding_t5384 * __this, int32_t ___charCount, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Encoding_t757_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
-		ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2630);
+		Encoding_t764_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
+		ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2648);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -5183,10 +5183,10 @@ extern "C" int32_t UTF32Encoding_GetMaxByteCount_m24298 (UTF32Encoding_t5377 * _
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_1 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6443, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_2 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_2, (String_t*) &_stringLiteral6437, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_1 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6457, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_2 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_2, (String_t*) &_stringLiteral6451, L_1, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -5197,15 +5197,15 @@ IL_0019:
 	}
 }
 // System.Int32 System.Text.UTF32Encoding::GetMaxCharCount(System.Int32)
-extern TypeInfo* Encoding_t757_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var;
-extern "C" int32_t UTF32Encoding_GetMaxCharCount_m24299 (UTF32Encoding_t5377 * __this, int32_t ___byteCount, const MethodInfo* method)
+extern TypeInfo* Encoding_t764_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var;
+extern "C" int32_t UTF32Encoding_GetMaxCharCount_m24356 (UTF32Encoding_t5384 * __this, int32_t ___byteCount, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Encoding_t757_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
-		ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2630);
+		Encoding_t764_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(260);
+		ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2648);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -5216,10 +5216,10 @@ extern "C" int32_t UTF32Encoding_GetMaxCharCount_m24299 (UTF32Encoding_t5377 * _
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t757_il2cpp_TypeInfo_var);
-		String_t* L_1 = Encoding___m24152(NULL /*static, unused*/, (String_t*) &_stringLiteral6443, /*hidden argument*/NULL);
-		ArgumentOutOfRangeException_t1494 * L_2 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_2, (String_t*) &_stringLiteral6442, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Encoding_t764_il2cpp_TypeInfo_var);
+		String_t* L_1 = Encoding___m24209(NULL /*static, unused*/, (String_t*) &_stringLiteral6457, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_2 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_2, (String_t*) &_stringLiteral6456, L_1, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -5230,25 +5230,25 @@ IL_0019:
 	}
 }
 // System.Text.Decoder System.Text.UTF32Encoding::GetDecoder()
-extern TypeInfo* UTF32Decoder_t5376_il2cpp_TypeInfo_var;
-extern "C" Decoder_t3567 * UTF32Encoding_GetDecoder_m24300 (UTF32Encoding_t5377 * __this, const MethodInfo* method)
+extern TypeInfo* UTF32Decoder_t5383_il2cpp_TypeInfo_var;
+extern "C" Decoder_t3574 * UTF32Encoding_GetDecoder_m24357 (UTF32Encoding_t5384 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		UTF32Decoder_t5376_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9360);
+		UTF32Decoder_t5383_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9378);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		bool L_0 = (__this->___bigEndian_28);
-		UTF32Decoder_t5376 * L_1 = (UTF32Decoder_t5376 *)il2cpp_codegen_object_new (UTF32Decoder_t5376_il2cpp_TypeInfo_var);
-		UTF32Decoder__ctor_m24289(L_1, L_0, /*hidden argument*/NULL);
+		UTF32Decoder_t5383 * L_1 = (UTF32Decoder_t5383 *)il2cpp_codegen_object_new (UTF32Decoder_t5383_il2cpp_TypeInfo_var);
+		UTF32Decoder__ctor_m24346(L_1, L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.Byte[] System.Text.UTF32Encoding::GetPreamble()
 extern TypeInfo* ByteU5BU5D_t66_il2cpp_TypeInfo_var;
-extern "C" ByteU5BU5D_t66* UTF32Encoding_GetPreamble_m24301 (UTF32Encoding_t5377 * __this, const MethodInfo* method)
+extern "C" ByteU5BU5D_t66* UTF32Encoding_GetPreamble_m24358 (UTF32Encoding_t5384 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -5308,31 +5308,31 @@ IL_003b:
 	}
 }
 // System.Boolean System.Text.UTF32Encoding::Equals(System.Object)
-extern TypeInfo* UTF32Encoding_t5377_il2cpp_TypeInfo_var;
-extern "C" bool UTF32Encoding_Equals_m24302 (UTF32Encoding_t5377 * __this, Object_t * ___value, const MethodInfo* method)
+extern TypeInfo* UTF32Encoding_t5384_il2cpp_TypeInfo_var;
+extern "C" bool UTF32Encoding_Equals_m24359 (UTF32Encoding_t5384 * __this, Object_t * ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		UTF32Encoding_t5377_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9355);
+		UTF32Encoding_t5384_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9373);
 		s_Il2CppMethodIntialized = true;
 	}
-	UTF32Encoding_t5377 * V_0 = {0};
+	UTF32Encoding_t5384 * V_0 = {0};
 	int32_t G_B6_0 = 0;
 	{
 		Object_t * L_0 = ___value;
-		V_0 = ((UTF32Encoding_t5377 *)IsInst(L_0, UTF32Encoding_t5377_il2cpp_TypeInfo_var));
-		UTF32Encoding_t5377 * L_1 = V_0;
+		V_0 = ((UTF32Encoding_t5384 *)IsInst(L_0, UTF32Encoding_t5384_il2cpp_TypeInfo_var));
+		UTF32Encoding_t5384 * L_1 = V_0;
 		if (!L_1)
 		{
 			goto IL_003f;
 		}
 	}
 	{
-		int32_t L_2 = (((Encoding_t757 *)__this)->___codePage_0);
-		UTF32Encoding_t5377 * L_3 = V_0;
+		int32_t L_2 = (((Encoding_t764 *)__this)->___codePage_0);
+		UTF32Encoding_t5384 * L_3 = V_0;
 		NullCheck(L_3);
-		int32_t L_4 = (((Encoding_t757 *)L_3)->___codePage_0);
+		int32_t L_4 = (((Encoding_t764 *)L_3)->___codePage_0);
 		if ((!(((uint32_t)L_2) == ((uint32_t)L_4))))
 		{
 			goto IL_003d;
@@ -5340,7 +5340,7 @@ extern "C" bool UTF32Encoding_Equals_m24302 (UTF32Encoding_t5377 * __this, Objec
 	}
 	{
 		bool L_5 = (__this->___bigEndian_28);
-		UTF32Encoding_t5377 * L_6 = V_0;
+		UTF32Encoding_t5384 * L_6 = V_0;
 		NullCheck(L_6);
 		bool L_7 = (L_6->___bigEndian_28);
 		if ((!(((uint32_t)L_5) == ((uint32_t)L_7))))
@@ -5350,7 +5350,7 @@ extern "C" bool UTF32Encoding_Equals_m24302 (UTF32Encoding_t5377 * __this, Objec
 	}
 	{
 		bool L_8 = (__this->___byteOrderMark_29);
-		UTF32Encoding_t5377 * L_9 = V_0;
+		UTF32Encoding_t5384 * L_9 = V_0;
 		NullCheck(L_9);
 		bool L_10 = (L_9->___byteOrderMark_29);
 		if ((!(((uint32_t)L_8) == ((uint32_t)L_10))))
@@ -5360,7 +5360,7 @@ extern "C" bool UTF32Encoding_Equals_m24302 (UTF32Encoding_t5377 * __this, Objec
 	}
 	{
 		Object_t * L_11 = ___value;
-		bool L_12 = Encoding_Equals_m24158(__this, L_11, /*hidden argument*/NULL);
+		bool L_12 = Encoding_Equals_m24215(__this, L_11, /*hidden argument*/NULL);
 		G_B6_0 = ((int32_t)(L_12));
 		goto IL_003e;
 	}
@@ -5381,11 +5381,11 @@ IL_003f:
 	}
 }
 // System.Int32 System.Text.UTF32Encoding::GetHashCode()
-extern "C" int32_t UTF32Encoding_GetHashCode_m24303 (UTF32Encoding_t5377 * __this, const MethodInfo* method)
+extern "C" int32_t UTF32Encoding_GetHashCode_m24360 (UTF32Encoding_t5384 * __this, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
-		int32_t L_0 = Encoding_GetHashCode_m24170(__this, /*hidden argument*/NULL);
+		int32_t L_0 = Encoding_GetHashCode_m24227(__this, /*hidden argument*/NULL);
 		V_0 = L_0;
 		bool L_1 = (__this->___bigEndian_28);
 		if (!L_1)
@@ -5418,13 +5418,13 @@ IL_0021:
 	}
 }
 // System.Int32 System.Text.UTF32Encoding::GetByteCount(System.Char*,System.Int32)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern "C" int32_t UTF32Encoding_GetByteCount_m24304 (UTF32Encoding_t5377 * __this, uint16_t* ___chars, int32_t ___count, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern "C" int32_t UTF32Encoding_GetByteCount_m24361 (UTF32Encoding_t5384 * __this, uint16_t* ___chars, int32_t ___count, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -5435,8 +5435,8 @@ extern "C" int32_t UTF32Encoding_GetByteCount_m24304 (UTF32Encoding_t5377 * __th
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral5395, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral5409, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -5447,28 +5447,28 @@ IL_000e:
 	}
 }
 // System.Int32 System.Text.UTF32Encoding::GetByteCount(System.String)
-extern "C" int32_t UTF32Encoding_GetByteCount_m24305 (UTF32Encoding_t5377 * __this, String_t* ___s, const MethodInfo* method)
+extern "C" int32_t UTF32Encoding_GetByteCount_m24362 (UTF32Encoding_t5384 * __this, String_t* ___s, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___s;
-		int32_t L_1 = Encoding_GetByteCount_m24159(__this, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = Encoding_GetByteCount_m24216(__this, L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.Int32 System.Text.UTF32Encoding::GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
-extern "C" int32_t UTF32Encoding_GetBytes_m24306 (UTF32Encoding_t5377 * __this, uint16_t* ___chars, int32_t ___charCount, uint8_t* ___bytes, int32_t ___byteCount, const MethodInfo* method)
+extern "C" int32_t UTF32Encoding_GetBytes_m24363 (UTF32Encoding_t5384 * __this, uint16_t* ___chars, int32_t ___charCount, uint8_t* ___bytes, int32_t ___byteCount, const MethodInfo* method)
 {
 	{
 		uint16_t* L_0 = ___chars;
 		int32_t L_1 = ___charCount;
 		uint8_t* L_2 = ___bytes;
 		int32_t L_3 = ___byteCount;
-		int32_t L_4 = Encoding_GetBytes_m24183(__this, (uint16_t*)(uint16_t*)L_0, L_1, (uint8_t*)(uint8_t*)L_2, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = Encoding_GetBytes_m24240(__this, (uint16_t*)(uint16_t*)L_0, L_1, (uint8_t*)(uint8_t*)L_2, L_3, /*hidden argument*/NULL);
 		return L_4;
 	}
 }
 // System.Int32 System.Text.UTF32Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
-extern "C" int32_t UTF32Encoding_GetBytes_m24307 (UTF32Encoding_t5377 * __this, String_t* ___s, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, const MethodInfo* method)
+extern "C" int32_t UTF32Encoding_GetBytes_m24364 (UTF32Encoding_t5384 * __this, String_t* ___s, int32_t ___charIndex, int32_t ___charCount, ByteU5BU5D_t66* ___bytes, int32_t ___byteIndex, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___s;
@@ -5476,18 +5476,18 @@ extern "C" int32_t UTF32Encoding_GetBytes_m24307 (UTF32Encoding_t5377 * __this, 
 		int32_t L_2 = ___charCount;
 		ByteU5BU5D_t66* L_3 = ___bytes;
 		int32_t L_4 = ___byteIndex;
-		int32_t L_5 = Encoding_GetBytes_m24161(__this, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		int32_t L_5 = Encoding_GetBytes_m24218(__this, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
 		return L_5;
 	}
 }
 // System.String System.Text.UTF32Encoding::GetString(System.Byte[],System.Int32,System.Int32)
-extern "C" String_t* UTF32Encoding_GetString_m24308 (UTF32Encoding_t5377 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, const MethodInfo* method)
+extern "C" String_t* UTF32Encoding_GetString_m24365 (UTF32Encoding_t5384 * __this, ByteU5BU5D_t66* ___bytes, int32_t ___index, int32_t ___count, const MethodInfo* method)
 {
 	{
 		ByteU5BU5D_t66* L_0 = ___bytes;
 		int32_t L_1 = ___index;
 		int32_t L_2 = ___count;
-		String_t* L_3 = Encoding_GetString_m24172(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
+		String_t* L_3 = Encoding_GetString_m24229(__this, L_0, L_1, L_2, /*hidden argument*/NULL);
 		return L_3;
 	}
 }
@@ -5506,11 +5506,11 @@ extern "C" String_t* UTF32Encoding_GetString_m24308 (UTF32Encoding_t5377 * __thi
 
 
 // System.Void System.Threading.AutoResetEvent::.ctor(System.Boolean)
-extern "C" void AutoResetEvent__ctor_m15198 (AutoResetEvent_t3808 * __this, bool ___initialState, const MethodInfo* method)
+extern "C" void AutoResetEvent__ctor_m15255 (AutoResetEvent_t3815 * __this, bool ___initialState, const MethodInfo* method)
 {
 	{
 		bool L_0 = ___initialState;
-		EventWaitHandle__ctor_m24315(__this, L_0, 0, /*hidden argument*/NULL);
+		EventWaitHandle__ctor_m24372(__this, L_0, 0, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -5539,13 +5539,13 @@ extern "C" void AutoResetEvent__ctor_m15198 (AutoResetEvent_t3808 * __this, bool
 
 
 // System.Void System.Threading.CompressedStack::.ctor(System.Int32)
-extern TypeInfo* ArrayList_t716_il2cpp_TypeInfo_var;
-extern "C" void CompressedStack__ctor_m24309 (CompressedStack_t5237 * __this, int32_t ___length, const MethodInfo* method)
+extern TypeInfo* ArrayList_t723_il2cpp_TypeInfo_var;
+extern "C" void CompressedStack__ctor_m24366 (CompressedStack_t5244 * __this, int32_t ___length, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArrayList_t716_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(438);
+		ArrayList_t723_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(438);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -5558,8 +5558,8 @@ extern "C" void CompressedStack__ctor_m24309 (CompressedStack_t5237 * __this, in
 	}
 	{
 		int32_t L_1 = ___length;
-		ArrayList_t716 * L_2 = (ArrayList_t716 *)il2cpp_codegen_object_new (ArrayList_t716_il2cpp_TypeInfo_var);
-		ArrayList__ctor_m18087(L_2, L_1, /*hidden argument*/NULL);
+		ArrayList_t723 * L_2 = (ArrayList_t723 *)il2cpp_codegen_object_new (ArrayList_t723_il2cpp_TypeInfo_var);
+		ArrayList__ctor_m18144(L_2, L_1, /*hidden argument*/NULL);
 		__this->____list_0 = L_2;
 	}
 
@@ -5569,39 +5569,39 @@ IL_0016:
 	}
 }
 // System.Void System.Threading.CompressedStack::.ctor(System.Threading.CompressedStack)
-extern TypeInfo* ArrayList_t716_il2cpp_TypeInfo_var;
-extern "C" void CompressedStack__ctor_m24310 (CompressedStack_t5237 * __this, CompressedStack_t5237 * ___cs, const MethodInfo* method)
+extern TypeInfo* ArrayList_t723_il2cpp_TypeInfo_var;
+extern "C" void CompressedStack__ctor_m24367 (CompressedStack_t5244 * __this, CompressedStack_t5244 * ___cs, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArrayList_t716_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(438);
+		ArrayList_t723_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(438);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
-		CompressedStack_t5237 * L_0 = ___cs;
+		CompressedStack_t5244 * L_0 = ___cs;
 		if (!L_0)
 		{
 			goto IL_0027;
 		}
 	}
 	{
-		CompressedStack_t5237 * L_1 = ___cs;
+		CompressedStack_t5244 * L_1 = ___cs;
 		NullCheck(L_1);
-		ArrayList_t716 * L_2 = (L_1->____list_0);
+		ArrayList_t723 * L_2 = (L_1->____list_0);
 		if (!L_2)
 		{
 			goto IL_0027;
 		}
 	}
 	{
-		CompressedStack_t5237 * L_3 = ___cs;
+		CompressedStack_t5244 * L_3 = ___cs;
 		NullCheck(L_3);
-		ArrayList_t716 * L_4 = (L_3->____list_0);
+		ArrayList_t723 * L_4 = (L_3->____list_0);
 		NullCheck(L_4);
 		Object_t * L_5 = (Object_t *)VirtFuncInvoker0< Object_t * >::Invoke(49 /* System.Object System.Collections.ArrayList::Clone() */, L_4);
-		__this->____list_0 = ((ArrayList_t716 *)Castclass(L_5, ArrayList_t716_il2cpp_TypeInfo_var));
+		__this->____list_0 = ((ArrayList_t723 *)Castclass(L_5, ArrayList_t723_il2cpp_TypeInfo_var));
 	}
 
 IL_0027:
@@ -5610,50 +5610,50 @@ IL_0027:
 	}
 }
 // System.Threading.CompressedStack System.Threading.CompressedStack::CreateCopy()
-extern TypeInfo* CompressedStack_t5237_il2cpp_TypeInfo_var;
-extern "C" CompressedStack_t5237 * CompressedStack_CreateCopy_m24311 (CompressedStack_t5237 * __this, const MethodInfo* method)
+extern TypeInfo* CompressedStack_t5244_il2cpp_TypeInfo_var;
+extern "C" CompressedStack_t5244 * CompressedStack_CreateCopy_m24368 (CompressedStack_t5244 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CompressedStack_t5237_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9361);
+		CompressedStack_t5244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9379);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		CompressedStack_t5237 * L_0 = (CompressedStack_t5237 *)il2cpp_codegen_object_new (CompressedStack_t5237_il2cpp_TypeInfo_var);
-		CompressedStack__ctor_m24310(L_0, __this, /*hidden argument*/NULL);
+		CompressedStack_t5244 * L_0 = (CompressedStack_t5244 *)il2cpp_codegen_object_new (CompressedStack_t5244_il2cpp_TypeInfo_var);
+		CompressedStack__ctor_m24367(L_0, __this, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
 // System.Threading.CompressedStack System.Threading.CompressedStack::Capture()
-extern TypeInfo* CompressedStack_t5237_il2cpp_TypeInfo_var;
-extern TypeInfo* Thread_t1482_il2cpp_TypeInfo_var;
-extern "C" CompressedStack_t5237 * CompressedStack_Capture_m24312 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern TypeInfo* CompressedStack_t5244_il2cpp_TypeInfo_var;
+extern TypeInfo* Thread_t1489_il2cpp_TypeInfo_var;
+extern "C" CompressedStack_t5244 * CompressedStack_Capture_m24369 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CompressedStack_t5237_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9361);
-		Thread_t1482_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2593);
+		CompressedStack_t5244_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9379);
+		Thread_t1489_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2611);
 		s_Il2CppMethodIntialized = true;
 	}
-	CompressedStack_t5237 * V_0 = {0};
-	CompressedStack_t5237 * V_1 = {0};
+	CompressedStack_t5244 * V_0 = {0};
+	CompressedStack_t5244 * V_1 = {0};
 	int32_t V_2 = 0;
 	{
-		CompressedStack_t5237 * L_0 = (CompressedStack_t5237 *)il2cpp_codegen_object_new (CompressedStack_t5237_il2cpp_TypeInfo_var);
-		CompressedStack__ctor_m24309(L_0, 0, /*hidden argument*/NULL);
+		CompressedStack_t5244 * L_0 = (CompressedStack_t5244 *)il2cpp_codegen_object_new (CompressedStack_t5244_il2cpp_TypeInfo_var);
+		CompressedStack__ctor_m24366(L_0, 0, /*hidden argument*/NULL);
 		V_0 = L_0;
-		CompressedStack_t5237 * L_1 = V_0;
-		ArrayList_t716 * L_2 = SecurityFrame_GetStack_m23240(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
+		CompressedStack_t5244 * L_1 = V_0;
+		ArrayList_t723 * L_2 = SecurityFrame_GetStack_m23297(NULL /*static, unused*/, 1, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		L_1->____list_0 = L_2;
-		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1482_il2cpp_TypeInfo_var);
-		Thread_t1482 * L_3 = Thread_get_CurrentThread_m7618(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1489_il2cpp_TypeInfo_var);
+		Thread_t1489 * L_3 = Thread_get_CurrentThread_m7676(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		CompressedStack_t5237 * L_4 = Thread_GetCompressedStack_m24379(L_3, /*hidden argument*/NULL);
+		CompressedStack_t5244 * L_4 = Thread_GetCompressedStack_m24436(L_3, /*hidden argument*/NULL);
 		V_1 = L_4;
-		CompressedStack_t5237 * L_5 = V_1;
+		CompressedStack_t5244 * L_5 = V_1;
 		if (!L_5)
 		{
 			goto IL_004f;
@@ -5666,12 +5666,12 @@ extern "C" CompressedStack_t5237 * CompressedStack_Capture_m24312 (Object_t * __
 
 IL_0025:
 	{
-		CompressedStack_t5237 * L_6 = V_0;
+		CompressedStack_t5244 * L_6 = V_0;
 		NullCheck(L_6);
-		ArrayList_t716 * L_7 = (L_6->____list_0);
-		CompressedStack_t5237 * L_8 = V_1;
+		ArrayList_t723 * L_7 = (L_6->____list_0);
+		CompressedStack_t5244 * L_8 = V_1;
 		NullCheck(L_8);
-		ArrayList_t716 * L_9 = (L_8->____list_0);
+		ArrayList_t723 * L_9 = (L_8->____list_0);
 		int32_t L_10 = V_2;
 		NullCheck(L_9);
 		Object_t * L_11 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(21 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_9, L_10);
@@ -5684,9 +5684,9 @@ IL_0025:
 IL_0041:
 	{
 		int32_t L_13 = V_2;
-		CompressedStack_t5237 * L_14 = V_1;
+		CompressedStack_t5244 * L_14 = V_1;
 		NullCheck(L_14);
-		ArrayList_t716 * L_15 = (L_14->____list_0);
+		ArrayList_t723 * L_15 = (L_14->____list_0);
 		NullCheck(L_15);
 		int32_t L_16 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_15);
 		if ((((int32_t)L_13) < ((int32_t)L_16)))
@@ -5697,30 +5697,30 @@ IL_0041:
 
 IL_004f:
 	{
-		CompressedStack_t5237 * L_17 = V_0;
+		CompressedStack_t5244 * L_17 = V_0;
 		return L_17;
 	}
 }
 // System.Void System.Threading.CompressedStack::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern "C" void CompressedStack_GetObjectData_m24313 (CompressedStack_t5237 * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___context, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern "C" void CompressedStack_GetObjectData_m24370 (CompressedStack_t5244 * __this, SerializationInfo_t2947 * ___info, StreamingContext_t2948  ___context, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		SerializationInfo_t2940 * L_0 = ___info;
+		SerializationInfo_t2947 * L_0 = ___info;
 		if (L_0)
 		{
 			goto IL_000e;
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral3792, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral3806, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -5730,18 +5730,18 @@ IL_000e:
 	}
 }
 // System.Boolean System.Threading.CompressedStack::IsEmpty()
-extern "C" bool CompressedStack_IsEmpty_m24314 (CompressedStack_t5237 * __this, const MethodInfo* method)
+extern "C" bool CompressedStack_IsEmpty_m24371 (CompressedStack_t5244 * __this, const MethodInfo* method)
 {
 	int32_t G_B3_0 = 0;
 	{
-		ArrayList_t716 * L_0 = (__this->____list_0);
+		ArrayList_t723 * L_0 = (__this->____list_0);
 		if (!L_0)
 		{
 			goto IL_0018;
 		}
 	}
 	{
-		ArrayList_t716 * L_1 = (__this->____list_0);
+		ArrayList_t723 * L_1 = (__this->____list_0);
 		NullCheck(L_1);
 		int32_t L_2 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_1);
 		G_B3_0 = ((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
@@ -5783,38 +5783,38 @@ IL_0019:
 
 
 // System.Void System.Threading.EventWaitHandle::.ctor(System.Boolean,System.Threading.EventResetMode)
-extern TypeInfo* WaitHandle_t3256_il2cpp_TypeInfo_var;
-extern "C" void EventWaitHandle__ctor_m24315 (EventWaitHandle_t3787 * __this, bool ___initialState, int32_t ___mode, const MethodInfo* method)
+extern TypeInfo* WaitHandle_t3263_il2cpp_TypeInfo_var;
+extern "C" void EventWaitHandle__ctor_m24372 (EventWaitHandle_t3794 * __this, bool ___initialState, int32_t ___mode, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		WaitHandle_t3256_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5694);
+		WaitHandle_t3263_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5712);
 		s_Il2CppMethodIntialized = true;
 	}
 	bool V_0 = false;
 	bool V_1 = false;
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(WaitHandle_t3256_il2cpp_TypeInfo_var);
-		WaitHandle__ctor_m24404(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(WaitHandle_t3263_il2cpp_TypeInfo_var);
+		WaitHandle__ctor_m24461(__this, /*hidden argument*/NULL);
 		int32_t L_0 = ___mode;
-		bool L_1 = EventWaitHandle_IsManualReset_m24316(__this, L_0, /*hidden argument*/NULL);
+		bool L_1 = EventWaitHandle_IsManualReset_m24373(__this, L_0, /*hidden argument*/NULL);
 		V_1 = L_1;
 		bool L_2 = V_1;
 		bool L_3 = ___initialState;
-		IntPtr_t L_4 = NativeEventCalls_CreateEvent_internal_m24339(NULL /*static, unused*/, L_2, L_3, (String_t*)NULL, (&V_0), /*hidden argument*/NULL);
+		IntPtr_t L_4 = NativeEventCalls_CreateEvent_internal_m24396(NULL /*static, unused*/, L_2, L_3, (String_t*)NULL, (&V_0), /*hidden argument*/NULL);
 		VirtActionInvoker1< IntPtr_t >::Invoke(8 /* System.Void System.Threading.WaitHandle::set_Handle(System.IntPtr) */, __this, L_4);
 		return;
 	}
 }
 // System.Boolean System.Threading.EventWaitHandle::IsManualReset(System.Threading.EventResetMode)
-extern TypeInfo* ArgumentException_t729_il2cpp_TypeInfo_var;
-extern "C" bool EventWaitHandle_IsManualReset_m24316 (EventWaitHandle_t3787 * __this, int32_t ___mode, const MethodInfo* method)
+extern TypeInfo* ArgumentException_t736_il2cpp_TypeInfo_var;
+extern "C" bool EventWaitHandle_IsManualReset_m24373 (EventWaitHandle_t3794 * __this, int32_t ___mode, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentException_t729_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(192);
+		ArgumentException_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(192);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -5834,8 +5834,8 @@ extern "C" bool EventWaitHandle_IsManualReset_m24316 (EventWaitHandle_t3787 * __
 
 IL_0008:
 	{
-		ArgumentException_t729 * L_2 = (ArgumentException_t729 *)il2cpp_codegen_object_new (ArgumentException_t729_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m4229(L_2, (String_t*) &_stringLiteral3881, /*hidden argument*/NULL);
+		ArgumentException_t736 * L_2 = (ArgumentException_t736 *)il2cpp_codegen_object_new (ArgumentException_t736_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m4285(L_2, (String_t*) &_stringLiteral3895, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 
@@ -5846,22 +5846,22 @@ IL_0013:
 	}
 }
 // System.Boolean System.Threading.EventWaitHandle::Reset()
-extern "C" bool EventWaitHandle_Reset_m11562 (EventWaitHandle_t3787 * __this, const MethodInfo* method)
+extern "C" bool EventWaitHandle_Reset_m11619 (EventWaitHandle_t3794 * __this, const MethodInfo* method)
 {
 	{
-		WaitHandle_CheckDisposed_m24416(__this, /*hidden argument*/NULL);
+		WaitHandle_CheckDisposed_m24473(__this, /*hidden argument*/NULL);
 		IntPtr_t L_0 = (IntPtr_t)VirtFuncInvoker0< IntPtr_t >::Invoke(7 /* System.IntPtr System.Threading.WaitHandle::get_Handle() */, __this);
-		bool L_1 = NativeEventCalls_ResetEvent_internal_m24341(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		bool L_1 = NativeEventCalls_ResetEvent_internal_m24398(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.Boolean System.Threading.EventWaitHandle::Set()
-extern "C" bool EventWaitHandle_Set_m11561 (EventWaitHandle_t3787 * __this, const MethodInfo* method)
+extern "C" bool EventWaitHandle_Set_m11618 (EventWaitHandle_t3794 * __this, const MethodInfo* method)
 {
 	{
-		WaitHandle_CheckDisposed_m24416(__this, /*hidden argument*/NULL);
+		WaitHandle_CheckDisposed_m24473(__this, /*hidden argument*/NULL);
 		IntPtr_t L_0 = (IntPtr_t)VirtFuncInvoker0< IntPtr_t >::Invoke(7 /* System.IntPtr System.Threading.WaitHandle::get_Handle() */, __this);
-		bool L_1 = NativeEventCalls_SetEvent_internal_m24340(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		bool L_1 = NativeEventCalls_SetEvent_internal_m24397(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
@@ -5886,7 +5886,7 @@ extern "C" bool EventWaitHandle_Set_m11561 (EventWaitHandle_t3787 * __this, cons
 
 
 // System.Void System.Threading.ExecutionContext::.ctor()
-extern "C" void ExecutionContext__ctor_m24317 (ExecutionContext_t5156 * __this, const MethodInfo* method)
+extern "C" void ExecutionContext__ctor_m24374 (ExecutionContext_t5163 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
@@ -5894,37 +5894,37 @@ extern "C" void ExecutionContext__ctor_m24317 (ExecutionContext_t5156 * __this, 
 	}
 }
 // System.Void System.Threading.ExecutionContext::.ctor(System.Threading.ExecutionContext)
-extern TypeInfo* SecurityContext_t5238_il2cpp_TypeInfo_var;
-extern "C" void ExecutionContext__ctor_m24318 (ExecutionContext_t5156 * __this, ExecutionContext_t5156 * ___ec, const MethodInfo* method)
+extern TypeInfo* SecurityContext_t5245_il2cpp_TypeInfo_var;
+extern "C" void ExecutionContext__ctor_m24375 (ExecutionContext_t5163 * __this, ExecutionContext_t5163 * ___ec, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SecurityContext_t5238_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9250);
+		SecurityContext_t5245_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9268);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
-		ExecutionContext_t5156 * L_0 = ___ec;
+		ExecutionContext_t5163 * L_0 = ___ec;
 		NullCheck(L_0);
-		SecurityContext_t5238 * L_1 = (L_0->____sc_0);
+		SecurityContext_t5245 * L_1 = (L_0->____sc_0);
 		if (!L_1)
 		{
 			goto IL_001f;
 		}
 	}
 	{
-		ExecutionContext_t5156 * L_2 = ___ec;
+		ExecutionContext_t5163 * L_2 = ___ec;
 		NullCheck(L_2);
-		SecurityContext_t5238 * L_3 = (L_2->____sc_0);
-		SecurityContext_t5238 * L_4 = (SecurityContext_t5238 *)il2cpp_codegen_object_new (SecurityContext_t5238_il2cpp_TypeInfo_var);
-		SecurityContext__ctor_m23206(L_4, L_3, /*hidden argument*/NULL);
+		SecurityContext_t5245 * L_3 = (L_2->____sc_0);
+		SecurityContext_t5245 * L_4 = (SecurityContext_t5245 *)il2cpp_codegen_object_new (SecurityContext_t5245_il2cpp_TypeInfo_var);
+		SecurityContext__ctor_m23263(L_4, L_3, /*hidden argument*/NULL);
 		__this->____sc_0 = L_4;
 	}
 
 IL_001f:
 	{
-		ExecutionContext_t5156 * L_5 = ___ec;
+		ExecutionContext_t5163 * L_5 = ___ec;
 		NullCheck(L_5);
 		bool L_6 = (L_5->____suppressFlow_1);
 		__this->____suppressFlow_1 = L_6;
@@ -5933,154 +5933,154 @@ IL_001f:
 	}
 }
 // System.Void System.Threading.ExecutionContext::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern TypeInfo* NotImplementedException_t1461_il2cpp_TypeInfo_var;
-extern "C" void ExecutionContext__ctor_m24319 (ExecutionContext_t5156 * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___context, const MethodInfo* method)
+extern TypeInfo* NotImplementedException_t1468_il2cpp_TypeInfo_var;
+extern "C" void ExecutionContext__ctor_m24376 (ExecutionContext_t5163 * __this, SerializationInfo_t2947 * ___info, StreamingContext_t2948  ___context, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		NotImplementedException_t1461_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2548);
+		NotImplementedException_t1468_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2566);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
-		NotImplementedException_t1461 * L_0 = (NotImplementedException_t1461 *)il2cpp_codegen_object_new (NotImplementedException_t1461_il2cpp_TypeInfo_var);
-		NotImplementedException__ctor_m7547(L_0, /*hidden argument*/NULL);
+		NotImplementedException_t1468 * L_0 = (NotImplementedException_t1468 *)il2cpp_codegen_object_new (NotImplementedException_t1468_il2cpp_TypeInfo_var);
+		NotImplementedException__ctor_m7605(L_0, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
 // System.Threading.ExecutionContext System.Threading.ExecutionContext::Capture()
-extern TypeInfo* Thread_t1482_il2cpp_TypeInfo_var;
-extern TypeInfo* ExecutionContext_t5156_il2cpp_TypeInfo_var;
-extern TypeInfo* SecurityManager_t5247_il2cpp_TypeInfo_var;
-extern "C" ExecutionContext_t5156 * ExecutionContext_Capture_m24320 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern TypeInfo* Thread_t1489_il2cpp_TypeInfo_var;
+extern TypeInfo* ExecutionContext_t5163_il2cpp_TypeInfo_var;
+extern TypeInfo* SecurityManager_t5254_il2cpp_TypeInfo_var;
+extern "C" ExecutionContext_t5163 * ExecutionContext_Capture_m24377 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Thread_t1482_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2593);
-		ExecutionContext_t5156_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9362);
-		SecurityManager_t5247_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8989);
+		Thread_t1489_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2611);
+		ExecutionContext_t5163_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9380);
+		SecurityManager_t5254_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9007);
 		s_Il2CppMethodIntialized = true;
 	}
-	ExecutionContext_t5156 * V_0 = {0};
-	ExecutionContext_t5156 * V_1 = {0};
+	ExecutionContext_t5163 * V_0 = {0};
+	ExecutionContext_t5163 * V_1 = {0};
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1482_il2cpp_TypeInfo_var);
-		Thread_t1482 * L_0 = Thread_get_CurrentThread_m7618(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1489_il2cpp_TypeInfo_var);
+		Thread_t1489 * L_0 = Thread_get_CurrentThread_m7676(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		ExecutionContext_t5156 * L_1 = Thread_get_ExecutionContext_m24377(L_0, /*hidden argument*/NULL);
+		ExecutionContext_t5163 * L_1 = Thread_get_ExecutionContext_m24434(L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
-		ExecutionContext_t5156 * L_2 = V_0;
+		ExecutionContext_t5163 * L_2 = V_0;
 		NullCheck(L_2);
-		bool L_3 = ExecutionContext_get_FlowSuppressed_m24324(L_2, /*hidden argument*/NULL);
+		bool L_3 = ExecutionContext_get_FlowSuppressed_m24381(L_2, /*hidden argument*/NULL);
 		if (!L_3)
 		{
 			goto IL_0015;
 		}
 	}
 	{
-		return (ExecutionContext_t5156 *)NULL;
+		return (ExecutionContext_t5163 *)NULL;
 	}
 
 IL_0015:
 	{
-		ExecutionContext_t5156 * L_4 = V_0;
-		ExecutionContext_t5156 * L_5 = (ExecutionContext_t5156 *)il2cpp_codegen_object_new (ExecutionContext_t5156_il2cpp_TypeInfo_var);
-		ExecutionContext__ctor_m24318(L_5, L_4, /*hidden argument*/NULL);
+		ExecutionContext_t5163 * L_4 = V_0;
+		ExecutionContext_t5163 * L_5 = (ExecutionContext_t5163 *)il2cpp_codegen_object_new (ExecutionContext_t5163_il2cpp_TypeInfo_var);
+		ExecutionContext__ctor_m24375(L_5, L_4, /*hidden argument*/NULL);
 		V_1 = L_5;
-		IL2CPP_RUNTIME_CLASS_INIT(SecurityManager_t5247_il2cpp_TypeInfo_var);
-		bool L_6 = SecurityManager_get_SecurityEnabled_m23253(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(SecurityManager_t5254_il2cpp_TypeInfo_var);
+		bool L_6 = SecurityManager_get_SecurityEnabled_m23310(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (!L_6)
 		{
 			goto IL_002e;
 		}
 	}
 	{
-		ExecutionContext_t5156 * L_7 = V_1;
-		SecurityContext_t5238 * L_8 = SecurityContext_Capture_m23207(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ExecutionContext_t5163 * L_7 = V_1;
+		SecurityContext_t5245 * L_8 = SecurityContext_Capture_m23264(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_7);
-		ExecutionContext_set_SecurityContext_m24323(L_7, L_8, /*hidden argument*/NULL);
+		ExecutionContext_set_SecurityContext_m24380(L_7, L_8, /*hidden argument*/NULL);
 	}
 
 IL_002e:
 	{
-		ExecutionContext_t5156 * L_9 = V_1;
+		ExecutionContext_t5163 * L_9 = V_1;
 		return L_9;
 	}
 }
 // System.Void System.Threading.ExecutionContext::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern TypeInfo* NotImplementedException_t1461_il2cpp_TypeInfo_var;
-extern "C" void ExecutionContext_GetObjectData_m24321 (ExecutionContext_t5156 * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___context, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern TypeInfo* NotImplementedException_t1468_il2cpp_TypeInfo_var;
+extern "C" void ExecutionContext_GetObjectData_m24378 (ExecutionContext_t5163 * __this, SerializationInfo_t2947 * ___info, StreamingContext_t2948  ___context, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
-		NotImplementedException_t1461_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2548);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		NotImplementedException_t1468_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2566);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		SerializationInfo_t2940 * L_0 = ___info;
+		SerializationInfo_t2947 * L_0 = ___info;
 		if (L_0)
 		{
 			goto IL_000e;
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral3792, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral3806, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
 IL_000e:
 	{
-		NotImplementedException_t1461 * L_2 = (NotImplementedException_t1461 *)il2cpp_codegen_object_new (NotImplementedException_t1461_il2cpp_TypeInfo_var);
-		NotImplementedException__ctor_m7547(L_2, /*hidden argument*/NULL);
+		NotImplementedException_t1468 * L_2 = (NotImplementedException_t1468 *)il2cpp_codegen_object_new (NotImplementedException_t1468_il2cpp_TypeInfo_var);
+		NotImplementedException__ctor_m7605(L_2, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_2);
 	}
 }
 // System.Security.SecurityContext System.Threading.ExecutionContext::get_SecurityContext()
-extern TypeInfo* SecurityContext_t5238_il2cpp_TypeInfo_var;
-extern "C" SecurityContext_t5238 * ExecutionContext_get_SecurityContext_m24322 (ExecutionContext_t5156 * __this, const MethodInfo* method)
+extern TypeInfo* SecurityContext_t5245_il2cpp_TypeInfo_var;
+extern "C" SecurityContext_t5245 * ExecutionContext_get_SecurityContext_m24379 (ExecutionContext_t5163 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SecurityContext_t5238_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9250);
+		SecurityContext_t5245_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9268);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		SecurityContext_t5238 * L_0 = (__this->____sc_0);
+		SecurityContext_t5245 * L_0 = (__this->____sc_0);
 		if (L_0)
 		{
 			goto IL_0013;
 		}
 	}
 	{
-		SecurityContext_t5238 * L_1 = (SecurityContext_t5238 *)il2cpp_codegen_object_new (SecurityContext_t5238_il2cpp_TypeInfo_var);
-		SecurityContext__ctor_m23205(L_1, /*hidden argument*/NULL);
+		SecurityContext_t5245 * L_1 = (SecurityContext_t5245 *)il2cpp_codegen_object_new (SecurityContext_t5245_il2cpp_TypeInfo_var);
+		SecurityContext__ctor_m23262(L_1, /*hidden argument*/NULL);
 		__this->____sc_0 = L_1;
 	}
 
 IL_0013:
 	{
-		SecurityContext_t5238 * L_2 = (__this->____sc_0);
+		SecurityContext_t5245 * L_2 = (__this->____sc_0);
 		return L_2;
 	}
 }
 // System.Void System.Threading.ExecutionContext::set_SecurityContext(System.Security.SecurityContext)
-extern "C" void ExecutionContext_set_SecurityContext_m24323 (ExecutionContext_t5156 * __this, SecurityContext_t5238 * ___value, const MethodInfo* method)
+extern "C" void ExecutionContext_set_SecurityContext_m24380 (ExecutionContext_t5163 * __this, SecurityContext_t5245 * ___value, const MethodInfo* method)
 {
 	{
-		SecurityContext_t5238 * L_0 = ___value;
+		SecurityContext_t5245 * L_0 = ___value;
 		__this->____sc_0 = L_0;
 		return;
 	}
 }
 // System.Boolean System.Threading.ExecutionContext::get_FlowSuppressed()
-extern "C" bool ExecutionContext_get_FlowSuppressed_m24324 (ExecutionContext_t5156 * __this, const MethodInfo* method)
+extern "C" bool ExecutionContext_get_FlowSuppressed_m24381 (ExecutionContext_t5163 * __this, const MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->____suppressFlow_1);
@@ -6088,22 +6088,22 @@ extern "C" bool ExecutionContext_get_FlowSuppressed_m24324 (ExecutionContext_t51
 	}
 }
 // System.Boolean System.Threading.ExecutionContext::IsFlowSuppressed()
-extern TypeInfo* Thread_t1482_il2cpp_TypeInfo_var;
-extern "C" bool ExecutionContext_IsFlowSuppressed_m24325 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern TypeInfo* Thread_t1489_il2cpp_TypeInfo_var;
+extern "C" bool ExecutionContext_IsFlowSuppressed_m24382 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Thread_t1482_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2593);
+		Thread_t1489_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2611);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1482_il2cpp_TypeInfo_var);
-		Thread_t1482 * L_0 = Thread_get_CurrentThread_m7618(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1489_il2cpp_TypeInfo_var);
+		Thread_t1489 * L_0 = Thread_get_CurrentThread_m7676(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		ExecutionContext_t5156 * L_1 = Thread_get_ExecutionContext_m24377(L_0, /*hidden argument*/NULL);
+		ExecutionContext_t5163 * L_1 = Thread_get_ExecutionContext_m24434(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		bool L_2 = ExecutionContext_get_FlowSuppressed_m24324(L_1, /*hidden argument*/NULL);
+		bool L_2 = ExecutionContext_get_FlowSuppressed_m24381(L_1, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
@@ -6127,39 +6127,39 @@ extern "C" int32_t Interlocked_CompareExchange_m396 (Object_t * __this /* static
 	return _il2cpp_icall_func(___location1, ___value, ___comparand);
 }
 // System.Object System.Threading.Interlocked::CompareExchange(System.Object&,System.Object,System.Object)
-extern "C" Object_t * Interlocked_CompareExchange_m18083 (Object_t * __this /* static, unused */, Object_t ** ___location1, Object_t * ___value, Object_t * ___comparand, const MethodInfo* method)
+extern "C" Object_t * Interlocked_CompareExchange_m18140 (Object_t * __this /* static, unused */, Object_t ** ___location1, Object_t * ___value, Object_t * ___comparand, const MethodInfo* method)
 {
-	typedef Object_t * (*Interlocked_CompareExchange_m18083_ftn) (Object_t **, Object_t *, Object_t *);
-	static Interlocked_CompareExchange_m18083_ftn _il2cpp_icall_func;
+	typedef Object_t * (*Interlocked_CompareExchange_m18140_ftn) (Object_t **, Object_t *, Object_t *);
+	static Interlocked_CompareExchange_m18140_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Interlocked_CompareExchange_m18083_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Interlocked::CompareExchange(System.Object&,System.Object,System.Object)");
+	_il2cpp_icall_func = (Interlocked_CompareExchange_m18140_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Interlocked::CompareExchange(System.Object&,System.Object,System.Object)");
 	return _il2cpp_icall_func(___location1, ___value, ___comparand);
 }
 // System.Int32 System.Threading.Interlocked::Decrement(System.Int32&)
-extern "C" int32_t Interlocked_Decrement_m8002 (Object_t * __this /* static, unused */, int32_t* ___location, const MethodInfo* method)
+extern "C" int32_t Interlocked_Decrement_m8060 (Object_t * __this /* static, unused */, int32_t* ___location, const MethodInfo* method)
 {
-	typedef int32_t (*Interlocked_Decrement_m8002_ftn) (int32_t*);
-	static Interlocked_Decrement_m8002_ftn _il2cpp_icall_func;
+	typedef int32_t (*Interlocked_Decrement_m8060_ftn) (int32_t*);
+	static Interlocked_Decrement_m8060_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Interlocked_Decrement_m8002_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Interlocked::Decrement(System.Int32&)");
+	_il2cpp_icall_func = (Interlocked_Decrement_m8060_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Interlocked::Decrement(System.Int32&)");
 	return _il2cpp_icall_func(___location);
 }
 // System.Int32 System.Threading.Interlocked::Increment(System.Int32&)
-extern "C" int32_t Interlocked_Increment_m24326 (Object_t * __this /* static, unused */, int32_t* ___location, const MethodInfo* method)
+extern "C" int32_t Interlocked_Increment_m24383 (Object_t * __this /* static, unused */, int32_t* ___location, const MethodInfo* method)
 {
-	typedef int32_t (*Interlocked_Increment_m24326_ftn) (int32_t*);
-	static Interlocked_Increment_m24326_ftn _il2cpp_icall_func;
+	typedef int32_t (*Interlocked_Increment_m24383_ftn) (int32_t*);
+	static Interlocked_Increment_m24383_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Interlocked_Increment_m24326_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Interlocked::Increment(System.Int32&)");
+	_il2cpp_icall_func = (Interlocked_Increment_m24383_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Interlocked::Increment(System.Int32&)");
 	return _il2cpp_icall_func(___location);
 }
 // System.Int64 System.Threading.Interlocked::Increment(System.Int64&)
-extern "C" int64_t Interlocked_Increment_m24327 (Object_t * __this /* static, unused */, int64_t* ___location, const MethodInfo* method)
+extern "C" int64_t Interlocked_Increment_m24384 (Object_t * __this /* static, unused */, int64_t* ___location, const MethodInfo* method)
 {
-	typedef int64_t (*Interlocked_Increment_m24327_ftn) (int64_t*);
-	static Interlocked_Increment_m24327_ftn _il2cpp_icall_func;
+	typedef int64_t (*Interlocked_Increment_m24384_ftn) (int64_t*);
+	static Interlocked_Increment_m24384_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Interlocked_Increment_m24327_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Interlocked::Increment(System.Int64&)");
+	_il2cpp_icall_func = (Interlocked_Increment_m24384_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Interlocked::Increment(System.Int64&)");
 	return _il2cpp_icall_func(___location);
 }
 // System.Threading.ManualResetEvent
@@ -6173,11 +6173,11 @@ extern "C" int64_t Interlocked_Increment_m24327 (Object_t * __this /* static, un
 
 
 // System.Void System.Threading.ManualResetEvent::.ctor(System.Boolean)
-extern "C" void ManualResetEvent__ctor_m11560 (ManualResetEvent_t3205 * __this, bool ___initialState, const MethodInfo* method)
+extern "C" void ManualResetEvent__ctor_m11617 (ManualResetEvent_t3212 * __this, bool ___initialState, const MethodInfo* method)
 {
 	{
 		bool L_0 = ___initialState;
-		EventWaitHandle__ctor_m24315(__this, L_0, 1, /*hidden argument*/NULL);
+		EventWaitHandle__ctor_m24372(__this, L_0, 1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -6196,51 +6196,51 @@ extern "C" void ManualResetEvent__ctor_m11560 (ManualResetEvent_t3205 * __this, 
 
 
 // System.Void System.Threading.Monitor::Enter(System.Object)
-extern "C" void Monitor_Enter_m7533 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
+extern "C" void Monitor_Enter_m7591 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
 {
-	typedef void (*Monitor_Enter_m7533_ftn) (Object_t *);
-	static Monitor_Enter_m7533_ftn _il2cpp_icall_func;
+	typedef void (*Monitor_Enter_m7591_ftn) (Object_t *);
+	static Monitor_Enter_m7591_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Monitor_Enter_m7533_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Monitor::Enter(System.Object)");
+	_il2cpp_icall_func = (Monitor_Enter_m7591_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Monitor::Enter(System.Object)");
 	_il2cpp_icall_func(___obj);
 }
 // System.Void System.Threading.Monitor::Exit(System.Object)
-extern "C" void Monitor_Exit_m7534 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
+extern "C" void Monitor_Exit_m7592 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
 {
-	typedef void (*Monitor_Exit_m7534_ftn) (Object_t *);
-	static Monitor_Exit_m7534_ftn _il2cpp_icall_func;
+	typedef void (*Monitor_Exit_m7592_ftn) (Object_t *);
+	static Monitor_Exit_m7592_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Monitor_Exit_m7534_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Monitor::Exit(System.Object)");
+	_il2cpp_icall_func = (Monitor_Exit_m7592_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Monitor::Exit(System.Object)");
 	_il2cpp_icall_func(___obj);
 }
 // System.Void System.Threading.Monitor::Monitor_pulse(System.Object)
-extern "C" void Monitor_Monitor_pulse_m24328 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
+extern "C" void Monitor_Monitor_pulse_m24385 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
 {
-	typedef void (*Monitor_Monitor_pulse_m24328_ftn) (Object_t *);
-	static Monitor_Monitor_pulse_m24328_ftn _il2cpp_icall_func;
+	typedef void (*Monitor_Monitor_pulse_m24385_ftn) (Object_t *);
+	static Monitor_Monitor_pulse_m24385_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Monitor_Monitor_pulse_m24328_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Monitor::Monitor_pulse(System.Object)");
+	_il2cpp_icall_func = (Monitor_Monitor_pulse_m24385_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Monitor::Monitor_pulse(System.Object)");
 	_il2cpp_icall_func(___obj);
 }
 // System.Boolean System.Threading.Monitor::Monitor_test_synchronised(System.Object)
-extern "C" bool Monitor_Monitor_test_synchronised_m24329 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
+extern "C" bool Monitor_Monitor_test_synchronised_m24386 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
 {
-	typedef bool (*Monitor_Monitor_test_synchronised_m24329_ftn) (Object_t *);
-	static Monitor_Monitor_test_synchronised_m24329_ftn _il2cpp_icall_func;
+	typedef bool (*Monitor_Monitor_test_synchronised_m24386_ftn) (Object_t *);
+	static Monitor_Monitor_test_synchronised_m24386_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Monitor_Monitor_test_synchronised_m24329_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Monitor::Monitor_test_synchronised(System.Object)");
+	_il2cpp_icall_func = (Monitor_Monitor_test_synchronised_m24386_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Monitor::Monitor_test_synchronised(System.Object)");
 	return _il2cpp_icall_func(___obj);
 }
 // System.Void System.Threading.Monitor::Pulse(System.Object)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern TypeInfo* SynchronizationLockException_t3806_il2cpp_TypeInfo_var;
-extern "C" void Monitor_Pulse_m24330 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern TypeInfo* SynchronizationLockException_t3813_il2cpp_TypeInfo_var;
+extern "C" void Monitor_Pulse_m24387 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
-		SynchronizationLockException_t3806_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(7034);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		SynchronizationLockException_t3813_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(7052);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -6251,52 +6251,52 @@ extern "C" void Monitor_Pulse_m24330 (Object_t * __this /* static, unused */, Ob
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral5082, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral5096, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
 IL_000e:
 	{
 		Object_t * L_2 = ___obj;
-		bool L_3 = Monitor_Monitor_test_synchronised_m24329(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		bool L_3 = Monitor_Monitor_test_synchronised_m24386(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		if (L_3)
 		{
 			goto IL_0021;
 		}
 	}
 	{
-		SynchronizationLockException_t3806 * L_4 = (SynchronizationLockException_t3806 *)il2cpp_codegen_object_new (SynchronizationLockException_t3806_il2cpp_TypeInfo_var);
-		SynchronizationLockException__ctor_m15194(L_4, (String_t*) &_stringLiteral6525, /*hidden argument*/NULL);
+		SynchronizationLockException_t3813 * L_4 = (SynchronizationLockException_t3813 *)il2cpp_codegen_object_new (SynchronizationLockException_t3813_il2cpp_TypeInfo_var);
+		SynchronizationLockException__ctor_m15251(L_4, (String_t*) &_stringLiteral6539, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
 IL_0021:
 	{
 		Object_t * L_5 = ___obj;
-		Monitor_Monitor_pulse_m24328(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		Monitor_Monitor_pulse_m24385(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Threading.Monitor::Monitor_pulse_all(System.Object)
-extern "C" void Monitor_Monitor_pulse_all_m24331 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
+extern "C" void Monitor_Monitor_pulse_all_m24388 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
 {
-	typedef void (*Monitor_Monitor_pulse_all_m24331_ftn) (Object_t *);
-	static Monitor_Monitor_pulse_all_m24331_ftn _il2cpp_icall_func;
+	typedef void (*Monitor_Monitor_pulse_all_m24388_ftn) (Object_t *);
+	static Monitor_Monitor_pulse_all_m24388_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Monitor_Monitor_pulse_all_m24331_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Monitor::Monitor_pulse_all(System.Object)");
+	_il2cpp_icall_func = (Monitor_Monitor_pulse_all_m24388_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Monitor::Monitor_pulse_all(System.Object)");
 	_il2cpp_icall_func(___obj);
 }
 // System.Void System.Threading.Monitor::PulseAll(System.Object)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern TypeInfo* SynchronizationLockException_t3806_il2cpp_TypeInfo_var;
-extern "C" void Monitor_PulseAll_m24332 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern TypeInfo* SynchronizationLockException_t3813_il2cpp_TypeInfo_var;
+extern "C" void Monitor_PulseAll_m24389 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
-		SynchronizationLockException_t3806_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(7034);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		SynchronizationLockException_t3813_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(7052);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -6307,63 +6307,63 @@ extern "C" void Monitor_PulseAll_m24332 (Object_t * __this /* static, unused */,
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral5082, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral5096, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
 IL_000e:
 	{
 		Object_t * L_2 = ___obj;
-		bool L_3 = Monitor_Monitor_test_synchronised_m24329(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		bool L_3 = Monitor_Monitor_test_synchronised_m24386(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		if (L_3)
 		{
 			goto IL_0021;
 		}
 	}
 	{
-		SynchronizationLockException_t3806 * L_4 = (SynchronizationLockException_t3806 *)il2cpp_codegen_object_new (SynchronizationLockException_t3806_il2cpp_TypeInfo_var);
-		SynchronizationLockException__ctor_m15194(L_4, (String_t*) &_stringLiteral6525, /*hidden argument*/NULL);
+		SynchronizationLockException_t3813 * L_4 = (SynchronizationLockException_t3813 *)il2cpp_codegen_object_new (SynchronizationLockException_t3813_il2cpp_TypeInfo_var);
+		SynchronizationLockException__ctor_m15251(L_4, (String_t*) &_stringLiteral6539, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
 IL_0021:
 	{
 		Object_t * L_5 = ___obj;
-		Monitor_Monitor_pulse_all_m24331(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		Monitor_Monitor_pulse_all_m24388(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Boolean System.Threading.Monitor::Monitor_wait(System.Object,System.Int32)
-extern "C" bool Monitor_Monitor_wait_m24333 (Object_t * __this /* static, unused */, Object_t * ___obj, int32_t ___ms, const MethodInfo* method)
+extern "C" bool Monitor_Monitor_wait_m24390 (Object_t * __this /* static, unused */, Object_t * ___obj, int32_t ___ms, const MethodInfo* method)
 {
-	typedef bool (*Monitor_Monitor_wait_m24333_ftn) (Object_t *, int32_t);
-	static Monitor_Monitor_wait_m24333_ftn _il2cpp_icall_func;
+	typedef bool (*Monitor_Monitor_wait_m24390_ftn) (Object_t *, int32_t);
+	static Monitor_Monitor_wait_m24390_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Monitor_Monitor_wait_m24333_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Monitor::Monitor_wait(System.Object,System.Int32)");
+	_il2cpp_icall_func = (Monitor_Monitor_wait_m24390_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Monitor::Monitor_wait(System.Object,System.Int32)");
 	return _il2cpp_icall_func(___obj, ___ms);
 }
 // System.Boolean System.Threading.Monitor::Wait(System.Object)
-extern "C" bool Monitor_Wait_m7983 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
+extern "C" bool Monitor_Wait_m8041 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
 {
 	{
 		Object_t * L_0 = ___obj;
-		bool L_1 = Monitor_Wait_m24334(NULL /*static, unused*/, L_0, (-1), /*hidden argument*/NULL);
+		bool L_1 = Monitor_Wait_m24391(NULL /*static, unused*/, L_0, (-1), /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.Boolean System.Threading.Monitor::Wait(System.Object,System.Int32)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var;
-extern TypeInfo* SynchronizationLockException_t3806_il2cpp_TypeInfo_var;
-extern "C" bool Monitor_Wait_m24334 (Object_t * __this /* static, unused */, Object_t * ___obj, int32_t ___millisecondsTimeout, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var;
+extern TypeInfo* SynchronizationLockException_t3813_il2cpp_TypeInfo_var;
+extern "C" bool Monitor_Wait_m24391 (Object_t * __this /* static, unused */, Object_t * ___obj, int32_t ___millisecondsTimeout, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
-		ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2630);
-		SynchronizationLockException_t3806_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(7034);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2648);
+		SynchronizationLockException_t3813_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(7052);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -6374,8 +6374,8 @@ extern "C" bool Monitor_Wait_m24334 (Object_t * __this /* static, unused */, Obj
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral5082, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral5096, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -6388,23 +6388,23 @@ IL_000e:
 		}
 	}
 	{
-		ArgumentOutOfRangeException_t1494 * L_3 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_3, (String_t*) &_stringLiteral3760, (String_t*) &_stringLiteral6526, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_3 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_3, (String_t*) &_stringLiteral3774, (String_t*) &_stringLiteral6540, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
 IL_0022:
 	{
 		Object_t * L_4 = ___obj;
-		bool L_5 = Monitor_Monitor_test_synchronised_m24329(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		bool L_5 = Monitor_Monitor_test_synchronised_m24386(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 		if (L_5)
 		{
 			goto IL_0035;
 		}
 	}
 	{
-		SynchronizationLockException_t3806 * L_6 = (SynchronizationLockException_t3806 *)il2cpp_codegen_object_new (SynchronizationLockException_t3806_il2cpp_TypeInfo_var);
-		SynchronizationLockException__ctor_m15194(L_6, (String_t*) &_stringLiteral6525, /*hidden argument*/NULL);
+		SynchronizationLockException_t3813 * L_6 = (SynchronizationLockException_t3813 *)il2cpp_codegen_object_new (SynchronizationLockException_t3813_il2cpp_TypeInfo_var);
+		SynchronizationLockException__ctor_m15251(L_6, (String_t*) &_stringLiteral6539, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_6);
 	}
 
@@ -6412,7 +6412,7 @@ IL_0035:
 	{
 		Object_t * L_7 = ___obj;
 		int32_t L_8 = ___millisecondsTimeout;
-		bool L_9 = Monitor_Monitor_wait_m24333(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		bool L_9 = Monitor_Monitor_wait_m24390(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
 		return L_9;
 	}
 }
@@ -6431,57 +6431,57 @@ IL_0035:
 
 
 // System.Void System.Threading.Mutex::.ctor(System.Boolean)
-extern TypeInfo* WaitHandle_t3256_il2cpp_TypeInfo_var;
-extern "C" void Mutex__ctor_m24335 (Mutex_t5147 * __this, bool ___initiallyOwned, const MethodInfo* method)
+extern TypeInfo* WaitHandle_t3263_il2cpp_TypeInfo_var;
+extern "C" void Mutex__ctor_m24392 (Mutex_t5154 * __this, bool ___initiallyOwned, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		WaitHandle_t3256_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5694);
+		WaitHandle_t3263_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5712);
 		s_Il2CppMethodIntialized = true;
 	}
 	bool V_0 = false;
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(WaitHandle_t3256_il2cpp_TypeInfo_var);
-		WaitHandle__ctor_m24404(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(WaitHandle_t3263_il2cpp_TypeInfo_var);
+		WaitHandle__ctor_m24461(__this, /*hidden argument*/NULL);
 		bool L_0 = ___initiallyOwned;
-		IntPtr_t L_1 = Mutex_CreateMutex_internal_m24336(NULL /*static, unused*/, L_0, (String_t*)NULL, (&V_0), /*hidden argument*/NULL);
+		IntPtr_t L_1 = Mutex_CreateMutex_internal_m24393(NULL /*static, unused*/, L_0, (String_t*)NULL, (&V_0), /*hidden argument*/NULL);
 		VirtActionInvoker1< IntPtr_t >::Invoke(8 /* System.Void System.Threading.WaitHandle::set_Handle(System.IntPtr) */, __this, L_1);
 		return;
 	}
 }
 // System.IntPtr System.Threading.Mutex::CreateMutex_internal(System.Boolean,System.String,System.Boolean&)
-extern "C" IntPtr_t Mutex_CreateMutex_internal_m24336 (Object_t * __this /* static, unused */, bool ___initiallyOwned, String_t* ___name, bool* ___created, const MethodInfo* method)
+extern "C" IntPtr_t Mutex_CreateMutex_internal_m24393 (Object_t * __this /* static, unused */, bool ___initiallyOwned, String_t* ___name, bool* ___created, const MethodInfo* method)
 {
-	typedef IntPtr_t (*Mutex_CreateMutex_internal_m24336_ftn) (bool, String_t*, bool*);
-	static Mutex_CreateMutex_internal_m24336_ftn _il2cpp_icall_func;
+	typedef IntPtr_t (*Mutex_CreateMutex_internal_m24393_ftn) (bool, String_t*, bool*);
+	static Mutex_CreateMutex_internal_m24393_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Mutex_CreateMutex_internal_m24336_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Mutex::CreateMutex_internal(System.Boolean,System.String,System.Boolean&)");
+	_il2cpp_icall_func = (Mutex_CreateMutex_internal_m24393_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Mutex::CreateMutex_internal(System.Boolean,System.String,System.Boolean&)");
 	return _il2cpp_icall_func(___initiallyOwned, ___name, ___created);
 }
 // System.Boolean System.Threading.Mutex::ReleaseMutex_internal(System.IntPtr)
-extern "C" bool Mutex_ReleaseMutex_internal_m24337 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method)
+extern "C" bool Mutex_ReleaseMutex_internal_m24394 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method)
 {
-	typedef bool (*Mutex_ReleaseMutex_internal_m24337_ftn) (IntPtr_t);
-	static Mutex_ReleaseMutex_internal_m24337_ftn _il2cpp_icall_func;
+	typedef bool (*Mutex_ReleaseMutex_internal_m24394_ftn) (IntPtr_t);
+	static Mutex_ReleaseMutex_internal_m24394_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Mutex_ReleaseMutex_internal_m24337_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Mutex::ReleaseMutex_internal(System.IntPtr)");
+	_il2cpp_icall_func = (Mutex_ReleaseMutex_internal_m24394_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Mutex::ReleaseMutex_internal(System.IntPtr)");
 	return _il2cpp_icall_func(___handle);
 }
 // System.Void System.Threading.Mutex::ReleaseMutex()
-extern TypeInfo* ApplicationException_t3807_il2cpp_TypeInfo_var;
-extern "C" void Mutex_ReleaseMutex_m24338 (Mutex_t5147 * __this, const MethodInfo* method)
+extern TypeInfo* ApplicationException_t3814_il2cpp_TypeInfo_var;
+extern "C" void Mutex_ReleaseMutex_m24395 (Mutex_t5154 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ApplicationException_t3807_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(7035);
+		ApplicationException_t3814_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(7053);
 		s_Il2CppMethodIntialized = true;
 	}
 	bool V_0 = false;
 	{
 		IntPtr_t L_0 = (IntPtr_t)VirtFuncInvoker0< IntPtr_t >::Invoke(7 /* System.IntPtr System.Threading.WaitHandle::get_Handle() */, __this);
-		bool L_1 = Mutex_ReleaseMutex_internal_m24337(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		bool L_1 = Mutex_ReleaseMutex_internal_m24394(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (L_2)
@@ -6490,8 +6490,8 @@ extern "C" void Mutex_ReleaseMutex_m24338 (Mutex_t5147 * __this, const MethodInf
 		}
 	}
 	{
-		ApplicationException_t3807 * L_3 = (ApplicationException_t3807 *)il2cpp_codegen_object_new (ApplicationException_t3807_il2cpp_TypeInfo_var);
-		ApplicationException__ctor_m15195(L_3, (String_t*) &_stringLiteral6527, /*hidden argument*/NULL);
+		ApplicationException_t3814 * L_3 = (ApplicationException_t3814 *)il2cpp_codegen_object_new (ApplicationException_t3814_il2cpp_TypeInfo_var);
+		ApplicationException__ctor_m15252(L_3, (String_t*) &_stringLiteral6541, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -6509,39 +6509,39 @@ IL_001a:
 
 
 // System.IntPtr System.Threading.NativeEventCalls::CreateEvent_internal(System.Boolean,System.Boolean,System.String,System.Boolean&)
-extern "C" IntPtr_t NativeEventCalls_CreateEvent_internal_m24339 (Object_t * __this /* static, unused */, bool ___manual, bool ___initial, String_t* ___name, bool* ___created, const MethodInfo* method)
+extern "C" IntPtr_t NativeEventCalls_CreateEvent_internal_m24396 (Object_t * __this /* static, unused */, bool ___manual, bool ___initial, String_t* ___name, bool* ___created, const MethodInfo* method)
 {
-	typedef IntPtr_t (*NativeEventCalls_CreateEvent_internal_m24339_ftn) (bool, bool, String_t*, bool*);
-	static NativeEventCalls_CreateEvent_internal_m24339_ftn _il2cpp_icall_func;
+	typedef IntPtr_t (*NativeEventCalls_CreateEvent_internal_m24396_ftn) (bool, bool, String_t*, bool*);
+	static NativeEventCalls_CreateEvent_internal_m24396_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (NativeEventCalls_CreateEvent_internal_m24339_ftn)il2cpp_codegen_resolve_icall ("System.Threading.NativeEventCalls::CreateEvent_internal(System.Boolean,System.Boolean,System.String,System.Boolean&)");
+	_il2cpp_icall_func = (NativeEventCalls_CreateEvent_internal_m24396_ftn)il2cpp_codegen_resolve_icall ("System.Threading.NativeEventCalls::CreateEvent_internal(System.Boolean,System.Boolean,System.String,System.Boolean&)");
 	return _il2cpp_icall_func(___manual, ___initial, ___name, ___created);
 }
 // System.Boolean System.Threading.NativeEventCalls::SetEvent_internal(System.IntPtr)
-extern "C" bool NativeEventCalls_SetEvent_internal_m24340 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method)
+extern "C" bool NativeEventCalls_SetEvent_internal_m24397 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method)
 {
-	typedef bool (*NativeEventCalls_SetEvent_internal_m24340_ftn) (IntPtr_t);
-	static NativeEventCalls_SetEvent_internal_m24340_ftn _il2cpp_icall_func;
+	typedef bool (*NativeEventCalls_SetEvent_internal_m24397_ftn) (IntPtr_t);
+	static NativeEventCalls_SetEvent_internal_m24397_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (NativeEventCalls_SetEvent_internal_m24340_ftn)il2cpp_codegen_resolve_icall ("System.Threading.NativeEventCalls::SetEvent_internal(System.IntPtr)");
+	_il2cpp_icall_func = (NativeEventCalls_SetEvent_internal_m24397_ftn)il2cpp_codegen_resolve_icall ("System.Threading.NativeEventCalls::SetEvent_internal(System.IntPtr)");
 	return _il2cpp_icall_func(___handle);
 }
 // System.Boolean System.Threading.NativeEventCalls::ResetEvent_internal(System.IntPtr)
-extern "C" bool NativeEventCalls_ResetEvent_internal_m24341 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method)
+extern "C" bool NativeEventCalls_ResetEvent_internal_m24398 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method)
 {
-	typedef bool (*NativeEventCalls_ResetEvent_internal_m24341_ftn) (IntPtr_t);
-	static NativeEventCalls_ResetEvent_internal_m24341_ftn _il2cpp_icall_func;
+	typedef bool (*NativeEventCalls_ResetEvent_internal_m24398_ftn) (IntPtr_t);
+	static NativeEventCalls_ResetEvent_internal_m24398_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (NativeEventCalls_ResetEvent_internal_m24341_ftn)il2cpp_codegen_resolve_icall ("System.Threading.NativeEventCalls::ResetEvent_internal(System.IntPtr)");
+	_il2cpp_icall_func = (NativeEventCalls_ResetEvent_internal_m24398_ftn)il2cpp_codegen_resolve_icall ("System.Threading.NativeEventCalls::ResetEvent_internal(System.IntPtr)");
 	return _il2cpp_icall_func(___handle);
 }
 // System.Void System.Threading.NativeEventCalls::CloseEvent_internal(System.IntPtr)
-extern "C" void NativeEventCalls_CloseEvent_internal_m24342 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method)
+extern "C" void NativeEventCalls_CloseEvent_internal_m24399 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method)
 {
-	typedef void (*NativeEventCalls_CloseEvent_internal_m24342_ftn) (IntPtr_t);
-	static NativeEventCalls_CloseEvent_internal_m24342_ftn _il2cpp_icall_func;
+	typedef void (*NativeEventCalls_CloseEvent_internal_m24399_ftn) (IntPtr_t);
+	static NativeEventCalls_CloseEvent_internal_m24399_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (NativeEventCalls_CloseEvent_internal_m24342_ftn)il2cpp_codegen_resolve_icall ("System.Threading.NativeEventCalls::CloseEvent_internal(System.IntPtr)");
+	_il2cpp_icall_func = (NativeEventCalls_CloseEvent_internal_m24399_ftn)il2cpp_codegen_resolve_icall ("System.Threading.NativeEventCalls::CloseEvent_internal(System.IntPtr)");
 	_il2cpp_icall_func(___handle);
 }
 // System.Threading.RegisteredWaitHandle
@@ -6569,20 +6569,20 @@ extern "C" void NativeEventCalls_CloseEvent_internal_m24342 (Object_t * __this /
 
 
 // System.Void System.Threading.RegisteredWaitHandle::.ctor(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.TimeSpan,System.Boolean)
-extern TypeInfo* ManualResetEvent_t3205_il2cpp_TypeInfo_var;
-extern "C" void RegisteredWaitHandle__ctor_m24343 (RegisteredWaitHandle_t5382 * __this, WaitHandle_t3256 * ___waitObject, WaitOrTimerCallback_t5381 * ___callback, Object_t * ___state, TimeSpan_t334  ___timeout, bool ___executeOnlyOnce, const MethodInfo* method)
+extern TypeInfo* ManualResetEvent_t3212_il2cpp_TypeInfo_var;
+extern "C" void RegisteredWaitHandle__ctor_m24400 (RegisteredWaitHandle_t5389 * __this, WaitHandle_t3263 * ___waitObject, WaitOrTimerCallback_t5388 * ___callback, Object_t * ___state, TimeSpan_t334  ___timeout, bool ___executeOnlyOnce, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ManualResetEvent_t3205_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5494);
+		ManualResetEvent_t3212_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5512);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		MarshalByRefObject__ctor_m18089(__this, /*hidden argument*/NULL);
-		WaitHandle_t3256 * L_0 = ___waitObject;
+		MarshalByRefObject__ctor_m18146(__this, /*hidden argument*/NULL);
+		WaitHandle_t3263 * L_0 = ___waitObject;
 		__this->____waitObject_1 = L_0;
-		WaitOrTimerCallback_t5381 * L_1 = ___callback;
+		WaitOrTimerCallback_t5388 * L_1 = ___callback;
 		__this->____callback_2 = L_1;
 		Object_t * L_2 = ___state;
 		__this->____state_4 = L_2;
@@ -6590,9 +6590,9 @@ extern "C" void RegisteredWaitHandle__ctor_m24343 (RegisteredWaitHandle_t5382 * 
 		__this->____timeout_3 = L_3;
 		bool L_4 = ___executeOnlyOnce;
 		__this->____executeOnlyOnce_5 = L_4;
-		__this->____finalEvent_6 = (WaitHandle_t3256 *)NULL;
-		ManualResetEvent_t3205 * L_5 = (ManualResetEvent_t3205 *)il2cpp_codegen_object_new (ManualResetEvent_t3205_il2cpp_TypeInfo_var);
-		ManualResetEvent__ctor_m11560(L_5, 0, /*hidden argument*/NULL);
+		__this->____finalEvent_6 = (WaitHandle_t3263 *)NULL;
+		ManualResetEvent_t3212 * L_5 = (ManualResetEvent_t3212 *)il2cpp_codegen_object_new (ManualResetEvent_t3212_il2cpp_TypeInfo_var);
+		ManualResetEvent__ctor_m11617(L_5, 0, /*hidden argument*/NULL);
 		__this->____cancelEvent_7 = L_5;
 		__this->____callsInProcess_8 = 0;
 		__this->____unregistered_9 = 0;
@@ -6600,29 +6600,29 @@ extern "C" void RegisteredWaitHandle__ctor_m24343 (RegisteredWaitHandle_t5382 * 
 	}
 }
 // System.Void System.Threading.RegisteredWaitHandle::Wait(System.Object)
-extern TypeInfo* WaitHandleU5BU5D_t5435_il2cpp_TypeInfo_var;
-extern TypeInfo* WaitHandle_t3256_il2cpp_TypeInfo_var;
-extern TypeInfo* WaitCallback_t2166_il2cpp_TypeInfo_var;
+extern TypeInfo* WaitHandleU5BU5D_t5442_il2cpp_TypeInfo_var;
+extern TypeInfo* WaitHandle_t3263_il2cpp_TypeInfo_var;
+extern TypeInfo* WaitCallback_t2173_il2cpp_TypeInfo_var;
 extern TypeInfo* Boolean_t59_il2cpp_TypeInfo_var;
 extern TypeInfo* Object_t_il2cpp_TypeInfo_var;
-extern const MethodInfo* RegisteredWaitHandle_DoCallBack_m24345_MethodInfo_var;
-extern "C" void RegisteredWaitHandle_Wait_m24344 (RegisteredWaitHandle_t5382 * __this, Object_t * ___state, const MethodInfo* method)
+extern const MethodInfo* RegisteredWaitHandle_DoCallBack_m24402_MethodInfo_var;
+extern "C" void RegisteredWaitHandle_Wait_m24401 (RegisteredWaitHandle_t5389 * __this, Object_t * ___state, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		WaitHandleU5BU5D_t5435_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9363);
-		WaitHandle_t3256_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5694);
-		WaitCallback_t2166_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3415);
+		WaitHandleU5BU5D_t5442_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9381);
+		WaitHandle_t3263_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5712);
+		WaitCallback_t2173_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3433);
 		Boolean_t59_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(24);
 		Object_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(0);
-		RegisteredWaitHandle_DoCallBack_m24345_MethodInfo_var = il2cpp_codegen_method_info_from_index(1640);
+		RegisteredWaitHandle_DoCallBack_m24402_MethodInfo_var = il2cpp_codegen_method_info_from_index(1649);
 		s_Il2CppMethodIntialized = true;
 	}
-	RegisteredWaitHandle_t5382 * V_0 = {0};
-	WaitHandleU5BU5D_t5435* V_1 = {0};
+	RegisteredWaitHandle_t5389 * V_0 = {0};
+	WaitHandleU5BU5D_t5442* V_1 = {0};
 	int32_t V_2 = 0;
-	RegisteredWaitHandle_t5382 * V_3 = {0};
+	RegisteredWaitHandle_t5389 * V_3 = {0};
 	Exception_t57 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t57 * __exception_local = 0;
@@ -6634,27 +6634,27 @@ IL_0000:
 	try
 	{ // begin try (depth: 1)
 		{
-			WaitHandleU5BU5D_t5435* L_0 = ((WaitHandleU5BU5D_t5435*)SZArrayNew(WaitHandleU5BU5D_t5435_il2cpp_TypeInfo_var, 2));
-			WaitHandle_t3256 * L_1 = (__this->____waitObject_1);
+			WaitHandleU5BU5D_t5442* L_0 = ((WaitHandleU5BU5D_t5442*)SZArrayNew(WaitHandleU5BU5D_t5442_il2cpp_TypeInfo_var, 2));
+			WaitHandle_t3263 * L_1 = (__this->____waitObject_1);
 			NullCheck(L_0);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
 			ArrayElementTypeCheck (L_0, L_1);
-			*((WaitHandle_t3256 **)(WaitHandle_t3256 **)SZArrayLdElema(L_0, 0)) = (WaitHandle_t3256 *)L_1;
-			WaitHandleU5BU5D_t5435* L_2 = L_0;
-			ManualResetEvent_t3205 * L_3 = (__this->____cancelEvent_7);
+			*((WaitHandle_t3263 **)(WaitHandle_t3263 **)SZArrayLdElema(L_0, 0)) = (WaitHandle_t3263 *)L_1;
+			WaitHandleU5BU5D_t5442* L_2 = L_0;
+			ManualResetEvent_t3212 * L_3 = (__this->____cancelEvent_7);
 			NullCheck(L_2);
 			IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
 			ArrayElementTypeCheck (L_2, L_3);
-			*((WaitHandle_t3256 **)(WaitHandle_t3256 **)SZArrayLdElema(L_2, 1)) = (WaitHandle_t3256 *)L_3;
+			*((WaitHandle_t3263 **)(WaitHandle_t3263 **)SZArrayLdElema(L_2, 1)) = (WaitHandle_t3263 *)L_3;
 			V_1 = L_2;
 		}
 
 IL_0019:
 		{
-			WaitHandleU5BU5D_t5435* L_4 = V_1;
+			WaitHandleU5BU5D_t5442* L_4 = V_1;
 			TimeSpan_t334  L_5 = (__this->____timeout_3);
-			IL2CPP_RUNTIME_CLASS_INIT(WaitHandle_t3256_il2cpp_TypeInfo_var);
-			int32_t L_6 = WaitHandle_WaitAny_m24409(NULL /*static, unused*/, L_4, L_5, 0, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(WaitHandle_t3263_il2cpp_TypeInfo_var);
+			int32_t L_6 = WaitHandle_WaitAny_m24466(NULL /*static, unused*/, L_4, L_5, 0, /*hidden argument*/NULL);
 			V_2 = L_6;
 			bool L_7 = (__this->____unregistered_9);
 			if (L_7)
@@ -6666,8 +6666,8 @@ IL_0019:
 IL_002f:
 		{
 			V_3 = __this;
-			RegisteredWaitHandle_t5382 * L_8 = V_3;
-			Monitor_Enter_m7533(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+			RegisteredWaitHandle_t5389 * L_8 = V_3;
+			Monitor_Enter_m7591(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 		}
 
 IL_0037:
@@ -6685,8 +6685,8 @@ IL_0037:
 
 FINALLY_0047:
 		{ // begin finally (depth: 2)
-			RegisteredWaitHandle_t5382 * L_10 = V_3;
-			Monitor_Exit_m7534(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+			RegisteredWaitHandle_t5389 * L_10 = V_3;
+			Monitor_Exit_m7592(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 			IL2CPP_END_FINALLY(71)
 		} // end finally (depth: 2)
 		IL2CPP_CLEANUP(71)
@@ -6697,13 +6697,13 @@ FINALLY_0047:
 
 IL_004e:
 		{
-			IntPtr_t L_11 = { (void*)RegisteredWaitHandle_DoCallBack_m24345_MethodInfo_var };
-			WaitCallback_t2166 * L_12 = (WaitCallback_t2166 *)il2cpp_codegen_object_new (WaitCallback_t2166_il2cpp_TypeInfo_var);
-			WaitCallback__ctor_m7955(L_12, __this, L_11, /*hidden argument*/NULL);
+			IntPtr_t L_11 = { (void*)RegisteredWaitHandle_DoCallBack_m24402_MethodInfo_var };
+			WaitCallback_t2173 * L_12 = (WaitCallback_t2173 *)il2cpp_codegen_object_new (WaitCallback_t2173_il2cpp_TypeInfo_var);
+			WaitCallback__ctor_m8013(L_12, __this, L_11, /*hidden argument*/NULL);
 			int32_t L_13 = V_2;
 			bool L_14 = ((((int32_t)L_13) == ((int32_t)((int32_t)258)))? 1 : 0);
 			Object_t * L_15 = Box(Boolean_t59_il2cpp_TypeInfo_var, &L_14);
-			ThreadPool_QueueUserWorkItem_m18130(NULL /*static, unused*/, L_12, L_15, /*hidden argument*/NULL);
+			ThreadPool_QueueUserWorkItem_m18187(NULL /*static, unused*/, L_12, L_15, /*hidden argument*/NULL);
 		}
 
 IL_006d:
@@ -6745,8 +6745,8 @@ CATCH_007f:
 IL_0082:
 	{
 		V_0 = __this;
-		RegisteredWaitHandle_t5382 * L_18 = V_0;
-		Monitor_Enter_m7533(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
+		RegisteredWaitHandle_t5389 * L_18 = V_0;
+		Monitor_Enter_m7591(NULL /*static, unused*/, L_18, /*hidden argument*/NULL);
 	}
 
 IL_008a:
@@ -6763,7 +6763,7 @@ IL_008a:
 
 IL_0099:
 		{
-			WaitHandle_t3256 * L_20 = (__this->____finalEvent_6);
+			WaitHandle_t3263 * L_20 = (__this->____finalEvent_6);
 			if (!L_20)
 			{
 				goto IL_00b2;
@@ -6772,10 +6772,10 @@ IL_0099:
 
 IL_00a1:
 		{
-			WaitHandle_t3256 * L_21 = (__this->____finalEvent_6);
+			WaitHandle_t3263 * L_21 = (__this->____finalEvent_6);
 			NullCheck(L_21);
 			IntPtr_t L_22 = (IntPtr_t)VirtFuncInvoker0< IntPtr_t >::Invoke(7 /* System.IntPtr System.Threading.WaitHandle::get_Handle() */, L_21);
-			NativeEventCalls_SetEvent_internal_m24340(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
+			NativeEventCalls_SetEvent_internal_m24397(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
 		}
 
 IL_00b2:
@@ -6791,8 +6791,8 @@ IL_00b2:
 
 FINALLY_00b4:
 	{ // begin finally (depth: 1)
-		RegisteredWaitHandle_t5382 * L_23 = V_0;
-		Monitor_Exit_m7534(NULL /*static, unused*/, L_23, /*hidden argument*/NULL);
+		RegisteredWaitHandle_t5389 * L_23 = V_0;
+		Monitor_Exit_m7592(NULL /*static, unused*/, L_23, /*hidden argument*/NULL);
 		IL2CPP_END_FINALLY(180)
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(180)
@@ -6808,7 +6808,7 @@ IL_00bb:
 }
 // System.Void System.Threading.RegisteredWaitHandle::DoCallBack(System.Object)
 extern TypeInfo* Boolean_t59_il2cpp_TypeInfo_var;
-extern "C" void RegisteredWaitHandle_DoCallBack_m24345 (RegisteredWaitHandle_t5382 * __this, Object_t * ___timedOut, const MethodInfo* method)
+extern "C" void RegisteredWaitHandle_DoCallBack_m24402 (RegisteredWaitHandle_t5389 * __this, Object_t * ___timedOut, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -6816,7 +6816,7 @@ extern "C" void RegisteredWaitHandle_DoCallBack_m24345 (RegisteredWaitHandle_t53
 		Boolean_t59_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(24);
 		s_Il2CppMethodIntialized = true;
 	}
-	RegisteredWaitHandle_t5382 * V_0 = {0};
+	RegisteredWaitHandle_t5389 * V_0 = {0};
 	Exception_t57 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t57 * __exception_local = 0;
@@ -6824,14 +6824,14 @@ extern "C" void RegisteredWaitHandle_DoCallBack_m24345 (RegisteredWaitHandle_t53
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		WaitOrTimerCallback_t5381 * L_0 = (__this->____callback_2);
+		WaitOrTimerCallback_t5388 * L_0 = (__this->____callback_2);
 		if (!L_0)
 		{
 			goto IL_001f;
 		}
 	}
 	{
-		WaitOrTimerCallback_t5381 * L_1 = (__this->____callback_2);
+		WaitOrTimerCallback_t5388 * L_1 = (__this->____callback_2);
 		Object_t * L_2 = (__this->____state_4);
 		Object_t * L_3 = ___timedOut;
 		NullCheck(L_1);
@@ -6841,8 +6841,8 @@ extern "C" void RegisteredWaitHandle_DoCallBack_m24345 (RegisteredWaitHandle_t53
 IL_001f:
 	{
 		V_0 = __this;
-		RegisteredWaitHandle_t5382 * L_4 = V_0;
-		Monitor_Enter_m7533(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		RegisteredWaitHandle_t5389 * L_4 = V_0;
+		Monitor_Enter_m7591(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 	}
 
 IL_0027:
@@ -6869,7 +6869,7 @@ IL_003d:
 
 IL_0045:
 		{
-			WaitHandle_t3256 * L_8 = (__this->____finalEvent_6);
+			WaitHandle_t3263 * L_8 = (__this->____finalEvent_6);
 			if (!L_8)
 			{
 				goto IL_005e;
@@ -6878,10 +6878,10 @@ IL_0045:
 
 IL_004d:
 		{
-			WaitHandle_t3256 * L_9 = (__this->____finalEvent_6);
+			WaitHandle_t3263 * L_9 = (__this->____finalEvent_6);
 			NullCheck(L_9);
 			IntPtr_t L_10 = (IntPtr_t)VirtFuncInvoker0< IntPtr_t >::Invoke(7 /* System.IntPtr System.Threading.WaitHandle::get_Handle() */, L_9);
-			NativeEventCalls_SetEvent_internal_m24340(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+			NativeEventCalls_SetEvent_internal_m24397(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 		}
 
 IL_005e:
@@ -6897,8 +6897,8 @@ IL_005e:
 
 FINALLY_0060:
 	{ // begin finally (depth: 1)
-		RegisteredWaitHandle_t5382 * L_11 = V_0;
-		Monitor_Exit_m7534(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		RegisteredWaitHandle_t5389 * L_11 = V_0;
+		Monitor_Exit_m7592(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
 		IL2CPP_END_FINALLY(96)
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(96)
@@ -6927,7 +6927,7 @@ IL_0067:
 
 
 // System.Void System.Threading.SynchronizationContext::.ctor()
-extern "C" void SynchronizationContext__ctor_m8012 (SynchronizationContext_t1389 * __this, const MethodInfo* method)
+extern "C" void SynchronizationContext__ctor_m8070 (SynchronizationContext_t1396 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
@@ -6935,39 +6935,39 @@ extern "C" void SynchronizationContext__ctor_m8012 (SynchronizationContext_t1389
 	}
 }
 // System.Threading.SynchronizationContext System.Threading.SynchronizationContext::get_Current()
-extern TypeInfo* SynchronizationContext_t1389_il2cpp_TypeInfo_var;
-extern "C" SynchronizationContext_t1389 * SynchronizationContext_get_Current_m8011 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern TypeInfo* SynchronizationContext_t1396_il2cpp_TypeInfo_var;
+extern "C" SynchronizationContext_t1396 * SynchronizationContext_get_Current_m8069 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		SynchronizationContext_t1389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3453);
+		SynchronizationContext_t1396_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3471);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		SynchronizationContext_t1389 * L_0 = ((SynchronizationContext_t1389_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(SynchronizationContext_t1389_il2cpp_TypeInfo_var))->___currentContext_0;
+		SynchronizationContext_t1396 * L_0 = ((SynchronizationContext_t1396_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(SynchronizationContext_t1396_il2cpp_TypeInfo_var))->___currentContext_0;
 		return L_0;
 	}
 }
 // System.Void System.Threading.SynchronizationContext::Post(System.Threading.SendOrPostCallback,System.Object)
-extern TypeInfo* WaitCallback_t2166_il2cpp_TypeInfo_var;
-extern const MethodInfo* SendOrPostCallback_Invoke_m24462_MethodInfo_var;
-extern "C" void SynchronizationContext_Post_m24346 (SynchronizationContext_t1389 * __this, SendOrPostCallback_t2182 * ___d, Object_t * ___state, const MethodInfo* method)
+extern TypeInfo* WaitCallback_t2173_il2cpp_TypeInfo_var;
+extern const MethodInfo* SendOrPostCallback_Invoke_m24519_MethodInfo_var;
+extern "C" void SynchronizationContext_Post_m24403 (SynchronizationContext_t1396 * __this, SendOrPostCallback_t2189 * ___d, Object_t * ___state, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		WaitCallback_t2166_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3415);
-		SendOrPostCallback_Invoke_m24462_MethodInfo_var = il2cpp_codegen_method_info_from_index(1641);
+		WaitCallback_t2173_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3433);
+		SendOrPostCallback_Invoke_m24519_MethodInfo_var = il2cpp_codegen_method_info_from_index(1650);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		SendOrPostCallback_t2182 * L_0 = ___d;
-		IntPtr_t L_1 = { (void*)SendOrPostCallback_Invoke_m24462_MethodInfo_var };
-		WaitCallback_t2166 * L_2 = (WaitCallback_t2166 *)il2cpp_codegen_object_new (WaitCallback_t2166_il2cpp_TypeInfo_var);
-		WaitCallback__ctor_m7955(L_2, L_0, L_1, /*hidden argument*/NULL);
+		SendOrPostCallback_t2189 * L_0 = ___d;
+		IntPtr_t L_1 = { (void*)SendOrPostCallback_Invoke_m24519_MethodInfo_var };
+		WaitCallback_t2173 * L_2 = (WaitCallback_t2173 *)il2cpp_codegen_object_new (WaitCallback_t2173_il2cpp_TypeInfo_var);
+		WaitCallback__ctor_m8013(L_2, L_0, L_1, /*hidden argument*/NULL);
 		Object_t * L_3 = ___state;
-		ThreadPool_QueueUserWorkItem_m18130(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
+		ThreadPool_QueueUserWorkItem_m18187(NULL /*static, unused*/, L_2, L_3, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -6980,29 +6980,29 @@ extern "C" void SynchronizationContext_Post_m24346 (SynchronizationContext_t1389
 
 
 // System.Void System.Threading.SynchronizationLockException::.ctor()
-extern "C" void SynchronizationLockException__ctor_m24347 (SynchronizationLockException_t3806 * __this, const MethodInfo* method)
+extern "C" void SynchronizationLockException__ctor_m24404 (SynchronizationLockException_t3813 * __this, const MethodInfo* method)
 {
 	{
-		SystemException__ctor_m12121(__this, (String_t*) &_stringLiteral6528, /*hidden argument*/NULL);
+		SystemException__ctor_m12178(__this, (String_t*) &_stringLiteral6542, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Threading.SynchronizationLockException::.ctor(System.String)
-extern "C" void SynchronizationLockException__ctor_m15194 (SynchronizationLockException_t3806 * __this, String_t* ___message, const MethodInfo* method)
+extern "C" void SynchronizationLockException__ctor_m15251 (SynchronizationLockException_t3813 * __this, String_t* ___message, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___message;
-		SystemException__ctor_m12121(__this, L_0, /*hidden argument*/NULL);
+		SystemException__ctor_m12178(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Threading.SynchronizationLockException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void SynchronizationLockException__ctor_m24348 (SynchronizationLockException_t3806 * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___context, const MethodInfo* method)
+extern "C" void SynchronizationLockException__ctor_m24405 (SynchronizationLockException_t3813 * __this, SerializationInfo_t2947 * ___info, StreamingContext_t2948  ___context, const MethodInfo* method)
 {
 	{
-		SerializationInfo_t2940 * L_0 = ___info;
-		StreamingContext_t2941  L_1 = ___context;
-		SystemException__ctor_m14772(__this, L_0, L_1, /*hidden argument*/NULL);
+		SerializationInfo_t2947 * L_0 = ___info;
+		StreamingContext_t2948  L_1 = ___context;
+		SystemException__ctor_m14829(__this, L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -7051,189 +7051,189 @@ extern "C" void SynchronizationLockException__ctor_m24348 (SynchronizationLockEx
 
 
 // System.Void System.Threading.Thread::.ctor(System.Threading.ThreadStart)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern "C" void Thread__ctor_m18111 (Thread_t1482 * __this, ThreadStart_t4579 * ___start, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern "C" void Thread__ctor_m18168 (Thread_t1489 * __this, ThreadStart_t4586 * ___start, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		__this->___state_7 = 8;
 		__this->___apartment_state_32 = 2;
-		CriticalFinalizerObject__ctor_m22543(__this, /*hidden argument*/NULL);
-		ThreadStart_t4579 * L_0 = ___start;
+		CriticalFinalizerObject__ctor_m22600(__this, /*hidden argument*/NULL);
+		ThreadStart_t4586 * L_0 = ___start;
 		if (L_0)
 		{
 			goto IL_0022;
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral6529, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral6543, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
 IL_0022:
 	{
-		ThreadStart_t4579 * L_2 = ___start;
+		ThreadStart_t4586 * L_2 = ___start;
 		__this->___threadstart_45 = L_2;
-		Thread_Thread_init_m24357(__this, /*hidden argument*/NULL);
+		Thread_Thread_init_m24414(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Threading.Thread::.ctor(System.Threading.ParameterizedThreadStart)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern "C" void Thread__ctor_m7953 (Thread_t1482 * __this, ParameterizedThreadStart_t2165 * ___start, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern "C" void Thread__ctor_m8011 (Thread_t1489 * __this, ParameterizedThreadStart_t2172 * ___start, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		__this->___state_7 = 8;
 		__this->___apartment_state_32 = 2;
-		CriticalFinalizerObject__ctor_m22543(__this, /*hidden argument*/NULL);
-		ParameterizedThreadStart_t2165 * L_0 = ___start;
+		CriticalFinalizerObject__ctor_m22600(__this, /*hidden argument*/NULL);
+		ParameterizedThreadStart_t2172 * L_0 = ___start;
 		if (L_0)
 		{
 			goto IL_0022;
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral6530, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral6544, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
 IL_0022:
 	{
-		ParameterizedThreadStart_t2165 * L_2 = ___start;
+		ParameterizedThreadStart_t2172 * L_2 = ___start;
 		__this->___threadstart_45 = L_2;
-		Thread_Thread_init_m24357(__this, /*hidden argument*/NULL);
+		Thread_Thread_init_m24414(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Threading.Thread::.cctor()
 extern TypeInfo* Object_t_il2cpp_TypeInfo_var;
-extern TypeInfo* Thread_t1482_il2cpp_TypeInfo_var;
-extern "C" void Thread__cctor_m24349 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern TypeInfo* Thread_t1489_il2cpp_TypeInfo_var;
+extern "C" void Thread__cctor_m24406 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		Object_t_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(0);
-		Thread_t1482_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2593);
+		Thread_t1489_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2611);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		Object_t * L_0 = (Object_t *)il2cpp_codegen_object_new (Object_t_il2cpp_TypeInfo_var);
 		Object__ctor_m354(L_0, /*hidden argument*/NULL);
-		((Thread_t1482_StaticFields*)Thread_t1482_il2cpp_TypeInfo_var->static_fields)->___datastore_lock_49 = L_0;
+		((Thread_t1489_StaticFields*)Thread_t1489_il2cpp_TypeInfo_var->static_fields)->___datastore_lock_49 = L_0;
 		Object_t * L_1 = (Object_t *)il2cpp_codegen_object_new (Object_t_il2cpp_TypeInfo_var);
 		Object__ctor_m354(L_1, /*hidden argument*/NULL);
-		((Thread_t1482_StaticFields*)Thread_t1482_il2cpp_TypeInfo_var->static_fields)->___culture_lock_51 = L_1;
+		((Thread_t1489_StaticFields*)Thread_t1489_il2cpp_TypeInfo_var->static_fields)->___culture_lock_51 = L_1;
 		return;
 	}
 }
 // System.Runtime.Remoting.Contexts.Context System.Threading.Thread::get_CurrentContext()
-extern "C" Context_t5126 * Thread_get_CurrentContext_m24350 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" Context_t5133 * Thread_get_CurrentContext_m24407 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	{
-		Context_t5126 * L_0 = AppDomain_InternalGetContext_m19964(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Context_t5133 * L_0 = AppDomain_InternalGetContext_m20021(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
 // System.Threading.Thread System.Threading.Thread::CurrentThread_internal()
-extern "C" Thread_t1482 * Thread_CurrentThread_internal_m24351 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" Thread_t1489 * Thread_CurrentThread_internal_m24408 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
-	typedef Thread_t1482 * (*Thread_CurrentThread_internal_m24351_ftn) ();
-	static Thread_CurrentThread_internal_m24351_ftn _il2cpp_icall_func;
+	typedef Thread_t1489 * (*Thread_CurrentThread_internal_m24408_ftn) ();
+	static Thread_CurrentThread_internal_m24408_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Thread_CurrentThread_internal_m24351_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::CurrentThread_internal()");
+	_il2cpp_icall_func = (Thread_CurrentThread_internal_m24408_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::CurrentThread_internal()");
 	return _il2cpp_icall_func();
 }
 // System.Threading.Thread System.Threading.Thread::get_CurrentThread()
-extern TypeInfo* Thread_t1482_il2cpp_TypeInfo_var;
-extern "C" Thread_t1482 * Thread_get_CurrentThread_m7618 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern TypeInfo* Thread_t1489_il2cpp_TypeInfo_var;
+extern "C" Thread_t1489 * Thread_get_CurrentThread_m7676 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Thread_t1482_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2593);
+		Thread_t1489_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2611);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1482_il2cpp_TypeInfo_var);
-		Thread_t1482 * L_0 = Thread_CurrentThread_internal_m24351(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1489_il2cpp_TypeInfo_var);
+		Thread_t1489 * L_0 = Thread_CurrentThread_internal_m24408(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
 // System.AppDomain System.Threading.Thread::GetDomain()
-extern "C" AppDomain_t2167 * Thread_GetDomain_m24352 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" AppDomain_t2174 * Thread_GetDomain_m24409 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	{
-		AppDomain_t2167 * L_0 = AppDomain_get_CurrentDomain_m7957(NULL /*static, unused*/, /*hidden argument*/NULL);
+		AppDomain_t2174 * L_0 = AppDomain_get_CurrentDomain_m8015(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
 // System.Int32 System.Threading.Thread::GetDomainID()
-extern "C" int32_t Thread_GetDomainID_m24353 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" int32_t Thread_GetDomainID_m24410 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
-	typedef int32_t (*Thread_GetDomainID_m24353_ftn) ();
-	static Thread_GetDomainID_m24353_ftn _il2cpp_icall_func;
+	typedef int32_t (*Thread_GetDomainID_m24410_ftn) ();
+	static Thread_GetDomainID_m24410_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Thread_GetDomainID_m24353_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::GetDomainID()");
+	_il2cpp_icall_func = (Thread_GetDomainID_m24410_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::GetDomainID()");
 	return _il2cpp_icall_func();
 }
 // System.Void System.Threading.Thread::ResetAbort_internal()
-extern "C" void Thread_ResetAbort_internal_m24354 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" void Thread_ResetAbort_internal_m24411 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
-	typedef void (*Thread_ResetAbort_internal_m24354_ftn) ();
-	static Thread_ResetAbort_internal_m24354_ftn _il2cpp_icall_func;
+	typedef void (*Thread_ResetAbort_internal_m24411_ftn) ();
+	static Thread_ResetAbort_internal_m24411_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Thread_ResetAbort_internal_m24354_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::ResetAbort_internal()");
+	_il2cpp_icall_func = (Thread_ResetAbort_internal_m24411_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::ResetAbort_internal()");
 	_il2cpp_icall_func();
 }
 // System.Void System.Threading.Thread::ResetAbort()
-extern TypeInfo* Thread_t1482_il2cpp_TypeInfo_var;
-extern "C" void Thread_ResetAbort_m18133 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern TypeInfo* Thread_t1489_il2cpp_TypeInfo_var;
+extern "C" void Thread_ResetAbort_m18190 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Thread_t1482_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2593);
+		Thread_t1489_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2611);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1482_il2cpp_TypeInfo_var);
-		Thread_ResetAbort_internal_m24354(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1489_il2cpp_TypeInfo_var);
+		Thread_ResetAbort_internal_m24411(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Threading.Thread::Sleep_internal(System.Int32)
-extern "C" void Thread_Sleep_internal_m24355 (Object_t * __this /* static, unused */, int32_t ___ms, const MethodInfo* method)
+extern "C" void Thread_Sleep_internal_m24412 (Object_t * __this /* static, unused */, int32_t ___ms, const MethodInfo* method)
 {
-	typedef void (*Thread_Sleep_internal_m24355_ftn) (int32_t);
-	static Thread_Sleep_internal_m24355_ftn _il2cpp_icall_func;
+	typedef void (*Thread_Sleep_internal_m24412_ftn) (int32_t);
+	static Thread_Sleep_internal_m24412_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Thread_Sleep_internal_m24355_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::Sleep_internal(System.Int32)");
+	_il2cpp_icall_func = (Thread_Sleep_internal_m24412_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::Sleep_internal(System.Int32)");
 	_il2cpp_icall_func(___ms);
 }
 // System.Void System.Threading.Thread::Sleep(System.Int32)
-extern TypeInfo* ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var;
-extern TypeInfo* Thread_t1482_il2cpp_TypeInfo_var;
-extern "C" void Thread_Sleep_m15197 (Object_t * __this /* static, unused */, int32_t ___millisecondsTimeout, const MethodInfo* method)
+extern TypeInfo* ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var;
+extern TypeInfo* Thread_t1489_il2cpp_TypeInfo_var;
+extern "C" void Thread_Sleep_m15254 (Object_t * __this /* static, unused */, int32_t ___millisecondsTimeout, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2630);
-		Thread_t1482_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2593);
+		ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2648);
+		Thread_t1489_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2611);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -7244,115 +7244,115 @@ extern "C" void Thread_Sleep_m15197 (Object_t * __this /* static, unused */, int
 		}
 	}
 	{
-		ArgumentOutOfRangeException_t1494 * L_1 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_1, (String_t*) &_stringLiteral3760, (String_t*) &_stringLiteral6531, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_1 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_1, (String_t*) &_stringLiteral3774, (String_t*) &_stringLiteral6545, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
 IL_0014:
 	{
 		int32_t L_2 = ___millisecondsTimeout;
-		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1482_il2cpp_TypeInfo_var);
-		Thread_Sleep_internal_m24355(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1489_il2cpp_TypeInfo_var);
+		Thread_Sleep_internal_m24412(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.IntPtr System.Threading.Thread::Thread_internal(System.MulticastDelegate)
-extern "C" IntPtr_t Thread_Thread_internal_m24356 (Thread_t1482 * __this, MulticastDelegate_t388 * ___start, const MethodInfo* method)
+extern "C" IntPtr_t Thread_Thread_internal_m24413 (Thread_t1489 * __this, MulticastDelegate_t388 * ___start, const MethodInfo* method)
 {
-	typedef IntPtr_t (*Thread_Thread_internal_m24356_ftn) (Thread_t1482 *, MulticastDelegate_t388 *);
-	static Thread_Thread_internal_m24356_ftn _il2cpp_icall_func;
+	typedef IntPtr_t (*Thread_Thread_internal_m24413_ftn) (Thread_t1489 *, MulticastDelegate_t388 *);
+	static Thread_Thread_internal_m24413_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Thread_Thread_internal_m24356_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::Thread_internal(System.MulticastDelegate)");
+	_il2cpp_icall_func = (Thread_Thread_internal_m24413_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::Thread_internal(System.MulticastDelegate)");
 	return _il2cpp_icall_func(__this, ___start);
 }
 // System.Void System.Threading.Thread::Thread_init()
-extern "C" void Thread_Thread_init_m24357 (Thread_t1482 * __this, const MethodInfo* method)
+extern "C" void Thread_Thread_init_m24414 (Thread_t1489 * __this, const MethodInfo* method)
 {
-	typedef void (*Thread_Thread_init_m24357_ftn) (Thread_t1482 *);
-	static Thread_Thread_init_m24357_ftn _il2cpp_icall_func;
+	typedef void (*Thread_Thread_init_m24414_ftn) (Thread_t1489 *);
+	static Thread_Thread_init_m24414_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Thread_Thread_init_m24357_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::Thread_init()");
+	_il2cpp_icall_func = (Thread_Thread_init_m24414_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::Thread_init()");
 	_il2cpp_icall_func(__this);
 }
 // System.Globalization.CultureInfo System.Threading.Thread::GetCachedCurrentCulture()
-extern "C" CultureInfo_t786 * Thread_GetCachedCurrentCulture_m24358 (Thread_t1482 * __this, const MethodInfo* method)
+extern "C" CultureInfo_t793 * Thread_GetCachedCurrentCulture_m24415 (Thread_t1489 * __this, const MethodInfo* method)
 {
-	typedef CultureInfo_t786 * (*Thread_GetCachedCurrentCulture_m24358_ftn) (Thread_t1482 *);
-	static Thread_GetCachedCurrentCulture_m24358_ftn _il2cpp_icall_func;
+	typedef CultureInfo_t793 * (*Thread_GetCachedCurrentCulture_m24415_ftn) (Thread_t1489 *);
+	static Thread_GetCachedCurrentCulture_m24415_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Thread_GetCachedCurrentCulture_m24358_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::GetCachedCurrentCulture()");
+	_il2cpp_icall_func = (Thread_GetCachedCurrentCulture_m24415_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::GetCachedCurrentCulture()");
 	return _il2cpp_icall_func(__this);
 }
 // System.Byte[] System.Threading.Thread::GetSerializedCurrentCulture()
-extern "C" ByteU5BU5D_t66* Thread_GetSerializedCurrentCulture_m24359 (Thread_t1482 * __this, const MethodInfo* method)
+extern "C" ByteU5BU5D_t66* Thread_GetSerializedCurrentCulture_m24416 (Thread_t1489 * __this, const MethodInfo* method)
 {
-	typedef ByteU5BU5D_t66* (*Thread_GetSerializedCurrentCulture_m24359_ftn) (Thread_t1482 *);
-	static Thread_GetSerializedCurrentCulture_m24359_ftn _il2cpp_icall_func;
+	typedef ByteU5BU5D_t66* (*Thread_GetSerializedCurrentCulture_m24416_ftn) (Thread_t1489 *);
+	static Thread_GetSerializedCurrentCulture_m24416_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Thread_GetSerializedCurrentCulture_m24359_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::GetSerializedCurrentCulture()");
+	_il2cpp_icall_func = (Thread_GetSerializedCurrentCulture_m24416_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::GetSerializedCurrentCulture()");
 	return _il2cpp_icall_func(__this);
 }
 // System.Void System.Threading.Thread::SetCachedCurrentCulture(System.Globalization.CultureInfo)
-extern "C" void Thread_SetCachedCurrentCulture_m24360 (Thread_t1482 * __this, CultureInfo_t786 * ___culture, const MethodInfo* method)
+extern "C" void Thread_SetCachedCurrentCulture_m24417 (Thread_t1489 * __this, CultureInfo_t793 * ___culture, const MethodInfo* method)
 {
-	typedef void (*Thread_SetCachedCurrentCulture_m24360_ftn) (Thread_t1482 *, CultureInfo_t786 *);
-	static Thread_SetCachedCurrentCulture_m24360_ftn _il2cpp_icall_func;
+	typedef void (*Thread_SetCachedCurrentCulture_m24417_ftn) (Thread_t1489 *, CultureInfo_t793 *);
+	static Thread_SetCachedCurrentCulture_m24417_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Thread_SetCachedCurrentCulture_m24360_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::SetCachedCurrentCulture(System.Globalization.CultureInfo)");
+	_il2cpp_icall_func = (Thread_SetCachedCurrentCulture_m24417_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::SetCachedCurrentCulture(System.Globalization.CultureInfo)");
 	_il2cpp_icall_func(__this, ___culture);
 }
 // System.Globalization.CultureInfo System.Threading.Thread::GetCachedCurrentUICulture()
-extern "C" CultureInfo_t786 * Thread_GetCachedCurrentUICulture_m24361 (Thread_t1482 * __this, const MethodInfo* method)
+extern "C" CultureInfo_t793 * Thread_GetCachedCurrentUICulture_m24418 (Thread_t1489 * __this, const MethodInfo* method)
 {
-	typedef CultureInfo_t786 * (*Thread_GetCachedCurrentUICulture_m24361_ftn) (Thread_t1482 *);
-	static Thread_GetCachedCurrentUICulture_m24361_ftn _il2cpp_icall_func;
+	typedef CultureInfo_t793 * (*Thread_GetCachedCurrentUICulture_m24418_ftn) (Thread_t1489 *);
+	static Thread_GetCachedCurrentUICulture_m24418_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Thread_GetCachedCurrentUICulture_m24361_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::GetCachedCurrentUICulture()");
+	_il2cpp_icall_func = (Thread_GetCachedCurrentUICulture_m24418_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::GetCachedCurrentUICulture()");
 	return _il2cpp_icall_func(__this);
 }
 // System.Byte[] System.Threading.Thread::GetSerializedCurrentUICulture()
-extern "C" ByteU5BU5D_t66* Thread_GetSerializedCurrentUICulture_m24362 (Thread_t1482 * __this, const MethodInfo* method)
+extern "C" ByteU5BU5D_t66* Thread_GetSerializedCurrentUICulture_m24419 (Thread_t1489 * __this, const MethodInfo* method)
 {
-	typedef ByteU5BU5D_t66* (*Thread_GetSerializedCurrentUICulture_m24362_ftn) (Thread_t1482 *);
-	static Thread_GetSerializedCurrentUICulture_m24362_ftn _il2cpp_icall_func;
+	typedef ByteU5BU5D_t66* (*Thread_GetSerializedCurrentUICulture_m24419_ftn) (Thread_t1489 *);
+	static Thread_GetSerializedCurrentUICulture_m24419_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Thread_GetSerializedCurrentUICulture_m24362_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::GetSerializedCurrentUICulture()");
+	_il2cpp_icall_func = (Thread_GetSerializedCurrentUICulture_m24419_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::GetSerializedCurrentUICulture()");
 	return _il2cpp_icall_func(__this);
 }
 // System.Void System.Threading.Thread::SetCachedCurrentUICulture(System.Globalization.CultureInfo)
-extern "C" void Thread_SetCachedCurrentUICulture_m24363 (Thread_t1482 * __this, CultureInfo_t786 * ___culture, const MethodInfo* method)
+extern "C" void Thread_SetCachedCurrentUICulture_m24420 (Thread_t1489 * __this, CultureInfo_t793 * ___culture, const MethodInfo* method)
 {
-	typedef void (*Thread_SetCachedCurrentUICulture_m24363_ftn) (Thread_t1482 *, CultureInfo_t786 *);
-	static Thread_SetCachedCurrentUICulture_m24363_ftn _il2cpp_icall_func;
+	typedef void (*Thread_SetCachedCurrentUICulture_m24420_ftn) (Thread_t1489 *, CultureInfo_t793 *);
+	static Thread_SetCachedCurrentUICulture_m24420_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Thread_SetCachedCurrentUICulture_m24363_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::SetCachedCurrentUICulture(System.Globalization.CultureInfo)");
+	_il2cpp_icall_func = (Thread_SetCachedCurrentUICulture_m24420_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::SetCachedCurrentUICulture(System.Globalization.CultureInfo)");
 	_il2cpp_icall_func(__this, ___culture);
 }
 // System.Globalization.CultureInfo System.Threading.Thread::get_CurrentCulture()
-extern TypeInfo* CultureInfo_t786_il2cpp_TypeInfo_var;
-extern TypeInfo* Thread_t1482_il2cpp_TypeInfo_var;
-extern TypeInfo* NumberFormatter_t4906_il2cpp_TypeInfo_var;
-extern TypeInfo* BinaryFormatter_t5124_il2cpp_TypeInfo_var;
+extern TypeInfo* CultureInfo_t793_il2cpp_TypeInfo_var;
+extern TypeInfo* Thread_t1489_il2cpp_TypeInfo_var;
+extern TypeInfo* NumberFormatter_t4913_il2cpp_TypeInfo_var;
+extern TypeInfo* BinaryFormatter_t5131_il2cpp_TypeInfo_var;
 extern TypeInfo* MemoryStream_t65_il2cpp_TypeInfo_var;
-extern "C" CultureInfo_t786 * Thread_get_CurrentCulture_m24364 (Thread_t1482 * __this, const MethodInfo* method)
+extern "C" CultureInfo_t793 * Thread_get_CurrentCulture_m24421 (Thread_t1489 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CultureInfo_t786_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
-		Thread_t1482_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2593);
-		NumberFormatter_t4906_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8853);
-		BinaryFormatter_t5124_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9130);
+		CultureInfo_t793_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
+		Thread_t1489_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2611);
+		NumberFormatter_t4913_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(8871);
+		BinaryFormatter_t5131_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9148);
 		MemoryStream_t65_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(32);
 		s_Il2CppMethodIntialized = true;
 	}
-	CultureInfo_t786 * V_0 = {0};
+	CultureInfo_t793 * V_0 = {0};
 	ByteU5BU5D_t66* V_1 = {0};
 	Object_t * V_2 = {0};
-	BinaryFormatter_t5124 * V_3 = {0};
+	BinaryFormatter_t5131 * V_3 = {0};
 	MemoryStream_t65 * V_4 = {0};
-	CultureInfo_t786 * V_5 = {0};
+	CultureInfo_t793 * V_5 = {0};
 	Exception_t57 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t57 * __exception_local = 0;
@@ -7367,29 +7367,29 @@ extern "C" CultureInfo_t786 * Thread_get_CurrentCulture_m24364 (Thread_t1482 * _
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t786_il2cpp_TypeInfo_var);
-		CultureInfo_t786 * L_1 = CultureInfo_get_InvariantCulture_m4222(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t793_il2cpp_TypeInfo_var);
+		CultureInfo_t793 * L_1 = CultureInfo_get_InvariantCulture_m4278(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return L_1;
 	}
 
 IL_000e:
 	{
-		CultureInfo_t786 * L_2 = Thread_GetCachedCurrentCulture_m24358(__this, /*hidden argument*/NULL);
+		CultureInfo_t793 * L_2 = Thread_GetCachedCurrentCulture_m24415(__this, /*hidden argument*/NULL);
 		V_0 = L_2;
-		CultureInfo_t786 * L_3 = V_0;
+		CultureInfo_t793 * L_3 = V_0;
 		if (!L_3)
 		{
 			goto IL_001a;
 		}
 	}
 	{
-		CultureInfo_t786 * L_4 = V_0;
+		CultureInfo_t793 * L_4 = V_0;
 		return L_4;
 	}
 
 IL_001a:
 	{
-		ByteU5BU5D_t66* L_5 = Thread_GetSerializedCurrentCulture_m24359(__this, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_5 = Thread_GetSerializedCurrentCulture_m24416(__this, /*hidden argument*/NULL);
 		V_1 = L_5;
 		ByteU5BU5D_t66* L_6 = V_1;
 		if (L_6)
@@ -7398,11 +7398,11 @@ IL_001a:
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1482_il2cpp_TypeInfo_var);
-		Object_t * L_7 = ((Thread_t1482_StaticFields*)Thread_t1482_il2cpp_TypeInfo_var->static_fields)->___culture_lock_51;
+		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1489_il2cpp_TypeInfo_var);
+		Object_t * L_7 = ((Thread_t1489_StaticFields*)Thread_t1489_il2cpp_TypeInfo_var->static_fields)->___culture_lock_51;
 		V_2 = L_7;
 		Object_t * L_8 = V_2;
-		Monitor_Enter_m7533(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		Monitor_Enter_m7591(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 	}
 
 IL_0030:
@@ -7410,16 +7410,16 @@ IL_0030:
 	{ // begin try (depth: 1)
 		{
 			__this->___in_currentculture_50 = 1;
-			IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t786_il2cpp_TypeInfo_var);
-			CultureInfo_t786 * L_9 = CultureInfo_ConstructCurrentCulture_m21284(NULL /*static, unused*/, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t793_il2cpp_TypeInfo_var);
+			CultureInfo_t793 * L_9 = CultureInfo_ConstructCurrentCulture_m21341(NULL /*static, unused*/, /*hidden argument*/NULL);
 			V_0 = L_9;
-			CultureInfo_t786 * L_10 = V_0;
-			Thread_SetCachedCurrentCulture_m24360(__this, L_10, /*hidden argument*/NULL);
+			CultureInfo_t793 * L_10 = V_0;
+			Thread_SetCachedCurrentCulture_m24417(__this, L_10, /*hidden argument*/NULL);
 			__this->___in_currentculture_50 = 0;
-			CultureInfo_t786 * L_11 = V_0;
-			IL2CPP_RUNTIME_CLASS_INIT(NumberFormatter_t4906_il2cpp_TypeInfo_var);
-			NumberFormatter_SetThreadCurrentCulture_m20632(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
-			CultureInfo_t786 * L_12 = V_0;
+			CultureInfo_t793 * L_11 = V_0;
+			IL2CPP_RUNTIME_CLASS_INIT(NumberFormatter_t4913_il2cpp_TypeInfo_var);
+			NumberFormatter_SetThreadCurrentCulture_m20689(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+			CultureInfo_t793 * L_12 = V_0;
 			V_5 = L_12;
 			IL2CPP_LEAVE(0x9B, FINALLY_0058);
 		}
@@ -7438,7 +7438,7 @@ IL_0056:
 FINALLY_0058:
 	{ // begin finally (depth: 1)
 		Object_t * L_13 = V_2;
-		Monitor_Exit_m7534(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		Monitor_Exit_m7592(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
 		IL2CPP_END_FINALLY(88)
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(88)
@@ -7456,20 +7456,20 @@ IL_005f:
 IL_0066:
 	try
 	{ // begin try (depth: 1)
-		BinaryFormatter_t5124 * L_14 = (BinaryFormatter_t5124 *)il2cpp_codegen_object_new (BinaryFormatter_t5124_il2cpp_TypeInfo_var);
-		BinaryFormatter__ctor_m23030(L_14, /*hidden argument*/NULL);
+		BinaryFormatter_t5131 * L_14 = (BinaryFormatter_t5131 *)il2cpp_codegen_object_new (BinaryFormatter_t5131_il2cpp_TypeInfo_var);
+		BinaryFormatter__ctor_m23087(L_14, /*hidden argument*/NULL);
 		V_3 = L_14;
 		ByteU5BU5D_t66* L_15 = V_1;
 		MemoryStream_t65 * L_16 = (MemoryStream_t65 *)il2cpp_codegen_object_new (MemoryStream_t65_il2cpp_TypeInfo_var);
 		MemoryStream__ctor_m430(L_16, L_15, /*hidden argument*/NULL);
 		V_4 = L_16;
-		BinaryFormatter_t5124 * L_17 = V_3;
+		BinaryFormatter_t5131 * L_17 = V_3;
 		MemoryStream_t65 * L_18 = V_4;
 		NullCheck(L_17);
 		Object_t * L_19 = (Object_t *)VirtFuncInvoker1< Object_t *, Stream_t51 * >::Invoke(7 /* System.Object System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::Deserialize(System.IO.Stream) */, L_17, L_18);
-		V_0 = ((CultureInfo_t786 *)Castclass(L_19, CultureInfo_t786_il2cpp_TypeInfo_var));
-		CultureInfo_t786 * L_20 = V_0;
-		Thread_SetCachedCurrentCulture_m24360(__this, L_20, /*hidden argument*/NULL);
+		V_0 = ((CultureInfo_t793 *)Castclass(L_19, CultureInfo_t793_il2cpp_TypeInfo_var));
+		CultureInfo_t793 * L_20 = V_0;
+		Thread_SetCachedCurrentCulture_m24417(__this, L_20, /*hidden argument*/NULL);
 		IL2CPP_LEAVE(0x93, FINALLY_008b);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -7491,41 +7491,41 @@ FINALLY_008b:
 
 IL_0093:
 	{
-		CultureInfo_t786 * L_21 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(NumberFormatter_t4906_il2cpp_TypeInfo_var);
-		NumberFormatter_SetThreadCurrentCulture_m20632(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
-		CultureInfo_t786 * L_22 = V_0;
+		CultureInfo_t793 * L_21 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(NumberFormatter_t4913_il2cpp_TypeInfo_var);
+		NumberFormatter_SetThreadCurrentCulture_m20689(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
+		CultureInfo_t793 * L_22 = V_0;
 		return L_22;
 	}
 
 IL_009b:
 	{
-		CultureInfo_t786 * L_23 = V_5;
+		CultureInfo_t793 * L_23 = V_5;
 		return L_23;
 	}
 }
 // System.Globalization.CultureInfo System.Threading.Thread::get_CurrentUICulture()
-extern TypeInfo* CultureInfo_t786_il2cpp_TypeInfo_var;
-extern TypeInfo* Thread_t1482_il2cpp_TypeInfo_var;
-extern TypeInfo* BinaryFormatter_t5124_il2cpp_TypeInfo_var;
+extern TypeInfo* CultureInfo_t793_il2cpp_TypeInfo_var;
+extern TypeInfo* Thread_t1489_il2cpp_TypeInfo_var;
+extern TypeInfo* BinaryFormatter_t5131_il2cpp_TypeInfo_var;
 extern TypeInfo* MemoryStream_t65_il2cpp_TypeInfo_var;
-extern "C" CultureInfo_t786 * Thread_get_CurrentUICulture_m24365 (Thread_t1482 * __this, const MethodInfo* method)
+extern "C" CultureInfo_t793 * Thread_get_CurrentUICulture_m24422 (Thread_t1489 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		CultureInfo_t786_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
-		Thread_t1482_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2593);
-		BinaryFormatter_t5124_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9130);
+		CultureInfo_t793_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(411);
+		Thread_t1489_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2611);
+		BinaryFormatter_t5131_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9148);
 		MemoryStream_t65_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(32);
 		s_Il2CppMethodIntialized = true;
 	}
-	CultureInfo_t786 * V_0 = {0};
+	CultureInfo_t793 * V_0 = {0};
 	ByteU5BU5D_t66* V_1 = {0};
 	Object_t * V_2 = {0};
-	BinaryFormatter_t5124 * V_3 = {0};
+	BinaryFormatter_t5131 * V_3 = {0};
 	MemoryStream_t65 * V_4 = {0};
-	CultureInfo_t786 * V_5 = {0};
+	CultureInfo_t793 * V_5 = {0};
 	Exception_t57 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t57 * __exception_local = 0;
@@ -7540,29 +7540,29 @@ extern "C" CultureInfo_t786 * Thread_get_CurrentUICulture_m24365 (Thread_t1482 *
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t786_il2cpp_TypeInfo_var);
-		CultureInfo_t786 * L_1 = CultureInfo_get_InvariantCulture_m4222(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t793_il2cpp_TypeInfo_var);
+		CultureInfo_t793 * L_1 = CultureInfo_get_InvariantCulture_m4278(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return L_1;
 	}
 
 IL_000e:
 	{
-		CultureInfo_t786 * L_2 = Thread_GetCachedCurrentUICulture_m24361(__this, /*hidden argument*/NULL);
+		CultureInfo_t793 * L_2 = Thread_GetCachedCurrentUICulture_m24418(__this, /*hidden argument*/NULL);
 		V_0 = L_2;
-		CultureInfo_t786 * L_3 = V_0;
+		CultureInfo_t793 * L_3 = V_0;
 		if (!L_3)
 		{
 			goto IL_001a;
 		}
 	}
 	{
-		CultureInfo_t786 * L_4 = V_0;
+		CultureInfo_t793 * L_4 = V_0;
 		return L_4;
 	}
 
 IL_001a:
 	{
-		ByteU5BU5D_t66* L_5 = Thread_GetSerializedCurrentUICulture_m24362(__this, /*hidden argument*/NULL);
+		ByteU5BU5D_t66* L_5 = Thread_GetSerializedCurrentUICulture_m24419(__this, /*hidden argument*/NULL);
 		V_1 = L_5;
 		ByteU5BU5D_t66* L_6 = V_1;
 		if (L_6)
@@ -7571,11 +7571,11 @@ IL_001a:
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1482_il2cpp_TypeInfo_var);
-		Object_t * L_7 = ((Thread_t1482_StaticFields*)Thread_t1482_il2cpp_TypeInfo_var->static_fields)->___culture_lock_51;
+		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1489_il2cpp_TypeInfo_var);
+		Object_t * L_7 = ((Thread_t1489_StaticFields*)Thread_t1489_il2cpp_TypeInfo_var->static_fields)->___culture_lock_51;
 		V_2 = L_7;
 		Object_t * L_8 = V_2;
-		Monitor_Enter_m7533(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		Monitor_Enter_m7591(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
 	}
 
 IL_0030:
@@ -7583,13 +7583,13 @@ IL_0030:
 	{ // begin try (depth: 1)
 		{
 			__this->___in_currentculture_50 = 1;
-			IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t786_il2cpp_TypeInfo_var);
-			CultureInfo_t786 * L_9 = CultureInfo_ConstructCurrentUICulture_m21285(NULL /*static, unused*/, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t793_il2cpp_TypeInfo_var);
+			CultureInfo_t793 * L_9 = CultureInfo_ConstructCurrentUICulture_m21342(NULL /*static, unused*/, /*hidden argument*/NULL);
 			V_0 = L_9;
-			CultureInfo_t786 * L_10 = V_0;
-			Thread_SetCachedCurrentUICulture_m24363(__this, L_10, /*hidden argument*/NULL);
+			CultureInfo_t793 * L_10 = V_0;
+			Thread_SetCachedCurrentUICulture_m24420(__this, L_10, /*hidden argument*/NULL);
 			__this->___in_currentculture_50 = 0;
-			CultureInfo_t786 * L_11 = V_0;
+			CultureInfo_t793 * L_11 = V_0;
 			V_5 = L_11;
 			IL2CPP_LEAVE(0x8F, FINALLY_0052);
 		}
@@ -7608,7 +7608,7 @@ IL_0050:
 FINALLY_0052:
 	{ // begin finally (depth: 1)
 		Object_t * L_12 = V_2;
-		Monitor_Exit_m7534(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		Monitor_Exit_m7592(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
 		IL2CPP_END_FINALLY(82)
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(82)
@@ -7626,20 +7626,20 @@ IL_0059:
 IL_0060:
 	try
 	{ // begin try (depth: 1)
-		BinaryFormatter_t5124 * L_13 = (BinaryFormatter_t5124 *)il2cpp_codegen_object_new (BinaryFormatter_t5124_il2cpp_TypeInfo_var);
-		BinaryFormatter__ctor_m23030(L_13, /*hidden argument*/NULL);
+		BinaryFormatter_t5131 * L_13 = (BinaryFormatter_t5131 *)il2cpp_codegen_object_new (BinaryFormatter_t5131_il2cpp_TypeInfo_var);
+		BinaryFormatter__ctor_m23087(L_13, /*hidden argument*/NULL);
 		V_3 = L_13;
 		ByteU5BU5D_t66* L_14 = V_1;
 		MemoryStream_t65 * L_15 = (MemoryStream_t65 *)il2cpp_codegen_object_new (MemoryStream_t65_il2cpp_TypeInfo_var);
 		MemoryStream__ctor_m430(L_15, L_14, /*hidden argument*/NULL);
 		V_4 = L_15;
-		BinaryFormatter_t5124 * L_16 = V_3;
+		BinaryFormatter_t5131 * L_16 = V_3;
 		MemoryStream_t65 * L_17 = V_4;
 		NullCheck(L_16);
 		Object_t * L_18 = (Object_t *)VirtFuncInvoker1< Object_t *, Stream_t51 * >::Invoke(7 /* System.Object System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::Deserialize(System.IO.Stream) */, L_16, L_17);
-		V_0 = ((CultureInfo_t786 *)Castclass(L_18, CultureInfo_t786_il2cpp_TypeInfo_var));
-		CultureInfo_t786 * L_19 = V_0;
-		Thread_SetCachedCurrentUICulture_m24363(__this, L_19, /*hidden argument*/NULL);
+		V_0 = ((CultureInfo_t793 *)Castclass(L_18, CultureInfo_t793_il2cpp_TypeInfo_var));
+		CultureInfo_t793 * L_19 = V_0;
+		Thread_SetCachedCurrentUICulture_m24420(__this, L_19, /*hidden argument*/NULL);
 		IL2CPP_LEAVE(0x8D, FINALLY_0085);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -7661,18 +7661,18 @@ FINALLY_0085:
 
 IL_008d:
 	{
-		CultureInfo_t786 * L_20 = V_0;
+		CultureInfo_t793 * L_20 = V_0;
 		return L_20;
 	}
 
 IL_008f:
 	{
-		CultureInfo_t786 * L_21 = V_5;
+		CultureInfo_t793 * L_21 = V_5;
 		return L_21;
 	}
 }
 // System.Void System.Threading.Thread::set_IsBackground(System.Boolean)
-extern "C" void Thread_set_IsBackground_m24366 (Thread_t1482 * __this, bool ___value, const MethodInfo* method)
+extern "C" void Thread_set_IsBackground_m24423 (Thread_t1489 * __this, bool ___value, const MethodInfo* method)
 {
 	{
 		bool L_0 = ___value;
@@ -7682,13 +7682,13 @@ extern "C" void Thread_set_IsBackground_m24366 (Thread_t1482 * __this, bool ___v
 		}
 	}
 	{
-		Thread_SetState_m24373(__this, 4, /*hidden argument*/NULL);
+		Thread_SetState_m24430(__this, 4, /*hidden argument*/NULL);
 		goto IL_0013;
 	}
 
 IL_000c:
 	{
-		Thread_ClrState_m24374(__this, 4, /*hidden argument*/NULL);
+		Thread_ClrState_m24431(__this, 4, /*hidden argument*/NULL);
 	}
 
 IL_0013:
@@ -7697,66 +7697,66 @@ IL_0013:
 	}
 }
 // System.Void System.Threading.Thread::SetName_internal(System.String)
-extern "C" void Thread_SetName_internal_m24367 (Thread_t1482 * __this, String_t* ___name, const MethodInfo* method)
+extern "C" void Thread_SetName_internal_m24424 (Thread_t1489 * __this, String_t* ___name, const MethodInfo* method)
 {
-	typedef void (*Thread_SetName_internal_m24367_ftn) (Thread_t1482 *, String_t*);
-	static Thread_SetName_internal_m24367_ftn _il2cpp_icall_func;
+	typedef void (*Thread_SetName_internal_m24424_ftn) (Thread_t1489 *, String_t*);
+	static Thread_SetName_internal_m24424_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Thread_SetName_internal_m24367_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::SetName_internal(System.String)");
+	_il2cpp_icall_func = (Thread_SetName_internal_m24424_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::SetName_internal(System.String)");
 	_il2cpp_icall_func(__this, ___name);
 }
 // System.Void System.Threading.Thread::set_Name(System.String)
-extern "C" void Thread_set_Name_m24368 (Thread_t1482 * __this, String_t* ___value, const MethodInfo* method)
+extern "C" void Thread_set_Name_m24425 (Thread_t1489 * __this, String_t* ___value, const MethodInfo* method)
 {
 	{
 		String_t* L_0 = ___value;
-		Thread_SetName_internal_m24367(__this, L_0, /*hidden argument*/NULL);
+		Thread_SetName_internal_m24424(__this, L_0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Threading.Thread::Abort_internal(System.Object)
-extern "C" void Thread_Abort_internal_m24369 (Thread_t1482 * __this, Object_t * ___stateInfo, const MethodInfo* method)
+extern "C" void Thread_Abort_internal_m24426 (Thread_t1489 * __this, Object_t * ___stateInfo, const MethodInfo* method)
 {
-	typedef void (*Thread_Abort_internal_m24369_ftn) (Thread_t1482 *, Object_t *);
-	static Thread_Abort_internal_m24369_ftn _il2cpp_icall_func;
+	typedef void (*Thread_Abort_internal_m24426_ftn) (Thread_t1489 *, Object_t *);
+	static Thread_Abort_internal_m24426_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Thread_Abort_internal_m24369_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::Abort_internal(System.Object)");
+	_il2cpp_icall_func = (Thread_Abort_internal_m24426_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::Abort_internal(System.Object)");
 	_il2cpp_icall_func(__this, ___stateInfo);
 }
 // System.Void System.Threading.Thread::Abort()
-extern "C" void Thread_Abort_m18138 (Thread_t1482 * __this, const MethodInfo* method)
+extern "C" void Thread_Abort_m18195 (Thread_t1489 * __this, const MethodInfo* method)
 {
 	{
-		Thread_Abort_internal_m24369(__this, NULL, /*hidden argument*/NULL);
+		Thread_Abort_internal_m24426(__this, NULL, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Threading.Thread::MemoryBarrier()
-extern "C" void Thread_MemoryBarrier_m18082 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" void Thread_MemoryBarrier_m18139 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
-	typedef void (*Thread_MemoryBarrier_m18082_ftn) ();
-	static Thread_MemoryBarrier_m18082_ftn _il2cpp_icall_func;
+	typedef void (*Thread_MemoryBarrier_m18139_ftn) ();
+	static Thread_MemoryBarrier_m18139_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Thread_MemoryBarrier_m18082_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::MemoryBarrier()");
+	_il2cpp_icall_func = (Thread_MemoryBarrier_m18139_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::MemoryBarrier()");
 	_il2cpp_icall_func();
 }
 // System.Void System.Threading.Thread::SpinWait_nop()
-extern "C" void Thread_SpinWait_nop_m24370 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" void Thread_SpinWait_nop_m24427 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
-	typedef void (*Thread_SpinWait_nop_m24370_ftn) ();
-	static Thread_SpinWait_nop_m24370_ftn _il2cpp_icall_func;
+	typedef void (*Thread_SpinWait_nop_m24427_ftn) ();
+	static Thread_SpinWait_nop_m24427_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Thread_SpinWait_nop_m24370_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::SpinWait_nop()");
+	_il2cpp_icall_func = (Thread_SpinWait_nop_m24427_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::SpinWait_nop()");
 	_il2cpp_icall_func();
 }
 // System.Void System.Threading.Thread::SpinWait(System.Int32)
-extern TypeInfo* Thread_t1482_il2cpp_TypeInfo_var;
-extern "C" void Thread_SpinWait_m15196 (Object_t * __this /* static, unused */, int32_t ___iterations, const MethodInfo* method)
+extern TypeInfo* Thread_t1489_il2cpp_TypeInfo_var;
+extern "C" void Thread_SpinWait_m15253 (Object_t * __this /* static, unused */, int32_t ___iterations, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Thread_t1482_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2593);
+		Thread_t1489_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2611);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -7777,8 +7777,8 @@ IL_0005:
 
 IL_0007:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1482_il2cpp_TypeInfo_var);
-		Thread_SpinWait_nop_m24370(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1489_il2cpp_TypeInfo_var);
+		Thread_SpinWait_nop_m24427(NULL /*static, unused*/, /*hidden argument*/NULL);
 	}
 
 IL_000c:
@@ -7796,33 +7796,33 @@ IL_000c:
 	}
 }
 // System.Void System.Threading.Thread::Start()
-extern TypeInfo* Thread_t1482_il2cpp_TypeInfo_var;
-extern TypeInfo* SystemException_t3387_il2cpp_TypeInfo_var;
-extern "C" void Thread_Start_m7954 (Thread_t1482 * __this, const MethodInfo* method)
+extern TypeInfo* Thread_t1489_il2cpp_TypeInfo_var;
+extern TypeInfo* SystemException_t3394_il2cpp_TypeInfo_var;
+extern "C" void Thread_Start_m8012 (Thread_t1489 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Thread_t1482_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2593);
-		SystemException_t3387_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5844);
+		Thread_t1489_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2611);
+		SystemException_t3394_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5862);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		bool L_0 = ExecutionContext_IsFlowSuppressed_m24325(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_0 = ExecutionContext_IsFlowSuppressed_m24382(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (L_0)
 		{
 			goto IL_0012;
 		}
 	}
 	{
-		ExecutionContext_t5156 * L_1 = ExecutionContext_Capture_m24320(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ExecutionContext_t5163 * L_1 = ExecutionContext_Capture_m24377(NULL /*static, unused*/, /*hidden argument*/NULL);
 		__this->___ec_to_set_37 = L_1;
 	}
 
 IL_0012:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1482_il2cpp_TypeInfo_var);
-		Thread_t1482 * L_2 = Thread_get_CurrentThread_m7618(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1489_il2cpp_TypeInfo_var);
+		Thread_t1489 * L_2 = Thread_get_CurrentThread_m7676(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		Object_t * L_3 = (L_2->____principal_47);
 		if (!L_3)
@@ -7831,8 +7831,8 @@ IL_0012:
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1482_il2cpp_TypeInfo_var);
-		Thread_t1482 * L_4 = Thread_get_CurrentThread_m7618(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1489_il2cpp_TypeInfo_var);
+		Thread_t1489 * L_4 = Thread_get_CurrentThread_m7676(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_4);
 		Object_t * L_5 = (L_4->____principal_47);
 		__this->____principal_47 = L_5;
@@ -7841,17 +7841,17 @@ IL_0012:
 IL_002e:
 	{
 		MulticastDelegate_t388 * L_6 = (__this->___threadstart_45);
-		IntPtr_t L_7 = Thread_Thread_internal_m24356(__this, L_6, /*hidden argument*/NULL);
-		IntPtr_t L_8 = IntPtr_op_Explicit_m18132(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
-		bool L_9 = IntPtr_op_Equality_m10351(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		IntPtr_t L_7 = Thread_Thread_internal_m24413(__this, L_6, /*hidden argument*/NULL);
+		IntPtr_t L_8 = IntPtr_op_Explicit_m18189(NULL /*static, unused*/, 0, /*hidden argument*/NULL);
+		bool L_9 = IntPtr_op_Equality_m10408(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
 		if (!L_9)
 		{
 			goto IL_0052;
 		}
 	}
 	{
-		SystemException_t3387 * L_10 = (SystemException_t3387 *)il2cpp_codegen_object_new (SystemException_t3387_il2cpp_TypeInfo_var);
-		SystemException__ctor_m12121(L_10, (String_t*) &_stringLiteral6532, /*hidden argument*/NULL);
+		SystemException_t3394 * L_10 = (SystemException_t3394 *)il2cpp_codegen_object_new (SystemException_t3394_il2cpp_TypeInfo_var);
+		SystemException__ctor_m12178(L_10, (String_t*) &_stringLiteral6546, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_10);
 	}
 
@@ -7861,16 +7861,16 @@ IL_0052:
 	}
 }
 // System.Void System.Threading.Thread::Thread_free_internal(System.IntPtr)
-extern "C" void Thread_Thread_free_internal_m24371 (Thread_t1482 * __this, IntPtr_t ___handle, const MethodInfo* method)
+extern "C" void Thread_Thread_free_internal_m24428 (Thread_t1489 * __this, IntPtr_t ___handle, const MethodInfo* method)
 {
-	typedef void (*Thread_Thread_free_internal_m24371_ftn) (Thread_t1482 *, IntPtr_t);
-	static Thread_Thread_free_internal_m24371_ftn _il2cpp_icall_func;
+	typedef void (*Thread_Thread_free_internal_m24428_ftn) (Thread_t1489 *, IntPtr_t);
+	static Thread_Thread_free_internal_m24428_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Thread_Thread_free_internal_m24371_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::Thread_free_internal(System.IntPtr)");
+	_il2cpp_icall_func = (Thread_Thread_free_internal_m24428_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::Thread_free_internal(System.IntPtr)");
 	_il2cpp_icall_func(__this, ___handle);
 }
 // System.Void System.Threading.Thread::Finalize()
-extern "C" void Thread_Finalize_m24372 (Thread_t1482 * __this, const MethodInfo* method)
+extern "C" void Thread_Finalize_m24429 (Thread_t1489 * __this, const MethodInfo* method)
 {
 	Exception_t57 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
@@ -7883,7 +7883,7 @@ IL_0000:
 	try
 	{ // begin try (depth: 1)
 		IntPtr_t L_0 = (__this->___system_thread_handle_1);
-		Thread_Thread_free_internal_m24371(__this, L_0, /*hidden argument*/NULL);
+		Thread_Thread_free_internal_m24428(__this, L_0, /*hidden argument*/NULL);
 		IL2CPP_LEAVE(0x15, FINALLY_000e);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -7894,7 +7894,7 @@ IL_0000:
 
 FINALLY_000e:
 	{ // begin finally (depth: 1)
-		CriticalFinalizerObject_Finalize_m22544(__this, /*hidden argument*/NULL);
+		CriticalFinalizerObject_Finalize_m22601(__this, /*hidden argument*/NULL);
 		IL2CPP_END_FINALLY(14)
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(14)
@@ -7909,90 +7909,90 @@ IL_0015:
 	}
 }
 // System.Void System.Threading.Thread::SetState(System.Threading.ThreadState)
-extern "C" void Thread_SetState_m24373 (Thread_t1482 * __this, int32_t ___set, const MethodInfo* method)
+extern "C" void Thread_SetState_m24430 (Thread_t1489 * __this, int32_t ___set, const MethodInfo* method)
 {
-	typedef void (*Thread_SetState_m24373_ftn) (Thread_t1482 *, int32_t);
-	static Thread_SetState_m24373_ftn _il2cpp_icall_func;
+	typedef void (*Thread_SetState_m24430_ftn) (Thread_t1489 *, int32_t);
+	static Thread_SetState_m24430_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Thread_SetState_m24373_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::SetState(System.Threading.ThreadState)");
+	_il2cpp_icall_func = (Thread_SetState_m24430_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::SetState(System.Threading.ThreadState)");
 	_il2cpp_icall_func(__this, ___set);
 }
 // System.Void System.Threading.Thread::ClrState(System.Threading.ThreadState)
-extern "C" void Thread_ClrState_m24374 (Thread_t1482 * __this, int32_t ___clr, const MethodInfo* method)
+extern "C" void Thread_ClrState_m24431 (Thread_t1489 * __this, int32_t ___clr, const MethodInfo* method)
 {
-	typedef void (*Thread_ClrState_m24374_ftn) (Thread_t1482 *, int32_t);
-	static Thread_ClrState_m24374_ftn _il2cpp_icall_func;
+	typedef void (*Thread_ClrState_m24431_ftn) (Thread_t1489 *, int32_t);
+	static Thread_ClrState_m24431_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Thread_ClrState_m24374_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::ClrState(System.Threading.ThreadState)");
+	_il2cpp_icall_func = (Thread_ClrState_m24431_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::ClrState(System.Threading.ThreadState)");
 	_il2cpp_icall_func(__this, ___clr);
 }
 // System.Int32 System.Threading.Thread::GetNewManagedId()
-extern TypeInfo* Thread_t1482_il2cpp_TypeInfo_var;
-extern "C" int32_t Thread_GetNewManagedId_m24375 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern TypeInfo* Thread_t1489_il2cpp_TypeInfo_var;
+extern "C" int32_t Thread_GetNewManagedId_m24432 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Thread_t1482_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2593);
+		Thread_t1489_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2611);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1482_il2cpp_TypeInfo_var);
-		int32_t L_0 = Thread_GetNewManagedId_internal_m24376(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1489_il2cpp_TypeInfo_var);
+		int32_t L_0 = Thread_GetNewManagedId_internal_m24433(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
 // System.Int32 System.Threading.Thread::GetNewManagedId_internal()
-extern "C" int32_t Thread_GetNewManagedId_internal_m24376 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern "C" int32_t Thread_GetNewManagedId_internal_m24433 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
-	typedef int32_t (*Thread_GetNewManagedId_internal_m24376_ftn) ();
-	static Thread_GetNewManagedId_internal_m24376_ftn _il2cpp_icall_func;
+	typedef int32_t (*Thread_GetNewManagedId_internal_m24433_ftn) ();
+	static Thread_GetNewManagedId_internal_m24433_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Thread_GetNewManagedId_internal_m24376_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::GetNewManagedId_internal()");
+	_il2cpp_icall_func = (Thread_GetNewManagedId_internal_m24433_ftn)il2cpp_codegen_resolve_icall ("System.Threading.Thread::GetNewManagedId_internal()");
 	return _il2cpp_icall_func();
 }
 // System.Threading.ExecutionContext System.Threading.Thread::get_ExecutionContext()
-extern TypeInfo* Thread_t1482_il2cpp_TypeInfo_var;
-extern TypeInfo* ExecutionContext_t5156_il2cpp_TypeInfo_var;
-extern "C" ExecutionContext_t5156 * Thread_get_ExecutionContext_m24377 (Thread_t1482 * __this, const MethodInfo* method)
+extern TypeInfo* Thread_t1489_il2cpp_TypeInfo_var;
+extern TypeInfo* ExecutionContext_t5163_il2cpp_TypeInfo_var;
+extern "C" ExecutionContext_t5163 * Thread_get_ExecutionContext_m24434 (Thread_t1489 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Thread_t1482_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2593);
-		ExecutionContext_t5156_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9362);
+		Thread_t1489_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2611);
+		ExecutionContext_t5163_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9380);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1482_il2cpp_TypeInfo_var);
-		ExecutionContext_t5156 * L_0 = ((Thread_t1482_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(Thread_t1482_il2cpp_TypeInfo_var))->____ec_44;
+		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1489_il2cpp_TypeInfo_var);
+		ExecutionContext_t5163 * L_0 = ((Thread_t1489_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(Thread_t1489_il2cpp_TypeInfo_var))->____ec_44;
 		if (L_0)
 		{
 			goto IL_0011;
 		}
 	}
 	{
-		ExecutionContext_t5156 * L_1 = (ExecutionContext_t5156 *)il2cpp_codegen_object_new (ExecutionContext_t5156_il2cpp_TypeInfo_var);
-		ExecutionContext__ctor_m24317(L_1, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1482_il2cpp_TypeInfo_var);
-		((Thread_t1482_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(Thread_t1482_il2cpp_TypeInfo_var))->____ec_44 = L_1;
+		ExecutionContext_t5163 * L_1 = (ExecutionContext_t5163 *)il2cpp_codegen_object_new (ExecutionContext_t5163_il2cpp_TypeInfo_var);
+		ExecutionContext__ctor_m24374(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1489_il2cpp_TypeInfo_var);
+		((Thread_t1489_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(Thread_t1489_il2cpp_TypeInfo_var))->____ec_44 = L_1;
 	}
 
 IL_0011:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1482_il2cpp_TypeInfo_var);
-		ExecutionContext_t5156 * L_2 = ((Thread_t1482_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(Thread_t1482_il2cpp_TypeInfo_var))->____ec_44;
+		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1489_il2cpp_TypeInfo_var);
+		ExecutionContext_t5163 * L_2 = ((Thread_t1489_ThreadStaticFields*)il2cpp_codegen_get_thread_static_data(Thread_t1489_il2cpp_TypeInfo_var))->____ec_44;
 		return L_2;
 	}
 }
 // System.Int32 System.Threading.Thread::get_ManagedThreadId()
-extern TypeInfo* Thread_t1482_il2cpp_TypeInfo_var;
-extern "C" int32_t Thread_get_ManagedThreadId_m7619 (Thread_t1482 * __this, const MethodInfo* method)
+extern TypeInfo* Thread_t1489_il2cpp_TypeInfo_var;
+extern "C" int32_t Thread_get_ManagedThreadId_m7677 (Thread_t1489 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Thread_t1482_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2593);
+		Thread_t1489_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2611);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
@@ -8004,8 +8004,8 @@ extern "C" int32_t Thread_get_ManagedThreadId_m7619 (Thread_t1482 * __this, cons
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1482_il2cpp_TypeInfo_var);
-		int32_t L_1 = Thread_GetNewManagedId_m24375(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1489_il2cpp_TypeInfo_var);
+		int32_t L_1 = Thread_GetNewManagedId_m24432(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = L_1;
 		int32_t* L_2 = &(__this->___managed_id_46);
 		int32_t L_3 = V_0;
@@ -8019,35 +8019,35 @@ IL_001c:
 	}
 }
 // System.Int32 System.Threading.Thread::GetHashCode()
-extern "C" int32_t Thread_GetHashCode_m24378 (Thread_t1482 * __this, const MethodInfo* method)
+extern "C" int32_t Thread_GetHashCode_m24435 (Thread_t1489 * __this, const MethodInfo* method)
 {
 	{
-		int32_t L_0 = Thread_get_ManagedThreadId_m7619(__this, /*hidden argument*/NULL);
+		int32_t L_0 = Thread_get_ManagedThreadId_m7677(__this, /*hidden argument*/NULL);
 		return L_0;
 	}
 }
 // System.Threading.CompressedStack System.Threading.Thread::GetCompressedStack()
-extern "C" CompressedStack_t5237 * Thread_GetCompressedStack_m24379 (Thread_t1482 * __this, const MethodInfo* method)
+extern "C" CompressedStack_t5244 * Thread_GetCompressedStack_m24436 (Thread_t1489 * __this, const MethodInfo* method)
 {
-	CompressedStack_t5237 * V_0 = {0};
-	CompressedStack_t5237 * G_B4_0 = {0};
+	CompressedStack_t5244 * V_0 = {0};
+	CompressedStack_t5244 * G_B4_0 = {0};
 	{
-		ExecutionContext_t5156 * L_0 = Thread_get_ExecutionContext_m24377(__this, /*hidden argument*/NULL);
+		ExecutionContext_t5163 * L_0 = Thread_get_ExecutionContext_m24434(__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		SecurityContext_t5238 * L_1 = ExecutionContext_get_SecurityContext_m24322(L_0, /*hidden argument*/NULL);
+		SecurityContext_t5245 * L_1 = ExecutionContext_get_SecurityContext_m24379(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		CompressedStack_t5237 * L_2 = SecurityContext_get_CompressedStack_m23209(L_1, /*hidden argument*/NULL);
+		CompressedStack_t5244 * L_2 = SecurityContext_get_CompressedStack_m23266(L_1, /*hidden argument*/NULL);
 		V_0 = L_2;
-		CompressedStack_t5237 * L_3 = V_0;
+		CompressedStack_t5244 * L_3 = V_0;
 		if (!L_3)
 		{
 			goto IL_001c;
 		}
 	}
 	{
-		CompressedStack_t5237 * L_4 = V_0;
+		CompressedStack_t5244 * L_4 = V_0;
 		NullCheck(L_4);
-		bool L_5 = CompressedStack_IsEmpty_m24314(L_4, /*hidden argument*/NULL);
+		bool L_5 = CompressedStack_IsEmpty_m24371(L_4, /*hidden argument*/NULL);
 		if (!L_5)
 		{
 			goto IL_001f;
@@ -8056,15 +8056,15 @@ extern "C" CompressedStack_t5237 * Thread_GetCompressedStack_m24379 (Thread_t148
 
 IL_001c:
 	{
-		G_B4_0 = ((CompressedStack_t5237 *)(NULL));
+		G_B4_0 = ((CompressedStack_t5244 *)(NULL));
 		goto IL_0025;
 	}
 
 IL_001f:
 	{
-		CompressedStack_t5237 * L_6 = V_0;
+		CompressedStack_t5244 * L_6 = V_0;
 		NullCheck(L_6);
-		CompressedStack_t5237 * L_7 = CompressedStack_CreateCopy_m24311(L_6, /*hidden argument*/NULL);
+		CompressedStack_t5244 * L_7 = CompressedStack_CreateCopy_m24368(L_6, /*hidden argument*/NULL);
 		G_B4_0 = L_7;
 	}
 
@@ -8086,21 +8086,21 @@ IL_0025:
 
 
 // System.Void System.Threading.ThreadAbortException::.ctor()
-extern "C" void ThreadAbortException__ctor_m24380 (ThreadAbortException_t4583 * __this, const MethodInfo* method)
+extern "C" void ThreadAbortException__ctor_m24437 (ThreadAbortException_t4590 * __this, const MethodInfo* method)
 {
 	{
-		SystemException__ctor_m12121(__this, (String_t*) &_stringLiteral6533, /*hidden argument*/NULL);
-		Exception_set_HResult_m10348(__this, ((int32_t)-2146233040), /*hidden argument*/NULL);
+		SystemException__ctor_m12178(__this, (String_t*) &_stringLiteral6547, /*hidden argument*/NULL);
+		Exception_set_HResult_m10405(__this, ((int32_t)-2146233040), /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Threading.ThreadAbortException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ThreadAbortException__ctor_m24381 (ThreadAbortException_t4583 * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___sc, const MethodInfo* method)
+extern "C" void ThreadAbortException__ctor_m24438 (ThreadAbortException_t4590 * __this, SerializationInfo_t2947 * ___info, StreamingContext_t2948  ___sc, const MethodInfo* method)
 {
 	{
-		SerializationInfo_t2940 * L_0 = ___info;
-		StreamingContext_t2941  L_1 = ___sc;
-		SystemException__ctor_m14772(__this, L_0, L_1, /*hidden argument*/NULL);
+		SerializationInfo_t2947 * L_0 = ___info;
+		StreamingContext_t2948  L_1 = ___sc;
+		SystemException__ctor_m14829(__this, L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -8115,20 +8115,20 @@ extern "C" void ThreadAbortException__ctor_m24381 (ThreadAbortException_t4583 * 
 
 
 // System.Void System.Threading.ThreadInterruptedException::.ctor()
-extern "C" void ThreadInterruptedException__ctor_m24382 (ThreadInterruptedException_t5383 * __this, const MethodInfo* method)
+extern "C" void ThreadInterruptedException__ctor_m24439 (ThreadInterruptedException_t5390 * __this, const MethodInfo* method)
 {
 	{
-		SystemException__ctor_m12121(__this, (String_t*) &_stringLiteral6534, /*hidden argument*/NULL);
+		SystemException__ctor_m12178(__this, (String_t*) &_stringLiteral6548, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Threading.ThreadInterruptedException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ThreadInterruptedException__ctor_m24383 (ThreadInterruptedException_t5383 * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___context, const MethodInfo* method)
+extern "C" void ThreadInterruptedException__ctor_m24440 (ThreadInterruptedException_t5390 * __this, SerializationInfo_t2947 * ___info, StreamingContext_t2948  ___context, const MethodInfo* method)
 {
 	{
-		SerializationInfo_t2940 * L_0 = ___info;
-		StreamingContext_t2941  L_1 = ___context;
-		SystemException__ctor_m14772(__this, L_0, L_1, /*hidden argument*/NULL);
+		SerializationInfo_t2947 * L_0 = ___info;
+		StreamingContext_t2948  L_1 = ___context;
+		SystemException__ctor_m14829(__this, L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -8151,41 +8151,41 @@ extern "C" void ThreadInterruptedException__ctor_m24383 (ThreadInterruptedExcept
 
 
 // System.Boolean System.Threading.ThreadPool::QueueUserWorkItem(System.Threading.WaitCallback)
-extern "C" bool ThreadPool_QueueUserWorkItem_m7956 (Object_t * __this /* static, unused */, WaitCallback_t2166 * ___callBack, const MethodInfo* method)
+extern "C" bool ThreadPool_QueueUserWorkItem_m8014 (Object_t * __this /* static, unused */, WaitCallback_t2173 * ___callBack, const MethodInfo* method)
 {
 	{
-		WaitCallback_t2166 * L_0 = ___callBack;
-		bool L_1 = ThreadPool_QueueUserWorkItem_m18130(NULL /*static, unused*/, L_0, NULL, /*hidden argument*/NULL);
+		WaitCallback_t2173 * L_0 = ___callBack;
+		bool L_1 = ThreadPool_QueueUserWorkItem_m18187(NULL /*static, unused*/, L_0, NULL, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.Boolean System.Threading.ThreadPool::QueueUserWorkItem(System.Threading.WaitCallback,System.Object)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern "C" bool ThreadPool_QueueUserWorkItem_m18130 (Object_t * __this /* static, unused */, WaitCallback_t2166 * ___callBack, Object_t * ___state, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern "C" bool ThreadPool_QueueUserWorkItem_m18187 (Object_t * __this /* static, unused */, WaitCallback_t2173 * ___callBack, Object_t * ___state, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
 		s_Il2CppMethodIntialized = true;
 	}
 	Object_t * V_0 = {0};
 	{
-		WaitCallback_t2166 * L_0 = ___callBack;
+		WaitCallback_t2173 * L_0 = ___callBack;
 		if (L_0)
 		{
 			goto IL_000e;
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral6535, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral6549, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
 IL_000e:
 	{
-		WaitCallback_t2166 * L_2 = ___callBack;
+		WaitCallback_t2173 * L_2 = ___callBack;
 		Object_t * L_3 = ___state;
 		NullCheck(L_2);
 		Object_t * L_4 = (Object_t *)VirtFuncInvoker3< Object_t *, Object_t *, AsyncCallback_t386 *, Object_t * >::Invoke(13 /* System.IAsyncResult System.Threading.WaitCallback::BeginInvoke(System.Object,System.AsyncCallback,System.Object) */, L_2, L_3, (AsyncCallback_t386 *)NULL, NULL);
@@ -8206,25 +8206,25 @@ IL_001d:
 	}
 }
 // System.Threading.RegisteredWaitHandle System.Threading.ThreadPool::RegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.Int64,System.Boolean)
-extern TypeInfo* ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var;
 extern TypeInfo* NotSupportedException_t56_il2cpp_TypeInfo_var;
-extern TypeInfo* RegisteredWaitHandle_t5382_il2cpp_TypeInfo_var;
-extern TypeInfo* WaitCallback_t2166_il2cpp_TypeInfo_var;
-extern const MethodInfo* RegisteredWaitHandle_Wait_m24344_MethodInfo_var;
-extern "C" RegisteredWaitHandle_t5382 * ThreadPool_RegisterWaitForSingleObject_m24384 (Object_t * __this /* static, unused */, WaitHandle_t3256 * ___waitObject, WaitOrTimerCallback_t5381 * ___callBack, Object_t * ___state, int64_t ___millisecondsTimeOutInterval, bool ___executeOnlyOnce, const MethodInfo* method)
+extern TypeInfo* RegisteredWaitHandle_t5389_il2cpp_TypeInfo_var;
+extern TypeInfo* WaitCallback_t2173_il2cpp_TypeInfo_var;
+extern const MethodInfo* RegisteredWaitHandle_Wait_m24401_MethodInfo_var;
+extern "C" RegisteredWaitHandle_t5389 * ThreadPool_RegisterWaitForSingleObject_m24441 (Object_t * __this /* static, unused */, WaitHandle_t3263 * ___waitObject, WaitOrTimerCallback_t5388 * ___callBack, Object_t * ___state, int64_t ___millisecondsTimeOutInterval, bool ___executeOnlyOnce, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2630);
+		ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2648);
 		NotSupportedException_t56_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(17);
-		RegisteredWaitHandle_t5382_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9364);
-		WaitCallback_t2166_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3415);
-		RegisteredWaitHandle_Wait_m24344_MethodInfo_var = il2cpp_codegen_method_info_from_index(1642);
+		RegisteredWaitHandle_t5389_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9382);
+		WaitCallback_t2173_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3433);
+		RegisteredWaitHandle_Wait_m24401_MethodInfo_var = il2cpp_codegen_method_info_from_index(1651);
 		s_Il2CppMethodIntialized = true;
 	}
 	TimeSpan_t334  V_0 = {0};
-	RegisteredWaitHandle_t5382 * V_1 = {0};
+	RegisteredWaitHandle_t5389 * V_1 = {0};
 	{
 		int64_t L_0 = ___millisecondsTimeOutInterval;
 		if ((((int64_t)L_0) >= ((int64_t)(((int64_t)(-1))))))
@@ -8233,8 +8233,8 @@ extern "C" RegisteredWaitHandle_t5382 * ThreadPool_RegisterWaitForSingleObject_m
 		}
 	}
 	{
-		ArgumentOutOfRangeException_t1494 * L_1 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m7671(L_1, (String_t*) &_stringLiteral3999, (String_t*) &_stringLiteral6536, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_1 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m7729(L_1, (String_t*) &_stringLiteral4013, (String_t*) &_stringLiteral6550, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -8248,41 +8248,41 @@ IL_0015:
 	}
 	{
 		NotSupportedException_t56 * L_3 = (NotSupportedException_t56 *)il2cpp_codegen_object_new (NotSupportedException_t56_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m11477(L_3, (String_t*) &_stringLiteral6537, /*hidden argument*/NULL);
+		NotSupportedException__ctor_m11534(L_3, (String_t*) &_stringLiteral6551, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
 IL_0029:
 	{
 		int64_t L_4 = ___millisecondsTimeOutInterval;
-		TimeSpan__ctor_m20778((&V_0), 0, 0, 0, 0, (((int32_t)L_4)), /*hidden argument*/NULL);
-		WaitHandle_t3256 * L_5 = ___waitObject;
-		WaitOrTimerCallback_t5381 * L_6 = ___callBack;
+		TimeSpan__ctor_m20835((&V_0), 0, 0, 0, 0, (((int32_t)L_4)), /*hidden argument*/NULL);
+		WaitHandle_t3263 * L_5 = ___waitObject;
+		WaitOrTimerCallback_t5388 * L_6 = ___callBack;
 		Object_t * L_7 = ___state;
 		TimeSpan_t334  L_8 = V_0;
 		bool L_9 = ___executeOnlyOnce;
-		RegisteredWaitHandle_t5382 * L_10 = (RegisteredWaitHandle_t5382 *)il2cpp_codegen_object_new (RegisteredWaitHandle_t5382_il2cpp_TypeInfo_var);
-		RegisteredWaitHandle__ctor_m24343(L_10, L_5, L_6, L_7, L_8, L_9, /*hidden argument*/NULL);
+		RegisteredWaitHandle_t5389 * L_10 = (RegisteredWaitHandle_t5389 *)il2cpp_codegen_object_new (RegisteredWaitHandle_t5389_il2cpp_TypeInfo_var);
+		RegisteredWaitHandle__ctor_m24400(L_10, L_5, L_6, L_7, L_8, L_9, /*hidden argument*/NULL);
 		V_1 = L_10;
-		RegisteredWaitHandle_t5382 * L_11 = V_1;
-		IntPtr_t L_12 = { (void*)RegisteredWaitHandle_Wait_m24344_MethodInfo_var };
-		WaitCallback_t2166 * L_13 = (WaitCallback_t2166 *)il2cpp_codegen_object_new (WaitCallback_t2166_il2cpp_TypeInfo_var);
-		WaitCallback__ctor_m7955(L_13, L_11, L_12, /*hidden argument*/NULL);
-		ThreadPool_QueueUserWorkItem_m18130(NULL /*static, unused*/, L_13, NULL, /*hidden argument*/NULL);
-		RegisteredWaitHandle_t5382 * L_14 = V_1;
+		RegisteredWaitHandle_t5389 * L_11 = V_1;
+		IntPtr_t L_12 = { (void*)RegisteredWaitHandle_Wait_m24401_MethodInfo_var };
+		WaitCallback_t2173 * L_13 = (WaitCallback_t2173 *)il2cpp_codegen_object_new (WaitCallback_t2173_il2cpp_TypeInfo_var);
+		WaitCallback__ctor_m8013(L_13, L_11, L_12, /*hidden argument*/NULL);
+		ThreadPool_QueueUserWorkItem_m18187(NULL /*static, unused*/, L_13, NULL, /*hidden argument*/NULL);
+		RegisteredWaitHandle_t5389 * L_14 = V_1;
 		return L_14;
 	}
 }
 // System.Threading.RegisteredWaitHandle System.Threading.ThreadPool::RegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.TimeSpan,System.Boolean)
-extern "C" RegisteredWaitHandle_t5382 * ThreadPool_RegisterWaitForSingleObject_m24385 (Object_t * __this /* static, unused */, WaitHandle_t3256 * ___waitObject, WaitOrTimerCallback_t5381 * ___callBack, Object_t * ___state, TimeSpan_t334  ___timeout, bool ___executeOnlyOnce, const MethodInfo* method)
+extern "C" RegisteredWaitHandle_t5389 * ThreadPool_RegisterWaitForSingleObject_m24442 (Object_t * __this /* static, unused */, WaitHandle_t3263 * ___waitObject, WaitOrTimerCallback_t5388 * ___callBack, Object_t * ___state, TimeSpan_t334  ___timeout, bool ___executeOnlyOnce, const MethodInfo* method)
 {
 	{
-		WaitHandle_t3256 * L_0 = ___waitObject;
-		WaitOrTimerCallback_t5381 * L_1 = ___callBack;
+		WaitHandle_t3263 * L_0 = ___waitObject;
+		WaitOrTimerCallback_t5388 * L_1 = ___callBack;
 		Object_t * L_2 = ___state;
-		double L_3 = TimeSpan_get_TotalMilliseconds_m20788((&___timeout), /*hidden argument*/NULL);
+		double L_3 = TimeSpan_get_TotalMilliseconds_m20845((&___timeout), /*hidden argument*/NULL);
 		bool L_4 = ___executeOnlyOnce;
-		RegisteredWaitHandle_t5382 * L_5 = ThreadPool_RegisterWaitForSingleObject_m24384(NULL /*static, unused*/, L_0, L_1, L_2, (((int64_t)L_3)), L_4, /*hidden argument*/NULL);
+		RegisteredWaitHandle_t5389 * L_5 = ThreadPool_RegisterWaitForSingleObject_m24441(NULL /*static, unused*/, L_0, L_1, L_2, (((int64_t)L_3)), L_4, /*hidden argument*/NULL);
 		return L_5;
 	}
 }
@@ -8305,20 +8305,20 @@ extern "C" RegisteredWaitHandle_t5382 * ThreadPool_RegisterWaitForSingleObject_m
 
 
 // System.Void System.Threading.ThreadStateException::.ctor()
-extern "C" void ThreadStateException__ctor_m24386 (ThreadStateException_t5386 * __this, const MethodInfo* method)
+extern "C" void ThreadStateException__ctor_m24443 (ThreadStateException_t5393 * __this, const MethodInfo* method)
 {
 	{
-		SystemException__ctor_m12121(__this, (String_t*) &_stringLiteral6538, /*hidden argument*/NULL);
+		SystemException__ctor_m12178(__this, (String_t*) &_stringLiteral6552, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Threading.ThreadStateException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ThreadStateException__ctor_m24387 (ThreadStateException_t5386 * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___context, const MethodInfo* method)
+extern "C" void ThreadStateException__ctor_m24444 (ThreadStateException_t5393 * __this, SerializationInfo_t2947 * ___info, StreamingContext_t2948  ___context, const MethodInfo* method)
 {
 	{
-		SerializationInfo_t2940 * L_0 = ___info;
-		StreamingContext_t2941  L_1 = ___context;
-		SystemException__ctor_m14772(__this, L_0, L_1, /*hidden argument*/NULL);
+		SerializationInfo_t2947 * L_0 = ___info;
+		StreamingContext_t2948  L_1 = ___context;
+		SystemException__ctor_m14829(__this, L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -8335,7 +8335,7 @@ extern "C" void ThreadStateException__ctor_m24387 (ThreadStateException_t5386 * 
 
 
 // System.Void System.Threading.Timer/TimerComparer::.ctor()
-extern "C" void TimerComparer__ctor_m24388 (TimerComparer_t5387 * __this, const MethodInfo* method)
+extern "C" void TimerComparer__ctor_m24445 (TimerComparer_t5394 * __this, const MethodInfo* method)
 {
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
@@ -8343,24 +8343,24 @@ extern "C" void TimerComparer__ctor_m24388 (TimerComparer_t5387 * __this, const 
 	}
 }
 // System.Int32 System.Threading.Timer/TimerComparer::Compare(System.Object,System.Object)
-extern TypeInfo* Timer_t2178_il2cpp_TypeInfo_var;
-extern "C" int32_t TimerComparer_Compare_m24389 (TimerComparer_t5387 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method)
+extern TypeInfo* Timer_t2185_il2cpp_TypeInfo_var;
+extern "C" int32_t TimerComparer_Compare_m24446 (TimerComparer_t5394 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Timer_t2178_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3439);
+		Timer_t2185_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3457);
 		s_Il2CppMethodIntialized = true;
 	}
-	Timer_t2178 * V_0 = {0};
-	Timer_t2178 * V_1 = {0};
+	Timer_t2185 * V_0 = {0};
+	Timer_t2185 * V_1 = {0};
 	int64_t V_2 = 0;
 	int32_t G_B8_0 = 0;
 	int32_t G_B12_0 = 0;
 	{
 		Object_t * L_0 = ___x;
-		V_0 = ((Timer_t2178 *)IsInst(L_0, Timer_t2178_il2cpp_TypeInfo_var));
-		Timer_t2178 * L_1 = V_0;
+		V_0 = ((Timer_t2185 *)IsInst(L_0, Timer_t2185_il2cpp_TypeInfo_var));
+		Timer_t2185 * L_1 = V_0;
 		if (L_1)
 		{
 			goto IL_000c;
@@ -8373,8 +8373,8 @@ extern "C" int32_t TimerComparer_Compare_m24389 (TimerComparer_t5387 * __this, O
 IL_000c:
 	{
 		Object_t * L_2 = ___y;
-		V_1 = ((Timer_t2178 *)IsInst(L_2, Timer_t2178_il2cpp_TypeInfo_var));
-		Timer_t2178 * L_3 = V_1;
+		V_1 = ((Timer_t2185 *)IsInst(L_2, Timer_t2185_il2cpp_TypeInfo_var));
+		Timer_t2185 * L_3 = V_1;
 		if (L_3)
 		{
 			goto IL_0018;
@@ -8386,10 +8386,10 @@ IL_000c:
 
 IL_0018:
 	{
-		Timer_t2178 * L_4 = V_0;
+		Timer_t2185 * L_4 = V_0;
 		NullCheck(L_4);
 		int64_t L_5 = (L_4->___next_run_6);
-		Timer_t2178 * L_6 = V_1;
+		Timer_t2185 * L_6 = V_1;
 		NullCheck(L_6);
 		int64_t L_7 = (L_6->___next_run_6);
 		V_2 = ((int64_t)((int64_t)L_5-(int64_t)L_7));
@@ -8468,83 +8468,83 @@ IL_003b:
 
 
 // System.Void System.Threading.Timer/Scheduler::.ctor()
-extern TypeInfo* TimerComparer_t5387_il2cpp_TypeInfo_var;
-extern TypeInfo* SortedList_t4582_il2cpp_TypeInfo_var;
-extern TypeInfo* ThreadStart_t4579_il2cpp_TypeInfo_var;
-extern TypeInfo* Thread_t1482_il2cpp_TypeInfo_var;
-extern const MethodInfo* Scheduler_SchedulerThread_m24397_MethodInfo_var;
-extern "C" void Scheduler__ctor_m24390 (Scheduler_t5388 * __this, const MethodInfo* method)
+extern TypeInfo* TimerComparer_t5394_il2cpp_TypeInfo_var;
+extern TypeInfo* SortedList_t4589_il2cpp_TypeInfo_var;
+extern TypeInfo* ThreadStart_t4586_il2cpp_TypeInfo_var;
+extern TypeInfo* Thread_t1489_il2cpp_TypeInfo_var;
+extern const MethodInfo* Scheduler_SchedulerThread_m24454_MethodInfo_var;
+extern "C" void Scheduler__ctor_m24447 (Scheduler_t5395 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		TimerComparer_t5387_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9365);
-		SortedList_t4582_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(7844);
-		ThreadStart_t4579_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(7813);
-		Thread_t1482_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2593);
-		Scheduler_SchedulerThread_m24397_MethodInfo_var = il2cpp_codegen_method_info_from_index(1643);
+		TimerComparer_t5394_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9383);
+		SortedList_t4589_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(7862);
+		ThreadStart_t4586_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(7831);
+		Thread_t1489_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2611);
+		Scheduler_SchedulerThread_m24454_MethodInfo_var = il2cpp_codegen_method_info_from_index(1652);
 		s_Il2CppMethodIntialized = true;
 	}
-	Thread_t1482 * V_0 = {0};
+	Thread_t1489 * V_0 = {0};
 	{
 		Object__ctor_m354(__this, /*hidden argument*/NULL);
-		TimerComparer_t5387 * L_0 = (TimerComparer_t5387 *)il2cpp_codegen_object_new (TimerComparer_t5387_il2cpp_TypeInfo_var);
-		TimerComparer__ctor_m24388(L_0, /*hidden argument*/NULL);
-		SortedList_t4582 * L_1 = (SortedList_t4582 *)il2cpp_codegen_object_new (SortedList_t4582_il2cpp_TypeInfo_var);
-		SortedList__ctor_m21163(L_1, L_0, ((int32_t)1024), /*hidden argument*/NULL);
+		TimerComparer_t5394 * L_0 = (TimerComparer_t5394 *)il2cpp_codegen_object_new (TimerComparer_t5394_il2cpp_TypeInfo_var);
+		TimerComparer__ctor_m24445(L_0, /*hidden argument*/NULL);
+		SortedList_t4589 * L_1 = (SortedList_t4589 *)il2cpp_codegen_object_new (SortedList_t4589_il2cpp_TypeInfo_var);
+		SortedList__ctor_m21220(L_1, L_0, ((int32_t)1024), /*hidden argument*/NULL);
 		__this->___list_1 = L_1;
-		IntPtr_t L_2 = { (void*)Scheduler_SchedulerThread_m24397_MethodInfo_var };
-		ThreadStart_t4579 * L_3 = (ThreadStart_t4579 *)il2cpp_codegen_object_new (ThreadStart_t4579_il2cpp_TypeInfo_var);
-		ThreadStart__ctor_m18110(L_3, __this, L_2, /*hidden argument*/NULL);
-		Thread_t1482 * L_4 = (Thread_t1482 *)il2cpp_codegen_object_new (Thread_t1482_il2cpp_TypeInfo_var);
-		Thread__ctor_m18111(L_4, L_3, /*hidden argument*/NULL);
+		IntPtr_t L_2 = { (void*)Scheduler_SchedulerThread_m24454_MethodInfo_var };
+		ThreadStart_t4586 * L_3 = (ThreadStart_t4586 *)il2cpp_codegen_object_new (ThreadStart_t4586_il2cpp_TypeInfo_var);
+		ThreadStart__ctor_m18167(L_3, __this, L_2, /*hidden argument*/NULL);
+		Thread_t1489 * L_4 = (Thread_t1489 *)il2cpp_codegen_object_new (Thread_t1489_il2cpp_TypeInfo_var);
+		Thread__ctor_m18168(L_4, L_3, /*hidden argument*/NULL);
 		V_0 = L_4;
-		Thread_t1482 * L_5 = V_0;
+		Thread_t1489 * L_5 = V_0;
 		NullCheck(L_5);
-		Thread_set_IsBackground_m24366(L_5, 1, /*hidden argument*/NULL);
-		Thread_t1482 * L_6 = V_0;
+		Thread_set_IsBackground_m24423(L_5, 1, /*hidden argument*/NULL);
+		Thread_t1489 * L_6 = V_0;
 		NullCheck(L_6);
-		Thread_Start_m7954(L_6, /*hidden argument*/NULL);
+		Thread_Start_m8012(L_6, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Threading.Timer/Scheduler::.cctor()
-extern TypeInfo* Scheduler_t5388_il2cpp_TypeInfo_var;
-extern "C" void Scheduler__cctor_m24391 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern TypeInfo* Scheduler_t5395_il2cpp_TypeInfo_var;
+extern "C" void Scheduler__cctor_m24448 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Scheduler_t5388_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9366);
+		Scheduler_t5395_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9384);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		Scheduler_t5388 * L_0 = (Scheduler_t5388 *)il2cpp_codegen_object_new (Scheduler_t5388_il2cpp_TypeInfo_var);
-		Scheduler__ctor_m24390(L_0, /*hidden argument*/NULL);
-		((Scheduler_t5388_StaticFields*)Scheduler_t5388_il2cpp_TypeInfo_var->static_fields)->___instance_0 = L_0;
+		Scheduler_t5395 * L_0 = (Scheduler_t5395 *)il2cpp_codegen_object_new (Scheduler_t5395_il2cpp_TypeInfo_var);
+		Scheduler__ctor_m24447(L_0, /*hidden argument*/NULL);
+		((Scheduler_t5395_StaticFields*)Scheduler_t5395_il2cpp_TypeInfo_var->static_fields)->___instance_0 = L_0;
 		return;
 	}
 }
 // System.Threading.Timer/Scheduler System.Threading.Timer/Scheduler::get_Instance()
-extern TypeInfo* Scheduler_t5388_il2cpp_TypeInfo_var;
-extern "C" Scheduler_t5388 * Scheduler_get_Instance_m24392 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern TypeInfo* Scheduler_t5395_il2cpp_TypeInfo_var;
+extern "C" Scheduler_t5395 * Scheduler_get_Instance_m24449 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Scheduler_t5388_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9366);
+		Scheduler_t5395_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9384);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Scheduler_t5388_il2cpp_TypeInfo_var);
-		Scheduler_t5388 * L_0 = ((Scheduler_t5388_StaticFields*)Scheduler_t5388_il2cpp_TypeInfo_var->static_fields)->___instance_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Scheduler_t5395_il2cpp_TypeInfo_var);
+		Scheduler_t5395 * L_0 = ((Scheduler_t5395_StaticFields*)Scheduler_t5395_il2cpp_TypeInfo_var->static_fields)->___instance_0;
 		return L_0;
 	}
 }
 // System.Void System.Threading.Timer/Scheduler::Remove(System.Threading.Timer)
-extern "C" void Scheduler_Remove_m24393 (Scheduler_t5388 * __this, Timer_t2178 * ___timer, const MethodInfo* method)
+extern "C" void Scheduler_Remove_m24450 (Scheduler_t5395 * __this, Timer_t2185 * ___timer, const MethodInfo* method)
 {
-	Scheduler_t5388 * V_0 = {0};
+	Scheduler_t5395 * V_0 = {0};
 	Exception_t57 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t57 * __exception_local = 0;
@@ -8552,7 +8552,7 @@ extern "C" void Scheduler_Remove_m24393 (Scheduler_t5388 * __this, Timer_t2178 *
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		Timer_t2178 * L_0 = ___timer;
+		Timer_t2185 * L_0 = ___timer;
 		NullCheck(L_0);
 		int64_t L_1 = (L_0->___next_run_6);
 		if (!L_1)
@@ -8561,7 +8561,7 @@ extern "C" void Scheduler_Remove_m24393 (Scheduler_t5388 * __this, Timer_t2178 *
 		}
 	}
 	{
-		Timer_t2178 * L_2 = ___timer;
+		Timer_t2185 * L_2 = ___timer;
 		NullCheck(L_2);
 		int64_t L_3 = (L_2->___next_run_6);
 		if ((!(((uint64_t)L_3) == ((uint64_t)((int64_t)std::numeric_limits<int64_t>::max())))))
@@ -8578,15 +8578,15 @@ IL_0019:
 IL_001a:
 	{
 		V_0 = __this;
-		Scheduler_t5388 * L_4 = V_0;
-		Monitor_Enter_m7533(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		Scheduler_t5395 * L_4 = V_0;
+		Monitor_Enter_m7591(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
 	}
 
 IL_0022:
 	try
 	{ // begin try (depth: 1)
-		Timer_t2178 * L_5 = ___timer;
-		Scheduler_InternalRemove_m24396(__this, L_5, /*hidden argument*/NULL);
+		Timer_t2185 * L_5 = ___timer;
+		Scheduler_InternalRemove_m24453(__this, L_5, /*hidden argument*/NULL);
 		IL2CPP_LEAVE(0x33, FINALLY_002c);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -8597,8 +8597,8 @@ IL_0022:
 
 FINALLY_002c:
 	{ // begin finally (depth: 1)
-		Scheduler_t5388 * L_6 = V_0;
-		Monitor_Exit_m7534(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		Scheduler_t5395 * L_6 = V_0;
+		Monitor_Exit_m7592(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
 		IL2CPP_END_FINALLY(44)
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(44)
@@ -8613,9 +8613,9 @@ IL_0033:
 	}
 }
 // System.Void System.Threading.Timer/Scheduler::Change(System.Threading.Timer,System.Int64)
-extern "C" void Scheduler_Change_m24394 (Scheduler_t5388 * __this, Timer_t2178 * ___timer, int64_t ___new_next_run, const MethodInfo* method)
+extern "C" void Scheduler_Change_m24451 (Scheduler_t5395 * __this, Timer_t2185 * ___timer, int64_t ___new_next_run, const MethodInfo* method)
 {
-	Scheduler_t5388 * V_0 = {0};
+	Scheduler_t5395 * V_0 = {0};
 	Exception_t57 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t57 * __exception_local = 0;
@@ -8624,16 +8624,16 @@ extern "C" void Scheduler_Change_m24394 (Scheduler_t5388 * __this, Timer_t2178 *
 	NO_UNUSED_WARNING (__leave_target);
 	{
 		V_0 = __this;
-		Scheduler_t5388 * L_0 = V_0;
-		Monitor_Enter_m7533(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Scheduler_t5395 * L_0 = V_0;
+		Monitor_Enter_m7591(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 	}
 
 IL_0008:
 	try
 	{ // begin try (depth: 1)
 		{
-			Timer_t2178 * L_1 = ___timer;
-			Scheduler_InternalRemove_m24396(__this, L_1, /*hidden argument*/NULL);
+			Timer_t2185 * L_1 = ___timer;
+			Scheduler_InternalRemove_m24453(__this, L_1, /*hidden argument*/NULL);
 			int64_t L_2 = ___new_next_run;
 			if ((!(((uint64_t)L_2) == ((uint64_t)((int64_t)std::numeric_limits<int64_t>::max())))))
 			{
@@ -8643,7 +8643,7 @@ IL_0008:
 
 IL_001c:
 		{
-			Timer_t2178 * L_3 = ___timer;
+			Timer_t2185 * L_3 = ___timer;
 			int64_t L_4 = ___new_next_run;
 			NullCheck(L_3);
 			L_3->___next_run_6 = L_4;
@@ -8652,7 +8652,7 @@ IL_001c:
 
 IL_0025:
 		{
-			Timer_t2178 * L_5 = ___timer;
+			Timer_t2185 * L_5 = ___timer;
 			NullCheck(L_5);
 			bool L_6 = (L_5->___disposed_7);
 			if (L_6)
@@ -8663,17 +8663,17 @@ IL_0025:
 
 IL_002d:
 		{
-			Timer_t2178 * L_7 = ___timer;
+			Timer_t2185 * L_7 = ___timer;
 			int64_t L_8 = ___new_next_run;
 			NullCheck(L_7);
 			L_7->___next_run_6 = L_8;
-			Timer_t2178 * L_9 = ___timer;
-			Scheduler_Add_m24395(__this, L_9, /*hidden argument*/NULL);
-			SortedList_t4582 * L_10 = (__this->___list_1);
+			Timer_t2185 * L_9 = ___timer;
+			Scheduler_Add_m24452(__this, L_9, /*hidden argument*/NULL);
+			SortedList_t4589 * L_10 = (__this->___list_1);
 			NullCheck(L_10);
 			Object_t * L_11 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(42 /* System.Object System.Collections.SortedList::GetByIndex(System.Int32) */, L_10, 0);
-			Timer_t2178 * L_12 = ___timer;
-			if ((!(((Object_t*)(Object_t *)L_11) == ((Object_t*)(Timer_t2178 *)L_12))))
+			Timer_t2185 * L_12 = ___timer;
+			if ((!(((Object_t*)(Object_t *)L_11) == ((Object_t*)(Timer_t2185 *)L_12))))
 			{
 				goto IL_0050;
 			}
@@ -8681,7 +8681,7 @@ IL_002d:
 
 IL_004a:
 		{
-			Monitor_Pulse_m24330(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+			Monitor_Pulse_m24387(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
 		}
 
 IL_0050:
@@ -8697,8 +8697,8 @@ IL_0050:
 
 FINALLY_0052:
 	{ // begin finally (depth: 1)
-		Scheduler_t5388 * L_13 = V_0;
-		Monitor_Exit_m7534(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		Scheduler_t5395 * L_13 = V_0;
+		Monitor_Exit_m7592(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
 		IL2CPP_END_FINALLY(82)
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(82)
@@ -8713,22 +8713,22 @@ IL_0059:
 	}
 }
 // System.Void System.Threading.Timer/Scheduler::Add(System.Threading.Timer)
-extern TypeInfo* Timer_t2178_il2cpp_TypeInfo_var;
-extern "C" void Scheduler_Add_m24395 (Scheduler_t5388 * __this, Timer_t2178 * ___timer, const MethodInfo* method)
+extern TypeInfo* Timer_t2185_il2cpp_TypeInfo_var;
+extern "C" void Scheduler_Add_m24452 (Scheduler_t5395 * __this, Timer_t2185 * ___timer, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Timer_t2178_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3439);
+		Timer_t2185_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3457);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
 	bool V_1 = false;
-	Timer_t2178 * V_2 = {0};
+	Timer_t2185 * V_2 = {0};
 	int32_t G_B4_0 = 0;
 	{
-		SortedList_t4582 * L_0 = (__this->___list_1);
-		Timer_t2178 * L_1 = ___timer;
+		SortedList_t4589 * L_0 = (__this->___list_1);
+		Timer_t2185 * L_1 = ___timer;
 		NullCheck(L_0);
 		int32_t L_2 = (int32_t)VirtFuncInvoker1< int32_t, Object_t * >::Invoke(38 /* System.Int32 System.Collections.SortedList::IndexOfKey(System.Object) */, L_0, L_1);
 		V_0 = L_2;
@@ -8739,7 +8739,7 @@ extern "C" void Scheduler_Add_m24395 (Scheduler_t5388 * __this, Timer_t2178 * __
 		}
 	}
 	{
-		Timer_t2178 * L_4 = ___timer;
+		Timer_t2185 * L_4 = ___timer;
 		NullCheck(L_4);
 		int64_t L_5 = (L_4->___next_run_6);
 		if ((((int64_t)((int64_t)((int64_t)((int64_t)std::numeric_limits<int64_t>::max())-(int64_t)L_5))) <= ((int64_t)(((int64_t)((int32_t)20000))))))
@@ -8773,8 +8773,8 @@ IL_0031:
 		}
 	}
 	{
-		Timer_t2178 * L_8 = ___timer;
-		Timer_t2178 * L_9 = L_8;
+		Timer_t2185 * L_8 = ___timer;
+		Timer_t2185 * L_9 = L_8;
 		NullCheck(L_9);
 		int64_t L_10 = (L_9->___next_run_6);
 		NullCheck(L_9);
@@ -8784,8 +8784,8 @@ IL_0031:
 
 IL_0049:
 	{
-		Timer_t2178 * L_11 = ___timer;
-		Timer_t2178 * L_12 = L_11;
+		Timer_t2185 * L_11 = ___timer;
+		Timer_t2185 * L_12 = L_11;
 		NullCheck(L_12);
 		int64_t L_13 = (L_12->___next_run_6);
 		NullCheck(L_12);
@@ -8795,7 +8795,7 @@ IL_0049:
 IL_0058:
 	{
 		int32_t L_14 = V_0;
-		SortedList_t4582 * L_15 = (__this->___list_1);
+		SortedList_t4589 * L_15 = (__this->___list_1);
 		NullCheck(L_15);
 		int32_t L_16 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(19 /* System.Int32 System.Collections.SortedList::get_Count() */, L_15);
 		if ((((int32_t)L_14) < ((int32_t)L_16)))
@@ -8809,15 +8809,15 @@ IL_0058:
 
 IL_0068:
 	{
-		SortedList_t4582 * L_17 = (__this->___list_1);
+		SortedList_t4589 * L_17 = (__this->___list_1);
 		int32_t L_18 = V_0;
 		NullCheck(L_17);
 		Object_t * L_19 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(42 /* System.Object System.Collections.SortedList::GetByIndex(System.Int32) */, L_17, L_18);
-		V_2 = ((Timer_t2178 *)Castclass(L_19, Timer_t2178_il2cpp_TypeInfo_var));
-		Timer_t2178 * L_20 = V_2;
+		V_2 = ((Timer_t2185 *)Castclass(L_19, Timer_t2185_il2cpp_TypeInfo_var));
+		Timer_t2185 * L_20 = V_2;
 		NullCheck(L_20);
 		int64_t L_21 = (L_20->___next_run_6);
-		Timer_t2178 * L_22 = ___timer;
+		Timer_t2185 * L_22 = ___timer;
 		NullCheck(L_22);
 		int64_t L_23 = (L_22->___next_run_6);
 		if ((((int64_t)L_21) == ((int64_t)L_23)))
@@ -8836,21 +8836,21 @@ IL_008a:
 
 IL_008c:
 	{
-		SortedList_t4582 * L_24 = (__this->___list_1);
-		Timer_t2178 * L_25 = ___timer;
-		Timer_t2178 * L_26 = ___timer;
+		SortedList_t4589 * L_24 = (__this->___list_1);
+		Timer_t2185 * L_25 = ___timer;
+		Timer_t2185 * L_26 = ___timer;
 		NullCheck(L_24);
 		VirtActionInvoker2< Object_t *, Object_t * >::Invoke(30 /* System.Void System.Collections.SortedList::Add(System.Object,System.Object) */, L_24, L_25, L_26);
 		return;
 	}
 }
 // System.Int32 System.Threading.Timer/Scheduler::InternalRemove(System.Threading.Timer)
-extern "C" int32_t Scheduler_InternalRemove_m24396 (Scheduler_t5388 * __this, Timer_t2178 * ___timer, const MethodInfo* method)
+extern "C" int32_t Scheduler_InternalRemove_m24453 (Scheduler_t5395 * __this, Timer_t2185 * ___timer, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
-		SortedList_t4582 * L_0 = (__this->___list_1);
-		Timer_t2178 * L_1 = ___timer;
+		SortedList_t4589 * L_0 = (__this->___list_1);
+		Timer_t2185 * L_1 = ___timer;
 		NullCheck(L_0);
 		int32_t L_2 = (int32_t)VirtFuncInvoker1< int32_t, Object_t * >::Invoke(38 /* System.Int32 System.Collections.SortedList::IndexOfKey(System.Object) */, L_0, L_1);
 		V_0 = L_2;
@@ -8861,7 +8861,7 @@ extern "C" int32_t Scheduler_InternalRemove_m24396 (Scheduler_t5388 * __this, Ti
 		}
 	}
 	{
-		SortedList_t4582 * L_4 = (__this->___list_1);
+		SortedList_t4589 * L_4 = (__this->___list_1);
 		int32_t L_5 = V_0;
 		NullCheck(L_4);
 		VirtActionInvoker1< int32_t >::Invoke(37 /* System.Void System.Collections.SortedList::RemoveAt(System.Int32) */, L_4, L_5);
@@ -8874,35 +8874,35 @@ IL_001d:
 	}
 }
 // System.Void System.Threading.Timer/Scheduler::SchedulerThread()
-extern TypeInfo* Thread_t1482_il2cpp_TypeInfo_var;
-extern TypeInfo* ArrayList_t716_il2cpp_TypeInfo_var;
+extern TypeInfo* Thread_t1489_il2cpp_TypeInfo_var;
+extern TypeInfo* ArrayList_t723_il2cpp_TypeInfo_var;
 extern TypeInfo* DateTime_t287_il2cpp_TypeInfo_var;
-extern TypeInfo* Timer_t2178_il2cpp_TypeInfo_var;
-extern TypeInfo* WaitCallback_t2166_il2cpp_TypeInfo_var;
-extern const MethodInfo* TimerCallback_Invoke_m24468_MethodInfo_var;
-extern "C" void Scheduler_SchedulerThread_m24397 (Scheduler_t5388 * __this, const MethodInfo* method)
+extern TypeInfo* Timer_t2185_il2cpp_TypeInfo_var;
+extern TypeInfo* WaitCallback_t2173_il2cpp_TypeInfo_var;
+extern const MethodInfo* TimerCallback_Invoke_m24525_MethodInfo_var;
+extern "C" void Scheduler_SchedulerThread_m24454 (Scheduler_t5395 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Thread_t1482_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2593);
-		ArrayList_t716_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(438);
+		Thread_t1489_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2611);
+		ArrayList_t723_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(438);
 		DateTime_t287_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(311);
-		Timer_t2178_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3439);
-		WaitCallback_t2166_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3415);
-		TimerCallback_Invoke_m24468_MethodInfo_var = il2cpp_codegen_method_info_from_index(1644);
+		Timer_t2185_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3457);
+		WaitCallback_t2173_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3433);
+		TimerCallback_Invoke_m24525_MethodInfo_var = il2cpp_codegen_method_info_from_index(1653);
 		s_Il2CppMethodIntialized = true;
 	}
-	ArrayList_t716 * V_0 = {0};
+	ArrayList_t723 * V_0 = {0};
 	int64_t V_1 = 0;
-	Scheduler_t5388 * V_2 = {0};
+	Scheduler_t5395 * V_2 = {0};
 	int32_t V_3 = 0;
 	int32_t V_4 = 0;
-	Timer_t2178 * V_5 = {0};
+	Timer_t2185 * V_5 = {0};
 	int64_t V_6 = 0;
 	int64_t V_7 = 0;
 	bool V_8 = false;
-	Timer_t2178 * V_9 = {0};
+	Timer_t2185 * V_9 = {0};
 	int32_t V_10 = 0;
 	int64_t V_11 = 0;
 	int32_t V_12 = 0;
@@ -8916,30 +8916,30 @@ extern "C" void Scheduler_SchedulerThread_m24397 (Scheduler_t5388 * __this, cons
 	int32_t G_B10_0 = 0;
 	int32_t G_B12_0 = 0;
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1482_il2cpp_TypeInfo_var);
-		Thread_t1482 * L_0 = Thread_get_CurrentThread_m7618(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Thread_t1489_il2cpp_TypeInfo_var);
+		Thread_t1489 * L_0 = Thread_get_CurrentThread_m7676(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_0);
-		Thread_set_Name_m24368(L_0, (String_t*) &_stringLiteral6544, /*hidden argument*/NULL);
-		ArrayList_t716 * L_1 = (ArrayList_t716 *)il2cpp_codegen_object_new (ArrayList_t716_il2cpp_TypeInfo_var);
-		ArrayList__ctor_m18087(L_1, ((int32_t)512), /*hidden argument*/NULL);
+		Thread_set_Name_m24425(L_0, (String_t*) &_stringLiteral6558, /*hidden argument*/NULL);
+		ArrayList_t723 * L_1 = (ArrayList_t723 *)il2cpp_codegen_object_new (ArrayList_t723_il2cpp_TypeInfo_var);
+		ArrayList__ctor_m18144(L_1, ((int32_t)512), /*hidden argument*/NULL);
 		V_0 = L_1;
 	}
 
 IL_001a:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t287_il2cpp_TypeInfo_var);
-		int64_t L_2 = DateTime_GetTimeMonotonic_m20299(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int64_t L_2 = DateTime_GetTimeMonotonic_m20356(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_1 = L_2;
 		V_2 = __this;
-		Scheduler_t5388 * L_3 = V_2;
-		Monitor_Enter_m7533(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		Scheduler_t5395 * L_3 = V_2;
+		Monitor_Enter_m7591(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
 	}
 
 IL_0028:
 	try
 	{ // begin try (depth: 1)
 		{
-			SortedList_t4582 * L_4 = (__this->___list_1);
+			SortedList_t4589 * L_4 = (__this->___list_1);
 			NullCheck(L_4);
 			int32_t L_5 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(19 /* System.Int32 System.Collections.SortedList::get_Count() */, L_4);
 			V_4 = L_5;
@@ -8949,12 +8949,12 @@ IL_0028:
 
 IL_003c:
 		{
-			SortedList_t4582 * L_6 = (__this->___list_1);
+			SortedList_t4589 * L_6 = (__this->___list_1);
 			int32_t L_7 = V_3;
 			NullCheck(L_6);
 			Object_t * L_8 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(42 /* System.Object System.Collections.SortedList::GetByIndex(System.Int32) */, L_6, L_7);
-			V_5 = ((Timer_t2178 *)Castclass(L_8, Timer_t2178_il2cpp_TypeInfo_var));
-			Timer_t2178 * L_9 = V_5;
+			V_5 = ((Timer_t2185 *)Castclass(L_8, Timer_t2185_il2cpp_TypeInfo_var));
+			Timer_t2185 * L_9 = V_5;
 			NullCheck(L_9);
 			int64_t L_10 = (L_9->___next_run_6);
 			int64_t L_11 = V_1;
@@ -8971,7 +8971,7 @@ IL_0059:
 
 IL_005e:
 		{
-			SortedList_t4582 * L_12 = (__this->___list_1);
+			SortedList_t4589 * L_12 = (__this->___list_1);
 			int32_t L_13 = V_3;
 			NullCheck(L_12);
 			VirtActionInvoker1< int32_t >::Invoke(37 /* System.Void System.Collections.SortedList::RemoveAt(System.Int32) */, L_12, L_13);
@@ -8979,21 +8979,21 @@ IL_005e:
 			V_4 = ((int32_t)((int32_t)L_14-(int32_t)1));
 			int32_t L_15 = V_3;
 			V_3 = ((int32_t)((int32_t)L_15-(int32_t)1));
-			Timer_t2178 * L_16 = V_5;
+			Timer_t2185 * L_16 = V_5;
 			NullCheck(L_16);
-			TimerCallback_t2179 * L_17 = (L_16->___callback_2);
-			IntPtr_t L_18 = { (void*)TimerCallback_Invoke_m24468_MethodInfo_var };
-			WaitCallback_t2166 * L_19 = (WaitCallback_t2166 *)il2cpp_codegen_object_new (WaitCallback_t2166_il2cpp_TypeInfo_var);
-			WaitCallback__ctor_m7955(L_19, L_17, L_18, /*hidden argument*/NULL);
-			Timer_t2178 * L_20 = V_5;
+			TimerCallback_t2186 * L_17 = (L_16->___callback_2);
+			IntPtr_t L_18 = { (void*)TimerCallback_Invoke_m24525_MethodInfo_var };
+			WaitCallback_t2173 * L_19 = (WaitCallback_t2173 *)il2cpp_codegen_object_new (WaitCallback_t2173_il2cpp_TypeInfo_var);
+			WaitCallback__ctor_m8013(L_19, L_17, L_18, /*hidden argument*/NULL);
+			Timer_t2185 * L_20 = V_5;
 			NullCheck(L_20);
 			Object_t * L_21 = (L_20->___state_3);
-			ThreadPool_QueueUserWorkItem_m18130(NULL /*static, unused*/, L_19, L_21, /*hidden argument*/NULL);
-			Timer_t2178 * L_22 = V_5;
+			ThreadPool_QueueUserWorkItem_m18187(NULL /*static, unused*/, L_19, L_21, /*hidden argument*/NULL);
+			Timer_t2185 * L_22 = V_5;
 			NullCheck(L_22);
 			int64_t L_23 = (L_22->___period_ms_5);
 			V_6 = L_23;
-			Timer_t2178 * L_24 = V_5;
+			Timer_t2185 * L_24 = V_5;
 			NullCheck(L_24);
 			int64_t L_25 = (L_24->___due_time_ms_4);
 			V_7 = L_25;
@@ -9057,7 +9057,7 @@ IL_00c4:
 
 IL_00ca:
 		{
-			Timer_t2178 * L_31 = V_5;
+			Timer_t2185 * L_31 = V_5;
 			NullCheck(L_31);
 			L_31->___next_run_6 = ((int64_t)std::numeric_limits<int64_t>::max());
 			goto IL_0100;
@@ -9065,16 +9065,16 @@ IL_00ca:
 
 IL_00dc:
 		{
-			Timer_t2178 * L_32 = V_5;
+			Timer_t2185 * L_32 = V_5;
 			IL2CPP_RUNTIME_CLASS_INIT(DateTime_t287_il2cpp_TypeInfo_var);
-			int64_t L_33 = DateTime_GetTimeMonotonic_m20299(NULL /*static, unused*/, /*hidden argument*/NULL);
-			Timer_t2178 * L_34 = V_5;
+			int64_t L_33 = DateTime_GetTimeMonotonic_m20356(NULL /*static, unused*/, /*hidden argument*/NULL);
+			Timer_t2185 * L_34 = V_5;
 			NullCheck(L_34);
 			int64_t L_35 = (L_34->___period_ms_5);
 			NullCheck(L_32);
 			L_32->___next_run_6 = ((int64_t)((int64_t)L_33+(int64_t)((int64_t)((int64_t)(((int64_t)((int32_t)10000)))*(int64_t)L_35))));
-			ArrayList_t716 * L_36 = V_0;
-			Timer_t2178 * L_37 = V_5;
+			ArrayList_t723 * L_36 = V_0;
+			Timer_t2185 * L_37 = V_5;
 			NullCheck(L_36);
 			VirtFuncInvoker1< int32_t, Object_t * >::Invoke(30 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_36, L_37);
 		}
@@ -9097,7 +9097,7 @@ IL_0104:
 
 IL_010c:
 		{
-			ArrayList_t716 * L_41 = V_0;
+			ArrayList_t723 * L_41 = V_0;
 			NullCheck(L_41);
 			int32_t L_42 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_41);
 			V_4 = L_42;
@@ -9107,13 +9107,13 @@ IL_010c:
 
 IL_0118:
 		{
-			ArrayList_t716 * L_43 = V_0;
+			ArrayList_t723 * L_43 = V_0;
 			int32_t L_44 = V_3;
 			NullCheck(L_43);
 			Object_t * L_45 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(21 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_43, L_44);
-			V_9 = ((Timer_t2178 *)Castclass(L_45, Timer_t2178_il2cpp_TypeInfo_var));
-			Timer_t2178 * L_46 = V_9;
-			Scheduler_Add_m24395(__this, L_46, /*hidden argument*/NULL);
+			V_9 = ((Timer_t2185 *)Castclass(L_45, Timer_t2185_il2cpp_TypeInfo_var));
+			Timer_t2185 * L_46 = V_9;
+			Scheduler_Add_m24452(__this, L_46, /*hidden argument*/NULL);
 			int32_t L_47 = V_3;
 			V_3 = ((int32_t)((int32_t)L_47+(int32_t)1));
 		}
@@ -9130,16 +9130,16 @@ IL_0132:
 
 IL_0137:
 		{
-			ArrayList_t716 * L_50 = V_0;
+			ArrayList_t723 * L_50 = V_0;
 			NullCheck(L_50);
 			VirtActionInvoker0::Invoke(31 /* System.Void System.Collections.ArrayList::Clear() */, L_50);
-			ArrayList_t716 * L_51 = V_0;
-			Scheduler_ShrinkIfNeeded_m24398(__this, L_51, ((int32_t)512), /*hidden argument*/NULL);
-			SortedList_t4582 * L_52 = (__this->___list_1);
+			ArrayList_t723 * L_51 = V_0;
+			Scheduler_ShrinkIfNeeded_m24455(__this, L_51, ((int32_t)512), /*hidden argument*/NULL);
+			SortedList_t4589 * L_52 = (__this->___list_1);
 			NullCheck(L_52);
 			int32_t L_53 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(28 /* System.Int32 System.Collections.SortedList::get_Capacity() */, L_52);
 			V_10 = L_53;
-			SortedList_t4582 * L_54 = (__this->___list_1);
+			SortedList_t4589 * L_54 = (__this->___list_1);
 			NullCheck(L_54);
 			int32_t L_55 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(19 /* System.Int32 System.Collections.SortedList::get_Count() */, L_54);
 			V_4 = L_55;
@@ -9171,7 +9171,7 @@ IL_0171:
 
 IL_0179:
 		{
-			SortedList_t4582 * L_60 = (__this->___list_1);
+			SortedList_t4589 * L_60 = (__this->___list_1);
 			int32_t L_61 = V_4;
 			NullCheck(L_60);
 			VirtActionInvoker1< int32_t >::Invoke(29 /* System.Void System.Collections.SortedList::set_Capacity(System.Int32) */, L_60, ((int32_t)((int32_t)L_61*(int32_t)2)));
@@ -9180,7 +9180,7 @@ IL_0179:
 IL_0188:
 		{
 			V_11 = ((int64_t)std::numeric_limits<int64_t>::max());
-			SortedList_t4582 * L_62 = (__this->___list_1);
+			SortedList_t4589 * L_62 = (__this->___list_1);
 			NullCheck(L_62);
 			int32_t L_63 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(19 /* System.Int32 System.Collections.SortedList::get_Count() */, L_62);
 			if ((((int32_t)L_63) <= ((int32_t)0)))
@@ -9191,11 +9191,11 @@ IL_0188:
 
 IL_01a1:
 		{
-			SortedList_t4582 * L_64 = (__this->___list_1);
+			SortedList_t4589 * L_64 = (__this->___list_1);
 			NullCheck(L_64);
 			Object_t * L_65 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(42 /* System.Object System.Collections.SortedList::GetByIndex(System.Int32) */, L_64, 0);
-			NullCheck(((Timer_t2178 *)Castclass(L_65, Timer_t2178_il2cpp_TypeInfo_var)));
-			int64_t L_66 = (((Timer_t2178 *)Castclass(L_65, Timer_t2178_il2cpp_TypeInfo_var))->___next_run_6);
+			NullCheck(((Timer_t2185 *)Castclass(L_65, Timer_t2185_il2cpp_TypeInfo_var)));
+			int64_t L_66 = (((Timer_t2185 *)Castclass(L_65, Timer_t2185_il2cpp_TypeInfo_var))->___next_run_6);
 			V_11 = L_66;
 		}
 
@@ -9213,7 +9213,7 @@ IL_01c9:
 		{
 			int64_t L_68 = V_11;
 			IL2CPP_RUNTIME_CLASS_INIT(DateTime_t287_il2cpp_TypeInfo_var);
-			int64_t L_69 = DateTime_GetTimeMonotonic_m20299(NULL /*static, unused*/, /*hidden argument*/NULL);
+			int64_t L_69 = DateTime_GetTimeMonotonic_m20356(NULL /*static, unused*/, /*hidden argument*/NULL);
 			V_13 = ((int64_t)((int64_t)L_68-(int64_t)L_69));
 			int64_t L_70 = V_13;
 			V_12 = (((int32_t)((int64_t)((int64_t)L_70/(int64_t)(((int64_t)((int32_t)10000)))))));
@@ -9232,7 +9232,7 @@ IL_01e4:
 IL_01e7:
 		{
 			int32_t L_72 = V_12;
-			Monitor_Wait_m24334(NULL /*static, unused*/, __this, L_72, /*hidden argument*/NULL);
+			Monitor_Wait_m24391(NULL /*static, unused*/, __this, L_72, /*hidden argument*/NULL);
 			IL2CPP_LEAVE(0x1F9, FINALLY_01f2);
 		}
 	} // end try (depth: 1)
@@ -9244,8 +9244,8 @@ IL_01e7:
 
 FINALLY_01f2:
 	{ // begin finally (depth: 1)
-		Scheduler_t5388 * L_73 = V_2;
-		Monitor_Exit_m7534(NULL /*static, unused*/, L_73, /*hidden argument*/NULL);
+		Scheduler_t5395 * L_73 = V_2;
+		Monitor_Exit_m7592(NULL /*static, unused*/, L_73, /*hidden argument*/NULL);
 		IL2CPP_END_FINALLY(498)
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(498)
@@ -9260,16 +9260,16 @@ IL_01f9:
 	}
 }
 // System.Void System.Threading.Timer/Scheduler::ShrinkIfNeeded(System.Collections.ArrayList,System.Int32)
-extern "C" void Scheduler_ShrinkIfNeeded_m24398 (Scheduler_t5388 * __this, ArrayList_t716 * ___list, int32_t ___initial, const MethodInfo* method)
+extern "C" void Scheduler_ShrinkIfNeeded_m24455 (Scheduler_t5395 * __this, ArrayList_t723 * ___list, int32_t ___initial, const MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		ArrayList_t716 * L_0 = ___list;
+		ArrayList_t723 * L_0 = ___list;
 		NullCheck(L_0);
 		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(24 /* System.Int32 System.Collections.ArrayList::get_Capacity() */, L_0);
 		V_0 = L_1;
-		ArrayList_t716 * L_2 = ___list;
+		ArrayList_t723 * L_2 = ___list;
 		NullCheck(L_2);
 		int32_t L_3 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(23 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_2);
 		V_1 = L_3;
@@ -9296,7 +9296,7 @@ extern "C" void Scheduler_ShrinkIfNeeded_m24398 (Scheduler_t5388 * __this, Array
 		}
 	}
 	{
-		ArrayList_t716 * L_9 = ___list;
+		ArrayList_t723 * L_9 = ___list;
 		int32_t L_10 = V_1;
 		NullCheck(L_9);
 		VirtActionInvoker1< int32_t >::Invoke(25 /* System.Void System.Collections.ArrayList::set_Capacity(System.Int32) */, L_9, ((int32_t)((int32_t)L_10*(int32_t)2)));
@@ -9316,100 +9316,100 @@ IL_0025:
 
 
 // System.Void System.Threading.Timer::.ctor(System.Threading.TimerCallback,System.Object,System.TimeSpan,System.TimeSpan)
-extern "C" void Timer__ctor_m24399 (Timer_t2178 * __this, TimerCallback_t2179 * ___callback, Object_t * ___state, TimeSpan_t334  ___dueTime, TimeSpan_t334  ___period, const MethodInfo* method)
+extern "C" void Timer__ctor_m24456 (Timer_t2185 * __this, TimerCallback_t2186 * ___callback, Object_t * ___state, TimeSpan_t334  ___dueTime, TimeSpan_t334  ___period, const MethodInfo* method)
 {
 	{
-		MarshalByRefObject__ctor_m18089(__this, /*hidden argument*/NULL);
-		TimerCallback_t2179 * L_0 = ___callback;
+		MarshalByRefObject__ctor_m18146(__this, /*hidden argument*/NULL);
+		TimerCallback_t2186 * L_0 = ___callback;
 		Object_t * L_1 = ___state;
-		double L_2 = TimeSpan_get_TotalMilliseconds_m20788((&___dueTime), /*hidden argument*/NULL);
-		double L_3 = TimeSpan_get_TotalMilliseconds_m20788((&___period), /*hidden argument*/NULL);
-		Timer_Init_m24401(__this, L_0, L_1, (((int64_t)L_2)), (((int64_t)L_3)), /*hidden argument*/NULL);
+		double L_2 = TimeSpan_get_TotalMilliseconds_m20845((&___dueTime), /*hidden argument*/NULL);
+		double L_3 = TimeSpan_get_TotalMilliseconds_m20845((&___period), /*hidden argument*/NULL);
+		Timer_Init_m24458(__this, L_0, L_1, (((int64_t)L_2)), (((int64_t)L_3)), /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Threading.Timer::.ctor(System.Threading.TimerCallback)
-extern "C" void Timer__ctor_m7990 (Timer_t2178 * __this, TimerCallback_t2179 * ___callback, const MethodInfo* method)
+extern "C" void Timer__ctor_m8048 (Timer_t2185 * __this, TimerCallback_t2186 * ___callback, const MethodInfo* method)
 {
 	{
-		MarshalByRefObject__ctor_m18089(__this, /*hidden argument*/NULL);
-		TimerCallback_t2179 * L_0 = ___callback;
-		Timer_Init_m24401(__this, L_0, __this, (((int64_t)(-1))), (((int64_t)(-1))), /*hidden argument*/NULL);
+		MarshalByRefObject__ctor_m18146(__this, /*hidden argument*/NULL);
+		TimerCallback_t2186 * L_0 = ___callback;
+		Timer_Init_m24458(__this, L_0, __this, (((int64_t)(-1))), (((int64_t)(-1))), /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Threading.Timer::.cctor()
-extern TypeInfo* Scheduler_t5388_il2cpp_TypeInfo_var;
-extern TypeInfo* Timer_t2178_il2cpp_TypeInfo_var;
-extern "C" void Timer__cctor_m24400 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern TypeInfo* Scheduler_t5395_il2cpp_TypeInfo_var;
+extern TypeInfo* Timer_t2185_il2cpp_TypeInfo_var;
+extern "C" void Timer__cctor_m24457 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Scheduler_t5388_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9366);
-		Timer_t2178_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3439);
+		Scheduler_t5395_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9384);
+		Timer_t2185_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3457);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Scheduler_t5388_il2cpp_TypeInfo_var);
-		Scheduler_t5388 * L_0 = Scheduler_get_Instance_m24392(NULL /*static, unused*/, /*hidden argument*/NULL);
-		((Timer_t2178_StaticFields*)Timer_t2178_il2cpp_TypeInfo_var->static_fields)->___scheduler_1 = L_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Scheduler_t5395_il2cpp_TypeInfo_var);
+		Scheduler_t5395 * L_0 = Scheduler_get_Instance_m24449(NULL /*static, unused*/, /*hidden argument*/NULL);
+		((Timer_t2185_StaticFields*)Timer_t2185_il2cpp_TypeInfo_var->static_fields)->___scheduler_1 = L_0;
 		return;
 	}
 }
 // System.Void System.Threading.Timer::Init(System.Threading.TimerCallback,System.Object,System.Int64,System.Int64)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
-extern "C" void Timer_Init_m24401 (Timer_t2178 * __this, TimerCallback_t2179 * ___callback, Object_t * ___state, int64_t ___dueTime, int64_t ___period, const MethodInfo* method)
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
+extern "C" void Timer_Init_m24458 (Timer_t2185 * __this, TimerCallback_t2186 * ___callback, Object_t * ___state, int64_t ___dueTime, int64_t ___period, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		TimerCallback_t2179 * L_0 = ___callback;
+		TimerCallback_t2186 * L_0 = ___callback;
 		if (L_0)
 		{
 			goto IL_000e;
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral6539, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral6553, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
 IL_000e:
 	{
-		TimerCallback_t2179 * L_2 = ___callback;
+		TimerCallback_t2186 * L_2 = ___callback;
 		__this->___callback_2 = L_2;
 		Object_t * L_3 = ___state;
 		__this->___state_3 = L_3;
 		int64_t L_4 = ___dueTime;
 		int64_t L_5 = ___period;
-		Timer_Change_m24403(__this, L_4, L_5, 1, /*hidden argument*/NULL);
+		Timer_Change_m24460(__this, L_4, L_5, 1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Boolean System.Threading.Timer::Change(System.TimeSpan,System.TimeSpan)
-extern "C" bool Timer_Change_m7992 (Timer_t2178 * __this, TimeSpan_t334  ___dueTime, TimeSpan_t334  ___period, const MethodInfo* method)
+extern "C" bool Timer_Change_m8050 (Timer_t2185 * __this, TimeSpan_t334  ___dueTime, TimeSpan_t334  ___period, const MethodInfo* method)
 {
 	{
-		double L_0 = TimeSpan_get_TotalMilliseconds_m20788((&___dueTime), /*hidden argument*/NULL);
-		double L_1 = TimeSpan_get_TotalMilliseconds_m20788((&___period), /*hidden argument*/NULL);
-		bool L_2 = Timer_Change_m24403(__this, (((int64_t)L_0)), (((int64_t)L_1)), 0, /*hidden argument*/NULL);
+		double L_0 = TimeSpan_get_TotalMilliseconds_m20845((&___dueTime), /*hidden argument*/NULL);
+		double L_1 = TimeSpan_get_TotalMilliseconds_m20845((&___period), /*hidden argument*/NULL);
+		bool L_2 = Timer_Change_m24460(__this, (((int64_t)L_0)), (((int64_t)L_1)), 0, /*hidden argument*/NULL);
 		return L_2;
 	}
 }
 // System.Void System.Threading.Timer::Dispose()
-extern TypeInfo* Timer_t2178_il2cpp_TypeInfo_var;
-extern "C" void Timer_Dispose_m24402 (Timer_t2178 * __this, const MethodInfo* method)
+extern TypeInfo* Timer_t2185_il2cpp_TypeInfo_var;
+extern "C" void Timer_Dispose_m24459 (Timer_t2185 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		Timer_t2178_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3439);
+		Timer_t2185_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3457);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -9426,25 +9426,25 @@ extern "C" void Timer_Dispose_m24402 (Timer_t2178 * __this, const MethodInfo* me
 IL_0009:
 	{
 		__this->___disposed_7 = 1;
-		IL2CPP_RUNTIME_CLASS_INIT(Timer_t2178_il2cpp_TypeInfo_var);
-		Scheduler_t5388 * L_1 = ((Timer_t2178_StaticFields*)Timer_t2178_il2cpp_TypeInfo_var->static_fields)->___scheduler_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Timer_t2185_il2cpp_TypeInfo_var);
+		Scheduler_t5395 * L_1 = ((Timer_t2185_StaticFields*)Timer_t2185_il2cpp_TypeInfo_var->static_fields)->___scheduler_1;
 		NullCheck(L_1);
-		Scheduler_Remove_m24393(L_1, __this, /*hidden argument*/NULL);
+		Scheduler_Remove_m24450(L_1, __this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Boolean System.Threading.Timer::Change(System.Int64,System.Int64,System.Boolean)
-extern TypeInfo* ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var;
 extern TypeInfo* DateTime_t287_il2cpp_TypeInfo_var;
-extern TypeInfo* Timer_t2178_il2cpp_TypeInfo_var;
-extern "C" bool Timer_Change_m24403 (Timer_t2178 * __this, int64_t ___dueTime, int64_t ___period, bool ___first, const MethodInfo* method)
+extern TypeInfo* Timer_t2185_il2cpp_TypeInfo_var;
+extern "C" bool Timer_Change_m24460 (Timer_t2185 * __this, int64_t ___dueTime, int64_t ___period, bool ___first, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2630);
+		ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2648);
 		DateTime_t287_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(311);
-		Timer_t2178_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3439);
+		Timer_t2185_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(3457);
 		s_Il2CppMethodIntialized = true;
 	}
 	int64_t V_0 = 0;
@@ -9456,8 +9456,8 @@ extern "C" bool Timer_Change_m24403 (Timer_t2178 * __this, int64_t ___dueTime, i
 		}
 	}
 	{
-		ArgumentOutOfRangeException_t1494 * L_1 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m11476(L_1, (String_t*) &_stringLiteral6540, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_1 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m11533(L_1, (String_t*) &_stringLiteral6554, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -9470,8 +9470,8 @@ IL_0011:
 		}
 	}
 	{
-		ArgumentOutOfRangeException_t1494 * L_3 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m11476(L_3, (String_t*) &_stringLiteral6541, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_3 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m11533(L_3, (String_t*) &_stringLiteral6555, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -9484,8 +9484,8 @@ IL_0022:
 		}
 	}
 	{
-		ArgumentOutOfRangeException_t1494 * L_5 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m11476(L_5, (String_t*) &_stringLiteral6542, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_5 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m11533(L_5, (String_t*) &_stringLiteral6556, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_5);
 	}
 
@@ -9498,8 +9498,8 @@ IL_0032:
 		}
 	}
 	{
-		ArgumentOutOfRangeException_t1494 * L_7 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m11476(L_7, (String_t*) &_stringLiteral6543, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_7 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m11533(L_7, (String_t*) &_stringLiteral6557, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_7);
 	}
 
@@ -9563,17 +9563,17 @@ IL_007f:
 	{
 		int64_t L_15 = ___dueTime;
 		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t287_il2cpp_TypeInfo_var);
-		int64_t L_16 = DateTime_GetTimeMonotonic_m20299(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int64_t L_16 = DateTime_GetTimeMonotonic_m20356(NULL /*static, unused*/, /*hidden argument*/NULL);
 		V_0 = ((int64_t)((int64_t)((int64_t)((int64_t)L_15*(int64_t)(((int64_t)((int32_t)10000)))))+(int64_t)L_16));
 	}
 
 IL_008e:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Timer_t2178_il2cpp_TypeInfo_var);
-		Scheduler_t5388 * L_17 = ((Timer_t2178_StaticFields*)Timer_t2178_il2cpp_TypeInfo_var->static_fields)->___scheduler_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Timer_t2185_il2cpp_TypeInfo_var);
+		Scheduler_t5395 * L_17 = ((Timer_t2185_StaticFields*)Timer_t2185_il2cpp_TypeInfo_var->static_fields)->___scheduler_1;
 		int64_t L_18 = V_0;
 		NullCheck(L_17);
-		Scheduler_Change_m24394(L_17, __this, L_18, /*hidden argument*/NULL);
+		Scheduler_Change_m24451(L_17, __this, L_18, /*hidden argument*/NULL);
 		return 1;
 	}
 }
@@ -9604,72 +9604,72 @@ IL_008e:
 
 
 // System.Void System.Threading.WaitHandle::.ctor()
-extern "C" void WaitHandle__ctor_m24404 (WaitHandle_t3256 * __this, const MethodInfo* method)
+extern "C" void WaitHandle__ctor_m24461 (WaitHandle_t3263 * __this, const MethodInfo* method)
 {
 	{
-		MarshalByRefObject__ctor_m18089(__this, /*hidden argument*/NULL);
+		MarshalByRefObject__ctor_m18146(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Threading.WaitHandle::.cctor()
-extern TypeInfo* WaitHandle_t3256_il2cpp_TypeInfo_var;
-extern "C" void WaitHandle__cctor_m24405 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern TypeInfo* WaitHandle_t3263_il2cpp_TypeInfo_var;
+extern "C" void WaitHandle__cctor_m24462 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		WaitHandle_t3256_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5694);
+		WaitHandle_t3263_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5712);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		IntPtr_t L_0 = IntPtr_op_Explicit_m18132(NULL /*static, unused*/, (-1), /*hidden argument*/NULL);
-		((WaitHandle_t3256_StaticFields*)WaitHandle_t3256_il2cpp_TypeInfo_var->static_fields)->___InvalidHandle_3 = L_0;
+		IntPtr_t L_0 = IntPtr_op_Explicit_m18189(NULL /*static, unused*/, (-1), /*hidden argument*/NULL);
+		((WaitHandle_t3263_StaticFields*)WaitHandle_t3263_il2cpp_TypeInfo_var->static_fields)->___InvalidHandle_3 = L_0;
 		return;
 	}
 }
 // System.Void System.Threading.WaitHandle::System.IDisposable.Dispose()
-extern "C" void WaitHandle_System_IDisposable_Dispose_m24406 (WaitHandle_t3256 * __this, const MethodInfo* method)
+extern "C" void WaitHandle_System_IDisposable_Dispose_m24463 (WaitHandle_t3263 * __this, const MethodInfo* method)
 {
 	{
 		VirtActionInvoker1< bool >::Invoke(9 /* System.Void System.Threading.WaitHandle::Dispose(System.Boolean) */, __this, 1);
-		GC_SuppressFinalize_m11489(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		GC_SuppressFinalize_m11546(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Threading.WaitHandle::CheckArray(System.Threading.WaitHandle[],System.Boolean)
-extern TypeInfo* ArgumentNullException_t788_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentNullException_t795_il2cpp_TypeInfo_var;
 extern TypeInfo* NotSupportedException_t56_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentException_t729_il2cpp_TypeInfo_var;
-extern "C" void WaitHandle_CheckArray_m24407 (Object_t * __this /* static, unused */, WaitHandleU5BU5D_t5435* ___handles, bool ___waitAll, const MethodInfo* method)
+extern TypeInfo* ArgumentException_t736_il2cpp_TypeInfo_var;
+extern "C" void WaitHandle_CheckArray_m24464 (Object_t * __this /* static, unused */, WaitHandleU5BU5D_t5442* ___handles, bool ___waitAll, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentNullException_t788_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
+		ArgumentNullException_t795_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(413);
 		NotSupportedException_t56_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(17);
-		ArgumentException_t729_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(192);
+		ArgumentException_t736_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(192);
 		s_Il2CppMethodIntialized = true;
 	}
 	int32_t V_0 = 0;
-	WaitHandle_t3256 * V_1 = {0};
-	WaitHandleU5BU5D_t5435* V_2 = {0};
+	WaitHandle_t3263 * V_1 = {0};
+	WaitHandleU5BU5D_t5442* V_2 = {0};
 	int32_t V_3 = 0;
 	{
-		WaitHandleU5BU5D_t5435* L_0 = ___handles;
+		WaitHandleU5BU5D_t5442* L_0 = ___handles;
 		if (L_0)
 		{
 			goto IL_000e;
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_1 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4224(L_1, (String_t*) &_stringLiteral6545, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_1 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4280(L_1, (String_t*) &_stringLiteral6559, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
 IL_000e:
 	{
-		WaitHandleU5BU5D_t5435* L_2 = ___handles;
+		WaitHandleU5BU5D_t5442* L_2 = ___handles;
 		NullCheck(L_2);
 		V_0 = (((int32_t)(((Array_t *)L_2)->max_length)));
 		int32_t L_3 = V_0;
@@ -9680,13 +9680,13 @@ IL_000e:
 	}
 	{
 		NotSupportedException_t56 * L_4 = (NotSupportedException_t56 *)il2cpp_codegen_object_new (NotSupportedException_t56_il2cpp_TypeInfo_var);
-		NotSupportedException__ctor_m11477(L_4, (String_t*) &_stringLiteral6546, /*hidden argument*/NULL);
+		NotSupportedException__ctor_m11534(L_4, (String_t*) &_stringLiteral6560, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
 IL_0022:
 	{
-		WaitHandleU5BU5D_t5435* L_5 = ___handles;
+		WaitHandleU5BU5D_t5442* L_5 = ___handles;
 		V_2 = L_5;
 		V_3 = 0;
 		goto IL_005b;
@@ -9694,37 +9694,37 @@ IL_0022:
 
 IL_0028:
 	{
-		WaitHandleU5BU5D_t5435* L_6 = V_2;
+		WaitHandleU5BU5D_t5442* L_6 = V_2;
 		int32_t L_7 = V_3;
 		NullCheck(L_6);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, L_7);
 		int32_t L_8 = L_7;
-		V_1 = (*(WaitHandle_t3256 **)(WaitHandle_t3256 **)SZArrayLdElema(L_6, L_8));
-		WaitHandle_t3256 * L_9 = V_1;
+		V_1 = (*(WaitHandle_t3263 **)(WaitHandle_t3263 **)SZArrayLdElema(L_6, L_8));
+		WaitHandle_t3263 * L_9 = V_1;
 		if (L_9)
 		{
 			goto IL_003f;
 		}
 	}
 	{
-		ArgumentNullException_t788 * L_10 = (ArgumentNullException_t788 *)il2cpp_codegen_object_new (ArgumentNullException_t788_il2cpp_TypeInfo_var);
-		ArgumentNullException__ctor_m4230(L_10, (String_t*) &_stringLiteral6545, (String_t*) &_stringLiteral6547, /*hidden argument*/NULL);
+		ArgumentNullException_t795 * L_10 = (ArgumentNullException_t795 *)il2cpp_codegen_object_new (ArgumentNullException_t795_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m4286(L_10, (String_t*) &_stringLiteral6559, (String_t*) &_stringLiteral6561, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_10);
 	}
 
 IL_003f:
 	{
-		WaitHandle_t3256 * L_11 = V_1;
+		WaitHandle_t3263 * L_11 = V_1;
 		NullCheck(L_11);
-		SafeWaitHandle_t4753 * L_12 = (L_11->___safe_wait_handle_2);
+		SafeWaitHandle_t4760 * L_12 = (L_11->___safe_wait_handle_2);
 		if (L_12)
 		{
 			goto IL_0057;
 		}
 	}
 	{
-		ArgumentException_t729 * L_13 = (ArgumentException_t729 *)il2cpp_codegen_object_new (ArgumentException_t729_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m3874(L_13, (String_t*) &_stringLiteral6548, (String_t*) &_stringLiteral6549, /*hidden argument*/NULL);
+		ArgumentException_t736 * L_13 = (ArgumentException_t736 *)il2cpp_codegen_object_new (ArgumentException_t736_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m3930(L_13, (String_t*) &_stringLiteral6562, (String_t*) &_stringLiteral6563, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_13);
 	}
 
@@ -9737,7 +9737,7 @@ IL_0057:
 IL_005b:
 	{
 		int32_t L_15 = V_3;
-		WaitHandleU5BU5D_t5435* L_16 = V_2;
+		WaitHandleU5BU5D_t5442* L_16 = V_2;
 		NullCheck(L_16);
 		if ((((int32_t)L_15) < ((int32_t)(((int32_t)(((Array_t *)L_16)->max_length))))))
 		{
@@ -9749,24 +9749,24 @@ IL_005b:
 	}
 }
 // System.Int32 System.Threading.WaitHandle::WaitAny_internal(System.Threading.WaitHandle[],System.Int32,System.Boolean)
-extern "C" int32_t WaitHandle_WaitAny_internal_m24408 (Object_t * __this /* static, unused */, WaitHandleU5BU5D_t5435* ___handles, int32_t ___ms, bool ___exitContext, const MethodInfo* method)
+extern "C" int32_t WaitHandle_WaitAny_internal_m24465 (Object_t * __this /* static, unused */, WaitHandleU5BU5D_t5442* ___handles, int32_t ___ms, bool ___exitContext, const MethodInfo* method)
 {
-	typedef int32_t (*WaitHandle_WaitAny_internal_m24408_ftn) (WaitHandleU5BU5D_t5435*, int32_t, bool);
-	static WaitHandle_WaitAny_internal_m24408_ftn _il2cpp_icall_func;
+	typedef int32_t (*WaitHandle_WaitAny_internal_m24465_ftn) (WaitHandleU5BU5D_t5442*, int32_t, bool);
+	static WaitHandle_WaitAny_internal_m24465_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (WaitHandle_WaitAny_internal_m24408_ftn)il2cpp_codegen_resolve_icall ("System.Threading.WaitHandle::WaitAny_internal(System.Threading.WaitHandle[],System.Int32,System.Boolean)");
+	_il2cpp_icall_func = (WaitHandle_WaitAny_internal_m24465_ftn)il2cpp_codegen_resolve_icall ("System.Threading.WaitHandle::WaitAny_internal(System.Threading.WaitHandle[],System.Int32,System.Boolean)");
 	return _il2cpp_icall_func(___handles, ___ms, ___exitContext);
 }
 // System.Int32 System.Threading.WaitHandle::WaitAny(System.Threading.WaitHandle[],System.TimeSpan,System.Boolean)
-extern TypeInfo* WaitHandle_t3256_il2cpp_TypeInfo_var;
-extern TypeInfo* ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var;
-extern "C" int32_t WaitHandle_WaitAny_m24409 (Object_t * __this /* static, unused */, WaitHandleU5BU5D_t5435* ___waitHandles, TimeSpan_t334  ___timeout, bool ___exitContext, const MethodInfo* method)
+extern TypeInfo* WaitHandle_t3263_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var;
+extern "C" int32_t WaitHandle_WaitAny_m24466 (Object_t * __this /* static, unused */, WaitHandleU5BU5D_t5442* ___waitHandles, TimeSpan_t334  ___timeout, bool ___exitContext, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		WaitHandle_t3256_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5694);
-		ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2630);
+		WaitHandle_t3263_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5712);
+		ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2648);
 		s_Il2CppMethodIntialized = true;
 	}
 	int64_t V_0 = 0;
@@ -9778,10 +9778,10 @@ extern "C" int32_t WaitHandle_WaitAny_m24409 (Object_t * __this /* static, unuse
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		WaitHandleU5BU5D_t5435* L_0 = ___waitHandles;
-		IL2CPP_RUNTIME_CLASS_INIT(WaitHandle_t3256_il2cpp_TypeInfo_var);
-		WaitHandle_CheckArray_m24407(NULL /*static, unused*/, L_0, 0, /*hidden argument*/NULL);
-		double L_1 = TimeSpan_get_TotalMilliseconds_m20788((&___timeout), /*hidden argument*/NULL);
+		WaitHandleU5BU5D_t5442* L_0 = ___waitHandles;
+		IL2CPP_RUNTIME_CLASS_INIT(WaitHandle_t3263_il2cpp_TypeInfo_var);
+		WaitHandle_CheckArray_m24464(NULL /*static, unused*/, L_0, 0, /*hidden argument*/NULL);
+		double L_1 = TimeSpan_get_TotalMilliseconds_m20845((&___timeout), /*hidden argument*/NULL);
 		V_0 = (((int64_t)L_1));
 		int64_t L_2 = V_0;
 		if ((((int64_t)L_2) < ((int64_t)(((int64_t)(-1))))))
@@ -9799,8 +9799,8 @@ extern "C" int32_t WaitHandle_WaitAny_m24409 (Object_t * __this /* static, unuse
 
 IL_001e:
 	{
-		ArgumentOutOfRangeException_t1494 * L_4 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m11476(L_4, (String_t*) &_stringLiteral3999, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_4 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m11533(L_4, (String_t*) &_stringLiteral4013, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
@@ -9817,16 +9817,16 @@ IL_0029:
 
 IL_002c:
 		{
-			SynchronizationAttribute_ExitContext_m22717(NULL /*static, unused*/, /*hidden argument*/NULL);
+			SynchronizationAttribute_ExitContext_m22774(NULL /*static, unused*/, /*hidden argument*/NULL);
 		}
 
 IL_0031:
 		{
-			WaitHandleU5BU5D_t5435* L_6 = ___waitHandles;
+			WaitHandleU5BU5D_t5442* L_6 = ___waitHandles;
 			int64_t L_7 = V_0;
 			bool L_8 = ___exitContext;
-			IL2CPP_RUNTIME_CLASS_INIT(WaitHandle_t3256_il2cpp_TypeInfo_var);
-			int32_t L_9 = WaitHandle_WaitAny_internal_m24408(NULL /*static, unused*/, L_6, (((int32_t)L_7)), L_8, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(WaitHandle_t3263_il2cpp_TypeInfo_var);
+			int32_t L_9 = WaitHandle_WaitAny_internal_m24465(NULL /*static, unused*/, L_6, (((int32_t)L_7)), L_8, /*hidden argument*/NULL);
 			V_1 = L_9;
 			IL2CPP_LEAVE(0x48, FINALLY_003f);
 		}
@@ -9854,7 +9854,7 @@ FINALLY_003f:
 
 IL_0042:
 		{
-			SynchronizationAttribute_EnterContext_m22718(NULL /*static, unused*/, /*hidden argument*/NULL);
+			SynchronizationAttribute_EnterContext_m22775(NULL /*static, unused*/, /*hidden argument*/NULL);
 		}
 
 IL_0047:
@@ -9875,42 +9875,42 @@ IL_0048:
 	}
 }
 // System.IntPtr System.Threading.WaitHandle::get_Handle()
-extern "C" IntPtr_t WaitHandle_get_Handle_m24410 (WaitHandle_t3256 * __this, const MethodInfo* method)
+extern "C" IntPtr_t WaitHandle_get_Handle_m24467 (WaitHandle_t3263 * __this, const MethodInfo* method)
 {
 	{
-		SafeWaitHandle_t4753 * L_0 = (__this->___safe_wait_handle_2);
+		SafeWaitHandle_t4760 * L_0 = (__this->___safe_wait_handle_2);
 		NullCheck(L_0);
-		IntPtr_t L_1 = SafeHandle_DangerousGetHandle_m22573(L_0, /*hidden argument*/NULL);
+		IntPtr_t L_1 = SafeHandle_DangerousGetHandle_m22630(L_0, /*hidden argument*/NULL);
 		return L_1;
 	}
 }
 // System.Void System.Threading.WaitHandle::set_Handle(System.IntPtr)
-extern TypeInfo* WaitHandle_t3256_il2cpp_TypeInfo_var;
-extern TypeInfo* SafeWaitHandle_t4753_il2cpp_TypeInfo_var;
-extern "C" void WaitHandle_set_Handle_m24411 (WaitHandle_t3256 * __this, IntPtr_t ___value, const MethodInfo* method)
+extern TypeInfo* WaitHandle_t3263_il2cpp_TypeInfo_var;
+extern TypeInfo* SafeWaitHandle_t4760_il2cpp_TypeInfo_var;
+extern "C" void WaitHandle_set_Handle_m24468 (WaitHandle_t3263 * __this, IntPtr_t ___value, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		WaitHandle_t3256_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5694);
-		SafeWaitHandle_t4753_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9367);
+		WaitHandle_t3263_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5712);
+		SafeWaitHandle_t4760_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9385);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		IntPtr_t L_0 = ___value;
-		IL2CPP_RUNTIME_CLASS_INIT(WaitHandle_t3256_il2cpp_TypeInfo_var);
-		IntPtr_t L_1 = ((WaitHandle_t3256_StaticFields*)WaitHandle_t3256_il2cpp_TypeInfo_var->static_fields)->___InvalidHandle_3;
-		bool L_2 = IntPtr_op_Equality_m10351(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(WaitHandle_t3263_il2cpp_TypeInfo_var);
+		IntPtr_t L_1 = ((WaitHandle_t3263_StaticFields*)WaitHandle_t3263_il2cpp_TypeInfo_var->static_fields)->___InvalidHandle_3;
+		bool L_2 = IntPtr_op_Equality_m10408(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		if (!L_2)
 		{
 			goto IL_0020;
 		}
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(WaitHandle_t3256_il2cpp_TypeInfo_var);
-		IntPtr_t L_3 = ((WaitHandle_t3256_StaticFields*)WaitHandle_t3256_il2cpp_TypeInfo_var->static_fields)->___InvalidHandle_3;
-		SafeWaitHandle_t4753 * L_4 = (SafeWaitHandle_t4753 *)il2cpp_codegen_object_new (SafeWaitHandle_t4753_il2cpp_TypeInfo_var);
-		SafeWaitHandle__ctor_m19304(L_4, L_3, 0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(WaitHandle_t3263_il2cpp_TypeInfo_var);
+		IntPtr_t L_3 = ((WaitHandle_t3263_StaticFields*)WaitHandle_t3263_il2cpp_TypeInfo_var->static_fields)->___InvalidHandle_3;
+		SafeWaitHandle_t4760 * L_4 = (SafeWaitHandle_t4760 *)il2cpp_codegen_object_new (SafeWaitHandle_t4760_il2cpp_TypeInfo_var);
+		SafeWaitHandle__ctor_m19361(L_4, L_3, 0, /*hidden argument*/NULL);
 		__this->___safe_wait_handle_2 = L_4;
 		goto IL_002d;
 	}
@@ -9918,8 +9918,8 @@ extern "C" void WaitHandle_set_Handle_m24411 (WaitHandle_t3256 * __this, IntPtr_
 IL_0020:
 	{
 		IntPtr_t L_5 = ___value;
-		SafeWaitHandle_t4753 * L_6 = (SafeWaitHandle_t4753 *)il2cpp_codegen_object_new (SafeWaitHandle_t4753_il2cpp_TypeInfo_var);
-		SafeWaitHandle__ctor_m19304(L_6, L_5, 1, /*hidden argument*/NULL);
+		SafeWaitHandle_t4760 * L_6 = (SafeWaitHandle_t4760 *)il2cpp_codegen_object_new (SafeWaitHandle_t4760_il2cpp_TypeInfo_var);
+		SafeWaitHandle__ctor_m19361(L_6, L_5, 1, /*hidden argument*/NULL);
 		__this->___safe_wait_handle_2 = L_6;
 	}
 
@@ -9929,18 +9929,18 @@ IL_002d:
 	}
 }
 // System.Boolean System.Threading.WaitHandle::WaitOne_internal(System.IntPtr,System.Int32,System.Boolean)
-extern "C" bool WaitHandle_WaitOne_internal_m24412 (WaitHandle_t3256 * __this, IntPtr_t ___handle, int32_t ___ms, bool ___exitContext, const MethodInfo* method)
+extern "C" bool WaitHandle_WaitOne_internal_m24469 (WaitHandle_t3263 * __this, IntPtr_t ___handle, int32_t ___ms, bool ___exitContext, const MethodInfo* method)
 {
-	typedef bool (*WaitHandle_WaitOne_internal_m24412_ftn) (WaitHandle_t3256 *, IntPtr_t, int32_t, bool);
-	static WaitHandle_WaitOne_internal_m24412_ftn _il2cpp_icall_func;
+	typedef bool (*WaitHandle_WaitOne_internal_m24469_ftn) (WaitHandle_t3263 *, IntPtr_t, int32_t, bool);
+	static WaitHandle_WaitOne_internal_m24469_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (WaitHandle_WaitOne_internal_m24412_ftn)il2cpp_codegen_resolve_icall ("System.Threading.WaitHandle::WaitOne_internal(System.IntPtr,System.Int32,System.Boolean)");
+	_il2cpp_icall_func = (WaitHandle_WaitOne_internal_m24469_ftn)il2cpp_codegen_resolve_icall ("System.Threading.WaitHandle::WaitOne_internal(System.IntPtr,System.Int32,System.Boolean)");
 	return _il2cpp_icall_func(__this, ___handle, ___ms, ___exitContext);
 }
 // System.Void System.Threading.WaitHandle::Dispose(System.Boolean)
-extern "C" void WaitHandle_Dispose_m24413 (WaitHandle_t3256 * __this, bool ___explicitDisposing, const MethodInfo* method)
+extern "C" void WaitHandle_Dispose_m24470 (WaitHandle_t3263 * __this, bool ___explicitDisposing, const MethodInfo* method)
 {
-	WaitHandle_t3256 * V_0 = {0};
+	WaitHandle_t3263 * V_0 = {0};
 	Exception_t57 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t57 * __exception_local = 0;
@@ -9956,7 +9956,7 @@ extern "C" void WaitHandle_Dispose_m24413 (WaitHandle_t3256 * __this, bool ___ex
 	}
 	{
 		__this->___disposed_4 = 1;
-		SafeWaitHandle_t4753 * L_1 = (__this->___safe_wait_handle_2);
+		SafeWaitHandle_t4760 * L_1 = (__this->___safe_wait_handle_2);
 		if (L_1)
 		{
 			goto IL_0018;
@@ -9969,15 +9969,15 @@ extern "C" void WaitHandle_Dispose_m24413 (WaitHandle_t3256 * __this, bool ___ex
 IL_0018:
 	{
 		V_0 = __this;
-		WaitHandle_t3256 * L_2 = V_0;
-		Monitor_Enter_m7533(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		WaitHandle_t3263 * L_2 = V_0;
+		Monitor_Enter_m7591(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
 	}
 
 IL_0020:
 	try
 	{ // begin try (depth: 1)
 		{
-			SafeWaitHandle_t4753 * L_3 = (__this->___safe_wait_handle_2);
+			SafeWaitHandle_t4760 * L_3 = (__this->___safe_wait_handle_2);
 			if (!L_3)
 			{
 				goto IL_0033;
@@ -9986,7 +9986,7 @@ IL_0020:
 
 IL_0028:
 		{
-			SafeWaitHandle_t4753 * L_4 = (__this->___safe_wait_handle_2);
+			SafeWaitHandle_t4760 * L_4 = (__this->___safe_wait_handle_2);
 			NullCheck(L_4);
 			VirtActionInvoker0::Invoke(4 /* System.Void System.Runtime.InteropServices.SafeHandle::Dispose() */, L_4);
 		}
@@ -10004,8 +10004,8 @@ IL_0033:
 
 FINALLY_0035:
 	{ // begin finally (depth: 1)
-		WaitHandle_t3256 * L_5 = V_0;
-		Monitor_Exit_m7534(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		WaitHandle_t3263 * L_5 = V_0;
+		Monitor_Exit_m7592(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
 		IL2CPP_END_FINALLY(53)
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(53)
@@ -10020,7 +10020,7 @@ IL_003c:
 	}
 }
 // System.Boolean System.Threading.WaitHandle::WaitOne()
-extern "C" bool WaitHandle_WaitOne_m24414 (WaitHandle_t3256 * __this, const MethodInfo* method)
+extern "C" bool WaitHandle_WaitOne_m24471 (WaitHandle_t3263 * __this, const MethodInfo* method)
 {
 	bool V_0 = false;
 	bool V_1 = false;
@@ -10031,7 +10031,7 @@ extern "C" bool WaitHandle_WaitOne_m24414 (WaitHandle_t3256 * __this, const Meth
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		WaitHandle_CheckDisposed_m24416(__this, /*hidden argument*/NULL);
+		WaitHandle_CheckDisposed_m24473(__this, /*hidden argument*/NULL);
 		V_0 = 0;
 	}
 
@@ -10039,13 +10039,13 @@ IL_0008:
 	try
 	{ // begin try (depth: 1)
 		{
-			SafeWaitHandle_t4753 * L_0 = (__this->___safe_wait_handle_2);
+			SafeWaitHandle_t4760 * L_0 = (__this->___safe_wait_handle_2);
 			NullCheck(L_0);
-			SafeHandle_DangerousAddRef_m22572(L_0, (&V_0), /*hidden argument*/NULL);
-			SafeWaitHandle_t4753 * L_1 = (__this->___safe_wait_handle_2);
+			SafeHandle_DangerousAddRef_m22629(L_0, (&V_0), /*hidden argument*/NULL);
+			SafeWaitHandle_t4760 * L_1 = (__this->___safe_wait_handle_2);
 			NullCheck(L_1);
-			IntPtr_t L_2 = SafeHandle_DangerousGetHandle_m22573(L_1, /*hidden argument*/NULL);
-			bool L_3 = WaitHandle_WaitOne_internal_m24412(__this, L_2, (-1), 0, /*hidden argument*/NULL);
+			IntPtr_t L_2 = SafeHandle_DangerousGetHandle_m22630(L_1, /*hidden argument*/NULL);
+			bool L_3 = WaitHandle_WaitOne_internal_m24469(__this, L_2, (-1), 0, /*hidden argument*/NULL);
 			V_1 = L_3;
 			IL2CPP_LEAVE(0x3C, FINALLY_002d);
 		}
@@ -10073,9 +10073,9 @@ FINALLY_002d:
 
 IL_0030:
 		{
-			SafeWaitHandle_t4753 * L_5 = (__this->___safe_wait_handle_2);
+			SafeWaitHandle_t4760 * L_5 = (__this->___safe_wait_handle_2);
 			NullCheck(L_5);
-			SafeHandle_DangerousRelease_m22574(L_5, /*hidden argument*/NULL);
+			SafeHandle_DangerousRelease_m22631(L_5, /*hidden argument*/NULL);
 		}
 
 IL_003b:
@@ -10096,13 +10096,13 @@ IL_003c:
 	}
 }
 // System.Boolean System.Threading.WaitHandle::WaitOne(System.Int32,System.Boolean)
-extern TypeInfo* ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var;
-extern "C" bool WaitHandle_WaitOne_m24415 (WaitHandle_t3256 * __this, int32_t ___millisecondsTimeout, bool ___exitContext, const MethodInfo* method)
+extern TypeInfo* ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var;
+extern "C" bool WaitHandle_WaitOne_m24472 (WaitHandle_t3263 * __this, int32_t ___millisecondsTimeout, bool ___exitContext, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2630);
+		ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(2648);
 		s_Il2CppMethodIntialized = true;
 	}
 	bool V_0 = false;
@@ -10114,7 +10114,7 @@ extern "C" bool WaitHandle_WaitOne_m24415 (WaitHandle_t3256 * __this, int32_t __
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
-		WaitHandle_CheckDisposed_m24416(__this, /*hidden argument*/NULL);
+		WaitHandle_CheckDisposed_m24473(__this, /*hidden argument*/NULL);
 		int32_t L_0 = ___millisecondsTimeout;
 		if ((((int32_t)L_0) >= ((int32_t)(-1))))
 		{
@@ -10122,8 +10122,8 @@ extern "C" bool WaitHandle_WaitOne_m24415 (WaitHandle_t3256 * __this, int32_t __
 		}
 	}
 	{
-		ArgumentOutOfRangeException_t1494 * L_1 = (ArgumentOutOfRangeException_t1494 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1494_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m11476(L_1, (String_t*) &_stringLiteral3760, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t1501 * L_1 = (ArgumentOutOfRangeException_t1501 *)il2cpp_codegen_object_new (ArgumentOutOfRangeException_t1501_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m11533(L_1, (String_t*) &_stringLiteral3774, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -10145,20 +10145,20 @@ IL_0017:
 
 IL_001a:
 		{
-			SynchronizationAttribute_ExitContext_m22717(NULL /*static, unused*/, /*hidden argument*/NULL);
+			SynchronizationAttribute_ExitContext_m22774(NULL /*static, unused*/, /*hidden argument*/NULL);
 		}
 
 IL_001f:
 		{
-			SafeWaitHandle_t4753 * L_3 = (__this->___safe_wait_handle_2);
+			SafeWaitHandle_t4760 * L_3 = (__this->___safe_wait_handle_2);
 			NullCheck(L_3);
-			SafeHandle_DangerousAddRef_m22572(L_3, (&V_0), /*hidden argument*/NULL);
-			SafeWaitHandle_t4753 * L_4 = (__this->___safe_wait_handle_2);
+			SafeHandle_DangerousAddRef_m22629(L_3, (&V_0), /*hidden argument*/NULL);
+			SafeWaitHandle_t4760 * L_4 = (__this->___safe_wait_handle_2);
 			NullCheck(L_4);
-			IntPtr_t L_5 = SafeHandle_DangerousGetHandle_m22573(L_4, /*hidden argument*/NULL);
+			IntPtr_t L_5 = SafeHandle_DangerousGetHandle_m22630(L_4, /*hidden argument*/NULL);
 			int32_t L_6 = ___millisecondsTimeout;
 			bool L_7 = ___exitContext;
-			bool L_8 = WaitHandle_WaitOne_internal_m24412(__this, L_5, L_6, L_7, /*hidden argument*/NULL);
+			bool L_8 = WaitHandle_WaitOne_internal_m24469(__this, L_5, L_6, L_7, /*hidden argument*/NULL);
 			V_1 = L_8;
 			IL2CPP_LEAVE(0x5B, FINALLY_0044);
 		}
@@ -10186,7 +10186,7 @@ FINALLY_0044:
 
 IL_0047:
 		{
-			SynchronizationAttribute_EnterContext_m22718(NULL /*static, unused*/, /*hidden argument*/NULL);
+			SynchronizationAttribute_EnterContext_m22775(NULL /*static, unused*/, /*hidden argument*/NULL);
 		}
 
 IL_004c:
@@ -10200,9 +10200,9 @@ IL_004c:
 
 IL_004f:
 		{
-			SafeWaitHandle_t4753 * L_11 = (__this->___safe_wait_handle_2);
+			SafeWaitHandle_t4760 * L_11 = (__this->___safe_wait_handle_2);
 			NullCheck(L_11);
-			SafeHandle_DangerousRelease_m22574(L_11, /*hidden argument*/NULL);
+			SafeHandle_DangerousRelease_m22631(L_11, /*hidden argument*/NULL);
 		}
 
 IL_005a:
@@ -10223,13 +10223,13 @@ IL_005b:
 	}
 }
 // System.Void System.Threading.WaitHandle::CheckDisposed()
-extern TypeInfo* ObjectDisposedException_t3264_il2cpp_TypeInfo_var;
-extern "C" void WaitHandle_CheckDisposed_m24416 (WaitHandle_t3256 * __this, const MethodInfo* method)
+extern TypeInfo* ObjectDisposedException_t3271_il2cpp_TypeInfo_var;
+extern "C" void WaitHandle_CheckDisposed_m24473 (WaitHandle_t3263 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ObjectDisposedException_t3264_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5425);
+		ObjectDisposedException_t3271_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(5443);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -10240,7 +10240,7 @@ extern "C" void WaitHandle_CheckDisposed_m24416 (WaitHandle_t3256 * __this, cons
 		}
 	}
 	{
-		SafeWaitHandle_t4753 * L_1 = (__this->___safe_wait_handle_2);
+		SafeWaitHandle_t4760 * L_1 = (__this->___safe_wait_handle_2);
 		if (L_1)
 		{
 			goto IL_0021;
@@ -10249,11 +10249,11 @@ extern "C" void WaitHandle_CheckDisposed_m24416 (WaitHandle_t3256 * __this, cons
 
 IL_0010:
 	{
-		Type_t * L_2 = Object_GetType_m4220(__this, /*hidden argument*/NULL);
+		Type_t * L_2 = Object_GetType_m4276(__this, /*hidden argument*/NULL);
 		NullCheck(L_2);
 		String_t* L_3 = (String_t*)VirtFuncInvoker0< String_t* >::Invoke(18 /* System.String System.Type::get_FullName() */, L_2);
-		ObjectDisposedException_t3264 * L_4 = (ObjectDisposedException_t3264 *)il2cpp_codegen_object_new (ObjectDisposedException_t3264_il2cpp_TypeInfo_var);
-		ObjectDisposedException__ctor_m11506(L_4, L_3, /*hidden argument*/NULL);
+		ObjectDisposedException_t3271 * L_4 = (ObjectDisposedException_t3271 *)il2cpp_codegen_object_new (ObjectDisposedException_t3271_il2cpp_TypeInfo_var);
+		ObjectDisposedException__ctor_m11563(L_4, L_3, /*hidden argument*/NULL);
 		il2cpp_codegen_raise_exception(L_4);
 	}
 
@@ -10263,7 +10263,7 @@ IL_0021:
 	}
 }
 // System.Void System.Threading.WaitHandle::Finalize()
-extern "C" void WaitHandle_Finalize_m24417 (WaitHandle_t3256 * __this, const MethodInfo* method)
+extern "C" void WaitHandle_Finalize_m24474 (WaitHandle_t3263 * __this, const MethodInfo* method)
 {
 	Exception_t57 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
@@ -10321,20 +10321,20 @@ IL_0010:
 
 
 // System.Void System.Collections.Generic.KeyNotFoundException::.ctor()
-extern "C" void KeyNotFoundException__ctor_m24418 (KeyNotFoundException_t5390 * __this, const MethodInfo* method)
+extern "C" void KeyNotFoundException__ctor_m24475 (KeyNotFoundException_t5397 * __this, const MethodInfo* method)
 {
 	{
-		SystemException__ctor_m12121(__this, (String_t*) &_stringLiteral6556, /*hidden argument*/NULL);
+		SystemException__ctor_m12178(__this, (String_t*) &_stringLiteral6570, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void System.Collections.Generic.KeyNotFoundException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void KeyNotFoundException__ctor_m24419 (KeyNotFoundException_t5390 * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___context, const MethodInfo* method)
+extern "C" void KeyNotFoundException__ctor_m24476 (KeyNotFoundException_t5397 * __this, SerializationInfo_t2947 * ___info, StreamingContext_t2948  ___context, const MethodInfo* method)
 {
 	{
-		SerializationInfo_t2940 * L_0 = ___info;
-		StreamingContext_t2941  L_1 = ___context;
-		SystemException__ctor_m14772(__this, L_0, L_1, /*hidden argument*/NULL);
+		SerializationInfo_t2947 * L_0 = ___info;
+		StreamingContext_t2948  L_1 = ___context;
+		SystemException__ctor_m14829(__this, L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -10353,29 +10353,29 @@ extern "C" void KeyNotFoundException__ctor_m24419 (KeyNotFoundException_t5390 * 
 
 
 // System.Void Mono.Math.Prime.PrimalityTest::.ctor(System.Object,System.IntPtr)
-extern "C" void PrimalityTest__ctor_m24420 (PrimalityTest_t5391 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void PrimalityTest__ctor_m24477 (PrimalityTest_t5398 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Boolean Mono.Math.Prime.PrimalityTest::Invoke(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
-extern "C" bool PrimalityTest_Invoke_m24421 (PrimalityTest_t5391 * __this, BigInteger_t4776 * ___bi, int32_t ___confidence, const MethodInfo* method)
+extern "C" bool PrimalityTest_Invoke_m24478 (PrimalityTest_t5398 * __this, BigInteger_t4783 * ___bi, int32_t ___confidence, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		PrimalityTest_Invoke_m24421((PrimalityTest_t5391 *)__this->___prev_9,___bi, ___confidence, method);
+		PrimalityTest_Invoke_m24478((PrimalityTest_t5398 *)__this->___prev_9,___bi, ___confidence, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
 	if (__this->___m_target_2 != NULL && ___methodIsStatic)
 	{
-		typedef bool (*FunctionPointerType) (Object_t *, Object_t * __this, BigInteger_t4776 * ___bi, int32_t ___confidence, const MethodInfo* method);
+		typedef bool (*FunctionPointerType) (Object_t *, Object_t * __this, BigInteger_t4783 * ___bi, int32_t ___confidence, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___bi, ___confidence,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else if (__this->___m_target_2 != NULL || ___methodIsStatic)
 	{
-		typedef bool (*FunctionPointerType) (Object_t * __this, BigInteger_t4776 * ___bi, int32_t ___confidence, const MethodInfo* method);
+		typedef bool (*FunctionPointerType) (Object_t * __this, BigInteger_t4783 * ___bi, int32_t ___confidence, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___bi, ___confidence,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else
@@ -10384,29 +10384,29 @@ extern "C" bool PrimalityTest_Invoke_m24421 (PrimalityTest_t5391 * __this, BigIn
 		return ((FunctionPointerType)__this->___method_ptr_0)(___bi, ___confidence,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" bool pinvoke_delegate_wrapper_PrimalityTest_t5391(Il2CppObject* delegate, BigInteger_t4776 * ___bi, int32_t ___confidence)
+extern "C" bool pinvoke_delegate_wrapper_PrimalityTest_t5398(Il2CppObject* delegate, BigInteger_t4783 * ___bi, int32_t ___confidence)
 {
 	// Marshaling of parameter '___bi' to native representation
-	BigInteger_t4776 * ____bi_marshaled = { 0 };
+	BigInteger_t4783 * ____bi_marshaled = { 0 };
 	il2cpp_codegen_raise_exception(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'Mono.Math.BigInteger'."));
 }
 // System.IAsyncResult Mono.Math.Prime.PrimalityTest::BeginInvoke(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor,System.AsyncCallback,System.Object)
-extern TypeInfo* ConfidenceFactor_t4779_il2cpp_TypeInfo_var;
-extern "C" Object_t * PrimalityTest_BeginInvoke_m24422 (PrimalityTest_t5391 * __this, BigInteger_t4776 * ___bi, int32_t ___confidence, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern TypeInfo* ConfidenceFactor_t4786_il2cpp_TypeInfo_var;
+extern "C" Object_t * PrimalityTest_BeginInvoke_m24479 (PrimalityTest_t5398 * __this, BigInteger_t4783 * ___bi, int32_t ___confidence, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		ConfidenceFactor_t4779_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9368);
+		ConfidenceFactor_t4786_il2cpp_TypeInfo_var = il2cpp_codegen_type_info_from_index(9386);
 		s_Il2CppMethodIntialized = true;
 	}
 	void *__d_args[3] = {0};
 	__d_args[0] = ___bi;
-	__d_args[1] = Box(ConfidenceFactor_t4779_il2cpp_TypeInfo_var, &___confidence);
+	__d_args[1] = Box(ConfidenceFactor_t4786_il2cpp_TypeInfo_var, &___confidence);
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Boolean Mono.Math.Prime.PrimalityTest::EndInvoke(System.IAsyncResult)
-extern "C" bool PrimalityTest_EndInvoke_m24423 (PrimalityTest_t5391 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" bool PrimalityTest_EndInvoke_m24480 (PrimalityTest_t5398 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 	return *(bool*)UnBox ((Il2CppCodeGenObject*)__result);
@@ -10422,18 +10422,18 @@ extern "C" bool PrimalityTest_EndInvoke_m24423 (PrimalityTest_t5391 * __this, Ob
 
 
 // System.Void System.AppDomainInitializer::.ctor(System.Object,System.IntPtr)
-extern "C" void AppDomainInitializer__ctor_m24424 (AppDomainInitializer_t4845 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void AppDomainInitializer__ctor_m24481 (AppDomainInitializer_t4852 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Void System.AppDomainInitializer::Invoke(System.String[])
-extern "C" void AppDomainInitializer_Invoke_m24425 (AppDomainInitializer_t4845 * __this, StringU5BU5D_t75* ___args, const MethodInfo* method)
+extern "C" void AppDomainInitializer_Invoke_m24482 (AppDomainInitializer_t4852 * __this, StringU5BU5D_t75* ___args, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		AppDomainInitializer_Invoke_m24425((AppDomainInitializer_t4845 *)__this->___prev_9,___args, method);
+		AppDomainInitializer_Invoke_m24482((AppDomainInitializer_t4852 *)__this->___prev_9,___args, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
@@ -10453,7 +10453,7 @@ extern "C" void AppDomainInitializer_Invoke_m24425 (AppDomainInitializer_t4845 *
 		((FunctionPointerType)__this->___method_ptr_0)(___args,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" void pinvoke_delegate_wrapper_AppDomainInitializer_t4845(Il2CppObject* delegate, StringU5BU5D_t75* ___args)
+extern "C" void pinvoke_delegate_wrapper_AppDomainInitializer_t4852(Il2CppObject* delegate, StringU5BU5D_t75* ___args)
 {
 	typedef void (STDCALL *native_function_ptr_type)(char**);
 	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
@@ -10470,14 +10470,14 @@ extern "C" void pinvoke_delegate_wrapper_AppDomainInitializer_t4845(Il2CppObject
 
 }
 // System.IAsyncResult System.AppDomainInitializer::BeginInvoke(System.String[],System.AsyncCallback,System.Object)
-extern "C" Object_t * AppDomainInitializer_BeginInvoke_m24426 (AppDomainInitializer_t4845 * __this, StringU5BU5D_t75* ___args, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * AppDomainInitializer_BeginInvoke_m24483 (AppDomainInitializer_t4852 * __this, StringU5BU5D_t75* ___args, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___args;
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Void System.AppDomainInitializer::EndInvoke(System.IAsyncResult)
-extern "C" void AppDomainInitializer_EndInvoke_m24427 (AppDomainInitializer_t4845 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" void AppDomainInitializer_EndInvoke_m24484 (AppDomainInitializer_t4852 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 }
@@ -10494,45 +10494,45 @@ extern "C" void AppDomainInitializer_EndInvoke_m24427 (AppDomainInitializer_t484
 
 
 // System.Void System.AssemblyLoadEventHandler::.ctor(System.Object,System.IntPtr)
-extern "C" void AssemblyLoadEventHandler__ctor_m24428 (AssemblyLoadEventHandler_t4841 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void AssemblyLoadEventHandler__ctor_m24485 (AssemblyLoadEventHandler_t4848 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Void System.AssemblyLoadEventHandler::Invoke(System.Object,System.AssemblyLoadEventArgs)
-extern "C" void AssemblyLoadEventHandler_Invoke_m24429 (AssemblyLoadEventHandler_t4841 * __this, Object_t * ___sender, AssemblyLoadEventArgs_t4848 * ___args, const MethodInfo* method)
+extern "C" void AssemblyLoadEventHandler_Invoke_m24486 (AssemblyLoadEventHandler_t4848 * __this, Object_t * ___sender, AssemblyLoadEventArgs_t4855 * ___args, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		AssemblyLoadEventHandler_Invoke_m24429((AssemblyLoadEventHandler_t4841 *)__this->___prev_9,___sender, ___args, method);
+		AssemblyLoadEventHandler_Invoke_m24486((AssemblyLoadEventHandler_t4848 *)__this->___prev_9,___sender, ___args, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
 	if (__this->___m_target_2 != NULL && ___methodIsStatic)
 	{
-		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, Object_t * ___sender, AssemblyLoadEventArgs_t4848 * ___args, const MethodInfo* method);
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, Object_t * ___sender, AssemblyLoadEventArgs_t4855 * ___args, const MethodInfo* method);
 		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___sender, ___args,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else if (__this->___m_target_2 != NULL || ___methodIsStatic)
 	{
-		typedef void (*FunctionPointerType) (Object_t * __this, Object_t * ___sender, AssemblyLoadEventArgs_t4848 * ___args, const MethodInfo* method);
+		typedef void (*FunctionPointerType) (Object_t * __this, Object_t * ___sender, AssemblyLoadEventArgs_t4855 * ___args, const MethodInfo* method);
 		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___sender, ___args,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else
 	{
-		typedef void (*FunctionPointerType) (Object_t * __this, AssemblyLoadEventArgs_t4848 * ___args, const MethodInfo* method);
+		typedef void (*FunctionPointerType) (Object_t * __this, AssemblyLoadEventArgs_t4855 * ___args, const MethodInfo* method);
 		((FunctionPointerType)__this->___method_ptr_0)(___sender, ___args,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" void pinvoke_delegate_wrapper_AssemblyLoadEventHandler_t4841(Il2CppObject* delegate, Object_t * ___sender, AssemblyLoadEventArgs_t4848 * ___args)
+extern "C" void pinvoke_delegate_wrapper_AssemblyLoadEventHandler_t4848(Il2CppObject* delegate, Object_t * ___sender, AssemblyLoadEventArgs_t4855 * ___args)
 {
 	// Marshaling of parameter '___sender' to native representation
 	Object_t * ____sender_marshaled = { 0 };
 	il2cpp_codegen_raise_exception(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Object'."));
 }
 // System.IAsyncResult System.AssemblyLoadEventHandler::BeginInvoke(System.Object,System.AssemblyLoadEventArgs,System.AsyncCallback,System.Object)
-extern "C" Object_t * AssemblyLoadEventHandler_BeginInvoke_m24430 (AssemblyLoadEventHandler_t4841 * __this, Object_t * ___sender, AssemblyLoadEventArgs_t4848 * ___args, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * AssemblyLoadEventHandler_BeginInvoke_m24487 (AssemblyLoadEventHandler_t4848 * __this, Object_t * ___sender, AssemblyLoadEventArgs_t4855 * ___args, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[3] = {0};
 	__d_args[0] = ___sender;
@@ -10540,7 +10540,7 @@ extern "C" Object_t * AssemblyLoadEventHandler_BeginInvoke_m24430 (AssemblyLoadE
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Void System.AssemblyLoadEventHandler::EndInvoke(System.IAsyncResult)
-extern "C" void AssemblyLoadEventHandler_EndInvoke_m24431 (AssemblyLoadEventHandler_t4841 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" void AssemblyLoadEventHandler_EndInvoke_m24488 (AssemblyLoadEventHandler_t4848 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 }
@@ -10557,45 +10557,45 @@ extern "C" void AssemblyLoadEventHandler_EndInvoke_m24431 (AssemblyLoadEventHand
 
 
 // System.Void System.ConsoleCancelEventHandler::.ctor(System.Object,System.IntPtr)
-extern "C" void ConsoleCancelEventHandler__ctor_m24432 (ConsoleCancelEventHandler_t4857 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void ConsoleCancelEventHandler__ctor_m24489 (ConsoleCancelEventHandler_t4864 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Void System.ConsoleCancelEventHandler::Invoke(System.Object,System.ConsoleCancelEventArgs)
-extern "C" void ConsoleCancelEventHandler_Invoke_m24433 (ConsoleCancelEventHandler_t4857 * __this, Object_t * ___sender, ConsoleCancelEventArgs_t4858 * ___e, const MethodInfo* method)
+extern "C" void ConsoleCancelEventHandler_Invoke_m24490 (ConsoleCancelEventHandler_t4864 * __this, Object_t * ___sender, ConsoleCancelEventArgs_t4865 * ___e, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		ConsoleCancelEventHandler_Invoke_m24433((ConsoleCancelEventHandler_t4857 *)__this->___prev_9,___sender, ___e, method);
+		ConsoleCancelEventHandler_Invoke_m24490((ConsoleCancelEventHandler_t4864 *)__this->___prev_9,___sender, ___e, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
 	if (__this->___m_target_2 != NULL && ___methodIsStatic)
 	{
-		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, Object_t * ___sender, ConsoleCancelEventArgs_t4858 * ___e, const MethodInfo* method);
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, Object_t * ___sender, ConsoleCancelEventArgs_t4865 * ___e, const MethodInfo* method);
 		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___sender, ___e,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else if (__this->___m_target_2 != NULL || ___methodIsStatic)
 	{
-		typedef void (*FunctionPointerType) (Object_t * __this, Object_t * ___sender, ConsoleCancelEventArgs_t4858 * ___e, const MethodInfo* method);
+		typedef void (*FunctionPointerType) (Object_t * __this, Object_t * ___sender, ConsoleCancelEventArgs_t4865 * ___e, const MethodInfo* method);
 		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___sender, ___e,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else
 	{
-		typedef void (*FunctionPointerType) (Object_t * __this, ConsoleCancelEventArgs_t4858 * ___e, const MethodInfo* method);
+		typedef void (*FunctionPointerType) (Object_t * __this, ConsoleCancelEventArgs_t4865 * ___e, const MethodInfo* method);
 		((FunctionPointerType)__this->___method_ptr_0)(___sender, ___e,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" void pinvoke_delegate_wrapper_ConsoleCancelEventHandler_t4857(Il2CppObject* delegate, Object_t * ___sender, ConsoleCancelEventArgs_t4858 * ___e)
+extern "C" void pinvoke_delegate_wrapper_ConsoleCancelEventHandler_t4864(Il2CppObject* delegate, Object_t * ___sender, ConsoleCancelEventArgs_t4865 * ___e)
 {
 	// Marshaling of parameter '___sender' to native representation
 	Object_t * ____sender_marshaled = { 0 };
 	il2cpp_codegen_raise_exception(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Object'."));
 }
 // System.IAsyncResult System.ConsoleCancelEventHandler::BeginInvoke(System.Object,System.ConsoleCancelEventArgs,System.AsyncCallback,System.Object)
-extern "C" Object_t * ConsoleCancelEventHandler_BeginInvoke_m24434 (ConsoleCancelEventHandler_t4857 * __this, Object_t * ___sender, ConsoleCancelEventArgs_t4858 * ___e, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * ConsoleCancelEventHandler_BeginInvoke_m24491 (ConsoleCancelEventHandler_t4864 * __this, Object_t * ___sender, ConsoleCancelEventArgs_t4865 * ___e, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[3] = {0};
 	__d_args[0] = ___sender;
@@ -10603,7 +10603,7 @@ extern "C" Object_t * ConsoleCancelEventHandler_BeginInvoke_m24434 (ConsoleCance
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Void System.ConsoleCancelEventHandler::EndInvoke(System.IAsyncResult)
-extern "C" void ConsoleCancelEventHandler_EndInvoke_m24435 (ConsoleCancelEventHandler_t4857 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" void ConsoleCancelEventHandler_EndInvoke_m24492 (ConsoleCancelEventHandler_t4864 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 }
@@ -10620,45 +10620,45 @@ extern "C" void ConsoleCancelEventHandler_EndInvoke_m24435 (ConsoleCancelEventHa
 
 
 // System.Void System.EventHandler::.ctor(System.Object,System.IntPtr)
-extern "C" void EventHandler__ctor_m18071 (EventHandler_t4264 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void EventHandler__ctor_m18128 (EventHandler_t4271 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Void System.EventHandler::Invoke(System.Object,System.EventArgs)
-extern "C" void EventHandler_Invoke_m24436 (EventHandler_t4264 * __this, Object_t * ___sender, EventArgs_t1318 * ___e, const MethodInfo* method)
+extern "C" void EventHandler_Invoke_m24493 (EventHandler_t4271 * __this, Object_t * ___sender, EventArgs_t1325 * ___e, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		EventHandler_Invoke_m24436((EventHandler_t4264 *)__this->___prev_9,___sender, ___e, method);
+		EventHandler_Invoke_m24493((EventHandler_t4271 *)__this->___prev_9,___sender, ___e, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
 	if (__this->___m_target_2 != NULL && ___methodIsStatic)
 	{
-		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, Object_t * ___sender, EventArgs_t1318 * ___e, const MethodInfo* method);
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, Object_t * ___sender, EventArgs_t1325 * ___e, const MethodInfo* method);
 		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___sender, ___e,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else if (__this->___m_target_2 != NULL || ___methodIsStatic)
 	{
-		typedef void (*FunctionPointerType) (Object_t * __this, Object_t * ___sender, EventArgs_t1318 * ___e, const MethodInfo* method);
+		typedef void (*FunctionPointerType) (Object_t * __this, Object_t * ___sender, EventArgs_t1325 * ___e, const MethodInfo* method);
 		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___sender, ___e,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else
 	{
-		typedef void (*FunctionPointerType) (Object_t * __this, EventArgs_t1318 * ___e, const MethodInfo* method);
+		typedef void (*FunctionPointerType) (Object_t * __this, EventArgs_t1325 * ___e, const MethodInfo* method);
 		((FunctionPointerType)__this->___method_ptr_0)(___sender, ___e,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" void pinvoke_delegate_wrapper_EventHandler_t4264(Il2CppObject* delegate, Object_t * ___sender, EventArgs_t1318 * ___e)
+extern "C" void pinvoke_delegate_wrapper_EventHandler_t4271(Il2CppObject* delegate, Object_t * ___sender, EventArgs_t1325 * ___e)
 {
 	// Marshaling of parameter '___sender' to native representation
 	Object_t * ____sender_marshaled = { 0 };
 	il2cpp_codegen_raise_exception(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Object'."));
 }
 // System.IAsyncResult System.EventHandler::BeginInvoke(System.Object,System.EventArgs,System.AsyncCallback,System.Object)
-extern "C" Object_t * EventHandler_BeginInvoke_m24437 (EventHandler_t4264 * __this, Object_t * ___sender, EventArgs_t1318 * ___e, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * EventHandler_BeginInvoke_m24494 (EventHandler_t4271 * __this, Object_t * ___sender, EventArgs_t1325 * ___e, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[3] = {0};
 	__d_args[0] = ___sender;
@@ -10666,7 +10666,7 @@ extern "C" Object_t * EventHandler_BeginInvoke_m24437 (EventHandler_t4264 * __th
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Void System.EventHandler::EndInvoke(System.IAsyncResult)
-extern "C" void EventHandler_EndInvoke_m24438 (EventHandler_t4264 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" void EventHandler_EndInvoke_m24495 (EventHandler_t4271 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 }
@@ -10685,45 +10685,45 @@ extern "C" void EventHandler_EndInvoke_m24438 (EventHandler_t4264 * __this, Obje
 
 
 // System.Void System.ResolveEventHandler::.ctor(System.Object,System.IntPtr)
-extern "C" void ResolveEventHandler__ctor_m24439 (ResolveEventHandler_t4842 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void ResolveEventHandler__ctor_m24496 (ResolveEventHandler_t4849 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Reflection.Assembly System.ResolveEventHandler::Invoke(System.Object,System.ResolveEventArgs)
-extern "C" Assembly_t787 * ResolveEventHandler_Invoke_m24440 (ResolveEventHandler_t4842 * __this, Object_t * ___sender, ResolveEventArgs_t4910 * ___args, const MethodInfo* method)
+extern "C" Assembly_t794 * ResolveEventHandler_Invoke_m24497 (ResolveEventHandler_t4849 * __this, Object_t * ___sender, ResolveEventArgs_t4917 * ___args, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		ResolveEventHandler_Invoke_m24440((ResolveEventHandler_t4842 *)__this->___prev_9,___sender, ___args, method);
+		ResolveEventHandler_Invoke_m24497((ResolveEventHandler_t4849 *)__this->___prev_9,___sender, ___args, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
 	if (__this->___m_target_2 != NULL && ___methodIsStatic)
 	{
-		typedef Assembly_t787 * (*FunctionPointerType) (Object_t *, Object_t * __this, Object_t * ___sender, ResolveEventArgs_t4910 * ___args, const MethodInfo* method);
+		typedef Assembly_t794 * (*FunctionPointerType) (Object_t *, Object_t * __this, Object_t * ___sender, ResolveEventArgs_t4917 * ___args, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___sender, ___args,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else if (__this->___m_target_2 != NULL || ___methodIsStatic)
 	{
-		typedef Assembly_t787 * (*FunctionPointerType) (Object_t * __this, Object_t * ___sender, ResolveEventArgs_t4910 * ___args, const MethodInfo* method);
+		typedef Assembly_t794 * (*FunctionPointerType) (Object_t * __this, Object_t * ___sender, ResolveEventArgs_t4917 * ___args, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___sender, ___args,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else
 	{
-		typedef Assembly_t787 * (*FunctionPointerType) (Object_t * __this, ResolveEventArgs_t4910 * ___args, const MethodInfo* method);
+		typedef Assembly_t794 * (*FunctionPointerType) (Object_t * __this, ResolveEventArgs_t4917 * ___args, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(___sender, ___args,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" Assembly_t787 * pinvoke_delegate_wrapper_ResolveEventHandler_t4842(Il2CppObject* delegate, Object_t * ___sender, ResolveEventArgs_t4910 * ___args)
+extern "C" Assembly_t794 * pinvoke_delegate_wrapper_ResolveEventHandler_t4849(Il2CppObject* delegate, Object_t * ___sender, ResolveEventArgs_t4917 * ___args)
 {
 	// Marshaling of parameter '___sender' to native representation
 	Object_t * ____sender_marshaled = { 0 };
 	il2cpp_codegen_raise_exception(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Object'."));
 }
 // System.IAsyncResult System.ResolveEventHandler::BeginInvoke(System.Object,System.ResolveEventArgs,System.AsyncCallback,System.Object)
-extern "C" Object_t * ResolveEventHandler_BeginInvoke_m24441 (ResolveEventHandler_t4842 * __this, Object_t * ___sender, ResolveEventArgs_t4910 * ___args, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * ResolveEventHandler_BeginInvoke_m24498 (ResolveEventHandler_t4849 * __this, Object_t * ___sender, ResolveEventArgs_t4917 * ___args, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[3] = {0};
 	__d_args[0] = ___sender;
@@ -10731,10 +10731,10 @@ extern "C" Object_t * ResolveEventHandler_BeginInvoke_m24441 (ResolveEventHandle
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Reflection.Assembly System.ResolveEventHandler::EndInvoke(System.IAsyncResult)
-extern "C" Assembly_t787 * ResolveEventHandler_EndInvoke_m24442 (ResolveEventHandler_t4842 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" Assembly_t794 * ResolveEventHandler_EndInvoke_m24499 (ResolveEventHandler_t4849 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
-	return (Assembly_t787 *)__result;
+	return (Assembly_t794 *)__result;
 }
 // System.UnhandledExceptionEventHandler
 #include "mscorlib_System_UnhandledExceptionEventHandler.h"
@@ -10749,45 +10749,45 @@ extern "C" Assembly_t787 * ResolveEventHandler_EndInvoke_m24442 (ResolveEventHan
 
 
 // System.Void System.UnhandledExceptionEventHandler::.ctor(System.Object,System.IntPtr)
-extern "C" void UnhandledExceptionEventHandler__ctor_m24443 (UnhandledExceptionEventHandler_t4843 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void UnhandledExceptionEventHandler__ctor_m24500 (UnhandledExceptionEventHandler_t4850 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Void System.UnhandledExceptionEventHandler::Invoke(System.Object,System.UnhandledExceptionEventArgs)
-extern "C" void UnhandledExceptionEventHandler_Invoke_m24444 (UnhandledExceptionEventHandler_t4843 * __this, Object_t * ___sender, UnhandledExceptionEventArgs_t4930 * ___e, const MethodInfo* method)
+extern "C" void UnhandledExceptionEventHandler_Invoke_m24501 (UnhandledExceptionEventHandler_t4850 * __this, Object_t * ___sender, UnhandledExceptionEventArgs_t4937 * ___e, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		UnhandledExceptionEventHandler_Invoke_m24444((UnhandledExceptionEventHandler_t4843 *)__this->___prev_9,___sender, ___e, method);
+		UnhandledExceptionEventHandler_Invoke_m24501((UnhandledExceptionEventHandler_t4850 *)__this->___prev_9,___sender, ___e, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
 	if (__this->___m_target_2 != NULL && ___methodIsStatic)
 	{
-		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, Object_t * ___sender, UnhandledExceptionEventArgs_t4930 * ___e, const MethodInfo* method);
+		typedef void (*FunctionPointerType) (Object_t *, Object_t * __this, Object_t * ___sender, UnhandledExceptionEventArgs_t4937 * ___e, const MethodInfo* method);
 		((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___sender, ___e,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else if (__this->___m_target_2 != NULL || ___methodIsStatic)
 	{
-		typedef void (*FunctionPointerType) (Object_t * __this, Object_t * ___sender, UnhandledExceptionEventArgs_t4930 * ___e, const MethodInfo* method);
+		typedef void (*FunctionPointerType) (Object_t * __this, Object_t * ___sender, UnhandledExceptionEventArgs_t4937 * ___e, const MethodInfo* method);
 		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___sender, ___e,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else
 	{
-		typedef void (*FunctionPointerType) (Object_t * __this, UnhandledExceptionEventArgs_t4930 * ___e, const MethodInfo* method);
+		typedef void (*FunctionPointerType) (Object_t * __this, UnhandledExceptionEventArgs_t4937 * ___e, const MethodInfo* method);
 		((FunctionPointerType)__this->___method_ptr_0)(___sender, ___e,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" void pinvoke_delegate_wrapper_UnhandledExceptionEventHandler_t4843(Il2CppObject* delegate, Object_t * ___sender, UnhandledExceptionEventArgs_t4930 * ___e)
+extern "C" void pinvoke_delegate_wrapper_UnhandledExceptionEventHandler_t4850(Il2CppObject* delegate, Object_t * ___sender, UnhandledExceptionEventArgs_t4937 * ___e)
 {
 	// Marshaling of parameter '___sender' to native representation
 	Object_t * ____sender_marshaled = { 0 };
 	il2cpp_codegen_raise_exception(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Object'."));
 }
 // System.IAsyncResult System.UnhandledExceptionEventHandler::BeginInvoke(System.Object,System.UnhandledExceptionEventArgs,System.AsyncCallback,System.Object)
-extern "C" Object_t * UnhandledExceptionEventHandler_BeginInvoke_m24445 (UnhandledExceptionEventHandler_t4843 * __this, Object_t * ___sender, UnhandledExceptionEventArgs_t4930 * ___e, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * UnhandledExceptionEventHandler_BeginInvoke_m24502 (UnhandledExceptionEventHandler_t4850 * __this, Object_t * ___sender, UnhandledExceptionEventArgs_t4937 * ___e, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[3] = {0};
 	__d_args[0] = ___sender;
@@ -10795,7 +10795,7 @@ extern "C" Object_t * UnhandledExceptionEventHandler_BeginInvoke_m24445 (Unhandl
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Void System.UnhandledExceptionEventHandler::EndInvoke(System.IAsyncResult)
-extern "C" void UnhandledExceptionEventHandler_EndInvoke_m24446 (UnhandledExceptionEventHandler_t4843 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" void UnhandledExceptionEventHandler_EndInvoke_m24503 (UnhandledExceptionEventHandler_t4850 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 }
@@ -10812,18 +10812,18 @@ extern "C" void UnhandledExceptionEventHandler_EndInvoke_m24446 (UnhandledExcept
 
 
 // System.Void System.Reflection.MemberFilter::.ctor(System.Object,System.IntPtr)
-extern "C" void MemberFilter__ctor_m24447 (MemberFilter_t4732 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void MemberFilter__ctor_m24504 (MemberFilter_t4739 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Boolean System.Reflection.MemberFilter::Invoke(System.Reflection.MemberInfo,System.Object)
-extern "C" bool MemberFilter_Invoke_m24448 (MemberFilter_t4732 * __this, MemberInfo_t * ___m, Object_t * ___filterCriteria, const MethodInfo* method)
+extern "C" bool MemberFilter_Invoke_m24505 (MemberFilter_t4739 * __this, MemberInfo_t * ___m, Object_t * ___filterCriteria, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		MemberFilter_Invoke_m24448((MemberFilter_t4732 *)__this->___prev_9,___m, ___filterCriteria, method);
+		MemberFilter_Invoke_m24505((MemberFilter_t4739 *)__this->___prev_9,___m, ___filterCriteria, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
@@ -10843,14 +10843,14 @@ extern "C" bool MemberFilter_Invoke_m24448 (MemberFilter_t4732 * __this, MemberI
 		return ((FunctionPointerType)__this->___method_ptr_0)(___m, ___filterCriteria,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" bool pinvoke_delegate_wrapper_MemberFilter_t4732(Il2CppObject* delegate, MemberInfo_t * ___m, Object_t * ___filterCriteria)
+extern "C" bool pinvoke_delegate_wrapper_MemberFilter_t4739(Il2CppObject* delegate, MemberInfo_t * ___m, Object_t * ___filterCriteria)
 {
 	// Marshaling of parameter '___m' to native representation
 	MemberInfo_t * ____m_marshaled = { 0 };
 	il2cpp_codegen_raise_exception(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Reflection.MemberInfo'."));
 }
 // System.IAsyncResult System.Reflection.MemberFilter::BeginInvoke(System.Reflection.MemberInfo,System.Object,System.AsyncCallback,System.Object)
-extern "C" Object_t * MemberFilter_BeginInvoke_m24449 (MemberFilter_t4732 * __this, MemberInfo_t * ___m, Object_t * ___filterCriteria, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * MemberFilter_BeginInvoke_m24506 (MemberFilter_t4739 * __this, MemberInfo_t * ___m, Object_t * ___filterCriteria, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[3] = {0};
 	__d_args[0] = ___m;
@@ -10858,7 +10858,7 @@ extern "C" Object_t * MemberFilter_BeginInvoke_m24449 (MemberFilter_t4732 * __th
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Boolean System.Reflection.MemberFilter::EndInvoke(System.IAsyncResult)
-extern "C" bool MemberFilter_EndInvoke_m24450 (MemberFilter_t4732 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" bool MemberFilter_EndInvoke_m24507 (MemberFilter_t4739 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 	return *(bool*)UnBox ((Il2CppCodeGenObject*)__result);
@@ -10874,18 +10874,18 @@ extern "C" bool MemberFilter_EndInvoke_m24450 (MemberFilter_t4732 * __this, Obje
 
 
 // System.Void System.Reflection.TypeFilter::.ctor(System.Object,System.IntPtr)
-extern "C" void TypeFilter__ctor_m24451 (TypeFilter_t5026 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void TypeFilter__ctor_m24508 (TypeFilter_t5033 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Boolean System.Reflection.TypeFilter::Invoke(System.Type,System.Object)
-extern "C" bool TypeFilter_Invoke_m24452 (TypeFilter_t5026 * __this, Type_t * ___m, Object_t * ___filterCriteria, const MethodInfo* method)
+extern "C" bool TypeFilter_Invoke_m24509 (TypeFilter_t5033 * __this, Type_t * ___m, Object_t * ___filterCriteria, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		TypeFilter_Invoke_m24452((TypeFilter_t5026 *)__this->___prev_9,___m, ___filterCriteria, method);
+		TypeFilter_Invoke_m24509((TypeFilter_t5033 *)__this->___prev_9,___m, ___filterCriteria, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
@@ -10905,14 +10905,14 @@ extern "C" bool TypeFilter_Invoke_m24452 (TypeFilter_t5026 * __this, Type_t * __
 		return ((FunctionPointerType)__this->___method_ptr_0)(___m, ___filterCriteria,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" bool pinvoke_delegate_wrapper_TypeFilter_t5026(Il2CppObject* delegate, Type_t * ___m, Object_t * ___filterCriteria)
+extern "C" bool pinvoke_delegate_wrapper_TypeFilter_t5033(Il2CppObject* delegate, Type_t * ___m, Object_t * ___filterCriteria)
 {
 	// Marshaling of parameter '___m' to native representation
 	Type_t * ____m_marshaled = { 0 };
 	il2cpp_codegen_raise_exception(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Type'."));
 }
 // System.IAsyncResult System.Reflection.TypeFilter::BeginInvoke(System.Type,System.Object,System.AsyncCallback,System.Object)
-extern "C" Object_t * TypeFilter_BeginInvoke_m24453 (TypeFilter_t5026 * __this, Type_t * ___m, Object_t * ___filterCriteria, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * TypeFilter_BeginInvoke_m24510 (TypeFilter_t5033 * __this, Type_t * ___m, Object_t * ___filterCriteria, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[3] = {0};
 	__d_args[0] = ___m;
@@ -10920,7 +10920,7 @@ extern "C" Object_t * TypeFilter_BeginInvoke_m24453 (TypeFilter_t5026 * __this, 
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Boolean System.Reflection.TypeFilter::EndInvoke(System.IAsyncResult)
-extern "C" bool TypeFilter_EndInvoke_m24454 (TypeFilter_t5026 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" bool TypeFilter_EndInvoke_m24511 (TypeFilter_t5033 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 	return *(bool*)UnBox ((Il2CppCodeGenObject*)__result);
@@ -10938,29 +10938,29 @@ extern "C" bool TypeFilter_EndInvoke_m24454 (TypeFilter_t5026 * __this, Object_t
 
 
 // System.Void System.Runtime.Remoting.Messaging.HeaderHandler::.ctor(System.Object,System.IntPtr)
-extern "C" void HeaderHandler__ctor_m24455 (HeaderHandler_t5393 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void HeaderHandler__ctor_m24512 (HeaderHandler_t5400 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Object System.Runtime.Remoting.Messaging.HeaderHandler::Invoke(System.Runtime.Remoting.Messaging.Header[])
-extern "C" Object_t * HeaderHandler_Invoke_m24456 (HeaderHandler_t5393 * __this, HeaderU5BU5D_t5392* ___headers, const MethodInfo* method)
+extern "C" Object_t * HeaderHandler_Invoke_m24513 (HeaderHandler_t5400 * __this, HeaderU5BU5D_t5399* ___headers, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		HeaderHandler_Invoke_m24456((HeaderHandler_t5393 *)__this->___prev_9,___headers, method);
+		HeaderHandler_Invoke_m24513((HeaderHandler_t5400 *)__this->___prev_9,___headers, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
 	if (__this->___m_target_2 != NULL && ___methodIsStatic)
 	{
-		typedef Object_t * (*FunctionPointerType) (Object_t *, Object_t * __this, HeaderU5BU5D_t5392* ___headers, const MethodInfo* method);
+		typedef Object_t * (*FunctionPointerType) (Object_t *, Object_t * __this, HeaderU5BU5D_t5399* ___headers, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___headers,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else if (__this->___m_target_2 != NULL || ___methodIsStatic)
 	{
-		typedef Object_t * (*FunctionPointerType) (Object_t * __this, HeaderU5BU5D_t5392* ___headers, const MethodInfo* method);
+		typedef Object_t * (*FunctionPointerType) (Object_t * __this, HeaderU5BU5D_t5399* ___headers, const MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___headers,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else
@@ -10969,21 +10969,21 @@ extern "C" Object_t * HeaderHandler_Invoke_m24456 (HeaderHandler_t5393 * __this,
 		return ((FunctionPointerType)__this->___method_ptr_0)(___headers,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" Object_t * pinvoke_delegate_wrapper_HeaderHandler_t5393(Il2CppObject* delegate, HeaderU5BU5D_t5392* ___headers)
+extern "C" Object_t * pinvoke_delegate_wrapper_HeaderHandler_t5400(Il2CppObject* delegate, HeaderU5BU5D_t5399* ___headers)
 {
 	// Marshaling of parameter '___headers' to native representation
-	HeaderU5BU5D_t5392* ____headers_marshaled = { 0 };
+	HeaderU5BU5D_t5399* ____headers_marshaled = { 0 };
 	il2cpp_codegen_raise_exception(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Runtime.Remoting.Messaging.Header[]'."));
 }
 // System.IAsyncResult System.Runtime.Remoting.Messaging.HeaderHandler::BeginInvoke(System.Runtime.Remoting.Messaging.Header[],System.AsyncCallback,System.Object)
-extern "C" Object_t * HeaderHandler_BeginInvoke_m24457 (HeaderHandler_t5393 * __this, HeaderU5BU5D_t5392* ___headers, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * HeaderHandler_BeginInvoke_m24514 (HeaderHandler_t5400 * __this, HeaderU5BU5D_t5399* ___headers, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___headers;
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Object System.Runtime.Remoting.Messaging.HeaderHandler::EndInvoke(System.IAsyncResult)
-extern "C" Object_t * HeaderHandler_EndInvoke_m24458 (HeaderHandler_t5393 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" Object_t * HeaderHandler_EndInvoke_m24515 (HeaderHandler_t5400 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 	return (Object_t *)__result;
@@ -10997,18 +10997,18 @@ extern "C" Object_t * HeaderHandler_EndInvoke_m24458 (HeaderHandler_t5393 * __th
 
 
 // System.Void System.Threading.ParameterizedThreadStart::.ctor(System.Object,System.IntPtr)
-extern "C" void ParameterizedThreadStart__ctor_m7952 (ParameterizedThreadStart_t2165 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void ParameterizedThreadStart__ctor_m8010 (ParameterizedThreadStart_t2172 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Void System.Threading.ParameterizedThreadStart::Invoke(System.Object)
-extern "C" void ParameterizedThreadStart_Invoke_m24459 (ParameterizedThreadStart_t2165 * __this, Object_t * ___obj, const MethodInfo* method)
+extern "C" void ParameterizedThreadStart_Invoke_m24516 (ParameterizedThreadStart_t2172 * __this, Object_t * ___obj, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		ParameterizedThreadStart_Invoke_m24459((ParameterizedThreadStart_t2165 *)__this->___prev_9,___obj, method);
+		ParameterizedThreadStart_Invoke_m24516((ParameterizedThreadStart_t2172 *)__this->___prev_9,___obj, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
@@ -11028,21 +11028,21 @@ extern "C" void ParameterizedThreadStart_Invoke_m24459 (ParameterizedThreadStart
 		((FunctionPointerType)__this->___method_ptr_0)(___obj,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" void pinvoke_delegate_wrapper_ParameterizedThreadStart_t2165(Il2CppObject* delegate, Object_t * ___obj)
+extern "C" void pinvoke_delegate_wrapper_ParameterizedThreadStart_t2172(Il2CppObject* delegate, Object_t * ___obj)
 {
 	// Marshaling of parameter '___obj' to native representation
 	Object_t * ____obj_marshaled = { 0 };
 	il2cpp_codegen_raise_exception(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Object'."));
 }
 // System.IAsyncResult System.Threading.ParameterizedThreadStart::BeginInvoke(System.Object,System.AsyncCallback,System.Object)
-extern "C" Object_t * ParameterizedThreadStart_BeginInvoke_m24460 (ParameterizedThreadStart_t2165 * __this, Object_t * ___obj, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * ParameterizedThreadStart_BeginInvoke_m24517 (ParameterizedThreadStart_t2172 * __this, Object_t * ___obj, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___obj;
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Void System.Threading.ParameterizedThreadStart::EndInvoke(System.IAsyncResult)
-extern "C" void ParameterizedThreadStart_EndInvoke_m24461 (ParameterizedThreadStart_t2165 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" void ParameterizedThreadStart_EndInvoke_m24518 (ParameterizedThreadStart_t2172 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 }
@@ -11053,18 +11053,18 @@ extern "C" void ParameterizedThreadStart_EndInvoke_m24461 (ParameterizedThreadSt
 
 
 // System.Void System.Threading.SendOrPostCallback::.ctor(System.Object,System.IntPtr)
-extern "C" void SendOrPostCallback__ctor_m8010 (SendOrPostCallback_t2182 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void SendOrPostCallback__ctor_m8068 (SendOrPostCallback_t2189 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Void System.Threading.SendOrPostCallback::Invoke(System.Object)
-extern "C" void SendOrPostCallback_Invoke_m24462 (SendOrPostCallback_t2182 * __this, Object_t * ___state, const MethodInfo* method)
+extern "C" void SendOrPostCallback_Invoke_m24519 (SendOrPostCallback_t2189 * __this, Object_t * ___state, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		SendOrPostCallback_Invoke_m24462((SendOrPostCallback_t2182 *)__this->___prev_9,___state, method);
+		SendOrPostCallback_Invoke_m24519((SendOrPostCallback_t2189 *)__this->___prev_9,___state, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
@@ -11084,21 +11084,21 @@ extern "C" void SendOrPostCallback_Invoke_m24462 (SendOrPostCallback_t2182 * __t
 		((FunctionPointerType)__this->___method_ptr_0)(___state,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" void pinvoke_delegate_wrapper_SendOrPostCallback_t2182(Il2CppObject* delegate, Object_t * ___state)
+extern "C" void pinvoke_delegate_wrapper_SendOrPostCallback_t2189(Il2CppObject* delegate, Object_t * ___state)
 {
 	// Marshaling of parameter '___state' to native representation
 	Object_t * ____state_marshaled = { 0 };
 	il2cpp_codegen_raise_exception(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Object'."));
 }
 // System.IAsyncResult System.Threading.SendOrPostCallback::BeginInvoke(System.Object,System.AsyncCallback,System.Object)
-extern "C" Object_t * SendOrPostCallback_BeginInvoke_m24463 (SendOrPostCallback_t2182 * __this, Object_t * ___state, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * SendOrPostCallback_BeginInvoke_m24520 (SendOrPostCallback_t2189 * __this, Object_t * ___state, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___state;
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Void System.Threading.SendOrPostCallback::EndInvoke(System.IAsyncResult)
-extern "C" void SendOrPostCallback_EndInvoke_m24464 (SendOrPostCallback_t2182 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" void SendOrPostCallback_EndInvoke_m24521 (SendOrPostCallback_t2189 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 }
@@ -11109,18 +11109,18 @@ extern "C" void SendOrPostCallback_EndInvoke_m24464 (SendOrPostCallback_t2182 * 
 
 
 // System.Void System.Threading.ThreadStart::.ctor(System.Object,System.IntPtr)
-extern "C" void ThreadStart__ctor_m18110 (ThreadStart_t4579 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void ThreadStart__ctor_m18167 (ThreadStart_t4586 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Void System.Threading.ThreadStart::Invoke()
-extern "C" void ThreadStart_Invoke_m24465 (ThreadStart_t4579 * __this, const MethodInfo* method)
+extern "C" void ThreadStart_Invoke_m24522 (ThreadStart_t4586 * __this, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		ThreadStart_Invoke_m24465((ThreadStart_t4579 *)__this->___prev_9, method);
+		ThreadStart_Invoke_m24522((ThreadStart_t4586 *)__this->___prev_9, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
@@ -11135,7 +11135,7 @@ extern "C" void ThreadStart_Invoke_m24465 (ThreadStart_t4579 * __this, const Met
 		((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" void pinvoke_delegate_wrapper_ThreadStart_t4579(Il2CppObject* delegate)
+extern "C" void pinvoke_delegate_wrapper_ThreadStart_t4586(Il2CppObject* delegate)
 {
 	typedef void (STDCALL *native_function_ptr_type)();
 	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
@@ -11144,13 +11144,13 @@ extern "C" void pinvoke_delegate_wrapper_ThreadStart_t4579(Il2CppObject* delegat
 
 }
 // System.IAsyncResult System.Threading.ThreadStart::BeginInvoke(System.AsyncCallback,System.Object)
-extern "C" Object_t * ThreadStart_BeginInvoke_m24466 (ThreadStart_t4579 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * ThreadStart_BeginInvoke_m24523 (ThreadStart_t4586 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[1] = {0};
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Void System.Threading.ThreadStart::EndInvoke(System.IAsyncResult)
-extern "C" void ThreadStart_EndInvoke_m24467 (ThreadStart_t4579 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" void ThreadStart_EndInvoke_m24524 (ThreadStart_t4586 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 }
@@ -11161,18 +11161,18 @@ extern "C" void ThreadStart_EndInvoke_m24467 (ThreadStart_t4579 * __this, Object
 
 
 // System.Void System.Threading.TimerCallback::.ctor(System.Object,System.IntPtr)
-extern "C" void TimerCallback__ctor_m7989 (TimerCallback_t2179 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void TimerCallback__ctor_m8047 (TimerCallback_t2186 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Void System.Threading.TimerCallback::Invoke(System.Object)
-extern "C" void TimerCallback_Invoke_m24468 (TimerCallback_t2179 * __this, Object_t * ___state, const MethodInfo* method)
+extern "C" void TimerCallback_Invoke_m24525 (TimerCallback_t2186 * __this, Object_t * ___state, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		TimerCallback_Invoke_m24468((TimerCallback_t2179 *)__this->___prev_9,___state, method);
+		TimerCallback_Invoke_m24525((TimerCallback_t2186 *)__this->___prev_9,___state, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
@@ -11192,21 +11192,21 @@ extern "C" void TimerCallback_Invoke_m24468 (TimerCallback_t2179 * __this, Objec
 		((FunctionPointerType)__this->___method_ptr_0)(___state,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" void pinvoke_delegate_wrapper_TimerCallback_t2179(Il2CppObject* delegate, Object_t * ___state)
+extern "C" void pinvoke_delegate_wrapper_TimerCallback_t2186(Il2CppObject* delegate, Object_t * ___state)
 {
 	// Marshaling of parameter '___state' to native representation
 	Object_t * ____state_marshaled = { 0 };
 	il2cpp_codegen_raise_exception(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Object'."));
 }
 // System.IAsyncResult System.Threading.TimerCallback::BeginInvoke(System.Object,System.AsyncCallback,System.Object)
-extern "C" Object_t * TimerCallback_BeginInvoke_m24469 (TimerCallback_t2179 * __this, Object_t * ___state, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * TimerCallback_BeginInvoke_m24526 (TimerCallback_t2186 * __this, Object_t * ___state, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___state;
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Void System.Threading.TimerCallback::EndInvoke(System.IAsyncResult)
-extern "C" void TimerCallback_EndInvoke_m24470 (TimerCallback_t2179 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" void TimerCallback_EndInvoke_m24527 (TimerCallback_t2186 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 }
@@ -11217,18 +11217,18 @@ extern "C" void TimerCallback_EndInvoke_m24470 (TimerCallback_t2179 * __this, Ob
 
 
 // System.Void System.Threading.WaitCallback::.ctor(System.Object,System.IntPtr)
-extern "C" void WaitCallback__ctor_m7955 (WaitCallback_t2166 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void WaitCallback__ctor_m8013 (WaitCallback_t2173 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Void System.Threading.WaitCallback::Invoke(System.Object)
-extern "C" void WaitCallback_Invoke_m24471 (WaitCallback_t2166 * __this, Object_t * ___state, const MethodInfo* method)
+extern "C" void WaitCallback_Invoke_m24528 (WaitCallback_t2173 * __this, Object_t * ___state, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		WaitCallback_Invoke_m24471((WaitCallback_t2166 *)__this->___prev_9,___state, method);
+		WaitCallback_Invoke_m24528((WaitCallback_t2173 *)__this->___prev_9,___state, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
@@ -11248,21 +11248,21 @@ extern "C" void WaitCallback_Invoke_m24471 (WaitCallback_t2166 * __this, Object_
 		((FunctionPointerType)__this->___method_ptr_0)(___state,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" void pinvoke_delegate_wrapper_WaitCallback_t2166(Il2CppObject* delegate, Object_t * ___state)
+extern "C" void pinvoke_delegate_wrapper_WaitCallback_t2173(Il2CppObject* delegate, Object_t * ___state)
 {
 	// Marshaling of parameter '___state' to native representation
 	Object_t * ____state_marshaled = { 0 };
 	il2cpp_codegen_raise_exception(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'System.Object'."));
 }
 // System.IAsyncResult System.Threading.WaitCallback::BeginInvoke(System.Object,System.AsyncCallback,System.Object)
-extern "C" Object_t * WaitCallback_BeginInvoke_m24472 (WaitCallback_t2166 * __this, Object_t * ___state, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * WaitCallback_BeginInvoke_m24529 (WaitCallback_t2173 * __this, Object_t * ___state, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___state;
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Void System.Threading.WaitCallback::EndInvoke(System.IAsyncResult)
-extern "C" void WaitCallback_EndInvoke_m24473 (WaitCallback_t2166 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" void WaitCallback_EndInvoke_m24530 (WaitCallback_t2173 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 }
@@ -11273,18 +11273,18 @@ extern "C" void WaitCallback_EndInvoke_m24473 (WaitCallback_t2166 * __this, Obje
 
 
 // System.Void System.Threading.WaitOrTimerCallback::.ctor(System.Object,System.IntPtr)
-extern "C" void WaitOrTimerCallback__ctor_m24474 (WaitOrTimerCallback_t5381 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+extern "C" void WaitOrTimerCallback__ctor_m24531 (WaitOrTimerCallback_t5388 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Void System.Threading.WaitOrTimerCallback::Invoke(System.Object,System.Boolean)
-extern "C" void WaitOrTimerCallback_Invoke_m24475 (WaitOrTimerCallback_t5381 * __this, Object_t * ___state, bool ___timedOut, const MethodInfo* method)
+extern "C" void WaitOrTimerCallback_Invoke_m24532 (WaitOrTimerCallback_t5388 * __this, Object_t * ___state, bool ___timedOut, const MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		WaitOrTimerCallback_Invoke_m24475((WaitOrTimerCallback_t5381 *)__this->___prev_9,___state, ___timedOut, method);
+		WaitOrTimerCallback_Invoke_m24532((WaitOrTimerCallback_t5388 *)__this->___prev_9,___state, ___timedOut, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
@@ -11304,7 +11304,7 @@ extern "C" void WaitOrTimerCallback_Invoke_m24475 (WaitOrTimerCallback_t5381 * _
 		((FunctionPointerType)__this->___method_ptr_0)(___state, ___timedOut,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
-extern "C" void pinvoke_delegate_wrapper_WaitOrTimerCallback_t5381(Il2CppObject* delegate, Object_t * ___state, bool ___timedOut)
+extern "C" void pinvoke_delegate_wrapper_WaitOrTimerCallback_t5388(Il2CppObject* delegate, Object_t * ___state, bool ___timedOut)
 {
 	// Marshaling of parameter '___state' to native representation
 	Object_t * ____state_marshaled = { 0 };
@@ -11312,7 +11312,7 @@ extern "C" void pinvoke_delegate_wrapper_WaitOrTimerCallback_t5381(Il2CppObject*
 }
 // System.IAsyncResult System.Threading.WaitOrTimerCallback::BeginInvoke(System.Object,System.Boolean,System.AsyncCallback,System.Object)
 extern TypeInfo* Boolean_t59_il2cpp_TypeInfo_var;
-extern "C" Object_t * WaitOrTimerCallback_BeginInvoke_m24476 (WaitOrTimerCallback_t5381 * __this, Object_t * ___state, bool ___timedOut, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
+extern "C" Object_t * WaitOrTimerCallback_BeginInvoke_m24533 (WaitOrTimerCallback_t5388 * __this, Object_t * ___state, bool ___timedOut, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -11326,7 +11326,7 @@ extern "C" Object_t * WaitOrTimerCallback_BeginInvoke_m24476 (WaitOrTimerCallbac
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Void System.Threading.WaitOrTimerCallback::EndInvoke(System.IAsyncResult)
-extern "C" void WaitOrTimerCallback_EndInvoke_m24477 (WaitOrTimerCallback_t5381 * __this, Object_t * ___result, const MethodInfo* method)
+extern "C" void WaitOrTimerCallback_EndInvoke_m24534 (WaitOrTimerCallback_t5388 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 }
@@ -11341,14 +11341,14 @@ extern "C" void WaitOrTimerCallback_EndInvoke_m24477 (WaitOrTimerCallback_t5381 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$52
-void U24ArrayTypeU2452_t5394_marshal(const U24ArrayTypeU2452_t5394& unmarshaled, U24ArrayTypeU2452_t5394_marshaled& marshaled)
+void U24ArrayTypeU2452_t5401_marshal(const U24ArrayTypeU2452_t5401& unmarshaled, U24ArrayTypeU2452_t5401_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU2452_t5394_marshal_back(const U24ArrayTypeU2452_t5394_marshaled& marshaled, U24ArrayTypeU2452_t5394& unmarshaled)
+void U24ArrayTypeU2452_t5401_marshal_back(const U24ArrayTypeU2452_t5401_marshaled& marshaled, U24ArrayTypeU2452_t5401& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$52
-void U24ArrayTypeU2452_t5394_marshal_cleanup(U24ArrayTypeU2452_t5394_marshaled& marshaled)
+void U24ArrayTypeU2452_t5401_marshal_cleanup(U24ArrayTypeU2452_t5401_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$24
@@ -11362,14 +11362,14 @@ void U24ArrayTypeU2452_t5394_marshal_cleanup(U24ArrayTypeU2452_t5394_marshaled& 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$24
-void U24ArrayTypeU2424_t5395_marshal(const U24ArrayTypeU2424_t5395& unmarshaled, U24ArrayTypeU2424_t5395_marshaled& marshaled)
+void U24ArrayTypeU2424_t5402_marshal(const U24ArrayTypeU2424_t5402& unmarshaled, U24ArrayTypeU2424_t5402_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU2424_t5395_marshal_back(const U24ArrayTypeU2424_t5395_marshaled& marshaled, U24ArrayTypeU2424_t5395& unmarshaled)
+void U24ArrayTypeU2424_t5402_marshal_back(const U24ArrayTypeU2424_t5402_marshaled& marshaled, U24ArrayTypeU2424_t5402& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$24
-void U24ArrayTypeU2424_t5395_marshal_cleanup(U24ArrayTypeU2424_t5395_marshaled& marshaled)
+void U24ArrayTypeU2424_t5402_marshal_cleanup(U24ArrayTypeU2424_t5402_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$16
@@ -11383,14 +11383,14 @@ void U24ArrayTypeU2424_t5395_marshal_cleanup(U24ArrayTypeU2424_t5395_marshaled& 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$16
-void U24ArrayTypeU2416_t5396_marshal(const U24ArrayTypeU2416_t5396& unmarshaled, U24ArrayTypeU2416_t5396_marshaled& marshaled)
+void U24ArrayTypeU2416_t5403_marshal(const U24ArrayTypeU2416_t5403& unmarshaled, U24ArrayTypeU2416_t5403_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU2416_t5396_marshal_back(const U24ArrayTypeU2416_t5396_marshaled& marshaled, U24ArrayTypeU2416_t5396& unmarshaled)
+void U24ArrayTypeU2416_t5403_marshal_back(const U24ArrayTypeU2416_t5403_marshaled& marshaled, U24ArrayTypeU2416_t5403& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$16
-void U24ArrayTypeU2416_t5396_marshal_cleanup(U24ArrayTypeU2416_t5396_marshaled& marshaled)
+void U24ArrayTypeU2416_t5403_marshal_cleanup(U24ArrayTypeU2416_t5403_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$120
@@ -11404,14 +11404,14 @@ void U24ArrayTypeU2416_t5396_marshal_cleanup(U24ArrayTypeU2416_t5396_marshaled& 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$120
-void U24ArrayTypeU24120_t5397_marshal(const U24ArrayTypeU24120_t5397& unmarshaled, U24ArrayTypeU24120_t5397_marshaled& marshaled)
+void U24ArrayTypeU24120_t5404_marshal(const U24ArrayTypeU24120_t5404& unmarshaled, U24ArrayTypeU24120_t5404_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU24120_t5397_marshal_back(const U24ArrayTypeU24120_t5397_marshaled& marshaled, U24ArrayTypeU24120_t5397& unmarshaled)
+void U24ArrayTypeU24120_t5404_marshal_back(const U24ArrayTypeU24120_t5404_marshaled& marshaled, U24ArrayTypeU24120_t5404& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$120
-void U24ArrayTypeU24120_t5397_marshal_cleanup(U24ArrayTypeU24120_t5397_marshaled& marshaled)
+void U24ArrayTypeU24120_t5404_marshal_cleanup(U24ArrayTypeU24120_t5404_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$3132
@@ -11425,14 +11425,14 @@ void U24ArrayTypeU24120_t5397_marshal_cleanup(U24ArrayTypeU24120_t5397_marshaled
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$3132
-void U24ArrayTypeU243132_t5398_marshal(const U24ArrayTypeU243132_t5398& unmarshaled, U24ArrayTypeU243132_t5398_marshaled& marshaled)
+void U24ArrayTypeU243132_t5405_marshal(const U24ArrayTypeU243132_t5405& unmarshaled, U24ArrayTypeU243132_t5405_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU243132_t5398_marshal_back(const U24ArrayTypeU243132_t5398_marshaled& marshaled, U24ArrayTypeU243132_t5398& unmarshaled)
+void U24ArrayTypeU243132_t5405_marshal_back(const U24ArrayTypeU243132_t5405_marshaled& marshaled, U24ArrayTypeU243132_t5405& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$3132
-void U24ArrayTypeU243132_t5398_marshal_cleanup(U24ArrayTypeU243132_t5398_marshaled& marshaled)
+void U24ArrayTypeU243132_t5405_marshal_cleanup(U24ArrayTypeU243132_t5405_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$20
@@ -11446,14 +11446,14 @@ void U24ArrayTypeU243132_t5398_marshal_cleanup(U24ArrayTypeU243132_t5398_marshal
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$20
-void U24ArrayTypeU2420_t5399_marshal(const U24ArrayTypeU2420_t5399& unmarshaled, U24ArrayTypeU2420_t5399_marshaled& marshaled)
+void U24ArrayTypeU2420_t5406_marshal(const U24ArrayTypeU2420_t5406& unmarshaled, U24ArrayTypeU2420_t5406_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU2420_t5399_marshal_back(const U24ArrayTypeU2420_t5399_marshaled& marshaled, U24ArrayTypeU2420_t5399& unmarshaled)
+void U24ArrayTypeU2420_t5406_marshal_back(const U24ArrayTypeU2420_t5406_marshaled& marshaled, U24ArrayTypeU2420_t5406& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$20
-void U24ArrayTypeU2420_t5399_marshal_cleanup(U24ArrayTypeU2420_t5399_marshaled& marshaled)
+void U24ArrayTypeU2420_t5406_marshal_cleanup(U24ArrayTypeU2420_t5406_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$32
@@ -11467,14 +11467,14 @@ void U24ArrayTypeU2420_t5399_marshal_cleanup(U24ArrayTypeU2420_t5399_marshaled& 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$32
-void U24ArrayTypeU2432_t5400_marshal(const U24ArrayTypeU2432_t5400& unmarshaled, U24ArrayTypeU2432_t5400_marshaled& marshaled)
+void U24ArrayTypeU2432_t5407_marshal(const U24ArrayTypeU2432_t5407& unmarshaled, U24ArrayTypeU2432_t5407_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU2432_t5400_marshal_back(const U24ArrayTypeU2432_t5400_marshaled& marshaled, U24ArrayTypeU2432_t5400& unmarshaled)
+void U24ArrayTypeU2432_t5407_marshal_back(const U24ArrayTypeU2432_t5407_marshaled& marshaled, U24ArrayTypeU2432_t5407& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$32
-void U24ArrayTypeU2432_t5400_marshal_cleanup(U24ArrayTypeU2432_t5400_marshaled& marshaled)
+void U24ArrayTypeU2432_t5407_marshal_cleanup(U24ArrayTypeU2432_t5407_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$48
@@ -11488,14 +11488,14 @@ void U24ArrayTypeU2432_t5400_marshal_cleanup(U24ArrayTypeU2432_t5400_marshaled& 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$48
-void U24ArrayTypeU2448_t5401_marshal(const U24ArrayTypeU2448_t5401& unmarshaled, U24ArrayTypeU2448_t5401_marshaled& marshaled)
+void U24ArrayTypeU2448_t5408_marshal(const U24ArrayTypeU2448_t5408& unmarshaled, U24ArrayTypeU2448_t5408_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU2448_t5401_marshal_back(const U24ArrayTypeU2448_t5401_marshaled& marshaled, U24ArrayTypeU2448_t5401& unmarshaled)
+void U24ArrayTypeU2448_t5408_marshal_back(const U24ArrayTypeU2448_t5408_marshaled& marshaled, U24ArrayTypeU2448_t5408& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$48
-void U24ArrayTypeU2448_t5401_marshal_cleanup(U24ArrayTypeU2448_t5401_marshaled& marshaled)
+void U24ArrayTypeU2448_t5408_marshal_cleanup(U24ArrayTypeU2448_t5408_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$64
@@ -11509,14 +11509,14 @@ void U24ArrayTypeU2448_t5401_marshal_cleanup(U24ArrayTypeU2448_t5401_marshaled& 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$64
-void U24ArrayTypeU2464_t5402_marshal(const U24ArrayTypeU2464_t5402& unmarshaled, U24ArrayTypeU2464_t5402_marshaled& marshaled)
+void U24ArrayTypeU2464_t5409_marshal(const U24ArrayTypeU2464_t5409& unmarshaled, U24ArrayTypeU2464_t5409_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU2464_t5402_marshal_back(const U24ArrayTypeU2464_t5402_marshaled& marshaled, U24ArrayTypeU2464_t5402& unmarshaled)
+void U24ArrayTypeU2464_t5409_marshal_back(const U24ArrayTypeU2464_t5409_marshaled& marshaled, U24ArrayTypeU2464_t5409& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$64
-void U24ArrayTypeU2464_t5402_marshal_cleanup(U24ArrayTypeU2464_t5402_marshaled& marshaled)
+void U24ArrayTypeU2464_t5409_marshal_cleanup(U24ArrayTypeU2464_t5409_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$12
@@ -11530,14 +11530,14 @@ void U24ArrayTypeU2464_t5402_marshal_cleanup(U24ArrayTypeU2464_t5402_marshaled& 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$12
-void U24ArrayTypeU2412_t5403_marshal(const U24ArrayTypeU2412_t5403& unmarshaled, U24ArrayTypeU2412_t5403_marshaled& marshaled)
+void U24ArrayTypeU2412_t5410_marshal(const U24ArrayTypeU2412_t5410& unmarshaled, U24ArrayTypeU2412_t5410_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU2412_t5403_marshal_back(const U24ArrayTypeU2412_t5403_marshaled& marshaled, U24ArrayTypeU2412_t5403& unmarshaled)
+void U24ArrayTypeU2412_t5410_marshal_back(const U24ArrayTypeU2412_t5410_marshaled& marshaled, U24ArrayTypeU2412_t5410& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$12
-void U24ArrayTypeU2412_t5403_marshal_cleanup(U24ArrayTypeU2412_t5403_marshaled& marshaled)
+void U24ArrayTypeU2412_t5410_marshal_cleanup(U24ArrayTypeU2412_t5410_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$1668
@@ -11551,14 +11551,14 @@ void U24ArrayTypeU2412_t5403_marshal_cleanup(U24ArrayTypeU2412_t5403_marshaled& 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$1668
-void U24ArrayTypeU241668_t5404_marshal(const U24ArrayTypeU241668_t5404& unmarshaled, U24ArrayTypeU241668_t5404_marshaled& marshaled)
+void U24ArrayTypeU241668_t5411_marshal(const U24ArrayTypeU241668_t5411& unmarshaled, U24ArrayTypeU241668_t5411_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU241668_t5404_marshal_back(const U24ArrayTypeU241668_t5404_marshaled& marshaled, U24ArrayTypeU241668_t5404& unmarshaled)
+void U24ArrayTypeU241668_t5411_marshal_back(const U24ArrayTypeU241668_t5411_marshaled& marshaled, U24ArrayTypeU241668_t5411& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$1668
-void U24ArrayTypeU241668_t5404_marshal_cleanup(U24ArrayTypeU241668_t5404_marshaled& marshaled)
+void U24ArrayTypeU241668_t5411_marshal_cleanup(U24ArrayTypeU241668_t5411_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$2100
@@ -11572,14 +11572,14 @@ void U24ArrayTypeU241668_t5404_marshal_cleanup(U24ArrayTypeU241668_t5404_marshal
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$2100
-void U24ArrayTypeU242100_t5405_marshal(const U24ArrayTypeU242100_t5405& unmarshaled, U24ArrayTypeU242100_t5405_marshaled& marshaled)
+void U24ArrayTypeU242100_t5412_marshal(const U24ArrayTypeU242100_t5412& unmarshaled, U24ArrayTypeU242100_t5412_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU242100_t5405_marshal_back(const U24ArrayTypeU242100_t5405_marshaled& marshaled, U24ArrayTypeU242100_t5405& unmarshaled)
+void U24ArrayTypeU242100_t5412_marshal_back(const U24ArrayTypeU242100_t5412_marshaled& marshaled, U24ArrayTypeU242100_t5412& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$2100
-void U24ArrayTypeU242100_t5405_marshal_cleanup(U24ArrayTypeU242100_t5405_marshaled& marshaled)
+void U24ArrayTypeU242100_t5412_marshal_cleanup(U24ArrayTypeU242100_t5412_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$1452
@@ -11593,14 +11593,14 @@ void U24ArrayTypeU242100_t5405_marshal_cleanup(U24ArrayTypeU242100_t5405_marshal
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$1452
-void U24ArrayTypeU241452_t5406_marshal(const U24ArrayTypeU241452_t5406& unmarshaled, U24ArrayTypeU241452_t5406_marshaled& marshaled)
+void U24ArrayTypeU241452_t5413_marshal(const U24ArrayTypeU241452_t5413& unmarshaled, U24ArrayTypeU241452_t5413_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU241452_t5406_marshal_back(const U24ArrayTypeU241452_t5406_marshaled& marshaled, U24ArrayTypeU241452_t5406& unmarshaled)
+void U24ArrayTypeU241452_t5413_marshal_back(const U24ArrayTypeU241452_t5413_marshaled& marshaled, U24ArrayTypeU241452_t5413& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$1452
-void U24ArrayTypeU241452_t5406_marshal_cleanup(U24ArrayTypeU241452_t5406_marshaled& marshaled)
+void U24ArrayTypeU241452_t5413_marshal_cleanup(U24ArrayTypeU241452_t5413_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$136
@@ -11614,14 +11614,14 @@ void U24ArrayTypeU241452_t5406_marshal_cleanup(U24ArrayTypeU241452_t5406_marshal
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$136
-void U24ArrayTypeU24136_t5407_marshal(const U24ArrayTypeU24136_t5407& unmarshaled, U24ArrayTypeU24136_t5407_marshaled& marshaled)
+void U24ArrayTypeU24136_t5414_marshal(const U24ArrayTypeU24136_t5414& unmarshaled, U24ArrayTypeU24136_t5414_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU24136_t5407_marshal_back(const U24ArrayTypeU24136_t5407_marshaled& marshaled, U24ArrayTypeU24136_t5407& unmarshaled)
+void U24ArrayTypeU24136_t5414_marshal_back(const U24ArrayTypeU24136_t5414_marshaled& marshaled, U24ArrayTypeU24136_t5414& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$136
-void U24ArrayTypeU24136_t5407_marshal_cleanup(U24ArrayTypeU24136_t5407_marshaled& marshaled)
+void U24ArrayTypeU24136_t5414_marshal_cleanup(U24ArrayTypeU24136_t5414_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$84
@@ -11635,14 +11635,14 @@ void U24ArrayTypeU24136_t5407_marshal_cleanup(U24ArrayTypeU24136_t5407_marshaled
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$84
-void U24ArrayTypeU2484_t5408_marshal(const U24ArrayTypeU2484_t5408& unmarshaled, U24ArrayTypeU2484_t5408_marshaled& marshaled)
+void U24ArrayTypeU2484_t5415_marshal(const U24ArrayTypeU2484_t5415& unmarshaled, U24ArrayTypeU2484_t5415_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU2484_t5408_marshal_back(const U24ArrayTypeU2484_t5408_marshaled& marshaled, U24ArrayTypeU2484_t5408& unmarshaled)
+void U24ArrayTypeU2484_t5415_marshal_back(const U24ArrayTypeU2484_t5415_marshaled& marshaled, U24ArrayTypeU2484_t5415& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$84
-void U24ArrayTypeU2484_t5408_marshal_cleanup(U24ArrayTypeU2484_t5408_marshaled& marshaled)
+void U24ArrayTypeU2484_t5415_marshal_cleanup(U24ArrayTypeU2484_t5415_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$72
@@ -11656,14 +11656,14 @@ void U24ArrayTypeU2484_t5408_marshal_cleanup(U24ArrayTypeU2484_t5408_marshaled& 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$72
-void U24ArrayTypeU2472_t5409_marshal(const U24ArrayTypeU2472_t5409& unmarshaled, U24ArrayTypeU2472_t5409_marshaled& marshaled)
+void U24ArrayTypeU2472_t5416_marshal(const U24ArrayTypeU2472_t5416& unmarshaled, U24ArrayTypeU2472_t5416_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU2472_t5409_marshal_back(const U24ArrayTypeU2472_t5409_marshaled& marshaled, U24ArrayTypeU2472_t5409& unmarshaled)
+void U24ArrayTypeU2472_t5416_marshal_back(const U24ArrayTypeU2472_t5416_marshaled& marshaled, U24ArrayTypeU2472_t5416& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$72
-void U24ArrayTypeU2472_t5409_marshal_cleanup(U24ArrayTypeU2472_t5409_marshaled& marshaled)
+void U24ArrayTypeU2472_t5416_marshal_cleanup(U24ArrayTypeU2472_t5416_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$124
@@ -11677,14 +11677,14 @@ void U24ArrayTypeU2472_t5409_marshal_cleanup(U24ArrayTypeU2472_t5409_marshaled& 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$124
-void U24ArrayTypeU24124_t5410_marshal(const U24ArrayTypeU24124_t5410& unmarshaled, U24ArrayTypeU24124_t5410_marshaled& marshaled)
+void U24ArrayTypeU24124_t5417_marshal(const U24ArrayTypeU24124_t5417& unmarshaled, U24ArrayTypeU24124_t5417_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU24124_t5410_marshal_back(const U24ArrayTypeU24124_t5410_marshaled& marshaled, U24ArrayTypeU24124_t5410& unmarshaled)
+void U24ArrayTypeU24124_t5417_marshal_back(const U24ArrayTypeU24124_t5417_marshaled& marshaled, U24ArrayTypeU24124_t5417& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$124
-void U24ArrayTypeU24124_t5410_marshal_cleanup(U24ArrayTypeU24124_t5410_marshaled& marshaled)
+void U24ArrayTypeU24124_t5417_marshal_cleanup(U24ArrayTypeU24124_t5417_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$96
@@ -11698,14 +11698,14 @@ void U24ArrayTypeU24124_t5410_marshal_cleanup(U24ArrayTypeU24124_t5410_marshaled
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$96
-void U24ArrayTypeU2496_t5411_marshal(const U24ArrayTypeU2496_t5411& unmarshaled, U24ArrayTypeU2496_t5411_marshaled& marshaled)
+void U24ArrayTypeU2496_t5418_marshal(const U24ArrayTypeU2496_t5418& unmarshaled, U24ArrayTypeU2496_t5418_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU2496_t5411_marshal_back(const U24ArrayTypeU2496_t5411_marshaled& marshaled, U24ArrayTypeU2496_t5411& unmarshaled)
+void U24ArrayTypeU2496_t5418_marshal_back(const U24ArrayTypeU2496_t5418_marshaled& marshaled, U24ArrayTypeU2496_t5418& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$96
-void U24ArrayTypeU2496_t5411_marshal_cleanup(U24ArrayTypeU2496_t5411_marshaled& marshaled)
+void U24ArrayTypeU2496_t5418_marshal_cleanup(U24ArrayTypeU2496_t5418_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$2048
@@ -11719,14 +11719,14 @@ void U24ArrayTypeU2496_t5411_marshal_cleanup(U24ArrayTypeU2496_t5411_marshaled& 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$2048
-void U24ArrayTypeU242048_t5412_marshal(const U24ArrayTypeU242048_t5412& unmarshaled, U24ArrayTypeU242048_t5412_marshaled& marshaled)
+void U24ArrayTypeU242048_t5419_marshal(const U24ArrayTypeU242048_t5419& unmarshaled, U24ArrayTypeU242048_t5419_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU242048_t5412_marshal_back(const U24ArrayTypeU242048_t5412_marshaled& marshaled, U24ArrayTypeU242048_t5412& unmarshaled)
+void U24ArrayTypeU242048_t5419_marshal_back(const U24ArrayTypeU242048_t5419_marshaled& marshaled, U24ArrayTypeU242048_t5419& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$2048
-void U24ArrayTypeU242048_t5412_marshal_cleanup(U24ArrayTypeU242048_t5412_marshaled& marshaled)
+void U24ArrayTypeU242048_t5419_marshal_cleanup(U24ArrayTypeU242048_t5419_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$56
@@ -11740,14 +11740,14 @@ void U24ArrayTypeU242048_t5412_marshal_cleanup(U24ArrayTypeU242048_t5412_marshal
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$56
-void U24ArrayTypeU2456_t5413_marshal(const U24ArrayTypeU2456_t5413& unmarshaled, U24ArrayTypeU2456_t5413_marshaled& marshaled)
+void U24ArrayTypeU2456_t5420_marshal(const U24ArrayTypeU2456_t5420& unmarshaled, U24ArrayTypeU2456_t5420_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU2456_t5413_marshal_back(const U24ArrayTypeU2456_t5413_marshaled& marshaled, U24ArrayTypeU2456_t5413& unmarshaled)
+void U24ArrayTypeU2456_t5420_marshal_back(const U24ArrayTypeU2456_t5420_marshaled& marshaled, U24ArrayTypeU2456_t5420& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$56
-void U24ArrayTypeU2456_t5413_marshal_cleanup(U24ArrayTypeU2456_t5413_marshaled& marshaled)
+void U24ArrayTypeU2456_t5420_marshal_cleanup(U24ArrayTypeU2456_t5420_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$256
@@ -11761,14 +11761,14 @@ void U24ArrayTypeU2456_t5413_marshal_cleanup(U24ArrayTypeU2456_t5413_marshaled& 
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$256
-void U24ArrayTypeU24256_t5414_marshal(const U24ArrayTypeU24256_t5414& unmarshaled, U24ArrayTypeU24256_t5414_marshaled& marshaled)
+void U24ArrayTypeU24256_t5421_marshal(const U24ArrayTypeU24256_t5421& unmarshaled, U24ArrayTypeU24256_t5421_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU24256_t5414_marshal_back(const U24ArrayTypeU24256_t5414_marshaled& marshaled, U24ArrayTypeU24256_t5414& unmarshaled)
+void U24ArrayTypeU24256_t5421_marshal_back(const U24ArrayTypeU24256_t5421_marshaled& marshaled, U24ArrayTypeU24256_t5421& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$256
-void U24ArrayTypeU24256_t5414_marshal_cleanup(U24ArrayTypeU24256_t5414_marshaled& marshaled)
+void U24ArrayTypeU24256_t5421_marshal_cleanup(U24ArrayTypeU24256_t5421_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$1024
@@ -11782,14 +11782,14 @@ void U24ArrayTypeU24256_t5414_marshal_cleanup(U24ArrayTypeU24256_t5414_marshaled
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$1024
-void U24ArrayTypeU241024_t5415_marshal(const U24ArrayTypeU241024_t5415& unmarshaled, U24ArrayTypeU241024_t5415_marshaled& marshaled)
+void U24ArrayTypeU241024_t5422_marshal(const U24ArrayTypeU241024_t5422& unmarshaled, U24ArrayTypeU241024_t5422_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU241024_t5415_marshal_back(const U24ArrayTypeU241024_t5415_marshaled& marshaled, U24ArrayTypeU241024_t5415& unmarshaled)
+void U24ArrayTypeU241024_t5422_marshal_back(const U24ArrayTypeU241024_t5422_marshaled& marshaled, U24ArrayTypeU241024_t5422& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$1024
-void U24ArrayTypeU241024_t5415_marshal_cleanup(U24ArrayTypeU241024_t5415_marshaled& marshaled)
+void U24ArrayTypeU241024_t5422_marshal_cleanup(U24ArrayTypeU241024_t5422_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$640
@@ -11803,14 +11803,14 @@ void U24ArrayTypeU241024_t5415_marshal_cleanup(U24ArrayTypeU241024_t5415_marshal
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$640
-void U24ArrayTypeU24640_t5416_marshal(const U24ArrayTypeU24640_t5416& unmarshaled, U24ArrayTypeU24640_t5416_marshaled& marshaled)
+void U24ArrayTypeU24640_t5423_marshal(const U24ArrayTypeU24640_t5423& unmarshaled, U24ArrayTypeU24640_t5423_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU24640_t5416_marshal_back(const U24ArrayTypeU24640_t5416_marshaled& marshaled, U24ArrayTypeU24640_t5416& unmarshaled)
+void U24ArrayTypeU24640_t5423_marshal_back(const U24ArrayTypeU24640_t5423_marshaled& marshaled, U24ArrayTypeU24640_t5423& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$640
-void U24ArrayTypeU24640_t5416_marshal_cleanup(U24ArrayTypeU24640_t5416_marshaled& marshaled)
+void U24ArrayTypeU24640_t5423_marshal_cleanup(U24ArrayTypeU24640_t5423_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$160
@@ -11824,14 +11824,14 @@ void U24ArrayTypeU24640_t5416_marshal_cleanup(U24ArrayTypeU24640_t5416_marshaled
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$160
-void U24ArrayTypeU24160_t5417_marshal(const U24ArrayTypeU24160_t5417& unmarshaled, U24ArrayTypeU24160_t5417_marshaled& marshaled)
+void U24ArrayTypeU24160_t5424_marshal(const U24ArrayTypeU24160_t5424& unmarshaled, U24ArrayTypeU24160_t5424_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU24160_t5417_marshal_back(const U24ArrayTypeU24160_t5417_marshaled& marshaled, U24ArrayTypeU24160_t5417& unmarshaled)
+void U24ArrayTypeU24160_t5424_marshal_back(const U24ArrayTypeU24160_t5424_marshaled& marshaled, U24ArrayTypeU24160_t5424& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$160
-void U24ArrayTypeU24160_t5417_marshal_cleanup(U24ArrayTypeU24160_t5417_marshaled& marshaled)
+void U24ArrayTypeU24160_t5424_marshal_cleanup(U24ArrayTypeU24160_t5424_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>/$ArrayType$128
@@ -11845,14 +11845,14 @@ void U24ArrayTypeU24160_t5417_marshal_cleanup(U24ArrayTypeU24160_t5417_marshaled
 
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$128
-void U24ArrayTypeU24128_t5418_marshal(const U24ArrayTypeU24128_t5418& unmarshaled, U24ArrayTypeU24128_t5418_marshaled& marshaled)
+void U24ArrayTypeU24128_t5425_marshal(const U24ArrayTypeU24128_t5425& unmarshaled, U24ArrayTypeU24128_t5425_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU24128_t5418_marshal_back(const U24ArrayTypeU24128_t5418_marshaled& marshaled, U24ArrayTypeU24128_t5418& unmarshaled)
+void U24ArrayTypeU24128_t5425_marshal_back(const U24ArrayTypeU24128_t5425_marshaled& marshaled, U24ArrayTypeU24128_t5425& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$128
-void U24ArrayTypeU24128_t5418_marshal_cleanup(U24ArrayTypeU24128_t5418_marshaled& marshaled)
+void U24ArrayTypeU24128_t5425_marshal_cleanup(U24ArrayTypeU24128_t5425_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>

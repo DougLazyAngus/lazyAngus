@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.TouchScreenKeyboardType
-struct TouchScreenKeyboardType_t1094;
+struct TouchScreenKeyboardType_t1101;
 

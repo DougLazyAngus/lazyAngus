@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Configuration.MailSettingsSectionGroup
-struct MailSettingsSectionGroup_t4328;
+struct MailSettingsSectionGroup_t4335;
 

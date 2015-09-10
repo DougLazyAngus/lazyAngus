@@ -5,7 +5,7 @@
 // System.Security.SecurityZone
 #include "mscorlib_System_Security_SecurityZone.h"
 // System.Security.SecurityZone
-struct  SecurityZone_t5248 
+struct  SecurityZone_t5255 
 {
 	// System.Int32 System.Security.SecurityZone::value__
 	int32_t ___value___1;

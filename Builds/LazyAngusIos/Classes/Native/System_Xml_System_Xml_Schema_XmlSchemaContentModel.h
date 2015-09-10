@@ -3,6 +3,6 @@
 // System.Xml.Schema.XmlSchemaAnnotated
 #include "System_Xml_System_Xml_Schema_XmlSchemaAnnotated.h"
 // System.Xml.Schema.XmlSchemaContentModel
-struct  XmlSchemaContentModel_t3645  : public XmlSchemaAnnotated_t3632
+struct  XmlSchemaContentModel_t3652  : public XmlSchemaAnnotated_t3639
 {
 };

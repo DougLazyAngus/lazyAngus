@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Array/InternalEnumerator`1<System.Net.IPAddress>
-struct InternalEnumerator_1_t9247;
+struct InternalEnumerator_1_t9254;
 // System.Object
 struct Object_t;
 // System.Net.IPAddress
-struct IPAddress_t4386;
+struct IPAddress_t4393;
 // System.Array
 struct Array_t;
 
 // System.Void System.Array/InternalEnumerator`1<System.Net.IPAddress>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m68938(__this, ___array, method) (( void (*) (InternalEnumerator_1_t9247 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m25550_gshared)(__this, ___array, method)
+#define InternalEnumerator_1__ctor_m68995(__this, ___array, method) (( void (*) (InternalEnumerator_1_t9254 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m25607_gshared)(__this, ___array, method)
 // System.Void System.Array/InternalEnumerator`1<System.Net.IPAddress>::System.Collections.IEnumerator.Reset()
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m68939(__this, method) (( void (*) (InternalEnumerator_1_t9247 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m25551_gshared)(__this, method)
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m68996(__this, method) (( void (*) (InternalEnumerator_1_t9254 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m25608_gshared)(__this, method)
 // System.Object System.Array/InternalEnumerator`1<System.Net.IPAddress>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m68940(__this, method) (( Object_t * (*) (InternalEnumerator_1_t9247 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m25552_gshared)(__this, method)
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m68997(__this, method) (( Object_t * (*) (InternalEnumerator_1_t9254 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m25609_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<System.Net.IPAddress>::Dispose()
-#define InternalEnumerator_1_Dispose_m68941(__this, method) (( void (*) (InternalEnumerator_1_t9247 *, const MethodInfo*))InternalEnumerator_1_Dispose_m25553_gshared)(__this, method)
+#define InternalEnumerator_1_Dispose_m68998(__this, method) (( void (*) (InternalEnumerator_1_t9254 *, const MethodInfo*))InternalEnumerator_1_Dispose_m25610_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<System.Net.IPAddress>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m68942(__this, method) (( bool (*) (InternalEnumerator_1_t9247 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m25554_gshared)(__this, method)
+#define InternalEnumerator_1_MoveNext_m68999(__this, method) (( bool (*) (InternalEnumerator_1_t9254 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m25611_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<System.Net.IPAddress>::get_Current()
-#define InternalEnumerator_1_get_Current_m68943(__this, method) (( IPAddress_t4386 * (*) (InternalEnumerator_1_t9247 *, const MethodInfo*))InternalEnumerator_1_get_Current_m25555_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m69000(__this, method) (( IPAddress_t4393 * (*) (InternalEnumerator_1_t9254 *, const MethodInfo*))InternalEnumerator_1_get_Current_m25612_gshared)(__this, method)

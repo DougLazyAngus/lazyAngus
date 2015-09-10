@@ -9,12 +9,12 @@ struct AN_SocialSharingProxy_t176;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t700;
+struct ObjectU5BU5D_t707;
 
 // System.Void AN_SocialSharingProxy::.ctor()
 extern "C" void AN_SocialSharingProxy__ctor_m1201 (AN_SocialSharingProxy_t176 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_SocialSharingProxy::CallActivityFunction(System.String,System.Object[])
-extern "C" void AN_SocialSharingProxy_CallActivityFunction_m1202 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t700* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AN_SocialSharingProxy_CallActivityFunction_m1202 (Object_t * __this /* static, unused */, String_t* ___methodName, ObjectU5BU5D_t707* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_SocialSharingProxy::StartGooglePlusShareIntent(System.String,System.String)
 extern "C" void AN_SocialSharingProxy_StartGooglePlusShareIntent_m1203 (Object_t * __this /* static, unused */, String_t* ___text, String_t* ___media, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void AN_SocialSharingProxy::StartShareIntent(System.String,System.String,System.String,System.String)

@@ -5,7 +5,7 @@
 // System.LoaderOptimization
 #include "mscorlib_System_LoaderOptimization.h"
 // System.LoaderOptimization
-struct  LoaderOptimization_t4892 
+struct  LoaderOptimization_t4899 
 {
 	// System.Int32 System.LoaderOptimization::value__
 	int32_t ___value___1;

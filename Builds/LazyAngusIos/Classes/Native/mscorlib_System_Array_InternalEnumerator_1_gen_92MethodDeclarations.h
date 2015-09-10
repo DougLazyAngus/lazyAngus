@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Array/InternalEnumerator`1<UnityEngine.iOS.RemoteNotification>
-struct InternalEnumerator_1_t8995;
+struct InternalEnumerator_1_t9002;
 // System.Object
 struct Object_t;
 // UnityEngine.iOS.RemoteNotification
-struct RemoteNotification_t2783;
+struct RemoteNotification_t2790;
 // System.Array
 struct Array_t;
 
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.iOS.RemoteNotification>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m65364(__this, ___array, method) (( void (*) (InternalEnumerator_1_t8995 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m25550_gshared)(__this, ___array, method)
+#define InternalEnumerator_1__ctor_m65421(__this, ___array, method) (( void (*) (InternalEnumerator_1_t9002 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m25607_gshared)(__this, ___array, method)
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.iOS.RemoteNotification>::System.Collections.IEnumerator.Reset()
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m65365(__this, method) (( void (*) (InternalEnumerator_1_t8995 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m25551_gshared)(__this, method)
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m65422(__this, method) (( void (*) (InternalEnumerator_1_t9002 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m25608_gshared)(__this, method)
 // System.Object System.Array/InternalEnumerator`1<UnityEngine.iOS.RemoteNotification>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m65366(__this, method) (( Object_t * (*) (InternalEnumerator_1_t8995 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m25552_gshared)(__this, method)
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m65423(__this, method) (( Object_t * (*) (InternalEnumerator_1_t9002 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m25609_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.iOS.RemoteNotification>::Dispose()
-#define InternalEnumerator_1_Dispose_m65367(__this, method) (( void (*) (InternalEnumerator_1_t8995 *, const MethodInfo*))InternalEnumerator_1_Dispose_m25553_gshared)(__this, method)
+#define InternalEnumerator_1_Dispose_m65424(__this, method) (( void (*) (InternalEnumerator_1_t9002 *, const MethodInfo*))InternalEnumerator_1_Dispose_m25610_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<UnityEngine.iOS.RemoteNotification>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m65368(__this, method) (( bool (*) (InternalEnumerator_1_t8995 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m25554_gshared)(__this, method)
+#define InternalEnumerator_1_MoveNext_m65425(__this, method) (( bool (*) (InternalEnumerator_1_t9002 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m25611_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<UnityEngine.iOS.RemoteNotification>::get_Current()
-#define InternalEnumerator_1_get_Current_m65369(__this, method) (( RemoteNotification_t2783 * (*) (InternalEnumerator_1_t8995 *, const MethodInfo*))InternalEnumerator_1_get_Current_m25555_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m65426(__this, method) (( RemoteNotification_t2790 * (*) (InternalEnumerator_1_t9002 *, const MethodInfo*))InternalEnumerator_1_get_Current_m25612_gshared)(__this, method)

@@ -5,7 +5,7 @@
 // System.Security.Permissions.PermissionState
 #include "mscorlib_System_Security_Permissions_PermissionState.h"
 // System.Security.Permissions.PermissionState
-struct  PermissionState_t5308 
+struct  PermissionState_t5315 
 {
 	// System.Int32 System.Security.Permissions.PermissionState::value__
 	int32_t ___value___1;

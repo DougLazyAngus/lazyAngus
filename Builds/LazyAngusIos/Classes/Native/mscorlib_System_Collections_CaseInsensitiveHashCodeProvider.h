@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.CaseInsensitiveHashCodeProvider
-struct CaseInsensitiveHashCodeProvider_t4560;
+struct CaseInsensitiveHashCodeProvider_t4567;
 // System.Object
 struct Object_t;
 // System.Globalization.TextInfo
-struct TextInfo_t4585;
+struct TextInfo_t4592;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.CaseInsensitiveHashCodeProvider
-struct  CaseInsensitiveHashCodeProvider_t4560  : public Object_t
+struct  CaseInsensitiveHashCodeProvider_t4567  : public Object_t
 {
 	// System.Globalization.TextInfo System.Collections.CaseInsensitiveHashCodeProvider::m_text
-	TextInfo_t4585 * ___m_text_3;
+	TextInfo_t4592 * ___m_text_3;
 };
-struct CaseInsensitiveHashCodeProvider_t4560_StaticFields{
+struct CaseInsensitiveHashCodeProvider_t4567_StaticFields{
 	// System.Collections.CaseInsensitiveHashCodeProvider System.Collections.CaseInsensitiveHashCodeProvider::singletonInvariant
-	CaseInsensitiveHashCodeProvider_t4560 * ___singletonInvariant_0;
+	CaseInsensitiveHashCodeProvider_t4567 * ___singletonInvariant_0;
 	// System.Collections.CaseInsensitiveHashCodeProvider System.Collections.CaseInsensitiveHashCodeProvider::singleton
-	CaseInsensitiveHashCodeProvider_t4560 * ___singleton_1;
+	CaseInsensitiveHashCodeProvider_t4567 * ___singleton_1;
 	// System.Object System.Collections.CaseInsensitiveHashCodeProvider::sync
 	Object_t * ___sync_2;
 };

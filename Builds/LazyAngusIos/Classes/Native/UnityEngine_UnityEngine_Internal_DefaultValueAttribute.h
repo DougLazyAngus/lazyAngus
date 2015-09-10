@@ -5,7 +5,7 @@ struct Object_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // UnityEngine.Internal.DefaultValueAttribute
-struct  DefaultValueAttribute_t2914  : public Attribute_t426
+struct  DefaultValueAttribute_t2921  : public Attribute_t426
 {
 	// System.Object UnityEngine.Internal.DefaultValueAttribute::DefaultValue
 	Object_t * ___DefaultValue_0;

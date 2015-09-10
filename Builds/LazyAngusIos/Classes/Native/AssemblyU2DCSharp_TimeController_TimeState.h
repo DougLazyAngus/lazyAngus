@@ -5,7 +5,7 @@
 // TimeController/TimeState
 #include "AssemblyU2DCSharp_TimeController_TimeState.h"
 // TimeController/TimeState
-struct  TimeState_t677 
+struct  TimeState_t648 
 {
 	// System.Int32 TimeController/TimeState::value__
 	int32_t ___value___1;

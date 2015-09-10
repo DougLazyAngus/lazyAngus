@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.HostSecurityManagerOptions
-struct HostSecurityManagerOptions_t5232;
+struct HostSecurityManagerOptions_t5239;
 

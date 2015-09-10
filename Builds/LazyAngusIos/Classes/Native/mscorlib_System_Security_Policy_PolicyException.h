@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.Security.Policy.PolicyException
-struct  PolicyException_t5341  : public SystemException_t3387
+struct  PolicyException_t5348  : public SystemException_t3394
 {
 };

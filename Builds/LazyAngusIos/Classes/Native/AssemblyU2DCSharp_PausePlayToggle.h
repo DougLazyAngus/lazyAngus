@@ -3,6 +3,6 @@
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PausePlayToggle
-struct  PausePlayToggle_t619  : public MonoBehaviour_t13
+struct  PausePlayToggle_t555  : public MonoBehaviour_t13
 {
 };

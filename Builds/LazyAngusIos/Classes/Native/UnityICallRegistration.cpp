@@ -1,4 +1,4 @@
-//Generated on : 9/8/2015 11:20:54 AM
+//Generated on : 9/9/2015 4:05:43 PM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.AnimationCurve
@@ -119,10 +119,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AudioSource_get_isPlaying();
 		Register_UnityEngine_AudioSource_get_isPlaying();
 
-		//System.Void UnityEngine.AudioSource::INTERNAL_CALL_Pause(UnityEngine.AudioSource)
-		void Register_UnityEngine_AudioSource_INTERNAL_CALL_Pause();
-		Register_UnityEngine_AudioSource_INTERNAL_CALL_Pause();
-
 		//System.Void UnityEngine.AudioSource::Play(System.UInt64)
 		void Register_UnityEngine_AudioSource_Play();
 		Register_UnityEngine_AudioSource_Play();
@@ -142,6 +138,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.AudioSource::set_clip(UnityEngine.AudioClip)
 		void Register_UnityEngine_AudioSource_set_clip();
 		Register_UnityEngine_AudioSource_set_clip();
+
+		//System.Void UnityEngine.AudioSource::set_volume(System.Single)
+		void Register_UnityEngine_AudioSource_set_volume();
+		Register_UnityEngine_AudioSource_set_volume();
 
 	//End Registrations for type : UnityEngine.AudioSource
 
@@ -1870,6 +1870,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Single UnityEngine.Time::get_deltaTime()
 		void Register_UnityEngine_Time_get_deltaTime();
 		Register_UnityEngine_Time_get_deltaTime();
+
+		//System.Single UnityEngine.Time::get_realtimeSinceStartup()
+		void Register_UnityEngine_Time_get_realtimeSinceStartup();
+		Register_UnityEngine_Time_get_realtimeSinceStartup();
 
 		//System.Single UnityEngine.Time::get_time()
 		void Register_UnityEngine_Time_get_time();

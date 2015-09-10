@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<System.Object>
-struct IList_1_t1396;
+struct IList_1_t1403;
 // System.Threading.Tasks.Task
 #include "Parse_Unity_System_Threading_Tasks_Task.h"
 // System.Threading.Tasks.Task`1<System.Collections.Generic.IList`1<System.Object>>
-struct  Task_1_t1581  : public Task_t1231
+struct  Task_1_t1588  : public Task_t1238
 {
 	// T System.Threading.Tasks.Task`1<System.Collections.Generic.IList`1<System.Object>>::result
 	Object_t* ___result_9;

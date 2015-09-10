@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.Encoding
-struct Encoding_t757;
+struct Encoding_t764;
 // System.Text.Decoder
 #include "mscorlib_System_Text_Decoder.h"
 // System.Text.Encoding/ForwardingDecoder
-struct  ForwardingDecoder_t5368  : public Decoder_t3567
+struct  ForwardingDecoder_t5375  : public Decoder_t3574
 {
 	// System.Text.Encoding System.Text.Encoding/ForwardingDecoder::encoding
-	Encoding_t757 * ___encoding_2;
+	Encoding_t764 * ___encoding_2;
 };

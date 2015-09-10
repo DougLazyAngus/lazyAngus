@@ -3,32 +3,32 @@
 // System.String
 struct String_t;
 // System.Collections.ArrayList
-struct ArrayList_t716;
+struct ArrayList_t723;
 // System.Char[]
-struct CharU5BU5D_t715;
+struct CharU5BU5D_t722;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.SecurityElement
-struct  SecurityElement_t4831  : public Object_t
+struct  SecurityElement_t4838  : public Object_t
 {
 	// System.String System.Security.SecurityElement::text
 	String_t* ___text_0;
 	// System.String System.Security.SecurityElement::tag
 	String_t* ___tag_1;
 	// System.Collections.ArrayList System.Security.SecurityElement::attributes
-	ArrayList_t716 * ___attributes_2;
+	ArrayList_t723 * ___attributes_2;
 	// System.Collections.ArrayList System.Security.SecurityElement::children
-	ArrayList_t716 * ___children_3;
+	ArrayList_t723 * ___children_3;
 };
-struct SecurityElement_t4831_StaticFields{
+struct SecurityElement_t4838_StaticFields{
 	// System.Char[] System.Security.SecurityElement::invalid_tag_chars
-	CharU5BU5D_t715* ___invalid_tag_chars_4;
+	CharU5BU5D_t722* ___invalid_tag_chars_4;
 	// System.Char[] System.Security.SecurityElement::invalid_text_chars
-	CharU5BU5D_t715* ___invalid_text_chars_5;
+	CharU5BU5D_t722* ___invalid_text_chars_5;
 	// System.Char[] System.Security.SecurityElement::invalid_attr_name_chars
-	CharU5BU5D_t715* ___invalid_attr_name_chars_6;
+	CharU5BU5D_t722* ___invalid_attr_name_chars_6;
 	// System.Char[] System.Security.SecurityElement::invalid_attr_value_chars
-	CharU5BU5D_t715* ___invalid_attr_value_chars_7;
+	CharU5BU5D_t722* ___invalid_attr_value_chars_7;
 	// System.Char[] System.Security.SecurityElement::invalid_chars
-	CharU5BU5D_t715* ___invalid_chars_8;
+	CharU5BU5D_t722* ___invalid_chars_8;
 };

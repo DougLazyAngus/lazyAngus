@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.GraphicRegistry
-struct GraphicRegistry_t947;
+struct GraphicRegistry_t954;
 // System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
-struct Dictionary_2_t948;
+struct Dictionary_2_t955;
 // System.Collections.Generic.List`1<UnityEngine.UI.Graphic>
-struct List_1_t944;
+struct List_1_t951;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.UI.GraphicRegistry
-struct  GraphicRegistry_t947  : public Object_t
+struct  GraphicRegistry_t954  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>> UnityEngine.UI.GraphicRegistry::m_Graphics
-	Dictionary_2_t948 * ___m_Graphics_1;
+	Dictionary_2_t955 * ___m_Graphics_1;
 };
-struct GraphicRegistry_t947_StaticFields{
+struct GraphicRegistry_t954_StaticFields{
 	// UnityEngine.UI.GraphicRegistry UnityEngine.UI.GraphicRegistry::s_Instance
-	GraphicRegistry_t947 * ___s_Instance_0;
+	GraphicRegistry_t954 * ___s_Instance_0;
 	// System.Collections.Generic.List`1<UnityEngine.UI.Graphic> UnityEngine.UI.GraphicRegistry::s_EmptyList
-	List_1_t944 * ___s_EmptyList_2;
+	List_1_t951 * ___s_EmptyList_2;
 };

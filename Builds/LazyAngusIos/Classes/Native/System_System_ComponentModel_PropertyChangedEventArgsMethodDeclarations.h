@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ComponentModel.PropertyChangedEventArgs
-struct PropertyChangedEventArgs_t1528;
+struct PropertyChangedEventArgs_t1535;
 // System.String
 struct String_t;
 
 // System.Void System.ComponentModel.PropertyChangedEventArgs::.ctor(System.String)
-extern "C" void PropertyChangedEventArgs__ctor_m7791 (PropertyChangedEventArgs_t1528 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PropertyChangedEventArgs__ctor_m7849 (PropertyChangedEventArgs_t1535 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;

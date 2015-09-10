@@ -5,33 +5,33 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.UnitySerializationHolder
-struct UnitySerializationHolder_t4932;
+struct UnitySerializationHolder_t4939;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2940;
+struct SerializationInfo_t2947;
 // System.Type
 struct Type_t;
 // System.DBNull
-struct DBNull_t4871;
+struct DBNull_t4878;
 // System.Reflection.Assembly
-struct Assembly_t787;
+struct Assembly_t794;
 // System.Reflection.Module
-struct Module_t5027;
+struct Module_t5034;
 // System.Object
 struct Object_t;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.UnitySerializationHolder::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void UnitySerializationHolder__ctor_m20835 (UnitySerializationHolder_t4932 * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___ctx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnitySerializationHolder__ctor_m20892 (UnitySerializationHolder_t4939 * __this, SerializationInfo_t2947 * ___info, StreamingContext_t2948  ___ctx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UnitySerializationHolder::GetTypeData(System.Type,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void UnitySerializationHolder_GetTypeData_m20836 (Object_t * __this /* static, unused */, Type_t * ___instance, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___ctx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnitySerializationHolder_GetTypeData_m20893 (Object_t * __this /* static, unused */, Type_t * ___instance, SerializationInfo_t2947 * ___info, StreamingContext_t2948  ___ctx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UnitySerializationHolder::GetDBNullData(System.DBNull,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void UnitySerializationHolder_GetDBNullData_m20837 (Object_t * __this /* static, unused */, DBNull_t4871 * ___instance, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___ctx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnitySerializationHolder_GetDBNullData_m20894 (Object_t * __this /* static, unused */, DBNull_t4878 * ___instance, SerializationInfo_t2947 * ___info, StreamingContext_t2948  ___ctx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UnitySerializationHolder::GetAssemblyData(System.Reflection.Assembly,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void UnitySerializationHolder_GetAssemblyData_m20838 (Object_t * __this /* static, unused */, Assembly_t787 * ___instance, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___ctx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnitySerializationHolder_GetAssemblyData_m20895 (Object_t * __this /* static, unused */, Assembly_t794 * ___instance, SerializationInfo_t2947 * ___info, StreamingContext_t2948  ___ctx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UnitySerializationHolder::GetModuleData(System.Reflection.Module,System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void UnitySerializationHolder_GetModuleData_m20839 (Object_t * __this /* static, unused */, Module_t5027 * ___instance, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___ctx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnitySerializationHolder_GetModuleData_m20896 (Object_t * __this /* static, unused */, Module_t5034 * ___instance, SerializationInfo_t2947 * ___info, StreamingContext_t2948  ___ctx, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.UnitySerializationHolder::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void UnitySerializationHolder_GetObjectData_m20840 (UnitySerializationHolder_t4932 * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnitySerializationHolder_GetObjectData_m20897 (UnitySerializationHolder_t4939 * __this, SerializationInfo_t2947 * ___info, StreamingContext_t2948  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.UnitySerializationHolder::GetRealObject(System.Runtime.Serialization.StreamingContext)
-extern "C" Object_t * UnitySerializationHolder_GetRealObject_m20841 (UnitySerializationHolder_t4932 * __this, StreamingContext_t2941  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * UnitySerializationHolder_GetRealObject_m20898 (UnitySerializationHolder_t4939 * __this, StreamingContext_t2948  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

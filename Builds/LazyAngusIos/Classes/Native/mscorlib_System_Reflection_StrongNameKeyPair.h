@@ -5,11 +5,11 @@ struct ByteU5BU5D_t66;
 // System.String
 struct String_t;
 // System.Security.Cryptography.RSA
-struct RSA_t3147;
+struct RSA_t3154;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Reflection.StrongNameKeyPair
-struct  StrongNameKeyPair_t5012  : public Object_t
+struct  StrongNameKeyPair_t5019  : public Object_t
 {
 	// System.Byte[] System.Reflection.StrongNameKeyPair::_publicKey
 	ByteU5BU5D_t66* ____publicKey_0;
@@ -20,5 +20,5 @@ struct  StrongNameKeyPair_t5012  : public Object_t
 	// System.Byte[] System.Reflection.StrongNameKeyPair::_keyPairArray
 	ByteU5BU5D_t66* ____keyPairArray_3;
 	// System.Security.Cryptography.RSA System.Reflection.StrongNameKeyPair::_rsa
-	RSA_t3147 * ____rsa_4;
+	RSA_t3154 * ____rsa_4;
 };

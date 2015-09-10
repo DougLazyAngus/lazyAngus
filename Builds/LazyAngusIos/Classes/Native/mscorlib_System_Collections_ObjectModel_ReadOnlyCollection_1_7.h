@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<SimpleJSON.JSONNode>
-struct IList_1_t5988;
+struct IList_1_t5995;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>
-struct  ReadOnlyCollection_1_t5989  : public Object_t
+struct  ReadOnlyCollection_1_t5996  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<SimpleJSON.JSONNode>::list
 	Object_t* ___list_0;

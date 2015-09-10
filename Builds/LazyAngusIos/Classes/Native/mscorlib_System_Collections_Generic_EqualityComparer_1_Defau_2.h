@@ -3,6 +3,6 @@
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.RaycastResult>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_3.h"
 // System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.EventSystems.RaycastResult>
-struct  DefaultComparer_t6361  : public EqualityComparer_1_t6360
+struct  DefaultComparer_t6368  : public EqualityComparer_1_t6367
 {
 };

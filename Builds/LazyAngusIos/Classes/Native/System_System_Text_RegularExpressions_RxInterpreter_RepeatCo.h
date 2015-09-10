@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.RegularExpressions.RxInterpreter/RepeatContext
-struct RepeatContext_t4513;
+struct RepeatContext_t4520;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.RxInterpreter/RepeatContext
-struct  RepeatContext_t4513  : public Object_t
+struct  RepeatContext_t4520  : public Object_t
 {
 	// System.Int32 System.Text.RegularExpressions.RxInterpreter/RepeatContext::start
 	int32_t ___start_0;
@@ -18,7 +18,7 @@ struct  RepeatContext_t4513  : public Object_t
 	// System.Int32 System.Text.RegularExpressions.RxInterpreter/RepeatContext::expr_pc
 	int32_t ___expr_pc_4;
 	// System.Text.RegularExpressions.RxInterpreter/RepeatContext System.Text.RegularExpressions.RxInterpreter/RepeatContext::previous
-	RepeatContext_t4513 * ___previous_5;
+	RepeatContext_t4520 * ___previous_5;
 	// System.Int32 System.Text.RegularExpressions.RxInterpreter/RepeatContext::count
 	int32_t ___count_6;
 };

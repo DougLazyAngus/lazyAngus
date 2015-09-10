@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.AttributeUsageAttribute
-struct AttributeUsageAttribute_t826;
+struct AttributeUsageAttribute_t833;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.MonoCustomAttrs/AttributeInfo
-struct  AttributeInfo_t4899  : public Object_t
+struct  AttributeInfo_t4906  : public Object_t
 {
 	// System.AttributeUsageAttribute System.MonoCustomAttrs/AttributeInfo::_usage
-	AttributeUsageAttribute_t826 * ____usage_0;
+	AttributeUsageAttribute_t833 * ____usage_0;
 	// System.Int32 System.MonoCustomAttrs/AttributeInfo::_inheritanceLevel
 	int32_t ____inheritanceLevel_1;
 };

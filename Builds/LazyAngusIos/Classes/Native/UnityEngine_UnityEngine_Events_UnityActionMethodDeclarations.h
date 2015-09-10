@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Events.UnityAction
-struct UnityAction_t939;
+struct UnityAction_t946;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,11 +16,11 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnityEngine.Events.UnityAction::.ctor(System.Object,System.IntPtr)
-extern "C" void UnityAction__ctor_m6185 (UnityAction_t939 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityAction__ctor_m6243 (UnityAction_t946 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.UnityAction::Invoke()
-extern "C" void UnityAction_Invoke_m10245 (UnityAction_t939 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_UnityAction_t939(Il2CppObject* delegate);
+extern "C" void UnityAction_Invoke_m10302 (UnityAction_t946 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_UnityAction_t946(Il2CppObject* delegate);
 // System.IAsyncResult UnityEngine.Events.UnityAction::BeginInvoke(System.AsyncCallback,System.Object)
-extern "C" Object_t * UnityAction_BeginInvoke_m10246 (UnityAction_t939 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * UnityAction_BeginInvoke_m10303 (UnityAction_t946 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Events.UnityAction::EndInvoke(System.IAsyncResult)
-extern "C" void UnityAction_EndInvoke_m10247 (UnityAction_t939 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UnityAction_EndInvoke_m10304 (UnityAction_t946 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

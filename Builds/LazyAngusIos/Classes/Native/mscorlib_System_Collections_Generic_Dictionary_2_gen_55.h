@@ -3,30 +3,30 @@
 // System.Int32[]
 struct Int32U5BU5D_t484;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t5945;
+struct LinkU5BU5D_t5952;
 // System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>[]
-struct ReferenceU5BU5D_t6506;
+struct ReferenceU5BU5D_t6513;
 // System.Object[]
-struct ObjectU5BU5D_t700;
+struct ObjectU5BU5D_t707;
 // System.Collections.Generic.IEqualityComparer`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>>
-struct IEqualityComparer_1_t6507;
+struct IEqualityComparer_1_t6514;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2940;
+struct SerializationInfo_t2947;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object,System.Collections.DictionaryEntry>
-struct Transform_1_t6508;
+struct Transform_1_t6515;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.Dictionary`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>
-struct  Dictionary_2_t6509  : public Object_t
+struct  Dictionary_2_t6516  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::table
 	Int32U5BU5D_t484* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::linkSlots
-	LinkU5BU5D_t5945* ___linkSlots_5;
+	LinkU5BU5D_t5952* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::keySlots
-	ReferenceU5BU5D_t6506* ___keySlots_6;
+	ReferenceU5BU5D_t6513* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::valueSlots
-	ObjectU5BU5D_t700* ___valueSlots_7;
+	ObjectU5BU5D_t707* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::emptySlot
@@ -38,11 +38,11 @@ struct  Dictionary_2_t6509  : public Object_t
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::hcp
 	Object_t* ___hcp_12;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::serialization_info
-	SerializationInfo_t2940 * ___serialization_info_13;
+	SerializationInfo_t2947 * ___serialization_info_13;
 	// System.Int32 System.Collections.Generic.Dictionary`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t6509_StaticFields{
+struct Dictionary_2_t6516_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2<System.Runtime.CompilerServices.ConditionalWeakTable`2/Reference<System.Object,System.Object>,System.Object>::<>f__am$cacheB
-	Transform_1_t6508 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t6515 * ___U3CU3Ef__amU24cacheB_15;
 };

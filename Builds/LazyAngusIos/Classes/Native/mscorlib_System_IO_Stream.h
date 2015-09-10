@@ -5,7 +5,7 @@ struct Stream_t51;
 // System.MarshalByRefObject
 #include "mscorlib_System_MarshalByRefObject.h"
 // System.IO.Stream
-struct  Stream_t51  : public MarshalByRefObject_t4292
+struct  Stream_t51  : public MarshalByRefObject_t4299
 {
 };
 struct Stream_t51_StaticFields{

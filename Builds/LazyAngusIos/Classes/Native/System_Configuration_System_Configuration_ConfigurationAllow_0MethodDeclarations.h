@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Configuration.ConfigurationAllowExeDefinition
-struct ConfigurationAllowExeDefinition_t3311;
+struct ConfigurationAllowExeDefinition_t3318;
 

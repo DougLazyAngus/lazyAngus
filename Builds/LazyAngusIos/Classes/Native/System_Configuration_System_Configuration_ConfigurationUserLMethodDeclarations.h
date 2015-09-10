@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Configuration.ConfigurationUserLevel
-struct ConfigurationUserLevel_t3345;
+struct ConfigurationUserLevel_t3352;
 

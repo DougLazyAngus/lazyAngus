@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<System.Single,System.UInt16>
-struct Func_2_t7136;
+struct Func_2_t7143;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,14 +16,14 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Func`2<System.Single,System.UInt16>::.ctor(System.Object,System.IntPtr)
-extern "C" void Func_2__ctor_m42866_gshared (Func_2_t7136 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Func_2__ctor_m42866(__this, ___object, ___method, method) (( void (*) (Func_2_t7136 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m42866_gshared)(__this, ___object, ___method, method)
+extern "C" void Func_2__ctor_m42923_gshared (Func_2_t7143 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Func_2__ctor_m42923(__this, ___object, ___method, method) (( void (*) (Func_2_t7143 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m42923_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Single,System.UInt16>::Invoke(T)
-extern "C" uint16_t Func_2_Invoke_m42867_gshared (Func_2_t7136 * __this, float ___arg1, const MethodInfo* method);
-#define Func_2_Invoke_m42867(__this, ___arg1, method) (( uint16_t (*) (Func_2_t7136 *, float, const MethodInfo*))Func_2_Invoke_m42867_gshared)(__this, ___arg1, method)
+extern "C" uint16_t Func_2_Invoke_m42924_gshared (Func_2_t7143 * __this, float ___arg1, const MethodInfo* method);
+#define Func_2_Invoke_m42924(__this, ___arg1, method) (( uint16_t (*) (Func_2_t7143 *, float, const MethodInfo*))Func_2_Invoke_m42924_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Single,System.UInt16>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Func_2_BeginInvoke_m42868_gshared (Func_2_t7136 * __this, float ___arg1, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Func_2_BeginInvoke_m42868(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t7136 *, float, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m42868_gshared)(__this, ___arg1, ___callback, ___object, method)
+extern "C" Object_t * Func_2_BeginInvoke_m42925_gshared (Func_2_t7143 * __this, float ___arg1, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Func_2_BeginInvoke_m42925(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t7143 *, float, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m42925_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Single,System.UInt16>::EndInvoke(System.IAsyncResult)
-extern "C" uint16_t Func_2_EndInvoke_m42869_gshared (Func_2_t7136 * __this, Object_t * ___result, const MethodInfo* method);
-#define Func_2_EndInvoke_m42869(__this, ___result, method) (( uint16_t (*) (Func_2_t7136 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m42869_gshared)(__this, ___result, method)
+extern "C" uint16_t Func_2_EndInvoke_m42926_gshared (Func_2_t7143 * __this, Object_t * ___result, const MethodInfo* method);
+#define Func_2_EndInvoke_m42926(__this, ___result, method) (( uint16_t (*) (Func_2_t7143 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m42926_gshared)(__this, ___result, method)

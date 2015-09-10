@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.ReflectionProbe
-struct ReflectionProbe_t2724;
+struct ReflectionProbe_t2731;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.Rendering.ReflectionProbeBlendInfo
-struct  ReflectionProbeBlendInfo_t2873 
+struct  ReflectionProbeBlendInfo_t2880 
 {
 	// UnityEngine.ReflectionProbe UnityEngine.Rendering.ReflectionProbeBlendInfo::probe
-	ReflectionProbe_t2724 * ___probe_0;
+	ReflectionProbe_t2731 * ___probe_0;
 	// System.Single UnityEngine.Rendering.ReflectionProbeBlendInfo::weight
 	float ___weight_1;
 };

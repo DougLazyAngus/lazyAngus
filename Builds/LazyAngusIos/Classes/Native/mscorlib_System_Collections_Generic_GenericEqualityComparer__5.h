@@ -3,6 +3,6 @@
 // System.Collections.Generic.EqualityComparer`1<System.UInt16>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_10.h"
 // System.Collections.Generic.GenericEqualityComparer`1<System.UInt16>
-struct  GenericEqualityComparer_1_t7099  : public EqualityComparer_1_t7098
+struct  GenericEqualityComparer_1_t7106  : public EqualityComparer_1_t7105
 {
 };

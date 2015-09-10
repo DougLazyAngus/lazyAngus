@@ -5,29 +5,29 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.RNGCryptoServiceProvider
-struct RNGCryptoServiceProvider_t5275;
+struct RNGCryptoServiceProvider_t5282;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Security.Cryptography.RNGCryptoServiceProvider::.ctor()
-extern "C" void RNGCryptoServiceProvider__ctor_m23475 (RNGCryptoServiceProvider_t5275 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RNGCryptoServiceProvider__ctor_m23532 (RNGCryptoServiceProvider_t5282 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RNGCryptoServiceProvider::.cctor()
-extern "C" void RNGCryptoServiceProvider__cctor_m23476 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RNGCryptoServiceProvider__cctor_m23533 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RNGCryptoServiceProvider::Check()
-extern "C" void RNGCryptoServiceProvider_Check_m23477 (RNGCryptoServiceProvider_t5275 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RNGCryptoServiceProvider_Check_m23534 (RNGCryptoServiceProvider_t5282 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Security.Cryptography.RNGCryptoServiceProvider::RngOpen()
-extern "C" bool RNGCryptoServiceProvider_RngOpen_m23478 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool RNGCryptoServiceProvider_RngOpen_m23535 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IntPtr System.Security.Cryptography.RNGCryptoServiceProvider::RngInitialize(System.Byte[])
-extern "C" IntPtr_t RNGCryptoServiceProvider_RngInitialize_m23479 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___seed, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IntPtr_t RNGCryptoServiceProvider_RngInitialize_m23536 (Object_t * __this /* static, unused */, ByteU5BU5D_t66* ___seed, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.IntPtr System.Security.Cryptography.RNGCryptoServiceProvider::RngGetBytes(System.IntPtr,System.Byte[])
-extern "C" IntPtr_t RNGCryptoServiceProvider_RngGetBytes_m23480 (Object_t * __this /* static, unused */, IntPtr_t ___handle, ByteU5BU5D_t66* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" IntPtr_t RNGCryptoServiceProvider_RngGetBytes_m23537 (Object_t * __this /* static, unused */, IntPtr_t ___handle, ByteU5BU5D_t66* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RNGCryptoServiceProvider::RngClose(System.IntPtr)
-extern "C" void RNGCryptoServiceProvider_RngClose_m23481 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RNGCryptoServiceProvider_RngClose_m23538 (Object_t * __this /* static, unused */, IntPtr_t ___handle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RNGCryptoServiceProvider::GetBytes(System.Byte[])
-extern "C" void RNGCryptoServiceProvider_GetBytes_m23482 (RNGCryptoServiceProvider_t5275 * __this, ByteU5BU5D_t66* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RNGCryptoServiceProvider_GetBytes_m23539 (RNGCryptoServiceProvider_t5282 * __this, ByteU5BU5D_t66* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RNGCryptoServiceProvider::GetNonZeroBytes(System.Byte[])
-extern "C" void RNGCryptoServiceProvider_GetNonZeroBytes_m23483 (RNGCryptoServiceProvider_t5275 * __this, ByteU5BU5D_t66* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RNGCryptoServiceProvider_GetNonZeroBytes_m23540 (RNGCryptoServiceProvider_t5282 * __this, ByteU5BU5D_t66* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.RNGCryptoServiceProvider::Finalize()
-extern "C" void RNGCryptoServiceProvider_Finalize_m23484 (RNGCryptoServiceProvider_t5275 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RNGCryptoServiceProvider_Finalize_m23541 (RNGCryptoServiceProvider_t5282 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

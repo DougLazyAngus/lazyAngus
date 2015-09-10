@@ -5,51 +5,51 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.ObjRef
-struct ObjRef_t5116;
+struct ObjRef_t5123;
 // System.Runtime.Remoting.IChannelInfo
-struct IChannelInfo_t5119;
+struct IChannelInfo_t5126;
 // System.Runtime.Remoting.IEnvoyInfo
-struct IEnvoyInfo_t5121;
+struct IEnvoyInfo_t5128;
 // System.Runtime.Remoting.IRemotingTypeInfo
-struct IRemotingTypeInfo_t5120;
+struct IRemotingTypeInfo_t5127;
 // System.String
 struct String_t;
 // System.Type
 struct Type_t;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2940;
+struct SerializationInfo_t2947;
 // System.Object
 struct Object_t;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Runtime.Remoting.ObjRef::.ctor()
-extern "C" void ObjRef__ctor_m22600 (ObjRef_t5116 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjRef__ctor_m22657 (ObjRef_t5123 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.ObjRef::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ObjRef__ctor_m22601 (ObjRef_t5116 * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjRef__ctor_m22658 (ObjRef_t5123 * __this, SerializationInfo_t2947 * ___info, StreamingContext_t2948  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.ObjRef::.cctor()
-extern "C" void ObjRef__cctor_m22602 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjRef__cctor_m22659 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Remoting.ObjRef::get_IsReferenceToWellKnow()
-extern "C" bool ObjRef_get_IsReferenceToWellKnow_m22603 (ObjRef_t5116 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ObjRef_get_IsReferenceToWellKnow_m22660 (ObjRef_t5123 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.IChannelInfo System.Runtime.Remoting.ObjRef::get_ChannelInfo()
-extern "C" Object_t * ObjRef_get_ChannelInfo_m22604 (ObjRef_t5116 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ObjRef_get_ChannelInfo_m22661 (ObjRef_t5123 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.IEnvoyInfo System.Runtime.Remoting.ObjRef::get_EnvoyInfo()
-extern "C" Object_t * ObjRef_get_EnvoyInfo_m22605 (ObjRef_t5116 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ObjRef_get_EnvoyInfo_m22662 (ObjRef_t5123 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.ObjRef::set_EnvoyInfo(System.Runtime.Remoting.IEnvoyInfo)
-extern "C" void ObjRef_set_EnvoyInfo_m22606 (ObjRef_t5116 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjRef_set_EnvoyInfo_m22663 (ObjRef_t5123 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.IRemotingTypeInfo System.Runtime.Remoting.ObjRef::get_TypeInfo()
-extern "C" Object_t * ObjRef_get_TypeInfo_m22607 (ObjRef_t5116 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ObjRef_get_TypeInfo_m22664 (ObjRef_t5123 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.ObjRef::set_TypeInfo(System.Runtime.Remoting.IRemotingTypeInfo)
-extern "C" void ObjRef_set_TypeInfo_m22608 (ObjRef_t5116 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjRef_set_TypeInfo_m22665 (ObjRef_t5123 * __this, Object_t * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Runtime.Remoting.ObjRef::get_URI()
-extern "C" String_t* ObjRef_get_URI_m22609 (ObjRef_t5116 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ObjRef_get_URI_m22666 (ObjRef_t5123 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.ObjRef::set_URI(System.String)
-extern "C" void ObjRef_set_URI_m22610 (ObjRef_t5116 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjRef_set_URI_m22667 (ObjRef_t5123 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.ObjRef::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ObjRef_GetObjectData_m22611 (ObjRef_t5116 * __this, SerializationInfo_t2940 * ___info, StreamingContext_t2941  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjRef_GetObjectData_m22668 (ObjRef_t5123 * __this, SerializationInfo_t2947 * ___info, StreamingContext_t2948  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.ObjRef::GetRealObject(System.Runtime.Serialization.StreamingContext)
-extern "C" Object_t * ObjRef_GetRealObject_m22612 (ObjRef_t5116 * __this, StreamingContext_t2941  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ObjRef_GetRealObject_m22669 (ObjRef_t5123 * __this, StreamingContext_t2948  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.ObjRef::UpdateChannelInfo()
-extern "C" void ObjRef_UpdateChannelInfo_m22613 (ObjRef_t5116 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ObjRef_UpdateChannelInfo_m22670 (ObjRef_t5123 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Runtime.Remoting.ObjRef::get_ServerType()
-extern "C" Type_t * ObjRef_get_ServerType_m22614 (ObjRef_t5116 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * ObjRef_get_ServerType_m22671 (ObjRef_t5123 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

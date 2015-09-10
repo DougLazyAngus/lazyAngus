@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.PatternCompiler/PatternLinkStack
-struct PatternLinkStack_t4490;
+struct PatternLinkStack_t4497;
 // System.Object
 struct Object_t;
 
 // System.Void System.Text.RegularExpressions.PatternCompiler/PatternLinkStack::.ctor()
-extern "C" void PatternLinkStack__ctor_m17488 (PatternLinkStack_t4490 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PatternLinkStack__ctor_m17545 (PatternLinkStack_t4497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.PatternCompiler/PatternLinkStack::set_BaseAddress(System.Int32)
-extern "C" void PatternLinkStack_set_BaseAddress_m17489 (PatternLinkStack_t4490 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PatternLinkStack_set_BaseAddress_m17546 (PatternLinkStack_t4497 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.PatternCompiler/PatternLinkStack::get_OffsetAddress()
-extern "C" int32_t PatternLinkStack_get_OffsetAddress_m17490 (PatternLinkStack_t4490 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PatternLinkStack_get_OffsetAddress_m17547 (PatternLinkStack_t4497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.PatternCompiler/PatternLinkStack::set_OffsetAddress(System.Int32)
-extern "C" void PatternLinkStack_set_OffsetAddress_m17491 (PatternLinkStack_t4490 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PatternLinkStack_set_OffsetAddress_m17548 (PatternLinkStack_t4497 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.PatternCompiler/PatternLinkStack::GetOffset(System.Int32)
-extern "C" int32_t PatternLinkStack_GetOffset_m17492 (PatternLinkStack_t4490 * __this, int32_t ___target_addr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PatternLinkStack_GetOffset_m17549 (PatternLinkStack_t4497 * __this, int32_t ___target_addr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Text.RegularExpressions.PatternCompiler/PatternLinkStack::GetCurrent()
-extern "C" Object_t * PatternLinkStack_GetCurrent_m17493 (PatternLinkStack_t4490 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * PatternLinkStack_GetCurrent_m17550 (PatternLinkStack_t4497 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.PatternCompiler/PatternLinkStack::SetCurrent(System.Object)
-extern "C" void PatternLinkStack_SetCurrent_m17494 (PatternLinkStack_t4490 * __this, Object_t * ___l, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PatternLinkStack_SetCurrent_m17551 (PatternLinkStack_t4497 * __this, Object_t * ___l, const MethodInfo* method) IL2CPP_METHOD_ATTR;

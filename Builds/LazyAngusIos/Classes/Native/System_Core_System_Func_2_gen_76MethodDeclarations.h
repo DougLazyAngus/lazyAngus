@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Func`2<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<System.Object>>,System.Object>
-struct Func_2_t6706;
+struct Func_2_t6713;
 // System.Object
 struct Object_t;
 // System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<System.Object>>
-struct Task_1_t6681;
+struct Task_1_t6688;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<System.Object>>,System.Object>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Object,System.Object>
 #include "System_Core_System_Func_2_gen_18MethodDeclarations.h"
-#define Func_2__ctor_m37451(__this, ___object, ___method, method) (( void (*) (Func_2_t6706 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7639_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m37508(__this, ___object, ___method, method) (( void (*) (Func_2_t6713 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m7697_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<System.Object>>,System.Object>::Invoke(T)
-#define Func_2_Invoke_m37452(__this, ___arg1, method) (( Object_t * (*) (Func_2_t6706 *, Task_1_t6681 *, const MethodInfo*))Func_2_Invoke_m35435_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m37509(__this, ___arg1, method) (( Object_t * (*) (Func_2_t6713 *, Task_1_t6688 *, const MethodInfo*))Func_2_Invoke_m35492_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<System.Object>>,System.Object>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Func_2_BeginInvoke_m37453(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t6706 *, Task_1_t6681 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m35437_gshared)(__this, ___arg1, ___callback, ___object, method)
+#define Func_2_BeginInvoke_m37510(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t6713 *, Task_1_t6688 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m35494_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<System.Object>>,System.Object>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m37454(__this, ___result, method) (( Object_t * (*) (Func_2_t6706 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m35439_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m37511(__this, ___result, method) (( Object_t * (*) (Func_2_t6713 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m35496_gshared)(__this, ___result, method)

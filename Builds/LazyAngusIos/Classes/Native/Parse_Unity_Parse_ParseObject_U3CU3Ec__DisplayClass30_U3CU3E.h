@@ -1,28 +1,28 @@
 ﻿#pragma once
 #include <stdint.h>
 // Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a
-struct U3CU3Ec__DisplayClass3a_t1277;
+struct U3CU3Ec__DisplayClass3a_t1284;
 // Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36
-struct U3CU3Ec__DisplayClass36_t1278;
+struct U3CU3Ec__DisplayClass36_t1285;
 // Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32
-struct U3CU3Ec__DisplayClass32_t1279;
+struct U3CU3Ec__DisplayClass32_t1286;
 // Parse.ParseObject/<>c__DisplayClass30
-struct U3CU3Ec__DisplayClass30_t1280;
+struct U3CU3Ec__DisplayClass30_t1287;
 // System.Collections.Generic.List`1<System.Object>
-struct List_1_t702;
+struct List_1_t709;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a/<>c__DisplayClass3d
-struct  U3CU3Ec__DisplayClass3d_t1281  : public Object_t
+struct  U3CU3Ec__DisplayClass3d_t1288  : public Object_t
 {
 	// Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a/<>c__DisplayClass3d::CS$<>8__locals3b
-	U3CU3Ec__DisplayClass3a_t1277 * ___CSU24U3CU3E8__locals3b_0;
+	U3CU3Ec__DisplayClass3a_t1284 * ___CSU24U3CU3E8__locals3b_0;
 	// Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36 Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a/<>c__DisplayClass3d::CS$<>8__locals37
-	U3CU3Ec__DisplayClass36_t1278 * ___CSU24U3CU3E8__locals37_1;
+	U3CU3Ec__DisplayClass36_t1285 * ___CSU24U3CU3E8__locals37_1;
 	// Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32 Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a/<>c__DisplayClass3d::CS$<>8__locals33
-	U3CU3Ec__DisplayClass32_t1279 * ___CSU24U3CU3E8__locals33_2;
+	U3CU3Ec__DisplayClass32_t1286 * ___CSU24U3CU3E8__locals33_2;
 	// Parse.ParseObject/<>c__DisplayClass30 Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a/<>c__DisplayClass3d::CS$<>8__locals31
-	U3CU3Ec__DisplayClass30_t1280 * ___CSU24U3CU3E8__locals31_3;
+	U3CU3Ec__DisplayClass30_t1287 * ___CSU24U3CU3E8__locals31_3;
 	// System.Collections.Generic.List`1<System.Object> Parse.ParseObject/<>c__DisplayClass30/<>c__DisplayClass32/<>c__DisplayClass36/<>c__DisplayClass3a/<>c__DisplayClass3d::resultsArray
-	List_1_t702 * ___resultsArray_4;
+	List_1_t709 * ___resultsArray_4;
 };

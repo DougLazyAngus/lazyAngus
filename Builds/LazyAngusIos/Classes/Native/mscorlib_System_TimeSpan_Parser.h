@@ -5,7 +5,7 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.TimeSpan/Parser
-struct  Parser_t4921  : public Object_t
+struct  Parser_t4928  : public Object_t
 {
 	// System.String System.TimeSpan/Parser::_src
 	String_t* ____src_0;

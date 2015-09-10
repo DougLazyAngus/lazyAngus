@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.Internal.InternalExtensions/<>c__DisplayClass7`1<System.SByte>
-struct U3CU3Ec__DisplayClass7_1_t8819;
+struct U3CU3Ec__DisplayClass7_1_t8826;
 // System.Threading.Tasks.Task`1<System.SByte>
-struct Task_1_t1572;
+struct Task_1_t1579;
 // System.Threading.Tasks.Task
-struct Task_t1231;
+struct Task_t1238;
 
 // System.Void Parse.Internal.InternalExtensions/<>c__DisplayClass7`1<System.SByte>::.ctor()
-extern "C" void U3CU3Ec__DisplayClass7_1__ctor_m63862_gshared (U3CU3Ec__DisplayClass7_1_t8819 * __this, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass7_1__ctor_m63862(__this, method) (( void (*) (U3CU3Ec__DisplayClass7_1_t8819 *, const MethodInfo*))U3CU3Ec__DisplayClass7_1__ctor_m63862_gshared)(__this, method)
+extern "C" void U3CU3Ec__DisplayClass7_1__ctor_m63919_gshared (U3CU3Ec__DisplayClass7_1_t8826 * __this, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass7_1__ctor_m63919(__this, method) (( void (*) (U3CU3Ec__DisplayClass7_1_t8826 *, const MethodInfo*))U3CU3Ec__DisplayClass7_1__ctor_m63919_gshared)(__this, method)
 // System.Threading.Tasks.Task`1<TResult> Parse.Internal.InternalExtensions/<>c__DisplayClass7`1<System.SByte>::<OnSuccess>b__6(System.Threading.Tasks.Task)
-extern "C" Task_1_t1572 * U3CU3Ec__DisplayClass7_1_U3COnSuccessU3Eb__6_m63863_gshared (U3CU3Ec__DisplayClass7_1_t8819 * __this, Task_t1231 * ___t, const MethodInfo* method);
-#define U3CU3Ec__DisplayClass7_1_U3COnSuccessU3Eb__6_m63863(__this, ___t, method) (( Task_1_t1572 * (*) (U3CU3Ec__DisplayClass7_1_t8819 *, Task_t1231 *, const MethodInfo*))U3CU3Ec__DisplayClass7_1_U3COnSuccessU3Eb__6_m63863_gshared)(__this, ___t, method)
+extern "C" Task_1_t1579 * U3CU3Ec__DisplayClass7_1_U3COnSuccessU3Eb__6_m63920_gshared (U3CU3Ec__DisplayClass7_1_t8826 * __this, Task_t1238 * ___t, const MethodInfo* method);
+#define U3CU3Ec__DisplayClass7_1_U3COnSuccessU3Eb__6_m63920(__this, ___t, method) (( Task_1_t1579 * (*) (U3CU3Ec__DisplayClass7_1_t8826 *, Task_t1238 *, const MethodInfo*))U3CU3Ec__DisplayClass7_1_U3COnSuccessU3Eb__6_m63920_gshared)(__this, ___t, method)

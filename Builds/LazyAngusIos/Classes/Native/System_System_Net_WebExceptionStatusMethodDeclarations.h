@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.WebExceptionStatus
-struct WebExceptionStatus_t4427;
+struct WebExceptionStatus_t4434;
 

@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.MatchCollection/Enumerator
-struct Enumerator_t4505;
+struct Enumerator_t4512;
 // System.Object
 struct Object_t;
 // System.Text.RegularExpressions.MatchCollection
-struct MatchCollection_t3290;
+struct MatchCollection_t3297;
 
 // System.Void System.Text.RegularExpressions.MatchCollection/Enumerator::.ctor(System.Text.RegularExpressions.MatchCollection)
-extern "C" void Enumerator__ctor_m17619 (Enumerator_t4505 * __this, MatchCollection_t3290 * ___coll, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Enumerator__ctor_m17676 (Enumerator_t4512 * __this, MatchCollection_t3297 * ___coll, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.MatchCollection/Enumerator::System.Collections.IEnumerator.Reset()
-extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m17620 (Enumerator_t4505 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m17677 (Enumerator_t4512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Text.RegularExpressions.MatchCollection/Enumerator::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m17621 (Enumerator_t4505 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m17678 (Enumerator_t4512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.MatchCollection/Enumerator::System.Collections.IEnumerator.MoveNext()
-extern "C" bool Enumerator_System_Collections_IEnumerator_MoveNext_m17622 (Enumerator_t4505 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Enumerator_System_Collections_IEnumerator_MoveNext_m17679 (Enumerator_t4512 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

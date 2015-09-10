@@ -5,7 +5,7 @@
 // Mono.Xml.DTDAttributeOccurenceType
 #include "System_Xml_Mono_Xml_DTDAttributeOccurenceType.h"
 // Mono.Xml.DTDAttributeOccurenceType
-struct  DTDAttributeOccurenceType_t3481 
+struct  DTDAttributeOccurenceType_t3488 
 {
 	// System.Int32 Mono.Xml.DTDAttributeOccurenceType::value__
 	int32_t ___value___1;

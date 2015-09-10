@@ -7,7 +7,7 @@ struct TwitterUserInfo_t308;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<TwitterUserInfo>
-struct  Enumerator_t6188 
+struct  Enumerator_t6195 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<TwitterUserInfo>::l
 	List_1_t321 * ___l_0;

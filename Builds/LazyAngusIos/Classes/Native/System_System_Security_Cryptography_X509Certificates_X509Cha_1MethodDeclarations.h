@@ -5,27 +5,27 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.X509Certificates.X509ChainElement
-struct X509ChainElement_t4452;
+struct X509ChainElement_t4459;
 // System.Security.Cryptography.X509Certificates.X509Certificate2
-struct X509Certificate2_t3282;
+struct X509Certificate2_t3289;
 // System.Security.Cryptography.X509Certificates.X509ChainStatus[]
-struct X509ChainStatusU5BU5D_t4450;
+struct X509ChainStatusU5BU5D_t4457;
 // System.Security.Cryptography.X509Certificates.X509ChainStatusFlags
 #include "System_System_Security_Cryptography_X509Certificates_X509Cha_2.h"
 
 // System.Void System.Security.Cryptography.X509Certificates.X509ChainElement::.ctor(System.Security.Cryptography.X509Certificates.X509Certificate2)
-extern "C" void X509ChainElement__ctor_m17344 (X509ChainElement_t4452 * __this, X509Certificate2_t3282 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ChainElement__ctor_m17401 (X509ChainElement_t4459 * __this, X509Certificate2_t3289 * ___certificate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Certificate2 System.Security.Cryptography.X509Certificates.X509ChainElement::get_Certificate()
-extern "C" X509Certificate2_t3282 * X509ChainElement_get_Certificate_m17345 (X509ChainElement_t4452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate2_t3289 * X509ChainElement_get_Certificate_m17402 (X509ChainElement_t4459 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509ChainStatus[] System.Security.Cryptography.X509Certificates.X509ChainElement::get_ChainElementStatus()
-extern "C" X509ChainStatusU5BU5D_t4450* X509ChainElement_get_ChainElementStatus_m17346 (X509ChainElement_t4452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509ChainStatusU5BU5D_t4457* X509ChainElement_get_ChainElementStatus_m17403 (X509ChainElement_t4459 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509ChainStatusFlags System.Security.Cryptography.X509Certificates.X509ChainElement::get_StatusFlags()
-extern "C" int32_t X509ChainElement_get_StatusFlags_m17347 (X509ChainElement_t4452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509ChainElement_get_StatusFlags_m17404 (X509ChainElement_t4459 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509ChainElement::set_StatusFlags(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags)
-extern "C" void X509ChainElement_set_StatusFlags_m17348 (X509ChainElement_t4452 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ChainElement_set_StatusFlags_m17405 (X509ChainElement_t4459 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.X509Certificates.X509ChainElement::Count(System.Security.Cryptography.X509Certificates.X509ChainStatusFlags)
-extern "C" int32_t X509ChainElement_Count_m17349 (X509ChainElement_t4452 * __this, int32_t ___flags, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509ChainElement_Count_m17406 (X509ChainElement_t4459 * __this, int32_t ___flags, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509ChainElement::Set(System.Security.Cryptography.X509Certificates.X509ChainStatus[],System.Int32&,System.Security.Cryptography.X509Certificates.X509ChainStatusFlags,System.Security.Cryptography.X509Certificates.X509ChainStatusFlags)
-extern "C" void X509ChainElement_Set_m17350 (X509ChainElement_t4452 * __this, X509ChainStatusU5BU5D_t4450* ___status, int32_t* ___position, int32_t ___flags, int32_t ___mask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ChainElement_Set_m17407 (X509ChainElement_t4459 * __this, X509ChainStatusU5BU5D_t4457* ___status, int32_t* ___position, int32_t ___flags, int32_t ___mask, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.X509Certificates.X509ChainElement::UncompressFlags()
-extern "C" void X509ChainElement_UncompressFlags_m17351 (X509ChainElement_t4452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ChainElement_UncompressFlags_m17408 (X509ChainElement_t4459 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

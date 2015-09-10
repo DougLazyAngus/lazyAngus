@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Configuration.ProxyElement/UseSystemDefaultValues
-struct UseSystemDefaultValues_t4334;
+struct UseSystemDefaultValues_t4341;
 

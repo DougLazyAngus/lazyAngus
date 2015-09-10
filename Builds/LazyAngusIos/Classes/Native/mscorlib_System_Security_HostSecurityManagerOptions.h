@@ -5,7 +5,7 @@
 // System.Security.HostSecurityManagerOptions
 #include "mscorlib_System_Security_HostSecurityManagerOptions.h"
 // System.Security.HostSecurityManagerOptions
-struct  HostSecurityManagerOptions_t5232 
+struct  HostSecurityManagerOptions_t5239 
 {
 	// System.Int32 System.Security.HostSecurityManagerOptions::value__
 	int32_t ___value___1;

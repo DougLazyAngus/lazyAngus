@@ -14,7 +14,7 @@
 #include <assert.h>
 #include "stringLiterals.h"
 
-extern TypeInfo U3CModuleU3E_t4204_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t4211_il2cpp_TypeInfo;
 // <Module>
 #include "System_Security_U3CModuleU3E.h"
 #include <map>
@@ -22,7 +22,7 @@ struct TypeInfo;
 struct MethodInfo;
 TypeInfo* g_System_Security_Assembly_Types[2] = 
 {
-	&U3CModuleU3E_t4204_il2cpp_TypeInfo,
+	&U3CModuleU3E_t4211_il2cpp_TypeInfo,
 	NULL,
 };
 extern Il2CppImage g_System_Security_dll_Image;

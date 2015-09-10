@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,SimpleJSON.JSONNode>,System.Boolean>::.ctor(System.Object,System.IntPtr)
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>,System.Byte>
 #include "System_Core_System_Func_2_gen_55MethodDeclarations.h"
-#define Func_2__ctor_m449(__this, ___object, ___method, method) (( void (*) (Func_2_t72 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m26381_gshared)(__this, ___object, ___method, method)
+#define Func_2__ctor_m449(__this, ___object, ___method, method) (( void (*) (Func_2_t72 *, Object_t *, IntPtr_t, const MethodInfo*))Func_2__ctor_m26438_gshared)(__this, ___object, ___method, method)
 // TResult System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,SimpleJSON.JSONNode>,System.Boolean>::Invoke(T)
-#define Func_2_Invoke_m26382(__this, ___arg1, method) (( bool (*) (Func_2_t72 *, KeyValuePair_2_t41 , const MethodInfo*))Func_2_Invoke_m26383_gshared)(__this, ___arg1, method)
+#define Func_2_Invoke_m26439(__this, ___arg1, method) (( bool (*) (Func_2_t72 *, KeyValuePair_2_t41 , const MethodInfo*))Func_2_Invoke_m26440_gshared)(__this, ___arg1, method)
 // System.IAsyncResult System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,SimpleJSON.JSONNode>,System.Boolean>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Func_2_BeginInvoke_m26384(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t72 *, KeyValuePair_2_t41 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m26385_gshared)(__this, ___arg1, ___callback, ___object, method)
+#define Func_2_BeginInvoke_m26441(__this, ___arg1, ___callback, ___object, method) (( Object_t * (*) (Func_2_t72 *, KeyValuePair_2_t41 , AsyncCallback_t386 *, Object_t *, const MethodInfo*))Func_2_BeginInvoke_m26442_gshared)(__this, ___arg1, ___callback, ___object, method)
 // TResult System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,SimpleJSON.JSONNode>,System.Boolean>::EndInvoke(System.IAsyncResult)
-#define Func_2_EndInvoke_m26386(__this, ___result, method) (( bool (*) (Func_2_t72 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m26387_gshared)(__this, ___result, method)
+#define Func_2_EndInvoke_m26443(__this, ___result, method) (( bool (*) (Func_2_t72 *, Object_t *, const MethodInfo*))Func_2_EndInvoke_m26444_gshared)(__this, ___result, method)

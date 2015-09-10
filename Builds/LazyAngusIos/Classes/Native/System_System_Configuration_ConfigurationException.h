@@ -5,7 +5,7 @@ struct String_t;
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.Configuration.ConfigurationException
-struct  ConfigurationException_t3323  : public SystemException_t3387
+struct  ConfigurationException_t3330  : public SystemException_t3394
 {
 	// System.String System.Configuration.ConfigurationException::filename
 	String_t* ___filename_11;

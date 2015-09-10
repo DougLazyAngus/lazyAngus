@@ -5,7 +5,7 @@ struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Array/InternalEnumerator`1<System.Security.Permissions.KeyContainerPermissionAccessEntry>
-struct  InternalEnumerator_1_t9322 
+struct  InternalEnumerator_1_t9329 
 {
 	// System.Array System.Array/InternalEnumerator`1<System.Security.Permissions.KeyContainerPermissionAccessEntry>::array
 	Array_t * ___array_0;

@@ -5,7 +5,7 @@
 // System.Xml.XmlTextWriter/XmlDeclState
 #include "System_Xml_System_Xml_XmlTextWriter_XmlDeclState.h"
 // System.Xml.XmlTextWriter/XmlDeclState
-struct  XmlDeclState_t3561 
+struct  XmlDeclState_t3568 
 {
 	// System.Int32 System.Xml.XmlTextWriter/XmlDeclState::value__
 	int32_t ___value___1;

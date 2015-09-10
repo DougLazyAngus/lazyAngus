@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Configuration.Internal.IInternalConfigHost
-struct IInternalConfigHost_t3305;
+struct IInternalConfigHost_t3312;
 // System.Configuration.Internal.IInternalConfigRoot
-struct IInternalConfigRoot_t3355;
+struct IInternalConfigRoot_t3362;
 // System.Object[]
-struct ObjectU5BU5D_t700;
+struct ObjectU5BU5D_t707;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Configuration.InternalConfigurationSystem
-struct  InternalConfigurationSystem_t3356  : public Object_t
+struct  InternalConfigurationSystem_t3363  : public Object_t
 {
 	// System.Configuration.Internal.IInternalConfigHost System.Configuration.InternalConfigurationSystem::host
 	Object_t * ___host_0;
 	// System.Configuration.Internal.IInternalConfigRoot System.Configuration.InternalConfigurationSystem::root
 	Object_t * ___root_1;
 	// System.Object[] System.Configuration.InternalConfigurationSystem::hostInitParams
-	ObjectU5BU5D_t700* ___hostInitParams_2;
+	ObjectU5BU5D_t707* ___hostInitParams_2;
 };

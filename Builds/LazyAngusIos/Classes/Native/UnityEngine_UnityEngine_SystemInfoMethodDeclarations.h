@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SystemInfo
-struct SystemInfo_t2708;
+struct SystemInfo_t2715;
 // System.String
 struct String_t;
 
 // System.String UnityEngine.SystemInfo::get_operatingSystem()
-extern "C" String_t* SystemInfo_get_operatingSystem_m4506 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SystemInfo_get_operatingSystem_m4564 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.SystemInfo::get_deviceUniqueIdentifier()
-extern "C" String_t* SystemInfo_get_deviceUniqueIdentifier_m8865 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SystemInfo_get_deviceUniqueIdentifier_m8923 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.SystemInfo::get_deviceModel()
-extern "C" String_t* SystemInfo_get_deviceModel_m7949 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* SystemInfo_get_deviceModel_m8007 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

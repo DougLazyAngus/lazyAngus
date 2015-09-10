@@ -5,7 +5,7 @@
 // System.TermInfoStrings
 #include "mscorlib_System_TermInfoStrings.h"
 // System.TermInfoStrings
-struct  TermInfoStrings_t4920 
+struct  TermInfoStrings_t4927 
 {
 	// System.Int32 System.TermInfoStrings::value__
 	int32_t ___value___1;

@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Action`1<System.IAsyncResult>
-struct  Action_1_t1381  : public MulticastDelegate_t388
+struct  Action_1_t1388  : public MulticastDelegate_t388
 {
 };

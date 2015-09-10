@@ -4,15 +4,13 @@
 struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
-// UnityEngine.Vector2
-#include "UnityEngine_UnityEngine_Vector2.h"
 // TipConfig
-struct  TipConfig_t513  : public Object_t
+struct  TipConfig_t623  : public Object_t
 {
 	// System.String TipConfig::tipID
 	String_t* ___tipID_0;
 	// System.String TipConfig::tipText
 	String_t* ___tipText_1;
-	// UnityEngine.Vector2 TipConfig::tipPosition
-	Vector2_t110  ___tipPosition_2;
+	// System.String TipConfig::previousTipID
+	String_t* ___previousTipID_2;
 };

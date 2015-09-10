@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Camera
-struct Camera_t548;
+struct Camera_t532;
 // System.Comparison`1<UnityEngine.RaycastHit>
-struct Comparison_1_t916;
+struct Comparison_1_t923;
 // UnityEngine.EventSystems.BaseRaycaster
 #include "UnityEngine_UI_UnityEngine_EventSystems_BaseRaycaster.h"
 // UnityEngine.LayerMask
 #include "UnityEngine_UnityEngine_LayerMask.h"
 // UnityEngine.EventSystems.PhysicsRaycaster
-struct  PhysicsRaycaster_t915  : public BaseRaycaster_t897
+struct  PhysicsRaycaster_t922  : public BaseRaycaster_t904
 {
 	// UnityEngine.Camera UnityEngine.EventSystems.PhysicsRaycaster::m_EventCamera
-	Camera_t548 * ___m_EventCamera_3;
+	Camera_t532 * ___m_EventCamera_3;
 	// UnityEngine.LayerMask UnityEngine.EventSystems.PhysicsRaycaster::m_EventMask
-	LayerMask_t917  ___m_EventMask_4;
+	LayerMask_t924  ___m_EventMask_4;
 };
-struct PhysicsRaycaster_t915_StaticFields{
+struct PhysicsRaycaster_t922_StaticFields{
 	// System.Comparison`1<UnityEngine.RaycastHit> UnityEngine.EventSystems.PhysicsRaycaster::<>f__am$cache2
-	Comparison_1_t916 * ___U3CU3Ef__amU24cache2_5;
+	Comparison_1_t923 * ___U3CU3Ef__amU24cache2_5;
 };

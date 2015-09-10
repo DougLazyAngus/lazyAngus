@@ -3,6 +3,6 @@
 // UnityEngine.Object
 #include "UnityEngine_UnityEngine_Object.h"
 // UnityEngine.Sprite
-struct  Sprite_t512  : public Object_t721
+struct  Sprite_t521  : public Object_t728
 {
 };

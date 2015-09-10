@@ -5,31 +5,31 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.TextGenerator
-struct TextGenerator_t970;
+struct TextGenerator_t977;
 // System.Collections.Generic.IList`1<UnityEngine.UIVertex>
-struct IList_1_t1106;
+struct IList_1_t1113;
 // System.Collections.Generic.IList`1<UnityEngine.UICharInfo>
-struct IList_1_t1100;
+struct IList_1_t1107;
 // System.Collections.Generic.IList`1<UnityEngine.UILineInfo>
-struct IList_1_t1098;
+struct IList_1_t1105;
 // System.String
 struct String_t;
 // UnityEngine.Font
-struct Font_t933;
+struct Font_t940;
 // System.Object
 struct Object_t;
 // UnityEngine.UIVertex[]
-struct UIVertexU5BU5D_t968;
+struct UIVertexU5BU5D_t975;
 // UnityEngine.UICharInfo[]
-struct UICharInfoU5BU5D_t2930;
+struct UICharInfoU5BU5D_t2937;
 // UnityEngine.UILineInfo[]
-struct UILineInfoU5BU5D_t2931;
+struct UILineInfoU5BU5D_t2938;
 // System.Collections.Generic.List`1<UnityEngine.UICharInfo>
-struct List_1_t2810;
+struct List_1_t2817;
 // System.Collections.Generic.List`1<UnityEngine.UILineInfo>
-struct List_1_t2811;
+struct List_1_t2818;
 // System.Collections.Generic.List`1<UnityEngine.UIVertex>
-struct List_1_t971;
+struct List_1_t978;
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // UnityEngine.Color
@@ -48,68 +48,68 @@ struct List_1_t971;
 #include "UnityEngine_UnityEngine_TextGenerationSettings.h"
 
 // System.Void UnityEngine.TextGenerator::.ctor()
-extern "C" void TextGenerator__ctor_m6180 (TextGenerator_t970 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextGenerator__ctor_m6238 (TextGenerator_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.TextGenerator::.ctor(System.Int32)
-extern "C" void TextGenerator__ctor_m6306 (TextGenerator_t970 * __this, int32_t ___initialCapacity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextGenerator__ctor_m6364 (TextGenerator_t977 * __this, int32_t ___initialCapacity, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.TextGenerator::System.IDisposable.Dispose()
-extern "C" void TextGenerator_System_IDisposable_Dispose_m9759 (TextGenerator_t970 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextGenerator_System_IDisposable_Dispose_m9816 (TextGenerator_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.TextGenerator::Init()
-extern "C" void TextGenerator_Init_m9760 (TextGenerator_t970 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextGenerator_Init_m9817 (TextGenerator_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.TextGenerator::Dispose_cpp()
-extern "C" void TextGenerator_Dispose_cpp_m9761 (TextGenerator_t970 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextGenerator_Dispose_cpp_m9818 (TextGenerator_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.TextGenerator::Populate_Internal(System.String,UnityEngine.Font,UnityEngine.Color,System.Int32,System.Single,System.Single,UnityEngine.FontStyle,System.Boolean,System.Boolean,System.Int32,System.Int32,UnityEngine.VerticalWrapMode,UnityEngine.HorizontalWrapMode,System.Boolean,UnityEngine.TextAnchor,UnityEngine.Vector2,UnityEngine.Vector2,System.Boolean)
-extern "C" bool TextGenerator_Populate_Internal_m9762 (TextGenerator_t970 * __this, String_t* ___str, Font_t933 * ___font, Color_t325  ___color, int32_t ___fontSize, float ___scaleFactor, float ___lineSpacing, int32_t ___style, bool ___richText, bool ___resizeTextForBestFit, int32_t ___resizeTextMinSize, int32_t ___resizeTextMaxSize, int32_t ___verticalOverFlow, int32_t ___horizontalOverflow, bool ___updateBounds, int32_t ___anchor, Vector2_t110  ___extents, Vector2_t110  ___pivot, bool ___generateOutOfBounds, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TextGenerator_Populate_Internal_m9819 (TextGenerator_t977 * __this, String_t* ___str, Font_t940 * ___font, Color_t325  ___color, int32_t ___fontSize, float ___scaleFactor, float ___lineSpacing, int32_t ___style, bool ___richText, bool ___resizeTextForBestFit, int32_t ___resizeTextMinSize, int32_t ___resizeTextMaxSize, int32_t ___verticalOverFlow, int32_t ___horizontalOverflow, bool ___updateBounds, int32_t ___anchor, Vector2_t110  ___extents, Vector2_t110  ___pivot, bool ___generateOutOfBounds, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.TextGenerator::Populate_Internal_cpp(System.String,UnityEngine.Font,UnityEngine.Color,System.Int32,System.Single,System.Single,UnityEngine.FontStyle,System.Boolean,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,UnityEngine.TextAnchor,System.Single,System.Single,System.Single,System.Single,System.Boolean)
-extern "C" bool TextGenerator_Populate_Internal_cpp_m9763 (TextGenerator_t970 * __this, String_t* ___str, Font_t933 * ___font, Color_t325  ___color, int32_t ___fontSize, float ___scaleFactor, float ___lineSpacing, int32_t ___style, bool ___richText, bool ___resizeTextForBestFit, int32_t ___resizeTextMinSize, int32_t ___resizeTextMaxSize, int32_t ___verticalOverFlow, int32_t ___horizontalOverflow, bool ___updateBounds, int32_t ___anchor, float ___extentsX, float ___extentsY, float ___pivotX, float ___pivotY, bool ___generateOutOfBounds, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TextGenerator_Populate_Internal_cpp_m9820 (TextGenerator_t977 * __this, String_t* ___str, Font_t940 * ___font, Color_t325  ___color, int32_t ___fontSize, float ___scaleFactor, float ___lineSpacing, int32_t ___style, bool ___richText, bool ___resizeTextForBestFit, int32_t ___resizeTextMinSize, int32_t ___resizeTextMaxSize, int32_t ___verticalOverFlow, int32_t ___horizontalOverflow, bool ___updateBounds, int32_t ___anchor, float ___extentsX, float ___extentsY, float ___pivotX, float ___pivotY, bool ___generateOutOfBounds, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.TextGenerator::INTERNAL_CALL_Populate_Internal_cpp(UnityEngine.TextGenerator,System.String,UnityEngine.Font,UnityEngine.Color&,System.Int32,System.Single,System.Single,UnityEngine.FontStyle,System.Boolean,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,UnityEngine.TextAnchor,System.Single,System.Single,System.Single,System.Single,System.Boolean)
-extern "C" bool TextGenerator_INTERNAL_CALL_Populate_Internal_cpp_m9764 (Object_t * __this /* static, unused */, TextGenerator_t970 * ___self, String_t* ___str, Font_t933 * ___font, Color_t325 * ___color, int32_t ___fontSize, float ___scaleFactor, float ___lineSpacing, int32_t ___style, bool ___richText, bool ___resizeTextForBestFit, int32_t ___resizeTextMinSize, int32_t ___resizeTextMaxSize, int32_t ___verticalOverFlow, int32_t ___horizontalOverflow, bool ___updateBounds, int32_t ___anchor, float ___extentsX, float ___extentsY, float ___pivotX, float ___pivotY, bool ___generateOutOfBounds, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TextGenerator_INTERNAL_CALL_Populate_Internal_cpp_m9821 (Object_t * __this /* static, unused */, TextGenerator_t977 * ___self, String_t* ___str, Font_t940 * ___font, Color_t325 * ___color, int32_t ___fontSize, float ___scaleFactor, float ___lineSpacing, int32_t ___style, bool ___richText, bool ___resizeTextForBestFit, int32_t ___resizeTextMinSize, int32_t ___resizeTextMaxSize, int32_t ___verticalOverFlow, int32_t ___horizontalOverflow, bool ___updateBounds, int32_t ___anchor, float ___extentsX, float ___extentsY, float ___pivotX, float ___pivotY, bool ___generateOutOfBounds, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Rect UnityEngine.TextGenerator::get_rectExtents()
-extern "C" Rect_t712  TextGenerator_get_rectExtents_m6217 (TextGenerator_t970 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rect_t719  TextGenerator_get_rectExtents_m6275 (TextGenerator_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.TextGenerator::get_vertexCount()
-extern "C" int32_t TextGenerator_get_vertexCount_m9765 (TextGenerator_t970 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t TextGenerator_get_vertexCount_m9822 (TextGenerator_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.TextGenerator::GetVerticesInternal(System.Object)
-extern "C" void TextGenerator_GetVerticesInternal_m9766 (TextGenerator_t970 * __this, Object_t * ___vertices, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextGenerator_GetVerticesInternal_m9823 (TextGenerator_t977 * __this, Object_t * ___vertices, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UIVertex[] UnityEngine.TextGenerator::GetVerticesArray()
-extern "C" UIVertexU5BU5D_t968* TextGenerator_GetVerticesArray_m9767 (TextGenerator_t970 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" UIVertexU5BU5D_t975* TextGenerator_GetVerticesArray_m9824 (TextGenerator_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.TextGenerator::get_characterCount()
-extern "C" int32_t TextGenerator_get_characterCount_m9768 (TextGenerator_t970 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t TextGenerator_get_characterCount_m9825 (TextGenerator_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.TextGenerator::get_characterCountVisible()
-extern "C" int32_t TextGenerator_get_characterCountVisible_m6200 (TextGenerator_t970 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t TextGenerator_get_characterCountVisible_m6258 (TextGenerator_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.TextGenerator::GetCharactersInternal(System.Object)
-extern "C" void TextGenerator_GetCharactersInternal_m9769 (TextGenerator_t970 * __this, Object_t * ___characters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextGenerator_GetCharactersInternal_m9826 (TextGenerator_t977 * __this, Object_t * ___characters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UICharInfo[] UnityEngine.TextGenerator::GetCharactersArray()
-extern "C" UICharInfoU5BU5D_t2930* TextGenerator_GetCharactersArray_m9770 (TextGenerator_t970 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" UICharInfoU5BU5D_t2937* TextGenerator_GetCharactersArray_m9827 (TextGenerator_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.TextGenerator::get_lineCount()
-extern "C" int32_t TextGenerator_get_lineCount_m6199 (TextGenerator_t970 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t TextGenerator_get_lineCount_m6257 (TextGenerator_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.TextGenerator::GetLinesInternal(System.Object)
-extern "C" void TextGenerator_GetLinesInternal_m9771 (TextGenerator_t970 * __this, Object_t * ___lines, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextGenerator_GetLinesInternal_m9828 (TextGenerator_t977 * __this, Object_t * ___lines, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UILineInfo[] UnityEngine.TextGenerator::GetLinesArray()
-extern "C" UILineInfoU5BU5D_t2931* TextGenerator_GetLinesArray_m9772 (TextGenerator_t970 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" UILineInfoU5BU5D_t2938* TextGenerator_GetLinesArray_m9829 (TextGenerator_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.TextGenerator::get_fontSizeUsedForBestFit()
-extern "C" int32_t TextGenerator_get_fontSizeUsedForBestFit_m6232 (TextGenerator_t970 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t TextGenerator_get_fontSizeUsedForBestFit_m6290 (TextGenerator_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.TextGenerator::Finalize()
-extern "C" void TextGenerator_Finalize_m9773 (TextGenerator_t970 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextGenerator_Finalize_m9830 (TextGenerator_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.TextGenerationSettings UnityEngine.TextGenerator::ValidatedSettings(UnityEngine.TextGenerationSettings)
-extern "C" TextGenerationSettings_t1066  TextGenerator_ValidatedSettings_m9774 (TextGenerator_t970 * __this, TextGenerationSettings_t1066  ___settings, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TextGenerationSettings_t1073  TextGenerator_ValidatedSettings_m9831 (TextGenerator_t977 * __this, TextGenerationSettings_t1073  ___settings, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.TextGenerator::Invalidate()
-extern "C" void TextGenerator_Invalidate_m6309 (TextGenerator_t970 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextGenerator_Invalidate_m6367 (TextGenerator_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.TextGenerator::GetCharacters(System.Collections.Generic.List`1<UnityEngine.UICharInfo>)
-extern "C" void TextGenerator_GetCharacters_m9775 (TextGenerator_t970 * __this, List_1_t2810 * ___characters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextGenerator_GetCharacters_m9832 (TextGenerator_t977 * __this, List_1_t2817 * ___characters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.TextGenerator::GetLines(System.Collections.Generic.List`1<UnityEngine.UILineInfo>)
-extern "C" void TextGenerator_GetLines_m9776 (TextGenerator_t970 * __this, List_1_t2811 * ___lines, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextGenerator_GetLines_m9833 (TextGenerator_t977 * __this, List_1_t2818 * ___lines, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.TextGenerator::GetVertices(System.Collections.Generic.List`1<UnityEngine.UIVertex>)
-extern "C" void TextGenerator_GetVertices_m9777 (TextGenerator_t970 * __this, List_1_t971 * ___vertices, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextGenerator_GetVertices_m9834 (TextGenerator_t977 * __this, List_1_t978 * ___vertices, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.TextGenerator::GetPreferredWidth(System.String,UnityEngine.TextGenerationSettings)
-extern "C" float TextGenerator_GetPreferredWidth_m6313 (TextGenerator_t970 * __this, String_t* ___str, TextGenerationSettings_t1066  ___settings, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float TextGenerator_GetPreferredWidth_m6371 (TextGenerator_t977 * __this, String_t* ___str, TextGenerationSettings_t1073  ___settings, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.TextGenerator::GetPreferredHeight(System.String,UnityEngine.TextGenerationSettings)
-extern "C" float TextGenerator_GetPreferredHeight_m6314 (TextGenerator_t970 * __this, String_t* ___str, TextGenerationSettings_t1066  ___settings, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float TextGenerator_GetPreferredHeight_m6372 (TextGenerator_t977 * __this, String_t* ___str, TextGenerationSettings_t1073  ___settings, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.TextGenerator::Populate(System.String,UnityEngine.TextGenerationSettings)
-extern "C" bool TextGenerator_Populate_m6216 (TextGenerator_t970 * __this, String_t* ___str, TextGenerationSettings_t1066  ___settings, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TextGenerator_Populate_m6274 (TextGenerator_t977 * __this, String_t* ___str, TextGenerationSettings_t1073  ___settings, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.TextGenerator::PopulateAlways(System.String,UnityEngine.TextGenerationSettings)
-extern "C" bool TextGenerator_PopulateAlways_m9778 (TextGenerator_t970 * __this, String_t* ___str, TextGenerationSettings_t1066  ___settings, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TextGenerator_PopulateAlways_m9835 (TextGenerator_t977 * __this, String_t* ___str, TextGenerationSettings_t1073  ___settings, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IList`1<UnityEngine.UIVertex> UnityEngine.TextGenerator::get_verts()
-extern "C" Object_t* TextGenerator_get_verts_m6312 (TextGenerator_t970 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t* TextGenerator_get_verts_m6370 (TextGenerator_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IList`1<UnityEngine.UICharInfo> UnityEngine.TextGenerator::get_characters()
-extern "C" Object_t* TextGenerator_get_characters_m6201 (TextGenerator_t970 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t* TextGenerator_get_characters_m6259 (TextGenerator_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IList`1<UnityEngine.UILineInfo> UnityEngine.TextGenerator::get_lines()
-extern "C" Object_t* TextGenerator_get_lines_m6198 (TextGenerator_t970 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t* TextGenerator_get_lines_m6256 (TextGenerator_t977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.RegexRunnerFactory
-struct RegexRunnerFactory_t4510;
+struct RegexRunnerFactory_t4517;
 

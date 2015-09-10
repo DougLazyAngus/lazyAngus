@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Schema.XmlSeverityType
-struct XmlSeverityType_t3700;
+struct XmlSeverityType_t3707;
 

@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.X509.X509ExtensionCollection
-struct X509ExtensionCollection_t4819;
+struct X509ExtensionCollection_t4826;
 // Mono.Security.X509.X509Extension
-struct X509Extension_t4822;
+struct X509Extension_t4829;
 // System.String
 struct String_t;
 // Mono.Security.ASN1
-struct ASN1_t4783;
+struct ASN1_t4790;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 
 // System.Void Mono.Security.X509.X509ExtensionCollection::.ctor()
-extern "C" void X509ExtensionCollection__ctor_m19879 (X509ExtensionCollection_t4819 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ExtensionCollection__ctor_m19936 (X509ExtensionCollection_t4826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.X509ExtensionCollection::.ctor(Mono.Security.ASN1)
-extern "C" void X509ExtensionCollection__ctor_m19880 (X509ExtensionCollection_t4819 * __this, ASN1_t4783 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509ExtensionCollection__ctor_m19937 (X509ExtensionCollection_t4826 * __this, ASN1_t4790 * ___asn1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator Mono.Security.X509.X509ExtensionCollection::System.Collections.IEnumerable.GetEnumerator()
-extern "C" Object_t * X509ExtensionCollection_System_Collections_IEnumerable_GetEnumerator_m19881 (X509ExtensionCollection_t4819 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * X509ExtensionCollection_System_Collections_IEnumerable_GetEnumerator_m19938 (X509ExtensionCollection_t4826 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.X509.X509ExtensionCollection::IndexOf(System.String)
-extern "C" int32_t X509ExtensionCollection_IndexOf_m19882 (X509ExtensionCollection_t4819 * __this, String_t* ___oid, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509ExtensionCollection_IndexOf_m19939 (X509ExtensionCollection_t4826 * __this, String_t* ___oid, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509Extension Mono.Security.X509.X509ExtensionCollection::get_Item(System.String)
-extern "C" X509Extension_t4822 * X509ExtensionCollection_get_Item_m19883 (X509ExtensionCollection_t4819 * __this, String_t* ___oid, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Extension_t4829 * X509ExtensionCollection_get_Item_m19940 (X509ExtensionCollection_t4826 * __this, String_t* ___oid, const MethodInfo* method) IL2CPP_METHOD_ATTR;

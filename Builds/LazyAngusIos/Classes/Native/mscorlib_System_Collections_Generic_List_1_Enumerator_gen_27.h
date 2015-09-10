@@ -7,7 +7,7 @@ struct List_1_t486;
 // GameAnalyticsSDK.Settings/HelpTypes
 #include "AssemblyU2DCSharp_GameAnalyticsSDK_Settings_HelpTypes.h"
 // System.Collections.Generic.List`1/Enumerator<GameAnalyticsSDK.Settings/HelpTypes>
-struct  Enumerator_t6249 
+struct  Enumerator_t6256 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<GameAnalyticsSDK.Settings/HelpTypes>::l
 	List_1_t486 * ___l_0;

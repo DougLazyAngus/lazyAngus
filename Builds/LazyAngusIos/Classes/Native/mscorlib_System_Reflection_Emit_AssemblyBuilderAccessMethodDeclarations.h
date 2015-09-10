@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.Emit.AssemblyBuilderAccess
-struct AssemblyBuilderAccess_t5054;
+struct AssemblyBuilderAccess_t5061;
 

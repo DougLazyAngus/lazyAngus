@@ -5,7 +5,7 @@
 // System.Configuration.ConfigurationAllowExeDefinition
 #include "System_Configuration_System_Configuration_ConfigurationAllow_0.h"
 // System.Configuration.ConfigurationAllowExeDefinition
-struct  ConfigurationAllowExeDefinition_t3311 
+struct  ConfigurationAllowExeDefinition_t3318 
 {
 	// System.Int32 System.Configuration.ConfigurationAllowExeDefinition::value__
 	int32_t ___value___1;

@@ -5,10 +5,10 @@
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // Mono.Security.X509.OSX509Certificates
-struct  OSX509Certificates_t4437  : public Object_t
+struct  OSX509Certificates_t4444  : public Object_t
 {
 };
-struct OSX509Certificates_t4437_StaticFields{
+struct OSX509Certificates_t4444_StaticFields{
 	// System.IntPtr Mono.Security.X509.OSX509Certificates::sslsecpolicy
 	IntPtr_t ___sslsecpolicy_0;
 };

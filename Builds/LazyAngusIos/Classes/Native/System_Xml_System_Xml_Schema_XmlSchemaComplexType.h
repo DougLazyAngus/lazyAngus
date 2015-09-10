@@ -1,19 +1,19 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.Schema.XmlSchemaAnyAttribute
-struct XmlSchemaAnyAttribute_t3634;
+struct XmlSchemaAnyAttribute_t3641;
 // System.Xml.Schema.XmlSchemaObjectCollection
-struct XmlSchemaObjectCollection_t3627;
+struct XmlSchemaObjectCollection_t3634;
 // System.Xml.Schema.XmlSchemaObjectTable
-struct XmlSchemaObjectTable_t3626;
+struct XmlSchemaObjectTable_t3633;
 // System.Xml.Schema.XmlSchemaContentModel
-struct XmlSchemaContentModel_t3645;
+struct XmlSchemaContentModel_t3652;
 // System.Xml.Schema.XmlSchemaParticle
-struct XmlSchemaParticle_t3633;
+struct XmlSchemaParticle_t3640;
 // System.Xml.Schema.XmlSchemaComplexType
-struct XmlSchemaComplexType_t3648;
+struct XmlSchemaComplexType_t3655;
 // System.Xml.XmlQualifiedName
-struct XmlQualifiedName_t3419;
+struct XmlQualifiedName_t3426;
 // System.Xml.Schema.XmlSchemaType
 #include "System_Xml_System_Xml_Schema_XmlSchemaType.h"
 // System.Xml.Schema.XmlSchemaDerivationMethod
@@ -23,32 +23,32 @@ struct XmlQualifiedName_t3419;
 // System.Guid
 #include "mscorlib_System_Guid.h"
 // System.Xml.Schema.XmlSchemaComplexType
-struct  XmlSchemaComplexType_t3648  : public XmlSchemaType_t3649
+struct  XmlSchemaComplexType_t3655  : public XmlSchemaType_t3656
 {
 	// System.Xml.Schema.XmlSchemaAnyAttribute System.Xml.Schema.XmlSchemaComplexType::anyAttribute
-	XmlSchemaAnyAttribute_t3634 * ___anyAttribute_28;
+	XmlSchemaAnyAttribute_t3641 * ___anyAttribute_28;
 	// System.Xml.Schema.XmlSchemaObjectCollection System.Xml.Schema.XmlSchemaComplexType::attributes
-	XmlSchemaObjectCollection_t3627 * ___attributes_29;
+	XmlSchemaObjectCollection_t3634 * ___attributes_29;
 	// System.Xml.Schema.XmlSchemaObjectTable System.Xml.Schema.XmlSchemaComplexType::attributeUses
-	XmlSchemaObjectTable_t3626 * ___attributeUses_30;
+	XmlSchemaObjectTable_t3633 * ___attributeUses_30;
 	// System.Xml.Schema.XmlSchemaAnyAttribute System.Xml.Schema.XmlSchemaComplexType::attributeWildcard
-	XmlSchemaAnyAttribute_t3634 * ___attributeWildcard_31;
+	XmlSchemaAnyAttribute_t3641 * ___attributeWildcard_31;
 	// System.Xml.Schema.XmlSchemaDerivationMethod System.Xml.Schema.XmlSchemaComplexType::block
 	int32_t ___block_32;
 	// System.Xml.Schema.XmlSchemaDerivationMethod System.Xml.Schema.XmlSchemaComplexType::blockResolved
 	int32_t ___blockResolved_33;
 	// System.Xml.Schema.XmlSchemaContentModel System.Xml.Schema.XmlSchemaComplexType::contentModel
-	XmlSchemaContentModel_t3645 * ___contentModel_34;
+	XmlSchemaContentModel_t3652 * ___contentModel_34;
 	// System.Xml.Schema.XmlSchemaParticle System.Xml.Schema.XmlSchemaComplexType::validatableParticle
-	XmlSchemaParticle_t3633 * ___validatableParticle_35;
+	XmlSchemaParticle_t3640 * ___validatableParticle_35;
 	// System.Xml.Schema.XmlSchemaParticle System.Xml.Schema.XmlSchemaComplexType::contentTypeParticle
-	XmlSchemaParticle_t3633 * ___contentTypeParticle_36;
+	XmlSchemaParticle_t3640 * ___contentTypeParticle_36;
 	// System.Boolean System.Xml.Schema.XmlSchemaComplexType::isAbstract
 	bool ___isAbstract_37;
 	// System.Boolean System.Xml.Schema.XmlSchemaComplexType::isMixed
 	bool ___isMixed_38;
 	// System.Xml.Schema.XmlSchemaParticle System.Xml.Schema.XmlSchemaComplexType::particle
-	XmlSchemaParticle_t3633 * ___particle_39;
+	XmlSchemaParticle_t3640 * ___particle_39;
 	// System.Xml.Schema.XmlSchemaContentType System.Xml.Schema.XmlSchemaComplexType::resolvedContentType
 	int32_t ___resolvedContentType_40;
 	// System.Boolean System.Xml.Schema.XmlSchemaComplexType::ValidatedIsAbstract
@@ -56,9 +56,9 @@ struct  XmlSchemaComplexType_t3648  : public XmlSchemaType_t3649
 	// System.Guid System.Xml.Schema.XmlSchemaComplexType::CollectProcessId
 	Guid_t74  ___CollectProcessId_44;
 };
-struct XmlSchemaComplexType_t3648_StaticFields{
+struct XmlSchemaComplexType_t3655_StaticFields{
 	// System.Xml.Schema.XmlSchemaComplexType System.Xml.Schema.XmlSchemaComplexType::anyType
-	XmlSchemaComplexType_t3648 * ___anyType_42;
+	XmlSchemaComplexType_t3655 * ___anyType_42;
 	// System.Xml.XmlQualifiedName System.Xml.Schema.XmlSchemaComplexType::AnyTypeName
-	XmlQualifiedName_t3419 * ___AnyTypeName_43;
+	XmlQualifiedName_t3426 * ___AnyTypeName_43;
 };

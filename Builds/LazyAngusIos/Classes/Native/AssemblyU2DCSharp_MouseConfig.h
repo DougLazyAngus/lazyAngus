@@ -1,15 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Single[]
-struct SingleU5BU5D_t589;
-// UnityEngine.GameObject
-struct GameObject_t352;
+struct SingleU5BU5D_t541;
 // MouseTypeDesc[]
-struct MouseTypeDescU5BU5D_t601;
+struct MouseTypeDescU5BU5D_t542;
 // MouseWiggleDesc[]
-struct MouseWiggleDescU5BU5D_t602;
+struct MouseWiggleDescU5BU5D_t543;
 // MouseConfig
-struct MouseConfig_t603;
+struct MouseConfig_t544;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // UnityEngine.Color
@@ -17,7 +15,7 @@ struct MouseConfig_t603;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // MouseConfig
-struct  MouseConfig_t603  : public MonoBehaviour_t13
+struct  MouseConfig_t544  : public MonoBehaviour_t13
 {
 	// System.Single MouseConfig::timeToTurn
 	float ___timeToTurn_2;
@@ -28,47 +26,45 @@ struct  MouseConfig_t603  : public MonoBehaviour_t13
 	// System.Single MouseConfig::startMouseRadius
 	float ___startMouseRadius_5;
 	// System.Single[] MouseConfig::speeds
-	SingleU5BU5D_t589* ___speeds_6;
+	SingleU5BU5D_t541* ___speeds_6;
 	// System.Single[] MouseConfig::scales
-	SingleU5BU5D_t589* ___scales_7;
+	SingleU5BU5D_t541* ___scales_7;
 	// UnityEngine.Color MouseConfig::poisonedColor
 	Color_t325  ___poisonedColor_8;
 	// UnityEngine.Color MouseConfig::fartedUponColor
 	Color_t325  ___fartedUponColor_9;
 	// UnityEngine.Vector3 MouseConfig::progressBarOffset
-	Vector3_t538  ___progressBarOffset_10;
-	// UnityEngine.GameObject MouseConfig::deadMousePrototype
-	GameObject_t352 * ___deadMousePrototype_11;
+	Vector3_t523  ___progressBarOffset_10;
 	// System.Single MouseConfig::minBFWiggleMagnitude
-	float ___minBFWiggleMagnitude_12;
+	float ___minBFWiggleMagnitude_11;
 	// System.Single MouseConfig::maxBFWiggleMagnitude
-	float ___maxBFWiggleMagnitude_13;
+	float ___maxBFWiggleMagnitude_12;
 	// System.Int32 MouseConfig::minBFWiggleCycles
-	int32_t ___minBFWiggleCycles_14;
+	int32_t ___minBFWiggleCycles_13;
 	// System.Int32 MouseConfig::maxBFWiggleCycles
-	int32_t ___maxBFWiggleCycles_15;
+	int32_t ___maxBFWiggleCycles_14;
 	// System.Single MouseConfig::minSSWiggleMagnitude
-	float ___minSSWiggleMagnitude_16;
+	float ___minSSWiggleMagnitude_15;
 	// System.Single MouseConfig::maxSSWiggleMagnitude
-	float ___maxSSWiggleMagnitude_17;
+	float ___maxSSWiggleMagnitude_16;
 	// System.Int32 MouseConfig::minSSWiggleCycles
-	int32_t ___minSSWiggleCycles_18;
+	int32_t ___minSSWiggleCycles_17;
 	// System.Int32 MouseConfig::maxSSWiggleCycles
-	int32_t ___maxSSWiggleCycles_19;
+	int32_t ___maxSSWiggleCycles_18;
 	// System.Single MouseConfig::minRDWiggleMagnitude
-	float ___minRDWiggleMagnitude_20;
+	float ___minRDWiggleMagnitude_19;
 	// System.Single MouseConfig::maxRDWiggleMagnitude
-	float ___maxRDWiggleMagnitude_21;
+	float ___maxRDWiggleMagnitude_20;
 	// System.Int32 MouseConfig::minRDWiggleCycles
-	int32_t ___minRDWiggleCycles_22;
+	int32_t ___minRDWiggleCycles_21;
 	// System.Int32 MouseConfig::maxRDWiggleCycles
-	int32_t ___maxRDWiggleCycles_23;
+	int32_t ___maxRDWiggleCycles_22;
 	// MouseTypeDesc[] MouseConfig::mouseDescs
-	MouseTypeDescU5BU5D_t601* ___mouseDescs_24;
+	MouseTypeDescU5BU5D_t542* ___mouseDescs_23;
 	// MouseWiggleDesc[] MouseConfig::mouseWiggleDescs
-	MouseWiggleDescU5BU5D_t602* ___mouseWiggleDescs_25;
+	MouseWiggleDescU5BU5D_t543* ___mouseWiggleDescs_24;
 };
-struct MouseConfig_t603_StaticFields{
+struct MouseConfig_t544_StaticFields{
 	// MouseConfig MouseConfig::instance
-	MouseConfig_t603 * ___instance_26;
+	MouseConfig_t544 * ___instance_25;
 };

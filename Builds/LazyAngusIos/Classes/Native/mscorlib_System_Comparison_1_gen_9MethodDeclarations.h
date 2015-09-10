@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Comparison`1<GADTestDevice>
-struct Comparison_1_t6065;
+struct Comparison_1_t6072;
 // System.Object
 struct Object_t;
 // GADTestDevice
@@ -20,10 +20,10 @@ struct AsyncCallback_t386;
 // System.Void System.Comparison`1<GADTestDevice>::.ctor(System.Object,System.IntPtr)
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_3MethodDeclarations.h"
-#define Comparison_1__ctor_m27714(__this, ___object, ___method, method) (( void (*) (Comparison_1_t6065 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m26101_gshared)(__this, ___object, ___method, method)
+#define Comparison_1__ctor_m27771(__this, ___object, ___method, method) (( void (*) (Comparison_1_t6072 *, Object_t *, IntPtr_t, const MethodInfo*))Comparison_1__ctor_m26158_gshared)(__this, ___object, ___method, method)
 // System.Int32 System.Comparison`1<GADTestDevice>::Invoke(T,T)
-#define Comparison_1_Invoke_m27715(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t6065 *, GADTestDevice_t154 *, GADTestDevice_t154 *, const MethodInfo*))Comparison_1_Invoke_m26102_gshared)(__this, ___x, ___y, method)
+#define Comparison_1_Invoke_m27772(__this, ___x, ___y, method) (( int32_t (*) (Comparison_1_t6072 *, GADTestDevice_t154 *, GADTestDevice_t154 *, const MethodInfo*))Comparison_1_Invoke_m26159_gshared)(__this, ___x, ___y, method)
 // System.IAsyncResult System.Comparison`1<GADTestDevice>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-#define Comparison_1_BeginInvoke_m27716(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t6065 *, GADTestDevice_t154 *, GADTestDevice_t154 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m26103_gshared)(__this, ___x, ___y, ___callback, ___object, method)
+#define Comparison_1_BeginInvoke_m27773(__this, ___x, ___y, ___callback, ___object, method) (( Object_t * (*) (Comparison_1_t6072 *, GADTestDevice_t154 *, GADTestDevice_t154 *, AsyncCallback_t386 *, Object_t *, const MethodInfo*))Comparison_1_BeginInvoke_m26160_gshared)(__this, ___x, ___y, ___callback, ___object, method)
 // System.Int32 System.Comparison`1<GADTestDevice>::EndInvoke(System.IAsyncResult)
-#define Comparison_1_EndInvoke_m27717(__this, ___result, method) (( int32_t (*) (Comparison_1_t6065 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m26104_gshared)(__this, ___result, method)
+#define Comparison_1_EndInvoke_m27774(__this, ___result, method) (( int32_t (*) (Comparison_1_t6072 *, Object_t *, const MethodInfo*))Comparison_1_EndInvoke_m26161_gshared)(__this, ___result, method)

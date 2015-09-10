@@ -3,7 +3,7 @@
 // System.EventArgs
 #include "mscorlib_System_EventArgs.h"
 // Parse.ParseUploadProgressEventArgs
-struct  ParseUploadProgressEventArgs_t1325  : public EventArgs_t1318
+struct  ParseUploadProgressEventArgs_t1332  : public EventArgs_t1325
 {
 	// System.Double Parse.ParseUploadProgressEventArgs::<Progress>k__BackingField
 	double ___U3CProgressU3Ek__BackingField_1;

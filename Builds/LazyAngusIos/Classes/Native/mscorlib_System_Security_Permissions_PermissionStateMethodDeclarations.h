@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Permissions.PermissionState
-struct PermissionState_t5308;
+struct PermissionState_t5315;
 

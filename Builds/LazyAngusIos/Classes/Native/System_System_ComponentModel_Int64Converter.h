@@ -3,6 +3,6 @@
 // System.ComponentModel.BaseNumberConverter
 #include "System_System_ComponentModel_BaseNumberConverter.h"
 // System.ComponentModel.Int64Converter
-struct  Int64Converter_t4250  : public BaseNumberConverter_t4227
+struct  Int64Converter_t4257  : public BaseNumberConverter_t4234
 {
 };

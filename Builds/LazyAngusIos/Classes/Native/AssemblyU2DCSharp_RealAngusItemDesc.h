@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Sprite
-struct Sprite_t512;
+struct Sprite_t521;
 // System.String
 struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // RealAngusItemDesc
-struct  RealAngusItemDesc_t650  : public Object_t
+struct  RealAngusItemDesc_t571  : public Object_t
 {
 	// UnityEngine.Sprite RealAngusItemDesc::<pictureSprite>k__BackingField
-	Sprite_t512 * ___U3CpictureSpriteU3Ek__BackingField_0;
+	Sprite_t521 * ___U3CpictureSpriteU3Ek__BackingField_0;
 	// System.String RealAngusItemDesc::<text>k__BackingField
 	String_t* ___U3CtextU3Ek__BackingField_1;
 	// System.String RealAngusItemDesc::<tag>k__BackingField

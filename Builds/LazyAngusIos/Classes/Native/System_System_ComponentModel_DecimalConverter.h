@@ -3,6 +3,6 @@
 // System.ComponentModel.BaseNumberConverter
 #include "System_System_ComponentModel_BaseNumberConverter.h"
 // System.ComponentModel.DecimalConverter
-struct  DecimalConverter_t4238  : public BaseNumberConverter_t4227
+struct  DecimalConverter_t4245  : public BaseNumberConverter_t4234
 {
 };

@@ -7,10 +7,10 @@ struct String_t;
 // System.Threading.CancellationToken
 #include "Parse_Unity_System_Threading_CancellationToken.h"
 // Parse.ParseUser/<>c__DisplayClass2b
-struct  U3CU3Ec__DisplayClass2b_t1337  : public Object_t
+struct  U3CU3Ec__DisplayClass2b_t1344  : public Object_t
 {
 	// System.String Parse.ParseUser/<>c__DisplayClass2b::authType
 	String_t* ___authType_0;
 	// System.Threading.CancellationToken Parse.ParseUser/<>c__DisplayClass2b::cancellationToken
-	CancellationToken_t1185  ___cancellationToken_1;
+	CancellationToken_t1192  ___cancellationToken_1;
 };

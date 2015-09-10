@@ -5,7 +5,7 @@
 // System.Xml.Schema.XmlSchemaContentProcessing
 #include "System_Xml_System_Xml_Schema_XmlSchemaContentProcessing.h"
 // System.Xml.Schema.XmlSchemaContentProcessing
-struct  XmlSchemaContentProcessing_t3650 
+struct  XmlSchemaContentProcessing_t3657 
 {
 	// System.Int32 System.Xml.Schema.XmlSchemaContentProcessing::value__
 	int32_t ___value___1;

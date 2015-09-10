@@ -3,6 +3,6 @@
 // System.Collections.ReadOnlyCollectionBase
 #include "mscorlib_System_Collections_ReadOnlyCollectionBase.h"
 // System.Configuration.ConfigurationLocationCollection
-struct  ConfigurationLocationCollection_t3307  : public ReadOnlyCollectionBase_t3326
+struct  ConfigurationLocationCollection_t3314  : public ReadOnlyCollectionBase_t3333
 {
 };

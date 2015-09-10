@@ -5,37 +5,37 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Configuration.SettingsSection
-struct SettingsSection_t4339;
+struct SettingsSection_t4346;
 // System.Net.Configuration.HttpWebRequestElement
-struct HttpWebRequestElement_t4326;
+struct HttpWebRequestElement_t4333;
 // System.Net.Configuration.Ipv6Element
-struct Ipv6Element_t4327;
+struct Ipv6Element_t4334;
 // System.Net.Configuration.PerformanceCountersElement
-struct PerformanceCountersElement_t4332;
+struct PerformanceCountersElement_t4339;
 // System.Net.Configuration.ServicePointManagerElement
-struct ServicePointManagerElement_t4338;
+struct ServicePointManagerElement_t4345;
 // System.Net.Configuration.SocketElement
-struct SocketElement_t4340;
+struct SocketElement_t4347;
 // System.Net.Configuration.WebProxyScriptElement
-struct WebProxyScriptElement_t4341;
+struct WebProxyScriptElement_t4348;
 // System.Configuration.ConfigurationPropertyCollection
-struct ConfigurationPropertyCollection_t3314;
+struct ConfigurationPropertyCollection_t3321;
 
 // System.Void System.Net.Configuration.SettingsSection::.ctor()
-extern "C" void SettingsSection__ctor_m16349 (SettingsSection_t4339 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SettingsSection__ctor_m16406 (SettingsSection_t4346 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Configuration.SettingsSection::.cctor()
-extern "C" void SettingsSection__cctor_m16350 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SettingsSection__cctor_m16407 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Configuration.HttpWebRequestElement System.Net.Configuration.SettingsSection::get_HttpWebRequest()
-extern "C" HttpWebRequestElement_t4326 * SettingsSection_get_HttpWebRequest_m16351 (SettingsSection_t4339 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" HttpWebRequestElement_t4333 * SettingsSection_get_HttpWebRequest_m16408 (SettingsSection_t4346 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Configuration.Ipv6Element System.Net.Configuration.SettingsSection::get_Ipv6()
-extern "C" Ipv6Element_t4327 * SettingsSection_get_Ipv6_m16352 (SettingsSection_t4339 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Ipv6Element_t4334 * SettingsSection_get_Ipv6_m16409 (SettingsSection_t4346 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Configuration.PerformanceCountersElement System.Net.Configuration.SettingsSection::get_PerformanceCounters()
-extern "C" PerformanceCountersElement_t4332 * SettingsSection_get_PerformanceCounters_m16353 (SettingsSection_t4339 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" PerformanceCountersElement_t4339 * SettingsSection_get_PerformanceCounters_m16410 (SettingsSection_t4346 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Configuration.ServicePointManagerElement System.Net.Configuration.SettingsSection::get_ServicePointManager()
-extern "C" ServicePointManagerElement_t4338 * SettingsSection_get_ServicePointManager_m16354 (SettingsSection_t4339 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ServicePointManagerElement_t4345 * SettingsSection_get_ServicePointManager_m16411 (SettingsSection_t4346 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Configuration.SocketElement System.Net.Configuration.SettingsSection::get_Socket()
-extern "C" SocketElement_t4340 * SettingsSection_get_Socket_m16355 (SettingsSection_t4339 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" SocketElement_t4347 * SettingsSection_get_Socket_m16412 (SettingsSection_t4346 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.Configuration.WebProxyScriptElement System.Net.Configuration.SettingsSection::get_WebProxyScript()
-extern "C" WebProxyScriptElement_t4341 * SettingsSection_get_WebProxyScript_m16356 (SettingsSection_t4339 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WebProxyScriptElement_t4348 * SettingsSection_get_WebProxyScript_m16413 (SettingsSection_t4346 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.SettingsSection::get_Properties()
-extern "C" ConfigurationPropertyCollection_t3314 * SettingsSection_get_Properties_m16357 (SettingsSection_t4339 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ConfigurationPropertyCollection_t3321 * SettingsSection_get_Properties_m16414 (SettingsSection_t4346 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

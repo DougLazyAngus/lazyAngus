@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.RegularExpressions.Group
-struct Group_t1456;
+struct Group_t1463;
 // System.Text.RegularExpressions.CaptureCollection
-struct CaptureCollection_t1459;
+struct CaptureCollection_t1466;
 // System.Text.RegularExpressions.Capture
 #include "System_System_Text_RegularExpressions_Capture.h"
 // System.Text.RegularExpressions.Group
-struct  Group_t1456  : public Capture_t1457
+struct  Group_t1463  : public Capture_t1464
 {
 	// System.Boolean System.Text.RegularExpressions.Group::success
 	bool ___success_4;
 	// System.Text.RegularExpressions.CaptureCollection System.Text.RegularExpressions.Group::captures
-	CaptureCollection_t1459 * ___captures_5;
+	CaptureCollection_t1466 * ___captures_5;
 };
-struct Group_t1456_StaticFields{
+struct Group_t1463_StaticFields{
 	// System.Text.RegularExpressions.Group System.Text.RegularExpressions.Group::Fail
-	Group_t1456 * ___Fail_3;
+	Group_t1463 * ___Fail_3;
 };

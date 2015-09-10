@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Configuration.ProxyElement/BypassOnLocalValues
-struct BypassOnLocalValues_t4333;
+struct BypassOnLocalValues_t4340;
 

@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.ClassInterfaceAttribute
-struct ClassInterfaceAttribute_t5100;
+struct ClassInterfaceAttribute_t5107;
 // System.Runtime.InteropServices.ClassInterfaceType
 #include "mscorlib_System_Runtime_InteropServices_ClassInterfaceType.h"
 
 // System.Void System.Runtime.InteropServices.ClassInterfaceAttribute::.ctor(System.Runtime.InteropServices.ClassInterfaceType)
-extern "C" void ClassInterfaceAttribute__ctor_m22546 (ClassInterfaceAttribute_t5100 * __this, int32_t ___classInterfaceType, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ClassInterfaceAttribute__ctor_m22603 (ClassInterfaceAttribute_t5107 * __this, int32_t ___classInterfaceType, const MethodInfo* method) IL2CPP_METHOD_ATTR;

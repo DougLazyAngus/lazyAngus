@@ -5,7 +5,7 @@ struct ExplicitMouseDescU5BU5D_t6272;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<ExplicitMouseDesc>
-struct  List_1_t582  : public Object_t
+struct  List_1_t550  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<ExplicitMouseDesc>::_items
 	ExplicitMouseDescU5BU5D_t6272* ____items_1;
@@ -14,7 +14,7 @@ struct  List_1_t582  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1<ExplicitMouseDesc>::_version
 	int32_t ____version_3;
 };
-struct List_1_t582_StaticFields{
+struct List_1_t550_StaticFields{
 	// T[] System.Collections.Generic.List`1<ExplicitMouseDesc>::EmptyArray
 	ExplicitMouseDescU5BU5D_t6272* ___EmptyArray_4;
 };

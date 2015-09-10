@@ -5,7 +5,7 @@ struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Array/InternalEnumerator`1<Mono.Xml.Schema.XsdIdentityPath>
-struct  InternalEnumerator_1_t9163 
+struct  InternalEnumerator_1_t9170 
 {
 	// System.Array System.Array/InternalEnumerator`1<Mono.Xml.Schema.XsdIdentityPath>::array
 	Array_t * ___array_0;

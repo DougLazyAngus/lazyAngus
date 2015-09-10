@@ -3,6 +3,6 @@
 // System.FormatException
 #include "mscorlib_System_FormatException.h"
 // System.Net.CookieException
-struct  CookieException_t4351  : public FormatException_t2952
+struct  CookieException_t4358  : public FormatException_t2959
 {
 };

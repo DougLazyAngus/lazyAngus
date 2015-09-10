@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Linq.OrderedEnumerable`1<System.Object>
-struct OrderedEnumerable_1_t6637;
+struct OrderedEnumerable_1_t6644;
 // System.Func`2<System.Object,System.Object>
-struct Func_2_t1248;
+struct Func_2_t1255;
 // System.Collections.Generic.IComparer`1<System.Object>
-struct IComparer_1_t6204;
+struct IComparer_1_t6211;
 // System.Linq.OrderedEnumerable`1<System.Object>
 #include "System_Core_System_Linq_OrderedEnumerable_1_gen.h"
 // System.Linq.SortDirection
 #include "System_Core_System_Linq_SortDirection.h"
 // System.Linq.OrderedSequence`2<System.Object,System.Object>
-struct  OrderedSequence_2_t6638  : public OrderedEnumerable_1_t6637
+struct  OrderedSequence_2_t6645  : public OrderedEnumerable_1_t6644
 {
 	// System.Linq.OrderedEnumerable`1<TElement> System.Linq.OrderedSequence`2<System.Object,System.Object>::parent
-	OrderedEnumerable_1_t6637 * ___parent_1;
+	OrderedEnumerable_1_t6644 * ___parent_1;
 	// System.Func`2<TElement,TKey> System.Linq.OrderedSequence`2<System.Object,System.Object>::selector
-	Func_2_t1248 * ___selector_2;
+	Func_2_t1255 * ___selector_2;
 	// System.Collections.Generic.IComparer`1<TKey> System.Linq.OrderedSequence`2<System.Object,System.Object>::comparer
 	Object_t* ___comparer_3;
 	// System.Linq.SortDirection System.Linq.OrderedSequence`2<System.Object,System.Object>::direction

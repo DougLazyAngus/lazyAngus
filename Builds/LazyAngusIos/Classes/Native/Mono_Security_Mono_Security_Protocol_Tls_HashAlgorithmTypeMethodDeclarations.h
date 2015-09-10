@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.HashAlgorithmType
-struct HashAlgorithmType_t3200;
+struct HashAlgorithmType_t3207;
 

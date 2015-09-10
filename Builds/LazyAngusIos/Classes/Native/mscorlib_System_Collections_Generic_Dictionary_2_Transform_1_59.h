@@ -3,7 +3,7 @@
 // System.Object
 struct Object_t;
 // Parse.Internal.ParseJSONCacheItem
-struct ParseJSONCacheItem_t1219;
+struct ParseJSONCacheItem_t1226;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -13,6 +13,6 @@ struct AsyncCallback_t386;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Object,Parse.Internal.ParseJSONCacheItem,System.Collections.DictionaryEntry>
-struct  Transform_1_t6795  : public MulticastDelegate_t388
+struct  Transform_1_t6802  : public MulticastDelegate_t388
 {
 };

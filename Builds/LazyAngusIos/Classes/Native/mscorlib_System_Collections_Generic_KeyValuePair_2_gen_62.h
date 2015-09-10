@@ -3,14 +3,14 @@
 // System.String
 struct String_t;
 // Parse.ParseFile
-struct ParseFile_t1263;
+struct ParseFile_t1270;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseFile>
-struct  KeyValuePair_2_t7725 
+struct  KeyValuePair_2_t7732 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseFile>::key
 	String_t* ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2<System.String,Parse.ParseFile>::value
-	ParseFile_t1263 * ___value_1;
+	ParseFile_t1270 * ___value_1;
 };

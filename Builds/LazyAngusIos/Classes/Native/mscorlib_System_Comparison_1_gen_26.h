@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // ExplicitMouseDesc
-struct ExplicitMouseDesc_t539;
+struct ExplicitMouseDesc_t654;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback

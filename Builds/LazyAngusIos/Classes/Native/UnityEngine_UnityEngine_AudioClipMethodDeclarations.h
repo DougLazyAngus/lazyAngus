@@ -7,9 +7,9 @@
 // UnityEngine.AudioClip
 struct AudioClip_t395;
 // System.Single[]
-struct SingleU5BU5D_t589;
+struct SingleU5BU5D_t541;
 
 // System.Void UnityEngine.AudioClip::InvokePCMReaderCallback_Internal(System.Single[])
-extern "C" void AudioClip_InvokePCMReaderCallback_Internal_m9677 (AudioClip_t395 * __this, SingleU5BU5D_t589* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AudioClip_InvokePCMReaderCallback_Internal_m9735 (AudioClip_t395 * __this, SingleU5BU5D_t541* ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AudioClip::InvokePCMSetPositionCallback_Internal(System.Int32)
-extern "C" void AudioClip_InvokePCMSetPositionCallback_Internal_m9678 (AudioClip_t395 * __this, int32_t ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AudioClip_InvokePCMSetPositionCallback_Internal_m9736 (AudioClip_t395 * __this, int32_t ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;

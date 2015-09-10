@@ -7,7 +7,7 @@ struct Type_t;
 // System.ComponentModel.PropertyDescriptor
 #include "System_System_ComponentModel_PropertyDescriptor.h"
 // System.ComponentModel.ReflectionPropertyDescriptor
-struct  ReflectionPropertyDescriptor_t4256  : public PropertyDescriptor_t4223
+struct  ReflectionPropertyDescriptor_t4263  : public PropertyDescriptor_t4230
 {
 	// System.Reflection.PropertyInfo System.ComponentModel.ReflectionPropertyDescriptor::_member
 	PropertyInfo_t * ____member_3;

@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Linq.Expressions.Expression
-struct Expression_t1541;
+struct Expression_t1548;
 // System.Linq.Expressions.Expression
 #include "System_Core_System_Linq_Expressions_Expression.h"
 // System.Linq.Expressions.ConditionalExpression
-struct  ConditionalExpression_t3762  : public Expression_t1541
+struct  ConditionalExpression_t3769  : public Expression_t1548
 {
 	// System.Linq.Expressions.Expression System.Linq.Expressions.ConditionalExpression::test
-	Expression_t1541 * ___test_2;
+	Expression_t1548 * ___test_2;
 	// System.Linq.Expressions.Expression System.Linq.Expressions.ConditionalExpression::if_true
-	Expression_t1541 * ___if_true_3;
+	Expression_t1548 * ___if_true_3;
 	// System.Linq.Expressions.Expression System.Linq.Expressions.ConditionalExpression::if_false
-	Expression_t1541 * ___if_false_4;
+	Expression_t1548 * ___if_false_4;
 };

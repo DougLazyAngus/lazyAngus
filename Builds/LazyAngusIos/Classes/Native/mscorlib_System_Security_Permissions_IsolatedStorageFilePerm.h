@@ -3,6 +3,6 @@
 // System.Security.Permissions.IsolatedStoragePermission
 #include "mscorlib_System_Security_Permissions_IsolatedStoragePermissi.h"
 // System.Security.Permissions.IsolatedStorageFilePermission
-struct  IsolatedStorageFilePermission_t5301  : public IsolatedStoragePermission_t5302
+struct  IsolatedStorageFilePermission_t5308  : public IsolatedStoragePermission_t5309
 {
 };

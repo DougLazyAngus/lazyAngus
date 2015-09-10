@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.Scrollbar/Direction
-struct Direction_t977;
+struct Direction_t984;
 

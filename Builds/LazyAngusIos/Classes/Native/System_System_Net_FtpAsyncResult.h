@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Net.FtpWebResponse
-struct FtpWebResponse_t4362;
+struct FtpWebResponse_t4369;
 // System.Threading.ManualResetEvent
-struct ManualResetEvent_t3205;
+struct ManualResetEvent_t3212;
 // System.Exception
 struct Exception_t57;
 // System.AsyncCallback
@@ -15,12 +15,12 @@ struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.FtpAsyncResult
-struct  FtpAsyncResult_t4363  : public Object_t
+struct  FtpAsyncResult_t4370  : public Object_t
 {
 	// System.Net.FtpWebResponse System.Net.FtpAsyncResult::response
-	FtpWebResponse_t4362 * ___response_0;
+	FtpWebResponse_t4369 * ___response_0;
 	// System.Threading.ManualResetEvent System.Net.FtpAsyncResult::waitHandle
-	ManualResetEvent_t3205 * ___waitHandle_1;
+	ManualResetEvent_t3212 * ___waitHandle_1;
 	// System.Exception System.Net.FtpAsyncResult::exception
 	Exception_t57 * ___exception_2;
 	// System.AsyncCallback System.Net.FtpAsyncResult::callback

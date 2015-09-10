@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.SerializationObjectManager
-struct SerializationObjectManager_t5208;
+struct SerializationObjectManager_t5215;
 // System.Object
 struct Object_t;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Runtime.Serialization.SerializationObjectManager::.ctor(System.Runtime.Serialization.StreamingContext)
-extern "C" void SerializationObjectManager__ctor_m23021 (SerializationObjectManager_t5208 * __this, StreamingContext_t2941  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationObjectManager__ctor_m23078 (SerializationObjectManager_t5215 * __this, StreamingContext_t2948  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.SerializationObjectManager::RegisterObject(System.Object)
-extern "C" void SerializationObjectManager_RegisterObject_m23022 (SerializationObjectManager_t5208 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationObjectManager_RegisterObject_m23079 (SerializationObjectManager_t5215 * __this, Object_t * ___obj, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.SerializationObjectManager::RaiseOnSerializedEvent()
-extern "C" void SerializationObjectManager_RaiseOnSerializedEvent_m23023 (SerializationObjectManager_t5208 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SerializationObjectManager_RaiseOnSerializedEvent_m23080 (SerializationObjectManager_t5215 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

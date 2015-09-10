@@ -28,14 +28,14 @@
 #include "mscorlib_System_Array.h"
 
 // Conversion methods for marshalling of: <PrivateImplementationDetails>/$ArrayType$1280
-void U24ArrayTypeU241280_t3723_marshal(const U24ArrayTypeU241280_t3723& unmarshaled, U24ArrayTypeU241280_t3723_marshaled& marshaled)
+void U24ArrayTypeU241280_t3730_marshal(const U24ArrayTypeU241280_t3730& unmarshaled, U24ArrayTypeU241280_t3730_marshaled& marshaled)
 {
 }
-void U24ArrayTypeU241280_t3723_marshal_back(const U24ArrayTypeU241280_t3723_marshaled& marshaled, U24ArrayTypeU241280_t3723& unmarshaled)
+void U24ArrayTypeU241280_t3730_marshal_back(const U24ArrayTypeU241280_t3730_marshaled& marshaled, U24ArrayTypeU241280_t3730& unmarshaled)
 {
 }
 // Conversion method for clean up from marshalling of: <PrivateImplementationDetails>/$ArrayType$1280
-void U24ArrayTypeU241280_t3723_marshal_cleanup(U24ArrayTypeU241280_t3723_marshaled& marshaled)
+void U24ArrayTypeU241280_t3730_marshal_cleanup(U24ArrayTypeU241280_t3730_marshaled& marshaled)
 {
 }
 // <PrivateImplementationDetails>

@@ -19,7 +19,7 @@ struct OGActionType_t432;
 // System.String[]
 struct StringU5BU5D_t75;
 // System.Collections.Generic.List`1<System.Object>
-struct List_1_t702;
+struct List_1_t709;
 // System.Collections.Generic.Dictionary`2<System.String,System.String[]>
 struct Dictionary_2_t116;
 // System.Collections.Generic.Dictionary`2<System.String,System.Object>
@@ -44,7 +44,7 @@ extern "C" void CanvasFacebook_Login_m2368 (CanvasFacebook_t436 * __this, String
 // System.Void Facebook.CanvasFacebook::Logout()
 extern "C" void CanvasFacebook_Logout_m2369 (CanvasFacebook_t436 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.CanvasFacebook::AppRequest(System.String,Facebook.OGActionType,System.String,System.String[],System.Collections.Generic.List`1<System.Object>,System.String[],System.Nullable`1<System.Int32>,System.String,System.String,Facebook.FacebookDelegate)
-extern "C" void CanvasFacebook_AppRequest_m2370 (CanvasFacebook_t436 * __this, String_t* ___message, OGActionType_t432 * ___actionType, String_t* ___objectId, StringU5BU5D_t75* ___to, List_1_t702 * ___filters, StringU5BU5D_t75* ___excludeIds, Nullable_1_t708  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_t433 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasFacebook_AppRequest_m2370 (CanvasFacebook_t436 * __this, String_t* ___message, OGActionType_t432 * ___actionType, String_t* ___objectId, StringU5BU5D_t75* ___to, List_1_t709 * ___filters, StringU5BU5D_t75* ___excludeIds, Nullable_1_t715  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_t433 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.CanvasFacebook::PublishInstall(System.String,Facebook.FacebookDelegate)
 extern "C" void CanvasFacebook_PublishInstall_m2371 (CanvasFacebook_t436 * __this, String_t* ___appId, FacebookDelegate_t433 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.CanvasFacebook::ActivateApp(System.String)
@@ -52,7 +52,7 @@ extern "C" void CanvasFacebook_ActivateApp_m2372 (CanvasFacebook_t436 * __this, 
 // System.Void Facebook.CanvasFacebook::FeedRequest(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.Dictionary`2<System.String,System.String[]>,Facebook.FacebookDelegate)
 extern "C" void CanvasFacebook_FeedRequest_m2373 (CanvasFacebook_t436 * __this, String_t* ___toId, String_t* ___link, String_t* ___linkName, String_t* ___linkCaption, String_t* ___linkDescription, String_t* ___picture, String_t* ___mediaSource, String_t* ___actionName, String_t* ___actionLink, String_t* ___reference, Dictionary_2_t116 * ___properties, FacebookDelegate_t433 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.CanvasFacebook::Pay(System.String,System.String,System.Int32,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.String,System.String,System.String,Facebook.FacebookDelegate)
-extern "C" void CanvasFacebook_Pay_m2374 (CanvasFacebook_t436 * __this, String_t* ___product, String_t* ___action, int32_t ___quantity, Nullable_1_t708  ___quantityMin, Nullable_1_t708  ___quantityMax, String_t* ___requestId, String_t* ___pricepointId, String_t* ___testCurrency, FacebookDelegate_t433 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasFacebook_Pay_m2374 (CanvasFacebook_t436 * __this, String_t* ___product, String_t* ___action, int32_t ___quantity, Nullable_1_t715  ___quantityMin, Nullable_1_t715  ___quantityMax, String_t* ___requestId, String_t* ___pricepointId, String_t* ___testCurrency, FacebookDelegate_t433 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.CanvasFacebook::GameGroupCreate(System.String,System.String,System.String,Facebook.FacebookDelegate)
 extern "C" void CanvasFacebook_GameGroupCreate_m2375 (CanvasFacebook_t436 * __this, String_t* ___name, String_t* ___description, String_t* ___privacy, FacebookDelegate_t433 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.CanvasFacebook::GameGroupJoin(System.String,Facebook.FacebookDelegate)
@@ -62,7 +62,7 @@ extern "C" void CanvasFacebook_UI_m2377 (CanvasFacebook_t436 * __this, String_t*
 // System.Void Facebook.CanvasFacebook::GetDeepLink(Facebook.FacebookDelegate)
 extern "C" void CanvasFacebook_GetDeepLink_m2378 (CanvasFacebook_t436 * __this, FacebookDelegate_t433 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.CanvasFacebook::AppEventsLogEvent(System.String,System.Nullable`1<System.Single>,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
-extern "C" void CanvasFacebook_AppEventsLogEvent_m2379 (CanvasFacebook_t436 * __this, String_t* ___logEvent, Nullable_1_t709  ___valueToSum, Dictionary_2_t312 * ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CanvasFacebook_AppEventsLogEvent_m2379 (CanvasFacebook_t436 * __this, String_t* ___logEvent, Nullable_1_t716  ___valueToSum, Dictionary_2_t312 * ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.CanvasFacebook::AppEventsLogPurchase(System.Single,System.String,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
 extern "C" void CanvasFacebook_AppEventsLogPurchase_m2380 (CanvasFacebook_t436 * __this, float ___logPurchase, String_t* ___currency, Dictionary_2_t312 * ___parameters, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Facebook.CanvasFacebook::OnFacebookAuthResponse(System.String)

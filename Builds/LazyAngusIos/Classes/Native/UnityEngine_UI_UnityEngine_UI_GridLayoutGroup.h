@@ -11,7 +11,7 @@
 // UnityEngine.UI.GridLayoutGroup/Constraint
 #include "UnityEngine_UI_UnityEngine_UI_GridLayoutGroup_Constraint.h"
 // UnityEngine.UI.GridLayoutGroup
-struct  GridLayoutGroup_t1018  : public LayoutGroup_t1019
+struct  GridLayoutGroup_t1025  : public LayoutGroup_t1026
 {
 	// UnityEngine.UI.GridLayoutGroup/Corner UnityEngine.UI.GridLayoutGroup::m_StartCorner
 	int32_t ___m_StartCorner_10;

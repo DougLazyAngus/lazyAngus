@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Configuration.RequestCachingSection
-struct RequestCachingSection_t4337;
+struct RequestCachingSection_t4344;
 // System.Configuration.ConfigurationPropertyCollection
-struct ConfigurationPropertyCollection_t3314;
+struct ConfigurationPropertyCollection_t3321;
 // System.Xml.XmlReader
-struct XmlReader_t3372;
+struct XmlReader_t3379;
 
 // System.Void System.Net.Configuration.RequestCachingSection::.cctor()
-extern "C" void RequestCachingSection__cctor_m16329 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RequestCachingSection__cctor_m16386 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.RequestCachingSection::get_Properties()
-extern "C" ConfigurationPropertyCollection_t3314 * RequestCachingSection_get_Properties_m16330 (RequestCachingSection_t4337 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ConfigurationPropertyCollection_t3321 * RequestCachingSection_get_Properties_m16387 (RequestCachingSection_t4344 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Configuration.RequestCachingSection::PostDeserialize()
-extern "C" void RequestCachingSection_PostDeserialize_m16331 (RequestCachingSection_t4337 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RequestCachingSection_PostDeserialize_m16388 (RequestCachingSection_t4344 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Net.Configuration.RequestCachingSection::DeserializeElement(System.Xml.XmlReader,System.Boolean)
-extern "C" void RequestCachingSection_DeserializeElement_m16332 (RequestCachingSection_t4337 * __this, XmlReader_t3372 * ___reader, bool ___serializeCollectionKey, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RequestCachingSection_DeserializeElement_m16389 (RequestCachingSection_t4344 * __this, XmlReader_t3379 * ___reader, bool ___serializeCollectionKey, const MethodInfo* method) IL2CPP_METHOD_ATTR;

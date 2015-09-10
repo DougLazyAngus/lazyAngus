@@ -5,7 +5,7 @@
 // System.Xml.XmlNodeType
 #include "System_Xml_System_Xml_XmlNodeType.h"
 // System.Xml.XmlNodeType
-struct  XmlNodeType_t3534 
+struct  XmlNodeType_t3541 
 {
 	// System.Int32 System.Xml.XmlNodeType::value__
 	int32_t ___value___1;

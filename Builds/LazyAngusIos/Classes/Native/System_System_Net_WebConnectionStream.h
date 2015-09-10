@@ -3,11 +3,11 @@
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Net.WebConnection
-struct WebConnection_t4383;
+struct WebConnection_t4390;
 // System.Net.HttpWebRequest
-struct HttpWebRequest_t3201;
+struct HttpWebRequest_t3208;
 // System.Threading.ManualResetEvent
-struct ManualResetEvent_t3205;
+struct ManualResetEvent_t3212;
 // System.IO.MemoryStream
 struct MemoryStream_t65;
 // System.Object
@@ -15,14 +15,14 @@ struct Object_t;
 // System.IO.Stream
 #include "mscorlib_System_IO_Stream.h"
 // System.Net.WebConnectionStream
-struct  WebConnectionStream_t4380  : public Stream_t51
+struct  WebConnectionStream_t4387  : public Stream_t51
 {
 	// System.Boolean System.Net.WebConnectionStream::isRead
 	bool ___isRead_3;
 	// System.Net.WebConnection System.Net.WebConnectionStream::cnc
-	WebConnection_t4383 * ___cnc_4;
+	WebConnection_t4390 * ___cnc_4;
 	// System.Net.HttpWebRequest System.Net.WebConnectionStream::request
-	HttpWebRequest_t3201 * ___request_5;
+	HttpWebRequest_t3208 * ___request_5;
 	// System.Byte[] System.Net.WebConnectionStream::readBuffer
 	ByteU5BU5D_t66* ___readBuffer_6;
 	// System.Int32 System.Net.WebConnectionStream::readBufferOffset
@@ -42,7 +42,7 @@ struct  WebConnectionStream_t4380  : public Stream_t51
 	// System.Int32 System.Net.WebConnectionStream::pendingWrites
 	int32_t ___pendingWrites_14;
 	// System.Threading.ManualResetEvent System.Net.WebConnectionStream::pending
-	ManualResetEvent_t3205 * ___pending_15;
+	ManualResetEvent_t3212 * ___pending_15;
 	// System.Boolean System.Net.WebConnectionStream::allowBuffering
 	bool ___allowBuffering_16;
 	// System.Boolean System.Net.WebConnectionStream::sendChunked
@@ -70,7 +70,7 @@ struct  WebConnectionStream_t4380  : public Stream_t51
 	// System.Int32 System.Net.WebConnectionStream::write_timeout
 	int32_t ___write_timeout_28;
 };
-struct WebConnectionStream_t4380_StaticFields{
+struct WebConnectionStream_t4387_StaticFields{
 	// System.Byte[] System.Net.WebConnectionStream::crlf
 	ByteU5BU5D_t66* ___crlf_2;
 };

@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Xml.Serialization.XmlAnyAttributeAttribute
-struct  XmlAnyAttributeAttribute_t3710  : public Attribute_t426
+struct  XmlAnyAttributeAttribute_t3717  : public Attribute_t426
 {
 };

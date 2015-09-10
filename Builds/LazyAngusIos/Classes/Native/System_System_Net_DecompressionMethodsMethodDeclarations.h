@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.DecompressionMethods
-struct DecompressionMethods_t4352;
+struct DecompressionMethods_t4359;
 

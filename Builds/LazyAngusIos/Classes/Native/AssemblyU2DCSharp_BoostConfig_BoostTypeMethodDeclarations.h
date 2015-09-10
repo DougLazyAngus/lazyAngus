@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // BoostConfig/BoostType
-struct BoostType_t508;
+struct BoostType_t504;
 

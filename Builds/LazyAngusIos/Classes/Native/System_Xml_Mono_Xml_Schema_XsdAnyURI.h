@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdString
 #include "System_Xml_Mono_Xml_Schema_XsdString.h"
 // Mono.Xml.Schema.XsdAnyURI
-struct  XsdAnyURI_t3607  : public XsdString_t3573
+struct  XsdAnyURI_t3614  : public XsdString_t3580
 {
 };

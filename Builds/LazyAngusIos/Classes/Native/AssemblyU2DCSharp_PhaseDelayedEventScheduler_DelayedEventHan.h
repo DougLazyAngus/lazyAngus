@@ -9,6 +9,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // PhaseDelayedEventScheduler/DelayedEventHandler
-struct  DelayedEventHandler_t627  : public MulticastDelegate_t388
+struct  DelayedEventHandler_t559  : public MulticastDelegate_t388
 {
 };

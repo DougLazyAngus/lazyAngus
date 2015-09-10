@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnionAssets.FLE.DataEventHandlerFunction[]
-struct DataEventHandlerFunctionU5BU5D_t6044;
+struct DataEventHandlerFunctionU5BU5D_t6051;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>
-struct  List_1_t698  : public Object_t
+struct  List_1_t705  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::_items
-	DataEventHandlerFunctionU5BU5D_t6044* ____items_1;
+	DataEventHandlerFunctionU5BU5D_t6051* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::_version
 	int32_t ____version_3;
 };
-struct List_1_t698_StaticFields{
+struct List_1_t705_StaticFields{
 	// T[] System.Collections.Generic.List`1<UnionAssets.FLE.DataEventHandlerFunction>::EmptyArray
-	DataEventHandlerFunctionU5BU5D_t6044* ___EmptyArray_4;
+	DataEventHandlerFunctionU5BU5D_t6051* ___EmptyArray_4;
 };

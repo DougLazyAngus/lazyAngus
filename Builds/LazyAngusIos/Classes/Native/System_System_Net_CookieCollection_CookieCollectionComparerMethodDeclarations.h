@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.CookieCollection/CookieCollectionComparer
-struct CookieCollectionComparer_t4346;
+struct CookieCollectionComparer_t4353;
 // System.Net.Cookie
-struct Cookie_t4350;
+struct Cookie_t4357;
 
 // System.Void System.Net.CookieCollection/CookieCollectionComparer::.ctor()
-extern "C" void CookieCollectionComparer__ctor_m16401 (CookieCollectionComparer_t4346 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CookieCollectionComparer__ctor_m16458 (CookieCollectionComparer_t4353 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Net.CookieCollection/CookieCollectionComparer::Compare(System.Net.Cookie,System.Net.Cookie)
-extern "C" int32_t CookieCollectionComparer_Compare_m16402 (CookieCollectionComparer_t4346 * __this, Cookie_t4350 * ___x, Cookie_t4350 * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CookieCollectionComparer_Compare_m16459 (CookieCollectionComparer_t4353 * __this, Cookie_t4357 * ___x, Cookie_t4357 * ___y, const MethodInfo* method) IL2CPP_METHOD_ATTR;

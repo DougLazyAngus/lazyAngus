@@ -5,32 +5,32 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.Tasks.Task`1<System.Double>
-struct Task_1_t1579;
+struct Task_1_t1586;
 // System.Threading.Tasks.Task
-struct Task_t1231;
+struct Task_t1238;
 // System.Action`1<System.Threading.Tasks.Task`1<System.Double>>
-struct Action_1_t8885;
+struct Action_1_t8892;
 // System.AggregateException
-struct AggregateException_t1359;
+struct AggregateException_t1366;
 
 // System.Void System.Threading.Tasks.Task`1<System.Double>::.ctor()
-extern "C" void Task_1__ctor_m64190_gshared (Task_1_t1579 * __this, const MethodInfo* method);
-#define Task_1__ctor_m64190(__this, method) (( void (*) (Task_1_t1579 *, const MethodInfo*))Task_1__ctor_m64190_gshared)(__this, method)
+extern "C" void Task_1__ctor_m64247_gshared (Task_1_t1586 * __this, const MethodInfo* method);
+#define Task_1__ctor_m64247(__this, method) (( void (*) (Task_1_t1586 *, const MethodInfo*))Task_1__ctor_m64247_gshared)(__this, method)
 // T System.Threading.Tasks.Task`1<System.Double>::get_Result()
-extern "C" double Task_1_get_Result_m64191_gshared (Task_1_t1579 * __this, const MethodInfo* method);
-#define Task_1_get_Result_m64191(__this, method) (( double (*) (Task_1_t1579 *, const MethodInfo*))Task_1_get_Result_m64191_gshared)(__this, method)
+extern "C" double Task_1_get_Result_m64248_gshared (Task_1_t1586 * __this, const MethodInfo* method);
+#define Task_1_get_Result_m64248(__this, method) (( double (*) (Task_1_t1586 *, const MethodInfo*))Task_1_get_Result_m64248_gshared)(__this, method)
 // System.Threading.Tasks.Task System.Threading.Tasks.Task`1<System.Double>::ContinueWith(System.Action`1<System.Threading.Tasks.Task`1<T>>)
-extern "C" Task_t1231 * Task_1_ContinueWith_m64192_gshared (Task_1_t1579 * __this, Action_1_t8885 * ___continuation, const MethodInfo* method);
-#define Task_1_ContinueWith_m64192(__this, ___continuation, method) (( Task_t1231 * (*) (Task_1_t1579 *, Action_1_t8885 *, const MethodInfo*))Task_1_ContinueWith_m64192_gshared)(__this, ___continuation, method)
+extern "C" Task_t1238 * Task_1_ContinueWith_m64249_gshared (Task_1_t1586 * __this, Action_1_t8892 * ___continuation, const MethodInfo* method);
+#define Task_1_ContinueWith_m64249(__this, ___continuation, method) (( Task_t1238 * (*) (Task_1_t1586 *, Action_1_t8892 *, const MethodInfo*))Task_1_ContinueWith_m64249_gshared)(__this, ___continuation, method)
 // System.Void System.Threading.Tasks.Task`1<System.Double>::RunContinuations()
-extern "C" void Task_1_RunContinuations_m64193_gshared (Task_1_t1579 * __this, const MethodInfo* method);
-#define Task_1_RunContinuations_m64193(__this, method) (( void (*) (Task_1_t1579 *, const MethodInfo*))Task_1_RunContinuations_m64193_gshared)(__this, method)
+extern "C" void Task_1_RunContinuations_m64250_gshared (Task_1_t1586 * __this, const MethodInfo* method);
+#define Task_1_RunContinuations_m64250(__this, method) (( void (*) (Task_1_t1586 *, const MethodInfo*))Task_1_RunContinuations_m64250_gshared)(__this, method)
 // System.Boolean System.Threading.Tasks.Task`1<System.Double>::TrySetResult(T)
-extern "C" bool Task_1_TrySetResult_m64194_gshared (Task_1_t1579 * __this, double ___result, const MethodInfo* method);
-#define Task_1_TrySetResult_m64194(__this, ___result, method) (( bool (*) (Task_1_t1579 *, double, const MethodInfo*))Task_1_TrySetResult_m64194_gshared)(__this, ___result, method)
+extern "C" bool Task_1_TrySetResult_m64251_gshared (Task_1_t1586 * __this, double ___result, const MethodInfo* method);
+#define Task_1_TrySetResult_m64251(__this, ___result, method) (( bool (*) (Task_1_t1586 *, double, const MethodInfo*))Task_1_TrySetResult_m64251_gshared)(__this, ___result, method)
 // System.Boolean System.Threading.Tasks.Task`1<System.Double>::TrySetCanceled()
-extern "C" bool Task_1_TrySetCanceled_m64195_gshared (Task_1_t1579 * __this, const MethodInfo* method);
-#define Task_1_TrySetCanceled_m64195(__this, method) (( bool (*) (Task_1_t1579 *, const MethodInfo*))Task_1_TrySetCanceled_m64195_gshared)(__this, method)
+extern "C" bool Task_1_TrySetCanceled_m64252_gshared (Task_1_t1586 * __this, const MethodInfo* method);
+#define Task_1_TrySetCanceled_m64252(__this, method) (( bool (*) (Task_1_t1586 *, const MethodInfo*))Task_1_TrySetCanceled_m64252_gshared)(__this, method)
 // System.Boolean System.Threading.Tasks.Task`1<System.Double>::TrySetException(System.AggregateException)
-extern "C" bool Task_1_TrySetException_m64196_gshared (Task_1_t1579 * __this, AggregateException_t1359 * ___exception, const MethodInfo* method);
-#define Task_1_TrySetException_m64196(__this, ___exception, method) (( bool (*) (Task_1_t1579 *, AggregateException_t1359 *, const MethodInfo*))Task_1_TrySetException_m64196_gshared)(__this, ___exception, method)
+extern "C" bool Task_1_TrySetException_m64253_gshared (Task_1_t1586 * __this, AggregateException_t1366 * ___exception, const MethodInfo* method);
+#define Task_1_TrySetException_m64253(__this, ___exception, method) (( bool (*) (Task_1_t1586 *, AggregateException_t1366 *, const MethodInfo*))Task_1_TrySetException_m64253_gshared)(__this, ___exception, method)

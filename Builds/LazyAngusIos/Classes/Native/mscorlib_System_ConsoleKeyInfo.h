@@ -9,7 +9,7 @@
 // System.ConsoleModifiers
 #include "mscorlib_System_ConsoleModifiers.h"
 // System.ConsoleKeyInfo
-struct  ConsoleKeyInfo_t4863 
+struct  ConsoleKeyInfo_t4870 
 {
 	// System.ConsoleKey System.ConsoleKeyInfo::key
 	int32_t ___key_1;
@@ -18,12 +18,12 @@ struct  ConsoleKeyInfo_t4863
 	// System.ConsoleModifiers System.ConsoleKeyInfo::modifiers
 	int32_t ___modifiers_3;
 };
-struct ConsoleKeyInfo_t4863_StaticFields{
+struct ConsoleKeyInfo_t4870_StaticFields{
 	// System.ConsoleKeyInfo System.ConsoleKeyInfo::Empty
-	ConsoleKeyInfo_t4863  ___Empty_0;
+	ConsoleKeyInfo_t4870  ___Empty_0;
 };
 // Native definition for marshalling of: System.ConsoleKeyInfo
-struct ConsoleKeyInfo_t4863_marshaled
+struct ConsoleKeyInfo_t4870_marshaled
 {
 	int32_t ___key_1;
 	char ___keychar_2;

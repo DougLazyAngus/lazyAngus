@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.ApplicationIdentity
-struct ApplicationIdentity_t4840;
+struct ApplicationIdentity_t4847;
 // System.Security.Policy.PolicyStatement
-struct PolicyStatement_t5326;
+struct PolicyStatement_t5333;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.IList`1<System.Security.Policy.StrongName>
-struct IList_1_t5327;
+struct IList_1_t5334;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Policy.ApplicationTrust
-struct  ApplicationTrust_t4846  : public Object_t
+struct  ApplicationTrust_t4853  : public Object_t
 {
 	// System.ApplicationIdentity System.Security.Policy.ApplicationTrust::_appid
-	ApplicationIdentity_t4840 * ____appid_0;
+	ApplicationIdentity_t4847 * ____appid_0;
 	// System.Security.Policy.PolicyStatement System.Security.Policy.ApplicationTrust::_defaultPolicy
-	PolicyStatement_t5326 * ____defaultPolicy_1;
+	PolicyStatement_t5333 * ____defaultPolicy_1;
 	// System.Object System.Security.Policy.ApplicationTrust::_xtranfo
 	Object_t * ____xtranfo_2;
 	// System.Boolean System.Security.Policy.ApplicationTrust::_trustrun

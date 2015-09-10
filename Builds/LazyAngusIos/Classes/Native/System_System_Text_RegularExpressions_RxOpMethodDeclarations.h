@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.RxOp
-struct RxOp_t4518;
+struct RxOp_t4525;
 

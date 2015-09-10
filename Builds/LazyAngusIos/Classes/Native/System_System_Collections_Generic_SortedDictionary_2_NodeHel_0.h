@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IComparer`1<System.String>
-struct IComparer_1_t5770;
+struct IComparer_1_t5777;
 // System.Collections.Generic.SortedDictionary`2/NodeHelper<System.String,System.String>
-struct NodeHelper_t6190;
+struct NodeHelper_t6197;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.SortedDictionary`2/NodeHelper<System.String,System.String>
-struct  NodeHelper_t6190  : public Object_t
+struct  NodeHelper_t6197  : public Object_t
 {
 	// System.Collections.Generic.IComparer`1<TKey> System.Collections.Generic.SortedDictionary`2/NodeHelper<System.String,System.String>::cmp
 	Object_t* ___cmp_0;
 };
-struct NodeHelper_t6190_StaticFields{
+struct NodeHelper_t6197_StaticFields{
 	// System.Collections.Generic.SortedDictionary`2/NodeHelper<TKey,TValue> System.Collections.Generic.SortedDictionary`2/NodeHelper<System.String,System.String>::Default
-	NodeHelper_t6190 * ___Default_1;
+	NodeHelper_t6197 * ___Default_1;
 };

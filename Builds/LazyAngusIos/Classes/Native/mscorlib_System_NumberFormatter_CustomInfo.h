@@ -3,7 +3,7 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.NumberFormatter/CustomInfo
-struct  CustomInfo_t4905  : public Object_t
+struct  CustomInfo_t4912  : public Object_t
 {
 	// System.Boolean System.NumberFormatter/CustomInfo::UseGroup
 	bool ___UseGroup_0;

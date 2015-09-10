@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Xml.DTDNode
-struct DTDNode_t3463;
+struct DTDNode_t3470;
 // Mono.Xml.DictionaryBase
-struct DictionaryBase_t3464;
+struct DictionaryBase_t3471;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>>
@@ -11,16 +11,16 @@ struct DictionaryBase_t3464;
 // System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_16.h"
 // Mono.Xml.DictionaryBase/<>c__Iterator3
-struct  U3CU3Ec__Iterator3_t3465  : public Object_t
+struct  U3CU3Ec__Iterator3_t3472  : public Object_t
 {
 	// System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode>> Mono.Xml.DictionaryBase/<>c__Iterator3::<$s_50>__0
-	Enumerator_t3466  ___U3CU24s_50U3E__0_0;
+	Enumerator_t3473  ___U3CU24s_50U3E__0_0;
 	// System.Collections.Generic.KeyValuePair`2<System.String,Mono.Xml.DTDNode> Mono.Xml.DictionaryBase/<>c__Iterator3::<p>__1
-	KeyValuePair_2_t3467  ___U3CpU3E__1_1;
+	KeyValuePair_2_t3474  ___U3CpU3E__1_1;
 	// System.Int32 Mono.Xml.DictionaryBase/<>c__Iterator3::$PC
 	int32_t ___U24PC_2;
 	// Mono.Xml.DTDNode Mono.Xml.DictionaryBase/<>c__Iterator3::$current
-	DTDNode_t3463 * ___U24current_3;
+	DTDNode_t3470 * ___U24current_3;
 	// Mono.Xml.DictionaryBase Mono.Xml.DictionaryBase/<>c__Iterator3::<>f__this
-	DictionaryBase_t3464 * ___U3CU3Ef__this_4;
+	DictionaryBase_t3471 * ___U3CU3Ef__this_4;
 };

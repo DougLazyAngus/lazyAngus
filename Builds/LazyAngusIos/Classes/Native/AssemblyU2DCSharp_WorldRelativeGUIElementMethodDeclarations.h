@@ -5,25 +5,25 @@
 #include "codegen/il2cpp-codegen.h"
 
 // WorldRelativeGUIElement
-struct WorldRelativeGUIElement_t550;
+struct WorldRelativeGUIElement_t597;
 // UnityEngine.GameObject
 struct GameObject_t352;
 // UnityEngine.Camera
-struct Camera_t548;
+struct Camera_t532;
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 
 // System.Void WorldRelativeGUIElement::.ctor()
-extern "C" void WorldRelativeGUIElement__ctor_m3783 (WorldRelativeGUIElement_t550 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WorldRelativeGUIElement__ctor_m3848 (WorldRelativeGUIElement_t597 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void WorldRelativeGUIElement::SetParentCanvasGameObject(UnityEngine.GameObject)
-extern "C" void WorldRelativeGUIElement_SetParentCanvasGameObject_m3784 (WorldRelativeGUIElement_t550 * __this, GameObject_t352 * ___parentCanvasGameObject, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WorldRelativeGUIElement_SetParentCanvasGameObject_m3849 (WorldRelativeGUIElement_t597 * __this, GameObject_t352 * ___parentCanvasGameObject, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void WorldRelativeGUIElement::GetWorldCamera()
-extern "C" void WorldRelativeGUIElement_GetWorldCamera_m3785 (WorldRelativeGUIElement_t550 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WorldRelativeGUIElement_GetWorldCamera_m3850 (WorldRelativeGUIElement_t597 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single WorldRelativeGUIElement::WorldSizeToParentCanvasSize(System.Single)
-extern "C" float WorldRelativeGUIElement_WorldSizeToParentCanvasSize_m3786 (WorldRelativeGUIElement_t550 * __this, float ___worldSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float WorldRelativeGUIElement_WorldSizeToParentCanvasSize_m3851 (WorldRelativeGUIElement_t597 * __this, float ___worldSize, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 WorldRelativeGUIElement::WorldPositionToParentCanvasPosition(UnityEngine.Vector3)
-extern "C" Vector3_t538  WorldRelativeGUIElement_WorldPositionToParentCanvasPosition_m3787 (WorldRelativeGUIElement_t550 * __this, Vector3_t538  ___worldPosition, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t523  WorldRelativeGUIElement_WorldPositionToParentCanvasPosition_m3852 (WorldRelativeGUIElement_t597 * __this, Vector3_t523  ___worldPosition, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 WorldRelativeGUIElement::ConvertToParentCanvasPosition(UnityEngine.Camera,UnityEngine.Vector3)
-extern "C" Vector3_t538  WorldRelativeGUIElement_ConvertToParentCanvasPosition_m3788 (WorldRelativeGUIElement_t550 * __this, Camera_t548 * ___otherCamera, Vector3_t538  ___otherCameraPosition, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t523  WorldRelativeGUIElement_ConvertToParentCanvasPosition_m3853 (WorldRelativeGUIElement_t597 * __this, Camera_t532 * ___otherCamera, Vector3_t523  ___otherCameraPosition, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 WorldRelativeGUIElement::ConvertViewportPosToParentCanvasPosition(UnityEngine.Vector3)
-extern "C" Vector3_t538  WorldRelativeGUIElement_ConvertViewportPosToParentCanvasPosition_m3789 (WorldRelativeGUIElement_t550 * __this, Vector3_t538  ___viewportPos, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t523  WorldRelativeGUIElement_ConvertViewportPosToParentCanvasPosition_m3854 (WorldRelativeGUIElement_t597 * __this, Vector3_t523  ___viewportPos, const MethodInfo* method) IL2CPP_METHOD_ATTR;

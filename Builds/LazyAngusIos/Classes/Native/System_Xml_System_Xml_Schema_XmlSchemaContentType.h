@@ -5,7 +5,7 @@
 // System.Xml.Schema.XmlSchemaContentType
 #include "System_Xml_System_Xml_Schema_XmlSchemaContentType.h"
 // System.Xml.Schema.XmlSchemaContentType
-struct  XmlSchemaContentType_t3651 
+struct  XmlSchemaContentType_t3658 
 {
 	// System.Int32 System.Xml.Schema.XmlSchemaContentType::value__
 	int32_t ___value___1;

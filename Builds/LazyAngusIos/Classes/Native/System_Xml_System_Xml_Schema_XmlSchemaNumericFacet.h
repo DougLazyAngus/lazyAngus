@@ -3,6 +3,6 @@
 // System.Xml.Schema.XmlSchemaFacet
 #include "System_Xml_System_Xml_Schema_XmlSchemaFacet.h"
 // System.Xml.Schema.XmlSchemaNumericFacet
-struct  XmlSchemaNumericFacet_t3660  : public XmlSchemaFacet_t3655
+struct  XmlSchemaNumericFacet_t3667  : public XmlSchemaFacet_t3662
 {
 };

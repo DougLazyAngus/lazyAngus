@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Linq.Expressions.Expression
-struct Expression_t1541;
+struct Expression_t1548;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression>
-struct ReadOnlyCollection_1_t3763;
+struct ReadOnlyCollection_1_t3770;
 // System.Linq.Expressions.Expression
 #include "System_Core_System_Linq_Expressions_Expression.h"
 // System.Linq.Expressions.InvocationExpression
-struct  InvocationExpression_t3769  : public Expression_t1541
+struct  InvocationExpression_t3776  : public Expression_t1548
 {
 	// System.Linq.Expressions.Expression System.Linq.Expressions.InvocationExpression::expression
-	Expression_t1541 * ___expression_2;
+	Expression_t1548 * ___expression_2;
 	// System.Collections.ObjectModel.ReadOnlyCollection`1<System.Linq.Expressions.Expression> System.Linq.Expressions.InvocationExpression::arguments
-	ReadOnlyCollection_1_t3763 * ___arguments_3;
+	ReadOnlyCollection_1_t3770 * ___arguments_3;
 };

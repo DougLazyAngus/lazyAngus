@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Cryptography.MACAlgorithm
-struct MACAlgorithm_t4811;
+struct MACAlgorithm_t4818;
 // System.Security.Cryptography.SymmetricAlgorithm
-struct SymmetricAlgorithm_t3144;
+struct SymmetricAlgorithm_t3151;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 
 // System.Void Mono.Security.Cryptography.MACAlgorithm::.ctor(System.Security.Cryptography.SymmetricAlgorithm)
-extern "C" void MACAlgorithm__ctor_m19724 (MACAlgorithm_t4811 * __this, SymmetricAlgorithm_t3144 * ___algorithm, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MACAlgorithm__ctor_m19781 (MACAlgorithm_t4818 * __this, SymmetricAlgorithm_t3151 * ___algorithm, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.MACAlgorithm::Initialize(System.Byte[])
-extern "C" void MACAlgorithm_Initialize_m19725 (MACAlgorithm_t4811 * __this, ByteU5BU5D_t66* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MACAlgorithm_Initialize_m19782 (MACAlgorithm_t4818 * __this, ByteU5BU5D_t66* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Cryptography.MACAlgorithm::Core(System.Byte[],System.Int32,System.Int32)
-extern "C" void MACAlgorithm_Core_m19726 (MACAlgorithm_t4811 * __this, ByteU5BU5D_t66* ___rgb, int32_t ___ib, int32_t ___cb, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MACAlgorithm_Core_m19783 (MACAlgorithm_t4818 * __this, ByteU5BU5D_t66* ___rgb, int32_t ___ib, int32_t ___cb, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Cryptography.MACAlgorithm::Final()
-extern "C" ByteU5BU5D_t66* MACAlgorithm_Final_m19727 (MACAlgorithm_t4811 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t66* MACAlgorithm_Final_m19784 (MACAlgorithm_t4818 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

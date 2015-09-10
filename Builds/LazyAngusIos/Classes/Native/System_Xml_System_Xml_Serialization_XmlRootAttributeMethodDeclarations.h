@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Xml.Serialization.XmlRootAttribute
-struct XmlRootAttribute_t3717;
+struct XmlRootAttribute_t3724;
 // System.String
 struct String_t;
 
 // System.Void System.Xml.Serialization.XmlRootAttribute::.ctor(System.String)
-extern "C" void XmlRootAttribute__ctor_m14724 (XmlRootAttribute_t3717 * __this, String_t* ___elementName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlRootAttribute__ctor_m14781 (XmlRootAttribute_t3724 * __this, String_t* ___elementName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Xml.Serialization.XmlRootAttribute::set_Namespace(System.String)
-extern "C" void XmlRootAttribute_set_Namespace_m14725 (XmlRootAttribute_t3717 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void XmlRootAttribute_set_Namespace_m14782 (XmlRootAttribute_t3724 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

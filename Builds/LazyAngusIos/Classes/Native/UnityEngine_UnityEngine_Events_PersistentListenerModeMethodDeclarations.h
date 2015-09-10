@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Events.PersistentListenerMode
-struct PersistentListenerMode_t2902;
+struct PersistentListenerMode_t2909;
 

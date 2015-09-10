@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.StencilMaterial/MatEntry
-struct MatEntry_t997;
+struct MatEntry_t1004;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<UnityEngine.UI.StencilMaterial/MatEntry>
-struct  Comparison_1_t6481  : public MulticastDelegate_t388
+struct  Comparison_1_t6488  : public MulticastDelegate_t388
 {
 };

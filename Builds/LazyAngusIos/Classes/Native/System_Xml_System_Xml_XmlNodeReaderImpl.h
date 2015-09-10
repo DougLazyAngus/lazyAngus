@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Xml.XmlDocument
-struct XmlDocument_t695;
+struct XmlDocument_t702;
 // System.Xml.XmlNode
-struct XmlNode_t735;
+struct XmlNode_t742;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t223;
 // System.Xml.XmlReader
@@ -11,16 +11,16 @@ struct Dictionary_2_t223;
 // System.Xml.ReadState
 #include "System_Xml_System_Xml_ReadState.h"
 // System.Xml.XmlNodeReaderImpl
-struct  XmlNodeReaderImpl_t3533  : public XmlReader_t3372
+struct  XmlNodeReaderImpl_t3540  : public XmlReader_t3379
 {
 	// System.Xml.XmlDocument System.Xml.XmlNodeReaderImpl::document
-	XmlDocument_t695 * ___document_2;
+	XmlDocument_t702 * ___document_2;
 	// System.Xml.XmlNode System.Xml.XmlNodeReaderImpl::startNode
-	XmlNode_t735 * ___startNode_3;
+	XmlNode_t742 * ___startNode_3;
 	// System.Xml.XmlNode System.Xml.XmlNodeReaderImpl::current
-	XmlNode_t735 * ___current_4;
+	XmlNode_t742 * ___current_4;
 	// System.Xml.XmlNode System.Xml.XmlNodeReaderImpl::ownerLinkedNode
-	XmlNode_t735 * ___ownerLinkedNode_5;
+	XmlNode_t742 * ___ownerLinkedNode_5;
 	// System.Xml.ReadState System.Xml.XmlNodeReaderImpl::state
 	int32_t ___state_6;
 	// System.Int32 System.Xml.XmlNodeReaderImpl::depth
@@ -30,7 +30,7 @@ struct  XmlNodeReaderImpl_t3533  : public XmlReader_t3372
 	// System.Boolean System.Xml.XmlNodeReaderImpl::ignoreStartNode
 	bool ___ignoreStartNode_9;
 };
-struct XmlNodeReaderImpl_t3533_StaticFields{
+struct XmlNodeReaderImpl_t3540_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.XmlNodeReaderImpl::<>f__switch$map34
 	Dictionary_2_t223 * ___U3CU3Ef__switchU24map34_10;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Xml.XmlNodeReaderImpl::<>f__switch$map35

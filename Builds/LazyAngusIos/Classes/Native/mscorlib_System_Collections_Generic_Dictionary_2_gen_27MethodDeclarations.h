@@ -5,39 +5,39 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
-struct Dictionary_2_t948;
+struct Dictionary_2_t955;
 // System.Collections.Generic.ICollection`1<UnityEngine.Canvas>
-struct ICollection_1_t9654;
+struct ICollection_1_t9661;
 // System.Collections.Generic.ICollection`1<UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
-struct ICollection_1_t9659;
+struct ICollection_1_t9666;
 // System.Collections.ICollection
-struct ICollection_t772;
+struct ICollection_t779;
 // System.Object
 struct Object_t;
 // UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>
-struct IndexedSet_1_t1092;
+struct IndexedSet_1_t1099;
 // UnityEngine.Canvas
-struct Canvas_t547;
+struct Canvas_t691;
 // System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
-struct KeyCollection_t6447;
+struct KeyCollection_t6454;
 // System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
-struct ValueCollection_t6448;
+struct ValueCollection_t6455;
 // System.Collections.Generic.IEqualityComparer`1<UnityEngine.Canvas>
-struct IEqualityComparer_1_t6442;
+struct IEqualityComparer_1_t6449;
 // System.Collections.Generic.IDictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
-struct IDictionary_2_t9660;
+struct IDictionary_2_t9667;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2940;
+struct SerializationInfo_t2947;
 // System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>[]
-struct KeyValuePair_2U5BU5D_t9661;
+struct KeyValuePair_2U5BU5D_t9668;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>>
-struct IEnumerator_1_t9662;
+struct IEnumerator_1_t9669;
 // System.Collections.IDictionaryEnumerator
-struct IDictionaryEnumerator_t802;
+struct IDictionaryEnumerator_t809;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 // System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
@@ -50,106 +50,106 @@ struct IDictionaryEnumerator_t802;
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::.ctor()
 // System.Collections.Generic.Dictionary`2<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_gen_52MethodDeclarations.h"
-#define Dictionary_2__ctor_m6116(__this, method) (( void (*) (Dictionary_2_t948 *, const MethodInfo*))Dictionary_2__ctor_m26148_gshared)(__this, method)
+#define Dictionary_2__ctor_m6174(__this, method) (( void (*) (Dictionary_2_t955 *, const MethodInfo*))Dictionary_2__ctor_m26205_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::.ctor(System.Collections.Generic.IEqualityComparer`1<TKey>)
-#define Dictionary_2__ctor_m34138(__this, ___comparer, method) (( void (*) (Dictionary_2_t948 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m26150_gshared)(__this, ___comparer, method)
+#define Dictionary_2__ctor_m34195(__this, ___comparer, method) (( void (*) (Dictionary_2_t955 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m26207_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
-#define Dictionary_2__ctor_m34139(__this, ___dictionary, method) (( void (*) (Dictionary_2_t948 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m26152_gshared)(__this, ___dictionary, method)
+#define Dictionary_2__ctor_m34196(__this, ___dictionary, method) (( void (*) (Dictionary_2_t955 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m26209_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::.ctor(System.Int32)
-#define Dictionary_2__ctor_m34140(__this, ___capacity, method) (( void (*) (Dictionary_2_t948 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m26154_gshared)(__this, ___capacity, method)
+#define Dictionary_2__ctor_m34197(__this, ___capacity, method) (( void (*) (Dictionary_2_t955 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m26211_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>,System.Collections.Generic.IEqualityComparer`1<TKey>)
-#define Dictionary_2__ctor_m34141(__this, ___dictionary, ___comparer, method) (( void (*) (Dictionary_2_t948 *, Object_t*, Object_t*, const MethodInfo*))Dictionary_2__ctor_m26156_gshared)(__this, ___dictionary, ___comparer, method)
+#define Dictionary_2__ctor_m34198(__this, ___dictionary, ___comparer, method) (( void (*) (Dictionary_2_t955 *, Object_t*, Object_t*, const MethodInfo*))Dictionary_2__ctor_m26213_gshared)(__this, ___dictionary, ___comparer, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-#define Dictionary_2__ctor_m34142(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t948 *, SerializationInfo_t2940 *, StreamingContext_t2941 , const MethodInfo*))Dictionary_2__ctor_m26158_gshared)(__this, ___info, ___context, method)
+#define Dictionary_2__ctor_m34199(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t955 *, SerializationInfo_t2947 *, StreamingContext_t2948 , const MethodInfo*))Dictionary_2__ctor_m26215_gshared)(__this, ___info, ___context, method)
 // System.Collections.Generic.ICollection`1<TKey> System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys()
-#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m34143(__this, method) (( Object_t* (*) (Dictionary_2_t948 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m26160_gshared)(__this, method)
+#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m34200(__this, method) (( Object_t* (*) (Dictionary_2_t955 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m26217_gshared)(__this, method)
 // System.Collections.Generic.ICollection`1<TValue> System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Values()
-#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m34144(__this, method) (( Object_t* (*) (Dictionary_2_t948 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m26162_gshared)(__this, method)
+#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m34201(__this, method) (( Object_t* (*) (Dictionary_2_t955 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m26219_gshared)(__this, method)
 // System.Collections.ICollection System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.IDictionary.get_Keys()
-#define Dictionary_2_System_Collections_IDictionary_get_Keys_m34145(__this, method) (( Object_t * (*) (Dictionary_2_t948 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Keys_m26164_gshared)(__this, method)
+#define Dictionary_2_System_Collections_IDictionary_get_Keys_m34202(__this, method) (( Object_t * (*) (Dictionary_2_t955 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Keys_m26221_gshared)(__this, method)
 // System.Collections.ICollection System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.IDictionary.get_Values()
-#define Dictionary_2_System_Collections_IDictionary_get_Values_m34146(__this, method) (( Object_t * (*) (Dictionary_2_t948 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Values_m26166_gshared)(__this, method)
+#define Dictionary_2_System_Collections_IDictionary_get_Values_m34203(__this, method) (( Object_t * (*) (Dictionary_2_t955 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Values_m26223_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.IDictionary.get_Item(System.Object)
-#define Dictionary_2_System_Collections_IDictionary_get_Item_m34147(__this, ___key, method) (( Object_t * (*) (Dictionary_2_t948 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Item_m26168_gshared)(__this, ___key, method)
+#define Dictionary_2_System_Collections_IDictionary_get_Item_m34204(__this, ___key, method) (( Object_t * (*) (Dictionary_2_t955 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Item_m26225_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.IDictionary.set_Item(System.Object,System.Object)
-#define Dictionary_2_System_Collections_IDictionary_set_Item_m34148(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t948 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_set_Item_m26170_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_System_Collections_IDictionary_set_Item_m34205(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t955 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_set_Item_m26227_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.IDictionary.Add(System.Object,System.Object)
-#define Dictionary_2_System_Collections_IDictionary_Add_m34149(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t948 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Add_m26172_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_System_Collections_IDictionary_Add_m34206(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t955 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Add_m26229_gshared)(__this, ___key, ___value, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.IDictionary.Contains(System.Object)
-#define Dictionary_2_System_Collections_IDictionary_Contains_m34150(__this, ___key, method) (( bool (*) (Dictionary_2_t948 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Contains_m26174_gshared)(__this, ___key, method)
+#define Dictionary_2_System_Collections_IDictionary_Contains_m34207(__this, ___key, method) (( bool (*) (Dictionary_2_t955 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Contains_m26231_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.IDictionary.Remove(System.Object)
-#define Dictionary_2_System_Collections_IDictionary_Remove_m34151(__this, ___key, method) (( void (*) (Dictionary_2_t948 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Remove_m26176_gshared)(__this, ___key, method)
+#define Dictionary_2_System_Collections_IDictionary_Remove_m34208(__this, ___key, method) (( void (*) (Dictionary_2_t955 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Remove_m26233_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.ICollection.get_IsSynchronized()
-#define Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m34152(__this, method) (( bool (*) (Dictionary_2_t948 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m26178_gshared)(__this, method)
+#define Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m34209(__this, method) (( bool (*) (Dictionary_2_t955 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m26235_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.ICollection.get_SyncRoot()
-#define Dictionary_2_System_Collections_ICollection_get_SyncRoot_m34153(__this, method) (( Object_t * (*) (Dictionary_2_t948 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_SyncRoot_m26180_gshared)(__this, method)
+#define Dictionary_2_System_Collections_ICollection_get_SyncRoot_m34210(__this, method) (( Object_t * (*) (Dictionary_2_t955 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_SyncRoot_m26237_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly()
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m34154(__this, method) (( bool (*) (Dictionary_2_t948 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m26182_gshared)(__this, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m34211(__this, method) (( bool (*) (Dictionary_2_t955 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m26239_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m34155(__this, ___keyValuePair, method) (( void (*) (Dictionary_2_t948 *, KeyValuePair_2_t6446 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m26184_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m34212(__this, ___keyValuePair, method) (( void (*) (Dictionary_2_t955 *, KeyValuePair_2_t6453 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m26241_gshared)(__this, ___keyValuePair, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m34156(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t948 *, KeyValuePair_2_t6446 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m26186_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m34213(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t955 *, KeyValuePair_2_t6453 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m26243_gshared)(__this, ___keyValuePair, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m34157(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t948 *, KeyValuePair_2U5BU5D_t9661*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m26188_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m34214(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t955 *, KeyValuePair_2U5BU5D_t9668*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m26245_gshared)(__this, ___array, ___index, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m34158(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t948 *, KeyValuePair_2_t6446 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m26190_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m34215(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t955 *, KeyValuePair_2_t6453 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m26247_gshared)(__this, ___keyValuePair, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define Dictionary_2_System_Collections_ICollection_CopyTo_m34159(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t948 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_System_Collections_ICollection_CopyTo_m26192_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_System_Collections_ICollection_CopyTo_m34216(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t955 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_System_Collections_ICollection_CopyTo_m26249_gshared)(__this, ___array, ___index, method)
 // System.Collections.IEnumerator System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.IEnumerable.GetEnumerator()
-#define Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m34160(__this, method) (( Object_t * (*) (Dictionary_2_t948 *, const MethodInfo*))Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m26194_gshared)(__this, method)
+#define Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m34217(__this, method) (( Object_t * (*) (Dictionary_2_t955 *, const MethodInfo*))Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m26251_gshared)(__this, method)
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator()
-#define Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m34161(__this, method) (( Object_t* (*) (Dictionary_2_t948 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m26196_gshared)(__this, method)
+#define Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m34218(__this, method) (( Object_t* (*) (Dictionary_2_t955 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m26253_gshared)(__this, method)
 // System.Collections.IDictionaryEnumerator System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::System.Collections.IDictionary.GetEnumerator()
-#define Dictionary_2_System_Collections_IDictionary_GetEnumerator_m34162(__this, method) (( Object_t * (*) (Dictionary_2_t948 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_GetEnumerator_m26198_gshared)(__this, method)
+#define Dictionary_2_System_Collections_IDictionary_GetEnumerator_m34219(__this, method) (( Object_t * (*) (Dictionary_2_t955 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_GetEnumerator_m26255_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::get_Count()
-#define Dictionary_2_get_Count_m34163(__this, method) (( int32_t (*) (Dictionary_2_t948 *, const MethodInfo*))Dictionary_2_get_Count_m26200_gshared)(__this, method)
+#define Dictionary_2_get_Count_m34220(__this, method) (( int32_t (*) (Dictionary_2_t955 *, const MethodInfo*))Dictionary_2_get_Count_m26257_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::get_Item(TKey)
-#define Dictionary_2_get_Item_m34164(__this, ___key, method) (( IndexedSet_1_t1092 * (*) (Dictionary_2_t948 *, Canvas_t547 *, const MethodInfo*))Dictionary_2_get_Item_m26202_gshared)(__this, ___key, method)
+#define Dictionary_2_get_Item_m34221(__this, ___key, method) (( IndexedSet_1_t1099 * (*) (Dictionary_2_t955 *, Canvas_t691 *, const MethodInfo*))Dictionary_2_get_Item_m26259_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::set_Item(TKey,TValue)
-#define Dictionary_2_set_Item_m34165(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t948 *, Canvas_t547 *, IndexedSet_1_t1092 *, const MethodInfo*))Dictionary_2_set_Item_m26204_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_set_Item_m34222(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t955 *, Canvas_t691 *, IndexedSet_1_t1099 *, const MethodInfo*))Dictionary_2_set_Item_m26261_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::Init(System.Int32,System.Collections.Generic.IEqualityComparer`1<TKey>)
-#define Dictionary_2_Init_m34166(__this, ___capacity, ___hcp, method) (( void (*) (Dictionary_2_t948 *, int32_t, Object_t*, const MethodInfo*))Dictionary_2_Init_m26206_gshared)(__this, ___capacity, ___hcp, method)
+#define Dictionary_2_Init_m34223(__this, ___capacity, ___hcp, method) (( void (*) (Dictionary_2_t955 *, int32_t, Object_t*, const MethodInfo*))Dictionary_2_Init_m26263_gshared)(__this, ___capacity, ___hcp, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::InitArrays(System.Int32)
-#define Dictionary_2_InitArrays_m34167(__this, ___size, method) (( void (*) (Dictionary_2_t948 *, int32_t, const MethodInfo*))Dictionary_2_InitArrays_m26208_gshared)(__this, ___size, method)
+#define Dictionary_2_InitArrays_m34224(__this, ___size, method) (( void (*) (Dictionary_2_t955 *, int32_t, const MethodInfo*))Dictionary_2_InitArrays_m26265_gshared)(__this, ___size, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::CopyToCheck(System.Array,System.Int32)
-#define Dictionary_2_CopyToCheck_m34168(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t948 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m26210_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_CopyToCheck_m34225(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t955 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m26267_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::make_pair(TKey,TValue)
-#define Dictionary_2_make_pair_m34169(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t6446  (*) (Object_t * /* static, unused */, Canvas_t547 *, IndexedSet_1_t1092 *, const MethodInfo*))Dictionary_2_make_pair_m26212_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_make_pair_m34226(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t6453  (*) (Object_t * /* static, unused */, Canvas_t691 *, IndexedSet_1_t1099 *, const MethodInfo*))Dictionary_2_make_pair_m26269_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TKey System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::pick_key(TKey,TValue)
-#define Dictionary_2_pick_key_m34170(__this /* static, unused */, ___key, ___value, method) (( Canvas_t547 * (*) (Object_t * /* static, unused */, Canvas_t547 *, IndexedSet_1_t1092 *, const MethodInfo*))Dictionary_2_pick_key_m26214_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_pick_key_m34227(__this /* static, unused */, ___key, ___value, method) (( Canvas_t691 * (*) (Object_t * /* static, unused */, Canvas_t691 *, IndexedSet_1_t1099 *, const MethodInfo*))Dictionary_2_pick_key_m26271_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TValue System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::pick_value(TKey,TValue)
-#define Dictionary_2_pick_value_m34171(__this /* static, unused */, ___key, ___value, method) (( IndexedSet_1_t1092 * (*) (Object_t * /* static, unused */, Canvas_t547 *, IndexedSet_1_t1092 *, const MethodInfo*))Dictionary_2_pick_value_m26216_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_pick_value_m34228(__this /* static, unused */, ___key, ___value, method) (( IndexedSet_1_t1099 * (*) (Object_t * /* static, unused */, Canvas_t691 *, IndexedSet_1_t1099 *, const MethodInfo*))Dictionary_2_pick_value_m26273_gshared)(__this /* static, unused */, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-#define Dictionary_2_CopyTo_m34172(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t948 *, KeyValuePair_2U5BU5D_t9661*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m26218_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_CopyTo_m34229(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t955 *, KeyValuePair_2U5BU5D_t9668*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m26275_gshared)(__this, ___array, ___index, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::Resize()
-#define Dictionary_2_Resize_m34173(__this, method) (( void (*) (Dictionary_2_t948 *, const MethodInfo*))Dictionary_2_Resize_m26220_gshared)(__this, method)
+#define Dictionary_2_Resize_m34230(__this, method) (( void (*) (Dictionary_2_t955 *, const MethodInfo*))Dictionary_2_Resize_m26277_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::Add(TKey,TValue)
-#define Dictionary_2_Add_m34174(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t948 *, Canvas_t547 *, IndexedSet_1_t1092 *, const MethodInfo*))Dictionary_2_Add_m26222_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_Add_m34231(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t955 *, Canvas_t691 *, IndexedSet_1_t1099 *, const MethodInfo*))Dictionary_2_Add_m26279_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::Clear()
-#define Dictionary_2_Clear_m34175(__this, method) (( void (*) (Dictionary_2_t948 *, const MethodInfo*))Dictionary_2_Clear_m26224_gshared)(__this, method)
+#define Dictionary_2_Clear_m34232(__this, method) (( void (*) (Dictionary_2_t955 *, const MethodInfo*))Dictionary_2_Clear_m26281_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::ContainsKey(TKey)
-#define Dictionary_2_ContainsKey_m34176(__this, ___key, method) (( bool (*) (Dictionary_2_t948 *, Canvas_t547 *, const MethodInfo*))Dictionary_2_ContainsKey_m26226_gshared)(__this, ___key, method)
+#define Dictionary_2_ContainsKey_m34233(__this, ___key, method) (( bool (*) (Dictionary_2_t955 *, Canvas_t691 *, const MethodInfo*))Dictionary_2_ContainsKey_m26283_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::ContainsValue(TValue)
-#define Dictionary_2_ContainsValue_m34177(__this, ___value, method) (( bool (*) (Dictionary_2_t948 *, IndexedSet_1_t1092 *, const MethodInfo*))Dictionary_2_ContainsValue_m26228_gshared)(__this, ___value, method)
+#define Dictionary_2_ContainsValue_m34234(__this, ___value, method) (( bool (*) (Dictionary_2_t955 *, IndexedSet_1_t1099 *, const MethodInfo*))Dictionary_2_ContainsValue_m26285_gshared)(__this, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-#define Dictionary_2_GetObjectData_m34178(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t948 *, SerializationInfo_t2940 *, StreamingContext_t2941 , const MethodInfo*))Dictionary_2_GetObjectData_m26230_gshared)(__this, ___info, ___context, method)
+#define Dictionary_2_GetObjectData_m34235(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t955 *, SerializationInfo_t2947 *, StreamingContext_t2948 , const MethodInfo*))Dictionary_2_GetObjectData_m26287_gshared)(__this, ___info, ___context, method)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::OnDeserialization(System.Object)
-#define Dictionary_2_OnDeserialization_m34179(__this, ___sender, method) (( void (*) (Dictionary_2_t948 *, Object_t *, const MethodInfo*))Dictionary_2_OnDeserialization_m26232_gshared)(__this, ___sender, method)
+#define Dictionary_2_OnDeserialization_m34236(__this, ___sender, method) (( void (*) (Dictionary_2_t955 *, Object_t *, const MethodInfo*))Dictionary_2_OnDeserialization_m26289_gshared)(__this, ___sender, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::Remove(TKey)
-#define Dictionary_2_Remove_m34180(__this, ___key, method) (( bool (*) (Dictionary_2_t948 *, Canvas_t547 *, const MethodInfo*))Dictionary_2_Remove_m26234_gshared)(__this, ___key, method)
+#define Dictionary_2_Remove_m34237(__this, ___key, method) (( bool (*) (Dictionary_2_t955 *, Canvas_t691 *, const MethodInfo*))Dictionary_2_Remove_m26291_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::TryGetValue(TKey,TValue&)
-#define Dictionary_2_TryGetValue_m34181(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t948 *, Canvas_t547 *, IndexedSet_1_t1092 **, const MethodInfo*))Dictionary_2_TryGetValue_m26236_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_TryGetValue_m34238(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t955 *, Canvas_t691 *, IndexedSet_1_t1099 **, const MethodInfo*))Dictionary_2_TryGetValue_m26293_gshared)(__this, ___key, ___value, method)
 // System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::get_Keys()
-#define Dictionary_2_get_Keys_m34182(__this, method) (( KeyCollection_t6447 * (*) (Dictionary_2_t948 *, const MethodInfo*))Dictionary_2_get_Keys_m26237_gshared)(__this, method)
+#define Dictionary_2_get_Keys_m34239(__this, method) (( KeyCollection_t6454 * (*) (Dictionary_2_t955 *, const MethodInfo*))Dictionary_2_get_Keys_m26294_gshared)(__this, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::get_Values()
-#define Dictionary_2_get_Values_m34183(__this, method) (( ValueCollection_t6448 * (*) (Dictionary_2_t948 *, const MethodInfo*))Dictionary_2_get_Values_m26239_gshared)(__this, method)
+#define Dictionary_2_get_Values_m34240(__this, method) (( ValueCollection_t6455 * (*) (Dictionary_2_t955 *, const MethodInfo*))Dictionary_2_get_Values_m26296_gshared)(__this, method)
 // TKey System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::ToTKey(System.Object)
-#define Dictionary_2_ToTKey_m34184(__this, ___key, method) (( Canvas_t547 * (*) (Dictionary_2_t948 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m26241_gshared)(__this, ___key, method)
+#define Dictionary_2_ToTKey_m34241(__this, ___key, method) (( Canvas_t691 * (*) (Dictionary_2_t955 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m26298_gshared)(__this, ___key, method)
 // TValue System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::ToTValue(System.Object)
-#define Dictionary_2_ToTValue_m34185(__this, ___value, method) (( IndexedSet_1_t1092 * (*) (Dictionary_2_t948 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m26243_gshared)(__this, ___value, method)
+#define Dictionary_2_ToTValue_m34242(__this, ___value, method) (( IndexedSet_1_t1099 * (*) (Dictionary_2_t955 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m26300_gshared)(__this, ___value, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::ContainsKeyValuePair(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_ContainsKeyValuePair_m34186(__this, ___pair, method) (( bool (*) (Dictionary_2_t948 *, KeyValuePair_2_t6446 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m26245_gshared)(__this, ___pair, method)
+#define Dictionary_2_ContainsKeyValuePair_m34243(__this, ___pair, method) (( bool (*) (Dictionary_2_t955 *, KeyValuePair_2_t6453 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m26302_gshared)(__this, ___pair, method)
 // System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::GetEnumerator()
-#define Dictionary_2_GetEnumerator_m34187(__this, method) (( Enumerator_t6449  (*) (Dictionary_2_t948 *, const MethodInfo*))Dictionary_2_GetEnumerator_m26246_gshared)(__this, method)
+#define Dictionary_2_GetEnumerator_m34244(__this, method) (( Enumerator_t6456  (*) (Dictionary_2_t955 *, const MethodInfo*))Dictionary_2_GetEnumerator_m26303_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>::<CopyTo>m__2(TKey,TValue)
-#define Dictionary_2_U3CCopyToU3Em__2_m34188(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2160  (*) (Object_t * /* static, unused */, Canvas_t547 *, IndexedSet_1_t1092 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__2_m26248_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_U3CCopyToU3Em__2_m34245(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2167  (*) (Object_t * /* static, unused */, Canvas_t691 *, IndexedSet_1_t1099 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__2_m26305_gshared)(__this /* static, unused */, ___key, ___value, method)

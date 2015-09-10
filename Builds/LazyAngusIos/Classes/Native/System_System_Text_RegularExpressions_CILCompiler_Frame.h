@@ -5,10 +5,10 @@
 // System.Reflection.Emit.Label
 #include "mscorlib_System_Reflection_Emit_Label.h"
 // System.Text.RegularExpressions.CILCompiler/Frame
-struct  Frame_t4477  : public Object_t
+struct  Frame_t4484  : public Object_t
 {
 	// System.Reflection.Emit.Label System.Text.RegularExpressions.CILCompiler/Frame::label_pass
-	Label_t4478  ___label_pass_0;
+	Label_t4485  ___label_pass_0;
 	// System.Reflection.Emit.Label System.Text.RegularExpressions.CILCompiler/Frame::label_fail
-	Label_t4478  ___label_fail_1;
+	Label_t4485  ___label_fail_1;
 };

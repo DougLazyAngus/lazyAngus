@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.Tasks.TaskExtensions/<>c__DisplayClass2
-struct U3CU3Ec__DisplayClass2_t1379;
+struct U3CU3Ec__DisplayClass2_t1386;
 // System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>
-struct Task_1_t1378;
+struct Task_1_t1385;
 // System.Threading.Tasks.Task
-struct Task_t1231;
+struct Task_t1238;
 
 // System.Void System.Threading.Tasks.TaskExtensions/<>c__DisplayClass2::.ctor()
-extern "C" void U3CU3Ec__DisplayClass2__ctor_m7428 (U3CU3Ec__DisplayClass2_t1379 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass2__ctor_m7486 (U3CU3Ec__DisplayClass2_t1386 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Tasks.TaskExtensions/<>c__DisplayClass2::<Unwrap>b__0(System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>)
-extern "C" void U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__0_m7429 (U3CU3Ec__DisplayClass2_t1379 * __this, Task_1_t1378 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__0_m7487 (U3CU3Ec__DisplayClass2_t1386 * __this, Task_1_t1385 * ___t, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Threading.Tasks.TaskExtensions/<>c__DisplayClass2::<Unwrap>b__1(System.Threading.Tasks.Task)
-extern "C" void U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__1_m7430 (U3CU3Ec__DisplayClass2_t1379 * __this, Task_t1231 * ___inner, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void U3CU3Ec__DisplayClass2_U3CUnwrapU3Eb__1_m7488 (U3CU3Ec__DisplayClass2_t1386 * __this, Task_t1238 * ___inner, const MethodInfo* method) IL2CPP_METHOD_ATTR;

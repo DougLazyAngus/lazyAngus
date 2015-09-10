@@ -5,7 +5,7 @@
 // System.ConsoleSpecialKey
 #include "mscorlib_System_ConsoleSpecialKey.h"
 // System.ConsoleCancelEventArgs
-struct  ConsoleCancelEventArgs_t4858  : public EventArgs_t1318
+struct  ConsoleCancelEventArgs_t4865  : public EventArgs_t1325
 {
 	// System.Boolean System.ConsoleCancelEventArgs::cancel
 	bool ___cancel_1;

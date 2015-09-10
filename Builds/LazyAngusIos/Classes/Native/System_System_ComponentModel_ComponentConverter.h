@@ -3,6 +3,6 @@
 // System.ComponentModel.ReferenceConverter
 #include "System_System_ComponentModel_ReferenceConverter.h"
 // System.ComponentModel.ComponentConverter
-struct  ComponentConverter_t4232  : public ReferenceConverter_t4233
+struct  ComponentConverter_t4239  : public ReferenceConverter_t4240
 {
 };

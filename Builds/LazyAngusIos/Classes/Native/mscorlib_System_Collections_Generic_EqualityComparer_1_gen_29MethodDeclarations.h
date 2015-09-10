@@ -5,26 +5,26 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.UILineInfo>
-struct EqualityComparer_1_t9015;
+struct EqualityComparer_1_t9022;
 // System.Object
 struct Object_t;
 // UnityEngine.UILineInfo
 #include "UnityEngine_UnityEngine_UILineInfo.h"
 
 // System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UILineInfo>::.ctor()
-extern "C" void EqualityComparer_1__ctor_m65760_gshared (EqualityComparer_1_t9015 * __this, const MethodInfo* method);
-#define EqualityComparer_1__ctor_m65760(__this, method) (( void (*) (EqualityComparer_1_t9015 *, const MethodInfo*))EqualityComparer_1__ctor_m65760_gshared)(__this, method)
+extern "C" void EqualityComparer_1__ctor_m65817_gshared (EqualityComparer_1_t9022 * __this, const MethodInfo* method);
+#define EqualityComparer_1__ctor_m65817(__this, method) (( void (*) (EqualityComparer_1_t9022 *, const MethodInfo*))EqualityComparer_1__ctor_m65817_gshared)(__this, method)
 // System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UILineInfo>::.cctor()
-extern "C" void EqualityComparer_1__cctor_m65761_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define EqualityComparer_1__cctor_m65761(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1__cctor_m65761_gshared)(__this /* static, unused */, method)
+extern "C" void EqualityComparer_1__cctor_m65818_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define EqualityComparer_1__cctor_m65818(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1__cctor_m65818_gshared)(__this /* static, unused */, method)
 // System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UILineInfo>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
-extern "C" int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m65762_gshared (EqualityComparer_1_t9015 * __this, Object_t * ___obj, const MethodInfo* method);
-#define EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m65762(__this, ___obj, method) (( int32_t (*) (EqualityComparer_1_t9015 *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m65762_gshared)(__this, ___obj, method)
+extern "C" int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m65819_gshared (EqualityComparer_1_t9022 * __this, Object_t * ___obj, const MethodInfo* method);
+#define EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m65819(__this, ___obj, method) (( int32_t (*) (EqualityComparer_1_t9022 *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m65819_gshared)(__this, ___obj, method)
 // System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UILineInfo>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
-extern "C" bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m65763_gshared (EqualityComparer_1_t9015 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
-#define EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m65763(__this, ___x, ___y, method) (( bool (*) (EqualityComparer_1_t9015 *, Object_t *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m65763_gshared)(__this, ___x, ___y, method)
+extern "C" bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m65820_gshared (EqualityComparer_1_t9022 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
+#define EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m65820(__this, ___x, ___y, method) (( bool (*) (EqualityComparer_1_t9022 *, Object_t *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m65820_gshared)(__this, ___x, ___y, method)
 // System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UILineInfo>::GetHashCode(T)
 // System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UILineInfo>::Equals(T,T)
 // System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.UILineInfo>::get_Default()
-extern "C" EqualityComparer_1_t9015 * EqualityComparer_1_get_Default_m65764_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define EqualityComparer_1_get_Default_m65764(__this /* static, unused */, method) (( EqualityComparer_1_t9015 * (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1_get_Default_m65764_gshared)(__this /* static, unused */, method)
+extern "C" EqualityComparer_1_t9022 * EqualityComparer_1_get_Default_m65821_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define EqualityComparer_1_get_Default_m65821(__this /* static, unused */, method) (( EqualityComparer_1_t9022 * (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1_get_Default_m65821_gshared)(__this /* static, unused */, method)

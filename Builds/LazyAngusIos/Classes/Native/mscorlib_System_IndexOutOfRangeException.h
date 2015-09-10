@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.IndexOutOfRangeException
-struct  IndexOutOfRangeException_t2951  : public SystemException_t3387
+struct  IndexOutOfRangeException_t2958  : public SystemException_t3394
 {
 };

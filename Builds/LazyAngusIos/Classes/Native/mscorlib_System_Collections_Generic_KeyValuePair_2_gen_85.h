@@ -3,11 +3,11 @@
 // System.String
 struct String_t;
 // System.Collections.Generic.IList`1<System.Object>
-struct IList_1_t1396;
+struct IList_1_t1403;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IList`1<System.Object>>
-struct  KeyValuePair_2_t8627 
+struct  KeyValuePair_2_t8634 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IList`1<System.Object>>::key
 	String_t* ___key_0;

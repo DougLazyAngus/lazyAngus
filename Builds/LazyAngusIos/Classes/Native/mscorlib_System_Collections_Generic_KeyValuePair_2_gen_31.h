@@ -7,7 +7,7 @@ struct TwitterUserInfo_t308;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,TwitterUserInfo>
-struct  KeyValuePair_2_t6176 
+struct  KeyValuePair_2_t6183 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,TwitterUserInfo>::key
 	String_t* ___key_0;

@@ -7,11 +7,11 @@
 // System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>
 struct Dictionary_2_t272;
 // System.Collections.Generic.ICollection`1<System.String>
-struct ICollection_1_t1234;
+struct ICollection_1_t1241;
 // System.Collections.Generic.ICollection`1<FacebookUserInfo>
-struct ICollection_1_t9454;
+struct ICollection_1_t9461;
 // System.Collections.ICollection
-struct ICollection_t772;
+struct ICollection_t779;
 // System.Object
 struct Object_t;
 // FacebookUserInfo
@@ -19,25 +19,25 @@ struct FacebookUserInfo_t271;
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.String,FacebookUserInfo>
-struct KeyCollection_t6123;
+struct KeyCollection_t6130;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.String,FacebookUserInfo>
-struct ValueCollection_t6124;
+struct ValueCollection_t6131;
 // System.Collections.Generic.IEqualityComparer`1<System.String>
-struct IEqualityComparer_1_t5771;
+struct IEqualityComparer_1_t5778;
 // System.Collections.Generic.IDictionary`2<System.String,FacebookUserInfo>
-struct IDictionary_2_t9455;
+struct IDictionary_2_t9462;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t2940;
+struct SerializationInfo_t2947;
 // System.Collections.Generic.KeyValuePair`2<System.String,FacebookUserInfo>[]
-struct KeyValuePair_2U5BU5D_t9456;
+struct KeyValuePair_2U5BU5D_t9463;
 // System.Array
 struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t48;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,FacebookUserInfo>>
-struct IEnumerator_1_t9457;
+struct IEnumerator_1_t9464;
 // System.Collections.IDictionaryEnumerator
-struct IDictionaryEnumerator_t802;
+struct IDictionaryEnumerator_t809;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,FacebookUserInfo>
@@ -50,106 +50,106 @@ struct IDictionaryEnumerator_t802;
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::.ctor()
 // System.Collections.Generic.Dictionary`2<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_gen_52MethodDeclarations.h"
-#define Dictionary_2__ctor_m4053(__this, method) (( void (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2__ctor_m26148_gshared)(__this, method)
+#define Dictionary_2__ctor_m4109(__this, method) (( void (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2__ctor_m26205_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::.ctor(System.Collections.Generic.IEqualityComparer`1<TKey>)
-#define Dictionary_2__ctor_m28769(__this, ___comparer, method) (( void (*) (Dictionary_2_t272 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m26150_gshared)(__this, ___comparer, method)
+#define Dictionary_2__ctor_m28826(__this, ___comparer, method) (( void (*) (Dictionary_2_t272 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m26207_gshared)(__this, ___comparer, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
-#define Dictionary_2__ctor_m28770(__this, ___dictionary, method) (( void (*) (Dictionary_2_t272 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m26152_gshared)(__this, ___dictionary, method)
+#define Dictionary_2__ctor_m28827(__this, ___dictionary, method) (( void (*) (Dictionary_2_t272 *, Object_t*, const MethodInfo*))Dictionary_2__ctor_m26209_gshared)(__this, ___dictionary, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::.ctor(System.Int32)
-#define Dictionary_2__ctor_m28771(__this, ___capacity, method) (( void (*) (Dictionary_2_t272 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m26154_gshared)(__this, ___capacity, method)
+#define Dictionary_2__ctor_m28828(__this, ___capacity, method) (( void (*) (Dictionary_2_t272 *, int32_t, const MethodInfo*))Dictionary_2__ctor_m26211_gshared)(__this, ___capacity, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>,System.Collections.Generic.IEqualityComparer`1<TKey>)
-#define Dictionary_2__ctor_m28772(__this, ___dictionary, ___comparer, method) (( void (*) (Dictionary_2_t272 *, Object_t*, Object_t*, const MethodInfo*))Dictionary_2__ctor_m26156_gshared)(__this, ___dictionary, ___comparer, method)
+#define Dictionary_2__ctor_m28829(__this, ___dictionary, ___comparer, method) (( void (*) (Dictionary_2_t272 *, Object_t*, Object_t*, const MethodInfo*))Dictionary_2__ctor_m26213_gshared)(__this, ___dictionary, ___comparer, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-#define Dictionary_2__ctor_m28773(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t272 *, SerializationInfo_t2940 *, StreamingContext_t2941 , const MethodInfo*))Dictionary_2__ctor_m26158_gshared)(__this, ___info, ___context, method)
+#define Dictionary_2__ctor_m28830(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t272 *, SerializationInfo_t2947 *, StreamingContext_t2948 , const MethodInfo*))Dictionary_2__ctor_m26215_gshared)(__this, ___info, ___context, method)
 // System.Collections.Generic.ICollection`1<TKey> System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Keys()
-#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m28774(__this, method) (( Object_t* (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m26160_gshared)(__this, method)
+#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m28831(__this, method) (( Object_t* (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Keys_m26217_gshared)(__this, method)
 // System.Collections.Generic.ICollection`1<TValue> System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::System.Collections.Generic.IDictionary<TKey,TValue>.get_Values()
-#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m28775(__this, method) (( Object_t* (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m26162_gshared)(__this, method)
+#define Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m28832(__this, method) (( Object_t* (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m26219_gshared)(__this, method)
 // System.Collections.ICollection System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::System.Collections.IDictionary.get_Keys()
-#define Dictionary_2_System_Collections_IDictionary_get_Keys_m28776(__this, method) (( Object_t * (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Keys_m26164_gshared)(__this, method)
+#define Dictionary_2_System_Collections_IDictionary_get_Keys_m28833(__this, method) (( Object_t * (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Keys_m26221_gshared)(__this, method)
 // System.Collections.ICollection System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::System.Collections.IDictionary.get_Values()
-#define Dictionary_2_System_Collections_IDictionary_get_Values_m28777(__this, method) (( Object_t * (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Values_m26166_gshared)(__this, method)
+#define Dictionary_2_System_Collections_IDictionary_get_Values_m28834(__this, method) (( Object_t * (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Values_m26223_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::System.Collections.IDictionary.get_Item(System.Object)
-#define Dictionary_2_System_Collections_IDictionary_get_Item_m28778(__this, ___key, method) (( Object_t * (*) (Dictionary_2_t272 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Item_m26168_gshared)(__this, ___key, method)
+#define Dictionary_2_System_Collections_IDictionary_get_Item_m28835(__this, ___key, method) (( Object_t * (*) (Dictionary_2_t272 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_get_Item_m26225_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::System.Collections.IDictionary.set_Item(System.Object,System.Object)
-#define Dictionary_2_System_Collections_IDictionary_set_Item_m28779(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t272 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_set_Item_m26170_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_System_Collections_IDictionary_set_Item_m28836(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t272 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_set_Item_m26227_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::System.Collections.IDictionary.Add(System.Object,System.Object)
-#define Dictionary_2_System_Collections_IDictionary_Add_m28780(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t272 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Add_m26172_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_System_Collections_IDictionary_Add_m28837(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t272 *, Object_t *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Add_m26229_gshared)(__this, ___key, ___value, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::System.Collections.IDictionary.Contains(System.Object)
-#define Dictionary_2_System_Collections_IDictionary_Contains_m28781(__this, ___key, method) (( bool (*) (Dictionary_2_t272 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Contains_m26174_gshared)(__this, ___key, method)
+#define Dictionary_2_System_Collections_IDictionary_Contains_m28838(__this, ___key, method) (( bool (*) (Dictionary_2_t272 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Contains_m26231_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::System.Collections.IDictionary.Remove(System.Object)
-#define Dictionary_2_System_Collections_IDictionary_Remove_m28782(__this, ___key, method) (( void (*) (Dictionary_2_t272 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Remove_m26176_gshared)(__this, ___key, method)
+#define Dictionary_2_System_Collections_IDictionary_Remove_m28839(__this, ___key, method) (( void (*) (Dictionary_2_t272 *, Object_t *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_Remove_m26233_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::System.Collections.ICollection.get_IsSynchronized()
-#define Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m28783(__this, method) (( bool (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m26178_gshared)(__this, method)
+#define Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m28840(__this, method) (( bool (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_IsSynchronized_m26235_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::System.Collections.ICollection.get_SyncRoot()
-#define Dictionary_2_System_Collections_ICollection_get_SyncRoot_m28784(__this, method) (( Object_t * (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_SyncRoot_m26180_gshared)(__this, method)
+#define Dictionary_2_System_Collections_ICollection_get_SyncRoot_m28841(__this, method) (( Object_t * (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_System_Collections_ICollection_get_SyncRoot_m26237_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly()
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m28785(__this, method) (( bool (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m26182_gshared)(__this, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m28842(__this, method) (( bool (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m26239_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m28786(__this, ___keyValuePair, method) (( void (*) (Dictionary_2_t272 *, KeyValuePair_2_t768 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m26184_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m28843(__this, ___keyValuePair, method) (( void (*) (Dictionary_2_t272 *, KeyValuePair_2_t775 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m26241_gshared)(__this, ___keyValuePair, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m28787(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t272 *, KeyValuePair_2_t768 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m26186_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m28844(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t272 *, KeyValuePair_2_t775 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m26243_gshared)(__this, ___keyValuePair, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m28788(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t272 *, KeyValuePair_2U5BU5D_t9456*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m26188_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m28845(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t272 *, KeyValuePair_2U5BU5D_t9463*, int32_t, const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m26245_gshared)(__this, ___array, ___index, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m28789(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t272 *, KeyValuePair_2_t768 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m26190_gshared)(__this, ___keyValuePair, method)
+#define Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m28846(__this, ___keyValuePair, method) (( bool (*) (Dictionary_2_t272 *, KeyValuePair_2_t775 , const MethodInfo*))Dictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m26247_gshared)(__this, ___keyValuePair, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define Dictionary_2_System_Collections_ICollection_CopyTo_m28790(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t272 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_System_Collections_ICollection_CopyTo_m26192_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_System_Collections_ICollection_CopyTo_m28847(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t272 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_System_Collections_ICollection_CopyTo_m26249_gshared)(__this, ___array, ___index, method)
 // System.Collections.IEnumerator System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::System.Collections.IEnumerable.GetEnumerator()
-#define Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m28791(__this, method) (( Object_t * (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m26194_gshared)(__this, method)
+#define Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m28848(__this, method) (( Object_t * (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_System_Collections_IEnumerable_GetEnumerator_m26251_gshared)(__this, method)
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator()
-#define Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m28792(__this, method) (( Object_t* (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m26196_gshared)(__this, method)
+#define Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m28849(__this, method) (( Object_t* (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m26253_gshared)(__this, method)
 // System.Collections.IDictionaryEnumerator System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::System.Collections.IDictionary.GetEnumerator()
-#define Dictionary_2_System_Collections_IDictionary_GetEnumerator_m28793(__this, method) (( Object_t * (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_GetEnumerator_m26198_gshared)(__this, method)
+#define Dictionary_2_System_Collections_IDictionary_GetEnumerator_m28850(__this, method) (( Object_t * (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_System_Collections_IDictionary_GetEnumerator_m26255_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::get_Count()
-#define Dictionary_2_get_Count_m28794(__this, method) (( int32_t (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_get_Count_m26200_gshared)(__this, method)
+#define Dictionary_2_get_Count_m28851(__this, method) (( int32_t (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_get_Count_m26257_gshared)(__this, method)
 // TValue System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::get_Item(TKey)
-#define Dictionary_2_get_Item_m28795(__this, ___key, method) (( FacebookUserInfo_t271 * (*) (Dictionary_2_t272 *, String_t*, const MethodInfo*))Dictionary_2_get_Item_m26202_gshared)(__this, ___key, method)
+#define Dictionary_2_get_Item_m28852(__this, ___key, method) (( FacebookUserInfo_t271 * (*) (Dictionary_2_t272 *, String_t*, const MethodInfo*))Dictionary_2_get_Item_m26259_gshared)(__this, ___key, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::set_Item(TKey,TValue)
-#define Dictionary_2_set_Item_m28796(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t272 *, String_t*, FacebookUserInfo_t271 *, const MethodInfo*))Dictionary_2_set_Item_m26204_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_set_Item_m28853(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t272 *, String_t*, FacebookUserInfo_t271 *, const MethodInfo*))Dictionary_2_set_Item_m26261_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::Init(System.Int32,System.Collections.Generic.IEqualityComparer`1<TKey>)
-#define Dictionary_2_Init_m28797(__this, ___capacity, ___hcp, method) (( void (*) (Dictionary_2_t272 *, int32_t, Object_t*, const MethodInfo*))Dictionary_2_Init_m26206_gshared)(__this, ___capacity, ___hcp, method)
+#define Dictionary_2_Init_m28854(__this, ___capacity, ___hcp, method) (( void (*) (Dictionary_2_t272 *, int32_t, Object_t*, const MethodInfo*))Dictionary_2_Init_m26263_gshared)(__this, ___capacity, ___hcp, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::InitArrays(System.Int32)
-#define Dictionary_2_InitArrays_m28798(__this, ___size, method) (( void (*) (Dictionary_2_t272 *, int32_t, const MethodInfo*))Dictionary_2_InitArrays_m26208_gshared)(__this, ___size, method)
+#define Dictionary_2_InitArrays_m28855(__this, ___size, method) (( void (*) (Dictionary_2_t272 *, int32_t, const MethodInfo*))Dictionary_2_InitArrays_m26265_gshared)(__this, ___size, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::CopyToCheck(System.Array,System.Int32)
-#define Dictionary_2_CopyToCheck_m28799(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t272 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m26210_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_CopyToCheck_m28856(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t272 *, Array_t *, int32_t, const MethodInfo*))Dictionary_2_CopyToCheck_m26267_gshared)(__this, ___array, ___index, method)
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::make_pair(TKey,TValue)
-#define Dictionary_2_make_pair_m28800(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t768  (*) (Object_t * /* static, unused */, String_t*, FacebookUserInfo_t271 *, const MethodInfo*))Dictionary_2_make_pair_m26212_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_make_pair_m28857(__this /* static, unused */, ___key, ___value, method) (( KeyValuePair_2_t775  (*) (Object_t * /* static, unused */, String_t*, FacebookUserInfo_t271 *, const MethodInfo*))Dictionary_2_make_pair_m26269_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TKey System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::pick_key(TKey,TValue)
-#define Dictionary_2_pick_key_m28801(__this /* static, unused */, ___key, ___value, method) (( String_t* (*) (Object_t * /* static, unused */, String_t*, FacebookUserInfo_t271 *, const MethodInfo*))Dictionary_2_pick_key_m26214_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_pick_key_m28858(__this /* static, unused */, ___key, ___value, method) (( String_t* (*) (Object_t * /* static, unused */, String_t*, FacebookUserInfo_t271 *, const MethodInfo*))Dictionary_2_pick_key_m26271_gshared)(__this /* static, unused */, ___key, ___value, method)
 // TValue System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::pick_value(TKey,TValue)
-#define Dictionary_2_pick_value_m28802(__this /* static, unused */, ___key, ___value, method) (( FacebookUserInfo_t271 * (*) (Object_t * /* static, unused */, String_t*, FacebookUserInfo_t271 *, const MethodInfo*))Dictionary_2_pick_value_m26216_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_pick_value_m28859(__this /* static, unused */, ___key, ___value, method) (( FacebookUserInfo_t271 * (*) (Object_t * /* static, unused */, String_t*, FacebookUserInfo_t271 *, const MethodInfo*))Dictionary_2_pick_value_m26273_gshared)(__this /* static, unused */, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-#define Dictionary_2_CopyTo_m28803(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t272 *, KeyValuePair_2U5BU5D_t9456*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m26218_gshared)(__this, ___array, ___index, method)
+#define Dictionary_2_CopyTo_m28860(__this, ___array, ___index, method) (( void (*) (Dictionary_2_t272 *, KeyValuePair_2U5BU5D_t9463*, int32_t, const MethodInfo*))Dictionary_2_CopyTo_m26275_gshared)(__this, ___array, ___index, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::Resize()
-#define Dictionary_2_Resize_m28804(__this, method) (( void (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_Resize_m26220_gshared)(__this, method)
+#define Dictionary_2_Resize_m28861(__this, method) (( void (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_Resize_m26277_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::Add(TKey,TValue)
-#define Dictionary_2_Add_m28805(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t272 *, String_t*, FacebookUserInfo_t271 *, const MethodInfo*))Dictionary_2_Add_m26222_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_Add_m28862(__this, ___key, ___value, method) (( void (*) (Dictionary_2_t272 *, String_t*, FacebookUserInfo_t271 *, const MethodInfo*))Dictionary_2_Add_m26279_gshared)(__this, ___key, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::Clear()
-#define Dictionary_2_Clear_m28806(__this, method) (( void (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_Clear_m26224_gshared)(__this, method)
+#define Dictionary_2_Clear_m28863(__this, method) (( void (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_Clear_m26281_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::ContainsKey(TKey)
-#define Dictionary_2_ContainsKey_m28807(__this, ___key, method) (( bool (*) (Dictionary_2_t272 *, String_t*, const MethodInfo*))Dictionary_2_ContainsKey_m26226_gshared)(__this, ___key, method)
+#define Dictionary_2_ContainsKey_m28864(__this, ___key, method) (( bool (*) (Dictionary_2_t272 *, String_t*, const MethodInfo*))Dictionary_2_ContainsKey_m26283_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::ContainsValue(TValue)
-#define Dictionary_2_ContainsValue_m28808(__this, ___value, method) (( bool (*) (Dictionary_2_t272 *, FacebookUserInfo_t271 *, const MethodInfo*))Dictionary_2_ContainsValue_m26228_gshared)(__this, ___value, method)
+#define Dictionary_2_ContainsValue_m28865(__this, ___value, method) (( bool (*) (Dictionary_2_t272 *, FacebookUserInfo_t271 *, const MethodInfo*))Dictionary_2_ContainsValue_m26285_gshared)(__this, ___value, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-#define Dictionary_2_GetObjectData_m28809(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t272 *, SerializationInfo_t2940 *, StreamingContext_t2941 , const MethodInfo*))Dictionary_2_GetObjectData_m26230_gshared)(__this, ___info, ___context, method)
+#define Dictionary_2_GetObjectData_m28866(__this, ___info, ___context, method) (( void (*) (Dictionary_2_t272 *, SerializationInfo_t2947 *, StreamingContext_t2948 , const MethodInfo*))Dictionary_2_GetObjectData_m26287_gshared)(__this, ___info, ___context, method)
 // System.Void System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::OnDeserialization(System.Object)
-#define Dictionary_2_OnDeserialization_m28810(__this, ___sender, method) (( void (*) (Dictionary_2_t272 *, Object_t *, const MethodInfo*))Dictionary_2_OnDeserialization_m26232_gshared)(__this, ___sender, method)
+#define Dictionary_2_OnDeserialization_m28867(__this, ___sender, method) (( void (*) (Dictionary_2_t272 *, Object_t *, const MethodInfo*))Dictionary_2_OnDeserialization_m26289_gshared)(__this, ___sender, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::Remove(TKey)
-#define Dictionary_2_Remove_m28811(__this, ___key, method) (( bool (*) (Dictionary_2_t272 *, String_t*, const MethodInfo*))Dictionary_2_Remove_m26234_gshared)(__this, ___key, method)
+#define Dictionary_2_Remove_m28868(__this, ___key, method) (( bool (*) (Dictionary_2_t272 *, String_t*, const MethodInfo*))Dictionary_2_Remove_m26291_gshared)(__this, ___key, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::TryGetValue(TKey,TValue&)
-#define Dictionary_2_TryGetValue_m28812(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t272 *, String_t*, FacebookUserInfo_t271 **, const MethodInfo*))Dictionary_2_TryGetValue_m26236_gshared)(__this, ___key, ___value, method)
+#define Dictionary_2_TryGetValue_m28869(__this, ___key, ___value, method) (( bool (*) (Dictionary_2_t272 *, String_t*, FacebookUserInfo_t271 **, const MethodInfo*))Dictionary_2_TryGetValue_m26293_gshared)(__this, ___key, ___value, method)
 // System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::get_Keys()
-#define Dictionary_2_get_Keys_m28813(__this, method) (( KeyCollection_t6123 * (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_get_Keys_m26237_gshared)(__this, method)
+#define Dictionary_2_get_Keys_m28870(__this, method) (( KeyCollection_t6130 * (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_get_Keys_m26294_gshared)(__this, method)
 // System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::get_Values()
-#define Dictionary_2_get_Values_m28814(__this, method) (( ValueCollection_t6124 * (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_get_Values_m26239_gshared)(__this, method)
+#define Dictionary_2_get_Values_m28871(__this, method) (( ValueCollection_t6131 * (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_get_Values_m26296_gshared)(__this, method)
 // TKey System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::ToTKey(System.Object)
-#define Dictionary_2_ToTKey_m28815(__this, ___key, method) (( String_t* (*) (Dictionary_2_t272 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m26241_gshared)(__this, ___key, method)
+#define Dictionary_2_ToTKey_m28872(__this, ___key, method) (( String_t* (*) (Dictionary_2_t272 *, Object_t *, const MethodInfo*))Dictionary_2_ToTKey_m26298_gshared)(__this, ___key, method)
 // TValue System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::ToTValue(System.Object)
-#define Dictionary_2_ToTValue_m28816(__this, ___value, method) (( FacebookUserInfo_t271 * (*) (Dictionary_2_t272 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m26243_gshared)(__this, ___value, method)
+#define Dictionary_2_ToTValue_m28873(__this, ___value, method) (( FacebookUserInfo_t271 * (*) (Dictionary_2_t272 *, Object_t *, const MethodInfo*))Dictionary_2_ToTValue_m26300_gshared)(__this, ___value, method)
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::ContainsKeyValuePair(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-#define Dictionary_2_ContainsKeyValuePair_m28817(__this, ___pair, method) (( bool (*) (Dictionary_2_t272 *, KeyValuePair_2_t768 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m26245_gshared)(__this, ___pair, method)
+#define Dictionary_2_ContainsKeyValuePair_m28874(__this, ___pair, method) (( bool (*) (Dictionary_2_t272 *, KeyValuePair_2_t775 , const MethodInfo*))Dictionary_2_ContainsKeyValuePair_m26302_gshared)(__this, ___pair, method)
 // System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::GetEnumerator()
-#define Dictionary_2_GetEnumerator_m4040(__this, method) (( Enumerator_t769  (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_GetEnumerator_m26246_gshared)(__this, method)
+#define Dictionary_2_GetEnumerator_m4096(__this, method) (( Enumerator_t776  (*) (Dictionary_2_t272 *, const MethodInfo*))Dictionary_2_GetEnumerator_m26303_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2<System.String,FacebookUserInfo>::<CopyTo>m__2(TKey,TValue)
-#define Dictionary_2_U3CCopyToU3Em__2_m28818(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2160  (*) (Object_t * /* static, unused */, String_t*, FacebookUserInfo_t271 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__2_m26248_gshared)(__this /* static, unused */, ___key, ___value, method)
+#define Dictionary_2_U3CCopyToU3Em__2_m28875(__this /* static, unused */, ___key, ___value, method) (( DictionaryEntry_t2167  (*) (Object_t * /* static, unused */, String_t*, FacebookUserInfo_t271 *, const MethodInfo*))Dictionary_2_U3CCopyToU3Em__2_m26305_gshared)(__this /* static, unused */, ___key, ___value, method)

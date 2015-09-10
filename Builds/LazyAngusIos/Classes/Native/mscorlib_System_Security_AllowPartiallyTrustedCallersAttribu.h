@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Security.AllowPartiallyTrustedCallersAttribute
-struct  AllowPartiallyTrustedCallersAttribute_t3392  : public Attribute_t426
+struct  AllowPartiallyTrustedCallersAttribute_t3399  : public Attribute_t426
 {
 };

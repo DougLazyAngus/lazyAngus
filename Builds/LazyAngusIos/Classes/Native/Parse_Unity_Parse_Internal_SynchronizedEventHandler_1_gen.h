@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.LinkedList`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>>
-struct LinkedList_1_t6552;
+struct LinkedList_1_t6559;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Parse.Internal.SynchronizedEventHandler`1<Parse.ParsePushNotificationEventArgs>
-struct  SynchronizedEventHandler_1_t1314  : public Object_t
+struct  SynchronizedEventHandler_1_t1321  : public Object_t
 {
 	// System.Collections.Generic.LinkedList`1<System.Tuple`2<System.Delegate,System.Threading.Tasks.TaskFactory>> Parse.Internal.SynchronizedEventHandler`1<Parse.ParsePushNotificationEventArgs>::delegates
-	LinkedList_1_t6552 * ___delegates_0;
+	LinkedList_1_t6559 * ___delegates_0;
 };

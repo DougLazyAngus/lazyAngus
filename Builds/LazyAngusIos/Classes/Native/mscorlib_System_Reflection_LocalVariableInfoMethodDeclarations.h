@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.LocalVariableInfo
-struct LocalVariableInfo_t5020;
+struct LocalVariableInfo_t5027;
 // System.String
 struct String_t;
 
 // System.Void System.Reflection.LocalVariableInfo::.ctor()
-extern "C" void LocalVariableInfo__ctor_m21887 (LocalVariableInfo_t5020 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LocalVariableInfo__ctor_m21944 (LocalVariableInfo_t5027 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.LocalVariableInfo::ToString()
-extern "C" String_t* LocalVariableInfo_ToString_m21888 (LocalVariableInfo_t5020 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* LocalVariableInfo_ToString_m21945 (LocalVariableInfo_t5027 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

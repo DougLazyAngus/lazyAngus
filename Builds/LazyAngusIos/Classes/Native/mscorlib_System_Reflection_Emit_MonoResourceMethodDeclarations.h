@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.Emit.MonoResource
-struct MonoResource_t5048;
+struct MonoResource_t5055;
 

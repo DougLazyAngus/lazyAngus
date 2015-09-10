@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ArrayList
-struct ArrayList_t716;
+struct ArrayList_t723;
 // System.ComponentModel.AttributeCollection
-struct AttributeCollection_t4226;
+struct AttributeCollection_t4233;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.ComponentModel.AttributeCollection
-struct  AttributeCollection_t4226  : public Object_t
+struct  AttributeCollection_t4233  : public Object_t
 {
 	// System.Collections.ArrayList System.ComponentModel.AttributeCollection::attrList
-	ArrayList_t716 * ___attrList_0;
+	ArrayList_t723 * ___attrList_0;
 };
-struct AttributeCollection_t4226_StaticFields{
+struct AttributeCollection_t4233_StaticFields{
 	// System.ComponentModel.AttributeCollection System.ComponentModel.AttributeCollection::Empty
-	AttributeCollection_t4226 * ___Empty_1;
+	AttributeCollection_t4233 * ___Empty_1;
 };

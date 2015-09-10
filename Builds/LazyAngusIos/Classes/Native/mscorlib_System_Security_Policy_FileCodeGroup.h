@@ -5,7 +5,7 @@
 // System.Security.Permissions.FileIOPermissionAccess
 #include "mscorlib_System_Security_Permissions_FileIOPermissionAccess.h"
 // System.Security.Policy.FileCodeGroup
-struct  FileCodeGroup_t5334  : public CodeGroup_t5330
+struct  FileCodeGroup_t5341  : public CodeGroup_t5337
 {
 	// System.Security.Permissions.FileIOPermissionAccess System.Security.Policy.FileCodeGroup::m_access
 	int32_t ___m_access_6;

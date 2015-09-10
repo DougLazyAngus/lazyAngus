@@ -3,14 +3,14 @@
 // UnityEngine.GameObject
 struct GameObject_t352;
 // UnityEngine.Camera
-struct Camera_t548;
+struct Camera_t532;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.SendMouseEvents/HitInfo
-struct  HitInfo_t2884 
+struct  HitInfo_t2891 
 {
 	// UnityEngine.GameObject UnityEngine.SendMouseEvents/HitInfo::target
 	GameObject_t352 * ___target_0;
 	// UnityEngine.Camera UnityEngine.SendMouseEvents/HitInfo::camera
-	Camera_t548 * ___camera_1;
+	Camera_t532 * ___camera_1;
 };

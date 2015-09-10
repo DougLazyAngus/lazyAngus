@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdAnySimpleType
 #include "System_Xml_Mono_Xml_Schema_XsdAnySimpleType.h"
 // Mono.Xml.Schema.XsdGMonthDay
-struct  XsdGMonthDay_t3616  : public XsdAnySimpleType_t3413
+struct  XsdGMonthDay_t3623  : public XsdAnySimpleType_t3420
 {
 };

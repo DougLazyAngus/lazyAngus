@@ -5,7 +5,7 @@ struct String_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Uri/UriScheme
-struct  UriScheme_t4541 
+struct  UriScheme_t4548 
 {
 	// System.String System.Uri/UriScheme::scheme
 	String_t* ___scheme_0;
@@ -15,7 +15,7 @@ struct  UriScheme_t4541
 	int32_t ___defaultPort_2;
 };
 // Native definition for marshalling of: System.Uri/UriScheme
-struct UriScheme_t4541_marshaled
+struct UriScheme_t4548_marshaled
 {
 	char* ___scheme_0;
 	char* ___delimiter_1;

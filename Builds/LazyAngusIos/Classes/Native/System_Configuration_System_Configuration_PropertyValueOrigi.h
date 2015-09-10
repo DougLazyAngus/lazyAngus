@@ -5,7 +5,7 @@
 // System.Configuration.PropertyValueOrigin
 #include "System_Configuration_System_Configuration_PropertyValueOrigi.h"
 // System.Configuration.PropertyValueOrigin
-struct  PropertyValueOrigin_t3361 
+struct  PropertyValueOrigin_t3368 
 {
 	// System.Int32 System.Configuration.PropertyValueOrigin::value__
 	int32_t ___value___1;

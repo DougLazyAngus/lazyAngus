@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.Formatters.Binary.MemberTypeMetadata
-struct MemberTypeMetadata_t5226;
+struct MemberTypeMetadata_t5233;
 // System.Type
 struct Type_t;
 // System.Runtime.Serialization.Formatters.Binary.ObjectWriter
-struct ObjectWriter_t5228;
+struct ObjectWriter_t5235;
 // System.IO.BinaryWriter
 struct BinaryWriter_t50;
 // System.Object
@@ -18,10 +18,10 @@ struct Object_t;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Runtime.Serialization.Formatters.Binary.MemberTypeMetadata::.ctor(System.Type,System.Runtime.Serialization.StreamingContext)
-extern "C" void MemberTypeMetadata__ctor_m23098 (MemberTypeMetadata_t5226 * __this, Type_t * ___type, StreamingContext_t2941  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemberTypeMetadata__ctor_m23155 (MemberTypeMetadata_t5233 * __this, Type_t * ___type, StreamingContext_t2948  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.MemberTypeMetadata::WriteAssemblies(System.Runtime.Serialization.Formatters.Binary.ObjectWriter,System.IO.BinaryWriter)
-extern "C" void MemberTypeMetadata_WriteAssemblies_m23099 (MemberTypeMetadata_t5226 * __this, ObjectWriter_t5228 * ___ow, BinaryWriter_t50 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemberTypeMetadata_WriteAssemblies_m23156 (MemberTypeMetadata_t5233 * __this, ObjectWriter_t5235 * ___ow, BinaryWriter_t50 * ___writer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.MemberTypeMetadata::WriteTypeData(System.Runtime.Serialization.Formatters.Binary.ObjectWriter,System.IO.BinaryWriter,System.Boolean)
-extern "C" void MemberTypeMetadata_WriteTypeData_m23100 (MemberTypeMetadata_t5226 * __this, ObjectWriter_t5228 * ___ow, BinaryWriter_t50 * ___writer, bool ___writeTypes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemberTypeMetadata_WriteTypeData_m23157 (MemberTypeMetadata_t5233 * __this, ObjectWriter_t5235 * ___ow, BinaryWriter_t50 * ___writer, bool ___writeTypes, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Serialization.Formatters.Binary.MemberTypeMetadata::WriteObjectData(System.Runtime.Serialization.Formatters.Binary.ObjectWriter,System.IO.BinaryWriter,System.Object)
-extern "C" void MemberTypeMetadata_WriteObjectData_m23101 (MemberTypeMetadata_t5226 * __this, ObjectWriter_t5228 * ___ow, BinaryWriter_t50 * ___writer, Object_t * ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MemberTypeMetadata_WriteObjectData_m23158 (MemberTypeMetadata_t5233 * __this, ObjectWriter_t5235 * ___ow, BinaryWriter_t50 * ___writer, Object_t * ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;

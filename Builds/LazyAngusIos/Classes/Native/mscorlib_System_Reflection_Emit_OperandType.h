@@ -5,7 +5,7 @@
 // System.Reflection.Emit.OperandType
 #include "mscorlib_System_Reflection_Emit_OperandType.h"
 // System.Reflection.Emit.OperandType
-struct  OperandType_t5081 
+struct  OperandType_t5088 
 {
 	// System.Int32 System.Reflection.Emit.OperandType::value__
 	int32_t ___value___1;

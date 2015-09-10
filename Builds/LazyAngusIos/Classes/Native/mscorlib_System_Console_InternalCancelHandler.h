@@ -11,6 +11,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Console/InternalCancelHandler
-struct  InternalCancelHandler_t4856  : public MulticastDelegate_t388
+struct  InternalCancelHandler_t4863  : public MulticastDelegate_t388
 {
 };

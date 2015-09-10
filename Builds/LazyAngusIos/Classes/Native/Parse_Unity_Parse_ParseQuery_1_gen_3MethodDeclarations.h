@@ -5,37 +5,37 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Parse.ParseQuery`1<Parse.ParseSession>
-struct ParseQuery_1_t1429;
+struct ParseQuery_1_t1436;
 // System.String
 struct String_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t840;
+struct IDictionary_2_t847;
 // System.Collections.Generic.IEnumerable`1<System.String>
-struct IEnumerable_1_t727;
+struct IEnumerable_1_t734;
 // System.Collections.Generic.HashSet`1<System.String>
-struct HashSet_1_t1311;
+struct HashSet_1_t1318;
 // System.Collections.Generic.IEnumerable`1<Parse.ParseQuery`1<Parse.ParseSession>>
-struct IEnumerable_1_t9823;
+struct IEnumerable_1_t9830;
 // System.Object
 struct Object_t;
 // System.Text.RegularExpressions.Regex
-struct Regex_t805;
+struct Regex_t812;
 // System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<Parse.ParseSession>>
-struct Task_1_t6865;
+struct Task_1_t6872;
 // System.Threading.Tasks.Task`1<Parse.ParseSession>
-struct Task_1_t1428;
+struct Task_1_t1435;
 // System.Threading.Tasks.Task`1<System.Int32>
-struct Task_1_t1391;
+struct Task_1_t1398;
 // Parse.ParseSession
-struct ParseSession_t1324;
+struct ParseSession_t1331;
 // System.Collections.Generic.IEnumerable`1<Parse.ParseSession>
-struct IEnumerable_1_t6866;
+struct IEnumerable_1_t6873;
 // System.Collections.Generic.IList`1<System.Object>
-struct IList_1_t1396;
+struct IList_1_t1403;
 // Parse.ParseObject
-struct ParseObject_t1242;
+struct ParseObject_t1249;
 // System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>
-struct Task_1_t1408;
+struct Task_1_t1415;
 // System.Nullable`1<System.Int32>
 #include "mscorlib_System_Nullable_1_gen.h"
 // Parse.ParseGeoPoint
@@ -48,120 +48,120 @@ struct Task_1_t1408;
 // System.Void Parse.ParseQuery`1<Parse.ParseSession>::.ctor(Parse.ParseQuery`1<T>,System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.String>,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.String>)
 // Parse.ParseQuery`1<System.Object>
 #include "Parse_Unity_Parse_ParseQuery_1_gen_1MethodDeclarations.h"
-#define ParseQuery_1__ctor_m39529(__this, ___source, ___where, ___replacementOrderBy, ___thenBy, ___skip, ___limit, ___includes, ___selectedKeys, method) (( void (*) (ParseQuery_1_t1429 *, ParseQuery_1_t1429 *, Object_t*, Object_t*, Object_t*, Nullable_1_t708 , Nullable_1_t708 , Object_t*, Object_t*, const MethodInfo*))ParseQuery_1__ctor_m37331_gshared)(__this, ___source, ___where, ___replacementOrderBy, ___thenBy, ___skip, ___limit, ___includes, ___selectedKeys, method)
+#define ParseQuery_1__ctor_m39586(__this, ___source, ___where, ___replacementOrderBy, ___thenBy, ___skip, ___limit, ___includes, ___selectedKeys, method) (( void (*) (ParseQuery_1_t1436 *, ParseQuery_1_t1436 *, Object_t*, Object_t*, Object_t*, Nullable_1_t715 , Nullable_1_t715 , Object_t*, Object_t*, const MethodInfo*))ParseQuery_1__ctor_m37388_gshared)(__this, ___source, ___where, ___replacementOrderBy, ___thenBy, ___skip, ___limit, ___includes, ___selectedKeys, method)
 // System.Collections.Generic.HashSet`1<System.String> Parse.ParseQuery`1<Parse.ParseSession>::MergeIncludes(System.Collections.Generic.IEnumerable`1<System.String>)
-#define ParseQuery_1_MergeIncludes_m39530(__this, ___includes, method) (( HashSet_1_t1311 * (*) (ParseQuery_1_t1429 *, Object_t*, const MethodInfo*))ParseQuery_1_MergeIncludes_m37333_gshared)(__this, ___includes, method)
+#define ParseQuery_1_MergeIncludes_m39587(__this, ___includes, method) (( HashSet_1_t1318 * (*) (ParseQuery_1_t1436 *, Object_t*, const MethodInfo*))ParseQuery_1_MergeIncludes_m37390_gshared)(__this, ___includes, method)
 // System.Collections.Generic.HashSet`1<System.String> Parse.ParseQuery`1<Parse.ParseSession>::MergeSelectedKeys(System.Collections.Generic.IEnumerable`1<System.String>)
-#define ParseQuery_1_MergeSelectedKeys_m39531(__this, ___selectedKeys, method) (( HashSet_1_t1311 * (*) (ParseQuery_1_t1429 *, Object_t*, const MethodInfo*))ParseQuery_1_MergeSelectedKeys_m37335_gshared)(__this, ___selectedKeys, method)
+#define ParseQuery_1_MergeSelectedKeys_m39588(__this, ___selectedKeys, method) (( HashSet_1_t1318 * (*) (ParseQuery_1_t1436 *, Object_t*, const MethodInfo*))ParseQuery_1_MergeSelectedKeys_m37392_gshared)(__this, ___selectedKeys, method)
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParseQuery`1<Parse.ParseSession>::MergeWhereClauses(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-#define ParseQuery_1_MergeWhereClauses_m39532(__this, ___where, method) (( Object_t* (*) (ParseQuery_1_t1429 *, Object_t*, const MethodInfo*))ParseQuery_1_MergeWhereClauses_m37337_gshared)(__this, ___where, method)
+#define ParseQuery_1_MergeWhereClauses_m39589(__this, ___where, method) (( Object_t* (*) (ParseQuery_1_t1436 *, Object_t*, const MethodInfo*))ParseQuery_1_MergeWhereClauses_m37394_gshared)(__this, ___where, method)
 // System.Void Parse.ParseQuery`1<Parse.ParseSession>::.ctor()
-#define ParseQuery_1__ctor_m7868(__this, method) (( void (*) (ParseQuery_1_t1429 *, const MethodInfo*))ParseQuery_1__ctor_m37339_gshared)(__this, method)
+#define ParseQuery_1__ctor_m7926(__this, method) (( void (*) (ParseQuery_1_t1436 *, const MethodInfo*))ParseQuery_1__ctor_m37396_gshared)(__this, method)
 // System.Void Parse.ParseQuery`1<Parse.ParseSession>::.ctor(System.String)
-#define ParseQuery_1__ctor_m39533(__this, ___className, method) (( void (*) (ParseQuery_1_t1429 *, String_t*, const MethodInfo*))ParseQuery_1__ctor_m37340_gshared)(__this, ___className, method)
+#define ParseQuery_1__ctor_m39590(__this, ___className, method) (( void (*) (ParseQuery_1_t1436 *, String_t*, const MethodInfo*))ParseQuery_1__ctor_m37397_gshared)(__this, ___className, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::Or(System.Collections.Generic.IEnumerable`1<Parse.ParseQuery`1<T>>)
-#define ParseQuery_1_Or_m39534(__this /* static, unused */, ___queries, method) (( ParseQuery_1_t1429 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))ParseQuery_1_Or_m37342_gshared)(__this /* static, unused */, ___queries, method)
+#define ParseQuery_1_Or_m39591(__this /* static, unused */, ___queries, method) (( ParseQuery_1_t1436 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))ParseQuery_1_Or_m37399_gshared)(__this /* static, unused */, ___queries, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::OrderBy(System.String)
-#define ParseQuery_1_OrderBy_m39535(__this, ___key, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, const MethodInfo*))ParseQuery_1_OrderBy_m37344_gshared)(__this, ___key, method)
+#define ParseQuery_1_OrderBy_m39592(__this, ___key, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, const MethodInfo*))ParseQuery_1_OrderBy_m37401_gshared)(__this, ___key, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::OrderByDescending(System.String)
-#define ParseQuery_1_OrderByDescending_m39536(__this, ___key, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, const MethodInfo*))ParseQuery_1_OrderByDescending_m37346_gshared)(__this, ___key, method)
+#define ParseQuery_1_OrderByDescending_m39593(__this, ___key, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, const MethodInfo*))ParseQuery_1_OrderByDescending_m37403_gshared)(__this, ___key, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::ThenBy(System.String)
-#define ParseQuery_1_ThenBy_m39537(__this, ___key, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, const MethodInfo*))ParseQuery_1_ThenBy_m37348_gshared)(__this, ___key, method)
+#define ParseQuery_1_ThenBy_m39594(__this, ___key, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, const MethodInfo*))ParseQuery_1_ThenBy_m37405_gshared)(__this, ___key, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::ThenByDescending(System.String)
-#define ParseQuery_1_ThenByDescending_m39538(__this, ___key, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, const MethodInfo*))ParseQuery_1_ThenByDescending_m37350_gshared)(__this, ___key, method)
+#define ParseQuery_1_ThenByDescending_m39595(__this, ___key, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, const MethodInfo*))ParseQuery_1_ThenByDescending_m37407_gshared)(__this, ___key, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::Include(System.String)
-#define ParseQuery_1_Include_m39539(__this, ___key, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, const MethodInfo*))ParseQuery_1_Include_m37352_gshared)(__this, ___key, method)
+#define ParseQuery_1_Include_m39596(__this, ___key, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, const MethodInfo*))ParseQuery_1_Include_m37409_gshared)(__this, ___key, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::Select(System.String)
-#define ParseQuery_1_Select_m39540(__this, ___key, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, const MethodInfo*))ParseQuery_1_Select_m37354_gshared)(__this, ___key, method)
+#define ParseQuery_1_Select_m39597(__this, ___key, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, const MethodInfo*))ParseQuery_1_Select_m37411_gshared)(__this, ___key, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::Skip(System.Int32)
-#define ParseQuery_1_Skip_m39541(__this, ___count, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, int32_t, const MethodInfo*))ParseQuery_1_Skip_m37356_gshared)(__this, ___count, method)
+#define ParseQuery_1_Skip_m39598(__this, ___count, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, int32_t, const MethodInfo*))ParseQuery_1_Skip_m37413_gshared)(__this, ___count, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::Limit(System.Int32)
-#define ParseQuery_1_Limit_m39542(__this, ___count, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, int32_t, const MethodInfo*))ParseQuery_1_Limit_m37358_gshared)(__this, ___count, method)
+#define ParseQuery_1_Limit_m39599(__this, ___count, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, int32_t, const MethodInfo*))ParseQuery_1_Limit_m37415_gshared)(__this, ___count, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::WhereContains(System.String,System.String)
-#define ParseQuery_1_WhereContains_m39543(__this, ___key, ___substring, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, String_t*, const MethodInfo*))ParseQuery_1_WhereContains_m37360_gshared)(__this, ___key, ___substring, method)
+#define ParseQuery_1_WhereContains_m39600(__this, ___key, ___substring, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, String_t*, const MethodInfo*))ParseQuery_1_WhereContains_m37417_gshared)(__this, ___key, ___substring, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::WhereDoesNotExist(System.String)
-#define ParseQuery_1_WhereDoesNotExist_m39544(__this, ___key, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, const MethodInfo*))ParseQuery_1_WhereDoesNotExist_m37362_gshared)(__this, ___key, method)
+#define ParseQuery_1_WhereDoesNotExist_m39601(__this, ___key, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, const MethodInfo*))ParseQuery_1_WhereDoesNotExist_m37419_gshared)(__this, ___key, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::WhereEndsWith(System.String,System.String)
-#define ParseQuery_1_WhereEndsWith_m39545(__this, ___key, ___suffix, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, String_t*, const MethodInfo*))ParseQuery_1_WhereEndsWith_m37364_gshared)(__this, ___key, ___suffix, method)
+#define ParseQuery_1_WhereEndsWith_m39602(__this, ___key, ___suffix, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, String_t*, const MethodInfo*))ParseQuery_1_WhereEndsWith_m37421_gshared)(__this, ___key, ___suffix, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::WhereEqualTo(System.String,System.Object)
-#define ParseQuery_1_WhereEqualTo_m39546(__this, ___key, ___value, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, Object_t *, const MethodInfo*))ParseQuery_1_WhereEqualTo_m37366_gshared)(__this, ___key, ___value, method)
+#define ParseQuery_1_WhereEqualTo_m39603(__this, ___key, ___value, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, Object_t *, const MethodInfo*))ParseQuery_1_WhereEqualTo_m37423_gshared)(__this, ___key, ___value, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::WhereExists(System.String)
-#define ParseQuery_1_WhereExists_m39547(__this, ___key, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, const MethodInfo*))ParseQuery_1_WhereExists_m37368_gshared)(__this, ___key, method)
+#define ParseQuery_1_WhereExists_m39604(__this, ___key, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, const MethodInfo*))ParseQuery_1_WhereExists_m37425_gshared)(__this, ___key, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::WhereGreaterThan(System.String,System.Object)
-#define ParseQuery_1_WhereGreaterThan_m39548(__this, ___key, ___value, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, Object_t *, const MethodInfo*))ParseQuery_1_WhereGreaterThan_m37370_gshared)(__this, ___key, ___value, method)
+#define ParseQuery_1_WhereGreaterThan_m39605(__this, ___key, ___value, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, Object_t *, const MethodInfo*))ParseQuery_1_WhereGreaterThan_m37427_gshared)(__this, ___key, ___value, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::WhereGreaterThanOrEqualTo(System.String,System.Object)
-#define ParseQuery_1_WhereGreaterThanOrEqualTo_m39549(__this, ___key, ___value, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, Object_t *, const MethodInfo*))ParseQuery_1_WhereGreaterThanOrEqualTo_m37372_gshared)(__this, ___key, ___value, method)
+#define ParseQuery_1_WhereGreaterThanOrEqualTo_m39606(__this, ___key, ___value, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, Object_t *, const MethodInfo*))ParseQuery_1_WhereGreaterThanOrEqualTo_m37429_gshared)(__this, ___key, ___value, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::WhereLessThan(System.String,System.Object)
-#define ParseQuery_1_WhereLessThan_m39550(__this, ___key, ___value, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, Object_t *, const MethodInfo*))ParseQuery_1_WhereLessThan_m37374_gshared)(__this, ___key, ___value, method)
+#define ParseQuery_1_WhereLessThan_m39607(__this, ___key, ___value, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, Object_t *, const MethodInfo*))ParseQuery_1_WhereLessThan_m37431_gshared)(__this, ___key, ___value, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::WhereLessThanOrEqualTo(System.String,System.Object)
-#define ParseQuery_1_WhereLessThanOrEqualTo_m39551(__this, ___key, ___value, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, Object_t *, const MethodInfo*))ParseQuery_1_WhereLessThanOrEqualTo_m37376_gshared)(__this, ___key, ___value, method)
+#define ParseQuery_1_WhereLessThanOrEqualTo_m39608(__this, ___key, ___value, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, Object_t *, const MethodInfo*))ParseQuery_1_WhereLessThanOrEqualTo_m37433_gshared)(__this, ___key, ___value, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::WhereMatches(System.String,System.Text.RegularExpressions.Regex,System.String)
-#define ParseQuery_1_WhereMatches_m39552(__this, ___key, ___regex, ___modifiers, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, Regex_t805 *, String_t*, const MethodInfo*))ParseQuery_1_WhereMatches_m37378_gshared)(__this, ___key, ___regex, ___modifiers, method)
+#define ParseQuery_1_WhereMatches_m39609(__this, ___key, ___regex, ___modifiers, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, Regex_t812 *, String_t*, const MethodInfo*))ParseQuery_1_WhereMatches_m37435_gshared)(__this, ___key, ___regex, ___modifiers, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::WhereMatches(System.String,System.Text.RegularExpressions.Regex)
-#define ParseQuery_1_WhereMatches_m39553(__this, ___key, ___regex, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, Regex_t805 *, const MethodInfo*))ParseQuery_1_WhereMatches_m37380_gshared)(__this, ___key, ___regex, method)
+#define ParseQuery_1_WhereMatches_m39610(__this, ___key, ___regex, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, Regex_t812 *, const MethodInfo*))ParseQuery_1_WhereMatches_m37437_gshared)(__this, ___key, ___regex, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::WhereMatches(System.String,System.String,System.String)
-#define ParseQuery_1_WhereMatches_m39554(__this, ___key, ___pattern, ___modifiers, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, String_t*, String_t*, const MethodInfo*))ParseQuery_1_WhereMatches_m37382_gshared)(__this, ___key, ___pattern, ___modifiers, method)
+#define ParseQuery_1_WhereMatches_m39611(__this, ___key, ___pattern, ___modifiers, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, String_t*, String_t*, const MethodInfo*))ParseQuery_1_WhereMatches_m37439_gshared)(__this, ___key, ___pattern, ___modifiers, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::WhereMatches(System.String,System.String)
-#define ParseQuery_1_WhereMatches_m39555(__this, ___key, ___pattern, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, String_t*, const MethodInfo*))ParseQuery_1_WhereMatches_m37384_gshared)(__this, ___key, ___pattern, method)
+#define ParseQuery_1_WhereMatches_m39612(__this, ___key, ___pattern, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, String_t*, const MethodInfo*))ParseQuery_1_WhereMatches_m37441_gshared)(__this, ___key, ___pattern, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::WhereNear(System.String,Parse.ParseGeoPoint)
-#define ParseQuery_1_WhereNear_m39556(__this, ___key, ___point, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, ParseGeoPoint_t1268 , const MethodInfo*))ParseQuery_1_WhereNear_m37386_gshared)(__this, ___key, ___point, method)
+#define ParseQuery_1_WhereNear_m39613(__this, ___key, ___point, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, ParseGeoPoint_t1275 , const MethodInfo*))ParseQuery_1_WhereNear_m37443_gshared)(__this, ___key, ___point, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::WhereNotEqualTo(System.String,System.Object)
-#define ParseQuery_1_WhereNotEqualTo_m39557(__this, ___key, ___value, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, Object_t *, const MethodInfo*))ParseQuery_1_WhereNotEqualTo_m37388_gshared)(__this, ___key, ___value, method)
+#define ParseQuery_1_WhereNotEqualTo_m39614(__this, ___key, ___value, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, Object_t *, const MethodInfo*))ParseQuery_1_WhereNotEqualTo_m37445_gshared)(__this, ___key, ___value, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::WhereStartsWith(System.String,System.String)
-#define ParseQuery_1_WhereStartsWith_m39558(__this, ___key, ___suffix, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, String_t*, const MethodInfo*))ParseQuery_1_WhereStartsWith_m37390_gshared)(__this, ___key, ___suffix, method)
+#define ParseQuery_1_WhereStartsWith_m39615(__this, ___key, ___suffix, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, String_t*, const MethodInfo*))ParseQuery_1_WhereStartsWith_m37447_gshared)(__this, ___key, ___suffix, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::WhereWithinGeoBox(System.String,Parse.ParseGeoPoint,Parse.ParseGeoPoint)
-#define ParseQuery_1_WhereWithinGeoBox_m39559(__this, ___key, ___southwest, ___northeast, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, ParseGeoPoint_t1268 , ParseGeoPoint_t1268 , const MethodInfo*))ParseQuery_1_WhereWithinGeoBox_m37392_gshared)(__this, ___key, ___southwest, ___northeast, method)
+#define ParseQuery_1_WhereWithinGeoBox_m39616(__this, ___key, ___southwest, ___northeast, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, ParseGeoPoint_t1275 , ParseGeoPoint_t1275 , const MethodInfo*))ParseQuery_1_WhereWithinGeoBox_m37449_gshared)(__this, ___key, ___southwest, ___northeast, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::WhereWithinDistance(System.String,Parse.ParseGeoPoint,Parse.ParseGeoDistance)
-#define ParseQuery_1_WhereWithinDistance_m39560(__this, ___key, ___point, ___maxDistance, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, String_t*, ParseGeoPoint_t1268 , ParseGeoDistance_t1267 , const MethodInfo*))ParseQuery_1_WhereWithinDistance_m37394_gshared)(__this, ___key, ___point, ___maxDistance, method)
+#define ParseQuery_1_WhereWithinDistance_m39617(__this, ___key, ___point, ___maxDistance, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, String_t*, ParseGeoPoint_t1275 , ParseGeoDistance_t1274 , const MethodInfo*))ParseQuery_1_WhereWithinDistance_m37451_gshared)(__this, ___key, ___point, ___maxDistance, method)
 // System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<T>> Parse.ParseQuery`1<Parse.ParseSession>::FindAsync()
-#define ParseQuery_1_FindAsync_m39561(__this, method) (( Task_1_t6865 * (*) (ParseQuery_1_t1429 *, const MethodInfo*))ParseQuery_1_FindAsync_m37396_gshared)(__this, method)
+#define ParseQuery_1_FindAsync_m39618(__this, method) (( Task_1_t6872 * (*) (ParseQuery_1_t1436 *, const MethodInfo*))ParseQuery_1_FindAsync_m37453_gshared)(__this, method)
 // System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<T>> Parse.ParseQuery`1<Parse.ParseSession>::FindAsync(System.Threading.CancellationToken)
-#define ParseQuery_1_FindAsync_m39562(__this, ___cancellationToken, method) (( Task_1_t6865 * (*) (ParseQuery_1_t1429 *, CancellationToken_t1185 , const MethodInfo*))ParseQuery_1_FindAsync_m37398_gshared)(__this, ___cancellationToken, method)
+#define ParseQuery_1_FindAsync_m39619(__this, ___cancellationToken, method) (( Task_1_t6872 * (*) (ParseQuery_1_t1436 *, CancellationToken_t1192 , const MethodInfo*))ParseQuery_1_FindAsync_m37455_gshared)(__this, ___cancellationToken, method)
 // System.Threading.Tasks.Task`1<T> Parse.ParseQuery`1<Parse.ParseSession>::FirstOrDefaultAsync()
-#define ParseQuery_1_FirstOrDefaultAsync_m39563(__this, method) (( Task_1_t1428 * (*) (ParseQuery_1_t1429 *, const MethodInfo*))ParseQuery_1_FirstOrDefaultAsync_m37400_gshared)(__this, method)
+#define ParseQuery_1_FirstOrDefaultAsync_m39620(__this, method) (( Task_1_t1435 * (*) (ParseQuery_1_t1436 *, const MethodInfo*))ParseQuery_1_FirstOrDefaultAsync_m37457_gshared)(__this, method)
 // System.Threading.Tasks.Task`1<T> Parse.ParseQuery`1<Parse.ParseSession>::FirstOrDefaultAsync(System.Threading.CancellationToken)
-#define ParseQuery_1_FirstOrDefaultAsync_m39564(__this, ___cancellationToken, method) (( Task_1_t1428 * (*) (ParseQuery_1_t1429 *, CancellationToken_t1185 , const MethodInfo*))ParseQuery_1_FirstOrDefaultAsync_m37402_gshared)(__this, ___cancellationToken, method)
+#define ParseQuery_1_FirstOrDefaultAsync_m39621(__this, ___cancellationToken, method) (( Task_1_t1435 * (*) (ParseQuery_1_t1436 *, CancellationToken_t1192 , const MethodInfo*))ParseQuery_1_FirstOrDefaultAsync_m37459_gshared)(__this, ___cancellationToken, method)
 // System.Threading.Tasks.Task`1<T> Parse.ParseQuery`1<Parse.ParseSession>::FirstAsync()
-#define ParseQuery_1_FirstAsync_m39565(__this, method) (( Task_1_t1428 * (*) (ParseQuery_1_t1429 *, const MethodInfo*))ParseQuery_1_FirstAsync_m37404_gshared)(__this, method)
+#define ParseQuery_1_FirstAsync_m39622(__this, method) (( Task_1_t1435 * (*) (ParseQuery_1_t1436 *, const MethodInfo*))ParseQuery_1_FirstAsync_m37461_gshared)(__this, method)
 // System.Threading.Tasks.Task`1<T> Parse.ParseQuery`1<Parse.ParseSession>::FirstAsync(System.Threading.CancellationToken)
-#define ParseQuery_1_FirstAsync_m39566(__this, ___cancellationToken, method) (( Task_1_t1428 * (*) (ParseQuery_1_t1429 *, CancellationToken_t1185 , const MethodInfo*))ParseQuery_1_FirstAsync_m37406_gshared)(__this, ___cancellationToken, method)
+#define ParseQuery_1_FirstAsync_m39623(__this, ___cancellationToken, method) (( Task_1_t1435 * (*) (ParseQuery_1_t1436 *, CancellationToken_t1192 , const MethodInfo*))ParseQuery_1_FirstAsync_m37463_gshared)(__this, ___cancellationToken, method)
 // System.Threading.Tasks.Task`1<System.Int32> Parse.ParseQuery`1<Parse.ParseSession>::CountAsync()
-#define ParseQuery_1_CountAsync_m39567(__this, method) (( Task_1_t1391 * (*) (ParseQuery_1_t1429 *, const MethodInfo*))ParseQuery_1_CountAsync_m37408_gshared)(__this, method)
+#define ParseQuery_1_CountAsync_m39624(__this, method) (( Task_1_t1398 * (*) (ParseQuery_1_t1436 *, const MethodInfo*))ParseQuery_1_CountAsync_m37465_gshared)(__this, method)
 // System.Threading.Tasks.Task`1<System.Int32> Parse.ParseQuery`1<Parse.ParseSession>::CountAsync(System.Threading.CancellationToken)
-#define ParseQuery_1_CountAsync_m39568(__this, ___cancellationToken, method) (( Task_1_t1391 * (*) (ParseQuery_1_t1429 *, CancellationToken_t1185 , const MethodInfo*))ParseQuery_1_CountAsync_m37410_gshared)(__this, ___cancellationToken, method)
+#define ParseQuery_1_CountAsync_m39625(__this, ___cancellationToken, method) (( Task_1_t1398 * (*) (ParseQuery_1_t1436 *, CancellationToken_t1192 , const MethodInfo*))ParseQuery_1_CountAsync_m37467_gshared)(__this, ___cancellationToken, method)
 // System.Threading.Tasks.Task`1<T> Parse.ParseQuery`1<Parse.ParseSession>::GetAsync(System.String)
-#define ParseQuery_1_GetAsync_m39569(__this, ___objectId, method) (( Task_1_t1428 * (*) (ParseQuery_1_t1429 *, String_t*, const MethodInfo*))ParseQuery_1_GetAsync_m37412_gshared)(__this, ___objectId, method)
+#define ParseQuery_1_GetAsync_m39626(__this, ___objectId, method) (( Task_1_t1435 * (*) (ParseQuery_1_t1436 *, String_t*, const MethodInfo*))ParseQuery_1_GetAsync_m37469_gshared)(__this, ___objectId, method)
 // System.Threading.Tasks.Task`1<T> Parse.ParseQuery`1<Parse.ParseSession>::GetAsync(System.String,System.Threading.CancellationToken)
-#define ParseQuery_1_GetAsync_m39570(__this, ___objectId, ___cancellationToken, method) (( Task_1_t1428 * (*) (ParseQuery_1_t1429 *, String_t*, CancellationToken_t1185 , const MethodInfo*))ParseQuery_1_GetAsync_m37414_gshared)(__this, ___objectId, ___cancellationToken, method)
+#define ParseQuery_1_GetAsync_m39627(__this, ___objectId, ___cancellationToken, method) (( Task_1_t1435 * (*) (ParseQuery_1_t1436 *, String_t*, CancellationToken_t1192 , const MethodInfo*))ParseQuery_1_GetAsync_m37471_gshared)(__this, ___objectId, ___cancellationToken, method)
 // T Parse.ParseQuery`1<Parse.ParseSession>::CreateParseObjectFromQueryResult(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-#define ParseQuery_1_CreateParseObjectFromQueryResult_m39571(__this, ___data, method) (( ParseSession_t1324 * (*) (ParseQuery_1_t1429 *, Object_t*, const MethodInfo*))ParseQuery_1_CreateParseObjectFromQueryResult_m37416_gshared)(__this, ___data, method)
+#define ParseQuery_1_CreateParseObjectFromQueryResult_m39628(__this, ___data, method) (( ParseSession_t1331 * (*) (ParseQuery_1_t1436 *, Object_t*, const MethodInfo*))ParseQuery_1_CreateParseObjectFromQueryResult_m37473_gshared)(__this, ___data, method)
 // System.Collections.Generic.IEnumerable`1<T> Parse.ParseQuery`1<Parse.ParseSession>::PrepareObjectsFromResults(System.Collections.Generic.IList`1<System.Object>)
-#define ParseQuery_1_PrepareObjectsFromResults_m39572(__this, ___results, method) (( Object_t* (*) (ParseQuery_1_t1429 *, Object_t*, const MethodInfo*))ParseQuery_1_PrepareObjectsFromResults_m37418_gshared)(__this, ___results, method)
+#define ParseQuery_1_PrepareObjectsFromResults_m39629(__this, ___results, method) (( Object_t* (*) (ParseQuery_1_t1436 *, Object_t*, const MethodInfo*))ParseQuery_1_PrepareObjectsFromResults_m37475_gshared)(__this, ___results, method)
 // System.Object Parse.ParseQuery`1<Parse.ParseSession>::GetConstraint(System.String)
-#define ParseQuery_1_GetConstraint_m39573(__this, ___key, method) (( Object_t * (*) (ParseQuery_1_t1429 *, String_t*, const MethodInfo*))ParseQuery_1_GetConstraint_m37420_gshared)(__this, ___key, method)
+#define ParseQuery_1_GetConstraint_m39630(__this, ___key, method) (( Object_t * (*) (ParseQuery_1_t1436 *, String_t*, const MethodInfo*))ParseQuery_1_GetConstraint_m37477_gshared)(__this, ___key, method)
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParseQuery`1<Parse.ParseSession>::BuildParameters(System.Boolean)
-#define ParseQuery_1_BuildParameters_m39574(__this, ___includeClassName, method) (( Object_t* (*) (ParseQuery_1_t1429 *, bool, const MethodInfo*))ParseQuery_1_BuildParameters_m37422_gshared)(__this, ___includeClassName, method)
+#define ParseQuery_1_BuildParameters_m39631(__this, ___includeClassName, method) (( Object_t* (*) (ParseQuery_1_t1436 *, bool, const MethodInfo*))ParseQuery_1_BuildParameters_m37479_gshared)(__this, ___includeClassName, method)
 // System.String Parse.ParseQuery`1<Parse.ParseSession>::RegexQuote(System.String)
-#define ParseQuery_1_RegexQuote_m39575(__this, ___input, method) (( String_t* (*) (ParseQuery_1_t1429 *, String_t*, const MethodInfo*))ParseQuery_1_RegexQuote_m37424_gshared)(__this, ___input, method)
+#define ParseQuery_1_RegexQuote_m39632(__this, ___input, method) (( String_t* (*) (ParseQuery_1_t1436 *, String_t*, const MethodInfo*))ParseQuery_1_RegexQuote_m37481_gshared)(__this, ___input, method)
 // System.String Parse.ParseQuery`1<Parse.ParseSession>::GetRegexOptions(System.Text.RegularExpressions.Regex,System.String)
-#define ParseQuery_1_GetRegexOptions_m39576(__this, ___regex, ___modifiers, method) (( String_t* (*) (ParseQuery_1_t1429 *, Regex_t805 *, String_t*, const MethodInfo*))ParseQuery_1_GetRegexOptions_m37426_gshared)(__this, ___regex, ___modifiers, method)
+#define ParseQuery_1_GetRegexOptions_m39633(__this, ___regex, ___modifiers, method) (( String_t* (*) (ParseQuery_1_t1436 *, Regex_t812 *, String_t*, const MethodInfo*))ParseQuery_1_GetRegexOptions_m37483_gshared)(__this, ___regex, ___modifiers, method)
 // System.Collections.Generic.IDictionary`2<System.String,System.Object> Parse.ParseQuery`1<Parse.ParseSession>::EncodeRegex(System.Text.RegularExpressions.Regex,System.String)
-#define ParseQuery_1_EncodeRegex_m39577(__this, ___regex, ___modifiers, method) (( Object_t* (*) (ParseQuery_1_t1429 *, Regex_t805 *, String_t*, const MethodInfo*))ParseQuery_1_EncodeRegex_m37428_gshared)(__this, ___regex, ___modifiers, method)
+#define ParseQuery_1_EncodeRegex_m39634(__this, ___regex, ___modifiers, method) (( Object_t* (*) (ParseQuery_1_t1436 *, Regex_t812 *, String_t*, const MethodInfo*))ParseQuery_1_EncodeRegex_m37485_gshared)(__this, ___regex, ___modifiers, method)
 // Parse.ParseQuery`1<T> Parse.ParseQuery`1<Parse.ParseSession>::WhereRelatedTo(Parse.ParseObject,System.String)
-#define ParseQuery_1_WhereRelatedTo_m39578(__this, ___parent, ___key, method) (( ParseQuery_1_t1429 * (*) (ParseQuery_1_t1429 *, ParseObject_t1242 *, String_t*, const MethodInfo*))ParseQuery_1_WhereRelatedTo_m37430_gshared)(__this, ___parent, ___key, method)
+#define ParseQuery_1_WhereRelatedTo_m39635(__this, ___parent, ___key, method) (( ParseQuery_1_t1436 * (*) (ParseQuery_1_t1436 *, ParseObject_t1249 *, String_t*, const MethodInfo*))ParseQuery_1_WhereRelatedTo_m37487_gshared)(__this, ___parent, ___key, method)
 // System.String Parse.ParseQuery`1<Parse.ParseSession>::get_JsonString()
-#define ParseQuery_1_get_JsonString_m39579(__this, method) (( String_t* (*) (ParseQuery_1_t1429 *, const MethodInfo*))ParseQuery_1_get_JsonString_m37432_gshared)(__this, method)
+#define ParseQuery_1_get_JsonString_m39636(__this, method) (( String_t* (*) (ParseQuery_1_t1436 *, const MethodInfo*))ParseQuery_1_get_JsonString_m37489_gshared)(__this, method)
 // System.Void Parse.ParseQuery`1<Parse.ParseSession>::EnsureNotInstallationQuery()
-#define ParseQuery_1_EnsureNotInstallationQuery_m39580(__this, method) (( void (*) (ParseQuery_1_t1429 *, const MethodInfo*))ParseQuery_1_EnsureNotInstallationQuery_m37434_gshared)(__this, method)
+#define ParseQuery_1_EnsureNotInstallationQuery_m39637(__this, method) (( void (*) (ParseQuery_1_t1436 *, const MethodInfo*))ParseQuery_1_EnsureNotInstallationQuery_m37491_gshared)(__this, method)
 // System.Collections.Generic.IEnumerable`1<T> Parse.ParseQuery`1<Parse.ParseSession>::<FindAsync>b__34(System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>)
-#define ParseQuery_1_U3CFindAsyncU3Eb__34_m39581(__this, ___t, method) (( Object_t* (*) (ParseQuery_1_t1429 *, Task_1_t1408 *, const MethodInfo*))ParseQuery_1_U3CFindAsyncU3Eb__34_m37436_gshared)(__this, ___t, method)
+#define ParseQuery_1_U3CFindAsyncU3Eb__34_m39638(__this, ___t, method) (( Object_t* (*) (ParseQuery_1_t1436 *, Task_1_t1415 *, const MethodInfo*))ParseQuery_1_U3CFindAsyncU3Eb__34_m37493_gshared)(__this, ___t, method)
 // T Parse.ParseQuery`1<Parse.ParseSession>::<FirstOrDefaultAsync>b__35(System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>)
-#define ParseQuery_1_U3CFirstOrDefaultAsyncU3Eb__35_m39582(__this, ___t, method) (( ParseSession_t1324 * (*) (ParseQuery_1_t1429 *, Task_1_t1408 *, const MethodInfo*))ParseQuery_1_U3CFirstOrDefaultAsyncU3Eb__35_m37438_gshared)(__this, ___t, method)
+#define ParseQuery_1_U3CFirstOrDefaultAsyncU3Eb__35_m39639(__this, ___t, method) (( ParseSession_t1331 * (*) (ParseQuery_1_t1436 *, Task_1_t1415 *, const MethodInfo*))ParseQuery_1_U3CFirstOrDefaultAsyncU3Eb__35_m37495_gshared)(__this, ___t, method)
 // T Parse.ParseQuery`1<Parse.ParseSession>::<FirstAsync>b__36(System.Threading.Tasks.Task`1<T>)
-#define ParseQuery_1_U3CFirstAsyncU3Eb__36_m39583(__this /* static, unused */, ___t, method) (( ParseSession_t1324 * (*) (Object_t * /* static, unused */, Task_1_t1428 *, const MethodInfo*))ParseQuery_1_U3CFirstAsyncU3Eb__36_m37440_gshared)(__this /* static, unused */, ___t, method)
+#define ParseQuery_1_U3CFirstAsyncU3Eb__36_m39640(__this /* static, unused */, ___t, method) (( ParseSession_t1331 * (*) (Object_t * /* static, unused */, Task_1_t1435 *, const MethodInfo*))ParseQuery_1_U3CFirstAsyncU3Eb__36_m37497_gshared)(__this /* static, unused */, ___t, method)
 // System.Int32 Parse.ParseQuery`1<Parse.ParseSession>::<CountAsync>b__38(System.Threading.Tasks.Task`1<System.Tuple`2<System.Net.HttpStatusCode,System.Collections.Generic.IDictionary`2<System.String,System.Object>>>)
-#define ParseQuery_1_U3CCountAsyncU3Eb__38_m39584(__this /* static, unused */, ___t, method) (( int32_t (*) (Object_t * /* static, unused */, Task_1_t1408 *, const MethodInfo*))ParseQuery_1_U3CCountAsyncU3Eb__38_m37442_gshared)(__this /* static, unused */, ___t, method)
+#define ParseQuery_1_U3CCountAsyncU3Eb__38_m39641(__this /* static, unused */, ___t, method) (( int32_t (*) (Object_t * /* static, unused */, Task_1_t1415 *, const MethodInfo*))ParseQuery_1_U3CCountAsyncU3Eb__38_m37499_gshared)(__this /* static, unused */, ___t, method)
 // T Parse.ParseQuery`1<Parse.ParseSession>::<GetAsync>b__3a(System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<T>>)
-#define ParseQuery_1_U3CGetAsyncU3Eb__3a_m39585(__this /* static, unused */, ___t, method) (( ParseSession_t1324 * (*) (Object_t * /* static, unused */, Task_1_t6865 *, const MethodInfo*))ParseQuery_1_U3CGetAsyncU3Eb__3a_m37444_gshared)(__this /* static, unused */, ___t, method)
+#define ParseQuery_1_U3CGetAsyncU3Eb__3a_m39642(__this /* static, unused */, ___t, method) (( ParseSession_t1331 * (*) (Object_t * /* static, unused */, Task_1_t6872 *, const MethodInfo*))ParseQuery_1_U3CGetAsyncU3Eb__3a_m37501_gshared)(__this /* static, unused */, ___t, method)
 // T Parse.ParseQuery`1<Parse.ParseSession>::<PrepareObjectsFromResults>b__3c(System.Object)
-#define ParseQuery_1_U3CPrepareObjectsFromResultsU3Eb__3c_m39586(__this, ___item, method) (( ParseSession_t1324 * (*) (ParseQuery_1_t1429 *, Object_t *, const MethodInfo*))ParseQuery_1_U3CPrepareObjectsFromResultsU3Eb__3c_m37446_gshared)(__this, ___item, method)
+#define ParseQuery_1_U3CPrepareObjectsFromResultsU3Eb__3c_m39643(__this, ___item, method) (( ParseSession_t1331 * (*) (ParseQuery_1_t1436 *, Object_t *, const MethodInfo*))ParseQuery_1_U3CPrepareObjectsFromResultsU3Eb__3c_m37503_gshared)(__this, ___item, method)

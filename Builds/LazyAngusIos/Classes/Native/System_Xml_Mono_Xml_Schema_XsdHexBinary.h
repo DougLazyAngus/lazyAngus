@@ -3,6 +3,6 @@
 // Mono.Xml.Schema.XsdAnySimpleType
 #include "System_Xml_Mono_Xml_Schema_XsdAnySimpleType.h"
 // Mono.Xml.Schema.XsdHexBinary
-struct  XsdHexBinary_t3604  : public XsdAnySimpleType_t3413
+struct  XsdHexBinary_t3611  : public XsdAnySimpleType_t3420
 {
 };

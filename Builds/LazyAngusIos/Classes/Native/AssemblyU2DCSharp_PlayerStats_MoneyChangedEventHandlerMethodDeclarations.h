@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // PlayerStats/MoneyChangedEventHandler
-struct MoneyChangedEventHandler_t635;
+struct MoneyChangedEventHandler_t680;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -16,11 +16,11 @@ struct AsyncCallback_t386;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void PlayerStats/MoneyChangedEventHandler::.ctor(System.Object,System.IntPtr)
-extern "C" void MoneyChangedEventHandler__ctor_m3398 (MoneyChangedEventHandler_t635 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MoneyChangedEventHandler__ctor_m3684 (MoneyChangedEventHandler_t680 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PlayerStats/MoneyChangedEventHandler::Invoke()
-extern "C" void MoneyChangedEventHandler_Invoke_m3399 (MoneyChangedEventHandler_t635 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_MoneyChangedEventHandler_t635(Il2CppObject* delegate);
+extern "C" void MoneyChangedEventHandler_Invoke_m3685 (MoneyChangedEventHandler_t680 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_MoneyChangedEventHandler_t680(Il2CppObject* delegate);
 // System.IAsyncResult PlayerStats/MoneyChangedEventHandler::BeginInvoke(System.AsyncCallback,System.Object)
-extern "C" Object_t * MoneyChangedEventHandler_BeginInvoke_m3400 (MoneyChangedEventHandler_t635 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * MoneyChangedEventHandler_BeginInvoke_m3686 (MoneyChangedEventHandler_t680 * __this, AsyncCallback_t386 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void PlayerStats/MoneyChangedEventHandler::EndInvoke(System.IAsyncResult)
-extern "C" void MoneyChangedEventHandler_EndInvoke_m3401 (MoneyChangedEventHandler_t635 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MoneyChangedEventHandler_EndInvoke_m3687 (MoneyChangedEventHandler_t680 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

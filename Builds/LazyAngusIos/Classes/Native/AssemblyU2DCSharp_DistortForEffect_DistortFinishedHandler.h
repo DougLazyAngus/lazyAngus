@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // DistortForEffect/DistortFinishedHandler
-struct  DistortFinishedHandler_t536  : public MulticastDelegate_t388
+struct  DistortFinishedHandler_t689  : public MulticastDelegate_t388
 {
 };

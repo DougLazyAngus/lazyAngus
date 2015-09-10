@@ -5,7 +5,7 @@
 // System.Configuration.ConfigurationPropertyOptions
 #include "System_Configuration_System_Configuration_ConfigurationPrope_0.h"
 // System.Configuration.ConfigurationPropertyOptions
-struct  ConfigurationPropertyOptions_t3336 
+struct  ConfigurationPropertyOptions_t3343 
 {
 	// System.Int32 System.Configuration.ConfigurationPropertyOptions::value__
 	int32_t ___value___1;

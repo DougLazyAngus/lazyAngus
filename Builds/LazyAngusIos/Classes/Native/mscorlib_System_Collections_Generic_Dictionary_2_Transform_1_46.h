@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Tuple`2<System.Type,System.Type>
-struct Tuple_2_t1462;
+struct Tuple_2_t1469;
 // System.Func`3<System.Object,System.Object,System.Object>
-struct Func_3_t1215;
+struct Func_3_t1222;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Tuple`2<System.Type,System.Type>,System.Func`3<System.Object,System.Object,System.Object>,System.Collections.DictionaryEntry>
-struct  Transform_1_t6648  : public MulticastDelegate_t388
+struct  Transform_1_t6655  : public MulticastDelegate_t388
 {
 };

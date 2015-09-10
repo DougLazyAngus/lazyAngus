@@ -1,28 +1,28 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.RectTransform
-struct RectTransform_t545;
+struct RectTransform_t573;
 // UnityEngine.Vector3[]
-struct Vector3U5BU5D_t546;
+struct Vector3U5BU5D_t690;
 // UnityEngine.GameObject
 struct GameObject_t352;
 // UnityEngine.Canvas
-struct Canvas_t547;
+struct Canvas_t691;
 // UnityEngine.Camera
-struct Camera_t548;
+struct Camera_t532;
 // UnityEngine.UI.Image
-struct Image_t503;
+struct Image_t499;
 // WorldRelativeGUIElement
 #include "AssemblyU2DCSharp_WorldRelativeGUIElement.h"
 // FlyingAnimation
-struct  FlyingAnimation_t549  : public WorldRelativeGUIElement_t550
+struct  FlyingAnimation_t692  : public WorldRelativeGUIElement_t597
 {
 	// UnityEngine.RectTransform FlyingAnimation::myRectTransform
-	RectTransform_t545 * ___myRectTransform_7;
+	RectTransform_t573 * ___myRectTransform_7;
 	// UnityEngine.RectTransform FlyingAnimation::imageRectTransform
-	RectTransform_t545 * ___imageRectTransform_8;
+	RectTransform_t573 * ___imageRectTransform_8;
 	// UnityEngine.Vector3[] FlyingAnimation::points
-	Vector3U5BU5D_t546* ___points_9;
+	Vector3U5BU5D_t690* ___points_9;
 	// System.Single FlyingAnimation::startTime
 	float ___startTime_10;
 	// System.Boolean FlyingAnimation::running
@@ -36,9 +36,9 @@ struct  FlyingAnimation_t549  : public WorldRelativeGUIElement_t550
 	// UnityEngine.GameObject FlyingAnimation::uxCanvasGameObject
 	GameObject_t352 * ___uxCanvasGameObject_15;
 	// UnityEngine.Canvas FlyingAnimation::uxCanvas
-	Canvas_t547 * ___uxCanvas_16;
+	Canvas_t691 * ___uxCanvas_16;
 	// UnityEngine.Camera FlyingAnimation::uxCamera
-	Camera_t548 * ___uxCamera_17;
+	Camera_t532 * ___uxCamera_17;
 	// UnityEngine.UI.Image FlyingAnimation::image
-	Image_t503 * ___image_18;
+	Image_t499 * ___image_18;
 };

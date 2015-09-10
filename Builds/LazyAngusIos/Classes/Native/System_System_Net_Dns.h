@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.Dns
-struct  Dns_t4354  : public Object_t
+struct  Dns_t4361  : public Object_t
 {
 };

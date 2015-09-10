@@ -5,7 +5,7 @@
 // Mono.Xml.DTDOccurence
 #include "System_Xml_Mono_Xml_DTDOccurence.h"
 // Mono.Xml.DTDOccurence
-struct  DTDOccurence_t3482 
+struct  DTDOccurence_t3489 
 {
 	// System.Int32 Mono.Xml.DTDOccurence::value__
 	int32_t ___value___1;

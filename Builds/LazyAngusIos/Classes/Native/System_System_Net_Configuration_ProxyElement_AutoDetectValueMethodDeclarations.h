@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.Configuration.ProxyElement/AutoDetectValues
-struct AutoDetectValues_t4335;
+struct AutoDetectValues_t4342;
 

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Handles
-struct Handles_t4937;
+struct Handles_t4944;
 

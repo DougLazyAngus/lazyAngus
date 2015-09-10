@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.IDictionary
-struct IDictionary_t703;
+struct IDictionary_t710;
 // System.Xml.XmlNode
-struct XmlNode_t735;
+struct XmlNode_t742;
 // System.IAsyncResult
 struct IAsyncResult_t385;
 // System.AsyncCallback
@@ -15,6 +15,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Diagnostics.DiagnosticsConfigurationHandler/ElementHandler
-struct  ElementHandler_t4286  : public MulticastDelegate_t388
+struct  ElementHandler_t4293  : public MulticastDelegate_t388
 {
 };

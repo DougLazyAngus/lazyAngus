@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,System.TimeZoneInfo/TimeType,System.TimeZoneInfo/TimeType>
-struct  Transform_1_t9197  : public MulticastDelegate_t388
+struct  Transform_1_t9204  : public MulticastDelegate_t388
 {
 };

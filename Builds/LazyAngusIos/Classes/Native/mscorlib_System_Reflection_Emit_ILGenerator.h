@@ -5,21 +5,21 @@ struct Type_t;
 // System.Byte[]
 struct ByteU5BU5D_t66;
 // System.Reflection.Emit.LocalBuilder[]
-struct LocalBuilderU5BU5D_t5070;
+struct LocalBuilderU5BU5D_t5077;
 // System.Reflection.Emit.ILTokenInfo[]
-struct ILTokenInfoU5BU5D_t5071;
+struct ILTokenInfoU5BU5D_t5078;
 // System.Reflection.Emit.ILGenerator/LabelData[]
-struct LabelDataU5BU5D_t5072;
+struct LabelDataU5BU5D_t5079;
 // System.Reflection.Emit.ILGenerator/LabelFixup[]
-struct LabelFixupU5BU5D_t5073;
+struct LabelFixupU5BU5D_t5080;
 // System.Reflection.Module
-struct Module_t5027;
+struct Module_t5034;
 // System.Reflection.Emit.TokenGenerator
-struct TokenGenerator_t5074;
+struct TokenGenerator_t5081;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Reflection.Emit.ILGenerator
-struct  ILGenerator_t4556  : public Object_t
+struct  ILGenerator_t4563  : public Object_t
 {
 	// System.Byte[] System.Reflection.Emit.ILGenerator::code
 	ByteU5BU5D_t66* ___code_1;
@@ -30,25 +30,25 @@ struct  ILGenerator_t4556  : public Object_t
 	// System.Int32 System.Reflection.Emit.ILGenerator::cur_stack
 	int32_t ___cur_stack_4;
 	// System.Reflection.Emit.LocalBuilder[] System.Reflection.Emit.ILGenerator::locals
-	LocalBuilderU5BU5D_t5070* ___locals_5;
+	LocalBuilderU5BU5D_t5077* ___locals_5;
 	// System.Int32 System.Reflection.Emit.ILGenerator::num_token_fixups
 	int32_t ___num_token_fixups_6;
 	// System.Reflection.Emit.ILTokenInfo[] System.Reflection.Emit.ILGenerator::token_fixups
-	ILTokenInfoU5BU5D_t5071* ___token_fixups_7;
+	ILTokenInfoU5BU5D_t5078* ___token_fixups_7;
 	// System.Reflection.Emit.ILGenerator/LabelData[] System.Reflection.Emit.ILGenerator::labels
-	LabelDataU5BU5D_t5072* ___labels_8;
+	LabelDataU5BU5D_t5079* ___labels_8;
 	// System.Int32 System.Reflection.Emit.ILGenerator::num_labels
 	int32_t ___num_labels_9;
 	// System.Reflection.Emit.ILGenerator/LabelFixup[] System.Reflection.Emit.ILGenerator::fixups
-	LabelFixupU5BU5D_t5073* ___fixups_10;
+	LabelFixupU5BU5D_t5080* ___fixups_10;
 	// System.Int32 System.Reflection.Emit.ILGenerator::num_fixups
 	int32_t ___num_fixups_11;
 	// System.Reflection.Module System.Reflection.Emit.ILGenerator::module
-	Module_t5027 * ___module_12;
+	Module_t5034 * ___module_12;
 	// System.Reflection.Emit.TokenGenerator System.Reflection.Emit.ILGenerator::token_gen
 	Object_t * ___token_gen_13;
 };
-struct ILGenerator_t4556_StaticFields{
+struct ILGenerator_t4563_StaticFields{
 	// System.Type System.Reflection.Emit.ILGenerator::void_type
 	Type_t * ___void_type_0;
 };

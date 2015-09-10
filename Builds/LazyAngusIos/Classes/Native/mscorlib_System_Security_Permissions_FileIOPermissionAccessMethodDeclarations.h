@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Permissions.FileIOPermissionAccess
-struct FileIOPermissionAccess_t5298;
+struct FileIOPermissionAccess_t5305;
 
