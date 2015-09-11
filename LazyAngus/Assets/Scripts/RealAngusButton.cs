@@ -59,15 +59,24 @@ public class RealAngusButton : MonoBehaviour {
 		}
 
 		bool hasNewStuff = false;
+		bool hasAnything = false;
 
 		for (int i = 0; i < raids.Count; i++) {
+			if (raids[i].unlocked) {
+				hasAnything = true;
+			}
 			if (raids[i].unlocked && !raids[i].viewed) {
 				hasNewStuff = true;
 				break;
 			}
 		}
 
-		newLabel.SetActive (hasNewStuff);
+		if (!hasAnything) {
+			gameObject.SetActive(false);
+		} else {
+			gameObject.SetActive(true);
+			newLabel.SetActive (hasNewStuff);
+		}
 	}
 
 	public void ShowRealAngusPage() {
