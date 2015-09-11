@@ -27,6 +27,10 @@ public class SFXPlayer : MonoBehaviour {
 
 		MOUSE_ESCAPE,
 
+		ESCAPING_00, 
+		ESCAPING_01, 
+		ESCAPING_02, 
+
 		NUM_TYPES,
 	};
 
@@ -34,6 +38,7 @@ public class SFXPlayer : MonoBehaviour {
 		PAW_SWIPE, 
 		COMIC_VIOLENCE,
 		MOUSE_SQUEAK,
+		ESCAPING,
 	}
 
 	AudioSource[] audioSources;
@@ -48,11 +53,17 @@ public class SFXPlayer : MonoBehaviour {
 	SFXPlayer.SFXType [] mouseSqueakIds = {
 		SFXType.MOUSE_SQUEAK, 
 	};
-
+	
 	SFXPlayer.SFXType [] pawSwipeIds = {
 		SFXType.PAW_SWIPE_00, 
 		SFXType.PAW_SWIPE_01,
 		SFXType.PAW_SWIPE_02,
+	};
+	
+	SFXPlayer.SFXType [] escapingIds = {
+		SFXType.ESCAPING_00, 
+		SFXType.ESCAPING_01,
+		SFXType.ESCAPING_02,
 	};
 
 
@@ -69,21 +80,25 @@ public class SFXPlayer : MonoBehaviour {
 		LoadAudioSource (SFXType.COMIC_VIOLENCE_01, "Boing_4");
 		LoadAudioSource (SFXType.COMIC_VIOLENCE_02, "boingding");
 
-		LoadAudioSource (SFXType.MOUSE_SQUEAK, "mouse.02");
+		LoadAudioSource (SFXType.MOUSE_SQUEAK, "tmp.mouse.02");
 
 		LoadAudioSource (SFXType.BUTTON_CLICK, "ButtonClick");
-	
-		LoadAudioSource (SFXType.PAW_SWIPE_00, "woosh_1");
-		LoadAudioSource (SFXType.PAW_SWIPE_01, "woosh_2");
-		LoadAudioSource (SFXType.PAW_SWIPE_02, "woosh_3");
 		
-		LoadAudioSource (SFXType.USE_BOOST, "Dinner-bell-sound");
+		LoadAudioSource (SFXType.PAW_SWIPE_00, "tmp.woosh_1");
+		LoadAudioSource (SFXType.PAW_SWIPE_01, "tmp.woosh_2");
+		LoadAudioSource (SFXType.PAW_SWIPE_02, "tmp.woosh_3");
+		
+		LoadAudioSource (SFXType.ESCAPING_00, "escaping.01");
+		LoadAudioSource (SFXType.ESCAPING_01, "escaping.02");
+		LoadAudioSource (SFXType.ESCAPING_02, "escaping.03");
+
+		LoadAudioSource (SFXType.USE_BOOST, "tmp.Dinner-bell-sound");
 		
 		LoadAudioSource (SFXType.MOUSE_TRAP, "mouse_trap.03");
 		
-		LoadAudioSource (SFXType.CAMERA, "camera_hack");
+		LoadAudioSource (SFXType.CAMERA, "tmp.camera_hack");
 		
-		LoadAudioSource (SFXType.EARN_MONEY, "cash_register.01");
+		LoadAudioSource (SFXType.EARN_MONEY, "tmp.cash_register.01");
 
 		LoadAudioSource (SFXType.MOUSE_ESCAPE, "Mouse_marimba");
 	}
@@ -123,6 +138,9 @@ public class SFXPlayer : MonoBehaviour {
 			break;
 		case SFXTypeGroup.MOUSE_SQUEAK:
 			types = mouseSqueakIds;
+			break;
+		case SFXTypeGroup.ESCAPING:
+			types = escapingIds;
 			break;
 		default:
 			types = pawSwipeIds;

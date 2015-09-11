@@ -97,21 +97,21 @@ public class MouseConfig : MonoBehaviour
 		mouseWiggleDescs = new MouseWiggleDesc[(int)MouseWiggleType.NUM_TYPES];
 
 		mouseWiggleDescs [(int)MouseWiggleType.BACK_FORTH] = new MouseWiggleDesc (
-			"mouse.wiggle.intro.01",
+			"tmp.mouse.wiggle.intro.01",
 			minBFWiggleMagnitude, 
 			maxBFWiggleMagnitude, 
 			minBFWiggleCycles, 
 			maxBFWiggleCycles);
 
 		mouseWiggleDescs [(int)MouseWiggleType.SIDE_SIDE] = new MouseWiggleDesc (
-			"mouse.wiggle.intro.02",
+			"tmp.mouse.wiggle.intro.02",
 			minSSWiggleMagnitude, 
 			maxSSWiggleMagnitude, 
 			minSSWiggleCycles, 
 			maxSSWiggleCycles);
 
 		mouseWiggleDescs [(int)MouseWiggleType.ROUND] = new MouseWiggleDesc (
-			"mouse.wiggle.intro.03",
+			"tmp.mouse.wiggle.intro.03",
 			minRDWiggleMagnitude, 
 			maxRDWiggleMagnitude, 
 			minRDWiggleCycles, 

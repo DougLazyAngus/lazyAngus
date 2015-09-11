@@ -273,6 +273,49 @@ public class MouseMove : MonoBehaviour
 		}
 		this.phase = phase;
 		this.phaseStartTime = Time.time;
+
+		switch (phase) {
+		case MouseConfig.MovementPhaseType.CELEBRATING:
+			PlayCelebratingEffects ();
+			break;
+		case MouseConfig.MovementPhaseType.LEAVING:
+			PlayLeavingEffects ();
+			break;
+		}
+	}
+
+
+	void PlayLeavingEffects() {
+		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.LEVEL_PLAY) {
+			return;
+		}
+
+		SFXPlayer.instance.PlayRandom(SFXPlayer.SFXTypeGroup.ESCAPING);
+
+		// Do 'escaping' distort effect.
+		DistortForEffect distortForEffect = GetComponent<DistortForEffect> ();
+		distortForEffect.looping = true;
+		distortForEffect.minScale = 0.8f;
+		distortForEffect.additionalScale = 0.3f;
+		distortForEffect.secondsPerPeriod = 0.5f;
+		distortForEffect.Distort ();
+	}
+
+
+	void PlayCelebratingEffects() {
+		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.LEVEL_PLAY) {
+			return;
+		}
+		
+		// Do 'escaping' distort effect.
+		DistortForEffect distortForEffect = GetComponent<DistortForEffect> ();
+		distortForEffect.looping = true;
+		distortForEffect.minScale = 1;
+		distortForEffect.additionalScale = 2;
+		distortForEffect.secondsPerPeriod = 1;
+		distortForEffect.Distort ();
+		
+		SFXPlayer.instance.Play (SFXPlayer.SFXType.MOUSE_ESCAPE);
 	}
 
 	void FixedUpdate ()
@@ -340,9 +383,6 @@ public class MouseMove : MonoBehaviour
 	public void OnSafeExit ()
 	{
 		SetPhase (MouseConfig.MovementPhaseType.CELEBRATING);
-		DistortForEffect distortForEffect = GetComponent<DistortForEffect> ();
-		distortForEffect.Distort ();
-		SFXPlayer.instance.Play (SFXPlayer.SFXType.MOUSE_ESCAPE);
 	}
 
 	void SetMouseType (MouseConfig.MouseType mt)

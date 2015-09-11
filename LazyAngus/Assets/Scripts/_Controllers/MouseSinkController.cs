@@ -135,8 +135,10 @@ public class MouseSinkController : MonoBehaviour {
 			UsedTrapRelay.instance.HandleUsedTrap();
 		} else {
 			savedMouseCount += 1;
-			GameController.instance.OnMouseExit (mouseMove);
+			// Important: do this before any change in game state...
 			mouseMove.OnSafeExit ();
+			// Now change game state.
+			GameController.instance.OnMouseExit (mouseMove);
 		}
 	}
 

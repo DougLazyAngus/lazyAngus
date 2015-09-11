@@ -76,24 +76,24 @@ public class BoostConfig : MonoBehaviour {
 
 		boostDescs [(int)BoostType.BOOST_TYPE_FAST_PAWS] = new BoostDesc (
 			"Fast Paws", 
-			"energy_can", 
-			"energy_can", 
+			"tmp.energy_can", 
+			"tmp.energy_can", 
 			TweakableParams.fastPawsBoostTime,
 			new TipConfig ("boost.fast_paws", 
 		               LazyAngusStrings.TIP_BOOST_FAST));
 
 		boostDescs [(int)BoostType.BOOST_TYPE_GOOD_EYES] = new BoostDesc (
 			"Super Sight", 
-			"glasses_can", 
-			"glasses_can", 
+			"tmp.glasses_can", 
+			"tmp.glasses_can", 
 			TweakableParams.goodEyesBoostTime,
 			new TipConfig ("boost.good_eyes", 
 		               LazyAngusStrings.TIP_BOOST_SEE));
 
 		boostDescs [(int)BoostType.BOOST_TYPE_BIG_PAWS] = new BoostDesc (
 			"Big Paws", 
-			"big_paws_can", 
-			"big_paws_can", 
+			"tmp.big_paws_can", 
+			"tmp.big_paws_can", 
 			TweakableParams.bigPawsBoostTime,
 			new TipConfig ("boost.big_paws", 
 		               LazyAngusStrings.TIP_BOOST_GIANT));
@@ -110,8 +110,8 @@ public class BoostConfig : MonoBehaviour {
 
 		boostDescs [(int)BoostType.BOOST_TYPE_FART] = new BoostDesc (
 			"Farts", 
-			"fart_can", 
-			"fart_can", 
+			"tmp.fart_can", 
+			"tmp.fart_can", 
 			TweakableParams.fartBoostTime,
 			new TipConfig ("boost.fart", 
 		               LazyAngusStrings.TIP_BOOST_FART));
