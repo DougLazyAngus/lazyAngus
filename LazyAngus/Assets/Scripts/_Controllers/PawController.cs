@@ -24,7 +24,6 @@ public class PawController : MonoBehaviour {
 	public GameObject bigDangerPawArtGameObject;
 
 	public CircleCollider2D normalCollider;
-	public CircleCollider2D bigCollider;
 	public float debugTimer;
 
 	private float swipeSpeed;
@@ -56,7 +55,6 @@ public class PawController : MonoBehaviour {
 
 
 		normalCollider.radius = TweakableParams.normalPawRadius;
-		bigCollider.radius = normalCollider.radius * TweakableParams.bigPawsMultiplier;
 
 		RegisterForEvents ();
 		UpdatePawState ();
@@ -142,7 +140,7 @@ public class PawController : MonoBehaviour {
 			killsThisSwipe = 0;
 		}
 
-		if (newPhase == SwipePhase.EXTENDED_PAUSE) {
+		if (newPhase == SwipePhase.EXTENDING) {
 			extendedPauseStarted = Time.time;
 			PlayRandomSound ();
 		}
@@ -151,7 +149,7 @@ public class PawController : MonoBehaviour {
 	}
 
 	void PlayRandomSound() {
-		SFXPlayer.instance.PlayRandom(SFXPlayer.instance.slapIds,
+		SFXPlayer.instance.PlayRandom(SFXPlayer.SFXTypeGroup.PAW_SWIPE,
 		                              0.2f);
 	}
 
@@ -159,35 +157,35 @@ public class PawController : MonoBehaviour {
 		if (BoostConfig.instance.activeBoost == BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS) {
 			dangerPawArtGameObject.SetActive (false);
 			normalPawArtGameObject.SetActive (false);
-			normalCollider.gameObject.SetActive (false);
 
-			bigCollider.gameObject.SetActive (true);
+			normalCollider.radius = TweakableParams.bigPawsMultiplier * TweakableParams.normalPawRadius;
 
 			if (swipePhase == SwipePhase.EXTENDED_PAUSE) {
 				bigDangerPawArtGameObject.SetActive (true);
 				bigPawArtGameObject.SetActive (false);
-				bigCollider.isTrigger = true;
 			} else {
 				bigDangerPawArtGameObject.SetActive (false);
 				bigPawArtGameObject.SetActive (true);
-				bigCollider.isTrigger = false;
 			}
 		} else {
 			bigDangerPawArtGameObject.SetActive (false);
 			bigPawArtGameObject.SetActive (false);
-			bigCollider.gameObject.SetActive (false);
-			
-			normalCollider.gameObject.SetActive (true);
-			
+
+			normalCollider.radius = TweakableParams.normalPawRadius;
+
 			if (swipePhase == SwipePhase.EXTENDED_PAUSE) {
 				dangerPawArtGameObject.SetActive (true);
 				normalPawArtGameObject.SetActive (false);
-				normalCollider.isTrigger = true;
 			} else {
 				dangerPawArtGameObject.SetActive (false);
 				normalPawArtGameObject.SetActive (true);
-				normalCollider.isTrigger = false;
 			}
+		}
+
+		if (swipePhase == SwipePhase.EXTENDED_PAUSE) {
+			normalCollider.isTrigger = true;
+		} else {
+			normalCollider.isTrigger = false;
 		}
 	}
 

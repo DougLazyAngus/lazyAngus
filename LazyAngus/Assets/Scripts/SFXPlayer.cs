@@ -5,15 +5,18 @@ public class SFXPlayer : MonoBehaviour {
 	public static SFXPlayer instance { get; private set; }
 
 	public enum SFXType {
-		DEAD_MOUSE_00 = 0,
-		DEAD_MOUSE_01,
+		PAW_SWIPE_00,
+		PAW_SWIPE_01, 
+		PAW_SWIPE_02,
+
+		COMIC_VIOLENCE_00,
+		COMIC_VIOLENCE_01,
+		COMIC_VIOLENCE_02,
+
+		MOUSE_SQUEAK,
 
 		BUTTON_CLICK, 
-
-		SLAP_00,
-		SLAP_01, 
-		SLAP_02,
-		
+		  
 		USE_BOOST,
 		
 		MOUSE_TRAP,
@@ -22,21 +25,34 @@ public class SFXPlayer : MonoBehaviour {
 
 		EARN_MONEY,
 
+		MOUSE_ESCAPE,
+
 		NUM_TYPES,
 	};
 
+	public enum SFXTypeGroup {
+		PAW_SWIPE, 
+		COMIC_VIOLENCE,
+		MOUSE_SQUEAK,
+	}
+
 	AudioSource[] audioSources;
 	bool registeredForEvents;
-	
-	public SFXPlayer.SFXType [] deadMouseIds = {
-		SFXType.DEAD_MOUSE_00, 
-		SFXType.DEAD_MOUSE_01,
+
+	SFXPlayer.SFXType[] comicViolenceIds = {
+		SFXType.COMIC_VIOLENCE_00, 
+		SFXType.COMIC_VIOLENCE_01,
+		SFXType.COMIC_VIOLENCE_02,
 	};
 	
-	public SFXPlayer.SFXType [] slapIds = {
-		SFXType.SLAP_00, 
-		SFXType.SLAP_01,
-		SFXType.SLAP_02,
+	SFXPlayer.SFXType [] mouseSqueakIds = {
+		SFXType.MOUSE_SQUEAK, 
+	};
+
+	SFXPlayer.SFXType [] pawSwipeIds = {
+		SFXType.PAW_SWIPE_00, 
+		SFXType.PAW_SWIPE_01,
+		SFXType.PAW_SWIPE_02,
 	};
 
 
@@ -49,14 +65,17 @@ public class SFXPlayer : MonoBehaviour {
 	void LoadAudioSources() {
 		audioSources = new AudioSource[(int)SFXType.NUM_TYPES];
 		
-		LoadAudioSource (SFXType.DEAD_MOUSE_00, "mouse.01");
-		LoadAudioSource (SFXType.DEAD_MOUSE_01, "mouse.02");
-		
-		LoadAudioSource (SFXType.BUTTON_CLICK, "ButtonClick");
+		LoadAudioSource (SFXType.COMIC_VIOLENCE_00, "Boing_3");
+		LoadAudioSource (SFXType.COMIC_VIOLENCE_01, "Boing_4");
+		LoadAudioSource (SFXType.COMIC_VIOLENCE_02, "boingding");
 
-		LoadAudioSource (SFXType.SLAP_00, "Kick-SoundBible");
-		LoadAudioSource (SFXType.SLAP_01, "Slap.01.SoundBible");
-		LoadAudioSource (SFXType.SLAP_02, "Slap.02.SoundBible");
+		LoadAudioSource (SFXType.MOUSE_SQUEAK, "mouse.02");
+
+		LoadAudioSource (SFXType.BUTTON_CLICK, "ButtonClick");
+	
+		LoadAudioSource (SFXType.PAW_SWIPE_00, "woosh_1");
+		LoadAudioSource (SFXType.PAW_SWIPE_01, "woosh_2");
+		LoadAudioSource (SFXType.PAW_SWIPE_02, "woosh_3");
 		
 		LoadAudioSource (SFXType.USE_BOOST, "Dinner-bell-sound");
 		
@@ -65,6 +84,8 @@ public class SFXPlayer : MonoBehaviour {
 		LoadAudioSource (SFXType.CAMERA, "camera_hack");
 		
 		LoadAudioSource (SFXType.EARN_MONEY, "cash_register.01");
+
+		LoadAudioSource (SFXType.MOUSE_ESCAPE, "Mouse_marimba");
 	}
 
 
@@ -90,10 +111,24 @@ public class SFXPlayer : MonoBehaviour {
 	}
 
 
-	public void PlayRandom(SFXType[] types, float delay = 0) {
+	public void PlayRandom(SFXTypeGroup typeGroup, float delay = 0) {
 		if (SoundController.instance.sfxMuted) {
 			return;
 		}
+
+		SFXType [] types;
+		switch (typeGroup) {
+		case SFXTypeGroup.COMIC_VIOLENCE:
+			types = comicViolenceIds;
+			break;
+		case SFXTypeGroup.MOUSE_SQUEAK:
+			types = mouseSqueakIds;
+			break;
+		default:
+			types = pawSwipeIds;
+			break;
+		}
+
 		int index = Random.Range (0, types.Length);
 		AudioSource asource = audioSources[(int)types[index]];
 		asource.PlayDelayed(delay);

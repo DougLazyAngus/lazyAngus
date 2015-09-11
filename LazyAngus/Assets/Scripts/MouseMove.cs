@@ -330,15 +330,11 @@ public class MouseMove : MonoBehaviour
 
 	public void OnKilled ()
 	{
-		MakeDeadMouse ();
+		SFXPlayer.instance.PlayRandom(SFXPlayer.SFXTypeGroup.MOUSE_SQUEAK,
+		                              0.2f);
 
 		dead = true;
 		Object.Destroy (this.gameObject);
-	}
-
-	void MakeDeadMouse() {
-		SFXPlayer.instance.PlayRandom(SFXPlayer.instance.deadMouseIds,
-		                              0.2f);
 	}
 
 	public void OnSafeExit ()
@@ -346,6 +342,7 @@ public class MouseMove : MonoBehaviour
 		SetPhase (MouseConfig.MovementPhaseType.CELEBRATING);
 		DistortForEffect distortForEffect = GetComponent<DistortForEffect> ();
 		distortForEffect.Distort ();
+		SFXPlayer.instance.Play (SFXPlayer.SFXType.MOUSE_ESCAPE);
 	}
 
 	void SetMouseType (MouseConfig.MouseType mt)

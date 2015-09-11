@@ -100,8 +100,10 @@ public class GoogleAdController : MonoBehaviour {
 	}
 
 	bool ShouldShowInterstitialAd() {
-		int lastInstanceAdShown = PersistentStorage.instance.GetIntValue ("lastInstanceAdShown", 0);
-		if (GamePhaseState.instance.instancesFinishedThisSession < lastInstanceAdShown + instancesBetweenInterstitialAds) {
+		int lastInstanceAdShown = PersistentStorage.instance.GetIntValue ("lastInstanceAdShown",
+		                                                                  0);
+		if (GamePhaseState.instance.instancesFinishedThisSession < 
+		    lastInstanceAdShown + instancesBetweenInterstitialAds) {
 			return false;
 		}
 

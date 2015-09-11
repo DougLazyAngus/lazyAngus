@@ -40,6 +40,11 @@ public class FlyingAnimation : WorldRelativeGUIElement {
 
 		float timeNow = Time.time;
 		float timeElapsed = timeNow - startTime;
+
+		PositionForTimeElapsed (timeElapsed);
+	}
+
+	void PositionForTimeElapsed(float timeElapsed) {
 		if (timeElapsed >= TweakableParams.flyingAnimationTime) {
 			Object.Destroy (gameObject);
 			return;
@@ -86,6 +91,7 @@ public class FlyingAnimation : WorldRelativeGUIElement {
 	public void Run() {
 		startTime = Time.time;
 		running = true;
+		PositionForTimeElapsed (0);
 	}
 
 	void CreatePoints(Vector3 worldStartPosition, 

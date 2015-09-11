@@ -30,14 +30,6 @@ public class DeadMouseRelay : MonoBehaviour {
 	}
 
 	public void HandleMouseKill(MouseMove mouseMove) {
-
-		/*
-		mouseMove.OnKilled ();
-		pawController.CountKill (mouseMove);
-		GameController.instance.OnMouseKilled (mouseMove);
-*/
-
-
 		if (MouseKill != null) {
 			MouseKill (mouseMove);
 		}
