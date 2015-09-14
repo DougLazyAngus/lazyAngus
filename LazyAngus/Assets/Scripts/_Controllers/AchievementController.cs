@@ -24,24 +24,36 @@ public class AchievementController : MonoBehaviour {
 		registeredForEvents = true;
 		GameLevelState.instance.GameLevelChanged += 
 			new GameLevelState.GameLevelChangedEventHandler (OnGameLevelChanged);
-		GamePhaseState.instance.GameInstanceChanged += 
-			new GamePhaseState.GameInstanceChangedEventHandler(OnGameInstanceChanged);
+		DeadMouseRelay.instance.MultiKill +=
+			new DeadMouseRelay.MultiKillEventHandler (OnMultiKill);
 	}
 	
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
 			GameLevelState.instance.GameLevelChanged -= 
 				new GameLevelState.GameLevelChangedEventHandler (OnGameLevelChanged);
-			GamePhaseState.instance.GameInstanceChanged -= 
-				new GamePhaseState.GameInstanceChangedEventHandler(OnGameInstanceChanged);
+			DeadMouseRelay.instance.MultiKill -=
+				new DeadMouseRelay.MultiKillEventHandler (OnMultiKill);
 		}
 	}
 
-	void OnGameInstanceChanged() {
-		if (DebugConfig.instance.clearAchievements) {
-			SocialHelper.instance.ClearAchievements();
+	void OnMultiKill(int numKilled, Vector3 pawPosition) {
+		switch (numKilled) {
+		case 2:
+			SocialHelper.instance.RecordAchievement ("DoubleKill");
+			break;
+		case 3:
+			SocialHelper.instance.RecordAchievement ("TripleKill");
+			break;
+		case 4:
+			SocialHelper.instance.RecordAchievement ("QuadKill");
+			break;
+		case 5:
+			SocialHelper.instance.RecordAchievement ("UltraKill");
+			break;
 		}
 	}
+
 
 	void OnGameLevelChanged() {
 		LevelDescription ld = LevelConfig.instance.GetCurrentLevelDescription ();

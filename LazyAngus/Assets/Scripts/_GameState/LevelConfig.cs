@@ -194,7 +194,7 @@ public class LevelConfig : MonoBehaviour
 
 		LevelDescription ld;
 
-		int skeletonLevelCount = 40;
+		int skeletonLevelCount = 50;
 		int [] realAngusLevels = {
 			1, 2, 4, 
 			7, 10, 13,
@@ -244,6 +244,12 @@ public class LevelConfig : MonoBehaviour
 		
 		ld = GetLevelDescription (11);
 		ld.previousLevelClearedAchievementID = "Wave10";
+		
+		ld = GetLevelDescription (21);
+		ld.previousLevelClearedAchievementID = "Wave20";
+		
+		ld = GetLevelDescription (41);
+		ld.previousLevelClearedAchievementID = "Wave40";
 	}
 
 	void FillOutPresetGameLevelSkeletons ()

@@ -2,14 +2,15 @@
 using System.Collections;
 
 public class RateMeController : MonoBehaviour {
-	public int launchFrequency = 1;
+	public int initialLaunchFrequency = 3;
 	public float minTimeFrequencySec = (60f * 60f) * (1.0f/60.0f);
 	public GameObject rateMeDialogPrototype;
-	public float waitToShow = 3;
 	bool registeredForEvents;
 	public float yOffset = -50;
 	
 	public PhaseDelayedEventScheduler phaseDelayedEventScheduler;
+
+	const string persistentStorageKey = "rateMeLaunchFrequency";
 
 	// Use this for initialization
 	void Start () {
@@ -52,9 +53,23 @@ public class RateMeController : MonoBehaviour {
 		GameObject rateMeDialogGameObject = Instantiate (rateMeDialogPrototype, 
 		                                                 new Vector2 (0, yOffset),
 		                                                 Quaternion.identity) as GameObject;
+		RateMeDialog rmd = rateMeDialogGameObject.GetComponent<RateMeDialog> ();
+		rmd.SetHandler (OnDialogResult);
 
 		DialogController.instance.ShowDialog(rateMeDialogGameObject);
 		return true;
+	}
+
+	int GetLaunchFrequency() {
+		return PersistentStorage.instance.GetIntValue (persistentStorageKey, 
+		                                               initialLaunchFrequency);
+	}
+
+	void UpdateLaunchFrequency() {
+		int lf = GetLaunchFrequency ();
+		lf += 1;
+		PersistentStorage.instance.SetIntValue (persistentStorageKey, 
+		                                       lf);
 	}
 
 	bool GetShouldShowRateMeRightNow() {
@@ -69,7 +84,7 @@ public class RateMeController : MonoBehaviour {
 				
 		int currentLaunch = PersistentStorage.instance.GetIntValue ("launchCount", 0);
 		int previousShowLaunchCount = PersistentStorage.instance.GetIntValue ("rateThisLaunchCount", 0);
-		if (currentLaunch < previousShowLaunchCount + launchFrequency) {
+		if (currentLaunch < previousShowLaunchCount + GetLaunchFrequency()) {
 			return false;
 		}
 		
@@ -80,5 +95,19 @@ public class RateMeController : MonoBehaviour {
 		}
 
 		return true;
+	}
+
+	void OnDialogResult(RateMeDialog.RateMeResult result) {
+		switch (result) {
+		case RateMeDialog.RateMeResult.RATE_ME:
+			RatingsHelper.instance.ShowRatingsPage ();
+			break;
+		case RateMeDialog.RateMeResult.NEVER:
+			PersistentStorage.instance.SetBoolValue ("suppressRatingRequests", true);
+			break;
+		case RateMeDialog.RateMeResult.LATER:
+			UpdateLaunchFrequency();
+			break;
+		}
 	}
 }

@@ -7,6 +7,7 @@ public class MusicPlayer : MonoBehaviour {
 	
 
 	public AudioSource gameMusic;
+	public AudioSource welcomeMusic;
 	public AudioSource menuMusic;
 	public AudioSource realAngusMusic;
 	public AudioSource boostMusic;
@@ -92,6 +93,9 @@ public class MusicPlayer : MonoBehaviour {
 				break;
 			case GamePhaseState.GamePhaseType.REAL_ANGUS:
 				desiredMusic = realAngusMusic;
+				break;
+			case GamePhaseState.GamePhaseType.WELCOME:
+				desiredMusic = welcomeMusic;
 				break;
 			default:
 				desiredMusic = menuMusic;

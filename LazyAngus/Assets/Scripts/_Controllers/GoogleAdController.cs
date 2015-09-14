@@ -22,6 +22,7 @@ public class GoogleAdController : MonoBehaviour {
 
 		GoogleMobileAd.Init ();
 		GoogleMobileAd.AddKeyword("game");
+		GoogleMobileAd.AddKeyword("cat");
 		banner = GoogleMobileAd.CreateAdBanner(TextAnchor.LowerCenter,
 		                                       GADBannerSize.SMART_BANNER);
 		banner.Hide ();

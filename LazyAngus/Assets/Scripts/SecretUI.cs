@@ -18,6 +18,10 @@ public class SecretUI : MonoBehaviour {
 		PersistentStorage.instance.ClearAll ();
 	}
 
+	public void ResetAchievements() {
+		SocialHelper.instance.ClearAchievements();
+	}
+
 	void Awake() {
 		instance = this;
 	}

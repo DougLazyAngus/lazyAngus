@@ -4,8 +4,22 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class RateMeDialog : MonoBehaviour {
+	public enum RateMeResult {
+		RATE_ME, 
+		LATER, 
+		NEVER,
+	}
+
+	public delegate void RateMeDialogHandler(RateMeResult result);
+	RateMeDialogHandler handler;
+
+
 	void Start() {
 		RecordShowTime ();
+	}
+	
+	public void SetHandler(RateMeDialogHandler handler) {
+		this.handler = handler;
 	}
 
 	void RecordShowTime() {
@@ -19,18 +33,26 @@ public class RateMeDialog : MonoBehaviour {
 
 
 	public void RateThis() {
-		RatingsHelper.instance.ShowRatingsPage ();
-
-		PersistentStorage.instance.SetBoolValue ("suppressRatingRequests", true);
 		DialogController.instance.HideDialog (gameObject);
+
+		if (handler != null) {
+			handler (RateMeResult.RATE_ME);
+		}
 	}
 
 	public void RemindMeLater() {
 		DialogController.instance.HideDialog (gameObject);
+		
+		if (handler != null) {
+			handler (RateMeResult.LATER);
+		}
 	}
 
 	public void NoThanks() {
-		PersistentStorage.instance.SetBoolValue ("suppressRatingRequests", true);
 		DialogController.instance.HideDialog (gameObject);
+		
+		if (handler != null) {
+			handler (RateMeResult.NEVER);
+		}
 	}
 }

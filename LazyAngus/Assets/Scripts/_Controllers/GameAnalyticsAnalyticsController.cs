@@ -34,16 +34,23 @@ public class GameAnalyticsAnalyticsController : MonoBehaviour {
 	}
 
 	void OnGamePhaseChanged() {
+		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.LEVEL_PLAY) {
+			LogLevelEvent(GA_Progression.GAProgressionStatus.GAProgressionStatusStart);
+		}		
+		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.LEVEL_END) {
+			LogLevelEvent(GA_Progression.GAProgressionStatus.GAProgressionStatusComplete);
+		}		
 		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.GAME_OVER) {
-			LogGameOverEvent();
+			LogLevelEvent(GA_Progression.GAProgressionStatus.GAProgressionStatusFail);
 		}		
 	}
 	
-	void LogGameOverEvent() {
-		GameAnalytics.NewProgressionEvent(GA_Progression.GAProgressionStatus.GAProgressionStatusComplete, 
-			                                  "",
-			                                  "" + GamePhaseState.instance.instancesFinishedEver, 
-			                                  "" + GamePhaseState.instance.instancesFinishedThisSession, 
-			                                  PlayerStats.instance.gameScore);
+	void LogLevelEvent (GA_Progression.GAProgressionStatus status)
+	{
+		GameAnalytics.NewProgressionEvent (status,
+		                                   "" + GameLevelState.instance.gameLevel,
+		                                  "", 
+		                                  "",
+		                                  PlayerStats.instance.gameScore);
 	}
 }
