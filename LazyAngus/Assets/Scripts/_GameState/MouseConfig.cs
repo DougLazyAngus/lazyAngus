@@ -41,6 +41,7 @@ public class MouseConfig : MonoBehaviour
 
 	public float[] speeds;
 	public float[] scales;
+	public int[] numSections;
 
 	public Color poisonedColor;
 	public Color fartedUponColor;

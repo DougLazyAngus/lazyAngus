@@ -429,11 +429,7 @@ public class MouseMove : MonoBehaviour
 		}
 
 		startAngleDeg = (float)originHole * MouseSinkController.angleBetweenHoles;
-		if (isClockwise) {
-			startAngleDeg += 45;
-		} else {
-			startAngleDeg -= 45;
-		}
+		startAngleDeg += 45;
 
 		track = Mathf.Clamp (track, 0, TweakableParams.numTracks - 1);
 
@@ -446,7 +442,8 @@ public class MouseMove : MonoBehaviour
 		this.SetMouseType (mouseType);
 		this.wiggleType = MouseConfig.MouseWiggleType.NONE;
 
-		int numSections = (int)MouseSinkController.MouseHoleLocation.NUM_TYPES - 2 + (int)mouseType;
+		int numSections = MouseConfig.instance.numSections [(int)mouseType];
+
 
 		if (DebugConfig.instance.IsDebugFlagSet (DebugConfig.DEBUG_FLAG_SHORT_MOUSE_PATH)) {
 			numSections = 0;

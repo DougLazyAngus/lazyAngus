@@ -26,6 +26,8 @@ public class LevelDescription
 	public TipConfig tipConfig;
 	public float tipPause;
 
+	public List<int> debugWaveTypes;
+
 	public EnumAccumulator<MouseSinkController.MouseHoleLocation> mouseHolesAccumulator;
 	public EnumAccumulator<BoostConfig.BoostType> boostsAccumulator;
 	public EnumAccumulator<MouseConfig.MouseWiggleType> wigglesAccumulator;
@@ -42,6 +44,7 @@ public class LevelDescription
 	{
 		specialText = "";
 		explicitMouseDescs = new List<ExplicitMouseDesc> ();
+		debugWaveTypes = new List<int> ();
 		sprite = null;
 
 		previousLevelClearedAchievementID = null;
@@ -79,13 +82,19 @@ public class LevelConfig : MonoBehaviour
 	public int maxDistributedMice = 7;
 	public float[] distributedPauseDist;
 	public float distributedEndPause = 2f;
+
 	public float minSpoutPause = 0.2f;
-	public float maxSpoutPause = 1.1f;
+	public float maxSpoutPause = 0.5f;
 	public float spoutEndPause = 3f;
+
 	public int minSpoutMice = 6;
 	public int maxSpoutMice = 10;
+
 	public int superSpeedMiceLevel = 7;
+
 	private QuasiRandomGenerator<MouseSinkController.MouseHoleLocation> mouseHoleGenerator;
+	private QuasiRandomGenerator<MouseSinkController.MouseHoleLocation> paradeMouseHoleGenerator;
+
 	private QuasiRandomGenerator<int> trackGenerator;
 	private QuasiRandomGenerator<float> distributedPauseGenerator;
 	private Dictionary<int, LevelDescription> levelDescMap;
@@ -1207,6 +1216,7 @@ public class LevelConfig : MonoBehaviour
 			retVal.AddRange (this.GenerateWaveForLevel (waveType,
 			                                            mouseTypeGenerator,
 			                                            ld));
+			ld.debugWaveTypes.Add((int)waveType);
 		}
 		return retVal;
 	}
@@ -1263,7 +1273,7 @@ public class LevelConfig : MonoBehaviour
 
 		bool isClockwise = (Random.Range (0, 2) == 0);
 
-		mouseHoleGenerator.RefreshValues ();
+		paradeMouseHoleGenerator.RefreshValues ();
 		int count = Random.Range (minParadeMice, maxParadeMice + 1);
 
 		for (int i = 0; i < count; i++) {
@@ -1271,7 +1281,8 @@ public class LevelConfig : MonoBehaviour
 			MouseConfig.MouseType mType = 
 				(MouseConfig.MouseType)mouseTypeGenerator.GetNextValue ();
 			int track = trackGenerator.GetNextValue ();
-			MouseSinkController.MouseHoleLocation location = mouseHoleGenerator.GetNextValue ();
+			MouseSinkController.MouseHoleLocation location =
+				paradeMouseHoleGenerator.GetNextValue ();
 
 			if (retVal.Count == count - 1) {
 				pause = paradeEndPause;
@@ -1328,9 +1339,17 @@ public class LevelConfig : MonoBehaviour
 		holeDist.Add (MouseSinkController.MouseHoleLocation.SOUTH);
 		holeDist.Add (MouseSinkController.MouseHoleLocation.WEST);
 
+		paradeMouseHoleGenerator = new QuasiRandomGenerator<MouseSinkController.MouseHoleLocation> (holeDist);
+		paradeMouseHoleGenerator.refreshTrigger = 0;
+		
+		holeDist.Add (MouseSinkController.MouseHoleLocation.NORTH);
+		holeDist.Add (MouseSinkController.MouseHoleLocation.EAST);
+		holeDist.Add (MouseSinkController.MouseHoleLocation.SOUTH);
+		holeDist.Add (MouseSinkController.MouseHoleLocation.WEST);
+
 		mouseHoleGenerator = new QuasiRandomGenerator<MouseSinkController.MouseHoleLocation> (holeDist);
 		mouseHoleGenerator.refreshTrigger = 1;
-		
+
 		List<int> trackDist = new List<int> ();
 		for (int i = 0; i < TweakableParams.numTracks; i++) {
 			trackDist.Add (i);
