@@ -6,7 +6,6 @@ public class SizeCamera : MonoBehaviour {
 	public float targetWorldHalfHeight = 5f;
 
 	public float screenPixelsTopCameraSlop = 0f;
-	public float screenPixelsBottomToIgnore = 0f;
 
 	public delegate void CameraConfiguredHandler();
 	public event CameraConfiguredHandler CameraConfigured;
@@ -39,7 +38,7 @@ public class SizeCamera : MonoBehaviour {
 		return finalAspectRatio;
 	}
 
-	public void Configure() {
+	public void Configure(float screenPixelsBottomToIgnore) {
 		float focusHeightInPixels = (float)Screen.height - (screenPixelsTopCameraSlop + screenPixelsBottomToIgnore);
 		float actualHeightInPixels = (float)Screen.height - (screenPixelsBottomToIgnore);
 

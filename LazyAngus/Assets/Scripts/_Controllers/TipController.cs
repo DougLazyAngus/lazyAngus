@@ -132,7 +132,8 @@ public class TipController : MonoBehaviour {
 		                                          new Vector3 (0f, 0f, 0f),
 		                                          Quaternion.identity) as GameObject;
 		tipDialogObject.transform.localScale = new Vector3 (1f, 1f, 1f);
-
+		tipDialogObject.transform.localPosition = new Vector2 (0, 
+		                                                       GoogleAdController.GetBannerHeight ()/2);
 		TipDialog td = tipDialogObject.GetComponent<TipDialog> ();
 		td.ConfigureDialog (tipConfig.tipText);
 			

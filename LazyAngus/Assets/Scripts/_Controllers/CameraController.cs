@@ -15,13 +15,10 @@ public class CameraController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
-		uxCamera.screenPixelsBottomToIgnore = 0f;
 		uxCamera.screenPixelsTopCameraSlop = 0f;
-		uxCamera.Configure ();
+		uxCamera.Configure (0);
 
 		float footerHeight = GoogleAdController.GetBannerHeight ();
-		worldCamera.screenPixelsBottomToIgnore = footerHeight;
 
 		float screenHeightPixels = Screen.height;
 		float screenWidthPixels = Screen.width;
@@ -46,6 +43,6 @@ public class CameraController : MonoBehaviour {
 
 		constantUXCanvas.scaleFactor = hudHeight / actualHUDPixelHeight;
 
-		worldCamera.Configure ();
+		worldCamera.Configure (footerHeight);
 	}
 }

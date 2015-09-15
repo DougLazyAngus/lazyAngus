@@ -74,5 +74,6 @@ public class LevelEndTitlesLayout : MonoBehaviour {
 
 	void OnGameLevelChanged() {
 		waveDirty = true;
+		SetWaveViews ();
 	}
 }

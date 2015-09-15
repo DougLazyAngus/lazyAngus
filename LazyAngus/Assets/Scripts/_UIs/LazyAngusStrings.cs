@@ -14,30 +14,29 @@ public class LazyAngusStrings
 
 	public const string BOOST_FAIL_LEVEL = "I can't eat that cat food until Wave {0}!";
 	public const string BOOST_FAIL_ACTIVE = "I can only eat one cat food at a time!";
-	public const string BOOST_FAIL_COST = "Can't affort that!\n\nEarn money by swiping two mice at once!";
+	public const string BOOST_FAIL_COST = "Not enough money!\n\nSwipe two mice at once to earn more!";
 
 	public const string INTRO_BOOST_FAST = "Cat food helps Angus move faster!";
 	public const string INTRO_BOOST_SEE = "This cat food helps Angus see better!";
 	public const string INTRO_BOOST_GIANT = "Try new Giant Paws cat food!";
 	public const string INTRO_BOOST_FART = "This cat food makes me toot!";
 
-	public const string TIP_EXPLAIN_BOOSTS = "Yay, dinner time!\n\nBuy me cat food when you need some extra help!";
-	public const string TIP_BOOST_FAST = "Yum! I feel so frisky!\n\n" + 
-		"But only for a short time - so let's catch some mice!";
+	public const string TIP_EXPLAIN_BOOSTS = "Buy me cat food when you need some extra help!";
+	public const string TIP_BOOST_FAST = "I feel frisky!\n\n" + 
+		"Let's catch some mice while it lasts!";
 	public const string TIP_BOOST_SEE = "Better eyesight means less turning!";
 	public const string TIP_BOOST_GIANT = "No mouse shall escape my mighty paws!";
 	public const string TIP_BOOST_FART = "The mice slow down when things get a little stinky...";
 
-	public const string TUTORIAL_CATCH_MOUSE = "Yikes! I'd better catch that mouse!";
-	public const string TUTORIAL_LEAD_MOUSE = "Lazy cats like me don't move so fast.\n\n" + 
-		"Tap in front of a mouse, so I can get there in time!";
+	public const string TUTORIAL_CATCH_MOUSE = "Yikes!\n\nI'd better catch that mouse!";
+	public const string TUTORIAL_LEAD_MOUSE = "I'll swipe where you tap, but I'm pretty lazy.\n\n" + 
+		"Plan ahead!!";
 	public const string TUTORIAL_DRAG_TURN = "Drag my body to turn me faster!";
-	public const string TUTORIAL_TRAPS = "Mousetraps catch mice that get away from me.\n\n" + 
-		"But once a trap is sprung, it'd gone for good!";
-	public const string TUTORIAL_GAME_OVER = "Oh no!\n\n" + 
-		"A mouse got away, it's all over!\n\n" + 
-		"Let's try again!";
-	public const string TUTORIAL_BOOST_OVER = "The catfood is all gone!\n\nYou can buy me more, but the prices will go up!";
+	public const string TUTORIAL_TRAPS = "A trap will stop an escaping mouse, but then the trap is gone!!";
+	public const string TUTORIAL_GAME_OVER = "OH NO!!\n\n" + 
+		"A mouse got away, I'm in trouble now!";
+	public const string TUTORIAL_BOOST_OVER = "The catfood is all gone!\n\n" + 
+		"Buy me more, but watch the prices!";
 
 
 	public const string REAL_ANGUS_FACT_01 = 
