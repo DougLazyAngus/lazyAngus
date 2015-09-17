@@ -85,12 +85,14 @@ public class ScoreController : MonoBehaviour {
 		DeadMouse deadMouse = deadMouseGameObject.GetComponent<DeadMouse>();
 
 		deadMouse.Configure(killedMouse);
-		DistortForEffect distortForEffect = deadMouse.GetComponent<DistortForEffect> ();
 
-		distortForEffect.totalPeriods = 1;
-		distortForEffect.secondsPerPeriod = TweakableParams.deadMouseAnimationTime;
+		DistortForEffect d4e = deadMouse.GetComponent<DistortForEffect> ();
 
-		distortForEffect.SetDistortFinishedHandler (OnDeadMouseDone);
-		distortForEffect.Distort ();
+		if (d4e != null) {
+			d4e.totalPeriods = 1;
+			d4e.secondsPerPeriod = TweakableParams.deadMouseAnimationTime;
+			d4e.SetDistortFinishedHandler (OnDeadMouseDone);
+			d4e.Distort ();
+		}
 	}
 }

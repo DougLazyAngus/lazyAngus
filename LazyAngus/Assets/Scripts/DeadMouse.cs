@@ -4,7 +4,8 @@ using System.Collections;
 public class DeadMouse : MonoBehaviour {
 	public float zIndex;
 	public MouseConfig.MouseType mouseType { get; private set; }
-	public float extraScale = 0.32f;
+	public float extraScale = 1.2f;
+
 
 	// Use this for initialization
 	void Start () {

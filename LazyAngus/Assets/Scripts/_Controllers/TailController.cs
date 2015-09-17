@@ -2,17 +2,15 @@
 using System.Collections;
 
 public class TailController : MonoBehaviour {
-	public Renderer tailRenderer;
+	public SpriteRenderer tailRenderer;
 
-	public Material [] tailMaterials;
+	public Sprite [] sprites;
 	public float cycleTime = 1.0f;
-	public int numFrames;
-	public Material [] currentMaterial;
+	int numFrames;
 
 	// Use this for initialization
 	void Start () {
-		currentMaterial = new Material[1];
-		numFrames = tailMaterials.Length * 2 - 1;
+		numFrames = sprites.Length * 2 - 1;
 	}
 	
 	// Update is called once per frame
@@ -20,10 +18,9 @@ public class TailController : MonoBehaviour {
 		float timeNow = Time.time;
 		float timeIntoCycle = timeNow % cycleTime;
 		int frameIndex = (int)(Mathf.Floor(timeIntoCycle * numFrames/cycleTime));
-		if (frameIndex >= tailMaterials.Length) {
-			frameIndex = (2 * tailMaterials.Length - 1) - frameIndex;
+		if (frameIndex >= sprites.Length) {
+			frameIndex = (2 * sprites.Length - 1) - frameIndex;
 		}
-		currentMaterial[0] = tailMaterials [frameIndex];
-		tailRenderer.materials = currentMaterial;
+		tailRenderer.sprite = sprites[frameIndex];
 	}
 }
