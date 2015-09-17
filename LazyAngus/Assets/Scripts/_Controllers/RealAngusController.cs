@@ -13,7 +13,8 @@ public class RealAngusController : MonoBehaviour {
 
 	public int numColumns = 2;
 	public float buttonRotationDeg = 5f;
-	public float buttonWigglePix = 10f;
+	public float buttonWigglePixX = 10f;
+	public float buttonWigglePixY = 100f;
 	public float buttonPanelTopMargin;
 	public float buttonPanelBottomMargin;
 	public float buttonPanelSideMargin;
@@ -255,8 +256,15 @@ public class RealAngusController : MonoBehaviour {
 		x -= screenWidth / 2;
 		y -= screenHeight / 2;
 
-		x += Random.Range (-buttonWigglePix, buttonWigglePix);
-		y += Random.Range (-buttonWigglePix, buttonWigglePix);
+		float [] yOffsets = {
+			0.07f, -0.1f, 0.1f,
+			0.03f, 0, 0.12f, 
+			0.06f, -0.12f, 0.07f, 
+			0.1f, -0.1f, 0.05f, 
+		};
+
+		y += rowHeight * yOffsets [n % yOffsets.Length];
+		x += Random.Range (-buttonWigglePixX, buttonWigglePixX);
 
 		return new Vector2 (x, y);
 	}

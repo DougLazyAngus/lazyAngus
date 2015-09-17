@@ -21,9 +21,11 @@ public class ExplicitMouseDesc
 	// what track it runs on.
 	public int track;
 
+	/*
 	int debugMouseType;
 	int debugHoleLocation;
 	int debugWiggleType;
+	*/
 
 	// time until next mouse.
 	public float delayToNextMouse;
@@ -48,9 +50,11 @@ public class ExplicitMouseDesc
 		this.track = track;
 		this.AddWiggle (wType);
 
+		/*
 		debugMouseType = (int)mouseType;
 		debugHoleLocation = (int)mouseHoleLocation;
 		debugWiggleType = (int)wType;
+		*/
 	}
 
 	public void AddWiggle(MouseConfig.MouseWiggleType wt) {

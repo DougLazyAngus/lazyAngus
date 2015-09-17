@@ -8,8 +8,5 @@ public class GameUI : MonoBehaviour {
 	}
 
 	public virtual void ConfirmLayoutComplete() {
-		// Default implementation, nothing to do.
-		int foo = 5;
-		Debug.Log ("" + foo);
 	}
 }

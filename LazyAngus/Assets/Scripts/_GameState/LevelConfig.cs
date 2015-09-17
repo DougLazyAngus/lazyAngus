@@ -103,7 +103,7 @@ public class LevelConfig : MonoBehaviour
 	//We make a static variable to our MusicManager instance
 	public static LevelConfig instance { get; private set; }
 
-	const string newMouseTrapSpritePath = "Textures/Misc/tmp.mousetrap";
+	const string newMouseTrapSpritePath = "Textures/Misc/mousetrap.02";
 	const string angusIntroSpritePath = "Textures/Misc/tmp.grumpy_cat";
 	
 	Sprite newMouseTrapSprite;

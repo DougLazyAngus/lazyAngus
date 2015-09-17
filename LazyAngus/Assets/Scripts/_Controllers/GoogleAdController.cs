@@ -122,18 +122,16 @@ public class GoogleAdController : MonoBehaviour {
 		}
 
 		switch(GamePhaseState.instance.gamePhase) {
-		case GamePhaseState.GamePhaseType.WELCOME:
-			banner.Hide ();
-			break;
-		case GamePhaseState.GamePhaseType.GAME_OVER:
-			banner.Hide ();
-			break;
-		case GamePhaseState.GamePhaseType.LEVEL_END:
-			banner.Hide ();
-			break;
-		default:
+		case GamePhaseState.GamePhaseType.LEVEL_PLAY:
 			banner.Show ();
 			banner.Refresh ();
+			break;
+		case GamePhaseState.GamePhaseType.PENDING:
+			banner.Show ();
+			banner.Refresh ();
+			break;
+		default:
+			banner.Hide ();
 			break;
 		}	
 	}

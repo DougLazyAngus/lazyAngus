@@ -9,7 +9,6 @@ public class GameCenterButtons : MonoBehaviour {
 	public Button rateMeButton;
 
 	void Awake() {
-		Debug.Log ("GameCenterButtons awake");
 	}
 
 	void Start() {

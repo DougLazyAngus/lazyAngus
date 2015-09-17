@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class RatingsHelper : MonoBehaviour {
-	public string iosAppID = "492805472";
+	public string iosAppID = "1015080827";
 	public static RatingsHelper instance;
 
 	void Awake() {
