@@ -81,6 +81,7 @@ public class MusicController : MonoBehaviour {
 	// Update is called once per frame
 	void UpdateAllMusic () {
 		AudioSource desiredMusic = null;
+		float pause = 0;
 
 		if (!SoundController.instance.musicMuted) {
 			switch (GamePhaseState.instance.gamePhase) {
@@ -94,12 +95,14 @@ public class MusicController : MonoBehaviour {
 				break;
 			case GamePhaseState.GamePhaseType.REAL_ANGUS:
 				desiredMusic = realAngusMusic;
+				pause = 1f;
 				break;
 			case GamePhaseState.GamePhaseType.WELCOME:
 				desiredMusic = welcomeMusic;
 				break;
 			case GamePhaseState.GamePhaseType.GAME_OVER:
 				desiredMusic = gameOverMusic;
+				pause = 0.7f;
 				break;
 			case GamePhaseState.GamePhaseType.LEVEL_END:
 				desiredMusic = levelEndMusic;
@@ -121,7 +124,7 @@ public class MusicController : MonoBehaviour {
 
 		if (desiredMusic != null) {
 			currentMusic = desiredMusic;
-			FadeInMusic(currentMusic);
+			FadeInMusic(currentMusic, pause);
 		}
 	}
 
@@ -134,12 +137,12 @@ public class MusicController : MonoBehaviour {
 		fader.FadeOut();
 	}
 
-	void FadeInMusic(AudioSource music) {
+	void FadeInMusic(AudioSource music, float pause = 0) {
 		if (music == null) {
 			return;
 		}
 
 		MusicFader fader = music.GetComponent<MusicFader> ();
-		fader.FadeIn();
+		fader.FadeIn(pause);
 	}
 }

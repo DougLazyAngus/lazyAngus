@@ -13,13 +13,18 @@ public class SFXPlayer : MonoBehaviour {
 		COMIC_VIOLENCE_01,
 		COMIC_VIOLENCE_02,
 
-		MOUSE_SQUEAK,
+		MOUSE_SQUEAK_00,
+		MOUSE_SQUEAK_01,
+		MOUSE_SQUEAK_02,
+		MOUSE_SQUEAK_03,
 
 		BUTTON_CLICK, 
 		  
 		USE_BOOST,
 		
-		MOUSE_TRAP,
+		MOUSE_TRAP_00,
+		MOUSE_TRAP_01,
+		MOUSE_TRAP_02,
 
 		CAMERA,
 
@@ -39,6 +44,7 @@ public class SFXPlayer : MonoBehaviour {
 		COMIC_VIOLENCE,
 		MOUSE_SQUEAK,
 		ESCAPING,
+		MOUSE_TRAP,
 	}
 
 	AudioSource[] audioSources;
@@ -51,7 +57,10 @@ public class SFXPlayer : MonoBehaviour {
 	};
 	
 	SFXPlayer.SFXType [] mouseSqueakIds = {
-		SFXType.MOUSE_SQUEAK, 
+		SFXType.MOUSE_SQUEAK_00, 
+		SFXType.MOUSE_SQUEAK_01, 
+		SFXType.MOUSE_SQUEAK_02, 
+		SFXType.MOUSE_SQUEAK_03, 
 	};
 	
 	SFXPlayer.SFXType [] pawSwipeIds = {
@@ -64,6 +73,12 @@ public class SFXPlayer : MonoBehaviour {
 		SFXType.ESCAPING_00, 
 		SFXType.ESCAPING_01,
 		SFXType.ESCAPING_02,
+	};
+	
+	SFXPlayer.SFXType[] mouseTrapIds = {
+		SFXType.MOUSE_TRAP_00, 
+		SFXType.MOUSE_TRAP_01,
+		SFXType.MOUSE_TRAP_02,
 	};
 
 
@@ -80,7 +95,22 @@ public class SFXPlayer : MonoBehaviour {
 		LoadAudioSource (SFXType.COMIC_VIOLENCE_01, "Boing_4");
 		LoadAudioSource (SFXType.COMIC_VIOLENCE_02, "boingding");
 
-		LoadAudioSource (SFXType.MOUSE_SQUEAK, "tmp.mouse.02");
+		LoadAudioSource (SFXType.MOUSE_SQUEAK_00, "squeak.01");
+		LoadAudioSource (SFXType.MOUSE_SQUEAK_01, "squeak.01");
+		LoadAudioSource (SFXType.MOUSE_SQUEAK_02, "squeak.01");
+		LoadAudioSource (SFXType.MOUSE_SQUEAK_03, "squeak.01");
+
+		audioSources [(int)SFXType.MOUSE_SQUEAK_00].pitch = 1.0f;
+		audioSources [(int)SFXType.MOUSE_SQUEAK_00].volume = 1.0f;
+
+		audioSources [(int)SFXType.MOUSE_SQUEAK_01].pitch = 1.1f;
+		audioSources [(int)SFXType.MOUSE_SQUEAK_00].volume = 0.9f;
+
+		audioSources [(int)SFXType.MOUSE_SQUEAK_02].pitch = 1.3f;
+		audioSources [(int)SFXType.MOUSE_SQUEAK_02].volume = 0.85f;
+
+		audioSources [(int)SFXType.MOUSE_SQUEAK_03].pitch = 1.5f;
+		audioSources [(int)SFXType.MOUSE_SQUEAK_03].volume = 0.85f;
 
 		LoadAudioSource (SFXType.BUTTON_CLICK, "ButtonClick");
 		
@@ -92,13 +122,21 @@ public class SFXPlayer : MonoBehaviour {
 		LoadAudioSource (SFXType.ESCAPING_01, "escaping.02");
 		LoadAudioSource (SFXType.ESCAPING_02, "escaping.03");
 
-		LoadAudioSource (SFXType.USE_BOOST, "tmp.Dinner-bell-sound");
+		LoadAudioSource (SFXType.USE_BOOST, "dinner_bell");
 		
-		LoadAudioSource (SFXType.MOUSE_TRAP, "mouse_trap.03");
+		LoadAudioSource (SFXType.MOUSE_TRAP_00, "mouse_trap.03");
+		LoadAudioSource (SFXType.MOUSE_TRAP_01, "mouse_trap.03");
+		LoadAudioSource (SFXType.MOUSE_TRAP_02, "mouse_trap.03");
+		audioSources [(int)SFXType.MOUSE_TRAP_00].pitch = 0.9f;
+		audioSources [(int)SFXType.MOUSE_TRAP_01].pitch = 1f;
+		audioSources [(int)SFXType.MOUSE_TRAP_02].pitch = 1.1f;
+
+		audioSources [(int)SFXType.MOUSE_SQUEAK_02].pitch = 1.3f;
+
+		LoadAudioSource (SFXType.CAMERA, "camera");
+		audioSources [(int)SFXType.CAMERA].volume = 0.3f;
 		
-		LoadAudioSource (SFXType.CAMERA, "tmp.camera_hack");
-		
-		LoadAudioSource (SFXType.EARN_MONEY, "tmp.cash_register.01");
+		LoadAudioSource (SFXType.EARN_MONEY, "money.01");
 
 		LoadAudioSource (SFXType.MOUSE_ESCAPE, "Mouse_marimba");
 	}
@@ -141,6 +179,9 @@ public class SFXPlayer : MonoBehaviour {
 			break;
 		case SFXTypeGroup.ESCAPING:
 			types = escapingIds;
+			break;
+		case SFXTypeGroup.MOUSE_TRAP:
+			types = mouseTrapIds;
 			break;
 		default:
 			types = pawSwipeIds;

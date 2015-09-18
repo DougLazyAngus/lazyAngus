@@ -21,6 +21,7 @@ public class BoostButton : MonoBehaviour {
 
 	void Awake() {
 		levelLockText.color = cantUseColor;
+		levelLockText.gameObject.SetActive (false);
 	}
 
 	void Start() {
@@ -91,12 +92,9 @@ public class BoostButton : MonoBehaviour {
 	}
 
 	public void RefreshButton() {
-		levelLockText.gameObject.SetActive(true);
-
 		int levelLock = LevelConfig.instance.GetLevelLock (boostType);
 
 		if (!BoostIsUnlocked ()) {
-			levelLockText.gameObject.SetActive (true);
 			levelLockWidget.SetActive (true);
 			costWidget.gameObject.SetActive (false);
 

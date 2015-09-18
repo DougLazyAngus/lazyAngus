@@ -5,7 +5,7 @@ public class ConeOfViewController : MonoBehaviour {
 	public ConeOfViewRenderer leftCone;
 	public ConeOfViewRenderer rightCone;
 
-	public float innerGapHalfAngle = 2;
+	public float innerGapHalfAngle = 0;
 
 	public float actualAngleRange { get; private set;}
 	

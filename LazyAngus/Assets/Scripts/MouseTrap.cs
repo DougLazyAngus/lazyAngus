@@ -68,7 +68,7 @@ public class MouseTrap : MonoBehaviour {
 	}
 
 	void DoTrapDestructionFX() {
-		SFXPlayer.instance.Play (SFXPlayer.SFXType.MOUSE_TRAP);
+		SFXPlayer.instance.PlayRandom (SFXPlayer.SFXTypeGroup.MOUSE_TRAP);
 
 		GameObject effectGameObject = Instantiate (mouseTrapEffectPrototype) as GameObject;
 		

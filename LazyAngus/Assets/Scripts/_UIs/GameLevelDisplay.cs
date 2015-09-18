@@ -3,13 +3,11 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class GameLevelDisplay : MonoBehaviour {
-	private Text levelText;
+	public ImageWithText levelTextWidthImage;
 	private bool registerdForEvents;
-	
+
 	// Use this for initialization
 	void Start () {
-		levelText = this.gameObject.GetComponent<Text> ();
-
 		GameLevelState.instance.GameLevelChanged += 
 			new GameLevelState.GameLevelChangedEventHandler (SetGameLevelText);
 		registerdForEvents = true;
@@ -24,6 +22,6 @@ public class GameLevelDisplay : MonoBehaviour {
 	}
 
 	void SetGameLevelText() {
-		levelText.text = "Wave " + GameLevelState.instance.gameLevel;
+		levelTextWidthImage.SetText ("" + GameLevelState.instance.gameLevel);
 	}	
 }
