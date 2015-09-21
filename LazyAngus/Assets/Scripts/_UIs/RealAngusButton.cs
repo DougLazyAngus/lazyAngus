@@ -8,7 +8,6 @@ public class RealAngusButton : MonoBehaviour  {
 	public RectTransform realAngusImageRectTransform;
 	public RectTransform rectTransform;
 
-	bool registeredForEvents;
 	float startTime;
 	float myHeight;
 	float myWidth;
@@ -16,7 +15,11 @@ public class RealAngusButton : MonoBehaviour  {
 	public float waitingTime = 2;
 	public float risingTime = 2;
 	public float periodTime = 2;
-	public float deg = 10;
+
+	public float phase1Deg = 10;
+	public float phase1Slide = 50;
+	public float phase2Slide = 30;
+	public float phase2Deg = -10;
 
 	void Awake () {
 		rectTransform = GetComponent<RectTransform> ();
@@ -26,9 +29,7 @@ public class RealAngusButton : MonoBehaviour  {
 
 	// Use this for initialization
 	void Start () {
-		RegisterForEvents ();
-		UpdateDisplay ();
-		UpdateRealAngusImagePosition ();
+		TryStartup ();
 	}
 	
 	// Update is called once per frame
@@ -40,6 +41,7 @@ public class RealAngusButton : MonoBehaviour  {
 		float delta = Time.time - startTime;
 
 		float yOffset = 0;
+		float xOffset = 0;
 
 		float imageRotation = 0;
 
@@ -50,52 +52,45 @@ public class RealAngusButton : MonoBehaviour  {
 			yOffset = Mathf.Lerp (-2 * myHeight, 0, fraction);
 		} else {
 			delta -= risingTime;
+
+			int phase = (int)Mathf.Floor (delta / periodTime);
+			phase = phase % 3;
 			float rads = 2 * Mathf.PI * delta/periodTime;
 			float fraction = Mathf.Sin (rads);
-			imageRotation = fraction * deg;
+			float fraction2 = Mathf.Sin (rads * 2);
+
+
+			switch (phase) {
+			case 1:
+				imageRotation = fraction * phase1Deg;
+				yOffset = phase1Slide * fraction2;
+				break;
+			case 2:
+				imageRotation = fraction2 * phase2Deg;
+				xOffset = phase2Slide * fraction;
+				break;
+			}
 		}
 
-		rectTransform.anchoredPosition = new Vector2 (0, yOffset);
+		rectTransform.anchoredPosition = new Vector2 (xOffset, yOffset);
 		realAngusImageRectTransform.rotation = Quaternion.Euler (0, 0, imageRotation);
 	}
 
-
-	void OnDestroy() {
-		UnregisterForEvents ();
-		
+	void OnEnable() {
+		TryStartup ();
 	}
-	
-	void RegisterForEvents() {
-		if (registeredForEvents) {
+
+	void TryStartup() {
+		if (GamePhaseState.instance == null) {
 			return;
 		}
-		registeredForEvents = true;
-		GamePhaseState.instance.GamePhaseChanged += 
-			new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
-		RealAngusData.instance.RealAngusDataChanged += 
-			new RealAngusData.RealAngusDataChangedEventHandler (UpdateDisplay);
-	}
-	
-	void UnregisterForEvents() {
-		if (registeredForEvents) {
-			GamePhaseState.instance.GamePhaseChanged -= 
-				new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
-			RealAngusData.instance.RealAngusDataChanged -= 
-				new RealAngusData.RealAngusDataChangedEventHandler (UpdateDisplay);
-		}
-	}
 
-	void OnGamePhaseChanged() {
 		UpdateDisplay ();
-
-		if (GamePhaseState.instance.previousGamePhase != GamePhaseState.GamePhaseType.REAL_ANGUS) {
+		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.GAME_OVER && 
+		    GamePhaseState.instance.previousGamePhase != GamePhaseState.GamePhaseType.REAL_ANGUS) {
 			startTime = Time.time;
 			UpdateRealAngusImagePosition();
 		}
-	}
-
-	void OnEnable() {
-		UpdateDisplay ();
 	}
 
 	void UpdateDisplay() {

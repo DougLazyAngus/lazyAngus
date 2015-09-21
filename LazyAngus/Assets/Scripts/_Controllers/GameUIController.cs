@@ -13,6 +13,7 @@ public class GameUIController : MonoBehaviour {
 		LEVEL_END,
 		GAME_END,
 		REAL_ANGUS,
+		INFO,
 
 		NUM_TYPES,
 	}
@@ -21,6 +22,7 @@ public class GameUIController : MonoBehaviour {
 	public GameObject levelEndUIGameObject;
 	public GameObject gameOverUIGameObject;
 	public GameObject realAngusUIGameObject;
+	public GameObject infoUIGameObject;
 
 	public static GameUIController instance { get; private set; }
 	GameUI [] gameUIs;
@@ -34,6 +36,7 @@ public class GameUIController : MonoBehaviour {
 		gameUIs[(int)GameUIsType.LEVEL_END] = levelEndUIGameObject.GetComponent <GameUI>();
 		gameUIs[(int)GameUIsType.GAME_END] = gameOverUIGameObject.GetComponent <GameUI>();
 		gameUIs[(int)GameUIsType.REAL_ANGUS] = realAngusUIGameObject.GetComponent <GameUI>();
+		gameUIs[(int)GameUIsType.INFO] = infoUIGameObject.GetComponent <GameUI>();
 	}
 
 	
@@ -109,6 +112,9 @@ public class GameUIController : MonoBehaviour {
 			break;
 		case GamePhaseState.GamePhaseType.REAL_ANGUS:
 			SetActiveUI (GameUIsType.REAL_ANGUS);
+			break;
+		case GamePhaseState.GamePhaseType.INFO:
+			SetActiveUI(GameUIsType.INFO);
 			break;
 		}
 	}		
