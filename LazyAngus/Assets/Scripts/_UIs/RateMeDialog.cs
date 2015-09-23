@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 using System.Collections;
 
-public class RateMeDialog : MonoBehaviour {
+public class RateMeDialog : Dialog {
 	public enum RateMeResult {
 		RATE_ME, 
 		LATER, 
@@ -33,7 +33,7 @@ public class RateMeDialog : MonoBehaviour {
 
 
 	public void RateThis() {
-		DialogController.instance.HideDialog (gameObject);
+		DialogController.instance.HideDialog (this);
 
 		if (handler != null) {
 			handler (RateMeResult.RATE_ME);
@@ -41,7 +41,7 @@ public class RateMeDialog : MonoBehaviour {
 	}
 
 	public void RemindMeLater() {
-		DialogController.instance.HideDialog (gameObject);
+		DialogController.instance.HideDialog (this);
 		
 		if (handler != null) {
 			handler (RateMeResult.LATER);
@@ -49,7 +49,7 @@ public class RateMeDialog : MonoBehaviour {
 	}
 
 	public void NoThanks() {
-		DialogController.instance.HideDialog (gameObject);
+		DialogController.instance.HideDialog (this);
 		
 		if (handler != null) {
 			handler (RateMeResult.NEVER);

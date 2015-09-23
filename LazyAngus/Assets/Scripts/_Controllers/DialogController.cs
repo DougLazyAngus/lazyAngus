@@ -4,23 +4,25 @@ using System.Collections;
 public class DialogController : MonoBehaviour {
 	public static DialogController instance;
 
-	GameObject activeDialog;
+	Dialog activeDialog;
 
 	void Awake() {
 		instance = this;
 	}
 
-	public void ShowDialog(GameObject dialog) {
+	public void ShowDialog(Dialog dialog) {
 		activeDialog = dialog;
 
-		PausedOverlay.instance.SetChildElement(dialog);
+		activeDialog.ShowInParent (PausedOverlay.instance.transform);
+
 		TimeController.instance.SetTimeState (TimeController.TimeState.PAUSE_FOR_DIALOG);
 	}
 
-	public void HideDialog(GameObject dialog) {
+	public void HideDialog(Dialog dialog) {
 		if (dialog != activeDialog) {
 			return;
 		}
+		activeDialog.OnHidden ();
 		activeDialog = null;
 		TimeController.instance.SetTimeState (TimeController.TimeState.PLAYING);
 	}

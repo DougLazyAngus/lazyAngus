@@ -56,7 +56,7 @@ public class RateMeController : MonoBehaviour {
 		RateMeDialog rmd = rateMeDialogGameObject.GetComponent<RateMeDialog> ();
 		rmd.SetHandler (OnDialogResult);
 
-		DialogController.instance.ShowDialog(rateMeDialogGameObject);
+		DialogController.instance.ShowDialog(rmd);
 		return true;
 	}
 

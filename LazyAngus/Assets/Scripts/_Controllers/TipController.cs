@@ -137,7 +137,7 @@ public class TipController : MonoBehaviour {
 		TipDialog td = tipDialogObject.GetComponent<TipDialog> ();
 		td.ConfigureDialog (tipConfig.tipText);
 			
-		DialogController.instance.ShowDialog (tipDialogObject);
+		DialogController.instance.ShowDialog (td);
 		if (tipConfig.tipID != null) {
 			PersistentStorage.instance.SetBoolValue ("tip." + tipConfig.tipID, 
 			                                         true);

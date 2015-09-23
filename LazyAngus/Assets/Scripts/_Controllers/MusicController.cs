@@ -101,6 +101,7 @@ public class MusicController : MonoBehaviour {
 				desiredMusic = welcomeMusic;
 				break;
 			case GamePhaseState.GamePhaseType.GAME_OVER:
+			case GamePhaseState.GamePhaseType.INFO:
 				desiredMusic = gameOverMusic;
 				pause = 0.7f;
 				break;

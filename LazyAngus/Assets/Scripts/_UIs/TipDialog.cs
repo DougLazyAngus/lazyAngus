@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class TipDialog : MonoBehaviour {
+public class TipDialog : Dialog {
 	public Text dialogText;
 	RectTransform myRectTransform;
 
@@ -20,7 +20,7 @@ public class TipDialog : MonoBehaviour {
 	}
 
 	public void CloseDialog() {
-		DialogController.instance.HideDialog (gameObject);
+		DialogController.instance.HideDialog (this);
 	}
 
 	public void ConfigureDialog(string message) {

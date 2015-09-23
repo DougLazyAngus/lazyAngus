@@ -8,6 +8,7 @@ public class RealAngusController : MonoBehaviour {
 	public GameObject parentScreen;
 	public RealAngusTextWidget realAngusTextWidget;
 	public RealAngusSelectedButtonParent realAngusSelectedButtonParent;
+	public Transform buttonContainer;
 
 	public GameObject tipDialogPrototype;
 
@@ -98,7 +99,7 @@ public class RealAngusController : MonoBehaviour {
 		for (int i = 0; i < buttons.Count; i++) {
 			RealAngusElementButton button = buttons[i];
 			button.OnFirstDisplayed();
-			button.transform.SetParent (parentScreen.transform, false);
+			button.transform.SetParent (buttonContainer, false);
 			button.SetSelected(false, true);
 		}
 
@@ -179,7 +180,7 @@ public class RealAngusController : MonoBehaviour {
 			RealAngusElementButton button = realAngusElementButtonGameObject.GetComponent<RealAngusElementButton>();
 			buttons.Add (button);
 
-			button.transform.SetParent (parentScreen.transform, false);
+			button.transform.SetParent (buttonContainer, false);
 			button.SetHomeTransform(GetNthPosition (i), 
 			                        Random.Range (-buttonRotationDeg, buttonRotationDeg));
 			button.SetSelectedTransform(selectedButtonLocation, 0, selectedButtonScale);
@@ -218,7 +219,7 @@ public class RealAngusController : MonoBehaviour {
 		TipDialog td = tipDialogGameObject.GetComponent<TipDialog> ();
 		td.ConfigureDialog (message);
 
-		DialogController.instance.ShowDialog (tipDialogGameObject);
+		DialogController.instance.ShowDialog (td);
 	}
 
 	void SelectButton (RealAngusElementButton button)
@@ -230,14 +231,14 @@ public class RealAngusController : MonoBehaviour {
 		realAngusTextWidget.TransitionIn (selectedButton.raid);
 
 		selectedButton.transform.SetParent (realAngusSelectedButtonParent.transform,
-			                                    false);
+		                                    false);
 
 		SFXPlayer.instance.Play (SFXPlayer.SFXType.CAMERA);
 	}
 
 	void OnSelectionTransitionCompleted(RealAngusElementButton button) {
 		if (!button.IsSelected()) {
-			button.transform.SetParent(parentScreen.transform, false);
+			button.transform.SetParent(buttonContainer, false);
 		}
 	}
 

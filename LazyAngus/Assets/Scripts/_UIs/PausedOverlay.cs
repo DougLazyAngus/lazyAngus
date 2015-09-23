@@ -8,8 +8,6 @@ public class PausedOverlay : MonoBehaviour {
 	public GameObject overlay;
 	public Button bigPlayButton;
 
-	GameObject childElement;
-
 	bool registeredForEvents;
 	
 	void Awake() {
@@ -46,25 +44,11 @@ public class PausedOverlay : MonoBehaviour {
 			overlay.SetActive (true);
 		} else {
 			overlay.SetActive (false);
-
 			bigPlayButton.gameObject.SetActive (false);
-			if (childElement != null) {
-				childElement.transform.SetParent (null, false);
-				childElement = null;
-			}
 		}
 	}
 
 	public void ShowBigPlayButton() {
 		bigPlayButton.gameObject.SetActive (true);
-	}
-
-	public void SetChildElement(GameObject newChildElement) {
-		childElement = newChildElement;
-		bigPlayButton.gameObject.SetActive (false);
-
-		if (childElement != null) {
-			childElement.transform.SetParent (overlay.transform, false);
-		}
 	}
 }

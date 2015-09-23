@@ -103,7 +103,7 @@ public class LevelConfig : MonoBehaviour
 	//We make a static variable to our MusicManager instance
 	public static LevelConfig instance { get; private set; }
 
-	const string newMouseTrapSpritePath = "Textures/Misc/mousetrap.02";
+	const string newMouseTrapSpritePath = "Textures/Misc/mousetrap.01";
 	const string angusIntroSpritePath = "Textures/Misc/tmp.grumpy_cat";
 	
 	Sprite newMouseTrapSprite;
@@ -1142,6 +1142,14 @@ public class LevelConfig : MonoBehaviour
 			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.EAST);
 			return ld;
+
+		case 36:
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, false, MouseSinkController.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.FAST, 
+			                      2,
+			                      MouseConfig.MouseWiggleType.ROUND);
+			return ld;
+
 		default:
 			return ld;
 		}
