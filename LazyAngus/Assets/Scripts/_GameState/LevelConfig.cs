@@ -1132,7 +1132,7 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 			
 		case 32:
-			ld.specialText = "New mousetrap?  Don't mind if I do!";
+			ld.specialText = "New mousetrap? Don't mind if I do!";
 			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.SOUTH);
 			return ld;
@@ -1141,13 +1141,6 @@ public class LevelConfig : MonoBehaviour
 			ld.specialText = "One last mousetrap! Better make it count!";
 			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.EAST);
-			return ld;
-
-		case 36:
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, false, MouseSinkController.MouseHoleLocation.NORTH,
-			                      MouseConfig.MouseType.FAST, 
-			                      2,
-			                      MouseConfig.MouseWiggleType.ROUND);
 			return ld;
 
 		default:

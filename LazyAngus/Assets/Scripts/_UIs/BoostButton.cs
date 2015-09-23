@@ -21,7 +21,6 @@ public class BoostButton : MonoBehaviour {
 
 	void Awake() {
 		levelLockText.color = cantUseColor;
-		levelLockText.gameObject.SetActive (false);
 	}
 
 	void Start() {
