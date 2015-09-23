@@ -28,6 +28,8 @@ public class TipController : MonoBehaviour {
 	public GameObject tipDialogPrototype;
 	IEnumerator enqueuedTip;
 	public static TipController instance;
+
+	public float timeBetweenTips = 4;
 	
 	void Awake() {
 		instance = this;
@@ -80,6 +82,10 @@ public class TipController : MonoBehaviour {
 
 	public void EnqueueTip(TipConfig tipConfig, 
 	                       float tipPause) {
+		if (DidShowTip(tipConfig.tipID)) {
+			return;
+		}
+
 		enqueuedTip = PlayTipWithPause (tipConfig,
 		                                tipPause);
 		StartCoroutine (enqueuedTip);

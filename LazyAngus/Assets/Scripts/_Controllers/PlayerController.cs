@@ -41,11 +41,7 @@ public class PlayerController : MonoBehaviour {
 	
 	public delegate void SwattedHandler();
 	public event SwattedHandler Swatted;
-
-
-	public TipConfig turningTip;
-	public float turningTipPause;
-
+	
 	float lastFartTime;
 
 	public float fartPause;
@@ -53,8 +49,6 @@ public class PlayerController : MonoBehaviour {
 	void Awake() {
 		instance = this;
 		bodyMovement = BodyMovementType.STILL;
-		turningTip = new TipConfig("turning", 
-		                           "Drag my body to turn me faster!");
 	}
 
 	// Use this for initialization

@@ -104,17 +104,23 @@ public class InitialTutorialController : MonoBehaviour {
 
 	void OnMouseSpawned () {	
 		TipController.instance.EnqueueTip (firstMouseTipConfig, firstMouseTipPause);
+
+		if (MouseSpawnFromData.instance.miceSpawned >= 3) {
+			TipController.instance.EnqueueTip (firstSlapTipConfig, firstSlapTipPause);
+		}
 	}
 	
 	void OnTurnedWithTap() {
-		TipController.instance.EnqueueTip (firstTurnTipConfig, firstTurnTipPause);
+		// Don't do this on the first level, too many other tips there.
+		if (GameLevelState.instance.gameLevel > 1) {
+			TipController.instance.EnqueueTip (firstTurnTipConfig, firstTurnTipPause);
+		}
 	}
-	
+
 	void OnTurnedWithDrag() {
 	}
 	
 	void OnSwatted() {
-		TipController.instance.EnqueueTip (firstSlapTipConfig, firstSlapTipPause);
 	}
 
 	void OnUsedTrap() {

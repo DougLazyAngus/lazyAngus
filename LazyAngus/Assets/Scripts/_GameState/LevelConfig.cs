@@ -1030,7 +1030,7 @@ public class LevelConfig : MonoBehaviour
 
 			return ld;
 			
-		case 18:
+		case 19:
 			ld.specialText = "Uh-oh! Some mice dodge AND weave!";
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseWiggle (
 					MouseConfig.MouseWiggleType.ROUND);

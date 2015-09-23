@@ -11,6 +11,7 @@ public class GameLevelState : MonoBehaviour {
 	public event GameLevelChangedEventHandler GameLevelChanged;
 	
 	public int gameLevel { get; private set; }
+	public float timeLevelStarted;
 
 	public static GameLevelState instance { get; private set; }
 
@@ -24,6 +25,7 @@ public class GameLevelState : MonoBehaviour {
 
 	public void SetGameLevel(int gameLevel) {
 		this.gameLevel = gameLevel;
+		this.timeLevelStarted = Time.time;
 		if (GameLevelChanged != null) {
 			GameLevelChanged ();
 		}
