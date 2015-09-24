@@ -20,6 +20,11 @@ public class PawCollider : MonoBehaviour {
 			return;
 		}
 
+		// Killing only works during gameplay.
+		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.LEVEL_PLAY) {
+			return;
+		}
+
 		MouseMove mouseMove = Utilities.FindComponentInAncestor<MouseMove> (other.gameObject);
 		if (mouseMove.dead) {
 			return;

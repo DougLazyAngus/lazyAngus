@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class GameUI : MonoBehaviour {
+public class GamePhaseUI : MonoBehaviour {
 	public virtual void SetUIActive(bool uiActive) {
 		gameObject.SetActive (uiActive);
 	}

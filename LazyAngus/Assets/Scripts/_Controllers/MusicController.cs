@@ -23,8 +23,6 @@ public class MusicController : MonoBehaviour {
 		BOOST_ALT_01,
 		BOOST_ALT_02,
 		BOOST_ALT_03,
-		BOOST_ALT_04,
-		BOOST_ALT_05,
 
 		LEVEL_PLAY_MOD_01,
 		LEVEL_PLAY_MOD_02,
@@ -32,9 +30,6 @@ public class MusicController : MonoBehaviour {
 		LEVEL_PLAY_ALT_01,
 		LEVEL_PLAY_ALT_02,
 		LEVEL_PLAY_ALT_03,
-		LEVEL_PLAY_ALT_04,
-		LEVEL_PLAY_ALT_05,
-		LEVEL_PLAY_ALT_06,
 
 		NUM_TYPES,
 	}
@@ -51,17 +46,12 @@ public class MusicController : MonoBehaviour {
 		MusicType.LEVEL_PLAY_ALT_01,
 		MusicType.LEVEL_PLAY_ALT_02,
 		MusicType.LEVEL_PLAY_ALT_03,
-		MusicType.LEVEL_PLAY_ALT_04,
-		MusicType.LEVEL_PLAY_ALT_05,
-		MusicType.LEVEL_PLAY_ALT_06,
 	};
 
 	MusicType[] altBoosts = {
 		MusicType.BOOST_ALT_01,
 		MusicType.BOOST_ALT_02,
 		MusicType.BOOST_ALT_03,
-		MusicType.BOOST_ALT_04,
-		MusicType.BOOST_ALT_05,
 	};
 
 	AudioSource currentMusic;
@@ -95,8 +85,6 @@ public class MusicController : MonoBehaviour {
 		LoadAudioSource (MusicType.BOOST_ALT_01, "boost.alt.01");
 		LoadAudioSource (MusicType.BOOST_ALT_02, "boost.alt.02");
 		LoadAudioSource (MusicType.BOOST_ALT_03, "boost.alt.03");
-		LoadAudioSource (MusicType.BOOST_ALT_04, "boost.alt.04");
-		LoadAudioSource (MusicType.BOOST_ALT_05, "boost.alt.05");
 
 		LoadAudioSource (MusicType.LEVEL_PLAY_MOD_01, "level_play.mod.01");
 		AdjustVolume (MusicType.LEVEL_PLAY_MOD_01, 0.18f);
@@ -105,9 +93,6 @@ public class MusicController : MonoBehaviour {
 		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_01, "level_play.alt.01");
 		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_02, "level_play.alt.02");
 		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_03, "level_play.alt.03");
-		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_04, "level_play.alt.04");
-		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_05, "level_play.alt.05");
-		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_06, "level_play.alt.06");
 	}
 
 

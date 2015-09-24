@@ -123,9 +123,6 @@ public class GoogleAdController : MonoBehaviour {
 
 		switch(GamePhaseState.instance.gamePhase) {
 		case GamePhaseState.GamePhaseType.LEVEL_PLAY:
-			banner.Show ();
-			banner.Refresh ();
-			break;
 		case GamePhaseState.GamePhaseType.PENDING:
 			banner.Show ();
 			banner.Refresh ();

@@ -11,6 +11,7 @@ public class GameUIController : MonoBehaviour {
 	public enum GameUIsType {
 		WELCOME,
 		LEVEL_END,
+		LEVEL_PLAY,
 		GAME_END,
 		REAL_ANGUS,
 		INFO,
@@ -20,26 +21,32 @@ public class GameUIController : MonoBehaviour {
 	
 	public GameObject welcomeUIGameObject;
 	public GameObject levelEndUIGameObject;
+	public GameObject levelPlayUIGameObject;
 	public GameObject gameOverUIGameObject;
 	public GameObject realAngusUIGameObject;
 	public GameObject infoUIGameObject;
 
 	public static GameUIController instance { get; private set; }
-	GameUI [] gameUIs;
+	GamePhaseUI [] gameUIs;
 	bool registeredForEvents;
 
 	void Awake() {
 		instance = this;
 
-		gameUIs = new GameUI[(int)GameUIsType.NUM_TYPES];
-		gameUIs[(int)GameUIsType.WELCOME] = welcomeUIGameObject.GetComponent <GameUI>();
-		gameUIs[(int)GameUIsType.LEVEL_END] = levelEndUIGameObject.GetComponent <GameUI>();
-		gameUIs[(int)GameUIsType.GAME_END] = gameOverUIGameObject.GetComponent <GameUI>();
-		gameUIs[(int)GameUIsType.REAL_ANGUS] = realAngusUIGameObject.GetComponent <GameUI>();
-		gameUIs[(int)GameUIsType.INFO] = infoUIGameObject.GetComponent <GameUI>();
-	}
+		gameUIs = new GamePhaseUI[(int)GameUIsType.NUM_TYPES];
+		gameUIs[(int)GameUIsType.WELCOME] = welcomeUIGameObject.GetComponent <GamePhaseUI>();
+		gameUIs[(int)GameUIsType.LEVEL_END] = levelEndUIGameObject.GetComponent <GamePhaseUI>();
+		gameUIs[(int)GameUIsType.LEVEL_PLAY] = levelPlayUIGameObject.GetComponent <GamePhaseUI>();
+		gameUIs[(int)GameUIsType.GAME_END] = gameOverUIGameObject.GetComponent <GamePhaseUI>();
+		gameUIs[(int)GameUIsType.REAL_ANGUS] = realAngusUIGameObject.GetComponent <GamePhaseUI>();
+		gameUIs[(int)GameUIsType.INFO] = infoUIGameObject.GetComponent <GamePhaseUI>();
 
-	
+		// Shut 'em all down.
+		for (int i = 0; i < gameUIs.Length; i++) {
+			gameUIs [i].SetUIActive (false);
+		}
+	}
+		
 	// Use this for initialization
 	void Start () {
 		for (int i = 0; i < gameUIs.Length; i++) {
@@ -99,10 +106,8 @@ public class GameUIController : MonoBehaviour {
 				break;
 			}
 		case GamePhaseState.GamePhaseType.LEVEL_PLAY:
-			SetActiveUI (GameUIsType.NUM_TYPES);
-			break;
 		case GamePhaseState.GamePhaseType.PENDING:
-			SetActiveUI (GameUIsType.NUM_TYPES);
+			SetActiveUI (GameUIsType.LEVEL_PLAY);
 			break;
 		case GamePhaseState.GamePhaseType.LEVEL_END: 
 			SetActiveUI (GameUIsType.LEVEL_END);
@@ -121,7 +126,7 @@ public class GameUIController : MonoBehaviour {
 
 	public void SetActiveUI(GameUIsType uiType) {
 		for (int i = 0; i < (int)GameUIsType.NUM_TYPES; i++) {
-			GameUI gameUI = gameUIs [i];
+			GamePhaseUI gameUI = gameUIs [i];
 			gameUI.SetUIActive (i == (int)uiType);
 		}
 	}

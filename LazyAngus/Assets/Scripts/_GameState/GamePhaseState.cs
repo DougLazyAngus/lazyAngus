@@ -36,7 +36,7 @@ public class GamePhaseState : MonoBehaviour {
 
 	public static GamePhaseState instance { get; private set; }
 
-	GameUI [] gameUIs;
+	GamePhaseUI [] gameUIs;
 	
 	void Awake() {
 		instance = this;

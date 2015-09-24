@@ -1,7 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public class WelcomeUI : GameUI {
+public class WelcomeGamePhaseUI : GamePhaseUI {
 
 	public ZoomInWithBounce logoZoomer;
 	public ZoomInWithBounce buttonsZoomer;

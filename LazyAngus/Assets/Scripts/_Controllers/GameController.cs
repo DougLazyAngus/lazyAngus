@@ -7,9 +7,6 @@ using System.Linq;
 
 
 public class GameController : MonoBehaviour {
-	public float startWait = 1.5f;
-	public float minSpawnWait = 0.25f;
-	public float maxSpawnWait = 1.0f;
 	public MouseSinkController[] mouseSinkControllers;
 
 	int escapedMouseCount;

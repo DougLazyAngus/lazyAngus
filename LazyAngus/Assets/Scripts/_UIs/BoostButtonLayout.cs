@@ -13,8 +13,11 @@ public class BoostButtonLayout : MonoBehaviour {
   
 	private bool treatsTextDirty;
 	private bool levelTextDirty;
-	
+
+	bool laidOut;
+
 	void Awake() {
+		laidOut = false;
 		boostButtons = null;
 	}
 
@@ -23,12 +26,23 @@ public class BoostButtonLayout : MonoBehaviour {
 		StartCoroutine (DelayThenLayout ());
 	}
 
+	void OnEnable() {
+		if (GamePhaseState.instance != null && 
+			GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.NULL) { 
+			StartCoroutine (DelayThenLayout ());
+		}
+	}
+
 	IEnumerator DelayThenLayout() {
 		yield return new WaitForSeconds (0f);
 		DoLayout ();
 	}
 
 	void DoLayout() {
+		if (laidOut) {
+			return;
+		}
+		laidOut = true;
 		AddBoostButtons ();
 		LayoutBoostButtons ();
 		RefreshBoostButtons();

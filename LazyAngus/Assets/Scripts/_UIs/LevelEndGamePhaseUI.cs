@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
-public class LevelEndTitlesLayout : MonoBehaviour {
+public class LevelEndGamePhaseUI : GamePhaseUI {
 	public Text waveTitleText;
 	public Text waveCountText;
 	public Text waveSpecialText;

@@ -1,10 +1,10 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 
 using System.Collections;
 using System.Collections.Generic;
 
-public class FinalScoreUI : GameUI {
+public class GameOverGamePhaseUI : GamePhaseUI {
 	public Text personalBestText;
 	public Text finalScoreText;
 	public Text finalScoreLabel;

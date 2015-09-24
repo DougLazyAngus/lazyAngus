@@ -87,7 +87,8 @@ public class RealAngusButton : MonoBehaviour  {
 
 		UpdateDisplay ();
 		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.GAME_OVER && 
-		    GamePhaseState.instance.previousGamePhase != GamePhaseState.GamePhaseType.REAL_ANGUS) {
+		    GamePhaseState.instance.previousGamePhase != GamePhaseState.GamePhaseType.REAL_ANGUS && 
+		    GamePhaseState.instance.previousGamePhase != GamePhaseState.GamePhaseType.INFO) {
 			startTime = Time.time;
 			UpdateRealAngusImagePosition();
 		}
