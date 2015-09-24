@@ -5,7 +5,12 @@ public class MusicController : MonoBehaviour {
 
 	bool registeredForEvents;
 	public GameObject fadeableAudioSourcePrototype;
+	public int altMusicCutoff = 6;
+	public float altMusicLikelihood = 0.33f;
 
+	bool useAltMusic;
+	MusicType altBoostType;
+	MusicType altPlayType;
 
 	public enum MusicType {
 		LEVEL_PLAY,
@@ -18,6 +23,8 @@ public class MusicController : MonoBehaviour {
 		BOOST_ALT_01,
 		BOOST_ALT_02,
 		BOOST_ALT_03,
+		BOOST_ALT_04,
+		BOOST_ALT_05,
 
 		LEVEL_PLAY_MOD_01,
 		LEVEL_PLAY_MOD_02,
@@ -31,7 +38,7 @@ public class MusicController : MonoBehaviour {
 
 		NUM_TYPES,
 	}
-
+	
 	MusicType [] playTypes = {
 		MusicType.LEVEL_PLAY,
 		MusicType.LEVEL_PLAY,
@@ -39,13 +46,29 @@ public class MusicController : MonoBehaviour {
 		MusicType.LEVEL_PLAY,
 		MusicType.LEVEL_PLAY_MOD_02,
 	};
+	
+	MusicType [] altPlays = {
+		MusicType.LEVEL_PLAY_ALT_01,
+		MusicType.LEVEL_PLAY_ALT_02,
+		MusicType.LEVEL_PLAY_ALT_03,
+		MusicType.LEVEL_PLAY_ALT_04,
+		MusicType.LEVEL_PLAY_ALT_05,
+		MusicType.LEVEL_PLAY_ALT_06,
+	};
 
+	MusicType[] altBoosts = {
+		MusicType.BOOST_ALT_01,
+		MusicType.BOOST_ALT_02,
+		MusicType.BOOST_ALT_03,
+		MusicType.BOOST_ALT_04,
+		MusicType.BOOST_ALT_05,
+	};
 
 	AudioSource currentMusic;
-
 	AudioSource[] audioSources;
 
 	void Awake() {
+		useAltMusic = false;
 		LoadAudioSources();
 	}
 
@@ -72,9 +95,11 @@ public class MusicController : MonoBehaviour {
 		LoadAudioSource (MusicType.BOOST_ALT_01, "boost.alt.01");
 		LoadAudioSource (MusicType.BOOST_ALT_02, "boost.alt.02");
 		LoadAudioSource (MusicType.BOOST_ALT_03, "boost.alt.03");
-		
+		LoadAudioSource (MusicType.BOOST_ALT_04, "boost.alt.04");
+		LoadAudioSource (MusicType.BOOST_ALT_05, "boost.alt.05");
+
 		LoadAudioSource (MusicType.LEVEL_PLAY_MOD_01, "level_play.mod.01");
-		AdjustVolume (MusicType.LEVEL_PLAY_MOD_01, 0.25f);
+		AdjustVolume (MusicType.LEVEL_PLAY_MOD_01, 0.18f);
 		LoadAudioSource (MusicType.LEVEL_PLAY_MOD_02, "level_play.mod.02");
 
 		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_01, "level_play.alt.01");
@@ -82,7 +107,12 @@ public class MusicController : MonoBehaviour {
 		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_03, "level_play.alt.03");
 		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_04, "level_play.alt.04");
 		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_05, "level_play.alt.05");
-		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_05, "level_play.alt.06");
+		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_06, "level_play.alt.06");
+	}
+
+
+	int GetRandomSeed() {
+		return 1000 * GameLevelState.instance.gameLevel + GamePhaseState.instance.instancesFinishedEver; 
 	}
 
 	void AdjustVolume(MusicType type, float volume) {
@@ -93,7 +123,6 @@ public class MusicController : MonoBehaviour {
 		} else {
 			music.volume = volume;
 		}
-
 	}
 
 	void LoadAudioSource(MusicType type, string resourceName) {
@@ -138,6 +167,15 @@ public class MusicController : MonoBehaviour {
 	}
 
 	void OnGamePhaseChanged() {
+		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.LEVEL_PLAY &&
+		    GameLevelState.instance.gameLevel > altMusicCutoff) {
+			Random.seed = GetRandomSeed ();
+			float testValue = Random.Range (0f, 1f);
+			useAltMusic = (testValue < altMusicLikelihood);
+			altBoostType = Utilities.RandomElementFromArray<MusicType> (altBoosts);
+			altPlayType = Utilities.RandomElementFromArray<MusicType> (altPlays);				
+		}
+
 		UpdateAllMusic ();
 	}
 	
@@ -159,12 +197,19 @@ public class MusicController : MonoBehaviour {
 			}
 		}
 	}
-	
+
 	AudioSource GetBoostMusic() {
-		return audioSources [(int)MusicType.BOOST];
+		if (useAltMusic) {
+			return audioSources [(int)altBoostType];
+		} else {
+			return audioSources [(int)MusicType.BOOST];
+		}
 	}
 
 	AudioSource GetLevelPlayMusic() {
+		if (useAltMusic) {
+			return audioSources [(int)altPlayType];
+		}
 		int index = GameLevelState.instance.gameLevel - 1;
 		index = index % playTypes.Length;
 		return audioSources [(int)playTypes [index]];

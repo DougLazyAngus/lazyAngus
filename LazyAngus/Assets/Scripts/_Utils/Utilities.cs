@@ -51,7 +51,13 @@ public class Utilities
 		}
 		return FindComponentInAncestor<T> (parent.gameObject);
 	}
-
+	
+	public static T RandomElementFromArray<T> (T [] array)
+	{
+		int index = Random.Range (0, array.Length);
+		return array [index];
+	}
+	
 	public static void ShuffleList<T> (ref List<T> list)
 	{
 		for (int i = 0; i < list.Count; i++) {

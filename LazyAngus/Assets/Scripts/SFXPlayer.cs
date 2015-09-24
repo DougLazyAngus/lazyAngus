@@ -114,9 +114,9 @@ public class SFXPlayer : MonoBehaviour {
 
 		LoadAudioSource (SFXType.BUTTON_CLICK, "ButtonClick");
 		
-		LoadAudioSource (SFXType.PAW_SWIPE_00, "tmp.woosh_1");
-		LoadAudioSource (SFXType.PAW_SWIPE_01, "tmp.woosh_2");
-		LoadAudioSource (SFXType.PAW_SWIPE_02, "tmp.woosh_3");
+		LoadAudioSource (SFXType.PAW_SWIPE_00, "woosh_1");
+		LoadAudioSource (SFXType.PAW_SWIPE_01, "woosh_2");
+		LoadAudioSource (SFXType.PAW_SWIPE_02, "woosh_3");
 		
 		LoadAudioSource (SFXType.ESCAPING_00, "escaping.01");
 		LoadAudioSource (SFXType.ESCAPING_01, "escaping.02");
