@@ -7,12 +7,14 @@ public class MusicFader : MonoBehaviour {
 	InOutTransitioner transitioner;
 	IEnumerator pausedFunction;
 
+	public float targetVolume = 1.0f;
+
 	void Awake() {
 		audioSource = GetComponent<AudioSource> ();
 		transitioner = new InOutTransitioner (fadeTime);
 		transitioner.useRealTime = true;
 		transitioner.Reset (true);
-		audioSource.volume = 1.0f;
+		audioSource.volume = targetVolume;
 	}
 
 	// Use this for initialization
@@ -24,7 +26,7 @@ public class MusicFader : MonoBehaviour {
 	void Update () {
 		if (transitioner.IsTransitioning()) {
 			transitioner.UpdateTransitionFraction();
-			audioSource.volume = transitioner.GetFractionIn();
+			audioSource.volume = targetVolume * transitioner.GetFractionIn();
 
 			if (!transitioner.IsTransitioning() && 
 			    transitioner.movingIn == false) {
@@ -48,7 +50,7 @@ public class MusicFader : MonoBehaviour {
 		if (!audioSource.isPlaying) {
 			audioSource.Play ();
 		}
-		audioSource.volume = transitioner.GetFractionIn ();
+		audioSource.volume = targetVolume * transitioner.GetFractionIn ();
 	}
 
 	void CleanupPausedFunction() {
@@ -65,7 +67,7 @@ public class MusicFader : MonoBehaviour {
 			transitioner.Reset (false);
 		} else {
 			transitioner.Transition (false);
-			audioSource.volume = transitioner.GetFractionIn ();
+			audioSource.volume = targetVolume * transitioner.GetFractionIn ();
 		}
 	}
 }

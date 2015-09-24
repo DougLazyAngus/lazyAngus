@@ -4,16 +4,50 @@ using System.Collections;
 public class MusicController : MonoBehaviour {
 
 	bool registeredForEvents;
-	
+	public GameObject fadeableAudioSourcePrototype;
 
-	public AudioSource levelPlayMusic;
-	public AudioSource levelEndMusic;
-	public AudioSource gameOverMusic;
-	public AudioSource welcomeMusic;
-	public AudioSource realAngusMusic;
-	public AudioSource boostMusic;
+
+	public enum MusicType {
+		LEVEL_PLAY,
+		LEVEL_END,
+		GAME_OVER,
+		WELCOME,
+		REAL_ANGUS,
+		BOOST,
+
+		BOOST_ALT_01,
+		BOOST_ALT_02,
+		BOOST_ALT_03,
+
+		LEVEL_PLAY_MOD_01,
+		LEVEL_PLAY_MOD_02,
+
+		LEVEL_PLAY_ALT_01,
+		LEVEL_PLAY_ALT_02,
+		LEVEL_PLAY_ALT_03,
+		LEVEL_PLAY_ALT_04,
+		LEVEL_PLAY_ALT_05,
+		LEVEL_PLAY_ALT_06,
+
+		NUM_TYPES,
+	}
+
+	MusicType [] playTypes = {
+		MusicType.LEVEL_PLAY,
+		MusicType.LEVEL_PLAY,
+		MusicType.LEVEL_PLAY_MOD_01,
+		MusicType.LEVEL_PLAY,
+		MusicType.LEVEL_PLAY_MOD_02,
+	};
+
 
 	AudioSource currentMusic;
+
+	AudioSource[] audioSources;
+
+	void Awake() {
+		LoadAudioSources();
+	}
 
 	// Use this for initialization
 	void Start () {
@@ -22,9 +56,57 @@ public class MusicController : MonoBehaviour {
 	}
 	
 	void OnDestroy() {
-		UnregisterForEvents ();
-		
+		UnregisterForEvents ();		
 	}
+
+	void LoadAudioSources() {
+		audioSources = new AudioSource[(int)MusicType.NUM_TYPES];
+		
+		LoadAudioSource (MusicType.LEVEL_PLAY, "level_play");
+		LoadAudioSource (MusicType.LEVEL_END, "level_end");
+		LoadAudioSource (MusicType.GAME_OVER, "game_over");
+		LoadAudioSource (MusicType.WELCOME, "welcome");
+		LoadAudioSource (MusicType.REAL_ANGUS, "real_angus");
+		LoadAudioSource (MusicType.BOOST, "boost");
+
+		LoadAudioSource (MusicType.BOOST_ALT_01, "boost.alt.01");
+		LoadAudioSource (MusicType.BOOST_ALT_02, "boost.alt.02");
+		LoadAudioSource (MusicType.BOOST_ALT_03, "boost.alt.03");
+		
+		LoadAudioSource (MusicType.LEVEL_PLAY_MOD_01, "level_play.mod.01");
+		AdjustVolume (MusicType.LEVEL_PLAY_MOD_01, 0.25f);
+		LoadAudioSource (MusicType.LEVEL_PLAY_MOD_02, "level_play.mod.02");
+
+		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_01, "level_play.alt.01");
+		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_02, "level_play.alt.02");
+		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_03, "level_play.alt.03");
+		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_04, "level_play.alt.04");
+		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_05, "level_play.alt.05");
+		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_05, "level_play.alt.06");
+	}
+
+	void AdjustVolume(MusicType type, float volume) {
+		AudioSource music = audioSources [(int)type];
+		MusicFader fader = music.GetComponent<MusicFader>();
+		if (fader) {
+			fader.targetVolume = volume;
+		} else {
+			music.volume = volume;
+		}
+
+	}
+
+	void LoadAudioSource(MusicType type, string resourceName) {
+		GameObject fadeableAudioSourceObject = Instantiate (fadeableAudioSourcePrototype, 
+		                                         new Vector3 (0, 0, 0), 
+		                                                    Quaternion.identity) as GameObject;
+
+		AudioSource audioSource = fadeableAudioSourceObject.GetComponent<AudioSource> ();
+		AudioClip clip = Resources.Load("Music/" + resourceName) as AudioClip;
+		audioSource.clip = clip;
+		audioSources [(int)type] = audioSource;
+	}
+
 	
 	void RegisterForEvents() {
 		if (registeredForEvents) {
@@ -77,6 +159,16 @@ public class MusicController : MonoBehaviour {
 			}
 		}
 	}
+	
+	AudioSource GetBoostMusic() {
+		return audioSources [(int)MusicType.BOOST];
+	}
+
+	AudioSource GetLevelPlayMusic() {
+		int index = GameLevelState.instance.gameLevel - 1;
+		index = index % playTypes.Length;
+		return audioSources [(int)playTypes [index]];
+	}
 
 	// Update is called once per frame
 	void UpdateAllMusic () {
@@ -88,25 +180,25 @@ public class MusicController : MonoBehaviour {
 			case GamePhaseState.GamePhaseType.LEVEL_PLAY:
 			case GamePhaseState.GamePhaseType.PENDING:
 				if (BoostConfig.instance.IsBoostActive()) {
-					desiredMusic = boostMusic; 
+					desiredMusic = GetBoostMusic();
 				} else {
-					desiredMusic = levelPlayMusic;
+					desiredMusic = GetLevelPlayMusic();
 				}
 				break;
 			case GamePhaseState.GamePhaseType.REAL_ANGUS:
-				desiredMusic = realAngusMusic;
+				desiredMusic = audioSources[(int)MusicType.REAL_ANGUS];
 				pause = 1f;
 				break;
 			case GamePhaseState.GamePhaseType.WELCOME:
-				desiredMusic = welcomeMusic;
+				desiredMusic = audioSources[(int)MusicType.WELCOME];
 				break;
 			case GamePhaseState.GamePhaseType.GAME_OVER:
 			case GamePhaseState.GamePhaseType.INFO:
-				desiredMusic = gameOverMusic;
+				desiredMusic = audioSources[(int)MusicType.GAME_OVER];
 				pause = 0.7f;
 				break;
 			case GamePhaseState.GamePhaseType.LEVEL_END:
-				desiredMusic = levelEndMusic;
+				desiredMusic = audioSources[(int)MusicType.LEVEL_END];
 				break;
 			default:
 				desiredMusic = null;
@@ -135,7 +227,11 @@ public class MusicController : MonoBehaviour {
 		}
 
 		MusicFader fader = music.GetComponent<MusicFader>();
-		fader.FadeOut();
+		if (fader) {
+			fader.FadeOut();
+		} else {
+			music.Stop();
+		}
 	}
 
 	void FadeInMusic(AudioSource music, float pause = 0) {
@@ -144,6 +240,10 @@ public class MusicController : MonoBehaviour {
 		}
 
 		MusicFader fader = music.GetComponent<MusicFader> ();
-		fader.FadeIn(pause);
+		if (fader) {
+			fader.FadeIn(pause);
+		} else {
+			music.Play ();
+		}
 	}
 }
