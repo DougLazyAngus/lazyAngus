@@ -41,5 +41,10 @@ for f in onlyfiles:
     pbx_object.add_file(destination_dir + "/" + f)
 
 
+#pbx_object.add_flags([
+#  ['ENABLE_BITCODE', ['NO']],
+#  ['SHABBA_DOO', ["Howdy"]]])
+
+
 pbx_object.save()
 

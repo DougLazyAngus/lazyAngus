@@ -40,7 +40,9 @@ for ldf in ldflags:
         project.add_other_ldflags(ldf)
 
 print('Step 5: change build setting')
-	#project.add_other_buildsetting('GCC_ENABLE_OBJC_EXCEPTIONS', 'YES')
+### project.add_other_buildsetting('GCC_ENABLE_OBJC_EXCEPTIONS', 'YES')
+project.add_flags('ENABLE_BITCODE', ['NO'])
+project.add_flags('SHABBA_DOO', ['Junior'])
 
 print('Step 6: save our change to xcode project file')
 if project.modified:
