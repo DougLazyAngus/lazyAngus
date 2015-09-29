@@ -9,7 +9,7 @@ public class LevelEndGamePhaseUI : GamePhaseUI {
 	public Text waveCountText;
 	public Text waveSpecialText;
 	public Image waveSpecialImage;
-
+	public float waveSpecialImageYOffset;
 	private bool registerdForEvents;
 	private DistortForEffect distortForEffect;
 	
@@ -70,6 +70,12 @@ public class LevelEndGamePhaseUI : GamePhaseUI {
 		} else {
 			waveSpecialImage.gameObject.SetActive (false);
 		}
+
+		waveSpecialImage.transform.localRotation = Quaternion.Euler (0, 0, ld.spriteSkew);
+		waveSpecialImage.transform.localScale = new Vector2(ld.spriteScale,
+		                                                    ld.spriteScale);
+		waveSpecialImage.transform.localPosition = new Vector2 (0,
+		                                                        waveSpecialImageYOffset + ld.spriteYOffset);
 	}
 
 	void OnGameLevelChanged() {
