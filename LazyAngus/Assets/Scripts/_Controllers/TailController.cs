@@ -7,10 +7,15 @@ public class TailController : MonoBehaviour {
 	public Sprite [] sprites;
 	public float cycleTime = 1.0f;
 	int numFrames;
+	public bool backAndForth = false;
 
 	// Use this for initialization
 	void Start () {
-		numFrames = sprites.Length * 2 - 1;
+		if (backAndForth) {
+			numFrames = sprites.Length * 2 - 1;
+		} else {
+			numFrames = sprites.Length;
+		}
 	}
 	
 	// Update is called once per frame
