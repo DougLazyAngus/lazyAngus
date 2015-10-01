@@ -1,4 +1,4 @@
-﻿#define SA_DEBUG_MODE
+﻿//#define SA_DEBUG_MODE
 using UnityEngine;
 using System;
 using System.Collections;
@@ -71,6 +71,8 @@ public class WP8AdMobController : SA_Singleton<WP8AdMobController>, GoogleMobile
 	}
 
 	public void SetOrientation (ScreenOrientation orientation) {
+		#if (UNITY_WP8 && !UNITY_EDITOR) || SA_DEBUG_MODE
+
 		int mode = 0;
 		if (orientation == ScreenOrientation.Landscape || orientation == ScreenOrientation.LandscapeLeft || orientation == ScreenOrientation.LandscapeRight) {
 			mode = 1;
@@ -79,7 +81,9 @@ public class WP8AdMobController : SA_Singleton<WP8AdMobController>, GoogleMobile
 			mode = 2;
 		}
 
+
 		AdManager.instance.SetOrientation(mode);
+		#endif
 	}
 	
 	public void Init(string banners_unit_id, string interstisial_unit_id) {
@@ -457,27 +461,22 @@ public class WP8AdMobController : SA_Singleton<WP8AdMobController>, GoogleMobile
 	
 	private void OnInterstitialAdLoaded(string data)  {
 		_OnInterstitialLoaded();
-		dispatch(GoogleMobileAdEvents.ON_INTERSTITIAL_AD_LOADED);
 	}
 	
 	private void OnInterstitialAdFailedToLoad(string data) {
 		_OnInterstitialFailedLoading();
-		dispatch(GoogleMobileAdEvents.ON_INTERSTITIAL_AD_FAILED_LOADING);
 	}
 	
 	private void OnInterstitialAdOpened(string data) {
 		_OnInterstitialOpened();
-		dispatch(GoogleMobileAdEvents.ON_INTERSTITIAL_AD_OPENED);
 	}
 	
 	private void OnInterstitialAdClosed(string data) {
 		_OnInterstitialClosed();
-		dispatch(GoogleMobileAdEvents.ON_INTERSTITIAL_AD_CLOSED);
 	}
 	
 	private void OnInterstitialAdLeftApplication(string data) {
 		_OnInterstitialLeftApplication();
-		dispatch(GoogleMobileAdEvents.ON_INTERSTITIAL_AD_LEFT_APPLICATION);
 	}
 	
 	//--------------------------------------
@@ -486,7 +485,6 @@ public class WP8AdMobController : SA_Singleton<WP8AdMobController>, GoogleMobile
 	
 	private void OnInAppPurchaseRequested(string productId) {
 		_OnAdInAppRequest(productId);
-		dispatch(GoogleMobileAdEvents.ON_AD_IN_APP_REQUEST, productId);
 	}
 
 	

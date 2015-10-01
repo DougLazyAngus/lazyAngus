@@ -27,7 +27,6 @@ public class GoogleMobileAdSettingsEditor : Editor {
 	GUIContent deviceIdLabel = new GUIContent("Device ID [?]:", "ID of your device. You can get ot from console log");
 
 	private GoogleMobileAdSettings settings;
-	private const string version_info_file = "Plugins/StansAssets/Versions/GMA_VersionInfo.txt"; 
 
 	void Awake() {
 		if (IsInstalled && IsUpToDate) {
@@ -86,39 +85,37 @@ public class GoogleMobileAdSettingsEditor : Editor {
 
 	public static bool IsInstalled {
 		get {
-			if(FileStaticAPI.IsFileExists(version_info_file)) {
-				return true;
-			} else {
-				return false;
-			}
+			return SA_VersionsManager.Is_GMA_Installed;
 		}
 	}
 	
 	public static bool IsUpToDate {
 		get {
-			if(GoogleMobileAdSettings.VERSION_NUMBER.Equals(DataVersion)) {
+			if(CurrentVersion == SA_VersionsManager.GMA_Version) {
 				return true;
 			} else {
 				return false;
 			}
 		}
 	}
+
 	
-	
-	public static string DataVersion {
+	public static int CurrentVersion {
 		get {
-			if(FileStaticAPI.IsFileExists(version_info_file)) {
-				return FileStaticAPI.Read(version_info_file);
-			} else {
-				return "Unknown";
-			}
+			return SA_VersionsManager.ParceVersion(GoogleMobileAdSettings.VERSION_NUMBER);
 		}
 	}
-
+	
+	public static int CurrentMagorVersion {
+		get {
+			return SA_VersionsManager.ParceMagorVersion(GoogleMobileAdSettings.VERSION_NUMBER);
+		}
+	}
+	
 
 	
 	public static void UpdateVersionInfo() {
-		FileStaticAPI.Write(version_info_file, GoogleMobileAdSettings.VERSION_NUMBER);
+		FileStaticAPI.Write(SA_VersionsManager.GMA_VERSION_INFO_PATH, GoogleMobileAdSettings.VERSION_NUMBER);
 		UpdateManifest ();
 	}
 
@@ -144,23 +141,32 @@ public class GoogleMobileAdSettingsEditor : Editor {
 		
 		if(IsInstalled) {
 			if(!IsUpToDate) {
-				EditorGUILayout.HelpBox("Update Required \nResources version: " + DataVersion + " Plugin version: " + GoogleMobileAdSettings.VERSION_NUMBER, MessageType.Warning);
+				EditorGUILayout.HelpBox("Update Required \nResources version: " + SA_VersionsManager.GMA_StringVersionId + " Plugin version: " + GoogleMobileAdSettings.VERSION_NUMBER, MessageType.Warning);
 				
 				
 				EditorGUILayout.BeginHorizontal();
 				EditorGUILayout.Space();
 				Color c = GUI.color;
 				GUI.color = Color.cyan;
-				if(GUILayout.Button("Update to " + GoogleMobileAdSettings.VERSION_NUMBER,  GUILayout.Width(250))) {
-					PluginsInstalationUtil.Android_InstallPlugin();
-					PluginsInstalationUtil.IOS_InstallPlugin();
-					UpdateVersionInfo();
+
+
+				if(CurrentMagorVersion != SA_VersionsManager.GMA_MagorVersion) {
+					if(GUILayout.Button("How to update",  GUILayout.Width(250))) {
+						Application.OpenURL("https://goo.gl/XkgvnG");
+					}
+				} else {
+					if(GUILayout.Button("Upgrade Resources",  GUILayout.Width(250))) {
+						PluginsInstalationUtil.Android_InstallPlugin();
+						PluginsInstalationUtil.IOS_InstallPlugin();
+						UpdateVersionInfo();
+					}
 				}
+
 				
 				GUI.color = c;
 				EditorGUILayout.Space();
 				EditorGUILayout.EndHorizontal();
-				
+				Actions();
 			} else {
 				EditorGUILayout.HelpBox("Google Mobile Ad Plugin v" + GoogleMobileAdSettings.VERSION_NUMBER + " is installed", MessageType.Info);
 
@@ -234,7 +240,17 @@ public class GoogleMobileAdSettingsEditor : Editor {
 			
 			
 			EditorGUILayout.EndHorizontal();
+			EditorGUILayout.Space();
 			
+			
+			EditorGUILayout.BeginHorizontal();
+			EditorGUILayout.Space();
+			
+			if(GUILayout.Button("Remove",  GUILayout.Width(160))) {
+				SA_RemoveTool.RemovePlugins();
+			}
+			
+			EditorGUILayout.EndHorizontal();	
 		}
 	}
 

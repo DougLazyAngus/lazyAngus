@@ -40,11 +40,7 @@ public class AN_GMSGeneralProxy : MonoBehaviour {
 	public static void loadToken(string accountName, string scope) {
 		CallActivityFunction("getToken", accountName, scope);
 	}
-	
-	public static void loadToken() {
-		CallActivityFunction("getToken");
-	}
-	
+
 	public static void invalidateToken(string token) {
 		CallActivityFunction("invalidateToken", token);
 	}
@@ -87,12 +83,10 @@ public class AN_GMSGeneralProxy : MonoBehaviour {
 	public static void loadLeaderBoards() {
 		CallActivityFunction("loadLeaderBoards");
 	}
-	
-	
-	public static void UpdatePlayerScore(string leaderboardId, int span, int leaderboardCollection) {
-		CallActivityFunction("updatePlayerScore", leaderboardId, span.ToString(), leaderboardCollection.ToString());
+
+	public static void loadLeaderboardInfoLocal(string leaderboardId, int requestId){
+		CallActivityFunction("loadLeaderBoardsLocal", leaderboardId, requestId);
 	}
-	
 	
 	public static void loadPlayerCenteredScores(string leaderboardId, int span, int leaderboardCollection, int maxResults) {
 		CallActivityFunction("loadPlayerCenteredScores", leaderboardId, span.ToString(), leaderboardCollection.ToString(), maxResults.ToString());

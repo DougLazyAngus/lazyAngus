@@ -503,27 +503,22 @@ public class IOSAdMobController : SA_Singleton<IOSAdMobController>, GoogleMobile
 	
 	private void OnInterstitialAdLoaded()  {
 		_OnInterstitialLoaded();
-		dispatch(GoogleMobileAdEvents.ON_INTERSTITIAL_AD_LOADED);
 	}
 	
 	private void OnInterstitialAdFailedToLoad() {
 		_OnInterstitialFailedLoading();
-		dispatch(GoogleMobileAdEvents.ON_INTERSTITIAL_AD_FAILED_LOADING);
 	}
 	
 	private void OnInterstitialAdOpened() {
 		_OnInterstitialOpened();
-		dispatch(GoogleMobileAdEvents.ON_INTERSTITIAL_AD_OPENED);
 	}
 	
 	private void OnInterstitialAdClosed() {
 		_OnInterstitialClosed();
-		dispatch(GoogleMobileAdEvents.ON_INTERSTITIAL_AD_CLOSED);
 	}
 	
 	private void OnInterstitialAdLeftApplication() {
 		_OnInterstitialLeftApplication();
-		dispatch(GoogleMobileAdEvents.ON_INTERSTITIAL_AD_LEFT_APPLICATION);
 	}
 
 	//--------------------------------------
@@ -532,7 +527,6 @@ public class IOSAdMobController : SA_Singleton<IOSAdMobController>, GoogleMobile
 	
 	private void OnInAppPurchaseRequested(string productId) {
 		_OnAdInAppRequest(productId);
-		dispatch(GoogleMobileAdEvents.ON_AD_IN_APP_REQUEST, productId);
 	}
 
 

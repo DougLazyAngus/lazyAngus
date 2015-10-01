@@ -1,7 +1,6 @@
 ﻿//#define SA_DEBUG_MODE
 using UnityEngine;
 using System;
-using UnionAssets.FLE;
 using System.Collections;
 
 #if (UNITY_WP8 && !UNITY_EDITOR) || SA_DEBUG_MODE
@@ -9,7 +8,7 @@ using GoogleAdsWP8;
 
 #endif
 
-public class WP8ADBanner : EventDispatcherBase, GoogleMobileAdBanner {
+public class WP8ADBanner : GoogleMobileAdBanner {
 
 	private int _id;
 	private GADBannerSize _size;
@@ -332,26 +331,21 @@ public class WP8ADBanner : EventDispatcherBase, GoogleMobileAdBanner {
 		*/
 
 		_OnLoadedAction(this);
-		dispatch(GoogleMobileAdEvents.ON_BANNER_AD_LOADED);
 	}
 	
 	public void OnBannerAdFailedToLoad() {
 		_OnFailedLoadingAction(this);
-		dispatch(GoogleMobileAdEvents.ON_BANNER_AD_FAILED_LOADING);
 	}
 	
 	public void OnBannerAdOpened() {
 		_OnOpenedAction(this);
-		dispatch(GoogleMobileAdEvents.ON_BANNER_AD_OPENED);
 	}
 	
 	public void OnBannerAdClosed() {
 		_OnClosedAction(this);
-		dispatch(GoogleMobileAdEvents.ON_BANNER_AD_CLOSED);
 	}
 	
 	public void OnBannerAdLeftApplication() {
 		_OnLeftApplicationAction(this);
-		dispatch(GoogleMobileAdEvents.ON_BANNER_AD_LEFT_APPLICATION);
 	}
 }

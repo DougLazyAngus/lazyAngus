@@ -11,21 +11,20 @@ public class CustomInterstisialExample : MonoBehaviour {
 	void Start () {
 		GoogleMobileAd.Init();
 
+		GoogleMobileAd.OnInterstitialLoaded += HandleOnInterstitialLoaded;
+		GoogleMobileAd.OnInterstitialClosed += OnInterstisialsClosed;
+		GoogleMobileAd.OnInterstitialOpened += OnInterstisialsOpen;
 
-		GoogleMobileAd.controller.addEventListener(GoogleMobileAdEvents.ON_INTERSTITIAL_AD_LOADED, OnInterstisialsLoaded);
-		GoogleMobileAd.controller.addEventListener(GoogleMobileAdEvents.ON_INTERSTITIAL_AD_OPENED, OnInterstisialsOpen);
-
-		GoogleMobileAd.controller.addEventListener(GoogleMobileAdEvents.ON_INTERSTITIAL_AD_CLOSED, OnInterstisialsClosed);
 
 		//loadin ad:
 		GoogleMobileAd.LoadInterstitialAd ();
 	}
 
-	private void OnInterstisialsLoaded() {
+	void HandleOnInterstitialLoaded () {
 		//ad loaded, strting ad
 		GoogleMobileAd.ShowInterstitialAd ();
-
 	}
+
 
 	private void OnInterstisialsOpen() {
 		//pausing the game

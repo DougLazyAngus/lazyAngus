@@ -19,106 +19,115 @@ public class GoogleMobileAdMenu : EditorWindow {
 	//  GENERAL
 	//--------------------------------------
 
-	[MenuItem("Window/GoogleMobileAd/Edit Settings")]
+	[MenuItem("Window/Stan's Assets/GoogleMobileAd/Edit Settings")]
 	public static void Edit() {
 		Selection.activeObject = GoogleMobileAdSettings.Instance;
 	}
 
+	//--------------------------------------
+	//  SETUP
+	//--------------------------------------
 
-	[MenuItem("Window/GoogleMobileAd/Documentation/Setup/Plugin setup")]
-	public static void s1() {
-		Application.OpenURL("http://goo.gl/aLCzeD");
+	[MenuItem("Window/Stan's Assets/GoogleMobileAd/Documentation/Setup/Plugin Setup")]
+	public static void GMASPluginSetup() {
+		Application.OpenURL("https://unionassets.com/google-mobile-ads-sdk/plugin-set-up-114");
 	}
 
-
-	[MenuItem("Window/GoogleMobileAd/Documentation/Setup/Update Guide")]
-	public static void s2() {
-		Application.OpenURL("http://goo.gl/Tx5NyB");
+	[MenuItem("Window/Stan's Assets/GoogleMobileAd/Documentation/Setup/Plugin Update")]
+	public static void GMASPluginUpdate() {
+		Application.OpenURL("https://unionassets.com/google-mobile-ads-sdk/updates-115");
 	}
 
-
-	[MenuItem("Window/GoogleMobileAd/Documentation/Setup/Manifest Requirements")]
-	public static void s3() {
-		Application.OpenURL("http://goo.gl/nqP5MU");
+	[MenuItem("Window/Stan's Assets/GoogleMobileAd/Documentation/Setup/Manifest Requirements")]
+	public static void GMASManifestRequirements() {
+		Application.OpenURL("https://unionassets.com/google-mobile-ads-sdk/android-manifest-requirements-196");
 	}
 
+	//--------------------------------------
+	//  GETTING STARTED
+	//--------------------------------------
 
-	[MenuItem("Window/GoogleMobileAd/Documentation/Getting Started/Before you begin")]
-	public static void s4() {
-		Application.OpenURL("http://goo.gl/1e4aU2");
+	[MenuItem("Window/Stan's Assets/GoogleMobileAd/Documentation/Getting Started/Before you begin")]
+	public static void GMAGSBeforeYouBegin() {
+		Application.OpenURL("https://unionassets.com/google-mobile-ads-sdk/plugin-set-up-117");
 	}
 
-
-	[MenuItem("Window/GoogleMobileAd/Documentation/Getting Started/Setup for IOS")]
-	public static void s5() {
-		Application.OpenURL("http://goo.gl/iW3fAH");
+	[MenuItem("Window/Stan's Assets/GoogleMobileAd/Documentation/Getting Started/Setup for IOS")]
+	public static void GMAGSSetupForIOS() {
+		Application.OpenURL("https://unionassets.com/google-mobile-ads-sdk/setup-for-ios-119");
 	}
 
-
-	[MenuItem("Window/GoogleMobileAd/Documentation/Getting Started/Setup for Android")]
-	public static void s6() {
-		Application.OpenURL("http://goo.gl/mo57Zc");
+	[MenuItem("Window/Stan's Assets/GoogleMobileAd/Documentation/Getting Started/Setup for Android")]
+	public static void GMAGSSetupForAndroid() {
+		Application.OpenURL("https://unionassets.com/google-mobile-ads-sdk/setup-for-android-120");
 	}
 
-
-	[MenuItem("Window/GoogleMobileAd/Documentation/Getting Started/Setup for WP8")]
-	public static void s7() {
-		Application.OpenURL("http://goo.gl/E6AhOM");
+	[MenuItem("Window/Stan's Assets/GoogleMobileAd/Documentation/Getting Started/Setup for WP8")]
+	public static void GMAGSSetupForWP8() {
+		Application.OpenURL("https://unionassets.com/google-mobile-ads-sdk/setup-for-ios-121");
 	}
 
+	//--------------------------------------
+	//  IMPLEMENTATION
+	//--------------------------------------
 
-	[MenuItem("Window/GoogleMobileAd/Documentation/Implementation/Initialization")]
-	public static void s8() {
-		Application.OpenURL("http://goo.gl/krTk5z");
+	[MenuItem("Window/Stan's Assets/GoogleMobileAd/Documentation/Implementation/Initialization")]
+	public static void GMAIInitialization() {
+		Application.OpenURL("https://unionassets.com/google-mobile-ads-sdk/initialization-182");
 	}
 
-
-	[MenuItem("Window/GoogleMobileAd/Documentation/Implementation/Banners")]
-	public static void s9() {
-		Application.OpenURL("http://goo.gl/BXh5y2");
+	[MenuItem("Window/Stan's Assets/GoogleMobileAd/Documentation/Implementation/Banners")]
+	public static void GMAIBanners() {
+		Application.OpenURL("https://unionassets.com/google-mobile-ads-sdk/banners-183");
 	}
 
-
-	[MenuItem("Window/GoogleMobileAd/Documentation/Implementation/Interstitial")]
-	public static void s10() {
-		Application.OpenURL("http://goo.gl/PxUkms");
+	[MenuItem("Window/Stan's Assets/GoogleMobileAd/Documentation/Implementation/Interstitial")]
+	public static void GMAIInterstitial() {
+		Application.OpenURL("https://unionassets.com/google-mobile-ads-sdk/interstitial-181");
 	}
 
-
-	[MenuItem("Window/GoogleMobileAd/Documentation/Implementation/In App Purchase Listener")]
-	public static void s11() {
-		Application.OpenURL("http://goo.gl/7HmcBX");
+	[MenuItem("Window/Stan's Assets/GoogleMobileAd/Documentation/Implementation/In App Purchase Listener")]
+	public static void GMAIInAppPurchaseListener() {
+		Application.OpenURL("https://unionassets.com/google-mobile-ads-sdk/inapppurchaselistener-122");
 	}
 
-	[MenuItem("Window/GoogleMobileAd/Documentation/Implementation/Prefab Solution")]
-	public static void s21() {
-		Application.OpenURL("http://goo.gl/jLyLwX");
+	[MenuItem("Window/Stan's Assets/GoogleMobileAd/Documentation/Implementation/Prefab Solution")]
+	public static void GMAIPrefabSolution() {
+		Application.OpenURL("https://unionassets.com/google-mobile-ads-sdk/prefab-solution-185");
 	}
 
-
-	[MenuItem("Window/GoogleMobileAd/Documentation/Implementation/Video Tutorials")]
-	public static void s13() {
-		Application.OpenURL("http://goo.gl/0NNf3q");
+	[MenuItem("Window/Stan's Assets/GoogleMobileAd/Documentation/Implementation/Video Tutorials")]
+	public static void GMAIVideoTutorials() {
+		Application.OpenURL("https://unionassets.com/google-mobile-ads-sdk/video-tutorials-184");
 	}
 
-	[MenuItem("Window/GoogleMobileAd/Documentation/More/Released Apps with the plugin")]
-	public static void s14() {
-		Application.OpenURL("http://goo.gl/LmGKqu");
+	//--------------------------------------
+	//  MORE
+	//--------------------------------------
+
+	[MenuItem("Window/Stan's Assets/GoogleMobileAd/Documentation/More/Released Apps with the plugin")]
+	public static void GMAMReleasedAppsWithThePlugin() {
+		Application.OpenURL("https://unionassets.com/google-mobile-ads-sdk/released-apps-with-the-plugin-128");
 	}
 
-	[MenuItem("Window/GoogleMobileAd/Documentation/More/Playmaker Support")]
-	public static void s15() {
-		Application.OpenURL("http://goo.gl/WW0I8X");
+	[MenuItem("Window/Stan's Assets/GoogleMobileAd/Documentation/More/Playmaker Support")]
+	public static void GMAMPlaymakerSupport() {
+		Application.OpenURL("https://unionassets.com/google-mobile-ads-sdk/playmaker-actions-124");
 	}
 
-	[MenuItem("Window/GoogleMobileAd/Documentation/More/Frequently Asked Questions")]
-	public static void s16() {
-		Application.OpenURL("http://goo.gl/sDrbMj");
+	[MenuItem("Window/Stan's Assets/GoogleMobileAd/Documentation/More/Frequently Asked Questions")]
+	public static void GMAMFrequentlyAskedQuestions() {
+		Application.OpenURL("https://unionassets.com/google-mobile-ads-sdk/frequently-asked-questions-126");
 	}
 	
-	[MenuItem("Window/GoogleMobileAd/Documentation/More/Using Plugins with Java Script")]
-	public static void s17() {
-		Application.OpenURL("http://goo.gl/NYK8S7");
+	[MenuItem("Window/Stan's Assets/GoogleMobileAd/Documentation/More/Using Plugins with Java Script")]
+	public static void GMAMUsingPluginsWithJavaScript() {
+		Application.OpenURL("https://unionassets.com/android-native-plugin/using-plugins-with-java-script-201");
+	}
+		
+	[MenuItem("Window/Stan's Assets/GoogleMobileAd/Documentation/More/Migrating to Unity5")]
+	public static void GMAMMigratingToUnity5() {
+		Application.OpenURL("https://unionassets.com/google-mobile-ads-sdk/migrating-to-unity5-365");
 	}
 	
 	#endif

@@ -10,7 +10,6 @@
 
 using UnityEngine;
 using System;
-using UnionAssets.FLE;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -22,12 +21,12 @@ public class GoogleMobileAd  {
 
 	
 	//Actions
-	public static Action OnInterstitialLoaded 			= delegate {};
-	public static Action OnInterstitialFailedLoading 	= delegate {};
-	public static Action OnInterstitialOpened 			= delegate {};
-	public static Action OnInterstitialClosed 			= delegate {};
-	public static Action OnInterstitialLeftApplication  = delegate {};
-	public static Action<string> OnAdInAppRequest		= delegate {};
+	public static event Action OnInterstitialLoaded 			= delegate {};
+	public static event Action OnInterstitialFailedLoading 	= delegate {};
+	public static event Action OnInterstitialOpened 			= delegate {};
+	public static event Action OnInterstitialClosed 			= delegate {};
+	public static event Action OnInterstitialLeftApplication  = delegate {};
+	public static event Action<string> OnAdInAppRequest		= delegate {};
 
 
 	public static void Init() {
@@ -331,43 +330,7 @@ public class GoogleMobileAd  {
 	private static void OnAdInAppRequestListner (string productId) {
 		OnAdInAppRequest(productId);
 	}
-
-	//--------------------------------------
-	// EVENTS Impl
-	//--------------------------------------
-
-
-	public static void addEventListener(string eventName, EventHandlerFunction handler) {
-		if(controller == null) {
-			return;
-		}
-		controller.addEventListener(eventName, handler);
-	}
-
-
-	public static void addEventListener(string eventName, DataEventHandlerFunction handler) {
-		if(controller == null) {
-			return;
-		}
-		controller.addEventListener(eventName, handler);
-	}
-
-
 	
-	public static void removeEventListener(string eventName, 	EventHandlerFunction handler) {
-		if(controller == null) {
-			return;
-		}
-		controller.removeEventListener(eventName, handler);
-	}
-
-
-	public static void removeEventListener(string eventName,  DataEventHandlerFunction handler) {
-		if(controller == null) {
-			return;
-		}
-		controller.removeEventListener(eventName, handler);
-	}
 }
 
 

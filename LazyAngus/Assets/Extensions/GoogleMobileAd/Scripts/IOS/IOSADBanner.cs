@@ -12,7 +12,6 @@
 
 using UnityEngine;
 using System;
-using UnionAssets.FLE;
 using System.Collections;
 
 #if (UNITY_IPHONE && !UNITY_EDITOR && !CODE_DISABLED) || SA_DEBUG_MODE
@@ -20,7 +19,7 @@ using System.Runtime.InteropServices;
 #endif
 
 
-public class IOSADBanner :  EventDispatcherBase, GoogleMobileAdBanner  {
+public class IOSADBanner :  GoogleMobileAdBanner  {
 
 
 	#if (UNITY_IPHONE && !UNITY_EDITOR && !CODE_DISABLED) || SA_DEBUG_MODE
@@ -357,27 +356,22 @@ public class IOSADBanner :  EventDispatcherBase, GoogleMobileAdBanner  {
 		}
 
 		_OnLoadedAction(this);
-		dispatch(GoogleMobileAdEvents.ON_BANNER_AD_LOADED);
 	}
 	
 	public void OnBannerAdFailedToLoad() {
 		_OnFailedLoadingAction(this);
-		dispatch(GoogleMobileAdEvents.ON_BANNER_AD_FAILED_LOADING);
 	}
 	
 	public void OnBannerAdOpened() {
 		_OnOpenedAction(this);
-		dispatch(GoogleMobileAdEvents.ON_BANNER_AD_OPENED);
 	}
 	
 	public void OnBannerAdClosed() {
 		_OnClosedAction(this);
-		dispatch(GoogleMobileAdEvents.ON_BANNER_AD_CLOSED);
 	}
 	
 	public void OnBannerAdLeftApplication() {
 		_OnLeftApplicationAction(this);
-		dispatch(GoogleMobileAdEvents.ON_BANNER_AD_LEFT_APPLICATION);
 	}
 }
 

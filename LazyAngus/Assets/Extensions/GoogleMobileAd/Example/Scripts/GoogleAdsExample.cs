@@ -9,7 +9,6 @@
 
 
 using UnityEngine;
-using UnionAssets.FLE;
 using System.Collections;
 
 public class GoogleAdsExample : MonoBehaviour {
@@ -46,18 +45,13 @@ public class GoogleAdsExample : MonoBehaviour {
 
 
 
-		//More eventts ot explore under GoogleMobileAdEvents class
-		GoogleMobileAd.addEventListener(GoogleMobileAdEvents.ON_INTERSTITIAL_AD_LOADED, OnInterstisialsLoaded);
-		GoogleMobileAd.addEventListener(GoogleMobileAdEvents.ON_INTERSTITIAL_AD_OPENED, OnInterstisialsOpen);
+		GoogleMobileAd.OnInterstitialLoaded += OnInterstisialsLoaded;
+		GoogleMobileAd.OnInterstitialOpened += OnInterstisialsOpen;
 
-		//Actions use Example
-
-		GoogleMobileAd.OnInterstitialLoaded += OnInterstitialLoaded;
 
 		//listening for InApp Event
 		//You will only receive in-app purchase (IAP) ads if you specifically configure an IAP ad campaign in the AdMob front end.
-		GoogleMobileAd.addEventListener(GoogleMobileAdEvents.ON_AD_IN_APP_REQUEST, OnInAppRequest);
-
+		GoogleMobileAd.OnAdInAppRequest +=  OnInAppRequest;
 		InitStyles();
 
 	}
@@ -314,9 +308,9 @@ public class GoogleAdsExample : MonoBehaviour {
 		IsInterstisialsAdReady = false;
 	}
 
-	private void OnInAppRequest(CEvent e) {
-		//getting product id
-		string productId = (string) e.data;
+	private void OnInAppRequest(string productId) {
+	
+
 		Debug.Log ("In App Request for product Id: " + productId + " received");
 
 		
