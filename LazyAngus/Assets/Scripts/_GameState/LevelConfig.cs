@@ -7,6 +7,8 @@ using System.Linq;
 
 public class LevelDescription
 {	
+	public const float defaultSpriteSkew = 10;
+
 	public enum WaveType
 	{
 		// Quasi-random, no two mice out of one hole same time.
@@ -23,6 +25,9 @@ public class LevelDescription
 	public string specialText;
 	public List<ExplicitMouseDesc> explicitMouseDescs;
 	public Sprite sprite;
+	public float spriteSkew;
+	public float spriteScale;
+	public float spriteYOffset;
 	public TipConfig tipConfig;
 	public float tipPause;
 
@@ -46,6 +51,9 @@ public class LevelDescription
 		explicitMouseDescs = new List<ExplicitMouseDesc> ();
 		debugWaveTypes = new List<int> ();
 		sprite = null;
+		spriteSkew = defaultSpriteSkew;
+		spriteScale = 1f;
+		spriteYOffset = 0;
 
 		previousLevelClearedAchievementID = null;
 
@@ -104,10 +112,18 @@ public class LevelConfig : MonoBehaviour
 	public static LevelConfig instance { get; private set; }
 
 	const string newMouseTrapSpritePath = "Textures/Misc/mousetrap.01";
-	const string angusIntroSpritePath = "Textures/Misc/tmp.grumpy_cat";
+	string[] angusIntroSpritePaths = {
+		"Textures/Misc/screen_art_angus.01", 
+		"Textures/Misc/screen_art_angus.02", 
+	};
+	float[] angusIntroSpriteYOffsets = {
+		15,
+		-60, 
+	};
 	
+
 	Sprite newMouseTrapSprite;
-	Sprite angusIntroSprite;
+	Sprite [] angusIntroSprites;
 	
 	void Awake ()
 	{
@@ -126,7 +142,11 @@ public class LevelConfig : MonoBehaviour
 
 	void LoadSprites() {
 		newMouseTrapSprite = Resources.Load<UnityEngine.Sprite> (newMouseTrapSpritePath);
-		angusIntroSprite = Resources.Load<UnityEngine.Sprite> (angusIntroSpritePath);
+		int count = angusIntroSpritePaths.Length;
+		angusIntroSprites = new Sprite[count];
+		for (int i = 0; i < count; i++) {
+			angusIntroSprites[i] = Resources.Load<UnityEngine.Sprite> (angusIntroSpritePaths[i]); 
+		}
 	}
 	
 	void GenerateLevelLockInfo ()
@@ -287,9 +307,18 @@ public class LevelConfig : MonoBehaviour
 			}
 
 			if (ld.sprite == null) {
-				ld.sprite = angusIntroSprite;
+				SetRandomSpriteForLevel(ld);
 			}
 		}
+	}
+
+	void SetRandomSpriteForLevel(LevelDescription ld) {
+		// Not that random....
+		int index = ld.gameLevel % angusIntroSprites.Length;
+		ld.sprite = angusIntroSprites [index];
+		ld.spriteSkew = 0;
+		ld.spriteScale = 2;
+		ld.spriteYOffset = angusIntroSpriteYOffsets [index];
 	}
 
 	void SetupInitialAccumulators (LevelDescription ld)
@@ -1171,7 +1200,7 @@ public class LevelConfig : MonoBehaviour
 		}
 
 		ld.explicitMouseDescs = GenerateRandomMiceForLevel (ld);
-		ld.sprite = angusIntroSprite;
+		SetRandomSpriteForLevel(ld);
 
 		GenerateRandomWigglesForLevel (ld);
 

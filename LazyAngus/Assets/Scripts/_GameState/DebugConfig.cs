@@ -4,7 +4,6 @@ using System.Collections;
 public class DebugConfig : MonoBehaviour {
 	public bool useDebugValues;
 
-	public bool skipWelcome = false;
 	public bool clearAchievements = false;
 
 	public bool debugFBShare = false;
@@ -15,6 +14,7 @@ public class DebugConfig : MonoBehaviour {
 	public const int DEBUG_FLAG_SHORT_MOUSE_PATH = 0;
 	public const int DEBUG_UI_FOR_APPLE = 1;
 	public const int DEBUG_RATE_ME_DIALOG = 2;
+	public const int DEBUG_SKIP_WELCOME = 3;
 
 	int debugFlags = 0;
 	
