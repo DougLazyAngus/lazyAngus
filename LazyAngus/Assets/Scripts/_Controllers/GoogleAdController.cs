@@ -32,6 +32,15 @@ public class GoogleAdController : MonoBehaviour {
 		GoogleMobileAd.OnInterstitialOpened += OnInterstisialsOpen;
 		GoogleMobileAd.OnInterstitialClosed += OnInterstisialsClosed;
 
+		/*
+		 FIXME(dbanks)
+         Debugging why ads don't show up on Android.
+		GoogleMobileAd.addEventListener(GoogleMobileAdEvents.ON_BANNER_AD_FAILED_LOADING,
+		                                OnBannerAdFailedLoading);
+		GoogleMobileAd.addEventListener(GoogleMobileAdEvents.ON_BANNER_AD_LOADED,
+		                                OnBannerAdLoaded);
+		*/
+
 		GoogleMobileAd.LoadInterstitialAd ();
 	}
 	
@@ -40,7 +49,15 @@ public class GoogleAdController : MonoBehaviour {
 		RegisterForEvents ();	
 		UpdateBanner ();
 	}
-	
+
+	void OnBannerAdLoaded() {
+		SFXPlayer.instance.Play (SFXPlayer.SFXType.EARN_MONEY);
+	}
+
+	void OnBannerAdFailedLoading() {
+		SFXPlayer.instance.Play (SFXPlayer.SFXType.CAMERA);
+	}
+
 	void OnDestroy() {
 		UnregisterForEvents ();		
 	}

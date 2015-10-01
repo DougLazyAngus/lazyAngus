@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/LazyAngus.iml" filepath="$PROJECT_DIR$/.idea/LazyAngus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../facebook/facebook.iml" filepath="$PROJECT_DIR$/../facebook/facebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../play-services-analytics-7.5.0/play-services-analytics-7.5.0.iml" filepath="$PROJECT_DIR$/../play-services-analytics-7.5.0/play-services-analytics-7.5.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../play-services-base-7.5.0/play-services-base-7.5.0.iml" filepath="$PROJECT_DIR$/../play-services-base-7.5.0/play-services-base-7.5.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../support-v4-22.2.0/support-v4-22.2.0.iml" filepath="$PROJECT_DIR$/../support-v4-22.2.0/support-v4-22.2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../unity-android-resources/unity-android-resources.iml" filepath="$PROJECT_DIR$/../unity-android-resources/unity-android-resources.iml" />
+    </modules>
+  </component>
+</project>
