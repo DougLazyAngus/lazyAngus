@@ -1,13 +1,25 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class TailController : MonoBehaviour {
 	public SpriteRenderer tailRenderer;
 
-	public Sprite [] sprites;
+	Sprite [] sprites;
 	public float cycleTime = 1.0f;
-	int numFrames;
+
+	public string pathStub = "Textures/NewCatParts/Tail/cat_tail";
+	public int numFrames = 24;
 	public bool backAndForth = false;
+
+	void Awake() {
+		sprites = new Sprite[numFrames];
+		for (int i = 0; i < numFrames; i++) {
+
+			string fullPath = String.Format("{0}.{1:00}", pathStub , i + 1);
+			sprites[i] = Resources.Load<UnityEngine.Sprite>(fullPath);
+		}
+	}
 
 	// Use this for initialization
 	void Start () {

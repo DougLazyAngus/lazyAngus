@@ -16,7 +16,7 @@ public class GameCenterButtons : MonoBehaviour {
 	}
 
 	void UpdateButtonAvailability() {
-		if (SocialHelper.instance.IsEnabled () || 
+		if (GameCenterHelper.instance.IsEnabled () || 
 		    DebugConfig.instance.IsDebugFlagSet(DebugConfig.DEBUG_UI_FOR_APPLE)) {
 			gameObject.SetActive (true);
 		} else {
@@ -25,7 +25,7 @@ public class GameCenterButtons : MonoBehaviour {
 	}
 
 	public void ShowLeaderboard() {
-		SocialHelper.instance.ShowLeaderBoard();
+		GameCenterHelper.instance.ShowLeaderBoard();
 	}
 
 	public void ShowRateMe() {
@@ -33,7 +33,7 @@ public class GameCenterButtons : MonoBehaviour {
 	}
 
 	public void ShowAchievements() {		
-		SocialHelper.instance.ShowAchievements();	
+		GameCenterHelper.instance.ShowAchievements();	
 	}
 
 }

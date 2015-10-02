@@ -3,9 +3,9 @@ using System.Collections;
 using UnityEngine.SocialPlatforms;
 using UnityEngine.SocialPlatforms.GameCenter;
 
-public class SocialHelper : MonoBehaviour {
+public class GameCenterHelper : MonoBehaviour {
 	public string leaderboardID = "LazyAngusBeta2";
-	public static SocialHelper instance;
+	public static GameCenterHelper instance;
 	
 	bool socialHelperEnabled;
 

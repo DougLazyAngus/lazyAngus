@@ -40,13 +40,13 @@ public class SocialMediaButtons : MonoBehaviour {
 	public void ShareOnFB() {
 		int personalBest = PlayerStats.instance.GetHighScore ();
 		int finalScore = PlayerStats.instance.gameScore;
-		FacebookSharing.instance.ShareScore (finalScore, 
-		                                     finalScore == personalBest);
+		SAMobileSocialHelper.instance.ShareScoreOnFB (finalScore, 
+		                                              finalScore == personalBest);
 	}
 
 	public void ShareOnTwitter() {
 		int finalScore = PlayerStats.instance.gameScore;
-		TwitterSharing.instance.ShareScore (finalScore);
+		SAMobileSocialHelper.instance.ShareScoreOnTwitter (finalScore);
 	}
 
 }

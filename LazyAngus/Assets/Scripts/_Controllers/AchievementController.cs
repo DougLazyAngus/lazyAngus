@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class AchievementController : MonoBehaviour {
@@ -40,16 +40,16 @@ public class AchievementController : MonoBehaviour {
 	void OnMultiKill(int numKilled, Vector3 pawPosition) {
 		switch (numKilled) {
 		case 2:
-			SocialHelper.instance.RecordAchievement ("DoubleKill");
+			GameCenterHelper.instance.RecordAchievement ("DoubleKill");
 			break;
 		case 3:
-			SocialHelper.instance.RecordAchievement ("TripleKill");
+			GameCenterHelper.instance.RecordAchievement ("TripleKill");
 			break;
 		case 4:
-			SocialHelper.instance.RecordAchievement ("QuadKill");
+			GameCenterHelper.instance.RecordAchievement ("QuadKill");
 			break;
 		case 5:
-			SocialHelper.instance.RecordAchievement ("UltraKill");
+			GameCenterHelper.instance.RecordAchievement ("UltraKill");
 			break;
 		}
 	}
@@ -58,7 +58,7 @@ public class AchievementController : MonoBehaviour {
 	void OnGameLevelChanged() {
 		LevelDescription ld = LevelConfig.instance.GetCurrentLevelDescription ();
 		if (ld.previousLevelClearedAchievementID != null) {
-			SocialHelper.instance.RecordAchievement (ld.previousLevelClearedAchievementID);
+			GameCenterHelper.instance.RecordAchievement (ld.previousLevelClearedAchievementID);
 		}
 	}
 }

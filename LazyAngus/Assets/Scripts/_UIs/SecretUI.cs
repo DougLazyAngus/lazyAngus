@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
@@ -19,7 +19,7 @@ public class SecretUI : MonoBehaviour {
 	}
 
 	public void ResetAchievements() {
-		SocialHelper.instance.ClearAchievements();
+		GameCenterHelper.instance.ClearAchievements();
 	}
 
 	void Awake() {

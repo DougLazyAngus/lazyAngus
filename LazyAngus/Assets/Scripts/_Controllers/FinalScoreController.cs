@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class FinalScoreController : MonoBehaviour {
@@ -34,7 +34,7 @@ public class FinalScoreController : MonoBehaviour {
 	
 	void OnGamePhaseChanged() {
 		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.GAME_OVER) {
-			SocialHelper.instance.ReportScore (PlayerStats.instance.gameScore);
+			GameCenterHelper.instance.ReportScore (PlayerStats.instance.gameScore);
 		}
 	}
 }

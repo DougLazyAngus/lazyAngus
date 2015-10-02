@@ -134,8 +134,7 @@ public class Utilities
 			LaunchAppOrWebOnIOS (appURL, webURL);
 			yield return new WaitForSeconds (0.001f);
 		} else {
-			// FIXME(dbanks)
-			// No good solution yet.
+			Application.OpenURL (webURL);
 		}
 	}
 
