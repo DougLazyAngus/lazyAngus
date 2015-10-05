@@ -14,7 +14,12 @@ pbx_file_path = sys.argv[1] + '/Unity-iPhone.xcodeproj/project.pbxproj'
 pbx_object = XcodeProject.Load(pbx_file_path)
 
 pbx_object.add_flags(
-  {'ENABLE_BITCODE':'NO'}
+  {'ENABLE_BITCODE':'NO',
+   'OTHER_LDFLAGS':['-weak_framework',
+                    'CoreMotion',
+                     '-weak-lSystem',
+                     '-ObjC'],
+  }
 )
 
 
