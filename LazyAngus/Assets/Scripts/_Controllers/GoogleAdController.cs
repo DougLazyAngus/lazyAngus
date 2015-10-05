@@ -160,12 +160,15 @@ public class GoogleAdController : MonoBehaviour {
 	public static float GetBannerHeight() {
 		// Logic from 
 		// https://developers.google.com/admob/android/banner#smart
+		float longSide;
 		float screenHeight = Screen.height;
+		float screenWidth = Screen.width;
+		longSide = Mathf.Max (screenHeight, screenWidth);
 
-		if (screenHeight < 400) {
+		if (longSide < 400) {
 			return 32;
 		}
-		if (screenHeight <= 720) {
+		if (longSide <= 720) {
 			return 50;
 		}
 		return 90;
