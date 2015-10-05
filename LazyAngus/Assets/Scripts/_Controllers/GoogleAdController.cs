@@ -152,6 +152,7 @@ public class GoogleAdController : MonoBehaviour {
 		case GamePhaseState.GamePhaseType.WELCOME:
 		case GamePhaseState.GamePhaseType.LEVEL_END:
 			banner.Refresh ();
+			break;
 		}
 	}
 
