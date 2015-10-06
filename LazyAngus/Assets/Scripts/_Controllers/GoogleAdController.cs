@@ -12,14 +12,28 @@ public class GoogleAdController : MonoBehaviour {
 	bool interstitialAdLoaded = false;
 	bool adsEnabled = true;
 
-	GoogleMobileAdBanner banner;
+	GoogleMobileAds.Api.BannerView bannerView;
+	
+	public string bannerViewAdId;
 
 	public GamePhaseState [] acceptableGamePhases;
 
 	
 	void Awake() {
 		instance = this;
+		bannerView = new GoogleMobileAds.Api.BannerView (bannerViewAdId, 
+		                                                GoogleMobileAds.Api.AdSize.SmartBanner,
+		                                                GoogleMobileAds.Api.AdPosition.Bottom);
+		GoogleMobileAds.Api.AdRequest.Builder builder =
+			new GoogleMobileAds.Api.AdRequest.Builder();
+		builder.AddKeyword("game");
+		GoogleMobileAds.Api.AdRequest request = builder.Build();
 
+
+		bannerView.LoadAd (request);
+		bannerView.Show ();
+
+		/*
 		GoogleMobileAd.Init ();
 		GoogleMobileAd.AddKeyword("game");
 		GoogleMobileAd.AddKeyword("cat");
@@ -32,16 +46,15 @@ public class GoogleAdController : MonoBehaviour {
 		GoogleMobileAd.OnInterstitialOpened += OnInterstisialsOpen;
 		GoogleMobileAd.OnInterstitialClosed += OnInterstisialsClosed;
 
-		/*
-		 FIXME(dbanks)
-         Debugging why ads don't show up on Android.
-		GoogleMobileAd.addEventListener(GoogleMobileAdEvents.ON_BANNER_AD_FAILED_LOADING,
-		                                OnBannerAdFailedLoading);
-		GoogleMobileAd.addEventListener(GoogleMobileAdEvents.ON_BANNER_AD_LOADED,
-		                                OnBannerAdLoaded);
-		*/
-
+//		 FIXME(dbanks)
+ //        Debugging why ads don't show up on Android.
+//		GoogleMobileAd.addEventListener(GoogleMobileAdEvents.ON_BANNER_AD_FAILED_LOADING,
+//		                                OnBannerAdFailedLoading);
+//		GoogleMobileAd.addEventListener(GoogleMobileAdEvents.ON_BANNER_AD_LOADED,
+//		                                OnBannerAdLoaded);
+//
 		GoogleMobileAd.LoadInterstitialAd ();
+		*/
 	}
 	
 	// Use this for initialization
@@ -73,7 +86,7 @@ public class GoogleAdController : MonoBehaviour {
 
 	void OnInterstisialsClosed() {
 		interstitialAdLoaded = false;
-		GoogleMobileAd.LoadInterstitialAd ();
+	// 	GoogleMobileAd.LoadInterstitialAd ();
 		SoundController.instance.UnsuppressSounds ();
 	}
 
@@ -113,7 +126,7 @@ public class GoogleAdController : MonoBehaviour {
 
 		PersistentStorage.instance.SetIntValue ("lastInstanceAdShown", 
 		                                        GamePhaseState.instance.instancesFinishedThisSession);
-		GoogleMobileAd.ShowInterstitialAd ();
+	// 	GoogleMobileAd.ShowInterstitialAd ();
 		return true;
 	}
 
@@ -133,6 +146,7 @@ public class GoogleAdController : MonoBehaviour {
 	}
 
 	void UpdateBanner() {
+		/*
 		if (!adsEnabled) {
 			banner.Hide ();
 			return;
@@ -154,6 +168,7 @@ public class GoogleAdController : MonoBehaviour {
 			banner.Refresh ();
 			break;
 		}
+		*/
 	}
 
 
