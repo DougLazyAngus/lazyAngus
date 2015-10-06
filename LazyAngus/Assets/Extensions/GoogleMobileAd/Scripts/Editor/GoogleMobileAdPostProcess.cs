@@ -52,6 +52,9 @@ public class GoogleMobileAdPostProcess  {
 			ISDSettings.Instance.linkFlags.Add(linkerFlasg);
 		}
 		*/
+
+
+
 		#endif
 	}
 

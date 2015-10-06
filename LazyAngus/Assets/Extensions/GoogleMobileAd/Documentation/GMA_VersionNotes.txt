@@ -1,3 +1,7 @@
+7.0:
+Updated to work with the new Google Mobile AD SDK
+IsInterstitialReady property added. Read more: https://goo.gl/HQ8fxT
+
 6.9
 Ad Banner support Pause and Resume while application pause
 Compatibility update
