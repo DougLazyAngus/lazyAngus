@@ -13,15 +13,19 @@ public class GoogleAdController : MonoBehaviour {
 	bool adsEnabled = true;
 
 	GoogleMobileAds.Api.BannerView bannerView;
-	
-	public string bannerViewAdId;
+	GoogleMobileAds.Api.InterstitialAd interstitialAd;
+
+	public string iosBannerViewAdId;
+	public string androidBannerViewAdId;
+	public string iosInterstitialAdId;
+	public string androidInterstitialAdId;
 
 	public GamePhaseState [] acceptableGamePhases;
 
 	
 	void Awake() {
 		instance = this;
-		bannerView = new GoogleMobileAds.Api.BannerView (bannerViewAdId, 
+		bannerView = new GoogleMobileAds.Api.BannerView (GetBannerAdUnitId(), 
 		                                                GoogleMobileAds.Api.AdSize.SmartBanner,
 		                                                GoogleMobileAds.Api.AdPosition.Bottom);
 
@@ -31,13 +35,37 @@ public class GoogleAdController : MonoBehaviour {
 
 	}
 
-	void LoadAd() {
+
+	GoogleMobileAds.Api.AdRequest MakeAdRequest() {
 		GoogleMobileAds.Api.AdRequest.Builder builder =
 			new GoogleMobileAds.Api.AdRequest.Builder();
 		builder.AddKeyword("game");
 		builder.AddKeyword("cat");
-		GoogleMobileAds.Api.AdRequest request = builder.Build();
-		bannerView.LoadAd (request);
+		return builder.Build();
+	}
+
+	string GetIniterstitialAdUnitId() {
+		if (Application.platform == RuntimePlatform.IPhonePlayer) {
+			return iosBannerViewAdId;
+		} else if (Application.platform == RuntimePlatform.Android) {
+			return androidInterstitialAdId;
+		} else {
+			return "badid";
+		}
+	}
+
+	string GetBannerAdUnitId() {
+		if (Application.platform == RuntimePlatform.IPhonePlayer) {
+			return iosBannerViewAdId;
+		} else if (Application.platform == RuntimePlatform.Android) {
+			return androidBannerViewAdId;
+		} else {
+			return "badid";
+		}
+	}
+
+	void LoadAd() {
+		bannerView.LoadAd (MakeAdRequest());
 	}
 
 	// Use this for initialization
@@ -109,8 +137,16 @@ public class GoogleAdController : MonoBehaviour {
 
 		PersistentStorage.instance.SetIntValue ("lastInstanceAdShown", 
 		                                        GamePhaseState.instance.instancesFinishedThisSession);
-	// 	GoogleMobileAd.ShowInterstitialAd ();
+		ShowInterstitialAd ();
 		return true;
+	}
+
+	void ShowInterstitialAd() {
+		interstitialAd = new GoogleMobileAds.Api.InterstitialAd (s ());
+		GoogleMobileAds.Api.AdRequest ar = MakeAdRequest ();
+		interstitialAd.AdLoaded = 
+		interstitialAd.LoadAd (ar);
+		interstitialAd.Show ();
 	}
 
 	bool ShouldShowInterstitialAd() {
