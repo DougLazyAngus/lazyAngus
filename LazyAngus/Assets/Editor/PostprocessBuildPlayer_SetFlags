@@ -15,6 +15,7 @@ pbx_object = XcodeProject.Load(pbx_file_path)
 
 pbx_object.add_flags(
   {'ENABLE_BITCODE':'NO',
+   'CLANG_ENABLE_MODULES': 'YES',
    'OTHER_LDFLAGS':['-weak_framework',
                     'CoreMotion',
                      '-weak-lSystem',

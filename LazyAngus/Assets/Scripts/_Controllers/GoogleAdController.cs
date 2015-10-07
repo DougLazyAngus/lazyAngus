@@ -24,39 +24,22 @@ public class GoogleAdController : MonoBehaviour {
 		bannerView = new GoogleMobileAds.Api.BannerView (bannerViewAdId, 
 		                                                GoogleMobileAds.Api.AdSize.SmartBanner,
 		                                                GoogleMobileAds.Api.AdPosition.Bottom);
+
+		LoadAd ();
+
+		bannerView.Hide ();
+
+	}
+
+	void LoadAd() {
 		GoogleMobileAds.Api.AdRequest.Builder builder =
 			new GoogleMobileAds.Api.AdRequest.Builder();
 		builder.AddKeyword("game");
+		builder.AddKeyword("cat");
 		GoogleMobileAds.Api.AdRequest request = builder.Build();
-
-
 		bannerView.LoadAd (request);
-		bannerView.Show ();
-
-		/*
-		GoogleMobileAd.Init ();
-		GoogleMobileAd.AddKeyword("game");
-		GoogleMobileAd.AddKeyword("cat");
-		banner = GoogleMobileAd.CreateAdBanner(TextAnchor.LowerCenter,
-		                                       GADBannerSize.SMART_BANNER);
-		banner.Hide ();
-		banner.ShowOnLoad = false;
-
-		GoogleMobileAd.OnInterstitialLoaded += OnInterstisialsLoaded;
-		GoogleMobileAd.OnInterstitialOpened += OnInterstisialsOpen;
-		GoogleMobileAd.OnInterstitialClosed += OnInterstisialsClosed;
-
-//		 FIXME(dbanks)
- //        Debugging why ads don't show up on Android.
-//		GoogleMobileAd.addEventListener(GoogleMobileAdEvents.ON_BANNER_AD_FAILED_LOADING,
-//		                                OnBannerAdFailedLoading);
-//		GoogleMobileAd.addEventListener(GoogleMobileAdEvents.ON_BANNER_AD_LOADED,
-//		                                OnBannerAdLoaded);
-//
-		GoogleMobileAd.LoadInterstitialAd ();
-		*/
 	}
-	
+
 	// Use this for initialization
 	void Start () {
 		RegisterForEvents ();	
@@ -146,29 +129,27 @@ public class GoogleAdController : MonoBehaviour {
 	}
 
 	void UpdateBanner() {
-		/*
 		if (!adsEnabled) {
-			banner.Hide ();
+			bannerView.Hide ();
 			return;
 		}
 
 		switch(GamePhaseState.instance.gamePhase) {
 		case GamePhaseState.GamePhaseType.LEVEL_PLAY:
 		case GamePhaseState.GamePhaseType.PENDING:
-			banner.Show ();
+			bannerView.Show ();
 			break;
 		default:
-			banner.Hide ();
+			bannerView.Hide ();
 			break;
 		}	
 
 		switch (GamePhaseState.instance.gamePhase) {
 		case GamePhaseState.GamePhaseType.WELCOME:
 		case GamePhaseState.GamePhaseType.LEVEL_END:
-			banner.Refresh ();
+			LoadAd();
 			break;
 		}
-		*/
 	}
 
 
