@@ -9,7 +9,6 @@ public class GoogleAdController : MonoBehaviour {
 	public PhaseDelayedEventScheduler phaseDelayedEventScheduler;
 
 	bool registeredForEvents;
-	bool interstitialAdLoaded = false;
 	bool adsEnabled = true;
 
 	GoogleMobileAds.Api.BannerView bannerView;
@@ -22,17 +21,22 @@ public class GoogleAdController : MonoBehaviour {
 
 	public GamePhaseState [] acceptableGamePhases;
 
+	bool interstitialAdLoaded;
 	
 	void Awake() {
 		instance = this;
 		bannerView = new GoogleMobileAds.Api.BannerView (GetBannerAdUnitId(), 
 		                                                GoogleMobileAds.Api.AdSize.SmartBanner,
 		                                                GoogleMobileAds.Api.AdPosition.Bottom);
-
-		LoadAd ();
-
+		bannerView.LoadAd (MakeAdRequest());
 		bannerView.Hide ();
 
+		interstitialAd = new GoogleMobileAds.Api.InterstitialAd (s ());
+		interstitialAd.AdLoaded += OnInterstitialAdLoaded;
+		interstitialAd.AdOpened += OnInterstitialAdOpened;
+		interstitialAd.AdClosed += OnInterstitialAdClosed;
+
+		interstitialAd.LoadAd (MakeAdRequest ());
 	}
 
 
@@ -64,10 +68,6 @@ public class GoogleAdController : MonoBehaviour {
 		}
 	}
 
-	void LoadAd() {
-		bannerView.LoadAd (MakeAdRequest());
-	}
-
 	// Use this for initialization
 	void Start () {
 		RegisterForEvents ();	
@@ -86,19 +86,21 @@ public class GoogleAdController : MonoBehaviour {
 		UnregisterForEvents ();		
 	}
 
-	void OnInterstisialsLoaded() {
+	void OnInterstitialAdLoaded() {
 		interstitialAdLoaded = true;
 	}
 
-	void OnInterstisialsOpen() {
+	void OnInterstitialAdOpened() {
 		// Quiet the music.
 		SoundController.instance.SuppressSounds ();
 	}
 
-	void OnInterstisialsClosed() {
+	void OnInterstitialAdClosed() {
 		interstitialAdLoaded = false;
-	// 	GoogleMobileAd.LoadInterstitialAd ();
 		SoundController.instance.UnsuppressSounds ();
+
+		// Load another one.
+		interstitialAd.LoadAd (MakeAdRequest ());
 	}
 
 	void RegisterForEvents() {
@@ -142,10 +144,6 @@ public class GoogleAdController : MonoBehaviour {
 	}
 
 	void ShowInterstitialAd() {
-		interstitialAd = new GoogleMobileAds.Api.InterstitialAd (s ());
-		GoogleMobileAds.Api.AdRequest ar = MakeAdRequest ();
-		interstitialAd.AdLoaded = 
-		interstitialAd.LoadAd (ar);
 		interstitialAd.Show ();
 	}
 
@@ -183,7 +181,7 @@ public class GoogleAdController : MonoBehaviour {
 		switch (GamePhaseState.instance.gamePhase) {
 		case GamePhaseState.GamePhaseType.WELCOME:
 		case GamePhaseState.GamePhaseType.LEVEL_END:
-			LoadAd();
+			bannerView.LoadAd (MakeAdRequest ());
 			break;
 		}
 	}
