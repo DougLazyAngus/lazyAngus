@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
+using GoogleMobileAds.Api;
+using GoogleMobileAds.Common;
 
 public class GoogleAdController : MonoBehaviour {
 	public static GoogleAdController instance;
@@ -11,46 +14,51 @@ public class GoogleAdController : MonoBehaviour {
 	bool registeredForEvents;
 	bool adsEnabled = true;
 
-	GoogleMobileAds.Api.BannerView bannerView;
-	GoogleMobileAds.Api.InterstitialAd interstitialAd;
+	BannerView bannerView;
+	InterstitialAd interstitialAd;
 
 	public string iosBannerViewAdId;
 	public string androidBannerViewAdId;
 	public string iosInterstitialAdId;
 	public string androidInterstitialAdId;
 
-	public GamePhaseState [] acceptableGamePhases;
-
-	bool interstitialAdLoaded;
-	
 	void Awake() {
 		instance = this;
-		bannerView = new GoogleMobileAds.Api.BannerView (GetBannerAdUnitId(), 
-		                                                GoogleMobileAds.Api.AdSize.SmartBanner,
-		                                                GoogleMobileAds.Api.AdPosition.Bottom);
+		bannerView = new BannerView (GetBannerAdUnitId(), 
+		                                                AdSize.SmartBanner,
+		                                                AdPosition.Bottom);
 		bannerView.LoadAd (MakeAdRequest());
+		bannerView.AdLoaded += OnBannerAdLoaded;
 		bannerView.Hide ();
 
-		interstitialAd = new GoogleMobileAds.Api.InterstitialAd (s ());
+		PrepInterstitialAd ();
+	}
+
+
+	void PrepInterstitialAd() {
+		Debug.Log ("Setting up interstitialAd");
+		
+		interstitialAd = new InterstitialAd (GetInterstitialAdUnitId());
 		interstitialAd.AdLoaded += OnInterstitialAdLoaded;
 		interstitialAd.AdOpened += OnInterstitialAdOpened;
 		interstitialAd.AdClosed += OnInterstitialAdClosed;
-
+		interstitialAd.AdFailedToLoad += OnInterstitialAdFailedToLoad;
+		
 		interstitialAd.LoadAd (MakeAdRequest ());
 	}
 
 
-	GoogleMobileAds.Api.AdRequest MakeAdRequest() {
-		GoogleMobileAds.Api.AdRequest.Builder builder =
-			new GoogleMobileAds.Api.AdRequest.Builder();
+	AdRequest MakeAdRequest() {
+		AdRequest.Builder builder =
+			new AdRequest.Builder();
 		builder.AddKeyword("game");
 		builder.AddKeyword("cat");
 		return builder.Build();
 	}
 
-	string GetIniterstitialAdUnitId() {
+	string GetInterstitialAdUnitId() {
 		if (Application.platform == RuntimePlatform.IPhonePlayer) {
-			return iosBannerViewAdId;
+			return iosInterstitialAdId;
 		} else if (Application.platform == RuntimePlatform.Android) {
 			return androidInterstitialAdId;
 		} else {
@@ -74,33 +82,35 @@ public class GoogleAdController : MonoBehaviour {
 		UpdateBanner ();
 	}
 
-	void OnBannerAdLoaded() {
-		SFXPlayer.instance.Play (SFXPlayer.SFXType.EARN_MONEY);
-	}
-
-	void OnBannerAdFailedLoading() {
-		SFXPlayer.instance.Play (SFXPlayer.SFXType.CAMERA);
-	}
-
 	void OnDestroy() {
 		UnregisterForEvents ();		
 	}
 
-	void OnInterstitialAdLoaded() {
-		interstitialAdLoaded = true;
+	void OnBannerAdLoaded(object sender, EventArgs args) {
+		Debug.Log ("OnBannerAdLoaded");
 	}
 
-	void OnInterstitialAdOpened() {
+	void OnInterstitialAdLoaded(object sender, EventArgs args) {
+		Debug.Log ("OnInterstitialAdLoaded");
+	}
+
+	void OnInterstitialAdOpened(object sender, EventArgs args) {
+		Debug.Log ("OnInterstitialAdOpened");
 		// Quiet the music.
 		SoundController.instance.SuppressSounds ();
 	}
+	
+	void OnInterstitialAdFailedToLoad(object sender, EventArgs args) {
+		Debug.Log ("OnInterstitialAdFailedToLoad");
+		Debug.Log ("args = " + args);
+	}
 
-	void OnInterstitialAdClosed() {
-		interstitialAdLoaded = false;
+	void OnInterstitialAdClosed(object sender, EventArgs args) {
+		Debug.Log ("OnInterstitialAdClosed");
 		SoundController.instance.UnsuppressSounds ();
 
 		// Load another one.
-		interstitialAd.LoadAd (MakeAdRequest ());
+		PrepInterstitialAd ();
 	}
 
 	void RegisterForEvents() {
@@ -144,10 +154,16 @@ public class GoogleAdController : MonoBehaviour {
 	}
 
 	void ShowInterstitialAd() {
-		interstitialAd.Show ();
+		if (interstitialAd.IsLoaded ()) {
+			interstitialAd.Show ();
+		}
 	}
 
 	bool ShouldShowInterstitialAd() {
+		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.GAME_OVER) {
+			return false;
+		}
+
 		int lastInstanceAdShown = PersistentStorage.instance.GetIntValue ("lastInstanceAdShown",
 		                                                                  0);
 		if (GamePhaseState.instance.instancesFinishedThisSession < 
@@ -155,7 +171,7 @@ public class GoogleAdController : MonoBehaviour {
 			return false;
 		}
 
-		if (!interstitialAdLoaded) {
+		if (!interstitialAd.IsLoaded ()) {
 			return false;
 		}
 		
@@ -181,6 +197,7 @@ public class GoogleAdController : MonoBehaviour {
 		switch (GamePhaseState.instance.gamePhase) {
 		case GamePhaseState.GamePhaseType.WELCOME:
 		case GamePhaseState.GamePhaseType.LEVEL_END:
+			Debug.Log("Loading new banner ad");
 			bannerView.LoadAd (MakeAdRequest ());
 			break;
 		}
@@ -202,5 +219,9 @@ public class GoogleAdController : MonoBehaviour {
 			return 50;
 		}
 		return 90;
+	}
+	
+	public void DebugInterstitialAds() {
+		ShowInterstitialAd ();
 	}
 }

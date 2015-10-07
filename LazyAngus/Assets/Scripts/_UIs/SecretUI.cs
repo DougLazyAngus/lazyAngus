@@ -63,4 +63,8 @@ public class SecretUI : MonoBehaviour {
 	public void DebugShowSharing() {
 		LaunchShareWidget (100, true);
 	}
+
+	public void DebugInterstitialAds() {
+		GoogleAdController.instance.DebugInterstitialAds ();
+	}
 }
