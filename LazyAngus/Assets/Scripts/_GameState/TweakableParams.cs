@@ -5,7 +5,7 @@ public class TweakableParams : MonoBehaviour {
 
 	// Boost params.
 	public const float fastPawsPauseMultiplier = 0.001f;
-	public const float fastPawsSwipeSpeedMultiplier = 1.0f;
+	public const float fastPawsSwipeSpeedMultiplier = 2f;
 
 	public const float goodEyesAngleMultiplier = 1.6666f;
 
@@ -17,12 +17,17 @@ public class TweakableParams : MonoBehaviour {
 	public const int miceKilledPerPoison = 1;
 
 	// Player swipe params.
-	public const float baseSwipeSpeed = 14.0f;	
-	public const float swipeInitialPause = 0.5f;
-	public const float swipeExtendedPause = 0.4f;
+	public const float oldSwipeInitialPause = 0.5f;
+	public const float oldSwipeExtendSpeed = 14.0f;	
+	public const float oldSwipeExtendedPause = 0.4f;
+
+	public const float newSwipeInitialPause = 0.001f;
+	public const float newSwipeExtendSpeed = 7f;
+	public const float newSwipeExtendedPause = 0.4f;
+
+	public const float swipeRetractSpeed = 20f;
 	public const float swipeRadius = 4.6f;
 
-	public const bool swipeCancelsCurrentSwipe = false;
 
 	// Player view params.
 	public const float baseSwipeAngleRange = 90.0f;

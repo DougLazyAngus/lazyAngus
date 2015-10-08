@@ -17,16 +17,20 @@ public class PawController : MonoBehaviour {
 	private float timeStartNextSwipe;
 	private float extendedPauseStarted;
 
-	public GameObject normalPawArtGameObject;
+	public GameObject pawArtGameObject;
 	public GameObject dangerPawArtGameObject;
-
 	public GameObject bigPawArtGameObject;
 	public GameObject bigDangerPawArtGameObject;
+
+	GameObject currentPawArtGameObject;
+	GameObject currentDangerPawArtGameObject;
 
 	public CircleCollider2D normalCollider;
 	public float debugTimer;
 
-	private float swipeSpeed;
+	private float extendSwipeSpeed;
+	private float swipeRetractSpeed;
+
 	private float initialPauseLength;
 
 	private int killsThisSwipe;
@@ -39,7 +43,8 @@ public class PawController : MonoBehaviour {
 
 	public GameObject timerWidgetPrototype;
 	TimerWidget timerWidget;
-	
+
+
 	void Awake() {
 		registerdForEvents = false;
 	}
@@ -47,8 +52,10 @@ public class PawController : MonoBehaviour {
 	void Start() {
 		swipePhase = SwipePhase.NONE;
 
-		swipeSpeed = TweakableParams.baseSwipeSpeed;
-		initialPauseLength = TweakableParams.swipeInitialPause;
+		UpdateVariableSwipeParams ();
+		UpdatePawSize ();
+		SetPawArtForCurrentPhase ();
+		swipeRetractSpeed = TweakableParams.swipeRetractSpeed;
 
 		transform.localPosition = pawHomeCatTransform.localPosition;
 		pawHomeCatTransformMagnitude = pawHomeCatTransform.localPosition.magnitude;
@@ -57,7 +64,6 @@ public class PawController : MonoBehaviour {
 		normalCollider.radius = TweakableParams.normalPawRadius;
 
 		RegisterForEvents ();
-		UpdatePawState ();
 		UpdateArmRotation ();
 	}
 
@@ -76,23 +82,33 @@ public class PawController : MonoBehaviour {
 		}
 	}
 
+	void UpdateVariableSwipeParams(BoostConfig.BoostType newType = BoostConfig.BoostType.NUM_TYPES,
+	                               BoostConfig.BoostType oldType = BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS) {
+		if (UseOldPaws ()) {
+			if (newType == BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS) {
+				initialPauseLength = (TweakableParams.fastPawsPauseMultiplier * 
+					TweakableParams.oldSwipeInitialPause);
+			} else if (oldType == BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS) {
+				initialPauseLength = TweakableParams.oldSwipeInitialPause;			
+			}
+			extendSwipeSpeed = TweakableParams.oldSwipeExtendSpeed;
+		} else {
+			initialPauseLength = 0;
+			if (newType == BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS) {
+				extendSwipeSpeed = (TweakableParams.fastPawsSwipeSpeedMultiplier * 
+					TweakableParams.newSwipeExtendSpeed);
+			} else if (oldType == BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS) {
+				extendSwipeSpeed = TweakableParams.newSwipeExtendSpeed;			
+			}		
+		}
+	}
+
+
 	void OnBoostUsageChanged(BoostConfig.BoostType newType, 
 	                         BoostConfig.BoostType oldType) {
-		if (newType == BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS) {
-			swipeSpeed = (TweakableParams.fastPawsSwipeSpeedMultiplier * 
-			              TweakableParams.baseSwipeSpeed);
-			initialPauseLength = (TweakableParams.fastPawsPauseMultiplier * 
-			                      TweakableParams.swipeInitialPause);
+		UpdateVariableSwipeParams (newType, oldType);
 
-		} else if (oldType == BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS) {
-			swipeSpeed = TweakableParams.baseSwipeSpeed;
-			initialPauseLength = TweakableParams.swipeInitialPause;			
-		}
-
-		if (newType == BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS || 
-		    oldType == BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS) {
-			UpdatePawState();
-		}
+		UpdatePawSize (newType, oldType);
 	}
 
 	void Update() {
@@ -108,7 +124,8 @@ public class PawController : MonoBehaviour {
 		switch (swipePhase) {
 		case SwipePhase.EXTENDING:
 		{
-			if (MovePawTowards (currentSwipeLocationCat)) {
+			if (MovePawTowards (currentSwipeLocationCat, 
+			                    extendSwipeSpeed)) {
 				RemoveTimer ();
 				SetPhase(SwipePhase.EXTENDED_PAUSE);
 			}
@@ -117,17 +134,30 @@ public class PawController : MonoBehaviour {
 		case SwipePhase.EXTENDED_PAUSE:
 		{
 			float timeNow = Time.time;
-			if (timeNow - extendedPauseStarted > TweakableParams.swipeExtendedPause) {
+			if (timeNow - extendedPauseStarted > GetExtendedPauseLength()) { 
 				SetPhase(SwipePhase.NONE);
 			}
 			break;
 		}
 		case SwipePhase.NONE: 
-			MovePawTowards (pawHomeCatTransform.localPosition);
+			MovePawTowards (pawHomeCatTransform.localPosition, 
+			                swipeRetractSpeed);
 			break;
 		}
 	}
-	
+
+	bool UseOldPaws() {
+		return DebugConfig.instance.IsDebugFlagSet (DebugConfig.DEBUG_USE_OLD_PAWS);
+	}
+
+	float GetExtendedPauseLength() {
+		if (UseOldPaws()) { 
+			return TweakableParams.oldSwipeExtendedPause;
+		} else {
+			return TweakableParams.newSwipeExtendedPause;
+		}
+	}
+
 	void SetPhase(SwipePhase newPhase) {
 		SwipePhase oldPhase = swipePhase;
 		swipePhase = newPhase;
@@ -145,51 +175,53 @@ public class PawController : MonoBehaviour {
 			PlayRandomSound ();
 		}
 
-		UpdatePawState ();
+		SetPawArtForCurrentPhase ();
 	}
 
 	void PlayRandomSound() {
 		SFXPlayer.instance.PlayRandom(SFXPlayer.SFXTypeGroup.PAW_SWIPE,
 		                              0.2f);
-	}
+	}	
 
-	void UpdatePawState() {
-		if (BoostConfig.instance.activeBoost == BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS) {
+	void UpdatePawSize(BoostConfig.BoostType newType = BoostConfig.BoostType.NUM_TYPES,
+	                   BoostConfig.BoostType oldType = BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS) {
+		if (newType == BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS) {
 			dangerPawArtGameObject.SetActive (false);
-			normalPawArtGameObject.SetActive (false);
+			pawArtGameObject.SetActive (false);
+
+			currentPawArtGameObject = bigPawArtGameObject;
+			currentDangerPawArtGameObject = bigDangerPawArtGameObject;
 
 			normalCollider.radius = TweakableParams.bigPawsMultiplier * TweakableParams.normalPawRadius;
-
-			if (swipePhase == SwipePhase.EXTENDED_PAUSE) {
-				bigDangerPawArtGameObject.SetActive (true);
-				bigPawArtGameObject.SetActive (false);
-			} else {
-				bigDangerPawArtGameObject.SetActive (false);
-				bigPawArtGameObject.SetActive (true);
-			}
-		} else {
+		
+			SetPawArtForCurrentPhase();
+		} else if (oldType == BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS) {
 			bigDangerPawArtGameObject.SetActive (false);
 			bigPawArtGameObject.SetActive (false);
-
+			
+			currentPawArtGameObject = pawArtGameObject;
+			currentDangerPawArtGameObject = dangerPawArtGameObject;
+			
 			normalCollider.radius = TweakableParams.normalPawRadius;
-
-			if (swipePhase == SwipePhase.EXTENDED_PAUSE) {
-				dangerPawArtGameObject.SetActive (true);
-				normalPawArtGameObject.SetActive (false);
-			} else {
-				dangerPawArtGameObject.SetActive (false);
-				normalPawArtGameObject.SetActive (true);
-			}
+			
+			SetPawArtForCurrentPhase();
 		}
-
+	}
+	
+	void SetPawArtForCurrentPhase() {
 		if (swipePhase == SwipePhase.EXTENDED_PAUSE) {
 			normalCollider.isTrigger = true;
+			currentDangerPawArtGameObject.SetActive (true);
+			currentPawArtGameObject.SetActive (false);
 		} else {
 			normalCollider.isTrigger = false;
+			currentDangerPawArtGameObject.SetActive (false);
+			currentPawArtGameObject.SetActive (true);
 		}
 	}
 
-	bool MovePawTowards(Vector3 targetLocationCat) {
+	bool MovePawTowards(Vector3 targetLocationCat, 
+	                    float speed) {
 		targetLocationCat.z = 0.0f;
 		// This should never be closer to the cat than the home pos itself.  If so, just 
 		// ignore.
@@ -203,7 +235,7 @@ public class PawController : MonoBehaviour {
 
 		Vector3 directionCat = targetLocationCat - pawLocationCat;
 		float deltaTime = Time.deltaTime;
-		float moveDistance = swipeSpeed * deltaTime;
+		float moveDistance = speed * deltaTime;
 		float actualDistance = directionCat.magnitude;
 
 		if (actualDistance == 0) { 
@@ -237,7 +269,7 @@ public class PawController : MonoBehaviour {
 	public void Swipe(Vector3 location) {
 		nextSwipeLocationCat = location;
 
-		if (TweakableParams.swipeCancelsCurrentSwipe || timeStartNextSwipe == 0) {
+		if (timeStartNextSwipe == 0) {
 			timeStartNextSwipe = Time.time + initialPauseLength;
 		}
 	}
@@ -263,6 +295,11 @@ public class PawController : MonoBehaviour {
 	}
 
 	bool ShouldHaveTimer() {
+		if (!UseOldPaws ()) {
+			return false;
+		}
+		
+
 		return (Time.time < timeStartNextSwipe);
 	}
 
