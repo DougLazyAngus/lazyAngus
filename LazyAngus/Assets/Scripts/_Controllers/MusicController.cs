@@ -152,15 +152,16 @@ public class MusicController : MonoBehaviour {
 	}
 
 	void OnGamePhaseChanged() {
-		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.LEVEL_PLAY &&
-			GameLevelState.instance.gameLevel > altMusicCutoff) {
-			Random.seed = GetRandomSeed ();
-			float testValue = Random.Range (0f, 1f);
-			useAltMusic = (testValue < altMusicLikelihood);
-			altBoostType = Utilities.RandomElementFromArray<MusicType> (altBoosts);
-			altPlayType = Utilities.RandomElementFromArray<MusicType> (altPlays);				
-		} else {
-			useAltMusic = false;
+		useAltMusic = false;
+		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.LEVEL_PLAY ||
+		    GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.PENDING) {
+			if (GameLevelState.instance.gameLevel > altMusicCutoff) {
+				Random.seed = GetRandomSeed ();
+				float testValue = Random.Range (0f, 1f);
+				useAltMusic = (testValue < altMusicLikelihood);
+				altBoostType = Utilities.RandomElementFromArray<MusicType> (altBoosts);
+				altPlayType = Utilities.RandomElementFromArray<MusicType> (altPlays);				
+			} 
 		}
 
 		UpdateAllMusic ();
