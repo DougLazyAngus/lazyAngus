@@ -42,7 +42,7 @@ public class RealAngusController : MonoBehaviour {
 	Vector2 textWidgetLocation;
 	Vector2 textWidgetOffscreenLocation;
 	public float textToButtonXRatio = 0.9f;
-	public float textToButtonYRatio = 0.8f;
+	public float textToButtonYRatio = 1.1f;
 
 	float screenWidth;
 	float screenHeight;
