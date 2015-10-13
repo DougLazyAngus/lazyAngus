@@ -31,6 +31,8 @@ public class MusicController : MonoBehaviour {
 		LEVEL_PLAY_ALT_02,
 		LEVEL_PLAY_ALT_03,
 
+		LOSING,
+
 		NUM_TYPES,
 	}
 	
@@ -93,6 +95,8 @@ public class MusicController : MonoBehaviour {
 		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_01, "level_play.alt.01");
 		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_02, "level_play.alt.02");
 		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_03, "level_play.alt.03");
+
+		LoadAudioSource (MusicType.LOSING, "loser");
 	}
 
 
@@ -203,46 +207,64 @@ public class MusicController : MonoBehaviour {
 		return audioSources [(int)playTypes [index]];
 	}
 
+	AudioSource GetDesiredPlayMusic() {
+		if (BoostConfig.instance.IsBoostActive()) {
+			return GetBoostMusic();
+		} else {
+			return GetLevelPlayMusic();
+		}
+	}
+
+	AudioSource GetDesiredMusic() {
+		if (SoundController.instance.musicMuted) {
+			return null;
+		}
+
+		switch (GamePhaseState.instance.gamePhase) {
+		case GamePhaseState.GamePhaseType.LEVEL_PLAY:
+			return GetDesiredPlayMusic();
+		case GamePhaseState.GamePhaseType.PENDING:
+			if (GamePhaseState.instance.pendingPhase == GamePhaseState.GamePhaseType.GAME_OVER) {
+				return audioSources[(int)MusicType.LOSING];
+			} else {
+				return GetDesiredPlayMusic();
+			}
+		case GamePhaseState.GamePhaseType.REAL_ANGUS:
+			return audioSources[(int)MusicType.REAL_ANGUS];
+		case GamePhaseState.GamePhaseType.WELCOME:
+			return audioSources[(int)MusicType.WELCOME];
+		case GamePhaseState.GamePhaseType.GAME_OVER:
+		case GamePhaseState.GamePhaseType.INFO:
+			return audioSources[(int)MusicType.GAME_OVER];
+		case GamePhaseState.GamePhaseType.LEVEL_END:
+			return audioSources[(int)MusicType.LEVEL_END];
+		default:
+			return null;
+		}
+	}
+
+	float GetDesiredMusicPause() {
+		switch (GamePhaseState.instance.gamePhase) {
+		case GamePhaseState.GamePhaseType.REAL_ANGUS:
+			return 1f;
+		case GamePhaseState.GamePhaseType.GAME_OVER:
+		case GamePhaseState.GamePhaseType.INFO:
+			return 0.7f;
+		default:
+			return 0;
+		}	
+	}
+
 	// Update is called once per frame
 	void UpdateAllMusic () {
-		AudioSource desiredMusic = null;
-		float pause = 0;
-
-		if (!SoundController.instance.musicMuted) {
-			switch (GamePhaseState.instance.gamePhase) {
-			case GamePhaseState.GamePhaseType.LEVEL_PLAY:
-			case GamePhaseState.GamePhaseType.PENDING:
-				if (BoostConfig.instance.IsBoostActive()) {
-					desiredMusic = GetBoostMusic();
-				} else {
-					desiredMusic = GetLevelPlayMusic();
-				}
-				break;
-			case GamePhaseState.GamePhaseType.REAL_ANGUS:
-				desiredMusic = audioSources[(int)MusicType.REAL_ANGUS];
-				pause = 1f;
-				break;
-			case GamePhaseState.GamePhaseType.WELCOME:
-				desiredMusic = audioSources[(int)MusicType.WELCOME];
-				break;
-			case GamePhaseState.GamePhaseType.GAME_OVER:
-			case GamePhaseState.GamePhaseType.INFO:
-				desiredMusic = audioSources[(int)MusicType.GAME_OVER];
-				pause = 0.7f;
-				break;
-			case GamePhaseState.GamePhaseType.LEVEL_END:
-				desiredMusic = audioSources[(int)MusicType.LEVEL_END];
-				break;
-			default:
-				desiredMusic = null;
-				break;
-			}
-		}
+		AudioSource desiredMusic = GetDesiredMusic ();
 
 		if (desiredMusic == currentMusic) {
 			// All good.
 			return;
 		}
+
+		float pause = GetDesiredMusicPause ();
 
 		// Stop current, start desired.
 		FadeOutMusic(currentMusic);

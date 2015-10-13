@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class PawController : MonoBehaviour {
@@ -6,6 +6,7 @@ public class PawController : MonoBehaviour {
 		NONE = 0,
 		EXTENDING,
 		EXTENDED_PAUSE,
+		RETRACTING,
 		NUM_PHASES,
 	};
 
@@ -135,6 +136,14 @@ public class PawController : MonoBehaviour {
 		{
 			float timeNow = Time.time;
 			if (timeNow - extendedPauseStarted > GetExtendedPauseLength()) { 
+				SetPhase(SwipePhase.RETRACTING);
+			}
+			break;
+		}
+		case SwipePhase.RETRACTING:
+		{
+			if (MovePawTowards (pawHomeCatTransform.localPosition, 
+			                    swipeRetractSpeed)) {
 				SetPhase(SwipePhase.NONE);
 			}
 			break;
@@ -147,7 +156,7 @@ public class PawController : MonoBehaviour {
 	}
 
 	bool UseOldPaws() {
-		return DebugConfig.instance.IsDebugFlagSet (DebugConfig.DEBUG_USE_OLD_PAWS);
+		return DebugConfig.instance.IsDebugFlagSet (DebugConfig.DEBUG_PAWS_FAST_EXTEND);
 	}
 
 	float GetExtendedPauseLength() {
@@ -266,12 +275,19 @@ public class PawController : MonoBehaviour {
 		transform.localRotation = Quaternion.Euler (0f, 0f, rotateRadians * Mathf.Rad2Deg);
 	}
 
-	public void Swipe(Vector3 location) {
+	public bool Swipe(Vector3 location) {
+		if (DebugConfig.instance.IsDebugFlagSet (DebugConfig.DEBUG_PAWS_REQUIRE_RETRACTION)) {
+			if (swipePhase == SwipePhase.EXTENDED_PAUSE || 
+			    swipePhase == SwipePhase.RETRACTING) {
+				return false;
+			}
+		}
 		nextSwipeLocationCat = location;
 
 		if (timeStartNextSwipe == 0) {
 			timeStartNextSwipe = Time.time + initialPauseLength;
 		}
+		return true;
 	}
 
 	public void CancelSwipe() {

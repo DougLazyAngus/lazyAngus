@@ -138,7 +138,7 @@ public class SFXPlayer : MonoBehaviour {
 		
 		LoadAudioSource (SFXType.EARN_MONEY, "money.01");
 
-		LoadAudioSource (SFXType.MOUSE_ESCAPE, "Mouse_marimba");
+		LoadAudioSource (SFXType.MOUSE_ESCAPE, "loser");
 	}
 
 

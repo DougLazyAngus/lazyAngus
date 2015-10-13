@@ -15,8 +15,9 @@ public class DebugConfig : MonoBehaviour {
 	public const int DEBUG_UI_FOR_APPLE = 1;
 	public const int DEBUG_RATE_ME_DIALOG = 2;
 	public const int DEBUG_SKIP_WELCOME = 3;
-	public const int DEBUG_USE_OLD_PAWS = 4;
+	public const int DEBUG_PAWS_FAST_EXTEND = 4;
 	public const int DEBUG_NON_APPLE_SHARING = 5;
+	public const int DEBUG_PAWS_REQUIRE_RETRACTION = 6;
 
 	int debugFlags = 0;
 	
