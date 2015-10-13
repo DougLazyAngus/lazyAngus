@@ -19,8 +19,9 @@ public class SocialMediaButtons : MonoBehaviour {
 	}
 
 	void UpdateButtonAvailability() {
-		if (Application.platform == RuntimePlatform.IPhonePlayer || 
-		    DebugConfig.instance.IsDebugFlagSet(DebugConfig.DEBUG_UI_FOR_APPLE)) {
+		if (!DebugConfig.instance.IsDebugFlagSet(DebugConfig.DEBUG_NON_APPLE_SHARING) && (
+		    Application.platform == RuntimePlatform.IPhonePlayer || 
+		    DebugConfig.instance.IsDebugFlagSet(DebugConfig.DEBUG_UI_FOR_APPLE))) {
 			fbButton.gameObject.SetActive (false);
 			twitterButton.gameObject.SetActive (false);
 			shareButton.gameObject.SetActive (true);
