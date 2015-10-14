@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 using System.Collections;
+using System.Collections.Generic;
 
 public class GameCenterButtons : MonoBehaviour {
 	public Button leaderBoardButton;
@@ -16,12 +17,26 @@ public class GameCenterButtons : MonoBehaviour {
 	}
 
 	void UpdateButtonAvailability() {
+		GameObject [] buttons;
+		 
 		if (GameCenterHelper.instance.IsEnabled () || 
 		    DebugConfig.instance.IsDebugFlagSet(DebugConfig.DEBUG_UI_FOR_APPLE)) {
-			gameObject.SetActive (true);
+			buttons = new GameObject[3];
+			buttons[0] = leaderBoardButton.gameObject;
+			buttons[1] = achievementButton.gameObject;
+			buttons[2] = rateMeButton.gameObject;
+			leaderBoardButton.gameObject.SetActive (true);
+			achievementButton.gameObject.SetActive (true);
+			rateMeButton.gameObject.SetActive (true);
 		} else {
-			gameObject.SetActive (false);
+			buttons = new GameObject[1];
+			buttons[0] = rateMeButton.gameObject;
+			leaderBoardButton.gameObject.SetActive (false);
+			achievementButton.gameObject.SetActive (false);
+			rateMeButton.gameObject.SetActive (true);
 		}
+
+		Utilities.SpaceHorizontally (Screen.width, buttons, 0);
 	}
 
 	public void ShowLeaderboard() {
