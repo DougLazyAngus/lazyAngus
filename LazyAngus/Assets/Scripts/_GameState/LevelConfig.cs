@@ -269,16 +269,16 @@ public class LevelConfig : MonoBehaviour
 		*/
 		
 		ld = GetLevelDescription (6);
-		ld.previousLevelClearedAchievementID = "Wave5";
+		ld.previousLevelClearedAchievementID = "grp.Wave05";
 		
 		ld = GetLevelDescription (11);
-		ld.previousLevelClearedAchievementID = "Wave10";
+		ld.previousLevelClearedAchievementID = "grp.Wave10";
 		
 		ld = GetLevelDescription (21);
-		ld.previousLevelClearedAchievementID = "Wave20";
+		ld.previousLevelClearedAchievementID = "grp.Wave20";
 		
 		ld = GetLevelDescription (41);
-		ld.previousLevelClearedAchievementID = "Wave40";
+		ld.previousLevelClearedAchievementID = "grp.Wave40";
 	}
 
 	void FillOutPresetGameLevelSkeletons ()

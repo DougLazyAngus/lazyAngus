@@ -97,6 +97,7 @@ public class MusicController : MonoBehaviour {
 		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_03, "level_play.alt.03");
 
 		LoadAudioSource (MusicType.LOSING, "loser");
+		audioSources [(int)(MusicType.LOSING)].loop = false;
 	}
 
 

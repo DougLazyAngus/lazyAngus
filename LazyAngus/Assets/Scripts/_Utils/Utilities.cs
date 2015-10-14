@@ -14,7 +14,8 @@ using System.Linq;
 
 public class Utilities
 {
-	public const string appImageURL = "http://pixabay.com/static/uploads/photo/2012/05/07/03/24/baby-47809_640.png";
+	// This is the URL to the image used on the main page of godaddy site...
+	public const string appImageURL = "http://nebula.wsimg.com/611a713276e26f2cd56cc191c0e4696e?AccessKeyId=2792D9DFAFECCAC1D46A&disposition=0&alloworigin=1";
 	public const string appURL = "http://www.lazyangus.com/";
 
 	public static float GetZAngle (Vector3 vector)

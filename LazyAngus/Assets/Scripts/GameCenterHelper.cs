@@ -4,7 +4,7 @@ using UnityEngine.SocialPlatforms;
 using UnityEngine.SocialPlatforms.GameCenter;
 
 public class GameCenterHelper : MonoBehaviour {
-	public string leaderboardID = "LazyAngusBeta2";
+	public string leaderboardID = "grp.LazyAngusBeta2";
 	public static GameCenterHelper instance;
 	
 	bool socialHelperEnabled;
@@ -60,7 +60,7 @@ public class GameCenterHelper : MonoBehaviour {
 		yield return new WaitForSeconds (2);
 		Debug.Log ("DebugScoreAndAchievement: part 2");
 		//		DebugReportScore ();
-		CustomReportAchievement ("QuadKill");
+		CustomReportAchievement ("grp.QuadKill");
 	}
 
 	public void ClearAchievements() {
