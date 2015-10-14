@@ -314,9 +314,7 @@ public class MouseMove : MonoBehaviour
 		distortForEffect.minScale = 1;
 		distortForEffect.additionalScale = 2;
 		distortForEffect.secondsPerPeriod = 1;
-		distortForEffect.Distort ();
-		
-		SFXPlayer.instance.Play (SFXPlayer.SFXType.MOUSE_ESCAPE);
+		distortForEffect.Distort ();		
 	}
 
 	void FixedUpdate ()

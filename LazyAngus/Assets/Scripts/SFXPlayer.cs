@@ -12,6 +12,9 @@ public class SFXPlayer : MonoBehaviour {
 		COMIC_VIOLENCE_00,
 		COMIC_VIOLENCE_01,
 		COMIC_VIOLENCE_02,
+		COMIC_VIOLENCE_03,
+		COMIC_VIOLENCE_04,
+		COMIC_VIOLENCE_05,
 
 		MOUSE_SQUEAK_00,
 		MOUSE_SQUEAK_01,
@@ -29,8 +32,6 @@ public class SFXPlayer : MonoBehaviour {
 		CAMERA,
 
 		EARN_MONEY,
-
-		MOUSE_ESCAPE,
 
 		ESCAPING_00, 
 		ESCAPING_01, 
@@ -54,6 +55,9 @@ public class SFXPlayer : MonoBehaviour {
 		SFXType.COMIC_VIOLENCE_00, 
 		SFXType.COMIC_VIOLENCE_01,
 		SFXType.COMIC_VIOLENCE_02,
+		SFXType.COMIC_VIOLENCE_03,
+		SFXType.COMIC_VIOLENCE_04,
+		SFXType.COMIC_VIOLENCE_05,
 	};
 	
 	SFXPlayer.SFXType [] mouseSqueakIds = {
@@ -94,6 +98,18 @@ public class SFXPlayer : MonoBehaviour {
 		LoadAudioSource (SFXType.COMIC_VIOLENCE_00, "Boing_3");
 		LoadAudioSource (SFXType.COMIC_VIOLENCE_01, "Boing_4");
 		LoadAudioSource (SFXType.COMIC_VIOLENCE_02, "boingding");
+		LoadAudioSource (SFXType.COMIC_VIOLENCE_03, "Boing_3");
+		LoadAudioSource (SFXType.COMIC_VIOLENCE_04, "Boing_4");
+		LoadAudioSource (SFXType.COMIC_VIOLENCE_05, "boingding");
+
+		audioSources [(int)SFXType.COMIC_VIOLENCE_03].pitch = 1.3f;
+		audioSources [(int)SFXType.COMIC_VIOLENCE_03].volume = 1.85f;
+		
+		audioSources [(int)SFXType.COMIC_VIOLENCE_04].pitch = 1.3f;
+		audioSources [(int)SFXType.COMIC_VIOLENCE_04].volume = 0.85f;
+		
+		audioSources [(int)SFXType.COMIC_VIOLENCE_05].pitch = 1.3f;
+		audioSources [(int)SFXType.COMIC_VIOLENCE_05].volume = 0.85f;
 
 		LoadAudioSource (SFXType.MOUSE_SQUEAK_00, "squeak.01");
 		LoadAudioSource (SFXType.MOUSE_SQUEAK_01, "squeak.01");
@@ -137,8 +153,6 @@ public class SFXPlayer : MonoBehaviour {
 		audioSources [(int)SFXType.CAMERA].volume = 0.3f;
 		
 		LoadAudioSource (SFXType.EARN_MONEY, "money.01");
-
-		LoadAudioSource (SFXType.MOUSE_ESCAPE, "loser");
 	}
 
 
@@ -191,6 +205,8 @@ public class SFXPlayer : MonoBehaviour {
 		int index = Random.Range (0, types.Length);
 		AudioSource asource = audioSources[(int)types[index]];
 		asource.PlayDelayed(delay);
+
+		Debug.Log ("Pitch = " + asource.pitch);
 	}
 
 
