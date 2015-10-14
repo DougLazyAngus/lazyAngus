@@ -40,16 +40,16 @@ public class AchievementController : MonoBehaviour {
 	void OnMultiKill(int numKilled, Vector3 pawPosition) {
 		switch (numKilled) {
 		case 2:
-			GameCenterHelper.instance.RecordAchievement ("DoubleKill");
+			GameCenterHelper.instance.RecordAchievement ("grp.DoubleKill");
 			break;
 		case 3:
-			GameCenterHelper.instance.RecordAchievement ("TripleKill");
+			GameCenterHelper.instance.RecordAchievement ("grp.TripleKill");
 			break;
 		case 4:
-			GameCenterHelper.instance.RecordAchievement ("QuadKill");
+			GameCenterHelper.instance.RecordAchievement ("grp.QuadKill");
 			break;
 		case 5:
-			GameCenterHelper.instance.RecordAchievement ("UltraKill");
+			GameCenterHelper.instance.RecordAchievement ("grp.UltraKill");
 			break;
 		}
 	}

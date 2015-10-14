@@ -14,8 +14,8 @@ using System.Linq;
 
 public class Utilities
 {
-	// This is the URL to the image used on the main page of godaddy site...
-	public const string appImageURL = "http://nebula.wsimg.com/611a713276e26f2cd56cc191c0e4696e?AccessKeyId=2792D9DFAFECCAC1D46A&disposition=0&alloworigin=1";
+	// The image as stored in FB.
+	public const string appImageURL = "https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xta1/t39.2081-0/p128x128/12056983_909781522423575_874343504_n.png";
 	public const string appURL = "http://www.lazyangus.com/";
 
 	public static float GetZAngle (Vector3 vector)
