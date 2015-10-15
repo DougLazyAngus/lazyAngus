@@ -31,8 +31,6 @@ public class MusicController : MonoBehaviour {
 		LEVEL_PLAY_ALT_02,
 		LEVEL_PLAY_ALT_03,
 
-		LOSING,
-
 		NUM_TYPES,
 	}
 	
@@ -95,9 +93,6 @@ public class MusicController : MonoBehaviour {
 		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_01, "level_play.alt.01");
 		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_02, "level_play.alt.02");
 		LoadAudioSource (MusicType.LEVEL_PLAY_ALT_03, "level_play.alt.03");
-
-		LoadAudioSource (MusicType.LOSING, "loser");
-		audioSources [(int)(MusicType.LOSING)].loop = false;
 	}
 
 
@@ -117,7 +112,7 @@ public class MusicController : MonoBehaviour {
 
 	void LoadAudioSource(MusicType type, string resourceName) {
 		GameObject fadeableAudioSourceObject = Instantiate (fadeableAudioSourcePrototype, 
-		                                         new Vector3 (0, 0, 0), 
+		                                                    new Vector3 (0, 0, 0), 
 		                                                    Quaternion.identity) as GameObject;
 
 		AudioSource audioSource = fadeableAudioSourceObject.GetComponent<AudioSource> ();
@@ -226,7 +221,7 @@ public class MusicController : MonoBehaviour {
 			return GetDesiredPlayMusic();
 		case GamePhaseState.GamePhaseType.PENDING:
 			if (GamePhaseState.instance.pendingPhase == GamePhaseState.GamePhaseType.GAME_OVER) {
-				return audioSources[(int)MusicType.LOSING];
+				return null;
 			} else {
 				return GetDesiredPlayMusic();
 			}

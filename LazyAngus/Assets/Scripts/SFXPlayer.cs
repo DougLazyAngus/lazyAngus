@@ -37,6 +37,8 @@ public class SFXPlayer : MonoBehaviour {
 		ESCAPING_01, 
 		ESCAPING_02, 
 
+		LOSER,
+
 		NUM_TYPES,
 	};
 
@@ -153,6 +155,8 @@ public class SFXPlayer : MonoBehaviour {
 		audioSources [(int)SFXType.CAMERA].volume = 0.3f;
 		
 		LoadAudioSource (SFXType.EARN_MONEY, "money.01");
+		
+		LoadAudioSource (SFXType.LOSER, "loser");
 	}
 
 

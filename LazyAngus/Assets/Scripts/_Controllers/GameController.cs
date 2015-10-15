@@ -148,6 +148,7 @@ public class GameController : MonoBehaviour {
 		// Add new game over logic.
 		MouseSinkController doomedExit = FindDoomedExit();		
 		if (doomedExit != null) {
+			SFXPlayer.instance.Play(SFXPlayer.SFXType.LOSER);
 			GamePhaseState.instance.TransitionWithPause (GamePhaseState.GamePhaseType.GAME_OVER);
 			return true;
 		} else {
