@@ -4,7 +4,7 @@ using UnityEngine.SocialPlatforms;
 using UnityEngine.SocialPlatforms.GameCenter;
 
 public class GameCenterHelper : MonoBehaviour {
-	public string leaderboardID = "grp.LazyAngusBeta2";
+	string leaderboardID = "grp.LazyAngusBeta2";
 	public static GameCenterHelper instance;
 	
 	bool socialHelperEnabled;
@@ -13,7 +13,7 @@ public class GameCenterHelper : MonoBehaviour {
 	extern static public bool CustomReportAchievement(string achievementID);
 	
 	[System.Runtime.InteropServices.DllImport("__Internal")]
-	extern static public bool CustomClearAchivements();
+	extern static public bool CustomClearAchievements();
 	
 
 	void Awake() {
@@ -59,19 +59,18 @@ public class GameCenterHelper : MonoBehaviour {
 		Debug.Log ("DebugScoreAndAchievement: part 1");
 		yield return new WaitForSeconds (2);
 		Debug.Log ("DebugScoreAndAchievement: part 2");
-		//		DebugReportScore ();
 		CustomReportAchievement ("grp.QuadKill");
 	}
 
 	public void ClearAchievements() {
-		CustomClearAchivements();
+		CustomClearAchievements();
 	}
 
 	public void ReportScore(int score) {
-		Debug.Log ("SocialHelper: ReportScore");
+		Debug.Log ("SocialHelper: ReportScore " + score + " to " + leaderboardID);
 		if (socialHelperEnabled && Social.localUser.authenticated) {
 			Social.ReportScore(score, leaderboardID, success => {
-				Debug.Log ("Reported score = " + success);
+				Debug.Log ("Reported score " + score + " to " + leaderboardID + ": " + success);				 
 			});
 		}
 	}
@@ -102,6 +101,7 @@ public class GameCenterHelper : MonoBehaviour {
 
 		Authenticate (success => {
 			if (Application.platform == RuntimePlatform.IPhonePlayer) {
+				Debug.Log ("Showing leaderboard: " + leaderboardID);
 				GameCenterPlatform.ShowLeaderboardUI (leaderboardID, 
 			    	                                  TimeScope.Today);
 			}

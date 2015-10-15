@@ -65,8 +65,9 @@ extern "C" {
   }
    */
   
-  void DebugReportScore() {
-    GKScore *score = [[GKScore alloc] initWithLeaderboardIdentifier:@"LazyAngusBeta2"];
+  void DebugReportScore(char const * leaderboardIDCC) {
+    NSString* leaderboardID = [NSString stringWithUTF8String:leaderboardIDCC];
+    GKScore *score = [[GKScore alloc] initWithLeaderboardIdentifier:leaderboardID];
     score.value = 234;
     
     [GKScore reportScores:@[score] withCompletionHandler:^(NSError *error) {
@@ -77,7 +78,7 @@ extern "C" {
   }
   
   // sic
-  BOOL CustomClearAchivements() {
+  BOOL CustomClearAchievements() {
     [GKAchievement resetAchievementsWithCompletionHandler:^(NSError *error) {
       if (error) {
         NSLog(@"Error ===> %@", error);
