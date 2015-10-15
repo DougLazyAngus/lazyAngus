@@ -40,7 +40,7 @@ public class SizeCamera : MonoBehaviour {
 
 	public void Configure(float screenPixelsBottomToIgnore) {
 		float focusHeightInPixels = (float)Screen.height - (screenPixelsTopCameraSlop + screenPixelsBottomToIgnore);
-		float actualHeightInPixels = (float)Screen.height - (screenPixelsBottomToIgnore);
+		float actualHeightInPixels = (float)Screen.height;
 
 		finalAspectRatio = (float)Screen.width / focusHeightInPixels;
 		
@@ -54,14 +54,14 @@ public class SizeCamera : MonoBehaviour {
 			focusWorldHalfHeight = focusWorldHalfWidth / finalAspectRatio;
 		}
 
-		float pixelsToWorldScale = focusWorldHalfHeight / focusHeightInPixels;
-		float actualWorldHalfHeight = actualHeightInPixels * pixelsToWorldScale;
+		float pixelsToWorldScale = 2 * focusWorldHalfHeight / focusHeightInPixels;
+		float actualWorldHalfHeight = (actualHeightInPixels * pixelsToWorldScale)/2;
 		
 		finalActualWorldHalfHeight = actualWorldHalfHeight;
 		UpdateCameraSize ();
 
-		float actualWorldSlop = 2 * actualWorldHalfHeight - 2 * focusWorldHalfHeight;
-		float yAdjust = actualWorldSlop/2;
+		float pixelsOffset = (screenPixelsTopCameraSlop - screenPixelsBottomToIgnore) / 2;
+		float yAdjust = pixelsOffset * pixelsToWorldScale;
 
 		Vector3 newPos = new Vector3 (0, yAdjust, 0);
 		newPos = myCamera.transform.TransformVector(newPos);
@@ -71,13 +71,12 @@ public class SizeCamera : MonoBehaviour {
 		Rect rect = myCamera.rect;  
 		
 		// Camera always goes all the way across....
-		float bottomViewport = screenPixelsBottomToIgnore / (float)Screen.height;
 		float heightViewport = actualHeightInPixels / (float)Screen.height;
 		
 		rect.width = 1f;
 		rect.height = heightViewport;
 		rect.x = 0;
-		rect.y = bottomViewport;
+		rect.y = 0;
 		
 		myCamera.rect = rect;
 
