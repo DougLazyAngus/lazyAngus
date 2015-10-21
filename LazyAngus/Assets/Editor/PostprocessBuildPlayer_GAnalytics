@@ -21,4 +21,5 @@ pbx_object.add_framework_search_paths([path.abspath(framework_dir)])
 for framework in frameworks:
     pbx_object.add_file('System/Library/' + framework, tree='SDKROOT')
 
+
 pbx_object.save()

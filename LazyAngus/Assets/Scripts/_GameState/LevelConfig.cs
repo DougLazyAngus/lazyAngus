@@ -41,7 +41,7 @@ public class LevelDescription
 
 	public int gameLevel;
 
-	public string previousLevelClearedAchievementID;
+	public GameCenterHelper.AchievementID previousLevelClearedAchievementID;
 
 	public Accumulator realAngusAccumulator;
 		
@@ -55,7 +55,7 @@ public class LevelDescription
 		spriteScale = 1f;
 		spriteYOffset = 0;
 
-		previousLevelClearedAchievementID = null;
+		previousLevelClearedAchievementID = GameCenterHelper.AchievementID.NUM_VALUES;
 
 		mouseHolesAccumulator = new EnumAccumulator<MouseSinkController.MouseHoleLocation> (
 			(int)MouseSinkController.MouseHoleLocation.NUM_TYPES);
@@ -269,16 +269,16 @@ public class LevelConfig : MonoBehaviour
 		*/
 		
 		ld = GetLevelDescription (6);
-		ld.previousLevelClearedAchievementID = "grp.Wave05";
+		ld.previousLevelClearedAchievementID = GameCenterHelper.AchievementID.WAVE_05;
 		
 		ld = GetLevelDescription (11);
-		ld.previousLevelClearedAchievementID = "grp.Wave10";
+		ld.previousLevelClearedAchievementID = GameCenterHelper.AchievementID.WAVE_10;
 		
 		ld = GetLevelDescription (21);
-		ld.previousLevelClearedAchievementID = "grp.Wave20";
+		ld.previousLevelClearedAchievementID = GameCenterHelper.AchievementID.WAVE_20;
 		
 		ld = GetLevelDescription (41);
-		ld.previousLevelClearedAchievementID = "grp.Wave40";
+		ld.previousLevelClearedAchievementID = GameCenterHelper.AchievementID.WAVE_40;
 	}
 
 	void FillOutPresetGameLevelSkeletons ()

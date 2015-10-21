@@ -40,16 +40,20 @@ public class AchievementController : MonoBehaviour {
 	void OnMultiKill(int numKilled, Vector3 pawPosition) {
 		switch (numKilled) {
 		case 2:
-			GameCenterHelper.instance.RecordAchievement ("grp.DoubleKill");
+			GameCenterHelper.instance.RecordAchievement (
+				GameCenterHelper.AchievementID.DOUBLE_KILL);
 			break;
 		case 3:
-			GameCenterHelper.instance.RecordAchievement ("grp.TripleKill");
+			GameCenterHelper.instance.RecordAchievement (
+				GameCenterHelper.AchievementID.TRIPLE_KILL);
 			break;
 		case 4:
-			GameCenterHelper.instance.RecordAchievement ("grp.QuadKill");
+			GameCenterHelper.instance.RecordAchievement (
+				GameCenterHelper.AchievementID.QUAD_KILL);
 			break;
 		case 5:
-			GameCenterHelper.instance.RecordAchievement ("grp.UltraKill");
+			GameCenterHelper.instance.RecordAchievement (
+				GameCenterHelper.AchievementID.ULTRA_KILL);
 			break;
 		}
 	}
@@ -57,8 +61,9 @@ public class AchievementController : MonoBehaviour {
 
 	void OnGameLevelChanged() {
 		LevelDescription ld = LevelConfig.instance.GetCurrentLevelDescription ();
-		if (ld.previousLevelClearedAchievementID != null) {
-			GameCenterHelper.instance.RecordAchievement (ld.previousLevelClearedAchievementID);
+		if (ld.previousLevelClearedAchievementID != GameCenterHelper.AchievementID.NUM_VALUES) {
+			GameCenterHelper.instance.RecordAchievement (
+				ld.previousLevelClearedAchievementID);
 		}
 	}
 }

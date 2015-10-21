@@ -1,0 +1,6 @@
+lastUpgrade=00926
+proj.AppId=945459547103
+proj.ConstantsClassName=LazyAngus.GPGSIds
+and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0a%3c%21--%0aGoogle+Play+game+services+IDs.%0aSave+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.%0a--%3e%0a%3cresources%3e%0a++%3cstring+name%3d%22app_id%22%3e945459547103%3c%2fstring%3e%0a++%3cstring+name%3d%22package_name%22%3ecom.lazyangus.lazyangusbeta%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_wave_5%22%3eCgkI35efjsIbEAIQAQ%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_wave_10%22%3eCgkI35efjsIbEAIQAg%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_wave_20%22%3eCgkI35efjsIbEAIQAw%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_wave_40%22%3eCgkI35efjsIbEAIQBA%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_double_kill%22%3eCgkI35efjsIbEAIQBQ%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_triple_kill%22%3eCgkI35efjsIbEAIQCA%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_quad_kill%22%3eCgkI35efjsIbEAIQCQ%3c%2fstring%3e%0a++%3cstring+name%3d%22achievement_ultra_kill%22%3eCgkI35efjsIbEAIQCg%3c%2fstring%3e%0a++%3cstring+name%3d%22leaderboard_top_scores%22%3eCgkI35efjsIbEAIQBw%3c%2fstring%3e%0a%3c%2fresources%3e
+and.ClientId=
+android.SetupDone=true
