@@ -139,17 +139,22 @@ public class GameCenterHelper : MonoBehaviour {
 	}
 
 	public void ShowLeaderBoard() {
+		Debug.Log ("ShowLeaderBoard 01");
 		if (!socialHelperEnabled) {
+			Debug.Log ("ShowLeaderBoard 02");
 			return;
 		}
 
+		Debug.Log ("ShowLeaderBoard 03");
 		Authenticate (success => {
 			if (Application.platform == RuntimePlatform.IPhonePlayer) {
 				Debug.Log ("Showing leaderboard: " + leaderboardID);
 				GameCenterPlatform.ShowLeaderboardUI (leaderboardID, 
 			    	                                  TimeScope.Today);
 			} else if (Application.platform == RuntimePlatform.Android) {
+				Debug.Log ("ShowLeaderBoard 04");
 				Social.ShowLeaderboardUI();
+				Debug.Log ("ShowLeaderBoard 05");
 			}
 		});
 	}

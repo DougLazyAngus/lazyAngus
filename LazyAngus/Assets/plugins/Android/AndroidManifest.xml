@@ -21,7 +21,7 @@
         <action android:name="android.intent.action.VIEW" />
         <category android:name="android.intent.category.DEFAULT" />
         <category android:name="android.intent.category.BROWSABLE" />
-        <data android:scheme="oauth" android:host="com.lazyangus.lazyangusbeta" />
+        <data android:scheme="oauth" android:host="com.snackfortgames.lazyangus" />
       </intent-filter>
     </activity>
     <activity android:name="com.facebook.LoginActivity" android:label="@string/app_name" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:configChanges="keyboardHidden|orientation" />
