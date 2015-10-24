@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="an_social">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lazyAngus/libs/an_social.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

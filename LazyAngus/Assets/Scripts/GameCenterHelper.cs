@@ -2,6 +2,8 @@
 using System.Collections;
 using UnityEngine.SocialPlatforms;
 using UnityEngine.SocialPlatforms.GameCenter;
+using GooglePlayGames;
+using GooglePlayGames.BasicApi;
 
 public class GameCenterHelper : MonoBehaviour {
 
@@ -39,7 +41,11 @@ public class GameCenterHelper : MonoBehaviour {
 
 		platformSpecificIdStrings = new string[(int)AchievementID.NUM_VALUES];
 
+		socialHelperEnabled = false;
 		if (Application.platform == RuntimePlatform.IPhonePlayer) {
+			socialHelperEnabled = true;
+			leaderboardID = iOSLeaderboardID;
+
 			platformSpecificIdStrings[(int)AchievementID.DOUBLE_KILL] = "grp.DoubleKill";
 			platformSpecificIdStrings[(int)AchievementID.TRIPLE_KILL] = "grp.TripleKill";
 			platformSpecificIdStrings[(int)AchievementID.QUAD_KILL] = "grp.QuadKill";
@@ -49,8 +55,10 @@ public class GameCenterHelper : MonoBehaviour {
 			platformSpecificIdStrings[(int)AchievementID.WAVE_10] = "grp.Wave10";
 			platformSpecificIdStrings[(int)AchievementID.WAVE_20] = "grp.Wave20";
 			platformSpecificIdStrings[(int)AchievementID.WAVE_40] = "grp.Wave40";
-			leaderboardID = iOSLeaderboardID;
 		} else if (Application.platform == RuntimePlatform.Android) {
+			socialHelperEnabled = true;
+			leaderboardID = androidLeaderboardID;
+
 			platformSpecificIdStrings[(int)AchievementID.DOUBLE_KILL] = LazyAngus.GPGSIds.achievement_double_kill;
 			platformSpecificIdStrings[(int)AchievementID.TRIPLE_KILL] = LazyAngus.GPGSIds.achievement_triple_kill;
 			platformSpecificIdStrings[(int)AchievementID.QUAD_KILL] = LazyAngus.GPGSIds.achievement_quad_kill;
@@ -60,21 +68,23 @@ public class GameCenterHelper : MonoBehaviour {
 			platformSpecificIdStrings[(int)AchievementID.WAVE_10] = LazyAngus.GPGSIds.achievement_wave_10;
 			platformSpecificIdStrings[(int)AchievementID.WAVE_20] = LazyAngus.GPGSIds.achievement_wave_20;
 			platformSpecificIdStrings[(int)AchievementID.WAVE_40] = LazyAngus.GPGSIds.achievement_wave_40;
-			leaderboardID = androidLeaderboardID;
-		}
 
-		if (Application.platform == RuntimePlatform.IPhonePlayer || 
-		    Application.platform == RuntimePlatform.Android) {
-			socialHelperEnabled = true;
-
-		} else {
-			socialHelperEnabled = false;
+			PlayGamesClientConfiguration pgcConfig = 
+				new PlayGamesClientConfiguration.Builder().Build();
+			
+			PlayGamesPlatform.InitializeInstance(pgcConfig);
+			// recommended for debugging:
+			PlayGamesPlatform.DebugLogEnabled = true;
+			// Activate the Google Play Games platform
+			PlayGamesPlatform.Activate();
 		}
 	}
 
 	public void Authenticate(System.Action<bool> handler) {
 		if (socialHelperEnabled) {
 			Social.localUser.Authenticate (success => {
+				Debug.Log ("Authenticate called back with success: " + success);
+
 				if (success) {
 					if (Application.platform == RuntimePlatform.IPhonePlayer) {
 
@@ -148,12 +158,13 @@ public class GameCenterHelper : MonoBehaviour {
 		Debug.Log ("ShowLeaderBoard 03");
 		Authenticate (success => {
 			if (Application.platform == RuntimePlatform.IPhonePlayer) {
-				Debug.Log ("Showing leaderboard: " + leaderboardID);
+				Debug.Log ("Showing LeaderBoard: " + leaderboardID);
 				GameCenterPlatform.ShowLeaderboardUI (leaderboardID, 
 			    	                                  TimeScope.Today);
 			} else if (Application.platform == RuntimePlatform.Android) {
 				Debug.Log ("ShowLeaderBoard 04");
-				Social.ShowLeaderboardUI();
+				Debug.Log ("GooglePlayGames.PlayGamesPlatform.Instance = " + GooglePlayGames.PlayGamesPlatform.Instance);
+				GooglePlayGames.PlayGamesPlatform.Instance.ShowLeaderboardUI();
 				Debug.Log ("ShowLeaderBoard 05");
 			}
 		});
