@@ -6,10 +6,6 @@ public class PlayButtonClickSound : MonoBehaviour {
 
 	void Awake() {
 		distortForEffect = GetComponent<DistortForEffect> ();
-		if (distortForEffect != null) {
-			distortForEffect.totalPeriods = 1;
-			distortForEffect.squishAndStretch = true;
-		}
 	}
 
 	public void Play() {
