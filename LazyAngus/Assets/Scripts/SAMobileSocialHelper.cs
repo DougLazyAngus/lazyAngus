@@ -37,9 +37,10 @@ public class SAMobileSocialHelper : MonoBehaviour {
 		SPShareUtility.TwitterShare(message, lazyAngusIcon);
 	}
 
-	private void OnFBInitComplete()
-	{
-		Debug.Log("FB.Init completed: Is user logged in? " + FB.IsLoggedIn);
+	private void OnFBInitComplete()	{
+		if (Debug.isDebugBuild) {
+			Debug.Log("FB.Init completed: Is user logged in? " + FB.IsLoggedIn);
+		}
 	}
 
 	
@@ -48,10 +49,15 @@ public class SAMobileSocialHelper : MonoBehaviour {
 	}
 	
 	public void ShareScoreOnFBThroughLibraries(int score) {
-		Debug.Log ("FacebookSharing.ShareScoreThroughLibraries");
+		if (Debug.isDebugBuild) {
+			Debug.Log ("FacebookSharing.ShareScoreThroughLibraries");
+		}
+
 		if (!FB.IsLoggedIn) {
 			scoreToShare = score;
-			Debug.Log ("Calling FB.Login");
+			if (Debug.isDebugBuild) {
+				Debug.Log ("Calling FB.Login");
+			}
 			FB.Login ("publish_actions", LoginCallback);
 		} else {
 			ShareScoreOnFBInternal (score);
@@ -59,7 +65,10 @@ public class SAMobileSocialHelper : MonoBehaviour {
 	}
 	
 	private void LoginCallback(FBResult result) {
-		Debug.Log ("FacebookSharing.LoginCallback");
+		if (Debug.isDebugBuild) {
+			Debug.Log ("FacebookSharing.LoginCallback");
+		}
+
 		if (FB.IsLoggedIn) {
 			ShareScoreOnFBInternal (scoreToShare);
 		}
@@ -67,15 +76,19 @@ public class SAMobileSocialHelper : MonoBehaviour {
 	
 	
 	private void ShareScoreOnFBInternal(int score) {
-		Debug.Log ("FacebookSharing.ShareScoreInternal");
-		
+		if (Debug.isDebugBuild) {
+			Debug.Log ("FacebookSharing.ShareScoreInternal");
+		}
+
 		string title = Utilities.GetShareTitleForScore (score);
-		string message = Utilities.GetShareMessageForScore (score);
-		
-		Debug.Log ("title = " + title);
-		Debug.Log ("message = " + message);
-		
-		Debug.Log ("Calling FB.Feed");
+		string message = Utilities.GetShareMessageForScore (score);		
+
+		if (Debug.isDebugBuild) {
+			Debug.Log ("title = " + title);
+			Debug.Log ("message = " + message);		
+			Debug.Log ("Calling FB.Feed");
+		}
+
 		FB.Feed (null, 
 		         Utilities.appURL, 
 		         "Lazy Angus",
@@ -91,13 +104,18 @@ public class SAMobileSocialHelper : MonoBehaviour {
 	}
 	
 	private void OnFBFeedFinished(FBResult result) {
-		Debug.Log ("FacebookSharing.OnFeedFinished");
-		Debug.Log ("Posted...");
+		if (Debug.isDebugBuild) {
+			Debug.Log ("FacebookSharing.OnFeedFinished");
+			Debug.Log ("Posted...");
+		}
 	}
 
 
 	public void DEPRECATED_ShareScoreOnTwitter(int score) {
-		Debug.Log ("TwitterSharing.ShareScore");
+		if (Debug.isDebugBuild) {
+			Debug.Log ("TwitterSharing.ShareScoreThroughURLs");
+		}
+
 		// If twitter authorized, use libraries, else use urls.
 		if (SPTwitter.instance.IsAuthed) {
 			DEPRECATED_ShareScoreOnTwitterInternal (score);
@@ -107,7 +125,10 @@ public class SAMobileSocialHelper : MonoBehaviour {
 	}
 	
 	void DEPRECATED_ShareScoreOnTwitterThroughURLs(int score) {
-		Debug.Log ("TwitterSharing.ShareScoreThroughURLs");
+		if (Debug.isDebugBuild) {
+			Debug.Log ("TwitterSharing.ShareScoreThroughURLs");
+		}
+
 		string message = Utilities.GetShareMessageForScore (score);
 		
 		string webURL = TwitterAddress + "?text=" + WWW.EscapeURL (message) + 
@@ -125,7 +146,10 @@ public class SAMobileSocialHelper : MonoBehaviour {
 	}
 	
 	void DEPRECATED_ShareScoreOnTwitterInternal(int score) {
-		Debug.Log ("TwitterSharing.ShareScoreInternal");
+		if (Debug.isDebugBuild) {
+			Debug.Log ("TwitterSharing.ShareScoreInternal");
+		}
+
 		string message = Utilities.GetShareMessageForScore (score);
 		SPTwitter.instance.Post (message, lazyAngusIcon);
 	}
@@ -144,9 +168,11 @@ public class SAMobileSocialHelper : MonoBehaviour {
 			"&picture=" + WWW.EscapeURL (Utilities.appImageURL);
 		string appURL = FBAppLaunch + args;
 		
-		Debug.Log ("facebook web url = \n" + webURL);
-		Debug.Log ("facebook app url = \n" + appURL);
-		
+		if (Debug.isDebugBuild) {
+			Debug.Log ("facebook web url = \n" + webURL);
+			Debug.Log ("facebook app url = \n" + appURL);
+		}
+
 		StartCoroutine(Utilities.LaunchAppOrWeb (appURL, webURL));
 	}
 }

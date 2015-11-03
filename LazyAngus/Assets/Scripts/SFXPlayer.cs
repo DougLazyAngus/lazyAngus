@@ -210,7 +210,9 @@ public class SFXPlayer : MonoBehaviour {
 		AudioSource asource = audioSources[(int)types[index]];
 		asource.PlayDelayed(delay);
 
-		Debug.Log ("Pitch = " + asource.pitch);
+		if (Debug.isDebugBuild) {
+			Debug.Log ("Pitch = " + asource.pitch);
+		}
 	}
 
 

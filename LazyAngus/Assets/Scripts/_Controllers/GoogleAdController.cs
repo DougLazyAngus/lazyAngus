@@ -36,8 +36,10 @@ public class GoogleAdController : MonoBehaviour {
 
 
 	void PrepInterstitialAd() {
-		Debug.Log ("Setting up interstitialAd");
-		
+		if (Debug.isDebugBuild) {
+			Debug.Log ("Setting up interstitialAd");
+		}
+
 		interstitialAd = new InterstitialAd (GetInterstitialAdUnitId());
 		interstitialAd.AdLoaded += OnInterstitialAdLoaded;
 		interstitialAd.AdOpened += OnInterstitialAdOpened;
@@ -87,26 +89,36 @@ public class GoogleAdController : MonoBehaviour {
 	}
 
 	void OnBannerAdLoaded(object sender, EventArgs args) {
-		Debug.Log ("OnBannerAdLoaded");
+		if (Debug.isDebugBuild) {
+			Debug.Log ("OnBannerAdLoaded");
+		}
 	}
 
 	void OnInterstitialAdLoaded(object sender, EventArgs args) {
-		Debug.Log ("OnInterstitialAdLoaded");
+		if (Debug.isDebugBuild) {
+			Debug.Log ("OnInterstitialAdLoaded");
+		}
 	}
 
 	void OnInterstitialAdOpened(object sender, EventArgs args) {
-		Debug.Log ("OnInterstitialAdOpened");
+		if (Debug.isDebugBuild) {
+			Debug.Log ("OnInterstitialAdOpened");
+		}
 		// Quiet the music.
 		SoundController.instance.SuppressSounds ();
 	}
 	
 	void OnInterstitialAdFailedToLoad(object sender, EventArgs args) {
-		Debug.Log ("OnInterstitialAdFailedToLoad");
-		Debug.Log ("args = " + args);
+		if (Debug.isDebugBuild) {
+			Debug.Log ("OnInterstitialAdFailedToLoad");
+			Debug.Log ("args = " + args);
+		}
 	}
 
 	void OnInterstitialAdClosed(object sender, EventArgs args) {
-		Debug.Log ("OnInterstitialAdClosed");
+		if (Debug.isDebugBuild) {
+			Debug.Log ("OnInterstitialAdClosed");
+		}
 		SoundController.instance.UnsuppressSounds ();
 
 		// Load another one.
@@ -187,7 +199,9 @@ public class GoogleAdController : MonoBehaviour {
 		switch(GamePhaseState.instance.gamePhase) {
 		case GamePhaseState.GamePhaseType.LEVEL_PLAY:
 		case GamePhaseState.GamePhaseType.PENDING:
-			bannerView.Show ();
+			if (!DebugConfig.instance.IsDebugFlagSet(DebugConfig.DEBUG_HIDE_ADS)) {
+				bannerView.Show ();
+			}
 			break;
 		default:
 			bannerView.Hide ();
@@ -197,7 +211,9 @@ public class GoogleAdController : MonoBehaviour {
 		switch (GamePhaseState.instance.gamePhase) {
 		case GamePhaseState.GamePhaseType.WELCOME:
 		case GamePhaseState.GamePhaseType.LEVEL_END:
-			Debug.Log("Loading new banner ad");
+			if (Debug.isDebugBuild) {
+				Debug.Log("Loading new banner ad");
+			}
 			bannerView.LoadAd (MakeAdRequest ());
 			break;
 		}

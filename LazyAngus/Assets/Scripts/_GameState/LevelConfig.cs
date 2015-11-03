@@ -243,7 +243,9 @@ public class LevelConfig : MonoBehaviour
 		for (int i = 0; i < realAngusLevels.Length; i++) {
 			int levelIndex = realAngusLevels[i];
 			if (!levelDescMap.ContainsKey(levelIndex)) {
-				Debug.Log("\n\n\nNot enough levels!!!\n\n\n");
+				if (Debug.isDebugBuild) {
+					Debug.Log("\n\n\nNot enough levels!!!\n\n\n");
+				}
 				break;
 			}
 			ld = levelDescMap[levelIndex];

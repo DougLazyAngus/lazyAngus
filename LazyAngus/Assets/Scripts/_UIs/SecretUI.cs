@@ -13,6 +13,7 @@ public class SecretUI : MonoBehaviour {
 	public GameObject inputs;
 	public InputField levelInputField;
 	public InputField debugFlagsInputField;
+	public GameObject button;
 
 	public void ResetPreferences() {
 		PersistentStorage.instance.ClearAll ();
@@ -24,6 +25,9 @@ public class SecretUI : MonoBehaviour {
 
 	void Awake() {
 		instance = this;
+		if (!Debug.isDebugBuild) {
+			button.SetActive(false);
+		}
 	}
 
 	void UpdateInputs() {
@@ -45,6 +49,10 @@ public class SecretUI : MonoBehaviour {
 	}
 
 	public void ToggleVisibility() {
+		if (!Debug.isDebugBuild) {
+			return;
+		}
+
 		if (inputs.activeSelf) {
 			inputs.SetActive (false);
 		} else {

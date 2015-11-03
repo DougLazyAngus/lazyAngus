@@ -120,10 +120,14 @@ public class Utilities
 	private static void LaunchAppOrWebOnIOS (string appURL, string webURL)
 	{
 		if (CanLaunchURL (appURL)) {
-			Debug.Log ("Can open appURL");
+			if (Debug.isDebugBuild) {
+				Debug.Log ("Can open appURL");
+			}
 			Application.OpenURL (appURL);
 		} else {
-			Debug.Log ("Can't open appURL");
+			if (Debug.isDebugBuild) {
+				Debug.Log ("Can't open appURL");
+			}
 			Application.OpenURL (webURL);
 		}
 	}
@@ -187,8 +191,9 @@ public class Utilities
 		}
 		string v = SystemInfo.operatingSystem;
 
-		Debug.Log ("GetIOSVersion: v = " + v);
-
+		if (Debug.isDebugBuild) {
+			Debug.Log ("GetIOSVersion: v = " + v);
+		}
 		string[] bits = v.Split (' ');
 		string lastBit = bits [bits.Length - 1];
 		return float.Parse (lastBit, 

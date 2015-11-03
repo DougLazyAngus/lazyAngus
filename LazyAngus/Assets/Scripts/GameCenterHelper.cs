@@ -83,7 +83,9 @@ public class GameCenterHelper : MonoBehaviour {
 	public void Authenticate(System.Action<bool> handler) {
 		if (socialHelperEnabled) {
 			Social.localUser.Authenticate (success => {
-				Debug.Log ("Authenticate called back with success: " + success);
+				if (Debug.isDebugBuild) {
+					Debug.Log ("Authenticate called back with success: " + success);
+				}
 
 				if (success) {
 					if (Application.platform == RuntimePlatform.IPhonePlayer) {
@@ -109,9 +111,13 @@ public class GameCenterHelper : MonoBehaviour {
 	
 	
 	IEnumerator DebugScoreAndAchievement() {
-		Debug.Log ("DebugScoreAndAchievement: part 1");
+		if (Debug.isDebugBuild) {
+			Debug.Log ("DebugScoreAndAchievement: part 1");
+		}
 		yield return new WaitForSeconds (2);
-		Debug.Log ("DebugScoreAndAchievement: part 2");
+		if (Debug.isDebugBuild) {
+			Debug.Log ("DebugScoreAndAchievement: part 2");
+		}
 		CustomReportAchievement ("grp.QuadKill");
 	}
 
@@ -120,25 +126,35 @@ public class GameCenterHelper : MonoBehaviour {
 	}
 
 	public void ReportScore(int score) {
-		Debug.Log ("SocialHelper: ReportScore " + score + " to " + leaderboardID);
+		if (Debug.isDebugBuild) {
+			Debug.Log ("SocialHelper: ReportScore " + score + " to " + leaderboardID);
+		}
 		if (socialHelperEnabled && Social.localUser.authenticated) {
 			Social.ReportScore(score, leaderboardID, success => {
-				Debug.Log ("Reported score " + score + " to " + leaderboardID + ": " + success);				 
+				if (Debug.isDebugBuild) {
+					Debug.Log ("Reported score " + score + " to " + leaderboardID + ": " + success);				 
+				}
 			});
 		}
 	}
 
 	public void RecordAchievement(AchievementID achievementID) {
 		string idString = platformSpecificIdStrings[(int)achievementID];
-		Debug.Log ("SocialHelper: RecordAchievement");
+		if (Debug.isDebugBuild) {
+			if (Debug.isDebugBuild) {
+				Debug.Log ("SocialHelper: RecordAchievement");
+			}
+		}
 		if (socialHelperEnabled && Social.localUser.authenticated) {
 			if (Application.platform == RuntimePlatform.IPhonePlayer) {
 				// Doesn't seem to work in iOS
 				CustomReportAchievement(idString);
 			} else {
 				Social.ReportProgress(idString, 100.0, success => {
-					Debug.Log ("Reported achievement = " + idString);
-					Debug.Log ("success = " + success);
+					if (Debug.isDebugBuild) {
+						Debug.Log ("Reported achievement = " + idString);
+						Debug.Log ("success = " + success);
+					}
 				});
 			}
 		}
@@ -149,23 +165,22 @@ public class GameCenterHelper : MonoBehaviour {
 	}
 
 	public void ShowLeaderBoard() {
-		Debug.Log ("ShowLeaderBoard 01");
 		if (!socialHelperEnabled) {
-			Debug.Log ("ShowLeaderBoard 02");
 			return;
 		}
 
-		Debug.Log ("ShowLeaderBoard 03");
 		Authenticate (success => {
 			if (Application.platform == RuntimePlatform.IPhonePlayer) {
-				Debug.Log ("Showing LeaderBoard: " + leaderboardID);
+				if (Debug.isDebugBuild) {
+					Debug.Log ("Showing LeaderBoard: " + leaderboardID);
+				}
 				GameCenterPlatform.ShowLeaderboardUI (leaderboardID, 
 			    	                                  TimeScope.Today);
 			} else if (Application.platform == RuntimePlatform.Android) {
-				Debug.Log ("ShowLeaderBoard 04");
-				Debug.Log ("GooglePlayGames.PlayGamesPlatform.Instance = " + GooglePlayGames.PlayGamesPlatform.Instance);
+				if (Debug.isDebugBuild) {
+					Debug.Log ("GooglePlayGames.PlayGamesPlatform.Instance = " + GooglePlayGames.PlayGamesPlatform.Instance);
+				}
 				GooglePlayGames.PlayGamesPlatform.Instance.ShowLeaderboardUI();
-				Debug.Log ("ShowLeaderBoard 05");
 			}
 		});
 	}
