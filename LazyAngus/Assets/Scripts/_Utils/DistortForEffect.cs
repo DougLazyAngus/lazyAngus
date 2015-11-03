@@ -27,7 +27,7 @@ public class DistortForEffect : BounceLerp {
 
 		originalScale = thingToScale.localScale;
 	}
-
+	
 	public void DistortWithDelay(float delay) {
 		if (distorting) {
 			return;
@@ -43,7 +43,7 @@ public class DistortForEffect : BounceLerp {
 	public void Distort() {
 		DistortWithDelay (0f);
 	}
-
+	
 	public void Cancel() {
 		distorting = false;
 		thingToScale.localScale = originalScale;

@@ -37,6 +37,6 @@ public class BuyAndUseBoost : MonoBehaviour {
 		PlayerStats.instance.SpendMoney (price);
 
 		PlayerStats.instance.RemoveBoost (boostType);		
-		BoostConfig.instance.ExecuteBoost (boostType);		
+		BoostConfig.instance.ExecuteBoost (boostType);	
 	}
 }

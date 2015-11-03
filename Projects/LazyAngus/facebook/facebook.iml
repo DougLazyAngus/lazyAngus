@@ -29,5 +29,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="bolts-android-1.1.2" level="project" />
     <orderEntry type="library" exported="" name="facebooksdk" level="project" />
+    <orderEntry type="library" exported="" name="facebook.facebook" level="project" />
   </component>
 </module>

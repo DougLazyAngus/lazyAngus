@@ -52,14 +52,16 @@ public class BoostActiveLayout : MonoBehaviour {
 	}
 	
 	void RegisterForEvents() {
-		boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
+		boostConfig.BoostActive += new BoostConfig.BoostActiveEventHandler (
+			OnBoostUsageChanged);
 		
 		registerdForEvents = true;
 	}
 	
 	void UnregisterForEvents() {
 		if (registerdForEvents) {
-			boostConfig.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
+			boostConfig.BoostActive -= new BoostConfig.BoostActiveEventHandler (
+				OnBoostUsageChanged);
 		}
 	}
 	

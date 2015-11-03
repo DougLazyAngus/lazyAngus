@@ -179,7 +179,7 @@ public class PawController : MonoBehaviour {
 			killsThisSwipe = 0;
 		}
 
-		if (newPhase == SwipePhase.EXTENDING) {
+		if (newPhase == SwipePhase.EXTENDED_PAUSE) {
 			extendedPauseStarted = Time.time;
 			PlayRandomSound ();
 		}
@@ -276,7 +276,7 @@ public class PawController : MonoBehaviour {
 	}
 
 	public bool Swipe(Vector3 location) {
-		if (DebugConfig.instance.IsDebugFlagSet (DebugConfig.DEBUG_PAWS_REQUIRE_RETRACTION)) {
+		if (!DebugConfig.instance.IsDebugFlagSet (DebugConfig.DEBUG_PAWS_CAN_SWIPE_DURING_RETRACTION)) {
 			if (swipePhase == SwipePhase.EXTENDED_PAUSE || 
 			    swipePhase == SwipePhase.RETRACTING) {
 				return false;

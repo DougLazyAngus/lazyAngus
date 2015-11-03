@@ -8,21 +8,31 @@ public class TailController : MonoBehaviour {
 	Sprite [] sprites;
 	public float cycleTime = 1.0f;
 
-	public string pathStub = "Textures/NewCatParts/Tail/cat_tail";
+
+
+	public string pathStubA = "Textures/NewCatParts/";
+	public string pathStubB = "/Tail/cat_tail";
 	public int numFrames = 24;
 	public bool backAndForth = false;
 
 	void Awake() {
 		sprites = new Sprite[numFrames];
-		for (int i = 0; i < numFrames; i++) {
+	}
 
-			string fullPath = String.Format("{0}.{1:00}", pathStub , i + 1);
+	void ReloadSprites() {
+		for (int i = 0; i < numFrames; i++) {
+			
+			string fullPath = String.Format("{0}.{1:00}", 
+			                                pathStubA + CatSkin.instance.currentSkinName + pathStubB,
+			                                i + 1);
 			sprites[i] = Resources.Load<UnityEngine.Sprite>(fullPath);
 		}
 	}
 
 	// Use this for initialization
 	void Start () {
+		ReloadSprites ();
+
 		if (backAndForth) {
 			numFrames = sprites.Length * 2 - 1;
 		} else {

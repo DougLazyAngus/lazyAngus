@@ -31,7 +31,7 @@ public class LazyAngusStrings
 	public const string TUTORIAL_CATCH_MOUSE = "Yikes!\n\nI'd better catch that mouse!";
 	public const string TUTORIAL_LEAD_MOUSE = "I'll swipe where you tap, but I'm pretty lazy.\n\n" + 
 		"Plan ahead!!";
-	public const string TUTORIAL_DRAG_TURN = "Drag my body to turn me faster!";
+	public const string TUTORIAL_DRAG_TURN = "Drag my backside to turn me faster!";
 	public const string TUTORIAL_TRAPS = "A trap will stop an escaping mouse, but then the trap is gone!!";
 	public const string TUTORIAL_GAME_OVER = "OH NO!!\n\n" + 
 		"A mouse got away, I'm in trouble now!";

@@ -28,5 +28,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="unity-plugin-library" level="project" />
+    <orderEntry type="library" exported="" name="googleMobileAdsPlugin.googleMobileAdsPlugin" level="project" />
   </component>
 </module>

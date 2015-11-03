@@ -14,6 +14,8 @@ public class BoostConfig : MonoBehaviour {
 		NUM_TYPES,
 	};
 
+	const string BoostUsedStoragePreferencePrefix = "boostUsed";
+
 	private BoostDesc[] boostDescs;
 
 	public delegate void BoostActiveEventHandler(BoostConfig.BoostType newBoostType, 
@@ -193,7 +195,23 @@ public class BoostConfig : MonoBehaviour {
 
 		TipController.instance.MaybeShowTip(bd.tipConfig);
 
+		string preferenceName = GetBoostUsedPreferenceName (bType);
+		PersistentStorage.instance.SetBoolValue (preferenceName, 
+		                                         true);
+
+
 		StartCoroutine(activePause);
+	}
+
+	string GetBoostUsedPreferenceName(BoostType bt) {
+		return BoostConfig.BoostUsedStoragePreferencePrefix + '.' + bt;
+	}
+
+	public bool UserHasUsedBoost(BoostType boostType) {
+		string preferenceName = GetBoostUsedPreferenceName (boostType);
+		return PersistentStorage.instance.GetBoolValue (
+			preferenceName,
+			false);
 	}
 
 	IEnumerator WaitThenCleanup(float pauseTime) {

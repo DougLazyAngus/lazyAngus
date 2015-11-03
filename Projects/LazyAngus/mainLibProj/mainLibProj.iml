@@ -28,5 +28,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="play-games-plugin-support" level="project" />
+    <orderEntry type="library" exported="" name="mainLibProj.mainLibProj" level="project" />
   </component>
 </module>

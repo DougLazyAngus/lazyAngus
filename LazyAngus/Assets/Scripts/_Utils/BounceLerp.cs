@@ -8,7 +8,7 @@ public class BounceLerp : MonoBehaviour {
 	public float periodOffsetDeg = 0f;
 	public bool looping = false;
 	
-
+	
 	// Update is called once per frame
 	protected float GetCoefficientForTime (float timeDelta, out bool isFinished) {
 		if (!looping && timeDelta > (secondsPerPeriod * totalPeriods)) {

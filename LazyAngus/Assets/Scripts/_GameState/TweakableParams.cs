@@ -5,7 +5,7 @@ public class TweakableParams : MonoBehaviour {
 
 	// Boost params.
 	public const float fastPawsPauseMultiplier = 0.001f;
-	public const float fastPawsSwipeSpeedMultiplier = 2f;
+	public const float fastPawsSwipeSpeedMultiplier = 3f;
 
 	public const float goodEyesAngleMultiplier = 1.6666f;
 
@@ -22,7 +22,8 @@ public class TweakableParams : MonoBehaviour {
 	public const float oldSwipeExtendedPause = 0.4f;
 
 	public const float newSwipeInitialPause = 0.001f;
-	public const float newSwipeExtendSpeed = 7f;
+	public const float newSwipeExtendSpeed = 5.5f;
+
 	public const float newSwipeExtendedPause = 0.4f;
 
 	public const float swipeRetractSpeed = 20f;
@@ -33,7 +34,7 @@ public class TweakableParams : MonoBehaviour {
 	public const float baseSwipeAngleRange = 90.0f;
 
 	// Player Turn params
-	public const float turnVelocityDegrees = 180f;
+	public const float turnVelocityDegrees = 120f;
 	
 	// Mouse track params.
 	public const int numTracks = 3;

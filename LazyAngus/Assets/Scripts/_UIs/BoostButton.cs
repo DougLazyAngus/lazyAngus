@@ -19,6 +19,9 @@ public class BoostButton : MonoBehaviour {
 
 	bool buttonDirty;
 
+	float overrideAdditionalScale = 0.25f;
+	float normalAdditionalScale = 1.0f;
+
 	void Awake() {
 		levelLockText.color = cantUseColor;
 	}
@@ -111,6 +114,11 @@ public class BoostButton : MonoBehaviour {
 			costText.color = cantUseColor;
 		}
 
+		if (BoostConfig.instance.activeBoost == boostType) {
+			DistortForEffect d4e = GetComponent<DistortForEffect> ();
+			d4e.Cancel ();
+		}
+
 		buttonDirty = false;
 	}
 
@@ -130,10 +138,21 @@ public class BoostButton : MonoBehaviour {
 
 	void CheckForLevelUnlockEffects() {
 		if (GamePhaseState.instance.IsPlaying () && 
-		    GameLevelState.instance.gameLevel == LevelConfig.instance.GetLevelLock (boostType)) {
+			GameLevelState.instance.gameLevel == LevelConfig.instance.GetLevelLock (boostType)) {
 			// Wait, then wiggle.
-			DistortForEffect d4e = GetComponent<DistortForEffect>();
-			d4e.DistortWithDelay(delayForDistortOnEnable);
+			DistortForEffect d4e = GetComponent<DistortForEffect> ();
+			d4e.DistortWithDelay (delayForDistortOnEnable);
+
+			// If the user has never used this boost before, 
+			// and this is the first boost, 
+			// just flash it the whole time.
+			if (boostType == BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS && 
+			    !BoostConfig.instance.UserHasUsedBoost (boostType)) {
+				d4e.looping = true;
+				d4e.additionalScale = overrideAdditionalScale;
+			} else {
+				d4e.additionalScale = normalAdditionalScale;
+			}
 		}
 	}
 	

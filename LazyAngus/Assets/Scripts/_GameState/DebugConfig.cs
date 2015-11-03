@@ -17,7 +17,7 @@ public class DebugConfig : MonoBehaviour {
 	public const int DEBUG_SKIP_WELCOME = 3;
 	public const int DEBUG_PAWS_FAST_EXTEND = 4;
 	public const int DEBUG_NON_APPLE_SHARING = 5;
-	public const int DEBUG_PAWS_REQUIRE_RETRACTION = 6;
+	public const int DEBUG_PAWS_CAN_SWIPE_DURING_RETRACTION = 6;
 
 	int debugFlags = 0;
 	
