@@ -14,6 +14,7 @@ public class TailController : MonoBehaviour {
 	public string pathStubB = "/Tail/cat_tail";
 	public int numFrames = 24;
 	public bool backAndForth = false;
+	bool registeredForEvents;
 
 	void Awake() {
 		sprites = new Sprite[numFrames];
@@ -28,9 +29,10 @@ public class TailController : MonoBehaviour {
 			sprites[i] = Resources.Load<UnityEngine.Sprite>(fullPath);
 		}
 	}
-
+	
 	// Use this for initialization
 	void Start () {
+		RegisterForEvents ();
 		ReloadSprites ();
 
 		if (backAndForth) {
@@ -39,7 +41,32 @@ public class TailController : MonoBehaviour {
 			numFrames = sprites.Length;
 		}
 	}
+
+	void OnDestroy() {
+		UnregisterForEvents ();
+		
+	}
 	
+	void RegisterForEvents() {
+		if (registeredForEvents) {
+			return;
+		}
+		registeredForEvents = true;
+		CatSkin.instance.CatSkinChanged += 
+			new CatSkin.CatSkinChangedHandler (OnCatSkinChanged);
+	}
+	
+	void UnregisterForEvents() {
+		if (registeredForEvents) {
+			CatSkin.instance.CatSkinChanged -= 
+				new CatSkin.CatSkinChangedHandler (OnCatSkinChanged);
+		}
+	}
+	
+	void OnCatSkinChanged() {
+		ReloadSprites ();
+	}
+		
 	// Update is called once per frame
 	void Update () {
 		float timeNow = Time.time;

@@ -15,6 +15,14 @@ public class PersistentStorage : MonoBehaviour {
 		PlayerPrefs.DeleteAll ();
 	}
 
+	public void SetStringValue(string name, string value) {
+		PlayerPrefs.SetString (name, value);
+	}
+	
+	public string GetStringValue(string name, string defaultValue) {
+		return PlayerPrefs.GetString (name, defaultValue);
+	}
+
 	public void SetFloatValue(string name, float value) {
 		PlayerPrefs.SetFloat (name, value);
 	}

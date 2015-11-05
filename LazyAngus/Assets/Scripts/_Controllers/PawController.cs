@@ -64,6 +64,7 @@ public class PawController : MonoBehaviour {
 
 		normalCollider.radius = TweakableParams.normalPawRadius;
 
+		ReloadSprites ();
 		RegisterForEvents ();
 		UpdateArmRotation ();
 	}
@@ -73,12 +74,18 @@ public class PawController : MonoBehaviour {
 	}
 
 	void RegisterForEvents() {
+		if (registerdForEvents) {
+			return;
+		}
+
+		CatSkin.instance.CatSkinChanged += new CatSkin.CatSkinChangedHandler (OnCatSkinChanged);
 		BoostConfig.instance.BoostActive += new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
 		registerdForEvents = true;
 	}
 
 	void UnregisterForEvents() {
 		if (registerdForEvents) {
+			CatSkin.instance.CatSkinChanged -= new CatSkin.CatSkinChangedHandler (OnCatSkinChanged);
 			BoostConfig.instance.BoostActive -= new BoostConfig.BoostActiveEventHandler (OnBoostUsageChanged);
 		}
 	}
@@ -341,5 +348,37 @@ public class PawController : MonoBehaviour {
 
 	public void CountKill() {
 		killsThisSwipe += 1;
+	}
+	
+	void OnCatSkinChanged () {
+		ReloadSprites ();
+	}
+
+	void ReloadSprites() {
+		SpriteRenderer sr;
+		string path;
+		
+		sr = pawArtGameObject.GetComponent<SpriteRenderer> ();
+		path = "Textures/NewCatParts/" + CatSkin.instance.currentSkinName +
+			"/cat_longarm_r_01";
+		sr.sprite = Resources.Load<UnityEngine.Sprite>(path);
+
+		
+		sr = dangerPawArtGameObject.GetComponent<SpriteRenderer> ();
+		path = "Textures/NewCatParts/" + CatSkin.instance.currentSkinName +
+			"/cat_longarm_danger_r_01";
+		sr.sprite = Resources.Load<UnityEngine.Sprite>(path);
+
+		
+		sr = bigPawArtGameObject.GetComponent<SpriteRenderer> ();
+		path = "Textures/NewCatParts/" + CatSkin.instance.currentSkinName +
+			"/cat_longarm_big_r_01";
+		sr.sprite = Resources.Load<UnityEngine.Sprite>(path);
+
+		
+		sr = bigDangerPawArtGameObject.GetComponent<SpriteRenderer> ();
+		path = "Textures/NewCatParts/" + CatSkin.instance.currentSkinName +
+			"/cat_longarm_danger_big_r_01";
+		sr.sprite = Resources.Load<UnityEngine.Sprite>(path);
 	}
 }
