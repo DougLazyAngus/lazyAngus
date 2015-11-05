@@ -39,6 +39,11 @@ public class SFXPlayer : MonoBehaviour {
 
 		LOSER,
 
+		IRRITATED_CAT_01,
+		IRRITATED_CAT_02,
+		IRRITATED_CAT_03,
+		IRRITATED_CAT_04,
+
 		NUM_TYPES,
 	};
 
@@ -48,6 +53,7 @@ public class SFXPlayer : MonoBehaviour {
 		MOUSE_SQUEAK,
 		ESCAPING,
 		MOUSE_TRAP,
+		IRRITATED_CAT,
 	}
 
 	AudioSource[] audioSources;
@@ -85,6 +91,13 @@ public class SFXPlayer : MonoBehaviour {
 		SFXType.MOUSE_TRAP_00, 
 		SFXType.MOUSE_TRAP_01,
 		SFXType.MOUSE_TRAP_02,
+	};
+	
+	SFXPlayer.SFXType[] irritatedCatIds = {
+		SFXType.IRRITATED_CAT_01, 
+		SFXType.IRRITATED_CAT_02,
+		SFXType.IRRITATED_CAT_03,
+		SFXType.IRRITATED_CAT_04,
 	};
 
 
@@ -157,6 +170,15 @@ public class SFXPlayer : MonoBehaviour {
 		LoadAudioSource (SFXType.EARN_MONEY, "money.01");
 		
 		LoadAudioSource (SFXType.LOSER, "loser");
+
+		LoadAudioSource (SFXType.IRRITATED_CAT_01, "irritated_cat.01");
+		LoadAudioSource (SFXType.IRRITATED_CAT_02, "irritated_cat.01");
+		LoadAudioSource (SFXType.IRRITATED_CAT_03, "irritated_cat.02");
+		LoadAudioSource (SFXType.IRRITATED_CAT_04, "irritated_cat.02");
+
+		audioSources [(int)SFXType.IRRITATED_CAT_02].pitch = 1.2f;
+		audioSources [(int)SFXType.IRRITATED_CAT_04].pitch = 1.2f;
+
 	}
 
 
@@ -200,6 +222,9 @@ public class SFXPlayer : MonoBehaviour {
 			break;
 		case SFXTypeGroup.MOUSE_TRAP:
 			types = mouseTrapIds;
+			break;
+		case SFXTypeGroup.IRRITATED_CAT:
+			types = irritatedCatIds;
 			break;
 		default:
 			types = pawSwipeIds;

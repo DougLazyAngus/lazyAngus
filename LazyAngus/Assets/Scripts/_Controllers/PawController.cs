@@ -45,6 +45,15 @@ public class PawController : MonoBehaviour {
 	public GameObject timerWidgetPrototype;
 	TimerWidget timerWidget;
 
+	public float irritatedRenderTime = 0.2f;
+	float timeStopIrritatedRender;
+
+	public float irritatedSoundTime = 0.5f;
+	float timeLastIrritatedSound;
+
+	public Color normalColor;
+	public Color irritatedColor;
+
 
 	void Awake() {
 		registerdForEvents = false;
@@ -118,8 +127,10 @@ public class PawController : MonoBehaviour {
 
 		UpdatePawSize (newType, oldType);
 	}
-
+	
 	void Update() {
+		UpdateIrritation ();
+
 		if (timeStartNextSwipe != 0 &&
 			Time.time > timeStartNextSwipe) {
 			timeStartNextSwipe = 0;
@@ -286,6 +297,8 @@ public class PawController : MonoBehaviour {
 		if (!DebugConfig.instance.IsDebugFlagSet (DebugConfig.DEBUG_PAWS_CAN_SWIPE_DURING_RETRACTION)) {
 			if (swipePhase == SwipePhase.EXTENDED_PAUSE || 
 			    swipePhase == SwipePhase.RETRACTING) {
+				StartIrritatedRender();
+				MaybePlayIrritatedSound();
 				return false;
 			}
 		}
@@ -294,6 +307,7 @@ public class PawController : MonoBehaviour {
 		if (timeStartNextSwipe == 0) {
 			timeStartNextSwipe = Time.time + initialPauseLength;
 		}
+
 		return true;
 	}
 
@@ -380,5 +394,59 @@ public class PawController : MonoBehaviour {
 		path = "Textures/NewCatParts/" + CatSkin.instance.currentSkinName +
 			"/cat_longarm_danger_big_r_01";
 		sr.sprite = Resources.Load<UnityEngine.Sprite>(path);
+	}
+
+	void UpdateIrritation() {
+		if (Time.time > timeStopIrritatedRender) {
+			StopIrritatedRender();
+		}
+	}
+
+	void StopIrritatedRender() {
+		SpriteRenderer sr;
+		string path;
+		
+		sr = pawArtGameObject.GetComponent<SpriteRenderer> ();
+		sr.color = normalColor;
+		
+		sr = dangerPawArtGameObject.GetComponent<SpriteRenderer> ();
+		sr.color = normalColor;
+
+		sr = bigPawArtGameObject.GetComponent<SpriteRenderer> ();
+		sr.color = normalColor;
+		
+		sr = bigDangerPawArtGameObject.GetComponent<SpriteRenderer> ();
+		sr.color = normalColor;
+	}
+
+	void StartIrritatedRender() {
+		SpriteRenderer sr;
+		string path;
+		
+		sr = pawArtGameObject.GetComponent<SpriteRenderer> ();
+		sr.color = irritatedColor;
+		
+		sr = dangerPawArtGameObject.GetComponent<SpriteRenderer> ();
+		sr.color = irritatedColor;
+		
+		sr = bigPawArtGameObject.GetComponent<SpriteRenderer> ();
+		sr.color = irritatedColor;
+		
+		sr = bigDangerPawArtGameObject.GetComponent<SpriteRenderer> ();
+		sr.color = irritatedColor;
+	}
+
+	void MaybePlayIrritatedSound() {
+		if (Time.time < timeLastIrritatedSound + irritatedSoundTime) {
+			return;
+		}
+
+		if (Random.Range (0, 3) != 0) {
+			return;
+		}
+
+		timeLastIrritatedSound = Time.time;
+
+		SFXPlayer.instance.PlayRandom (SFXPlayer.SFXTypeGroup.IRRITATED_CAT, 0);
 	}
 }

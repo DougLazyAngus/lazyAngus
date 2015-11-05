@@ -7,8 +7,7 @@ public class TailController : MonoBehaviour {
 
 	Sprite [] sprites;
 	public float cycleTime = 1.0f;
-
-
+	
 
 	public string pathStubA = "Textures/NewCatParts/";
 	public string pathStubB = "/Tail/cat_tail";
