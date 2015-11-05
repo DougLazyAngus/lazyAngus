@@ -71,26 +71,48 @@ public class MouseConfig : MonoBehaviour
 		LoadMouseWiggleDescs ();
 	}
 
-	void LoadMouseDescs ()
-	{
+	static string [] mouse01Names = {
+		"mouse_01", 
+		"mouse_01-AG"
+	};
+	
+	static string [] mouse02Names = {
+		"mouse_02", 
+		"mouse_02-AG"
+	};
+	
+	static string [] mouse03Names = {
+		"mouse_03", 
+		"mouse_03-AG"
+	};
+	
+	static string [] mouse04Names = {
+		"mouse_04", 
+		"mouse_04-AG"
+	};
+	
+	void LoadMouseDescs () {
 		mouseDescs = new MouseTypeDesc[(int)MouseType.NUM_TYPES];
 
-		mouseDescs [(int)MouseType.SLOW] = new MouseTypeDesc ("mouse.01", 
-		                                                  "mouse_01", 
-		                                                  speeds[(int)MouseType.SLOW], 
-		                                                  scales[(int)MouseType.SLOW]);
-		mouseDescs [(int)MouseType.MEDIUM] = new MouseTypeDesc ("mouse.02", 
-		                                                    "mouse_02", 
-		                                                    speeds[(int)MouseType.MEDIUM], 
-		                                                    scales[(int)MouseType.MEDIUM]);
-		mouseDescs [(int)MouseType.FAST] = new MouseTypeDesc ("mouse.03", 
-		                                                  "mouse_03", 
-		                                                  speeds[(int)MouseType.FAST], 
-		                                                  scales[(int)MouseType.FAST]);
-		mouseDescs [(int)MouseType.SUPERFAST] = new MouseTypeDesc ("mouse.04", 
-		                                                       "mouse_04", 
-		                                                       speeds[(int)MouseType.SUPERFAST], 
-		                                                       scales[(int)MouseType.SUPERFAST]);
+		mouseDescs [(int)MouseType.SLOW] = new MouseTypeDesc ("mouse_01",
+		                                                      mouse01Names,
+		                                                      speeds[(int)MouseType.SLOW],
+		                                                      scales[(int)MouseType.SLOW]);
+
+		mouseDescs [(int)MouseType.MEDIUM] = new MouseTypeDesc ("mouse_02",
+		                                                        mouse02Names,
+		                                                        speeds[(int)MouseType.MEDIUM], 
+		                                                        scales[(int)MouseType.MEDIUM]);
+
+		mouseDescs [(int)MouseType.FAST] = new MouseTypeDesc ("mouse_03",
+		                                                      mouse03Names,
+		                                                      speeds[(int)MouseType.FAST], 
+		                                                      scales[(int)MouseType.FAST]);
+
+		mouseDescs [(int)MouseType.SUPERFAST] = new MouseTypeDesc ("mouse_04",
+		                                                           mouse04Names,
+		                                                           speeds[(int)MouseType.SUPERFAST], 
+		                                                           scales[(int)MouseType.SUPERFAST]);
 	}
 
 	void LoadMouseWiggleDescs ()

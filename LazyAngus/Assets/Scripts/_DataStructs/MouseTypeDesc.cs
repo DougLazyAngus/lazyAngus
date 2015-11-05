@@ -4,24 +4,27 @@ using System.Collections;
 public class MouseTypeDesc {
 	public Sprite deadMouseSprite;
 	public Sprite introScreenSprite;
-	public Sprite mouseSprite;
+	public Sprite [] mouseSprites;
 
 	public float speed;
 	public float scale;
 
-	public MouseTypeDesc(string oldImageName, 
-	                 string newImageName, 
-	                 float speed,
-	                 float scale) {
+	public MouseTypeDesc(string imageNameRoot, 
+	                     string [] imageNames, 
+	                     float speed,
+	                     float scale) {
 		string path;
 		
-		path = "Textures/NewMice/" + newImageName + ".dead";
+		path = "Textures/NewMice/" + imageNameRoot + ".dead";
 		this.deadMouseSprite = Resources.Load<UnityEngine.Sprite>(path);
-		
-		path = "Textures/NewMice/" + newImageName;
-		this.mouseSprite = Resources.Load<UnityEngine.Sprite>(path);
 
-		path = "Textures/NewMice/" + newImageName;
+		mouseSprites = new Sprite[imageNames.Length];
+		for (int i = 0; i < mouseSprites.Length; i++) {
+			path = "Textures/NewMice/" + imageNames[i];
+			this.mouseSprites[i] = Resources.Load<UnityEngine.Sprite>(path);
+		}
+
+		path = "Textures/NewMice/" + imageNameRoot;
 		this.introScreenSprite = Resources.Load<UnityEngine.Sprite>(path);
 
 		this.speed = speed;

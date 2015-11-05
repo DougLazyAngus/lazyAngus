@@ -404,8 +404,7 @@ public class PawController : MonoBehaviour {
 
 	void StopIrritatedRender() {
 		SpriteRenderer sr;
-		string path;
-		
+
 		sr = pawArtGameObject.GetComponent<SpriteRenderer> ();
 		sr.color = normalColor;
 		
@@ -421,8 +420,9 @@ public class PawController : MonoBehaviour {
 
 	void StartIrritatedRender() {
 		SpriteRenderer sr;
-		string path;
-		
+
+		timeStopIrritatedRender = Time.time + irritatedRenderTime;
+
 		sr = pawArtGameObject.GetComponent<SpriteRenderer> ();
 		sr.color = irritatedColor;
 		

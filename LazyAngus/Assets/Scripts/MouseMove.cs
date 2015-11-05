@@ -402,7 +402,8 @@ public class MouseMove : MonoBehaviour
 		                                       scaleVector.y * orientation, 
 		                                       scaleVector.z);
 
-		mouseRenderer.sprite = md.mouseSprite;
+		int index = Random.Range (0, md.mouseSprites.Length);
+		mouseRenderer.sprite = md.mouseSprites[index];
 	}
 
 	public MouseConfig.MovementPhaseType GetMousePhase ()
