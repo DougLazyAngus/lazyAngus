@@ -73,22 +73,26 @@ public class MouseConfig : MonoBehaviour
 
 	static string [] mouse01Names = {
 		"mouse_01", 
-		"mouse_01-AG"
+		"mouse_01-QT",
+		"mouse_01-SL",
 	};
 	
 	static string [] mouse02Names = {
 		"mouse_02", 
-		"mouse_02-AG"
+		"mouse_02-FF",
+		"mouse_02-GK",
 	};
 	
 	static string [] mouse03Names = {
 		"mouse_03", 
-		"mouse_03-AG"
+		"mouse_03-MS",
+		"mouse_03-AG",
 	};
 	
 	static string [] mouse04Names = {
 		"mouse_04", 
-		"mouse_04-AG"
+		"mouse_04-EP",
+		"mouse_04-GL",
 	};
 	
 	void LoadMouseDescs () {
