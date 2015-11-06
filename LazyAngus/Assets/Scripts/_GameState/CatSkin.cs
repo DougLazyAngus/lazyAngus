@@ -21,7 +21,7 @@ public class CatSkin : MonoBehaviour {
 		currentSkinName = PersistentStorage.instance.GetStringValue ("catSkin", 
 		                                                             "original");
 		// FIXME(dbanks)
-		currentSkinName = "original";
+		currentSkinName = "persian";
 
 		ApplyCurrentSkin ();
 	}
