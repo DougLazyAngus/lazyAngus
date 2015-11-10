@@ -373,25 +373,25 @@ public class PawController : MonoBehaviour {
 		string path;
 		
 		sr = pawArtGameObject.GetComponent<SpriteRenderer> ();
-		path = "Textures/NewCatParts/" + CatSkin.instance.currentSkinName +
+		path = "Textures/NewCatParts/" + CatSkin.instance.GetCurrentSkinName() +
 			"/cat_longarm_r_01";
 		sr.sprite = Resources.Load<UnityEngine.Sprite>(path);
 
 		
 		sr = dangerPawArtGameObject.GetComponent<SpriteRenderer> ();
-		path = "Textures/NewCatParts/" + CatSkin.instance.currentSkinName +
+		path = "Textures/NewCatParts/" + CatSkin.instance.GetCurrentSkinName() +
 			"/cat_longarm_danger_r_01";
 		sr.sprite = Resources.Load<UnityEngine.Sprite>(path);
 
 		
 		sr = bigPawArtGameObject.GetComponent<SpriteRenderer> ();
-		path = "Textures/NewCatParts/" + CatSkin.instance.currentSkinName +
+		path = "Textures/NewCatParts/" + CatSkin.instance.GetCurrentSkinName() +
 			"/cat_longarm_big_r_01";
 		sr.sprite = Resources.Load<UnityEngine.Sprite>(path);
 
 		
 		sr = bigDangerPawArtGameObject.GetComponent<SpriteRenderer> ();
-		path = "Textures/NewCatParts/" + CatSkin.instance.currentSkinName +
+		path = "Textures/NewCatParts/" + CatSkin.instance.GetCurrentSkinName() +
 			"/cat_longarm_danger_big_r_01";
 		sr.sprite = Resources.Load<UnityEngine.Sprite>(path);
 	}

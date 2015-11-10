@@ -23,7 +23,7 @@ public class TailController : MonoBehaviour {
 		for (int i = 0; i < numFrames; i++) {
 			
 			string fullPath = String.Format("{0}.{1:00}", 
-			                                pathStubA + CatSkin.instance.currentSkinName + pathStubB,
+			                                pathStubA + CatSkin.instance.GetCurrentSkinName() + pathStubB,
 			                                i + 1);
 			sprites[i] = Resources.Load<UnityEngine.Sprite>(fullPath);
 		}

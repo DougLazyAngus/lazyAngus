@@ -15,6 +15,7 @@ public class GameUIController : MonoBehaviour {
 		GAME_END,
 		REAL_ANGUS,
 		INFO,
+		CAT_FACES,
 
 		NUM_TYPES,
 	}
@@ -25,6 +26,7 @@ public class GameUIController : MonoBehaviour {
 	public GameObject gameOverUIGameObject;
 	public GameObject realAngusUIGameObject;
 	public GameObject infoUIGameObject;
+	public GameObject catFacesUIGameObject;
 
 	public static GameUIController instance { get; private set; }
 	GamePhaseUI [] gameUIs;
@@ -40,6 +42,7 @@ public class GameUIController : MonoBehaviour {
 		gameUIs[(int)GameUIsType.GAME_END] = gameOverUIGameObject.GetComponent <GamePhaseUI>();
 		gameUIs[(int)GameUIsType.REAL_ANGUS] = realAngusUIGameObject.GetComponent <GamePhaseUI>();
 		gameUIs[(int)GameUIsType.INFO] = infoUIGameObject.GetComponent <GamePhaseUI>();
+		gameUIs[(int)GameUIsType.CAT_FACES] = catFacesUIGameObject.GetComponent <GamePhaseUI>();
 
 		// Shut 'em all down.
 		for (int i = 0; i < gameUIs.Length; i++) {
@@ -120,6 +123,9 @@ public class GameUIController : MonoBehaviour {
 			break;
 		case GamePhaseState.GamePhaseType.INFO:
 			SetActiveUI(GameUIsType.INFO);
+			break;
+		case GamePhaseState.GamePhaseType.CAT_FACES:
+			SetActiveUI(GameUIsType.CAT_FACES);
 			break;
 		}
 	}		

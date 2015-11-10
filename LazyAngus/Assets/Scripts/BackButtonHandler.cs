@@ -14,6 +14,7 @@ public class BackButtonHandler : MonoBehaviour {
 	}
 
 	public void GoBack() {
-		GamePhaseState.instance.TransitionToPhase (GamePhaseState.instance.previousGamePhase);
+		GamePhaseState.instance.TransitionToPhase (
+			GamePhaseState.instance.previousGamePhase);
 	}
 }
