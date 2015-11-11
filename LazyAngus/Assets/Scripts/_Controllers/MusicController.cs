@@ -232,6 +232,8 @@ public class MusicController : MonoBehaviour {
 		case GamePhaseState.GamePhaseType.GAME_OVER:
 		case GamePhaseState.GamePhaseType.INFO:
 			return audioSources[(int)MusicType.GAME_OVER];
+		case GamePhaseState.GamePhaseType.CAT_FACES:
+			return currentMusic;
 		case GamePhaseState.GamePhaseType.LEVEL_END:
 			return audioSources[(int)MusicType.LEVEL_END];
 		default:

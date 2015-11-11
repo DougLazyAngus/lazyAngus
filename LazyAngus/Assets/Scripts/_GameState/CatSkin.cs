@@ -9,8 +9,8 @@ public class CatSkin : MonoBehaviour {
 
 		NUM_TYPES
 	}
-
-	CatFaceType currentSkinType;
+	
+	public CatFaceType currentSkinType { get; private set; }
 	public static CatSkin instance;
 
 	public delegate void CatSkinChangedHandler();

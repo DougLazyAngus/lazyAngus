@@ -59,7 +59,6 @@ public class CatFacesGamePhaseUI : GamePhaseUI {
 
 	Vector2 GetNthPosition(int n) {
 		float h = buttonParent.rect.height;
-		float w = buttonParent.rect.width;
 
 		int numButtons = (int)CatSkin.CatFaceType.NUM_TYPES;
 		float colHeight = h / numButtons;
