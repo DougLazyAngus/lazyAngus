@@ -82,6 +82,13 @@ public class GoogleAdController : MonoBehaviour {
 	void Start () {
 		RegisterForEvents ();	
 		UpdateBanner ();
+		UpdateAdsAvailability ();
+	}
+
+	void UpdateAdsAvailability() {
+		if (StoreController.instance.IsUpgradePurchased ()) {
+			adsEnabled = false;
+		}
 	}
 
 	void OnDestroy() {
@@ -132,12 +139,16 @@ public class GoogleAdController : MonoBehaviour {
 		registeredForEvents = true;
 		GamePhaseState.instance.GamePhaseChanged += 
 			new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
+		StoreController.instance.StoreChanged +=
+			new StoreController.StoreChangedHandler (OnStoreChanged);
 	}
 	
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
 			GamePhaseState.instance.GamePhaseChanged -= 
 				new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
+			StoreController.instance.StoreChanged +=
+				new StoreController.StoreChangedHandler (OnStoreChanged);
 		}
 	}
 
@@ -146,6 +157,9 @@ public class GoogleAdController : MonoBehaviour {
 		UpdateInterstialAd ();
 	}
 
+	void OnStoreChanged() {
+		UpdateAdsAvailability ();
+	}
 
 
 	void UpdateInterstialAd() {
@@ -166,12 +180,20 @@ public class GoogleAdController : MonoBehaviour {
 	}
 
 	void ShowInterstitialAd() {
+		if (!adsEnabled) {
+			return;
+		}
+
 		if (interstitialAd.IsLoaded ()) {
 			interstitialAd.Show ();
 		}
 	}
 
 	bool ShouldShowInterstitialAd() {
+		if (!adsEnabled) {
+			return false;
+		}
+
 		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.GAME_OVER) {
 			return false;
 		}

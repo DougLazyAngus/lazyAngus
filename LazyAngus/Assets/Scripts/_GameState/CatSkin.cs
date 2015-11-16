@@ -21,15 +21,20 @@ public class CatSkin : MonoBehaviour {
 
 	void Awake() {
 		instance = this;
-		currentSkinType = CatFaceType.NUM_TYPES;
+		currentSkinType = CatFaceType.ORIGINAL;
 	}
 
 	// Use this for initialization
 	void Start () {
 		currentSkinType = (CatFaceType)PersistentStorage.instance.GetIntValue (
 			"catSkinType", 
-			(int)CatFaceType.NUM_TYPES);
-
+			(int)CatFaceType.ORIGINAL);
+		// FIXME(dbanks)
+		// Accidentally stored some bad values.
+		if (currentSkinType == CatFaceType.NUM_TYPES) {
+			currentSkinType = CatFaceType.ORIGINAL;
+		}
+			
 		ApplyCurrentSkin ();
 	}
 	
@@ -71,7 +76,6 @@ public class CatSkin : MonoBehaviour {
 
 		PersistentStorage.instance.SetIntValue ("catSkinType", 
 		                                        (int) currentSkinType);
-
 
 		string skinName = GetCurrentSkinName ();
 		path = "Textures/NewCatParts/" + skinName + "/cat_head_01";

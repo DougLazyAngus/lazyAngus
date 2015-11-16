@@ -75,8 +75,12 @@ public class SecretUI : MonoBehaviour {
 	public void DebugInterstitialAds() {
 		GoogleAdController.instance.DebugInterstitialAds ();
 	}
-
+	
 	public void DebugLeaderBoard() {
 		GameCenterHelper.instance.ShowLeaderBoard();
+	}
+	
+	public void DebugStore() {
+		StoreController.instance.BuyUpgrade();
 	}
 }

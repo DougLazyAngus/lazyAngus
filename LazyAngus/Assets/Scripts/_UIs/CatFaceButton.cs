@@ -5,7 +5,7 @@ using System.Collections;
 public class CatFaceButton : MonoBehaviour {
 	CatSkin.CatFaceType catFaceType;
 	InOutTransitioner transitioner;
-	bool registeredForEvents;
+
 	public float selectionMoveTime = 0.3f;
 	public float selectedScale = 1.3f;
 	public Color selectedColor = new Color (1.0f, 1.0f, 1.0f);
@@ -20,38 +20,15 @@ public class CatFaceButton : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		RegisterForEvents ();
-		UpdateSelectionState ();
+		UpdateSelectionState (true);
 		started = true;
 	}
 
 	
-	void OnDestroy() {
-		UnregisterForEvents ();
-	}
-
 	void OnEnable() {
 
 	}
-
-	void RegisterForEvents() {
-		if (registeredForEvents) {
-			return;
-		}
-		registeredForEvents = true;
-		CatSkin.instance.CatSkinChanged += 			
-			new CatSkin.CatSkinChangedHandler (OnCatSkinChanged);
-
-	}
-
-	void UnregisterForEvents ()
-	{
-		if (registeredForEvents) {
-			CatSkin.instance.CatSkinChanged -= 			
-				new CatSkin.CatSkinChangedHandler (OnCatSkinChanged);
-		}		
-	}
-
+	
 	// Update is called once per frame
 	void Update () {
 		if (!transitioner.IsTransitioning()) {
@@ -66,20 +43,23 @@ public class CatFaceButton : MonoBehaviour {
 	}
 
 	public void OnButtonClicked() {
-		CatSkin.instance.SetCurrentSkin (catFaceType);
+		if (!StoreController.instance.IsUpgradePurchased ()) {
+			StoreController.instance.BuyUpgrade ();
+		} else {
+			CatSkin.instance.SetCurrentSkin (catFaceType);
+		}
 	}
 
-	void OnCatSkinChanged() {
-		UpdateSelectionState ();
-	}
+	public void UpdateSelectionState(bool jumpToNewState) {
+		int foo  = (int)CatSkin.instance.currentSkinType;
+		int bar = (int)catFaceType;
 
-	void UpdateSelectionState() {
 		bool isSelected = (CatSkin.instance.currentSkinType == catFaceType);
 
-		if (started) {
-			transitioner.Transition (isSelected);
-		} else {
+		if (jumpToNewState) {
 			transitioner.Reset (isSelected);
+		} else {
+			transitioner.Transition (isSelected);
 		}
 
 		ScaleWithTransitioner ();

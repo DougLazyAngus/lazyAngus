@@ -19,12 +19,12 @@ public class CatFacesGamePhaseUI : GamePhaseUI {
 		started = true;
 		RegisterForEvents ();
 		CreateButtons();
-		RefreshButtonStates ();		           
+		RefreshButtonStates (true);		           
 	} 
 
 	void OnEnable() {
 		if (started) {
-			RefreshButtonStates ();		           
+			RefreshButtonStates (true);		           
 		}
 	}
 
@@ -49,7 +49,7 @@ public class CatFacesGamePhaseUI : GamePhaseUI {
 	}
 	
 	void OnCatSkinChanged() {
-		RefreshButtonStates ();
+		RefreshButtonStates (false);
 	}
 
 	// Update is called once per frme
@@ -93,8 +93,11 @@ public class CatFacesGamePhaseUI : GamePhaseUI {
 		}
 	}
 
-	void RefreshButtonStates() {
-		// FIXME(dbanks)
-		// Do this.
+	void RefreshButtonStates(bool jumpToTransition) {
+		for (int i = 0; i < buttonGameObjects.Length; i++) {
+			GameObject buttonGameObject = buttonGameObjects [i];
+			CatFaceButton cfb = buttonGameObject.GetComponent<CatFaceButton> ();
+			cfb.UpdateSelectionState (jumpToTransition);
+		}
 	}
 }

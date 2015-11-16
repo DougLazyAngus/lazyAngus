@@ -15,23 +15,12 @@ public class RateMeDialog : Dialog {
 
 
 	void Start() {
-		RecordShowTime ();
 	}
 	
 	public void SetHandler(RateMeDialogHandler handler) {
 		this.handler = handler;
 	}
-
-	void RecordShowTime() {
-		int launchCount = PersistentStorage.instance.GetIntValue("launchCount", 0);
-		float time = Utilities.SecondsSinceEpoch ();
-
-
-		PersistentStorage.instance.SetIntValue ("rateThisLaunchCount", launchCount);
-		PersistentStorage.instance.SetFloatValue ("rateThisTime", time);
-	}
-
-
+	
 	public void RateThis() {
 		DialogController.instance.HideDialog (this);
 
