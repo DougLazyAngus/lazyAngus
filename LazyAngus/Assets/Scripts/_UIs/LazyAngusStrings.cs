@@ -39,9 +39,8 @@ public class LazyAngusStrings
 		"Buy me more, but watch the prices!";
 
 
-	public const string REAL_ANGUS_FACT_01 = 
-		"I got Angus in 2011 as a kitten. " + 
-		"He was already named \"Angus\" and the name stuck: he was absolutely an Angus.";
+	public const string REAL_ANGUS_FACT_01 = "I got Angus in 2011 as a kitten. " + 
+ 		"He was already named \"Angus\" and the name stuck: he was absolutely an Angus.";
 	public const string REAL_ANGUS_FACT_02 = 
 		"I had just gotten a female kitten, Curry, and she was a bit wild. " + 
 		"The vet suggested a boy cat would help her calm down.";
@@ -71,8 +70,17 @@ public class LazyAngusStrings
 	public const string REAL_ANGUS_FACT_12 = 
 		"He died in August 2014. Broke my heart. We miss you, Angus...";
 
+	public const string SCORE = "Score";
+	public const string BEST = "Best";
 
+	public const string CREDIT_DOUG = "Concept, Design, Engineering";
+	public const string CREDIT_ALEX = "Art Direction";
+	public const string CREDIT_DANIEL = "Additional Art";
+	public const string CREDIT_JOE = "Sound and Music";
+	public const string CREDIT_PLAY_TEST = "Play Test";
 
+	public const string WAVE_COUNT = "Wave {0}";
+	public const string MOUSE_COUNT = "{0} Mice";
 
 }
 
