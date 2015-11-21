@@ -72,6 +72,7 @@ public class LazyAngusStrings
 
 	public const string SCORE = "Score";
 	public const string BEST = "Best";
+	public const string BEST_EVER = "Best Ever!!";
 
 	public const string CREDIT_DOUG = "Concept, Design, Engineering";
 	public const string CREDIT_ALEX = "Art Direction";

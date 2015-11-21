@@ -51,9 +51,6 @@ public class CatFaceButton : MonoBehaviour {
 	}
 
 	public void UpdateSelectionState(bool jumpToNewState) {
-		int foo  = (int)CatSkin.instance.currentSkinType;
-		int bar = (int)catFaceType;
-
 		bool isSelected = (CatSkin.instance.currentSkinType == catFaceType);
 
 		if (jumpToNewState) {

@@ -7,6 +7,7 @@ using System.Collections.Generic;
 public class GameOverGamePhaseUI : GamePhaseUI {
 	public Text personalBestText;
 	public Text finalScoreText;
+
 	public Text finalScoreLabel;
 
 	public Color labelColor = new Color (0, 0.75f, 0.875f);
@@ -20,6 +21,9 @@ public class GameOverGamePhaseUI : GamePhaseUI {
 
 	void Start() {
 		started = true;
+
+		finalScoreLabel.text = LazyAngusStrings.SCORE;
+
 		UpdateView ();
 	}
 
@@ -48,7 +52,7 @@ public class GameOverGamePhaseUI : GamePhaseUI {
 		} else {
 			personalBestText.gameObject.SetActive (true);
 			if (personalBest <= finalScore) {
-				personalBestText.text = Utilities.AddTextColor ("Best ever!!", 
+				personalBestText.text = Utilities.AddTextColor (LazyAngusStrings.BEST_EVER, 
 				                                                labelColor);
 			} else {
 				personalBestText.text = MakeBestScoreText(personalBest);
@@ -59,7 +63,7 @@ public class GameOverGamePhaseUI : GamePhaseUI {
 	}
 	
 	string MakeBestScoreText(int personalBest) {
-		string retval = "Best";
+		string retval = LazyAngusStrings.BEST;
 		retval = Utilities.AddTextColor (retval, labelColor);
 		retval += " " + personalBest;
 		return retval;
