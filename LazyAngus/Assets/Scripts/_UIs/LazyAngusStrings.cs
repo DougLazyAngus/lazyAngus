@@ -81,7 +81,7 @@ public class LazyAngusStrings
 	public const string CREDIT_PLAY_TEST = "Play Test";
 
 	public const string WAVE_COUNT = "Wave {0}";
-	public const string MOUSE_COUNT = "{0} Mice";
+	public const string MOUSE_COUNT = "{0} mice";
 
 }
 

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -57,10 +58,12 @@ public class LevelEndGamePhaseUI : GamePhaseUI {
 		}
 
 		waveDirty = false;
-		waveTitleText.text = "Wave " + GameLevelState.instance.gameLevel;
+		waveTitleText.text = String.Format (LazyAngusStrings.WAVE_COUNT, 
+		                                   GameLevelState.instance.gameLevel);
 
 		LevelDescription ld = LevelConfig.instance.GetCurrentLevelDescription ();
-		waveCountText.text = ld.explicitMouseDescs.Count + " mice";
+		waveCountText.text = String.Format(LazyAngusStrings.MOUSE_COUNT, 
+		                                   ld.explicitMouseDescs.Count);
 
 		waveSpecialText.text = ld.specialText;
 

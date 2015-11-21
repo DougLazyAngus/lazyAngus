@@ -11,8 +11,6 @@ public class CatFaceButton : MonoBehaviour {
 	public Color selectedColor = new Color (1.0f, 1.0f, 1.0f);
 	public Color unselectedColor = new Color (0.8f, 0.8f, 0.8f);
 
-	bool started = false;
-
 	void Awake ()
 	{
 		transitioner = new InOutTransitioner (TweakableParams.realAngusSelectionMoveTime);
@@ -21,14 +19,8 @@ public class CatFaceButton : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		UpdateSelectionState (true);
-		started = true;
 	}
-
-	
-	void OnEnable() {
-
-	}
-	
+		
 	// Update is called once per frame
 	void Update () {
 		if (!transitioner.IsTransitioning()) {
