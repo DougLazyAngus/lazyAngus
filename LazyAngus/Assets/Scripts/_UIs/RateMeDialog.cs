@@ -13,8 +13,16 @@ public class RateMeDialog : Dialog {
 	public delegate void RateMeDialogHandler(RateMeResult result);
 	RateMeDialogHandler handler;
 
+	public Text rateMeText;
+	public Text okButtonText;
+	public Text laterButtonText;
+	public Text noThanksButtonText;
 
 	void Start() {
+		rateMeText.text = LazyAngusStrings.RATE_ME;
+		okButtonText.text = LazyAngusStrings.RATE_ME_OK;
+		laterButtonText.text = LazyAngusStrings.RATE_ME_LATER;
+		noThanksButtonText.text = LazyAngusStrings.RATE_ME_NO_THANKS;
 	}
 	
 	public void SetHandler(RateMeDialogHandler handler) {

@@ -55,6 +55,7 @@ public class GoogleAdController : MonoBehaviour {
 			new AdRequest.Builder();
 		builder.AddKeyword("game");
 		builder.AddKeyword("cat");
+		builder.TagForChildDirectedTreatment (true);
 		return builder.Build();
 	}
 

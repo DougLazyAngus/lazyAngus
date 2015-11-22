@@ -1,0 +1,44 @@
+String Identifier,Description,Character Limit,US English
+BOOST_FAIL_LEVEL,Can't use power up because it's level locked.,,WOO WOO WOO {0}!
+BOOST_FAIL_ACTIVE,Cant use power up because it's already in use,,I can only eat one cat food at a time!
+BOOST_FAIL_COST,Can't use power up because user can't afford it,,Not enough money!\n\nSwipe two mice at once to earn more!
+,,,
+INTRO_BOOST_FAST,Explain power up that increases speed,,Cat food helps me move faster!
+INTRO_BOOST_SEE,Explain power up that widens cat's field of view,,This cat food helps me see better!
+INTRO_BOOST_GIANT,Explain power up that makes cat paws bigger,,Try new Giant Paws cat food!
+INTRO_BOOST_FART,Explain power up that makes cat fart,,This cat food makes me toot!
+,,,
+TIP_EXPLAIN_BOOSTS,Explain general idea of power ups,,Buy me cat food when you need some extra help!
+TIP_BOOST_FAST,Message when fast powerup starts,,I feel frisky!\n\nLet's catch some mice while it lasts!
+TIP_BOOST_SEE,Message when vision powerup starts,,Better eyesight means less turning!
+TIP_BOOST_GIANT,Message when giant paws powerup starts,,No mouse shall escape my mighty paws!
+TIP_BOOST_FART,Message when fart powerup starts,,The mice slow down when things get a little stinky...
+,,,
+TUTORIAL_CATCH_MOUSE,Tutorial: explain you need to catch mice,,"AAA, AAA, AAA\nAAAAA"
+TUTORIAL_LEAD_MOUSE,Tutorial: explain you show swipe ahead of mice,,"BBB BBB BBB"
+TUTORIAL_DRAG_TURN,Tutorial: explain you can turn faster by dragging cat's butt,,"CCC, CCC, CCC"
+TUTORIAL_TRAPS,Tutorial: explain the use of traps,,DDDDD!!
+TUTORIAL_GAME_OVER,Tutorial: explain game loss condition,,WEE WEE WEE!!!\n\nWEE MORE!!
+TUTORIAL_BOOST_OVER,Tutorial: explain boosts run out after a while,,"The catfood is all gone!\n\nBuy me more, but watch the prices!"
+,,,
+REAL_ANGUS_FACT_01,"Caption on a picture of the real cat, Angus",,"I got Angus in 2011 as a kitten. He was already named \""Angus\"" and the name stuck: he was absolutely an Angus."
+REAL_ANGUS_FACT_02,"Caption on a picture of the real cat, Angus",,"I had just gotten a female kitten, Curry, and she was a bit wild. The vet suggested a boy cat would help her calm down."
+REAL_ANGUS_FACT_03,"Caption on a picture of the real cat, Angus",,Angus and Curry became great friends. He would pounce on her occasionally. She usually deserved it.
+REAL_ANGUS_FACT_04,"Caption on a picture of the real cat, Angus",,"He was the only cat I ever met who liked to have his belly rubbed. His massive, fuzzy white belly..."
+REAL_ANGUS_FACT_05,"Caption on a picture of the real cat, Angus",,He was a glutton. If I didn't hold him down at feeding time he'd stick his face and paws into the bag of catfood.
+REAL_ANGUS_FACT_06,"Caption on a picture of the real cat, Angus",,You know how some cats carry themselves with an air of dignity and mystery? Angus... not so much...
+REAL_ANGUS_FACT_07,"Caption on a picture of the real cat, Angus",,"He loved to groom. Start with himself, move on to Curry, then my head. Kind of sweet until the biting part."
+REAL_ANGUS_FACT_08,"Caption on a picture of the real cat, Angus",,He was crazy for this little stuffed hedgehog.  He'd bat it around until it got stuck under furniture.  Then this would happen...
+REAL_ANGUS_FACT_09,"Caption on a picture of the real cat, Angus",,He was always a big boy but over time he got just enormous. When he laid down he made a puddle of cat.
+REAL_ANGUS_FACT_10,"Caption on a picture of the real cat, Angus",,The new kitty condo was a huge success. That red ball thingy lasted about two seconds.
+REAL_ANGUS_FACT_11,"Caption on a picture of the real cat, Angus",,"Angus was just as sweet and touchable as he looks, and then some. He was like a pot of warm pudding wrapped in a furry blanket."
+REAL_ANGUS_FACT_12,"Caption on a picture of the real cat, Angus",,"He died in August 2014. Broke my heart. We miss you, Angus..."
+,,,
+RATE_ME,Dialog: rate the app?,,Like Lazy Angus?\nGive us a 5-star review!
+RATE_ME_OK,"yes, rate the app",,OK!
+RATE_ME_LATER,rate the app some other time,,Later...
+RATE_ME_NO_THANKS,no I don't want to rate the app,,No thanks...
+,,,
+UPGRADE,Pay $$ to access new features and turn off ads?,,Buy the Lazy Upgrade!\n\nHide ads and change my fur!
+UPGRADE_YES,Click here if you're interested to learn more,,How much?
+UPGRADE_NO,Click here if you're not interested.,,No thanks...
