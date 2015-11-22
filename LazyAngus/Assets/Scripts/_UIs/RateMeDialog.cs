@@ -19,10 +19,10 @@ public class RateMeDialog : Dialog {
 	public Text noThanksButtonText;
 
 	void Start() {
-		rateMeText.text = LazyAngusStrings.RATE_ME;
-		okButtonText.text = LazyAngusStrings.RATE_ME_OK;
-		laterButtonText.text = LazyAngusStrings.RATE_ME_LATER;
-		noThanksButtonText.text = LazyAngusStrings.RATE_ME_NO_THANKS;
+		rateMeText.text = LazyAngusStrings.inst.Str("RATE_ME");
+		okButtonText.text = LazyAngusStrings.inst.Str("RATE_ME_OK");
+		laterButtonText.text = LazyAngusStrings.inst.Str("RATE_ME_LATER");
+		noThanksButtonText.text = LazyAngusStrings.inst.Str("RATE_ME_NO_THANKS");
 	}
 	
 	public void SetHandler(RateMeDialogHandler handler) {

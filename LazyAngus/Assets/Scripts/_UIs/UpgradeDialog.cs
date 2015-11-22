@@ -12,9 +12,9 @@ public class UpgradeDialog : Dialog {
 	public Text noButtonText;
 
 	void Start() {
-		upgradeText.text = LazyAngusStrings.UPGRADE;
-		yesButtonText.text = LazyAngusStrings.UPGRADE_YES;
-		noButtonText.text = LazyAngusStrings.UPGRADE_NO;
+		upgradeText.text = LazyAngusStrings.inst.Str("UPGRADE");
+		yesButtonText.text = LazyAngusStrings.inst.Str("UPGRADE_YES");
+		noButtonText.text = LazyAngusStrings.inst.Str("UPGRADE_NO");
 	}
 	
 	public void SetHandler(UpgradeDialogHandler handler) {

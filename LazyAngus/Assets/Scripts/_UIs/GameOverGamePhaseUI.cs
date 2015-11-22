@@ -22,7 +22,7 @@ public class GameOverGamePhaseUI : GamePhaseUI {
 	void Start() {
 		started = true;
 
-		finalScoreLabel.text = LazyAngusStrings.SCORE;
+		finalScoreLabel.text = LazyAngusStrings.inst.Str("SCORE");
 
 		UpdateView ();
 	}
@@ -52,7 +52,7 @@ public class GameOverGamePhaseUI : GamePhaseUI {
 		} else {
 			personalBestText.gameObject.SetActive (true);
 			if (personalBest <= finalScore) {
-				personalBestText.text = Utilities.AddTextColor (LazyAngusStrings.BEST_EVER, 
+				personalBestText.text = Utilities.AddTextColor (LazyAngusStrings.inst.Str("BEST_EVER"), 
 				                                                labelColor);
 			} else {
 				personalBestText.text = MakeBestScoreText(personalBest);
@@ -63,7 +63,7 @@ public class GameOverGamePhaseUI : GamePhaseUI {
 	}
 	
 	string MakeBestScoreText(int personalBest) {
-		string retval = LazyAngusStrings.BEST;
+		string retval = LazyAngusStrings.inst.Str("BEST");
 		retval = Utilities.AddTextColor (retval, labelColor);
 		retval += " " + personalBest;
 		return retval;

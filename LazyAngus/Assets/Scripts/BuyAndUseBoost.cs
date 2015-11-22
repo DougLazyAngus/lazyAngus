@@ -11,18 +11,18 @@ public class BuyAndUseBoost : MonoBehaviour {
 
 	public void BuyAndUse() {
 		if (!boostButton.BoostIsUnlocked ()) {
-			TipController.instance.EnqueueAnytimeTip(String.Format(LazyAngusStrings.BOOST_FAIL_LEVEL, 
+			TipController.instance.EnqueueAnytimeTip(String.Format(LazyAngusStrings.inst.Str("BOOST_FAIL_LEVEL"), 
 			                                                       boostButton.GetLevelLock()));
 			return;
 		}
 		
 		if (BoostConfig.instance.IsBoostActive()) {
-			TipController.instance.EnqueueAnytimeTip(LazyAngusStrings.BOOST_FAIL_ACTIVE);
+			TipController.instance.EnqueueAnytimeTip(LazyAngusStrings.inst.Str("BOOST_FAIL_ACTIVE"));
 			return;
 		}
 		
 		if (!boostButton.CanAffordBoost ()) {
-			TipController.instance.EnqueueAnytimeTip(LazyAngusStrings.BOOST_FAIL_COST);
+			TipController.instance.EnqueueAnytimeTip(LazyAngusStrings.inst.Str("BOOST_FAIL_COST"));
 			return;
 		}
 

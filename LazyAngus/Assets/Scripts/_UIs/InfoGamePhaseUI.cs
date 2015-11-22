@@ -15,11 +15,11 @@ public class InfoGamePhaseUI : GamePhaseUI {
 	}
 
 	void Start () {
-		dougCreditText.text = LazyAngusStrings.CREDIT_DOUG;
-		alexCreditText.text = LazyAngusStrings.CREDIT_ALEX;
-		danielCreditText.text = LazyAngusStrings.CREDIT_DANIEL;
-		joeCreditText.text = LazyAngusStrings.CREDIT_JOE;
-		playTextCreditText.text = LazyAngusStrings.CREDIT_PLAY_TEST;
+		dougCreditText.text = LazyAngusStrings.inst.Str("CREDIT_DOUG");
+		alexCreditText.text = LazyAngusStrings.inst.Str("CREDIT_ALEX");
+		danielCreditText.text = LazyAngusStrings.inst.Str("CREDIT_DANIEL");
+		joeCreditText.text = LazyAngusStrings.inst.Str("CREDIT_JOE");
+		playTextCreditText.text = LazyAngusStrings.inst.Str("CREDIT_PLAY_TEST");
 	}
 
 }

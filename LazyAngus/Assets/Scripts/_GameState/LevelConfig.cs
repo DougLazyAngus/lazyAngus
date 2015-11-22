@@ -456,12 +456,12 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 			
 		case 4:
-			ld.specialText = LazyAngusStrings.INTRO_BOOST_FAST;
+			ld.specialText = LazyAngusStrings.inst.Str("INTRO_BOOST_FAST");
 			ld.sprite = BoostConfig.instance.GetIntroImageForType (
 				BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS);
 
 			ld.tipConfig = new TipConfig ("explainBoosts", 
-			                             LazyAngusStrings.TIP_EXPLAIN_BOOSTS);
+			                             LazyAngusStrings.inst.Str("TIP_EXPLAIN_BOOSTS"));
 			ld.tipPause = 1.7f;
 
 			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS);
@@ -579,7 +579,7 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 			
 		case 7:
-			ld.specialText = LazyAngusStrings.INTRO_BOOST_SEE;
+			ld.specialText = LazyAngusStrings.inst.Str("INTRO_BOOST_SEE");
 			ld.sprite = BoostConfig.instance.GetIntroImageForType (
 					BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES);
 
@@ -720,7 +720,7 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 			
 		case 10:
-			ld.specialText = LazyAngusStrings.INTRO_BOOST_GIANT;
+			ld.specialText = LazyAngusStrings.inst.Str("INTRO_BOOST_GIANT");
 			ld.sprite = BoostConfig.instance.GetIntroImageForType (
 				BoostConfig.BoostType.BOOST_TYPE_BIG_PAWS);
 			
@@ -891,7 +891,7 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 			
 		case 13:
-			ld.specialText = LazyAngusStrings.INTRO_BOOST_FART;
+			ld.specialText = LazyAngusStrings.inst.Str("INTRO_BOOST_FART");
 			ld.sprite = BoostConfig.instance.GetIntroImageForType (
 				BoostConfig.BoostType.BOOST_TYPE_FART);
 			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_FART);

@@ -58,11 +58,11 @@ public class LevelEndGamePhaseUI : GamePhaseUI {
 		}
 
 		waveDirty = false;
-		waveTitleText.text = String.Format (LazyAngusStrings.WAVE_COUNT, 
+		waveTitleText.text = String.Format (LazyAngusStrings.inst.Str("WAVE_COUNT"), 
 		                                   GameLevelState.instance.gameLevel);
 
 		LevelDescription ld = LevelConfig.instance.GetCurrentLevelDescription ();
-		waveCountText.text = String.Format(LazyAngusStrings.MOUSE_COUNT, 
+		waveCountText.text = String.Format(LazyAngusStrings.inst.Str("MOUSE_COUNT"), 
 		                                   ld.explicitMouseDescs.Count);
 
 		waveSpecialText.text = ld.specialText;

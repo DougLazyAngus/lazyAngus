@@ -69,65 +69,65 @@ public class RealAngusData : MonoBehaviour {
 		RealAngusItemDesc raid;
 
 		raid = new RealAngusItemDesc ("01_sleepy_face", 
-		                              LazyAngusStrings.REAL_ANGUS_FACT_01,
+		                              LazyAngusStrings.inst.Str("REAL_ANGUS_FACT_01"),
 		                              "intro");
 		realAngusItemDescs.Add (raid);
 		
 		raid = new RealAngusItemDesc ("02_with_curry_napping", 
-		                              LazyAngusStrings.REAL_ANGUS_FACT_02,
+		                              LazyAngusStrings.inst.Str("REAL_ANGUS_FACT_02"),
 		                              "curry_taming");
 		realAngusItemDescs.Add (raid);
 		
 		raid = new RealAngusItemDesc ("03_kitten_hug", 
-		                              LazyAngusStrings.REAL_ANGUS_FACT_03,
+		                              LazyAngusStrings.inst.Str("REAL_ANGUS_FACT_03"),
 		                              "kitten_hug");
 		realAngusItemDescs.Add (raid);
 		
 		raid = new RealAngusItemDesc ("04_belly", 
-		                              LazyAngusStrings.REAL_ANGUS_FACT_04,
+		                              LazyAngusStrings.inst.Str("REAL_ANGUS_FACT_04"),
 		                              "belly");
 		realAngusItemDescs.Add (raid);
 
 
 		raid = new RealAngusItemDesc ("05_fridge", 
-		                              LazyAngusStrings.REAL_ANGUS_FACT_05,
+		                              LazyAngusStrings.inst.Str("REAL_ANGUS_FACT_05"),
 		                              "glutton");
 		realAngusItemDescs.Add (raid);
 
 		raid = new RealAngusItemDesc ("06_dignity", 
-		                              LazyAngusStrings.REAL_ANGUS_FACT_06,
+		                              LazyAngusStrings.inst.Str("REAL_ANGUS_FACT_06"),
 		                              "dignity");
 		realAngusItemDescs.Add (raid);
 		
 		raid = new RealAngusItemDesc ("07_grooming", 
-		                              LazyAngusStrings.REAL_ANGUS_FACT_07,
+		                              LazyAngusStrings.inst.Str("REAL_ANGUS_FACT_07"),
 		                              "07_grooming");
 		realAngusItemDescs.Add (raid);
 		
 		raid = new RealAngusItemDesc ("08_hedgehog", 
-		                              LazyAngusStrings.REAL_ANGUS_FACT_08,
+		                              LazyAngusStrings.inst.Str("REAL_ANGUS_FACT_08"),
 		                              "08_hedgehog");
 		realAngusItemDescs.Add (raid);
 
 		
 		raid = new RealAngusItemDesc ("09_puddle", 
-		                              LazyAngusStrings.REAL_ANGUS_FACT_09,
+		                              LazyAngusStrings.inst.Str("REAL_ANGUS_FACT_09"),
 		                              "09_puddle");
 		realAngusItemDescs.Add (raid);
 		
 		raid = new RealAngusItemDesc ("10_tower", 
-		                              LazyAngusStrings.REAL_ANGUS_FACT_10,
+		                              LazyAngusStrings.inst.Str("REAL_ANGUS_FACT_10"),
 		                              "10_tower");
 		realAngusItemDescs.Add (raid);
 		
 		raid = new RealAngusItemDesc ("11_cuddly", 
-		                              LazyAngusStrings.REAL_ANGUS_FACT_11,
+		                              LazyAngusStrings.inst.Str("REAL_ANGUS_FACT_11"),
 		                              "11_cuddly");
 		realAngusItemDescs.Add (raid);
 		
 
 		raid = new RealAngusItemDesc ("12_red_bed", 
-		                              LazyAngusStrings.REAL_ANGUS_FACT_12,
+		                              LazyAngusStrings.inst.Str("REAL_ANGUS_FACT_12"),
 		                              "final_shot");
 		realAngusItemDescs.Add (raid);
 	}

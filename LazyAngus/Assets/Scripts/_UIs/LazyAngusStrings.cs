@@ -15,7 +15,7 @@ using System;
 
 public class LazyAngusStrings: MonoBehaviour
 {
-	public static LazyAngusStrings instance;
+	public static LazyAngusStrings inst;
 
 	public TextAsset englishStrings;
 
@@ -33,9 +33,12 @@ public class LazyAngusStrings: MonoBehaviour
 	Dictionary<string, string> mapInProgress;
 
 	void Awake() {
-		instance = this;
+		inst = this;
 
 		SystemLanguage language = Application.systemLanguage;
+
+		// FIXME(dbanks)
+		language = SystemLanguage.Japanese;
 
 		mainStringMap = makeMapForLanguage(language);
 		defaultStringMap = makeMapForLanguage(SystemLanguage.English);
@@ -102,7 +105,17 @@ public class LazyAngusStrings: MonoBehaviour
 		}
 	}
 
+	public string Str(string key) {
+		if (mainStringMap.ContainsKey (key)) {
+			return mainStringMap [key];
+		}
+		if (defaultStringMap.ContainsKey (key)) {
+			return defaultStringMap [key];
+		} 
+		return "UNKNOWN STRING";
+	}
 
+	/*
 	public const string BOOST_FAIL_LEVEL = "I can't eat that cat food until Wave {0}!";
 	public const string BOOST_FAIL_ACTIVE = "I can only eat one cat food at a time!";
 	public const string BOOST_FAIL_COST = "Not enough money!\n\nSwipe two mice at once to earn more!";
@@ -182,7 +195,7 @@ public class LazyAngusStrings: MonoBehaviour
 	public const string UPGRADE = "Buy the Lazy Upgrade!\n\nHide ads and change my fur!";
 	public const string UPGRADE_YES = "How much?";
 	public const string UPGRADE_NO = "No thanks...";
-
+*/
 
 }
 
