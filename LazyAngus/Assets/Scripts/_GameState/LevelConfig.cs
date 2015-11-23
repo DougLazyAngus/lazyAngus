@@ -385,7 +385,7 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 
 		case 2:
-			ld.specialText = "Get ready for faster mice!";
+			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_FAST_MICE_01");
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType (
 				MouseConfig.MouseType.MEDIUM);
 			ld.mouseTypesAccumulator.AddNew ((int)MouseConfig.MouseType.MEDIUM);
@@ -417,7 +417,7 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 			
 		case 3:
-			ld.specialText = "A new mousetrap!";
+			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_NEW_MOUSETRAP_01");
 			ld.sprite = newMouseTrapSprite;
 
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.NORTH);
@@ -492,7 +492,7 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 			
 		case 5:
-			ld.specialText = "Another mousetrap!";
+			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_NEW_MOUSETRAP_02");
 			ld.sprite = newMouseTrapSprite;
 			
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.SOUTH);
@@ -531,7 +531,7 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 			
 		case 6:
-			ld.specialText = "Here comes the fastest mouse yet!";
+			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_FAST_MICE_02");
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType (
 				MouseConfig.MouseType.FAST);
 			ld.mouseTypesAccumulator.AddNew ((int)MouseConfig.MouseType.MEDIUM);
@@ -620,7 +620,7 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 			
 		case 8:
-			ld.specialText = "Whew, another trap!";
+			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_NEW_MOUSETRAP_03");
 			ld.sprite = newMouseTrapSprite;
 
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.EAST);
@@ -667,7 +667,7 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 			
 		case 9:
-			ld.specialText = "Some mice have learned to dodge!";
+			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_NEW_MOVEMENT_01");
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseWiggle (
 				MouseConfig.MouseWiggleType.BACK_FORTH);
 			ld.wigglesAccumulator.AddNew ((int)MouseConfig.MouseWiggleType.BACK_FORTH);
@@ -774,7 +774,7 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 			
 		case 11:
-			ld.specialText = "I could use another mousetrap...";
+			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_NEW_MOUSETRAP_04");
 			ld.sprite = newMouseTrapSprite;
 			
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.WEST);
@@ -826,7 +826,7 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 			
 		case 12:
-			ld.specialText = "Watch out for the super speedster mouse!";
+			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_FAST_MICE_03");
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType (
 				MouseConfig.MouseType.SUPERFAST);
 
@@ -899,7 +899,7 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 			
 		case 14:
-			ld.specialText = "This new mousetrap should help!";
+			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_NEW_MOUSETRAP_05");
 			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.WEST);
 
@@ -909,7 +909,7 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 			
 		case 15:
-			ld.specialText = "Mice are weaving side to side!";
+			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_NEW_MOVEMENT_02");
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseWiggle (
 					MouseConfig.MouseWiggleType.SIDE_SIDE);
 
@@ -994,7 +994,7 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 			
 		case 16:
-			ld.specialText = "Here comes trouble....";
+			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_TROUBLE");
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType (
 				MouseConfig.MouseType.SUPERFAST);
 
@@ -1052,7 +1052,7 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 			
 		case 17:
-			ld.specialText = "A new mousetrap!";
+			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_NEW_MOUSETRAP_01");
 			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.EAST);
 
@@ -1062,7 +1062,7 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 			
 		case 19:
-			ld.specialText = "Uh-oh! Some mice dodge AND weave!";
+			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_NEW_MOVEMENT_03");
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseWiggle (
 					MouseConfig.MouseWiggleType.ROUND);
 			ld.wigglesAccumulator.AddNew ((int)MouseConfig.MouseWiggleType.ROUND);
@@ -1126,7 +1126,7 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 			
 		case 20:
-			ld.specialText = "Another mousetrap!";
+			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_NEW_MOUSETRAP_02");
 			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.SOUTH);
 			return ld;
@@ -1139,13 +1139,13 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 			
 		case 23:
-			ld.specialText = "Looks like another new mousetrap!";
+			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_NEW_MOUSETRAP_03");
 			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.NORTH);
 			return ld;
 			
 		case 26:
-			ld.specialText = "One more trap won't hurt!";
+			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_NEW_MOUSETRAP_04");
 			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.NORTH);
 			return ld;
@@ -1157,19 +1157,19 @@ public class LevelConfig : MonoBehaviour
 			return ld;
 			
 		case 29:
-			ld.specialText = "This looks like a fine new mousetrap!";
+			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_NEW_MOUSETRAP_06");
 			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.WEST);
 			return ld;
 			
 		case 32:
-			ld.specialText = "New mousetrap? Don't mind if I do!";
+			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_NEW_MOUSETRAP_07");
 			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.SOUTH);
 			return ld;
 			
 		case 35:
-			ld.specialText = "One last mousetrap! Better make it count!";
+			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_NEW_MOUSETRAP_08");
 			ld.sprite = newMouseTrapSprite;
 			ld.mouseHolesAccumulator.AddNew ((int)MouseSinkController.MouseHoleLocation.EAST);
 			return ld;

@@ -1,44 +1,63 @@
-String Identifier,Description,Character Limit,US English
-BOOST_FAIL_LEVEL,Can't use power up because it's level locked.,,I can't eat that cat food until Wave {0}!
-BOOST_FAIL_ACTIVE,Cant use power up because it's already in use,,I can only eat one cat food at a time!
-BOOST_FAIL_COST,Can't use power up because user can't afford it,,Not enough money!\n\nSwipe two mice at once to earn more!
-,,,
-INTRO_BOOST_FAST,Explain power up that increases speed,,Cat food helps me move faster!
-INTRO_BOOST_SEE,Explain power up that widens cat's field of view,,This cat food helps me see better!
-INTRO_BOOST_GIANT,Explain power up that makes cat paws bigger,,Try new Giant Paws cat food!
-INTRO_BOOST_FART,Explain power up that makes cat fart,,This cat food makes me toot!
-,,,
-TIP_EXPLAIN_BOOSTS,Explain general idea of power ups,,Buy me cat food when you need some extra help!
-TIP_BOOST_FAST,Message when fast powerup starts,,I feel frisky!\n\nLet's catch some mice while it lasts!
-TIP_BOOST_SEE,Message when vision powerup starts,,Better eyesight means less turning!
-TIP_BOOST_GIANT,Message when giant paws powerup starts,,No mouse shall escape my mighty paws!
-TIP_BOOST_FART,Message when fart powerup starts,,The mice slow down when things get a little stinky...
-,,,
-TUTORIAL_CATCH_MOUSE,Tutorial: explain you need to catch mice,,Yikes!\n\nI'd better catch that mouse!
-TUTORIAL_LEAD_MOUSE,Tutorial: explain you show swipe ahead of mice,,I'll swipe where you tap but I'm pretty lazy.\n\nPlan ahead!
-TUTORIAL_DRAG_TURN,Tutorial: explain you can turn faster by dragging cat's butt,,Drag my backside to turn me faster!
-TUTORIAL_TRAPS,Tutorial: explain the use of traps,,"A trap will stop an escaping mouse, but then it's gone for good!"
-TUTORIAL_GAME_OVER,Tutorial: explain game loss condition,,"OH NO!!\n\nA mouse got away, I'm in trouble now!"
-TUTORIAL_BOOST_OVER,Tutorial: explain boosts run out after a while,,"The catfood is all gone!\n\nBuy me more, but watch the prices!"
-,,,
-REAL_ANGUS_FACT_01,"Caption on a picture of the real cat, Angus",,"I got Angus in 2011 as a kitten. He was already named \""Angus\"" and the name stuck: he was absolutely an Angus."
-REAL_ANGUS_FACT_02,"Caption on a picture of the real cat, Angus",,"I had just gotten a female kitten, Curry, and she was a bit wild. The vet suggested a boy cat would help her calm down."
-REAL_ANGUS_FACT_03,"Caption on a picture of the real cat, Angus",,Angus and Curry became great friends. He would pounce on her occasionally. She usually deserved it.
-REAL_ANGUS_FACT_04,"Caption on a picture of the real cat, Angus",,"He was the only cat I ever met who liked to have his belly rubbed. His massive, fuzzy white belly..."
-REAL_ANGUS_FACT_05,"Caption on a picture of the real cat, Angus",,He was a glutton. If I didn't hold him down at feeding time he'd stick his face and paws into the bag of catfood.
-REAL_ANGUS_FACT_06,"Caption on a picture of the real cat, Angus",,You know how some cats carry themselves with an air of dignity and mystery? Angus... not so much...
-REAL_ANGUS_FACT_07,"Caption on a picture of the real cat, Angus",,"He loved to groom. Start with himself, move on to Curry, then my head. Kind of sweet until the biting part."
-REAL_ANGUS_FACT_08,"Caption on a picture of the real cat, Angus",,He was crazy for this little stuffed hedgehog.  He'd bat it around until it got stuck under furniture.  Then this would happen...
-REAL_ANGUS_FACT_09,"Caption on a picture of the real cat, Angus",,He was always a big boy but over time he got just enormous. When he laid down he made a puddle of cat.
-REAL_ANGUS_FACT_10,"Caption on a picture of the real cat, Angus",,The new kitty condo was a huge success. That red ball thingy lasted about two seconds.
-REAL_ANGUS_FACT_11,"Caption on a picture of the real cat, Angus",,"Angus was just as sweet and touchable as he looks, and then some. He was like a pot of warm pudding wrapped in a furry blanket."
-REAL_ANGUS_FACT_12,"Caption on a picture of the real cat, Angus",,"He died in August 2014. Broke my heart. We miss you, Angus..."
-,,,
-RATE_ME,Dialog: rate the app?,,Like Lazy Angus?\nGive us a 5-star review!
-RATE_ME_OK,"yes, rate the app",,OK!
-RATE_ME_LATER,rate the app some other time,,Later...
-RATE_ME_NO_THANKS,no I don't want to rate the app,,No thanks...
-,,,
-UPGRADE,Pay $$ to access new features and turn off ads?,,Buy the Lazy Upgrade!\n\nHide ads and change my fur!
-UPGRADE_YES,Click here if you're interested to learn more,,How much?
-UPGRADE_NO,Click here if you're not interested.,,No thanks...
+"String Identifier",English,"String Description"
+BOOST_FAIL_LEVEL,"I can't eat that cat food until Wave {0}!","Can't use power up because it's level locked."
+BOOST_FAIL_ACTIVE,"I can only eat one cat food at a time!","Cant use power up because it's already in use"
+BOOST_FAIL_COST,"Not enough money!\n\nSwipe two mice at once to earn more!","Can't use power up because user can't afford it"
+INTRO_BOOST_FAST,"Cat food helps me move faster!","Explain power up that increases speed"
+INTRO_BOOST_SEE,"This cat food helps me see better!","Explain power up that widens cat's field of view"
+INTRO_BOOST_GIANT,"Try new Giant Paws cat food!","Explain power up that makes cat paws bigger"
+INTRO_BOOST_FART,"This cat food makes me toot!","Explain power up that makes cat fart"
+TIP_EXPLAIN_BOOSTS,"Buy me cat food when you need some extra help!","Explain general idea of power ups"
+TIP_BOOST_FAST,"I feel frisky!\n\nLet's catch some mice while it lasts!","Message when fast powerup starts"
+TIP_BOOST_SEE,"Better eyesight means less turning!","Message when vision powerup starts"
+TIP_BOOST_GIANT,"No mouse shall escape my mighty paws!","Message when giant paws powerup starts"
+TIP_BOOST_FART,"The mice slow down when things get a little stinky...","Message when fart powerup starts"
+TUTORIAL_CATCH_MOUSE,"Yikes!\n\nI'd better catch that mouse!","Tutorial: explain you need to catch mice"
+TUTORIAL_LEAD_MOUSE,"I'll swipe where you tap but I'm pretty lazy.\n\nPlan ahead!","Tutorial: explain you show swipe ahead of mice"
+TUTORIAL_DRAG_TURN,"Drag my backside to turn me faster!","Tutorial: explain you can turn faster by dragging cat's butt"
+TUTORIAL_TRAPS,"A trap will stop an escaping mouse, but then it's gone for good!","Tutorial: explain the use of traps"
+TUTORIAL_GAME_OVER,"OH NO!!\n\nA mouse got away, I'm in trouble now!","Tutorial: explain game loss condition"
+TUTORIAL_BOOST_OVER,"The catfood is all gone!\n\nBuy me more, but watch the prices!","Tutorial: explain boosts run out after a while"
+REAL_ANGUS_FACT_01,"I got Angus in 2011 as a kitten. He was already named \""Angus\"" and the name stuck: he was absolutely an Angus.","Caption on a picture of the real cat, Angus"
+REAL_ANGUS_FACT_02,"I had just gotten a female kitten, Curry, and she was a bit wild. The vet suggested a boy cat would help her calm down.","Caption on a picture of the real cat, Angus"
+REAL_ANGUS_FACT_03,"Angus and Curry became great friends. He would pounce on her occasionally. She usually deserved it.","Caption on a picture of the real cat, Angus"
+REAL_ANGUS_FACT_04,"He was the only cat I ever met who liked to have his belly rubbed. His massive, fuzzy white belly...","Caption on a picture of the real cat, Angus"
+REAL_ANGUS_FACT_05,"He was a glutton. If I didn't hold him down at feeding time he'd stick his face and paws into the bag of catfood.","Caption on a picture of the real cat, Angus"
+REAL_ANGUS_FACT_06,"You know how some cats carry themselves with an air of dignity and mystery? Angus... not so much...","Caption on a picture of the real cat, Angus"
+REAL_ANGUS_FACT_07,"He loved to groom. Start with himself, move on to Curry, then my head. Kind of sweet until the biting part.","Caption on a picture of the real cat, Angus"
+REAL_ANGUS_FACT_08,"He was crazy for this little stuffed hedgehog.  He'd bat it around until it got stuck under furniture.  Then this would happen...","Caption on a picture of the real cat, Angus"
+REAL_ANGUS_FACT_09,"He was always a big boy but over time he got just enormous. When he laid down he made a puddle of cat.","Caption on a picture of the real cat, Angus"
+REAL_ANGUS_FACT_10,"The new kitty condo was a huge success. That red ball thingy lasted about two seconds.","Caption on a picture of the real cat, Angus"
+REAL_ANGUS_FACT_11,"Angus was just as sweet and touchable as he looks, and then some. He was like a pot of warm pudding wrapped in a furry blanket.","Caption on a picture of the real cat, Angus"
+REAL_ANGUS_FACT_12,"He died in August 2014. Broke my heart. We miss you, Angus...","Caption on a picture of the real cat, Angus"
+RATE_ME,"Like Lazy Angus?\nGive us a 5-star review!","Dialog: rate the app?"
+RATE_ME_OK,OK!,"yes, rate the app"
+RATE_ME_LATER,Later...,"rate the app some other time"
+RATE_ME_NO_THANKS,"No thanks...","no I don't want to rate the app"
+UPGRADE,"Buy the Lazy Upgrade!\n\nHide ads and change my fur!","Pay $$ to access new features and turn off ads?"
+UPGRADE_YES,"How much?","Click here if you're interested to learn more"
+UPGRADE_NO,"No thanks...","Click here if you're not interested."
+WAVE_COUNT,"Wave {0}","Which level is coming up"
+MOUSE_COUNT,"{0} mice","Number of mice in upcoming level.  Always more than one."
+SCORE,Score,"Score of latest game"
+BEST,Best,"Best score ever"
+BEST_EVER,"Best ever!","Praise if the latest game is a new high score."
+CREDIT_DOUG,"Concept, Design, Engineering",Credits
+CREDIT_ALEX,"Art Direction",Credits
+CREDIT_DANIEL,"Additional Art",Credits
+CREDIT_JOE,"Sound and Music",Credits
+CREDIT_PLAY_TEST,"Play Testing",Credits
+LEVEL_START_FAST_MICE_01,"Get ready for faster mice!","Intro to game level that adds faster mice"
+LEVEL_START_FAST_MICE_02,"Here comes the fastest mouse yet!","Intro to game level that adds faster mice"
+LEVEL_START_FAST_MICE_03,"Watch out for the super speedster mouse!","Intro to game level that adds faster mice"
+LEVEL_START_NEW_MOUSETRAP_01,"A new mousetrap!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_02,"Another mousetrap!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_03,"Whew, another trap!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_04,"I could use another mousetrap...","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_05,"This new mousetrap should help!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_06,"This looks like a fine new mousetrap!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_07,"New mousetrap? Don't mind if I do!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_08,"One last mousetrap! Better make it count!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOVEMENT_01,"Some mice have learned to dodge!","Intro to game level that adds new mouse movement patterns"
+LEVEL_START_NEW_MOVEMENT_02,"Mice are weaving side to side!","Intro to game level that adds new mouse movement patterns"
+LEVEL_START_NEW_MOVEMENT_03,"Uh-oh! Some mice dodge AND weave!","Intro to game level that adds new mouse movement patterns"
+LEVEL_START_TROUBLE,"Here comes trouble....","Intro to game level that's extra hard"

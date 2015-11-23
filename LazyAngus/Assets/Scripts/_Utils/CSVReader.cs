@@ -91,5 +91,9 @@ public class CSVReader
                 break;
             }
         }
+
+		cur_line.Add(cur_item.ToString());
+		line_reader(cur_line_number++, cur_line);
+
     }
 }

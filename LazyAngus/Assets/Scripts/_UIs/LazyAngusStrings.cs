@@ -38,7 +38,7 @@ public class LazyAngusStrings: MonoBehaviour
 		SystemLanguage language = Application.systemLanguage;
 
 		// FIXME(dbanks)
-		language = SystemLanguage.Japanese;
+// 		language = SystemLanguage.Spanish;
 
 		mainStringMap = makeMapForLanguage(language);
 		defaultStringMap = makeMapForLanguage(SystemLanguage.English);
@@ -82,7 +82,12 @@ public class LazyAngusStrings: MonoBehaviour
 	}
 
 	void AddLineToMapInProgress(int line_index, List<string> line) {
-		if (line.Count != 4) {
+		if (line_index == 0) {
+			// First line is header...
+			return;
+		}
+
+		if (line.Count != 3) {
 			return;
 		}
 		if (line [0].Length == 0) {
@@ -94,16 +99,15 @@ public class LazyAngusStrings: MonoBehaviour
 			return;
 		}
 
-		mapInProgress.Add (line[0], line[line.Count-1]);
+		string value = line [1];
+
+		// Clean up newlines and quotes.
+		value = value.Replace ("\\n", "\n");
+		value = value.Replace ("\\\"", "\"");
+
+		mapInProgress.Add (line[0], value);
 	}
 
-
-	void fillInStringMapFromGrid(Dictionary<string, string> stringMap, string[,] grid) {
-		stringMap.Clear ();
-		for (int i = 0; i < grid.Length; i++) {
-			stringMap.Add (grid[i, 0], grid[i, 3]);
-		}
-	}
 
 	public string Str(string key) {
 		if (mainStringMap.ContainsKey (key)) {
@@ -174,6 +178,18 @@ public class LazyAngusStrings: MonoBehaviour
 	public const string REAL_ANGUS_FACT_12 = 
 		"He died in August 2014. Broke my heart. We miss you, Angus...";
 
+	public const string RATE_ME = "Like Lazy Angus?\nGive us a 5-star review!";
+	public const string RATE_ME_OK = "OK!";
+	public const string RATE_ME_LATER = "Later...";
+	public const string RATE_ME_NO_THANKS = "No thanks...";
+
+	public const string UPGRADE = "Buy the Lazy Upgrade!\n\nHide ads and change my fur!";
+	public const string UPGRADE_YES = "How much?";
+	public const string UPGRADE_NO = "No thanks...";
+
+	public const string WAVE_COUNT = "Wave {0}";
+	public const string MOUSE_COUNT = "{0} mice";
+
 	public const string SCORE = "Score";
 	public const string BEST = "Best";
 	public const string BEST_EVER = "Best Ever!!";
@@ -184,17 +200,7 @@ public class LazyAngusStrings: MonoBehaviour
 	public const string CREDIT_JOE = "Sound and Music";
 	public const string CREDIT_PLAY_TEST = "Play Test";
 
-	public const string WAVE_COUNT = "Wave {0}";
-	public const string MOUSE_COUNT = "{0} mice";
 
-	public const string RATE_ME = "Like Lazy Angus?\nGive us a 5-star review!";
-	public const string RATE_ME_OK = "OK!";
-	public const string RATE_ME_LATER = "Later...";
-	public const string RATE_ME_NO_THANKS = "No thanks...";
-
-	public const string UPGRADE = "Buy the Lazy Upgrade!\n\nHide ads and change my fur!";
-	public const string UPGRADE_YES = "How much?";
-	public const string UPGRADE_NO = "No thanks...";
 */
 
 }
