@@ -3,21 +3,30 @@ using System.Collections;
 
 public class TipConfig {
 	public string tipID;
-	public string tipText;
+	public string tipTextIdentifier;
+	public string explicitText;
 	public string previousTipID;
 
+	public TipConfig(string explicitText) {
+		this.tipID = null;
+		this.tipTextIdentifier = null;
+		this.previousTipID = null;
+		this.explicitText = explicitText;
+	}
+	
+
 	public TipConfig(string tipID, 
-	                 string tipText) {
+	                 string tipTextIdentifier) {
 		this.tipID = tipID;
-		this.tipText = tipText;
+		this.tipTextIdentifier = tipTextIdentifier;
 		this.previousTipID = null;
 	}
 
 	public TipConfig(string tipID, 
-	                 string tipText,
+	                 string tipTextIdentifier,
 		             string previousTipID) {
 		this.tipID = tipID;
-		this.tipText = tipText;
+		this.tipTextIdentifier = tipTextIdentifier;
 		this.previousTipID = previousTipID;
 	}
 }
@@ -92,8 +101,7 @@ public class TipController : MonoBehaviour {
 	}
 
 	public void EnqueueAnytimeTip(string message) {
-		TipConfig tipConfig = new TipConfig (null, 
-		                                     message);
+		TipConfig tipConfig = new TipConfig (message);
 		EnqueueTip (tipConfig, 0.001f); 
 	}
 
@@ -141,8 +149,15 @@ public class TipController : MonoBehaviour {
 		tipDialogObject.transform.localPosition = new Vector2 (0, 
 		                                                       GoogleAdController.GetBannerHeight ()/2);
 		TipDialog td = tipDialogObject.GetComponent<TipDialog> ();
-		td.ConfigureDialog (tipConfig.tipText);
-			
+
+		string message;
+		if (tipConfig.explicitText != null) {
+			message = tipConfig.explicitText;
+		} else {
+			message = LazyAngusStrings.inst.Str (tipConfig.tipTextIdentifier);
+		}
+		td.ConfigureDialog (message);
+
 		DialogController.instance.ShowDialog (td);
 		if (tipConfig.tipID != null) {
 			PersistentStorage.instance.SetBoolValue ("tip." + tipConfig.tipID, 

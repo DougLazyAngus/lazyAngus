@@ -14,11 +14,11 @@ public class ZoomCamera : MonoBehaviour {
 	bool zooming;
 
 	BounceLerp bounceLerp;
-	public float secondsPerPeriod = 0.3f;
-	public float totalPeriods = 1f;
-	public float additionalScale = 1f;
-	public float periodOffsetDeg = 0f;
-	public bool looping = false;
+	public float initSecondsPerPeriod = 0.5f;
+	public float initTotalPeriods = 1f;
+	public float initAdditionalScale = 1f;
+	public float initPeriodOffsetDeg = 0f;
+	public bool initLooping = false;
 
 
 	void Awake() {
@@ -26,11 +26,11 @@ public class ZoomCamera : MonoBehaviour {
 		mySizeCamera = GetComponent<SizeCamera> ();
 
 		bounceLerp = new BounceLerp ();
-		bounceLerp.secondsPerPeriod = secondsPerPeriod;
-		bounceLerp.totalPeriods = totalPeriods;
-		bounceLerp.additionalScale = additionalScale;
-		bounceLerp.periodOffsetDeg = periodOffsetDeg;
-		bounceLerp.looping = looping;
+		bounceLerp.secondsPerPeriod = initSecondsPerPeriod;
+		bounceLerp.totalPeriods = initTotalPeriods;
+		bounceLerp.additionalScale = initAdditionalScale;
+		bounceLerp.periodOffsetDeg = initPeriodOffsetDeg;
+		bounceLerp.looping = initLooping;
 	}
 	
 	void Start () {
@@ -58,10 +58,10 @@ public class ZoomCamera : MonoBehaviour {
 			if (timeDelta < 0) {
 				scale = 1f;
 			} else {
-				periodOffsetDeg = 270f;
-				additionalScale = (1 - 1/zoomOutScale);
-				totalPeriods = 0.5f;
-				secondsPerPeriod = TweakableParams.cameraZoomOutTime/totalPeriods;
+				bounceLerp.periodOffsetDeg = 270f;
+				bounceLerp.additionalScale = (1 - 1/zoomOutScale);
+				bounceLerp.totalPeriods = 0.5f;
+				bounceLerp.secondsPerPeriod = TweakableParams.cameraZoomOutTime/bounceLerp.totalPeriods;
 
 				scale = zoomOutScale * bounceLerp.GetCoefficientForTime(timeDelta, out isFinished);
 				if (isFinished) {
@@ -76,10 +76,10 @@ public class ZoomCamera : MonoBehaviour {
 			if (timeDelta < 0) {
 				scale = zoomOutScale;
 			} else {
-				periodOffsetDeg = 90f;
-				additionalScale = (zoomOutScale - 1);
-				totalPeriods = 0.4f;
-				secondsPerPeriod = TweakableParams.cameraZoomInTime/totalPeriods;
+				bounceLerp.periodOffsetDeg = 90f;
+				bounceLerp.additionalScale = (zoomOutScale - 1);
+				bounceLerp.totalPeriods = 0.4f;
+				bounceLerp.secondsPerPeriod = TweakableParams.cameraZoomInTime/bounceLerp.totalPeriods;
 
 				scale = bounceLerp.GetCoefficientForTime(timeDelta, out isFinished);
 				if (isFinished) {

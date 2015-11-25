@@ -460,8 +460,7 @@ public class LevelConfig : MonoBehaviour
 			ld.sprite = BoostConfig.instance.GetIntroImageForType (
 				BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS);
 
-			ld.tipConfig = new TipConfig ("explainBoosts", 
-			                             LazyAngusStrings.inst.Str("TIP_EXPLAIN_BOOSTS"));
+			ld.tipConfig = new TipConfig ("explainBoosts", "TIP_EXPLAIN_BOOSTS");
 			ld.tipPause = 1.7f;
 
 			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS);

@@ -23,23 +23,18 @@ public class InitialTutorialController : MonoBehaviour {
 	TipConfig boostOverTipConfig;
 
 	void Awake() {
-		firstMouseTipConfig = new TipConfig ("firstMouse", 
-		                                     LazyAngusStrings.inst.Str("TUTORIAL_CATCH_MOUSE"));
-		firstSlapTipConfig = new TipConfig ("firstSlap", 
-		                                    LazyAngusStrings.inst.Str("TUTORIAL_LEAD_MOUSE"),
-		                                    "firstMouse");
-		firstTurnTipConfig = new TipConfig ("firstTurn", 
-		                                    LazyAngusStrings.inst.Str("TUTORIAL_DRAG_TURN"),
-		                                    "firstSlap");
-		usedTrapTipConfig = new TipConfig ("usedTrap", 
-		                                   LazyAngusStrings.inst.Str("TUTORIAL_TRAPS"));
-		lostGameTipConfig = new TipConfig ("lostGame", 
-		                                   LazyAngusStrings.inst.Str("TUTORIAL_GAME_OVER"));
-		boostOverTipConfig = new TipConfig ("boostOver", 
-		                                   LazyAngusStrings.inst.Str("TUTORIAL_BOOST_OVER"));
 	}
 
 	void Start () {
+		firstMouseTipConfig = new TipConfig ("firstMouse", "TUTORIAL_CATCH_MOUSE");
+		firstSlapTipConfig = new TipConfig ("firstSlap", "TUTORIAL_LEAD_MOUSE",
+		                                    "firstMouse");
+		firstTurnTipConfig = new TipConfig ("firstTurn", "TUTORIAL_DRAG_TURN",
+		                                    "firstSlap");
+		usedTrapTipConfig = new TipConfig ("usedTrap", "TUTORIAL_TRAPS");
+		lostGameTipConfig = new TipConfig ("lostGame", "TUTORIAL_GAME_OVER");
+		boostOverTipConfig = new TipConfig ("boostOver", "TUTORIAL_BOOST_OVER");
+
 		RegisterForEvents ();
 	}
 	

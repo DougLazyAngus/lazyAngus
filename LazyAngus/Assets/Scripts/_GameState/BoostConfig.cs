@@ -35,7 +35,6 @@ public class BoostConfig : MonoBehaviour {
 	void Awake() {
 		instance = this;
 		activeBoost = BoostType.NUM_TYPES;
-
 		LoadBoostDescs ();
 	}
 
@@ -81,24 +80,21 @@ public class BoostConfig : MonoBehaviour {
 			"powerup_fast_paws.01", 
 			"powerup_fast_paws.01", 
 			TweakableParams.fastPawsBoostTime,
-			new TipConfig ("boost.fast_paws", 
-		               LazyAngusStrings.inst.Str("TIP_BOOST_FAST")));
+			new TipConfig ("boost.fast_paws", "TIP_BOOST_FAST"));
 
 		boostDescs [(int)BoostType.BOOST_TYPE_GOOD_EYES] = new BoostDesc (
 			"Super Sight", 
 			"powerup_eyesight.01", 
 			"powerup_eyesight.01", 
 			TweakableParams.goodEyesBoostTime,
-			new TipConfig ("boost.good_eyes", 
-		               LazyAngusStrings.inst.Str("TIP_BOOST_SEE")));
+			new TipConfig ("boost.good_eyes", "TIP_BOOST_SEE"));
 
 		boostDescs [(int)BoostType.BOOST_TYPE_BIG_PAWS] = new BoostDesc (
 			"Big Paws", 
 			"powerup_larger_paws.01", 
 			"powerup_larger_paws.01", 
 			TweakableParams.bigPawsBoostTime,
-			new TipConfig ("boost.big_paws", 
-		               LazyAngusStrings.inst.Str("TIP_BOOST_GIANT")));
+			new TipConfig ("boost.big_paws", "TIP_BOOST_GIANT"));
 
 		/*
 		boostDescs [(int)BoostType.BOOST_TYPE_POISON_PAWS] = new BoostDesc (
@@ -115,8 +111,7 @@ public class BoostConfig : MonoBehaviour {
 			"powerup_fart.01", 
 			"powerup_fart.01", 
 			TweakableParams.fartBoostTime,
-			new TipConfig ("boost.fart", 
-		               LazyAngusStrings.inst.Str("TIP_BOOST_FART")));
+			new TipConfig ("boost.fart", "TIP_BOOST_FART"));
 	}
 	
 

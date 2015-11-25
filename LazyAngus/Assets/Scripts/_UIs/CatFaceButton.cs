@@ -19,6 +19,8 @@ public class CatFaceButton : MonoBehaviour {
 		transitioner = new InOutTransitioner (TweakableParams.realAngusSelectionMoveTime);
 		bounceLerp = new BounceLerp ();
 		bounceLerp.secondsPerPeriod = selectionMoveTime;
+		bounceLerp.additionalScale = 0.3f;
+
 		isBouncing = false;
 	}
 
