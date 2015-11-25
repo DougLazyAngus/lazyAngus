@@ -15,7 +15,7 @@ class InOutTransitioner
 	// (fraction = 1) -> in.
 	// (fraction = 0) -> out.
 	float duration;
-	float startTime;
+	public float startTime { get; private set;}
 	public bool movingIn { get; private set;}
 	float fractionThruTransition;
 

@@ -9,6 +9,7 @@ public class CatFacesGamePhaseUI : GamePhaseUI {
 	GameObject [] buttonGameObjects;
 	bool started;
 	public RectTransform buttonParent;
+	public int numColumns = 2;
 
 	void Awake() {
 		started = false;
@@ -59,13 +60,20 @@ public class CatFacesGamePhaseUI : GamePhaseUI {
 
 	Vector2 GetNthPosition(int n) {
 		float h = buttonParent.rect.height;
+		float w = buttonParent.rect.width;
 
 		int numButtons = (int)CatSkin.CatFaceType.NUM_TYPES;
-		float colHeight = h / numButtons;
+		int numButtonsPerColumn = (numButtons + numColumns - 1) / numColumns;
+
+		float rowHeight = h / numButtonsPerColumn;
+		float colWidth = w / numColumns;
+
+		int ny = n / numColumns;
+		int nx = n % numColumns;
 
 		// Offset from middle of screen, first element at top.
-		float yPos = 0.5f * h - (0.5f + n) * colHeight;
-		float xPos = 0;
+		float yPos = 0.5f * h - (0.5f + ny) * rowHeight;
+		float xPos = colWidth * (0.5f + nx) - (0.5f * w);
 		return new Vector2 (xPos, yPos);
 	}
 

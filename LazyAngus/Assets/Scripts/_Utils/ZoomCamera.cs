@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ZoomCamera : BounceLerp {
+public class ZoomCamera : MonoBehaviour {
 	public float zoomOutScale = 1.5f;
 
 	float phaseStartTime;
@@ -13,10 +13,24 @@ public class ZoomCamera : BounceLerp {
 	bool registeredForEvents;
 	bool zooming;
 
+	BounceLerp bounceLerp;
+	public float secondsPerPeriod = 0.3f;
+	public float totalPeriods = 1f;
+	public float additionalScale = 1f;
+	public float periodOffsetDeg = 0f;
+	public bool looping = false;
+
 
 	void Awake() {
 		myCamera = GetComponent<Camera>();
 		mySizeCamera = GetComponent<SizeCamera> ();
+
+		bounceLerp = new BounceLerp ();
+		bounceLerp.secondsPerPeriod = secondsPerPeriod;
+		bounceLerp.totalPeriods = totalPeriods;
+		bounceLerp.additionalScale = additionalScale;
+		bounceLerp.periodOffsetDeg = periodOffsetDeg;
+		bounceLerp.looping = looping;
 	}
 	
 	void Start () {
@@ -49,7 +63,7 @@ public class ZoomCamera : BounceLerp {
 				totalPeriods = 0.5f;
 				secondsPerPeriod = TweakableParams.cameraZoomOutTime/totalPeriods;
 
-				scale = zoomOutScale * GetCoefficientForTime(timeDelta, out isFinished);
+				scale = zoomOutScale * bounceLerp.GetCoefficientForTime(timeDelta, out isFinished);
 				if (isFinished) {
 					zooming = false;
 				}
@@ -67,7 +81,7 @@ public class ZoomCamera : BounceLerp {
 				totalPeriods = 0.4f;
 				secondsPerPeriod = TweakableParams.cameraZoomInTime/totalPeriods;
 
-				scale = GetCoefficientForTime(timeDelta, out isFinished);
+				scale = bounceLerp.GetCoefficientForTime(timeDelta, out isFinished);
 				if (isFinished) {
 					zooming = false;
 				}

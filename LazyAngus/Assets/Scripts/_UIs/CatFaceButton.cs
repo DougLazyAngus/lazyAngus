@@ -11,9 +11,15 @@ public class CatFaceButton : MonoBehaviour {
 	public Color selectedColor = new Color (1.0f, 1.0f, 1.0f);
 	public Color unselectedColor = new Color (0.8f, 0.8f, 0.8f);
 
+	bool isBouncing;
+	BounceLerp bounceLerp;
+
 	void Awake ()
 	{
 		transitioner = new InOutTransitioner (TweakableParams.realAngusSelectionMoveTime);
+		bounceLerp = new BounceLerp ();
+		bounceLerp.secondsPerPeriod = selectionMoveTime;
+		isBouncing = false;
 	}
 
 	// Use this for initialization
@@ -23,7 +29,7 @@ public class CatFaceButton : MonoBehaviour {
 		
 	// Update is called once per frame
 	void Update () {
-		if (!transitioner.IsTransitioning()) {
+		if (!transitioner.IsTransitioning() && !isBouncing) {
 			return;
 		}
 		transitioner.UpdateTransitionFraction ();
@@ -47,8 +53,10 @@ public class CatFaceButton : MonoBehaviour {
 
 		if (jumpToNewState) {
 			transitioner.Reset (isSelected);
+			isBouncing = false;
 		} else {
 			transitioner.Transition (isSelected);
+			isBouncing = true;
 		}
 
 		ScaleWithTransitioner ();
@@ -64,6 +72,16 @@ public class CatFaceButton : MonoBehaviour {
 	void ScaleWithTransitioner() {
 		float scale = Mathf.Lerp (1, selectedScale, 
 		                          transitioner.GetFractionIn ());
+
+		float timeDelta = Time.time - transitioner.startTime;
+
+		if (isBouncing) {
+			bool isFinished;
+			float extraScale = bounceLerp.GetCoefficientForTime (timeDelta, out isFinished);
+			isBouncing = !isFinished;
+			scale = scale * extraScale;
+		}
+
 		this.transform.localScale = new Vector2(scale, scale);
 	}
 }

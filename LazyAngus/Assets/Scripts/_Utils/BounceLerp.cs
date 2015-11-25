@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BounceLerp : MonoBehaviour {
+public class BounceLerp {
 	public float secondsPerPeriod = 0.3f;
 	public float totalPeriods = 1f;
 	public float additionalScale = 1f;
@@ -10,7 +10,7 @@ public class BounceLerp : MonoBehaviour {
 	
 	
 	// Update is called once per frame
-	protected float GetCoefficientForTime (float timeDelta, out bool isFinished) {
+	public float GetCoefficientForTime (float timeDelta, out bool isFinished) {
 		if (!looping && timeDelta > (secondsPerPeriod * totalPeriods)) {
 			isFinished = true;
 			return 1;

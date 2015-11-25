@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DistortForEffect : BounceLerp {
+public class DistortForEffect : MonoBehaviour {
 	public delegate void DistortFinishedHandler(GameObject go);
 	DistortFinishedHandler handler;
 
@@ -15,8 +15,22 @@ public class DistortForEffect : BounceLerp {
 	public bool squishAndStretch = false;
 	public bool onAtStart = false;
 
+	BounceLerp bounceLerp;
+	public float secondsPerPeriod = 0.3f;
+	public float totalPeriods = 1f;
+	public float additionalScale = 1f;
+	public float periodOffsetDeg = 0f;
+	public bool looping = false;
+
+
 	void Awake() {
 		distorting = onAtStart;
+		bounceLerp = new BounceLerp ();
+		bounceLerp.secondsPerPeriod = secondsPerPeriod;
+		bounceLerp.totalPeriods = totalPeriods;
+		bounceLerp.additionalScale = additionalScale;
+		bounceLerp.periodOffsetDeg = periodOffsetDeg;
+		bounceLerp.looping = looping;
 	}
 
 	// Use this for initialization
@@ -59,7 +73,7 @@ public class DistortForEffect : BounceLerp {
 		float timeDelta = timeNow - startDistortTime;
 
 		bool isFinished;
-		float scale = GetCoefficientForTime (timeDelta, out isFinished);
+		float scale = bounceLerp.GetCoefficientForTime (timeDelta, out isFinished);
 		if (isFinished) {
 			distorting = false;
 			if (handler != null) {

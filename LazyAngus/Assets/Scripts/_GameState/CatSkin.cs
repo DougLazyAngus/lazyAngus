@@ -6,6 +6,9 @@ public class CatSkin : MonoBehaviour {
 		ORIGINAL,
 		ORANGE_TABBY,
 		PERSIAN,
+		HIMALAYAN,
+		TORTOISE,
+		GREY_TABBY,
 
 		NUM_TYPES
 	}
@@ -56,6 +59,12 @@ public class CatSkin : MonoBehaviour {
 			return "orange_tabby";
 		case CatFaceType.PERSIAN:
 			return "persian";
+		case CatFaceType.HIMALAYAN:
+			return "himalayan";
+		case CatFaceType.TORTOISE:
+			return "tortoise";
+		case CatFaceType.GREY_TABBY:
+			return "orange_tabby";
 		default:
 			return "original";
 		}
