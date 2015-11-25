@@ -36,3 +36,28 @@ RATE_ME_NO_THANKS,"No, grazie...","no I don't want to rate the app"
 UPGRADE,"Compra l'Aggiornamento ""Pigro""!\n\nNascondi la pubblicità e cambiami la pelliccia!","Pay $$ to access new features and turn off ads?"
 UPGRADE_YES,"Quanto costa?","Click here if you're interested to learn more"
 UPGRADE_NO,"No, grazie...","Click here if you're not interested."
+WAVE_COUNT,"Ondata {0}","Which level is coming up"
+MOUSE_COUNT,"{0} topi","Number of mice in upcoming level.  Always more than one."
+SCORE,Punteggio,"Score of latest game"
+BEST,Record,"Best score ever"
+BEST_EVER,"Il migliore in assoluto!","Praise if the latest game is a new high score."
+CREDIT_DOUG,"Ideazione, Design, Progettazione",Credits
+CREDIT_ALEX,"Direzione Artistica",Credits
+CREDIT_DANIEL,"Lavorazioni Artistiche Aggiuntive",Credits
+CREDIT_JOE,"Suoni e Musiche",Credits
+CREDIT_PLAY_TEST,"Test Giocabilità",Credits
+LEVEL_START_FAST_MICE_01,"Preparati per un'ondata di topi più veloci!","Intro to game level that adds faster mice"
+LEVEL_START_FAST_MICE_02,"Ecco il topo più veloce di tutti i tempi!","Intro to game level that adds faster mice"
+LEVEL_START_FAST_MICE_03,"Stai attento al super topo velocista!","Intro to game level that adds faster mice"
+LEVEL_START_NEW_MOUSETRAP_01,"Una nuova trappola per topi!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_02,"Un'altra trappola per topi!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_03,"Uff, ancora una trappola!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_04,"Potrei usare un'altra trappola per topi...","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_05,"Questa nuova trappola per topi potrebbe tornare utile!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_06,"Sembrerebbe una trappola per topi bella e nuova!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_07,"Una nuova trappola per topi? Se non ti dispiace...","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_08,"Un'ultima trappola per topi! Fanne buon uso!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOVEMENT_01,"Alcuni topi hanno imparato a schivare!","Intro to game level that adds new mouse movement patterns"
+LEVEL_START_NEW_MOVEMENT_02,"I topi stanno zigzagando!","Intro to game level that adds new mouse movement patterns"
+LEVEL_START_NEW_MOVEMENT_03,"Oh oh! Certi topi schivano E si muovono a zigzag!","Intro to game level that adds new mouse movement patterns"
+LEVEL_START_TROUBLE,"Guai in vista...","Intro to game level that's extra hard"

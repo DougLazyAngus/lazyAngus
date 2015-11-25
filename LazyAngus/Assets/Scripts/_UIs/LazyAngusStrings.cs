@@ -38,7 +38,7 @@ public class LazyAngusStrings: MonoBehaviour
 		SystemLanguage language = Application.systemLanguage;
 
 		// FIXME(dbanks)
-// 		language = SystemLanguage.Spanish;
+		// language = SystemLanguage.French;
 
 		mainStringMap = makeMapForLanguage(language);
 		defaultStringMap = makeMapForLanguage(SystemLanguage.English);

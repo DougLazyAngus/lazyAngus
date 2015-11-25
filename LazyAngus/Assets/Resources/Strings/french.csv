@@ -36,3 +36,28 @@ RATE_ME_NO_THANKS,"Non, merci...","no I don't want to rate the app"
 UPGRADE,"Achetez la mise à niveau Lazy !\n\nElle supprime les pubs et change mon pelage !","Pay $$ to access new features and turn off ads?"
 UPGRADE_YES,"Pour combien ?","Click here if you're interested to learn more"
 UPGRADE_NO,"Non, merci...","Click here if you're not interested."
+WAVE_COUNT,"Vague {0}","Which level is coming up"
+MOUSE_COUNT,"{0} souris","Number of mice in upcoming level.  Always more than one."
+SCORE,Score,"Score of latest game"
+BEST,Record,"Best score ever"
+BEST_EVER,"Meilleur record !","Praise if the latest game is a new high score."
+CREDIT_DOUG,"Concept, design, technique",Credits
+CREDIT_ALEX,"Direction artistique",Credits
+CREDIT_DANIEL,"Graphismes supplémentaires",Credits
+CREDIT_JOE,"Sons et musique",Credits
+CREDIT_PLAY_TEST,Test,Credits
+LEVEL_START_FAST_MICE_01,"Prépare-toi à affronter des souris plus rapides !","Intro to game level that adds faster mice"
+LEVEL_START_FAST_MICE_02,"Et voilà la souris la plus rapide !","Intro to game level that adds faster mice"
+LEVEL_START_FAST_MICE_03,"Attention à la souris super rapide !","Intro to game level that adds faster mice"
+LEVEL_START_NEW_MOUSETRAP_01,"Un nouveau piège à souris !","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_02,"Encore un piège à souris !","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_03,"Ouais, un autre piège !","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_04,"Il me faudrait un autre piège à souris.","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_05,"Ce nouveau piège à souris sera bien utile !","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_06,"Il a l'air bien, ce nouveau piège à souris !","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_07,"Un nouveau piège à souris ? Ça tombe bien !","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_08,"Un dernier piège à souris. Il ne faut pas le gaspiller !","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOVEMENT_01,"Certaines souris ont appris à esquiver !","Intro to game level that adds new mouse movement patterns"
+LEVEL_START_NEW_MOVEMENT_02,"Le souris font des zigzags maintenant !","Intro to game level that adds new mouse movement patterns"
+LEVEL_START_NEW_MOVEMENT_03,"Mince alors ! Il y a des souris qui esquivent ET qui zigzaguent !","Intro to game level that adds new mouse movement patterns"
+LEVEL_START_TROUBLE,"Les problèmes commencent...","Intro to game level that's extra hard"

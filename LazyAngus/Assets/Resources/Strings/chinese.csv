@@ -36,3 +36,28 @@ RATE_ME_NO_THANKS,不了，谢谢...,"no I don't want to rate the app"
 UPGRADE,快购买大懒猫升级包吧！\n\n隐藏广告，还能让我换造型呢！,"Pay $$ to access new features and turn off ads?"
 UPGRADE_YES,多少钱？,"Click here if you're interested to learn more"
 UPGRADE_NO,不了，谢谢...,"Click here if you're not interested."
+WAVE_COUNT,第{0}波,"Which level is coming up"
+MOUSE_COUNT,{0}只老鼠,"Number of mice in upcoming level.  Always more than one."
+SCORE,得分,"Score of latest game"
+BEST,最高分,"Best score ever"
+BEST_EVER,新纪录！,"Praise if the latest game is a new high score."
+CREDIT_DOUG,构思，设计，工程技术,Credits
+CREDIT_ALEX,艺术指导,Credits
+CREDIT_DANIEL,附加美术,Credits
+CREDIT_JOE,声音和音乐,Credits
+CREDIT_PLAY_TEST,游戏测试,Credits
+LEVEL_START_FAST_MICE_01,准备好对付速度更快的老鼠吧！,"Intro to game level that adds faster mice"
+LEVEL_START_FAST_MICE_02,速度最快的老鼠即将来袭！,"Intro to game level that adds faster mice"
+LEVEL_START_FAST_MICE_03,当心，速度超快的老鼠要来了！,"Intro to game level that adds faster mice"
+LEVEL_START_NEW_MOUSETRAP_01,一个新的老鼠夹！,"Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_02,又一个老鼠夹！,"Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_03,唷！又一个老鼠夹！,"Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_04,再来一个老鼠夹会更好呢...,"Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_05,这个新老鼠夹应该会挺有用的！,"Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_06,这个新老鼠夹看起来挺不错！,"Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_07,新老鼠夹？多多益善！,"Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_08,最后一个老鼠夹了！绝对不能有失了！,"Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOVEMENT_01,有些老鼠已经学会躲闪了！,"Intro to game level that adds new mouse movement patterns"
+LEVEL_START_NEW_MOVEMENT_02,老鼠会迂回前进！,"Intro to game level that adds new mouse movement patterns"
+LEVEL_START_NEW_MOVEMENT_03,啊噢！有些老鼠既会躲闪也会迂回！,"Intro to game level that adds new mouse movement patterns"
+LEVEL_START_TROUBLE,麻烦来了…,"Intro to game level that's extra hard"
