@@ -32,6 +32,7 @@ public class StoreController : MonoBehaviour {
 		if (!registeredForEvents) {
 			registeredForEvents = true;
 
+			StoreEvents.OnSoomlaStoreInitialized += onStoreInitialized;
 			StoreEvents.OnBillingNotSupported += onBillingNotSupported;
 			StoreEvents.OnBillingSupported += onBillingSupported;
 			StoreEvents.OnGoodBalanceChanged += onGoodBalanceChanged;
@@ -49,10 +50,7 @@ public class StoreController : MonoBehaviour {
 			StoreEvents.OnUnexpectedStoreError += onUnexpectedStoreError;
 
 			/*
-			public static Action OnBillingNotSupported = delegate {};
-			
-			public static Action OnBillingSupported = delegate {};
-			
+
 
 			public static Action<VirtualGood, int, int> OnGoodBalanceChanged = delegate {};
 			
@@ -86,6 +84,7 @@ public class StoreController : MonoBehaviour {
 
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
+			StoreEvents.OnSoomlaStoreInitialized -= onStoreInitialized;
 			StoreEvents.OnBillingNotSupported -= onBillingNotSupported;
 			StoreEvents.OnBillingSupported -= onBillingSupported;
 			StoreEvents.OnGoodBalanceChanged -= onGoodBalanceChanged;
@@ -104,7 +103,11 @@ public class StoreController : MonoBehaviour {
 		}
 	}
 	
-
+	void onStoreInitialized() {
+		if (Debug.isDebugBuild) { 
+			Debug.Log ("onStoreInitialized");
+		}
+	}
 
 	void onBillingNotSupported() {
 		if (Debug.isDebugBuild) {

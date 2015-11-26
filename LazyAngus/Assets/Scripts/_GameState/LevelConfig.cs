@@ -368,7 +368,7 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.SLOW, 
 			                      2);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, 
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.5f, 
 			                      true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);
@@ -378,13 +378,57 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.SLOW, 
 			                      0);
 			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, 
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.5f, 
 			                      true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2);	
 			return ld;
 
 		case 2:
+			ld.specialText = LazyAngusStrings.inst.Str("INTRO_BOOST_FAST");
+			ld.sprite = BoostConfig.instance.GetIntroImageForType (
+				BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS);
+			
+			ld.tipConfig = new TipConfig ("explainBoosts", "TIP_EXPLAIN_BOOSTS");
+			ld.tipPause = 1.7f;
+			
+			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseSinkController.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.SLOW, 
+			                      2);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.SLOW, 
+			                      1);		
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.SLOW, 
+			                      0);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.6f, true, MouseSinkController.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.SLOW, 
+			                      2);		
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.8f, false, MouseSinkController.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.SLOW, 
+			                      2);		
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.SLOW, 
+			                      0);		
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, false, MouseSinkController.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.SLOW, 
+			                      0);		
+
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.SLOW, 
+			                      2);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, false, MouseSinkController.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.SLOW, 
+			                      1);	
+			return ld;
+			
+		case 3:
 			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_FAST_MICE_01");
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType (
 				MouseConfig.MouseType.MEDIUM);
@@ -403,7 +447,7 @@ public class LevelConfig : MonoBehaviour
 			                      MouseConfig.MouseType.MEDIUM, 
 			                      1);
 
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, false, MouseSinkController.MouseHoleLocation.WEST,
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.5f, true, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      2);
 			
@@ -416,7 +460,7 @@ public class LevelConfig : MonoBehaviour
 			                      2);	
 			return ld;
 			
-		case 3:
+		case 4:
 			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_NEW_MOUSETRAP_01");
 			ld.sprite = newMouseTrapSprite;
 
@@ -451,41 +495,6 @@ public class LevelConfig : MonoBehaviour
 			                      1);
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
-			                      MouseConfig.MouseType.SLOW, 
-			                      1);	
-			return ld;
-			
-		case 4:
-			ld.specialText = LazyAngusStrings.inst.Str("INTRO_BOOST_FAST");
-			ld.sprite = BoostConfig.instance.GetIntroImageForType (
-				BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS);
-
-			ld.tipConfig = new TipConfig ("explainBoosts", "TIP_EXPLAIN_BOOSTS");
-			ld.tipPause = 1.7f;
-
-			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_FAST_PAWS);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseSinkController.MouseHoleLocation.EAST,
-			                      MouseConfig.MouseType.MEDIUM, 
-			                      2);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
-			                      MouseConfig.MouseType.SLOW, 
-			                      1);		
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.WEST,
-			                      MouseConfig.MouseType.SLOW, 
-			                      0);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
-			                      MouseConfig.MouseType.SLOW, 
-			                      1);		
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
-			                      MouseConfig.MouseType.MEDIUM, 
-			                      2);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseSinkController.MouseHoleLocation.WEST,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);	
 			return ld;
@@ -529,7 +538,49 @@ public class LevelConfig : MonoBehaviour
 			                      1);	
 			return ld;
 			
+			
 		case 6:
+			ld.specialText = LazyAngusStrings.inst.Str("INTRO_BOOST_SEE");
+			ld.sprite = BoostConfig.instance.GetIntroImageForType (
+				BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES);
+			
+			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES);
+			
+			// Eight mice, two medium.
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.SLOW, 
+			                      1);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      1);		
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseSinkController.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.SLOW, 
+			                      2);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseSinkController.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.MEDIUM, 
+			                      0);		
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
+			                      MouseConfig.MouseType.SLOW, 
+			                      1);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, true, MouseSinkController.MouseHoleLocation.EAST,
+			                      MouseConfig.MouseType.SLOW, 
+			                      2);	
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseSinkController.MouseHoleLocation.WEST,
+			                      MouseConfig.MouseType.SLOW, 
+			                      0);
+			
+			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
+			                      MouseConfig.MouseType.SLOW, 
+			                      1);	
+		    return ld;
+		
+		case 7:
 			ld.specialText = LazyAngusStrings.inst.Str ("LEVEL_START_FAST_MICE_02");
 			ld.sprite = MouseConfig.instance.GetIntroSpriteForMouseType (
 				MouseConfig.MouseType.FAST);
@@ -573,47 +624,6 @@ public class LevelConfig : MonoBehaviour
 			                      1);
 			
 			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseSinkController.MouseHoleLocation.NORTH,
-			                      MouseConfig.MouseType.SLOW, 
-			                      1);	
-			return ld;
-			
-		case 7:
-			ld.specialText = LazyAngusStrings.inst.Str("INTRO_BOOST_SEE");
-			ld.sprite = BoostConfig.instance.GetIntroImageForType (
-					BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES);
-
-			ld.boostsAccumulator.AddNew ((int)BoostConfig.BoostType.BOOST_TYPE_GOOD_EYES);
-
-			// Eight mice, two medium.
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, false, MouseSinkController.MouseHoleLocation.EAST,
-			                      MouseConfig.MouseType.SLOW, 
-			                      1);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 2.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
-			                      MouseConfig.MouseType.MEDIUM, 
-			                      1);		
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 1.0f, true, MouseSinkController.MouseHoleLocation.NORTH,
-			                      MouseConfig.MouseType.SLOW, 
-			                      2);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseSinkController.MouseHoleLocation.SOUTH,
-			                      MouseConfig.MouseType.MEDIUM, 
-			                      0);		
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, false, MouseSinkController.MouseHoleLocation.NORTH,
-			                      MouseConfig.MouseType.SLOW, 
-			                      1);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 3.0f, true, MouseSinkController.MouseHoleLocation.EAST,
-			                      MouseConfig.MouseType.SLOW, 
-			                      2);	
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 0.1f, false, MouseSinkController.MouseHoleLocation.WEST,
-			                      MouseConfig.MouseType.SLOW, 
-			                      0);
-			
-			AddExplicitMouseDesc (ref ld.explicitMouseDescs, 4.0f, true, MouseSinkController.MouseHoleLocation.SOUTH,
 			                      MouseConfig.MouseType.SLOW, 
 			                      1);	
 			return ld;

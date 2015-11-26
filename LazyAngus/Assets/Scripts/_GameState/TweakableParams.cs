@@ -34,7 +34,7 @@ public class TweakableParams : MonoBehaviour {
 	public const float baseSwipeAngleRange = 90.0f;
 
 	// Player Turn params
-	public const float turnVelocityDegrees = 120f;
+	public const float turnVelocityDegrees = 180f;
 	
 	// Mouse track params.
 	public const int numTracks = 3;
@@ -79,8 +79,7 @@ public class TweakableParams : MonoBehaviour {
 	public const float realAngusImageAspectRatio = 1.33333f;
 	public const float realAngusElementButtonFrameWidth = 5;
 	public const float realAngusElementButtonWidth = 300f;
-
-
+	
 
 	public static int GetInitialMoney() {
 		if (DebugConfig.instance.useDebugValues) {

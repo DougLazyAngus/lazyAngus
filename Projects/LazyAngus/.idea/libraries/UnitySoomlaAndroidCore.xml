@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="UnitySoomlaAndroidCore">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lazyAngus/libs/UnitySoomlaAndroidCore.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

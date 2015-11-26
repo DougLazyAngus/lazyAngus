@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="UnityAndroidStore">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lazyAngus/libs/UnityAndroidStore.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

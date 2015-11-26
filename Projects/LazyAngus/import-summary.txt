@@ -234,12 +234,17 @@ In facebook:
 In LazyAngus:
 * AndroidManifest.xml => lazyAngus/src/main/AndroidManifest.xml
 * assets/ => lazyAngus/src/main/assets/
+* libs/AndroidStore.jar => lazyAngus/libs/AndroidStore.jar
+* libs/SoomlaAndroidCore.jar => lazyAngus/libs/SoomlaAndroidCore.jar
+* libs/UnityAndroidStore.jar => lazyAngus/libs/UnityAndroidStore.jar
+* libs/UnitySoomlaAndroidCore.jar => lazyAngus/libs/UnitySoomlaAndroidCore.jar
 * libs/an_social.jar => lazyAngus/libs/an_social.jar
 * libs/androidnative.jar => lazyAngus/libs/androidnative.jar
 * libs/armeabi-v7a/libgpg.so => lazyAngus/src/main/jniLibs/armeabi-v7a/libgpg.so
 * libs/armeabi-v7a/libmain.so => lazyAngus/src/main/jniLibs/armeabi-v7a/libmain.so
 * libs/armeabi-v7a/libmono.so => lazyAngus/src/main/jniLibs/armeabi-v7a/libmono.so
 * libs/armeabi-v7a/libunity.so => lazyAngus/src/main/jniLibs/armeabi-v7a/libunity.so
+* libs/square-otto-1.3.2.jar => lazyAngus/libs/square-otto-1.3.2.jar
 * libs/twitter4j-core-3.0.5.jar => lazyAngus/libs/twitter4j-core-3.0.5.jar
 * libs/unity-classes.jar => lazyAngus/libs/unity-classes.jar
 * libs/x86/libgpg.so => lazyAngus/src/main/jniLibs/x86/libgpg.so
