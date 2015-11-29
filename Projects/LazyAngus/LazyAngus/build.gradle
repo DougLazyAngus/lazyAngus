@@ -26,6 +26,7 @@ dependencies {
     compile 'com.android.support:support-v4:23.0.1'
     compile 'com.google.android.gms:play-services:+'
     compile files('libs/AndroidStore.jar')
+    compile files('libs/AndroidStoreGooglePlay.jar')
     compile files('libs/SoomlaAndroidCore.jar')
     compile files('libs/UnityAndroidStore.jar')
     compile files('libs/UnitySoomlaAndroidCore.jar')

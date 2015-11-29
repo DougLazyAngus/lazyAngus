@@ -235,6 +235,7 @@ In LazyAngus:
 * AndroidManifest.xml => lazyAngus/src/main/AndroidManifest.xml
 * assets/ => lazyAngus/src/main/assets/
 * libs/AndroidStore.jar => lazyAngus/libs/AndroidStore.jar
+* libs/AndroidStoreGooglePlay.jar => lazyAngus/libs/AndroidStoreGooglePlay.jar
 * libs/SoomlaAndroidCore.jar => lazyAngus/libs/SoomlaAndroidCore.jar
 * libs/UnityAndroidStore.jar => lazyAngus/libs/UnityAndroidStore.jar
 * libs/UnitySoomlaAndroidCore.jar => lazyAngus/libs/UnitySoomlaAndroidCore.jar

@@ -26279,7 +26279,7 @@ LEVEL_START_NEW_MOVEMENT_01,"Some mice have learned to dodge!","Intro to game le
 LEVEL_START_NEW_MOVEMENT_02,"Mice are weaving side to side!","Intro to game level that adds new mouse movement patterns"
 LEVEL_START_NEW_MOVEMENT_03,"Uh-oh! Some mice dodge AND weave!","Intro to game level that adds new mouse movement patterns"
 LEVEL_START_TROUBLE,"Here comes trouble....","Intro to game level that's extra hard"
-         spanish ¿  "String Identifier",Spanish,"String Description"
+         spanish   "String Identifier",Spanish,"String Description"
 BOOST_FAIL_LEVEL,"Â¡No puedo comer esa comida para gatos hasta la oleada {0}!","Can't use power up because it's level locked."
 BOOST_FAIL_ACTIVE,"Â¡SÃ³lo puedo comer comida para gatos de una en una!","Cant use power up because it's already in use"
 BOOST_FAIL_COST,"Â¡No hay dinero suficiente!\n\nÂ¡Golpea a dos ratones a la vez para conseguir mÃ¡s!","Can't use power up because user can't afford it"
@@ -26317,7 +26317,32 @@ RATE_ME_NO_THANKS,"No, gracias.","no I don't want to rate the app"
 UPGRADE,"Â¡Compra la actualizaciÃ³n Lazy!\n\nÂ¡Oculta los anuncios y cambia mi pelaje!","Pay $$ to access new features and turn off ads?"
 UPGRADE_YES,Â¿CuÃ¡nto?,"Click here if you're interested to learn more"
 UPGRADE_NO,"No, gracias.","Click here if you're not interested."
-            japanese  "String Identifier",Japanese,"String Description"
+WAVE_COUNT,"Oleada {0}","Which level is coming up"
+MOUSE_COUNT,"{0} ratones","Number of mice in upcoming level.  Always more than one."
+SCORE,PuntuaciÃ³n,"Score of latest game"
+BEST,"Mejor puntuaciÃ³n","Best score ever"
+BEST_EVER,"Â¡Nuevo rÃ©cord!","Praise if the latest game is a new high score."
+CREDIT_DOUG,"Concepto, diseÃ±o e ingenierÃ­a",Credits
+CREDIT_ALEX,"DirecciÃ³n artÃ­stica",Credits
+CREDIT_DANIEL,"DiseÃ±o adicional",Credits
+CREDIT_JOE,"Sonido y mÃºsica",Credits
+CREDIT_PLAY_TEST,"Pruebas del juego",Credits
+LEVEL_START_FAST_MICE_01,"Â¡PrepÃ¡rate para ratones mÃ¡s rÃ¡pidos!","Intro to game level that adds faster mice"
+LEVEL_START_FAST_MICE_02,"Â¡AquÃ­ viene el ratÃ³n mÃ¡s rÃ¡pido visto hasta la fecha!","Intro to game level that adds faster mice"
+LEVEL_START_FAST_MICE_03,"Â¡Cuidado con el ratÃ³n superveloz!","Intro to game level that adds faster mice"
+LEVEL_START_NEW_MOUSETRAP_01,"Â¡Una nueva trampa para ratones!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_02,"Â¡Otra trampa para ratones!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_03,"Â¡Uf, otra trampa para ratones!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_04,"QuÃ© bien me vendrÃ­a otra trampa para ratones...","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_05,"Â¡Esta nueva trampa para ratones me vendrÃ¡ bien!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_06,"Â¡Esta trampa para ratones tiene buena pinta!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_07,"Â¿Una nueva trampa para ratones? Â¡No te creas que me iba a importar!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_08,"Â¡Una Ãºltima trampa para ratones! Â¡MÃ¡s vale que la aproveche!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOVEMENT_01,"Â¡Algunos ratones han aprendido a esquivar!","Intro to game level that adds new mouse movement patterns"
+LEVEL_START_NEW_MOVEMENT_02,"Â¡Los ratones realizan desplazamientos laterales!","Intro to game level that adds new mouse movement patterns"
+LEVEL_START_NEW_MOVEMENT_03,"Â¡Oh, oh! Â¡Algunos ratones pueden esquivar y realizar desplazamientos laterales!","Intro to game level that adds new mouse movement patterns"
+LEVEL_START_TROUBLE,"AquÃ­ llega lo chungo...","Intro to game level that's extra hard"
+           japanese    "String Identifier",Japanese,"String Description"
 BOOST_FAIL_LEVEL,"Wave {0}ã¾ã§ãã®ã‚­ãƒ£ãƒƒãƒˆãƒ•ãƒ¼ãƒ‰ã¯é£Ÿã¹ã‚‰ã‚Œãªã„ã‚ˆï¼","Can't use power up because it's level locked."
 BOOST_FAIL_ACTIVE,ä¸€åº¦ã«é£Ÿã¹ã‚‰ã‚Œã‚‹ã‚­ãƒ£ãƒƒãƒˆãƒ•ãƒ¼ãƒ‰ã¯1ã¤ã ã‘ï¼,"Cant use power up because it's already in use"
 BOOST_FAIL_COST,ãŠé‡‘ãŒè¶³ã‚Šãªã„ï¼\n\nãƒã‚ºãƒŸ2åŒ¹ã‚’ä¸€åº¦ã«ã‚¹ãƒ¯ã‚¤ãƒ—ã—ãŸã‚‰ç²å¾—é‡‘ãŒå¢—ãˆã‚‹ã‚ˆï¼,"Can't use power up because user can't afford it"
@@ -26355,7 +26380,32 @@ RATE_ME_NO_THANKS,ã‚„ã‚ã¦ãŠã,"no I don't want to rate the app"
 UPGRADE,Lazyã‚¢ãƒƒãƒ—ã‚°ãƒ¬ãƒ¼ãƒ‰ã‚’è³¼å…¥ã—ã‚ˆã†ï¼\n\nåºƒå‘ŠãŒéžè¡¨ç¤ºã«ãªã‚Šã€ãƒœã‚¯ã®æ¯›è‰²ã‚‚å¤‰ãˆã‚‰ã‚Œã‚‹ã‚ˆï¼,"Pay $$ to access new features and turn off ads?"
 UPGRADE_YES,ã„ãã‚‰ï¼Ÿ,"Click here if you're interested to learn more"
 UPGRADE_NO,ã‚„ã‚ã¦ãŠãâ€¦,"Click here if you're not interested."
-              german  æ  "String Identifier",German,"String Description"
+WAVE_COUNT,"Wave {0}","Which level is coming up"
+MOUSE_COUNT,ãƒã‚ºãƒŸ{0}åŒ¹,"Number of mice in upcoming level.  Always more than one."
+SCORE,å¾—ç‚¹,"Score of latest game"
+BEST,æœ€é«˜å¾—ç‚¹,"Best score ever"
+BEST_EVER,æœ€é«˜å¾—ç‚¹ã‚’æ›´æ–°ï¼,"Praise if the latest game is a new high score."
+CREDIT_DOUG,ã‚³ãƒ³ã‚»ãƒ—ãƒˆã€ãƒ‡ã‚¶ã‚¤ãƒ³ã€ã‚¨ãƒ³ã‚¸ãƒ‹ã‚¢ãƒªãƒ³ã‚°,Credits
+CREDIT_ALEX,ã‚¢ãƒ¼ãƒˆãƒ‡ã‚£ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³,Credits
+CREDIT_DANIEL,è¿½åŠ ã‚¢ãƒ¼ãƒˆ,Credits
+CREDIT_JOE,ã‚µã‚¦ãƒ³ãƒ‰ãŠã‚ˆã³éŸ³æ¥½,Credits
+CREDIT_PLAY_TEST,ãƒ†ã‚¹ãƒˆãƒ—ãƒ¬ã‚¤ãƒ³ã‚°,Credits
+LEVEL_START_FAST_MICE_01,ã™ã°ã—ã“ã„ãƒã‚ºãƒŸãŒå‡ºã¦ãã‚‹ã‚ˆï¼,"Intro to game level that adds faster mice"
+LEVEL_START_FAST_MICE_02,ã“ã‚Œã¾ã§ã§ä¸€ç•ªã™ã°ã—ã“ã„ãƒã‚ºãƒŸã ã‚ˆï¼,"Intro to game level that adds faster mice"
+LEVEL_START_FAST_MICE_03,è¶…é«˜é€Ÿãƒã‚ºãƒŸã«ã”ç”¨å¿ƒï¼,"Intro to game level that adds faster mice"
+LEVEL_START_NEW_MOUSETRAP_01,æ–°ã—ã„ãƒ¯ãƒŠï¼,"Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_02,ãƒ¯ãƒŠãŒã‚‚ã†1ã¤ï¼,"Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_03,ãƒ’ãƒ£ãƒ¼ã€ãƒ¯ãƒŠãŒã¾ãŸ1ã¤ï¼,"Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_04,ã‚‚ã†1ã¤ãƒ¯ãƒŠãŒã‚ã‚Œã°â€¦,"Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_05,æ–°ã—ã„ãƒ¯ãƒŠãŒå¨åŠ›ã‚’ç™ºæ®ã™ã‚‹ãžï¼,"Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_06,æ–°ã—ã„ãƒ¯ãƒŠã¯å„ªã‚Œã‚‚ã®ã¿ãŸã„ã ï¼,"Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_07,"æ–°ã—ã„ãƒ¯ãƒŠï¼Ÿ ã¡ã‚‡ã†ã ã„ï¼","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_08,"ãƒ¯ãƒŠã¯ã“ã‚Œã§æœ€å¾Œï¼ å¤§åˆ‡ã«ä½¿ã£ã¦ï¼","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOVEMENT_01,èº«ã‚’ã‹ã‚ã›ã‚‹ã‚ˆã†ã«ãªã£ãŸãƒã‚ºãƒŸã‚‚ã„ã‚‹ã‚ˆï¼,"Intro to game level that adds new mouse movement patterns"
+LEVEL_START_NEW_MOVEMENT_02,ã‚¸ã‚°ã‚¶ã‚°ã«å‹•ããƒã‚ºãƒŸï¼,"Intro to game level that adds new mouse movement patterns"
+LEVEL_START_NEW_MOVEMENT_03,"ãŠã£ã¨ï¼ èº«ã‚’ã‹ã‚ã—ãªãŒã‚‰ã‚¸ã‚°ã‚¶ã‚°ã™ã‚‹ãƒã‚ºãƒŸã‚‚ï¼","Intro to game level that adds new mouse movement patterns"
+LEVEL_START_TROUBLE,é¢å€’ãªã“ã¨ã«ãªã£ã¦ããŸãžâ€¦,"Intro to game level that's extra hard"
+           german     "String Identifier",German,"String Description"
 BOOST_FAIL_LEVEL,"Ich kann dieses Katzenfutter nicht bis Welle {0} essen!","Can't use power up because it's level locked."
 BOOST_FAIL_ACTIVE,"Ich kann nur ein Katzenfutter auf einmal essen!","Cant use power up because it's already in use"
 BOOST_FAIL_COST,"Nicht genug Geld!\n\nWische gleichzeitig Ã¼ber zwei MÃ¤use, um mehr zu verdienen!","Can't use power up because user can't afford it"
@@ -26386,14 +26436,39 @@ REAL_ANGUS_FACT_09,"Er war immer ein fetter Kerl, aber mit der Zeit wurde er rie
 REAL_ANGUS_FACT_10,"Der neue Kratzbaum war ein Riesenerfolg. Das rote Balldingsda hielt ungefÃ¤hr zwei Sekunden lang.","Caption on a picture of the real cat, Angus"
 REAL_ANGUS_FACT_11,"Angus war genau so sÃ¼ÃŸ und anfassbar, wie er aussieht und noch mehr. Er war wie ein Topf warmer Pudding eingehÃ¼llt in eine pelzige Decke.","Caption on a picture of the real cat, Angus"
 REAL_ANGUS_FACT_12,"Er starb im August 2014. Das brach mir mein Herz. Wir vermissen dich, Angus ...","Caption on a picture of the real cat, Angus"
-RATE_ME,"GefÃ¤llt dir Lazy Angus?\nGib uns eine 5-Sterne-Bewertung!","Dialog: rate the app?"
+RATE_ME,"GefÃ¤llt dir Lazy Angus?\nGib uns eine 5-Sterne-\nBewertung!","Dialog: rate the app?"
 RATE_ME_OK,OK!,"yes, rate the app"
 RATE_ME_LATER,"SpÃ¤ter ...","rate the app some other time"
 RATE_ME_NO_THANKS,"Nein, danke ...","no I don't want to rate the app"
 UPGRADE,"Kauf das Lazy-Upgrade!\n\nVerbirg die Werbung und Ã¤ndere mein Fell!","Pay $$ to access new features and turn off ads?"
 UPGRADE_YES,"Wie viel?","Click here if you're interested to learn more"
 UPGRADE_NO,"Nein, danke ...","Click here if you're not interested."
-             chinese L  "String Identifier","Chinese Simplified","String Description"
+WAVE_COUNT,"{0}. Welle","Which level is coming up"
+MOUSE_COUNT,"{0} MÃ¤use","Number of mice in upcoming level.  Always more than one."
+SCORE,Punkte,"Score of latest game"
+BEST,Rekord,"Best score ever"
+BEST_EVER,"Beste Leistung aller Zeiten!","Praise if the latest game is a new high score."
+CREDIT_DOUG,"Konzept, Design, Entwicklung",Credits
+CREDIT_ALEX,"KÃ¼nstlerische Leitung",Credits
+CREDIT_DANIEL,"ZusÃ¤tzliche Zeichnungen",Credits
+CREDIT_JOE,"Sound und Musik",Credits
+CREDIT_PLAY_TEST,Spieltester,Credits
+LEVEL_START_FAST_MICE_01,"Mach dich bereit fÃ¼r flinkere MÃ¤use!","Intro to game level that adds faster mice"
+LEVEL_START_FAST_MICE_02,"Hier kommt die flinkeste Maus bisher!","Intro to game level that adds faster mice"
+LEVEL_START_FAST_MICE_03,"Pass auf, die Super-Flitzemaus kommt!","Intro to game level that adds faster mice"
+LEVEL_START_NEW_MOUSETRAP_01,"Eine neue Mausefalle!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_02,"Noch eine Mausefalle!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_03,"Hui, noch eine Falle!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_04,"Ich kÃ¶nnte eine weitere Mausefalle gebrauchenÂ â€¦","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_05,"Diese neue Mausefalle sollte helfen!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_06,"Das sieht nach einer guten neuen Mausefalle aus!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_07,"Neue Mausefalle gefÃ¤llig? Von mir aus gerne!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_08,"Eine letzte Mausefalle! Nutze sie weise!","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOVEMENT_01,"Manche MÃ¤use haben gelernt auszuweichen!","Intro to game level that adds new mouse movement patterns"
+LEVEL_START_NEW_MOVEMENT_02,"Die MÃ¤use laufen in Schlangenlinie!","Intro to game level that adds new mouse movement patterns"
+LEVEL_START_NEW_MOVEMENT_03,"Oh, oh! Manche MÃ¤use weichen aus UND torkeln!","Intro to game level that adds new mouse movement patterns"
+LEVEL_START_TROUBLE,"Das wird 'ne harte NussÂ â€¦","Intro to game level that's extra hard"
+           chinese L  "String Identifier","Chinese Simplified","String Description"
 BOOST_FAIL_LEVEL,æˆ‘è¦ç­‰åˆ°ç¬¬{0}æ³¢ï¼Œæ‰èƒ½åƒé‚£çŒ«ç²®ï¼,"Can't use power up because it's level locked."
 BOOST_FAIL_ACTIVE,æˆ‘ä¸€æ¬¡åªèƒ½åƒä¸€ç§çŒ«ç²®ï¼,"Cant use power up because it's already in use"
 BOOST_FAIL_COST,é’±ä¸å¤Ÿäº†ï¼\n\nä¸€æ¬¡çŒ›æ‰“ä¸¤åªè€é¼ ï¼Œèµšæ›´å¤šé’±ï¼,"Can't use power up because user can't afford it"
@@ -29454,34 +29529,4 @@ $B(9>(? -,O\¹	-Uq ÿÿÿº%,»    @ÿ~€Ó  0 9@ (
 $B(9>(? -,O\¹	-Uq ÿÿÿº%,Ó¿   ÿº%0€ - 6 Äµ4+¸ÿø@	4
 &
 ¸ÿð@4¸}@
-#?1¿11¸dµ€))5ºn  @&4.@466?#Ðà¸6³  .½7  r 8 …/ôí9/í]93/3/q3/99]9/+99 ?ý</]í]99/ý9/9/9910+q++!327674&'&''667'67676324&#"! 0ûŠ…o%F1:+.c!B
-$45Q@T,vGP‹”8B¥J%S9{ª\Ã$i[b#0ND"HŽ‡5!#&&9#.=E‚i#=Uq ÿÿÿº%0€Á  ÿÿÿº%0€Á  ÿÿÿº%0€Á   ÿº%0€  1 :µ	4/¸ÿø@	4&!¸ÿð@	4  ¸D@- ¸}@
-'?5¿55¸dµ€--9ºn µ ¸@4€4@	482@466  ?'Ðà¸6³$$2½7 r < …/õí9/í]93/3/q3/99]9/+999/++ý9/9/ ?ý</]í]99/ý9/9/993/]í9/9/10+q++'7!327674&'&''667'67676324&#"! ”xêy…ûŠ…o%F1:+.c!B
-$45Q@T,vGP‹”8B¥JWàzâûRS9{ª\Ã$i[b#0ND"HŽ‡5!#&&9#.=E‚i#=Uqÿÿÿº%0€Å  ÿÿÿº%0€Å  ÿÿÿº%0€Å    4þ^HÂ 1 ´µ*:¸ÿà¶4i¸ÿà³4¸ÿè@ 4	 4	&&&º~ "ÿÀ¶4""/»^   Y²11/ºn @	"&&""  11  3¸9·@4)¸4µ@4/+í3/+í3/3/9/9/3/99 ?ý2/í/ý9/+í]99+++10 ]+] $54767&&54676632"&'"667 !3267Hþ†fþéþã',a2LV*"‰Onº@6Ïÿ,4tŠ”œ#þÐþœ™¯v;7H¶êïç•r`9–/9â/+3e_B6**22</#W(.IHþþ’‰IT  Fþj @ - ªµ&¸ÿè³4¸ÿè³4$¸[@
-@4
-
-ÿ¸ÿà@4 4½n    Y²--*º~ ¶$¸.¶/  ½r / '4 z…/íä3/9/í3/9 ?ý2/í/?ý9++]9/33/+9/]í10 ++] $47&#"'4763233#"'&'!267 þþ»þÛŒ–*	0>F~p’!92H1+ŒŒV`Mpz9Q4t0¶àõ¶&„J	
-‹[f|b;5::þð8>ŸJ¿c±« ÿº%Þ’ " §@x”"Ÿ¸e@ —""	    	¸R@	À_¸`´/	»n @ µ"  ¸.@   @	4  $ ¸7¶@	4//+í3/+3/9/í99 ?í/]ý]2/]ä9/]9]9/í]10]##32767&&54632&&#"Þpþó°™iMNZl2"÷¥oe]+*O]D|[sþäS-'K]:•ßIDa$/EŸ  ÿº%â
- # Œ@óIVw	@4@4¸ÿÀ@
-	4#
- 
-ºn 	@€Àà¸.@ ð@4 ¸r±%	/ä3//+]qí999/ /]?í<<9/++3/+99910q ]q#"&'##3267&'&#"'463233â”Ox%AhEQiiSC9,}‡‹Ÿ*:0”%@GP!;µ›m_3]P   4þ^H“  5 õµ*:¸ÿà@4i  ¸D@	#¸ÿà³4#¸ÿè@ 4 4#***º~ &ÿÀ¶4&&3»^  Y²553ºn µ ¸@¿@	4#&**&&557¸9·@4-¸4µ	@4	/+í3/+í3/3/9/9/3/999/+]ý9/9/ ?ý2/í/ý9/+í]99+++3/qí9/9/10 ]+]'7 $54767&&54676632"&'"667 !3267WxêyÚþ†fþéþã',a2LV*"‰Onº@6Ïÿ,4tŠ”œ#þÐþœ™¯v;7Hàzâø·êïç•r`9–/9â/+3e_B6**22</#W(.IHþþ’‰IT  Fþj   1 òµ	*
-¸ÿè³4¸ÿè@	4  ¸D¶(¸[@@4#ÿ¸ÿà@4 4"½n #  Y²11.º~ µ ¸³_¸ÿÀ@4@
-4(¸.¶3#½r 3 +4 z…/íå3/9/í3/93/++]ý9/9/ ?ý2/í/?ý9++]9/33/+9/]í3/qí9/9/10 ++]'7 $47&#"'4763233#"'&'!267‡xêzþþ»þÛŒ–*	0>F~p’!92H1+ŒŒV`Mpz9Q4t0™àzâù5àõ¶&„J	
-‹[f|b;5::þð8>ŸJ¿c±«  ÿº%Þf  & ç@x”&  ¸D@Ÿ¸e@—&&  ¸R@	À_  ¸`´/ºn µ ¸@@¿@4&$¸.@ @	4($¸7¶@	4//+í3/+3/9/í992/+]ý9/9/ ?í/]ý]2/]ä9/]9]9/í]3/qí9/9/10]'7##32767&&54632&&#"Gxêzpþó°™iMNZl2"÷¥oe]+*O]D|[sêàzâüœþäS-'K]:•ßIDa$/EŸ  ÿº%â  ' Ð@óIVw  ¸D@#@4@4¸ÿÀ@
-	4'ºn @€Àà ¸³_¸ÿÀ@4@
-4# ¸.@ ð@4  ¸r±)/å3//+]qí999/3/++]ý9/9/ /]?í<<9/++3/+9993/í9/9/10q ]q'7#"&'##3267&'&#"'463233áxêzé”Ox%AhEQiiSC9,}‡‹Ÿ*:0”àzâû@GP!;µ›m_3]P   /<  & //¹ .ÿè@	4(4.¸ÿè@4(4v † 4!¸ÿè³4#¸ÿÐ@4	4(  ¸D³"¸R´"'¸ÿÀ³,4'¸ÿÀ¶-.4''*»d " 
-e²¼n &n µ ¸@
-@  0   &½0   * 5@@	4?@#4º9 -ÿÀ³4-¸ÿÀ³4-¸ÿÀµ(,4--'¼8 r 1z…õý2/+++ý+r2/+ýôí3/]í9/9/ ?íý2/í/í9/++9/ä3/í9/9/108++++] ++++'7#"#"'&546736$3&&547632'&&#"Âxêx8†¯Þ†þTÕ_X,PBHQZÝ™"…)W^qj0+œ#.%VÀàzâúéKF“rª¾«Og-2	1/Ž™”†þëb>6 ÿÿ /<Ñ   ÿº%pÌ   $ Ù@	4(4¸ÿÐ@4†œ©  »D @ l@0"@""¸b@@	4@4¸Œ´Ÿºn µ ¸@@4¸6@/Ÿ@	4½2 r & z…/ôý2/+]í999/+ý9/9/ ?í/]í+9/+í]99/KQX°€Yþí9/9/10]+++'7!!4'&'#"&547632'&&#"326ßxê€sýJX l=PnHOQiºÙ)0%/PàzâúYW%9*>BjPv¢²þ’Ìè/%6$  ÿº%˜<    ü¹ ÿè³4¸ÿè@4GVö24¸ÿà³4¸ÿð@!#4!#4*  »D @ P@@(/4o/Ÿ¸e@€0ºn µ ¸@@4@4¸6·@
-4¸ÿÀ³4¼6 r z…ôý+2/+ý+9/9/+ý9/9/ ?ý2/3/]/]í]qr+KQX°€Yþí9/9/10]q++++ ]q++'7!32&&54632'&&#"6xêyKý"´.)n•wYe—ˆ$X,Ààzâúé!mh›ùþ£÷xV`+Q  'þöæD  . 97¹ ÿø³4
-¸ÿè@44%4¸ÿð³4¸ÿð@ 444˜)˜,¨¨)¨,¸C³@ºu C@@*4@	4º *d@	2@4227¸S´*7ºn #µ »~  ² » @ ÿÀ@!4@4&¸$³ ¸6@@	40/!&¸5@ 555@455¼1 r ;z…õý2/+]qí99/]+í3/í9/++í3/í /í]?í9/ä3/+ýö++íô]í9910]+++++++ +''77! $5476732$54&'#"&547632'&&#"326¼nŽPºh”Tà,SµþµþêþÖ.3‹<[MüäÎ<i3n|JPbl?:µ8'TÞÌPžfÂJ¢ûÆÅBŽ¶ª“x„Á*„¶Vzˆ f
-nd“’›ŽÓ|>4Bÿÿ 'þöæDÕ   ÿº%pÀ   (¹ ÿø³4¸ÿð³4¸ÿð@444	4(4¸ÿÐ@4†œ©¸C³@ºu C³¸†@ 0&@&&¸b@@	4
- @4 ¸Œ´Ÿ
-¼n  ² ¸@/Ÿ¸6@/#Ÿ##@	4##½2 r * 	z…/õý2/+]í999/]qí3/í ?í/]í+9/+í]99/þ]íô]í9910]+++++++ +''77!!4'&'#"&547632'&&#"326nŽPºh”TýJX l=PnHOQiºÙ)0%/ZÌPžfÂJ¢úeW%9*>BjPv¢²þ’Ìè/%6$ ÿº%˜>   !1¹ ÿø³4 ¸ÿè³4 ¸ÿè@4G!V!ö!¸ÿð³4¸ÿð@44424¸ÿà³4¸ÿð@!#4!#4*¸C³@ºu C@@!4@	4@(/4o/Ÿ¸e@€0
-¼n  ² ¸@@4	@4¸6·@
-4¸ÿÀ³4¼6 r #z…ôý+2/+ý+9/9/]+í3/í ?ý2/3/]/]í]qr+3/++íô]í9910]q++++++++ ]q+++''77!32&&54632'&&#"nŽPºh”T3ý"´.)n•wYe—ˆ$X,ØÌPžfÂJ¢úç!mh›ùþ£÷xV`+Q   )%T2 ! Dl¹ ÿÀ@	4%0	4&4322¸@DCDDC °¸L²¸ÿÀ³	4¸^·@	4¸H¶ ¸ÿÀ¶42+ºS *ÿÀ@	4**823C4??844B¿} 8 D 2n "³ ¸3@`p @4@4¸7¶@  0  ¸ÿÀ³4 ¸ÿÀ·4  .4*¸$´ `++º* .5@!'@4'8@488?C3B2/44B 4B4B??Dºr F$…õ2/33/+/]9999/+/+ýô]í9/++qí33/++/]qý9/ ?ý<?ý9/9/999/+ä3/+q3/í3/+ý+2/ä]‡.+}Ä10+++#"&'732654&'"54676672!"'&54673!'4767'ý'/6c§`/+::6$ D>2WýaØ_U9E<'ŽÈáy@7.*%Q	#$m…•
-@7%T<“K.,'\#	2üÛJB‹]³|*MK*`G§*;<Li!"@z0ý•ÿÿ )%T2Ù  ÿÿÿº%âª/  ÿÿÿº%âª/    #ÿ¶œ0 / Ú@	44W¸¶*-**-¸S@
-
--*&&)¼}  n@!@4&*)- /) 4o)))&&¾5 @  r 1 
-$¶ °À¸ÿÀµ4¸4µ@
-4¸$…/+í3/+]íõí3/33/q+/]99999/+ /í?í9/9/99999/ä‡.+}Ä10]++#"&5476732654454&'&''47'œþÀÍ«Á$)w>NB‡{°Ü++2\.)=6#9>šî­›‘lz±*u¬U[cˆn'^“íî$bÊ("VJJþÉq¢# ÿÿ #ÿ¶œ0Ý  
+#?1¿11¸dµ€))5ºn  @&4.@466?#Ðà¸6³

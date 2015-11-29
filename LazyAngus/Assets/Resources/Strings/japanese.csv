@@ -36,3 +36,28 @@ RATE_ME_NO_THANKS,やめておく,"no I don't want to rate the app"
 UPGRADE,Lazyアップグレードを購入しよう！\n\n広告が非表示になり、ボクの毛色も変えられるよ！,"Pay $$ to access new features and turn off ads?"
 UPGRADE_YES,いくら？,"Click here if you're interested to learn more"
 UPGRADE_NO,やめておく…,"Click here if you're not interested."
+WAVE_COUNT,"Wave {0}","Which level is coming up"
+MOUSE_COUNT,ネズミ{0}匹,"Number of mice in upcoming level.  Always more than one."
+SCORE,得点,"Score of latest game"
+BEST,最高得点,"Best score ever"
+BEST_EVER,最高得点を更新！,"Praise if the latest game is a new high score."
+CREDIT_DOUG,コンセプト、デザイン、エンジニアリング,Credits
+CREDIT_ALEX,アートディレクション,Credits
+CREDIT_DANIEL,追加アート,Credits
+CREDIT_JOE,サウンドおよび音楽,Credits
+CREDIT_PLAY_TEST,テストプレイング,Credits
+LEVEL_START_FAST_MICE_01,すばしこいネズミが出てくるよ！,"Intro to game level that adds faster mice"
+LEVEL_START_FAST_MICE_02,これまでで一番すばしこいネズミだよ！,"Intro to game level that adds faster mice"
+LEVEL_START_FAST_MICE_03,超高速ネズミにご用心！,"Intro to game level that adds faster mice"
+LEVEL_START_NEW_MOUSETRAP_01,新しいワナ！,"Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_02,ワナがもう1つ！,"Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_03,ヒャー、ワナがまた1つ！,"Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_04,もう1つワナがあれば…,"Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_05,新しいワナが威力を発揮するぞ！,"Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_06,新しいワナは優れものみたいだ！,"Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_07,"新しいワナ？ ちょうだい！","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOUSETRAP_08,"ワナはこれで最後！ 大切に使って！","Intro to game level that adds new mousetrap"
+LEVEL_START_NEW_MOVEMENT_01,身をかわせるようになったネズミもいるよ！,"Intro to game level that adds new mouse movement patterns"
+LEVEL_START_NEW_MOVEMENT_02,ジグザグに動くネズミ！,"Intro to game level that adds new mouse movement patterns"
+LEVEL_START_NEW_MOVEMENT_03,"おっと！ 身をかわしながらジグザグするネズミも！","Intro to game level that adds new mouse movement patterns"
+LEVEL_START_TROUBLE,面倒なことになってきたぞ…,"Intro to game level that's extra hard"
