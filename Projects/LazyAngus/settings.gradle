@@ -1,5 +1,0 @@
-include ':googleMobileAdsPlugin'
-include ':mainLibProj'
-include ':facebook'
-include ':unityandroidresources'
-include ':lazyAngus'
