@@ -37,11 +37,11 @@ public class GameCenterHelper : MonoBehaviour {
 
 	void Awake() {
 		instance = this;
-
-
 		platformSpecificIdStrings = new string[(int)AchievementID.NUM_VALUES];
-
 		socialHelperEnabled = false;
+	} 
+
+	void Start() {
 		if (Application.platform == RuntimePlatform.IPhonePlayer) {
 			socialHelperEnabled = true;
 			leaderboardID = iOSLeaderboardID;
