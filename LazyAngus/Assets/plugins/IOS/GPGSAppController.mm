@@ -17,7 +17,7 @@
 
 #import "GPGSAppController.h"
 
-#import <GoogleSignIn/GIDSignIn.h>
+#import <GIDSignIn.h>
 #import <GIDGoogleUser.h>
 #import <GIDAuthentication.h>
 #import <GIDProfileData.h>
