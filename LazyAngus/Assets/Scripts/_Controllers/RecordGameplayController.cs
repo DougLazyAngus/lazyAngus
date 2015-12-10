@@ -37,13 +37,17 @@ public class RecordGameplayController : MonoBehaviour {
 			return;
 		}
 		registeredForEvents = true;
+#if UNITY_IPHONE
 		ReplayKitManager.previewControllerFinishedEvent += PreviewControllerFinished;
+#endif
 		GamePhaseState.instance.GamePhaseChanged += (GamePhaseState.GamePhaseChangedEventHandler)OnGamePhaseChanged;
 	}
 	
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
+#if UNITY_IPHONE
 			ReplayKitManager.previewControllerFinishedEvent -= PreviewControllerFinished;
+#endif			
 			GamePhaseState.instance.GamePhaseChanged -= (GamePhaseState.GamePhaseChangedEventHandler)OnGamePhaseChanged;
 		}
 	}
