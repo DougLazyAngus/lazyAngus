@@ -436,7 +436,11 @@ public class MouseMove : MonoBehaviour
 			MouseConfig.instance.minCirclingRadius) * extraRadiusFraction;
 		
 		circlingRadius = MouseConfig.instance.minCirclingRadius + extraRadius;
-		
+
+		if (Debug.isDebugBuild) {
+			Debug.Log ("circlingRadius = " + circlingRadius);
+		}
+
 		this.SetMouseType (mouseType);
 		this.wiggleType = MouseConfig.MouseWiggleType.NONE;
 
