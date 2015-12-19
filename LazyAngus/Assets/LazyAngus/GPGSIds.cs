@@ -26,14 +26,13 @@ namespace LazyAngus
 public static class GPGSIds
 {
         public const string achievement_wave_10 = "CgkI35efjsIbEAIQAg"; // <GPGSID>
-        public const string package_name = "com.lazyangus.lazyangusbeta"; // <GPGSID>
+        public const string leaderboard_top_scores = "CgkI35efjsIbEAIQBw"; // <GPGSID>
         public const string achievement_double_kill = "CgkI35efjsIbEAIQBQ"; // <GPGSID>
         public const string achievement_wave_5 = "CgkI35efjsIbEAIQAQ"; // <GPGSID>
-        public const string leaderboard_top_scores = "CgkI35efjsIbEAIQBw"; // <GPGSID>
-        public const string achievement_ultra_kill = "CgkI35efjsIbEAIQCg"; // <GPGSID>
         public const string achievement_wave_40 = "CgkI35efjsIbEAIQBA"; // <GPGSID>
         public const string achievement_triple_kill = "CgkI35efjsIbEAIQCA"; // <GPGSID>
         public const string achievement_wave_20 = "CgkI35efjsIbEAIQAw"; // <GPGSID>
+        public const string achievement_ultra_kill = "CgkI35efjsIbEAIQCg"; // <GPGSID>
         public const string achievement_quad_kill = "CgkI35efjsIbEAIQCQ"; // <GPGSID>
 
 }
