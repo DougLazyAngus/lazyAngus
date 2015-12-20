@@ -1,7 +1,12 @@
 ﻿using UnityEngine;
+using Facebook.Unity;
+using System;
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 
-public class SAMobileSocialHelper : MonoBehaviour {
+public class SAMobileSocialHelper : MonoBehaviour
+{
 	public static SAMobileSocialHelper instance;
 
 	public Texture2D lazyAngusIcon;
@@ -16,7 +21,8 @@ public class SAMobileSocialHelper : MonoBehaviour {
 	int scoreToShare;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 		instance = this;
 		SPTwitter.instance.Init ();
 		FB.Init (OnFBInitComplete);
@@ -24,31 +30,36 @@ public class SAMobileSocialHelper : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+	{
 	
 	}
 
-	public void ShareScoreOnTwitter(int score) {
+	public void ShareScoreOnTwitter (int score)
+	{
 		// FIXME(dbanks)
 		// Maybe don't need the rest of the functions if this works.
 		string message = Utilities.GetShareMessageForScore (score);
 		message += " #LazyAngus";
 		
-		SPShareUtility.TwitterShare(message, lazyAngusIcon);
+		SPShareUtility.TwitterShare (message, lazyAngusIcon);
 	}
 
-	private void OnFBInitComplete()	{
+	private void OnFBInitComplete ()
+	{
 		if (Debug.isDebugBuild) {
-			Debug.Log("FB.Init completed: Is user logged in? " + FB.IsLoggedIn);
+			Debug.Log ("FB.Init completed: Is user logged in? " + FB.IsLoggedIn);
 		}
 	}
 
 	
-	public void ShareScoreOnFB(int score, bool isHighScore) {
+	public void ShareScoreOnFB (int score, bool isHighScore)
+	{
 		ShareScoreOnFBThroughLibraries (score);
 	}
 	
-	public void ShareScoreOnFBThroughLibraries(int score) {
+	public void ShareScoreOnFBThroughLibraries (int score)
+	{
 		if (Debug.isDebugBuild) {
 			Debug.Log ("FacebookSharing.ShareScoreThroughLibraries");
 		}
@@ -58,13 +69,15 @@ public class SAMobileSocialHelper : MonoBehaviour {
 			if (Debug.isDebugBuild) {
 				Debug.Log ("Calling FB.Login");
 			}
-			FB.Login ("publish_actions", LoginCallback);
+			FB.LogInWithPublishPermissions (new List<string> () { "publish_actions" },
+				LoginCallback);
 		} else {
 			ShareScoreOnFBInternal (score);
 		}
 	}
 	
-	private void LoginCallback(FBResult result) {
+	private void LoginCallback (IResult result)
+	{
 		if (Debug.isDebugBuild) {
 			Debug.Log ("FacebookSharing.LoginCallback");
 		}
@@ -75,7 +88,8 @@ public class SAMobileSocialHelper : MonoBehaviour {
 	}
 	
 	
-	private void ShareScoreOnFBInternal(int score) {
+	private void ShareScoreOnFBInternal (int score)
+	{
 		if (Debug.isDebugBuild) {
 			Debug.Log ("FacebookSharing.ShareScoreInternal");
 		}
@@ -89,21 +103,15 @@ public class SAMobileSocialHelper : MonoBehaviour {
 			Debug.Log ("Calling FB.Feed");
 		}
 
-		FB.Feed (null, 
-		         Utilities.appURL, 
-		         "Lazy Angus",
-		         title, 
-		         message,
-		         Utilities.appImageURL, 
-		         null, 
-		         null, 
-		         null, 
-		         null, 
-		         null, 
-		         OnFBFeedFinished);
+		FB.ShareLink (new Uri(Utilities.appURL, true),
+		              title, 
+		              message,
+		              new Uri(Utilities.appImageURL, true),
+		              null);
 	}
 	
-	private void OnFBFeedFinished(FBResult result) {
+	private void OnFBFeedFinished (FB_Result result)
+	{
 		if (Debug.isDebugBuild) {
 			Debug.Log ("FacebookSharing.OnFeedFinished");
 			Debug.Log ("Posted...");
@@ -111,7 +119,8 @@ public class SAMobileSocialHelper : MonoBehaviour {
 	}
 
 
-	public void DEPRECATED_ShareScoreOnTwitter(int score) {
+	public void DEPRECATED_ShareScoreOnTwitter (int score)
+	{
 		if (Debug.isDebugBuild) {
 			Debug.Log ("TwitterSharing.ShareScoreThroughURLs");
 		}
@@ -124,7 +133,8 @@ public class SAMobileSocialHelper : MonoBehaviour {
 		}
 	}
 	
-	void DEPRECATED_ShareScoreOnTwitterThroughURLs(int score) {
+	void DEPRECATED_ShareScoreOnTwitterThroughURLs (int score)
+	{
 		if (Debug.isDebugBuild) {
 			Debug.Log ("TwitterSharing.ShareScoreThroughURLs");
 		}
@@ -133,7 +143,7 @@ public class SAMobileSocialHelper : MonoBehaviour {
 		
 		string webURL = TwitterAddress + "?text=" + WWW.EscapeURL (message) + 
 			"&url=" + WWW.EscapeURL (Utilities.appURL) +
-				"&hashtags=LazyAngus";
+			"&hashtags=LazyAngus";
 		
 		message = message + " " + Utilities.appURL + " #LazyAngus";
 		string appURL = TwitterAppLaunch + "?text=" + WWW.EscapeURL (message);
@@ -145,7 +155,8 @@ public class SAMobileSocialHelper : MonoBehaviour {
 		StartCoroutine (Utilities.LaunchAppOrWeb (appURL, webURL));
 	}
 	
-	void DEPRECATED_ShareScoreOnTwitterInternal(int score) {
+	void DEPRECATED_ShareScoreOnTwitterInternal (int score)
+	{
 		if (Debug.isDebugBuild) {
 			Debug.Log ("TwitterSharing.ShareScoreInternal");
 		}
@@ -154,14 +165,15 @@ public class SAMobileSocialHelper : MonoBehaviour {
 		SPTwitter.instance.Post (message, lazyAngusIcon);
 	}
 	
-	public void DEPRECATED_ShareScoreOnFBThroughURLs(int score) {
+	public void DEPRECATED_ShareScoreOnFBThroughURLs (int score)
+	{
 		string args = "?app_id=" + FBAppID +
-			"&link=" + WWW.EscapeURL(Utilities.appURL) +
-				"&name=" + WWW.EscapeURL("Lazy Angus") +
-				"&caption=" + WWW.EscapeURL(Utilities.GetShareTitleForScore(score)) + 
-				"&description=" + WWW.EscapeURL(Utilities.GetShareMessageForScore(score)) + 
-				"&picture=" + WWW.EscapeURL(Utilities.appImageURL) + 
-				"&redirect_uri=" + WWW.EscapeURL ("http://facebook.com");
+			"&link=" + WWW.EscapeURL (Utilities.appURL) +
+			"&name=" + WWW.EscapeURL ("Lazy Angus") +
+			"&caption=" + WWW.EscapeURL (Utilities.GetShareTitleForScore (score)) + 
+			"&description=" + WWW.EscapeURL (Utilities.GetShareMessageForScore (score)) + 
+			"&picture=" + WWW.EscapeURL (Utilities.appImageURL) + 
+			"&redirect_uri=" + WWW.EscapeURL ("http://facebook.com");
 		string webURL = FBAddress + args;
 		
 		args = "?text=" + WWW.EscapeURL (Utilities.GetShareMessageForScore (score)) + 
@@ -173,6 +185,6 @@ public class SAMobileSocialHelper : MonoBehaviour {
 			Debug.Log ("facebook app url = \n" + appURL);
 		}
 
-		StartCoroutine(Utilities.LaunchAppOrWeb (appURL, webURL));
+		StartCoroutine (Utilities.LaunchAppOrWeb (appURL, webURL));
 	}
 }
