@@ -36,7 +36,7 @@ void UnityPause( int pause );
 	int shouldPauseValue = [shouldPause intValue];
 #endif
 	
-	// UnityPause( shouldPauseValue );
+	UnityPause( shouldPauseValue );
 }
 
 @end
