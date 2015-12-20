@@ -336,7 +336,6 @@ namespace GooglePlayGames
             {
                 mClient.SignOut();
             }
-            mLocalUser = new PlayGamesLocalUser(this);
         }
 
         /// <summary>
@@ -582,8 +581,7 @@ namespace GooglePlayGames
                 int numSteps = targetSteps - curSteps;
                 Logger.d("Target steps: " + targetSteps + ", cur steps:" + curSteps);
                 Logger.d("Steps to increment: " + numSteps);
-                // handle incremental achievements with 0 steps
-                if (numSteps >= 0)
+                if (numSteps > 0)
                 {
                     mClient.IncrementAchievement(achievementID, numSteps, callback);
                 }
