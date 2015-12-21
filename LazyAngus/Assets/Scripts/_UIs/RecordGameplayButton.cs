@@ -40,13 +40,13 @@ public class RecordGameplayButton : MonoBehaviour {
 			return;
 		}
 		registeredForEvents = true;
-		RecordGameplayController.instance.RecordGameplay +=
+		RecordGameplayController.instance.RecordGameplayChanged +=
 			new RecordGameplayController.RecordGameplayChangedEventHandler (OnReplayChanged);
 	}
 	
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
-			RecordGameplayController.instance.RecordGameplay -=
+			RecordGameplayController.instance.RecordGameplayChanged -=
 				new RecordGameplayController.RecordGameplayChangedEventHandler (OnReplayChanged);
 		}
 	}

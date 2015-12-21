@@ -7,16 +7,17 @@ using System.Collections.Generic;
 
 public class RecordGameplayController : MonoBehaviour {
 	public static RecordGameplayController instance;
-
+	
 	public delegate void RecordGameplayChangedEventHandler();
-	public event RecordGameplayChangedEventHandler RecordGameplay;
-
+	public event RecordGameplayChangedEventHandler RecordGameplayChanged;
+	
 	bool registeredForEvents = false;
-
+	bool isReordingLocal = false;
+	
 	void Awake() {
 		instance = this;
 	}
-
+	
 	// Use this for initialization
 	void Start () {
 		RegisterForEvents ();	
@@ -26,79 +27,71 @@ public class RecordGameplayController : MonoBehaviour {
 		UnregisterForEvents ();
 		
 	}
-
+	
 	// Update is called once per frame
 	void Update () {
-	
+		
 	}
-
+	
 	void RegisterForEvents() {
 		if (registeredForEvents) {
 			return;
 		}
 		registeredForEvents = true;
-#if UNITY_IPHONE
+		#if UNITY_IPHONE
 		ReplayKitManager.previewControllerFinishedEvent += PreviewControllerFinished;
-#endif
+		#endif
 		GamePhaseState.instance.GamePhaseChanged += (GamePhaseState.GamePhaseChangedEventHandler)OnGamePhaseChanged;
 	}
 	
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
-#if UNITY_IPHONE
+			#if UNITY_IPHONE
 			ReplayKitManager.previewControllerFinishedEvent -= PreviewControllerFinished;
-#endif			
+			#endif			
 			GamePhaseState.instance.GamePhaseChanged -= (GamePhaseState.GamePhaseChangedEventHandler)OnGamePhaseChanged;
 		}
 	}
-
+	
 	void OnGamePhaseChanged() {
 		// If we are not playing the game, it's all over.
 		if (GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.LEVEL_PLAY && 
-			GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.PENDING) {
+		    GamePhaseState.instance.gamePhase != GamePhaseState.GamePhaseType.PENDING) {
 			if (IsRecording ()) {
 				StopRecording();
 			}
 		}
 	}
-
+	
 	void PreviewControllerFinished(List<string> activityTypes) {
 		// When we come back from preview controller, un-pause.
 		TimeController.instance.SetTimeState (TimeController.TimeState.PLAYING);
 	}
 	
 	public static bool IsRecordingSupported() {
-#if UNITY_IPHONE
+		#if UNITY_IPHONE
 		return ReplayKit.isReplayKitAvailable();
-#else 
+		#else 
 		return false;
-#endif
+		#endif
 	}
-
+	
 	public bool IsRecording() {
-#if UNITY_IPHONE
-		if (!ReplayKit.isReplayKitAvailable()) {
-			return false;
-		}
-		return ReplayKit.isCurrentlyRecording();
-#else 
-		return false;
-#endif
-
+		return isReordingLocal;
 	}
-
+	
 	public void ToggleRecording() {
 		if (Debug.isDebugBuild) {
 			Debug.Log ("Called Toggle Replay");
 		}
-#if UNITY_IPHONE
+		#if UNITY_IPHONE
 		if (Debug.isDebugBuild) {
 			Debug.Log ("It's iPhone");
 		}
 		if (!ReplayKit.isReplayKitAvailable()) {
 			return;
 		}
-
+		
 		if (Debug.isDebugBuild) {
 			Debug.Log ("Replay kit is available");
 		}
@@ -113,21 +106,29 @@ public class RecordGameplayController : MonoBehaviour {
 			}
 			StartRecording ();
 		}
-#endif
+		#endif
 	}
-
-
+	
+	
 	void StopRecording() {
-#if UNITY_IPHONE
+		#if UNITY_IPHONE
 		// Pause the game first....
 		TimeController.instance.SetTimeState (TimeController.TimeState.COMPLETE_PAUSE);
 		ReplayKit.stopRecording (true);
-#endif
+		isReordingLocal = false;
+		if (RecordGameplayChanged != null) {
+			RecordGameplayChanged();
+		}
+		#endif
 	}
-
+	
 	void StartRecording() {
-#if UNITY_IPHONE
+		#if UNITY_IPHONE
 		ReplayKit.startRecording (true);
-#endif
+		isReordingLocal = true;
+		if (RecordGameplayChanged != null) {
+			RecordGameplayChanged();
+		}
+		#endif
 	}
 }
