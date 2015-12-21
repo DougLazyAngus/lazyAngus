@@ -18,9 +18,10 @@ public class SAMobileSocialHelper : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		instance = this;
+		/*
 		SPTwitter.instance.Init ();
 		FB.Init (OnFBInitComplete);
-
+*/
 	}
 	
 	// Update is called once per frame
@@ -34,12 +35,12 @@ public class SAMobileSocialHelper : MonoBehaviour {
 		string message = Utilities.GetShareMessageForScore (score);
 		message += " #LazyAngus";
 		
-		SPShareUtility.TwitterShare(message, lazyAngusIcon);
+		// SPShareUtility.TwitterShare(message, lazyAngusIcon);
 	}
 
 	private void OnFBInitComplete()	{
 		if (Debug.isDebugBuild) {
-			Debug.Log("FB.Init completed: Is user logged in? " + FB.IsLoggedIn);
+// 			Debug.Log("FB.Init completed: Is user logged in? " + FB.IsLoggedIn);
 		}
 	}
 
@@ -53,6 +54,7 @@ public class SAMobileSocialHelper : MonoBehaviour {
 			Debug.Log ("FacebookSharing.ShareScoreThroughLibraries");
 		}
 
+		/*
 		if (!FB.IsLoggedIn) {
 			scoreToShare = score;
 			if (Debug.isDebugBuild) {
@@ -62,8 +64,10 @@ public class SAMobileSocialHelper : MonoBehaviour {
 		} else {
 			ShareScoreOnFBInternal (score);
 		}
+		*/
 	}
-	
+
+	/*
 	private void LoginCallback(FBResult result) {
 		if (Debug.isDebugBuild) {
 			Debug.Log ("FacebookSharing.LoginCallback");
@@ -73,7 +77,7 @@ public class SAMobileSocialHelper : MonoBehaviour {
 			ShareScoreOnFBInternal (scoreToShare);
 		}
 	}
-	
+	*/
 	
 	private void ShareScoreOnFBInternal(int score) {
 		if (Debug.isDebugBuild) {
@@ -89,6 +93,7 @@ public class SAMobileSocialHelper : MonoBehaviour {
 			Debug.Log ("Calling FB.Feed");
 		}
 
+		/*
 		FB.Feed (null, 
 		         Utilities.appURL, 
 		         "Lazy Angus",
@@ -101,15 +106,17 @@ public class SAMobileSocialHelper : MonoBehaviour {
 		         null, 
 		         null, 
 		         OnFBFeedFinished);
+		         */
 	}
-	
+
+	/*
 	private void OnFBFeedFinished(FBResult result) {
 		if (Debug.isDebugBuild) {
 			Debug.Log ("FacebookSharing.OnFeedFinished");
 			Debug.Log ("Posted...");
 		}
 	}
-
+*/
 
 	public void DEPRECATED_ShareScoreOnTwitter(int score) {
 		if (Debug.isDebugBuild) {
@@ -117,11 +124,13 @@ public class SAMobileSocialHelper : MonoBehaviour {
 		}
 
 		// If twitter authorized, use libraries, else use urls.
+		/*
 		if (SPTwitter.instance.IsAuthed) {
 			DEPRECATED_ShareScoreOnTwitterInternal (score);
 		} else {
 			DEPRECATED_ShareScoreOnTwitterThroughURLs (score);
 		}
+		*/
 	}
 	
 	void DEPRECATED_ShareScoreOnTwitterThroughURLs(int score) {
@@ -150,8 +159,10 @@ public class SAMobileSocialHelper : MonoBehaviour {
 			Debug.Log ("TwitterSharing.ShareScoreInternal");
 		}
 
+		/*
 		string message = Utilities.GetShareMessageForScore (score);
 		SPTwitter.instance.Post (message, lazyAngusIcon);
+		*/
 	}
 	
 	public void DEPRECATED_ShareScoreOnFBThroughURLs(int score) {
