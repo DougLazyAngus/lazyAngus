@@ -24,7 +24,7 @@ public class SAMobileSocialHelper : MonoBehaviour
 	void Start ()
 	{
 		instance = this;
-		SPTwitter.instance.Init ();
+// 		SPTwitter.instance.Init ();
 		FB.Init (OnFBInitComplete);
 
 	}
@@ -42,7 +42,7 @@ public class SAMobileSocialHelper : MonoBehaviour
 		string message = Utilities.GetShareMessageForScore (score);
 		message += " #LazyAngus";
 		
-		SPShareUtility.TwitterShare (message, lazyAngusIcon);
+		// SPShareUtility.TwitterShare (message, lazyAngusIcon);
 	}
 
 	private void OnFBInitComplete ()
@@ -109,7 +109,8 @@ public class SAMobileSocialHelper : MonoBehaviour
 		              new Uri(Utilities.appImageURL, true),
 		              null);
 	}
-	
+
+	/*
 	private void OnFBFeedFinished (FB_Result result)
 	{
 		if (Debug.isDebugBuild) {
@@ -117,7 +118,7 @@ public class SAMobileSocialHelper : MonoBehaviour
 			Debug.Log ("Posted...");
 		}
 	}
-
+	*/
 
 	public void DEPRECATED_ShareScoreOnTwitter (int score)
 	{
@@ -125,12 +126,14 @@ public class SAMobileSocialHelper : MonoBehaviour
 			Debug.Log ("TwitterSharing.ShareScoreThroughURLs");
 		}
 
+		/*
 		// If twitter authorized, use libraries, else use urls.
 		if (SPTwitter.instance.IsAuthed) {
 			DEPRECATED_ShareScoreOnTwitterInternal (score);
 		} else {
 			DEPRECATED_ShareScoreOnTwitterThroughURLs (score);
 		}
+		*/
 	}
 	
 	void DEPRECATED_ShareScoreOnTwitterThroughURLs (int score)
@@ -162,7 +165,7 @@ public class SAMobileSocialHelper : MonoBehaviour
 		}
 
 		string message = Utilities.GetShareMessageForScore (score);
-		SPTwitter.instance.Post (message, lazyAngusIcon);
+// 		SPTwitter.instance.Post (message, lazyAngusIcon);
 	}
 	
 	public void DEPRECATED_ShareScoreOnFBThroughURLs (int score)

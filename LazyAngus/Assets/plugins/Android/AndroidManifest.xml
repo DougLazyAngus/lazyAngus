@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.unity3d.player" android:installLocation="preferExternal" android:theme="@android:style/Theme.NoTitleBar" android:versionCode="1" android:versionName="1.0">
-  <uses-permission android:name="com.android.vending.BILLING" />
   <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" android:anyDensity="true" />
   <application android:icon="@drawable/app_icon" android:label="@string/app_name" android:debuggable="true" android:name="com.soomla.SoomlaApp">
     <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="fb853535184714876" />
+    <meta-data android:name="billing.service" android:value="google.GooglePlayIabService" />
     <provider android:name="com.facebook.FacebookContentProvider" android:authorities="com.facebook.app.FacebookContentProvider853535184714876" android:exported="true" />
     <activity android:name="com.unity3d.player.UnityPlayerNativeActivity" android:label="@string/app_name">
       <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
@@ -32,9 +32,9 @@
         <data android:scheme="oauth" android:host="com.snackfortgames.lazyangus" />
       </intent-filter>
     </activity>
-    <meta-data android:name="billing.service" android:value="google.GooglePlayIabService" />
     <activity android:name="com.soomla.store.billing.google.GooglePlayIabService$IabActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
   </application>
+  <uses-permission android:name="com.android.vending.BILLING" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 </manifest>
