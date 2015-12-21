@@ -20,6 +20,7 @@ public class GameController : MonoBehaviour {
 		instance = this;
 		checkForPhaseChanges = false;
 		mouseSpawnFromData = gameObject.GetComponent<MouseSpawnFromData> ();
+		Screen.orientation = ScreenOrientation.Portrait;
 	}
 
 	void Start() {

@@ -13,10 +13,10 @@ public class RecordGameplayButton : MonoBehaviour {
 	void Awake() {
 		string path;
 		
-		path = "Textures/Buttons/replay_off_button.01";
+		path = "Textures/Buttons/replay_off_button";
 		offSprite = Resources.Load<UnityEngine.Sprite>(path);
 		
-		path = "Textures/Buttons/replay_on_button.01";
+		path = "Textures/Buttons/replay_on_button";
 		onSprite = Resources.Load<UnityEngine.Sprite>(path);	
 
 		if (!RecordGameplayController.IsRecordingSupported ()) {
