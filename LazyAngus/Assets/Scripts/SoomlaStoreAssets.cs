@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
+/*
 using Soomla;
 using Soomla.Store;
 
@@ -37,9 +38,6 @@ public class SoomlaStoreAssets: IStoreAssets {
 	public VirtualCategory[] GetCategories() {
 		return new VirtualCategory[]{GENERAL_CATEGORY};
 	}
-	
-
-	/** Virtual Goods **/
 
 	// NOTE: Create non-consumable items using LifeTimeVG with PurchaseType of
 	// PurchaseWithMarket.
@@ -52,12 +50,11 @@ public class SoomlaStoreAssets: IStoreAssets {
 	                       1.99                                   // Price (in real money $)
 	                       )
 		);
-	
-	/** Virtual Categories **/
-	
-	public static VirtualCategory GENERAL_CATEGORY = new VirtualCategory(
+
+public static VirtualCategory GENERAL_CATEGORY = new VirtualCategory(
 		"General", new List<string>(new string[] {BASIC_UPGRADE.ItemId})
 		);
 	
 }
 
+*/

@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+/*
 using Soomla;
 using Soomla.Store;
-
+*/
 public class StoreController : MonoBehaviour {
 	bool registeredForEvents;
 	public GameObject upgradeDialogPrototype;
@@ -20,7 +21,7 @@ public class StoreController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		SoomlaStore.Initialize (new SoomlaStoreAssets ());
+// 		SoomlaStore.Initialize (new SoomlaStoreAssets ());
 		RegisterForEvents ();
 	}
 
@@ -32,6 +33,7 @@ public class StoreController : MonoBehaviour {
 		if (!registeredForEvents) {
 			registeredForEvents = true;
 
+			/*
 			StoreEvents.OnSoomlaStoreInitialized += onStoreInitialized;
 			StoreEvents.OnBillingNotSupported += onBillingNotSupported;
 			StoreEvents.OnBillingSupported += onBillingSupported;
@@ -48,42 +50,13 @@ public class StoreController : MonoBehaviour {
 			StoreEvents.OnRestoreTransactionsStarted += onRestoreTransactionsStarted;
 
 			StoreEvents.OnUnexpectedStoreError += onUnexpectedStoreError;
-
-			/*
-
-
-			public static Action<VirtualGood, int, int> OnGoodBalanceChanged = delegate {};
-			
-
-			public static Action<PurchasableVirtualItem, string> OnItemPurchased = delegate {};
-			
-			public static Action<PurchasableVirtualItem> OnItemPurchaseStarted = delegate {};
-			
-			public static Action<PurchasableVirtualItem> OnMarketPurchaseCancelled = delegate {};
-			
-			public static Action<PurchasableVirtualItem, string, Dictionary<string, string>> OnMarketPurchase = delegate {};
-			
-			public static Action<PurchasableVirtualItem> OnMarketPurchaseStarted = delegate {};
-			
-			public static Action<PurchasableVirtualItem> OnMarketRefund = delegate {};
-			
-			public static Action<bool> OnRestoreTransactionsFinished = delegate {};
-			
-			public static Action OnRestoreTransactionsStarted = delegate {};
-			
-			public static Action OnMarketItemsRefreshStarted = delegate {};
-			
-
-			public static Action<int> OnUnexpectedStoreError = delegate {};
-			
-			public static Action OnSoomlaStoreInitialized = delegate {};
-			StoreEvents.
 */
 		}
 	}
 
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
+			/*
 			StoreEvents.OnSoomlaStoreInitialized -= onStoreInitialized;
 			StoreEvents.OnBillingNotSupported -= onBillingNotSupported;
 			StoreEvents.OnBillingSupported -= onBillingSupported;
@@ -100,6 +73,7 @@ public class StoreController : MonoBehaviour {
 			StoreEvents.OnRestoreTransactionsStarted -= onRestoreTransactionsStarted;
 			
 			StoreEvents.OnUnexpectedStoreError -= onUnexpectedStoreError;
+			*/
 		}
 	}
 	
@@ -120,7 +94,8 @@ public class StoreController : MonoBehaviour {
 			Debug.Log("onBillingSupported");
 		}
 	}
-	
+
+	/*
 	void onGoodBalanceChanged(VirtualGood vg, int c1, int c2) {
 		if (Debug.isDebugBuild) {
 			Debug.Log("onGoodBalanceChanged");
@@ -182,6 +157,7 @@ public class StoreController : MonoBehaviour {
 			Debug.Log("OnUnexpectedStoreError");
 		}
 	}
+	*/
 
 	// Update is called once per frame
 	void Update () {
@@ -204,12 +180,15 @@ public class StoreController : MonoBehaviour {
 
 	void OnDialogResult(bool result) {
 		if (result) {
-			StoreInventory.BuyItem (SoomlaStoreAssets.BASIC_UPGRADE_ID);
+// 			StoreInventory.BuyItem (SoomlaStoreAssets.BASIC_UPGRADE_ID);
 		}
 	}
 
 	public bool IsUpgradePurchased() {
+		/*
 		int count = StoreInventory.GetItemBalance (SoomlaStoreAssets.BASIC_UPGRADE_ID);
 		return (count > 0);
+		*/
+		return false;
 	}
 }

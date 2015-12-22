@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using System;
 using System.Collections;
+/*
 using GoogleMobileAds.Api;
 using GoogleMobileAds.Common;
+*/
 
 public class GoogleAdController : MonoBehaviour {
 	public static GoogleAdController instance;
@@ -14,8 +16,10 @@ public class GoogleAdController : MonoBehaviour {
 	bool registeredForEvents;
 	bool adsEnabled = true;
 
+	/*
 	BannerView bannerView;
 	InterstitialAd interstitialAd;
+*/
 
 	public string iosBannerViewAdId;
 	public string androidBannerViewAdId;
@@ -24,13 +28,14 @@ public class GoogleAdController : MonoBehaviour {
 
 	void Awake() {
 		instance = this;
+		/*
 		bannerView = new BannerView (GetBannerAdUnitId(), 
 		                                                AdSize.SmartBanner,
 		                                                AdPosition.Bottom);
 		bannerView.LoadAd (MakeAdRequest());
 		bannerView.AdLoaded += OnBannerAdLoaded;
 		bannerView.Hide ();
-
+	*/
 		PrepInterstitialAd ();
 	}
 
@@ -40,6 +45,7 @@ public class GoogleAdController : MonoBehaviour {
 			Debug.Log ("Setting up interstitialAd");
 		}
 
+		/*
 		interstitialAd = new InterstitialAd (GetInterstitialAdUnitId());
 		interstitialAd.AdLoaded += OnInterstitialAdLoaded;
 		interstitialAd.AdOpened += OnInterstitialAdOpened;
@@ -47,9 +53,10 @@ public class GoogleAdController : MonoBehaviour {
 		interstitialAd.AdFailedToLoad += OnInterstitialAdFailedToLoad;
 		
 		interstitialAd.LoadAd (MakeAdRequest ());
+		*/
 	}
 
-
+	/*
 	AdRequest MakeAdRequest() {
 		AdRequest.Builder builder =
 			new AdRequest.Builder();
@@ -57,7 +64,9 @@ public class GoogleAdController : MonoBehaviour {
 		builder.AddKeyword("cat");
 		builder.TagForChildDirectedTreatment (true);
 		return builder.Build();
+
 	}
+*/
 
 	string GetInterstitialAdUnitId() {
 		if (Application.platform == RuntimePlatform.IPhonePlayer) {
@@ -185,9 +194,11 @@ public class GoogleAdController : MonoBehaviour {
 			return;
 		}
 
+		/*
 		if (interstitialAd.IsLoaded ()) {
 			interstitialAd.Show ();
 		}
+		*/
 	}
 
 	bool ShouldShowInterstitialAd() {
@@ -206,14 +217,17 @@ public class GoogleAdController : MonoBehaviour {
 			return false;
 		}
 
+		/*
 		if (!interstitialAd.IsLoaded ()) {
 			return false;
 		}
+		*/
 		
 		return true;
 	}
 
 	void UpdateBanner() {
+		/*
 		if (!adsEnabled) {
 			bannerView.Hide ();
 			return;
@@ -240,6 +254,7 @@ public class GoogleAdController : MonoBehaviour {
 			bannerView.LoadAd (MakeAdRequest ());
 			break;
 		}
+		*/
 	}
 
 

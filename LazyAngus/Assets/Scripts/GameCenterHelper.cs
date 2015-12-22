@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.SocialPlatforms;
 using UnityEngine.SocialPlatforms.GameCenter;
+
 using GooglePlayGames;
 using GooglePlayGames.BasicApi;
 
@@ -20,7 +21,7 @@ public class GameCenterHelper : MonoBehaviour {
 	}
 
 	string iOSLeaderboardID = "grp.LazyAngusBeta2";
-// 	string androidLeaderboardID = LazyAngus.GPGSIds.leaderboard_top_scores;
+	string androidLeaderboardID = LazyAngus.GPGSIds.leaderboard_top_scores;
 
 	public static GameCenterHelper instance;
 	
@@ -56,7 +57,6 @@ public class GameCenterHelper : MonoBehaviour {
 			platformSpecificIdStrings[(int)AchievementID.WAVE_20] = "grp.Wave20";
 			platformSpecificIdStrings[(int)AchievementID.WAVE_40] = "grp.Wave40";
 		} else if (Application.platform == RuntimePlatform.Android) {
-			/*
 			socialHelperEnabled = true;
 			leaderboardID = androidLeaderboardID;
 
@@ -69,7 +69,6 @@ public class GameCenterHelper : MonoBehaviour {
 			platformSpecificIdStrings[(int)AchievementID.WAVE_10] = LazyAngus.GPGSIds.achievement_wave_10;
 			platformSpecificIdStrings[(int)AchievementID.WAVE_20] = LazyAngus.GPGSIds.achievement_wave_20;
 			platformSpecificIdStrings[(int)AchievementID.WAVE_40] = LazyAngus.GPGSIds.achievement_wave_40;
-*/
 			PlayGamesClientConfiguration pgcConfig = 
 				new PlayGamesClientConfiguration.Builder().Build();
 			
@@ -178,6 +177,7 @@ public class GameCenterHelper : MonoBehaviour {
 				GameCenterPlatform.ShowLeaderboardUI (leaderboardID, 
 			    	                                  TimeScope.Today);
 			} else if (Application.platform == RuntimePlatform.Android) {
+
 				if (Debug.isDebugBuild) {
 					Debug.Log ("GooglePlayGames.PlayGamesPlatform.Instance = " + GooglePlayGames.PlayGamesPlatform.Instance);
 				}
