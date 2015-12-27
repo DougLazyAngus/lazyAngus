@@ -60,6 +60,7 @@ public class GameCenterHelper : MonoBehaviour {
 			socialHelperEnabled = true;
 			leaderboardID = androidLeaderboardID;
 
+			/*
 			platformSpecificIdStrings[(int)AchievementID.DOUBLE_KILL] = LazyAngus.GPGSIds.achievement_double_kill;
 			platformSpecificIdStrings[(int)AchievementID.TRIPLE_KILL] = LazyAngus.GPGSIds.achievement_triple_kill;
 			platformSpecificIdStrings[(int)AchievementID.QUAD_KILL] = LazyAngus.GPGSIds.achievement_quad_kill;
@@ -69,6 +70,8 @@ public class GameCenterHelper : MonoBehaviour {
 			platformSpecificIdStrings[(int)AchievementID.WAVE_10] = LazyAngus.GPGSIds.achievement_wave_10;
 			platformSpecificIdStrings[(int)AchievementID.WAVE_20] = LazyAngus.GPGSIds.achievement_wave_20;
 			platformSpecificIdStrings[(int)AchievementID.WAVE_40] = LazyAngus.GPGSIds.achievement_wave_40;
+	*/
+
 			PlayGamesClientConfiguration pgcConfig = 
 				new PlayGamesClientConfiguration.Builder().Build();
 			
