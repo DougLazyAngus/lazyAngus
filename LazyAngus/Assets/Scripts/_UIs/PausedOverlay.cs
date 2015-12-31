@@ -6,7 +6,7 @@ using System.Collections;
 public class PausedOverlay : MonoBehaviour {
 	public static PausedOverlay instance;
 	public Button overlayButton;
-	public Button bigPlayButton;
+	public GameObject buttonContainer;
 
 	bool registeredForEvents;
 
@@ -17,7 +17,7 @@ public class PausedOverlay : MonoBehaviour {
 	void Awake() {
 		instance = this;
 		registeredForEvents = false;
-		bigPlayButton.gameObject.SetActive (false);
+		buttonContainer.SetActive (false);
 	}
 	
 	// Use this for initialization
@@ -48,12 +48,12 @@ public class PausedOverlay : MonoBehaviour {
 			overlayButton.gameObject.SetActive (true);
 		} else {
 			overlayButton.gameObject.SetActive (false);
-			bigPlayButton.gameObject.SetActive (false);
+			buttonContainer.SetActive (false);
 		}
 	}
 
-	public void ShowBigPlayButton() {
-		bigPlayButton.gameObject.SetActive (true);
+	public void ShowSettingsButtons() {
+		buttonContainer.SetActive (true);
 	}
 
 	public void OnBackgroundTouched() {
