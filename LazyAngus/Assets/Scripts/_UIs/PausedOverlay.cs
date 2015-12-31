@@ -5,11 +5,15 @@ using System.Collections;
 
 public class PausedOverlay : MonoBehaviour {
 	public static PausedOverlay instance;
-	public GameObject overlay;
+	public Button overlayButton;
 	public Button bigPlayButton;
 
 	bool registeredForEvents;
-	
+
+	public delegate void PausedOverlayTouchedEventHandler();
+	public event PausedOverlayTouchedEventHandler PausedOverlayTouched;
+
+
 	void Awake() {
 		instance = this;
 		registeredForEvents = false;
@@ -41,14 +45,20 @@ public class PausedOverlay : MonoBehaviour {
 	// Update is called once per frame
 	void UpdateUX () {
 		if (TimeController.instance.timeState != TimeController.TimeState.PLAYING) {
-			overlay.SetActive (true);
+			overlayButton.gameObject.SetActive (true);
 		} else {
-			overlay.SetActive (false);
+			overlayButton.gameObject.SetActive (false);
 			bigPlayButton.gameObject.SetActive (false);
 		}
 	}
 
 	public void ShowBigPlayButton() {
 		bigPlayButton.gameObject.SetActive (true);
+	}
+
+	public void OnBackgroundTouched() {
+		if (PausedOverlayTouched != null) {
+			PausedOverlayTouched ();
+		}
 	}
 }

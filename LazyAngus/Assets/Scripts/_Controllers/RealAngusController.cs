@@ -195,10 +195,7 @@ public class RealAngusController : MonoBehaviour {
 
 	void OnButtonClicked(RealAngusElementButton button) {
 		if (selectedButton) {
-			selectedButton.SetSelected (false);
-			selectedButton = null;
-			realAngusSelectedButtonParent.StartVisibilityTransition (false);
-			realAngusTextWidget.TransitionOut ();
+			DeselectSelectedButton();
 		} else {
 			if (button.raid.unlocked) {
 				SelectButton (button);
@@ -207,7 +204,17 @@ public class RealAngusController : MonoBehaviour {
 			}
 		}
 	}
-	
+
+	public void DeselectSelectedButton() {
+		if (selectedButton == null) {
+			return;
+		}
+		selectedButton.SetSelected (false);
+		selectedButton = null;
+		realAngusSelectedButtonParent.StartVisibilityTransition (false);
+		realAngusTextWidget.TransitionOut ();
+	}
+
 	void CueToPlayMore() {
 		int numUnlocked = RealAngusData.instance.CountUnlockedItemDescs ();
 		int levelForNextUnlock = LevelConfig.instance.LevelForRealAngusUnlocks (numUnlocked + 1);

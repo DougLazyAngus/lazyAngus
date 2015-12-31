@@ -14,6 +14,7 @@ public class DialogController : MonoBehaviour {
 		activeDialog = dialog;
 
 		activeDialog.ShowInParent (PausedOverlay.instance.transform);
+		PausedOverlay.instance.PausedOverlayTouched += OnPausedOverlayTouched;
 
 		TimeController.instance.SetTimeState (TimeController.TimeState.PAUSE_FOR_DIALOG);
 	}
@@ -24,9 +25,15 @@ public class DialogController : MonoBehaviour {
 		}
 		activeDialog.OnHidden ();
 		activeDialog = null;
+		PausedOverlay.instance.PausedOverlayTouched -= OnPausedOverlayTouched;
+
 		TimeController.instance.SetTimeState (TimeController.TimeState.PLAYING);
 	}
-	
+
+	void OnPausedOverlayTouched() {
+		HideDialog (activeDialog);
+	}
+
 	public bool IsDialogShowing() {
 		return (activeDialog != null);
 	}
