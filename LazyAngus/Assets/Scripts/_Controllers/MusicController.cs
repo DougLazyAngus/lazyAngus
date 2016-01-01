@@ -132,8 +132,6 @@ public class MusicController : MonoBehaviour {
 		SoundController.instance.MusicMuteChanged +=
 			new SoundController.MusicMuteChangedEventHandler (OnMusicMuteChanged);
 
-		TimeController.instance.TimeStateChanged += 
-			new TimeController.TimeStateChangedEventHandler (OnPauseChanged);
 		BoostConfig.instance.BoostActive += 
 			new BoostConfig.BoostActiveEventHandler (OnBoostActive);
 	}
@@ -144,8 +142,6 @@ public class MusicController : MonoBehaviour {
 				new GamePhaseState.GamePhaseChangedEventHandler (OnGamePhaseChanged);
 			SoundController.instance.MusicMuteChanged -=
 				new SoundController.MusicMuteChangedEventHandler (OnMusicMuteChanged);
-			TimeController.instance.TimeStateChanged -= 
-				new TimeController.TimeStateChangedEventHandler (OnPauseChanged);
 			BoostConfig.instance.BoostActive -= 
 				new BoostConfig.BoostActiveEventHandler (OnBoostActive);
 		}
@@ -175,17 +171,7 @@ public class MusicController : MonoBehaviour {
 	                   BoostConfig.BoostType oldBoost) {
 		UpdateAllMusic ();
 	}
-
-	void OnPauseChanged() {
-		if (currentMusic != null) {
-			if (TimeController.instance.timeState == TimeController.TimeState.COMPLETE_PAUSE) {
-				FadeOutMusic(currentMusic);
-			} else {
-				FadeInMusic(currentMusic);
-			}
-		}
-	}
-
+	
 	AudioSource GetBoostMusic() {
 		if (useAltMusic) {
 			return audioSources [(int)altBoostType];
