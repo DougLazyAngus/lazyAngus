@@ -25,8 +25,7 @@ namespace LazyAngus
 {
 public static class GPGSIds
 {
-        public const string package_name = "com.snackfortgames.lazyangus_android"; // <GPGSID>
-        public const string leaderboard_top_scores = "CgkIr9md3e8UEAIQAQ"; // <GPGSID>
+        public const string leaderboard_top_scores = "CgkInaXomb8fEAIQAA"; // <GPGSID>
 
 }
 }

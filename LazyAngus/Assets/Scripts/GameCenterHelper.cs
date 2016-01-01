@@ -79,7 +79,20 @@ public class GameCenterHelper : MonoBehaviour {
 			// recommended for debugging:
 			PlayGamesPlatform.DebugLogEnabled = true;
 			// Activate the Google Play Games platform
-			PlayGamesPlatform.Activate();
+			PlayGamesPlatform p = PlayGamesPlatform.Activate();
+			PlayGamesPlatform.Instance.SetDefaultLeaderboardForUI(leaderboardID);
+
+			Debug.Log ("DBANKS Calling Authenticate in Start");
+			Authenticate (success => {
+				if (success) {
+					Debug.Log ("DBANKS Authenticate in Start succeeded");
+				} else {
+					Debug.Log ("DBANKS Authenticate in Start failed");
+				}
+			});
+			Debug.Log ("DBANKS Called Authenticate in Start");
+
+
 		}
 	}
 
@@ -172,21 +185,32 @@ public class GameCenterHelper : MonoBehaviour {
 			return;
 		}
 
+		if (Debug.isDebugBuild) {
+			Debug.Log ("DBANKS Calling authenticate");
+		}
 		Authenticate (success => {
+			if (Debug.isDebugBuild) {
+				Debug.Log ("DBANKS Authenticate success");
+			}
 			if (Application.platform == RuntimePlatform.IPhonePlayer) {
 				if (Debug.isDebugBuild) {
-					Debug.Log ("Showing LeaderBoard: " + leaderboardID);
+					Debug.Log ("DBANKS iOS Showing LeaderBoard: " + leaderboardID);
 				}
 				GameCenterPlatform.ShowLeaderboardUI (leaderboardID, 
 			    	                                  TimeScope.Today);
 			} else if (Application.platform == RuntimePlatform.Android) {
-
 				if (Debug.isDebugBuild) {
-					Debug.Log ("GooglePlayGames.PlayGamesPlatform.Instance = " + GooglePlayGames.PlayGamesPlatform.Instance);
+					Debug.Log ("DBANKS Android Showing leaderboard.");
 				}
-				GooglePlayGames.PlayGamesPlatform.Instance.ShowLeaderboardUI();
+				PlayGamesPlatform.Instance.ShowLeaderboardUI();
+				if (Debug.isDebugBuild) {
+					Debug.Log ("DBANKS Android Showed leaderboard.");
+				}
 			}
 		});
+		if (Debug.isDebugBuild) {
+			Debug.Log ("DBANKS Called authenticate");
+		}
 	}
 
 	public void ShowAchievements() {
