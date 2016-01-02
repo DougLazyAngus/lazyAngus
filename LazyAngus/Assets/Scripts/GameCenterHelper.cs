@@ -46,15 +46,15 @@ public class GameCenterHelper : MonoBehaviour {
 			socialHelperEnabled = true;
 			leaderboardID = iOSLeaderboardID;
 
-			platformSpecificIdStrings[(int)AchievementID.DOUBLE_KILL] = "grp.DoubleKill";
-			platformSpecificIdStrings[(int)AchievementID.TRIPLE_KILL] = "grp.TripleKill";
-			platformSpecificIdStrings[(int)AchievementID.QUAD_KILL] = "grp.QuadKill";
-			platformSpecificIdStrings[(int)AchievementID.ULTRA_KILL] = "grp.UltraKill";
+			platformSpecificIdStrings [(int)AchievementID.DOUBLE_KILL] = "grp.DoubleKill";
+			platformSpecificIdStrings [(int)AchievementID.TRIPLE_KILL] = "grp.TripleKill";
+			platformSpecificIdStrings [(int)AchievementID.QUAD_KILL] = "grp.QuadKill";
+			platformSpecificIdStrings [(int)AchievementID.ULTRA_KILL] = "grp.UltraKill";
 
-			platformSpecificIdStrings[(int)AchievementID.WAVE_05] = "grp.Wave05";
-			platformSpecificIdStrings[(int)AchievementID.WAVE_10] = "grp.Wave10";
-			platformSpecificIdStrings[(int)AchievementID.WAVE_20] = "grp.Wave20";
-			platformSpecificIdStrings[(int)AchievementID.WAVE_40] = "grp.Wave40";
+			platformSpecificIdStrings [(int)AchievementID.WAVE_05] = "grp.Wave05";
+			platformSpecificIdStrings [(int)AchievementID.WAVE_10] = "grp.Wave10";
+			platformSpecificIdStrings [(int)AchievementID.WAVE_20] = "grp.Wave20";
+			platformSpecificIdStrings [(int)AchievementID.WAVE_40] = "grp.Wave40";
 		} else if (Application.platform == RuntimePlatform.Android) {
 			socialHelperEnabled = true;
 			/*
@@ -71,13 +71,24 @@ public class GameCenterHelper : MonoBehaviour {
 			platformSpecificIdStrings[(int)AchievementID.WAVE_40] = LazyAngus.GPGSIds.achievement_wave_40;
 */
 			PlayGamesClientConfiguration pgcConfig = 
-				new PlayGamesClientConfiguration.Builder().Build();
+				new PlayGamesClientConfiguration.Builder ().Build ();
 			
-			PlayGamesPlatform.InitializeInstance(pgcConfig);
+			PlayGamesPlatform.InitializeInstance (pgcConfig);
 			// recommended for debugging:
 			PlayGamesPlatform.DebugLogEnabled = true;
 			// Activate the Google Play Games platform
-			PlayGamesPlatform.Activate();
+			PlayGamesPlatform.Activate ();
+
+			// And authenticate right away.
+			Authenticate (success => {
+				if (Debug.isDebugBuild) {
+					if (success) {
+						Debug.Log ("DBANKS: Game Center startup Auth succeeded");
+					} else {
+						Debug.Log ("DBANKS: Game Center startup Auth failed");
+					}
+				}
+			});
 		}
 	}
 
