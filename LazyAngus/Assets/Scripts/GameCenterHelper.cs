@@ -20,7 +20,7 @@ public class GameCenterHelper : MonoBehaviour {
 	}
 
 	string iOSLeaderboardID = "grp.LazyAngusBeta2";
-// 	string androidLeaderboardID = LazyAngus.GPGSIds.leaderboard_top_scores;
+	string androidLeaderboardID = LazyAngus.GPGSIds.leaderboard_top_scores;
 
 	public static GameCenterHelper instance;
 	
@@ -57,7 +57,7 @@ public class GameCenterHelper : MonoBehaviour {
 			platformSpecificIdStrings [(int)AchievementID.WAVE_40] = "grp.Wave40";
 		} else if (Application.platform == RuntimePlatform.Android) {
 			socialHelperEnabled = true;
-			/*
+
 			leaderboardID = androidLeaderboardID;
 
 			platformSpecificIdStrings[(int)AchievementID.DOUBLE_KILL] = LazyAngus.GPGSIds.achievement_double_kill;
@@ -69,7 +69,7 @@ public class GameCenterHelper : MonoBehaviour {
 			platformSpecificIdStrings[(int)AchievementID.WAVE_10] = LazyAngus.GPGSIds.achievement_wave_10;
 			platformSpecificIdStrings[(int)AchievementID.WAVE_20] = LazyAngus.GPGSIds.achievement_wave_20;
 			platformSpecificIdStrings[(int)AchievementID.WAVE_40] = LazyAngus.GPGSIds.achievement_wave_40;
-*/
+
 			PlayGamesClientConfiguration pgcConfig = 
 				new PlayGamesClientConfiguration.Builder ().Build ();
 			
@@ -105,12 +105,6 @@ public class GameCenterHelper : MonoBehaviour {
 						// This doesn't seem to work.
 						// Doing my own manual version.
 						GameCenterPlatform.ShowDefaultAchievementCompletionBanner(true);
-
-						/*
-						Debug.Log ("Calling : DebugScoreAndAchievement 001");
-						StartCoroutine(DebugScoreAndAchievement());
-						Debug.Log ("Calling : DebugScoreAndAchievement 002");
-						*/
 					}
 				}
 

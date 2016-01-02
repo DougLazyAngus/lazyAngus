@@ -25,7 +25,15 @@ namespace LazyAngus
 {
 public static class GPGSIds
 {
+        public const string achievement_wave_10 = "CgkInaXomb8fEAIQBA"; // <GPGSID>
         public const string leaderboard_top_scores = "CgkInaXomb8fEAIQAA"; // <GPGSID>
+        public const string achievement_double_kill = "CgkInaXomb8fEAIQBw"; // <GPGSID>
+        public const string achievement_wave_5 = "CgkInaXomb8fEAIQAw"; // <GPGSID>
+        public const string achievement_wave_40 = "CgkInaXomb8fEAIQBg"; // <GPGSID>
+        public const string achievement_triple_kill = "CgkInaXomb8fEAIQCA"; // <GPGSID>
+        public const string achievement_wave_20 = "CgkInaXomb8fEAIQBQ"; // <GPGSID>
+        public const string achievement_ultra_kill = "CgkInaXomb8fEAIQCg"; // <GPGSID>
+        public const string achievement_quad_kill = "CgkInaXomb8fEAIQCQ"; // <GPGSID>
 
 }
 }
