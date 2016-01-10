@@ -23,43 +23,30 @@ public class GoogleAdController : MonoBehaviour {
 	public string androidInterstitialAdId;
 
 	void Awake() {
-		Debug.Log ("DBANKS: GoogleAdController 01");
 		instance = this;
-		Debug.Log ("DBANKS: GoogleAdController 02");
 		bannerView = new BannerView (GetBannerAdUnitId(), 
 		                                                AdSize.SmartBanner,
 		                                                AdPosition.Bottom);
-		Debug.Log ("DBANKS: GoogleAdController 03");
 		bannerView.LoadAd (MakeAdRequest());
-		Debug.Log ("DBANKS: GoogleAdController 04");
 		bannerView.AdLoaded += OnBannerAdLoaded;
-		Debug.Log ("DBANKS: GoogleAdController 05");
 		bannerView.Hide ();
 
-		Debug.Log ("DBANKS: GoogleAdController 06");
 		PrepInterstitialAd ();
-		Debug.Log ("DBANKS: GoogleAdController 07");
 	}
 
 
 	void PrepInterstitialAd() {
-		Debug.Log ("DBANKS: GoogleAdController 08");
 		if (Debug.isDebugBuild) {
 			Debug.Log ("Setting up interstitialAd");
 		}
 
-		Debug.Log ("DBANKS: GoogleAdController 09");
 		interstitialAd = new InterstitialAd (GetInterstitialAdUnitId());
-		Debug.Log ("DBANKS: GoogleAdController 10");
 		interstitialAd.AdLoaded += OnInterstitialAdLoaded;
 		interstitialAd.AdOpened += OnInterstitialAdOpened;
 		interstitialAd.AdClosed += OnInterstitialAdClosed;
-		Debug.Log ("DBANKS: GoogleAdController 11");
 		interstitialAd.AdFailedToLoad += OnInterstitialAdFailedToLoad;
 		
-		Debug.Log ("DBANKS: GoogleAdController 12");
 		interstitialAd.LoadAd (MakeAdRequest ());
-		Debug.Log ("DBANKS: GoogleAdController 13");
 	}
 
 

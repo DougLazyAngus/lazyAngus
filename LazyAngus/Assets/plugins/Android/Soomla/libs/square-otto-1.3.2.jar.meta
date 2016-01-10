@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1f3aa214026d84b6a992ccdbe9fe456c
+guid: 30a5d8edbd6024dee887118a66093265
 labels:
 - soomla
 - store
@@ -27,7 +27,7 @@ labels:
 - stans assets
 - transaction
 - payment
-TextScriptImporter:
+DefaultImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 

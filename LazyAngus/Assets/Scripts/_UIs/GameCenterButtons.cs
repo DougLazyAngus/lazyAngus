@@ -99,7 +99,9 @@ public class GameCenterButtons : MonoBehaviour {
 	}
 
 	public void NoAds() {
+		Debug.Log ("DOUG BANKS 001");
 		StoreController.instance.BuyUpgrade ();
+		Debug.Log ("DOUG BANKS 002");
 	}
 
 	void OnStoreChanged() {

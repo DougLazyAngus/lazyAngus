@@ -189,27 +189,46 @@ public class StoreController : MonoBehaviour {
 	}
 	
 	public void BuyUpgrade() {
+		Debug.Log ("DOUG BANKS 101");
+
 		if (IsUpgradePurchased ()) {
+			Debug.Log ("DOUG BANKS 102");
 			return;
 		}
 
+		Debug.Log ("DOUG BANKS 103");
 		GameObject upgradeDialogGameObject = Instantiate (upgradeDialogPrototype, 
 		                                                 new Vector2 (0, yOffset),
 		                                                 Quaternion.identity) as GameObject;
+		Debug.Log ("DOUG BANKS 104");
 		UpgradeDialog ud = upgradeDialogGameObject.GetComponent<UpgradeDialog> ();
+		Debug.Log ("DOUG BANKS 105");
 		ud.SetHandler (OnDialogResult);
-		
+		Debug.Log ("DOUG BANKS 106");
+
 		DialogController.instance.ShowDialog (ud);
+		Debug.Log ("DOUG BANKS 107");
 	}
 
 	void OnDialogResult(bool result) {
+		Debug.Log ("DOUG BANKS 201");
 		if (result) {
+			Debug.Log ("DOUG BANKS 202");
 			StoreInventory.BuyItem (SoomlaStoreAssets.BASIC_UPGRADE_ID);
 		}
+		Debug.Log ("DOUG BANKS 203");
 	}
 
 	public bool IsUpgradePurchased() {
-		int count = StoreInventory.GetItemBalance (SoomlaStoreAssets.BASIC_UPGRADE_ID);
-		return (count > 0);
+		Debug.Log ("DOUG BANKS 301");
+		try {
+			int count = StoreInventory.GetItemBalance (SoomlaStoreAssets.BASIC_UPGRADE_ID);
+			Debug.Log ("DOUG BANKS 302");
+			return (count > 0);
+		} catch (UnityException e) {
+			Debug.Log ("DOUG BANKS 303");
+			Debug.Log ("DOUG BANKS: " + e);
+			return false;
+		}
 	}
 }
