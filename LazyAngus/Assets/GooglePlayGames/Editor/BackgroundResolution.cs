@@ -64,6 +64,10 @@ namespace GooglePlayGames
                 "play-services-plus",
                 PluginVersion.PlayServicesVersionConstraint);
 
+			svcSupport.DependOn("com.google.android.gms", 
+			                    "play-services-ads", 
+			                    PluginVersion.PlayServicesVersionConstraint); 
+
             //Marshmallow permissions requires app-compat
             svcSupport.DependOn("com.android.support",
                 "appcompat-v7",
