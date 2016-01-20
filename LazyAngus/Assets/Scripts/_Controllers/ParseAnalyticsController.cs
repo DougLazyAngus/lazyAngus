@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using Parse;
+// using Parse;
 
 public class ParseAnalyticsController : MonoBehaviour {
 
@@ -9,7 +9,7 @@ public class ParseAnalyticsController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		ParseAnalytics.TrackAppOpenedAsync ();
+// 		ParseAnalytics.TrackAppOpenedAsync ();
 
 		RegisterForEvents ();	
 	}
@@ -55,7 +55,7 @@ public class ParseAnalyticsController : MonoBehaviour {
 		boostActiveEvent ["boostUsed"] = "" + bType;
 		boostActiveEvent["nthUsage"] = "" + PlayerStats.instance.GetPurchasedBoostCount (bType);
 
-		ParseAnalytics.TrackEventAsync ("BoostActive", boostActiveEvent);
+// 		ParseAnalytics.TrackEventAsync ("BoostActive", boostActiveEvent);
 	}
 
 	void OnGamePhaseChanged() {
@@ -77,6 +77,6 @@ public class ParseAnalyticsController : MonoBehaviour {
 			(PlayerStats.instance.GetHighScore () == PlayerStats.instance.gameScore) ? 
 				"true" :
 				"false";
-		ParseAnalytics.TrackEventAsync ("GameOver", gameOverEvent);
+// 		ParseAnalytics.TrackEventAsync ("GameOver", gameOverEvent);
 	}
 }

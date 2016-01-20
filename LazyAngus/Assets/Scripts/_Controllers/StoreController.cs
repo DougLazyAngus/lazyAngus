@@ -20,7 +20,9 @@ public class StoreController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		Debug.Log ("DOUG BANKS 601");
 		SoomlaStore.Initialize (new SoomlaStoreAssets ());
+		Debug.Log ("DOUG BANKS 602");
 		RegisterForEvents ();
 	}
 
@@ -105,18 +107,21 @@ public class StoreController : MonoBehaviour {
 	
 	void onStoreInitialized() {
 		if (Debug.isDebugBuild) { 
+			Debug.Log ("DOUG BANKS 901");
 			Debug.Log ("onStoreInitialized");
 		}
 	}
 
 	void onBillingNotSupported() {
 		if (Debug.isDebugBuild) {
+			Debug.Log ("DOUG BANKS 1001");
 			Debug.Log("onBillingNotSupported");
 		}
 	}
 	
 	void onBillingSupported() {
 		if (Debug.isDebugBuild) {
+			Debug.Log ("DOUG BANKS 1101");
 			Debug.Log("onBillingSupported");
 		}
 	}

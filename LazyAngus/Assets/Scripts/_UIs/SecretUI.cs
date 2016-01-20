@@ -71,6 +71,10 @@ public class SecretUI : MonoBehaviour {
 	public void DebugShowSharing() {
 		LaunchShareWidget (100, true);
 	}
+	
+	public void DebugTwitter() {
+		SAMobileSocialHelper.instance.ShareScoreOnTwitter (123);
+	}
 
 	public void DebugInterstitialAds() {
 		GoogleAdController.instance.DebugInterstitialAds ();

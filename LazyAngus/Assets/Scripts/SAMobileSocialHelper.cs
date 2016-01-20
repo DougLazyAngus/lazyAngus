@@ -24,7 +24,7 @@ public class SAMobileSocialHelper : MonoBehaviour
 	void Start ()
 	{
 		instance = this;
-// 		SPTwitter.instance.Init ();
+ 		SPTwitter.instance.Init ();
 		FB.Init (OnFBInitComplete);
 
 	}
@@ -42,7 +42,7 @@ public class SAMobileSocialHelper : MonoBehaviour
 		string message = Utilities.GetShareMessageForScore (score);
 		message += " #LazyAngus";
 		
-		// SPShareUtility.TwitterShare (message, lazyAngusIcon);
+		SPShareUtility.TwitterShare (message, lazyAngusIcon);
 	}
 
 	private void OnFBInitComplete ()

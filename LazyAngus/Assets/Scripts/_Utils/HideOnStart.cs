@@ -13,7 +13,7 @@ public class HideOnStart : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		count += 1;
-		if (count > 200) {
+		if (count > 10) {
 			gameObject.SetActive (false);
 		}
 	}
