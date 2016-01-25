@@ -16,11 +16,13 @@ public class StoreController : MonoBehaviour {
 
 	void Awake() {
 		instance = this;
+		Debug.Log ("DOUG BANKS 2001");
+		SoomlaStore.Initialize (new SoomlaStoreAssets ());
+		Debug.Log ("DOUG BANKS 2002");
 	}
 
 	// Use this for initialization
 	void Start () {
-		SoomlaStore.Initialize (new SoomlaStoreAssets ());
 		RegisterForEvents ();
 	}
 

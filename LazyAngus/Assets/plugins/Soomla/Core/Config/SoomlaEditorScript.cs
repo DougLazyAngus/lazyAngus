@@ -240,12 +240,14 @@ namespace Soomla
 
         public static void LatestVersionField(string moduleId, string currentVersion, string versionPrompt, string downloadLink)
 		{
+			/*
 			if (www == null || (www.error != null && www.error.Length > 0)) {
 				www = new WWW("http://library.soom.la/fetch/info");
 			}
+			*/
 			string latestVersion = null;
 			if (versionJson == null) {
-				if (www.isDone) {
+				if (false) {
 					versionJson = new JSONObject(www.text);
 				}
 				DirtyEditor();

@@ -16,11 +16,6 @@ public class CSVReader
 {
     public delegate void ReadLineDelegate(int line_index, List<string> line);
 
-    public static void LoadFromFile(string file_name, ReadLineDelegate line_reader)
-    {
-        LoadFromString(File.ReadAllText(file_name), line_reader);
-    }
-
 	public static void LoadFromTextAsset(TextAsset textAsset, ReadLineDelegate line_reader) {
 		LoadFromString (textAsset.text, line_reader);
 	}

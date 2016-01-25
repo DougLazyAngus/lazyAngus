@@ -288,7 +288,8 @@ public class Utilities
 
 	public static string AddTextColor (string input, Color color)
 	{
-		return "<color=#" + color.ToHexStringRGB () + ">" + input + "</color>";
+		string colorString = color.ToString ();
+		return "<color=#" + colorString + ">" + input + "</color>";
 	}
 	
 	public static string AddFontSize (string input, int size)

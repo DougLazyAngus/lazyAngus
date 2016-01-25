@@ -3,7 +3,7 @@ using System.Collections;
 
 public class RatingsHelper : MonoBehaviour {
 	string iosAppID = "1049415206";
-	string androidPackageName = "com.snackfortgames.lazyangus";
+	string androidPackageName = "com.snackfortgames.lazyangus_android";
 	public static RatingsHelper instance;
 
 	void Awake() {
