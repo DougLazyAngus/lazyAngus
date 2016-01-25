@@ -286,9 +286,29 @@ public class Utilities
 		mesh.RecalculateNormals ();
 	}
 
+	public static string GetHex (int decimalInt) {
+		string alpha = "0123456789ABCDEF";
+		return "" + alpha[decimalInt];
+	}
+
+	public static string RGBToHex (Color color) {
+		float red = (color.r * 255);
+		float green = (color.g * 255);
+		float blue = (color.b * 255);
+
+		string a = GetHex((int)(Mathf.Floor(red / 16)));
+		string b = GetHex((int)(Mathf.Round(red % 16)));
+		string c = GetHex((int)(Mathf.Floor(green / 16)));
+		string d = GetHex((int)(Mathf.Round(green % 16)));
+		string e = GetHex((int)(Mathf.Floor(blue / 16)));
+		string f = GetHex((int)(Mathf.Round(blue % 16)));
+
+		return a + b + c + d + e + f;
+	}
+
 	public static string AddTextColor (string input, Color color)
 	{
-		string colorString = color.ToString ();
+		string colorString = RGBToHex (color);
 		return "<color=#" + colorString + ">" + input + "</color>";
 	}
 	
