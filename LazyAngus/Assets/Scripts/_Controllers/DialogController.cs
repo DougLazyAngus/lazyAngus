@@ -9,7 +9,7 @@ public class DialogController : MonoBehaviour {
 	void Awake() {
 		instance = this;
 	}
-
+		
 	public void ShowDialog(Dialog dialog) {
 		activeDialog = dialog;
 

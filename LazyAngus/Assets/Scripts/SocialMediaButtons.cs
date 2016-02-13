@@ -26,8 +26,10 @@ public class SocialMediaButtons : MonoBehaviour {
 			twitterButton.gameObject.SetActive (false);
 			shareButton.gameObject.SetActive (true);
 		} else {
-			fbButton.gameObject.SetActive (true);
-			twitterButton.gameObject.SetActive (true);
+			// FIXME(dbanks(
+			// These don't work on Android.
+			fbButton.gameObject.SetActive (false);
+			twitterButton.gameObject.SetActive (false);
 			shareButton.gameObject.SetActive (false);
 		}
 	}

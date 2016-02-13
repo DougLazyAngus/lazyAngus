@@ -25,7 +25,7 @@ public class PausedOverlay : MonoBehaviour {
 		RegisterForEvents ();
 		UpdateUX ();
 	}	
-	
+		
 	void RegisterForEvents() {
 		TimeController.instance.TimeStateChanged += new TimeController.TimeStateChangedEventHandler (OnPauseChanged);
 		

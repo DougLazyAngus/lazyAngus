@@ -42,8 +42,6 @@ public class LazyAngusStrings: MonoBehaviour
 
 		mainStringMap = makeMapForLanguage(language);
 		defaultStringMap = makeMapForLanguage(SystemLanguage.English);
-		int foo = 5;
-		foo = foo * foo;
 	}
 
 	Dictionary<string, string> makeMapForLanguage(SystemLanguage language) {

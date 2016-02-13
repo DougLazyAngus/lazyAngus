@@ -80,6 +80,10 @@ public class GameCenterButtons : MonoBehaviour {
 
 		Utilities.SpaceHorizontally (Screen.width, firstRowButtons, firstRowOffset);
 		Utilities.SpaceHorizontally (Screen.width, secondRowButtons, secondRowOffset);
+
+		// Not working on Android right now.
+		noAdsButton.gameObject.SetActive(false);
+		catFaceButton.gameObject.SetActive (false);
 	}
 
 	public void ShowLeaderboard() {

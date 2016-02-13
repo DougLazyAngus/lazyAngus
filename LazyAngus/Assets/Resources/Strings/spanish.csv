@@ -29,7 +29,7 @@ REAL_ANGUS_FACT_09,"Siempre fue un gato grandote, pero con el tiempo se puso inm
 REAL_ANGUS_FACT_10,"La nueva casa para gatos fue todo un éxito. El chisme ese de la pelota roja duró dos segundos.","Caption on a picture of the real cat, Angus"
 REAL_ANGUS_FACT_11,"Angus era lo más cariñoso y dócil del mundo. Era como un bizcochito recién sacado del horno enrollado en una mantita peluda.","Caption on a picture of the real cat, Angus"
 REAL_ANGUS_FACT_12,"Murió en agosto de 2014. Me partió el corazón. Te echamos de menos, Angus...","Caption on a picture of the real cat, Angus"
-RATE_ME,"¿Te gusta Lazy Angus?\n¡Danos 5 estrellas!","Dialog: rate the app?"
+RATE_ME,"¿Te gusta Lazy Angus?\n¡Danos estrellas!","Dialog: rate the app?"
 RATE_ME_OK,¡Vale!,"yes, rate the app"
 RATE_ME_LATER,"Más tarde.","rate the app some other time"
 RATE_ME_NO_THANKS,"No, gracias.","no I don't want to rate the app"
