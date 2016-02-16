@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+// Handler for 'Back' button on Android.
+
 public class BackButtonController : MonoBehaviour {
 
 	// Use this for initialization
@@ -11,6 +13,14 @@ public class BackButtonController : MonoBehaviour {
 	// Update is called once per frame
 	void Update() {
 		if (Input.GetKeyDown (KeyCode.Escape)) {
+			// First priority: 
+			// If a dialog is showing, kill it.
+			if (DialogController.instance.IsDialogShowing ()) {
+				DialogController.instance.HideAnyDialog ();
+				return;
+			}
+
+
 			switch (GamePhaseState.instance.gamePhase)  {
 			case GamePhaseState.GamePhaseType.LEVEL_PLAY:
 				if (TimeController.instance.timeState == TimeController.TimeState.PLAYING) {
@@ -31,6 +41,12 @@ public class BackButtonController : MonoBehaviour {
 			case GamePhaseState.GamePhaseType.CAT_FACES:
 				GamePhaseState.instance.TransitionToPhase (
 					GamePhaseState.instance.previousGamePhase);
+				break;
+			case GamePhaseState.GamePhaseType.GAME_OVER:
+				Application.Quit ();
+				break;
+			case GamePhaseState.GamePhaseType.WELCOME:
+				Application.Quit ();
 				break;
 			} 
 		}

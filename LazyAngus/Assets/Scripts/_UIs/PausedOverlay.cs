@@ -27,14 +27,16 @@ public class PausedOverlay : MonoBehaviour {
 	}	
 		
 	void RegisterForEvents() {
-		TimeController.instance.TimeStateChanged += new TimeController.TimeStateChangedEventHandler (OnPauseChanged);
+		TimeController.instance.TimeStateChanged += 
+			new TimeController.TimeStateChangedEventHandler (OnPauseChanged);
 		
 		registeredForEvents = true;
 	}
 	
 	void UnregisterForEvents() {
 		if (registeredForEvents) {
-			TimeController.instance.TimeStateChanged -= new TimeController.TimeStateChangedEventHandler (OnPauseChanged);
+			TimeController.instance.TimeStateChanged -= 
+				new TimeController.TimeStateChangedEventHandler (OnPauseChanged);
 		}
 	}		
 

@@ -19,6 +19,12 @@ public class DialogController : MonoBehaviour {
 		TimeController.instance.SetTimeState (TimeController.TimeState.PAUSE_FOR_DIALOG);
 	}
 
+	public void HideAnyDialog() {
+		if (activeDialog) {
+			HideDialog (activeDialog);
+		}
+	}
+
 	public void HideDialog(Dialog dialog) {
 		if (dialog != activeDialog) {
 			return;
