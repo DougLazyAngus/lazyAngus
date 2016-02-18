@@ -164,7 +164,7 @@ public class SAMobileSocialHelper : MonoBehaviour
 			Debug.Log ("TwitterSharing.ShareScoreInternal");
 		}
 
-		string message = Utilities.GetShareMessageForScore (score);
+//		string message = Utilities.GetShareMessageForScore (score);
 // 		SPTwitter.instance.Post (message, lazyAngusIcon);
 	}
 	

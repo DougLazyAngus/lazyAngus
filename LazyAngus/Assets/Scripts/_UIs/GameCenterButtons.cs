@@ -81,9 +81,24 @@ public class GameCenterButtons : MonoBehaviour {
 		Utilities.SpaceHorizontally (Screen.width, firstRowButtons, firstRowOffset);
 		Utilities.SpaceHorizontally (Screen.width, secondRowButtons, secondRowOffset);
 
-		// Not working on Android right now.
-		noAdsButton.gameObject.SetActive(false);
-		catFaceButton.gameObject.SetActive (false);
+		if (ShouldHideStoreButtons()) {
+			// Skip the second row.
+			for (int i = 0; i < secondRowButtons.Length; i++) {
+				secondRowButtons [i].SetActive (false);
+			}
+		}
+	}
+
+	private bool ShouldHideStoreButtons() {
+		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.WELCOME) {
+			// No room
+			return true;
+		}
+		if (Application.platform == RuntimePlatform.Android) {
+			// Store not working.
+			return true;
+		}
+		return false;
 	}
 
 	public void ShowLeaderboard() {

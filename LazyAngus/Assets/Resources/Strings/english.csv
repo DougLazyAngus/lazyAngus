@@ -6,7 +6,7 @@ INTRO_BOOST_FAST,"Cat food helps me move faster!","Explain power up that increas
 INTRO_BOOST_SEE,"This cat food helps me see better!","Explain power up that widens cat's field of view"
 INTRO_BOOST_GIANT,"Try new Giant Paws cat food!","Explain power up that makes cat paws bigger"
 INTRO_BOOST_FART,"This cat food makes me toot!","Explain power up that makes cat fart"
-TIP_EXPLAIN_BOOSTS,"Buy me cat food when you need some extra help!","Explain general idea of power ups"
+TIP_EXPLAIN_BOOSTS,"Buy me cat food for extra help!","Explain general idea of power ups"
 TIP_BOOST_FAST,"I feel frisky!\n\nLet's catch some mice while it lasts!","Message when fast powerup starts"
 TIP_BOOST_SEE,"Better eyesight means less turning!","Message when vision powerup starts"
 TIP_BOOST_GIANT,"No mouse shall escape my mighty paws!","Message when giant paws powerup starts"
