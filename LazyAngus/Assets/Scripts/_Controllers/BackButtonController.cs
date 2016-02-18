@@ -9,7 +9,15 @@ public class BackButtonController : MonoBehaviour {
 	void Start () {
 	
 	}
-	
+
+	void OnApplicationPause(bool pauseStatus) {
+		if (GamePhaseState.instance.gamePhase == GamePhaseState.GamePhaseType.LEVEL_PLAY) {
+			TimeController.instance.SetTimeState (TimeController.TimeState.COMPLETE_PAUSE);
+			PausedOverlay.instance.ShowSettingsButtons ();
+		}	
+	}
+
+
 	// Update is called once per frame
 	void Update() {
 		if (Input.GetKeyDown (KeyCode.Escape)) {
