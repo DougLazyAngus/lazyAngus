@@ -16,7 +16,6 @@ public class TipDialog : Dialog {
 		float textHeight = textRectTransform.rect.height;
 		float myHeight = myRectTransform.rect.height;
 		calculatedFudge = myHeight - textHeight;
-
 	}
 
 	public void CloseDialog() {

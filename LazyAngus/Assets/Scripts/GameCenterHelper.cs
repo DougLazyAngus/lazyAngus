@@ -6,6 +6,7 @@ using GooglePlayGames;
 using GooglePlayGames.BasicApi;
 
 public class GameCenterHelper : MonoBehaviour {
+	public const string refusedAuthValueName = "refusedAuth";
 
 	public enum AchievementID {
 		DOUBLE_KILL = 0,
@@ -79,25 +80,39 @@ public class GameCenterHelper : MonoBehaviour {
 			// Activate the Google Play Games platform
 			PlayGamesPlatform.Activate ();
 
-			// And authenticate right away.
-			Authenticate (success => {
-				if (Debug.isDebugBuild) {
-					if (success) {
-						Debug.Log ("DBANKS: Game Center startup Auth succeeded");
-					} else {
-						Debug.Log ("DBANKS: Game Center startup Auth failed");
+			// Did user previously refuse to authenticate?
+			bool userPreviouslyRefused = PersistentStorage.instance.GetBoolValue (refusedAuthValueName, false);
+			Debug.Log ("DBANKS: userPreviouslyRefused: " + userPreviouslyRefused);
+
+			if (!userPreviouslyRefused) {
+				// And authenticate right away, iff they did not previously refure.
+				Authenticate (success => {
+					if (Debug.isDebugBuild) {
+						if (success) {
+							Debug.Log ("DBANKS: Game Center startup Auth succeeded");
+						} else {
+							Debug.Log ("DBANKS: Game Center startup Auth failed");
+						}
 					}
-				}
-			});
+				});
+			}			
 		}
 	}
 
 	public void Authenticate(System.Action<bool> handler) {
 		if (socialHelperEnabled) {
 			Social.localUser.Authenticate (success => {
+				Debug.Log("\n\nDBANKS: did it work? " + success + " \n\nNow we know\n\n");
 				if (Debug.isDebugBuild) {
 					Debug.Log ("Authenticate called back with success: " + success);
 				}
+
+				// Remember this result.
+				bool userRefused = !success;
+				Debug.Log ("DBANKS: 2 setting userPreviouslyRefused: " + userRefused);
+				PersistentStorage.instance.SetBoolValue(refusedAuthValueName, 
+					!success);
+				Debug.Log ("DBANKS: now userPreviouslyRefused = : " +  PersistentStorage.instance.GetBoolValue (refusedAuthValueName, false));
 
 				if (success) {
 					if (Application.platform == RuntimePlatform.IPhonePlayer) {

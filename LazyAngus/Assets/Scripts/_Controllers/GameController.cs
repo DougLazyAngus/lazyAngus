@@ -28,24 +28,6 @@ public class GameController : MonoBehaviour {
 
 		GameLevelState.instance.SetGameLevel (1);
 		GamePhaseState.instance.RestartGame ();
-
-		GameCenterHelper.instance.Authenticate (success => {
-			if (success) {
-				if (Debug.isDebugBuild) {
-					Debug.Log ("Authentication successful");
-				}
-				string userInfo = "Username: " + Social.localUser.userName + 
-					"\nUser ID: " + Social.localUser.id + 
-					"\nIsUnderage: " + Social.localUser.underage;
-				if (Debug.isDebugBuild) {
-					Debug.Log (userInfo);
-				}
-			} else {
-				if (Debug.isDebugBuild) {
-				Debug.Log ("Authentication failed");
-				}
-			}
-		});
 	}
 
 	void Update() {

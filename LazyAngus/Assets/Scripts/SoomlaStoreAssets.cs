@@ -46,12 +46,11 @@ public class SoomlaStoreAssets: IStoreAssets {
 	public static VirtualGood BASIC_UPGRADE = new LifetimeVG(
 		"Lazy Upgrade",                             // Name
 		"The Lazy Upgrade makes the game ad-free, and allows you to customize Angus' fur!",                       // Description
-		"soomla_basic_upgrade_id",                          // Item ID
+		BASIC_UPGRADE_ID,                          // Item ID
 		new PurchaseWithMarket(               // Purchase type (with real money $)
-	                       "soomla_basic_upgrade_id",                      // Product ID
-	                       1.99                                   // Price (in real money $)
-	                       )
-		);
+			BASIC_UPGRADE_ID,                      // Product ID
+			1.99                                   // Price (in real money $)
+		));
 	
 	/** Virtual Categories **/
 	

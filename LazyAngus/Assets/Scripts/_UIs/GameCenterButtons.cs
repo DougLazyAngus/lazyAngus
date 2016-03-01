@@ -78,8 +78,11 @@ public class GameCenterButtons : MonoBehaviour {
 		}
 		catFaceButton.gameObject.SetActive (true);
 
-		Utilities.SpaceHorizontally (Screen.width, firstRowButtons, firstRowOffset);
-		Utilities.SpaceHorizontally (Screen.width, secondRowButtons, secondRowOffset);
+
+		// FIXME(dbanks)
+		// Doesn't seem to be working right on Android. :(
+		// Utilities.SpaceHorizontally (Screen.width, firstRowButtons, firstRowOffset);
+		// Utilities.SpaceHorizontally (Screen.width, secondRowButtons, secondRowOffset);
 
 		if (ShouldHideStoreButtons()) {
 			// Skip the second row.
@@ -94,10 +97,12 @@ public class GameCenterButtons : MonoBehaviour {
 			// No room
 			return true;
 		}
+
 		if (Application.platform == RuntimePlatform.Android) {
 			// Store not working.
 			return true;
 		}
+
 		return false;
 	}
 
