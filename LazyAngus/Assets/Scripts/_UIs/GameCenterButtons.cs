@@ -98,10 +98,12 @@ public class GameCenterButtons : MonoBehaviour {
 			return true;
 		}
 
+		/*
 		if (Application.platform == RuntimePlatform.Android) {
 			// Store not working.
 			return true;
 		}
+*/
 
 		return false;
 	}

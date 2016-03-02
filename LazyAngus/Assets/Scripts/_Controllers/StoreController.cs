@@ -16,13 +16,13 @@ public class StoreController : MonoBehaviour {
 
 	void Awake() {
 		instance = this;
-		Debug.Log ("DOUG BANKS 2001");
-		SoomlaStore.Initialize (new SoomlaStoreAssets ());
-		Debug.Log ("DOUG BANKS 2002");
 	}
 
 	// Use this for initialization
 	void Start () {
+		Debug.Log ("DOUG BANKS 2001");
+		SoomlaStore.Initialize (new SoomlaStoreAssets ());
+		Debug.Log ("DOUG BANKS 2002");
 		RegisterForEvents ();
 	}
 
@@ -107,31 +107,31 @@ public class StoreController : MonoBehaviour {
 	
 	void onStoreInitialized() {
 		if (Debug.isDebugBuild) { 
-			Debug.Log ("onStoreInitialized");
+			Debug.Log ("DOUG BANKS: onStoreInitialized");
 		}
 	}
 
 	void onBillingNotSupported() {
 		if (Debug.isDebugBuild) {
-			Debug.Log("onBillingNotSupported");
+			Debug.Log("DOUG BANKS: onBillingNotSupported");
 		}
 	}
 	
 	void onBillingSupported() {
 		if (Debug.isDebugBuild) {
-			Debug.Log("onBillingSupported");
+			Debug.Log("DOUG BANKS: onBillingSupported");
 		}
 	}
 	
 	void onGoodBalanceChanged(VirtualGood vg, int c1, int c2) {
 		if (Debug.isDebugBuild) {
-			Debug.Log("onGoodBalanceChanged");
+			Debug.Log("DOUG BANKS: onGoodBalanceChanged");
 		}
 	}
 	
 	void onItemPurchased(PurchasableVirtualItem i, string s) {
 		if (Debug.isDebugBuild) {
-			Debug.Log("onItemPurchased");
+			Debug.Log("DOUG BANKS: onItemPurchased");
 		}
 		if (StoreChanged != null) {
 			StoreChanged ();
@@ -140,13 +140,13 @@ public class StoreController : MonoBehaviour {
 	
 	void onItemPurchaseStarted(PurchasableVirtualItem i) {
 		if (Debug.isDebugBuild) {
-			Debug.Log("onItemPurchaseStarted");
+			Debug.Log("DOUG BANKS: onItemPurchaseStarted");
 		}
 	}
 	
 	void onMarketPurchaseCancelled(PurchasableVirtualItem i) {
 		if (Debug.isDebugBuild) {
-			Debug.Log ("onMarketPurchaseCancelled");
+			Debug.Log ("DOUG BANKS: onMarketPurchaseCancelled");
 		}
 	}
 	
@@ -154,7 +154,7 @@ public class StoreController : MonoBehaviour {
 	                      string s, 
 	                      Dictionary<string, string> d) {
 		if (Debug.isDebugBuild) {
-			Debug.Log("onMarketPurchase");
+			Debug.Log("DOUG BANKS: onMarketPurchase");
 		}
 		if (StoreChanged != null) {
 			StoreChanged ();
@@ -163,25 +163,25 @@ public class StoreController : MonoBehaviour {
 	
 	void onMarketPurchaseStarted(PurchasableVirtualItem i) {
 		if (Debug.isDebugBuild) {
-			Debug.Log("onMarketPurchaseStarted");
+			Debug.Log("DOUG BANKS: onMarketPurchaseStarted");
 		}
 	}
 
 	void onRestoreTransactionsFinished(bool b) {
 		if (Debug.isDebugBuild) {
-			Debug.Log("onRestoreTransactionsFinished");
+			Debug.Log("DOUG BANKS: onRestoreTransactionsFinished");
 		}
 	}
 
 	void onRestoreTransactionsStarted() {
 		if (Debug.isDebugBuild) {
-			Debug.Log("onRestoreTransactionsStarted");
+			Debug.Log("DOUG BANKS: onRestoreTransactionsStarted");
 		}
 	}
 
 	void onUnexpectedStoreError(int i) {
 		if (Debug.isDebugBuild) {
-			Debug.Log("OnUnexpectedStoreError");
+			Debug.Log("DOUG BANKS: OnUnexpectedStoreError: " + i);
 		}
 	}
 

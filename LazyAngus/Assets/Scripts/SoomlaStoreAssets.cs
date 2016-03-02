@@ -7,7 +7,9 @@ using Soomla.Store;
 
 public class SoomlaStoreAssets: IStoreAssets {
 
-	public static string BASIC_UPGRADE_ID = "soomla_basic_upgrade_id";
+// FIXME	public static string BASIC_UPGRADE_ID = "soomla_basic_upgrade_id";
+	public static string BASIC_UPGRADE_ID = "soomla_basic_upgrade_id2";
+
 
 	public SoomlaStoreAssets ()
 	{
